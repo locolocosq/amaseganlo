@@ -1,0 +1,121 @@
+[
+  {
+    "id": "lex_selam",
+    "am": "ሰላም",
+    "tr": "selam",
+    "pos": "interjection",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "Hallo", "en": "Hello", "sv": "Hej", "nl": "Hallo" },
+    "alt": { "de": ["Frieden"], "en": ["Peace", "Hi"] },
+    "hint": {
+      "de": "Wörtlich „Frieden“ - wird als Hallo und Tschüss benutzt.",
+      "en": "Literally \"peace\" - used for both hello and goodbye.",
+      "sv": "Betyder egentligen \"fred\" - används för både hej och hejdå.",
+      "nl": "Betekent letterlijk \"vrede\" - wordt gebruikt voor zowel hallo als tot ziens."
+    },
+    "emoji": "👋",
+    "verified": true
+  },
+  {
+    "id": "lex_ameseginalehu",
+    "am": "አመሰግናለሁ",
+    "tr": "ameseginalehu",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "Danke", "en": "Thank you", "sv": "Tack", "nl": "Dank je" },
+    "hint": {
+      "de": "Namensgeber dieser App.",
+      "en": "This app is named after this word.",
+      "sv": "Den här appen är döpt efter detta ord.",
+      "nl": "Deze app is naar dit woord genoemd."
+    },
+    "emoji": "🙏",
+    "verified": true
+  },
+  {
+    "id": "lex_awo",
+    "am": "አዎ",
+    "tr": "awo",
+    "pos": "particle",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "Ja", "en": "Yes", "sv": "Ja", "nl": "Ja" },
+    "emoji": "✅",
+    "verified": true
+  },
+  {
+    "id": "lex_aydelem",
+    "am": "አይደለም",
+    "tr": "aydelem",
+    "pos": "particle",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "Nein", "en": "No", "sv": "Nej", "nl": "Nee" },
+    "hint": {
+      "de": "Wörtlich eher „das ist nicht so“ - im Alltag das übliche Nein.",
+      "en": "Literally closer to \"that is not so\" - the everyday word for no.",
+      "sv": "Betyder mer ordagrant \"det är inte så\" - det vanliga vardagsordet för nej.",
+      "nl": "Betekent letterlijk meer \"dat is niet zo\" - het gewone alledaagse woord voor nee."
+    },
+    "emoji": "🚫",
+    "verified": false
+  },
+  {
+    "id": "lex_ibakih",
+    "am": "እባክህ",
+    "tr": "ibakih",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "Bitte", "en": "Please", "sv": "Snälla", "nl": "Alsjeblieft" },
+    "hint": {
+      "de": "Diese Form wird zu einem Mann gesagt - zu einer Frau sagt man „እባክሽ“ (ibakish).",
+      "en": "This form is used speaking to a man - to a woman it is \"እባክሽ\" (ibakish).",
+      "sv": "Den här formen används till en man - till en kvinna säger man \"እባክሽ\" (ibakish).",
+      "nl": "Deze vorm wordt gebruikt tegen een man - tegen een vrouw zeg je \"እባክሽ\" (ibakish)."
+    },
+    "emoji": "🙏",
+    "verified": false
+  },
+  {
+    "id": "lex_yikirta",
+    "am": "ይቅርታ",
+    "tr": "yikirta",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "Entschuldigung", "en": "Sorry / excuse me", "sv": "Ursäkta", "nl": "Sorry / pardon" },
+    "emoji": "😔",
+    "verified": false
+  },
+  {
+    "id": "lex_algebagnem",
+    "am": "አልገባኝም",
+    "tr": "algebagnim",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": {
+      "de": "Ich verstehe nicht",
+      "en": "I don't understand",
+      "sv": "Jag förstår inte",
+      "nl": "Ik begrijp het niet"
+    },
+    "emoji": "🤷",
+    "verified": false
+  },
+  {
+    "id": "lex_dehna",
+    "am": "ደህና",
+    "tr": "dehna",
+    "pos": "adjective",
+    "topic": "greetings",
+    "level": "A1.1",
+    "t": { "de": "gut / wohl", "en": "fine / well", "sv": "bra / väl", "nl": "goed / wel" },
+    "alt": { "de": ["in Ordnung"], "en": ["okay", "good"] },
+    "emoji": "🙂",
+    "verified": false
+  }
+]

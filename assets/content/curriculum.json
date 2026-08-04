@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "lexemeFiles": [
+    "lexemes_a1_1_greetings.json",
+    "lexemes_a1_1_me_you.json"
+  ],
+  "sentenceFiles": [
+    "sentences_a1_1.json"
+  ],
+  "sections": [
+    {
+      "id": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Niveau A1.1 — die ersten Schritte",
+        "en": "Level A1.1 — first steps",
+        "sv": "Nivå A1.1 — de första stegen",
+        "nl": "Niveau A1.1 — de eerste stappen"
+      },
+      "units": ["unit_erste_begegnung", "unit_ich_und_du"]
+    }
+  ],
+  "units": [
+    {
+      "id": "unit_erste_begegnung",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Erste Begegnung",
+        "en": "First encounter",
+        "sv": "Första mötet",
+        "nl": "Eerste ontmoeting"
+      },
+      "topic": "greetings",
+      "lessonFile": "unit_erste_begegnung_lessons.json"
+    },
+    {
+      "id": "unit_ich_und_du",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Ich und du",
+        "en": "Me and you",
+        "sv": "Jag och du",
+        "nl": "Ik en jij"
+      },
+      "topic": "pronouns",
+      "lessonFile": "unit_ich_und_du_lessons.json"
+    }
+  ]
+}

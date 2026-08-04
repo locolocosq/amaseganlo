@@ -1,0 +1,37 @@
+[
+  {
+    "id": "lesson_ich_und_du_intro",
+    "kind": "intro",
+    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "lesson_ich_und_du_words",
+    "kind": "wordPractice",
+    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
+    "sentenceIds": [],
+    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
+  },
+  {
+    "id": "lesson_ich_und_du_listening",
+    "kind": "listening",
+    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna"],
+    "sentenceIds": ["sen_ine_ityopiawi"],
+    "exerciseTypes": ["listenChoice"]
+  },
+  {
+    "id": "lesson_ich_und_du_free",
+    "kind": "freeApplication",
+    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
+    "sentenceIds": ["sen_ine_ityopiawi"],
+    "exerciseTypes": ["wordTyping", "sentenceTranslate"]
+  },
+  {
+    "id": "lesson_ich_und_du_review",
+    "kind": "review",
+    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
+    "sentenceIds": ["sen_ine_ityopiawi"],
+    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping"]
+  }
+]

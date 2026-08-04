@@ -1,0 +1,36 @@
+[
+  {
+    "id": "sen_dehna_negn",
+    "am": "ደህና ነኝ።",
+    "tr": "dehna negn.",
+    "level": "A1.1",
+    "uses": ["lex_dehna"],
+    "t": {
+      "de": "Mir geht es gut.",
+      "en": "I am fine.",
+      "sv": "Jag mår bra.",
+      "nl": "Het gaat goed met mij."
+    },
+    "alt": {
+      "de": ["Es geht mir gut.", "Ich bin wohl."],
+      "en": ["I'm fine.", "I'm well."]
+    },
+    "chunks": ["dehna", "negn"],
+    "verified": false
+  },
+  {
+    "id": "sen_ine_ityopiawi",
+    "am": "እኔ ኢትዮጵያ ውስጥ ነኝ።",
+    "tr": "ine ityopia wist negn.",
+    "level": "A1.1",
+    "uses": ["lex_ine", "lex_ityopia"],
+    "t": {
+      "de": "Ich bin in Äthiopien.",
+      "en": "I am in Ethiopia.",
+      "sv": "Jag är i Etiopien.",
+      "nl": "Ik ben in Ethiopië."
+    },
+    "chunks": ["ine", "ityopia", "wist", "negn"],
+    "verified": false
+  }
+]
