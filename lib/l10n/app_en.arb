@@ -1,0 +1,200 @@
+{
+  "@@locale": "en",
+  "appTitle": "Amaseganlo",
+
+  "navLearn": "Learn",
+  "navFidel": "Fidel",
+  "navReview": "Review",
+  "navProfile": "Profile",
+
+  "commonBack": "Back",
+  "commonNext": "Next",
+  "commonContinue": "Continue",
+  "commonCancel": "Cancel",
+  "commonConfirm": "Confirm",
+  "commonClose": "Close",
+  "commonSave": "Save",
+  "commonRetry": "Try again",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonLoading": "Loading…",
+  "commonComingSoon": "Coming soon",
+  "commonDontKnow": "I don't know",
+  "commonSkip": "Skip",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "App language",
+  "settingsAppearance": "Appearance",
+  "appearanceLight": "Light",
+  "appearanceDark": "Dark",
+  "appearanceSystem": "System",
+  "settingsAccentColor": "Accent color",
+  "settingsFontSize": "Font size",
+  "fontSizeSmall": "Small",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Large",
+  "fontSizeExtraLarge": "Extra large",
+  "settingsShowFidelInMainPath": "Show Fidel script in the main path",
+  "fidelDisplayNever": "Never",
+  "fidelDisplayBelow": "Below the transliteration",
+  "fidelDisplayInstead": "Instead of the transliteration",
+  "settingsSound": "Sound",
+  "settingsVolume": "Volume",
+  "settingsAutoPlayNewWords": "Play new words automatically",
+  "settingsDailyGoal": "Daily goal",
+  "dailyGoalRelaxed": "Relaxed · 20 XP",
+  "dailyGoalNormal": "Normal · 50 XP",
+  "dailyGoalAmbitious": "Ambitious · 100 XP",
+  "settingsUseHearts": "Use hearts",
+  "settingsDailyReminder": "Daily reminder",
+  "settingsAllLessonsUnlocked": "All lessons unlocked",
+  "settingsReduceMotion": "Reduce motion",
+  "settingsBackupProgress": "Back up progress",
+  "settingsRestoreProgress": "Restore progress",
+  "settingsResetProgress": "Reset progress",
+  "settingsAbout": "About this app",
+  "settingsFidelLearningPath": "Fidel learning path",
+  "fidelPathTraditional": "Traditional – as in Ethiopia",
+  "fidelPathFast": "Read fast",
+  "settingsSaved": "Settings saved",
+
+  "resetProgressTitle": "Reset progress?",
+  "resetProgressWarning": "This deletes all your learning progress permanently. This cannot be undone.",
+  "resetProgressTypeWord": "Type \"delete\" to confirm.",
+  "resetProgressConfirmWord": "delete",
+  "resetProgressDone": "Your progress has been reset.",
+
+  "aboutVersion": "Version",
+  "aboutBuildDate": "Build date",
+  "aboutPrivacy": "All your data stays on this device. No account, no server, no ads, no tracking.",
+  "aboutLicenses": "Open source licenses",
+  "aboutShortcuts": "Keyboard shortcuts",
+  "aboutShortcutsAnswer": "1–4: choose an answer",
+  "aboutShortcutsNext": "Enter: confirm / continue",
+  "aboutShortcutsCancel": "Escape: cancel",
+  "aboutShortcutsAudio": "Space: replay audio",
+
+  "onboardingWelcomeTitle": "Selam! Welcome to Amaseganlo",
+  "onboardingWelcomeBody": "Amaseganlo teaches you Amharic (አማርኛ), the official language of Ethiopia.",
+  "onboardingChooseLanguage": "Choose your app language",
+  "onboardingTwoPathsTitle": "Two learning paths",
+  "onboardingTwoPathsBody": "\"Speak & understand\" teaches Amharic in Latin transliteration. \"Learn Fidel\" teaches the Ethiopic script. Both run side by side.",
+  "onboardingDailyGoalTitle": "Choose your daily goal",
+  "onboardingAssessmentQuestion": "Do you already know some Amharic?",
+  "onboardingAssessmentNone": "I'm starting from zero",
+  "onboardingAssessmentSome": "A few words",
+  "onboardingAssessmentGood": "I already know quite a bit",
+  "onboardingStart": "Let's go",
+
+  "homeContinueLearning": "Continue learning",
+  "homeDailyGoal": "Daily goal",
+  "homeStreak": "Streak",
+  "homeReviewDue": "{count} due for review",
+  "@homeReviewDue": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "homeFreePractice": "Free practice",
+  "homeNoReviewsDue": "Nothing due right now. Practice your weak words instead?",
+
+  "pathSectionProgress": "Section {section}: {title} — {done} of {total} units",
+  "@pathSectionProgress": {
+    "placeholders": {
+      "section": { "type": "int" },
+      "title": { "type": "String" },
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "pathLocked": "Locked",
+  "pathSkipped": "Skipped",
+  "pathCompleted": "Completed",
+  "pathLockedDialogTitle": "This unit builds on earlier ones",
+  "pathLockedDialogBody": "You don't know all the words used here yet. Start anyway?",
+  "pathLockedDialogLater": "Maybe later",
+  "pathLockedDialogStart": "Start anyway",
+  "pathUnitTest": "Unit test",
+  "pathUnitTestHint": "Skip this unit by passing a test",
+
+  "unitOverviewLessons": "Lessons",
+  "unitOverviewWordList": "Word list",
+  "unitOverviewCrowns": "{crowns} of 5 crowns",
+  "@unitOverviewCrowns": {
+    "placeholders": { "crowns": { "type": "int" } }
+  },
+
+  "lessonExitConfirmTitle": "End this lesson?",
+  "lessonExitConfirmBody": "Your progress in this lesson will be lost.",
+  "lessonCompleteTitle": "Lesson complete!",
+  "lessonCompleteXp": "{xp} XP",
+  "@lessonCompleteXp": {
+    "placeholders": { "xp": { "type": "int" } }
+  },
+  "lessonCompleteAccuracy": "Accuracy: {percent}%",
+  "@lessonCompleteAccuracy": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "lessonCompleteDuration": "Duration: {minutes} min",
+  "@lessonCompleteDuration": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "lessonCompleteSkipped": "Skipped: {count}",
+  "@lessonCompleteSkipped": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "lessonCompleteContinue": "Continue",
+  "lessonCompleteRetry": "Do it again",
+  "lessonOutOfHearts": "Out of hearts",
+  "lessonOutOfHeartsBody": "You've used all your hearts for this lesson. Come back later or practice again.",
+
+  "feedbackCorrect": "Correct!",
+  "feedbackIncorrect": "Not quite",
+  "feedbackAlmostCorrect": "Almost! Watch the spelling: {correct}",
+  "@feedbackAlmostCorrect": {
+    "placeholders": { "correct": { "type": "String" } }
+  },
+  "feedbackCorrectAnswerWas": "Correct answer: {answer}",
+  "@feedbackCorrectAnswerWas": {
+    "placeholders": { "answer": { "type": "String" } }
+  },
+
+  "reviewTitle": "Review",
+  "reviewDueToday": "Due today",
+  "reviewDifficultWords": "Difficult words",
+  "reviewFreePractice": "Free practice",
+  "reviewEmpty": "Nothing to review right now. Great job keeping up!",
+
+  "dictionaryTitle": "Dictionary",
+  "dictionarySearchHint": "Search words…",
+  "dictionaryFilterAll": "All topics",
+  "dictionaryEmpty": "No words learned yet in this topic.",
+
+  "profileTitle": "Profile",
+  "profileWordsLearned": "Words learned",
+  "profileWordsMastered": "Words mastered",
+  "profileFidelChars": "Fidel signs learned",
+  "profileTotalXp": "Total XP",
+  "profileLongestStreak": "Longest streak",
+  "profileCurrentStreak": "Current streak",
+  "profileDaysLearned": "Days learned",
+  "profileAccuracy": "Accuracy",
+  "profileLast7Days": "Last 7 days",
+  "profileBadges": "Badges",
+  "profileSkippedUnits": "Skipped units",
+  "profileSkippedUnitsEmpty": "You haven't skipped any units.",
+  "profileCatchUp": "Catch up",
+  "profileAssessmentTest": "Placement test",
+
+  "errorGenericTitle": "Something went wrong",
+  "errorGenericBody": "Your progress is saved.",
+  "errorGoHome": "Back to home",
+  "errorReload": "Reload",
+  "errorContentUnit": "This unit couldn't be loaded and was skipped.",
+  "errorCorruptSave": "Your saved data couldn't be read. Starting fresh.",
+
+  "resumeLessonTitle": "You were in the middle of a lesson",
+  "resumeLessonBody": "Continue where you left off?",
+  "resumeLessonContinue": "Continue",
+  "resumeLessonRestart": "Start over",
+
+  "exitAppConfirm": "Press back again to exit"
+}

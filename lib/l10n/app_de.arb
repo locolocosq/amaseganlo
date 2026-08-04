@@ -1,0 +1,200 @@
+{
+  "@@locale": "de",
+  "appTitle": "Amaseganlo",
+
+  "navLearn": "Lernen",
+  "navFidel": "Fidel",
+  "navReview": "Wiederholen",
+  "navProfile": "Profil",
+
+  "commonBack": "Zurück",
+  "commonNext": "Weiter",
+  "commonContinue": "Weiter",
+  "commonCancel": "Abbrechen",
+  "commonConfirm": "Bestätigen",
+  "commonClose": "Schließen",
+  "commonSave": "Speichern",
+  "commonRetry": "Erneut versuchen",
+  "commonYes": "Ja",
+  "commonNo": "Nein",
+  "commonLoading": "Lädt…",
+  "commonComingSoon": "Kommt bald",
+  "commonDontKnow": "Ich weiß es nicht",
+  "commonSkip": "Überspringen",
+
+  "settingsTitle": "Einstellungen",
+  "settingsLanguage": "Sprache der Oberfläche",
+  "settingsAppearance": "Erscheinungsbild",
+  "appearanceLight": "Hell",
+  "appearanceDark": "Dunkel",
+  "appearanceSystem": "Wie das System",
+  "settingsAccentColor": "Akzentfarbe",
+  "settingsFontSize": "Schriftgröße",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Groß",
+  "fontSizeExtraLarge": "Sehr groß",
+  "settingsShowFidelInMainPath": "Fidel-Schrift im Hauptweg anzeigen",
+  "fidelDisplayNever": "Nie",
+  "fidelDisplayBelow": "Unter der Umschrift",
+  "fidelDisplayInstead": "Statt der Umschrift",
+  "settingsSound": "Ton",
+  "settingsVolume": "Lautstärke",
+  "settingsAutoPlayNewWords": "Neue Wörter automatisch abspielen",
+  "settingsDailyGoal": "Tagesziel",
+  "dailyGoalRelaxed": "Locker · 20 XP",
+  "dailyGoalNormal": "Normal · 50 XP",
+  "dailyGoalAmbitious": "Ehrgeizig · 100 XP",
+  "settingsUseHearts": "Herzen verwenden",
+  "settingsDailyReminder": "Tägliche Erinnerung",
+  "settingsAllLessonsUnlocked": "Alle Lektionen frei zugänglich",
+  "settingsReduceMotion": "Bewegungen reduzieren",
+  "settingsBackupProgress": "Fortschritt sichern",
+  "settingsRestoreProgress": "Fortschritt wiederherstellen",
+  "settingsResetProgress": "Fortschritt zurücksetzen",
+  "settingsAbout": "Über die App",
+  "settingsFidelLearningPath": "Fidel-Lernweg",
+  "fidelPathTraditional": "Traditionell – wie in Äthiopien",
+  "fidelPathFast": "Schnell lesen",
+  "settingsSaved": "Einstellungen gespeichert",
+
+  "resetProgressTitle": "Fortschritt zurücksetzen?",
+  "resetProgressWarning": "Damit wird dein gesamter Lernfortschritt endgültig gelöscht. Das kann nicht rückgängig gemacht werden.",
+  "resetProgressTypeWord": "Tippe \"löschen\" zur Bestätigung.",
+  "resetProgressConfirmWord": "löschen",
+  "resetProgressDone": "Dein Fortschritt wurde zurückgesetzt.",
+
+  "aboutVersion": "Version",
+  "aboutBuildDate": "Erstellungsdatum",
+  "aboutPrivacy": "Alle deine Daten bleiben auf diesem Gerät. Kein Konto, kein Server, keine Werbung, kein Tracking.",
+  "aboutLicenses": "Open-Source-Lizenzen",
+  "aboutShortcuts": "Tastenkürzel",
+  "aboutShortcutsAnswer": "1–4: Antwort wählen",
+  "aboutShortcutsNext": "Enter: bestätigen / weiter",
+  "aboutShortcutsCancel": "Escape: abbrechen",
+  "aboutShortcutsAudio": "Leertaste: Ton erneut abspielen",
+
+  "onboardingWelcomeTitle": "Selam! Willkommen bei Amaseganlo",
+  "onboardingWelcomeBody": "Amaseganlo bringt dir Amharisch (አማርኛ) bei, die Amtssprache Äthiopiens.",
+  "onboardingChooseLanguage": "Wähle die Sprache der App",
+  "onboardingTwoPathsTitle": "Zwei Lernwege",
+  "onboardingTwoPathsBody": "„Sprechen & Verstehen“ bringt dir Amharisch in lateinischer Umschrift bei. „Fidel lernen“ bringt dir die äthiopische Schrift bei. Beide laufen parallel nebeneinander.",
+  "onboardingDailyGoalTitle": "Wähle dein Tagesziel",
+  "onboardingAssessmentQuestion": "Kannst du schon etwas Amharisch?",
+  "onboardingAssessmentNone": "Ich fange bei null an",
+  "onboardingAssessmentSome": "Ein paar Wörter",
+  "onboardingAssessmentGood": "Ich kann schon einiges",
+  "onboardingStart": "Los geht's",
+
+  "homeContinueLearning": "Weiterlernen",
+  "homeDailyGoal": "Tagesziel",
+  "homeStreak": "Serie",
+  "homeReviewDue": "{count} heute fällig",
+  "@homeReviewDue": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "homeFreePractice": "Freies Üben",
+  "homeNoReviewsDue": "Gerade nichts fällig. Stattdessen schwache Wörter üben?",
+
+  "pathSectionProgress": "Abschnitt {section}: {title} — {done} von {total} Kapiteln",
+  "@pathSectionProgress": {
+    "placeholders": {
+      "section": { "type": "int" },
+      "title": { "type": "String" },
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "pathLocked": "Gesperrt",
+  "pathSkipped": "Übersprungen",
+  "pathCompleted": "Abgeschlossen",
+  "pathLockedDialogTitle": "Dieses Kapitel baut auf den vorherigen auf",
+  "pathLockedDialogBody": "Du kennst noch nicht alle Wörter, die hier vorkommen. Trotzdem starten?",
+  "pathLockedDialogLater": "Lieber später",
+  "pathLockedDialogStart": "Trotzdem starten",
+  "pathUnitTest": "Kapitel-Test",
+  "pathUnitTestHint": "Kapitel per Test überspringen",
+
+  "unitOverviewLessons": "Lektionen",
+  "unitOverviewWordList": "Wortliste",
+  "unitOverviewCrowns": "{crowns} von 5 Kronen",
+  "@unitOverviewCrowns": {
+    "placeholders": { "crowns": { "type": "int" } }
+  },
+
+  "lessonExitConfirmTitle": "Lektion wirklich beenden?",
+  "lessonExitConfirmBody": "Dein Fortschritt in dieser Lektion geht verloren.",
+  "lessonCompleteTitle": "Lektion abgeschlossen!",
+  "lessonCompleteXp": "{xp} XP",
+  "@lessonCompleteXp": {
+    "placeholders": { "xp": { "type": "int" } }
+  },
+  "lessonCompleteAccuracy": "Trefferquote: {percent}%",
+  "@lessonCompleteAccuracy": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "lessonCompleteDuration": "Dauer: {minutes} Min.",
+  "@lessonCompleteDuration": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "lessonCompleteSkipped": "Übersprungen: {count}",
+  "@lessonCompleteSkipped": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "lessonCompleteContinue": "Weiter",
+  "lessonCompleteRetry": "Nochmal",
+  "lessonOutOfHearts": "Keine Herzen mehr",
+  "lessonOutOfHeartsBody": "Du hast alle Herzen für diese Lektion verbraucht. Komm später wieder oder übe erneut.",
+
+  "feedbackCorrect": "Richtig!",
+  "feedbackIncorrect": "Nicht ganz",
+  "feedbackAlmostCorrect": "Fast! Achte auf die Schreibweise: {correct}",
+  "@feedbackAlmostCorrect": {
+    "placeholders": { "correct": { "type": "String" } }
+  },
+  "feedbackCorrectAnswerWas": "Richtige Antwort: {answer}",
+  "@feedbackCorrectAnswerWas": {
+    "placeholders": { "answer": { "type": "String" } }
+  },
+
+  "reviewTitle": "Wiederholen",
+  "reviewDueToday": "Heute fällig",
+  "reviewDifficultWords": "Schwierige Wörter",
+  "reviewFreePractice": "Freies Üben",
+  "reviewEmpty": "Gerade nichts zu wiederholen. Weiter so!",
+
+  "dictionaryTitle": "Wörterbuch",
+  "dictionarySearchHint": "Wörter suchen…",
+  "dictionaryFilterAll": "Alle Themen",
+  "dictionaryEmpty": "In diesem Thema noch keine Wörter gelernt.",
+
+  "profileTitle": "Profil",
+  "profileWordsLearned": "Gelernte Wörter",
+  "profileWordsMastered": "Gemeisterte Wörter",
+  "profileFidelChars": "Gelernte Fidel-Zeichen",
+  "profileTotalXp": "Gesamt-XP",
+  "profileLongestStreak": "Längste Serie",
+  "profileCurrentStreak": "Aktuelle Serie",
+  "profileDaysLearned": "Lerntage",
+  "profileAccuracy": "Trefferquote",
+  "profileLast7Days": "Letzte 7 Tage",
+  "profileBadges": "Abzeichen",
+  "profileSkippedUnits": "Übersprungene Kapitel",
+  "profileSkippedUnitsEmpty": "Du hast noch keine Kapitel übersprungen.",
+  "profileCatchUp": "Nachholen",
+  "profileAssessmentTest": "Einstufungstest",
+
+  "errorGenericTitle": "Da ist etwas schiefgelaufen",
+  "errorGenericBody": "Dein Fortschritt ist gespeichert.",
+  "errorGoHome": "Zurück zur Startseite",
+  "errorReload": "Neu laden",
+  "errorContentUnit": "Dieses Kapitel konnte nicht geladen werden und wurde übersprungen.",
+  "errorCorruptSave": "Deine gespeicherten Daten konnten nicht gelesen werden. Es wird neu gestartet.",
+
+  "resumeLessonTitle": "Du warst mitten in einer Lektion",
+  "resumeLessonBody": "Weitermachen?",
+  "resumeLessonContinue": "Weitermachen",
+  "resumeLessonRestart": "Neu beginnen",
+
+  "exitAppConfirm": "Noch einmal drücken zum Beenden"
+}

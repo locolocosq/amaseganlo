@@ -1,0 +1,200 @@
+{
+  "@@locale": "nl",
+  "appTitle": "Amaseganlo",
+
+  "navLearn": "Leren",
+  "navFidel": "Fidel",
+  "navReview": "Herhalen",
+  "navProfile": "Profiel",
+
+  "commonBack": "Terug",
+  "commonNext": "Volgende",
+  "commonContinue": "Verder",
+  "commonCancel": "Annuleren",
+  "commonConfirm": "Bevestigen",
+  "commonClose": "Sluiten",
+  "commonSave": "Opslaan",
+  "commonRetry": "Opnieuw proberen",
+  "commonYes": "Ja",
+  "commonNo": "Nee",
+  "commonLoading": "Laden…",
+  "commonComingSoon": "Komt binnenkort",
+  "commonDontKnow": "Ik weet het niet",
+  "commonSkip": "Overslaan",
+
+  "settingsTitle": "Instellingen",
+  "settingsLanguage": "Taal van de app",
+  "settingsAppearance": "Weergave",
+  "appearanceLight": "Licht",
+  "appearanceDark": "Donker",
+  "appearanceSystem": "Systeeminstelling",
+  "settingsAccentColor": "Accentkleur",
+  "settingsFontSize": "Tekstgrootte",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Normaal",
+  "fontSizeLarge": "Groot",
+  "fontSizeExtraLarge": "Extra groot",
+  "settingsShowFidelInMainPath": "Fidel-schrift tonen in het hoofdpad",
+  "fidelDisplayNever": "Nooit",
+  "fidelDisplayBelow": "Onder de transliteratie",
+  "fidelDisplayInstead": "In plaats van de transliteratie",
+  "settingsSound": "Geluid",
+  "settingsVolume": "Volume",
+  "settingsAutoPlayNewWords": "Nieuwe woorden automatisch afspelen",
+  "settingsDailyGoal": "Dagelijks doel",
+  "dailyGoalRelaxed": "Rustig · 20 XP",
+  "dailyGoalNormal": "Normaal · 50 XP",
+  "dailyGoalAmbitious": "Ambitieus · 100 XP",
+  "settingsUseHearts": "Hartjes gebruiken",
+  "settingsDailyReminder": "Dagelijkse herinnering",
+  "settingsAllLessonsUnlocked": "Alle lessen vrij toegankelijk",
+  "settingsReduceMotion": "Beweging verminderen",
+  "settingsBackupProgress": "Voortgang backuppen",
+  "settingsRestoreProgress": "Voortgang herstellen",
+  "settingsResetProgress": "Voortgang resetten",
+  "settingsAbout": "Over deze app",
+  "settingsFidelLearningPath": "Fidel-leerpad",
+  "fidelPathTraditional": "Traditioneel – zoals in Ethiopië",
+  "fidelPathFast": "Snel leren lezen",
+  "settingsSaved": "Instellingen opgeslagen",
+
+  "resetProgressTitle": "Voortgang resetten?",
+  "resetProgressWarning": "Dit verwijdert al je leervoortgang permanent. Dit kan niet ongedaan worden gemaakt.",
+  "resetProgressTypeWord": "Typ \"verwijderen\" ter bevestiging.",
+  "resetProgressConfirmWord": "verwijderen",
+  "resetProgressDone": "Je voortgang is gereset.",
+
+  "aboutVersion": "Versie",
+  "aboutBuildDate": "Builddatum",
+  "aboutPrivacy": "Al je gegevens blijven op dit apparaat. Geen account, geen server, geen advertenties, geen tracking.",
+  "aboutLicenses": "Open source-licenties",
+  "aboutShortcuts": "Toetsenbordsnelkoppelingen",
+  "aboutShortcutsAnswer": "1–4: antwoord kiezen",
+  "aboutShortcutsNext": "Enter: bevestigen / verder",
+  "aboutShortcutsCancel": "Escape: annuleren",
+  "aboutShortcutsAudio": "Spatie: geluid opnieuw afspelen",
+
+  "onboardingWelcomeTitle": "Selam! Welkom bij Amaseganlo",
+  "onboardingWelcomeBody": "Amaseganlo leert je Amhaars (አማርኛ), de officiële taal van Ethiopië.",
+  "onboardingChooseLanguage": "Kies de taal van de app",
+  "onboardingTwoPathsTitle": "Twee leerpaden",
+  "onboardingTwoPathsBody": "\"Spreken & begrijpen\" leert je Amhaars in Latijnse transliteratie. \"Fidel leren\" leert je het Ethiopische schrift. Beide lopen naast elkaar.",
+  "onboardingDailyGoalTitle": "Kies je dagelijkse doel",
+  "onboardingAssessmentQuestion": "Kun je al iets Amhaars?",
+  "onboardingAssessmentNone": "Ik begin vanaf nul",
+  "onboardingAssessmentSome": "Een paar woorden",
+  "onboardingAssessmentGood": "Ik kan al behoorlijk wat",
+  "onboardingStart": "Laten we beginnen",
+
+  "homeContinueLearning": "Verder leren",
+  "homeDailyGoal": "Dagelijks doel",
+  "homeStreak": "Reeks",
+  "homeReviewDue": "{count} vandaag te herhalen",
+  "@homeReviewDue": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "homeFreePractice": "Vrij oefenen",
+  "homeNoReviewsDue": "Nu niets te herhalen. In plaats daarvan zwakke woorden oefenen?",
+
+  "pathSectionProgress": "Sectie {section}: {title} — {done} van {total} hoofdstukken",
+  "@pathSectionProgress": {
+    "placeholders": {
+      "section": { "type": "int" },
+      "title": { "type": "String" },
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "pathLocked": "Vergrendeld",
+  "pathSkipped": "Overgeslagen",
+  "pathCompleted": "Afgerond",
+  "pathLockedDialogTitle": "Dit hoofdstuk bouwt voort op de vorige",
+  "pathLockedDialogBody": "Je kent nog niet alle woorden die hier voorkomen. Toch beginnen?",
+  "pathLockedDialogLater": "Liever later",
+  "pathLockedDialogStart": "Toch beginnen",
+  "pathUnitTest": "Hoofdstuktest",
+  "pathUnitTestHint": "Hoofdstuk overslaan met een test",
+
+  "unitOverviewLessons": "Lessen",
+  "unitOverviewWordList": "Woordenlijst",
+  "unitOverviewCrowns": "{crowns} van 5 kronen",
+  "@unitOverviewCrowns": {
+    "placeholders": { "crowns": { "type": "int" } }
+  },
+
+  "lessonExitConfirmTitle": "Les echt beëindigen?",
+  "lessonExitConfirmBody": "Je voortgang in deze les gaat verloren.",
+  "lessonCompleteTitle": "Les afgerond!",
+  "lessonCompleteXp": "{xp} XP",
+  "@lessonCompleteXp": {
+    "placeholders": { "xp": { "type": "int" } }
+  },
+  "lessonCompleteAccuracy": "Nauwkeurigheid: {percent}%",
+  "@lessonCompleteAccuracy": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "lessonCompleteDuration": "Duur: {minutes} min",
+  "@lessonCompleteDuration": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "lessonCompleteSkipped": "Overgeslagen: {count}",
+  "@lessonCompleteSkipped": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "lessonCompleteContinue": "Verder",
+  "lessonCompleteRetry": "Opnieuw",
+  "lessonOutOfHearts": "Geen hartjes meer",
+  "lessonOutOfHeartsBody": "Je hebt alle hartjes voor deze les gebruikt. Kom later terug of oefen opnieuw.",
+
+  "feedbackCorrect": "Goed!",
+  "feedbackIncorrect": "Niet helemaal",
+  "feedbackAlmostCorrect": "Bijna! Let op de spelling: {correct}",
+  "@feedbackAlmostCorrect": {
+    "placeholders": { "correct": { "type": "String" } }
+  },
+  "feedbackCorrectAnswerWas": "Juiste antwoord: {answer}",
+  "@feedbackCorrectAnswerWas": {
+    "placeholders": { "answer": { "type": "String" } }
+  },
+
+  "reviewTitle": "Herhalen",
+  "reviewDueToday": "Vandaag te doen",
+  "reviewDifficultWords": "Moeilijke woorden",
+  "reviewFreePractice": "Vrij oefenen",
+  "reviewEmpty": "Nu niets te herhalen. Goed bezig!",
+
+  "dictionaryTitle": "Woordenboek",
+  "dictionarySearchHint": "Woorden zoeken…",
+  "dictionaryFilterAll": "Alle onderwerpen",
+  "dictionaryEmpty": "Nog geen woorden geleerd in dit onderwerp.",
+
+  "profileTitle": "Profiel",
+  "profileWordsLearned": "Geleerde woorden",
+  "profileWordsMastered": "Beheerste woorden",
+  "profileFidelChars": "Geleerde Fidel-tekens",
+  "profileTotalXp": "Totaal XP",
+  "profileLongestStreak": "Langste reeks",
+  "profileCurrentStreak": "Huidige reeks",
+  "profileDaysLearned": "Leerdagen",
+  "profileAccuracy": "Nauwkeurigheid",
+  "profileLast7Days": "Laatste 7 dagen",
+  "profileBadges": "Badges",
+  "profileSkippedUnits": "Overgeslagen hoofdstukken",
+  "profileSkippedUnitsEmpty": "Je hebt nog geen hoofdstukken overgeslagen.",
+  "profileCatchUp": "Inhalen",
+  "profileAssessmentTest": "Instaptoets",
+
+  "errorGenericTitle": "Er is iets misgegaan",
+  "errorGenericBody": "Je voortgang is opgeslagen.",
+  "errorGoHome": "Terug naar start",
+  "errorReload": "Opnieuw laden",
+  "errorContentUnit": "Dit hoofdstuk kon niet worden geladen en is overgeslagen.",
+  "errorCorruptSave": "Je opgeslagen gegevens konden niet worden gelezen. Er wordt opnieuw gestart.",
+
+  "resumeLessonTitle": "Je was midden in een les",
+  "resumeLessonBody": "Doorgaan waar je was gebleven?",
+  "resumeLessonContinue": "Doorgaan",
+  "resumeLessonRestart": "Opnieuw beginnen",
+
+  "exitAppConfirm": "Druk nogmaals op terug om te stoppen"
+}

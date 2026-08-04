@@ -1,0 +1,484 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Swedish (`sv`).
+class AppLocalizationsSv extends AppLocalizations {
+  AppLocalizationsSv([String locale = 'sv']) : super(locale);
+
+  @override
+  String get appTitle => 'Amaseganlo';
+
+  @override
+  String get navLearn => 'Lär dig';
+
+  @override
+  String get navFidel => 'Fidel';
+
+  @override
+  String get navReview => 'Repetera';
+
+  @override
+  String get navProfile => 'Profil';
+
+  @override
+  String get commonBack => 'Tillbaka';
+
+  @override
+  String get commonNext => 'Nästa';
+
+  @override
+  String get commonContinue => 'Fortsätt';
+
+  @override
+  String get commonCancel => 'Avbryt';
+
+  @override
+  String get commonConfirm => 'Bekräfta';
+
+  @override
+  String get commonClose => 'Stäng';
+
+  @override
+  String get commonSave => 'Spara';
+
+  @override
+  String get commonRetry => 'Försök igen';
+
+  @override
+  String get commonYes => 'Ja';
+
+  @override
+  String get commonNo => 'Nej';
+
+  @override
+  String get commonLoading => 'Laddar…';
+
+  @override
+  String get commonComingSoon => 'Kommer snart';
+
+  @override
+  String get commonDontKnow => 'Jag vet inte';
+
+  @override
+  String get commonSkip => 'Hoppa över';
+
+  @override
+  String get settingsTitle => 'Inställningar';
+
+  @override
+  String get settingsLanguage => 'Appens språk';
+
+  @override
+  String get settingsAppearance => 'Utseende';
+
+  @override
+  String get appearanceLight => 'Ljust';
+
+  @override
+  String get appearanceDark => 'Mörkt';
+
+  @override
+  String get appearanceSystem => 'Som systemet';
+
+  @override
+  String get settingsAccentColor => 'Accentfärg';
+
+  @override
+  String get settingsFontSize => 'Textstorlek';
+
+  @override
+  String get fontSizeSmall => 'Liten';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Stor';
+
+  @override
+  String get fontSizeExtraLarge => 'Extra stor';
+
+  @override
+  String get settingsShowFidelInMainPath => 'Visa Fidel-skrift i huvudspåret';
+
+  @override
+  String get fidelDisplayNever => 'Aldrig';
+
+  @override
+  String get fidelDisplayBelow => 'Under translitereringen';
+
+  @override
+  String get fidelDisplayInstead => 'Istället för translitereringen';
+
+  @override
+  String get settingsSound => 'Ljud';
+
+  @override
+  String get settingsVolume => 'Volym';
+
+  @override
+  String get settingsAutoPlayNewWords => 'Spela nya ord automatiskt';
+
+  @override
+  String get settingsDailyGoal => 'Dagligt mål';
+
+  @override
+  String get dailyGoalRelaxed => 'Avslappnat · 20 XP';
+
+  @override
+  String get dailyGoalNormal => 'Normalt · 50 XP';
+
+  @override
+  String get dailyGoalAmbitious => 'Ambitiöst · 100 XP';
+
+  @override
+  String get settingsUseHearts => 'Använd hjärtan';
+
+  @override
+  String get settingsDailyReminder => 'Daglig påminnelse';
+
+  @override
+  String get settingsAllLessonsUnlocked => 'Alla lektioner tillgängliga';
+
+  @override
+  String get settingsReduceMotion => 'Minska rörelser';
+
+  @override
+  String get settingsBackupProgress => 'Säkerhetskopiera framsteg';
+
+  @override
+  String get settingsRestoreProgress => 'Återställ framsteg';
+
+  @override
+  String get settingsResetProgress => 'Återställ framsteg till noll';
+
+  @override
+  String get settingsAbout => 'Om appen';
+
+  @override
+  String get settingsFidelLearningPath => 'Fidel-inlärningsväg';
+
+  @override
+  String get fidelPathTraditional => 'Traditionellt – som i Etiopien';
+
+  @override
+  String get fidelPathFast => 'Läs snabbt';
+
+  @override
+  String get settingsSaved => 'Inställningar sparade';
+
+  @override
+  String get resetProgressTitle => 'Återställa framsteg?';
+
+  @override
+  String get resetProgressWarning =>
+      'Detta raderar permanent alla dina inlärningsframsteg. Det kan inte ångras.';
+
+  @override
+  String get resetProgressTypeWord => 'Skriv \"radera\" för att bekräfta.';
+
+  @override
+  String get resetProgressConfirmWord => 'radera';
+
+  @override
+  String get resetProgressDone => 'Dina framsteg har återställts.';
+
+  @override
+  String get aboutVersion => 'Version';
+
+  @override
+  String get aboutBuildDate => 'Byggdatum';
+
+  @override
+  String get aboutPrivacy =>
+      'All din data stannar på den här enheten. Inget konto, ingen server, ingen reklam, ingen spårning.';
+
+  @override
+  String get aboutLicenses => 'Licenser för öppen källkod';
+
+  @override
+  String get aboutShortcuts => 'Kortkommandon';
+
+  @override
+  String get aboutShortcutsAnswer => '1–4: välj ett svar';
+
+  @override
+  String get aboutShortcutsNext => 'Enter: bekräfta / fortsätt';
+
+  @override
+  String get aboutShortcutsCancel => 'Escape: avbryt';
+
+  @override
+  String get aboutShortcutsAudio => 'Mellanslag: spela upp ljudet igen';
+
+  @override
+  String get onboardingWelcomeTitle => 'Selam! Välkommen till Amaseganlo';
+
+  @override
+  String get onboardingWelcomeBody =>
+      'Amaseganlo lär dig amhariska (አማርኛ), Etiopiens officiella språk.';
+
+  @override
+  String get onboardingChooseLanguage => 'Välj appens språk';
+
+  @override
+  String get onboardingTwoPathsTitle => 'Två inlärningsvägar';
+
+  @override
+  String get onboardingTwoPathsBody =>
+      '\"Tala & förstå\" lär dig amhariska med latinsk translitterering. \"Lär dig Fidel\" lär dig den etiopiska skriften. Båda löper parallellt.';
+
+  @override
+  String get onboardingDailyGoalTitle => 'Välj ditt dagliga mål';
+
+  @override
+  String get onboardingAssessmentQuestion => 'Kan du redan lite amhariska?';
+
+  @override
+  String get onboardingAssessmentNone => 'Jag börjar från noll';
+
+  @override
+  String get onboardingAssessmentSome => 'Några ord';
+
+  @override
+  String get onboardingAssessmentGood => 'Jag kan redan ganska mycket';
+
+  @override
+  String get onboardingStart => 'Sätt igång';
+
+  @override
+  String get homeContinueLearning => 'Fortsätt lära';
+
+  @override
+  String get homeDailyGoal => 'Dagligt mål';
+
+  @override
+  String get homeStreak => 'Serie';
+
+  @override
+  String homeReviewDue(int count) {
+    return '$count att repetera idag';
+  }
+
+  @override
+  String get homeFreePractice => 'Fri övning';
+
+  @override
+  String get homeNoReviewsDue =>
+      'Inget att repetera just nu. Öva svaga ord istället?';
+
+  @override
+  String pathSectionProgress(int section, String title, int done, int total) {
+    return 'Avsnitt $section: $title — $done av $total kapitel';
+  }
+
+  @override
+  String get pathLocked => 'Låst';
+
+  @override
+  String get pathSkipped => 'Överhoppat';
+
+  @override
+  String get pathCompleted => 'Klart';
+
+  @override
+  String get pathLockedDialogTitle =>
+      'Detta kapitel bygger på tidigare kapitel';
+
+  @override
+  String get pathLockedDialogBody =>
+      'Du känner inte till alla ord som förekommer här än. Starta trots det?';
+
+  @override
+  String get pathLockedDialogLater => 'Kanske senare';
+
+  @override
+  String get pathLockedDialogStart => 'Starta trots det';
+
+  @override
+  String get pathUnitTest => 'Kapiteltest';
+
+  @override
+  String get pathUnitTestHint => 'Hoppa över kapitlet med ett test';
+
+  @override
+  String get unitOverviewLessons => 'Lektioner';
+
+  @override
+  String get unitOverviewWordList => 'Ordlista';
+
+  @override
+  String unitOverviewCrowns(int crowns) {
+    return '$crowns av 5 kronor';
+  }
+
+  @override
+  String get lessonExitConfirmTitle => 'Avsluta lektionen?';
+
+  @override
+  String get lessonExitConfirmBody =>
+      'Dina framsteg i denna lektion går förlorade.';
+
+  @override
+  String get lessonCompleteTitle => 'Lektion klar!';
+
+  @override
+  String lessonCompleteXp(int xp) {
+    return '$xp XP';
+  }
+
+  @override
+  String lessonCompleteAccuracy(int percent) {
+    return 'Träffsäkerhet: $percent%';
+  }
+
+  @override
+  String lessonCompleteDuration(int minutes) {
+    return 'Tid: $minutes min';
+  }
+
+  @override
+  String lessonCompleteSkipped(int count) {
+    return 'Överhoppade: $count';
+  }
+
+  @override
+  String get lessonCompleteContinue => 'Fortsätt';
+
+  @override
+  String get lessonCompleteRetry => 'Gör om';
+
+  @override
+  String get lessonOutOfHearts => 'Inga hjärtan kvar';
+
+  @override
+  String get lessonOutOfHeartsBody =>
+      'Du har använt alla hjärtan för denna lektion. Kom tillbaka senare eller öva igen.';
+
+  @override
+  String get feedbackCorrect => 'Rätt!';
+
+  @override
+  String get feedbackIncorrect => 'Inte riktigt';
+
+  @override
+  String feedbackAlmostCorrect(String correct) {
+    return 'Nästan! Kolla stavningen: $correct';
+  }
+
+  @override
+  String feedbackCorrectAnswerWas(String answer) {
+    return 'Rätt svar: $answer';
+  }
+
+  @override
+  String get reviewTitle => 'Repetera';
+
+  @override
+  String get reviewDueToday => 'Att göra idag';
+
+  @override
+  String get reviewDifficultWords => 'Svåra ord';
+
+  @override
+  String get reviewFreePractice => 'Fri övning';
+
+  @override
+  String get reviewEmpty => 'Inget att repetera just nu. Bra jobbat!';
+
+  @override
+  String get dictionaryTitle => 'Ordbok';
+
+  @override
+  String get dictionarySearchHint => 'Sök ord…';
+
+  @override
+  String get dictionaryFilterAll => 'Alla ämnen';
+
+  @override
+  String get dictionaryEmpty => 'Inga ord inlärda i detta ämne än.';
+
+  @override
+  String get profileTitle => 'Profil';
+
+  @override
+  String get profileWordsLearned => 'Inlärda ord';
+
+  @override
+  String get profileWordsMastered => 'Behärskade ord';
+
+  @override
+  String get profileFidelChars => 'Inlärda Fidel-tecken';
+
+  @override
+  String get profileTotalXp => 'Total XP';
+
+  @override
+  String get profileLongestStreak => 'Längsta serie';
+
+  @override
+  String get profileCurrentStreak => 'Nuvarande serie';
+
+  @override
+  String get profileDaysLearned => 'Dagar med lärande';
+
+  @override
+  String get profileAccuracy => 'Träffsäkerhet';
+
+  @override
+  String get profileLast7Days => 'Senaste 7 dagarna';
+
+  @override
+  String get profileBadges => 'Utmärkelser';
+
+  @override
+  String get profileSkippedUnits => 'Överhoppade kapitel';
+
+  @override
+  String get profileSkippedUnitsEmpty =>
+      'Du har inte hoppat över några kapitel.';
+
+  @override
+  String get profileCatchUp => 'Ta igen';
+
+  @override
+  String get profileAssessmentTest => 'Placeringstest';
+
+  @override
+  String get errorGenericTitle => 'Något gick fel';
+
+  @override
+  String get errorGenericBody => 'Dina framsteg är sparade.';
+
+  @override
+  String get errorGoHome => 'Tillbaka till start';
+
+  @override
+  String get errorReload => 'Ladda om';
+
+  @override
+  String get errorContentUnit =>
+      'Detta kapitel kunde inte laddas och hoppades över.';
+
+  @override
+  String get errorCorruptSave =>
+      'Dina sparade data kunde inte läsas. Startar om med tomma data.';
+
+  @override
+  String get resumeLessonTitle => 'Du var mitt i en lektion';
+
+  @override
+  String get resumeLessonBody => 'Vill du fortsätta?';
+
+  @override
+  String get resumeLessonContinue => 'Fortsätt';
+
+  @override
+  String get resumeLessonRestart => 'Börja om';
+
+  @override
+  String get exitAppConfirm => 'Tryck tillbaka igen för att avsluta';
+}

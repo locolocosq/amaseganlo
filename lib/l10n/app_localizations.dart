@@ -1,0 +1,1030 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations_de.dart';
+import 'app_localizations_en.dart';
+import 'app_localizations_nl.dart';
+import 'app_localizations_sv.dart';
+
+// ignore_for_file: type=lint
+
+/// Callers can lookup localized strings with an instance of AppLocalizations
+/// returned by `AppLocalizations.of(context)`.
+///
+/// Applications need to include `AppLocalizations.delegate()` in their app's
+/// `localizationDelegates` list, and the locales they support in the app's
+/// `supportedLocales` list. For example:
+///
+/// ```dart
+/// import 'l10n/app_localizations.dart';
+///
+/// return MaterialApp(
+///   localizationsDelegates: AppLocalizations.localizationsDelegates,
+///   supportedLocales: AppLocalizations.supportedLocales,
+///   home: MyApplicationHome(),
+/// );
+/// ```
+///
+/// ## Update pubspec.yaml
+///
+/// Please make sure to update your pubspec.yaml to include the following
+/// packages:
+///
+/// ```yaml
+/// dependencies:
+///   # Internationalization support.
+///   flutter_localizations:
+///     sdk: flutter
+///   intl: any # Use the pinned version from flutter_localizations
+///
+///   # Rest of dependencies
+/// ```
+///
+/// ## iOS Applications
+///
+/// iOS applications define key application metadata, including supported
+/// locales, in an Info.plist file that is built into the application bundle.
+/// To configure the locales supported by your app, you’ll need to edit this
+/// file.
+///
+/// First, open your project’s ios/Runner.xcworkspace Xcode workspace file.
+/// Then, in the Project Navigator, open the Info.plist file under the Runner
+/// project’s Runner folder.
+///
+/// Next, select the Information Property List item, select Add Item from the
+/// Editor menu, then select Localizations from the pop-up menu.
+///
+/// Select and expand the newly-created Localizations item then, for each
+/// locale your application supports, add a new item and select the locale
+/// you wish to add from the pop-up menu in the Value field. This list should
+/// be consistent with the languages listed in the AppLocalizations.supportedLocales
+/// property.
+abstract class AppLocalizations {
+  AppLocalizations(String locale)
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+
+  final String localeName;
+
+  static AppLocalizations of(BuildContext context) {
+    return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
+  }
+
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
+
+  /// A list of this localizations delegate along with the default localizations
+  /// delegates.
+  ///
+  /// Returns a list of localizations delegates containing this delegate along with
+  /// GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate,
+  /// and GlobalWidgetsLocalizations.delegate.
+  ///
+  /// Additional delegates can be added by appending to this list in
+  /// MaterialApp. This list does not have to be used at all if a custom list
+  /// of delegates is preferred or required.
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
+
+  /// A list of this localizations delegate's supported locales.
+  static const List<Locale> supportedLocales = <Locale>[
+    Locale('de'),
+    Locale('en'),
+    Locale('nl'),
+    Locale('sv'),
+  ];
+
+  /// No description provided for @appTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Amaseganlo'**
+  String get appTitle;
+
+  /// No description provided for @navLearn.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn'**
+  String get navLearn;
+
+  /// No description provided for @navFidel.
+  ///
+  /// In en, this message translates to:
+  /// **'Fidel'**
+  String get navFidel;
+
+  /// No description provided for @navReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Review'**
+  String get navReview;
+
+  /// No description provided for @navProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get navProfile;
+
+  /// No description provided for @commonBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get commonBack;
+
+  /// No description provided for @commonNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get commonNext;
+
+  /// No description provided for @commonContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get commonContinue;
+
+  /// No description provided for @commonCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get commonCancel;
+
+  /// No description provided for @commonConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get commonConfirm;
+
+  /// No description provided for @commonClose.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get commonClose;
+
+  /// No description provided for @commonSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get commonSave;
+
+  /// No description provided for @commonRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get commonRetry;
+
+  /// No description provided for @commonYes.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes'**
+  String get commonYes;
+
+  /// No description provided for @commonNo.
+  ///
+  /// In en, this message translates to:
+  /// **'No'**
+  String get commonNo;
+
+  /// No description provided for @commonLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading…'**
+  String get commonLoading;
+
+  /// No description provided for @commonComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get commonComingSoon;
+
+  /// No description provided for @commonDontKnow.
+  ///
+  /// In en, this message translates to:
+  /// **'I don\'t know'**
+  String get commonDontKnow;
+
+  /// No description provided for @commonSkip.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip'**
+  String get commonSkip;
+
+  /// No description provided for @settingsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settingsTitle;
+
+  /// No description provided for @settingsLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'App language'**
+  String get settingsLanguage;
+
+  /// No description provided for @settingsAppearance.
+  ///
+  /// In en, this message translates to:
+  /// **'Appearance'**
+  String get settingsAppearance;
+
+  /// No description provided for @appearanceLight.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get appearanceLight;
+
+  /// No description provided for @appearanceDark.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get appearanceDark;
+
+  /// No description provided for @appearanceSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get appearanceSystem;
+
+  /// No description provided for @settingsAccentColor.
+  ///
+  /// In en, this message translates to:
+  /// **'Accent color'**
+  String get settingsAccentColor;
+
+  /// No description provided for @settingsFontSize.
+  ///
+  /// In en, this message translates to:
+  /// **'Font size'**
+  String get settingsFontSize;
+
+  /// No description provided for @fontSizeSmall.
+  ///
+  /// In en, this message translates to:
+  /// **'Small'**
+  String get fontSizeSmall;
+
+  /// No description provided for @fontSizeNormal.
+  ///
+  /// In en, this message translates to:
+  /// **'Normal'**
+  String get fontSizeNormal;
+
+  /// No description provided for @fontSizeLarge.
+  ///
+  /// In en, this message translates to:
+  /// **'Large'**
+  String get fontSizeLarge;
+
+  /// No description provided for @fontSizeExtraLarge.
+  ///
+  /// In en, this message translates to:
+  /// **'Extra large'**
+  String get fontSizeExtraLarge;
+
+  /// No description provided for @settingsShowFidelInMainPath.
+  ///
+  /// In en, this message translates to:
+  /// **'Show Fidel script in the main path'**
+  String get settingsShowFidelInMainPath;
+
+  /// No description provided for @fidelDisplayNever.
+  ///
+  /// In en, this message translates to:
+  /// **'Never'**
+  String get fidelDisplayNever;
+
+  /// No description provided for @fidelDisplayBelow.
+  ///
+  /// In en, this message translates to:
+  /// **'Below the transliteration'**
+  String get fidelDisplayBelow;
+
+  /// No description provided for @fidelDisplayInstead.
+  ///
+  /// In en, this message translates to:
+  /// **'Instead of the transliteration'**
+  String get fidelDisplayInstead;
+
+  /// No description provided for @settingsSound.
+  ///
+  /// In en, this message translates to:
+  /// **'Sound'**
+  String get settingsSound;
+
+  /// No description provided for @settingsVolume.
+  ///
+  /// In en, this message translates to:
+  /// **'Volume'**
+  String get settingsVolume;
+
+  /// No description provided for @settingsAutoPlayNewWords.
+  ///
+  /// In en, this message translates to:
+  /// **'Play new words automatically'**
+  String get settingsAutoPlayNewWords;
+
+  /// No description provided for @settingsDailyGoal.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily goal'**
+  String get settingsDailyGoal;
+
+  /// No description provided for @dailyGoalRelaxed.
+  ///
+  /// In en, this message translates to:
+  /// **'Relaxed · 20 XP'**
+  String get dailyGoalRelaxed;
+
+  /// No description provided for @dailyGoalNormal.
+  ///
+  /// In en, this message translates to:
+  /// **'Normal · 50 XP'**
+  String get dailyGoalNormal;
+
+  /// No description provided for @dailyGoalAmbitious.
+  ///
+  /// In en, this message translates to:
+  /// **'Ambitious · 100 XP'**
+  String get dailyGoalAmbitious;
+
+  /// No description provided for @settingsUseHearts.
+  ///
+  /// In en, this message translates to:
+  /// **'Use hearts'**
+  String get settingsUseHearts;
+
+  /// No description provided for @settingsDailyReminder.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily reminder'**
+  String get settingsDailyReminder;
+
+  /// No description provided for @settingsAllLessonsUnlocked.
+  ///
+  /// In en, this message translates to:
+  /// **'All lessons unlocked'**
+  String get settingsAllLessonsUnlocked;
+
+  /// No description provided for @settingsReduceMotion.
+  ///
+  /// In en, this message translates to:
+  /// **'Reduce motion'**
+  String get settingsReduceMotion;
+
+  /// No description provided for @settingsBackupProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up progress'**
+  String get settingsBackupProgress;
+
+  /// No description provided for @settingsRestoreProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore progress'**
+  String get settingsRestoreProgress;
+
+  /// No description provided for @settingsResetProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset progress'**
+  String get settingsResetProgress;
+
+  /// No description provided for @settingsAbout.
+  ///
+  /// In en, this message translates to:
+  /// **'About this app'**
+  String get settingsAbout;
+
+  /// No description provided for @settingsFidelLearningPath.
+  ///
+  /// In en, this message translates to:
+  /// **'Fidel learning path'**
+  String get settingsFidelLearningPath;
+
+  /// No description provided for @fidelPathTraditional.
+  ///
+  /// In en, this message translates to:
+  /// **'Traditional – as in Ethiopia'**
+  String get fidelPathTraditional;
+
+  /// No description provided for @fidelPathFast.
+  ///
+  /// In en, this message translates to:
+  /// **'Read fast'**
+  String get fidelPathFast;
+
+  /// No description provided for @settingsSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings saved'**
+  String get settingsSaved;
+
+  /// No description provided for @resetProgressTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset progress?'**
+  String get resetProgressTitle;
+
+  /// No description provided for @resetProgressWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'This deletes all your learning progress permanently. This cannot be undone.'**
+  String get resetProgressWarning;
+
+  /// No description provided for @resetProgressTypeWord.
+  ///
+  /// In en, this message translates to:
+  /// **'Type \"delete\" to confirm.'**
+  String get resetProgressTypeWord;
+
+  /// No description provided for @resetProgressConfirmWord.
+  ///
+  /// In en, this message translates to:
+  /// **'delete'**
+  String get resetProgressConfirmWord;
+
+  /// No description provided for @resetProgressDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Your progress has been reset.'**
+  String get resetProgressDone;
+
+  /// No description provided for @aboutVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version'**
+  String get aboutVersion;
+
+  /// No description provided for @aboutBuildDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Build date'**
+  String get aboutBuildDate;
+
+  /// No description provided for @aboutPrivacy.
+  ///
+  /// In en, this message translates to:
+  /// **'All your data stays on this device. No account, no server, no ads, no tracking.'**
+  String get aboutPrivacy;
+
+  /// No description provided for @aboutLicenses.
+  ///
+  /// In en, this message translates to:
+  /// **'Open source licenses'**
+  String get aboutLicenses;
+
+  /// No description provided for @aboutShortcuts.
+  ///
+  /// In en, this message translates to:
+  /// **'Keyboard shortcuts'**
+  String get aboutShortcuts;
+
+  /// No description provided for @aboutShortcutsAnswer.
+  ///
+  /// In en, this message translates to:
+  /// **'1–4: choose an answer'**
+  String get aboutShortcutsAnswer;
+
+  /// No description provided for @aboutShortcutsNext.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter: confirm / continue'**
+  String get aboutShortcutsNext;
+
+  /// No description provided for @aboutShortcutsCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Escape: cancel'**
+  String get aboutShortcutsCancel;
+
+  /// No description provided for @aboutShortcutsAudio.
+  ///
+  /// In en, this message translates to:
+  /// **'Space: replay audio'**
+  String get aboutShortcutsAudio;
+
+  /// No description provided for @onboardingWelcomeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Selam! Welcome to Amaseganlo'**
+  String get onboardingWelcomeTitle;
+
+  /// No description provided for @onboardingWelcomeBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Amaseganlo teaches you Amharic (አማርኛ), the official language of Ethiopia.'**
+  String get onboardingWelcomeBody;
+
+  /// No description provided for @onboardingChooseLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your app language'**
+  String get onboardingChooseLanguage;
+
+  /// No description provided for @onboardingTwoPathsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Two learning paths'**
+  String get onboardingTwoPathsTitle;
+
+  /// No description provided for @onboardingTwoPathsBody.
+  ///
+  /// In en, this message translates to:
+  /// **'\"Speak & understand\" teaches Amharic in Latin transliteration. \"Learn Fidel\" teaches the Ethiopic script. Both run side by side.'**
+  String get onboardingTwoPathsBody;
+
+  /// No description provided for @onboardingDailyGoalTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your daily goal'**
+  String get onboardingDailyGoalTitle;
+
+  /// No description provided for @onboardingAssessmentQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you already know some Amharic?'**
+  String get onboardingAssessmentQuestion;
+
+  /// No description provided for @onboardingAssessmentNone.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m starting from zero'**
+  String get onboardingAssessmentNone;
+
+  /// No description provided for @onboardingAssessmentSome.
+  ///
+  /// In en, this message translates to:
+  /// **'A few words'**
+  String get onboardingAssessmentSome;
+
+  /// No description provided for @onboardingAssessmentGood.
+  ///
+  /// In en, this message translates to:
+  /// **'I already know quite a bit'**
+  String get onboardingAssessmentGood;
+
+  /// No description provided for @onboardingStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Let\'s go'**
+  String get onboardingStart;
+
+  /// No description provided for @homeContinueLearning.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue learning'**
+  String get homeContinueLearning;
+
+  /// No description provided for @homeDailyGoal.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily goal'**
+  String get homeDailyGoal;
+
+  /// No description provided for @homeStreak.
+  ///
+  /// In en, this message translates to:
+  /// **'Streak'**
+  String get homeStreak;
+
+  /// No description provided for @homeReviewDue.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} due for review'**
+  String homeReviewDue(int count);
+
+  /// No description provided for @homeFreePractice.
+  ///
+  /// In en, this message translates to:
+  /// **'Free practice'**
+  String get homeFreePractice;
+
+  /// No description provided for @homeNoReviewsDue.
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing due right now. Practice your weak words instead?'**
+  String get homeNoReviewsDue;
+
+  /// No description provided for @pathSectionProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Section {section}: {title} — {done} of {total} units'**
+  String pathSectionProgress(int section, String title, int done, int total);
+
+  /// No description provided for @pathLocked.
+  ///
+  /// In en, this message translates to:
+  /// **'Locked'**
+  String get pathLocked;
+
+  /// No description provided for @pathSkipped.
+  ///
+  /// In en, this message translates to:
+  /// **'Skipped'**
+  String get pathSkipped;
+
+  /// No description provided for @pathCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get pathCompleted;
+
+  /// No description provided for @pathLockedDialogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This unit builds on earlier ones'**
+  String get pathLockedDialogTitle;
+
+  /// No description provided for @pathLockedDialogBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You don\'t know all the words used here yet. Start anyway?'**
+  String get pathLockedDialogBody;
+
+  /// No description provided for @pathLockedDialogLater.
+  ///
+  /// In en, this message translates to:
+  /// **'Maybe later'**
+  String get pathLockedDialogLater;
+
+  /// No description provided for @pathLockedDialogStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start anyway'**
+  String get pathLockedDialogStart;
+
+  /// No description provided for @pathUnitTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Unit test'**
+  String get pathUnitTest;
+
+  /// No description provided for @pathUnitTestHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip this unit by passing a test'**
+  String get pathUnitTestHint;
+
+  /// No description provided for @unitOverviewLessons.
+  ///
+  /// In en, this message translates to:
+  /// **'Lessons'**
+  String get unitOverviewLessons;
+
+  /// No description provided for @unitOverviewWordList.
+  ///
+  /// In en, this message translates to:
+  /// **'Word list'**
+  String get unitOverviewWordList;
+
+  /// No description provided for @unitOverviewCrowns.
+  ///
+  /// In en, this message translates to:
+  /// **'{crowns} of 5 crowns'**
+  String unitOverviewCrowns(int crowns);
+
+  /// No description provided for @lessonExitConfirmTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'End this lesson?'**
+  String get lessonExitConfirmTitle;
+
+  /// No description provided for @lessonExitConfirmBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Your progress in this lesson will be lost.'**
+  String get lessonExitConfirmBody;
+
+  /// No description provided for @lessonCompleteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Lesson complete!'**
+  String get lessonCompleteTitle;
+
+  /// No description provided for @lessonCompleteXp.
+  ///
+  /// In en, this message translates to:
+  /// **'{xp} XP'**
+  String lessonCompleteXp(int xp);
+
+  /// No description provided for @lessonCompleteAccuracy.
+  ///
+  /// In en, this message translates to:
+  /// **'Accuracy: {percent}%'**
+  String lessonCompleteAccuracy(int percent);
+
+  /// No description provided for @lessonCompleteDuration.
+  ///
+  /// In en, this message translates to:
+  /// **'Duration: {minutes} min'**
+  String lessonCompleteDuration(int minutes);
+
+  /// No description provided for @lessonCompleteSkipped.
+  ///
+  /// In en, this message translates to:
+  /// **'Skipped: {count}'**
+  String lessonCompleteSkipped(int count);
+
+  /// No description provided for @lessonCompleteContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get lessonCompleteContinue;
+
+  /// No description provided for @lessonCompleteRetry.
+  ///
+  /// In en, this message translates to:
+  /// **'Do it again'**
+  String get lessonCompleteRetry;
+
+  /// No description provided for @lessonOutOfHearts.
+  ///
+  /// In en, this message translates to:
+  /// **'Out of hearts'**
+  String get lessonOutOfHearts;
+
+  /// No description provided for @lessonOutOfHeartsBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve used all your hearts for this lesson. Come back later or practice again.'**
+  String get lessonOutOfHeartsBody;
+
+  /// No description provided for @feedbackCorrect.
+  ///
+  /// In en, this message translates to:
+  /// **'Correct!'**
+  String get feedbackCorrect;
+
+  /// No description provided for @feedbackIncorrect.
+  ///
+  /// In en, this message translates to:
+  /// **'Not quite'**
+  String get feedbackIncorrect;
+
+  /// No description provided for @feedbackAlmostCorrect.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost! Watch the spelling: {correct}'**
+  String feedbackAlmostCorrect(String correct);
+
+  /// No description provided for @feedbackCorrectAnswerWas.
+  ///
+  /// In en, this message translates to:
+  /// **'Correct answer: {answer}'**
+  String feedbackCorrectAnswerWas(String answer);
+
+  /// No description provided for @reviewTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Review'**
+  String get reviewTitle;
+
+  /// No description provided for @reviewDueToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Due today'**
+  String get reviewDueToday;
+
+  /// No description provided for @reviewDifficultWords.
+  ///
+  /// In en, this message translates to:
+  /// **'Difficult words'**
+  String get reviewDifficultWords;
+
+  /// No description provided for @reviewFreePractice.
+  ///
+  /// In en, this message translates to:
+  /// **'Free practice'**
+  String get reviewFreePractice;
+
+  /// No description provided for @reviewEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing to review right now. Great job keeping up!'**
+  String get reviewEmpty;
+
+  /// No description provided for @dictionaryTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Dictionary'**
+  String get dictionaryTitle;
+
+  /// No description provided for @dictionarySearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search words…'**
+  String get dictionarySearchHint;
+
+  /// No description provided for @dictionaryFilterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All topics'**
+  String get dictionaryFilterAll;
+
+  /// No description provided for @dictionaryEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No words learned yet in this topic.'**
+  String get dictionaryEmpty;
+
+  /// No description provided for @profileTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profileTitle;
+
+  /// No description provided for @profileWordsLearned.
+  ///
+  /// In en, this message translates to:
+  /// **'Words learned'**
+  String get profileWordsLearned;
+
+  /// No description provided for @profileWordsMastered.
+  ///
+  /// In en, this message translates to:
+  /// **'Words mastered'**
+  String get profileWordsMastered;
+
+  /// No description provided for @profileFidelChars.
+  ///
+  /// In en, this message translates to:
+  /// **'Fidel signs learned'**
+  String get profileFidelChars;
+
+  /// No description provided for @profileTotalXp.
+  ///
+  /// In en, this message translates to:
+  /// **'Total XP'**
+  String get profileTotalXp;
+
+  /// No description provided for @profileLongestStreak.
+  ///
+  /// In en, this message translates to:
+  /// **'Longest streak'**
+  String get profileLongestStreak;
+
+  /// No description provided for @profileCurrentStreak.
+  ///
+  /// In en, this message translates to:
+  /// **'Current streak'**
+  String get profileCurrentStreak;
+
+  /// No description provided for @profileDaysLearned.
+  ///
+  /// In en, this message translates to:
+  /// **'Days learned'**
+  String get profileDaysLearned;
+
+  /// No description provided for @profileAccuracy.
+  ///
+  /// In en, this message translates to:
+  /// **'Accuracy'**
+  String get profileAccuracy;
+
+  /// No description provided for @profileLast7Days.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 7 days'**
+  String get profileLast7Days;
+
+  /// No description provided for @profileBadges.
+  ///
+  /// In en, this message translates to:
+  /// **'Badges'**
+  String get profileBadges;
+
+  /// No description provided for @profileSkippedUnits.
+  ///
+  /// In en, this message translates to:
+  /// **'Skipped units'**
+  String get profileSkippedUnits;
+
+  /// No description provided for @profileSkippedUnitsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'You haven\'t skipped any units.'**
+  String get profileSkippedUnitsEmpty;
+
+  /// No description provided for @profileCatchUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Catch up'**
+  String get profileCatchUp;
+
+  /// No description provided for @profileAssessmentTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Placement test'**
+  String get profileAssessmentTest;
+
+  /// No description provided for @errorGenericTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong'**
+  String get errorGenericTitle;
+
+  /// No description provided for @errorGenericBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Your progress is saved.'**
+  String get errorGenericBody;
+
+  /// No description provided for @errorGoHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to home'**
+  String get errorGoHome;
+
+  /// No description provided for @errorReload.
+  ///
+  /// In en, this message translates to:
+  /// **'Reload'**
+  String get errorReload;
+
+  /// No description provided for @errorContentUnit.
+  ///
+  /// In en, this message translates to:
+  /// **'This unit couldn\'t be loaded and was skipped.'**
+  String get errorContentUnit;
+
+  /// No description provided for @errorCorruptSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Your saved data couldn\'t be read. Starting fresh.'**
+  String get errorCorruptSave;
+
+  /// No description provided for @resumeLessonTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'You were in the middle of a lesson'**
+  String get resumeLessonTitle;
+
+  /// No description provided for @resumeLessonBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue where you left off?'**
+  String get resumeLessonBody;
+
+  /// No description provided for @resumeLessonContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get resumeLessonContinue;
+
+  /// No description provided for @resumeLessonRestart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start over'**
+  String get resumeLessonRestart;
+
+  /// No description provided for @exitAppConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Press back again to exit'**
+  String get exitAppConfirm;
+}
+
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
+  const _AppLocalizationsDelegate();
+
+  @override
+  Future<AppLocalizations> load(Locale locale) {
+    return SynchronousFuture<AppLocalizations>(lookupAppLocalizations(locale));
+  }
+
+  @override
+  bool isSupported(Locale locale) =>
+      <String>['de', 'en', 'nl', 'sv'].contains(locale.languageCode);
+
+  @override
+  bool shouldReload(_AppLocalizationsDelegate old) => false;
+}
+
+AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when only language code is specified.
+  switch (locale.languageCode) {
+    case 'de':
+      return AppLocalizationsDe();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'nl':
+      return AppLocalizationsNl();
+    case 'sv':
+      return AppLocalizationsSv();
+  }
+
+  throw FlutterError(
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.',
+  );
+}

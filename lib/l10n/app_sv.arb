@@ -1,0 +1,200 @@
+{
+  "@@locale": "sv",
+  "appTitle": "Amaseganlo",
+
+  "navLearn": "Lär dig",
+  "navFidel": "Fidel",
+  "navReview": "Repetera",
+  "navProfile": "Profil",
+
+  "commonBack": "Tillbaka",
+  "commonNext": "Nästa",
+  "commonContinue": "Fortsätt",
+  "commonCancel": "Avbryt",
+  "commonConfirm": "Bekräfta",
+  "commonClose": "Stäng",
+  "commonSave": "Spara",
+  "commonRetry": "Försök igen",
+  "commonYes": "Ja",
+  "commonNo": "Nej",
+  "commonLoading": "Laddar…",
+  "commonComingSoon": "Kommer snart",
+  "commonDontKnow": "Jag vet inte",
+  "commonSkip": "Hoppa över",
+
+  "settingsTitle": "Inställningar",
+  "settingsLanguage": "Appens språk",
+  "settingsAppearance": "Utseende",
+  "appearanceLight": "Ljust",
+  "appearanceDark": "Mörkt",
+  "appearanceSystem": "Som systemet",
+  "settingsAccentColor": "Accentfärg",
+  "settingsFontSize": "Textstorlek",
+  "fontSizeSmall": "Liten",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Stor",
+  "fontSizeExtraLarge": "Extra stor",
+  "settingsShowFidelInMainPath": "Visa Fidel-skrift i huvudspåret",
+  "fidelDisplayNever": "Aldrig",
+  "fidelDisplayBelow": "Under translitereringen",
+  "fidelDisplayInstead": "Istället för translitereringen",
+  "settingsSound": "Ljud",
+  "settingsVolume": "Volym",
+  "settingsAutoPlayNewWords": "Spela nya ord automatiskt",
+  "settingsDailyGoal": "Dagligt mål",
+  "dailyGoalRelaxed": "Avslappnat · 20 XP",
+  "dailyGoalNormal": "Normalt · 50 XP",
+  "dailyGoalAmbitious": "Ambitiöst · 100 XP",
+  "settingsUseHearts": "Använd hjärtan",
+  "settingsDailyReminder": "Daglig påminnelse",
+  "settingsAllLessonsUnlocked": "Alla lektioner tillgängliga",
+  "settingsReduceMotion": "Minska rörelser",
+  "settingsBackupProgress": "Säkerhetskopiera framsteg",
+  "settingsRestoreProgress": "Återställ framsteg",
+  "settingsResetProgress": "Återställ framsteg till noll",
+  "settingsAbout": "Om appen",
+  "settingsFidelLearningPath": "Fidel-inlärningsväg",
+  "fidelPathTraditional": "Traditionellt – som i Etiopien",
+  "fidelPathFast": "Läs snabbt",
+  "settingsSaved": "Inställningar sparade",
+
+  "resetProgressTitle": "Återställa framsteg?",
+  "resetProgressWarning": "Detta raderar permanent alla dina inlärningsframsteg. Det kan inte ångras.",
+  "resetProgressTypeWord": "Skriv \"radera\" för att bekräfta.",
+  "resetProgressConfirmWord": "radera",
+  "resetProgressDone": "Dina framsteg har återställts.",
+
+  "aboutVersion": "Version",
+  "aboutBuildDate": "Byggdatum",
+  "aboutPrivacy": "All din data stannar på den här enheten. Inget konto, ingen server, ingen reklam, ingen spårning.",
+  "aboutLicenses": "Licenser för öppen källkod",
+  "aboutShortcuts": "Kortkommandon",
+  "aboutShortcutsAnswer": "1–4: välj ett svar",
+  "aboutShortcutsNext": "Enter: bekräfta / fortsätt",
+  "aboutShortcutsCancel": "Escape: avbryt",
+  "aboutShortcutsAudio": "Mellanslag: spela upp ljudet igen",
+
+  "onboardingWelcomeTitle": "Selam! Välkommen till Amaseganlo",
+  "onboardingWelcomeBody": "Amaseganlo lär dig amhariska (አማርኛ), Etiopiens officiella språk.",
+  "onboardingChooseLanguage": "Välj appens språk",
+  "onboardingTwoPathsTitle": "Två inlärningsvägar",
+  "onboardingTwoPathsBody": "\"Tala & förstå\" lär dig amhariska med latinsk translitterering. \"Lär dig Fidel\" lär dig den etiopiska skriften. Båda löper parallellt.",
+  "onboardingDailyGoalTitle": "Välj ditt dagliga mål",
+  "onboardingAssessmentQuestion": "Kan du redan lite amhariska?",
+  "onboardingAssessmentNone": "Jag börjar från noll",
+  "onboardingAssessmentSome": "Några ord",
+  "onboardingAssessmentGood": "Jag kan redan ganska mycket",
+  "onboardingStart": "Sätt igång",
+
+  "homeContinueLearning": "Fortsätt lära",
+  "homeDailyGoal": "Dagligt mål",
+  "homeStreak": "Serie",
+  "homeReviewDue": "{count} att repetera idag",
+  "@homeReviewDue": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "homeFreePractice": "Fri övning",
+  "homeNoReviewsDue": "Inget att repetera just nu. Öva svaga ord istället?",
+
+  "pathSectionProgress": "Avsnitt {section}: {title} — {done} av {total} kapitel",
+  "@pathSectionProgress": {
+    "placeholders": {
+      "section": { "type": "int" },
+      "title": { "type": "String" },
+      "done": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "pathLocked": "Låst",
+  "pathSkipped": "Överhoppat",
+  "pathCompleted": "Klart",
+  "pathLockedDialogTitle": "Detta kapitel bygger på tidigare kapitel",
+  "pathLockedDialogBody": "Du känner inte till alla ord som förekommer här än. Starta trots det?",
+  "pathLockedDialogLater": "Kanske senare",
+  "pathLockedDialogStart": "Starta trots det",
+  "pathUnitTest": "Kapiteltest",
+  "pathUnitTestHint": "Hoppa över kapitlet med ett test",
+
+  "unitOverviewLessons": "Lektioner",
+  "unitOverviewWordList": "Ordlista",
+  "unitOverviewCrowns": "{crowns} av 5 kronor",
+  "@unitOverviewCrowns": {
+    "placeholders": { "crowns": { "type": "int" } }
+  },
+
+  "lessonExitConfirmTitle": "Avsluta lektionen?",
+  "lessonExitConfirmBody": "Dina framsteg i denna lektion går förlorade.",
+  "lessonCompleteTitle": "Lektion klar!",
+  "lessonCompleteXp": "{xp} XP",
+  "@lessonCompleteXp": {
+    "placeholders": { "xp": { "type": "int" } }
+  },
+  "lessonCompleteAccuracy": "Träffsäkerhet: {percent}%",
+  "@lessonCompleteAccuracy": {
+    "placeholders": { "percent": { "type": "int" } }
+  },
+  "lessonCompleteDuration": "Tid: {minutes} min",
+  "@lessonCompleteDuration": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "lessonCompleteSkipped": "Överhoppade: {count}",
+  "@lessonCompleteSkipped": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "lessonCompleteContinue": "Fortsätt",
+  "lessonCompleteRetry": "Gör om",
+  "lessonOutOfHearts": "Inga hjärtan kvar",
+  "lessonOutOfHeartsBody": "Du har använt alla hjärtan för denna lektion. Kom tillbaka senare eller öva igen.",
+
+  "feedbackCorrect": "Rätt!",
+  "feedbackIncorrect": "Inte riktigt",
+  "feedbackAlmostCorrect": "Nästan! Kolla stavningen: {correct}",
+  "@feedbackAlmostCorrect": {
+    "placeholders": { "correct": { "type": "String" } }
+  },
+  "feedbackCorrectAnswerWas": "Rätt svar: {answer}",
+  "@feedbackCorrectAnswerWas": {
+    "placeholders": { "answer": { "type": "String" } }
+  },
+
+  "reviewTitle": "Repetera",
+  "reviewDueToday": "Att göra idag",
+  "reviewDifficultWords": "Svåra ord",
+  "reviewFreePractice": "Fri övning",
+  "reviewEmpty": "Inget att repetera just nu. Bra jobbat!",
+
+  "dictionaryTitle": "Ordbok",
+  "dictionarySearchHint": "Sök ord…",
+  "dictionaryFilterAll": "Alla ämnen",
+  "dictionaryEmpty": "Inga ord inlärda i detta ämne än.",
+
+  "profileTitle": "Profil",
+  "profileWordsLearned": "Inlärda ord",
+  "profileWordsMastered": "Behärskade ord",
+  "profileFidelChars": "Inlärda Fidel-tecken",
+  "profileTotalXp": "Total XP",
+  "profileLongestStreak": "Längsta serie",
+  "profileCurrentStreak": "Nuvarande serie",
+  "profileDaysLearned": "Dagar med lärande",
+  "profileAccuracy": "Träffsäkerhet",
+  "profileLast7Days": "Senaste 7 dagarna",
+  "profileBadges": "Utmärkelser",
+  "profileSkippedUnits": "Överhoppade kapitel",
+  "profileSkippedUnitsEmpty": "Du har inte hoppat över några kapitel.",
+  "profileCatchUp": "Ta igen",
+  "profileAssessmentTest": "Placeringstest",
+
+  "errorGenericTitle": "Något gick fel",
+  "errorGenericBody": "Dina framsteg är sparade.",
+  "errorGoHome": "Tillbaka till start",
+  "errorReload": "Ladda om",
+  "errorContentUnit": "Detta kapitel kunde inte laddas och hoppades över.",
+  "errorCorruptSave": "Dina sparade data kunde inte läsas. Startar om med tomma data.",
+
+  "resumeLessonTitle": "Du var mitt i en lektion",
+  "resumeLessonBody": "Vill du fortsätta?",
+  "resumeLessonContinue": "Fortsätt",
+  "resumeLessonRestart": "Börja om",
+
+  "exitAppConfirm": "Tryck tillbaka igen för att avsluta"
+}

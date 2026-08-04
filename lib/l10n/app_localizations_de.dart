@@ -1,0 +1,485 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for German (`de`).
+class AppLocalizationsDe extends AppLocalizations {
+  AppLocalizationsDe([String locale = 'de']) : super(locale);
+
+  @override
+  String get appTitle => 'Amaseganlo';
+
+  @override
+  String get navLearn => 'Lernen';
+
+  @override
+  String get navFidel => 'Fidel';
+
+  @override
+  String get navReview => 'Wiederholen';
+
+  @override
+  String get navProfile => 'Profil';
+
+  @override
+  String get commonBack => 'Zurück';
+
+  @override
+  String get commonNext => 'Weiter';
+
+  @override
+  String get commonContinue => 'Weiter';
+
+  @override
+  String get commonCancel => 'Abbrechen';
+
+  @override
+  String get commonConfirm => 'Bestätigen';
+
+  @override
+  String get commonClose => 'Schließen';
+
+  @override
+  String get commonSave => 'Speichern';
+
+  @override
+  String get commonRetry => 'Erneut versuchen';
+
+  @override
+  String get commonYes => 'Ja';
+
+  @override
+  String get commonNo => 'Nein';
+
+  @override
+  String get commonLoading => 'Lädt…';
+
+  @override
+  String get commonComingSoon => 'Kommt bald';
+
+  @override
+  String get commonDontKnow => 'Ich weiß es nicht';
+
+  @override
+  String get commonSkip => 'Überspringen';
+
+  @override
+  String get settingsTitle => 'Einstellungen';
+
+  @override
+  String get settingsLanguage => 'Sprache der Oberfläche';
+
+  @override
+  String get settingsAppearance => 'Erscheinungsbild';
+
+  @override
+  String get appearanceLight => 'Hell';
+
+  @override
+  String get appearanceDark => 'Dunkel';
+
+  @override
+  String get appearanceSystem => 'Wie das System';
+
+  @override
+  String get settingsAccentColor => 'Akzentfarbe';
+
+  @override
+  String get settingsFontSize => 'Schriftgröße';
+
+  @override
+  String get fontSizeSmall => 'Klein';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Groß';
+
+  @override
+  String get fontSizeExtraLarge => 'Sehr groß';
+
+  @override
+  String get settingsShowFidelInMainPath =>
+      'Fidel-Schrift im Hauptweg anzeigen';
+
+  @override
+  String get fidelDisplayNever => 'Nie';
+
+  @override
+  String get fidelDisplayBelow => 'Unter der Umschrift';
+
+  @override
+  String get fidelDisplayInstead => 'Statt der Umschrift';
+
+  @override
+  String get settingsSound => 'Ton';
+
+  @override
+  String get settingsVolume => 'Lautstärke';
+
+  @override
+  String get settingsAutoPlayNewWords => 'Neue Wörter automatisch abspielen';
+
+  @override
+  String get settingsDailyGoal => 'Tagesziel';
+
+  @override
+  String get dailyGoalRelaxed => 'Locker · 20 XP';
+
+  @override
+  String get dailyGoalNormal => 'Normal · 50 XP';
+
+  @override
+  String get dailyGoalAmbitious => 'Ehrgeizig · 100 XP';
+
+  @override
+  String get settingsUseHearts => 'Herzen verwenden';
+
+  @override
+  String get settingsDailyReminder => 'Tägliche Erinnerung';
+
+  @override
+  String get settingsAllLessonsUnlocked => 'Alle Lektionen frei zugänglich';
+
+  @override
+  String get settingsReduceMotion => 'Bewegungen reduzieren';
+
+  @override
+  String get settingsBackupProgress => 'Fortschritt sichern';
+
+  @override
+  String get settingsRestoreProgress => 'Fortschritt wiederherstellen';
+
+  @override
+  String get settingsResetProgress => 'Fortschritt zurücksetzen';
+
+  @override
+  String get settingsAbout => 'Über die App';
+
+  @override
+  String get settingsFidelLearningPath => 'Fidel-Lernweg';
+
+  @override
+  String get fidelPathTraditional => 'Traditionell – wie in Äthiopien';
+
+  @override
+  String get fidelPathFast => 'Schnell lesen';
+
+  @override
+  String get settingsSaved => 'Einstellungen gespeichert';
+
+  @override
+  String get resetProgressTitle => 'Fortschritt zurücksetzen?';
+
+  @override
+  String get resetProgressWarning =>
+      'Damit wird dein gesamter Lernfortschritt endgültig gelöscht. Das kann nicht rückgängig gemacht werden.';
+
+  @override
+  String get resetProgressTypeWord => 'Tippe \"löschen\" zur Bestätigung.';
+
+  @override
+  String get resetProgressConfirmWord => 'löschen';
+
+  @override
+  String get resetProgressDone => 'Dein Fortschritt wurde zurückgesetzt.';
+
+  @override
+  String get aboutVersion => 'Version';
+
+  @override
+  String get aboutBuildDate => 'Erstellungsdatum';
+
+  @override
+  String get aboutPrivacy =>
+      'Alle deine Daten bleiben auf diesem Gerät. Kein Konto, kein Server, keine Werbung, kein Tracking.';
+
+  @override
+  String get aboutLicenses => 'Open-Source-Lizenzen';
+
+  @override
+  String get aboutShortcuts => 'Tastenkürzel';
+
+  @override
+  String get aboutShortcutsAnswer => '1–4: Antwort wählen';
+
+  @override
+  String get aboutShortcutsNext => 'Enter: bestätigen / weiter';
+
+  @override
+  String get aboutShortcutsCancel => 'Escape: abbrechen';
+
+  @override
+  String get aboutShortcutsAudio => 'Leertaste: Ton erneut abspielen';
+
+  @override
+  String get onboardingWelcomeTitle => 'Selam! Willkommen bei Amaseganlo';
+
+  @override
+  String get onboardingWelcomeBody =>
+      'Amaseganlo bringt dir Amharisch (አማርኛ) bei, die Amtssprache Äthiopiens.';
+
+  @override
+  String get onboardingChooseLanguage => 'Wähle die Sprache der App';
+
+  @override
+  String get onboardingTwoPathsTitle => 'Zwei Lernwege';
+
+  @override
+  String get onboardingTwoPathsBody =>
+      '„Sprechen & Verstehen“ bringt dir Amharisch in lateinischer Umschrift bei. „Fidel lernen“ bringt dir die äthiopische Schrift bei. Beide laufen parallel nebeneinander.';
+
+  @override
+  String get onboardingDailyGoalTitle => 'Wähle dein Tagesziel';
+
+  @override
+  String get onboardingAssessmentQuestion => 'Kannst du schon etwas Amharisch?';
+
+  @override
+  String get onboardingAssessmentNone => 'Ich fange bei null an';
+
+  @override
+  String get onboardingAssessmentSome => 'Ein paar Wörter';
+
+  @override
+  String get onboardingAssessmentGood => 'Ich kann schon einiges';
+
+  @override
+  String get onboardingStart => 'Los geht\'s';
+
+  @override
+  String get homeContinueLearning => 'Weiterlernen';
+
+  @override
+  String get homeDailyGoal => 'Tagesziel';
+
+  @override
+  String get homeStreak => 'Serie';
+
+  @override
+  String homeReviewDue(int count) {
+    return '$count heute fällig';
+  }
+
+  @override
+  String get homeFreePractice => 'Freies Üben';
+
+  @override
+  String get homeNoReviewsDue =>
+      'Gerade nichts fällig. Stattdessen schwache Wörter üben?';
+
+  @override
+  String pathSectionProgress(int section, String title, int done, int total) {
+    return 'Abschnitt $section: $title — $done von $total Kapiteln';
+  }
+
+  @override
+  String get pathLocked => 'Gesperrt';
+
+  @override
+  String get pathSkipped => 'Übersprungen';
+
+  @override
+  String get pathCompleted => 'Abgeschlossen';
+
+  @override
+  String get pathLockedDialogTitle =>
+      'Dieses Kapitel baut auf den vorherigen auf';
+
+  @override
+  String get pathLockedDialogBody =>
+      'Du kennst noch nicht alle Wörter, die hier vorkommen. Trotzdem starten?';
+
+  @override
+  String get pathLockedDialogLater => 'Lieber später';
+
+  @override
+  String get pathLockedDialogStart => 'Trotzdem starten';
+
+  @override
+  String get pathUnitTest => 'Kapitel-Test';
+
+  @override
+  String get pathUnitTestHint => 'Kapitel per Test überspringen';
+
+  @override
+  String get unitOverviewLessons => 'Lektionen';
+
+  @override
+  String get unitOverviewWordList => 'Wortliste';
+
+  @override
+  String unitOverviewCrowns(int crowns) {
+    return '$crowns von 5 Kronen';
+  }
+
+  @override
+  String get lessonExitConfirmTitle => 'Lektion wirklich beenden?';
+
+  @override
+  String get lessonExitConfirmBody =>
+      'Dein Fortschritt in dieser Lektion geht verloren.';
+
+  @override
+  String get lessonCompleteTitle => 'Lektion abgeschlossen!';
+
+  @override
+  String lessonCompleteXp(int xp) {
+    return '$xp XP';
+  }
+
+  @override
+  String lessonCompleteAccuracy(int percent) {
+    return 'Trefferquote: $percent%';
+  }
+
+  @override
+  String lessonCompleteDuration(int minutes) {
+    return 'Dauer: $minutes Min.';
+  }
+
+  @override
+  String lessonCompleteSkipped(int count) {
+    return 'Übersprungen: $count';
+  }
+
+  @override
+  String get lessonCompleteContinue => 'Weiter';
+
+  @override
+  String get lessonCompleteRetry => 'Nochmal';
+
+  @override
+  String get lessonOutOfHearts => 'Keine Herzen mehr';
+
+  @override
+  String get lessonOutOfHeartsBody =>
+      'Du hast alle Herzen für diese Lektion verbraucht. Komm später wieder oder übe erneut.';
+
+  @override
+  String get feedbackCorrect => 'Richtig!';
+
+  @override
+  String get feedbackIncorrect => 'Nicht ganz';
+
+  @override
+  String feedbackAlmostCorrect(String correct) {
+    return 'Fast! Achte auf die Schreibweise: $correct';
+  }
+
+  @override
+  String feedbackCorrectAnswerWas(String answer) {
+    return 'Richtige Antwort: $answer';
+  }
+
+  @override
+  String get reviewTitle => 'Wiederholen';
+
+  @override
+  String get reviewDueToday => 'Heute fällig';
+
+  @override
+  String get reviewDifficultWords => 'Schwierige Wörter';
+
+  @override
+  String get reviewFreePractice => 'Freies Üben';
+
+  @override
+  String get reviewEmpty => 'Gerade nichts zu wiederholen. Weiter so!';
+
+  @override
+  String get dictionaryTitle => 'Wörterbuch';
+
+  @override
+  String get dictionarySearchHint => 'Wörter suchen…';
+
+  @override
+  String get dictionaryFilterAll => 'Alle Themen';
+
+  @override
+  String get dictionaryEmpty => 'In diesem Thema noch keine Wörter gelernt.';
+
+  @override
+  String get profileTitle => 'Profil';
+
+  @override
+  String get profileWordsLearned => 'Gelernte Wörter';
+
+  @override
+  String get profileWordsMastered => 'Gemeisterte Wörter';
+
+  @override
+  String get profileFidelChars => 'Gelernte Fidel-Zeichen';
+
+  @override
+  String get profileTotalXp => 'Gesamt-XP';
+
+  @override
+  String get profileLongestStreak => 'Längste Serie';
+
+  @override
+  String get profileCurrentStreak => 'Aktuelle Serie';
+
+  @override
+  String get profileDaysLearned => 'Lerntage';
+
+  @override
+  String get profileAccuracy => 'Trefferquote';
+
+  @override
+  String get profileLast7Days => 'Letzte 7 Tage';
+
+  @override
+  String get profileBadges => 'Abzeichen';
+
+  @override
+  String get profileSkippedUnits => 'Übersprungene Kapitel';
+
+  @override
+  String get profileSkippedUnitsEmpty =>
+      'Du hast noch keine Kapitel übersprungen.';
+
+  @override
+  String get profileCatchUp => 'Nachholen';
+
+  @override
+  String get profileAssessmentTest => 'Einstufungstest';
+
+  @override
+  String get errorGenericTitle => 'Da ist etwas schiefgelaufen';
+
+  @override
+  String get errorGenericBody => 'Dein Fortschritt ist gespeichert.';
+
+  @override
+  String get errorGoHome => 'Zurück zur Startseite';
+
+  @override
+  String get errorReload => 'Neu laden';
+
+  @override
+  String get errorContentUnit =>
+      'Dieses Kapitel konnte nicht geladen werden und wurde übersprungen.';
+
+  @override
+  String get errorCorruptSave =>
+      'Deine gespeicherten Daten konnten nicht gelesen werden. Es wird neu gestartet.';
+
+  @override
+  String get resumeLessonTitle => 'Du warst mitten in einer Lektion';
+
+  @override
+  String get resumeLessonBody => 'Weitermachen?';
+
+  @override
+  String get resumeLessonContinue => 'Weitermachen';
+
+  @override
+  String get resumeLessonRestart => 'Neu beginnen';
+
+  @override
+  String get exitAppConfirm => 'Noch einmal drücken zum Beenden';
+}
