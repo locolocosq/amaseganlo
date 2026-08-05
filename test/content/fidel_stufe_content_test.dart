@@ -82,7 +82,12 @@ void main() {
     });
 
     test('sentences are only decodable once every sign in them is learned (punctuation exempt)', () {
-      final allChars = repo.allFidelChars.map((c) => c.char).toSet();
+      // "Everything learned" means the full Fidel path including Stufe 7's
+      // labialized special forms, not just the 33x7 base table.
+      final allChars = {
+        ...repo.allFidelChars.map((c) => c.char),
+        ...repo.fidelExtrasForCategory('labialized').map((e) => e.char),
+      };
       final decodableSentences = repo.sentencesDecodableWith(allChars);
       // With every syllable learned, all sample sentences should decode -
       // punctuation/word separators must not block that.

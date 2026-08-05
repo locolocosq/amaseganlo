@@ -135,7 +135,7 @@ class ContentRepository {
 
   List<FidelExtra> get allFidelExtras => _fidelExtras;
 
-  static const _alwaysReadable = {' ', '፡', '።', '፣', '፤', '፥', '፧', '፨'};
+  static const _alwaysReadable = {' ', '፡', '።', '፣', '፤', '፥', '፧', '፨', '?'};
 
   bool _isDecodableWith(String text, Set<String> learnedChars) {
     for (final rune in text.runes) {
