@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_wissenschaft",
+    "am": "ሳይንስ",
+    "tr": "sayins",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Wissenschaft",
+      "en": "science",
+      "sv": "vetenskap",
+      "nl": "wetenschap"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_experiment",
+    "am": "ሙከራ",
+    "tr": "mukera",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "das Experiment",
+      "en": "experiment",
+      "sv": "experiment",
+      "nl": "experiment"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_forschung",
+    "am": "ጥናት",
+    "tr": "t'inat",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Forschung",
+      "en": "research",
+      "sv": "forskning",
+      "nl": "onderzoek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mathematik",
+    "am": "ሂሳብ",
+    "tr": "hisab",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Mathematik",
+      "en": "mathematics",
+      "sv": "matematik",
+      "nl": "wiskunde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_physik",
+    "am": "ፊዚክስ",
+    "tr": "fizikis",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Physik",
+      "en": "physics",
+      "sv": "fysik",
+      "nl": "natuurkunde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_chemie",
+    "am": "ኬሚስትሪ",
+    "tr": "kemistiri",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Chemie",
+      "en": "chemistry",
+      "sv": "kemi",
+      "nl": "chemie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_biologie",
+    "am": "ባዮሎጂ",
+    "tr": "baayoloji",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Biologie",
+      "en": "biology",
+      "sv": "biologi",
+      "nl": "biologie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geographie",
+    "am": "ጂኦግራፊ",
+    "tr": "ge'ografi",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Geographie",
+      "en": "geography",
+      "sv": "geografi",
+      "nl": "aardrijkskunde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

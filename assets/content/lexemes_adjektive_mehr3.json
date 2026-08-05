@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_schwer_gewicht",
+    "am": "ከባድ",
+    "tr": "kebad",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "schwer (Gewicht)",
+      "en": "heavy",
+      "sv": "tung",
+      "nl": "zwaar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_leicht_gewicht",
+    "am": "ቀላል",
+    "tr": "kelal",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "leicht (Gewicht)",
+      "en": "light (weight)",
+      "sv": "lätt",
+      "nl": "licht"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tief",
+    "am": "ጥልቅ",
+    "tr": "t'ilik'",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "tief",
+      "en": "deep",
+      "sv": "djup",
+      "nl": "diep"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_flach",
+    "am": "ጥልቀት የለው",
+    "tr": "t'ilik'et yelew",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "flach, seicht",
+      "en": "shallow",
+      "sv": "grund",
+      "nl": "ondiep"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_breit",
+    "am": "ሰፊ",
+    "tr": "sefi",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "breit, weit",
+      "en": "wide",
+      "sv": "bred",
+      "nl": "breed"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_eng",
+    "am": "ጠባብ",
+    "tr": "tebab",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "eng, schmal",
+      "en": "narrow",
+      "sv": "trång, smal",
+      "nl": "nauw, smal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_dick",
+    "am": "ወፍራም",
+    "tr": "wefram",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "dick",
+      "en": "thick",
+      "sv": "tjock",
+      "nl": "dik"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_duenn",
+    "am": "ቀጭን",
+    "tr": "k'echin",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "dünn",
+      "en": "thin",
+      "sv": "tunn",
+      "nl": "dun"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_rund",
+    "am": "ክብ",
+    "tr": "kib",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "rund",
+      "en": "round",
+      "sv": "rund",
+      "nl": "rond"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gerade_form",
+    "am": "ቀጥ ያለ",
+    "tr": "k'et' yale",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "gerade (Form)",
+      "en": "straight",
+      "sv": "rak",
+      "nl": "recht"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_glatt",
+    "am": "ልስልስ",
+    "tr": "lisilis",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "glatt",
+      "en": "smooth",
+      "sv": "jämn, glatt",
+      "nl": "glad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_rau",
+    "am": "ሻካራ",
+    "tr": "shakara",
+    "pos": "adjective",
+    "topic": "adjectives_more3",
+    "level": "B1",
+    "t": {
+      "de": "rau, uneben",
+      "en": "rough",
+      "sv": "ojämn, rå",
+      "nl": "ruw"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

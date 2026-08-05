@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_sturm",
+    "am": "ኃይለኛ ንፋስ",
+    "tr": "hailegna nifas",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Sturm",
+      "en": "storm",
+      "sv": "storm",
+      "nl": "storm"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌬️",
+    "verified": false
+  },
+  {
+    "id": "lex_blitz",
+    "am": "መብረቅ",
+    "tr": "mebrek'",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Blitz",
+      "en": "lightning",
+      "sv": "blixt",
+      "nl": "bliksem"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⚡",
+    "verified": false
+  },
+  {
+    "id": "lex_donner",
+    "am": "ነጎድጓድ",
+    "tr": "negodgwad",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Donner",
+      "en": "thunder",
+      "sv": "åska",
+      "nl": "donder"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_feucht",
+    "am": "እርጥበት ያለው",
+    "tr": "irt'ibet yalew",
+    "pos": "adjective",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "feucht",
+      "en": "humid",
+      "sv": "fuktig",
+      "nl": "vochtig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nebel",
+    "am": "ጭጋግ",
+    "tr": "chigag",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Nebel",
+      "en": "fog",
+      "sv": "dimma",
+      "nl": "mist"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌫️",
+    "verified": false
+  },
+  {
+    "id": "lex_hagel",
+    "am": "በረዶ",
+    "tr": "beredo",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Hagel, das Eis",
+      "en": "hail, ice",
+      "sv": "hagel, is",
+      "nl": "hagel, ijs"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nieselregen",
+    "am": "ትንሽ ዝናብ",
+    "tr": "tinish zinab",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Nieselregen",
+      "en": "drizzle",
+      "sv": "duggregn",
+      "nl": "motregen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

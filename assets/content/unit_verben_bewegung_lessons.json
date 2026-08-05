@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_verben_bewegung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_v_rennen",
+      "lex_v_klettern",
+      "lex_v_schieben",
+      "lex_v_werfen",
+      "lex_v_verstecken",
+      "lex_v_folgen",
+      "lex_v_fuehren",
+      "lex_v_abreisen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_verben_bewegung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_v_rennen",
+      "lex_v_klettern",
+      "lex_v_schieben",
+      "lex_v_werfen",
+      "lex_v_verstecken",
+      "lex_v_folgen",
+      "lex_v_fuehren",
+      "lex_v_abreisen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_verben_bewegung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_v_rennen",
+      "lex_v_klettern",
+      "lex_v_schieben",
+      "lex_v_werfen",
+      "lex_v_verstecken",
+      "lex_v_folgen",
+      "lex_v_fuehren",
+      "lex_v_abreisen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_verben_bewegung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_v_rennen",
+      "lex_v_klettern",
+      "lex_v_schieben",
+      "lex_v_werfen",
+      "lex_v_verstecken",
+      "lex_v_folgen",
+      "lex_v_fuehren",
+      "lex_v_abreisen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_verben_bewegung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_v_rennen",
+      "lex_v_klettern",
+      "lex_v_schieben",
+      "lex_v_werfen",
+      "lex_v_verstecken",
+      "lex_v_folgen",
+      "lex_v_fuehren",
+      "lex_v_abreisen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_verben_bewegung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_v_rennen",
+      "lex_v_klettern",
+      "lex_v_schieben",
+      "lex_v_werfen",
+      "lex_v_verstecken",
+      "lex_v_folgen",
+      "lex_v_fuehren",
+      "lex_v_abreisen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

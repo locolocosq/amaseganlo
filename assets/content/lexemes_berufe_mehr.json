@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_richter",
+    "am": "ዳኛ",
+    "tr": "dagna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Richter",
+      "en": "judge",
+      "sv": "domare",
+      "nl": "rechter"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_priester",
+    "am": "ቄስ",
+    "tr": "k'es",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Priester",
+      "en": "priest",
+      "sv": "präst",
+      "nl": "priester"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schneider",
+    "am": "ልብስ ስፌት",
+    "tr": "libs sifet",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Schneider",
+      "en": "tailor",
+      "sv": "skräddare",
+      "nl": "kleermaker"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zimmermann",
+    "am": "ጣውላ ሰራተኛ",
+    "tr": "t'awila serategna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Zimmermann, Schreiner",
+      "en": "carpenter",
+      "sv": "snickare",
+      "nl": "timmerman"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sekretaer",
+    "am": "ፀሐፊ",
+    "tr": "tsehafi",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Sekretär(in)",
+      "en": "secretary",
+      "sv": "sekreterare",
+      "nl": "secretaresse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_journalist",
+    "am": "ጋዜጠኛ",
+    "tr": "gazetegna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Journalist(in)",
+      "en": "journalist",
+      "sv": "journalist",
+      "nl": "journalist"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_fotograf",
+    "am": "ፎቶ አንሺ",
+    "tr": "foto anshi",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Fotograf(in)",
+      "en": "photographer",
+      "sv": "fotograf",
+      "nl": "fotograaf"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

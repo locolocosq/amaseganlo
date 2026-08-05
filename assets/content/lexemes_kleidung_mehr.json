@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_stiefel",
+    "am": "ቦት ጫማ",
+    "tr": "bot chama",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Stiefel",
+      "en": "boots",
+      "sv": "stövlar",
+      "nl": "laarzen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥾",
+    "verified": false
+  },
+  {
+    "id": "lex_schmuck",
+    "am": "ጌጣጌጥ",
+    "tr": "geTagéT'",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Schmuck",
+      "en": "jewelry",
+      "sv": "smycken",
+      "nl": "sieraden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💍",
+    "verified": false
+  },
+  {
+    "id": "lex_handschuhe",
+    "am": "ጓንት",
+    "tr": "gwanit",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Handschuhe",
+      "en": "gloves",
+      "sv": "handskar",
+      "nl": "handschoenen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧤",
+    "verified": true
+  },
+  {
+    "id": "lex_sonnenbrille",
+    "am": "የፀሐይ መነጽር",
+    "tr": "yetsehai menetsir",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Sonnenbrille",
+      "en": "sunglasses",
+      "sv": "solglasögon",
+      "nl": "zonnebril"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕶️",
+    "verified": false
+  },
+  {
+    "id": "lex_regenschirm",
+    "am": "ጃንጥላ",
+    "tr": "jant'ila",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Regenschirm",
+      "en": "umbrella",
+      "sv": "paraply",
+      "nl": "paraplu"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☂️",
+    "verified": true
+  }
+]

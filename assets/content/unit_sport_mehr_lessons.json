@@ -1,0 +1,129 @@
+[
+  {
+    "id": "unit_sport_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_basketball",
+      "lex_schwimmen",
+      "lex_laufen_sport",
+      "lex_team",
+      "lex_schiedsrichter",
+      "lex_tor_sport",
+      "lex_tennis",
+      "lex_volleyball",
+      "lex_radfahren",
+      "lex_fitness"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_sport_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_basketball",
+      "lex_schwimmen",
+      "lex_laufen_sport",
+      "lex_team",
+      "lex_schiedsrichter",
+      "lex_tor_sport",
+      "lex_tennis",
+      "lex_volleyball",
+      "lex_radfahren",
+      "lex_fitness"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_sport_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_basketball",
+      "lex_schwimmen",
+      "lex_laufen_sport",
+      "lex_team",
+      "lex_schiedsrichter",
+      "lex_tor_sport",
+      "lex_tennis",
+      "lex_volleyball",
+      "lex_radfahren",
+      "lex_fitness"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_sport_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_basketball",
+      "lex_schwimmen",
+      "lex_laufen_sport",
+      "lex_team",
+      "lex_schiedsrichter",
+      "lex_tor_sport",
+      "lex_tennis",
+      "lex_volleyball",
+      "lex_radfahren",
+      "lex_fitness"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_sport_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_basketball",
+      "lex_schwimmen",
+      "lex_laufen_sport",
+      "lex_team",
+      "lex_schiedsrichter",
+      "lex_tor_sport",
+      "lex_tennis",
+      "lex_volleyball",
+      "lex_radfahren",
+      "lex_fitness"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_sport_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_basketball",
+      "lex_schwimmen",
+      "lex_laufen_sport",
+      "lex_team",
+      "lex_schiedsrichter",
+      "lex_tor_sport",
+      "lex_tennis",
+      "lex_volleyball",
+      "lex_radfahren",
+      "lex_fitness"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

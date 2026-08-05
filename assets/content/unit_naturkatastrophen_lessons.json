@@ -1,0 +1,105 @@
+[
+  {
+    "id": "unit_naturkatastrophen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_erdbeben",
+      "lex_flut",
+      "lex_duerre",
+      "lex_wirbelsturm",
+      "lex_vulkan",
+      "lex_erdrutsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_naturkatastrophen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_erdbeben",
+      "lex_flut",
+      "lex_duerre",
+      "lex_wirbelsturm",
+      "lex_vulkan",
+      "lex_erdrutsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_naturkatastrophen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_erdbeben",
+      "lex_flut",
+      "lex_duerre",
+      "lex_wirbelsturm",
+      "lex_vulkan",
+      "lex_erdrutsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_naturkatastrophen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_erdbeben",
+      "lex_flut",
+      "lex_duerre",
+      "lex_wirbelsturm",
+      "lex_vulkan",
+      "lex_erdrutsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_naturkatastrophen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_erdbeben",
+      "lex_flut",
+      "lex_duerre",
+      "lex_wirbelsturm",
+      "lex_vulkan",
+      "lex_erdrutsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_naturkatastrophen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_erdbeben",
+      "lex_flut",
+      "lex_duerre",
+      "lex_wirbelsturm",
+      "lex_vulkan",
+      "lex_erdrutsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

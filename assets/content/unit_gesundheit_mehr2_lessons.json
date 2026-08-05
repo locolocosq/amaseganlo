@@ -1,0 +1,105 @@
+[
+  {
+    "id": "unit_gesundheit_mehr2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gesundheit_mehr2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

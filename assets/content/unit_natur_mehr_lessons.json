@@ -1,0 +1,105 @@
+[
+  {
+    "id": "unit_natur_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ozean",
+      "lex_tal",
+      "lex_insel",
+      "lex_huegel",
+      "lex_hoehle",
+      "lex_wasserfall"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_natur_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ozean",
+      "lex_tal",
+      "lex_insel",
+      "lex_huegel",
+      "lex_hoehle",
+      "lex_wasserfall"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_natur_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ozean",
+      "lex_tal",
+      "lex_insel",
+      "lex_huegel",
+      "lex_hoehle",
+      "lex_wasserfall"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_natur_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ozean",
+      "lex_tal",
+      "lex_insel",
+      "lex_huegel",
+      "lex_hoehle",
+      "lex_wasserfall"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_natur_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ozean",
+      "lex_tal",
+      "lex_insel",
+      "lex_huegel",
+      "lex_hoehle",
+      "lex_wasserfall"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_natur_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ozean",
+      "lex_tal",
+      "lex_insel",
+      "lex_huegel",
+      "lex_hoehle",
+      "lex_wasserfall"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

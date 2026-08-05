@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ernte",
+    "am": "መከር",
+    "tr": "mekker",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "die Ernte",
+      "en": "harvest",
+      "sv": "skörd",
+      "nl": "oogst"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_samen",
+    "am": "ዘር",
+    "tr": "zer",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "der Same(n)",
+      "en": "seed",
+      "sv": "frö",
+      "nl": "zaad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_boden_erde",
+    "am": "አፈር",
+    "tr": "afer",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "der Boden, die Erde",
+      "en": "soil",
+      "sv": "jord",
+      "nl": "grond"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_pflug",
+    "am": "ማረሻ",
+    "tr": "maresha",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "der Pflug",
+      "en": "plow",
+      "sv": "plog",
+      "nl": "ploeg"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_feldfrucht",
+    "am": "ምርት",
+    "tr": "mirt",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "die Feldfrucht, das Erzeugnis",
+      "en": "crop",
+      "sv": "gröda",
+      "nl": "gewas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_viehbestand",
+    "am": "እንስሳት",
+    "tr": "inisisat",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "das Vieh, die Tiere",
+      "en": "livestock",
+      "sv": "boskap",
+      "nl": "vee"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_scheune",
+    "am": "ጎተራ",
+    "tr": "gotera",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "die Scheune",
+      "en": "barn",
+      "sv": "lada",
+      "nl": "schuur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_brunnen",
+    "am": "ጉድጓድ ውኃ",
+    "tr": "gudgwad wiha",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "A2",
+    "t": {
+      "de": "der Brunnen",
+      "en": "well",
+      "sv": "brunn",
+      "nl": "put"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_v_rennen",
+    "am": "መሮጥ",
+    "tr": "meroT'",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "rennen, laufen",
+      "en": "to run",
+      "sv": "springa",
+      "nl": "rennen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_klettern",
+    "am": "መውጣት",
+    "tr": "mewt'at",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "klettern, hinaufsteigen",
+      "en": "to climb",
+      "sv": "klättra",
+      "nl": "klimmen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_schieben",
+    "am": "መግፍት",
+    "tr": "megfit",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "schieben",
+      "en": "to push",
+      "sv": "skjuta på",
+      "nl": "duwen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_werfen",
+    "am": "መወርወር",
+    "tr": "mewerwer",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "werfen",
+      "en": "to throw",
+      "sv": "kasta",
+      "nl": "gooien"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_verstecken",
+    "am": "መደበቅ",
+    "tr": "medebek'",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "verstecken",
+      "en": "to hide",
+      "sv": "gömma",
+      "nl": "verstoppen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_folgen",
+    "am": "መከተል",
+    "tr": "meketel",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "folgen",
+      "en": "to follow",
+      "sv": "följa",
+      "nl": "volgen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_fuehren",
+    "am": "መምራት",
+    "tr": "memrat",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "führen, leiten",
+      "en": "to lead",
+      "sv": "leda",
+      "nl": "leiden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_abreisen",
+    "am": "መነሳት",
+    "tr": "menesat",
+    "pos": "verb",
+    "topic": "verbs_motion",
+    "level": "A2",
+    "t": {
+      "de": "abreisen, aufbrechen",
+      "en": "to depart",
+      "sv": "avresa",
+      "nl": "vertrekken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

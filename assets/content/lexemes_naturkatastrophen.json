@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_erdbeben",
+    "am": "የመሬት መንቀጥቀጥ",
+    "tr": "yemeret menk'et'ik'et'",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "das Erdbeben",
+      "en": "earthquake",
+      "sv": "jordbävning",
+      "nl": "aardbeving"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_flut",
+    "am": "ጎርፍ",
+    "tr": "gorif",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "die Flut, Überschwemmung",
+      "en": "flood",
+      "sv": "översvämning",
+      "nl": "overstroming"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_duerre",
+    "am": "ድርቅ",
+    "tr": "dirik'",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "die Dürre",
+      "en": "drought",
+      "sv": "torka",
+      "nl": "droogte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wirbelsturm",
+    "am": "ትልቅ ዐውሎ ንፋስ",
+    "tr": "tilik' awlo nifas",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "der Wirbelsturm, Orkan",
+      "en": "hurricane",
+      "sv": "orkan",
+      "nl": "orkaan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vulkan",
+    "am": "እሳተ ገሞራ",
+    "tr": "isate gemora",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "der Vulkan",
+      "en": "volcano",
+      "sv": "vulkan",
+      "nl": "vulkaan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌋",
+    "verified": true
+  },
+  {
+    "id": "lex_erdrutsch",
+    "am": "የመሬት መንሸራተት",
+    "tr": "yemeret mesheratet",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "der Erdrutsch",
+      "en": "landslide",
+      "sv": "jordskred",
+      "nl": "aardverschuiving"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

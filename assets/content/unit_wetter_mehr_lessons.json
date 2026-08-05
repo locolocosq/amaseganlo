@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_wetter_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_wetter_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

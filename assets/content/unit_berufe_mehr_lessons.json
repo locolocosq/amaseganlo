@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_berufe_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_berufe_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

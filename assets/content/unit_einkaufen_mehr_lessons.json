@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_einkaufen_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_rabatt",
+      "lex_quittung",
+      "lex_bargeld",
+      "lex_kreditkarte",
+      "lex_geldbeutel",
+      "lex_wechselgeld",
+      "lex_kunde",
+      "lex_v_handeln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_einkaufen_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_rabatt",
+      "lex_quittung",
+      "lex_bargeld",
+      "lex_kreditkarte",
+      "lex_geldbeutel",
+      "lex_wechselgeld",
+      "lex_kunde",
+      "lex_v_handeln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_einkaufen_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_rabatt",
+      "lex_quittung",
+      "lex_bargeld",
+      "lex_kreditkarte",
+      "lex_geldbeutel",
+      "lex_wechselgeld",
+      "lex_kunde",
+      "lex_v_handeln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_einkaufen_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_rabatt",
+      "lex_quittung",
+      "lex_bargeld",
+      "lex_kreditkarte",
+      "lex_geldbeutel",
+      "lex_wechselgeld",
+      "lex_kunde",
+      "lex_v_handeln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_einkaufen_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_rabatt",
+      "lex_quittung",
+      "lex_bargeld",
+      "lex_kreditkarte",
+      "lex_geldbeutel",
+      "lex_wechselgeld",
+      "lex_kunde",
+      "lex_v_handeln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_einkaufen_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_rabatt",
+      "lex_quittung",
+      "lex_bargeld",
+      "lex_kreditkarte",
+      "lex_geldbeutel",
+      "lex_wechselgeld",
+      "lex_kunde",
+      "lex_v_handeln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "id": "unit_adjektive_mehr3_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_schwer_gewicht",
+      "lex_leicht_gewicht",
+      "lex_tief",
+      "lex_flach",
+      "lex_breit",
+      "lex_eng",
+      "lex_dick",
+      "lex_duenn",
+      "lex_rund",
+      "lex_gerade_form",
+      "lex_glatt",
+      "lex_rau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_adjektive_mehr3_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_schwer_gewicht",
+      "lex_leicht_gewicht",
+      "lex_tief",
+      "lex_flach",
+      "lex_breit",
+      "lex_eng",
+      "lex_dick",
+      "lex_duenn",
+      "lex_rund",
+      "lex_gerade_form",
+      "lex_glatt",
+      "lex_rau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_adjektive_mehr3_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_schwer_gewicht",
+      "lex_leicht_gewicht",
+      "lex_tief",
+      "lex_flach",
+      "lex_breit",
+      "lex_eng",
+      "lex_dick",
+      "lex_duenn",
+      "lex_rund",
+      "lex_gerade_form",
+      "lex_glatt",
+      "lex_rau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_adjektive_mehr3_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_schwer_gewicht",
+      "lex_leicht_gewicht",
+      "lex_tief",
+      "lex_flach",
+      "lex_breit",
+      "lex_eng",
+      "lex_dick",
+      "lex_duenn",
+      "lex_rund",
+      "lex_gerade_form",
+      "lex_glatt",
+      "lex_rau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_adjektive_mehr3_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_schwer_gewicht",
+      "lex_leicht_gewicht",
+      "lex_tief",
+      "lex_flach",
+      "lex_breit",
+      "lex_eng",
+      "lex_dick",
+      "lex_duenn",
+      "lex_rund",
+      "lex_gerade_form",
+      "lex_glatt",
+      "lex_rau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_adjektive_mehr3_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_schwer_gewicht",
+      "lex_leicht_gewicht",
+      "lex_tief",
+      "lex_flach",
+      "lex_breit",
+      "lex_eng",
+      "lex_dick",
+      "lex_duenn",
+      "lex_rund",
+      "lex_gerade_form",
+      "lex_glatt",
+      "lex_rau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

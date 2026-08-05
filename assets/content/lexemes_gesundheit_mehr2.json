@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_medizin",
+    "am": "መድሃኒት",
+    "tr": "medhanit",
+    "pos": "noun",
+    "topic": "health_more2",
+    "level": "A2",
+    "t": {
+      "de": "die Medizin, das Medikament",
+      "en": "medicine",
+      "sv": "medicin",
+      "nl": "medicijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_spritze",
+    "am": "መርፍ",
+    "tr": "merfe",
+    "pos": "noun",
+    "topic": "health_more2",
+    "level": "A2",
+    "t": {
+      "de": "die Spritze, Injektion",
+      "en": "injection",
+      "sv": "injektion",
+      "nl": "injectie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_verband",
+    "am": "ፋሻ",
+    "tr": "fasha",
+    "pos": "noun",
+    "topic": "health_more2",
+    "level": "A2",
+    "t": {
+      "de": "der Verband",
+      "en": "bandage",
+      "sv": "bandage",
+      "nl": "verband"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wunde",
+    "am": "ቁስል",
+    "tr": "k'usil",
+    "pos": "noun",
+    "topic": "health_more2",
+    "level": "A2",
+    "t": {
+      "de": "die Wunde",
+      "en": "wound",
+      "sv": "sår",
+      "nl": "wond"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_allergie",
+    "am": "አለርጂ",
+    "tr": "alerji",
+    "pos": "noun",
+    "topic": "health_more2",
+    "level": "A2",
+    "t": {
+      "de": "die Allergie",
+      "en": "allergy",
+      "sv": "allergi",
+      "nl": "allergie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kopfschmerz",
+    "am": "ራስ ምታት",
+    "tr": "ras mitat",
+    "pos": "noun",
+    "topic": "health_more2",
+    "level": "A2",
+    "t": {
+      "de": "die Kopfschmerzen",
+      "en": "headache",
+      "sv": "huvudvärk",
+      "nl": "hoofdpijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

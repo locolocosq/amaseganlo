@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_basketball",
+    "am": "ባስኬትቦል",
+    "tr": "basketbol",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "der Basketball",
+      "en": "basketball",
+      "sv": "basket",
+      "nl": "basketbal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏀",
+    "verified": true
+  },
+  {
+    "id": "lex_schwimmen",
+    "am": "ውኃ ዋና",
+    "tr": "wiha wana",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Schwimmen",
+      "en": "swimming",
+      "sv": "simning",
+      "nl": "zwemmen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏊",
+    "verified": false
+  },
+  {
+    "id": "lex_laufen_sport",
+    "am": "ሩጫ",
+    "tr": "rucha",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Laufen (Sport)",
+      "en": "running",
+      "sv": "löpning",
+      "nl": "hardlopen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏃",
+    "verified": true
+  },
+  {
+    "id": "lex_team",
+    "am": "ቡድን",
+    "tr": "budin",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Team, die Mannschaft",
+      "en": "team",
+      "sv": "lag",
+      "nl": "team"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schiedsrichter",
+    "am": "ዳኛ (ስፖርት)",
+    "tr": "dagna (sport)",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "der Schiedsrichter",
+      "en": "referee",
+      "sv": "domare",
+      "nl": "scheidsrechter"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tor_sport",
+    "am": "ጎል",
+    "tr": "gol",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Tor (Sport)",
+      "en": "goal",
+      "sv": "mål",
+      "nl": "doelpunt"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tennis",
+    "am": "ቴኒስ",
+    "tr": "tenis",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Tennis",
+      "en": "tennis",
+      "sv": "tennis",
+      "nl": "tennis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎾",
+    "verified": true
+  },
+  {
+    "id": "lex_volleyball",
+    "am": "ቮሊቦል",
+    "tr": "volibol",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "der Volleyball",
+      "en": "volleyball",
+      "sv": "volleyboll",
+      "nl": "volleybal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏐",
+    "verified": true
+  },
+  {
+    "id": "lex_radfahren",
+    "am": "ብስክሌት መንዳት",
+    "tr": "bisiklet mendat",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Radfahren",
+      "en": "cycling",
+      "sv": "cykling",
+      "nl": "fietsen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚴",
+    "verified": false
+  },
+  {
+    "id": "lex_fitness",
+    "am": "የሰውነት ማጎልመሻ",
+    "tr": "yesewinet magolmesha",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Fitnessstudio",
+      "en": "gym, fitness",
+      "sv": "gym",
+      "nl": "sportschool"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏋️",
+    "verified": false
+  }
+]

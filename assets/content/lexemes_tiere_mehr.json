@@ -1,29 +1,11 @@
 [
   {
-    "id": "lex_pferd",
-    "am": "ፈረስ",
-    "tr": "feres",
-    "pos": "noun",
-    "topic": "animals_more",
-    "level": "A2",
-    "t": {
-      "de": "das Pferd",
-      "en": "horse",
-      "sv": "häst",
-      "nl": "paard"
-    },
-    "hint": {},
-    "alt": {},
-    "emoji": "🐴",
-    "verified": true
-  },
-  {
     "id": "lex_kuh",
     "am": "ላም",
     "tr": "lam",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
       "de": "die Kuh",
       "en": "cow",
@@ -36,30 +18,12 @@
     "verified": true
   },
   {
-    "id": "lex_schaf",
-    "am": "በግ",
-    "tr": "beg",
-    "pos": "noun",
-    "topic": "animals_more",
-    "level": "A2",
-    "t": {
-      "de": "das Schaf",
-      "en": "sheep",
-      "sv": "får",
-      "nl": "schaap"
-    },
-    "hint": {},
-    "alt": {},
-    "emoji": "🐑",
-    "verified": true
-  },
-  {
     "id": "lex_ziege",
     "am": "ፍየል",
     "tr": "fiyel",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
       "de": "die Ziege",
       "en": "goat",
@@ -72,12 +36,30 @@
     "verified": true
   },
   {
+    "id": "lex_schaf",
+    "am": "በግ",
+    "tr": "beg",
+    "pos": "noun",
+    "topic": "animals_more",
+    "level": "A1.2",
+    "t": {
+      "de": "das Schaf",
+      "en": "sheep",
+      "sv": "får",
+      "nl": "schaap"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐑",
+    "verified": true
+  },
+  {
     "id": "lex_esel",
     "am": "አህያ",
     "tr": "ahiya",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
       "de": "der Esel",
       "en": "donkey",
@@ -86,7 +68,7 @@
     },
     "hint": {},
     "alt": {},
-    "emoji": "🫏",
+    "emoji": "🐴",
     "verified": true
   },
   {
@@ -95,7 +77,7 @@
     "tr": "gimel",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
       "de": "das Kamel",
       "en": "camel",
@@ -108,30 +90,12 @@
     "verified": true
   },
   {
-    "id": "lex_hase",
-    "am": "ጥንቸል",
-    "tr": "t'inichel",
-    "pos": "noun",
-    "topic": "animals_more",
-    "level": "A2",
-    "t": {
-      "de": "der Hase, das Kaninchen",
-      "en": "rabbit",
-      "sv": "kanin",
-      "nl": "konijn"
-    },
-    "hint": {},
-    "alt": {},
-    "emoji": "🐇",
-    "verified": false
-  },
-  {
     "id": "lex_maus",
     "am": "አይጥ",
-    "tr": "ayt'",
+    "tr": "ayit'",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
       "de": "die Maus",
       "en": "mouse",
@@ -141,51 +105,87 @@
     "hint": {},
     "alt": {},
     "emoji": "🐁",
-    "verified": false
+    "verified": true
   },
   {
-    "id": "lex_biene",
-    "am": "ንብ",
-    "tr": "nib",
+    "id": "lex_fuchs",
+    "am": "ቀበሮ",
+    "tr": "kebero",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
-      "de": "die Biene",
-      "en": "bee",
-      "sv": "bi",
-      "nl": "bij"
+      "de": "der Fuchs",
+      "en": "fox",
+      "sv": "räv",
+      "nl": "vos"
     },
     "hint": {},
     "alt": {},
-    "emoji": "🐝",
-    "verified": false
+    "emoji": "🦊",
+    "verified": true
   },
   {
-    "id": "lex_schmetterling",
-    "am": "ቢራቢሮ",
-    "tr": "birabiro",
+    "id": "lex_wolf",
+    "am": "ተኩላ",
+    "tr": "tekula",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
-      "de": "der Schmetterling",
-      "en": "butterfly",
-      "sv": "fjäril",
-      "nl": "vlinder"
+      "de": "der Wolf",
+      "en": "wolf",
+      "sv": "varg",
+      "nl": "wolf"
     },
     "hint": {},
     "alt": {},
-    "emoji": "🦋",
+    "emoji": "🐺",
     "verified": false
+  },
+  {
+    "id": "lex_hirsch",
+    "am": "አንኮሌ",
+    "tr": "ankole",
+    "pos": "noun",
+    "topic": "animals_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Hirsch",
+      "en": "deer",
+      "sv": "hjort",
+      "nl": "hert"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schildkroete",
+    "am": "ኤሊ",
+    "tr": "eli",
+    "pos": "noun",
+    "topic": "animals_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Schildkröte",
+      "en": "turtle",
+      "sv": "sköldpadda",
+      "nl": "schildpad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐢",
+    "verified": true
   },
   {
     "id": "lex_frosch",
-    "am": "እንቁራሪት",
-    "tr": "inkuraritt",
+    "am": "ዉራጭ",
+    "tr": "wurach",
     "pos": "noun",
     "topic": "animals_more",
-    "level": "A2",
+    "level": "A1.2",
     "t": {
       "de": "der Frosch",
       "en": "frog",
@@ -196,5 +196,41 @@
     "alt": {},
     "emoji": "🐸",
     "verified": false
+  },
+  {
+    "id": "lex_krokodil",
+    "am": "አዞ",
+    "tr": "azo",
+    "pos": "noun",
+    "topic": "animals_more",
+    "level": "A1.2",
+    "t": {
+      "de": "das Krokodil",
+      "en": "crocodile",
+      "sv": "krokodil",
+      "nl": "krokodil"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐊",
+    "verified": true
+  },
+  {
+    "id": "lex_hyaene",
+    "am": "ጅብ",
+    "tr": "jib",
+    "pos": "noun",
+    "topic": "animals_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Hyäne",
+      "en": "hyena",
+      "sv": "hyena",
+      "nl": "hyena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐾",
+    "verified": true
   }
 ]

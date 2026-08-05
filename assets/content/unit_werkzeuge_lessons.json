@@ -1,0 +1,129 @@
+[
+  {
+    "id": "unit_werkzeuge_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hammer",
+      "lex_nagel",
+      "lex_schraube",
+      "lex_saege",
+      "lex_bohrer",
+      "lex_schraubenschluessel",
+      "lex_leiter",
+      "lex_seil",
+      "lex_klebeband",
+      "lex_leim"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_werkzeuge_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hammer",
+      "lex_nagel",
+      "lex_schraube",
+      "lex_saege",
+      "lex_bohrer",
+      "lex_schraubenschluessel",
+      "lex_leiter",
+      "lex_seil",
+      "lex_klebeband",
+      "lex_leim"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_werkzeuge_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hammer",
+      "lex_nagel",
+      "lex_schraube",
+      "lex_saege",
+      "lex_bohrer",
+      "lex_schraubenschluessel",
+      "lex_leiter",
+      "lex_seil",
+      "lex_klebeband",
+      "lex_leim"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_werkzeuge_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hammer",
+      "lex_nagel",
+      "lex_schraube",
+      "lex_saege",
+      "lex_bohrer",
+      "lex_schraubenschluessel",
+      "lex_leiter",
+      "lex_seil",
+      "lex_klebeband",
+      "lex_leim"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_werkzeuge_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hammer",
+      "lex_nagel",
+      "lex_schraube",
+      "lex_saege",
+      "lex_bohrer",
+      "lex_schraubenschluessel",
+      "lex_leiter",
+      "lex_seil",
+      "lex_klebeband",
+      "lex_leim"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_werkzeuge_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hammer",
+      "lex_nagel",
+      "lex_schraube",
+      "lex_saege",
+      "lex_bohrer",
+      "lex_schraubenschluessel",
+      "lex_leiter",
+      "lex_seil",
+      "lex_klebeband",
+      "lex_leim"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

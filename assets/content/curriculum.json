@@ -47,7 +47,34 @@
     "lexemes_mengen_zeit_jahreszeiten.json",
     "lexemes_gesundheit_natur_schule.json",
     "lexemes_kueche_farben_getraenke.json",
-    "lexemes_aethiopien_extra.json"
+    "lexemes_aethiopien_extra.json",
+    "lexemes_gefuehle_mehr.json",
+    "lexemes_persoenlichkeit.json",
+    "lexemes_wetter_mehr.json",
+    "lexemes_berufe_mehr.json",
+    "lexemes_einkaufen_mehr.json",
+    "lexemes_verkehr_mehr.json",
+    "lexemes_richtungen.json",
+    "lexemes_sport_mehr.json",
+    "lexemes_natur_mehr.json",
+    "lexemes_haushalt_mehr.json",
+    "lexemes_landwirtschaft.json",
+    "lexemes_religion_kultur.json",
+    "lexemes_gesundheit_mehr2.json",
+    "lexemes_zeit_adverbien.json",
+    "lexemes_konjunktionen.json",
+    "lexemes_verben_bewegung.json",
+    "lexemes_substantive_mehr.json",
+    "lexemes_kleidung_mehr.json",
+    "lexemes_kuechenwerkzeuge.json",
+    "lexemes_camping_wandern.json",
+    "lexemes_kunst_musik_mehr.json",
+    "lexemes_wissenschaft.json",
+    "lexemes_werkzeuge.json",
+    "lexemes_buerobedarf.json",
+    "lexemes_adjektive_mehr3.json",
+    "lexemes_naturkatastrophen.json",
+    "lexemes_zahlen_teile.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -95,7 +122,34 @@
     "sentences_mengen_zeit_jahreszeiten.json",
     "sentences_gesundheit_natur_schule.json",
     "sentences_kueche_farben_getraenke.json",
-    "sentences_aethiopien_extra.json"
+    "sentences_aethiopien_extra.json",
+    "sentences_gefuehle_mehr.json",
+    "sentences_persoenlichkeit.json",
+    "sentences_wetter_mehr.json",
+    "sentences_berufe_mehr.json",
+    "sentences_einkaufen_mehr.json",
+    "sentences_verkehr_mehr.json",
+    "sentences_richtungen.json",
+    "sentences_sport_mehr.json",
+    "sentences_natur_mehr.json",
+    "sentences_haushalt_mehr.json",
+    "sentences_landwirtschaft.json",
+    "sentences_religion_kultur.json",
+    "sentences_gesundheit_mehr2.json",
+    "sentences_zeit_adverbien.json",
+    "sentences_konjunktionen.json",
+    "sentences_verben_bewegung.json",
+    "sentences_substantive_mehr.json",
+    "sentences_kleidung_mehr.json",
+    "sentences_kuechenwerkzeuge.json",
+    "sentences_camping_wandern.json",
+    "sentences_kunst_musik_mehr.json",
+    "sentences_wissenschaft.json",
+    "sentences_werkzeuge.json",
+    "sentences_buerobedarf.json",
+    "sentences_adjektive_mehr3.json",
+    "sentences_naturkatastrophen.json",
+    "sentences_zahlen_teile.json"
   ],
   "sections": [
     {
@@ -141,7 +195,13 @@
         "unit_zahlen_21_99",
         "unit_zahlen_mehr2",
         "unit_mengen_zeit_jahreszeiten",
-        "unit_kueche_farben_getraenke"
+        "unit_kueche_farben_getraenke",
+        "unit_wetter_mehr",
+        "unit_tiere_mehr",
+        "unit_haushalt_mehr",
+        "unit_kleidung_mehr",
+        "unit_kuechenwerkzeuge",
+        "unit_buerobedarf"
       ]
     },
     {
@@ -169,7 +229,23 @@
         "unit_materialien",
         "unit_verben_erweitert",
         "unit_elektronik_kontinente",
-        "unit_gesundheit_natur_schule"
+        "unit_gesundheit_natur_schule",
+        "unit_gefuehle_mehr",
+        "unit_persoenlichkeit",
+        "unit_berufe_mehr",
+        "unit_einkaufen_mehr",
+        "unit_verkehr_mehr",
+        "unit_richtungen",
+        "unit_sport_mehr",
+        "unit_natur_mehr",
+        "unit_landwirtschaft",
+        "unit_gesundheit_mehr2",
+        "unit_zeit_adverbien",
+        "unit_konjunktionen",
+        "unit_verben_bewegung",
+        "unit_camping_wandern",
+        "unit_werkzeuge",
+        "unit_zahlen_teile"
       ]
     },
     {
@@ -190,7 +266,13 @@
         "unit_hoefliche_phrasen",
         "unit_musikinstrumente",
         "unit_abstrakte_begriffe",
-        "unit_aethiopien_extra"
+        "unit_aethiopien_extra",
+        "unit_religion_kultur",
+        "unit_substantive_mehr",
+        "unit_kunst_musik_mehr",
+        "unit_wissenschaft",
+        "unit_adjektive_mehr3",
+        "unit_naturkatastrophen"
       ]
     }
   ],
@@ -483,13 +565,13 @@
     },
     {
       "id": "unit_tiere_mehr",
-      "sectionId": "sec_a2",
-      "level": "A2",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
       "title": {
-        "de": "Mehr Tiere",
-        "en": "More animals",
-        "sv": "Fler djur",
-        "nl": "Meer dieren"
+        "de": "Tiere (mehr)",
+        "en": "Animals (more)",
+        "sv": "Djur (mer)",
+        "nl": "Dieren (meer)"
       },
       "topic": "animals_more",
       "lessonFile": "unit_tiere_mehr_lessons.json"
@@ -805,6 +887,357 @@
       },
       "topic": "ethiopia_extra",
       "lessonFile": "unit_aethiopien_extra_lessons.json"
+    },
+    {
+      "id": "unit_gefuehle_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gefühle (mehr)",
+        "en": "Feelings (more)",
+        "sv": "Känslor (mer)",
+        "nl": "Gevoelens (meer)"
+      },
+      "topic": "emotions",
+      "lessonFile": "unit_gefuehle_mehr_lessons.json"
+    },
+    {
+      "id": "unit_persoenlichkeit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Persönlichkeit",
+        "en": "Personality",
+        "sv": "Personlighet",
+        "nl": "Persoonlijkheid"
+      },
+      "topic": "personality",
+      "lessonFile": "unit_persoenlichkeit_lessons.json"
+    },
+    {
+      "id": "unit_wetter_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Wetter (mehr)",
+        "en": "Weather (more)",
+        "sv": "Väder (mer)",
+        "nl": "Weer (meer)"
+      },
+      "topic": "weather_more",
+      "lessonFile": "unit_wetter_mehr_lessons.json"
+    },
+    {
+      "id": "unit_berufe_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Berufe (mehr)",
+        "en": "Professions (more)",
+        "sv": "Yrken (mer)",
+        "nl": "Beroepen (meer)"
+      },
+      "topic": "professions_more",
+      "lessonFile": "unit_berufe_mehr_lessons.json"
+    },
+    {
+      "id": "unit_einkaufen_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Einkaufen (mehr)",
+        "en": "Shopping (more)",
+        "sv": "Shopping (mer)",
+        "nl": "Winkelen (meer)"
+      },
+      "topic": "shopping_more",
+      "lessonFile": "unit_einkaufen_mehr_lessons.json"
+    },
+    {
+      "id": "unit_verkehr_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Verkehr (mehr)",
+        "en": "Traffic (more)",
+        "sv": "Trafik (mer)",
+        "nl": "Verkeer (meer)"
+      },
+      "topic": "traffic_more",
+      "lessonFile": "unit_verkehr_mehr_lessons.json"
+    },
+    {
+      "id": "unit_richtungen",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Richtungen",
+        "en": "Directions",
+        "sv": "Riktningar",
+        "nl": "Richtingen"
+      },
+      "topic": "directions",
+      "lessonFile": "unit_richtungen_lessons.json"
+    },
+    {
+      "id": "unit_sport_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Sport (mehr)",
+        "en": "Sports (more)",
+        "sv": "Sport (mer)",
+        "nl": "Sport (meer)"
+      },
+      "topic": "sports_more",
+      "lessonFile": "unit_sport_mehr_lessons.json"
+    },
+    {
+      "id": "unit_natur_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Natur (mehr)",
+        "en": "Nature (more)",
+        "sv": "Natur (mer)",
+        "nl": "Natuur (meer)"
+      },
+      "topic": "nature_more",
+      "lessonFile": "unit_natur_mehr_lessons.json"
+    },
+    {
+      "id": "unit_haushalt_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Haushalt (mehr)",
+        "en": "Household (more)",
+        "sv": "Hushåll (mer)",
+        "nl": "Huishouden (meer)"
+      },
+      "topic": "household_more",
+      "lessonFile": "unit_haushalt_mehr_lessons.json"
+    },
+    {
+      "id": "unit_landwirtschaft",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Landwirtschaft",
+        "en": "Agriculture",
+        "sv": "Jordbruk",
+        "nl": "Landbouw"
+      },
+      "topic": "agriculture",
+      "lessonFile": "unit_landwirtschaft_lessons.json"
+    },
+    {
+      "id": "unit_religion_kultur",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Religion & Kultur",
+        "en": "Religion & culture",
+        "sv": "Religion & kultur",
+        "nl": "Religie & cultuur"
+      },
+      "topic": "religion_culture",
+      "lessonFile": "unit_religion_kultur_lessons.json"
+    },
+    {
+      "id": "unit_gesundheit_mehr2",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gesundheit (mehr)",
+        "en": "Health (more)",
+        "sv": "Hälsa (mer)",
+        "nl": "Gezondheid (meer)"
+      },
+      "topic": "health_more2",
+      "lessonFile": "unit_gesundheit_mehr2_lessons.json"
+    },
+    {
+      "id": "unit_zeit_adverbien",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Häufigkeit & Zeit-Adverbien",
+        "en": "Frequency & time adverbs",
+        "sv": "Frekvens- & tidsadverb",
+        "nl": "Frequentie- & tijdsbijwoorden"
+      },
+      "topic": "time_adverbs",
+      "lessonFile": "unit_zeit_adverbien_lessons.json"
+    },
+    {
+      "id": "unit_konjunktionen",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Konjunktionen",
+        "en": "Conjunctions",
+        "sv": "Konjunktioner",
+        "nl": "Voegwoorden"
+      },
+      "topic": "conjunctions",
+      "lessonFile": "unit_konjunktionen_lessons.json"
+    },
+    {
+      "id": "unit_verben_bewegung",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Bewegungsverben",
+        "en": "Motion verbs",
+        "sv": "Rörelseverb",
+        "nl": "Bewegingswerkwoorden"
+      },
+      "topic": "verbs_motion",
+      "lessonFile": "unit_verben_bewegung_lessons.json"
+    },
+    {
+      "id": "unit_substantive_mehr",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Substantive (mehr)",
+        "en": "Nouns (more)",
+        "sv": "Substantiv (mer)",
+        "nl": "Zelfstandige naamwoorden (meer)"
+      },
+      "topic": "nouns_more",
+      "lessonFile": "unit_substantive_mehr_lessons.json"
+    },
+    {
+      "id": "unit_kleidung_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Kleidung (mehr)",
+        "en": "Clothing (more)",
+        "sv": "Kläder (mer)",
+        "nl": "Kleding (meer)"
+      },
+      "topic": "clothing_more",
+      "lessonFile": "unit_kleidung_mehr_lessons.json"
+    },
+    {
+      "id": "unit_kuechenwerkzeuge",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Küchenwerkzeuge",
+        "en": "Kitchen tools",
+        "sv": "Köksredskap",
+        "nl": "Keukengereedschap"
+      },
+      "topic": "kitchen_tools",
+      "lessonFile": "unit_kuechenwerkzeuge_lessons.json"
+    },
+    {
+      "id": "unit_camping_wandern",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Camping & Wandern",
+        "en": "Camping & hiking",
+        "sv": "Camping & vandring",
+        "nl": "Kamperen & wandelen"
+      },
+      "topic": "camping",
+      "lessonFile": "unit_camping_wandern_lessons.json"
+    },
+    {
+      "id": "unit_kunst_musik_mehr",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Kunst & Musik (mehr)",
+        "en": "Art & music (more)",
+        "sv": "Konst & musik (mer)",
+        "nl": "Kunst & muziek (meer)"
+      },
+      "topic": "art_music_more",
+      "lessonFile": "unit_kunst_musik_mehr_lessons.json"
+    },
+    {
+      "id": "unit_wissenschaft",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Wissenschaft & Bildung",
+        "en": "Science & education",
+        "sv": "Vetenskap & utbildning",
+        "nl": "Wetenschap & onderwijs"
+      },
+      "topic": "science",
+      "lessonFile": "unit_wissenschaft_lessons.json"
+    },
+    {
+      "id": "unit_werkzeuge",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Werkzeuge",
+        "en": "Tools",
+        "sv": "Verktyg",
+        "nl": "Gereedschap"
+      },
+      "topic": "tools",
+      "lessonFile": "unit_werkzeuge_lessons.json"
+    },
+    {
+      "id": "unit_buerobedarf",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Bürobedarf",
+        "en": "Office supplies",
+        "sv": "Kontorsmaterial",
+        "nl": "Kantoorbenodigdheden"
+      },
+      "topic": "office_supplies",
+      "lessonFile": "unit_buerobedarf_lessons.json"
+    },
+    {
+      "id": "unit_adjektive_mehr3",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Mehr Adjektive (3)",
+        "en": "More adjectives (3)",
+        "sv": "Fler adjektiv (3)",
+        "nl": "Meer bijvoeglijke naamwoorden (3)"
+      },
+      "topic": "adjectives_more3",
+      "lessonFile": "unit_adjektive_mehr3_lessons.json"
+    },
+    {
+      "id": "unit_naturkatastrophen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Naturkatastrophen",
+        "en": "Natural disasters",
+        "sv": "Naturkatastrofer",
+        "nl": "Natuurrampen"
+      },
+      "topic": "disasters",
+      "lessonFile": "unit_naturkatastrophen_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_teile",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Brüche & Mengen",
+        "en": "Fractions & quantities",
+        "sv": "Bråk & mängder",
+        "nl": "Breuken & hoeveelheden"
+      },
+      "topic": "fractions",
+      "lessonFile": "unit_zahlen_teile_lessons.json"
     }
   ]
 }

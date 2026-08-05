@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_intelligent",
+    "am": "አስተዋይ",
+    "tr": "astewai",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "intelligent, klug",
+      "en": "intelligent, clever",
+      "sv": "intelligent",
+      "nl": "intelligent"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_faul",
+    "am": "ስንፍተኛ",
+    "tr": "sinfitegna",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "faul",
+      "en": "lazy",
+      "sv": "lat",
+      "nl": "lui"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_fleissig",
+    "am": "ታታሪ",
+    "tr": "tatari",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "fleißig",
+      "en": "hardworking",
+      "sv": "flitig",
+      "nl": "hardwerkend"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ehrlich",
+    "am": "ታማኝ",
+    "tr": "tamagn",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "ehrlich, treu",
+      "en": "honest, loyal",
+      "sv": "ärlig, trogen",
+      "nl": "eerlijk, trouw"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_grossherzig",
+    "am": "ቸር",
+    "tr": "cher",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "großherzig, gütig",
+      "en": "generous, kind",
+      "sv": "generös",
+      "nl": "gul"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_lustig",
+    "am": "ቀልደኛ",
+    "tr": "k'elidegna",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "lustig, witzig",
+      "en": "funny",
+      "sv": "rolig, kul",
+      "nl": "grappig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ernst",
+    "am": "ጠንካራ ስሜት ያለው",
+    "tr": "tenkara sime't yalew",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "ernst",
+      "en": "serious",
+      "sv": "allvarlig",
+      "nl": "serieus"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schuechtern",
+    "am": "አፈርፋሪ",
+    "tr": "aferfari",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "schüchtern",
+      "en": "shy",
+      "sv": "blyg",
+      "nl": "schuchter"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mutig",
+    "am": "ደፋር",
+    "tr": "defar",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "mutig",
+      "en": "brave",
+      "sv": "modig",
+      "nl": "moedig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geduldig",
+    "am": "ታጋሽ",
+    "tr": "tagash",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "geduldig",
+      "en": "patient",
+      "sv": "tålmodig",
+      "nl": "geduldig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_stur",
+    "am": "ግትር",
+    "tr": "gitir",
+    "pos": "adjective",
+    "topic": "personality",
+    "level": "A2",
+    "t": {
+      "de": "stur, hartnäckig",
+      "en": "stubborn",
+      "sv": "envis",
+      "nl": "koppig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

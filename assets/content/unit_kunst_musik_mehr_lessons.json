@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_kunst_musik_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kunst_musik_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

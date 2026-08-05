@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ozean",
+    "am": "ውቅያኖስ",
+    "tr": "wik'yanos",
+    "pos": "noun",
+    "topic": "nature_more",
+    "level": "A2",
+    "t": {
+      "de": "der Ozean",
+      "en": "ocean",
+      "sv": "ocean",
+      "nl": "oceaan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌊",
+    "verified": true
+  },
+  {
+    "id": "lex_tal",
+    "am": "ሸለቆ",
+    "tr": "sheleko'",
+    "pos": "noun",
+    "topic": "nature_more",
+    "level": "A2",
+    "t": {
+      "de": "das Tal",
+      "en": "valley",
+      "sv": "dal",
+      "nl": "vallei"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_insel",
+    "am": "ደሴት",
+    "tr": "deset",
+    "pos": "noun",
+    "topic": "nature_more",
+    "level": "A2",
+    "t": {
+      "de": "die Insel",
+      "en": "island",
+      "sv": "ö",
+      "nl": "eiland"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏝️",
+    "verified": true
+  },
+  {
+    "id": "lex_huegel",
+    "am": "ኮረብታ",
+    "tr": "korebita",
+    "pos": "noun",
+    "topic": "nature_more",
+    "level": "A2",
+    "t": {
+      "de": "der Hügel",
+      "en": "hill",
+      "sv": "kulle",
+      "nl": "heuvel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hoehle",
+    "am": "ዋሻ",
+    "tr": "washa",
+    "pos": "noun",
+    "topic": "nature_more",
+    "level": "A2",
+    "t": {
+      "de": "die Höhle",
+      "en": "cave",
+      "sv": "grotta",
+      "nl": "grot"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕳️",
+    "verified": true
+  },
+  {
+    "id": "lex_wasserfall",
+    "am": "ፏፏቴ",
+    "tr": "fwafwate",
+    "pos": "noun",
+    "topic": "nature_more",
+    "level": "A2",
+    "t": {
+      "de": "der Wasserfall",
+      "en": "waterfall",
+      "sv": "vattenfall",
+      "nl": "waterval"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💦",
+    "verified": true
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "unit_kleidung_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_stiefel",
+      "lex_schmuck",
+      "lex_handschuhe",
+      "lex_sonnenbrille",
+      "lex_regenschirm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kleidung_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_stiefel",
+      "lex_schmuck",
+      "lex_handschuhe",
+      "lex_sonnenbrille",
+      "lex_regenschirm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kleidung_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_stiefel",
+      "lex_schmuck",
+      "lex_handschuhe",
+      "lex_sonnenbrille",
+      "lex_regenschirm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kleidung_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_stiefel",
+      "lex_schmuck",
+      "lex_handschuhe",
+      "lex_sonnenbrille",
+      "lex_regenschirm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kleidung_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_stiefel",
+      "lex_schmuck",
+      "lex_handschuhe",
+      "lex_sonnenbrille",
+      "lex_regenschirm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kleidung_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_stiefel",
+      "lex_schmuck",
+      "lex_handschuhe",
+      "lex_sonnenbrille",
+      "lex_regenschirm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

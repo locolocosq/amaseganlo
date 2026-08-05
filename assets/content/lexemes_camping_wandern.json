@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_zelt",
+    "am": "ድንኳን",
+    "tr": "dinkwan",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "das Zelt",
+      "en": "tent",
+      "sv": "tält",
+      "nl": "tent"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⛺",
+    "verified": true
+  },
+  {
+    "id": "lex_schlafsack",
+    "am": "የመተኛ ቦርሳ",
+    "tr": "yemetegna borsa",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "der Schlafsack",
+      "en": "sleeping bag",
+      "sv": "sovsäck",
+      "nl": "slaapzak"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_rucksack",
+    "am": "ቦርሳ (ጀርባ)",
+    "tr": "borsa (jerba)",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "der Rucksack",
+      "en": "backpack",
+      "sv": "ryggsäck",
+      "nl": "rugzak"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎒",
+    "verified": true
+  },
+  {
+    "id": "lex_lagerfeuer",
+    "am": "የካምፕ እሳት",
+    "tr": "yekamp isat",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "das Lagerfeuer",
+      "en": "campfire",
+      "sv": "lägereld",
+      "nl": "kampvuur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔥",
+    "verified": false
+  },
+  {
+    "id": "lex_angeln",
+    "am": "ማጥመድ",
+    "tr": "mat'imed",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "das Angeln",
+      "en": "fishing",
+      "sv": "fiske",
+      "nl": "vissen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎣",
+    "verified": false
+  },
+  {
+    "id": "lex_wandern",
+    "am": "የእግር ጉዞ",
+    "tr": "yeigir guzo",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "das Wandern",
+      "en": "hiking",
+      "sv": "vandring",
+      "nl": "wandelen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥾",
+    "verified": false
+  },
+  {
+    "id": "lex_kompass",
+    "am": "ኮምፓስ",
+    "tr": "kompas",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "der Kompass",
+      "en": "compass",
+      "sv": "kompass",
+      "nl": "kompas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧭",
+    "verified": true
+  },
+  {
+    "id": "lex_taschenlampe",
+    "am": "የኪስ ባትሪ",
+    "tr": "yekis batri",
+    "pos": "noun",
+    "topic": "camping",
+    "level": "A2",
+    "t": {
+      "de": "die Taschenlampe",
+      "en": "flashlight",
+      "sv": "ficklampa",
+      "nl": "zaklamp"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔦",
+    "verified": false
+  }
+]

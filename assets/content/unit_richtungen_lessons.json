@@ -1,0 +1,87 @@
+[
+  {
+    "id": "unit_richtungen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_richtungen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_richtungen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_richtungen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_richtungen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_richtungen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

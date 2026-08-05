@@ -1,0 +1,123 @@
+[
+  {
+    "id": "unit_gefuehle_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_eifersuechtig",
+      "lex_v_erstaunt",
+      "lex_v_besorgt",
+      "lex_v_verlegen",
+      "lex_einsamkeit",
+      "lex_v_verwirrt",
+      "lex_v_zufrieden",
+      "lex_ruhig",
+      "lex_neugier"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gefuehle_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_eifersuechtig",
+      "lex_v_erstaunt",
+      "lex_v_besorgt",
+      "lex_v_verlegen",
+      "lex_einsamkeit",
+      "lex_v_verwirrt",
+      "lex_v_zufrieden",
+      "lex_ruhig",
+      "lex_neugier"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_eifersuechtig",
+      "lex_v_erstaunt",
+      "lex_v_besorgt",
+      "lex_v_verlegen",
+      "lex_einsamkeit",
+      "lex_v_verwirrt",
+      "lex_v_zufrieden",
+      "lex_ruhig",
+      "lex_neugier"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_eifersuechtig",
+      "lex_v_erstaunt",
+      "lex_v_besorgt",
+      "lex_v_verlegen",
+      "lex_einsamkeit",
+      "lex_v_verwirrt",
+      "lex_v_zufrieden",
+      "lex_ruhig",
+      "lex_neugier"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_eifersuechtig",
+      "lex_v_erstaunt",
+      "lex_v_besorgt",
+      "lex_v_verlegen",
+      "lex_einsamkeit",
+      "lex_v_verwirrt",
+      "lex_v_zufrieden",
+      "lex_ruhig",
+      "lex_neugier"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_eifersuechtig",
+      "lex_v_erstaunt",
+      "lex_v_besorgt",
+      "lex_v_verlegen",
+      "lex_einsamkeit",
+      "lex_v_verwirrt",
+      "lex_v_zufrieden",
+      "lex_ruhig",
+      "lex_neugier"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

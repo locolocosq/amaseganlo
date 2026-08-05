@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_landwirtschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ernte",
+      "lex_samen",
+      "lex_boden_erde",
+      "lex_pflug",
+      "lex_feldfrucht",
+      "lex_viehbestand",
+      "lex_scheune",
+      "lex_brunnen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_landwirtschaft_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ernte",
+      "lex_samen",
+      "lex_boden_erde",
+      "lex_pflug",
+      "lex_feldfrucht",
+      "lex_viehbestand",
+      "lex_scheune",
+      "lex_brunnen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_landwirtschaft_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ernte",
+      "lex_samen",
+      "lex_boden_erde",
+      "lex_pflug",
+      "lex_feldfrucht",
+      "lex_viehbestand",
+      "lex_scheune",
+      "lex_brunnen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_landwirtschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ernte",
+      "lex_samen",
+      "lex_boden_erde",
+      "lex_pflug",
+      "lex_feldfrucht",
+      "lex_viehbestand",
+      "lex_scheune",
+      "lex_brunnen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_landwirtschaft_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ernte",
+      "lex_samen",
+      "lex_boden_erde",
+      "lex_pflug",
+      "lex_feldfrucht",
+      "lex_viehbestand",
+      "lex_scheune",
+      "lex_brunnen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_landwirtschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ernte",
+      "lex_samen",
+      "lex_boden_erde",
+      "lex_pflug",
+      "lex_feldfrucht",
+      "lex_viehbestand",
+      "lex_scheune",
+      "lex_brunnen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

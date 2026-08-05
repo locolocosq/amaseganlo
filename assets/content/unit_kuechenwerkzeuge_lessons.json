@@ -1,0 +1,99 @@
+[
+  {
+    "id": "unit_kuechenwerkzeuge_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

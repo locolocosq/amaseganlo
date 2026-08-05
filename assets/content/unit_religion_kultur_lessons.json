@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_religion_kultur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gebet",
+      "lex_feiertag_fest",
+      "lex_fasten",
+      "lex_pilgerfahrt",
+      "lex_segen",
+      "lex_kreuz",
+      "lex_weihrauch",
+      "lex_kloster"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_religion_kultur_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gebet",
+      "lex_feiertag_fest",
+      "lex_fasten",
+      "lex_pilgerfahrt",
+      "lex_segen",
+      "lex_kreuz",
+      "lex_weihrauch",
+      "lex_kloster"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_religion_kultur_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gebet",
+      "lex_feiertag_fest",
+      "lex_fasten",
+      "lex_pilgerfahrt",
+      "lex_segen",
+      "lex_kreuz",
+      "lex_weihrauch",
+      "lex_kloster"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_religion_kultur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gebet",
+      "lex_feiertag_fest",
+      "lex_fasten",
+      "lex_pilgerfahrt",
+      "lex_segen",
+      "lex_kreuz",
+      "lex_weihrauch",
+      "lex_kloster"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_religion_kultur_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gebet",
+      "lex_feiertag_fest",
+      "lex_fasten",
+      "lex_pilgerfahrt",
+      "lex_segen",
+      "lex_kreuz",
+      "lex_weihrauch",
+      "lex_kloster"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_religion_kultur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gebet",
+      "lex_feiertag_fest",
+      "lex_fasten",
+      "lex_pilgerfahrt",
+      "lex_segen",
+      "lex_kreuz",
+      "lex_weihrauch",
+      "lex_kloster"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

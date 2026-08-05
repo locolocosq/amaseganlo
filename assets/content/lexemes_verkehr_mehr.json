@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ampel",
+    "am": "የመንገድ መብራት",
+    "tr": "yemenged mebrat",
+    "pos": "noun",
+    "topic": "traffic_more",
+    "level": "A2",
+    "t": {
+      "de": "die Ampel",
+      "en": "traffic light",
+      "sv": "trafikljus",
+      "nl": "verkeerslicht"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚦",
+    "verified": false
+  },
+  {
+    "id": "lex_fahrkarte",
+    "am": "ትኬት",
+    "tr": "tiket",
+    "pos": "noun",
+    "topic": "traffic_more",
+    "level": "A2",
+    "t": {
+      "de": "die Fahrkarte, das Ticket",
+      "en": "ticket",
+      "sv": "biljett",
+      "nl": "ticket"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bushaltestelle",
+    "am": "የአውቶብስ ማቆሚያ",
+    "tr": "yeawtobis mak'omiya",
+    "pos": "noun",
+    "topic": "traffic_more",
+    "level": "A2",
+    "t": {
+      "de": "die Bushaltestelle",
+      "en": "bus stop",
+      "sv": "busshållplats",
+      "nl": "bushalte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚏",
+    "verified": false
+  },
+  {
+    "id": "lex_fuehrerschein",
+    "am": "የመንጃ ፍቃድ",
+    "tr": "yemenja fik'ad",
+    "pos": "noun",
+    "topic": "traffic_more",
+    "level": "A2",
+    "t": {
+      "de": "der Führerschein",
+      "en": "driver's license",
+      "sv": "körkort",
+      "nl": "rijbewijs"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tankstelle",
+    "am": "ነዳጅ ማደያ",
+    "tr": "nedaj madeya",
+    "pos": "noun",
+    "topic": "traffic_more",
+    "level": "A2",
+    "t": {
+      "de": "die Tankstelle",
+      "en": "gas station",
+      "sv": "bensinstation",
+      "nl": "tankstation"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⛽",
+    "verified": false
+  }
+]

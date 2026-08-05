@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_buerobedarf_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_buerobedarf_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

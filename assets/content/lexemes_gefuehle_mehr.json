@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lex_eifersuechtig",
+    "am": "ቀናተኛ",
+    "tr": "kenategna",
+    "pos": "adjective",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "eifersüchtig",
+      "en": "jealous",
+      "sv": "jalousk",
+      "nl": "jaloers"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_erstaunt",
+    "am": "መገረም",
+    "tr": "megerem",
+    "pos": "verb",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "erstaunt sein, sich wundern",
+      "en": "to be amazed",
+      "sv": "bli förvånad",
+      "nl": "verbaasd zijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_besorgt",
+    "am": "መጨነቅ",
+    "tr": "mechenek'",
+    "pos": "verb",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "besorgt sein, sich sorgen",
+      "en": "to worry",
+      "sv": "oroa sig",
+      "nl": "zich zorgen maken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_verlegen",
+    "am": "ማፈር",
+    "tr": "mafer",
+    "pos": "verb",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "verlegen/beschämt sein",
+      "en": "to be embarrassed",
+      "sv": "skämmas",
+      "nl": "zich schamen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_einsamkeit",
+    "am": "ብቸኝነት",
+    "tr": "bichegninet",
+    "pos": "noun",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "die Einsamkeit",
+      "en": "loneliness",
+      "sv": "ensamhet",
+      "nl": "eenzaamheid"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_verwirrt",
+    "am": "መደናገር",
+    "tr": "medenager",
+    "pos": "verb",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "verwirrt sein",
+      "en": "to be confused",
+      "sv": "bli förvirrad",
+      "nl": "in de war zijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_zufrieden",
+    "am": "መርካት",
+    "tr": "merkat",
+    "pos": "verb",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "zufrieden sein",
+      "en": "to be satisfied",
+      "sv": "vara nöjd",
+      "nl": "tevreden zijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ruhig",
+    "am": "ጸጥ ያለ",
+    "tr": "tset' yale",
+    "pos": "adjective",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "ruhig, still",
+      "en": "calm, quiet",
+      "sv": "lugn, tyst",
+      "nl": "kalm, stil"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_neugier",
+    "am": "ጉጉት",
+    "tr": "guggit",
+    "pos": "noun",
+    "topic": "emotions",
+    "level": "A2",
+    "t": {
+      "de": "die Neugier",
+      "en": "curiosity",
+      "sv": "nyfikenhet",
+      "nl": "nieuwsgierigheid"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

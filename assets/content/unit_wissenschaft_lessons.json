@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_wissenschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_wissenschaft",
+      "lex_experiment",
+      "lex_forschung",
+      "lex_mathematik",
+      "lex_physik",
+      "lex_chemie",
+      "lex_biologie",
+      "lex_geographie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_wissenschaft_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_wissenschaft",
+      "lex_experiment",
+      "lex_forschung",
+      "lex_mathematik",
+      "lex_physik",
+      "lex_chemie",
+      "lex_biologie",
+      "lex_geographie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_wissenschaft_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_wissenschaft",
+      "lex_experiment",
+      "lex_forschung",
+      "lex_mathematik",
+      "lex_physik",
+      "lex_chemie",
+      "lex_biologie",
+      "lex_geographie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_wissenschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_wissenschaft",
+      "lex_experiment",
+      "lex_forschung",
+      "lex_mathematik",
+      "lex_physik",
+      "lex_chemie",
+      "lex_biologie",
+      "lex_geographie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_wissenschaft_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_wissenschaft",
+      "lex_experiment",
+      "lex_forschung",
+      "lex_mathematik",
+      "lex_physik",
+      "lex_chemie",
+      "lex_biologie",
+      "lex_geographie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_wissenschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_wissenschaft",
+      "lex_experiment",
+      "lex_forschung",
+      "lex_mathematik",
+      "lex_physik",
+      "lex_chemie",
+      "lex_biologie",
+      "lex_geographie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_gemaelde",
+    "am": "ስዕል",
+    "tr": "si'il",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "das Gemälde, das Bild",
+      "en": "painting",
+      "sv": "målning",
+      "nl": "schilderij"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🖼️",
+    "verified": true
+  },
+  {
+    "id": "lex_zeichnung",
+    "am": "ንድፍ",
+    "tr": "nidif",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "die Zeichnung",
+      "en": "drawing",
+      "sv": "teckning",
+      "nl": "tekening"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_skulptur",
+    "am": "ቅርፃቅርፅ",
+    "tr": "k'irtsak'irts'",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "die Skulptur",
+      "en": "sculpture",
+      "sv": "skulptur",
+      "nl": "sculptuur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_theater",
+    "am": "ቲያትር",
+    "tr": "tiyatir",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "das Theater",
+      "en": "theater",
+      "sv": "teater",
+      "nl": "theater"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gedicht",
+    "am": "ቅኔ",
+    "tr": "k'ine",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "das Gedicht",
+      "en": "poem",
+      "sv": "dikt",
+      "nl": "gedicht"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_roman",
+    "am": "ልብ ወለድ",
+    "tr": "lib weled",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "der Roman",
+      "en": "novel",
+      "sv": "roman",
+      "nl": "roman"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_rhythmus",
+    "am": "ምት",
+    "tr": "mit",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "der Rhythmus",
+      "en": "rhythm",
+      "sv": "rytm",
+      "nl": "ritme"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_melodie",
+    "am": "ዜማ",
+    "tr": "zema",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "die Melodie",
+      "en": "melody",
+      "sv": "melodi",
+      "nl": "melodie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

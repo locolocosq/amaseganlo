@@ -1,0 +1,99 @@
+[
+  {
+    "id": "unit_zahlen_teile_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zahlen_teile_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]
