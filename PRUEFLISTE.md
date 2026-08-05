@@ -44,4 +44,17 @@ Die komplette 33×7-Tafel wurde nach bestem Wissen zusammengestellt. Hohe Sicher
 
 ---
 
-Weitere Einträge kommen in Etappe 5 hinzu, sobald der volle Wortschatz (mind. 1000 Vokabeln) erstellt wird.
+## Restlicher Wortschatz (Etappe 5, Zusatz-Kapitel A-E)
+
+Um die im Auftrag geforderten mindestens 1000 Vokabeln zu erreichen, wurden über die 20 vorgeschriebenen Kapitel hinaus 51 weitere Zusatz-Kapitel erzeugt (`tool/gen_supplement_a.dart` bis `tool/gen_supplement_e.dart`). Bei diesem Umfang war eine wort-für-wort-Prüfung durch mich allein nicht seriös möglich - im Sinne von Abschnitt 14 ("lieber 1000 richtige Wörter mit markierten Zweifelsfällen als geratene") wurde daher bewusst großzügig mit `"verified": false` markiert, statt bei Unsicherheit zu raten.
+
+**Stand: 468 von 1017 Vokabeln (46%) sind `"verified": false`.** Auffindbar per Volltextsuche nach `"verified": false` in `assets/content/lexemes_*.json`, oder programmatisch über `ContentRepository`/die rohen JSON-Dateien.
+
+Als `verified: true` markiert sind nur Wörter, bei denen ich hohe Sicherheit habe: Zahlen, sehr geläufige Alltagswörter, bekannte Lehnwörter (z.B. ባንክ/bank, ፕላኔት/planet) und ikonisch-äthiopische Begriffe (z.B. buna, berbere, teff, kitfo, meskel).
+
+Kategorien mit besonders hoher Unsicherheit, die vorrangig gegengelesen werden sollten:
+
+- **Umschreibende Mehrwort-Ausdrücke** statt eines echten Einzelworts, z.B. „Cousin/Cousine", „Witwer", „Stiefmutter" (unit_familie_mehr) - hier bin ich mir nicht sicher, ob es nicht doch etablierte kürzere Einzelwörter gibt.
+- **Abstrakte/seltenere Substantive und Fachbegriffe** in unit_substantive_mehr, unit_substantive_3, unit_recht_justiz, unit_astronomie, unit_finanzen - viele davon sind eher aus dem Wortstamm erschlossen als aus aktivem Sprachgebrauch bekannt.
+- **Gefühls- und Persönlichkeits-Adjektive** (unit_gefuehle_mehr, unit_gefuehle_3, unit_persoenlichkeit) - im Amharischen oft eher als Verb- oder Nomenkonstruktion ausgedrückt als als einfaches Adjektiv; meine Wortartzuordnung ist hier unsicher.
+- **Kochverben** (unit_verben_kochen) - die Abgrenzung zwischen z.B. „braten" und „rösten" ist im Amharischen möglicherweise anders gezogen als im Deutschen.
