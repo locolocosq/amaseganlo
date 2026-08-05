@@ -2,13 +2,52 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../content/content_repository.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
+import '../../models/user_progress.dart';
 import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
 import '../../widgets/common/empty_state.dart';
+
+/// Where to send "Weiterlernen": the unit whose lesson was completed most
+/// recently, if that unit still has an unfinished lesson - a deliberate
+/// simplification of full mid-lesson resume (Abschnitt C1), since no
+/// exercise-index-level session is persisted (see ENTSCHEIDUNGEN.md
+/// Etappe 10). Returns null if nothing has been played yet, or the most
+/// recently played unit is already fully done.
+({String unitId, String lessonId})? _findResumeTarget(
+  ContentRepository content,
+  UserProgress progress,
+) {
+  DateTime? mostRecent;
+  String? unitId;
+  for (final section in content.curriculum.sections) {
+    for (final uId in section.unitIds) {
+      for (final lesson in content.lessonsForUnit(uId)) {
+        final lastPlayed = progress.lessonProgress[lesson.id]?.lastPlayed;
+        if (lastPlayed != null && (mostRecent == null || lastPlayed.isAfter(mostRecent))) {
+          mostRecent = lastPlayed;
+          unitId = uId;
+        }
+      }
+    }
+  }
+  if (unitId == null) return null;
+
+  final lessons = content.lessonsForUnit(unitId);
+  final nextLesson = lessons
+      .where((l) => progress.lessonProgress[l.id]?.completed != true)
+      .firstOrNull;
+  if (nextLesson == null) return null;
+  return (unitId: unitId, lessonId: nextLesson.id);
+}
+
+extension _FirstOrNull<T> on Iterable<T> {
+  T? get firstOrNull => isEmpty ? null : first;
+}
 
 enum _UnitState { completed, skipped, current, locked }
 
@@ -53,10 +92,16 @@ class PathScreen extends StatelessWidget {
     }
 
     var runningIndex = 0;
+    final resumeTarget = _findResumeTarget(contentProvider.repository, progressProvider.progress);
 
     return ListView(
       padding: const EdgeInsets.symmetric(vertical: 16),
       children: [
+        if (resumeTarget != null)
+          _ResumeCard(
+            unitTitle: contentProvider.repository.unit(resumeTarget.unitId)?.title[locale] ?? resumeTarget.unitId,
+            onTap: () => context.push('/lesson/${resumeTarget.unitId}/${resumeTarget.lessonId}'),
+          ),
         for (final section in curriculum.sections) ...[
           _SectionHeader(section: section, locale: locale, contentProvider: contentProvider, progressProvider: progressProvider),
           for (final unitId in section.unitIds)
@@ -68,6 +113,56 @@ class PathScreen extends StatelessWidget {
           const SizedBox(height: 8),
         ],
       ],
+    );
+  }
+}
+
+class _ResumeCard extends StatelessWidget {
+  final String unitTitle;
+  final VoidCallback onTap;
+
+  const _ResumeCard({required this.unitTitle, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 0, 20, 12),
+      child: Material(
+        color: theme.colorScheme.primaryContainer,
+        borderRadius: BorderRadius.circular(18),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(18),
+          onTap: onTap,
+          child: Container(
+            constraints: const BoxConstraints(minHeight: 64),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+            child: Row(
+              children: [
+                Icon(Icons.play_circle_fill, color: theme.colorScheme.onPrimaryContainer, size: 32),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        l10n.pathResumeTitle,
+                        style: theme.textTheme.titleMedium?.copyWith(color: theme.colorScheme.onPrimaryContainer),
+                      ),
+                      Text(
+                        l10n.pathResumeSubtitle(unitTitle),
+                        style: theme.textTheme.bodySmall?.copyWith(color: theme.colorScheme.onPrimaryContainer),
+                      ),
+                    ],
+                  ),
+                ),
+                Icon(Icons.chevron_right, color: theme.colorScheme.onPrimaryContainer),
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

@@ -326,6 +326,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pathUnitTestHint => 'Skip this unit by passing a test';
 
   @override
+  String get pathResumeTitle => 'Continue learning';
+
+  @override
+  String pathResumeSubtitle(String unit) {
+    return 'Pick up in $unit';
+  }
+
+  @override
   String chapterTestScore(int correct, int total) {
     return '$correct of $total correct';
   }

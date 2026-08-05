@@ -121,6 +121,9 @@
   "pathLockedDialogStart": "Toch beginnen",
   "pathUnitTest": "Hoofdstuktest",
   "pathUnitTestHint": "Hoofdstuk overslaan met een test",
+  "pathResumeTitle": "Verder leren",
+  "pathResumeSubtitle": "Verder in {unit}",
+  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
 
   "chapterTestScore": "{correct} van {total} goed",
   "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },

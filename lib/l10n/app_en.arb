@@ -121,6 +121,9 @@
   "pathLockedDialogStart": "Start anyway",
   "pathUnitTest": "Unit test",
   "pathUnitTestHint": "Skip this unit by passing a test",
+  "pathResumeTitle": "Continue learning",
+  "pathResumeSubtitle": "Pick up in {unit}",
+  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
 
   "chapterTestScore": "{correct} of {total} correct",
   "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },

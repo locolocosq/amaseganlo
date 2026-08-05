@@ -326,6 +326,14 @@ class AppLocalizationsSv extends AppLocalizations {
   String get pathUnitTestHint => 'Hoppa över kapitlet med ett test';
 
   @override
+  String get pathResumeTitle => 'Fortsätt lära dig';
+
+  @override
+  String pathResumeSubtitle(String unit) {
+    return 'Fortsätt i $unit';
+  }
+
+  @override
   String chapterTestScore(int correct, int total) {
     return '$correct av $total rätt';
   }

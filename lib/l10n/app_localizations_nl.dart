@@ -325,6 +325,14 @@ class AppLocalizationsNl extends AppLocalizations {
   String get pathUnitTestHint => 'Hoofdstuk overslaan met een test';
 
   @override
+  String get pathResumeTitle => 'Verder leren';
+
+  @override
+  String pathResumeSubtitle(String unit) {
+    return 'Verder in $unit';
+  }
+
+  @override
   String chapterTestScore(int correct, int total) {
     return '$correct van $total goed';
   }

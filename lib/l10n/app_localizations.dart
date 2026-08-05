@@ -708,6 +708,18 @@ abstract class AppLocalizations {
   /// **'Skip this unit by passing a test'**
   String get pathUnitTestHint;
 
+  /// No description provided for @pathResumeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue learning'**
+  String get pathResumeTitle;
+
+  /// No description provided for @pathResumeSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick up in {unit}'**
+  String pathResumeSubtitle(String unit);
+
   /// No description provided for @chapterTestScore.
   ///
   /// In en, this message translates to:

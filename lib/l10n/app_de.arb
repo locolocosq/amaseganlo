@@ -121,6 +121,9 @@
   "pathLockedDialogStart": "Trotzdem starten",
   "pathUnitTest": "Kapitel-Test",
   "pathUnitTestHint": "Kapitel per Test überspringen",
+  "pathResumeTitle": "Weiterlernen",
+  "pathResumeSubtitle": "Weiter in {unit}",
+  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
 
   "chapterTestScore": "{correct} von {total} richtig",
   "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },

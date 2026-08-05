@@ -121,6 +121,9 @@
   "pathLockedDialogStart": "Starta trots det",
   "pathUnitTest": "Kapiteltest",
   "pathUnitTestHint": "Hoppa över kapitlet med ett test",
+  "pathResumeTitle": "Fortsätt lära dig",
+  "pathResumeSubtitle": "Fortsätt i {unit}",
+  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
 
   "chapterTestScore": "{correct} av {total} rätt",
   "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
