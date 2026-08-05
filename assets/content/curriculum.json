@@ -28,7 +28,17 @@
     "lexemes_praepositionen.json",
     "lexemes_haushalt.json",
     "lexemes_sport_freizeit.json",
-    "lexemes_mehr_adjektive.json"
+    "lexemes_mehr_adjektive.json",
+    "lexemes_laender.json",
+    "lexemes_essen_mehr.json",
+    "lexemes_kalender_aethiopien.json",
+    "lexemes_zahlen_ordnung.json",
+    "lexemes_verben_mehr.json",
+    "lexemes_adverbien_mehr.json",
+    "lexemes_moebel.json",
+    "lexemes_hoefliche_phrasen.json",
+    "lexemes_materialien.json",
+    "lexemes_musikinstrumente.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -57,7 +67,17 @@
     "sentences_praepositionen.json",
     "sentences_haushalt.json",
     "sentences_sport_freizeit.json",
-    "sentences_mehr_adjektive.json"
+    "sentences_mehr_adjektive.json",
+    "sentences_laender.json",
+    "sentences_essen_mehr.json",
+    "sentences_kalender_aethiopien.json",
+    "sentences_zahlen_ordnung.json",
+    "sentences_verben_mehr.json",
+    "sentences_adverbien_mehr.json",
+    "sentences_moebel.json",
+    "sentences_hoefliche_phrasen.json",
+    "sentences_materialien.json",
+    "sentences_musikinstrumente.json"
   ],
   "sections": [
     {
@@ -75,7 +95,8 @@
         "unit_familie_menschen",
         "unit_zahlen_1_20",
         "unit_essen_trinken",
-        "unit_fragewoerter"
+        "unit_fragewoerter",
+        "unit_adverbien_mehr"
       ]
     },
     {
@@ -95,7 +116,10 @@
         "unit_in_der_stadt",
         "unit_kleidung",
         "unit_praepositionen",
-        "unit_haushalt"
+        "unit_haushalt",
+        "unit_essen_mehr",
+        "unit_zahlen_ordnung",
+        "unit_moebel"
       ]
     },
     {
@@ -117,7 +141,10 @@
         "unit_berufe",
         "unit_tiere_mehr",
         "unit_sport_freizeit",
-        "unit_mehr_adjektive"
+        "unit_mehr_adjektive",
+        "unit_laender",
+        "unit_verben_mehr",
+        "unit_materialien"
       ]
     },
     {
@@ -133,7 +160,10 @@
         "unit_gefuehle_meinung",
         "unit_zukunft_wuensche",
         "unit_hoeflichkeit_kultur",
-        "unit_erzaehlen"
+        "unit_erzaehlen",
+        "unit_kalender_aethiopien",
+        "unit_hoefliche_phrasen",
+        "unit_musikinstrumente"
       ]
     }
   ],
@@ -501,6 +531,136 @@
       },
       "topic": "more_adjectives",
       "lessonFile": "unit_mehr_adjektive_lessons.json"
+    },
+    {
+      "id": "unit_laender",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Länder & Sprachen",
+        "en": "Countries & languages",
+        "sv": "Länder & språk",
+        "nl": "Landen & talen"
+      },
+      "topic": "countries",
+      "lessonFile": "unit_laender_lessons.json"
+    },
+    {
+      "id": "unit_essen_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Mehr Essen",
+        "en": "More food",
+        "sv": "Mer mat",
+        "nl": "Meer voedsel"
+      },
+      "topic": "food_more",
+      "lessonFile": "unit_essen_mehr_lessons.json"
+    },
+    {
+      "id": "unit_kalender_aethiopien",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Der äthiopische Kalender",
+        "en": "The Ethiopian calendar",
+        "sv": "Den etiopiska kalendern",
+        "nl": "De Ethiopische kalender"
+      },
+      "topic": "ethiopian_calendar",
+      "lessonFile": "unit_kalender_aethiopien_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_ordnung",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Ordnungszahlen & mehr Zahlen",
+        "en": "Ordinal & more numbers",
+        "sv": "Ordningstal & fler siffror",
+        "nl": "Rangtelwoorden & meer cijfers"
+      },
+      "topic": "numbers_more",
+      "lessonFile": "unit_zahlen_ordnung_lessons.json"
+    },
+    {
+      "id": "unit_verben_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Mehr Verben",
+        "en": "More verbs",
+        "sv": "Fler verb",
+        "nl": "Meer werkwoorden"
+      },
+      "topic": "verbs_more",
+      "lessonFile": "unit_verben_mehr_lessons.json"
+    },
+    {
+      "id": "unit_adverbien_mehr",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Mehr Adverbien",
+        "en": "More adverbs",
+        "sv": "Fler adverb",
+        "nl": "Meer bijwoorden"
+      },
+      "topic": "adverbs_more",
+      "lessonFile": "unit_adverbien_mehr_lessons.json"
+    },
+    {
+      "id": "unit_moebel",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Möbel",
+        "en": "Furniture",
+        "sv": "Möbler",
+        "nl": "Meubels"
+      },
+      "topic": "furniture",
+      "lessonFile": "unit_moebel_lessons.json"
+    },
+    {
+      "id": "unit_hoefliche_phrasen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Höfliche Redewendungen",
+        "en": "Polite phrases",
+        "sv": "Artiga fraser",
+        "nl": "Beleefde uitdrukkingen"
+      },
+      "topic": "polite_phrases",
+      "lessonFile": "unit_hoefliche_phrasen_lessons.json"
+    },
+    {
+      "id": "unit_materialien",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Materialien",
+        "en": "Materials",
+        "sv": "Material",
+        "nl": "Materialen"
+      },
+      "topic": "materials",
+      "lessonFile": "unit_materialien_lessons.json"
+    },
+    {
+      "id": "unit_musikinstrumente",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Traditionelle Musikinstrumente",
+        "en": "Traditional musical instruments",
+        "sv": "Traditionella musikinstrument",
+        "nl": "Traditionele muziekinstrumenten"
+      },
+      "topic": "instruments",
+      "lessonFile": "unit_musikinstrumente_lessons.json"
     }
   ]
 }

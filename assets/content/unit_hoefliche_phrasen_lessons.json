@@ -1,0 +1,99 @@
+[
+  {
+    "id": "unit_hoefliche_phrasen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_hoefliche_phrasen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

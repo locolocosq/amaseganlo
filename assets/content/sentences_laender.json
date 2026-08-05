@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_ine_jerman",
+    "am": "እኔ ከጀርመን ነኝ።",
+    "tr": "ine ke-jerman negn.",
+    "level": "A2",
+    "uses": [
+      "lex_ine",
+      "lex_deutschland"
+    ],
+    "t": {
+      "de": "Ich bin aus Deutschland.",
+      "en": "I am from Germany.",
+      "sv": "Jag är från Tyskland.",
+      "nl": "Ik kom uit Duitsland."
+    },
+    "alt": {},
+    "chunks": [
+      "ine",
+      "ke-jerman",
+      "negn"
+    ],
+    "verified": false
+  }
+]

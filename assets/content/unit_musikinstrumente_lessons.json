@@ -1,0 +1,93 @@
+[
+  {
+    "id": "unit_musikinstrumente_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_musikinstrumente_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

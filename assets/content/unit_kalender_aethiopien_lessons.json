@@ -1,0 +1,147 @@
+[
+  {
+    "id": "unit_kalender_aethiopien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_meskerem",
+      "lex_tikimt",
+      "lex_hidar",
+      "lex_tahsas",
+      "lex_tir",
+      "lex_yekatit",
+      "lex_megabit",
+      "lex_miyazya",
+      "lex_ginbot",
+      "lex_sene",
+      "lex_hamle",
+      "lex_nehase",
+      "lex_pagume"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kalender_aethiopien_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_meskerem",
+      "lex_tikimt",
+      "lex_hidar",
+      "lex_tahsas",
+      "lex_tir",
+      "lex_yekatit",
+      "lex_megabit",
+      "lex_miyazya",
+      "lex_ginbot",
+      "lex_sene",
+      "lex_hamle",
+      "lex_nehase",
+      "lex_pagume"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kalender_aethiopien_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_meskerem",
+      "lex_tikimt",
+      "lex_hidar",
+      "lex_tahsas",
+      "lex_tir",
+      "lex_yekatit",
+      "lex_megabit",
+      "lex_miyazya",
+      "lex_ginbot",
+      "lex_sene",
+      "lex_hamle",
+      "lex_nehase",
+      "lex_pagume"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kalender_aethiopien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_meskerem",
+      "lex_tikimt",
+      "lex_hidar",
+      "lex_tahsas",
+      "lex_tir",
+      "lex_yekatit",
+      "lex_megabit",
+      "lex_miyazya",
+      "lex_ginbot",
+      "lex_sene",
+      "lex_hamle",
+      "lex_nehase",
+      "lex_pagume"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kalender_aethiopien_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_meskerem",
+      "lex_tikimt",
+      "lex_hidar",
+      "lex_tahsas",
+      "lex_tir",
+      "lex_yekatit",
+      "lex_megabit",
+      "lex_miyazya",
+      "lex_ginbot",
+      "lex_sene",
+      "lex_hamle",
+      "lex_nehase",
+      "lex_pagume"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kalender_aethiopien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_meskerem",
+      "lex_tikimt",
+      "lex_hidar",
+      "lex_tahsas",
+      "lex_tir",
+      "lex_yekatit",
+      "lex_megabit",
+      "lex_miyazya",
+      "lex_ginbot",
+      "lex_sene",
+      "lex_hamle",
+      "lex_nehase",
+      "lex_pagume"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

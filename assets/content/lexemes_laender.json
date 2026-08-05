@@ -1,0 +1,254 @@
+[
+  {
+    "id": "lex_deutschland",
+    "am": "ጀርመን",
+    "tr": "jerman",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Deutschland",
+      "en": "Germany",
+      "sv": "Tyskland",
+      "nl": "Duitsland"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇩🇪",
+    "verified": true
+  },
+  {
+    "id": "lex_england",
+    "am": "እንግሊዝ",
+    "tr": "ingiliz",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "England",
+      "en": "England",
+      "sv": "England",
+      "nl": "Engeland"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇬🇧",
+    "verified": true
+  },
+  {
+    "id": "lex_schweden",
+    "am": "ስዊድን",
+    "tr": "swidin",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Schweden",
+      "en": "Sweden",
+      "sv": "Sverige",
+      "nl": "Zweden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇸🇪",
+    "verified": false
+  },
+  {
+    "id": "lex_niederlande",
+    "am": "ሆላንድ",
+    "tr": "holand",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "die Niederlande, Holland",
+      "en": "the Netherlands, Holland",
+      "sv": "Nederländerna, Holland",
+      "nl": "Nederland, Holland"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇳🇱",
+    "verified": false
+  },
+  {
+    "id": "lex_frankreich",
+    "am": "ፈረንሳይ",
+    "tr": "ferensay",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Frankreich",
+      "en": "France",
+      "sv": "Frankrike",
+      "nl": "Frankrijk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇫🇷",
+    "verified": true
+  },
+  {
+    "id": "lex_italien",
+    "am": "ጣልያን",
+    "tr": "t'aliyan",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Italien",
+      "en": "Italy",
+      "sv": "Italien",
+      "nl": "Italië"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇮🇹",
+    "verified": true
+  },
+  {
+    "id": "lex_amerika",
+    "am": "አሜሪካ",
+    "tr": "amerika",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Amerika",
+      "en": "America",
+      "sv": "Amerika",
+      "nl": "Amerika"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇺🇸",
+    "verified": true
+  },
+  {
+    "id": "lex_china",
+    "am": "ቻይና",
+    "tr": "chayna",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "China",
+      "en": "China",
+      "sv": "Kina",
+      "nl": "China"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇨🇳",
+    "verified": true
+  },
+  {
+    "id": "lex_kenia",
+    "am": "ኬንያ",
+    "tr": "kenya",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Kenia",
+      "en": "Kenya",
+      "sv": "Kenya",
+      "nl": "Kenia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇰🇪",
+    "verified": true
+  },
+  {
+    "id": "lex_aegypten",
+    "am": "ግብጽ",
+    "tr": "gibts'",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Ägypten",
+      "en": "Egypt",
+      "sv": "Egypten",
+      "nl": "Egypte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇪🇬",
+    "verified": true
+  },
+  {
+    "id": "lex_sudan",
+    "am": "ሱዳን",
+    "tr": "sudan",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Sudan",
+      "en": "Sudan",
+      "sv": "Sudan",
+      "nl": "Soedan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇸🇩",
+    "verified": true
+  },
+  {
+    "id": "lex_spanien",
+    "am": "ስፔን",
+    "tr": "spain",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Spanien",
+      "en": "Spain",
+      "sv": "Spanien",
+      "nl": "Spanje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🇪🇸",
+    "verified": false
+  },
+  {
+    "id": "lex_deutsch_sprache",
+    "am": "ጀርመንኛ",
+    "tr": "jermenigna",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Deutsch (Sprache)",
+      "en": "German (language)",
+      "sv": "tyska (språk)",
+      "nl": "Duits (taal)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_englisch_sprache",
+    "am": "እንግሊዝኛ",
+    "tr": "ingilizigna",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "A2",
+    "t": {
+      "de": "Englisch (Sprache)",
+      "en": "English (language)",
+      "sv": "engelska (språk)",
+      "nl": "Engels (taal)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

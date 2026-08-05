@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_krar",
+    "am": "ክራር",
+    "tr": "kirar",
+    "pos": "noun",
+    "topic": "instruments",
+    "level": "B1",
+    "t": {
+      "de": "die Krar (Leier)",
+      "en": "krar (lyre)",
+      "sv": "krar (lyra)",
+      "nl": "krar (lier)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎻",
+    "verified": true
+  },
+  {
+    "id": "lex_masinko",
+    "am": "ማሲንቆ",
+    "tr": "masinko",
+    "pos": "noun",
+    "topic": "instruments",
+    "level": "B1",
+    "t": {
+      "de": "die Masinko (Fiedel)",
+      "en": "masinko (fiddle)",
+      "sv": "masinko (fiol)",
+      "nl": "masinko (vedel)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎻",
+    "verified": true
+  },
+  {
+    "id": "lex_kebero",
+    "am": "ከበሮ",
+    "tr": "kebero",
+    "pos": "noun",
+    "topic": "instruments",
+    "level": "B1",
+    "t": {
+      "de": "die Kebero (Trommel)",
+      "en": "kebero (drum)",
+      "sv": "kebero (trumma)",
+      "nl": "kebero (drum)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥁",
+    "verified": true
+  },
+  {
+    "id": "lex_washint",
+    "am": "ዋሽንት",
+    "tr": "washint",
+    "pos": "noun",
+    "topic": "instruments",
+    "level": "B1",
+    "t": {
+      "de": "die Washint (Flöte)",
+      "en": "washint (flute)",
+      "sv": "washint (flöjt)",
+      "nl": "washint (fluit)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎶",
+    "verified": false
+  }
+]

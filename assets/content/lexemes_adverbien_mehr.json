@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_hier",
+    "am": "እዚህ",
+    "tr": "izih",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "hier",
+      "en": "here",
+      "sv": "här",
+      "nl": "hier"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_dort",
+    "am": "እዚያ",
+    "tr": "iziya",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "dort",
+      "en": "there",
+      "sv": "där",
+      "nl": "daar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ueberall",
+    "am": "በሁሉም ቦታ",
+    "tr": "behulem bota",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "überall",
+      "en": "everywhere",
+      "sv": "överallt",
+      "nl": "overal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_draussen",
+    "am": "ውጭ",
+    "tr": "wich",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "draußen",
+      "en": "outside",
+      "sv": "utomhus",
+      "nl": "buiten"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_oben",
+    "am": "በላይ",
+    "tr": "belay",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "oben",
+      "en": "above, up",
+      "sv": "ovanför",
+      "nl": "boven"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_unten",
+    "am": "በታች",
+    "tr": "betach",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "unten",
+      "en": "below, down",
+      "sv": "nedanför",
+      "nl": "onder"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zusammen",
+    "am": "በጋራ",
+    "tr": "begara",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "zusammen",
+      "en": "together",
+      "sv": "tillsammans",
+      "nl": "samen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_allein",
+    "am": "ብቻ",
+    "tr": "bicha",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "allein, nur",
+      "en": "alone, only",
+      "sv": "ensam, bara",
+      "nl": "alleen, slechts"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

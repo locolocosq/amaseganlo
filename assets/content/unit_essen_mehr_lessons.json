@@ -1,0 +1,143 @@
+[
+  {
+    "id": "unit_essen_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_zwiebel",
+      "lex_tomate",
+      "lex_kartoffel",
+      "lex_knoblauch",
+      "lex_avocado",
+      "lex_karotte",
+      "lex_linsen",
+      "lex_kohl",
+      "lex_limette",
+      "lex_oel",
+      "lex_butter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_essen_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_zwiebel",
+      "lex_tomate",
+      "lex_kartoffel",
+      "lex_knoblauch",
+      "lex_avocado",
+      "lex_karotte",
+      "lex_linsen",
+      "lex_kohl",
+      "lex_limette",
+      "lex_oel",
+      "lex_butter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_essen_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_zwiebel",
+      "lex_tomate",
+      "lex_kartoffel",
+      "lex_knoblauch",
+      "lex_avocado",
+      "lex_karotte",
+      "lex_linsen",
+      "lex_kohl",
+      "lex_limette",
+      "lex_oel",
+      "lex_butter"
+    ],
+    "sentenceIds": [
+      "sen_shinkurt_keyy"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_essen_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_zwiebel",
+      "lex_tomate",
+      "lex_kartoffel",
+      "lex_knoblauch",
+      "lex_avocado",
+      "lex_karotte",
+      "lex_linsen",
+      "lex_kohl",
+      "lex_limette",
+      "lex_oel",
+      "lex_butter"
+    ],
+    "sentenceIds": [
+      "sen_shinkurt_keyy"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_essen_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_zwiebel",
+      "lex_tomate",
+      "lex_kartoffel",
+      "lex_knoblauch",
+      "lex_avocado",
+      "lex_karotte",
+      "lex_linsen",
+      "lex_kohl",
+      "lex_limette",
+      "lex_oel",
+      "lex_butter"
+    ],
+    "sentenceIds": [
+      "sen_shinkurt_keyy"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_essen_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_zwiebel",
+      "lex_tomate",
+      "lex_kartoffel",
+      "lex_knoblauch",
+      "lex_avocado",
+      "lex_karotte",
+      "lex_linsen",
+      "lex_kohl",
+      "lex_limette",
+      "lex_oel",
+      "lex_butter"
+    ],
+    "sentenceIds": [
+      "sen_shinkurt_keyy"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

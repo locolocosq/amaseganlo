@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_zwiebel",
+    "am": "ሽንኩርት",
+    "tr": "shinkurt",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Zwiebel",
+      "en": "onion",
+      "sv": "lök",
+      "nl": "ui"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧅",
+    "verified": true
+  },
+  {
+    "id": "lex_tomate",
+    "am": "ቲማቲም",
+    "tr": "timatim",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Tomate",
+      "en": "tomato",
+      "sv": "tomat",
+      "nl": "tomaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍅",
+    "verified": true
+  },
+  {
+    "id": "lex_kartoffel",
+    "am": "ድንች",
+    "tr": "dinich",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Kartoffel",
+      "en": "potato",
+      "sv": "potatis",
+      "nl": "aardappel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥔",
+    "verified": true
+  },
+  {
+    "id": "lex_knoblauch",
+    "am": "ነጭ ሽንኩርት",
+    "tr": "nech shinkurt",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Knoblauch",
+      "en": "garlic",
+      "sv": "vitlök",
+      "nl": "knoflook"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧄",
+    "verified": false
+  },
+  {
+    "id": "lex_avocado",
+    "am": "አቮካዶ",
+    "tr": "avokado",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Avocado",
+      "en": "avocado",
+      "sv": "avokado",
+      "nl": "avocado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥑",
+    "verified": true
+  },
+  {
+    "id": "lex_karotte",
+    "am": "ካሮት",
+    "tr": "karot",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Karotte",
+      "en": "carrot",
+      "sv": "morot",
+      "nl": "wortel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥕",
+    "verified": false
+  },
+  {
+    "id": "lex_linsen",
+    "am": "ምስር",
+    "tr": "misir",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Linsen",
+      "en": "lentils",
+      "sv": "linser",
+      "nl": "linzen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kohl",
+    "am": "ጎመን",
+    "tr": "gomen",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Kohl (Grünkohl-Gericht)",
+      "en": "collard greens",
+      "sv": "kål",
+      "nl": "boerenkool"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥬",
+    "verified": true
+  },
+  {
+    "id": "lex_limette",
+    "am": "ሎሚ",
+    "tr": "lomi",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Limette, die Zitrone",
+      "en": "lime, lemon",
+      "sv": "lime, citron",
+      "nl": "limoen, citroen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍋",
+    "verified": true
+  },
+  {
+    "id": "lex_oel",
+    "am": "ዘይት",
+    "tr": "zeyit",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "das Öl",
+      "en": "oil",
+      "sv": "olja",
+      "nl": "olie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_butter",
+    "am": "ቅቤ",
+    "tr": "kibbe",
+    "pos": "noun",
+    "topic": "food_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Butter",
+      "en": "butter",
+      "sv": "smör",
+      "nl": "boter"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

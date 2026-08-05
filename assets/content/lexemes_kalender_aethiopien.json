@@ -1,0 +1,236 @@
+[
+  {
+    "id": "lex_meskerem",
+    "am": "መስከረም",
+    "tr": "meskerem",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Meskerem (1. Monat)",
+      "en": "Meskerem (1st month)",
+      "sv": "Meskerem (1:a månaden)",
+      "nl": "Meskerem (1e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tikimt",
+    "am": "ጥቅምት",
+    "tr": "t'ikimt",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Tikimt (2. Monat)",
+      "en": "Tikimt (2nd month)",
+      "sv": "Tikimt (2:a månaden)",
+      "nl": "Tikimt (2e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hidar",
+    "am": "ህዳር",
+    "tr": "hidar",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Hidar (3. Monat)",
+      "en": "Hidar (3rd month)",
+      "sv": "Hidar (3:e månaden)",
+      "nl": "Hidar (3e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tahsas",
+    "am": "ታህሳስ",
+    "tr": "tahsas",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Tahsas (4. Monat)",
+      "en": "Tahsas (4th month)",
+      "sv": "Tahsas (4:e månaden)",
+      "nl": "Tahsas (4e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tir",
+    "am": "ጥር",
+    "tr": "tir",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Tir (5. Monat)",
+      "en": "Tir (5th month)",
+      "sv": "Tir (5:e månaden)",
+      "nl": "Tir (5e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_yekatit",
+    "am": "የካቲት",
+    "tr": "yekatit",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Yekatit (6. Monat)",
+      "en": "Yekatit (6th month)",
+      "sv": "Yekatit (6:e månaden)",
+      "nl": "Yekatit (6e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_megabit",
+    "am": "መጋቢት",
+    "tr": "megabit",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Megabit (7. Monat)",
+      "en": "Megabit (7th month)",
+      "sv": "Megabit (7:e månaden)",
+      "nl": "Megabit (7e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_miyazya",
+    "am": "ሚያዚያ",
+    "tr": "miyazya",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Miazia (8. Monat)",
+      "en": "Miazia (8th month)",
+      "sv": "Miazia (8:e månaden)",
+      "nl": "Miazia (8e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ginbot",
+    "am": "ግንቦት",
+    "tr": "ginbot",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Ginbot (9. Monat)",
+      "en": "Ginbot (9th month)",
+      "sv": "Ginbot (9:e månaden)",
+      "nl": "Ginbot (9e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sene",
+    "am": "ሰኔ",
+    "tr": "sene",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Sene (10. Monat)",
+      "en": "Sene (10th month)",
+      "sv": "Sene (10:e månaden)",
+      "nl": "Sene (10e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hamle",
+    "am": "ሐምሌ",
+    "tr": "hamle",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Hamle (11. Monat)",
+      "en": "Hamle (11th month)",
+      "sv": "Hamle (11:e månaden)",
+      "nl": "Hamle (11e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nehase",
+    "am": "ነሐሴ",
+    "tr": "nehase",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Nehase (12. Monat)",
+      "en": "Nehase (12th month)",
+      "sv": "Nehase (12:e månaden)",
+      "nl": "Nehase (12e maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_pagume",
+    "am": "ጳጉሜ",
+    "tr": "pagume",
+    "pos": "noun",
+    "topic": "ethiopian_calendar",
+    "level": "B1",
+    "t": {
+      "de": "Pagumen (13. Monat, kurz)",
+      "en": "Pagume (13th, short month)",
+      "sv": "Pagume (13:e, kort månaden)",
+      "nl": "Pagume (13e, korte maand)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

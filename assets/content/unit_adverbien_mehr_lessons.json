@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_adverbien_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_adverbien_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

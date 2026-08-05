@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_holz",
+    "am": "እንጨት",
+    "tr": "inchet",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "A2",
+    "t": {
+      "de": "das Holz",
+      "en": "wood",
+      "sv": "trä",
+      "nl": "hout"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪵",
+    "verified": true
+  },
+  {
+    "id": "lex_stein",
+    "am": "ድንጋይ",
+    "tr": "dingay",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "A2",
+    "t": {
+      "de": "der Stein",
+      "en": "stone",
+      "sv": "sten",
+      "nl": "steen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪨",
+    "verified": true
+  },
+  {
+    "id": "lex_eisen",
+    "am": "ብረት",
+    "tr": "biret",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "A2",
+    "t": {
+      "de": "das Eisen, Metall",
+      "en": "iron, metal",
+      "sv": "järn, metall",
+      "nl": "ijzer, metaal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_plastik",
+    "am": "ላስቲክ",
+    "tr": "lastik",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "A2",
+    "t": {
+      "de": "das Plastik",
+      "en": "plastic",
+      "sv": "plast",
+      "nl": "plastic"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]
