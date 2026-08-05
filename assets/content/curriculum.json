@@ -10,7 +10,13 @@
     "lexemes_zeit.json",
     "lexemes_farben_eigenschaften.json",
     "lexemes_zahlen_einkaufen.json",
-    "lexemes_in_der_stadt.json"
+    "lexemes_in_der_stadt.json",
+    "lexemes_verben_alltag.json",
+    "lexemes_gegenwart_vergangenheit.json",
+    "lexemes_koerper_gesundheit.json",
+    "lexemes_arbeit_schule.json",
+    "lexemes_reisen_verkehr.json",
+    "lexemes_wetter_natur.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -21,7 +27,13 @@
     "sentences_zeit.json",
     "sentences_farben_eigenschaften.json",
     "sentences_zahlen_einkaufen.json",
-    "sentences_in_der_stadt.json"
+    "sentences_in_der_stadt.json",
+    "sentences_verben_alltag.json",
+    "sentences_gegenwart_vergangenheit.json",
+    "sentences_koerper_gesundheit.json",
+    "sentences_arbeit_schule.json",
+    "sentences_reisen_verkehr.json",
+    "sentences_wetter_natur.json"
   ],
   "sections": [
     {
@@ -56,6 +68,24 @@
         "unit_farben_eigenschaften",
         "unit_zahlen_einkaufen",
         "unit_in_der_stadt"
+      ]
+    },
+    {
+      "id": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Niveau A2 — sich verständigen",
+        "en": "Level A2 — getting by",
+        "sv": "Nivå A2 — att göra sig förstådd",
+        "nl": "Niveau A2 — je verstaanbaar maken"
+      },
+      "units": [
+        "unit_verben_alltag",
+        "unit_gegenwart_vergangenheit",
+        "unit_koerper_gesundheit",
+        "unit_arbeit_schule",
+        "unit_reisen_verkehr",
+        "unit_wetter_natur"
       ]
     }
   ],
@@ -189,6 +219,84 @@
       },
       "topic": "city",
       "lessonFile": "unit_in_der_stadt_lessons.json"
+    },
+    {
+      "id": "unit_verben_alltag",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Verben im Alltag",
+        "en": "Everyday verbs",
+        "sv": "Vardagliga verb",
+        "nl": "Alledaagse werkwoorden"
+      },
+      "topic": "verbs",
+      "lessonFile": "unit_verben_alltag_lessons.json"
+    },
+    {
+      "id": "unit_gegenwart_vergangenheit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gegenwart & Vergangenheit",
+        "en": "Present & past",
+        "sv": "Nutid & dåtid",
+        "nl": "Heden & verleden"
+      },
+      "topic": "grammar_time",
+      "lessonFile": "unit_gegenwart_vergangenheit_lessons.json"
+    },
+    {
+      "id": "unit_koerper_gesundheit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Körper & Gesundheit",
+        "en": "Body & health",
+        "sv": "Kropp & hälsa",
+        "nl": "Lichaam & gezondheid"
+      },
+      "topic": "body_health",
+      "lessonFile": "unit_koerper_gesundheit_lessons.json"
+    },
+    {
+      "id": "unit_arbeit_schule",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Arbeit & Schule",
+        "en": "Work & school",
+        "sv": "Arbete & skola",
+        "nl": "Werk & school"
+      },
+      "topic": "work_school",
+      "lessonFile": "unit_arbeit_schule_lessons.json"
+    },
+    {
+      "id": "unit_reisen_verkehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Reisen & Verkehr",
+        "en": "Travel & transport",
+        "sv": "Resor & trafik",
+        "nl": "Reizen & verkeer"
+      },
+      "topic": "travel",
+      "lessonFile": "unit_reisen_verkehr_lessons.json"
+    },
+    {
+      "id": "unit_wetter_natur",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Wetter & Natur",
+        "en": "Weather & nature",
+        "sv": "Väder & natur",
+        "nl": "Weer & natuur"
+      },
+      "topic": "weather_nature",
+      "lessonFile": "unit_wetter_natur_lessons.json"
     }
   ]
 }

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "unit_gegenwart_vergangenheit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ich_gehe",
+      "lex_ich_ging",
+      "lex_ich_ass",
+      "lex_ich_trank",
+      "lex_jetzt",
+      "lex_frueher",
+      "lex_schon",
+      "lex_immer",
+      "lex_manchmal",
+      "lex_nie",
+      "lex_bald",
+      "lex_spaet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gegenwart_vergangenheit_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ich_gehe",
+      "lex_ich_ging",
+      "lex_ich_ass",
+      "lex_ich_trank",
+      "lex_jetzt",
+      "lex_frueher",
+      "lex_schon",
+      "lex_immer",
+      "lex_manchmal",
+      "lex_nie",
+      "lex_bald",
+      "lex_spaet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gegenwart_vergangenheit_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ich_gehe",
+      "lex_ich_ging",
+      "lex_ich_ass",
+      "lex_ich_trank",
+      "lex_jetzt",
+      "lex_frueher",
+      "lex_schon",
+      "lex_immer",
+      "lex_manchmal",
+      "lex_nie",
+      "lex_bald",
+      "lex_spaet"
+    ],
+    "sentenceIds": [
+      "sen_ahun_ihedalehu"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gegenwart_vergangenheit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ich_gehe",
+      "lex_ich_ging",
+      "lex_ich_ass",
+      "lex_ich_trank",
+      "lex_jetzt",
+      "lex_frueher",
+      "lex_schon",
+      "lex_immer",
+      "lex_manchmal",
+      "lex_nie",
+      "lex_bald",
+      "lex_spaet"
+    ],
+    "sentenceIds": [
+      "sen_ahun_ihedalehu"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gegenwart_vergangenheit_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ich_gehe",
+      "lex_ich_ging",
+      "lex_ich_ass",
+      "lex_ich_trank",
+      "lex_jetzt",
+      "lex_frueher",
+      "lex_schon",
+      "lex_immer",
+      "lex_manchmal",
+      "lex_nie",
+      "lex_bald",
+      "lex_spaet"
+    ],
+    "sentenceIds": [
+      "sen_ahun_ihedalehu"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gegenwart_vergangenheit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ich_gehe",
+      "lex_ich_ging",
+      "lex_ich_ass",
+      "lex_ich_trank",
+      "lex_jetzt",
+      "lex_frueher",
+      "lex_schon",
+      "lex_immer",
+      "lex_manchmal",
+      "lex_nie",
+      "lex_bald",
+      "lex_spaet"
+    ],
+    "sentenceIds": [
+      "sen_ahun_ihedalehu"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

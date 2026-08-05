@@ -1,0 +1,191 @@
+[
+  {
+    "id": "unit_reisen_verkehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_reisen_verkehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

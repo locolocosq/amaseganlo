@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sen_wuha_meweded",
+    "am": "ውሃ መጠጣት እወዳለሁ።",
+    "tr": "wuha met'et'at iwedalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_wasser",
+      "lex_v_lieben"
+    ],
+    "t": {
+      "de": "Ich mag es, Wasser zu trinken.",
+      "en": "I like drinking water.",
+      "sv": "Jag tycker om att dricka vatten.",
+      "nl": "Ik houd van water drinken."
+    },
+    "alt": {},
+    "chunks": [
+      "wuha",
+      "met'et'at",
+      "iwedalehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ine_ihedalehu",
+    "am": "እኔ ወደ ቤት እሄዳለሁ።",
+    "tr": "ine wede biet ihedalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_ine",
+      "lex_haus",
+      "lex_v_gehen"
+    ],
+    "t": {
+      "de": "Ich gehe nach Hause.",
+      "en": "I am going home.",
+      "sv": "Jag går hem.",
+      "nl": "Ik ga naar huis."
+    },
+    "alt": {},
+    "chunks": [
+      "ine",
+      "wede",
+      "biet",
+      "ihedalehu"
+    ],
+    "verified": false
+  }
+]

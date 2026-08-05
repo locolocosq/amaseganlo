@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sen_ahun_ihedalehu",
+    "am": "እኔ አሁን እሄዳለሁ።",
+    "tr": "ine ahun ihedalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_ine",
+      "lex_jetzt",
+      "lex_ich_gehe"
+    ],
+    "t": {
+      "de": "Ich gehe jetzt.",
+      "en": "I am going now.",
+      "sv": "Jag går nu.",
+      "nl": "Ik ga nu."
+    },
+    "alt": {},
+    "chunks": [
+      "ine",
+      "ahun",
+      "ihedalehu"
+    ],
+    "verified": false
+  }
+]

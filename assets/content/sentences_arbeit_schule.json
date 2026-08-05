@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sen_temari_negn",
+    "am": "እኔ ተማሪ ነኝ።",
+    "tr": "ine temari negn.",
+    "level": "A2",
+    "uses": [
+      "lex_ine",
+      "lex_schueler"
+    ],
+    "t": {
+      "de": "Ich bin Student.",
+      "en": "I am a student.",
+      "sv": "Jag är student.",
+      "nl": "Ik ben een student."
+    },
+    "alt": {},
+    "chunks": [
+      "ine",
+      "temari",
+      "negn"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_metsihaf_manbeb",
+    "am": "መጽሐፍ አነባለሁ።",
+    "tr": "mets'ihaf anebalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_buch",
+      "lex_v_lesen"
+    ],
+    "t": {
+      "de": "Ich lese ein Buch.",
+      "en": "I read a book.",
+      "sv": "Jag läser en bok.",
+      "nl": "Ik lees een boek."
+    },
+    "alt": {},
+    "chunks": [
+      "mets'ihaf",
+      "anebalehu"
+    ],
+    "verified": false
+  }
+]

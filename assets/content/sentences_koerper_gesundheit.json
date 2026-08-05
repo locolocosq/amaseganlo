@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sen_rasi_yimenal",
+    "am": "ራሴ ይመናል።",
+    "tr": "rasie yimenal.",
+    "level": "A2",
+    "uses": [
+      "lex_kopf"
+    ],
+    "t": {
+      "de": "Mir tut der Kopf weh.",
+      "en": "My head hurts.",
+      "sv": "Jag har huvudvärk.",
+      "nl": "Mijn hoofd doet pijn."
+    },
+    "alt": {},
+    "chunks": [
+      "rasie",
+      "yimenal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hakim_negn",
+    "am": "ወደ ሐኪም እሄዳለሁ።",
+    "tr": "wede hakim ihedalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_arzt",
+      "lex_ich_gehe"
+    ],
+    "t": {
+      "de": "Ich gehe zum Arzt.",
+      "en": "I am going to the doctor.",
+      "sv": "Jag går till läkaren.",
+      "nl": "Ik ga naar de dokter."
+    },
+    "alt": {},
+    "chunks": [
+      "wede",
+      "hakim",
+      "ihedalehu"
+    ],
+    "verified": false
+  }
+]
