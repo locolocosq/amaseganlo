@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_waschmaschine",
+    "am": "ልብስ ማጠቢያ",
+    "tr": "libs matebiya",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "die Waschmaschine",
+      "en": "washing machine",
+      "sv": "tvättmaskin",
+      "nl": "wasmachine"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧺",
+    "verified": true
+  },
+  {
+    "id": "lex_staubsauger",
+    "am": "አቧራ መጭ",
+    "tr": "abwara mech",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "der Staubsauger",
+      "en": "vacuum cleaner",
+      "sv": "dammsugare",
+      "nl": "stofzuiger"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_buegeleisen",
+    "am": "ሙቅ ብረት",
+    "tr": "muk' biret",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "das Bügeleisen",
+      "en": "iron",
+      "sv": "strykjärn",
+      "nl": "strijkijzer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mikrowelle",
+    "am": "ማይክሮዌብ",
+    "tr": "maikirowev",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "die Mikrowelle",
+      "en": "microwave",
+      "sv": "mikrovågsugn",
+      "nl": "magnetron"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📦",
+    "verified": true
+  },
+  {
+    "id": "lex_toaster",
+    "am": "ቶስተር",
+    "tr": "toster",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "der Toaster",
+      "en": "toaster",
+      "sv": "brödrost",
+      "nl": "broodrooster"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍞",
+    "verified": true
+  },
+  {
+    "id": "lex_geschirrspueler",
+    "am": "ማጠቢያ ዕቃ",
+    "tr": "matebiya i'k'a",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "die Geschirrspülmaschine",
+      "en": "dishwasher",
+      "sv": "diskmaskin",
+      "nl": "vaatwasser"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ventilator",
+    "am": "ማራገቢያ",
+    "tr": "maragebiya",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "A2",
+    "t": {
+      "de": "der Ventilator",
+      "en": "fan",
+      "sv": "fläkt",
+      "nl": "ventilator"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌀",
+    "verified": false
+  }
+]

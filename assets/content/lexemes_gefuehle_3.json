@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_begeistert",
+    "am": "ጉጉት ያለው",
+    "tr": "guggit yalew",
+    "pos": "adjective",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "begeistert, aufgeregt",
+      "en": "excited",
+      "sv": "exalterad",
+      "nl": "opgewonden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gelangweilt",
+    "am": "መሰላቸት",
+    "tr": "meselachet",
+    "pos": "verb",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "sich langweilen",
+      "en": "to be bored",
+      "sv": "ha tråkigt",
+      "nl": "zich vervelen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_erleichtert",
+    "am": "ፍታት ማግኘት",
+    "tr": "fitat magignet",
+    "pos": "verb",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "erleichtert sein",
+      "en": "to be relieved",
+      "sv": "känna lättnad",
+      "nl": "opgelucht zijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_dankbar",
+    "am": "አመስጋኝ",
+    "tr": "amesgagn",
+    "pos": "adjective",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "dankbar",
+      "en": "grateful",
+      "sv": "tacksam",
+      "nl": "dankbaar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_motiviert",
+    "am": "ተነሳሽነት ያለው",
+    "tr": "tenesashinet yalew",
+    "pos": "adjective",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "motiviert",
+      "en": "motivated",
+      "sv": "motiverad",
+      "nl": "gemotiveerd"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_selbstbewusst",
+    "am": "በራስ የሚተማመን",
+    "tr": "beras yemitememen",
+    "pos": "adjective",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "selbstbewusst",
+      "en": "confident",
+      "sv": "självsäker",
+      "nl": "zelfverzekerd"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_beschaemt",
+    "am": "የሚያሳፍር",
+    "tr": "yemiyasafir",
+    "pos": "adjective",
+    "topic": "emotions_3",
+    "level": "B1",
+    "t": {
+      "de": "beschämt, peinlich",
+      "en": "ashamed, embarrassing",
+      "sv": "skamsen",
+      "nl": "beschaamd"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

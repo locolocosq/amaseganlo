@@ -1,0 +1,135 @@
+[
+  {
+    "id": "unit_koerperteile_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_augenbraue",
+      "lex_wimper",
+      "lex_kinn",
+      "lex_wange",
+      "lex_ellbogen",
+      "lex_knoechel",
+      "lex_handgelenk",
+      "lex_taille",
+      "lex_stirn",
+      "lex_zunge",
+      "lex_fingernagel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_koerperteile_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_augenbraue",
+      "lex_wimper",
+      "lex_kinn",
+      "lex_wange",
+      "lex_ellbogen",
+      "lex_knoechel",
+      "lex_handgelenk",
+      "lex_taille",
+      "lex_stirn",
+      "lex_zunge",
+      "lex_fingernagel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_koerperteile_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_augenbraue",
+      "lex_wimper",
+      "lex_kinn",
+      "lex_wange",
+      "lex_ellbogen",
+      "lex_knoechel",
+      "lex_handgelenk",
+      "lex_taille",
+      "lex_stirn",
+      "lex_zunge",
+      "lex_fingernagel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_koerperteile_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_augenbraue",
+      "lex_wimper",
+      "lex_kinn",
+      "lex_wange",
+      "lex_ellbogen",
+      "lex_knoechel",
+      "lex_handgelenk",
+      "lex_taille",
+      "lex_stirn",
+      "lex_zunge",
+      "lex_fingernagel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_koerperteile_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_augenbraue",
+      "lex_wimper",
+      "lex_kinn",
+      "lex_wange",
+      "lex_ellbogen",
+      "lex_knoechel",
+      "lex_handgelenk",
+      "lex_taille",
+      "lex_stirn",
+      "lex_zunge",
+      "lex_fingernagel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_koerperteile_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_augenbraue",
+      "lex_wimper",
+      "lex_kinn",
+      "lex_wange",
+      "lex_ellbogen",
+      "lex_knoechel",
+      "lex_handgelenk",
+      "lex_taille",
+      "lex_stirn",
+      "lex_zunge",
+      "lex_fingernagel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -74,7 +74,18 @@
     "lexemes_buerobedarf.json",
     "lexemes_adjektive_mehr3.json",
     "lexemes_naturkatastrophen.json",
-    "lexemes_zahlen_teile.json"
+    "lexemes_zahlen_teile.json",
+    "lexemes_gefuehle_3.json",
+    "lexemes_haushaltsgeraete.json",
+    "lexemes_koerperteile_mehr.json",
+    "lexemes_familie_mehr.json",
+    "lexemes_finanzen.json",
+    "lexemes_recht_justiz.json",
+    "lexemes_astronomie.json",
+    "lexemes_verben_kommunikation.json",
+    "lexemes_verben_kochen.json",
+    "lexemes_substantive_3.json",
+    "lexemes_geometrie.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -149,7 +160,18 @@
     "sentences_buerobedarf.json",
     "sentences_adjektive_mehr3.json",
     "sentences_naturkatastrophen.json",
-    "sentences_zahlen_teile.json"
+    "sentences_zahlen_teile.json",
+    "sentences_gefuehle_3.json",
+    "sentences_haushaltsgeraete.json",
+    "sentences_koerperteile_mehr.json",
+    "sentences_familie_mehr.json",
+    "sentences_finanzen.json",
+    "sentences_recht_justiz.json",
+    "sentences_astronomie.json",
+    "sentences_verben_kommunikation.json",
+    "sentences_verben_kochen.json",
+    "sentences_substantive_3.json",
+    "sentences_geometrie.json"
   ],
   "sections": [
     {
@@ -245,7 +267,11 @@
         "unit_verben_bewegung",
         "unit_camping_wandern",
         "unit_werkzeuge",
-        "unit_zahlen_teile"
+        "unit_zahlen_teile",
+        "unit_haushaltsgeraete",
+        "unit_koerperteile_mehr",
+        "unit_familie_mehr",
+        "unit_verben_kochen"
       ]
     },
     {
@@ -272,7 +298,14 @@
         "unit_kunst_musik_mehr",
         "unit_wissenschaft",
         "unit_adjektive_mehr3",
-        "unit_naturkatastrophen"
+        "unit_naturkatastrophen",
+        "unit_gefuehle_3",
+        "unit_finanzen",
+        "unit_recht_justiz",
+        "unit_astronomie",
+        "unit_verben_kommunikation",
+        "unit_substantive_3",
+        "unit_geometrie"
       ]
     }
   ],
@@ -1238,6 +1271,149 @@
       },
       "topic": "fractions",
       "lessonFile": "unit_zahlen_teile_lessons.json"
+    },
+    {
+      "id": "unit_gefuehle_3",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Gefühle (3)",
+        "en": "Feelings (3)",
+        "sv": "Känslor (3)",
+        "nl": "Gevoelens (3)"
+      },
+      "topic": "emotions_3",
+      "lessonFile": "unit_gefuehle_3_lessons.json"
+    },
+    {
+      "id": "unit_haushaltsgeraete",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Haushaltsgeräte",
+        "en": "Household appliances",
+        "sv": "Hushållsapparater",
+        "nl": "Huishoudapparaten"
+      },
+      "topic": "appliances",
+      "lessonFile": "unit_haushaltsgeraete_lessons.json"
+    },
+    {
+      "id": "unit_koerperteile_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Körperteile (mehr)",
+        "en": "Body parts (more)",
+        "sv": "Kroppsdelar (mer)",
+        "nl": "Lichaamsdelen (meer)"
+      },
+      "topic": "body_more",
+      "lessonFile": "unit_koerperteile_mehr_lessons.json"
+    },
+    {
+      "id": "unit_familie_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Familie (mehr)",
+        "en": "Family (more)",
+        "sv": "Familj (mer)",
+        "nl": "Familie (meer)"
+      },
+      "topic": "family_more",
+      "lessonFile": "unit_familie_mehr_lessons.json"
+    },
+    {
+      "id": "unit_finanzen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Finanzen",
+        "en": "Finance",
+        "sv": "Ekonomi",
+        "nl": "Financiën"
+      },
+      "topic": "finance",
+      "lessonFile": "unit_finanzen_lessons.json"
+    },
+    {
+      "id": "unit_recht_justiz",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Recht & Justiz",
+        "en": "Law & justice",
+        "sv": "Rätt & juridik",
+        "nl": "Recht & justitie"
+      },
+      "topic": "law",
+      "lessonFile": "unit_recht_justiz_lessons.json"
+    },
+    {
+      "id": "unit_astronomie",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Astronomie",
+        "en": "Astronomy",
+        "sv": "Astronomi",
+        "nl": "Astronomie"
+      },
+      "topic": "astronomy",
+      "lessonFile": "unit_astronomie_lessons.json"
+    },
+    {
+      "id": "unit_verben_kommunikation",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Kommunikationsverben",
+        "en": "Communication verbs",
+        "sv": "Kommunikationsverb",
+        "nl": "Communicatiewerkwoorden"
+      },
+      "topic": "verbs_communication",
+      "lessonFile": "unit_verben_kommunikation_lessons.json"
+    },
+    {
+      "id": "unit_verben_kochen",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Kochverben",
+        "en": "Cooking verbs",
+        "sv": "Matlagningsverb",
+        "nl": "Kookwerkwoorden"
+      },
+      "topic": "verbs_cooking",
+      "lessonFile": "unit_verben_kochen_lessons.json"
+    },
+    {
+      "id": "unit_substantive_3",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Substantive (3)",
+        "en": "Nouns (3)",
+        "sv": "Substantiv (3)",
+        "nl": "Zelfstandige naamwoorden (3)"
+      },
+      "topic": "nouns_3",
+      "lessonFile": "unit_substantive_3_lessons.json"
+    },
+    {
+      "id": "unit_geometrie",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Geometrische Formen",
+        "en": "Geometric shapes",
+        "sv": "Geometriska former",
+        "nl": "Geometrische vormen"
+      },
+      "topic": "geometry",
+      "lessonFile": "unit_geometrie_lessons.json"
     }
   ]
 }

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_augenbraue",
+    "am": "ቅንድብ",
+    "tr": "kinidib",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Augenbraue",
+      "en": "eyebrow",
+      "sv": "ögonbryn",
+      "nl": "wenkbrauw"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wimper",
+    "am": "የዐይን ጸጉር",
+    "tr": "yeayin tsegur",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Wimper",
+      "en": "eyelash",
+      "sv": "ögonfrans",
+      "nl": "wimper"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kinn",
+    "am": "አገጭ",
+    "tr": "agech",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "das Kinn",
+      "en": "chin",
+      "sv": "haka",
+      "nl": "kin"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wange",
+    "am": "ጉንጭ",
+    "tr": "gunich",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Wange",
+      "en": "cheek",
+      "sv": "kind",
+      "nl": "wang"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ellbogen",
+    "am": "ክርን",
+    "tr": "kirin",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "der Ellbogen",
+      "en": "elbow",
+      "sv": "armbåge",
+      "nl": "elleboog"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_knoechel",
+    "am": "ቁርጭምጭሚት",
+    "tr": "k'urichimichimit",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "der Knöchel",
+      "en": "ankle",
+      "sv": "vrist",
+      "nl": "enkel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_handgelenk",
+    "am": "የእጅ አንጓ",
+    "tr": "yeij angwa",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "das Handgelenk",
+      "en": "wrist",
+      "sv": "handled",
+      "nl": "pols"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_taille",
+    "am": "ወገብ",
+    "tr": "weegeb",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Taille",
+      "en": "waist",
+      "sv": "midja",
+      "nl": "taille"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_stirn",
+    "am": "ግንባር",
+    "tr": "ginbar",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Stirn",
+      "en": "forehead",
+      "sv": "panna",
+      "nl": "voorhoofd"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zunge",
+    "am": "ምላስ",
+    "tr": "milas",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Zunge",
+      "en": "tongue",
+      "sv": "tunga",
+      "nl": "tong"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_fingernagel",
+    "am": "ጥፍር",
+    "tr": "t'ifir",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "der Fingernagel",
+      "en": "fingernail",
+      "sv": "nagel",
+      "nl": "vingernagel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

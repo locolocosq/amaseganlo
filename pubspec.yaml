@@ -37,13 +37,11 @@ flutter:
 
   assets:
     - assets/content/
-    - assets/audio/
-    - assets/fonts/
-    - assets/icon/
 
-  # The NotoSansEthiopic font family is registered in Etappe 4a once the
-  # actual .ttf files are in assets/fonts/ - see ENTSCHEIDUNGEN.md. Until
-  # then, Ethiopic text falls back to the system font.
+  # assets/audio/, assets/fonts/ und assets/icon/ werden erst in den
+  # Etappen ergänzt, die tatsächliche Dateien dort ablegen (Ton, Fidel-Font,
+  # App-Icon) - siehe ENTSCHEIDUNGEN.md. Ein deklarierter, aber leerer/
+  # nicht existierender Asset-Ordner erzeugt sonst eine flutter-analyze-Warnung.
 
 flutter_launcher_icons:
   android: true

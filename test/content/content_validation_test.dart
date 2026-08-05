@@ -187,4 +187,9 @@ void main() {
     }
     expect(problems, isEmpty, reason: problems.join('; '));
   });
+
+  test('there are at least 1000 unique vocabulary entries', () {
+    expect(lexemesById.length, greaterThanOrEqualTo(1000),
+        reason: 'Nur ${lexemesById.length} eindeutige Vokabeln, mindestens 1000 gefordert.');
+  });
 }

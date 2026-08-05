@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lex_v_kochen_verb",
+    "am": "ማፍላት",
+    "tr": "mafilat",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "kochen, sieden lassen",
+      "en": "to boil",
+      "sv": "koka",
+      "nl": "koken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_braten",
+    "am": "መጥበስ",
+    "tr": "met'ibes",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "braten, frittieren",
+      "en": "to fry",
+      "sv": "steka",
+      "nl": "bakken (in de pan)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_roesten",
+    "am": "ማቁላት",
+    "tr": "mak'ulat",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "rösten (z.B. Kaffee)",
+      "en": "to roast (e.g. coffee)",
+      "sv": "rosta (t.ex. kaffe)",
+      "nl": "roosteren (bv. koffie)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mischen",
+    "am": "ማዋሃድ",
+    "tr": "mawahad",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "mischen",
+      "en": "to mix",
+      "sv": "blanda",
+      "nl": "mengen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_ruehren",
+    "am": "ማማሰል",
+    "tr": "mamasel",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "rühren, umrühren",
+      "en": "to stir",
+      "sv": "röra om",
+      "nl": "roeren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_schaelen",
+    "am": "መላጥ",
+    "tr": "melat'",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "schälen",
+      "en": "to peel",
+      "sv": "skala",
+      "nl": "schillen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_wuerzen",
+    "am": "ማጣፈጥ",
+    "tr": "mat'afet'",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "würzen",
+      "en": "to season",
+      "sv": "krydda",
+      "nl": "kruiden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_probieren",
+    "am": "መቅመስ",
+    "tr": "mek'imes",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "probieren, kosten",
+      "en": "to taste",
+      "sv": "smaka",
+      "nl": "proeven"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_servieren",
+    "am": "ማቅረብ",
+    "tr": "mak'ereb",
+    "pos": "verb",
+    "topic": "verbs_cooking",
+    "level": "A2",
+    "t": {
+      "de": "servieren",
+      "en": "to serve (food)",
+      "sv": "servera",
+      "nl": "serveren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_dreieck",
+    "am": "ሶስት ማዕዘን",
+    "tr": "sost ma'izen",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "das Dreieck",
+      "en": "triangle",
+      "sv": "triangel",
+      "nl": "driehoek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔺",
+    "verified": true
+  },
+  {
+    "id": "lex_quadrat",
+    "am": "ካሬ",
+    "tr": "kare",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "das Quadrat",
+      "en": "square",
+      "sv": "kvadrat",
+      "nl": "vierkant"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🟥",
+    "verified": false
+  },
+  {
+    "id": "lex_kreis",
+    "am": "ክብ ቅርጽ",
+    "tr": "kib k'irts'",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "der Kreis",
+      "en": "circle",
+      "sv": "cirkel",
+      "nl": "cirkel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⭕",
+    "verified": true
+  },
+  {
+    "id": "lex_rechteck",
+    "am": "አራት ማዕዘን",
+    "tr": "arat ma'izen",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "das Rechteck",
+      "en": "rectangle",
+      "sv": "rektangel",
+      "nl": "rechthoek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_linie",
+    "am": "መስመር",
+    "tr": "mesimer",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "die Linie",
+      "en": "line",
+      "sv": "linje",
+      "nl": "lijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_punkt_geo",
+    "am": "ነጥብ",
+    "tr": "netib",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "der Punkt",
+      "en": "point",
+      "sv": "punkt",
+      "nl": "punt"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_winkel",
+    "am": "ማዕዘን",
+    "tr": "ma'izen",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "B1",
+    "t": {
+      "de": "der Winkel",
+      "en": "angle",
+      "sv": "vinkel",
+      "nl": "hoek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

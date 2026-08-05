@@ -1,0 +1,123 @@
+[
+  {
+    "id": "unit_verben_kochen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_v_kochen_verb",
+      "lex_v_braten",
+      "lex_v_roesten",
+      "lex_v_mischen",
+      "lex_v_ruehren",
+      "lex_v_schaelen",
+      "lex_v_wuerzen",
+      "lex_v_probieren",
+      "lex_v_servieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_verben_kochen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_v_kochen_verb",
+      "lex_v_braten",
+      "lex_v_roesten",
+      "lex_v_mischen",
+      "lex_v_ruehren",
+      "lex_v_schaelen",
+      "lex_v_wuerzen",
+      "lex_v_probieren",
+      "lex_v_servieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_verben_kochen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_v_kochen_verb",
+      "lex_v_braten",
+      "lex_v_roesten",
+      "lex_v_mischen",
+      "lex_v_ruehren",
+      "lex_v_schaelen",
+      "lex_v_wuerzen",
+      "lex_v_probieren",
+      "lex_v_servieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_verben_kochen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_v_kochen_verb",
+      "lex_v_braten",
+      "lex_v_roesten",
+      "lex_v_mischen",
+      "lex_v_ruehren",
+      "lex_v_schaelen",
+      "lex_v_wuerzen",
+      "lex_v_probieren",
+      "lex_v_servieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_verben_kochen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_v_kochen_verb",
+      "lex_v_braten",
+      "lex_v_roesten",
+      "lex_v_mischen",
+      "lex_v_ruehren",
+      "lex_v_schaelen",
+      "lex_v_wuerzen",
+      "lex_v_probieren",
+      "lex_v_servieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_verben_kochen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_v_kochen_verb",
+      "lex_v_braten",
+      "lex_v_roesten",
+      "lex_v_mischen",
+      "lex_v_ruehren",
+      "lex_v_schaelen",
+      "lex_v_wuerzen",
+      "lex_v_probieren",
+      "lex_v_servieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

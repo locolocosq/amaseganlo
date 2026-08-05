@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_gefuehle_3_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_begeistert",
+      "lex_gelangweilt",
+      "lex_erleichtert",
+      "lex_dankbar",
+      "lex_motiviert",
+      "lex_selbstbewusst",
+      "lex_beschaemt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gefuehle_3_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_begeistert",
+      "lex_gelangweilt",
+      "lex_erleichtert",
+      "lex_dankbar",
+      "lex_motiviert",
+      "lex_selbstbewusst",
+      "lex_beschaemt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_3_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_begeistert",
+      "lex_gelangweilt",
+      "lex_erleichtert",
+      "lex_dankbar",
+      "lex_motiviert",
+      "lex_selbstbewusst",
+      "lex_beschaemt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_3_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_begeistert",
+      "lex_gelangweilt",
+      "lex_erleichtert",
+      "lex_dankbar",
+      "lex_motiviert",
+      "lex_selbstbewusst",
+      "lex_beschaemt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_3_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_begeistert",
+      "lex_gelangweilt",
+      "lex_erleichtert",
+      "lex_dankbar",
+      "lex_motiviert",
+      "lex_selbstbewusst",
+      "lex_beschaemt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_3_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_begeistert",
+      "lex_gelangweilt",
+      "lex_erleichtert",
+      "lex_dankbar",
+      "lex_motiviert",
+      "lex_selbstbewusst",
+      "lex_beschaemt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_geometrie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_dreieck",
+      "lex_quadrat",
+      "lex_kreis",
+      "lex_rechteck",
+      "lex_linie",
+      "lex_punkt_geo",
+      "lex_winkel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_geometrie_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_dreieck",
+      "lex_quadrat",
+      "lex_kreis",
+      "lex_rechteck",
+      "lex_linie",
+      "lex_punkt_geo",
+      "lex_winkel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_geometrie_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_dreieck",
+      "lex_quadrat",
+      "lex_kreis",
+      "lex_rechteck",
+      "lex_linie",
+      "lex_punkt_geo",
+      "lex_winkel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_geometrie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_dreieck",
+      "lex_quadrat",
+      "lex_kreis",
+      "lex_rechteck",
+      "lex_linie",
+      "lex_punkt_geo",
+      "lex_winkel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_geometrie_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_dreieck",
+      "lex_quadrat",
+      "lex_kreis",
+      "lex_rechteck",
+      "lex_linie",
+      "lex_punkt_geo",
+      "lex_winkel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_geometrie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_dreieck",
+      "lex_quadrat",
+      "lex_kreis",
+      "lex_rechteck",
+      "lex_linie",
+      "lex_punkt_geo",
+      "lex_winkel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

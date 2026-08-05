@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_gericht",
+    "am": "ፍርድ ቤት",
+    "tr": "firid bet",
+    "pos": "noun",
+    "topic": "law",
+    "level": "B1",
+    "t": {
+      "de": "das Gericht (Ort)",
+      "en": "court",
+      "sv": "domstol",
+      "nl": "rechtbank"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_vertrag",
+    "am": "ውል",
+    "tr": "wil",
+    "pos": "noun",
+    "topic": "law",
+    "level": "B1",
+    "t": {
+      "de": "der Vertrag",
+      "en": "contract",
+      "sv": "kontrakt",
+      "nl": "contract"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zeuge",
+    "am": "ምስክር",
+    "tr": "misikir",
+    "pos": "noun",
+    "topic": "law",
+    "level": "B1",
+    "t": {
+      "de": "der Zeuge",
+      "en": "witness",
+      "sv": "vittne",
+      "nl": "getuige"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_beweis",
+    "am": "ማስረጃ",
+    "tr": "masiredja",
+    "pos": "noun",
+    "topic": "law",
+    "level": "B1",
+    "t": {
+      "de": "der Beweis",
+      "en": "evidence",
+      "sv": "bevis",
+      "nl": "bewijs"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_verbrechen",
+    "am": "ወንጀል",
+    "tr": "wenijel",
+    "pos": "noun",
+    "topic": "law",
+    "level": "B1",
+    "t": {
+      "de": "das Verbrechen",
+      "en": "crime",
+      "sv": "brott",
+      "nl": "misdaad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gefaengnis",
+    "am": "እስር ቤት",
+    "tr": "isir bet",
+    "pos": "noun",
+    "topic": "law",
+    "level": "B1",
+    "t": {
+      "de": "das Gefängnis",
+      "en": "prison",
+      "sv": "fängelse",
+      "nl": "gevangenis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

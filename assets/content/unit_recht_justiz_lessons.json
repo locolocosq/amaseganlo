@@ -1,0 +1,105 @@
+[
+  {
+    "id": "unit_recht_justiz_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gericht",
+      "lex_vertrag",
+      "lex_zeuge",
+      "lex_beweis",
+      "lex_verbrechen",
+      "lex_gefaengnis"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_recht_justiz_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gericht",
+      "lex_vertrag",
+      "lex_zeuge",
+      "lex_beweis",
+      "lex_verbrechen",
+      "lex_gefaengnis"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_recht_justiz_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gericht",
+      "lex_vertrag",
+      "lex_zeuge",
+      "lex_beweis",
+      "lex_verbrechen",
+      "lex_gefaengnis"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_recht_justiz_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gericht",
+      "lex_vertrag",
+      "lex_zeuge",
+      "lex_beweis",
+      "lex_verbrechen",
+      "lex_gefaengnis"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_recht_justiz_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gericht",
+      "lex_vertrag",
+      "lex_zeuge",
+      "lex_beweis",
+      "lex_verbrechen",
+      "lex_gefaengnis"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_recht_justiz_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gericht",
+      "lex_vertrag",
+      "lex_zeuge",
+      "lex_beweis",
+      "lex_verbrechen",
+      "lex_gefaengnis"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

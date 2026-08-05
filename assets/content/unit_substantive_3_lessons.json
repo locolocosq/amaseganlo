@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_substantive_3_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_substantive_3_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

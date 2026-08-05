@@ -1,0 +1,111 @@
+[
+  {
+    "id": "unit_haushaltsgeraete_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_waschmaschine",
+      "lex_staubsauger",
+      "lex_buegeleisen",
+      "lex_mikrowelle",
+      "lex_toaster",
+      "lex_geschirrspueler",
+      "lex_ventilator"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_haushaltsgeraete_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_waschmaschine",
+      "lex_staubsauger",
+      "lex_buegeleisen",
+      "lex_mikrowelle",
+      "lex_toaster",
+      "lex_geschirrspueler",
+      "lex_ventilator"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_haushaltsgeraete_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_waschmaschine",
+      "lex_staubsauger",
+      "lex_buegeleisen",
+      "lex_mikrowelle",
+      "lex_toaster",
+      "lex_geschirrspueler",
+      "lex_ventilator"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_haushaltsgeraete_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_waschmaschine",
+      "lex_staubsauger",
+      "lex_buegeleisen",
+      "lex_mikrowelle",
+      "lex_toaster",
+      "lex_geschirrspueler",
+      "lex_ventilator"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_haushaltsgeraete_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_waschmaschine",
+      "lex_staubsauger",
+      "lex_buegeleisen",
+      "lex_mikrowelle",
+      "lex_toaster",
+      "lex_geschirrspueler",
+      "lex_ventilator"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_haushaltsgeraete_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_waschmaschine",
+      "lex_staubsauger",
+      "lex_buegeleisen",
+      "lex_mikrowelle",
+      "lex_toaster",
+      "lex_geschirrspueler",
+      "lex_ventilator"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

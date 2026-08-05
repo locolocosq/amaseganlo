@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_konto",
+    "am": "ሂሳብ (ባንክ)",
+    "tr": "hisab (bank)",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "das Konto",
+      "en": "account",
+      "sv": "konto",
+      "nl": "rekening"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_darlehen",
+    "am": "ብድር",
+    "tr": "bidir",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "das Darlehen, der Kredit",
+      "en": "loan",
+      "sv": "lån",
+      "nl": "lening"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schulden",
+    "am": "ዕዳ",
+    "tr": "i'da",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "die Schulden",
+      "en": "debt",
+      "sv": "skuld",
+      "nl": "schuld"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_steuer",
+    "am": "ግብር",
+    "tr": "gibir",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "die Steuer",
+      "en": "tax",
+      "sv": "skatt",
+      "nl": "belasting"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_budget",
+    "am": "በጀት",
+    "tr": "bejet",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "das Budget",
+      "en": "budget",
+      "sv": "budget",
+      "nl": "budget"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_versicherung",
+    "am": "ኢንሹራንስ",
+    "tr": "inshuransi",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "die Versicherung",
+      "en": "insurance",
+      "sv": "försäkring",
+      "nl": "verzekering"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zinsen",
+    "am": "ወለድ",
+    "tr": "weled",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "die Zinsen",
+      "en": "interest (finance)",
+      "sv": "ränta",
+      "nl": "rente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ersparnisse",
+    "am": "ቁጠባ",
+    "tr": "k'uteba",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "B1",
+    "t": {
+      "de": "die Ersparnisse",
+      "en": "savings",
+      "sv": "besparingar",
+      "nl": "spaargeld"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

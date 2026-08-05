@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_v_fluestern",
+    "am": "ማንሾካሾክ",
+    "tr": "manshokashok",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "flüstern",
+      "en": "to whisper",
+      "sv": "viska",
+      "nl": "fluisteren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_streiten",
+    "am": "መከራከር",
+    "tr": "mekeraker",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "streiten, diskutieren",
+      "en": "to argue",
+      "sv": "gräla, argumentera",
+      "nl": "ruzien, discussiëren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_zustimmen",
+    "am": "መስማማት",
+    "tr": "mesimamat",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "zustimmen",
+      "en": "to agree",
+      "sv": "hålla med",
+      "nl": "akkoord gaan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_widersprechen",
+    "am": "አለመስማማት",
+    "tr": "alemesimamat",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "widersprechen, nicht zustimmen",
+      "en": "to disagree",
+      "sv": "inte hålla med",
+      "nl": "het oneens zijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_beschweren",
+    "am": "ማጉረምረም",
+    "tr": "magurmerem",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "sich beschweren",
+      "en": "to complain",
+      "sv": "klaga",
+      "nl": "klagen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_entschuldigen",
+    "am": "ይቅርታ መጠየቅ",
+    "tr": "yik'irta met'eyek'",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "sich entschuldigen",
+      "en": "to apologize",
+      "sv": "be om ursäkt",
+      "nl": "zich verontschuldigen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_loben",
+    "am": "ማወደስ",
+    "tr": "mawedes",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "loben",
+      "en": "to compliment, to praise",
+      "sv": "berömma",
+      "nl": "complimenteren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_warnen",
+    "am": "ማስጠንቀቅ",
+    "tr": "masit'enk'ek'",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "warnen",
+      "en": "to warn",
+      "sv": "varna",
+      "nl": "waarschuwen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_vorschlagen",
+    "am": "ሃሳብ መስጠት",
+    "tr": "hasab mesitet",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "vorschlagen",
+      "en": "to suggest",
+      "sv": "föreslå",
+      "nl": "voorstellen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_beraten",
+    "am": "መምከር",
+    "tr": "memker",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "beraten, raten",
+      "en": "to advise",
+      "sv": "ge råd",
+      "nl": "adviseren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_ueberzeugen",
+    "am": "ማሳመን",
+    "tr": "masamen",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "überzeugen",
+      "en": "to persuade, to convince",
+      "sv": "övertyga",
+      "nl": "overtuigen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_ermutigen",
+    "am": "ማበረታት",
+    "tr": "maberetat",
+    "pos": "verb",
+    "topic": "verbs_communication",
+    "level": "B1",
+    "t": {
+      "de": "ermutigen",
+      "en": "to encourage",
+      "sv": "uppmuntra",
+      "nl": "aanmoedigen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

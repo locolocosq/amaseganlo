@@ -1,0 +1,105 @@
+[
+  {
+    "id": "unit_astronomie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_planet",
+      "lex_komet",
+      "lex_finsternis",
+      "lex_galaxie",
+      "lex_universum",
+      "lex_schwerkraft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_astronomie_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_planet",
+      "lex_komet",
+      "lex_finsternis",
+      "lex_galaxie",
+      "lex_universum",
+      "lex_schwerkraft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_astronomie_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_planet",
+      "lex_komet",
+      "lex_finsternis",
+      "lex_galaxie",
+      "lex_universum",
+      "lex_schwerkraft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_astronomie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_planet",
+      "lex_komet",
+      "lex_finsternis",
+      "lex_galaxie",
+      "lex_universum",
+      "lex_schwerkraft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_astronomie_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_planet",
+      "lex_komet",
+      "lex_finsternis",
+      "lex_galaxie",
+      "lex_universum",
+      "lex_schwerkraft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_astronomie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_planet",
+      "lex_komet",
+      "lex_finsternis",
+      "lex_galaxie",
+      "lex_universum",
+      "lex_schwerkraft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

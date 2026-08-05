@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_familie_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_cousin",
+      "lex_cousine",
+      "lex_neffe",
+      "lex_nichte",
+      "lex_zwilling",
+      "lex_witwe",
+      "lex_witwer",
+      "lex_stiefmutter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_familie_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_cousin",
+      "lex_cousine",
+      "lex_neffe",
+      "lex_nichte",
+      "lex_zwilling",
+      "lex_witwe",
+      "lex_witwer",
+      "lex_stiefmutter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_familie_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_cousin",
+      "lex_cousine",
+      "lex_neffe",
+      "lex_nichte",
+      "lex_zwilling",
+      "lex_witwe",
+      "lex_witwer",
+      "lex_stiefmutter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_familie_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_cousin",
+      "lex_cousine",
+      "lex_neffe",
+      "lex_nichte",
+      "lex_zwilling",
+      "lex_witwe",
+      "lex_witwer",
+      "lex_stiefmutter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_familie_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_cousin",
+      "lex_cousine",
+      "lex_neffe",
+      "lex_nichte",
+      "lex_zwilling",
+      "lex_witwe",
+      "lex_witwer",
+      "lex_stiefmutter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_familie_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_cousin",
+      "lex_cousine",
+      "lex_neffe",
+      "lex_nichte",
+      "lex_zwilling",
+      "lex_witwe",
+      "lex_witwer",
+      "lex_stiefmutter"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

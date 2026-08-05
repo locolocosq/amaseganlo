@@ -1,0 +1,117 @@
+[
+  {
+    "id": "unit_finanzen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_finanzen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_finanzen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_finanzen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_finanzen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_finanzen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]
