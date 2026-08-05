@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:provider/provider.dart';
 
 import 'app.dart';
@@ -36,9 +37,22 @@ void _installGlobalErrorHandlers() {
   };
 }
 
+/// Makes the bundled NotoSansEthiopic font's OFL license show up on the
+/// "Open-Source-Lizenzen" page (Abschnitt C5/Etappe 11) - `showLicensePage`
+/// only surfaces pub package licenses automatically, a manually-added font
+/// asset needs an explicit registration to fulfil the OFL's requirement to
+/// keep the license text viewable alongside the font.
+void _registerFontLicense() {
+  LicenseRegistry.addLicense(() async* {
+    final license = await rootBundle.loadString('assets/fonts/NotoSansEthiopic-OFL.txt');
+    yield LicenseEntryWithLineBreaks(['NotoSansEthiopic'], license);
+  });
+}
+
 Future<void> _runApp() async {
   WidgetsFlutterBinding.ensureInitialized();
   _installGlobalErrorHandlers();
+  _registerFontLicense();
 
   final storage = StorageService();
   await storage.init();

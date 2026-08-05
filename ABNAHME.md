@@ -47,28 +47,35 @@ Mit `flutter run -d web-server` gestartet und im Vorschau-Browser bedient:
   (1400px) - Inhalt bleibt auf 600px zentriert, kein ausuferndes Layout.
 - Dark Mode geprüft - Farben/Kontraste wirken durchgängig stimmig.
 
-## 3. Bekannte, bewusst offene Lücken
+## 3. Nachträglich geschlossene Lücken (nach der ersten Selbstabnahme)
 
-Diese drei Punkte sind unverändert seit den jeweiligen Etappen offen, weil sie
-entweder das Herunterladen einer Datei ohne vorherige Chat-Erlaubnis oder eine
-Bildgenerierungsfähigkeit erfordern würden, die mir nicht zur Verfügung steht:
+Auf Nachfrage "was fehlt noch, mach es fertig" wurden zwei der drei damals
+offenen Punkte noch geschlossen:
 
-- **App-Icon-Bild** (`assets/icon/app_icon.png`): fehlt. Der App-*Name* ist seit
-  Etappe 10 überall korrekt „Amaseganlo" (Android-Manifest, Web-Manifest,
-  `index.html`). `flutter_launcher_icons` ist in `pubspec.yaml` vorkonfiguriert
-  und kann sofort ausgeführt werden, sobald eine PNG-Datei unter diesem Pfad
-  liegt.
-- **NotoSansEthiopic-Schriftdatei**: die App nutzt für äthiopische Schrift
-  aktuell die System-Schriftart als Rückfall statt einer eingebetteten Fidel-
-  optimierten Schrift.
+- **App-Icon-Bild**: selbst erzeugt, kein Download nötig - ein `dart:ui`-Skript
+  (`tool/generate_icon_test.dart`) zeichnet ein einfaches, schriftartfreies
+  Sprechblasen-Symbol (Markenfarbe, drei Punkte) als `assets/icon/app_icon.png`,
+  `flutter_launcher_icons` hat daraus die echten Icon-Dateien für Android, iOS
+  und Web erzeugt (inkl. `remove_alpha_ios: true`, damit der App-Store-Upload
+  später nicht an einem Alpha-Kanal scheitert).
+- **NotoSansEthiopic-Schriftdatei**: mit ausdrücklicher Erlaubnis im Chat von
+  `github.com/google/fonts` (offizielles Open-Source-Repository) heruntergeladen
+  und als Variable Font unter `assets/fonts/` eingebunden, als `fontFamilyFallback`
+  im Theme registriert (lateinischer Text bleibt bei der Standardschrift, nur
+  Ge'ez-Zeichen weichen automatisch aus). Die zugehörige OFL-Lizenz ist
+  mitgeliefert und über `LicenseRegistry` an die "Open-Source-Lizenzen"-Seite
+  angehängt. Im Browser geprüft: die komplette 33×7-Fidel-Tafel rendert jetzt
+  durchgängig sauber.
+
+**Weiterhin offen** (keine Erlaubnisfrage, sondern eine echte Fähigkeitsgrenze):
+
 - **Echte Audio-Aufnahmen**: `assets/audio/manifest.json` existiert mit dem
   richtigen Schema, ist aber leer - Ton läuft ausschließlich über
   Text-to-Speech (falls eine Amharisch-Stimme auf dem Gerät verfügbar ist),
-  nie über vorproduzierte Aufnahmen.
-
-Alle drei sind rein additive Lücken: die App stürzt nicht ab, wenn diese
-Dateien fehlen (siehe jeweilige Rückfall-Logik), sie liefert nur nicht das
-optisch/akustisch vollständigste Ergebnis.
+  nie über vorproduzierte Aufnahmen. Das ist kein Berechtigungs-, sondern ein
+  Fähigkeitsproblem: ich kann keine echten Sprachaufnahmen erzeugen, unabhängig
+  von einer Erlaubnis. Die App stürzt deswegen nicht ab (siehe Rückfall-Logik
+  in `AudioService`), liefert nur nicht das akustisch vollständigste Ergebnis.
 
 Inhaltliche (nicht funktionale) Unsicherheiten bei einzelnen Vokabeln/Fidel-
 Zeichen, die eine Muttersprachlerin/ein Muttersprachler gegenlesen sollte,

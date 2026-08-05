@@ -42,8 +42,17 @@ class AppTheme {
     );
 
     return base.copyWith(
-      textTheme: base.textTheme.apply(fontSizeFactor: fontScale),
-      primaryTextTheme: base.primaryTextTheme.apply(fontSizeFactor: fontScale),
+      // fontFamilyFallback (not fontFamily) so Latin text keeps the default
+      // Material font - NotoSansEthiopic only kicks in for the Ge'ez-script
+      // characters the primary font doesn't cover (Abschnitt C5/Etappe 11).
+      textTheme: base.textTheme.apply(
+        fontSizeFactor: fontScale,
+        fontFamilyFallback: const ['NotoSansEthiopic'],
+      ),
+      primaryTextTheme: base.primaryTextTheme.apply(
+        fontSizeFactor: fontScale,
+        fontFamilyFallback: const ['NotoSansEthiopic'],
+      ),
       appBarTheme: AppBarTheme(
         backgroundColor: colorScheme.surface,
         foregroundColor: colorScheme.onSurface,
