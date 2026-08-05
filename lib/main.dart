@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -10,9 +13,32 @@ import 'state/fidel_lesson_provider.dart';
 import 'state/lesson_provider.dart';
 import 'state/progress_provider.dart';
 import 'state/settings_provider.dart';
+import 'widgets/common/crash_fallback_view.dart';
 
 Future<void> main() async {
+  // Abschnitt C6: a failing widget must never leave a blank screen behind -
+  // this replaces Flutter's default red/grey error box with a friendly one.
+  // There is no crash-reporting server (the app is fully offline per
+  // Abschnitt 1), so both this and the runZonedGuarded handler below just
+  // print to the console instead of phoning home.
+  ErrorWidget.builder = (details) => CrashFallbackView(details: details);
+
+  runZonedGuarded(() => _runApp(), (error, stack) {
+    FlutterError.reportError(FlutterErrorDetails(exception: error, stack: stack));
+  });
+}
+
+void _installGlobalErrorHandlers() {
+  final previousOnError = PlatformDispatcher.instance.onError;
+  PlatformDispatcher.instance.onError = (error, stack) {
+    FlutterError.reportError(FlutterErrorDetails(exception: error, stack: stack));
+    return previousOnError?.call(error, stack) ?? true;
+  };
+}
+
+Future<void> _runApp() async {
   WidgetsFlutterBinding.ensureInitialized();
+  _installGlobalErrorHandlers();
 
   final storage = StorageService();
   await storage.init();

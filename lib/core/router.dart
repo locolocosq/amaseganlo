@@ -1,6 +1,7 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../l10n/app_localizations.dart';
 import '../screens/fidel/fidel_lesson_complete_screen.dart';
 import '../screens/fidel/fidel_lesson_screen.dart';
 import '../screens/fidel/fidel_screen.dart';
@@ -38,6 +39,10 @@ GoRouter buildRouter({
     if (done && atOnboarding) return '/learn';
     return null;
   },
+  // Abschnitt C6: an unknown/invalid URL (bad deep link, back-button edge
+  // case) shows a friendly "go home" screen instead of go_router's default
+  // error page.
+  errorBuilder: (context, state) => _RouteNotFoundScreen(),
   routes: [
     GoRoute(
       path: '/onboarding',
@@ -168,3 +173,34 @@ GoRouter buildRouter({
     ),
   ],
 );
+
+class _RouteNotFoundScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    return Scaffold(
+      body: SafeArea(
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(Icons.error_outline, size: 56, color: Theme.of(context).colorScheme.error),
+                const SizedBox(height: 16),
+                Text(l10n.errorGenericTitle, style: Theme.of(context).textTheme.titleLarge, textAlign: TextAlign.center),
+                const SizedBox(height: 8),
+                Text(l10n.errorGenericBody, textAlign: TextAlign.center),
+                const SizedBox(height: 24),
+                FilledButton(
+                  onPressed: () => context.go('/learn'),
+                  child: Text(l10n.errorGoHome),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
