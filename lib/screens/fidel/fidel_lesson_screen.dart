@@ -102,6 +102,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
     final session = fidelProvider.session;
     final settings = context.watch<SettingsProvider>().settings;
     final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
+    final l10n = AppLocalizations.of(context);
 
     if (session == null) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
@@ -171,6 +172,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
         appBar: AppBar(
           leading: IconButton(
             icon: const Icon(Icons.close),
+            tooltip: l10n.commonClose,
             onPressed: () async {
               final shouldExit = await _confirmExit(context);
               if (shouldExit && context.mounted) {

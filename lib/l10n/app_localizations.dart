@@ -1320,6 +1320,12 @@ abstract class AppLocalizations {
   /// **'Amharic audio isn\'t available on this device'**
   String get exerciseAudioUnavailable;
 
+  /// No description provided for @audioPlayTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Play audio'**
+  String get audioPlayTooltip;
+
   /// No description provided for @introCardContinue.
   ///
   /// In en, this message translates to:

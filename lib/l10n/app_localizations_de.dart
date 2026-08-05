@@ -668,6 +668,9 @@ class AppLocalizationsDe extends AppLocalizations {
       'Ton für Amharisch ist auf diesem Gerät nicht verfügbar';
 
   @override
+  String get audioPlayTooltip => 'Ton abspielen';
+
+  @override
   String get introCardContinue => 'Weiter';
 
   @override

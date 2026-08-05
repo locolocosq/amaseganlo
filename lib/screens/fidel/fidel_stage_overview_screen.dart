@@ -30,14 +30,14 @@ class FidelStageOverviewScreen extends StatelessWidget {
 
     if (stage == null || lessons.isEmpty) {
       return Scaffold(
-        appBar: AppBar(leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.pop())),
+        appBar: AppBar(leading: IconButton(icon: const Icon(Icons.arrow_back), tooltip: l10n.commonBack, onPressed: () => context.pop())),
         body: EmptyState(icon: Icons.menu_book_outlined, title: l10n.errorContentUnit),
       );
     }
 
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.pop()),
+        leading: IconButton(icon: const Icon(Icons.arrow_back), tooltip: l10n.commonBack, onPressed: () => context.pop()),
         title: Text(stage.title[locale] ?? stage.id),
       ),
       body: ListView(

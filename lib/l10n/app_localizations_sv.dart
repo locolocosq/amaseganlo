@@ -667,6 +667,9 @@ class AppLocalizationsSv extends AppLocalizations {
       'Amhariskt ljud är inte tillgängligt på den här enheten';
 
   @override
+  String get audioPlayTooltip => 'Spela upp ljud';
+
+  @override
   String get introCardContinue => 'Fortsätt';
 
   @override

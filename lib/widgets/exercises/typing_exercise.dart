@@ -38,6 +38,7 @@ class TypingExercise extends StatelessWidget {
             child: IconButton.filled(
               iconSize: 40,
               padding: const EdgeInsets.all(20),
+              tooltip: l10n.audioPlayTooltip,
               onPressed: onPlayAudio,
               icon: const Icon(Icons.volume_up),
             ),

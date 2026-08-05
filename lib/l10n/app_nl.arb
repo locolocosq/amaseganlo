@@ -262,6 +262,7 @@
   "exerciseTrue": "Juist",
   "exerciseFalse": "Onjuist",
   "exerciseAudioUnavailable": "Amhaars geluid is niet beschikbaar op dit apparaat",
+  "audioPlayTooltip": "Geluid afspelen",
   "introCardContinue": "Verder",
 
   "lessonKindIntro": "Nieuwe woorden",

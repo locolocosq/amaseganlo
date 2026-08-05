@@ -160,6 +160,7 @@ class _LessonScreenState extends State<LessonScreen> {
         appBar: AppBar(
           leading: IconButton(
             icon: const Icon(Icons.close),
+            tooltip: l10n.commonClose,
             onPressed: () async {
               final shouldExit = await _confirmExit(context);
               if (shouldExit && context.mounted) {

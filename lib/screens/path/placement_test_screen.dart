@@ -142,6 +142,7 @@ class _PlacementTestScreenState extends State<PlacementTestScreen> {
       appBar: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.close),
+          tooltip: l10n.commonClose,
           onPressed: () => context.pop(),
         ),
         title: _phase == _Phase.testing ? null : Text(l10n.placementTestTitle),

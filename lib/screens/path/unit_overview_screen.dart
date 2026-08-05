@@ -32,6 +32,7 @@ class UnitOverviewScreen extends StatelessWidget {
         appBar: AppBar(
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
+            tooltip: l10n.commonBack,
             onPressed: () => context.pop(),
           ),
         ),

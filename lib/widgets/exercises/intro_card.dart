@@ -54,7 +54,12 @@ class IntroCard extends StatelessWidget {
           ),
         ],
         const SizedBox(height: 24),
-        IconButton.filledTonal(iconSize: 28, onPressed: onPlayAudio, icon: const Icon(Icons.volume_up)),
+        IconButton.filledTonal(
+          iconSize: 28,
+          tooltip: l10n.audioPlayTooltip,
+          onPressed: onPlayAudio,
+          icon: const Icon(Icons.volume_up),
+        ),
         const SizedBox(height: 32),
         SizedBox(
           width: double.infinity,

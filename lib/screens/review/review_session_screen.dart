@@ -99,6 +99,7 @@ class _ReviewSessionScreenState extends State<ReviewSessionScreen> {
         appBar: AppBar(
           leading: IconButton(
             icon: const Icon(Icons.close),
+            tooltip: l10n.commonClose,
             onPressed: () {
               context.read<LessonProvider>().endSession();
               context.pop();

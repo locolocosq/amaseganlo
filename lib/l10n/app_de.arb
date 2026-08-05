@@ -262,6 +262,7 @@
   "exerciseTrue": "Richtig",
   "exerciseFalse": "Falsch",
   "exerciseAudioUnavailable": "Ton für Amharisch ist auf diesem Gerät nicht verfügbar",
+  "audioPlayTooltip": "Ton abspielen",
   "introCardContinue": "Weiter",
 
   "lessonKindIntro": "Neue Wörter",

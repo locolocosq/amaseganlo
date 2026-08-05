@@ -262,6 +262,7 @@
   "exerciseTrue": "Rätt",
   "exerciseFalse": "Fel",
   "exerciseAudioUnavailable": "Amhariskt ljud är inte tillgängligt på den här enheten",
+  "audioPlayTooltip": "Spela upp ljud",
   "introCardContinue": "Fortsätt",
 
   "lessonKindIntro": "Nya ord",

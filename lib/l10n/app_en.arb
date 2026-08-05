@@ -262,6 +262,7 @@
   "exerciseTrue": "True",
   "exerciseFalse": "False",
   "exerciseAudioUnavailable": "Amharic audio isn't available on this device",
+  "audioPlayTooltip": "Play audio",
   "introCardContinue": "Continue",
 
   "lessonKindIntro": "New words",

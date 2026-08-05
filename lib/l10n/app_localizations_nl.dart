@@ -666,6 +666,9 @@ class AppLocalizationsNl extends AppLocalizations {
       'Amhaars geluid is niet beschikbaar op dit apparaat';
 
   @override
+  String get audioPlayTooltip => 'Geluid afspelen';
+
+  @override
   String get introCardContinue => 'Verder';
 
   @override

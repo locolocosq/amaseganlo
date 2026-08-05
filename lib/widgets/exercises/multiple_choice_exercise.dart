@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../core/theme.dart';
+import '../../l10n/app_localizations.dart';
 
 /// Covers wordChoiceAmToNative/NativeToAm, emojiMatch, sentenceGapChoice,
 /// listenChoice, trueFalse and (later) the Fidel sound/sign choice types -
@@ -32,6 +33,7 @@ class MultipleChoiceExercise extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -41,6 +43,7 @@ class MultipleChoiceExercise extends StatelessWidget {
             child: IconButton.filled(
               iconSize: 40,
               padding: const EdgeInsets.all(20),
+              tooltip: l10n.audioPlayTooltip,
               onPressed: onPlayAudio,
               icon: const Icon(Icons.volume_up),
             ),
