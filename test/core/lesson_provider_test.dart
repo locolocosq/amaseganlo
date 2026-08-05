@@ -8,6 +8,29 @@ import 'package:amaseganlo/models/lesson.dart';
 import 'package:amaseganlo/state/lesson_provider.dart';
 import 'package:amaseganlo/state/progress_provider.dart';
 
+// Never touches a real platform channel - see the class doc on
+// AudioService in lib/core/audio_service.dart for why tests must not
+// construct the real TtsClient/AudioPlayerClient.
+class _FakeTtsClient implements TtsClient {
+  @override
+  Future<bool> isLanguageAvailable(String language) async => false;
+  @override
+  Future<void> setLanguage(String language) async {}
+  @override
+  Future<void> setVolume(double volume) async {}
+  @override
+  Future<void> speak(String text) async {}
+  @override
+  Future<void> stop() async {}
+}
+
+class _FakeAudioPlayerClient implements AudioPlayerClient {
+  @override
+  Future<void> play(String assetPath, {required double volume}) async {}
+  @override
+  Future<void> stop() async {}
+}
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -24,7 +47,7 @@ void main() {
     repo = ContentRepository();
     await repo.load();
 
-    final audio = AudioService();
+    final audio = AudioService(tts: _FakeTtsClient(), player: _FakeAudioPlayerClient());
     await audio.init();
 
     lessonProvider = LessonProvider(content: repo, progress: progressProvider, audioService: audio);

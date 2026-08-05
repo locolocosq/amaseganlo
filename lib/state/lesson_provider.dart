@@ -295,6 +295,7 @@ class LessonProvider extends ChangeNotifier {
     }
 
     _recordSrs(exercise, correct: correct);
+    audioService.playFeedback(correct: correct);
     notifyListeners();
   }
 
@@ -322,6 +323,26 @@ class LessonProvider extends ChangeNotifier {
     if (s == null || !s.isIntro) return;
     s.currentIndex++;
     notifyListeners();
+  }
+
+  /// Plays the current intro card's word - used by the speaker button on
+  /// [IntroCard], which stays disabled (via a null callback) when no audio
+  /// is available at all.
+  Future<void> playIntroAudio() async {
+    final s = _session;
+    if (s == null || !s.isIntro || s.currentIndex >= s.introLexemes.length) return;
+    final lexeme = s.introLexemes[s.currentIndex];
+    await audioService.speakText(id: lexeme.id, amharicText: lexeme.am);
+  }
+
+  /// Plays the current exercise's underlying word/sentence - used by the
+  /// speaker button shown on listen* exercises.
+  Future<void> playCurrentAudio() async {
+    final exercise = _session?.currentExercise;
+    if (exercise == null) return;
+    final amharicText = content.lexeme(exercise.subjectId)?.am ?? content.sentence(exercise.subjectId)?.am ?? '';
+    if (amharicText.isEmpty) return;
+    await audioService.speakText(id: exercise.subjectId, amharicText: amharicText);
   }
 
   void endSession() {

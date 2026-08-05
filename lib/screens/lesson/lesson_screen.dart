@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/audio_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/exercise.dart';
 import '../../models/lesson.dart';
@@ -177,12 +178,15 @@ class _LessonScreenState extends State<LessonScreen> {
     }
     final lexeme = session.introLexemes[session.currentIndex];
     final settings = context.read<SettingsProvider>().settings;
+    final lessonProvider = context.read<LessonProvider>();
+    final audioAvailable = context.read<AudioService>().isAmharicAvailable;
     return IntroCard(
       key: ValueKey('intro-${lexeme.id}'),
       lexeme: lexeme,
       locale: locale,
       showFidel: settings.fidelDisplayMode != FidelDisplayMode.never,
-      onContinue: () => context.read<LessonProvider>().nextIntroCard(),
+      onPlayAudio: audioAvailable ? () => lessonProvider.playIntroAudio() : null,
+      onContinue: () => lessonProvider.nextIntroCard(),
     );
   }
 
@@ -243,7 +247,7 @@ class _LessonScreenState extends State<LessonScreen> {
         selectedOption: _selectedOption,
         answered: session.answered,
         isAudioPrompt: exercise.isAudioPrompt,
-        onPlayAudio: () {},
+        onPlayAudio: () => lessonProvider.playCurrentAudio(),
         onSelect: (value) {
           setState(() => _selectedOption = value);
           lessonProvider.submitChoiceOrBuildAnswer(_originalFor(value, exercise, locale));
@@ -258,7 +262,7 @@ class _LessonScreenState extends State<LessonScreen> {
         availableChunks: _availableChunks,
         answered: session.answered,
         isAudioPrompt: exercise.isAudioPrompt,
-        onPlayAudio: () {},
+        onPlayAudio: () => lessonProvider.playCurrentAudio(),
         onTapAvailable: (index) {
           setState(() {
             _selectedChunks = [..._selectedChunks, _availableChunks[index]];
@@ -280,7 +284,7 @@ class _LessonScreenState extends State<LessonScreen> {
       controller: _textController,
       answered: session.answered,
       isAudioPrompt: exercise.isAudioPrompt,
-      onPlayAudio: () {},
+      onPlayAudio: () => lessonProvider.playCurrentAudio(),
       onSubmit: () => lessonProvider.submitTypedAnswer(_textController.text, locale),
     );
   }

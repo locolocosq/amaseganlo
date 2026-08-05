@@ -37,11 +37,15 @@ flutter:
 
   assets:
     - assets/content/
+    - assets/audio/
 
-  # assets/audio/, assets/fonts/ und assets/icon/ werden erst in den
-  # Etappen ergänzt, die tatsächliche Dateien dort ablegen (Ton, Fidel-Font,
-  # App-Icon) - siehe ENTSCHEIDUNGEN.md. Ein deklarierter, aber leerer/
-  # nicht existierender Asset-Ordner erzeugt sonst eine flutter-analyze-Warnung.
+  # assets/fonts/ und assets/icon/ werden erst in den Etappen ergänzt, die
+  # tatsächliche Dateien dort ablegen (Fidel-Font, App-Icon) - siehe
+  # ENTSCHEIDUNGEN.md. Ein deklarierter, aber leerer/nicht existierender
+  # Asset-Ordner erzeugt sonst eine flutter-analyze-Warnung.
+  # assets/audio/ enthält bisher nur manifest.json (noch ohne echte
+  # Audiodateien, siehe ENTSCHEIDUNGEN.md Etappe 7) - der Ordner selbst
+  # existiert also und darf deklariert werden.
 
 flutter_launcher_icons:
   android: true

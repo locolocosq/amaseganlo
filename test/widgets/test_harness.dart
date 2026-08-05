@@ -15,6 +15,31 @@ import 'package:amaseganlo/state/lesson_provider.dart';
 import 'package:amaseganlo/state/progress_provider.dart';
 import 'package:amaseganlo/state/settings_provider.dart';
 
+/// A `TtsClient`/`AudioPlayerClient` that never touches a real platform
+/// channel - see the class doc on `AudioService` in `audio_service.dart`
+/// for why tests must not construct the real ones.
+class FakeTtsClient implements TtsClient {
+  @override
+  Future<bool> isLanguageAvailable(String language) async => false;
+  @override
+  Future<void> setLanguage(String language) async {}
+  @override
+  Future<void> setVolume(double volume) async {}
+  @override
+  Future<void> speak(String text) async {}
+  @override
+  Future<void> stop() async {}
+}
+
+class FakeAudioPlayerClient implements AudioPlayerClient {
+  @override
+  Future<void> play(String assetPath, {required double volume}) async {}
+  @override
+  Future<void> stop() async {}
+}
+
+AudioService _fakeAudioService() => AudioService(tts: FakeTtsClient(), player: FakeAudioPlayerClient());
+
 /// Shared setup for widget tests. Each test that uses this should live in
 /// its own file - flutter_test gives every *file* a fresh process, which
 /// avoids cross-test interference between independently-pumped app trees
@@ -24,7 +49,7 @@ Future<void> pumpTestApp(WidgetTester tester, {Map<String, Object> initialPrefs 
   final storage = StorageService();
   await storage.init();
 
-  final audioService = AudioService();
+  final audioService = _fakeAudioService();
   await audioService.init();
 
   final contentProvider = ContentProvider();
@@ -57,7 +82,7 @@ Future<void> pumpTestLesson(WidgetTester tester, {required String unitId, requir
   final storage = StorageService();
   await storage.init();
 
-  final audioService = AudioService();
+  final audioService = _fakeAudioService();
   await audioService.init();
 
   final contentProvider = ContentProvider();

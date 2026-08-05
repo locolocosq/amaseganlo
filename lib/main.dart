@@ -26,10 +26,19 @@ Future<void> main() async {
 
   final progressProvider = ProgressProvider(storage);
 
+  final settingsProvider = SettingsProvider(storage);
+  void syncAudioSettings() {
+    audioService.soundEnabled = settingsProvider.settings.soundEnabled;
+    audioService.volume = settingsProvider.settings.volume;
+  }
+
+  syncAudioSettings();
+  settingsProvider.addListener(syncAudioSettings);
+
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => SettingsProvider(storage)),
+        ChangeNotifierProvider.value(value: settingsProvider),
         ChangeNotifierProvider.value(value: contentProvider),
         ChangeNotifierProvider.value(value: progressProvider),
         Provider<AudioService>.value(value: audioService),

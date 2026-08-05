@@ -220,7 +220,7 @@ class _ReviewSessionScreenState extends State<ReviewSessionScreen> {
         selectedOption: _selectedOption,
         answered: session.answered,
         isAudioPrompt: exercise.isAudioPrompt,
-        onPlayAudio: () {},
+        onPlayAudio: () => lessonProvider.playCurrentAudio(),
         onSelect: (value) {
           setState(() => _selectedOption = value);
           lessonProvider.submitChoiceOrBuildAnswer(value);
@@ -235,7 +235,7 @@ class _ReviewSessionScreenState extends State<ReviewSessionScreen> {
         availableChunks: _availableChunks,
         answered: session.answered,
         isAudioPrompt: exercise.isAudioPrompt,
-        onPlayAudio: () {},
+        onPlayAudio: () => lessonProvider.playCurrentAudio(),
         onTapAvailable: (index) {
           setState(() {
             _selectedChunks = [..._selectedChunks, _availableChunks[index]];
@@ -257,7 +257,7 @@ class _ReviewSessionScreenState extends State<ReviewSessionScreen> {
       controller: _textController,
       answered: session.answered,
       isAudioPrompt: exercise.isAudioPrompt,
-      onPlayAudio: () {},
+      onPlayAudio: () => lessonProvider.playCurrentAudio(),
       onSubmit: () => lessonProvider.submitTypedAnswer(_textController.text, locale),
     );
   }
