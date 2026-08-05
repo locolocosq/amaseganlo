@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/language_names.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/settings.dart';
@@ -38,7 +39,7 @@ class SettingsScreen extends StatelessWidget {
               items: [
                 DropdownMenuItem(value: null, child: Text(l10n.appearanceSystem)),
                 for (final code in supportedLocaleCodes)
-                  DropdownMenuItem(value: code, child: Text(_languageName(code))),
+                  DropdownMenuItem(value: code, child: Text(languageDisplayName(code))),
               ],
               onChanged: (code) {
                 settingsProvider.setLocaleCode(code);
@@ -260,21 +261,6 @@ class SettingsScreen extends StatelessWidget {
         ],
       ),
     );
-  }
-
-  String _languageName(String code) {
-    switch (code) {
-      case 'de':
-        return 'Deutsch';
-      case 'en':
-        return 'English';
-      case 'sv':
-        return 'Svenska';
-      case 'nl':
-        return 'Nederlands';
-      default:
-        return code;
-    }
   }
 
   Future<void> _confirmReset(BuildContext context, AppLocalizations l10n) async {

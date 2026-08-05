@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
@@ -6,8 +8,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:amaseganlo/app.dart';
 import 'package:amaseganlo/core/audio_service.dart';
+import 'package:amaseganlo/core/router.dart';
 import 'package:amaseganlo/core/storage_service.dart';
 import 'package:amaseganlo/l10n/app_localizations.dart';
+import 'package:amaseganlo/models/settings.dart';
 import 'package:amaseganlo/screens/lesson/lesson_screen.dart';
 import 'package:amaseganlo/state/content_provider.dart';
 import 'package:amaseganlo/state/fidel_lesson_provider.dart';
@@ -38,14 +42,40 @@ class FakeAudioPlayerClient implements AudioPlayerClient {
   Future<void> stop() async {}
 }
 
-AudioService _fakeAudioService() => AudioService(tts: FakeTtsClient(), player: FakeAudioPlayerClient());
+AudioService _fakeAudioService() =>
+    AudioService(tts: FakeTtsClient(), player: FakeAudioPlayerClient());
 
 /// Shared setup for widget tests. Each test that uses this should live in
 /// its own file - flutter_test gives every *file* a fresh process, which
 /// avoids cross-test interference between independently-pumped app trees
 /// within a single file.
-Future<void> pumpTestApp(WidgetTester tester, {Map<String, Object> initialPrefs = const {}}) async {
-  SharedPreferences.setMockInitialValues(initialPrefs);
+///
+/// Onboarding is forced to "completed" by default regardless of what
+/// [initialPrefs] provides - no current test targets the onboarding-redirect
+/// state through this helper, and every existing test's tap sequences
+/// assume it's already landed on the main app shell. Pass
+/// `forceOnboardingCompleted: false` to test the onboarding flow itself.
+Future<void> pumpTestApp(
+  WidgetTester tester, {
+  Map<String, Object> initialPrefs = const {},
+  bool forceOnboardingCompleted = true,
+}) async {
+  final prefs = Map<String, Object>.from(initialPrefs);
+  final existingSettingsJson = prefs['amaseganlo.settings'] as String?;
+  final baseSettings = existingSettingsJson != null
+      ? AppSettings.fromJson(
+          jsonDecode(existingSettingsJson) as Map<String, dynamic>,
+        )
+      : const AppSettings();
+  if (forceOnboardingCompleted) {
+    prefs['amaseganlo.settings'] = jsonEncode(
+      baseSettings.copyWith(onboardingCompleted: true).toJson(),
+    );
+  } else if (existingSettingsJson == null) {
+    prefs['amaseganlo.settings'] = jsonEncode(baseSettings.toJson());
+  }
+
+  SharedPreferences.setMockInitialValues(prefs);
   final storage = StorageService();
   await storage.init();
 
@@ -56,28 +86,44 @@ Future<void> pumpTestApp(WidgetTester tester, {Map<String, Object> initialPrefs 
   await contentProvider.load();
 
   final progressProvider = ProgressProvider(storage);
+  final settingsProvider = SettingsProvider(storage);
+  final router = buildRouter(
+    onboardingCompleted: () => settingsProvider.settings.onboardingCompleted,
+    refreshListenable: settingsProvider,
+  );
 
   await tester.pumpWidget(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => SettingsProvider(storage)),
+        ChangeNotifierProvider.value(value: settingsProvider),
         ChangeNotifierProvider.value(value: contentProvider),
         ChangeNotifierProvider.value(value: progressProvider),
         Provider<AudioService>.value(value: audioService),
         ChangeNotifierProvider(
-          create: (_) => LessonProvider(content: contentProvider.repository, progress: progressProvider, audioService: audioService),
+          create: (_) => LessonProvider(
+            content: contentProvider.repository,
+            progress: progressProvider,
+            audioService: audioService,
+          ),
         ),
         ChangeNotifierProvider(
-          create: (_) => FidelLessonProvider(content: contentProvider.repository, progress: progressProvider),
+          create: (_) => FidelLessonProvider(
+            content: contentProvider.repository,
+            progress: progressProvider,
+          ),
         ),
       ],
-      child: const AmaseganloApp(),
+      child: AmaseganloApp(router: router),
     ),
   );
   await tester.pumpAndSettle();
 }
 
-Future<void> pumpTestLesson(WidgetTester tester, {required String unitId, required String lessonId}) async {
+Future<void> pumpTestLesson(
+  WidgetTester tester, {
+  required String unitId,
+  required String lessonId,
+}) async {
   SharedPreferences.setMockInitialValues({});
   final storage = StorageService();
   await storage.init();
@@ -93,7 +139,10 @@ Future<void> pumpTestLesson(WidgetTester tester, {required String unitId, requir
   final router = GoRouter(
     initialLocation: '/lesson/$unitId/$lessonId',
     routes: [
-      GoRoute(path: '/learn', builder: (context, state) => const Scaffold(body: Text('home'))),
+      GoRoute(
+        path: '/learn',
+        builder: (context, state) => const Scaffold(body: Text('home')),
+      ),
       GoRoute(
         path: '/lesson/:unitId/:lessonId',
         builder: (context, state) => LessonScreen(
@@ -116,10 +165,17 @@ Future<void> pumpTestLesson(WidgetTester tester, {required String unitId, requir
         ChangeNotifierProvider.value(value: progressProvider),
         Provider<AudioService>.value(value: audioService),
         ChangeNotifierProvider(
-          create: (_) => LessonProvider(content: contentProvider.repository, progress: progressProvider, audioService: audioService),
+          create: (_) => LessonProvider(
+            content: contentProvider.repository,
+            progress: progressProvider,
+            audioService: audioService,
+          ),
         ),
         ChangeNotifierProvider(
-          create: (_) => FidelLessonProvider(content: contentProvider.repository, progress: progressProvider),
+          create: (_) => FidelLessonProvider(
+            content: contentProvider.repository,
+            progress: progressProvider,
+          ),
         ),
       ],
       child: MaterialApp.router(

@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import 'app.dart';
 import 'core/audio_service.dart';
+import 'core/router.dart';
 import 'core/storage_service.dart';
 import 'state/content_provider.dart';
 import 'state/fidel_lesson_provider.dart';
@@ -35,6 +36,11 @@ Future<void> main() async {
   syncAudioSettings();
   settingsProvider.addListener(syncAudioSettings);
 
+  final router = buildRouter(
+    onboardingCompleted: () => settingsProvider.settings.onboardingCompleted,
+    refreshListenable: settingsProvider,
+  );
+
   runApp(
     MultiProvider(
       providers: [
@@ -56,7 +62,7 @@ Future<void> main() async {
           ),
         ),
       ],
-      child: const AmaseganloApp(),
+      child: AmaseganloApp(router: router),
     ),
   );
 }

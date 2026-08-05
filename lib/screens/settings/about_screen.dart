@@ -3,6 +3,11 @@ import 'package:go_router/go_router.dart';
 
 import '../../l10n/app_localizations.dart';
 
+const _appVersion = '1.0.0';
+// No CI pipeline stamps a real build timestamp yet - set by hand at release
+// time, same as _appVersion.
+const _buildDate = '2026-08-05';
+
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
@@ -11,7 +16,10 @@ class AboutScreen extends StatelessWidget {
     final l10n = AppLocalizations.of(context);
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.pop()),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => context.pop(),
+        ),
         title: Text(l10n.settingsAbout),
       ),
       body: ListView(
@@ -20,11 +28,24 @@ class AboutScreen extends StatelessWidget {
           Center(
             child: Column(
               children: [
-                Icon(Icons.translate, size: 56, color: Theme.of(context).colorScheme.primary),
+                Icon(
+                  Icons.translate,
+                  size: 56,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
                 const SizedBox(height: 12),
-                Text(l10n.appTitle, style: Theme.of(context).textTheme.headlineSmall),
+                Text(
+                  l10n.appTitle,
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
                 const SizedBox(height: 4),
-                Text('${l10n.aboutVersion} 1.0.0'),
+                Text('${l10n.aboutVersion} $_appVersion'),
+                Text(
+                  '${l10n.aboutBuildDate}: $_buildDate',
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
+                ),
               ],
             ),
           ),
@@ -42,7 +63,10 @@ class AboutScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(l10n.aboutShortcuts, style: Theme.of(context).textTheme.titleMedium),
+                  Text(
+                    l10n.aboutShortcuts,
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
                   const SizedBox(height: 8),
                   Text(l10n.aboutShortcutsAnswer),
                   Text(l10n.aboutShortcutsNext),
@@ -60,7 +84,7 @@ class AboutScreen extends StatelessWidget {
             onTap: () => showLicensePage(
               context: context,
               applicationName: l10n.appTitle,
-              applicationVersion: '1.0.0',
+              applicationVersion: _appVersion,
             ),
           ),
         ],
