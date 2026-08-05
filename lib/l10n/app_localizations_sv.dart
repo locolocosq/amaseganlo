@@ -390,6 +390,37 @@ class AppLocalizationsSv extends AppLocalizations {
   String get reviewEmpty => 'Inget att repetera just nu. Bra jobbat!';
 
   @override
+  String reviewWordCount(int count) {
+    return '$count ord';
+  }
+
+  @override
+  String get reviewWordCountOne => '1 ord';
+
+  @override
+  String get reviewStart => 'Kör igång';
+
+  @override
+  String get reviewNoWordsForSession => 'Det finns inga ord för detta just nu.';
+
+  @override
+  String get reviewFreePracticeChooseLevel => 'Välj nivå';
+
+  @override
+  String get reviewFreePracticeAllLevels => 'Alla nivåer';
+
+  @override
+  String get reviewSessionCompleteTitle => 'Genomgång klar!';
+
+  @override
+  String reviewSessionCompleteXp(int xp) {
+    return '+$xp XP';
+  }
+
+  @override
+  String get reviewSessionCompleteBody => 'Fortsätt så!';
+
+  @override
   String get dictionaryTitle => 'Ordbok';
 
   @override
@@ -400,6 +431,9 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get dictionaryEmpty => 'Inga ord inlärda i detta ämne än.';
+
+  @override
+  String get dictionarySearchNoResults => 'Inga träffar.';
 
   @override
   String get profileTitle => 'Profil';
@@ -435,6 +469,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get profileBadges => 'Utmärkelser';
 
   @override
+  String get profileBadgesEmpty => 'Inga utmärkelser än - kom igång!';
+
+  @override
   String get profileSkippedUnits => 'Överhoppade kapitel';
 
   @override
@@ -446,6 +483,54 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get profileAssessmentTest => 'Placeringstest';
+
+  @override
+  String get profileBadgeFirstLessonName => 'Första stegen';
+
+  @override
+  String get profileBadgeFirstLessonDesc => 'Slutför din första lektion.';
+
+  @override
+  String get profileBadgeStreak7Name => 'En vecka igång';
+
+  @override
+  String get profileBadgeStreak7Desc => 'Nå en 7-dagars serie.';
+
+  @override
+  String get profileBadgeStreak30Name => 'En månad igång';
+
+  @override
+  String get profileBadgeStreak30Desc => 'Nå en 30-dagars serie.';
+
+  @override
+  String get profileBadgeWords100Name => 'Växande ordförråd';
+
+  @override
+  String get profileBadgeWords100Desc => 'Lär dig 100 ord.';
+
+  @override
+  String get profileBadgeWords500Name => 'Pratkvarn';
+
+  @override
+  String get profileBadgeWords500Desc => 'Lär dig 500 ord.';
+
+  @override
+  String get profileBadgeFidelMasterName => 'Fidel-mästare';
+
+  @override
+  String get profileBadgeFidelMasterDesc => 'Lär dig alla 231 Fidel-tecken.';
+
+  @override
+  String get profileBadgeXp1000Name => '1000 XP';
+
+  @override
+  String get profileBadgeXp1000Desc => 'Samla totalt 1000 XP.';
+
+  @override
+  String get profileBadgeFirstCrownName => 'Första kronan';
+
+  @override
+  String get profileBadgeFirstCrownDesc => 'Klara ditt första kapitel-test.';
 
   @override
   String get errorGenericTitle => 'Något gick fel';

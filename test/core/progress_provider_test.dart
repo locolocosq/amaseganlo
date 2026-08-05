@@ -96,5 +96,58 @@ void main() {
       final provider2 = ProgressProvider(storage);
       expect(provider2.progress.xpTotal, 42);
     });
+
+    test('difficultLexemeIds only returns words stuck low that have been missed at least once, worst first', () async {
+      final provider = await _freshProvider();
+      // Brand new, never answered wrong - low box but not "difficult".
+      await provider.recordLexemeAnswer('lex_new', correct: true);
+      // Missed once, still low.
+      await provider.recordLexemeAnswer('lex_shaky', correct: false);
+      // Missed repeatedly, still low - should rank first.
+      await provider.recordLexemeAnswer('lex_worst', correct: false);
+      await provider.recordLexemeAnswer('lex_worst', correct: true);
+      await provider.recordLexemeAnswer('lex_worst', correct: false);
+      await provider.recordLexemeAnswer('lex_worst', correct: false);
+      // Wrong before but climbed out of the bottom boxes - should not appear.
+      await provider.recordLexemeAnswer('lex_recovered', correct: false);
+      for (var i = 0; i < 6; i++) {
+        await provider.recordLexemeAnswer('lex_recovered', correct: true);
+      }
+
+      final difficult = provider.difficultLexemeIds();
+      expect(difficult.first, 'lex_worst');
+      expect(difficult, contains('lex_shaky'));
+      expect(difficult, isNot(contains('lex_new')));
+      expect(difficult, isNot(contains('lex_recovered')));
+    });
+
+    test('learnedLexemeIds returns every word with a card, regardless of box', () async {
+      final provider = await _freshProvider();
+      await provider.recordLexemeAnswer('lex_a', correct: true);
+      await provider.recordLexemeAnswer('lex_b', correct: false);
+
+      expect(provider.learnedLexemeIds().toSet(), {'lex_a', 'lex_b'});
+    });
+
+    test('overallAccuracy is 0 with nothing answered and reflects the correct/wrong ratio otherwise', () async {
+      final provider = await _freshProvider();
+      expect(provider.overallAccuracy, 0);
+
+      await provider.recordLexemeAnswer('lex_a', correct: true);
+      await provider.recordLexemeAnswer('lex_a', correct: true);
+      await provider.recordLexemeAnswer('lex_a', correct: false);
+
+      expect(provider.overallAccuracy, closeTo(2 / 3, 0.0001));
+    });
+
+    test('xpForLastDays returns each day\'s XP oldest first, 0 for days with no activity', () async {
+      final provider = await _freshProvider();
+      final today = DateTime(2026, 1, 10);
+      await provider.addXp(20, dailyGoalXp: 50, now: today.subtract(const Duration(days: 2)));
+      await provider.addXp(15, dailyGoalXp: 50, now: today);
+
+      final last3 = provider.xpForLastDays(3, today);
+      expect(last3, [20, 0, 15]);
+    });
   });
 }

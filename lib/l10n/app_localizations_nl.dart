@@ -389,6 +389,38 @@ class AppLocalizationsNl extends AppLocalizations {
   String get reviewEmpty => 'Nu niets te herhalen. Goed bezig!';
 
   @override
+  String reviewWordCount(int count) {
+    return '$count woorden';
+  }
+
+  @override
+  String get reviewWordCountOne => '1 woord';
+
+  @override
+  String get reviewStart => 'Laten we gaan';
+
+  @override
+  String get reviewNoWordsForSession =>
+      'Hier zijn momenteel geen woorden voor.';
+
+  @override
+  String get reviewFreePracticeChooseLevel => 'Kies een niveau';
+
+  @override
+  String get reviewFreePracticeAllLevels => 'Alle niveaus';
+
+  @override
+  String get reviewSessionCompleteTitle => 'Herhaling voltooid!';
+
+  @override
+  String reviewSessionCompleteXp(int xp) {
+    return '+$xp XP';
+  }
+
+  @override
+  String get reviewSessionCompleteBody => 'Ga zo door!';
+
+  @override
   String get dictionaryTitle => 'Woordenboek';
 
   @override
@@ -399,6 +431,9 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get dictionaryEmpty => 'Nog geen woorden geleerd in dit onderwerp.';
+
+  @override
+  String get dictionarySearchNoResults => 'Geen resultaten.';
 
   @override
   String get profileTitle => 'Profiel';
@@ -434,6 +469,9 @@ class AppLocalizationsNl extends AppLocalizations {
   String get profileBadges => 'Badges';
 
   @override
+  String get profileBadgesEmpty => 'Nog geen badges - begin nu!';
+
+  @override
   String get profileSkippedUnits => 'Overgeslagen hoofdstukken';
 
   @override
@@ -445,6 +483,54 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get profileAssessmentTest => 'Instaptoets';
+
+  @override
+  String get profileBadgeFirstLessonName => 'Eerste stappen';
+
+  @override
+  String get profileBadgeFirstLessonDesc => 'Voltooi je eerste les.';
+
+  @override
+  String get profileBadgeStreak7Name => 'Eén week bezig';
+
+  @override
+  String get profileBadgeStreak7Desc => 'Bereik een reeks van 7 dagen.';
+
+  @override
+  String get profileBadgeStreak30Name => 'Eén maand bezig';
+
+  @override
+  String get profileBadgeStreak30Desc => 'Bereik een reeks van 30 dagen.';
+
+  @override
+  String get profileBadgeWords100Name => 'Groeiende woordenschat';
+
+  @override
+  String get profileBadgeWords100Desc => 'Leer 100 woorden.';
+
+  @override
+  String get profileBadgeWords500Name => 'Kletskous';
+
+  @override
+  String get profileBadgeWords500Desc => 'Leer 500 woorden.';
+
+  @override
+  String get profileBadgeFidelMasterName => 'Fidel-meester';
+
+  @override
+  String get profileBadgeFidelMasterDesc => 'Leer alle 231 Fidel-tekens.';
+
+  @override
+  String get profileBadgeXp1000Name => '1000 XP';
+
+  @override
+  String get profileBadgeXp1000Desc => 'Verzamel in totaal 1000 XP.';
+
+  @override
+  String get profileBadgeFirstCrownName => 'Eerste kroon';
+
+  @override
+  String get profileBadgeFirstCrownDesc => 'Behaal je eerste hoofdstuktoets.';
 
   @override
   String get errorGenericTitle => 'Er is iets misgegaan';

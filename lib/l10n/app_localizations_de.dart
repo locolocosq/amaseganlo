@@ -391,6 +391,37 @@ class AppLocalizationsDe extends AppLocalizations {
   String get reviewEmpty => 'Gerade nichts zu wiederholen. Weiter so!';
 
   @override
+  String reviewWordCount(int count) {
+    return '$count Wörter';
+  }
+
+  @override
+  String get reviewWordCountOne => '1 Wort';
+
+  @override
+  String get reviewStart => 'Los geht\'s';
+
+  @override
+  String get reviewNoWordsForSession => 'Dafür gibt es aktuell keine Wörter.';
+
+  @override
+  String get reviewFreePracticeChooseLevel => 'Stufe wählen';
+
+  @override
+  String get reviewFreePracticeAllLevels => 'Alle Stufen';
+
+  @override
+  String get reviewSessionCompleteTitle => 'Wiederholung abgeschlossen!';
+
+  @override
+  String reviewSessionCompleteXp(int xp) {
+    return '+$xp XP';
+  }
+
+  @override
+  String get reviewSessionCompleteBody => 'Weiter so!';
+
+  @override
   String get dictionaryTitle => 'Wörterbuch';
 
   @override
@@ -401,6 +432,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get dictionaryEmpty => 'In diesem Thema noch keine Wörter gelernt.';
+
+  @override
+  String get dictionarySearchNoResults => 'Keine Treffer.';
 
   @override
   String get profileTitle => 'Profil';
@@ -436,6 +470,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get profileBadges => 'Abzeichen';
 
   @override
+  String get profileBadgesEmpty => 'Noch keine Abzeichen - leg los!';
+
+  @override
   String get profileSkippedUnits => 'Übersprungene Kapitel';
 
   @override
@@ -447,6 +484,55 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get profileAssessmentTest => 'Einstufungstest';
+
+  @override
+  String get profileBadgeFirstLessonName => 'Erste Schritte';
+
+  @override
+  String get profileBadgeFirstLessonDesc => 'Schließe deine erste Lektion ab.';
+
+  @override
+  String get profileBadgeStreak7Name => 'Eine Woche dabei';
+
+  @override
+  String get profileBadgeStreak7Desc => 'Erreiche eine 7-Tage-Serie.';
+
+  @override
+  String get profileBadgeStreak30Name => 'Ein Monat dabei';
+
+  @override
+  String get profileBadgeStreak30Desc => 'Erreiche eine 30-Tage-Serie.';
+
+  @override
+  String get profileBadgeWords100Name => 'Wortschatz wächst';
+
+  @override
+  String get profileBadgeWords100Desc => 'Lerne 100 Wörter.';
+
+  @override
+  String get profileBadgeWords500Name => 'Vielredner';
+
+  @override
+  String get profileBadgeWords500Desc => 'Lerne 500 Wörter.';
+
+  @override
+  String get profileBadgeFidelMasterName => 'Fidel-Meister';
+
+  @override
+  String get profileBadgeFidelMasterDesc => 'Lerne alle 231 Fidel-Zeichen.';
+
+  @override
+  String get profileBadgeXp1000Name => '1000 XP';
+
+  @override
+  String get profileBadgeXp1000Desc => 'Sammle insgesamt 1000 XP.';
+
+  @override
+  String get profileBadgeFirstCrownName => 'Erste Krone';
+
+  @override
+  String get profileBadgeFirstCrownDesc =>
+      'Bestehe deinen ersten Kapitel-Test.';
 
   @override
   String get errorGenericTitle => 'Da ist etwas schiefgelaufen';

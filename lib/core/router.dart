@@ -10,7 +10,9 @@ import '../screens/lesson/lesson_screen.dart';
 import '../screens/path/path_screen.dart';
 import '../screens/path/unit_overview_screen.dart';
 import '../screens/profile/profile_screen.dart';
+import '../screens/review/dictionary_screen.dart';
 import '../screens/review/review_screen.dart';
+import '../screens/review/review_session_screen.dart';
 import '../screens/settings/about_screen.dart';
 import '../screens/settings/settings_screen.dart';
 import '../widgets/common/app_shell.dart';
@@ -50,7 +52,20 @@ final GoRouter appRouter = GoRouter(
           ),
         ]),
         StatefulShellBranch(routes: [
-          GoRoute(path: '/review', builder: (context, state) => const ReviewScreen()),
+          GoRoute(
+            path: '/review',
+            builder: (context, state) => const ReviewScreen(),
+            routes: [
+              GoRoute(
+                path: 'dictionary',
+                builder: (context, state) => const DictionaryScreen(),
+              ),
+              GoRoute(
+                path: 'session',
+                builder: (context, state) => ReviewSessionScreen(lexemeIds: (state.extra as List<String>?) ?? const []),
+              ),
+            ],
+          ),
         ]),
         StatefulShellBranch(routes: [
           GoRoute(path: '/profile', builder: (context, state) => const ProfileScreen()),

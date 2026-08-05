@@ -177,7 +177,40 @@ class ProgressProvider extends ChangeNotifier {
     return _progress.lexemeCards.entries.where((e) => Leitner.isDue(e.value, now)).map((e) => e.key).toList();
   }
 
+  /// Words that are still stuck in the bottom two Leitner boxes and have
+  /// been answered wrong at least once, worst-first - the "Schwierige
+  /// Wörter" review mode from Abschnitt 9.
+  List<String> difficultLexemeIds() {
+    final entries = _progress.lexemeCards.entries.where((e) => e.value.incorrectCount > 0 && e.value.box <= 1).toList()
+      ..sort((a, b) => b.value.incorrectCount.compareTo(a.value.incorrectCount));
+    return entries.map((e) => e.key).toList();
+  }
+
+  /// Every word the learner has already been introduced to - the pool
+  /// "freies Üben" draws from (optionally filtered by level in the UI).
+  List<String> learnedLexemeIds() => _progress.lexemeCards.keys.toList();
+
   int get wordsLearned => _progress.lexemeCards.length;
   int get wordsMastered => _progress.lexemeCards.values.where((c) => c.box == Leitner.masteredBox).length;
   int get fidelCharsLearned => _progress.fidelCards.length;
+  int get daysLearned => _progress.xpByDate.length;
+
+  /// Share of correct answers across every word and Fidel sign ever
+  /// answered, 0 if nothing has been answered yet.
+  double get overallAccuracy {
+    var correct = 0;
+    var total = 0;
+    for (final card in [..._progress.lexemeCards.values, ..._progress.fidelCards.values]) {
+      correct += card.correctCount;
+      total += card.correctCount + card.incorrectCount;
+    }
+    return total == 0 ? 0 : correct / total;
+  }
+
+  /// XP earned on each of the last [days] calendar days, oldest first.
+  List<int> xpForLastDays(int days, DateTime now) {
+    return [
+      for (var i = days - 1; i >= 0; i--) xpEarnedToday(now.subtract(Duration(days: i))),
+    ];
+  }
 }

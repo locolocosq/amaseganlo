@@ -392,6 +392,38 @@ class AppLocalizationsEn extends AppLocalizations {
       'Nothing to review right now. Great job keeping up!';
 
   @override
+  String reviewWordCount(int count) {
+    return '$count words';
+  }
+
+  @override
+  String get reviewWordCountOne => '1 word';
+
+  @override
+  String get reviewStart => 'Let\'s go';
+
+  @override
+  String get reviewNoWordsForSession =>
+      'There are no words for this right now.';
+
+  @override
+  String get reviewFreePracticeChooseLevel => 'Choose a level';
+
+  @override
+  String get reviewFreePracticeAllLevels => 'All levels';
+
+  @override
+  String get reviewSessionCompleteTitle => 'Review complete!';
+
+  @override
+  String reviewSessionCompleteXp(int xp) {
+    return '+$xp XP';
+  }
+
+  @override
+  String get reviewSessionCompleteBody => 'Keep it up!';
+
+  @override
   String get dictionaryTitle => 'Dictionary';
 
   @override
@@ -402,6 +434,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dictionaryEmpty => 'No words learned yet in this topic.';
+
+  @override
+  String get dictionarySearchNoResults => 'No matches.';
 
   @override
   String get profileTitle => 'Profile';
@@ -437,6 +472,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get profileBadges => 'Badges';
 
   @override
+  String get profileBadgesEmpty => 'No badges yet - get started!';
+
+  @override
   String get profileSkippedUnits => 'Skipped units';
 
   @override
@@ -447,6 +485,54 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get profileAssessmentTest => 'Placement test';
+
+  @override
+  String get profileBadgeFirstLessonName => 'First steps';
+
+  @override
+  String get profileBadgeFirstLessonDesc => 'Complete your first lesson.';
+
+  @override
+  String get profileBadgeStreak7Name => 'One week in';
+
+  @override
+  String get profileBadgeStreak7Desc => 'Reach a 7-day streak.';
+
+  @override
+  String get profileBadgeStreak30Name => 'One month in';
+
+  @override
+  String get profileBadgeStreak30Desc => 'Reach a 30-day streak.';
+
+  @override
+  String get profileBadgeWords100Name => 'Growing vocabulary';
+
+  @override
+  String get profileBadgeWords100Desc => 'Learn 100 words.';
+
+  @override
+  String get profileBadgeWords500Name => 'Chatterbox';
+
+  @override
+  String get profileBadgeWords500Desc => 'Learn 500 words.';
+
+  @override
+  String get profileBadgeFidelMasterName => 'Fidel master';
+
+  @override
+  String get profileBadgeFidelMasterDesc => 'Learn all 231 Fidel signs.';
+
+  @override
+  String get profileBadgeXp1000Name => '1000 XP';
+
+  @override
+  String get profileBadgeXp1000Desc => 'Earn a total of 1000 XP.';
+
+  @override
+  String get profileBadgeFirstCrownName => 'First crown';
+
+  @override
+  String get profileBadgeFirstCrownDesc => 'Pass your first unit test.';
 
   @override
   String get errorGenericTitle => 'Something went wrong';

@@ -810,6 +810,60 @@ abstract class AppLocalizations {
   /// **'Nothing to review right now. Great job keeping up!'**
   String get reviewEmpty;
 
+  /// No description provided for @reviewWordCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} words'**
+  String reviewWordCount(int count);
+
+  /// No description provided for @reviewWordCountOne.
+  ///
+  /// In en, this message translates to:
+  /// **'1 word'**
+  String get reviewWordCountOne;
+
+  /// No description provided for @reviewStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Let\'s go'**
+  String get reviewStart;
+
+  /// No description provided for @reviewNoWordsForSession.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no words for this right now.'**
+  String get reviewNoWordsForSession;
+
+  /// No description provided for @reviewFreePracticeChooseLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a level'**
+  String get reviewFreePracticeChooseLevel;
+
+  /// No description provided for @reviewFreePracticeAllLevels.
+  ///
+  /// In en, this message translates to:
+  /// **'All levels'**
+  String get reviewFreePracticeAllLevels;
+
+  /// No description provided for @reviewSessionCompleteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Review complete!'**
+  String get reviewSessionCompleteTitle;
+
+  /// No description provided for @reviewSessionCompleteXp.
+  ///
+  /// In en, this message translates to:
+  /// **'+{xp} XP'**
+  String reviewSessionCompleteXp(int xp);
+
+  /// No description provided for @reviewSessionCompleteBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep it up!'**
+  String get reviewSessionCompleteBody;
+
   /// No description provided for @dictionaryTitle.
   ///
   /// In en, this message translates to:
@@ -833,6 +887,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No words learned yet in this topic.'**
   String get dictionaryEmpty;
+
+  /// No description provided for @dictionarySearchNoResults.
+  ///
+  /// In en, this message translates to:
+  /// **'No matches.'**
+  String get dictionarySearchNoResults;
 
   /// No description provided for @profileTitle.
   ///
@@ -900,6 +960,12 @@ abstract class AppLocalizations {
   /// **'Badges'**
   String get profileBadges;
 
+  /// No description provided for @profileBadgesEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No badges yet - get started!'**
+  String get profileBadgesEmpty;
+
   /// No description provided for @profileSkippedUnits.
   ///
   /// In en, this message translates to:
@@ -923,6 +989,102 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Placement test'**
   String get profileAssessmentTest;
+
+  /// No description provided for @profileBadgeFirstLessonName.
+  ///
+  /// In en, this message translates to:
+  /// **'First steps'**
+  String get profileBadgeFirstLessonName;
+
+  /// No description provided for @profileBadgeFirstLessonDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete your first lesson.'**
+  String get profileBadgeFirstLessonDesc;
+
+  /// No description provided for @profileBadgeStreak7Name.
+  ///
+  /// In en, this message translates to:
+  /// **'One week in'**
+  String get profileBadgeStreak7Name;
+
+  /// No description provided for @profileBadgeStreak7Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Reach a 7-day streak.'**
+  String get profileBadgeStreak7Desc;
+
+  /// No description provided for @profileBadgeStreak30Name.
+  ///
+  /// In en, this message translates to:
+  /// **'One month in'**
+  String get profileBadgeStreak30Name;
+
+  /// No description provided for @profileBadgeStreak30Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Reach a 30-day streak.'**
+  String get profileBadgeStreak30Desc;
+
+  /// No description provided for @profileBadgeWords100Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Growing vocabulary'**
+  String get profileBadgeWords100Name;
+
+  /// No description provided for @profileBadgeWords100Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn 100 words.'**
+  String get profileBadgeWords100Desc;
+
+  /// No description provided for @profileBadgeWords500Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Chatterbox'**
+  String get profileBadgeWords500Name;
+
+  /// No description provided for @profileBadgeWords500Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn 500 words.'**
+  String get profileBadgeWords500Desc;
+
+  /// No description provided for @profileBadgeFidelMasterName.
+  ///
+  /// In en, this message translates to:
+  /// **'Fidel master'**
+  String get profileBadgeFidelMasterName;
+
+  /// No description provided for @profileBadgeFidelMasterDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn all 231 Fidel signs.'**
+  String get profileBadgeFidelMasterDesc;
+
+  /// No description provided for @profileBadgeXp1000Name.
+  ///
+  /// In en, this message translates to:
+  /// **'1000 XP'**
+  String get profileBadgeXp1000Name;
+
+  /// No description provided for @profileBadgeXp1000Desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Earn a total of 1000 XP.'**
+  String get profileBadgeXp1000Desc;
+
+  /// No description provided for @profileBadgeFirstCrownName.
+  ///
+  /// In en, this message translates to:
+  /// **'First crown'**
+  String get profileBadgeFirstCrownName;
+
+  /// No description provided for @profileBadgeFirstCrownDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Pass your first unit test.'**
+  String get profileBadgeFirstCrownDesc;
 
   /// No description provided for @errorGenericTitle.
   ///

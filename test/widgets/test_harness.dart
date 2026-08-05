@@ -19,8 +19,8 @@ import 'package:amaseganlo/state/settings_provider.dart';
 /// its own file - flutter_test gives every *file* a fresh process, which
 /// avoids cross-test interference between independently-pumped app trees
 /// within a single file.
-Future<void> pumpTestApp(WidgetTester tester) async {
-  SharedPreferences.setMockInitialValues({});
+Future<void> pumpTestApp(WidgetTester tester, {Map<String, Object> initialPrefs = const {}}) async {
+  SharedPreferences.setMockInitialValues(initialPrefs);
   final storage = StorageService();
   await storage.init();
 

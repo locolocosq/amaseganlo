@@ -131,6 +131,24 @@ class LessonProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Builds and starts a session from a [Lesson] that was assembled on the
+  /// fly (Wiederholung: fällige/schwierige Wörter, freies Üben) instead of
+  /// being looked up from a unit's content file.
+  void startAdHocSession({required Lesson lesson, required String locale, required bool useHearts}) {
+    final exercises = _buildExercises(lesson, locale, audioService.isAmharicAvailable);
+    _session = LessonSession(
+      unitId: lesson.unitId,
+      lessonId: lesson.id,
+      lesson: lesson,
+      isIntro: false,
+      introLexemes: const [],
+      exercises: exercises,
+      startedAt: DateTime.now(),
+      startingHearts: useHearts ? 5 : 999999,
+    );
+    notifyListeners();
+  }
+
   List<GeneratedExercise> _buildExercises(Lesson lesson, String locale, bool audioAvailable) {
     final types = lesson.exerciseTypes.where((t) => audioAvailable || !_audioExerciseTypes.contains(t)).toList();
     if (types.isEmpty) return const [];
