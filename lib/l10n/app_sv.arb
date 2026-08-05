@@ -115,6 +115,23 @@
   "pathUnitTest": "Kapiteltest",
   "pathUnitTestHint": "Hoppa över kapitlet med ett test",
 
+  "chapterTestScore": "{correct} av {total} rätt",
+  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "chapterTestPassedTitle": "Godkänt!",
+  "chapterTestPassedBody": "Du har fått en krona för det här kapitlet.",
+  "chapterTestFailedTitle": "Inte riktigt än",
+  "chapterTestFailedBody": "Inga problem - orden du svarade fel på har återställts. Försök igen direkt.",
+
+  "placementTestTitle": "Placeringstest",
+  "placementTestIntro": "Vi ställer några frågor för att hitta bästa startpunkten för dig. Du kan avbryta när som helst.",
+  "placementTestStart": "Kör igång",
+  "placementTestResultTitle": "Förslag: {section}",
+  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "placementTestResultBody": "Baserat på dina svar föreslår vi att du börjar här. Tidigare kapitel markeras som överhoppade och kan tas igen när som helst.",
+  "placementTestResultBodyBeginning": "Att börja från början passar bäst - helt normalt!",
+  "placementTestAccept": "Använd detta",
+  "placementTestCancel": "Avbryt testet",
+
   "unitOverviewLessons": "Lektioner",
   "unitOverviewWordList": "Ordlista",
   "unitOverviewCrowns": "{crowns} av 5 kronor",

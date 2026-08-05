@@ -115,6 +115,23 @@
   "pathUnitTest": "Hoofdstuktest",
   "pathUnitTestHint": "Hoofdstuk overslaan met een test",
 
+  "chapterTestScore": "{correct} van {total} goed",
+  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "chapterTestPassedTitle": "Geslaagd!",
+  "chapterTestPassedBody": "Je hebt een kroon verdiend voor dit hoofdstuk.",
+  "chapterTestFailedTitle": "Nog niet gelukt",
+  "chapterTestFailedBody": "Geen probleem - de fout beantwoorde woorden zijn gereset. Probeer het meteen opnieuw.",
+
+  "placementTestTitle": "Instaptoets",
+  "placementTestIntro": "We stellen je een paar vragen om de beste startplek te bepalen. Je kunt altijd afbreken.",
+  "placementTestStart": "Laten we gaan",
+  "placementTestResultTitle": "Voorstel: {section}",
+  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "placementTestResultBody": "Op basis van je antwoorden stellen we voor hier te beginnen. Eerdere hoofdstukken worden als overgeslagen gemarkeerd en kun je altijd nog inhalen.",
+  "placementTestResultBodyBeginning": "Helemaal vanaf het begin beginnen past het best - dat is helemaal normaal!",
+  "placementTestAccept": "Gebruik dit",
+  "placementTestCancel": "Toets afbreken",
+
   "unitOverviewLessons": "Lessen",
   "unitOverviewWordList": "Woordenlijst",
   "unitOverviewCrowns": "{crowns} van 5 kronen",

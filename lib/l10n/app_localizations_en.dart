@@ -306,6 +306,53 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pathUnitTestHint => 'Skip this unit by passing a test';
 
   @override
+  String chapterTestScore(int correct, int total) {
+    return '$correct of $total correct';
+  }
+
+  @override
+  String get chapterTestPassedTitle => 'Passed!';
+
+  @override
+  String get chapterTestPassedBody => 'You\'ve earned a crown for this unit.';
+
+  @override
+  String get chapterTestFailedTitle => 'Not quite there yet';
+
+  @override
+  String get chapterTestFailedBody =>
+      'No worries - the words you missed have been reset. Try again right away.';
+
+  @override
+  String get placementTestTitle => 'Placement test';
+
+  @override
+  String get placementTestIntro =>
+      'We\'ll ask you a few questions to find the best place for you to start. You can cancel anytime.';
+
+  @override
+  String get placementTestStart => 'Let\'s go';
+
+  @override
+  String placementTestResultTitle(String section) {
+    return 'Suggestion: $section';
+  }
+
+  @override
+  String get placementTestResultBody =>
+      'Based on your answers, we suggest starting here. Earlier units are marked as skipped and can be caught up on anytime.';
+
+  @override
+  String get placementTestResultBodyBeginning =>
+      'Starting right from the beginning is the best fit - that\'s completely normal!';
+
+  @override
+  String get placementTestAccept => 'Use this';
+
+  @override
+  String get placementTestCancel => 'Cancel test';
+
+  @override
   String get unitOverviewLessons => 'Lessons';
 
   @override

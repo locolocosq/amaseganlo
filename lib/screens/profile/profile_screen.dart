@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/badges.dart';
 import '../../l10n/app_localizations.dart';
+import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
+import '../../state/settings_provider.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -12,35 +15,82 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final progress = context.watch<ProgressProvider>();
+    final content = context.watch<ContentProvider>().repository;
+    final settings = context.watch<SettingsProvider>().settings;
+    final locale =
+        settings.localeCode ?? Localizations.localeOf(context).languageCode;
     final p = progress.progress;
     final earned = BadgeCatalog.earnedBadges(p).toSet();
+    final skippedUnitIds = p.skippedUnitIds.toList();
 
     return ListView(
       padding: const EdgeInsets.all(20),
       children: [
+        OutlinedButton.icon(
+          onPressed: () => context.push('/placement-test'),
+          icon: const Icon(Icons.assignment_outlined),
+          label: Text(l10n.profileAssessmentTest),
+        ),
+        const SizedBox(height: 20),
         _StatsGrid(
           stats: [
-            _Stat(l10n.profileWordsLearned, '${progress.wordsLearned}', Icons.menu_book_outlined),
-            _Stat(l10n.profileWordsMastered, '${progress.wordsMastered}', Icons.stars_outlined),
-            _Stat(l10n.profileFidelChars, '${progress.fidelCharsLearned}', Icons.abc),
+            _Stat(
+              l10n.profileWordsLearned,
+              '${progress.wordsLearned}',
+              Icons.menu_book_outlined,
+            ),
+            _Stat(
+              l10n.profileWordsMastered,
+              '${progress.wordsMastered}',
+              Icons.stars_outlined,
+            ),
+            _Stat(
+              l10n.profileFidelChars,
+              '${progress.fidelCharsLearned}',
+              Icons.abc,
+            ),
             _Stat(l10n.profileTotalXp, '${p.xpTotal}', Icons.bolt_outlined),
-            _Stat(l10n.profileCurrentStreak, '${p.currentStreak}', Icons.local_fire_department_outlined),
-            _Stat(l10n.profileLongestStreak, '${p.longestStreak}', Icons.emoji_events_outlined),
-            _Stat(l10n.profileDaysLearned, '${progress.daysLearned}', Icons.calendar_month_outlined),
-            _Stat(l10n.profileAccuracy, '${(progress.overallAccuracy * 100).round()}%', Icons.track_changes_outlined),
+            _Stat(
+              l10n.profileCurrentStreak,
+              '${p.currentStreak}',
+              Icons.local_fire_department_outlined,
+            ),
+            _Stat(
+              l10n.profileLongestStreak,
+              '${p.longestStreak}',
+              Icons.emoji_events_outlined,
+            ),
+            _Stat(
+              l10n.profileDaysLearned,
+              '${progress.daysLearned}',
+              Icons.calendar_month_outlined,
+            ),
+            _Stat(
+              l10n.profileAccuracy,
+              '${(progress.overallAccuracy * 100).round()}%',
+              Icons.track_changes_outlined,
+            ),
           ],
         ),
         const SizedBox(height: 24),
-        Text(l10n.profileLast7Days, style: Theme.of(context).textTheme.titleMedium),
+        Text(
+          l10n.profileLast7Days,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
         const SizedBox(height: 12),
         _LastDaysChart(xp: progress.xpForLastDays(7, DateTime.now())),
         const SizedBox(height: 24),
-        Text(l10n.profileBadges, style: Theme.of(context).textTheme.titleMedium),
+        Text(
+          l10n.profileBadges,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
         if (earned.isEmpty) ...[
           const SizedBox(height: 8),
           Text(
             l10n.profileBadgesEmpty,
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
           ),
         ],
         const SizedBox(height: 12),
@@ -48,10 +98,60 @@ class ProfileScreen extends StatelessWidget {
           spacing: 12,
           runSpacing: 12,
           children: [
-            for (final id in BadgeId.values) _BadgeChip(id: id, earned: earned.contains(id)),
+            for (final id in BadgeId.values)
+              _BadgeChip(id: id, earned: earned.contains(id)),
           ],
         ),
+        const SizedBox(height: 24),
+        Text(
+          l10n.profileSkippedUnits,
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
+        const SizedBox(height: 8),
+        if (skippedUnitIds.isEmpty)
+          Text(
+            l10n.profileSkippedUnitsEmpty,
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
+            ),
+          )
+        else
+          for (final unitId in skippedUnitIds)
+            _SkippedUnitTile(
+              title: content.unit(unitId)?.title[locale] ?? unitId,
+              onCatchUp: () => context.push('/learn/unit/$unitId'),
+              label: l10n.profileCatchUp,
+            ),
       ],
+    );
+  }
+}
+
+class _SkippedUnitTile extends StatelessWidget {
+  final String title;
+  final String label;
+  final VoidCallback onCatchUp;
+
+  const _SkippedUnitTile({
+    required this.title,
+    required this.label,
+    required this.onCatchUp,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Material(
+        color: theme.colorScheme.surfaceContainerLow,
+        borderRadius: BorderRadius.circular(14),
+        child: ListTile(
+          leading: const Icon(Icons.fast_forward),
+          title: Text(title),
+          trailing: TextButton(onPressed: onCatchUp, child: Text(label)),
+        ),
+      ),
     );
   }
 }
@@ -105,7 +205,9 @@ class _StatCard extends StatelessWidget {
                   Text(stat.value, style: theme.textTheme.titleLarge),
                   Text(
                     stat.label,
-                    style: theme.textTheme.labelSmall?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+                    style: theme.textTheme.labelSmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -141,7 +243,9 @@ class _LastDaysChart extends StatelessWidget {
                   child: Container(
                     height: maxXp == 0 ? 4 : (4 + (value / maxXp) * 60),
                     decoration: BoxDecoration(
-                      color: value > 0 ? theme.colorScheme.primary : theme.colorScheme.surfaceContainerHighest,
+                      color: value > 0
+                          ? theme.colorScheme.primary
+                          : theme.colorScheme.surfaceContainerHighest,
                       borderRadius: BorderRadius.circular(6),
                     ),
                   ),
@@ -164,7 +268,9 @@ class _BadgeChip extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final theme = Theme.of(context);
-    final color = earned ? theme.colorScheme.primary : theme.colorScheme.outline;
+    final color = earned
+        ? theme.colorScheme.primary
+        : theme.colorScheme.outline;
 
     return Tooltip(
       message: _descFor(id, l10n),
@@ -174,13 +280,19 @@ class _BadgeChip extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 28,
-              backgroundColor: earned ? theme.colorScheme.primaryContainer : theme.colorScheme.surfaceContainerHighest,
+              backgroundColor: earned
+                  ? theme.colorScheme.primaryContainer
+                  : theme.colorScheme.surfaceContainerHighest,
               child: Icon(_iconFor(id), color: color, size: 26),
             ),
             const SizedBox(height: 6),
             Text(
               _nameFor(id, l10n),
-              style: theme.textTheme.labelSmall?.copyWith(color: earned ? theme.colorScheme.onSurface : theme.colorScheme.outline),
+              style: theme.textTheme.labelSmall?.copyWith(
+                color: earned
+                    ? theme.colorScheme.onSurface
+                    : theme.colorScheme.outline,
+              ),
               textAlign: TextAlign.center,
               maxLines: 2,
               overflow: TextOverflow.ellipsis,

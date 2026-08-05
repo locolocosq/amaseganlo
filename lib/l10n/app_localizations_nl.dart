@@ -305,6 +305,54 @@ class AppLocalizationsNl extends AppLocalizations {
   String get pathUnitTestHint => 'Hoofdstuk overslaan met een test';
 
   @override
+  String chapterTestScore(int correct, int total) {
+    return '$correct van $total goed';
+  }
+
+  @override
+  String get chapterTestPassedTitle => 'Geslaagd!';
+
+  @override
+  String get chapterTestPassedBody =>
+      'Je hebt een kroon verdiend voor dit hoofdstuk.';
+
+  @override
+  String get chapterTestFailedTitle => 'Nog niet gelukt';
+
+  @override
+  String get chapterTestFailedBody =>
+      'Geen probleem - de fout beantwoorde woorden zijn gereset. Probeer het meteen opnieuw.';
+
+  @override
+  String get placementTestTitle => 'Instaptoets';
+
+  @override
+  String get placementTestIntro =>
+      'We stellen je een paar vragen om de beste startplek te bepalen. Je kunt altijd afbreken.';
+
+  @override
+  String get placementTestStart => 'Laten we gaan';
+
+  @override
+  String placementTestResultTitle(String section) {
+    return 'Voorstel: $section';
+  }
+
+  @override
+  String get placementTestResultBody =>
+      'Op basis van je antwoorden stellen we voor hier te beginnen. Eerdere hoofdstukken worden als overgeslagen gemarkeerd en kun je altijd nog inhalen.';
+
+  @override
+  String get placementTestResultBodyBeginning =>
+      'Helemaal vanaf het begin beginnen past het best - dat is helemaal normaal!';
+
+  @override
+  String get placementTestAccept => 'Gebruik dit';
+
+  @override
+  String get placementTestCancel => 'Toets afbreken';
+
+  @override
   String get unitOverviewLessons => 'Lessen';
 
   @override

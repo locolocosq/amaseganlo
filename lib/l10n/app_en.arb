@@ -115,6 +115,23 @@
   "pathUnitTest": "Unit test",
   "pathUnitTestHint": "Skip this unit by passing a test",
 
+  "chapterTestScore": "{correct} of {total} correct",
+  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "chapterTestPassedTitle": "Passed!",
+  "chapterTestPassedBody": "You've earned a crown for this unit.",
+  "chapterTestFailedTitle": "Not quite there yet",
+  "chapterTestFailedBody": "No worries - the words you missed have been reset. Try again right away.",
+
+  "placementTestTitle": "Placement test",
+  "placementTestIntro": "We'll ask you a few questions to find the best place for you to start. You can cancel anytime.",
+  "placementTestStart": "Let's go",
+  "placementTestResultTitle": "Suggestion: {section}",
+  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "placementTestResultBody": "Based on your answers, we suggest starting here. Earlier units are marked as skipped and can be caught up on anytime.",
+  "placementTestResultBodyBeginning": "Starting right from the beginning is the best fit - that's completely normal!",
+  "placementTestAccept": "Use this",
+  "placementTestCancel": "Cancel test",
+
   "unitOverviewLessons": "Lessons",
   "unitOverviewWordList": "Word list",
   "unitOverviewCrowns": "{crowns} of 5 crowns",

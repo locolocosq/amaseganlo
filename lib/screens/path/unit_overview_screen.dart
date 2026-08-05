@@ -21,15 +21,24 @@ class UnitOverviewScreen extends StatelessWidget {
     final content = context.watch<ContentProvider>().repository;
     final progress = context.watch<ProgressProvider>();
     final settings = context.watch<SettingsProvider>().settings;
-    final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
+    final locale =
+        settings.localeCode ?? Localizations.localeOf(context).languageCode;
 
     final unit = content.unit(unitId);
     final lessons = content.lessonsForUnit(unitId);
 
     if (unit == null || lessons.isEmpty) {
       return Scaffold(
-        appBar: AppBar(leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.pop())),
-        body: EmptyState(icon: Icons.menu_book_outlined, title: l10n.errorContentUnit),
+        appBar: AppBar(
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () => context.pop(),
+          ),
+        ),
+        body: EmptyState(
+          icon: Icons.menu_book_outlined,
+          title: l10n.errorContentUnit,
+        ),
       );
     }
 
@@ -38,7 +47,10 @@ class UnitOverviewScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(icon: const Icon(Icons.arrow_back), onPressed: () => context.pop()),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => context.pop(),
+        ),
         title: Text(unit.title[locale] ?? unit.id),
       ),
       body: ListView(
@@ -48,21 +60,45 @@ class UnitOverviewScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               for (var i = 0; i < 5; i++)
-                Icon(Icons.emoji_events, color: i < crowns ? successColor : Theme.of(context).colorScheme.outlineVariant),
+                Icon(
+                  Icons.emoji_events,
+                  color: i < crowns
+                      ? successColor
+                      : Theme.of(context).colorScheme.outlineVariant,
+                ),
             ],
           ),
           Center(child: Text(l10n.unitOverviewCrowns(crowns))),
           const SizedBox(height: 16),
-          Text(l10n.unitOverviewLessons, style: Theme.of(context).textTheme.titleMedium),
+          Text(
+            l10n.unitOverviewLessons,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
           const SizedBox(height: 8),
           for (final lesson in lessons)
             _LessonTile(
               lesson: lesson,
-              completed: progress.progress.lessonProgress[lesson.id]?.completed == true,
+              completed:
+                  progress.progress.lessonProgress[lesson.id]?.completed ==
+                  true,
               onTap: () => context.push('/lesson/$unitId/${lesson.id}'),
             ),
+          ListTile(
+            leading: Icon(
+              crowns >= 5 ? Icons.check_circle : Icons.quiz_outlined,
+              color: crowns >= 5
+                  ? successColor
+                  : Theme.of(context).colorScheme.outline,
+            ),
+            title: Text(l10n.pathUnitTest),
+            subtitle: Text(l10n.pathUnitTestHint),
+            onTap: () => context.push('/lesson/$unitId/chapter_test'),
+          ),
           const SizedBox(height: 24),
-          Text(l10n.unitOverviewWordList, style: Theme.of(context).textTheme.titleMedium),
+          Text(
+            l10n.unitOverviewWordList,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
           const SizedBox(height: 8),
           Wrap(
             spacing: 8,
@@ -83,7 +119,11 @@ class _LessonTile extends StatelessWidget {
   final bool completed;
   final VoidCallback onTap;
 
-  const _LessonTile({required this.lesson, required this.completed, required this.onTap});
+  const _LessonTile({
+    required this.lesson,
+    required this.completed,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {

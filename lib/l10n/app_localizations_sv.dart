@@ -305,6 +305,54 @@ class AppLocalizationsSv extends AppLocalizations {
   String get pathUnitTestHint => 'Hoppa över kapitlet med ett test';
 
   @override
+  String chapterTestScore(int correct, int total) {
+    return '$correct av $total rätt';
+  }
+
+  @override
+  String get chapterTestPassedTitle => 'Godkänt!';
+
+  @override
+  String get chapterTestPassedBody =>
+      'Du har fått en krona för det här kapitlet.';
+
+  @override
+  String get chapterTestFailedTitle => 'Inte riktigt än';
+
+  @override
+  String get chapterTestFailedBody =>
+      'Inga problem - orden du svarade fel på har återställts. Försök igen direkt.';
+
+  @override
+  String get placementTestTitle => 'Placeringstest';
+
+  @override
+  String get placementTestIntro =>
+      'Vi ställer några frågor för att hitta bästa startpunkten för dig. Du kan avbryta när som helst.';
+
+  @override
+  String get placementTestStart => 'Kör igång';
+
+  @override
+  String placementTestResultTitle(String section) {
+    return 'Förslag: $section';
+  }
+
+  @override
+  String get placementTestResultBody =>
+      'Baserat på dina svar föreslår vi att du börjar här. Tidigare kapitel markeras som överhoppade och kan tas igen när som helst.';
+
+  @override
+  String get placementTestResultBodyBeginning =>
+      'Att börja från början passar bäst - helt normalt!';
+
+  @override
+  String get placementTestAccept => 'Använd detta';
+
+  @override
+  String get placementTestCancel => 'Avbryt testet';
+
+  @override
   String get unitOverviewLessons => 'Lektioner';
 
   @override

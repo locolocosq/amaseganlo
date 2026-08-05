@@ -115,6 +115,23 @@
   "pathUnitTest": "Kapitel-Test",
   "pathUnitTestHint": "Kapitel per Test überspringen",
 
+  "chapterTestScore": "{correct} von {total} richtig",
+  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "chapterTestPassedTitle": "Bestanden!",
+  "chapterTestPassedBody": "Du hast eine Krone für dieses Kapitel verdient.",
+  "chapterTestFailedTitle": "Noch nicht bestanden",
+  "chapterTestFailedBody": "Kein Problem - die falsch beantworteten Wörter wurden zurückgesetzt. Versuch's gleich nochmal.",
+
+  "placementTestTitle": "Einstufungstest",
+  "placementTestIntro": "Wir stellen dir ein paar Fragen, um herauszufinden, wo du am besten anfängst. Du kannst jederzeit abbrechen.",
+  "placementTestStart": "Los geht's",
+  "placementTestResultTitle": "Vorschlag: {section}",
+  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "placementTestResultBody": "Basierend auf deinen Antworten schlagen wir vor, hier anzufangen. Frühere Kapitel gelten als übersprungen und lassen sich jederzeit nachholen.",
+  "placementTestResultBodyBeginning": "Am besten fängst du ganz am Anfang an - das ist völlig normal!",
+  "placementTestAccept": "Übernehmen",
+  "placementTestCancel": "Test abbrechen",
+
   "unitOverviewLessons": "Lektionen",
   "unitOverviewWordList": "Wortliste",
   "unitOverviewCrowns": "{crowns} von 5 Kronen",

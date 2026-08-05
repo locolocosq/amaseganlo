@@ -306,6 +306,54 @@ class AppLocalizationsDe extends AppLocalizations {
   String get pathUnitTestHint => 'Kapitel per Test überspringen';
 
   @override
+  String chapterTestScore(int correct, int total) {
+    return '$correct von $total richtig';
+  }
+
+  @override
+  String get chapterTestPassedTitle => 'Bestanden!';
+
+  @override
+  String get chapterTestPassedBody =>
+      'Du hast eine Krone für dieses Kapitel verdient.';
+
+  @override
+  String get chapterTestFailedTitle => 'Noch nicht bestanden';
+
+  @override
+  String get chapterTestFailedBody =>
+      'Kein Problem - die falsch beantworteten Wörter wurden zurückgesetzt. Versuch\'s gleich nochmal.';
+
+  @override
+  String get placementTestTitle => 'Einstufungstest';
+
+  @override
+  String get placementTestIntro =>
+      'Wir stellen dir ein paar Fragen, um herauszufinden, wo du am besten anfängst. Du kannst jederzeit abbrechen.';
+
+  @override
+  String get placementTestStart => 'Los geht\'s';
+
+  @override
+  String placementTestResultTitle(String section) {
+    return 'Vorschlag: $section';
+  }
+
+  @override
+  String get placementTestResultBody =>
+      'Basierend auf deinen Antworten schlagen wir vor, hier anzufangen. Frühere Kapitel gelten als übersprungen und lassen sich jederzeit nachholen.';
+
+  @override
+  String get placementTestResultBodyBeginning =>
+      'Am besten fängst du ganz am Anfang an - das ist völlig normal!';
+
+  @override
+  String get placementTestAccept => 'Übernehmen';
+
+  @override
+  String get placementTestCancel => 'Test abbrechen';
+
+  @override
   String get unitOverviewLessons => 'Lektionen';
 
   @override

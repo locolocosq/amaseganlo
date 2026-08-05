@@ -672,6 +672,84 @@ abstract class AppLocalizations {
   /// **'Skip this unit by passing a test'**
   String get pathUnitTestHint;
 
+  /// No description provided for @chapterTestScore.
+  ///
+  /// In en, this message translates to:
+  /// **'{correct} of {total} correct'**
+  String chapterTestScore(int correct, int total);
+
+  /// No description provided for @chapterTestPassedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Passed!'**
+  String get chapterTestPassedTitle;
+
+  /// No description provided for @chapterTestPassedBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve earned a crown for this unit.'**
+  String get chapterTestPassedBody;
+
+  /// No description provided for @chapterTestFailedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Not quite there yet'**
+  String get chapterTestFailedTitle;
+
+  /// No description provided for @chapterTestFailedBody.
+  ///
+  /// In en, this message translates to:
+  /// **'No worries - the words you missed have been reset. Try again right away.'**
+  String get chapterTestFailedBody;
+
+  /// No description provided for @placementTestTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Placement test'**
+  String get placementTestTitle;
+
+  /// No description provided for @placementTestIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ll ask you a few questions to find the best place for you to start. You can cancel anytime.'**
+  String get placementTestIntro;
+
+  /// No description provided for @placementTestStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Let\'s go'**
+  String get placementTestStart;
+
+  /// No description provided for @placementTestResultTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Suggestion: {section}'**
+  String placementTestResultTitle(String section);
+
+  /// No description provided for @placementTestResultBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Based on your answers, we suggest starting here. Earlier units are marked as skipped and can be caught up on anytime.'**
+  String get placementTestResultBody;
+
+  /// No description provided for @placementTestResultBodyBeginning.
+  ///
+  /// In en, this message translates to:
+  /// **'Starting right from the beginning is the best fit - that\'s completely normal!'**
+  String get placementTestResultBodyBeginning;
+
+  /// No description provided for @placementTestAccept.
+  ///
+  /// In en, this message translates to:
+  /// **'Use this'**
+  String get placementTestAccept;
+
+  /// No description provided for @placementTestCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel test'**
+  String get placementTestCancel;
+
   /// No description provided for @unitOverviewLessons.
   ///
   /// In en, this message translates to:

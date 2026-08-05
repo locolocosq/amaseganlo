@@ -9,7 +9,9 @@ import '../screens/fidel/fidel_table_screen.dart';
 import '../screens/lesson/lesson_complete_screen.dart';
 import '../screens/lesson/lesson_screen.dart';
 import '../screens/onboarding/onboarding_screen.dart';
+import '../screens/path/chapter_test_screen.dart';
 import '../screens/path/path_screen.dart';
+import '../screens/path/placement_test_screen.dart';
 import '../screens/path/unit_overview_screen.dart';
 import '../screens/profile/profile_screen.dart';
 import '../screens/review/dictionary_screen.dart';
@@ -118,6 +120,15 @@ GoRouter buildRouter({
     GoRoute(
       path: '/settings/about',
       builder: (context, state) => const AboutScreen(),
+    ),
+    GoRoute(
+      path: '/lesson/:unitId/chapter_test',
+      builder: (context, state) =>
+          ChapterTestScreen(unitId: state.pathParameters['unitId']!),
+    ),
+    GoRoute(
+      path: '/placement-test',
+      builder: (context, state) => const PlacementTestScreen(),
     ),
     GoRoute(
       path: '/lesson/:unitId/:lessonId',

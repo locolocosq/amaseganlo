@@ -59,13 +59,18 @@ class LessonSession {
   }) : heartsRemaining = startingHearts;
 
   GeneratedExercise? get currentExercise =>
-      (!isIntro && currentIndex >= 0 && currentIndex < exercises.length) ? exercises[currentIndex] : null;
+      (!isIntro && currentIndex >= 0 && currentIndex < exercises.length)
+      ? exercises[currentIndex]
+      : null;
 
-  bool get isFinished => isIntro ? currentIndex >= introLexemes.length : currentIndex >= exercises.length;
+  bool get isFinished => isIntro
+      ? currentIndex >= introLexemes.length
+      : currentIndex >= exercises.length;
 
   bool get outOfHearts => heartsRemaining <= 0;
 
-  double get scoreRatio => exercises.isEmpty ? 1.0 : correctCount / exercises.length;
+  double get scoreRatio =>
+      exercises.isEmpty ? 1.0 : correctCount / exercises.length;
 
   bool get isPerfect => incorrectCount == 0 && skippedCount == 0;
 
@@ -82,7 +87,11 @@ class LessonProvider extends ChangeNotifier {
 
   LessonSession? _session;
 
-  LessonProvider({required this.content, required this.progress, required this.audioService}) {
+  LessonProvider({
+    required this.content,
+    required this.progress,
+    required this.audioService,
+  }) {
     _generator = ExerciseGenerator(content);
   }
 
@@ -94,7 +103,10 @@ class LessonProvider extends ChangeNotifier {
     required String locale,
     required bool useHearts,
   }) {
-    final lesson = content.lessonsForUnit(unitId).where((l) => l.id == lessonId).firstOrNull;
+    final lesson = content
+        .lessonsForUnit(unitId)
+        .where((l) => l.id == lessonId)
+        .firstOrNull;
     if (lesson == null) {
       _session = null;
       notifyListeners();
@@ -104,7 +116,9 @@ class LessonProvider extends ChangeNotifier {
     final audioAvailable = audioService.isAmharicAvailable;
 
     if (lesson.kind == LessonKind.intro) {
-      final lexemes = [for (final id in lesson.lexemeIds) content.lexeme(id)].nonNulls.toList();
+      final lexemes = [
+        for (final id in lesson.lexemeIds) content.lexeme(id),
+      ].nonNulls.toList();
       _session = LessonSession(
         unitId: unitId,
         lessonId: lessonId,
@@ -134,8 +148,16 @@ class LessonProvider extends ChangeNotifier {
   /// Builds and starts a session from a [Lesson] that was assembled on the
   /// fly (Wiederholung: fällige/schwierige Wörter, freies Üben) instead of
   /// being looked up from a unit's content file.
-  void startAdHocSession({required Lesson lesson, required String locale, required bool useHearts}) {
-    final exercises = _buildExercises(lesson, locale, audioService.isAmharicAvailable);
+  void startAdHocSession({
+    required Lesson lesson,
+    required String locale,
+    required bool useHearts,
+  }) {
+    final exercises = _buildExercises(
+      lesson,
+      locale,
+      audioService.isAmharicAvailable,
+    );
     _session = LessonSession(
       unitId: lesson.unitId,
       lessonId: lesson.id,
@@ -149,22 +171,103 @@ class LessonProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  List<GeneratedExercise> _buildExercises(Lesson lesson, String locale, bool audioAvailable) {
-    final types = lesson.exerciseTypes.where((t) => audioAvailable || !_audioExerciseTypes.contains(t)).toList();
+  /// Kapitel-Test (Teil A1): up to 20 questions drawn from every word the
+  /// unit introduces, at least a quarter of them typed rather than chosen
+  /// (5 of 20, scaled down for units with fewer words). No hearts - a
+  /// wrong answer here only affects the pass/fail score, not the attempt
+  /// itself. Passing/failing is decided by the caller from the finished
+  /// session's `scoreRatio` (Abschnitt-A threshold: 85%).
+  void startChapterTest({required String unitId, required String locale}) {
+    final lexemes = List<Lexeme>.from(content.lexemesForUnit(unitId))
+      ..shuffle(_generator.random);
+    if (lexemes.isEmpty) {
+      _session = null;
+      notifyListeners();
+      return;
+    }
+
+    final testWords = lexemes.length > 20 ? lexemes.sublist(0, 20) : lexemes;
+    final typingCount = (testWords.length / 4).round().clamp(
+      1,
+      testWords.length,
+    );
+
+    final exercises = <GeneratedExercise>[];
+    for (var i = 0; i < testWords.length; i++) {
+      final lexeme = testWords[i];
+      if (i < typingCount) {
+        exercises.add(
+          _generator.generateWordTyping(
+            subject: lexeme,
+            amToNative: i.isEven,
+            locale: locale,
+          ),
+        );
+      } else {
+        exercises.add(
+          _generator.generateWordChoice(
+            subject: lexeme,
+            amToNative: i.isOdd,
+            locale: locale,
+          ),
+        );
+      }
+    }
+    exercises.shuffle(_generator.random);
+
+    final lesson = Lesson(
+      id: 'chapter_test_$unitId',
+      unitId: unitId,
+      kind: LessonKind.unitTest,
+      lexemeIds: [for (final l in testWords) l.id],
+      exerciseTypes: const [],
+    );
+    _session = LessonSession(
+      unitId: unitId,
+      lessonId: lesson.id,
+      lesson: lesson,
+      isIntro: false,
+      introLexemes: const [],
+      exercises: exercises,
+      startedAt: DateTime.now(),
+      startingHearts: 999999,
+    );
+    notifyListeners();
+  }
+
+  List<GeneratedExercise> _buildExercises(
+    Lesson lesson,
+    String locale,
+    bool audioAvailable,
+  ) {
+    final types = lesson.exerciseTypes
+        .where((t) => audioAvailable || !_audioExerciseTypes.contains(t))
+        .toList();
     if (types.isEmpty) return const [];
 
-    final lexemes = [for (final id in lesson.lexemeIds) content.lexeme(id)].nonNulls.toList();
-    final sentences = [for (final id in lesson.sentenceIds) content.sentence(id)].nonNulls.toList();
+    final lexemes = [
+      for (final id in lesson.lexemeIds) content.lexeme(id),
+    ].nonNulls.toList();
+    final sentences = [
+      for (final id in lesson.sentenceIds) content.sentence(id),
+    ].nonNulls.toList();
 
     final result = <GeneratedExercise>[];
 
     if (types.contains(ExerciseType.pairMatching) && lexemes.length >= 4) {
       final subset = List<Lexeme>.from(lexemes)..shuffle(_generator.random);
-      result.add(_generator.generatePairMatching(subjects: subset.take(5).toList(), locale: locale));
+      result.add(
+        _generator.generatePairMatching(
+          subjects: subset.take(5).toList(),
+          locale: locale,
+        ),
+      );
     }
 
     var typeAlternator = 0;
-    final wordTypes = types.where((t) => _wordExerciseTypes.contains(t)).toList();
+    final wordTypes = types
+        .where((t) => _wordExerciseTypes.contains(t))
+        .toList();
     for (final lexeme in lexemes) {
       if (wordTypes.isEmpty) break;
       final type = wordTypes[typeAlternator % wordTypes.length];
@@ -184,16 +287,34 @@ class LessonProvider extends ChangeNotifier {
     return ExerciseSequencer(random: _generator.random).order(capped);
   }
 
-  GeneratedExercise? _generateWordExercise(ExerciseType type, Lexeme lexeme, String locale) {
+  GeneratedExercise? _generateWordExercise(
+    ExerciseType type,
+    Lexeme lexeme,
+    String locale,
+  ) {
     switch (type) {
       case ExerciseType.wordChoiceAmToNative:
-        return _generator.generateWordChoice(subject: lexeme, amToNative: true, locale: locale);
+        return _generator.generateWordChoice(
+          subject: lexeme,
+          amToNative: true,
+          locale: locale,
+        );
       case ExerciseType.wordChoiceNativeToAm:
-        return _generator.generateWordChoice(subject: lexeme, amToNative: false, locale: locale);
+        return _generator.generateWordChoice(
+          subject: lexeme,
+          amToNative: false,
+          locale: locale,
+        );
       case ExerciseType.emojiMatch:
-        return lexeme.emoji.isNotEmpty ? _generator.generateEmojiMatch(subject: lexeme, locale: locale) : null;
+        return lexeme.emoji.isNotEmpty
+            ? _generator.generateEmojiMatch(subject: lexeme, locale: locale)
+            : null;
       case ExerciseType.wordTyping:
-        return _generator.generateWordTyping(subject: lexeme, amToNative: true, locale: locale);
+        return _generator.generateWordTyping(
+          subject: lexeme,
+          amToNative: true,
+          locale: locale,
+        );
       case ExerciseType.listenChoice:
         return _generator.generateListenChoice(subject: lexeme, locale: locale);
       case ExerciseType.listenTyping:
@@ -203,20 +324,37 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  GeneratedExercise? _generateSentenceExercise(ExerciseType type, Sentence sentence, String locale) {
+  GeneratedExercise? _generateSentenceExercise(
+    ExerciseType type,
+    Sentence sentence,
+    String locale,
+  ) {
     switch (type) {
       case ExerciseType.sentenceBuild:
-        return _generator.generateSentenceBuild(sentence: sentence, locale: locale);
+        return _generator.generateSentenceBuild(
+          sentence: sentence,
+          locale: locale,
+        );
       case ExerciseType.sentenceGapChoice:
-        return _generator.generateSentenceGapChoice(sentence: sentence, locale: locale);
+        return _generator.generateSentenceGapChoice(
+          sentence: sentence,
+          locale: locale,
+        );
       case ExerciseType.sentenceGapTyping:
         return _generator.generateSentenceGapTyping(sentence: sentence);
       case ExerciseType.sentenceTranslate:
-        return _generator.generateSentenceTranslate(sentence: sentence, locale: locale);
+        return _generator.generateSentenceTranslate(
+          sentence: sentence,
+          locale: locale,
+        );
       case ExerciseType.trueFalse:
         return _generator.generateTrueFalse(sentence: sentence, locale: locale);
       case ExerciseType.listenBuild:
-        return _generator.generateSentenceBuild(sentence: sentence, locale: locale, audio: true);
+        return _generator.generateSentenceBuild(
+          sentence: sentence,
+          locale: locale,
+          audio: true,
+        );
       default:
         return null;
     }
@@ -238,7 +376,9 @@ class LessonProvider extends ChangeNotifier {
     final exercise = s?.currentExercise;
     if (s == null || exercise == null || s.answered) return;
 
-    final correct = _normalizeForCompare(givenAnswer) == _normalizeForCompare(exercise.correctAnswer);
+    final correct =
+        _normalizeForCompare(givenAnswer) ==
+        _normalizeForCompare(exercise.correctAnswer);
     _applyResult(correct: correct, almost: false);
   }
 
@@ -251,7 +391,9 @@ class LessonProvider extends ChangeNotifier {
       input: input,
       acceptedAnswers: acceptedAnswersFor(exercise, locale),
       transliterationTolerance: exercise.expectsTransliteration,
-      articles: exercise.expectsTransliteration ? const [] : AnswerChecker.articlesFor(locale),
+      articles: exercise.expectsTransliteration
+          ? const []
+          : AnswerChecker.articlesFor(locale),
     );
     _applyResult(correct: result.isCorrect, almost: result.isAlmost);
   }
@@ -330,7 +472,9 @@ class LessonProvider extends ChangeNotifier {
   /// is available at all.
   Future<void> playIntroAudio() async {
     final s = _session;
-    if (s == null || !s.isIntro || s.currentIndex >= s.introLexemes.length) return;
+    if (s == null || !s.isIntro || s.currentIndex >= s.introLexemes.length) {
+      return;
+    }
     final lexeme = s.introLexemes[s.currentIndex];
     await audioService.speakText(id: lexeme.id, amharicText: lexeme.am);
   }
@@ -340,9 +484,15 @@ class LessonProvider extends ChangeNotifier {
   Future<void> playCurrentAudio() async {
     final exercise = _session?.currentExercise;
     if (exercise == null) return;
-    final amharicText = content.lexeme(exercise.subjectId)?.am ?? content.sentence(exercise.subjectId)?.am ?? '';
+    final amharicText =
+        content.lexeme(exercise.subjectId)?.am ??
+        content.sentence(exercise.subjectId)?.am ??
+        '';
     if (amharicText.isEmpty) return;
-    await audioService.speakText(id: exercise.subjectId, amharicText: amharicText);
+    await audioService.speakText(
+      id: exercise.subjectId,
+      amharicText: amharicText,
+    );
   }
 
   void endSession() {
@@ -355,4 +505,5 @@ extension _FirstOrNull<T> on Iterable<T> {
   T? get firstOrNull => isEmpty ? null : first;
 }
 
-String _normalizeForCompare(String v) => v.trim().toLowerCase().replaceAll(RegExp(r'\s+'), ' ');
+String _normalizeForCompare(String v) =>
+    v.trim().toLowerCase().replaceAll(RegExp(r'\s+'), ' ');
