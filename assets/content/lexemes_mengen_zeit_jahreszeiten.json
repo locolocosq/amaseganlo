@@ -1,0 +1,254 @@
+[
+  {
+    "id": "lex_viel",
+    "am": "ብዙ",
+    "tr": "bizu",
+    "pos": "adjective",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "viel",
+      "en": "much, many",
+      "sv": "mycket, många",
+      "nl": "veel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wenig",
+    "am": "ጥቂት",
+    "tr": "t'ik'it",
+    "pos": "adjective",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "wenig, ein paar",
+      "en": "little, few",
+      "sv": "lite, några",
+      "nl": "weinig, een paar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mehr",
+    "am": "ተጨማሪ",
+    "tr": "techemari",
+    "pos": "adjective",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "mehr, zusätzlich",
+      "en": "more, additional",
+      "sv": "mer, ytterligare",
+      "nl": "meer, extra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_alle",
+    "am": "ሁሉም",
+    "tr": "hulem",
+    "pos": "pronoun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "alle",
+      "en": "all",
+      "sv": "alla",
+      "nl": "alle"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_nichts",
+    "am": "ምንም",
+    "tr": "minim",
+    "pos": "pronoun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "nichts",
+      "en": "nothing",
+      "sv": "ingenting",
+      "nl": "niets"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_etwas",
+    "am": "የሆነ ነገር",
+    "tr": "yehone neger",
+    "pos": "pronoun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "etwas",
+      "en": "something",
+      "sv": "något",
+      "nl": "iets"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_genug",
+    "am": "በቂ",
+    "tr": "beki'",
+    "pos": "adjective",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "genug",
+      "en": "enough",
+      "sv": "nog",
+      "nl": "genoeg"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nachmittag",
+    "am": "ከሰዓት በኋላ",
+    "tr": "kese'at behwala",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "der Nachmittag",
+      "en": "afternoon",
+      "sv": "eftermiddag",
+      "nl": "namiddag"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mittag",
+    "am": "ቀትር",
+    "tr": "ket'ir",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "der Mittag",
+      "en": "noon",
+      "sv": "middag",
+      "nl": "middag"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mitternacht",
+    "am": "እኩለ ሌሊት",
+    "tr": "ikule lelit",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Mitternacht",
+      "en": "midnight",
+      "sv": "midnatt",
+      "nl": "middernacht"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wochenende",
+    "am": "የሳምንት መጨረሻ",
+    "tr": "yesamint mecheresha",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "das Wochenende",
+      "en": "weekend",
+      "sv": "helg",
+      "nl": "weekend"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_jahreszeit",
+    "am": "ወቅት",
+    "tr": "wek'it",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Jahreszeit",
+      "en": "season",
+      "sv": "årstid",
+      "nl": "seizoen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_regenzeit",
+    "am": "ክረምት",
+    "tr": "kiremt",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Regenzeit",
+      "en": "rainy season",
+      "sv": "regnperiod",
+      "nl": "regenseizoen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_trockenzeit",
+    "am": "በጋ",
+    "tr": "bega",
+    "pos": "noun",
+    "topic": "quantities_time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Trockenzeit, der Sommer",
+      "en": "dry season, summer",
+      "sv": "torrperiod, sommar",
+      "nl": "droge seizoen, zomer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

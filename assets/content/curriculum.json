@@ -38,7 +38,16 @@
     "lexemes_moebel.json",
     "lexemes_hoefliche_phrasen.json",
     "lexemes_materialien.json",
-    "lexemes_musikinstrumente.json"
+    "lexemes_musikinstrumente.json",
+    "lexemes_zahlen_21_99.json",
+    "lexemes_zahlen_mehr2.json",
+    "lexemes_verben_erweitert.json",
+    "lexemes_abstrakte_begriffe.json",
+    "lexemes_elektronik_kontinente.json",
+    "lexemes_mengen_zeit_jahreszeiten.json",
+    "lexemes_gesundheit_natur_schule.json",
+    "lexemes_kueche_farben_getraenke.json",
+    "lexemes_aethiopien_extra.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -77,7 +86,16 @@
     "sentences_moebel.json",
     "sentences_hoefliche_phrasen.json",
     "sentences_materialien.json",
-    "sentences_musikinstrumente.json"
+    "sentences_musikinstrumente.json",
+    "sentences_zahlen_21_99.json",
+    "sentences_zahlen_mehr2.json",
+    "sentences_verben_erweitert.json",
+    "sentences_abstrakte_begriffe.json",
+    "sentences_elektronik_kontinente.json",
+    "sentences_mengen_zeit_jahreszeiten.json",
+    "sentences_gesundheit_natur_schule.json",
+    "sentences_kueche_farben_getraenke.json",
+    "sentences_aethiopien_extra.json"
   ],
   "sections": [
     {
@@ -119,7 +137,11 @@
         "unit_haushalt",
         "unit_essen_mehr",
         "unit_zahlen_ordnung",
-        "unit_moebel"
+        "unit_moebel",
+        "unit_zahlen_21_99",
+        "unit_zahlen_mehr2",
+        "unit_mengen_zeit_jahreszeiten",
+        "unit_kueche_farben_getraenke"
       ]
     },
     {
@@ -144,7 +166,10 @@
         "unit_mehr_adjektive",
         "unit_laender",
         "unit_verben_mehr",
-        "unit_materialien"
+        "unit_materialien",
+        "unit_verben_erweitert",
+        "unit_elektronik_kontinente",
+        "unit_gesundheit_natur_schule"
       ]
     },
     {
@@ -163,7 +188,9 @@
         "unit_erzaehlen",
         "unit_kalender_aethiopien",
         "unit_hoefliche_phrasen",
-        "unit_musikinstrumente"
+        "unit_musikinstrumente",
+        "unit_abstrakte_begriffe",
+        "unit_aethiopien_extra"
       ]
     }
   ],
@@ -661,6 +688,123 @@
       },
       "topic": "instruments",
       "lessonFile": "unit_musikinstrumente_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_21_99",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zahlen 21-99",
+        "en": "Numbers 21-99",
+        "sv": "Siffror 21-99",
+        "nl": "Cijfers 21-99"
+      },
+      "topic": "numbers_21_99",
+      "lessonFile": "unit_zahlen_21_99_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_mehr2",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Mehr Ordnungs- und Hunderterzahlen",
+        "en": "More ordinals and hundreds",
+        "sv": "Fler ordningstal och hundratal",
+        "nl": "Meer rangtelwoorden en honderdtallen"
+      },
+      "topic": "numbers_more2",
+      "lessonFile": "unit_zahlen_mehr2_lessons.json"
+    },
+    {
+      "id": "unit_verben_erweitert",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Noch mehr Verben",
+        "en": "Even more verbs",
+        "sv": "Ännu fler verb",
+        "nl": "Nog meer werkwoorden"
+      },
+      "topic": "verbs_extended",
+      "lessonFile": "unit_verben_erweitert_lessons.json"
+    },
+    {
+      "id": "unit_abstrakte_begriffe",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Abstrakte Begriffe",
+        "en": "Abstract concepts",
+        "sv": "Abstrakta begrepp",
+        "nl": "Abstracte begrippen"
+      },
+      "topic": "abstract_concepts",
+      "lessonFile": "unit_abstrakte_begriffe_lessons.json"
+    },
+    {
+      "id": "unit_elektronik_kontinente",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Elektronik & Kontinente",
+        "en": "Electronics & continents",
+        "sv": "Elektronik & kontinenter",
+        "nl": "Elektronica & continenten"
+      },
+      "topic": "electronics_world",
+      "lessonFile": "unit_elektronik_kontinente_lessons.json"
+    },
+    {
+      "id": "unit_mengen_zeit_jahreszeiten",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Mengen, Zeit & Jahreszeiten",
+        "en": "Quantities, time & seasons",
+        "sv": "Mängder, tid & årstider",
+        "nl": "Hoeveelheden, tijd & seizoenen"
+      },
+      "topic": "quantities_time",
+      "lessonFile": "unit_mengen_zeit_jahreszeiten_lessons.json"
+    },
+    {
+      "id": "unit_gesundheit_natur_schule",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gesundheit, Natur & Schule (mehr)",
+        "en": "Health, nature & school (more)",
+        "sv": "Hälsa, natur & skola (mer)",
+        "nl": "Gezondheid, natuur & school (meer)"
+      },
+      "topic": "misc_a2",
+      "lessonFile": "unit_gesundheit_natur_schule_lessons.json"
+    },
+    {
+      "id": "unit_kueche_farben_getraenke",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Küche, Farben & Getränke (mehr)",
+        "en": "Kitchen, colors & drinks (more)",
+        "sv": "Kök, färger & drycker (mer)",
+        "nl": "Keuken, kleuren & dranken (meer)"
+      },
+      "topic": "kitchen_colors_drinks",
+      "lessonFile": "unit_kueche_farben_getraenke_lessons.json"
+    },
+    {
+      "id": "unit_aethiopien_extra",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Äthiopische Städte & Gerichte",
+        "en": "Ethiopian cities & dishes",
+        "sv": "Etiopiska städer & rätter",
+        "nl": "Ethiopische steden & gerechten"
+      },
+      "topic": "ethiopia_extra",
+      "lessonFile": "unit_aethiopien_extra_lessons.json"
     }
   ]
 }

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "unit_mengen_zeit_jahreszeiten_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_viel",
+      "lex_wenig",
+      "lex_mehr",
+      "lex_alle",
+      "lex_nichts",
+      "lex_etwas",
+      "lex_genug",
+      "lex_nachmittag",
+      "lex_mittag",
+      "lex_mitternacht",
+      "lex_wochenende",
+      "lex_jahreszeit",
+      "lex_regenzeit",
+      "lex_trockenzeit"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_mengen_zeit_jahreszeiten_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_viel",
+      "lex_wenig",
+      "lex_mehr",
+      "lex_alle",
+      "lex_nichts",
+      "lex_etwas",
+      "lex_genug",
+      "lex_nachmittag",
+      "lex_mittag",
+      "lex_mitternacht",
+      "lex_wochenende",
+      "lex_jahreszeit",
+      "lex_regenzeit",
+      "lex_trockenzeit"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_mengen_zeit_jahreszeiten_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_viel",
+      "lex_wenig",
+      "lex_mehr",
+      "lex_alle",
+      "lex_nichts",
+      "lex_etwas",
+      "lex_genug",
+      "lex_nachmittag",
+      "lex_mittag",
+      "lex_mitternacht",
+      "lex_wochenende",
+      "lex_jahreszeit",
+      "lex_regenzeit",
+      "lex_trockenzeit"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_mengen_zeit_jahreszeiten_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_viel",
+      "lex_wenig",
+      "lex_mehr",
+      "lex_alle",
+      "lex_nichts",
+      "lex_etwas",
+      "lex_genug",
+      "lex_nachmittag",
+      "lex_mittag",
+      "lex_mitternacht",
+      "lex_wochenende",
+      "lex_jahreszeit",
+      "lex_regenzeit",
+      "lex_trockenzeit"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_mengen_zeit_jahreszeiten_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_viel",
+      "lex_wenig",
+      "lex_mehr",
+      "lex_alle",
+      "lex_nichts",
+      "lex_etwas",
+      "lex_genug",
+      "lex_nachmittag",
+      "lex_mittag",
+      "lex_mitternacht",
+      "lex_wochenende",
+      "lex_jahreszeit",
+      "lex_regenzeit",
+      "lex_trockenzeit"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_mengen_zeit_jahreszeiten_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_viel",
+      "lex_wenig",
+      "lex_mehr",
+      "lex_alle",
+      "lex_nichts",
+      "lex_etwas",
+      "lex_genug",
+      "lex_nachmittag",
+      "lex_mittag",
+      "lex_mitternacht",
+      "lex_wochenende",
+      "lex_jahreszeit",
+      "lex_regenzeit",
+      "lex_trockenzeit"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

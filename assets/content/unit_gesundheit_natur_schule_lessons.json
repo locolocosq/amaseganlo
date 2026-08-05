@@ -1,0 +1,135 @@
+[
+  {
+    "id": "unit_gesundheit_natur_schule_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_impfung",
+      "lex_verletzung",
+      "lex_unfall",
+      "lex_regenbogen",
+      "lex_wueste",
+      "lex_gras",
+      "lex_insekt",
+      "lex_schulfach",
+      "lex_note",
+      "lex_nett",
+      "lex_vorsichtig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gesundheit_natur_schule_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_impfung",
+      "lex_verletzung",
+      "lex_unfall",
+      "lex_regenbogen",
+      "lex_wueste",
+      "lex_gras",
+      "lex_insekt",
+      "lex_schulfach",
+      "lex_note",
+      "lex_nett",
+      "lex_vorsichtig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_natur_schule_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_impfung",
+      "lex_verletzung",
+      "lex_unfall",
+      "lex_regenbogen",
+      "lex_wueste",
+      "lex_gras",
+      "lex_insekt",
+      "lex_schulfach",
+      "lex_note",
+      "lex_nett",
+      "lex_vorsichtig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_natur_schule_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_impfung",
+      "lex_verletzung",
+      "lex_unfall",
+      "lex_regenbogen",
+      "lex_wueste",
+      "lex_gras",
+      "lex_insekt",
+      "lex_schulfach",
+      "lex_note",
+      "lex_nett",
+      "lex_vorsichtig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_natur_schule_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_impfung",
+      "lex_verletzung",
+      "lex_unfall",
+      "lex_regenbogen",
+      "lex_wueste",
+      "lex_gras",
+      "lex_insekt",
+      "lex_schulfach",
+      "lex_note",
+      "lex_nett",
+      "lex_vorsichtig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_natur_schule_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_impfung",
+      "lex_verletzung",
+      "lex_unfall",
+      "lex_regenbogen",
+      "lex_wueste",
+      "lex_gras",
+      "lex_insekt",
+      "lex_schulfach",
+      "lex_note",
+      "lex_nett",
+      "lex_vorsichtig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

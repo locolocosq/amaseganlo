@@ -1,0 +1,159 @@
+[
+  {
+    "id": "unit_abstrakte_begriffe_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_idee",
+      "lex_problem",
+      "lex_loesung",
+      "lex_grund",
+      "lex_beispiel",
+      "lex_ganz",
+      "lex_haelfte",
+      "lex_nummer",
+      "lex_liste",
+      "lex_regel",
+      "lex_gesetz",
+      "lex_freiheit",
+      "lex_krieg",
+      "lex_sieg",
+      "lex_veraenderung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_abstrakte_begriffe_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_idee",
+      "lex_problem",
+      "lex_loesung",
+      "lex_grund",
+      "lex_beispiel",
+      "lex_ganz",
+      "lex_haelfte",
+      "lex_nummer",
+      "lex_liste",
+      "lex_regel",
+      "lex_gesetz",
+      "lex_freiheit",
+      "lex_krieg",
+      "lex_sieg",
+      "lex_veraenderung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_abstrakte_begriffe_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_idee",
+      "lex_problem",
+      "lex_loesung",
+      "lex_grund",
+      "lex_beispiel",
+      "lex_ganz",
+      "lex_haelfte",
+      "lex_nummer",
+      "lex_liste",
+      "lex_regel",
+      "lex_gesetz",
+      "lex_freiheit",
+      "lex_krieg",
+      "lex_sieg",
+      "lex_veraenderung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_abstrakte_begriffe_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_idee",
+      "lex_problem",
+      "lex_loesung",
+      "lex_grund",
+      "lex_beispiel",
+      "lex_ganz",
+      "lex_haelfte",
+      "lex_nummer",
+      "lex_liste",
+      "lex_regel",
+      "lex_gesetz",
+      "lex_freiheit",
+      "lex_krieg",
+      "lex_sieg",
+      "lex_veraenderung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_abstrakte_begriffe_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_idee",
+      "lex_problem",
+      "lex_loesung",
+      "lex_grund",
+      "lex_beispiel",
+      "lex_ganz",
+      "lex_haelfte",
+      "lex_nummer",
+      "lex_liste",
+      "lex_regel",
+      "lex_gesetz",
+      "lex_freiheit",
+      "lex_krieg",
+      "lex_sieg",
+      "lex_veraenderung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_abstrakte_begriffe_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_idee",
+      "lex_problem",
+      "lex_loesung",
+      "lex_grund",
+      "lex_beispiel",
+      "lex_ganz",
+      "lex_haelfte",
+      "lex_nummer",
+      "lex_liste",
+      "lex_regel",
+      "lex_gesetz",
+      "lex_freiheit",
+      "lex_krieg",
+      "lex_sieg",
+      "lex_veraenderung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "lex_zahl_21",
+    "am": "ሃያ አንድ",
+    "tr": "haya and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "21",
+      "en": "21",
+      "sv": "21",
+      "nl": "21"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_22",
+    "am": "ሃያ ሁለት",
+    "tr": "haya hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "22",
+      "en": "22",
+      "sv": "22",
+      "nl": "22"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_23",
+    "am": "ሃያ ሶስት",
+    "tr": "haya sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "23",
+      "en": "23",
+      "sv": "23",
+      "nl": "23"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_24",
+    "am": "ሃያ አራት",
+    "tr": "haya arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "24",
+      "en": "24",
+      "sv": "24",
+      "nl": "24"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_25",
+    "am": "ሃያ አምስት",
+    "tr": "haya amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "25",
+      "en": "25",
+      "sv": "25",
+      "nl": "25"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_26",
+    "am": "ሃያ ስድስት",
+    "tr": "haya sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "26",
+      "en": "26",
+      "sv": "26",
+      "nl": "26"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_27",
+    "am": "ሃያ ሰባት",
+    "tr": "haya sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "27",
+      "en": "27",
+      "sv": "27",
+      "nl": "27"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_28",
+    "am": "ሃያ ስምንት",
+    "tr": "haya siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "28",
+      "en": "28",
+      "sv": "28",
+      "nl": "28"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_29",
+    "am": "ሃያ ዘጠኝ",
+    "tr": "haya zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "29",
+      "en": "29",
+      "sv": "29",
+      "nl": "29"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_31",
+    "am": "ሰላሳ አንድ",
+    "tr": "selasa and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "31",
+      "en": "31",
+      "sv": "31",
+      "nl": "31"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_32",
+    "am": "ሰላሳ ሁለት",
+    "tr": "selasa hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "32",
+      "en": "32",
+      "sv": "32",
+      "nl": "32"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_33",
+    "am": "ሰላሳ ሶስት",
+    "tr": "selasa sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "33",
+      "en": "33",
+      "sv": "33",
+      "nl": "33"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_34",
+    "am": "ሰላሳ አራት",
+    "tr": "selasa arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "34",
+      "en": "34",
+      "sv": "34",
+      "nl": "34"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_35",
+    "am": "ሰላሳ አምስት",
+    "tr": "selasa amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "35",
+      "en": "35",
+      "sv": "35",
+      "nl": "35"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_36",
+    "am": "ሰላሳ ስድስት",
+    "tr": "selasa sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "36",
+      "en": "36",
+      "sv": "36",
+      "nl": "36"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_37",
+    "am": "ሰላሳ ሰባት",
+    "tr": "selasa sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "37",
+      "en": "37",
+      "sv": "37",
+      "nl": "37"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_38",
+    "am": "ሰላሳ ስምንት",
+    "tr": "selasa siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "38",
+      "en": "38",
+      "sv": "38",
+      "nl": "38"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_39",
+    "am": "ሰላሳ ዘጠኝ",
+    "tr": "selasa zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "39",
+      "en": "39",
+      "sv": "39",
+      "nl": "39"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_41",
+    "am": "አርባ አንድ",
+    "tr": "arba and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "41",
+      "en": "41",
+      "sv": "41",
+      "nl": "41"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_42",
+    "am": "አርባ ሁለት",
+    "tr": "arba hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "42",
+      "en": "42",
+      "sv": "42",
+      "nl": "42"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_43",
+    "am": "አርባ ሶስት",
+    "tr": "arba sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "43",
+      "en": "43",
+      "sv": "43",
+      "nl": "43"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_44",
+    "am": "አርባ አራት",
+    "tr": "arba arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "44",
+      "en": "44",
+      "sv": "44",
+      "nl": "44"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_45",
+    "am": "አርባ አምስት",
+    "tr": "arba amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "45",
+      "en": "45",
+      "sv": "45",
+      "nl": "45"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_46",
+    "am": "አርባ ስድስት",
+    "tr": "arba sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "46",
+      "en": "46",
+      "sv": "46",
+      "nl": "46"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_47",
+    "am": "አርባ ሰባት",
+    "tr": "arba sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "47",
+      "en": "47",
+      "sv": "47",
+      "nl": "47"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_48",
+    "am": "አርባ ስምንት",
+    "tr": "arba siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "48",
+      "en": "48",
+      "sv": "48",
+      "nl": "48"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_49",
+    "am": "አርባ ዘጠኝ",
+    "tr": "arba zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "49",
+      "en": "49",
+      "sv": "49",
+      "nl": "49"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_51",
+    "am": "ሃምሳ አንድ",
+    "tr": "hamsa and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "51",
+      "en": "51",
+      "sv": "51",
+      "nl": "51"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_52",
+    "am": "ሃምሳ ሁለት",
+    "tr": "hamsa hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "52",
+      "en": "52",
+      "sv": "52",
+      "nl": "52"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_53",
+    "am": "ሃምሳ ሶስት",
+    "tr": "hamsa sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "53",
+      "en": "53",
+      "sv": "53",
+      "nl": "53"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_54",
+    "am": "ሃምሳ አራት",
+    "tr": "hamsa arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "54",
+      "en": "54",
+      "sv": "54",
+      "nl": "54"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_55",
+    "am": "ሃምሳ አምስት",
+    "tr": "hamsa amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "55",
+      "en": "55",
+      "sv": "55",
+      "nl": "55"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_56",
+    "am": "ሃምሳ ስድስት",
+    "tr": "hamsa sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "56",
+      "en": "56",
+      "sv": "56",
+      "nl": "56"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_57",
+    "am": "ሃምሳ ሰባት",
+    "tr": "hamsa sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "57",
+      "en": "57",
+      "sv": "57",
+      "nl": "57"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_58",
+    "am": "ሃምሳ ስምንት",
+    "tr": "hamsa siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "58",
+      "en": "58",
+      "sv": "58",
+      "nl": "58"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_59",
+    "am": "ሃምሳ ዘጠኝ",
+    "tr": "hamsa zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "59",
+      "en": "59",
+      "sv": "59",
+      "nl": "59"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_61",
+    "am": "ስድሳ አንድ",
+    "tr": "sidsa and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "61",
+      "en": "61",
+      "sv": "61",
+      "nl": "61"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_62",
+    "am": "ስድሳ ሁለት",
+    "tr": "sidsa hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "62",
+      "en": "62",
+      "sv": "62",
+      "nl": "62"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_63",
+    "am": "ስድሳ ሶስት",
+    "tr": "sidsa sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "63",
+      "en": "63",
+      "sv": "63",
+      "nl": "63"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_64",
+    "am": "ስድሳ አራት",
+    "tr": "sidsa arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "64",
+      "en": "64",
+      "sv": "64",
+      "nl": "64"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_65",
+    "am": "ስድሳ አምስት",
+    "tr": "sidsa amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "65",
+      "en": "65",
+      "sv": "65",
+      "nl": "65"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_66",
+    "am": "ስድሳ ስድስት",
+    "tr": "sidsa sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "66",
+      "en": "66",
+      "sv": "66",
+      "nl": "66"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_67",
+    "am": "ስድሳ ሰባት",
+    "tr": "sidsa sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "67",
+      "en": "67",
+      "sv": "67",
+      "nl": "67"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_68",
+    "am": "ስድሳ ስምንት",
+    "tr": "sidsa siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "68",
+      "en": "68",
+      "sv": "68",
+      "nl": "68"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_69",
+    "am": "ስድሳ ዘጠኝ",
+    "tr": "sidsa zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "69",
+      "en": "69",
+      "sv": "69",
+      "nl": "69"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_71",
+    "am": "ሰባ አንድ",
+    "tr": "seba and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "71",
+      "en": "71",
+      "sv": "71",
+      "nl": "71"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_72",
+    "am": "ሰባ ሁለት",
+    "tr": "seba hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "72",
+      "en": "72",
+      "sv": "72",
+      "nl": "72"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_73",
+    "am": "ሰባ ሶስት",
+    "tr": "seba sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "73",
+      "en": "73",
+      "sv": "73",
+      "nl": "73"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_74",
+    "am": "ሰባ አራት",
+    "tr": "seba arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "74",
+      "en": "74",
+      "sv": "74",
+      "nl": "74"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_75",
+    "am": "ሰባ አምስት",
+    "tr": "seba amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "75",
+      "en": "75",
+      "sv": "75",
+      "nl": "75"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_76",
+    "am": "ሰባ ስድስት",
+    "tr": "seba sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "76",
+      "en": "76",
+      "sv": "76",
+      "nl": "76"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_77",
+    "am": "ሰባ ሰባት",
+    "tr": "seba sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "77",
+      "en": "77",
+      "sv": "77",
+      "nl": "77"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_78",
+    "am": "ሰባ ስምንት",
+    "tr": "seba siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "78",
+      "en": "78",
+      "sv": "78",
+      "nl": "78"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_79",
+    "am": "ሰባ ዘጠኝ",
+    "tr": "seba zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "79",
+      "en": "79",
+      "sv": "79",
+      "nl": "79"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_81",
+    "am": "ሰማንያ አንድ",
+    "tr": "semania and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "81",
+      "en": "81",
+      "sv": "81",
+      "nl": "81"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_82",
+    "am": "ሰማንያ ሁለት",
+    "tr": "semania hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "82",
+      "en": "82",
+      "sv": "82",
+      "nl": "82"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_83",
+    "am": "ሰማንያ ሶስት",
+    "tr": "semania sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "83",
+      "en": "83",
+      "sv": "83",
+      "nl": "83"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_84",
+    "am": "ሰማንያ አራት",
+    "tr": "semania arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "84",
+      "en": "84",
+      "sv": "84",
+      "nl": "84"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_85",
+    "am": "ሰማንያ አምስት",
+    "tr": "semania amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "85",
+      "en": "85",
+      "sv": "85",
+      "nl": "85"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_86",
+    "am": "ሰማንያ ስድስት",
+    "tr": "semania sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "86",
+      "en": "86",
+      "sv": "86",
+      "nl": "86"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_87",
+    "am": "ሰማንያ ሰባት",
+    "tr": "semania sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "87",
+      "en": "87",
+      "sv": "87",
+      "nl": "87"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_88",
+    "am": "ሰማንያ ስምንት",
+    "tr": "semania siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "88",
+      "en": "88",
+      "sv": "88",
+      "nl": "88"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_89",
+    "am": "ሰማንያ ዘጠኝ",
+    "tr": "semania zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "89",
+      "en": "89",
+      "sv": "89",
+      "nl": "89"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_91",
+    "am": "ዘጠና አንድ",
+    "tr": "zetena and",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "91",
+      "en": "91",
+      "sv": "91",
+      "nl": "91"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_92",
+    "am": "ዘጠና ሁለት",
+    "tr": "zetena hulet",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "92",
+      "en": "92",
+      "sv": "92",
+      "nl": "92"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_93",
+    "am": "ዘጠና ሶስት",
+    "tr": "zetena sost",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "93",
+      "en": "93",
+      "sv": "93",
+      "nl": "93"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_94",
+    "am": "ዘጠና አራት",
+    "tr": "zetena arat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "94",
+      "en": "94",
+      "sv": "94",
+      "nl": "94"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_95",
+    "am": "ዘጠና አምስት",
+    "tr": "zetena amist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "95",
+      "en": "95",
+      "sv": "95",
+      "nl": "95"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_96",
+    "am": "ዘጠና ስድስት",
+    "tr": "zetena sidist",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "96",
+      "en": "96",
+      "sv": "96",
+      "nl": "96"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_97",
+    "am": "ዘጠና ሰባት",
+    "tr": "zetena sebat",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "97",
+      "en": "97",
+      "sv": "97",
+      "nl": "97"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_98",
+    "am": "ዘጠና ስምንት",
+    "tr": "zetena siminit",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "98",
+      "en": "98",
+      "sv": "98",
+      "nl": "98"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_99",
+    "am": "ዘጠና ዘጠኝ",
+    "tr": "zetena zet'egn",
+    "pos": "number",
+    "topic": "numbers_21_99",
+    "level": "A1.2",
+    "t": {
+      "de": "99",
+      "en": "99",
+      "sv": "99",
+      "nl": "99"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

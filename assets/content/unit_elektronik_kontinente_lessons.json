@@ -1,0 +1,135 @@
+[
+  {
+    "id": "unit_elektronik_kontinente_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_telefon",
+      "lex_internet",
+      "lex_email",
+      "lex_nachricht",
+      "lex_batterie",
+      "lex_v_anrufen",
+      "lex_foto",
+      "lex_europa",
+      "lex_asien",
+      "lex_afrika",
+      "lex_australien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_elektronik_kontinente_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_telefon",
+      "lex_internet",
+      "lex_email",
+      "lex_nachricht",
+      "lex_batterie",
+      "lex_v_anrufen",
+      "lex_foto",
+      "lex_europa",
+      "lex_asien",
+      "lex_afrika",
+      "lex_australien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_elektronik_kontinente_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_telefon",
+      "lex_internet",
+      "lex_email",
+      "lex_nachricht",
+      "lex_batterie",
+      "lex_v_anrufen",
+      "lex_foto",
+      "lex_europa",
+      "lex_asien",
+      "lex_afrika",
+      "lex_australien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_elektronik_kontinente_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_telefon",
+      "lex_internet",
+      "lex_email",
+      "lex_nachricht",
+      "lex_batterie",
+      "lex_v_anrufen",
+      "lex_foto",
+      "lex_europa",
+      "lex_asien",
+      "lex_afrika",
+      "lex_australien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_elektronik_kontinente_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_telefon",
+      "lex_internet",
+      "lex_email",
+      "lex_nachricht",
+      "lex_batterie",
+      "lex_v_anrufen",
+      "lex_foto",
+      "lex_europa",
+      "lex_asien",
+      "lex_afrika",
+      "lex_australien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_elektronik_kontinente_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_telefon",
+      "lex_internet",
+      "lex_email",
+      "lex_nachricht",
+      "lex_batterie",
+      "lex_v_anrufen",
+      "lex_foto",
+      "lex_europa",
+      "lex_asien",
+      "lex_afrika",
+      "lex_australien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "unit_aethiopien_extra_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gondar",
+      "lex_axum",
+      "lex_lalibela",
+      "lex_bahirdar",
+      "lex_mekelle",
+      "lex_hawassa",
+      "lex_tibs",
+      "lex_kitfo",
+      "lex_wat",
+      "lex_firfir"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_aethiopien_extra_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gondar",
+      "lex_axum",
+      "lex_lalibela",
+      "lex_bahirdar",
+      "lex_mekelle",
+      "lex_hawassa",
+      "lex_tibs",
+      "lex_kitfo",
+      "lex_wat",
+      "lex_firfir"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_aethiopien_extra_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gondar",
+      "lex_axum",
+      "lex_lalibela",
+      "lex_bahirdar",
+      "lex_mekelle",
+      "lex_hawassa",
+      "lex_tibs",
+      "lex_kitfo",
+      "lex_wat",
+      "lex_firfir"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_aethiopien_extra_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gondar",
+      "lex_axum",
+      "lex_lalibela",
+      "lex_bahirdar",
+      "lex_mekelle",
+      "lex_hawassa",
+      "lex_tibs",
+      "lex_kitfo",
+      "lex_wat",
+      "lex_firfir"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_aethiopien_extra_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gondar",
+      "lex_axum",
+      "lex_lalibela",
+      "lex_bahirdar",
+      "lex_mekelle",
+      "lex_hawassa",
+      "lex_tibs",
+      "lex_kitfo",
+      "lex_wat",
+      "lex_firfir"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_aethiopien_extra_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gondar",
+      "lex_axum",
+      "lex_lalibela",
+      "lex_bahirdar",
+      "lex_mekelle",
+      "lex_hawassa",
+      "lex_tibs",
+      "lex_kitfo",
+      "lex_wat",
+      "lex_firfir"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

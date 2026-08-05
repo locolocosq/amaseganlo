@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_impfung",
+    "am": "ክትባት",
+    "tr": "kitibat",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "die Impfung",
+      "en": "vaccination",
+      "sv": "vaccination",
+      "nl": "vaccinatie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_verletzung",
+    "am": "ጉዳት",
+    "tr": "gudat",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "die Verletzung",
+      "en": "injury",
+      "sv": "skada",
+      "nl": "verwonding"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_unfall",
+    "am": "አደጋ",
+    "tr": "adega",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "der Unfall",
+      "en": "accident",
+      "sv": "olycka",
+      "nl": "ongeluk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_regenbogen",
+    "am": "ቀስተ ደመና",
+    "tr": "k'este demena",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "der Regenbogen",
+      "en": "rainbow",
+      "sv": "regnbåge",
+      "nl": "regenboog"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌈",
+    "verified": true
+  },
+  {
+    "id": "lex_wueste",
+    "am": "በረሃ",
+    "tr": "bereha",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "die Wüste",
+      "en": "desert",
+      "sv": "öken",
+      "nl": "woestijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gras",
+    "am": "ሳር",
+    "tr": "sar",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "das Gras",
+      "en": "grass",
+      "sv": "gräs",
+      "nl": "gras"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_insekt",
+    "am": "ተባይ",
+    "tr": "tebay",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "das Insekt",
+      "en": "insect",
+      "sv": "insekt",
+      "nl": "insect"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schulfach",
+    "am": "ትምህርት",
+    "tr": "timhirt",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "das Schulfach, die Bildung",
+      "en": "school subject, education",
+      "sv": "skolämne, utbildning",
+      "nl": "schoolvak, onderwijs"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_note",
+    "am": "ውጤት",
+    "tr": "wit'et",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "die Note, das Ergebnis",
+      "en": "grade, result",
+      "sv": "betyg, resultat",
+      "nl": "cijfer, resultaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nett",
+    "am": "ደግ",
+    "tr": "deg",
+    "pos": "adjective",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "nett, freundlich",
+      "en": "kind, friendly",
+      "sv": "snäll, vänlig",
+      "nl": "aardig, vriendelijk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_vorsichtig",
+    "am": "ጥንቃቄ",
+    "tr": "t'inik'ak'e",
+    "pos": "noun",
+    "topic": "misc_a2",
+    "level": "A2",
+    "t": {
+      "de": "die Vorsicht, vorsichtig",
+      "en": "caution, careful",
+      "sv": "försiktighet",
+      "nl": "voorzichtigheid"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

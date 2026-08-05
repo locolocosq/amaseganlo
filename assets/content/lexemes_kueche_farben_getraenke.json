@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_kuehlschrank",
+    "am": "ማቀዝቀዣ",
+    "tr": "mak'ezk'eza",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Kühlschrank",
+      "en": "refrigerator",
+      "sv": "kylskåp",
+      "nl": "koelkast"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧊",
+    "verified": false
+  },
+  {
+    "id": "lex_ofen",
+    "am": "ምድጃ",
+    "tr": "midija",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Ofen, Herd",
+      "en": "oven, stove",
+      "sv": "ugn, spis",
+      "nl": "oven, fornuis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gold",
+    "am": "ወርቅ",
+    "tr": "werk'",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "das Gold",
+      "en": "gold",
+      "sv": "guld",
+      "nl": "goud"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥇",
+    "verified": true
+  },
+  {
+    "id": "lex_silber",
+    "am": "ብር",
+    "tr": "bir",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "das Silber",
+      "en": "silver",
+      "sv": "silver",
+      "nl": "zilver"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bier",
+    "am": "ቢራ",
+    "tr": "bira",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "das Bier",
+      "en": "beer",
+      "sv": "öl",
+      "nl": "bier"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍺",
+    "verified": true
+  },
+  {
+    "id": "lex_wein",
+    "am": "ወይን",
+    "tr": "wain",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Wein",
+      "en": "wine",
+      "sv": "vin",
+      "nl": "wijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍷",
+    "verified": false
+  },
+  {
+    "id": "lex_saft",
+    "am": "ጭማቂ",
+    "tr": "chimak'i",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Saft",
+      "en": "juice",
+      "sv": "juice",
+      "nl": "sap"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧃",
+    "verified": false
+  }
+]

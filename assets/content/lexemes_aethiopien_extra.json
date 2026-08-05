@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_gondar",
+    "am": "ጎንደር",
+    "tr": "gonder",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Gondar (Stadt)",
+      "en": "Gondar (city)",
+      "sv": "Gondar (stad)",
+      "nl": "Gondar (stad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_axum",
+    "am": "አክሱም",
+    "tr": "aksum",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Axum (Stadt)",
+      "en": "Axum (city)",
+      "sv": "Axum (stad)",
+      "nl": "Axum (stad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_lalibela",
+    "am": "ላሊበላ",
+    "tr": "lalibela",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Lalibela (Stadt)",
+      "en": "Lalibela (city)",
+      "sv": "Lalibela (stad)",
+      "nl": "Lalibela (stad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bahirdar",
+    "am": "ባህር ዳር",
+    "tr": "bahir dar",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Bahir Dar (Stadt)",
+      "en": "Bahir Dar (city)",
+      "sv": "Bahir Dar (stad)",
+      "nl": "Bahir Dar (stad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mekelle",
+    "am": "መቀሌ",
+    "tr": "mekele",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Mekelle (Stadt)",
+      "en": "Mekelle (city)",
+      "sv": "Mekelle (stad)",
+      "nl": "Mekelle (stad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hawassa",
+    "am": "ሀዋሳ",
+    "tr": "hawassa",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Hawassa (Stadt)",
+      "en": "Hawassa (city)",
+      "sv": "Hawassa (stad)",
+      "nl": "Hawassa (stad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tibs",
+    "am": "ጥብስ",
+    "tr": "t'ibs",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Tibs (gebratenes Fleisch)",
+      "en": "tibs (fried meat)",
+      "sv": "tibs (stekt kött)",
+      "nl": "tibs (gebakken vlees)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍖",
+    "verified": true
+  },
+  {
+    "id": "lex_kitfo",
+    "am": "ክትፎ",
+    "tr": "kitfo",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Kitfo (Hackfleisch-Gericht)",
+      "en": "kitfo (minced meat dish)",
+      "sv": "kitfo (köttfärsrätt)",
+      "nl": "kitfo (gehaktgerecht)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍽️",
+    "verified": true
+  },
+  {
+    "id": "lex_wat",
+    "am": "ወጥ",
+    "tr": "wat",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Wat (Eintopf/Soße)",
+      "en": "wat (stew)",
+      "sv": "wat (gryta)",
+      "nl": "wat (stoofpot)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍲",
+    "verified": true
+  },
+  {
+    "id": "lex_firfir",
+    "am": "ፍርፍር",
+    "tr": "firfir",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Firfir (Injera-Gericht)",
+      "en": "firfir (injera dish)",
+      "sv": "firfir (injera-rätt)",
+      "nl": "firfir (injeragerecht)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]
