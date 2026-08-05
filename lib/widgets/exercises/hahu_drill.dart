@@ -26,7 +26,7 @@ class HaHuDrill extends StatefulWidget {
   State<HaHuDrill> createState() => _HaHuDrillState();
 }
 
-class _HaHuDrillState extends State<HaHuDrill> {
+class _HaHuDrillState extends State<HaHuDrill> with WidgetsBindingObserver {
   late List<FidelChar> _sorted;
   int _round = 0; // 0: with transliteration, 1: signs only
   int _beatIndex = 0;
@@ -36,8 +36,21 @@ class _HaHuDrillState extends State<HaHuDrill> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _sorted = List<FidelChar>.from(widget.chars)..sort((a, b) => a.order.compareTo(b.order));
     _startTimer();
+  }
+
+  /// Abschnitt C3: the beat must not keep advancing while the app is
+  /// backgrounded - without this, returning to the app could find the drill
+  /// already finished (and navigated away) with nobody having watched it.
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      _startTimer();
+    } else {
+      _timer?.cancel();
+    }
   }
 
   void _startTimer() {
@@ -70,6 +83,7 @@ class _HaHuDrillState extends State<HaHuDrill> {
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _timer?.cancel();
     super.dispose();
   }

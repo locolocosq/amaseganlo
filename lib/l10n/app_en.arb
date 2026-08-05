@@ -64,6 +64,13 @@
   "resetProgressConfirmWord": "delete",
   "resetProgressDone": "Your progress has been reset.",
 
+  "backupProgressDone": "Your progress has been backed up.",
+  "backupProgressError": "Backing up failed.",
+  "restoreProgressTitle": "Restore progress?",
+  "restoreProgressWarning": "Your current progress will be replaced by the backup from this file. This cannot be undone.",
+  "restoreProgressDone": "Your progress has been restored.",
+  "restoreProgressInvalidFile": "This file is not a valid Amaseganlo backup.",
+
   "aboutVersion": "Version",
   "aboutBuildDate": "Build date",
   "aboutPrivacy": "All your data stays on this device. No account, no server, no ads, no tracking.",

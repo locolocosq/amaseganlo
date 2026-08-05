@@ -173,6 +173,19 @@ class ProgressProvider extends ChangeNotifier {
     await _mutate((_) => const UserProgress());
   }
 
+  /// Serializes all progress for the "Fortschritt sichern" export
+  /// (Abschnitt C1) - the exact same shape [_load] reads back on restore.
+  String exportJson() => jsonEncode(_progress.toJson());
+
+  /// Replaces all progress with the contents of a previously exported
+  /// backup. Throws [FormatException]/[TypeError] on invalid input; the
+  /// caller (a user-triggered settings action, not a silent startup path
+  /// like [_load]) is expected to catch that and show an error.
+  Future<void> importJson(String json) async {
+    final decoded = UserProgress.fromJson(jsonDecode(json) as Map<String, dynamic>);
+    await _mutate((_) => decoded);
+  }
+
   List<String> dueLexemeIds(DateTime now) {
     return _progress.lexemeCards.entries.where((e) => Leitner.isDue(e.value, now)).map((e) => e.key).toList();
   }

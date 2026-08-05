@@ -64,6 +64,13 @@
   "resetProgressConfirmWord": "löschen",
   "resetProgressDone": "Dein Fortschritt wurde zurückgesetzt.",
 
+  "backupProgressDone": "Dein Fortschritt wurde gesichert.",
+  "backupProgressError": "Sichern ist fehlgeschlagen.",
+  "restoreProgressTitle": "Fortschritt wiederherstellen?",
+  "restoreProgressWarning": "Dein aktueller Fortschritt wird durch die Sicherung aus dieser Datei ersetzt. Das kann nicht rückgängig gemacht werden.",
+  "restoreProgressDone": "Dein Fortschritt wurde wiederhergestellt.",
+  "restoreProgressInvalidFile": "Diese Datei ist keine gültige Amaseganlo-Sicherung.",
+
   "aboutVersion": "Version",
   "aboutBuildDate": "Erstellungsdatum",
   "aboutPrivacy": "Alle deine Daten bleiben auf diesem Gerät. Kein Konto, kein Server, keine Werbung, kein Tracking.",

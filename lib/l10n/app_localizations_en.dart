@@ -188,6 +188,26 @@ class AppLocalizationsEn extends AppLocalizations {
   String get resetProgressDone => 'Your progress has been reset.';
 
   @override
+  String get backupProgressDone => 'Your progress has been backed up.';
+
+  @override
+  String get backupProgressError => 'Backing up failed.';
+
+  @override
+  String get restoreProgressTitle => 'Restore progress?';
+
+  @override
+  String get restoreProgressWarning =>
+      'Your current progress will be replaced by the backup from this file. This cannot be undone.';
+
+  @override
+  String get restoreProgressDone => 'Your progress has been restored.';
+
+  @override
+  String get restoreProgressInvalidFile =>
+      'This file is not a valid Amaseganlo backup.';
+
+  @override
   String get aboutVersion => 'Version';
 
   @override

@@ -64,6 +64,13 @@
   "resetProgressConfirmWord": "verwijderen",
   "resetProgressDone": "Je voortgang is gereset.",
 
+  "backupProgressDone": "Je voortgang is geback-upt.",
+  "backupProgressError": "Backuppen is mislukt.",
+  "restoreProgressTitle": "Voortgang herstellen?",
+  "restoreProgressWarning": "Je huidige voortgang wordt vervangen door de backup uit dit bestand. Dit kan niet ongedaan worden gemaakt.",
+  "restoreProgressDone": "Je voortgang is hersteld.",
+  "restoreProgressInvalidFile": "Dit bestand is geen geldige Amaseganlo-backup.",
+
   "aboutVersion": "Versie",
   "aboutBuildDate": "Builddatum",
   "aboutPrivacy": "Al je gegevens blijven op dit apparaat. Geen account, geen server, geen advertenties, geen tracking.",

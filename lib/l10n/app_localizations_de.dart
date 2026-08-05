@@ -188,6 +188,26 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resetProgressDone => 'Dein Fortschritt wurde zurückgesetzt.';
 
   @override
+  String get backupProgressDone => 'Dein Fortschritt wurde gesichert.';
+
+  @override
+  String get backupProgressError => 'Sichern ist fehlgeschlagen.';
+
+  @override
+  String get restoreProgressTitle => 'Fortschritt wiederherstellen?';
+
+  @override
+  String get restoreProgressWarning =>
+      'Dein aktueller Fortschritt wird durch die Sicherung aus dieser Datei ersetzt. Das kann nicht rückgängig gemacht werden.';
+
+  @override
+  String get restoreProgressDone => 'Dein Fortschritt wurde wiederhergestellt.';
+
+  @override
+  String get restoreProgressInvalidFile =>
+      'Diese Datei ist keine gültige Amaseganlo-Sicherung.';
+
+  @override
   String get aboutVersion => 'Version';
 
   @override

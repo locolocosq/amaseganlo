@@ -188,6 +188,26 @@ class AppLocalizationsNl extends AppLocalizations {
   String get resetProgressDone => 'Je voortgang is gereset.';
 
   @override
+  String get backupProgressDone => 'Je voortgang is geback-upt.';
+
+  @override
+  String get backupProgressError => 'Backuppen is mislukt.';
+
+  @override
+  String get restoreProgressTitle => 'Voortgang herstellen?';
+
+  @override
+  String get restoreProgressWarning =>
+      'Je huidige voortgang wordt vervangen door de backup uit dit bestand. Dit kan niet ongedaan worden gemaakt.';
+
+  @override
+  String get restoreProgressDone => 'Je voortgang is hersteld.';
+
+  @override
+  String get restoreProgressInvalidFile =>
+      'Dit bestand is geen geldige Amaseganlo-backup.';
+
+  @override
   String get aboutVersion => 'Versie';
 
   @override

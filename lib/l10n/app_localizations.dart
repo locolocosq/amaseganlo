@@ -456,6 +456,42 @@ abstract class AppLocalizations {
   /// **'Your progress has been reset.'**
   String get resetProgressDone;
 
+  /// No description provided for @backupProgressDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Your progress has been backed up.'**
+  String get backupProgressDone;
+
+  /// No description provided for @backupProgressError.
+  ///
+  /// In en, this message translates to:
+  /// **'Backing up failed.'**
+  String get backupProgressError;
+
+  /// No description provided for @restoreProgressTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore progress?'**
+  String get restoreProgressTitle;
+
+  /// No description provided for @restoreProgressWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'Your current progress will be replaced by the backup from this file. This cannot be undone.'**
+  String get restoreProgressWarning;
+
+  /// No description provided for @restoreProgressDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Your progress has been restored.'**
+  String get restoreProgressDone;
+
+  /// No description provided for @restoreProgressInvalidFile.
+  ///
+  /// In en, this message translates to:
+  /// **'This file is not a valid Amaseganlo backup.'**
+  String get restoreProgressInvalidFile;
+
   /// No description provided for @aboutVersion.
   ///
   /// In en, this message translates to:

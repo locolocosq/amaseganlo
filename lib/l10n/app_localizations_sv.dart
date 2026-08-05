@@ -187,6 +187,27 @@ class AppLocalizationsSv extends AppLocalizations {
   String get resetProgressDone => 'Dina framsteg har återställts.';
 
   @override
+  String get backupProgressDone => 'Dina framsteg har säkerhetskopierats.';
+
+  @override
+  String get backupProgressError => 'Säkerhetskopieringen misslyckades.';
+
+  @override
+  String get restoreProgressTitle => 'Återställa framsteg?';
+
+  @override
+  String get restoreProgressWarning =>
+      'Dina nuvarande framsteg ersätts av säkerhetskopian från den här filen. Det kan inte ångras.';
+
+  @override
+  String get restoreProgressDone =>
+      'Dina framsteg har återställts från säkerhetskopian.';
+
+  @override
+  String get restoreProgressInvalidFile =>
+      'Den här filen är ingen giltig Amaseganlo-säkerhetskopia.';
+
+  @override
   String get aboutVersion => 'Version';
 
   @override

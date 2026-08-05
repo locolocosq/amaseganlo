@@ -1,3 +1,7 @@
+import 'dart:convert';
+import 'dart:typed_data';
+
+import 'package:file_selector/file_selector.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -6,7 +10,10 @@ import '../../core/language_names.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/settings.dart';
+import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
+
+const _backupTypeGroup = XTypeGroup(label: 'json', extensions: ['json']);
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -237,14 +244,12 @@ class SettingsScreen extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.cloud_upload_outlined),
             title: Text(l10n.settingsBackupProgress),
-            subtitle: Text(l10n.commonComingSoon),
-            enabled: false,
+            onTap: () => _backupProgress(context, l10n),
           ),
           ListTile(
             leading: const Icon(Icons.cloud_download_outlined),
             title: Text(l10n.settingsRestoreProgress),
-            subtitle: Text(l10n.commonComingSoon),
-            enabled: false,
+            onTap: () => _restoreProgress(context, l10n),
           ),
           ListTile(
             leading: Icon(Icons.delete_outline, color: Theme.of(context).colorScheme.error),
@@ -309,6 +314,67 @@ class SettingsScreen extends StatelessWidget {
     await context.read<SettingsProvider>().setOnboardingCompleted(false);
     if (!context.mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.resetProgressDone)));
+  }
+
+  /// Exports the current progress as a JSON file. Uses the same
+  /// [XFile.saveTo] call on every platform: on Web this triggers a browser
+  /// download (the [FileSaveLocation.path] is ignored there), on
+  /// Android/iOS it writes to the path the user picked - see
+  /// ENTSCHEIDUNGEN.md Etappe 10 for why this works without `dart:io`.
+  Future<void> _backupProgress(BuildContext context, AppLocalizations l10n) async {
+    final progress = context.read<ProgressProvider>();
+    try {
+      final location = await getSaveLocation(
+        suggestedName: 'amaseganlo_backup.json',
+        acceptedTypeGroups: const [_backupTypeGroup],
+      );
+      if (location == null) return;
+      final bytes = Uint8List.fromList(utf8.encode(progress.exportJson()));
+      final file = XFile.fromData(bytes, name: 'amaseganlo_backup.json', mimeType: 'application/json');
+      await file.saveTo(location.path);
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.backupProgressDone)));
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.backupProgressError)));
+    }
+  }
+
+  Future<void> _restoreProgress(BuildContext context, AppLocalizations l10n) async {
+    final file = await openFile(acceptedTypeGroups: const [_backupTypeGroup]);
+    if (file == null || !context.mounted) return;
+
+    String contents;
+    try {
+      contents = await file.readAsString();
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.restoreProgressInvalidFile)));
+      return;
+    }
+    if (!context.mounted) return;
+
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l10n.restoreProgressTitle),
+        content: Text(l10n.restoreProgressWarning),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(l10n.commonCancel)),
+          FilledButton(onPressed: () => Navigator.pop(ctx, true), child: Text(l10n.commonConfirm)),
+        ],
+      ),
+    );
+    if (confirmed != true || !context.mounted) return;
+
+    try {
+      await context.read<ProgressProvider>().importJson(contents);
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.restoreProgressDone)));
+    } catch (_) {
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.restoreProgressInvalidFile)));
+    }
   }
 }
 

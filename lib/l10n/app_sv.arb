@@ -64,6 +64,13 @@
   "resetProgressConfirmWord": "radera",
   "resetProgressDone": "Dina framsteg har återställts.",
 
+  "backupProgressDone": "Dina framsteg har säkerhetskopierats.",
+  "backupProgressError": "Säkerhetskopieringen misslyckades.",
+  "restoreProgressTitle": "Återställa framsteg?",
+  "restoreProgressWarning": "Dina nuvarande framsteg ersätts av säkerhetskopian från den här filen. Det kan inte ångras.",
+  "restoreProgressDone": "Dina framsteg har återställts från säkerhetskopian.",
+  "restoreProgressInvalidFile": "Den här filen är ingen giltig Amaseganlo-säkerhetskopia.",
+
   "aboutVersion": "Version",
   "aboutBuildDate": "Byggdatum",
   "aboutPrivacy": "All din data stannar på den här enheten. Inget konto, ingen server, ingen reklam, ingen spårning.",

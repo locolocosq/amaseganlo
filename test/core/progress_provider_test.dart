@@ -140,6 +140,28 @@ void main() {
       expect(provider.overallAccuracy, closeTo(2 / 3, 0.0001));
     });
 
+    test('exportJson/importJson round-trip restores an equivalent progress state', () async {
+      final provider = await _freshProvider();
+      await provider.addXp(30, dailyGoalXp: 50, now: DateTime(2026, 1, 1));
+      await provider.recordLexemeAnswer('lex_selam', correct: true);
+      final exported = provider.exportJson();
+
+      final other = await _freshProvider();
+      await other.addXp(5, dailyGoalXp: 50);
+      await other.importJson(exported);
+
+      expect(other.progress.xpTotal, 30);
+      expect(other.progress.lexemeCards['lex_selam']?.box, 1);
+    });
+
+    test('importJson rejects invalid JSON without touching existing progress', () async {
+      final provider = await _freshProvider();
+      await provider.addXp(10, dailyGoalXp: 50);
+
+      await expectLater(provider.importJson('not valid json'), throwsA(anything));
+      expect(provider.progress.xpTotal, 10);
+    });
+
     test('xpForLastDays returns each day\'s XP oldest first, 0 for days with no activity', () async {
       final provider = await _freshProvider();
       final today = DateTime(2026, 1, 10);
