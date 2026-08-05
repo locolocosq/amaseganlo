@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../../models/exercise.dart';
@@ -9,6 +10,17 @@ import '../exercises/build_chunks_exercise.dart';
 import '../exercises/multiple_choice_exercise.dart';
 import '../exercises/pair_matching_exercise.dart';
 import '../exercises/typing_exercise.dart';
+
+final Map<LogicalKeyboardKey, int> _digitKeys = {
+  LogicalKeyboardKey.digit1: 0,
+  LogicalKeyboardKey.digit2: 1,
+  LogicalKeyboardKey.digit3: 2,
+  LogicalKeyboardKey.digit4: 3,
+  LogicalKeyboardKey.numpad1: 0,
+  LogicalKeyboardKey.numpad2: 1,
+  LogicalKeyboardKey.numpad3: 2,
+  LogicalKeyboardKey.numpad4: 3,
+};
 
 /// The exercise-answer loop shared by every ad-hoc session screen
 /// (Wiederholung, Kapitel-Test): renders the current exercise, tracks its
@@ -42,11 +54,52 @@ class _ExercisePlayerState extends State<ExercisePlayer> {
   final TextEditingController _textController = TextEditingController();
   List<String> _selectedChunks = [];
   List<String> _availableChunks = [];
+  final FocusNode _focusNode = FocusNode();
 
   @override
   void dispose() {
     _textController.dispose();
+    _focusNode.dispose();
     super.dispose();
+  }
+
+  /// Abschnitt C10: 1-4 picks a choice option, Enter confirms/continues,
+  /// Escape is "Ich weiß es nicht", Space replays audio. Typing exercises
+  /// keep their own text field's focus (and its own Enter-to-submit, see
+  /// TypingExercise) - this handler only claims focus itself for
+  /// choice/build exercises, which have no naturally focused text input.
+  KeyEventResult _handleKey(FocusNode node, KeyEvent event, LessonProvider lessonProvider) {
+    if (event is! KeyDownEvent) return KeyEventResult.ignored;
+    final session = widget.session;
+    final exercise = session.currentExercise;
+    if (exercise == null) return KeyEventResult.ignored;
+
+    if (session.answered) {
+      if (event.logicalKey == LogicalKeyboardKey.enter) {
+        _handleContinue(session, lessonProvider);
+        return KeyEventResult.handled;
+      }
+      return KeyEventResult.ignored;
+    }
+
+    if (event.logicalKey == LogicalKeyboardKey.escape) {
+      lessonProvider.skipCurrentExercise();
+      return KeyEventResult.handled;
+    }
+    if (event.logicalKey == LogicalKeyboardKey.space && exercise.isAudioPrompt) {
+      lessonProvider.playCurrentAudio();
+      return KeyEventResult.handled;
+    }
+    if (exercise.isChoiceBased) {
+      final index = _digitKeys[event.logicalKey];
+      if (index != null && index < exercise.options.length) {
+        final value = exercise.options[index];
+        setState(() => _selectedOption = value);
+        lessonProvider.submitChoiceOrBuildAnswer(value);
+        return KeyEventResult.handled;
+      }
+    }
+    return KeyEventResult.ignored;
   }
 
   void _resetLocalState(GeneratedExercise? exercise) {
@@ -70,24 +123,34 @@ class _ExercisePlayerState extends State<ExercisePlayer> {
       _availableChunks = List.of(exercise.chunks);
     }
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        Expanded(
-          child: SingleChildScrollView(
-            child: _buildExerciseBody(exercise, session, lessonProvider),
+    // Choice/build exercises have no naturally focused text input, so this
+    // wrapper claims focus itself; typing exercises keep their own
+    // autofocus text field instead (avoids fighting over focus).
+    final claimsFocus = exercise.isChoiceBased || exercise.isBuildBased;
+
+    return Focus(
+      focusNode: _focusNode,
+      autofocus: claimsFocus,
+      onKeyEvent: (node, event) => _handleKey(node, event, lessonProvider),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              child: _buildExerciseBody(exercise, session, lessonProvider),
+            ),
           ),
-        ),
-        if (!session.answered)
-          DontKnowLink(onPressed: () => lessonProvider.skipCurrentExercise()),
-        FeedbackBar(
-          isCorrect: session.answered ? session.lastAnswerCorrect : null,
-          isAlmost: session.lastAnswerAlmost,
-          isSkipped: session.lastAnswerSkipped,
-          correctAnswerText: exercise.correctAnswer,
-          onContinue: () => _handleContinue(session, lessonProvider),
-        ),
-      ],
+          if (!session.answered)
+            DontKnowLink(onPressed: () => lessonProvider.skipCurrentExercise()),
+          FeedbackBar(
+            isCorrect: session.answered ? session.lastAnswerCorrect : null,
+            isAlmost: session.lastAnswerAlmost,
+            isSkipped: session.lastAnswerSkipped,
+            correctAnswerText: exercise.correctAnswer,
+            onContinue: () => _handleContinue(session, lessonProvider),
+          ),
+        ],
+      ),
     );
   }
 

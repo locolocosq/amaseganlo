@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
@@ -29,6 +30,17 @@ class LessonScreen extends StatefulWidget {
   State<LessonScreen> createState() => _LessonScreenState();
 }
 
+final Map<LogicalKeyboardKey, int> _lessonDigitKeys = {
+  LogicalKeyboardKey.digit1: 0,
+  LogicalKeyboardKey.digit2: 1,
+  LogicalKeyboardKey.digit3: 2,
+  LogicalKeyboardKey.digit4: 3,
+  LogicalKeyboardKey.numpad1: 0,
+  LogicalKeyboardKey.numpad2: 1,
+  LogicalKeyboardKey.numpad3: 2,
+  LogicalKeyboardKey.numpad4: 3,
+};
+
 class _LessonScreenState extends State<LessonScreen> {
   String? _selectedOption;
   final TextEditingController _textController = TextEditingController();
@@ -36,6 +48,7 @@ class _LessonScreenState extends State<LessonScreen> {
   List<String> _availableChunks = [];
   bool _started = false;
   bool _finishing = false;
+  final FocusNode _exerciseFocusNode = FocusNode();
 
   @override
   void didChangeDependencies() {
@@ -61,6 +74,7 @@ class _LessonScreenState extends State<LessonScreen> {
   @override
   void dispose() {
     _textController.dispose();
+    _exerciseFocusNode.dispose();
     super.dispose();
   }
 
@@ -204,24 +218,75 @@ class _LessonScreenState extends State<LessonScreen> {
       _availableChunks = List.of(exercise.chunks);
     }
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        Expanded(
-          child: SingleChildScrollView(
-            child: _buildExerciseBody(context, exercise, session, lessonProvider, locale),
+    // Choice/build exercises have no naturally focused text input, so this
+    // wrapper claims focus itself; typing exercises keep their own
+    // autofocus text field instead (avoids fighting over focus).
+    final claimsFocus = exercise.isChoiceBased || exercise.isBuildBased;
+
+    return Focus(
+      focusNode: _exerciseFocusNode,
+      autofocus: claimsFocus,
+      onKeyEvent: (node, event) => _handleExerciseKey(context, event, session, lessonProvider, exercise, locale),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              child: _buildExerciseBody(context, exercise, session, lessonProvider, locale),
+            ),
           ),
-        ),
-        if (!session.answered) DontKnowLink(onPressed: () => _handleDontKnow(context, exercise, locale)),
-        FeedbackBar(
-          isCorrect: session.answered ? session.lastAnswerCorrect : null,
-          isAlmost: session.lastAnswerAlmost,
-          isSkipped: session.lastAnswerSkipped,
-          correctAnswerText: exercise.correctAnswer,
-          onContinue: () => _handleContinue(context, session),
-        ),
-      ],
+          if (!session.answered) DontKnowLink(onPressed: () => _handleDontKnow(context, exercise, locale)),
+          FeedbackBar(
+            isCorrect: session.answered ? session.lastAnswerCorrect : null,
+            isAlmost: session.lastAnswerAlmost,
+            isSkipped: session.lastAnswerSkipped,
+            correctAnswerText: exercise.correctAnswer,
+            onContinue: () => _handleContinue(context, session),
+          ),
+        ],
+      ),
     );
+  }
+
+  /// Abschnitt C10: 1-4/Enter/Escape/Space keyboard shortcuts - see the
+  /// identical handler on `ExercisePlayer` (used by the other exercise
+  /// screens) for why this is a second copy for now.
+  KeyEventResult _handleExerciseKey(
+    BuildContext context,
+    KeyEvent event,
+    LessonSession session,
+    LessonProvider lessonProvider,
+    GeneratedExercise exercise,
+    String locale,
+  ) {
+    if (event is! KeyDownEvent) return KeyEventResult.ignored;
+
+    if (session.answered) {
+      if (event.logicalKey == LogicalKeyboardKey.enter) {
+        _handleContinue(context, session);
+        return KeyEventResult.handled;
+      }
+      return KeyEventResult.ignored;
+    }
+
+    if (event.logicalKey == LogicalKeyboardKey.escape) {
+      _handleDontKnow(context, exercise, locale);
+      return KeyEventResult.handled;
+    }
+    if (event.logicalKey == LogicalKeyboardKey.space && exercise.isAudioPrompt) {
+      lessonProvider.playCurrentAudio();
+      return KeyEventResult.handled;
+    }
+    if (exercise.isChoiceBased) {
+      final index = _lessonDigitKeys[event.logicalKey];
+      if (index != null && index < exercise.options.length) {
+        final value = _optionLabel(exercise.options[index], exercise, locale);
+        setState(() => _selectedOption = value);
+        lessonProvider.submitChoiceOrBuildAnswer(_originalFor(value, exercise, locale));
+        return KeyEventResult.handled;
+      }
+    }
+    return KeyEventResult.ignored;
   }
 
   Widget _buildExerciseBody(
