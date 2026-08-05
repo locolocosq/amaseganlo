@@ -482,4 +482,50 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get exitAppConfirm => 'Press back again to exit';
+
+  @override
+  String get exerciseCheckAnswer => 'Check';
+
+  @override
+  String get exerciseTypeAnswerHint => 'Type your answer…';
+
+  @override
+  String get exercisePairMatchingHint => 'Tap matching pairs';
+
+  @override
+  String get exerciseTrueFalseQuestion => 'Is this correct?';
+
+  @override
+  String get exerciseTrue => 'True';
+
+  @override
+  String get exerciseFalse => 'False';
+
+  @override
+  String get exerciseAudioUnavailable =>
+      'Amharic audio isn\'t available on this device';
+
+  @override
+  String get introCardContinue => 'Continue';
+
+  @override
+  String get lessonKindIntro => 'New words';
+
+  @override
+  String get lessonKindWordPractice => 'Practice words';
+
+  @override
+  String get lessonKindSentenceBuilding => 'Build sentences';
+
+  @override
+  String get lessonKindListening => 'Listening';
+
+  @override
+  String get lessonKindFreeApplication => 'Free practice';
+
+  @override
+  String get lessonKindReview => 'Review';
+
+  @override
+  String get lessonKindUnitTest => 'Unit test';
 }

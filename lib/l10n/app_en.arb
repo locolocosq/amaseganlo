@@ -196,5 +196,22 @@
   "resumeLessonContinue": "Continue",
   "resumeLessonRestart": "Start over",
 
-  "exitAppConfirm": "Press back again to exit"
+  "exitAppConfirm": "Press back again to exit",
+
+  "exerciseCheckAnswer": "Check",
+  "exerciseTypeAnswerHint": "Type your answer…",
+  "exercisePairMatchingHint": "Tap matching pairs",
+  "exerciseTrueFalseQuestion": "Is this correct?",
+  "exerciseTrue": "True",
+  "exerciseFalse": "False",
+  "exerciseAudioUnavailable": "Amharic audio isn't available on this device",
+  "introCardContinue": "Continue",
+
+  "lessonKindIntro": "New words",
+  "lessonKindWordPractice": "Practice words",
+  "lessonKindSentenceBuilding": "Build sentences",
+  "lessonKindListening": "Listening",
+  "lessonKindFreeApplication": "Free practice",
+  "lessonKindReview": "Review",
+  "lessonKindUnitTest": "Unit test"
 }

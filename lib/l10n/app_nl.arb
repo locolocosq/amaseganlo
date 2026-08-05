@@ -196,5 +196,22 @@
   "resumeLessonContinue": "Doorgaan",
   "resumeLessonRestart": "Opnieuw beginnen",
 
-  "exitAppConfirm": "Druk nogmaals op terug om te stoppen"
+  "exitAppConfirm": "Druk nogmaals op terug om te stoppen",
+
+  "exerciseCheckAnswer": "Controleren",
+  "exerciseTypeAnswerHint": "Typ je antwoord…",
+  "exercisePairMatchingHint": "Tik op bijpassende paren",
+  "exerciseTrueFalseQuestion": "Is dit juist?",
+  "exerciseTrue": "Juist",
+  "exerciseFalse": "Onjuist",
+  "exerciseAudioUnavailable": "Amhaars geluid is niet beschikbaar op dit apparaat",
+  "introCardContinue": "Verder",
+
+  "lessonKindIntro": "Nieuwe woorden",
+  "lessonKindWordPractice": "Woorden oefenen",
+  "lessonKindSentenceBuilding": "Zinnen bouwen",
+  "lessonKindListening": "Luisteren",
+  "lessonKindFreeApplication": "Vrij oefenen",
+  "lessonKindReview": "Herhaling",
+  "lessonKindUnitTest": "Hoofdstuktest"
 }

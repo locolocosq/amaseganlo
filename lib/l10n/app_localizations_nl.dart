@@ -480,4 +480,50 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get exitAppConfirm => 'Druk nogmaals op terug om te stoppen';
+
+  @override
+  String get exerciseCheckAnswer => 'Controleren';
+
+  @override
+  String get exerciseTypeAnswerHint => 'Typ je antwoord…';
+
+  @override
+  String get exercisePairMatchingHint => 'Tik op bijpassende paren';
+
+  @override
+  String get exerciseTrueFalseQuestion => 'Is dit juist?';
+
+  @override
+  String get exerciseTrue => 'Juist';
+
+  @override
+  String get exerciseFalse => 'Onjuist';
+
+  @override
+  String get exerciseAudioUnavailable =>
+      'Amhaars geluid is niet beschikbaar op dit apparaat';
+
+  @override
+  String get introCardContinue => 'Verder';
+
+  @override
+  String get lessonKindIntro => 'Nieuwe woorden';
+
+  @override
+  String get lessonKindWordPractice => 'Woorden oefenen';
+
+  @override
+  String get lessonKindSentenceBuilding => 'Zinnen bouwen';
+
+  @override
+  String get lessonKindListening => 'Luisteren';
+
+  @override
+  String get lessonKindFreeApplication => 'Vrij oefenen';
+
+  @override
+  String get lessonKindReview => 'Herhaling';
+
+  @override
+  String get lessonKindUnitTest => 'Hoofdstuktest';
 }

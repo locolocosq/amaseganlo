@@ -196,5 +196,22 @@
   "resumeLessonContinue": "Fortsätt",
   "resumeLessonRestart": "Börja om",
 
-  "exitAppConfirm": "Tryck tillbaka igen för att avsluta"
+  "exitAppConfirm": "Tryck tillbaka igen för att avsluta",
+
+  "exerciseCheckAnswer": "Kontrollera",
+  "exerciseTypeAnswerHint": "Skriv ditt svar…",
+  "exercisePairMatchingHint": "Tryck på matchande par",
+  "exerciseTrueFalseQuestion": "Är detta rätt?",
+  "exerciseTrue": "Rätt",
+  "exerciseFalse": "Fel",
+  "exerciseAudioUnavailable": "Amhariskt ljud är inte tillgängligt på den här enheten",
+  "introCardContinue": "Fortsätt",
+
+  "lessonKindIntro": "Nya ord",
+  "lessonKindWordPractice": "Öva ord",
+  "lessonKindSentenceBuilding": "Bygg meningar",
+  "lessonKindListening": "Lyssna",
+  "lessonKindFreeApplication": "Fri övning",
+  "lessonKindReview": "Repetition",
+  "lessonKindUnitTest": "Kapiteltest"
 }

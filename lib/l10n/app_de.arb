@@ -196,5 +196,22 @@
   "resumeLessonContinue": "Weitermachen",
   "resumeLessonRestart": "Neu beginnen",
 
-  "exitAppConfirm": "Noch einmal drücken zum Beenden"
+  "exitAppConfirm": "Noch einmal drücken zum Beenden",
+
+  "exerciseCheckAnswer": "Prüfen",
+  "exerciseTypeAnswerHint": "Antwort eingeben…",
+  "exercisePairMatchingHint": "Tippe passende Paare an",
+  "exerciseTrueFalseQuestion": "Stimmt das?",
+  "exerciseTrue": "Richtig",
+  "exerciseFalse": "Falsch",
+  "exerciseAudioUnavailable": "Ton für Amharisch ist auf diesem Gerät nicht verfügbar",
+  "introCardContinue": "Weiter",
+
+  "lessonKindIntro": "Neue Wörter",
+  "lessonKindWordPractice": "Wörter üben",
+  "lessonKindSentenceBuilding": "Sätze bauen",
+  "lessonKindListening": "Hören",
+  "lessonKindFreeApplication": "Freies Anwenden",
+  "lessonKindReview": "Wiederholung",
+  "lessonKindUnitTest": "Kapitel-Test"
 }

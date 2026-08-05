@@ -481,4 +481,50 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get exitAppConfirm => 'Tryck tillbaka igen för att avsluta';
+
+  @override
+  String get exerciseCheckAnswer => 'Kontrollera';
+
+  @override
+  String get exerciseTypeAnswerHint => 'Skriv ditt svar…';
+
+  @override
+  String get exercisePairMatchingHint => 'Tryck på matchande par';
+
+  @override
+  String get exerciseTrueFalseQuestion => 'Är detta rätt?';
+
+  @override
+  String get exerciseTrue => 'Rätt';
+
+  @override
+  String get exerciseFalse => 'Fel';
+
+  @override
+  String get exerciseAudioUnavailable =>
+      'Amhariskt ljud är inte tillgängligt på den här enheten';
+
+  @override
+  String get introCardContinue => 'Fortsätt';
+
+  @override
+  String get lessonKindIntro => 'Nya ord';
+
+  @override
+  String get lessonKindWordPractice => 'Öva ord';
+
+  @override
+  String get lessonKindSentenceBuilding => 'Bygg meningar';
+
+  @override
+  String get lessonKindListening => 'Lyssna';
+
+  @override
+  String get lessonKindFreeApplication => 'Fri övning';
+
+  @override
+  String get lessonKindReview => 'Repetition';
+
+  @override
+  String get lessonKindUnitTest => 'Kapiteltest';
 }

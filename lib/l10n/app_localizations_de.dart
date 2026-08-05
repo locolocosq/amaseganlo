@@ -482,4 +482,50 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get exitAppConfirm => 'Noch einmal drücken zum Beenden';
+
+  @override
+  String get exerciseCheckAnswer => 'Prüfen';
+
+  @override
+  String get exerciseTypeAnswerHint => 'Antwort eingeben…';
+
+  @override
+  String get exercisePairMatchingHint => 'Tippe passende Paare an';
+
+  @override
+  String get exerciseTrueFalseQuestion => 'Stimmt das?';
+
+  @override
+  String get exerciseTrue => 'Richtig';
+
+  @override
+  String get exerciseFalse => 'Falsch';
+
+  @override
+  String get exerciseAudioUnavailable =>
+      'Ton für Amharisch ist auf diesem Gerät nicht verfügbar';
+
+  @override
+  String get introCardContinue => 'Weiter';
+
+  @override
+  String get lessonKindIntro => 'Neue Wörter';
+
+  @override
+  String get lessonKindWordPractice => 'Wörter üben';
+
+  @override
+  String get lessonKindSentenceBuilding => 'Sätze bauen';
+
+  @override
+  String get lessonKindListening => 'Hören';
+
+  @override
+  String get lessonKindFreeApplication => 'Freies Anwenden';
+
+  @override
+  String get lessonKindReview => 'Wiederholung';
+
+  @override
+  String get lessonKindUnitTest => 'Kapitel-Test';
 }

@@ -989,6 +989,96 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Press back again to exit'**
   String get exitAppConfirm;
+
+  /// No description provided for @exerciseCheckAnswer.
+  ///
+  /// In en, this message translates to:
+  /// **'Check'**
+  String get exerciseCheckAnswer;
+
+  /// No description provided for @exerciseTypeAnswerHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Type your answer…'**
+  String get exerciseTypeAnswerHint;
+
+  /// No description provided for @exercisePairMatchingHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap matching pairs'**
+  String get exercisePairMatchingHint;
+
+  /// No description provided for @exerciseTrueFalseQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Is this correct?'**
+  String get exerciseTrueFalseQuestion;
+
+  /// No description provided for @exerciseTrue.
+  ///
+  /// In en, this message translates to:
+  /// **'True'**
+  String get exerciseTrue;
+
+  /// No description provided for @exerciseFalse.
+  ///
+  /// In en, this message translates to:
+  /// **'False'**
+  String get exerciseFalse;
+
+  /// No description provided for @exerciseAudioUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Amharic audio isn\'t available on this device'**
+  String get exerciseAudioUnavailable;
+
+  /// No description provided for @introCardContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get introCardContinue;
+
+  /// No description provided for @lessonKindIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'New words'**
+  String get lessonKindIntro;
+
+  /// No description provided for @lessonKindWordPractice.
+  ///
+  /// In en, this message translates to:
+  /// **'Practice words'**
+  String get lessonKindWordPractice;
+
+  /// No description provided for @lessonKindSentenceBuilding.
+  ///
+  /// In en, this message translates to:
+  /// **'Build sentences'**
+  String get lessonKindSentenceBuilding;
+
+  /// No description provided for @lessonKindListening.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening'**
+  String get lessonKindListening;
+
+  /// No description provided for @lessonKindFreeApplication.
+  ///
+  /// In en, this message translates to:
+  /// **'Free practice'**
+  String get lessonKindFreeApplication;
+
+  /// No description provided for @lessonKindReview.
+  ///
+  /// In en, this message translates to:
+  /// **'Review'**
+  String get lessonKindReview;
+
+  /// No description provided for @lessonKindUnitTest.
+  ///
+  /// In en, this message translates to:
+  /// **'Unit test'**
+  String get lessonKindUnitTest;
 }
 
 class _AppLocalizationsDelegate

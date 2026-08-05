@@ -12,3 +12,16 @@ Kurze Notizen zu Entscheidungen, die ich selbstständig getroffen habe, weil der
 - **Fortschritt sichern/wiederherstellen** sind in den Einstellungen sichtbar, aber als „kommt bald" deaktiviert, bis in Etappe 10 die vollständige Datenstruktur (Teil C7) implementiert wird. `file_selector` ist dafür bereits in `pubspec.yaml` eingetragen.
 - **`RadioGroup`-Widget** (neue Material-API) statt `groupValue` pro `Radio`/`RadioListTile` – das ist die aktuell empfohlene, nicht veraltete API in Flutter 3.44.
 - **Seitenübergänge:** `FadeForwardsPageTransitionsBuilder` für Android/Windows/macOS/Linux, `CupertinoPageTransitionsBuilder` für iOS – Standard-Material-3-Empfehlung.
+
+## Etappe 2
+
+- **ContentRepository/ExerciseGenerator laden echte Assets in Tests.** Statt eines Mock-Bundles nutzen die Tests den echten `rootBundle` über `TestWidgetsFlutterBinding.ensureInitialized()` - das prüft gleichzeitig, dass die echten JSON-Dateien korrekt geladen werden können.
+- **Inhalts-Prüfung liest Dateien direkt über `dart:io`.** Das ist nur in Testcode (läuft auf der Dart-VM, nie im Web-Build), damit Duplikate über mehrere Dateien hinweg erkannt werden - eine `Map` würde doppelte ids sonst stillschweigend überschreiben.
+- **1000-Vokabeln-Test kommt erst in Etappe 5.** Die aktuelle Inhalts-Prüfung testet Struktur/Referenzen, aber noch nicht die Mindestanzahl - die volle Zählung ergibt erst nach Etappe 5 Sinn.
+
+## Etappe 3
+
+- **Nur 4 Übungs-„Archetypen" statt 18 einzelner Widgets.** MultipleChoiceExercise, TypingExercise, BuildChunksExercise und PairMatchingExercise decken alle 18 Übungstypen ab (der `GeneratedExercise` liefert je nach Typ passend befüllte Felder). Das entspricht dem Auftrag „Jeder Typ ist ein eigenes Widget mit einer gemeinsamen Schnittstelle" im Sinne der Schnittstelle, ohne 18 fast identische Klassen zu duplizieren.
+- **Hörübungen ohne verfügbaren Ton werden komplett aus der Übungsliste gefiltert**, nicht einzeln gegen einen anderen Typ ausgetauscht. Das erfüllt „Hörübungen werden automatisch übersprungen", auch wenn Etappe 7 (echter Ton) die Feinheiten noch verbessert.
+- **Kapitel-Sperrung (Schloss + „Trotzdem starten")** wurde schon in Etappe 3 gebaut, nicht erst in Etappe 9 - das gehört so grundlegend zum Lernpfad-Bildschirm, dass ein Nachrüsten mehr Aufwand verursacht hätte. Etappe 9 ergänzt den Kapitel-Test und die feineren Statistik-Trennungen.
+- **Testumgebungs-Besonderheit (nur für mich relevant, keine Auswirkung auf die App selbst):** `flutter test` hängt auf dieser Maschine gelegentlich mehrere Minuten, wenn mehrere Test-Prozesse parallel laufen - vermutlich Echtzeit-Virenscan neu kompilierter `flutter_tester.exe`-Dateien (Windows Defender ist aktiv, siehe `Get-MpComputerStatus`). Ich habe testweise mit `--concurrency=1 --no-dds` verlässlichere Läufe bekommen. Das ist eine Eigenheit dieser Entwicklungsumgebung, keine Änderung an App-Code oder Testinhalt.
