@@ -1241,6 +1241,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'You haven\'t finished the previous stage yet. Start anyway?'**
   String get fidelLockedDialogBody;
+
+  /// No description provided for @settingsHahuTempo.
+  ///
+  /// In en, this message translates to:
+  /// **'Ha-Hu rhythm speed'**
+  String get settingsHahuTempo;
+
+  /// No description provided for @hahuTempoSlow.
+  ///
+  /// In en, this message translates to:
+  /// **'Slow'**
+  String get hahuTempoSlow;
+
+  /// No description provided for @hahuTempoNormal.
+  ///
+  /// In en, this message translates to:
+  /// **'Normal'**
+  String get hahuTempoNormal;
+
+  /// No description provided for @hahuTempoFast.
+  ///
+  /// In en, this message translates to:
+  /// **'Fast'**
+  String get hahuTempoFast;
+
+  /// No description provided for @hahuDrillTapHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap along to the rhythm'**
+  String get hahuDrillTapHint;
+
+  /// No description provided for @hahuDrillWithTransliteration.
+  ///
+  /// In en, this message translates to:
+  /// **'Round 1 of 2: with transliteration'**
+  String get hahuDrillWithTransliteration;
+
+  /// No description provided for @hahuDrillCharsOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Round 2 of 2: signs only'**
+  String get hahuDrillCharsOnly;
+
+  /// No description provided for @hahuDrillContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get hahuDrillContinue;
 }
 
 class _AppLocalizationsDelegate

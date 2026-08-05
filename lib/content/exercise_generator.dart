@@ -2,6 +2,7 @@ import 'dart:math';
 
 import '../models/exercise.dart';
 import '../models/fidel_char.dart';
+import '../models/fidel_extra.dart';
 import '../models/lesson.dart';
 import '../models/lexeme.dart';
 import '../models/sentence.dart';
@@ -330,6 +331,177 @@ class FidelExerciseGenerator {
       promptText: subject.tr,
       correctAnswer: subject.char,
       options: options,
+    );
+  }
+
+  /// Stufe 4: join 2-3 signs from [pool] into a syllable (real word or not,
+  /// per Teil B) and choose the matching transliteration.
+  GeneratedExercise generateSyllableJoinChoice(List<FidelChar> pool, {int length = 2}) {
+    final combo = _randomCombo(pool, length);
+    final correctAnswer = combo.map((c) => c.tr).join();
+    final promptText = combo.map((c) => c.char).join();
+
+    final options = <String>{correctAnswer};
+    var attempts = 0;
+    while (options.length < 4 && attempts < 30) {
+      attempts++;
+      final distractorCombo = _randomCombo(pool, length);
+      options.add(distractorCombo.map((c) => c.tr).join());
+    }
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordRead,
+      subjectId: 'fidel_syllable:$promptText',
+      promptText: promptText,
+      correctAnswer: correctAnswer,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  /// Stufe 4, the reverse direction: given a transliteration, build the sign
+  /// sequence by tapping the right glyphs in order.
+  GeneratedExercise generateSyllableJoinBuild(List<FidelChar> pool, {int length = 2}) {
+    final combo = _randomCombo(pool, length);
+    final correctAnswer = combo.map((c) => c.char).join();
+    final promptText = combo.map((c) => c.tr).join();
+
+    final distractorPool = pool.where((c) => !combo.contains(c)).toList()..shuffle(random);
+    final chunks = [...combo.map((c) => c.char), ...distractorPool.take(2).map((c) => c.char)]..shuffle(random);
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordBuild,
+      subjectId: 'fidel_syllable:$correctAnswer',
+      promptText: promptText,
+      correctAnswer: correctAnswer,
+      chunks: chunks,
+    );
+  }
+
+  List<FidelChar> _randomCombo(List<FidelChar> pool, int length) {
+    final shuffled = List<FidelChar>.from(pool)..shuffle(random);
+    return shuffled.take(length).toList();
+  }
+
+  /// Stufe 5: show a word in Fidel, choose its meaning.
+  GeneratedExercise generateWordReadChoice(Lexeme subject, String locale) {
+    final correctAnswer = subject.t[locale] ?? subject.tr;
+    final distractorPool = repository.allLexemes.where((l) => l.id != subject.id).toList()..shuffle(random);
+    final options = <String>{correctAnswer};
+    for (final l in distractorPool) {
+      if (options.length >= 4) break;
+      final text = l.t[locale];
+      if (text != null && text.isNotEmpty) options.add(text);
+    }
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordRead,
+      subjectId: 'fidel_word:${subject.id}',
+      promptText: subject.am,
+      correctAnswer: correctAnswer,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  /// Stufe 5: show a word in Fidel, type what you read (in transliteration).
+  GeneratedExercise generateWordReadTyping(Lexeme subject) {
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordRead,
+      subjectId: 'fidel_word:${subject.id}',
+      promptText: subject.am,
+      correctAnswer: subject.tr,
+      expectsTransliteration: true,
+    );
+  }
+
+  /// Stufe 5: given the meaning, pick the right word written in Fidel.
+  GeneratedExercise generateWordChoiceFromMeaning(Lexeme subject, String locale) {
+    final correctAnswer = subject.am;
+    final distractorPool = repository.allLexemes.where((l) => l.id != subject.id && l.am.isNotEmpty).toList()..shuffle(random);
+    final options = <String>{correctAnswer, ...distractorPool.take(3).map((l) => l.am)};
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordRead,
+      subjectId: 'fidel_word:${subject.id}',
+      promptText: subject.t[locale] ?? subject.tr,
+      correctAnswer: correctAnswer,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  /// Stufe 5: build the Fidel word sign by sign from its transliteration.
+  GeneratedExercise generateWordBuild(Lexeme subject) {
+    final signs = subject.am.runes.map(String.fromCharCode).where((c) => c.trim().isNotEmpty).toList();
+    final distractorPool = repository.allFidelChars.where((c) => !signs.contains(c.char)).toList()..shuffle(random);
+    final chunks = [...signs, ...distractorPool.take(2).map((c) => c.char)]..shuffle(random);
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordBuild,
+      subjectId: 'fidel_word:${subject.id}',
+      promptText: subject.tr,
+      correctAnswer: subject.am,
+      chunks: chunks,
+    );
+  }
+
+  /// Stufe 6: show a sentence in Fidel, choose its meaning.
+  GeneratedExercise generateSentenceReadChoice(Sentence subject, String locale) {
+    final correctAnswer = subject.t[locale] ?? subject.tr;
+    final distractorPool = repository.allSentences.where((s) => s.id != subject.id).toList()..shuffle(random);
+    final options = <String>{correctAnswer};
+    for (final s in distractorPool) {
+      if (options.length >= 4) break;
+      final text = s.t[locale];
+      if (text != null && text.isNotEmpty) options.add(text);
+    }
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordRead,
+      subjectId: 'fidel_sentence:${subject.id}',
+      allSubjectIds: subject.uses,
+      promptText: subject.am,
+      correctAnswer: correctAnswer,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  /// Stufe 6: show a sentence in Fidel, type its translation.
+  GeneratedExercise generateSentenceReadTranslate(Sentence subject, String locale) {
+    return GeneratedExercise(
+      type: ExerciseType.fidelWordRead,
+      subjectId: 'fidel_sentence:${subject.id}',
+      allSubjectIds: subject.uses,
+      promptText: subject.am,
+      correctAnswer: subject.t[locale] ?? subject.tr,
+      answerLocale: locale,
+    );
+  }
+
+  /// Stufe 7: numerals, punctuation, labialized forms - sign shown, meaning
+  /// chosen from the same category.
+  GeneratedExercise generateExtraCharToMeaning(FidelExtra subject, List<FidelExtra> categoryPool) {
+    final distractors = categoryPool.where((e) => e.char != subject.char).toList()..shuffle(random);
+    final options = <String>{subject.tr, ...distractors.take(3).map((e) => e.tr)};
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelCharToSound,
+      subjectId: 'fidel_extra:${subject.char}',
+      promptText: subject.char,
+      correctAnswer: subject.tr,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  /// Stufe 7, reverse direction: meaning shown, choose the sign.
+  GeneratedExercise generateExtraMeaningToChar(FidelExtra subject, List<FidelExtra> categoryPool) {
+    final distractors = categoryPool.where((e) => e.char != subject.char).toList()..shuffle(random);
+    final options = <String>{subject.char, ...distractors.take(3).map((e) => e.char)};
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelSoundToChar,
+      subjectId: 'fidel_extra:${subject.char}',
+      promptText: subject.tr,
+      correctAnswer: subject.char,
+      options: options.toList()..shuffle(random),
     );
   }
 }

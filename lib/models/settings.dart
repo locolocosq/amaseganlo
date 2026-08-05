@@ -8,6 +8,21 @@ enum DailyGoal { relaxed, normal, ambitious }
 
 enum FidelLearningPath { traditional, fast }
 
+enum HahuTempo { slow, normal, fast }
+
+extension HahuTempoDuration on HahuTempo {
+  Duration get tickDuration {
+    switch (this) {
+      case HahuTempo.slow:
+        return const Duration(milliseconds: 1400);
+      case HahuTempo.normal:
+        return const Duration(milliseconds: 900);
+      case HahuTempo.fast:
+        return const Duration(milliseconds: 500);
+    }
+  }
+}
+
 extension DailyGoalXp on DailyGoal {
   int get xp {
     switch (this) {
@@ -54,6 +69,7 @@ class AppSettings {
   final bool allLessonsUnlocked;
   final bool reduceMotion;
   final FidelLearningPath fidelLearningPath;
+  final HahuTempo hahuTempo;
   final bool onboardingCompleted;
 
   const AppSettings({
@@ -72,6 +88,7 @@ class AppSettings {
     this.allLessonsUnlocked = false,
     this.reduceMotion = false,
     this.fidelLearningPath = FidelLearningPath.traditional,
+    this.hahuTempo = HahuTempo.normal,
     this.onboardingCompleted = false,
   });
 
@@ -90,6 +107,7 @@ class AppSettings {
     bool? allLessonsUnlocked,
     bool? reduceMotion,
     FidelLearningPath? fidelLearningPath,
+    HahuTempo? hahuTempo,
     bool? onboardingCompleted,
   }) {
     return AppSettings(
@@ -108,6 +126,7 @@ class AppSettings {
       allLessonsUnlocked: allLessonsUnlocked ?? this.allLessonsUnlocked,
       reduceMotion: reduceMotion ?? this.reduceMotion,
       fidelLearningPath: fidelLearningPath ?? this.fidelLearningPath,
+      hahuTempo: hahuTempo ?? this.hahuTempo,
       onboardingCompleted: onboardingCompleted ?? this.onboardingCompleted,
     );
   }
@@ -129,6 +148,7 @@ class AppSettings {
       allLessonsUnlocked: json['allLessonsUnlocked'] as bool? ?? false,
       reduceMotion: json['reduceMotion'] as bool? ?? false,
       fidelLearningPath: _enumFromName(FidelLearningPath.values, json['fidelLearningPath'], FidelLearningPath.traditional),
+      hahuTempo: _enumFromName(HahuTempo.values, json['hahuTempo'], HahuTempo.normal),
       onboardingCompleted: json['onboardingCompleted'] as bool? ?? false,
     );
   }
@@ -149,6 +169,7 @@ class AppSettings {
         'allLessonsUnlocked': allLessonsUnlocked,
         'reduceMotion': reduceMotion,
         'fidelLearningPath': fidelLearningPath.name,
+        'hahuTempo': hahuTempo.name,
         'onboardingCompleted': onboardingCompleted,
       };
 

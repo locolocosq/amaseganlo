@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../content/content_repository.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/fidel_lesson.dart';
+import '../../models/settings.dart';
 import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
@@ -24,7 +26,7 @@ class FidelStageOverviewScreen extends StatelessWidget {
     final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
 
     final stage = content.fidelStages.where((s) => s.id == stageId).firstOrNull;
-    final lessons = content.fidelLessonsForStage(stageId);
+    final lessons = _orderedLessons(content, stageId, settings.fidelLearningPath);
 
     if (stage == null || lessons.isEmpty) {
       return Scaffold(
@@ -54,6 +56,27 @@ class FidelStageOverviewScreen extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  /// Stufe 3's row lessons can be presented in traditional or frequency
+  /// ("Schnell lesen") order - progress is keyed by lesson id either way, so
+  /// switching paths never loses anything already learned. Block tests are
+  /// kept right after the last of their own 3 rows, whichever order that
+  /// ends up being.
+  List<FidelLesson> _orderedLessons(ContentRepository content, String stageId, FidelLearningPath path) {
+    final lessons = content.fidelLessonsForStage(stageId);
+    if (stageId != 'stufe3' || path != FidelLearningPath.fast) return lessons;
+
+    final frequencyOrder = content.fidelGroupsByFrequency();
+    int rankOf(String group) => frequencyOrder.indexOf(group);
+
+    final sorted = List<FidelLesson>.from(lessons);
+    sorted.sort((a, b) {
+      final rankA = a.groupIds.map(rankOf).fold(0, (m, r) => r > m ? r : m);
+      final rankB = b.groupIds.map(rankOf).fold(0, (m, r) => r > m ? r : m);
+      return rankA.compareTo(rankB);
+    });
+    return sorted;
   }
 }
 

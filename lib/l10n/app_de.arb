@@ -247,5 +247,14 @@
   "fidelVowelExplainerExceptionBody": "Die meisten Reihen folgen diesem Muster, aber einige weichen davon ab. Die App zeigt dir das immer ehrlich an, wenn es so weit ist.",
   "fidelExplainerContinue": "Weiter",
   "fidelLockedDialogTitle": "Diese Stufe baut auf der vorherigen auf",
-  "fidelLockedDialogBody": "Du hast die vorherige Stufe noch nicht abgeschlossen. Trotzdem starten?"
+  "fidelLockedDialogBody": "Du hast die vorherige Stufe noch nicht abgeschlossen. Trotzdem starten?",
+
+  "settingsHahuTempo": "Tempo des Ha-Hu-Takts",
+  "hahuTempoSlow": "Langsam",
+  "hahuTempoNormal": "Normal",
+  "hahuTempoFast": "Schnell",
+  "hahuDrillTapHint": "Tippe im Takt mit",
+  "hahuDrillWithTransliteration": "Durchgang 1 von 2: mit Umschrift",
+  "hahuDrillCharsOnly": "Durchgang 2 von 2: nur Zeichen",
+  "hahuDrillContinue": "Weiter"
 }

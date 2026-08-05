@@ -247,5 +247,14 @@
   "fidelVowelExplainerExceptionBody": "De flesta rader följer detta mönster, men några avviker. Appen visar det alltid ärligt när det är fallet.",
   "fidelExplainerContinue": "Fortsätt",
   "fidelLockedDialogTitle": "Detta steg bygger på det föregående",
-  "fidelLockedDialogBody": "Du har inte avslutat föregående steg än. Starta trots det?"
+  "fidelLockedDialogBody": "Du har inte avslutat föregående steg än. Starta trots det?",
+
+  "settingsHahuTempo": "Ha-Hu-rytmens hastighet",
+  "hahuTempoSlow": "Långsam",
+  "hahuTempoNormal": "Normal",
+  "hahuTempoFast": "Snabb",
+  "hahuDrillTapHint": "Tryck i takt",
+  "hahuDrillWithTransliteration": "Omgång 1 av 2: med translitterering",
+  "hahuDrillCharsOnly": "Omgång 2 av 2: bara tecken",
+  "hahuDrillContinue": "Fortsätt"
 }

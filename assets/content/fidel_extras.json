@@ -1,0 +1,38 @@
+{
+  "numerals": [
+    { "char": "፩", "tr": "1", "verified": true },
+    { "char": "፪", "tr": "2", "verified": true },
+    { "char": "፫", "tr": "3", "verified": true },
+    { "char": "፬", "tr": "4", "verified": true },
+    { "char": "፭", "tr": "5", "verified": true },
+    { "char": "፮", "tr": "6", "verified": true },
+    { "char": "፯", "tr": "7", "verified": true },
+    { "char": "፰", "tr": "8", "verified": true },
+    { "char": "፱", "tr": "9", "verified": true },
+    { "char": "፲", "tr": "10", "verified": true },
+    { "char": "፳", "tr": "20", "verified": false },
+    { "char": "፴", "tr": "30", "verified": false },
+    { "char": "፵", "tr": "40", "verified": false },
+    { "char": "፶", "tr": "50", "verified": false },
+    { "char": "፷", "tr": "60", "verified": false },
+    { "char": "፸", "tr": "70", "verified": false },
+    { "char": "፹", "tr": "80", "verified": false },
+    { "char": "፺", "tr": "90", "verified": false },
+    { "char": "፻", "tr": "100", "verified": false }
+  ],
+  "punctuation": [
+    { "char": "፡", "tr": "word separator", "nameKey": "punctSpace", "verified": true },
+    { "char": "።", "tr": "period", "nameKey": "punctPeriod", "verified": true },
+    { "char": "፣", "tr": "comma", "nameKey": "punctComma", "verified": true },
+    { "char": "፤", "tr": "semicolon", "nameKey": "punctSemicolon", "verified": true },
+    { "char": "፥", "tr": "colon", "nameKey": "punctColon", "verified": true },
+    { "char": "፧", "tr": "question mark", "nameKey": "punctQuestion", "verified": true },
+    { "char": "፨", "tr": "paragraph separator", "nameKey": "punctParagraph", "verified": false }
+  ],
+  "labialized": [
+    { "char": "ኳ", "tr": "kwa", "verified": true },
+    { "char": "ጓ", "tr": "gwa", "verified": true },
+    { "char": "ቷ", "tr": "twa", "verified": true },
+    { "char": "ኧ", "tr": "ea", "verified": false }
+  ]
+}

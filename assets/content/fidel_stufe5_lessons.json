@@ -1,0 +1,14 @@
+[
+  {
+    "id": "f5_l1",
+    "kind": "wordRead",
+    "groupIds": [],
+    "exerciseTypes": ["fidelWordRead", "fidelWordBuild"]
+  },
+  {
+    "id": "f5_l2",
+    "kind": "wordRead",
+    "groupIds": [],
+    "exerciseTypes": ["fidelWordRead", "fidelWordBuild"]
+  }
+]

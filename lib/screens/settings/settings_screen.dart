@@ -151,6 +151,24 @@ class SettingsScreen extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(height: 8),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Text(l10n.settingsHahuTempo, style: Theme.of(context).textTheme.labelLarge),
+          ),
+          const SizedBox(height: 8),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: SegmentedButton<HahuTempo>(
+              segments: [
+                ButtonSegment(value: HahuTempo.slow, label: Text(l10n.hahuTempoSlow)),
+                ButtonSegment(value: HahuTempo.normal, label: Text(l10n.hahuTempoNormal)),
+                ButtonSegment(value: HahuTempo.fast, label: Text(l10n.hahuTempoFast)),
+              ],
+              selected: {settings.hahuTempo},
+              onSelectionChanged: (s) => settingsProvider.setHahuTempo(s.first),
+            ),
+          ),
           const Divider(height: 32),
           _SectionHeader(l10n.settingsSound),
           SwitchListTile(

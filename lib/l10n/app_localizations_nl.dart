@@ -618,4 +618,29 @@ class AppLocalizationsNl extends AppLocalizations {
   @override
   String get fidelLockedDialogBody =>
       'Je hebt de vorige fase nog niet afgerond. Toch beginnen?';
+
+  @override
+  String get settingsHahuTempo => 'Tempo van het Ha-Hu-ritme';
+
+  @override
+  String get hahuTempoSlow => 'Langzaam';
+
+  @override
+  String get hahuTempoNormal => 'Normaal';
+
+  @override
+  String get hahuTempoFast => 'Snel';
+
+  @override
+  String get hahuDrillTapHint => 'Tik mee op het ritme';
+
+  @override
+  String get hahuDrillWithTransliteration =>
+      'Ronde 1 van 2: met transliteratie';
+
+  @override
+  String get hahuDrillCharsOnly => 'Ronde 2 van 2: alleen tekens';
+
+  @override
+  String get hahuDrillContinue => 'Verder';
 }

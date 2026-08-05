@@ -247,5 +247,14 @@
   "fidelVowelExplainerExceptionBody": "Most rows follow this pattern, but a few don't. The app will always tell you honestly when that's the case.",
   "fidelExplainerContinue": "Continue",
   "fidelLockedDialogTitle": "This stage builds on the previous one",
-  "fidelLockedDialogBody": "You haven't finished the previous stage yet. Start anyway?"
+  "fidelLockedDialogBody": "You haven't finished the previous stage yet. Start anyway?",
+
+  "settingsHahuTempo": "Ha-Hu rhythm speed",
+  "hahuTempoSlow": "Slow",
+  "hahuTempoNormal": "Normal",
+  "hahuTempoFast": "Fast",
+  "hahuDrillTapHint": "Tap along to the rhythm",
+  "hahuDrillWithTransliteration": "Round 1 of 2: with transliteration",
+  "hahuDrillCharsOnly": "Round 2 of 2: signs only",
+  "hahuDrillContinue": "Continue"
 }

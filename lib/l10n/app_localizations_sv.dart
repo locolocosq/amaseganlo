@@ -619,4 +619,29 @@ class AppLocalizationsSv extends AppLocalizations {
   @override
   String get fidelLockedDialogBody =>
       'Du har inte avslutat föregående steg än. Starta trots det?';
+
+  @override
+  String get settingsHahuTempo => 'Ha-Hu-rytmens hastighet';
+
+  @override
+  String get hahuTempoSlow => 'Långsam';
+
+  @override
+  String get hahuTempoNormal => 'Normal';
+
+  @override
+  String get hahuTempoFast => 'Snabb';
+
+  @override
+  String get hahuDrillTapHint => 'Tryck i takt';
+
+  @override
+  String get hahuDrillWithTransliteration =>
+      'Omgång 1 av 2: med translitterering';
+
+  @override
+  String get hahuDrillCharsOnly => 'Omgång 2 av 2: bara tecken';
+
+  @override
+  String get hahuDrillContinue => 'Fortsätt';
 }

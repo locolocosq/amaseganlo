@@ -1,0 +1,541 @@
+[
+  {
+    "id": "f3_row_ha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_la",
+    "kind": "rowLesson",
+    "groupIds": [
+      "la"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_hha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "hha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block1",
+    "kind": "blockTest",
+    "groupIds": [
+      "ha",
+      "la",
+      "hha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_ma",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ma"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_sza",
+    "kind": "rowLesson",
+    "groupIds": [
+      "sza"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_ra",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ra"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block2",
+    "kind": "blockTest",
+    "groupIds": [
+      "ma",
+      "sza",
+      "ra"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_sa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "sa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_sha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "sha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_qa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "qa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block3",
+    "kind": "blockTest",
+    "groupIds": [
+      "sa",
+      "sha",
+      "qa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_ba",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ba"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_ta",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ta"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_cha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "cha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block4",
+    "kind": "blockTest",
+    "groupIds": [
+      "ba",
+      "ta",
+      "cha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_hha2",
+    "kind": "rowLesson",
+    "groupIds": [
+      "hha2"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_na",
+    "kind": "rowLesson",
+    "groupIds": [
+      "na"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_gna",
+    "kind": "rowLesson",
+    "groupIds": [
+      "gna"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block5",
+    "kind": "blockTest",
+    "groupIds": [
+      "hha2",
+      "na",
+      "gna"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_aa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "aa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_ka",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ka"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_kha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "kha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block6",
+    "kind": "blockTest",
+    "groupIds": [
+      "aa",
+      "ka",
+      "kha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_wa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "wa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_aa2",
+    "kind": "rowLesson",
+    "groupIds": [
+      "aa2"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_za",
+    "kind": "rowLesson",
+    "groupIds": [
+      "za"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block7",
+    "kind": "blockTest",
+    "groupIds": [
+      "wa",
+      "aa2",
+      "za"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_zha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "zha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_ya",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ya"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_da",
+    "kind": "rowLesson",
+    "groupIds": [
+      "da"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block8",
+    "kind": "blockTest",
+    "groupIds": [
+      "zha",
+      "ya",
+      "da"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_ja",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ja"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_ga",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ga"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_tta",
+    "kind": "rowLesson",
+    "groupIds": [
+      "tta"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block9",
+    "kind": "blockTest",
+    "groupIds": [
+      "ja",
+      "ga",
+      "tta"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_chha",
+    "kind": "rowLesson",
+    "groupIds": [
+      "chha"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_ppa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "ppa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_tsa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "tsa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block10",
+    "kind": "blockTest",
+    "groupIds": [
+      "chha",
+      "ppa",
+      "tsa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  },
+  {
+    "id": "f3_row_tsa2",
+    "kind": "rowLesson",
+    "groupIds": [
+      "tsa2"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_fa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "fa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_row_pa",
+    "kind": "rowLesson",
+    "groupIds": [
+      "pa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar",
+      "fidelCharToSound"
+    ]
+  },
+  {
+    "id": "f3_block11",
+    "kind": "blockTest",
+    "groupIds": [
+      "tsa2",
+      "fa",
+      "pa"
+    ],
+    "exerciseTypes": [
+      "fidelOrderRecognition",
+      "fidelSoundToChar"
+    ]
+  }
+]

@@ -247,5 +247,14 @@
   "fidelVowelExplainerExceptionBody": "De meeste rijen volgen dit patroon, maar een paar niet. De app laat dat altijd eerlijk zien wanneer dat zo is.",
   "fidelExplainerContinue": "Verder",
   "fidelLockedDialogTitle": "Deze fase bouwt voort op de vorige",
-  "fidelLockedDialogBody": "Je hebt de vorige fase nog niet afgerond. Toch beginnen?"
+  "fidelLockedDialogBody": "Je hebt de vorige fase nog niet afgerond. Toch beginnen?",
+
+  "settingsHahuTempo": "Tempo van het Ha-Hu-ritme",
+  "hahuTempoSlow": "Langzaam",
+  "hahuTempoNormal": "Normaal",
+  "hahuTempoFast": "Snel",
+  "hahuDrillTapHint": "Tik mee op het ritme",
+  "hahuDrillWithTransliteration": "Ronde 1 van 2: met transliteratie",
+  "hahuDrillCharsOnly": "Ronde 2 van 2: alleen tekens",
+  "hahuDrillContinue": "Verder"
 }

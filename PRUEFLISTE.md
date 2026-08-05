@@ -17,6 +17,13 @@ Die komplette 33×7-Tafel wurde nach bestem Wissen zusammengestellt. Hohe Sicher
 
 **Empfehlung:** Vor dem produktiven Einsatz die komplette Tafel einmal von einer Muttersprachlerin/einem Muttersprachler gegen eine gedruckte Fidel-Tafel prüfen lassen - Ethiopic-Unicode hat einige einander sehr ähnliche Zeichen, bei denen ich mir ohne diese Prüfung keine 100%ige Sicherheit zutraue.
 
+## Fidel-Extras (assets/content/fidel_extras.json, Stufe 7)
+
+- **Ziffern 20-100** (፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻): geringere Sicherheit als die Ziffern 1-10 (die direkt aus dem Auftrag stammen) - bitte gegenlesen.
+- **Absatztrenner ፨**: geringere Sicherheit.
+- **ኧ (als „ea“ notiert)**: im Auftrag nur als Beispiel genannt, meine Umschrift dafür ist unsicher.
+- **Labialisierte Formen sind nur eine kleine Beispielauswahl** (ኳ ጓ ቷ ኧ, direkt aus dem Auftrag übernommen), keine vollständige Liste aller labialisierten Zeichen. Eine vollständige Liste bräuchte eine eigene Recherche mit Muttersprachler-Prüfung.
+
 ## Abschnitt A1.1 — Erste Begegnung
 
 | id | Amharisch | Umschrift | Meine Übersetzung | Grund der Unsicherheit |

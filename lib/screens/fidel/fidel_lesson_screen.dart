@@ -3,16 +3,21 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../l10n/app_localizations.dart';
+import '../../models/exercise.dart';
 import '../../models/fidel_lesson.dart';
 import '../../models/settings.dart';
+import '../../state/content_provider.dart';
 import '../../state/fidel_lesson_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
 import '../../widgets/common/dont_know_link.dart';
 import '../../widgets/common/feedback_bar.dart';
 import '../../widgets/common/lesson_progress_bar.dart';
+import '../../widgets/exercises/build_chunks_exercise.dart';
+import '../../widgets/exercises/hahu_drill.dart';
 import '../../widgets/exercises/homophone_note_card.dart';
 import '../../widgets/exercises/multiple_choice_exercise.dart';
+import '../../widgets/exercises/typing_exercise.dart';
 import 'fidel_vowel_explainer.dart';
 
 class FidelLessonScreen extends StatefulWidget {
@@ -31,6 +36,9 @@ class FidelLessonScreen extends StatefulWidget {
 
 class _FidelLessonScreenState extends State<FidelLessonScreen> {
   String? _selectedOption;
+  final TextEditingController _textController = TextEditingController();
+  List<String> _selectedChunks = [];
+  List<String> _availableChunks = [];
   bool _started = false;
   bool _finishing = false;
 
@@ -40,6 +48,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
     if (!_started) {
       _started = true;
       final settings = context.read<SettingsProvider>().settings;
+      final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
       final practiceGroup = widget.practiceGroup;
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (!mounted) return;
@@ -51,10 +60,24 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
             stageId: widget.stageId,
             lessonId: widget.lessonId,
             useHearts: settings.useHearts,
+            locale: locale,
           );
         }
       });
     }
+  }
+
+  @override
+  void dispose() {
+    _textController.dispose();
+    super.dispose();
+  }
+
+  void _resetLocalState(GeneratedExercise? exercise) {
+    _selectedOption = null;
+    _textController.clear();
+    _selectedChunks = [];
+    _availableChunks = exercise?.chunks ?? [];
   }
 
   Future<bool> _confirmExit(BuildContext context) async {
@@ -78,6 +101,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
     final fidelProvider = context.watch<FidelLessonProvider>();
     final session = fidelProvider.session;
     final settings = context.watch<SettingsProvider>().settings;
+    final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
 
     if (session == null) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
@@ -109,28 +133,29 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
         if (!context.mounted) return;
         if (isPractice) {
           final l10n = AppLocalizations.of(context);
+          final accuracy = session.exercises.isEmpty ? 100 : ((session.correctCount / session.exercises.length) * 100).round();
           context.read<FidelLessonProvider>().endSession();
           context.pop();
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text(l10n.lessonCompleteAccuracy(
-              session.exercises.isEmpty ? 100 : ((session.correctCount / session.exercises.length) * 100).round(),
-            ))),
+            SnackBar(content: Text(l10n.lessonCompleteAccuracy(accuracy))),
           );
           return;
         }
-        await context.read<ProgressProvider>().completeLesson(
-              session.lessonId,
-              score: session.scoreRatio,
-              perfect: session.isPerfect,
-              dailyGoalXp: settings.dailyGoal.xp,
-            );
+        if (session.exercises.isNotEmpty || session.lesson.kind == FidelLessonKind.rowLesson) {
+          await context.read<ProgressProvider>().completeLesson(
+                session.lessonId,
+                score: session.scoreRatio,
+                perfect: session.isPerfect,
+                dailyGoalXp: settings.dailyGoal.xp,
+              );
+        }
         if (!context.mounted) return;
         context.pushReplacement('/fidel/lesson/${widget.stageId}/${widget.lessonId}/complete');
       });
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
 
-    final totalSteps = session.homophoneNotes.length + session.exercises.length;
+    final totalSteps = session.homophoneNotes.length + (session.hahuDrillGroup != null ? 1 : 0) + session.exercises.length;
 
     return PopScope(
       canPop: false,
@@ -168,50 +193,116 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
                     note: session.currentNote!,
                     onContinue: () => context.read<FidelLessonProvider>().advancePastNote(),
                   )
-                : _buildExercise(context, session, fidelProvider),
+                : session.isShowingDrill
+                    ? _buildDrill(context, session, fidelProvider, settings)
+                    : _buildExercise(context, session, fidelProvider, locale),
           ),
         ),
       ),
     );
   }
 
-  Widget _buildExercise(BuildContext context, FidelLessonSession session, FidelLessonProvider provider) {
+  Widget _buildDrill(BuildContext context, FidelLessonSession session, FidelLessonProvider provider, AppSettings settings) {
+    final repo = context.read<ContentProvider>().repository;
+    final chars = repo.fidelCharsForGroup(session.hahuDrillGroup!);
+    return HaHuDrill(
+      key: ValueKey('hahu-${session.hahuDrillGroup}'),
+      chars: chars,
+      tickDuration: settings.hahuTempo.tickDuration,
+      reduceMotion: settings.reduceMotion,
+      onComplete: () => provider.advancePastDrill(),
+    );
+  }
+
+  Widget _buildExercise(BuildContext context, FidelLessonSession session, FidelLessonProvider provider, String locale) {
     final exercise = session.currentExercise;
     if (exercise == null) return const SizedBox.shrink();
+
+    if (_availableChunks.isEmpty && exercise.isBuildBased && _selectedChunks.isEmpty && !session.answered) {
+      _availableChunks = List.of(exercise.chunks);
+    }
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Expanded(
           child: SingleChildScrollView(
-            child: MultipleChoiceExercise(
-              promptText: exercise.promptText,
-              promptStyle: exercise.promptText.runes.length == 1
-                  ? Theme.of(context).textTheme.displayLarge
-                  : Theme.of(context).textTheme.headlineSmall,
-              options: exercise.options,
-              correctAnswer: exercise.correctAnswer,
-              selectedOption: _selectedOption,
-              answered: session.answered,
-              onSelect: (value) {
-                setState(() => _selectedOption = value);
-                provider.submitAnswer(value);
-              },
-            ),
+            child: _buildExerciseBody(context, exercise, session, provider, locale),
           ),
         ),
         if (!session.answered) DontKnowLink(onPressed: () => provider.skipCurrentExercise()),
         FeedbackBar(
           isCorrect: session.answered ? session.lastAnswerCorrect : null,
+          isAlmost: session.lastAnswerAlmost,
           isSkipped: session.lastAnswerSkipped,
           correctAnswerText: exercise.correctAnswer,
           onContinue: () {
-            setState(() => _selectedOption = null);
+            setState(() => _resetLocalState(_peekNextExercise(session)));
             provider.nextExercise();
           },
         ),
       ],
     );
+  }
+
+  Widget _buildExerciseBody(
+    BuildContext context,
+    GeneratedExercise exercise,
+    FidelLessonSession session,
+    FidelLessonProvider provider,
+    String locale,
+  ) {
+    final promptStyle = exercise.promptText.runes.length <= 2 ? Theme.of(context).textTheme.displayMedium : null;
+
+    if (exercise.isChoiceBased) {
+      return MultipleChoiceExercise(
+        promptText: exercise.promptText,
+        promptStyle: promptStyle,
+        options: exercise.options,
+        correctAnswer: exercise.correctAnswer,
+        selectedOption: _selectedOption,
+        answered: session.answered,
+        onSelect: (value) {
+          setState(() => _selectedOption = value);
+          provider.submitChoiceOrBuildAnswer(value);
+        },
+      );
+    }
+
+    if (exercise.isBuildBased) {
+      return BuildChunksExercise(
+        promptText: exercise.promptText,
+        selectedChunks: _selectedChunks,
+        availableChunks: _availableChunks,
+        answered: session.answered,
+        onTapAvailable: (index) {
+          setState(() {
+            _selectedChunks = [..._selectedChunks, _availableChunks[index]];
+            _availableChunks = List.of(_availableChunks)..removeAt(index);
+          });
+        },
+        onTapSelected: (index) {
+          setState(() {
+            _availableChunks = [..._availableChunks, _selectedChunks[index]];
+            _selectedChunks = List.of(_selectedChunks)..removeAt(index);
+          });
+        },
+        onSubmit: () => provider.submitChoiceOrBuildAnswer(_selectedChunks.join()),
+      );
+    }
+
+    return TypingExercise(
+      promptText: exercise.promptText,
+      promptStyle: promptStyle,
+      controller: _textController,
+      answered: session.answered,
+      onSubmit: () => provider.submitTypedAnswer(_textController.text, locale),
+    );
+  }
+
+  GeneratedExercise? _peekNextExercise(FidelLessonSession session) {
+    final nextIndex = session.currentIndex + 1 - session.homophoneNotes.length - (session.hahuDrillGroup != null ? 1 : 0);
+    return nextIndex >= 0 && nextIndex < session.exercises.length ? session.exercises[nextIndex] : null;
   }
 }
 

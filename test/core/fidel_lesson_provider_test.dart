@@ -62,7 +62,7 @@ void main() {
       final session = provider.session!;
       final exercise = session.currentExercise!;
 
-      provider.submitAnswer(exercise.correctAnswer);
+      provider.submitChoiceOrBuildAnswer(exercise.correctAnswer);
 
       expect(session.answered, isTrue);
       expect(session.lastAnswerCorrect, isTrue);
@@ -85,7 +85,7 @@ void main() {
     test('nextExercise advances and resets the answered state', () {
       provider.startLesson(stageId: 'stufe1', lessonId: 'f1_l2', useHearts: false);
       final session = provider.session!;
-      provider.submitAnswer(session.currentExercise!.correctAnswer);
+      provider.submitChoiceOrBuildAnswer(session.currentExercise!.correctAnswer);
       final indexBefore = session.currentIndex;
       provider.nextExercise();
       expect(session.currentIndex, indexBefore + 1);

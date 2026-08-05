@@ -1,0 +1,27 @@
+[
+  {
+    "id": "f4_l1",
+    "kind": "syllableJoin",
+    "groupIds": ["ha", "la", "hha", "ma", "sza", "ra", "sa", "sha", "qa", "ba", "ta", "cha"],
+    "exerciseTypes": ["fidelWordRead", "fidelWordBuild"]
+  },
+  {
+    "id": "f4_l2",
+    "kind": "syllableJoin",
+    "groupIds": [
+      "ha", "la", "hha", "ma", "sza", "ra", "sa", "sha", "qa", "ba", "ta", "cha",
+      "hha2", "na", "gna", "aa", "ka", "kha", "wa", "aa2", "za", "zha", "ya", "da"
+    ],
+    "exerciseTypes": ["fidelWordRead", "fidelWordBuild"]
+  },
+  {
+    "id": "f4_l3",
+    "kind": "syllableJoin",
+    "groupIds": [
+      "ha", "la", "hha", "ma", "sza", "ra", "sa", "sha", "qa", "ba", "ta", "cha",
+      "hha2", "na", "gna", "aa", "ka", "kha", "wa", "aa2", "za", "zha", "ya", "da",
+      "ja", "ga", "tta", "chha", "ppa", "tsa", "tsa2", "fa", "pa"
+    ],
+    "exerciseTypes": ["fidelWordRead", "fidelWordBuild"]
+  }
+]
