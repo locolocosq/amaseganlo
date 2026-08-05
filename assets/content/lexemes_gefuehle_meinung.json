@@ -1,0 +1,398 @@
+[
+  {
+    "id": "lex_gluecklich",
+    "am": "ደስተኛ",
+    "tr": "destegna",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "glücklich, froh",
+      "en": "happy",
+      "sv": "glad",
+      "nl": "gelukkig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "😊",
+    "verified": true
+  },
+  {
+    "id": "lex_traurig_phrase",
+    "am": "አዝኛለሁ",
+    "tr": "azegnalehu",
+    "pos": "phrase",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "Ich bin traurig",
+      "en": "I am sad",
+      "sv": "Jag är ledsen",
+      "nl": "Ik ben verdrietig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wuetend_phrase",
+    "am": "ተቆጥቻለሁ",
+    "tr": "tek'ot'chalehu",
+    "pos": "phrase",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "Ich bin wütend",
+      "en": "I am angry",
+      "sv": "Jag är arg",
+      "nl": "Ik ben boos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_angst_phrase",
+    "am": "ፈርቻለሁ",
+    "tr": "ferchalehu",
+    "pos": "phrase",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "Ich habe Angst",
+      "en": "I am afraid",
+      "sv": "Jag är rädd",
+      "nl": "Ik ben bang"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_liebe_noun",
+    "am": "ፍቅር",
+    "tr": "fikir",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "die Liebe",
+      "en": "love",
+      "sv": "kärlek",
+      "nl": "liefde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "❤️",
+    "verified": true
+  },
+  {
+    "id": "lex_freude",
+    "am": "ደስታ",
+    "tr": "desta",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "die Freude, das Glück",
+      "en": "joy, happiness",
+      "sv": "glädje",
+      "nl": "vreugde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_traurigkeit",
+    "am": "ሀዘን",
+    "tr": "hazen",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "die Traurigkeit",
+      "en": "sadness",
+      "sv": "sorg",
+      "nl": "verdriet"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_meinung",
+    "am": "አስተያየት",
+    "tr": "astyayet",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "die Meinung",
+      "en": "opinion",
+      "sv": "åsikt",
+      "nl": "mening"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_es_scheint_mir",
+    "am": "ይመስለኛል",
+    "tr": "yimeslegnal",
+    "pos": "phrase",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "Ich denke, dass... (es scheint mir)",
+      "en": "I think that... (it seems to me)",
+      "sv": "Jag tycker att... (det verkar för mig)",
+      "nl": "Ik denk dat... (het lijkt mij)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gefuehl",
+    "am": "ስሜት",
+    "tr": "simet",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "das Gefühl",
+      "en": "feeling",
+      "sv": "känsla",
+      "nl": "gevoel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hoffnung",
+    "am": "ተስፋ",
+    "tr": "tesfa",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "die Hoffnung",
+      "en": "hope",
+      "sv": "hopp",
+      "nl": "hoop"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_angst_noun",
+    "am": "ፍርሃት",
+    "tr": "firhat",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "die Angst",
+      "en": "fear",
+      "sv": "rädsla",
+      "nl": "angst"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_stolz",
+    "am": "ኩራት",
+    "tr": "kurat",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "der Stolz",
+      "en": "pride",
+      "sv": "stolthet",
+      "nl": "trots"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schwierig",
+    "am": "ከባድ",
+    "tr": "kebad",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "schwierig, schwer",
+      "en": "difficult, heavy",
+      "sv": "svår, tung",
+      "nl": "moeilijk, zwaar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_einfach",
+    "am": "ቀላል",
+    "tr": "kelal",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "einfach, leicht",
+      "en": "easy, simple",
+      "sv": "lätt, enkel",
+      "nl": "makkelijk, eenvoudig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_interessant",
+    "am": "አስደሳች",
+    "tr": "asdesach",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "interessant",
+      "en": "interesting",
+      "sv": "intressant",
+      "nl": "interessant"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_langweilig",
+    "am": "አሰልቺ",
+    "tr": "aselchi",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "langweilig",
+      "en": "boring",
+      "sv": "tråkig",
+      "nl": "saai"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wichtig",
+    "am": "አስፈላጊ",
+    "tr": "asfelagi",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "wichtig",
+      "en": "important",
+      "sv": "viktig",
+      "nl": "belangrijk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_vielleicht",
+    "am": "ይሆናል",
+    "tr": "yihonal",
+    "pos": "adverb",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "vielleicht",
+      "en": "maybe",
+      "sv": "kanske",
+      "nl": "misschien"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_natuerlich",
+    "am": "በርግጥ",
+    "tr": "bergit'",
+    "pos": "adverb",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "natürlich, sicherlich",
+      "en": "of course, certainly",
+      "sv": "självklart",
+      "nl": "natuurlijk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_richtig",
+    "am": "ትክክል",
+    "tr": "tikikil",
+    "pos": "adjective",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "richtig, korrekt",
+      "en": "correct, right",
+      "sv": "rätt, korrekt",
+      "nl": "juist, correct"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_falsch",
+    "am": "ስህተት",
+    "tr": "sihtet",
+    "pos": "noun",
+    "topic": "feelings",
+    "level": "B1",
+    "t": {
+      "de": "falsch, der Fehler",
+      "en": "wrong, mistake",
+      "sv": "fel",
+      "nl": "fout"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

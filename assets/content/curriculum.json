@@ -16,7 +16,11 @@
     "lexemes_koerper_gesundheit.json",
     "lexemes_arbeit_schule.json",
     "lexemes_reisen_verkehr.json",
-    "lexemes_wetter_natur.json"
+    "lexemes_wetter_natur.json",
+    "lexemes_gefuehle_meinung.json",
+    "lexemes_zukunft_wuensche.json",
+    "lexemes_hoeflichkeit_kultur.json",
+    "lexemes_erzaehlen.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -33,7 +37,11 @@
     "sentences_koerper_gesundheit.json",
     "sentences_arbeit_schule.json",
     "sentences_reisen_verkehr.json",
-    "sentences_wetter_natur.json"
+    "sentences_wetter_natur.json",
+    "sentences_gefuehle_meinung.json",
+    "sentences_zukunft_wuensche.json",
+    "sentences_hoeflichkeit_kultur.json",
+    "sentences_erzaehlen.json"
   ],
   "sections": [
     {
@@ -86,6 +94,22 @@
         "unit_arbeit_schule",
         "unit_reisen_verkehr",
         "unit_wetter_natur"
+      ]
+    },
+    {
+      "id": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Niveau B1 — freier sprechen",
+        "en": "Level B1 — speaking more freely",
+        "sv": "Nivå B1 — tala friare",
+        "nl": "Niveau B1 — vrijer spreken"
+      },
+      "units": [
+        "unit_gefuehle_meinung",
+        "unit_zukunft_wuensche",
+        "unit_hoeflichkeit_kultur",
+        "unit_erzaehlen"
       ]
     }
   ],
@@ -297,6 +321,58 @@
       },
       "topic": "weather_nature",
       "lessonFile": "unit_wetter_natur_lessons.json"
+    },
+    {
+      "id": "unit_gefuehle_meinung",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Gefühle & Meinung",
+        "en": "Feelings & opinion",
+        "sv": "Känslor & åsikt",
+        "nl": "Gevoelens & mening"
+      },
+      "topic": "feelings",
+      "lessonFile": "unit_gefuehle_meinung_lessons.json"
+    },
+    {
+      "id": "unit_zukunft_wuensche",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Zukunft & Wünsche",
+        "en": "Future & wishes",
+        "sv": "Framtid & önskningar",
+        "nl": "Toekomst & wensen"
+      },
+      "topic": "future_wishes",
+      "lessonFile": "unit_zukunft_wuensche_lessons.json"
+    },
+    {
+      "id": "unit_hoeflichkeit_kultur",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Höflichkeit & Kultur",
+        "en": "Politeness & culture",
+        "sv": "Artighet & kultur",
+        "nl": "Beleefdheid & cultuur"
+      },
+      "topic": "culture",
+      "lessonFile": "unit_hoeflichkeit_kultur_lessons.json"
+    },
+    {
+      "id": "unit_erzaehlen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Erzählen",
+        "en": "Storytelling",
+        "sv": "Att berätta",
+        "nl": "Vertellen"
+      },
+      "topic": "storytelling",
+      "lessonFile": "unit_erzaehlen_lessons.json"
     }
   ]
 }

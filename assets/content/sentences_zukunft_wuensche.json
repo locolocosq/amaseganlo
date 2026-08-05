@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_hilm_alegn",
+    "am": "ትልቅ ህልም አለኝ።",
+    "tr": "tilik hilm alegn.",
+    "level": "B1",
+    "uses": [
+      "lex_gross",
+      "lex_traum"
+    ],
+    "t": {
+      "de": "Ich habe einen großen Traum.",
+      "en": "I have a big dream.",
+      "sv": "Jag har en stor dröm.",
+      "nl": "Ik heb een grote droom."
+    },
+    "alt": {},
+    "chunks": [
+      "tilik",
+      "hilm",
+      "alegn"
+    ],
+    "verified": false
+  }
+]

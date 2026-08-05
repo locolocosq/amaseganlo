@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_ingida_konjo",
+    "am": "እንግዳው ደስተኛ ነው።",
+    "tr": "ingidaw destegna new.",
+    "level": "B1",
+    "uses": [
+      "lex_gast",
+      "lex_gluecklich"
+    ],
+    "t": {
+      "de": "Der Gast ist glücklich.",
+      "en": "The guest is happy.",
+      "sv": "Gästen är glad.",
+      "nl": "De gast is blij."
+    },
+    "alt": {},
+    "chunks": [
+      "ingidaw",
+      "destegna",
+      "new"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sen_and_gize_nigus",
+    "am": "አንድ ጊዜ አንድ ንጉስ ነበረ።",
+    "tr": "and gize and nigus nebere.",
+    "level": "B1",
+    "uses": [
+      "lex_es_war_einmal",
+      "lex_koenig"
+    ],
+    "t": {
+      "de": "Es war einmal ein König.",
+      "en": "Once upon a time there was a king.",
+      "sv": "Det var en gång en kung.",
+      "nl": "Er was eens een koning."
+    },
+    "alt": {},
+    "chunks": [
+      "and",
+      "gize",
+      "and",
+      "nigus",
+      "nebere"
+    ],
+    "verified": false
+  }
+]

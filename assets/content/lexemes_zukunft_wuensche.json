@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ich_moechte",
+    "am": "እፈልጋለሁ",
+    "tr": "ifeligalehu",
+    "pos": "phrase",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "ich möchte, ich will",
+      "en": "I want",
+      "sv": "jag vill",
+      "nl": "ik wil"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_plan",
+    "am": "ፕላን",
+    "tr": "plan",
+    "pos": "noun",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "der Plan",
+      "en": "plan",
+      "sv": "plan",
+      "nl": "plan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_traum",
+    "am": "ህልም",
+    "tr": "hilm",
+    "pos": "noun",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "der Traum",
+      "en": "dream",
+      "sv": "dröm",
+      "nl": "droom"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💭",
+    "verified": true
+  },
+  {
+    "id": "lex_wunsch",
+    "am": "ምኞት",
+    "tr": "minyot",
+    "pos": "noun",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "der Wunsch",
+      "en": "wish",
+      "sv": "önskan",
+      "nl": "wens"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ziel",
+    "am": "ግብ",
+    "tr": "gib",
+    "pos": "noun",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "das Ziel",
+      "en": "goal",
+      "sv": "mål",
+      "nl": "doel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_eines_tages",
+    "am": "በአንድ ቀን",
+    "tr": "beand ken",
+    "pos": "phrase",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "eines Tages",
+      "en": "one day",
+      "sv": "en dag",
+      "nl": "ooit"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zukunft",
+    "am": "ወደፊት",
+    "tr": "wedefit",
+    "pos": "noun",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "die Zukunft, in Zukunft",
+      "en": "the future, ahead",
+      "sv": "framtiden, framöver",
+      "nl": "de toekomst, voortaan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_erfolg",
+    "am": "ስኬት",
+    "tr": "sikiet",
+    "pos": "noun",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "der Erfolg",
+      "en": "success",
+      "sv": "framgång",
+      "nl": "succes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_versuchen",
+    "am": "መሞከር",
+    "tr": "memoker",
+    "pos": "verb",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "versuchen",
+      "en": "to try",
+      "sv": "försöka",
+      "nl": "proberen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_entscheiden",
+    "am": "መወሰን",
+    "tr": "meweosen",
+    "pos": "verb",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "entscheiden",
+      "en": "to decide",
+      "sv": "besluta",
+      "nl": "beslissen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_aendern",
+    "am": "መቀየር",
+    "tr": "mekeyer",
+    "pos": "verb",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "ändern",
+      "en": "to change",
+      "sv": "ändra",
+      "nl": "veranderen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_hoffen",
+    "am": "ተስፋ ማድረግ",
+    "tr": "tesfa madirege",
+    "pos": "verb",
+    "topic": "future_wishes",
+    "level": "B1",
+    "t": {
+      "de": "hoffen",
+      "en": "to hope",
+      "sv": "hoppas",
+      "nl": "hopen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

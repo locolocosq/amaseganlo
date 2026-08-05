@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lex_kaffeezeremonie",
+    "am": "የቡና ሥርዓት",
+    "tr": "yebuna sirat",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "die Kaffeezeremonie",
+      "en": "coffee ceremony",
+      "sv": "kaffeceremoni",
+      "nl": "koffieceremonie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☕",
+    "verified": false
+  },
+  {
+    "id": "lex_feiertag",
+    "am": "በዓል",
+    "tr": "be'al",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "der Feiertag, das Fest",
+      "en": "holiday, festival",
+      "sv": "helgdag, högtid",
+      "nl": "feestdag"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎉",
+    "verified": true
+  },
+  {
+    "id": "lex_gast",
+    "am": "እንግዳ",
+    "tr": "ingida",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "der Gast",
+      "en": "guest",
+      "sv": "gäst",
+      "nl": "gast"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_willkommen",
+    "am": "እንኳን ደህና መጣህ",
+    "tr": "inkuan dehna metah",
+    "pos": "phrase",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "Willkommen (zu einem Mann)",
+      "en": "Welcome (to a man)",
+      "sv": "Välkommen (till en man)",
+      "nl": "Welkom (tegen een man)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kultur",
+    "am": "ባህል",
+    "tr": "bahil",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "die Kultur",
+      "en": "culture",
+      "sv": "kultur",
+      "nl": "cultuur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tradition",
+    "am": "ልማድ",
+    "tr": "limad",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "die Tradition, der Brauch",
+      "en": "tradition, custom",
+      "sv": "tradition",
+      "nl": "traditie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_religion",
+    "am": "ሃይማኖት",
+    "tr": "haymanot",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "die Religion",
+      "en": "religion",
+      "sv": "religion",
+      "nl": "religie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geschenk",
+    "am": "ስጦታ",
+    "tr": "sit'ota",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "das Geschenk",
+      "en": "gift",
+      "sv": "present",
+      "nl": "cadeau"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎁",
+    "verified": true
+  },
+  {
+    "id": "lex_hochzeit",
+    "am": "ሰርግ",
+    "tr": "serg",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "die Hochzeit",
+      "en": "wedding",
+      "sv": "bröllop",
+      "nl": "bruiloft"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💒",
+    "verified": true
+  },
+  {
+    "id": "lex_geburtstag",
+    "am": "የልደት ቀን",
+    "tr": "yelidet ken",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "der Geburtstag",
+      "en": "birthday",
+      "sv": "födelsedag",
+      "nl": "verjaardag"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎂",
+    "verified": false
+  },
+  {
+    "id": "lex_respekt",
+    "am": "አክብሮት",
+    "tr": "akbirot",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "der Respekt",
+      "en": "respect",
+      "sv": "respekt",
+      "nl": "respect"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gastgeber",
+    "am": "አስተናጋጅ",
+    "tr": "astenagaj",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "der Gastgeber",
+      "en": "host",
+      "sv": "värd",
+      "nl": "gastheer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_fest",
+    "am": "ድግስ",
+    "tr": "digis",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "das Fest, die Feier",
+      "en": "party, feast",
+      "sv": "fest",
+      "nl": "feest"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎊",
+    "verified": false
+  },
+  {
+    "id": "lex_enkutatash",
+    "am": "እንቁጣጣሽ",
+    "tr": "inkutatash",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "das äthiopische Neujahr",
+      "en": "Ethiopian New Year",
+      "sv": "etiopiskt nyår",
+      "nl": "Ethiopisch nieuwjaar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_meskel",
+    "am": "መስቀል",
+    "tr": "meskel",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "Meskel (Kreuzesfest), das Kreuz",
+      "en": "Meskel (finding of the cross), cross",
+      "sv": "Meskel (korsets högtid), kors",
+      "nl": "Meskel (kruisvindingsfeest), kruis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_timkat",
+    "am": "ጥምቀት",
+    "tr": "timk'et",
+    "pos": "noun",
+    "topic": "culture",
+    "level": "B1",
+    "t": {
+      "de": "Timkat (äthiopisches Dreikönigsfest)",
+      "en": "Timkat (Ethiopian Epiphany)",
+      "sv": "Timkat (etiopisk trettondag)",
+      "nl": "Timkat (Ethiopisch Driekoningen)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]
