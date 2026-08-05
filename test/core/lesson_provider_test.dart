@@ -50,6 +50,7 @@ void main() {
     final audio = AudioService(
       tts: _FakeTtsClient(),
       player: _FakeAudioPlayerClient(),
+      voiceRetryDelay: Duration.zero,
     );
     await audio.init();
 

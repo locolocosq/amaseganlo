@@ -42,8 +42,11 @@ class FakeAudioPlayerClient implements AudioPlayerClient {
   Future<void> stop() async {}
 }
 
-AudioService _fakeAudioService() =>
-    AudioService(tts: FakeTtsClient(), player: FakeAudioPlayerClient());
+AudioService _fakeAudioService() => AudioService(
+      tts: FakeTtsClient(),
+      player: FakeAudioPlayerClient(),
+      voiceRetryDelay: Duration.zero,
+    );
 
 /// Shared setup for widget tests. Each test that uses this should live in
 /// its own file - flutter_test gives every *file* a fresh process, which

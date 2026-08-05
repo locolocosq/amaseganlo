@@ -74,11 +74,20 @@ class AudioService {
   final TtsClient _tts;
   final AudioPlayerClient _player;
   final AssetBundle _bundle;
+  final Duration _voiceRetryDelay;
 
-  AudioService({TtsClient? tts, AudioPlayerClient? player, AssetBundle? bundle})
-      : _tts = tts ?? RealTtsClient(),
+  AudioService({
+    TtsClient? tts,
+    AudioPlayerClient? player,
+    AssetBundle? bundle,
+    Duration voiceRetryDelay = const Duration(milliseconds: 500),
+  })  : _tts = tts ?? RealTtsClient(),
         _player = player ?? RealAudioPlayerClient(),
-        _bundle = bundle ?? rootBundle;
+        _bundle = bundle ?? rootBundle,
+        // this._voiceRetryDelay would force callers to use the private
+        // field name as the argument label, so it's assigned manually.
+        // ignore: prefer_initializing_formals
+        _voiceRetryDelay = voiceRetryDelay;
 
   bool _initialized = false;
   String? _ttsAmharicLanguage;
@@ -95,18 +104,35 @@ class AudioService {
 
   Future<void> _detectAmharicTts() async {
     for (final candidate in const ['am-ET', 'am']) {
-      try {
-        final available = await _tts.isLanguageAvailable(candidate).timeout(_detectTimeout);
-        if (available) {
-          _ttsAmharicLanguage = candidate;
-          return;
-        }
-      } catch (_) {
-        // No matching voice, no TTS platform channel, or it never
-        // responded - all treated the same as "not available".
+      if (await _isAvailableWithRetry(candidate)) {
+        _ttsAmharicLanguage = candidate;
+        return;
       }
     }
     _ttsAmharicLanguage = null;
+  }
+
+  /// On web, `speechSynthesis.getVoices()` very often still returns an
+  /// empty list on the first check right after page load - the browser
+  /// populates it asynchronously, sometimes a few hundred ms later, with
+  /// no platform-channel-level way for us to await that from here. One
+  /// short retry catches a voice that genuinely exists but wasn't loaded
+  /// yet; native platforms normally resolve on the first try either way,
+  /// so this rarely adds real delay there. A timeout/exception is treated
+  /// as definitively unavailable rather than retried, so a broken channel
+  /// doesn't double the worst-case wait.
+  Future<bool> _isAvailableWithRetry(String candidate) async {
+    for (var attempt = 0; attempt < 2; attempt++) {
+      try {
+        if (await _tts.isLanguageAvailable(candidate).timeout(_detectTimeout)) {
+          return true;
+        }
+      } catch (_) {
+        return false;
+      }
+      if (attempt == 0 && _voiceRetryDelay > Duration.zero) await Future.delayed(_voiceRetryDelay);
+    }
+    return false;
   }
 
   Future<void> _loadManifest() async {
