@@ -10,6 +10,7 @@ import 'package:amaseganlo/core/storage_service.dart';
 import 'package:amaseganlo/l10n/app_localizations.dart';
 import 'package:amaseganlo/screens/lesson/lesson_screen.dart';
 import 'package:amaseganlo/state/content_provider.dart';
+import 'package:amaseganlo/state/fidel_lesson_provider.dart';
 import 'package:amaseganlo/state/lesson_provider.dart';
 import 'package:amaseganlo/state/progress_provider.dart';
 import 'package:amaseganlo/state/settings_provider.dart';
@@ -40,6 +41,9 @@ Future<void> pumpTestApp(WidgetTester tester) async {
         Provider<AudioService>.value(value: audioService),
         ChangeNotifierProvider(
           create: (_) => LessonProvider(content: contentProvider.repository, progress: progressProvider, audioService: audioService),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => FidelLessonProvider(content: contentProvider.repository, progress: progressProvider),
         ),
       ],
       child: const AmaseganloApp(),
@@ -88,6 +92,9 @@ Future<void> pumpTestLesson(WidgetTester tester, {required String unitId, requir
         Provider<AudioService>.value(value: audioService),
         ChangeNotifierProvider(
           create: (_) => LessonProvider(content: contentProvider.repository, progress: progressProvider, audioService: audioService),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => FidelLessonProvider(content: contentProvider.repository, progress: progressProvider),
         ),
       ],
       child: MaterialApp.router(

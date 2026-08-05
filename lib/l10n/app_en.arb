@@ -213,5 +213,39 @@
   "lessonKindListening": "Listening",
   "lessonKindFreeApplication": "Free practice",
   "lessonKindReview": "Review",
-  "lessonKindUnitTest": "Unit test"
+  "lessonKindUnitTest": "Unit test",
+
+  "fidelHomeTitle": "Learn Fidel",
+  "fidelStageProgress": "Stage {number}: {title}",
+  "@fidelStageProgress": {
+    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+  },
+  "fidelStageBonus": "Bonus",
+  "fidelStageComingSoon": "Coming soon",
+  "fidelLessonList": "Lessons",
+  "fidelTableTitle": "Fidel table",
+  "fidelTableFilterAll": "All",
+  "fidelTableFilterLearned": "Learned only",
+  "fidelTableFilterOpen": "Not yet learned",
+  "fidelTableStudyRow": "Practice this row",
+  "fidelTableDetailLearned": "Learned",
+  "fidelTableDetailNotLearned": "Not learned yet",
+  "fidelHomophoneTitle": "Careful: same sound",
+  "fidelHomophoneBody": "This sign sounds exactly like {chars}, which you already know. Which one to write depends on the word - you'll learn that later when reading.",
+  "@fidelHomophoneBody": {
+    "placeholders": { "chars": { "type": "String" } }
+  },
+  "fidelVowelExplainerTitle": "Every sign is a syllable",
+  "fidelVowelExplainerIntro": "ለ is not \"l\", it's \"le\" - every Fidel sign stands for a whole syllable sound, not just a consonant.",
+  "fidelVowelExplainerRow1Title": "Look at the ሀ (h) row",
+  "fidelVowelExplainerRow1Body": "Seven forms, seven vowels - the base shape stays, only the vowel part (colored) changes.",
+  "fidelVowelExplainerRow2Title": "Now the ለ (l) row",
+  "fidelVowelExplainerRow2Body": "The same pattern as ሀ - that's not a coincidence, it's a system.",
+  "fidelVowelExplainerOrder6Title": "The 6th order is the hardest",
+  "fidelVowelExplainerOrder6Body": "Its vowel is barely audible (a breathy \"ə\"), and the shape often differs only slightly from the base sign. It's also the single most common form - you'll see it a lot.",
+  "fidelVowelExplainerExceptionTitle": "Not every row is perfectly regular",
+  "fidelVowelExplainerExceptionBody": "Most rows follow this pattern, but a few don't. The app will always tell you honestly when that's the case.",
+  "fidelExplainerContinue": "Continue",
+  "fidelLockedDialogTitle": "This stage builds on the previous one",
+  "fidelLockedDialogBody": "You haven't finished the previous stage yet. Start anyway?"
 }

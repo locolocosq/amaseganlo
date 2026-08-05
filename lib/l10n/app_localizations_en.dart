@@ -528,4 +528,96 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get lessonKindUnitTest => 'Unit test';
+
+  @override
+  String get fidelHomeTitle => 'Learn Fidel';
+
+  @override
+  String fidelStageProgress(int number, String title) {
+    return 'Stage $number: $title';
+  }
+
+  @override
+  String get fidelStageBonus => 'Bonus';
+
+  @override
+  String get fidelStageComingSoon => 'Coming soon';
+
+  @override
+  String get fidelLessonList => 'Lessons';
+
+  @override
+  String get fidelTableTitle => 'Fidel table';
+
+  @override
+  String get fidelTableFilterAll => 'All';
+
+  @override
+  String get fidelTableFilterLearned => 'Learned only';
+
+  @override
+  String get fidelTableFilterOpen => 'Not yet learned';
+
+  @override
+  String get fidelTableStudyRow => 'Practice this row';
+
+  @override
+  String get fidelTableDetailLearned => 'Learned';
+
+  @override
+  String get fidelTableDetailNotLearned => 'Not learned yet';
+
+  @override
+  String get fidelHomophoneTitle => 'Careful: same sound';
+
+  @override
+  String fidelHomophoneBody(String chars) {
+    return 'This sign sounds exactly like $chars, which you already know. Which one to write depends on the word - you\'ll learn that later when reading.';
+  }
+
+  @override
+  String get fidelVowelExplainerTitle => 'Every sign is a syllable';
+
+  @override
+  String get fidelVowelExplainerIntro =>
+      'ለ is not \"l\", it\'s \"le\" - every Fidel sign stands for a whole syllable sound, not just a consonant.';
+
+  @override
+  String get fidelVowelExplainerRow1Title => 'Look at the ሀ (h) row';
+
+  @override
+  String get fidelVowelExplainerRow1Body =>
+      'Seven forms, seven vowels - the base shape stays, only the vowel part (colored) changes.';
+
+  @override
+  String get fidelVowelExplainerRow2Title => 'Now the ለ (l) row';
+
+  @override
+  String get fidelVowelExplainerRow2Body =>
+      'The same pattern as ሀ - that\'s not a coincidence, it\'s a system.';
+
+  @override
+  String get fidelVowelExplainerOrder6Title => 'The 6th order is the hardest';
+
+  @override
+  String get fidelVowelExplainerOrder6Body =>
+      'Its vowel is barely audible (a breathy \"ə\"), and the shape often differs only slightly from the base sign. It\'s also the single most common form - you\'ll see it a lot.';
+
+  @override
+  String get fidelVowelExplainerExceptionTitle =>
+      'Not every row is perfectly regular';
+
+  @override
+  String get fidelVowelExplainerExceptionBody =>
+      'Most rows follow this pattern, but a few don\'t. The app will always tell you honestly when that\'s the case.';
+
+  @override
+  String get fidelExplainerContinue => 'Continue';
+
+  @override
+  String get fidelLockedDialogTitle => 'This stage builds on the previous one';
+
+  @override
+  String get fidelLockedDialogBody =>
+      'You haven\'t finished the previous stage yet. Start anyway?';
 }

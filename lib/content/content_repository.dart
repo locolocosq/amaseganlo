@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show AssetBundle, rootBundle;
 
 import '../models/curriculum.dart';
+import '../models/fidel_char.dart';
+import '../models/fidel_lesson.dart';
 import '../models/lesson.dart';
 import '../models/lexeme.dart';
 import '../models/sentence.dart';
@@ -28,6 +30,9 @@ class ContentRepository {
   final Map<String, List<Lesson>> _lessonsByUnit = {};
   final Set<String> _failedUnitIds = {};
   final List<String> loadWarnings = [];
+  List<FidelChar> _fidelChars = const [];
+  List<FidelStage> _fidelStages = const [];
+  final Map<String, List<FidelLesson>> _fidelLessonsByStage = {};
 
   Curriculum get curriculum => _curriculum;
   List<String> get failedUnitIds => _failedUnitIds.toList();
@@ -79,6 +84,55 @@ class ContentRepository {
         _failedUnitIds.add(unit.id);
       }
     }
+
+    try {
+      final raw = await _bundle.loadString('assets/content/fidel.json');
+      final list = jsonDecode(raw) as List;
+      _fidelChars = [for (final item in list) FidelChar.fromJson(item as Map<String, dynamic>)];
+    } catch (e) {
+      loadWarnings.add('fidel.json konnte nicht geladen werden: $e');
+    }
+
+    try {
+      final raw = await _bundle.loadString('assets/content/fidel_curriculum.json');
+      final map = jsonDecode(raw) as Map<String, dynamic>;
+      _fidelStages = [
+        for (final s in (map['stages'] as List)) FidelStage.fromJson(s as Map<String, dynamic>),
+      ];
+    } catch (e) {
+      loadWarnings.add('fidel_curriculum.json konnte nicht geladen werden: $e');
+      return;
+    }
+
+    for (final stage in _fidelStages) {
+      try {
+        final raw = await _bundle.loadString('assets/content/${stage.lessonFile}');
+        final list = jsonDecode(raw) as List;
+        _fidelLessonsByStage[stage.id] = [
+          for (final item in list) FidelLesson.fromJson(item as Map<String, dynamic>, stageId: stage.id),
+        ];
+      } catch (e) {
+        loadWarnings.add('Fidel-Stufe "${stage.id}" konnte nicht geladen werden und wird übersprungen: $e');
+      }
+    }
+  }
+
+  List<FidelStage> get fidelStages => _fidelStages;
+  List<FidelLesson> fidelLessonsForStage(String stageId) => _fidelLessonsByStage[stageId] ?? const [];
+
+  List<FidelChar> get allFidelChars => _fidelChars;
+
+  FidelChar? fidelChar(String char) => _fidelChars.where((c) => c.char == char).firstOrNull;
+
+  List<FidelChar> fidelCharsForGroup(String group) =>
+      _fidelChars.where((c) => c.group == group).toList()..sort((a, b) => a.order.compareTo(b.order));
+
+  List<String> get fidelGroupsInOrder {
+    final seen = <String>[];
+    for (final c in _fidelChars) {
+      if (!seen.contains(c.group)) seen.add(c.group);
+    }
+    return seen;
   }
 
   Lexeme? lexeme(String id) => _lexemes[id];

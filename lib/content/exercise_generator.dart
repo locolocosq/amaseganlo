@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import '../models/exercise.dart';
+import '../models/fidel_char.dart';
 import '../models/lesson.dart';
 import '../models/lexeme.dart';
 import '../models/sentence.dart';
@@ -248,6 +249,88 @@ class ExerciseGenerator {
     final result = options.toList();
     result.shuffle(random);
     return result;
+  }
+}
+
+/// Builds Fidel exercises. The one hard rule from Teil B: two signs that
+/// sound identical (same [FidelChar.base], different [FidelChar.group])
+/// must never both appear as choices in a sound-to-sign exercise - that
+/// would be unanswerable.
+class FidelExerciseGenerator {
+  final ContentRepository repository;
+  final Random random;
+
+  FidelExerciseGenerator(this.repository, {Random? random}) : random = random ?? Random();
+
+  /// Zeichen -> Laut: show the sign, choose the correct transliteration.
+  GeneratedExercise generateCharToSound(FidelChar subject) {
+    final pool = repository.allFidelChars.where((c) => c.char != subject.char).toList()
+      ..shuffle(random);
+
+    final sameOrder = pool.where((c) => c.order == subject.order).toList();
+    final options = <String>{subject.tr};
+    for (final candidates in [sameOrder, pool]) {
+      for (final c in candidates) {
+        if (options.length >= 4) break;
+        options.add(c.tr);
+      }
+      if (options.length >= 4) break;
+    }
+
+    final result = options.toList()..shuffle(random);
+    return GeneratedExercise(
+      type: ExerciseType.fidelCharToSound,
+      subjectId: 'fidel:${subject.char}',
+      promptText: subject.char,
+      correctAnswer: subject.tr,
+      options: result,
+    );
+  }
+
+  /// Laut -> Zeichen: show the transliteration, choose the correct sign.
+  /// Distractors never include a homophone of the correct sign.
+  GeneratedExercise generateSoundToChar(FidelChar subject) {
+    final pool = repository.allFidelChars
+        .where((c) => c.char != subject.char && c.base != subject.base)
+        .toList()
+      ..shuffle(random);
+
+    final sameGroup = pool.where((c) => c.group == subject.group).toList();
+    final options = <String>{subject.char};
+    for (final candidates in [sameGroup, pool]) {
+      for (final c in candidates) {
+        if (options.length >= 4) break;
+        options.add(c.char);
+      }
+      if (options.length >= 4) break;
+    }
+
+    final result = options.toList()..shuffle(random);
+    return GeneratedExercise(
+      type: ExerciseType.fidelSoundToChar,
+      subjectId: 'fidel:${subject.char}',
+      promptText: subject.tr,
+      correctAnswer: subject.char,
+      options: result,
+    );
+  }
+
+  /// "Welches Zeichen ist lu?" - all distractors from the very same row, so
+  /// the learner must actually attend to the vowel part.
+  GeneratedExercise generateOrderRecognition(String group, int order) {
+    final rowChars = repository.fidelCharsForGroup(group);
+    final subject = rowChars.firstWhere((c) => c.order == order, orElse: () => rowChars.first);
+
+    final others = rowChars.where((c) => c.char != subject.char).toList()..shuffle(random);
+    final options = <String>{subject.char, ...others.take(3).map((c) => c.char)}.toList()..shuffle(random);
+
+    return GeneratedExercise(
+      type: ExerciseType.fidelOrderRecognition,
+      subjectId: 'fidel:${subject.char}',
+      promptText: subject.tr,
+      correctAnswer: subject.char,
+      options: options,
+    );
   }
 }
 

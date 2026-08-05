@@ -527,4 +527,96 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get lessonKindUnitTest => 'Kapiteltest';
+
+  @override
+  String get fidelHomeTitle => 'Lär dig Fidel';
+
+  @override
+  String fidelStageProgress(int number, String title) {
+    return 'Steg $number: $title';
+  }
+
+  @override
+  String get fidelStageBonus => 'Bonus';
+
+  @override
+  String get fidelStageComingSoon => 'Kommer snart';
+
+  @override
+  String get fidelLessonList => 'Lektioner';
+
+  @override
+  String get fidelTableTitle => 'Fidel-tabell';
+
+  @override
+  String get fidelTableFilterAll => 'Alla';
+
+  @override
+  String get fidelTableFilterLearned => 'Bara inlärda';
+
+  @override
+  String get fidelTableFilterOpen => 'Bara oinlärda';
+
+  @override
+  String get fidelTableStudyRow => 'Öva denna rad';
+
+  @override
+  String get fidelTableDetailLearned => 'Inlärt';
+
+  @override
+  String get fidelTableDetailNotLearned => 'Inte inlärt än';
+
+  @override
+  String get fidelHomophoneTitle => 'Obs: samma ljud';
+
+  @override
+  String fidelHomophoneBody(String chars) {
+    return 'Detta tecken låter exakt som $chars, som du redan känner till. Vilket man skriver beror på ordet - det lär du dig senare vid läsning.';
+  }
+
+  @override
+  String get fidelVowelExplainerTitle => 'Varje tecken är en stavelse';
+
+  @override
+  String get fidelVowelExplainerIntro =>
+      'ለ är inte \"l\", det är \"le\" - varje Fidel-tecken står för ett helt stavelsesljud, inte bara en konsonant.';
+
+  @override
+  String get fidelVowelExplainerRow1Title => 'Titta på ሀ-raden (h)';
+
+  @override
+  String get fidelVowelExplainerRow1Body =>
+      'Sju former, sju vokaler - grundformen är kvar, bara vokaldelen (färgad) förändras.';
+
+  @override
+  String get fidelVowelExplainerRow2Title => 'Nu ለ-raden (l)';
+
+  @override
+  String get fidelVowelExplainerRow2Body =>
+      'Samma mönster som ሀ - det är inte en slump, det är ett system.';
+
+  @override
+  String get fidelVowelExplainerOrder6Title => 'Sjätte ordningen är svårast';
+
+  @override
+  String get fidelVowelExplainerOrder6Body =>
+      'Dess vokal är nästan ohörbar (ett andat \"ə\"), och formen skiljer sig ofta bara lite från grundtecknet. Samtidigt är det den vanligaste formen av alla - du kommer se den ofta.';
+
+  @override
+  String get fidelVowelExplainerExceptionTitle =>
+      'Inte alla rader är helt regelbundna';
+
+  @override
+  String get fidelVowelExplainerExceptionBody =>
+      'De flesta rader följer detta mönster, men några avviker. Appen visar det alltid ärligt när det är fallet.';
+
+  @override
+  String get fidelExplainerContinue => 'Fortsätt';
+
+  @override
+  String get fidelLockedDialogTitle => 'Detta steg bygger på det föregående';
+
+  @override
+  String get fidelLockedDialogBody =>
+      'Du har inte avslutat föregående steg än. Starta trots det?';
 }

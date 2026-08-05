@@ -213,5 +213,39 @@
   "lessonKindListening": "Luisteren",
   "lessonKindFreeApplication": "Vrij oefenen",
   "lessonKindReview": "Herhaling",
-  "lessonKindUnitTest": "Hoofdstuktest"
+  "lessonKindUnitTest": "Hoofdstuktest",
+
+  "fidelHomeTitle": "Fidel leren",
+  "fidelStageProgress": "Stap {number}: {title}",
+  "@fidelStageProgress": {
+    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+  },
+  "fidelStageBonus": "Bonus",
+  "fidelStageComingSoon": "Komt binnenkort",
+  "fidelLessonList": "Lessen",
+  "fidelTableTitle": "Fidel-tabel",
+  "fidelTableFilterAll": "Alle",
+  "fidelTableFilterLearned": "Alleen geleerde",
+  "fidelTableFilterOpen": "Alleen nog niet geleerde",
+  "fidelTableStudyRow": "Deze rij oefenen",
+  "fidelTableDetailLearned": "Geleerd",
+  "fidelTableDetailNotLearned": "Nog niet geleerd",
+  "fidelHomophoneTitle": "Let op: dezelfde klank",
+  "fidelHomophoneBody": "Dit teken klinkt precies als {chars}, dat je al kent. Welke je schrijft hangt af van het woord - dat leer je later bij het lezen.",
+  "@fidelHomophoneBody": {
+    "placeholders": { "chars": { "type": "String" } }
+  },
+  "fidelVowelExplainerTitle": "Elk teken is een lettergreep",
+  "fidelVowelExplainerIntro": "ለ is niet \"l\", het is \"le\" - elk Fidel-teken staat voor een hele lettergreepklank, niet alleen een medeklinker.",
+  "fidelVowelExplainerRow1Title": "Bekijk de ሀ-rij (h)",
+  "fidelVowelExplainerRow1Body": "Zeven vormen, zeven klinkers - de basisvorm blijft, alleen het klinkerdeel (gekleurd) verandert.",
+  "fidelVowelExplainerRow2Title": "Nu de ለ-rij (l)",
+  "fidelVowelExplainerRow2Body": "Hetzelfde patroon als bij ሀ - dat is geen toeval, het is een systeem.",
+  "fidelVowelExplainerOrder6Title": "De 6e orde is de moeilijkste",
+  "fidelVowelExplainerOrder6Body": "De klinker is bijna niet hoorbaar (een zachte \"ə\"), en de vorm verschilt vaak maar minimaal van het basisteken. Het is ook de meest voorkomende vorm - je zult hem vaak zien.",
+  "fidelVowelExplainerExceptionTitle": "Niet elke rij is perfect regelmatig",
+  "fidelVowelExplainerExceptionBody": "De meeste rijen volgen dit patroon, maar een paar niet. De app laat dat altijd eerlijk zien wanneer dat zo is.",
+  "fidelExplainerContinue": "Verder",
+  "fidelLockedDialogTitle": "Deze fase bouwt voort op de vorige",
+  "fidelLockedDialogBody": "Je hebt de vorige fase nog niet afgerond. Toch beginnen?"
 }

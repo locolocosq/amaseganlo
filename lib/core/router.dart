@@ -1,6 +1,10 @@
 import 'package:go_router/go_router.dart';
 
+import '../screens/fidel/fidel_lesson_complete_screen.dart';
+import '../screens/fidel/fidel_lesson_screen.dart';
 import '../screens/fidel/fidel_screen.dart';
+import '../screens/fidel/fidel_stage_overview_screen.dart';
+import '../screens/fidel/fidel_table_screen.dart';
 import '../screens/lesson/lesson_complete_screen.dart';
 import '../screens/lesson/lesson_screen.dart';
 import '../screens/path/path_screen.dart';
@@ -30,7 +34,20 @@ final GoRouter appRouter = GoRouter(
           ),
         ]),
         StatefulShellBranch(routes: [
-          GoRoute(path: '/fidel', builder: (context, state) => const FidelScreen()),
+          GoRoute(
+            path: '/fidel',
+            builder: (context, state) => const FidelScreen(),
+            routes: [
+              GoRoute(
+                path: 'stage/:stageId',
+                builder: (context, state) => FidelStageOverviewScreen(stageId: state.pathParameters['stageId']!),
+              ),
+              GoRoute(
+                path: 'table',
+                builder: (context, state) => const FidelTableScreen(),
+              ),
+            ],
+          ),
         ]),
         StatefulShellBranch(routes: [
           GoRoute(path: '/review', builder: (context, state) => const ReviewScreen()),
@@ -54,6 +71,28 @@ final GoRouter appRouter = GoRouter(
       builder: (context, state) => LessonCompleteScreen(
         unitId: state.pathParameters['unitId']!,
         lessonId: state.pathParameters['lessonId']!,
+      ),
+    ),
+    GoRoute(
+      path: '/fidel/lesson/:stageId/:lessonId',
+      builder: (context, state) => FidelLessonScreen(
+        stageId: state.pathParameters['stageId']!,
+        lessonId: state.pathParameters['lessonId']!,
+      ),
+    ),
+    GoRoute(
+      path: '/fidel/lesson/:stageId/:lessonId/complete',
+      builder: (context, state) => FidelLessonCompleteScreen(
+        stageId: state.pathParameters['stageId']!,
+        lessonId: state.pathParameters['lessonId']!,
+      ),
+    ),
+    GoRoute(
+      path: '/fidel/table/practice/:group',
+      builder: (context, state) => FidelLessonScreen(
+        stageId: 'practice',
+        lessonId: 'practice_${state.pathParameters['group']}',
+        practiceGroup: state.pathParameters['group'],
       ),
     ),
   ],

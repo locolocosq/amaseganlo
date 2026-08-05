@@ -526,4 +526,96 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get lessonKindUnitTest => 'Hoofdstuktest';
+
+  @override
+  String get fidelHomeTitle => 'Fidel leren';
+
+  @override
+  String fidelStageProgress(int number, String title) {
+    return 'Stap $number: $title';
+  }
+
+  @override
+  String get fidelStageBonus => 'Bonus';
+
+  @override
+  String get fidelStageComingSoon => 'Komt binnenkort';
+
+  @override
+  String get fidelLessonList => 'Lessen';
+
+  @override
+  String get fidelTableTitle => 'Fidel-tabel';
+
+  @override
+  String get fidelTableFilterAll => 'Alle';
+
+  @override
+  String get fidelTableFilterLearned => 'Alleen geleerde';
+
+  @override
+  String get fidelTableFilterOpen => 'Alleen nog niet geleerde';
+
+  @override
+  String get fidelTableStudyRow => 'Deze rij oefenen';
+
+  @override
+  String get fidelTableDetailLearned => 'Geleerd';
+
+  @override
+  String get fidelTableDetailNotLearned => 'Nog niet geleerd';
+
+  @override
+  String get fidelHomophoneTitle => 'Let op: dezelfde klank';
+
+  @override
+  String fidelHomophoneBody(String chars) {
+    return 'Dit teken klinkt precies als $chars, dat je al kent. Welke je schrijft hangt af van het woord - dat leer je later bij het lezen.';
+  }
+
+  @override
+  String get fidelVowelExplainerTitle => 'Elk teken is een lettergreep';
+
+  @override
+  String get fidelVowelExplainerIntro =>
+      'ለ is niet \"l\", het is \"le\" - elk Fidel-teken staat voor een hele lettergreepklank, niet alleen een medeklinker.';
+
+  @override
+  String get fidelVowelExplainerRow1Title => 'Bekijk de ሀ-rij (h)';
+
+  @override
+  String get fidelVowelExplainerRow1Body =>
+      'Zeven vormen, zeven klinkers - de basisvorm blijft, alleen het klinkerdeel (gekleurd) verandert.';
+
+  @override
+  String get fidelVowelExplainerRow2Title => 'Nu de ለ-rij (l)';
+
+  @override
+  String get fidelVowelExplainerRow2Body =>
+      'Hetzelfde patroon als bij ሀ - dat is geen toeval, het is een systeem.';
+
+  @override
+  String get fidelVowelExplainerOrder6Title => 'De 6e orde is de moeilijkste';
+
+  @override
+  String get fidelVowelExplainerOrder6Body =>
+      'De klinker is bijna niet hoorbaar (een zachte \"ə\"), en de vorm verschilt vaak maar minimaal van het basisteken. Het is ook de meest voorkomende vorm - je zult hem vaak zien.';
+
+  @override
+  String get fidelVowelExplainerExceptionTitle =>
+      'Niet elke rij is perfect regelmatig';
+
+  @override
+  String get fidelVowelExplainerExceptionBody =>
+      'De meeste rijen volgen dit patroon, maar een paar niet. De app laat dat altijd eerlijk zien wanneer dat zo is.';
+
+  @override
+  String get fidelExplainerContinue => 'Verder';
+
+  @override
+  String get fidelLockedDialogTitle => 'Deze fase bouwt voort op de vorige';
+
+  @override
+  String get fidelLockedDialogBody =>
+      'Je hebt de vorige fase nog niet afgerond. Toch beginnen?';
 }

@@ -1,6 +1,21 @@
 # Prüfliste
 
-Alle Inhalte mit `"verified": false`, sortiert nach Abschnitt. Bitte von einer Muttersprachlerin/einem Muttersprachler gegenlesen lassen.
+Alle Inhalte mit `"verified": false` bzw. Zeichen, die eine Muttersprachlerin/ein Muttersprachler gegenlesen sollte, sortiert nach Abschnitt.
+
+## Fidel-Tafel (assets/content/fidel.json, erzeugt von tool/gen_fidel.dart)
+
+Die komplette 33×7-Tafel wurde nach bestem Wissen zusammengestellt. Hohe Sicherheit bei den häufigen Reihen (ha, la, hha, ma, ra, sa, sha, qa, ba, ta, na, aa/ka, wa, za, ya, da, ja, ga, tta, tsa, tsa2, fa). **Geringere Sicherheit** bei folgenden, selteneren Reihen - bitte vorrangig gegenlesen:
+
+| group | Zeichen (Ordnung 1-7) | Laut | Grund der Unsicherheit |
+|---|---|---|---|
+| hha2 | ኀኁኂኃኄኅኆ | h (3. gleichklingendes h) | Seltene, archaische Reihe - Formen der Ordnungen 2,3,5,7 nicht mit letzter Sicherheit geprüft. |
+| aa | አኡኢኣኤእኦ | a (Glottal) | Bekannt unregelmäßige Reihe (Ordnung 4 und 6 weichen vom Muster ab) - deshalb `regular: false`. |
+| kha | ኸኹኺኻኼኽኾ | kh | Sehr seltener Buchstabe im modernen Amharisch, kaum belegt - `regular: false` zur Vorsicht. |
+| aa2 | ዐዑዒዓዔዕዖ | a (2. gleichklingendes a) | Wie „aa“ - unregelmäßige Reihe, dazu selten im Alltagstext. |
+| zha | ዠዡዢዣዤዥዦ | zh | Sehr seltener Buchstabe (v. a. Lehnwörter) - `regular: false` zur Vorsicht. |
+| ppa | ጰጱጲጳጴጵጶ | p' | Seltener Buchstabe (v. a. griechische Lehnwörter) - `regular: false` zur Vorsicht. |
+
+**Empfehlung:** Vor dem produktiven Einsatz die komplette Tafel einmal von einer Muttersprachlerin/einem Muttersprachler gegen eine gedruckte Fidel-Tafel prüfen lassen - Ethiopic-Unicode hat einige einander sehr ähnliche Zeichen, bei denen ich mir ohne diese Prüfung keine 100%ige Sicherheit zutraue.
 
 ## Abschnitt A1.1 — Erste Begegnung
 

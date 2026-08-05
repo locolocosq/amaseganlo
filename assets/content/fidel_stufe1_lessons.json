@@ -1,0 +1,102 @@
+[
+  {
+    "id": "f1_l1",
+    "kind": "charIntro",
+    "groupIds": ["ha", "la", "hha"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"],
+    "homophoneOf": { "hha": ["ha"] }
+  },
+  {
+    "id": "f1_l2",
+    "kind": "charIntro",
+    "groupIds": ["ma", "sza", "ra"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l3",
+    "kind": "charIntro",
+    "groupIds": ["sa", "sha", "qa"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"],
+    "homophoneOf": { "sa": ["sza"] }
+  },
+  {
+    "id": "f1_r1",
+    "kind": "review",
+    "groupIds": ["ha", "la", "hha", "ma", "sza", "ra", "sa", "sha", "qa"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l4",
+    "kind": "charIntro",
+    "groupIds": ["ba", "ta", "cha"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l5",
+    "kind": "charIntro",
+    "groupIds": ["hha2", "na", "gna"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"],
+    "homophoneOf": { "hha2": ["ha", "hha"] }
+  },
+  {
+    "id": "f1_l6",
+    "kind": "charIntro",
+    "groupIds": ["aa", "ka", "kha"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_r2",
+    "kind": "review",
+    "groupIds": ["ba", "ta", "cha", "hha2", "na", "gna", "aa", "ka", "kha"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l7",
+    "kind": "charIntro",
+    "groupIds": ["wa", "aa2", "za"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"],
+    "homophoneOf": { "aa2": ["aa"] }
+  },
+  {
+    "id": "f1_l8",
+    "kind": "charIntro",
+    "groupIds": ["zha", "ya", "da"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l9",
+    "kind": "charIntro",
+    "groupIds": ["ja", "ga", "tta"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_r3",
+    "kind": "review",
+    "groupIds": ["wa", "aa2", "za", "zha", "ya", "da", "ja", "ga", "tta"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l10",
+    "kind": "charIntro",
+    "groupIds": ["chha", "ppa", "tsa"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f1_l11",
+    "kind": "charIntro",
+    "groupIds": ["tsa2", "fa", "pa"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"],
+    "homophoneOf": { "tsa2": ["tsa"] }
+  },
+  {
+    "id": "f1_test",
+    "kind": "stageTest",
+    "groupIds": [
+      "ha", "la", "hha", "ma", "sza", "ra", "sa", "sha", "qa",
+      "ba", "ta", "cha", "hha2", "na", "gna", "aa", "ka", "kha",
+      "wa", "aa2", "za", "zha", "ya", "da", "ja", "ga", "tta",
+      "chha", "ppa", "tsa", "tsa2", "fa", "pa"
+    ],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  }
+]

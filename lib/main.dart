@@ -5,6 +5,7 @@ import 'app.dart';
 import 'core/audio_service.dart';
 import 'core/storage_service.dart';
 import 'state/content_provider.dart';
+import 'state/fidel_lesson_provider.dart';
 import 'state/lesson_provider.dart';
 import 'state/progress_provider.dart';
 import 'state/settings_provider.dart';
@@ -37,6 +38,12 @@ Future<void> main() async {
             content: contentProvider.repository,
             progress: progressProvider,
             audioService: audioService,
+          ),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => FidelLessonProvider(
+            content: contentProvider.repository,
+            progress: progressProvider,
           ),
         ),
       ],

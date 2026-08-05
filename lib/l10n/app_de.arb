@@ -213,5 +213,39 @@
   "lessonKindListening": "Hören",
   "lessonKindFreeApplication": "Freies Anwenden",
   "lessonKindReview": "Wiederholung",
-  "lessonKindUnitTest": "Kapitel-Test"
+  "lessonKindUnitTest": "Kapitel-Test",
+
+  "fidelHomeTitle": "Fidel lernen",
+  "fidelStageProgress": "Stufe {number}: {title}",
+  "@fidelStageProgress": {
+    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+  },
+  "fidelStageBonus": "Bonus",
+  "fidelStageComingSoon": "Kommt bald",
+  "fidelLessonList": "Lektionen",
+  "fidelTableTitle": "Fidel-Tafel",
+  "fidelTableFilterAll": "Alle",
+  "fidelTableFilterLearned": "Nur Gelernte",
+  "fidelTableFilterOpen": "Nur Offene",
+  "fidelTableStudyRow": "Diese Reihe üben",
+  "fidelTableDetailLearned": "Gelernt",
+  "fidelTableDetailNotLearned": "Noch nicht gelernt",
+  "fidelHomophoneTitle": "Achtung: gleicher Laut",
+  "fidelHomophoneBody": "Dieses Zeichen klingt genauso wie {chars}, das du schon kennst. Welches man schreibt, hängt vom Wort ab - das lernst du später beim Lesen mit.",
+  "@fidelHomophoneBody": {
+    "placeholders": { "chars": { "type": "String" } }
+  },
+  "fidelVowelExplainerTitle": "Jedes Zeichen ist eine Silbe",
+  "fidelVowelExplainerIntro": "ለ ist nicht „l“, sondern „le“ - jedes Fidel-Zeichen steht für einen ganzen Silben-Klang, nicht nur einen Konsonanten.",
+  "fidelVowelExplainerRow1Title": "Sieh dir die Reihe von ሀ (h) an",
+  "fidelVowelExplainerRow1Body": "Sieben Formen, sieben Vokale - der Grundkörper bleibt, nur der Vokal-Teil (farbig) verändert sich.",
+  "fidelVowelExplainerRow2Title": "Jetzt die Reihe von ለ (l)",
+  "fidelVowelExplainerRow2Body": "Dasselbe Muster wie bei ሀ - das ist kein Zufall, sondern ein System.",
+  "fidelVowelExplainerOrder6Title": "Die 6. Ordnung ist die schwerste",
+  "fidelVowelExplainerOrder6Body": "Ihr Vokal ist kaum hörbar (ein gehauchtes „ə“), und die Form unterscheidet sich oft nur minimal vom Grundzeichen. Gleichzeitig ist sie die häufigste Form überhaupt - du wirst sie oft wiederholen.",
+  "fidelVowelExplainerExceptionTitle": "Nicht jede Reihe ist perfekt regelmäßig",
+  "fidelVowelExplainerExceptionBody": "Die meisten Reihen folgen diesem Muster, aber einige weichen davon ab. Die App zeigt dir das immer ehrlich an, wenn es so weit ist.",
+  "fidelExplainerContinue": "Weiter",
+  "fidelLockedDialogTitle": "Diese Stufe baut auf der vorherigen auf",
+  "fidelLockedDialogBody": "Du hast die vorherige Stufe noch nicht abgeschlossen. Trotzdem starten?"
 }

@@ -51,10 +51,11 @@ void main() {
     });
 
     test('FidelChar', () {
-      const fidelChar = FidelChar(char: 'ለ', base: 'l', order: 1, tr: 'le', ipa: 'lə', regular: true);
+      const fidelChar = FidelChar(char: 'ለ', base: 'l', group: 'la', order: 1, tr: 'le', ipa: 'lə', regular: true);
       final roundTripped = FidelChar.fromJson(fidelChar.toJson());
       expect(roundTripped.char, fidelChar.char);
       expect(roundTripped.base, fidelChar.base);
+      expect(roundTripped.group, fidelChar.group);
       expect(roundTripped.order, fidelChar.order);
       expect(roundTripped.regular, fidelChar.regular);
     });

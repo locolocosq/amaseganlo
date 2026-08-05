@@ -1,0 +1,2312 @@
+[
+  {
+    "char": "ሀ",
+    "base": "h",
+    "group": "ha",
+    "order": 1,
+    "tr": "he",
+    "ipa": "hə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሁ",
+    "base": "h",
+    "group": "ha",
+    "order": 2,
+    "tr": "hu",
+    "ipa": "hu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሂ",
+    "base": "h",
+    "group": "ha",
+    "order": 3,
+    "tr": "hi",
+    "ipa": "hi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሃ",
+    "base": "h",
+    "group": "ha",
+    "order": 4,
+    "tr": "ha",
+    "ipa": "ha",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሄ",
+    "base": "h",
+    "group": "ha",
+    "order": 5,
+    "tr": "he",
+    "ipa": "he",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ህ",
+    "base": "h",
+    "group": "ha",
+    "order": 6,
+    "tr": "h",
+    "ipa": "h",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሆ",
+    "base": "h",
+    "group": "ha",
+    "order": 7,
+    "tr": "ho",
+    "ipa": "ho",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ለ",
+    "base": "l",
+    "group": "la",
+    "order": 1,
+    "tr": "le",
+    "ipa": "lə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሉ",
+    "base": "l",
+    "group": "la",
+    "order": 2,
+    "tr": "lu",
+    "ipa": "lu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሊ",
+    "base": "l",
+    "group": "la",
+    "order": 3,
+    "tr": "li",
+    "ipa": "li",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ላ",
+    "base": "l",
+    "group": "la",
+    "order": 4,
+    "tr": "la",
+    "ipa": "la",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሌ",
+    "base": "l",
+    "group": "la",
+    "order": 5,
+    "tr": "le",
+    "ipa": "le",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ል",
+    "base": "l",
+    "group": "la",
+    "order": 6,
+    "tr": "l",
+    "ipa": "l",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሎ",
+    "base": "l",
+    "group": "la",
+    "order": 7,
+    "tr": "lo",
+    "ipa": "lo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሐ",
+    "base": "h",
+    "group": "hha",
+    "order": 1,
+    "tr": "he",
+    "ipa": "hə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሑ",
+    "base": "h",
+    "group": "hha",
+    "order": 2,
+    "tr": "hu",
+    "ipa": "hu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሒ",
+    "base": "h",
+    "group": "hha",
+    "order": 3,
+    "tr": "hi",
+    "ipa": "hi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሓ",
+    "base": "h",
+    "group": "hha",
+    "order": 4,
+    "tr": "ha",
+    "ipa": "ha",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሔ",
+    "base": "h",
+    "group": "hha",
+    "order": 5,
+    "tr": "he",
+    "ipa": "he",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሕ",
+    "base": "h",
+    "group": "hha",
+    "order": 6,
+    "tr": "h",
+    "ipa": "h",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሖ",
+    "base": "h",
+    "group": "hha",
+    "order": 7,
+    "tr": "ho",
+    "ipa": "ho",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "መ",
+    "base": "m",
+    "group": "ma",
+    "order": 1,
+    "tr": "me",
+    "ipa": "mə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሙ",
+    "base": "m",
+    "group": "ma",
+    "order": 2,
+    "tr": "mu",
+    "ipa": "mu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሚ",
+    "base": "m",
+    "group": "ma",
+    "order": 3,
+    "tr": "mi",
+    "ipa": "mi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ማ",
+    "base": "m",
+    "group": "ma",
+    "order": 4,
+    "tr": "ma",
+    "ipa": "ma",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሜ",
+    "base": "m",
+    "group": "ma",
+    "order": 5,
+    "tr": "me",
+    "ipa": "me",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ም",
+    "base": "m",
+    "group": "ma",
+    "order": 6,
+    "tr": "m",
+    "ipa": "m",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሞ",
+    "base": "m",
+    "group": "ma",
+    "order": 7,
+    "tr": "mo",
+    "ipa": "mo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሠ",
+    "base": "s",
+    "group": "sza",
+    "order": 1,
+    "tr": "se",
+    "ipa": "sə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሡ",
+    "base": "s",
+    "group": "sza",
+    "order": 2,
+    "tr": "su",
+    "ipa": "su",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሢ",
+    "base": "s",
+    "group": "sza",
+    "order": 3,
+    "tr": "si",
+    "ipa": "si",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሣ",
+    "base": "s",
+    "group": "sza",
+    "order": 4,
+    "tr": "sa",
+    "ipa": "sa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሤ",
+    "base": "s",
+    "group": "sza",
+    "order": 5,
+    "tr": "se",
+    "ipa": "se",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሥ",
+    "base": "s",
+    "group": "sza",
+    "order": 6,
+    "tr": "s",
+    "ipa": "s",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሦ",
+    "base": "s",
+    "group": "sza",
+    "order": 7,
+    "tr": "so",
+    "ipa": "so",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ረ",
+    "base": "r",
+    "group": "ra",
+    "order": 1,
+    "tr": "re",
+    "ipa": "rə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሩ",
+    "base": "r",
+    "group": "ra",
+    "order": 2,
+    "tr": "ru",
+    "ipa": "ru",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሪ",
+    "base": "r",
+    "group": "ra",
+    "order": 3,
+    "tr": "ri",
+    "ipa": "ri",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ራ",
+    "base": "r",
+    "group": "ra",
+    "order": 4,
+    "tr": "ra",
+    "ipa": "ra",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሬ",
+    "base": "r",
+    "group": "ra",
+    "order": 5,
+    "tr": "re",
+    "ipa": "re",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ር",
+    "base": "r",
+    "group": "ra",
+    "order": 6,
+    "tr": "r",
+    "ipa": "r",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሮ",
+    "base": "r",
+    "group": "ra",
+    "order": 7,
+    "tr": "ro",
+    "ipa": "ro",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሰ",
+    "base": "s",
+    "group": "sa",
+    "order": 1,
+    "tr": "se",
+    "ipa": "sə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሱ",
+    "base": "s",
+    "group": "sa",
+    "order": 2,
+    "tr": "su",
+    "ipa": "su",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሲ",
+    "base": "s",
+    "group": "sa",
+    "order": 3,
+    "tr": "si",
+    "ipa": "si",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሳ",
+    "base": "s",
+    "group": "sa",
+    "order": 4,
+    "tr": "sa",
+    "ipa": "sa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሴ",
+    "base": "s",
+    "group": "sa",
+    "order": 5,
+    "tr": "se",
+    "ipa": "se",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ስ",
+    "base": "s",
+    "group": "sa",
+    "order": 6,
+    "tr": "s",
+    "ipa": "s",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሶ",
+    "base": "s",
+    "group": "sa",
+    "order": 7,
+    "tr": "so",
+    "ipa": "so",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሸ",
+    "base": "sh",
+    "group": "sha",
+    "order": 1,
+    "tr": "she",
+    "ipa": "ʃə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሹ",
+    "base": "sh",
+    "group": "sha",
+    "order": 2,
+    "tr": "shu",
+    "ipa": "ʃu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሺ",
+    "base": "sh",
+    "group": "sha",
+    "order": 3,
+    "tr": "shi",
+    "ipa": "ʃi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሻ",
+    "base": "sh",
+    "group": "sha",
+    "order": 4,
+    "tr": "sha",
+    "ipa": "ʃa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሼ",
+    "base": "sh",
+    "group": "sha",
+    "order": 5,
+    "tr": "she",
+    "ipa": "ʃe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሽ",
+    "base": "sh",
+    "group": "sha",
+    "order": 6,
+    "tr": "sh",
+    "ipa": "ʃ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ሾ",
+    "base": "sh",
+    "group": "sha",
+    "order": 7,
+    "tr": "sho",
+    "ipa": "ʃo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቀ",
+    "base": "k'",
+    "group": "qa",
+    "order": 1,
+    "tr": "k'e",
+    "ipa": "kʼə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቁ",
+    "base": "k'",
+    "group": "qa",
+    "order": 2,
+    "tr": "k'u",
+    "ipa": "kʼu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቂ",
+    "base": "k'",
+    "group": "qa",
+    "order": 3,
+    "tr": "k'i",
+    "ipa": "kʼi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቃ",
+    "base": "k'",
+    "group": "qa",
+    "order": 4,
+    "tr": "k'a",
+    "ipa": "kʼa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቄ",
+    "base": "k'",
+    "group": "qa",
+    "order": 5,
+    "tr": "k'e",
+    "ipa": "kʼe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቅ",
+    "base": "k'",
+    "group": "qa",
+    "order": 6,
+    "tr": "k'",
+    "ipa": "kʼ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቆ",
+    "base": "k'",
+    "group": "qa",
+    "order": 7,
+    "tr": "k'o",
+    "ipa": "kʼo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "በ",
+    "base": "b",
+    "group": "ba",
+    "order": 1,
+    "tr": "be",
+    "ipa": "bə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቡ",
+    "base": "b",
+    "group": "ba",
+    "order": 2,
+    "tr": "bu",
+    "ipa": "bu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቢ",
+    "base": "b",
+    "group": "ba",
+    "order": 3,
+    "tr": "bi",
+    "ipa": "bi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ባ",
+    "base": "b",
+    "group": "ba",
+    "order": 4,
+    "tr": "ba",
+    "ipa": "ba",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቤ",
+    "base": "b",
+    "group": "ba",
+    "order": 5,
+    "tr": "be",
+    "ipa": "be",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ብ",
+    "base": "b",
+    "group": "ba",
+    "order": 6,
+    "tr": "b",
+    "ipa": "b",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቦ",
+    "base": "b",
+    "group": "ba",
+    "order": 7,
+    "tr": "bo",
+    "ipa": "bo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ተ",
+    "base": "t",
+    "group": "ta",
+    "order": 1,
+    "tr": "te",
+    "ipa": "tə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቱ",
+    "base": "t",
+    "group": "ta",
+    "order": 2,
+    "tr": "tu",
+    "ipa": "tu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቲ",
+    "base": "t",
+    "group": "ta",
+    "order": 3,
+    "tr": "ti",
+    "ipa": "ti",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ታ",
+    "base": "t",
+    "group": "ta",
+    "order": 4,
+    "tr": "ta",
+    "ipa": "ta",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቴ",
+    "base": "t",
+    "group": "ta",
+    "order": 5,
+    "tr": "te",
+    "ipa": "te",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ት",
+    "base": "t",
+    "group": "ta",
+    "order": 6,
+    "tr": "t",
+    "ipa": "t",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቶ",
+    "base": "t",
+    "group": "ta",
+    "order": 7,
+    "tr": "to",
+    "ipa": "to",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቸ",
+    "base": "ch",
+    "group": "cha",
+    "order": 1,
+    "tr": "che",
+    "ipa": "tʃə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቹ",
+    "base": "ch",
+    "group": "cha",
+    "order": 2,
+    "tr": "chu",
+    "ipa": "tʃu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቺ",
+    "base": "ch",
+    "group": "cha",
+    "order": 3,
+    "tr": "chi",
+    "ipa": "tʃi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቻ",
+    "base": "ch",
+    "group": "cha",
+    "order": 4,
+    "tr": "cha",
+    "ipa": "tʃa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቼ",
+    "base": "ch",
+    "group": "cha",
+    "order": 5,
+    "tr": "che",
+    "ipa": "tʃe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ች",
+    "base": "ch",
+    "group": "cha",
+    "order": 6,
+    "tr": "ch",
+    "ipa": "tʃ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ቾ",
+    "base": "ch",
+    "group": "cha",
+    "order": 7,
+    "tr": "cho",
+    "ipa": "tʃo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኀ",
+    "base": "h",
+    "group": "hha2",
+    "order": 1,
+    "tr": "he",
+    "ipa": "hə",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኁ",
+    "base": "h",
+    "group": "hha2",
+    "order": 2,
+    "tr": "hu",
+    "ipa": "hu",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኂ",
+    "base": "h",
+    "group": "hha2",
+    "order": 3,
+    "tr": "hi",
+    "ipa": "hi",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኃ",
+    "base": "h",
+    "group": "hha2",
+    "order": 4,
+    "tr": "ha",
+    "ipa": "ha",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኄ",
+    "base": "h",
+    "group": "hha2",
+    "order": 5,
+    "tr": "he",
+    "ipa": "he",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኅ",
+    "base": "h",
+    "group": "hha2",
+    "order": 6,
+    "tr": "h",
+    "ipa": "h",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኆ",
+    "base": "h",
+    "group": "hha2",
+    "order": 7,
+    "tr": "ho",
+    "ipa": "ho",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ነ",
+    "base": "n",
+    "group": "na",
+    "order": 1,
+    "tr": "ne",
+    "ipa": "nə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኑ",
+    "base": "n",
+    "group": "na",
+    "order": 2,
+    "tr": "nu",
+    "ipa": "nu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኒ",
+    "base": "n",
+    "group": "na",
+    "order": 3,
+    "tr": "ni",
+    "ipa": "ni",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ና",
+    "base": "n",
+    "group": "na",
+    "order": 4,
+    "tr": "na",
+    "ipa": "na",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኔ",
+    "base": "n",
+    "group": "na",
+    "order": 5,
+    "tr": "ne",
+    "ipa": "ne",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ን",
+    "base": "n",
+    "group": "na",
+    "order": 6,
+    "tr": "n",
+    "ipa": "n",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኖ",
+    "base": "n",
+    "group": "na",
+    "order": 7,
+    "tr": "no",
+    "ipa": "no",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኘ",
+    "base": "gn",
+    "group": "gna",
+    "order": 1,
+    "tr": "gne",
+    "ipa": "ɲə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኙ",
+    "base": "gn",
+    "group": "gna",
+    "order": 2,
+    "tr": "gnu",
+    "ipa": "ɲu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኚ",
+    "base": "gn",
+    "group": "gna",
+    "order": 3,
+    "tr": "gni",
+    "ipa": "ɲi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኛ",
+    "base": "gn",
+    "group": "gna",
+    "order": 4,
+    "tr": "gna",
+    "ipa": "ɲa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኜ",
+    "base": "gn",
+    "group": "gna",
+    "order": 5,
+    "tr": "gne",
+    "ipa": "ɲe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኝ",
+    "base": "gn",
+    "group": "gna",
+    "order": 6,
+    "tr": "gn",
+    "ipa": "ɲ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኞ",
+    "base": "gn",
+    "group": "gna",
+    "order": 7,
+    "tr": "gno",
+    "ipa": "ɲo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "አ",
+    "base": "a",
+    "group": "aa",
+    "order": 1,
+    "tr": "ae",
+    "ipa": "ʔə",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኡ",
+    "base": "a",
+    "group": "aa",
+    "order": 2,
+    "tr": "au",
+    "ipa": "ʔu",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኢ",
+    "base": "a",
+    "group": "aa",
+    "order": 3,
+    "tr": "ai",
+    "ipa": "ʔi",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኣ",
+    "base": "a",
+    "group": "aa",
+    "order": 4,
+    "tr": "aa",
+    "ipa": "ʔa",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኤ",
+    "base": "a",
+    "group": "aa",
+    "order": 5,
+    "tr": "ae",
+    "ipa": "ʔe",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "እ",
+    "base": "a",
+    "group": "aa",
+    "order": 6,
+    "tr": "a",
+    "ipa": "ʔ",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኦ",
+    "base": "a",
+    "group": "aa",
+    "order": 7,
+    "tr": "ao",
+    "ipa": "ʔo",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ከ",
+    "base": "k",
+    "group": "ka",
+    "order": 1,
+    "tr": "ke",
+    "ipa": "kə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኩ",
+    "base": "k",
+    "group": "ka",
+    "order": 2,
+    "tr": "ku",
+    "ipa": "ku",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኪ",
+    "base": "k",
+    "group": "ka",
+    "order": 3,
+    "tr": "ki",
+    "ipa": "ki",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ካ",
+    "base": "k",
+    "group": "ka",
+    "order": 4,
+    "tr": "ka",
+    "ipa": "ka",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኬ",
+    "base": "k",
+    "group": "ka",
+    "order": 5,
+    "tr": "ke",
+    "ipa": "ke",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ክ",
+    "base": "k",
+    "group": "ka",
+    "order": 6,
+    "tr": "k",
+    "ipa": "k",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኮ",
+    "base": "k",
+    "group": "ka",
+    "order": 7,
+    "tr": "ko",
+    "ipa": "ko",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ኸ",
+    "base": "kh",
+    "group": "kha",
+    "order": 1,
+    "tr": "khe",
+    "ipa": "xə",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኹ",
+    "base": "kh",
+    "group": "kha",
+    "order": 2,
+    "tr": "khu",
+    "ipa": "xu",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኺ",
+    "base": "kh",
+    "group": "kha",
+    "order": 3,
+    "tr": "khi",
+    "ipa": "xi",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኻ",
+    "base": "kh",
+    "group": "kha",
+    "order": 4,
+    "tr": "kha",
+    "ipa": "xa",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኼ",
+    "base": "kh",
+    "group": "kha",
+    "order": 5,
+    "tr": "khe",
+    "ipa": "xe",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኽ",
+    "base": "kh",
+    "group": "kha",
+    "order": 6,
+    "tr": "kh",
+    "ipa": "x",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ኾ",
+    "base": "kh",
+    "group": "kha",
+    "order": 7,
+    "tr": "kho",
+    "ipa": "xo",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ወ",
+    "base": "w",
+    "group": "wa",
+    "order": 1,
+    "tr": "we",
+    "ipa": "wə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዉ",
+    "base": "w",
+    "group": "wa",
+    "order": 2,
+    "tr": "wu",
+    "ipa": "wu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዊ",
+    "base": "w",
+    "group": "wa",
+    "order": 3,
+    "tr": "wi",
+    "ipa": "wi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዋ",
+    "base": "w",
+    "group": "wa",
+    "order": 4,
+    "tr": "wa",
+    "ipa": "wa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዌ",
+    "base": "w",
+    "group": "wa",
+    "order": 5,
+    "tr": "we",
+    "ipa": "we",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ው",
+    "base": "w",
+    "group": "wa",
+    "order": 6,
+    "tr": "w",
+    "ipa": "w",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዎ",
+    "base": "w",
+    "group": "wa",
+    "order": 7,
+    "tr": "wo",
+    "ipa": "wo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዐ",
+    "base": "a",
+    "group": "aa2",
+    "order": 1,
+    "tr": "ae",
+    "ipa": "ʔə",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዑ",
+    "base": "a",
+    "group": "aa2",
+    "order": 2,
+    "tr": "au",
+    "ipa": "ʔu",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዒ",
+    "base": "a",
+    "group": "aa2",
+    "order": 3,
+    "tr": "ai",
+    "ipa": "ʔi",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዓ",
+    "base": "a",
+    "group": "aa2",
+    "order": 4,
+    "tr": "aa",
+    "ipa": "ʔa",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዔ",
+    "base": "a",
+    "group": "aa2",
+    "order": 5,
+    "tr": "ae",
+    "ipa": "ʔe",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዕ",
+    "base": "a",
+    "group": "aa2",
+    "order": 6,
+    "tr": "a",
+    "ipa": "ʔ",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዖ",
+    "base": "a",
+    "group": "aa2",
+    "order": 7,
+    "tr": "ao",
+    "ipa": "ʔo",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዘ",
+    "base": "z",
+    "group": "za",
+    "order": 1,
+    "tr": "ze",
+    "ipa": "zə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዙ",
+    "base": "z",
+    "group": "za",
+    "order": 2,
+    "tr": "zu",
+    "ipa": "zu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዚ",
+    "base": "z",
+    "group": "za",
+    "order": 3,
+    "tr": "zi",
+    "ipa": "zi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዛ",
+    "base": "z",
+    "group": "za",
+    "order": 4,
+    "tr": "za",
+    "ipa": "za",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዜ",
+    "base": "z",
+    "group": "za",
+    "order": 5,
+    "tr": "ze",
+    "ipa": "ze",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዝ",
+    "base": "z",
+    "group": "za",
+    "order": 6,
+    "tr": "z",
+    "ipa": "z",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዞ",
+    "base": "z",
+    "group": "za",
+    "order": 7,
+    "tr": "zo",
+    "ipa": "zo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዠ",
+    "base": "zh",
+    "group": "zha",
+    "order": 1,
+    "tr": "zhe",
+    "ipa": "ʒə",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዡ",
+    "base": "zh",
+    "group": "zha",
+    "order": 2,
+    "tr": "zhu",
+    "ipa": "ʒu",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዢ",
+    "base": "zh",
+    "group": "zha",
+    "order": 3,
+    "tr": "zhi",
+    "ipa": "ʒi",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዣ",
+    "base": "zh",
+    "group": "zha",
+    "order": 4,
+    "tr": "zha",
+    "ipa": "ʒa",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዤ",
+    "base": "zh",
+    "group": "zha",
+    "order": 5,
+    "tr": "zhe",
+    "ipa": "ʒe",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዥ",
+    "base": "zh",
+    "group": "zha",
+    "order": 6,
+    "tr": "zh",
+    "ipa": "ʒ",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ዦ",
+    "base": "zh",
+    "group": "zha",
+    "order": 7,
+    "tr": "zho",
+    "ipa": "ʒo",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "የ",
+    "base": "y",
+    "group": "ya",
+    "order": 1,
+    "tr": "ye",
+    "ipa": "jə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዩ",
+    "base": "y",
+    "group": "ya",
+    "order": 2,
+    "tr": "yu",
+    "ipa": "ju",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዪ",
+    "base": "y",
+    "group": "ya",
+    "order": 3,
+    "tr": "yi",
+    "ipa": "ji",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ያ",
+    "base": "y",
+    "group": "ya",
+    "order": 4,
+    "tr": "ya",
+    "ipa": "ja",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዬ",
+    "base": "y",
+    "group": "ya",
+    "order": 5,
+    "tr": "ye",
+    "ipa": "je",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ይ",
+    "base": "y",
+    "group": "ya",
+    "order": 6,
+    "tr": "y",
+    "ipa": "j",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዮ",
+    "base": "y",
+    "group": "ya",
+    "order": 7,
+    "tr": "yo",
+    "ipa": "jo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ደ",
+    "base": "d",
+    "group": "da",
+    "order": 1,
+    "tr": "de",
+    "ipa": "də",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዱ",
+    "base": "d",
+    "group": "da",
+    "order": 2,
+    "tr": "du",
+    "ipa": "du",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዲ",
+    "base": "d",
+    "group": "da",
+    "order": 3,
+    "tr": "di",
+    "ipa": "di",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዳ",
+    "base": "d",
+    "group": "da",
+    "order": 4,
+    "tr": "da",
+    "ipa": "da",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዴ",
+    "base": "d",
+    "group": "da",
+    "order": 5,
+    "tr": "de",
+    "ipa": "de",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ድ",
+    "base": "d",
+    "group": "da",
+    "order": 6,
+    "tr": "d",
+    "ipa": "d",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ዶ",
+    "base": "d",
+    "group": "da",
+    "order": 7,
+    "tr": "do",
+    "ipa": "do",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጀ",
+    "base": "j",
+    "group": "ja",
+    "order": 1,
+    "tr": "je",
+    "ipa": "dʒə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጁ",
+    "base": "j",
+    "group": "ja",
+    "order": 2,
+    "tr": "ju",
+    "ipa": "dʒu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጂ",
+    "base": "j",
+    "group": "ja",
+    "order": 3,
+    "tr": "ji",
+    "ipa": "dʒi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጃ",
+    "base": "j",
+    "group": "ja",
+    "order": 4,
+    "tr": "ja",
+    "ipa": "dʒa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጄ",
+    "base": "j",
+    "group": "ja",
+    "order": 5,
+    "tr": "je",
+    "ipa": "dʒe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጅ",
+    "base": "j",
+    "group": "ja",
+    "order": 6,
+    "tr": "j",
+    "ipa": "dʒ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጆ",
+    "base": "j",
+    "group": "ja",
+    "order": 7,
+    "tr": "jo",
+    "ipa": "dʒo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ገ",
+    "base": "g",
+    "group": "ga",
+    "order": 1,
+    "tr": "ge",
+    "ipa": "gə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጉ",
+    "base": "g",
+    "group": "ga",
+    "order": 2,
+    "tr": "gu",
+    "ipa": "gu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጊ",
+    "base": "g",
+    "group": "ga",
+    "order": 3,
+    "tr": "gi",
+    "ipa": "gi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጋ",
+    "base": "g",
+    "group": "ga",
+    "order": 4,
+    "tr": "ga",
+    "ipa": "ga",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጌ",
+    "base": "g",
+    "group": "ga",
+    "order": 5,
+    "tr": "ge",
+    "ipa": "ge",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ግ",
+    "base": "g",
+    "group": "ga",
+    "order": 6,
+    "tr": "g",
+    "ipa": "g",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጎ",
+    "base": "g",
+    "group": "ga",
+    "order": 7,
+    "tr": "go",
+    "ipa": "go",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጠ",
+    "base": "t'",
+    "group": "tta",
+    "order": 1,
+    "tr": "t'e",
+    "ipa": "tʼə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጡ",
+    "base": "t'",
+    "group": "tta",
+    "order": 2,
+    "tr": "t'u",
+    "ipa": "tʼu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጢ",
+    "base": "t'",
+    "group": "tta",
+    "order": 3,
+    "tr": "t'i",
+    "ipa": "tʼi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጣ",
+    "base": "t'",
+    "group": "tta",
+    "order": 4,
+    "tr": "t'a",
+    "ipa": "tʼa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጤ",
+    "base": "t'",
+    "group": "tta",
+    "order": 5,
+    "tr": "t'e",
+    "ipa": "tʼe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጥ",
+    "base": "t'",
+    "group": "tta",
+    "order": 6,
+    "tr": "t'",
+    "ipa": "tʼ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጦ",
+    "base": "t'",
+    "group": "tta",
+    "order": 7,
+    "tr": "t'o",
+    "ipa": "tʼo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጨ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 1,
+    "tr": "ch'e",
+    "ipa": "tʃʼə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጩ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 2,
+    "tr": "ch'u",
+    "ipa": "tʃʼu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጪ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 3,
+    "tr": "ch'i",
+    "ipa": "tʃʼi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጫ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 4,
+    "tr": "ch'a",
+    "ipa": "tʃʼa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጬ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 5,
+    "tr": "ch'e",
+    "ipa": "tʃʼe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጭ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 6,
+    "tr": "ch'",
+    "ipa": "tʃʼ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጮ",
+    "base": "ch'",
+    "group": "chha",
+    "order": 7,
+    "tr": "ch'o",
+    "ipa": "tʃʼo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጰ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 1,
+    "tr": "p'e",
+    "ipa": "pʼə",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጱ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 2,
+    "tr": "p'u",
+    "ipa": "pʼu",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጲ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 3,
+    "tr": "p'i",
+    "ipa": "pʼi",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጳ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 4,
+    "tr": "p'a",
+    "ipa": "pʼa",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጴ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 5,
+    "tr": "p'e",
+    "ipa": "pʼe",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጵ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 6,
+    "tr": "p'",
+    "ipa": "pʼ",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጶ",
+    "base": "p'",
+    "group": "ppa",
+    "order": 7,
+    "tr": "p'o",
+    "ipa": "pʼo",
+    "exampleLexemeId": null,
+    "regular": false
+  },
+  {
+    "char": "ጸ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 1,
+    "tr": "s'e",
+    "ipa": "sʼə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጹ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 2,
+    "tr": "s'u",
+    "ipa": "sʼu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጺ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 3,
+    "tr": "s'i",
+    "ipa": "sʼi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጻ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 4,
+    "tr": "s'a",
+    "ipa": "sʼa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጼ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 5,
+    "tr": "s'e",
+    "ipa": "sʼe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጽ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 6,
+    "tr": "s'",
+    "ipa": "sʼ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ጾ",
+    "base": "s'",
+    "group": "tsa",
+    "order": 7,
+    "tr": "s'o",
+    "ipa": "sʼo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፀ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 1,
+    "tr": "s'e",
+    "ipa": "sʼə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፁ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 2,
+    "tr": "s'u",
+    "ipa": "sʼu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፂ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 3,
+    "tr": "s'i",
+    "ipa": "sʼi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፃ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 4,
+    "tr": "s'a",
+    "ipa": "sʼa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፄ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 5,
+    "tr": "s'e",
+    "ipa": "sʼe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፅ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 6,
+    "tr": "s'",
+    "ipa": "sʼ",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፆ",
+    "base": "s'",
+    "group": "tsa2",
+    "order": 7,
+    "tr": "s'o",
+    "ipa": "sʼo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፈ",
+    "base": "f",
+    "group": "fa",
+    "order": 1,
+    "tr": "fe",
+    "ipa": "fə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፉ",
+    "base": "f",
+    "group": "fa",
+    "order": 2,
+    "tr": "fu",
+    "ipa": "fu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፊ",
+    "base": "f",
+    "group": "fa",
+    "order": 3,
+    "tr": "fi",
+    "ipa": "fi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፋ",
+    "base": "f",
+    "group": "fa",
+    "order": 4,
+    "tr": "fa",
+    "ipa": "fa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፌ",
+    "base": "f",
+    "group": "fa",
+    "order": 5,
+    "tr": "fe",
+    "ipa": "fe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፍ",
+    "base": "f",
+    "group": "fa",
+    "order": 6,
+    "tr": "f",
+    "ipa": "f",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፎ",
+    "base": "f",
+    "group": "fa",
+    "order": 7,
+    "tr": "fo",
+    "ipa": "fo",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፐ",
+    "base": "p",
+    "group": "pa",
+    "order": 1,
+    "tr": "pe",
+    "ipa": "pə",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፑ",
+    "base": "p",
+    "group": "pa",
+    "order": 2,
+    "tr": "pu",
+    "ipa": "pu",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፒ",
+    "base": "p",
+    "group": "pa",
+    "order": 3,
+    "tr": "pi",
+    "ipa": "pi",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፓ",
+    "base": "p",
+    "group": "pa",
+    "order": 4,
+    "tr": "pa",
+    "ipa": "pa",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፔ",
+    "base": "p",
+    "group": "pa",
+    "order": 5,
+    "tr": "pe",
+    "ipa": "pe",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፕ",
+    "base": "p",
+    "group": "pa",
+    "order": 6,
+    "tr": "p",
+    "ipa": "p",
+    "exampleLexemeId": null,
+    "regular": true
+  },
+  {
+    "char": "ፖ",
+    "base": "p",
+    "group": "pa",
+    "order": 7,
+    "tr": "po",
+    "ipa": "po",
+    "exampleLexemeId": null,
+    "regular": true
+  }
+]

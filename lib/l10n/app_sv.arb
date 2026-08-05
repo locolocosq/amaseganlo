@@ -213,5 +213,39 @@
   "lessonKindListening": "Lyssna",
   "lessonKindFreeApplication": "Fri övning",
   "lessonKindReview": "Repetition",
-  "lessonKindUnitTest": "Kapiteltest"
+  "lessonKindUnitTest": "Kapiteltest",
+
+  "fidelHomeTitle": "Lär dig Fidel",
+  "fidelStageProgress": "Steg {number}: {title}",
+  "@fidelStageProgress": {
+    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+  },
+  "fidelStageBonus": "Bonus",
+  "fidelStageComingSoon": "Kommer snart",
+  "fidelLessonList": "Lektioner",
+  "fidelTableTitle": "Fidel-tabell",
+  "fidelTableFilterAll": "Alla",
+  "fidelTableFilterLearned": "Bara inlärda",
+  "fidelTableFilterOpen": "Bara oinlärda",
+  "fidelTableStudyRow": "Öva denna rad",
+  "fidelTableDetailLearned": "Inlärt",
+  "fidelTableDetailNotLearned": "Inte inlärt än",
+  "fidelHomophoneTitle": "Obs: samma ljud",
+  "fidelHomophoneBody": "Detta tecken låter exakt som {chars}, som du redan känner till. Vilket man skriver beror på ordet - det lär du dig senare vid läsning.",
+  "@fidelHomophoneBody": {
+    "placeholders": { "chars": { "type": "String" } }
+  },
+  "fidelVowelExplainerTitle": "Varje tecken är en stavelse",
+  "fidelVowelExplainerIntro": "ለ är inte \"l\", det är \"le\" - varje Fidel-tecken står för ett helt stavelsesljud, inte bara en konsonant.",
+  "fidelVowelExplainerRow1Title": "Titta på ሀ-raden (h)",
+  "fidelVowelExplainerRow1Body": "Sju former, sju vokaler - grundformen är kvar, bara vokaldelen (färgad) förändras.",
+  "fidelVowelExplainerRow2Title": "Nu ለ-raden (l)",
+  "fidelVowelExplainerRow2Body": "Samma mönster som ሀ - det är inte en slump, det är ett system.",
+  "fidelVowelExplainerOrder6Title": "Sjätte ordningen är svårast",
+  "fidelVowelExplainerOrder6Body": "Dess vokal är nästan ohörbar (ett andat \"ə\"), och formen skiljer sig ofta bara lite från grundtecknet. Samtidigt är det den vanligaste formen av alla - du kommer se den ofta.",
+  "fidelVowelExplainerExceptionTitle": "Inte alla rader är helt regelbundna",
+  "fidelVowelExplainerExceptionBody": "De flesta rader följer detta mönster, men några avviker. Appen visar det alltid ärligt när det är fallet.",
+  "fidelExplainerContinue": "Fortsätt",
+  "fidelLockedDialogTitle": "Detta steg bygger på det föregående",
+  "fidelLockedDialogBody": "Du har inte avslutat föregående steg än. Starta trots det?"
 }

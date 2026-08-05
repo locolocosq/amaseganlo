@@ -528,4 +528,98 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get lessonKindUnitTest => 'Kapitel-Test';
+
+  @override
+  String get fidelHomeTitle => 'Fidel lernen';
+
+  @override
+  String fidelStageProgress(int number, String title) {
+    return 'Stufe $number: $title';
+  }
+
+  @override
+  String get fidelStageBonus => 'Bonus';
+
+  @override
+  String get fidelStageComingSoon => 'Kommt bald';
+
+  @override
+  String get fidelLessonList => 'Lektionen';
+
+  @override
+  String get fidelTableTitle => 'Fidel-Tafel';
+
+  @override
+  String get fidelTableFilterAll => 'Alle';
+
+  @override
+  String get fidelTableFilterLearned => 'Nur Gelernte';
+
+  @override
+  String get fidelTableFilterOpen => 'Nur Offene';
+
+  @override
+  String get fidelTableStudyRow => 'Diese Reihe üben';
+
+  @override
+  String get fidelTableDetailLearned => 'Gelernt';
+
+  @override
+  String get fidelTableDetailNotLearned => 'Noch nicht gelernt';
+
+  @override
+  String get fidelHomophoneTitle => 'Achtung: gleicher Laut';
+
+  @override
+  String fidelHomophoneBody(String chars) {
+    return 'Dieses Zeichen klingt genauso wie $chars, das du schon kennst. Welches man schreibt, hängt vom Wort ab - das lernst du später beim Lesen mit.';
+  }
+
+  @override
+  String get fidelVowelExplainerTitle => 'Jedes Zeichen ist eine Silbe';
+
+  @override
+  String get fidelVowelExplainerIntro =>
+      'ለ ist nicht „l“, sondern „le“ - jedes Fidel-Zeichen steht für einen ganzen Silben-Klang, nicht nur einen Konsonanten.';
+
+  @override
+  String get fidelVowelExplainerRow1Title => 'Sieh dir die Reihe von ሀ (h) an';
+
+  @override
+  String get fidelVowelExplainerRow1Body =>
+      'Sieben Formen, sieben Vokale - der Grundkörper bleibt, nur der Vokal-Teil (farbig) verändert sich.';
+
+  @override
+  String get fidelVowelExplainerRow2Title => 'Jetzt die Reihe von ለ (l)';
+
+  @override
+  String get fidelVowelExplainerRow2Body =>
+      'Dasselbe Muster wie bei ሀ - das ist kein Zufall, sondern ein System.';
+
+  @override
+  String get fidelVowelExplainerOrder6Title =>
+      'Die 6. Ordnung ist die schwerste';
+
+  @override
+  String get fidelVowelExplainerOrder6Body =>
+      'Ihr Vokal ist kaum hörbar (ein gehauchtes „ə“), und die Form unterscheidet sich oft nur minimal vom Grundzeichen. Gleichzeitig ist sie die häufigste Form überhaupt - du wirst sie oft wiederholen.';
+
+  @override
+  String get fidelVowelExplainerExceptionTitle =>
+      'Nicht jede Reihe ist perfekt regelmäßig';
+
+  @override
+  String get fidelVowelExplainerExceptionBody =>
+      'Die meisten Reihen folgen diesem Muster, aber einige weichen davon ab. Die App zeigt dir das immer ehrlich an, wenn es so weit ist.';
+
+  @override
+  String get fidelExplainerContinue => 'Weiter';
+
+  @override
+  String get fidelLockedDialogTitle =>
+      'Diese Stufe baut auf der vorherigen auf';
+
+  @override
+  String get fidelLockedDialogBody =>
+      'Du hast die vorherige Stufe noch nicht abgeschlossen. Trotzdem starten?';
 }

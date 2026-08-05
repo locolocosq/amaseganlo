@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "stages": [
+    {
+      "id": "stufe1",
+      "number": 1,
+      "title": {
+        "de": "Die 33 Hauptbuchstaben",
+        "en": "The 33 main letters",
+        "sv": "De 33 huvudbokstäverna",
+        "nl": "De 33 hoofdletters"
+      },
+      "description": {
+        "de": "Die Grundformen aller 33 Konsonanten - noch ohne Vokale.",
+        "en": "The base forms of all 33 consonants - no vowels yet.",
+        "sv": "Grundformerna för alla 33 konsonanter - ännu inga vokaler.",
+        "nl": "De basisvormen van alle 33 medeklinkers - nog geen klinkers."
+      },
+      "lessonFile": "fidel_stufe1_lessons.json"
+    },
+    {
+      "id": "stufe2",
+      "number": 2,
+      "title": {
+        "de": "Das Vokalsystem verstehen",
+        "en": "Understanding the vowel system",
+        "sv": "Att förstå vokalsystemet",
+        "nl": "Het klinkersysteem begrijpen"
+      },
+      "description": {
+        "de": "Wie jedes Zeichen sich durch sieben Vokale verändert.",
+        "en": "How every sign changes through seven vowels.",
+        "sv": "Hur varje tecken förändras genom sju vokaler.",
+        "nl": "Hoe elk teken verandert door zeven klinkers."
+      },
+      "lessonFile": "fidel_stufe2_lessons.json"
+    }
+  ]
+}

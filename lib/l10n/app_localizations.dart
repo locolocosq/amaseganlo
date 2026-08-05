@@ -1079,6 +1079,168 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Unit test'**
   String get lessonKindUnitTest;
+
+  /// No description provided for @fidelHomeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn Fidel'**
+  String get fidelHomeTitle;
+
+  /// No description provided for @fidelStageProgress.
+  ///
+  /// In en, this message translates to:
+  /// **'Stage {number}: {title}'**
+  String fidelStageProgress(int number, String title);
+
+  /// No description provided for @fidelStageBonus.
+  ///
+  /// In en, this message translates to:
+  /// **'Bonus'**
+  String get fidelStageBonus;
+
+  /// No description provided for @fidelStageComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get fidelStageComingSoon;
+
+  /// No description provided for @fidelLessonList.
+  ///
+  /// In en, this message translates to:
+  /// **'Lessons'**
+  String get fidelLessonList;
+
+  /// No description provided for @fidelTableTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Fidel table'**
+  String get fidelTableTitle;
+
+  /// No description provided for @fidelTableFilterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get fidelTableFilterAll;
+
+  /// No description provided for @fidelTableFilterLearned.
+  ///
+  /// In en, this message translates to:
+  /// **'Learned only'**
+  String get fidelTableFilterLearned;
+
+  /// No description provided for @fidelTableFilterOpen.
+  ///
+  /// In en, this message translates to:
+  /// **'Not yet learned'**
+  String get fidelTableFilterOpen;
+
+  /// No description provided for @fidelTableStudyRow.
+  ///
+  /// In en, this message translates to:
+  /// **'Practice this row'**
+  String get fidelTableStudyRow;
+
+  /// No description provided for @fidelTableDetailLearned.
+  ///
+  /// In en, this message translates to:
+  /// **'Learned'**
+  String get fidelTableDetailLearned;
+
+  /// No description provided for @fidelTableDetailNotLearned.
+  ///
+  /// In en, this message translates to:
+  /// **'Not learned yet'**
+  String get fidelTableDetailNotLearned;
+
+  /// No description provided for @fidelHomophoneTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Careful: same sound'**
+  String get fidelHomophoneTitle;
+
+  /// No description provided for @fidelHomophoneBody.
+  ///
+  /// In en, this message translates to:
+  /// **'This sign sounds exactly like {chars}, which you already know. Which one to write depends on the word - you\'ll learn that later when reading.'**
+  String fidelHomophoneBody(String chars);
+
+  /// No description provided for @fidelVowelExplainerTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Every sign is a syllable'**
+  String get fidelVowelExplainerTitle;
+
+  /// No description provided for @fidelVowelExplainerIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'ለ is not \"l\", it\'s \"le\" - every Fidel sign stands for a whole syllable sound, not just a consonant.'**
+  String get fidelVowelExplainerIntro;
+
+  /// No description provided for @fidelVowelExplainerRow1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Look at the ሀ (h) row'**
+  String get fidelVowelExplainerRow1Title;
+
+  /// No description provided for @fidelVowelExplainerRow1Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Seven forms, seven vowels - the base shape stays, only the vowel part (colored) changes.'**
+  String get fidelVowelExplainerRow1Body;
+
+  /// No description provided for @fidelVowelExplainerRow2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Now the ለ (l) row'**
+  String get fidelVowelExplainerRow2Title;
+
+  /// No description provided for @fidelVowelExplainerRow2Body.
+  ///
+  /// In en, this message translates to:
+  /// **'The same pattern as ሀ - that\'s not a coincidence, it\'s a system.'**
+  String get fidelVowelExplainerRow2Body;
+
+  /// No description provided for @fidelVowelExplainerOrder6Title.
+  ///
+  /// In en, this message translates to:
+  /// **'The 6th order is the hardest'**
+  String get fidelVowelExplainerOrder6Title;
+
+  /// No description provided for @fidelVowelExplainerOrder6Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Its vowel is barely audible (a breathy \"ə\"), and the shape often differs only slightly from the base sign. It\'s also the single most common form - you\'ll see it a lot.'**
+  String get fidelVowelExplainerOrder6Body;
+
+  /// No description provided for @fidelVowelExplainerExceptionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Not every row is perfectly regular'**
+  String get fidelVowelExplainerExceptionTitle;
+
+  /// No description provided for @fidelVowelExplainerExceptionBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Most rows follow this pattern, but a few don\'t. The app will always tell you honestly when that\'s the case.'**
+  String get fidelVowelExplainerExceptionBody;
+
+  /// No description provided for @fidelExplainerContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get fidelExplainerContinue;
+
+  /// No description provided for @fidelLockedDialogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This stage builds on the previous one'**
+  String get fidelLockedDialogTitle;
+
+  /// No description provided for @fidelLockedDialogBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You haven\'t finished the previous stage yet. Start anyway?'**
+  String get fidelLockedDialogBody;
 }
 
 class _AppLocalizationsDelegate
