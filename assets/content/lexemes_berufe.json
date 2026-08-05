@@ -1,0 +1,236 @@
+[
+  {
+    "id": "lex_bauer",
+    "am": "ገበሬ",
+    "tr": "geberie",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Bauer, die Bäuerin",
+      "en": "farmer",
+      "sv": "bonde",
+      "nl": "boer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧑‍🌾",
+    "verified": true
+  },
+  {
+    "id": "lex_koch",
+    "am": "አብሳይ",
+    "tr": "abesay",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Koch, die Köchin",
+      "en": "cook",
+      "sv": "kock",
+      "nl": "kok"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👨‍🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_fahrer",
+    "am": "ሹፌር",
+    "tr": "shoferr",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Fahrer",
+      "en": "driver",
+      "sv": "förare",
+      "nl": "chauffeur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚗",
+    "verified": true
+  },
+  {
+    "id": "lex_ingenieur",
+    "am": "ኢንጂነር",
+    "tr": "injinerr",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Ingenieur",
+      "en": "engineer",
+      "sv": "ingenjör",
+      "nl": "ingenieur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kuenstler",
+    "am": "አርቲስት",
+    "tr": "artist",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Künstler",
+      "en": "artist",
+      "sv": "konstnär",
+      "nl": "kunstenaar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎨",
+    "verified": true
+  },
+  {
+    "id": "lex_musiker",
+    "am": "ሙዚቀኛ",
+    "tr": "muzikegna",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Musiker",
+      "en": "musician",
+      "sv": "musiker",
+      "nl": "muzikant"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎵",
+    "verified": false
+  },
+  {
+    "id": "lex_schriftsteller",
+    "am": "ደራሲ",
+    "tr": "derasi",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Schriftsteller",
+      "en": "writer",
+      "sv": "författare",
+      "nl": "schrijver"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_verkaeufer",
+    "am": "ሻጭ",
+    "tr": "shach",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Verkäufer",
+      "en": "seller",
+      "sv": "säljare",
+      "nl": "verkoper"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_pilot",
+    "am": "ፓይለት",
+    "tr": "pilot",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Pilot",
+      "en": "pilot",
+      "sv": "pilot",
+      "nl": "piloot"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✈️",
+    "verified": true
+  },
+  {
+    "id": "lex_kellner",
+    "am": "አሳላፊ",
+    "tr": "asalafi",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Kellner",
+      "en": "waiter",
+      "sv": "servitör",
+      "nl": "ober"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_anwalt",
+    "am": "ጠበቃ",
+    "tr": "t'ebeka",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Anwalt",
+      "en": "lawyer",
+      "sv": "advokat",
+      "nl": "advocaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_soldat",
+    "am": "ወታደር",
+    "tr": "wetader",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Soldat",
+      "en": "soldier",
+      "sv": "soldat",
+      "nl": "soldaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_praesident",
+    "am": "ፕሬዝዳንት",
+    "tr": "president",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "A2",
+    "t": {
+      "de": "der Präsident",
+      "en": "president",
+      "sv": "president",
+      "nl": "president"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

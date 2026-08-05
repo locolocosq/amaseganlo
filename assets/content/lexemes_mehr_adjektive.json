@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_schnell",
+    "am": "ፈጣን",
+    "tr": "fetan",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "schnell",
+      "en": "fast",
+      "sv": "snabb",
+      "nl": "snel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_langsam",
+    "am": "ዝግተኛ",
+    "tr": "zigitegna",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "langsam",
+      "en": "slow",
+      "sv": "långsam",
+      "nl": "langzaam"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sauber",
+    "am": "ንጹህ",
+    "tr": "nitsuh",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "sauber",
+      "en": "clean",
+      "sv": "ren",
+      "nl": "schoon"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schmutzig",
+    "am": "ቆሻሻ",
+    "tr": "k'oshasha",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "schmutzig",
+      "en": "dirty",
+      "sv": "smutsig",
+      "nl": "vuil"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_voll",
+    "am": "ሙሉ",
+    "tr": "mulu",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "voll",
+      "en": "full",
+      "sv": "full",
+      "nl": "vol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_leer",
+    "am": "ባዶ",
+    "tr": "bado",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "leer",
+      "en": "empty",
+      "sv": "tom",
+      "nl": "leeg"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_reich",
+    "am": "ሀብታም",
+    "tr": "habtam",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "reich",
+      "en": "rich",
+      "sv": "rik",
+      "nl": "rijk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_arm",
+    "am": "ድሃ",
+    "tr": "dha",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "arm",
+      "en": "poor",
+      "sv": "fattig",
+      "nl": "arm"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_stark",
+    "am": "ጠንካራ",
+    "tr": "t'enkara",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "stark",
+      "en": "strong",
+      "sv": "stark",
+      "nl": "sterk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schwach",
+    "am": "ደካማ",
+    "tr": "dekama",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "schwach",
+      "en": "weak",
+      "sv": "svag",
+      "nl": "zwak"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_jung",
+    "am": "ወጣት",
+    "tr": "wet'at",
+    "pos": "adjective",
+    "topic": "more_adjectives",
+    "level": "A2",
+    "t": {
+      "de": "jung, der/die Jugendliche",
+      "en": "young, youth",
+      "sv": "ung, ungdom",
+      "nl": "jong, jongere"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

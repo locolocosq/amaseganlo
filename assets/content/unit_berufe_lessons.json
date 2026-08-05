@@ -1,0 +1,155 @@
+[
+  {
+    "id": "unit_berufe_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_berufe_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_berufe_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_berufe_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_berufe_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_berufe_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "unit_haushalt_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_teller",
+      "lex_tasse",
+      "lex_loeffel",
+      "lex_gabel",
+      "lex_messer",
+      "lex_topf",
+      "lex_seife",
+      "lex_handtuch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_haushalt_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_teller",
+      "lex_tasse",
+      "lex_loeffel",
+      "lex_gabel",
+      "lex_messer",
+      "lex_topf",
+      "lex_seife",
+      "lex_handtuch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_haushalt_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_teller",
+      "lex_tasse",
+      "lex_loeffel",
+      "lex_gabel",
+      "lex_messer",
+      "lex_topf",
+      "lex_seife",
+      "lex_handtuch"
+    ],
+    "sentenceIds": [
+      "sen_sahinu_nech"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_haushalt_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_teller",
+      "lex_tasse",
+      "lex_loeffel",
+      "lex_gabel",
+      "lex_messer",
+      "lex_topf",
+      "lex_seife",
+      "lex_handtuch"
+    ],
+    "sentenceIds": [
+      "sen_sahinu_nech"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_haushalt_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_teller",
+      "lex_tasse",
+      "lex_loeffel",
+      "lex_gabel",
+      "lex_messer",
+      "lex_topf",
+      "lex_seife",
+      "lex_handtuch"
+    ],
+    "sentenceIds": [
+      "sen_sahinu_nech"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_haushalt_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_teller",
+      "lex_tasse",
+      "lex_loeffel",
+      "lex_gabel",
+      "lex_messer",
+      "lex_topf",
+      "lex_seife",
+      "lex_handtuch"
+    ],
+    "sentenceIds": [
+      "sen_sahinu_nech"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

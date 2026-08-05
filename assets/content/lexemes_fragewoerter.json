@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_was",
+    "am": "ምን",
+    "tr": "min",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "was",
+      "en": "what",
+      "sv": "vad",
+      "nl": "wat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wer",
+    "am": "ማን",
+    "tr": "man",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "wer",
+      "en": "who",
+      "sv": "vem",
+      "nl": "wie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wo_word",
+    "am": "የት",
+    "tr": "yet",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "wo",
+      "en": "where",
+      "sv": "var",
+      "nl": "waar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wann",
+    "am": "መቼ",
+    "tr": "meche",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "wann",
+      "en": "when",
+      "sv": "när",
+      "nl": "wanneer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_warum",
+    "am": "ለምን",
+    "tr": "lemin",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "warum",
+      "en": "why",
+      "sv": "varför",
+      "nl": "waarom"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wie",
+    "am": "እንዴት",
+    "tr": "indiet",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "wie",
+      "en": "how",
+      "sv": "hur",
+      "nl": "hoe"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_welche",
+    "am": "የትኛው",
+    "tr": "yetegnaw",
+    "pos": "pronoun",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "welche(r/s)",
+      "en": "which",
+      "sv": "vilken",
+      "nl": "welke"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_und",
+    "am": "እና",
+    "tr": "ina",
+    "pos": "conjunction",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "und",
+      "en": "and",
+      "sv": "och",
+      "nl": "en"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_oder",
+    "am": "ወይም",
+    "tr": "weyim",
+    "pos": "conjunction",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "oder",
+      "en": "or",
+      "sv": "eller",
+      "nl": "of"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_aber",
+    "am": "ግን",
+    "tr": "gin",
+    "pos": "conjunction",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "aber",
+      "en": "but",
+      "sv": "men",
+      "nl": "maar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_weil",
+    "am": "ስለ",
+    "tr": "sile",
+    "pos": "conjunction",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "weil, wegen",
+      "en": "because, about",
+      "sv": "eftersom, om",
+      "nl": "omdat, over"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_dass",
+    "am": "እንደ",
+    "tr": "inde",
+    "pos": "conjunction",
+    "topic": "question_words",
+    "level": "A1.1",
+    "t": {
+      "de": "dass, wie, als",
+      "en": "that, as, like",
+      "sv": "att, som",
+      "nl": "dat, zoals"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

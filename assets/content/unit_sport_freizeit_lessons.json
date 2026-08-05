@@ -1,0 +1,119 @@
+[
+  {
+    "id": "unit_sport_freizeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_fussball",
+      "lex_v_schwimmen",
+      "lex_musik",
+      "lex_film",
+      "lex_fernsehen",
+      "lex_radio",
+      "lex_spiel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_sport_freizeit_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_fussball",
+      "lex_v_schwimmen",
+      "lex_musik",
+      "lex_film",
+      "lex_fernsehen",
+      "lex_radio",
+      "lex_spiel"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_sport_freizeit_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_fussball",
+      "lex_v_schwimmen",
+      "lex_musik",
+      "lex_film",
+      "lex_fernsehen",
+      "lex_radio",
+      "lex_spiel"
+    ],
+    "sentenceIds": [
+      "sen_igirkwas_chewata"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_sport_freizeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_fussball",
+      "lex_v_schwimmen",
+      "lex_musik",
+      "lex_film",
+      "lex_fernsehen",
+      "lex_radio",
+      "lex_spiel"
+    ],
+    "sentenceIds": [
+      "sen_igirkwas_chewata"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_sport_freizeit_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_fussball",
+      "lex_v_schwimmen",
+      "lex_musik",
+      "lex_film",
+      "lex_fernsehen",
+      "lex_radio",
+      "lex_spiel"
+    ],
+    "sentenceIds": [
+      "sen_igirkwas_chewata"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_sport_freizeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_fussball",
+      "lex_v_schwimmen",
+      "lex_musik",
+      "lex_film",
+      "lex_fernsehen",
+      "lex_radio",
+      "lex_spiel"
+    ],
+    "sentenceIds": [
+      "sen_igirkwas_chewata"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

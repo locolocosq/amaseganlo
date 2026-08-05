@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sen_feres_yirotal",
+    "am": "ፈረሱ ይሮጣል።",
+    "tr": "feresu yirot'all.",
+    "level": "A2",
+    "uses": [
+      "lex_pferd"
+    ],
+    "t": {
+      "de": "Das Pferd rennt.",
+      "en": "The horse runs.",
+      "sv": "Hästen springer.",
+      "nl": "Het paard rent."
+    },
+    "alt": {},
+    "chunks": [
+      "feresu",
+      "yirot'all"
+    ],
+    "verified": false
+  }
+]

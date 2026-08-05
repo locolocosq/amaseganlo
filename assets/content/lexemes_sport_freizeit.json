@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_fussball",
+    "am": "እግር ኳስ",
+    "tr": "igir kwas",
+    "pos": "noun",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "der Fußball",
+      "en": "soccer, football",
+      "sv": "fotboll",
+      "nl": "voetbal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⚽",
+    "verified": true
+  },
+  {
+    "id": "lex_v_schwimmen",
+    "am": "መዋኘት",
+    "tr": "mewagnet",
+    "pos": "verb",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "schwimmen",
+      "en": "to swim",
+      "sv": "simma",
+      "nl": "zwemmen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_musik",
+    "am": "ሙዚቃ",
+    "tr": "muzika",
+    "pos": "noun",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "die Musik",
+      "en": "music",
+      "sv": "musik",
+      "nl": "muziek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎵",
+    "verified": true
+  },
+  {
+    "id": "lex_film",
+    "am": "ፊልም",
+    "tr": "film",
+    "pos": "noun",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "der Film",
+      "en": "film, movie",
+      "sv": "film",
+      "nl": "film"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎬",
+    "verified": true
+  },
+  {
+    "id": "lex_fernsehen",
+    "am": "ቴሌቪዝን",
+    "tr": "televizin",
+    "pos": "noun",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "das Fernsehen",
+      "en": "television",
+      "sv": "tv",
+      "nl": "televisie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📺",
+    "verified": true
+  },
+  {
+    "id": "lex_radio",
+    "am": "ራድዮ",
+    "tr": "radiyo",
+    "pos": "noun",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "das Radio",
+      "en": "radio",
+      "sv": "radio",
+      "nl": "radio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📻",
+    "verified": true
+  },
+  {
+    "id": "lex_spiel",
+    "am": "ጨዋታ",
+    "tr": "chewata",
+    "pos": "noun",
+    "topic": "sports_leisure",
+    "level": "A2",
+    "t": {
+      "de": "das Spiel",
+      "en": "game",
+      "sv": "spel",
+      "nl": "spel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎮",
+    "verified": false
+  }
+]

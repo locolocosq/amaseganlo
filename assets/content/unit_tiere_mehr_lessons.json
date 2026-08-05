@@ -1,0 +1,143 @@
+[
+  {
+    "id": "unit_tiere_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_pferd",
+      "lex_kuh",
+      "lex_schaf",
+      "lex_ziege",
+      "lex_esel",
+      "lex_kamel",
+      "lex_hase",
+      "lex_maus",
+      "lex_biene",
+      "lex_schmetterling",
+      "lex_frosch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_tiere_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_pferd",
+      "lex_kuh",
+      "lex_schaf",
+      "lex_ziege",
+      "lex_esel",
+      "lex_kamel",
+      "lex_hase",
+      "lex_maus",
+      "lex_biene",
+      "lex_schmetterling",
+      "lex_frosch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_pferd",
+      "lex_kuh",
+      "lex_schaf",
+      "lex_ziege",
+      "lex_esel",
+      "lex_kamel",
+      "lex_hase",
+      "lex_maus",
+      "lex_biene",
+      "lex_schmetterling",
+      "lex_frosch"
+    ],
+    "sentenceIds": [
+      "sen_feres_yirotal"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_pferd",
+      "lex_kuh",
+      "lex_schaf",
+      "lex_ziege",
+      "lex_esel",
+      "lex_kamel",
+      "lex_hase",
+      "lex_maus",
+      "lex_biene",
+      "lex_schmetterling",
+      "lex_frosch"
+    ],
+    "sentenceIds": [
+      "sen_feres_yirotal"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_pferd",
+      "lex_kuh",
+      "lex_schaf",
+      "lex_ziege",
+      "lex_esel",
+      "lex_kamel",
+      "lex_hase",
+      "lex_maus",
+      "lex_biene",
+      "lex_schmetterling",
+      "lex_frosch"
+    ],
+    "sentenceIds": [
+      "sen_feres_yirotal"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_pferd",
+      "lex_kuh",
+      "lex_schaf",
+      "lex_ziege",
+      "lex_esel",
+      "lex_kamel",
+      "lex_hase",
+      "lex_maus",
+      "lex_biene",
+      "lex_schmetterling",
+      "lex_frosch"
+    ],
+    "sentenceIds": [
+      "sen_feres_yirotal"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

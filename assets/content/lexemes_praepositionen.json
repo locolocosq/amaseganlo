@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_in_innerhalb",
+    "am": "ውስጥ",
+    "tr": "wist",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "in, innerhalb",
+      "en": "in, inside",
+      "sv": "i, inuti",
+      "nl": "in, binnen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_auf_ueber",
+    "am": "ላይ",
+    "tr": "lay",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "auf, über",
+      "en": "on, above",
+      "sv": "på, ovanpå",
+      "nl": "op, boven"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_unter",
+    "am": "ስር",
+    "tr": "sir",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "unter",
+      "en": "under",
+      "sv": "under",
+      "nl": "onder"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_neben",
+    "am": "አጠገብ",
+    "tr": "at'egeb",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "neben",
+      "en": "beside, next to",
+      "sv": "bredvid",
+      "nl": "naast"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vor",
+    "am": "ፊት",
+    "tr": "fit",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "vor",
+      "en": "in front of, before",
+      "sv": "framför",
+      "nl": "voor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hinter",
+    "am": "ኋላ",
+    "tr": "hwala",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "hinter",
+      "en": "behind",
+      "sv": "bakom",
+      "nl": "achter"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zwischen",
+    "am": "መካከል",
+    "tr": "mekakel",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "zwischen",
+      "en": "between",
+      "sv": "mellan",
+      "nl": "tussen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_norden",
+    "am": "ሰሜን",
+    "tr": "semien",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Norden",
+      "en": "north",
+      "sv": "norr",
+      "nl": "noorden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_sueden",
+    "am": "ደቡብ",
+    "tr": "debub",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Süden",
+      "en": "south",
+      "sv": "söder",
+      "nl": "zuiden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_osten",
+    "am": "ምስራቅ",
+    "tr": "misrak'",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Osten",
+      "en": "east",
+      "sv": "öster",
+      "nl": "oosten"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_westen",
+    "am": "ምዕራብ",
+    "tr": "mi'irab",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Westen",
+      "en": "west",
+      "sv": "väster",
+      "nl": "westen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

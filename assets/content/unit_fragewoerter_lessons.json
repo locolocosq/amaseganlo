@@ -1,0 +1,149 @@
+[
+  {
+    "id": "unit_fragewoerter_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_fragewoerter_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

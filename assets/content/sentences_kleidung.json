@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_shemizu_keyy",
+    "am": "ሸሚዙ ቀይ ነው።",
+    "tr": "shemizu keyy new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hemd",
+      "lex_rot"
+    ],
+    "t": {
+      "de": "Das Hemd ist rot.",
+      "en": "The shirt is red.",
+      "sv": "Skjortan är röd.",
+      "nl": "Het overhemd is rood."
+    },
+    "alt": {},
+    "chunks": [
+      "shemizu",
+      "keyy",
+      "new"
+    ],
+    "verified": false
+  }
+]

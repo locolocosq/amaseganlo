@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sen_kulfu_lay",
+    "am": "ቁልፉ ጠረጴዛው ላይ ነው።",
+    "tr": "kulfu t'eret'ezaw lay new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schluessel",
+      "lex_tisch",
+      "lex_auf_ueber"
+    ],
+    "t": {
+      "de": "Der Schlüssel ist auf dem Tisch.",
+      "en": "The key is on the table.",
+      "sv": "Nyckeln ligger på bordet.",
+      "nl": "De sleutel ligt op de tafel."
+    },
+    "alt": {},
+    "chunks": [
+      "kulfu",
+      "t'eret'ezaw",
+      "lay",
+      "new"
+    ],
+    "verified": false
+  }
+]

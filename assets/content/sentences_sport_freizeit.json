@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sen_igirkwas_chewata",
+    "am": "እግር ኳስ ጨዋታ አለ።",
+    "tr": "igir kwas chewata ale.",
+    "level": "A2",
+    "uses": [
+      "lex_fussball",
+      "lex_spiel"
+    ],
+    "t": {
+      "de": "Es gibt ein Fußballspiel.",
+      "en": "There's a football game.",
+      "sv": "Det finns en fotbollsmatch.",
+      "nl": "Er is een voetbalwedstrijd."
+    },
+    "alt": {},
+    "chunks": [
+      "igir",
+      "kwas",
+      "chewata",
+      "ale"
+    ],
+    "verified": false
+  }
+]

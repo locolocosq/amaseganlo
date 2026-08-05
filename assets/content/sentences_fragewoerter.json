@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sen_min_new",
+    "am": "ይህ ምን ነው?",
+    "tr": "yih min new?",
+    "level": "A1.1",
+    "uses": [
+      "lex_was"
+    ],
+    "t": {
+      "de": "Was ist das?",
+      "en": "What is this?",
+      "sv": "Vad är detta?",
+      "nl": "Wat is dit?"
+    },
+    "alt": {},
+    "chunks": [
+      "yih",
+      "min",
+      "new?"
+    ],
+    "verified": false
+  }
+]

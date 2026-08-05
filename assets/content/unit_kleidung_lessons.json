@@ -1,0 +1,143 @@
+[
+  {
+    "id": "unit_kleidung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_kleidung",
+      "lex_hemd",
+      "lex_hose",
+      "lex_schuh",
+      "lex_hut",
+      "lex_kleid",
+      "lex_jacke",
+      "lex_socke",
+      "lex_guertel",
+      "lex_brille",
+      "lex_ring"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kleidung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_kleidung",
+      "lex_hemd",
+      "lex_hose",
+      "lex_schuh",
+      "lex_hut",
+      "lex_kleid",
+      "lex_jacke",
+      "lex_socke",
+      "lex_guertel",
+      "lex_brille",
+      "lex_ring"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kleidung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_kleidung",
+      "lex_hemd",
+      "lex_hose",
+      "lex_schuh",
+      "lex_hut",
+      "lex_kleid",
+      "lex_jacke",
+      "lex_socke",
+      "lex_guertel",
+      "lex_brille",
+      "lex_ring"
+    ],
+    "sentenceIds": [
+      "sen_shemizu_keyy"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kleidung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_kleidung",
+      "lex_hemd",
+      "lex_hose",
+      "lex_schuh",
+      "lex_hut",
+      "lex_kleid",
+      "lex_jacke",
+      "lex_socke",
+      "lex_guertel",
+      "lex_brille",
+      "lex_ring"
+    ],
+    "sentenceIds": [
+      "sen_shemizu_keyy"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kleidung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_kleidung",
+      "lex_hemd",
+      "lex_hose",
+      "lex_schuh",
+      "lex_hut",
+      "lex_kleid",
+      "lex_jacke",
+      "lex_socke",
+      "lex_guertel",
+      "lex_brille",
+      "lex_ring"
+    ],
+    "sentenceIds": [
+      "sen_shemizu_keyy"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kleidung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_kleidung",
+      "lex_hemd",
+      "lex_hose",
+      "lex_schuh",
+      "lex_hut",
+      "lex_kleid",
+      "lex_jacke",
+      "lex_socke",
+      "lex_guertel",
+      "lex_brille",
+      "lex_ring"
+    ],
+    "sentenceIds": [
+      "sen_shemizu_keyy"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

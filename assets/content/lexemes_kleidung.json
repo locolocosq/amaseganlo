@@ -1,0 +1,200 @@
+[
+  {
+    "id": "lex_kleidung",
+    "am": "ልብስ",
+    "tr": "libs",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "die Kleidung",
+      "en": "clothes",
+      "sv": "kläder",
+      "nl": "kleding"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👕",
+    "verified": true
+  },
+  {
+    "id": "lex_hemd",
+    "am": "ሸሚዝ",
+    "tr": "shemiz",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "das Hemd",
+      "en": "shirt",
+      "sv": "skjorta",
+      "nl": "overhemd"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👔",
+    "verified": true
+  },
+  {
+    "id": "lex_hose",
+    "am": "ሱሪ",
+    "tr": "suri",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "die Hose",
+      "en": "trousers, pants",
+      "sv": "byxor",
+      "nl": "broek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👖",
+    "verified": true
+  },
+  {
+    "id": "lex_schuh",
+    "am": "ጫማ",
+    "tr": "chama",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "der Schuh",
+      "en": "shoe",
+      "sv": "sko",
+      "nl": "schoen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👞",
+    "verified": true
+  },
+  {
+    "id": "lex_hut",
+    "am": "ካፕ",
+    "tr": "kap",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "die Mütze, der Hut",
+      "en": "hat, cap",
+      "sv": "mössa, keps",
+      "nl": "pet, hoed"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧢",
+    "verified": false
+  },
+  {
+    "id": "lex_kleid",
+    "am": "ቀሚስ",
+    "tr": "kemis",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "das Kleid",
+      "en": "dress",
+      "sv": "klänning",
+      "nl": "jurk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👗",
+    "verified": true
+  },
+  {
+    "id": "lex_jacke",
+    "am": "ጃኬት",
+    "tr": "jaket",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "die Jacke",
+      "en": "jacket",
+      "sv": "jacka",
+      "nl": "jas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧥",
+    "verified": true
+  },
+  {
+    "id": "lex_socke",
+    "am": "ካልሲ",
+    "tr": "kalsi",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "die Socke",
+      "en": "sock",
+      "sv": "strumpa",
+      "nl": "sok"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧦",
+    "verified": false
+  },
+  {
+    "id": "lex_guertel",
+    "am": "ቀበቶ",
+    "tr": "kebeto",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "der Gürtel",
+      "en": "belt",
+      "sv": "skärp",
+      "nl": "riem"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_brille",
+    "am": "መነጽር",
+    "tr": "menets'ir",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "die Brille",
+      "en": "glasses",
+      "sv": "glasögon",
+      "nl": "bril"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👓",
+    "verified": false
+  },
+  {
+    "id": "lex_ring",
+    "am": "ቀለበት",
+    "tr": "kelebet",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "A1.2",
+    "t": {
+      "de": "der Ring",
+      "en": "ring",
+      "sv": "ring",
+      "nl": "ring"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💍",
+    "verified": false
+  }
+]

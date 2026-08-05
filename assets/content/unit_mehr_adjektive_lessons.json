@@ -1,0 +1,143 @@
+[
+  {
+    "id": "unit_mehr_adjektive_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_schnell",
+      "lex_langsam",
+      "lex_sauber",
+      "lex_schmutzig",
+      "lex_voll",
+      "lex_leer",
+      "lex_reich",
+      "lex_arm",
+      "lex_stark",
+      "lex_schwach",
+      "lex_jung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_mehr_adjektive_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_schnell",
+      "lex_langsam",
+      "lex_sauber",
+      "lex_schmutzig",
+      "lex_voll",
+      "lex_leer",
+      "lex_reich",
+      "lex_arm",
+      "lex_stark",
+      "lex_schwach",
+      "lex_jung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_mehr_adjektive_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_schnell",
+      "lex_langsam",
+      "lex_sauber",
+      "lex_schmutzig",
+      "lex_voll",
+      "lex_leer",
+      "lex_reich",
+      "lex_arm",
+      "lex_stark",
+      "lex_schwach",
+      "lex_jung"
+    ],
+    "sentenceIds": [
+      "sen_wushaw_fetan"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_mehr_adjektive_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_schnell",
+      "lex_langsam",
+      "lex_sauber",
+      "lex_schmutzig",
+      "lex_voll",
+      "lex_leer",
+      "lex_reich",
+      "lex_arm",
+      "lex_stark",
+      "lex_schwach",
+      "lex_jung"
+    ],
+    "sentenceIds": [
+      "sen_wushaw_fetan"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_mehr_adjektive_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_schnell",
+      "lex_langsam",
+      "lex_sauber",
+      "lex_schmutzig",
+      "lex_voll",
+      "lex_leer",
+      "lex_reich",
+      "lex_arm",
+      "lex_stark",
+      "lex_schwach",
+      "lex_jung"
+    ],
+    "sentenceIds": [
+      "sen_wushaw_fetan"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_mehr_adjektive_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_schnell",
+      "lex_langsam",
+      "lex_sauber",
+      "lex_schmutzig",
+      "lex_voll",
+      "lex_leer",
+      "lex_reich",
+      "lex_arm",
+      "lex_stark",
+      "lex_schwach",
+      "lex_jung"
+    ],
+    "sentenceIds": [
+      "sen_wushaw_fetan"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_sahinu_nech",
+    "am": "ሳህኑ ነጭ ነው።",
+    "tr": "sahinu nech new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_teller",
+      "lex_weiss"
+    ],
+    "t": {
+      "de": "Der Teller ist weiß.",
+      "en": "The plate is white.",
+      "sv": "Tallriken är vit.",
+      "nl": "Het bord is wit."
+    },
+    "alt": {},
+    "chunks": [
+      "sahinu",
+      "nech",
+      "new"
+    ],
+    "verified": false
+  }
+]

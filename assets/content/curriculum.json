@@ -20,7 +20,15 @@
     "lexemes_gefuehle_meinung.json",
     "lexemes_zukunft_wuensche.json",
     "lexemes_hoeflichkeit_kultur.json",
-    "lexemes_erzaehlen.json"
+    "lexemes_erzaehlen.json",
+    "lexemes_kleidung.json",
+    "lexemes_berufe.json",
+    "lexemes_tiere_mehr.json",
+    "lexemes_fragewoerter.json",
+    "lexemes_praepositionen.json",
+    "lexemes_haushalt.json",
+    "lexemes_sport_freizeit.json",
+    "lexemes_mehr_adjektive.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -41,7 +49,15 @@
     "sentences_gefuehle_meinung.json",
     "sentences_zukunft_wuensche.json",
     "sentences_hoeflichkeit_kultur.json",
-    "sentences_erzaehlen.json"
+    "sentences_erzaehlen.json",
+    "sentences_kleidung.json",
+    "sentences_berufe.json",
+    "sentences_tiere_mehr.json",
+    "sentences_fragewoerter.json",
+    "sentences_praepositionen.json",
+    "sentences_haushalt.json",
+    "sentences_sport_freizeit.json",
+    "sentences_mehr_adjektive.json"
   ],
   "sections": [
     {
@@ -58,7 +74,8 @@
         "unit_ich_und_du",
         "unit_familie_menschen",
         "unit_zahlen_1_20",
-        "unit_essen_trinken"
+        "unit_essen_trinken",
+        "unit_fragewoerter"
       ]
     },
     {
@@ -75,7 +92,10 @@
         "unit_zeit",
         "unit_farben_eigenschaften",
         "unit_zahlen_einkaufen",
-        "unit_in_der_stadt"
+        "unit_in_der_stadt",
+        "unit_kleidung",
+        "unit_praepositionen",
+        "unit_haushalt"
       ]
     },
     {
@@ -93,7 +113,11 @@
         "unit_koerper_gesundheit",
         "unit_arbeit_schule",
         "unit_reisen_verkehr",
-        "unit_wetter_natur"
+        "unit_wetter_natur",
+        "unit_berufe",
+        "unit_tiere_mehr",
+        "unit_sport_freizeit",
+        "unit_mehr_adjektive"
       ]
     },
     {
@@ -373,6 +397,110 @@
       },
       "topic": "storytelling",
       "lessonFile": "unit_erzaehlen_lessons.json"
+    },
+    {
+      "id": "unit_kleidung",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Kleidung",
+        "en": "Clothing",
+        "sv": "Kläder",
+        "nl": "Kleding"
+      },
+      "topic": "clothing",
+      "lessonFile": "unit_kleidung_lessons.json"
+    },
+    {
+      "id": "unit_berufe",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Berufe",
+        "en": "Professions",
+        "sv": "Yrken",
+        "nl": "Beroepen"
+      },
+      "topic": "professions",
+      "lessonFile": "unit_berufe_lessons.json"
+    },
+    {
+      "id": "unit_tiere_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Mehr Tiere",
+        "en": "More animals",
+        "sv": "Fler djur",
+        "nl": "Meer dieren"
+      },
+      "topic": "animals_more",
+      "lessonFile": "unit_tiere_mehr_lessons.json"
+    },
+    {
+      "id": "unit_fragewoerter",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Fragewörter & Konjunktionen",
+        "en": "Question words & conjunctions",
+        "sv": "Frågeord & konjunktioner",
+        "nl": "Vraagwoorden & voegwoorden"
+      },
+      "topic": "question_words",
+      "lessonFile": "unit_fragewoerter_lessons.json"
+    },
+    {
+      "id": "unit_praepositionen",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Präpositionen & Richtungen",
+        "en": "Prepositions & directions",
+        "sv": "Prepositioner & riktningar",
+        "nl": "Voorzetsels & richtingen"
+      },
+      "topic": "prepositions",
+      "lessonFile": "unit_praepositionen_lessons.json"
+    },
+    {
+      "id": "unit_haushalt",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Haushaltsgegenstände",
+        "en": "Household items",
+        "sv": "Hushållsartiklar",
+        "nl": "Huishoudelijke spullen"
+      },
+      "topic": "household",
+      "lessonFile": "unit_haushalt_lessons.json"
+    },
+    {
+      "id": "unit_sport_freizeit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Sport & Freizeit",
+        "en": "Sports & leisure",
+        "sv": "Sport & fritid",
+        "nl": "Sport & vrije tijd"
+      },
+      "topic": "sports_leisure",
+      "lessonFile": "unit_sport_freizeit_lessons.json"
+    },
+    {
+      "id": "unit_mehr_adjektive",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Mehr Adjektive",
+        "en": "More adjectives",
+        "sv": "Fler adjektiv",
+        "nl": "Meer bijvoeglijke naamwoorden"
+      },
+      "topic": "more_adjectives",
+      "lessonFile": "unit_mehr_adjektive_lessons.json"
     }
   ]
 }
