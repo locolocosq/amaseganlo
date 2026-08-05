@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sen_suk_yet_new",
+    "am": "ሱቁ የት ነው?",
+    "tr": "suku yet new?",
+    "level": "A1.2",
+    "uses": [
+      "lex_laden",
+      "lex_wo_ist"
+    ],
+    "t": {
+      "de": "Wo ist der Laden?",
+      "en": "Where is the shop?",
+      "sv": "Var är affären?",
+      "nl": "Waar is de winkel?"
+    },
+    "alt": {},
+    "chunks": [
+      "suku",
+      "yet",
+      "new?"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ketema_tilik",
+    "am": "ከተማው ትልቅ ነው።",
+    "tr": "ketemaw tilik new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_stadt",
+      "lex_gross"
+    ],
+    "t": {
+      "de": "Die Stadt ist groß.",
+      "en": "The city is big.",
+      "sv": "Staden är stor.",
+      "nl": "De stad is groot."
+    },
+    "alt": {},
+    "chunks": [
+      "ketemaw",
+      "tilik",
+      "new"
+    ],
+    "verified": false
+  }
+]

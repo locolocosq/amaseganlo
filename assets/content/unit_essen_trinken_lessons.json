@@ -1,0 +1,225 @@
+[
+  {
+    "id": "unit_essen_trinken_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_wasser",
+      "lex_brot",
+      "lex_kaffee",
+      "lex_milch",
+      "lex_fleisch",
+      "lex_gemuese",
+      "lex_injera",
+      "lex_ei",
+      "lex_zucker",
+      "lex_salz",
+      "lex_frucht",
+      "lex_tee",
+      "lex_huhn",
+      "lex_reis",
+      "lex_banane",
+      "lex_apfel",
+      "lex_orange",
+      "lex_berbere",
+      "lex_teff",
+      "lex_honig",
+      "lex_essen_verb",
+      "lex_trinken_verb",
+      "lex_hungrig",
+      "lex_durstig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_essen_trinken_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_wasser",
+      "lex_brot",
+      "lex_kaffee",
+      "lex_milch",
+      "lex_fleisch",
+      "lex_gemuese",
+      "lex_injera",
+      "lex_ei",
+      "lex_zucker",
+      "lex_salz",
+      "lex_frucht",
+      "lex_tee",
+      "lex_huhn",
+      "lex_reis",
+      "lex_banane",
+      "lex_apfel",
+      "lex_orange",
+      "lex_berbere",
+      "lex_teff",
+      "lex_honig",
+      "lex_essen_verb",
+      "lex_trinken_verb",
+      "lex_hungrig",
+      "lex_durstig"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_essen_trinken_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_wasser",
+      "lex_brot",
+      "lex_kaffee",
+      "lex_milch",
+      "lex_fleisch",
+      "lex_gemuese",
+      "lex_injera",
+      "lex_ei",
+      "lex_zucker",
+      "lex_salz",
+      "lex_frucht",
+      "lex_tee",
+      "lex_huhn",
+      "lex_reis",
+      "lex_banane",
+      "lex_apfel",
+      "lex_orange",
+      "lex_berbere",
+      "lex_teff",
+      "lex_honig",
+      "lex_essen_verb",
+      "lex_trinken_verb",
+      "lex_hungrig",
+      "lex_durstig"
+    ],
+    "sentenceIds": [
+      "sen_wuha_itetalehu",
+      "sen_dabo_ibelalehu"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_essen_trinken_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_wasser",
+      "lex_brot",
+      "lex_kaffee",
+      "lex_milch",
+      "lex_fleisch",
+      "lex_gemuese",
+      "lex_injera",
+      "lex_ei",
+      "lex_zucker",
+      "lex_salz",
+      "lex_frucht",
+      "lex_tee",
+      "lex_huhn",
+      "lex_reis",
+      "lex_banane",
+      "lex_apfel",
+      "lex_orange",
+      "lex_berbere",
+      "lex_teff",
+      "lex_honig",
+      "lex_essen_verb",
+      "lex_trinken_verb",
+      "lex_hungrig",
+      "lex_durstig"
+    ],
+    "sentenceIds": [
+      "sen_wuha_itetalehu",
+      "sen_dabo_ibelalehu"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_essen_trinken_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_wasser",
+      "lex_brot",
+      "lex_kaffee",
+      "lex_milch",
+      "lex_fleisch",
+      "lex_gemuese",
+      "lex_injera",
+      "lex_ei",
+      "lex_zucker",
+      "lex_salz",
+      "lex_frucht",
+      "lex_tee",
+      "lex_huhn",
+      "lex_reis",
+      "lex_banane",
+      "lex_apfel",
+      "lex_orange",
+      "lex_berbere",
+      "lex_teff",
+      "lex_honig",
+      "lex_essen_verb",
+      "lex_trinken_verb",
+      "lex_hungrig",
+      "lex_durstig"
+    ],
+    "sentenceIds": [
+      "sen_wuha_itetalehu",
+      "sen_dabo_ibelalehu"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_essen_trinken_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_wasser",
+      "lex_brot",
+      "lex_kaffee",
+      "lex_milch",
+      "lex_fleisch",
+      "lex_gemuese",
+      "lex_injera",
+      "lex_ei",
+      "lex_zucker",
+      "lex_salz",
+      "lex_frucht",
+      "lex_tee",
+      "lex_huhn",
+      "lex_reis",
+      "lex_banane",
+      "lex_apfel",
+      "lex_orange",
+      "lex_berbere",
+      "lex_teff",
+      "lex_honig",
+      "lex_essen_verb",
+      "lex_trinken_verb",
+      "lex_hungrig",
+      "lex_durstig"
+    ],
+    "sentenceIds": [
+      "sen_wuha_itetalehu",
+      "sen_dabo_ibelalehu"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

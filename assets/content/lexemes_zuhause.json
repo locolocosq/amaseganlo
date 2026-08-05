@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lex_haus",
+    "am": "ቤት",
+    "tr": "biet",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "das Haus, zu Hause",
+      "en": "house, home",
+      "sv": "hus, hem",
+      "nl": "huis, thuis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏠",
+    "verified": true
+  },
+  {
+    "id": "lex_zimmer",
+    "am": "ክፍል",
+    "tr": "kifil",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "das Zimmer",
+      "en": "room",
+      "sv": "rum",
+      "nl": "kamer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚪",
+    "verified": false
+  },
+  {
+    "id": "lex_tuer",
+    "am": "በር",
+    "tr": "ber",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "die Tür",
+      "en": "door",
+      "sv": "dörr",
+      "nl": "deur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚪",
+    "verified": true
+  },
+  {
+    "id": "lex_tisch",
+    "am": "ጠረጴዛ",
+    "tr": "t'eret'eza",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Tisch",
+      "en": "table",
+      "sv": "bord",
+      "nl": "tafel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪑",
+    "verified": false
+  },
+  {
+    "id": "lex_stuhl",
+    "am": "ወንበር",
+    "tr": "wenber",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Stuhl",
+      "en": "chair",
+      "sv": "stol",
+      "nl": "stoel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪑",
+    "verified": true
+  },
+  {
+    "id": "lex_bett",
+    "am": "አልጋ",
+    "tr": "alga",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "das Bett",
+      "en": "bed",
+      "sv": "säng",
+      "nl": "bed"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🛏️",
+    "verified": true
+  },
+  {
+    "id": "lex_kueche",
+    "am": "ማድቤት",
+    "tr": "madbiet",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "die Küche",
+      "en": "kitchen",
+      "sv": "kök",
+      "nl": "keuken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_fenster",
+    "am": "መስኮት",
+    "tr": "meskot",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "das Fenster",
+      "en": "window",
+      "sv": "fönster",
+      "nl": "raam"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪟",
+    "verified": false
+  },
+  {
+    "id": "lex_schluessel",
+    "am": "ቁልፍ",
+    "tr": "kulf",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Schlüssel",
+      "en": "key",
+      "sv": "nyckel",
+      "nl": "sleutel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔑",
+    "verified": false
+  },
+  {
+    "id": "lex_lampe",
+    "am": "መብራት",
+    "tr": "mebrat",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "die Lampe, das Licht",
+      "en": "lamp, light",
+      "sv": "lampa, ljus",
+      "nl": "lamp, licht"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💡",
+    "verified": false
+  },
+  {
+    "id": "lex_schrank",
+    "am": "ካቢኔ",
+    "tr": "kabine",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Schrank",
+      "en": "cupboard",
+      "sv": "skåp",
+      "nl": "kast"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🗄️",
+    "verified": false
+  },
+  {
+    "id": "lex_spiegel",
+    "am": "መስተዋት",
+    "tr": "mestewat",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Spiegel",
+      "en": "mirror",
+      "sv": "spegel",
+      "nl": "spiegel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪞",
+    "verified": false
+  },
+  {
+    "id": "lex_dach",
+    "am": "ጣራ",
+    "tr": "t'ara",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "das Dach",
+      "en": "roof",
+      "sv": "tak",
+      "nl": "dak"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏠",
+    "verified": false
+  },
+  {
+    "id": "lex_boden",
+    "am": "ወለል",
+    "tr": "welel",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Boden, Fußboden",
+      "en": "floor",
+      "sv": "golv",
+      "nl": "vloer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_garten",
+    "am": "ግቢ",
+    "tr": "gibi",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "der Garten, Hof",
+      "en": "garden, yard",
+      "sv": "trädgård, gård",
+      "nl": "tuin, erf"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌳",
+    "verified": false
+  },
+  {
+    "id": "lex_badezimmer",
+    "am": "መጸዳጃ ቤት",
+    "tr": "mets'edaja biet",
+    "pos": "noun",
+    "topic": "home",
+    "level": "A1.2",
+    "t": {
+      "de": "das Badezimmer",
+      "en": "bathroom",
+      "sv": "badrum",
+      "nl": "badkamer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚽",
+    "verified": false
+  }
+]

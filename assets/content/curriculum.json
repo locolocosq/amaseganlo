@@ -2,10 +2,26 @@
   "schemaVersion": 1,
   "lexemeFiles": [
     "lexemes_a1_1_greetings.json",
-    "lexemes_a1_1_me_you.json"
+    "lexemes_a1_1_me_you.json",
+    "lexemes_familie_menschen.json",
+    "lexemes_zahlen_1_20.json",
+    "lexemes_essen_trinken.json",
+    "lexemes_zuhause.json",
+    "lexemes_zeit.json",
+    "lexemes_farben_eigenschaften.json",
+    "lexemes_zahlen_einkaufen.json",
+    "lexemes_in_der_stadt.json"
   ],
   "sentenceFiles": [
-    "sentences_a1_1.json"
+    "sentences_a1_1.json",
+    "sentences_familie_menschen.json",
+    "sentences_zahlen_1_20.json",
+    "sentences_essen_trinken.json",
+    "sentences_zuhause.json",
+    "sentences_zeit.json",
+    "sentences_farben_eigenschaften.json",
+    "sentences_zahlen_einkaufen.json",
+    "sentences_in_der_stadt.json"
   ],
   "sections": [
     {
@@ -17,7 +33,30 @@
         "sv": "Nivå A1.1 — de första stegen",
         "nl": "Niveau A1.1 — de eerste stappen"
       },
-      "units": ["unit_erste_begegnung", "unit_ich_und_du"]
+      "units": [
+        "unit_erste_begegnung",
+        "unit_ich_und_du",
+        "unit_familie_menschen",
+        "unit_zahlen_1_20",
+        "unit_essen_trinken"
+      ]
+    },
+    {
+      "id": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Niveau A1.2 — Alltag",
+        "en": "Level A1.2 — everyday life",
+        "sv": "Nivå A1.2 — vardagen",
+        "nl": "Niveau A1.2 — dagelijks leven"
+      },
+      "units": [
+        "unit_zuhause",
+        "unit_zeit",
+        "unit_farben_eigenschaften",
+        "unit_zahlen_einkaufen",
+        "unit_in_der_stadt"
+      ]
     }
   ],
   "units": [
@@ -46,6 +85,110 @@
       },
       "topic": "pronouns",
       "lessonFile": "unit_ich_und_du_lessons.json"
+    },
+    {
+      "id": "unit_familie_menschen",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Familie & Menschen",
+        "en": "Family & people",
+        "sv": "Familj & människor",
+        "nl": "Familie & mensen"
+      },
+      "topic": "family",
+      "lessonFile": "unit_familie_menschen_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_1_20",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Zahlen 1-20",
+        "en": "Numbers 1-20",
+        "sv": "Siffror 1-20",
+        "nl": "Cijfers 1-20"
+      },
+      "topic": "numbers",
+      "lessonFile": "unit_zahlen_1_20_lessons.json"
+    },
+    {
+      "id": "unit_essen_trinken",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Essen & Trinken",
+        "en": "Food & drink",
+        "sv": "Mat & dryck",
+        "nl": "Eten & drinken"
+      },
+      "topic": "food_drink",
+      "lessonFile": "unit_essen_trinken_lessons.json"
+    },
+    {
+      "id": "unit_zuhause",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zuhause",
+        "en": "Home",
+        "sv": "Hemma",
+        "nl": "Thuis"
+      },
+      "topic": "home",
+      "lessonFile": "unit_zuhause_lessons.json"
+    },
+    {
+      "id": "unit_zeit",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zeit",
+        "en": "Time",
+        "sv": "Tid",
+        "nl": "Tijd"
+      },
+      "topic": "time",
+      "lessonFile": "unit_zeit_lessons.json"
+    },
+    {
+      "id": "unit_farben_eigenschaften",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Farben & Eigenschaften",
+        "en": "Colors & properties",
+        "sv": "Färger & egenskaper",
+        "nl": "Kleuren & eigenschappen"
+      },
+      "topic": "colors_properties",
+      "lessonFile": "unit_farben_eigenschaften_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_einkaufen",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zahlen 20-1000 & Einkaufen",
+        "en": "Numbers 20-1000 & shopping",
+        "sv": "Siffror 20-1000 & att shoppa",
+        "nl": "Cijfers 20-1000 & winkelen"
+      },
+      "topic": "numbers_shopping",
+      "lessonFile": "unit_zahlen_einkaufen_lessons.json"
+    },
+    {
+      "id": "unit_in_der_stadt",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "In der Stadt",
+        "en": "In the city",
+        "sv": "I staden",
+        "nl": "In de stad"
+      },
+      "topic": "city",
+      "lessonFile": "unit_in_der_stadt_lessons.json"
     }
   ]
 }

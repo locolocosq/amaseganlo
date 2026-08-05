@@ -1,0 +1,185 @@
+[
+  {
+    "id": "unit_zahlen_einkaufen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_zahl_30",
+      "lex_zahl_40",
+      "lex_zahl_50",
+      "lex_zahl_60",
+      "lex_zahl_70",
+      "lex_zahl_80",
+      "lex_zahl_90",
+      "lex_zahl_100",
+      "lex_zahl_1000",
+      "lex_geld",
+      "lex_preis",
+      "lex_teuer",
+      "lex_billig",
+      "lex_kaufen",
+      "lex_verkaufen",
+      "lex_markt",
+      "lex_laden",
+      "lex_wieviel_kostet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zahlen_einkaufen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_zahl_30",
+      "lex_zahl_40",
+      "lex_zahl_50",
+      "lex_zahl_60",
+      "lex_zahl_70",
+      "lex_zahl_80",
+      "lex_zahl_90",
+      "lex_zahl_100",
+      "lex_zahl_1000",
+      "lex_geld",
+      "lex_preis",
+      "lex_teuer",
+      "lex_billig",
+      "lex_kaufen",
+      "lex_verkaufen",
+      "lex_markt",
+      "lex_laden",
+      "lex_wieviel_kostet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zahlen_einkaufen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_zahl_30",
+      "lex_zahl_40",
+      "lex_zahl_50",
+      "lex_zahl_60",
+      "lex_zahl_70",
+      "lex_zahl_80",
+      "lex_zahl_90",
+      "lex_zahl_100",
+      "lex_zahl_1000",
+      "lex_geld",
+      "lex_preis",
+      "lex_teuer",
+      "lex_billig",
+      "lex_kaufen",
+      "lex_verkaufen",
+      "lex_markt",
+      "lex_laden",
+      "lex_wieviel_kostet"
+    ],
+    "sentenceIds": [
+      "sen_wagau_wid"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zahlen_einkaufen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_zahl_30",
+      "lex_zahl_40",
+      "lex_zahl_50",
+      "lex_zahl_60",
+      "lex_zahl_70",
+      "lex_zahl_80",
+      "lex_zahl_90",
+      "lex_zahl_100",
+      "lex_zahl_1000",
+      "lex_geld",
+      "lex_preis",
+      "lex_teuer",
+      "lex_billig",
+      "lex_kaufen",
+      "lex_verkaufen",
+      "lex_markt",
+      "lex_laden",
+      "lex_wieviel_kostet"
+    ],
+    "sentenceIds": [
+      "sen_wagau_wid"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zahlen_einkaufen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_zahl_30",
+      "lex_zahl_40",
+      "lex_zahl_50",
+      "lex_zahl_60",
+      "lex_zahl_70",
+      "lex_zahl_80",
+      "lex_zahl_90",
+      "lex_zahl_100",
+      "lex_zahl_1000",
+      "lex_geld",
+      "lex_preis",
+      "lex_teuer",
+      "lex_billig",
+      "lex_kaufen",
+      "lex_verkaufen",
+      "lex_markt",
+      "lex_laden",
+      "lex_wieviel_kostet"
+    ],
+    "sentenceIds": [
+      "sen_wagau_wid"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zahlen_einkaufen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_zahl_30",
+      "lex_zahl_40",
+      "lex_zahl_50",
+      "lex_zahl_60",
+      "lex_zahl_70",
+      "lex_zahl_80",
+      "lex_zahl_90",
+      "lex_zahl_100",
+      "lex_zahl_1000",
+      "lex_geld",
+      "lex_preis",
+      "lex_teuer",
+      "lex_billig",
+      "lex_kaufen",
+      "lex_verkaufen",
+      "lex_markt",
+      "lex_laden",
+      "lex_wieviel_kostet"
+    ],
+    "sentenceIds": [
+      "sen_wagau_wid"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

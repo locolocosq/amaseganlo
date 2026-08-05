@@ -1,0 +1,183 @@
+[
+  {
+    "id": "unit_familie_menschen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_person",
+      "lex_familie",
+      "lex_mutter",
+      "lex_vater",
+      "lex_kind",
+      "lex_bruder",
+      "lex_schwester",
+      "lex_freund",
+      "lex_mann",
+      "lex_frau",
+      "lex_baby",
+      "lex_grosseltern",
+      "lex_onkel",
+      "lex_tante",
+      "lex_leute",
+      "lex_ehemann",
+      "lex_ehefrau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_familie_menschen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_person",
+      "lex_familie",
+      "lex_mutter",
+      "lex_vater",
+      "lex_kind",
+      "lex_bruder",
+      "lex_schwester",
+      "lex_freund",
+      "lex_mann",
+      "lex_frau",
+      "lex_baby",
+      "lex_grosseltern",
+      "lex_onkel",
+      "lex_tante",
+      "lex_leute",
+      "lex_ehemann",
+      "lex_ehefrau"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_familie_menschen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_person",
+      "lex_familie",
+      "lex_mutter",
+      "lex_vater",
+      "lex_kind",
+      "lex_bruder",
+      "lex_schwester",
+      "lex_freund",
+      "lex_mann",
+      "lex_frau",
+      "lex_baby",
+      "lex_grosseltern",
+      "lex_onkel",
+      "lex_tante",
+      "lex_leute",
+      "lex_ehemann",
+      "lex_ehefrau"
+    ],
+    "sentenceIds": [
+      "sen_ine_sew_negn",
+      "sen_beteseb_tilik"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_familie_menschen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_person",
+      "lex_familie",
+      "lex_mutter",
+      "lex_vater",
+      "lex_kind",
+      "lex_bruder",
+      "lex_schwester",
+      "lex_freund",
+      "lex_mann",
+      "lex_frau",
+      "lex_baby",
+      "lex_grosseltern",
+      "lex_onkel",
+      "lex_tante",
+      "lex_leute",
+      "lex_ehemann",
+      "lex_ehefrau"
+    ],
+    "sentenceIds": [
+      "sen_ine_sew_negn",
+      "sen_beteseb_tilik"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_familie_menschen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_person",
+      "lex_familie",
+      "lex_mutter",
+      "lex_vater",
+      "lex_kind",
+      "lex_bruder",
+      "lex_schwester",
+      "lex_freund",
+      "lex_mann",
+      "lex_frau",
+      "lex_baby",
+      "lex_grosseltern",
+      "lex_onkel",
+      "lex_tante",
+      "lex_leute",
+      "lex_ehemann",
+      "lex_ehefrau"
+    ],
+    "sentenceIds": [
+      "sen_ine_sew_negn",
+      "sen_beteseb_tilik"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_familie_menschen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_person",
+      "lex_familie",
+      "lex_mutter",
+      "lex_vater",
+      "lex_kind",
+      "lex_bruder",
+      "lex_schwester",
+      "lex_freund",
+      "lex_mann",
+      "lex_frau",
+      "lex_baby",
+      "lex_grosseltern",
+      "lex_onkel",
+      "lex_tante",
+      "lex_leute",
+      "lex_ehemann",
+      "lex_ehefrau"
+    ],
+    "sentenceIds": [
+      "sen_ine_sew_negn",
+      "sen_beteseb_tilik"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

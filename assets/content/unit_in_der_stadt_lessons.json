@@ -1,0 +1,177 @@
+[
+  {
+    "id": "unit_in_der_stadt_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_strasse",
+      "lex_krankenhaus",
+      "lex_schule",
+      "lex_bank",
+      "lex_kirche",
+      "lex_moschee",
+      "lex_stadt",
+      "lex_dorf",
+      "lex_hotel",
+      "lex_restaurant",
+      "lex_flughafen",
+      "lex_polizei",
+      "lex_rechts",
+      "lex_links",
+      "lex_geradeaus",
+      "lex_wo_ist"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_in_der_stadt_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_strasse",
+      "lex_krankenhaus",
+      "lex_schule",
+      "lex_bank",
+      "lex_kirche",
+      "lex_moschee",
+      "lex_stadt",
+      "lex_dorf",
+      "lex_hotel",
+      "lex_restaurant",
+      "lex_flughafen",
+      "lex_polizei",
+      "lex_rechts",
+      "lex_links",
+      "lex_geradeaus",
+      "lex_wo_ist"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "emojiMatch",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_in_der_stadt_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_strasse",
+      "lex_krankenhaus",
+      "lex_schule",
+      "lex_bank",
+      "lex_kirche",
+      "lex_moschee",
+      "lex_stadt",
+      "lex_dorf",
+      "lex_hotel",
+      "lex_restaurant",
+      "lex_flughafen",
+      "lex_polizei",
+      "lex_rechts",
+      "lex_links",
+      "lex_geradeaus",
+      "lex_wo_ist"
+    ],
+    "sentenceIds": [
+      "sen_suk_yet_new",
+      "sen_ketema_tilik"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_in_der_stadt_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_strasse",
+      "lex_krankenhaus",
+      "lex_schule",
+      "lex_bank",
+      "lex_kirche",
+      "lex_moschee",
+      "lex_stadt",
+      "lex_dorf",
+      "lex_hotel",
+      "lex_restaurant",
+      "lex_flughafen",
+      "lex_polizei",
+      "lex_rechts",
+      "lex_links",
+      "lex_geradeaus",
+      "lex_wo_ist"
+    ],
+    "sentenceIds": [
+      "sen_suk_yet_new",
+      "sen_ketema_tilik"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_in_der_stadt_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_strasse",
+      "lex_krankenhaus",
+      "lex_schule",
+      "lex_bank",
+      "lex_kirche",
+      "lex_moschee",
+      "lex_stadt",
+      "lex_dorf",
+      "lex_hotel",
+      "lex_restaurant",
+      "lex_flughafen",
+      "lex_polizei",
+      "lex_rechts",
+      "lex_links",
+      "lex_geradeaus",
+      "lex_wo_ist"
+    ],
+    "sentenceIds": [
+      "sen_suk_yet_new",
+      "sen_ketema_tilik"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_in_der_stadt_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_strasse",
+      "lex_krankenhaus",
+      "lex_schule",
+      "lex_bank",
+      "lex_kirche",
+      "lex_moschee",
+      "lex_stadt",
+      "lex_dorf",
+      "lex_hotel",
+      "lex_restaurant",
+      "lex_flughafen",
+      "lex_polizei",
+      "lex_rechts",
+      "lex_links",
+      "lex_geradeaus",
+      "lex_wo_ist"
+    ],
+    "sentenceIds": [
+      "sen_suk_yet_new",
+      "sen_ketema_tilik"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "sen_biet_tilik",
+    "am": "ቤቱ ትልቅ ነው።",
+    "tr": "bietu tilik new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_haus"
+    ],
+    "t": {
+      "de": "Das Haus ist groß.",
+      "en": "The house is big.",
+      "sv": "Huset är stort.",
+      "nl": "Het huis is groot."
+    },
+    "alt": {},
+    "chunks": [
+      "bietu",
+      "tilik",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ber_kefeto",
+    "am": "በሩ ተከፍቷል።",
+    "tr": "beru tekeftual.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tuer"
+    ],
+    "t": {
+      "de": "Die Tür ist offen.",
+      "en": "The door is open.",
+      "sv": "Dörren är öppen.",
+      "nl": "De deur is open."
+    },
+    "alt": {},
+    "chunks": [
+      "beru",
+      "tekeftual"
+    ],
+    "verified": false
+  }
+]

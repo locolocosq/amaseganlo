@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_amist_lijoch",
+    "am": "አምስት ልጆች አሉ።",
+    "tr": "amist lijoch alu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_zahl_5",
+      "lex_kind"
+    ],
+    "t": {
+      "de": "Es gibt fünf Kinder.",
+      "en": "There are five children.",
+      "sv": "Det finns fem barn.",
+      "nl": "Er zijn vijf kinderen."
+    },
+    "alt": {},
+    "chunks": [
+      "amist",
+      "lijoch",
+      "alu"
+    ],
+    "verified": false
+  }
+]

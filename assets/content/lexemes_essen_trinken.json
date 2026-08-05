@@ -1,0 +1,434 @@
+[
+  {
+    "id": "lex_wasser",
+    "am": "ውሃ",
+    "tr": "wuha",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Wasser",
+      "en": "water",
+      "sv": "vatten",
+      "nl": "water"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💧",
+    "verified": true
+  },
+  {
+    "id": "lex_brot",
+    "am": "ዳቦ",
+    "tr": "dabo",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Brot",
+      "en": "bread",
+      "sv": "bröd",
+      "nl": "brood"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍞",
+    "verified": true
+  },
+  {
+    "id": "lex_kaffee",
+    "am": "ቡና",
+    "tr": "buna",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Kaffee",
+      "en": "coffee",
+      "sv": "kaffe",
+      "nl": "koffie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☕",
+    "verified": true
+  },
+  {
+    "id": "lex_milch",
+    "am": "ወተት",
+    "tr": "wetet",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "die Milch",
+      "en": "milk",
+      "sv": "mjölk",
+      "nl": "melk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥛",
+    "verified": true
+  },
+  {
+    "id": "lex_fleisch",
+    "am": "ስጋ",
+    "tr": "siga",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Fleisch",
+      "en": "meat",
+      "sv": "kött",
+      "nl": "vlees"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥩",
+    "verified": true
+  },
+  {
+    "id": "lex_gemuese",
+    "am": "አትክልት",
+    "tr": "atkilt",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Gemüse",
+      "en": "vegetable",
+      "sv": "grönsak",
+      "nl": "groente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥬",
+    "verified": false
+  },
+  {
+    "id": "lex_injera",
+    "am": "እንጀራ",
+    "tr": "injera",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "die Injera",
+      "en": "injera (Ethiopian flatbread)",
+      "sv": "injera",
+      "nl": "injera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🫓",
+    "verified": true
+  },
+  {
+    "id": "lex_ei",
+    "am": "እንቁላል",
+    "tr": "inkulal",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Ei",
+      "en": "egg",
+      "sv": "ägg",
+      "nl": "ei"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥚",
+    "verified": true
+  },
+  {
+    "id": "lex_zucker",
+    "am": "ስኳር",
+    "tr": "sikuar",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Zucker",
+      "en": "sugar",
+      "sv": "socker",
+      "nl": "suiker"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍬",
+    "verified": false
+  },
+  {
+    "id": "lex_salz",
+    "am": "ጨው",
+    "tr": "chew",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Salz",
+      "en": "salt",
+      "sv": "salt",
+      "nl": "zout"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧂",
+    "verified": true
+  },
+  {
+    "id": "lex_frucht",
+    "am": "ፍራፍሬ",
+    "tr": "firafire",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Obst, die Früchte",
+      "en": "fruit",
+      "sv": "frukt",
+      "nl": "fruit"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍎",
+    "verified": false
+  },
+  {
+    "id": "lex_tee",
+    "am": "ሻይ",
+    "tr": "shai",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Tee",
+      "en": "tea",
+      "sv": "te",
+      "nl": "thee"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍵",
+    "verified": true
+  },
+  {
+    "id": "lex_huhn",
+    "am": "ዶሮ",
+    "tr": "doro",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Huhn",
+      "en": "chicken",
+      "sv": "kyckling",
+      "nl": "kip"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐔",
+    "verified": true
+  },
+  {
+    "id": "lex_reis",
+    "am": "ሩዝ",
+    "tr": "ruz",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Reis",
+      "en": "rice",
+      "sv": "ris",
+      "nl": "rijst"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍚",
+    "verified": false
+  },
+  {
+    "id": "lex_banane",
+    "am": "ሙዝ",
+    "tr": "muz",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "die Banane",
+      "en": "banana",
+      "sv": "banan",
+      "nl": "banaan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍌",
+    "verified": true
+  },
+  {
+    "id": "lex_apfel",
+    "am": "ፖም",
+    "tr": "pom",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Apfel",
+      "en": "apple",
+      "sv": "äpple",
+      "nl": "appel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍎",
+    "verified": false
+  },
+  {
+    "id": "lex_orange",
+    "am": "ብርቱካን",
+    "tr": "birtukan",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "die Orange",
+      "en": "orange",
+      "sv": "apelsin",
+      "nl": "sinaasappel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍊",
+    "verified": false
+  },
+  {
+    "id": "lex_berbere",
+    "am": "በርበሬ",
+    "tr": "berbere",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "das Berbere-Gewürz",
+      "en": "berbere spice",
+      "sv": "berberekrydda",
+      "nl": "berberekruid"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌶️",
+    "verified": true
+  },
+  {
+    "id": "lex_teff",
+    "am": "ጤፍ",
+    "tr": "t'ef",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Teff",
+      "en": "teff grain",
+      "sv": "teff",
+      "nl": "teff"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌾",
+    "verified": true
+  },
+  {
+    "id": "lex_honig",
+    "am": "ማር",
+    "tr": "mar",
+    "pos": "noun",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "der Honig",
+      "en": "honey",
+      "sv": "honung",
+      "nl": "honing"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍯",
+    "verified": false
+  },
+  {
+    "id": "lex_essen_verb",
+    "am": "መብላት",
+    "tr": "mebilat",
+    "pos": "verb",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "essen",
+      "en": "to eat",
+      "sv": "äta",
+      "nl": "eten"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_trinken_verb",
+    "am": "መጠጣት",
+    "tr": "met'et'at",
+    "pos": "verb",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "trinken",
+      "en": "to drink",
+      "sv": "dricka",
+      "nl": "drinken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hungrig",
+    "am": "ርቦኛል",
+    "tr": "ribogniall",
+    "pos": "phrase",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "Ich bin hungrig",
+      "en": "I am hungry",
+      "sv": "Jag är hungrig",
+      "nl": "Ik heb honger"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_durstig",
+    "am": "ጠምቶኛል",
+    "tr": "t'emtogniall",
+    "pos": "phrase",
+    "topic": "food_drink",
+    "level": "A1.1",
+    "t": {
+      "de": "Ich bin durstig",
+      "en": "I am thirsty",
+      "sv": "Jag är törstig",
+      "nl": "Ik heb dorst"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

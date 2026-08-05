@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sen_bietu_konjo",
+    "am": "ቤቱ ቆንጆ ነው።",
+    "tr": "bietu konjo new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_haus",
+      "lex_schoen"
+    ],
+    "t": {
+      "de": "Das Haus ist schön.",
+      "en": "The house is beautiful.",
+      "sv": "Huset är vackert.",
+      "nl": "Het huis is mooi."
+    },
+    "alt": {},
+    "chunks": [
+      "bietu",
+      "konjo",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_wuha_kezkaza",
+    "am": "ውሃው ቀዝቃዛ ነው።",
+    "tr": "wuhaw kezkaza new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_wasser",
+      "lex_kalt"
+    ],
+    "t": {
+      "de": "Das Wasser ist kalt.",
+      "en": "The water is cold.",
+      "sv": "Vattnet är kallt.",
+      "nl": "Het water is koud."
+    },
+    "alt": {},
+    "chunks": [
+      "wuhaw",
+      "kezkaza",
+      "new"
+    ],
+    "verified": false
+  }
+]

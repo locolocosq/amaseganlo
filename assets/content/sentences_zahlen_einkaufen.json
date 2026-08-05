@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_wagau_wid",
+    "am": "ዋጋው ውድ ነው።",
+    "tr": "wagaw wid new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_preis",
+      "lex_teuer"
+    ],
+    "t": {
+      "de": "Der Preis ist teuer.",
+      "en": "The price is expensive.",
+      "sv": "Priset är dyrt.",
+      "nl": "De prijs is duur."
+    },
+    "alt": {},
+    "chunks": [
+      "wagaw",
+      "wid",
+      "new"
+    ],
+    "verified": false
+  }
+]
