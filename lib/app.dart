@@ -61,12 +61,10 @@ class _HabeshaSpeakAppState extends State<HabeshaSpeakApp> with WidgetsBindingOb
       theme: AppTheme.build(
         brightness: Brightness.light,
         accentColorIndex: settings.accentColorIndex,
-        fontScale: settings.fontSize.scale,
       ),
       darkTheme: AppTheme.build(
         brightness: Brightness.dark,
         accentColorIndex: settings.accentColorIndex,
-        fontScale: settings.fontSize.scale,
       ),
       themeMode: brightness == Brightness.dark
           ? ThemeMode.dark
@@ -74,6 +72,13 @@ class _HabeshaSpeakAppState extends State<HabeshaSpeakApp> with WidgetsBindingOb
       locale: settings.localeCode != null ? Locale(settings.localeCode!) : null,
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
+      // The "Schriftgröße" setting scales all text via MediaQuery's
+      // TextScaler - see the long comment on AppTheme.build for why this
+      // replaced an earlier TextTheme-based attempt that crashed the app.
+      builder: (context, child) => MediaQuery(
+        data: MediaQuery.of(context).copyWith(textScaler: TextScaler.linear(settings.fontSize.scale)),
+        child: child!,
+      ),
     );
   }
 }

@@ -143,9 +143,11 @@ class Sketch {
     canvas.drawPath(path, Paint()..color = const Color(0xFF3F8FA6));
   }
 
-  /// A friendly little bus, drawn centered at `center`, rotated by
+  /// A friendly little taxi, drawn centered at `center`, rotated by
   /// `headingRadians` (0 = facing right) - used both for the mini icon on
-  /// nodes and for the animated traveling bus.
+  /// nodes and for the animated traveling vehicle. Blue-and-white livery,
+  /// after the shared minibus taxis common in Addis Ababa (Etappe 18 - the
+  /// vehicle was originally a plain yellow bus).
   static void bus(Canvas canvas, Offset center, double scale, double headingRadians) {
     canvas.save();
     canvas.translate(center.dx, center.dy);
@@ -153,7 +155,13 @@ class Sketch {
     final bodyRect = Rect.fromCenter(center: Offset.zero, width: 42 * scale, height: 22 * scale);
     final bodyRRect = RRect.fromRectAndRadius(bodyRect, Radius.circular(6 * scale));
     canvas.drawShadow(Path()..addRRect(bodyRRect.shift(Offset(0, 5 * scale))), Colors.black, 2, false);
-    canvas.drawRRect(bodyRRect, Paint()..color = const Color(0xFFF4C430));
+    canvas.drawRRect(bodyRRect, Paint()..color = const Color(0xFF1E5FA8));
+    // White roof band, clipped to the body's rounded silhouette so it
+    // follows the corner radius instead of overhanging it.
+    canvas.save();
+    canvas.clipRRect(bodyRRect);
+    canvas.drawRect(Rect.fromLTWH(bodyRect.left, bodyRect.top, bodyRect.width, bodyRect.height * 0.3), Paint()..color = Colors.white);
+    canvas.restore();
     canvas.drawRRect(bodyRRect, Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1.4 * scale

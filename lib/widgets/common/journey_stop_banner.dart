@@ -251,7 +251,11 @@ class _JourneyPainter extends CustomPainter {
   void _paintBus(Canvas canvas, Size size) {
     final bodyRect = Rect.fromLTWH(_w(size, 0.06), _h(size, 0.68), _w(size, 0.20), _h(size, 0.16));
     final bodyRRect = RRect.fromRectAndRadius(bodyRect, Radius.circular(_w(size, 0.02)));
-    canvas.drawRRect(bodyRRect, Paint()..color = const Color(0xFFF4C430));
+    canvas.drawRRect(bodyRRect, Paint()..color = const Color(0xFF1E5FA8));
+    canvas.save();
+    canvas.clipRRect(bodyRRect);
+    canvas.drawRect(Rect.fromLTWH(bodyRect.left, bodyRect.top, bodyRect.width, bodyRect.height * 0.3), Paint()..color = Colors.white);
+    canvas.restore();
     canvas.drawRRect(
       bodyRRect,
       Paint()

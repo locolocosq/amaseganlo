@@ -33,10 +33,20 @@ const Color successColor = Color(0xFFD4A017); // yellow, for success accents
 const Color errorColor = Color(0xFFC62828); // red, reserved for mistakes only
 
 class AppTheme {
+  // The "Schriftgröße" setting is deliberately NOT implemented by scaling
+  // TextTheme here (see git history for the removed attempt): Material 3's
+  // default TextTheme/primaryTextTheme leave `fontSize` unset on every
+  // style until Flutter's own Theme/Typography machinery fills them in
+  // further down the widget tree, and `TextStyle.apply(fontSizeFactor: x)`
+  // asserts/crashes on a null fontSize for any x != 1.0 - so this reliably
+  // crashed the whole app for every non-"Normal" choice (found via the
+  // "Schriftgröße" settings option). Font scaling is applied once, safely,
+  // via `MediaQuery`'s `TextScaler` in `app.dart` instead - the officially
+  // supported, render-level way to scale all text app-wide regardless of
+  // which of its style fields happen to be set.
   static ThemeData build({
     required Brightness brightness,
     required int accentColorIndex,
-    required double fontScale,
   }) {
     final seed = AppAccentColors.of(accentColorIndex);
     final colorScheme = ColorScheme.fromSeed(
@@ -56,12 +66,8 @@ class AppTheme {
       // fontFamilyFallback (not fontFamily) so Latin text keeps the default
       // Material font - NotoSansEthiopic only kicks in for the Ge'ez-script
       // characters the primary font doesn't cover (Abschnitt C5/Etappe 11).
+      // No fontSizeFactor here - see the class doc above.
       textTheme: base.textTheme.apply(
-        fontSizeFactor: fontScale,
-        fontFamilyFallback: const ['NotoSansEthiopic'],
-      ),
-      primaryTextTheme: base.primaryTextTheme.apply(
-        fontSizeFactor: fontScale,
         fontFamilyFallback: const ['NotoSansEthiopic'],
       ),
       appBarTheme: AppBarTheme(

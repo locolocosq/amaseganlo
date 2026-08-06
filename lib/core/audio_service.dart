@@ -65,13 +65,14 @@ class RealAudioPlayerClient implements AudioPlayerClient {
 
   @override
   Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {
-    // Set before play() so the very first frame of the new source already
-    // uses it - not verified against a real device (no hardware in this
-    // dev environment), audioplayers' own docs just say Android needs
-    // API 23+ and iOS/macOS accept 0.5-2x, both satisfied by this app's
-    // 0.5-1.0 range.
-    await _player.setPlaybackRate(rate);
+    // Must come AFTER play(), not before: play() calls setSource()
+    // internally, which (re)creates the native player for the new source
+    // and resets its rate back to 1x - a rate set beforehand is silently
+    // discarded. This was the actual reason the speech-rate setting had
+    // no effect at all: every play() call was re-resetting it back to
+    // normal speed right after it was set.
     await _player.play(AssetSource(assetPath), volume: volume);
+    await _player.setPlaybackRate(rate);
   }
 
   @override

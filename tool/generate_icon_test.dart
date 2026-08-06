@@ -4,11 +4,13 @@
 // changes, then `dart run flutter_launcher_icons` to re-derive every
 // platform's actual icon files from this one source image. Uses dart:ui
 // directly (only available under the Flutter test/app engine, not plain
-// `dart run`) to draw the app's bus + bus driver mark by hand in the brand
+// `dart run`) to draw the app's taxi + driver mark by hand in the brand
 // green - see ENTSCHEIDUNGEN.md Etappe 11 for why no downloaded/
-// AI-generated image asset is used here instead, and Etappe 17 for why the
-// icon changed from a generic chat bubble to the bus/driver motif that the
-// rest of the app (journey map, Etappe 14) already uses.
+// AI-generated image asset is used here instead, Etappe 17 for why the icon
+// changed from a generic chat bubble to a vehicle/driver motif, and
+// Etappe 18 for why the vehicle is a blue-and-white taxi (the shared
+// minibus taxis common in Addis Ababa) rather than a plain yellow bus, with
+// the driver waving out of the window.
 import 'dart:io';
 import 'dart:ui' as ui;
 
@@ -33,10 +35,16 @@ void main() {
         background,
       );
 
-      // Bus body.
+      // Taxi body: blue with a white roof band, after the shared minibus
+      // taxis common in Addis Ababa (Etappe 18 - this used to be a plain
+      // yellow bus, same shape reused for the new livery).
       const bodyRect = Rect.fromLTRB(130, 380, 894, 662);
       final bodyRRect = RRect.fromRectAndRadius(bodyRect, const Radius.circular(56));
-      canvas.drawRRect(bodyRRect, Paint()..color = const Color(0xFFF4C430));
+      canvas.drawRRect(bodyRRect, Paint()..color = const Color(0xFF1E5FA8));
+      canvas.save();
+      canvas.clipRRect(bodyRRect);
+      canvas.drawRect(Rect.fromLTWH(bodyRect.left, bodyRect.top, bodyRect.width, bodyRect.height * 0.3), Paint()..color = Colors.white);
+      canvas.restore();
       canvas.drawRRect(
         bodyRRect,
         Paint()
@@ -56,10 +64,35 @@ void main() {
         );
       }
 
+      const driverCenter = Offset(738, 478);
+
+      // Waving arm, drawn BEFORE the head so the head/cap covers the
+      // shoulder joint and the arm reads as coming from beside/behind the
+      // head, not growing out of the cap. Reaches up and to the right,
+      // clear of the other two windows and the roofline - "leaning out of
+      // the window to wave" pose.
+      final armPaint = Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 32
+        ..strokeCap = StrokeCap.round
+        ..color = const Color(0xFF8D5A3B);
+      const shoulder = Offset(806, 512);
+      const hand = Offset(882, 300);
+      canvas.drawLine(shoulder, hand, armPaint);
+      canvas.drawCircle(hand, 30, Paint()..color = const Color(0xFF8D5A3B));
+      // Two short motion arcs beside the hand, suggesting a waving motion.
+      final wavePaint = Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 8
+        ..strokeCap = StrokeCap.round
+        ..color = Colors.white.withValues(alpha: 0.85);
+      for (final r in [50.0, 74.0]) {
+        canvas.drawArc(Rect.fromCircle(center: hand, radius: r), -1.25, 0.9, false, wavePaint);
+      }
+
       // The driver's face, same palette as
       // lib/widgets/journey/bus_driver.dart's portrait, sized to sit
       // fully inside that third window.
-      const driverCenter = Offset(738, 478);
       canvas.drawCircle(driverCenter, 48, Paint()..color = const Color(0xFF8D5A3B));
       // Cap: a flat-bottomed dome (round top corners only, not a full
       // pill) sitting on top of the head, plus a thin brim line - a
