@@ -19,18 +19,23 @@ class WorldMapPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final area = Rect.fromLTWH(0, 0, size.width, size.height);
-    // A plain "outside the country" backdrop first, then everything else
-    // clipped to the outline - the terrain itself ends up shaped like
-    // Ethiopia instead of a separate watermark competing with it, which is
-    // what keeps this "dezent" (subtle) per the brief rather than adding a
-    // second, busier layer on top of the existing map.
+    // A plain "outside the country" backdrop first, then the terrain fill
+    // clipped to the outline, so the "land" itself ends up shaped like
+    // Ethiopia instead of a separate watermark competing with it.
     canvas.drawRect(area, Paint()..color = const Color(0xFFF3EFDD));
 
     final outline = EthiopiaMap.outline(size);
     canvas.save();
     canvas.clipPath(outline);
     Sketch.sky(canvas, area, const Color(0xFFCDEBD4), const Color(0xFFF3EFDD));
+    canvas.restore();
 
+    // Everything functional (glow, decoration, road) is drawn AFTER
+    // restoring the clip, deliberately never confined to the outline: the
+    // outline is a rough stylized silhouette, not a precise boundary, and
+    // clipping the road to it risked visibly cutting the road off before
+    // it reached a marker sitting right at (or just past) the coastline -
+    // exactly the "keine Straßenbindung" bug a real device test found.
     for (final region in WorldMapLayout.order) {
       final center = WorldMapLayout.positions[region]!.toOffset(size);
       final radius = size.shortestSide * 0.32;
@@ -47,11 +52,9 @@ class WorldMapPainter extends CustomPainter {
     for (final road in WorldMapLayout.allRoads(size)) {
       Sketch.road(canvas, road);
     }
-    canvas.restore();
 
     // A quiet outline stroke around the country shape for definition, and
-    // clouds drifting over the top edge - both outside the clip so they sit
-    // above the "map paper" and aren't cut off by the coastline-like edge.
+    // clouds drifting over the top edge.
     canvas.drawPath(
       outline,
       Paint()

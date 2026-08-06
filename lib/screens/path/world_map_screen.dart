@@ -153,8 +153,8 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     // change needed here.
     if (index >= curriculum.sections.length) {
       return Positioned(
-        left: position.dx - 64,
-        top: position.dy - 44,
+        left: position.dx - 48,
+        top: position.dy - 32,
         child: RegionNodeMarker(
           region: region,
           title: l10n.journeyRegionHarar,

@@ -29,10 +29,14 @@ class GeoPoint {
 /// exactly one new [GeoPoint] entry here (plus a [WorldMapLayout.order]
 /// slot) - nothing about this projection needs to change.
 class EthiopiaMap {
-  static const double _minLon = 33.0;
-  static const double _maxLon = 48.0;
-  static const double _minLat = 3.3;
-  static const double _maxLat = 15.0;
+  // Wide enough to comfortably contain both every GeoPoint below AND every
+  // vertex of outline() with margin to spare - a vertex/marker landing
+  // right at (or beyond) this box's edge would clamp flat against the
+  // canvas border instead of showing its real position.
+  static const double _minLon = 31.0;
+  static const double _maxLon = 50.0;
+  static const double _minLat = 2.3;
+  static const double _maxLat = 16.0;
 
   // Inset from the canvas edge so markers/outline never touch the border.
   static const double _pad = 0.08;
@@ -46,7 +50,7 @@ class EthiopiaMap {
   // enough to stay tappable as separate nodes on a small phone screen.
   static const Map<JourneyRegion, GeoPoint> geoPositions = {
     JourneyRegion.addisAbeba: GeoPoint(38.75, 9.0), // capital, centre
-    JourneyRegion.tigray: GeoPoint(38.7, 14.5), // Aksum/Mekelle area, far north
+    JourneyRegion.tigray: GeoPoint(38.7, 14.0), // Aksum/Mekelle area, far north
     JourneyRegion.oromia: GeoPoint(33.5, 5.5), // Jimma area, south-west
     JourneyRegion.sidama: GeoPoint(39.5, 3.6), // Hawassa/Sidama area, far south
     JourneyRegion.harar: GeoPoint(46.5, 9.5), // Harar, far east
@@ -71,20 +75,17 @@ class EthiopiaMap {
   /// [RegionMapLayout.smoothPathThrough] smooths station paths.
   static Path outline(Size size) {
     const vertices = [
-      GeoPoint(34.4, 14.2), // NW, Sudan border
-      GeoPoint(36.5, 14.9), // N
-      GeoPoint(38.5, 14.4), // N, near Eritrea
-      GeoPoint(40.0, 14.7), // NE point (Afar)
-      GeoPoint(41.8, 13.0), // notch down toward Djibouti
-      GeoPoint(43.0, 11.0), // E
-      GeoPoint(47.5, 8.2), // far E point (Somali region)
-      GeoPoint(45.5, 6.0), // SE
-      GeoPoint(42.5, 4.2), // S, near Somalia/Kenya
-      GeoPoint(40.0, 3.9), // S
-      GeoPoint(36.5, 4.5), // S, near Kenya
-      GeoPoint(34.2, 6.8), // SW
-      GeoPoint(33.0, 10.5), // W, Sudan border
-      GeoPoint(34.4, 14.2), // back to start
+      GeoPoint(35.0, 15.3), // N, near the Sudan/Eritrea corner
+      GeoPoint(39.0, 15.0), // N, near Eritrea
+      GeoPoint(41.5, 13.5), // NE, Afar wedge starting to narrow
+      GeoPoint(44.0, 11.8), // E, narrowing further toward Djibouti/Somaliland
+      GeoPoint(49.5, 8.0), // far E point (Somali region, easternmost bulge)
+      GeoPoint(46.5, 5.0), // SE, bulge curving back south
+      GeoPoint(42.0, 3.0), // S, near Somalia/Kenya
+      GeoPoint(35.5, 2.8), // S, near Kenya (flatter southern edge)
+      GeoPoint(32.0, 4.5), // SW corner, near South Sudan
+      GeoPoint(32.0, 11.5), // W, Sudan border (long, roughly straight edge)
+      GeoPoint(35.0, 15.3), // back to start
     ];
     final points = [for (final v in vertices) _project(v).toOffset(size)];
     final path = Path()..moveTo(points.first.dx, points.first.dy);

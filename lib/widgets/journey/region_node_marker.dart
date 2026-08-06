@@ -64,7 +64,10 @@ class RegionNodeMarker extends StatelessWidget {
     final comingSoon = state == RegionVisualState.comingSoon;
     final upcoming = state == RegionVisualState.upcoming || comingSoon;
     final ringColor = upcoming ? theme.colorScheme.outlineVariant : region.accent;
-    const double diameter = 88;
+    // Etappe 22 follow-up: shrunk from 88/128 - the markers read as too
+    // large relative to the map card, and the extra size didn't help
+    // legibility since the pennant label is the actual name carrier.
+    const double diameter = 64;
 
     final shortLabel = _shortRegionLabel(title);
 
@@ -75,7 +78,7 @@ class RegionNodeMarker extends StatelessWidget {
         onTap: onTap,
         behavior: HitTestBehavior.opaque,
         child: SizedBox(
-          width: 128,
+          width: 96,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -104,11 +107,11 @@ class RegionNodeMarker extends StatelessWidget {
                       child: Container(
                         width: diameter,
                         height: diameter,
-                        padding: const EdgeInsets.all(4),
+                        padding: const EdgeInsets.all(3),
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: theme.colorScheme.surface,
-                          border: Border.all(color: ringColor, width: 4),
+                          border: Border.all(color: ringColor, width: 3),
                         ),
                         child: ClipOval(
                           child: CustomPaint(painter: _RegionIconPainter(region: region), size: Size.infinite),
@@ -116,20 +119,20 @@ class RegionNodeMarker extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      top: -8,
-                      left: -8,
+                      top: -6,
+                      left: -6,
                       child: _NumberFlag(number: stationNumber, color: upcoming ? theme.colorScheme.outline : region.accent),
                     ),
                     if (state == RegionVisualState.completed)
                       Positioned(
-                        bottom: -4,
-                        right: -4,
+                        bottom: -3,
+                        right: -3,
                         child: _Badge(icon: Icons.check, color: successColor),
                       ),
                     if (upcoming)
                       Positioned(
-                        bottom: -4,
-                        right: -4,
+                        bottom: -3,
+                        right: -3,
                         child: _Badge(icon: comingSoon ? Icons.hourglass_empty : Icons.lock, color: theme.colorScheme.outline),
                       ),
                   ],
@@ -188,18 +191,18 @@ class _NumberFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 26,
-      height: 26,
+      width: 20,
+      height: 20,
       alignment: Alignment.center,
       decoration: BoxDecoration(
         color: color,
         shape: BoxShape.circle,
-        border: Border.all(color: Colors.white, width: 2),
+        border: Border.all(color: Colors.white, width: 1.5),
         boxShadow: const [BoxShadow(color: Color(0x40000000), blurRadius: 3, offset: Offset(0, 1))],
       ),
       child: Text(
         '$number',
-        style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
+        style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 10),
       ),
     );
   }
@@ -213,11 +216,11 @@ class _Badge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 24,
-      height: 24,
+      width: 18,
+      height: 18,
       alignment: Alignment.center,
-      decoration: BoxDecoration(color: color, shape: BoxShape.circle, border: Border.all(color: Colors.white, width: 2)),
-      child: Icon(icon, size: 14, color: Colors.white),
+      decoration: BoxDecoration(color: color, shape: BoxShape.circle, border: Border.all(color: Colors.white, width: 1.5)),
+      child: Icon(icon, size: 11, color: Colors.white),
     );
   }
 }
