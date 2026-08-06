@@ -19,15 +19,39 @@ class WorldMapPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final area = Rect.fromLTWH(0, 0, size.width, size.height);
-    // A plain "outside the country" backdrop first, then the terrain fill
-    // clipped to the outline, so the "land" itself ends up shaped like
-    // Ethiopia instead of a separate watermark competing with it.
-    canvas.drawRect(area, Paint()..color = const Color(0xFFF3EFDD));
+    // A neutral "rest of the world" backdrop first (Etappe 22 Nachtrag 2:
+    // previously this was the exact same cream the terrain gradient faded
+    // into further down, so the coastline all but disappeared in the lower
+    // half of the map - now it's a cool, clearly different neutral from
+    // every neighbouring shade below).
+    canvas.drawRect(area, Paint()..color = const Color(0xFFE9E7DE));
+
+    // Stylized neighbouring countries (Etappe 22 Nachtrag 2): drawn before
+    // Ethiopia's own terrain so the outline reads as "a country bordered by
+    // other countries" instead of floating alone on an empty backdrop -
+    // without this context there was nothing for the eye to recognize the
+    // shape *against*. Each is a muted sandy/arid tone, deliberately never
+    // green, so Ethiopia's highland fill still stands out as the country in
+    // focus.
+    for (final land in EthiopiaMap.neighborLands) {
+      final path = EthiopiaMap.neighborPath(land, size);
+      canvas.drawPath(path, Paint()..color = land.color);
+      canvas.drawPath(
+        path,
+        Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = 1.2
+          ..color = const Color(0x22000000),
+      );
+    }
 
     final outline = EthiopiaMap.outline(size);
     canvas.save();
     canvas.clipPath(outline);
-    Sketch.sky(canvas, area, const Color(0xFFCDEBD4), const Color(0xFFF3EFDD));
+    // Light highland green fading to a deeper olive - both clearly greener
+    // than any neighbour tone above, so the coastline stays visible however
+    // tall or short the map card ends up.
+    Sketch.sky(canvas, area, const Color(0xFFDCF0D0), const Color(0xFFA9CE8E));
     canvas.restore();
 
     // Everything functional (glow, decoration, road) is drawn AFTER
@@ -53,14 +77,15 @@ class WorldMapPainter extends CustomPainter {
       Sketch.road(canvas, road);
     }
 
-    // A quiet outline stroke around the country shape for definition, and
-    // clouds drifting over the top edge.
+    // A clear outline stroke around the country shape for definition (a bit
+    // bolder than the neighbours' own borders above, so Ethiopia still
+    // visually leads), and clouds drifting over the top edge.
     canvas.drawPath(
       outline,
       Paint()
         ..style = PaintingStyle.stroke
-        ..strokeWidth = 2
-        ..color = const Color(0x33000000),
+        ..strokeWidth = 2.5
+        ..color = const Color(0x59000000),
     );
 
     final rng = Sketch.seededRandom(7);

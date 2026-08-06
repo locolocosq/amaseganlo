@@ -22,6 +22,21 @@ class GeoPoint {
   const GeoPoint(this.lon, this.lat);
 }
 
+/// A stylized neighbouring-country landmass drawn behind Ethiopia's own
+/// silhouette (Etappe 22 Nachtrag 2), so the outline reads as "a country
+/// bordered by other countries" instead of floating alone on an empty
+/// backdrop - without this context there was nothing for the eye to
+/// recognize Ethiopia's shape *against*. Every shape is drawn generously
+/// oversized on the side facing away from Ethiopia; the edge facing
+/// Ethiopia deliberately overlaps *underneath* Ethiopia's own opaque
+/// terrain fill (drawn on top, see [WorldMapPainter]), so small imprecision
+/// there never shows as a gap.
+class NeighborLand {
+  final Color color;
+  final List<GeoPoint> vertices;
+  const NeighborLand(this.color, this.vertices);
+}
+
 /// Converts the approximate [GeoPoint]s below into fractional map
 /// coordinates, and draws the matching stylized Ethiopia outline - both
 /// calibrated against the same fixed lon/lat box, so a place's marker
@@ -73,20 +88,78 @@ class EthiopiaMap {
   /// Vertices are approximate (lon, lat) pairs projected through the same
   /// [_project] used for markers, then smoothed the same way
   /// [RegionMapLayout.smoothPathThrough] smooths station paths.
-  static Path outline(Size size) {
-    const vertices = [
-      GeoPoint(35.0, 15.3), // N, near the Sudan/Eritrea corner
-      GeoPoint(39.0, 15.0), // N, near Eritrea
-      GeoPoint(41.5, 13.5), // NE, Afar wedge starting to narrow
-      GeoPoint(44.0, 11.8), // E, narrowing further toward Djibouti/Somaliland
-      GeoPoint(49.5, 8.0), // far E point (Somali region, easternmost bulge)
-      GeoPoint(46.5, 5.0), // SE, bulge curving back south
-      GeoPoint(42.0, 3.0), // S, near Somalia/Kenya
-      GeoPoint(35.5, 2.8), // S, near Kenya (flatter southern edge)
-      GeoPoint(32.0, 4.5), // SW corner, near South Sudan
-      GeoPoint(32.0, 11.5), // W, Sudan border (long, roughly straight edge)
-      GeoPoint(35.0, 15.3), // back to start
-    ];
+  static const List<GeoPoint> _outlineVertices = [
+    GeoPoint(35.0, 15.3), // N, near the Sudan/Eritrea corner
+    GeoPoint(39.0, 15.0), // N, near Eritrea
+    GeoPoint(41.5, 13.5), // NE, Afar wedge starting to narrow
+    GeoPoint(44.0, 11.8), // E, narrowing further toward Djibouti/Somaliland
+    GeoPoint(49.5, 8.0), // far E point (Somali region, easternmost bulge)
+    GeoPoint(46.5, 5.0), // SE, bulge curving back south
+    GeoPoint(42.0, 3.0), // S, near Somalia/Kenya
+    GeoPoint(35.5, 2.8), // S, near Kenya (flatter southern edge)
+    GeoPoint(32.0, 4.5), // SW corner, near South Sudan
+    GeoPoint(32.0, 11.5), // W, Sudan border (long, roughly straight edge)
+    GeoPoint(35.0, 15.3), // back to start
+  ];
+
+  /// Rough, deliberately oversized neighbouring-territory shapes (Etappe 22
+  /// Nachtrag 2) - see [NeighborLand]. Each traces loosely along the
+  /// matching stretch of [_outlineVertices] on the inward-facing edge (so
+  /// Ethiopia's own opaque fill, drawn on top, covers the seam) and then
+  /// sweeps well past the projection box on every other edge, so it always
+  /// reaches the canvas border regardless of aspect ratio.
+  static const List<NeighborLand> neighborLands = [
+    // Eritrea, north.
+    NeighborLand(Color(0xFFE3D3B0), [
+      GeoPoint(33.0, 20.0),
+      GeoPoint(45.0, 20.0),
+      GeoPoint(45.0, 13.5),
+      GeoPoint(41.5, 13.3),
+      GeoPoint(39.0, 15.0),
+      GeoPoint(35.0, 15.3),
+      GeoPoint(33.0, 14.5),
+      GeoPoint(33.0, 20.0),
+    ]),
+    // Sudan and South Sudan, west (kept as one shape - the distinction
+    // doesn't matter at this zoom level).
+    NeighborLand(Color(0xFFDCC9A0), [
+      GeoPoint(28.0, 18.0),
+      GeoPoint(34.0, 18.0),
+      GeoPoint(34.0, 15.0),
+      GeoPoint(32.5, 11.0),
+      GeoPoint(33.0, 7.0),
+      GeoPoint(34.5, 4.0),
+      GeoPoint(32.0, 2.0),
+      GeoPoint(28.0, 2.0),
+      GeoPoint(28.0, 18.0),
+    ]),
+    // Kenya, south.
+    NeighborLand(Color(0xFFD9CE9E), [
+      GeoPoint(32.0, 5.0),
+      GeoPoint(44.0, 5.0),
+      GeoPoint(45.0, 2.0),
+      GeoPoint(43.0, -2.0),
+      GeoPoint(32.0, -2.0),
+      GeoPoint(32.0, 5.0),
+    ]),
+    // Djibouti and Somalia, east/south-east - wraps around Ethiopia's
+    // eastern bulge.
+    NeighborLand(Color(0xFFE6D8B8), [
+      GeoPoint(40.5, 14.5),
+      GeoPoint(44.0, 17.0),
+      GeoPoint(51.0, 17.0),
+      GeoPoint(51.0, -2.0),
+      GeoPoint(41.0, -2.0),
+      GeoPoint(39.0, 3.0),
+      GeoPoint(43.0, 7.0),
+      GeoPoint(46.5, 5.5),
+      GeoPoint(49.5, 8.5),
+      GeoPoint(43.5, 12.5),
+      GeoPoint(40.5, 14.5),
+    ]),
+  ];
+
+  static Path _smoothClosedShape(List<GeoPoint> vertices, Size size) {
     final points = [for (final v in vertices) _project(v).toOffset(size)];
     final path = Path()..moveTo(points.first.dx, points.first.dy);
     for (var i = 0; i < points.length - 1; i++) {
@@ -98,6 +171,10 @@ class EthiopiaMap {
     path.close();
     return path;
   }
+
+  static Path outline(Size size) => _smoothClosedShape(_outlineVertices, size);
+
+  static Path neighborPath(NeighborLand land, Size size) => _smoothClosedShape(land.vertices, size);
 }
 
 /// Layout for the Ebene-1 world map: where each region's node sits, and the
