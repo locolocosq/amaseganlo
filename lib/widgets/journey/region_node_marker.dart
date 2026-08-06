@@ -6,6 +6,22 @@ import 'painter_helpers.dart';
 
 enum RegionVisualState { completed, current, upcoming }
 
+/// Strips the curriculum's full section title (e.g. "Station 1: Addis
+/// Abeba — die Hauptstadt-Ankunft") down to just the city/region name for
+/// the compact pennant label under the map node - the number is already
+/// its own badge on the node, and the "— ..." tagline never fully fit in
+/// two lines anyway (Etappe 20: "es wird nicht alles angezeigt"). Falls
+/// back to the untouched string if the expected "N: Name — Tagline"
+/// pattern isn't found, so unexpected content never disappears silently.
+String _shortRegionLabel(String fullTitle) {
+  var s = fullTitle;
+  final colonIndex = s.indexOf(': ');
+  if (colonIndex != -1) s = s.substring(colonIndex + 2);
+  final dashIndex = s.indexOf(' — ');
+  if (dashIndex != -1) s = s.substring(0, dashIndex);
+  return s;
+}
+
 /// One tappable region "medallion" on the Ebene-1 world map: a round,
 /// hand-drawn mini landmark icon on a wooden signpost platform, a title
 /// pennant below it, and a small badge showing where the learner stands
@@ -39,6 +55,8 @@ class RegionNodeMarker extends StatelessWidget {
     final upcoming = state == RegionVisualState.upcoming;
     final ringColor = upcoming ? theme.colorScheme.outlineVariant : region.accent;
     const double diameter = 88;
+
+    final shortLabel = _shortRegionLabel(title);
 
     return Semantics(
       button: true,
@@ -115,7 +133,7 @@ class RegionNodeMarker extends StatelessWidget {
                   boxShadow: const [BoxShadow(color: Color(0x33000000), blurRadius: 4, offset: Offset(0, 2))],
                 ),
                 child: Text(
-                  title,
+                  shortLabel,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.center,

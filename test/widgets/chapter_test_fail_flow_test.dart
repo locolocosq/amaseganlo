@@ -20,9 +20,9 @@ void main() {
       );
 
       // The world map only shows regions - zoom into Addis Abeba (by its
-      // exact section title, to avoid any ambiguity about node ordering
-      // on the map) to reach its stations.
-      await tester.tap(find.text('Station 1: Addis Abeba — die Hauptstadt-Ankunft'));
+      // short map-node label, unambiguous since it's the only "Addis
+      // Abeba" node) to reach its stations.
+      await tester.tap(find.text('Addis Abeba'));
       await tester.pumpAndSettle();
 
       await tester.tap(find.text('Erste Begegnung'));

@@ -13,7 +13,7 @@ void main() {
       initialPrefs: {'amaseganlo.settings': jsonEncode(const AppSettings(localeCode: 'de').toJson())},
     );
 
-    await tester.tap(find.text('Station 1: Addis Abeba — die Hauptstadt-Ankunft'));
+    await tester.tap(find.text('Addis Abeba'));
     await tester.pumpAndSettle();
 
     // "Ich und du" is the second unit - locked until the first is done, and

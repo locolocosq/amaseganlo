@@ -13,11 +13,12 @@ void main() {
       initialPrefs: {'amaseganlo.settings': jsonEncode(const AppSettings(localeCode: 'de').toJson())},
     );
 
-    await tester.tap(find.text('Station 1: Addis Abeba — die Hauptstadt-Ankunft'));
+    await tester.tap(find.text('Addis Abeba'));
     await tester.pumpAndSettle();
 
-    // Landed on the region detail screen: its AppBar shows the section
-    // title, and its own back button is present.
+    // Landed on the region detail screen: its AppBar shows the full section
+    // title (unlike the map node's short "Addis Abeba" label), and its own
+    // back button is present.
     expect(find.text('Station 1: Addis Abeba — die Hauptstadt-Ankunft'), findsOneWidget);
     expect(find.text('Erste Begegnung'), findsOneWidget);
 
