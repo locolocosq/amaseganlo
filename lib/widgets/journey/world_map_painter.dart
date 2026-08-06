@@ -48,10 +48,26 @@ class WorldMapPainter extends CustomPainter {
     final outline = EthiopiaMap.outline(size);
     canvas.save();
     canvas.clipPath(outline);
-    // Light highland green fading to a deeper olive - both clearly greener
-    // than any neighbour tone above, so the coastline stays visible however
-    // tall or short the map card ends up.
-    Sketch.sky(canvas, area, const Color(0xFFDCF0D0), const Color(0xFFA9CE8E));
+    // Real Ethiopia is green highland in the centre/north-west (Addis,
+    // Lalibela, the highland coffee country) fading to arid brown toward
+    // the east/south-east (the Somali lowlands) - a reference relief map
+    // the user sent showed this clearly, and a flat top-to-bottom gradient
+    // (the previous approach) didn't capture it at all. The gradient's
+    // begin/end points are real geo positions, not screen corners, so the
+    // green/brown split lands in the right place regardless of the map
+    // card's aspect ratio.
+    final highlandFocus = EthiopiaMap.projectToOffset(const GeoPoint(37.0, 11.5), size);
+    final lowlandFocus = EthiopiaMap.projectToOffset(const GeoPoint(46.5, 6.5), size);
+    canvas.drawRect(
+      area,
+      Paint()
+        ..shader = LinearGradient(
+          begin: _toAlignment(highlandFocus, size),
+          end: _toAlignment(lowlandFocus, size),
+          colors: const [Color(0xFFBFDD97), Color(0xFFCBC17E), Color(0xFFC2895A)],
+          stops: const [0.0, 0.55, 1.0],
+        ).createShader(area),
+    );
     canvas.restore();
 
     // Everything functional (glow, decoration, road) is drawn AFTER
@@ -128,4 +144,12 @@ class WorldMapPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant WorldMapPainter oldDelegate) => false;
+}
+
+/// Converts an absolute canvas offset into the -1..1 [Alignment] a
+/// [Gradient] expects, so a [LinearGradient] can be anchored on real
+/// projected geo-points instead of only the four corners/edges Alignment's
+/// named constants cover.
+Alignment _toAlignment(Offset offset, Size size) {
+  return Alignment((offset.dx / size.width) * 2 - 1, (offset.dy / size.height) * 2 - 1);
 }
