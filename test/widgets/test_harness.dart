@@ -150,13 +150,14 @@ Future<void> pumpTestLesson(
   WidgetTester tester, {
   required String unitId,
   required String lessonId,
+  AudioService? audioService,
 }) async {
   SharedPreferences.setMockInitialValues({});
   final storage = StorageService();
   await storage.init();
 
-  final audioService = _fakeAudioService();
-  await audioService.init();
+  final resolvedAudioService = audioService ?? _fakeAudioService();
+  await resolvedAudioService.init();
 
   final contentProvider = ContentProvider();
   await contentProvider.load();
@@ -190,12 +191,12 @@ Future<void> pumpTestLesson(
         ChangeNotifierProvider(create: (_) => SettingsProvider(storage)),
         ChangeNotifierProvider.value(value: contentProvider),
         ChangeNotifierProvider.value(value: progressProvider),
-        Provider<AudioService>.value(value: audioService),
+        Provider<AudioService>.value(value: resolvedAudioService),
         ChangeNotifierProvider(
           create: (_) => LessonProvider(
             content: contentProvider.repository,
             progress: progressProvider,
-            audioService: audioService,
+            audioService: resolvedAudioService,
           ),
         ),
         ChangeNotifierProvider(

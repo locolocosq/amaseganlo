@@ -50,6 +50,9 @@ class _LessonScreenState extends State<LessonScreen> {
   bool _started = false;
   bool _finishing = false;
   final FocusNode _exerciseFocusNode = FocusNode();
+  // Tracks which intro card has already been auto-played, so re-rendering
+  // the same card (e.g. after an unrelated rebuild) doesn't replay it.
+  String? _autoPlayedIntroLexemeId;
 
   @override
   void didChangeDependencies() {
@@ -206,6 +209,20 @@ class _LessonScreenState extends State<LessonScreen> {
     final settings = context.read<SettingsProvider>().settings;
     final lessonProvider = context.read<LessonProvider>();
     final audioAvailable = context.read<AudioService>().isAmharicAvailable;
+
+    // "Neue Wörter automatisch abspielen" (Einstellungen) - without this,
+    // hearing a word required noticing and tapping the small speaker icon,
+    // which some learners never realized was there at all.
+    if (settings.autoPlayNewWords &&
+        settings.soundEnabled &&
+        audioAvailable &&
+        _autoPlayedIntroLexemeId != lexeme.id) {
+      _autoPlayedIntroLexemeId = lexeme.id;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) lessonProvider.playIntroAudio();
+      });
+    }
+
     return IntroCard(
       key: ValueKey('intro-${lexeme.id}'),
       lexeme: lexeme,
