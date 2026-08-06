@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:amaseganlo/core/storage_service.dart';
-import 'package:amaseganlo/state/progress_provider.dart';
+import 'package:habesha_speak/core/storage_service.dart';
+import 'package:habesha_speak/state/progress_provider.dart';
 
 Future<ProgressProvider> _freshProvider() async {
   SharedPreferences.setMockInitialValues({});
@@ -54,6 +54,28 @@ void main() {
       expect(provider.progress.lexemeCards['lex_selam']?.box, 2);
       expect(provider.progress.lexemeCards['lex_awo']?.box, 2);
       expect(provider.progress.unitCrowns['unit_erste_begegnung'], 5);
+    });
+
+    test('completeLesson fills crowns proportionally as a unit\'s lessons are done, without needing the chapter test', () async {
+      final provider = await _freshProvider();
+      final lessonIds = ['lesson_a', 'lesson_b', 'lesson_c', 'lesson_d', 'lesson_e'];
+
+      await provider.completeLesson('lesson_a', score: 1, perfect: true, dailyGoalXp: 50, unitId: 'unit_x', unitLessonIds: lessonIds);
+      expect(provider.progress.unitCrowns['unit_x'], 1);
+
+      await provider.completeLesson('lesson_b', score: 1, perfect: true, dailyGoalXp: 50, unitId: 'unit_x', unitLessonIds: lessonIds);
+      expect(provider.progress.unitCrowns['unit_x'], 2);
+
+      for (final id in ['lesson_c', 'lesson_d', 'lesson_e']) {
+        await provider.completeLesson(id, score: 1, perfect: true, dailyGoalXp: 50, unitId: 'unit_x', unitLessonIds: lessonIds);
+      }
+      expect(provider.progress.unitCrowns['unit_x'], 5);
+    });
+
+    test('completeLesson without a unitId (e.g. Fidel lessons) leaves crowns untouched', () async {
+      final provider = await _freshProvider();
+      await provider.completeLesson('fidel_stage_1', score: 1, perfect: true, dailyGoalXp: 50);
+      expect(provider.progress.unitCrowns, isEmpty);
     });
 
     test('failUnitTest sends the missed words back to Fach 1 and unlocks nothing', () async {

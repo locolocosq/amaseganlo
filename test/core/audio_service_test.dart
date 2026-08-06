@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/audio_service.dart';
+import 'package:habesha_speak/core/audio_service.dart';
 
 /// These tests are only about TTS voice detection, not the bundled-audio
 /// manifest - using the real `rootBundle` would pull in the app's actual
@@ -37,6 +37,8 @@ class _ScriptedTtsClient implements TtsClient {
   @override
   Future<void> setVolume(double volume) async {}
   @override
+  Future<void> setSpeechRate(double rate) async {}
+  @override
   Future<void> speak(String text) async {}
   @override
   Future<void> stop() async {}
@@ -44,7 +46,7 @@ class _ScriptedTtsClient implements TtsClient {
 
 class _FakeAudioPlayerClient implements AudioPlayerClient {
   @override
-  Future<void> play(String assetPath, {required double volume}) async {}
+  Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {}
   @override
   Future<void> stop() async {}
 }

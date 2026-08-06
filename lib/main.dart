@@ -10,6 +10,7 @@ import 'core/audio_service.dart';
 import 'core/purchase_service.dart';
 import 'core/router.dart';
 import 'core/storage_service.dart';
+import 'models/settings.dart';
 import 'state/content_provider.dart';
 import 'state/fidel_lesson_provider.dart';
 import 'state/lesson_provider.dart';
@@ -80,6 +81,7 @@ Future<void> _runApp() async {
   void syncAudioSettings() {
     audioService.soundEnabled = settingsProvider.settings.soundEnabled;
     audioService.volume = settingsProvider.settings.volume;
+    audioService.speechRate = settingsProvider.settings.speechRate.multiplier;
   }
 
   syncAudioSettings();
@@ -112,7 +114,7 @@ Future<void> _runApp() async {
           ),
         ),
       ],
-      child: AmaseganloApp(router: router),
+      child: HabeshaSpeakApp(router: router),
     ),
   );
 }

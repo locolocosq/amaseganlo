@@ -107,7 +107,20 @@ class ProgressProvider extends ChangeNotifier {
     });
   }
 
-  Future<void> completeLesson(String lessonId, {required double score, required bool perfect, required int dailyGoalXp}) async {
+  /// [unitId]/[unitLessonIds] (all of a curriculum unit's lesson ids, in
+  /// any order) are optional - Fidel lessons have no crowns and pass
+  /// neither. When given, crowns fill up proportionally to how many of
+  /// that unit's lessons are done (Abschnitt Design: crowns should reward
+  /// the normal "play every lesson" path, not only [passUnitTest]'s
+  /// chapter-test shortcut - see ENTSCHEIDUNGEN.md).
+  Future<void> completeLesson(
+    String lessonId, {
+    required double score,
+    required bool perfect,
+    required int dailyGoalXp,
+    String? unitId,
+    List<String>? unitLessonIds,
+  }) async {
     await _mutate((p) {
       final existing = p.lessonProgress[lessonId] ?? const LessonProgress();
       final updated = existing.copyWith(
@@ -116,7 +129,18 @@ class ProgressProvider extends ChangeNotifier {
         bestScore: score > existing.bestScore ? score : existing.bestScore,
         lastPlayed: DateTime.now(),
       );
-      return p.copyWith(lessonProgress: {...p.lessonProgress, lessonId: updated});
+      final updatedLessonProgress = {...p.lessonProgress, lessonId: updated};
+
+      var crowns = p.unitCrowns;
+      if (unitId != null && unitLessonIds != null && unitLessonIds.isNotEmpty) {
+        final doneCount = unitLessonIds.where((id) => updatedLessonProgress[id]?.completed == true).length;
+        final earned = (5 * doneCount / unitLessonIds.length).floor().clamp(0, 5);
+        if (earned > (p.unitCrowns[unitId] ?? 0)) {
+          crowns = {...p.unitCrowns, unitId: earned};
+        }
+      }
+
+      return p.copyWith(lessonProgress: updatedLessonProgress, unitCrowns: crowns);
     });
     await addXp(XpRules.forLesson(perfect: perfect), dailyGoalXp: dailyGoalXp);
   }

@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/content/content_repository.dart';
-import 'package:amaseganlo/content/exercise_generator.dart';
+import 'package:habesha_speak/content/content_repository.dart';
+import 'package:habesha_speak/content/exercise_generator.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

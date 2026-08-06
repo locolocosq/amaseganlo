@@ -69,7 +69,7 @@ class _DriverFacePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final w = size.width, h = size.height;
-    canvas.drawCircle(Offset(w / 2, h / 2), w / 2, Paint()..color = const Color(0xFFEFC9A0));
+    canvas.drawCircle(Offset(w / 2, h / 2), w / 2, Paint()..color = const Color(0xFF8D5A3B));
 
     // Cap: a rounded dome plus a dark brim line and a small peak.
     final domeRect = Rect.fromLTWH(-w * 0.02, -h * 0.08, w * 1.04, h * 0.52);
@@ -90,7 +90,7 @@ class _DriverFacePainter extends CustomPainter {
         ..style = PaintingStyle.stroke
         ..strokeWidth = w * 0.045
         ..strokeCap = StrokeCap.round
-        ..color = const Color(0xFF8A5A3A),
+        ..color = const Color(0xFF4A2E1C),
     );
 
     // Rosy cheeks.

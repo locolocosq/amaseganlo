@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/l10n/app_localizations.dart';
-import 'package:amaseganlo/models/fidel_char.dart';
-import 'package:amaseganlo/widgets/exercises/hahu_drill.dart';
+import 'package:habesha_speak/l10n/app_localizations.dart';
+import 'package:habesha_speak/models/fidel_char.dart';
+import 'package:habesha_speak/widgets/exercises/hahu_drill.dart';
 
 void main() {
   testWidgets('tapping the beat button gives visual feedback without affecting correctness', (tester) async {

@@ -30,6 +30,7 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setFidelDisplayMode(FidelDisplayMode mode) => _update((s) => s.copyWith(fidelDisplayMode: mode));
   Future<void> setSoundEnabled(bool enabled) => _update((s) => s.copyWith(soundEnabled: enabled));
   Future<void> setVolume(double volume) => _update((s) => s.copyWith(volume: volume));
+  Future<void> setSpeechRate(SpeechRate rate) => _update((s) => s.copyWith(speechRate: rate));
   Future<void> setAutoPlayNewWords(bool enabled) => _update((s) => s.copyWith(autoPlayNewWords: enabled));
   Future<void> setDailyGoal(DailyGoal goal) => _update((s) => s.copyWith(dailyGoal: goal));
   Future<void> setUseHearts(bool enabled) => _update((s) => s.copyWith(useHearts: enabled));

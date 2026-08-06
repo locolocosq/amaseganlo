@@ -8,19 +8,19 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:amaseganlo/app.dart';
-import 'package:amaseganlo/core/audio_service.dart';
-import 'package:amaseganlo/core/purchase_service.dart';
-import 'package:amaseganlo/core/router.dart';
-import 'package:amaseganlo/core/storage_service.dart';
-import 'package:amaseganlo/l10n/app_localizations.dart';
-import 'package:amaseganlo/models/settings.dart';
-import 'package:amaseganlo/screens/lesson/lesson_screen.dart';
-import 'package:amaseganlo/state/content_provider.dart';
-import 'package:amaseganlo/state/fidel_lesson_provider.dart';
-import 'package:amaseganlo/state/lesson_provider.dart';
-import 'package:amaseganlo/state/progress_provider.dart';
-import 'package:amaseganlo/state/settings_provider.dart';
+import 'package:habesha_speak/app.dart';
+import 'package:habesha_speak/core/audio_service.dart';
+import 'package:habesha_speak/core/purchase_service.dart';
+import 'package:habesha_speak/core/router.dart';
+import 'package:habesha_speak/core/storage_service.dart';
+import 'package:habesha_speak/l10n/app_localizations.dart';
+import 'package:habesha_speak/models/settings.dart';
+import 'package:habesha_speak/screens/lesson/lesson_screen.dart';
+import 'package:habesha_speak/state/content_provider.dart';
+import 'package:habesha_speak/state/fidel_lesson_provider.dart';
+import 'package:habesha_speak/state/lesson_provider.dart';
+import 'package:habesha_speak/state/progress_provider.dart';
+import 'package:habesha_speak/state/settings_provider.dart';
 
 /// A `TtsClient`/`AudioPlayerClient` that never touches a real platform
 /// channel - see the class doc on `AudioService` in `audio_service.dart`
@@ -33,6 +33,8 @@ class FakeTtsClient implements TtsClient {
   @override
   Future<void> setVolume(double volume) async {}
   @override
+  Future<void> setSpeechRate(double rate) async {}
+  @override
   Future<void> speak(String text) async {}
   @override
   Future<void> stop() async {}
@@ -40,7 +42,7 @@ class FakeTtsClient implements TtsClient {
 
 class FakeAudioPlayerClient implements AudioPlayerClient {
   @override
-  Future<void> play(String assetPath, {required double volume}) async {}
+  Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {}
   @override
   Future<void> stop() async {}
 }
@@ -138,7 +140,7 @@ Future<void> pumpTestApp(
           ),
         ),
       ],
-      child: AmaseganloApp(router: router),
+      child: HabeshaSpeakApp(router: router),
     ),
   );
   await tester.pumpAndSettle();

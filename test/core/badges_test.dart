@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/badges.dart';
-import 'package:amaseganlo/models/user_progress.dart';
+import 'package:habesha_speak/core/badges.dart';
+import 'package:habesha_speak/models/user_progress.dart';
 
 void main() {
   group('BadgeCatalog', () {

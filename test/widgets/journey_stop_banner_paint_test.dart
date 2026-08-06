@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/journey_regions.dart';
-import 'package:amaseganlo/widgets/common/journey_stop_banner.dart';
+import 'package:habesha_speak/core/journey_regions.dart';
+import 'package:habesha_speak/widgets/common/journey_stop_banner.dart';
 
 void main() {
   for (final region in JourneyRegion.values) {

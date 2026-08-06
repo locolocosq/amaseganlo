@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:amaseganlo/core/promo_codes.dart';
-import 'package:amaseganlo/core/purchase_service.dart';
-import 'package:amaseganlo/core/storage_service.dart';
+import 'package:habesha_speak/core/promo_codes.dart';
+import 'package:habesha_speak/core/purchase_service.dart';
+import 'package:habesha_speak/core/storage_service.dart';
 
 /// A `PurchaseClient` fully under the test's control - never touches a
 /// real store/platform channel, matching the `FakeTtsClient` pattern in
@@ -22,7 +22,7 @@ class _FakePurchaseClient implements PurchaseClient {
 
   @override
   Future<List<StoreProduct>> queryProducts(Set<String> ids) async => [
-        for (final id in ids) StoreProduct(id: id, title: 'Amaseganlo Premium', price: '4,99 €'),
+        for (final id in ids) StoreProduct(id: id, title: 'Habesha Speak Premium', price: '4,99 €'),
       ];
 
   @override

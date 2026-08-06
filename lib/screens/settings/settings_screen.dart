@@ -204,6 +204,23 @@ class SettingsScreen extends StatelessWidget {
               ],
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+            child: Text(l10n.settingsSpeechRate, style: Theme.of(context).textTheme.labelLarge),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: SegmentedButton<SpeechRate>(
+              segments: [
+                ButtonSegment(value: SpeechRate.slow, label: Text(l10n.speechRateSlow)),
+                ButtonSegment(value: SpeechRate.medium, label: Text(l10n.speechRateMedium)),
+                ButtonSegment(value: SpeechRate.normal, label: Text(l10n.speechRateNormal)),
+              ],
+              selected: {settings.speechRate},
+              onSelectionChanged: settings.soundEnabled ? (s) => settingsProvider.setSpeechRate(s.first) : null,
+            ),
+          ),
+          const SizedBox(height: 8),
           SwitchListTile(
             title: Text(l10n.settingsAutoPlayNewWords),
             value: settings.autoPlayNewWords,
@@ -338,12 +355,12 @@ class SettingsScreen extends StatelessWidget {
     final progress = context.read<ProgressProvider>();
     try {
       final location = await getSaveLocation(
-        suggestedName: 'amaseganlo_backup.json',
+        suggestedName: 'habesha_speak_backup.json',
         acceptedTypeGroups: const [_backupTypeGroup],
       );
       if (location == null) return;
       final bytes = Uint8List.fromList(utf8.encode(progress.exportJson()));
-      final file = XFile.fromData(bytes, name: 'amaseganlo_backup.json', mimeType: 'application/json');
+      final file = XFile.fromData(bytes, name: 'habesha_speak_backup.json', mimeType: 'application/json');
       await file.saveTo(location.path);
       if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.backupProgressDone)));

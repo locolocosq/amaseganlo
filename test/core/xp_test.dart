@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/srs/xp.dart';
+import 'package:habesha_speak/core/srs/xp.dart';
 
 void main() {
   group('XpRules', () {

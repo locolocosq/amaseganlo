@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/models/settings.dart';
+import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
 void main() {
@@ -21,7 +21,7 @@ void main() {
       );
 
       // Step 1: welcome.
-      expect(find.text('Selam! Willkommen bei Amaseganlo'), findsOneWidget);
+      expect(find.text('Selam! Willkommen bei Habesha Speak'), findsOneWidget);
       expect(find.byIcon(Icons.route_outlined), findsNothing);
 
       await tester.tap(find.text('Weiter'));
@@ -44,7 +44,7 @@ void main() {
 
       // Landed on the main app shell now.
       expect(find.byIcon(Icons.route), findsOneWidget);
-      expect(find.text('Selam! Willkommen bei Amaseganlo'), findsNothing);
+      expect(find.text('Selam! Willkommen bei Habesha Speak'), findsNothing);
     },
   );
 }

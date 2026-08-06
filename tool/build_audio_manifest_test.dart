@@ -13,7 +13,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/content/content_repository.dart';
+import 'package:habesha_speak/content/content_repository.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

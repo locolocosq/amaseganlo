@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:amaseganlo/core/storage_service.dart';
-import 'package:amaseganlo/models/settings.dart';
+import 'package:habesha_speak/core/storage_service.dart';
+import 'package:habesha_speak/models/settings.dart';
 
 void main() {
   group('StorageService', () {

@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "amaseganlo-web",
+      "name": "habesha-speak-web",
       "runtimeExecutable": "C:/src/flutter/bin/flutter.bat",
       "runtimeArgs": ["run", "-d", "web-server", "--web-port", "8765", "--web-hostname", "127.0.0.1"],
       "port": 8765

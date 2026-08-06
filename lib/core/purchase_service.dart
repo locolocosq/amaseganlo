@@ -12,7 +12,7 @@ import 'storage_service.dart';
 /// model, and the only one testable at all without a live store listing.
 /// Must exactly match whatever product id gets created in App Store
 /// Connect/Play Console before this can ever actually sell anything.
-const String premiumProductId = 'amaseganlo_premium';
+const String premiumProductId = 'habesha_speak_premium';
 
 /// A store product's display info, decoupled from `in_app_purchase`'s own
 /// types so the rest of the app (and tests) never need to import that

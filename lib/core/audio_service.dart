@@ -18,6 +18,7 @@ abstract class TtsClient {
   Future<bool> isLanguageAvailable(String language);
   Future<void> setLanguage(String language);
   Future<void> setVolume(double volume);
+  Future<void> setSpeechRate(double rate);
   Future<void> speak(String text);
   Future<void> stop();
 }
@@ -35,6 +36,9 @@ class RealTtsClient implements TtsClient {
   Future<void> setVolume(double volume) async => _tts.setVolume(volume);
 
   @override
+  Future<void> setSpeechRate(double rate) async => _tts.setSpeechRate(rate);
+
+  @override
   Future<void> speak(String text) async => _tts.speak(text);
 
   @override
@@ -42,7 +46,7 @@ class RealTtsClient implements TtsClient {
 }
 
 abstract class AudioPlayerClient {
-  Future<void> play(String assetPath, {required double volume});
+  Future<void> play(String assetPath, {required double volume, double rate = 1.0});
   Future<void> stop();
 }
 
@@ -60,7 +64,15 @@ class RealAudioPlayerClient implements AudioPlayerClient {
   final AudioPlayer _player = AudioPlayer()..audioCache = AudioCache(prefix: kIsWeb ? '' : 'assets/');
 
   @override
-  Future<void> play(String assetPath, {required double volume}) => _player.play(AssetSource(assetPath), volume: volume);
+  Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {
+    // Set before play() so the very first frame of the new source already
+    // uses it - not verified against a real device (no hardware in this
+    // dev environment), audioplayers' own docs just say Android needs
+    // API 23+ and iOS/macOS accept 0.5-2x, both satisfied by this app's
+    // 0.5-1.0 range.
+    await _player.setPlaybackRate(rate);
+    await _player.play(AssetSource(assetPath), volume: volume);
+  }
 
   @override
   Future<void> stop() => _player.stop();
@@ -107,6 +119,11 @@ class AudioService {
 
   bool soundEnabled = true;
   double volume = 1.0;
+
+  /// Applies to spoken Amharic only (bundled word audio and TTS) - never
+  /// to [playFeedback]'s short UI chimes, which would just sound broken
+  /// slowed down.
+  double speechRate = 1.0;
 
   Future<void> init() async {
     await Future.wait([_detectAmharicTts(), _loadManifest()]);
@@ -180,7 +197,7 @@ class AudioService {
     if (!soundEnabled || !isAmharicAvailable || amharicText.isEmpty) return;
 
     final assetPath = _wordAudio[id];
-    if (assetPath != null && await _playAsset(assetPath)) {
+    if (assetPath != null && await _playAsset(assetPath, rate: speechRate)) {
       return;
     }
 
@@ -189,6 +206,7 @@ class AudioService {
       try {
         await _tts.setLanguage(language).timeout(_playTimeout);
         await _tts.setVolume(volume).timeout(_playTimeout);
+        await _tts.setSpeechRate(speechRate).timeout(_playTimeout);
         await _tts.speak(amharicText).timeout(_playTimeout);
       } catch (_) {
         // Silent skip - see class doc.
@@ -207,9 +225,9 @@ class AudioService {
 
   /// Returns whether playback actually succeeded, so [speakText] can fall
   /// back to TTS on failure instead of staying silent.
-  Future<bool> _playAsset(String assetPath) async {
+  Future<bool> _playAsset(String assetPath, {double rate = 1.0}) async {
     try {
-      await _player.play(assetPath, volume: volume).timeout(_playTimeout);
+      await _player.play(assetPath, volume: volume, rate: rate).timeout(_playTimeout);
       return true;
     } catch (_) {
       // Declared in the manifest but missing/unplayable.

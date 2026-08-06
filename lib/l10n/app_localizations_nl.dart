@@ -9,7 +9,7 @@ class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
 
   @override
-  String get appTitle => 'Amaseganlo';
+  String get appTitle => 'Habesha Speak';
 
   @override
   String get navLearn => 'Leren';
@@ -124,6 +124,18 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsAutoPlayNewWords => 'Nieuwe woorden automatisch afspelen';
 
   @override
+  String get settingsSpeechRate => 'Spreeksnelheid';
+
+  @override
+  String get speechRateSlow => 'Langzaam (0,5×)';
+
+  @override
+  String get speechRateMedium => 'Gemiddeld (0,75×)';
+
+  @override
+  String get speechRateNormal => 'Normaal (1×)';
+
+  @override
   String get settingsDailyGoal => 'Dagelijks doel';
 
   @override
@@ -148,7 +160,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsReduceMotion => 'Beweging verminderen';
 
   @override
-  String get settingsPremium => 'Amaseganlo Premium';
+  String get settingsPremium => 'Habesha Speak Premium';
 
   @override
   String get settingsPremiumHint => 'Steun de app & ontgrendel reiskleuren';
@@ -157,14 +169,14 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsPremiumActive => 'Actief - bedankt voor je steun!';
 
   @override
-  String get premiumTitle => 'Amaseganlo Premium';
+  String get premiumTitle => 'Habesha Speak Premium';
 
   @override
   String get premiumHeadline => 'Steun de Ethiopië-reis';
 
   @override
   String get premiumDescription =>
-      'Met Amaseganlo Premium steun je de verdere ontwikkeling van de app en ontgrendel je exclusieve reiskleuren plus een speciale paspoorthoes.';
+      'Met Habesha Speak Premium steun je de verdere ontwikkeling van de app en ontgrendel je exclusieve reiskleuren plus een speciale paspoorthoes.';
 
   @override
   String get premiumFeatureColors =>
@@ -275,7 +287,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get restoreProgressInvalidFile =>
-      'Dit bestand is geen geldige Amaseganlo-backup.';
+      'Dit bestand is geen geldige Habesha Speak-backup.';
 
   @override
   String get aboutVersion => 'Versie';
@@ -306,11 +318,11 @@ class AppLocalizationsNl extends AppLocalizations {
   String get aboutShortcutsAudio => 'Spatie: geluid opnieuw afspelen';
 
   @override
-  String get onboardingWelcomeTitle => 'Selam! Welkom bij Amaseganlo';
+  String get onboardingWelcomeTitle => 'Selam! Welkom bij Habesha Speak';
 
   @override
   String get onboardingWelcomeBody =>
-      'Amaseganlo leert je Amhaars (አማርኛ), de officiële taal van Ethiopië.';
+      'Habesha Speak leert je Amhaars (አማርኛ), de officiële taal van Ethiopië.';
 
   @override
   String get onboardingChooseLanguage => 'Kies de taal van de app';

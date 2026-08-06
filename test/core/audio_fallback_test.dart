@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/audio_service.dart';
+import 'package:habesha_speak/core/audio_service.dart';
 
 /// A fake bundle that serves a fixed `manifest.json` declaring exactly one
 /// bundled word recording, so tests can exercise the "bundled asset exists
@@ -35,6 +35,8 @@ class _AlwaysAvailableTtsClient implements TtsClient {
   @override
   Future<void> setVolume(double volume) async {}
   @override
+  Future<void> setSpeechRate(double rate) async {}
+  @override
   Future<void> speak(String text) async {
     spoke = true;
     lastSpoken = text;
@@ -48,7 +50,7 @@ class _AlwaysAvailableTtsClient implements TtsClient {
 /// bug this test guards against: a bad audio file must not mean silence).
 class _ThrowingAudioPlayerClient implements AudioPlayerClient {
   @override
-  Future<void> play(String assetPath, {required double volume}) async {
+  Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {
     throw Exception('PlatformException(WebAudioError, Failed to set source)');
   }
 

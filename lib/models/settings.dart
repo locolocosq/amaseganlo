@@ -23,6 +23,24 @@ extension HahuTempoDuration on HahuTempo {
   }
 }
 
+/// How fast bundled word audio and text-to-speech play back - separate
+/// from [HahuTempo] (that's the Fidel tap-along drill's beat, not audio
+/// speed). Slower settings help while a word's pronunciation is still new.
+enum SpeechRate { slow, medium, normal }
+
+extension SpeechRateMultiplier on SpeechRate {
+  double get multiplier {
+    switch (this) {
+      case SpeechRate.slow:
+        return 0.5;
+      case SpeechRate.medium:
+        return 0.75;
+      case SpeechRate.normal:
+        return 1.0;
+    }
+  }
+}
+
 extension DailyGoalXp on DailyGoal {
   int get xp {
     switch (this) {
@@ -62,6 +80,7 @@ class AppSettings {
   final FidelDisplayMode fidelDisplayMode;
   final bool soundEnabled;
   final double volume;
+  final SpeechRate speechRate;
   final bool autoPlayNewWords;
   final DailyGoal dailyGoal;
   final bool useHearts;
@@ -81,6 +100,7 @@ class AppSettings {
     this.fidelDisplayMode = FidelDisplayMode.never,
     this.soundEnabled = true,
     this.volume = 1.0,
+    this.speechRate = SpeechRate.normal,
     this.autoPlayNewWords = true,
     this.dailyGoal = DailyGoal.normal,
     this.useHearts = false,
@@ -100,6 +120,7 @@ class AppSettings {
     FidelDisplayMode? fidelDisplayMode,
     bool? soundEnabled,
     double? volume,
+    SpeechRate? speechRate,
     bool? autoPlayNewWords,
     DailyGoal? dailyGoal,
     bool? useHearts,
@@ -119,6 +140,7 @@ class AppSettings {
       fidelDisplayMode: fidelDisplayMode ?? this.fidelDisplayMode,
       soundEnabled: soundEnabled ?? this.soundEnabled,
       volume: volume ?? this.volume,
+      speechRate: speechRate ?? this.speechRate,
       autoPlayNewWords: autoPlayNewWords ?? this.autoPlayNewWords,
       dailyGoal: dailyGoal ?? this.dailyGoal,
       useHearts: useHearts ?? this.useHearts,
@@ -141,6 +163,7 @@ class AppSettings {
       fidelDisplayMode: _enumFromName(FidelDisplayMode.values, json['fidelDisplayMode'], FidelDisplayMode.never),
       soundEnabled: json['soundEnabled'] as bool? ?? true,
       volume: (json['volume'] as num?)?.toDouble() ?? 1.0,
+      speechRate: _enumFromName(SpeechRate.values, json['speechRate'], SpeechRate.normal),
       autoPlayNewWords: json['autoPlayNewWords'] as bool? ?? true,
       dailyGoal: _enumFromName(DailyGoal.values, json['dailyGoal'], DailyGoal.normal),
       useHearts: json['useHearts'] as bool? ?? false,
@@ -162,6 +185,7 @@ class AppSettings {
         'fidelDisplayMode': fidelDisplayMode.name,
         'soundEnabled': soundEnabled,
         'volume': volume,
+        'speechRate': speechRate.name,
         'autoPlayNewWords': autoPlayNewWords,
         'dailyGoal': dailyGoal.name,
         'useHearts': useHearts,

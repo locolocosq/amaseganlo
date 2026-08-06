@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/srs/streak.dart';
+import 'package:habesha_speak/core/srs/streak.dart';
 
 void main() {
   group('StreakTracker.goalReachedOn', () {

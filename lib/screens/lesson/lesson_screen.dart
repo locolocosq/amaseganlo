@@ -8,6 +8,7 @@ import '../../l10n/app_localizations.dart';
 import '../../models/exercise.dart';
 import '../../models/lesson.dart';
 import '../../models/settings.dart';
+import '../../state/content_provider.dart';
 import '../../state/lesson_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
@@ -123,6 +124,12 @@ class _LessonScreenState extends State<LessonScreen> {
 
     if (session.isFinished && !_finishing) {
       _finishing = true;
+      final unitLessonIds = context
+          .read<ContentProvider>()
+          .repository
+          .lessonsForUnit(widget.unitId)
+          .map((l) => l.id)
+          .toList();
       WidgetsBinding.instance.addPostFrameCallback((_) async {
         if (!mounted) return;
         if (!session.isIntro) {
@@ -131,6 +138,8 @@ class _LessonScreenState extends State<LessonScreen> {
                 score: session.scoreRatio,
                 perfect: session.isPerfect,
                 dailyGoalXp: settings.dailyGoal.xp,
+                unitId: widget.unitId,
+                unitLessonIds: unitLessonIds,
               );
         } else {
           await context.read<ProgressProvider>().completeLesson(
@@ -138,6 +147,8 @@ class _LessonScreenState extends State<LessonScreen> {
                 score: 1,
                 perfect: true,
                 dailyGoalXp: settings.dailyGoal.xp,
+                unitId: widget.unitId,
+                unitLessonIds: unitLessonIds,
               );
         }
         if (!context.mounted) return;

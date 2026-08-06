@@ -14,7 +14,7 @@ import 'package:crypto/crypto.dart';
 /// system. Redeeming a valid code grants the exact same permanent
 /// "Premium" entitlement a real purchase would, rather than inventing a
 /// separate time-limited entitlement just for this.
-const String _promoSecret = 'Amaseganlo-Aethiopien-Reise-Geschenkcode-2026-Nicht-Teilen';
+const String _promoSecret = 'HabeshaSpeak-Aethiopien-Reise-Geschenkcode-2026-Nicht-Teilen';
 
 /// Base32-ish alphabet (exactly 32 characters, required for clean 5-bit
 /// encoding) that avoids characters easily confused with each other when

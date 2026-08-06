@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/models/settings.dart';
+import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
 void main() {
@@ -16,9 +16,9 @@ void main() {
     await tester.tap(find.byIcon(Icons.settings_outlined));
     await tester.pumpAndSettle();
 
-    await tester.scrollUntilVisible(find.text('Amaseganlo Premium'), 200, scrollable: find.byType(Scrollable).first);
+    await tester.scrollUntilVisible(find.text('Habesha Speak Premium'), 200, scrollable: find.byType(Scrollable).first);
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Amaseganlo Premium'));
+    await tester.tap(find.text('Habesha Speak Premium'));
     await tester.pumpAndSettle();
 
     // The test harness always uses UnavailablePurchaseClient (see

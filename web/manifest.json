@@ -1,11 +1,11 @@
 {
-    "name": "Amaseganlo",
-    "short_name": "Amaseganlo",
+    "name": "Habesha Speak",
+    "short_name": "Habesha Speak",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#0F7A3D",
-    "description": "Amaseganlo - Amharisch lernen, offline und kostenlos.",
+    "description": "Habesha Speak - Amharisch lernen, offline und kostenlos.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -105,7 +105,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'Amaseganlo'**
+  /// **'Habesha Speak'**
   String get appTitle;
 
   /// No description provided for @navLearn.
@@ -330,6 +330,30 @@ abstract class AppLocalizations {
   /// **'Play new words automatically'**
   String get settingsAutoPlayNewWords;
 
+  /// No description provided for @settingsSpeechRate.
+  ///
+  /// In en, this message translates to:
+  /// **'Speech playback speed'**
+  String get settingsSpeechRate;
+
+  /// No description provided for @speechRateSlow.
+  ///
+  /// In en, this message translates to:
+  /// **'Slow (0.5×)'**
+  String get speechRateSlow;
+
+  /// No description provided for @speechRateMedium.
+  ///
+  /// In en, this message translates to:
+  /// **'Medium (0.75×)'**
+  String get speechRateMedium;
+
+  /// No description provided for @speechRateNormal.
+  ///
+  /// In en, this message translates to:
+  /// **'Normal (1×)'**
+  String get speechRateNormal;
+
   /// No description provided for @settingsDailyGoal.
   ///
   /// In en, this message translates to:
@@ -381,7 +405,7 @@ abstract class AppLocalizations {
   /// No description provided for @settingsPremium.
   ///
   /// In en, this message translates to:
-  /// **'Amaseganlo Premium'**
+  /// **'Habesha Speak Premium'**
   String get settingsPremium;
 
   /// No description provided for @settingsPremiumHint.
@@ -399,7 +423,7 @@ abstract class AppLocalizations {
   /// No description provided for @premiumTitle.
   ///
   /// In en, this message translates to:
-  /// **'Amaseganlo Premium'**
+  /// **'Habesha Speak Premium'**
   String get premiumTitle;
 
   /// No description provided for @premiumHeadline.
@@ -411,7 +435,7 @@ abstract class AppLocalizations {
   /// No description provided for @premiumDescription.
   ///
   /// In en, this message translates to:
-  /// **'Amaseganlo Premium supports ongoing development of the app and unlocks exclusive journey colors plus a special passport cover.'**
+  /// **'Habesha Speak Premium supports ongoing development of the app and unlocks exclusive journey colors plus a special passport cover.'**
   String get premiumDescription;
 
   /// No description provided for @premiumFeatureColors.
@@ -621,7 +645,7 @@ abstract class AppLocalizations {
   /// No description provided for @restoreProgressInvalidFile.
   ///
   /// In en, this message translates to:
-  /// **'This file is not a valid Amaseganlo backup.'**
+  /// **'This file is not a valid Habesha Speak backup.'**
   String get restoreProgressInvalidFile;
 
   /// No description provided for @aboutVersion.
@@ -681,13 +705,13 @@ abstract class AppLocalizations {
   /// No description provided for @onboardingWelcomeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Selam! Welcome to Amaseganlo'**
+  /// **'Selam! Welcome to Habesha Speak'**
   String get onboardingWelcomeTitle;
 
   /// No description provided for @onboardingWelcomeBody.
   ///
   /// In en, this message translates to:
-  /// **'Amaseganlo teaches you Amharic (አማርኛ), the official language of Ethiopia.'**
+  /// **'Habesha Speak teaches you Amharic (አማርኛ), the official language of Ethiopia.'**
   String get onboardingWelcomeBody;
 
   /// No description provided for @onboardingChooseLanguage.

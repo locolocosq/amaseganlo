@@ -8,16 +8,16 @@ import 'l10n/app_localizations.dart';
 import 'models/settings.dart';
 import 'state/settings_provider.dart';
 
-class AmaseganloApp extends StatefulWidget {
+class HabeshaSpeakApp extends StatefulWidget {
   final GoRouter router;
 
-  const AmaseganloApp({super.key, required this.router});
+  const HabeshaSpeakApp({super.key, required this.router});
 
   @override
-  State<AmaseganloApp> createState() => _AmaseganloAppState();
+  State<HabeshaSpeakApp> createState() => _HabeshaSpeakAppState();
 }
 
-class _AmaseganloAppState extends State<AmaseganloApp> with WidgetsBindingObserver {
+class _HabeshaSpeakAppState extends State<HabeshaSpeakApp> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
@@ -55,7 +55,7 @@ class _AmaseganloAppState extends State<AmaseganloApp> with WidgetsBindingObserv
     );
 
     return MaterialApp.router(
-      title: 'Amaseganlo',
+      title: 'Habesha Speak',
       debugShowCheckedModeBanner: false,
       routerConfig: router,
       theme: AppTheme.build(

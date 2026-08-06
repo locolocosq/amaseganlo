@@ -4,11 +4,11 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:amaseganlo/core/storage_service.dart';
-import 'package:amaseganlo/l10n/app_localizations.dart';
-import 'package:amaseganlo/screens/fidel/fidel_table_screen.dart';
-import 'package:amaseganlo/state/content_provider.dart';
-import 'package:amaseganlo/state/progress_provider.dart';
+import 'package:habesha_speak/core/storage_service.dart';
+import 'package:habesha_speak/l10n/app_localizations.dart';
+import 'package:habesha_speak/screens/fidel/fidel_table_screen.dart';
+import 'package:habesha_speak/state/content_provider.dart';
+import 'package:habesha_speak/state/progress_provider.dart';
 
 void main() {
   testWidgets('the Fidel table renders a learned sign differently from an unlearned one', (tester) async {

@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/models/settings.dart';
-import 'package:amaseganlo/models/user_progress.dart';
+import 'package:habesha_speak/models/settings.dart';
+import 'package:habesha_speak/models/user_progress.dart';
 import 'test_harness.dart';
 
 void main() {

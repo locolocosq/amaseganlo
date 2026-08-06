@@ -9,7 +9,7 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get appTitle => 'Amaseganlo';
+  String get appTitle => 'Habesha Speak';
 
   @override
   String get navLearn => 'Lernen';
@@ -124,6 +124,18 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsAutoPlayNewWords => 'Neue Wörter automatisch abspielen';
 
   @override
+  String get settingsSpeechRate => 'Tempo der Sprachausgabe';
+
+  @override
+  String get speechRateSlow => 'Langsam (0,5×)';
+
+  @override
+  String get speechRateMedium => 'Mittel (0,75×)';
+
+  @override
+  String get speechRateNormal => 'Normal (1×)';
+
+  @override
   String get settingsDailyGoal => 'Tagesziel';
 
   @override
@@ -148,7 +160,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsReduceMotion => 'Bewegungen reduzieren';
 
   @override
-  String get settingsPremium => 'Amaseganlo Premium';
+  String get settingsPremium => 'Habesha Speak Premium';
 
   @override
   String get settingsPremiumHint =>
@@ -158,14 +170,14 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsPremiumActive => 'Aktiv - danke für deine Unterstützung!';
 
   @override
-  String get premiumTitle => 'Amaseganlo Premium';
+  String get premiumTitle => 'Habesha Speak Premium';
 
   @override
   String get premiumHeadline => 'Unterstütze die Äthiopien-Reise';
 
   @override
   String get premiumDescription =>
-      'Mit Amaseganlo Premium unterstützt du die Weiterentwicklung der App und schaltest exklusive Reise-Farben sowie ein besonderes Reisepass-Cover frei.';
+      'Mit Habesha Speak Premium unterstützt du die Weiterentwicklung der App und schaltest exklusive Reise-Farben sowie ein besonderes Reisepass-Cover frei.';
 
   @override
   String get premiumFeatureColors =>
@@ -279,7 +291,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get restoreProgressInvalidFile =>
-      'Diese Datei ist keine gültige Amaseganlo-Sicherung.';
+      'Diese Datei ist keine gültige Habesha-Speak-Sicherung.';
 
   @override
   String get aboutVersion => 'Version';
@@ -310,11 +322,11 @@ class AppLocalizationsDe extends AppLocalizations {
   String get aboutShortcutsAudio => 'Leertaste: Ton erneut abspielen';
 
   @override
-  String get onboardingWelcomeTitle => 'Selam! Willkommen bei Amaseganlo';
+  String get onboardingWelcomeTitle => 'Selam! Willkommen bei Habesha Speak';
 
   @override
   String get onboardingWelcomeBody =>
-      'Amaseganlo bringt dir Amharisch (አማርኛ) bei, die Amtssprache Äthiopiens.';
+      'Habesha Speak bringt dir Amharisch (አማርኛ) bei, die Amtssprache Äthiopiens.';
 
   @override
   String get onboardingChooseLanguage => 'Wähle die Sprache der App';

@@ -1,11 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/models/fidel_char.dart';
-import 'package:amaseganlo/models/lesson.dart';
-import 'package:amaseganlo/models/lexeme.dart';
-import 'package:amaseganlo/models/sentence.dart';
-import 'package:amaseganlo/models/settings.dart';
-import 'package:amaseganlo/models/user_progress.dart';
+import 'package:habesha_speak/models/fidel_char.dart';
+import 'package:habesha_speak/models/lesson.dart';
+import 'package:habesha_speak/models/lexeme.dart';
+import 'package:habesha_speak/models/sentence.dart';
+import 'package:habesha_speak/models/settings.dart';
+import 'package:habesha_speak/models/user_progress.dart';
 
 void main() {
   group('toJson/fromJson round trips', () {

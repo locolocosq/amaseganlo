@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/answer_checker.dart';
+import 'package:habesha_speak/core/answer_checker.dart';
 
 void main() {
   group('AnswerChecker.check - basic normalization', () {

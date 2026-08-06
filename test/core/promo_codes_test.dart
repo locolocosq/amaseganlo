@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/promo_codes.dart';
+import 'package:habesha_speak/core/promo_codes.dart';
 
 void main() {
   test('a freshly generated code validates successfully', () {

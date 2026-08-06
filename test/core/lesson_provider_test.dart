@@ -3,12 +3,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:amaseganlo/content/content_repository.dart';
-import 'package:amaseganlo/core/audio_service.dart';
-import 'package:amaseganlo/core/storage_service.dart';
-import 'package:amaseganlo/models/lesson.dart';
-import 'package:amaseganlo/state/lesson_provider.dart';
-import 'package:amaseganlo/state/progress_provider.dart';
+import 'package:habesha_speak/content/content_repository.dart';
+import 'package:habesha_speak/core/audio_service.dart';
+import 'package:habesha_speak/core/storage_service.dart';
+import 'package:habesha_speak/models/lesson.dart';
+import 'package:habesha_speak/state/lesson_provider.dart';
+import 'package:habesha_speak/state/progress_provider.dart';
 
 // Never touches a real platform channel - see the class doc on
 // AudioService in lib/core/audio_service.dart for why tests must not
@@ -21,6 +21,8 @@ class _FakeTtsClient implements TtsClient {
   @override
   Future<void> setVolume(double volume) async {}
   @override
+  Future<void> setSpeechRate(double rate) async {}
+  @override
   Future<void> speak(String text) async {}
   @override
   Future<void> stop() async {}
@@ -28,7 +30,7 @@ class _FakeTtsClient implements TtsClient {
 
 class _FakeAudioPlayerClient implements AudioPlayerClient {
   @override
-  Future<void> play(String assetPath, {required double volume}) async {}
+  Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {}
   @override
   Future<void> stop() async {}
 }

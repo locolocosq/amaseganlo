@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/journey_regions.dart';
-import 'package:amaseganlo/widgets/journey/region_node_marker.dart';
+import 'package:habesha_speak/core/journey_regions.dart';
+import 'package:habesha_speak/widgets/journey/region_node_marker.dart';
 import 'test_harness.dart';
 
 void main() {

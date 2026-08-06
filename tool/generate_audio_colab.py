@@ -1,5 +1,5 @@
 # ============================================================
-#  Amaseganlo - Amharisch-Audio mit Microsoft Edge-Neural-Stimmen erzeugen
+#  Habesha Speak - Amharisch-Audio mit Microsoft Edge-Neural-Stimmen erzeugen
 # ============================================================
 #  Warum dieser Ansatz statt Meta MMS (die vorherige Version dieses
 #  Skripts): MMS-TTS ist ein Forschungsmodell fuer >1100 Sprachen, laut

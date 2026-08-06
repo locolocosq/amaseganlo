@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:amaseganlo/core/srs/leitner.dart';
-import 'package:amaseganlo/models/user_progress.dart';
+import 'package:habesha_speak/core/srs/leitner.dart';
+import 'package:habesha_speak/models/user_progress.dart';
 
 void main() {
   group('Leitner', () {
