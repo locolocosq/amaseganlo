@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:audioplayers/audioplayers.dart' show AudioPlayer, AssetSource;
+import 'package:audioplayers/audioplayers.dart' show AudioCache, AudioPlayer, AssetSource;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/services.dart' show AssetBundle, rootBundle;
 import 'package:flutter_tts/flutter_tts.dart';
 
@@ -46,7 +47,17 @@ abstract class AudioPlayerClient {
 }
 
 class RealAudioPlayerClient implements AudioPlayerClient {
-  final AudioPlayer _player = AudioPlayer();
+  // `AudioCache._sanitizeURLForWeb` always prepends a hardcoded 'assets/'
+  // on top of `prefix` (so the browser fetches 'assets/<prefix><path>'),
+  // while the native (Android/iOS) branch uses exactly `<prefix><path>` as
+  // the rootBundle key - the two platforms are not symmetric. With the
+  // package's default prefix ('assets/') this makes every web asset
+  // request 404 at a doubled 'assets/assets/...' URL, which the <audio>
+  // element then reports as an unhelpful "Format error" (looks identical
+  // to a bad codec, but is really a missing file). An empty prefix on web
+  // corrects that back to the real single-'assets/' URL without touching
+  // native's already-correct behaviour.
+  final AudioPlayer _player = AudioPlayer()..audioCache = AudioCache(prefix: kIsWeb ? '' : 'assets/');
 
   @override
   Future<void> play(String assetPath, {required double volume}) => _player.play(AssetSource(assetPath), volume: volume);
