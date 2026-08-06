@@ -27,9 +27,8 @@
 #  6) Diese zip-Datei an Claude zurueckschicken - der Rest (Einbau in die
 #     App) passiert dann automatisch.
 #
-#  Stimme wechseln: VOICE unten auf "am-ET-MekdesNeural" (weiblich) statt
-#  "am-ET-AmehaNeural" (maennlich) setzen, wenn dir die andere besser
-#  gefaellt - am besten vorher mit ein paar Woertern beide ausprobieren.
+#  Stimme wechseln: Standard ist "am-ET-MekdesNeural" (weiblich). Fuer die
+#  maennliche Stimme VOICE unten auf "am-ET-AmehaNeural" setzen.
 #  SPEECH_RATE ("-10%") laesst die Stimme etwas langsamer sprechen als im
 #  normalen Gespraech - das verbessert erfahrungsgemaess die Verstaend-
 #  lichkeit fuer Sprachlerner. Auf 0% stellen fuer normales Sprechtempo.
@@ -46,7 +45,7 @@ import subprocess
 import edge_tts
 from google.colab import files
 
-VOICE = "am-ET-AmehaNeural"
+VOICE = "am-ET-MekdesNeural"
 SPEECH_RATE = "-10%"
 MAX_CONCURRENT_REQUESTS = 8
 MAX_RETRIES = 3
