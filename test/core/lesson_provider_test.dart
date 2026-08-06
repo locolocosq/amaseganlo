@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -31,6 +33,15 @@ class _FakeAudioPlayerClient implements AudioPlayerClient {
   Future<void> stop() async {}
 }
 
+// Keeps AudioService from touching the real (now ~1000-file)
+// assets/audio/ bundle - this file is about LessonProvider, not audio.
+class _EmptyAssetBundle extends CachingAssetBundle {
+  @override
+  Future<ByteData> load(String key) {
+    throw FlutterError('no assets in this fake bundle');
+  }
+}
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -50,6 +61,7 @@ void main() {
     final audio = AudioService(
       tts: _FakeTtsClient(),
       player: _FakeAudioPlayerClient(),
+      bundle: _EmptyAssetBundle(),
       voiceRetryDelay: Duration.zero,
     );
     await audio.init();

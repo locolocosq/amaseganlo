@@ -1,6 +1,8 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -42,9 +44,22 @@ class FakeAudioPlayerClient implements AudioPlayerClient {
   Future<void> stop() async {}
 }
 
+/// Widget/flow tests care about app behavior, not the real (and now large,
+/// ~1000-file) `assets/audio/` bundle - giving `AudioService` a fake, empty
+/// bundle here keeps it from touching that wildcard asset directory at all
+/// during these tests, the same reasoning as `FakeTtsClient`/
+/// `FakeAudioPlayerClient` above.
+class _EmptyAssetBundle extends CachingAssetBundle {
+  @override
+  Future<ByteData> load(String key) {
+    throw FlutterError('no assets in this fake bundle');
+  }
+}
+
 AudioService _fakeAudioService() => AudioService(
       tts: FakeTtsClient(),
       player: FakeAudioPlayerClient(),
+      bundle: _EmptyAssetBundle(),
       voiceRetryDelay: Duration.zero,
     );
 

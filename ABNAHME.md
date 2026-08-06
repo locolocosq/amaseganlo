@@ -8,9 +8,9 @@ Begründung).
 ## 1. Automatisierte Prüfungen
 
 - `flutter analyze`: **0 Probleme.**
-- `flutter test`: **160 von 160 Tests grün**, Laufzeit ~10-20s (siehe
-  ENTSCHEIDUNGEN.md Etappe 7 für die frühere Ursache extrem langer Laufzeiten
-  und deren Behebung).
+- `flutter test`: **163 von 163 Tests grün**, Laufzeit ~9s (siehe
+  ENTSCHEIDUNGEN.md Etappe 7 und Etappe 11 für zwei verschiedene frühere
+  Ursachen extrem langer/hängender Laufzeiten und deren Behebung).
 - Inhalts-Prüfung (`test/content/`, `test/models/`): mindestens 1000 eindeutige
   Vokabeln (tatsächlich 1017), Struktur-Referenzen (jede Lektion verweist auf
   existierende Vokabeln/Sätze/Fidel-Zeichen), Fidel-Dekodierbarkeit pro Stufe,
@@ -49,7 +49,7 @@ Mit `flutter run -d web-server` gestartet und im Vorschau-Browser bedient:
 
 ## 3. Nachträglich geschlossene Lücken (nach der ersten Selbstabnahme)
 
-Auf Nachfrage "was fehlt noch, mach es fertig" wurden zwei der drei damals
+Auf Nachfrage "was fehlt noch, mach es fertig" wurden alle drei damals
 offenen Punkte noch geschlossen:
 
 - **App-Icon-Bild**: selbst erzeugt, kein Download nötig - ein `dart:ui`-Skript
@@ -67,15 +67,26 @@ offenen Punkte noch geschlossen:
   angehängt. Im Browser geprüft: die komplette 33×7-Fidel-Tafel rendert jetzt
   durchgängig sauber.
 
-**Weiterhin offen** (keine Erlaubnisfrage, sondern eine echte Fähigkeitsgrenze):
+- **Echte Audio-Aufnahmen**: Ich kann selbst keine Sprachaufnahmen erzeugen
+  (Fähigkeits-, keine Erlaubnisgrenze), habe dem Nutzer aber die exportierte
+  Wortliste (`tool/audio_worklist.csv`) und ein fertiges Google-Colab-Skript
+  (`tool/generate_audio_colab.py`, nutzt Metas offenes `facebook/mms-tts-amh`)
+  gegeben. Der Nutzer hat damit selbst 1057 Audiodateien erzeugt und
+  zurückgeschickt; `tool/build_audio_manifest_test.dart` hat daraus
+  `assets/audio/manifest.json` gebaut - Abgleich gegen `ContentRepository`
+  bestätigt 0 fehlende und 0 überzählige Dateien. Damit ist auch diese letzte
+  Lücke geschlossen.
 
-- **Echte Audio-Aufnahmen**: `assets/audio/manifest.json` existiert mit dem
-  richtigen Schema, ist aber leer - Ton läuft ausschließlich über
-  Text-to-Speech (falls eine Amharisch-Stimme auf dem Gerät verfügbar ist),
-  nie über vorproduzierte Aufnahmen. Das ist kein Berechtigungs-, sondern ein
-  Fähigkeitsproblem: ich kann keine echten Sprachaufnahmen erzeugen, unabhängig
-  von einer Erlaubnis. Die App stürzt deswegen nicht ab (siehe Rückfall-Logik
-  in `AudioService`), liefert nur nicht das akustisch vollständigste Ergebnis.
+Dabei wurde ein echter, gefundener und behobener Bug aufgedeckt: `flutter
+test` (die ganze Suite) hing nach dem Einbau der 1057 echten Audiodateien
+zuverlässig, obwohl einzelne Testdateien weiterhin schnell durchliefen.
+Ursache: der Test-Harness übergab `AudioService` zwar gefälschte
+TTS-/Player-Clients, aber kein gefälschtes `AssetBundle` - bei mehreren
+Testdateien in einer Ausführung griffen mehrere `AudioService`-Instanzen
+gleichzeitig auf denselben echten, jetzt sehr großen Wildcard-Asset-Ordner
+zu und liefen in einen echten Deadlock (bestätigt: 0% CPU-Auslastung).
+Behoben mit einem gefälschten, leeren `AssetBundle` im Test-Harness - siehe
+ENTSCHEIDUNGEN.md Etappe 11 für die vollständige Fehlersuche.
 
 Inhaltliche (nicht funktionale) Unsicherheiten bei einzelnen Vokabeln/Fidel-
 Zeichen, die eine Muttersprachlerin/ein Muttersprachler gegenlesen sollte,
