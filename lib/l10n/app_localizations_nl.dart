@@ -403,6 +403,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get pathUnitTestHint => 'Hoofdstuk overslaan met een test';
 
   @override
+  String get regionReviewStationTitle => 'Vrij herhalen';
+
+  @override
+  String get regionReviewLockedBody =>
+      'Rond eerst alle hoofdstukken van deze halte af om hier vrij te kunnen herhalen.';
+
+  @override
   String get pathResumeTitle => 'Verder leren';
 
   @override
@@ -922,4 +929,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String journeyStationNumber(int number) {
     return 'Halte $number';
   }
+
+  @override
+  String get journeyRegionHarar => 'Harar';
+
+  @override
+  String get journeyRegionComingSoon => 'Binnenkort beschikbaar';
 }

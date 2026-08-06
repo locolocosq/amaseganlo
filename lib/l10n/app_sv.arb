@@ -148,6 +148,8 @@
   "pathLockedDialogStart": "Starta trots det",
   "pathUnitTest": "Kapiteltest",
   "pathUnitTestHint": "Hoppa över kapitlet med ett test",
+  "regionReviewStationTitle": "Fri repetition",
+  "regionReviewLockedBody": "Klara alla kapitel i det här stoppet först för att låsa upp fri repetition här.",
   "pathResumeTitle": "Fortsätt lära dig",
   "pathResumeSubtitle": "Fortsätt i {unit}",
   "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
@@ -354,5 +356,7 @@
   "journeyDriverRegionAllDone": "Det här stoppet känner du redan utan och innan! Titta gärna in igen.",
   "journeyBackToMap": "Tillbaka till kartan",
   "journeyStationNumber": "Stopp {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "journeyRegionHarar": "Harar",
+  "journeyRegionComingSoon": "Kommer snart"
 }

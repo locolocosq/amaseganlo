@@ -148,6 +148,8 @@
   "pathLockedDialogStart": "Trotzdem starten",
   "pathUnitTest": "Kapitel-Test",
   "pathUnitTestHint": "Kapitel per Test überspringen",
+  "regionReviewStationTitle": "Freies Wiederholen",
+  "regionReviewLockedBody": "Schließe erst alle Kapitel dieser Station ab, um hier frei zu wiederholen.",
   "pathResumeTitle": "Weiterlernen",
   "pathResumeSubtitle": "Weiter in {unit}",
   "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
@@ -354,5 +356,7 @@
   "journeyDriverRegionAllDone": "Diese Station kennst du schon in- und auswendig! Schau gern trotzdem nochmal vorbei.",
   "journeyBackToMap": "Zurück zur Karte",
   "journeyStationNumber": "Station {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "journeyRegionHarar": "Harar",
+  "journeyRegionComingSoon": "Bald verfügbar"
 }

@@ -197,12 +197,12 @@
     {
       "id": "sec_a1_2",
       "level": "A1.2",
-      "region": "oromia",
+      "region": "tigray",
       "title": {
-        "de": "Station 2: Oromia — durchs grüne Hochland",
-        "en": "Stop 2: Oromia — through the green highlands",
-        "sv": "Stopp 2: Oromia — genom det gröna höglandet",
-        "nl": "Stop 2: Oromia — door het groene hoogland"
+        "de": "Station 2: Tigray — zu den Felsenkirchen",
+        "en": "Stop 2: Tigray — to the rock-hewn churches",
+        "sv": "Stopp 2: Tigray — till klippkyrkorna",
+        "nl": "Stop 2: Tigray — naar de rotskerken"
       },
       "units": [
         "unit_zuhause",
@@ -231,12 +231,12 @@
     {
       "id": "sec_a2",
       "level": "A2",
-      "region": "tigray",
+      "region": "oromia",
       "title": {
-        "de": "Station 3: Tigray — zu den Felsenkirchen",
-        "en": "Stop 3: Tigray — to the rock-hewn churches",
-        "sv": "Stopp 3: Tigray — till klippkyrkorna",
-        "nl": "Stop 3: Tigray — naar de rotskerken"
+        "de": "Station 3: Oromia — durchs grüne Hochland",
+        "en": "Stop 3: Oromia — through the green highlands",
+        "sv": "Stopp 3: Oromia — genom det gröna höglandet",
+        "nl": "Stop 3: Oromia — door het groene hoogland"
       },
       "units": [
         "unit_verben_alltag",

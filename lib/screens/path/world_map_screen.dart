@@ -120,7 +120,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
                       Positioned.fill(child: CustomPaint(painter: const WorldMapPainter())),
                       Positioned.fill(child: TravelingBus(path: fullRoad, progress: _busController, scale: 1.1)),
                       for (var i = 0; i < WorldMapLayout.order.length; i++)
-                        _buildRegionNode(context, size, i, journey, curriculum, locale),
+                        _buildRegionNode(context, size, i, journey, curriculum, locale, l10n),
                     ],
                   );
                 },
@@ -139,10 +139,38 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     JourneyProgress journey,
     Curriculum curriculum,
     String locale,
+    AppLocalizations l10n,
   ) {
     final region = WorldMapLayout.order[index];
-    final section = curriculum.sections[index];
     final position = WorldMapLayout.positions[region]!.toOffset(size);
+
+    // [WorldMapLayout.order] can be longer than `curriculum.sections` - a
+    // place added to the map/route ahead of having real content (Etappe
+    // 22: Harar) has no section to index into here. Render it as a
+    // permanently locked "coming soon" placeholder instead of crashing;
+    // once a real section with this region appears in curriculum.json, it
+    // automatically falls into the normal branch below with no code
+    // change needed here.
+    if (index >= curriculum.sections.length) {
+      return Positioned(
+        left: position.dx - 64,
+        top: position.dy - 44,
+        child: RegionNodeMarker(
+          region: region,
+          title: l10n.journeyRegionHarar,
+          stationNumber: index + 1,
+          state: RegionVisualState.comingSoon,
+          crownsEarned: 0,
+          crownsPossible: 0,
+          comingSoonLabel: l10n.journeyRegionComingSoon,
+          onTap: () => ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text(l10n.journeyRegionComingSoon), duration: const Duration(seconds: 2)),
+          ),
+        ),
+      );
+    }
+
+    final section = curriculum.sections[index];
 
     final currentRegionIndex = journey.currentRegionIndex;
     final state = index < currentRegionIndex

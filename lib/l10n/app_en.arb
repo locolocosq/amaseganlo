@@ -148,6 +148,8 @@
   "pathLockedDialogStart": "Start anyway",
   "pathUnitTest": "Unit test",
   "pathUnitTestHint": "Skip this unit by passing a test",
+  "regionReviewStationTitle": "Free review",
+  "regionReviewLockedBody": "Finish every unit in this stop first to unlock free review here.",
   "pathResumeTitle": "Continue learning",
   "pathResumeSubtitle": "Pick up in {unit}",
   "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
@@ -354,5 +356,7 @@
   "journeyDriverRegionAllDone": "You know this stop inside out! Feel free to look around again.",
   "journeyBackToMap": "Back to the map",
   "journeyStationNumber": "Stop {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "journeyRegionHarar": "Harar",
+  "journeyRegionComingSoon": "Coming soon"
 }

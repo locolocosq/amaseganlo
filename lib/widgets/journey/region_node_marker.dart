@@ -4,7 +4,11 @@ import '../../core/journey_regions.dart';
 import '../../core/theme.dart';
 import 'painter_helpers.dart';
 
-enum RegionVisualState { completed, current, upcoming }
+/// [comingSoon] (Etappe 22, Harar) looks similar to [upcoming] (grey ring,
+/// desaturated) but is a distinct state on purpose: unlike a normal
+/// upcoming region, tapping it never navigates anywhere - there is no
+/// content to show yet, only a "Bald verfügbar" hint.
+enum RegionVisualState { completed, current, upcoming, comingSoon }
 
 /// Strips the curriculum's full section title (e.g. "Station 1: Addis
 /// Abeba — die Hauptstadt-Ankunft") down to just the city/region name for
@@ -36,7 +40,11 @@ class RegionNodeMarker extends StatelessWidget {
   final RegionVisualState state;
   final int crownsEarned;
   final int crownsPossible;
-  final VoidCallback onTap;
+  final String? comingSoonLabel;
+
+  /// Null for a [RegionVisualState.comingSoon] node - it never navigates
+  /// anywhere, only shows [comingSoonLabel] as a brief tap response.
+  final VoidCallback? onTap;
 
   const RegionNodeMarker({
     super.key,
@@ -47,12 +55,14 @@ class RegionNodeMarker extends StatelessWidget {
     required this.crownsEarned,
     required this.crownsPossible,
     required this.onTap,
+    this.comingSoonLabel,
   });
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final upcoming = state == RegionVisualState.upcoming;
+    final comingSoon = state == RegionVisualState.comingSoon;
+    final upcoming = state == RegionVisualState.upcoming || comingSoon;
     final ringColor = upcoming ? theme.colorScheme.outlineVariant : region.accent;
     const double diameter = 88;
 
@@ -60,7 +70,7 @@ class RegionNodeMarker extends StatelessWidget {
 
     return Semantics(
       button: true,
-      label: title,
+      label: comingSoon ? '$title. ${comingSoonLabel ?? ''}' : title,
       child: GestureDetector(
         onTap: onTap,
         behavior: HitTestBehavior.opaque,
@@ -120,7 +130,7 @@ class RegionNodeMarker extends StatelessWidget {
                       Positioned(
                         bottom: -4,
                         right: -4,
-                        child: _Badge(icon: Icons.lock, color: theme.colorScheme.outline),
+                        child: _Badge(icon: comingSoon ? Icons.hourglass_empty : Icons.lock, color: theme.colorScheme.outline),
                       ),
                   ],
                 ),
@@ -133,12 +143,29 @@ class RegionNodeMarker extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   boxShadow: const [BoxShadow(color: Color(0x40000000), blurRadius: 6, offset: Offset(0, 3))],
                 ),
-                child: Text(
-                  shortLabel,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  textAlign: TextAlign.center,
-                  style: theme.textTheme.labelSmall?.copyWith(fontWeight: FontWeight.w600),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      shortLabel,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      textAlign: TextAlign.center,
+                      style: theme.textTheme.labelSmall?.copyWith(fontWeight: FontWeight.w600),
+                    ),
+                    if (comingSoon && comingSoonLabel != null)
+                      Text(
+                        comingSoonLabel!,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        textAlign: TextAlign.center,
+                        style: theme.textTheme.labelSmall?.copyWith(
+                          color: theme.colorScheme.outline,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 10,
+                        ),
+                      ),
+                  ],
                 ),
               ),
               if (crownsPossible > 0) ...[
@@ -250,6 +277,13 @@ class _RegionIconPainter extends CustomPainter {
         Sketch.hill(canvas, area, const Color(0xFF6FA85A), 0.78, 0.0, leftLean: 0.3, rightLean: 0.7);
         Sketch.lake(canvas, area, 0.66);
         Sketch.palm(canvas, Offset(area.width * 0.26, area.height * 0.78), 0.9);
+        break;
+      case JourneyRegion.harar:
+        // Deliberately plain/muted, not a themed scene - there's no real
+        // content for Harar yet (Etappe 22), so no landmark has been
+        // "decided" for it. A flat grey fill reads as "not designed yet"
+        // rather than a wrong guess at what should represent it.
+        Sketch.sky(canvas, area, const Color(0xFFD8D8D8), const Color(0xFFEDEDED));
         break;
     }
   }

@@ -280,6 +280,8 @@ class _PassportStamp extends StatelessWidget {
         return const Color(0xFF8C6E56);
       case JourneyRegion.sidama:
         return const Color(0xFF3F8FA6);
+      case JourneyRegion.harar:
+        return const Color(0xFF9E9E9E);
       case null:
         return successColor;
     }
@@ -295,6 +297,8 @@ class _PassportStamp extends StatelessWidget {
         return Icons.account_balance;
       case JourneyRegion.sidama:
         return Icons.water;
+      case JourneyRegion.harar:
+        return Icons.mosque;
       case null:
         return Icons.flag_outlined;
     }

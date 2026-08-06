@@ -148,6 +148,8 @@
   "pathLockedDialogStart": "Toch beginnen",
   "pathUnitTest": "Hoofdstuktest",
   "pathUnitTestHint": "Hoofdstuk overslaan met een test",
+  "regionReviewStationTitle": "Vrij herhalen",
+  "regionReviewLockedBody": "Rond eerst alle hoofdstukken van deze halte af om hier vrij te kunnen herhalen.",
   "pathResumeTitle": "Verder leren",
   "pathResumeSubtitle": "Verder in {unit}",
   "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
@@ -354,5 +356,7 @@
   "journeyDriverRegionAllDone": "Deze halte kun je al dromen! Kijk gerust nog eens rond.",
   "journeyBackToMap": "Terug naar de kaart",
   "journeyStationNumber": "Halte {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "journeyRegionHarar": "Harar",
+  "journeyRegionComingSoon": "Binnenkort beschikbaar"
 }

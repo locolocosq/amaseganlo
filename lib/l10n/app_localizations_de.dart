@@ -408,6 +408,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get pathUnitTestHint => 'Kapitel per Test überspringen';
 
   @override
+  String get regionReviewStationTitle => 'Freies Wiederholen';
+
+  @override
+  String get regionReviewLockedBody =>
+      'Schließe erst alle Kapitel dieser Station ab, um hier frei zu wiederholen.';
+
+  @override
   String get pathResumeTitle => 'Weiterlernen';
 
   @override
@@ -929,4 +936,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String journeyStationNumber(int number) {
     return 'Station $number';
   }
+
+  @override
+  String get journeyRegionHarar => 'Harar';
+
+  @override
+  String get journeyRegionComingSoon => 'Bald verfügbar';
 }

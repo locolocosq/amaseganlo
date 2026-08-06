@@ -858,6 +858,18 @@ abstract class AppLocalizations {
   /// **'Skip this unit by passing a test'**
   String get pathUnitTestHint;
 
+  /// No description provided for @regionReviewStationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Free review'**
+  String get regionReviewStationTitle;
+
+  /// No description provided for @regionReviewLockedBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish every unit in this stop first to unlock free review here.'**
+  String get regionReviewLockedBody;
+
   /// No description provided for @pathResumeTitle.
   ///
   /// In en, this message translates to:
@@ -1787,6 +1799,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Stop {number}'**
   String journeyStationNumber(int number);
+
+  /// No description provided for @journeyRegionHarar.
+  ///
+  /// In en, this message translates to:
+  /// **'Harar'**
+  String get journeyRegionHarar;
+
+  /// No description provided for @journeyRegionComingSoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get journeyRegionComingSoon;
 }
 
 class _AppLocalizationsDelegate

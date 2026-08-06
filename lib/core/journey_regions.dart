@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 
-/// The 4 "Äthiopien-Reise" stops the curriculum's 4 sections are themed
-/// around (Abschnitt Design) - see ENTSCHEIDUNGEN.md for why these four and
-/// why the underlying lesson order/content is unchanged, only the framing.
-enum JourneyRegion { addisAbeba, oromia, tigray, sidama }
+/// The "Äthiopien-Reise" stops the curriculum's sections are themed around
+/// (Abschnitt Design) - see ENTSCHEIDUNGEN.md for why the underlying lesson
+/// order/content stays unchanged, only the framing. [harar] is Etappe 22's
+/// newest stop - added to the map/route ahead of having real curriculum
+/// content, so it is deliberately NOT referenced by any `CurriculumSection.
+/// region` yet. Every place that switches on [JourneyRegion] must still
+/// cover it (Dart's exhaustiveness check enforces this), which is exactly
+/// what keeps "add a stop with no content yet" safe to do.
+enum JourneyRegion { addisAbeba, oromia, tigray, sidama, harar }
 
 JourneyRegion? journeyRegionFromId(String id) {
   switch (id) {
@@ -15,6 +20,8 @@ JourneyRegion? journeyRegionFromId(String id) {
       return JourneyRegion.tigray;
     case 'sidama':
       return JourneyRegion.sidama;
+    case 'harar':
+      return JourneyRegion.harar;
     default:
       return null;
   }
@@ -46,6 +53,13 @@ extension JourneyRegionTheme on JourneyRegion {
         return const Color(0xFFB98363);
       case JourneyRegion.sidama:
         return const Color(0xFF3F8FA6);
+      case JourneyRegion.harar:
+        // Deliberately muted/grey rather than a vivid theme color (unlike
+        // the other four) - Harar has no real content yet, and this single
+        // choice is what makes its glow/ring/badges read as "greyed out"
+        // everywhere that already colors by region.accent, with no need
+        // for a "locked" special case in each of those places.
+        return const Color(0xFF9E9E9E);
     }
   }
 }

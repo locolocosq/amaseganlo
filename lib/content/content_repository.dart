@@ -238,6 +238,57 @@ class ContentRepository {
     }
     return result;
   }
+
+  /// Sentences used anywhere in a unit's lessons, in lesson order,
+  /// de-duplicated - the sentence-side equivalent of [lexemesForUnit],
+  /// added for the cumulative region-review station (Etappe 22).
+  List<Sentence> sentencesForUnit(String unitId) {
+    final seen = <String>{};
+    final result = <Sentence>[];
+    for (final lesson in lessonsForUnit(unitId)) {
+      for (final id in lesson.sentenceIds) {
+        if (seen.add(id)) {
+          final sentence = _sentences[id];
+          if (sentence != null) result.add(sentence);
+        }
+      }
+    }
+    return result;
+  }
+
+  /// All lexemes taught in [sectionIds] (typically every section up to and
+  /// including the current one) - the word pool for the cumulative
+  /// "Freies Wiederholen" station at the end of each region (Etappe 22).
+  List<Lexeme> lexemesForSections(Iterable<String> sectionIds) {
+    final seen = <String>{};
+    final result = <Lexeme>[];
+    for (final sectionId in sectionIds) {
+      final section = _curriculum.sections.where((s) => s.id == sectionId).firstOrNull;
+      if (section == null) continue;
+      for (final unitId in section.unitIds) {
+        for (final lex in lexemesForUnit(unitId)) {
+          if (seen.add(lex.id)) result.add(lex);
+        }
+      }
+    }
+    return result;
+  }
+
+  /// The sentence-side equivalent of [lexemesForSections].
+  List<Sentence> sentencesForSections(Iterable<String> sectionIds) {
+    final seen = <String>{};
+    final result = <Sentence>[];
+    for (final sectionId in sectionIds) {
+      final section = _curriculum.sections.where((s) => s.id == sectionId).firstOrNull;
+      if (section == null) continue;
+      for (final unitId in section.unitIds) {
+        for (final sentence in sentencesForUnit(unitId)) {
+          if (seen.add(sentence.id)) result.add(sentence);
+        }
+      }
+    }
+    return result;
+  }
 }
 
 extension _FirstOrNull<T> on Iterable<T> {

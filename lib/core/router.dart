@@ -13,6 +13,7 @@ import '../screens/onboarding/onboarding_screen.dart';
 import '../screens/path/chapter_test_screen.dart';
 import '../screens/path/placement_test_screen.dart';
 import '../screens/path/region_detail_screen.dart';
+import '../screens/path/region_review_screen.dart';
 import '../screens/path/unit_overview_screen.dart';
 import '../screens/path/world_map_screen.dart';
 import '../screens/profile/profile_screen.dart';
@@ -74,6 +75,12 @@ GoRouter buildRouter({
                   path: 'unit/:unitId',
                   builder: (context, state) => UnitOverviewScreen(
                     unitId: state.pathParameters['unitId']!,
+                  ),
+                ),
+                GoRoute(
+                  path: 'region/:regionId/review',
+                  builder: (context, state) => RegionReviewScreen(
+                    sectionIds: (state.extra as List<String>?) ?? const [],
                   ),
                 ),
               ],

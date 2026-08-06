@@ -25,6 +25,11 @@ class RegionDetailPainter extends CustomPainter {
         return (const Color(0xFFF0DCC0), const Color(0xFFDCB98C));
       case JourneyRegion.sidama:
         return (const Color(0xFFCDEFE0), const Color(0xFFA6DEC7));
+      case JourneyRegion.harar:
+        // Not reachable yet in practice - Harar has no region-detail
+        // screen content (Etappe 22) - kept muted/grey for consistency
+        // with its other "not designed yet" placeholders.
+        return (const Color(0xFFE4E4E4), const Color(0xFFCACACA));
     }
   }
 
@@ -85,6 +90,9 @@ class RegionDetailPainter extends CustomPainter {
           } else {
             Sketch.tukul(canvas, clamped, scale * 0.9);
           }
+          break;
+        case JourneyRegion.harar:
+          Sketch.rock(canvas, clamped, scale, color: const Color(0xFFB0B0B0));
           break;
       }
     }

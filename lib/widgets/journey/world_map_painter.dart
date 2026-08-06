@@ -6,18 +6,29 @@ import '../../core/journey_map_layout.dart';
 import '../../core/journey_regions.dart';
 import 'painter_helpers.dart';
 
-/// Background of the Ebene-1 world map: a soft "painted paper map" terrain
-/// with a colour-tinted zone behind each region, a winding road threading
-/// through all four in curriculum order, and light decorative scatter
-/// (rocks, huts, trees, clouds) so it doesn't read as an empty canvas with
-/// dots on it. Deliberately static/non-interactive - the tappable region
-/// nodes are real widgets drawn on top by [WorldMapScreen].
+/// Background of the Ebene-1 world map: a stylized Ethiopia silhouette
+/// (Etappe 22, deliberately not accurate cartography) filled with a soft
+/// "painted paper map" terrain, a colour-tinted zone behind each region, a
+/// winding road threading through them in journey order, and light
+/// decorative scatter (rocks, huts, trees, clouds) so it doesn't read as an
+/// empty canvas with dots on it. Deliberately static/non-interactive - the
+/// tappable region nodes are real widgets drawn on top by [WorldMapScreen].
 class WorldMapPainter extends CustomPainter {
   const WorldMapPainter();
 
   @override
   void paint(Canvas canvas, Size size) {
     final area = Rect.fromLTWH(0, 0, size.width, size.height);
+    // A plain "outside the country" backdrop first, then everything else
+    // clipped to the outline - the terrain itself ends up shaped like
+    // Ethiopia instead of a separate watermark competing with it, which is
+    // what keeps this "dezent" (subtle) per the brief rather than adding a
+    // second, busier layer on top of the existing map.
+    canvas.drawRect(area, Paint()..color = const Color(0xFFF3EFDD));
+
+    final outline = EthiopiaMap.outline(size);
+    canvas.save();
+    canvas.clipPath(outline);
     Sketch.sky(canvas, area, const Color(0xFFCDEBD4), const Color(0xFFF3EFDD));
 
     for (final region in WorldMapLayout.order) {
@@ -36,6 +47,18 @@ class WorldMapPainter extends CustomPainter {
     for (final road in WorldMapLayout.allRoads(size)) {
       Sketch.road(canvas, road);
     }
+    canvas.restore();
+
+    // A quiet outline stroke around the country shape for definition, and
+    // clouds drifting over the top edge - both outside the clip so they sit
+    // above the "map paper" and aren't cut off by the coastline-like edge.
+    canvas.drawPath(
+      outline,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 2
+        ..color = const Color(0x33000000),
+    );
 
     final rng = Sketch.seededRandom(7);
     for (var i = 0; i < 5; i++) {
@@ -64,6 +87,12 @@ class WorldMapPainter extends CustomPainter {
           break;
         case JourneyRegion.sidama:
           Sketch.palm(canvas, spot, 0.6 + rng.nextDouble() * 0.5);
+          break;
+        case JourneyRegion.harar:
+          // No real content yet (Etappe 22) - deliberately left undecorated
+          // rather than inventing a themed scene for a place that hasn't
+          // been designed yet; the muted grey glow (region.accent) is the
+          // only visual it gets until real content arrives.
           break;
       }
     }

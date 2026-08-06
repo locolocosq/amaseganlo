@@ -7,6 +7,7 @@ import '../../core/journey_map_layout.dart';
 import '../../core/journey_progress.dart';
 import '../../core/journey_regions.dart';
 import '../../l10n/app_localizations.dart';
+import '../../models/curriculum.dart';
 import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
@@ -137,10 +138,14 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
             Expanded(
               child: LayoutBuilder(
                 builder: (context, constraints) {
+                  // +1 station: the cumulative "Freies Wiederholen" stop
+                  // (Etappe 22) always sits at the end of the winding path,
+                  // right after the region's own units.
+                  final totalStations = unitIds.length + 1;
                   final layout = RegionMapLayout(canvasWidth: constraints.maxWidth);
-                  final stations = layout.layout(unitIds.length);
+                  final stations = layout.layout(totalStations);
                   final road = layout.smoothPathThrough(stations);
-                  final canvasHeight = layout.canvasHeight(unitIds.length);
+                  final canvasHeight = layout.canvasHeight(totalStations);
                   _scrollToStationOnce(stations[currentIndex].position.dy, constraints.maxHeight, canvasHeight);
                   return SingleChildScrollView(
                     controller: _scrollController,
@@ -155,6 +160,7 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
                           Positioned.fill(child: TravelingBus(path: road, progress: _busController, scale: 1.0)),
                           for (var i = 0; i < unitIds.length; i++)
                             _buildStationNode(context, region, section.id, unitIds[i], i, stations[i], journey, locale),
+                          _buildReviewStationNode(context, region, section, stations[unitIds.length], journey, l10n),
                         ],
                       ),
                     ),
@@ -194,6 +200,66 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
         state: state,
         crowns: crowns,
         onTap: () => _onStationTap(context, unitId, state),
+      ),
+    );
+  }
+
+  /// The cumulative "Freies Wiederholen" stop (Etappe 22): unlocked once
+  /// every unit in this region is done/skipped, and - unlike a numbered
+  /// unit station - never shows as "completed", since it's meant to be
+  /// replayed any number of times rather than checked off once. Its word
+  /// pool grows with every region finished (see [RegionReviewScreen]),
+  /// which is why it's passed every section id up to and including this
+  /// one, not just this region's.
+  Widget _buildReviewStationNode(
+    BuildContext context,
+    JourneyRegion region,
+    CurriculumSection section,
+    StationLayoutPoint layoutPoint,
+    JourneyProgress journey,
+    AppLocalizations l10n,
+  ) {
+    final unlocked = journey.isSectionDone(section);
+    final sections = journey.content.curriculum.sections;
+    final sectionIndex = sections.indexWhere((s) => s.id == section.id);
+    final cumulativeSectionIds = [for (final s in sections.take(sectionIndex + 1)) s.id];
+
+    return Positioned(
+      left: layoutPoint.position.dx - 50,
+      top: layoutPoint.position.dy - 31,
+      child: StationNodeMarker(
+        region: region,
+        // "R" (not a repeat-arrow glyph) so a screen reader announcing
+        // "$numberLabel $title" reads sensibly instead of a Unicode symbol
+        // name.
+        numberLabel: 'R',
+        title: l10n.regionReviewStationTitle,
+        state: unlocked ? UnitState.current : UnitState.locked,
+        crowns: 0,
+        onTap: () => _onReviewStationTap(context, region, unlocked, cumulativeSectionIds, l10n),
+      ),
+    );
+  }
+
+  void _onReviewStationTap(
+    BuildContext context,
+    JourneyRegion region,
+    bool unlocked,
+    List<String> cumulativeSectionIds,
+    AppLocalizations l10n,
+  ) {
+    if (unlocked) {
+      context.push('/learn/region/${region.name}/review', extra: cumulativeSectionIds);
+      return;
+    }
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l10n.pathLockedDialogTitle),
+        content: Text(l10n.regionReviewLockedBody),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(l10n.commonClose)),
+        ],
       ),
     );
   }
