@@ -38,8 +38,8 @@ void main() {
       await tester.pumpAndSettle();
 
       // "Ich weiß es nicht" deterministically fails every question regardless
-      // of exercise type - answer all 7 of unit_erste_begegnung's words.
-      for (var i = 0; i < 7; i++) {
+      // of exercise type - answer all 8 of unit_erste_begegnung's words.
+      for (var i = 0; i < 8; i++) {
         await tester.tap(find.text('Ich weiß es nicht'));
         await tester.pumpAndSettle();
         await tester.tap(find.text('Weiter'));
@@ -47,7 +47,7 @@ void main() {
       }
 
       expect(find.text('Noch nicht bestanden'), findsOneWidget);
-      expect(find.text('0 von 7 richtig'), findsOneWidget);
+      expect(find.text('0 von 8 richtig'), findsOneWidget);
       expect(find.text('Nochmal'), findsOneWidget);
 
       // Retry starts a fresh attempt instead of staying on the result screen.
