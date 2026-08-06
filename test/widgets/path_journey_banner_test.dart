@@ -1,18 +1,15 @@
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:amaseganlo/core/journey_regions.dart';
-import 'package:amaseganlo/widgets/common/journey_stop_banner.dart';
+import 'package:amaseganlo/widgets/journey/region_node_marker.dart';
 import 'test_harness.dart';
 
 void main() {
-  testWidgets('the learning path shows the Addis Abeba stop banner as current when nothing is played yet', (tester) async {
+  testWidgets('the world map shows the Addis Abeba region node as current when nothing is played yet', (tester) async {
     await pumpTestApp(tester);
 
-    // The ListView only builds what's near the top without scrolling - that
-    // is exactly the first section's banner, which is what this test cares
-    // about (see ENTSCHEIDUNGEN.md on lazy ListView building in tests).
-    final banner = tester.widget<JourneyStopBanner>(find.byType(JourneyStopBanner).first);
-    expect(banner.region, JourneyRegion.addisAbeba);
-    expect(banner.current, isTrue);
+    final markers = tester.widgetList<RegionNodeMarker>(find.byType(RegionNodeMarker)).toList();
+    final addisAbeba = markers.firstWhere((m) => m.region == JourneyRegion.addisAbeba);
+    expect(addisAbeba.state, RegionVisualState.current);
   });
 }

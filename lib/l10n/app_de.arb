@@ -340,5 +340,16 @@
   "hahuDrillTapHint": "Tippe im Takt mit",
   "hahuDrillWithTransliteration": "Durchgang 1 von 2: mit Umschrift",
   "hahuDrillCharsOnly": "Durchgang 2 von 2: nur Zeichen",
-  "hahuDrillContinue": "Weiter"
+  "hahuDrillContinue": "Weiter",
+
+  "journeyWorldMapTitle": "Deine Äthiopien-Reise",
+  "journeyDriverWorldMapCurrent": "Nächster Halt: {region}! Steig ein, wir fahren los.",
+  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverWorldMapAllDone": "Du hast schon die ganze Karte bereist! Lust auf eine weitere Runde?",
+  "journeyDriverRegionCurrent": "Willkommen in {region}! Bereit für die nächste Station?",
+  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverRegionAllDone": "Diese Station kennst du schon in- und auswendig! Schau gern trotzdem nochmal vorbei.",
+  "journeyBackToMap": "Zurück zur Karte",
+  "journeyStationNumber": "Station {number}",
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
 }

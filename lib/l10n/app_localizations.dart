@@ -1727,6 +1727,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Continue'**
   String get hahuDrillContinue;
+
+  /// No description provided for @journeyWorldMapTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Ethiopia journey'**
+  String get journeyWorldMapTitle;
+
+  /// No description provided for @journeyDriverWorldMapCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Next stop: {region}! Hop on, let\'s roll.'**
+  String journeyDriverWorldMapCurrent(String region);
+
+  /// No description provided for @journeyDriverWorldMapAllDone.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve travelled the whole map already! Fancy another round?'**
+  String get journeyDriverWorldMapAllDone;
+
+  /// No description provided for @journeyDriverRegionCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to {region}! Ready for the next stop?'**
+  String journeyDriverRegionCurrent(String region);
+
+  /// No description provided for @journeyDriverRegionAllDone.
+  ///
+  /// In en, this message translates to:
+  /// **'You know this stop inside out! Feel free to look around again.'**
+  String get journeyDriverRegionAllDone;
+
+  /// No description provided for @journeyBackToMap.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to the map'**
+  String get journeyBackToMap;
+
+  /// No description provided for @journeyStationNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop {number}'**
+  String journeyStationNumber(int number);
 }
 
 class _AppLocalizationsDelegate

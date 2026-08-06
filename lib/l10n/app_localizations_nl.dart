@@ -885,4 +885,33 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get hahuDrillContinue => 'Verder';
+
+  @override
+  String get journeyWorldMapTitle => 'Jouw Ethiopië-reis';
+
+  @override
+  String journeyDriverWorldMapCurrent(String region) {
+    return 'Volgende stop: $region! Stap in, we gaan op weg.';
+  }
+
+  @override
+  String get journeyDriverWorldMapAllDone =>
+      'Je hebt de hele kaart al bereisd! Zin in nog een rondje?';
+
+  @override
+  String journeyDriverRegionCurrent(String region) {
+    return 'Welkom in $region! Klaar voor de volgende halte?';
+  }
+
+  @override
+  String get journeyDriverRegionAllDone =>
+      'Deze halte kun je al dromen! Kijk gerust nog eens rond.';
+
+  @override
+  String get journeyBackToMap => 'Terug naar de kaart';
+
+  @override
+  String journeyStationNumber(int number) {
+    return 'Halte $number';
+  }
 }

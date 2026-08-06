@@ -340,5 +340,16 @@
   "hahuDrillTapHint": "Tap along to the rhythm",
   "hahuDrillWithTransliteration": "Round 1 of 2: with transliteration",
   "hahuDrillCharsOnly": "Round 2 of 2: signs only",
-  "hahuDrillContinue": "Continue"
+  "hahuDrillContinue": "Continue",
+
+  "journeyWorldMapTitle": "Your Ethiopia journey",
+  "journeyDriverWorldMapCurrent": "Next stop: {region}! Hop on, let's roll.",
+  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverWorldMapAllDone": "You've travelled the whole map already! Fancy another round?",
+  "journeyDriverRegionCurrent": "Welcome to {region}! Ready for the next stop?",
+  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverRegionAllDone": "You know this stop inside out! Feel free to look around again.",
+  "journeyBackToMap": "Back to the map",
+  "journeyStationNumber": "Stop {number}",
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
 }

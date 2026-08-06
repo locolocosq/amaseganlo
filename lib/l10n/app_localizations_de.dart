@@ -892,4 +892,33 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get hahuDrillContinue => 'Weiter';
+
+  @override
+  String get journeyWorldMapTitle => 'Deine Äthiopien-Reise';
+
+  @override
+  String journeyDriverWorldMapCurrent(String region) {
+    return 'Nächster Halt: $region! Steig ein, wir fahren los.';
+  }
+
+  @override
+  String get journeyDriverWorldMapAllDone =>
+      'Du hast schon die ganze Karte bereist! Lust auf eine weitere Runde?';
+
+  @override
+  String journeyDriverRegionCurrent(String region) {
+    return 'Willkommen in $region! Bereit für die nächste Station?';
+  }
+
+  @override
+  String get journeyDriverRegionAllDone =>
+      'Diese Station kennst du schon in- und auswendig! Schau gern trotzdem nochmal vorbei.';
+
+  @override
+  String get journeyBackToMap => 'Zurück zur Karte';
+
+  @override
+  String journeyStationNumber(int number) {
+    return 'Station $number';
+  }
 }

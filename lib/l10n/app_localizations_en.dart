@@ -887,4 +887,33 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get hahuDrillContinue => 'Continue';
+
+  @override
+  String get journeyWorldMapTitle => 'Your Ethiopia journey';
+
+  @override
+  String journeyDriverWorldMapCurrent(String region) {
+    return 'Next stop: $region! Hop on, let\'s roll.';
+  }
+
+  @override
+  String get journeyDriverWorldMapAllDone =>
+      'You\'ve travelled the whole map already! Fancy another round?';
+
+  @override
+  String journeyDriverRegionCurrent(String region) {
+    return 'Welcome to $region! Ready for the next stop?';
+  }
+
+  @override
+  String get journeyDriverRegionAllDone =>
+      'You know this stop inside out! Feel free to look around again.';
+
+  @override
+  String get journeyBackToMap => 'Back to the map';
+
+  @override
+  String journeyStationNumber(int number) {
+    return 'Stop $number';
+  }
 }

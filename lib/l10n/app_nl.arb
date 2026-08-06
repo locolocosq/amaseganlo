@@ -340,5 +340,16 @@
   "hahuDrillTapHint": "Tik mee op het ritme",
   "hahuDrillWithTransliteration": "Ronde 1 van 2: met transliteratie",
   "hahuDrillCharsOnly": "Ronde 2 van 2: alleen tekens",
-  "hahuDrillContinue": "Verder"
+  "hahuDrillContinue": "Verder",
+
+  "journeyWorldMapTitle": "Jouw Ethiopië-reis",
+  "journeyDriverWorldMapCurrent": "Volgende stop: {region}! Stap in, we gaan op weg.",
+  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverWorldMapAllDone": "Je hebt de hele kaart al bereisd! Zin in nog een rondje?",
+  "journeyDriverRegionCurrent": "Welkom in {region}! Klaar voor de volgende halte?",
+  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverRegionAllDone": "Deze halte kun je al dromen! Kijk gerust nog eens rond.",
+  "journeyBackToMap": "Terug naar de kaart",
+  "journeyStationNumber": "Halte {number}",
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
 }

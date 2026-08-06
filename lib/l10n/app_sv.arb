@@ -340,5 +340,16 @@
   "hahuDrillTapHint": "Tryck i takt",
   "hahuDrillWithTransliteration": "Omgång 1 av 2: med translitterering",
   "hahuDrillCharsOnly": "Omgång 2 av 2: bara tecken",
-  "hahuDrillContinue": "Fortsätt"
+  "hahuDrillContinue": "Fortsätt",
+
+  "journeyWorldMapTitle": "Din Etiopien-resa",
+  "journeyDriverWorldMapCurrent": "Nästa stopp: {region}! Hoppa på, nu åker vi.",
+  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverWorldMapAllDone": "Du har redan rest över hela kartan! Sugen på en ny runda?",
+  "journeyDriverRegionCurrent": "Välkommen till {region}! Redo för nästa stopp?",
+  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "journeyDriverRegionAllDone": "Det här stoppet känner du redan utan och innan! Titta gärna in igen.",
+  "journeyBackToMap": "Tillbaka till kartan",
+  "journeyStationNumber": "Stopp {number}",
+  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } }
 }
