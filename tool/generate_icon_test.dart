@@ -9,8 +9,9 @@
 // AI-generated image asset is used here instead, Etappe 17 for why the icon
 // changed from a generic chat bubble to a vehicle/driver motif, and
 // Etappe 18 for why the vehicle is a blue-and-white taxi (the shared
-// minibus taxis common in Addis Ababa) rather than a plain yellow bus, with
-// the driver waving out of the window.
+// minibus taxis common in Addis Ababa) rather than a plain yellow bus, and
+// Etappe 21 for why the driver's waving arm (also added in Etappe 18) was
+// removed again.
 import 'dart:io';
 import 'dart:ui' as ui;
 
@@ -65,30 +66,6 @@ void main() {
       }
 
       const driverCenter = Offset(738, 478);
-
-      // Waving arm, drawn BEFORE the head so the head/cap covers the
-      // shoulder joint and the arm reads as coming from beside/behind the
-      // head, not growing out of the cap. Reaches up and to the right,
-      // clear of the other two windows and the roofline - "leaning out of
-      // the window to wave" pose.
-      final armPaint = Paint()
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 32
-        ..strokeCap = StrokeCap.round
-        ..color = const Color(0xFF8D5A3B);
-      const shoulder = Offset(806, 512);
-      const hand = Offset(882, 300);
-      canvas.drawLine(shoulder, hand, armPaint);
-      canvas.drawCircle(hand, 30, Paint()..color = const Color(0xFF8D5A3B));
-      // Two short motion arcs beside the hand, suggesting a waving motion.
-      final wavePaint = Paint()
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 8
-        ..strokeCap = StrokeCap.round
-        ..color = Colors.white.withValues(alpha: 0.85);
-      for (final r in [50.0, 74.0]) {
-        canvas.drawArc(Rect.fromCircle(center: hand, radius: r), -1.25, 0.9, false, wavePaint);
-      }
 
       // The driver's face, same palette as
       // lib/widgets/journey/bus_driver.dart's portrait, sized to sit

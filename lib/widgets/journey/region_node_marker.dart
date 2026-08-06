@@ -81,9 +81,10 @@ class RegionNodeMarker extends StatelessWidget {
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(
-                            color: (upcoming ? Colors.black : ringColor).withValues(alpha: state == RegionVisualState.current ? 0.45 : 0.25),
-                            blurRadius: state == RegionVisualState.current ? 16 : 8,
-                            spreadRadius: state == RegionVisualState.current ? 1 : 0,
+                            color: (upcoming ? Colors.black : ringColor).withValues(alpha: state == RegionVisualState.current ? 0.5 : 0.3),
+                            blurRadius: state == RegionVisualState.current ? 22 : 12,
+                            spreadRadius: state == RegionVisualState.current ? 2 : 1,
+                            offset: const Offset(0, 3),
                           ),
                         ],
                       ),
@@ -130,7 +131,7 @@ class RegionNodeMarker extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: theme.colorScheme.surface.withValues(alpha: 0.92),
                   borderRadius: BorderRadius.circular(12),
-                  boxShadow: const [BoxShadow(color: Color(0x33000000), blurRadius: 4, offset: Offset(0, 2))],
+                  boxShadow: const [BoxShadow(color: Color(0x40000000), blurRadius: 6, offset: Offset(0, 3))],
                 ),
                 child: Text(
                   shortLabel,

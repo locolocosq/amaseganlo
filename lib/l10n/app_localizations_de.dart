@@ -154,12 +154,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsDailyReminder => 'Tägliche Erinnerung';
 
   @override
-  String get settingsAllLessonsUnlocked => 'Alle Lektionen frei zugänglich';
-
-  @override
-  String get settingsReduceMotion => 'Bewegungen reduzieren';
-
-  @override
   String get settingsPremiumSection => 'Premium';
 
   @override

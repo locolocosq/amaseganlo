@@ -241,18 +241,6 @@ class SettingsScreen extends StatelessWidget {
                 value: settings.dailyReminderEnabled,
                 onChanged: settingsProvider.setDailyReminderEnabled,
               ),
-              SwitchListTile(
-                contentPadding: EdgeInsets.zero,
-                title: Text(l10n.settingsAllLessonsUnlocked),
-                value: settings.allLessonsUnlocked,
-                onChanged: settingsProvider.setAllLessonsUnlocked,
-              ),
-              SwitchListTile(
-                contentPadding: EdgeInsets.zero,
-                title: Text(l10n.settingsReduceMotion),
-                value: settings.reduceMotion,
-                onChanged: settingsProvider.setReduceMotion,
-              ),
             ],
           ),
           _SettingsSection(

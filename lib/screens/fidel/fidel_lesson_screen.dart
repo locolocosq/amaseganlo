@@ -211,7 +211,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
       key: ValueKey('hahu-${session.hahuDrillGroup}'),
       chars: chars,
       tickDuration: settings.hahuTempo.tickDuration,
-      reduceMotion: settings.reduceMotion,
+      reduceMotion: false,
       onComplete: () => provider.advancePastDrill(),
     );
   }

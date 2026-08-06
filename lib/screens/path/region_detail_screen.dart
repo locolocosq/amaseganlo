@@ -51,10 +51,10 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
     super.dispose();
   }
 
-  void _startBusTravel(double target, bool reduceMotion) {
+  void _startBusTravel(double target) {
     if (_busAnimationStarted) return;
     _busAnimationStarted = true;
-    if (reduceMotion || target <= 0) {
+    if (target <= 0) {
       _busController.value = target;
       return;
     }
@@ -110,7 +110,7 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
       }
     }
     final targetProgress = unitIds.length > 1 ? currentIndex / (unitIds.length - 1) : 0.0;
-    _startBusTravel(targetProgress, settings.reduceMotion);
+    _startBusTravel(targetProgress);
 
     final regionAllDone = journey.isSectionDone(section);
     final driverMessage = regionAllDone

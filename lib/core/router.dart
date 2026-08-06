@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../screens/fidel/fidel_lesson_complete_screen.dart';
@@ -23,7 +22,6 @@ import '../screens/review/review_session_screen.dart';
 import '../screens/settings/about_screen.dart';
 import '../screens/settings/premium_screen.dart';
 import '../screens/settings/settings_screen.dart';
-import '../state/settings_provider.dart';
 import '../widgets/common/app_shell.dart';
 
 /// Builds the app router. [onboardingCompleted] and [refreshListenable] are
@@ -67,8 +65,8 @@ GoRouter buildRouter({
                   pageBuilder: (context, state) => CustomTransitionPage(
                     key: state.pageKey,
                     child: RegionDetailScreen(regionId: state.pathParameters['regionId']!),
-                    transitionDuration: _zoomTransitionDuration(context),
-                    reverseTransitionDuration: _zoomTransitionDuration(context),
+                    transitionDuration: _zoomTransitionDuration,
+                    reverseTransitionDuration: _zoomTransitionDuration,
                     transitionsBuilder: _zoomTransition,
                   ),
                 ),
@@ -193,11 +191,8 @@ GoRouter buildRouter({
 );
 
 /// The Ebene-1-to-Ebene-2 "zoom into the region" transition (Etappe 14):
-/// scale up from slightly smaller + fade in, reversed automatically on
-/// pop. Near-instant when Reduce Motion is on, matching every other
-/// animation in the app.
-Duration _zoomTransitionDuration(BuildContext context) =>
-    context.read<SettingsProvider>().settings.reduceMotion ? const Duration(milliseconds: 1) : const Duration(milliseconds: 380);
+/// scale up from slightly smaller + fade in, reversed automatically on pop.
+const Duration _zoomTransitionDuration = Duration(milliseconds: 380);
 
 Widget _zoomTransition(BuildContext context, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) {
   final curved = CurvedAnimation(parent: animation, curve: Curves.easeOutCubic, reverseCurve: Curves.easeInCubic);

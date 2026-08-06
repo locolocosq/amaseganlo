@@ -153,12 +153,6 @@ class AppLocalizationsSv extends AppLocalizations {
   String get settingsDailyReminder => 'Daglig påminnelse';
 
   @override
-  String get settingsAllLessonsUnlocked => 'Alla lektioner tillgängliga';
-
-  @override
-  String get settingsReduceMotion => 'Minska rörelser';
-
-  @override
   String get settingsPremiumSection => 'Premium';
 
   @override

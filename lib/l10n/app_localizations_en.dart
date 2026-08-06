@@ -154,12 +154,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsDailyReminder => 'Daily reminder';
 
   @override
-  String get settingsAllLessonsUnlocked => 'All lessons unlocked';
-
-  @override
-  String get settingsReduceMotion => 'Reduce motion';
-
-  @override
   String get settingsPremiumSection => 'Premium';
 
   @override

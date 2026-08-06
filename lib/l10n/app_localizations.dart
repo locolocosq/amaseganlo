@@ -390,18 +390,6 @@ abstract class AppLocalizations {
   /// **'Daily reminder'**
   String get settingsDailyReminder;
 
-  /// No description provided for @settingsAllLessonsUnlocked.
-  ///
-  /// In en, this message translates to:
-  /// **'All lessons unlocked'**
-  String get settingsAllLessonsUnlocked;
-
-  /// No description provided for @settingsReduceMotion.
-  ///
-  /// In en, this message translates to:
-  /// **'Reduce motion'**
-  String get settingsReduceMotion;
-
   /// No description provided for @settingsPremiumSection.
   ///
   /// In en, this message translates to:

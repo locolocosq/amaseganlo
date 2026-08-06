@@ -47,10 +47,10 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
   /// Runs once per screen visit: the bus visibly drives from the start of
   /// the road up to the current region. Never `repeat()`s - a looping
   /// controller here would hang `pumpAndSettle()` in widget tests forever.
-  void _startBusTravel(double target, bool reduceMotion) {
+  void _startBusTravel(double target) {
     if (_busAnimationStarted) return;
     _busAnimationStarted = true;
-    if (reduceMotion || target <= 0) {
+    if (target <= 0) {
       _busController.value = target;
       return;
     }
@@ -81,7 +81,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     final currentRegionIndex = journey.currentRegionIndex;
     final regionCount = WorldMapLayout.order.length;
     final targetProgress = regionCount > 1 ? currentRegionIndex / (regionCount - 1) : 0.0;
-    _startBusTravel(targetProgress, settings.reduceMotion);
+    _startBusTravel(targetProgress);
 
     final allDone = curriculum.sections.every(journey.isSectionDone);
     final currentSection = curriculum.sections[currentRegionIndex];

@@ -85,7 +85,6 @@ class AppSettings {
   final bool useHearts;
   final bool dailyReminderEnabled;
   final bool allLessonsUnlocked;
-  final bool reduceMotion;
   final FidelLearningPath fidelLearningPath;
   final HahuTempo hahuTempo;
   final bool onboardingCompleted;
@@ -104,7 +103,6 @@ class AppSettings {
     this.useHearts = false,
     this.dailyReminderEnabled = false,
     this.allLessonsUnlocked = false,
-    this.reduceMotion = false,
     this.fidelLearningPath = FidelLearningPath.traditional,
     this.hahuTempo = HahuTempo.normal,
     this.onboardingCompleted = false,
@@ -123,7 +121,6 @@ class AppSettings {
     bool? useHearts,
     bool? dailyReminderEnabled,
     bool? allLessonsUnlocked,
-    bool? reduceMotion,
     FidelLearningPath? fidelLearningPath,
     HahuTempo? hahuTempo,
     bool? onboardingCompleted,
@@ -142,7 +139,6 @@ class AppSettings {
       useHearts: useHearts ?? this.useHearts,
       dailyReminderEnabled: dailyReminderEnabled ?? this.dailyReminderEnabled,
       allLessonsUnlocked: allLessonsUnlocked ?? this.allLessonsUnlocked,
-      reduceMotion: reduceMotion ?? this.reduceMotion,
       fidelLearningPath: fidelLearningPath ?? this.fidelLearningPath,
       hahuTempo: hahuTempo ?? this.hahuTempo,
       onboardingCompleted: onboardingCompleted ?? this.onboardingCompleted,
@@ -164,7 +160,6 @@ class AppSettings {
       useHearts: json['useHearts'] as bool? ?? false,
       dailyReminderEnabled: json['dailyReminderEnabled'] as bool? ?? false,
       allLessonsUnlocked: json['allLessonsUnlocked'] as bool? ?? false,
-      reduceMotion: json['reduceMotion'] as bool? ?? false,
       fidelLearningPath: _enumFromName(FidelLearningPath.values, json['fidelLearningPath'], FidelLearningPath.traditional),
       hahuTempo: _enumFromName(HahuTempo.values, json['hahuTempo'], HahuTempo.normal),
       onboardingCompleted: json['onboardingCompleted'] as bool? ?? false,
@@ -185,7 +180,6 @@ class AppSettings {
         'useHearts': useHearts,
         'dailyReminderEnabled': dailyReminderEnabled,
         'allLessonsUnlocked': allLessonsUnlocked,
-        'reduceMotion': reduceMotion,
         'fidelLearningPath': fidelLearningPath.name,
         'hahuTempo': hahuTempo.name,
         'onboardingCompleted': onboardingCompleted,
