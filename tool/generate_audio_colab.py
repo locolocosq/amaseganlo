@@ -1,121 +1,120 @@
 # ============================================================
-#  Amaseganlo - Amharisch-Audio mit Meta MMS-TTS erzeugen
+#  Amaseganlo - Amharisch-Audio mit Microsoft Edge-Neural-Stimmen erzeugen
 # ============================================================
+#  Warum dieser Ansatz statt Meta MMS (die vorherige Version dieses
+#  Skripts): MMS-TTS ist ein Forschungsmodell fuer >1100 Sprachen, laut
+#  Meta ueberwiegend mit Lesungen religioeser Texte trainiert - dadurch
+#  klang die Aussprache bei vielen Alltagswoertern schief. "edge-tts" ist
+#  ein freies, quelloffenes Tool (github.com/rany2/edge-tts), das dieselben
+#  professionell produzierten Amharisch-Neural-Stimmen anspricht, die auch
+#  hinter Microsofts kostenpflichtiger Azure-Sprachsynthese stehen - und
+#  zwar ueber Edge-Browsers kostenlose "Laut vorlesen"-Funktion, ganz ohne
+#  Azure-Account oder API-Schluessel. Qualitativ ist das eine ganz andere
+#  Kategorie als ein Multi-Sprachen-Forschungsmodell, weil es sich um
+#  echte, fuer genau diese Sprache aufgenommene/trainierte Stimmen handelt.
+#
 #  So geht's:
 #  1) colab.research.google.com -> "Neues Notebook"
-#  2) Oben rechts: "Verbinden" / Laufzeittyp -> GPU auswaehlen (T4 reicht,
-#     kostenlos verfuegbar) - ohne GPU dauert es deutlich laenger.
-#  3) Diesen kompletten Code in eine Zelle einfuegen, ausfuehren.
-#  4) Im Upload-Dialog "audio_worklist.csv" auswaehlen (die Datei, die dir
-#     mitgeschickt wurde - enthaelt alle 1017 Woerter + 40 Saetze mit ihrer
-#     jeweiligen ID).
-#  5) Warten, bis "Fertig!" erscheint - bei ~1057 Eintraegen auf GPU
-#     realistisch 20-60 Minuten, ohne GPU deutlich laenger.
-#  6) audio_output.zip wird automatisch zum Download angeboten.
-#  7) Diese zip-Datei an Claude zurueckschicken - der Rest (Einbau in die
+#     (keine GPU noetig - dieses Skript ruft nur einen Online-Dienst auf,
+#     der normale kostenlose CPU-Laufzeittyp reicht locker)
+#  2) Diesen kompletten Code in eine Zelle einfuegen, ausfuehren.
+#  3) Im Upload-Dialog "audio_worklist.csv" auswaehlen (die Datei, die dir
+#     mitgeschickt wurde - enthaelt alle Woerter/Saetze mit ihrer ID).
+#  4) Warten, bis "Fertig!" erscheint - da nur Netzwerk-Anfragen noetig
+#     sind (kein Modell-Download, keine GPU-Berechnung), ist das deutlich
+#     schneller als mit MMS: bei ~1057 Eintraegen realistisch 5-15 Minuten.
+#  5) audio_output.zip wird automatisch zum Download angeboten.
+#  6) Diese zip-Datei an Claude zurueckschicken - der Rest (Einbau in die
 #     App) passiert dann automatisch.
 #
-#  Wichtig zur Qualitaet: das Modell wurde laut Meta ueberwiegend mit
-#  Lesungen religioeser Texte trainiert - Alltagswoerter sollten trotzdem
-#  verstaendlich sein, aber Betonung/Klang kann stellenweise ungewohnt
-#  klingen. Am besten nach dem ersten Durchlauf ein paar zufaellige Dateien
-#  aus output_mp3/ anhoeren, bevor du das ganze Paket zurueckschickst.
+#  Stimme wechseln: VOICE unten auf "am-ET-MekdesNeural" (weiblich) statt
+#  "am-ET-AmehaNeural" (maennlich) setzen, wenn dir die andere besser
+#  gefaellt - am besten vorher mit ein paar Woertern beide ausprobieren.
+#  SPEECH_RATE ("-10%") laesst die Stimme etwas langsamer sprechen als im
+#  normalen Gespraech - das verbessert erfahrungsgemaess die Verstaend-
+#  lichkeit fuer Sprachlerner. Auf 0% stellen fuer normales Sprechtempo.
 # ============================================================
 
-!pip install -q --upgrade transformers accelerate
-!git clone -q https://github.com/isi-nlp/uroman.git
-# Falls diese Zeile mit "perl: command not found" fehlschlaegt (Colab hat
-# perl normalerweise vorinstalliert), einmalig zusaetzlich ausfuehren:
-# !apt-get -y install perl ffmpeg
+!pip install -q edge-tts
 
+import asyncio
 import csv
 import os
 import shutil
 import subprocess
 
-import torch
-from transformers import VitsModel, VitsTokenizer, set_seed
-import scipy.io.wavfile
+import edge_tts
 from google.colab import files
 
-os.environ["UROMAN"] = os.path.abspath("uroman")
+VOICE = "am-ET-AmehaNeural"
+SPEECH_RATE = "-10%"
+MAX_CONCURRENT_REQUESTS = 8
+MAX_RETRIES = 3
 
-MODEL_NAME = "facebook/mms-tts-amh"
-WAV_DIR = "output_wav"
+RAW_DIR = "output_raw"
 MP3_DIR = "output_mp3"
-os.makedirs(WAV_DIR, exist_ok=True)
+os.makedirs(RAW_DIR, exist_ok=True)
 os.makedirs(MP3_DIR, exist_ok=True)
 
 print("Bitte audio_worklist.csv auswaehlen...")
 uploaded = files.upload()
 csv_path = list(uploaded.keys())[0]
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Geraet: {device}")
-
-tokenizer = VitsTokenizer.from_pretrained(MODEL_NAME)
-model = VitsModel.from_pretrained(MODEL_NAME).to(device)
-print(f"Braucht uroman-Umschrift: {tokenizer.is_uroman}")
-
-
-def uromanize(text, uroman_path):
-    """Wandelt Ge'ez-Text in lateinische Schrift um - das MMS-TTS-Modell
-    erwartet laut offizieller Doku fuer nicht-lateinische Schriften diese
-    Vorverarbeitung."""
-    script_path = os.path.join(uroman_path, "bin", "uroman.pl")
-    process = subprocess.Popen(
-        ["perl", script_path],
-        stdin=subprocess.PIPE,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-    )
-    stdout, stderr = process.communicate(input=text.encode("utf-8"))
-    if process.returncode != 0:
-        raise ValueError(f"uroman-Fehler {process.returncode}: {stderr.decode()}")
-    return stdout.decode("utf-8").strip()
-
-
 with open(csv_path, encoding="utf-8") as f:
     rows = list(csv.DictReader(f))
 
-print(f"{len(rows)} Eintraege gefunden.")
+print(f"{len(rows)} Eintraege gefunden. Stimme: {VOICE}, Tempo: {SPEECH_RATE}")
 
-for i, row in enumerate(rows):
+
+async def synthesize_one(row, semaphore):
     item_id = row["id"]
     text = row["amharic"]
-    wav_path = os.path.join(WAV_DIR, f"{item_id}.wav")
+    raw_path = os.path.join(RAW_DIR, f"{item_id}.mp3")
 
-    if os.path.exists(wav_path):
-        continue  # schon erzeugt (z.B. nach Neustart der Zelle) - ueberspringen
+    if os.path.exists(raw_path):
+        return  # schon erzeugt (z.B. nach Neustart der Zelle) - ueberspringen
 
-    prepared = uromanize(text, os.environ["UROMAN"]) if tokenizer.is_uroman else text
-    inputs = tokenizer(text=prepared, return_tensors="pt").to(model.device)
+    async with semaphore:
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                communicate = edge_tts.Communicate(text, VOICE, rate=SPEECH_RATE)
+                await communicate.save(raw_path)
+                return
+            except Exception as exc:  # Netzwerk-Hickser sind bei vielen
+                # schnellen Anfragen an einen kostenlosen Dienst normal.
+                if attempt == MAX_RETRIES:
+                    print(f"  FEHLER bei {item_id} nach {MAX_RETRIES} Versuchen: {exc}")
+                else:
+                    await asyncio.sleep(2 * attempt)
 
-    set_seed(555)  # fuer reproduzierbare Ergebnisse
-    with torch.no_grad():
-        outputs = model(**inputs)
-    waveform = outputs.waveform[0].cpu().numpy()
 
-    scipy.io.wavfile.write(wav_path, rate=model.config.sampling_rate, data=waveform)
+async def synthesize_all():
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT_REQUESTS)
+    done = 0
+    for i in range(0, len(rows), MAX_CONCURRENT_REQUESTS):
+        batch = rows[i:i + MAX_CONCURRENT_REQUESTS]
+        await asyncio.gather(*(synthesize_one(row, semaphore) for row in batch))
+        done += len(batch)
+        print(f"{min(done, len(rows))}/{len(rows)} erledigt...")
 
-    if (i + 1) % 25 == 0 or (i + 1) == len(rows):
-        print(f"{i + 1}/{len(rows)} erledigt...")
 
-print("Konvertiere zu MP3 (deutlich kleinere Dateigroesse fuer die App)...")
-for fname in os.listdir(WAV_DIR):
-    if not fname.endswith(".wav"):
+await synthesize_all()
+
+print("Normalisiere Encoding (garantiert abspielbares Format fuer Android/iOS/Web)...")
+for fname in os.listdir(RAW_DIR):
+    if not fname.endswith(".mp3"):
         continue
-    wav_path = os.path.join(WAV_DIR, fname)
-    mp3_path = os.path.join(MP3_DIR, fname.replace(".wav", ".mp3"))
-    # -ar 44100 is required: the TTS model outputs 16000 Hz, and libmp3lame
-    # silently switches to the less-compatible MPEG-2 Layer III profile for
-    # any input below 32000 Hz. That profile plays unreliably on real
-    # Android devices and some browsers (confirmed root cause of the
-    # "Audio funktioniert nicht" bug - see ENTSCHEIDUNGEN.md). Resampling to
-    # a standard rate keeps the output in the universally-supported
-    # MPEG-1 Layer III profile.
+    raw_path = os.path.join(RAW_DIR, fname)
+    mp3_path = os.path.join(MP3_DIR, fname)
+    # -ar 44100 ist hier keine reine Vorsichtsmassnahme, sondern noetig:
+    # der Dienst liefert das Rohaudio als 24 kHz mp3 - unter 32 kHz wechselt
+    # praktisch jeder MP3-Encoder (nicht nur ffmpeg) auf das weniger
+    # kompatible MPEG-2-Profil, exakt die schon behobene Ursache des
+    # "Audio funktioniert nicht"-Bugs bei den vorherigen MMS-Dateien (siehe
+    # ENTSCHEIDUNGEN.md) - ohne dieses Resampling wuerde derselbe Fehler
+    # mit der neuen Stimme nur wieder auftreten.
     subprocess.run(
-        ["ffmpeg", "-y", "-i", wav_path, "-ar", "44100", "-codec:a", "libmp3lame", "-qscale:a", "4", mp3_path],
+        ["ffmpeg", "-y", "-i", raw_path, "-ar", "44100", "-codec:a", "libmp3lame", "-qscale:a", "4", mp3_path],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
@@ -124,3 +123,4 @@ print("Fertig! Packe alles in ein zip...")
 shutil.make_archive("audio_output", "zip", MP3_DIR)
 files.download("audio_output.zip")
 print("audio_output.zip wird heruntergeladen - das ist die Datei fuer Claude.")
+print("Tipp: vor dem Zurueckschicken ein paar zufaellige Dateien aus output_mp3/ anhoeren.")
