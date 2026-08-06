@@ -47,10 +47,12 @@ class EthiopiaMap {
   // Wide enough to comfortably contain both every GeoPoint below AND every
   // vertex of outline() with margin to spare - a vertex/marker landing
   // right at (or beyond) this box's edge would clamp flat against the
-  // canvas border instead of showing its real position.
-  static const double _minLon = 31.0;
-  static const double _maxLon = 50.0;
-  static const double _minLat = 2.3;
+  // canvas border instead of showing its real position. Etappe 22 Nachtrag
+  // 4: refit around the real boundary's actual bounding box (lon
+  // 32.95-47.79, lat 3.42-14.96) instead of a guessed one.
+  static const double _minLon = 32.0;
+  static const double _maxLon = 49.0;
+  static const double _minLat = 2.5;
   static const double _maxLat = 16.0;
 
   // Inset from the canvas edge so markers/outline never touch the border.
@@ -63,26 +65,20 @@ class EthiopiaMap {
   // zueinander" (Etappe 22 brief) license: every place keeps its correct
   // rough compass direction from the others, just exaggerated in distance
   // enough to stay tappable as separate nodes on a small phone screen.
-  // Etappe 22 Nachtrag 2: re-checked against a real administrative map the
-  // user provided - Oromia/Sidama were sitting well outside their real
-  // zones (near the South-Ethiopia/Kenya border), and Harar was pushed
-  // implausibly far east. Now anchored on each region's actual main city
-  // (Jimma, Hawassa, Harar), only Harar nudged a little further east than
-  // real life so it stays a separate tappable node from Addis.
-  // Oromia/Sidama/Harar's exact lon/lat below are pulled further apart than
-  // their real positions (Jimma, Hawassa, Harar city) - measured against the
-  // actual rendered map canvas (test run: 576x341, ~25.5px/degree lon,
-  // ~20.9px/degree lat), every pair below clears the marker's 96x138px tap
-  // box on at least one axis. A more realistic-but-tighter clustering here
-  // is exactly what caused the "tap lands on the wrong region" bug fixed
-  // earlier in Etappe 22 - direction from Addis is kept correct, distance
-  // is not.
+  // Etappe 22 Nachtrag 4: re-verified against the REAL boundary polygon
+  // below (not just against each other) using a throwaway point-in-polygon
+  // script - every position here is confirmed to land inside the actual
+  // country outline, and every pair is confirmed to clear the marker's
+  // 96x138px tap box on at least one axis at the map's real rendered size
+  // (576x341 in the widget-test harness). Oromia/Sidama/Harar still don't
+  // sit exactly on Jimma/Hawassa/Harar city - inside the real outline AND
+  // mutually tappable at the same time left less room than hoped for.
   static const Map<JourneyRegion, GeoPoint> geoPositions = {
     JourneyRegion.addisAbeba: GeoPoint(38.75, 9.0), // capital, centre
     JourneyRegion.tigray: GeoPoint(38.7, 14.0), // Aksum/Mekelle area, far north
-    JourneyRegion.oromia: GeoPoint(33.5, 7.5), // Jimma area, green south-western highlands
-    JourneyRegion.sidama: GeoPoint(43.5, 4.0), // south, pulled south-east for tap clearance
-    JourneyRegion.harar: GeoPoint(44.0, 11.5), // Harar, east
+    JourneyRegion.oromia: GeoPoint(34.0, 7.5), // green south-western highlands, near Gambela/Jimma
+    JourneyRegion.sidama: GeoPoint(42.3, 4.5), // south, pulled south-east to stay clear of Addis
+    JourneyRegion.harar: GeoPoint(46.5, 8.1), // Harar, east
   };
 
   static MapNodePosition _project(GeoPoint geo) {
@@ -95,116 +91,185 @@ class EthiopiaMap {
     for (final entry in geoPositions.entries) entry.key: _project(entry.value),
   };
 
-  /// A simplified silhouette of Ethiopia (Etappe 22, redrawn Nachtrag 2
-  /// against a real reference map the user sent) - not survey-accurate,
-  /// but deliberately tracing the handful of features that actually make
-  /// the shape *read* as Ethiopia: the small jagged northern edge, the
-  /// narrow notch pointing at Djibouti, the long near-straight diagonal
-  /// Somalia border (the single most distinctive edge of the country), the
-  /// wavy Kenya border, and the rounded south-west corner opening onto the
-  /// wavier Sudan/South-Sudan border. Vertices are approximate (lon, lat)
-  /// pairs projected through the same [_project] used for markers, then
-  /// smoothed the same way [RegionMapLayout.smoothPathThrough] smooths
-  /// station paths.
+  /// Ethiopia's real national boundary (Etappe 22 Nachtrag 4) - the user
+  /// asked explicitly for the outline from a reference map "1:1" instead of
+  /// a further hand-stylized guess, so this is the actual boundary polygon
+  /// (source: the `johan/world.geo.json` ETH.geo.json dataset, itself
+  /// derived from real survey data), used as-is with no smoothing. It's
+  /// already a simplified ~58-point polygon, not full-resolution survey
+  /// detail, so it stays "nicht zu detailliert" while being the real shape
+  /// rather than an approximation of it.
   static const List<GeoPoint> _outlineVertices = [
-    GeoPoint(36.5, 14.7), // NW, Sudan/Eritrea/Ethiopia corner
-    GeoPoint(38.0, 14.9), // N, small jag up
-    GeoPoint(39.3, 14.3), // N, dip near the Eritrea/Tigray border
-    GeoPoint(40.2, 14.6), // N, jag up again
-    GeoPoint(41.3, 13.9), // NE, turning toward the Afar wedge
-    GeoPoint(42.0, 12.5), // NE, narrowing
-    GeoPoint(42.7, 11.3), // the notch tip pointing at Djibouti
-    GeoPoint(43.3, 10.5), // sharp turn - start of the long straight SE edge
-    GeoPoint(45.5, 8.3), // the long straight Somalia border, continuing
-    GeoPoint(47.5, 6.2), // the long straight Somalia border, continuing
-    GeoPoint(47.9, 5.0), // easternmost/south-easternmost point
-    GeoPoint(46.0, 4.0), // turning SW along the Kenya/Somalia border
-    GeoPoint(43.0, 3.6), // continuing SW
-    GeoPoint(40.0, 4.2), // wavy southern (Kenya) edge
-    GeoPoint(37.5, 3.6), // wavy southern edge continues
-    GeoPoint(35.7, 4.5), // SW corner starting to round
-    GeoPoint(34.0, 6.0), // rounding the SW (Gambela) corner
-    GeoPoint(33.0, 8.0), // W, Gambela bulge
-    GeoPoint(33.3, 11.0), // W, Sudan border, gentle wave
-    GeoPoint(34.5, 13.5), // W, Sudan border, gentle wave
-    GeoPoint(36.5, 14.7), // back to start
+    GeoPoint(37.90607, 14.95943),
+    GeoPoint(38.51295, 14.50547),
+    GeoPoint(39.0994, 14.74064),
+    GeoPoint(39.34061, 14.53155),
+    GeoPoint(40.02625, 14.51959),
+    GeoPoint(40.8966, 14.11864),
+    GeoPoint(41.1552, 13.77333),
+    GeoPoint(41.59856, 13.45209),
+    GeoPoint(42.00975, 12.86582),
+    GeoPoint(42.35156, 12.54223),
+    GeoPoint(42.0, 12.1),
+    GeoPoint(41.66176, 11.6312),
+    GeoPoint(41.73959, 11.35511),
+    GeoPoint(41.75557, 11.05091),
+    GeoPoint(42.31414, 11.0342),
+    GeoPoint(42.55493, 11.10511),
+    GeoPoint(42.776852, 10.926879),
+    GeoPoint(42.55876, 10.57258),
+    GeoPoint(42.92812, 10.02194),
+    GeoPoint(43.29699, 9.54048),
+    GeoPoint(43.67875, 9.18358),
+    GeoPoint(46.94834, 7.99688), // start of the long, near-straight Somalia border
+    GeoPoint(47.78942, 8.003),
+    GeoPoint(44.9636, 5.00162),
+    GeoPoint(43.66087, 4.95755),
+    GeoPoint(42.76967, 4.25259),
+    GeoPoint(42.12861, 4.23413),
+    GeoPoint(41.855083, 3.918912),
+    GeoPoint(41.1718, 3.91909),
+    GeoPoint(40.76848, 4.25702),
+    GeoPoint(39.85494, 3.83879),
+    GeoPoint(39.559384, 3.42206), // southernmost point
+    GeoPoint(38.89251, 3.50074),
+    GeoPoint(38.67114, 3.61607),
+    GeoPoint(38.43697, 3.58851),
+    GeoPoint(38.120915, 3.598605),
+    GeoPoint(36.855093, 4.447864),
+    GeoPoint(36.159079, 4.447864),
+    GeoPoint(35.817448, 4.776966),
+    GeoPoint(35.817448, 5.338232),
+    GeoPoint(35.298007, 5.506),
+    GeoPoint(34.70702, 6.59422),
+    GeoPoint(34.25032, 6.82607),
+    GeoPoint(34.0751, 7.22595),
+    GeoPoint(33.56829, 7.71334),
+    GeoPoint(32.95418, 7.78497), // westernmost point
+    GeoPoint(33.2948, 8.35458),
+    GeoPoint(33.8255, 8.37916),
+    GeoPoint(33.97498, 8.68456),
+    GeoPoint(33.96162, 9.58358),
+    GeoPoint(34.25745, 10.63009),
+    GeoPoint(34.73115, 10.91017),
+    GeoPoint(34.83163, 11.31896),
+    GeoPoint(35.26049, 12.08286),
+    GeoPoint(35.86363, 12.57828),
+    GeoPoint(36.27022, 13.56333),
+    GeoPoint(36.42951, 14.42211),
+    GeoPoint(37.59377, 14.2131),
+    GeoPoint(37.90607, 14.95943), // back to start
   ];
 
-  /// Rough, deliberately oversized neighbouring-territory shapes (Etappe 22
-  /// Nachtrag 2) - see [NeighborLand]. Each traces loosely along the
-  /// matching stretch of [_outlineVertices] on the inward-facing edge (so
-  /// Ethiopia's own opaque fill, drawn on top, covers the seam) and then
-  /// sweeps well past the projection box on every other edge, so it always
-  /// reaches the canvas border regardless of aspect ratio. Colours are a
-  /// tight family of near-neutral warm greys (never green) - on the
-  /// reference map the user sent, neighbouring countries are plain
-  /// background next to Ethiopia's own coloured, detailed terrain, and
-  /// that contrast is the point: Ethiopia should visually lead.
+  /// Deliberately oversized neighbouring-territory shapes (Etappe 22
+  /// Nachtrag 2, re-fit in Nachtrag 4 to the real outline above) - see
+  /// [NeighborLand]. The edge facing Ethiopia directly reuses consecutive
+  /// runs of [_outlineVertices] (so it hugs the real border exactly, not an
+  /// approximation of it) before sweeping far outside the canvas on every
+  /// other edge; Ethiopia's own opaque fill (drawn on top) covers the seam
+  /// regardless. Colours are a tight family of near-neutral warm greys
+  /// (never green) - on the reference map the user sent, neighbouring
+  /// countries are plain background next to Ethiopia's own coloured,
+  /// detailed terrain, and that contrast is the point.
   static const List<NeighborLand> neighborLands = [
-    // Eritrea, north.
+    // Eritrea, north - hugs the vertices from the NW corner to the start
+    // of the Afar wedge.
     NeighborLand(Color(0xFFE2DDD0), [
-      GeoPoint(34.0, 20.0),
-      GeoPoint(45.0, 20.0),
-      GeoPoint(43.5, 12.0),
-      GeoPoint(41.3, 13.4),
-      GeoPoint(40.2, 15.1),
-      GeoPoint(39.3, 14.8),
-      GeoPoint(38.0, 15.4),
-      GeoPoint(36.5, 15.2),
-      GeoPoint(34.0, 15.0),
-      GeoPoint(34.0, 20.0),
-    ]),
-    // Sudan and South Sudan, west (kept as one shape - the distinction
-    // doesn't matter at this zoom level).
-    NeighborLand(Color(0xFFDAD4C4), [
-      GeoPoint(28.0, 20.0),
-      GeoPoint(35.5, 15.5),
-      GeoPoint(34.5, 14.0),
-      GeoPoint(33.3, 11.5),
-      GeoPoint(33.0, 8.5),
-      GeoPoint(34.0, 6.5),
-      GeoPoint(35.7, 5.0),
-      GeoPoint(33.0, 2.0),
-      GeoPoint(28.0, 2.0),
-      GeoPoint(28.0, 20.0),
-    ]),
-    // Kenya, south.
-    NeighborLand(Color(0xFFD7D2BE), [
-      GeoPoint(32.0, -2.0),
-      GeoPoint(47.0, -2.0),
-      GeoPoint(47.9, 5.5),
-      GeoPoint(46.0, 4.5),
-      GeoPoint(43.0, 4.1),
-      GeoPoint(40.0, 4.7),
-      GeoPoint(37.5, 4.2),
-      GeoPoint(35.7, 5.0),
-      GeoPoint(33.0, 6.5),
-      GeoPoint(32.0, -2.0),
+      GeoPoint(30.0, 20.0),
+      GeoPoint(48.0, 20.0),
+      GeoPoint(41.1552, 13.77333),
+      GeoPoint(40.8966, 14.11864),
+      GeoPoint(40.02625, 14.51959),
+      GeoPoint(39.34061, 14.53155),
+      GeoPoint(39.0994, 14.74064),
+      GeoPoint(38.51295, 14.50547),
+      GeoPoint(37.90607, 14.95943),
+      GeoPoint(37.59377, 14.2131),
+      GeoPoint(36.42951, 14.42211),
+      GeoPoint(30.0, 20.0),
     ]),
     // Djibouti, the small notch just north of the Afar wedge.
     NeighborLand(Color(0xFFDCD5C0), [
-      GeoPoint(41.3, 14.5),
-      GeoPoint(44.5, 15.0),
-      GeoPoint(44.0, 11.5),
-      GeoPoint(42.7, 11.8),
-      GeoPoint(41.5, 13.0),
-      GeoPoint(41.3, 14.5),
+      GeoPoint(41.1552, 13.77333),
+      GeoPoint(45.0, 15.0),
+      GeoPoint(45.0, 9.5),
+      GeoPoint(42.55876, 10.57258),
+      GeoPoint(42.776852, 10.926879),
+      GeoPoint(42.55493, 11.10511),
+      GeoPoint(42.31414, 11.0342),
+      GeoPoint(41.75557, 11.05091),
+      GeoPoint(41.73959, 11.35511),
+      GeoPoint(41.66176, 11.6312),
+      GeoPoint(42.0, 12.1),
+      GeoPoint(42.35156, 12.54223),
+      GeoPoint(42.00975, 12.86582),
+      GeoPoint(41.59856, 13.45209),
+      GeoPoint(41.1552, 13.77333),
     ]),
     // Somalia, east/south-east - wraps around Ethiopia's long straight
     // south-eastern border.
     NeighborLand(Color(0xFFDFD9C8), [
-      GeoPoint(44.5, 13.0),
-      GeoPoint(51.0, 13.0),
-      GeoPoint(51.0, -3.0),
-      GeoPoint(41.0, -3.0),
-      GeoPoint(40.0, 3.8),
-      GeoPoint(43.0, 3.9),
-      GeoPoint(46.0, 4.2),
-      GeoPoint(47.9, 4.8),
-      GeoPoint(47.5, 6.7),
-      GeoPoint(45.5, 8.8),
-      GeoPoint(43.3, 11.5),
-      GeoPoint(44.5, 13.0),
+      GeoPoint(42.55876, 10.57258),
+      GeoPoint(48.0, 12.0),
+      GeoPoint(51.0, 12.0),
+      GeoPoint(51.0, 2.0),
+      GeoPoint(41.0, 2.0),
+      GeoPoint(42.76967, 4.25259),
+      GeoPoint(43.66087, 4.95755),
+      GeoPoint(44.9636, 5.00162),
+      GeoPoint(47.78942, 8.003),
+      GeoPoint(46.94834, 7.99688),
+      GeoPoint(43.67875, 9.18358),
+      GeoPoint(43.29699, 9.54048),
+      GeoPoint(42.92812, 10.02194),
+      GeoPoint(42.55876, 10.57258),
+    ]),
+    // Kenya, south.
+    NeighborLand(Color(0xFFD7D2BE), [
+      GeoPoint(42.76967, 4.25259),
+      GeoPoint(43.0, 1.0),
+      GeoPoint(30.0, 1.0),
+      GeoPoint(36.855093, 4.447864),
+      GeoPoint(38.120915, 3.598605),
+      GeoPoint(38.43697, 3.58851),
+      GeoPoint(38.67114, 3.61607),
+      GeoPoint(38.89251, 3.50074),
+      GeoPoint(39.559384, 3.42206),
+      GeoPoint(39.85494, 3.83879),
+      GeoPoint(40.76848, 4.25702),
+      GeoPoint(41.1718, 3.91909),
+      GeoPoint(41.855083, 3.918912),
+      GeoPoint(42.12861, 4.23413),
+      GeoPoint(42.76967, 4.25259),
+    ]),
+    // Sudan and South Sudan, west (kept as one shape - the distinction
+    // doesn't matter at this zoom level).
+    NeighborLand(Color(0xFFDAD4C4), [
+      GeoPoint(36.855093, 4.447864),
+      GeoPoint(30.0, 2.0),
+      GeoPoint(28.0, 20.0),
+      GeoPoint(38.0, 20.0),
+      GeoPoint(36.42951, 14.42211),
+      GeoPoint(36.27022, 13.56333),
+      GeoPoint(35.86363, 12.57828),
+      GeoPoint(35.26049, 12.08286),
+      GeoPoint(34.83163, 11.31896),
+      GeoPoint(34.73115, 10.91017),
+      GeoPoint(34.25745, 10.63009),
+      GeoPoint(33.96162, 9.58358),
+      GeoPoint(33.97498, 8.68456),
+      GeoPoint(33.8255, 8.37916),
+      GeoPoint(33.2948, 8.35458),
+      GeoPoint(32.95418, 7.78497),
+      GeoPoint(33.56829, 7.71334),
+      GeoPoint(34.0751, 7.22595),
+      GeoPoint(34.25032, 6.82607),
+      GeoPoint(34.70702, 6.59422),
+      GeoPoint(35.298007, 5.506),
+      GeoPoint(35.817448, 5.338232),
+      GeoPoint(35.817448, 4.776966),
+      GeoPoint(36.159079, 4.447864),
+      GeoPoint(36.855093, 4.447864),
     ]),
   ];
 
@@ -221,7 +286,23 @@ class EthiopiaMap {
     return path;
   }
 
-  static Path outline(Size size) => _smoothClosedShape(_outlineVertices, size);
+  /// Straight-line version of the closed path above, used for Ethiopia's
+  /// own outline (Etappe 22 Nachtrag 4) so it stays exactly the real
+  /// boundary's shape - the bezier smoothing in [_smoothClosedShape] is
+  /// still right for the neighbours (rougher, deliberately less precise
+  /// context shapes), but would only soften/distort the real coordinates
+  /// here after the user asked for the reference outline "1:1".
+  static Path _straightClosedShape(List<GeoPoint> vertices, Size size) {
+    final points = [for (final v in vertices) _project(v).toOffset(size)];
+    final path = Path()..moveTo(points.first.dx, points.first.dy);
+    for (var i = 1; i < points.length; i++) {
+      path.lineTo(points[i].dx, points[i].dy);
+    }
+    path.close();
+    return path;
+  }
+
+  static Path outline(Size size) => _straightClosedShape(_outlineVertices, size);
 
   static Path neighborPath(NeighborLand land, Size size) => _smoothClosedShape(land.vertices, size);
 
