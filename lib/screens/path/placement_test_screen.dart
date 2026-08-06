@@ -14,10 +14,9 @@ import '../../state/settings_provider.dart';
 import '../../widgets/common/exercise_player.dart';
 import '../../widgets/common/lesson_progress_bar.dart';
 
-// No emojiMatch here deliberately: it silently produces no exercise at all
-// for a lexeme without an emoji (see ExerciseGenerator/_generateWordExercise),
-// which would make a block randomly shorter than 5 questions depending on
-// which words got drawn. wordChoice always generates for any lexeme.
+// wordChoice always generates for any lexeme, unlike some other exercise
+// types that can silently produce nothing for a given word - important
+// here since a block must always be exactly 5 questions.
 const _blockExerciseTypes = [
   ExerciseType.wordChoiceAmToNative,
   ExerciseType.wordChoiceNativeToAm,

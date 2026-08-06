@@ -123,7 +123,7 @@ List<Map<String, dynamic>> _standardLessons(String unitId, List<String> lexemeId
       'kind': 'wordPractice',
       'lexemeIds': lexemeIds,
       'sentenceIds': <String>[],
-      'exerciseTypes': ['wordChoiceAmToNative', 'wordChoiceNativeToAm', 'emojiMatch', 'pairMatching'],
+      'exerciseTypes': ['wordChoiceAmToNative', 'wordChoiceNativeToAm', 'pairMatching'],
     },
     {
       'id': '${unitId}_sentences',

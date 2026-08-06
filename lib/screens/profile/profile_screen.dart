@@ -312,20 +312,33 @@ class _Stat {
   const _Stat(this.label, this.value, this.icon);
 }
 
+/// A two-column grid of stat cards (Abschnitt Design) - deliberately built
+/// on [Wrap] + a measured half-width instead of `GridView.count`'s fixed
+/// `childAspectRatio`: a fixed aspect ratio hands each card a fixed pixel
+/// height, and a 2-line label at a larger accessibility font size (see
+/// `font_size_setting_test.dart`) could then need more height than that
+/// box had - exactly the "RenderFlex overflowed by 11 pixels" bug a real
+/// device hit. Sizing each card by its own content instead means no text
+/// size can ever overflow it again.
 class _StatsGrid extends StatelessWidget {
   final List<_Stat> stats;
   const _StatsGrid({required this.stats});
 
   @override
   Widget build(BuildContext context) {
-    return GridView.count(
-      crossAxisCount: 2,
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      mainAxisSpacing: 12,
-      crossAxisSpacing: 12,
-      childAspectRatio: 2.4,
-      children: [for (final s in stats) _StatCard(stat: s)],
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        const spacing = 12.0;
+        final cardWidth = (constraints.maxWidth - spacing) / 2;
+        return Wrap(
+          key: const ValueKey('profileStatsGrid'),
+          spacing: spacing,
+          runSpacing: spacing,
+          children: [
+            for (final s in stats) SizedBox(width: cardWidth, child: _StatCard(stat: s)),
+          ],
+        );
+      },
     );
   }
 }
@@ -341,8 +354,9 @@ class _StatCard extends StatelessWidget {
       color: theme.colorScheme.surfaceContainerLow,
       borderRadius: BorderRadius.circular(16),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
         child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Icon(stat.icon, color: theme.colorScheme.primary),
             const SizedBox(width: 10),

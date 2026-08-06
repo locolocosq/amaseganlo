@@ -76,8 +76,9 @@ class WorldMapPainter extends CustomPainter {
     // clipping the road to it risked visibly cutting the road off before
     // it reached a marker sitting right at (or just past) the coastline -
     // exactly the "keine Straßenbindung" bug a real device test found.
+    final positions = WorldMapLayout.positions(size);
     for (final region in WorldMapLayout.order) {
-      final center = WorldMapLayout.positions[region]!.toOffset(size);
+      final center = positions[region]!;
       final radius = size.shortestSide * 0.32;
       final paint = Paint()
         ..shader = RadialGradient(colors: [region.accent.withValues(alpha: 0.28), region.accent.withValues(alpha: 0.0)])
@@ -86,7 +87,7 @@ class WorldMapPainter extends CustomPainter {
     }
 
     for (final region in WorldMapLayout.order) {
-      _decorateZone(canvas, size, region);
+      _decorateZone(canvas, size, positions[region]!, region);
     }
 
     for (final road in WorldMapLayout.allRoads(size)) {
@@ -112,8 +113,7 @@ class WorldMapPainter extends CustomPainter {
     }
   }
 
-  void _decorateZone(Canvas canvas, Size size, JourneyRegion region) {
-    final center = WorldMapLayout.positions[region]!.toOffset(size);
+  void _decorateZone(Canvas canvas, Size size, Offset center, JourneyRegion region) {
     final rng = Sketch.seededRandom(region.index * 97 + 11);
     for (var i = 0; i < 4; i++) {
       final angle = rng.nextDouble() * math.pi * 2;

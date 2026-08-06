@@ -82,7 +82,6 @@
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",
-      "emojiMatch",
       "pairMatching"
     ]
   },

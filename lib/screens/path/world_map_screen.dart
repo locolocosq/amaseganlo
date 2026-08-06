@@ -142,7 +142,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     AppLocalizations l10n,
   ) {
     final region = WorldMapLayout.order[index];
-    final position = WorldMapLayout.positions[region]!.toOffset(size);
+    final position = WorldMapLayout.positions(size)[region]!;
 
     // [WorldMapLayout.order] can be longer than `curriculum.sections` - a
     // place added to the map/route ahead of having real content (Etappe
@@ -153,7 +153,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     // change needed here.
     if (index >= curriculum.sections.length) {
       return Positioned(
-        left: position.dx - 48,
+        left: position.dx - 40,
         top: position.dy - 32,
         child: RegionNodeMarker(
           region: region,
@@ -184,8 +184,8 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     final possible = section.unitIds.length * 5;
 
     return Positioned(
-      left: position.dx - 64,
-      top: position.dy - 44,
+      left: position.dx - 40,
+      top: position.dy - 32,
       child: RegionNodeMarker(
         region: region,
         title: section.title[locale] ?? section.id,

@@ -9,13 +9,14 @@ enum LessonKind {
   unitTest,
 }
 
-/// All 18 exercise types required by the spec. The exercise generator picks
-/// among the ones a lesson allows.
+/// Exercise types the generator picks among for a given lesson. `emojiMatch`
+/// (an emoji shown alone, asking for the word) was removed on request - an
+/// emoji should only ever appear alongside its word, never as the sole
+/// prompt of a question.
 enum ExerciseType {
   // word exercises
   wordChoiceAmToNative,
   wordChoiceNativeToAm,
-  emojiMatch,
   pairMatching,
   wordTyping,
   // sentence exercises

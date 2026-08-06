@@ -40,25 +40,6 @@ class ExerciseGenerator {
     );
   }
 
-  /// The emoji is shown, the learner picks the matching word.
-  GeneratedExercise generateEmojiMatch({required Lexeme subject, required String locale}) {
-    final correctAnswer = subject.t[locale] ?? subject.tr;
-    final options = _fourOptions(
-      subject: subject,
-      correctAnswer: correctAnswer,
-      answerTextFor: (l) => l.t[locale] ?? l.tr,
-      candidatePool: repository.allLexemes.where((l) => l.emoji.isNotEmpty).toList(),
-    );
-
-    return GeneratedExercise(
-      type: ExerciseType.emojiMatch,
-      subjectId: subject.id,
-      promptText: subject.emoji,
-      correctAnswer: correctAnswer,
-      options: options,
-    );
-  }
-
   /// Typing exercise: translate the word freely (checked with AnswerChecker,
   /// not against these options).
   GeneratedExercise generateWordTyping({

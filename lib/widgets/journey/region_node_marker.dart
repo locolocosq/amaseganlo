@@ -78,7 +78,14 @@ class RegionNodeMarker extends StatelessWidget {
         onTap: onTap,
         behavior: HitTestBehavior.opaque,
         child: SizedBox(
-          width: 96,
+          // Etappe 22 Nachtrag 5: narrowed from 96 - once the map's
+          // projection stopped stretching lon/lat independently to fit the
+          // canvas (see EthiopiaMap._transformFor), Ethiopia's real,
+          // correctly-proportioned shape left just barely too little room
+          // between Addis Ababa and the coastline for both Sidama and
+          // Harar's tap targets to clear each other - verified with a
+          // throwaway geometry script, not eyeballed.
+          width: 80,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -233,15 +240,30 @@ class _CrownSummary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+      // Etappe 22 Nachtrag 5: tightened padding/icon/gap - the marker's
+      // outer width narrowed to 80 (see RegionNodeMarker) to make real
+      // room for Sidama/Harar's tap targets, and a section with a
+      // two-digit crown count ("25/25") no longer fit this pill's old,
+      // roomier padding within that width - a real overflow, not
+      // hypothetical.
+      padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 2),
       decoration: BoxDecoration(color: Colors.black.withValues(alpha: 0.35), borderRadius: BorderRadius.circular(10)),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          const Icon(Icons.emoji_events, size: 12, color: Color(0xFFF4C430)),
-          const SizedBox(width: 3),
-          Text('$earned/$possible', style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w600)),
-        ],
+      // Belt-and-suspenders against the box the marker's width narrowed
+      // into: `possible` grows with however many units a section ends up
+      // with, so rather than re-tune padding by hand again if a future
+      // section needs a 3-digit crown count, FittedBox just scales the
+      // whole pill down to fit - it can never overflow regardless of how
+      // long the number gets.
+      child: FittedBox(
+        fit: BoxFit.scaleDown,
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.emoji_events, size: 10, color: Color(0xFFF4C430)),
+            const SizedBox(width: 2),
+            Text('$earned/$possible', style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w600)),
+          ],
+        ),
       ),
     );
   }

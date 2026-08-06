@@ -13,7 +13,6 @@ import 'progress_provider.dart';
 const Set<ExerciseType> _wordExerciseTypes = {
   ExerciseType.wordChoiceAmToNative,
   ExerciseType.wordChoiceNativeToAm,
-  ExerciseType.emojiMatch,
   ExerciseType.wordTyping,
   ExerciseType.listenChoice,
   ExerciseType.listenTyping,
@@ -305,10 +304,6 @@ class LessonProvider extends ChangeNotifier {
           amToNative: false,
           locale: locale,
         );
-      case ExerciseType.emojiMatch:
-        return lexeme.emoji.isNotEmpty
-            ? _generator.generateEmojiMatch(subject: lexeme, locale: locale)
-            : null;
       case ExerciseType.wordTyping:
         return _generator.generateWordTyping(
           subject: lexeme,

@@ -3,16 +3,6 @@ import 'dart:ui';
 
 import 'journey_regions.dart';
 
-/// A point on a map expressed as a fraction (0..1) of the canvas it's drawn
-/// on, so layouts stay correct at any screen size.
-class MapNodePosition {
-  final double x;
-  final double y;
-  const MapNodePosition(this.x, this.y);
-
-  Offset toOffset(Size size) => Offset(x * size.width, y * size.height);
-}
-
 /// A very rough real-world longitude/latitude, used only to place a place's
 /// map marker at roughly the right spot relative to the others - never for
 /// actual cartography or distance math (Etappe 22).
@@ -35,6 +25,15 @@ class NeighborLand {
   final Color color;
   final List<GeoPoint> vertices;
   const NeighborLand(this.color, this.vertices);
+}
+
+/// A uniform lon/lat-to-pixel [scale] plus centring offset ([dx]/[dy]) for
+/// one specific canvas size - see [EthiopiaMap._transformFor].
+class _MapTransform {
+  final double scale;
+  final double dx;
+  final double dy;
+  const _MapTransform({required this.scale, required this.dx, required this.dy});
 }
 
 /// Converts the approximate [GeoPoint]s below into fractional map
@@ -73,23 +72,55 @@ class EthiopiaMap {
   // (576x341 in the widget-test harness). Oromia/Sidama/Harar still don't
   // sit exactly on Jimma/Hawassa/Harar city - inside the real outline AND
   // mutually tappable at the same time left less room than hoped for.
+  // Etappe 22 Nachtrag 5: re-verified again after the projection stopped
+  // stretching lon/lat independently to fill the canvas (see
+  // _transformFor) - the old per-axis stretch had quietly given markers
+  // more horizontal room than the real, uniform scale actually allows.
+  // Under the real scale, clearing Addis Ababa via longitude alone needs
+  // ~4.5° - almost exactly the entire real width of Ethiopia east of Addis
+  // (the coastline's easternmost point is only ~4.5° further east again).
+  // There wasn't enough real room left over for Sidama AND Harar to also
+  // clear each other, so the marker pennant was narrowed slightly (see
+  // [RegionNodeMarker]) to buy back a real, verified margin.
   static const Map<JourneyRegion, GeoPoint> geoPositions = {
     JourneyRegion.addisAbeba: GeoPoint(38.75, 9.0), // capital, centre
     JourneyRegion.tigray: GeoPoint(38.7, 14.0), // Aksum/Mekelle area, far north
     JourneyRegion.oromia: GeoPoint(34.0, 7.5), // green south-western highlands, near Gambela/Jimma
-    JourneyRegion.sidama: GeoPoint(42.3, 4.5), // south, pulled south-east to stay clear of Addis
-    JourneyRegion.harar: GeoPoint(46.5, 8.1), // Harar, east
+    JourneyRegion.sidama: GeoPoint(43.5, 5.2), // south, pulled south-east to stay clear of Addis
+    JourneyRegion.harar: GeoPoint(47.5, 8.0), // Harar, at the far eastern tip
   };
 
-  static MapNodePosition _project(GeoPoint geo) {
-    final fx = ((geo.lon - _minLon) / (_maxLon - _minLon)).clamp(0.0, 1.0);
-    final fy = (1 - (geo.lat - _minLat) / (_maxLat - _minLat)).clamp(0.0, 1.0);
-    return MapNodePosition(_pad + fx * (1 - 2 * _pad), _pad + fy * (1 - 2 * _pad));
+  /// One scale factor + centring offset for a given canvas size (Etappe 22
+  /// Nachtrag 5) - computed once per paint, then reused for every point.
+  /// Using a single [scale] for both axes (the smaller of "fit by width" and
+  /// "fit by height") is the whole fix for "die Landkarte wird verzehrt": the
+  /// old projection normalized lon and lat to 0..1 independently, which
+  /// silently re-stretched the real shape to match whatever aspect ratio the
+  /// map card happened to have. Now the shape's true width:height ratio is
+  /// always preserved - the map just gets smaller (and letterboxed, via
+  /// [dx]/[dy]) on a card whose aspect ratio doesn't match.
+  static _MapTransform _transformFor(Size size) {
+    final lonSpan = _maxLon - _minLon;
+    final latSpan = _maxLat - _minLat;
+    final availableWidth = size.width * (1 - 2 * _pad);
+    final availableHeight = size.height * (1 - 2 * _pad);
+    final scale = math.min(availableWidth / lonSpan, availableHeight / latSpan);
+    final dx = (size.width - lonSpan * scale) / 2;
+    final dy = (size.height - latSpan * scale) / 2;
+    return _MapTransform(scale: scale, dx: dx, dy: dy);
   }
 
-  static final Map<JourneyRegion, MapNodePosition> positions = {
-    for (final entry in geoPositions.entries) entry.key: _project(entry.value),
-  };
+  static Offset _offsetFor(GeoPoint geo, _MapTransform t) {
+    return Offset(t.dx + (geo.lon - _minLon) * t.scale, t.dy + (_maxLat - geo.lat) * t.scale);
+  }
+
+  /// Every place's pixel position for a given canvas size - recomputed per
+  /// paint (positions can no longer be cached size-independently once the
+  /// projection stopped normalizing to a 0..1 fraction per axis).
+  static Map<JourneyRegion, Offset> positions(Size size) {
+    final t = _transformFor(size);
+    return {for (final entry in geoPositions.entries) entry.key: _offsetFor(entry.value, t)};
+  }
 
   /// Ethiopia's real national boundary (Etappe 22 Nachtrag 4) - the user
   /// asked explicitly for the outline from a reference map "1:1" instead of
@@ -274,7 +305,8 @@ class EthiopiaMap {
   ];
 
   static Path _smoothClosedShape(List<GeoPoint> vertices, Size size) {
-    final points = [for (final v in vertices) _project(v).toOffset(size)];
+    final t = _transformFor(size);
+    final points = [for (final v in vertices) _offsetFor(v, t)];
     final path = Path()..moveTo(points.first.dx, points.first.dy);
     for (var i = 0; i < points.length - 1; i++) {
       final current = points[i];
@@ -293,7 +325,8 @@ class EthiopiaMap {
   /// context shapes), but would only soften/distort the real coordinates
   /// here after the user asked for the reference outline "1:1".
   static Path _straightClosedShape(List<GeoPoint> vertices, Size size) {
-    final points = [for (final v in vertices) _project(v).toOffset(size)];
+    final t = _transformFor(size);
+    final points = [for (final v in vertices) _offsetFor(v, t)];
     final path = Path()..moveTo(points.first.dx, points.first.dy);
     for (var i = 1; i < points.length; i++) {
       path.lineTo(points[i].dx, points[i].dy);
@@ -310,7 +343,7 @@ class EthiopiaMap {
   /// vertex) to canvas pixels - used by [WorldMapPainter] to anchor its
   /// highland/lowland terrain gradient on real geography instead of a
   /// fixed screen direction.
-  static Offset projectToOffset(GeoPoint geo, Size size) => _project(geo).toOffset(size);
+  static Offset projectToOffset(GeoPoint geo, Size size) => _offsetFor(geo, _transformFor(size));
 }
 
 /// Layout for the Ebene-1 world map: where each region's node sits, and the
@@ -329,15 +362,16 @@ class WorldMapLayout {
     JourneyRegion.harar,
   ];
 
-  static Map<JourneyRegion, MapNodePosition> get positions => EthiopiaMap.positions;
+  static Map<JourneyRegion, Offset> positions(Size size) => EthiopiaMap.positions(size);
 
   /// A gentle S-curve between two node positions (not a straight line) -
   /// the control point is offset perpendicular to the direct line, scaled
   /// by the distance, so the road always looks hand-drawn regardless of
   /// screen size/aspect ratio.
   static Path roadBetween(Size size, JourneyRegion from, JourneyRegion to, {double bow = 0.22}) {
-    final start = positions[from]!.toOffset(size);
-    final end = positions[to]!.toOffset(size);
+    final positionsForSize = positions(size);
+    final start = positionsForSize[from]!;
+    final end = positionsForSize[to]!;
     final mid = Offset((start.dx + end.dx) / 2, (start.dy + end.dy) / 2);
     final delta = end - start;
     final perpendicular = Offset(-delta.dy, delta.dx);

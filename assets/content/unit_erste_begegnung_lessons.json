@@ -11,7 +11,7 @@
     "kind": "wordPractice",
     "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
     "sentenceIds": [],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "emojiMatch", "pairMatching"]
+    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
   },
   {
     "id": "lesson_erste_begegnung_sentences",

@@ -27,11 +27,11 @@ void main() {
 
     expect(find.text('Gelernte Wörter'), findsOneWidget);
     expect(find.text('1'), findsWidgets); // 1 word learned
-    // Scoped to the stats grid: the app shell's AppBar (Etappe 19) now also
-    // shows total XP as a standing badge, so a plain find.text('1000') would
-    // match both and be ambiguous.
+    // Scoped to the stats grid (by key, not GridView - the app shell's
+    // AppBar (Etappe 19) now also shows total XP as a standing badge, so a
+    // plain find.text('1000') would match both and be ambiguous).
     expect(
-      find.descendant(of: find.byType(GridView), matching: find.text('1000')),
+      find.descendant(of: find.byKey(const ValueKey('profileStatsGrid')), matching: find.text('1000')),
       findsOneWidget,
     ); // total XP
 

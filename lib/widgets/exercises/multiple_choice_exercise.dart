@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 
-/// Covers wordChoiceAmToNative/NativeToAm, emojiMatch, sentenceGapChoice,
-/// listenChoice, trueFalse and (later) the Fidel sound/sign choice types -
-/// all of them are "show a prompt, pick one of N options".
+/// Covers wordChoiceAmToNative/NativeToAm, sentenceGapChoice, listenChoice,
+/// trueFalse and (later) the Fidel sound/sign choice types - all of them
+/// are "show a prompt, pick one of N options".
 class MultipleChoiceExercise extends StatelessWidget {
   final String promptText;
   final List<String> options;

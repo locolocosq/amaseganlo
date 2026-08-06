@@ -15,7 +15,6 @@ import '../../widgets/common/lesson_progress_bar.dart';
 const List<ExerciseType> _reviewExerciseTypes = [
   ExerciseType.wordChoiceAmToNative,
   ExerciseType.wordChoiceNativeToAm,
-  ExerciseType.emojiMatch,
   ExerciseType.pairMatching,
   ExerciseType.wordTyping,
 ];
