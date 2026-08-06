@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/language_names.dart';
+import '../../core/purchase_service.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/settings.dart';
@@ -23,6 +24,7 @@ class SettingsScreen extends StatelessWidget {
     final l10n = AppLocalizations.of(context);
     final settingsProvider = context.watch<SettingsProvider>();
     final settings = settingsProvider.settings;
+    final purchaseService = context.watch<PurchaseService>();
 
     void savedSnack() {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -80,20 +82,23 @@ class SettingsScreen extends StatelessWidget {
               spacing: 12,
               children: List.generate(AppAccentColors.values.length, (i) {
                 final selected = settings.accentColorIndex == i;
+                final locked = AppAccentColors.isPremium(i) && !purchaseService.isPremium;
                 return InkWell(
                   borderRadius: BorderRadius.circular(24),
-                  onTap: () => settingsProvider.setAccentColorIndex(i),
+                  onTap: () => locked ? context.push('/settings/premium') : settingsProvider.setAccentColorIndex(i),
                   child: Container(
                     width: 44,
                     height: 44,
                     decoration: BoxDecoration(
-                      color: AppAccentColors.of(i),
+                      color: locked ? AppAccentColors.of(i).withValues(alpha: 0.35) : AppAccentColors.of(i),
                       shape: BoxShape.circle,
                       border: selected
                           ? Border.all(color: Theme.of(context).colorScheme.onSurface, width: 3)
                           : null,
                     ),
-                    child: selected ? const Icon(Icons.check, color: Colors.white) : null,
+                    child: locked
+                        ? const Icon(Icons.lock_outline, color: Colors.white, size: 18)
+                        : (selected ? const Icon(Icons.check, color: Colors.white) : null),
                   ),
                 );
               }),
@@ -239,6 +244,14 @@ class SettingsScreen extends StatelessWidget {
             title: Text(l10n.settingsReduceMotion),
             value: settings.reduceMotion,
             onChanged: settingsProvider.setReduceMotion,
+          ),
+          const Divider(height: 32),
+          ListTile(
+            leading: Icon(Icons.workspace_premium_outlined, color: Theme.of(context).colorScheme.primary),
+            title: Text(l10n.settingsPremium),
+            subtitle: Text(purchaseService.isPremium ? l10n.settingsPremiumActive : l10n.settingsPremiumHint),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => context.push('/settings/premium'),
           ),
           const Divider(height: 32),
           ListTile(

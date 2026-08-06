@@ -3,9 +3,16 @@ import 'package:flutter/material.dart';
 
 import '../models/settings.dart';
 
-/// Six accent color choices. Deliberately no pure red - red is reserved for
+/// Accent color choices. Deliberately no pure red - red is reserved for
 /// error feedback throughout the app, never a selectable brand color.
+///
+/// The first [freeCount] are available to everyone; the rest are the
+/// Premium-only "Reise"-colors (Abschnitt Design/Etappe 12) - themed after
+/// things encountered on the Äthiopien-Reise rather than being an arbitrary
+/// paywall.
 class AppAccentColors {
+  static const int freeCount = 6;
+
   static const List<Color> values = [
     Color(0xFF0F7A3D), // green (default, nods to Ethiopia without being the flag)
     Color(0xFF1565C0), // blue
@@ -13,9 +20,13 @@ class AppAccentColors {
     Color(0xFF6A1B9A), // purple
     Color(0xFFE65100), // orange
     Color(0xFF3949AB), // indigo
+    Color(0xFF6F4E37), // "Kaffee" - Premium
+    Color(0xFF1B5E7A), // "Blauer Nil" - Premium
   ];
 
   static Color of(int index) => values[index.clamp(0, values.length - 1)];
+
+  static bool isPremium(int index) => index >= freeCount;
 }
 
 const Color successColor = Color(0xFFD4A017); // yellow, for success accents

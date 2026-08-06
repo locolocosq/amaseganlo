@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../../content/content_repository.dart';
 import '../../core/badges.dart';
 import '../../core/journey_regions.dart';
+import '../../core/purchase_service.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
@@ -22,6 +23,7 @@ class ProfileScreen extends StatelessWidget {
     final progress = context.watch<ProgressProvider>();
     final content = context.watch<ContentProvider>().repository;
     final settings = context.watch<SettingsProvider>().settings;
+    final isPremium = context.watch<PurchaseService>().isPremium;
     final locale =
         settings.localeCode ?? Localizations.localeOf(context).languageCode;
     final p = progress.progress;
@@ -37,14 +39,41 @@ class ProfileScreen extends StatelessWidget {
           label: Text(l10n.profileAssessmentTest),
         ),
         const SizedBox(height: 24),
-        Text(l10n.profilePassportTitle, style: Theme.of(context).textTheme.titleMedium),
-        const SizedBox(height: 4),
-        Text(
-          l10n.profilePassportHint,
-          style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+        Container(
+          padding: isPremium ? const EdgeInsets.all(12) : EdgeInsets.zero,
+          decoration: isPremium
+              ? BoxDecoration(
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(color: const Color(0xFFD4A017), width: 1.5),
+                  gradient: LinearGradient(
+                    colors: [const Color(0xFFD4A017).withValues(alpha: 0.10), Colors.transparent],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
+                )
+              : null,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Text(l10n.profilePassportTitle, style: Theme.of(context).textTheme.titleMedium),
+                  if (isPremium) ...[
+                    const SizedBox(width: 6),
+                    const Icon(Icons.workspace_premium, size: 18, color: Color(0xFFD4A017)),
+                  ],
+                ],
+              ),
+              const SizedBox(height: 4),
+              Text(
+                l10n.profilePassportHint,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+              ),
+              const SizedBox(height: 12),
+              _PassportRow(content: content, progress: p, locale: locale),
+            ],
+          ),
         ),
-        const SizedBox(height: 12),
-        _PassportRow(content: content, progress: p, locale: locale),
         const SizedBox(height: 24),
         _StatsGrid(
           stats: [

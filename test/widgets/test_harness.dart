@@ -10,6 +10,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:amaseganlo/app.dart';
 import 'package:amaseganlo/core/audio_service.dart';
+import 'package:amaseganlo/core/purchase_service.dart';
 import 'package:amaseganlo/core/router.dart';
 import 'package:amaseganlo/core/storage_service.dart';
 import 'package:amaseganlo/l10n/app_localizations.dart';
@@ -104,6 +105,11 @@ Future<void> pumpTestApp(
   await contentProvider.load();
 
   final progressProvider = ProgressProvider(storage);
+  // UnavailablePurchaseClient never touches a real platform channel and
+  // resolves isAvailable() to false instantly - the same reasoning as the
+  // fake TTS/audio/asset-bundle clients above.
+  final purchaseService = PurchaseService(storage: storage, client: UnavailablePurchaseClient());
+  await purchaseService.init();
   final settingsProvider = SettingsProvider(storage);
   final router = buildRouter(
     onboardingCompleted: () => settingsProvider.settings.onboardingCompleted,
@@ -117,6 +123,7 @@ Future<void> pumpTestApp(
         ChangeNotifierProvider.value(value: contentProvider),
         ChangeNotifierProvider.value(value: progressProvider),
         Provider<AudioService>.value(value: audioService),
+        ChangeNotifierProvider.value(value: purchaseService),
         ChangeNotifierProvider(
           create: (_) => LessonProvider(
             content: contentProvider.repository,

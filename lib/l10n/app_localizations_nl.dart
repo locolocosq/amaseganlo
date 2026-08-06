@@ -148,6 +148,61 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsReduceMotion => 'Beweging verminderen';
 
   @override
+  String get settingsPremium => 'Amaseganlo Premium';
+
+  @override
+  String get settingsPremiumHint => 'Steun de app & ontgrendel reiskleuren';
+
+  @override
+  String get settingsPremiumActive => 'Actief - bedankt voor je steun!';
+
+  @override
+  String get premiumTitle => 'Amaseganlo Premium';
+
+  @override
+  String get premiumHeadline => 'Steun de Ethiopië-reis';
+
+  @override
+  String get premiumDescription =>
+      'Met Amaseganlo Premium steun je de verdere ontwikkeling van de app en ontgrendel je exclusieve reiskleuren plus een speciale paspoorthoes.';
+
+  @override
+  String get premiumFeatureColors =>
+      '2 exclusieve accentkleuren: Koffie & Blauwe Nijl';
+
+  @override
+  String get premiumFeatureCover => 'Een speciale paspoorthoes';
+
+  @override
+  String get premiumFeatureSupport =>
+      'Je steunt de verdere ontwikkeling van de app';
+
+  @override
+  String get premiumBuyButton => 'Nu ontgrendelen';
+
+  @override
+  String get premiumRestoreButton => 'Aankopen herstellen';
+
+  @override
+  String get premiumAlreadyOwned => 'Je hebt Premium al ontgrendeld - bedankt!';
+
+  @override
+  String get premiumStoreUnavailable =>
+      'Aankopen zijn hier niet beschikbaar - alleen via de App Store-/Play Store-versie.';
+
+  @override
+  String get premiumPurchaseError => 'De aankoop kon niet worden voltooid.';
+
+  @override
+  String get premiumPurchaseCanceled => 'Aankoop geannuleerd.';
+
+  @override
+  String get premiumRestoreDone => 'Aankopen zijn gecontroleerd.';
+
+  @override
+  String get premiumPriceUnknown => 'Prijs niet beschikbaar';
+
+  @override
   String get settingsBackupProgress => 'Voortgang backuppen';
 
   @override

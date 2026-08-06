@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 
 import 'app.dart';
 import 'core/audio_service.dart';
+import 'core/purchase_service.dart';
 import 'core/router.dart';
 import 'core/storage_service.dart';
 import 'state/content_provider.dart';
@@ -67,6 +68,14 @@ Future<void> _runApp() async {
 
   final progressProvider = ProgressProvider(storage);
 
+  final purchaseService = PurchaseService(storage: storage);
+  // Fire-and-forget, same reasoning as contentProvider.load(): querying
+  // store availability can be slow (or simply unsupported, e.g. on web),
+  // and nothing in the UI needs the answer before first paint - the
+  // premium screen/accent-color picker just show "unavailable" until this
+  // resolves.
+  purchaseService.init();
+
   final settingsProvider = SettingsProvider(storage);
   void syncAudioSettings() {
     audioService.soundEnabled = settingsProvider.settings.soundEnabled;
@@ -88,6 +97,7 @@ Future<void> _runApp() async {
         ChangeNotifierProvider.value(value: contentProvider),
         ChangeNotifierProvider.value(value: progressProvider),
         Provider<AudioService>.value(value: audioService),
+        ChangeNotifierProvider.value(value: purchaseService),
         ChangeNotifierProvider(
           create: (_) => LessonProvider(
             content: contentProvider.repository,

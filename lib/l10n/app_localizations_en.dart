@@ -148,6 +148,62 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsReduceMotion => 'Reduce motion';
 
   @override
+  String get settingsPremium => 'Amaseganlo Premium';
+
+  @override
+  String get settingsPremiumHint => 'Support the app & unlock journey colors';
+
+  @override
+  String get settingsPremiumActive => 'Active - thank you for your support!';
+
+  @override
+  String get premiumTitle => 'Amaseganlo Premium';
+
+  @override
+  String get premiumHeadline => 'Support the Ethiopia journey';
+
+  @override
+  String get premiumDescription =>
+      'Amaseganlo Premium supports ongoing development of the app and unlocks exclusive journey colors plus a special passport cover.';
+
+  @override
+  String get premiumFeatureColors =>
+      '2 exclusive accent colors: Coffee & Blue Nile';
+
+  @override
+  String get premiumFeatureCover => 'A special passport cover';
+
+  @override
+  String get premiumFeatureSupport =>
+      'You support the app\'s continued development';
+
+  @override
+  String get premiumBuyButton => 'Unlock now';
+
+  @override
+  String get premiumRestoreButton => 'Restore purchases';
+
+  @override
+  String get premiumAlreadyOwned =>
+      'You\'ve already unlocked Premium - thank you!';
+
+  @override
+  String get premiumStoreUnavailable =>
+      'Purchases aren\'t available here - only through the App Store/Play Store version.';
+
+  @override
+  String get premiumPurchaseError => 'The purchase couldn\'t be completed.';
+
+  @override
+  String get premiumPurchaseCanceled => 'Purchase canceled.';
+
+  @override
+  String get premiumRestoreDone => 'Purchases have been checked.';
+
+  @override
+  String get premiumPriceUnknown => 'Price unavailable';
+
+  @override
   String get settingsBackupProgress => 'Back up progress';
 
   @override

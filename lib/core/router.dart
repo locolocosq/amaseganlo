@@ -19,6 +19,7 @@ import '../screens/review/dictionary_screen.dart';
 import '../screens/review/review_screen.dart';
 import '../screens/review/review_session_screen.dart';
 import '../screens/settings/about_screen.dart';
+import '../screens/settings/premium_screen.dart';
 import '../screens/settings/settings_screen.dart';
 import '../widgets/common/app_shell.dart';
 
@@ -125,6 +126,10 @@ GoRouter buildRouter({
     GoRoute(
       path: '/settings/about',
       builder: (context, state) => const AboutScreen(),
+    ),
+    GoRoute(
+      path: '/settings/premium',
+      builder: (context, state) => const PremiumScreen(),
     ),
     GoRoute(
       path: '/lesson/:unitId/chapter_test',

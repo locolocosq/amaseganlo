@@ -148,6 +148,64 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsReduceMotion => 'Bewegungen reduzieren';
 
   @override
+  String get settingsPremium => 'Amaseganlo Premium';
+
+  @override
+  String get settingsPremiumHint =>
+      'Unterstütze die App & schalte Reise-Farben frei';
+
+  @override
+  String get settingsPremiumActive => 'Aktiv - danke für deine Unterstützung!';
+
+  @override
+  String get premiumTitle => 'Amaseganlo Premium';
+
+  @override
+  String get premiumHeadline => 'Unterstütze die Äthiopien-Reise';
+
+  @override
+  String get premiumDescription =>
+      'Mit Amaseganlo Premium unterstützt du die Weiterentwicklung der App und schaltest exklusive Reise-Farben sowie ein besonderes Reisepass-Cover frei.';
+
+  @override
+  String get premiumFeatureColors =>
+      '2 exklusive Akzentfarben: Kaffee & Blauer Nil';
+
+  @override
+  String get premiumFeatureCover => 'Besonderes Reisepass-Cover';
+
+  @override
+  String get premiumFeatureSupport =>
+      'Du unterstützt die Weiterentwicklung der App';
+
+  @override
+  String get premiumBuyButton => 'Jetzt freischalten';
+
+  @override
+  String get premiumRestoreButton => 'Käufe wiederherstellen';
+
+  @override
+  String get premiumAlreadyOwned =>
+      'Du hast Premium bereits freigeschaltet - danke!';
+
+  @override
+  String get premiumStoreUnavailable =>
+      'Käufe sind hier nicht verfügbar - nur über die App-Store-/Play-Store-Version.';
+
+  @override
+  String get premiumPurchaseError =>
+      'Der Kauf konnte nicht abgeschlossen werden.';
+
+  @override
+  String get premiumPurchaseCanceled => 'Kauf abgebrochen.';
+
+  @override
+  String get premiumRestoreDone => 'Käufe wurden überprüft.';
+
+  @override
+  String get premiumPriceUnknown => 'Preis nicht verfügbar';
+
+  @override
   String get settingsBackupProgress => 'Fortschritt sichern';
 
   @override

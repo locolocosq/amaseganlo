@@ -147,6 +147,60 @@ class AppLocalizationsSv extends AppLocalizations {
   String get settingsReduceMotion => 'Minska rörelser';
 
   @override
+  String get settingsPremium => 'Amaseganlo Premium';
+
+  @override
+  String get settingsPremiumHint => 'Stöd appen & lås upp reskolorer';
+
+  @override
+  String get settingsPremiumActive => 'Aktiverat - tack för ditt stöd!';
+
+  @override
+  String get premiumTitle => 'Amaseganlo Premium';
+
+  @override
+  String get premiumHeadline => 'Stöd Etiopien-resan';
+
+  @override
+  String get premiumDescription =>
+      'Med Amaseganlo Premium stödjer du den fortsatta utvecklingen av appen och låser upp exklusiva reskolorer samt ett särskilt passomslag.';
+
+  @override
+  String get premiumFeatureColors =>
+      '2 exklusiva accentfärger: Kaffe & Blå Nilen';
+
+  @override
+  String get premiumFeatureCover => 'Ett särskilt passomslag';
+
+  @override
+  String get premiumFeatureSupport => 'Du stödjer appens fortsatta utveckling';
+
+  @override
+  String get premiumBuyButton => 'Lås upp nu';
+
+  @override
+  String get premiumRestoreButton => 'Återställ köp';
+
+  @override
+  String get premiumAlreadyOwned => 'Du har redan låst upp Premium - tack!';
+
+  @override
+  String get premiumStoreUnavailable =>
+      'Köp är inte tillgängliga här - endast via App Store-/Play Store-versionen.';
+
+  @override
+  String get premiumPurchaseError => 'Köpet kunde inte slutföras.';
+
+  @override
+  String get premiumPurchaseCanceled => 'Köp avbrutet.';
+
+  @override
+  String get premiumRestoreDone => 'Köp har kontrollerats.';
+
+  @override
+  String get premiumPriceUnknown => 'Pris ej tillgängligt';
+
+  @override
   String get settingsBackupProgress => 'Säkerhetskopiera framsteg';
 
   @override

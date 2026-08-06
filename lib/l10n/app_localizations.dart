@@ -378,6 +378,108 @@ abstract class AppLocalizations {
   /// **'Reduce motion'**
   String get settingsReduceMotion;
 
+  /// No description provided for @settingsPremium.
+  ///
+  /// In en, this message translates to:
+  /// **'Amaseganlo Premium'**
+  String get settingsPremium;
+
+  /// No description provided for @settingsPremiumHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Support the app & unlock journey colors'**
+  String get settingsPremiumHint;
+
+  /// No description provided for @settingsPremiumActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Active - thank you for your support!'**
+  String get settingsPremiumActive;
+
+  /// No description provided for @premiumTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Amaseganlo Premium'**
+  String get premiumTitle;
+
+  /// No description provided for @premiumHeadline.
+  ///
+  /// In en, this message translates to:
+  /// **'Support the Ethiopia journey'**
+  String get premiumHeadline;
+
+  /// No description provided for @premiumDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Amaseganlo Premium supports ongoing development of the app and unlocks exclusive journey colors plus a special passport cover.'**
+  String get premiumDescription;
+
+  /// No description provided for @premiumFeatureColors.
+  ///
+  /// In en, this message translates to:
+  /// **'2 exclusive accent colors: Coffee & Blue Nile'**
+  String get premiumFeatureColors;
+
+  /// No description provided for @premiumFeatureCover.
+  ///
+  /// In en, this message translates to:
+  /// **'A special passport cover'**
+  String get premiumFeatureCover;
+
+  /// No description provided for @premiumFeatureSupport.
+  ///
+  /// In en, this message translates to:
+  /// **'You support the app\'s continued development'**
+  String get premiumFeatureSupport;
+
+  /// No description provided for @premiumBuyButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock now'**
+  String get premiumBuyButton;
+
+  /// No description provided for @premiumRestoreButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore purchases'**
+  String get premiumRestoreButton;
+
+  /// No description provided for @premiumAlreadyOwned.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve already unlocked Premium - thank you!'**
+  String get premiumAlreadyOwned;
+
+  /// No description provided for @premiumStoreUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchases aren\'t available here - only through the App Store/Play Store version.'**
+  String get premiumStoreUnavailable;
+
+  /// No description provided for @premiumPurchaseError.
+  ///
+  /// In en, this message translates to:
+  /// **'The purchase couldn\'t be completed.'**
+  String get premiumPurchaseError;
+
+  /// No description provided for @premiumPurchaseCanceled.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase canceled.'**
+  String get premiumPurchaseCanceled;
+
+  /// No description provided for @premiumRestoreDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchases have been checked.'**
+  String get premiumRestoreDone;
+
+  /// No description provided for @premiumPriceUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Price unavailable'**
+  String get premiumPriceUnknown;
+
   /// No description provided for @settingsBackupProgress.
   ///
   /// In en, this message translates to:
