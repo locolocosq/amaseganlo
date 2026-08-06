@@ -162,13 +162,14 @@ class AudioService {
 
   /// Speaks [amharicText] (Ge'ez script) for [id] - a lexeme or sentence id,
   /// used to look up a bundled recording first. Falls back to
-  /// text-to-speech, then to silence.
+  /// text-to-speech if that recording is missing OR fails to actually
+  /// play (a bad/unsupported file must not mean silence when a working TTS
+  /// voice is available), then to silence only if neither works.
   Future<void> speakText({required String id, required String amharicText}) async {
     if (!soundEnabled || !isAmharicAvailable || amharicText.isEmpty) return;
 
     final assetPath = _wordAudio[id];
-    if (assetPath != null) {
-      await _playAsset(assetPath);
+    if (assetPath != null && await _playAsset(assetPath)) {
       return;
     }
 
@@ -193,11 +194,15 @@ class AudioService {
     await _playAsset(assetPath);
   }
 
-  Future<void> _playAsset(String assetPath) async {
+  /// Returns whether playback actually succeeded, so [speakText] can fall
+  /// back to TTS on failure instead of staying silent.
+  Future<bool> _playAsset(String assetPath) async {
     try {
       await _player.play(assetPath, volume: volume).timeout(_playTimeout);
+      return true;
     } catch (_) {
-      // Declared in the manifest but missing/unplayable - silent skip.
+      // Declared in the manifest but missing/unplayable.
+      return false;
     }
   }
 

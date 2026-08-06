@@ -107,8 +107,15 @@ for fname in os.listdir(WAV_DIR):
         continue
     wav_path = os.path.join(WAV_DIR, fname)
     mp3_path = os.path.join(MP3_DIR, fname.replace(".wav", ".mp3"))
+    # -ar 44100 is required: the TTS model outputs 16000 Hz, and libmp3lame
+    # silently switches to the less-compatible MPEG-2 Layer III profile for
+    # any input below 32000 Hz. That profile plays unreliably on real
+    # Android devices and some browsers (confirmed root cause of the
+    # "Audio funktioniert nicht" bug - see ENTSCHEIDUNGEN.md). Resampling to
+    # a standard rate keeps the output in the universally-supported
+    # MPEG-1 Layer III profile.
     subprocess.run(
-        ["ffmpeg", "-y", "-i", wav_path, "-codec:a", "libmp3lame", "-qscale:a", "4", mp3_path],
+        ["ffmpeg", "-y", "-i", wav_path, "-ar", "44100", "-codec:a", "libmp3lame", "-qscale:a", "4", mp3_path],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
