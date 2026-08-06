@@ -40,14 +40,19 @@ flutter:
   assets:
     - assets/content/
     - assets/audio/
+    - assets/audio/words/
     - assets/fonts/
 
   # assets/icon/ wird erst ergänzt, sobald eine echte Icon-Datei dort liegt
   # (siehe ENTSCHEIDUNGEN.md Etappe 11) - ein deklarierter, aber leerer
   # Asset-Ordner erzeugt sonst eine flutter-analyze-Warnung.
-  # assets/audio/ enthält bisher nur manifest.json (noch ohne echte
-  # Audiodateien, siehe ENTSCHEIDUNGEN.md Etappe 7) - der Ordner selbst
-  # existiert also und darf deklariert werden.
+  # Verzeichnis-Einträge in Flutters Assets sind NICHT rekursiv - jede
+  # Unterordner-Ebene muss einzeln aufgeführt werden. "assets/audio/"
+  # allein deckt nur manifest.json direkt darin ab, nicht die ~1057
+  # echten Aufnahmen in assets/audio/words/ (siehe ENTSCHEIDUNGEN.md
+  # Etappe 21 - genau das fehlte hier bisher und war der eigentliche Grund
+  # für "kein Ton" auf echten Geräten, seit die Dateien in Etappe 15/16
+  # angelegt wurden).
 
   fonts:
     - family: NotoSansEthiopic
