@@ -217,6 +217,8 @@
   "profileDaysLearned": "Dagar med lärande",
   "profileAccuracy": "Träffsäkerhet",
   "profileLast7Days": "Senaste 7 dagarna",
+  "profilePassportTitle": "Ditt pass",
+  "profilePassportHint": "En stämpel för varje stopp på din Etiopien-resa, så snart du klarat kapitlet.",
   "profileBadges": "Utmärkelser",
   "profileBadgesEmpty": "Inga utmärkelser än - kom igång!",
   "profileSkippedUnits": "Överhoppade kapitel",

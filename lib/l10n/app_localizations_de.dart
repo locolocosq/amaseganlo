@@ -543,6 +543,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get profileLast7Days => 'Letzte 7 Tage';
 
   @override
+  String get profilePassportTitle => 'Dein Reisepass';
+
+  @override
+  String get profilePassportHint =>
+      'Ein Stempel für jede Station deiner Äthiopien-Reise, sobald du das Kapitel abgeschlossen hast.';
+
+  @override
   String get profileBadges => 'Abzeichen';
 
   @override

@@ -542,6 +542,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get profileLast7Days => 'Laatste 7 dagen';
 
   @override
+  String get profilePassportTitle => 'Je paspoort';
+
+  @override
+  String get profilePassportHint =>
+      'Een stempel voor elke stop op je Ethiopië-reis, zodra je dat hoofdstuk hebt afgerond.';
+
+  @override
   String get profileBadges => 'Badges';
 
   @override

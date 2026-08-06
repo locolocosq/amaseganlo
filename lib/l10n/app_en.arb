@@ -217,6 +217,8 @@
   "profileDaysLearned": "Days learned",
   "profileAccuracy": "Accuracy",
   "profileLast7Days": "Last 7 days",
+  "profilePassportTitle": "Your passport",
+  "profilePassportHint": "A stamp for every stop on your Ethiopia journey, once you finish that chapter.",
   "profileBadges": "Badges",
   "profileBadgesEmpty": "No badges yet - get started!",
   "profileSkippedUnits": "Skipped units",

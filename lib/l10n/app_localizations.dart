@@ -1080,6 +1080,18 @@ abstract class AppLocalizations {
   /// **'Last 7 days'**
   String get profileLast7Days;
 
+  /// No description provided for @profilePassportTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your passport'**
+  String get profilePassportTitle;
+
+  /// No description provided for @profilePassportHint.
+  ///
+  /// In en, this message translates to:
+  /// **'A stamp for every stop on your Ethiopia journey, once you finish that chapter.'**
+  String get profilePassportHint;
+
   /// No description provided for @profileBadges.
   ///
   /// In en, this message translates to:

@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../content/content_repository.dart';
 import '../../core/badges.dart';
+import '../../core/journey_regions.dart';
+import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
+import '../../models/curriculum.dart';
+import '../../models/user_progress.dart';
 import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
@@ -31,7 +36,16 @@ class ProfileScreen extends StatelessWidget {
           icon: const Icon(Icons.assignment_outlined),
           label: Text(l10n.profileAssessmentTest),
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 24),
+        Text(l10n.profilePassportTitle, style: Theme.of(context).textTheme.titleMedium),
+        const SizedBox(height: 4),
+        Text(
+          l10n.profilePassportHint,
+          style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+        ),
+        const SizedBox(height: 12),
+        _PassportRow(content: content, progress: p, locale: locale),
+        const SizedBox(height: 24),
         _StatsGrid(
           stats: [
             _Stat(
@@ -153,6 +167,108 @@ class _SkippedUnitTile extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+/// The "Reisepass" (Abschnitt Design): one stamp per Äthiopien-Reise stop
+/// (curriculum section), filled in once every unit in that section is
+/// completed or skipped - computed live from progress, the same "no extra
+/// persisted state" approach as `BadgeCatalog`.
+class _PassportRow extends StatelessWidget {
+  final ContentRepository content;
+  final UserProgress progress;
+  final String locale;
+
+  const _PassportRow({required this.content, required this.progress, required this.locale});
+
+  @override
+  Widget build(BuildContext context) {
+    final sections = content.curriculum.sections;
+    return Row(
+      children: [
+        for (final section in sections) ...[
+          Expanded(child: _PassportStamp(section: section, earned: _isSectionDone(section), locale: locale)),
+          if (section != sections.last) const SizedBox(width: 8),
+        ],
+      ],
+    );
+  }
+
+  bool _isSectionDone(CurriculumSection section) {
+    if (section.unitIds.isEmpty) return false;
+    return section.unitIds.every((id) {
+      final lessons = content.lessonsForUnit(id);
+      final done = lessons.isNotEmpty && lessons.every((l) => progress.lessonProgress[l.id]?.completed == true);
+      return done || progress.skippedUnitIds.contains(id);
+    });
+  }
+}
+
+class _PassportStamp extends StatelessWidget {
+  final CurriculumSection section;
+  final bool earned;
+  final String locale;
+
+  const _PassportStamp({required this.section, required this.earned, required this.locale});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final region = journeyRegionFromId(section.region);
+    final color = earned ? _stampColor(region) : theme.colorScheme.outline;
+
+    return Column(
+      children: [
+        Container(
+          width: 56,
+          height: 56,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            border: Border.all(color: color, width: 2.5),
+            color: earned ? color.withValues(alpha: 0.12) : Colors.transparent,
+          ),
+          child: Icon(_iconFor(region), color: color, size: 26),
+        ),
+        const SizedBox(height: 6),
+        Text(
+          section.title[locale] ?? section.id,
+          style: theme.textTheme.labelSmall?.copyWith(color: earned ? theme.colorScheme.onSurface : theme.colorScheme.outline),
+          textAlign: TextAlign.center,
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
+        ),
+      ],
+    );
+  }
+
+  Color _stampColor(JourneyRegion? region) {
+    switch (region) {
+      case JourneyRegion.addisAbeba:
+        return const Color(0xFF6B7A99);
+      case JourneyRegion.oromia:
+        return const Color(0xFF4A7C43);
+      case JourneyRegion.tigray:
+        return const Color(0xFF8C6E56);
+      case JourneyRegion.sidama:
+        return const Color(0xFF3F8FA6);
+      case null:
+        return successColor;
+    }
+  }
+
+  IconData _iconFor(JourneyRegion? region) {
+    switch (region) {
+      case JourneyRegion.addisAbeba:
+        return Icons.location_city;
+      case JourneyRegion.oromia:
+        return Icons.landscape;
+      case JourneyRegion.tigray:
+        return Icons.account_balance;
+      case JourneyRegion.sidama:
+        return Icons.water;
+      case null:
+        return Icons.flag_outlined;
+    }
   }
 }
 

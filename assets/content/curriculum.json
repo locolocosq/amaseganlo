@@ -177,11 +177,12 @@
     {
       "id": "sec_a1_1",
       "level": "A1.1",
+      "region": "addis_abeba",
       "title": {
-        "de": "Niveau A1.1 — die ersten Schritte",
-        "en": "Level A1.1 — first steps",
-        "sv": "Nivå A1.1 — de första stegen",
-        "nl": "Niveau A1.1 — de eerste stappen"
+        "de": "Station 1: Addis Abeba — die Hauptstadt-Ankunft",
+        "en": "Stop 1: Addis Ababa — arriving in the capital",
+        "sv": "Stopp 1: Addis Abeba — ankomst till huvudstaden",
+        "nl": "Stop 1: Addis Abeba — aankomst in de hoofdstad"
       },
       "units": [
         "unit_erste_begegnung",
@@ -196,11 +197,12 @@
     {
       "id": "sec_a1_2",
       "level": "A1.2",
+      "region": "oromia",
       "title": {
-        "de": "Niveau A1.2 — Alltag",
-        "en": "Level A1.2 — everyday life",
-        "sv": "Nivå A1.2 — vardagen",
-        "nl": "Niveau A1.2 — dagelijks leven"
+        "de": "Station 2: Oromia — durchs grüne Hochland",
+        "en": "Stop 2: Oromia — through the green highlands",
+        "sv": "Stopp 2: Oromia — genom det gröna höglandet",
+        "nl": "Stop 2: Oromia — door het groene hoogland"
       },
       "units": [
         "unit_zuhause",
@@ -229,11 +231,12 @@
     {
       "id": "sec_a2",
       "level": "A2",
+      "region": "tigray",
       "title": {
-        "de": "Niveau A2 — sich verständigen",
-        "en": "Level A2 — getting by",
-        "sv": "Nivå A2 — att göra sig förstådd",
-        "nl": "Niveau A2 — je verstaanbaar maken"
+        "de": "Station 3: Tigray — zu den Felsenkirchen",
+        "en": "Stop 3: Tigray — to the rock-hewn churches",
+        "sv": "Stopp 3: Tigray — till klippkyrkorna",
+        "nl": "Stop 3: Tigray — naar de rotskerken"
       },
       "units": [
         "unit_verben_alltag",
@@ -277,11 +280,12 @@
     {
       "id": "sec_b1",
       "level": "B1",
+      "region": "sidama",
       "title": {
-        "de": "Niveau B1 — freier sprechen",
-        "en": "Level B1 — speaking more freely",
-        "sv": "Nivå B1 — tala friare",
-        "nl": "Niveau B1 — vrijer spreken"
+        "de": "Station 4: Der Süden — Sidama & Gurage",
+        "en": "Stop 4: The South — Sidama & Gurage",
+        "sv": "Stopp 4: Söderut — Sidama & Gurage",
+        "nl": "Stop 4: Het zuiden — Sidama & Gurage"
       },
       "units": [
         "unit_gefuehle_meinung",

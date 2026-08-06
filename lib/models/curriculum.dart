@@ -1,7 +1,14 @@
 /// A themed, leveled block of units, e.g. "A1.1 - die ersten Schritte".
+///
+/// [region] identifies a stop on the "Äthiopien-Reise" (Ethiopia journey)
+/// framing (Abschnitt Design) - it picks which hand-drawn stop illustration
+/// and passport stamp to show, independent of [title] (localized display
+/// text) and [level] (CEFR level, still shown separately in the UI). See
+/// `core/journey_regions.dart`.
 class CurriculumSection {
   final String id;
   final String level;
+  final String region;
   final Map<String, String> title;
   final List<String> unitIds;
 
@@ -10,12 +17,14 @@ class CurriculumSection {
     required this.level,
     required this.title,
     required this.unitIds,
+    this.region = '',
   });
 
   factory CurriculumSection.fromJson(Map<String, dynamic> json) {
     return CurriculumSection(
       id: json['id'] as String,
       level: json['level'] as String? ?? '',
+      region: json['region'] as String? ?? '',
       title: Map<String, String>.from(json['title'] as Map? ?? const {}),
       unitIds: List<String>.from(json['units'] as List? ?? const []),
     );
@@ -24,6 +33,7 @@ class CurriculumSection {
   Map<String, dynamic> toJson() => {
         'id': id,
         'level': level,
+        'region': region,
         'title': title,
         'units': unitIds,
       };

@@ -217,6 +217,8 @@
   "profileDaysLearned": "Lerntage",
   "profileAccuracy": "Trefferquote",
   "profileLast7Days": "Letzte 7 Tage",
+  "profilePassportTitle": "Dein Reisepass",
+  "profilePassportHint": "Ein Stempel für jede Station deiner Äthiopien-Reise, sobald du das Kapitel abgeschlossen hast.",
   "profileBadges": "Abzeichen",
   "profileBadgesEmpty": "Noch keine Abzeichen - leg los!",
   "profileSkippedUnits": "Übersprungene Kapitel",

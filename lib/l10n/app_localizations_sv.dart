@@ -543,6 +543,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get profileLast7Days => 'Senaste 7 dagarna';
 
   @override
+  String get profilePassportTitle => 'Ditt pass';
+
+  @override
+  String get profilePassportHint =>
+      'En stämpel för varje stopp på din Etiopien-resa, så snart du klarat kapitlet.';
+
+  @override
   String get profileBadges => 'Utmärkelser';
 
   @override

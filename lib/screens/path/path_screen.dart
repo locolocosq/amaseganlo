@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../content/content_repository.dart';
+import '../../core/journey_regions.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
@@ -11,6 +12,7 @@ import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
 import '../../widgets/common/empty_state.dart';
+import '../../widgets/common/journey_stop_banner.dart';
 
 /// Where to send "Weiterlernen": the unit whose lesson was completed most
 /// recently, if that unit still has an unfinished lesson - a deliberate
@@ -81,6 +83,11 @@ class PathScreen extends StatelessWidget {
 
     bool isUnitSkipped(String unitId) => progressProvider.progress.skippedUnitIds.contains(unitId);
 
+    bool isSectionDone(CurriculumSection section) =>
+        section.unitIds.isNotEmpty && section.unitIds.every((id) => isUnitDone(id) || isUnitSkipped(id));
+
+    final currentSectionId = curriculum.sections.where((s) => !isSectionDone(s)).firstOrNull?.id ?? curriculum.sections.last.id;
+
     _UnitState stateFor(int flatIndex) {
       final unitId = flatUnitIds[flatIndex];
       if (isUnitDone(unitId)) return _UnitState.completed;
@@ -103,7 +110,13 @@ class PathScreen extends StatelessWidget {
             onTap: () => context.push('/lesson/${resumeTarget.unitId}/${resumeTarget.lessonId}'),
           ),
         for (final section in curriculum.sections) ...[
-          _SectionHeader(section: section, locale: locale, contentProvider: contentProvider, progressProvider: progressProvider),
+          _SectionHeader(
+            section: section,
+            locale: locale,
+            contentProvider: contentProvider,
+            progressProvider: progressProvider,
+            isCurrent: section.id == currentSectionId,
+          ),
           for (final unitId in section.unitIds)
             _UnitTile(
               unit: contentProvider.repository.unit(unitId)!,
@@ -172,12 +185,14 @@ class _SectionHeader extends StatelessWidget {
   final String locale;
   final ContentProvider contentProvider;
   final ProgressProvider progressProvider;
+  final bool isCurrent;
 
   const _SectionHeader({
     required this.section,
     required this.locale,
     required this.contentProvider,
     required this.progressProvider,
+    required this.isCurrent,
   });
 
   @override
@@ -189,12 +204,17 @@ class _SectionHeader extends StatelessWidget {
     }).length;
 
     final sectionIndex = contentProvider.repository.curriculum.sections.indexOf(section) + 1;
+    final region = journeyRegionFromId(section.region);
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 16, 20, 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          if (region != null) ...[
+            JourneyStopBanner(region: region, current: isCurrent),
+            const SizedBox(height: 10),
+          ],
           Text(
             l10n.pathSectionProgress(sectionIndex, section.title[locale] ?? section.id, done, section.unitIds.length),
             style: Theme.of(context).textTheme.titleSmall?.copyWith(color: Theme.of(context).colorScheme.primary),
