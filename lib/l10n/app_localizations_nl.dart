@@ -84,9 +84,6 @@ class AppLocalizationsNl extends AppLocalizations {
   String get appearanceSystem => 'Systeeminstelling';
 
   @override
-  String get settingsAccentColor => 'Accentkleur';
-
-  @override
   String get settingsFontSize => 'Tekstgrootte';
 
   @override
@@ -148,6 +145,9 @@ class AppLocalizationsNl extends AppLocalizations {
   String get dailyGoalAmbitious => 'Ambitieus · 100 XP';
 
   @override
+  String get settingsMoreOptions => 'Meer opties';
+
+  @override
   String get settingsUseHearts => 'Hartjes gebruiken';
 
   @override
@@ -160,10 +160,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsReduceMotion => 'Beweging verminderen';
 
   @override
+  String get settingsPremiumSection => 'Premium';
+
+  @override
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
-  String get settingsPremiumHint => 'Steun de app & ontgrendel reiskleuren';
+  String get settingsPremiumHint => 'Steun de app & ontgrendel de paspoortkaft';
 
   @override
   String get settingsPremiumActive => 'Actief - bedankt voor je steun!';
@@ -176,11 +179,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get premiumDescription =>
-      'Met Habesha Speak Premium steun je de verdere ontwikkeling van de app en ontgrendel je exclusieve reiskleuren plus een speciale paspoorthoes.';
-
-  @override
-  String get premiumFeatureColors =>
-      '2 exclusieve accentkleuren: Koffie & Blauwe Nijl';
+      'Met Habesha Speak Premium steun je de verdere ontwikkeling van de app en ontgrendel je een speciale paspoorthoes.';
 
   @override
   String get premiumFeatureCover => 'Een speciale paspoorthoes';
@@ -228,6 +227,9 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'Deze code is niet geldig.';
+
+  @override
+  String get settingsDataSection => 'Gegevens';
 
   @override
   String get settingsBackupProgress => 'Voortgang backuppen';

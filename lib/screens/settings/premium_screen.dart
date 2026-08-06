@@ -93,19 +93,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
           const SizedBox(height: 12),
           Text(l10n.premiumDescription, textAlign: TextAlign.center),
           const SizedBox(height: 24),
-          _FeatureRow(icon: Icons.palette_outlined, text: l10n.premiumFeatureColors),
           _FeatureRow(icon: Icons.badge_outlined, text: l10n.premiumFeatureCover),
           _FeatureRow(icon: Icons.favorite_outline, text: l10n.premiumFeatureSupport),
-          const SizedBox(height: 8),
-          Center(
-            child: Wrap(
-              spacing: 10,
-              children: [
-                for (var i = AppAccentColors.freeCount; i < AppAccentColors.values.length; i++)
-                  CircleAvatar(radius: 18, backgroundColor: AppAccentColors.of(i)),
-              ],
-            ),
-          ),
           const SizedBox(height: 32),
           if (purchaseService.isPremium)
             Center(

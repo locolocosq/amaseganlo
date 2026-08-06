@@ -27,7 +27,13 @@ void main() {
 
     expect(find.text('Gelernte Wörter'), findsOneWidget);
     expect(find.text('1'), findsWidgets); // 1 word learned
-    expect(find.text('1000'), findsOneWidget); // total XP
+    // Scoped to the stats grid: the app shell's AppBar (Etappe 19) now also
+    // shows total XP as a standing badge, so a plain find.text('1000') would
+    // match both and be ambiguous.
+    expect(
+      find.descendant(of: find.byType(GridView), matching: find.text('1000')),
+      findsOneWidget,
+    ); // total XP
 
     // The badges section is further down than the default test viewport -
     // scroll it into view before asserting on it.

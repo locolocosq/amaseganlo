@@ -84,9 +84,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get appearanceSystem => 'Wie das System';
 
   @override
-  String get settingsAccentColor => 'Akzentfarbe';
-
-  @override
   String get settingsFontSize => 'Schriftgröße';
 
   @override
@@ -148,6 +145,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get dailyGoalAmbitious => 'Ehrgeizig · 100 XP';
 
   @override
+  String get settingsMoreOptions => 'Weitere Optionen';
+
+  @override
   String get settingsUseHearts => 'Herzen verwenden';
 
   @override
@@ -160,11 +160,14 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsReduceMotion => 'Bewegungen reduzieren';
 
   @override
+  String get settingsPremiumSection => 'Premium';
+
+  @override
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
   String get settingsPremiumHint =>
-      'Unterstütze die App & schalte Reise-Farben frei';
+      'Unterstütze die App & schalte das Reisepass-Cover frei';
 
   @override
   String get settingsPremiumActive => 'Aktiv - danke für deine Unterstützung!';
@@ -177,11 +180,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get premiumDescription =>
-      'Mit Habesha Speak Premium unterstützt du die Weiterentwicklung der App und schaltest exklusive Reise-Farben sowie ein besonderes Reisepass-Cover frei.';
-
-  @override
-  String get premiumFeatureColors =>
-      '2 exklusive Akzentfarben: Kaffee & Blauer Nil';
+      'Mit Habesha Speak Premium unterstützt du die Weiterentwicklung der App und schaltest ein besonderes Reisepass-Cover frei.';
 
   @override
   String get premiumFeatureCover => 'Besonderes Reisepass-Cover';
@@ -232,6 +231,9 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'Dieser Code ist ungültig.';
+
+  @override
+  String get settingsDataSection => 'Daten';
 
   @override
   String get settingsBackupProgress => 'Fortschritt sichern';

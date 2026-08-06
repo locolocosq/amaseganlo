@@ -75,7 +75,6 @@ class AppSettings {
   final int schemaVersion;
   final String? localeCode;
   final AppThemeMode themeMode;
-  final int accentColorIndex;
   final FontSizeOption fontSize;
   final FidelDisplayMode fidelDisplayMode;
   final bool soundEnabled;
@@ -95,7 +94,6 @@ class AppSettings {
     this.schemaVersion = settingsSchemaVersion,
     this.localeCode,
     this.themeMode = AppThemeMode.system,
-    this.accentColorIndex = 0,
     this.fontSize = FontSizeOption.normal,
     this.fidelDisplayMode = FidelDisplayMode.never,
     this.soundEnabled = true,
@@ -115,7 +113,6 @@ class AppSettings {
   AppSettings copyWith({
     String? localeCode,
     AppThemeMode? themeMode,
-    int? accentColorIndex,
     FontSizeOption? fontSize,
     FidelDisplayMode? fidelDisplayMode,
     bool? soundEnabled,
@@ -135,7 +132,6 @@ class AppSettings {
       schemaVersion: settingsSchemaVersion,
       localeCode: localeCode ?? this.localeCode,
       themeMode: themeMode ?? this.themeMode,
-      accentColorIndex: accentColorIndex ?? this.accentColorIndex,
       fontSize: fontSize ?? this.fontSize,
       fidelDisplayMode: fidelDisplayMode ?? this.fidelDisplayMode,
       soundEnabled: soundEnabled ?? this.soundEnabled,
@@ -158,7 +154,6 @@ class AppSettings {
       schemaVersion: settingsSchemaVersion,
       localeCode: json['localeCode'] as String?,
       themeMode: _enumFromName(AppThemeMode.values, json['themeMode'], AppThemeMode.system),
-      accentColorIndex: (json['accentColorIndex'] as num?)?.toInt() ?? 0,
       fontSize: _enumFromName(FontSizeOption.values, json['fontSize'], FontSizeOption.normal),
       fidelDisplayMode: _enumFromName(FidelDisplayMode.values, json['fidelDisplayMode'], FidelDisplayMode.never),
       soundEnabled: json['soundEnabled'] as bool? ?? true,
@@ -180,7 +175,6 @@ class AppSettings {
         'schemaVersion': settingsSchemaVersion,
         'localeCode': localeCode,
         'themeMode': themeMode.name,
-        'accentColorIndex': accentColorIndex,
         'fontSize': fontSize.name,
         'fidelDisplayMode': fidelDisplayMode.name,
         'soundEnabled': soundEnabled,

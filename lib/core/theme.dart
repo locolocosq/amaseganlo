@@ -3,30 +3,22 @@ import 'package:flutter/material.dart';
 
 import '../models/settings.dart';
 
-/// Accent color choices. Deliberately no pure red - red is reserved for
-/// error feedback throughout the app, never a selectable brand color.
+/// The app's fixed brand palette (Etappe 19) - no more user-selectable
+/// accent colors, only light/dark mode is a choice now. The three colors
+/// are chosen to echo the Ethiopian flag (grün/gelb/rot) as a recurring
+/// motif across icons, badges and section accents throughout the app,
+/// without ever painting large areas in literal flag colors.
 ///
-/// The first [freeCount] are available to everyone; the rest are the
-/// Premium-only "Reise"-colors (Abschnitt Design/Etappe 12) - themed after
-/// things encountered on the Äthiopien-Reise rather than being an arbitrary
-/// paywall.
-class AppAccentColors {
-  static const int freeCount = 6;
-
-  static const List<Color> values = [
-    Color(0xFF0F7A3D), // green (default, nods to Ethiopia without being the flag)
-    Color(0xFF1565C0), // blue
-    Color(0xFF00796B), // teal
-    Color(0xFF6A1B9A), // purple
-    Color(0xFFE65100), // orange
-    Color(0xFF3949AB), // indigo
-    Color(0xFF6F4E37), // "Kaffee" - Premium
-    Color(0xFF1B5E7A), // "Blauer Nil" - Premium
-  ];
-
-  static Color of(int index) => values[index.clamp(0, values.length - 1)];
-
-  static bool isPremium(int index) => index >= freeCount;
+/// [gold] deliberately equals [successColor] - the flag's yellow already
+/// doubled as the "richtig!"-accent, so reusing it here ties the brand
+/// palette and the feedback color together instead of adding a fourth hue.
+/// [terracotta] is intentionally NOT [errorColor]: a warm, muted brick-red
+/// reads as "Ethiopia" without ever being mistaken for a mistake/danger
+/// state, which stays reserved for [errorColor] alone.
+class AppBrandColors {
+  static const Color green = Color(0xFF0F7A3D);
+  static const Color gold = successColor;
+  static const Color terracotta = Color(0xFFB8492E);
 }
 
 const Color successColor = Color(0xFFD4A017); // yellow, for success accents
@@ -44,13 +36,18 @@ class AppTheme {
   // via `MediaQuery`'s `TextScaler` in `app.dart` instead - the officially
   // supported, render-level way to scale all text app-wide regardless of
   // which of its style fields happen to be set.
-  static ThemeData build({
-    required Brightness brightness,
-    required int accentColorIndex,
-  }) {
-    final seed = AppAccentColors.of(accentColorIndex);
+  static ThemeData build({required Brightness brightness}) {
+    // Single-seed (green) rather than wiring AppBrandColors.gold/terracotta
+    // into ColorScheme.secondary/tertiary directly: Material derives every
+    // "on"/container color from the seed's own tonal palette, so forcing an
+    // unrelated hue into just one slot would leave e.g. secondaryContainer
+    // mismatched everywhere that role is used app-wide. Gold/terracotta are
+    // applied by hand instead, only at the specific spots (Etappe 19:
+    // AppShell, Onboarding, Settings) chosen to carry them - a safer,
+    // more deliberate way to make "grün/gelb/rot wiederkehrend" true
+    // without accidentally reskinning every stock widget in the app.
     final colorScheme = ColorScheme.fromSeed(
-      seedColor: seed,
+      seedColor: AppBrandColors.green,
       brightness: brightness,
       error: errorColor,
     );
@@ -101,7 +98,10 @@ class AppTheme {
         indicatorColor: colorScheme.primaryContainer,
       ),
       cardTheme: CardThemeData(
-        elevation: 0,
+        // A little lift instead of dead-flat (Etappe 19: "sieht zu einfach
+        // aus") - subtle enough to still read as calm, not busy.
+        elevation: 2,
+        shadowColor: colorScheme.shadow.withValues(alpha: 0.25),
         color: colorScheme.surfaceContainerLow,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),

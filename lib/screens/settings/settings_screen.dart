@@ -38,261 +38,271 @@ class SettingsScreen extends StatelessWidget {
         title: Text(l10n.settingsTitle),
       ),
       body: ListView(
-        padding: const EdgeInsets.symmetric(vertical: 8),
+        padding: const EdgeInsets.fromLTRB(0, 12, 0, 24),
         children: [
-          _SectionHeader(l10n.settingsLanguage),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: DropdownButtonFormField<String>(
-              initialValue: settings.localeCode,
-              items: [
-                DropdownMenuItem(value: null, child: Text(l10n.appearanceSystem)),
-                for (final code in supportedLocaleCodes)
-                  DropdownMenuItem(value: code, child: Text(languageDisplayName(code))),
-              ],
-              onChanged: (code) {
-                settingsProvider.setLocaleCode(code);
-                savedSnack();
-              },
-            ),
+          _SettingsSection(
+            icon: Icons.language,
+            color: AppBrandColors.green,
+            title: l10n.settingsLanguage,
+            children: [
+              DropdownButtonFormField<String>(
+                initialValue: settings.localeCode,
+                items: [
+                  DropdownMenuItem(value: null, child: Text(l10n.appearanceSystem)),
+                  for (final code in supportedLocaleCodes)
+                    DropdownMenuItem(value: code, child: Text(languageDisplayName(code))),
+                ],
+                onChanged: (code) {
+                  settingsProvider.setLocaleCode(code);
+                  savedSnack();
+                },
+              ),
+            ],
           ),
-          const Divider(height: 32),
-          _SectionHeader(l10n.settingsAppearance),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: SegmentedButton<AppThemeMode>(
-              segments: [
-                ButtonSegment(value: AppThemeMode.light, label: Text(l10n.appearanceLight), icon: const Icon(Icons.light_mode_outlined)),
-                ButtonSegment(value: AppThemeMode.dark, label: Text(l10n.appearanceDark), icon: const Icon(Icons.dark_mode_outlined)),
-                ButtonSegment(value: AppThemeMode.system, label: Text(l10n.appearanceSystem), icon: const Icon(Icons.brightness_auto_outlined)),
-              ],
-              selected: {settings.themeMode},
-              onSelectionChanged: (s) => settingsProvider.setThemeMode(s.first),
-            ),
+          _SettingsSection(
+            icon: Icons.brightness_6_outlined,
+            color: AppBrandColors.gold,
+            title: l10n.settingsAppearance,
+            children: [
+              SegmentedButton<AppThemeMode>(
+                segments: [
+                  ButtonSegment(value: AppThemeMode.light, label: Text(l10n.appearanceLight), icon: const Icon(Icons.light_mode_outlined)),
+                  ButtonSegment(value: AppThemeMode.dark, label: Text(l10n.appearanceDark), icon: const Icon(Icons.dark_mode_outlined)),
+                  ButtonSegment(value: AppThemeMode.system, label: Text(l10n.appearanceSystem), icon: const Icon(Icons.brightness_auto_outlined)),
+                ],
+                selected: {settings.themeMode},
+                onSelectionChanged: (s) => settingsProvider.setThemeMode(s.first),
+              ),
+            ],
           ),
-          const SizedBox(height: 16),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Text(l10n.settingsAccentColor, style: Theme.of(context).textTheme.labelLarge),
+          _SettingsSection(
+            icon: Icons.text_fields,
+            color: AppBrandColors.terracotta,
+            title: l10n.settingsFontSize,
+            children: [
+              SegmentedButton<FontSizeOption>(
+                segments: [
+                  ButtonSegment(value: FontSizeOption.small, label: Text(l10n.fontSizeSmall)),
+                  ButtonSegment(value: FontSizeOption.normal, label: Text(l10n.fontSizeNormal)),
+                  ButtonSegment(value: FontSizeOption.large, label: Text(l10n.fontSizeLarge)),
+                  ButtonSegment(value: FontSizeOption.extraLarge, label: Text(l10n.fontSizeExtraLarge)),
+                ],
+                showSelectedIcon: false,
+                selected: {settings.fontSize},
+                onSelectionChanged: (s) => settingsProvider.setFontSize(s.first),
+              ),
+            ],
           ),
-          const SizedBox(height: 8),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Wrap(
-              spacing: 12,
-              children: List.generate(AppAccentColors.values.length, (i) {
-                final selected = settings.accentColorIndex == i;
-                final locked = AppAccentColors.isPremium(i) && !purchaseService.isPremium;
-                return InkWell(
-                  borderRadius: BorderRadius.circular(24),
-                  onTap: () => locked ? context.push('/settings/premium') : settingsProvider.setAccentColorIndex(i),
-                  child: Container(
-                    width: 44,
-                    height: 44,
-                    decoration: BoxDecoration(
-                      color: locked ? AppAccentColors.of(i).withValues(alpha: 0.35) : AppAccentColors.of(i),
-                      shape: BoxShape.circle,
-                      border: selected
-                          ? Border.all(color: Theme.of(context).colorScheme.onSurface, width: 3)
-                          : null,
+          _SettingsSection(
+            icon: Icons.abc,
+            color: AppBrandColors.green,
+            title: l10n.settingsShowFidelInMainPath,
+            children: [
+              RadioGroup<FidelDisplayMode>(
+                groupValue: settings.fidelDisplayMode,
+                onChanged: (v) {
+                  if (v != null) settingsProvider.setFidelDisplayMode(v);
+                },
+                child: Column(
+                  children: [
+                    RadioListTile<FidelDisplayMode>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelDisplayNever),
+                      value: FidelDisplayMode.never,
                     ),
-                    child: locked
-                        ? const Icon(Icons.lock_outline, color: Colors.white, size: 18)
-                        : (selected ? const Icon(Icons.check, color: Colors.white) : null),
+                    RadioListTile<FidelDisplayMode>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelDisplayBelow),
+                      value: FidelDisplayMode.below,
+                    ),
+                    RadioListTile<FidelDisplayMode>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelDisplayInstead),
+                      value: FidelDisplayMode.instead,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.speed_outlined,
+            color: AppBrandColors.gold,
+            title: l10n.settingsFidelLearningPath,
+            children: [
+              RadioGroup<FidelLearningPath>(
+                groupValue: settings.fidelLearningPath,
+                onChanged: (v) {
+                  if (v != null) settingsProvider.setFidelLearningPath(v);
+                },
+                child: Column(
+                  children: [
+                    RadioListTile<FidelLearningPath>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelPathTraditional),
+                      value: FidelLearningPath.traditional,
+                    ),
+                    RadioListTile<FidelLearningPath>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelPathFast),
+                      value: FidelLearningPath.fast,
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 12),
+              Text(l10n.settingsHahuTempo, style: Theme.of(context).textTheme.labelLarge),
+              const SizedBox(height: 8),
+              SegmentedButton<HahuTempo>(
+                segments: [
+                  ButtonSegment(value: HahuTempo.slow, label: Text(l10n.hahuTempoSlow)),
+                  ButtonSegment(value: HahuTempo.normal, label: Text(l10n.hahuTempoNormal)),
+                  ButtonSegment(value: HahuTempo.fast, label: Text(l10n.hahuTempoFast)),
+                ],
+                selected: {settings.hahuTempo},
+                onSelectionChanged: (s) => settingsProvider.setHahuTempo(s.first),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.volume_up_outlined,
+            color: AppBrandColors.terracotta,
+            title: l10n.settingsSound,
+            children: [
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsSound),
+                value: settings.soundEnabled,
+                onChanged: settingsProvider.setSoundEnabled,
+              ),
+              Row(
+                children: [
+                  const Icon(Icons.volume_down),
+                  Expanded(
+                    child: Slider(
+                      value: settings.volume,
+                      onChanged: settings.soundEnabled ? settingsProvider.setVolume : null,
+                    ),
                   ),
-                );
-              }),
-            ),
+                  const Icon(Icons.volume_up),
+                ],
+              ),
+              const SizedBox(height: 4),
+              Text(l10n.settingsSpeechRate, style: Theme.of(context).textTheme.labelLarge),
+              const SizedBox(height: 8),
+              SegmentedButton<SpeechRate>(
+                segments: [
+                  ButtonSegment(value: SpeechRate.slow, label: Text(l10n.speechRateSlow)),
+                  ButtonSegment(value: SpeechRate.medium, label: Text(l10n.speechRateMedium)),
+                  ButtonSegment(value: SpeechRate.normal, label: Text(l10n.speechRateNormal)),
+                ],
+                selected: {settings.speechRate},
+                onSelectionChanged: settings.soundEnabled ? (s) => settingsProvider.setSpeechRate(s.first) : null,
+              ),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsAutoPlayNewWords),
+                value: settings.autoPlayNewWords,
+                onChanged: settingsProvider.setAutoPlayNewWords,
+              ),
+            ],
           ),
-          const Divider(height: 32),
-          _SectionHeader(l10n.settingsFontSize),
+          _SettingsSection(
+            icon: Icons.flag_outlined,
+            color: AppBrandColors.green,
+            title: l10n.settingsDailyGoal,
+            children: [
+              SegmentedButton<DailyGoal>(
+                segments: [
+                  ButtonSegment(value: DailyGoal.relaxed, label: Text(l10n.dailyGoalRelaxed)),
+                  ButtonSegment(value: DailyGoal.normal, label: Text(l10n.dailyGoalNormal)),
+                  ButtonSegment(value: DailyGoal.ambitious, label: Text(l10n.dailyGoalAmbitious)),
+                ],
+                selected: {settings.dailyGoal},
+                onSelectionChanged: (s) => settingsProvider.setDailyGoal(s.first),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.tune,
+            color: AppBrandColors.gold,
+            title: l10n.settingsMoreOptions,
+            children: [
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsUseHearts),
+                value: settings.useHearts,
+                onChanged: settingsProvider.setUseHearts,
+              ),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsDailyReminder),
+                subtitle: Text(l10n.commonComingSoon),
+                value: settings.dailyReminderEnabled,
+                onChanged: settingsProvider.setDailyReminderEnabled,
+              ),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsAllLessonsUnlocked),
+                value: settings.allLessonsUnlocked,
+                onChanged: settingsProvider.setAllLessonsUnlocked,
+              ),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsReduceMotion),
+                value: settings.reduceMotion,
+                onChanged: settingsProvider.setReduceMotion,
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.workspace_premium_outlined,
+            color: AppBrandColors.terracotta,
+            title: l10n.settingsPremiumSection,
+            children: [
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsPremium),
+                subtitle: Text(purchaseService.isPremium ? l10n.settingsPremiumActive : l10n.settingsPremiumHint),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/settings/premium'),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.storage_outlined,
+            color: AppBrandColors.green,
+            title: l10n.settingsDataSection,
+            children: [
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.cloud_upload_outlined),
+                title: Text(l10n.settingsBackupProgress),
+                onTap: () => _backupProgress(context, l10n),
+              ),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.cloud_download_outlined),
+                title: Text(l10n.settingsRestoreProgress),
+                onTap: () => _restoreProgress(context, l10n),
+              ),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: Icon(Icons.delete_outline, color: Theme.of(context).colorScheme.error),
+                title: Text(l10n.settingsResetProgress),
+                onTap: () => _confirmReset(context, l10n),
+              ),
+            ],
+          ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: SegmentedButton<FontSizeOption>(
-              segments: [
-                ButtonSegment(value: FontSizeOption.small, label: Text(l10n.fontSizeSmall)),
-                ButtonSegment(value: FontSizeOption.normal, label: Text(l10n.fontSizeNormal)),
-                ButtonSegment(value: FontSizeOption.large, label: Text(l10n.fontSizeLarge)),
-                ButtonSegment(value: FontSizeOption.extraLarge, label: Text(l10n.fontSizeExtraLarge)),
-              ],
-              showSelectedIcon: false,
-              selected: {settings.fontSize},
-              onSelectionChanged: (s) => settingsProvider.setFontSize(s.first),
+            child: ListTile(
+              leading: const Icon(Icons.info_outline),
+              title: Text(l10n.settingsAbout),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => context.push('/settings/about'),
             ),
           ),
-          const Divider(height: 32),
-          _SectionHeader(l10n.settingsShowFidelInMainPath),
-          RadioGroup<FidelDisplayMode>(
-            groupValue: settings.fidelDisplayMode,
-            onChanged: (v) {
-              if (v != null) settingsProvider.setFidelDisplayMode(v);
-            },
-            child: Column(
-              children: [
-                RadioListTile<FidelDisplayMode>(
-                  title: Text(l10n.fidelDisplayNever),
-                  value: FidelDisplayMode.never,
-                ),
-                RadioListTile<FidelDisplayMode>(
-                  title: Text(l10n.fidelDisplayBelow),
-                  value: FidelDisplayMode.below,
-                ),
-                RadioListTile<FidelDisplayMode>(
-                  title: Text(l10n.fidelDisplayInstead),
-                  value: FidelDisplayMode.instead,
-                ),
-              ],
-            ),
-          ),
-          const Divider(height: 32),
-          _SectionHeader(l10n.settingsFidelLearningPath),
-          RadioGroup<FidelLearningPath>(
-            groupValue: settings.fidelLearningPath,
-            onChanged: (v) {
-              if (v != null) settingsProvider.setFidelLearningPath(v);
-            },
-            child: Column(
-              children: [
-                RadioListTile<FidelLearningPath>(
-                  title: Text(l10n.fidelPathTraditional),
-                  value: FidelLearningPath.traditional,
-                ),
-                RadioListTile<FidelLearningPath>(
-                  title: Text(l10n.fidelPathFast),
-                  value: FidelLearningPath.fast,
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 8),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Text(l10n.settingsHahuTempo, style: Theme.of(context).textTheme.labelLarge),
-          ),
-          const SizedBox(height: 8),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: SegmentedButton<HahuTempo>(
-              segments: [
-                ButtonSegment(value: HahuTempo.slow, label: Text(l10n.hahuTempoSlow)),
-                ButtonSegment(value: HahuTempo.normal, label: Text(l10n.hahuTempoNormal)),
-                ButtonSegment(value: HahuTempo.fast, label: Text(l10n.hahuTempoFast)),
-              ],
-              selected: {settings.hahuTempo},
-              onSelectionChanged: (s) => settingsProvider.setHahuTempo(s.first),
-            ),
-          ),
-          const Divider(height: 32),
-          _SectionHeader(l10n.settingsSound),
-          SwitchListTile(
-            title: Text(l10n.settingsSound),
-            value: settings.soundEnabled,
-            onChanged: settingsProvider.setSoundEnabled,
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Row(
-              children: [
-                const Icon(Icons.volume_down),
-                Expanded(
-                  child: Slider(
-                    value: settings.volume,
-                    onChanged: settings.soundEnabled ? settingsProvider.setVolume : null,
-                  ),
-                ),
-                const Icon(Icons.volume_up),
-              ],
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
-            child: Text(l10n.settingsSpeechRate, style: Theme.of(context).textTheme.labelLarge),
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: SegmentedButton<SpeechRate>(
-              segments: [
-                ButtonSegment(value: SpeechRate.slow, label: Text(l10n.speechRateSlow)),
-                ButtonSegment(value: SpeechRate.medium, label: Text(l10n.speechRateMedium)),
-                ButtonSegment(value: SpeechRate.normal, label: Text(l10n.speechRateNormal)),
-              ],
-              selected: {settings.speechRate},
-              onSelectionChanged: settings.soundEnabled ? (s) => settingsProvider.setSpeechRate(s.first) : null,
-            ),
-          ),
-          const SizedBox(height: 8),
-          SwitchListTile(
-            title: Text(l10n.settingsAutoPlayNewWords),
-            value: settings.autoPlayNewWords,
-            onChanged: settingsProvider.setAutoPlayNewWords,
-          ),
-          const Divider(height: 32),
-          _SectionHeader(l10n.settingsDailyGoal),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: SegmentedButton<DailyGoal>(
-              segments: [
-                ButtonSegment(value: DailyGoal.relaxed, label: Text(l10n.dailyGoalRelaxed)),
-                ButtonSegment(value: DailyGoal.normal, label: Text(l10n.dailyGoalNormal)),
-                ButtonSegment(value: DailyGoal.ambitious, label: Text(l10n.dailyGoalAmbitious)),
-              ],
-              selected: {settings.dailyGoal},
-              onSelectionChanged: (s) => settingsProvider.setDailyGoal(s.first),
-            ),
-          ),
-          const Divider(height: 32),
-          SwitchListTile(
-            title: Text(l10n.settingsUseHearts),
-            value: settings.useHearts,
-            onChanged: settingsProvider.setUseHearts,
-          ),
-          SwitchListTile(
-            title: Text(l10n.settingsDailyReminder),
-            subtitle: Text(l10n.commonComingSoon),
-            value: settings.dailyReminderEnabled,
-            onChanged: settingsProvider.setDailyReminderEnabled,
-          ),
-          SwitchListTile(
-            title: Text(l10n.settingsAllLessonsUnlocked),
-            value: settings.allLessonsUnlocked,
-            onChanged: settingsProvider.setAllLessonsUnlocked,
-          ),
-          SwitchListTile(
-            title: Text(l10n.settingsReduceMotion),
-            value: settings.reduceMotion,
-            onChanged: settingsProvider.setReduceMotion,
-          ),
-          const Divider(height: 32),
-          ListTile(
-            leading: Icon(Icons.workspace_premium_outlined, color: Theme.of(context).colorScheme.primary),
-            title: Text(l10n.settingsPremium),
-            subtitle: Text(purchaseService.isPremium ? l10n.settingsPremiumActive : l10n.settingsPremiumHint),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => context.push('/settings/premium'),
-          ),
-          const Divider(height: 32),
-          ListTile(
-            leading: const Icon(Icons.cloud_upload_outlined),
-            title: Text(l10n.settingsBackupProgress),
-            onTap: () => _backupProgress(context, l10n),
-          ),
-          ListTile(
-            leading: const Icon(Icons.cloud_download_outlined),
-            title: Text(l10n.settingsRestoreProgress),
-            onTap: () => _restoreProgress(context, l10n),
-          ),
-          ListTile(
-            leading: Icon(Icons.delete_outline, color: Theme.of(context).colorScheme.error),
-            title: Text(l10n.settingsResetProgress),
-            onTap: () => _confirmReset(context, l10n),
-          ),
-          ListTile(
-            leading: const Icon(Icons.info_outline),
-            title: Text(l10n.settingsAbout),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => context.push('/settings/about'),
-          ),
-          const SizedBox(height: 24),
         ],
       ),
     );
@@ -408,17 +418,58 @@ class SettingsScreen extends StatelessWidget {
   }
 }
 
-class _SectionHeader extends StatelessWidget {
+/// A grouped settings card with a colored icon badge header (Etappe 19:
+/// replaces the old flat list + section-label + divider look). Each
+/// section is handed one of the three recurring brand colors so they show
+/// up "immer wieder" while scrolling, without ever covering a whole card.
+class _SettingsSection extends StatelessWidget {
+  final IconData icon;
+  final Color color;
   final String title;
-  const _SectionHeader(this.title);
+  final List<Widget> children;
+
+  const _SettingsSection({
+    required this.icon,
+    required this.color,
+    required this.title,
+    required this.children,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-      child: Text(
-        title,
-        style: Theme.of(context).textTheme.titleSmall?.copyWith(color: Theme.of(context).colorScheme.primary),
+      padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+      child: Card(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Row(
+                children: [
+                  Container(
+                    width: 36,
+                    height: 36,
+                    decoration: BoxDecoration(
+                      color: color.withValues(alpha: 0.16),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Icon(icon, size: 20, color: color),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      title,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 14),
+              ...children,
+            ],
+          ),
+        ),
       ),
     );
   }

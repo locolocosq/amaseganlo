@@ -25,7 +25,6 @@ class SettingsProvider extends ChangeNotifier {
 
   Future<void> setLocaleCode(String? code) => _update((s) => s.copyWith(localeCode: code));
   Future<void> setThemeMode(AppThemeMode mode) => _update((s) => s.copyWith(themeMode: mode));
-  Future<void> setAccentColorIndex(int index) => _update((s) => s.copyWith(accentColorIndex: index));
   Future<void> setFontSize(FontSizeOption size) => _update((s) => s.copyWith(fontSize: size));
   Future<void> setFidelDisplayMode(FidelDisplayMode mode) => _update((s) => s.copyWith(fidelDisplayMode: mode));
   Future<void> setSoundEnabled(bool enabled) => _update((s) => s.copyWith(soundEnabled: enabled));

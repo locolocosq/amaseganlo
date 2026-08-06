@@ -21,13 +21,12 @@ void main() {
       final storage = StorageService();
       await storage.init();
 
-      const settings = AppSettings(localeCode: 'de', themeMode: AppThemeMode.dark, accentColorIndex: 2);
+      const settings = AppSettings(localeCode: 'de', themeMode: AppThemeMode.dark);
       await storage.saveSettings(settings);
 
       final loaded = storage.loadSettings();
       expect(loaded.localeCode, 'de');
       expect(loaded.themeMode, AppThemeMode.dark);
-      expect(loaded.accentColorIndex, 2);
     });
 
     test('corrupted settings JSON falls back to defaults instead of crashing', () async {

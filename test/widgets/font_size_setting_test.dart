@@ -29,13 +29,19 @@ void main() {
 
     final normalSize = tester.getSize(find.text('Schriftgröße'));
 
+    // Scoped to the font-size SegmentedButton specifically: other segmented
+    // buttons further down the (now card-grouped, Etappe 19) settings screen
+    // also have a "Normal" option (e.g. Ha-Hu-Tempo), and grouping everything
+    // into cards shifted scroll offsets enough that both can be mounted at
+    // once - a plain find.text(label) would then be ambiguous.
+    final fontSizeSegmented = find.byType(SegmentedButton<FontSizeOption>);
     for (final label in ['Klein', 'Groß', 'Sehr groß', 'Normal']) {
-      await tester.tap(find.text(label));
+      await tester.tap(find.descendant(of: fontSizeSegmented, matching: find.text(label)));
       await tester.pumpAndSettle();
       expect(tester.takeException(), isNull, reason: 'selecting "$label" must not throw');
     }
 
-    await tester.tap(find.text('Sehr groß'));
+    await tester.tap(find.descendant(of: fontSizeSegmented, matching: find.text('Sehr groß')));
     await tester.pumpAndSettle();
     final largeSize = tester.getSize(find.text('Schriftgröße'));
     expect(largeSize.height, greaterThan(normalSize.height));

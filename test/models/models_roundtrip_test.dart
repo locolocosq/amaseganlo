@@ -79,14 +79,12 @@ void main() {
       const settings = AppSettings(
         localeCode: 'de',
         themeMode: AppThemeMode.dark,
-        accentColorIndex: 3,
         fontSize: FontSizeOption.large,
         useHearts: true,
       );
       final roundTripped = AppSettings.fromJson(settings.toJson());
       expect(roundTripped.localeCode, settings.localeCode);
       expect(roundTripped.themeMode, settings.themeMode);
-      expect(roundTripped.accentColorIndex, settings.accentColorIndex);
       expect(roundTripped.fontSize, settings.fontSize);
       expect(roundTripped.useHearts, settings.useHearts);
     });

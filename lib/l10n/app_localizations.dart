@@ -252,12 +252,6 @@ abstract class AppLocalizations {
   /// **'System'**
   String get appearanceSystem;
 
-  /// No description provided for @settingsAccentColor.
-  ///
-  /// In en, this message translates to:
-  /// **'Accent color'**
-  String get settingsAccentColor;
-
   /// No description provided for @settingsFontSize.
   ///
   /// In en, this message translates to:
@@ -378,6 +372,12 @@ abstract class AppLocalizations {
   /// **'Ambitious · 100 XP'**
   String get dailyGoalAmbitious;
 
+  /// No description provided for @settingsMoreOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'More options'**
+  String get settingsMoreOptions;
+
   /// No description provided for @settingsUseHearts.
   ///
   /// In en, this message translates to:
@@ -402,6 +402,12 @@ abstract class AppLocalizations {
   /// **'Reduce motion'**
   String get settingsReduceMotion;
 
+  /// No description provided for @settingsPremiumSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Premium'**
+  String get settingsPremiumSection;
+
   /// No description provided for @settingsPremium.
   ///
   /// In en, this message translates to:
@@ -411,7 +417,7 @@ abstract class AppLocalizations {
   /// No description provided for @settingsPremiumHint.
   ///
   /// In en, this message translates to:
-  /// **'Support the app & unlock journey colors'**
+  /// **'Support the app & unlock the passport cover'**
   String get settingsPremiumHint;
 
   /// No description provided for @settingsPremiumActive.
@@ -435,14 +441,8 @@ abstract class AppLocalizations {
   /// No description provided for @premiumDescription.
   ///
   /// In en, this message translates to:
-  /// **'Habesha Speak Premium supports ongoing development of the app and unlocks exclusive journey colors plus a special passport cover.'**
+  /// **'Habesha Speak Premium supports ongoing development of the app and unlocks a special passport cover.'**
   String get premiumDescription;
-
-  /// No description provided for @premiumFeatureColors.
-  ///
-  /// In en, this message translates to:
-  /// **'2 exclusive accent colors: Coffee & Blue Nile'**
-  String get premiumFeatureColors;
 
   /// No description provided for @premiumFeatureCover.
   ///
@@ -533,6 +533,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This code isn\'t valid.'**
   String get premiumRedeemInvalid;
+
+  /// No description provided for @settingsDataSection.
+  ///
+  /// In en, this message translates to:
+  /// **'Data'**
+  String get settingsDataSection;
 
   /// No description provided for @settingsBackupProgress.
   ///

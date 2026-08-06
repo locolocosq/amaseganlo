@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/language_names.dart';
+import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/settings.dart';
 import '../../state/settings_provider.dart';
@@ -76,20 +77,25 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
                   child: Row(
                     children: [
-                      if (_page > 0)
-                        TextButton(
+                      if (_page > 0) ...[
+                        IconButton.filledTonal(
                           onPressed: _back,
-                          child: Text(l10n.commonBack),
-                        )
-                      else
-                        const SizedBox.shrink(),
-                      const Spacer(),
-                      FilledButton(
-                        onPressed: _next,
-                        child: Text(
-                          _page == _pageCount - 1
-                              ? l10n.onboardingStart
-                              : l10n.commonNext,
+                          tooltip: l10n.commonBack,
+                          icon: const Icon(Icons.arrow_back),
+                        ),
+                        const SizedBox(width: 12),
+                      ],
+                      Expanded(
+                        child: FilledButton(
+                          onPressed: _next,
+                          style: FilledButton.styleFrom(
+                            minimumSize: const Size.fromHeight(52),
+                          ),
+                          child: Text(
+                            _page == _pageCount - 1
+                                ? l10n.onboardingStart
+                                : l10n.commonNext,
+                          ),
                         ),
                       ),
                     ],
@@ -136,10 +142,15 @@ class _StepScaffold extends StatelessWidget {
   final String title;
   final String? body;
   final Widget? child;
+  /// One of the three recurring brand colors (Etappe 19) - each step gets
+  /// a different one so the flag motif shows up early, right at first
+  /// launch, without any single step looking like a rainbow on its own.
+  final Color accentColor;
 
   const _StepScaffold({
     required this.icon,
     required this.title,
+    required this.accentColor,
     this.body,
     this.child,
   });
@@ -152,22 +163,30 @@ class _StepScaffold extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(icon, size: 64, color: theme.colorScheme.primary),
-          const SizedBox(height: 20),
+          Container(
+            width: 96,
+            height: 96,
+            decoration: BoxDecoration(
+              color: accentColor.withValues(alpha: 0.14),
+              shape: BoxShape.circle,
+            ),
+            child: Icon(icon, size: 48, color: accentColor),
+          ),
+          const SizedBox(height: 24),
           Text(
             title,
-            style: theme.textTheme.headlineSmall,
+            style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
           if (body != null) ...[
             const SizedBox(height: 12),
             Text(
               body!,
-              style: theme.textTheme.bodyLarge,
+              style: theme.textTheme.bodyLarge?.copyWith(color: theme.colorScheme.onSurfaceVariant),
               textAlign: TextAlign.center,
             ),
           ],
-          if (child != null) ...[const SizedBox(height: 24), child!],
+          if (child != null) ...[const SizedBox(height: 28), child!],
         ],
       ),
     );
@@ -187,6 +206,7 @@ class _WelcomeStep extends StatelessWidget {
       icon: Icons.translate,
       title: l10n.onboardingWelcomeTitle,
       body: l10n.onboardingWelcomeBody,
+      accentColor: AppBrandColors.green,
       child: Column(
         children: [
           Text(
@@ -223,6 +243,7 @@ class _TwoPathsStep extends StatelessWidget {
       icon: Icons.alt_route,
       title: l10n.onboardingTwoPathsTitle,
       body: l10n.onboardingTwoPathsBody,
+      accentColor: AppBrandColors.gold,
     );
   }
 }
@@ -239,6 +260,7 @@ class _DailyGoalStep extends StatelessWidget {
     return _StepScaffold(
       icon: Icons.flag_outlined,
       title: l10n.onboardingDailyGoalTitle,
+      accentColor: AppBrandColors.terracotta,
       child: SegmentedButton<DailyGoal>(
         segments: [
           ButtonSegment(
@@ -303,6 +325,7 @@ class _AssessmentStepState extends State<_AssessmentStep> {
     return _StepScaffold(
       icon: Icons.school_outlined,
       title: l10n.onboardingAssessmentQuestion,
+      accentColor: AppBrandColors.green,
       child: RadioGroup<_PriorKnowledge>(
         groupValue: _choice,
         onChanged: (v) {

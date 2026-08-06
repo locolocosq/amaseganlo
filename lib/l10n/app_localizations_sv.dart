@@ -84,9 +84,6 @@ class AppLocalizationsSv extends AppLocalizations {
   String get appearanceSystem => 'Som systemet';
 
   @override
-  String get settingsAccentColor => 'Accentfärg';
-
-  @override
   String get settingsFontSize => 'Textstorlek';
 
   @override
@@ -147,6 +144,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get dailyGoalAmbitious => 'Ambitiöst · 100 XP';
 
   @override
+  String get settingsMoreOptions => 'Fler alternativ';
+
+  @override
   String get settingsUseHearts => 'Använd hjärtan';
 
   @override
@@ -159,10 +159,13 @@ class AppLocalizationsSv extends AppLocalizations {
   String get settingsReduceMotion => 'Minska rörelser';
 
   @override
+  String get settingsPremiumSection => 'Premium';
+
+  @override
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
-  String get settingsPremiumHint => 'Stöd appen & lås upp reskolorer';
+  String get settingsPremiumHint => 'Stöd appen & lås upp passomslaget';
 
   @override
   String get settingsPremiumActive => 'Aktiverat - tack för ditt stöd!';
@@ -175,11 +178,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get premiumDescription =>
-      'Med Habesha Speak Premium stödjer du den fortsatta utvecklingen av appen och låser upp exklusiva reskolorer samt ett särskilt passomslag.';
-
-  @override
-  String get premiumFeatureColors =>
-      '2 exklusiva accentfärger: Kaffe & Blå Nilen';
+      'Med Habesha Speak Premium stödjer du den fortsatta utvecklingen av appen och låser upp ett särskilt passomslag.';
 
   @override
   String get premiumFeatureCover => 'Ett särskilt passomslag';
@@ -226,6 +225,9 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'Den här koden är inte giltig.';
+
+  @override
+  String get settingsDataSection => 'Data';
 
   @override
   String get settingsBackupProgress => 'Säkerhetskopiera framsteg';

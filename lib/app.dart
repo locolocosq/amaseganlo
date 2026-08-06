@@ -58,14 +58,8 @@ class _HabeshaSpeakAppState extends State<HabeshaSpeakApp> with WidgetsBindingOb
       title: 'Habesha Speak',
       debugShowCheckedModeBanner: false,
       routerConfig: router,
-      theme: AppTheme.build(
-        brightness: Brightness.light,
-        accentColorIndex: settings.accentColorIndex,
-      ),
-      darkTheme: AppTheme.build(
-        brightness: Brightness.dark,
-        accentColorIndex: settings.accentColorIndex,
-      ),
+      theme: AppTheme.build(brightness: Brightness.light),
+      darkTheme: AppTheme.build(brightness: Brightness.dark),
       themeMode: brightness == Brightness.dark
           ? ThemeMode.dark
           : ThemeMode.light,

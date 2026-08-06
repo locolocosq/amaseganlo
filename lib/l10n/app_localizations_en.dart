@@ -84,9 +84,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appearanceSystem => 'System';
 
   @override
-  String get settingsAccentColor => 'Accent color';
-
-  @override
   String get settingsFontSize => 'Font size';
 
   @override
@@ -148,6 +145,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dailyGoalAmbitious => 'Ambitious · 100 XP';
 
   @override
+  String get settingsMoreOptions => 'More options';
+
+  @override
   String get settingsUseHearts => 'Use hearts';
 
   @override
@@ -160,10 +160,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsReduceMotion => 'Reduce motion';
 
   @override
+  String get settingsPremiumSection => 'Premium';
+
+  @override
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
-  String get settingsPremiumHint => 'Support the app & unlock journey colors';
+  String get settingsPremiumHint =>
+      'Support the app & unlock the passport cover';
 
   @override
   String get settingsPremiumActive => 'Active - thank you for your support!';
@@ -176,11 +180,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get premiumDescription =>
-      'Habesha Speak Premium supports ongoing development of the app and unlocks exclusive journey colors plus a special passport cover.';
-
-  @override
-  String get premiumFeatureColors =>
-      '2 exclusive accent colors: Coffee & Blue Nile';
+      'Habesha Speak Premium supports ongoing development of the app and unlocks a special passport cover.';
 
   @override
   String get premiumFeatureCover => 'A special passport cover';
@@ -229,6 +229,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'This code isn\'t valid.';
+
+  @override
+  String get settingsDataSection => 'Data';
 
   @override
   String get settingsBackupProgress => 'Back up progress';
