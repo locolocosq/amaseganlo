@@ -303,8 +303,8 @@ void main() {
       expect(session.lesson.kind, LessonKind.unitTest);
       expect(
         session.exercises.length,
-        8,
-      ); // unit_erste_begegnung has 8 words, under the 20 cap
+        7,
+      ); // unit_erste_begegnung has 7 words, under the 20 cap
       expect(
         session.startingHearts,
         greaterThan(1000),

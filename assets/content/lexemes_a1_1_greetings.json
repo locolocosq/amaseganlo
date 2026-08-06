@@ -18,23 +18,6 @@
     "verified": true
   },
   {
-    "id": "lex_ameseginalehu",
-    "am": "አመሰግናለሁ",
-    "tr": "ameseginalehu",
-    "pos": "phrase",
-    "topic": "greetings",
-    "level": "A1.1",
-    "t": { "de": "Danke", "en": "Thank you", "sv": "Tack", "nl": "Dank je" },
-    "hint": {
-      "de": "Namensgeber dieser App.",
-      "en": "This app is named after this word.",
-      "sv": "Den här appen är döpt efter detta ord.",
-      "nl": "Deze app is naar dit woord genoemd."
-    },
-    "emoji": "🙏",
-    "verified": true
-  },
-  {
     "id": "lex_awo",
     "am": "አዎ",
     "tr": "awo",

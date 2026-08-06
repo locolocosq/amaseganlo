@@ -2,14 +2,14 @@
   {
     "id": "lesson_erste_begegnung_intro",
     "kind": "intro",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": ["lex_selam", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
     "sentenceIds": [],
     "exerciseTypes": []
   },
   {
     "id": "lesson_erste_begegnung_words",
     "kind": "wordPractice",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": ["lex_selam", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
     "sentenceIds": [],
     "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "emojiMatch", "pairMatching"]
   },
@@ -23,21 +23,21 @@
   {
     "id": "lesson_erste_begegnung_listening",
     "kind": "listening",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": ["lex_selam", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
     "sentenceIds": ["sen_dehna_negn"],
     "exerciseTypes": ["listenChoice", "listenBuild"]
   },
   {
     "id": "lesson_erste_begegnung_free",
     "kind": "freeApplication",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": ["lex_selam", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
     "sentenceIds": ["sen_dehna_negn"],
     "exerciseTypes": ["wordTyping", "sentenceTranslate"]
   },
   {
     "id": "lesson_erste_begegnung_review",
     "kind": "review",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": ["lex_selam", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
     "sentenceIds": ["sen_dehna_negn"],
     "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping", "trueFalse"]
   }

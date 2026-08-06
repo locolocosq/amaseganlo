@@ -8,7 +8,7 @@ import 'package:habesha_speak/core/audio_service.dart';
 
 /// A fake bundle that serves a fixed `manifest.json` declaring exactly one
 /// bundled word recording, so tests can exercise the "bundled asset exists
-/// but fails to play" path without touching the real, 1057-file manifest.
+/// but fails to play" path without touching the real, 1000+-file manifest.
 class _ManifestOnlyBundle extends CachingAssetBundle {
   @override
   Future<ByteData> load(String key) async {
