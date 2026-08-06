@@ -204,6 +204,21 @@ class AppLocalizationsEn extends AppLocalizations {
   String get premiumPriceUnknown => 'Price unavailable';
 
   @override
+  String get premiumRedeemTitle => 'Redeem a gift code';
+
+  @override
+  String get premiumRedeemHint => 'e.g. AB23CD-EFGH2345';
+
+  @override
+  String get premiumRedeemButton => 'Redeem';
+
+  @override
+  String get premiumRedeemSuccess => 'Redeemed - thank you for your support!';
+
+  @override
+  String get premiumRedeemInvalid => 'This code isn\'t valid.';
+
+  @override
   String get settingsBackupProgress => 'Back up progress';
 
   @override

@@ -67,6 +67,11 @@
   "premiumPurchaseCanceled": "Purchase canceled.",
   "premiumRestoreDone": "Purchases have been checked.",
   "premiumPriceUnknown": "Price unavailable",
+  "premiumRedeemTitle": "Redeem a gift code",
+  "premiumRedeemHint": "e.g. AB23CD-EFGH2345",
+  "premiumRedeemButton": "Redeem",
+  "premiumRedeemSuccess": "Redeemed - thank you for your support!",
+  "premiumRedeemInvalid": "This code isn't valid.",
 
   "settingsBackupProgress": "Back up progress",
   "settingsRestoreProgress": "Restore progress",

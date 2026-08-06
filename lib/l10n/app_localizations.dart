@@ -480,6 +480,36 @@ abstract class AppLocalizations {
   /// **'Price unavailable'**
   String get premiumPriceUnknown;
 
+  /// No description provided for @premiumRedeemTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Redeem a gift code'**
+  String get premiumRedeemTitle;
+
+  /// No description provided for @premiumRedeemHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. AB23CD-EFGH2345'**
+  String get premiumRedeemHint;
+
+  /// No description provided for @premiumRedeemButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Redeem'**
+  String get premiumRedeemButton;
+
+  /// No description provided for @premiumRedeemSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Redeemed - thank you for your support!'**
+  String get premiumRedeemSuccess;
+
+  /// No description provided for @premiumRedeemInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This code isn\'t valid.'**
+  String get premiumRedeemInvalid;
+
   /// No description provided for @settingsBackupProgress.
   ///
   /// In en, this message translates to:

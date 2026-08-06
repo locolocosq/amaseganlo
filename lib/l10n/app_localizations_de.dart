@@ -206,6 +206,22 @@ class AppLocalizationsDe extends AppLocalizations {
   String get premiumPriceUnknown => 'Preis nicht verfügbar';
 
   @override
+  String get premiumRedeemTitle => 'Geschenk-Code einlösen';
+
+  @override
+  String get premiumRedeemHint => 'z.B. AB23CD-EFGH2345';
+
+  @override
+  String get premiumRedeemButton => 'Einlösen';
+
+  @override
+  String get premiumRedeemSuccess =>
+      'Eingelöst - danke für deine Unterstützung!';
+
+  @override
+  String get premiumRedeemInvalid => 'Dieser Code ist ungültig.';
+
+  @override
   String get settingsBackupProgress => 'Fortschritt sichern';
 
   @override

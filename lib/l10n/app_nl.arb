@@ -67,6 +67,11 @@
   "premiumPurchaseCanceled": "Aankoop geannuleerd.",
   "premiumRestoreDone": "Aankopen zijn gecontroleerd.",
   "premiumPriceUnknown": "Prijs niet beschikbaar",
+  "premiumRedeemTitle": "Cadeaucode inwisselen",
+  "premiumRedeemHint": "bijv. AB23CD-EFGH2345",
+  "premiumRedeemButton": "Inwisselen",
+  "premiumRedeemSuccess": "Ingewisseld - bedankt voor je steun!",
+  "premiumRedeemInvalid": "Deze code is niet geldig.",
 
   "settingsBackupProgress": "Voortgang backuppen",
   "settingsRestoreProgress": "Voortgang herstellen",

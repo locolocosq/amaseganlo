@@ -201,6 +201,21 @@ class AppLocalizationsSv extends AppLocalizations {
   String get premiumPriceUnknown => 'Pris ej tillgängligt';
 
   @override
+  String get premiumRedeemTitle => 'Lös in en presentkod';
+
+  @override
+  String get premiumRedeemHint => 't.ex. AB23CD-EFGH2345';
+
+  @override
+  String get premiumRedeemButton => 'Lös in';
+
+  @override
+  String get premiumRedeemSuccess => 'Inlöst - tack för ditt stöd!';
+
+  @override
+  String get premiumRedeemInvalid => 'Den här koden är inte giltig.';
+
+  @override
   String get settingsBackupProgress => 'Säkerhetskopiera framsteg';
 
   @override

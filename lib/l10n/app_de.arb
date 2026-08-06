@@ -67,6 +67,11 @@
   "premiumPurchaseCanceled": "Kauf abgebrochen.",
   "premiumRestoreDone": "Käufe wurden überprüft.",
   "premiumPriceUnknown": "Preis nicht verfügbar",
+  "premiumRedeemTitle": "Geschenk-Code einlösen",
+  "premiumRedeemHint": "z.B. AB23CD-EFGH2345",
+  "premiumRedeemButton": "Einlösen",
+  "premiumRedeemSuccess": "Eingelöst - danke für deine Unterstützung!",
+  "premiumRedeemInvalid": "Dieser Code ist ungültig.",
 
   "settingsBackupProgress": "Fortschritt sichern",
   "settingsRestoreProgress": "Fortschritt wiederherstellen",

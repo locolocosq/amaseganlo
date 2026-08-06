@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'package:amaseganlo/core/promo_codes.dart';
 import 'package:amaseganlo/core/purchase_service.dart';
 import 'package:amaseganlo/core/storage_service.dart';
 
@@ -114,5 +115,16 @@ void main() {
     expect(outcome, PurchaseOutcome.error);
     expect(client.buyCalls, isEmpty);
     expect(service.isPremium, isFalse);
+  });
+
+  test('redeeming a valid gift code unlocks premium, an invalid one does not', () async {
+    final service = PurchaseService(storage: await freshStorage(), client: _FakePurchaseClient());
+    await service.init();
+
+    expect(service.redeemPromoCode('NOT-A-REAL-CODE'), isFalse);
+    expect(service.isPremium, isFalse);
+
+    expect(service.redeemPromoCode(generateRandomPromoCode()), isTrue);
+    expect(service.isPremium, isTrue);
   });
 }

@@ -203,6 +203,21 @@ class AppLocalizationsNl extends AppLocalizations {
   String get premiumPriceUnknown => 'Prijs niet beschikbaar';
 
   @override
+  String get premiumRedeemTitle => 'Cadeaucode inwisselen';
+
+  @override
+  String get premiumRedeemHint => 'bijv. AB23CD-EFGH2345';
+
+  @override
+  String get premiumRedeemButton => 'Inwisselen';
+
+  @override
+  String get premiumRedeemSuccess => 'Ingewisseld - bedankt voor je steun!';
+
+  @override
+  String get premiumRedeemInvalid => 'Deze code is niet geldig.';
+
+  @override
   String get settingsBackupProgress => 'Voortgang backuppen';
 
   @override

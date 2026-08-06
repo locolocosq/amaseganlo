@@ -17,11 +17,18 @@ class _PremiumScreenState extends State<PremiumScreen> {
   StoreProduct? _product;
   bool _loadingProduct = true;
   bool _busy = false;
+  final _codeController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) => _loadProduct());
+  }
+
+  @override
+  void dispose() {
+    _codeController.dispose();
+    super.dispose();
   }
 
   Future<void> _loadProduct() async {
@@ -56,6 +63,14 @@ class _PremiumScreenState extends State<PremiumScreen> {
     if (!mounted) return;
     setState(() => _busy = false);
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.premiumRestoreDone)));
+  }
+
+  void _redeem(AppLocalizations l10n) {
+    final ok = context.read<PurchaseService>().redeemPromoCode(_codeController.text);
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text(ok ? l10n.premiumRedeemSuccess : l10n.premiumRedeemInvalid)),
+    );
+    if (ok) _codeController.clear();
   }
 
   @override
@@ -100,30 +115,49 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 textAlign: TextAlign.center,
               ),
             )
-          else if (!purchaseService.storeAvailable)
-            Center(
-              child: Text(
-                l10n.premiumStoreUnavailable,
-                style: theme.textTheme.bodyMedium?.copyWith(color: theme.colorScheme.onSurfaceVariant),
-                textAlign: TextAlign.center,
-              ),
-            )
           else ...[
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton(
-                onPressed: _busy ? null : () => _buy(l10n),
-                child: _busy
-                    ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2))
-                    : Text(_loadingProduct ? l10n.premiumBuyButton : '${l10n.premiumBuyButton} · ${_product?.price ?? l10n.premiumPriceUnknown}'),
+            if (!purchaseService.storeAvailable)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 16),
+                child: Text(
+                  l10n.premiumStoreUnavailable,
+                  style: theme.textTheme.bodyMedium?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+                  textAlign: TextAlign.center,
+                ),
+              )
+            else ...[
+              SizedBox(
+                width: double.infinity,
+                child: FilledButton(
+                  onPressed: _busy ? null : () => _buy(l10n),
+                  child: _busy
+                      ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2))
+                      : Text(_loadingProduct ? l10n.premiumBuyButton : '${l10n.premiumBuyButton} · ${_product?.price ?? l10n.premiumPriceUnknown}'),
+                ),
               ),
+              const SizedBox(height: 12),
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton(
+                  onPressed: _busy ? null : () => _restore(l10n),
+                  child: Text(l10n.premiumRestoreButton),
+                ),
+              ),
+            ],
+            const Divider(height: 32),
+            Text(l10n.premiumRedeemTitle, style: theme.textTheme.titleSmall),
+            const SizedBox(height: 8),
+            TextField(
+              controller: _codeController,
+              textCapitalization: TextCapitalization.characters,
+              decoration: InputDecoration(hintText: l10n.premiumRedeemHint, border: const OutlineInputBorder()),
             ),
             const SizedBox(height: 12),
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: _busy ? null : () => _restore(l10n),
-                child: Text(l10n.premiumRestoreButton),
+                onPressed: () => _redeem(l10n),
+                child: Text(l10n.premiumRedeemButton),
               ),
             ),
           ],

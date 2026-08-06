@@ -67,6 +67,11 @@
   "premiumPurchaseCanceled": "Köp avbrutet.",
   "premiumRestoreDone": "Köp har kontrollerats.",
   "premiumPriceUnknown": "Pris ej tillgängligt",
+  "premiumRedeemTitle": "Lös in en presentkod",
+  "premiumRedeemHint": "t.ex. AB23CD-EFGH2345",
+  "premiumRedeemButton": "Lös in",
+  "premiumRedeemSuccess": "Inlöst - tack för ditt stöd!",
+  "premiumRedeemInvalid": "Den här koden är inte giltig.",
 
   "settingsBackupProgress": "Säkerhetskopiera framsteg",
   "settingsRestoreProgress": "Återställ framsteg",

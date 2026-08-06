@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
+import 'promo_codes.dart';
 import 'storage_service.dart';
 
 /// Product id for the one-time "support the app" unlock (Abschnitt Design:
@@ -198,6 +199,17 @@ class PurchaseService extends ChangeNotifier {
   }
 
   Future<void> restorePurchases() => _client.restorePurchases();
+
+  /// Redeems an offline gift code (Abschnitt Design/Etappe 13, see
+  /// `promo_codes.dart` for how/why this works without a server) - grants
+  /// the exact same permanent entitlement a real purchase would. Returns
+  /// whether the code was valid; redeeming an already-applied valid code
+  /// again is harmless (stays premium either way).
+  bool redeemPromoCode(String code) {
+    if (!isValidPromoCode(code)) return false;
+    _setPremium(true);
+    return true;
+  }
 
   void _setPremium(bool value) {
     if (_isPremium == value) return;
