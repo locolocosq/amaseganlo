@@ -405,7 +405,7 @@ abstract class AppLocalizations {
   /// No description provided for @settingsPremiumHint.
   ///
   /// In en, this message translates to:
-  /// **'Support the app & unlock the passport cover'**
+  /// **'Unlock every station'**
   String get settingsPremiumHint;
 
   /// No description provided for @settingsPremiumActive.
@@ -423,14 +423,26 @@ abstract class AppLocalizations {
   /// No description provided for @premiumHeadline.
   ///
   /// In en, this message translates to:
-  /// **'Support the Ethiopia journey'**
+  /// **'Unlock the whole journey'**
   String get premiumHeadline;
 
   /// No description provided for @premiumDescription.
   ///
   /// In en, this message translates to:
-  /// **'Habesha Speak Premium supports ongoing development of the app and unlocks a special passport cover.'**
+  /// **'The first chapters of Station 1 are free. With Habesha Speak Premium you keep learning without limits - every station, every chapter.'**
   String get premiumDescription;
+
+  /// No description provided for @premiumFeatureAllStations.
+  ///
+  /// In en, this message translates to:
+  /// **'Every station and chapter unlocked'**
+  String get premiumFeatureAllStations;
+
+  /// No description provided for @premiumFeatureUnlimited.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep learning without limits, no waiting'**
+  String get premiumFeatureUnlimited;
 
   /// No description provided for @premiumFeatureCover.
   ///
@@ -438,17 +450,17 @@ abstract class AppLocalizations {
   /// **'A special passport cover'**
   String get premiumFeatureCover;
 
-  /// No description provided for @premiumFeatureSupport.
+  /// No description provided for @premiumBuyYearlyButton.
   ///
   /// In en, this message translates to:
-  /// **'You support the app\'s continued development'**
-  String get premiumFeatureSupport;
+  /// **'Yearly plan'**
+  String get premiumBuyYearlyButton;
 
-  /// No description provided for @premiumBuyButton.
+  /// No description provided for @premiumBuyLifetimeButton.
   ///
   /// In en, this message translates to:
-  /// **'Unlock now'**
-  String get premiumBuyButton;
+  /// **'Unlock for life'**
+  String get premiumBuyLifetimeButton;
 
   /// No description provided for @premiumRestoreButton.
   ///
@@ -456,11 +468,17 @@ abstract class AppLocalizations {
   /// **'Restore purchases'**
   String get premiumRestoreButton;
 
-  /// No description provided for @premiumAlreadyOwned.
+  /// No description provided for @premiumAlreadyOwnedYearly.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve already unlocked Premium - thank you!'**
-  String get premiumAlreadyOwned;
+  /// **'Your plan: Yearly - thank you for your support!'**
+  String get premiumAlreadyOwnedYearly;
+
+  /// No description provided for @premiumAlreadyOwnedLifetime.
+  ///
+  /// In en, this message translates to:
+  /// **'Your plan: Lifetime - thank you for your support!'**
+  String get premiumAlreadyOwnedLifetime;
 
   /// No description provided for @premiumStoreUnavailable.
   ///
@@ -521,6 +539,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This code isn\'t valid.'**
   String get premiumRedeemInvalid;
+
+  /// No description provided for @premiumLockedDialogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s part of Habesha Speak Premium'**
+  String get premiumLockedDialogTitle;
+
+  /// No description provided for @premiumLockedDialogBody.
+  ///
+  /// In en, this message translates to:
+  /// **'The first chapters of Station 1 are free. Premium (yearly or lifetime) unlocks every further station and chapter.'**
+  String get premiumLockedDialogBody;
+
+  /// No description provided for @premiumLockedDialogAction.
+  ///
+  /// In en, this message translates to:
+  /// **'View Premium'**
+  String get premiumLockedDialogAction;
+
+  /// No description provided for @premiumRequiredBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Premium required'**
+  String get premiumRequiredBadge;
 
   /// No description provided for @settingsDataSection.
   ///

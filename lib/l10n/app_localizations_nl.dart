@@ -160,7 +160,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
-  String get settingsPremiumHint => 'Steun de app & ontgrendel de paspoortkaft';
+  String get settingsPremiumHint => 'Alle stations ontgrendelen';
 
   @override
   String get settingsPremiumActive => 'Actief - bedankt voor je steun!';
@@ -169,27 +169,39 @@ class AppLocalizationsNl extends AppLocalizations {
   String get premiumTitle => 'Habesha Speak Premium';
 
   @override
-  String get premiumHeadline => 'Steun de Ethiopië-reis';
+  String get premiumHeadline => 'Ontgrendel de hele reis';
 
   @override
   String get premiumDescription =>
-      'Met Habesha Speak Premium steun je de verdere ontwikkeling van de app en ontgrendel je een speciale paspoorthoes.';
+      'De eerste hoofdstukken van Station 1 zijn gratis. Met Habesha Speak Premium leer je onbeperkt verder - alle stations, alle hoofdstukken.';
+
+  @override
+  String get premiumFeatureAllStations =>
+      'Alle stations en hoofdstukken ontgrendeld';
+
+  @override
+  String get premiumFeatureUnlimited =>
+      'Onbeperkt verder leren, geen wachttijd';
 
   @override
   String get premiumFeatureCover => 'Een speciale paspoorthoes';
 
   @override
-  String get premiumFeatureSupport =>
-      'Je steunt de verdere ontwikkeling van de app';
+  String get premiumBuyYearlyButton => 'Jaarabonnement';
 
   @override
-  String get premiumBuyButton => 'Nu ontgrendelen';
+  String get premiumBuyLifetimeButton => 'Levenslang ontgrendelen';
 
   @override
   String get premiumRestoreButton => 'Aankopen herstellen';
 
   @override
-  String get premiumAlreadyOwned => 'Je hebt Premium al ontgrendeld - bedankt!';
+  String get premiumAlreadyOwnedYearly =>
+      'Jouw abonnement: Jaarlijks - bedankt voor je steun!';
+
+  @override
+  String get premiumAlreadyOwnedLifetime =>
+      'Jouw abonnement: Levenslang - bedankt voor je steun!';
 
   @override
   String get premiumStoreUnavailable =>
@@ -221,6 +233,20 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'Deze code is niet geldig.';
+
+  @override
+  String get premiumLockedDialogTitle =>
+      'Dit is onderdeel van Habesha Speak Premium';
+
+  @override
+  String get premiumLockedDialogBody =>
+      'De eerste hoofdstukken van Station 1 zijn gratis. Met Premium (jaarlijks of levenslang) ontgrendel je alle verdere stations en hoofdstukken.';
+
+  @override
+  String get premiumLockedDialogAction => 'Premium bekijken';
+
+  @override
+  String get premiumRequiredBadge => 'Premium vereist';
 
   @override
   String get settingsDataSection => 'Gegevens';

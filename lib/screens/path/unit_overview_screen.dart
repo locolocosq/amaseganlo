@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/journey_progress.dart';
+import '../../core/purchase_service.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/lesson.dart';
@@ -39,6 +41,33 @@ class UnitOverviewScreen extends StatelessWidget {
         body: EmptyState(
           icon: Icons.menu_book_outlined,
           title: l10n.errorContentUnit,
+        ),
+      );
+    }
+
+    // Defensive re-check (Etappe 23): the map never lets a Premium-gated
+    // unit's tile navigate here in the first place, but this route is still
+    // reachable directly (a deep link, a saved/restored navigation stack),
+    // so the paywall has to hold here too, not just at the map.
+    final isPremium = context.watch<PurchaseService>().isPremium;
+    if (!isPremium && !freeTrialUnitIds(content).contains(unitId)) {
+      return Scaffold(
+        appBar: AppBar(
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            tooltip: l10n.commonBack,
+            onPressed: () => context.pop(),
+          ),
+          title: Text(unit.title[locale] ?? unit.id),
+        ),
+        body: EmptyState(
+          icon: Icons.workspace_premium,
+          title: l10n.premiumLockedDialogTitle,
+          body: l10n.premiumLockedDialogBody,
+          action: FilledButton(
+            onPressed: () => context.push('/settings/premium'),
+            child: Text(l10n.premiumLockedDialogAction),
+          ),
         ),
       );
     }

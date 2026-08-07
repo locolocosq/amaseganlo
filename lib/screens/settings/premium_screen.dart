@@ -14,15 +14,16 @@ class PremiumScreen extends StatefulWidget {
 }
 
 class _PremiumScreenState extends State<PremiumScreen> {
-  StoreProduct? _product;
-  bool _loadingProduct = true;
+  StoreProduct? _yearlyProduct;
+  StoreProduct? _lifetimeProduct;
+  bool _loadingProducts = true;
   bool _busy = false;
   final _codeController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) => _loadProduct());
+    WidgetsBinding.instance.addPostFrameCallback((_) => _loadProducts());
   }
 
   @override
@@ -31,19 +32,24 @@ class _PremiumScreenState extends State<PremiumScreen> {
     super.dispose();
   }
 
-  Future<void> _loadProduct() async {
+  Future<void> _loadProducts() async {
     final service = context.read<PurchaseService>();
-    final product = await service.loadProduct();
+    final yearly = await service.loadYearlyProduct();
+    final lifetime = await service.loadLifetimeProduct();
     if (!mounted) return;
     setState(() {
-      _product = product;
-      _loadingProduct = false;
+      _yearlyProduct = yearly;
+      _lifetimeProduct = lifetime;
+      _loadingProducts = false;
     });
   }
 
-  Future<void> _buy(AppLocalizations l10n) async {
+  Future<void> _buyYearly(AppLocalizations l10n) => _buy(l10n, context.read<PurchaseService>().buyYearly);
+  Future<void> _buyLifetime(AppLocalizations l10n) => _buy(l10n, context.read<PurchaseService>().buyLifetime);
+
+  Future<void> _buy(AppLocalizations l10n, Future<PurchaseOutcome> Function() purchase) async {
     setState(() => _busy = true);
-    final outcome = await context.read<PurchaseService>().buyPremium();
+    final outcome = await purchase();
     if (!mounted) return;
     setState(() => _busy = false);
     final message = switch (outcome) {
@@ -93,13 +99,14 @@ class _PremiumScreenState extends State<PremiumScreen> {
           const SizedBox(height: 12),
           Text(l10n.premiumDescription, textAlign: TextAlign.center),
           const SizedBox(height: 24),
+          _FeatureRow(icon: Icons.map_outlined, text: l10n.premiumFeatureAllStations),
+          _FeatureRow(icon: Icons.all_inclusive, text: l10n.premiumFeatureUnlimited),
           _FeatureRow(icon: Icons.badge_outlined, text: l10n.premiumFeatureCover),
-          _FeatureRow(icon: Icons.favorite_outline, text: l10n.premiumFeatureSupport),
           const SizedBox(height: 32),
           if (purchaseService.isPremium)
             Center(
               child: Text(
-                l10n.premiumAlreadyOwned,
+                purchaseService.tier == PremiumTier.yearly ? l10n.premiumAlreadyOwnedYearly : l10n.premiumAlreadyOwnedLifetime,
                 style: theme.textTheme.titleMedium?.copyWith(color: successColor),
                 textAlign: TextAlign.center,
               ),
@@ -118,16 +125,32 @@ class _PremiumScreenState extends State<PremiumScreen> {
               SizedBox(
                 width: double.infinity,
                 child: FilledButton(
-                  onPressed: _busy ? null : () => _buy(l10n),
+                  onPressed: _busy ? null : () => _buyYearly(l10n),
                   child: _busy
                       ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2))
-                      : Text(_loadingProduct ? l10n.premiumBuyButton : '${l10n.premiumBuyButton} · ${_product?.price ?? l10n.premiumPriceUnknown}'),
+                      : Text(
+                          _loadingProducts
+                              ? l10n.premiumBuyYearlyButton
+                              : '${l10n.premiumBuyYearlyButton} · ${_yearlyProduct?.price ?? l10n.premiumPriceUnknown}',
+                        ),
+                ),
+              ),
+              const SizedBox(height: 10),
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton(
+                  onPressed: _busy ? null : () => _buyLifetime(l10n),
+                  child: Text(
+                    _loadingProducts
+                        ? l10n.premiumBuyLifetimeButton
+                        : '${l10n.premiumBuyLifetimeButton} · ${_lifetimeProduct?.price ?? l10n.premiumPriceUnknown}',
+                  ),
                 ),
               ),
               const SizedBox(height: 12),
               SizedBox(
                 width: double.infinity,
-                child: OutlinedButton(
+                child: TextButton(
                   onPressed: _busy ? null : () => _restore(l10n),
                   child: Text(l10n.premiumRestoreButton),
                 ),

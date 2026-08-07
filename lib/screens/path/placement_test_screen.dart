@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/journey_progress.dart';
+import '../../core/purchase_service.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
@@ -125,8 +127,15 @@ class _PlacementTestScreenState extends State<PlacementTestScreen> {
   Future<void> _acceptSuggestion() async {
     final sections = _sections;
     final progress = context.read<ProgressProvider>();
+    // Etappe 23: a strong placement-test result must not become a free way
+    // past the paywall - a unit past the free trial only ever becomes
+    // playable by actually buying Premium, no matter how well the learner
+    // scored here.
+    final isPremium = context.read<PurchaseService>().isPremium;
+    final freeIds = freeTrialUnitIds(context.read<ContentProvider>().repository).toSet();
     for (var i = 0; i <= _highestPassedIndex && i < sections.length; i++) {
       for (final unitId in sections[i].unitIds) {
+        if (!isPremium && !freeIds.contains(unitId)) continue;
         await progress.markUnitSkipped(unitId);
       }
     }

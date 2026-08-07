@@ -35,7 +35,7 @@ class _FakePurchaseClient implements PurchaseClient {
   Future<void> restorePurchases() async {
     restoreCalls.add('restore');
     if (nextBuyOutcome == PurchaseOutcome.success) {
-      _restoredController.add(premiumProductId);
+      _restoredController.add(premiumLifetimeProductId);
     }
   }
 
@@ -56,16 +56,31 @@ void main() {
     return storage;
   }
 
-  test('a successful purchase unlocks premium immediately', () async {
+  test('a successful lifetime purchase unlocks premium immediately', () async {
     final client = _FakePurchaseClient();
     final service = PurchaseService(storage: await freshStorage(), client: client);
     await service.init();
 
     expect(service.isPremium, isFalse);
-    final outcome = await service.buyPremium();
+    final outcome = await service.buyLifetime();
 
     expect(outcome, PurchaseOutcome.success);
     expect(service.isPremium, isTrue);
+    expect(service.tier, PremiumTier.lifetime);
+    expect(client.buyCalls, [premiumLifetimeProductId]);
+  });
+
+  test('a successful yearly purchase unlocks premium immediately, with the yearly tier recorded', () async {
+    final client = _FakePurchaseClient();
+    final service = PurchaseService(storage: await freshStorage(), client: client);
+    await service.init();
+
+    final outcome = await service.buyYearly();
+
+    expect(outcome, PurchaseOutcome.success);
+    expect(service.isPremium, isTrue);
+    expect(service.tier, PremiumTier.yearly);
+    expect(client.buyCalls, [premiumYearlyProductId]);
   });
 
   test('a canceled or failed purchase does not unlock premium', () async {
@@ -73,7 +88,7 @@ void main() {
     final service = PurchaseService(storage: await freshStorage(), client: client);
     await service.init();
 
-    final outcome = await service.buyPremium();
+    final outcome = await service.buyLifetime();
 
     expect(outcome, PurchaseOutcome.canceled);
     expect(service.isPremium, isFalse);
@@ -93,16 +108,17 @@ void main() {
     expect(client.restoreCalls, ['restore']);
   });
 
-  test('premium entitlement persists across PurchaseService instances using the same storage', () async {
+  test('premium entitlement and tier persist across PurchaseService instances using the same storage', () async {
     final storage = await freshStorage();
     final client1 = _FakePurchaseClient();
     final service1 = PurchaseService(storage: storage, client: client1);
     await service1.init();
-    await service1.buyPremium();
+    await service1.buyYearly();
     expect(service1.isPremium, isTrue);
 
     final service2 = PurchaseService(storage: storage, client: _FakePurchaseClient());
     expect(service2.isPremium, isTrue);
+    expect(service2.tier, PremiumTier.yearly);
   });
 
   test('buying when the store is unavailable fails cleanly instead of calling the client', () async {
@@ -110,7 +126,7 @@ void main() {
     final service = PurchaseService(storage: await freshStorage(), client: client);
     await service.init();
 
-    final outcome = await service.buyPremium();
+    final outcome = await service.buyLifetime();
 
     expect(outcome, PurchaseOutcome.error);
     expect(client.buyCalls, isEmpty);

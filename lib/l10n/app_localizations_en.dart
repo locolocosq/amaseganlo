@@ -160,8 +160,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
-  String get settingsPremiumHint =>
-      'Support the app & unlock the passport cover';
+  String get settingsPremiumHint => 'Unlock every station';
 
   @override
   String get settingsPremiumActive => 'Active - thank you for your support!';
@@ -170,28 +169,38 @@ class AppLocalizationsEn extends AppLocalizations {
   String get premiumTitle => 'Habesha Speak Premium';
 
   @override
-  String get premiumHeadline => 'Support the Ethiopia journey';
+  String get premiumHeadline => 'Unlock the whole journey';
 
   @override
   String get premiumDescription =>
-      'Habesha Speak Premium supports ongoing development of the app and unlocks a special passport cover.';
+      'The first chapters of Station 1 are free. With Habesha Speak Premium you keep learning without limits - every station, every chapter.';
+
+  @override
+  String get premiumFeatureAllStations => 'Every station and chapter unlocked';
+
+  @override
+  String get premiumFeatureUnlimited =>
+      'Keep learning without limits, no waiting';
 
   @override
   String get premiumFeatureCover => 'A special passport cover';
 
   @override
-  String get premiumFeatureSupport =>
-      'You support the app\'s continued development';
+  String get premiumBuyYearlyButton => 'Yearly plan';
 
   @override
-  String get premiumBuyButton => 'Unlock now';
+  String get premiumBuyLifetimeButton => 'Unlock for life';
 
   @override
   String get premiumRestoreButton => 'Restore purchases';
 
   @override
-  String get premiumAlreadyOwned =>
-      'You\'ve already unlocked Premium - thank you!';
+  String get premiumAlreadyOwnedYearly =>
+      'Your plan: Yearly - thank you for your support!';
+
+  @override
+  String get premiumAlreadyOwnedLifetime =>
+      'Your plan: Lifetime - thank you for your support!';
 
   @override
   String get premiumStoreUnavailable =>
@@ -223,6 +232,20 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'This code isn\'t valid.';
+
+  @override
+  String get premiumLockedDialogTitle =>
+      'That\'s part of Habesha Speak Premium';
+
+  @override
+  String get premiumLockedDialogBody =>
+      'The first chapters of Station 1 are free. Premium (yearly or lifetime) unlocks every further station and chapter.';
+
+  @override
+  String get premiumLockedDialogAction => 'View Premium';
+
+  @override
+  String get premiumRequiredBadge => 'Premium required';
 
   @override
   String get settingsDataSection => 'Data';

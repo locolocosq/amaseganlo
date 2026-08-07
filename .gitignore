@@ -44,6 +44,12 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Real Play Store signing secrets (Etappe 23) - never committed, see
+# ENTSCHEIDUNGEN.md for how to create these yourself.
+/android/key.properties
+*.jks
+*.keystore
+
 # Ablage fuer Dateien, die der Nutzer mir uebergibt (z.B. audio_output.zip
 # aus tool/generate_audio_colab.py) - wird hier ausgepackt/verarbeitet,
 # nie eingecheckt.

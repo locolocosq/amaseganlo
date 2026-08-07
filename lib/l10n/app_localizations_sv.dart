@@ -159,7 +159,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get settingsPremium => 'Habesha Speak Premium';
 
   @override
-  String get settingsPremiumHint => 'Stöd appen & lås upp passomslaget';
+  String get settingsPremiumHint => 'Lås upp alla stationer';
 
   @override
   String get settingsPremiumActive => 'Aktiverat - tack för ditt stöd!';
@@ -168,26 +168,38 @@ class AppLocalizationsSv extends AppLocalizations {
   String get premiumTitle => 'Habesha Speak Premium';
 
   @override
-  String get premiumHeadline => 'Stöd Etiopien-resan';
+  String get premiumHeadline => 'Lås upp hela resan';
 
   @override
   String get premiumDescription =>
-      'Med Habesha Speak Premium stödjer du den fortsatta utvecklingen av appen och låser upp ett särskilt passomslag.';
+      'De första kapitlen i Station 1 är gratis. Med Habesha Speak Premium fortsätter du lära dig obegränsat - alla stationer, alla kapitel.';
+
+  @override
+  String get premiumFeatureAllStations => 'Alla stationer och kapitel upplåsta';
+
+  @override
+  String get premiumFeatureUnlimited =>
+      'Fortsätt lära dig obegränsat, ingen väntetid';
 
   @override
   String get premiumFeatureCover => 'Ett särskilt passomslag';
 
   @override
-  String get premiumFeatureSupport => 'Du stödjer appens fortsatta utveckling';
+  String get premiumBuyYearlyButton => 'Årsabonnemang';
 
   @override
-  String get premiumBuyButton => 'Lås upp nu';
+  String get premiumBuyLifetimeButton => 'Lås upp för alltid';
 
   @override
   String get premiumRestoreButton => 'Återställ köp';
 
   @override
-  String get premiumAlreadyOwned => 'Du har redan låst upp Premium - tack!';
+  String get premiumAlreadyOwnedYearly =>
+      'Ditt abonnemang: Årligen - tack för ditt stöd!';
+
+  @override
+  String get premiumAlreadyOwnedLifetime =>
+      'Ditt abonnemang: Livstid - tack för ditt stöd!';
 
   @override
   String get premiumStoreUnavailable =>
@@ -219,6 +231,20 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get premiumRedeemInvalid => 'Den här koden är inte giltig.';
+
+  @override
+  String get premiumLockedDialogTitle =>
+      'Det här ingår i Habesha Speak Premium';
+
+  @override
+  String get premiumLockedDialogBody =>
+      'De första kapitlen i Station 1 är gratis. Med Premium (årligen eller livstid) låser du upp alla ytterligare stationer och kapitel.';
+
+  @override
+  String get premiumLockedDialogAction => 'Visa Premium';
+
+  @override
+  String get premiumRequiredBadge => 'Premium krävs';
 
   @override
   String get settingsDataSection => 'Data';

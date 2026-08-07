@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../core/journey_progress.dart';
 import '../../core/journey_regions.dart';
 import '../../core/theme.dart';
+import '../../l10n/app_localizations.dart';
 
 /// One numbered station ("1-1", "1-2", ...) on the Ebene-2 region path -
 /// the direct visual equivalent of the old list's `_UnitTile`, just placed
@@ -29,7 +30,7 @@ class StationNodeMarker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final locked = state == UnitState.locked;
+    final locked = state == UnitState.locked || state == UnitState.premiumLocked;
 
     late final Color ringColor;
     late final IconData icon;
@@ -55,13 +56,21 @@ class StationNodeMarker extends StatelessWidget {
         icon = Icons.lock;
         iconColor = theme.colorScheme.outline;
         break;
+      case UnitState.premiumLocked:
+        // Gold, not grey - a visually distinct "buy to unlock" lock so it
+        // doesn't read as "just not reached yet" like the plain grey one.
+        ringColor = const Color(0xFFD4A017);
+        icon = Icons.workspace_premium;
+        iconColor = const Color(0xFFD4A017);
+        break;
     }
 
     const double diameter = 62;
+    final l10n = AppLocalizations.of(context);
 
     return Semantics(
       button: true,
-      label: '$numberLabel $title',
+      label: state == UnitState.premiumLocked ? '$numberLabel $title. ${l10n.premiumRequiredBadge}' : '$numberLabel $title',
       child: GestureDetector(
         onTap: onTap,
         behavior: HitTestBehavior.opaque,

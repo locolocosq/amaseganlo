@@ -30,6 +30,7 @@ void main() {
     await tester.drag(find.byType(Scrollable).first, const Offset(0, -600));
     await tester.pumpAndSettle();
     expect(find.textContaining('nur über die App-Store'), findsOneWidget);
-    expect(find.text('Jetzt freischalten'), findsNothing);
+    expect(find.textContaining('Jahres-Abo'), findsNothing);
+    expect(find.textContaining('Lebenslang freischalten'), findsNothing);
   });
 }

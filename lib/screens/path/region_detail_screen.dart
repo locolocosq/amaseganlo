@@ -6,12 +6,14 @@ import 'package:provider/provider.dart';
 import '../../core/journey_map_layout.dart';
 import '../../core/journey_progress.dart';
 import '../../core/journey_regions.dart';
+import '../../core/purchase_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
 import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
 import '../../widgets/common/empty_state.dart';
+import '../../widgets/common/premium_locked_dialog.dart';
 import '../../widgets/journey/bus_driver.dart';
 import '../../widgets/journey/region_detail_painter.dart';
 import '../../widgets/journey/station_node_marker.dart';
@@ -83,6 +85,7 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
     final contentProvider = context.watch<ContentProvider>();
     final progressProvider = context.watch<ProgressProvider>();
     final settings = context.watch<SettingsProvider>().settings;
+    final isPremium = context.watch<PurchaseService>().isPremium;
     final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
 
     final curriculum = contentProvider.repository.curriculum;
@@ -100,7 +103,7 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
       );
     }
 
-    final journey = JourneyProgress(content: contentProvider.repository, progress: progressProvider.progress, settings: settings);
+    final journey = JourneyProgress(content: contentProvider.repository, progress: progressProvider.progress, settings: settings, isPremium: isPremium);
     final unitIds = section.unitIds;
 
     var currentIndex = unitIds.length - 1;
@@ -266,6 +269,10 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
 
   void _onStationTap(BuildContext context, String unitId, UnitState state) {
     final l10n = AppLocalizations.of(context);
+    if (state == UnitState.premiumLocked) {
+      showPremiumLockedDialog(context);
+      return;
+    }
     if (state != UnitState.locked) {
       context.push('/learn/unit/$unitId');
       return;

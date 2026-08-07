@@ -6,13 +6,21 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 import 'promo_codes.dart';
 import 'storage_service.dart';
 
-/// Product id for the one-time "support the app" unlock (Abschnitt Design:
-/// bonus accent colors + a passport cover, see ENTSCHEIDUNGEN.md Etappe 12).
-/// A single non-consumable purchase, not a subscription - simplest possible
-/// model, and the only one testable at all without a live store listing.
-/// Must exactly match whatever product id gets created in App Store
-/// Connect/Play Console before this can ever actually sell anything.
-const String premiumProductId = 'habesha_speak_premium';
+/// Product ids for Habesha Speak Premium (Etappe 23: unlocks every chapter
+/// beyond the free trial - the first [freeTrialUnitCount] units of Station
+/// 1, see `journey_progress.dart`). Two products, offered side by side on
+/// the premium screen: a renewing yearly subscription and a one-time
+/// lifetime unlock. Both must be created with these EXACT ids in App Store
+/// Connect (yearly as an auto-renewing subscription, lifetime as a
+/// non-consumable) and in Play Console (yearly as a subscription, lifetime
+/// as a one-time product) before either can ever actually sell anything -
+/// nothing here creates them, it only assumes they exist.
+const String premiumYearlyProductId = 'habesha_speak_premium_yearly';
+const String premiumLifetimeProductId = 'habesha_speak_premium_lifetime';
+
+/// Both product ids together - for querying/listening in one place instead
+/// of two near-identical calls.
+const Set<String> premiumProductIds = {premiumYearlyProductId, premiumLifetimeProductId};
 
 /// A store product's display info, decoupled from `in_app_purchase`'s own
 /// types so the rest of the app (and tests) never need to import that
@@ -144,13 +152,30 @@ class UnavailablePurchaseClient implements PurchaseClient {
   void dispose() {}
 }
 
-/// Owns the app's single premium entitlement. Fully offline-friendly: the
+/// Which product actually granted the current entitlement - purely for
+/// display ("Dein Plan: Lebenslang" on the premium screen); access itself
+/// never depends on this, both tiers unlock exactly the same content.
+enum PremiumTier { yearly, lifetime }
+
+/// Owns the app's premium entitlement (Etappe 23: real content paywall,
+/// not just a cosmetic support-the-dev unlock). Fully offline-friendly: the
 /// entitlement is cached locally after a successful purchase/restore so the
 /// app doesn't need to re-query the store on every launch, but
-/// [refreshFromStore] re-syncs from the store's own records (the actual
+/// [restorePurchases] re-syncs from the store's own records (the actual
 /// source of truth - there is no server-side receipt store here).
+///
+/// Known limitation, worth re-visiting once there's a backend: the yearly
+/// subscription is treated exactly like the lifetime purchase once bought -
+/// [isPremium] never reverts on its own if a subscription lapses. Properly
+/// enforcing renewal/expiry needs either a server validating receipts
+/// against Apple's/Google's server APIs, or the platform-specific
+/// `in_app_purchase_storekit`/`in_app_purchase_android` extensions to read
+/// live subscription status - neither exists yet. In practice the store
+/// still charges the user on renewal either way; what's missing is *this
+/// app* noticing and re-locking content if that ever stops succeeding.
 class PurchaseService extends ChangeNotifier {
   static const _premiumKey = 'amaseganlo.premium';
+  static const _tierKey = 'amaseganlo.premium_tier';
 
   final PurchaseClient _client;
   final StorageService _storage;
@@ -158,6 +183,7 @@ class PurchaseService extends ChangeNotifier {
 
   bool _isPremium = false;
   bool _storeAvailable = false;
+  PremiumTier? _tier;
 
   PurchaseService({required StorageService storage, PurchaseClient? client})
       // this._storage would force callers to use the private field name as
@@ -166,35 +192,44 @@ class PurchaseService extends ChangeNotifier {
       : _storage = storage,
         _client = client ?? (kIsWeb ? UnavailablePurchaseClient() : RealPurchaseClient()) {
     _isPremium = _storage.readString(_premiumKey) == 'true';
+    _tier = _tierFromName(_storage.readString(_tierKey));
     _restoredSub = _client.restoredProductIds.listen((productId) {
-      if (productId == premiumProductId) _setPremium(true);
+      final tier = _tierForProductId(productId);
+      if (tier != null) _setPremium(true, tier);
     });
   }
 
   bool get isPremium => _isPremium;
   bool get storeAvailable => _storeAvailable;
+  PremiumTier? get tier => _tier;
 
   Future<void> init() async {
     _storeAvailable = await _client.isAvailable();
     notifyListeners();
   }
 
-  Future<StoreProduct?> loadProduct() async {
+  Future<StoreProduct?> loadYearlyProduct() => _loadProduct(premiumYearlyProductId);
+  Future<StoreProduct?> loadLifetimeProduct() => _loadProduct(premiumLifetimeProductId);
+
+  Future<StoreProduct?> _loadProduct(String productId) async {
     if (!_storeAvailable) return null;
-    final products = await _client.queryProducts({premiumProductId});
-    return products.where((p) => p.id == premiumProductId).firstOrNull;
+    final products = await _client.queryProducts({productId});
+    return products.where((p) => p.id == productId).firstOrNull;
   }
 
-  /// Starts the purchase flow and completes once the store reports a final
-  /// outcome. On success, [isPremium] is already true by the time this
-  /// returns.
-  Future<PurchaseOutcome> buyPremium() async {
+  /// Starts the purchase flow for one of the two Premium products and
+  /// completes once the store reports a final outcome. On success,
+  /// [isPremium] is already true by the time this returns.
+  Future<PurchaseOutcome> buyYearly() => _buy(premiumYearlyProductId, PremiumTier.yearly);
+  Future<PurchaseOutcome> buyLifetime() => _buy(premiumLifetimeProductId, PremiumTier.lifetime);
+
+  Future<PurchaseOutcome> _buy(String productId, PremiumTier tier) async {
     if (!_storeAvailable) return PurchaseOutcome.error;
-    final outcome = await _client.buy(premiumProductId).firstWhere(
+    final outcome = await _client.buy(productId).firstWhere(
           (o) => o != PurchaseOutcome.pending,
           orElse: () => PurchaseOutcome.error,
         );
-    if (outcome == PurchaseOutcome.success) _setPremium(true);
+    if (outcome == PurchaseOutcome.success) _setPremium(true, tier);
     return outcome;
   }
 
@@ -202,19 +237,30 @@ class PurchaseService extends ChangeNotifier {
 
   /// Redeems an offline gift code (Abschnitt Design/Etappe 13, see
   /// `promo_codes.dart` for how/why this works without a server) - grants
-  /// the exact same permanent entitlement a real purchase would. Returns
-  /// whether the code was valid; redeeming an already-applied valid code
-  /// again is harmless (stays premium either way).
+  /// the exact same permanent entitlement the lifetime purchase would.
+  /// Returns whether the code was valid; redeeming an already-applied valid
+  /// code again is harmless (stays premium either way).
   bool redeemPromoCode(String code) {
     if (!isValidPromoCode(code)) return false;
-    _setPremium(true);
+    _setPremium(true, PremiumTier.lifetime);
     return true;
   }
 
-  void _setPremium(bool value) {
-    if (_isPremium == value) return;
+  PremiumTier? _tierForProductId(String productId) => switch (productId) {
+        premiumYearlyProductId => PremiumTier.yearly,
+        premiumLifetimeProductId => PremiumTier.lifetime,
+        _ => null,
+      };
+
+  PremiumTier? _tierFromName(String? name) =>
+      PremiumTier.values.where((t) => t.name == name).firstOrNull;
+
+  void _setPremium(bool value, PremiumTier? tier) {
+    if (_isPremium == value && _tier == tier) return;
     _isPremium = value;
+    _tier = value ? tier : null;
     _storage.writeString(_premiumKey, value.toString());
+    _storage.writeString(_tierKey, _tier?.name ?? '');
     notifyListeners();
   }
 

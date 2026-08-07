@@ -5,7 +5,24 @@ import '../models/curriculum.dart';
 import '../models/settings.dart';
 import '../models/user_progress.dart';
 
-enum UnitState { completed, skipped, current, locked }
+enum UnitState { completed, skipped, current, locked, premiumLocked }
+
+/// How many of the very first curriculum section's units are playable
+/// without Premium (Etappe 23) - the free trial. Deliberately a *count*,
+/// not a hardcoded list of unit ids: whichever units the content team puts
+/// first in `sec_a1_1` are the free ones, so reordering/adding content
+/// there never silently changes the paywall boundary.
+const int freeTrialUnitCount = 3;
+
+/// The unit ids playable without Premium - the first [freeTrialUnitCount]
+/// units of the first curriculum section. Shared between [JourneyProgress]
+/// (map lock state) and the placement test (must never auto-skip a learner
+/// *past* the paywall for free) so both agree on exactly the same boundary.
+List<String> freeTrialUnitIds(ContentRepository content) {
+  final sections = content.curriculum.sections;
+  if (sections.isEmpty) return const [];
+  return sections.first.unitIds.take(freeTrialUnitCount).toList();
+}
 
 /// Where to send "Weiterlernen": the unit whose lesson was completed most
 /// recently, if that unit still has an unfinished lesson (Abschnitt C1).
@@ -46,10 +63,19 @@ class JourneyProgress {
   final ContentRepository content;
   final UserProgress progress;
   final AppSettings settings;
+  final bool isPremium;
 
-  JourneyProgress({required this.content, required this.progress, required this.settings});
+  JourneyProgress({required this.content, required this.progress, required this.settings, required this.isPremium});
 
   late final List<String> flatUnitIds = [for (final s in content.curriculum.sections) ...s.unitIds];
+
+  late final Set<String> _freeUnitIds = freeTrialUnitIds(content).toSet();
+
+  /// Whether reaching this unit's content at all requires Premium - checked
+  /// before sequential progress, so it also overrides
+  /// `settings.allLessonsUnlocked` and any skip/placement-test result: none
+  /// of those are allowed to substitute for actually buying it.
+  bool isUnitPremiumLocked(String unitId) => !isPremium && !_freeUnitIds.contains(unitId);
 
   bool isUnitDone(String unitId) {
     final lessons = content.lessonsForUnit(unitId);
@@ -71,6 +97,7 @@ class JourneyProgress {
 
   UnitState stateForFlatIndex(int flatIndex) {
     final unitId = flatUnitIds[flatIndex];
+    if (isUnitPremiumLocked(unitId)) return UnitState.premiumLocked;
     if (isUnitDone(unitId)) return UnitState.completed;
     if (isUnitSkipped(unitId)) return UnitState.skipped;
     if (settings.allLessonsUnlocked || flatIndex == 0) return UnitState.current;

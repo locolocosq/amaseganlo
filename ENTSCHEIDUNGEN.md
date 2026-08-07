@@ -370,3 +370,62 @@ Drei unabhängige Aufträge in einer Runde:
 - **Fix:** Marker-Breite in `RegionNodeMarker` von 96 auf 80px verschmälert (spart real ~16px Trennabstand) - eine kleine, kaum wahrnehmbare Verschmälerung der Namens-Fahne, die aber genau den fehlenden Millimeter Platz zurückgibt. Rechnerisch erneut für alle 10 Orte-Paare bestätigt (Marge diesmal ~5-20px, nicht mehr auf Kante). Finale Koordinaten: Oromia (34.0, 7.5, unverändert), Sidama (43.5, 5.2), Harar (47.5, 8.0 - fast am östlichsten echten Punkt Äthiopiens).
 - **Die schmalere Marker-Box hat selbst einen neuen, echten Overflow ausgelöst:** die Kronen-Anzeige (`_CrownSummary`) passte bei zweistelligen Kronenzahlen ("25/25") nicht mehr in die schmalere Box - `RenderFlex overflowed by 2.3 pixels`. Padding/Icon/Abstand der Kronen-Pille verkleinert UND zusätzlich in eine `FittedBox(fit: BoxFit.scaleDown)` gepackt, damit ein zukünftig noch länger werdender Kronen-Zähler (wächst mit der Anzahl der Einheiten pro Abschnitt) nie wieder von Hand nachjustiert werden muss.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite (203/203 grün) nach zwei Korrekturrunden (Koordinaten, dann Kronen-Pille). Kein echter Pixel-Sichttest möglich (siehe Nachtrag 1/2) - aber die Kartenform ist jetzt nachweislich unverzerrt: derselbe Maßstab gilt für Lon und Lat.
+
+## Etappe 23: Premium-Bezahlschranke + Store-Reife
+
+**Auftrag:** die App soll bald in App Store und Play Store veröffentlicht werden und dafür "alle Bedingungen erfüllen". Konkretes Bezahlmodell: die ersten drei Kapitel von Station 1 sind komplett kostenlos spielbar, danach (Rest von Station 1 + alle weiteren Stationen) nur mit Premium (jährlich oder lebenslang). Stationen 2+ bleiben antippbar und ihre Kapitel-Überschriften sichtbar, aber die Kapitel selbst lassen sich nicht öffnen - stattdessen ein Hinweis, der zum Kauf führt.
+
+Vorab per Rückfrage geklärt: "Lektion 3" bedeutet die ersten 3 **Kapitel** (`Unit`, im Code "Kapitel" genannt), nicht die ersten 3 einzelnen Übungen innerhalb von Kapitel 1 - das ist der übliche Umfang für eine faire Testphase.
+
+### Die eigentliche Bezahlschranke
+
+- **`JourneyProgress` bekommt einen neuen Pflicht-Parameter `isPremium`** sowie `freeTrialUnitIds(content)` (`journey_progress.dart`) - berechnet die ersten `freeTrialUnitCount` (=3) Kapitel-IDs der ERSTEN Sektion (`sec_a1_1`) direkt aus dem Curriculum, nicht als hartkodierte ID-Liste. Wird das Curriculum später umsortiert, wandert die Grenze automatisch mit, statt stillschweigend falsch zu werden.
+- **Neuer `UnitState.premiumLocked`**, geprüft in `stateForFlatIndex` VOR jeder anderen Regel (fertig/übersprungen/aktuell/gesperrt) - damit kann kein bereits vorhandener Mechanismus (Einstufungstest-Überspringen, die alte "Alle Lektionen frei"-Einstellung) den Kauf ersetzen.
+- **`RegionDetailScreen._onStationTap`** zeigt bei `premiumLocked` einen eigenen Dialog (`widgets/common/premium_locked_dialog.dart`) - bewusst OHNE die "Trotzdem starten"-Ausweichoption, die der normale Sequenz-Sperr-Dialog hat. Der Dialog führt direkt zum bestehenden Kauf-Screen (`/settings/premium`).
+- **Zwei zusätzliche Schutzschichten gegen ein Umgehen der Bezahlschranke**, die beim ersten Entwurf sonst übersehen worden wären:
+  1. `PlacementTestScreen._acceptSuggestion` markierte bisher blind ALLE Kapitel bis zum höchsten bestandenen Block als "übersprungen" - ein gut abschneidender Einstufungstest hätte damit die Bezahlschranke komplett umgangen. Jetzt wird jedes Kapitel einzeln gegen `freeTrialUnitIds` geprüft; nur kostenlose Kapitel werden markiert, egal wie gut der Test ausfiel.
+  2. `UnitOverviewScreen` prüfte den Sperrstatus bisher gar nicht (die Karte hat vorher nie auf ein premium-gesperrtes Kapitel verlinkt, aber die Route `/learn/unit/:unitId` war trotzdem direkt erreichbar). Jetzt ein defensiver Check direkt im Screen, der bei fehlendem Premium denselben Kauf-Hinweis statt der Lektionsliste zeigt.
+- **`StationNodeMarker`** bekommt eine eigene, gold statt grau eingefärbte Darstellung für `premiumLocked` (`Icons.workspace_premium`) - deutlich unterscheidbar vom neutralen "noch nicht erreicht"-Grau, damit sofort klar ist: hier fehlt ein Kauf, nicht nur Fortschritt.
+
+### Zwei Käufe statt einem
+
+- **`PurchaseService` hatte bisher nur ein einziges Produkt** (`habesha_speak_premium`, non-consumable) - eine reine "Unterstütze die Entwicklung"-Kosmetik (Reisepass-Cover), kein Inhalte-Kauf. Umbenannt/erweitert auf zwei Produkt-IDs: `habesha_speak_premium_yearly` (Abo) und `habesha_speak_premium_lifetime` (einmalig) - MÜSSEN unter exakt diesen IDs in App Store Connect (Jahres-Abo als auto-renewing subscription, Lifetime als non-consumable) und in Play Console (Jahres-Abo als Subscription, Lifetime als einmaliges Produkt) angelegt werden, sonst schlägt jeder Kauf fehl.
+- **Bekannte, bewusst dokumentierte Grenze:** Ohne eigenen Server gibt es keine echte Abo-Ablauf-Prüfung - `isPremium` wird nach einem erfolgreichen Kauf (egal welches Produkt) dauerhaft `true` und bleibt es, bis `restorePurchases()` etwas anderes berichtet. Ein gekündigtes Jahres-Abo wird also nicht automatisch wieder gesperrt, solange die App nicht erneut mit dem Store abgleicht. Für eine echte Ablauf-Erkennung bräuchte es entweder einen Server, der Kaufbelege gegen Apples/Googles Server-APIs prüft, oder die plattformspezifischen `in_app_purchase_storekit`/`in_app_purchase_android`-Erweiterungen, die den aktuellen Abo-Status live auslesen können - beides existiert noch nicht. In der Praxis zieht der Store beim Verlängern trotzdem weiter Geld ein; was fehlt, ist nur, dass *diese App* es merkt, falls das mal nicht mehr klappt.
+- **`PremiumTier`-Enum** (yearly/lifetime) rein zur Anzeige ("Dein Plan: Jahres-Abo" auf dem Kauf-Screen) - der Zugang selbst hängt nie davon ab, welches Produkt gekauft wurde, beide schalten exakt denselben Inhalt frei.
+- **Premium-Screen** zeigt jetzt zwei Kauf-Buttons (Jahres-Abo zuerst/hervorgehoben, Lebenslang darunter) statt einem, mit live geladenem Store-Preis pro Produkt; Geschenk-Code-Einlösung (unverändert, gewährt weiterhin die Lifetime-Stufe) und Käufe-wiederherstellen-Button bleiben bestehen. Texte auf dem Screen von "unterstütze die Entwicklung" auf "schalte alle Stationen frei" umgestellt - das ist jetzt ein echter Inhalte-Kauf, keine Spenden-Kosmetik mehr.
+
+### Store-Reife: was erledigt ist, was noch fehlt
+
+**Erledigt (Code):**
+- Android-Release-Signing vorbereitet (`android/app/build.gradle.kts`): liest `android/key.properties`, fällt ohne diese Datei auf das Debug-Signing zurück (damit `flutter run --release`/CI weiterhin ohne echten Schlüssel funktionieren). `android/key.properties`, `*.jks`, `*.keystore` zur `.gitignore` hinzugefügt - **diese Datei/den Schlüssel selbst kann ich nicht für dich erzeugen**, das ist ein echtes, unwiederbringliches Geheimnis (verloren = die App kann nie wieder aktualisiert werden). Erzeuge ihn selbst:
+  ```
+  keytool -genkey -v -keystore ~/habesha-speak-release.jks -keyalg RSA -keysize 2048 -validity 10000 -alias habesha_speak
+  ```
+  Dann `android/key.properties` (nicht einchecken!) mit:
+  ```
+  storePassword=<dein Passwort>
+  keyPassword=<dein Passwort>
+  keyAlias=habesha_speak
+  storeFile=<voller Pfad zur .jks-Datei>
+  ```
+- Nicht genutzte Abhängigkeit `google_fonts` entfernt - war nirgends importiert, hätte aber im Standard-Modus Schriften live von Google-Servern nachgeladen, was dem in der App versprochenen "komplett offline, kein Tracking" widersprochen hätte, sobald sie mal genutzt worden wäre. Die App bündelt ihre Schrift (`NotoSansEthiopic`) bereits selbst als Asset.
+- Datenschutzerklärung als fertiger Text (`PRIVACY_POLICY.md`, Deutsch + Englisch) erstellt - beschreibt wahrheitsgemäß, was die App tut (nichts sammeln, alles lokal, Käufe laufen über Apple/Google).
+- Versionsnummer auf `1.1.0+2` erhöht (war `1.0.0+1`) - sinnvoller Sprung für dieses Feature-Release vor der Einreichung.
+
+**Kann ich NICHT erledigen (braucht deine Accounts/Entscheidungen):**
+- **Datenschutzerklärung hosten:** `PRIVACY_POLICY.md` ist fertiger Text, aber App Store Connect und Play Console verlangen eine echte URL dazu (z.B. über GitHub Pages, eine eigene Domain, Notion - egal was, Hauptsache erreichbar). Trag in der Datei noch deine Kontakt-E-Mail ein, bevor du sie veröffentlichst.
+- **Beide Kauf-Produkte in App Store Connect UND Play Console anlegen** (siehe Produkt-IDs oben) inkl. echter Preise - ohne das schlägt jeder Kauf mit einem Fehler fehl.
+- **Apple Developer Program** (99 $/Jahr) und **Google Play Console** (einmalig 25 $) Accounts, falls noch nicht vorhanden.
+- **iOS-Signing:** anders als Android über Xcode/dein Apple-Team konfiguriert ("Automatically manage signing" in Signing & Capabilities), nicht über eine Datei, die ich anpassen könnte.
+- **Store-Listing:** Screenshots, Beschreibungstexte, Altersfreigabe-Fragebogen, Kategorie - alles Inhalte, die in den jeweiligen Konsolen eingetragen werden, nicht im Code.
+- **Android-Release-Build tatsächlich bauen/testen:** Diese Sandbox hat kein Android SDK installiert (kein `adb`, kein `gradlew`-Lauf möglich) - die Gradle-Änderung oben ist nach dem offiziellen Flutter-Muster geschrieben, aber ungetestet. Bitte einmal `flutter build appbundle --release` selbst laufen lassen, bevor du hochlädst.
+
+### Neue/geänderte Tests
+
+- `purchase_service_test.dart`: zwei Kauf-Pfade (`buyYearly`/`buyLifetime`) statt einem, Tier-Persistenz geprüft.
+- `premium_screen_test.dart`, `premium_redeem_test.dart`: an die neuen Button-/Anzeige-Texte angepasst.
+- **Neu:** `premium_locked_station_test.dart` - tippt ein Kapitel jenseits der Kostenlos-Grenze an, erwartet den Kauf-Dialog (kein "Trotzdem starten"), tippt "Premium ansehen", landet auf dem Kauf-Screen.
+
+### Verifikation
+
+`flutter analyze`: 0 Probleme. `flutter test`: 205/205 grün (2 neu). Kein Android-Gradle-Build möglich (kein SDK in dieser Sandbox) - die Signing-Konfiguration ist nach offiziellem Flutter-Muster geschrieben, aber nicht selbst kompiliert; bitte vor dem Upload einmal echt bauen.

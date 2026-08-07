@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../../core/journey_map_layout.dart';
 import '../../core/journey_progress.dart';
+import '../../core/purchase_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
 import '../../state/content_provider.dart';
@@ -67,6 +68,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     final contentProvider = context.watch<ContentProvider>();
     final progressProvider = context.watch<ProgressProvider>();
     final settings = context.watch<SettingsProvider>().settings;
+    final isPremium = context.watch<PurchaseService>().isPremium;
 
     if (contentProvider.state == ContentLoadState.loading) {
       return const Center(child: CircularProgressIndicator());
@@ -77,7 +79,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
       return EmptyState(icon: Icons.error_outline, title: l10n.errorGenericTitle, body: l10n.errorContentUnit);
     }
 
-    final journey = JourneyProgress(content: contentProvider.repository, progress: progressProvider.progress, settings: settings);
+    final journey = JourneyProgress(content: contentProvider.repository, progress: progressProvider.progress, settings: settings, isPremium: isPremium);
     final currentRegionIndex = journey.currentRegionIndex;
     final regionCount = WorldMapLayout.order.length;
     final targetProgress = regionCount > 1 ? currentRegionIndex / (regionCount - 1) : 0.0;

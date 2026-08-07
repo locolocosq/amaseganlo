@@ -29,6 +29,8 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Eingelöst - danke für deine Unterstützung!'), findsOneWidget);
-    expect(find.text('Du hast Premium bereits freigeschaltet - danke!'), findsOneWidget);
+    // A redeemed gift code grants the same entitlement a lifetime purchase
+    // would (see PurchaseService.redeemPromoCode).
+    expect(find.text('Dein Plan: Lebenslang - danke für deine Unterstützung!'), findsOneWidget);
   });
 }
