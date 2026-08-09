@@ -1,38 +1,61 @@
 {
   "numerals": [
-    { "char": "፩", "tr": "1", "verified": true },
-    { "char": "፪", "tr": "2", "verified": true },
-    { "char": "፫", "tr": "3", "verified": true },
-    { "char": "፬", "tr": "4", "verified": true },
-    { "char": "፭", "tr": "5", "verified": true },
-    { "char": "፮", "tr": "6", "verified": true },
-    { "char": "፯", "tr": "7", "verified": true },
-    { "char": "፰", "tr": "8", "verified": true },
-    { "char": "፱", "tr": "9", "verified": true },
-    { "char": "፲", "tr": "10", "verified": true },
-    { "char": "፳", "tr": "20", "verified": false },
-    { "char": "፴", "tr": "30", "verified": false },
-    { "char": "፵", "tr": "40", "verified": false },
-    { "char": "፶", "tr": "50", "verified": false },
-    { "char": "፷", "tr": "60", "verified": false },
-    { "char": "፸", "tr": "70", "verified": false },
-    { "char": "፹", "tr": "80", "verified": false },
-    { "char": "፺", "tr": "90", "verified": false },
-    { "char": "፻", "tr": "100", "verified": false }
+    { "id": "fidel_num_1", "char": "፩", "tr": "1", "verified": true },
+    { "id": "fidel_num_2", "char": "፪", "tr": "2", "verified": true },
+    { "id": "fidel_num_3", "char": "፫", "tr": "3", "verified": true },
+    { "id": "fidel_num_4", "char": "፬", "tr": "4", "verified": true },
+    { "id": "fidel_num_5", "char": "፭", "tr": "5", "verified": true },
+    { "id": "fidel_num_6", "char": "፮", "tr": "6", "verified": true },
+    { "id": "fidel_num_7", "char": "፯", "tr": "7", "verified": true },
+    { "id": "fidel_num_8", "char": "፰", "tr": "8", "verified": true },
+    { "id": "fidel_num_9", "char": "፱", "tr": "9", "verified": true },
+    { "id": "fidel_num_10", "char": "፲", "tr": "10", "verified": true },
+    { "id": "fidel_num_20", "char": "፳", "tr": "20", "verified": false },
+    { "id": "fidel_num_30", "char": "፴", "tr": "30", "verified": false },
+    { "id": "fidel_num_40", "char": "፵", "tr": "40", "verified": false },
+    { "id": "fidel_num_50", "char": "፶", "tr": "50", "verified": false },
+    { "id": "fidel_num_60", "char": "፷", "tr": "60", "verified": false },
+    { "id": "fidel_num_70", "char": "፸", "tr": "70", "verified": false },
+    { "id": "fidel_num_80", "char": "፹", "tr": "80", "verified": false },
+    { "id": "fidel_num_90", "char": "፺", "tr": "90", "verified": false },
+    { "id": "fidel_num_100", "char": "፻", "tr": "100", "verified": false }
   ],
   "punctuation": [
-    { "char": "፡", "tr": "word separator", "nameKey": "punctSpace", "verified": true },
-    { "char": "።", "tr": "period", "nameKey": "punctPeriod", "verified": true },
-    { "char": "፣", "tr": "comma", "nameKey": "punctComma", "verified": true },
-    { "char": "፤", "tr": "semicolon", "nameKey": "punctSemicolon", "verified": true },
-    { "char": "፥", "tr": "colon", "nameKey": "punctColon", "verified": true },
-    { "char": "፧", "tr": "question mark", "nameKey": "punctQuestion", "verified": true },
-    { "char": "፨", "tr": "paragraph separator", "nameKey": "punctParagraph", "verified": false }
+    { "id": "fidel_punct_space", "char": "፡", "tr": "word separator", "nameKey": "punctSpace", "verified": true },
+    { "id": "fidel_punct_period", "char": "።", "tr": "period", "nameKey": "punctPeriod", "verified": true },
+    { "id": "fidel_punct_comma", "char": "፣", "tr": "comma", "nameKey": "punctComma", "verified": true },
+    { "id": "fidel_punct_semicolon", "char": "፤", "tr": "semicolon", "nameKey": "punctSemicolon", "verified": true },
+    { "id": "fidel_punct_colon", "char": "፥", "tr": "colon", "nameKey": "punctColon", "verified": true },
+    { "id": "fidel_punct_question", "char": "፧", "tr": "question mark", "nameKey": "punctQuestion", "verified": true },
+    { "id": "fidel_punct_paragraph", "char": "፨", "tr": "paragraph separator", "nameKey": "punctParagraph", "verified": false }
   ],
   "labialized": [
-    { "char": "ኳ", "tr": "kwa", "verified": true },
-    { "char": "ጓ", "tr": "gwa", "verified": true },
-    { "char": "ቷ", "tr": "twa", "verified": true },
-    { "char": "ኧ", "tr": "ea", "verified": false }
+    { "id": "fidel_labial_qw_1", "char": "ቈ", "tr": "k'we", "verified": true },
+    { "id": "fidel_labial_qw_3", "char": "ቊ", "tr": "k'wi", "verified": true },
+    { "id": "fidel_labial_qw_4", "char": "ቋ", "tr": "k'wa", "verified": true },
+    { "id": "fidel_labial_qw_5", "char": "ቌ", "tr": "k'we", "verified": true },
+    { "id": "fidel_labial_qw_6", "char": "ቍ", "tr": "k'w", "verified": true },
+
+    { "id": "fidel_labial_kw_1", "char": "ኰ", "tr": "kwe", "verified": true },
+    { "id": "fidel_labial_kw_3", "char": "ኲ", "tr": "kwi", "verified": true },
+    { "id": "fidel_labial_kw_4", "char": "ኳ", "tr": "kwa", "verified": true },
+    { "id": "fidel_labial_kw_5", "char": "ኴ", "tr": "kwe", "verified": true },
+    { "id": "fidel_labial_kw_6", "char": "ኵ", "tr": "kw", "verified": true },
+
+    { "id": "fidel_labial_gw_1", "char": "ጐ", "tr": "gwe", "verified": true },
+    { "id": "fidel_labial_gw_3", "char": "ጒ", "tr": "gwi", "verified": true },
+    { "id": "fidel_labial_gw_4", "char": "ጓ", "tr": "gwa", "verified": true },
+    { "id": "fidel_labial_gw_5", "char": "ጔ", "tr": "gwe", "verified": true },
+    { "id": "fidel_labial_gw_6", "char": "ጕ", "tr": "gw", "verified": true },
+
+    { "id": "fidel_labial_hw_1", "char": "ዀ", "tr": "hwe", "verified": false },
+    { "id": "fidel_labial_hw_3", "char": "ዂ", "tr": "hwi", "verified": false },
+    { "id": "fidel_labial_hw_4", "char": "ዃ", "tr": "hwa", "verified": false },
+    { "id": "fidel_labial_hw_5", "char": "ዄ", "tr": "hwe", "verified": false },
+    { "id": "fidel_labial_hw_6", "char": "ዅ", "tr": "hw", "verified": false }
+  ],
+  "other": [
+    { "id": "fidel_other_twa", "char": "ቷ", "tr": "twa", "verified": false },
+    { "id": "fidel_other_ea", "char": "ኧ", "tr": "ea", "verified": false }
   ]
 }

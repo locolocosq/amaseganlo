@@ -16,5 +16,11 @@
     "kind": "numeralsPunctuation",
     "groupIds": ["labialized"],
     "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f7_other",
+    "kind": "numeralsPunctuation",
+    "groupIds": ["other"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
   }
 ]

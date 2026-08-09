@@ -30,6 +30,13 @@ class FidelChar {
     this.regular = true,
   });
 
+  /// Stable, ASCII-only id for audio lookup (Etappe 24) - `group`+`order`
+  /// is already a unique composite key in fidel.json, so this needs no new
+  /// data field. Never derived from [char]/[tr]: those can contain
+  /// characters that don't survive round-tripping through a filename or a
+  /// zip file untouched.
+  String get audioId => 'fidel_${group}_$order';
+
   factory FidelChar.fromJson(Map<String, dynamic> json) {
     return FidelChar(
       char: json['char'] as String,

@@ -8,6 +8,11 @@
 // renamed lexeme id, a leftover file for a word that no longer exists,
 // or a word that's still missing its recording) is caught here instead of
 // silently producing a manifest with dead entries.
+//
+// Etappe 24: `expectedIds` also covers Fidel signs (core table +
+// labialized/other extras, matching export_audio_worklist_test.dart's
+// scope) - without this, every Fidel recording would show up as an
+// unexplained "extra" file instead of being picked up into the manifest.
 import 'dart:convert';
 import 'dart:io';
 
@@ -22,9 +27,13 @@ void main() {
     final repo = ContentRepository();
     await repo.load();
 
+    const audibleExtraCategories = {'labialized', 'other'};
     final expectedIds = {
       for (final lex in repo.allLexemes) lex.id,
       for (final sentence in repo.allSentences) sentence.id,
+      for (final char in repo.allFidelChars) char.audioId,
+      for (final category in audibleExtraCategories)
+        for (final extra in repo.fidelExtrasForCategory(category)) extra.id,
     };
 
     final wordsDir = Directory('assets/audio/words');

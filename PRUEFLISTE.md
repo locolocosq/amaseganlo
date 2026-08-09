@@ -21,8 +21,12 @@ Die komplette 33×7-Tafel wurde nach bestem Wissen zusammengestellt. Hohe Sicher
 
 - **Ziffern 20-100** (፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻): geringere Sicherheit als die Ziffern 1-10 (die direkt aus dem Auftrag stammen) - bitte gegenlesen.
 - **Absatztrenner ፨**: geringere Sicherheit.
-- **ኧ (als „ea“ notiert)**: im Auftrag nur als Beispiel genannt, meine Umschrift dafür ist unsicher.
-- **Labialisierte Formen sind nur eine kleine Beispielauswahl** (ኳ ጓ ቷ ኧ, direkt aus dem Auftrag übernommen), keine vollständige Liste aller labialisierten Zeichen. Eine vollständige Liste bräuchte eine eigene Recherche mit Muttersprachler-Prüfung.
+- **Labialisierte Formen (Etappe 24): jetzt die vollständige Liste statt 4 Beispielen** - recherchiert anhand einer externen Quelle (r12a.github.io Amharic-Schriftdokumentation, nicht nur aus eigenem Wissen). Die vier realen Reihen (jeweils Ordnung 1,3,4,5,6 - Ordnung 2 und 7 existieren nicht, die wären identisch mit dem unlabialisierten Zeichen):
+  - qʷ-Reihe: ቈ ቊ ቋ ቌ ቍ - hohe Sicherheit, gängig im modernen Amharisch.
+  - kʷ-Reihe: ኰ ኲ ኳ ኴ ኵ - hohe Sicherheit, gängig.
+  - gʷ-Reihe: ጐ ጒ ጓ ጔ ጕ - hohe Sicherheit, gängig.
+  - hʷ-Reihe: ዀ ዂ ዃ ዄ ዅ - **geringere Sicherheit**, sehr seltene/archaische Reihe (labialisierte Form des ohnehin schon seltenen ኀ-Lauts), `verified: false`.
+- **ቷ ("twa") und ኧ ("ea") in eigene Kategorie "other" verschoben**, nicht mehr unter "labialized" - meine Recherche fand keine der beiden als Teil des echten q/k/g/h-labialisierten Systems. Beide bleiben trotzdem im Datensatz (der ursprüngliche Auftrag hatte sie ausdrücklich als Beispiele genannt), aber weiterhin `verified: false` - bitte insbesondere prüfen, ob ቷ überhaupt ein im modernen Amharisch verwendetes eigenständiges Zeichen ist oder eher eine seltene/informelle Schreibweise.
 
 ## Abschnitt A1.1 — Erste Begegnung
 

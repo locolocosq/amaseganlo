@@ -27,6 +27,12 @@ class _FidelTableScreenState extends State<FidelTableScreen> {
     final progress = context.watch<ProgressProvider>();
 
     final groups = repo.fidelGroupsInOrder;
+    // Etappe 24: column headers show how each order actually sounds (using
+    // the well-known "ha" row as the reference), not the bare order number
+    // - "1,2,3..." meant nothing to a learner who hasn't memorized which
+    // number is which vowel yet, but "he/hu/hi/ha/he/h/ho" is immediately
+    // useful even before opening a single lesson.
+    final referenceOrder = repo.fidelCharsForGroup('ha');
 
     bool isLearned(FidelChar c) => progress.progress.fidelCards.containsKey(c.char);
 
@@ -63,8 +69,8 @@ class _FidelTableScreenState extends State<FidelTableScreen> {
                     children: [
                       TableRow(children: [
                         const SizedBox(),
-                        for (var order = 1; order <= 7; order++)
-                          Center(child: Text('$order', style: Theme.of(context).textTheme.labelLarge)),
+                        for (final ref in referenceOrder)
+                          Center(child: Text(ref.tr, style: Theme.of(context).textTheme.labelLarge)),
                       ]),
                       for (final group in groups)
                         TableRow(children: [
