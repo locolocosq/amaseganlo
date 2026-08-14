@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_sheikh",
+    "am": "ሼኽ",
+    "tr": "sheikh",
+    "pos": "noun",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "der Scheich (religiöser Gelehrter)",
+      "en": "sheikh (religious scholar)",
+      "sv": "shejk (religiös lärd)",
+      "nl": "sjeik (religieuze geleerde)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ustaz",
+    "am": "ኡስታዝ",
+    "tr": "ustaz",
+    "pos": "noun",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "der Religionslehrer (Ustaz)",
+      "en": "Islamic teacher (ustadh)",
+      "sv": "religionslärare (ustadh)",
+      "nl": "islamitische leraar (ustadh)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_medresa",
+    "am": "መድረሳ",
+    "tr": "medresa",
+    "pos": "noun",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "die Koranschule (Madrasa)",
+      "en": "Islamic school (madrasa)",
+      "sv": "koranskola (madrasa)",
+      "nl": "koranschool (madrassa)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_adj_halal",
+    "am": "ሐላል",
+    "tr": "halal",
+    "pos": "adjective",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "erlaubt, halal",
+      "en": "permissible, halal",
+      "sv": "tillåten, halal",
+      "nl": "toegestaan, halal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_haram",
+    "am": "ሐራም",
+    "tr": "haram",
+    "pos": "adjective",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "verboten, haram",
+      "en": "forbidden, haram",
+      "sv": "förbjuden, haram",
+      "nl": "verboden, haram"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_amen",
+    "am": "ማመን",
+    "tr": "mamen",
+    "pos": "verb",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "glauben",
+      "en": "to believe",
+      "sv": "tro",
+      "nl": "geloven"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hajji_title",
+    "am": "ሐጂ",
+    "tr": "haji",
+    "pos": "noun",
+    "topic": "islam_community",
+    "level": "B2",
+    "t": {
+      "de": "Hadschi (Titel für Mekka-Pilger)",
+      "en": "Hajji (title for a Mecca pilgrim)",
+      "sv": "hadji (titel för Mecka-pilgrim)",
+      "nl": "hadji (titel voor Mekka-pelgrim)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

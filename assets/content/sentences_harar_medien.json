@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_gazetegna_gazeta",
+    "am": "ጋዜጠኛው ለጋዜጣ ይጽፋል።",
+    "tr": "gazetegnaw legazeta yits'ifal.",
+    "level": "B2",
+    "uses": ["lex_gazetegna", "lex_gazeta"],
+    "t": {
+      "de": "Der Journalist schreibt für die Zeitung.",
+      "en": "The journalist writes for the newspaper.",
+      "sv": "Journalisten skriver för tidningen.",
+      "nl": "De journalist schrijft voor de krant."
+    },
+    "chunks": ["gazetegnaw", "legazeta", "yits'ifal"],
+    "verified": false
+  },
+  {
+    "id": "sen_zena_iwnet",
+    "am": "ይህ ዜና እውነተኛ ነው።",
+    "tr": "yih zena iwinetegna newu.",
+    "level": "B2",
+    "uses": ["lex_zena", "lex_adj_iwnet"],
+    "t": {
+      "de": "Diese Nachricht ist wahr.",
+      "en": "This news is true.",
+      "sv": "Den här nyheten är sann.",
+      "nl": "Dit nieuws is waar."
+    },
+    "chunks": ["yih", "zena", "iwinetegna", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_gazetegna_meglets_zena",
+    "am": "ጋዜጠኛው ዜናውን አስታወቀ።",
+    "tr": "gazetegnaw zenawin asitawek'e.",
+    "level": "B2",
+    "uses": ["lex_v_meglets", "lex_zena", "lex_gazetegna"],
+    "t": {
+      "de": "Der Journalist gab die Nachricht bekannt.",
+      "en": "The journalist announced the news.",
+      "sv": "Journalisten tillkännagav nyheten.",
+      "nl": "De journalist kondigde het nieuws aan."
+    },
+    "chunks": ["gazetegnaw", "zenawin", "asitawek'e"],
+    "verified": false
+  },
+  {
+    "id": "sen_akera_hasab_asfelagi",
+    "am": "የህዝብ አስተያየት አስፈላጊ ነው።",
+    "tr": "yehizib astayayet asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_akera_hasab"],
+    "t": {
+      "de": "Die öffentliche Meinung ist wichtig.",
+      "en": "Public opinion is important.",
+      "sv": "Den allmänna opinionen är viktig.",
+      "nl": "De publieke opinie is belangrijk."
+    },
+    "chunks": ["yehizib", "astayayet", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_gazeta_iwnet_zena",
+    "am": "ይህ ጋዜጣ እውነተኛ ዜና ይጽፋል።",
+    "tr": "yih gazeta iwinetegna zena yits'ifal.",
+    "level": "B2",
+    "uses": ["lex_gazeta", "lex_adj_iwnet", "lex_zena"],
+    "t": {
+      "de": "Diese Zeitung schreibt wahre Nachrichten.",
+      "en": "This newspaper writes true news.",
+      "sv": "Den här tidningen skriver sanna nyheter.",
+      "nl": "Deze krant schrijft waar nieuws."
+    },
+    "chunks": ["yih", "gazeta", "iwinetegna", "zena", "yits'ifal"],
+    "verified": false
+  }
+]

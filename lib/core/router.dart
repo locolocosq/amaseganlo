@@ -194,6 +194,23 @@ GoRouter buildRouter({
         practiceGroup: state.pathParameters['group'],
       ),
     ),
+    GoRoute(
+      path: '/fidel/audio-drill',
+      builder: (context, state) => const FidelLessonScreen(
+        stageId: 'practice',
+        lessonId: 'audio_drill',
+        audioDrill: true,
+      ),
+    ),
+    GoRoute(
+      path: '/fidel/table/audio-drill/:group',
+      builder: (context, state) => FidelLessonScreen(
+        stageId: 'practice',
+        lessonId: 'audio_drill_${state.pathParameters['group']}',
+        practiceGroup: state.pathParameters['group'],
+        audioDrill: true,
+      ),
+    ),
   ],
 );
 

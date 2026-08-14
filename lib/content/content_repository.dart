@@ -162,6 +162,8 @@ class ContentRepository {
 
   FidelChar? fidelChar(String char) => _fidelChars.where((c) => c.char == char).firstOrNull;
 
+  FidelExtra? fidelExtra(String char) => _fidelExtras.where((e) => e.char == char).firstOrNull;
+
   List<FidelChar> fidelCharsForGroup(String group) =>
       _fidelChars.where((c) => c.group == group).toList()..sort((a, b) => a.order.compareTo(b.order));
 

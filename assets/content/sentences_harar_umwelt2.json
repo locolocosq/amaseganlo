@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_dagim_tikim_asfelagi",
+    "am": "ዳግም ጥቅም ላይ ማዋል አስፈላጊ ነው።",
+    "tr": "dagim t'ikim lay mawal asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_dagim_tikim"],
+    "t": {
+      "de": "Recycling ist wichtig.",
+      "en": "Recycling is important.",
+      "sv": "Återvinning är viktigt.",
+      "nl": "Recycling is belangrijk."
+    },
+    "chunks": ["dagim", "t'ikim", "lay", "mawal", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_bizha_hiyiwet_sine_mihidar",
+    "am": "ብዝሃ ሕይወት ለስነ ምህዳር ጥሩ ነው።",
+    "tr": "bizha hiyiwet lesine mihidar t'iru newu.",
+    "level": "B2",
+    "uses": ["lex_bizha_hiyiwet", "lex_sine_mihidar"],
+    "t": {
+      "de": "Biologische Vielfalt ist gut für das Ökosystem.",
+      "en": "Biodiversity is good for the ecosystem.",
+      "sv": "Biologisk mångfald är bra för ekosystemet.",
+      "nl": "Biodiversiteit is goed voor het ecosysteem."
+    },
+    "chunks": ["bizha", "hiyiwet", "lesine", "mihidar", "t'iru", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_inisisat_metifat",
+    "am": "እንስሳት ይጠፋሉ።",
+    "tr": "inisisat yit'efalu.",
+    "level": "B2",
+    "uses": ["lex_v_metifat"],
+    "t": {
+      "de": "Tiere sterben aus.",
+      "en": "Animals become extinct.",
+      "sv": "Djur dör ut.",
+      "nl": "Dieren sterven uit."
+    },
+    "chunks": ["inisisat", "yit'efalu"],
+    "verified": false
+  },
+  {
+    "id": "sen_zelakinet_wedefit",
+    "am": "ዘላቂነት ለወደፊት አስፈላጊ ነው።",
+    "tr": "zelakinet lewedefit asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_zelakinet"],
+    "t": {
+      "de": "Nachhaltigkeit ist wichtig für die Zukunft.",
+      "en": "Sustainability is important for the future.",
+      "sv": "Hållbarhet är viktig för framtiden.",
+      "nl": "Duurzaamheid is belangrijk voor de toekomst."
+    },
+    "chunks": ["zelakinet", "lewedefit", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_sine_mihidar_bizha_hiyiwet",
+    "am": "ስነ ምህዳር ብዝሃ ሕይወት ይፈልጋል።",
+    "tr": "sine mihidar bizha hiyiwet yifeligal.",
+    "level": "B2",
+    "uses": ["lex_sine_mihidar", "lex_bizha_hiyiwet"],
+    "t": {
+      "de": "Das Ökosystem braucht biologische Vielfalt.",
+      "en": "The ecosystem needs biodiversity.",
+      "sv": "Ekosystemet behöver biologisk mångfald.",
+      "nl": "Het ecosysteem heeft biodiversiteit nodig."
+    },
+    "chunks": ["sine", "mihidar", "bizha", "hiyiwet", "yifeligal"],
+    "verified": false
+  }
+]

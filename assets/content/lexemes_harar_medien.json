@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_gazeta",
+    "am": "ጋዜጣ",
+    "tr": "gazeta",
+    "pos": "noun",
+    "topic": "media",
+    "level": "B2",
+    "t": {
+      "de": "die Zeitung",
+      "en": "newspaper",
+      "sv": "tidningen",
+      "nl": "de krant"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gazetegna",
+    "am": "ጋዜጠኛ",
+    "tr": "gazetegna",
+    "pos": "noun",
+    "topic": "media",
+    "level": "B2",
+    "t": {
+      "de": "der Journalist, die Journalistin",
+      "en": "journalist",
+      "sv": "journalist",
+      "nl": "journalist"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zena",
+    "am": "ዜና",
+    "tr": "zena",
+    "pos": "noun",
+    "topic": "media",
+    "level": "B2",
+    "t": {
+      "de": "die Nachricht (Medien)",
+      "en": "news",
+      "sv": "nyheter",
+      "nl": "nieuws"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_meglets",
+    "am": "ማስታወቅ",
+    "tr": "masitawek'",
+    "pos": "verb",
+    "topic": "media",
+    "level": "B2",
+    "t": {
+      "de": "bekannt geben, ankündigen",
+      "en": "to announce",
+      "sv": "tillkännage",
+      "nl": "aankondigen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_akera_hasab",
+    "am": "የህዝብ አስተያየት",
+    "tr": "yehizib astayayet",
+    "pos": "noun",
+    "topic": "media",
+    "level": "B2",
+    "t": {
+      "de": "die öffentliche Meinung",
+      "en": "public opinion",
+      "sv": "allmänna opinionen",
+      "nl": "publieke opinie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_adj_iwnet",
+    "am": "እውነተኛ",
+    "tr": "iwinetegna",
+    "pos": "adjective",
+    "topic": "media",
+    "level": "B2",
+    "t": {
+      "de": "wahr, echt, glaubwürdig",
+      "en": "true, real, credible",
+      "sv": "sann, äkta, trovärdig",
+      "nl": "waar, echt, geloofwaardig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

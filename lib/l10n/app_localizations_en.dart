@@ -154,6 +154,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settingsDailyReminder => 'Daily reminder';
 
   @override
+  String get settingsDailyReminderSubtitle =>
+      'A short nudge to keep practising';
+
+  @override
+  String get settingsReminderPermissionDenied =>
+      'Notifications are blocked for Habesha Speak in your device settings';
+
+  @override
+  String get settingsReminderTime => 'Reminder time';
+
+  @override
+  String settingsReminderTimeSubtitle(String time) {
+    return 'Reminds you every day at $time';
+  }
+
+  @override
   String get settingsPremiumSection => 'Premium';
 
   @override
@@ -219,19 +235,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get premiumPriceUnknown => 'Price unavailable';
 
   @override
-  String get premiumRedeemTitle => 'Redeem a gift code';
+  String get devUnlockDialogTitle => 'Enter code';
 
   @override
-  String get premiumRedeemHint => 'e.g. AB23CD-EFGH2345';
+  String get devUnlockButton => 'Redeem';
 
   @override
-  String get premiumRedeemButton => 'Redeem';
+  String get devUnlockSuccess => 'Premium has been unlocked.';
 
   @override
-  String get premiumRedeemSuccess => 'Redeemed - thank you for your support!';
-
-  @override
-  String get premiumRedeemInvalid => 'This code isn\'t valid.';
+  String get devUnlockInvalid => 'This code isn\'t valid.';
 
   @override
   String get premiumLockedDialogTitle =>
@@ -843,6 +856,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get fidelTableStudyRow => 'Practice this row';
 
   @override
+  String get fidelAudioDrillTitle => 'Listening drill';
+
+  @override
+  String get fidelAudioDrillSubtitle => 'Hear the sound, tap the matching sign';
+
+  @override
+  String get fidelAudioDrillRowButton => 'Listening drill for this row';
+
+  @override
   String get fidelTableDetailLearned => 'Learned';
 
   @override
@@ -903,19 +925,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'You haven\'t finished the previous stage yet. Start anyway?';
 
   @override
-  String get settingsHahuTempo => 'Ha-Hu rhythm speed';
-
-  @override
-  String get hahuTempoSlow => 'Slow';
-
-  @override
-  String get hahuTempoNormal => 'Normal';
-
-  @override
-  String get hahuTempoFast => 'Fast';
-
-  @override
-  String get hahuDrillTapHint => 'Tap along to the rhythm';
+  String get hahuDrillTapHint => 'Tap for the next sign';
 
   @override
   String get hahuDrillWithTransliteration =>
@@ -961,4 +971,19 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get journeyRegionComingSoon => 'Coming soon';
+
+  @override
+  String get journeyRegionLabelAddisAbeba => 'Addis';
+
+  @override
+  String get journeyRegionLabelSouth => 'South';
+
+  @override
+  String get journeyRegionLabelTigray => 'Tigray';
+
+  @override
+  String get journeyRegionLabelOromia => 'Oromia';
+
+  @override
+  String get journeyRegionLabelSafari => 'Safari';
 }

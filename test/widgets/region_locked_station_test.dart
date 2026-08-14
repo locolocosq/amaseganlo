@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'package:habesha_speak/core/journey_regions.dart';
 import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
@@ -13,7 +14,7 @@ void main() {
       initialPrefs: {'amaseganlo.settings': jsonEncode(const AppSettings(localeCode: 'de').toJson())},
     );
 
-    await tester.tap(find.text('Addis Abeba'));
+    await tester.tap(findRegionNode(JourneyRegion.addisAbeba));
     await tester.pumpAndSettle();
 
     // "Ich und du" is the second unit - locked until the first is done, and

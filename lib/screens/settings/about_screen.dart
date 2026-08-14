@@ -1,15 +1,66 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
 
+import '../../core/purchase_service.dart';
 import '../../l10n/app_localizations.dart';
 
-const _appVersion = '1.0.0';
+const _appVersion = '1.2.1';
 // No CI pipeline stamps a real build timestamp yet - set by hand at release
 // time, same as _appVersion.
-const _buildDate = '2026-08-05';
+const _buildDate = '2026-08-09';
 
-class AboutScreen extends StatelessWidget {
+/// How many consecutive taps on the version line reveal the hidden
+/// developer-code dialog (Etappe 24) - the same "tap the build number"
+/// pattern Android's own Settings app uses to reveal Developer Options, so
+/// nothing on screen ever hints that tapping here does anything at all.
+const _tapsToRevealDevCode = 7;
+
+class AboutScreen extends StatefulWidget {
   const AboutScreen({super.key});
+
+  @override
+  State<AboutScreen> createState() => _AboutScreenState();
+}
+
+class _AboutScreenState extends State<AboutScreen> {
+  int _versionTapCount = 0;
+
+  void _onVersionTap() {
+    _versionTapCount++;
+    if (_versionTapCount >= _tapsToRevealDevCode) {
+      _versionTapCount = 0;
+      _showDevCodeDialog();
+    }
+  }
+
+  Future<void> _showDevCodeDialog() async {
+    final l10n = AppLocalizations.of(context);
+    final controller = TextEditingController();
+    final code = await showDialog<String>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l10n.devUnlockDialogTitle),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          obscureText: true,
+          onSubmitted: (value) => Navigator.pop(ctx, value),
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(l10n.commonCancel)),
+          FilledButton(onPressed: () => Navigator.pop(ctx, controller.text), child: Text(l10n.devUnlockButton)),
+        ],
+      ),
+    );
+    if (code == null || !mounted) return;
+
+    final ok = context.read<PurchaseService>().redeemDevCode(code);
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text(ok ? l10n.devUnlockSuccess : l10n.devUnlockInvalid)),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +91,10 @@ class AboutScreen extends StatelessWidget {
                   style: Theme.of(context).textTheme.headlineSmall,
                 ),
                 const SizedBox(height: 4),
-                Text('${l10n.aboutVersion} $_appVersion'),
+                GestureDetector(
+                  onTap: _onVersionTap,
+                  child: Text('${l10n.aboutVersion} $_appVersion'),
+                ),
                 Text(
                   '${l10n.aboutBuildDate}: $_buildDate',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(

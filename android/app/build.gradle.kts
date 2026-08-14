@@ -28,6 +28,11 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+        // flutter_local_notifications (Etappe 24: tägliche Erinnerung)
+        // requires this on the Android side - without it, a release build
+        // fails at Gradle's AAR-metadata check before it ever gets to
+        // packaging anything.
+        isCoreLibraryDesugaringEnabled = true
     }
 
     defaultConfig {
@@ -63,6 +68,10 @@ kotlin {
     compilerOptions {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
+}
+
+dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
 
 flutter {

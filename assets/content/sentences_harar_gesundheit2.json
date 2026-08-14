@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_mirmera_asfelagi",
+    "am": "ምርመራ አስፈላጊ ነው።",
+    "tr": "mirmera asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_mirmera"],
+    "t": {
+      "de": "Eine Untersuchung ist wichtig.",
+      "en": "An examination is important.",
+      "sv": "En undersökning är viktig.",
+      "nl": "Een onderzoek is belangrijk."
+    },
+    "chunks": ["mirmera", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_hikimina_tiru",
+    "am": "ህክምና ጥሩ ነው።",
+    "tr": "hikimina t'iru newu.",
+    "level": "B2",
+    "uses": ["lex_hikimina"],
+    "t": {
+      "de": "Behandlung ist gut.",
+      "en": "Treatment is good.",
+      "sv": "Behandling är bra.",
+      "nl": "Behandeling is goed."
+    },
+    "chunks": ["hikimina", "t'iru", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_kedo_tigena_kebad",
+    "am": "ቀዶ ጥገና ከባድ ነው።",
+    "tr": "k'edo t'igena kebad newu.",
+    "level": "B2",
+    "uses": ["lex_kedo_tigena"],
+    "t": {
+      "de": "Eine Operation ist schwierig.",
+      "en": "Surgery is hard.",
+      "sv": "Operation är svårt.",
+      "nl": "Een operatie is zwaar."
+    },
+    "chunks": ["k'edo", "t'igena", "kebad", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_milikit_makem",
+    "am": "ዶክተር ምልክት ያከማል።",
+    "tr": "dokiter milikit yakemal.",
+    "level": "B2",
+    "uses": ["lex_milikit", "lex_v_makem"],
+    "t": {
+      "de": "Der Arzt behandelt das Symptom.",
+      "en": "The doctor treats the symptom.",
+      "sv": "Läkaren behandlar symtomet.",
+      "nl": "De arts behandelt het symptoom."
+    },
+    "chunks": ["dokiter", "milikit", "yakemal"],
+    "verified": false
+  },
+  {
+    "id": "sen_siryesedede_himem",
+    "am": "ስር የሰደደ ህመም ከባድ ነው።",
+    "tr": "sir yesedede himem kebad newu.",
+    "level": "B2",
+    "uses": ["lex_adj_siryesedede"],
+    "t": {
+      "de": "Eine chronische Krankheit ist ernst.",
+      "en": "A chronic illness is serious.",
+      "sv": "En kronisk sjukdom är allvarlig.",
+      "nl": "Een chronische ziekte is ernstig."
+    },
+    "chunks": ["sir", "yesedede", "himem", "kebad", "newu"],
+    "verified": false
+  }
+]

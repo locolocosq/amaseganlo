@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_maryam_iyesus",
+    "am": "ማርያም የኢየሱስ ክርስቶስ እናት ናት።",
+    "tr": "maryam ye iyesus kirstos enat nat.",
+    "level": "B2",
+    "uses": ["lex_maryam", "lex_iyesus"],
+    "t": {
+      "de": "Maria ist die Mutter von Jesus Christus.",
+      "en": "Mary is the mother of Jesus Christ.",
+      "sv": "Maria är Jesu Kristi mor.",
+      "nl": "Maria is de moeder van Jezus Christus."
+    },
+    "chunks": ["maryam", "ye", "iyesus", "kirstos", "enat", "nat"],
+    "verified": false
+  },
+  {
+    "id": "sen_melak_semayawi",
+    "am": "መልአክ ሰማያዊ ነው።",
+    "tr": "mel'ak semayawi newu.",
+    "level": "B2",
+    "uses": ["lex_melak", "lex_adj_semayawi"],
+    "t": {
+      "de": "Der Engel ist himmlisch.",
+      "en": "The angel is heavenly.",
+      "sv": "Ängeln är himmelsk.",
+      "nl": "De engel is hemels."
+    },
+    "chunks": ["mel'ak", "semayawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_nefis_semayawi",
+    "am": "ነፍስ ሰማያዊ ናት።",
+    "tr": "nefis semayawi nat.",
+    "level": "B2",
+    "uses": ["lex_nefis", "lex_adj_semayawi"],
+    "t": {
+      "de": "Die Seele ist himmlisch.",
+      "en": "The soul is heavenly.",
+      "sv": "Själen är himmelsk.",
+      "nl": "De ziel is hemels."
+    },
+    "chunks": ["nefis", "semayawi", "nat"],
+    "verified": false
+  },
+  {
+    "id": "sen_gehanem_metfo",
+    "am": "ገሃነም መጥፎ ነው።",
+    "tr": "gehanem met'fo newu.",
+    "level": "B2",
+    "uses": ["lex_gehanem"],
+    "t": {
+      "de": "Die Hölle ist schlecht.",
+      "en": "Hell is bad.",
+      "sv": "Helvetet är dåligt.",
+      "nl": "De hel is slecht."
+    },
+    "chunks": ["gehanem", "met'fo", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_kahin_haleluya",
+    "am": "ካህኑ ሃሌሉያ ዘመረ።",
+    "tr": "kahinu haleluya zemere.",
+    "level": "B2",
+    "uses": ["lex_haleluya", "lex_kahin"],
+    "t": {
+      "de": "Der Priester sang Halleluja.",
+      "en": "The priest sang Hallelujah.",
+      "sv": "Prästen sjöng halleluja.",
+      "nl": "De priester zong halleluja."
+    },
+    "chunks": ["kahinu", "haleluya", "zemere"],
+    "verified": false
+  }
+]

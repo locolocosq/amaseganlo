@@ -33,16 +33,11 @@ class WorldMapPainter extends CustomPainter {
     // shape *against*. Each is a muted sandy/arid tone, deliberately never
     // green, so Ethiopia's highland fill still stands out as the country in
     // focus.
+    // Etappe 24: no border strokes around any of these shapes any more -
+    // just the flat colour fields the user asked for, distinguished from
+    // each other and from Ethiopia's own terrain fill by colour alone.
     for (final land in EthiopiaMap.neighborLands) {
-      final path = EthiopiaMap.neighborPath(land, size);
-      canvas.drawPath(path, Paint()..color = land.color);
-      canvas.drawPath(
-        path,
-        Paint()
-          ..style = PaintingStyle.stroke
-          ..strokeWidth = 1.2
-          ..color = const Color(0x22000000),
-      );
+      canvas.drawPath(EthiopiaMap.neighborPath(land, size), Paint()..color = land.color);
     }
 
     final outline = EthiopiaMap.outline(size);
@@ -91,20 +86,16 @@ class WorldMapPainter extends CustomPainter {
     }
 
     for (final road in WorldMapLayout.allRoads(size)) {
-      Sketch.road(canvas, road);
+      // Etappe 24 Nachtrag: thinner still than Sketch.road's own default -
+      // at this map's small scale even the already-thinned default still
+      // read as too heavy next to the now-winding road.
+      Sketch.road(canvas, road, width: 9);
     }
 
-    // A clear outline stroke around the country shape for definition (a bit
-    // bolder than the neighbours' own borders above, so Ethiopia still
-    // visually leads), and clouds drifting over the top edge.
-    canvas.drawPath(
-      outline,
-      Paint()
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 2.5
-        ..color = const Color(0x59000000),
-    );
-
+    // Etappe 24: the country's own outline stroke is gone too, per the same
+    // "only colour fields, no border lines" request - the terrain gradient
+    // fill already reads clearly against the neighbours' flat sandy tones
+    // without an extra line on top. Clouds still drift over the top edge.
     final rng = Sketch.seededRandom(7);
     for (var i = 0; i < 5; i++) {
       final cx = size.width * (0.08 + rng.nextDouble() * 0.84);
@@ -127,16 +118,37 @@ class WorldMapPainter extends CustomPainter {
           Sketch.acacia(canvas, spot, 0.7 + rng.nextDouble() * 0.5);
           break;
         case JourneyRegion.tigray:
-          Sketch.rock(canvas, spot, 0.9 + rng.nextDouble() * 0.5, color: const Color(0xFFB98363));
+          // Real Tigray is Ethiopia's most mountainous region - small
+          // mountain silhouettes read as more fitting decoration here than
+          // plain rocks (Etappe 24). One of the four spots hints at the
+          // Lalibela rock-hewn churches instead (Etappe 24 Nachtrag 4, on
+          // request) - the same small monolithic-church shape the region's
+          // own medallion already uses (see region_node_marker.dart).
+          if (i == 0) {
+            Sketch.rockChurch(canvas, spot, 12 * (0.8 + rng.nextDouble() * 0.3), 22 * (0.8 + rng.nextDouble() * 0.3));
+          } else {
+            Sketch.smallMountain(canvas, spot, 0.8 + rng.nextDouble() * 0.4);
+          }
           break;
         case JourneyRegion.sidama:
           Sketch.palm(canvas, spot, 0.6 + rng.nextDouble() * 0.5);
           break;
         case JourneyRegion.harar:
-          // No real content yet (Etappe 22) - deliberately left undecorated
-          // rather than inventing a themed scene for a place that hasn't
-          // been designed yet; the muted grey glow (region.accent) is the
-          // only visual it gets until real content arrives.
+          // Etappe 24 Nachtrag 4: exactly one mosque, not four (on request) -
+          // the other three spots stay empty rather than crowding the zone
+          // with a repeated landmark that only exists once in reality.
+          if (i == 0) Sketch.mosque(canvas, spot, 0.6 + rng.nextDouble() * 0.15);
+          break;
+        case JourneyRegion.safari:
+          // Etappe 24 Nachtrag 5: one zebra (swapped in for an earlier lion
+          // that didn't read well at this size, on request) alongside a
+          // couple of acacias for a savanna feel, rather than four repeated
+          // trees.
+          if (i == 0) {
+            Sketch.zebra(canvas, spot, 0.9 + rng.nextDouble() * 0.2);
+          } else {
+            Sketch.acacia(canvas, spot, 0.7 + rng.nextDouble() * 0.5);
+          }
           break;
       }
     }

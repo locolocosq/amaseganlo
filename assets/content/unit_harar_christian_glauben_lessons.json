@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_harar_christian_glauben_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_iyesus",
+      "lex_maryam",
+      "lex_melak",
+      "lex_nefis",
+      "lex_gehanem",
+      "lex_adj_semayawi",
+      "lex_haleluya"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_christian_glauben_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_iyesus",
+      "lex_maryam",
+      "lex_melak",
+      "lex_nefis",
+      "lex_gehanem",
+      "lex_adj_semayawi",
+      "lex_haleluya"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_glauben_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_iyesus",
+      "lex_maryam",
+      "lex_melak",
+      "lex_nefis",
+      "lex_gehanem",
+      "lex_adj_semayawi",
+      "lex_haleluya"
+    ],
+    "sentenceIds": [
+      "sen_maryam_iyesus",
+      "sen_melak_semayawi",
+      "sen_nefis_semayawi",
+      "sen_gehanem_metfo",
+      "sen_kahin_haleluya"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_glauben_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_iyesus",
+      "lex_maryam",
+      "lex_melak",
+      "lex_nefis",
+      "lex_gehanem",
+      "lex_adj_semayawi",
+      "lex_haleluya"
+    ],
+    "sentenceIds": [
+      "sen_maryam_iyesus",
+      "sen_melak_semayawi",
+      "sen_nefis_semayawi",
+      "sen_gehanem_metfo",
+      "sen_kahin_haleluya"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_glauben_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_iyesus",
+      "lex_maryam",
+      "lex_melak",
+      "lex_nefis",
+      "lex_gehanem",
+      "lex_adj_semayawi",
+      "lex_haleluya"
+    ],
+    "sentenceIds": [
+      "sen_maryam_iyesus",
+      "sen_melak_semayawi",
+      "sen_nefis_semayawi",
+      "sen_gehanem_metfo",
+      "sen_kahin_haleluya"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_glauben_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_iyesus",
+      "lex_maryam",
+      "lex_melak",
+      "lex_nefis",
+      "lex_gehanem",
+      "lex_adj_semayawi",
+      "lex_haleluya"
+    ],
+    "sentenceIds": [
+      "sen_maryam_iyesus",
+      "sen_melak_semayawi",
+      "sen_nefis_semayawi",
+      "sen_gehanem_metfo",
+      "sen_kahin_haleluya"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

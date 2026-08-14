@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_iyesus",
+    "am": "ኢየሱስ ክርስቶስ",
+    "tr": "iyesus kirstos",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "Jesus Christus",
+      "en": "Jesus Christ",
+      "sv": "Jesus Kristus",
+      "nl": "Jezus Christus"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_maryam",
+    "am": "ማርያም",
+    "tr": "maryam",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "Maria (Mutter Jesu)",
+      "en": "Mary (Jesus's mother)",
+      "sv": "Maria (Jesu mor)",
+      "nl": "Maria (moeder van Jezus)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_melak",
+    "am": "መልአክ",
+    "tr": "mel'ak",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "der Engel",
+      "en": "angel",
+      "sv": "ängel",
+      "nl": "engel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_nefis",
+    "am": "ነፍስ",
+    "tr": "nefis",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "die Seele",
+      "en": "soul",
+      "sv": "själ",
+      "nl": "ziel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gehanem",
+    "am": "ገሃነም",
+    "tr": "gehanem",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "die Hölle",
+      "en": "hell",
+      "sv": "helvetet",
+      "nl": "de hel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_semayawi",
+    "am": "ሰማያዊ",
+    "tr": "semayawi",
+    "pos": "adjective",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "himmlisch",
+      "en": "heavenly",
+      "sv": "himmelsk",
+      "nl": "hemels"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_haleluya",
+    "am": "ሃሌሉያ",
+    "tr": "haleluya",
+    "pos": "interjection",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "Halleluja",
+      "en": "Hallelujah",
+      "sv": "halleluja",
+      "nl": "halleluja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:habesha_speak/content/content_repository.dart';
 import 'package:habesha_speak/content/exercise_generator.dart';
+import 'package:habesha_speak/models/lesson.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -49,6 +50,35 @@ void main() {
     test('always exactly 4 distinct options with the correct sign present once', () {
       final subject = repo.fidelCharsForGroup('ma').first;
       final exercise = generator.generateSoundToChar(subject);
+      expect(exercise.options.length, 4);
+      expect(exercise.options.toSet().length, 4);
+      expect(exercise.options.where((o) => o == subject.char).length, 1);
+    });
+  });
+
+  group('FidelExerciseGenerator.generateListenToChar (Etappe 24 audio drill)', () {
+    test('never includes a homophone of the correct sign among the options', () {
+      final subject = repo.fidelCharsForGroup('hha').first;
+      final homophoneChars = {
+        ...repo.fidelCharsForGroup('ha').map((c) => c.char),
+        ...repo.fidelCharsForGroup('hha2').map((c) => c.char),
+      };
+
+      for (var i = 0; i < 20; i++) {
+        final exercise = generator.generateListenToChar(subject);
+        final wrongOptions = exercise.options.where((o) => o != exercise.correctAnswer);
+        for (final option in wrongOptions) {
+          expect(homophoneChars.contains(option), isFalse, reason: '$option sounds identical to ${subject.char}');
+        }
+      }
+    });
+
+    test('is flagged as an audio prompt and hides no text answer other than the sign itself', () {
+      final subject = repo.fidelCharsForGroup('ma').first;
+      final exercise = generator.generateListenToChar(subject);
+      expect(exercise.isAudioPrompt, isTrue);
+      expect(exercise.type, ExerciseType.fidelListenChoice);
+      expect(exercise.correctAnswer, subject.char);
       expect(exercise.options.length, 4);
       expect(exercise.options.toSet().length, 4);
       expect(exercise.options.where((o) => o == subject.char).length, 1);

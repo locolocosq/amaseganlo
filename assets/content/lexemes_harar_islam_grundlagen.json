@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lex_islam_din",
+    "am": "እስልምና",
+    "tr": "isilimina",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Islam (die Religion)",
+      "en": "Islam (the religion)",
+      "sv": "islam (religionen)",
+      "nl": "islam (de religie)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_muslim",
+    "am": "ሙስሊም",
+    "tr": "muslim",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Muslim, die Muslimin",
+      "en": "Muslim",
+      "sv": "muslim",
+      "nl": "moslim"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_allah",
+    "am": "አላህ",
+    "tr": "alah",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "Allah, Gott (im Islam)",
+      "en": "Allah, God (in Islam)",
+      "sv": "Allah, Gud (inom islam)",
+      "nl": "Allah, God (in de islam)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_nebiy",
+    "am": "ነቢይ",
+    "tr": "nebiy",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Prophet",
+      "en": "prophet",
+      "sv": "profet",
+      "nl": "profeet"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kuran",
+    "am": "ቁርኣን",
+    "tr": "k'uran",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Koran",
+      "en": "the Quran",
+      "sv": "Koranen",
+      "nl": "de Koran"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mesgid",
+    "am": "መስጊድ",
+    "tr": "mesgid",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "die Moschee",
+      "en": "mosque",
+      "sv": "moské",
+      "nl": "moskee"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕌",
+    "verified": true
+  },
+  {
+    "id": "lex_imam",
+    "am": "ኢማም",
+    "tr": "imam",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Imam",
+      "en": "imam",
+      "sv": "imam",
+      "nl": "imam"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_amagn",
+    "am": "አማኝ",
+    "tr": "amagn",
+    "pos": "noun",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "der/die Gläubige",
+      "en": "believer",
+      "sv": "troende",
+      "nl": "gelovige"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_adj_tamagn",
+    "am": "ታማኝ",
+    "tr": "tamagn",
+    "pos": "adjective",
+    "topic": "islam_basics",
+    "level": "B2",
+    "t": {
+      "de": "treu, loyal, gläubig",
+      "en": "faithful, loyal",
+      "sv": "trogen, lojal",
+      "nl": "trouw, loyaal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

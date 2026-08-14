@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_temeraki_digiri",
+    "am": "ተመራቂው ዲግሪ አገኘ።",
+    "tr": "temerakiw digiri agegne.",
+    "level": "B2",
+    "uses": ["lex_temeraki", "lex_digiri"],
+    "t": {
+      "de": "Der Absolvent hat einen Abschluss erhalten.",
+      "en": "The graduate obtained a degree.",
+      "sv": "Den utexaminerade fick en examen.",
+      "nl": "De afgestudeerde behaalde een diploma."
+    },
+    "chunks": ["temerakiw", "digiri", "agegne"],
+    "verified": false
+  },
+  {
+    "id": "sen_skolarship_temariwoch",
+    "am": "ስኮላርሺፕ ለተማሪዎች አስፈላጊ ነው።",
+    "tr": "skolarship letemariwoch asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_skolarship"],
+    "t": {
+      "de": "Ein Stipendium ist wichtig für Studenten.",
+      "en": "A scholarship is important for students.",
+      "sv": "Ett stipendium är viktigt för studenter.",
+      "nl": "Een studiebeurs is belangrijk voor studenten."
+    },
+    "chunks": ["skolarship", "letemariwoch", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_sirate_timihirt_tiru",
+    "am": "ይህ ሥርዓተ ትምህርት ጥሩ ነው።",
+    "tr": "yih sirate timihirt t'iru newu.",
+    "level": "B2",
+    "uses": ["lex_sirate_timihirt"],
+    "t": {
+      "de": "Dieser Lehrplan ist gut.",
+      "en": "This curriculum is good.",
+      "sv": "Denna läroplan är bra.",
+      "nl": "Dit curriculum is goed."
+    },
+    "chunks": ["yih", "sirate", "timihirt", "t'iru", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_temari_memerek",
+    "am": "ተማሪው ተመረቀ።",
+    "tr": "temariw temereke.",
+    "level": "B2",
+    "uses": ["lex_v_memerek"],
+    "t": {
+      "de": "Der Student hat graduiert.",
+      "en": "The student graduated.",
+      "sv": "Studenten tog examen.",
+      "nl": "De student is afgestudeerd."
+    },
+    "chunks": ["temariw", "temereke"],
+    "verified": false
+  },
+  {
+    "id": "sen_digiri_sirate_timihirt",
+    "am": "ዲግሪ ከሥርዓተ ትምህርት ይመጣል።",
+    "tr": "digiri kesirate timihirt yimet'al.",
+    "level": "B2",
+    "uses": ["lex_digiri", "lex_sirate_timihirt"],
+    "t": {
+      "de": "Ein Abschluss kommt aus dem Lehrplan.",
+      "en": "A degree comes from the curriculum.",
+      "sv": "En examen kommer från läroplanen.",
+      "nl": "Een diploma komt uit het curriculum."
+    },
+    "chunks": ["digiri", "kesirate", "timihirt", "yimet'al"],
+    "verified": false
+  }
+]

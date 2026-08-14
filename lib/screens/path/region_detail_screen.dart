@@ -113,8 +113,6 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
         break;
       }
     }
-    final targetProgress = unitIds.length > 1 ? currentIndex / (unitIds.length - 1) : 0.0;
-    _startBusTravel(targetProgress);
 
     final regionAllDone = journey.isSectionDone(section);
     final driverMessage = regionAllDone
@@ -150,6 +148,22 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
                   final road = layout.smoothPathThrough(stations);
                   final canvasHeight = layout.canvasHeight(totalStations);
                   _scrollToStationOnce(stations[currentIndex].position.dy, constraints.maxHeight, canvasHeight);
+
+                  // The winding path's per-station arc length isn't uniform
+                  // (sine-wave horizontal offsets mean some hops are longer
+                  // than others), so a naive currentIndex/(count-1) fraction
+                  // of the *total* path length lands the bus further and
+                  // further from the actual current station the more stations
+                  // are behind it (reported: "versetzt sich immer weiter").
+                  // `smoothPathThrough` builds its curve point-by-point, so
+                  // the path through just the first (currentIndex + 1)
+                  // stations is an exact prefix of `road` - measuring that
+                  // gives the real cumulative distance to the current station.
+                  double pathLength(Path p) => p.computeMetrics().fold<double>(0, (sum, m) => sum + m.length);
+                  final totalLength = pathLength(road);
+                  final reachedLength = pathLength(layout.smoothPathThrough(stations.sublist(0, currentIndex + 1)));
+                  final targetProgress = totalLength > 0 ? reachedLength / totalLength : 0.0;
+                  _startBusTravel(targetProgress);
                   return SingleChildScrollView(
                     controller: _scrollController,
                     child: SizedBox(
@@ -194,8 +208,8 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
     final numberLabel = '$sectionNumber-${indexInSection + 1}';
 
     return Positioned(
-      left: layoutPoint.position.dx - 50,
-      top: layoutPoint.position.dy - 31,
+      left: layoutPoint.position.dx - 41,
+      top: layoutPoint.position.dy - 25,
       child: StationNodeMarker(
         region: region,
         numberLabel: numberLabel,
@@ -228,8 +242,8 @@ class _RegionDetailScreenState extends State<RegionDetailScreen> with SingleTick
     final cumulativeSectionIds = [for (final s in sections.take(sectionIndex + 1)) s.id];
 
     return Positioned(
-      left: layoutPoint.position.dx - 50,
-      top: layoutPoint.position.dy - 31,
+      left: layoutPoint.position.dx - 41,
+      top: layoutPoint.position.dy - 25,
       child: StationNodeMarker(
         region: region,
         // "R" (not a repeat-arrow glyph) so a screen reader announcing

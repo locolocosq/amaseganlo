@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_selam_alaykum",
+    "am": "ሰላም ዓለይኩም",
+    "tr": "selam alaykum",
+    "level": "B2",
+    "uses": ["lex_selam_alaykum"],
+    "t": {
+      "de": "Friede sei mit dir.",
+      "en": "Peace be upon you.",
+      "sv": "Fred vare med dig.",
+      "nl": "Vrede zij met u."
+    },
+    "chunks": ["selam", "alaykum"],
+    "verified": false
+  },
+  {
+    "id": "sen_wealaykum_reply",
+    "am": "ወዓለይኩም ሰላም",
+    "tr": "wa alaykum selam",
+    "level": "B2",
+    "uses": ["lex_wealaykum"],
+    "t": {
+      "de": "Und mit dir sei Friede.",
+      "en": "And upon you be peace.",
+      "sv": "Och över dig vare fred.",
+      "nl": "En met u zij vrede."
+    },
+    "chunks": ["wa", "alaykum", "selam"],
+    "verified": false
+  },
+  {
+    "id": "sen_imam_haymanotegna",
+    "am": "ኢማሙ በጣም ሃይማኖተኛ ነው።",
+    "tr": "imamu betam haymanotegna newu.",
+    "level": "B2",
+    "uses": ["lex_imam", "lex_adj_haymanotegna"],
+    "t": {
+      "de": "Der Imam ist sehr religiös.",
+      "en": "The imam is very religious.",
+      "sv": "Imamen är mycket religiös.",
+      "nl": "De imam is erg religieus."
+    },
+    "chunks": ["imamu", "betam", "haymanotegna", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_mesgid_islamawi",
+    "am": "መስጊድ እስላማዊ ነው።",
+    "tr": "mesgid isilamawi newu.",
+    "level": "B2",
+    "uses": ["lex_mesgid", "lex_adj_islamawi"],
+    "t": {
+      "de": "Die Moschee ist islamisch.",
+      "en": "The mosque is Islamic.",
+      "sv": "Moskén är islamisk.",
+      "nl": "De moskee is islamitisch."
+    },
+    "chunks": ["mesgid", "isilamawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_khutba_arb",
+    "am": "ኹጥባ በአርብ ቀን ነው።",
+    "tr": "khutba be'arb k'en newu.",
+    "level": "B2",
+    "uses": ["lex_khutba"],
+    "t": {
+      "de": "Die Freitagspredigt ist am Freitag.",
+      "en": "The Friday sermon is on Friday.",
+      "sv": "Fredagspredikan är på fredagen.",
+      "nl": "De vrijdagpreek is op vrijdag."
+    },
+    "chunks": ["khutba", "be'arb", "k'en", "newu"],
+    "verified": false
+  }
+]

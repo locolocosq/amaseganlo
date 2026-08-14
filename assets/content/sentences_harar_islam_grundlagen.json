@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sen_muslim_mesgid",
+    "am": "ሙስሊም ወደ መስጊድ ይሄዳል።",
+    "tr": "muslim wede mesgid yihedal.",
+    "level": "B2",
+    "uses": ["lex_muslim", "lex_mesgid"],
+    "t": {
+      "de": "Ein Muslim geht zur Moschee.",
+      "en": "A Muslim goes to the mosque.",
+      "sv": "En muslim går till moskén.",
+      "nl": "Een moslim gaat naar de moskee."
+    },
+    "chunks": ["muslim", "wede", "mesgid", "yihedal"],
+    "verified": false
+  },
+  {
+    "id": "sen_allah_and",
+    "am": "አላህ አንድ ነው።",
+    "tr": "alah and newu.",
+    "level": "B2",
+    "uses": ["lex_allah"],
+    "t": {
+      "de": "Allah ist eins.",
+      "en": "Allah is one.",
+      "sv": "Allah är en.",
+      "nl": "Allah is één."
+    },
+    "chunks": ["alah", "and", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_kuran_metsihaf",
+    "am": "ቁርኣን የእስልምና ቅዱስ መጽሐፍ ነው።",
+    "tr": "k'uran ye'isilimina k'idus metsihaf newu.",
+    "level": "B2",
+    "uses": ["lex_kuran", "lex_islam_din"],
+    "t": {
+      "de": "Der Koran ist das heilige Buch des Islam.",
+      "en": "The Quran is the holy book of Islam.",
+      "sv": "Koranen är islams heliga bok.",
+      "nl": "De Koran is het heilige boek van de islam."
+    },
+    "chunks": ["k'uran", "ye'isilimina", "k'idus", "metsihaf", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_muslim_amagn",
+    "am": "ሙስሊም አማኝ ነው።",
+    "tr": "muslim amagn newu.",
+    "level": "B2",
+    "uses": ["lex_muslim", "lex_amagn"],
+    "t": {
+      "de": "Ein Muslim ist ein Gläubiger.",
+      "en": "A Muslim is a believer.",
+      "sv": "En muslim är en troende.",
+      "nl": "Een moslim is een gelovige."
+    },
+    "chunks": ["muslim", "amagn", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_imam_tamagn",
+    "am": "ኢማም ታማኝ ሰው ነው።",
+    "tr": "imam tamagn sew newu.",
+    "level": "B2",
+    "uses": ["lex_imam", "lex_adj_tamagn"],
+    "t": {
+      "de": "Der Imam ist ein treuer Mensch.",
+      "en": "The imam is a faithful person.",
+      "sv": "Imamen är en trogen person.",
+      "nl": "De imam is een trouwe persoon."
+    },
+    "chunks": ["imam", "tamagn", "sew", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_nebiy_muslim",
+    "am": "ነቢይ ለሙስሊሞች አስፈላጊ ነው።",
+    "tr": "nebiy lemuslimoch asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_nebiy", "lex_muslim"],
+    "t": {
+      "de": "Der Prophet ist wichtig für Muslime.",
+      "en": "The prophet is important to Muslims.",
+      "sv": "Profeten är viktig för muslimer.",
+      "nl": "De profeet is belangrijk voor moslims."
+    },
+    "chunks": ["nebiy", "lemuslimoch", "asfelagi", "newu"],
+    "verified": false
+  }
+]

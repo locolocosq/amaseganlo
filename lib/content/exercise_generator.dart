@@ -297,6 +297,39 @@ class FidelExerciseGenerator {
     );
   }
 
+  /// Etappe 24: "Höre den Laut, tippe das richtige Zeichen" - the audio
+  /// drill's core exercise. Same homophone-safe distractor rule as
+  /// [generateSoundToChar] (a sign that sounds identical to the correct one
+  /// must never appear as a wrong choice, or the audio alone couldn't tell
+  /// them apart), but the transliteration is never shown as text - only
+  /// heard - so this only makes sense once Amharic audio is available.
+  GeneratedExercise generateListenToChar(FidelChar subject) {
+    final pool = repository.allFidelChars
+        .where((c) => c.char != subject.char && c.base != subject.base)
+        .toList()
+      ..shuffle(random);
+
+    final sameGroup = pool.where((c) => c.group == subject.group).toList();
+    final options = <String>{subject.char};
+    for (final candidates in [sameGroup, pool]) {
+      for (final c in candidates) {
+        if (options.length >= 4) break;
+        options.add(c.char);
+      }
+      if (options.length >= 4) break;
+    }
+
+    final result = options.toList()..shuffle(random);
+    return GeneratedExercise(
+      type: ExerciseType.fidelListenChoice,
+      subjectId: 'fidel:${subject.char}',
+      promptText: subject.tr,
+      correctAnswer: subject.char,
+      options: result,
+      isAudioPrompt: true,
+    );
+  }
+
   /// "Welches Zeichen ist lu?" - all distractors from the very same row, so
   /// the learner must actually attend to the vowel part.
   GeneratedExercise generateOrderRecognition(String group, int order) {

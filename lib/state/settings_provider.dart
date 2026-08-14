@@ -34,8 +34,8 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setDailyGoal(DailyGoal goal) => _update((s) => s.copyWith(dailyGoal: goal));
   Future<void> setUseHearts(bool enabled) => _update((s) => s.copyWith(useHearts: enabled));
   Future<void> setDailyReminderEnabled(bool enabled) => _update((s) => s.copyWith(dailyReminderEnabled: enabled));
+  Future<void> setReminderTime(int hour, int minute) => _update((s) => s.copyWith(reminderHour: hour, reminderMinute: minute));
   Future<void> setAllLessonsUnlocked(bool enabled) => _update((s) => s.copyWith(allLessonsUnlocked: enabled));
   Future<void> setFidelLearningPath(FidelLearningPath path) => _update((s) => s.copyWith(fidelLearningPath: path));
-  Future<void> setHahuTempo(HahuTempo tempo) => _update((s) => s.copyWith(hahuTempo: tempo));
   Future<void> setOnboardingCompleted(bool done) => _update((s) => s.copyWith(onboardingCompleted: done));
 }

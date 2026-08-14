@@ -24,6 +24,19 @@ List<String> freeTrialUnitIds(ContentRepository content) {
   return sections.first.unitIds.take(freeTrialUnitCount).toList();
 }
 
+/// How many of the Fidel path's stages (Stufe 1-8) are playable without
+/// Premium (Etappe 24 Nachtrag 5, on request) - the alphabet basics
+/// (letters, vowels, the Ha-Hu rows) stay free, syllable-joining onward
+/// needs Premium, same split in spirit as [freeTrialUnitCount] for path A:
+/// enough to get properly hooked, not the whole curriculum.
+const int freeFidelStageCount = 3;
+
+/// Whether Fidel stage [stageNumber] (1-based, matches [FidelStage.number])
+/// requires Premium - shared between the stage list and the stage overview
+/// screen's own defensive re-check, so both agree on exactly the same
+/// boundary.
+bool isFidelStagePremiumLocked(int stageNumber, bool isPremium) => !isPremium && stageNumber > freeFidelStageCount;
+
 /// Where to send "Weiterlernen": the unit whose lesson was completed most
 /// recently, if that unit still has an unfinished lesson (Abschnitt C1).
 /// Returns null if nothing has been played yet, or the most recently

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_harar_umwelt2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_dagim_tikim",
+      "lex_bizha_hiyiwet",
+      "lex_v_metifat",
+      "lex_sine_mihidar",
+      "lex_zelakinet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_umwelt2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_dagim_tikim",
+      "lex_bizha_hiyiwet",
+      "lex_v_metifat",
+      "lex_sine_mihidar",
+      "lex_zelakinet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_dagim_tikim",
+      "lex_bizha_hiyiwet",
+      "lex_v_metifat",
+      "lex_sine_mihidar",
+      "lex_zelakinet"
+    ],
+    "sentenceIds": [
+      "sen_dagim_tikim_asfelagi",
+      "sen_bizha_hiyiwet_sine_mihidar",
+      "sen_inisisat_metifat",
+      "sen_zelakinet_wedefit",
+      "sen_sine_mihidar_bizha_hiyiwet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_dagim_tikim",
+      "lex_bizha_hiyiwet",
+      "lex_v_metifat",
+      "lex_sine_mihidar",
+      "lex_zelakinet"
+    ],
+    "sentenceIds": [
+      "sen_dagim_tikim_asfelagi",
+      "sen_bizha_hiyiwet_sine_mihidar",
+      "sen_inisisat_metifat",
+      "sen_zelakinet_wedefit",
+      "sen_sine_mihidar_bizha_hiyiwet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_dagim_tikim",
+      "lex_bizha_hiyiwet",
+      "lex_v_metifat",
+      "lex_sine_mihidar",
+      "lex_zelakinet"
+    ],
+    "sentenceIds": [
+      "sen_dagim_tikim_asfelagi",
+      "sen_bizha_hiyiwet_sine_mihidar",
+      "sen_inisisat_metifat",
+      "sen_zelakinet_wedefit",
+      "sen_sine_mihidar_bizha_hiyiwet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_dagim_tikim",
+      "lex_bizha_hiyiwet",
+      "lex_v_metifat",
+      "lex_sine_mihidar",
+      "lex_zelakinet"
+    ],
+    "sentenceIds": [
+      "sen_dagim_tikim_asfelagi",
+      "sen_bizha_hiyiwet_sine_mihidar",
+      "sen_inisisat_metifat",
+      "sen_zelakinet_wedefit",
+      "sen_sine_mihidar_bizha_hiyiwet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

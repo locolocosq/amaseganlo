@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_harar_christian_feste_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_fasika",
+      "lex_gena",
+      "lex_timket",
+      "lex_v_matimek",
+      "lex_v_mebarek",
+      "lex_v_menazez",
+      "lex_hatiat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_christian_feste_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_fasika",
+      "lex_gena",
+      "lex_timket",
+      "lex_v_matimek",
+      "lex_v_mebarek",
+      "lex_v_menazez",
+      "lex_hatiat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_feste_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_fasika",
+      "lex_gena",
+      "lex_timket",
+      "lex_v_matimek",
+      "lex_v_mebarek",
+      "lex_v_menazez",
+      "lex_hatiat"
+    ],
+    "sentenceIds": [
+      "sen_fasika_gena",
+      "sen_timket_beal",
+      "sen_kahin_mebarek",
+      "sen_menazez_tiru",
+      "sen_hatiat_metfo"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_feste_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_fasika",
+      "lex_gena",
+      "lex_timket",
+      "lex_v_matimek",
+      "lex_v_mebarek",
+      "lex_v_menazez",
+      "lex_hatiat"
+    ],
+    "sentenceIds": [
+      "sen_fasika_gena",
+      "sen_timket_beal",
+      "sen_kahin_mebarek",
+      "sen_menazez_tiru",
+      "sen_hatiat_metfo"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_feste_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_fasika",
+      "lex_gena",
+      "lex_timket",
+      "lex_v_matimek",
+      "lex_v_mebarek",
+      "lex_v_menazez",
+      "lex_hatiat"
+    ],
+    "sentenceIds": [
+      "sen_fasika_gena",
+      "sen_timket_beal",
+      "sen_kahin_mebarek",
+      "sen_menazez_tiru",
+      "sen_hatiat_metfo"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_feste_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_fasika",
+      "lex_gena",
+      "lex_timket",
+      "lex_v_matimek",
+      "lex_v_mebarek",
+      "lex_v_menazez",
+      "lex_hatiat"
+    ],
+    "sentenceIds": [
+      "sen_fasika_gena",
+      "sen_timket_beal",
+      "sen_kahin_mebarek",
+      "sen_menazez_tiru",
+      "sen_hatiat_metfo"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -65,7 +65,9 @@ class StationNodeMarker extends StatelessWidget {
         break;
     }
 
-    const double diameter = 62;
+    // Etappe 24: shrunk from 62/100 - too large/dominant relative to the
+    // road and neighbouring stations on the winding region path.
+    const double diameter = 50;
     final l10n = AppLocalizations.of(context);
 
     return Semantics(
@@ -75,7 +77,7 @@ class StationNodeMarker extends StatelessWidget {
         onTap: onTap,
         behavior: HitTestBehavior.opaque,
         child: SizedBox(
-          width: 100,
+          width: 82,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [

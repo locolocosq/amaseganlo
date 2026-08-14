@@ -49,45 +49,70 @@ class EthiopiaMap {
   // canvas border instead of showing its real position. Etappe 22 Nachtrag
   // 4: refit around the real boundary's actual bounding box (lon
   // 32.95-47.79, lat 3.42-14.96) instead of a guessed one.
-  static const double _minLon = 32.0;
-  static const double _maxLon = 49.0;
-  static const double _minLat = 2.5;
-  static const double _maxLat = 16.0;
+  //
+  // Etappe 24 Nachtrag 5: tightened from a ~1° margin down to ~0.4° (on
+  // request - "die Landkarte ist immer noch zu klein") - every GeoPoint
+  // above already sits safely inside the *real* boundary polygon itself
+  // (see their own comments), so shrinking this outer box towards that
+  // polygon's actual bounding box only makes the rendered outline bigger;
+  // it can't push a marker closer to clipping, since markers were never
+  // anywhere near this box's old, far more generous edge.
+  static const double _minLon = 32.5;
+  static const double _maxLon = 48.2;
+  static const double _minLat = 3.0;
+  static const double _maxLat = 15.4;
 
   // Inset from the canvas edge so markers/outline never touch the border.
-  static const double _pad = 0.08;
+  // Etappe 24 Nachtrag 5: trimmed from 0.08 towards the same end as above.
+  static const double _pad = 0.045;
 
-  // Real Ethiopian geography clusters Addis Ababa/Oromia/Sidama close
+  // Real Ethiopian geography clusters Addis Ababa/Oromia/Sidama/Tigray close
   // enough together that their map nodes would overlap - these lon/lat
-  // values are pushed further apart than reality in exactly that cluster,
-  // using the explicit "nicht exakt maßstabsgetreu, aber grob richtig
-  // zueinander" (Etappe 22 brief) license: every place keeps its correct
-  // rough compass direction from the others, just exaggerated in distance
-  // enough to stay tappable as separate nodes on a small phone screen.
-  // Etappe 22 Nachtrag 4: re-verified against the REAL boundary polygon
-  // below (not just against each other) using a throwaway point-in-polygon
-  // script - every position here is confirmed to land inside the actual
-  // country outline, and every pair is confirmed to clear the marker's
-  // 96x138px tap box on at least one axis at the map's real rendered size
-  // (576x341 in the widget-test harness). Oromia/Sidama/Harar still don't
-  // sit exactly on Jimma/Hawassa/Harar city - inside the real outline AND
-  // mutually tappable at the same time left less room than hoped for.
-  // Etappe 22 Nachtrag 5: re-verified again after the projection stopped
-  // stretching lon/lat independently to fill the canvas (see
-  // _transformFor) - the old per-axis stretch had quietly given markers
-  // more horizontal room than the real, uniform scale actually allows.
-  // Under the real scale, clearing Addis Ababa via longitude alone needs
-  // ~4.5° - almost exactly the entire real width of Ethiopia east of Addis
-  // (the coastline's easternmost point is only ~4.5° further east again).
-  // There wasn't enough real room left over for Sidama AND Harar to also
-  // clear each other, so the marker pennant was narrowed slightly (see
-  // [RegionNodeMarker]) to buy back a real, verified margin.
+  // values are pushed apart from their true city centres in exactly that
+  // cluster, using the explicit "nicht exakt maßstabsgetreu, aber grob
+  // richtig zueinander" (Etappe 22 brief) license: every place keeps its
+  // correct rough compass direction from the others, just exaggerated in
+  // distance enough to stay tappable as separate nodes on a small phone
+  // screen.
+  //
+  // Etappe 24 Nachtrag: re-derived from scratch with a throwaway
+  // point-in-polygon + brute-force search script (not hand-picked) after
+  // the marker size shrank (see [RegionNodeMarker]) and Harar's position
+  // was reported wrong. Every value below is confirmed to (a) land inside
+  // the real boundary polygon WITH a small interior safety margin, not
+  // just barely on the coastline, and (b) clear every other place's
+  // ~66x121px tap box on at least one axis, at the map's real rendered
+  // size (576x341 in the widget-test harness):
+  //   - Addis Ababa and Harar now sit at their genuine real coordinates -
+  //     no compromise was needed for either once the marker shrank.
+  //   - Tigray moved from the Aksum area to Tigray's own north-western
+  //     zone (near the Eritrean border) - every real Tigray city close to
+  //     Aksum/Mekelle is simply too close to Addis at this map scale for
+  //     any marker size to keep both tappable.
+  //   - Oromia moved from a spot that was, honestly, already Gambela's
+  //     real location (a neighbouring region, not Oromia) to a real point
+  //     inside Oromia's own western highlands - a genuine correction, not
+  //     just a re-verification.
+  //   - Sidama remains pulled well east of Hawassa's real longitude (the
+  //     one placement that still needs a real compromise - Sidama, Oromia
+  //     and Addis are genuinely close together in reality), and also
+  //     further south than Hawassa's own real latitude (Etappe 24
+  //     Nachtrag, on request - re-searched for the southernmost latitude
+  //     that still clears every other marker, not just nudged by eye) so
+  //     it visibly reads as "the South" on the map rather than sitting at
+  //     roughly the same height as Addis.
   static const Map<JourneyRegion, GeoPoint> geoPositions = {
-    JourneyRegion.addisAbeba: GeoPoint(38.75, 9.0), // capital, centre
-    JourneyRegion.tigray: GeoPoint(38.7, 14.0), // Aksum/Mekelle area, far north
-    JourneyRegion.oromia: GeoPoint(34.0, 7.5), // green south-western highlands, near Gambela/Jimma
-    JourneyRegion.sidama: GeoPoint(43.5, 5.2), // south, pulled south-east to stay clear of Addis
-    JourneyRegion.harar: GeoPoint(47.5, 8.0), // Harar, at the far eastern tip
+    JourneyRegion.addisAbeba: GeoPoint(38.74, 9.03), // the real capital
+    JourneyRegion.tigray: GeoPoint(37.98, 14.88), // real Tigray, north-western zone
+    JourneyRegion.oromia: GeoPoint(35.62, 7.68), // real Oromia, western highlands
+    JourneyRegion.sidama: GeoPoint(45.3, 5.4), // pulled east AND further south to read as "the South"
+    JourneyRegion.harar: GeoPoint(42.15, 9.31), // the real city of Harar
+    // Etappe 24 Nachtrag 2: the capstone "Safari" stop, placed centered and
+    // as far south as the outline allows ("mittig unten" on the map) - a
+    // real point inside the South Omo lowlands, re-searched the same way as
+    // Sidama's re-placement above for the southernmost/most-centered spot
+    // that still clears every other marker's tap-box.
+    JourneyRegion.safari: GeoPoint(39.1, 4.9),
   };
 
   /// One scale factor + centring offset for a given canvas size (Etappe 22
@@ -348,11 +373,13 @@ class EthiopiaMap {
 
 /// Layout for the Ebene-1 world map: where each region's node sits, and the
 /// order the road connects them in. Etappe 22: reordered so the road sweeps
-/// roughly N → SW → S → E instead of crossing itself, and Harar was added
-/// as a fifth, currently content-less stop at the end - see
-/// ENTSCHEIDUNGEN.md. [order] no longer has to equal `Curriculum.sections`
-/// in length; [WorldMapScreen] renders any extra entries (like Harar) as a
-/// locked "coming soon" placeholder instead of indexing into sections.
+/// roughly N → SW → S → E instead of crossing itself; Harar was added as a
+/// fifth stop (Etappe 24 Nachtrag 2 gave it real B2 content), and Safari as
+/// a sixth, final capstone stop - see ENTSCHEIDUNGEN.md. [order] no longer
+/// has to equal `Curriculum.sections` in length; [WorldMapScreen] renders
+/// any extra entries beyond the curriculum's own sections as a locked
+/// "coming soon" placeholder instead of indexing into sections, which is
+/// what keeps adding a new stop here safe even before it has content.
 class WorldMapLayout {
   static const List<JourneyRegion> order = [
     JourneyRegion.addisAbeba,
@@ -360,25 +387,51 @@ class WorldMapLayout {
     JourneyRegion.oromia,
     JourneyRegion.sidama,
     JourneyRegion.harar,
+    JourneyRegion.safari,
   ];
 
   static Map<JourneyRegion, Offset> positions(Size size) => EthiopiaMap.positions(size);
 
-  /// A gentle S-curve between two node positions (not a straight line) -
-  /// the control point is offset perpendicular to the direct line, scaled
-  /// by the distance, so the road always looks hand-drawn regardless of
-  /// screen size/aspect ratio.
-  static Path roadBetween(Size size, JourneyRegion from, JourneyRegion to, {double bow = 0.22}) {
+  /// A winding, road-like path between two node positions (Etappe 24) -
+  /// several waypoints alternating side to side along the straight line
+  /// from [from] to [to], threaded into one smooth curve the same way
+  /// [RegionMapLayout.smoothPathThrough] does for the region-detail path.
+  /// The single quadratic-bezier "bow" this replaced only ever produced one
+  /// gentle arc - closer to a flight path than an actual drive - and read
+  /// as too straight/artificial once the road itself got thinner. Every
+  /// offset is a fraction of the segment's own length, so short and long
+  /// hops both wind by roughly the same visual amount regardless of screen
+  /// size or how far apart two regions happen to be.
+  static Path roadBetween(Size size, JourneyRegion from, JourneyRegion to, {double amplitude = 0.07, int waves = 4}) {
     final positionsForSize = positions(size);
     final start = positionsForSize[from]!;
     final end = positionsForSize[to]!;
-    final mid = Offset((start.dx + end.dx) / 2, (start.dy + end.dy) / 2);
     final delta = end - start;
-    final perpendicular = Offset(-delta.dy, delta.dx);
-    final control = mid + perpendicular * bow;
-    return Path()
-      ..moveTo(start.dx, start.dy)
-      ..quadraticBezierTo(control.dx, control.dy, end.dx, end.dy);
+    final length = delta.distance;
+    if (length == 0) return Path()..moveTo(start.dx, start.dy);
+    final direction = delta / length;
+    final perpendicular = Offset(-direction.dy, direction.dx);
+
+    final points = <Offset>[start];
+    for (var i = 1; i < waves; i++) {
+      final t = i / waves;
+      final base = start + delta * t;
+      final side = i.isOdd ? 1 : -1;
+      points.add(base + perpendicular * (length * amplitude * side));
+    }
+    points.add(end);
+
+    final path = Path()..moveTo(points.first.dx, points.first.dy);
+    for (var i = 0; i < points.length - 1; i++) {
+      final current = points[i];
+      final next = points[i + 1];
+      final mid = Offset((current.dx + next.dx) / 2, (current.dy + next.dy) / 2);
+      path.quadraticBezierTo(current.dx, current.dy, mid.dx, mid.dy);
+      if (i == points.length - 2) {
+        path.quadraticBezierTo(next.dx, next.dy, next.dx, next.dy);
+      }
+    }
+    return path;
   }
 
   static List<Path> allRoads(Size size) => [

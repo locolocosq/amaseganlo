@@ -1,0 +1,150 @@
+[
+  {
+    "id": "unit_harar_islam_grundlagen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_islam_din",
+      "lex_muslim",
+      "lex_allah",
+      "lex_nebiy",
+      "lex_kuran",
+      "lex_mesgid",
+      "lex_imam",
+      "lex_amagn",
+      "lex_adj_tamagn"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_islam_grundlagen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_islam_din",
+      "lex_muslim",
+      "lex_allah",
+      "lex_nebiy",
+      "lex_kuran",
+      "lex_mesgid",
+      "lex_imam",
+      "lex_amagn",
+      "lex_adj_tamagn"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_grundlagen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_islam_din",
+      "lex_muslim",
+      "lex_allah",
+      "lex_nebiy",
+      "lex_kuran",
+      "lex_mesgid",
+      "lex_imam",
+      "lex_amagn",
+      "lex_adj_tamagn"
+    ],
+    "sentenceIds": [
+      "sen_muslim_mesgid",
+      "sen_allah_and",
+      "sen_kuran_metsihaf",
+      "sen_muslim_amagn",
+      "sen_imam_tamagn",
+      "sen_nebiy_muslim"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_grundlagen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_islam_din",
+      "lex_muslim",
+      "lex_allah",
+      "lex_nebiy",
+      "lex_kuran",
+      "lex_mesgid",
+      "lex_imam",
+      "lex_amagn",
+      "lex_adj_tamagn"
+    ],
+    "sentenceIds": [
+      "sen_muslim_mesgid",
+      "sen_allah_and",
+      "sen_kuran_metsihaf",
+      "sen_muslim_amagn",
+      "sen_imam_tamagn",
+      "sen_nebiy_muslim"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_grundlagen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_islam_din",
+      "lex_muslim",
+      "lex_allah",
+      "lex_nebiy",
+      "lex_kuran",
+      "lex_mesgid",
+      "lex_imam",
+      "lex_amagn",
+      "lex_adj_tamagn"
+    ],
+    "sentenceIds": [
+      "sen_muslim_mesgid",
+      "sen_allah_and",
+      "sen_kuran_metsihaf",
+      "sen_muslim_amagn",
+      "sen_imam_tamagn",
+      "sen_nebiy_muslim"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_grundlagen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_islam_din",
+      "lex_muslim",
+      "lex_allah",
+      "lex_nebiy",
+      "lex_kuran",
+      "lex_mesgid",
+      "lex_imam",
+      "lex_amagn",
+      "lex_adj_tamagn"
+    ],
+    "sentenceIds": [
+      "sen_muslim_mesgid",
+      "sen_allah_and",
+      "sen_kuran_metsihaf",
+      "sen_muslim_amagn",
+      "sen_imam_tamagn",
+      "sen_nebiy_muslim"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

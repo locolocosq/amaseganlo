@@ -1,24 +1,23 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 
 import '../../l10n/app_localizations.dart';
 import '../../models/fidel_char.dart';
 
 /// Stufe 3's signature exercise: the row's 7 signs light up one after
-/// another at a steady beat while the learner taps along. Works entirely
-/// without sound - two rounds (with transliteration, then signs only).
+/// another, each tap of the button moving to the next one, while the
+/// learner looks them over - two rounds (with transliteration, then signs
+/// only). Etappe 24 Nachtrag 4: used to auto-advance on a fixed timer (the
+/// "Ha-Hu-Takt"/beat this exercise is named after) regardless of whether
+/// the learner had actually looked at the current sign yet - on request,
+/// tapping now drives the advance itself, so there's as much time as
+/// needed on each sign.
 class HaHuDrill extends StatefulWidget {
   final List<FidelChar> chars;
-  final Duration tickDuration;
-  final bool reduceMotion;
   final VoidCallback onComplete;
 
   const HaHuDrill({
     super.key,
     required this.chars,
-    required this.tickDuration,
-    required this.reduceMotion,
     required this.onComplete,
   });
 
@@ -26,66 +25,34 @@ class HaHuDrill extends StatefulWidget {
   State<HaHuDrill> createState() => _HaHuDrillState();
 }
 
-class _HaHuDrillState extends State<HaHuDrill> with WidgetsBindingObserver {
+class _HaHuDrillState extends State<HaHuDrill> {
   late List<FidelChar> _sorted;
   int _round = 0; // 0: with transliteration, 1: signs only
   int _beatIndex = 0;
-  Timer? _timer;
   bool _tapPulse = false;
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addObserver(this);
     _sorted = List<FidelChar>.from(widget.chars)..sort((a, b) => a.order.compareTo(b.order));
-    _startTimer();
   }
 
-  /// Abschnitt C3: the beat must not keep advancing while the app is
-  /// backgrounded - without this, returning to the app could find the drill
-  /// already finished (and navigated away) with nobody having watched it.
-  @override
-  void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.resumed) {
-      _startTimer();
-    } else {
-      _timer?.cancel();
-    }
-  }
-
-  void _startTimer() {
-    _timer?.cancel();
-    _timer = Timer.periodic(widget.tickDuration, (_) => _advanceBeat());
-  }
-
-  void _advanceBeat() {
-    if (!mounted) return;
+  void _handleTap() {
     setState(() {
+      _tapPulse = true;
       _beatIndex++;
       if (_beatIndex >= _sorted.length) {
         _beatIndex = 0;
         _round++;
         if (_round >= 2) {
-          _timer?.cancel();
           widget.onComplete();
           return;
         }
       }
     });
-  }
-
-  void _handleTap() {
-    setState(() => _tapPulse = true);
     Future.delayed(const Duration(milliseconds: 150), () {
       if (mounted) setState(() => _tapPulse = false);
     });
-  }
-
-  @override
-  void dispose() {
-    WidgetsBinding.instance.removeObserver(this);
-    _timer?.cancel();
-    super.dispose();
   }
 
   @override
@@ -109,7 +76,7 @@ class _HaHuDrillState extends State<HaHuDrill> with WidgetsBindingObserver {
           children: [
             for (var i = 0; i < _sorted.length; i++)
               AnimatedContainer(
-                duration: widget.reduceMotion ? Duration.zero : const Duration(milliseconds: 150),
+                duration: const Duration(milliseconds: 150),
                 padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
                 decoration: BoxDecoration(
                   color: i == _beatIndex ? theme.colorScheme.primary : theme.colorScheme.surfaceContainerLow,

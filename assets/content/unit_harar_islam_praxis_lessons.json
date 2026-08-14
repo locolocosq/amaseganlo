@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_harar_islam_praxis_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_solat",
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_id_holiday",
+      "lex_hagg",
+      "lex_meka",
+      "lex_v_mesged",
+      "lex_zekat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_islam_praxis_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_solat",
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_id_holiday",
+      "lex_hagg",
+      "lex_meka",
+      "lex_v_mesged",
+      "lex_zekat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_praxis_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_solat",
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_id_holiday",
+      "lex_hagg",
+      "lex_meka",
+      "lex_v_mesged",
+      "lex_zekat"
+    ],
+    "sentenceIds": [
+      "sen_muslim_solat_mesged",
+      "sen_remedan_tsom",
+      "sen_id_remedan",
+      "sen_hagg_meka",
+      "sen_zekat_muslim"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_praxis_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_solat",
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_id_holiday",
+      "lex_hagg",
+      "lex_meka",
+      "lex_v_mesged",
+      "lex_zekat"
+    ],
+    "sentenceIds": [
+      "sen_muslim_solat_mesged",
+      "sen_remedan_tsom",
+      "sen_id_remedan",
+      "sen_hagg_meka",
+      "sen_zekat_muslim"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_praxis_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_solat",
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_id_holiday",
+      "lex_hagg",
+      "lex_meka",
+      "lex_v_mesged",
+      "lex_zekat"
+    ],
+    "sentenceIds": [
+      "sen_muslim_solat_mesged",
+      "sen_remedan_tsom",
+      "sen_id_remedan",
+      "sen_hagg_meka",
+      "sen_zekat_muslim"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_praxis_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_solat",
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_id_holiday",
+      "lex_hagg",
+      "lex_meka",
+      "lex_v_mesged",
+      "lex_zekat"
+    ],
+    "sentenceIds": [
+      "sen_muslim_solat_mesged",
+      "sen_remedan_tsom",
+      "sen_id_remedan",
+      "sen_hagg_meka",
+      "sen_zekat_muslim"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

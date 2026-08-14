@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
-import 'promo_codes.dart';
+import 'dev_code.dart';
 import 'storage_service.dart';
 
 /// Product ids for Habesha Speak Premium (Etappe 23: unlocks every chapter
@@ -164,35 +164,57 @@ enum PremiumTier { yearly, lifetime }
 /// [restorePurchases] re-syncs from the store's own records (the actual
 /// source of truth - there is no server-side receipt store here).
 ///
-/// Known limitation, worth re-visiting once there's a backend: the yearly
-/// subscription is treated exactly like the lifetime purchase once bought -
-/// [isPremium] never reverts on its own if a subscription lapses. Properly
-/// enforcing renewal/expiry needs either a server validating receipts
-/// against Apple's/Google's server APIs, or the platform-specific
-/// `in_app_purchase_storekit`/`in_app_purchase_android` extensions to read
-/// live subscription status - neither exists yet. In practice the store
-/// still charges the user on renewal either way; what's missing is *this
-/// app* noticing and re-locking content if that ever stops succeeding.
+/// On every launch (Etappe 24 Nachtrag 4/6, on request), [init] silently
+/// re-asks the store to restore a yearly subscription - the same restore
+/// the "Restore purchases" button triggers by hand, just automatic and
+/// with no UI, so a still-active subscription re-confirms itself without
+/// the user ever noticing anything happened. Each successful reconfirm (or
+/// the original purchase) pushes a locally-remembered expiry date one year
+/// out; once that date is reached, [init] actually enforces it - see
+/// [_revalidateYearlySubscription] for exactly how, and why "no signal from
+/// the store" is trusted as "not renewed" only at that point and never
+/// before. Lifetime purchases have no expiry at all, so none of this
+/// applies to them.
+///
+/// Known limitation, worth re-visiting once there's a backend: without a
+/// server validating receipts against Apple's/Google's server APIs (or the
+/// platform-specific `in_app_purchase_storekit`/`in_app_purchase_android`
+/// extensions reading live subscription status - neither used here), this
+/// app can't know the *exact* renewal date, only approximate it as
+/// "purchase/last reconfirm + 365 days". A subscription cancelled and
+/// re-bought at a different date, or a store-side billing retry window,
+/// could drift slightly out of sync with this local estimate - in
+/// practice, close enough that it's not worth a backend on its own.
 class PurchaseService extends ChangeNotifier {
   static const _premiumKey = 'amaseganlo.premium';
   static const _tierKey = 'amaseganlo.premium_tier';
+  static const _expiresAtKey = 'amaseganlo.premium_expires_at';
 
   final PurchaseClient _client;
   final StorageService _storage;
+  final Duration _revalidationTimeout;
   StreamSubscription<String>? _restoredSub;
 
   bool _isPremium = false;
   bool _storeAvailable = false;
   PremiumTier? _tier;
+  DateTime? _premiumExpiresAt;
 
-  PurchaseService({required StorageService storage, PurchaseClient? client})
-      // this._storage would force callers to use the private field name as
-      // the argument label, so it's assigned manually.
+  PurchaseService({
+    required StorageService storage,
+    PurchaseClient? client,
+    Duration revalidationTimeout = const Duration(seconds: 8),
+  })  // this._storage/this._revalidationTimeout would force callers to use
+      // the private field name as the argument label, so both are assigned
+      // manually instead.
       // ignore: prefer_initializing_formals
       : _storage = storage,
+        // ignore: prefer_initializing_formals
+        _revalidationTimeout = revalidationTimeout,
         _client = client ?? (kIsWeb ? UnavailablePurchaseClient() : RealPurchaseClient()) {
     _isPremium = _storage.readString(_premiumKey) == 'true';
     _tier = _tierFromName(_storage.readString(_tierKey));
+    _premiumExpiresAt = DateTime.tryParse(_storage.readString(_expiresAtKey) ?? '');
     _restoredSub = _client.restoredProductIds.listen((productId) {
       final tier = _tierForProductId(productId);
       if (tier != null) _setPremium(true, tier);
@@ -206,6 +228,61 @@ class PurchaseService extends ChangeNotifier {
   Future<void> init() async {
     _storeAvailable = await _client.isAvailable();
     notifyListeners();
+    await _revalidateYearlySubscription();
+  }
+
+  /// The silent per-launch re-check described in the class doc above.
+  /// Lifetime purchases never call this - they don't expire, so there's
+  /// nothing to re-confirm.
+  ///
+  /// Before the locally-remembered expiry date, this only ever tries to
+  /// *reconfirm* premium (extending that date) - a failure or timeout here
+  /// is indistinguishable from a slow/offline store, so it's never treated
+  /// as "not subscribed". Once that date has passed, though, the
+  /// subscription has already had a full extra year of benefit of the
+  /// doubt through every one of those earlier launches, so a fresh
+  /// confirmation is required: if the store doesn't answer within
+  /// [_revalidationTimeout], that silence now *is* treated as "no longer
+  /// subscribed", and premium is revoked - every premium-gated screen
+  /// already redirects to the premium screen on its own once [isPremium]
+  /// flips to false, where restoring or buying again both work exactly the
+  /// way they would from a fresh install.
+  Future<void> _revalidateYearlySubscription() async {
+    if (_tier != PremiumTier.yearly || !_storeAvailable) return;
+    final expiresAt = _premiumExpiresAt;
+    if (expiresAt == null || DateTime.now().isBefore(expiresAt)) {
+      try {
+        await _client.restorePurchases();
+      } catch (_) {
+        // Best-effort - a background check the user never sees must never
+        // surface an error for something they didn't initiate.
+      }
+      return;
+    }
+    final reconfirmed = await _awaitRestoreConfirmation();
+    if (!reconfirmed) _setPremium(false, null);
+  }
+
+  /// Calls restore and waits briefly for the yearly product id to come
+  /// back through [PurchaseClient.restoredProductIds]. `in_app_purchase`
+  /// gives no direct "restore finished, found nothing" signal (see class
+  /// doc), so a bounded wait is the only way to tell "confirmed gone" apart
+  /// from "still waiting to hear back".
+  Future<bool> _awaitRestoreConfirmation() async {
+    final completer = Completer<bool>();
+    final sub = _client.restoredProductIds.listen((productId) {
+      if (_tierForProductId(productId) == PremiumTier.yearly && !completer.isCompleted) {
+        completer.complete(true);
+      }
+    });
+    try {
+      await _client.restorePurchases();
+      return await completer.future.timeout(_revalidationTimeout, onTimeout: () => false);
+    } catch (_) {
+      return false;
+    } finally {
+      await sub.cancel();
+    }
   }
 
   Future<StoreProduct?> loadYearlyProduct() => _loadProduct(premiumYearlyProductId);
@@ -235,13 +312,13 @@ class PurchaseService extends ChangeNotifier {
 
   Future<void> restorePurchases() => _client.restorePurchases();
 
-  /// Redeems an offline gift code (Abschnitt Design/Etappe 13, see
-  /// `promo_codes.dart` for how/why this works without a server) - grants
-  /// the exact same permanent entitlement the lifetime purchase would.
-  /// Returns whether the code was valid; redeeming an already-applied valid
-  /// code again is harmless (stays premium either way).
-  bool redeemPromoCode(String code) {
-    if (!isValidPromoCode(code)) return false;
+  /// Redeems the one hidden developer/tester code (Etappe 24, see
+  /// `dev_code.dart` for how/why this works without a server) - grants the
+  /// exact same permanent entitlement the lifetime purchase would. Returns
+  /// whether the code was valid; redeeming it again is harmless (stays
+  /// premium either way).
+  bool redeemDevCode(String code) {
+    if (!isDevCode(code)) return false;
     _setPremium(true, PremiumTier.lifetime);
     return true;
   }
@@ -256,12 +333,23 @@ class PurchaseService extends ChangeNotifier {
       PremiumTier.values.where((t) => t.name == name).firstOrNull;
 
   void _setPremium(bool value, PremiumTier? tier) {
-    if (_isPremium == value && _tier == tier) return;
+    final changed = _isPremium != value || _tier != tier;
     _isPremium = value;
     _tier = value ? tier : null;
+    if (value && tier == PremiumTier.yearly) {
+      // Every grant AND every silent reconfirm pushes this out another
+      // year - see the class doc and _revalidateYearlySubscription() for
+      // why that date is what actually gets enforced later, so this write
+      // must happen even when isPremium/tier themselves didn't change.
+      _premiumExpiresAt = DateTime.now().add(const Duration(days: 365));
+      _storage.writeString(_expiresAtKey, _premiumExpiresAt!.toIso8601String());
+    } else if (!value) {
+      _premiumExpiresAt = null;
+      _storage.writeString(_expiresAtKey, '');
+    }
     _storage.writeString(_premiumKey, value.toString());
     _storage.writeString(_tierKey, _tier?.name ?? '');
-    notifyListeners();
+    if (changed) notifyListeners();
   }
 
   @override

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_ikulinet_fitihawi",
+    "am": "እኩልነት ፍትሃዊ ነው።",
+    "tr": "ikulinet fitihawi newu.",
+    "level": "B2",
+    "uses": ["lex_ikulinet", "lex_adj_fitihawi"],
+    "t": {
+      "de": "Gleichheit ist gerecht.",
+      "en": "Equality is just.",
+      "sv": "Jämlikhet är rättvis.",
+      "nl": "Gelijkheid is rechtvaardig."
+    },
+    "chunks": ["ikulinet", "fitihawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_medilewo_ifitihawi",
+    "am": "መድልዎ ኢፍትሃዊ ነው።",
+    "tr": "medilewo ifitihawi newu.",
+    "level": "B2",
+    "uses": ["lex_medilewo", "lex_adj_ifitihawi"],
+    "t": {
+      "de": "Diskriminierung ist ungerecht.",
+      "en": "Discrimination is unjust.",
+      "sv": "Diskriminering är orättvis.",
+      "nl": "Discriminatie is onrechtvaardig."
+    },
+    "chunks": ["medilewo", "ifitihawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_anasa_kutir",
+    "am": "አናሳ ትንሽ ቁጥር ነው።",
+    "tr": "anasa tinish k'utir newu.",
+    "level": "B2",
+    "uses": ["lex_anasa"],
+    "t": {
+      "de": "Eine Minderheit ist eine kleine Zahl.",
+      "en": "A minority is a small number.",
+      "sv": "En minoritet är ett litet antal.",
+      "nl": "Een minderheid is een klein aantal."
+    },
+    "chunks": ["anasa", "tinish", "k'utir", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_sidetegna_addis_hager",
+    "am": "ስደተኛ አዲስ ሀገር ፈለገ።",
+    "tr": "sidetegna addis hager felege.",
+    "level": "B2",
+    "uses": ["lex_sidetegna"],
+    "t": {
+      "de": "Der Flüchtling suchte ein neues Land.",
+      "en": "The refugee sought a new country.",
+      "sv": "Flyktingen sökte ett nytt land.",
+      "nl": "De vluchteling zocht een nieuw land."
+    },
+    "chunks": ["sidetegna", "addis", "hager", "felege"],
+    "verified": false
+  },
+  {
+    "id": "sen_fitihawi_ifitihawi",
+    "am": "ይህ ፍትሃዊ ነው፤ ያ ግን ኢፍትሃዊ ነው።",
+    "tr": "yih fitihawi newu; ya gin ifitihawi newu.",
+    "level": "B2",
+    "uses": ["lex_adj_fitihawi", "lex_adj_ifitihawi"],
+    "t": {
+      "de": "Das ist gerecht, aber jenes ist ungerecht.",
+      "en": "This is just, but that is unjust.",
+      "sv": "Detta är rättvist, men det där är orättvist.",
+      "nl": "Dit is rechtvaardig, maar dat is onrechtvaardig."
+    },
+    "chunks": ["yih", "fitihawi", "newu", "ya", "gin", "ifitihawi", "newu"],
+    "verified": false
+  }
+]

@@ -6,7 +6,7 @@ import 'package:habesha_speak/models/fidel_char.dart';
 import 'package:habesha_speak/widgets/exercises/hahu_drill.dart';
 
 void main() {
-  testWidgets('HaHuDrill cycles through both rounds without any sound and then completes', (tester) async {
+  testWidgets('HaHuDrill advances one tap at a time through both rounds and then completes', (tester) async {
     const chars = [
       FidelChar(char: 'ለ', base: 'l', group: 'la', order: 1, tr: 'le', ipa: 'lə'),
       FidelChar(char: 'ሉ', base: 'l', group: 'la', order: 2, tr: 'lu', ipa: 'lu'),
@@ -22,8 +22,6 @@ void main() {
       home: Scaffold(
         body: HaHuDrill(
           chars: chars,
-          tickDuration: const Duration(milliseconds: 50),
-          reduceMotion: true,
           onComplete: () => completed = true,
         ),
       ),
@@ -32,10 +30,11 @@ void main() {
     expect(find.text('ለ'), findsOneWidget);
     expect(completed, isFalse);
 
-    // 3 signs x 2 rounds x 50ms, plus a margin - enough real time for the
-    // internal Timer.periodic to fire every beat and finish both rounds.
+    // 3 signs x 2 rounds - one tap per sign, plus a margin, to finish both
+    // rounds. Each tap pulses for 150ms before resetting, so let that settle.
     for (var i = 0; i < 7; i++) {
-      await tester.pump(const Duration(milliseconds: 60));
+      await tester.tap(find.byIcon(Icons.touch_app));
+      await tester.pump(const Duration(milliseconds: 200));
     }
 
     expect(completed, isTrue);

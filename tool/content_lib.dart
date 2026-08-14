@@ -203,12 +203,15 @@ void ensureSection({
   required String id,
   required String level,
   required Tr title,
+  String? region,
 }) {
   final file = File('$_contentDir/curriculum.json');
   final curriculum = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
   final sections = List<Map<String, dynamic>>.from((curriculum['sections'] as List).map((s) => Map<String, dynamic>.from(s as Map)));
   if (sections.any((s) => s['id'] == id)) return;
-  sections.add({'id': id, 'level': level, 'title': title.toMap(), 'units': <String>[]});
+  final entry = {'id': id, 'level': level, 'title': title.toMap(), 'units': <String>[]};
+  if (region != null) entry['region'] = region;
+  sections.add(entry);
   curriculum['sections'] = sections;
   file.writeAsStringSync(encoder.convert(curriculum));
   stdout.writeln('Abschnitt "$id" angelegt.');

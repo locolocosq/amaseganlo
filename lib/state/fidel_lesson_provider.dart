@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import '../content/content_repository.dart';
 import '../content/exercise_generator.dart';
 import '../core/answer_checker.dart';
+import '../core/audio_service.dart';
 import '../models/exercise.dart';
 import '../models/fidel_char.dart';
 import '../models/fidel_lesson.dart';
@@ -80,11 +81,12 @@ class FidelLessonSession {
 class FidelLessonProvider extends ChangeNotifier {
   final ContentRepository content;
   final ProgressProvider progress;
+  final AudioService audioService;
   late final FidelExerciseGenerator _generator;
 
   FidelLessonSession? _session;
 
-  FidelLessonProvider({required this.content, required this.progress}) {
+  FidelLessonProvider({required this.content, required this.progress, required this.audioService}) {
     _generator = FidelExerciseGenerator(content);
   }
 
@@ -291,6 +293,41 @@ class FidelLessonProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Etappe 24: "Hörtraining" - a fast, audio-only drill. [group] restricts
+  /// it to one row (launched from the table); omitted, it covers every
+  /// sign the learner has already met at least once, so it works as quick
+  /// review across the whole path, not just brand-new content. Like
+  /// [startRowPractice] this is ad-hoc practice, not curriculum progress -
+  /// no lesson completion/XP is recorded for it.
+  void startAudioDrill({String? group, required bool useHearts}) {
+    final pool = group != null
+        ? content.fidelCharsForGroup(group)
+        : content.allFidelChars.where((c) => _learnedChars.contains(c.char)).toList();
+    // Never a dead end: opening this before anything is learned yet still
+    // starts a session, using the very first row as a starting point.
+    final chars = pool.isNotEmpty ? pool : content.fidelCharsForGroup(content.fidelGroupsInOrder.first);
+
+    final exercises = _sequence([for (final c in chars) _generator.generateListenToChar(c)]);
+    final id = group != null ? 'audio_drill_$group' : 'audio_drill';
+
+    _session = FidelLessonSession(
+      stageId: 'practice',
+      lessonId: id,
+      lesson: FidelLesson(
+        id: id,
+        stageId: 'practice',
+        kind: FidelLessonKind.rowLesson,
+        groupIds: group != null ? [group] : const [],
+      ),
+      homophoneNotes: const [],
+      hahuDrillGroup: null,
+      exercises: exercises,
+      startedAt: DateTime.now(),
+      startingHearts: useHearts ? 5 : 999999,
+    );
+    notifyListeners();
+  }
+
   void advancePastNote() {
     final s = _session;
     if (s == null || !s.isShowingNote) return;
@@ -380,6 +417,44 @@ class FidelLessonProvider extends ChangeNotifier {
       }
     }
     // fidel_syllable: intentionally not recorded - synthetic combos, not real content.
+  }
+
+  /// Plays the current exercise's sign/word/sentence out loud (Etappe 24) -
+  /// used by the speaker button shown throughout the Fidel path, the same
+  /// way [LessonProvider.playCurrentAudio] works for path A. A single
+  /// Ge'ez character already *is* a complete, well-formed syllable, so it
+  /// goes through the exact same `speakText` call as a word: bundled
+  /// recording first (see `tool/generate_audio_colab.py`), on-device TTS
+  /// if that's missing, silence only if neither is available.
+  Future<void> playCurrentAudio() async {
+    final exercise = _session?.currentExercise;
+    if (exercise == null) return;
+    final id = exercise.subjectId;
+
+    if (id.startsWith('fidel:')) {
+      final char = id.substring('fidel:'.length);
+      final fidelChar = content.fidelChar(char);
+      if (fidelChar == null) return;
+      await audioService.speakText(id: fidelChar.audioId, amharicText: char);
+    } else if (id.startsWith('fidel_extra:')) {
+      final char = id.substring('fidel_extra:'.length);
+      final extra = content.fidelExtra(char);
+      if (extra == null) return;
+      await audioService.speakText(id: extra.id, amharicText: char);
+    } else if (id.startsWith('fidel_word:')) {
+      final lexeme = content.lexeme(id.substring('fidel_word:'.length));
+      if (lexeme == null) return;
+      await audioService.speakText(id: lexeme.id, amharicText: lexeme.am);
+    } else if (id.startsWith('fidel_sentence:')) {
+      final sentence = content.sentence(id.substring('fidel_sentence:'.length));
+      if (sentence == null) return;
+      await audioService.speakText(id: sentence.id, amharicText: sentence.am);
+    }
+    // fidel_syllable: no audio option at all (Etappe 24 Nachtrag 5) - these
+    // are runtime-made-up combinations of 2-3 signs with no real recording,
+    // and reading them out sign-by-sign didn't work well in practice, so
+    // the speaker button is hidden entirely for them (see
+    // fidel_lesson_screen.dart) rather than calling this.
   }
 
   void nextExercise() {

@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 
 import 'app.dart';
 import 'core/audio_service.dart';
+import 'core/notification_service.dart';
 import 'core/purchase_service.dart';
 import 'core/router.dart';
 import 'core/storage_service.dart';
@@ -77,6 +78,9 @@ Future<void> _runApp() async {
   // resolves.
   purchaseService.init();
 
+  final notificationService = NotificationService();
+  await notificationService.init();
+
   final settingsProvider = SettingsProvider(storage);
   void syncAudioSettings() {
     audioService.soundEnabled = settingsProvider.settings.soundEnabled;
@@ -86,6 +90,19 @@ Future<void> _runApp() async {
 
   syncAudioSettings();
   settingsProvider.addListener(syncAudioSettings);
+
+  // Re-schedules/cancels the daily reminder on every settings change (not
+  // just when the toggle itself flips) so a reminder-time edit or a locale
+  // switch (the notification text is per-language, see
+  // notification_service.dart) takes effect immediately - fire-and-forget,
+  // same reasoning as contentProvider.load()/purchaseService.init(): a
+  // slow platform-channel round trip here must never block first paint.
+  void syncReminderSettings() {
+    notificationService.syncWithSettings(settingsProvider.settings);
+  }
+
+  syncReminderSettings();
+  settingsProvider.addListener(syncReminderSettings);
 
   final router = buildRouter(
     onboardingCompleted: () => settingsProvider.settings.onboardingCompleted,
@@ -99,6 +116,7 @@ Future<void> _runApp() async {
         ChangeNotifierProvider.value(value: contentProvider),
         ChangeNotifierProvider.value(value: progressProvider),
         Provider<AudioService>.value(value: audioService),
+        Provider<NotificationService>.value(value: notificationService),
         ChangeNotifierProvider.value(value: purchaseService),
         ChangeNotifierProvider(
           create: (_) => LessonProvider(
@@ -111,6 +129,7 @@ Future<void> _runApp() async {
           create: (_) => FidelLessonProvider(
             content: contentProvider.repository,
             progress: progressProvider,
+            audioService: audioService,
           ),
         ),
       ],

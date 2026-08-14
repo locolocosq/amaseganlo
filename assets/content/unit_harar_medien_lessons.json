@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_medien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gazeta",
+      "lex_gazetegna",
+      "lex_zena",
+      "lex_v_meglets",
+      "lex_akera_hasab",
+      "lex_adj_iwnet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_medien_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gazeta",
+      "lex_gazetegna",
+      "lex_zena",
+      "lex_v_meglets",
+      "lex_akera_hasab",
+      "lex_adj_iwnet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_medien_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gazeta",
+      "lex_gazetegna",
+      "lex_zena",
+      "lex_v_meglets",
+      "lex_akera_hasab",
+      "lex_adj_iwnet"
+    ],
+    "sentenceIds": [
+      "sen_gazetegna_gazeta",
+      "sen_zena_iwnet",
+      "sen_gazetegna_meglets_zena",
+      "sen_akera_hasab_asfelagi",
+      "sen_gazeta_iwnet_zena"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_medien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gazeta",
+      "lex_gazetegna",
+      "lex_zena",
+      "lex_v_meglets",
+      "lex_akera_hasab",
+      "lex_adj_iwnet"
+    ],
+    "sentenceIds": [
+      "sen_gazetegna_gazeta",
+      "sen_zena_iwnet",
+      "sen_gazetegna_meglets_zena",
+      "sen_akera_hasab_asfelagi",
+      "sen_gazeta_iwnet_zena"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_medien_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gazeta",
+      "lex_gazetegna",
+      "lex_zena",
+      "lex_v_meglets",
+      "lex_akera_hasab",
+      "lex_adj_iwnet"
+    ],
+    "sentenceIds": [
+      "sen_gazetegna_gazeta",
+      "sen_zena_iwnet",
+      "sen_gazetegna_meglets_zena",
+      "sen_akera_hasab_asfelagi",
+      "sen_gazeta_iwnet_zena"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_medien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gazeta",
+      "lex_gazetegna",
+      "lex_zena",
+      "lex_v_meglets",
+      "lex_akera_hasab",
+      "lex_adj_iwnet"
+    ],
+    "sentenceIds": [
+      "sen_gazetegna_gazeta",
+      "sen_zena_iwnet",
+      "sen_gazetegna_meglets_zena",
+      "sen_akera_hasab_asfelagi",
+      "sen_gazeta_iwnet_zena"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

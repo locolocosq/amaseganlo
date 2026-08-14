@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_infrastruktur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek",
+      "lex_ginibata",
+      "lex_yeketema_plan",
+      "lex_meserete_limat",
+      "lex_v_megenibat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_infrastruktur_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek",
+      "lex_ginibata",
+      "lex_yeketema_plan",
+      "lex_meserete_limat",
+      "lex_v_megenibat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_infrastruktur_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek",
+      "lex_ginibata",
+      "lex_yeketema_plan",
+      "lex_meserete_limat",
+      "lex_v_megenibat"
+    ],
+    "sentenceIds": [
+      "sen_awra_godana_trafik",
+      "sen_ginibata_megenibat",
+      "sen_yeketema_plan_asfelagi",
+      "sen_meserete_limat_tiru",
+      "sen_mengist_megenibat_awra_godana"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_infrastruktur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek",
+      "lex_ginibata",
+      "lex_yeketema_plan",
+      "lex_meserete_limat",
+      "lex_v_megenibat"
+    ],
+    "sentenceIds": [
+      "sen_awra_godana_trafik",
+      "sen_ginibata_megenibat",
+      "sen_yeketema_plan_asfelagi",
+      "sen_meserete_limat_tiru",
+      "sen_mengist_megenibat_awra_godana"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_infrastruktur_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek",
+      "lex_ginibata",
+      "lex_yeketema_plan",
+      "lex_meserete_limat",
+      "lex_v_megenibat"
+    ],
+    "sentenceIds": [
+      "sen_awra_godana_trafik",
+      "sen_ginibata_megenibat",
+      "sen_yeketema_plan_asfelagi",
+      "sen_meserete_limat_tiru",
+      "sen_mengist_megenibat_awra_godana"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_infrastruktur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek",
+      "lex_ginibata",
+      "lex_yeketema_plan",
+      "lex_meserete_limat",
+      "lex_v_megenibat"
+    ],
+    "sentenceIds": [
+      "sen_awra_godana_trafik",
+      "sen_ginibata_megenibat",
+      "sen_yeketema_plan_asfelagi",
+      "sen_meserete_limat_tiru",
+      "sen_mengist_megenibat_awra_godana"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {"id":"lex_hka_sitil","am":"ስዕል","tr":"sitil","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"das Gemälde, die Zeichnung","en":"painting, drawing","sv":"målning, teckning","nl":"schilderij, tekening"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_v_mesal","am":"መሳል","tr":"mesal","pos":"verb","topic":"visual_arts","level":"B2","t":{"de":"malen, zeichnen","en":"to paint, to draw","sv":"måla, teckna","nl":"schilderen, tekenen"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_seali","am":"ሰዓሊ","tr":"se'ali","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"der Maler","en":"painter","sv":"målare","nl":"schilder"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_kanivas","am":"ካንቫስ","tr":"kanivas","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"die Leinwand","en":"canvas","sv":"duk","nl":"canvas"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_biriush2","am":"ብሩሽ","tr":"biriush","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"der Pinsel","en":"paintbrush","sv":"pensel","nl":"penseel"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_kelemat","am":"ቀለማት","tr":"kelemat","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"die Farben","en":"colors, paints","sv":"färger","nl":"kleuren"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_kirtsa_kirits","am":"ቅርፃ ቅርፅ","tr":"kirits'a kirits'","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"die Skulptur","en":"sculpture","sv":"skulptur","nl":"beeldhouwwerk"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_galeri","am":"ጋለሪ","tr":"galeri","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"die Galerie","en":"gallery","sv":"galleri","nl":"galerij"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_sinetibeb","am":"ስነ ጥበብ","tr":"sine t'ibeb","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"die Kunst","en":"art","sv":"konst","nl":"kunst"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_adj_zemenawi","am":"ዘመናዊ","tr":"zemenawi","pos":"adjective","topic":"visual_arts","level":"B2","t":{"de":"modern","en":"modern","sv":"modern","nl":"modern"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hka_metasebiya2","am":"መታሰቢያ","tr":"metasebiya","pos":"noun","topic":"visual_arts","level":"B2","t":{"de":"das Denkmal","en":"monument, memorial","sv":"monument","nl":"monument"},"hint":{},"alt":{},"emoji":"","verified":true}
+]

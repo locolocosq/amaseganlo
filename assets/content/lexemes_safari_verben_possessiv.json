@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_v_tihedaleh",
+    "am": "ትሄዳለህ",
+    "tr": "tihedaleh",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "du gehst (männlich)",
+      "en": "you go (masc.)",
+      "sv": "du går (maskulinum)",
+      "nl": "jij gaat (mannelijk)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_tihejalesh",
+    "am": "ትሄጃለሽ",
+    "tr": "tihejalesh",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "du gehst (weiblich)",
+      "en": "you go (fem.)",
+      "sv": "du går (femininum)",
+      "nl": "jij gaat (vrouwelijk)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_yihedal",
+    "am": "ይሄዳል",
+    "tr": "yihedal",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "er geht",
+      "en": "he goes",
+      "sv": "han går",
+      "nl": "hij gaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_tihedalech",
+    "am": "ትሄዳለች",
+    "tr": "tihedalech",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "sie geht",
+      "en": "she goes",
+      "sv": "hon går",
+      "nl": "zij gaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_hede",
+    "am": "ሄደ",
+    "tr": "hede",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "er ging",
+      "en": "he went",
+      "sv": "han gick",
+      "nl": "hij ging"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_hedech",
+    "am": "ሄደች",
+    "tr": "hedech",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "sie ging",
+      "en": "she went",
+      "sv": "hon gick",
+      "nl": "zij ging"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_poss_yeissu",
+    "am": "የእሱ",
+    "tr": "yeissu",
+    "pos": "particle",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "sein, seine (Possessivpronomen)",
+      "en": "his",
+      "sv": "hans",
+      "nl": "zijn"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_poss_yeiswa",
+    "am": "የእሷ",
+    "tr": "yeiswa",
+    "pos": "particle",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "ihr, ihre (Possessivpronomen)",
+      "en": "her",
+      "sv": "hennes",
+      "nl": "haar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

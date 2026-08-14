@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_mengist",
+    "am": "መንግስት",
+    "tr": "mengist",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "die Regierung, der Staat",
+      "en": "government, state",
+      "sv": "regeringen, staten",
+      "nl": "de regering, de staat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_president",
+    "am": "ፕሬዚዳንት",
+    "tr": "president",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "der Präsident",
+      "en": "president",
+      "sv": "president",
+      "nl": "president"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_teklay_minister",
+    "am": "ጠቅላይ ሚኒስትር",
+    "tr": "t'ek'ilay minister",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "der Premierminister",
+      "en": "prime minister",
+      "sv": "premiärminister",
+      "nl": "premier"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_parlama",
+    "am": "ፓርላማ",
+    "tr": "parlama",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "das Parlament",
+      "en": "parliament",
+      "sv": "parlamentet",
+      "nl": "het parlement"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mircha",
+    "am": "ምርጫ",
+    "tr": "mircha",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "die Wahl (Politik)",
+      "en": "election",
+      "sv": "val (politik)",
+      "nl": "verkiezing"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hige_mengist",
+    "am": "ህገ መንግስት",
+    "tr": "hige mengist",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "die Verfassung",
+      "en": "constitution",
+      "sv": "grundlagen",
+      "nl": "grondwet"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zega",
+    "am": "ዜጋ",
+    "tr": "zega",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "der Bürger, die Bürgerin",
+      "en": "citizen",
+      "sv": "medborgare",
+      "nl": "burger"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_siltan",
+    "am": "ስልጣን",
+    "tr": "siltan",
+    "pos": "noun",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "die Macht, die Amtsgewalt",
+      "en": "power, authority",
+      "sv": "makt, myndighet",
+      "nl": "macht, gezag"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_memiret",
+    "am": "መምረጥ",
+    "tr": "memiret'",
+    "pos": "verb",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "wählen, auswählen",
+      "en": "to elect, to choose",
+      "sv": "välja, rösta fram",
+      "nl": "kiezen, verkiezen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_dimokrasiyawi",
+    "am": "ዲሞክራሲያዊ",
+    "tr": "dimokrasiyawi",
+    "pos": "adjective",
+    "topic": "politics",
+    "level": "B2",
+    "t": {
+      "de": "demokratisch",
+      "en": "democratic",
+      "sv": "demokratisk",
+      "nl": "democratisch"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

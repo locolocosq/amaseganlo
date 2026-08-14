@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_president_mengist",
+    "am": "ፕሬዚዳንቱ የመንግስት መሪ ነው።",
+    "tr": "presidentu yemengist meri newu.",
+    "level": "B2",
+    "uses": ["lex_president", "lex_mengist"],
+    "t": {
+      "de": "Der Präsident ist der Führer der Regierung.",
+      "en": "The president is the leader of the government.",
+      "sv": "Presidenten är regeringens ledare.",
+      "nl": "De president is de leider van de regering."
+    },
+    "chunks": ["presidentu", "yemengist", "meri", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_zega_memiret_president",
+    "am": "ዜጎች ፕሬዚዳንቱን ይመርጣሉ።",
+    "tr": "zegoch presidentun yimeritalu.",
+    "level": "B2",
+    "uses": ["lex_zega", "lex_v_memiret", "lex_president"],
+    "t": {
+      "de": "Die Bürger wählen den Präsidenten.",
+      "en": "Citizens elect the president.",
+      "sv": "Medborgarna väljer presidenten.",
+      "nl": "Burgers verkiezen de president."
+    },
+    "chunks": ["zegoch", "presidentun", "yimeritalu"],
+    "verified": false
+  },
+  {
+    "id": "sen_mircha_dimokrasiyawi",
+    "am": "ምርጫ ዲሞክራሲያዊ ነው።",
+    "tr": "mircha dimokrasiyawi newu.",
+    "level": "B2",
+    "uses": ["lex_mircha", "lex_adj_dimokrasiyawi"],
+    "t": {
+      "de": "Eine Wahl ist demokratisch.",
+      "en": "An election is democratic.",
+      "sv": "Ett val är demokratiskt.",
+      "nl": "Een verkiezing is democratisch."
+    },
+    "chunks": ["mircha", "dimokrasiyawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_hige_mengist_parlama",
+    "am": "ህገ መንግስት ለፓርላማ አስፈላጊ ነው።",
+    "tr": "hige mengist leparlama asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_hige_mengist", "lex_parlama"],
+    "t": {
+      "de": "Die Verfassung ist wichtig für das Parlament.",
+      "en": "The constitution is important for parliament.",
+      "sv": "Grundlagen är viktig för parlamentet.",
+      "nl": "De grondwet is belangrijk voor het parlement."
+    },
+    "chunks": ["hige", "mengist", "leparlama", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_teklay_minister_siltan",
+    "am": "ጠቅላይ ሚኒስትሩ ትልቅ ስልጣን አለው።",
+    "tr": "t'ek'ilay ministeru tilik' siltan alew.",
+    "level": "B2",
+    "uses": ["lex_teklay_minister", "lex_siltan"],
+    "t": {
+      "de": "Der Premierminister hat große Macht.",
+      "en": "The prime minister has great power.",
+      "sv": "Premiärministern har stor makt.",
+      "nl": "De premier heeft grote macht."
+    },
+    "chunks": ["t'ek'ilay", "ministeru", "tilik'", "siltan", "alew"],
+    "verified": false
+  }
+]

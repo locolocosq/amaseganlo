@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_tewifit_kirs",
+    "am": "ትውፊት የቅርስ ክፍል ነው።",
+    "tr": "tewifit yekirs kifil newu.",
+    "level": "B2",
+    "uses": ["lex_tewifit", "lex_kirs"],
+    "t": {
+      "de": "Tradition ist ein Teil des Erbes.",
+      "en": "Tradition is a part of heritage.",
+      "sv": "Tradition är en del av kulturarvet.",
+      "nl": "Traditie is een deel van het erfgoed."
+    },
+    "chunks": ["tewifit", "yekirs", "kifil", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_maninet_asfelagi",
+    "am": "ማንነት ለሰው አስፈላጊ ነው።",
+    "tr": "maninet lesew asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_maninet"],
+    "t": {
+      "de": "Identität ist wichtig für den Menschen.",
+      "en": "Identity is important to a person.",
+      "sv": "Identitet är viktig för en människa.",
+      "nl": "Identiteit is belangrijk voor een mens."
+    },
+    "chunks": ["maninet", "lesew", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_kidime_ayat_maninet",
+    "am": "ቅድመ አያት የማንነት ክፍል ነው።",
+    "tr": "kidime ayat yemaninet kifil newu.",
+    "level": "B2",
+    "uses": ["lex_kidime_ayat", "lex_maninet"],
+    "t": {
+      "de": "Der Vorfahre ist ein Teil der Identität.",
+      "en": "The ancestor is a part of identity.",
+      "sv": "Förfadern är en del av identiteten.",
+      "nl": "De voorouder is een deel van de identiteit."
+    },
+    "chunks": ["kidime", "ayat", "yemaninet", "kifil", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_zemen_addis",
+    "am": "ይህ ዘመን አዲስ ነው።",
+    "tr": "yih zemen addis newu.",
+    "level": "B2",
+    "uses": ["lex_zemen"],
+    "t": {
+      "de": "Diese Epoche ist neu.",
+      "en": "This era is new.",
+      "sv": "Denna era är ny.",
+      "nl": "Dit tijdperk is nieuw."
+    },
+    "chunks": ["yih", "zemen", "addis", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_kirs_maninet",
+    "am": "ቅርስ ለማንነት አስፈላጊ ነው።",
+    "tr": "kirs lemaninet asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_kirs", "lex_maninet"],
+    "t": {
+      "de": "Erbe ist wichtig für die Identität.",
+      "en": "Heritage is important for identity.",
+      "sv": "Kulturarv är viktigt för identiteten.",
+      "nl": "Erfgoed is belangrijk voor de identiteit."
+    },
+    "chunks": ["kirs", "lemaninet", "asfelagi", "newu"],
+    "verified": false
+  }
+]

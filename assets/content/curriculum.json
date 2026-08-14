@@ -85,7 +85,74 @@
     "lexemes_verben_kommunikation.json",
     "lexemes_verben_kochen.json",
     "lexemes_substantive_3.json",
-    "lexemes_geometrie.json"
+    "lexemes_geometrie.json",
+    "lexemes_harar_islam_grundlagen.json",
+    "lexemes_harar_islam_praxis.json",
+    "lexemes_harar_islam_gemeinschaft.json",
+    "lexemes_harar_islam_alltag.json",
+    "lexemes_harar_christian_grundlagen.json",
+    "lexemes_harar_christian_feste.json",
+    "lexemes_harar_christian_glauben.json",
+    "lexemes_harar_politik.json",
+    "lexemes_harar_umwelt.json",
+    "lexemes_harar_technologie.json",
+    "lexemes_harar_wirtschaft2.json",
+    "lexemes_harar_medien.json",
+    "lexemes_harar_denken.json",
+    "lexemes_safari_frau_mann.json",
+    "lexemes_harar_diplomatie.json",
+    "lexemes_harar_gesellschaft.json",
+    "lexemes_harar_gesundheit2.json",
+    "lexemes_harar_bildung.json",
+    "lexemes_harar_diskurs2.json",
+    "lexemes_harar_geschichte.json",
+    "lexemes_harar_infrastruktur.json",
+    "lexemes_harar_wirtschaft3.json",
+    "lexemes_harar_umwelt2.json",
+    "lexemes_harar_technologie2.json",
+    "lexemes_safari_verben_possessiv.json",
+    "lexemes_harar_kaffee.json",
+    "lexemes_harar_handwerk.json",
+    "lexemes_harar_stadtmauer.json",
+    "lexemes_harar_tierwelt.json",
+    "lexemes_harar_musik_tanz.json",
+    "lexemes_harar_geographie.json",
+    "lexemes_harar_landwirtschaft2.json",
+    "lexemes_harar_sprache_literatur.json",
+    "lexemes_harar_medizin_traditionell.json",
+    "lexemes_harar_zeit_geschichte2.json",
+    "lexemes_harar_verwaltung.json",
+    "lexemes_harar_bau_technik.json",
+    "lexemes_harar_kommunikation2.json",
+    "lexemes_harar_emotionen_tief.json",
+    "lexemes_harar_ethik_moral.json",
+    "lexemes_harar_tourismus.json",
+    "lexemes_harar_umwelt3.json",
+    "lexemes_harar_verkehr2.json",
+    "lexemes_harar_bildung2.json",
+    "lexemes_harar_gesundheit3.json",
+    "lexemes_harar_recht2.json",
+    "lexemes_harar_beziehungen.json",
+    "lexemes_harar_essen_trinken2.json",
+    "lexemes_harar_koerper_pflege.json",
+    "lexemes_harar_arbeit_beruf2.json",
+    "lexemes_harar_zahlen_masse.json",
+    "lexemes_harar_wetter2.json",
+    "lexemes_harar_tiere2.json",
+    "lexemes_harar_haus_wohnen.json",
+    "lexemes_harar_sport2.json",
+    "lexemes_harar_wissenschaft2.json",
+    "lexemes_harar_natur_klima.json",
+    "lexemes_harar_architektur.json",
+    "lexemes_harar_handel_markt.json",
+    "lexemes_harar_schmuck_tracht.json",
+    "lexemes_harar_post_bank.json",
+    "lexemes_harar_adjektive_erweitert.json",
+    "lexemes_harar_verben_alltag2.json",
+    "lexemes_harar_freizeit_spiele.json",
+    "lexemes_harar_naturschutz.json",
+    "lexemes_harar_kunst_malerei.json",
+    "lexemes_harar_kindheit_erziehung.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -171,7 +238,78 @@
     "sentences_verben_kommunikation.json",
     "sentences_verben_kochen.json",
     "sentences_substantive_3.json",
-    "sentences_geometrie.json"
+    "sentences_geometrie.json",
+    "sentences_harar_islam_grundlagen.json",
+    "sentences_harar_islam_praxis.json",
+    "sentences_harar_islam_gemeinschaft.json",
+    "sentences_harar_islam_alltag.json",
+    "sentences_harar_christian_grundlagen.json",
+    "sentences_harar_christian_feste.json",
+    "sentences_harar_christian_glauben.json",
+    "sentences_harar_politik.json",
+    "sentences_harar_umwelt.json",
+    "sentences_harar_technologie.json",
+    "sentences_harar_wirtschaft2.json",
+    "sentences_harar_medien.json",
+    "sentences_harar_denken.json",
+    "sentences_safari_frau_mann.json",
+    "sentences_harar_diplomatie.json",
+    "sentences_harar_gesellschaft.json",
+    "sentences_harar_gesundheit2.json",
+    "sentences_harar_bildung.json",
+    "sentences_harar_diskurs2.json",
+    "sentences_harar_geschichte.json",
+    "sentences_harar_infrastruktur.json",
+    "sentences_harar_wirtschaft3.json",
+    "sentences_harar_umwelt2.json",
+    "sentences_harar_technologie2.json",
+    "sentences_safari_verben_possessiv.json",
+    "sentences_harar_kaffee.json",
+    "sentences_harar_handwerk.json",
+    "sentences_harar_stadtmauer.json",
+    "sentences_harar_tierwelt.json",
+    "sentences_harar_musik_tanz.json",
+    "sentences_harar_geographie.json",
+    "sentences_harar_landwirtschaft2.json",
+    "sentences_harar_sprache_literatur.json",
+    "sentences_harar_medizin_traditionell.json",
+    "sentences_harar_zeit_geschichte2.json",
+    "sentences_harar_verwaltung.json",
+    "sentences_harar_bau_technik.json",
+    "sentences_harar_kommunikation2.json",
+    "sentences_harar_emotionen_tief.json",
+    "sentences_harar_ethik_moral.json",
+    "sentences_harar_tourismus.json",
+    "sentences_harar_umwelt3.json",
+    "sentences_harar_verkehr2.json",
+    "sentences_harar_bildung2.json",
+    "sentences_harar_gesundheit3.json",
+    "sentences_harar_recht2.json",
+    "sentences_harar_beziehungen.json",
+    "sentences_harar_essen_trinken2.json",
+    "sentences_harar_koerper_pflege.json",
+    "sentences_harar_arbeit_beruf2.json",
+    "sentences_harar_zahlen_masse.json",
+    "sentences_harar_wetter2.json",
+    "sentences_harar_tiere2.json",
+    "sentences_harar_haus_wohnen.json",
+    "sentences_harar_sport2.json",
+    "sentences_harar_wissenschaft2.json",
+    "sentences_harar_natur_klima.json",
+    "sentences_harar_architektur.json",
+    "sentences_harar_handel_markt.json",
+    "sentences_harar_schmuck_tracht.json",
+    "sentences_harar_post_bank.json",
+    "sentences_harar_adjektive_erweitert.json",
+    "sentences_harar_verben_alltag2.json",
+    "sentences_harar_freizeit_spiele.json",
+    "sentences_harar_naturschutz.json",
+    "sentences_harar_kunst_malerei.json",
+    "sentences_harar_kindheit_erziehung.json",
+    "sentences_safari_frau_mann2.json",
+    "sentences_safari_verben_possessiv2.json",
+    "sentences_safari_frau_mann3.json",
+    "sentences_safari_verben_possessiv3.json"
   ],
   "sections": [
     {
@@ -311,6 +449,99 @@
         "unit_substantive_3",
         "unit_geometrie"
       ]
+    },
+    {
+      "id": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Station 5: Harar — die Stadt der Minarette",
+        "en": "Stop 5: Harar — the city of minarets",
+        "sv": "Stopp 5: Harar — minareternas stad",
+        "nl": "Stop 5: Harar — de stad van de minaretten"
+      },
+      "units": [
+        "unit_harar_islam_grundlagen",
+        "unit_harar_islam_praxis",
+        "unit_harar_islam_gemeinschaft",
+        "unit_harar_islam_alltag",
+        "unit_harar_christian_grundlagen",
+        "unit_harar_christian_feste",
+        "unit_harar_christian_glauben",
+        "unit_harar_politik",
+        "unit_harar_umwelt",
+        "unit_harar_technologie",
+        "unit_harar_wirtschaft2",
+        "unit_harar_medien",
+        "unit_harar_denken",
+        "unit_harar_diplomatie",
+        "unit_harar_gesellschaft",
+        "unit_harar_gesundheit2",
+        "unit_harar_bildung",
+        "unit_harar_diskurs2",
+        "unit_harar_geschichte",
+        "unit_harar_infrastruktur",
+        "unit_harar_wirtschaft3",
+        "unit_harar_umwelt2",
+        "unit_harar_technologie2",
+        "unit_harar_kaffee",
+        "unit_harar_handwerk",
+        "unit_harar_stadtmauer",
+        "unit_harar_tierwelt",
+        "unit_harar_musik_tanz",
+        "unit_harar_geographie",
+        "unit_harar_landwirtschaft2",
+        "unit_harar_sprache_literatur",
+        "unit_harar_medizin_traditionell",
+        "unit_harar_zeit_geschichte2",
+        "unit_harar_verwaltung",
+        "unit_harar_bau_technik",
+        "unit_harar_kommunikation2",
+        "unit_harar_emotionen_tief",
+        "unit_harar_ethik_moral",
+        "unit_harar_tourismus",
+        "unit_harar_umwelt3",
+        "unit_harar_verkehr2",
+        "unit_harar_bildung2",
+        "unit_harar_gesundheit3",
+        "unit_harar_recht2",
+        "unit_harar_beziehungen",
+        "unit_harar_essen_trinken2",
+        "unit_harar_koerper_pflege",
+        "unit_harar_arbeit_beruf2",
+        "unit_harar_zahlen_masse",
+        "unit_harar_wetter2",
+        "unit_harar_tiere2",
+        "unit_harar_haus_wohnen",
+        "unit_harar_sport2",
+        "unit_harar_wissenschaft2",
+        "unit_harar_natur_klima",
+        "unit_harar_architektur",
+        "unit_harar_handel_markt",
+        "unit_harar_schmuck_tracht",
+        "unit_harar_post_bank",
+        "unit_harar_adjektive_erweitert",
+        "unit_harar_verben_alltag2",
+        "unit_harar_freizeit_spiele",
+        "unit_harar_naturschutz",
+        "unit_harar_kunst_malerei",
+        "unit_harar_kindheit_erziehung"
+      ],
+      "region": "harar"
+    },
+    {
+      "id": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Station 6: Safari — sie und er",
+        "en": "Stop 6: Safari — she and he",
+        "sv": "Stopp 6: Safari — hon och han",
+        "nl": "Stop 6: Safari — zij en hij"
+      },
+      "units": [
+        "unit_safari_frau_mann",
+        "unit_safari_verben_possessiv"
+      ],
+      "region": "safari"
     }
   ],
   "units": [
@@ -1418,6 +1649,877 @@
       },
       "topic": "geometry",
       "lessonFile": "unit_geometrie_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_grundlagen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Grundbegriffe",
+        "en": "Islam: basic terms",
+        "sv": "Islam: grundbegrepp",
+        "nl": "Islam: basisbegrippen"
+      },
+      "topic": "islam_basics",
+      "lessonFile": "unit_harar_islam_grundlagen_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_praxis",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Gebet & Praxis",
+        "en": "Islam: prayer & practice",
+        "sv": "Islam: bön & praktik",
+        "nl": "Islam: gebed & praktijk"
+      },
+      "topic": "islam_practice",
+      "lessonFile": "unit_harar_islam_praxis_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_gemeinschaft",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Gemeinschaft",
+        "en": "Islam: community",
+        "sv": "Islam: gemenskap",
+        "nl": "Islam: gemeenschap"
+      },
+      "topic": "islam_community",
+      "lessonFile": "unit_harar_islam_gemeinschaft_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_alltag",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Alltag & Gruß",
+        "en": "Islam: daily life & greetings",
+        "sv": "Islam: vardag & hälsning",
+        "nl": "Islam: dagelijks leven & groet"
+      },
+      "topic": "islam_daily",
+      "lessonFile": "unit_harar_islam_alltag_lessons.json"
+    },
+    {
+      "id": "unit_harar_christian_grundlagen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Christentum: Grundbegriffe",
+        "en": "Christianity: basic terms",
+        "sv": "Kristendom: grundbegrepp",
+        "nl": "Christendom: basisbegrippen"
+      },
+      "topic": "christian_basics",
+      "lessonFile": "unit_harar_christian_grundlagen_lessons.json"
+    },
+    {
+      "id": "unit_harar_christian_feste",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Christentum: Feste & Riten",
+        "en": "Christianity: feasts & rites",
+        "sv": "Kristendom: högtider & riter",
+        "nl": "Christendom: feesten & riten"
+      },
+      "topic": "christian_feasts",
+      "lessonFile": "unit_harar_christian_feste_lessons.json"
+    },
+    {
+      "id": "unit_harar_christian_glauben",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Christentum: Glaube",
+        "en": "Christianity: faith",
+        "sv": "Kristendom: tro",
+        "nl": "Christendom: geloof"
+      },
+      "topic": "christian_faith",
+      "lessonFile": "unit_harar_christian_glauben_lessons.json"
+    },
+    {
+      "id": "unit_harar_politik",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Politik & Staat",
+        "en": "Politics & government",
+        "sv": "Politik & stat",
+        "nl": "Politiek & staat"
+      },
+      "topic": "politics",
+      "lessonFile": "unit_harar_politik_lessons.json"
+    },
+    {
+      "id": "unit_harar_umwelt",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Umwelt & Klima",
+        "en": "Environment & climate",
+        "sv": "Miljö & klimat",
+        "nl": "Milieu & klimaat"
+      },
+      "topic": "environment",
+      "lessonFile": "unit_harar_umwelt_lessons.json"
+    },
+    {
+      "id": "unit_harar_technologie",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Technologie & Digitales",
+        "en": "Technology & digital life",
+        "sv": "Teknik & det digitala",
+        "nl": "Technologie & digitaal leven"
+      },
+      "topic": "technology",
+      "lessonFile": "unit_harar_technologie_lessons.json"
+    },
+    {
+      "id": "unit_harar_wirtschaft2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wirtschaft & Handel",
+        "en": "Economy & trade",
+        "sv": "Ekonomi & handel",
+        "nl": "Economie & handel"
+      },
+      "topic": "economy_2",
+      "lessonFile": "unit_harar_wirtschaft2_lessons.json"
+    },
+    {
+      "id": "unit_harar_medien",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Medien & Öffentlichkeit",
+        "en": "Media & the public",
+        "sv": "Medier & allmänheten",
+        "nl": "Media & publiek"
+      },
+      "topic": "media",
+      "lessonFile": "unit_harar_medien_lessons.json"
+    },
+    {
+      "id": "unit_harar_denken",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Denken & Meinung",
+        "en": "Thought & opinion",
+        "sv": "Tanke & åsikt",
+        "nl": "Denken & mening"
+      },
+      "topic": "abstract_thought",
+      "lessonFile": "unit_harar_denken_lessons.json"
+    },
+    {
+      "id": "unit_safari_frau_mann",
+      "sectionId": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Sie und er: die Unterschiede",
+        "en": "She and he: the differences",
+        "sv": "Hon och han: skillnaderna",
+        "nl": "Zij en hij: de verschillen"
+      },
+      "topic": "gender_grammar",
+      "lessonFile": "unit_safari_frau_mann_lessons.json"
+    },
+    {
+      "id": "unit_harar_diplomatie",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Diplomatie",
+        "en": "Diplomacy",
+        "sv": "Diplomati",
+        "nl": "Diplomatie"
+      },
+      "topic": "diplomacy",
+      "lessonFile": "unit_harar_diplomatie_lessons.json"
+    },
+    {
+      "id": "unit_harar_gesellschaft",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Gesellschaft & Menschenrechte",
+        "en": "Society & human rights",
+        "sv": "Samhälle & mänskliga rättigheter",
+        "nl": "Maatschappij & mensenrechten"
+      },
+      "topic": "society_rights",
+      "lessonFile": "unit_harar_gesellschaft_lessons.json"
+    },
+    {
+      "id": "unit_harar_gesundheit2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Gesundheit (vertieft)",
+        "en": "Health (advanced)",
+        "sv": "Hälsa (fördjupat)",
+        "nl": "Gezondheid (verdiept)"
+      },
+      "topic": "health_advanced",
+      "lessonFile": "unit_harar_gesundheit2_lessons.json"
+    },
+    {
+      "id": "unit_harar_bildung",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Bildungssystem",
+        "en": "Education system",
+        "sv": "Utbildningssystem",
+        "nl": "Onderwijssysteem"
+      },
+      "topic": "education_system",
+      "lessonFile": "unit_harar_bildung_lessons.json"
+    },
+    {
+      "id": "unit_harar_diskurs2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Diskursverbindungen (2)",
+        "en": "Discourse connectors (2)",
+        "sv": "Diskursmarkörer (2)",
+        "nl": "Discoursemarkers (2)"
+      },
+      "topic": "discourse_connectors_2",
+      "lessonFile": "unit_harar_diskurs2_lessons.json"
+    },
+    {
+      "id": "unit_harar_geschichte",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Geschichte & Erbe",
+        "en": "History & heritage",
+        "sv": "Historia & arv",
+        "nl": "Geschiedenis & erfgoed"
+      },
+      "topic": "history_heritage",
+      "lessonFile": "unit_harar_geschichte_lessons.json"
+    },
+    {
+      "id": "unit_harar_infrastruktur",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Infrastruktur & Stadt",
+        "en": "Infrastructure & the city",
+        "sv": "Infrastruktur & staden",
+        "nl": "Infrastructuur & de stad"
+      },
+      "topic": "infrastructure",
+      "lessonFile": "unit_harar_infrastruktur_lessons.json"
+    },
+    {
+      "id": "unit_harar_wirtschaft3",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wirtschaft (vertieft)",
+        "en": "Economy (advanced)",
+        "sv": "Ekonomi (fördjupat)",
+        "nl": "Economie (verdiept)"
+      },
+      "topic": "economy_advanced",
+      "lessonFile": "unit_harar_wirtschaft3_lessons.json"
+    },
+    {
+      "id": "unit_harar_umwelt2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Umwelt (vertieft)",
+        "en": "Environment (advanced)",
+        "sv": "Miljö (fördjupat)",
+        "nl": "Milieu (verdiept)"
+      },
+      "topic": "environment_2",
+      "lessonFile": "unit_harar_umwelt2_lessons.json"
+    },
+    {
+      "id": "unit_harar_technologie2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Technologie (vertieft)",
+        "en": "Technology (advanced)",
+        "sv": "Teknik (fördjupat)",
+        "nl": "Technologie (verdiept)"
+      },
+      "topic": "technology_2",
+      "lessonFile": "unit_harar_technologie2_lessons.json"
+    },
+    {
+      "id": "unit_harar_kaffee",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kaffeezeremonie",
+        "en": "Coffee ceremony",
+        "sv": "Kaffeceremoni",
+        "nl": "Koffieceremonie"
+      },
+      "topic": "coffee",
+      "lessonFile": "unit_harar_kaffee_lessons.json"
+    },
+    {
+      "id": "unit_harar_handwerk",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Handwerk",
+        "en": "Crafts",
+        "sv": "Hantverk",
+        "nl": "Ambacht"
+      },
+      "topic": "crafts",
+      "lessonFile": "unit_harar_handwerk_lessons.json"
+    },
+    {
+      "id": "unit_harar_stadtmauer",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Die Altstadt und ihre Mauer",
+        "en": "The old town and its wall",
+        "sv": "Gamla stan och dess mur",
+        "nl": "De oude stad en haar muur"
+      },
+      "topic": "old_town",
+      "lessonFile": "unit_harar_stadtmauer_lessons.json"
+    },
+    {
+      "id": "unit_harar_tierwelt",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tierwelt: Hyänen und mehr",
+        "en": "Wildlife: hyenas and more",
+        "sv": "Djurliv: hyenor och mer",
+        "nl": "Dierenwereld: hyena's en meer"
+      },
+      "topic": "wildlife",
+      "lessonFile": "unit_harar_tierwelt_lessons.json"
+    },
+    {
+      "id": "unit_harar_musik_tanz",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Musik und Tanz",
+        "en": "Music and dance",
+        "sv": "Musik och dans",
+        "nl": "Muziek en dans"
+      },
+      "topic": "music_dance",
+      "lessonFile": "unit_harar_musik_tanz_lessons.json"
+    },
+    {
+      "id": "unit_harar_geographie",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Geographie der Region",
+        "en": "Geography of the region",
+        "sv": "Regionens geografi",
+        "nl": "Geografie van de regio"
+      },
+      "topic": "geography",
+      "lessonFile": "unit_harar_geographie_lessons.json"
+    },
+    {
+      "id": "unit_harar_landwirtschaft2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Landwirtschaft (vertieft)",
+        "en": "Agriculture (advanced)",
+        "sv": "Jordbruk (fördjupat)",
+        "nl": "Landbouw (verdiept)"
+      },
+      "topic": "agriculture_2",
+      "lessonFile": "unit_harar_landwirtschaft2_lessons.json"
+    },
+    {
+      "id": "unit_harar_sprache_literatur",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Sprache und Literatur",
+        "en": "Language and literature",
+        "sv": "Språk och litteratur",
+        "nl": "Taal en literatuur"
+      },
+      "topic": "language_literature",
+      "lessonFile": "unit_harar_sprache_literatur_lessons.json"
+    },
+    {
+      "id": "unit_harar_medizin_traditionell",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Traditionelle Medizin",
+        "en": "Traditional medicine",
+        "sv": "Traditionell medicin",
+        "nl": "Traditionele geneeskunde"
+      },
+      "topic": "traditional_medicine",
+      "lessonFile": "unit_harar_medizin_traditionell_lessons.json"
+    },
+    {
+      "id": "unit_harar_zeit_geschichte2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Zeit und Geschichte (vertieft)",
+        "en": "Time and history (advanced)",
+        "sv": "Tid och historia (fördjupat)",
+        "nl": "Tijd en geschiedenis (verdiept)"
+      },
+      "topic": "time_history",
+      "lessonFile": "unit_harar_zeit_geschichte2_lessons.json"
+    },
+    {
+      "id": "unit_harar_verwaltung",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Verwaltung",
+        "en": "Administration",
+        "sv": "Förvaltning",
+        "nl": "Bestuur"
+      },
+      "topic": "administration",
+      "lessonFile": "unit_harar_verwaltung_lessons.json"
+    },
+    {
+      "id": "unit_harar_bau_technik",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Bau und Technik",
+        "en": "Construction and engineering",
+        "sv": "Bygg och teknik",
+        "nl": "Bouw en techniek"
+      },
+      "topic": "construction_engineering",
+      "lessonFile": "unit_harar_bau_technik_lessons.json"
+    },
+    {
+      "id": "unit_harar_kommunikation2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kommunikation (vertieft)",
+        "en": "Communication (advanced)",
+        "sv": "Kommunikation (fördjupat)",
+        "nl": "Communicatie (verdiept)"
+      },
+      "topic": "communication_2",
+      "lessonFile": "unit_harar_kommunikation2_lessons.json"
+    },
+    {
+      "id": "unit_harar_emotionen_tief",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tiefe Emotionen",
+        "en": "Deep emotions",
+        "sv": "Djupa känslor",
+        "nl": "Diepe emoties"
+      },
+      "topic": "deep_emotions",
+      "lessonFile": "unit_harar_emotionen_tief_lessons.json"
+    },
+    {
+      "id": "unit_harar_ethik_moral",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Ethik und Moral",
+        "en": "Ethics and morals",
+        "sv": "Etik och moral",
+        "nl": "Ethiek en moraal"
+      },
+      "topic": "ethics_morals",
+      "lessonFile": "unit_harar_ethik_moral_lessons.json"
+    },
+    {
+      "id": "unit_harar_tourismus",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tourismus",
+        "en": "Tourism",
+        "sv": "Turism",
+        "nl": "Toerisme"
+      },
+      "topic": "tourism",
+      "lessonFile": "unit_harar_tourismus_lessons.json"
+    },
+    {
+      "id": "unit_harar_umwelt3",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Umwelt (weiter vertieft)",
+        "en": "Environment (further advanced)",
+        "sv": "Miljö (ytterligare fördjupat)",
+        "nl": "Milieu (verder verdiept)"
+      },
+      "topic": "environment_3",
+      "lessonFile": "unit_harar_umwelt3_lessons.json"
+    },
+    {
+      "id": "unit_harar_verkehr2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Verkehr (vertieft)",
+        "en": "Traffic (advanced)",
+        "sv": "Trafik (fördjupat)",
+        "nl": "Verkeer (verdiept)"
+      },
+      "topic": "traffic_2",
+      "lessonFile": "unit_harar_verkehr2_lessons.json"
+    },
+    {
+      "id": "unit_harar_bildung2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Bildung (vertieft)",
+        "en": "Education (advanced)",
+        "sv": "Utbildning (fördjupat)",
+        "nl": "Onderwijs (verdiept)"
+      },
+      "topic": "education_2",
+      "lessonFile": "unit_harar_bildung2_lessons.json"
+    },
+    {
+      "id": "unit_harar_gesundheit3",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Gesundheit (weiter vertieft)",
+        "en": "Health (further advanced)",
+        "sv": "Hälsa (ytterligare fördjupat)",
+        "nl": "Gezondheid (verder verdiept)"
+      },
+      "topic": "health_3",
+      "lessonFile": "unit_harar_gesundheit3_lessons.json"
+    },
+    {
+      "id": "unit_harar_recht2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Recht (vertieft)",
+        "en": "Law (advanced)",
+        "sv": "Juridik (fördjupat)",
+        "nl": "Recht (verdiept)"
+      },
+      "topic": "law_2",
+      "lessonFile": "unit_harar_recht2_lessons.json"
+    },
+    {
+      "id": "unit_harar_beziehungen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Beziehungen",
+        "en": "Relationships",
+        "sv": "Relationer",
+        "nl": "Relaties"
+      },
+      "topic": "relationships",
+      "lessonFile": "unit_harar_beziehungen_lessons.json"
+    },
+    {
+      "id": "unit_harar_essen_trinken2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Essen und Trinken (vertieft)",
+        "en": "Food and drink (advanced)",
+        "sv": "Mat och dryck (fördjupat)",
+        "nl": "Eten en drinken (verdiept)"
+      },
+      "topic": "food_drink_2",
+      "lessonFile": "unit_harar_essen_trinken2_lessons.json"
+    },
+    {
+      "id": "unit_harar_koerper_pflege",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Körperpflege",
+        "en": "Body care",
+        "sv": "Kroppsvård",
+        "nl": "Lichaamsverzorging"
+      },
+      "topic": "body_care",
+      "lessonFile": "unit_harar_koerper_pflege_lessons.json"
+    },
+    {
+      "id": "unit_harar_arbeit_beruf2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Arbeit und Beruf (vertieft)",
+        "en": "Work and career (advanced)",
+        "sv": "Arbete och karriär (fördjupat)",
+        "nl": "Werk en beroep (verdiept)"
+      },
+      "topic": "work_2",
+      "lessonFile": "unit_harar_arbeit_beruf2_lessons.json"
+    },
+    {
+      "id": "unit_harar_zahlen_masse",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Zahlen, Maße und Handel",
+        "en": "Numbers, measures and trade",
+        "sv": "Tal, mått och handel",
+        "nl": "Getallen, maten en handel"
+      },
+      "topic": "quantities_trade",
+      "lessonFile": "unit_harar_zahlen_masse_lessons.json"
+    },
+    {
+      "id": "unit_harar_wetter2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wetter (vertieft)",
+        "en": "Weather (advanced)",
+        "sv": "Väder (fördjupat)",
+        "nl": "Weer (verdiept)"
+      },
+      "topic": "weather_2",
+      "lessonFile": "unit_harar_wetter2_lessons.json"
+    },
+    {
+      "id": "unit_harar_tiere2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tiere (vertieft)",
+        "en": "Animals (advanced)",
+        "sv": "Djur (fördjupat)",
+        "nl": "Dieren (verdiept)"
+      },
+      "topic": "animals_2",
+      "lessonFile": "unit_harar_tiere2_lessons.json"
+    },
+    {
+      "id": "unit_harar_haus_wohnen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Haus und Wohnen",
+        "en": "House and housing",
+        "sv": "Hus och boende",
+        "nl": "Huis en wonen"
+      },
+      "topic": "housing",
+      "lessonFile": "unit_harar_haus_wohnen_lessons.json"
+    },
+    {
+      "id": "unit_harar_sport2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Sport (vertieft)",
+        "en": "Sports (advanced)",
+        "sv": "Sport (fördjupat)",
+        "nl": "Sport (verdiept)"
+      },
+      "topic": "sports_2",
+      "lessonFile": "unit_harar_sport2_lessons.json"
+    },
+    {
+      "id": "unit_harar_wissenschaft2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wissenschaft (vertieft)",
+        "en": "Science (advanced)",
+        "sv": "Vetenskap (fördjupat)",
+        "nl": "Wetenschap (verdiept)"
+      },
+      "topic": "science_2",
+      "lessonFile": "unit_harar_wissenschaft2_lessons.json"
+    },
+    {
+      "id": "unit_harar_natur_klima",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Natur und Klima",
+        "en": "Nature and climate",
+        "sv": "Natur och klimat",
+        "nl": "Natuur en klimaat"
+      },
+      "topic": "nature_climate",
+      "lessonFile": "unit_harar_natur_klima_lessons.json"
+    },
+    {
+      "id": "unit_harar_architektur",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Architektur der Altstadt",
+        "en": "Architecture of the old town",
+        "sv": "Gamla stadens arkitektur",
+        "nl": "Architectuur van de oude stad"
+      },
+      "topic": "architecture",
+      "lessonFile": "unit_harar_architektur_lessons.json"
+    },
+    {
+      "id": "unit_harar_handel_markt",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Handel und Markt",
+        "en": "Trade and market",
+        "sv": "Handel och marknad",
+        "nl": "Handel en markt"
+      },
+      "topic": "trade_market",
+      "lessonFile": "unit_harar_handel_markt_lessons.json"
+    },
+    {
+      "id": "unit_harar_schmuck_tracht",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Schmuck und Tracht",
+        "en": "Jewelry and traditional attire",
+        "sv": "Smycken och dräkt",
+        "nl": "Sieraden en klederdracht"
+      },
+      "topic": "jewelry_attire",
+      "lessonFile": "unit_harar_schmuck_tracht_lessons.json"
+    },
+    {
+      "id": "unit_harar_post_bank",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Post und Bank",
+        "en": "Post and bank",
+        "sv": "Post och bank",
+        "nl": "Post en bank"
+      },
+      "topic": "post_bank",
+      "lessonFile": "unit_harar_post_bank_lessons.json"
+    },
+    {
+      "id": "unit_harar_adjektive_erweitert",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Erweiterte Adjektive",
+        "en": "Extended adjectives",
+        "sv": "Utökade adjektiv",
+        "nl": "Uitgebreide bijvoeglijke naamwoorden"
+      },
+      "topic": "adjectives_2",
+      "lessonFile": "unit_harar_adjektive_erweitert_lessons.json"
+    },
+    {
+      "id": "unit_harar_verben_alltag2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Alltagsverben (vertieft)",
+        "en": "Daily verbs (advanced)",
+        "sv": "Vardagsverb (fördjupat)",
+        "nl": "Dagelijkse werkwoorden (verdiept)"
+      },
+      "topic": "daily_verbs_2",
+      "lessonFile": "unit_harar_verben_alltag2_lessons.json"
+    },
+    {
+      "id": "unit_harar_freizeit_spiele",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Freizeit und Spiele",
+        "en": "Leisure and games",
+        "sv": "Fritid och spel",
+        "nl": "Vrije tijd en spellen"
+      },
+      "topic": "leisure_games",
+      "lessonFile": "unit_harar_freizeit_spiele_lessons.json"
+    },
+    {
+      "id": "unit_harar_naturschutz",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Naturschutz",
+        "en": "Conservation",
+        "sv": "Naturskydd",
+        "nl": "Natuurbehoud"
+      },
+      "topic": "conservation",
+      "lessonFile": "unit_harar_naturschutz_lessons.json"
+    },
+    {
+      "id": "unit_harar_kunst_malerei",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kunst und Malerei",
+        "en": "Art and painting",
+        "sv": "Konst och måleri",
+        "nl": "Kunst en schilderkunst"
+      },
+      "topic": "visual_arts",
+      "lessonFile": "unit_harar_kunst_malerei_lessons.json"
+    },
+    {
+      "id": "unit_harar_kindheit_erziehung",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kindheit und Erziehung",
+        "en": "Childhood and upbringing",
+        "sv": "Barndom och uppfostran",
+        "nl": "Kindertijd en opvoeding"
+      },
+      "topic": "childhood",
+      "lessonFile": "unit_harar_kindheit_erziehung_lessons.json"
+    },
+    {
+      "id": "unit_safari_verben_possessiv",
+      "sectionId": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Sie und er: Verben & Besitz",
+        "en": "She and he: verbs & possession",
+        "sv": "Hon och han: verb & ägande",
+        "nl": "Zij en hij: werkwoorden & bezit"
+      },
+      "topic": "gender_grammar_2",
+      "lessonFile": "unit_safari_verben_possessiv_lessons.json"
     }
   ]
 }

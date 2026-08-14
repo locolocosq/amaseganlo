@@ -1,10 +1,16 @@
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:habesha_speak/content/content_repository.dart';
+import 'package:habesha_speak/core/audio_service.dart';
 import 'package:habesha_speak/core/storage_service.dart';
+import 'package:habesha_speak/models/lesson.dart';
 import 'package:habesha_speak/state/fidel_lesson_provider.dart';
 import 'package:habesha_speak/state/progress_provider.dart';
+
+import '../widgets/test_harness.dart' show FakeTtsClient, FakeAudioPlayerClient;
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +28,11 @@ void main() {
     repo = ContentRepository();
     await repo.load();
 
-    provider = FidelLessonProvider(content: repo, progress: progress);
+    provider = FidelLessonProvider(
+      content: repo,
+      progress: progress,
+      audioService: AudioService(tts: FakeTtsClient(), player: FakeAudioPlayerClient()),
+    );
   });
 
   group('FidelLessonProvider - charIntro lessons', () {
@@ -119,4 +129,123 @@ void main() {
       }
     });
   });
+
+  group('FidelLessonProvider - startAudioDrill (Etappe 24 audio drill)', () {
+    test('scoped to a group: builds fidelListenChoice exercises only for that row', () {
+      provider.startAudioDrill(group: 'la', useHearts: false);
+      final session = provider.session!;
+      expect(session.exercises, isNotEmpty);
+      expect(session.hahuDrillGroup, isNull, reason: 'the audio drill has no flashcard preamble, unlike row practice');
+      for (final e in session.exercises) {
+        expect(e.type, ExerciseType.fidelListenChoice);
+        expect(e.isAudioPrompt, isTrue);
+        final charId = e.subjectId.replaceFirst('fidel:', '');
+        final char = repo.allFidelChars.firstWhere((c) => c.char == charId);
+        expect(char.group, 'la');
+      }
+    });
+
+    test('without a group: covers only signs already learned', () {
+      provider.startLesson(stageId: 'stufe1', lessonId: 'f1_l2', useHearts: false);
+      provider.advancePastNote();
+      provider.submitChoiceOrBuildAnswer(provider.session!.currentExercise!.correctAnswer);
+      final learnedChar = provider.session!.currentExercise!.subjectId.replaceFirst('fidel:', '');
+      provider.endSession();
+
+      provider.startAudioDrill(useHearts: false);
+      final session = provider.session!;
+      expect(session.exercises, isNotEmpty);
+      for (final e in session.exercises) {
+        expect(e.subjectId, 'fidel:$learnedChar');
+      }
+    });
+
+    test('without a group and nothing learned yet: falls back to the first row instead of an empty session', () {
+      provider.startAudioDrill(useHearts: false);
+      final session = provider.session!;
+      expect(session.exercises, isNotEmpty);
+    });
+  });
+
+  group('FidelLessonProvider - playCurrentAudio (Etappe 24)', () {
+    // A regression test for the same class of bug as
+    // lesson_intro_autoplay_test.dart: generating 1292 audio recordings is
+    // worthless if nothing ever actually calls AudioService for them. This
+    // checks the provider-level wiring speaks the right text for each
+    // subjectId shape the Fidel exercise generator produces.
+    test('speaks the Fidel sign for a fidel: exercise', () async {
+      final tts = _SpyTtsClient();
+      final audio = AudioService(
+        tts: tts,
+        player: FakeAudioPlayerClient(),
+        bundle: _EmptyAssetBundle(),
+        voiceRetryDelay: Duration.zero,
+      );
+      await audio.init();
+      final spiedProvider = FidelLessonProvider(content: repo, progress: progress, audioService: audio);
+
+      spiedProvider.startLesson(stageId: 'stufe1', lessonId: 'f1_l2', useHearts: false);
+      final expectedChar = spiedProvider.session!.currentExercise!.subjectId.replaceFirst('fidel:', '');
+
+      await spiedProvider.playCurrentAudio();
+
+      expect(tts.spoke, isTrue);
+      expect(tts.lastSpoken, expectedChar);
+    });
+
+    test('speaks the row for an ad-hoc row-practice exercise', () async {
+      final tts = _SpyTtsClient();
+      final audio = AudioService(
+        tts: tts,
+        player: FakeAudioPlayerClient(),
+        bundle: _EmptyAssetBundle(),
+        voiceRetryDelay: Duration.zero,
+      );
+      await audio.init();
+      final spiedProvider = FidelLessonProvider(content: repo, progress: progress, audioService: audio);
+
+      spiedProvider.startRowPractice('la', useHearts: false);
+      spiedProvider.advancePastDrill();
+      final expectedChar = spiedProvider.session!.currentExercise!.subjectId.replaceFirst('fidel:', '');
+
+      await spiedProvider.playCurrentAudio();
+
+      expect(tts.spoke, isTrue);
+      expect(tts.lastSpoken, expectedChar);
+    });
+  });
+}
+
+/// Forces AudioService's manifest lookup to fail so [_SpyTtsClient] is
+/// guaranteed to be the one that ends up speaking - without this, a real
+/// bundled recording for the exercised char (most now have one, Etappe 24)
+/// would make the test pass or fail depending on which chars happen to
+/// have audio yet, rather than on the wiring actually being exercised.
+class _EmptyAssetBundle extends CachingAssetBundle {
+  @override
+  Future<ByteData> load(String key) {
+    throw FlutterError('no assets in this fake bundle');
+  }
+}
+
+class _SpyTtsClient implements TtsClient {
+  bool spoke = false;
+  String? lastSpoken;
+
+  @override
+  Future<bool> isLanguageAvailable(String language) async => true;
+  @override
+  Future<void> setLanguage(String language) async {}
+  @override
+  Future<void> setVolume(double volume) async {}
+  @override
+  Future<void> setSpeechRate(double rate) async {}
+  @override
+  Future<void> speak(String text) async {
+    spoke = true;
+    lastSpoken = text;
+  }
+
+  @override
+  Future<void> stop() async {}
 }

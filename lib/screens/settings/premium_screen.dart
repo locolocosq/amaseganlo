@@ -18,18 +18,11 @@ class _PremiumScreenState extends State<PremiumScreen> {
   StoreProduct? _lifetimeProduct;
   bool _loadingProducts = true;
   bool _busy = false;
-  final _codeController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) => _loadProducts());
-  }
-
-  @override
-  void dispose() {
-    _codeController.dispose();
-    super.dispose();
   }
 
   Future<void> _loadProducts() async {
@@ -69,14 +62,6 @@ class _PremiumScreenState extends State<PremiumScreen> {
     if (!mounted) return;
     setState(() => _busy = false);
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.premiumRestoreDone)));
-  }
-
-  void _redeem(AppLocalizations l10n) {
-    final ok = context.read<PurchaseService>().redeemPromoCode(_codeController.text);
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(ok ? l10n.premiumRedeemSuccess : l10n.premiumRedeemInvalid)),
-    );
-    if (ok) _codeController.clear();
   }
 
   @override
@@ -156,22 +141,6 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
             ],
-            const Divider(height: 32),
-            Text(l10n.premiumRedeemTitle, style: theme.textTheme.titleSmall),
-            const SizedBox(height: 8),
-            TextField(
-              controller: _codeController,
-              textCapitalization: TextCapitalization.characters,
-              decoration: InputDecoration(hintText: l10n.premiumRedeemHint, border: const OutlineInputBorder()),
-            ),
-            const SizedBox(height: 12),
-            SizedBox(
-              width: double.infinity,
-              child: OutlinedButton(
-                onPressed: () => _redeem(l10n),
-                child: Text(l10n.premiumRedeemButton),
-              ),
-            ),
           ],
         ],
       ),

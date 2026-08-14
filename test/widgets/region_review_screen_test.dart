@@ -26,7 +26,7 @@ void main() {
     await storage.init();
 
     final contentProvider = ContentProvider();
-    await contentProvider.load();
+    await tester.runAsync(() => contentProvider.load());
 
     final progressProvider = ProgressProvider(storage);
     final audioService = AudioService(

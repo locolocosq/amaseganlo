@@ -8,24 +8,8 @@ enum DailyGoal { relaxed, normal, ambitious }
 
 enum FidelLearningPath { traditional, fast }
 
-enum HahuTempo { slow, normal, fast }
-
-extension HahuTempoDuration on HahuTempo {
-  Duration get tickDuration {
-    switch (this) {
-      case HahuTempo.slow:
-        return const Duration(milliseconds: 1400);
-      case HahuTempo.normal:
-        return const Duration(milliseconds: 900);
-      case HahuTempo.fast:
-        return const Duration(milliseconds: 500);
-    }
-  }
-}
-
-/// How fast bundled word audio and text-to-speech play back - separate
-/// from [HahuTempo] (that's the Fidel tap-along drill's beat, not audio
-/// speed). Slower settings help while a word's pronunciation is still new.
+/// How fast bundled word audio and text-to-speech play back. Slower
+/// settings help while a word's pronunciation is still new.
 enum SpeechRate { slow, medium, normal }
 
 extension SpeechRateMultiplier on SpeechRate {
@@ -84,9 +68,13 @@ class AppSettings {
   final DailyGoal dailyGoal;
   final bool useHearts;
   final bool dailyReminderEnabled;
+  // Etappe 24: local time-of-day the daily reminder notification fires at
+  // - defaults to a reasonable early-evening slot, not tied to any locale
+  // (a plain 24h hour/minute pair, formatted for display wherever needed).
+  final int reminderHour;
+  final int reminderMinute;
   final bool allLessonsUnlocked;
   final FidelLearningPath fidelLearningPath;
-  final HahuTempo hahuTempo;
   final bool onboardingCompleted;
 
   const AppSettings({
@@ -102,9 +90,10 @@ class AppSettings {
     this.dailyGoal = DailyGoal.normal,
     this.useHearts = false,
     this.dailyReminderEnabled = false,
+    this.reminderHour = 19,
+    this.reminderMinute = 0,
     this.allLessonsUnlocked = false,
     this.fidelLearningPath = FidelLearningPath.traditional,
-    this.hahuTempo = HahuTempo.normal,
     this.onboardingCompleted = false,
   });
 
@@ -120,9 +109,10 @@ class AppSettings {
     DailyGoal? dailyGoal,
     bool? useHearts,
     bool? dailyReminderEnabled,
+    int? reminderHour,
+    int? reminderMinute,
     bool? allLessonsUnlocked,
     FidelLearningPath? fidelLearningPath,
-    HahuTempo? hahuTempo,
     bool? onboardingCompleted,
   }) {
     return AppSettings(
@@ -138,9 +128,10 @@ class AppSettings {
       dailyGoal: dailyGoal ?? this.dailyGoal,
       useHearts: useHearts ?? this.useHearts,
       dailyReminderEnabled: dailyReminderEnabled ?? this.dailyReminderEnabled,
+      reminderHour: reminderHour ?? this.reminderHour,
+      reminderMinute: reminderMinute ?? this.reminderMinute,
       allLessonsUnlocked: allLessonsUnlocked ?? this.allLessonsUnlocked,
       fidelLearningPath: fidelLearningPath ?? this.fidelLearningPath,
-      hahuTempo: hahuTempo ?? this.hahuTempo,
       onboardingCompleted: onboardingCompleted ?? this.onboardingCompleted,
     );
   }
@@ -159,9 +150,10 @@ class AppSettings {
       dailyGoal: _enumFromName(DailyGoal.values, json['dailyGoal'], DailyGoal.normal),
       useHearts: json['useHearts'] as bool? ?? false,
       dailyReminderEnabled: json['dailyReminderEnabled'] as bool? ?? false,
+      reminderHour: (json['reminderHour'] as num?)?.toInt() ?? 19,
+      reminderMinute: (json['reminderMinute'] as num?)?.toInt() ?? 0,
       allLessonsUnlocked: json['allLessonsUnlocked'] as bool? ?? false,
       fidelLearningPath: _enumFromName(FidelLearningPath.values, json['fidelLearningPath'], FidelLearningPath.traditional),
-      hahuTempo: _enumFromName(HahuTempo.values, json['hahuTempo'], HahuTempo.normal),
       onboardingCompleted: json['onboardingCompleted'] as bool? ?? false,
     );
   }
@@ -179,9 +171,10 @@ class AppSettings {
         'dailyGoal': dailyGoal.name,
         'useHearts': useHearts,
         'dailyReminderEnabled': dailyReminderEnabled,
+        'reminderHour': reminderHour,
+        'reminderMinute': reminderMinute,
         'allLessonsUnlocked': allLessonsUnlocked,
         'fidelLearningPath': fidelLearningPath.name,
-        'hahuTempo': hahuTempo.name,
         'onboardingCompleted': onboardingCompleted,
       };
 

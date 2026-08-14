@@ -154,6 +154,22 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsDailyReminder => 'Tägliche Erinnerung';
 
   @override
+  String get settingsDailyReminderSubtitle =>
+      'Ein kurzer Anstoß, dranzubleiben';
+
+  @override
+  String get settingsReminderPermissionDenied =>
+      'Benachrichtigungen sind für Habesha Speak in den Geräteeinstellungen blockiert';
+
+  @override
+  String get settingsReminderTime => 'Erinnerungszeit';
+
+  @override
+  String settingsReminderTimeSubtitle(String time) {
+    return 'Erinnert dich täglich um $time';
+  }
+
+  @override
   String get settingsPremiumSection => 'Premium';
 
   @override
@@ -221,20 +237,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get premiumPriceUnknown => 'Preis nicht verfügbar';
 
   @override
-  String get premiumRedeemTitle => 'Geschenk-Code einlösen';
+  String get devUnlockDialogTitle => 'Code eingeben';
 
   @override
-  String get premiumRedeemHint => 'z.B. AB23CD-EFGH2345';
+  String get devUnlockButton => 'Einlösen';
 
   @override
-  String get premiumRedeemButton => 'Einlösen';
+  String get devUnlockSuccess => 'Premium wurde freigeschaltet.';
 
   @override
-  String get premiumRedeemSuccess =>
-      'Eingelöst - danke für deine Unterstützung!';
-
-  @override
-  String get premiumRedeemInvalid => 'Dieser Code ist ungültig.';
+  String get devUnlockInvalid => 'Dieser Code ist ungültig.';
 
   @override
   String get premiumLockedDialogTitle =>
@@ -847,6 +859,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get fidelTableStudyRow => 'Diese Reihe üben';
 
   @override
+  String get fidelAudioDrillTitle => 'Hörtraining';
+
+  @override
+  String get fidelAudioDrillSubtitle =>
+      'Höre den Laut - tippe das richtige Zeichen';
+
+  @override
+  String get fidelAudioDrillRowButton => 'Hörtraining für diese Reihe';
+
+  @override
   String get fidelTableDetailLearned => 'Gelernt';
 
   @override
@@ -909,19 +931,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Du hast die vorherige Stufe noch nicht abgeschlossen. Trotzdem starten?';
 
   @override
-  String get settingsHahuTempo => 'Tempo des Ha-Hu-Takts';
-
-  @override
-  String get hahuTempoSlow => 'Langsam';
-
-  @override
-  String get hahuTempoNormal => 'Normal';
-
-  @override
-  String get hahuTempoFast => 'Schnell';
-
-  @override
-  String get hahuDrillTapHint => 'Tippe im Takt mit';
+  String get hahuDrillTapHint => 'Tippen für das nächste Zeichen';
 
   @override
   String get hahuDrillWithTransliteration => 'Durchgang 1 von 2: mit Umschrift';
@@ -966,4 +976,19 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get journeyRegionComingSoon => 'Bald verfügbar';
+
+  @override
+  String get journeyRegionLabelAddisAbeba => 'Addis';
+
+  @override
+  String get journeyRegionLabelSouth => 'Süden';
+
+  @override
+  String get journeyRegionLabelTigray => 'Tigray';
+
+  @override
+  String get journeyRegionLabelOromia => 'Oromia';
+
+  @override
+  String get journeyRegionLabelSafari => 'Safari';
 }

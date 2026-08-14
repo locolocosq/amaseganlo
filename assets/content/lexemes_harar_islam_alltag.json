@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_selam_alaykum",
+    "am": "ሰላም ዓለይኩም",
+    "tr": "selam alaykum",
+    "pos": "phrase",
+    "topic": "islam_daily",
+    "level": "B2",
+    "t": {
+      "de": "Friede sei mit dir (islamischer Gruß)",
+      "en": "peace be upon you (Islamic greeting)",
+      "sv": "fred vare med dig (islamisk hälsning)",
+      "nl": "vrede zij met u (islamitische groet)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wealaykum",
+    "am": "ወዓለይኩም ሰላም",
+    "tr": "wa alaykum selam",
+    "pos": "phrase",
+    "topic": "islam_daily",
+    "level": "B2",
+    "t": {
+      "de": "und mit dir sei Friede (Antwort)",
+      "en": "and upon you be peace (reply)",
+      "sv": "och över dig vare fred (svar)",
+      "nl": "en met u zij vrede (antwoord)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_khutba",
+    "am": "ኹጥባ",
+    "tr": "khutba",
+    "pos": "noun",
+    "topic": "islam_daily",
+    "level": "B2",
+    "t": {
+      "de": "die Freitagspredigt",
+      "en": "the Friday sermon",
+      "sv": "fredagspredikan",
+      "nl": "de vrijdagpreek"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_mesibek",
+    "am": "መስበክ",
+    "tr": "mesibek",
+    "pos": "verb",
+    "topic": "islam_daily",
+    "level": "B2",
+    "t": {
+      "de": "predigen",
+      "en": "to preach",
+      "sv": "predika",
+      "nl": "preken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_islamawi",
+    "am": "እስላማዊ",
+    "tr": "isilamawi",
+    "pos": "adjective",
+    "topic": "islam_daily",
+    "level": "B2",
+    "t": {
+      "de": "islamisch",
+      "en": "Islamic",
+      "sv": "islamisk",
+      "nl": "islamitisch"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_haymanotegna",
+    "am": "ሃይማኖተኛ",
+    "tr": "haymanotegna",
+    "pos": "adjective",
+    "topic": "islam_daily",
+    "level": "B2",
+    "t": {
+      "de": "religiös, fromm",
+      "en": "religious, devout",
+      "sv": "religiös, from",
+      "nl": "religieus, vroom"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

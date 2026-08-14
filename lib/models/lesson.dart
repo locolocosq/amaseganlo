@@ -35,6 +35,9 @@ enum ExerciseType {
   fidelOrderRecognition,
   fidelWordRead,
   fidelWordBuild,
+  // fidel audio drill (Etappe 24): hear the sign spoken, pick its shape -
+  // no transliteration text shown, unlike fidelSoundToChar.
+  fidelListenChoice,
 }
 
 ExerciseType exerciseTypeFromName(String name) =>

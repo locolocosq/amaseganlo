@@ -1,0 +1,116 @@
+[
+  {
+    "id": "unit_harar_technologie2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_sew_serash",
+      "lex_wihib",
+      "lex_yeyilef_kal",
+      "lex_dihire_gets"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_technologie2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_sew_serash",
+      "lex_wihib",
+      "lex_yeyilef_kal",
+      "lex_dihire_gets"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_sew_serash",
+      "lex_wihib",
+      "lex_yeyilef_kal",
+      "lex_dihire_gets"
+    ],
+    "sentenceIds": [
+      "sen_sew_serash_zemenawi",
+      "sen_wihib_asfelagi",
+      "sen_yeyilef_kal_asfelagi",
+      "sen_dihire_gets_zemenawi",
+      "sen_dihire_gets_wihib"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_sew_serash",
+      "lex_wihib",
+      "lex_yeyilef_kal",
+      "lex_dihire_gets"
+    ],
+    "sentenceIds": [
+      "sen_sew_serash_zemenawi",
+      "sen_wihib_asfelagi",
+      "sen_yeyilef_kal_asfelagi",
+      "sen_dihire_gets_zemenawi",
+      "sen_dihire_gets_wihib"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_sew_serash",
+      "lex_wihib",
+      "lex_yeyilef_kal",
+      "lex_dihire_gets"
+    ],
+    "sentenceIds": [
+      "sen_sew_serash_zemenawi",
+      "sen_wihib_asfelagi",
+      "sen_yeyilef_kal_asfelagi",
+      "sen_dihire_gets_zemenawi",
+      "sen_dihire_gets_wihib"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_sew_serash",
+      "lex_wihib",
+      "lex_yeyilef_kal",
+      "lex_dihire_gets"
+    ],
+    "sentenceIds": [
+      "sen_sew_serash_zemenawi",
+      "sen_wihib_asfelagi",
+      "sen_yeyilef_kal_asfelagi",
+      "sen_dihire_gets_zemenawi",
+      "sen_dihire_gets_wihib"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

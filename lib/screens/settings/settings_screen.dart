@@ -2,11 +2,14 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:file_selector/file_selector.dart';
+import 'package:flutter/foundation.dart' show TargetPlatform, defaultTargetPlatform, kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../../core/language_names.dart';
+import '../../core/notification_service.dart';
 import '../../core/purchase_service.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
@@ -30,6 +33,32 @@ class SettingsScreen extends StatelessWidget {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(l10n.settingsSaved), duration: const Duration(seconds: 1)),
       );
+    }
+
+    Future<void> handleReminderToggle(bool enabled) async {
+      if (!enabled) {
+        await settingsProvider.setDailyReminderEnabled(false);
+        return;
+      }
+      final notificationService = context.read<NotificationService>();
+      final granted = await notificationService.requestPermission();
+      if (!context.mounted) return;
+      if (!granted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(l10n.settingsReminderPermissionDenied)),
+        );
+        return;
+      }
+      await settingsProvider.setDailyReminderEnabled(true);
+    }
+
+    Future<void> pickReminderTime() async {
+      final picked = await showTimePicker(
+        context: context,
+        initialTime: TimeOfDay(hour: settings.reminderHour, minute: settings.reminderMinute),
+      );
+      if (picked == null) return;
+      await settingsProvider.setReminderTime(picked.hour, picked.minute);
     }
 
     return Scaffold(
@@ -150,18 +179,6 @@ class SettingsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 12),
-              Text(l10n.settingsHahuTempo, style: Theme.of(context).textTheme.labelLarge),
-              const SizedBox(height: 8),
-              SegmentedButton<HahuTempo>(
-                segments: [
-                  ButtonSegment(value: HahuTempo.slow, label: Text(l10n.hahuTempoSlow)),
-                  ButtonSegment(value: HahuTempo.normal, label: Text(l10n.hahuTempoNormal)),
-                  ButtonSegment(value: HahuTempo.fast, label: Text(l10n.hahuTempoFast)),
-                ],
-                selected: {settings.hahuTempo},
-                onSelectionChanged: (s) => settingsProvider.setHahuTempo(s.first),
-              ),
             ],
           ),
           _SettingsSection(
@@ -237,10 +254,22 @@ class SettingsScreen extends StatelessWidget {
               SwitchListTile(
                 contentPadding: EdgeInsets.zero,
                 title: Text(l10n.settingsDailyReminder),
-                subtitle: Text(l10n.commonComingSoon),
+                subtitle: Text(l10n.settingsDailyReminderSubtitle),
                 value: settings.dailyReminderEnabled,
-                onChanged: settingsProvider.setDailyReminderEnabled,
+                onChanged: handleReminderToggle,
               ),
+              if (settings.dailyReminderEnabled)
+                ListTile(
+                  contentPadding: EdgeInsets.zero,
+                  leading: const Icon(Icons.access_time),
+                  title: Text(l10n.settingsReminderTime),
+                  subtitle: Text(
+                    l10n.settingsReminderTimeSubtitle(
+                      TimeOfDay(hour: settings.reminderHour, minute: settings.reminderMinute).format(context),
+                    ),
+                  ),
+                  onTap: pickReminderTime,
+                ),
             ],
           ),
           _SettingsSection(
@@ -339,27 +368,49 @@ class SettingsScreen extends StatelessWidget {
     );
     if (secondConfirm != true || !context.mounted) return;
 
-    await context.read<SettingsProvider>().setOnboardingCompleted(false);
+    // Bug (found while reviewing this for Etappe 24): this only ever reset
+    // the onboarding flag, never the actual learning progress - despite
+    // the confirmation dialog above explicitly promising "deletes all your
+    // learning progress permanently". A user who went through this got
+    // sent back through onboarding with every word/XP/streak still intact.
+    final progressProvider = context.read<ProgressProvider>();
+    final settingsProvider = context.read<SettingsProvider>();
+    await progressProvider.resetAll();
+    await settingsProvider.setOnboardingCompleted(false);
     if (!context.mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.resetProgressDone)));
   }
 
-  /// Exports the current progress as a JSON file. Uses the same
-  /// [XFile.saveTo] call on every platform: on Web this triggers a browser
-  /// download (the [FileSaveLocation.path] is ignored there), on
-  /// Android/iOS it writes to the path the user picked - see
-  /// ENTSCHEIDUNGEN.md Etappe 10 for why this works without `dart:io`.
+  /// Exports the current progress as a JSON file.
+  ///
+  /// `file_selector`'s save-location dialog (`getSaveLocation`) only has a
+  /// real implementation on Web and desktop - neither `file_selector_android`
+  /// nor `file_selector_ios` implement it at all, so calling it there always
+  /// threw and surfaced as [AppLocalizations.backupProgressError] with no way
+  /// to actually save a backup (reported: "die App kann nicht ablegen diese
+  /// Datei"). On Android/iOS this uses the share sheet instead - not a "Save
+  /// As" dialog, but it reliably gets the exported file out of the app (to
+  /// Drive, a file manager, email, ...), which every one of those targets
+  /// supports natively. Web/desktop keep the original `getSaveLocation` +
+  /// `saveTo` flow - see ENTSCHEIDUNGEN.md Etappe 10 for why that works there
+  /// without `dart:io`.
   Future<void> _backupProgress(BuildContext context, AppLocalizations l10n) async {
     final progress = context.read<ProgressProvider>();
+    final bytes = Uint8List.fromList(utf8.encode(progress.exportJson()));
+    final file = XFile.fromData(bytes, name: 'habesha_speak_backup.json', mimeType: 'application/json');
+    final isMobile = !kIsWeb && (defaultTargetPlatform == TargetPlatform.android || defaultTargetPlatform == TargetPlatform.iOS);
     try {
-      final location = await getSaveLocation(
-        suggestedName: 'habesha_speak_backup.json',
-        acceptedTypeGroups: const [_backupTypeGroup],
-      );
-      if (location == null) return;
-      final bytes = Uint8List.fromList(utf8.encode(progress.exportJson()));
-      final file = XFile.fromData(bytes, name: 'habesha_speak_backup.json', mimeType: 'application/json');
-      await file.saveTo(location.path);
+      if (isMobile) {
+        final result = await SharePlus.instance.share(ShareParams(files: [file]));
+        if (result.status == ShareResultStatus.dismissed) return;
+      } else {
+        final location = await getSaveLocation(
+          suggestedName: 'habesha_speak_backup.json',
+          acceptedTypeGroups: const [_backupTypeGroup],
+        );
+        if (location == null) return;
+        await file.saveTo(location.path);
+      }
       if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.backupProgressDone)));
     } catch (_) {

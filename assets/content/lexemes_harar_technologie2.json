@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_sew_serash",
+    "am": "ሰው ሰራሽ አስተውሎት",
+    "tr": "sew serash astewilot",
+    "pos": "noun",
+    "topic": "technology_2",
+    "level": "B2",
+    "t": {
+      "de": "die künstliche Intelligenz",
+      "en": "artificial intelligence",
+      "sv": "artificiell intelligens",
+      "nl": "kunstmatige intelligentie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wihib",
+    "am": "ውሂብ",
+    "tr": "wihib",
+    "pos": "noun",
+    "topic": "technology_2",
+    "level": "B2",
+    "t": {
+      "de": "die Daten",
+      "en": "data",
+      "sv": "data",
+      "nl": "gegevens"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_yeyilef_kal",
+    "am": "የይለፍ ቃል",
+    "tr": "yeyilef k'al",
+    "pos": "noun",
+    "topic": "technology_2",
+    "level": "B2",
+    "t": {
+      "de": "das Passwort",
+      "en": "password",
+      "sv": "lösenord",
+      "nl": "wachtwoord"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_dihire_gets",
+    "am": "ድህረ ገጽ",
+    "tr": "dihire gets'",
+    "pos": "noun",
+    "topic": "technology_2",
+    "level": "B2",
+    "t": {
+      "de": "die Website",
+      "en": "website",
+      "sv": "webbplats",
+      "nl": "website"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

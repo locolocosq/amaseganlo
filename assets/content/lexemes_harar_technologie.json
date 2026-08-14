@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_metegiberiya",
+    "am": "መተግበሪያ",
+    "tr": "metegiberiya",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "die App, die Anwendung",
+      "en": "app, application",
+      "sv": "app, applikation",
+      "nl": "app, applicatie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_teknoloji",
+    "am": "ቴክኖሎጂ",
+    "tr": "teknoloji",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "die Technologie",
+      "en": "technology",
+      "sv": "teknik",
+      "nl": "technologie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tsehifet_media",
+    "am": "ማህበራዊ ሚዲያ",
+    "tr": "mahiberawi midiya",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "die sozialen Medien",
+      "en": "social media",
+      "sv": "sociala medier",
+      "nl": "sociale media"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mewered",
+    "am": "ማውረድ",
+    "tr": "mawered",
+    "pos": "verb",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "herunterladen",
+      "en": "to download",
+      "sv": "ladda ner",
+      "nl": "downloaden"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mekotater",
+    "am": "መቆጣጠር",
+    "tr": "mek'ot'at'er",
+    "pos": "verb",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "kontrollieren, steuern",
+      "en": "to control",
+      "sv": "kontrollera, styra",
+      "nl": "controleren, besturen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mereja",
+    "am": "መረብ",
+    "tr": "mereb",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "das Netzwerk, das Netz",
+      "en": "network",
+      "sv": "nätverk",
+      "nl": "netwerk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_zemenawi",
+    "am": "ዘመናዊ",
+    "tr": "zemenawi",
+    "pos": "adjective",
+    "topic": "technology",
+    "level": "B2",
+    "t": {
+      "de": "modern",
+      "en": "modern",
+      "sv": "modern",
+      "nl": "modern"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

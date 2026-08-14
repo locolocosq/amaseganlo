@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_denken_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hasab",
+      "lex_v_maseb",
+      "lex_v_mekerakeri",
+      "lex_v_meteret",
+      "lex_adj_asrachi",
+      "lex_mikinyat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_denken_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hasab",
+      "lex_v_maseb",
+      "lex_v_mekerakeri",
+      "lex_v_meteret",
+      "lex_adj_asrachi",
+      "lex_mikinyat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_denken_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hasab",
+      "lex_v_maseb",
+      "lex_v_mekerakeri",
+      "lex_v_meteret",
+      "lex_adj_asrachi",
+      "lex_mikinyat"
+    ],
+    "sentenceIds": [
+      "sen_hasab_asrachi",
+      "sen_maseb_tiru",
+      "sen_mikinyat_asfelagi",
+      "sen_mekerakeri_kebad",
+      "sen_meteret_asfelagi"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_denken_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hasab",
+      "lex_v_maseb",
+      "lex_v_mekerakeri",
+      "lex_v_meteret",
+      "lex_adj_asrachi",
+      "lex_mikinyat"
+    ],
+    "sentenceIds": [
+      "sen_hasab_asrachi",
+      "sen_maseb_tiru",
+      "sen_mikinyat_asfelagi",
+      "sen_mekerakeri_kebad",
+      "sen_meteret_asfelagi"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_denken_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hasab",
+      "lex_v_maseb",
+      "lex_v_mekerakeri",
+      "lex_v_meteret",
+      "lex_adj_asrachi",
+      "lex_mikinyat"
+    ],
+    "sentenceIds": [
+      "sen_hasab_asrachi",
+      "sen_maseb_tiru",
+      "sen_mikinyat_asfelagi",
+      "sen_mekerakeri_kebad",
+      "sen_meteret_asfelagi"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_denken_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hasab",
+      "lex_v_maseb",
+      "lex_v_mekerakeri",
+      "lex_v_meteret",
+      "lex_adj_asrachi",
+      "lex_mikinyat"
+    ],
+    "sentenceIds": [
+      "sen_hasab_asrachi",
+      "sen_maseb_tiru",
+      "sen_mikinyat_asfelagi",
+      "sen_mekerakeri_kebad",
+      "sen_meteret_asfelagi"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

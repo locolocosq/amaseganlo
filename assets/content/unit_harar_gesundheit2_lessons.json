@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_gesundheit2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_mirmera",
+      "lex_hikimina",
+      "lex_kedo_tigena",
+      "lex_milikit",
+      "lex_adj_siryesedede",
+      "lex_v_makem"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_gesundheit2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_mirmera",
+      "lex_hikimina",
+      "lex_kedo_tigena",
+      "lex_milikit",
+      "lex_adj_siryesedede",
+      "lex_v_makem"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_gesundheit2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_mirmera",
+      "lex_hikimina",
+      "lex_kedo_tigena",
+      "lex_milikit",
+      "lex_adj_siryesedede",
+      "lex_v_makem"
+    ],
+    "sentenceIds": [
+      "sen_mirmera_asfelagi",
+      "sen_hikimina_tiru",
+      "sen_kedo_tigena_kebad",
+      "sen_milikit_makem",
+      "sen_siryesedede_himem"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_gesundheit2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_mirmera",
+      "lex_hikimina",
+      "lex_kedo_tigena",
+      "lex_milikit",
+      "lex_adj_siryesedede",
+      "lex_v_makem"
+    ],
+    "sentenceIds": [
+      "sen_mirmera_asfelagi",
+      "sen_hikimina_tiru",
+      "sen_kedo_tigena_kebad",
+      "sen_milikit_makem",
+      "sen_siryesedede_himem"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_gesundheit2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_mirmera",
+      "lex_hikimina",
+      "lex_kedo_tigena",
+      "lex_milikit",
+      "lex_adj_siryesedede",
+      "lex_v_makem"
+    ],
+    "sentenceIds": [
+      "sen_mirmera_asfelagi",
+      "sen_hikimina_tiru",
+      "sen_kedo_tigena_kebad",
+      "sen_milikit_makem",
+      "sen_siryesedede_himem"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_gesundheit2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_mirmera",
+      "lex_hikimina",
+      "lex_kedo_tigena",
+      "lex_milikit",
+      "lex_adj_siryesedede",
+      "lex_v_makem"
+    ],
+    "sentenceIds": [
+      "sen_mirmera_asfelagi",
+      "sen_hikimina_tiru",
+      "sen_kedo_tigena_kebad",
+      "sen_milikit_makem",
+      "sen_siryesedede_himem"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

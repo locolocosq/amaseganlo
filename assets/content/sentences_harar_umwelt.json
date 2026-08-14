@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_akababi_mekelakel",
+    "am": "አካባቢውን መከላከል አስፈላጊ ነው።",
+    "tr": "akababiwin mekelakel asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_akababi", "lex_v_mekelakel"],
+    "t": {
+      "de": "Die Umwelt zu schützen ist wichtig.",
+      "en": "Protecting the environment is important.",
+      "sv": "Att skydda miljön är viktigt.",
+      "nl": "Het milieu beschermen is belangrijk."
+    },
+    "chunks": ["akababiwin", "mekelakel", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_ayer_nibret_lewit_chigir",
+    "am": "የአየር ንብረት ለውጥ ከባድ ችግር ነው።",
+    "tr": "ye ayer nibret lewit' kebad chigir newu.",
+    "level": "B2",
+    "uses": ["lex_ayer_nibret_lewit"],
+    "t": {
+      "de": "Der Klimawandel ist ein großes Problem.",
+      "en": "Climate change is a serious problem.",
+      "sv": "Klimatförändringen är ett stort problem.",
+      "nl": "Klimaatverandering is een groot probleem."
+    },
+    "chunks": ["ye", "ayer", "nibret", "lewit'", "kebad", "chigir", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_bikilet_metfo",
+    "am": "ብክለት መጥፎ ነው።",
+    "tr": "bikilet met'fo newu.",
+    "level": "B2",
+    "uses": ["lex_bikilet"],
+    "t": {
+      "de": "Verschmutzung ist schlecht.",
+      "en": "Pollution is bad.",
+      "sv": "Förorening är dåligt.",
+      "nl": "Vervuiling is slecht."
+    },
+    "chunks": ["bikilet", "met'fo", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_taddis_mekera_akababi",
+    "am": "ታዳሽ ኃይል ለአካባቢው ጥሩ ነው።",
+    "tr": "tadash hail leakababiw t'iru newu.",
+    "level": "B2",
+    "uses": ["lex_taddis_mekera", "lex_akababi"],
+    "t": {
+      "de": "Erneuerbare Energie ist gut für die Umwelt.",
+      "en": "Renewable energy is good for the environment.",
+      "sv": "Förnybar energi är bra för miljön.",
+      "nl": "Hernieuwbare energie is goed voor het milieu."
+    },
+    "chunks": ["tadash", "hail", "leakababiw", "t'iru", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_kelil_akababi",
+    "am": "ይህ ክልል ትልቅ አካባቢ አለው።",
+    "tr": "yih kelil tilik' akababi alew.",
+    "level": "B2",
+    "uses": ["lex_kelil", "lex_akababi"],
+    "t": {
+      "de": "Diese Region hat eine große Umgebung.",
+      "en": "This region has a large environment.",
+      "sv": "Denna region har en stor omgivning.",
+      "nl": "Deze regio heeft een grote omgeving."
+    },
+    "chunks": ["yih", "kelil", "tilik'", "akababi", "alew"],
+    "verified": false
+  }
+]

@@ -243,8 +243,15 @@ class _PassportStamp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
     final region = journeyRegionFromId(section.region);
     final color = earned ? _stampColor(region) : theme.colorScheme.outline;
+    // Just the place name under the stamp (Etappe 24 Nachtrag) - the full
+    // curriculum section title ("Station 1: Addis Abeba — die
+    // Hauptstadt-Ankunft") used to run here and didn't fit under a 56px
+    // stamp. Falls back to the section's own title only if `region` can't
+    // be resolved, which shouldn't happen for a well-formed section.
+    final placeName = region != null ? journeyRegionShortLabel(region, l10n) : (section.title[locale] ?? section.id);
 
     return Column(
       children: [
@@ -260,7 +267,7 @@ class _PassportStamp extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         Text(
-          section.title[locale] ?? section.id,
+          placeName,
           style: theme.textTheme.labelSmall?.copyWith(color: earned ? theme.colorScheme.onSurface : theme.colorScheme.outline),
           textAlign: TextAlign.center,
           maxLines: 2,
@@ -281,7 +288,9 @@ class _PassportStamp extends StatelessWidget {
       case JourneyRegion.sidama:
         return const Color(0xFF3F8FA6);
       case JourneyRegion.harar:
-        return const Color(0xFF9E9E9E);
+        return const Color(0xFFC9A227);
+      case JourneyRegion.safari:
+        return const Color(0xFFD9662D);
       case null:
         return successColor;
     }
@@ -299,6 +308,8 @@ class _PassportStamp extends StatelessWidget {
         return Icons.water;
       case JourneyRegion.harar:
         return Icons.mosque;
+      case JourneyRegion.safari:
+        return Icons.wb_twilight;
       case null:
         return Icons.flag_outlined;
     }

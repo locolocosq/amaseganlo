@@ -10,29 +10,16 @@ import 'painter_helpers.dart';
 /// content to show yet, only a "Bald verfügbar" hint.
 enum RegionVisualState { completed, current, upcoming, comingSoon }
 
-/// Strips the curriculum's full section title (e.g. "Station 1: Addis
-/// Abeba — die Hauptstadt-Ankunft") down to just the city/region name for
-/// the compact pennant label under the map node - the number is already
-/// its own badge on the node, and the "— ..." tagline never fully fit in
-/// two lines anyway (Etappe 20: "es wird nicht alles angezeigt"). Falls
-/// back to the untouched string if the expected "N: Name — Tagline"
-/// pattern isn't found, so unexpected content never disappears silently.
-String _shortRegionLabel(String fullTitle) {
-  var s = fullTitle;
-  final colonIndex = s.indexOf(': ');
-  if (colonIndex != -1) s = s.substring(colonIndex + 2);
-  final dashIndex = s.indexOf(' — ');
-  if (dashIndex != -1) s = s.substring(0, dashIndex);
-  return s;
-}
-
 /// One tappable region "medallion" on the Ebene-1 world map: a round,
-/// hand-drawn mini landmark icon on a wooden signpost platform, a title
-/// pennant below it, and a small badge showing where the learner stands
-/// (done/current/not-yet-reached). Regions are never actually locked for
-/// *viewing* - only individual stations inside them are, via the same
-/// rules as before (Abschnitt Design) - so this only changes look, not
-/// tap behaviour.
+/// hand-drawn mini landmark icon on a wooden signpost platform, and a small
+/// badge showing where the learner stands (done/current/not-yet-reached).
+/// The place name itself is announced via this widget's [Semantics] label,
+/// not shown as a visible caption (Etappe 24 Nachtrag - a text pennant
+/// under the medallion used to be here, removed on request for taking up
+/// too much room; the per-region artwork already tells stops apart).
+/// Regions are never actually locked for *viewing* - only individual
+/// stations inside them are, via the same rules as before (Abschnitt
+/// Design) - so this only changes look, not tap behaviour.
 class RegionNodeMarker extends StatelessWidget {
   final JourneyRegion region;
   final String title;
@@ -64,12 +51,10 @@ class RegionNodeMarker extends StatelessWidget {
     final comingSoon = state == RegionVisualState.comingSoon;
     final upcoming = state == RegionVisualState.upcoming || comingSoon;
     final ringColor = upcoming ? theme.colorScheme.outlineVariant : region.accent;
-    // Etappe 22 follow-up: shrunk from 88/128 - the markers read as too
-    // large relative to the map card, and the extra size didn't help
-    // legibility since the pennant label is the actual name carrier.
-    const double diameter = 64;
-
-    final shortLabel = _shortRegionLabel(title);
+    // Etappe 24: shrunk again from 64/80 (itself already down from 88/128)
+    // - still too large/dominant relative to the map card and the road
+    // running under it.
+    const double diameter = 52;
 
     return Semantics(
       button: true,
@@ -78,14 +63,12 @@ class RegionNodeMarker extends StatelessWidget {
         onTap: onTap,
         behavior: HitTestBehavior.opaque,
         child: SizedBox(
-          // Etappe 22 Nachtrag 5: narrowed from 96 - once the map's
-          // projection stopped stretching lon/lat independently to fit the
-          // canvas (see EthiopiaMap._transformFor), Ethiopia's real,
-          // correctly-proportioned shape left just barely too little room
-          // between Addis Ababa and the coastline for both Sidama and
-          // Harar's tap targets to clear each other - verified with a
-          // throwaway geometry script, not eyeballed.
-          width: 80,
+          // Etappe 24: narrowed again from 80 (itself already down from
+          // 96) alongside the diameter shrink above - re-verified with a
+          // throwaway geometry script that every region's tap box still
+          // clears every other's at the real map scale (see
+          // EthiopiaMap.geoPositions), not eyeballed.
+          width: 66,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -130,58 +113,35 @@ class RegionNodeMarker extends StatelessWidget {
                       left: -6,
                       child: _NumberFlag(number: stationNumber, color: upcoming ? theme.colorScheme.outline : region.accent),
                     ),
+                    // Etappe 24 Nachtrag 4: moved up to the top-right corner
+                    // (was bottom-right) so it no longer collides with the
+                    // crown pill now sitting directly against the medallion's
+                    // bottom edge, on request.
                     if (state == RegionVisualState.completed)
                       Positioned(
-                        bottom: -3,
-                        right: -3,
+                        top: -6,
+                        right: -6,
                         child: _Badge(icon: Icons.check, color: successColor),
                       ),
                     if (upcoming)
                       Positioned(
-                        bottom: -3,
-                        right: -3,
+                        top: -6,
+                        right: -6,
                         child: _Badge(icon: comingSoon ? Icons.hourglass_empty : Icons.lock, color: theme.colorScheme.outline),
                       ),
-                  ],
-                ),
-              ),
-              const SizedBox(height: 10),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-                decoration: BoxDecoration(
-                  color: theme.colorScheme.surface.withValues(alpha: 0.92),
-                  borderRadius: BorderRadius.circular(12),
-                  boxShadow: const [BoxShadow(color: Color(0x40000000), blurRadius: 6, offset: Offset(0, 3))],
-                ),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      shortLabel,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      textAlign: TextAlign.center,
-                      style: theme.textTheme.labelSmall?.copyWith(fontWeight: FontWeight.w600),
-                    ),
-                    if (comingSoon && comingSoonLabel != null)
-                      Text(
-                        comingSoonLabel!,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        textAlign: TextAlign.center,
-                        style: theme.textTheme.labelSmall?.copyWith(
-                          color: theme.colorScheme.outline,
-                          fontStyle: FontStyle.italic,
-                          fontSize: 10,
-                        ),
+                    // Etappe 24 Nachtrag 4: pulled up from below the
+                    // medallion (with a gap) to sit directly against its
+                    // bottom edge instead, on request.
+                    if (crownsPossible > 0)
+                      Positioned(
+                        bottom: -10,
+                        left: 0,
+                        right: 0,
+                        child: Center(child: _CrownSummary(earned: crownsEarned, possible: crownsPossible)),
                       ),
                   ],
                 ),
               ),
-              if (crownsPossible > 0) ...[
-                const SizedBox(height: 4),
-                _CrownSummary(earned: crownsEarned, possible: crownsPossible),
-              ],
             ],
           ),
         ),
@@ -241,8 +201,9 @@ class _CrownSummary extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       // Etappe 22 Nachtrag 5: tightened padding/icon/gap - the marker's
-      // outer width narrowed to 80 (see RegionNodeMarker) to make real
-      // room for Sidama/Harar's tap targets, and a section with a
+      // outer width narrowed (see RegionNodeMarker, further shrunk again
+      // in Etappe 24) to make real room for every region's tap target,
+      // and a section with a
       // two-digit crown count ("25/25") no longer fit this pill's old,
       // roomier padding within that width - a real overflow, not
       // hypothetical.
@@ -304,11 +265,16 @@ class _RegionIconPainter extends CustomPainter {
         Sketch.palm(canvas, Offset(area.width * 0.26, area.height * 0.78), 0.9);
         break;
       case JourneyRegion.harar:
-        // Deliberately plain/muted, not a themed scene - there's no real
-        // content for Harar yet (Etappe 22), so no landmark has been
-        // "decided" for it. A flat grey fill reads as "not designed yet"
-        // rather than a wrong guess at what should represent it.
-        Sketch.sky(canvas, area, const Color(0xFFD8D8D8), const Color(0xFFEDEDED));
+        // Harar, "city of minarets" (Etappe 24 Nachtrag 2: real content).
+        Sketch.sky(canvas, area, const Color(0xFFF6E7BE), const Color(0xFFFFF6E0));
+        Sketch.mosque(canvas, Offset(area.width * 0.5, area.height * 0.86), area.width / 100);
+        break;
+      case JourneyRegion.safari:
+        // The capstone stop - a savanna dusk, since its grammar practice
+        // spans everything learned across every earlier region.
+        Sketch.sky(canvas, area, const Color(0xFFF7B267), const Color(0xFFF4845F));
+        Sketch.hill(canvas, area, const Color(0xFF7A5A3A), 0.80, 0.04, leftLean: 0.25, rightLean: 0.75);
+        Sketch.acacia(canvas, Offset(area.width * 0.68, area.height * 0.86), 0.95);
         break;
     }
   }

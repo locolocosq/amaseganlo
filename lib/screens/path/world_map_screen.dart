@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../../core/journey_map_layout.dart';
 import '../../core/journey_progress.dart';
+import '../../core/journey_regions.dart';
 import '../../core/purchase_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/curriculum.dart';
@@ -81,9 +82,6 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
 
     final journey = JourneyProgress(content: contentProvider.repository, progress: progressProvider.progress, settings: settings, isPremium: isPremium);
     final currentRegionIndex = journey.currentRegionIndex;
-    final regionCount = WorldMapLayout.order.length;
-    final targetProgress = regionCount > 1 ? currentRegionIndex / (regionCount - 1) : 0.0;
-    _startBusTravel(targetProgress);
 
     final allDone = curriculum.sections.every(journey.isSectionDone);
     final currentSection = curriculum.sections[currentRegionIndex];
@@ -113,16 +111,32 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
               child: LayoutBuilder(
                 builder: (context, constraints) {
                   final size = constraints.biggest;
+                  final segments = WorldMapLayout.allRoads(size);
                   final fullRoad = Path();
-                  for (final segment in WorldMapLayout.allRoads(size)) {
+                  for (final segment in segments) {
                     fullRoad.addPath(segment, Offset.zero);
                   }
+
+                  // Segments have real, unequal lengths (regions sit at very
+                  // different geographic distances from each other), so a
+                  // naive currentRegionIndex/(count-1) fraction of the
+                  // *total* road length lands the bus further and further
+                  // from the actual current region the more regions are
+                  // behind it (reported: "versetzt sich immer weiter").
+                  // Summing only the segments already passed gives the real
+                  // cumulative distance to the current region instead.
+                  double pathLength(Path p) => p.computeMetrics().fold<double>(0, (sum, m) => sum + m.length);
+                  final totalLength = segments.fold<double>(0, (sum, s) => sum + pathLength(s));
+                  final reachedLength = segments.take(currentRegionIndex).fold<double>(0, (sum, s) => sum + pathLength(s));
+                  final targetProgress = totalLength > 0 ? reachedLength / totalLength : 0.0;
+                  _startBusTravel(targetProgress);
+
                   return Stack(
                     children: [
                       Positioned.fill(child: CustomPaint(painter: const WorldMapPainter())),
                       Positioned.fill(child: TravelingBus(path: fullRoad, progress: _busController, scale: 1.1)),
                       for (var i = 0; i < WorldMapLayout.order.length; i++)
-                        _buildRegionNode(context, size, i, journey, curriculum, locale, l10n),
+                        _buildRegionNode(context, size, i, journey, curriculum, l10n),
                     ],
                   );
                 },
@@ -140,7 +154,6 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     int index,
     JourneyProgress journey,
     Curriculum curriculum,
-    String locale,
     AppLocalizations l10n,
   ) {
     final region = WorldMapLayout.order[index];
@@ -155,11 +168,11 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     // change needed here.
     if (index >= curriculum.sections.length) {
       return Positioned(
-        left: position.dx - 40,
-        top: position.dy - 32,
+        left: position.dx - 33,
+        top: position.dy - 26,
         child: RegionNodeMarker(
           region: region,
-          title: l10n.journeyRegionHarar,
+          title: journeyRegionShortLabel(region, l10n),
           stationNumber: index + 1,
           state: RegionVisualState.comingSoon,
           crownsEarned: 0,
@@ -186,11 +199,11 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     final possible = section.unitIds.length * 5;
 
     return Positioned(
-      left: position.dx - 40,
-      top: position.dy - 32,
+      left: position.dx - 33,
+      top: position.dy - 26,
       child: RegionNodeMarker(
         region: region,
-        title: section.title[locale] ?? section.id,
+        title: journeyRegionShortLabel(region, l10n),
         stationNumber: index + 1,
         state: state,
         crownsEarned: earned,

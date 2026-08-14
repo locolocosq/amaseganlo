@@ -390,6 +390,30 @@ abstract class AppLocalizations {
   /// **'Daily reminder'**
   String get settingsDailyReminder;
 
+  /// No description provided for @settingsDailyReminderSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'A short nudge to keep practising'**
+  String get settingsDailyReminderSubtitle;
+
+  /// No description provided for @settingsReminderPermissionDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications are blocked for Habesha Speak in your device settings'**
+  String get settingsReminderPermissionDenied;
+
+  /// No description provided for @settingsReminderTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminder time'**
+  String get settingsReminderTime;
+
+  /// No description provided for @settingsReminderTimeSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reminds you every day at {time}'**
+  String settingsReminderTimeSubtitle(String time);
+
   /// No description provided for @settingsPremiumSection.
   ///
   /// In en, this message translates to:
@@ -510,35 +534,29 @@ abstract class AppLocalizations {
   /// **'Price unavailable'**
   String get premiumPriceUnknown;
 
-  /// No description provided for @premiumRedeemTitle.
+  /// No description provided for @devUnlockDialogTitle.
   ///
   /// In en, this message translates to:
-  /// **'Redeem a gift code'**
-  String get premiumRedeemTitle;
+  /// **'Enter code'**
+  String get devUnlockDialogTitle;
 
-  /// No description provided for @premiumRedeemHint.
-  ///
-  /// In en, this message translates to:
-  /// **'e.g. AB23CD-EFGH2345'**
-  String get premiumRedeemHint;
-
-  /// No description provided for @premiumRedeemButton.
+  /// No description provided for @devUnlockButton.
   ///
   /// In en, this message translates to:
   /// **'Redeem'**
-  String get premiumRedeemButton;
+  String get devUnlockButton;
 
-  /// No description provided for @premiumRedeemSuccess.
+  /// No description provided for @devUnlockSuccess.
   ///
   /// In en, this message translates to:
-  /// **'Redeemed - thank you for your support!'**
-  String get premiumRedeemSuccess;
+  /// **'Premium has been unlocked.'**
+  String get devUnlockSuccess;
 
-  /// No description provided for @premiumRedeemInvalid.
+  /// No description provided for @devUnlockInvalid.
   ///
   /// In en, this message translates to:
   /// **'This code isn\'t valid.'**
-  String get premiumRedeemInvalid;
+  String get devUnlockInvalid;
 
   /// No description provided for @premiumLockedDialogTitle.
   ///
@@ -1650,6 +1668,24 @@ abstract class AppLocalizations {
   /// **'Practice this row'**
   String get fidelTableStudyRow;
 
+  /// No description provided for @fidelAudioDrillTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening drill'**
+  String get fidelAudioDrillTitle;
+
+  /// No description provided for @fidelAudioDrillSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Hear the sound, tap the matching sign'**
+  String get fidelAudioDrillSubtitle;
+
+  /// No description provided for @fidelAudioDrillRowButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening drill for this row'**
+  String get fidelAudioDrillRowButton;
+
   /// No description provided for @fidelTableDetailLearned.
   ///
   /// In en, this message translates to:
@@ -1752,34 +1788,10 @@ abstract class AppLocalizations {
   /// **'You haven\'t finished the previous stage yet. Start anyway?'**
   String get fidelLockedDialogBody;
 
-  /// No description provided for @settingsHahuTempo.
-  ///
-  /// In en, this message translates to:
-  /// **'Ha-Hu rhythm speed'**
-  String get settingsHahuTempo;
-
-  /// No description provided for @hahuTempoSlow.
-  ///
-  /// In en, this message translates to:
-  /// **'Slow'**
-  String get hahuTempoSlow;
-
-  /// No description provided for @hahuTempoNormal.
-  ///
-  /// In en, this message translates to:
-  /// **'Normal'**
-  String get hahuTempoNormal;
-
-  /// No description provided for @hahuTempoFast.
-  ///
-  /// In en, this message translates to:
-  /// **'Fast'**
-  String get hahuTempoFast;
-
   /// No description provided for @hahuDrillTapHint.
   ///
   /// In en, this message translates to:
-  /// **'Tap along to the rhythm'**
+  /// **'Tap for the next sign'**
   String get hahuDrillTapHint;
 
   /// No description provided for @hahuDrillWithTransliteration.
@@ -1853,6 +1865,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Coming soon'**
   String get journeyRegionComingSoon;
+
+  /// No description provided for @journeyRegionLabelAddisAbeba.
+  ///
+  /// In en, this message translates to:
+  /// **'Addis'**
+  String get journeyRegionLabelAddisAbeba;
+
+  /// No description provided for @journeyRegionLabelSouth.
+  ///
+  /// In en, this message translates to:
+  /// **'South'**
+  String get journeyRegionLabelSouth;
+
+  /// No description provided for @journeyRegionLabelTigray.
+  ///
+  /// In en, this message translates to:
+  /// **'Tigray'**
+  String get journeyRegionLabelTigray;
+
+  /// No description provided for @journeyRegionLabelOromia.
+  ///
+  /// In en, this message translates to:
+  /// **'Oromia'**
+  String get journeyRegionLabelOromia;
+
+  /// No description provided for @journeyRegionLabelSafari.
+  ///
+  /// In en, this message translates to:
+  /// **'Safari'**
+  String get journeyRegionLabelSafari;
 }
 
 class _AppLocalizationsDelegate

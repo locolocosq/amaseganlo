@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_ikonomi",
+    "am": "ኢኮኖሚ",
+    "tr": "ikonomi",
+    "pos": "noun",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "die Wirtschaft",
+      "en": "economy",
+      "sv": "ekonomin",
+      "nl": "de economie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_nigid",
+    "am": "ንግድ",
+    "tr": "nigid",
+    "pos": "noun",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "der Handel, das Geschäft",
+      "en": "trade, business",
+      "sv": "handel, affär",
+      "nl": "handel, zaken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_meishach",
+    "am": "መሸጥ",
+    "tr": "meshet'",
+    "pos": "verb",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "verkaufen",
+      "en": "to sell",
+      "sv": "sälja",
+      "nl": "verkopen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_madeg",
+    "am": "ማደግ",
+    "tr": "madeg",
+    "pos": "verb",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "wachsen, sich entwickeln",
+      "en": "to grow, to develop",
+      "sv": "växa, utvecklas",
+      "nl": "groeien, zich ontwikkelen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kiray",
+    "am": "ኪራይ",
+    "tr": "kiray",
+    "pos": "noun",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "die Miete",
+      "en": "rent",
+      "sv": "hyra",
+      "nl": "huur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mewuadederiya",
+    "am": "ውድድር",
+    "tr": "widider",
+    "pos": "noun",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "der Wettbewerb",
+      "en": "competition",
+      "sv": "konkurrens",
+      "nl": "concurrentie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_rikash",
+    "am": "ርካሽ",
+    "tr": "rikash",
+    "pos": "adjective",
+    "topic": "economy_2",
+    "level": "B2",
+    "t": {
+      "de": "billig, preiswert",
+      "en": "cheap, inexpensive",
+      "sv": "billig",
+      "nl": "goedkoop"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

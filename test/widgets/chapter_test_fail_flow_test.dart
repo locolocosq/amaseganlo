@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'package:habesha_speak/core/journey_regions.dart';
 import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
@@ -19,10 +20,9 @@ void main() {
         },
       );
 
-      // The world map only shows regions - zoom into Addis Abeba (by its
-      // short map-node label, unambiguous since it's the only "Addis
-      // Abeba" node) to reach its stations.
-      await tester.tap(find.text('Addis Abeba'));
+      // The world map only shows regions - zoom into Addis Abeba to reach
+      // its stations.
+      await tester.tap(findRegionNode(JourneyRegion.addisAbeba));
       await tester.pumpAndSettle();
 
       await tester.tap(find.text('Erste Begegnung'));

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_hasab",
+    "am": "ሃሳብ",
+    "tr": "hasab",
+    "pos": "noun",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "die Idee, der Gedanke",
+      "en": "idea, thought",
+      "sv": "idé, tanke",
+      "nl": "idee, gedachte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_maseb",
+    "am": "ማሰብ",
+    "tr": "maseb",
+    "pos": "verb",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "denken, nachdenken",
+      "en": "to think",
+      "sv": "tänka",
+      "nl": "denken"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mekerakeri",
+    "am": "መከራከር",
+    "tr": "mekeraker",
+    "pos": "verb",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "argumentieren, streiten",
+      "en": "to argue",
+      "sv": "argumentera",
+      "nl": "argumenteren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_meteret",
+    "am": "መተርጎም",
+    "tr": "meterigom",
+    "pos": "verb",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "interpretieren, übersetzen, erklären",
+      "en": "to interpret, to translate",
+      "sv": "tolka, översätta",
+      "nl": "interpreteren, vertalen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_asrachi",
+    "am": "አሳማኝ",
+    "tr": "asamagn",
+    "pos": "adjective",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "überzeugend",
+      "en": "convincing",
+      "sv": "övertygande",
+      "nl": "overtuigend"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mikinyat",
+    "am": "ምክንያት",
+    "tr": "mikinyat",
+    "pos": "noun",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "der Grund, die Ursache",
+      "en": "reason, cause",
+      "sv": "anledning, orsak",
+      "nl": "reden, oorzaak"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_harar_politik_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_mengist",
+      "lex_president",
+      "lex_teklay_minister",
+      "lex_parlama",
+      "lex_mircha",
+      "lex_hige_mengist",
+      "lex_zega",
+      "lex_siltan",
+      "lex_v_memiret",
+      "lex_adj_dimokrasiyawi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_politik_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_mengist",
+      "lex_president",
+      "lex_teklay_minister",
+      "lex_parlama",
+      "lex_mircha",
+      "lex_hige_mengist",
+      "lex_zega",
+      "lex_siltan",
+      "lex_v_memiret",
+      "lex_adj_dimokrasiyawi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_politik_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_mengist",
+      "lex_president",
+      "lex_teklay_minister",
+      "lex_parlama",
+      "lex_mircha",
+      "lex_hige_mengist",
+      "lex_zega",
+      "lex_siltan",
+      "lex_v_memiret",
+      "lex_adj_dimokrasiyawi"
+    ],
+    "sentenceIds": [
+      "sen_president_mengist",
+      "sen_zega_memiret_president",
+      "sen_mircha_dimokrasiyawi",
+      "sen_hige_mengist_parlama",
+      "sen_teklay_minister_siltan"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_politik_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_mengist",
+      "lex_president",
+      "lex_teklay_minister",
+      "lex_parlama",
+      "lex_mircha",
+      "lex_hige_mengist",
+      "lex_zega",
+      "lex_siltan",
+      "lex_v_memiret",
+      "lex_adj_dimokrasiyawi"
+    ],
+    "sentenceIds": [
+      "sen_president_mengist",
+      "sen_zega_memiret_president",
+      "sen_mircha_dimokrasiyawi",
+      "sen_hige_mengist_parlama",
+      "sen_teklay_minister_siltan"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_politik_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_mengist",
+      "lex_president",
+      "lex_teklay_minister",
+      "lex_parlama",
+      "lex_mircha",
+      "lex_hige_mengist",
+      "lex_zega",
+      "lex_siltan",
+      "lex_v_memiret",
+      "lex_adj_dimokrasiyawi"
+    ],
+    "sentenceIds": [
+      "sen_president_mengist",
+      "sen_zega_memiret_president",
+      "sen_mircha_dimokrasiyawi",
+      "sen_hige_mengist_parlama",
+      "sen_teklay_minister_siltan"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_politik_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_mengist",
+      "lex_president",
+      "lex_teklay_minister",
+      "lex_parlama",
+      "lex_mircha",
+      "lex_hige_mengist",
+      "lex_zega",
+      "lex_siltan",
+      "lex_v_memiret",
+      "lex_adj_dimokrasiyawi"
+    ],
+    "sentenceIds": [
+      "sen_president_mengist",
+      "sen_zega_memiret_president",
+      "sen_mircha_dimokrasiyawi",
+      "sen_hige_mengist_parlama",
+      "sen_teklay_minister_siltan"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

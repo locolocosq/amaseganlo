@@ -1,0 +1,21 @@
+[
+  {"id":"lex_hae_birtu","am":"ብርቱ","tr":"biritu","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"stark, kräftig","en":"strong, sturdy","sv":"stark","nl":"sterk"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_dekama","am":"ደካማ","tr":"dekama","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"schwach, müde","en":"weak, tired","sv":"svag, trött","nl":"zwak, moe"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_fetan2","am":"ፈጣን","tr":"fetan","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"schnell","en":"fast","sv":"snabb","nl":"snel"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_zegemitegna","am":"ዘገምተኛ","tr":"zegemitegna","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"langsam","en":"slow","sv":"långsam","nl":"traag"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_aroge2","am":"አሮጌ","tr":"aroge","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"alt (Sache)","en":"old (thing)","sv":"gammal (sak)","nl":"oud (ding)"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_addis2","am":"አዲስ","tr":"addis","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"neu","en":"new","sv":"ny","nl":"nieuw"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_rejim2","am":"ረጅም","tr":"rejim","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"groß, lang","en":"tall, long","sv":"lång","nl":"lang"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_achir","am":"አጭር","tr":"achir","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"kurz","en":"short","sv":"kort","nl":"kort"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_tikur2","am":"ጥቁር","tr":"t'ik'ur","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"schwarz","en":"black","sv":"svart","nl":"zwart"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_nech","am":"ነጭ","tr":"nech","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"weiß","en":"white","sv":"vit","nl":"wit"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_key","am":"ቀይ","tr":"k'ey","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"rot","en":"red","sv":"röd","nl":"rood"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_arenguade","am":"አረንጓዴ","tr":"arenguade","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"grün","en":"green","sv":"grön","nl":"groen"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_semayawi","am":"ሰማያዊ","tr":"semayawi","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"blau","en":"blue","sv":"blå","nl":"blauw"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_bicha3","am":"ቢጫ","tr":"bicha","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"gelb","en":"yellow","sv":"gul","nl":"geel"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_tenikara","am":"ጠንካራ","tr":"t'enikara","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"hart, fest","en":"hard, solid","sv":"hård","nl":"hard"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_lisilis","am":"ልስልስ","tr":"lisilis","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"weich, glatt","en":"soft, smooth","sv":"mjuk","nl":"zacht"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_tafach","am":"ጣፋጭ","tr":"t'afach'","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"süß, lecker","en":"sweet, tasty","sv":"söt, god","nl":"zoet, lekker"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_merara","am":"መራራ","tr":"merara","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"bitter","en":"bitter","sv":"bitter","nl":"bitter"},"hint":{},"alt":{},"emoji":"","verified":true},
+  {"id":"lex_hae_gomizaza","am":"ጎምዛዛ","tr":"gomizaza","pos":"adjective","topic":"adjectives_2","level":"B2","t":{"de":"sauer","en":"sour","sv":"sur","nl":"zuur"},"hint":{},"alt":{},"emoji":"","verified":true}
+]

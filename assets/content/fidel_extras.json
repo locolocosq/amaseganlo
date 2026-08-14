@@ -56,6 +56,7 @@
   ],
   "other": [
     { "id": "fidel_other_twa", "char": "ቷ", "tr": "twa", "verified": false },
-    { "id": "fidel_other_ea", "char": "ኧ", "tr": "ea", "verified": false }
+    { "id": "fidel_other_ea", "char": "ኧ", "tr": "ea", "verified": false },
+    { "id": "fidel_other_swa", "char": "ሷ", "tr": "swa", "verified": true }
   ]
 }

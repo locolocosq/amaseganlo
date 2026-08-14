@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_fasika",
+    "am": "ፋሲካ",
+    "tr": "fasika",
+    "pos": "noun",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "Ostern",
+      "en": "Easter",
+      "sv": "påsk",
+      "nl": "Pasen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gena",
+    "am": "ገና",
+    "tr": "gena",
+    "pos": "noun",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "Weihnachten",
+      "en": "Christmas",
+      "sv": "jul",
+      "nl": "Kerstmis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_timket",
+    "am": "ጥምቀት",
+    "tr": "t'imk'et",
+    "pos": "noun",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "die Taufe, Timkat (Epiphaniasfest)",
+      "en": "baptism, Timkat (Epiphany)",
+      "sv": "dopet, Timkat (trettondagen)",
+      "nl": "de doop, Timkat (Epifanie)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_matimek",
+    "am": "ማጥመቅ",
+    "tr": "mat'imek'",
+    "pos": "verb",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "taufen",
+      "en": "to baptize",
+      "sv": "döpa",
+      "nl": "dopen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mebarek",
+    "am": "መባረክ",
+    "tr": "mebarek",
+    "pos": "verb",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "segnen",
+      "en": "to bless",
+      "sv": "välsigna",
+      "nl": "zegenen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_menazez",
+    "am": "መናዘዝ",
+    "tr": "menazez",
+    "pos": "verb",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "beichten",
+      "en": "to confess",
+      "sv": "bikta",
+      "nl": "biechten"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hatiat",
+    "am": "ኃጢአት",
+    "tr": "hat'i'at",
+    "pos": "noun",
+    "topic": "christian_feasts",
+    "level": "B2",
+    "t": {
+      "de": "die Sünde",
+      "en": "sin",
+      "sv": "synd",
+      "nl": "zonde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../../core/audio_service.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/exercise.dart';
 import '../../models/fidel_lesson.dart';
@@ -28,7 +29,18 @@ class FidelLessonScreen extends StatefulWidget {
   /// runs an ad-hoc drill instead of loading real stage/lesson content.
   final String? practiceGroup;
 
-  const FidelLessonScreen({super.key, required this.stageId, required this.lessonId, this.practiceGroup});
+  /// Etappe 24: launches the audio-only "Hörtraining" instead - either for
+  /// [practiceGroup]'s row, or (if that's null) across every sign already
+  /// learned so far.
+  final bool audioDrill;
+
+  const FidelLessonScreen({
+    super.key,
+    required this.stageId,
+    required this.lessonId,
+    this.practiceGroup,
+    this.audioDrill = false,
+  });
 
   @override
   State<FidelLessonScreen> createState() => _FidelLessonScreenState();
@@ -41,6 +53,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
   List<String> _availableChunks = [];
   bool _started = false;
   bool _finishing = false;
+  String? _autoPlayedExerciseKey;
 
   @override
   void didChangeDependencies() {
@@ -50,10 +63,13 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
       final settings = context.read<SettingsProvider>().settings;
       final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
       final practiceGroup = widget.practiceGroup;
+      final audioDrill = widget.audioDrill;
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (!mounted) return;
         final provider = context.read<FidelLessonProvider>();
-        if (practiceGroup != null) {
+        if (audioDrill) {
+          provider.startAudioDrill(group: practiceGroup, useHearts: settings.useHearts);
+        } else if (practiceGroup != null) {
           provider.startRowPractice(practiceGroup, useHearts: settings.useHearts);
         } else {
           provider.startLesson(
@@ -129,7 +145,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
 
     if (session.isFinished && !_finishing) {
       _finishing = true;
-      final isPractice = widget.practiceGroup != null;
+      final isPractice = widget.practiceGroup != null || widget.audioDrill;
       WidgetsBinding.instance.addPostFrameCallback((_) async {
         if (!context.mounted) return;
         if (isPractice) {
@@ -196,7 +212,7 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
                     onContinue: () => context.read<FidelLessonProvider>().advancePastNote(),
                   )
                 : session.isShowingDrill
-                    ? _buildDrill(context, session, fidelProvider, settings)
+                    ? _buildDrill(context, session, fidelProvider)
                     : _buildExercise(context, session, fidelProvider, locale),
           ),
         ),
@@ -204,14 +220,12 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
     );
   }
 
-  Widget _buildDrill(BuildContext context, FidelLessonSession session, FidelLessonProvider provider, AppSettings settings) {
+  Widget _buildDrill(BuildContext context, FidelLessonSession session, FidelLessonProvider provider) {
     final repo = context.read<ContentProvider>().repository;
     final chars = repo.fidelCharsForGroup(session.hahuDrillGroup!);
     return HaHuDrill(
       key: ValueKey('hahu-${session.hahuDrillGroup}'),
       chars: chars,
-      tickDuration: settings.hahuTempo.tickDuration,
-      reduceMotion: false,
       onComplete: () => provider.advancePastDrill(),
     );
   }
@@ -224,9 +238,52 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
       _availableChunks = List.of(exercise.chunks);
     }
 
+    final audioAvailable = context.read<AudioService>().isAmharicAvailable;
+    final l10n = AppLocalizations.of(context);
+    final settings = context.read<SettingsProvider>().settings;
+
+    // The audio drill's whole point is judging the sound alone, so its
+    // exercises play automatically instead of waiting for a tap - the same
+    // "Neue Wörter automatisch abspielen" preference already governs the
+    // intro-card autoplay in path A, reused here rather than adding a
+    // second setting for what is, to the learner, the same preference.
+    final exerciseKey = '${exercise.type.name}:${exercise.subjectId}:${session.currentIndex}';
+    if (exercise.isAudioPrompt &&
+        settings.autoPlayNewWords &&
+        settings.soundEnabled &&
+        audioAvailable &&
+        _autoPlayedExerciseKey != exerciseKey) {
+      _autoPlayedExerciseKey = exerciseKey;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) provider.playCurrentAudio();
+      });
+    }
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        // Every generated audio recording (Etappe 24) is useless if nothing
+        // in the UI ever plays it - this lets a learner hear the current
+        // sign/word/sentence regardless of which exercise type is showing,
+        // not just the dedicated "listen" exercise types. Audio-prompt
+        // exercises already show their own dedicated speaker button below,
+        // so this one stays hidden there instead of duplicating it.
+        //
+        // Etappe 24 Nachtrag 5: also hidden for Stufe 4's syllable-join
+        // exercises (`fidel_syllable:` subjects) - these are runtime-made-up
+        // combinations of 2-3 signs with no real recording, and reading them
+        // out sign-by-sign turned out not to work well in practice (on
+        // request). Listening stays available everywhere there's an actual
+        // single sign/word/sentence to hear.
+        if (audioAvailable && !exercise.isAudioPrompt && !exercise.subjectId.startsWith('fidel_syllable:'))
+          Align(
+            alignment: Alignment.centerRight,
+            child: IconButton(
+              tooltip: l10n.audioPlayTooltip,
+              onPressed: () => provider.playCurrentAudio(),
+              icon: const Icon(Icons.volume_up),
+            ),
+          ),
         Expanded(
           child: SingleChildScrollView(
             child: _buildExerciseBody(context, exercise, session, provider, locale),
@@ -264,6 +321,8 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
         correctAnswer: exercise.correctAnswer,
         selectedOption: _selectedOption,
         answered: session.answered,
+        isAudioPrompt: exercise.isAudioPrompt,
+        onPlayAudio: () => provider.playCurrentAudio(),
         onSelect: (value) {
           setState(() => _selectedOption = value);
           provider.submitChoiceOrBuildAnswer(value);
@@ -277,6 +336,8 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
         selectedChunks: _selectedChunks,
         availableChunks: _availableChunks,
         answered: session.answered,
+        isAudioPrompt: exercise.isAudioPrompt,
+        onPlayAudio: () => provider.playCurrentAudio(),
         onTapAvailable: (index) {
           setState(() {
             _selectedChunks = [..._selectedChunks, _availableChunks[index]];
@@ -298,6 +359,8 @@ class _FidelLessonScreenState extends State<FidelLessonScreen> {
       promptStyle: promptStyle,
       controller: _textController,
       answered: session.answered,
+      isAudioPrompt: exercise.isAudioPrompt,
+      onPlayAudio: () => provider.playCurrentAudio(),
       onSubmit: () => provider.submitTypedAnswer(_textController.text, locale),
     );
   }

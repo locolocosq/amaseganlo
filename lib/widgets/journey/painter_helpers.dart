@@ -93,6 +93,36 @@ class Sketch {
     }
   }
 
+  /// A small two-peak mountain silhouette with a snow cap on the taller
+  /// peak - a compact scatter-decoration counterpart to [rock]/[acacia]
+  /// (Etappe 24), for regions whose real landscape is mountainous rather
+  /// than flat/wooded. The bigger [jaggedRange] stays the right tool for a
+  /// full background mountain range; this is sized to be scattered
+  /// alongside other small decorations instead.
+  static void smallMountain(Canvas canvas, Offset base, double scale, {Color color = const Color(0xFF8C7A66)}) {
+    final back = Path()
+      ..moveTo(base.dx - 18 * scale, base.dy)
+      ..lineTo(base.dx - 4 * scale, base.dy - 20 * scale)
+      ..lineTo(base.dx + 9 * scale, base.dy)
+      ..close();
+    canvas.drawPath(back, Paint()..color = color.withValues(alpha: 0.75));
+
+    final front = Path()
+      ..moveTo(base.dx - 6 * scale, base.dy)
+      ..lineTo(base.dx + 6 * scale, base.dy - 26 * scale)
+      ..lineTo(base.dx + 18 * scale, base.dy)
+      ..close();
+    canvas.drawPath(front, Paint()..color = color);
+
+    final snowCap = Path()
+      ..moveTo(base.dx + 6 * scale, base.dy - 26 * scale)
+      ..lineTo(base.dx + 1 * scale, base.dy - 17 * scale)
+      ..lineTo(base.dx + 6 * scale, base.dy - 15 * scale)
+      ..lineTo(base.dx + 11 * scale, base.dy - 17 * scale)
+      ..close();
+    canvas.drawPath(snowCap, Paint()..color = const Color(0xFFF5F5F5));
+  }
+
   static void rock(Canvas canvas, Offset base, double scale, {Color color = const Color(0xFF9C8B78)}) {
     final path = Path()
       ..moveTo(base.dx - 14 * scale, base.dy)
@@ -131,6 +161,113 @@ class Sketch {
     canvas.drawRect(Rect.fromLTWH(rect.left, stripeY, width, stripeH), Paint()..color = const Color(0xFF0F7A3D));
     canvas.drawRect(Rect.fromLTWH(rect.left, stripeY + stripeH, width, stripeH), Paint()..color = const Color(0xFFF4C430));
     canvas.drawRect(Rect.fromLTWH(rect.left, stripeY + stripeH * 2, width, stripeH), Paint()..color = const Color(0xFFC62828));
+  }
+
+  /// A simple mosque silhouette - a domed prayer hall flanked by two thin
+  /// minarets, each capped with its own small dome and topped by a crescent
+  /// (Etappe 24 Nachtrag 2, for Harar's real content: "city of minarets",
+  /// and its Islam-themed first chapter). Sized off `base` (the ground
+  /// point) and `scale`, the same convention every other `Sketch` shape in
+  /// this file uses. Default colours (Etappe 24 Nachtrag 4, on request) are
+  /// the white walls and blue domes/minarets real Harar mosques are known
+  /// for, not a generic gold.
+  static void mosque(Canvas canvas, Offset base, double scale, {Color color = const Color(0xFFF3F7FA), Color accent = const Color(0xFF2C6CA3)}) {
+    final wallPaint = Paint()..color = color;
+    final domePaint = Paint()..color = accent;
+
+    final hallRect = Rect.fromLTWH(base.dx - 22 * scale, base.dy - 22 * scale, 44 * scale, 22 * scale);
+    canvas.drawRect(hallRect, wallPaint);
+    canvas.drawArc(Rect.fromCenter(center: hallRect.topCenter, width: 34 * scale, height: 34 * scale), math.pi, math.pi, true, domePaint);
+
+    void minaret(double dx) {
+      final towerRect = Rect.fromLTWH(base.dx + dx - 3 * scale, base.dy - 40 * scale, 6 * scale, 40 * scale);
+      canvas.drawRect(towerRect, wallPaint);
+      canvas.drawOval(Rect.fromCenter(center: towerRect.topCenter, width: 9 * scale, height: 9 * scale), domePaint);
+      canvas.drawLine(towerRect.topCenter, towerRect.topCenter - Offset(0, 6 * scale), Paint()
+        ..color = accent
+        ..strokeWidth = 1.4 * scale);
+    }
+
+    minaret(-28 * scale);
+    minaret(28 * scale);
+
+    final doorPaint = Paint()..color = accent.withValues(alpha: 0.6);
+    canvas.drawRect(Rect.fromCenter(center: Offset(base.dx, base.dy - 5 * scale), width: 9 * scale, height: 12 * scale), doorPaint);
+  }
+
+  /// A simple standing zebra silhouette (Etappe 24 Nachtrag 5, for the
+  /// Safari station - replaces an earlier lion that didn't read well at
+  /// this size, on request) - a cream body and a longer horse-like head
+  /// held apart from the body on its own neck, so the two never blur into
+  /// each other, plus a few black stripes across the body (what actually
+  /// reads as "zebra", as opposed to any other four-legged animal, at this
+  /// small a scatter-decoration size), small pointed ears, and a simple
+  /// tail. Sized off `base` (the ground point) and `scale`.
+  static void zebra(Canvas canvas, Offset base, double scale, {Color body = const Color(0xFFF6F3EA), Color stripe = const Color(0xFF221F1D)}) {
+    final bodyPaint = Paint()..color = body;
+
+    final bodyRect = Rect.fromCenter(center: Offset(base.dx + 3 * scale, base.dy - 9 * scale), width: 25 * scale, height: 12 * scale);
+    canvas.drawOval(bodyRect, bodyPaint);
+
+    // Neck + head as one filled shape, angled down and away from the body
+    // so there's real visual separation instead of two overlapping ovals.
+    final headCenter = Offset(base.dx - 19 * scale, base.dy - 4 * scale);
+    final neckPath = Path()
+      ..moveTo(bodyRect.left + 5 * scale, bodyRect.top + 1 * scale)
+      ..lineTo(headCenter.dx + 5 * scale, headCenter.dy - 5 * scale)
+      ..lineTo(headCenter.dx - 6 * scale, headCenter.dy - 2 * scale)
+      ..lineTo(headCenter.dx - 4 * scale, headCenter.dy + 3 * scale)
+      ..lineTo(bodyRect.left, bodyRect.bottom - 2 * scale)
+      ..close();
+    canvas.drawPath(neckPath, bodyPaint);
+
+    final earPaint = Paint()..color = stripe;
+    canvas.drawPath(
+      Path()
+        ..moveTo(headCenter.dx - 1 * scale, headCenter.dy - 4 * scale)
+        ..lineTo(headCenter.dx - 3 * scale, headCenter.dy - 9 * scale)
+        ..lineTo(headCenter.dx + 1 * scale, headCenter.dy - 5 * scale)
+        ..close(),
+      earPaint,
+    );
+    canvas.drawPath(
+      Path()
+        ..moveTo(headCenter.dx + 3 * scale, headCenter.dy - 4 * scale)
+        ..lineTo(headCenter.dx + 2 * scale, headCenter.dy - 9 * scale)
+        ..lineTo(headCenter.dx + 5 * scale, headCenter.dy - 5 * scale)
+        ..close(),
+      earPaint,
+    );
+
+    // Body stripes - what actually sells "zebra" at this size.
+    final stripePaint = Paint()
+      ..color = stripe
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 2.0 * scale
+      ..strokeCap = StrokeCap.round;
+    for (final t in [0.22, 0.44, 0.66, 0.86]) {
+      canvas.drawLine(
+        Offset(bodyRect.left + bodyRect.width * t, bodyRect.top + 1 * scale),
+        Offset(bodyRect.left + bodyRect.width * t, bodyRect.bottom - 1 * scale),
+        stripePaint,
+      );
+    }
+
+    canvas.drawLine(
+      Offset(bodyRect.right, bodyRect.center.dy),
+      Offset(bodyRect.right + 7 * scale, bodyRect.center.dy + 6 * scale),
+      Paint()
+        ..color = stripe
+        ..strokeWidth = 1.6 * scale
+        ..strokeCap = StrokeCap.round,
+    );
+
+    final legPaint = Paint()
+      ..color = body
+      ..strokeWidth = 2.4 * scale
+      ..strokeCap = StrokeCap.round;
+    canvas.drawLine(Offset(bodyRect.left + 5 * scale, bodyRect.bottom - 1 * scale), Offset(bodyRect.left + 5 * scale, base.dy), legPaint);
+    canvas.drawLine(Offset(bodyRect.right - 4 * scale, bodyRect.bottom - 1 * scale), Offset(bodyRect.right - 4 * scale, base.dy), legPaint);
   }
 
   static void lake(Canvas canvas, Rect area, double baseline) {
@@ -183,9 +320,11 @@ class Sketch {
     canvas.restore();
   }
 
-  /// A wide "sand" road stroke along [path] with a dashed darker centre
-  /// line on top - the one road style shared by both map levels.
-  static void road(Canvas canvas, Path path, {double width = 22}) {
+  /// A "sand" road stroke along [path] with a dashed darker centre line on
+  /// top - the one road style shared by both map levels. Etappe 24: default
+  /// thinned from 22 - it read as too heavy/dominant next to the now also
+  /// smaller region/station markers.
+  static void road(Canvas canvas, Path path, {double width = 14}) {
     canvas.drawPath(
       path,
       Paint()

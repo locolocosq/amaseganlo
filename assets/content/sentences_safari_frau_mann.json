@@ -1,0 +1,242 @@
+[
+  {
+    "id": "sen_safari_issu_deg",
+    "am": "እሱ ደግ ነው።",
+    "tr": "issu deg new.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_nett",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Er ist nett.",
+      "en": "He is kind.",
+      "sv": "Han är snäll.",
+      "nl": "Hij is aardig."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "deg",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_deg",
+    "am": "እሷ ደግ ናት።",
+    "tr": "iswa deg nat.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_nett",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Sie ist nett.",
+      "en": "She is kind.",
+      "sv": "Hon är snäll.",
+      "nl": "Zij is aardig."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "deg",
+      "nat"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_desitegna",
+    "am": "አንተ ደስተኛ ነህ።",
+    "tr": "ante desitegna neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_gluecklich",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist glücklich.",
+      "en": "You (masc.) are happy.",
+      "sv": "Du (maskulinum) är glad.",
+      "nl": "Jij (mannelijk) bent gelukkig."
+    },
+    "alt": {},
+    "chunks": [
+      "ante",
+      "desitegna",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_desitegna",
+    "am": "አንቺ ደስተኛ ነሽ።",
+    "tr": "anchi desitegna nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_gluecklich",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist glücklich.",
+      "en": "You (fem.) are happy.",
+      "sv": "Du (femininum) är glad.",
+      "nl": "Jij (vrouwelijk) bent gelukkig."
+    },
+    "alt": {},
+    "chunks": [
+      "anchi",
+      "desitegna",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_issu_tilik",
+    "am": "እሱ ትልቅ ነው።",
+    "tr": "issu tilik' new.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_gross",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Er ist groß.",
+      "en": "He is big/tall.",
+      "sv": "Han är stor.",
+      "nl": "Hij is groot."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "tilik'",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_tilik",
+    "am": "እሷ ትልቅ ናት።",
+    "tr": "iswa tilik' nat.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_gross",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Sie ist groß.",
+      "en": "She is big/tall.",
+      "sv": "Hon är stor.",
+      "nl": "Zij is groot."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "tilik'",
+      "nat"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_bilih",
+    "am": "አንተ ብልህ ነህ።",
+    "tr": "ante bilih neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_weise",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist klug.",
+      "en": "You (masc.) are smart.",
+      "sv": "Du (maskulinum) är smart.",
+      "nl": "Jij (mannelijk) bent slim."
+    },
+    "alt": {},
+    "chunks": [
+      "ante",
+      "bilih",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_bilih",
+    "am": "አንቺ ብልህ ነሽ።",
+    "tr": "anchi bilih nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_weise",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist klug.",
+      "en": "You (fem.) are smart.",
+      "sv": "Du (femininum) är smart.",
+      "nl": "Jij (vrouwelijk) bent slim."
+    },
+    "alt": {},
+    "chunks": [
+      "anchi",
+      "bilih",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_issu_tinish",
+    "am": "እሱ ትንሽ ነው።",
+    "tr": "issu tinish new.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_klein",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Er ist klein.",
+      "en": "He is small.",
+      "sv": "Han är liten.",
+      "nl": "Hij is klein."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "tinish",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_tinish",
+    "am": "እሷ ትንሽ ናት።",
+    "tr": "iswa tinish nat.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_klein",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Sie ist klein.",
+      "en": "She is small.",
+      "sv": "Hon är liten.",
+      "nl": "Zij is klein."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "tinish",
+      "nat"
+    ],
+    "verified": false
+  }
+]

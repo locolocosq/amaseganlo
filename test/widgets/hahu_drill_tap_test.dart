@@ -6,9 +6,10 @@ import 'package:habesha_speak/models/fidel_char.dart';
 import 'package:habesha_speak/widgets/exercises/hahu_drill.dart';
 
 void main() {
-  testWidgets('tapping the beat button gives visual feedback without affecting correctness', (tester) async {
+  testWidgets('tapping the button pulses once and advances exactly one step', (tester) async {
     const chars = [
       FidelChar(char: 'ለ', base: 'l', group: 'la', order: 1, tr: 'le', ipa: 'lə'),
+      FidelChar(char: 'ሉ', base: 'l', group: 'la', order: 2, tr: 'lu', ipa: 'lu'),
     ];
 
     var completed = false;
@@ -20,8 +21,6 @@ void main() {
       home: Scaffold(
         body: HaHuDrill(
           chars: chars,
-          tickDuration: const Duration(milliseconds: 50),
-          reduceMotion: true,
           onComplete: () => completed = true,
         ),
       ),
@@ -29,10 +28,17 @@ void main() {
 
     await tester.tap(find.byIcon(Icons.touch_app));
     await tester.pump();
-    // Let the tap's own short pulse animation timer resolve, and let the
-    // drill itself finish both rounds, so nothing is left pending.
-    for (var i = 0; i < 7; i++) {
-      await tester.pump(const Duration(milliseconds: 60));
+    expect(tester.widget<AnimatedScale>(find.byType(AnimatedScale)).scale, 1.15);
+
+    // The pulse settles back down on its own shortly after the tap.
+    await tester.pump(const Duration(milliseconds: 200));
+    expect(tester.widget<AnimatedScale>(find.byType(AnimatedScale)).scale, 1.0);
+    expect(completed, isFalse);
+
+    // 2 signs x 2 rounds - 1 tap already spent above, 3 more finish it.
+    for (var i = 0; i < 3; i++) {
+      await tester.tap(find.byIcon(Icons.touch_app));
+      await tester.pump(const Duration(milliseconds: 200));
     }
 
     expect(completed, isTrue);

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_kidase",
+    "am": "ቅዳሴ",
+    "tr": "k'idase",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "die Liturgie, die Messe",
+      "en": "the liturgy, mass",
+      "sv": "liturgin, mässan",
+      "nl": "de liturgie, de mis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kahin",
+    "am": "ካህን",
+    "tr": "kahin",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Priester",
+      "en": "priest",
+      "sv": "präst",
+      "nl": "priester"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_papase",
+    "am": "ጳጳስ",
+    "tr": "papase",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Bischof, der Patriarch",
+      "en": "bishop, patriarch",
+      "sv": "biskop, patriark",
+      "nl": "bisschop, patriarch"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_menekuse",
+    "am": "መነኩሴ",
+    "tr": "menekuse",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "der Mönch",
+      "en": "monk",
+      "sv": "munk",
+      "nl": "monnik"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_menekusit",
+    "am": "መነኩሲት",
+    "tr": "menekusit",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "die Nonne",
+      "en": "nun",
+      "sv": "nunna",
+      "nl": "non"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wongel",
+    "am": "ወንጌል",
+    "tr": "wongel",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "das Evangelium",
+      "en": "gospel",
+      "sv": "evangelium",
+      "nl": "evangelie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_metsihaf_kidus",
+    "am": "መጽሐፍ ቅዱስ",
+    "tr": "metsihaf k'idus",
+    "pos": "noun",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "die Bibel",
+      "en": "the Bible",
+      "sv": "Bibeln",
+      "nl": "de Bijbel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_kidus",
+    "am": "ቅዱስ",
+    "tr": "k'idus",
+    "pos": "adjective",
+    "topic": "christian_basics",
+    "level": "B2",
+    "t": {
+      "de": "heilig",
+      "en": "holy, saint",
+      "sv": "helig",
+      "nl": "heilig"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

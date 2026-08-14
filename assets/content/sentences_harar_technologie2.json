@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sen_sew_serash_zemenawi",
+    "am": "ሰው ሰራሽ አስተውሎት ዘመናዊ ነው።",
+    "tr": "sew serash astewilot zemenawi newu.",
+    "level": "B2",
+    "uses": ["lex_sew_serash", "lex_adj_zemenawi"],
+    "t": {
+      "de": "Künstliche Intelligenz ist modern.",
+      "en": "Artificial intelligence is modern.",
+      "sv": "Artificiell intelligens är modern.",
+      "nl": "Kunstmatige intelligentie is modern."
+    },
+    "chunks": ["sew", "serash", "astewilot", "zemenawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_wihib_asfelagi",
+    "am": "ውሂብ አስፈላጊ ነው።",
+    "tr": "wihib asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_wihib"],
+    "t": {
+      "de": "Daten sind wichtig.",
+      "en": "Data is important.",
+      "sv": "Data är viktigt.",
+      "nl": "Gegevens zijn belangrijk."
+    },
+    "chunks": ["wihib", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_yeyilef_kal_asfelagi",
+    "am": "የይለፍ ቃል አስፈላጊ ነው።",
+    "tr": "yeyilef k'al asfelagi newu.",
+    "level": "B2",
+    "uses": ["lex_yeyilef_kal"],
+    "t": {
+      "de": "Ein Passwort ist wichtig.",
+      "en": "A password is important.",
+      "sv": "Ett lösenord är viktigt.",
+      "nl": "Een wachtwoord is belangrijk."
+    },
+    "chunks": ["yeyilef", "k'al", "asfelagi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_dihire_gets_zemenawi",
+    "am": "ይህ ድህረ ገጽ ዘመናዊ ነው።",
+    "tr": "yih dihire gets' zemenawi newu.",
+    "level": "B2",
+    "uses": ["lex_dihire_gets", "lex_adj_zemenawi"],
+    "t": {
+      "de": "Diese Website ist modern.",
+      "en": "This website is modern.",
+      "sv": "Den här webbplatsen är modern.",
+      "nl": "Deze website is modern."
+    },
+    "chunks": ["yih", "dihire", "gets'", "zemenawi", "newu"],
+    "verified": false
+  },
+  {
+    "id": "sen_dihire_gets_wihib",
+    "am": "ድህረ ገጽ ውሂብ አለው።",
+    "tr": "dihire gets' wihib alew.",
+    "level": "B2",
+    "uses": ["lex_dihire_gets", "lex_wihib"],
+    "t": {
+      "de": "Eine Website hat Daten.",
+      "en": "A website has data.",
+      "sv": "En webbplats har data.",
+      "nl": "Een website heeft gegevens."
+    },
+    "chunks": ["dihire", "gets'", "wihib", "alew"],
+    "verified": false
+  }
+]

@@ -3,6 +3,8 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../content/content_repository.dart';
+import '../../core/journey_progress.dart';
+import '../../core/purchase_service.dart';
 import '../../core/theme.dart';
 import '../../l10n/app_localizations.dart';
 import '../../models/fidel_lesson.dart';
@@ -32,6 +34,30 @@ class FidelStageOverviewScreen extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(leading: IconButton(icon: const Icon(Icons.arrow_back), tooltip: l10n.commonBack, onPressed: () => context.pop())),
         body: EmptyState(icon: Icons.menu_book_outlined, title: l10n.errorContentUnit),
+      );
+    }
+
+    // Defensive re-check (Etappe 24 Nachtrag 5), same reasoning as
+    // unit_overview_screen.dart's own: the stage list never lets a
+    // Premium-gated stage's tile navigate here in the first place, but this
+    // route is still reachable directly (a deep link, a saved/restored
+    // navigation stack), so the paywall has to hold here too.
+    final isPremium = context.watch<PurchaseService>().isPremium;
+    if (isFidelStagePremiumLocked(stage.number, isPremium)) {
+      return Scaffold(
+        appBar: AppBar(
+          leading: IconButton(icon: const Icon(Icons.arrow_back), tooltip: l10n.commonBack, onPressed: () => context.pop()),
+          title: Text(stage.title[locale] ?? stage.id),
+        ),
+        body: EmptyState(
+          icon: Icons.workspace_premium,
+          title: l10n.premiumLockedDialogTitle,
+          body: l10n.premiumLockedDialogBody,
+          action: FilledButton(
+            onPressed: () => context.push('/settings/premium'),
+            child: Text(l10n.premiumLockedDialogAction),
+          ),
+        ),
       );
     }
 

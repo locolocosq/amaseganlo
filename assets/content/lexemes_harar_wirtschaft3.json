@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_tirif",
+    "am": "ትርፍ",
+    "tr": "tirif",
+    "pos": "noun",
+    "topic": "economy_advanced",
+    "level": "B2",
+    "t": {
+      "de": "der Gewinn, der Profit",
+      "en": "profit, gain",
+      "sv": "vinst",
+      "nl": "winst"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kisara",
+    "am": "ኪሳራ",
+    "tr": "kisara",
+    "pos": "noun",
+    "topic": "economy_advanced",
+    "level": "B2",
+    "t": {
+      "de": "der Verlust",
+      "en": "loss",
+      "sv": "förlust",
+      "nl": "verlies"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_investiment",
+    "am": "ኢንቨስትመንት",
+    "tr": "investiment",
+    "pos": "noun",
+    "topic": "economy_advanced",
+    "level": "B2",
+    "t": {
+      "de": "die Investition",
+      "en": "investment",
+      "sv": "investering",
+      "nl": "investering"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_yeaksiyon_gebeya",
+    "am": "የአክሲዮን ገበያ",
+    "tr": "ye'aksiyon gebeya",
+    "pos": "noun",
+    "topic": "economy_advanced",
+    "level": "B2",
+    "t": {
+      "de": "die Börse",
+      "en": "stock market",
+      "sv": "börsen",
+      "nl": "de aandelenmarkt"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_yewaga_gishibet",
+    "am": "የዋጋ ግሽበት",
+    "tr": "yewaga gishibet",
+    "pos": "noun",
+    "topic": "economy_advanced",
+    "level": "B2",
+    "t": {
+      "de": "die Inflation",
+      "en": "inflation",
+      "sv": "inflation",
+      "nl": "inflatie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

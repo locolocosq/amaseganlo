@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_akababi",
+    "am": "አካባቢ",
+    "tr": "akababi",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "die Umwelt, die Umgebung",
+      "en": "environment, surroundings",
+      "sv": "miljön, omgivningen",
+      "nl": "omgeving, milieu"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ayer_nibret_lewit",
+    "am": "የአየር ንብረት ለውጥ",
+    "tr": "ye ayer nibret lewit'",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "der Klimawandel",
+      "en": "climate change",
+      "sv": "klimatförändringen",
+      "nl": "klimaatverandering"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bikilet",
+    "am": "ብክለት",
+    "tr": "bikilet",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "die Verschmutzung",
+      "en": "pollution",
+      "sv": "föroreningen",
+      "nl": "vervuiling"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mekelakel",
+    "am": "መከላከል",
+    "tr": "mekelakel",
+    "pos": "verb",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "schützen, verhindern",
+      "en": "to protect, to prevent",
+      "sv": "skydda, förhindra",
+      "nl": "beschermen, voorkomen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_taddis_mekera",
+    "am": "ታዳሽ ኃይል",
+    "tr": "tadash hail",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "die erneuerbare Energie",
+      "en": "renewable energy",
+      "sv": "förnybar energi",
+      "nl": "hernieuwbare energie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_adj_asfelagi",
+    "am": "አስፈላጊ",
+    "tr": "asfelagi",
+    "pos": "adjective",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "notwendig, wichtig",
+      "en": "necessary, important",
+      "sv": "nödvändig, viktig",
+      "nl": "noodzakelijk, belangrijk"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kelil",
+    "am": "ክልል",
+    "tr": "kelil",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "B2",
+    "t": {
+      "de": "die Region, das Bundesland",
+      "en": "region, state (federal)",
+      "sv": "region, delstat",
+      "nl": "regio, deelstaat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

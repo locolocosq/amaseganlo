@@ -26,10 +26,9 @@ class RegionDetailPainter extends CustomPainter {
       case JourneyRegion.sidama:
         return (const Color(0xFFCDEFE0), const Color(0xFFA6DEC7));
       case JourneyRegion.harar:
-        // Not reachable yet in practice - Harar has no region-detail
-        // screen content (Etappe 22) - kept muted/grey for consistency
-        // with its other "not designed yet" placeholders.
-        return (const Color(0xFFE4E4E4), const Color(0xFFCACACA));
+        return (const Color(0xFFF3E6C4), const Color(0xFFE0C98F));
+      case JourneyRegion.safari:
+        return (const Color(0xFFFAD9A8), const Color(0xFFE9A868));
     }
   }
 
@@ -47,7 +46,8 @@ class RegionDetailPainter extends CustomPainter {
       canvas.drawCircle(Offset(cx, cy), size.width * (0.3 + rng.nextDouble() * 0.2), Paint()..color = blobColor);
     }
 
-    Sketch.road(canvas, road, width: 26);
+    // Etappe 24: thinned from 26, matching the world map's thinner default.
+    Sketch.road(canvas, road, width: 18);
 
     _scatterDecoration(canvas, size);
 
@@ -82,7 +82,12 @@ class RegionDetailPainter extends CustomPainter {
           }
           break;
         case JourneyRegion.tigray:
-          Sketch.rock(canvas, clamped, scale, color: const Color(0xFFB98363));
+          // Real Tigray is Ethiopia's most mountainous region (Etappe 24).
+          if (i.isEven) {
+            Sketch.smallMountain(canvas, clamped, scale);
+          } else {
+            Sketch.rock(canvas, clamped, scale, color: const Color(0xFFB98363));
+          }
           break;
         case JourneyRegion.sidama:
           if (i % 2 == 0) {
@@ -92,7 +97,18 @@ class RegionDetailPainter extends CustomPainter {
           }
           break;
         case JourneyRegion.harar:
-          Sketch.rock(canvas, clamped, scale, color: const Color(0xFFB0B0B0));
+          if (i.isEven) {
+            Sketch.mosque(canvas, clamped, scale * 0.55);
+          } else {
+            _miniBuilding(canvas, clamped, scale);
+          }
+          break;
+        case JourneyRegion.safari:
+          if (i % 2 == 0) {
+            Sketch.acacia(canvas, clamped, scale);
+          } else {
+            Sketch.rock(canvas, clamped, scale, color: const Color(0xFF8C6E56));
+          }
           break;
       }
     }

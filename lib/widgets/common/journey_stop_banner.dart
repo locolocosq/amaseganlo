@@ -53,8 +53,9 @@ class _JourneyPainter extends CustomPainter {
         _paintSidama(canvas, size);
         break;
       case JourneyRegion.harar:
-        // No real content yet (Etappe 22); this whole painter has had no
-        // active caller since Etappe 14 anyway (see class doc below).
+      case JourneyRegion.safari:
+        // This whole painter has had no active caller since Etappe 14 (see
+        // class doc below) - not worth a bespoke scene for either.
         _sky(canvas, size, const Color(0xFFD8D8D8), const Color(0xFFEDEDED));
         break;
     }
