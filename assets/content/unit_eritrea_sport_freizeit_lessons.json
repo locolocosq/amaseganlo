@@ -1,0 +1,208 @@
+[
+  {
+    "id": "unit_eritrea_sport_freizeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_kwas2",
+      "lex_ti_kws",
+      "lex_ti_gugsi",
+      "lex_ti_wnah",
+      "lex_ti_gnzabi",
+      "lex_ti_wdaj",
+      "lex_ti_haykol",
+      "lex_ti_wta",
+      "lex_ti_hzimni",
+      "lex_ti_shama",
+      "lex_ti_ridfi2",
+      "lex_ti_hzn",
+      "lex_ti_tsewata2",
+      "lex_ti_kbti3",
+      "lex_ti_frnda",
+      "lex_ti_tyatr",
+      "lex_ti_wgni",
+      "lex_ti_shmgl",
+      "lex_ti_wnzr",
+      "lex_ti_shtrnj",
+      "lex_ti_smcht",
+      "lex_ti_wnzri"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_sport_freizeit_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_kwas2",
+      "lex_ti_kws",
+      "lex_ti_gugsi",
+      "lex_ti_wnah",
+      "lex_ti_gnzabi",
+      "lex_ti_wdaj",
+      "lex_ti_haykol",
+      "lex_ti_wta",
+      "lex_ti_hzimni",
+      "lex_ti_shama",
+      "lex_ti_ridfi2",
+      "lex_ti_hzn",
+      "lex_ti_tsewata2",
+      "lex_ti_kbti3",
+      "lex_ti_frnda",
+      "lex_ti_tyatr",
+      "lex_ti_wgni",
+      "lex_ti_shmgl",
+      "lex_ti_wnzr",
+      "lex_ti_shtrnj",
+      "lex_ti_smcht",
+      "lex_ti_wnzri"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sport_freizeit_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_kwas2",
+      "lex_ti_kws",
+      "lex_ti_gugsi",
+      "lex_ti_wnah",
+      "lex_ti_gnzabi",
+      "lex_ti_wdaj",
+      "lex_ti_haykol",
+      "lex_ti_wta",
+      "lex_ti_hzimni",
+      "lex_ti_shama",
+      "lex_ti_ridfi2",
+      "lex_ti_hzn",
+      "lex_ti_tsewata2",
+      "lex_ti_kbti3",
+      "lex_ti_frnda",
+      "lex_ti_tyatr",
+      "lex_ti_wgni",
+      "lex_ti_shmgl",
+      "lex_ti_wnzr",
+      "lex_ti_shtrnj",
+      "lex_ti_smcht",
+      "lex_ti_wnzri"
+    ],
+    "sentenceIds": [
+      "sen_ti_sport_freizeit_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sport_freizeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_kwas2",
+      "lex_ti_kws",
+      "lex_ti_gugsi",
+      "lex_ti_wnah",
+      "lex_ti_gnzabi",
+      "lex_ti_wdaj",
+      "lex_ti_haykol",
+      "lex_ti_wta",
+      "lex_ti_hzimni",
+      "lex_ti_shama",
+      "lex_ti_ridfi2",
+      "lex_ti_hzn",
+      "lex_ti_tsewata2",
+      "lex_ti_kbti3",
+      "lex_ti_frnda",
+      "lex_ti_tyatr",
+      "lex_ti_wgni",
+      "lex_ti_shmgl",
+      "lex_ti_wnzr",
+      "lex_ti_shtrnj",
+      "lex_ti_smcht",
+      "lex_ti_wnzri"
+    ],
+    "sentenceIds": [
+      "sen_ti_sport_freizeit_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sport_freizeit_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_kwas2",
+      "lex_ti_kws",
+      "lex_ti_gugsi",
+      "lex_ti_wnah",
+      "lex_ti_gnzabi",
+      "lex_ti_wdaj",
+      "lex_ti_haykol",
+      "lex_ti_wta",
+      "lex_ti_hzimni",
+      "lex_ti_shama",
+      "lex_ti_ridfi2",
+      "lex_ti_hzn",
+      "lex_ti_tsewata2",
+      "lex_ti_kbti3",
+      "lex_ti_frnda",
+      "lex_ti_tyatr",
+      "lex_ti_wgni",
+      "lex_ti_shmgl",
+      "lex_ti_wnzr",
+      "lex_ti_shtrnj",
+      "lex_ti_smcht",
+      "lex_ti_wnzri"
+    ],
+    "sentenceIds": [
+      "sen_ti_sport_freizeit_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sport_freizeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_kwas2",
+      "lex_ti_kws",
+      "lex_ti_gugsi",
+      "lex_ti_wnah",
+      "lex_ti_gnzabi",
+      "lex_ti_wdaj",
+      "lex_ti_haykol",
+      "lex_ti_wta",
+      "lex_ti_hzimni",
+      "lex_ti_shama",
+      "lex_ti_ridfi2",
+      "lex_ti_hzn",
+      "lex_ti_tsewata2",
+      "lex_ti_kbti3",
+      "lex_ti_frnda",
+      "lex_ti_tyatr",
+      "lex_ti_wgni",
+      "lex_ti_shmgl",
+      "lex_ti_wnzr",
+      "lex_ti_shtrnj",
+      "lex_ti_smcht",
+      "lex_ti_wnzri"
+    ],
+    "sentenceIds": [
+      "sen_ti_sport_freizeit_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

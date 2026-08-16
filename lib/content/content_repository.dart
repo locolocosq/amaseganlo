@@ -146,14 +146,39 @@ class ContentRepository {
     return true;
   }
 
+  /// Which lexeme/sentence ids belong to an `am` (Amharic)-language section
+  /// (Etappe 26) - the Fidel reading path (Stufe 5/6, "Lernweg A vocabulary")
+  /// is specifically about the Amharic alphabet, so a Tigrinya word/sentence
+  /// must never surface there even if its own signs happen to already be
+  /// known from the (shared Ge'ez-derived) Amharic table. Computed once,
+  /// lazily, the same pattern as [JourneyProgress]'s per-language unit
+  /// grouping.
+  late final Set<String> _amharicLexemeIds = _collectAmharicIds(lexemes: true);
+  late final Set<String> _amharicSentenceIds = _collectAmharicIds(lexemes: false);
+
+  Set<String> _collectAmharicIds({required bool lexemes}) {
+    final result = <String>{};
+    for (final section in _curriculum.sections) {
+      if (section.language != 'am') continue;
+      for (final unitId in section.unitIds) {
+        for (final lesson in lessonsForUnit(unitId)) {
+          result.addAll(lexemes ? lesson.lexemeIds : lesson.sentenceIds);
+        }
+      }
+    }
+    return result;
+  }
+
   /// Stufe 5: a word may only appear here once every one of its signs is
   /// already learned in path B (Teil B checks this automatically).
-  List<Lexeme> lexemesDecodableWith(Set<String> learnedChars) =>
-      allLexemes.where((l) => l.am.isNotEmpty && _isDecodableWith(l.am, learnedChars)).toList();
+  List<Lexeme> lexemesDecodableWith(Set<String> learnedChars) => allLexemes
+      .where((l) => l.am.isNotEmpty && _amharicLexemeIds.contains(l.id) && _isDecodableWith(l.am, learnedChars))
+      .toList();
 
   /// Stufe 6: same rule, for whole sentences.
-  List<Sentence> sentencesDecodableWith(Set<String> learnedChars) =>
-      allSentences.where((s) => s.am.isNotEmpty && _isDecodableWith(s.am, learnedChars)).toList();
+  List<Sentence> sentencesDecodableWith(Set<String> learnedChars) => allSentences
+      .where((s) => s.am.isNotEmpty && _amharicSentenceIds.contains(s.id) && _isDecodableWith(s.am, learnedChars))
+      .toList();
 
   List<FidelStage> get fidelStages => _fidelStages;
   List<FidelLesson> fidelLessonsForStage(String stageId) => _fidelLessonsByStage[stageId] ?? const [];

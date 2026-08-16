@@ -93,9 +93,14 @@ void main() {
         ...repo.fidelExtrasForCategory('other').map((e) => e.char),
       };
       final decodableSentences = repo.sentencesDecodableWith(allChars);
-      // With every syllable learned, all sample sentences should decode -
-      // punctuation/word separators must not block that.
-      expect(decodableSentences.length, repo.allSentences.length);
+      // With every syllable learned, all Amharic sample sentences should
+      // decode - punctuation/word separators must not block that. Scoped to
+      // `level != 'TI'` (Etappe 26): sentencesDecodableWith is specifically
+      // the Amharic reading path (Stufe 5/6), so Tigrinya sentences are
+      // correctly excluded even once decodable by coincidence of shared
+      // Ge'ez signs - they were never in scope to begin with.
+      final amharicSentenceCount = repo.allSentences.where((s) => s.level != 'TI').length;
+      expect(decodableSentences.length, amharicSentenceCount);
     });
   });
 

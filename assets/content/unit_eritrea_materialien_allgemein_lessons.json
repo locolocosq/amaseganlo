@@ -1,0 +1,214 @@
+[
+  {
+    "id": "unit_eritrea_materialien_allgemein_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_edn2",
+      "lex_ti_suf2",
+      "lex_ti_geldi2",
+      "lex_ti_bret2",
+      "lex_ti_plastik",
+      "lex_ti_wraq",
+      "lex_ti_kbti2",
+      "lex_ti_seramik",
+      "lex_ti_gomma",
+      "lex_ti_neger",
+      "lex_ti_bota4",
+      "lex_ti_sw2",
+      "lex_ti_hgi",
+      "lex_ti_shgr",
+      "lex_ti_msal",
+      "lex_ti_mlkt",
+      "lex_ti_chgir",
+      "lex_ti_mfth",
+      "lex_ti_msruh",
+      "lex_ti_hyl",
+      "lex_ti_mrhb",
+      "lex_ti_ntay2",
+      "lex_ti_bkm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_materialien_allgemein_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_edn2",
+      "lex_ti_suf2",
+      "lex_ti_geldi2",
+      "lex_ti_bret2",
+      "lex_ti_plastik",
+      "lex_ti_wraq",
+      "lex_ti_kbti2",
+      "lex_ti_seramik",
+      "lex_ti_gomma",
+      "lex_ti_neger",
+      "lex_ti_bota4",
+      "lex_ti_sw2",
+      "lex_ti_hgi",
+      "lex_ti_shgr",
+      "lex_ti_msal",
+      "lex_ti_mlkt",
+      "lex_ti_chgir",
+      "lex_ti_mfth",
+      "lex_ti_msruh",
+      "lex_ti_hyl",
+      "lex_ti_mrhb",
+      "lex_ti_ntay2",
+      "lex_ti_bkm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_materialien_allgemein_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_edn2",
+      "lex_ti_suf2",
+      "lex_ti_geldi2",
+      "lex_ti_bret2",
+      "lex_ti_plastik",
+      "lex_ti_wraq",
+      "lex_ti_kbti2",
+      "lex_ti_seramik",
+      "lex_ti_gomma",
+      "lex_ti_neger",
+      "lex_ti_bota4",
+      "lex_ti_sw2",
+      "lex_ti_hgi",
+      "lex_ti_shgr",
+      "lex_ti_msal",
+      "lex_ti_mlkt",
+      "lex_ti_chgir",
+      "lex_ti_mfth",
+      "lex_ti_msruh",
+      "lex_ti_hyl",
+      "lex_ti_mrhb",
+      "lex_ti_ntay2",
+      "lex_ti_bkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_materialien_allgemein_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_materialien_allgemein_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_edn2",
+      "lex_ti_suf2",
+      "lex_ti_geldi2",
+      "lex_ti_bret2",
+      "lex_ti_plastik",
+      "lex_ti_wraq",
+      "lex_ti_kbti2",
+      "lex_ti_seramik",
+      "lex_ti_gomma",
+      "lex_ti_neger",
+      "lex_ti_bota4",
+      "lex_ti_sw2",
+      "lex_ti_hgi",
+      "lex_ti_shgr",
+      "lex_ti_msal",
+      "lex_ti_mlkt",
+      "lex_ti_chgir",
+      "lex_ti_mfth",
+      "lex_ti_msruh",
+      "lex_ti_hyl",
+      "lex_ti_mrhb",
+      "lex_ti_ntay2",
+      "lex_ti_bkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_materialien_allgemein_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_materialien_allgemein_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_edn2",
+      "lex_ti_suf2",
+      "lex_ti_geldi2",
+      "lex_ti_bret2",
+      "lex_ti_plastik",
+      "lex_ti_wraq",
+      "lex_ti_kbti2",
+      "lex_ti_seramik",
+      "lex_ti_gomma",
+      "lex_ti_neger",
+      "lex_ti_bota4",
+      "lex_ti_sw2",
+      "lex_ti_hgi",
+      "lex_ti_shgr",
+      "lex_ti_msal",
+      "lex_ti_mlkt",
+      "lex_ti_chgir",
+      "lex_ti_mfth",
+      "lex_ti_msruh",
+      "lex_ti_hyl",
+      "lex_ti_mrhb",
+      "lex_ti_ntay2",
+      "lex_ti_bkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_materialien_allgemein_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_materialien_allgemein_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_edn2",
+      "lex_ti_suf2",
+      "lex_ti_geldi2",
+      "lex_ti_bret2",
+      "lex_ti_plastik",
+      "lex_ti_wraq",
+      "lex_ti_kbti2",
+      "lex_ti_seramik",
+      "lex_ti_gomma",
+      "lex_ti_neger",
+      "lex_ti_bota4",
+      "lex_ti_sw2",
+      "lex_ti_hgi",
+      "lex_ti_shgr",
+      "lex_ti_msal",
+      "lex_ti_mlkt",
+      "lex_ti_chgir",
+      "lex_ti_mfth",
+      "lex_ti_msruh",
+      "lex_ti_hyl",
+      "lex_ti_mrhb",
+      "lex_ti_ntay2",
+      "lex_ti_bkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_materialien_allgemein_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

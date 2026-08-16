@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_teim","am":"ጥዑም","tr":"t'i'um","pos":"adjective","topic":"taste","level":"TI","t":{"de":"süß, lecker","en":"sweet, delicious","sv":"söt, god","nl":"zoet, lekker"},"emoji":"","verified":false},
+  {"id":"lex_ti_qtsu","am":"ቐራርነት ዘለዎ","tr":"qerarnet zelewo","pos":"adjective","topic":"taste","level":"TI","t":{"de":"sauer","en":"sour","sv":"sur","nl":"zuur"},"emoji":"","verified":false},
+  {"id":"lex_ti_mrar","am":"መሪር","tr":"merir","pos":"adjective","topic":"taste","level":"TI","t":{"de":"bitter","en":"bitter","sv":"bitter","nl":"bitter"},"emoji":"","verified":false},
+  {"id":"lex_ti_kem3","am":"ህሩግ","tr":"hirug","pos":"adjective","topic":"taste","level":"TI","t":{"de":"scharf (Geschmack)","en":"spicy, hot (taste)","sv":"stark, het (smak)","nl":"pittig, heet (smaak)"},"emoji":"🌶️","verified":false},
+  {"id":"lex_ti_chew2","am":"ጨው ዘለዎ","tr":"chew zelewo","pos":"adjective","topic":"taste","level":"TI","t":{"de":"salzig","en":"salty","sv":"salt","nl":"zout"},"emoji":"","verified":false},
+  {"id":"lex_ti_ymu","am":"ጥዑም ጨና ዘለዎ","tr":"t'i'um chena zelewo","pos":"adjective","topic":"taste","level":"TI","t":{"de":"aromatisch, wohlriechend","en":"aromatic, fragrant","sv":"aromatisk, doftande","nl":"aromatisch, geurig"},"emoji":"","verified":false},
+  {"id":"lex_ti_ymu2","am":"ጨና","tr":"chena","pos":"noun","topic":"taste","level":"TI","t":{"de":"der Geruch","en":"smell, scent","sv":"lukt","nl":"geur"},"emoji":"","verified":false},
+  {"id":"lex_ti_ymu3","am":"ሕማቕ ጨና","tr":"himaq chena","pos":"adjective","topic":"taste","level":"TI","t":{"de":"stinkend, übelriechend","en":"stinky, smelly","sv":"illaluktande","nl":"stinkend"},"emoji":"","verified":false}
+]

@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_kel","am":"ክኽእል","tr":"kikh'il","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"können","en":"to be able to, can","sv":"kunna","nl":"kunnen"},"emoji":"","verified":false},
+  {"id":"lex_ti_alebn","am":"ኣለዎ ግቡእ","tr":"alewo gibu'e","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"müssen","en":"to have to, must","sv":"måste","nl":"moeten"},"emoji":"","verified":false},
+  {"id":"lex_ti_fetu","am":"ይግባእ","tr":"yigiba'e","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"sollen","en":"should","sv":"böra","nl":"zouden moeten"},"emoji":"","verified":false},
+  {"id":"lex_ti_fetu2","am":"ደለየ","tr":"deleye","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"wollen (Vergangenheit)","en":"wanted","sv":"ville","nl":"wilde"},"emoji":"","verified":false},
+  {"id":"lex_ti_frhu","am":"ተፈቕደሉ","tr":"tefeqdelu","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"dürfen","en":"to be allowed to, may","sv":"få lov att","nl":"mogen"},"emoji":"","verified":false},
+  {"id":"lex_ti_kzykl","am":"ክኸውን ይኽእል","tr":"kikhewin yikh'il","pos":"phrase","topic":"modal_verbs","level":"TI","t":{"de":"es könnte sein","en":"it could be","sv":"det kan vara","nl":"het zou kunnen zijn"},"emoji":"","verified":false},
+  {"id":"lex_ti_bilo","am":"ኢሉ","tr":"ilu","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"sagen (er sagte)","en":"to say (he said)","sv":"säga (han sa)","nl":"zeggen (hij zei)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bhli","am":"በሃሊ","tr":"behali","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"sagen (Infinitiv)","en":"to say","sv":"säga","nl":"zeggen"},"emoji":"","verified":false},
+  {"id":"lex_ti_hswu","am":"ሓሰበ","tr":"hasebe","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"denken","en":"to think","sv":"tänka","nl":"denken"},"emoji":"","verified":false},
+  {"id":"lex_ti_gebri2","am":"ተረድአ","tr":"tered'e","pos":"verb","topic":"modal_verbs","level":"TI","t":{"de":"verstehen","en":"to understand","sv":"förstå","nl":"begrijpen"},"emoji":"","verified":false}
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "unit_eritrea_adverbien_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_sebeb",
+      "lex_ti_fatanm",
+      "lex_ti_neber",
+      "lex_ti_bezhat",
+      "lex_ti_hzey",
+      "lex_ti_dhrey",
+      "lex_ti_qdmey",
+      "lex_ti_dhrbti",
+      "lex_ti_ntsu",
+      "lex_ti_nay",
+      "lex_ti_kab",
+      "lex_ti_nab",
+      "lex_ti_kmzegen",
+      "lex_ti_bzuhat",
+      "lex_ti_msli2",
+      "lex_ti_kmnti"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_adverbien_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_sebeb",
+      "lex_ti_fatanm",
+      "lex_ti_neber",
+      "lex_ti_bezhat",
+      "lex_ti_hzey",
+      "lex_ti_dhrey",
+      "lex_ti_qdmey",
+      "lex_ti_dhrbti",
+      "lex_ti_ntsu",
+      "lex_ti_nay",
+      "lex_ti_kab",
+      "lex_ti_nab",
+      "lex_ti_kmzegen",
+      "lex_ti_bzuhat",
+      "lex_ti_msli2",
+      "lex_ti_kmnti"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_adverbien_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_sebeb",
+      "lex_ti_fatanm",
+      "lex_ti_neber",
+      "lex_ti_bezhat",
+      "lex_ti_hzey",
+      "lex_ti_dhrey",
+      "lex_ti_qdmey",
+      "lex_ti_dhrbti",
+      "lex_ti_ntsu",
+      "lex_ti_nay",
+      "lex_ti_kab",
+      "lex_ti_nab",
+      "lex_ti_kmzegen",
+      "lex_ti_bzuhat",
+      "lex_ti_msli2",
+      "lex_ti_kmnti"
+    ],
+    "sentenceIds": [
+      "sen_ti_adverbien_mehr_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_adverbien_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_sebeb",
+      "lex_ti_fatanm",
+      "lex_ti_neber",
+      "lex_ti_bezhat",
+      "lex_ti_hzey",
+      "lex_ti_dhrey",
+      "lex_ti_qdmey",
+      "lex_ti_dhrbti",
+      "lex_ti_ntsu",
+      "lex_ti_nay",
+      "lex_ti_kab",
+      "lex_ti_nab",
+      "lex_ti_kmzegen",
+      "lex_ti_bzuhat",
+      "lex_ti_msli2",
+      "lex_ti_kmnti"
+    ],
+    "sentenceIds": [
+      "sen_ti_adverbien_mehr_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_adverbien_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_sebeb",
+      "lex_ti_fatanm",
+      "lex_ti_neber",
+      "lex_ti_bezhat",
+      "lex_ti_hzey",
+      "lex_ti_dhrey",
+      "lex_ti_qdmey",
+      "lex_ti_dhrbti",
+      "lex_ti_ntsu",
+      "lex_ti_nay",
+      "lex_ti_kab",
+      "lex_ti_nab",
+      "lex_ti_kmzegen",
+      "lex_ti_bzuhat",
+      "lex_ti_msli2",
+      "lex_ti_kmnti"
+    ],
+    "sentenceIds": [
+      "sen_ti_adverbien_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_adverbien_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_sebeb",
+      "lex_ti_fatanm",
+      "lex_ti_neber",
+      "lex_ti_bezhat",
+      "lex_ti_hzey",
+      "lex_ti_dhrey",
+      "lex_ti_qdmey",
+      "lex_ti_dhrbti",
+      "lex_ti_ntsu",
+      "lex_ti_nay",
+      "lex_ti_kab",
+      "lex_ti_nab",
+      "lex_ti_kmzegen",
+      "lex_ti_bzuhat",
+      "lex_ti_msli2",
+      "lex_ti_kmnti"
+    ],
+    "sentenceIds": [
+      "sen_ti_adverbien_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

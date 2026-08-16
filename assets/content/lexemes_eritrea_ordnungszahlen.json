@@ -1,0 +1,15 @@
+[
+  {"id":"lex_ti_shdsy","am":"ሻድሻይ","tr":"shadshay","pos":"adjective","topic":"ordinals","level":"TI","t":{"de":"der Sechste","en":"sixth","sv":"sjätte","nl":"zesde"},"emoji":"","verified":false},
+  {"id":"lex_ti_shwty","am":"ሻውዓይ","tr":"shaw'ay","pos":"adjective","topic":"ordinals","level":"TI","t":{"de":"der Siebte","en":"seventh","sv":"sjunde","nl":"zevende"},"emoji":"","verified":false},
+  {"id":"lex_ti_shmny","am":"ሻምናይ","tr":"shamnay","pos":"adjective","topic":"ordinals","level":"TI","t":{"de":"der Achte","en":"eighth","sv":"åttonde","nl":"achtste"},"emoji":"","verified":false},
+  {"id":"lex_ti_tshty","am":"ታሽዓይ","tr":"tashi'ay","pos":"adjective","topic":"ordinals","level":"TI","t":{"de":"der Neunte","en":"ninth","sv":"nionde","nl":"negende"},"emoji":"","verified":false},
+  {"id":"lex_ti_ashry","am":"ዓስራይ","tr":"'asray","pos":"adjective","topic":"ordinals","level":"TI","t":{"de":"der Zehnte","en":"tenth","sv":"tionde","nl":"tiende"},"emoji":"","verified":false},
+  {"id":"lex_ti_kdmeti","am":"ቅድሚ ትማሊ","tr":"qidmi timali","pos":"adverb","topic":"ordinals","level":"TI","t":{"de":"vorgestern","en":"the day before yesterday","sv":"i förrgår","nl":"eergisteren"},"emoji":"","verified":false},
+  {"id":"lex_ti_dhrtsb","am":"ድሕሪ ጽባሕ","tr":"dihri tsibah","pos":"adverb","topic":"ordinals","level":"TI","t":{"de":"übermorgen","en":"the day after tomorrow","sv":"i övermorgon","nl":"overmorgen"},"emoji":"","verified":false},
+  {"id":"lex_ti_zhsmn","am":"ዝሓለፈ ሰሙን","tr":"zihalefe semun","pos":"noun","topic":"ordinals","level":"TI","t":{"de":"letzte Woche","en":"last week","sv":"förra veckan","nl":"vorige week"},"emoji":"","verified":false},
+  {"id":"lex_ti_zmts","am":"ዝመጽእ ሰሙን","tr":"zimetsi'e semun","pos":"noun","topic":"ordinals","level":"TI","t":{"de":"nächste Woche","en":"next week","sv":"nästa vecka","nl":"volgende week"},"emoji":"","verified":false},
+  {"id":"lex_ti_zhwr","am":"ዝሓለፈ ወርሒ","tr":"zihalefe werhi","pos":"noun","topic":"ordinals","level":"TI","t":{"de":"letzter Monat","en":"last month","sv":"förra månaden","nl":"vorige maand"},"emoji":"","verified":false},
+  {"id":"lex_ti_zmwr","am":"ዝመጽእ ወርሒ","tr":"zimetsi'e werhi","pos":"noun","topic":"ordinals","level":"TI","t":{"de":"nächster Monat","en":"next month","sv":"nästa månad","nl":"volgende maand"},"emoji":"","verified":false},
+  {"id":"lex_ti_zhamt","am":"ዝሓለፈ ዓመት","tr":"zihalefe 'amet","pos":"noun","topic":"ordinals","level":"TI","t":{"de":"letztes Jahr","en":"last year","sv":"förra året","nl":"vorig jaar"},"emoji":"","verified":false},
+  {"id":"lex_ti_zmamt","am":"ዝመጽእ ዓመት","tr":"zimetsi'e 'amet","pos":"noun","topic":"ordinals","level":"TI","t":{"de":"nächstes Jahr","en":"next year","sv":"nästa år","nl":"volgend jaar"},"emoji":"","verified":false}
+]

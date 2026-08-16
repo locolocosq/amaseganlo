@@ -156,7 +156,58 @@
     "lexemes_eritrea_greetings.json",
     "lexemes_eritrea_family.json",
     "lexemes_eritrea_numbers.json",
-    "lexemes_eritrea_food.json"
+    "lexemes_eritrea_food.json",
+    "lexemes_eritrea_adverbien_mehr.json",
+    "lexemes_eritrea_allgemein.json",
+    "lexemes_eritrea_ausrufe.json",
+    "lexemes_eritrea_berufe.json",
+    "lexemes_eritrea_einkaufen.json",
+    "lexemes_eritrea_essen_mehr.json",
+    "lexemes_eritrea_faecher.json",
+    "lexemes_eritrea_familie_mehr.json",
+    "lexemes_eritrea_farben.json",
+    "lexemes_eritrea_formen.json",
+    "lexemes_eritrea_freizeit.json",
+    "lexemes_eritrea_gefuehle.json",
+    "lexemes_eritrea_geographie.json",
+    "lexemes_eritrea_gerichte.json",
+    "lexemes_eritrea_geschmack.json",
+    "lexemes_eritrea_gesundheit.json",
+    "lexemes_eritrea_getraenke.json",
+    "lexemes_eritrea_haus.json",
+    "lexemes_eritrea_hausarbeit.json",
+    "lexemes_eritrea_haushaltsgeraete.json",
+    "lexemes_eritrea_hygiene.json",
+    "lexemes_eritrea_kleidung.json",
+    "lexemes_eritrea_koerper.json",
+    "lexemes_eritrea_kultur.json",
+    "lexemes_eritrea_laender.json",
+    "lexemes_eritrea_landwirtschaft.json",
+    "lexemes_eritrea_masse.json",
+    "lexemes_eritrea_materialien.json",
+    "lexemes_eritrea_modalverben.json",
+    "lexemes_eritrea_natur.json",
+    "lexemes_eritrea_numbers_mehr.json",
+    "lexemes_eritrea_ordnungszahlen.json",
+    "lexemes_eritrea_phrasen.json",
+    "lexemes_eritrea_pronomen.json",
+    "lexemes_eritrea_regierung.json",
+    "lexemes_eritrea_restaurant.json",
+    "lexemes_eritrea_schmuck.json",
+    "lexemes_eritrea_schule.json",
+    "lexemes_eritrea_sinne.json",
+    "lexemes_eritrea_sport.json",
+    "lexemes_eritrea_stadt.json",
+    "lexemes_eritrea_technologie.json",
+    "lexemes_eritrea_tiere.json",
+    "lexemes_eritrea_tiere_mehr.json",
+    "lexemes_eritrea_tracht.json",
+    "lexemes_eritrea_verben.json",
+    "lexemes_eritrea_verben2.json",
+    "lexemes_eritrea_verkehr.json",
+    "lexemes_eritrea_weltraum.json",
+    "lexemes_eritrea_werkzeuge.json",
+    "lexemes_eritrea_zeit.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -314,7 +365,8 @@
     "sentences_safari_verben_possessiv2.json",
     "sentences_safari_frau_mann3.json",
     "sentences_safari_verben_possessiv3.json",
-    "sentences_eritrea.json"
+    "sentences_eritrea.json",
+    "sentences_eritrea_mehr.json"
   ],
   "sections": [
     {
@@ -563,7 +615,32 @@
         "unit_eritrea_greetings",
         "unit_eritrea_family",
         "unit_eritrea_numbers",
-        "unit_eritrea_food"
+        "unit_eritrea_food",
+        "unit_eritrea_zahlen_mehr",
+        "unit_eritrea_farben_formen",
+        "unit_eritrea_koerper_gesundheit",
+        "unit_eritrea_kleidung_schmuck",
+        "unit_eritrea_haus_mehr",
+        "unit_eritrea_natur_geographie",
+        "unit_eritrea_tiere_mehr",
+        "unit_eritrea_zeit_mehr",
+        "unit_eritrea_berufe_staat",
+        "unit_eritrea_verkehr_stadt",
+        "unit_eritrea_verben",
+        "unit_eritrea_verben_mehr",
+        "unit_eritrea_gefuehle_sinne",
+        "unit_eritrea_schule_faecher",
+        "unit_eritrea_technologie_masse",
+        "unit_eritrea_sport_freizeit",
+        "unit_eritrea_kultur",
+        "unit_eritrea_einkaufen_restaurant",
+        "unit_eritrea_essen_gerichte",
+        "unit_eritrea_familie_pronomen",
+        "unit_eritrea_laender",
+        "unit_eritrea_landwirtschaft_werkzeuge",
+        "unit_eritrea_materialien_allgemein",
+        "unit_eritrea_phrasen_ausrufe",
+        "unit_eritrea_adverbien_mehr"
       ]
     }
   ],
@@ -2595,6 +2672,331 @@
       },
       "topic": "food",
       "lessonFile": "unit_eritrea_food_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_zahlen_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Zahlen 11-1000",
+        "en": "Numbers 11-1000",
+        "sv": "Siffror 11-1000",
+        "nl": "Getallen 11-1000"
+      },
+      "topic": "numbers_more",
+      "lessonFile": "unit_eritrea_zahlen_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_farben_formen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Farben & Formen",
+        "en": "Colors & Shapes",
+        "sv": "Färger & Former",
+        "nl": "Kleuren & Vormen"
+      },
+      "topic": "colors_shapes",
+      "lessonFile": "unit_eritrea_farben_formen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_koerper_gesundheit",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Körper & Gesundheit",
+        "en": "Body & Health",
+        "sv": "Kropp & Hälsa",
+        "nl": "Lichaam & Gezondheid"
+      },
+      "topic": "body_health",
+      "lessonFile": "unit_eritrea_koerper_gesundheit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kleidung_schmuck",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Kleidung & Schmuck",
+        "en": "Clothing & Jewelry",
+        "sv": "Kläder & Smycken",
+        "nl": "Kleding & Sieraden"
+      },
+      "topic": "clothing_jewelry",
+      "lessonFile": "unit_eritrea_kleidung_schmuck_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_haus_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Haus & Haushalt",
+        "en": "House & Household",
+        "sv": "Hus & Hushåll",
+        "nl": "Huis & Huishouden"
+      },
+      "topic": "house_more",
+      "lessonFile": "unit_eritrea_haus_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_natur_geographie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Natur & Geografie",
+        "en": "Nature & Geography",
+        "sv": "Natur & Geografi",
+        "nl": "Natuur & Geografie"
+      },
+      "topic": "nature_geography",
+      "lessonFile": "unit_eritrea_natur_geographie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_tiere_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Tiere (mehr)",
+        "en": "Animals (more)",
+        "sv": "Djur (mer)",
+        "nl": "Dieren (meer)"
+      },
+      "topic": "animals_more",
+      "lessonFile": "unit_eritrea_tiere_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_zeit_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Zeit & Datum (mehr)",
+        "en": "Time & Date (more)",
+        "sv": "Tid & Datum (mer)",
+        "nl": "Tijd & Datum (meer)"
+      },
+      "topic": "time_more",
+      "lessonFile": "unit_eritrea_zeit_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_berufe_staat",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Berufe & Staat",
+        "en": "Professions & State",
+        "sv": "Yrken & Stat",
+        "nl": "Beroepen & Staat"
+      },
+      "topic": "professions_state",
+      "lessonFile": "unit_eritrea_berufe_staat_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verkehr_stadt",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Verkehr & Stadt",
+        "en": "Transport & City",
+        "sv": "Transport & Stad",
+        "nl": "Verkeer & Stad"
+      },
+      "topic": "transport_city",
+      "lessonFile": "unit_eritrea_verkehr_stadt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verben",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Verben (Grundlagen)",
+        "en": "Verbs (basics)",
+        "sv": "Verb (grunder)",
+        "nl": "Werkwoorden (basis)"
+      },
+      "topic": "verbs",
+      "lessonFile": "unit_eritrea_verben_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verben_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Verben (mehr)",
+        "en": "Verbs (more)",
+        "sv": "Verb (mer)",
+        "nl": "Werkwoorden (meer)"
+      },
+      "topic": "verbs_more",
+      "lessonFile": "unit_eritrea_verben_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gefuehle_sinne",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gefühle & Sinne",
+        "en": "Emotions & Senses",
+        "sv": "Känslor & Sinnen",
+        "nl": "Emoties & Zintuigen"
+      },
+      "topic": "emotions_senses",
+      "lessonFile": "unit_eritrea_gefuehle_sinne_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_schule_faecher",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Schule & Fächer",
+        "en": "School & Subjects",
+        "sv": "Skola & Ämnen",
+        "nl": "School & Vakken"
+      },
+      "topic": "school_subjects",
+      "lessonFile": "unit_eritrea_schule_faecher_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_technologie_masse",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Technologie & Maße",
+        "en": "Technology & Measurements",
+        "sv": "Teknik & Mått",
+        "nl": "Technologie & Maten"
+      },
+      "topic": "technology_measurements",
+      "lessonFile": "unit_eritrea_technologie_masse_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sport_freizeit",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Sport & Freizeit",
+        "en": "Sports & Leisure",
+        "sv": "Sport & Fritid",
+        "nl": "Sport & Vrije tijd"
+      },
+      "topic": "sports_leisure",
+      "lessonFile": "unit_eritrea_sport_freizeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kultur",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Kultur & Religion",
+        "en": "Culture & Religion",
+        "sv": "Kultur & Religion",
+        "nl": "Cultuur & Religie"
+      },
+      "topic": "culture",
+      "lessonFile": "unit_eritrea_kultur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_einkaufen_restaurant",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Einkaufen & Restaurant",
+        "en": "Shopping & Restaurant",
+        "sv": "Shopping & Restaurang",
+        "nl": "Winkelen & Restaurant"
+      },
+      "topic": "shopping_restaurant",
+      "lessonFile": "unit_eritrea_einkaufen_restaurant_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_essen_gerichte",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Essen & Gerichte (mehr)",
+        "en": "Food & Dishes (more)",
+        "sv": "Mat & Rätter (mer)",
+        "nl": "Eten & Gerechten (meer)"
+      },
+      "topic": "food_more",
+      "lessonFile": "unit_eritrea_essen_gerichte_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_familie_pronomen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Familie & Pronomen (mehr)",
+        "en": "Family & Pronouns (more)",
+        "sv": "Familj & Pronomen (mer)",
+        "nl": "Familie & Voornaamwoorden (meer)"
+      },
+      "topic": "family_pronouns",
+      "lessonFile": "unit_eritrea_familie_pronomen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_laender",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Länder & Sprachen",
+        "en": "Countries & Languages",
+        "sv": "Länder & Språk",
+        "nl": "Landen & Talen"
+      },
+      "topic": "countries_languages",
+      "lessonFile": "unit_eritrea_laender_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_landwirtschaft_werkzeuge",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Landwirtschaft & Werkzeuge",
+        "en": "Agriculture & Tools",
+        "sv": "Jordbruk & Verktyg",
+        "nl": "Landbouw & Gereedschap"
+      },
+      "topic": "agriculture_tools",
+      "lessonFile": "unit_eritrea_landwirtschaft_werkzeuge_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_materialien_allgemein",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Materialien & Allgemeines",
+        "en": "Materials & General",
+        "sv": "Material & Allmänt",
+        "nl": "Materialen & Algemeen"
+      },
+      "topic": "materials_general",
+      "lessonFile": "unit_eritrea_materialien_allgemein_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_phrasen_ausrufe",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Redewendungen & Ausrufe",
+        "en": "Phrases & Exclamations",
+        "sv": "Fraser & Utrop",
+        "nl": "Zinnen & Uitroepen"
+      },
+      "topic": "phrases_exclamations",
+      "lessonFile": "unit_eritrea_phrasen_ausrufe_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_adverbien_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Adverbien & Präpositionen (mehr)",
+        "en": "Adverbs & Prepositions (more)",
+        "sv": "Adverb & Prepositioner (mer)",
+        "nl": "Bijwoorden & Voorzetsels (meer)"
+      },
+      "topic": "adverbs_more",
+      "lessonFile": "unit_eritrea_adverbien_mehr_lessons.json"
     }
   ]
 }

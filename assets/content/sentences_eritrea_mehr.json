@@ -1,0 +1,527 @@
+[
+  {
+    "id": "sen_ti_zahlen_mehr_1",
+    "am": "ዓሰርተ ሓደ ኣሎ።",
+    "tr": "asirte hade alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_11"
+    ],
+    "t": {
+      "de": "Es gibt 11.",
+      "en": "There is 11.",
+      "sv": "Det finns 11.",
+      "nl": "Er is 11."
+    },
+    "alt": {},
+    "chunks": [
+      "asirte hade",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_farben_formen_1",
+    "am": "ቀይሕ ኣሎ።",
+    "tr": "qeyih alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_qeyih"
+    ],
+    "t": {
+      "de": "Es gibt rot.",
+      "en": "There is red.",
+      "sv": "Det finns röd.",
+      "nl": "Er is rood."
+    },
+    "alt": {},
+    "chunks": [
+      "qeyih",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_koerper_gesundheit_1",
+    "am": "ርእሲ ኣሎ።",
+    "tr": "re'isi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_reisi"
+    ],
+    "t": {
+      "de": "Es gibt der Kopf.",
+      "en": "There is head.",
+      "sv": "Det finns huvud.",
+      "nl": "Er is hoofd."
+    },
+    "alt": {},
+    "chunks": [
+      "re'isi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kleidung_schmuck_1",
+    "am": "ክዳን ኣሎ።",
+    "tr": "kidan alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hatsi"
+    ],
+    "t": {
+      "de": "Es gibt die Kleidung.",
+      "en": "There is clothing.",
+      "sv": "Det finns kläder.",
+      "nl": "Er is kleding."
+    },
+    "alt": {},
+    "chunks": [
+      "kidan",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_haus_mehr_1",
+    "am": "ገዛ ኣሎ።",
+    "tr": "geza alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_geza"
+    ],
+    "t": {
+      "de": "Es gibt das Haus.",
+      "en": "There is house.",
+      "sv": "Det finns hus.",
+      "nl": "Er is huis."
+    },
+    "alt": {},
+    "chunks": [
+      "geza",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_natur_geographie_1",
+    "am": "ጸሓይ ኣሎ።",
+    "tr": "tsehay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tselam"
+    ],
+    "t": {
+      "de": "Es gibt die Sonne.",
+      "en": "There is sun.",
+      "sv": "Det finns sol.",
+      "nl": "Er is zon."
+    },
+    "alt": {},
+    "chunks": [
+      "tsehay",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_tiere_mehr_1",
+    "am": "ከልቢ ኣሎ።",
+    "tr": "kelbi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kelbi"
+    ],
+    "t": {
+      "de": "Es gibt der Hund.",
+      "en": "There is dog.",
+      "sv": "Det finns hund.",
+      "nl": "Er is hond."
+    },
+    "alt": {},
+    "chunks": [
+      "kelbi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_zeit_mehr_1",
+    "am": "ሰዓት (ግዜ) ኣሎ።",
+    "tr": "se'at alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_setti"
+    ],
+    "t": {
+      "de": "Es gibt die Stunde.",
+      "en": "There is hour, time.",
+      "sv": "Det finns timme, tid.",
+      "nl": "Er is uur, tijd."
+    },
+    "alt": {},
+    "chunks": [
+      "se'at",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_berufe_staat_1",
+    "am": "መምህር ኣሎ።",
+    "tr": "memhir alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_memhr"
+    ],
+    "t": {
+      "de": "Es gibt der Lehrer.",
+      "en": "There is teacher.",
+      "sv": "Det finns lärare.",
+      "nl": "Er is leraar."
+    },
+    "alt": {},
+    "chunks": [
+      "memhir",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_verkehr_stadt_1",
+    "am": "መኪና ኣሎ።",
+    "tr": "mekina alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mekina"
+    ],
+    "t": {
+      "de": "Es gibt das Auto.",
+      "en": "There is car.",
+      "sv": "Det finns bil.",
+      "nl": "Er is auto."
+    },
+    "alt": {},
+    "chunks": [
+      "mekina",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_verben_1",
+    "am": "ብላዕ ኣሎ።",
+    "tr": "bila'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bilu"
+    ],
+    "t": {
+      "de": "Es gibt essen.",
+      "en": "There is to eat.",
+      "sv": "Det finns äta.",
+      "nl": "Er is eten."
+    },
+    "alt": {},
+    "chunks": [
+      "bila'e",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_verben_mehr_1",
+    "am": "ኣርኢ ኣሎ።",
+    "tr": "ari'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzki"
+    ],
+    "t": {
+      "de": "Es gibt zeigen.",
+      "en": "There is to show.",
+      "sv": "Det finns visa.",
+      "nl": "Er is tonen."
+    },
+    "alt": {},
+    "chunks": [
+      "ari'i",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gefuehle_sinne_1",
+    "am": "ሓጎስ ኣሎ።",
+    "tr": "hagos alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hagos"
+    ],
+    "t": {
+      "de": "Es gibt die Freude.",
+      "en": "There is joy, happiness.",
+      "sv": "Det finns glädje.",
+      "nl": "Er is vreugde."
+    },
+    "alt": {},
+    "chunks": [
+      "hagos",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_schule_faecher_1",
+    "am": "መጽሓፍ ኣሎ።",
+    "tr": "metsihaf alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_metsihaf"
+    ],
+    "t": {
+      "de": "Es gibt das Buch.",
+      "en": "There is book.",
+      "sv": "Det finns bok.",
+      "nl": "Er is boek."
+    },
+    "alt": {},
+    "chunks": [
+      "metsihaf",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_technologie_masse_1",
+    "am": "ተሌፎን ኣሎ።",
+    "tr": "telefon alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_telefon"
+    ],
+    "t": {
+      "de": "Es gibt das Telefon.",
+      "en": "There is telephone.",
+      "sv": "Det finns telefon.",
+      "nl": "Er is telefoon."
+    },
+    "alt": {},
+    "chunks": [
+      "telefon",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_sport_freizeit_1",
+    "am": "ኩዕሶ እግሪ ኣሎ።",
+    "tr": "ku'iso igri alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kwas2"
+    ],
+    "t": {
+      "de": "Es gibt der Fußball.",
+      "en": "There is football, soccer.",
+      "sv": "Det finns fotboll.",
+      "nl": "Er is voetbal."
+    },
+    "alt": {},
+    "chunks": [
+      "ku'iso igri",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kultur_1",
+    "am": "ኣምላኽ ኣሎ።",
+    "tr": "amlak alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_amlaki"
+    ],
+    "t": {
+      "de": "Es gibt Gott.",
+      "en": "There is God.",
+      "sv": "Det finns Gud.",
+      "nl": "Er is God."
+    },
+    "alt": {},
+    "chunks": [
+      "amlak",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_einkaufen_restaurant_1",
+    "am": "ገንዘብ ኣሎ።",
+    "tr": "genzeb alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_genzeb"
+    ],
+    "t": {
+      "de": "Es gibt das Geld.",
+      "en": "There is money.",
+      "sv": "Det finns pengar.",
+      "nl": "Er is geld."
+    },
+    "alt": {},
+    "chunks": [
+      "genzeb",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_essen_gerichte_1",
+    "am": "ባኒ (ገፎ) ኣሎ።",
+    "tr": "bani gefo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hbsti"
+    ],
+    "t": {
+      "de": "Es gibt das Fladenbrot.",
+      "en": "There is flatbread (injera-like).",
+      "sv": "Det finns tunt bröd.",
+      "nl": "Er is platbrood."
+    },
+    "alt": {},
+    "chunks": [
+      "bani gefo",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_familie_pronomen_1",
+    "am": "ኣኮ ኣሎ።",
+    "tr": "ako alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hawey"
+    ],
+    "t": {
+      "de": "Es gibt der Onkel.",
+      "en": "There is uncle (paternal).",
+      "sv": "Det finns farbror.",
+      "nl": "Er is oom (vaderskant)."
+    },
+    "alt": {},
+    "chunks": [
+      "ako",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_laender_1",
+    "am": "ጀርመን ኣሎ።",
+    "tr": "jermen alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_germaniya"
+    ],
+    "t": {
+      "de": "Es gibt Deutschland.",
+      "en": "There is Germany.",
+      "sv": "Det finns Tyskland.",
+      "nl": "Er is Duitsland."
+    },
+    "alt": {},
+    "chunks": [
+      "jermen",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_landwirtschaft_werkzeuge_1",
+    "am": "ሕርሻ ኣሎ።",
+    "tr": "hirsha alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_agri"
+    ],
+    "t": {
+      "de": "Es gibt die Landwirtschaft.",
+      "en": "There is agriculture, farming.",
+      "sv": "Det finns jordbruk.",
+      "nl": "Er is landbouw."
+    },
+    "alt": {},
+    "chunks": [
+      "hirsha",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_materialien_allgemein_1",
+    "am": "ጥጡፍ ኣሎ።",
+    "tr": "t'it'uf alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_edn2"
+    ],
+    "t": {
+      "de": "Es gibt die Baumwolle.",
+      "en": "There is cotton.",
+      "sv": "Det finns bomull.",
+      "nl": "Er is katoen."
+    },
+    "alt": {},
+    "chunks": [
+      "t'it'uf",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_phrasen_ausrufe_1",
+    "am": "ደሓን ኩኑ ኣሎ።",
+    "tr": "dehan kunu alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dehankunu"
+    ],
+    "t": {
+      "de": "Es gibt Auf Wiedersehen.",
+      "en": "There is goodbye (to several).",
+      "sv": "Det finns hej då (till flera).",
+      "nl": "Er is tot ziens (tegen meerderen)."
+    },
+    "alt": {},
+    "chunks": [
+      "dehan kunu",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_adverbien_mehr_1",
+    "am": "ወትሩ ኣሎ።",
+    "tr": "wetru alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sebeb"
+    ],
+    "t": {
+      "de": "Es gibt immer.",
+      "en": "There is always.",
+      "sv": "Det finns alltid.",
+      "nl": "Er is altijd."
+    },
+    "alt": {},
+    "chunks": [
+      "wetru",
+      "alo"
+    ],
+    "verified": false
+  }
+]

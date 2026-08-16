@@ -1,0 +1,16 @@
+[
+  {"id":"lex_ti_hmam","am":"ሕማም","tr":"himam","pos":"noun","topic":"health","level":"TI","t":{"de":"die Krankheit","en":"illness, disease","sv":"sjukdom","nl":"ziekte"},"emoji":"🤒","verified":false},
+  {"id":"lex_ti_kabi","am":"ቃንዛ","tr":"qanza","pos":"noun","topic":"health","level":"TI","t":{"de":"der Schmerz","en":"pain","sv":"smärta","nl":"pijn"},"emoji":"","verified":false},
+  {"id":"lex_ti_medhanit3","am":"መድሃኒት","tr":"medhanit","pos":"noun","topic":"health","level":"TI","t":{"de":"die Medizin","en":"medicine","sv":"medicin","nl":"medicijn"},"emoji":"💊","verified":false},
+  {"id":"lex_ti_hakim2","am":"ክሊኒክ","tr":"klinik","pos":"noun","topic":"health","level":"TI","t":{"de":"die Klinik","en":"clinic","sv":"klinik","nl":"kliniek"},"emoji":"🏥","verified":false},
+  {"id":"lex_ti_reisidem","am":"ርእሲ ቃንዛ","tr":"re'isi qanza","pos":"noun","topic":"health","level":"TI","t":{"de":"die Kopfschmerzen","en":"headache","sv":"huvudvärk","nl":"hoofdpijn"},"emoji":"","verified":false},
+  {"id":"lex_ti_tsina","am":"ረስኒ","tr":"resni","pos":"noun","topic":"health","level":"TI","t":{"de":"das Fieber","en":"fever","sv":"feber","nl":"koorts"},"emoji":"🤒","verified":false},
+  {"id":"lex_ti_kwas","am":"ስዓል","tr":"si'al","pos":"noun","topic":"health","level":"TI","t":{"de":"der Husten","en":"cough","sv":"hosta","nl":"hoest"},"emoji":"","verified":false},
+  {"id":"lex_ti_kirstos","am":"ማህረምቲ","tr":"mahiremti","pos":"noun","topic":"health","level":"TI","t":{"de":"die Verletzung","en":"injury","sv":"skada","nl":"verwonding"},"emoji":"","verified":false},
+  {"id":"lex_ti_dnkr","am":"ወቕጢ ደም","tr":"weqti dem","pos":"noun","topic":"health","level":"TI","t":{"de":"der Blutdruck","en":"blood pressure","sv":"blodtryck","nl":"bloeddruk"},"emoji":"","verified":false},
+  {"id":"lex_ti_hakim3","am":"መርመራ","tr":"mermera","pos":"noun","topic":"health","level":"TI","t":{"de":"die Untersuchung","en":"examination, check-up","sv":"undersökning","nl":"onderzoek"},"emoji":"","verified":false},
+  {"id":"lex_ti_shfawi","am":"ጥዑይ","tr":"t'i'uy","pos":"adjective","topic":"health","level":"TI","t":{"de":"gesund","en":"healthy","sv":"frisk","nl":"gezond"},"emoji":"","verified":false},
+  {"id":"lex_ti_hmumi","am":"ሓሚሙ","tr":"hamimu","pos":"adjective","topic":"health","level":"TI","t":{"de":"krank","en":"sick, ill","sv":"sjuk","nl":"ziek"},"emoji":"","verified":false},
+  {"id":"lex_ti_medhanitbet","am":"ቤት ፋርማሲ","tr":"bet farmasi","pos":"noun","topic":"health","level":"TI","t":{"de":"die Apotheke","en":"pharmacy","sv":"apotek","nl":"apotheek"},"emoji":"💊","verified":false},
+  {"id":"lex_ti_snni2","am":"ስኒ ሓኪም","tr":"sinni hakim","pos":"noun","topic":"health","level":"TI","t":{"de":"der Zahnarzt","en":"dentist","sv":"tandläkare","nl":"tandarts"},"emoji":"🦷","verified":false}
+]

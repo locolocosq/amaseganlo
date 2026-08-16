@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_saweba","am":"ጠዓሙ (ጠጅ)","tr":"tej","pos":"noun","topic":"drinks","level":"TI","t":{"de":"der Honigwein","en":"honey wine","sv":"honungsvin","nl":"honingwijn"},"emoji":"","verified":false},
+  {"id":"lex_ti_swa","am":"ስዋ","tr":"siwa","pos":"noun","topic":"drinks","level":"TI","t":{"de":"das Bier (traditionell)","en":"traditional beer","sv":"traditionell öl","nl":"traditioneel bier"},"emoji":"🍺","verified":false},
+  {"id":"lex_ti_birra","am":"ቢራ","tr":"bira","pos":"noun","topic":"drinks","level":"TI","t":{"de":"das Bier","en":"beer","sv":"öl","nl":"bier"},"emoji":"🍺","verified":false},
+  {"id":"lex_ti_wine","am":"ወይኒ","tr":"weyni","pos":"noun","topic":"drinks","level":"TI","t":{"de":"der Wein","en":"wine","sv":"vin","nl":"wijn"},"emoji":"🍷","verified":false},
+  {"id":"lex_ti_shai2","am":"ማይ ኣራንሺ","tr":"mai aranshi","pos":"noun","topic":"drinks","level":"TI","t":{"de":"der Orangensaft","en":"orange juice","sv":"apelsinjuice","nl":"sinaasappelsap"},"emoji":"🧃","verified":false},
+  {"id":"lex_ti_mai2","am":"ማይ ዝሑል","tr":"mai zihul","pos":"noun","topic":"drinks","level":"TI","t":{"de":"kaltes Wasser","en":"cold water","sv":"kallt vatten","nl":"koud water"},"emoji":"","verified":false},
+  {"id":"lex_ti_maimuq","am":"ማይ ዝሙቐ","tr":"mai zimuqe","pos":"noun","topic":"drinks","level":"TI","t":{"de":"warmes Wasser","en":"warm water","sv":"varmt vatten","nl":"warm water"},"emoji":"","verified":false},
+  {"id":"lex_ti_shai3","am":"ሻሂ ብጸባ","tr":"shai bitseba","pos":"noun","topic":"drinks","level":"TI","t":{"de":"Tee mit Milch","en":"tea with milk","sv":"te med mjölk","nl":"thee met melk"},"emoji":"","verified":false},
+  {"id":"lex_ti_arki","am":"ዓረቂ","tr":"'areqi","pos":"noun","topic":"drinks","level":"TI","t":{"de":"der Schnaps (traditionell)","en":"traditional spirit","sv":"traditionell sprit","nl":"traditionele sterke drank"},"emoji":"","verified":false},
+  {"id":"lex_ti_kesa","am":"ስተያ","tr":"stiya","pos":"noun","topic":"drinks","level":"TI","t":{"de":"das Getränk","en":"beverage, drink","sv":"dryck","nl":"drankje"},"emoji":"🥤","verified":false}
+]

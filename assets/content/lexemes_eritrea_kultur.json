@@ -1,0 +1,16 @@
+[
+  {"id":"lex_ti_amlaki","am":"ኣምላኽ","tr":"amlak","pos":"noun","topic":"culture","level":"TI","t":{"de":"Gott","en":"God","sv":"Gud","nl":"God"},"emoji":"","verified":false},
+  {"id":"lex_ti_tsli3","am":"ጸሎት","tr":"tselot","pos":"noun","topic":"culture","level":"TI","t":{"de":"das Gebet","en":"prayer","sv":"bön","nl":"gebed"},"emoji":"🙏","verified":false},
+  {"id":"lex_ti_bal2","am":"በዓል","tr":"be'al","pos":"noun","topic":"culture","level":"TI","t":{"de":"das Fest, der Feiertag","en":"festival, holiday","sv":"fest, helgdag","nl":"feest, feestdag"},"emoji":"🎉","verified":false},
+  {"id":"lex_ti_fasika","am":"ፋሲካ","tr":"fasika","pos":"noun","topic":"culture","level":"TI","t":{"de":"Ostern","en":"Easter","sv":"påsk","nl":"Pasen"},"emoji":"","verified":false},
+  {"id":"lex_ti_lidet","am":"ልደት","tr":"lidet","pos":"noun","topic":"culture","level":"TI","t":{"de":"Weihnachten","en":"Christmas","sv":"jul","nl":"Kerstmis"},"emoji":"🎄","verified":false},
+  {"id":"lex_ti_ramadan","am":"ረመዳን","tr":"ramedan","pos":"noun","topic":"culture","level":"TI","t":{"de":"Ramadan","en":"Ramadan","sv":"Ramadan","nl":"Ramadan"},"emoji":"","verified":false},
+  {"id":"lex_ti_neway3","am":"ባህሊ","tr":"bahli","pos":"noun","topic":"culture","level":"TI","t":{"de":"die Kultur","en":"culture","sv":"kultur","nl":"cultuur"},"emoji":"","verified":false},
+  {"id":"lex_ti_lmd","am":"ልምዲ","tr":"limdi","pos":"noun","topic":"culture","level":"TI","t":{"de":"die Tradition, die Gewohnheit","en":"tradition, custom","sv":"tradition, vana","nl":"traditie, gewoonte"},"emoji":"","verified":false},
+  {"id":"lex_ti_meznagn","am":"መርዓ","tr":"mer'a","pos":"noun","topic":"culture","level":"TI","t":{"de":"die Hochzeit","en":"wedding","sv":"bröllop","nl":"bruiloft"},"emoji":"💒","verified":false},
+  {"id":"lex_ti_lgo","am":"ልደት ዓመት","tr":"lidet 'amet","pos":"noun","topic":"culture","level":"TI","t":{"de":"der Geburtstag","en":"birthday","sv":"födelsedag","nl":"verjaardag"},"emoji":"🎂","verified":false},
+  {"id":"lex_ti_zeraf","am":"ሙዚቃ","tr":"muziqa","pos":"noun","topic":"culture","level":"TI","t":{"de":"die Musik","en":"music","sv":"musik","nl":"muziek"},"emoji":"🎶","verified":false},
+  {"id":"lex_ti_krar","am":"ክራር","tr":"krar","pos":"noun","topic":"culture","level":"TI","t":{"de":"die Kriar-Leier (Instrument)","en":"krar (lyre)","sv":"krar (harpa)","nl":"krar (lier)"},"emoji":"","verified":false},
+  {"id":"lex_ti_wata","am":"ዋጣ","tr":"wata","pos":"noun","topic":"culture","level":"TI","t":{"de":"die traditionelle Fiedel","en":"traditional fiddle","sv":"traditionell fiol","nl":"traditionele viool"},"emoji":"","verified":false},
+  {"id":"lex_ti_tarik","am":"ታሪኽ","tr":"tarikh","pos":"noun","topic":"culture","level":"TI","t":{"de":"die Geschichte","en":"history, story","sv":"historia","nl":"geschiedenis"},"emoji":"","verified":false}
+]

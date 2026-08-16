@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_mengsti","am":"መንግስቲ","tr":"mengisti","pos":"noun","topic":"government","level":"TI","t":{"de":"die Regierung","en":"government","sv":"regering","nl":"regering"},"emoji":"","verified":false},
+  {"id":"lex_ti_president","am":"ፕረዚደንት","tr":"perezident","pos":"noun","topic":"government","level":"TI","t":{"de":"der Präsident","en":"president","sv":"president","nl":"president"},"emoji":"","verified":false},
+  {"id":"lex_ti_hgi2","am":"ሕጊ","tr":"higgi","pos":"noun","topic":"government","level":"TI","t":{"de":"das Gesetz","en":"law","sv":"lag","nl":"wet"},"emoji":"","verified":false},
+  {"id":"lex_ti_fdi","am":"ናጽነት","tr":"natsinet","pos":"noun","topic":"government","level":"TI","t":{"de":"die Unabhängigkeit, Freiheit","en":"independence, freedom","sv":"självständighet, frihet","nl":"onafhankelijkheid, vrijheid"},"emoji":"","verified":false},
+  {"id":"lex_ti_hzbi","am":"ህዝቢ","tr":"hizbi","pos":"noun","topic":"government","level":"TI","t":{"de":"das Volk","en":"people, nation","sv":"folk","nl":"volk"},"emoji":"","verified":false},
+  {"id":"lex_ti_mrhba2","am":"መረጻ","tr":"meretsa","pos":"noun","topic":"government","level":"TI","t":{"de":"die Wahl","en":"election","sv":"val","nl":"verkiezing"},"emoji":"","verified":false},
+  {"id":"lex_ti_gnzabi2","am":"ባጤራ","tr":"bat'era","pos":"noun","topic":"government","level":"TI","t":{"de":"die Währung","en":"currency","sv":"valuta","nl":"valuta"},"emoji":"","verified":false},
+  {"id":"lex_ti_dngi","am":"ደንቢ","tr":"denbi","pos":"noun","topic":"government","level":"TI","t":{"de":"die Regel, Vorschrift","en":"rule, regulation","sv":"regel","nl":"regel"},"emoji":"","verified":false},
+  {"id":"lex_ti_snd2","am":"ስንዲቕ","tr":"sindiq","pos":"noun","topic":"government","level":"TI","t":{"de":"die Grenze","en":"border","sv":"gräns","nl":"grens"},"emoji":"","verified":false},
+  {"id":"lex_ti_wr2","am":"ውግእ","tr":"wig'i","pos":"noun","topic":"government","level":"TI","t":{"de":"der Krieg","en":"war","sv":"krig","nl":"oorlog"},"emoji":"","verified":false}
+]

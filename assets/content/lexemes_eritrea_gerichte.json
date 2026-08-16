@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_zigni","am":"ዝግኒ","tr":"zigni","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Zigni (scharfer Eintopf)","en":"zigni (spicy stew)","sv":"zigni (kryddig gryta)","nl":"zigni (pittige stoofpot)"},"emoji":"🍲","verified":false},
+  {"id":"lex_ti_shro","am":"ሽሮ","tr":"shiro","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Shiro (Kichererbsen-Eintopf)","en":"shiro (chickpea stew)","sv":"shiro (kikärtsgryta)","nl":"shiro (kikkererwtenstoofpot)"},"emoji":"","verified":false},
+  {"id":"lex_ti_ful","am":"ፉል","tr":"ful","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Ful (Bohnengericht)","en":"ful (bean dish)","sv":"ful (bönrätt)","nl":"ful (bonengerecht)"},"emoji":"","verified":false},
+  {"id":"lex_ti_tsebhi2","am":"ጸብሒ ስጋ","tr":"tsebhi siga","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Fleischeintopf","en":"meat stew","sv":"köttgryta","nl":"vleesstoofpot"},"emoji":"","verified":false},
+  {"id":"lex_ti_hlbet","am":"ሕልብትድ","tr":"hilbet","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Hilbet (Bohnenpüree)","en":"hilbet (bean purée)","sv":"hilbet (bönpuré)","nl":"hilbet (bonenpuree)"},"emoji":"","verified":false},
+  {"id":"lex_ti_tsebhidnH","am":"ጸብሒ ድንሽ","tr":"tsebhi dinish","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Kartoffeleintopf","en":"potato stew","sv":"potatisgryta","nl":"aardappelstoofpot"},"emoji":"","verified":false},
+  {"id":"lex_ti_kicha","am":"ቂጣ","tr":"qicha","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Kicha (ungesäuertes Brot)","en":"kicha (unleavened bread)","sv":"kicha (osyrat bröd)","nl":"kicha (ongezuurd brood)"},"emoji":"","verified":false},
+  {"id":"lex_ti_hmbsha","am":"ሕምበሻ","tr":"himbesha","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Himbasha (festliches Brot)","en":"himbasha (festive bread)","sv":"himbasha (festbröd)","nl":"himbasha (feestbrood)"},"emoji":"","verified":false},
+  {"id":"lex_ti_tirsi","am":"ጥርሲ","tr":"tirsi","pos":"noun","topic":"dishes","level":"TI","t":{"de":"Tirsi (Linsengericht)","en":"tirsi (lentil dish)","sv":"tirsi (linsrätt)","nl":"tirsi (linzengerecht)"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfto","am":"ክፍቶ","tr":"kifto","pos":"noun","topic":"dishes","level":"TI","t":{"de":"rohes gewürztes Rindfleisch","en":"spiced raw beef","sv":"kryddat rått nötkött","nl":"gekruid rauw rundvlees"},"emoji":"","verified":false}
+]

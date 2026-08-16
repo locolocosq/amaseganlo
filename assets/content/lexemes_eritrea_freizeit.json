@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_tsewata2","am":"ዕረፍቲ","tr":"'irefti","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Pause, Erholung","en":"break, rest","sv":"paus, vila","nl":"pauze, rust"},"emoji":"","verified":false},
+  {"id":"lex_ti_kbti3","am":"በዓል ዕረፍቲ","tr":"be'al 'irefti","pos":"noun","topic":"leisure","level":"TI","t":{"de":"der Urlaub","en":"vacation, holiday","sv":"semester","nl":"vakantie"},"emoji":"🏖️","verified":false},
+  {"id":"lex_ti_frnda","am":"ፊልም","tr":"filim","pos":"noun","topic":"leisure","level":"TI","t":{"de":"der Film","en":"movie, film","sv":"film","nl":"film"},"emoji":"🎬","verified":false},
+  {"id":"lex_ti_tyatr","am":"ትያትር","tr":"tiyatir","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Theater","en":"theater","sv":"teater","nl":"theater"},"emoji":"🎭","verified":false},
+  {"id":"lex_ti_wgni","am":"ጓይላ","tr":"gwayla","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Feier, das Fest (traditionell)","en":"traditional celebration","sv":"traditionellt firande","nl":"traditionele viering"},"emoji":"🎉","verified":false},
+  {"id":"lex_ti_shmgl","am":"ዕድል","tr":"'idil","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Chance, das Glück","en":"chance, luck","sv":"chans, tur","nl":"kans, geluk"},"emoji":"","verified":false},
+  {"id":"lex_ti_wnzr","am":"ካርታ ጸወታ","tr":"karta tsewuta","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Spielkarten","en":"playing cards","sv":"spelkort","nl":"speelkaarten"},"emoji":"🃏","verified":false},
+  {"id":"lex_ti_shtrnj","am":"ሻጥርንጅ","tr":"shatrinj","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Schach","en":"chess","sv":"schack","nl":"schaken"},"emoji":"♟️","verified":false},
+  {"id":"lex_ti_smcht","am":"ኣዝማች","tr":"azmach","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Lied","en":"song","sv":"sång","nl":"lied"},"emoji":"🎵","verified":false},
+  {"id":"lex_ti_wnzri","am":"ስእሊ ምስኣል","tr":"si'ili misi'al","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Malen, Zeichnen","en":"painting, drawing","sv":"målning, ritning","nl":"schilderen, tekenen"},"emoji":"🎨","verified":false}
+]

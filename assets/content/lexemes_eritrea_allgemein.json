@@ -1,0 +1,16 @@
+[
+  {"id":"lex_ti_neger","am":"ነገር","tr":"neger","pos":"noun","topic":"general","level":"TI","t":{"de":"die Sache, das Ding","en":"thing","sv":"sak","nl":"ding"},"emoji":"","verified":false},
+  {"id":"lex_ti_bota4","am":"ቦታ","tr":"bota","pos":"noun","topic":"general","level":"TI","t":{"de":"der Ort, der Platz","en":"place","sv":"plats","nl":"plaats"},"emoji":"","verified":false},
+  {"id":"lex_ti_sw2","am":"ሰብ (ሓፈሻዊ)","tr":"sew hafeshawi","pos":"noun","topic":"general","level":"TI","t":{"de":"jemand, eine Person","en":"someone, a person","sv":"någon, en person","nl":"iemand, een persoon"},"emoji":"","verified":false},
+  {"id":"lex_ti_hgi","am":"ሓሳብ (ርእይቶ)","tr":"hasab re'iyto","pos":"noun","topic":"general","level":"TI","t":{"de":"die Meinung","en":"opinion","sv":"åsikt","nl":"mening"},"emoji":"","verified":false},
+  {"id":"lex_ti_shgr","am":"ጉዳይ","tr":"guday","pos":"noun","topic":"general","level":"TI","t":{"de":"die Angelegenheit, das Thema","en":"matter, issue","sv":"angelägenhet, ämne","nl":"kwestie, onderwerp"},"emoji":"","verified":false},
+  {"id":"lex_ti_msal","am":"ምሳሌ","tr":"misale","pos":"noun","topic":"general","level":"TI","t":{"de":"das Beispiel","en":"example","sv":"exempel","nl":"voorbeeld"},"emoji":"","verified":false},
+  {"id":"lex_ti_mlkt","am":"ምልክት","tr":"milikit","pos":"noun","topic":"general","level":"TI","t":{"de":"das Zeichen, Symbol","en":"sign, symbol","sv":"tecken, symbol","nl":"teken, symbool"},"emoji":"","verified":false},
+  {"id":"lex_ti_chgir","am":"ጸገም","tr":"tsegem","pos":"noun","topic":"general","level":"TI","t":{"de":"das Problem","en":"problem","sv":"problem","nl":"probleem"},"emoji":"","verified":false},
+  {"id":"lex_ti_mfth","am":"መፍትሒ","tr":"mefithi","pos":"noun","topic":"general","level":"TI","t":{"de":"die Lösung","en":"solution","sv":"lösning","nl":"oplossing"},"emoji":"","verified":false},
+  {"id":"lex_ti_msruh","am":"ምኽንያት","tr":"mikinyat","pos":"noun","topic":"general","level":"TI","t":{"de":"der Grund","en":"reason","sv":"anledning","nl":"reden"},"emoji":"","verified":false},
+  {"id":"lex_ti_hyl","am":"ዕድል (ተኽእሎ)","tr":"'idil tekh'ilo","pos":"noun","topic":"general","level":"TI","t":{"de":"die Möglichkeit","en":"possibility","sv":"möjlighet","nl":"mogelijkheid"},"emoji":"","verified":false},
+  {"id":"lex_ti_mrhb","am":"መርሓባ","tr":"merhaba","pos":"phrase","topic":"general","level":"TI","t":{"de":"willkommen (allgemein)","en":"welcome (general)","sv":"välkommen (allmänt)","nl":"welkom (algemeen)"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntay2","am":"እወ ብርግጽ","tr":"awo birgits","pos":"phrase","topic":"general","level":"TI","t":{"de":"ja, sicher","en":"yes, sure","sv":"ja, säkert","nl":"ja, zeker"},"emoji":"","verified":false},
+  {"id":"lex_ti_bkm","am":"ብኸምዚ","tr":"bikemzi","pos":"adverb","topic":"general","level":"TI","t":{"de":"auf diese Weise, so","en":"in this way","sv":"på det här sättet","nl":"op deze manier"},"emoji":"","verified":false}
+]

@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_hzbi2","am":"ጽሬት ግበር","tr":"tsiret gber","pos":"verb","topic":"chores","level":"TI","t":{"de":"aufräumen","en":"to tidy up","sv":"städa upp","nl":"opruimen"},"emoji":"","verified":false},
+  {"id":"lex_ti_agsi","am":"ኣጋግሕ","tr":"agagih","pos":"verb","topic":"chores","level":"TI","t":{"de":"bügeln","en":"to iron","sv":"stryka","nl":"strijken"},"emoji":"","verified":false},
+  {"id":"lex_ti_hyci","am":"ሓጽብ (ኣቕሓ)","tr":"hatsib aqiha","pos":"verb","topic":"chores","level":"TI","t":{"de":"Geschirr spülen","en":"to wash dishes","sv":"diska","nl":"afwassen"},"emoji":"","verified":false},
+  {"id":"lex_ti_qwmi2","am":"ኣንጽፍ ዓራት","tr":"antsif 'arat","pos":"verb","topic":"chores","level":"TI","t":{"de":"das Bett machen","en":"to make the bed","sv":"bädda sängen","nl":"het bed opmaken"},"emoji":"","verified":false},
+  {"id":"lex_ti_gnbi","am":"ሽርቢ ውሰድ","tr":"shirbi wised","pos":"verb","topic":"chores","level":"TI","t":{"de":"den Müll rausbringen","en":"to take out the trash","sv":"tömma soporna","nl":"het vuilnis buitenzetten"},"emoji":"","verified":false},
+  {"id":"lex_ti_zbti2","am":"ጽረግ","tr":"tsireg","pos":"verb","topic":"chores","level":"TI","t":{"de":"fegen, kehren","en":"to sweep","sv":"sopa","nl":"vegen"},"emoji":"","verified":false},
+  {"id":"lex_ti_hbti2","am":"ኣጠቢ","tr":"at'ebi","pos":"verb","topic":"chores","level":"TI","t":{"de":"Wäsche waschen","en":"to do laundry","sv":"tvätta kläder","nl":"wassen (kleding)"},"emoji":"","verified":false},
+  {"id":"lex_ti_sqli2","am":"ኣጽርይ","tr":"atsiriy","pos":"verb","topic":"chores","level":"TI","t":{"de":"gießen (Pflanzen)","en":"to water (plants)","sv":"vattna","nl":"water geven (planten)"},"emoji":"","verified":false}
+]

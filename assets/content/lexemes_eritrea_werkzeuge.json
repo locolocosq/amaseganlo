@@ -1,0 +1,14 @@
+[
+  {"id":"lex_ti_maresha","am":"ማረሻ","tr":"maresha","pos":"noun","topic":"tools","level":"TI","t":{"de":"der Pflug","en":"plow","sv":"plog","nl":"ploeg"},"emoji":"","verified":false},
+  {"id":"lex_ti_martsawo","am":"መጥረቢ","tr":"met'rebi","pos":"noun","topic":"tools","level":"TI","t":{"de":"die Axt","en":"axe","sv":"yxa","nl":"bijl"},"emoji":"🪓","verified":false},
+  {"id":"lex_ti_mesamer","am":"መስፈሪ","tr":"mesferi","pos":"noun","topic":"tools","level":"TI","t":{"de":"das Messgerät, Lineal","en":"measuring tool, ruler","sv":"mätverktyg, linjal","nl":"meetinstrument, liniaal"},"emoji":"📏","verified":false},
+  {"id":"lex_ti_mensha","am":"መጋዝ","tr":"megaz","pos":"noun","topic":"tools","level":"TI","t":{"de":"die Säge","en":"saw","sv":"såg","nl":"zaag"},"emoji":"","verified":false},
+  {"id":"lex_ti_mokecha","am":"መዶሻ","tr":"medosha","pos":"noun","topic":"tools","level":"TI","t":{"de":"der Hammer","en":"hammer","sv":"hammare","nl":"hamer"},"emoji":"🔨","verified":false},
+  {"id":"lex_ti_msmr","am":"ሚስማር","tr":"mismar","pos":"noun","topic":"tools","level":"TI","t":{"de":"der Nagel","en":"nail","sv":"spik","nl":"spijker"},"emoji":"","verified":false},
+  {"id":"lex_ti_vidi","am":"ዊደት","tr":"widet","pos":"noun","topic":"tools","level":"TI","t":{"de":"die Schraube","en":"screw","sv":"skruv","nl":"schroef"},"emoji":"🔩","verified":false},
+  {"id":"lex_ti_habil","am":"ገመድ","tr":"gemed","pos":"noun","topic":"tools","level":"TI","t":{"de":"das Seil","en":"rope","sv":"rep","nl":"touw"},"emoji":"","verified":false},
+  {"id":"lex_ti_shamma","am":"ኩዕሶ ብረት","tr":"ku'iso biret","pos":"noun","topic":"tools","level":"TI","t":{"de":"das Metall, Eisen","en":"metal, iron","sv":"metall, järn","nl":"metaal, ijzer"},"emoji":"","verified":false},
+  {"id":"lex_ti_edn","am":"ዕንጨይቲ","tr":"'inchayti","pos":"noun","topic":"tools","level":"TI","t":{"de":"das Holz","en":"wood","sv":"trä","nl":"hout"},"emoji":"🪵","verified":false},
+  {"id":"lex_ti_ashewa","am":"ኣስመንቶ","tr":"asmento","pos":"noun","topic":"tools","level":"TI","t":{"de":"der Zement, Beton","en":"cement, concrete","sv":"cement, betong","nl":"cement, beton"},"emoji":"","verified":false},
+  {"id":"lex_ti_beret","am":"ብረት","tr":"biret","pos":"noun","topic":"tools","level":"TI","t":{"de":"Eisen, Metallwaren","en":"iron, hardware","sv":"järn","nl":"ijzer"},"emoji":"","verified":false}
+]

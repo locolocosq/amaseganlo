@@ -1,0 +1,17 @@
+[
+  {"id":"lex_ti_arwe","am":"ኣራዊት","tr":"arwit","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"das Wildtier","en":"wild animal","sv":"vilddjur","nl":"wild dier"},"emoji":"","verified":false},
+  {"id":"lex_ti_kurkur","am":"ኣንበሳ ባሕሪ","tr":"anbesa bahri","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"der Hai","en":"shark","sv":"haj","nl":"haai"},"emoji":"🦈","verified":false},
+  {"id":"lex_ti_dolfin","am":"ዶልፊን","tr":"dolfin","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"der Delfin","en":"dolphin","sv":"delfin","nl":"dolfijn"},"emoji":"🐬","verified":false},
+  {"id":"lex_ti_kirshi","am":"ገበል","tr":"gebel","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"die Krabbe","en":"crab","sv":"krabba","nl":"krab"},"emoji":"🦀","verified":false},
+  {"id":"lex_ti_tsits","am":"በራድ","tr":"berad","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"die Garnele","en":"shrimp","sv":"räka","nl":"garnaal"},"emoji":"🦐","verified":false},
+  {"id":"lex_ti_zbb2","am":"በልዐ","tr":"bel'e","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"die Mücke","en":"mosquito","sv":"mygga","nl":"mug"},"emoji":"🦟","verified":false},
+  {"id":"lex_ti_shrit","am":"ሳሬት","tr":"sarit","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"die Spinne","en":"spider","sv":"spindel","nl":"spin"},"emoji":"🕷️","verified":false},
+  {"id":"lex_ti_kwakwa","am":"ጨው ዝብል ዑፍ","tr":"chew zibil 'uf","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"die Ente","en":"duck","sv":"anka","nl":"eend"},"emoji":"🦆","verified":false},
+  {"id":"lex_ti_kurkuro","am":"ዝንጭሮ","tr":"zinchro","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"das Chamäleon","en":"chameleon","sv":"kameleont","nl":"kameleon"},"emoji":"🦎","verified":false},
+  {"id":"lex_ti_hbey","am":"ህበይ ዓቢ","tr":"hibey 'abi","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"der Pavian","en":"baboon","sv":"babian","nl":"baviaan"},"emoji":"","verified":false},
+  {"id":"lex_ti_seus","am":"ሱፍ ዝለበሰ በጊዕ","tr":"suf zilebese begi'e","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"das Lamm","en":"lamb","sv":"lamm","nl":"lam"},"emoji":"🐑","verified":false},
+  {"id":"lex_ti_wesha","am":"ኩርኩር","tr":"kurkur","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"der Welpe","en":"puppy","sv":"valp","nl":"puppy"},"emoji":"🐶","verified":false},
+  {"id":"lex_ti_dmuHzi","am":"ድሙ ንእሽቶ","tr":"dimu ni'ushto","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"das Kätzchen","en":"kitten","sv":"kattunge","nl":"kitten"},"emoji":"🐱","verified":false},
+  {"id":"lex_ti_ntfi","am":"ክንፊ","tr":"kinfi","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"der Flügel","en":"wing","sv":"vinge","nl":"vleugel"},"emoji":"","verified":false},
+  {"id":"lex_ti_zenab3","am":"ጭራ","tr":"chira","pos":"noun","topic":"animals_more","level":"TI","t":{"de":"der Schwanz","en":"tail","sv":"svans","nl":"staart"},"emoji":"","verified":false}
+]

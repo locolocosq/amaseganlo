@@ -1,0 +1,14 @@
+[
+  {"id":"lex_ti_genzeb","am":"ገንዘብ","tr":"genzeb","pos":"noun","topic":"shopping","level":"TI","t":{"de":"das Geld","en":"money","sv":"pengar","nl":"geld"},"emoji":"💰","verified":false},
+  {"id":"lex_ti_wagi","am":"ዋጋ","tr":"waga","pos":"noun","topic":"shopping","level":"TI","t":{"de":"der Preis","en":"price","sv":"pris","nl":"prijs"},"emoji":"","verified":false},
+  {"id":"lex_ti_nakfa","am":"ናቕፋ","tr":"nakfa","pos":"noun","topic":"shopping","level":"TI","t":{"de":"Nakfa (eritreische Währung)","en":"nakfa (Eritrean currency)","sv":"nakfa (eritreansk valuta)","nl":"nakfa (Eritrese munt)"},"emoji":"","verified":false},
+  {"id":"lex_ti_kredit","am":"ካርድ","tr":"kard","pos":"noun","topic":"shopping","level":"TI","t":{"de":"die Karte (Kredit-)","en":"card (credit)","sv":"kort","nl":"kaart"},"emoji":"💳","verified":false},
+  {"id":"lex_ti_kreyi","am":"ቅብሊት","tr":"qibilit","pos":"noun","topic":"shopping","level":"TI","t":{"de":"die Quittung","en":"receipt","sv":"kvitto","nl":"bon"},"emoji":"🧾","verified":false},
+  {"id":"lex_ti_hzumi","am":"ቅናሽ","tr":"qinash","pos":"noun","topic":"shopping","level":"TI","t":{"de":"der Rabatt","en":"discount","sv":"rabatt","nl":"korting"},"emoji":"","verified":false},
+  {"id":"lex_ti_beal","am":"ወነንቲ ድኳን","tr":"wenenti dikwan","pos":"noun","topic":"shopping","level":"TI","t":{"de":"der Ladenbesitzer","en":"shopkeeper","sv":"butiksägare","nl":"winkelier"},"emoji":"","verified":false},
+  {"id":"lex_ti_kruy","am":"ዓሚል","tr":"'amil","pos":"noun","topic":"shopping","level":"TI","t":{"de":"der Kunde","en":"customer","sv":"kund","nl":"klant"},"emoji":"","verified":false},
+  {"id":"lex_ti_zeben","am":"ምዕዳግ","tr":"mi'idag","pos":"noun","topic":"shopping","level":"TI","t":{"de":"das Einkaufen","en":"shopping","sv":"shopping","nl":"winkelen"},"emoji":"🛍️","verified":false},
+  {"id":"lex_ti_kesi","am":"ኩኸነ","tr":"kukhene","pos":"noun","topic":"shopping","level":"TI","t":{"de":"die Kasse","en":"cash register, checkout","sv":"kassa","nl":"kassa"},"emoji":"","verified":false},
+  {"id":"lex_ti_kili2","am":"ክብደት","tr":"kibdet","pos":"noun","topic":"shopping","level":"TI","t":{"de":"das Gewicht","en":"weight","sv":"vikt","nl":"gewicht"},"emoji":"","verified":false},
+  {"id":"lex_ti_kilo","am":"ኪሎ","tr":"kilo","pos":"noun","topic":"shopping","level":"TI","t":{"de":"das Kilo","en":"kilo","sv":"kilo","nl":"kilo"},"emoji":"","verified":false}
+]
