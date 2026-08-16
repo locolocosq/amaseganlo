@@ -1,0 +1,380 @@
+[
+  {
+    "id": "sen_ti_literatur_1",
+    "am": "መጽሓፍ ኣሎ።",
+    "tr": "metsihaf alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_lit_ktab"
+    ],
+    "t": {
+      "de": "Es gibt das Buch.",
+      "en": "There is book.",
+      "sv": "Det finns bok.",
+      "nl": "Er is boek."
+    },
+    "alt": {},
+    "chunks": [
+      "metsihaf",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_versicherung_reparatur_1",
+    "am": "ውሕስነት ኣሎ።",
+    "tr": "wihisinet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vsc_pols"
+    ],
+    "t": {
+      "de": "Es gibt die Versicherung.",
+      "en": "There is insurance.",
+      "sv": "Det finns försäkring.",
+      "nl": "Er is verzekering."
+    },
+    "alt": {},
+    "chunks": [
+      "wihisinet",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_umzug_nachbarschaft_1",
+    "am": "ካርቶን ኣሎ።",
+    "tr": "karton alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_umz_bxi"
+    ],
+    "t": {
+      "de": "Es gibt der Umzugskarton.",
+      "en": "There is moving box.",
+      "sv": "Det finns flyttlåda.",
+      "nl": "Er is verhuisdoos."
+    },
+    "alt": {},
+    "chunks": [
+      "karton",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_schwangerschaft_1",
+    "am": "ጥንሲ ኣሎ።",
+    "tr": "tinsi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_swg_preg"
+    ],
+    "t": {
+      "de": "Es gibt die Schwangerschaft.",
+      "en": "There is pregnancy.",
+      "sv": "Det finns graviditet.",
+      "nl": "Er is zwangerschap."
+    },
+    "alt": {},
+    "chunks": [
+      "tinsi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_handwerk_baustelle_1",
+    "am": "ሸማ ምሽራም ኣሎ።",
+    "tr": "shema mishirami alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hwk_weav"
+    ],
+    "t": {
+      "de": "Es gibt das Weben.",
+      "en": "There is weaving.",
+      "sv": "Det finns vävning.",
+      "nl": "Er is weven."
+    },
+    "alt": {},
+    "chunks": [
+      "shema mishirami",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_richtungen_uhrzeit_1",
+    "am": "ጸጋም ኣሎ።",
+    "tr": "tsegam alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rcx_lft"
+    ],
+    "t": {
+      "de": "Es gibt links.",
+      "en": "There is left.",
+      "sv": "Det finns vänster.",
+      "nl": "Er is links."
+    },
+    "alt": {},
+    "chunks": [
+      "tsegam",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_universitaet_sprachlernen_1",
+    "am": "ኮለጅ ኣሎ።",
+    "tr": "kolej alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_uni_camp"
+    ],
+    "t": {
+      "de": "Es gibt das College.",
+      "en": "There is college, university.",
+      "sv": "Det finns universitet, högskola.",
+      "nl": "Er is universiteit, hogeschool."
+    },
+    "alt": {},
+    "chunks": [
+      "kolej",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_bankdienste_1",
+    "am": "መኪና ገንዘብ ኣሎ።",
+    "tr": "mekina genzeb alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bnk_atm"
+    ],
+    "t": {
+      "de": "Es gibt der Geldautomat.",
+      "en": "There is ATM.",
+      "sv": "Det finns bankomat.",
+      "nl": "Er is geldautomaat."
+    },
+    "alt": {},
+    "chunks": [
+      "mekina genzeb",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_picknick_strand_1",
+    "am": "ቅርጫት ኣሎ።",
+    "tr": "qirichat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_pkn_bskt"
+    ],
+    "t": {
+      "de": "Es gibt der Picknickkorb.",
+      "en": "There is picnic basket.",
+      "sv": "Det finns picknickkorg.",
+      "nl": "Er is picknickmand."
+    },
+    "alt": {},
+    "chunks": [
+      "qirichat",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_wanderung_1",
+    "am": "መንገዲ ጎቦ ኣሎ።",
+    "tr": "mengedi gobo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wnd_trl"
+    ],
+    "t": {
+      "de": "Es gibt der Wanderweg.",
+      "en": "There is hiking trail.",
+      "sv": "Det finns vandringsled.",
+      "nl": "Er is wandelpad."
+    },
+    "alt": {},
+    "chunks": [
+      "mengedi gobo",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_planeten_mineralien_1",
+    "am": "ማርስ ኣሎ።",
+    "tr": "marisi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_plnt_mrkr"
+    ],
+    "t": {
+      "de": "Es gibt der Mars.",
+      "en": "There is Mars.",
+      "sv": "Det finns Mars.",
+      "nl": "Er is Mars."
+    },
+    "alt": {},
+    "chunks": [
+      "marisi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_baeume_blumen_1",
+    "am": "ኮኮስ ኣሎ።",
+    "tr": "kokos alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bau2_palm"
+    ],
+    "t": {
+      "de": "Es gibt die Palme.",
+      "en": "There is palm tree, coconut.",
+      "sv": "Det finns palm, kokosnöt.",
+      "nl": "Er is palmboom, kokosnoot."
+    },
+    "alt": {},
+    "chunks": [
+      "kokos",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gewuerze_backen_1",
+    "am": "ፉል ፑልጳሊት ኣሎ።",
+    "tr": "ful pulpalit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwz_pfef"
+    ],
+    "t": {
+      "de": "Es gibt der Pfeffer.",
+      "en": "There is pepper (spice).",
+      "sv": "Det finns peppar.",
+      "nl": "Er is peper (specerij)."
+    },
+    "alt": {},
+    "chunks": [
+      "ful pulpalit",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_getreide_1",
+    "am": "ሩዝ ኣሎ።",
+    "tr": "ruzi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gtr_rice"
+    ],
+    "t": {
+      "de": "Es gibt der Reis.",
+      "en": "There is rice.",
+      "sv": "Det finns ris.",
+      "nl": "Er is rijst."
+    },
+    "alt": {},
+    "chunks": [
+      "ruzi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_diplomatie_1",
+    "am": "ኣምባሳደር ኣሎ።",
+    "tr": "ambasader alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dpl_ambs"
+    ],
+    "t": {
+      "de": "Es gibt der Botschafter.",
+      "en": "There is ambassador.",
+      "sv": "Det finns ambassadör.",
+      "nl": "Er is ambassadeur."
+    },
+    "alt": {},
+    "chunks": [
+      "ambasader",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_internetbegriffe_1",
+    "am": "ገጽ መርበብ ኣሎ።",
+    "tr": "gets meribeb alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ibg_wbst"
+    ],
+    "t": {
+      "de": "Es gibt die Webseite.",
+      "en": "There is website.",
+      "sv": "Det finns webbplats.",
+      "nl": "Er is website."
+    },
+    "alt": {},
+    "chunks": [
+      "gets meribeb",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_haustiere_spielplatz_1",
+    "am": "ከልቢ ኣሎ።",
+    "tr": "kelbi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hst_dog"
+    ],
+    "t": {
+      "de": "Es gibt der Hund.",
+      "en": "There is dog.",
+      "sv": "Det finns hund.",
+      "nl": "Er is hond."
+    },
+    "alt": {},
+    "chunks": [
+      "kelbi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_tanzen_gastfreundschaft_1",
+    "am": "ስዕስዐ ኣሎ።",
+    "tr": "si'isi'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tnz_dnc"
+    ],
+    "t": {
+      "de": "Es gibt tanzen.",
+      "en": "There is to dance.",
+      "sv": "Det finns att dansa.",
+      "nl": "Er is dansen."
+    },
+    "alt": {},
+    "chunks": [
+      "si'isi'e",
+      "alo"
+    ],
+    "verified": false
+  }
+]

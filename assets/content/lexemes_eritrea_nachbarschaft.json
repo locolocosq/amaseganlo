@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_nbr_neig","am":"ጎረቤት","tr":"gorebet","pos":"noun","topic":"neighborhood","level":"TI","t":{"de":"der Nachbar","en":"neighbor","sv":"granne","nl":"buur"},"emoji":"","verified":false},
+  {"id":"lex_ti_nbr_comm","am":"ማሕበረሰብ","tr":"mahiberesebi","pos":"noun","topic":"neighborhood","level":"TI","t":{"de":"die Gemeinschaft, Gemeinde","en":"community","sv":"gemenskap","nl":"gemeenschap"},"emoji":"","verified":false},
+  {"id":"lex_ti_nbr_dist","am":"ንኡስ ዞባ","tr":"ni'us zoba","pos":"noun","topic":"neighborhood","level":"TI","t":{"de":"der Stadtteil","en":"district, neighborhood","sv":"stadsdel","nl":"wijk"},"emoji":"","verified":false},
+  {"id":"lex_ti_nbr_sqr","am":"ኣደባባይ","tr":"adebabay","pos":"noun","topic":"neighborhood","level":"TI","t":{"de":"der Platz (öffentlich)","en":"square (public)","sv":"torg","nl":"plein"},"emoji":"","verified":false},
+  {"id":"lex_ti_nbr_park","am":"ፓርክ","tr":"parki","pos":"noun","topic":"neighborhood","level":"TI","t":{"de":"der Park","en":"park","sv":"park","nl":"park"},"emoji":"🌳","verified":false},
+  {"id":"lex_ti_nbr_meet","am":"ተራኸበ","tr":"terakebe","pos":"verb","topic":"neighborhood","level":"TI","t":{"de":"sich treffen","en":"to meet each other","sv":"att träffas","nl":"elkaar ontmoeten"},"emoji":"","verified":false}
+]

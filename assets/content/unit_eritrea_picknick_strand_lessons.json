@@ -1,0 +1,142 @@
+[
+  {
+    "id": "unit_eritrea_picknick_strand_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_pkn_bskt",
+      "lex_ti_pkn_blnkt",
+      "lex_ti_pkn_grll",
+      "lex_ti_pkn_camp",
+      "lex_ti_pkn_sleep",
+      "lex_ti_pkn_fire",
+      "lex_ti_str_sand",
+      "lex_ti_str_wave",
+      "lex_ti_str_swimsuit",
+      "lex_ti_str_umbrl",
+      "lex_ti_str_sunsc"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_picknick_strand_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_pkn_bskt",
+      "lex_ti_pkn_blnkt",
+      "lex_ti_pkn_grll",
+      "lex_ti_pkn_camp",
+      "lex_ti_pkn_sleep",
+      "lex_ti_pkn_fire",
+      "lex_ti_str_sand",
+      "lex_ti_str_wave",
+      "lex_ti_str_swimsuit",
+      "lex_ti_str_umbrl",
+      "lex_ti_str_sunsc"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_picknick_strand_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_pkn_bskt",
+      "lex_ti_pkn_blnkt",
+      "lex_ti_pkn_grll",
+      "lex_ti_pkn_camp",
+      "lex_ti_pkn_sleep",
+      "lex_ti_pkn_fire",
+      "lex_ti_str_sand",
+      "lex_ti_str_wave",
+      "lex_ti_str_swimsuit",
+      "lex_ti_str_umbrl",
+      "lex_ti_str_sunsc"
+    ],
+    "sentenceIds": [
+      "sen_ti_picknick_strand_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_picknick_strand_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_pkn_bskt",
+      "lex_ti_pkn_blnkt",
+      "lex_ti_pkn_grll",
+      "lex_ti_pkn_camp",
+      "lex_ti_pkn_sleep",
+      "lex_ti_pkn_fire",
+      "lex_ti_str_sand",
+      "lex_ti_str_wave",
+      "lex_ti_str_swimsuit",
+      "lex_ti_str_umbrl",
+      "lex_ti_str_sunsc"
+    ],
+    "sentenceIds": [
+      "sen_ti_picknick_strand_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_picknick_strand_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_pkn_bskt",
+      "lex_ti_pkn_blnkt",
+      "lex_ti_pkn_grll",
+      "lex_ti_pkn_camp",
+      "lex_ti_pkn_sleep",
+      "lex_ti_pkn_fire",
+      "lex_ti_str_sand",
+      "lex_ti_str_wave",
+      "lex_ti_str_swimsuit",
+      "lex_ti_str_umbrl",
+      "lex_ti_str_sunsc"
+    ],
+    "sentenceIds": [
+      "sen_ti_picknick_strand_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_picknick_strand_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_pkn_bskt",
+      "lex_ti_pkn_blnkt",
+      "lex_ti_pkn_grll",
+      "lex_ti_pkn_camp",
+      "lex_ti_pkn_sleep",
+      "lex_ti_pkn_fire",
+      "lex_ti_str_sand",
+      "lex_ti_str_wave",
+      "lex_ti_str_swimsuit",
+      "lex_ti_str_umbrl",
+      "lex_ti_str_sunsc"
+    ],
+    "sentenceIds": [
+      "sen_ti_picknick_strand_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

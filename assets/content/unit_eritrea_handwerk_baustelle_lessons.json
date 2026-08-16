@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_eritrea_handwerk_baustelle_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_hwk_weav",
+      "lex_ti_hwk_pot",
+      "lex_ti_hwk_carve",
+      "lex_ti_hwk_embr",
+      "lex_ti_hwk_sblv",
+      "lex_ti_hwk_basket",
+      "lex_ti_bau_hlmt",
+      "lex_ti_bau_crn",
+      "lex_ti_bau_brk",
+      "lex_ti_bau_scfld",
+      "lex_ti_bau_bld",
+      "lex_ti_bau_site"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_handwerk_baustelle_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_hwk_weav",
+      "lex_ti_hwk_pot",
+      "lex_ti_hwk_carve",
+      "lex_ti_hwk_embr",
+      "lex_ti_hwk_sblv",
+      "lex_ti_hwk_basket",
+      "lex_ti_bau_hlmt",
+      "lex_ti_bau_crn",
+      "lex_ti_bau_brk",
+      "lex_ti_bau_scfld",
+      "lex_ti_bau_bld",
+      "lex_ti_bau_site"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_handwerk_baustelle_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_hwk_weav",
+      "lex_ti_hwk_pot",
+      "lex_ti_hwk_carve",
+      "lex_ti_hwk_embr",
+      "lex_ti_hwk_sblv",
+      "lex_ti_hwk_basket",
+      "lex_ti_bau_hlmt",
+      "lex_ti_bau_crn",
+      "lex_ti_bau_brk",
+      "lex_ti_bau_scfld",
+      "lex_ti_bau_bld",
+      "lex_ti_bau_site"
+    ],
+    "sentenceIds": [
+      "sen_ti_handwerk_baustelle_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_handwerk_baustelle_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_hwk_weav",
+      "lex_ti_hwk_pot",
+      "lex_ti_hwk_carve",
+      "lex_ti_hwk_embr",
+      "lex_ti_hwk_sblv",
+      "lex_ti_hwk_basket",
+      "lex_ti_bau_hlmt",
+      "lex_ti_bau_crn",
+      "lex_ti_bau_brk",
+      "lex_ti_bau_scfld",
+      "lex_ti_bau_bld",
+      "lex_ti_bau_site"
+    ],
+    "sentenceIds": [
+      "sen_ti_handwerk_baustelle_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_handwerk_baustelle_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_hwk_weav",
+      "lex_ti_hwk_pot",
+      "lex_ti_hwk_carve",
+      "lex_ti_hwk_embr",
+      "lex_ti_hwk_sblv",
+      "lex_ti_hwk_basket",
+      "lex_ti_bau_hlmt",
+      "lex_ti_bau_crn",
+      "lex_ti_bau_brk",
+      "lex_ti_bau_scfld",
+      "lex_ti_bau_bld",
+      "lex_ti_bau_site"
+    ],
+    "sentenceIds": [
+      "sen_ti_handwerk_baustelle_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_handwerk_baustelle_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_hwk_weav",
+      "lex_ti_hwk_pot",
+      "lex_ti_hwk_carve",
+      "lex_ti_hwk_embr",
+      "lex_ti_hwk_sblv",
+      "lex_ti_hwk_basket",
+      "lex_ti_bau_hlmt",
+      "lex_ti_bau_crn",
+      "lex_ti_bau_brk",
+      "lex_ti_bau_scfld",
+      "lex_ti_bau_bld",
+      "lex_ti_bau_site"
+    ],
+    "sentenceIds": [
+      "sen_ti_handwerk_baustelle_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

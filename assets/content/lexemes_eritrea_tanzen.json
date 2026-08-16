@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_tnz_dnc","am":"ስዕስዐ","tr":"si'isi'e","pos":"verb","topic":"dance","level":"TI","t":{"de":"tanzen","en":"to dance","sv":"att dansa","nl":"dansen"},"emoji":"💃","verified":false},
+  {"id":"lex_ti_tnz_dncr","am":"ሰዓሲዒ","tr":"se'asi'i","pos":"noun","topic":"dance","level":"TI","t":{"de":"der Tänzer","en":"dancer","sv":"dansare","nl":"danser"},"emoji":"","verified":false},
+  {"id":"lex_ti_tnz_trad","am":"ባህላዊ ሳዕስዒት","tr":"bahilawi sa'isi'it","pos":"noun","topic":"dance","level":"TI","t":{"de":"der traditionelle Tanz","en":"traditional dance","sv":"traditionell dans","nl":"traditionele dans"},"emoji":"","verified":false},
+  {"id":"lex_ti_tnz_rhthm","am":"ምት","tr":"miti","pos":"noun","topic":"dance","level":"TI","t":{"de":"der Rhythmus","en":"rhythm","sv":"rytm","nl":"ritme"},"emoji":"","verified":false},
+  {"id":"lex_ti_tnz_drum","am":"ከበሮ","tr":"kebero","pos":"noun","topic":"dance","level":"TI","t":{"de":"die Trommel","en":"drum","sv":"trumma","nl":"trommel"},"emoji":"🥁","verified":false}
+]

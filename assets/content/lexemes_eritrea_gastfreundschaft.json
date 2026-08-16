@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_gst_guest","am":"ጋሻ","tr":"gasha","pos":"noun","topic":"hospitality","level":"TI","t":{"de":"der Gast","en":"guest","sv":"gäst","nl":"gast"},"emoji":"","verified":false},
+  {"id":"lex_ti_gst_invt","am":"ዓደመ","tr":"'ademe","pos":"verb","topic":"hospitality","level":"TI","t":{"de":"einladen","en":"to invite","sv":"att bjuda in","nl":"uitnodigen"},"emoji":"","verified":false},
+  {"id":"lex_ti_gst_wlcm","am":"እንኳዕ ብደሓን መጻእኻ","tr":"inikua'e bidehan mets'a'ikha","pos":"phrase","topic":"hospitality","level":"TI","t":{"de":"herzlich willkommen","en":"welcome","sv":"välkommen","nl":"welkom"},"emoji":"","verified":false},
+  {"id":"lex_ti_gst_hst","am":"ዓዳሚ","tr":"'adami","pos":"noun","topic":"hospitality","level":"TI","t":{"de":"der Gastgeber","en":"host","sv":"värd","nl":"gastheer"},"emoji":"","verified":false},
+  {"id":"lex_ti_gst_gnrs","am":"ለጋስ","tr":"legasi","pos":"adjective","topic":"hospitality","level":"TI","t":{"de":"großzügig","en":"generous","sv":"generös","nl":"gastvrij, gul"},"emoji":"","verified":false}
+]

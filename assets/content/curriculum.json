@@ -270,7 +270,36 @@
     "lexemes_eritrea_verben3.json",
     "lexemes_eritrea_verkehr2.json",
     "lexemes_eritrea_waehrung.json",
-    "lexemes_eritrea_wetter2.json"
+    "lexemes_eritrea_wetter2.json",
+    "lexemes_eritrea_backen.json",
+    "lexemes_eritrea_baeume.json",
+    "lexemes_eritrea_bankdienste.json",
+    "lexemes_eritrea_baustelle.json",
+    "lexemes_eritrea_blumen.json",
+    "lexemes_eritrea_diplomatie.json",
+    "lexemes_eritrea_gastfreundschaft.json",
+    "lexemes_eritrea_getreide.json",
+    "lexemes_eritrea_gewuerze.json",
+    "lexemes_eritrea_handwerk.json",
+    "lexemes_eritrea_haustiere.json",
+    "lexemes_eritrea_internetbegriffe.json",
+    "lexemes_eritrea_literatur.json",
+    "lexemes_eritrea_mineralien.json",
+    "lexemes_eritrea_nachbarschaft.json",
+    "lexemes_eritrea_picknick.json",
+    "lexemes_eritrea_planeten.json",
+    "lexemes_eritrea_reparatur.json",
+    "lexemes_eritrea_richtungen.json",
+    "lexemes_eritrea_schwangerschaft.json",
+    "lexemes_eritrea_spielplatz.json",
+    "lexemes_eritrea_sprachlernen.json",
+    "lexemes_eritrea_strand.json",
+    "lexemes_eritrea_tanzen.json",
+    "lexemes_eritrea_uhrzeit.json",
+    "lexemes_eritrea_umzug.json",
+    "lexemes_eritrea_universitaet.json",
+    "lexemes_eritrea_versicherung.json",
+    "lexemes_eritrea_wanderung.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -431,7 +460,8 @@
     "sentences_eritrea.json",
     "sentences_eritrea_mehr.json",
     "sentences_eritrea_mehr2.json",
-    "sentences_eritrea_mehr3.json"
+    "sentences_eritrea_mehr3.json",
+    "sentences_eritrea_mehr4.json"
   ],
   "sections": [
     {
@@ -743,7 +773,25 @@
         "unit_eritrea_post_hygiene",
         "unit_eritrea_phrasen_ausrufe_mehr",
         "unit_eritrea_verkehr_flughafen",
-        "unit_eritrea_sinne_farben"
+        "unit_eritrea_sinne_farben",
+        "unit_eritrea_literatur",
+        "unit_eritrea_versicherung_reparatur",
+        "unit_eritrea_umzug_nachbarschaft",
+        "unit_eritrea_schwangerschaft",
+        "unit_eritrea_handwerk_baustelle",
+        "unit_eritrea_richtungen_uhrzeit",
+        "unit_eritrea_universitaet_sprachlernen",
+        "unit_eritrea_bankdienste",
+        "unit_eritrea_picknick_strand",
+        "unit_eritrea_wanderung",
+        "unit_eritrea_planeten_mineralien",
+        "unit_eritrea_baeume_blumen",
+        "unit_eritrea_gewuerze_backen",
+        "unit_eritrea_getreide",
+        "unit_eritrea_diplomatie",
+        "unit_eritrea_internetbegriffe",
+        "unit_eritrea_haustiere_spielplatz",
+        "unit_eritrea_tanzen_gastfreundschaft"
       ]
     }
   ],
@@ -3594,6 +3642,240 @@
       },
       "topic": "senses_colors",
       "lessonFile": "unit_eritrea_sinne_farben_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_literatur",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Literatur",
+        "en": "Literature",
+        "sv": "Litteratur",
+        "nl": "Literatuur"
+      },
+      "topic": "literature",
+      "lessonFile": "unit_eritrea_literatur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_versicherung_reparatur",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Versicherung & Reparatur",
+        "en": "Insurance & Repair",
+        "sv": "Försäkring & Reparation",
+        "nl": "Verzekering & Reparatie"
+      },
+      "topic": "insurance_repair",
+      "lessonFile": "unit_eritrea_versicherung_reparatur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_umzug_nachbarschaft",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Umzug & Nachbarschaft",
+        "en": "Moving & Neighborhood",
+        "sv": "Flytt & Grannskap",
+        "nl": "Verhuizen & Buurt"
+      },
+      "topic": "moving_neighborhood",
+      "lessonFile": "unit_eritrea_umzug_nachbarschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_schwangerschaft",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Schwangerschaft & Baby",
+        "en": "Pregnancy & Baby",
+        "sv": "Graviditet & Bebis",
+        "nl": "Zwangerschap & Baby"
+      },
+      "topic": "pregnancy",
+      "lessonFile": "unit_eritrea_schwangerschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_handwerk_baustelle",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Handwerk & Baustelle",
+        "en": "Crafts & Construction",
+        "sv": "Hantverk & Byggarbetsplats",
+        "nl": "Ambacht & Bouwplaats"
+      },
+      "topic": "crafts_construction",
+      "lessonFile": "unit_eritrea_handwerk_baustelle_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_richtungen_uhrzeit",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Richtungen & Uhrzeit",
+        "en": "Directions & Clock Time",
+        "sv": "Riktningar & Klockan",
+        "nl": "Richtingen & Kloktijd"
+      },
+      "topic": "directions_clock",
+      "lessonFile": "unit_eritrea_richtungen_uhrzeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_universitaet_sprachlernen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Universität & Sprachenlernen",
+        "en": "University & Language Learning",
+        "sv": "Universitet & Språkinlärning",
+        "nl": "Universiteit & Taal leren"
+      },
+      "topic": "university_language",
+      "lessonFile": "unit_eritrea_universitaet_sprachlernen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_bankdienste",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Bankdienste",
+        "en": "Banking Services",
+        "sv": "Banktjänster",
+        "nl": "Bankdiensten"
+      },
+      "topic": "banking",
+      "lessonFile": "unit_eritrea_bankdienste_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_picknick_strand",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Picknick & Strand",
+        "en": "Picnic & Beach",
+        "sv": "Picknick & Strand",
+        "nl": "Picknick & Strand"
+      },
+      "topic": "picnic_beach",
+      "lessonFile": "unit_eritrea_picknick_strand_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wanderung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Wandern",
+        "en": "Hiking",
+        "sv": "Vandring",
+        "nl": "Wandelen"
+      },
+      "topic": "hiking",
+      "lessonFile": "unit_eritrea_wanderung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_planeten_mineralien",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Planeten & Mineralien",
+        "en": "Planets & Minerals",
+        "sv": "Planeter & Mineraler",
+        "nl": "Planeten & Mineralen"
+      },
+      "topic": "planets_minerals",
+      "lessonFile": "unit_eritrea_planeten_mineralien_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_baeume_blumen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Bäume & Blumen",
+        "en": "Trees & Flowers",
+        "sv": "Träd & Blommor",
+        "nl": "Bomen & Bloemen"
+      },
+      "topic": "trees_flowers",
+      "lessonFile": "unit_eritrea_baeume_blumen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gewuerze_backen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gewürze & Backen",
+        "en": "Spices & Baking",
+        "sv": "Kryddor & Bakning",
+        "nl": "Kruiden & Bakken"
+      },
+      "topic": "spices_baking",
+      "lessonFile": "unit_eritrea_gewuerze_backen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_getreide",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Getreide",
+        "en": "Grains",
+        "sv": "Spannmål",
+        "nl": "Granen"
+      },
+      "topic": "grains",
+      "lessonFile": "unit_eritrea_getreide_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_diplomatie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Diplomatie",
+        "en": "Diplomacy",
+        "sv": "Diplomati",
+        "nl": "Diplomatie"
+      },
+      "topic": "diplomacy",
+      "lessonFile": "unit_eritrea_diplomatie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_internetbegriffe",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Internetbegriffe",
+        "en": "Internet Terms",
+        "sv": "Internetbegrepp",
+        "nl": "Internetbegrippen"
+      },
+      "topic": "internet_terms",
+      "lessonFile": "unit_eritrea_internetbegriffe_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_haustiere_spielplatz",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Haustiere & Spielplatz",
+        "en": "Pets & Playground",
+        "sv": "Husdjur & Lekplats",
+        "nl": "Huisdieren & Speelplaats"
+      },
+      "topic": "pets_playground",
+      "lessonFile": "unit_eritrea_haustiere_spielplatz_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_tanzen_gastfreundschaft",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Tanzen & Gastfreundschaft",
+        "en": "Dance & Hospitality",
+        "sv": "Dans & Gästfrihet",
+        "nl": "Dansen & Gastvrijheid"
+      },
+      "topic": "dance_hospitality",
+      "lessonFile": "unit_eritrea_tanzen_gastfreundschaft_lessons.json"
     }
   ]
 }

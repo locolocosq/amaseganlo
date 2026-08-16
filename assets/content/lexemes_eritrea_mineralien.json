@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_min_gold","am":"ወርቂ","tr":"werqi","pos":"noun","topic":"minerals","level":"TI","t":{"de":"das Gold","en":"gold","sv":"guld","nl":"goud"},"emoji":"🥇","verified":false},
+  {"id":"lex_ti_min_slvr","am":"ብሩር","tr":"birur","pos":"noun","topic":"minerals","level":"TI","t":{"de":"das Silber","en":"silver","sv":"silver","nl":"zilver"},"emoji":"🥈","verified":false},
+  {"id":"lex_ti_min_dmnd","am":"ኣልማዝ","tr":"almaz","pos":"noun","topic":"minerals","level":"TI","t":{"de":"der Diamant","en":"diamond","sv":"diamant","nl":"diamant"},"emoji":"💎","verified":false},
+  {"id":"lex_ti_min_slt","am":"ጨው (ማዕድን)","tr":"chew ma'idin","pos":"noun","topic":"minerals","level":"TI","t":{"de":"das Salz (Mineral)","en":"salt (mineral)","sv":"salt (mineral)","nl":"zout (mineraal)"},"emoji":"","verified":false},
+  {"id":"lex_ti_min_stn","am":"እምኒ","tr":"'imini","pos":"noun","topic":"minerals","level":"TI","t":{"de":"der Stein","en":"stone","sv":"sten","nl":"steen"},"emoji":"🪨","verified":false},
+  {"id":"lex_ti_min_sand2","am":"ኣቁሑ ማዕድን","tr":"aquhu ma'idin","pos":"noun","topic":"minerals","level":"TI","t":{"de":"das Mineral, Erz","en":"mineral, ore","sv":"mineral, malm","nl":"mineraal, erts"},"emoji":"","verified":false}
+]

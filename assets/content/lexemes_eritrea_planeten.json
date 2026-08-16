@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_plnt_mrkr","am":"ማርስ","tr":"marisi","pos":"noun","topic":"planets","level":"TI","t":{"de":"der Mars","en":"Mars","sv":"Mars","nl":"Mars"},"emoji":"🔴","verified":false},
+  {"id":"lex_ti_plnt_vns","am":"ቬኑስ","tr":"venus","pos":"noun","topic":"planets","level":"TI","t":{"de":"die Venus","en":"Venus","sv":"Venus","nl":"Venus"},"emoji":"","verified":false},
+  {"id":"lex_ti_plnt_jptr","am":"ጁፒተር","tr":"jupiter","pos":"noun","topic":"planets","level":"TI","t":{"de":"der Jupiter","en":"Jupiter","sv":"Jupiter","nl":"Jupiter"},"emoji":"","verified":false},
+  {"id":"lex_ti_plnt_srn","am":"ሳተርን","tr":"saterin","pos":"noun","topic":"planets","level":"TI","t":{"de":"der Saturn","en":"Saturn","sv":"Saturnus","nl":"Saturnus"},"emoji":"🪐","verified":false},
+  {"id":"lex_ti_plnt_erth","am":"ምድሪ","tr":"midri","pos":"noun","topic":"planets","level":"TI","t":{"de":"die Erde (Planet)","en":"Earth (planet)","sv":"jorden","nl":"aarde (planeet)"},"emoji":"🌍","verified":false},
+  {"id":"lex_ti_plnt_glxy","am":"ጋላክሲ","tr":"galaksi","pos":"noun","topic":"planets","level":"TI","t":{"de":"die Galaxie","en":"galaxy","sv":"galax","nl":"melkwegstelsel"},"emoji":"","verified":false},
+  {"id":"lex_ti_plnt_univ","am":"ኮስሞስ","tr":"kosmos","pos":"noun","topic":"planets","level":"TI","t":{"de":"das Universum","en":"universe","sv":"universum","nl":"heelal"},"emoji":"🌌","verified":false}
+]

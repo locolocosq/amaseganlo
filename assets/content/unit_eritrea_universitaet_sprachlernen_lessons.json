@@ -1,0 +1,160 @@
+[
+  {
+    "id": "unit_eritrea_universitaet_sprachlernen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_uni_camp",
+      "lex_ti_uni_prof",
+      "lex_ti_uni_dgr",
+      "lex_ti_uni_thss",
+      "lex_ti_uni_schlr",
+      "lex_ti_uni_lctr",
+      "lex_ti_uni_lib",
+      "lex_ti_spl_gram",
+      "lex_ti_spl_vocab",
+      "lex_ti_spl_prct",
+      "lex_ti_spl_exam",
+      "lex_ti_spl_trns",
+      "lex_ti_spl_prnc",
+      "lex_ti_spl_fluent"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_universitaet_sprachlernen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_uni_camp",
+      "lex_ti_uni_prof",
+      "lex_ti_uni_dgr",
+      "lex_ti_uni_thss",
+      "lex_ti_uni_schlr",
+      "lex_ti_uni_lctr",
+      "lex_ti_uni_lib",
+      "lex_ti_spl_gram",
+      "lex_ti_spl_vocab",
+      "lex_ti_spl_prct",
+      "lex_ti_spl_exam",
+      "lex_ti_spl_trns",
+      "lex_ti_spl_prnc",
+      "lex_ti_spl_fluent"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_universitaet_sprachlernen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_uni_camp",
+      "lex_ti_uni_prof",
+      "lex_ti_uni_dgr",
+      "lex_ti_uni_thss",
+      "lex_ti_uni_schlr",
+      "lex_ti_uni_lctr",
+      "lex_ti_uni_lib",
+      "lex_ti_spl_gram",
+      "lex_ti_spl_vocab",
+      "lex_ti_spl_prct",
+      "lex_ti_spl_exam",
+      "lex_ti_spl_trns",
+      "lex_ti_spl_prnc",
+      "lex_ti_spl_fluent"
+    ],
+    "sentenceIds": [
+      "sen_ti_universitaet_sprachlernen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_universitaet_sprachlernen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_uni_camp",
+      "lex_ti_uni_prof",
+      "lex_ti_uni_dgr",
+      "lex_ti_uni_thss",
+      "lex_ti_uni_schlr",
+      "lex_ti_uni_lctr",
+      "lex_ti_uni_lib",
+      "lex_ti_spl_gram",
+      "lex_ti_spl_vocab",
+      "lex_ti_spl_prct",
+      "lex_ti_spl_exam",
+      "lex_ti_spl_trns",
+      "lex_ti_spl_prnc",
+      "lex_ti_spl_fluent"
+    ],
+    "sentenceIds": [
+      "sen_ti_universitaet_sprachlernen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_universitaet_sprachlernen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_uni_camp",
+      "lex_ti_uni_prof",
+      "lex_ti_uni_dgr",
+      "lex_ti_uni_thss",
+      "lex_ti_uni_schlr",
+      "lex_ti_uni_lctr",
+      "lex_ti_uni_lib",
+      "lex_ti_spl_gram",
+      "lex_ti_spl_vocab",
+      "lex_ti_spl_prct",
+      "lex_ti_spl_exam",
+      "lex_ti_spl_trns",
+      "lex_ti_spl_prnc",
+      "lex_ti_spl_fluent"
+    ],
+    "sentenceIds": [
+      "sen_ti_universitaet_sprachlernen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_universitaet_sprachlernen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_uni_camp",
+      "lex_ti_uni_prof",
+      "lex_ti_uni_dgr",
+      "lex_ti_uni_thss",
+      "lex_ti_uni_schlr",
+      "lex_ti_uni_lctr",
+      "lex_ti_uni_lib",
+      "lex_ti_spl_gram",
+      "lex_ti_spl_vocab",
+      "lex_ti_spl_prct",
+      "lex_ti_spl_exam",
+      "lex_ti_spl_trns",
+      "lex_ti_spl_prnc",
+      "lex_ti_spl_fluent"
+    ],
+    "sentenceIds": [
+      "sen_ti_universitaet_sprachlernen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

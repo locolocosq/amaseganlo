@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_umz_bxi","am":"ካርቶን","tr":"karton","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Umzugskarton","en":"moving box","sv":"flyttlåda","nl":"verhuisdoos"},"emoji":"📦","verified":false},
+  {"id":"lex_ti_umz_trck","am":"መኪና ጽዕነት","tr":"mekina tsi'inet","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Umzugswagen, LKW","en":"moving truck","sv":"flyttbil","nl":"verhuiswagen"},"emoji":"🚚","verified":false},
+  {"id":"lex_ti_umz_rnt","am":"ተኻረየ","tr":"tekareye","pos":"verb","topic":"moving","level":"TI","t":{"de":"mieten","en":"to rent","sv":"att hyra","nl":"huren"},"emoji":"","verified":false},
+  {"id":"lex_ti_umz_own","am":"ወነነ","tr":"wenene","pos":"verb","topic":"moving","level":"TI","t":{"de":"besitzen","en":"to own","sv":"att äga","nl":"bezitten"},"emoji":"","verified":false},
+  {"id":"lex_ti_umz_lease","am":"ውዕል ክራይ","tr":"wi'ili kiray","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Mietvertrag","en":"lease","sv":"hyresavtal","nl":"huurcontract"},"emoji":"","verified":false},
+  {"id":"lex_ti_umz_owner","am":"ወናኒ ገዛ","tr":"wenani geza","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Vermieter","en":"landlord","sv":"hyresvärd","nl":"verhuurder"},"emoji":"","verified":false},
+  {"id":"lex_ti_umz_movd","am":"ግዙፍ ገዛ ተቐየረ","tr":"gizuf geza teqeyere","pos":"verb","topic":"moving","level":"TI","t":{"de":"umziehen","en":"to move (house)","sv":"att flytta","nl":"verhuizen"},"emoji":"","verified":false}
+]

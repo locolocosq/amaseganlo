@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_bau2_palm","am":"ኮኮስ","tr":"kokos","pos":"noun","topic":"trees","level":"TI","t":{"de":"die Palme, Kokosnuss","en":"palm tree, coconut","sv":"palm, kokosnöt","nl":"palmboom, kokosnoot"},"emoji":"🌴","verified":false},
+  {"id":"lex_ti_bau2_baob","am":"ዱባ ገረብ","tr":"duba gereb","pos":"noun","topic":"trees","level":"TI","t":{"de":"der Baobab","en":"baobab","sv":"baobab","nl":"baobab"},"emoji":"","verified":false},
+  {"id":"lex_ti_bau2_akaz","am":"ቆሓይ","tr":"qohay","pos":"noun","topic":"trees","level":"TI","t":{"de":"die Akazie","en":"acacia","sv":"akacia","nl":"acacia"},"emoji":"","verified":false},
+  {"id":"lex_ti_bau2_root","am":"ሱር","tr":"suri","pos":"noun","topic":"trees","level":"TI","t":{"de":"die Wurzel","en":"root","sv":"rot","nl":"wortel (plant)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bau2_brnch","am":"ጨንፈር","tr":"chenfer","pos":"noun","topic":"trees","level":"TI","t":{"de":"der Ast","en":"branch","sv":"gren","nl":"tak"},"emoji":"","verified":false},
+  {"id":"lex_ti_bau2_leaf","am":"ቆጽሊ","tr":"qotsli","pos":"noun","topic":"trees","level":"TI","t":{"de":"das Blatt","en":"leaf","sv":"blad","nl":"blad"},"emoji":"🍃","verified":false},
+  {"id":"lex_ti_bau2_trnk","am":"ግንዲ","tr":"gindi","pos":"noun","topic":"trees","level":"TI","t":{"de":"der Stamm (Baum)","en":"trunk (tree)","sv":"trädstam","nl":"boomstam"},"emoji":"","verified":false}
+]

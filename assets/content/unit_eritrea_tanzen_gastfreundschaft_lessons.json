@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_tanzen_gastfreundschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_tnz_dnc",
+      "lex_ti_tnz_dncr",
+      "lex_ti_tnz_trad",
+      "lex_ti_tnz_rhthm",
+      "lex_ti_tnz_drum",
+      "lex_ti_gst_guest",
+      "lex_ti_gst_invt",
+      "lex_ti_gst_wlcm",
+      "lex_ti_gst_hst",
+      "lex_ti_gst_gnrs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_tanzen_gastfreundschaft_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_tnz_dnc",
+      "lex_ti_tnz_dncr",
+      "lex_ti_tnz_trad",
+      "lex_ti_tnz_rhthm",
+      "lex_ti_tnz_drum",
+      "lex_ti_gst_guest",
+      "lex_ti_gst_invt",
+      "lex_ti_gst_wlcm",
+      "lex_ti_gst_hst",
+      "lex_ti_gst_gnrs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tanzen_gastfreundschaft_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_tnz_dnc",
+      "lex_ti_tnz_dncr",
+      "lex_ti_tnz_trad",
+      "lex_ti_tnz_rhthm",
+      "lex_ti_tnz_drum",
+      "lex_ti_gst_guest",
+      "lex_ti_gst_invt",
+      "lex_ti_gst_wlcm",
+      "lex_ti_gst_hst",
+      "lex_ti_gst_gnrs"
+    ],
+    "sentenceIds": [
+      "sen_ti_tanzen_gastfreundschaft_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tanzen_gastfreundschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_tnz_dnc",
+      "lex_ti_tnz_dncr",
+      "lex_ti_tnz_trad",
+      "lex_ti_tnz_rhthm",
+      "lex_ti_tnz_drum",
+      "lex_ti_gst_guest",
+      "lex_ti_gst_invt",
+      "lex_ti_gst_wlcm",
+      "lex_ti_gst_hst",
+      "lex_ti_gst_gnrs"
+    ],
+    "sentenceIds": [
+      "sen_ti_tanzen_gastfreundschaft_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tanzen_gastfreundschaft_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_tnz_dnc",
+      "lex_ti_tnz_dncr",
+      "lex_ti_tnz_trad",
+      "lex_ti_tnz_rhthm",
+      "lex_ti_tnz_drum",
+      "lex_ti_gst_guest",
+      "lex_ti_gst_invt",
+      "lex_ti_gst_wlcm",
+      "lex_ti_gst_hst",
+      "lex_ti_gst_gnrs"
+    ],
+    "sentenceIds": [
+      "sen_ti_tanzen_gastfreundschaft_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tanzen_gastfreundschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_tnz_dnc",
+      "lex_ti_tnz_dncr",
+      "lex_ti_tnz_trad",
+      "lex_ti_tnz_rhthm",
+      "lex_ti_tnz_drum",
+      "lex_ti_gst_guest",
+      "lex_ti_gst_invt",
+      "lex_ti_gst_wlcm",
+      "lex_ti_gst_hst",
+      "lex_ti_gst_gnrs"
+    ],
+    "sentenceIds": [
+      "sen_ti_tanzen_gastfreundschaft_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

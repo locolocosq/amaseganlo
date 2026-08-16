@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_gwz_pfef","am":"ፉል ፑልጳሊት","tr":"ful pulpalit","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Pfeffer","en":"pepper (spice)","sv":"peppar","nl":"peper (specerij)"},"emoji":"","verified":false},
+  {"id":"lex_ti_gwz_zmt","am":"ቀመም","tr":"qemem","pos":"noun","topic":"spices","level":"TI","t":{"de":"das Gewürz","en":"spice","sv":"krydda","nl":"specerij, kruid"},"emoji":"🌶️","verified":false},
+  {"id":"lex_ti_gwz_grlc","am":"ነጭ ሽጉርቲ","tr":"nech shigurti","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Knoblauch","en":"garlic","sv":"vitlök","nl":"knoflook"},"emoji":"🧄","verified":false},
+  {"id":"lex_ti_gwz_gngr","am":"ዝንጅብል","tr":"zinjibil","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Ingwer","en":"ginger","sv":"ingefära","nl":"gember"},"emoji":"","verified":false},
+  {"id":"lex_ti_gwz_cinn","am":"ቀርፋ","tr":"qerfa","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Zimt","en":"cinnamon","sv":"kanel","nl":"kaneel"},"emoji":"","verified":false},
+  {"id":"lex_ti_gwz_hny","am":"መዓር","tr":"me'ar","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Honig","en":"honey","sv":"honung","nl":"honing"},"emoji":"🍯","verified":false},
+  {"id":"lex_ti_gwz_sgr","am":"ሽኮር","tr":"shikor","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Zucker","en":"sugar","sv":"socker","nl":"suiker"},"emoji":"","verified":false}
+]

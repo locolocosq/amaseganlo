@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_rcx_lft","am":"ጸጋም","tr":"tsegam","pos":"noun","topic":"directions","level":"TI","t":{"de":"links","en":"left","sv":"vänster","nl":"links"},"emoji":"⬅️","verified":false},
+  {"id":"lex_ti_rcx_rgt","am":"የማን","tr":"yemani","pos":"noun","topic":"directions","level":"TI","t":{"de":"rechts","en":"right","sv":"höger","nl":"rechts"},"emoji":"➡️","verified":false},
+  {"id":"lex_ti_rcx_strt","am":"ትኽ ኢልካ","tr":"tikhi 'ilika","pos":"phrase","topic":"directions","level":"TI","t":{"de":"geradeaus","en":"straight ahead","sv":"rakt fram","nl":"rechtdoor"},"emoji":"⬆️","verified":false},
+  {"id":"lex_ti_rcx_up","am":"ንላዕሊ","tr":"nila'eli","pos":"adverb","topic":"directions","level":"TI","t":{"de":"nach oben, hinauf","en":"up, upward","sv":"upp","nl":"omhoog"},"emoji":"","verified":false},
+  {"id":"lex_ti_rcx_dwn","am":"ንታሕቲ","tr":"nitahiti","pos":"adverb","topic":"directions","level":"TI","t":{"de":"nach unten, hinab","en":"down, downward","sv":"ner","nl":"omlaag"},"emoji":"","verified":false},
+  {"id":"lex_ti_rcx_here","am":"ኣብዚ","tr":"'abizi","pos":"adverb","topic":"directions","level":"TI","t":{"de":"hier","en":"here","sv":"här","nl":"hier"},"emoji":"","verified":false},
+  {"id":"lex_ti_rcx_thre","am":"ኣብዚያ","tr":"'abiziya","pos":"adverb","topic":"directions","level":"TI","t":{"de":"dort","en":"there","sv":"där","nl":"daar"},"emoji":"","verified":false}
+]

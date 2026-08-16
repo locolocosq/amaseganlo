@@ -1,0 +1,154 @@
+[
+  {
+    "id": "unit_eritrea_planeten_mineralien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_plnt_mrkr",
+      "lex_ti_plnt_vns",
+      "lex_ti_plnt_jptr",
+      "lex_ti_plnt_srn",
+      "lex_ti_plnt_erth",
+      "lex_ti_plnt_glxy",
+      "lex_ti_plnt_univ",
+      "lex_ti_min_gold",
+      "lex_ti_min_slvr",
+      "lex_ti_min_dmnd",
+      "lex_ti_min_slt",
+      "lex_ti_min_stn",
+      "lex_ti_min_sand2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_planeten_mineralien_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_plnt_mrkr",
+      "lex_ti_plnt_vns",
+      "lex_ti_plnt_jptr",
+      "lex_ti_plnt_srn",
+      "lex_ti_plnt_erth",
+      "lex_ti_plnt_glxy",
+      "lex_ti_plnt_univ",
+      "lex_ti_min_gold",
+      "lex_ti_min_slvr",
+      "lex_ti_min_dmnd",
+      "lex_ti_min_slt",
+      "lex_ti_min_stn",
+      "lex_ti_min_sand2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_planeten_mineralien_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_plnt_mrkr",
+      "lex_ti_plnt_vns",
+      "lex_ti_plnt_jptr",
+      "lex_ti_plnt_srn",
+      "lex_ti_plnt_erth",
+      "lex_ti_plnt_glxy",
+      "lex_ti_plnt_univ",
+      "lex_ti_min_gold",
+      "lex_ti_min_slvr",
+      "lex_ti_min_dmnd",
+      "lex_ti_min_slt",
+      "lex_ti_min_stn",
+      "lex_ti_min_sand2"
+    ],
+    "sentenceIds": [
+      "sen_ti_planeten_mineralien_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_planeten_mineralien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_plnt_mrkr",
+      "lex_ti_plnt_vns",
+      "lex_ti_plnt_jptr",
+      "lex_ti_plnt_srn",
+      "lex_ti_plnt_erth",
+      "lex_ti_plnt_glxy",
+      "lex_ti_plnt_univ",
+      "lex_ti_min_gold",
+      "lex_ti_min_slvr",
+      "lex_ti_min_dmnd",
+      "lex_ti_min_slt",
+      "lex_ti_min_stn",
+      "lex_ti_min_sand2"
+    ],
+    "sentenceIds": [
+      "sen_ti_planeten_mineralien_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_planeten_mineralien_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_plnt_mrkr",
+      "lex_ti_plnt_vns",
+      "lex_ti_plnt_jptr",
+      "lex_ti_plnt_srn",
+      "lex_ti_plnt_erth",
+      "lex_ti_plnt_glxy",
+      "lex_ti_plnt_univ",
+      "lex_ti_min_gold",
+      "lex_ti_min_slvr",
+      "lex_ti_min_dmnd",
+      "lex_ti_min_slt",
+      "lex_ti_min_stn",
+      "lex_ti_min_sand2"
+    ],
+    "sentenceIds": [
+      "sen_ti_planeten_mineralien_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_planeten_mineralien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_plnt_mrkr",
+      "lex_ti_plnt_vns",
+      "lex_ti_plnt_jptr",
+      "lex_ti_plnt_srn",
+      "lex_ti_plnt_erth",
+      "lex_ti_plnt_glxy",
+      "lex_ti_plnt_univ",
+      "lex_ti_min_gold",
+      "lex_ti_min_slvr",
+      "lex_ti_min_dmnd",
+      "lex_ti_min_slt",
+      "lex_ti_min_stn",
+      "lex_ti_min_sand2"
+    ],
+    "sentenceIds": [
+      "sen_ti_planeten_mineralien_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

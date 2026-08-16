@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_wnd_trl","am":"መንገዲ ጎቦ","tr":"mengedi gobo","pos":"noun","topic":"hiking","level":"TI","t":{"de":"der Wanderweg","en":"hiking trail","sv":"vandringsled","nl":"wandelpad"},"emoji":"🥾","verified":false},
+  {"id":"lex_ti_wnd_pk","am":"ጫፍ ጎቦ","tr":"chaf gobo","pos":"noun","topic":"hiking","level":"TI","t":{"de":"der Gipfel","en":"peak, summit","sv":"topp","nl":"top (berg)"},"emoji":"🏔️","verified":false},
+  {"id":"lex_ti_wnd_cmps","am":"ኮምፓስ","tr":"kompas","pos":"noun","topic":"hiking","level":"TI","t":{"de":"der Kompass","en":"compass","sv":"kompass","nl":"kompas"},"emoji":"🧭","verified":false},
+  {"id":"lex_ti_wnd_bkpck","am":"ሳንጣ ዝባን","tr":"santa ziban","pos":"noun","topic":"hiking","level":"TI","t":{"de":"der Rucksack","en":"backpack","sv":"ryggsäck","nl":"rugzak"},"emoji":"🎒","verified":false},
+  {"id":"lex_ti_wnd_climb","am":"ደየበ","tr":"deyebe","pos":"verb","topic":"hiking","level":"TI","t":{"de":"klettern, besteigen","en":"to climb","sv":"att klättra","nl":"klimmen"},"emoji":"","verified":false}
+]

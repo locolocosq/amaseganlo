@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_uni_camp","am":"ኮለጅ","tr":"kolej","pos":"noun","topic":"university","level":"TI","t":{"de":"das College, die Universität","en":"college, university","sv":"universitet, högskola","nl":"universiteit, hogeschool"},"emoji":"🎓","verified":false},
+  {"id":"lex_ti_uni_prof","am":"ፕሮፌሶር","tr":"profesor","pos":"noun","topic":"university","level":"TI","t":{"de":"der Professor","en":"professor","sv":"professor","nl":"professor"},"emoji":"","verified":false},
+  {"id":"lex_ti_uni_dgr","am":"ዲግሪ","tr":"digiri","pos":"noun","topic":"university","level":"TI","t":{"de":"der Abschluss, Grad","en":"degree","sv":"examen","nl":"diploma, graad"},"emoji":"","verified":false},
+  {"id":"lex_ti_uni_thss","am":"ጥናት","tr":"tinat","pos":"noun","topic":"university","level":"TI","t":{"de":"die Abschlussarbeit, Studie","en":"thesis, study","sv":"avhandling, studie","nl":"scriptie, studie"},"emoji":"","verified":false},
+  {"id":"lex_ti_uni_schlr","am":"ናይ ትምህርቲ ደገፍ ገንዘብ","tr":"nay timhirti degef genzeb","pos":"noun","topic":"university","level":"TI","t":{"de":"das Stipendium","en":"scholarship","sv":"stipendium","nl":"studiebeurs"},"emoji":"","verified":false},
+  {"id":"lex_ti_uni_lctr","am":"መደረ","tr":"medere","pos":"noun","topic":"university","level":"TI","t":{"de":"die Vorlesung","en":"lecture","sv":"föreläsning","nl":"lezing, college"},"emoji":"","verified":false},
+  {"id":"lex_ti_uni_lib","am":"ቤት መጻሕፍቲ","tr":"bet metsahifti","pos":"noun","topic":"university","level":"TI","t":{"de":"die Bibliothek","en":"library","sv":"bibliotek","nl":"bibliotheek"},"emoji":"📚","verified":false}
+]

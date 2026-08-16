@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_hst_dog","am":"ከልቢ","tr":"kelbi","pos":"noun","topic":"pets","level":"TI","t":{"de":"der Hund","en":"dog","sv":"hund","nl":"hond"},"emoji":"🐕","verified":false},
+  {"id":"lex_ti_hst_cat","am":"ድሙ","tr":"dimu","pos":"noun","topic":"pets","level":"TI","t":{"de":"die Katze","en":"cat","sv":"katt","nl":"kat"},"emoji":"🐈","verified":false},
+  {"id":"lex_ti_hst_brd2","am":"ደርሁ ገዛ","tr":"derhu geza","pos":"noun","topic":"pets","level":"TI","t":{"de":"der Haustiervogel","en":"pet bird","sv":"burfågel","nl":"huisvogel"},"emoji":"🐦","verified":false},
+  {"id":"lex_ti_hst_fish","am":"ዓሳ ገዛ","tr":"'asa geza","pos":"noun","topic":"pets","level":"TI","t":{"de":"der Zierfisch","en":"pet fish","sv":"akvariefisk","nl":"huisdiervis"},"emoji":"🐠","verified":false},
+  {"id":"lex_ti_hst_cage","am":"ቤት እንስሳ","tr":"bet inisisa","pos":"noun","topic":"pets","level":"TI","t":{"de":"der Käfig","en":"cage","sv":"bur","nl":"kooi"},"emoji":"","verified":false},
+  {"id":"lex_ti_hst_feed2","am":"መገበ እንስሳ","tr":"megebe inisisa","pos":"verb","topic":"pets","level":"TI","t":{"de":"füttern (Tier)","en":"to feed (animal)","sv":"mata (djur)","nl":"voeren (dier)"},"emoji":"","verified":false}
+]

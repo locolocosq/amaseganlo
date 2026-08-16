@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_lit_ktab","am":"መጽሓፍ","tr":"metsihaf","pos":"noun","topic":"literature","level":"TI","t":{"de":"das Buch","en":"book","sv":"bok","nl":"boek"},"emoji":"📖","verified":false},
+  {"id":"lex_ti_lit_awtr","am":"ደራሲ","tr":"derasi","pos":"noun","topic":"literature","level":"TI","t":{"de":"der Autor, Schriftsteller","en":"author","sv":"författare","nl":"auteur"},"emoji":"","verified":false},
+  {"id":"lex_ti_lit_chptr","am":"ምዕራፍ","tr":"mi'iraf","pos":"noun","topic":"literature","level":"TI","t":{"de":"das Kapitel","en":"chapter","sv":"kapitel","nl":"hoofdstuk"},"emoji":"","verified":false},
+  {"id":"lex_ti_lit_pom","am":"ግጥሚ","tr":"gitmi","pos":"noun","topic":"literature","level":"TI","t":{"de":"das Gedicht","en":"poem","sv":"dikt","nl":"gedicht"},"emoji":"","verified":false},
+  {"id":"lex_ti_lit_novl","am":"ልቢ ወለድ","tr":"libi weled","pos":"noun","topic":"literature","level":"TI","t":{"de":"der Roman","en":"novel","sv":"roman","nl":"roman"},"emoji":"","verified":false},
+  {"id":"lex_ti_lit_stry","am":"ዛንታ","tr":"zanta","pos":"noun","topic":"literature","level":"TI","t":{"de":"die Geschichte, Erzählung","en":"story","sv":"berättelse","nl":"verhaal"},"emoji":"","verified":false},
+  {"id":"lex_ti_lit_pge","am":"ገጽ (መጽሓፍ)","tr":"gets metsihaf","pos":"noun","topic":"literature","level":"TI","t":{"de":"die Seite (Buch)","en":"page","sv":"sida (bok)","nl":"pagina"},"emoji":"","verified":false},
+  {"id":"lex_ti_lit_ttl","am":"ኣርእስቲ","tr":"ar'isti","pos":"noun","topic":"literature","level":"TI","t":{"de":"der Titel","en":"title","sv":"titel","nl":"titel"},"emoji":"","verified":false}
+]

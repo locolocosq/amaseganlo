@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_gtr_rice","am":"ሩዝ","tr":"ruzi","pos":"noun","topic":"grains","level":"TI","t":{"de":"der Reis","en":"rice","sv":"ris","nl":"rijst"},"emoji":"🍚","verified":false},
+  {"id":"lex_ti_gtr_barl","am":"ስገም","tr":"sigem","pos":"noun","topic":"grains","level":"TI","t":{"de":"die Gerste","en":"barley","sv":"korn (spannmål)","nl":"gerst"},"emoji":"","verified":false},
+  {"id":"lex_ti_gtr_mais","am":"ዕፉይ","tr":"'ifuy","pos":"noun","topic":"grains","level":"TI","t":{"de":"der Mais","en":"corn, maize","sv":"majs","nl":"maïs"},"emoji":"🌽","verified":false},
+  {"id":"lex_ti_gtr_sorg","am":"ማሽላ","tr":"mashila","pos":"noun","topic":"grains","level":"TI","t":{"de":"das Sorghum, Hirse","en":"sorghum, millet","sv":"sorghum, hirs","nl":"sorghum, gierst"},"emoji":"","verified":false},
+  {"id":"lex_ti_gtr_lntl","am":"ብርስን","tr":"birisin","pos":"noun","topic":"grains","level":"TI","t":{"de":"die Linse (Hülsenfrucht)","en":"lentil","sv":"lins (böna)","nl":"linze"},"emoji":"","verified":false}
+]
