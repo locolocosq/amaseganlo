@@ -483,6 +483,16 @@ class AppLocalizationsNl extends AppLocalizations {
       'We stellen je een paar vragen om de beste startplek te bepalen. Je kunt altijd afbreken.';
 
   @override
+  String get placementTestChooseLanguagePrompt =>
+      'Voor welke taal wil je een niveaubepaling doen?';
+
+  @override
+  String get placementTestChooseLanguageEthiopia => 'Ethiopisch (Amhaars)';
+
+  @override
+  String get placementTestChooseLanguageEritrea => 'Eritrees (Tigrinya)';
+
+  @override
   String get placementTestStart => 'Laten we gaan';
 
   @override

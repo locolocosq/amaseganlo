@@ -49,8 +49,25 @@ class _PlacementTestScreenState extends State<PlacementTestScreen> {
   bool _blockActive = false;
   bool _handlingResult = false;
 
-  List<CurriculumSection> get _sections =>
-      context.read<ContentProvider>().repository.curriculum.sections;
+  // Etappe 28 Nachtrag 10: the test used to walk every curriculum section in
+  // file order regardless of language, which meant it was Amharic-only in
+  // practice - all 6 Ethiopia sections come before any Eritrea one, and
+  // failing a block stops the test right there, so nobody could ever fail
+  // their way into Tigrinya questions. Asking upfront and filtering by
+  // language fixes both the mixed-language mismatch and, as a side effect,
+  // keeps the test automatically in sync with however many units each
+  // language has now (it was never a hardcoded question list to begin with
+  // - lexemesForUnit already pulls from whatever's currently in that
+  // section, so new content is picked up without any further changes here).
+  String? _chosenLanguage;
+
+  List<CurriculumSection> get _sections => context
+      .read<ContentProvider>()
+      .repository
+      .curriculum
+      .sections
+      .where((s) => s.language == (_chosenLanguage ?? 'am'))
+      .toList();
 
   void _startTest() {
     setState(() {
@@ -192,10 +209,28 @@ class _PlacementTestScreenState extends State<PlacementTestScreen> {
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 24),
+          Text(
+            l10n.placementTestChooseLanguagePrompt,
+            style: theme.textTheme.titleMedium,
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 12),
+          SegmentedButton<String>(
+            segments: [
+              ButtonSegment(value: 'am', label: Text(l10n.placementTestChooseLanguageEthiopia)),
+              ButtonSegment(value: 'ti', label: Text(l10n.placementTestChooseLanguageEritrea)),
+            ],
+            selected: _chosenLanguage == null ? const {} : {_chosenLanguage!},
+            emptySelectionAllowed: true,
+            onSelectionChanged: (selection) {
+              setState(() => _chosenLanguage = selection.isEmpty ? null : selection.first);
+            },
+          ),
+          const SizedBox(height: 24),
           SizedBox(
             width: double.infinity,
             child: FilledButton(
-              onPressed: _startTest,
+              onPressed: _chosenLanguage == null ? null : _startTest,
               child: Text(l10n.placementTestStart),
             ),
           ),

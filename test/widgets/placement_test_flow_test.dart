@@ -31,6 +31,13 @@ void main() {
         findsOneWidget,
       );
 
+      // Etappe 28 Nachtrag 10: the test now asks which language to place
+      // into first (previously it silently walked all sections regardless
+      // of language, in file order - Ethiopia only in practice, since
+      // failing a block stops the test before it could ever reach Eritrea).
+      await tester.tap(find.text('Äthiopisch (Amharisch)'));
+      await tester.pumpAndSettle();
+
       await tester.tap(find.text("Los geht's"));
       await tester.pumpAndSettle();
 
@@ -53,6 +60,48 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.byType(PlacementTestScreen), findsNothing);
+    },
+  );
+
+  testWidgets(
+    'choosing Eritrean/Tigrinya only tests Tigrinya sections, not Ethiopia ones',
+    (tester) async {
+      // Etappe 28 Nachtrag 10: this is the actual bug the language-choice
+      // step fixes - previously the test walked curriculum.sections in file
+      // order regardless of language. All 6 Ethiopia sections come before
+      // any Eritrea one, and failing a block stops the test right there, so
+      // choosing "Eritrean" used to make no difference at all: nobody could
+      // ever fail their way past Ethiopia into a Tigrinya question.
+      await pumpTestApp(
+        tester,
+        initialPrefs: {
+          'amaseganlo.settings': jsonEncode(
+            const AppSettings(localeCode: 'de').toJson(),
+          ),
+        },
+      );
+
+      await tester.tap(find.byIcon(Icons.person_outline));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Einstufungstest'));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('Eritreisch (Tigrinya)'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text("Los geht's"));
+      await tester.pumpAndSettle();
+
+      for (var i = 0; i < 5; i++) {
+        await tester.tap(find.text('Ich weiß es nicht'));
+        await tester.pumpAndSettle();
+        await tester.tap(find.text('Weiter'));
+        await tester.pumpAndSettle();
+      }
+
+      // Still proposes Keren (Eritrea's first section) as the starting
+      // point, not Addis Abeba - confirming the block was actually built
+      // from Tigrinya vocabulary, not Amharic.
+      expect(find.textContaining('Keren'), findsOneWidget);
     },
   );
 }

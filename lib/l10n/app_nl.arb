@@ -194,6 +194,9 @@
   "chapterTestFailedBody": "Geen probleem - de fout beantwoorde woorden zijn gereset. Probeer het meteen opnieuw.",
   "placementTestTitle": "Instaptoets",
   "placementTestIntro": "We stellen je een paar vragen om de beste startplek te bepalen. Je kunt altijd afbreken.",
+  "placementTestChooseLanguagePrompt": "Voor welke taal wil je een niveaubepaling doen?",
+  "placementTestChooseLanguageEthiopia": "Ethiopisch (Amhaars)",
+  "placementTestChooseLanguageEritrea": "Eritrees (Tigrinya)",
   "placementTestStart": "Laten we gaan",
   "placementTestResultTitle": "Voorstel: {section}",
   "@placementTestResultTitle": {

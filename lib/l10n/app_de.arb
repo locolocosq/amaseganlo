@@ -194,6 +194,9 @@
   "chapterTestFailedBody": "Kein Problem - die falsch beantworteten Wörter wurden zurückgesetzt. Versuch's gleich nochmal.",
   "placementTestTitle": "Einstufungstest",
   "placementTestIntro": "Wir stellen dir ein paar Fragen, um herauszufinden, wo du am besten anfängst. Du kannst jederzeit abbrechen.",
+  "placementTestChooseLanguagePrompt": "Für welche Sprache möchtest du dich einstufen lassen?",
+  "placementTestChooseLanguageEthiopia": "Äthiopisch (Amharisch)",
+  "placementTestChooseLanguageEritrea": "Eritreisch (Tigrinya)",
   "placementTestStart": "Los geht's",
   "placementTestResultTitle": "Vorschlag: {section}",
   "@placementTestResultTitle": {

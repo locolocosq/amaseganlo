@@ -483,6 +483,16 @@ class AppLocalizationsSv extends AppLocalizations {
       'Vi ställer några frågor för att hitta bästa startpunkten för dig. Du kan avbryta när som helst.';
 
   @override
+  String get placementTestChooseLanguagePrompt =>
+      'Vilket språk vill du bli nivåbedömd i?';
+
+  @override
+  String get placementTestChooseLanguageEthiopia => 'Etiopiska (amhariska)';
+
+  @override
+  String get placementTestChooseLanguageEritrea => 'Eritreanska (tigrinja)';
+
+  @override
   String get placementTestStart => 'Kör igång';
 
   @override

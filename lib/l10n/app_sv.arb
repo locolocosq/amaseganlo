@@ -194,6 +194,9 @@
   "chapterTestFailedBody": "Inga problem - orden du svarade fel på har återställts. Försök igen direkt.",
   "placementTestTitle": "Placeringstest",
   "placementTestIntro": "Vi ställer några frågor för att hitta bästa startpunkten för dig. Du kan avbryta när som helst.",
+  "placementTestChooseLanguagePrompt": "Vilket språk vill du bli nivåbedömd i?",
+  "placementTestChooseLanguageEthiopia": "Etiopiska (amhariska)",
+  "placementTestChooseLanguageEritrea": "Eritreanska (tigrinja)",
   "placementTestStart": "Kör igång",
   "placementTestResultTitle": "Förslag: {section}",
   "@placementTestResultTitle": {

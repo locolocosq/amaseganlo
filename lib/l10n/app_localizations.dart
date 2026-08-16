@@ -984,6 +984,24 @@ abstract class AppLocalizations {
   /// **'We\'ll ask you a few questions to find the best place for you to start. You can cancel anytime.'**
   String get placementTestIntro;
 
+  /// No description provided for @placementTestChooseLanguagePrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Which language would you like to be placed into?'**
+  String get placementTestChooseLanguagePrompt;
+
+  /// No description provided for @placementTestChooseLanguageEthiopia.
+  ///
+  /// In en, this message translates to:
+  /// **'Ethiopian (Amharic)'**
+  String get placementTestChooseLanguageEthiopia;
+
+  /// No description provided for @placementTestChooseLanguageEritrea.
+  ///
+  /// In en, this message translates to:
+  /// **'Eritrean (Tigrinya)'**
+  String get placementTestChooseLanguageEritrea;
+
   /// No description provided for @placementTestStart.
   ///
   /// In en, this message translates to:

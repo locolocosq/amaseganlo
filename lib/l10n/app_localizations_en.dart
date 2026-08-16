@@ -482,6 +482,16 @@ class AppLocalizationsEn extends AppLocalizations {
       'We\'ll ask you a few questions to find the best place for you to start. You can cancel anytime.';
 
   @override
+  String get placementTestChooseLanguagePrompt =>
+      'Which language would you like to be placed into?';
+
+  @override
+  String get placementTestChooseLanguageEthiopia => 'Ethiopian (Amharic)';
+
+  @override
+  String get placementTestChooseLanguageEritrea => 'Eritrean (Tigrinya)';
+
+  @override
   String get placementTestStart => 'Let\'s go';
 
   @override

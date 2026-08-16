@@ -485,6 +485,16 @@ class AppLocalizationsDe extends AppLocalizations {
       'Wir stellen dir ein paar Fragen, um herauszufinden, wo du am besten anfängst. Du kannst jederzeit abbrechen.';
 
   @override
+  String get placementTestChooseLanguagePrompt =>
+      'Für welche Sprache möchtest du dich einstufen lassen?';
+
+  @override
+  String get placementTestChooseLanguageEthiopia => 'Äthiopisch (Amharisch)';
+
+  @override
+  String get placementTestChooseLanguageEritrea => 'Eritreisch (Tigrinya)';
+
+  @override
   String get placementTestStart => 'Los geht\'s';
 
   @override
