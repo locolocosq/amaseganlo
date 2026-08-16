@@ -5,10 +5,12 @@ import 'package:provider/provider.dart';
 import '../../core/purchase_service.dart';
 import '../../l10n/app_localizations.dart';
 
-const _appVersion = '1.2.1';
-// No CI pipeline stamps a real build timestamp yet - set by hand at release
-// time, same as _appVersion.
-const _buildDate = '2026-08-09';
+// Kept in sync by hand with pubspec.yaml's `version:` (no CI pipeline stamps
+// either this or the build date automatically yet) - found out of date
+// (still "1.2.1") while reviewing this screen for the Etappe 26 scroll fix,
+// bumped to match the actual shipped 1.4.1+7.
+const _appVersion = '1.4.1';
+const _buildDate = '2026-08-15';
 
 /// How many consecutive taps on the version line reveal the hidden
 /// developer-code dialog (Etappe 24) - the same "tap the build number"
@@ -48,8 +50,14 @@ class _AboutScreenState extends State<AboutScreen> {
           onSubmitted: (value) => Navigator.pop(ctx, value),
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(l10n.commonCancel)),
-          FilledButton(onPressed: () => Navigator.pop(ctx, controller.text), child: Text(l10n.devUnlockButton)),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: Text(l10n.commonCancel),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(ctx, controller.text),
+            child: Text(l10n.devUnlockButton),
+          ),
         ],
       ),
     );
@@ -58,7 +66,9 @@ class _AboutScreenState extends State<AboutScreen> {
     final ok = context.read<PurchaseService>().redeemDevCode(code);
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(ok ? l10n.devUnlockSuccess : l10n.devUnlockInvalid)),
+      SnackBar(
+        content: Text(ok ? l10n.devUnlockSuccess : l10n.devUnlockInvalid),
+      ),
     );
   }
 
@@ -74,75 +84,80 @@ class _AboutScreenState extends State<AboutScreen> {
         ),
         title: Text(l10n.settingsAbout),
       ),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          Center(
-            child: Column(
-              children: [
-                Icon(
-                  Icons.translate,
-                  size: 56,
-                  color: Theme.of(context).colorScheme.primary,
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  l10n.appTitle,
-                  style: Theme.of(context).textTheme.headlineSmall,
-                ),
-                const SizedBox(height: 4),
-                GestureDetector(
-                  onTap: _onVersionTap,
-                  child: Text('${l10n.aboutVersion} $_appVersion'),
-                ),
-                Text(
-                  '${l10n.aboutBuildDate}: $_buildDate',
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 24),
-          Card(
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: Text(l10n.aboutPrivacy),
-            ),
-          ),
-          const SizedBox(height: 16),
-          Card(
-            child: Padding(
-              padding: const EdgeInsets.all(16),
+      // See settings_screen.dart for why this needs an explicit SafeArea:
+      // this is a top-level route outside AppShell, so it never inherits
+      // AppShell's own SafeArea either.
+      body: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.all(16),
+          children: [
+            Center(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    l10n.aboutShortcuts,
-                    style: Theme.of(context).textTheme.titleMedium,
+                  Icon(
+                    Icons.translate,
+                    size: 56,
+                    color: Theme.of(context).colorScheme.primary,
                   ),
-                  const SizedBox(height: 8),
-                  Text(l10n.aboutShortcutsAnswer),
-                  Text(l10n.aboutShortcutsNext),
-                  Text(l10n.aboutShortcutsCancel),
-                  Text(l10n.aboutShortcutsAudio),
+                  const SizedBox(height: 12),
+                  Text(
+                    l10n.appTitle,
+                    style: Theme.of(context).textTheme.headlineSmall,
+                  ),
+                  const SizedBox(height: 4),
+                  GestureDetector(
+                    onTap: _onVersionTap,
+                    child: Text('${l10n.aboutVersion} $_appVersion'),
+                  ),
+                  Text(
+                    '${l10n.aboutBuildDate}: $_buildDate',
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                  ),
                 ],
               ),
             ),
-          ),
-          const SizedBox(height: 16),
-          ListTile(
-            leading: const Icon(Icons.description_outlined),
-            title: Text(l10n.aboutLicenses),
-            trailing: const Icon(Icons.chevron_right),
-            onTap: () => showLicensePage(
-              context: context,
-              applicationName: l10n.appTitle,
-              applicationVersion: _appVersion,
+            const SizedBox(height: 24),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Text(l10n.aboutPrivacy),
+              ),
             ),
-          ),
-        ],
+            const SizedBox(height: 16),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      l10n.aboutShortcuts,
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                    const SizedBox(height: 8),
+                    Text(l10n.aboutShortcutsAnswer),
+                    Text(l10n.aboutShortcutsNext),
+                    Text(l10n.aboutShortcutsCancel),
+                    Text(l10n.aboutShortcutsAudio),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+            ListTile(
+              leading: const Icon(Icons.description_outlined),
+              title: Text(l10n.aboutLicenses),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => showLicensePage(
+                context: context,
+                applicationName: l10n.appTitle,
+                applicationVersion: _appVersion,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
