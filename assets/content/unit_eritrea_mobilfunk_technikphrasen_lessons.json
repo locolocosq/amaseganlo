@@ -1,0 +1,130 @@
+[
+  {
+    "id": "unit_eritrea_mobilfunk_technikphrasen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_mbf_sim",
+      "lex_ti_mbf_sgnl",
+      "lex_ti_mbf_call",
+      "lex_ti_mbf_txt",
+      "lex_ti_mbf_ntwk",
+      "lex_ti_tkp_broken2",
+      "lex_ti_tkp_lowbatt",
+      "lex_ti_tkp_nosgnl",
+      "lex_ti_tkp_restrt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_mobilfunk_technikphrasen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_mbf_sim",
+      "lex_ti_mbf_sgnl",
+      "lex_ti_mbf_call",
+      "lex_ti_mbf_txt",
+      "lex_ti_mbf_ntwk",
+      "lex_ti_tkp_broken2",
+      "lex_ti_tkp_lowbatt",
+      "lex_ti_tkp_nosgnl",
+      "lex_ti_tkp_restrt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mobilfunk_technikphrasen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_mbf_sim",
+      "lex_ti_mbf_sgnl",
+      "lex_ti_mbf_call",
+      "lex_ti_mbf_txt",
+      "lex_ti_mbf_ntwk",
+      "lex_ti_tkp_broken2",
+      "lex_ti_tkp_lowbatt",
+      "lex_ti_tkp_nosgnl",
+      "lex_ti_tkp_restrt"
+    ],
+    "sentenceIds": [
+      "sen_ti_mobilfunk_technikphrasen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mobilfunk_technikphrasen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_mbf_sim",
+      "lex_ti_mbf_sgnl",
+      "lex_ti_mbf_call",
+      "lex_ti_mbf_txt",
+      "lex_ti_mbf_ntwk",
+      "lex_ti_tkp_broken2",
+      "lex_ti_tkp_lowbatt",
+      "lex_ti_tkp_nosgnl",
+      "lex_ti_tkp_restrt"
+    ],
+    "sentenceIds": [
+      "sen_ti_mobilfunk_technikphrasen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mobilfunk_technikphrasen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_mbf_sim",
+      "lex_ti_mbf_sgnl",
+      "lex_ti_mbf_call",
+      "lex_ti_mbf_txt",
+      "lex_ti_mbf_ntwk",
+      "lex_ti_tkp_broken2",
+      "lex_ti_tkp_lowbatt",
+      "lex_ti_tkp_nosgnl",
+      "lex_ti_tkp_restrt"
+    ],
+    "sentenceIds": [
+      "sen_ti_mobilfunk_technikphrasen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mobilfunk_technikphrasen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_mbf_sim",
+      "lex_ti_mbf_sgnl",
+      "lex_ti_mbf_call",
+      "lex_ti_mbf_txt",
+      "lex_ti_mbf_ntwk",
+      "lex_ti_tkp_broken2",
+      "lex_ti_tkp_lowbatt",
+      "lex_ti_tkp_nosgnl",
+      "lex_ti_tkp_restrt"
+    ],
+    "sentenceIds": [
+      "sen_ti_mobilfunk_technikphrasen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

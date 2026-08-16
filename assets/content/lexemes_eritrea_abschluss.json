@@ -1,0 +1,5 @@
+[
+  {"id":"lex_ti_abs_finish","am":"ወድአ","tr":"wedi'e","pos":"verb","topic":"completion","level":"TI","t":{"de":"beenden, fertigstellen","en":"to finish","sv":"att avsluta","nl":"afmaken"},"emoji":"","verified":false},
+  {"id":"lex_ti_abs_start2","am":"ጀመረ","tr":"jemere","pos":"verb","topic":"completion","level":"TI","t":{"de":"beginnen, anfangen","en":"to begin, start","sv":"att börja","nl":"beginnen"},"emoji":"","verified":false},
+  {"id":"lex_ti_abs_done2","am":"ተወዲኡ","tr":"tewedi'u","pos":"adjective","topic":"completion","level":"TI","t":{"de":"fertig, erledigt","en":"done, finished","sv":"klar, färdig","nl":"klaar, af"},"emoji":"","verified":false}
+]

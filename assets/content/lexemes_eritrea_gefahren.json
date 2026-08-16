@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_gfh_dngr","am":"ሓደገኛ","tr":"hadegegna","pos":"adjective","topic":"danger","level":"TI","t":{"de":"gefährlich","en":"dangerous","sv":"farlig","nl":"gevaarlijk"},"emoji":"⚠️","verified":false},
+  {"id":"lex_ti_gfh_hazrd","am":"ሓደጋ (ተኽእሎ 2)","tr":"hadega tekhi'ilo2","pos":"noun","topic":"danger","level":"TI","t":{"de":"die Gefahr","en":"danger, hazard","sv":"fara","nl":"gevaar"},"emoji":"","verified":false},
+  {"id":"lex_ti_gfh_accdnt","am":"ሓደጋ (ገጢሙ)","tr":"hadega gets'imu","pos":"noun","topic":"danger","level":"TI","t":{"de":"der Unfall","en":"accident","sv":"olycka","nl":"ongeluk"},"emoji":"","verified":false},
+  {"id":"lex_ti_gfh_avoid","am":"ተቖጠበ","tr":"teqotebe","pos":"verb","topic":"danger","level":"TI","t":{"de":"vermeiden","en":"to avoid","sv":"att undvika","nl":"vermijden"},"emoji":"","verified":false}
+]

@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_mng2_full2","am":"መሊኡ","tr":"meli'u","pos":"adjective","topic":"quantity","level":"TI","t":{"de":"voll","en":"full","sv":"full","nl":"vol"},"emoji":"","verified":false},
+  {"id":"lex_ti_mng2_empty2","am":"ጥርሙስ","tr":"tirimus","pos":"adjective","topic":"quantity","level":"TI","t":{"de":"leer","en":"empty","sv":"tom","nl":"leeg"},"emoji":"","verified":false},
+  {"id":"lex_ti_mng2_many2","am":"ብዙሕ","tr":"bizuh","pos":"adjective","topic":"quantity","level":"TI","t":{"de":"viel, viele","en":"many, much","sv":"många, mycket","nl":"veel"},"emoji":"","verified":false},
+  {"id":"lex_ti_mng2_few2","am":"ውሑድ","tr":"wihud","pos":"adjective","topic":"quantity","level":"TI","t":{"de":"wenig, wenige","en":"few, little","sv":"få, lite","nl":"weinig"},"emoji":"","verified":false},
+  {"id":"lex_ti_mng2_enough","am":"እኹል","tr":"'ikhul","pos":"adjective","topic":"quantity","level":"TI","t":{"de":"genug","en":"enough","sv":"tillräckligt","nl":"genoeg"},"emoji":"","verified":false}
+]

@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_fmt_smooth","am":"ልሱን","tr":"lisun","pos":"adjective","topic":"shape_texture","level":"TI","t":{"de":"glatt","en":"smooth","sv":"slät, len","nl":"glad (textuur)"},"emoji":"","verified":false},
+  {"id":"lex_ti_fmt_rough","am":"ሸካራ","tr":"shekara","pos":"adjective","topic":"shape_texture","level":"TI","t":{"de":"rau","en":"rough","sv":"grov, sträv","nl":"ruw"},"emoji":"","verified":false},
+  {"id":"lex_ti_fmt_wet","am":"ርሲስ","tr":"risis","pos":"adjective","topic":"shape_texture","level":"TI","t":{"de":"nass, feucht","en":"wet","sv":"blöt","nl":"nat"},"emoji":"","verified":false},
+  {"id":"lex_ti_fmt_dry","am":"ንቑጽ","tr":"niqu'ts","pos":"adjective","topic":"shape_texture","level":"TI","t":{"de":"trocken","en":"dry","sv":"torr","nl":"droog"},"emoji":"","verified":false},
+  {"id":"lex_ti_fmt_sharp2","am":"ስሉጥ","tr":"silut'i","pos":"adjective","topic":"shape_texture","level":"TI","t":{"de":"scharf (Kante)","en":"sharp (edge)","sv":"vass","nl":"scherp (rand)"},"emoji":"","verified":false},
+  {"id":"lex_ti_fmt_dull","am":"ደንዚዙ","tr":"denzizu","pos":"adjective","topic":"shape_texture","level":"TI","t":{"de":"stumpf","en":"dull, blunt","sv":"slö","nl":"stomp"},"emoji":"","verified":false}
+]

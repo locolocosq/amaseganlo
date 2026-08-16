@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_zst_ofcrs","am":"ብርግጽ","tr":"birigits","pos":"phrase","topic":"agreement","level":"TI","t":{"de":"natürlich, sicher","en":"of course, sure","sv":"visst, självklart","nl":"natuurlijk, zeker"},"emoji":"","verified":false},
+  {"id":"lex_ti_zst_exact2","am":"ልክዕ እዩ","tr":"liki'i 'iyu","pos":"phrase","topic":"agreement","level":"TI","t":{"de":"genau, stimmt","en":"exactly, that's right","sv":"exakt, precis","nl":"precies, dat klopt"},"emoji":"","verified":false},
+  {"id":"lex_ti_zst_nway","am":"ብፍጹም ኣይኮነን","tr":"bifitsum ayikonen","pos":"phrase","topic":"agreement","level":"TI","t":{"de":"auf keinen Fall","en":"no way, absolutely not","sv":"absolut inte","nl":"absoluut niet"},"emoji":"","verified":false},
+  {"id":"lex_ti_zst_prhps","am":"ይኸውን እዩ","tr":"yikhewin 'iyu","pos":"phrase","topic":"agreement","level":"TI","t":{"de":"könnte sein","en":"might be, possibly","sv":"kanske","nl":"zou kunnen"},"emoji":"","verified":false}
+]

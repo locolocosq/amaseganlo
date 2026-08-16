@@ -331,7 +331,65 @@
     "lexemes_eritrea_veranstaltung.json",
     "lexemes_eritrea_verpackung.json",
     "lexemes_eritrea_wildtiere.json",
-    "lexemes_eritrea_zirkus.json"
+    "lexemes_eritrea_zirkus.json",
+    "lexemes_eritrea_abschluss.json",
+    "lexemes_eritrea_architektur.json",
+    "lexemes_eritrea_baeckerei.json",
+    "lexemes_eritrea_bewegung.json",
+    "lexemes_eritrea_bibliothek.json",
+    "lexemes_eritrea_brauerei.json",
+    "lexemes_eritrea_briefmarken.json",
+    "lexemes_eritrea_denkmal.json",
+    "lexemes_eritrea_energie2.json",
+    "lexemes_eritrea_erinnerung.json",
+    "lexemes_eritrea_erstehilfe.json",
+    "lexemes_eritrea_fleischerei.json",
+    "lexemes_eritrea_flohmarkt.json",
+    "lexemes_eritrea_form_textur.json",
+    "lexemes_eritrea_gefahren.json",
+    "lexemes_eritrea_geld_ausdruecke.json",
+    "lexemes_eritrea_geraeusche.json",
+    "lexemes_eritrea_gesten.json",
+    "lexemes_eritrea_gewohnheiten.json",
+    "lexemes_eritrea_gletscher.json",
+    "lexemes_eritrea_gluecksphrasen.json",
+    "lexemes_eritrea_haeufigkeit.json",
+    "lexemes_eritrea_hoeflichkeit.json",
+    "lexemes_eritrea_immobilien.json",
+    "lexemes_eritrea_jugend.json",
+    "lexemes_eritrea_kaffeezeremonie.json",
+    "lexemes_eritrea_koerperfunktionen.json",
+    "lexemes_eritrea_koerperhaltung.json",
+    "lexemes_eritrea_konflikt.json",
+    "lexemes_eritrea_konjunktionen.json",
+    "lexemes_eritrea_landwirtschaft2.json",
+    "lexemes_eritrea_licht.json",
+    "lexemes_eritrea_meinungen.json",
+    "lexemes_eritrea_menge.json",
+    "lexemes_eritrea_mobilfunk.json",
+    "lexemes_eritrea_notfallphrasen.json",
+    "lexemes_eritrea_optik.json",
+    "lexemes_eritrea_position.json",
+    "lexemes_eritrea_schmetterlinge.json",
+    "lexemes_eritrea_seniorenpflege.json",
+    "lexemes_eritrea_smalltalk.json",
+    "lexemes_eritrea_steuern.json",
+    "lexemes_eritrea_supermarkt.json",
+    "lexemes_eritrea_tankstelle.json",
+    "lexemes_eritrea_technikphrasen.json",
+    "lexemes_eritrea_temperatur.json",
+    "lexemes_eritrea_tierpflege.json",
+    "lexemes_eritrea_traeume.json",
+    "lexemes_eritrea_verabschiedung.json",
+    "lexemes_eritrea_veraenderung.json",
+    "lexemes_eritrea_vergleiche2.json",
+    "lexemes_eritrea_wetterausdruecke.json",
+    "lexemes_eritrea_wuensche.json",
+    "lexemes_eritrea_zahnarzt.json",
+    "lexemes_eritrea_zoo.json",
+    "lexemes_eritrea_zukunftsplaene.json",
+    "lexemes_eritrea_zustaende.json",
+    "lexemes_eritrea_zustimmung.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -494,7 +552,8 @@
     "sentences_eritrea_mehr2.json",
     "sentences_eritrea_mehr3.json",
     "sentences_eritrea_mehr4.json",
-    "sentences_eritrea_mehr5.json"
+    "sentences_eritrea_mehr5.json",
+    "sentences_eritrea_mehr6.json"
   ],
   "sections": [
     {
@@ -841,7 +900,36 @@
         "unit_eritrea_textilien_mode2",
         "unit_eritrea_reinigung_kunstwerke",
         "unit_eritrea_modeaccessoires_bergbau",
-        "unit_eritrea_kalligraphie_gastronomie"
+        "unit_eritrea_kalligraphie_gastronomie",
+        "unit_eritrea_zoo_wildpflege",
+        "unit_eritrea_gletscher_schmetterlinge",
+        "unit_eritrea_flohmarkt_supermarkt",
+        "unit_eritrea_optik_zahnarzt",
+        "unit_eritrea_brauerei_kaffeezeremonie",
+        "unit_eritrea_erstehilfe_notdienste2",
+        "unit_eritrea_mobilfunk_technikphrasen",
+        "unit_eritrea_steuern_immobilien",
+        "unit_eritrea_architektur_denkmal",
+        "unit_eritrea_seniorenpflege_jugend",
+        "unit_eritrea_energie2_landwirtschaft2",
+        "unit_eritrea_fleischerei_baeckerei",
+        "unit_eritrea_tankstelle_bibliothek",
+        "unit_eritrea_gesten_koerperhaltung",
+        "unit_eritrea_briefmarken_traeume",
+        "unit_eritrea_gewohnheiten_meinungen",
+        "unit_eritrea_konflikt_zustimmung",
+        "unit_eritrea_erinnerung_zukunftsplaene",
+        "unit_eritrea_hoeflichkeit_zustaende",
+        "unit_eritrea_bewegung_koerperfunktionen",
+        "unit_eritrea_geraeusche_licht",
+        "unit_eritrea_temperatur_form_textur",
+        "unit_eritrea_menge_gefahren",
+        "unit_eritrea_veraenderung_vergleiche2",
+        "unit_eritrea_position_haeufigkeit",
+        "unit_eritrea_konjunktionen_geld_ausdruecke",
+        "unit_eritrea_wetterausdruecke_verabschiedung",
+        "unit_eritrea_smalltalk_notfallphrasen",
+        "unit_eritrea_gluecksphrasen_wuensche"
       ]
     }
   ],
@@ -4147,6 +4235,383 @@
       },
       "topic": "calligraphy_gastronomy",
       "lessonFile": "unit_eritrea_kalligraphie_gastronomie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_zoo_wildpflege",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Zoo & Tierpflege",
+        "en": "Zoo & Pet Care",
+        "sv": "Zoo & Djurvård",
+        "nl": "Dierentuin & Dierenverzorging"
+      },
+      "topic": "zoo_pet_care",
+      "lessonFile": "unit_eritrea_zoo_wildpflege_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gletscher_schmetterlinge",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gletscher & Insekten",
+        "en": "Glaciers & Insects",
+        "sv": "Glaciärer & Insekter",
+        "nl": "Gletsjers & Insecten"
+      },
+      "topic": "glaciers_insects",
+      "lessonFile": "unit_eritrea_gletscher_schmetterlinge_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_flohmarkt_supermarkt",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Flohmarkt & Supermarkt",
+        "en": "Flea Market & Supermarket",
+        "sv": "Loppmarknad & Snabbköp",
+        "nl": "Vlooienmarkt & Supermarkt"
+      },
+      "topic": "flea_market_supermarket",
+      "lessonFile": "unit_eritrea_flohmarkt_supermarkt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_optik_zahnarzt",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Optiker & Zahnarzt",
+        "en": "Optician & Dentist",
+        "sv": "Optiker & Tandläkare",
+        "nl": "Opticien & Tandarts"
+      },
+      "topic": "optician_dentist",
+      "lessonFile": "unit_eritrea_optik_zahnarzt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_brauerei_kaffeezeremonie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Brauerei & Kaffeezeremonie",
+        "en": "Brewing & Coffee Ceremony",
+        "sv": "Bryggeri & Kaffeceremoni",
+        "nl": "Brouwerij & Koffieceremonie"
+      },
+      "topic": "brewing_coffee",
+      "lessonFile": "unit_eritrea_brauerei_kaffeezeremonie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_erstehilfe_notdienste2",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Erste Hilfe",
+        "en": "First Aid",
+        "sv": "Första hjälpen",
+        "nl": "EHBO"
+      },
+      "topic": "first_aid",
+      "lessonFile": "unit_eritrea_erstehilfe_notdienste2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_mobilfunk_technikphrasen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Mobilfunk & Technikprobleme",
+        "en": "Mobile Phones & Tech Issues",
+        "sv": "Mobiltelefoner & Tekniska problem",
+        "nl": "Mobiele telefoons & Techproblemen"
+      },
+      "topic": "mobile_tech_issues",
+      "lessonFile": "unit_eritrea_mobilfunk_technikphrasen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_steuern_immobilien",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Steuern & Immobilien",
+        "en": "Taxes & Real Estate",
+        "sv": "Skatter & Fastigheter",
+        "nl": "Belastingen & Vastgoed"
+      },
+      "topic": "taxes_real_estate",
+      "lessonFile": "unit_eritrea_steuern_immobilien_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_architektur_denkmal",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Architektur & Denkmäler",
+        "en": "Architecture & Monuments",
+        "sv": "Arkitektur & Monument",
+        "nl": "Architectuur & Monumenten"
+      },
+      "topic": "architecture_monuments",
+      "lessonFile": "unit_eritrea_architektur_denkmal_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_seniorenpflege_jugend",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Seniorenpflege & Jugend",
+        "en": "Elderly Care & Youth",
+        "sv": "Äldreomsorg & Ungdom",
+        "nl": "Ouderenzorg & Jeugd"
+      },
+      "topic": "elderly_youth",
+      "lessonFile": "unit_eritrea_seniorenpflege_jugend_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_energie2_landwirtschaft2",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Erneuerbare Energie & Landwirtschaft (mehr)",
+        "en": "Renewable Energy & Agriculture (more)",
+        "sv": "Förnybar energi & Jordbruk (mer)",
+        "nl": "Duurzame energie & Landbouw (meer)"
+      },
+      "topic": "renewable_agriculture",
+      "lessonFile": "unit_eritrea_energie2_landwirtschaft2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_fleischerei_baeckerei",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Metzgerei & Bäckerei",
+        "en": "Butchery & Bakery",
+        "sv": "Slakteri & Bageri",
+        "nl": "Slagerij & Bakkerij"
+      },
+      "topic": "butchery_bakery",
+      "lessonFile": "unit_eritrea_fleischerei_baeckerei_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_tankstelle_bibliothek",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Tankstelle & Bibliothek",
+        "en": "Gas Station & Library",
+        "sv": "Bensinstation & Bibliotek",
+        "nl": "Tankstation & Bibliotheek"
+      },
+      "topic": "gas_station_library",
+      "lessonFile": "unit_eritrea_tankstelle_bibliothek_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gesten_koerperhaltung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gestik & Körperhaltung",
+        "en": "Gestures & Body Posture",
+        "sv": "Gester & Kroppshållning",
+        "nl": "Gebaren & Lichaamshouding"
+      },
+      "topic": "gestures_posture",
+      "lessonFile": "unit_eritrea_gesten_koerperhaltung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_briefmarken_traeume",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Sammeln & Träume",
+        "en": "Collecting & Dreams",
+        "sv": "Samlande & Drömmar",
+        "nl": "Verzamelen & Dromen"
+      },
+      "topic": "collecting_dreams",
+      "lessonFile": "unit_eritrea_briefmarken_traeume_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gewohnheiten_meinungen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gewohnheiten & Meinungen",
+        "en": "Habits & Opinions",
+        "sv": "Vanor & Åsikter",
+        "nl": "Gewoontes & Meningen"
+      },
+      "topic": "habits_opinions",
+      "lessonFile": "unit_eritrea_gewohnheiten_meinungen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_konflikt_zustimmung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Konflikt & Zustimmung",
+        "en": "Conflict & Agreement",
+        "sv": "Konflikt & Samtycke",
+        "nl": "Conflict & Instemming"
+      },
+      "topic": "conflict_agreement",
+      "lessonFile": "unit_eritrea_konflikt_zustimmung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_erinnerung_zukunftsplaene",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Erinnerung & Zukunftspläne",
+        "en": "Memory & Future Plans",
+        "sv": "Minne & Framtidsplaner",
+        "nl": "Herinnering & Toekomstplannen"
+      },
+      "topic": "memory_future",
+      "lessonFile": "unit_eritrea_erinnerung_zukunftsplaene_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_hoeflichkeit_zustaende",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Höflichkeit & Zustände",
+        "en": "Politeness & States",
+        "sv": "Artighet & Tillstånd",
+        "nl": "Beleefdheid & Toestanden"
+      },
+      "topic": "politeness_states",
+      "lessonFile": "unit_eritrea_hoeflichkeit_zustaende_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_bewegung_koerperfunktionen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Bewegung & Körperfunktionen",
+        "en": "Movement & Body Functions",
+        "sv": "Rörelse & Kroppsfunktioner",
+        "nl": "Beweging & Lichaamsfuncties"
+      },
+      "topic": "movement_body_functions",
+      "lessonFile": "unit_eritrea_bewegung_koerperfunktionen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_geraeusche_licht",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Geräusche & Licht",
+        "en": "Sounds & Light",
+        "sv": "Ljud & Ljus",
+        "nl": "Geluiden & Licht"
+      },
+      "topic": "sounds_light",
+      "lessonFile": "unit_eritrea_geraeusche_licht_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_temperatur_form_textur",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Temperatur & Textur",
+        "en": "Temperature & Texture",
+        "sv": "Temperatur & Textur",
+        "nl": "Temperatuur & Textuur"
+      },
+      "topic": "temperature_texture",
+      "lessonFile": "unit_eritrea_temperatur_form_textur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_menge_gefahren",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Menge & Gefahren",
+        "en": "Quantity & Danger",
+        "sv": "Mängd & Fara",
+        "nl": "Hoeveelheid & Gevaar"
+      },
+      "topic": "quantity_danger",
+      "lessonFile": "unit_eritrea_menge_gefahren_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_veraenderung_vergleiche2",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Veränderung & Vergleiche (mehr)",
+        "en": "Change & Comparisons (more)",
+        "sv": "Förändring & Jämförelser (mer)",
+        "nl": "Verandering & Vergelijkingen (meer)"
+      },
+      "topic": "change_comparison",
+      "lessonFile": "unit_eritrea_veraenderung_vergleiche2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_position_haeufigkeit",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Position & Häufigkeit",
+        "en": "Position & Frequency",
+        "sv": "Position & Frekvens",
+        "nl": "Positie & Frequentie"
+      },
+      "topic": "position_frequency",
+      "lessonFile": "unit_eritrea_position_haeufigkeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_konjunktionen_geld_ausdruecke",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Konjunktionen & Geldausdrücke",
+        "en": "Conjunctions & Money Expressions",
+        "sv": "Konjunktioner & Penninguttryck",
+        "nl": "Voegwoorden & Geld-uitdrukkingen"
+      },
+      "topic": "conjunctions_money",
+      "lessonFile": "unit_eritrea_konjunktionen_geld_ausdruecke_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wetterausdruecke_verabschiedung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Wetterausdrücke & Verabschiedung",
+        "en": "Weather Expressions & Farewells",
+        "sv": "Väderuttryck & Avsked",
+        "nl": "Weer-uitdrukkingen & Afscheid"
+      },
+      "topic": "weather_farewell",
+      "lessonFile": "unit_eritrea_wetterausdruecke_verabschiedung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_smalltalk_notfallphrasen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Small Talk & Notfallphrasen",
+        "en": "Small Talk & Emergency Phrases",
+        "sv": "Småprat & Nödfraser",
+        "nl": "Small talk & Noodzinnen"
+      },
+      "topic": "smalltalk_emergency",
+      "lessonFile": "unit_eritrea_smalltalk_notfallphrasen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gluecksphrasen_wuensche",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Glückwünsche & Wünsche",
+        "en": "Congratulations & Wishes",
+        "sv": "Gratulationer & Önskningar",
+        "nl": "Felicitaties & Wensen"
+      },
+      "topic": "congratulations_wishes",
+      "lessonFile": "unit_eritrea_gluecksphrasen_wuensche_lessons.json"
     }
   ]
 }

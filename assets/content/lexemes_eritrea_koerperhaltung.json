@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_khl_stand","am":"ደው በለ","tr":"dewi bele","pos":"verb","topic":"body_posture","level":"TI","t":{"de":"stehen","en":"to stand","sv":"att stå","nl":"staan"},"emoji":"","verified":false},
+  {"id":"lex_ti_khl_sit2","am":"ተቐመጠ","tr":"teqemet'e","pos":"verb","topic":"body_posture","level":"TI","t":{"de":"sitzen","en":"to sit","sv":"att sitta","nl":"zitten"},"emoji":"","verified":false},
+  {"id":"lex_ti_khl_lie","am":"ደቀሰ (ኣዝገመ)","tr":"deqese azgeme","pos":"verb","topic":"body_posture","level":"TI","t":{"de":"liegen","en":"to lie down","sv":"att ligga","nl":"liggen"},"emoji":"","verified":false},
+  {"id":"lex_ti_khl_kneel","am":"ተንበርከኸ","tr":"teniberikeke","pos":"verb","topic":"body_posture","level":"TI","t":{"de":"knien","en":"to kneel","sv":"att knäböja","nl":"knielen"},"emoji":"","verified":false},
+  {"id":"lex_ti_khl_bend","am":"ዓጠፈ","tr":"'atefe","pos":"verb","topic":"body_posture","level":"TI","t":{"de":"sich beugen","en":"to bend","sv":"att böja sig","nl":"buigen"},"emoji":"","verified":false}
+]

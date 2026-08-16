@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_temperatur_form_textur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_tmp_hot2",
+      "lex_ti_tmp_cool2",
+      "lex_ti_tmp_boil",
+      "lex_ti_tmp_freez",
+      "lex_ti_fmt_smooth",
+      "lex_ti_fmt_rough",
+      "lex_ti_fmt_wet",
+      "lex_ti_fmt_dry",
+      "lex_ti_fmt_sharp2",
+      "lex_ti_fmt_dull"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_temperatur_form_textur_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_tmp_hot2",
+      "lex_ti_tmp_cool2",
+      "lex_ti_tmp_boil",
+      "lex_ti_tmp_freez",
+      "lex_ti_fmt_smooth",
+      "lex_ti_fmt_rough",
+      "lex_ti_fmt_wet",
+      "lex_ti_fmt_dry",
+      "lex_ti_fmt_sharp2",
+      "lex_ti_fmt_dull"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_temperatur_form_textur_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_tmp_hot2",
+      "lex_ti_tmp_cool2",
+      "lex_ti_tmp_boil",
+      "lex_ti_tmp_freez",
+      "lex_ti_fmt_smooth",
+      "lex_ti_fmt_rough",
+      "lex_ti_fmt_wet",
+      "lex_ti_fmt_dry",
+      "lex_ti_fmt_sharp2",
+      "lex_ti_fmt_dull"
+    ],
+    "sentenceIds": [
+      "sen_ti_temperatur_form_textur_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_temperatur_form_textur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_tmp_hot2",
+      "lex_ti_tmp_cool2",
+      "lex_ti_tmp_boil",
+      "lex_ti_tmp_freez",
+      "lex_ti_fmt_smooth",
+      "lex_ti_fmt_rough",
+      "lex_ti_fmt_wet",
+      "lex_ti_fmt_dry",
+      "lex_ti_fmt_sharp2",
+      "lex_ti_fmt_dull"
+    ],
+    "sentenceIds": [
+      "sen_ti_temperatur_form_textur_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_temperatur_form_textur_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_tmp_hot2",
+      "lex_ti_tmp_cool2",
+      "lex_ti_tmp_boil",
+      "lex_ti_tmp_freez",
+      "lex_ti_fmt_smooth",
+      "lex_ti_fmt_rough",
+      "lex_ti_fmt_wet",
+      "lex_ti_fmt_dry",
+      "lex_ti_fmt_sharp2",
+      "lex_ti_fmt_dull"
+    ],
+    "sentenceIds": [
+      "sen_ti_temperatur_form_textur_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_temperatur_form_textur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_tmp_hot2",
+      "lex_ti_tmp_cool2",
+      "lex_ti_tmp_boil",
+      "lex_ti_tmp_freez",
+      "lex_ti_fmt_smooth",
+      "lex_ti_fmt_rough",
+      "lex_ti_fmt_wet",
+      "lex_ti_fmt_dry",
+      "lex_ti_fmt_sharp2",
+      "lex_ti_fmt_dull"
+    ],
+    "sentenceIds": [
+      "sen_ti_temperatur_form_textur_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

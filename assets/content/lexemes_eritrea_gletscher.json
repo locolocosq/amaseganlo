@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_glt_ice","am":"በረድ (ኣካል)","tr":"bered akal","pos":"noun","topic":"glaciers","level":"TI","t":{"de":"das Eis","en":"ice","sv":"is","nl":"ijs"},"emoji":"🧊","verified":false},
+  {"id":"lex_ti_glt_glcr","am":"ናይ በረድ ጎቦ","tr":"nay bered gobo","pos":"noun","topic":"glaciers","level":"TI","t":{"de":"der Gletscher","en":"glacier","sv":"glaciär","nl":"gletsjer"},"emoji":"","verified":false},
+  {"id":"lex_ti_glt_frst","am":"ውርጪ","tr":"wirichi","pos":"noun","topic":"glaciers","level":"TI","t":{"de":"der Frost, Raureif","en":"frost","sv":"frost","nl":"vorst (weer)"},"emoji":"","verified":false},
+  {"id":"lex_ti_glt_pole","am":"ጫፍ ምድሪ","tr":"chaf midri","pos":"noun","topic":"glaciers","level":"TI","t":{"de":"der Pol (geografisch)","en":"pole (geographic)","sv":"pol (geografisk)","nl":"pool (geografisch)"},"emoji":"","verified":false}
+]

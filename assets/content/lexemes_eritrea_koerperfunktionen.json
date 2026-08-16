@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_kfn_breath","am":"ኣስተንፈሰ","tr":"astenfese","pos":"verb","topic":"body_functions","level":"TI","t":{"de":"atmen","en":"to breathe","sv":"att andas","nl":"ademen"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfn_sweat","am":"ረሃጸ","tr":"rehatse","pos":"verb","topic":"body_functions","level":"TI","t":{"de":"schwitzen","en":"to sweat","sv":"att svettas","nl":"zweten"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfn_growl","am":"ኮፍ ኢሉ ኣንቀላፍአ","tr":"kofi 'ilu aniqelafi'e","pos":"phrase","topic":"body_functions","level":"TI","t":{"de":"einnicken","en":"to doze off","sv":"att slumra till","nl":"indutten"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfn_yawn","am":"ኣዘንበለ","tr":"azenbele","pos":"verb","topic":"body_functions","level":"TI","t":{"de":"gähnen","en":"to yawn","sv":"att gäspa","nl":"gapen"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfn_sneeze","am":"ሓንጠሰ","tr":"hantese","pos":"verb","topic":"body_functions","level":"TI","t":{"de":"niesen","en":"to sneeze","sv":"att nysa","nl":"niezen"},"emoji":"","verified":false}
+]

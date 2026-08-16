@@ -1,0 +1,112 @@
+[
+  {
+    "id": "unit_eritrea_fleischerei_baeckerei_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_flx_btchr",
+      "lex_ti_flx_ssge",
+      "lex_ti_flx_slghtr",
+      "lex_ti_bkr_bkr2",
+      "lex_ti_bkr_roll",
+      "lex_ti_bkr_oven2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_fleischerei_baeckerei_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_flx_btchr",
+      "lex_ti_flx_ssge",
+      "lex_ti_flx_slghtr",
+      "lex_ti_bkr_bkr2",
+      "lex_ti_bkr_roll",
+      "lex_ti_bkr_oven2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fleischerei_baeckerei_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_flx_btchr",
+      "lex_ti_flx_ssge",
+      "lex_ti_flx_slghtr",
+      "lex_ti_bkr_bkr2",
+      "lex_ti_bkr_roll",
+      "lex_ti_bkr_oven2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fleischerei_baeckerei_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fleischerei_baeckerei_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_flx_btchr",
+      "lex_ti_flx_ssge",
+      "lex_ti_flx_slghtr",
+      "lex_ti_bkr_bkr2",
+      "lex_ti_bkr_roll",
+      "lex_ti_bkr_oven2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fleischerei_baeckerei_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fleischerei_baeckerei_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_flx_btchr",
+      "lex_ti_flx_ssge",
+      "lex_ti_flx_slghtr",
+      "lex_ti_bkr_bkr2",
+      "lex_ti_bkr_roll",
+      "lex_ti_bkr_oven2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fleischerei_baeckerei_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fleischerei_baeckerei_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_flx_btchr",
+      "lex_ti_flx_ssge",
+      "lex_ti_flx_slghtr",
+      "lex_ti_bkr_bkr2",
+      "lex_ti_bkr_roll",
+      "lex_ti_bkr_oven2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fleischerei_baeckerei_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_bib_brrw","am":"ተለቓሒ መጽሓፍ","tr":"teleqahi metsihaf","pos":"verb","topic":"library","level":"TI","t":{"de":"ausleihen (Buch)","en":"to borrow (book)","sv":"låna (bok)","nl":"lenen (boek)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bib_rtrn","am":"መለሰ መጽሓፍ","tr":"melese metsihaf","pos":"verb","topic":"library","level":"TI","t":{"de":"zurückgeben (Buch)","en":"to return (book)","sv":"lämna tillbaka (bok)","nl":"terugbrengen (boek)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bib_catlg","am":"ካታሎግ መጻሕፍቲ","tr":"katalog metsahifti","pos":"noun","topic":"library","level":"TI","t":{"de":"der Katalog (Bibliothek)","en":"catalog (library)","sv":"katalog (bibliotek)","nl":"catalogus (bibliotheek)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bib_quiet","am":"ስቕታ","tr":"siqita","pos":"noun","topic":"library","level":"TI","t":{"de":"die Stille","en":"silence","sv":"tystnad","nl":"stilte"},"emoji":"","verified":false}
+]

@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_brw_brew","am":"ኣፍረየ ስዋ","tr":"afireye siwa","pos":"verb","topic":"brewing","level":"TI","t":{"de":"brauen","en":"to brew","sv":"att brygga","nl":"brouwen"},"emoji":"","verified":false},
+  {"id":"lex_ti_brw_ferm","am":"ተሓምበሰ","tr":"tehambese","pos":"verb","topic":"brewing","level":"TI","t":{"de":"gären","en":"to ferment","sv":"att jäsa","nl":"gisten"},"emoji":"","verified":false},
+  {"id":"lex_ti_brw_bril","am":"በርሚል","tr":"berimil","pos":"noun","topic":"brewing","level":"TI","t":{"de":"das Fass","en":"barrel","sv":"tunna","nl":"vat"},"emoji":"","verified":false},
+  {"id":"lex_ti_brw_hops","am":"ሆፕስ","tr":"hopisi","pos":"noun","topic":"brewing","level":"TI","t":{"de":"der Hopfen","en":"hops","sv":"humle","nl":"hop (bier)"},"emoji":"","verified":false}
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "unit_eritrea_menge_gefahren_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_mng2_full2",
+      "lex_ti_mng2_empty2",
+      "lex_ti_mng2_many2",
+      "lex_ti_mng2_few2",
+      "lex_ti_mng2_enough",
+      "lex_ti_gfh_dngr",
+      "lex_ti_gfh_hazrd",
+      "lex_ti_gfh_accdnt",
+      "lex_ti_gfh_avoid"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_menge_gefahren_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_mng2_full2",
+      "lex_ti_mng2_empty2",
+      "lex_ti_mng2_many2",
+      "lex_ti_mng2_few2",
+      "lex_ti_mng2_enough",
+      "lex_ti_gfh_dngr",
+      "lex_ti_gfh_hazrd",
+      "lex_ti_gfh_accdnt",
+      "lex_ti_gfh_avoid"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_menge_gefahren_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_mng2_full2",
+      "lex_ti_mng2_empty2",
+      "lex_ti_mng2_many2",
+      "lex_ti_mng2_few2",
+      "lex_ti_mng2_enough",
+      "lex_ti_gfh_dngr",
+      "lex_ti_gfh_hazrd",
+      "lex_ti_gfh_accdnt",
+      "lex_ti_gfh_avoid"
+    ],
+    "sentenceIds": [
+      "sen_ti_menge_gefahren_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_menge_gefahren_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_mng2_full2",
+      "lex_ti_mng2_empty2",
+      "lex_ti_mng2_many2",
+      "lex_ti_mng2_few2",
+      "lex_ti_mng2_enough",
+      "lex_ti_gfh_dngr",
+      "lex_ti_gfh_hazrd",
+      "lex_ti_gfh_accdnt",
+      "lex_ti_gfh_avoid"
+    ],
+    "sentenceIds": [
+      "sen_ti_menge_gefahren_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_menge_gefahren_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_mng2_full2",
+      "lex_ti_mng2_empty2",
+      "lex_ti_mng2_many2",
+      "lex_ti_mng2_few2",
+      "lex_ti_mng2_enough",
+      "lex_ti_gfh_dngr",
+      "lex_ti_gfh_hazrd",
+      "lex_ti_gfh_accdnt",
+      "lex_ti_gfh_avoid"
+    ],
+    "sentenceIds": [
+      "sen_ti_menge_gefahren_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_menge_gefahren_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_mng2_full2",
+      "lex_ti_mng2_empty2",
+      "lex_ti_mng2_many2",
+      "lex_ti_mng2_few2",
+      "lex_ti_mng2_enough",
+      "lex_ti_gfh_dngr",
+      "lex_ti_gfh_hazrd",
+      "lex_ti_gfh_accdnt",
+      "lex_ti_gfh_avoid"
+    ],
+    "sentenceIds": [
+      "sen_ti_menge_gefahren_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

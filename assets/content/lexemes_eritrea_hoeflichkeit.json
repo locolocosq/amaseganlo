@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_hfl_plte","am":"ስነ ምግባር","tr":"sine migibar","pos":"noun","topic":"politeness","level":"TI","t":{"de":"die Höflichkeit","en":"politeness","sv":"artighet","nl":"beleefdheid"},"emoji":"","verified":false},
+  {"id":"lex_ti_hfl_resp","am":"ኣኽብሮት","tr":"akibirot","pos":"noun","topic":"politeness","level":"TI","t":{"de":"der Respekt","en":"respect","sv":"respekt","nl":"respect"},"emoji":"","verified":false},
+  {"id":"lex_ti_hfl_rude","am":"ግሉል","tr":"gilul","pos":"adjective","topic":"politeness","level":"TI","t":{"de":"unhöflich, unverschämt","en":"rude","sv":"oartig","nl":"onbeleefd"},"emoji":"","verified":false},
+  {"id":"lex_ti_hfl_intrp","am":"ኣቋረጸ","tr":"aquaretse","pos":"verb","topic":"politeness","level":"TI","t":{"de":"unterbrechen","en":"to interrupt","sv":"att avbryta","nl":"onderbreken"},"emoji":"","verified":false}
+]

@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_snp_eldr","am":"ዓባይ ሰብ","tr":"'abay sew","pos":"noun","topic":"elderly_care","level":"TI","t":{"de":"der/die Ältere, Senior","en":"elderly person","sv":"äldre person","nl":"oudere"},"emoji":"","verified":false},
+  {"id":"lex_ti_snp_care","am":"ክንክን","tr":"kinikin","pos":"noun","topic":"elderly_care","level":"TI","t":{"de":"die Pflege","en":"care","sv":"vård, omsorg","nl":"zorg"},"emoji":"","verified":false},
+  {"id":"lex_ti_snp_cane","am":"በትሪ","tr":"betri","pos":"noun","topic":"elderly_care","level":"TI","t":{"de":"der Gehstock","en":"walking cane","sv":"käpp","nl":"wandelstok"},"emoji":"","verified":false},
+  {"id":"lex_ti_snp_hlp2","am":"ተኸናኸነ","tr":"tekenakene","pos":"verb","topic":"elderly_care","level":"TI","t":{"de":"pflegen, betreuen","en":"to care for","sv":"att ta hand om","nl":"verzorgen"},"emoji":"","verified":false}
+]

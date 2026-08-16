@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_trm_sleep2","am":"ደቀሰ","tr":"deqese","pos":"verb","topic":"dreams_sleep","level":"TI","t":{"de":"schlafen","en":"to sleep","sv":"att sova","nl":"slapen"},"emoji":"😴","verified":false},
+  {"id":"lex_ti_trm_wake","am":"ተንስአ","tr":"tenis'e","pos":"verb","topic":"dreams_sleep","level":"TI","t":{"de":"aufwachen","en":"to wake up","sv":"att vakna","nl":"wakker worden"},"emoji":"","verified":false},
+  {"id":"lex_ti_trm_dream2","am":"ሓለመ","tr":"haleme","pos":"verb","topic":"dreams_sleep","level":"TI","t":{"de":"träumen","en":"to dream","sv":"att drömma","nl":"dromen"},"emoji":"💭","verified":false},
+  {"id":"lex_ti_trm_nghtmr","am":"ሕማቕ ሕልሚ","tr":"himaq hilmi","pos":"noun","topic":"dreams_sleep","level":"TI","t":{"de":"der Albtraum","en":"nightmare","sv":"mardröm","nl":"nachtmerrie"},"emoji":"","verified":false},
+  {"id":"lex_ti_trm_snor","am":"ኣንኮርኮረ","tr":"ankorkore","pos":"verb","topic":"dreams_sleep","level":"TI","t":{"de":"schnarchen","en":"to snore","sv":"att snarka","nl":"snurken"},"emoji":"","verified":false}
+]

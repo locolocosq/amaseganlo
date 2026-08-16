@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_tst_ptrl","am":"ቤንዚን","tr":"benzin","pos":"noun","topic":"gas_station","level":"TI","t":{"de":"das Benzin","en":"gasoline","sv":"bensin","nl":"benzine"},"emoji":"⛽","verified":false},
+  {"id":"lex_ti_tst_fill","am":"መልአ ነዳዲ","tr":"mel'e nedadi","pos":"verb","topic":"gas_station","level":"TI","t":{"de":"tanken","en":"to refuel","sv":"att tanka","nl":"tanken"},"emoji":"","verified":false},
+  {"id":"lex_ti_tst_pump","am":"መስፈሪ ነዳዲ","tr":"mesiferi nedadi","pos":"noun","topic":"gas_station","level":"TI","t":{"de":"die Zapfsäule","en":"fuel pump","sv":"bensinpump","nl":"benzinepomp"},"emoji":"","verified":false},
+  {"id":"lex_ti_tst_diesl","am":"ናፍጣ","tr":"nafit'a","pos":"noun","topic":"gas_station","level":"TI","t":{"de":"der Diesel","en":"diesel","sv":"diesel","nl":"diesel"},"emoji":"","verified":false}
+]

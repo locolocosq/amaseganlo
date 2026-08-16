@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_kfz_bean","am":"ፍረ ቡን","tr":"fire bun","pos":"noun","topic":"coffee_ceremony","level":"TI","t":{"de":"die Kaffeebohne","en":"coffee bean","sv":"kaffeböna","nl":"koffieboon"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfz_roast","am":"ቆልዐ ቡን","tr":"qol'e bun","pos":"verb","topic":"coffee_ceremony","level":"TI","t":{"de":"rösten (Kaffee)","en":"to roast (coffee)","sv":"att rosta (kaffe)","nl":"branden (koffie)"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfz_incs","am":"ዕጣን","tr":"'itan","pos":"noun","topic":"coffee_ceremony","level":"TI","t":{"de":"der Weihrauch","en":"incense","sv":"rökelse","nl":"wierook"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfz_grass","am":"ሳዕሪ ምንጻፍ","tr":"sa'iri mintsaf","pos":"noun","topic":"coffee_ceremony","level":"TI","t":{"de":"das ausgelegte Gras (Zeremonie)","en":"strewn grass (ceremony)","sv":"utlagt gräs (ceremoni)","nl":"uitgestrooid gras (ceremonie)"},"emoji":"🌿","verified":false},
+  {"id":"lex_ti_kfz_pour","am":"ኣፍሰሰ (ቡን)","tr":"afisese bun","pos":"verb","topic":"coffee_ceremony","level":"TI","t":{"de":"eingießen (Kaffee)","en":"to pour (coffee)","sv":"att hälla (kaffe)","nl":"inschenken (koffie)"},"emoji":"","verified":false},
+  {"id":"lex_ti_kfz_round","am":"ራውንድ ቡን","tr":"rawnid bun","pos":"noun","topic":"coffee_ceremony","level":"TI","t":{"de":"die Kaffeerunde (Zeremonie)","en":"coffee round (ceremony)","sv":"kafferunda (ceremoni)","nl":"koffieronde (ceremonie)"},"emoji":"☕","verified":false}
+]

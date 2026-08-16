@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_pos_betwn","am":"ኣብ ማእከል","tr":"'ab ma'ikel","pos":"prep","topic":"position","level":"TI","t":{"de":"zwischen, in der Mitte","en":"between, in the middle","sv":"mellan, i mitten","nl":"tussen, in het midden"},"emoji":"","verified":false},
+  {"id":"lex_ti_pos_around","am":"ኣብ ከባቢ","tr":"'ab kebabi","pos":"prep","topic":"position","level":"TI","t":{"de":"um, herum","en":"around","sv":"runt","nl":"rondom"},"emoji":"","verified":false},
+  {"id":"lex_ti_pos_oppst","am":"ኣንጻር","tr":"antsar","pos":"prep","topic":"position","level":"TI","t":{"de":"gegenüber","en":"opposite","sv":"mittemot","nl":"tegenover"},"emoji":"","verified":false},
+  {"id":"lex_ti_pos_nextto","am":"ጎድኒ","tr":"godni","pos":"prep","topic":"position","level":"TI","t":{"de":"neben","en":"next to","sv":"bredvid","nl":"naast"},"emoji":"","verified":false}
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "unit_eritrea_tankstelle_bibliothek_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_tst_ptrl",
+      "lex_ti_tst_fill",
+      "lex_ti_tst_pump",
+      "lex_ti_tst_diesl",
+      "lex_ti_bib_brrw",
+      "lex_ti_bib_rtrn",
+      "lex_ti_bib_catlg",
+      "lex_ti_bib_quiet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_tankstelle_bibliothek_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_tst_ptrl",
+      "lex_ti_tst_fill",
+      "lex_ti_tst_pump",
+      "lex_ti_tst_diesl",
+      "lex_ti_bib_brrw",
+      "lex_ti_bib_rtrn",
+      "lex_ti_bib_catlg",
+      "lex_ti_bib_quiet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tankstelle_bibliothek_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_tst_ptrl",
+      "lex_ti_tst_fill",
+      "lex_ti_tst_pump",
+      "lex_ti_tst_diesl",
+      "lex_ti_bib_brrw",
+      "lex_ti_bib_rtrn",
+      "lex_ti_bib_catlg",
+      "lex_ti_bib_quiet"
+    ],
+    "sentenceIds": [
+      "sen_ti_tankstelle_bibliothek_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tankstelle_bibliothek_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_tst_ptrl",
+      "lex_ti_tst_fill",
+      "lex_ti_tst_pump",
+      "lex_ti_tst_diesl",
+      "lex_ti_bib_brrw",
+      "lex_ti_bib_rtrn",
+      "lex_ti_bib_catlg",
+      "lex_ti_bib_quiet"
+    ],
+    "sentenceIds": [
+      "sen_ti_tankstelle_bibliothek_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tankstelle_bibliothek_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_tst_ptrl",
+      "lex_ti_tst_fill",
+      "lex_ti_tst_pump",
+      "lex_ti_tst_diesl",
+      "lex_ti_bib_brrw",
+      "lex_ti_bib_rtrn",
+      "lex_ti_bib_catlg",
+      "lex_ti_bib_quiet"
+    ],
+    "sentenceIds": [
+      "sen_ti_tankstelle_bibliothek_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_tankstelle_bibliothek_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_tst_ptrl",
+      "lex_ti_tst_fill",
+      "lex_ti_tst_pump",
+      "lex_ti_tst_diesl",
+      "lex_ti_bib_brrw",
+      "lex_ti_bib_rtrn",
+      "lex_ti_bib_catlg",
+      "lex_ti_bib_quiet"
+    ],
+    "sentenceIds": [
+      "sen_ti_tankstelle_bibliothek_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

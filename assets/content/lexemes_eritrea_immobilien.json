@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_imb_prop","am":"ንብረት","tr":"nibiret","pos":"noun","topic":"real_estate","level":"TI","t":{"de":"das Eigentum, Grundstück","en":"property","sv":"egendom","nl":"eigendom"},"emoji":"","verified":false},
+  {"id":"lex_ti_imb_agnt2","am":"ደላሊ ገዛ","tr":"delali geza","pos":"noun","topic":"real_estate","level":"TI","t":{"de":"der Immobilienmakler","en":"real estate agent","sv":"fastighetsmäklare","nl":"makelaar"},"emoji":"","verified":false},
+  {"id":"lex_ti_imb_sell2","am":"ሸይጡ ገዛ","tr":"sheyitu geza","pos":"verb","topic":"real_estate","level":"TI","t":{"de":"ein Haus verkaufen","en":"to sell a house","sv":"sälja ett hus","nl":"een huis verkopen"},"emoji":"","verified":false},
+  {"id":"lex_ti_imb_plot","am":"መሬት ንህንጻ","tr":"meret ni hinitsa","pos":"noun","topic":"real_estate","level":"TI","t":{"de":"das Baugrundstück","en":"building plot","sv":"tomt","nl":"bouwgrond"},"emoji":"","verified":false}
+]

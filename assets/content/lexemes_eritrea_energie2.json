@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_en2_wind","am":"ሓይሊ ንፋስ","tr":"hayili nifas","pos":"noun","topic":"renewable_energy","level":"TI","t":{"de":"die Windkraft","en":"wind power","sv":"vindkraft","nl":"windenergie"},"emoji":"💨","verified":false},
+  {"id":"lex_ti_en2_hydro","am":"ሓይሊ ማይ","tr":"hayili mai","pos":"noun","topic":"renewable_energy","level":"TI","t":{"de":"die Wasserkraft","en":"hydropower","sv":"vattenkraft","nl":"waterkracht"},"emoji":"","verified":false},
+  {"id":"lex_ti_en2_panel","am":"ናይ ጸሓይ ሰሌዳ","tr":"nay tsehay seleda","pos":"noun","topic":"renewable_energy","level":"TI","t":{"de":"das Solarpanel","en":"solar panel","sv":"solpanel","nl":"zonnepaneel"},"emoji":"","verified":false},
+  {"id":"lex_ti_en2_sstn","am":"ዘላቕነት ዘለዎ","tr":"zelaqinet zelewo","pos":"adjective","topic":"renewable_energy","level":"TI","t":{"de":"nachhaltig","en":"sustainable","sv":"hållbar","nl":"duurzaam"},"emoji":"","verified":false}
+]

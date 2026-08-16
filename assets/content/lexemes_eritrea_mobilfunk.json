@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_mbf_sim","am":"ሲም ካርድ","tr":"sim kardi","pos":"noun","topic":"mobile_phones","level":"TI","t":{"de":"die SIM-Karte","en":"SIM card","sv":"sim-kort","nl":"simkaart"},"emoji":"","verified":false},
+  {"id":"lex_ti_mbf_sgnl","am":"ምልክት ተለፎን","tr":"milikit telefon","pos":"noun","topic":"mobile_phones","level":"TI","t":{"de":"das Signal (Handy)","en":"signal (phone)","sv":"signal (telefon)","nl":"signaal (telefoon)"},"emoji":"📶","verified":false},
+  {"id":"lex_ti_mbf_call","am":"ደወለ","tr":"dewele","pos":"verb","topic":"mobile_phones","level":"TI","t":{"de":"anrufen","en":"to call (phone)","sv":"att ringa","nl":"bellen"},"emoji":"📞","verified":false},
+  {"id":"lex_ti_mbf_txt","am":"ጽሓፈ መልእኽቲ","tr":"tsihafe mel'ikiti","pos":"verb","topic":"mobile_phones","level":"TI","t":{"de":"eine SMS schreiben","en":"to text","sv":"att sms:a","nl":"sms'en"},"emoji":"","verified":false},
+  {"id":"lex_ti_mbf_ntwk","am":"መርበብ ተለፎን","tr":"meribeb telefon","pos":"noun","topic":"mobile_phones","level":"TI","t":{"de":"das Mobilfunknetz","en":"mobile network","sv":"mobilnät","nl":"mobiel netwerk"},"emoji":"","verified":false}
+]

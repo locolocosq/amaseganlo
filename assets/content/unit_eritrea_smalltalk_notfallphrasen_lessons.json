@@ -1,0 +1,124 @@
+[
+  {
+    "id": "unit_eritrea_smalltalk_notfallphrasen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_smt_hwru",
+      "lex_ti_smt_nice2",
+      "lex_ti_smt_lngtim",
+      "lex_ti_smt_whtsnw",
+      "lex_ti_ntp_callplc",
+      "lex_ti_ntp_imlost",
+      "lex_ti_ntp_needdoc",
+      "lex_ti_ntp_isok"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_smalltalk_notfallphrasen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_smt_hwru",
+      "lex_ti_smt_nice2",
+      "lex_ti_smt_lngtim",
+      "lex_ti_smt_whtsnw",
+      "lex_ti_ntp_callplc",
+      "lex_ti_ntp_imlost",
+      "lex_ti_ntp_needdoc",
+      "lex_ti_ntp_isok"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_smalltalk_notfallphrasen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_smt_hwru",
+      "lex_ti_smt_nice2",
+      "lex_ti_smt_lngtim",
+      "lex_ti_smt_whtsnw",
+      "lex_ti_ntp_callplc",
+      "lex_ti_ntp_imlost",
+      "lex_ti_ntp_needdoc",
+      "lex_ti_ntp_isok"
+    ],
+    "sentenceIds": [
+      "sen_ti_smalltalk_notfallphrasen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_smalltalk_notfallphrasen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_smt_hwru",
+      "lex_ti_smt_nice2",
+      "lex_ti_smt_lngtim",
+      "lex_ti_smt_whtsnw",
+      "lex_ti_ntp_callplc",
+      "lex_ti_ntp_imlost",
+      "lex_ti_ntp_needdoc",
+      "lex_ti_ntp_isok"
+    ],
+    "sentenceIds": [
+      "sen_ti_smalltalk_notfallphrasen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_smalltalk_notfallphrasen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_smt_hwru",
+      "lex_ti_smt_nice2",
+      "lex_ti_smt_lngtim",
+      "lex_ti_smt_whtsnw",
+      "lex_ti_ntp_callplc",
+      "lex_ti_ntp_imlost",
+      "lex_ti_ntp_needdoc",
+      "lex_ti_ntp_isok"
+    ],
+    "sentenceIds": [
+      "sen_ti_smalltalk_notfallphrasen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_smalltalk_notfallphrasen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_smt_hwru",
+      "lex_ti_smt_nice2",
+      "lex_ti_smt_lngtim",
+      "lex_ti_smt_whtsnw",
+      "lex_ti_ntp_callplc",
+      "lex_ti_ntp_imlost",
+      "lex_ti_ntp_needdoc",
+      "lex_ti_ntp_isok"
+    ],
+    "sentenceIds": [
+      "sen_ti_smalltalk_notfallphrasen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "unit_eritrea_position_haeufigkeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_pos_betwn",
+      "lex_ti_pos_around",
+      "lex_ti_pos_oppst",
+      "lex_ti_pos_nextto",
+      "lex_ti_hfk_never2",
+      "lex_ti_hfk_rarely",
+      "lex_ti_hfk_often2",
+      "lex_ti_hfk_always3"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_position_haeufigkeit_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_pos_betwn",
+      "lex_ti_pos_around",
+      "lex_ti_pos_oppst",
+      "lex_ti_pos_nextto",
+      "lex_ti_hfk_never2",
+      "lex_ti_hfk_rarely",
+      "lex_ti_hfk_often2",
+      "lex_ti_hfk_always3"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_position_haeufigkeit_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_pos_betwn",
+      "lex_ti_pos_around",
+      "lex_ti_pos_oppst",
+      "lex_ti_pos_nextto",
+      "lex_ti_hfk_never2",
+      "lex_ti_hfk_rarely",
+      "lex_ti_hfk_often2",
+      "lex_ti_hfk_always3"
+    ],
+    "sentenceIds": [
+      "sen_ti_position_haeufigkeit_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_position_haeufigkeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_pos_betwn",
+      "lex_ti_pos_around",
+      "lex_ti_pos_oppst",
+      "lex_ti_pos_nextto",
+      "lex_ti_hfk_never2",
+      "lex_ti_hfk_rarely",
+      "lex_ti_hfk_often2",
+      "lex_ti_hfk_always3"
+    ],
+    "sentenceIds": [
+      "sen_ti_position_haeufigkeit_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_position_haeufigkeit_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_pos_betwn",
+      "lex_ti_pos_around",
+      "lex_ti_pos_oppst",
+      "lex_ti_pos_nextto",
+      "lex_ti_hfk_never2",
+      "lex_ti_hfk_rarely",
+      "lex_ti_hfk_often2",
+      "lex_ti_hfk_always3"
+    ],
+    "sentenceIds": [
+      "sen_ti_position_haeufigkeit_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_position_haeufigkeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_pos_betwn",
+      "lex_ti_pos_around",
+      "lex_ti_pos_oppst",
+      "lex_ti_pos_nextto",
+      "lex_ti_hfk_never2",
+      "lex_ti_hfk_rarely",
+      "lex_ti_hfk_often2",
+      "lex_ti_hfk_always3"
+    ],
+    "sentenceIds": [
+      "sen_ti_position_haeufigkeit_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

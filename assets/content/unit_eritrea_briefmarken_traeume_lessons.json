@@ -1,0 +1,130 @@
+[
+  {
+    "id": "unit_eritrea_briefmarken_traeume_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_brm_hobby",
+      "lex_ti_brm_coin2",
+      "lex_ti_brm_rare",
+      "lex_ti_brm_colct",
+      "lex_ti_trm_sleep2",
+      "lex_ti_trm_wake",
+      "lex_ti_trm_dream2",
+      "lex_ti_trm_nghtmr",
+      "lex_ti_trm_snor"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_briefmarken_traeume_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_brm_hobby",
+      "lex_ti_brm_coin2",
+      "lex_ti_brm_rare",
+      "lex_ti_brm_colct",
+      "lex_ti_trm_sleep2",
+      "lex_ti_trm_wake",
+      "lex_ti_trm_dream2",
+      "lex_ti_trm_nghtmr",
+      "lex_ti_trm_snor"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_briefmarken_traeume_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_brm_hobby",
+      "lex_ti_brm_coin2",
+      "lex_ti_brm_rare",
+      "lex_ti_brm_colct",
+      "lex_ti_trm_sleep2",
+      "lex_ti_trm_wake",
+      "lex_ti_trm_dream2",
+      "lex_ti_trm_nghtmr",
+      "lex_ti_trm_snor"
+    ],
+    "sentenceIds": [
+      "sen_ti_briefmarken_traeume_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_briefmarken_traeume_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_brm_hobby",
+      "lex_ti_brm_coin2",
+      "lex_ti_brm_rare",
+      "lex_ti_brm_colct",
+      "lex_ti_trm_sleep2",
+      "lex_ti_trm_wake",
+      "lex_ti_trm_dream2",
+      "lex_ti_trm_nghtmr",
+      "lex_ti_trm_snor"
+    ],
+    "sentenceIds": [
+      "sen_ti_briefmarken_traeume_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_briefmarken_traeume_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_brm_hobby",
+      "lex_ti_brm_coin2",
+      "lex_ti_brm_rare",
+      "lex_ti_brm_colct",
+      "lex_ti_trm_sleep2",
+      "lex_ti_trm_wake",
+      "lex_ti_trm_dream2",
+      "lex_ti_trm_nghtmr",
+      "lex_ti_trm_snor"
+    ],
+    "sentenceIds": [
+      "sen_ti_briefmarken_traeume_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_briefmarken_traeume_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_brm_hobby",
+      "lex_ti_brm_coin2",
+      "lex_ti_brm_rare",
+      "lex_ti_brm_colct",
+      "lex_ti_trm_sleep2",
+      "lex_ti_trm_wake",
+      "lex_ti_trm_dream2",
+      "lex_ti_trm_nghtmr",
+      "lex_ti_trm_snor"
+    ],
+    "sentenceIds": [
+      "sen_ti_briefmarken_traeume_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

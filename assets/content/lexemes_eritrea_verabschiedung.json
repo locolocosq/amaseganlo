@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_vrb_seeya","am":"ክሳብ ንርኣኣይ","tr":"kisab niri'a'ay","pos":"phrase","topic":"farewells","level":"TI","t":{"de":"bis bald, wir sehen uns","en":"see you soon","sv":"vi ses","nl":"tot ziens"},"emoji":"","verified":false},
+  {"id":"lex_ti_vrb_gdnght","am":"ደሓን ሕደር","tr":"dehan hider","pos":"phrase","topic":"farewells","level":"TI","t":{"de":"gute Nacht","en":"good night","sv":"god natt","nl":"welterusten"},"emoji":"🌙","verified":false},
+  {"id":"lex_ti_vrb_takecre","am":"ተጠንቀቕ ብዛዕባ ርእስኻ","tr":"tet'enqeq biza'iba ri'isikha","pos":"phrase","topic":"farewells","level":"TI","t":{"de":"pass auf dich auf","en":"take care of yourself","sv":"ta hand om dig själv","nl":"pas goed op jezelf"},"emoji":"","verified":false},
+  {"id":"lex_ti_vrb_gosafe","am":"ብደሓን ኪድ","tr":"bidehan kidi","pos":"phrase","topic":"farewells","level":"TI","t":{"de":"geh in Frieden, komm gut nach Hause","en":"go safely","sv":"res säkert","nl":"kom veilig thuis"},"emoji":"","verified":false}
+]

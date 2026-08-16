@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_grs_loud","am":"ዓው ዝበለ","tr":"'awi zibele","pos":"adjective","topic":"sounds","level":"TI","t":{"de":"laut","en":"loud","sv":"högljudd","nl":"luid"},"emoji":"","verified":false},
+  {"id":"lex_ti_grs_quiet2","am":"ህዱእ ድምጺ","tr":"hidu'i dimitsi","pos":"adjective","topic":"sounds","level":"TI","t":{"de":"leise","en":"quiet, soft (sound)","sv":"tyst, lågljudd","nl":"zacht (geluid)"},"emoji":"","verified":false},
+  {"id":"lex_ti_grs_noise","am":"ዓውታ","tr":"'awita","pos":"noun","topic":"sounds","level":"TI","t":{"de":"der Lärm","en":"noise","sv":"buller","nl":"lawaai"},"emoji":"","verified":false},
+  {"id":"lex_ti_grs_scrm","am":"ጨርሐ","tr":"cherihe","pos":"verb","topic":"sounds","level":"TI","t":{"de":"schreien","en":"to scream","sv":"att skrika","nl":"schreeuwen"},"emoji":"","verified":false},
+  {"id":"lex_ti_grs_whspr","am":"ሕሽኽ በለ","tr":"hishik bele","pos":"verb","topic":"sounds","level":"TI","t":{"de":"flüstern","en":"to whisper","sv":"att viska","nl":"fluisteren"},"emoji":"","verified":false}
+]

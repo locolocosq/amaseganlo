@@ -1,0 +1,130 @@
+[
+  {
+    "id": "unit_eritrea_gewohnheiten_meinungen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_gwh_daily",
+      "lex_ti_gwh_rtn",
+      "lex_ti_gwh_always2",
+      "lex_ti_gwh_habit",
+      "lex_ti_mng_agree",
+      "lex_ti_mng_disagr",
+      "lex_ti_mng_think2",
+      "lex_ti_mng_opnn",
+      "lex_ti_mng_maybe2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gewohnheiten_meinungen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_gwh_daily",
+      "lex_ti_gwh_rtn",
+      "lex_ti_gwh_always2",
+      "lex_ti_gwh_habit",
+      "lex_ti_mng_agree",
+      "lex_ti_mng_disagr",
+      "lex_ti_mng_think2",
+      "lex_ti_mng_opnn",
+      "lex_ti_mng_maybe2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewohnheiten_meinungen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_gwh_daily",
+      "lex_ti_gwh_rtn",
+      "lex_ti_gwh_always2",
+      "lex_ti_gwh_habit",
+      "lex_ti_mng_agree",
+      "lex_ti_mng_disagr",
+      "lex_ti_mng_think2",
+      "lex_ti_mng_opnn",
+      "lex_ti_mng_maybe2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewohnheiten_meinungen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewohnheiten_meinungen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_gwh_daily",
+      "lex_ti_gwh_rtn",
+      "lex_ti_gwh_always2",
+      "lex_ti_gwh_habit",
+      "lex_ti_mng_agree",
+      "lex_ti_mng_disagr",
+      "lex_ti_mng_think2",
+      "lex_ti_mng_opnn",
+      "lex_ti_mng_maybe2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewohnheiten_meinungen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewohnheiten_meinungen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_gwh_daily",
+      "lex_ti_gwh_rtn",
+      "lex_ti_gwh_always2",
+      "lex_ti_gwh_habit",
+      "lex_ti_mng_agree",
+      "lex_ti_mng_disagr",
+      "lex_ti_mng_think2",
+      "lex_ti_mng_opnn",
+      "lex_ti_mng_maybe2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewohnheiten_meinungen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewohnheiten_meinungen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_gwh_daily",
+      "lex_ti_gwh_rtn",
+      "lex_ti_gwh_always2",
+      "lex_ti_gwh_habit",
+      "lex_ti_mng_agree",
+      "lex_ti_mng_disagr",
+      "lex_ti_mng_think2",
+      "lex_ti_mng_opnn",
+      "lex_ti_mng_maybe2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewohnheiten_meinungen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_ern_remmbr","am":"ዘከረ","tr":"zekere","pos":"verb","topic":"memory","level":"TI","t":{"de":"sich erinnern","en":"to remember","sv":"att minnas","nl":"herinneren"},"emoji":"","verified":false},
+  {"id":"lex_ti_ern_forgt","am":"ረሲዑ","tr":"resi'u","pos":"verb","topic":"memory","level":"TI","t":{"de":"vergessen","en":"to forget","sv":"att glömma","nl":"vergeten"},"emoji":"","verified":false},
+  {"id":"lex_ti_ern_mem2","am":"ዝኽሪ","tr":"zikhri","pos":"noun","topic":"memory","level":"TI","t":{"de":"die Erinnerung","en":"memory (recollection)","sv":"minne","nl":"herinnering"},"emoji":"","verified":false},
+  {"id":"lex_ti_ern_nostal","am":"ናፍቖት","tr":"nafiqot","pos":"noun","topic":"memory","level":"TI","t":{"de":"die Sehnsucht, Nostalgie","en":"nostalgia, longing","sv":"längtan, nostalgi","nl":"heimwee, nostalgie"},"emoji":"","verified":false}
+]

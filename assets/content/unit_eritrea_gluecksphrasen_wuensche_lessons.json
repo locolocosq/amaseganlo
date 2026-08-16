@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_eritrea_gluecksphrasen_wuensche_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_glp_congr",
+      "lex_ti_glp_hbday",
+      "lex_ti_glp_gdluck",
+      "lex_ti_glp_wellsdo",
+      "lex_ti_wns_wish2",
+      "lex_ti_wns_hope2",
+      "lex_ti_wns_iwsh",
+      "lex_ti_wns_grtful",
+      "lex_ti_wns_proud2",
+      "lex_ti_abs_finish",
+      "lex_ti_abs_start2",
+      "lex_ti_abs_done2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gluecksphrasen_wuensche_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_glp_congr",
+      "lex_ti_glp_hbday",
+      "lex_ti_glp_gdluck",
+      "lex_ti_glp_wellsdo",
+      "lex_ti_wns_wish2",
+      "lex_ti_wns_hope2",
+      "lex_ti_wns_iwsh",
+      "lex_ti_wns_grtful",
+      "lex_ti_wns_proud2",
+      "lex_ti_abs_finish",
+      "lex_ti_abs_start2",
+      "lex_ti_abs_done2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gluecksphrasen_wuensche_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_glp_congr",
+      "lex_ti_glp_hbday",
+      "lex_ti_glp_gdluck",
+      "lex_ti_glp_wellsdo",
+      "lex_ti_wns_wish2",
+      "lex_ti_wns_hope2",
+      "lex_ti_wns_iwsh",
+      "lex_ti_wns_grtful",
+      "lex_ti_wns_proud2",
+      "lex_ti_abs_finish",
+      "lex_ti_abs_start2",
+      "lex_ti_abs_done2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gluecksphrasen_wuensche_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gluecksphrasen_wuensche_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_glp_congr",
+      "lex_ti_glp_hbday",
+      "lex_ti_glp_gdluck",
+      "lex_ti_glp_wellsdo",
+      "lex_ti_wns_wish2",
+      "lex_ti_wns_hope2",
+      "lex_ti_wns_iwsh",
+      "lex_ti_wns_grtful",
+      "lex_ti_wns_proud2",
+      "lex_ti_abs_finish",
+      "lex_ti_abs_start2",
+      "lex_ti_abs_done2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gluecksphrasen_wuensche_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gluecksphrasen_wuensche_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_glp_congr",
+      "lex_ti_glp_hbday",
+      "lex_ti_glp_gdluck",
+      "lex_ti_glp_wellsdo",
+      "lex_ti_wns_wish2",
+      "lex_ti_wns_hope2",
+      "lex_ti_wns_iwsh",
+      "lex_ti_wns_grtful",
+      "lex_ti_wns_proud2",
+      "lex_ti_abs_finish",
+      "lex_ti_abs_start2",
+      "lex_ti_abs_done2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gluecksphrasen_wuensche_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gluecksphrasen_wuensche_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_glp_congr",
+      "lex_ti_glp_hbday",
+      "lex_ti_glp_gdluck",
+      "lex_ti_glp_wellsdo",
+      "lex_ti_wns_wish2",
+      "lex_ti_wns_hope2",
+      "lex_ti_wns_iwsh",
+      "lex_ti_wns_grtful",
+      "lex_ti_wns_proud2",
+      "lex_ti_abs_finish",
+      "lex_ti_abs_start2",
+      "lex_ti_abs_done2"
+    ],
+    "sentenceIds": [
+      "sen_ti_gluecksphrasen_wuensche_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

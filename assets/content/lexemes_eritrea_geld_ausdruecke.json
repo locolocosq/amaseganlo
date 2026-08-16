@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_gld_broke","am":"ገንዘብ የብሉን","tr":"genzeb yebilun","pos":"phrase","topic":"money_expressions","level":"TI","t":{"de":"pleite sein","en":"to be broke","sv":"vara pank","nl":"blut zijn"},"emoji":"","verified":false},
+  {"id":"lex_ti_gld_rich2","am":"ሃብታም","tr":"habitam","pos":"adjective","topic":"money_expressions","level":"TI","t":{"de":"reich","en":"rich","sv":"rik","nl":"rijk"},"emoji":"","verified":false},
+  {"id":"lex_ti_gld_poor2","am":"ድኻ","tr":"dikha","pos":"adjective","topic":"money_expressions","level":"TI","t":{"de":"arm","en":"poor","sv":"fattig","nl":"arm"},"emoji":"","verified":false},
+  {"id":"lex_ti_gld_afford","am":"ክኸፍል ይኽእል","tr":"kikhefil yikhi'ili","pos":"phrase","topic":"money_expressions","level":"TI","t":{"de":"sich leisten können","en":"to afford","sv":"att ha råd med","nl":"zich kunnen veroorloven"},"emoji":"","verified":false}
+]

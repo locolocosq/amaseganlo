@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_ntp_callplc","am":"ንፖሊስ ደውሉ","tr":"nipolis dewilu","pos":"phrase","topic":"emergency_phrases","level":"TI","t":{"de":"rufen Sie die Polizei","en":"call the police","sv":"ring polisen","nl":"bel de politie"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntp_imlost","am":"ጠፊአ ኣለኹ","tr":"tefi'e alekhu","pos":"phrase","topic":"emergency_phrases","level":"TI","t":{"de":"ich habe mich verirrt","en":"I am lost","sv":"jag har gått vilse","nl":"ik ben verdwaald"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntp_needdoc","am":"ሓኪም የድልየኒ ኣሎ","tr":"hakim yediliyeni alo","pos":"phrase","topic":"emergency_phrases","level":"TI","t":{"de":"ich brauche einen Arzt","en":"I need a doctor","sv":"jag behöver en läkare","nl":"ik heb een dokter nodig"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntp_isok","am":"ጽቡቕ ዲኻ ዘለኻ","tr":"tsibuq dikha zelekha","pos":"phrase","topic":"emergency_phrases","level":"TI","t":{"de":"bist du in Ordnung","en":"are you okay","sv":"är du okej","nl":"ben je oké"},"emoji":"","verified":false}
+]

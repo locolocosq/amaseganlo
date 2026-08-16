@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_zhn_cvty","am":"በሰበሰ ስኒ","tr":"besebese sinni","pos":"noun","topic":"dentist","level":"TI","t":{"de":"das Loch (Karies)","en":"cavity","sv":"karies","nl":"gaatje (tand)"},"emoji":"","verified":false},
+  {"id":"lex_ti_zhn_brace","am":"ናይ ስኒ መስተኻኸሊ","tr":"nay sinni mestekhakheli","pos":"noun","topic":"dentist","level":"TI","t":{"de":"die Zahnspange","en":"braces","sv":"tandställning","nl":"beugel"},"emoji":"","verified":false},
+  {"id":"lex_ti_zhn_pain2","am":"ቃንዛ ስኒ","tr":"qanza sinni","pos":"noun","topic":"dentist","level":"TI","t":{"de":"die Zahnschmerzen","en":"toothache","sv":"tandvärk","nl":"kiespijn"},"emoji":"🦷","verified":false},
+  {"id":"lex_ti_zhn_extrct","am":"ስኒ ኣውጽአ","tr":"sinni awts'e","pos":"verb","topic":"dentist","level":"TI","t":{"de":"einen Zahn ziehen","en":"to extract a tooth","sv":"dra ut en tand","nl":"een tand trekken"},"emoji":"","verified":false}
+]

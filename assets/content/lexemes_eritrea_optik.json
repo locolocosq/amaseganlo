@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_opt_test","am":"ምርመራ ዓይኒ","tr":"mirmera 'ayni","pos":"noun","topic":"optics","level":"TI","t":{"de":"der Sehtest","en":"eye test","sv":"synundersökning","nl":"oogtest"},"emoji":"","verified":false},
+  {"id":"lex_ti_opt_lens2","am":"ናይ ዓይኒ መነጽር","tr":"nay 'ayni menetsir","pos":"noun","topic":"optics","level":"TI","t":{"de":"die Kontaktlinse","en":"contact lens","sv":"kontaktlins","nl":"contactlens"},"emoji":"","verified":false},
+  {"id":"lex_ti_opt_blur","am":"ደፊኡ ዝርአ","tr":"defi'u ziri'e","pos":"adjective","topic":"optics","level":"TI","t":{"de":"verschwommen (Sicht)","en":"blurry (vision)","sv":"suddig (syn)","nl":"wazig (zicht)"},"emoji":"","verified":false},
+  {"id":"lex_ti_opt_see","am":"ረኣየ","tr":"re'aye","pos":"verb","topic":"optics","level":"TI","t":{"de":"sehen","en":"to see","sv":"att se","nl":"zien"},"emoji":"","verified":false}
+]

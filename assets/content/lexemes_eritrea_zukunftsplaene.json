@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_zkp_plan3","am":"ውጥን","tr":"wit'in","pos":"noun","topic":"future_plans","level":"TI","t":{"de":"der Plan","en":"plan","sv":"plan","nl":"plan"},"emoji":"","verified":false},
+  {"id":"lex_ti_zkp_goal","am":"ሸቶ","tr":"sheto","pos":"noun","topic":"future_plans","level":"TI","t":{"de":"das Ziel","en":"goal","sv":"mål (syfte)","nl":"doel"},"emoji":"🎯","verified":false},
+  {"id":"lex_ti_zkp_intnd","am":"ወሰነ","tr":"wesene","pos":"verb","topic":"future_plans","level":"TI","t":{"de":"beschließen, vorhaben","en":"to decide, intend","sv":"att besluta, avse","nl":"besluiten, van plan zijn"},"emoji":"","verified":false},
+  {"id":"lex_ti_zkp_future","am":"መጻኢ","tr":"mets'a'i","pos":"noun","topic":"future_plans","level":"TI","t":{"de":"die Zukunft","en":"future","sv":"framtid","nl":"toekomst"},"emoji":"","verified":false}
+]
