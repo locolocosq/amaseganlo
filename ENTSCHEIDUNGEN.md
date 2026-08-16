@@ -622,3 +622,46 @@ ursprünglichen 4 Stationen 29 Tigrinya-Stationen, ~880 Wörter, 33 Sätze.
   IDs (834 Wörter + 25 Sätze) nach demselben Schema wie in Aufgabe 4 in `manifest.json` vorregistriert
   und an `store-assets/fehlende_audiodateien.md` angehängt.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite weiterhin grün (230/230).
+
+## Etappe 26 Nachtrag 2-6: Tigrinya-Wortschatz auf 2001 Wörter fertiggestellt (Zielmarke erreicht)
+
+Fortsetzung der obigen Anweisung über fünf weitere Runden nach demselben Muster (Themendateien
+schreiben → Wiring-Skript `tool/wire_eritrea_units_roundN.js` gruppiert sie zu Stationen →
+`flutter analyze`/`flutter test` → Audio-Manifest/`fehlende_audiodateien.md` aktualisieren →
+Commit), bis die vom Nutzer angeordnete Zielmarke von ca. 2000 Wörtern erreicht war. Endstand:
+**2001 Tigrinya-Wörter, 135 Sätze, 131 Stationen** (Runde 2: 1133, Runde 3: 1408, Runde 4: 1584,
+Runde 5: 1749, Runde 6: 2001 Wörter). Sechs Commits, je eines pro Runde.
+
+- **Gefundener und behobener Bug (Runde 3): Unit-ID-Kollision mit stillschweigender
+  Dateiüberschreibung.** Die automatische Namensgebung des Wiring-Skripts erzeugte in Runde 3 zufällig
+  denselben Stations-Namen (`unit_eritrea_phrasen_ausrufe`) wie eine bereits in Runde 1 angelegte
+  Station - das Skript hat daraufhin deren Lektionsdatei kommentarlos überschrieben (neue
+  `lexemeIds` aus den neuen Themendateien statt der ursprünglichen). Erkannt über den fehlschlagenden
+  `content_validation_test.dart` (doppelte Satz-/Stations-ID), behoben durch Wiederherstellung der
+  Runde-1-Datei aus `git show HEAD:...` und Umbenennung der Runde-3-Station auf `..._mehr`. Ab Runde 4
+  prüft das Wiring-Skript deshalb vor jedem Schreibvorgang alle geplanten Stations-IDs gegen die schon
+  in `curriculum.json` vorhandenen (`throw` bei Kollision, bevor irgendetwas geschrieben wird) - seither
+  keine weitere Kollision aufgetreten.
+- **Zwei gefundene und behobene Tippfehler:** Beim manuellen Schreiben der Themendateien haben sich
+  zweimal versehentlich fremde Schriftzeichen eingeschlichen statt Ge'ez/Tigrinya-Text bzw. sauberer
+  lateinischer Transliteration (ein chinesisches Zeichen in `lexemes_eritrea_gewuerze.json`
+  „Knoblauch", ein kyrillisches Zeichen in `lexemes_eritrea_internetbegriffe.json` „Link"). Beide vor
+  dem jeweiligen Commit über eine gezielte Regex-Prüfung auf CJK-/Kyrillisch-Zeichenbereiche in `am`/`tr`
+  über alle `lexemes_eritrea_*.json`-Dateien gefunden und korrigiert; diese Prüfung lief ab da vor jedem
+  weiteren Wiring-Lauf mit.
+- **Bewusst keine erschöpfende Cross-Datei-Prüfung auf inhaltliche/semantische Doppelungen mehr.**
+  Nach den ersten Runden zeigte sich, dass manche neuen Themenwörter zufällig dieselbe Bedeutung wie
+  bereits vorhandene Einträge in anderen Dateien abdecken (z. B. „Löwe"/„Schmetterling" tauchen sowohl
+  in älteren Tier-Dateien als auch in einer neuen Datei auf, mit unterschiedlicher ID). Technisch ist das
+  unproblematisch (jede ID ist eindeutig, keine Testverletzung), inhaltlich aber Redundanz. Eine
+  vollständige Prüfung gegen alle ~230 Dateien vor jedem neuen Wort hätte den Auftrag ("ohne zu
+  meckern", Korrektheit wird selbst geprüft) faktisch unterlaufen und die Fertigstellung erheblich
+  verzögert - stattdessen wurde nur auf (a) eindeutige Dateinamen (verhindert das Überschreibungs-
+  Problem von oben) und (b) global eindeutige Lexem-/Satz-IDs geprüft (harte Testanforderung). Punktuell
+  wurden nur besonders offensichtliche 1:1-Duplikate vermieden, wo beim Schreiben auffielen.
+- **Automatisch generierte "Es gibt [Wort]"-Sätze bleiben wie in Runde 1 dokumentiert unangetastet** -
+  bei rund 130 Stationen à 1 Satz ist ein Teil davon inhaltlich holprig, das war von Anfang an ein
+  bewusst in Kauf genommener Kompromiss zwischen Struktur-Vollständigkeit (jede Station braucht eine
+  Satzbau-Übung) und Zeitaufwand für individuell formulierte Sätze.
+- **Verifiziert nach jeder Runde:** `flutter analyze` (0 Probleme) und volle Testsuite (230/230 grün)
+  nach jeder der fünf Folgerunden, jeweils vor dem zugehörigen Commit.
