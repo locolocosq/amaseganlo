@@ -1,0 +1,220 @@
+[
+  {
+    "id": "sen_fix2_zahl_200",
+    "am": "ሁለት መቶ አለ።",
+    "tr": "hulet meto ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_200"
+    ],
+    "t": {
+      "de": "200 ist vorhanden.",
+      "en": "There is 200.",
+      "sv": "Det finns 200.",
+      "nl": "Er is 200."
+    },
+    "alt": {},
+    "chunks": [
+      "hulet",
+      "meto",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_300",
+    "am": "ሶስት መቶ አለኝ።",
+    "tr": "sost meto alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_300"
+    ],
+    "t": {
+      "de": "Ich habe 300.",
+      "en": "I have 300.",
+      "sv": "Jag har 300.",
+      "nl": "Ik heb 300."
+    },
+    "alt": {},
+    "chunks": [
+      "sost",
+      "meto",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_500",
+    "am": "አምስት መቶ እወዳለሁ።",
+    "tr": "amist meto iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_500"
+    ],
+    "t": {
+      "de": "Ich mag 500.",
+      "en": "I like 500.",
+      "sv": "Jag gillar 500.",
+      "nl": "Ik hou van 500."
+    },
+    "alt": {},
+    "chunks": [
+      "amist",
+      "meto",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_million",
+    "am": "ሚሊዮን አለ።",
+    "tr": "milyon ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_million"
+    ],
+    "t": {
+      "de": "die Million ist vorhanden.",
+      "en": "There is million.",
+      "sv": "Det finns miljon.",
+      "nl": "Er is miljoen."
+    },
+    "alt": {},
+    "chunks": [
+      "milyon",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_butter",
+    "am": "ቅቤ አለኝ።",
+    "tr": "kibbe alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_butter"
+    ],
+    "t": {
+      "de": "Ich habe die Butter.",
+      "en": "I have butter.",
+      "sv": "Jag har smör.",
+      "nl": "Ik heb boter."
+    },
+    "alt": {},
+    "chunks": [
+      "kibbe",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_400",
+    "am": "አራት መቶ አለ።",
+    "tr": "arat meto ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_400"
+    ],
+    "t": {
+      "de": "400 ist vorhanden.",
+      "en": "There is 400.",
+      "sv": "Det finns 400.",
+      "nl": "Er is 400."
+    },
+    "alt": {},
+    "chunks": [
+      "arat",
+      "meto",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_600",
+    "am": "ስድስት መቶ አለኝ።",
+    "tr": "sidist meto alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_600"
+    ],
+    "t": {
+      "de": "Ich habe 600.",
+      "en": "I have 600.",
+      "sv": "Jag har 600.",
+      "nl": "Ik heb 600."
+    },
+    "alt": {},
+    "chunks": [
+      "sidist",
+      "meto",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_700",
+    "am": "ሰባት መቶ እወዳለሁ።",
+    "tr": "sebat meto iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_700"
+    ],
+    "t": {
+      "de": "Ich mag 700.",
+      "en": "I like 700.",
+      "sv": "Jag gillar 700.",
+      "nl": "Ik hou van 700."
+    },
+    "alt": {},
+    "chunks": [
+      "sebat",
+      "meto",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_800",
+    "am": "ስምንት መቶ አለ።",
+    "tr": "siminit meto ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_800"
+    ],
+    "t": {
+      "de": "800 ist vorhanden.",
+      "en": "There is 800.",
+      "sv": "Det finns 800.",
+      "nl": "Er is 800."
+    },
+    "alt": {},
+    "chunks": [
+      "siminit",
+      "meto",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_zahl_900",
+    "am": "ዘጠኝ መቶ አለኝ።",
+    "tr": "zet'egn meto alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_900"
+    ],
+    "t": {
+      "de": "Ich habe 900.",
+      "en": "I have 900.",
+      "sv": "Jag har 900.",
+      "nl": "Ik heb 900."
+    },
+    "alt": {},
+    "chunks": [
+      "zet'egn",
+      "meto",
+      "alegn."
+    ],
+    "verified": false
+  }
+]

@@ -114,7 +114,7 @@
       "lex_ti_kraygz"
     ],
     "t": {
-      "de": "Ich habe der Mieter.",
+      "de": "Ich habe den Mieter.",
       "en": "I have tenant.",
       "sv": "Jag har hyresgäst.",
       "nl": "Ik heb huurder."
@@ -326,7 +326,7 @@
       "lex_ti_umw_dqla"
     ],
     "t": {
-      "de": "Ich habe der Wald, Dschungel.",
+      "de": "Ich habe den Wald, Dschungel.",
       "en": "I have forest, jungle.",
       "sv": "Jag har skog, djungel.",
       "nl": "Ik heb bos, jungle."
@@ -369,7 +369,7 @@
       "lex_ti_umw_ktkb"
     ],
     "t": {
-      "de": "Ich habe der Müll, Abfall.",
+      "de": "Ich habe den Müll, Abfall.",
       "en": "I have garbage, waste.",
       "sv": "Jag har skräp.",
       "nl": "Ik heb afval."
@@ -668,7 +668,7 @@
       "lex_ti_brf2_arkte"
     ],
     "t": {
-      "de": "Ich habe der Architekt.",
+      "de": "Ich habe den Architekt.",
       "en": "I have architect.",
       "sv": "Jag har arkitekt.",
       "nl": "Ik heb architect."
@@ -711,7 +711,7 @@
       "lex_ti_brf2_vetrn"
     ],
     "t": {
-      "de": "Ich habe der Tierarzt.",
+      "de": "Ich habe den Tierarzt.",
       "en": "I have veterinarian.",
       "sv": "Jag har veterinär.",
       "nl": "Ik heb dierenarts."
@@ -754,7 +754,7 @@
       "lex_ti_wt2_nqts"
     ],
     "t": {
-      "de": "Ich habe der Donner.",
+      "de": "Ich habe den Donner.",
       "en": "I have thunder.",
       "sv": "Jag har åska.",
       "nl": "Ik heb donder."
@@ -839,7 +839,7 @@
       "lex_ti_kl2_zenb"
     ],
     "t": {
-      "de": "Ich habe der Regenmantel.",
+      "de": "Ich habe den Regenmantel.",
       "en": "I have raincoat.",
       "sv": "Jag har regnrock.",
       "nl": "Ik heb regenjas."
@@ -1013,7 +1013,7 @@
       "lex_ti_mrt_dlfn"
     ],
     "t": {
-      "de": "Ich habe der Delfin.",
+      "de": "Ich habe den Delfin.",
       "en": "I have dolphin.",
       "sv": "Jag har delfin.",
       "nl": "Ik heb dolfijn."
@@ -1100,7 +1100,7 @@
       "lex_ti_spz_blon"
     ],
     "t": {
-      "de": "Ich habe der Luftballon.",
+      "de": "Ich habe den Luftballon.",
       "en": "I have balloon.",
       "sv": "Jag har ballong.",
       "nl": "Ik heb ballon."
@@ -1591,7 +1591,7 @@
       "lex_ti_vk2_stau"
     ],
     "t": {
-      "de": "Ich habe der Stau.",
+      "de": "Ich habe den Stau.",
       "en": "I have traffic jam.",
       "sv": "Jag har trafikstockning.",
       "nl": "Ik heb file."
@@ -1635,7 +1635,7 @@
       "lex_ti_vk2_lcns"
     ],
     "t": {
-      "de": "Ich habe der Führerschein.",
+      "de": "Ich habe den Führerschein.",
       "en": "I have driver's license.",
       "sv": "Jag har körkort.",
       "nl": "Ik heb rijbewijs."
@@ -1741,7 +1741,7 @@
       "lex_ti_lit_novl"
     ],
     "t": {
-      "de": "Ich habe der Roman.",
+      "de": "Ich habe den Roman.",
       "en": "I have novel.",
       "sv": "Jag har roman.",
       "nl": "Ik heb roman."
@@ -1786,7 +1786,7 @@
       "lex_ti_vsc_clm"
     ],
     "t": {
-      "de": "Ich habe der Versicherungsanspruch.",
+      "de": "Ich habe den Versicherungsanspruch.",
       "en": "I have insurance claim.",
       "sv": "Jag har försäkringsanspråk.",
       "nl": "Ik heb verzekeringsclaim."
@@ -1873,7 +1873,7 @@
       "lex_ti_umz_lease"
     ],
     "t": {
-      "de": "Ich habe der Mietvertrag.",
+      "de": "Ich habe den Mietvertrag.",
       "en": "I have lease.",
       "sv": "Jag har hyresavtal.",
       "nl": "Ik heb huurcontract."
@@ -2171,7 +2171,7 @@
       "lex_ti_uni_dgr"
     ],
     "t": {
-      "de": "Ich habe der Abschluss, Grad.",
+      "de": "Ich habe den Abschluss, Grad.",
       "en": "I have degree.",
       "sv": "Jag har examen.",
       "nl": "Ik heb diploma, graad."
@@ -2386,7 +2386,7 @@
       "lex_ti_pkn_sleep"
     ],
     "t": {
-      "de": "Ich habe der Schlafsack.",
+      "de": "Ich habe den Schlafsack.",
       "en": "I have sleeping bag.",
       "sv": "Jag har sovsäck.",
       "nl": "Ik heb slaapzak."
@@ -2431,7 +2431,7 @@
       "lex_ti_wnd_cmps"
     ],
     "t": {
-      "de": "Ich habe der Kompass.",
+      "de": "Ich habe den Kompass.",
       "en": "I have compass.",
       "sv": "Jag har kompass.",
       "nl": "Ik heb kompas."
@@ -2495,7 +2495,7 @@
       "lex_ti_plnt_jptr"
     ],
     "t": {
-      "de": "Ich habe der Jupiter.",
+      "de": "Ich habe den Jupiter.",
       "en": "I have Jupiter.",
       "sv": "Jag har Jupiter.",
       "nl": "Ik heb Jupiter."
@@ -2622,7 +2622,7 @@
       "lex_ti_bau2_brnch"
     ],
     "t": {
-      "de": "Ich habe der Ast.",
+      "de": "Ich habe den Ast.",
       "en": "I have branch.",
       "sv": "Jag har gren.",
       "nl": "Ik heb tak."
@@ -2664,7 +2664,7 @@
       "lex_ti_gwz_grlc"
     ],
     "t": {
-      "de": "Ich habe der Knoblauch.",
+      "de": "Ich habe den Knoblauch.",
       "en": "I have garlic.",
       "sv": "Jag har vitlök.",
       "nl": "Ik heb knoflook."
@@ -2707,7 +2707,7 @@
       "lex_ti_gwz_cinn"
     ],
     "t": {
-      "de": "Ich habe der Zimt.",
+      "de": "Ich habe den Zimt.",
       "en": "I have cinnamon.",
       "sv": "Jag har kanel.",
       "nl": "Ik heb kaneel."
@@ -2749,7 +2749,7 @@
       "lex_ti_gtr_mais"
     ],
     "t": {
-      "de": "Ich habe der Mais.",
+      "de": "Ich habe den Mais.",
       "en": "I have corn, maize.",
       "sv": "Jag har majs.",
       "nl": "Ik heb maïs."
@@ -2896,7 +2896,7 @@
       "lex_ti_ibg_link"
     ],
     "t": {
-      "de": "Ich habe der Link.",
+      "de": "Ich habe den Link.",
       "en": "I have link.",
       "sv": "Jag har länk.",
       "nl": "Ik heb link."
@@ -2959,7 +2959,7 @@
       "lex_ti_hst_brd2"
     ],
     "t": {
-      "de": "Ich habe der Haustiervogel.",
+      "de": "Ich habe den Haustiervogel.",
       "en": "I have pet bird.",
       "sv": "Jag har burfågel.",
       "nl": "Ik heb huisvogel."
@@ -3003,7 +3003,7 @@
       "lex_ti_hst_cage"
     ],
     "t": {
-      "de": "Ich habe der Käfig.",
+      "de": "Ich habe den Käfig.",
       "en": "I have cage.",
       "sv": "Jag har bur.",
       "nl": "Ik heb kooi."
@@ -3046,7 +3046,7 @@
       "lex_ti_tnz_trad"
     ],
     "t": {
-      "de": "Ich habe der traditionelle Tanz.",
+      "de": "Ich habe den traditionelle Tanz.",
       "en": "I have traditional dance.",
       "sv": "Jag har traditionell dans.",
       "nl": "Ik heb traditionele dans."
@@ -3175,7 +3175,7 @@
       "lex_ti_rfr_sat"
     ],
     "t": {
-      "de": "Ich habe der Satellit.",
+      "de": "Ich habe den Satellit.",
       "en": "I have satellite.",
       "sv": "Jag har satellit.",
       "nl": "Ik heb satelliet."
@@ -3347,7 +3347,7 @@
       "lex_ti_wld_mnky"
     ],
     "t": {
-      "de": "Ich habe der Affe.",
+      "de": "Ich habe den Affe.",
       "en": "I have monkey.",
       "sv": "Jag har apa.",
       "nl": "Ik heb aap."

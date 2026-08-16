@@ -52,11 +52,11 @@
       "lex_million"
     ],
     "sentenceIds": [
-      "sen_gen_erste",
-      "sen_gen_zweite",
-      "sen_gen_dritte",
-      "sen_gen_vierte",
-      "sen_gen_fuenfte"
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,11 +78,11 @@
       "lex_million"
     ],
     "sentenceIds": [
-      "sen_gen_erste",
-      "sen_gen_zweite",
-      "sen_gen_dritte",
-      "sen_gen_vierte",
-      "sen_gen_fuenfte"
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -104,11 +104,11 @@
       "lex_million"
     ],
     "sentenceIds": [
-      "sen_gen_erste",
-      "sen_gen_zweite",
-      "sen_gen_dritte",
-      "sen_gen_vierte",
-      "sen_gen_fuenfte"
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,11 +130,11 @@
       "lex_million"
     ],
     "sentenceIds": [
-      "sen_gen_erste",
-      "sen_gen_zweite",
-      "sen_gen_dritte",
-      "sen_gen_vierte",
-      "sen_gen_fuenfte"
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

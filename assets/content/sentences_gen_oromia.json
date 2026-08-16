@@ -197,7 +197,7 @@
       "lex_lehrer"
     ],
     "t": {
-      "de": "Ich mag der Lehrer, die Lehrerin.",
+      "de": "Ich mag den Lehrer, die Lehrerin.",
       "en": "I like teacher.",
       "sv": "Jag gillar lärare.",
       "nl": "Ik hou van leraar."
@@ -323,7 +323,7 @@
       "lex_wind"
     ],
     "t": {
-      "de": "Ich habe der Wind.",
+      "de": "Ich habe den Wind.",
       "en": "I have wind.",
       "sv": "Jag har vind.",
       "nl": "Ik heb wind."
@@ -344,7 +344,7 @@
       "lex_berg"
     ],
     "t": {
-      "de": "Ich mag der Berg.",
+      "de": "Ich mag den Berg.",
       "en": "I like mountain.",
       "sv": "Jag gillar berg.",
       "nl": "Ik hou van berg."
@@ -386,7 +386,7 @@
       "lex_fahrer"
     ],
     "t": {
-      "de": "Ich habe der Fahrer.",
+      "de": "Ich habe den Fahrer.",
       "en": "I have driver.",
       "sv": "Jag har förare.",
       "nl": "Ik heb chauffeur."
@@ -407,7 +407,7 @@
       "lex_ingenieur"
     ],
     "t": {
-      "de": "Ich mag der Ingenieur.",
+      "de": "Ich mag den Ingenieur.",
       "en": "I like engineer.",
       "sv": "Jag gillar ingenjör.",
       "nl": "Ik hou van ingenieur."
@@ -491,7 +491,7 @@
       "lex_film"
     ],
     "t": {
-      "de": "Ich habe der Film.",
+      "de": "Ich habe den Film.",
       "en": "I have film, movie.",
       "sv": "Jag har film.",
       "nl": "Ik heb film."
@@ -579,7 +579,7 @@
     "t": {
       "de": "Es ist sehr schmutzig.",
       "en": "It is very dirty.",
-      "sv": "Det är mycket smutsig.",
+      "sv": "Han är verkligen smutsig.",
       "nl": "Het is heel vuil."
     },
     "alt": {},
@@ -831,7 +831,7 @@
       "lex_stein"
     ],
     "t": {
-      "de": "Ich habe der Stein.",
+      "de": "Ich habe den Stein.",
       "en": "I have stone.",
       "sv": "Jag har sten.",
       "nl": "Ik heb steen."
@@ -1167,7 +1167,7 @@
       "lex_unfall"
     ],
     "t": {
-      "de": "Ich mag der Unfall.",
+      "de": "Ich mag den Unfall.",
       "en": "I like accident.",
       "sv": "Jag gillar olycka.",
       "nl": "Ik hou van ongeluk."
@@ -1383,7 +1383,7 @@
     "t": {
       "de": "Es ist sehr fleißig.",
       "en": "It is very hardworking.",
-      "sv": "Det är mycket flitig.",
+      "sv": "Han är verkligen flitig.",
       "nl": "Het is heel hardwerkend."
     },
     "alt": {},
@@ -1468,7 +1468,7 @@
       "lex_priester"
     ],
     "t": {
-      "de": "Ich habe der Priester.",
+      "de": "Ich habe den Priester.",
       "en": "I have priest.",
       "sv": "Jag har präst.",
       "nl": "Ik heb priester."
@@ -1489,7 +1489,7 @@
       "lex_schneider"
     ],
     "t": {
-      "de": "Ich mag der Schneider.",
+      "de": "Ich mag den Schneider.",
       "en": "I like tailor.",
       "sv": "Jag gillar skräddare.",
       "nl": "Ik hou van kleermaker."
@@ -1521,27 +1521,6 @@
       "t'awila",
       "serategna",
       "ale."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_sekretaer",
-    "am": "ፀሐፊ አለኝ።",
-    "tr": "tsehafi alegn.",
-    "level": "A2",
-    "uses": [
-      "lex_sekretaer"
-    ],
-    "t": {
-      "de": "Ich habe der/die Sekretär(in).",
-      "en": "I have secretary.",
-      "sv": "Jag har sekreterare.",
-      "nl": "Ik heb secretaresse."
-    },
-    "alt": {},
-    "chunks": [
-      "tsehafi",
-      "alegn."
     ],
     "verified": false
   },
@@ -1640,7 +1619,7 @@
       "lex_geldbeutel"
     ],
     "t": {
-      "de": "Ich habe der Geldbeutel.",
+      "de": "Ich habe den Geldbeutel.",
       "en": "I have wallet.",
       "sv": "Jag har plånbok.",
       "nl": "Ik heb portemonnee."
@@ -1858,7 +1837,7 @@
       "lex_fuehrerschein"
     ],
     "t": {
-      "de": "Ich mag der Führerschein.",
+      "de": "Ich mag den Führerschein.",
       "en": "I like driver's license.",
       "sv": "Jag gillar körkort.",
       "nl": "Ik hou van rijbewijs."
@@ -2104,27 +2083,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_samen",
-    "am": "ዘር አለኝ።",
-    "tr": "zer alegn.",
-    "level": "A2",
-    "uses": [
-      "lex_samen"
-    ],
-    "t": {
-      "de": "Ich habe der Same(n).",
-      "en": "I have seed.",
-      "sv": "Jag har frö.",
-      "nl": "Ik heb zaad."
-    },
-    "alt": {},
-    "chunks": [
-      "zer",
-      "alegn."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_boden_erde",
     "am": "አፈር እወዳለሁ።",
     "tr": "afer iwedallehu.",
@@ -2133,7 +2091,7 @@
       "lex_boden_erde"
     ],
     "t": {
-      "de": "Ich mag der Boden, die Erde.",
+      "de": "Ich mag den Boden, die Erde.",
       "en": "I like soil.",
       "sv": "Jag gillar jord.",
       "nl": "Ik hou van grond."
@@ -2238,7 +2196,7 @@
       "lex_verband"
     ],
     "t": {
-      "de": "Ich mag der Verband.",
+      "de": "Ich mag den Verband.",
       "en": "I like bandage.",
       "sv": "Jag gillar bandage.",
       "nl": "Ik hou van verband."
@@ -2639,7 +2597,7 @@
       "lex_schlafsack"
     ],
     "t": {
-      "de": "Ich habe der Schlafsack.",
+      "de": "Ich habe den Schlafsack.",
       "en": "I have sleeping bag.",
       "sv": "Jag har sovsäck.",
       "nl": "Ik heb slaapzak."
@@ -2747,7 +2705,7 @@
       "lex_nagel"
     ],
     "t": {
-      "de": "Ich habe der Nagel.",
+      "de": "Ich habe den Nagel.",
       "en": "I have nail.",
       "sv": "Jag har spik.",
       "nl": "Ik heb spijker."
@@ -2810,7 +2768,7 @@
       "lex_bohrer"
     ],
     "t": {
-      "de": "Ich habe der Bohrer.",
+      "de": "Ich habe den Bohrer.",
       "en": "I have drill.",
       "sv": "Jag har borr.",
       "nl": "Ik heb boor."
@@ -3131,7 +3089,7 @@
       "lex_ellbogen"
     ],
     "t": {
-      "de": "Ich habe der Ellbogen.",
+      "de": "Ich habe den Ellbogen.",
       "en": "I have elbow.",
       "sv": "Jag har armbåge.",
       "nl": "Ik heb elleboog."

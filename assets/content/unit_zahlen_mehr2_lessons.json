@@ -55,11 +55,11 @@
       "lex_zahl_900"
     ],
     "sentenceIds": [
-      "sen_gen_sechste",
-      "sen_gen_siebte",
-      "sen_gen_achte",
-      "sen_gen_neunte",
-      "sen_gen_zehnte"
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,11 +82,11 @@
       "lex_zahl_900"
     ],
     "sentenceIds": [
-      "sen_gen_sechste",
-      "sen_gen_siebte",
-      "sen_gen_achte",
-      "sen_gen_neunte",
-      "sen_gen_zehnte"
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -109,11 +109,11 @@
       "lex_zahl_900"
     ],
     "sentenceIds": [
-      "sen_gen_sechste",
-      "sen_gen_siebte",
-      "sen_gen_achte",
-      "sen_gen_neunte",
-      "sen_gen_zehnte"
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,11 +136,11 @@
       "lex_zahl_900"
     ],
     "sentenceIds": [
-      "sen_gen_sechste",
-      "sen_gen_siebte",
-      "sen_gen_achte",
-      "sen_gen_neunte",
-      "sen_gen_zehnte"
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

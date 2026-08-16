@@ -185,3 +185,19 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ንሱ ማዕረ ማዕረ እዩ። | nisu ma'ere ma'ere 'iyu. | sen_fix_vg2_same2.mp3 |
 | Tigrinya | ንሳ ፍልይ ዝበለ እያ። | nisa filiyi zibele 'iya. | sen_fix_vg2_diff2.mp3 |
 | Tigrinya | ንሱ ዝበለጸ እዩ። | nisu ziboletse 'iyu. | sen_fix_vg2_best2.mp3 |
+| Amharisch | ሁለት መቶ አለ። | hulet meto ale. | sen_fix2_zahl_200.mp3 |
+| Amharisch | ሶስት መቶ አለኝ። | sost meto alegn. | sen_fix2_zahl_300.mp3 |
+| Amharisch | አምስት መቶ እወዳለሁ። | amist meto iwedallehu. | sen_fix2_zahl_500.mp3 |
+| Amharisch | ሚሊዮን አለ። | milyon ale. | sen_fix2_million.mp3 |
+| Amharisch | ቅቤ አለኝ። | kibbe alegn. | sen_fix2_butter.mp3 |
+| Amharisch | አራት መቶ አለ። | arat meto ale. | sen_fix2_zahl_400.mp3 |
+| Amharisch | ስድስት መቶ አለኝ። | sidist meto alegn. | sen_fix2_zahl_600.mp3 |
+| Amharisch | ሰባት መቶ እወዳለሁ። | sebat meto iwedallehu. | sen_fix2_zahl_700.mp3 |
+| Amharisch | ስምንት መቶ አለ። | siminit meto ale. | sen_fix2_zahl_800.mp3 |
+| Amharisch | ዘጠኝ መቶ አለኝ። | zet'egn meto alegn. | sen_fix2_zahl_900.mp3 |
+| Amharisch | እሱ ግትር ነው። | issu gitir new. | sen_fix2_stur.mp3 |
+| Amharisch | እንስሳት አለ። | inisisat ale. | sen_fix2_viehbestand.mp3 |
+| Tigrinya | ብጻይ መንእሰያት ኣሎ። | bitsay men'iseyat alo. | sen_fix2_jgd_frnd2.mp3 |
+| Tigrinya | ንሱ ሓደገኛ እዩ። | nisu hadegegna 'iyu. | sen_fix2_gfh_dngr.mp3 |
+| Tigrinya | ሓደጋ (ተኽእሎ 2) ኣሎ። | hadega tekhi'ilo2 alo. | sen_fix2_gfh_hazrd.mp3 |
+| Tigrinya | ሓደጋ (ገጢሙ) ኣሎኒ። | hadega gets'imu alini. | sen_fix2_gfh_accdnt.mp3 |

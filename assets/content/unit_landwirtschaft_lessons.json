@@ -50,7 +50,7 @@
     ],
     "sentenceIds": [
       "sen_gen_ernte",
-      "sen_gen_samen",
+      "sen_fix2_viehbestand",
       "sen_gen_boden_erde",
       "sen_gen_pflug",
       "sen_gen_feldfrucht"
@@ -75,7 +75,7 @@
     ],
     "sentenceIds": [
       "sen_gen_ernte",
-      "sen_gen_samen",
+      "sen_fix2_viehbestand",
       "sen_gen_boden_erde",
       "sen_gen_pflug",
       "sen_gen_feldfrucht"
@@ -100,7 +100,7 @@
     ],
     "sentenceIds": [
       "sen_gen_ernte",
-      "sen_gen_samen",
+      "sen_fix2_viehbestand",
       "sen_gen_boden_erde",
       "sen_gen_pflug",
       "sen_gen_feldfrucht"
@@ -125,7 +125,7 @@
     ],
     "sentenceIds": [
       "sen_gen_ernte",
-      "sen_gen_samen",
+      "sen_fix2_viehbestand",
       "sen_gen_boden_erde",
       "sen_gen_pflug",
       "sen_gen_feldfrucht"

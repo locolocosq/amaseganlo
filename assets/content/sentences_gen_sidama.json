@@ -29,7 +29,7 @@
       "lex_wunsch"
     ],
     "t": {
-      "de": "Ich habe der Wunsch.",
+      "de": "Ich habe den Wunsch.",
       "en": "I have wish.",
       "sv": "Jag har önskan.",
       "nl": "Ik heb wens."
@@ -93,7 +93,7 @@
       "lex_feiertag"
     ],
     "t": {
-      "de": "Ich habe der Feiertag, das Fest.",
+      "de": "Ich habe den Feiertag, das Fest.",
       "en": "I have holiday, festival.",
       "sv": "Jag har helgdag, högtid.",
       "nl": "Ik heb feestdag."
@@ -199,7 +199,7 @@
       "lex_anfang"
     ],
     "t": {
-      "de": "Ich mag der Anfang.",
+      "de": "Ich mag den Anfang.",
       "en": "I like beginning.",
       "sv": "Jag gillar början.",
       "nl": "Ik hou van begin."
@@ -725,7 +725,7 @@
       "lex_feiertag_fest"
     ],
     "t": {
-      "de": "Ich habe der Feiertag, das Fest.",
+      "de": "Ich habe den Feiertag, das Fest.",
       "en": "I have holiday, festival.",
       "sv": "Jag har högtid, fest.",
       "nl": "Ik heb feestdag."
@@ -791,7 +791,7 @@
       "lex_segen"
     ],
     "t": {
-      "de": "Ich habe der Segen.",
+      "de": "Ich habe den Segen.",
       "en": "I have blessing.",
       "sv": "Jag har välsignelse.",
       "nl": "Ik heb zegen."
@@ -1173,7 +1173,7 @@
     "t": {
       "de": "Es ist sehr tief.",
       "en": "It is very deep.",
-      "sv": "Det är mycket djup.",
+      "sv": "Han är verkligen djup.",
       "nl": "Het is heel diep."
     },
     "alt": {},
@@ -1325,7 +1325,7 @@
       "lex_vulkan"
     ],
     "t": {
-      "de": "Ich habe der Vulkan.",
+      "de": "Ich habe den Vulkan.",
       "en": "I have volcano.",
       "sv": "Jag har vulkan.",
       "nl": "Ik heb vulkaan."
@@ -1437,7 +1437,7 @@
     "t": {
       "de": "Es ist sehr motiviert.",
       "en": "It is very motivated.",
-      "sv": "Det är mycket motiverad.",
+      "sv": "Han är verkligen motiverad.",
       "nl": "Het is heel gemotiveerd."
     },
     "alt": {},
@@ -1585,7 +1585,7 @@
       "lex_vertrag"
     ],
     "t": {
-      "de": "Ich habe der Vertrag.",
+      "de": "Ich habe den Vertrag.",
       "en": "I have contract.",
       "sv": "Jag har kontrakt.",
       "nl": "Ik heb contract."
@@ -1606,7 +1606,7 @@
       "lex_zeuge"
     ],
     "t": {
-      "de": "Ich mag der Zeuge.",
+      "de": "Ich mag den Zeuge.",
       "en": "I like witness.",
       "sv": "Jag gillar vittne.",
       "nl": "Ik hou van getuige."
@@ -1690,7 +1690,7 @@
       "lex_komet"
     ],
     "t": {
-      "de": "Ich habe der Komet.",
+      "de": "Ich habe den Komet.",
       "en": "I have comet.",
       "sv": "Jag har komet.",
       "nl": "Ik heb komeet."
@@ -2029,7 +2029,7 @@
       "lex_kreis"
     ],
     "t": {
-      "de": "Ich mag der Kreis.",
+      "de": "Ich mag den Kreis.",
       "en": "I like circle.",
       "sv": "Jag gillar cirkel.",
       "nl": "Ik hou van cirkel."

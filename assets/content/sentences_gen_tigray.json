@@ -29,7 +29,7 @@
       "lex_tisch"
     ],
     "t": {
-      "de": "Ich habe der Tisch.",
+      "de": "Ich habe den Tisch.",
       "en": "I have table.",
       "sv": "Jag har bord.",
       "nl": "Ik heb tafel."
@@ -50,7 +50,7 @@
       "lex_stuhl"
     ],
     "t": {
-      "de": "Ich mag der Stuhl.",
+      "de": "Ich mag den Stuhl.",
       "en": "I like chair.",
       "sv": "Jag gillar stol.",
       "nl": "Ik hou van stoel."
@@ -113,7 +113,7 @@
       "lex_abend"
     ],
     "t": {
-      "de": "Ich mag der Abend.",
+      "de": "Ich mag den Abend.",
       "en": "I like evening.",
       "sv": "Jag gillar kväll.",
       "nl": "Ik hou van avond."
@@ -180,7 +180,7 @@
     "t": {
       "de": "Es ist sehr grün.",
       "en": "It is very green.",
-      "sv": "Det är mycket grön.",
+      "sv": "Han är verkligen grön.",
       "nl": "Het is heel groen."
     },
     "alt": {},
@@ -390,7 +390,7 @@
       "lex_schuh"
     ],
     "t": {
-      "de": "Ich mag der Schuh.",
+      "de": "Ich mag den Schuh.",
       "en": "I like shoe.",
       "sv": "Jag gillar sko.",
       "nl": "Ik hou van schoen."
@@ -537,7 +537,7 @@
       "lex_loeffel"
     ],
     "t": {
-      "de": "Ich habe der Löffel.",
+      "de": "Ich habe den Löffel.",
       "en": "I have spoon.",
       "sv": "Jag har sked.",
       "nl": "Ik heb lepel."
@@ -642,7 +642,7 @@
       "lex_knoblauch"
     ],
     "t": {
-      "de": "Ich mag der Knoblauch.",
+      "de": "Ich mag den Knoblauch.",
       "en": "I like garlic.",
       "sv": "Jag gillar vitlök.",
       "nl": "Ik hou van knoflook."
@@ -673,116 +673,6 @@
     "chunks": [
       "karot",
       "ale."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_erste",
-    "am": "እሱ አንደኛ ነው።",
-    "tr": "issu andegna new.",
-    "level": "A1.2",
-    "uses": [
-      "lex_erste"
-    ],
-    "t": {
-      "de": "Er ist erste(r/s).",
-      "en": "He is first.",
-      "sv": "Han är första.",
-      "nl": "Hij is eerste."
-    },
-    "alt": {},
-    "chunks": [
-      "issu",
-      "andegna",
-      "new."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_zweite",
-    "am": "እሷ ሁለተኛ ናት።",
-    "tr": "iswa huletegna nat.",
-    "level": "A1.2",
-    "uses": [
-      "lex_zweite"
-    ],
-    "t": {
-      "de": "Sie ist zweite(r/s).",
-      "en": "She is second.",
-      "sv": "Hon är andra.",
-      "nl": "Zij is tweede."
-    },
-    "alt": {},
-    "chunks": [
-      "iswa",
-      "huletegna",
-      "nat."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_dritte",
-    "am": "በጣም ሶስተኛ ነው።",
-    "tr": "bet'am sostegna new.",
-    "level": "A1.2",
-    "uses": [
-      "lex_dritte"
-    ],
-    "t": {
-      "de": "Es ist sehr dritte(r/s).",
-      "en": "It is very third.",
-      "sv": "Det är mycket tredje.",
-      "nl": "Het is heel derde."
-    },
-    "alt": {},
-    "chunks": [
-      "bet'am",
-      "sostegna",
-      "new."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_vierte",
-    "am": "እሱ አራተኛ ነው።",
-    "tr": "issu arategna new.",
-    "level": "A1.2",
-    "uses": [
-      "lex_vierte"
-    ],
-    "t": {
-      "de": "Er ist vierte(r/s).",
-      "en": "He is fourth.",
-      "sv": "Han är fjärde.",
-      "nl": "Hij is vierde."
-    },
-    "alt": {},
-    "chunks": [
-      "issu",
-      "arategna",
-      "new."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_fuenfte",
-    "am": "እሷ አምስተኛ ናት።",
-    "tr": "iswa amistegna nat.",
-    "level": "A1.2",
-    "uses": [
-      "lex_fuenfte"
-    ],
-    "t": {
-      "de": "Sie ist fünfte(r/s).",
-      "en": "She is fifth.",
-      "sv": "Hon är femte.",
-      "nl": "Zij is vijfde."
-    },
-    "alt": {},
-    "chunks": [
-      "iswa",
-      "amistegna",
-      "nat."
     ],
     "verified": false
   },
@@ -1003,116 +893,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_sechste",
-    "am": "እሱ ስድስተኛ ነው።",
-    "tr": "issu sidistegna new.",
-    "level": "A1.2",
-    "uses": [
-      "lex_sechste"
-    ],
-    "t": {
-      "de": "Er ist sechste(r/s).",
-      "en": "He is sixth.",
-      "sv": "Han är sjätte.",
-      "nl": "Hij is zesde."
-    },
-    "alt": {},
-    "chunks": [
-      "issu",
-      "sidistegna",
-      "new."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_siebte",
-    "am": "እሷ ሰባተኛ ናት።",
-    "tr": "iswa sebategna nat.",
-    "level": "A1.2",
-    "uses": [
-      "lex_siebte"
-    ],
-    "t": {
-      "de": "Sie ist siebte(r/s).",
-      "en": "She is seventh.",
-      "sv": "Hon är sjunde.",
-      "nl": "Zij is zevende."
-    },
-    "alt": {},
-    "chunks": [
-      "iswa",
-      "sebategna",
-      "nat."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_achte",
-    "am": "በጣም ስምንተኛ ነው።",
-    "tr": "bet'am siminitegna new.",
-    "level": "A1.2",
-    "uses": [
-      "lex_achte"
-    ],
-    "t": {
-      "de": "Es ist sehr achte(r/s).",
-      "en": "It is very eighth.",
-      "sv": "Det är mycket åttonde.",
-      "nl": "Het is heel achtste."
-    },
-    "alt": {},
-    "chunks": [
-      "bet'am",
-      "siminitegna",
-      "new."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_neunte",
-    "am": "እሱ ዘጠነኛ ነው።",
-    "tr": "issu zetenegna new.",
-    "level": "A1.2",
-    "uses": [
-      "lex_neunte"
-    ],
-    "t": {
-      "de": "Er ist neunte(r/s).",
-      "en": "He is ninth.",
-      "sv": "Han är nionde.",
-      "nl": "Hij is negende."
-    },
-    "alt": {},
-    "chunks": [
-      "issu",
-      "zetenegna",
-      "new."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_zehnte",
-    "am": "እሷ አስረኛ ናት።",
-    "tr": "iswa asregna nat.",
-    "level": "A1.2",
-    "uses": [
-      "lex_zehnte"
-    ],
-    "t": {
-      "de": "Sie ist zehnte(r/s).",
-      "en": "She is tenth.",
-      "sv": "Hon är tionde.",
-      "nl": "Zij is tiende."
-    },
-    "alt": {},
-    "chunks": [
-      "iswa",
-      "asregna",
-      "nat."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_viel",
     "am": "እሱ ብዙ ነው።",
     "tr": "issu bizu new.",
@@ -1167,7 +947,7 @@
     "t": {
       "de": "Es ist sehr mehr, zusätzlich.",
       "en": "It is very more, additional.",
-      "sv": "Det är mycket mer, ytterligare.",
+      "sv": "Han är verkligen mer, ytterligare.",
       "nl": "Het is heel meer, extra."
     },
     "alt": {},
@@ -1251,7 +1031,7 @@
       "lex_ofen"
     ],
     "t": {
-      "de": "Ich habe der Ofen, Herd.",
+      "de": "Ich habe den Ofen, Herd.",
       "en": "I have oven, stove.",
       "sv": "Jag har ugn, spis.",
       "nl": "Ik heb oven, fornuis."
@@ -1357,7 +1137,7 @@
       "lex_blitz"
     ],
     "t": {
-      "de": "Ich habe der Blitz.",
+      "de": "Ich habe den Blitz.",
       "en": "I have lightning.",
       "sv": "Jag har blixt.",
       "nl": "Ik heb bliksem."
@@ -1378,7 +1158,7 @@
       "lex_donner"
     ],
     "t": {
-      "de": "Ich mag der Donner.",
+      "de": "Ich mag den Donner.",
       "en": "I like thunder.",
       "sv": "Jag gillar åska.",
       "nl": "Ik hou van donder."
@@ -1570,7 +1350,7 @@
       "lex_besen"
     ],
     "t": {
-      "de": "Ich habe der Besen.",
+      "de": "Ich habe den Besen.",
       "en": "I have broom.",
       "sv": "Jag har kvast.",
       "nl": "Ik heb bezem."
@@ -1591,7 +1371,7 @@
       "lex_eimer"
     ],
     "t": {
-      "de": "Ich mag der Eimer.",
+      "de": "Ich mag den Eimer.",
       "en": "I like bucket.",
       "sv": "Jag gillar hink.",
       "nl": "Ik hou van emmer."
@@ -1676,7 +1456,7 @@
       "lex_schmuck"
     ],
     "t": {
-      "de": "Ich habe der Schmuck.",
+      "de": "Ich habe den Schmuck.",
       "en": "I have jewelry.",
       "sv": "Jag har smycken.",
       "nl": "Ik heb sieraden."
@@ -1740,7 +1520,7 @@
       "lex_regenschirm"
     ],
     "t": {
-      "de": "Ich habe der Regenschirm.",
+      "de": "Ich habe den Regenschirm.",
       "en": "I have umbrella.",
       "sv": "Jag har paraply.",
       "nl": "Ik heb paraplu."
@@ -1804,7 +1584,7 @@
       "lex_schoepfloeffel"
     ],
     "t": {
-      "de": "Ich mag der Schöpflöffel.",
+      "de": "Ich mag den Schöpflöffel.",
       "en": "I like ladle.",
       "sv": "Jag gillar slev.",
       "nl": "Ik hou van soeplepel."
@@ -1889,7 +1669,7 @@
       "lex_radiergummi"
     ],
     "t": {
-      "de": "Ich habe der Radiergummi.",
+      "de": "Ich habe den Radiergummi.",
       "en": "I have eraser.",
       "sv": "Jag har suddgummi.",
       "nl": "Ik heb gum."

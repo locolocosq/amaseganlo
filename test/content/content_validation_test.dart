@@ -202,6 +202,46 @@ void main() {
     expect(problems, isEmpty, reason: problems.join('; '));
   });
 
+  test('no sentence translation contains dictionary-style multi-form notation like "erste(r/s)"', () {
+    // Etappe 28 Nachtrag 12 (bug report): some lexemes store a compact,
+    // flashcard-style gloss meant for standalone word display -
+    // "erste(r/s)", "der/die Sekretär(in)" - that reads as garbled/broken
+    // once inserted verbatim into a generated sentence's translation.
+    final pattern = RegExp(r'[a-zA-ZäöüßÄÖÜ]\([a-zäöüß/]{1,6}\)');
+    final derDie = RegExp(r'\b(der/die|die/der|der/das|el/la|the/a)\b', caseSensitive: false);
+    final problems = <String>[];
+    for (final entry in sentencesById.entries) {
+      final sentence = entry.value;
+      for (final locale in _locales) {
+        final text = (sentence['t'] as Map<String, dynamic>?)?[locale] as String?;
+        if (text == null) continue;
+        if (pattern.hasMatch(text) || derDie.hasMatch(text)) {
+          problems.add('Satz ${entry.key} ($locale): "$text"');
+        }
+      }
+    }
+    expect(problems, isEmpty, reason: problems.join('; '));
+  });
+
+  test('no German sentence translation uses the nominative article after "Ich habe"/"Ich mag"', () {
+    // Etappe 28 Nachtrag 12 (bug report: "die Tisch" / actually "der
+    // Tisch" inserted where accusative "den Tisch" was needed) - both
+    // "haben" and "mögen" take an accusative object, so a masculine noun's
+    // stored nominative article ("der X") must become "den X" once it's
+    // the object of one of these verbs. Feminine/neuter don't change
+    // (die/das are identical in nominative and accusative), so this only
+    // ever needs to catch "der ".
+    final pattern = RegExp(r'^Ich (habe|mag) der ');
+    final problems = <String>[];
+    for (final entry in sentencesById.entries) {
+      final de = (entry.value['t'] as Map<String, dynamic>?)?['de'] as String?;
+      if (de != null && pattern.hasMatch(de)) {
+        problems.add('Satz ${entry.key}: "$de"');
+      }
+    }
+    expect(problems, isEmpty, reason: problems.join('; '));
+  });
+
   test('every unit id used in a section actually exists in the units list', () {
     final unitIds = units.map((u) => (u as Map<String, dynamic>)['id'] as String).toSet();
     final problems = <String>[];

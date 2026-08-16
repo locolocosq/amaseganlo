@@ -50,7 +50,7 @@
       "sen_gen_priester",
       "sen_gen_schneider",
       "sen_gen_zimmermann",
-      "sen_gen_sekretaer"
+      "sen_fix2_stur"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +74,7 @@
       "sen_gen_priester",
       "sen_gen_schneider",
       "sen_gen_zimmermann",
-      "sen_gen_sekretaer"
+      "sen_fix2_stur"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -98,7 +98,7 @@
       "sen_gen_priester",
       "sen_gen_schneider",
       "sen_gen_zimmermann",
-      "sen_gen_sekretaer"
+      "sen_fix2_stur"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -122,7 +122,7 @@
       "sen_gen_priester",
       "sen_gen_schneider",
       "sen_gen_zimmermann",
-      "sen_gen_sekretaer"
+      "sen_fix2_stur"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

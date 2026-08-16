@@ -73,7 +73,7 @@
       "lex_ti_elk_gnrtr"
     ],
     "t": {
-      "de": "Ich habe der Generator.",
+      "de": "Ich habe den Generator.",
       "en": "I have generator.",
       "sv": "Jag har generator.",
       "nl": "Ik heb generator."
@@ -136,7 +136,7 @@
       "lex_ti_few_hose"
     ],
     "t": {
-      "de": "Ich habe der Feuerwehrschlauch.",
+      "de": "Ich habe den Feuerwehrschlauch.",
       "en": "I have fire hose.",
       "sv": "Jag har brandslang.",
       "nl": "Ik heb brandslang."
@@ -293,7 +293,7 @@
       "lex_ti_frs_cut2"
     ],
     "t": {
-      "de": "Ich habe der Haarschnitt.",
+      "de": "Ich habe den Haarschnitt.",
       "en": "I have haircut.",
       "sv": "Jag har hårklippning.",
       "nl": "Ik heb kapsel, knipbeurt."
@@ -337,7 +337,7 @@
       "lex_ti_frs_beard"
     ],
     "t": {
-      "de": "Ich habe der Bart.",
+      "de": "Ich habe den Bart.",
       "en": "I have beard.",
       "sv": "Jag har skägg.",
       "nl": "Ik heb baard."
@@ -442,7 +442,7 @@
       "lex_ti_hzf_grm"
     ],
     "t": {
-      "de": "Ich habe der Bräutigam.",
+      "de": "Ich habe den Bräutigam.",
       "en": "I have groom.",
       "sv": "Jag har brudgum.",
       "nl": "Ik heb bruidegom."
@@ -484,7 +484,7 @@
       "lex_ti_hzf_wtns"
     ],
     "t": {
-      "de": "Ich habe der Trauzeuge.",
+      "de": "Ich habe den Trauzeuge.",
       "en": "I have witness (wedding).",
       "sv": "Jag har vittne (bröllop).",
       "nl": "Ik heb getuige (huwelijk)."
@@ -590,7 +590,7 @@
       "lex_ti_seef_hrbr"
     ],
     "t": {
-      "de": "Ich habe der Hafen.",
+      "de": "Ich habe den Hafen.",
       "en": "I have harbor, port.",
       "sv": "Jag har hamn.",
       "nl": "Ik heb haven."
@@ -632,7 +632,7 @@
       "lex_ti_seef_capt"
     ],
     "t": {
-      "de": "Ich habe der Kapitän.",
+      "de": "Ich habe den Kapitän.",
       "en": "I have captain (ship).",
       "sv": "Jag har kapten (fartyg).",
       "nl": "Ik heb kapitein (schip)."
@@ -890,7 +890,7 @@
       "lex_ti_txt_fbrc"
     ],
     "t": {
-      "de": "Ich habe der Stoff.",
+      "de": "Ich habe den Stoff.",
       "en": "I have fabric.",
       "sv": "Jag har tyg.",
       "nl": "Ik heb stof (textiel)."
@@ -978,7 +978,7 @@
       "lex_ti_rng_dust"
     ],
     "t": {
-      "de": "Ich habe der Staub.",
+      "de": "Ich habe den Staub.",
       "en": "I have dust.",
       "sv": "Jag har damm.",
       "nl": "Ik heb stof (vuil)."
@@ -1022,7 +1022,7 @@
       "lex_ti_mda_umbrl2"
     ],
     "t": {
-      "de": "Ich habe der Regenschirm.",
+      "de": "Ich habe den Regenschirm.",
       "en": "I have umbrella.",
       "sv": "Jag har paraply.",
       "nl": "Ik heb paraplu."
@@ -1065,7 +1065,7 @@
       "lex_ti_mda_erng"
     ],
     "t": {
-      "de": "Ich habe der Ohrring.",
+      "de": "Ich habe den Ohrring.",
       "en": "I have earring.",
       "sv": "Jag har örhänge.",
       "nl": "Ik heb oorbel."
@@ -1151,7 +1151,7 @@
       "lex_ti_gsn_wtr"
     ],
     "t": {
-      "de": "Ich habe der Kellner.",
+      "de": "Ich habe den Kellner.",
       "en": "I have waiter.",
       "sv": "Jag har servitör.",
       "nl": "Ik heb ober."
@@ -1194,7 +1194,7 @@
       "lex_ti_zoo_visit"
     ],
     "t": {
-      "de": "Ich habe der Zoobesucher.",
+      "de": "Ich habe den Zoobesucher.",
       "en": "I have zoo visitor.",
       "sv": "Jag har zoobesökare.",
       "nl": "Ik heb dierentuinbezoeker."
@@ -1284,7 +1284,7 @@
       "lex_ti_glt_frst"
     ],
     "t": {
-      "de": "Ich habe der Frost, Raureif.",
+      "de": "Ich habe den Frost, Raureif.",
       "en": "I have frost.",
       "sv": "Jag har frost.",
       "nl": "Ik heb vorst (weer)."
@@ -1327,7 +1327,7 @@
       "lex_ti_schm_btfl"
     ],
     "t": {
-      "de": "Ich habe der Schmetterling.",
+      "de": "Ich habe den Schmetterling.",
       "en": "I have butterfly.",
       "sv": "Jag har fjäril.",
       "nl": "Ik heb vlinder."
@@ -1503,7 +1503,7 @@
       "lex_ti_brw_hops"
     ],
     "t": {
-      "de": "Ich habe der Hopfen.",
+      "de": "Ich habe den Hopfen.",
       "en": "I have hops.",
       "sv": "Jag har humle.",
       "nl": "Ik heb hop (bier)."
@@ -1786,7 +1786,7 @@
       "lex_ti_akt_style2"
     ],
     "t": {
-      "de": "Ich habe der Baustil.",
+      "de": "Ich habe den Baustil.",
       "en": "I have architectural style.",
       "sv": "Jag har byggnadsstil.",
       "nl": "Ik heb bouwstijl."
@@ -1873,7 +1873,7 @@
       "lex_ti_snp_cane"
     ],
     "t": {
-      "de": "Ich habe der Gehstock.",
+      "de": "Ich habe den Gehstock.",
       "en": "I have walking cane.",
       "sv": "Jag har käpp.",
       "nl": "Ik heb wandelstok."
@@ -1882,27 +1882,6 @@
     "chunks": [
       "betri",
       "alini."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_jgd_teen",
-    "am": "መንእሰይ ኣሎ።",
-    "tr": "men'isey alo.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_jgd_teen"
-    ],
-    "t": {
-      "de": "der/die Jugendliche ist vorhanden.",
-      "en": "There is teenager, youth.",
-      "sv": "Det finns tonåring.",
-      "nl": "Er is tiener."
-    },
-    "alt": {},
-    "chunks": [
-      "men'isey",
-      "alo."
     ],
     "verified": false
   },
@@ -2027,7 +2006,7 @@
       "lex_ti_bkr_bkr2"
     ],
     "t": {
-      "de": "Ich habe der Bäcker.",
+      "de": "Ich habe den Bäcker.",
       "en": "I have baker.",
       "sv": "Jag har bagare.",
       "nl": "Ik heb bakker."
@@ -2114,7 +2093,7 @@
       "lex_ti_tst_diesl"
     ],
     "t": {
-      "de": "Ich habe der Diesel.",
+      "de": "Ich habe den Diesel.",
       "en": "I have diesel.",
       "sv": "Jag har diesel.",
       "nl": "Ik heb diesel."
@@ -2619,72 +2598,6 @@
       "nisa",
       "lisun",
       "'iya."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_mng2_empty2",
-    "am": "ንሱ ጥርሙስ እዩ።",
-    "tr": "nisu tirimus 'iyu.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_mng2_empty2"
-    ],
-    "t": {
-      "de": "Er ist leer.",
-      "en": "He is empty.",
-      "sv": "Han är tom.",
-      "nl": "Hij is leeg."
-    },
-    "alt": {},
-    "chunks": [
-      "nisu",
-      "tirimus",
-      "'iyu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_mng2_many2",
-    "am": "ንሳ ብዙሕ እያ።",
-    "tr": "nisa bizuh 'iya.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_mng2_many2"
-    ],
-    "t": {
-      "de": "Sie ist viel, viele.",
-      "en": "She is many, much.",
-      "sv": "Hon är många, mycket.",
-      "nl": "Zij is veel."
-    },
-    "alt": {},
-    "chunks": [
-      "nisa",
-      "bizuh",
-      "'iya."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_mng2_few2",
-    "am": "ንሱ ውሑድ እዩ።",
-    "tr": "nisu wihud 'iyu.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_mng2_few2"
-    ],
-    "t": {
-      "de": "Er ist wenig, wenige.",
-      "en": "He is few, little.",
-      "sv": "Han är få, lite.",
-      "nl": "Hij is weinig."
-    },
-    "alt": {},
-    "chunks": [
-      "nisu",
-      "wihud",
-      "'iyu."
     ],
     "verified": false
   },

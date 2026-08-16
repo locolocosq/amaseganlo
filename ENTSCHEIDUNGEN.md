@@ -1217,3 +1217,42 @@ funktioniert die Übung wieder normal.
   35 Stationen unverändert. Die zugehörigen Sätze bleiben weiterhin in
   `listening`/`freeApplication`/`review` verdrahtet.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 242/242 grün.
+
+## Etappe 28 Nachtrag 12: Grammatikfehler in generierten Satzübersetzungen behoben
+
+Nutzer-Bugreport, konkret: "es steht oft sowas wie 'die Tisch'" - beim Durchgehen wurden drei
+verschiedene Fehlerklassen in den generierten Satzübersetzungen (Etappe 28 + Nachträge) gefunden und
+systematisch behoben, nicht nur die gemeldeten Einzelfälle.
+
+- **A) Deutscher Kasusfehler (112 Sätze):** die Vorlagen "Ich habe {t.de}" und "Ich mag {t.de}"
+  fügten den gespeicherten NOMINATIV-Artikel unverändert ein ("Ich habe der Tisch.") - beide Verben
+  verlangen aber Akkusativ ("Ich habe den Tisch."). Betrifft nur maskuline Nomen (der→den), feminine/
+  neutrale Artikel (die/das) sind im Akkusativ identisch zum Nominativ, also unverändert korrekt.
+  Textkorrektur direkt an Ort und Stelle, keine Neugenerierung nötig, da der zugrunde liegende
+  Amharisch/Tigrinya-Inhalt korrekt war.
+- **B) Schwedischer Genus-Fehler (9 Sätze):** "Det är mycket {t.sv}" verlangt die Neutrum-Form des
+  Adjektivs ("rött" statt "röd", da "det" grammatisch Neutrum ist) - die aber nirgends gespeichert
+  ist (nur eine, meist die Utrum-/Standardform). Statt eine Flexionsregel zu raten: Vorlage auf das
+  bereits bewährte, genus-sichere "Han är verkligen {t.sv}" umgestellt (Utrum, dieselbe Form, die
+  auch die "han"/"hon"-Vorlagen schon nutzen).
+- **C) Wörterbuch-Notation in Sätzen (17 Sätze, davon 16 aus eigener Generierung + 1 älterer,
+  handgeschriebener Satz):** 26 Lexeme speichern eine kompakte Mehrform-Schreibweise für die
+  Wortkarten-Ansicht ("erste(r/s)", "der/die Sekretär(in)") - unverändert in einen Satz eingefügt
+  ergibt das Kauderwelsch wie "Er ist erste(r/s)." Diese 26 Lexeme dauerhaft von jeder künftigen
+  Satzgenerierung ausgeschlossen (per Muster-Erkennung auf `(...)` direkt nach einem Wort bzw.
+  `der/die` u. ä., nicht per Hand zusammengestellt) und die 17 betroffenen Sätze mit einem anderen,
+  unbedenklichen Wort neu erzeugt (gleicher Mechanismus wie Nachtrag 7) bzw. für den einen
+  handgeschriebenen Satz die Übersetzung direkt umformuliert ("Es gibt eine ältere Person." statt
+  "Es gibt der/die Ältere.").
+- **Zusätzlich vier Tigrinya-Mengenadjektive ausgeschlossen** (`viel/wenig/leer/voll`, Topic
+  "quantity") - grammatisch zwar unauffällig, aber als Personen-Prädikat ("er ist viel/wenig/leer")
+  semantisch schief; dieselbe Vorlagen-Logik betroffen wie bei den Ordnungszahlen.
+- **17 verwaiste Satz-Objekte aufgeräumt** (inkl. bereits vorhandener Amharisch/Tigrinya-Audio-
+  Aufnahmen und Manifest-Einträgen dafür), gleiches Vorgehen wie Nachtrag 7.
+- **Zwei neue, dauerhafte Regressionstests** in `content_validation_test.dart`: "no sentence
+  translation contains dictionary-style multi-form notation" (fand beim ersten Lauf sofort den einen
+  handgeschriebenen Satz, den die anfängliche Suche - bewusst auf `sen_gen_`/`sen_fix_`-Präfixe
+  eingegrenzt - übersehen hatte) und "no German sentence translation uses the nominative article
+  after Ich habe/Ich mag".
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 244/244 grün (242 + 2 neue
+  Content-Validierungstests), `fidel_stufe_content_test.dart` weiterhin grün (keine neuen Waisen).

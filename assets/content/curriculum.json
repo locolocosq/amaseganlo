@@ -569,7 +569,10 @@
     "sentences_fix_sidama.json",
     "sentences_fix_keren.json",
     "sentences_fix_asmara.json",
-    "sentences_fix_massawa.json"
+    "sentences_fix_massawa.json",
+    "sentences_fix2_tigray.json",
+    "sentences_fix2_oromia.json",
+    "sentences_fix2_massawa.json"
   ],
   "sections": [
     {

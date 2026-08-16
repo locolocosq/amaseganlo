@@ -155,7 +155,7 @@
       "lex_ti_tsibhi"
     ],
     "t": {
-      "de": "Ich habe der Eintopf, die Sauce.",
+      "de": "Ich habe den Eintopf, die Sauce.",
       "en": "I have stew, sauce.",
       "sv": "Jag har gryta, sås.",
       "nl": "Ik heb stoofpot, saus."
@@ -605,7 +605,7 @@
       "lex_ti_teret"
     ],
     "t": {
-      "de": "Ich habe der Tisch.",
+      "de": "Ich habe den Tisch.",
       "en": "I have table.",
       "sv": "Jag har bord.",
       "nl": "Ik heb tafel."
@@ -647,7 +647,7 @@
       "lex_ti_kokebti"
     ],
     "t": {
-      "de": "Ich habe der Stern.",
+      "de": "Ich habe den Stern.",
       "en": "I have star.",
       "sv": "Jag har stjärna.",
       "nl": "Ik heb ster."
@@ -941,7 +941,7 @@
       "lex_ti_negadi"
     ],
     "t": {
-      "de": "Ich habe der Händler.",
+      "de": "Ich habe den Händler.",
       "en": "I have trader, merchant.",
       "sv": "Jag har handlare.",
       "nl": "Ik heb handelaar."
@@ -983,7 +983,7 @@
       "lex_ti_babur"
     ],
     "t": {
-      "de": "Ich habe der Zug.",
+      "de": "Ich habe den Zug.",
       "en": "I have train.",
       "sv": "Jag har tåg.",
       "nl": "Ik heb trein."
@@ -1194,7 +1194,7 @@
       "lex_ti_timhirti"
     ],
     "t": {
-      "de": "Ich habe der Unterricht, die Bildung.",
+      "de": "Ich habe den Unterricht, die Bildung.",
       "en": "I have lesson, education.",
       "sv": "Jag har lektion, utbildning.",
       "nl": "Ik heb les, onderwijs."
@@ -1657,7 +1657,7 @@
       "lex_ti_wediHi"
     ],
     "t": {
-      "de": "Ich habe der Neffe.",
+      "de": "Ich habe den Neffe.",
       "en": "I have nephew.",
       "sv": "Jag har brorson.",
       "nl": "Ik heb neef (zoon van broer)."
@@ -1827,7 +1827,7 @@
       "lex_ti_zerie"
     ],
     "t": {
-      "de": "Ich habe der Samen.",
+      "de": "Ich habe den Samen.",
       "en": "I have seed.",
       "sv": "Jag har frö.",
       "nl": "Ik heb zaad."
@@ -1955,7 +1955,7 @@
       "lex_ti_plastik"
     ],
     "t": {
-      "de": "Ich habe der Kunststoff, Plastik.",
+      "de": "Ich habe den Kunststoff, Plastik.",
       "en": "I have plastic.",
       "sv": "Jag har plast.",
       "nl": "Ik heb plastic."
@@ -2188,7 +2188,7 @@
       "lex_ti_wraq2"
     ],
     "t": {
-      "de": "Ich habe der Zins.",
+      "de": "Ich habe den Zins.",
       "en": "I have interest (finance).",
       "sv": "Jag har ränta.",
       "nl": "Ik heb rente."
@@ -2273,7 +2273,7 @@
       "lex_ti_mfth2"
     ],
     "t": {
-      "de": "Ich habe der Autoschlüssel.",
+      "de": "Ich habe den Autoschlüssel.",
       "en": "I have car key.",
       "sv": "Jag har bilnyckel.",
       "nl": "Ik heb autosleutel."
@@ -2532,7 +2532,7 @@
       "lex_ti_ntsti"
     ],
     "t": {
-      "de": "Ich habe der Sturm.",
+      "de": "Ich habe den Sturm.",
       "en": "I have storm.",
       "sv": "Jag har storm.",
       "nl": "Ik heb storm."
@@ -2660,7 +2660,7 @@
       "lex_ti_shhda"
     ],
     "t": {
-      "de": "Ich habe der Zeuge.",
+      "de": "Ich habe den Zeuge.",
       "en": "I have witness.",
       "sv": "Jag har vittne.",
       "nl": "Ik heb getuige."
@@ -2702,7 +2702,7 @@
       "lex_ti_nqfi"
     ],
     "t": {
-      "de": "Ich habe der Rat, Ratschlag.",
+      "de": "Ich habe den Rat, Ratschlag.",
       "en": "I have advice.",
       "sv": "Jag har råd.",
       "nl": "Ik heb advies."
@@ -3041,7 +3041,7 @@
       "lex_ti_neqti"
     ],
     "t": {
-      "de": "Ich habe der Punkt (Spiel).",
+      "de": "Ich habe den Punkt (Spiel).",
       "en": "I have point (game).",
       "sv": "Jag har poäng.",
       "nl": "Ik heb punt (spel)."

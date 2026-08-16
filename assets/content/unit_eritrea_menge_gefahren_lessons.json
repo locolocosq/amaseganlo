@@ -53,9 +53,9 @@
     ],
     "sentenceIds": [
       "sen_ti_menge_gefahren_1",
-      "sen_gen_mng2_empty2",
-      "sen_gen_mng2_many2",
-      "sen_gen_mng2_few2",
+      "sen_fix2_gfh_dngr",
+      "sen_fix2_gfh_hazrd",
+      "sen_fix2_gfh_accdnt",
       "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
@@ -79,9 +79,9 @@
     ],
     "sentenceIds": [
       "sen_ti_menge_gefahren_1",
-      "sen_gen_mng2_empty2",
-      "sen_gen_mng2_many2",
-      "sen_gen_mng2_few2",
+      "sen_fix2_gfh_dngr",
+      "sen_fix2_gfh_hazrd",
+      "sen_fix2_gfh_accdnt",
       "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
@@ -105,9 +105,9 @@
     ],
     "sentenceIds": [
       "sen_ti_menge_gefahren_1",
-      "sen_gen_mng2_empty2",
-      "sen_gen_mng2_many2",
-      "sen_gen_mng2_few2",
+      "sen_fix2_gfh_dngr",
+      "sen_fix2_gfh_hazrd",
+      "sen_fix2_gfh_accdnt",
       "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
@@ -131,9 +131,9 @@
     ],
     "sentenceIds": [
       "sen_ti_menge_gefahren_1",
-      "sen_gen_mng2_empty2",
-      "sen_gen_mng2_many2",
-      "sen_gen_mng2_few2",
+      "sen_fix2_gfh_dngr",
+      "sen_fix2_gfh_hazrd",
+      "sen_fix2_gfh_accdnt",
       "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
