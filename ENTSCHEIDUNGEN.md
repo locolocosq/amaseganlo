@@ -1083,3 +1083,25 @@ Der Nutzer hat `generate_audio_colab_ti.py` laufen lassen: Modell lud korrekt (M
   Colab-spezifischen Paketen hier verfügbar, aber Syntaxfehler wären so schon aufgefallen),
   `flutter analyze` weiterhin 0 Probleme. Der eigentliche Colab-Lauf selbst bleibt ungetestet von
   hier aus möglich.
+
+## Etappe 28 Nachtrag 6: Zweiter uroman-Fehler - Modul-Schatten durch alten Klon-Ordner
+
+Der Fix aus Nachtrag 5 reichte nicht: nächster Fehler war `AttributeError: module 'uroman' has no
+attribute 'Uroman'`, obwohl `pip install uroman` erfolgreich lief.
+
+- **Ursache per Direktvergleich gefunden, nicht geraten:** das echte pip-Paket (`.whl` von PyPI
+  heruntergeladen und entpackt) hat exakt die erwartete Struktur (`from .uroman import Uroman,
+  RomFormat` in `__init__.py`) - das Paket selbst ist also nicht kaputt. Der eigentliche Grund: der
+  allererste Versuch (mit dem alten, inzwischen ersetzten Skript) hatte per `git clone` einen Ordner
+  namens `uroman/` im Colab-Arbeitsverzeichnis angelegt. Python bevorzugt beim Import einen
+  gleichnamigen lokalen Ordner gegenüber einem installierten Paket - dieser Ordner (der rohe
+  Git-Repo-Inhalt, keine echte Python-Bibliothek) hat das pip-Paket verdeckt, obwohl es korrekt
+  installiert war.
+- **Doppelt abgesichert statt nur einmal:** `!rm -rf uroman` entfernt den Ordner vor der Installation,
+  zusätzlich `sys.modules.pop("uroman", None)` direkt vor dem Import - Letzteres, weil ein bereits
+  fehlgeschlagener `import uroman` in derselben laufenden Python-Sitzung das kaputte Modul-Objekt
+  schon zwischengespeichert haben könnte, was ein reines Datei-Löschen allein nicht rückgängig macht.
+- **Nutzer explizit gebeten, diesmal die Laufzeit komplett neu zu starten** (Menü "Laufzeit" →
+  "Sitzung neu starten"), nicht nur die Zelle erneut auszuführen - genau der Unterschied, der den
+  vorherigen Fix wirkungslos gemacht haben könnte.
+- **Verifiziert:** Python-Syntax weiterhin per `ast.parse` geprüft, `flutter analyze` 0 Probleme.

@@ -29,6 +29,14 @@
 #  7) Diese zip-Datei an Claude zurueckschicken.
 # ============================================================
 
+!rm -rf uroman
+# Falls ein frueherer Versuch schon mal "git clone .../uroman.git" ausgefuehrt
+# hat, liegt hier noch ein gleichnamiger Ordner "uroman/" - der wuerde beim
+# "import uroman" unten Vorrang vor dem gleich per pip installierten,
+# richtigen Paket bekommen (Python bevorzugt einen lokalen Ordner mit
+# passendem Namen), obwohl er gar keine echte Python-Bibliothek ist. Genau
+# das war die Ursache von "module 'uroman' has no attribute 'Uroman'" -
+# nicht das pip-Paket war kaputt, sondern der alte Ordner hat es verdeckt.
 !pip install -q --upgrade transformers accelerate
 !pip install -q uroman
 # Aeltere Anleitungen (auch die vorherige Version dieses Skripts) klonen
@@ -42,6 +50,15 @@ import csv
 import os
 import shutil
 import subprocess
+import sys
+
+# Falls "import uroman" in dieser Laufzeit schon einmal (fehlgeschlagen)
+# ausgefuehrt wurde, ohne die Sitzung neu zu starten, haette Python das
+# damals gefundene (falsche) Modul bereits zwischengespeichert - "rm -rf"
+# oben allein wuerde das nicht rueckgaengig machen, da Python beim Import
+# nicht erneut auf der Festplatte nachschaut, wenn der Modulname schon im
+# Cache steht. Sicherheitshalber den Cache-Eintrag vorher entfernen.
+sys.modules.pop("uroman", None)
 
 import torch
 import uroman as ur
