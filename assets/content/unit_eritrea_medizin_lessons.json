@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_eritrea_medizin_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_med_hakim",
+      "lex_ti_med_nrsi",
+      "lex_ti_med_medhanit",
+      "lex_ti_med_shirit",
+      "lex_ti_med_hmam",
+      "lex_ti_med_tqusat",
+      "lex_ti_med_srng",
+      "lex_ti_med_bndg",
+      "lex_ti_med_astr",
+      "lex_ti_med_srtn",
+      "lex_ti_med_ndqa",
+      "lex_ti_med_thlq"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_medizin_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_med_hakim",
+      "lex_ti_med_nrsi",
+      "lex_ti_med_medhanit",
+      "lex_ti_med_shirit",
+      "lex_ti_med_hmam",
+      "lex_ti_med_tqusat",
+      "lex_ti_med_srng",
+      "lex_ti_med_bndg",
+      "lex_ti_med_astr",
+      "lex_ti_med_srtn",
+      "lex_ti_med_ndqa",
+      "lex_ti_med_thlq"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_medizin_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_med_hakim",
+      "lex_ti_med_nrsi",
+      "lex_ti_med_medhanit",
+      "lex_ti_med_shirit",
+      "lex_ti_med_hmam",
+      "lex_ti_med_tqusat",
+      "lex_ti_med_srng",
+      "lex_ti_med_bndg",
+      "lex_ti_med_astr",
+      "lex_ti_med_srtn",
+      "lex_ti_med_ndqa",
+      "lex_ti_med_thlq"
+    ],
+    "sentenceIds": [
+      "sen_ti_medizin_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_medizin_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_med_hakim",
+      "lex_ti_med_nrsi",
+      "lex_ti_med_medhanit",
+      "lex_ti_med_shirit",
+      "lex_ti_med_hmam",
+      "lex_ti_med_tqusat",
+      "lex_ti_med_srng",
+      "lex_ti_med_bndg",
+      "lex_ti_med_astr",
+      "lex_ti_med_srtn",
+      "lex_ti_med_ndqa",
+      "lex_ti_med_thlq"
+    ],
+    "sentenceIds": [
+      "sen_ti_medizin_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_medizin_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_med_hakim",
+      "lex_ti_med_nrsi",
+      "lex_ti_med_medhanit",
+      "lex_ti_med_shirit",
+      "lex_ti_med_hmam",
+      "lex_ti_med_tqusat",
+      "lex_ti_med_srng",
+      "lex_ti_med_bndg",
+      "lex_ti_med_astr",
+      "lex_ti_med_srtn",
+      "lex_ti_med_ndqa",
+      "lex_ti_med_thlq"
+    ],
+    "sentenceIds": [
+      "sen_ti_medizin_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_medizin_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_med_hakim",
+      "lex_ti_med_nrsi",
+      "lex_ti_med_medhanit",
+      "lex_ti_med_shirit",
+      "lex_ti_med_hmam",
+      "lex_ti_med_tqusat",
+      "lex_ti_med_srng",
+      "lex_ti_med_bndg",
+      "lex_ti_med_astr",
+      "lex_ti_med_srtn",
+      "lex_ti_med_ndqa",
+      "lex_ti_med_thlq"
+    ],
+    "sentenceIds": [
+      "sen_ti_medizin_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

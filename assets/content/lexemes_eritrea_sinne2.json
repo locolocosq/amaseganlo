@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_sn2_kbdi","am":"ተመልከተ","tr":"temelkete","pos":"verb","topic":"senses_more","level":"TI","t":{"de":"beobachten, betrachten","en":"to observe, to watch","sv":"att observera, betrakta","nl":"observeren, kijken naar"},"emoji":"","verified":false},
+  {"id":"lex_ti_sn2_smell","am":"ሽታ ኣስተንፈሰ","tr":"shita astenfese","pos":"verb","topic":"senses_more","level":"TI","t":{"de":"riechen","en":"to smell","sv":"att lukta","nl":"ruiken"},"emoji":"","verified":false},
+  {"id":"lex_ti_sn2_taste","am":"ጠዓሞ","tr":"te'amo","pos":"verb","topic":"senses_more","level":"TI","t":{"de":"schmecken (probieren)","en":"to taste","sv":"att smaka","nl":"proeven"},"emoji":"","verified":false},
+  {"id":"lex_ti_sn2_touch","am":"ተንከየ","tr":"tenkeye","pos":"verb","topic":"senses_more","level":"TI","t":{"de":"berühren, anfassen","en":"to touch","sv":"att röra, känna på","nl":"aanraken"},"emoji":"","verified":false},
+  {"id":"lex_ti_sn2_hear","am":"ሰምዐ","tr":"sem'e","pos":"verb","topic":"senses_more","level":"TI","t":{"de":"hören","en":"to hear","sv":"att höra","nl":"horen"},"emoji":"","verified":false},
+  {"id":"lex_ti_sn2_feel","am":"ተሰምዖ","tr":"tesem'o","pos":"verb","topic":"senses_more","level":"TI","t":{"de":"fühlen, sich fühlen","en":"to feel","sv":"att känna","nl":"voelen"},"emoji":"","verified":false}
+]

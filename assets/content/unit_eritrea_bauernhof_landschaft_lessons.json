@@ -1,0 +1,178 @@
+[
+  {
+    "id": "unit_eritrea_bauernhof_landschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_bh_lam",
+      "lex_ti_bh_bgei",
+      "lex_ti_bh_ghri",
+      "lex_ti_bh_derho",
+      "lex_ti_bh_ferase",
+      "lex_ti_bh_adgi",
+      "lex_ti_bh_gemel2",
+      "lex_ti_bh_asrat",
+      "lex_ti_bh_qeleb",
+      "lex_ti_lsc_dsrt",
+      "lex_ti_lsc_islnd",
+      "lex_ti_lsc_cave",
+      "lex_ti_lsc_vlkn",
+      "lex_ti_lsc_vlly",
+      "lex_ti_lsc_wtrfl",
+      "lex_ti_lsc_shore",
+      "lex_ti_lsc_pnnsl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_bauernhof_landschaft_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_bh_lam",
+      "lex_ti_bh_bgei",
+      "lex_ti_bh_ghri",
+      "lex_ti_bh_derho",
+      "lex_ti_bh_ferase",
+      "lex_ti_bh_adgi",
+      "lex_ti_bh_gemel2",
+      "lex_ti_bh_asrat",
+      "lex_ti_bh_qeleb",
+      "lex_ti_lsc_dsrt",
+      "lex_ti_lsc_islnd",
+      "lex_ti_lsc_cave",
+      "lex_ti_lsc_vlkn",
+      "lex_ti_lsc_vlly",
+      "lex_ti_lsc_wtrfl",
+      "lex_ti_lsc_shore",
+      "lex_ti_lsc_pnnsl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bauernhof_landschaft_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_bh_lam",
+      "lex_ti_bh_bgei",
+      "lex_ti_bh_ghri",
+      "lex_ti_bh_derho",
+      "lex_ti_bh_ferase",
+      "lex_ti_bh_adgi",
+      "lex_ti_bh_gemel2",
+      "lex_ti_bh_asrat",
+      "lex_ti_bh_qeleb",
+      "lex_ti_lsc_dsrt",
+      "lex_ti_lsc_islnd",
+      "lex_ti_lsc_cave",
+      "lex_ti_lsc_vlkn",
+      "lex_ti_lsc_vlly",
+      "lex_ti_lsc_wtrfl",
+      "lex_ti_lsc_shore",
+      "lex_ti_lsc_pnnsl"
+    ],
+    "sentenceIds": [
+      "sen_ti_bauernhof_landschaft_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bauernhof_landschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_bh_lam",
+      "lex_ti_bh_bgei",
+      "lex_ti_bh_ghri",
+      "lex_ti_bh_derho",
+      "lex_ti_bh_ferase",
+      "lex_ti_bh_adgi",
+      "lex_ti_bh_gemel2",
+      "lex_ti_bh_asrat",
+      "lex_ti_bh_qeleb",
+      "lex_ti_lsc_dsrt",
+      "lex_ti_lsc_islnd",
+      "lex_ti_lsc_cave",
+      "lex_ti_lsc_vlkn",
+      "lex_ti_lsc_vlly",
+      "lex_ti_lsc_wtrfl",
+      "lex_ti_lsc_shore",
+      "lex_ti_lsc_pnnsl"
+    ],
+    "sentenceIds": [
+      "sen_ti_bauernhof_landschaft_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bauernhof_landschaft_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_bh_lam",
+      "lex_ti_bh_bgei",
+      "lex_ti_bh_ghri",
+      "lex_ti_bh_derho",
+      "lex_ti_bh_ferase",
+      "lex_ti_bh_adgi",
+      "lex_ti_bh_gemel2",
+      "lex_ti_bh_asrat",
+      "lex_ti_bh_qeleb",
+      "lex_ti_lsc_dsrt",
+      "lex_ti_lsc_islnd",
+      "lex_ti_lsc_cave",
+      "lex_ti_lsc_vlkn",
+      "lex_ti_lsc_vlly",
+      "lex_ti_lsc_wtrfl",
+      "lex_ti_lsc_shore",
+      "lex_ti_lsc_pnnsl"
+    ],
+    "sentenceIds": [
+      "sen_ti_bauernhof_landschaft_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bauernhof_landschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_bh_lam",
+      "lex_ti_bh_bgei",
+      "lex_ti_bh_ghri",
+      "lex_ti_bh_derho",
+      "lex_ti_bh_ferase",
+      "lex_ti_bh_adgi",
+      "lex_ti_bh_gemel2",
+      "lex_ti_bh_asrat",
+      "lex_ti_bh_qeleb",
+      "lex_ti_lsc_dsrt",
+      "lex_ti_lsc_islnd",
+      "lex_ti_lsc_cave",
+      "lex_ti_lsc_vlkn",
+      "lex_ti_lsc_vlly",
+      "lex_ti_lsc_wtrfl",
+      "lex_ti_lsc_shore",
+      "lex_ti_lsc_pnnsl"
+    ],
+    "sentenceIds": [
+      "sen_ti_bauernhof_landschaft_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

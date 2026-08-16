@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_mbl_sofa","am":"ሶፋ","tr":"sofa","pos":"noun","topic":"furniture","level":"TI","t":{"de":"das Sofa","en":"sofa","sv":"soffa","nl":"bank (meubel)"},"emoji":"🛋️","verified":false},
+  {"id":"lex_ti_mbl_rgal","am":"ራፍ","tr":"rafi","pos":"noun","topic":"furniture","level":"TI","t":{"de":"das Regal","en":"shelf","sv":"hylla","nl":"plank, boekenkast"},"emoji":"","verified":false},
+  {"id":"lex_ti_mbl_shelf","am":"ናይ መጻሕፍቲ ደርቢ","tr":"nay metsahifti derbi","pos":"noun","topic":"furniture","level":"TI","t":{"de":"das Bücherregal","en":"bookshelf","sv":"bokhylla","nl":"boekenkast"},"emoji":"📚","verified":false},
+  {"id":"lex_ti_mbl_ntt","am":"ናይ ስራሕ ጠረጴዛ","tr":"nay sirah teretseza","pos":"noun","topic":"furniture","level":"TI","t":{"de":"der Schreibtisch","en":"desk","sv":"skrivbord","nl":"bureau"},"emoji":"🗄️","verified":false},
+  {"id":"lex_ti_mbl_drwr","am":"ካቢነት","tr":"kabinet","pos":"noun","topic":"furniture","level":"TI","t":{"de":"die Kommode","en":"drawer, dresser","sv":"byrå","nl":"ladekast"},"emoji":"","verified":false},
+  {"id":"lex_ti_mbl_hngr","am":"መስቀሊ ክዳን","tr":"mesqeli kidan","pos":"noun","topic":"furniture","level":"TI","t":{"de":"der Kleiderbügel","en":"hanger","sv":"galge","nl":"kledinghanger"},"emoji":"","verified":false},
+  {"id":"lex_ti_mbl_stol2","am":"ንኡስ መንበር","tr":"ni'us menber","pos":"noun","topic":"furniture","level":"TI","t":{"de":"der Hocker","en":"stool","sv":"pall","nl":"kruk"},"emoji":"","verified":false},
+  {"id":"lex_ti_mbl_wgrt","am":"ናይ ቡን ጠረጴዛ","tr":"nay bun teretseza","pos":"noun","topic":"furniture","level":"TI","t":{"de":"der Couchtisch","en":"coffee table","sv":"soffbord","nl":"salontafel"},"emoji":"","verified":false}
+]

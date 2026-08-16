@@ -240,7 +240,37 @@
     "lexemes_eritrea_voegel.json",
     "lexemes_eritrea_wetter.json",
     "lexemes_eritrea_wissenschaft.json",
-    "lexemes_eritrea_wohnen.json"
+    "lexemes_eritrea_wohnen.json",
+    "lexemes_eritrea_adjektive.json",
+    "lexemes_eritrea_ausrufe2.json",
+    "lexemes_eritrea_bauernhoftiere.json",
+    "lexemes_eritrea_berufe2.json",
+    "lexemes_eritrea_buero.json",
+    "lexemes_eritrea_farbnuancen.json",
+    "lexemes_eritrea_flughafen.json",
+    "lexemes_eritrea_hobbys.json",
+    "lexemes_eritrea_hygiene2.json",
+    "lexemes_eritrea_kleidung2.json",
+    "lexemes_eritrea_kuechengeschirr.json",
+    "lexemes_eritrea_laender2.json",
+    "lexemes_eritrea_landschaft.json",
+    "lexemes_eritrea_medien.json",
+    "lexemes_eritrea_medizin.json",
+    "lexemes_eritrea_meerestiere.json",
+    "lexemes_eritrea_moebel.json",
+    "lexemes_eritrea_phrasen2.json",
+    "lexemes_eritrea_post.json",
+    "lexemes_eritrea_praepositionen.json",
+    "lexemes_eritrea_recht2.json",
+    "lexemes_eritrea_sinne2.json",
+    "lexemes_eritrea_spielzeug.json",
+    "lexemes_eritrea_sport3.json",
+    "lexemes_eritrea_technologie2.json",
+    "lexemes_eritrea_umwelt.json",
+    "lexemes_eritrea_verben3.json",
+    "lexemes_eritrea_verkehr2.json",
+    "lexemes_eritrea_waehrung.json",
+    "lexemes_eritrea_wetter2.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -400,7 +430,8 @@
     "sentences_safari_verben_possessiv3.json",
     "sentences_eritrea.json",
     "sentences_eritrea_mehr.json",
-    "sentences_eritrea_mehr2.json"
+    "sentences_eritrea_mehr2.json",
+    "sentences_eritrea_mehr3.json"
   ],
   "sections": [
     {
@@ -691,7 +722,28 @@
         "unit_eritrea_mode_pflanzen",
         "unit_eritrea_kochen_wissenschaft",
         "unit_eritrea_beziehungen_emotionen",
-        "unit_eritrea_wohnen"
+        "unit_eritrea_wohnen",
+        "unit_eritrea_verben_adjektive",
+        "unit_eritrea_praepositionen",
+        "unit_eritrea_medizin",
+        "unit_eritrea_technologie_mehr",
+        "unit_eritrea_umwelt_medien",
+        "unit_eritrea_hobbys",
+        "unit_eritrea_laender_mehr",
+        "unit_eritrea_sport_mehr2",
+        "unit_eritrea_berufe_mehr",
+        "unit_eritrea_wetter_mehr",
+        "unit_eritrea_kleidung_mehr",
+        "unit_eritrea_recht_mehr",
+        "unit_eritrea_meerestiere",
+        "unit_eritrea_spielzeug",
+        "unit_eritrea_buero_waehrung",
+        "unit_eritrea_moebel_kueche",
+        "unit_eritrea_bauernhof_landschaft",
+        "unit_eritrea_post_hygiene",
+        "unit_eritrea_phrasen_ausrufe_mehr",
+        "unit_eritrea_verkehr_flughafen",
+        "unit_eritrea_sinne_farben"
       ]
     }
   ],
@@ -3269,6 +3321,279 @@
       },
       "topic": "housing",
       "lessonFile": "unit_eritrea_wohnen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verben_adjektive",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Verben & Adjektive (mehr)",
+        "en": "Verbs & Adjectives (more)",
+        "sv": "Verb & Adjektiv (mer)",
+        "nl": "Werkwoorden & Bijvoeglijke naamwoorden (meer)"
+      },
+      "topic": "verbs_adjectives",
+      "lessonFile": "unit_eritrea_verben_adjektive_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_praepositionen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Präpositionen",
+        "en": "Prepositions",
+        "sv": "Prepositioner",
+        "nl": "Voorzetsels"
+      },
+      "topic": "prepositions",
+      "lessonFile": "unit_eritrea_praepositionen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_medizin",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Medizin & Krankenhaus",
+        "en": "Medicine & Hospital",
+        "sv": "Medicin & Sjukhus",
+        "nl": "Medicijnen & Ziekenhuis"
+      },
+      "topic": "medicine",
+      "lessonFile": "unit_eritrea_medizin_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_technologie_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Technologie (mehr)",
+        "en": "Technology (more)",
+        "sv": "Teknik (mer)",
+        "nl": "Technologie (meer)"
+      },
+      "topic": "technology_more",
+      "lessonFile": "unit_eritrea_technologie_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_umwelt_medien",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Umwelt & Medien",
+        "en": "Environment & Media",
+        "sv": "Miljö & Media",
+        "nl": "Milieu & Media"
+      },
+      "topic": "environment_media",
+      "lessonFile": "unit_eritrea_umwelt_medien_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_hobbys",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Hobbys",
+        "en": "Hobbies",
+        "sv": "Hobbyer",
+        "nl": "Hobby's"
+      },
+      "topic": "hobbies",
+      "lessonFile": "unit_eritrea_hobbys_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_laender_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Länder (mehr)",
+        "en": "Countries (more)",
+        "sv": "Länder (mer)",
+        "nl": "Landen (meer)"
+      },
+      "topic": "countries_more",
+      "lessonFile": "unit_eritrea_laender_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sport_mehr2",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Sport (mehr)",
+        "en": "Sports (more)",
+        "sv": "Sport (mer)",
+        "nl": "Sport (meer)"
+      },
+      "topic": "sports_more2",
+      "lessonFile": "unit_eritrea_sport_mehr2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_berufe_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Berufe (mehr)",
+        "en": "Professions (more)",
+        "sv": "Yrken (mer)",
+        "nl": "Beroepen (meer)"
+      },
+      "topic": "professions_more",
+      "lessonFile": "unit_eritrea_berufe_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wetter_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Wetter (mehr)",
+        "en": "Weather (more)",
+        "sv": "Väder (mer)",
+        "nl": "Weer (meer)"
+      },
+      "topic": "weather_more",
+      "lessonFile": "unit_eritrea_wetter_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kleidung_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Kleidung (mehr)",
+        "en": "Clothing (more)",
+        "sv": "Kläder (mer)",
+        "nl": "Kleding (meer)"
+      },
+      "topic": "clothing_more",
+      "lessonFile": "unit_eritrea_kleidung_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_recht_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Recht (mehr)",
+        "en": "Law (more)",
+        "sv": "Rätt (mer)",
+        "nl": "Recht (meer)"
+      },
+      "topic": "law_more",
+      "lessonFile": "unit_eritrea_recht_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_meerestiere",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Meerestiere",
+        "en": "Marine Life",
+        "sv": "Havsdjur",
+        "nl": "Zeedieren"
+      },
+      "topic": "marine_life",
+      "lessonFile": "unit_eritrea_meerestiere_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_spielzeug",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Spielzeug",
+        "en": "Toys",
+        "sv": "Leksaker",
+        "nl": "Speelgoed"
+      },
+      "topic": "toys",
+      "lessonFile": "unit_eritrea_spielzeug_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_buero_waehrung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Büro & Währung",
+        "en": "Office & Currency",
+        "sv": "Kontor & Valuta",
+        "nl": "Kantoor & Valuta"
+      },
+      "topic": "office_currency",
+      "lessonFile": "unit_eritrea_buero_waehrung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_moebel_kueche",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Möbel & Küchengeschirr",
+        "en": "Furniture & Kitchenware",
+        "sv": "Möbler & Köksredskap",
+        "nl": "Meubels & Keukengerei"
+      },
+      "topic": "furniture_kitchenware",
+      "lessonFile": "unit_eritrea_moebel_kueche_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_bauernhof_landschaft",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Bauernhof & Landschaft",
+        "en": "Farm & Landscape",
+        "sv": "Bondgård & Landskap",
+        "nl": "Boerderij & Landschap"
+      },
+      "topic": "farm_landscape",
+      "lessonFile": "unit_eritrea_bauernhof_landschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_post_hygiene",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Post & Hygiene (mehr)",
+        "en": "Post Office & Hygiene (more)",
+        "sv": "Post & Hygien (mer)",
+        "nl": "Post & Hygiëne (meer)"
+      },
+      "topic": "post_hygiene",
+      "lessonFile": "unit_eritrea_post_hygiene_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_phrasen_ausrufe_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Redewendungen & Ausrufe (mehr)",
+        "en": "Phrases & Exclamations (more)",
+        "sv": "Fraser & Utrop (mer)",
+        "nl": "Uitdrukkingen & Uitroepen (meer)"
+      },
+      "topic": "phrases_exclamations",
+      "lessonFile": "unit_eritrea_phrasen_ausrufe_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verkehr_flughafen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Verkehr & Flughafen",
+        "en": "Traffic & Airport",
+        "sv": "Trafik & Flygplats",
+        "nl": "Verkeer & Luchthaven"
+      },
+      "topic": "traffic_airport",
+      "lessonFile": "unit_eritrea_verkehr_flughafen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sinne_farben",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Sinne & Farbnuancen",
+        "en": "Senses & Color Shades",
+        "sv": "Sinnen & Färgnyanser",
+        "nl": "Zintuigen & Kleurtinten"
+      },
+      "topic": "senses_colors",
+      "lessonFile": "unit_eritrea_sinne_farben_lessons.json"
     }
   ]
 }

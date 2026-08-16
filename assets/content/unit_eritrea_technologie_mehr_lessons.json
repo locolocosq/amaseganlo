@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_eritrea_technologie_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_tec2_mbtta",
+      "lex_ti_tec2_sfrl",
+      "lex_ti_tec2_apka",
+      "lex_ti_tec2_shrke",
+      "lex_ti_tec2_ansl",
+      "lex_ti_tec2_apld",
+      "lex_ti_tec2_scrn",
+      "lex_ti_tec2_kybrd",
+      "lex_ti_tec2_maws",
+      "lex_ti_tec2_prtr",
+      "lex_ti_tec2_hdfn",
+      "lex_ti_tec2_usbs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_technologie_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_tec2_mbtta",
+      "lex_ti_tec2_sfrl",
+      "lex_ti_tec2_apka",
+      "lex_ti_tec2_shrke",
+      "lex_ti_tec2_ansl",
+      "lex_ti_tec2_apld",
+      "lex_ti_tec2_scrn",
+      "lex_ti_tec2_kybrd",
+      "lex_ti_tec2_maws",
+      "lex_ti_tec2_prtr",
+      "lex_ti_tec2_hdfn",
+      "lex_ti_tec2_usbs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_technologie_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_tec2_mbtta",
+      "lex_ti_tec2_sfrl",
+      "lex_ti_tec2_apka",
+      "lex_ti_tec2_shrke",
+      "lex_ti_tec2_ansl",
+      "lex_ti_tec2_apld",
+      "lex_ti_tec2_scrn",
+      "lex_ti_tec2_kybrd",
+      "lex_ti_tec2_maws",
+      "lex_ti_tec2_prtr",
+      "lex_ti_tec2_hdfn",
+      "lex_ti_tec2_usbs"
+    ],
+    "sentenceIds": [
+      "sen_ti_technologie_mehr_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_technologie_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_tec2_mbtta",
+      "lex_ti_tec2_sfrl",
+      "lex_ti_tec2_apka",
+      "lex_ti_tec2_shrke",
+      "lex_ti_tec2_ansl",
+      "lex_ti_tec2_apld",
+      "lex_ti_tec2_scrn",
+      "lex_ti_tec2_kybrd",
+      "lex_ti_tec2_maws",
+      "lex_ti_tec2_prtr",
+      "lex_ti_tec2_hdfn",
+      "lex_ti_tec2_usbs"
+    ],
+    "sentenceIds": [
+      "sen_ti_technologie_mehr_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_technologie_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_tec2_mbtta",
+      "lex_ti_tec2_sfrl",
+      "lex_ti_tec2_apka",
+      "lex_ti_tec2_shrke",
+      "lex_ti_tec2_ansl",
+      "lex_ti_tec2_apld",
+      "lex_ti_tec2_scrn",
+      "lex_ti_tec2_kybrd",
+      "lex_ti_tec2_maws",
+      "lex_ti_tec2_prtr",
+      "lex_ti_tec2_hdfn",
+      "lex_ti_tec2_usbs"
+    ],
+    "sentenceIds": [
+      "sen_ti_technologie_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_technologie_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_tec2_mbtta",
+      "lex_ti_tec2_sfrl",
+      "lex_ti_tec2_apka",
+      "lex_ti_tec2_shrke",
+      "lex_ti_tec2_ansl",
+      "lex_ti_tec2_apld",
+      "lex_ti_tec2_scrn",
+      "lex_ti_tec2_kybrd",
+      "lex_ti_tec2_maws",
+      "lex_ti_tec2_prtr",
+      "lex_ti_tec2_hdfn",
+      "lex_ti_tec2_usbs"
+    ],
+    "sentenceIds": [
+      "sen_ti_technologie_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

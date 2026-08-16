@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_hby_ntbb","am":"ንባብ","tr":"nibab","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"das Lesen","en":"reading","sv":"läsning","nl":"lezen"},"emoji":"📖","verified":false},
+  {"id":"lex_ti_hby_ssla","am":"ስእሊ ምስኣል","tr":"si'ili mis'al","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"das Malen, Zeichnen","en":"drawing, painting","sv":"målning, ritning","nl":"tekenen, schilderen"},"emoji":"🎨","verified":false},
+  {"id":"lex_ti_hby_zfen2","am":"ምስማዕ ደርፊ","tr":"misima'i derfi","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"Musik hören","en":"listening to music","sv":"lyssna på musik","nl":"muziek luisteren"},"emoji":"🎧","verified":false},
+  {"id":"lex_ti_hby_cnq","am":"ምስራሕ ኣትክልቲ","tr":"misirah atikilti","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"das Gärtnern","en":"gardening","sv":"trädgårdsarbete","nl":"tuinieren"},"emoji":"🌱","verified":false},
+  {"id":"lex_ti_hby_msyq","am":"ምስራሕ ኢድ","tr":"misirah 'idi","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"das Basteln, Handarbeit","en":"handicraft","sv":"handarbete","nl":"handwerk"},"emoji":"","verified":false},
+  {"id":"lex_ti_hby_gzti","am":"ጉዕዞ","tr":"gu'ezo","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"das Reisen","en":"traveling","sv":"resande","nl":"reizen"},"emoji":"✈️","verified":false},
+  {"id":"lex_ti_hby_msht","am":"ምጽዋት ጸወታ","tr":"mitswat tsewata","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"Spiele spielen","en":"playing games","sv":"spela spel","nl":"spelletjes spelen"},"emoji":"🎮","verified":false},
+  {"id":"lex_ti_hby_msbh","am":"ምስራሕ ስፖርት","tr":"misirah siport","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"Sport treiben","en":"doing sports","sv":"idrotta","nl":"sporten"},"emoji":"⚽","verified":false},
+  {"id":"lex_ti_hby_mbsl","am":"ምግቢ ምስራሕ","tr":"migibi misirah","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"das Kochen (als Hobby)","en":"cooking (as a hobby)","sv":"laga mat (som hobby)","nl":"koken (als hobby)"},"emoji":"🍳","verified":false},
+  {"id":"lex_ti_hby_gzti2","am":"ምድላይ ስእሊ","tr":"midilay si'ili","pos":"noun","topic":"hobbies","level":"TI","t":{"de":"die Fotografie","en":"photography","sv":"fotografering","nl":"fotografie"},"emoji":"📷","verified":false}
+]

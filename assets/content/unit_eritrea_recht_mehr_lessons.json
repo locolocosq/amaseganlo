@@ -1,0 +1,124 @@
+[
+  {
+    "id": "unit_eritrea_recht_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_r2_kstt",
+      "lex_ti_r2_frdgr",
+      "lex_ti_r2_ktrfw",
+      "lex_ti_r2_kwtn",
+      "lex_ti_r2_kls2",
+      "lex_ti_r2_msrti",
+      "lex_ti_r2_hlqti",
+      "lex_ti_r2_yrft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_recht_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_r2_kstt",
+      "lex_ti_r2_frdgr",
+      "lex_ti_r2_ktrfw",
+      "lex_ti_r2_kwtn",
+      "lex_ti_r2_kls2",
+      "lex_ti_r2_msrti",
+      "lex_ti_r2_hlqti",
+      "lex_ti_r2_yrft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_recht_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_r2_kstt",
+      "lex_ti_r2_frdgr",
+      "lex_ti_r2_ktrfw",
+      "lex_ti_r2_kwtn",
+      "lex_ti_r2_kls2",
+      "lex_ti_r2_msrti",
+      "lex_ti_r2_hlqti",
+      "lex_ti_r2_yrft"
+    ],
+    "sentenceIds": [
+      "sen_ti_recht_mehr_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_recht_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_r2_kstt",
+      "lex_ti_r2_frdgr",
+      "lex_ti_r2_ktrfw",
+      "lex_ti_r2_kwtn",
+      "lex_ti_r2_kls2",
+      "lex_ti_r2_msrti",
+      "lex_ti_r2_hlqti",
+      "lex_ti_r2_yrft"
+    ],
+    "sentenceIds": [
+      "sen_ti_recht_mehr_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_recht_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_r2_kstt",
+      "lex_ti_r2_frdgr",
+      "lex_ti_r2_ktrfw",
+      "lex_ti_r2_kwtn",
+      "lex_ti_r2_kls2",
+      "lex_ti_r2_msrti",
+      "lex_ti_r2_hlqti",
+      "lex_ti_r2_yrft"
+    ],
+    "sentenceIds": [
+      "sen_ti_recht_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_recht_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_r2_kstt",
+      "lex_ti_r2_frdgr",
+      "lex_ti_r2_ktrfw",
+      "lex_ti_r2_kwtn",
+      "lex_ti_r2_kls2",
+      "lex_ti_r2_msrti",
+      "lex_ti_r2_hlqti",
+      "lex_ti_r2_yrft"
+    ],
+    "sentenceIds": [
+      "sen_ti_recht_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

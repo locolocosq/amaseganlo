@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_fn_hlbl","am":"ፈዛዝ ሰማያዊ","tr":"fezaz semayawi","pos":"adjective","topic":"color_shades","level":"TI","t":{"de":"hellblau","en":"light blue","sv":"ljusblå","nl":"lichtblauw"},"emoji":"","verified":false},
+  {"id":"lex_ti_fn_dkgr","am":"ድቁቕ ቀጠልያ","tr":"diquq qet'elya","pos":"adjective","topic":"color_shades","level":"TI","t":{"de":"dunkelgrün","en":"dark green","sv":"mörkgrön","nl":"donkergroen"},"emoji":"","verified":false},
+  {"id":"lex_ti_fn_glbn","am":"ወርቃዊ","tr":"werqawi","pos":"adjective","topic":"color_shades","level":"TI","t":{"de":"golden","en":"golden","sv":"gyllene","nl":"goudkleurig"},"emoji":"","verified":false},
+  {"id":"lex_ti_fn_slbn","am":"ብሩራዊ","tr":"biburawi","pos":"adjective","topic":"color_shades","level":"TI","t":{"de":"silbern","en":"silver","sv":"silverfärgad","nl":"zilverkleurig"},"emoji":"","verified":false},
+  {"id":"lex_ti_fn_grau","am":"ሓመድ ሕብሪ","tr":"hamed hibri","pos":"adjective","topic":"color_shades","level":"TI","t":{"de":"grau","en":"grey","sv":"grå","nl":"grijs"},"emoji":"","verified":false},
+  {"id":"lex_ti_fn_trkis","am":"ቱርኮዋዝ","tr":"turkowaz","pos":"adjective","topic":"color_shades","level":"TI","t":{"de":"türkis","en":"turquoise","sv":"turkos","nl":"turquoise"},"emoji":"","verified":false}
+]

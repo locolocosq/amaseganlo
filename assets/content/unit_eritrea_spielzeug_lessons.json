@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_spielzeug_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_spz_bmbla",
+      "lex_ti_spz_mkna3",
+      "lex_ti_spz_blon",
+      "lex_ti_spz_pzli",
+      "lex_ti_spz_kuis",
+      "lex_ti_spz_drft",
+      "lex_ti_spz_qrds",
+      "lex_ti_spz_shtr",
+      "lex_ti_spz_tddy",
+      "lex_ti_spz_swng"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_spielzeug_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_spz_bmbla",
+      "lex_ti_spz_mkna3",
+      "lex_ti_spz_blon",
+      "lex_ti_spz_pzli",
+      "lex_ti_spz_kuis",
+      "lex_ti_spz_drft",
+      "lex_ti_spz_qrds",
+      "lex_ti_spz_shtr",
+      "lex_ti_spz_tddy",
+      "lex_ti_spz_swng"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_spielzeug_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_spz_bmbla",
+      "lex_ti_spz_mkna3",
+      "lex_ti_spz_blon",
+      "lex_ti_spz_pzli",
+      "lex_ti_spz_kuis",
+      "lex_ti_spz_drft",
+      "lex_ti_spz_qrds",
+      "lex_ti_spz_shtr",
+      "lex_ti_spz_tddy",
+      "lex_ti_spz_swng"
+    ],
+    "sentenceIds": [
+      "sen_ti_spielzeug_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_spielzeug_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_spz_bmbla",
+      "lex_ti_spz_mkna3",
+      "lex_ti_spz_blon",
+      "lex_ti_spz_pzli",
+      "lex_ti_spz_kuis",
+      "lex_ti_spz_drft",
+      "lex_ti_spz_qrds",
+      "lex_ti_spz_shtr",
+      "lex_ti_spz_tddy",
+      "lex_ti_spz_swng"
+    ],
+    "sentenceIds": [
+      "sen_ti_spielzeug_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_spielzeug_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_spz_bmbla",
+      "lex_ti_spz_mkna3",
+      "lex_ti_spz_blon",
+      "lex_ti_spz_pzli",
+      "lex_ti_spz_kuis",
+      "lex_ti_spz_drft",
+      "lex_ti_spz_qrds",
+      "lex_ti_spz_shtr",
+      "lex_ti_spz_tddy",
+      "lex_ti_spz_swng"
+    ],
+    "sentenceIds": [
+      "sen_ti_spielzeug_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_spielzeug_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_spz_bmbla",
+      "lex_ti_spz_mkna3",
+      "lex_ti_spz_blon",
+      "lex_ti_spz_pzli",
+      "lex_ti_spz_kuis",
+      "lex_ti_spz_drft",
+      "lex_ti_spz_qrds",
+      "lex_ti_spz_shtr",
+      "lex_ti_spz_tddy",
+      "lex_ti_spz_swng"
+    ],
+    "sentenceIds": [
+      "sen_ti_spielzeug_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

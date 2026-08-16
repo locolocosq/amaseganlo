@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_r2_kstt","am":"ቅዋም","tr":"qiwam","pos":"noun","topic":"law_more","level":"TI","t":{"de":"die Verfassung","en":"constitution","sv":"författning","nl":"grondwet"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_frdgr","am":"ፍትሒ","tr":"fitihi","pos":"noun","topic":"law_more","level":"TI","t":{"de":"die Gerechtigkeit","en":"justice","sv":"rättvisa","nl":"gerechtigheid"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_ktrfw","am":"መቕጻዕቲ","tr":"meqitsa'iti","pos":"noun","topic":"law_more","level":"TI","t":{"de":"die Strafe","en":"punishment","sv":"straff","nl":"straf"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_kwtn","am":"ውሕስነት ገንዘብ","tr":"wihisinet genzeb","pos":"noun","topic":"law_more","level":"TI","t":{"de":"die Kaution","en":"bail","sv":"borgen","nl":"borgtocht"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_kls2","am":"ክሲ","tr":"kisi","pos":"noun","topic":"law_more","level":"TI","t":{"de":"die Anklage","en":"accusation, charge","sv":"åtal","nl":"aanklacht"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_msrti","am":"ተኣስረ","tr":"te'asere","pos":"verb","topic":"law_more","level":"TI","t":{"de":"verhaftet werden","en":"to be arrested","sv":"att bli gripen","nl":"gearresteerd worden"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_hlqti","am":"መርትዖ","tr":"meritio","pos":"noun","topic":"law_more","level":"TI","t":{"de":"der Beweis","en":"evidence, proof","sv":"bevis","nl":"bewijs"},"emoji":"","verified":false},
+  {"id":"lex_ti_r2_yrft","am":"ይግባይ","tr":"yigibay","pos":"noun","topic":"law_more","level":"TI","t":{"de":"der Einspruch, Berufung","en":"appeal","sv":"överklagande","nl":"beroep"},"emoji":"","verified":false}
+]

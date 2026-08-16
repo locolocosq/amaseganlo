@@ -1,0 +1,14 @@
+[
+  {"id":"lex_ti_tec2_mbtta","am":"መባትር","tr":"mebatir","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"das Ladegerät","en":"charger","sv":"laddare","nl":"oplader"},"emoji":"🔌","verified":false},
+  {"id":"lex_ti_tec2_sfrl","am":"ቃል ምስጢር","tr":"qal misitir","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"das Passwort","en":"password","sv":"lösenord","nl":"wachtwoord"},"emoji":"🔒","verified":false},
+  {"id":"lex_ti_tec2_apka","am":"መተግበሪ","tr":"metegiberi","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"die App, Anwendung","en":"app, application","sv":"app","nl":"app"},"emoji":"","verified":false},
+  {"id":"lex_ti_tec2_shrke","am":"ኣካፈለ","tr":"akafele","pos":"verb","topic":"technology_more","level":"TI","t":{"de":"teilen (online)","en":"to share (online)","sv":"att dela (online)","nl":"delen (online)"},"emoji":"","verified":false},
+  {"id":"lex_ti_tec2_ansl","am":"ኣውረደ","tr":"awrede","pos":"verb","topic":"technology_more","level":"TI","t":{"de":"herunterladen","en":"to download","sv":"att ladda ner","nl":"downloaden"},"emoji":"","verified":false},
+  {"id":"lex_ti_tec2_apld","am":"ሰቐለ","tr":"seqele","pos":"verb","topic":"technology_more","level":"TI","t":{"de":"hochladen","en":"to upload","sv":"att ladda upp","nl":"uploaden"},"emoji":"","verified":false},
+  {"id":"lex_ti_tec2_scrn","am":"መርኣዪ","tr":"mer'ayi","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"der Bildschirm","en":"screen","sv":"skärm","nl":"scherm"},"emoji":"🖥️","verified":false},
+  {"id":"lex_ti_tec2_kybrd","am":"ፊደላት መጻሕፍቲ","tr":"fidelat metsahifti","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"die Tastatur","en":"keyboard","sv":"tangentbord","nl":"toetsenbord"},"emoji":"⌨️","verified":false},
+  {"id":"lex_ti_tec2_maws","am":"መባዓሲት","tr":"meba'asit","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"die Maus (Computer)","en":"mouse (computer)","sv":"mus (dator)","nl":"muis (computer)"},"emoji":"🖱️","verified":false},
+  {"id":"lex_ti_tec2_prtr","am":"መሕተሚ","tr":"mehitemi","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"der Drucker","en":"printer","sv":"skrivare","nl":"printer"},"emoji":"🖨️","verified":false},
+  {"id":"lex_ti_tec2_hdfn","am":"ናይ ኣእዛን ተለፎን","tr":"nay a'izan telefon","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"die Kopfhörer","en":"headphones","sv":"hörlurar","nl":"koptelefoon"},"emoji":"🎧","verified":false},
+  {"id":"lex_ti_tec2_usbs","am":"ናይ ዝኽሪ ዘንጊ","tr":"nay zikhri zengi","pos":"noun","topic":"technology_more","level":"TI","t":{"de":"der USB-Stick","en":"USB stick","sv":"usb-minne","nl":"usb-stick"},"emoji":"💾","verified":false}
+]

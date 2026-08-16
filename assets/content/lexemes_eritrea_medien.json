@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_mdn_ftm","am":"ፊልም","tr":"filim","pos":"noun","topic":"media","level":"TI","t":{"de":"der Film","en":"movie, film","sv":"film","nl":"film"},"emoji":"🎬","verified":false},
+  {"id":"lex_ti_mdn_tlvz","am":"ተለቪዥን","tr":"televizhin","pos":"noun","topic":"media","level":"TI","t":{"de":"der Fernseher","en":"television","sv":"tv","nl":"televisie"},"emoji":"📺","verified":false},
+  {"id":"lex_ti_mdn_rdyo","am":"ራድዮ","tr":"radiyo","pos":"noun","topic":"media","level":"TI","t":{"de":"das Radio","en":"radio","sv":"radio","nl":"radio"},"emoji":"📻","verified":false},
+  {"id":"lex_ti_mdn_gzta","am":"ጋዜጣ","tr":"gazeta","pos":"noun","topic":"media","level":"TI","t":{"de":"die Zeitung","en":"newspaper","sv":"tidning","nl":"krant"},"emoji":"📰","verified":false},
+  {"id":"lex_ti_mdn_mzgb","am":"መጽሔት","tr":"mets'het","pos":"noun","topic":"media","level":"TI","t":{"de":"die Zeitschrift","en":"magazine","sv":"tidskrift","nl":"tijdschrift"},"emoji":"","verified":false},
+  {"id":"lex_ti_mdn_zena","am":"ዜና","tr":"zena","pos":"noun","topic":"media","level":"TI","t":{"de":"die Nachrichten","en":"news","sv":"nyheter","nl":"nieuws"},"emoji":"","verified":false},
+  {"id":"lex_ti_mdn_zfen","am":"ደርፊ","tr":"derfi","pos":"noun","topic":"media","level":"TI","t":{"de":"das Lied","en":"song","sv":"sång","nl":"lied"},"emoji":"🎵","verified":false},
+  {"id":"lex_ti_mdn_tmsl","am":"ተዋሳኢ","tr":"tewasa'i","pos":"noun","topic":"media","level":"TI","t":{"de":"der Schauspieler","en":"actor","sv":"skådespelare","nl":"acteur"},"emoji":"","verified":false},
+  {"id":"lex_ti_mdn_mzngo","am":"ተኸታታሊት","tr":"tekestatalit","pos":"noun","topic":"media","level":"TI","t":{"de":"die Serie","en":"TV series","sv":"tv-serie","nl":"serie"},"emoji":"","verified":false},
+  {"id":"lex_ti_mdn_pblc","am":"ህዝቢ","tr":"hizbi","pos":"noun","topic":"media","level":"TI","t":{"de":"die Öffentlichkeit","en":"public","sv":"allmänhet","nl":"publiek"},"emoji":"","verified":false}
+]

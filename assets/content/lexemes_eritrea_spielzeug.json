@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_spz_bmbla","am":"ባምቡላ","tr":"bambula","pos":"noun","topic":"toys","level":"TI","t":{"de":"die Puppe","en":"doll","sv":"docka","nl":"pop"},"emoji":"🪆","verified":false},
+  {"id":"lex_ti_spz_mkna3","am":"ናይ ጸወታ መኪና","tr":"nay tsewata mekina","pos":"noun","topic":"toys","level":"TI","t":{"de":"das Spielzeugauto","en":"toy car","sv":"leksaksbil","nl":"speelgoedauto"},"emoji":"🚗","verified":false},
+  {"id":"lex_ti_spz_blon","am":"ባሎኒ","tr":"baloni","pos":"noun","topic":"toys","level":"TI","t":{"de":"der Luftballon","en":"balloon","sv":"ballong","nl":"ballon"},"emoji":"🎈","verified":false},
+  {"id":"lex_ti_spz_pzli","am":"ፐዝል","tr":"pezil","pos":"noun","topic":"toys","level":"TI","t":{"de":"das Puzzle","en":"puzzle","sv":"pussel","nl":"puzzel"},"emoji":"🧩","verified":false},
+  {"id":"lex_ti_spz_kuis","am":"ኩዕሶ ንኡስ","tr":"ku'iso ni'us","pos":"noun","topic":"toys","level":"TI","t":{"de":"das Murmelspiel","en":"marbles (game)","sv":"kulor (lek)","nl":"knikkers"},"emoji":"","verified":false},
+  {"id":"lex_ti_spz_drft","am":"ናይ ወረቐት ነፋሪት","tr":"nay wereqet nefarit","pos":"noun","topic":"toys","level":"TI","t":{"de":"der Drachen (Spielzeug)","en":"kite","sv":"drake (leksak)","nl":"vlieger"},"emoji":"🪁","verified":false},
+  {"id":"lex_ti_spz_qrds","am":"ካርታ ጸወታ","tr":"karta tsewata","pos":"noun","topic":"toys","level":"TI","t":{"de":"die Spielkarte","en":"playing card","sv":"spelkort","nl":"speelkaart"},"emoji":"🃏","verified":false},
+  {"id":"lex_ti_spz_shtr","am":"ሻጥራንጅ","tr":"shat'iranji","pos":"noun","topic":"toys","level":"TI","t":{"de":"das Schach","en":"chess","sv":"schack","nl":"schaken"},"emoji":"♟️","verified":false},
+  {"id":"lex_ti_spz_tddy","am":"ናይ ጸወታ ድቢ","tr":"nay tsewata dibi","pos":"noun","topic":"toys","level":"TI","t":{"de":"der Teddybär","en":"teddy bear","sv":"nallebjörn","nl":"teddybeer"},"emoji":"🧸","verified":false},
+  {"id":"lex_ti_spz_swng","am":"መንሳፍ","tr":"menisaf","pos":"noun","topic":"toys","level":"TI","t":{"de":"die Schaukel","en":"swing","sv":"gunga","nl":"schommel"},"emoji":"","verified":false}
+]

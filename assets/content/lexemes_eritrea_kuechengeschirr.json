@@ -1,0 +1,11 @@
+[
+  {"id":"lex_ti_kg_tsahfi","am":"ሸሓኒ","tr":"shehani","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"der Teller","en":"plate","sv":"tallrik","nl":"bord"},"emoji":"🍽️","verified":false},
+  {"id":"lex_ti_kg_mankiya","am":"ማንካ","tr":"manka","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"der Löffel","en":"spoon","sv":"sked","nl":"lepel"},"emoji":"🥄","verified":false},
+  {"id":"lex_ti_kg_shoka","am":"ካራ","tr":"kara","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"das Messer","en":"knife","sv":"kniv","nl":"mes"},"emoji":"🔪","verified":false},
+  {"id":"lex_ti_kg_fork","am":"ፎርኬታ","tr":"forketa","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"die Gabel","en":"fork","sv":"gaffel","nl":"vork"},"emoji":"🍴","verified":false},
+  {"id":"lex_ti_kg_bkri","am":"ብርጭቆ","tr":"birichiqo","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"das Glas (Trinkgefäß)","en":"glass (drinking)","sv":"glas (dricka)","nl":"glas (drinken)"},"emoji":"🥛","verified":false},
+  {"id":"lex_ti_kg_mesfey","am":"መጻረዪ","tr":"metsareyi","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"das Sieb","en":"strainer, sieve","sv":"sil","nl":"zeef"},"emoji":"","verified":false},
+  {"id":"lex_ti_kg_mekfti","am":"መኽፈቲ","tr":"mekifeti","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"der Dosenöffner","en":"can opener","sv":"konservöppnare","nl":"blikopener"},"emoji":"","verified":false},
+  {"id":"lex_ti_kg_ttbl","am":"ናይ ጣውላ ክዳን","tr":"nay t'awila kidan","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"die Tischdecke","en":"tablecloth","sv":"bordsduk","nl":"tafelkleed"},"emoji":"","verified":false},
+  {"id":"lex_ti_kg_serveti","am":"ናፕኪን","tr":"napkin","pos":"noun","topic":"kitchenware","level":"TI","t":{"de":"die Serviette","en":"napkin","sv":"servett","nl":"servet"},"emoji":"","verified":false}
+]

@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_au2_wow","am":"ዋው!","tr":"waw!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"wow!","en":"wow!","sv":"wow!","nl":"wauw!"},"emoji":"😮","verified":false},
+  {"id":"lex_ti_au2_ohno","am":"ዋይ ኣነ!","tr":"way ane!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"oh nein!","en":"oh no!","sv":"åh nej!","nl":"oh nee!"},"emoji":"😨","verified":false},
+  {"id":"lex_ti_au2_brvo","am":"ኣዚኻ ጽቡቕ!","tr":"aziha tsibuq!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"bravo!","en":"bravo!","sv":"bravo!","nl":"bravo!"},"emoji":"👏","verified":false},
+  {"id":"lex_ti_au2_stop","am":"ደው በል!","tr":"dewi beli!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"halt! stopp!","en":"stop!","sv":"stopp!","nl":"stop!"},"emoji":"✋","verified":false},
+  {"id":"lex_ti_au2_hlp","am":"ሓግዙኒ!","tr":"hagizuni!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"hilf mir! helft mir!","en":"help me!","sv":"hjälp mig!","nl":"help me!"},"emoji":"🆘","verified":false},
+  {"id":"lex_ti_au2_wtch","am":"ተጠንቀቕ!","tr":"tetenqeq!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"pass auf! Vorsicht!","en":"watch out! careful!","sv":"se upp! försiktigt!","nl":"pas op! voorzichtig!"},"emoji":"⚠️","verified":false},
+  {"id":"lex_ti_au2_gdjb","am":"ጽቡቕ ስራሕ!","tr":"tsibuq sirah!","pos":"interjection","topic":"exclamations_more","level":"TI","t":{"de":"gute Arbeit!","en":"good job!","sv":"bra jobbat!","nl":"goed gedaan!"},"emoji":"👍","verified":false}
+]

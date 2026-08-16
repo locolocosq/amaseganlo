@@ -1,0 +1,190 @@
+[
+  {
+    "id": "unit_eritrea_buero_waehrung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_bro_pnkl",
+      "lex_ti_bro_msmr2",
+      "lex_ti_bro_wrqt",
+      "lex_ti_bro_mzgb2",
+      "lex_ti_bro_agr",
+      "lex_ti_bro_pgmnt",
+      "lex_ti_bro_prjkt",
+      "lex_ti_bro_cstmr",
+      "lex_ti_bro_dydln",
+      "lex_ti_bro_chef",
+      "lex_ti_whr_nakfa",
+      "lex_ti_whr_birr",
+      "lex_ti_whr_metl",
+      "lex_ti_whr_bnkn",
+      "lex_ti_whr_cash",
+      "lex_ti_whr_kkrd",
+      "lex_ti_whr_qmzy",
+      "lex_ti_whr_wtsi",
+      "lex_ti_whr_wga"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_buero_waehrung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_bro_pnkl",
+      "lex_ti_bro_msmr2",
+      "lex_ti_bro_wrqt",
+      "lex_ti_bro_mzgb2",
+      "lex_ti_bro_agr",
+      "lex_ti_bro_pgmnt",
+      "lex_ti_bro_prjkt",
+      "lex_ti_bro_cstmr",
+      "lex_ti_bro_dydln",
+      "lex_ti_bro_chef",
+      "lex_ti_whr_nakfa",
+      "lex_ti_whr_birr",
+      "lex_ti_whr_metl",
+      "lex_ti_whr_bnkn",
+      "lex_ti_whr_cash",
+      "lex_ti_whr_kkrd",
+      "lex_ti_whr_qmzy",
+      "lex_ti_whr_wtsi",
+      "lex_ti_whr_wga"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_buero_waehrung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_bro_pnkl",
+      "lex_ti_bro_msmr2",
+      "lex_ti_bro_wrqt",
+      "lex_ti_bro_mzgb2",
+      "lex_ti_bro_agr",
+      "lex_ti_bro_pgmnt",
+      "lex_ti_bro_prjkt",
+      "lex_ti_bro_cstmr",
+      "lex_ti_bro_dydln",
+      "lex_ti_bro_chef",
+      "lex_ti_whr_nakfa",
+      "lex_ti_whr_birr",
+      "lex_ti_whr_metl",
+      "lex_ti_whr_bnkn",
+      "lex_ti_whr_cash",
+      "lex_ti_whr_kkrd",
+      "lex_ti_whr_qmzy",
+      "lex_ti_whr_wtsi",
+      "lex_ti_whr_wga"
+    ],
+    "sentenceIds": [
+      "sen_ti_buero_waehrung_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_buero_waehrung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_bro_pnkl",
+      "lex_ti_bro_msmr2",
+      "lex_ti_bro_wrqt",
+      "lex_ti_bro_mzgb2",
+      "lex_ti_bro_agr",
+      "lex_ti_bro_pgmnt",
+      "lex_ti_bro_prjkt",
+      "lex_ti_bro_cstmr",
+      "lex_ti_bro_dydln",
+      "lex_ti_bro_chef",
+      "lex_ti_whr_nakfa",
+      "lex_ti_whr_birr",
+      "lex_ti_whr_metl",
+      "lex_ti_whr_bnkn",
+      "lex_ti_whr_cash",
+      "lex_ti_whr_kkrd",
+      "lex_ti_whr_qmzy",
+      "lex_ti_whr_wtsi",
+      "lex_ti_whr_wga"
+    ],
+    "sentenceIds": [
+      "sen_ti_buero_waehrung_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_buero_waehrung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_bro_pnkl",
+      "lex_ti_bro_msmr2",
+      "lex_ti_bro_wrqt",
+      "lex_ti_bro_mzgb2",
+      "lex_ti_bro_agr",
+      "lex_ti_bro_pgmnt",
+      "lex_ti_bro_prjkt",
+      "lex_ti_bro_cstmr",
+      "lex_ti_bro_dydln",
+      "lex_ti_bro_chef",
+      "lex_ti_whr_nakfa",
+      "lex_ti_whr_birr",
+      "lex_ti_whr_metl",
+      "lex_ti_whr_bnkn",
+      "lex_ti_whr_cash",
+      "lex_ti_whr_kkrd",
+      "lex_ti_whr_qmzy",
+      "lex_ti_whr_wtsi",
+      "lex_ti_whr_wga"
+    ],
+    "sentenceIds": [
+      "sen_ti_buero_waehrung_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_buero_waehrung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_bro_pnkl",
+      "lex_ti_bro_msmr2",
+      "lex_ti_bro_wrqt",
+      "lex_ti_bro_mzgb2",
+      "lex_ti_bro_agr",
+      "lex_ti_bro_pgmnt",
+      "lex_ti_bro_prjkt",
+      "lex_ti_bro_cstmr",
+      "lex_ti_bro_dydln",
+      "lex_ti_bro_chef",
+      "lex_ti_whr_nakfa",
+      "lex_ti_whr_birr",
+      "lex_ti_whr_metl",
+      "lex_ti_whr_bnkn",
+      "lex_ti_whr_cash",
+      "lex_ti_whr_kkrd",
+      "lex_ti_whr_qmzy",
+      "lex_ti_whr_wtsi",
+      "lex_ti_whr_wga"
+    ],
+    "sentenceIds": [
+      "sen_ti_buero_waehrung_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

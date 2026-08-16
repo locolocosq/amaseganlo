@@ -1,0 +1,166 @@
+[
+  {
+    "id": "unit_eritrea_post_hygiene_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_pst_lter",
+      "lex_ti_pst_pkg",
+      "lex_ti_pst_stmp",
+      "lex_ti_pst_pbox",
+      "lex_ti_pst_adrs",
+      "lex_ti_pst_snd",
+      "lex_ti_pst_sgn",
+      "lex_ti_pst_dcmnt",
+      "lex_ti_hy2_lotn",
+      "lex_ti_hy2_prfm",
+      "lex_ti_hy2_rsrn",
+      "lex_ti_hy2_nlcl",
+      "lex_ti_hy2_tpst",
+      "lex_ti_hy2_tsue",
+      "lex_ti_hy2_mrrr"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_post_hygiene_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_pst_lter",
+      "lex_ti_pst_pkg",
+      "lex_ti_pst_stmp",
+      "lex_ti_pst_pbox",
+      "lex_ti_pst_adrs",
+      "lex_ti_pst_snd",
+      "lex_ti_pst_sgn",
+      "lex_ti_pst_dcmnt",
+      "lex_ti_hy2_lotn",
+      "lex_ti_hy2_prfm",
+      "lex_ti_hy2_rsrn",
+      "lex_ti_hy2_nlcl",
+      "lex_ti_hy2_tpst",
+      "lex_ti_hy2_tsue",
+      "lex_ti_hy2_mrrr"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_post_hygiene_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_pst_lter",
+      "lex_ti_pst_pkg",
+      "lex_ti_pst_stmp",
+      "lex_ti_pst_pbox",
+      "lex_ti_pst_adrs",
+      "lex_ti_pst_snd",
+      "lex_ti_pst_sgn",
+      "lex_ti_pst_dcmnt",
+      "lex_ti_hy2_lotn",
+      "lex_ti_hy2_prfm",
+      "lex_ti_hy2_rsrn",
+      "lex_ti_hy2_nlcl",
+      "lex_ti_hy2_tpst",
+      "lex_ti_hy2_tsue",
+      "lex_ti_hy2_mrrr"
+    ],
+    "sentenceIds": [
+      "sen_ti_post_hygiene_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_post_hygiene_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_pst_lter",
+      "lex_ti_pst_pkg",
+      "lex_ti_pst_stmp",
+      "lex_ti_pst_pbox",
+      "lex_ti_pst_adrs",
+      "lex_ti_pst_snd",
+      "lex_ti_pst_sgn",
+      "lex_ti_pst_dcmnt",
+      "lex_ti_hy2_lotn",
+      "lex_ti_hy2_prfm",
+      "lex_ti_hy2_rsrn",
+      "lex_ti_hy2_nlcl",
+      "lex_ti_hy2_tpst",
+      "lex_ti_hy2_tsue",
+      "lex_ti_hy2_mrrr"
+    ],
+    "sentenceIds": [
+      "sen_ti_post_hygiene_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_post_hygiene_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_pst_lter",
+      "lex_ti_pst_pkg",
+      "lex_ti_pst_stmp",
+      "lex_ti_pst_pbox",
+      "lex_ti_pst_adrs",
+      "lex_ti_pst_snd",
+      "lex_ti_pst_sgn",
+      "lex_ti_pst_dcmnt",
+      "lex_ti_hy2_lotn",
+      "lex_ti_hy2_prfm",
+      "lex_ti_hy2_rsrn",
+      "lex_ti_hy2_nlcl",
+      "lex_ti_hy2_tpst",
+      "lex_ti_hy2_tsue",
+      "lex_ti_hy2_mrrr"
+    ],
+    "sentenceIds": [
+      "sen_ti_post_hygiene_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_post_hygiene_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_pst_lter",
+      "lex_ti_pst_pkg",
+      "lex_ti_pst_stmp",
+      "lex_ti_pst_pbox",
+      "lex_ti_pst_adrs",
+      "lex_ti_pst_snd",
+      "lex_ti_pst_sgn",
+      "lex_ti_pst_dcmnt",
+      "lex_ti_hy2_lotn",
+      "lex_ti_hy2_prfm",
+      "lex_ti_hy2_rsrn",
+      "lex_ti_hy2_nlcl",
+      "lex_ti_hy2_tpst",
+      "lex_ti_hy2_tsue",
+      "lex_ti_hy2_mrrr"
+    ],
+    "sentenceIds": [
+      "sen_ti_post_hygiene_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

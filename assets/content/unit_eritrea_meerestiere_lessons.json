@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_meerestiere_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_mrt_asa2",
+      "lex_ti_mrt_shrq",
+      "lex_ti_mrt_dlfn",
+      "lex_ti_mrt_ankm",
+      "lex_ti_mrt_srtn",
+      "lex_ti_mrt_qrdo",
+      "lex_ti_mrt_qsli",
+      "lex_ti_mrt_qrl",
+      "lex_ti_mrt_ambi",
+      "lex_ti_mrt_kslw"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_meerestiere_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_mrt_asa2",
+      "lex_ti_mrt_shrq",
+      "lex_ti_mrt_dlfn",
+      "lex_ti_mrt_ankm",
+      "lex_ti_mrt_srtn",
+      "lex_ti_mrt_qrdo",
+      "lex_ti_mrt_qsli",
+      "lex_ti_mrt_qrl",
+      "lex_ti_mrt_ambi",
+      "lex_ti_mrt_kslw"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_meerestiere_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_mrt_asa2",
+      "lex_ti_mrt_shrq",
+      "lex_ti_mrt_dlfn",
+      "lex_ti_mrt_ankm",
+      "lex_ti_mrt_srtn",
+      "lex_ti_mrt_qrdo",
+      "lex_ti_mrt_qsli",
+      "lex_ti_mrt_qrl",
+      "lex_ti_mrt_ambi",
+      "lex_ti_mrt_kslw"
+    ],
+    "sentenceIds": [
+      "sen_ti_meerestiere_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_meerestiere_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_mrt_asa2",
+      "lex_ti_mrt_shrq",
+      "lex_ti_mrt_dlfn",
+      "lex_ti_mrt_ankm",
+      "lex_ti_mrt_srtn",
+      "lex_ti_mrt_qrdo",
+      "lex_ti_mrt_qsli",
+      "lex_ti_mrt_qrl",
+      "lex_ti_mrt_ambi",
+      "lex_ti_mrt_kslw"
+    ],
+    "sentenceIds": [
+      "sen_ti_meerestiere_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_meerestiere_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_mrt_asa2",
+      "lex_ti_mrt_shrq",
+      "lex_ti_mrt_dlfn",
+      "lex_ti_mrt_ankm",
+      "lex_ti_mrt_srtn",
+      "lex_ti_mrt_qrdo",
+      "lex_ti_mrt_qsli",
+      "lex_ti_mrt_qrl",
+      "lex_ti_mrt_ambi",
+      "lex_ti_mrt_kslw"
+    ],
+    "sentenceIds": [
+      "sen_ti_meerestiere_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_meerestiere_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_mrt_asa2",
+      "lex_ti_mrt_shrq",
+      "lex_ti_mrt_dlfn",
+      "lex_ti_mrt_ankm",
+      "lex_ti_mrt_srtn",
+      "lex_ti_mrt_qrdo",
+      "lex_ti_mrt_qsli",
+      "lex_ti_mrt_qrl",
+      "lex_ti_mrt_ambi",
+      "lex_ti_mrt_kslw"
+    ],
+    "sentenceIds": [
+      "sen_ti_meerestiere_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

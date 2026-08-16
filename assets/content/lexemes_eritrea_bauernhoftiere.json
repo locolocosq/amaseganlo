@@ -1,0 +1,11 @@
+[
+  {"id":"lex_ti_bh_lam","am":"ላም","tr":"lam","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"die Kuh","en":"cow","sv":"ko","nl":"koe"},"emoji":"🐄","verified":false},
+  {"id":"lex_ti_bh_bgei","am":"በጊዕ","tr":"beghi'i","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"das Schaf","en":"sheep","sv":"får","nl":"schaap"},"emoji":"🐑","verified":false},
+  {"id":"lex_ti_bh_ghri","am":"ኣጣል","tr":"atal","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"die Ziege","en":"goat","sv":"get","nl":"geit"},"emoji":"🐐","verified":false},
+  {"id":"lex_ti_bh_derho","am":"ደርሆ","tr":"derho","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"das Huhn","en":"chicken","sv":"höna","nl":"kip"},"emoji":"🐔","verified":false},
+  {"id":"lex_ti_bh_ferase","am":"ፈረስ","tr":"feres","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"das Pferd","en":"horse","sv":"häst","nl":"paard"},"emoji":"🐎","verified":false},
+  {"id":"lex_ti_bh_adgi","am":"ኣድጊ","tr":"adigi","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"der Esel","en":"donkey","sv":"åsna","nl":"ezel"},"emoji":"🐴","verified":false},
+  {"id":"lex_ti_bh_gemel2","am":"ገመል","tr":"gemel","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"das Kamel","en":"camel","sv":"kamel","nl":"kameel"},"emoji":"🐫","verified":false},
+  {"id":"lex_ti_bh_asrat","am":"ሓሰማ","tr":"hasema","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"das Schwein","en":"pig","sv":"gris","nl":"varken"},"emoji":"🐖","verified":false},
+  {"id":"lex_ti_bh_qeleb","am":"ግራት ኣራዊት","tr":"girat 'arawit","pos":"noun","topic":"farm_animals","level":"TI","t":{"de":"der Stall","en":"barn, stable","sv":"lada, stall","nl":"stal"},"emoji":"","verified":false}
+]

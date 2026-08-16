@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_wt2_qsti","am":"ቀስተ ደመና","tr":"qeste demena","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"der Regenbogen","en":"rainbow","sv":"regnbåge","nl":"regenboog"},"emoji":"🌈","verified":false},
+  {"id":"lex_ti_wt2_mbrq","am":"መብረቕ","tr":"mebreq","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"der Blitz","en":"lightning","sv":"blixt","nl":"bliksem"},"emoji":"⚡","verified":false},
+  {"id":"lex_ti_wt2_nqts","am":"ነጎዳ","tr":"negoda","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"der Donner","en":"thunder","sv":"åska","nl":"donder"},"emoji":"⛈️","verified":false},
+  {"id":"lex_ti_wt2_bred","am":"በረድ","tr":"bered","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"der Schnee","en":"snow","sv":"snö","nl":"sneeuw"},"emoji":"❄️","verified":false},
+  {"id":"lex_ti_wt2_dmna","am":"ደመና","tr":"demena","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"die Wolke","en":"cloud","sv":"moln","nl":"wolk"},"emoji":"☁️","verified":false},
+  {"id":"lex_ti_wt2_tshy","am":"ጸሓያዊ መዓልቲ","tr":"tsehayawi me'alti","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"der Sonnenschein","en":"sunshine","sv":"solsken","nl":"zonneschijn"},"emoji":"☀️","verified":false},
+  {"id":"lex_ti_wt2_ershb","am":"ርስሓት ኣየር","tr":"risihat ayer","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"die Luftfeuchtigkeit","en":"humidity","sv":"luftfuktighet","nl":"luchtvochtigheid"},"emoji":"","verified":false},
+  {"id":"lex_ti_wt2_kilma","am":"ኣየር ጠባይ","tr":"ayer t'ebay","pos":"noun","topic":"weather_more","level":"TI","t":{"de":"das Klima","en":"climate","sv":"klimat","nl":"klimaat"},"emoji":"","verified":false}
+]

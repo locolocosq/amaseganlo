@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_praepositionen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_prp_lely",
+      "lex_ti_prp_taht",
+      "lex_ti_prp_wsti",
+      "lex_ti_prp_ntsg",
+      "lex_ti_prp_qdmt",
+      "lex_ti_prp_dhrt",
+      "lex_ti_prp_mngo",
+      "lex_ti_prp_ztbl",
+      "lex_ti_prp_nbti",
+      "lex_ti_prp_ksab"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_praepositionen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_prp_lely",
+      "lex_ti_prp_taht",
+      "lex_ti_prp_wsti",
+      "lex_ti_prp_ntsg",
+      "lex_ti_prp_qdmt",
+      "lex_ti_prp_dhrt",
+      "lex_ti_prp_mngo",
+      "lex_ti_prp_ztbl",
+      "lex_ti_prp_nbti",
+      "lex_ti_prp_ksab"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_praepositionen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_prp_lely",
+      "lex_ti_prp_taht",
+      "lex_ti_prp_wsti",
+      "lex_ti_prp_ntsg",
+      "lex_ti_prp_qdmt",
+      "lex_ti_prp_dhrt",
+      "lex_ti_prp_mngo",
+      "lex_ti_prp_ztbl",
+      "lex_ti_prp_nbti",
+      "lex_ti_prp_ksab"
+    ],
+    "sentenceIds": [
+      "sen_ti_praepositionen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_praepositionen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_prp_lely",
+      "lex_ti_prp_taht",
+      "lex_ti_prp_wsti",
+      "lex_ti_prp_ntsg",
+      "lex_ti_prp_qdmt",
+      "lex_ti_prp_dhrt",
+      "lex_ti_prp_mngo",
+      "lex_ti_prp_ztbl",
+      "lex_ti_prp_nbti",
+      "lex_ti_prp_ksab"
+    ],
+    "sentenceIds": [
+      "sen_ti_praepositionen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_praepositionen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_prp_lely",
+      "lex_ti_prp_taht",
+      "lex_ti_prp_wsti",
+      "lex_ti_prp_ntsg",
+      "lex_ti_prp_qdmt",
+      "lex_ti_prp_dhrt",
+      "lex_ti_prp_mngo",
+      "lex_ti_prp_ztbl",
+      "lex_ti_prp_nbti",
+      "lex_ti_prp_ksab"
+    ],
+    "sentenceIds": [
+      "sen_ti_praepositionen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_praepositionen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_prp_lely",
+      "lex_ti_prp_taht",
+      "lex_ti_prp_wsti",
+      "lex_ti_prp_ntsg",
+      "lex_ti_prp_qdmt",
+      "lex_ti_prp_dhrt",
+      "lex_ti_prp_mngo",
+      "lex_ti_prp_ztbl",
+      "lex_ti_prp_nbti",
+      "lex_ti_prp_ksab"
+    ],
+    "sentenceIds": [
+      "sen_ti_praepositionen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

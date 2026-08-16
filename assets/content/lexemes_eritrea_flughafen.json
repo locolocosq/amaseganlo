@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_fh_gate","am":"ደገ በረራ","tr":"dege berera","pos":"noun","topic":"airport","level":"TI","t":{"de":"das Gate, der Flugsteig","en":"gate (airport)","sv":"gate (flygplats)","nl":"gate (luchthaven)"},"emoji":"🚪","verified":false},
+  {"id":"lex_ti_fh_bord","am":"ናይ በረራ ካርድ","tr":"nay berera kardi","pos":"noun","topic":"airport","level":"TI","t":{"de":"die Bordkarte","en":"boarding pass","sv":"boardingkort","nl":"instapkaart"},"emoji":"🎫","verified":false},
+  {"id":"lex_ti_fh_dely","am":"ደንጓዪ በረራ","tr":"dengway berera","pos":"noun","topic":"airport","level":"TI","t":{"de":"die Verspätung","en":"delay","sv":"försening","nl":"vertraging"},"emoji":"","verified":false},
+  {"id":"lex_ti_fh_lggg","am":"ሳንጣ ጉዕዞ","tr":"santa gu'ezo","pos":"noun","topic":"airport","level":"TI","t":{"de":"das Gepäck","en":"luggage","sv":"bagage","nl":"bagage"},"emoji":"🧳","verified":false},
+  {"id":"lex_ti_fh_secck","am":"ምርመራ ድሕነት","tr":"mirmera dihinet","pos":"noun","topic":"airport","level":"TI","t":{"de":"die Sicherheitskontrolle","en":"security check","sv":"säkerhetskontroll","nl":"veiligheidscontrole"},"emoji":"","verified":false},
+  {"id":"lex_ti_fh_lnd","am":"ኣዕረፈት","tr":"a'erefet","pos":"verb","topic":"airport","level":"TI","t":{"de":"landen","en":"to land","sv":"att landa","nl":"landen"},"emoji":"🛬","verified":false},
+  {"id":"lex_ti_fh_tkoff","am":"በረረት","tr":"bereret","pos":"verb","topic":"airport","level":"TI","t":{"de":"abheben (Flugzeug)","en":"to take off","sv":"att lyfta (flygplan)","nl":"opstijgen"},"emoji":"🛫","verified":false}
+]

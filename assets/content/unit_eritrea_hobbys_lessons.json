@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_hobbys_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_hby_ntbb",
+      "lex_ti_hby_ssla",
+      "lex_ti_hby_zfen2",
+      "lex_ti_hby_cnq",
+      "lex_ti_hby_msyq",
+      "lex_ti_hby_gzti",
+      "lex_ti_hby_msht",
+      "lex_ti_hby_msbh",
+      "lex_ti_hby_mbsl",
+      "lex_ti_hby_gzti2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_hobbys_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_hby_ntbb",
+      "lex_ti_hby_ssla",
+      "lex_ti_hby_zfen2",
+      "lex_ti_hby_cnq",
+      "lex_ti_hby_msyq",
+      "lex_ti_hby_gzti",
+      "lex_ti_hby_msht",
+      "lex_ti_hby_msbh",
+      "lex_ti_hby_mbsl",
+      "lex_ti_hby_gzti2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_hobbys_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_hby_ntbb",
+      "lex_ti_hby_ssla",
+      "lex_ti_hby_zfen2",
+      "lex_ti_hby_cnq",
+      "lex_ti_hby_msyq",
+      "lex_ti_hby_gzti",
+      "lex_ti_hby_msht",
+      "lex_ti_hby_msbh",
+      "lex_ti_hby_mbsl",
+      "lex_ti_hby_gzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_hobbys_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_hobbys_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_hby_ntbb",
+      "lex_ti_hby_ssla",
+      "lex_ti_hby_zfen2",
+      "lex_ti_hby_cnq",
+      "lex_ti_hby_msyq",
+      "lex_ti_hby_gzti",
+      "lex_ti_hby_msht",
+      "lex_ti_hby_msbh",
+      "lex_ti_hby_mbsl",
+      "lex_ti_hby_gzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_hobbys_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_hobbys_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_hby_ntbb",
+      "lex_ti_hby_ssla",
+      "lex_ti_hby_zfen2",
+      "lex_ti_hby_cnq",
+      "lex_ti_hby_msyq",
+      "lex_ti_hby_gzti",
+      "lex_ti_hby_msht",
+      "lex_ti_hby_msbh",
+      "lex_ti_hby_mbsl",
+      "lex_ti_hby_gzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_hobbys_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_hobbys_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_hby_ntbb",
+      "lex_ti_hby_ssla",
+      "lex_ti_hby_zfen2",
+      "lex_ti_hby_cnq",
+      "lex_ti_hby_msyq",
+      "lex_ti_hby_gzti",
+      "lex_ti_hby_msht",
+      "lex_ti_hby_msbh",
+      "lex_ti_hby_mbsl",
+      "lex_ti_hby_gzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_hobbys_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]
