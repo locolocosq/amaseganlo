@@ -22,22 +22,22 @@
   },
   {
     "id": "sen_gen_v_sehen",
-    "am": "ማየት እፈልጋለሁ።",
-    "tr": "mayet ifeligalehu.",
+    "am": "ማየት እወዳለሁ።",
+    "tr": "mayet iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_sehen"
     ],
     "t": {
-      "de": "Ich möchte sehen.",
-      "en": "I want to see.",
-      "sv": "Jag vill se.",
-      "nl": "Ik wil zien."
+      "de": "Sehen mag ich.",
+      "en": "I like to see.",
+      "sv": "Jag gillar att se.",
+      "nl": "Ik hou van zien."
     },
     "alt": {},
     "chunks": [
       "mayet",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -166,43 +166,43 @@
   },
   {
     "id": "sen_gen_ohr",
-    "am": "ጆሮ አለ።",
-    "tr": "joro ale.",
+    "am": "ጆሮ አለኝ።",
+    "tr": "joro alegn.",
     "level": "A2",
     "uses": [
       "lex_ohr"
     ],
     "t": {
-      "de": "das Ohr ist vorhanden.",
-      "en": "There is ear.",
-      "sv": "Det finns öra.",
-      "nl": "Er is oor."
+      "de": "Ich habe das Ohr.",
+      "en": "I have ear.",
+      "sv": "Jag har öra.",
+      "nl": "Ik heb oor."
     },
     "alt": {},
     "chunks": [
       "joro",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_nase",
-    "am": "አፍንጫ አለ።",
-    "tr": "afincha ale.",
+    "am": "አፍንጫ እወዳለሁ።",
+    "tr": "afincha iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_nase"
     ],
     "t": {
-      "de": "die Nase ist vorhanden.",
-      "en": "There is nose.",
-      "sv": "Det finns näsa.",
-      "nl": "Er is neus."
+      "de": "Ich mag die Nase.",
+      "en": "I like nose.",
+      "sv": "Jag gillar näsa.",
+      "nl": "Ik hou van neus."
     },
     "alt": {},
     "chunks": [
       "afincha",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -229,43 +229,43 @@
   },
   {
     "id": "sen_gen_buero",
-    "am": "ቢሮ አለ።",
-    "tr": "biro ale.",
+    "am": "ቢሮ አለኝ።",
+    "tr": "biro alegn.",
     "level": "A2",
     "uses": [
       "lex_buero"
     ],
     "t": {
-      "de": "das Büro ist vorhanden.",
-      "en": "There is office.",
-      "sv": "Det finns kontor.",
-      "nl": "Er is kantoor."
+      "de": "Ich habe das Büro.",
+      "en": "I have office.",
+      "sv": "Jag har kontor.",
+      "nl": "Ik heb kantoor."
     },
     "alt": {},
     "chunks": [
       "biro",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_lehrer",
-    "am": "አስተማሪ አለ።",
-    "tr": "astemari ale.",
+    "am": "አስተማሪ እወዳለሁ።",
+    "tr": "astemari iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_lehrer"
     ],
     "t": {
-      "de": "der Lehrer, die Lehrerin ist vorhanden.",
-      "en": "There is teacher.",
-      "sv": "Det finns lärare.",
-      "nl": "Er is leraar."
+      "de": "Ich mag der Lehrer, die Lehrerin.",
+      "en": "I like teacher.",
+      "sv": "Jag gillar lärare.",
+      "nl": "Ik hou van leraar."
     },
     "alt": {},
     "chunks": [
       "astemari",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -292,43 +292,43 @@
   },
   {
     "id": "sen_gen_taxi",
-    "am": "ታክሲ አለ።",
-    "tr": "taksi ale.",
+    "am": "ታክሲ አለኝ።",
+    "tr": "taksi alegn.",
     "level": "A2",
     "uses": [
       "lex_taxi"
     ],
     "t": {
-      "de": "das Taxi ist vorhanden.",
-      "en": "There is taxi.",
-      "sv": "Det finns taxi.",
-      "nl": "Er is taxi."
+      "de": "Ich habe das Taxi.",
+      "en": "I have taxi.",
+      "sv": "Jag har taxi.",
+      "nl": "Ik heb taxi."
     },
     "alt": {},
     "chunks": [
       "taksi",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_ticket",
-    "am": "ትኬት አለ።",
-    "tr": "tiket ale.",
+    "am": "ትኬት እወዳለሁ።",
+    "tr": "tiket iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_ticket"
     ],
     "t": {
-      "de": "das Ticket, die Fahrkarte ist vorhanden.",
-      "en": "There is ticket.",
-      "sv": "Det finns biljett.",
-      "nl": "Er is ticket."
+      "de": "Ich mag das Ticket, die Fahrkarte.",
+      "en": "I like ticket.",
+      "sv": "Jag gillar biljett.",
+      "nl": "Ik hou van ticket."
     },
     "alt": {},
     "chunks": [
       "tiket",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -376,43 +376,43 @@
   },
   {
     "id": "sen_gen_wind",
-    "am": "ነፋስ አለ።",
-    "tr": "nefas ale.",
+    "am": "ነፋስ አለኝ።",
+    "tr": "nefas alegn.",
     "level": "A2",
     "uses": [
       "lex_wind"
     ],
     "t": {
-      "de": "der Wind ist vorhanden.",
-      "en": "There is wind.",
-      "sv": "Det finns vind.",
-      "nl": "Er is wind."
+      "de": "Ich habe der Wind.",
+      "en": "I have wind.",
+      "sv": "Jag har vind.",
+      "nl": "Ik heb wind."
     },
     "alt": {},
     "chunks": [
       "nefas",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_berg",
-    "am": "ተራራ አለ።",
-    "tr": "terara ale.",
+    "am": "ተራራ እወዳለሁ።",
+    "tr": "terara iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_berg"
     ],
     "t": {
-      "de": "der Berg ist vorhanden.",
-      "en": "There is mountain.",
-      "sv": "Det finns berg.",
-      "nl": "Er is berg."
+      "de": "Ich mag der Berg.",
+      "en": "I like mountain.",
+      "sv": "Jag gillar berg.",
+      "nl": "Ik hou van berg."
     },
     "alt": {},
     "chunks": [
       "terara",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -439,43 +439,43 @@
   },
   {
     "id": "sen_gen_fahrer",
-    "am": "ሹፌር አለ።",
-    "tr": "shoferr ale.",
+    "am": "ሹፌር አለኝ።",
+    "tr": "shoferr alegn.",
     "level": "A2",
     "uses": [
       "lex_fahrer"
     ],
     "t": {
-      "de": "der Fahrer ist vorhanden.",
-      "en": "There is driver.",
-      "sv": "Det finns förare.",
-      "nl": "Er is chauffeur."
+      "de": "Ich habe der Fahrer.",
+      "en": "I have driver.",
+      "sv": "Jag har förare.",
+      "nl": "Ik heb chauffeur."
     },
     "alt": {},
     "chunks": [
       "shoferr",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_ingenieur",
-    "am": "ኢንጂነር አለ።",
-    "tr": "injinerr ale.",
+    "am": "ኢንጂነር እወዳለሁ።",
+    "tr": "injinerr iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_ingenieur"
     ],
     "t": {
-      "de": "der Ingenieur ist vorhanden.",
-      "en": "There is engineer.",
-      "sv": "Det finns ingenjör.",
-      "nl": "Er is ingenieur."
+      "de": "Ich mag der Ingenieur.",
+      "en": "I like engineer.",
+      "sv": "Jag gillar ingenjör.",
+      "nl": "Ik hou van ingenieur."
     },
     "alt": {},
     "chunks": [
       "injinerr",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -544,43 +544,43 @@
   },
   {
     "id": "sen_gen_film",
-    "am": "ፊልም አለ።",
-    "tr": "film ale.",
+    "am": "ፊልም አለኝ።",
+    "tr": "film alegn.",
     "level": "A2",
     "uses": [
       "lex_film"
     ],
     "t": {
-      "de": "der Film ist vorhanden.",
-      "en": "There is film, movie.",
-      "sv": "Det finns film.",
-      "nl": "Er is film."
+      "de": "Ich habe der Film.",
+      "en": "I have film, movie.",
+      "sv": "Jag har film.",
+      "nl": "Ik heb film."
     },
     "alt": {},
     "chunks": [
       "film",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_radio",
-    "am": "ራድዮ አለ።",
-    "tr": "radiyo ale.",
+    "am": "ራድዮ እወዳለሁ።",
+    "tr": "radiyo iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_radio"
     ],
     "t": {
-      "de": "das Radio ist vorhanden.",
-      "en": "There is radio.",
-      "sv": "Det finns radio.",
-      "nl": "Er is radio."
+      "de": "Ich mag das Radio.",
+      "en": "I like radio.",
+      "sv": "Jag gillar radio.",
+      "nl": "Ik hou van radio."
     },
     "alt": {},
     "chunks": [
       "radiyo",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -608,43 +608,43 @@
   },
   {
     "id": "sen_gen_sauber",
-    "am": "እሱ ንጹህ ነው።",
-    "tr": "issu nitsuh new.",
+    "am": "እሷ ንጹህ ናት።",
+    "tr": "iswa nitsuh nat.",
     "level": "A2",
     "uses": [
       "lex_sauber"
     ],
     "t": {
-      "de": "Er ist sauber.",
-      "en": "He is clean.",
-      "sv": "Han är ren.",
-      "nl": "Hij is schoon."
+      "de": "Sie ist sauber.",
+      "en": "She is clean.",
+      "sv": "Hon är ren.",
+      "nl": "Zij is schoon."
     },
     "alt": {},
     "chunks": [
-      "issu",
+      "iswa",
       "nitsuh",
-      "new."
+      "nat."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_schmutzig",
-    "am": "እሱ ቆሻሻ ነው።",
-    "tr": "issu k'oshasha new.",
+    "am": "በጣም ቆሻሻ ነው።",
+    "tr": "bet'am k'oshasha new.",
     "level": "A2",
     "uses": [
       "lex_schmutzig"
     ],
     "t": {
-      "de": "Er ist schmutzig.",
-      "en": "He is dirty.",
-      "sv": "Han är smutsig.",
-      "nl": "Hij is vuil."
+      "de": "Es ist sehr schmutzig.",
+      "en": "It is very dirty.",
+      "sv": "Det är mycket smutsig.",
+      "nl": "Het is heel vuil."
     },
     "alt": {},
     "chunks": [
-      "issu",
+      "bet'am",
       "k'oshasha",
       "new."
     ],
@@ -695,43 +695,43 @@
   },
   {
     "id": "sen_gen_schweden",
-    "am": "ስዊድን አለ።",
-    "tr": "swidin ale.",
+    "am": "ስዊድን አለኝ።",
+    "tr": "swidin alegn.",
     "level": "A2",
     "uses": [
       "lex_schweden"
     ],
     "t": {
-      "de": "Schweden ist vorhanden.",
-      "en": "There is Sweden.",
-      "sv": "Det finns Sverige.",
-      "nl": "Er is Zweden."
+      "de": "Ich habe Schweden.",
+      "en": "I have Sweden.",
+      "sv": "Jag har Sverige.",
+      "nl": "Ik heb Zweden."
     },
     "alt": {},
     "chunks": [
       "swidin",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_niederlande",
-    "am": "ሆላንድ አለ።",
-    "tr": "holand ale.",
+    "am": "ሆላንድ እወዳለሁ።",
+    "tr": "holand iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_niederlande"
     ],
     "t": {
-      "de": "die Niederlande, Holland ist vorhanden.",
-      "en": "There is the Netherlands, Holland.",
-      "sv": "Det finns Nederländerna, Holland.",
-      "nl": "Er is Nederland, Holland."
+      "de": "Ich mag die Niederlande, Holland.",
+      "en": "I like the Netherlands, Holland.",
+      "sv": "Jag gillar Nederländerna, Holland.",
+      "nl": "Ik hou van Nederland, Holland."
     },
     "alt": {},
     "chunks": [
       "holand",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -779,22 +779,22 @@
   },
   {
     "id": "sen_gen_v_tragen",
-    "am": "መሸከም እፈልጋለሁ።",
-    "tr": "meshekem ifeligalehu.",
+    "am": "መሸከም እወዳለሁ።",
+    "tr": "meshekem iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_tragen"
     ],
     "t": {
-      "de": "Ich möchte tragen.",
-      "en": "I want to carry.",
-      "sv": "Jag vill bära.",
-      "nl": "Ik wil dragen."
+      "de": "Tragen mag ich.",
+      "en": "I like to carry.",
+      "sv": "Jag gillar att bära.",
+      "nl": "Ik hou van dragen."
     },
     "alt": {},
     "chunks": [
       "meshekem",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -821,22 +821,22 @@
   },
   {
     "id": "sen_gen_v_fallen",
-    "am": "መውደቅ እፈልጋለሁ።",
-    "tr": "mewdek' ifeligalehu.",
+    "am": "መውደቅ እወዳለሁ።",
+    "tr": "mewdek' iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_fallen"
     ],
     "t": {
-      "de": "Ich möchte fallen.",
-      "en": "I want to fall.",
-      "sv": "Jag vill falla.",
-      "nl": "Ik wil vallen."
+      "de": "Fallen mag ich.",
+      "en": "I like to fall.",
+      "sv": "Jag gillar att falla.",
+      "nl": "Ik hou van vallen."
     },
     "alt": {},
     "chunks": [
       "mewdek'",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -884,43 +884,43 @@
   },
   {
     "id": "sen_gen_stein",
-    "am": "ድንጋይ አለ።",
-    "tr": "dingay ale.",
+    "am": "ድንጋይ አለኝ።",
+    "tr": "dingay alegn.",
     "level": "A2",
     "uses": [
       "lex_stein"
     ],
     "t": {
-      "de": "der Stein ist vorhanden.",
-      "en": "There is stone.",
-      "sv": "Det finns sten.",
-      "nl": "Er is steen."
+      "de": "Ich habe der Stein.",
+      "en": "I have stone.",
+      "sv": "Jag har sten.",
+      "nl": "Ik heb steen."
     },
     "alt": {},
     "chunks": [
       "dingay",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_eisen",
-    "am": "ብረት አለ።",
-    "tr": "biret ale.",
+    "am": "ብረት እወዳለሁ።",
+    "tr": "biret iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_eisen"
     ],
     "t": {
-      "de": "das Eisen, Metall ist vorhanden.",
-      "en": "There is iron, metal.",
-      "sv": "Det finns järn, metall.",
-      "nl": "Er is ijzer, metaal."
+      "de": "Ich mag das Eisen, Metall.",
+      "en": "I like iron, metal.",
+      "sv": "Jag gillar järn, metall.",
+      "nl": "Ik hou van ijzer, metaal."
     },
     "alt": {},
     "chunks": [
       "biret",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -989,22 +989,22 @@
   },
   {
     "id": "sen_gen_v_aufhoeren",
-    "am": "ማቆም እፈልጋለሁ።",
-    "tr": "mak'om ifeligalehu.",
+    "am": "ማቆም እወዳለሁ።",
+    "tr": "mak'om iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_aufhoeren"
     ],
     "t": {
-      "de": "Ich möchte aufhören, anhalten.",
-      "en": "I want to stop.",
-      "sv": "Jag vill sluta, stanna.",
-      "nl": "Ik wil stoppen."
+      "de": "Aufhören, anhalten mag ich.",
+      "en": "I like to stop.",
+      "sv": "Jag gillar att sluta, stanna.",
+      "nl": "Ik hou van stoppen."
     },
     "alt": {},
     "chunks": [
       "mak'om",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1031,22 +1031,22 @@
   },
   {
     "id": "sen_gen_v_verlieren",
-    "am": "ማጣት እፈልጋለሁ።",
-    "tr": "mat'at ifeligalehu.",
+    "am": "ማጣት እወዳለሁ።",
+    "tr": "mat'at iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_verlieren"
     ],
     "t": {
-      "de": "Ich möchte verlieren.",
-      "en": "I want to lose.",
-      "sv": "Jag vill förlora.",
-      "nl": "Ik wil verliezen."
+      "de": "Verlieren mag ich.",
+      "en": "I like to lose.",
+      "sv": "Jag gillar att förlora.",
+      "nl": "Ik hou van verliezen."
     },
     "alt": {},
     "chunks": [
       "mat'at",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1094,43 +1094,43 @@
   },
   {
     "id": "sen_gen_internet",
-    "am": "ኢንተርኔት አለ።",
-    "tr": "internet ale.",
+    "am": "ኢንተርኔት አለኝ።",
+    "tr": "internet alegn.",
     "level": "A2",
     "uses": [
       "lex_internet"
     ],
     "t": {
-      "de": "das Internet ist vorhanden.",
-      "en": "There is internet.",
-      "sv": "Det finns internet.",
-      "nl": "Er is internet."
+      "de": "Ich habe das Internet.",
+      "en": "I have internet.",
+      "sv": "Jag har internet.",
+      "nl": "Ik heb internet."
     },
     "alt": {},
     "chunks": [
       "internet",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_email",
-    "am": "ኢሜል አለ።",
-    "tr": "imayl ale.",
+    "am": "ኢሜል እወዳለሁ።",
+    "tr": "imayl iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_email"
     ],
     "t": {
-      "de": "die E-Mail ist vorhanden.",
-      "en": "There is email.",
-      "sv": "Det finns e-post.",
-      "nl": "Er is e-mail."
+      "de": "Ich mag die E-Mail.",
+      "en": "I like email.",
+      "sv": "Jag gillar e-post.",
+      "nl": "Ik hou van e-mail."
     },
     "alt": {},
     "chunks": [
       "imayl",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1157,22 +1157,22 @@
   },
   {
     "id": "sen_gen_batterie",
-    "am": "ባትሪ አለ።",
-    "tr": "batri ale.",
+    "am": "ባትሪ አለኝ።",
+    "tr": "batri alegn.",
     "level": "A2",
     "uses": [
       "lex_batterie"
     ],
     "t": {
-      "de": "die Batterie ist vorhanden.",
-      "en": "There is battery.",
-      "sv": "Det finns batteri.",
-      "nl": "Er is batterij."
+      "de": "Ich habe die Batterie.",
+      "en": "I have battery.",
+      "sv": "Jag har batteri.",
+      "nl": "Ik heb batterij."
     },
     "alt": {},
     "chunks": [
       "batri",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -1199,43 +1199,43 @@
   },
   {
     "id": "sen_gen_verletzung",
-    "am": "ጉዳት አለ።",
-    "tr": "gudat ale.",
+    "am": "ጉዳት አለኝ።",
+    "tr": "gudat alegn.",
     "level": "A2",
     "uses": [
       "lex_verletzung"
     ],
     "t": {
-      "de": "die Verletzung ist vorhanden.",
-      "en": "There is injury.",
-      "sv": "Det finns skada.",
-      "nl": "Er is verwonding."
+      "de": "Ich habe die Verletzung.",
+      "en": "I have injury.",
+      "sv": "Jag har skada.",
+      "nl": "Ik heb verwonding."
     },
     "alt": {},
     "chunks": [
       "gudat",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_unfall",
-    "am": "አደጋ አለ።",
-    "tr": "adega ale.",
+    "am": "አደጋ እወዳለሁ።",
+    "tr": "adega iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_unfall"
     ],
     "t": {
-      "de": "der Unfall ist vorhanden.",
-      "en": "There is accident.",
-      "sv": "Det finns olycka.",
-      "nl": "Er is ongeluk."
+      "de": "Ich mag der Unfall.",
+      "en": "I like accident.",
+      "sv": "Jag gillar olycka.",
+      "nl": "Ik hou van ongeluk."
     },
     "alt": {},
     "chunks": [
       "adega",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1263,22 +1263,22 @@
   },
   {
     "id": "sen_gen_wueste",
-    "am": "በረሃ አለ።",
-    "tr": "bereha ale.",
+    "am": "በረሃ አለኝ።",
+    "tr": "bereha alegn.",
     "level": "A2",
     "uses": [
       "lex_wueste"
     ],
     "t": {
-      "de": "die Wüste ist vorhanden.",
-      "en": "There is desert.",
-      "sv": "Det finns öken.",
-      "nl": "Er is woestijn."
+      "de": "Ich habe die Wüste.",
+      "en": "I have desert.",
+      "sv": "Jag har öken.",
+      "nl": "Ik heb woestijn."
     },
     "alt": {},
     "chunks": [
       "bereha",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -1327,22 +1327,22 @@
   },
   {
     "id": "sen_gen_v_besorgt",
-    "am": "መጨነቅ እፈልጋለሁ።",
-    "tr": "mechenek' ifeligalehu.",
+    "am": "መጨነቅ እወዳለሁ።",
+    "tr": "mechenek' iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_besorgt"
     ],
     "t": {
-      "de": "Ich möchte besorgt sein, sich sorgen.",
-      "en": "I want to worry.",
-      "sv": "Jag vill oroa sig.",
-      "nl": "Ik wil zich zorgen maken."
+      "de": "Besorgt sein, sich sorgen mag ich.",
+      "en": "I like to worry.",
+      "sv": "Jag gillar att oroa sig.",
+      "nl": "Ik hou van zich zorgen maken."
     },
     "alt": {},
     "chunks": [
       "mechenek'",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1412,43 +1412,43 @@
   },
   {
     "id": "sen_gen_faul",
-    "am": "እሱ ስንፍተኛ ነው።",
-    "tr": "issu sinfitegna new.",
+    "am": "እሷ ስንፍተኛ ናት።",
+    "tr": "iswa sinfitegna nat.",
     "level": "A2",
     "uses": [
       "lex_faul"
     ],
     "t": {
-      "de": "Er ist faul.",
-      "en": "He is lazy.",
-      "sv": "Han är lat.",
-      "nl": "Hij is lui."
+      "de": "Sie ist faul.",
+      "en": "She is lazy.",
+      "sv": "Hon är lat.",
+      "nl": "Zij is lui."
     },
     "alt": {},
     "chunks": [
-      "issu",
+      "iswa",
       "sinfitegna",
-      "new."
+      "nat."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_fleissig",
-    "am": "እሱ ታታሪ ነው።",
-    "tr": "issu tatari new.",
+    "am": "በጣም ታታሪ ነው።",
+    "tr": "bet'am tatari new.",
     "level": "A2",
     "uses": [
       "lex_fleissig"
     ],
     "t": {
-      "de": "Er ist fleißig.",
-      "en": "He is hardworking.",
-      "sv": "Han är flitig.",
-      "nl": "Hij is hardwerkend."
+      "de": "Es ist sehr fleißig.",
+      "en": "It is very hardworking.",
+      "sv": "Det är mycket flitig.",
+      "nl": "Het is heel hardwerkend."
     },
     "alt": {},
     "chunks": [
-      "issu",
+      "bet'am",
       "tatari",
       "new."
     ],
@@ -1478,23 +1478,23 @@
   },
   {
     "id": "sen_gen_grossherzig",
-    "am": "እሱ ቸር ነው።",
-    "tr": "issu cher new.",
+    "am": "እሷ ቸር ናት።",
+    "tr": "iswa cher nat.",
     "level": "A2",
     "uses": [
       "lex_grossherzig"
     ],
     "t": {
-      "de": "Er ist großherzig, gütig.",
-      "en": "He is generous, kind.",
-      "sv": "Han är generös.",
-      "nl": "Hij is gul."
+      "de": "Sie ist großherzig, gütig.",
+      "en": "She is generous, kind.",
+      "sv": "Hon är generös.",
+      "nl": "Zij is gul."
     },
     "alt": {},
     "chunks": [
-      "issu",
+      "iswa",
       "cher",
-      "new."
+      "nat."
     ],
     "verified": false
   },
@@ -1521,44 +1521,44 @@
   },
   {
     "id": "sen_gen_priester",
-    "am": "ቄስ አለ።",
-    "tr": "k'es ale.",
+    "am": "ቄስ አለኝ።",
+    "tr": "k'es alegn.",
     "level": "A2",
     "uses": [
       "lex_priester"
     ],
     "t": {
-      "de": "der Priester ist vorhanden.",
-      "en": "There is priest.",
-      "sv": "Det finns präst.",
-      "nl": "Er is priester."
+      "de": "Ich habe der Priester.",
+      "en": "I have priest.",
+      "sv": "Jag har präst.",
+      "nl": "Ik heb priester."
     },
     "alt": {},
     "chunks": [
       "k'es",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_schneider",
-    "am": "ልብስ ስፌት አለ።",
-    "tr": "libs sifet ale.",
+    "am": "ልብስ ስፌት እወዳለሁ።",
+    "tr": "libs sifet iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_schneider"
     ],
     "t": {
-      "de": "der Schneider ist vorhanden.",
-      "en": "There is tailor.",
-      "sv": "Det finns skräddare.",
-      "nl": "Er is kleermaker."
+      "de": "Ich mag der Schneider.",
+      "en": "I like tailor.",
+      "sv": "Jag gillar skräddare.",
+      "nl": "Ik hou van kleermaker."
     },
     "alt": {},
     "chunks": [
       "libs",
       "sifet",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1586,22 +1586,22 @@
   },
   {
     "id": "sen_gen_sekretaer",
-    "am": "ፀሐፊ አለ።",
-    "tr": "tsehafi ale.",
+    "am": "ፀሐፊ አለኝ።",
+    "tr": "tsehafi alegn.",
     "level": "A2",
     "uses": [
       "lex_sekretaer"
     ],
     "t": {
-      "de": "der/die Sekretär(in) ist vorhanden.",
-      "en": "There is secretary.",
-      "sv": "Det finns sekreterare.",
-      "nl": "Er is secretaresse."
+      "de": "Ich habe der/die Sekretär(in).",
+      "en": "I have secretary.",
+      "sv": "Jag har sekreterare.",
+      "nl": "Ik heb secretaresse."
     },
     "alt": {},
     "chunks": [
       "tsehafi",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -1628,44 +1628,44 @@
   },
   {
     "id": "sen_gen_quittung",
-    "am": "ደረሰኝ አለ።",
-    "tr": "deresegn ale.",
+    "am": "ደረሰኝ አለኝ።",
+    "tr": "deresegn alegn.",
     "level": "A2",
     "uses": [
       "lex_quittung"
     ],
     "t": {
-      "de": "die Quittung ist vorhanden.",
-      "en": "There is receipt.",
-      "sv": "Det finns kvitto.",
-      "nl": "Er is bon."
+      "de": "Ich habe die Quittung.",
+      "en": "I have receipt.",
+      "sv": "Jag har kvitto.",
+      "nl": "Ik heb bon."
     },
     "alt": {},
     "chunks": [
       "deresegn",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_bargeld",
-    "am": "ጥሬ ገንዘብ አለ።",
-    "tr": "t'ire genzeb ale.",
+    "am": "ጥሬ ገንዘብ እወዳለሁ።",
+    "tr": "t'ire genzeb iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_bargeld"
     ],
     "t": {
-      "de": "das Bargeld ist vorhanden.",
-      "en": "There is cash.",
-      "sv": "Det finns kontanter.",
-      "nl": "Er is contant geld."
+      "de": "Ich mag das Bargeld.",
+      "en": "I like cash.",
+      "sv": "Jag gillar kontanter.",
+      "nl": "Ik hou van contant geld."
     },
     "alt": {},
     "chunks": [
       "t'ire",
       "genzeb",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1693,23 +1693,23 @@
   },
   {
     "id": "sen_gen_geldbeutel",
-    "am": "ቦርሳ ገንዘብ አለ።",
-    "tr": "borsa genzeb ale.",
+    "am": "ቦርሳ ገንዘብ አለኝ።",
+    "tr": "borsa genzeb alegn.",
     "level": "A2",
     "uses": [
       "lex_geldbeutel"
     ],
     "t": {
-      "de": "der Geldbeutel ist vorhanden.",
-      "en": "There is wallet.",
-      "sv": "Det finns plånbok.",
-      "nl": "Er is portemonnee."
+      "de": "Ich habe der Geldbeutel.",
+      "en": "I have wallet.",
+      "sv": "Jag har plånbok.",
+      "nl": "Ik heb portemonnee."
     },
     "alt": {},
     "chunks": [
       "borsa",
       "genzeb",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -1737,44 +1737,44 @@
   },
   {
     "id": "sen_gen_fahrkarte",
-    "am": "ትኬት አለ።",
-    "tr": "tiket ale.",
+    "am": "ትኬት አለኝ።",
+    "tr": "tiket alegn.",
     "level": "A2",
     "uses": [
       "lex_fahrkarte"
     ],
     "t": {
-      "de": "die Fahrkarte, das Ticket ist vorhanden.",
-      "en": "There is ticket.",
-      "sv": "Det finns biljett.",
-      "nl": "Er is ticket."
+      "de": "Ich habe die Fahrkarte, das Ticket.",
+      "en": "I have ticket.",
+      "sv": "Jag har biljett.",
+      "nl": "Ik heb ticket."
     },
     "alt": {},
     "chunks": [
       "tiket",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_bushaltestelle",
-    "am": "የአውቶብስ ማቆሚያ አለ።",
-    "tr": "yeawtobis mak'omiya ale.",
+    "am": "የአውቶብስ ማቆሚያ እወዳለሁ።",
+    "tr": "yeawtobis mak'omiya iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_bushaltestelle"
     ],
     "t": {
-      "de": "die Bushaltestelle ist vorhanden.",
-      "en": "There is bus stop.",
-      "sv": "Det finns busshållplats.",
-      "nl": "Er is bushalte."
+      "de": "Ich mag die Bushaltestelle.",
+      "en": "I like bus stop.",
+      "sv": "Jag gillar busshållplats.",
+      "nl": "Ik hou van bushalte."
     },
     "alt": {},
     "chunks": [
       "yeawtobis",
       "mak'omiya",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1802,23 +1802,23 @@
   },
   {
     "id": "sen_gen_tankstelle",
-    "am": "ነዳጅ ማደያ አለ።",
-    "tr": "nedaj madeya ale.",
+    "am": "ነዳጅ ማደያ አለኝ።",
+    "tr": "nedaj madeya alegn.",
     "level": "A2",
     "uses": [
       "lex_tankstelle"
     ],
     "t": {
-      "de": "die Tankstelle ist vorhanden.",
-      "en": "There is gas station.",
-      "sv": "Det finns bensinstation.",
-      "nl": "Er is tankstation."
+      "de": "Ich habe die Tankstelle.",
+      "en": "I have gas station.",
+      "sv": "Jag har bensinstation.",
+      "nl": "Ik heb tankstation."
     },
     "alt": {},
     "chunks": [
       "nedaj",
       "madeya",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -1846,23 +1846,23 @@
   },
   {
     "id": "sen_gen_fern",
-    "am": "እሱ የራቀ ነው።",
-    "tr": "issu yerak'e new.",
+    "am": "እሷ የራቀ ናት።",
+    "tr": "iswa yerak'e nat.",
     "level": "A2",
     "uses": [
       "lex_fern"
     ],
     "t": {
-      "de": "Er ist fern, weit.",
-      "en": "He is far.",
-      "sv": "Han är långt bort.",
-      "nl": "Hij is ver."
+      "de": "Sie ist fern, weit.",
+      "en": "She is far.",
+      "sv": "Hon är långt bort.",
+      "nl": "Zij is ver."
     },
     "alt": {},
     "chunks": [
-      "issu",
+      "iswa",
       "yerak'e",
-      "new."
+      "nat."
     ],
     "verified": false
   },
@@ -1889,45 +1889,45 @@
   },
   {
     "id": "sen_gen_tankstelle_2",
-    "am": "ነዳጅ ማደያ አለ።",
-    "tr": "nedaj madeya ale.",
+    "am": "ነዳጅ ማደያ አለኝ።",
+    "tr": "nedaj madeya alegn.",
     "level": "A2",
     "uses": [
       "lex_tankstelle"
     ],
     "t": {
-      "de": "die Tankstelle ist vorhanden.",
-      "en": "There is gas station.",
-      "sv": "Det finns bensinstation.",
-      "nl": "Er is tankstation."
+      "de": "Ich habe die Tankstelle.",
+      "en": "I have gas station.",
+      "sv": "Jag har bensinstation.",
+      "nl": "Ik heb tankstation."
     },
     "alt": {},
     "chunks": [
       "nedaj",
       "madeya",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_fuehrerschein_2",
-    "am": "የመንጃ ፍቃድ አለ።",
-    "tr": "yemenja fik'ad ale.",
+    "am": "የመንጃ ፍቃድ እወዳለሁ።",
+    "tr": "yemenja fik'ad iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_fuehrerschein"
     ],
     "t": {
-      "de": "der Führerschein ist vorhanden.",
-      "en": "There is driver's license.",
-      "sv": "Det finns körkort.",
-      "nl": "Er is rijbewijs."
+      "de": "Ich mag der Führerschein.",
+      "en": "I like driver's license.",
+      "sv": "Jag gillar körkort.",
+      "nl": "Ik hou van rijbewijs."
     },
     "alt": {},
     "chunks": [
       "yemenja",
       "fik'ad",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -1954,44 +1954,44 @@
   },
   {
     "id": "sen_gen_schwimmen",
-    "am": "ውኃ ዋና አለ።",
-    "tr": "wiha wana ale.",
+    "am": "ውኃ ዋና አለኝ።",
+    "tr": "wiha wana alegn.",
     "level": "A2",
     "uses": [
       "lex_schwimmen"
     ],
     "t": {
-      "de": "das Schwimmen ist vorhanden.",
-      "en": "There is swimming.",
-      "sv": "Det finns simning.",
-      "nl": "Er is zwemmen."
+      "de": "Ich habe das Schwimmen.",
+      "en": "I have swimming.",
+      "sv": "Jag har simning.",
+      "nl": "Ik heb zwemmen."
     },
     "alt": {},
     "chunks": [
       "wiha",
       "wana",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_laufen_sport",
-    "am": "ሩጫ አለ።",
-    "tr": "rucha ale.",
+    "am": "ሩጫ እወዳለሁ።",
+    "tr": "rucha iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_laufen_sport"
     ],
     "t": {
-      "de": "das Laufen (Sport) ist vorhanden.",
-      "en": "There is running.",
-      "sv": "Det finns löpning.",
-      "nl": "Er is hardlopen."
+      "de": "Ich mag das Laufen (Sport).",
+      "en": "I like running.",
+      "sv": "Jag gillar löpning.",
+      "nl": "Ik hou van hardlopen."
     },
     "alt": {},
     "chunks": [
       "rucha",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2018,22 +2018,22 @@
   },
   {
     "id": "sen_gen_tor_sport",
-    "am": "ጎል አለ።",
-    "tr": "gol ale.",
+    "am": "ጎል አለኝ።",
+    "tr": "gol alegn.",
     "level": "A2",
     "uses": [
       "lex_tor_sport"
     ],
     "t": {
-      "de": "das Tor (Sport) ist vorhanden.",
-      "en": "There is goal.",
-      "sv": "Det finns mål.",
-      "nl": "Er is doelpunt."
+      "de": "Ich habe das Tor (Sport).",
+      "en": "I have goal.",
+      "sv": "Jag har mål.",
+      "nl": "Ik heb doelpunt."
     },
     "alt": {},
     "chunks": [
       "gol",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2060,43 +2060,43 @@
   },
   {
     "id": "sen_gen_tal",
-    "am": "ሸለቆ አለ።",
-    "tr": "sheleko' ale.",
+    "am": "ሸለቆ አለኝ።",
+    "tr": "sheleko' alegn.",
     "level": "A2",
     "uses": [
       "lex_tal"
     ],
     "t": {
-      "de": "das Tal ist vorhanden.",
-      "en": "There is valley.",
-      "sv": "Det finns dal.",
-      "nl": "Er is vallei."
+      "de": "Ich habe das Tal.",
+      "en": "I have valley.",
+      "sv": "Jag har dal.",
+      "nl": "Ik heb vallei."
     },
     "alt": {},
     "chunks": [
       "sheleko'",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_insel",
-    "am": "ደሴት አለ።",
-    "tr": "deset ale.",
+    "am": "ደሴት እወዳለሁ።",
+    "tr": "deset iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_insel"
     ],
     "t": {
-      "de": "die Insel ist vorhanden.",
-      "en": "There is island.",
-      "sv": "Det finns ö.",
-      "nl": "Er is eiland."
+      "de": "Ich mag die Insel.",
+      "en": "I like island.",
+      "sv": "Jag gillar ö.",
+      "nl": "Ik hou van eiland."
     },
     "alt": {},
     "chunks": [
       "deset",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2123,22 +2123,22 @@
   },
   {
     "id": "sen_gen_hoehle",
-    "am": "ዋሻ አለ።",
-    "tr": "washa ale.",
+    "am": "ዋሻ አለኝ።",
+    "tr": "washa alegn.",
     "level": "A2",
     "uses": [
       "lex_hoehle"
     ],
     "t": {
-      "de": "die Höhle ist vorhanden.",
-      "en": "There is cave.",
-      "sv": "Det finns grotta.",
-      "nl": "Er is grot."
+      "de": "Ich habe die Höhle.",
+      "en": "I have cave.",
+      "sv": "Jag har grotta.",
+      "nl": "Ik heb grot."
     },
     "alt": {},
     "chunks": [
       "washa",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2165,43 +2165,43 @@
   },
   {
     "id": "sen_gen_samen",
-    "am": "ዘር አለ።",
-    "tr": "zer ale.",
+    "am": "ዘር አለኝ።",
+    "tr": "zer alegn.",
     "level": "A2",
     "uses": [
       "lex_samen"
     ],
     "t": {
-      "de": "der Same(n) ist vorhanden.",
-      "en": "There is seed.",
-      "sv": "Det finns frö.",
-      "nl": "Er is zaad."
+      "de": "Ich habe der Same(n).",
+      "en": "I have seed.",
+      "sv": "Jag har frö.",
+      "nl": "Ik heb zaad."
     },
     "alt": {},
     "chunks": [
       "zer",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_boden_erde",
-    "am": "አፈር አለ።",
-    "tr": "afer ale.",
+    "am": "አፈር እወዳለሁ።",
+    "tr": "afer iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_boden_erde"
     ],
     "t": {
-      "de": "der Boden, die Erde ist vorhanden.",
-      "en": "There is soil.",
-      "sv": "Det finns jord.",
-      "nl": "Er is grond."
+      "de": "Ich mag der Boden, die Erde.",
+      "en": "I like soil.",
+      "sv": "Jag gillar jord.",
+      "nl": "Ik hou van grond."
     },
     "alt": {},
     "chunks": [
       "afer",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2228,22 +2228,22 @@
   },
   {
     "id": "sen_gen_feldfrucht",
-    "am": "ምርት አለ።",
-    "tr": "mirt ale.",
+    "am": "ምርት አለኝ።",
+    "tr": "mirt alegn.",
     "level": "A2",
     "uses": [
       "lex_feldfrucht"
     ],
     "t": {
-      "de": "die Feldfrucht, das Erzeugnis ist vorhanden.",
-      "en": "There is crop.",
-      "sv": "Det finns gröda.",
-      "nl": "Er is gewas."
+      "de": "Ich habe die Feldfrucht, das Erzeugnis.",
+      "en": "I have crop.",
+      "sv": "Jag har gröda.",
+      "nl": "Ik heb gewas."
     },
     "alt": {},
     "chunks": [
       "mirt",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2270,43 +2270,43 @@
   },
   {
     "id": "sen_gen_spritze",
-    "am": "መርፍ አለ።",
-    "tr": "merfe ale.",
+    "am": "መርፍ አለኝ።",
+    "tr": "merfe alegn.",
     "level": "A2",
     "uses": [
       "lex_spritze"
     ],
     "t": {
-      "de": "die Spritze, Injektion ist vorhanden.",
-      "en": "There is injection.",
-      "sv": "Det finns injektion.",
-      "nl": "Er is injectie."
+      "de": "Ich habe die Spritze, Injektion.",
+      "en": "I have injection.",
+      "sv": "Jag har injektion.",
+      "nl": "Ik heb injectie."
     },
     "alt": {},
     "chunks": [
       "merfe",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_verband",
-    "am": "ፋሻ አለ።",
-    "tr": "fasha ale.",
+    "am": "ፋሻ እወዳለሁ።",
+    "tr": "fasha iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_verband"
     ],
     "t": {
-      "de": "der Verband ist vorhanden.",
-      "en": "There is bandage.",
-      "sv": "Det finns bandage.",
-      "nl": "Er is verband."
+      "de": "Ich mag der Verband.",
+      "en": "I like bandage.",
+      "sv": "Jag gillar bandage.",
+      "nl": "Ik hou van verband."
     },
     "alt": {},
     "chunks": [
       "fasha",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2333,22 +2333,22 @@
   },
   {
     "id": "sen_gen_allergie",
-    "am": "አለርጂ አለ።",
-    "tr": "alerji ale.",
+    "am": "አለርጂ አለኝ።",
+    "tr": "alerji alegn.",
     "level": "A2",
     "uses": [
       "lex_allergie"
     ],
     "t": {
-      "de": "die Allergie ist vorhanden.",
-      "en": "There is allergy.",
-      "sv": "Det finns allergi.",
-      "nl": "Er is allergie."
+      "de": "Ich habe die Allergie.",
+      "en": "I have allergy.",
+      "sv": "Jag har allergi.",
+      "nl": "Ik heb allergie."
     },
     "alt": {},
     "chunks": [
       "alerji",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2376,43 +2376,43 @@
   },
   {
     "id": "sen_gen_allergie_2",
-    "am": "አለርጂ አለ።",
-    "tr": "alerji ale.",
+    "am": "አለርጂ አለኝ።",
+    "tr": "alerji alegn.",
     "level": "A2",
     "uses": [
       "lex_allergie"
     ],
     "t": {
-      "de": "die Allergie ist vorhanden.",
-      "en": "There is allergy.",
-      "sv": "Det finns allergi.",
-      "nl": "Er is allergie."
+      "de": "Ich habe die Allergie.",
+      "en": "I have allergy.",
+      "sv": "Jag har allergi.",
+      "nl": "Ik heb allergie."
     },
     "alt": {},
     "chunks": [
       "alerji",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_wunde_2",
-    "am": "ቁስል አለ።",
-    "tr": "k'usil ale.",
+    "am": "ቁስል እወዳለሁ።",
+    "tr": "k'usil iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_wunde"
     ],
     "t": {
-      "de": "die Wunde ist vorhanden.",
-      "en": "There is wound.",
-      "sv": "Det finns sår.",
-      "nl": "Er is wond."
+      "de": "Ich mag die Wunde.",
+      "en": "I like wound.",
+      "sv": "Jag gillar sår.",
+      "nl": "Ik hou van wond."
     },
     "alt": {},
     "chunks": [
       "k'usil",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2439,22 +2439,22 @@
   },
   {
     "id": "sen_gen_spritze_2",
-    "am": "መርፍ አለ።",
-    "tr": "merfe ale.",
+    "am": "መርፍ አለኝ።",
+    "tr": "merfe alegn.",
     "level": "A2",
     "uses": [
       "lex_spritze"
     ],
     "t": {
-      "de": "die Spritze, Injektion ist vorhanden.",
-      "en": "There is injection.",
-      "sv": "Det finns injektion.",
-      "nl": "Er is injectie."
+      "de": "Ich habe die Spritze, Injektion.",
+      "en": "I have injection.",
+      "sv": "Jag har injektion.",
+      "nl": "Ik heb injectie."
     },
     "alt": {},
     "chunks": [
       "merfe",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2482,43 +2482,43 @@
   },
   {
     "id": "sen_gen_allergie_3",
-    "am": "አለርጂ አለ።",
-    "tr": "alerji ale.",
+    "am": "አለርጂ አለኝ።",
+    "tr": "alerji alegn.",
     "level": "A2",
     "uses": [
       "lex_allergie"
     ],
     "t": {
-      "de": "die Allergie ist vorhanden.",
-      "en": "There is allergy.",
-      "sv": "Det finns allergi.",
-      "nl": "Er is allergie."
+      "de": "Ich habe die Allergie.",
+      "en": "I have allergy.",
+      "sv": "Jag har allergi.",
+      "nl": "Ik heb allergie."
     },
     "alt": {},
     "chunks": [
       "alerji",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_wunde_3",
-    "am": "ቁስል አለ።",
-    "tr": "k'usil ale.",
+    "am": "ቁስል እወዳለሁ።",
+    "tr": "k'usil iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_wunde"
     ],
     "t": {
-      "de": "die Wunde ist vorhanden.",
-      "en": "There is wound.",
-      "sv": "Det finns sår.",
-      "nl": "Er is wond."
+      "de": "Ich mag die Wunde.",
+      "en": "I like wound.",
+      "sv": "Jag gillar sår.",
+      "nl": "Ik hou van wond."
     },
     "alt": {},
     "chunks": [
       "k'usil",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2545,22 +2545,22 @@
   },
   {
     "id": "sen_gen_spritze_3",
-    "am": "መርፍ አለ።",
-    "tr": "merfe ale.",
+    "am": "መርፍ አለኝ።",
+    "tr": "merfe alegn.",
     "level": "A2",
     "uses": [
       "lex_spritze"
     ],
     "t": {
-      "de": "die Spritze, Injektion ist vorhanden.",
-      "en": "There is injection.",
-      "sv": "Det finns injektion.",
-      "nl": "Er is injectie."
+      "de": "Ich habe die Spritze, Injektion.",
+      "en": "I have injection.",
+      "sv": "Jag har injektion.",
+      "nl": "Ik heb injectie."
     },
     "alt": {},
     "chunks": [
       "merfe",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2587,22 +2587,22 @@
   },
   {
     "id": "sen_gen_v_klettern",
-    "am": "መውጣት እፈልጋለሁ።",
-    "tr": "mewt'at ifeligalehu.",
+    "am": "መውጣት እወዳለሁ።",
+    "tr": "mewt'at iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_klettern"
     ],
     "t": {
-      "de": "Ich möchte klettern, hinaufsteigen.",
-      "en": "I want to climb.",
-      "sv": "Jag vill klättra.",
-      "nl": "Ik wil klimmen."
+      "de": "Klettern, hinaufsteigen mag ich.",
+      "en": "I like to climb.",
+      "sv": "Jag gillar att klättra.",
+      "nl": "Ik hou van klimmen."
     },
     "alt": {},
     "chunks": [
       "mewt'at",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2629,22 +2629,22 @@
   },
   {
     "id": "sen_gen_v_werfen",
-    "am": "መወርወር እፈልጋለሁ።",
-    "tr": "mewerwer ifeligalehu.",
+    "am": "መወርወር እወዳለሁ።",
+    "tr": "mewerwer iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_werfen"
     ],
     "t": {
-      "de": "Ich möchte werfen.",
-      "en": "I want to throw.",
-      "sv": "Jag vill kasta.",
-      "nl": "Ik wil gooien."
+      "de": "Werfen mag ich.",
+      "en": "I like to throw.",
+      "sv": "Jag gillar att kasta.",
+      "nl": "Ik hou van gooien."
     },
     "alt": {},
     "chunks": [
       "mewerwer",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2692,45 +2692,45 @@
   },
   {
     "id": "sen_gen_schlafsack",
-    "am": "የመተኛ ቦርሳ አለ።",
-    "tr": "yemetegna borsa ale.",
+    "am": "የመተኛ ቦርሳ አለኝ።",
+    "tr": "yemetegna borsa alegn.",
     "level": "A2",
     "uses": [
       "lex_schlafsack"
     ],
     "t": {
-      "de": "der Schlafsack ist vorhanden.",
-      "en": "There is sleeping bag.",
-      "sv": "Det finns sovsäck.",
-      "nl": "Er is slaapzak."
+      "de": "Ich habe der Schlafsack.",
+      "en": "I have sleeping bag.",
+      "sv": "Jag har sovsäck.",
+      "nl": "Ik heb slaapzak."
     },
     "alt": {},
     "chunks": [
       "yemetegna",
       "borsa",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_lagerfeuer",
-    "am": "የካምፕ እሳት አለ።",
-    "tr": "yekamp isat ale.",
+    "am": "የካምፕ እሳት እወዳለሁ።",
+    "tr": "yekamp isat iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_lagerfeuer"
     ],
     "t": {
-      "de": "das Lagerfeuer ist vorhanden.",
-      "en": "There is campfire.",
-      "sv": "Det finns lägereld.",
-      "nl": "Er is kampvuur."
+      "de": "Ich mag das Lagerfeuer.",
+      "en": "I like campfire.",
+      "sv": "Jag gillar lägereld.",
+      "nl": "Ik hou van kampvuur."
     },
     "alt": {},
     "chunks": [
       "yekamp",
       "isat",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2757,23 +2757,23 @@
   },
   {
     "id": "sen_gen_wandern",
-    "am": "የእግር ጉዞ አለ።",
-    "tr": "yeigir guzo ale.",
+    "am": "የእግር ጉዞ አለኝ።",
+    "tr": "yeigir guzo alegn.",
     "level": "A2",
     "uses": [
       "lex_wandern"
     ],
     "t": {
-      "de": "das Wandern ist vorhanden.",
-      "en": "There is hiking.",
-      "sv": "Det finns vandring.",
-      "nl": "Er is wandelen."
+      "de": "Ich habe das Wandern.",
+      "en": "I have hiking.",
+      "sv": "Jag har vandring.",
+      "nl": "Ik heb wandelen."
     },
     "alt": {},
     "chunks": [
       "yeigir",
       "guzo",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2800,43 +2800,43 @@
   },
   {
     "id": "sen_gen_nagel",
-    "am": "ችንካር አለ።",
-    "tr": "chinikar ale.",
+    "am": "ችንካር አለኝ።",
+    "tr": "chinikar alegn.",
     "level": "A2",
     "uses": [
       "lex_nagel"
     ],
     "t": {
-      "de": "der Nagel ist vorhanden.",
-      "en": "There is nail.",
-      "sv": "Det finns spik.",
-      "nl": "Er is spijker."
+      "de": "Ich habe der Nagel.",
+      "en": "I have nail.",
+      "sv": "Jag har spik.",
+      "nl": "Ik heb spijker."
     },
     "alt": {},
     "chunks": [
       "chinikar",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_schraube",
-    "am": "ብሎን አለ።",
-    "tr": "bilon ale.",
+    "am": "ብሎን እወዳለሁ።",
+    "tr": "bilon iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_schraube"
     ],
     "t": {
-      "de": "die Schraube ist vorhanden.",
-      "en": "There is screw.",
-      "sv": "Det finns skruv.",
-      "nl": "Er is schroef."
+      "de": "Ich mag die Schraube.",
+      "en": "I like screw.",
+      "sv": "Jag gillar skruv.",
+      "nl": "Ik hou van schroef."
     },
     "alt": {},
     "chunks": [
       "bilon",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -2863,22 +2863,22 @@
   },
   {
     "id": "sen_gen_bohrer",
-    "am": "መብሳት አለ።",
-    "tr": "mebisat ale.",
+    "am": "መብሳት አለኝ።",
+    "tr": "mebisat alegn.",
     "level": "A2",
     "uses": [
       "lex_bohrer"
     ],
     "t": {
-      "de": "der Bohrer ist vorhanden.",
-      "en": "There is drill.",
-      "sv": "Det finns borr.",
-      "nl": "Er is boor."
+      "de": "Ich habe der Bohrer.",
+      "en": "I have drill.",
+      "sv": "Jag har borr.",
+      "nl": "Ik heb boor."
     },
     "alt": {},
     "chunks": [
       "mebisat",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -2905,43 +2905,43 @@
   },
   {
     "id": "sen_gen_drittel",
-    "am": "ሲሶ አለ።",
-    "tr": "siso ale.",
+    "am": "ሲሶ አለኝ።",
+    "tr": "siso alegn.",
     "level": "A2",
     "uses": [
       "lex_drittel"
     ],
     "t": {
-      "de": "das Drittel ist vorhanden.",
-      "en": "There is third.",
-      "sv": "Det finns tredjedel.",
-      "nl": "Er is derde."
+      "de": "Ich habe das Drittel.",
+      "en": "I have third.",
+      "sv": "Jag har tredjedel.",
+      "nl": "Ik heb derde."
     },
     "alt": {},
     "chunks": [
       "siso",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_prozent",
-    "am": "በመቶ አለ።",
-    "tr": "bemeto ale.",
+    "am": "በመቶ እወዳለሁ።",
+    "tr": "bemeto iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_prozent"
     ],
     "t": {
-      "de": "das Prozent ist vorhanden.",
-      "en": "There is percent.",
-      "sv": "Det finns procent.",
-      "nl": "Er is procent."
+      "de": "Ich mag das Prozent.",
+      "en": "I like percent.",
+      "sv": "Jag gillar procent.",
+      "nl": "Ik hou van procent."
     },
     "alt": {},
     "chunks": [
       "bemeto",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -3013,44 +3013,44 @@
   },
   {
     "id": "sen_gen_buegeleisen",
-    "am": "ሙቅ ብረት አለ።",
-    "tr": "muk' biret ale.",
+    "am": "ሙቅ ብረት አለኝ።",
+    "tr": "muk' biret alegn.",
     "level": "A2",
     "uses": [
       "lex_buegeleisen"
     ],
     "t": {
-      "de": "das Bügeleisen ist vorhanden.",
-      "en": "There is iron.",
-      "sv": "Det finns strykjärn.",
-      "nl": "Er is strijkijzer."
+      "de": "Ich habe das Bügeleisen.",
+      "en": "I have iron.",
+      "sv": "Jag har strykjärn.",
+      "nl": "Ik heb strijkijzer."
     },
     "alt": {},
     "chunks": [
       "muk'",
       "biret",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_mikrowelle",
-    "am": "ማይክሮዌብ አለ።",
-    "tr": "maikirowev ale.",
+    "am": "ማይክሮዌብ እወዳለሁ።",
+    "tr": "maikirowev iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_mikrowelle"
     ],
     "t": {
-      "de": "die Mikrowelle ist vorhanden.",
-      "en": "There is microwave.",
-      "sv": "Det finns mikrovågsugn.",
-      "nl": "Er is magnetron."
+      "de": "Ich mag die Mikrowelle.",
+      "en": "I like microwave.",
+      "sv": "Jag gillar mikrovågsugn.",
+      "nl": "Ik hou van magnetron."
     },
     "alt": {},
     "chunks": [
       "maikirowev",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -3077,23 +3077,23 @@
   },
   {
     "id": "sen_gen_geschirrspueler",
-    "am": "ማጠቢያ ዕቃ አለ።",
-    "tr": "matebiya i'k'a ale.",
+    "am": "ማጠቢያ ዕቃ አለኝ።",
+    "tr": "matebiya i'k'a alegn.",
     "level": "A2",
     "uses": [
       "lex_geschirrspueler"
     ],
     "t": {
-      "de": "die Geschirrspülmaschine ist vorhanden.",
-      "en": "There is dishwasher.",
-      "sv": "Det finns diskmaskin.",
-      "nl": "Er is vaatwasser."
+      "de": "Ich habe die Geschirrspülmaschine.",
+      "en": "I have dishwasher.",
+      "sv": "Jag har diskmaskin.",
+      "nl": "Ik heb vaatwasser."
     },
     "alt": {},
     "chunks": [
       "matebiya",
       "i'k'a",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -3120,44 +3120,44 @@
   },
   {
     "id": "sen_gen_wimper",
-    "am": "የዐይን ጸጉር አለ።",
-    "tr": "yeayin tsegur ale.",
+    "am": "የዐይን ጸጉር አለኝ።",
+    "tr": "yeayin tsegur alegn.",
     "level": "A2",
     "uses": [
       "lex_wimper"
     ],
     "t": {
-      "de": "die Wimper ist vorhanden.",
-      "en": "There is eyelash.",
-      "sv": "Det finns ögonfrans.",
-      "nl": "Er is wimper."
+      "de": "Ich habe die Wimper.",
+      "en": "I have eyelash.",
+      "sv": "Jag har ögonfrans.",
+      "nl": "Ik heb wimper."
     },
     "alt": {},
     "chunks": [
       "yeayin",
       "tsegur",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_kinn",
-    "am": "አገጭ አለ።",
-    "tr": "agech ale.",
+    "am": "አገጭ እወዳለሁ።",
+    "tr": "agech iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_kinn"
     ],
     "t": {
-      "de": "das Kinn ist vorhanden.",
-      "en": "There is chin.",
-      "sv": "Det finns haka.",
-      "nl": "Er is kin."
+      "de": "Ich mag das Kinn.",
+      "en": "I like chin.",
+      "sv": "Jag gillar haka.",
+      "nl": "Ik hou van kin."
     },
     "alt": {},
     "chunks": [
       "agech",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -3184,22 +3184,22 @@
   },
   {
     "id": "sen_gen_ellbogen",
-    "am": "ክርን አለ።",
-    "tr": "kirin ale.",
+    "am": "ክርን አለኝ።",
+    "tr": "kirin alegn.",
     "level": "A2",
     "uses": [
       "lex_ellbogen"
     ],
     "t": {
-      "de": "der Ellbogen ist vorhanden.",
-      "en": "There is elbow.",
-      "sv": "Det finns armbåge.",
-      "nl": "Er is elleboog."
+      "de": "Ich habe der Ellbogen.",
+      "en": "I have elbow.",
+      "sv": "Jag har armbåge.",
+      "nl": "Ik heb elleboog."
     },
     "alt": {},
     "chunks": [
       "kirin",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -3226,44 +3226,44 @@
   },
   {
     "id": "sen_gen_witwe",
-    "am": "መበለት አለ።",
-    "tr": "mebelet ale.",
+    "am": "መበለት አለኝ።",
+    "tr": "mebelet alegn.",
     "level": "A2",
     "uses": [
       "lex_witwe"
     ],
     "t": {
-      "de": "die Witwe ist vorhanden.",
-      "en": "There is widow.",
-      "sv": "Det finns änka.",
-      "nl": "Er is weduwe."
+      "de": "Ich habe die Witwe.",
+      "en": "I have widow.",
+      "sv": "Jag har änka.",
+      "nl": "Ik heb weduwe."
     },
     "alt": {},
     "chunks": [
       "mebelet",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_stiefmutter",
-    "am": "የእንጀራ እናት አለ።",
-    "tr": "yeinjera enat ale.",
+    "am": "የእንጀራ እናት እወዳለሁ።",
+    "tr": "yeinjera enat iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_stiefmutter"
     ],
     "t": {
-      "de": "die Stiefmutter ist vorhanden.",
-      "en": "There is stepmother.",
-      "sv": "Det finns styvmor.",
-      "nl": "Er is stiefmoeder."
+      "de": "Ich mag die Stiefmutter.",
+      "en": "I like stepmother.",
+      "sv": "Jag gillar styvmor.",
+      "nl": "Ik hou van stiefmoeder."
     },
     "alt": {},
     "chunks": [
       "yeinjera",
       "enat",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -3290,22 +3290,22 @@
   },
   {
     "id": "sen_gen_zunge",
-    "am": "ምላስ አለ።",
-    "tr": "milas ale.",
+    "am": "ምላስ አለኝ።",
+    "tr": "milas alegn.",
     "level": "A2",
     "uses": [
       "lex_zunge"
     ],
     "t": {
-      "de": "die Zunge ist vorhanden.",
-      "en": "There is tongue.",
-      "sv": "Det finns tunga.",
-      "nl": "Er is tong."
+      "de": "Ich habe die Zunge.",
+      "en": "I have tongue.",
+      "sv": "Jag har tunga.",
+      "nl": "Ik heb tong."
     },
     "alt": {},
     "chunks": [
       "milas",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -3332,22 +3332,22 @@
   },
   {
     "id": "sen_gen_v_braten",
-    "am": "መጥበስ እፈልጋለሁ።",
-    "tr": "met'ibes ifeligalehu.",
+    "am": "መጥበስ እወዳለሁ።",
+    "tr": "met'ibes iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_braten"
     ],
     "t": {
-      "de": "Ich möchte braten, frittieren.",
-      "en": "I want to fry.",
-      "sv": "Jag vill steka.",
-      "nl": "Ik wil bakken (in de pan)."
+      "de": "Braten, frittieren mag ich.",
+      "en": "I like to fry.",
+      "sv": "Jag gillar att steka.",
+      "nl": "Ik hou van bakken (in de pan)."
     },
     "alt": {},
     "chunks": [
       "met'ibes",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -3374,22 +3374,22 @@
   },
   {
     "id": "sen_gen_v_mischen",
-    "am": "ማዋሃድ እፈልጋለሁ።",
-    "tr": "mawahad ifeligalehu.",
+    "am": "ማዋሃድ እወዳለሁ።",
+    "tr": "mawahad iwedallehu.",
     "level": "A2",
     "uses": [
       "lex_v_mischen"
     ],
     "t": {
-      "de": "Ich möchte mischen.",
-      "en": "I want to mix.",
-      "sv": "Jag vill blanda.",
-      "nl": "Ik wil mengen."
+      "de": "Mischen mag ich.",
+      "en": "I like to mix.",
+      "sv": "Jag gillar att blanda.",
+      "nl": "Ik hou van mengen."
     },
     "alt": {},
     "chunks": [
       "mawahad",
-      "ifeligalehu."
+      "iwedallehu."
     ],
     "verified": false
   },

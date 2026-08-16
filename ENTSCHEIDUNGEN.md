@@ -863,3 +863,32 @@ Station die Lücke bis 5 auffüllt.
   Muster wie immer; die eigentlichen Audiodateien folgen wie besprochen erst später.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün, inklusive
   `content_validation_test.dart` und `fidel_stufe_content_test.dart`.
+
+## Etappe 28 Nachtrag: Satzschablonen variiert statt immer gleich
+
+Nutzer-Einwand direkt nach Etappe 28, zurecht: mit nur einer festen Schablone pro Wortart sahen
+viele Stationen fast identisch aus (`unit_eritrea_zahlen_mehr`: 4 von 5 Sätzen alle "[Zahl] ኣሎ።",
+nur das Zahlwort unterschiedlich). Wer das Muster einmal erkennt, muss das eingesetzte Wort für die
+Sätze-bauen-Übung gar nicht mehr verstehen - genau das Gegenteil vom Zweck der Übung.
+
+- **2-3 Schablonen pro Wortart statt einer, rotierend pro Station vergeben.** Nomen/Zahlen wechseln
+  zwischen Existenzsatz ("X gibt es"), Besitzsatz ("X habe ich", አለኝ/ኣሎኒ) und - nur Amharisch,
+  sicherste Variante für Tigrinya nicht riskiert - "X mag ich" (እወዳለሁ, dieselbe Konstruktion, die
+  auch schon für "möchte X tun" bei Verben lief, hier als direktes Objekt). Adjektive wechseln
+  zwischen "er ist X", "sie ist X" und "es ist sehr X". Amharische Verben wechseln zwischen "ich
+  möchte X tun" und "X mag ich" (Infinitiv vorangestellt: "Ich mag ${täti}." - im Deutschen durch
+  Voranstellung des nominalisierten Infinitivs korrekt, z. B. "Essen mag ich."). Phrasen/
+  Interjektionen und Tigrinya-Verben (liegen als Imperativ vor) bleiben unverändert als-ist, da sie
+  schon von Natur aus nicht in dieses Repetitions-Problem fallen.
+  - **Rotation pro Station, nicht global**, damit z. B. eine Station mit 4 Zahlwörtern tatsächlich
+    4 unterschiedliche Sätze bekommt (Existenz/Besitz/mögen/Existenz), statt dass ganze Stationen
+    zufällig eine einzige Schablone abbekommen.
+- **Reine Inhaltskorrektur, keine neue Verkabelung nötig:** da IDs, `uses`, Level und Zuordnung zu
+  Lektionsstufen unverändert blieben (nur `am`/`tr`/`t`/`chunks` der 814 betroffenen `sen_gen_*`-
+  Einträge - Phrasen/Interjektionen/Tigrinya-Verben brauchten keine Änderung), waren
+  `curriculum.json`, alle Lektionsdateien und `assets/audio/manifest.json` nicht betroffen; nur
+  `fehlende_audiodateien.md`s Tabellenzeilen (enthalten den Satztext direkt) wurden neu erzeugt.
+- **Neue Wrapper-Zeichenketten (አለኝ/ኣሎኒ/እሷ/ናት/በጣም/ንሳ/እያ) erneut gegen das komplette gelernte
+  Fidel-Zeichenset geprüft** (gleiche Methode wie in Etappe 28 für die erste Bug-Behebung) - alle
+  bestehen, keine neue Stufe-5/6-Verletzung.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.

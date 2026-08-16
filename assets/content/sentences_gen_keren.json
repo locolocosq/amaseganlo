@@ -82,22 +82,22 @@
   },
   {
     "id": "sen_gen_kolu",
-    "am": "ቆልዓ ኣሎ።",
-    "tr": "kolu alo.",
+    "am": "ቆልዓ ኣሎኒ።",
+    "tr": "kolu alini.",
     "level": "TI",
     "uses": [
       "lex_ti_kolu"
     ],
     "t": {
-      "de": "das Kind ist vorhanden.",
-      "en": "There is child.",
-      "sv": "Det finns barn.",
-      "nl": "Er is kind."
+      "de": "Ich habe das Kind.",
+      "en": "I have child.",
+      "sv": "Jag har barn.",
+      "nl": "Ik heb kind."
     },
     "alt": {},
     "chunks": [
       "kolu",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -145,22 +145,22 @@
   },
   {
     "id": "sen_gen_zahl_4_2",
-    "am": "ኣርባዕተ ኣሎ።",
-    "tr": "arba'ete alo.",
+    "am": "ኣርባዕተ ኣሎኒ።",
+    "tr": "arba'ete alini.",
     "level": "TI",
     "uses": [
       "lex_ti_zahl_4"
     ],
     "t": {
-      "de": "4 ist vorhanden.",
-      "en": "There is 4.",
-      "sv": "Det finns 4.",
-      "nl": "Er is 4."
+      "de": "Ich habe 4.",
+      "en": "I have 4.",
+      "sv": "Jag har 4.",
+      "nl": "Ik heb 4."
     },
     "alt": {},
     "chunks": [
       "arba'ete",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -208,22 +208,22 @@
   },
   {
     "id": "sen_gen_tsibhi",
-    "am": "ጽብሒ ኣሎ።",
-    "tr": "tsibhi alo.",
+    "am": "ጽብሒ ኣሎኒ።",
+    "tr": "tsibhi alini.",
     "level": "TI",
     "uses": [
       "lex_ti_tsibhi"
     ],
     "t": {
-      "de": "der Eintopf, die Sauce ist vorhanden.",
-      "en": "There is stew, sauce.",
-      "sv": "Det finns gryta, sås.",
-      "nl": "Er is stoofpot, saus."
+      "de": "Ich habe der Eintopf, die Sauce.",
+      "en": "I have stew, sauce.",
+      "sv": "Jag har gryta, sås.",
+      "nl": "Ik heb stoofpot, saus."
     },
     "alt": {},
     "chunks": [
       "tsibhi",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -272,23 +272,23 @@
   },
   {
     "id": "sen_gen_zahl_13",
-    "am": "ዓሰርተ ሰለስተ ኣሎ።",
-    "tr": "asirte seleste alo.",
+    "am": "ዓሰርተ ሰለስተ ኣሎኒ።",
+    "tr": "asirte seleste alini.",
     "level": "TI",
     "uses": [
       "lex_ti_zahl_13"
     ],
     "t": {
-      "de": "13 ist vorhanden.",
-      "en": "There is 13.",
-      "sv": "Det finns 13.",
-      "nl": "Er is 13."
+      "de": "Ich habe 13.",
+      "en": "I have 13.",
+      "sv": "Jag har 13.",
+      "nl": "Ik heb 13."
     },
     "alt": {},
     "chunks": [
       "asirte",
       "seleste",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -316,23 +316,23 @@
   },
   {
     "id": "sen_gen_zahl_15",
-    "am": "ዓሰርተ ሓሙሽተ ኣሎ።",
-    "tr": "asirte hamushte alo.",
+    "am": "ዓሰርተ ሓሙሽተ ኣሎኒ።",
+    "tr": "asirte hamushte alini.",
     "level": "TI",
     "uses": [
       "lex_ti_zahl_15"
     ],
     "t": {
-      "de": "15 ist vorhanden.",
-      "en": "There is 15.",
-      "sv": "Det finns 15.",
-      "nl": "Er is 15."
+      "de": "Ich habe 15.",
+      "en": "I have 15.",
+      "sv": "Jag har 15.",
+      "nl": "Ik heb 15."
     },
     "alt": {},
     "chunks": [
       "asirte",
       "hamushte",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -360,23 +360,23 @@
   },
   {
     "id": "sen_gen_qetsli",
-    "am": "ንሱ ቀጠልያ እዩ።",
-    "tr": "nisu qet'elya 'iyu.",
+    "am": "ንሳ ቀጠልያ እያ።",
+    "tr": "nisa qet'elya 'iya.",
     "level": "TI",
     "uses": [
       "lex_ti_qetsli"
     ],
     "t": {
-      "de": "Er ist grün.",
-      "en": "He is green.",
-      "sv": "Han är grön.",
-      "nl": "Hij is groen."
+      "de": "Sie ist grün.",
+      "en": "She is green.",
+      "sv": "Hon är grön.",
+      "nl": "Zij is groen."
     },
     "alt": {},
     "chunks": [
-      "nisu",
+      "nisa",
       "qet'elya",
-      "'iyu."
+      "'iya."
     ],
     "verified": false
   },
@@ -404,23 +404,23 @@
   },
   {
     "id": "sen_gen_kekhi",
-    "am": "ንሱ ጸሊም እዩ።",
-    "tr": "nisu tselim 'iyu.",
+    "am": "ንሳ ጸሊም እያ።",
+    "tr": "nisa tselim 'iya.",
     "level": "TI",
     "uses": [
       "lex_ti_kekhi"
     ],
     "t": {
-      "de": "Er ist schwarz.",
-      "en": "He is black.",
-      "sv": "Han är svart.",
-      "nl": "Hij is zwart."
+      "de": "Sie ist schwarz.",
+      "en": "She is black.",
+      "sv": "Hon är svart.",
+      "nl": "Zij is zwart."
     },
     "alt": {},
     "chunks": [
-      "nisu",
+      "nisa",
       "tselim",
-      "'iyu."
+      "'iya."
     ],
     "verified": false
   },
@@ -447,22 +447,22 @@
   },
   {
     "id": "sen_gen_ayni",
-    "am": "ዓይኒ ኣሎ።",
-    "tr": "'ayni alo.",
+    "am": "ዓይኒ ኣሎኒ።",
+    "tr": "'ayni alini.",
     "level": "TI",
     "uses": [
       "lex_ti_ayni"
     ],
     "t": {
-      "de": "das Auge ist vorhanden.",
-      "en": "There is eye.",
-      "sv": "Det finns öga.",
-      "nl": "Er is oog."
+      "de": "Ich habe das Auge.",
+      "en": "I have eye.",
+      "sv": "Jag har öga.",
+      "nl": "Ik heb oog."
     },
     "alt": {},
     "chunks": [
       "'ayni",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -489,22 +489,22 @@
   },
   {
     "id": "sen_gen_afinca",
-    "am": "ኣፍንጫ ኣሎ።",
-    "tr": "afincha alo.",
+    "am": "ኣፍንጫ ኣሎኒ።",
+    "tr": "afincha alini.",
     "level": "TI",
     "uses": [
       "lex_ti_afinca"
     ],
     "t": {
-      "de": "die Nase ist vorhanden.",
-      "en": "There is nose.",
-      "sv": "Det finns näsa.",
-      "nl": "Er is neus."
+      "de": "Ich habe die Nase.",
+      "en": "I have nose.",
+      "sv": "Jag har näsa.",
+      "nl": "Ik heb neus."
     },
     "alt": {},
     "chunks": [
       "afincha",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -531,22 +531,22 @@
   },
   {
     "id": "sen_gen_shurbi",
-    "am": "ካልሲ ኣሎ።",
-    "tr": "kalsi alo.",
+    "am": "ካልሲ ኣሎኒ።",
+    "tr": "kalsi alini.",
     "level": "TI",
     "uses": [
       "lex_ti_shurbi"
     ],
     "t": {
-      "de": "die Socke ist vorhanden.",
-      "en": "There is sock.",
-      "sv": "Det finns strumpa.",
-      "nl": "Er is sok."
+      "de": "Ich habe die Socke.",
+      "en": "I have sock.",
+      "sv": "Jag har strumpa.",
+      "nl": "Ik heb sok."
     },
     "alt": {},
     "chunks": [
       "kalsi",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -573,22 +573,22 @@
   },
   {
     "id": "sen_gen_shemis",
-    "am": "ካምቻ ኣሎ።",
-    "tr": "kamcha alo.",
+    "am": "ካምቻ ኣሎኒ።",
+    "tr": "kamcha alini.",
     "level": "TI",
     "uses": [
       "lex_ti_shemis"
     ],
     "t": {
-      "de": "das Hemd ist vorhanden.",
-      "en": "There is shirt.",
-      "sv": "Det finns skjorta.",
-      "nl": "Er is overhemd."
+      "de": "Ich habe das Hemd.",
+      "en": "I have shirt.",
+      "sv": "Jag har skjorta.",
+      "nl": "Ik heb overhemd."
     },
     "alt": {},
     "chunks": [
       "kamcha",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -616,22 +616,22 @@
   },
   {
     "id": "sen_gen_bota",
-    "am": "ማዕጾ ኣሎ።",
-    "tr": "ma'etso alo.",
+    "am": "ማዕጾ ኣሎኒ።",
+    "tr": "ma'etso alini.",
     "level": "TI",
     "uses": [
       "lex_ti_bota"
     ],
     "t": {
-      "de": "die Tür ist vorhanden.",
-      "en": "There is door.",
-      "sv": "Det finns dörr.",
-      "nl": "Er is deur."
+      "de": "Ich habe die Tür.",
+      "en": "I have door.",
+      "sv": "Jag har dörr.",
+      "nl": "Ik heb deur."
     },
     "alt": {},
     "chunks": [
       "ma'etso",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -658,22 +658,22 @@
   },
   {
     "id": "sen_gen_teret",
-    "am": "ጠረጴዛ ኣሎ።",
-    "tr": "teretseza alo.",
+    "am": "ጠረጴዛ ኣሎኒ።",
+    "tr": "teretseza alini.",
     "level": "TI",
     "uses": [
       "lex_ti_teret"
     ],
     "t": {
-      "de": "der Tisch ist vorhanden.",
-      "en": "There is table.",
-      "sv": "Det finns bord.",
-      "nl": "Er is tafel."
+      "de": "Ich habe der Tisch.",
+      "en": "I have table.",
+      "sv": "Jag har bord.",
+      "nl": "Ik heb tafel."
     },
     "alt": {},
     "chunks": [
       "teretseza",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -700,22 +700,22 @@
   },
   {
     "id": "sen_gen_kokebti",
-    "am": "ኮኸብ ኣሎ።",
-    "tr": "kokeb alo.",
+    "am": "ኮኸብ ኣሎኒ።",
+    "tr": "kokeb alini.",
     "level": "TI",
     "uses": [
       "lex_ti_kokebti"
     ],
     "t": {
-      "de": "der Stern ist vorhanden.",
-      "en": "There is star.",
-      "sv": "Det finns stjärna.",
-      "nl": "Er is ster."
+      "de": "Ich habe der Stern.",
+      "en": "I have star.",
+      "sv": "Jag har stjärna.",
+      "nl": "Ik heb ster."
     },
     "alt": {},
     "chunks": [
       "kokeb",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -742,22 +742,22 @@
   },
   {
     "id": "sen_gen_dammena",
-    "am": "ደበና ኣሎ።",
-    "tr": "debena alo.",
+    "am": "ደበና ኣሎኒ።",
+    "tr": "debena alini.",
     "level": "TI",
     "uses": [
       "lex_ti_dammena"
     ],
     "t": {
-      "de": "die Wolke ist vorhanden.",
-      "en": "There is cloud.",
-      "sv": "Det finns moln.",
-      "nl": "Er is wolk."
+      "de": "Ich habe die Wolke.",
+      "en": "I have cloud.",
+      "sv": "Jag har moln.",
+      "nl": "Ik heb wolk."
     },
     "alt": {},
     "chunks": [
       "debena",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -784,22 +784,22 @@
   },
   {
     "id": "sen_gen_faras",
-    "am": "ፈረስ ኣሎ።",
-    "tr": "feres alo.",
+    "am": "ፈረስ ኣሎኒ።",
+    "tr": "feres alini.",
     "level": "TI",
     "uses": [
       "lex_ti_faras"
     ],
     "t": {
-      "de": "das Pferd ist vorhanden.",
-      "en": "There is horse.",
-      "sv": "Det finns häst.",
-      "nl": "Er is paard."
+      "de": "Ich habe das Pferd.",
+      "en": "I have horse.",
+      "sv": "Jag har häst.",
+      "nl": "Ik heb paard."
     },
     "alt": {},
     "chunks": [
       "feres",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -826,22 +826,22 @@
   },
   {
     "id": "sen_gen_bereh",
-    "am": "ኣባጊዕ ኣሎ።",
-    "tr": "abagi'e alo.",
+    "am": "ኣባጊዕ ኣሎኒ።",
+    "tr": "abagi'e alini.",
     "level": "TI",
     "uses": [
       "lex_ti_bereh"
     ],
     "t": {
-      "de": "das Schaf ist vorhanden.",
-      "en": "There is sheep.",
-      "sv": "Det finns får.",
-      "nl": "Er is schaap."
+      "de": "Ich habe das Schaf.",
+      "en": "I have sheep.",
+      "sv": "Jag har får.",
+      "nl": "Ik heb schaap."
     },
     "alt": {},
     "chunks": [
       "abagi'e",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -868,22 +868,22 @@
   },
   {
     "id": "sen_gen_sekond",
-    "am": "ካልኢት ኣሎ።",
-    "tr": "kal'it alo.",
+    "am": "ካልኢት ኣሎኒ።",
+    "tr": "kal'it alini.",
     "level": "TI",
     "uses": [
       "lex_ti_sekond"
     ],
     "t": {
-      "de": "die Sekunde ist vorhanden.",
-      "en": "There is second.",
-      "sv": "Det finns sekund.",
-      "nl": "Er is seconde."
+      "de": "Ich habe die Sekunde.",
+      "en": "I have second.",
+      "sv": "Jag har sekund.",
+      "nl": "Ik heb seconde."
     },
     "alt": {},
     "chunks": [
       "kal'it",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -910,22 +910,22 @@
   },
   {
     "id": "sen_gen_lelit",
-    "am": "ለይቲ ኣሎ።",
-    "tr": "leyti alo.",
+    "am": "ለይቲ ኣሎኒ።",
+    "tr": "leyti alini.",
     "level": "TI",
     "uses": [
       "lex_ti_lelit"
     ],
     "t": {
-      "de": "die Nacht ist vorhanden.",
-      "en": "There is night.",
-      "sv": "Det finns natt.",
-      "nl": "Er is nacht."
+      "de": "Ich habe die Nacht.",
+      "en": "I have night.",
+      "sv": "Jag har natt.",
+      "nl": "Ik heb nacht."
     },
     "alt": {},
     "chunks": [
       "leyti",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -952,22 +952,22 @@
   },
   {
     "id": "sen_gen_neurse",
-    "am": "ነርስ ኣሎ።",
-    "tr": "nersi alo.",
+    "am": "ነርስ ኣሎኒ።",
+    "tr": "nersi alini.",
     "level": "TI",
     "uses": [
       "lex_ti_neurse"
     ],
     "t": {
-      "de": "die Krankenschwester ist vorhanden.",
-      "en": "There is nurse.",
-      "sv": "Det finns sjuksköterska.",
-      "nl": "Er is verpleegkundige."
+      "de": "Ich habe die Krankenschwester.",
+      "en": "I have nurse.",
+      "sv": "Jag har sjuksköterska.",
+      "nl": "Ik heb verpleegkundige."
     },
     "alt": {},
     "chunks": [
       "nersi",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -994,22 +994,22 @@
   },
   {
     "id": "sen_gen_negadi",
-    "am": "ነጋዳይ ኣሎ።",
-    "tr": "negaday alo.",
+    "am": "ነጋዳይ ኣሎኒ።",
+    "tr": "negaday alini.",
     "level": "TI",
     "uses": [
       "lex_ti_negadi"
     ],
     "t": {
-      "de": "der Händler ist vorhanden.",
-      "en": "There is trader, merchant.",
-      "sv": "Det finns handlare.",
-      "nl": "Er is handelaar."
+      "de": "Ich habe der Händler.",
+      "en": "I have trader, merchant.",
+      "sv": "Jag har handlare.",
+      "nl": "Ik heb handelaar."
     },
     "alt": {},
     "chunks": [
       "negaday",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1036,22 +1036,22 @@
   },
   {
     "id": "sen_gen_babur",
-    "am": "ባቡር ኣሎ።",
-    "tr": "babur alo.",
+    "am": "ባቡር ኣሎኒ።",
+    "tr": "babur alini.",
     "level": "TI",
     "uses": [
       "lex_ti_babur"
     ],
     "t": {
-      "de": "der Zug ist vorhanden.",
-      "en": "There is train.",
-      "sv": "Det finns tåg.",
-      "nl": "Er is trein."
+      "de": "Ich habe der Zug.",
+      "en": "I have train.",
+      "sv": "Jag har tåg.",
+      "nl": "Ik heb trein."
     },
     "alt": {},
     "chunks": [
       "babur",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1078,22 +1078,22 @@
   },
   {
     "id": "sen_gen_merkeb",
-    "am": "መርከብ ኣሎ።",
-    "tr": "merkeb alo.",
+    "am": "መርከብ ኣሎኒ።",
+    "tr": "merkeb alini.",
     "level": "TI",
     "uses": [
       "lex_ti_merkeb"
     ],
     "t": {
-      "de": "das Schiff ist vorhanden.",
-      "en": "There is ship.",
-      "sv": "Det finns skepp.",
-      "nl": "Er is schip."
+      "de": "Ich habe das Schiff.",
+      "en": "I have ship.",
+      "sv": "Jag har skepp.",
+      "nl": "Ik heb schip."
     },
     "alt": {},
     "chunks": [
       "merkeb",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1280,22 +1280,22 @@
   },
   {
     "id": "sen_gen_qurtsi",
-    "am": "ሕርቃን ኣሎ።",
-    "tr": "hirqan alo.",
+    "am": "ሕርቃን ኣሎኒ።",
+    "tr": "hirqan alini.",
     "level": "TI",
     "uses": [
       "lex_ti_qurtsi"
     ],
     "t": {
-      "de": "die Wut, der Ärger ist vorhanden.",
-      "en": "There is anger.",
-      "sv": "Det finns ilska.",
-      "nl": "Er is boosheid."
+      "de": "Ich habe die Wut, der Ärger.",
+      "en": "I have anger.",
+      "sv": "Jag har ilska.",
+      "nl": "Ik heb boosheid."
     },
     "alt": {},
     "chunks": [
       "hirqan",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1365,22 +1365,22 @@
   },
   {
     "id": "sen_gen_wereqet",
-    "am": "ወረቐት ኣሎ።",
-    "tr": "wereqet alo.",
+    "am": "ወረቐት ኣሎኒ።",
+    "tr": "wereqet alini.",
     "level": "TI",
     "uses": [
       "lex_ti_wereqet"
     ],
     "t": {
-      "de": "das Papier, das Blatt ist vorhanden.",
-      "en": "There is paper.",
-      "sv": "Det finns papper.",
-      "nl": "Er is papier."
+      "de": "Ich habe das Papier, das Blatt.",
+      "en": "I have paper.",
+      "sv": "Jag har papper.",
+      "nl": "Ik heb papier."
     },
     "alt": {},
     "chunks": [
       "wereqet",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1407,22 +1407,22 @@
   },
   {
     "id": "sen_gen_timhirti",
-    "am": "ትምህርቲ ኣሎ።",
-    "tr": "timhirti alo.",
+    "am": "ትምህርቲ ኣሎኒ።",
+    "tr": "timhirti alini.",
     "level": "TI",
     "uses": [
       "lex_ti_timhirti"
     ],
     "t": {
-      "de": "der Unterricht, die Bildung ist vorhanden.",
-      "en": "There is lesson, education.",
-      "sv": "Det finns lektion, utbildning.",
-      "nl": "Er is les, onderwijs."
+      "de": "Ich habe der Unterricht, die Bildung.",
+      "en": "I have lesson, education.",
+      "sv": "Jag har lektion, utbildning.",
+      "nl": "Ik heb les, onderwijs."
     },
     "alt": {},
     "chunks": [
       "timhirti",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1449,22 +1449,22 @@
   },
   {
     "id": "sen_gen_intrnet",
-    "am": "ኢንተርነት ኣሎ።",
-    "tr": "internet alo.",
+    "am": "ኢንተርነት ኣሎኒ።",
+    "tr": "internet alini.",
     "level": "TI",
     "uses": [
       "lex_ti_intrnet"
     ],
     "t": {
-      "de": "das Internet ist vorhanden.",
-      "en": "There is internet.",
-      "sv": "Det finns internet.",
-      "nl": "Er is internet."
+      "de": "Ich habe das Internet.",
+      "en": "I have internet.",
+      "sv": "Jag har internet.",
+      "nl": "Ik heb internet."
     },
     "alt": {},
     "chunks": [
       "internet",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1491,23 +1491,23 @@
   },
   {
     "id": "sen_gen_slti",
-    "am": "ስእሊ (ካሜራ) ኣሎ።",
-    "tr": "si'ili kamera alo.",
+    "am": "ስእሊ (ካሜራ) ኣሎኒ።",
+    "tr": "si'ili kamera alini.",
     "level": "TI",
     "uses": [
       "lex_ti_slti"
     ],
     "t": {
-      "de": "das Foto ist vorhanden.",
-      "en": "There is photo.",
-      "sv": "Det finns foto.",
-      "nl": "Er is foto."
+      "de": "Ich habe das Foto.",
+      "en": "I have photo.",
+      "sv": "Jag har foto.",
+      "nl": "Ik heb foto."
     },
     "alt": {},
     "chunks": [
       "si'ili",
       "kamera",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1534,22 +1534,22 @@
   },
   {
     "id": "sen_gen_gugsi",
-    "am": "ጉያ ኣሎ።",
-    "tr": "guya alo.",
+    "am": "ጉያ ኣሎኒ።",
+    "tr": "guya alini.",
     "level": "TI",
     "uses": [
       "lex_ti_gugsi"
     ],
     "t": {
-      "de": "das Laufen, Rennen ist vorhanden.",
-      "en": "There is running.",
-      "sv": "Det finns löpning.",
-      "nl": "Er is hardlopen."
+      "de": "Ich habe das Laufen, Rennen.",
+      "en": "I have running.",
+      "sv": "Jag har löpning.",
+      "nl": "Ik heb hardlopen."
     },
     "alt": {},
     "chunks": [
       "guya",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1576,22 +1576,22 @@
   },
   {
     "id": "sen_gen_gnzabi",
-    "am": "ጸወታ ኣሎ።",
-    "tr": "tsewuta alo.",
+    "am": "ጸወታ ኣሎኒ።",
+    "tr": "tsewuta alini.",
     "level": "TI",
     "uses": [
       "lex_ti_gnzabi"
     ],
     "t": {
-      "de": "das Spiel ist vorhanden.",
-      "en": "There is game.",
-      "sv": "Det finns spel.",
-      "nl": "Er is spel."
+      "de": "Ich habe das Spiel.",
+      "en": "I have game.",
+      "sv": "Jag har spel.",
+      "nl": "Ik heb spel."
     },
     "alt": {},
     "chunks": [
       "tsewuta",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1618,22 +1618,22 @@
   },
   {
     "id": "sen_gen_bal2",
-    "am": "በዓል ኣሎ።",
-    "tr": "be'al alo.",
+    "am": "በዓል ኣሎኒ።",
+    "tr": "be'al alini.",
     "level": "TI",
     "uses": [
       "lex_ti_bal2"
     ],
     "t": {
-      "de": "das Fest, der Feiertag ist vorhanden.",
-      "en": "There is festival, holiday.",
-      "sv": "Det finns fest, helgdag.",
-      "nl": "Er is feest, feestdag."
+      "de": "Ich habe das Fest, der Feiertag.",
+      "en": "I have festival, holiday.",
+      "sv": "Jag har fest, helgdag.",
+      "nl": "Ik heb feest, feestdag."
     },
     "alt": {},
     "chunks": [
       "be'al",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1660,22 +1660,22 @@
   },
   {
     "id": "sen_gen_lidet",
-    "am": "ልደት ኣሎ።",
-    "tr": "lidet alo.",
+    "am": "ልደት ኣሎኒ።",
+    "tr": "lidet alini.",
     "level": "TI",
     "uses": [
       "lex_ti_lidet"
     ],
     "t": {
-      "de": "Weihnachten ist vorhanden.",
-      "en": "There is Christmas.",
-      "sv": "Det finns jul.",
-      "nl": "Er is Kerstmis."
+      "de": "Ich habe Weihnachten.",
+      "en": "I have Christmas.",
+      "sv": "Jag har jul.",
+      "nl": "Ik heb Kerstmis."
     },
     "alt": {},
     "chunks": [
       "lidet",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1702,22 +1702,22 @@
   },
   {
     "id": "sen_gen_nakfa",
-    "am": "ናቕፋ ኣሎ።",
-    "tr": "nakfa alo.",
+    "am": "ናቕፋ ኣሎኒ።",
+    "tr": "nakfa alini.",
     "level": "TI",
     "uses": [
       "lex_ti_nakfa"
     ],
     "t": {
-      "de": "Nakfa (eritreische Währung) ist vorhanden.",
-      "en": "There is nakfa (Eritrean currency).",
-      "sv": "Det finns nakfa (eritreansk valuta).",
-      "nl": "Er is nakfa (Eritrese munt)."
+      "de": "Ich habe Nakfa (eritreische Währung).",
+      "en": "I have nakfa (Eritrean currency).",
+      "sv": "Jag har nakfa (eritreansk valuta).",
+      "nl": "Ik heb nakfa (Eritrese munt)."
     },
     "alt": {},
     "chunks": [
       "nakfa",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1744,22 +1744,22 @@
   },
   {
     "id": "sen_gen_kreyi",
-    "am": "ቅብሊት ኣሎ።",
-    "tr": "qibilit alo.",
+    "am": "ቅብሊት ኣሎኒ።",
+    "tr": "qibilit alini.",
     "level": "TI",
     "uses": [
       "lex_ti_kreyi"
     ],
     "t": {
-      "de": "die Quittung ist vorhanden.",
-      "en": "There is receipt.",
-      "sv": "Det finns kvitto.",
-      "nl": "Er is bon."
+      "de": "Ich habe die Quittung.",
+      "en": "I have receipt.",
+      "sv": "Jag har kvitto.",
+      "nl": "Ik heb bon."
     },
     "alt": {},
     "chunks": [
       "qibilit",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1786,22 +1786,22 @@
   },
   {
     "id": "sen_gen_ficn",
-    "am": "ፍረታት ኣሎ።",
-    "tr": "firetat alo.",
+    "am": "ፍረታት ኣሎኒ።",
+    "tr": "firetat alini.",
     "level": "TI",
     "uses": [
       "lex_ti_ficn"
     ],
     "t": {
-      "de": "das Obst ist vorhanden.",
-      "en": "There is fruit.",
-      "sv": "Det finns frukt.",
-      "nl": "Er is fruit."
+      "de": "Ich habe das Obst.",
+      "en": "I have fruit.",
+      "sv": "Jag har frukt.",
+      "nl": "Ik heb fruit."
     },
     "alt": {},
     "chunks": [
       "firetat",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1828,22 +1828,22 @@
   },
   {
     "id": "sen_gen_bnbn",
-    "am": "ሙዝ ኣሎ።",
-    "tr": "muz alo.",
+    "am": "ሙዝ ኣሎኒ።",
+    "tr": "muz alini.",
     "level": "TI",
     "uses": [
       "lex_ti_bnbn"
     ],
     "t": {
-      "de": "die Banane ist vorhanden.",
-      "en": "There is banana.",
-      "sv": "Det finns banan.",
-      "nl": "Er is banaan."
+      "de": "Ich habe die Banane.",
+      "en": "I have banana.",
+      "sv": "Jag har banan.",
+      "nl": "Ik heb banaan."
     },
     "alt": {},
     "chunks": [
       "muz",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1870,23 +1870,23 @@
   },
   {
     "id": "sen_gen_wediHi",
-    "am": "ወዲ ሓው ኣሎ።",
-    "tr": "wedi haw alo.",
+    "am": "ወዲ ሓው ኣሎኒ።",
+    "tr": "wedi haw alini.",
     "level": "TI",
     "uses": [
       "lex_ti_wediHi"
     ],
     "t": {
-      "de": "der Neffe ist vorhanden.",
-      "en": "There is nephew.",
-      "sv": "Det finns brorson.",
-      "nl": "Er is neef (zoon van broer)."
+      "de": "Ich habe der Neffe.",
+      "en": "I have nephew.",
+      "sv": "Jag har brorson.",
+      "nl": "Ik heb neef (zoon van broer)."
     },
     "alt": {},
     "chunks": [
       "wedi",
       "haw",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1914,22 +1914,22 @@
   },
   {
     "id": "sen_gen_abay",
-    "am": "ዓባይ ኣሎ።",
-    "tr": "'abay alo.",
+    "am": "ዓባይ ኣሎኒ።",
+    "tr": "'abay alini.",
     "level": "TI",
     "uses": [
       "lex_ti_abay"
     ],
     "t": {
-      "de": "die Großmutter ist vorhanden.",
-      "en": "There is grandmother.",
-      "sv": "Det finns farmor/mormor.",
-      "nl": "Er is grootmoeder."
+      "de": "Ich habe die Großmutter.",
+      "en": "I have grandmother.",
+      "sv": "Jag har farmor/mormor.",
+      "nl": "Ik heb grootmoeder."
     },
     "alt": {},
     "chunks": [
       "'abay",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1956,22 +1956,22 @@
   },
   {
     "id": "sen_gen_hollandi",
-    "am": "ሆላንድ ኣሎ።",
-    "tr": "holand alo.",
+    "am": "ሆላንድ ኣሎኒ።",
+    "tr": "holand alini.",
     "level": "TI",
     "uses": [
       "lex_ti_hollandi"
     ],
     "t": {
-      "de": "Niederlande ist vorhanden.",
-      "en": "There is Netherlands.",
-      "sv": "Det finns Nederländerna.",
-      "nl": "Er is Nederland."
+      "de": "Ich habe Niederlande.",
+      "en": "I have Netherlands.",
+      "sv": "Jag har Nederländerna.",
+      "nl": "Ik heb Nederland."
     },
     "alt": {},
     "chunks": [
       "holand",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -1998,22 +1998,22 @@
   },
   {
     "id": "sen_gen_faransa",
-    "am": "ፈረንሳ ኣሎ።",
-    "tr": "ferensa alo.",
+    "am": "ፈረንሳ ኣሎኒ።",
+    "tr": "ferensa alini.",
     "level": "TI",
     "uses": [
       "lex_ti_faransa"
     ],
     "t": {
-      "de": "Frankreich ist vorhanden.",
-      "en": "There is France.",
-      "sv": "Det finns Frankrike.",
-      "nl": "Er is Frankrijk."
+      "de": "Ich habe Frankreich.",
+      "en": "I have France.",
+      "sv": "Jag har Frankrike.",
+      "nl": "Ik heb Frankrijk."
     },
     "alt": {},
     "chunks": [
       "ferensa",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2040,22 +2040,22 @@
   },
   {
     "id": "sen_gen_zerie",
-    "am": "ዘርኢ ኣሎ።",
-    "tr": "zeri'i alo.",
+    "am": "ዘርኢ ኣሎኒ።",
+    "tr": "zeri'i alini.",
     "level": "TI",
     "uses": [
       "lex_ti_zerie"
     ],
     "t": {
-      "de": "der Samen ist vorhanden.",
-      "en": "There is seed.",
-      "sv": "Det finns frö.",
-      "nl": "Er is zaad."
+      "de": "Ich habe der Samen.",
+      "en": "I have seed.",
+      "sv": "Jag har frö.",
+      "nl": "Ik heb zaad."
     },
     "alt": {},
     "chunks": [
       "zeri'i",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2082,22 +2082,22 @@
   },
   {
     "id": "sen_gen_asisi",
-    "am": "ምእካብ ኣሎ።",
-    "tr": "mi'ikab alo.",
+    "am": "ምእካብ ኣሎኒ።",
+    "tr": "mi'ikab alini.",
     "level": "TI",
     "uses": [
       "lex_ti_asisi"
     ],
     "t": {
-      "de": "die Ernte ist vorhanden.",
-      "en": "There is harvest.",
-      "sv": "Det finns skörd.",
-      "nl": "Er is oogst."
+      "de": "Ich habe die Ernte.",
+      "en": "I have harvest.",
+      "sv": "Jag har skörd.",
+      "nl": "Ik heb oogst."
     },
     "alt": {},
     "chunks": [
       "mi'ikab",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2124,23 +2124,23 @@
   },
   {
     "id": "sen_gen_geldi2",
-    "am": "ቆርበት (ንብረት) ኣሎ።",
-    "tr": "qorbet nibret alo.",
+    "am": "ቆርበት (ንብረት) ኣሎኒ።",
+    "tr": "qorbet nibret alini.",
     "level": "TI",
     "uses": [
       "lex_ti_geldi2"
     ],
     "t": {
-      "de": "das Leder ist vorhanden.",
-      "en": "There is leather.",
-      "sv": "Det finns läder.",
-      "nl": "Er is leer."
+      "de": "Ich habe das Leder.",
+      "en": "I have leather.",
+      "sv": "Jag har läder.",
+      "nl": "Ik heb leer."
     },
     "alt": {},
     "chunks": [
       "qorbet",
       "nibret",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2168,22 +2168,22 @@
   },
   {
     "id": "sen_gen_plastik_2",
-    "am": "ላስቲክ ኣሎ።",
-    "tr": "lastik alo.",
+    "am": "ላስቲክ ኣሎኒ።",
+    "tr": "lastik alini.",
     "level": "TI",
     "uses": [
       "lex_ti_plastik"
     ],
     "t": {
-      "de": "der Kunststoff, Plastik ist vorhanden.",
-      "en": "There is plastic.",
-      "sv": "Det finns plast.",
-      "nl": "Er is plastic."
+      "de": "Ich habe der Kunststoff, Plastik.",
+      "en": "I have plastic.",
+      "sv": "Jag har plast.",
+      "nl": "Ik heb plastic."
     },
     "alt": {},
     "chunks": [
       "lastik",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2377,22 +2377,22 @@
   },
   {
     "id": "sen_gen_hymt",
-    "am": "ማህጸን ኣሎ።",
-    "tr": "mahitsen alo.",
+    "am": "ማህጸን ኣሎኒ።",
+    "tr": "mahitsen alini.",
     "level": "TI",
     "uses": [
       "lex_ti_hymt"
     ],
     "t": {
-      "de": "die Gebärmutter ist vorhanden.",
-      "en": "There is womb.",
-      "sv": "Det finns livmoder.",
-      "nl": "Er is baarmoeder."
+      "de": "Ich habe die Gebärmutter.",
+      "en": "I have womb.",
+      "sv": "Jag har livmoder.",
+      "nl": "Ik heb baarmoeder."
     },
     "alt": {},
     "chunks": [
       "mahitsen",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2419,22 +2419,22 @@
   },
   {
     "id": "sen_gen_dmg",
-    "am": "ሓንጎል ኣሎ።",
-    "tr": "hangol alo.",
+    "am": "ሓንጎል ኣሎኒ።",
+    "tr": "hangol alini.",
     "level": "TI",
     "uses": [
       "lex_ti_dmg"
     ],
     "t": {
-      "de": "das Gehirn ist vorhanden.",
-      "en": "There is brain.",
-      "sv": "Det finns hjärna.",
-      "nl": "Er is hersenen."
+      "de": "Ich habe das Gehirn.",
+      "en": "I have brain.",
+      "sv": "Jag har hjärna.",
+      "nl": "Ik heb hersenen."
     },
     "alt": {},
     "chunks": [
       "hangol",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2461,22 +2461,22 @@
   },
   {
     "id": "sen_gen_wraq2",
-    "am": "ወለድ ኣሎ።",
-    "tr": "weled alo.",
+    "am": "ወለድ ኣሎኒ።",
+    "tr": "weled alini.",
     "level": "TI",
     "uses": [
       "lex_ti_wraq2"
     ],
     "t": {
-      "de": "der Zins ist vorhanden.",
-      "en": "There is interest (finance).",
-      "sv": "Det finns ränta.",
-      "nl": "Er is rente."
+      "de": "Ich habe der Zins.",
+      "en": "I have interest (finance).",
+      "sv": "Jag har ränta.",
+      "nl": "Ik heb rente."
     },
     "alt": {},
     "chunks": [
       "weled",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2503,22 +2503,22 @@
   },
   {
     "id": "sen_gen_hzbti2",
-    "am": "ወጻኢታት ኣሎ።",
-    "tr": "wetsa'itat alo.",
+    "am": "ወጻኢታት ኣሎኒ።",
+    "tr": "wetsa'itat alini.",
     "level": "TI",
     "uses": [
       "lex_ti_hzbti2"
     ],
     "t": {
-      "de": "die Ausgaben ist vorhanden.",
-      "en": "There is expenses.",
-      "sv": "Det finns utgifter.",
-      "nl": "Er is uitgaven."
+      "de": "Ich habe die Ausgaben.",
+      "en": "I have expenses.",
+      "sv": "Jag har utgifter.",
+      "nl": "Ik heb uitgaven."
     },
     "alt": {},
     "chunks": [
       "wetsa'itat",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2546,23 +2546,23 @@
   },
   {
     "id": "sen_gen_mfth2",
-    "am": "መፍትሕ መኪና ኣሎ።",
-    "tr": "mefithi mekina alo.",
+    "am": "መፍትሕ መኪና ኣሎኒ።",
+    "tr": "mefithi mekina alini.",
     "level": "TI",
     "uses": [
       "lex_ti_mfth2"
     ],
     "t": {
-      "de": "der Autoschlüssel ist vorhanden.",
-      "en": "There is car key.",
-      "sv": "Det finns bilnyckel.",
-      "nl": "Er is autosleutel."
+      "de": "Ich habe der Autoschlüssel.",
+      "en": "I have car key.",
+      "sv": "Jag har bilnyckel.",
+      "nl": "Ik heb autosleutel."
     },
     "alt": {},
     "chunks": [
       "mefithi",
       "mekina",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2590,22 +2590,22 @@
   },
   {
     "id": "sen_gen_bnzn",
-    "am": "ነዳዲ ኣሎ።",
-    "tr": "nedadi alo.",
+    "am": "ነዳዲ ኣሎኒ።",
+    "tr": "nedadi alini.",
     "level": "TI",
     "uses": [
       "lex_ti_bnzn"
     ],
     "t": {
-      "de": "das Benzin, Kraftstoff ist vorhanden.",
-      "en": "There is fuel, gasoline.",
-      "sv": "Det finns bränsle, bensin.",
-      "nl": "Er is brandstof, benzine."
+      "de": "Ich habe das Benzin, Kraftstoff.",
+      "en": "I have fuel, gasoline.",
+      "sv": "Jag har bränsle, bensin.",
+      "nl": "Ik heb brandstof, benzine."
     },
     "alt": {},
     "chunks": [
       "nedadi",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2632,22 +2632,22 @@
   },
   {
     "id": "sen_gen_wshnt",
-    "am": "ዋሽንት ኣሎ።",
-    "tr": "washint alo.",
+    "am": "ዋሽንት ኣሎኒ።",
+    "tr": "washint alini.",
     "level": "TI",
     "uses": [
       "lex_ti_wshnt"
     ],
     "t": {
-      "de": "die Flöte ist vorhanden.",
-      "en": "There is flute.",
-      "sv": "Det finns flöjt.",
-      "nl": "Er is fluit."
+      "de": "Ich habe die Flöte.",
+      "en": "I have flute.",
+      "sv": "Jag har flöjt.",
+      "nl": "Ik heb fluit."
     },
     "alt": {},
     "chunks": [
       "washint",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2674,22 +2674,22 @@
   },
   {
     "id": "sen_gen_pyano",
-    "am": "ፒያኖ ኣሎ።",
-    "tr": "piyano alo.",
+    "am": "ፒያኖ ኣሎኒ።",
+    "tr": "piyano alini.",
     "level": "TI",
     "uses": [
       "lex_ti_pyano"
     ],
     "t": {
-      "de": "das Klavier ist vorhanden.",
-      "en": "There is piano.",
-      "sv": "Det finns piano.",
-      "nl": "Er is piano."
+      "de": "Ich habe das Klavier.",
+      "en": "I have piano.",
+      "sv": "Jag har piano.",
+      "nl": "Ik heb piano."
     },
     "alt": {},
     "chunks": [
       "piyano",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2717,24 +2717,24 @@
   },
   {
     "id": "sen_gen_srhtnk",
-    "am": "ንሱ ትግሃት ዘለዎ እዩ።",
-    "tr": "nisu tighat zelewo 'iyu.",
+    "am": "ንሳ ትግሃት ዘለዎ እያ።",
+    "tr": "nisa tighat zelewo 'iya.",
     "level": "TI",
     "uses": [
       "lex_ti_srhtnk"
     ],
     "t": {
-      "de": "Er ist fleißig.",
-      "en": "He is diligent, hardworking.",
-      "sv": "Han är flitig.",
-      "nl": "Hij is vlijtig."
+      "de": "Sie ist fleißig.",
+      "en": "She is diligent, hardworking.",
+      "sv": "Hon är flitig.",
+      "nl": "Zij is vlijtig."
     },
     "alt": {},
     "chunks": [
-      "nisu",
+      "nisa",
       "tighat",
       "zelewo",
-      "'iyu."
+      "'iya."
     ],
     "verified": false
   },
@@ -2762,23 +2762,23 @@
   },
   {
     "id": "sen_gen_amnti",
-    "am": "ንሱ እሙን እዩ።",
-    "tr": "nisu imun 'iyu.",
+    "am": "ንሳ እሙን እያ።",
+    "tr": "nisa imun 'iya.",
     "level": "TI",
     "uses": [
       "lex_ti_amnti"
     ],
     "t": {
-      "de": "Er ist treu, vertrauenswürdig.",
-      "en": "He is loyal, trustworthy.",
-      "sv": "Han är trogen, pålitlig.",
-      "nl": "Hij is trouw, betrouwbaar."
+      "de": "Sie ist treu, vertrauenswürdig.",
+      "en": "She is loyal, trustworthy.",
+      "sv": "Hon är trogen, pålitlig.",
+      "nl": "Zij is trouw, betrouwbaar."
     },
     "alt": {},
     "chunks": [
-      "nisu",
+      "nisa",
       "imun",
-      "'iyu."
+      "'iya."
     ],
     "verified": false
   },
@@ -2805,23 +2805,23 @@
   },
   {
     "id": "sen_gen_ntsti",
-    "am": "ንፋስ ብርቱዕ ኣሎ።",
-    "tr": "nifas biritu'e alo.",
+    "am": "ንፋስ ብርቱዕ ኣሎኒ።",
+    "tr": "nifas biritu'e alini.",
     "level": "TI",
     "uses": [
       "lex_ti_ntsti"
     ],
     "t": {
-      "de": "der Sturm ist vorhanden.",
-      "en": "There is storm.",
-      "sv": "Det finns storm.",
-      "nl": "Er is storm."
+      "de": "Ich habe der Sturm.",
+      "en": "I have storm.",
+      "sv": "Jag har storm.",
+      "nl": "Ik heb storm."
     },
     "alt": {},
     "chunks": [
       "nifas",
       "biritu'e",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2848,23 +2848,23 @@
   },
   {
     "id": "sen_gen_hlmi2",
-    "am": "ንፍሒ ማይ ኣሎ።",
-    "tr": "nifhi mai alo.",
+    "am": "ንፍሒ ማይ ኣሎኒ።",
+    "tr": "nifhi mai alini.",
     "level": "TI",
     "uses": [
       "lex_ti_hlmi2"
     ],
     "t": {
-      "de": "die Überschwemmung ist vorhanden.",
-      "en": "There is flood.",
-      "sv": "Det finns översvämning.",
-      "nl": "Er is overstroming."
+      "de": "Ich habe die Überschwemmung.",
+      "en": "I have flood.",
+      "sv": "Jag har översvämning.",
+      "nl": "Ik heb overstroming."
     },
     "alt": {},
     "chunks": [
       "nifhi",
       "mai",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2891,22 +2891,22 @@
   },
   {
     "id": "sen_gen_wnzk",
-    "am": "ገበን ኣሎ።",
-    "tr": "geben alo.",
+    "am": "ገበን ኣሎኒ።",
+    "tr": "geben alini.",
     "level": "TI",
     "uses": [
       "lex_ti_wnzk"
     ],
     "t": {
-      "de": "das Verbrechen ist vorhanden.",
-      "en": "There is crime.",
-      "sv": "Det finns brott.",
-      "nl": "Er is misdaad."
+      "de": "Ich habe das Verbrechen.",
+      "en": "I have crime.",
+      "sv": "Jag har brott.",
+      "nl": "Ik heb misdaad."
     },
     "alt": {},
     "chunks": [
       "geben",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2933,22 +2933,22 @@
   },
   {
     "id": "sen_gen_shhda",
-    "am": "ምስክር ኣሎ።",
-    "tr": "misikir alo.",
+    "am": "ምስክር ኣሎኒ።",
+    "tr": "misikir alini.",
     "level": "TI",
     "uses": [
       "lex_ti_shhda"
     ],
     "t": {
-      "de": "der Zeuge ist vorhanden.",
-      "en": "There is witness.",
-      "sv": "Det finns vittne.",
-      "nl": "Er is getuige."
+      "de": "Ich habe der Zeuge.",
+      "en": "I have witness.",
+      "sv": "Jag har vittne.",
+      "nl": "Ik heb getuige."
     },
     "alt": {},
     "chunks": [
       "misikir",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -2975,22 +2975,22 @@
   },
   {
     "id": "sen_gen_nqfi",
-    "am": "ምኽሪ ኣሎ።",
-    "tr": "mikhiri alo.",
+    "am": "ምኽሪ ኣሎኒ።",
+    "tr": "mikhiri alini.",
     "level": "TI",
     "uses": [
       "lex_ti_nqfi"
     ],
     "t": {
-      "de": "der Rat, Ratschlag ist vorhanden.",
-      "en": "There is advice.",
-      "sv": "Det finns råd.",
-      "nl": "Er is advies."
+      "de": "Ich habe der Rat, Ratschlag.",
+      "en": "I have advice.",
+      "sv": "Jag har råd.",
+      "nl": "Ik heb advies."
     },
     "alt": {},
     "chunks": [
       "mikhiri",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3017,22 +3017,22 @@
   },
   {
     "id": "sen_gen_hbrti3",
-    "am": "ስምምዕ ኣሎ።",
-    "tr": "simimi'i alo.",
+    "am": "ስምምዕ ኣሎኒ።",
+    "tr": "simimi'i alini.",
     "level": "TI",
     "uses": [
       "lex_ti_hbrti3"
     ],
     "t": {
-      "de": "die Vereinbarung, Zustimmung ist vorhanden.",
-      "en": "There is agreement.",
-      "sv": "Det finns överenskommelse.",
-      "nl": "Er is overeenkomst."
+      "de": "Ich habe die Vereinbarung, Zustimmung.",
+      "en": "I have agreement.",
+      "sv": "Jag har överenskommelse.",
+      "nl": "Ik heb overeenkomst."
     },
     "alt": {},
     "chunks": [
       "simimi'i",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3059,23 +3059,23 @@
   },
   {
     "id": "sen_gen_bqbq",
-    "am": "ኣንበጣ ልሙድ ኣሎ።",
-    "tr": "anbet'a limud alo.",
+    "am": "ኣንበጣ ልሙድ ኣሎኒ።",
+    "tr": "anbet'a limud alini.",
     "level": "TI",
     "uses": [
       "lex_ti_bqbq"
     ],
     "t": {
-      "de": "die Grille ist vorhanden.",
-      "en": "There is cricket.",
-      "sv": "Det finns syrsa.",
-      "nl": "Er is krekel."
+      "de": "Ich habe die Grille.",
+      "en": "I have cricket.",
+      "sv": "Jag har syrsa.",
+      "nl": "Ik heb krekel."
     },
     "alt": {},
     "chunks": [
       "anbet'a",
       "limud",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3102,23 +3102,23 @@
   },
   {
     "id": "sen_gen_zabab",
-    "am": "ኣንበጣ በረኻ ኣሎ።",
-    "tr": "anbet'a bereka alo.",
+    "am": "ኣንበጣ በረኻ ኣሎኒ።",
+    "tr": "anbet'a bereka alini.",
     "level": "TI",
     "uses": [
       "lex_ti_zabab"
     ],
     "t": {
-      "de": "die Wüstenheuschrecke ist vorhanden.",
-      "en": "There is desert locust.",
-      "sv": "Det finns ökengräshoppa.",
-      "nl": "Er is woestijnsprinkhaan."
+      "de": "Ich habe die Wüstenheuschrecke.",
+      "en": "I have desert locust.",
+      "sv": "Jag har ökengräshoppa.",
+      "nl": "Ik heb woestijnsprinkhaan."
     },
     "alt": {},
     "chunks": [
       "anbet'a",
       "bereka",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3145,22 +3145,22 @@
   },
   {
     "id": "sen_gen_shhab",
-    "am": "ሰውራ ኣሎ።",
-    "tr": "sewra alo.",
+    "am": "ሰውራ ኣሎኒ።",
+    "tr": "sewra alini.",
     "level": "TI",
     "uses": [
       "lex_ti_shhab"
     ],
     "t": {
-      "de": "die Revolution, der Kampf ist vorhanden.",
-      "en": "There is revolution, struggle.",
-      "sv": "Det finns revolution, kamp.",
-      "nl": "Er is revolutie, strijd."
+      "de": "Ich habe die Revolution, der Kampf.",
+      "en": "I have revolution, struggle.",
+      "sv": "Jag har revolution, kamp.",
+      "nl": "Ik heb revolutie, strijd."
     },
     "alt": {},
     "chunks": [
       "sewra",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3187,22 +3187,22 @@
   },
   {
     "id": "sen_gen_zbn",
-    "am": "ዘበን ኣሎ።",
-    "tr": "zeben alo.",
+    "am": "ዘበን ኣሎኒ።",
+    "tr": "zeben alini.",
     "level": "TI",
     "uses": [
       "lex_ti_zbn"
     ],
     "t": {
-      "de": "die Ära, Epoche ist vorhanden.",
-      "en": "There is era, epoch.",
-      "sv": "Det finns era, epok.",
-      "nl": "Er is tijdperk."
+      "de": "Ich habe die Ära, Epoche.",
+      "en": "I have era, epoch.",
+      "sv": "Jag har era, epok.",
+      "nl": "Ik heb tijdperk."
     },
     "alt": {},
     "chunks": [
       "zeben",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3229,23 +3229,23 @@
   },
   {
     "id": "sen_gen_sksh",
-    "am": "ተላጋቢ ሕማም ኣሎ።",
-    "tr": "telagabi himam alo.",
+    "am": "ተላጋቢ ሕማም ኣሎኒ።",
+    "tr": "telagabi himam alini.",
     "level": "TI",
     "uses": [
       "lex_ti_sksh"
     ],
     "t": {
-      "de": "die ansteckende Krankheit ist vorhanden.",
-      "en": "There is contagious disease.",
-      "sv": "Det finns smittsam sjukdom.",
-      "nl": "Er is besmettelijke ziekte."
+      "de": "Ich habe die ansteckende Krankheit.",
+      "en": "I have contagious disease.",
+      "sv": "Jag har smittsam sjukdom.",
+      "nl": "Ik heb besmettelijke ziekte."
     },
     "alt": {},
     "chunks": [
       "telagabi",
       "himam",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3272,22 +3272,22 @@
   },
   {
     "id": "sen_gen_snbulet",
-    "am": "ስንብራት ኣሎ።",
-    "tr": "sinibrat alo.",
+    "am": "ስንብራት ኣሎኒ።",
+    "tr": "sinibrat alini.",
     "level": "TI",
     "uses": [
       "lex_ti_snbulet"
     ],
     "t": {
-      "de": "die Narbe ist vorhanden.",
-      "en": "There is scar.",
-      "sv": "Det finns ärr.",
-      "nl": "Er is litteken."
+      "de": "Ich habe die Narbe.",
+      "en": "I have scar.",
+      "sv": "Jag har ärr.",
+      "nl": "Ik heb litteken."
     },
     "alt": {},
     "chunks": [
       "sinibrat",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3314,23 +3314,23 @@
   },
   {
     "id": "sen_gen_neqti",
-    "am": "ነጥቢ (ጸወታ) ኣሎ።",
-    "tr": "netbi tsewuta alo.",
+    "am": "ነጥቢ (ጸወታ) ኣሎኒ።",
+    "tr": "netbi tsewuta alini.",
     "level": "TI",
     "uses": [
       "lex_ti_neqti"
     ],
     "t": {
-      "de": "der Punkt (Spiel) ist vorhanden.",
-      "en": "There is point (game).",
-      "sv": "Det finns poäng.",
-      "nl": "Er is punt (spel)."
+      "de": "Ich habe der Punkt (Spiel).",
+      "en": "I have point (game).",
+      "sv": "Jag har poäng.",
+      "nl": "Ik heb punt (spel)."
     },
     "alt": {},
     "chunks": [
       "netbi",
       "tsewuta",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3358,22 +3358,22 @@
   },
   {
     "id": "sen_gen_medl",
-    "am": "ሜዳልያ ኣሎ።",
-    "tr": "medalya alo.",
+    "am": "ሜዳልያ ኣሎኒ።",
+    "tr": "medalya alini.",
     "level": "TI",
     "uses": [
       "lex_ti_medl"
     ],
     "t": {
-      "de": "die Medaille ist vorhanden.",
-      "en": "There is medal.",
-      "sv": "Det finns medalj.",
-      "nl": "Er is medaille."
+      "de": "Ich habe die Medaille.",
+      "en": "I have medal.",
+      "sv": "Jag har medalj.",
+      "nl": "Ik heb medaille."
     },
     "alt": {},
     "chunks": [
       "medalya",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3401,22 +3401,22 @@
   },
   {
     "id": "sen_gen_kzln",
-    "am": "ፐርሰንት ኣሎ።",
-    "tr": "persent alo.",
+    "am": "ፐርሰንት ኣሎኒ።",
+    "tr": "persent alini.",
     "level": "TI",
     "uses": [
       "lex_ti_kzln"
     ],
     "t": {
-      "de": "das Prozent ist vorhanden.",
-      "en": "There is percent.",
-      "sv": "Det finns procent.",
-      "nl": "Er is procent."
+      "de": "Ich habe das Prozent.",
+      "en": "I have percent.",
+      "sv": "Jag har procent.",
+      "nl": "Ik heb procent."
     },
     "alt": {},
     "chunks": [
       "persent",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3443,23 +3443,23 @@
   },
   {
     "id": "sen_gen_hntu",
-    "am": "ስፍሓት ገጽ ኣሎ።",
-    "tr": "sifhat gets alo.",
+    "am": "ስፍሓት ገጽ ኣሎኒ።",
+    "tr": "sifhat gets alini.",
     "level": "TI",
     "uses": [
       "lex_ti_hntu"
     ],
     "t": {
-      "de": "die Fläche ist vorhanden.",
-      "en": "There is area, surface.",
-      "sv": "Det finns yta.",
-      "nl": "Er is oppervlakte."
+      "de": "Ich habe die Fläche.",
+      "en": "I have area, surface.",
+      "sv": "Jag har yta.",
+      "nl": "Ik heb oppervlakte."
     },
     "alt": {},
     "chunks": [
       "sifhat",
       "gets",
-      "alo."
+      "alini."
     ],
     "verified": false
   },
@@ -3509,23 +3509,23 @@
   },
   {
     "id": "sen_gen_frti",
-    "am": "ንሱ ገፊሕ እዩ።",
-    "tr": "nisu gefih 'iyu.",
+    "am": "ንሳ ገፊሕ እያ።",
+    "tr": "nisa gefih 'iya.",
     "level": "TI",
     "uses": [
       "lex_ti_frti"
     ],
     "t": {
-      "de": "Er ist weit, locker (Kleidung).",
-      "en": "He is loose, baggy (clothing).",
-      "sv": "Han är vid, lös (kläder).",
-      "nl": "Hij is wijd, los (kleding)."
+      "de": "Sie ist weit, locker (Kleidung).",
+      "en": "She is loose, baggy (clothing).",
+      "sv": "Hon är vid, lös (kläder).",
+      "nl": "Zij is wijd, los (kleding)."
     },
     "alt": {},
     "chunks": [
-      "nisu",
+      "nisa",
       "gefih",
-      "'iyu."
+      "'iya."
     ],
     "verified": false
   },

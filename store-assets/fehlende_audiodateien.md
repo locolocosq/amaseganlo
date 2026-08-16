@@ -2275,376 +2275,376 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Amharisch | አልገባኝም። | algebagnim. | sen_gen_algebagnem.mp3 |
 | Amharisch | ይቅርታ። | yikirta. | sen_gen_yikirta_2.mp3 |
 | Amharisch | እናት አለ። | innat ale. | sen_gen_mutter.mp3 |
-| Amharisch | አባት አለ። | abbat ale. | sen_gen_vater.mp3 |
-| Amharisch | ልጅ አለ። | lij ale. | sen_gen_kind.mp3 |
+| Amharisch | አባት አለኝ። | abbat alegn. | sen_gen_vater.mp3 |
+| Amharisch | ልጅ እወዳለሁ። | lij iwedallehu. | sen_gen_kind.mp3 |
 | Amharisch | አንድ አለ። | and ale. | sen_gen_zahl_1.mp3 |
-| Amharisch | አራት አለ። | arat ale. | sen_gen_zahl_4.mp3 |
+| Amharisch | አራት አለኝ። | arat alegn. | sen_gen_zahl_4.mp3 |
 | Amharisch | ቡና አለ። | buna ale. | sen_gen_kaffee.mp3 |
-| Amharisch | ወተት አለ። | wetet ale. | sen_gen_milch.mp3 |
-| Amharisch | ስጋ አለ። | siga ale. | sen_gen_fleisch.mp3 |
+| Amharisch | ወተት አለኝ። | wetet alegn. | sen_gen_milch.mp3 |
+| Amharisch | ስጋ እወዳለሁ። | siga iwedallehu. | sen_gen_fleisch.mp3 |
 | Amharisch | ጠምቶኛል። | t'emtogniall. | sen_gen_durstig.mp3 |
 | Amharisch | ርቦኛል። | ribogniall. | sen_gen_hungrig.mp3 |
 | Amharisch | ጠምቶኛል። | t'emtogniall. | sen_gen_durstig_2.mp3 |
 | Amharisch | ርቦኛል። | ribogniall. | sen_gen_hungrig_2.mp3 |
 | Amharisch | መጠጣት እፈልጋለሁ። | met'et'at ifeligalehu. | sen_gen_trinken_verb.mp3 |
 | Amharisch | ክፍል አለ። | kifil ale. | sen_gen_zimmer.mp3 |
-| Amharisch | ጠረጴዛ አለ። | t'eret'eza ale. | sen_gen_tisch.mp3 |
-| Amharisch | ወንበር አለ። | wenber ale. | sen_gen_stuhl.mp3 |
+| Amharisch | ጠረጴዛ አለኝ። | t'eret'eza alegn. | sen_gen_tisch.mp3 |
+| Amharisch | ወንበር እወዳለሁ። | wenber iwedallehu. | sen_gen_stuhl.mp3 |
 | Amharisch | ቀን አለ። | ken ale. | sen_gen_tag.mp3 |
-| Amharisch | ሌሊት አለ። | lelit ale. | sen_gen_nacht.mp3 |
-| Amharisch | ማታ አለ። | mata ale. | sen_gen_abend.mp3 |
+| Amharisch | ሌሊት አለኝ። | lelit alegn. | sen_gen_nacht.mp3 |
+| Amharisch | ማታ እወዳለሁ። | mata iwedallehu. | sen_gen_abend.mp3 |
 | Amharisch | እሱ ቀይ ነው። | issu keyy new. | sen_gen_rot.mp3 |
-| Amharisch | እሱ ሰማያዊ ነው። | issu semayawi new. | sen_gen_blau.mp3 |
-| Amharisch | እሱ አረንጓዴ ነው። | issu arenguadie new. | sen_gen_gruen.mp3 |
+| Amharisch | እሷ ሰማያዊ ናት። | iswa semayawi nat. | sen_gen_blau.mp3 |
+| Amharisch | በጣም አረንጓዴ ነው። | bet'am arenguadie new. | sen_gen_gruen.mp3 |
 | Amharisch | ሰላሳ አለ። | selasa ale. | sen_gen_zahl_30.mp3 |
-| Amharisch | አርባ አለ። | arba ale. | sen_gen_zahl_40.mp3 |
-| Amharisch | ሃምሳ አለ። | hamsa ale. | sen_gen_zahl_50.mp3 |
+| Amharisch | አርባ አለኝ። | arba alegn. | sen_gen_zahl_40.mp3 |
+| Amharisch | ሃምሳ እወዳለሁ። | hamsa iwedallehu. | sen_gen_zahl_50.mp3 |
 | Amharisch | ስድሳ አለ። | sidsa ale. | sen_gen_zahl_60.mp3 |
 | Amharisch | መንገድ አለ። | mengad ale. | sen_gen_strasse.mp3 |
-| Amharisch | ሆስፒታል አለ። | hospital ale. | sen_gen_krankenhaus.mp3 |
-| Amharisch | ትምህርት ቤት አለ። | timhirt biet ale. | sen_gen_schule.mp3 |
+| Amharisch | ሆስፒታል አለኝ። | hospital alegn. | sen_gen_krankenhaus.mp3 |
+| Amharisch | ትምህርት ቤት እወዳለሁ። | timhirt biet iwedallehu. | sen_gen_schule.mp3 |
 | Amharisch | ልብስ አለ። | libs ale. | sen_gen_kleidung.mp3 |
-| Amharisch | ሱሪ አለ። | suri ale. | sen_gen_hose.mp3 |
-| Amharisch | ጫማ አለ። | chama ale. | sen_gen_schuh.mp3 |
+| Amharisch | ሱሪ አለኝ። | suri alegn. | sen_gen_hose.mp3 |
+| Amharisch | ጫማ እወዳለሁ። | chama iwedallehu. | sen_gen_schuh.mp3 |
 | Amharisch | ካፕ አለ። | kap ale. | sen_gen_hut.mp3 |
 | Amharisch | ሰሜን አለ። | semien ale. | sen_gen_norden.mp3 |
-| Amharisch | ደቡብ አለ። | debub ale. | sen_gen_sueden.mp3 |
-| Amharisch | ምስራቅ አለ። | misrak' ale. | sen_gen_osten.mp3 |
+| Amharisch | ደቡብ አለኝ። | debub alegn. | sen_gen_sueden.mp3 |
+| Amharisch | ምስራቅ እወዳለሁ። | misrak' iwedallehu. | sen_gen_osten.mp3 |
 | Amharisch | ምዕራብ አለ። | mi'irab ale. | sen_gen_westen.mp3 |
 | Amharisch | ኩባያ አለ። | kubaya ale. | sen_gen_tasse.mp3 |
-| Amharisch | ማንኪያ አለ። | mankiya ale. | sen_gen_loeffel.mp3 |
-| Amharisch | ፎርክ አለ። | fork ale. | sen_gen_gabel.mp3 |
+| Amharisch | ማንኪያ አለኝ። | mankiya alegn. | sen_gen_loeffel.mp3 |
+| Amharisch | ፎርክ እወዳለሁ። | fork iwedallehu. | sen_gen_gabel.mp3 |
 | Amharisch | ቢላዋ አለ። | bilawa ale. | sen_gen_messer.mp3 |
 | Amharisch | ቲማቲም አለ። | timatim ale. | sen_gen_tomate.mp3 |
-| Amharisch | ድንች አለ። | dinich ale. | sen_gen_kartoffel.mp3 |
-| Amharisch | ነጭ ሽንኩርት አለ። | nech shinkurt ale. | sen_gen_knoblauch.mp3 |
+| Amharisch | ድንች አለኝ። | dinich alegn. | sen_gen_kartoffel.mp3 |
+| Amharisch | ነጭ ሽንኩርት እወዳለሁ። | nech shinkurt iwedallehu. | sen_gen_knoblauch.mp3 |
 | Amharisch | ካሮት አለ። | karot ale. | sen_gen_karotte.mp3 |
 | Amharisch | እሱ አንደኛ ነው። | issu andegna new. | sen_gen_erste.mp3 |
-| Amharisch | እሱ ሁለተኛ ነው። | issu huletegna new. | sen_gen_zweite.mp3 |
-| Amharisch | እሱ ሶስተኛ ነው። | issu sostegna new. | sen_gen_dritte.mp3 |
+| Amharisch | እሷ ሁለተኛ ናት። | iswa huletegna nat. | sen_gen_zweite.mp3 |
+| Amharisch | በጣም ሶስተኛ ነው። | bet'am sostegna new. | sen_gen_dritte.mp3 |
 | Amharisch | እሱ አራተኛ ነው። | issu arategna new. | sen_gen_vierte.mp3 |
-| Amharisch | እሱ አምስተኛ ነው። | issu amistegna new. | sen_gen_fuenfte.mp3 |
+| Amharisch | እሷ አምስተኛ ናት። | iswa amistegna nat. | sen_gen_fuenfte.mp3 |
 | Amharisch | ምንጣፍ አለ። | mint'af ale. | sen_gen_teppich.mp3 |
-| Amharisch | ትራስ አለ። | tiras ale. | sen_gen_kissen.mp3 |
-| Amharisch | ብርድ ልብስ አለ። | birid libs ale. | sen_gen_decke.mp3 |
+| Amharisch | ትራስ አለኝ። | tiras alegn. | sen_gen_kissen.mp3 |
+| Amharisch | ብርድ ልብስ እወዳለሁ። | birid libs iwedallehu. | sen_gen_decke.mp3 |
 | Amharisch | መጋረጃ አለ። | megareja ale. | sen_gen_vorhang.mp3 |
-| Amharisch | ግድግዳ አለ። | gidigida ale. | sen_gen_wand.mp3 |
+| Amharisch | ግድግዳ አለኝ። | gidigida alegn. | sen_gen_wand.mp3 |
 | Amharisch | ሃያ አንድ አለ። | haya and ale. | sen_gen_zahl_21.mp3 |
-| Amharisch | ሃያ ሁለት አለ። | haya hulet ale. | sen_gen_zahl_22.mp3 |
-| Amharisch | ሃያ ሶስት አለ። | haya sost ale. | sen_gen_zahl_23.mp3 |
+| Amharisch | ሃያ ሁለት አለኝ። | haya hulet alegn. | sen_gen_zahl_22.mp3 |
+| Amharisch | ሃያ ሶስት እወዳለሁ። | haya sost iwedallehu. | sen_gen_zahl_23.mp3 |
 | Amharisch | ሃያ አራት አለ። | haya arat ale. | sen_gen_zahl_24.mp3 |
-| Amharisch | ሃያ አምስት አለ። | haya amist ale. | sen_gen_zahl_25.mp3 |
+| Amharisch | ሃያ አምስት አለኝ። | haya amist alegn. | sen_gen_zahl_25.mp3 |
 | Amharisch | እሱ ስድስተኛ ነው። | issu sidistegna new. | sen_gen_sechste.mp3 |
-| Amharisch | እሱ ሰባተኛ ነው። | issu sebategna new. | sen_gen_siebte.mp3 |
-| Amharisch | እሱ ስምንተኛ ነው። | issu siminitegna new. | sen_gen_achte.mp3 |
+| Amharisch | እሷ ሰባተኛ ናት። | iswa sebategna nat. | sen_gen_siebte.mp3 |
+| Amharisch | በጣም ስምንተኛ ነው። | bet'am siminitegna new. | sen_gen_achte.mp3 |
 | Amharisch | እሱ ዘጠነኛ ነው። | issu zetenegna new. | sen_gen_neunte.mp3 |
-| Amharisch | እሱ አስረኛ ነው። | issu asregna new. | sen_gen_zehnte.mp3 |
+| Amharisch | እሷ አስረኛ ናት። | iswa asregna nat. | sen_gen_zehnte.mp3 |
 | Amharisch | እሱ ብዙ ነው። | issu bizu new. | sen_gen_viel.mp3 |
-| Amharisch | እሱ ጥቂት ነው። | issu t'ik'it new. | sen_gen_wenig.mp3 |
-| Amharisch | እሱ ተጨማሪ ነው። | issu techemari new. | sen_gen_mehr.mp3 |
+| Amharisch | እሷ ጥቂት ናት። | iswa t'ik'it nat. | sen_gen_wenig.mp3 |
+| Amharisch | በጣም ተጨማሪ ነው። | bet'am techemari new. | sen_gen_mehr.mp3 |
 | Amharisch | እሱ በቂ ነው። | issu beki' new. | sen_gen_genug.mp3 |
 | Amharisch | ቀትር አለ። | ket'ir ale. | sen_gen_mittag.mp3 |
 | Amharisch | ማቀዝቀዣ አለ። | mak'ezk'eza ale. | sen_gen_kuehlschrank.mp3 |
-| Amharisch | ምድጃ አለ። | midija ale. | sen_gen_ofen.mp3 |
-| Amharisch | ወርቅ አለ። | werk' ale. | sen_gen_gold.mp3 |
+| Amharisch | ምድጃ አለኝ። | midija alegn. | sen_gen_ofen.mp3 |
+| Amharisch | ወርቅ እወዳለሁ። | werk' iwedallehu. | sen_gen_gold.mp3 |
 | Amharisch | ብር አለ። | bir ale. | sen_gen_silber.mp3 |
-| Amharisch | ቢራ አለ። | bira ale. | sen_gen_bier.mp3 |
+| Amharisch | ቢራ አለኝ። | bira alegn. | sen_gen_bier.mp3 |
 | Amharisch | ኃይለኛ ንፋስ አለ። | hailegna nifas ale. | sen_gen_sturm.mp3 |
-| Amharisch | መብረቅ አለ። | mebrek' ale. | sen_gen_blitz.mp3 |
-| Amharisch | ነጎድጓድ አለ። | negodgwad ale. | sen_gen_donner.mp3 |
+| Amharisch | መብረቅ አለኝ። | mebrek' alegn. | sen_gen_blitz.mp3 |
+| Amharisch | ነጎድጓድ እወዳለሁ። | negodgwad iwedallehu. | sen_gen_donner.mp3 |
 | Amharisch | እሱ እርጥበት ያለው ነው። | issu irt'ibet yalew new. | sen_gen_feucht.mp3 |
 | Amharisch | ጭጋግ አለ። | chigag ale. | sen_gen_nebel.mp3 |
 | Amharisch | ላም አለ። | lam ale. | sen_gen_kuh.mp3 |
-| Amharisch | ፍየል አለ። | fiyel ale. | sen_gen_ziege.mp3 |
-| Amharisch | በግ አለ። | beg ale. | sen_gen_schaf.mp3 |
+| Amharisch | ፍየል አለኝ። | fiyel alegn. | sen_gen_ziege.mp3 |
+| Amharisch | በግ እወዳለሁ። | beg iwedallehu. | sen_gen_schaf.mp3 |
 | Amharisch | አህያ አለ። | ahiya ale. | sen_gen_esel.mp3 |
-| Amharisch | ግመል አለ። | gimel ale. | sen_gen_kamel.mp3 |
+| Amharisch | ግመል አለኝ። | gimel alegn. | sen_gen_kamel.mp3 |
 | Amharisch | ብርድ ልብስ አለ። | birid libs ale. | sen_gen_decke_bett.mp3 |
-| Amharisch | ጥራሪ አለ። | t'irari ale. | sen_gen_besen.mp3 |
-| Amharisch | ባልዲ አለ። | baldi ale. | sen_gen_eimer.mp3 |
+| Amharisch | ጥራሪ አለኝ። | t'irari alegn. | sen_gen_besen.mp3 |
+| Amharisch | ባልዲ እወዳለሁ። | baldi iwedallehu. | sen_gen_eimer.mp3 |
 | Amharisch | ሻማ አለ። | shama ale. | sen_gen_kerze.mp3 |
-| Amharisch | ጅብ አለ። | jib ale. | sen_gen_hyaene.mp3 |
+| Amharisch | ጅብ አለኝ። | jib alegn. | sen_gen_hyaene.mp3 |
 | Amharisch | ቦት ጫማ አለ። | bot chama ale. | sen_gen_stiefel.mp3 |
-| Amharisch | ጌጣጌጥ አለ። | geTagéT' ale. | sen_gen_schmuck.mp3 |
-| Amharisch | ጓንት አለ። | gwanit ale. | sen_gen_handschuhe.mp3 |
+| Amharisch | ጌጣጌጥ አለኝ። | geTagéT' alegn. | sen_gen_schmuck.mp3 |
+| Amharisch | ጓንት እወዳለሁ። | gwanit iwedallehu. | sen_gen_handschuhe.mp3 |
 | Amharisch | የፀሐይ መነጽር አለ። | yetsehai menetsir ale. | sen_gen_sonnenbrille.mp3 |
-| Amharisch | ጃንጥላ አለ። | jant'ila ale. | sen_gen_regenschirm.mp3 |
+| Amharisch | ጃንጥላ አለኝ። | jant'ila alegn. | sen_gen_regenschirm.mp3 |
 | Amharisch | ምጥ አለ። | mit' ale. | sen_gen_pfanne.mp3 |
-| Amharisch | የመቁረጫ ሰሌዳ አለ። | yemek'urecha seleda ale. | sen_gen_schneidebrett.mp3 |
-| Amharisch | ማንኪያ ትልቅ አለ። | mankiya tilik' ale. | sen_gen_schoepfloeffel.mp3 |
+| Amharisch | የመቁረጫ ሰሌዳ አለኝ። | yemek'urecha seleda alegn. | sen_gen_schneidebrett.mp3 |
+| Amharisch | ማንኪያ ትልቅ እወዳለሁ። | mankiya tilik' iwedallehu. | sen_gen_schoepfloeffel.mp3 |
 | Amharisch | መፋቂያ አለ። | mefak'iya ale. | sen_gen_reibe.mp3 |
-| Amharisch | ማጣሪያ አለ። | mat'ariya ale. | sen_gen_sieb.mp3 |
+| Amharisch | ማጣሪያ አለኝ። | mat'ariya alegn. | sen_gen_sieb.mp3 |
 | Amharisch | እርሳስ አለ። | irsas ale. | sen_gen_bleistift.mp3 |
-| Amharisch | ማጥፊያ አለ። | mat'ifiya ale. | sen_gen_radiergummi.mp3 |
-| Amharisch | መስመሪያ አለ። | mesimeriya ale. | sen_gen_lineal.mp3 |
+| Amharisch | ማጥፊያ አለኝ። | mat'ifiya alegn. | sen_gen_radiergummi.mp3 |
+| Amharisch | መስመሪያ እወዳለሁ። | mesimeriya iwedallehu. | sen_gen_lineal.mp3 |
 | Amharisch | ስቴፕለር አለ። | steplar ale. | sen_gen_hefter.mp3 |
-| Amharisch | መቀስ አለ። | mek'es ale. | sen_gen_schere.mp3 |
+| Amharisch | መቀስ አለኝ። | mek'es alegn. | sen_gen_schere.mp3 |
 | Amharisch | መምጣት እፈልጋለሁ። | memt'at ifeligalehu. | sen_gen_v_kommen.mp3 |
-| Amharisch | ማየት እፈልጋለሁ። | mayet ifeligalehu. | sen_gen_v_sehen.mp3 |
+| Amharisch | ማየት እወዳለሁ። | mayet iwedallehu. | sen_gen_v_sehen.mp3 |
 | Amharisch | ማድረግ እፈልጋለሁ። | madirege ifeligalehu. | sen_gen_v_machen.mp3 |
 | Amharisch | ሄድኩ። | hedku. | sen_gen_ich_ging.mp3 |
 | Amharisch | በላሁ። | belahu. | sen_gen_ich_ass.mp3 |
 | Amharisch | ጠጣሁ። | t'et'ahu. | sen_gen_ich_trank.mp3 |
 | Amharisch | መሳቅ እፈልጋለሁ። | mesak' ifeligalehu. | sen_gen_v_lachen.mp3 |
 | Amharisch | ዓይን አለ። | ayn ale. | sen_gen_auge.mp3 |
-| Amharisch | ጆሮ አለ። | joro ale. | sen_gen_ohr.mp3 |
-| Amharisch | አፍንጫ አለ። | afincha ale. | sen_gen_nase.mp3 |
+| Amharisch | ጆሮ አለኝ። | joro alegn. | sen_gen_ohr.mp3 |
+| Amharisch | አፍንጫ እወዳለሁ። | afincha iwedallehu. | sen_gen_nase.mp3 |
 | Amharisch | ስራ አለ። | sira ale. | sen_gen_beruf.mp3 |
-| Amharisch | ቢሮ አለ። | biro ale. | sen_gen_buero.mp3 |
-| Amharisch | አስተማሪ አለ። | astemari ale. | sen_gen_lehrer.mp3 |
+| Amharisch | ቢሮ አለኝ። | biro alegn. | sen_gen_buero.mp3 |
+| Amharisch | አስተማሪ እወዳለሁ። | astemari iwedallehu. | sen_gen_lehrer.mp3 |
 | Amharisch | አውቶቢስ አለ። | awtobis ale. | sen_gen_bus.mp3 |
-| Amharisch | ታክሲ አለ። | taksi ale. | sen_gen_taxi.mp3 |
-| Amharisch | ትኬት አለ። | tiket ale. | sen_gen_ticket.mp3 |
+| Amharisch | ታክሲ አለኝ። | taksi alegn. | sen_gen_taxi.mp3 |
+| Amharisch | ትኬት እወዳለሁ። | tiket iwedallehu. | sen_gen_ticket.mp3 |
 | Amharisch | ሻንጣ አለ። | shanta ale. | sen_gen_gepaeck.mp3 |
 | Amharisch | ዝናብ አለ። | zinab ale. | sen_gen_regen.mp3 |
-| Amharisch | ነፋስ አለ። | nefas ale. | sen_gen_wind.mp3 |
-| Amharisch | ተራራ አለ። | terara ale. | sen_gen_berg.mp3 |
+| Amharisch | ነፋስ አለኝ። | nefas alegn. | sen_gen_wind.mp3 |
+| Amharisch | ተራራ እወዳለሁ። | terara iwedallehu. | sen_gen_berg.mp3 |
 | Amharisch | አብሳይ አለ። | abesay ale. | sen_gen_koch.mp3 |
-| Amharisch | ሹፌር አለ። | shoferr ale. | sen_gen_fahrer.mp3 |
-| Amharisch | ኢንጂነር አለ። | injinerr ale. | sen_gen_ingenieur.mp3 |
+| Amharisch | ሹፌር አለኝ። | shoferr alegn. | sen_gen_fahrer.mp3 |
+| Amharisch | ኢንጂነር እወዳለሁ። | injinerr iwedallehu. | sen_gen_ingenieur.mp3 |
 | Amharisch | አርቲስት አለ። | artist ale. | sen_gen_kuenstler.mp3 |
 | Amharisch | መዋኘት እፈልጋለሁ። | mewagnet ifeligalehu. | sen_gen_v_schwimmen.mp3 |
 | Amharisch | ሙዚቃ አለ። | muzika ale. | sen_gen_musik.mp3 |
-| Amharisch | ፊልም አለ። | film ale. | sen_gen_film.mp3 |
-| Amharisch | ራድዮ አለ። | radiyo ale. | sen_gen_radio.mp3 |
+| Amharisch | ፊልም አለኝ። | film alegn. | sen_gen_film.mp3 |
+| Amharisch | ራድዮ እወዳለሁ። | radiyo iwedallehu. | sen_gen_radio.mp3 |
 | Amharisch | እሱ ዝግተኛ ነው። | issu zigitegna new. | sen_gen_langsam.mp3 |
-| Amharisch | እሱ ንጹህ ነው። | issu nitsuh new. | sen_gen_sauber.mp3 |
-| Amharisch | እሱ ቆሻሻ ነው። | issu k'oshasha new. | sen_gen_schmutzig.mp3 |
+| Amharisch | እሷ ንጹህ ናት። | iswa nitsuh nat. | sen_gen_sauber.mp3 |
+| Amharisch | በጣም ቆሻሻ ነው። | bet'am k'oshasha new. | sen_gen_schmutzig.mp3 |
 | Amharisch | እሱ ሙሉ ነው። | issu mulu new. | sen_gen_voll.mp3 |
 | Amharisch | እንግሊዝ አለ። | ingiliz ale. | sen_gen_england.mp3 |
-| Amharisch | ስዊድን አለ። | swidin ale. | sen_gen_schweden.mp3 |
-| Amharisch | ሆላንድ አለ። | holand ale. | sen_gen_niederlande.mp3 |
+| Amharisch | ስዊድን አለኝ። | swidin alegn. | sen_gen_schweden.mp3 |
+| Amharisch | ሆላንድ እወዳለሁ። | holand iwedallehu. | sen_gen_niederlande.mp3 |
 | Amharisch | ፈረንሳይ አለ። | ferensay ale. | sen_gen_frankreich.mp3 |
 | Amharisch | መገንባት እፈልጋለሁ። | megenbat ifeligalehu. | sen_gen_v_bauen.mp3 |
-| Amharisch | መሸከም እፈልጋለሁ። | meshekem ifeligalehu. | sen_gen_v_tragen.mp3 |
+| Amharisch | መሸከም እወዳለሁ። | meshekem iwedallehu. | sen_gen_v_tragen.mp3 |
 | Amharisch | መጎተት እፈልጋለሁ። | megotet ifeligalehu. | sen_gen_v_ziehen.mp3 |
-| Amharisch | መውደቅ እፈልጋለሁ። | mewdek' ifeligalehu. | sen_gen_v_fallen.mp3 |
+| Amharisch | መውደቅ እወዳለሁ። | mewdek' iwedallehu. | sen_gen_v_fallen.mp3 |
 | Amharisch | መዝለል እፈልጋለሁ። | mezlel ifeligalehu. | sen_gen_v_springen.mp3 |
 | Amharisch | እንጨት አለ። | inchet ale. | sen_gen_holz.mp3 |
-| Amharisch | ድንጋይ አለ። | dingay ale. | sen_gen_stein.mp3 |
-| Amharisch | ብረት አለ። | biret ale. | sen_gen_eisen.mp3 |
+| Amharisch | ድንጋይ አለኝ። | dingay alegn. | sen_gen_stein.mp3 |
+| Amharisch | ብረት እወዳለሁ። | biret iwedallehu. | sen_gen_eisen.mp3 |
 | Amharisch | ላስቲክ አለ። | lastik ale. | sen_gen_plastik.mp3 |
 | Amharisch | መጠገን እፈልጋለሁ። | met'egen ifeligalehu. | sen_gen_v_reparieren.mp3 |
 | Amharisch | መጀመር እፈልጋለሁ። | mejemer ifeligalehu. | sen_gen_v_beginnen.mp3 |
-| Amharisch | ማቆም እፈልጋለሁ። | mak'om ifeligalehu. | sen_gen_v_aufhoeren.mp3 |
+| Amharisch | ማቆም እወዳለሁ። | mak'om iwedallehu. | sen_gen_v_aufhoeren.mp3 |
 | Amharisch | ማሸነፍ እፈልጋለሁ። | mashenef ifeligalehu. | sen_gen_v_gewinnen.mp3 |
-| Amharisch | ማጣት እፈልጋለሁ። | mat'at ifeligalehu. | sen_gen_v_verlieren.mp3 |
+| Amharisch | ማጣት እወዳለሁ። | mat'at iwedallehu. | sen_gen_v_verlieren.mp3 |
 | Amharisch | መክፈል እፈልጋለሁ። | mekfel ifeligalehu. | sen_gen_v_bezahlen.mp3 |
 | Amharisch | ስልክ አለ። | silk ale. | sen_gen_telefon.mp3 |
-| Amharisch | ኢንተርኔት አለ። | internet ale. | sen_gen_internet.mp3 |
-| Amharisch | ኢሜል አለ። | imayl ale. | sen_gen_email.mp3 |
+| Amharisch | ኢንተርኔት አለኝ። | internet alegn. | sen_gen_internet.mp3 |
+| Amharisch | ኢሜል እወዳለሁ። | imayl iwedallehu. | sen_gen_email.mp3 |
 | Amharisch | መልእክት አለ። | melikt ale. | sen_gen_nachricht.mp3 |
-| Amharisch | ባትሪ አለ። | batri ale. | sen_gen_batterie.mp3 |
+| Amharisch | ባትሪ አለኝ። | batri alegn. | sen_gen_batterie.mp3 |
 | Amharisch | ክትባት አለ። | kitibat ale. | sen_gen_impfung.mp3 |
-| Amharisch | ጉዳት አለ። | gudat ale. | sen_gen_verletzung.mp3 |
-| Amharisch | አደጋ አለ። | adega ale. | sen_gen_unfall.mp3 |
+| Amharisch | ጉዳት አለኝ። | gudat alegn. | sen_gen_verletzung.mp3 |
+| Amharisch | አደጋ እወዳለሁ። | adega iwedallehu. | sen_gen_unfall.mp3 |
 | Amharisch | ቀስተ ደመና አለ። | k'este demena ale. | sen_gen_regenbogen.mp3 |
-| Amharisch | በረሃ አለ። | bereha ale. | sen_gen_wueste.mp3 |
+| Amharisch | በረሃ አለኝ። | bereha alegn. | sen_gen_wueste.mp3 |
 | Amharisch | እሱ ቀናተኛ ነው። | issu kenategna new. | sen_gen_eifersuechtig.mp3 |
 | Amharisch | መገረም እፈልጋለሁ። | megerem ifeligalehu. | sen_gen_v_erstaunt.mp3 |
-| Amharisch | መጨነቅ እፈልጋለሁ። | mechenek' ifeligalehu. | sen_gen_v_besorgt.mp3 |
+| Amharisch | መጨነቅ እወዳለሁ። | mechenek' iwedallehu. | sen_gen_v_besorgt.mp3 |
 | Amharisch | ማፈር እፈልጋለሁ። | mafer ifeligalehu. | sen_gen_v_verlegen.mp3 |
 | Amharisch | ብቸኝነት አለ። | bichegninet ale. | sen_gen_einsamkeit.mp3 |
 | Amharisch | እሱ አስተዋይ ነው። | issu astewai new. | sen_gen_intelligent.mp3 |
-| Amharisch | እሱ ስንፍተኛ ነው። | issu sinfitegna new. | sen_gen_faul.mp3 |
-| Amharisch | እሱ ታታሪ ነው። | issu tatari new. | sen_gen_fleissig.mp3 |
+| Amharisch | እሷ ስንፍተኛ ናት። | iswa sinfitegna nat. | sen_gen_faul.mp3 |
+| Amharisch | በጣም ታታሪ ነው። | bet'am tatari new. | sen_gen_fleissig.mp3 |
 | Amharisch | እሱ ታማኝ ነው። | issu tamagn new. | sen_gen_ehrlich.mp3 |
-| Amharisch | እሱ ቸር ነው። | issu cher new. | sen_gen_grossherzig.mp3 |
+| Amharisch | እሷ ቸር ናት። | iswa cher nat. | sen_gen_grossherzig.mp3 |
 | Amharisch | ዳኛ አለ። | dagna ale. | sen_gen_richter.mp3 |
-| Amharisch | ቄስ አለ። | k'es ale. | sen_gen_priester.mp3 |
-| Amharisch | ልብስ ስፌት አለ። | libs sifet ale. | sen_gen_schneider.mp3 |
+| Amharisch | ቄስ አለኝ። | k'es alegn. | sen_gen_priester.mp3 |
+| Amharisch | ልብስ ስፌት እወዳለሁ። | libs sifet iwedallehu. | sen_gen_schneider.mp3 |
 | Amharisch | ጣውላ ሰራተኛ አለ። | t'awila serategna ale. | sen_gen_zimmermann.mp3 |
-| Amharisch | ፀሐፊ አለ። | tsehafi ale. | sen_gen_sekretaer.mp3 |
+| Amharisch | ፀሐፊ አለኝ። | tsehafi alegn. | sen_gen_sekretaer.mp3 |
 | Amharisch | ቅናሽ አለ። | k'inash ale. | sen_gen_rabatt.mp3 |
-| Amharisch | ደረሰኝ አለ። | deresegn ale. | sen_gen_quittung.mp3 |
-| Amharisch | ጥሬ ገንዘብ አለ። | t'ire genzeb ale. | sen_gen_bargeld.mp3 |
+| Amharisch | ደረሰኝ አለኝ። | deresegn alegn. | sen_gen_quittung.mp3 |
+| Amharisch | ጥሬ ገንዘብ እወዳለሁ። | t'ire genzeb iwedallehu. | sen_gen_bargeld.mp3 |
 | Amharisch | ክሬዲት ካርድ አለ። | kredit kard ale. | sen_gen_kreditkarte.mp3 |
-| Amharisch | ቦርሳ ገንዘብ አለ። | borsa genzeb ale. | sen_gen_geldbeutel.mp3 |
+| Amharisch | ቦርሳ ገንዘብ አለኝ። | borsa genzeb alegn. | sen_gen_geldbeutel.mp3 |
 | Amharisch | የመንገድ መብራት አለ። | yemenged mebrat ale. | sen_gen_ampel.mp3 |
-| Amharisch | ትኬት አለ። | tiket ale. | sen_gen_fahrkarte.mp3 |
-| Amharisch | የአውቶብስ ማቆሚያ አለ። | yeawtobis mak'omiya ale. | sen_gen_bushaltestelle.mp3 |
+| Amharisch | ትኬት አለኝ። | tiket alegn. | sen_gen_fahrkarte.mp3 |
+| Amharisch | የአውቶብስ ማቆሚያ እወዳለሁ። | yeawtobis mak'omiya iwedallehu. | sen_gen_bushaltestelle.mp3 |
 | Amharisch | የመንጃ ፍቃድ አለ። | yemenja fik'ad ale. | sen_gen_fuehrerschein.mp3 |
-| Amharisch | ነዳጅ ማደያ አለ። | nedaj madeya ale. | sen_gen_tankstelle.mp3 |
+| Amharisch | ነዳጅ ማደያ አለኝ። | nedaj madeya alegn. | sen_gen_tankstelle.mp3 |
 | Amharisch | እሱ የቀረበ ነው። | issu yekerebe new. | sen_gen_nah.mp3 |
-| Amharisch | እሱ የራቀ ነው። | issu yerak'e new. | sen_gen_fern.mp3 |
+| Amharisch | እሷ የራቀ ናት። | iswa yerak'e nat. | sen_gen_fern.mp3 |
 | Amharisch | ኩርንችት አለ። | kurunchit ale. | sen_gen_ecke.mp3 |
-| Amharisch | ነዳጅ ማደያ አለ። | nedaj madeya ale. | sen_gen_tankstelle_2.mp3 |
-| Amharisch | የመንጃ ፍቃድ አለ። | yemenja fik'ad ale. | sen_gen_fuehrerschein_2.mp3 |
+| Amharisch | ነዳጅ ማደያ አለኝ። | nedaj madeya alegn. | sen_gen_tankstelle_2.mp3 |
+| Amharisch | የመንጃ ፍቃድ እወዳለሁ። | yemenja fik'ad iwedallehu. | sen_gen_fuehrerschein_2.mp3 |
 | Amharisch | ባስኬትቦል አለ። | basketbol ale. | sen_gen_basketball.mp3 |
-| Amharisch | ውኃ ዋና አለ። | wiha wana ale. | sen_gen_schwimmen.mp3 |
-| Amharisch | ሩጫ አለ። | rucha ale. | sen_gen_laufen_sport.mp3 |
+| Amharisch | ውኃ ዋና አለኝ። | wiha wana alegn. | sen_gen_schwimmen.mp3 |
+| Amharisch | ሩጫ እወዳለሁ። | rucha iwedallehu. | sen_gen_laufen_sport.mp3 |
 | Amharisch | ቡድን አለ። | budin ale. | sen_gen_team.mp3 |
-| Amharisch | ጎል አለ። | gol ale. | sen_gen_tor_sport.mp3 |
+| Amharisch | ጎል አለኝ። | gol alegn. | sen_gen_tor_sport.mp3 |
 | Amharisch | ውቅያኖስ አለ። | wik'yanos ale. | sen_gen_ozean.mp3 |
-| Amharisch | ሸለቆ አለ። | sheleko' ale. | sen_gen_tal.mp3 |
-| Amharisch | ደሴት አለ። | deset ale. | sen_gen_insel.mp3 |
+| Amharisch | ሸለቆ አለኝ። | sheleko' alegn. | sen_gen_tal.mp3 |
+| Amharisch | ደሴት እወዳለሁ። | deset iwedallehu. | sen_gen_insel.mp3 |
 | Amharisch | ኮረብታ አለ። | korebita ale. | sen_gen_huegel.mp3 |
-| Amharisch | ዋሻ አለ። | washa ale. | sen_gen_hoehle.mp3 |
+| Amharisch | ዋሻ አለኝ። | washa alegn. | sen_gen_hoehle.mp3 |
 | Amharisch | መከር አለ። | mekker ale. | sen_gen_ernte.mp3 |
-| Amharisch | ዘር አለ። | zer ale. | sen_gen_samen.mp3 |
-| Amharisch | አፈር አለ። | afer ale. | sen_gen_boden_erde.mp3 |
+| Amharisch | ዘር አለኝ። | zer alegn. | sen_gen_samen.mp3 |
+| Amharisch | አፈር እወዳለሁ። | afer iwedallehu. | sen_gen_boden_erde.mp3 |
 | Amharisch | ማረሻ አለ። | maresha ale. | sen_gen_pflug.mp3 |
-| Amharisch | ምርት አለ። | mirt ale. | sen_gen_feldfrucht.mp3 |
+| Amharisch | ምርት አለኝ። | mirt alegn. | sen_gen_feldfrucht.mp3 |
 | Amharisch | መድሃኒት አለ። | medhanit ale. | sen_gen_medizin.mp3 |
-| Amharisch | መርፍ አለ። | merfe ale. | sen_gen_spritze.mp3 |
-| Amharisch | ፋሻ አለ። | fasha ale. | sen_gen_verband.mp3 |
+| Amharisch | መርፍ አለኝ። | merfe alegn. | sen_gen_spritze.mp3 |
+| Amharisch | ፋሻ እወዳለሁ። | fasha iwedallehu. | sen_gen_verband.mp3 |
 | Amharisch | ቁስል አለ። | k'usil ale. | sen_gen_wunde.mp3 |
-| Amharisch | አለርጂ አለ። | alerji ale. | sen_gen_allergie.mp3 |
+| Amharisch | አለርጂ አለኝ። | alerji alegn. | sen_gen_allergie.mp3 |
 | Amharisch | ራስ ምታት አለ። | ras mitat ale. | sen_gen_kopfschmerz.mp3 |
-| Amharisch | አለርጂ አለ። | alerji ale. | sen_gen_allergie_2.mp3 |
-| Amharisch | ቁስል አለ። | k'usil ale. | sen_gen_wunde_2.mp3 |
+| Amharisch | አለርጂ አለኝ። | alerji alegn. | sen_gen_allergie_2.mp3 |
+| Amharisch | ቁስል እወዳለሁ። | k'usil iwedallehu. | sen_gen_wunde_2.mp3 |
 | Amharisch | ፋሻ አለ። | fasha ale. | sen_gen_verband_2.mp3 |
-| Amharisch | መርፍ አለ። | merfe ale. | sen_gen_spritze_2.mp3 |
+| Amharisch | መርፍ አለኝ። | merfe alegn. | sen_gen_spritze_2.mp3 |
 | Amharisch | ራስ ምታት አለ። | ras mitat ale. | sen_gen_kopfschmerz_2.mp3 |
-| Amharisch | አለርጂ አለ። | alerji ale. | sen_gen_allergie_3.mp3 |
-| Amharisch | ቁስል አለ። | k'usil ale. | sen_gen_wunde_3.mp3 |
+| Amharisch | አለርጂ አለኝ። | alerji alegn. | sen_gen_allergie_3.mp3 |
+| Amharisch | ቁስል እወዳለሁ። | k'usil iwedallehu. | sen_gen_wunde_3.mp3 |
 | Amharisch | ፋሻ አለ። | fasha ale. | sen_gen_verband_3.mp3 |
-| Amharisch | መርፍ አለ። | merfe ale. | sen_gen_spritze_3.mp3 |
+| Amharisch | መርፍ አለኝ። | merfe alegn. | sen_gen_spritze_3.mp3 |
 | Amharisch | መሮጥ እፈልጋለሁ። | meroT' ifeligalehu. | sen_gen_v_rennen.mp3 |
-| Amharisch | መውጣት እፈልጋለሁ። | mewt'at ifeligalehu. | sen_gen_v_klettern.mp3 |
+| Amharisch | መውጣት እወዳለሁ። | mewt'at iwedallehu. | sen_gen_v_klettern.mp3 |
 | Amharisch | መግፍት እፈልጋለሁ። | megfit ifeligalehu. | sen_gen_v_schieben.mp3 |
-| Amharisch | መወርወር እፈልጋለሁ። | mewerwer ifeligalehu. | sen_gen_v_werfen.mp3 |
+| Amharisch | መወርወር እወዳለሁ። | mewerwer iwedallehu. | sen_gen_v_werfen.mp3 |
 | Amharisch | መደበቅ እፈልጋለሁ። | medebek' ifeligalehu. | sen_gen_v_verstecken.mp3 |
 | Amharisch | ድንኳን አለ። | dinkwan ale. | sen_gen_zelt.mp3 |
-| Amharisch | የመተኛ ቦርሳ አለ። | yemetegna borsa ale. | sen_gen_schlafsack.mp3 |
-| Amharisch | የካምፕ እሳት አለ። | yekamp isat ale. | sen_gen_lagerfeuer.mp3 |
+| Amharisch | የመተኛ ቦርሳ አለኝ። | yemetegna borsa alegn. | sen_gen_schlafsack.mp3 |
+| Amharisch | የካምፕ እሳት እወዳለሁ። | yekamp isat iwedallehu. | sen_gen_lagerfeuer.mp3 |
 | Amharisch | ማጥመድ አለ። | mat'imed ale. | sen_gen_angeln.mp3 |
-| Amharisch | የእግር ጉዞ አለ። | yeigir guzo ale. | sen_gen_wandern.mp3 |
+| Amharisch | የእግር ጉዞ አለኝ። | yeigir guzo alegn. | sen_gen_wandern.mp3 |
 | Amharisch | መጠቅ አለ። | met'ek' ale. | sen_gen_hammer.mp3 |
-| Amharisch | ችንካር አለ። | chinikar ale. | sen_gen_nagel.mp3 |
-| Amharisch | ብሎን አለ። | bilon ale. | sen_gen_schraube.mp3 |
+| Amharisch | ችንካር አለኝ። | chinikar alegn. | sen_gen_nagel.mp3 |
+| Amharisch | ብሎን እወዳለሁ። | bilon iwedallehu. | sen_gen_schraube.mp3 |
 | Amharisch | መጋዝ አለ። | megaz ale. | sen_gen_saege.mp3 |
-| Amharisch | መብሳት አለ። | mebisat ale. | sen_gen_bohrer.mp3 |
+| Amharisch | መብሳት አለኝ። | mebisat alegn. | sen_gen_bohrer.mp3 |
 | Amharisch | ሩብ አለ። | rub ale. | sen_gen_viertel.mp3 |
-| Amharisch | ሲሶ አለ። | siso ale. | sen_gen_drittel.mp3 |
-| Amharisch | በመቶ አለ። | bemeto ale. | sen_gen_prozent.mp3 |
+| Amharisch | ሲሶ አለኝ። | siso alegn. | sen_gen_drittel.mp3 |
+| Amharisch | በመቶ እወዳለሁ። | bemeto iwedallehu. | sen_gen_prozent.mp3 |
 | Amharisch | እሱ ሁለት እጥፍ ነው። | issu hulet it'if new. | sen_gen_doppelt.mp3 |
 | Amharisch | ደርዘን አለ። | derzen ale. | sen_gen_dutzend.mp3 |
 | Amharisch | ልብስ ማጠቢያ አለ። | libs matebiya ale. | sen_gen_waschmaschine.mp3 |
-| Amharisch | ሙቅ ብረት አለ። | muk' biret ale. | sen_gen_buegeleisen.mp3 |
-| Amharisch | ማይክሮዌብ አለ። | maikirowev ale. | sen_gen_mikrowelle.mp3 |
+| Amharisch | ሙቅ ብረት አለኝ። | muk' biret alegn. | sen_gen_buegeleisen.mp3 |
+| Amharisch | ማይክሮዌብ እወዳለሁ። | maikirowev iwedallehu. | sen_gen_mikrowelle.mp3 |
 | Amharisch | ቶስተር አለ። | toster ale. | sen_gen_toaster.mp3 |
-| Amharisch | ማጠቢያ ዕቃ አለ። | matebiya i'k'a ale. | sen_gen_geschirrspueler.mp3 |
+| Amharisch | ማጠቢያ ዕቃ አለኝ። | matebiya i'k'a alegn. | sen_gen_geschirrspueler.mp3 |
 | Amharisch | ቅንድብ አለ። | kinidib ale. | sen_gen_augenbraue.mp3 |
-| Amharisch | የዐይን ጸጉር አለ። | yeayin tsegur ale. | sen_gen_wimper.mp3 |
-| Amharisch | አገጭ አለ። | agech ale. | sen_gen_kinn.mp3 |
+| Amharisch | የዐይን ጸጉር አለኝ። | yeayin tsegur alegn. | sen_gen_wimper.mp3 |
+| Amharisch | አገጭ እወዳለሁ። | agech iwedallehu. | sen_gen_kinn.mp3 |
 | Amharisch | ጉንጭ አለ። | gunich ale. | sen_gen_wange.mp3 |
-| Amharisch | ክርን አለ። | kirin ale. | sen_gen_ellbogen.mp3 |
+| Amharisch | ክርን አለኝ። | kirin alegn. | sen_gen_ellbogen.mp3 |
 | Amharisch | መንታ አለ። | menta ale. | sen_gen_zwilling.mp3 |
-| Amharisch | መበለት አለ። | mebelet ale. | sen_gen_witwe.mp3 |
-| Amharisch | የእንጀራ እናት አለ። | yeinjera enat ale. | sen_gen_stiefmutter.mp3 |
+| Amharisch | መበለት አለኝ። | mebelet alegn. | sen_gen_witwe.mp3 |
+| Amharisch | የእንጀራ እናት እወዳለሁ። | yeinjera enat iwedallehu. | sen_gen_stiefmutter.mp3 |
 | Amharisch | ጥፍር አለ። | t'ifir ale. | sen_gen_fingernagel.mp3 |
-| Amharisch | ምላስ አለ። | milas ale. | sen_gen_zunge.mp3 |
+| Amharisch | ምላስ አለኝ። | milas alegn. | sen_gen_zunge.mp3 |
 | Amharisch | ማፍላት እፈልጋለሁ። | mafilat ifeligalehu. | sen_gen_v_kochen_verb.mp3 |
-| Amharisch | መጥበስ እፈልጋለሁ። | met'ibes ifeligalehu. | sen_gen_v_braten.mp3 |
+| Amharisch | መጥበስ እወዳለሁ። | met'ibes iwedallehu. | sen_gen_v_braten.mp3 |
 | Amharisch | ማቁላት እፈልጋለሁ። | mak'ulat ifeligalehu. | sen_gen_v_roesten.mp3 |
-| Amharisch | ማዋሃድ እፈልጋለሁ። | mawahad ifeligalehu. | sen_gen_v_mischen.mp3 |
+| Amharisch | ማዋሃድ እወዳለሁ። | mawahad iwedallehu. | sen_gen_v_mischen.mp3 |
 | Amharisch | ማማሰል እፈልጋለሁ። | mamasel ifeligalehu. | sen_gen_v_ruehren.mp3 |
 | Amharisch | አዝኛለሁ። | azegnalehu. | sen_gen_traurig_phrase.mp3 |
 | Amharisch | ተቆጥቻለሁ። | tek'ot'chalehu. | sen_gen_wuetend_phrase.mp3 |
 | Amharisch | ፈርቻለሁ። | ferchalehu. | sen_gen_angst_phrase.mp3 |
 | Amharisch | እፈልጋለሁ። | ifeligalehu. | sen_gen_ich_moechte.mp3 |
 | Amharisch | ፕላን አለ። | plan ale. | sen_gen_plan.mp3 |
-| Amharisch | ምኞት አለ። | minyot ale. | sen_gen_wunsch.mp3 |
-| Amharisch | ግብ አለ። | gib ale. | sen_gen_ziel.mp3 |
+| Amharisch | ምኞት አለኝ። | minyot alegn. | sen_gen_wunsch.mp3 |
+| Amharisch | ግብ እወዳለሁ። | gib iwedallehu. | sen_gen_ziel.mp3 |
 | Amharisch | የቡና ሥርዓት አለ። | yebuna sirat ale. | sen_gen_kaffeezeremonie.mp3 |
-| Amharisch | በዓል አለ። | be'al ale. | sen_gen_feiertag.mp3 |
+| Amharisch | በዓል አለኝ። | be'al alegn. | sen_gen_feiertag.mp3 |
 | Amharisch | እንኳን ደህና መጣህ። | inkuan dehna metah. | sen_gen_willkommen.mp3 |
-| Amharisch | ባህል አለ። | bahil ale. | sen_gen_kultur.mp3 |
+| Amharisch | ባህል እወዳለሁ። | bahil iwedallehu. | sen_gen_kultur.mp3 |
 | Amharisch | ታሪክ አለ። | tarik ale. | sen_gen_geschichte.mp3 |
-| Amharisch | መጨረሻ አለ። | mecheresha ale. | sen_gen_ende.mp3 |
-| Amharisch | መጀመሪያ አለ። | mejemeria ale. | sen_gen_anfang.mp3 |
+| Amharisch | መጨረሻ አለኝ። | mecheresha alegn. | sen_gen_ende.mp3 |
+| Amharisch | መጀመሪያ እወዳለሁ። | mejemeria iwedallehu. | sen_gen_anfang.mp3 |
 | Amharisch | ጀግና አለ። | jegna ale. | sen_gen_held.mp3 |
 | Amharisch | መስከረም አለ። | meskerem ale. | sen_gen_meskerem.mp3 |
-| Amharisch | ጥቅምት አለ። | t'ikimt ale. | sen_gen_tikimt.mp3 |
-| Amharisch | ህዳር አለ። | hidar ale. | sen_gen_hidar.mp3 |
+| Amharisch | ጥቅምት አለኝ። | t'ikimt alegn. | sen_gen_tikimt.mp3 |
+| Amharisch | ህዳር እወዳለሁ። | hidar iwedallehu. | sen_gen_hidar.mp3 |
 | Amharisch | ታህሳስ አለ። | tahsas ale. | sen_gen_tahsas.mp3 |
-| Amharisch | ጥር አለ። | tir ale. | sen_gen_tir.mp3 |
+| Amharisch | ጥር አለኝ። | tir alegn. | sen_gen_tir.mp3 |
 | Amharisch | አዝናለሁ። | aznalehu. | sen_gen_tut_mir_leid.mp3 |
 | Amharisch | ችግር የለም። | chiggir yelem. | sen_gen_kein_problem.mp3 |
 | Amharisch | መልካም እድል። | melkam idil. | sen_gen_viel_glueck.mp3 |
 | Amharisch | መልካም ጉዞ። | melkam guzo. | sen_gen_gute_reise.mp3 |
 | Amharisch | ለጤናዎ። | lete'nawo. | sen_gen_zum_wohl.mp3 |
 | Amharisch | ክራር አለ። | kirar ale. | sen_gen_krar.mp3 |
-| Amharisch | ማሲንቆ አለ። | masinko ale. | sen_gen_masinko.mp3 |
-| Amharisch | ከበሮ አለ። | kebero ale. | sen_gen_kebero.mp3 |
+| Amharisch | ማሲንቆ አለኝ። | masinko alegn. | sen_gen_masinko.mp3 |
+| Amharisch | ከበሮ እወዳለሁ። | kebero iwedallehu. | sen_gen_kebero.mp3 |
 | Amharisch | ዋሽንት አለ። | washint ale. | sen_gen_washint.mp3 |
 | Amharisch | ለጤናዎ። | lete'nawo. | sen_gen_zum_wohl_2.mp3 |
 | Amharisch | ሀሳብ አለ። | hasab ale. | sen_gen_idee.mp3 |
-| Amharisch | ችግር አለ። | chiggir ale. | sen_gen_problem.mp3 |
-| Amharisch | መፍትሄ አለ። | mefithe ale. | sen_gen_loesung.mp3 |
+| Amharisch | ችግር አለኝ። | chiggir alegn. | sen_gen_problem.mp3 |
+| Amharisch | መፍትሄ እወዳለሁ። | mefithe iwedallehu. | sen_gen_loesung.mp3 |
 | Amharisch | ምክንያት አለ። | mikinyat ale. | sen_gen_grund.mp3 |
-| Amharisch | ምሳሌ አለ። | misale ale. | sen_gen_beispiel.mp3 |
+| Amharisch | ምሳሌ አለኝ። | misale alegn. | sen_gen_beispiel.mp3 |
 | Amharisch | ጎንደር አለ። | gonder ale. | sen_gen_gondar.mp3 |
-| Amharisch | አክሱም አለ። | aksum ale. | sen_gen_axum.mp3 |
-| Amharisch | ላሊበላ አለ። | lalibela ale. | sen_gen_lalibela.mp3 |
+| Amharisch | አክሱም አለኝ። | aksum alegn. | sen_gen_axum.mp3 |
+| Amharisch | ላሊበላ እወዳለሁ። | lalibela iwedallehu. | sen_gen_lalibela.mp3 |
 | Amharisch | ባህር ዳር አለ። | bahir dar ale. | sen_gen_bahirdar.mp3 |
-| Amharisch | መቀሌ አለ። | mekele ale. | sen_gen_mekelle.mp3 |
+| Amharisch | መቀሌ አለኝ። | mekele alegn. | sen_gen_mekelle.mp3 |
 | Amharisch | ጸሎት አለ። | tselot ale. | sen_gen_gebet.mp3 |
-| Amharisch | በዓል አለ። | be'al ale. | sen_gen_feiertag_fest.mp3 |
-| Amharisch | ጾም አለ። | tsom ale. | sen_gen_fasten.mp3 |
+| Amharisch | በዓል አለኝ። | be'al alegn. | sen_gen_feiertag_fest.mp3 |
+| Amharisch | ጾም እወዳለሁ። | tsom iwedallehu. | sen_gen_fasten.mp3 |
 | Amharisch | ጉዞ ወደ ቅዱስ ቦታ አለ። | guzo wede k'idus bota ale. | sen_gen_pilgerfahrt.mp3 |
-| Amharisch | በረከት አለ። | bereket ale. | sen_gen_segen.mp3 |
+| Amharisch | በረከት አለኝ። | bereket alegn. | sen_gen_segen.mp3 |
 | Amharisch | አጋጣሚ አለ። | agatami ale. | sen_gen_gelegenheit.mp3 |
-| Amharisch | ልምድ አለ። | limid ale. | sen_gen_erfahrung.mp3 |
-| Amharisch | መታሰቢያ አለ። | metasebiya ale. | sen_gen_erinnerung_n.mp3 |
+| Amharisch | ልምድ አለኝ። | limid alegn. | sen_gen_erfahrung.mp3 |
+| Amharisch | መታሰቢያ እወዳለሁ። | metasebiya iwedallehu. | sen_gen_erinnerung_n.mp3 |
 | Amharisch | ምስጢር አለ። | misit'ir ale. | sen_gen_geheimnis.mp3 |
-| Amharisch | ቃል አለ። | k'al ale. | sen_gen_versprechen_n.mp3 |
+| Amharisch | ቃል አለኝ። | k'al alegn. | sen_gen_versprechen_n.mp3 |
 | Amharisch | ስዕል አለ። | si'il ale. | sen_gen_gemaelde.mp3 |
-| Amharisch | ንድፍ አለ። | nidif ale. | sen_gen_zeichnung.mp3 |
-| Amharisch | ቅርፃቅርፅ አለ። | k'irtsak'irts' ale. | sen_gen_skulptur.mp3 |
+| Amharisch | ንድፍ አለኝ። | nidif alegn. | sen_gen_zeichnung.mp3 |
+| Amharisch | ቅርፃቅርፅ እወዳለሁ። | k'irtsak'irts' iwedallehu. | sen_gen_skulptur.mp3 |
 | Amharisch | ቲያትር አለ። | tiyatir ale. | sen_gen_theater.mp3 |
-| Amharisch | ቅኔ አለ። | k'ine ale. | sen_gen_gedicht.mp3 |
+| Amharisch | ቅኔ አለኝ። | k'ine alegn. | sen_gen_gedicht.mp3 |
 | Amharisch | ሳይንስ አለ። | sayins ale. | sen_gen_wissenschaft.mp3 |
-| Amharisch | ሙከራ አለ። | mukera ale. | sen_gen_experiment.mp3 |
-| Amharisch | ጥናት አለ። | t'inat ale. | sen_gen_forschung.mp3 |
+| Amharisch | ሙከራ አለኝ። | mukera alegn. | sen_gen_experiment.mp3 |
+| Amharisch | ጥናት እወዳለሁ። | t'inat iwedallehu. | sen_gen_forschung.mp3 |
 | Amharisch | ሂሳብ አለ። | hisab ale. | sen_gen_mathematik.mp3 |
-| Amharisch | ፊዚክስ አለ። | fizikis ale. | sen_gen_physik.mp3 |
+| Amharisch | ፊዚክስ አለኝ። | fizikis alegn. | sen_gen_physik.mp3 |
 | Amharisch | እሱ ከባድ ነው። | issu kebad new. | sen_gen_schwer_gewicht.mp3 |
-| Amharisch | እሱ ቀላል ነው። | issu kelal new. | sen_gen_leicht_gewicht.mp3 |
-| Amharisch | እሱ ጥልቅ ነው። | issu t'ilik' new. | sen_gen_tief.mp3 |
+| Amharisch | እሷ ቀላል ናት። | iswa kelal nat. | sen_gen_leicht_gewicht.mp3 |
+| Amharisch | በጣም ጥልቅ ነው። | bet'am t'ilik' new. | sen_gen_tief.mp3 |
 | Amharisch | እሱ ጥልቀት የለው ነው። | issu t'ilik'et yelew new. | sen_gen_flach.mp3 |
-| Amharisch | እሱ ሰፊ ነው። | issu sefi new. | sen_gen_breit.mp3 |
+| Amharisch | እሷ ሰፊ ናት። | iswa sefi nat. | sen_gen_breit.mp3 |
 | Amharisch | የመሬት መንቀጥቀጥ አለ። | yemeret menk'et'ik'et' ale. | sen_gen_erdbeben.mp3 |
-| Amharisch | ጎርፍ አለ። | gorif ale. | sen_gen_flut.mp3 |
-| Amharisch | ድርቅ አለ። | dirik' ale. | sen_gen_duerre.mp3 |
+| Amharisch | ጎርፍ አለኝ። | gorif alegn. | sen_gen_flut.mp3 |
+| Amharisch | ድርቅ እወዳለሁ። | dirik' iwedallehu. | sen_gen_duerre.mp3 |
 | Amharisch | ትልቅ ዐውሎ ንፋስ አለ። | tilik' awlo nifas ale. | sen_gen_wirbelsturm.mp3 |
-| Amharisch | እሳተ ገሞራ አለ። | isate gemora ale. | sen_gen_vulkan.mp3 |
+| Amharisch | እሳተ ገሞራ አለኝ። | isate gemora alegn. | sen_gen_vulkan.mp3 |
 | Amharisch | እሱ ጉጉት ያለው ነው። | issu guggit yalew new. | sen_gen_begeistert.mp3 |
 | Amharisch | መሰላቸት እፈልጋለሁ። | meselachet ifeligalehu. | sen_gen_gelangweilt.mp3 |
-| Amharisch | ፍታት ማግኘት እፈልጋለሁ። | fitat magignet ifeligalehu. | sen_gen_erleichtert.mp3 |
-| Amharisch | እሱ አመስጋኝ ነው። | issu amesgagn new. | sen_gen_dankbar.mp3 |
-| Amharisch | እሱ ተነሳሽነት ያለው ነው። | issu tenesashinet yalew new. | sen_gen_motiviert.mp3 |
+| Amharisch | ፍታት ማግኘት እወዳለሁ። | fitat magignet iwedallehu. | sen_gen_erleichtert.mp3 |
+| Amharisch | እሷ አመስጋኝ ናት። | iswa amesgagn nat. | sen_gen_dankbar.mp3 |
+| Amharisch | በጣም ተነሳሽነት ያለው ነው። | bet'am tenesashinet yalew new. | sen_gen_motiviert.mp3 |
 | Amharisch | ብድር አለ። | bidir ale. | sen_gen_darlehen.mp3 |
-| Amharisch | ዕዳ አለ። | i'da ale. | sen_gen_schulden.mp3 |
-| Amharisch | ግብር አለ። | gibir ale. | sen_gen_steuer.mp3 |
+| Amharisch | ዕዳ አለኝ። | i'da alegn. | sen_gen_schulden.mp3 |
+| Amharisch | ግብር እወዳለሁ። | gibir iwedallehu. | sen_gen_steuer.mp3 |
 | Amharisch | በጀት አለ። | bejet ale. | sen_gen_budget.mp3 |
-| Amharisch | ኢንሹራንስ አለ። | inshuransi ale. | sen_gen_versicherung.mp3 |
+| Amharisch | ኢንሹራንስ አለኝ። | inshuransi alegn. | sen_gen_versicherung.mp3 |
 | Amharisch | ፍርድ ቤት አለ። | firid bet ale. | sen_gen_gericht.mp3 |
-| Amharisch | ውል አለ። | wil ale. | sen_gen_vertrag.mp3 |
-| Amharisch | ምስክር አለ። | misikir ale. | sen_gen_zeuge.mp3 |
+| Amharisch | ውል አለኝ። | wil alegn. | sen_gen_vertrag.mp3 |
+| Amharisch | ምስክር እወዳለሁ። | misikir iwedallehu. | sen_gen_zeuge.mp3 |
 | Amharisch | ማስረጃ አለ። | masiredja ale. | sen_gen_beweis.mp3 |
-| Amharisch | ወንጀል አለ። | wenijel ale. | sen_gen_verbrechen.mp3 |
+| Amharisch | ወንጀል አለኝ። | wenijel alegn. | sen_gen_verbrechen.mp3 |
 | Amharisch | ፕላኔት አለ። | planet ale. | sen_gen_planet.mp3 |
-| Amharisch | ኮከብ ጭራ አለ። | kokeb chira ale. | sen_gen_komet.mp3 |
-| Amharisch | ግርዶሽ አለ። | giridosh ale. | sen_gen_finsternis.mp3 |
+| Amharisch | ኮከብ ጭራ አለኝ። | kokeb chira alegn. | sen_gen_komet.mp3 |
+| Amharisch | ግርዶሽ እወዳለሁ። | giridosh iwedallehu. | sen_gen_finsternis.mp3 |
 | Amharisch | ጋላክሲ አለ። | galaksi ale. | sen_gen_galaxie.mp3 |
-| Amharisch | ጽንፈ ዓለም አለ። | tsinfe alem ale. | sen_gen_universum.mp3 |
+| Amharisch | ጽንፈ ዓለም አለኝ። | tsinfe alem alegn. | sen_gen_universum.mp3 |
 | Amharisch | ማንሾካሾክ እፈልጋለሁ። | manshokashok ifeligalehu. | sen_gen_v_fluestern.mp3 |
-| Amharisch | መከራከር እፈልጋለሁ። | mekeraker ifeligalehu. | sen_gen_v_streiten.mp3 |
+| Amharisch | መከራከር እወዳለሁ። | mekeraker iwedallehu. | sen_gen_v_streiten.mp3 |
 | Amharisch | መስማማት እፈልጋለሁ። | mesimamat ifeligalehu. | sen_gen_v_zustimmen.mp3 |
-| Amharisch | አለመስማማት እፈልጋለሁ። | alemesimamat ifeligalehu. | sen_gen_v_widersprechen.mp3 |
+| Amharisch | አለመስማማት እወዳለሁ። | alemesimamat iwedallehu. | sen_gen_v_widersprechen.mp3 |
 | Amharisch | ማጉረምረም እፈልጋለሁ። | magurmerem ifeligalehu. | sen_gen_v_beschweren.mp3 |
 | Amharisch | ውሳኔ አለ። | wisane ale. | sen_gen_entscheidung.mp3 |
-| Amharisch | ፕሮጀክት አለ። | projekt ale. | sen_gen_projekt.mp3 |
-| Amharisch | ዓላማ አለ። | alama ale. | sen_gen_lebensziel.mp3 |
+| Amharisch | ፕሮጀክት አለኝ። | projekt alegn. | sen_gen_projekt.mp3 |
+| Amharisch | ዓላማ እወዳለሁ። | alama iwedallehu. | sen_gen_lebensziel.mp3 |
 | Amharisch | ልማድ አለ። | limad ale. | sen_gen_gewohnheit.mp3 |
-| Amharisch | ስርዓት አለ። | sirat ale. | sen_gen_zeremonie.mp3 |
+| Amharisch | ስርዓት አለኝ። | sirat alegn. | sen_gen_zeremonie.mp3 |
 | Amharisch | ሶስት ማዕዘን አለ። | sost ma'izen ale. | sen_gen_dreieck.mp3 |
-| Amharisch | ካሬ አለ። | kare ale. | sen_gen_quadrat.mp3 |
-| Amharisch | ክብ ቅርጽ አለ። | kib k'irts' ale. | sen_gen_kreis.mp3 |
+| Amharisch | ካሬ አለኝ። | kare alegn. | sen_gen_quadrat.mp3 |
+| Amharisch | ክብ ቅርጽ እወዳለሁ። | kib k'irts' iwedallehu. | sen_gen_kreis.mp3 |
 | Amharisch | አራት ማዕዘን አለ። | arat ma'izen ale. | sen_gen_rechteck.mp3 |
-| Amharisch | መስመር አለ። | mesimer ale. | sen_gen_linie.mp3 |
+| Amharisch | መስመር አለኝ። | mesimer alegn. | sen_gen_linie.mp3 |
 | Amharisch | ሰራተኛ እጅ አለ። | serategna ij ale. | sen_gen_hh_serategna.mp3 |
 | Amharisch | ጅግራ አለ። | jigira ale. | sen_gen_hs_kitir_kacha.mp3 |
 | Amharisch | የጅብ ሰው አለ። | yejib sew ale. | sen_gen_ht_yejib_sew.mp3 |
@@ -2690,54 +2690,54 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | የቐንየለይ። | yiqeneyeley. | sen_gen_yiqeneyeley.mp3 |
 | Tigrinya | በጃኻ። | bejaka. | sen_gen_bejaka.mp3 |
 | Tigrinya | ስድራ ኣሎ። | sidra alo. | sen_gen_sidra.mp3 |
-| Tigrinya | ቆልዓ ኣሎ። | kolu alo. | sen_gen_kolu.mp3 |
+| Tigrinya | ቆልዓ ኣሎኒ። | kolu alini. | sen_gen_kolu.mp3 |
 | Tigrinya | ዓርኪ ኣሎ። | adki alo. | sen_gen_adki.mp3 |
 | Tigrinya | ሓደ ኣሎ። | hade alo. | sen_gen_zahl_1_2.mp3 |
-| Tigrinya | ኣርባዕተ ኣሎ። | arba'ete alo. | sen_gen_zahl_4_2.mp3 |
+| Tigrinya | ኣርባዕተ ኣሎኒ። | arba'ete alini. | sen_gen_zahl_4_2.mp3 |
 | Tigrinya | ሓሙሽተ ኣሎ። | hamushte alo. | sen_gen_zahl_5.mp3 |
 | Tigrinya | ባኒ ኣሎ። | bani alo. | sen_gen_bani.mp3 |
-| Tigrinya | ጽብሒ ኣሎ። | tsibhi alo. | sen_gen_tsibhi.mp3 |
+| Tigrinya | ጽብሒ ኣሎኒ። | tsibhi alini. | sen_gen_tsibhi.mp3 |
 | Tigrinya | ጸባ ኣሎ። | tseba alo. | sen_gen_tseba.mp3 |
 | Tigrinya | ዓሰርተ ክልተ ኣሎ። | asirte kelte alo. | sen_gen_zahl_12.mp3 |
-| Tigrinya | ዓሰርተ ሰለስተ ኣሎ። | asirte seleste alo. | sen_gen_zahl_13.mp3 |
+| Tigrinya | ዓሰርተ ሰለስተ ኣሎኒ። | asirte seleste alini. | sen_gen_zahl_13.mp3 |
 | Tigrinya | ዓሰርተ ኣርባዕተ ኣሎ። | asirte arba'ete alo. | sen_gen_zahl_14.mp3 |
-| Tigrinya | ዓሰርተ ሓሙሽተ ኣሎ። | asirte hamushte alo. | sen_gen_zahl_15.mp3 |
+| Tigrinya | ዓሰርተ ሓሙሽተ ኣሎኒ። | asirte hamushte alini. | sen_gen_zahl_15.mp3 |
 | Tigrinya | ንሱ ሰማያዊ እዩ። | nisu semayawi 'iyu. | sen_gen_kokhay.mp3 |
-| Tigrinya | ንሱ ቀጠልያ እዩ። | nisu qet'elya 'iyu. | sen_gen_qetsli.mp3 |
+| Tigrinya | ንሳ ቀጠልያ እያ። | nisa qet'elya 'iya. | sen_gen_qetsli.mp3 |
 | Tigrinya | ንሱ ጻዕዳ እዩ። | nisu tsa'eda 'iyu. | sen_gen_tsaada.mp3 |
-| Tigrinya | ንሱ ጸሊም እዩ። | nisu tselim 'iyu. | sen_gen_kekhi.mp3 |
+| Tigrinya | ንሳ ጸሊም እያ። | nisa tselim 'iya. | sen_gen_kekhi.mp3 |
 | Tigrinya | ገጽ ኣሎ። | gets alo. | sen_gen_geets.mp3 |
-| Tigrinya | ዓይኒ ኣሎ። | 'ayni alo. | sen_gen_ayni.mp3 |
+| Tigrinya | ዓይኒ ኣሎኒ። | 'ayni alini. | sen_gen_ayni.mp3 |
 | Tigrinya | ኣፍ ኣሎ። | afu alo. | sen_gen_afu.mp3 |
-| Tigrinya | ኣፍንጫ ኣሎ። | afincha alo. | sen_gen_afinca.mp3 |
+| Tigrinya | ኣፍንጫ ኣሎኒ። | afincha alini. | sen_gen_afinca.mp3 |
 | Tigrinya | ቀሚሽ ኣሎ። | qemish alo. | sen_gen_kemis.mp3 |
-| Tigrinya | ካልሲ ኣሎ። | kalsi alo. | sen_gen_shurbi.mp3 |
+| Tigrinya | ካልሲ ኣሎኒ። | kalsi alini. | sen_gen_shurbi.mp3 |
 | Tigrinya | ስረ ኣሎ። | sire alo. | sen_gen_kondom.mp3 |
-| Tigrinya | ካምቻ ኣሎ። | kamcha alo. | sen_gen_shemis.mp3 |
+| Tigrinya | ካምቻ ኣሎኒ። | kamcha alini. | sen_gen_shemis.mp3 |
 | Tigrinya | ክፍሊ (ገዛ) ኣሎ። | kifli geza alo. | sen_gen_kotari.mp3 |
-| Tigrinya | ማዕጾ ኣሎ። | ma'etso alo. | sen_gen_bota.mp3 |
+| Tigrinya | ማዕጾ ኣሎኒ። | ma'etso alini. | sen_gen_bota.mp3 |
 | Tigrinya | መስኮት ኣሎ። | meskot alo. | sen_gen_meskot.mp3 |
-| Tigrinya | ጠረጴዛ ኣሎ። | teretseza alo. | sen_gen_teret.mp3 |
+| Tigrinya | ጠረጴዛ ኣሎኒ። | teretseza alini. | sen_gen_teret.mp3 |
 | Tigrinya | ወርሒ ኣሎ። | werhi alo. | sen_gen_wersiha.mp3 |
-| Tigrinya | ኮኸብ ኣሎ። | kokeb alo. | sen_gen_kokebti.mp3 |
+| Tigrinya | ኮኸብ ኣሎኒ። | kokeb alini. | sen_gen_kokebti.mp3 |
 | Tigrinya | ሰማይ ኣሎ። | semay alo. | sen_gen_semay.mp3 |
-| Tigrinya | ደበና ኣሎ። | debena alo. | sen_gen_dammena.mp3 |
+| Tigrinya | ደበና ኣሎኒ። | debena alini. | sen_gen_dammena.mp3 |
 | Tigrinya | ድሙ ኣሎ። | dimu alo. | sen_gen_dmu.mp3 |
-| Tigrinya | ፈረስ ኣሎ። | feres alo. | sen_gen_faras.mp3 |
+| Tigrinya | ፈረስ ኣሎኒ። | feres alini. | sen_gen_faras.mp3 |
 | Tigrinya | ላም ኣሎ። | lam alo. | sen_gen_lam.mp3 |
-| Tigrinya | ኣባጊዕ ኣሎ። | abagi'e alo. | sen_gen_bereh.mp3 |
+| Tigrinya | ኣባጊዕ ኣሎኒ። | abagi'e alini. | sen_gen_bereh.mp3 |
 | Tigrinya | ደቒቕ ኣሎ። | deqiq alo. | sen_gen_deqiqa.mp3 |
-| Tigrinya | ካልኢት ኣሎ። | kal'it alo. | sen_gen_sekond.mp3 |
+| Tigrinya | ካልኢት ኣሎኒ። | kal'it alini. | sen_gen_sekond.mp3 |
 | Tigrinya | መዓልቲ ኣሎ። | me'alti alo. | sen_gen_mieti.mp3 |
-| Tigrinya | ለይቲ ኣሎ። | leyti alo. | sen_gen_lelit.mp3 |
+| Tigrinya | ለይቲ ኣሎኒ። | leyti alini. | sen_gen_lelit.mp3 |
 | Tigrinya | ሓኪም ኣሎ። | hakim alo. | sen_gen_hakim.mp3 |
-| Tigrinya | ነርስ ኣሎ። | nersi alo. | sen_gen_neurse.mp3 |
+| Tigrinya | ነርስ ኣሎኒ። | nersi alini. | sen_gen_neurse.mp3 |
 | Tigrinya | ሓረስታይ ኣሎ። | harestay alo. | sen_gen_gebari.mp3 |
-| Tigrinya | ነጋዳይ ኣሎ። | negaday alo. | sen_gen_negadi.mp3 |
+| Tigrinya | ነጋዳይ ኣሎኒ። | negaday alini. | sen_gen_negadi.mp3 |
 | Tigrinya | ኣውቶቡስ ኣሎ። | awtobus alo. | sen_gen_awtobus.mp3 |
-| Tigrinya | ባቡር ኣሎ። | babur alo. | sen_gen_babur.mp3 |
+| Tigrinya | ባቡር ኣሎኒ። | babur alini. | sen_gen_babur.mp3 |
 | Tigrinya | ነፋሪት ኣሎ። | nefarit alo. | sen_gen_aeroplan.mp3 |
-| Tigrinya | መርከብ ኣሎ። | merkeb alo. | sen_gen_merkeb.mp3 |
+| Tigrinya | መርከብ ኣሎኒ። | merkeb alini. | sen_gen_merkeb.mp3 |
 | Tigrinya | ስተይ። | sitey. | sen_gen_sitay.mp3 |
 | Tigrinya | ደቅስ። | deqis. | sen_gen_dqs.mp3 |
 | Tigrinya | ተንስእ። | tensi'e. | sen_gen_tesi.mp3 |
@@ -2747,49 +2747,49 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ኣቐምጥ። | aqemit. | sen_gen_tsri.mp3 |
 | Tigrinya | ኣንቅል። | aniqil. | sen_gen_zbti.mp3 |
 | Tigrinya | ሓዘን ኣሎ። | hazen alo. | sen_gen_hazani.mp3 |
-| Tigrinya | ሕርቃን ኣሎ። | hirqan alo. | sen_gen_qurtsi.mp3 |
+| Tigrinya | ሕርቃን ኣሎኒ። | hirqan alini. | sen_gen_qurtsi.mp3 |
 | Tigrinya | ፍርሒ ኣሎ። | firhi alo. | sen_gen_firhi.mp3 |
 | Tigrinya | ንሱ ሕጉስ እዩ። | nisu higus 'iyu. | sen_gen_tmhrti.mp3 |
 | Tigrinya | ብርዒ ኣሎ። | birI'i alo. | sen_gen_ebiy.mp3 |
-| Tigrinya | ወረቐት ኣሎ። | wereqet alo. | sen_gen_wereqet.mp3 |
+| Tigrinya | ወረቐት ኣሎኒ። | wereqet alini. | sen_gen_wereqet.mp3 |
 | Tigrinya | ጽሕፈት ኣሎ። | tsihfet alo. | sen_gen_tsihfet.mp3 |
-| Tigrinya | ትምህርቲ ኣሎ። | timhirti alo. | sen_gen_timhirti.mp3 |
+| Tigrinya | ትምህርቲ ኣሎኒ። | timhirti alini. | sen_gen_timhirti.mp3 |
 | Tigrinya | ኮምፒተር ኣሎ። | kompiter alo. | sen_gen_kompiuter.mp3 |
-| Tigrinya | ኢንተርነት ኣሎ። | internet alo. | sen_gen_intrnet.mp3 |
+| Tigrinya | ኢንተርነት ኣሎኒ። | internet alini. | sen_gen_intrnet.mp3 |
 | Tigrinya | መልእኽቲ ኣሎ። | mel'ikti alo. | sen_gen_msgbi.mp3 |
-| Tigrinya | ስእሊ (ካሜራ) ኣሎ። | si'ili kamera alo. | sen_gen_slti.mp3 |
+| Tigrinya | ስእሊ (ካሜራ) ኣሎኒ። | si'ili kamera alini. | sen_gen_slti.mp3 |
 | Tigrinya | ኩዕሶ ኣሎ። | ku'iso alo. | sen_gen_kws.mp3 |
-| Tigrinya | ጉያ ኣሎ። | guya alo. | sen_gen_gugsi.mp3 |
+| Tigrinya | ጉያ ኣሎኒ። | guya alini. | sen_gen_gugsi.mp3 |
 | Tigrinya | ምሕምባስ ኣሎ። | mihimbas alo. | sen_gen_wnah.mp3 |
-| Tigrinya | ጸወታ ኣሎ። | tsewuta alo. | sen_gen_gnzabi.mp3 |
+| Tigrinya | ጸወታ ኣሎኒ። | tsewuta alini. | sen_gen_gnzabi.mp3 |
 | Tigrinya | ጸሎት ኣሎ። | tselot alo. | sen_gen_tsli3.mp3 |
-| Tigrinya | በዓል ኣሎ። | be'al alo. | sen_gen_bal2.mp3 |
+| Tigrinya | በዓል ኣሎኒ። | be'al alini. | sen_gen_bal2.mp3 |
 | Tigrinya | ፋሲካ ኣሎ። | fasika alo. | sen_gen_fasika.mp3 |
-| Tigrinya | ልደት ኣሎ። | lidet alo. | sen_gen_lidet.mp3 |
+| Tigrinya | ልደት ኣሎኒ። | lidet alini. | sen_gen_lidet.mp3 |
 | Tigrinya | ዋጋ ኣሎ። | waga alo. | sen_gen_wagi.mp3 |
-| Tigrinya | ናቕፋ ኣሎ። | nakfa alo. | sen_gen_nakfa.mp3 |
+| Tigrinya | ናቕፋ ኣሎኒ። | nakfa alini. | sen_gen_nakfa.mp3 |
 | Tigrinya | ካርድ ኣሎ። | kard alo. | sen_gen_kredit.mp3 |
-| Tigrinya | ቅብሊት ኣሎ። | qibilit alo. | sen_gen_kreyi.mp3 |
+| Tigrinya | ቅብሊት ኣሎኒ። | qibilit alini. | sen_gen_kreyi.mp3 |
 | Tigrinya | ጣዕሚ ኣሎ። | t'a'imi alo. | sen_gen_injera.mp3 |
-| Tigrinya | ፍረታት ኣሎ። | firetat alo. | sen_gen_ficn.mp3 |
+| Tigrinya | ፍረታት ኣሎኒ። | firetat alini. | sen_gen_ficn.mp3 |
 | Tigrinya | ኣሕምልቲ ኣሎ። | ahimilti alo. | sen_gen_hxavi.mp3 |
-| Tigrinya | ሙዝ ኣሎ። | muz alo. | sen_gen_bnbn.mp3 |
+| Tigrinya | ሙዝ ኣሎኒ። | muz alini. | sen_gen_bnbn.mp3 |
 | Tigrinya | ሓትኖ ኣሎ። | hatino alo. | sen_gen_haltey.mp3 |
-| Tigrinya | ወዲ ሓው ኣሎ። | wedi haw alo. | sen_gen_wediHi.mp3 |
+| Tigrinya | ወዲ ሓው ኣሎኒ። | wedi haw alini. | sen_gen_wediHi.mp3 |
 | Tigrinya | ጓል ሓው ኣሎ። | gwal haw alo. | sen_gen_gwadu.mp3 |
-| Tigrinya | ዓባይ ኣሎ። | 'abay alo. | sen_gen_abay.mp3 |
+| Tigrinya | ዓባይ ኣሎኒ። | 'abay alini. | sen_gen_abay.mp3 |
 | Tigrinya | ስዊድን ኣሎ። | swidin alo. | sen_gen_swden.mp3 |
-| Tigrinya | ሆላንድ ኣሎ። | holand alo. | sen_gen_hollandi.mp3 |
+| Tigrinya | ሆላንድ ኣሎኒ። | holand alini. | sen_gen_hollandi.mp3 |
 | Tigrinya | እንግሊዝ ኣሎ። | inglizi alo. | sen_gen_ingliz.mp3 |
-| Tigrinya | ፈረንሳ ኣሎ። | ferensa alo. | sen_gen_faransa.mp3 |
+| Tigrinya | ፈረንሳ ኣሎኒ። | ferensa alini. | sen_gen_faransa.mp3 |
 | Tigrinya | ግራት ኣሎ። | girat alo. | sen_gen_agdi.mp3 |
-| Tigrinya | ዘርኢ ኣሎ። | zeri'i alo. | sen_gen_zerie.mp3 |
+| Tigrinya | ዘርኢ ኣሎኒ። | zeri'i alini. | sen_gen_zerie.mp3 |
 | Tigrinya | ምሕራስ ኣሎ። | mihiras alo. | sen_gen_asrha.mp3 |
-| Tigrinya | ምእካብ ኣሎ። | mi'ikab alo. | sen_gen_asisi.mp3 |
+| Tigrinya | ምእካብ ኣሎኒ። | mi'ikab alini. | sen_gen_asisi.mp3 |
 | Tigrinya | ሱፍ ኣሎ። | suf alo. | sen_gen_suf2.mp3 |
-| Tigrinya | ቆርበት (ንብረት) ኣሎ። | qorbet nibret alo. | sen_gen_geldi2.mp3 |
+| Tigrinya | ቆርበት (ንብረት) ኣሎኒ። | qorbet nibret alini. | sen_gen_geldi2.mp3 |
 | Tigrinya | ብርጭቆ (ንብረት) ኣሎ። | birchiqo nibret alo. | sen_gen_bret2.mp3 |
-| Tigrinya | ላስቲክ ኣሎ። | lastik alo. | sen_gen_plastik_2.mp3 |
+| Tigrinya | ላስቲክ ኣሎኒ። | lastik alini. | sen_gen_plastik_2.mp3 |
 | Tigrinya | ደሓን ሓደር። | dehan hader. | sen_gen_kesela.mp3 |
 | Tigrinya | ደሓን ንበር። | dehan niber. | sen_gen_dhnbot.mp3 |
 | Tigrinya | እንቋዕ ደሓን መጻእካ። | inqua'e dehan metsa'eka. | sen_gen_bruk_mb.mp3 |
@@ -2799,73 +2799,73 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ቀልጢፍካ! | qelt'ifka! | sen_gen_hgz.mp3 |
 | Tigrinya | ተጠንቀቕ። | tet'enqeq. | sen_gen_nkm2.mp3 |
 | Tigrinya | ኩሊት ኣሎ። | kulit alo. | sen_gen_kwlyt.mp3 |
-| Tigrinya | ማህጸን ኣሎ። | mahitsen alo. | sen_gen_hymt.mp3 |
+| Tigrinya | ማህጸን ኣሎኒ። | mahitsen alini. | sen_gen_hymt.mp3 |
 | Tigrinya | ኣንጀት ኣሎ። | anjet alo. | sen_gen_kbdi3.mp3 |
-| Tigrinya | ሓንጎል ኣሎ። | hangol alo. | sen_gen_dmg.mp3 |
+| Tigrinya | ሓንጎል ኣሎኒ። | hangol alini. | sen_gen_dmg.mp3 |
 | Tigrinya | ልቓሕ ኣሎ። | liqah alo. | sen_gen_lezhi.mp3 |
-| Tigrinya | ወለድ ኣሎ። | weled alo. | sen_gen_wraq2.mp3 |
+| Tigrinya | ወለድ ኣሎኒ። | weled alini. | sen_gen_wraq2.mp3 |
 | Tigrinya | ዕቋር ኣሎ። | 'iquar alo. | sen_gen_qmz.mp3 |
-| Tigrinya | ወጻኢታት ኣሎ። | wetsa'itat alo. | sen_gen_hzbti2.mp3 |
+| Tigrinya | ወጻኢታት ኣሎኒ። | wetsa'itat alini. | sen_gen_hzbti2.mp3 |
 | Tigrinya | ጎማ (መኪና) ኣሎ። | goma mekina alo. | sen_gen_gm2.mp3 |
-| Tigrinya | መፍትሕ መኪና ኣሎ። | mefithi mekina alo. | sen_gen_mfth2.mp3 |
+| Tigrinya | መፍትሕ መኪና ኣሎኒ። | mefithi mekina alini. | sen_gen_mfth2.mp3 |
 | Tigrinya | መስኮት መኪና ኣሎ። | meskot mekina alo. | sen_gen_msln.mp3 |
-| Tigrinya | ነዳዲ ኣሎ። | nedadi alo. | sen_gen_bnzn.mp3 |
+| Tigrinya | ነዳዲ ኣሎኒ። | nedadi alini. | sen_gen_bnzn.mp3 |
 | Tigrinya | ከበሮ ኣሎ። | kebero alo. | sen_gen_kbro.mp3 |
-| Tigrinya | ዋሽንት ኣሎ። | washint alo. | sen_gen_wshnt.mp3 |
+| Tigrinya | ዋሽንት ኣሎኒ። | washint alini. | sen_gen_wshnt.mp3 |
 | Tigrinya | ጊታር ኣሎ። | gitar alo. | sen_gen_gitar.mp3 |
-| Tigrinya | ፒያኖ ኣሎ። | piyano alo. | sen_gen_pyano.mp3 |
+| Tigrinya | ፒያኖ ኣሎኒ። | piyano alini. | sen_gen_pyano.mp3 |
 | Tigrinya | ንሱ ፈራሕ እዩ። | nisu ferah 'iyu. | sen_gen_frhan.mp3 |
-| Tigrinya | ንሱ ትግሃት ዘለዎ እዩ። | nisu tighat zelewo 'iyu. | sen_gen_srhtnk.mp3 |
+| Tigrinya | ንሳ ትግሃት ዘለዎ እያ። | nisa tighat zelewo 'iya. | sen_gen_srhtnk.mp3 |
 | Tigrinya | ንሱ ህኩይ እዩ። | nisu hikuy 'iyu. | sen_gen_kslti.mp3 |
-| Tigrinya | ንሱ እሙን እዩ። | nisu imun 'iyu. | sen_gen_amnti.mp3 |
+| Tigrinya | ንሳ እሙን እያ። | nisa imun 'iya. | sen_gen_amnti.mp3 |
 | Tigrinya | ብርዲ ኣሎ። | birdi alo. | sen_gen_brdti.mp3 |
-| Tigrinya | ንፋስ ብርቱዕ ኣሎ። | nifas biritu'e alo. | sen_gen_ntsti.mp3 |
+| Tigrinya | ንፋስ ብርቱዕ ኣሎኒ። | nifas biritu'e alini. | sen_gen_ntsti.mp3 |
 | Tigrinya | ግመ ኣሎ። | gime alo. | sen_gen_swus.mp3 |
-| Tigrinya | ንፍሒ ማይ ኣሎ። | nifhi mai alo. | sen_gen_hlmi2.mp3 |
+| Tigrinya | ንፍሒ ማይ ኣሎኒ። | nifhi mai alini. | sen_gen_hlmi2.mp3 |
 | Tigrinya | ፈራዲ ኣሎ። | feradi alo. | sen_gen_frdi2.mp3 |
-| Tigrinya | ገበን ኣሎ። | geben alo. | sen_gen_wnzk.mp3 |
+| Tigrinya | ገበን ኣሎኒ። | geben alini. | sen_gen_wnzk.mp3 |
 | Tigrinya | ማእሰርቲ ኣሎ። | ma'iserti alo. | sen_gen_habsti.mp3 |
-| Tigrinya | ምስክር ኣሎ። | misikir alo. | sen_gen_shhda.mp3 |
+| Tigrinya | ምስክር ኣሎኒ። | misikir alini. | sen_gen_shhda.mp3 |
 | Tigrinya | ክትዕ ኣሎ። | kitit'i alo. | sen_gen_krbi2.mp3 |
-| Tigrinya | ምኽሪ ኣሎ። | mikhiri alo. | sen_gen_nqfi.mp3 |
+| Tigrinya | ምኽሪ ኣሎኒ። | mikhiri alini. | sen_gen_nqfi.mp3 |
 | Tigrinya | ውሳነ ኣሎ። | wisane alo. | sen_gen_wed2.mp3 |
-| Tigrinya | ስምምዕ ኣሎ። | simimi'i alo. | sen_gen_hbrti3.mp3 |
+| Tigrinya | ስምምዕ ኣሎኒ። | simimi'i alini. | sen_gen_hbrti3.mp3 |
 | Tigrinya | ጃርት ኣሎ። | jarti alo. | sen_gen_pparfl.mp3 |
-| Tigrinya | ኣንበጣ ልሙድ ኣሎ። | anbet'a limud alo. | sen_gen_bqbq.mp3 |
+| Tigrinya | ኣንበጣ ልሙድ ኣሎኒ። | anbet'a limud alini. | sen_gen_bqbq.mp3 |
 | Tigrinya | ደናግር ኣሎ። | denagir alo. | sen_gen_qwrmb.mp3 |
-| Tigrinya | ኣንበጣ በረኻ ኣሎ። | anbet'a bereka alo. | sen_gen_zabab.mp3 |
+| Tigrinya | ኣንበጣ በረኻ ኣሎኒ። | anbet'a bereka alini. | sen_gen_zabab.mp3 |
 | Tigrinya | ግዝኣት ኣሎ። | gizi'at alo. | sen_gen_kolnl.mp3 |
-| Tigrinya | ሰውራ ኣሎ። | sewra alo. | sen_gen_shhab.mp3 |
+| Tigrinya | ሰውራ ኣሎኒ። | sewra alini. | sen_gen_shhab.mp3 |
 | Tigrinya | ስዉእ ኣሎ። | siwu'e alo. | sen_gen_shhid.mp3 |
-| Tigrinya | ዘበን ኣሎ። | zeben alo. | sen_gen_zbn.mp3 |
+| Tigrinya | ዘበን ኣሎኒ። | zeben alini. | sen_gen_zbn.mp3 |
 | Tigrinya | ኣለርጂ ኣሎ። | alerji alo. | sen_gen_alrji.mp3 |
-| Tigrinya | ተላጋቢ ሕማም ኣሎ። | telagabi himam alo. | sen_gen_sksh.mp3 |
+| Tigrinya | ተላጋቢ ሕማም ኣሎኒ። | telagabi himam alini. | sen_gen_sksh.mp3 |
 | Tigrinya | ክታበት ኣሎ። | kitabet alo. | sen_gen_klya.mp3 |
-| Tigrinya | ስንብራት ኣሎ። | sinibrat alo. | sen_gen_snbulet.mp3 |
+| Tigrinya | ስንብራት ኣሎኒ። | sinibrat alini. | sen_gen_snbulet.mp3 |
 | Tigrinya | ጎል ኣሎ። | gol alo. | sen_gen_gol.mp3 |
-| Tigrinya | ነጥቢ (ጸወታ) ኣሎ። | netbi tsewuta alo. | sen_gen_neqti.mp3 |
+| Tigrinya | ነጥቢ (ጸወታ) ኣሎኒ። | netbi tsewuta alini. | sen_gen_neqti.mp3 |
 | Tigrinya | ጋንታ ተጻዋቲ ኣሎ። | ganta tetsawati alo. | sen_gen_gwadl.mp3 |
-| Tigrinya | ሜዳልያ ኣሎ። | medalya alo. | sen_gen_medl.mp3 |
+| Tigrinya | ሜዳልያ ኣሎኒ። | medalya alini. | sen_gen_medl.mp3 |
 | Tigrinya | ገጽ ሽድሽተ ኣሎ። | gets shidishte alo. | sen_gen_sdsi.mp3 |
-| Tigrinya | ፐርሰንት ኣሎ። | persent alo. | sen_gen_kzln.mp3 |
+| Tigrinya | ፐርሰንት ኣሎኒ። | persent alini. | sen_gen_kzln.mp3 |
 | Tigrinya | ቅርጺ ኣሎ። | qirtsi alo. | sen_gen_kzr2.mp3 |
-| Tigrinya | ስፍሓት ገጽ ኣሎ። | sifhat gets alo. | sen_gen_hntu.mp3 |
+| Tigrinya | ስፍሓት ገጽ ኣሎኒ። | sifhat gets alini. | sen_gen_hntu.mp3 |
 | Tigrinya | ቅዲ ኣሎ። | qidi alo. | sen_gen_stayl.mp3 |
 | Tigrinya | ንሱ ልክዕ ዝኾነ እዩ። | nisu lik'i zikhone 'iyu. | sen_gen_msfi.mp3 |
-| Tigrinya | ንሱ ገፊሕ እዩ። | nisu gefih 'iyu. | sen_gen_frti.mp3 |
+| Tigrinya | ንሳ ገፊሕ እያ። | nisa gefih 'iya. | sen_gen_frti.mp3 |
 | Tigrinya | ንሱ ጽኑዕ (ክዳን) እዩ። | nisu tsinu'i kidan 'iyu. | sen_gen_tsbabi.mp3 |
 | Tigrinya | ጥበስ። | t'ibes. | sen_gen_ktfi.mp3 |
 | Tigrinya | ጥበስ (ምድጓ)። | t'ibes midgwa. | sen_gen_kwyi.mp3 |
 | Tigrinya | ቁረጽ። | quirets. | sen_gen_kzri2.mp3 |
 | Tigrinya | ሓውስ። | hawis. | sen_gen_hlti.mp3 |
 | Tigrinya | ዕርክነት ኣሎ። | 'irikinet alo. | sen_gen_srhbi.mp3 |
-| Tigrinya | ፍትሕ ኣሎ። | fitih alo. | sen_gen_frid.mp3 |
+| Tigrinya | ፍትሕ ኣሎኒ። | fitih alini. | sen_gen_frid.mp3 |
 | Tigrinya | ብጻይ ኣሎ። | bitsay alo. | sen_gen_mekyd.mp3 |
 | Tigrinya | ብፍቕሪ ምጥያስ። | bifiqri mit'yas. | sen_gen_hgb.mp3 |
 | Tigrinya | ወነንቲ ገዛ ኣሎ። | wenenti geza alo. | sen_gen_bealgz.mp3 |
-| Tigrinya | ተኻራዪ ኣሎ። | tekharayi alo. | sen_gen_kraygz.mp3 |
+| Tigrinya | ተኻራዪ ኣሎኒ። | tekharayi alini. | sen_gen_kraygz.mp3 |
 | Tigrinya | ህንጻ ኣሎ። | hintsa alo. | sen_gen_hntsa.mp3 |
-| Tigrinya | ኣፓርታማ ኣሎ። | apartama alo. | sen_gen_apartment.mp3 |
+| Tigrinya | ኣፓርታማ ኣሎኒ። | apartama alini. | sen_gen_apartment.mp3 |
 | Tigrinya | ዓጸወ። | atsewe. | sen_gen_vb3_zegede.mp3 |
 | Tigrinya | ወሰደ። | wesede. | sen_gen_vb3_wesede.mp3 |
 | Tigrinya | ሓዘ። | haze. | sen_gen_vb3_hzq.mp3 |
@@ -2875,272 +2875,272 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ደለየ። | deleye. | sen_gen_vb3_delede.mp3 |
 | Tigrinya | ጎረደ። | gorede. | sen_gen_vb3_gorede.mp3 |
 | Tigrinya | ነርስ ኣሎ። | nersi alo. | sen_gen_med_nrsi.mp3 |
-| Tigrinya | መድሃኒት ኣሎ። | medhanit alo. | sen_gen_med_medhanit.mp3 |
+| Tigrinya | መድሃኒት ኣሎኒ። | medhanit alini. | sen_gen_med_medhanit.mp3 |
 | Tigrinya | ስርየት ኣሎ። | siriet alo. | sen_gen_med_shirit.mp3 |
-| Tigrinya | ሕማም ኣሎ። | himam alo. | sen_gen_med_hmam.mp3 |
+| Tigrinya | ሕማም ኣሎኒ። | himam alini. | sen_gen_med_hmam.mp3 |
 | Tigrinya | ቃል ምስጢር ኣሎ። | qal misitir alo. | sen_gen_tec2_sfrl.mp3 |
-| Tigrinya | መተግበሪ ኣሎ። | metegiberi alo. | sen_gen_tec2_apka.mp3 |
+| Tigrinya | መተግበሪ ኣሎኒ። | metegiberi alini. | sen_gen_tec2_apka.mp3 |
 | Tigrinya | ኣካፈለ። | akafele. | sen_gen_tec2_shrke.mp3 |
 | Tigrinya | ኣውረደ። | awrede. | sen_gen_tec2_ansl.mp3 |
 | Tigrinya | ጽሬት ከባቢ ኣሎ። | tsiret kebabi alo. | sen_gen_umw_qyrnt.mp3 |
-| Tigrinya | ጫካ ኣሎ። | chaka alo. | sen_gen_umw_dqla.mp3 |
+| Tigrinya | ጫካ ኣሎኒ። | chaka alini. | sen_gen_umw_dqla.mp3 |
 | Tigrinya | ዳግማይ ምጥቃም ኣሎ። | dagimay mitiqam alo. | sen_gen_umw_bzhr.mp3 |
-| Tigrinya | ጎሓፍ ኣሎ። | gohaf alo. | sen_gen_umw_ktkb.mp3 |
+| Tigrinya | ጎሓፍ ኣሎኒ። | gohaf alini. | sen_gen_umw_ktkb.mp3 |
 | Tigrinya | ስእሊ ምስኣል ኣሎ። | si'ili mis'al alo. | sen_gen_hby_ssla.mp3 |
-| Tigrinya | ምስማዕ ደርፊ ኣሎ። | misima'i derfi alo. | sen_gen_hby_zfen2.mp3 |
+| Tigrinya | ምስማዕ ደርፊ ኣሎኒ። | misima'i derfi alini. | sen_gen_hby_zfen2.mp3 |
 | Tigrinya | ምስራሕ ኣትክልቲ ኣሎ። | misirah atikilti alo. | sen_gen_hby_cnq.mp3 |
-| Tigrinya | ምስራሕ ኢድ ኣሎ። | misirah 'idi alo. | sen_gen_hby_msyq.mp3 |
+| Tigrinya | ምስራሕ ኢድ ኣሎኒ። | misirah 'idi alini. | sen_gen_hby_msyq.mp3 |
 | Tigrinya | ኢትዮጵያ ኣሎ። | ityop'ya alo. | sen_gen_ld2_ityop.mp3 |
-| Tigrinya | ሱዳን ኣሎ። | sudan alo. | sen_gen_ld2_sudan.mp3 |
+| Tigrinya | ሱዳን ኣሎኒ። | sudan alini. | sen_gen_ld2_sudan.mp3 |
 | Tigrinya | ግብጺ ኣሎ። | gibitsi alo. | sen_gen_ld2_gbtsi.mp3 |
-| Tigrinya | ሶማልያ ኣሎ። | somaliya alo. | sen_gen_ld2_somal.mp3 |
+| Tigrinya | ሶማልያ ኣሎኒ። | somaliya alini. | sen_gen_ld2_somal.mp3 |
 | Tigrinya | ኩዕሶ ጣውላ ኣሎ። | ku'iso t'awila alo. | sen_gen_sp3_bskt.mp3 |
-| Tigrinya | ጎልፍ ኣሎ። | golf alo. | sen_gen_sp3_golf.mp3 |
+| Tigrinya | ጎልፍ ኣሎኒ። | golf alini. | sen_gen_sp3_golf.mp3 |
 | Tigrinya | ጅምናስቲክ ኣሎ። | jimnastik alo. | sen_gen_sp3_grmn.mp3 |
-| Tigrinya | ካራተ ኣሎ። | karate alo. | sen_gen_sp3_krte.mp3 |
+| Tigrinya | ካራተ ኣሎኒ። | karate alini. | sen_gen_sp3_krte.mp3 |
 | Tigrinya | ኢንጂነር ኣሎ። | injiner alo. | sen_gen_brf2_ingnr.mp3 |
-| Tigrinya | ስነ-ህንጻ ኣሎ። | sine hinitsa alo. | sen_gen_brf2_arkte.mp3 |
+| Tigrinya | ስነ-ህንጻ ኣሎኒ። | sine hinitsa alini. | sen_gen_brf2_arkte.mp3 |
 | Tigrinya | ፋርማሲስት ኣሎ። | farmasist alo. | sen_gen_brf2_farms.mp3 |
-| Tigrinya | ሓኪም እንስሳ ኣሎ። | hakim inisisa alo. | sen_gen_brf2_vetrn.mp3 |
+| Tigrinya | ሓኪም እንስሳ ኣሎኒ። | hakim inisisa alini. | sen_gen_brf2_vetrn.mp3 |
 | Tigrinya | መብረቕ ኣሎ። | mebreq alo. | sen_gen_wt2_mbrq.mp3 |
-| Tigrinya | ነጎዳ ኣሎ። | negoda alo. | sen_gen_wt2_nqts.mp3 |
+| Tigrinya | ነጎዳ ኣሎኒ። | negoda alini. | sen_gen_wt2_nqts.mp3 |
 | Tigrinya | በረድ ኣሎ። | bered alo. | sen_gen_wt2_bred.mp3 |
-| Tigrinya | ደመና ኣሎ። | demena alo. | sen_gen_wt2_dmna.mp3 |
+| Tigrinya | ደመና ኣሎኒ። | demena alini. | sen_gen_wt2_dmna.mp3 |
 | Tigrinya | ውሽጣዊ ክዳን ኣሎ። | wishitawi kidan alo. | sen_gen_kl2_ntgr.mp3 |
-| Tigrinya | ናይ ዝናብ ካፖርት ኣሎ። | nay zinab kaport alo. | sen_gen_kl2_zenb.mp3 |
+| Tigrinya | ናይ ዝናብ ካፖርት ኣሎኒ። | nay zinab kaport alini. | sen_gen_kl2_zenb.mp3 |
 | Tigrinya | ናይ እግሪ ጫማ ኣሎ። | nay igri chama ‘iluk alo. | sen_gen_kl2_astl.mp3 |
-| Tigrinya | ሳንዳል ኣሎ። | sandal alo. | sen_gen_kl2_sndl.mp3 |
+| Tigrinya | ሳንዳል ኣሎኒ። | sandal alini. | sen_gen_kl2_sndl.mp3 |
 | Tigrinya | ፍትሒ ኣሎ። | fitihi alo. | sen_gen_r2_frdgr.mp3 |
-| Tigrinya | መቕጻዕቲ ኣሎ። | meqitsa'iti alo. | sen_gen_r2_ktrfw.mp3 |
+| Tigrinya | መቕጻዕቲ ኣሎኒ። | meqitsa'iti alini. | sen_gen_r2_ktrfw.mp3 |
 | Tigrinya | ውሕስነት ገንዘብ ኣሎ። | wihisinet genzeb alo. | sen_gen_r2_kwtn.mp3 |
-| Tigrinya | ክሲ ኣሎ። | kisi alo. | sen_gen_r2_kls2.mp3 |
+| Tigrinya | ክሲ ኣሎኒ። | kisi alini. | sen_gen_r2_kls2.mp3 |
 | Tigrinya | ሻርክ ኣሎ። | shariki alo. | sen_gen_mrt_shrq.mp3 |
-| Tigrinya | ደልፊን ኣሎ። | delfin alo. | sen_gen_mrt_dlfn.mp3 |
+| Tigrinya | ደልፊን ኣሎኒ። | delfin alini. | sen_gen_mrt_dlfn.mp3 |
 | Tigrinya | ስሙኽ ዓሳ ኣሎ። | simukh 'asa alo. | sen_gen_mrt_ankm.mp3 |
-| Tigrinya | ሸርጣን ኣሎ። | sheritan alo. | sen_gen_mrt_srtn.mp3 |
+| Tigrinya | ሸርጣን ኣሎኒ። | sheritan alini. | sen_gen_mrt_srtn.mp3 |
 | Tigrinya | ናይ ጸወታ መኪና ኣሎ። | nay tsewata mekina alo. | sen_gen_spz_mkna3.mp3 |
-| Tigrinya | ባሎኒ ኣሎ። | baloni alo. | sen_gen_spz_blon.mp3 |
+| Tigrinya | ባሎኒ ኣሎኒ። | baloni alini. | sen_gen_spz_blon.mp3 |
 | Tigrinya | ፐዝል ኣሎ። | pezil alo. | sen_gen_spz_pzli.mp3 |
-| Tigrinya | ኩዕሶ ንኡስ ኣሎ። | ku'iso ni'us alo. | sen_gen_spz_kuis.mp3 |
+| Tigrinya | ኩዕሶ ንኡስ ኣሎኒ። | ku'iso ni'us alini. | sen_gen_spz_kuis.mp3 |
 | Tigrinya | ርሳስ ኣሎ። | risas alo. | sen_gen_bro_msmr2.mp3 |
-| Tigrinya | ወረቐት ኣሎ። | wereqet alo. | sen_gen_bro_wrqt.mp3 |
+| Tigrinya | ወረቐት ኣሎኒ። | wereqet alini. | sen_gen_bro_wrqt.mp3 |
 | Tigrinya | ካታሎግ ኣሎ። | katalog alo. | sen_gen_bro_mzgb2.mp3 |
-| Tigrinya | ኣጀንዳ ኣሎ። | ajenda alo. | sen_gen_bro_agr.mp3 |
+| Tigrinya | ኣጀንዳ ኣሎኒ። | ajenda alini. | sen_gen_bro_agr.mp3 |
 | Tigrinya | ራፍ ኣሎ። | rafi alo. | sen_gen_mbl_rgal.mp3 |
-| Tigrinya | ናይ መጻሕፍቲ ደርቢ ኣሎ። | nay metsahifti derbi alo. | sen_gen_mbl_shelf.mp3 |
+| Tigrinya | ናይ መጻሕፍቲ ደርቢ ኣሎኒ። | nay metsahifti derbi alini. | sen_gen_mbl_shelf.mp3 |
 | Tigrinya | ናይ ስራሕ ጠረጴዛ ኣሎ። | nay sirah teretseza alo. | sen_gen_mbl_ntt.mp3 |
-| Tigrinya | ካቢነት ኣሎ። | kabinet alo. | sen_gen_mbl_drwr.mp3 |
+| Tigrinya | ካቢነት ኣሎኒ። | kabinet alini. | sen_gen_mbl_drwr.mp3 |
 | Tigrinya | በጊዕ ኣሎ። | beghi'i alo. | sen_gen_bh_bgei.mp3 |
-| Tigrinya | ኣጣል ኣሎ። | atal alo. | sen_gen_bh_ghri.mp3 |
+| Tigrinya | ኣጣል ኣሎኒ። | atal alini. | sen_gen_bh_ghri.mp3 |
 | Tigrinya | ደርሆ ኣሎ። | derho alo. | sen_gen_bh_derho.mp3 |
-| Tigrinya | ፈረስ ኣሎ። | feres alo. | sen_gen_bh_ferase.mp3 |
+| Tigrinya | ፈረስ ኣሎኒ። | feres alini. | sen_gen_bh_ferase.mp3 |
 | Tigrinya | ፓኮ ኣሎ። | pako alo. | sen_gen_pst_pkg.mp3 |
-| Tigrinya | ቴምብር ኣሎ። | tembir alo. | sen_gen_pst_stmp.mp3 |
+| Tigrinya | ቴምብር ኣሎኒ። | tembir alini. | sen_gen_pst_stmp.mp3 |
 | Tigrinya | ናይ ደብዳበ ሳንዱቕ ኣሎ። | nay debdabe sanduq alo. | sen_gen_pst_pbox.mp3 |
-| Tigrinya | ኣድራሻ ኣሎ። | adirasha alo. | sen_gen_pst_adrs.mp3 |
+| Tigrinya | ኣድራሻ ኣሎኒ። | adirasha alini. | sen_gen_pst_adrs.mp3 |
 | Tigrinya | ጽቡቕ ጉዕዞ። | tsibuq gu'ezo. | sen_gen_ph2_hwn.mp3 |
 | Tigrinya | ጽቡቕ ትምኒት። | tsibuq timinit. | sen_gen_ph2_gzm.mp3 |
 | Tigrinya | ኣይትሸበር። | ayitisheber. | sen_gen_ph2_kfu.mp3 |
 | Tigrinya | ብድሓን ኩን። | bidihan kun. | sen_gen_ph2_slm2.mp3 |
 | Tigrinya | መስቀላዊ መገዲ ኣሎ። | mesqelawi mengedi alo. | sen_gen_vk2_krzg.mp3 |
-| Tigrinya | መጨናነቕ መገዲ ኣሎ። | mechenaneq mengedi alo. | sen_gen_vk2_stau.mp3 |
+| Tigrinya | መጨናነቕ መገዲ ኣሎኒ። | mechenaneq mengedi alini. | sen_gen_vk2_stau.mp3 |
 | Tigrinya | ጣቢያ መኪና ኣሎ። | tabiya mekina alo. | sen_gen_vk2_prkp.mp3 |
-| Tigrinya | ፍቓድ መንዳቢ ኣሎ። | fiqad mendabi alo. | sen_gen_vk2_lcns.mp3 |
+| Tigrinya | ፍቓድ መንዳቢ ኣሎኒ። | fiqad mendabi alini. | sen_gen_vk2_lcns.mp3 |
 | Tigrinya | ሽታ ኣስተንፈሰ። | shita astenfese. | sen_gen_sn2_smell.mp3 |
 | Tigrinya | ጠዓሞ። | te'amo. | sen_gen_sn2_taste.mp3 |
 | Tigrinya | ተንከየ። | tenkeye. | sen_gen_sn2_touch.mp3 |
 | Tigrinya | ሰምዐ። | sem'e. | sen_gen_sn2_hear.mp3 |
 | Tigrinya | ደራሲ ኣሎ። | derasi alo. | sen_gen_lit_awtr.mp3 |
-| Tigrinya | ምዕራፍ ኣሎ። | mi'iraf alo. | sen_gen_lit_chptr.mp3 |
+| Tigrinya | ምዕራፍ ኣሎኒ። | mi'iraf alini. | sen_gen_lit_chptr.mp3 |
 | Tigrinya | ግጥሚ ኣሎ። | gitmi alo. | sen_gen_lit_pom.mp3 |
-| Tigrinya | ልቢ ወለድ ኣሎ። | libi weled alo. | sen_gen_lit_novl.mp3 |
+| Tigrinya | ልቢ ወለድ ኣሎኒ። | libi weled alini. | sen_gen_lit_novl.mp3 |
 | Tigrinya | ወርሓዊ ክፍሊት ውሕስነት ኣሎ። | werhawi kifilit wihisinet alo. | sen_gen_vsc_prem.mp3 |
-| Tigrinya | ጠለብ ካሕሳ ኣሎ። | t'elebi kahisa alo. | sen_gen_vsc_clm.mp3 |
+| Tigrinya | ጠለብ ካሕሳ ኣሎኒ። | t'elebi kahisa alini. | sen_gen_vsc_clm.mp3 |
 | Tigrinya | ካሕሳ ኣሎ። | kahisa alo. | sen_gen_vsc_kahisa.mp3 |
-| Tigrinya | ሓደጋ (ተኽእሎ) ኣሎ። | hadega tekhi'ilo alo. | sen_gen_vsc_rsk.mp3 |
+| Tigrinya | ሓደጋ (ተኽእሎ) ኣሎኒ። | hadega tekhi'ilo alini. | sen_gen_vsc_rsk.mp3 |
 | Tigrinya | መኪና ጽዕነት ኣሎ። | mekina tsi'inet alo. | sen_gen_umz_trck.mp3 |
 | Tigrinya | ተኻረየ። | tekareye. | sen_gen_umz_rnt.mp3 |
 | Tigrinya | ወነነ። | wenene. | sen_gen_umz_own.mp3 |
-| Tigrinya | ውዕል ክራይ ኣሎ። | wi'ili kiray alo. | sen_gen_umz_lease.mp3 |
+| Tigrinya | ውዕል ክራይ ኣሎኒ። | wi'ili kiray alini. | sen_gen_umz_lease.mp3 |
 | Tigrinya | ወሊድ ኣሎ። | welid alo. | sen_gen_swg_brth.mp3 |
-| Tigrinya | ህጻን ኣሎ። | hitsan2 alo. | sen_gen_swg_baby.mp3 |
+| Tigrinya | ህጻን ኣሎኒ። | hitsan2 alini. | sen_gen_swg_baby.mp3 |
 | Tigrinya | መሕረሲት ኣሎ። | mehiresit alo. | sen_gen_swg_midw.mp3 |
-| Tigrinya | ዓራት ህጻን ኣሎ። | 'arat hitsan alo. | sen_gen_swg_cradl.mp3 |
+| Tigrinya | ዓራት ህጻን ኣሎኒ። | 'arat hitsan alini. | sen_gen_swg_cradl.mp3 |
 | Tigrinya | ስራሕ ሸክላ ኣሎ። | sirah shekla alo. | sen_gen_hwk_pot.mp3 |
 | Tigrinya | ቀሪጹ ሰርሐ። | qeritsu serihe. | sen_gen_hwk_carve.mp3 |
-| Tigrinya | ጥልፊ ኣሎ። | tilfi alo. | sen_gen_hwk_embr.mp3 |
+| Tigrinya | ጥልፊ ኣሎኒ። | tilfi alini. | sen_gen_hwk_embr.mp3 |
 | Tigrinya | ስራሕ ብራና ኣሎ። | sirah birana alo. | sen_gen_hwk_sblv.mp3 |
 | Tigrinya | የማን ኣሎ። | yemani alo. | sen_gen_rcx_rgt.mp3 |
 | Tigrinya | ትኽ ኢልካ። | tikhi 'ilika. | sen_gen_rcx_strt.mp3 |
-| Tigrinya | ፈረቓ ኣሎ። | fereqa alo. | sen_gen_uhr_half.mp3 |
+| Tigrinya | ፈረቓ ኣሎኒ። | fereqa alini. | sen_gen_uhr_half.mp3 |
 | Tigrinya | ርብዒ ኣሎ። | ribi'i alo. | sen_gen_uhr_qrtr.mp3 |
 | Tigrinya | ፕሮፌሶር ኣሎ። | profesor alo. | sen_gen_uni_prof.mp3 |
-| Tigrinya | ዲግሪ ኣሎ። | digiri alo. | sen_gen_uni_dgr.mp3 |
+| Tigrinya | ዲግሪ ኣሎኒ። | digiri alini. | sen_gen_uni_dgr.mp3 |
 | Tigrinya | ጥናት ኣሎ። | tinat alo. | sen_gen_uni_thss.mp3 |
-| Tigrinya | ናይ ትምህርቲ ደገፍ ገንዘብ ኣሎ። | nay timhirti degef genzeb alo. | sen_gen_uni_schlr.mp3 |
+| Tigrinya | ናይ ትምህርቲ ደገፍ ገንዘብ ኣሎኒ። | nay timhirti degef genzeb alini. | sen_gen_uni_schlr.mp3 |
 | Tigrinya | ሕሳብ ከፈተ። | hisab kefete. | sen_gen_bnk_open.mp3 |
 | Tigrinya | ኣመሓላለፈ ገንዘብ። | amehalalefe genzeb. | sen_gen_bnk_trns.mp3 |
 | Tigrinya | ገንዘብ ኣውጽአ። | genzeb awts'e. | sen_gen_bnk_wthdrw.mp3 |
 | Tigrinya | ገንዘብ ኣእተወ። | genzeb a'itewe. | sen_gen_bnk_dpst.mp3 |
 | Tigrinya | ናይ ሳዕሪ ልብሲ ኣሎ። | nay sa'iri libisi alo. | sen_gen_pkn_blnkt.mp3 |
-| Tigrinya | ምጥባስ ኣሎ። | mit'ibas alo. | sen_gen_pkn_grll.mp3 |
+| Tigrinya | ምጥባስ ኣሎኒ። | mit'ibas alini. | sen_gen_pkn_grll.mp3 |
 | Tigrinya | ድንኳን ኣሎ። | dinkuan alo. | sen_gen_pkn_camp.mp3 |
-| Tigrinya | ናይ ደቃስ ቦርሳ ኣሎ። | nay deqas borsa alo. | sen_gen_pkn_sleep.mp3 |
+| Tigrinya | ናይ ደቃስ ቦርሳ ኣሎኒ። | nay deqas borsa alini. | sen_gen_pkn_sleep.mp3 |
 | Tigrinya | ጫፍ ጎቦ ኣሎ። | chaf gobo alo. | sen_gen_wnd_pk.mp3 |
-| Tigrinya | ኮምፓስ ኣሎ። | kompas alo. | sen_gen_wnd_cmps.mp3 |
+| Tigrinya | ኮምፓስ ኣሎኒ። | kompas alini. | sen_gen_wnd_cmps.mp3 |
 | Tigrinya | ሳንጣ ዝባን ኣሎ። | santa ziban alo. | sen_gen_wnd_bkpck.mp3 |
 | Tigrinya | ደየበ። | deyebe. | sen_gen_wnd_climb.mp3 |
 | Tigrinya | ቬኑስ ኣሎ። | venus alo. | sen_gen_plnt_vns.mp3 |
-| Tigrinya | ጁፒተር ኣሎ። | jupiter alo. | sen_gen_plnt_jptr.mp3 |
+| Tigrinya | ጁፒተር ኣሎኒ። | jupiter alini. | sen_gen_plnt_jptr.mp3 |
 | Tigrinya | ሳተርን ኣሎ። | saterin alo. | sen_gen_plnt_srn.mp3 |
-| Tigrinya | ምድሪ ኣሎ። | midri alo. | sen_gen_plnt_erth.mp3 |
+| Tigrinya | ምድሪ ኣሎኒ። | midri alini. | sen_gen_plnt_erth.mp3 |
 | Tigrinya | ዱባ ገረብ ኣሎ። | duba gereb alo. | sen_gen_bau2_baob.mp3 |
-| Tigrinya | ቆሓይ ኣሎ። | qohay alo. | sen_gen_bau2_akaz.mp3 |
+| Tigrinya | ቆሓይ ኣሎኒ። | qohay alini. | sen_gen_bau2_akaz.mp3 |
 | Tigrinya | ሱር ኣሎ። | suri alo. | sen_gen_bau2_root.mp3 |
-| Tigrinya | ጨንፈር ኣሎ። | chenfer alo. | sen_gen_bau2_brnch.mp3 |
+| Tigrinya | ጨንፈር ኣሎኒ። | chenfer alini. | sen_gen_bau2_brnch.mp3 |
 | Tigrinya | ቀመም ኣሎ። | qemem alo. | sen_gen_gwz_zmt.mp3 |
-| Tigrinya | ነጭ ሽጉርቲ ኣሎ። | nech shigurti alo. | sen_gen_gwz_grlc.mp3 |
+| Tigrinya | ነጭ ሽጉርቲ ኣሎኒ። | nech shigurti alini. | sen_gen_gwz_grlc.mp3 |
 | Tigrinya | ዝንጅብል ኣሎ። | zinjibil alo. | sen_gen_gwz_gngr.mp3 |
-| Tigrinya | ቀርፋ ኣሎ። | qerfa alo. | sen_gen_gwz_cinn.mp3 |
+| Tigrinya | ቀርፋ ኣሎኒ። | qerfa alini. | sen_gen_gwz_cinn.mp3 |
 | Tigrinya | ስገም ኣሎ። | sigem alo. | sen_gen_gtr_barl.mp3 |
-| Tigrinya | ዕፉይ ኣሎ። | 'ifuy alo. | sen_gen_gtr_mais.mp3 |
+| Tigrinya | ዕፉይ ኣሎኒ። | 'ifuy alini. | sen_gen_gtr_mais.mp3 |
 | Tigrinya | ማሽላ ኣሎ። | mashila alo. | sen_gen_gtr_sorg.mp3 |
-| Tigrinya | ብርስን ኣሎ። | birisin alo. | sen_gen_gtr_lntl.mp3 |
+| Tigrinya | ብርስን ኣሎኒ። | birisin alini. | sen_gen_gtr_lntl.mp3 |
 | Tigrinya | ኤምባሲ ኣሎ። | embasi alo. | sen_gen_dpl_embsy.mp3 |
-| Tigrinya | ስምምዕ ኣሎ። | simmi'i alo. | sen_gen_dpl_trty.mp3 |
+| Tigrinya | ስምምዕ ኣሎኒ። | simmi'i alini. | sen_gen_dpl_trty.mp3 |
 | Tigrinya | ሰላም ኣሎ። | selam3 alo. | sen_gen_dpl_peace.mp3 |
 | Tigrinya | ዘተየ። | zeteye. | sen_gen_dpl_nego.mp3 |
 | Tigrinya | ኢመይል ኣሎ። | imeyl alo. | sen_gen_ibg_email.mp3 |
 | Tigrinya | ድለየ። | dileye. | sen_gen_ibg_srch.mp3 |
-| Tigrinya | መላገጺ ኣሎ። | melagetsi alo. | sen_gen_ibg_link.mp3 |
+| Tigrinya | መላገጺ ኣሎኒ። | melagetsi alini. | sen_gen_ibg_link.mp3 |
 | Tigrinya | ተራኸበ (ኢንተርነት)። | terakebe internet. | sen_gen_ibg_conn.mp3 |
 | Tigrinya | ድሙ ኣሎ። | dimu alo. | sen_gen_hst_cat.mp3 |
-| Tigrinya | ደርሁ ገዛ ኣሎ። | derhu geza alo. | sen_gen_hst_brd2.mp3 |
+| Tigrinya | ደርሁ ገዛ ኣሎኒ። | derhu geza alini. | sen_gen_hst_brd2.mp3 |
 | Tigrinya | ዓሳ ገዛ ኣሎ። | 'asa geza alo. | sen_gen_hst_fish.mp3 |
-| Tigrinya | ቤት እንስሳ ኣሎ። | bet inisisa alo. | sen_gen_hst_cage.mp3 |
+| Tigrinya | ቤት እንስሳ ኣሎኒ። | bet inisisa alini. | sen_gen_hst_cage.mp3 |
 | Tigrinya | ሰዓሲዒ ኣሎ። | se'asi'i alo. | sen_gen_tnz_dncr.mp3 |
-| Tigrinya | ባህላዊ ሳዕስዒት ኣሎ። | bahilawi sa'isi'it alo. | sen_gen_tnz_trad.mp3 |
+| Tigrinya | ባህላዊ ሳዕስዒት ኣሎኒ። | bahilawi sa'isi'it alini. | sen_gen_tnz_trad.mp3 |
 | Tigrinya | ምት ኣሎ። | miti alo. | sen_gen_tnz_rhthm.mp3 |
-| Tigrinya | ከበሮ ኣሎ። | kebero alo. | sen_gen_tnz_drum.mp3 |
+| Tigrinya | ከበሮ ኣሎኒ። | kebero alini. | sen_gen_tnz_drum.mp3 |
 | Tigrinya | ጠፈርተኛ ኣሎ። | teferitegna alo. | sen_gen_rfr_atrn.mp3 |
-| Tigrinya | መርከብ ጠፈር ኣሎ። | merkeb tefer alo. | sen_gen_rfr_shp2.mp3 |
+| Tigrinya | መርከብ ጠፈር ኣሎኒ። | merkeb tefer alini. | sen_gen_rfr_shp2.mp3 |
 | Tigrinya | ወርሒ (ጠፈር) ኣሎ። | werhi tefer alo. | sen_gen_rfr_moon.mp3 |
-| Tigrinya | ሳተላይት ኣሎ። | satelayt alo. | sen_gen_rfr_sat.mp3 |
+| Tigrinya | ሳተላይት ኣሎኒ። | satelayt alini. | sen_gen_rfr_sat.mp3 |
 | Tigrinya | ሞለክዩል ኣሎ። | molekiyul alo. | sen_gen_chm_mlcl.mp3 |
-| Tigrinya | ግብረ መልሲ ኬሚካል ኣሎ። | gibire melisi kemikal alo. | sen_gen_chm_ractn.mp3 |
+| Tigrinya | ግብረ መልሲ ኬሚካል ኣሎኒ። | gibire melisi kemikal alini. | sen_gen_chm_ractn.mp3 |
 | Tigrinya | ጋዝ ኣሎ። | gazi alo. | sen_gen_chm_gas.mp3 |
-| Tigrinya | ፈሳሲ ኣሎ። | fesasi alo. | sen_gen_chm_liqd.mp3 |
+| Tigrinya | ፈሳሲ ኣሎኒ። | fesasi alini. | sen_gen_chm_liqd.mp3 |
 | Tigrinya | ሓርማዝ ኣሎ። | harimaz alo. | sen_gen_wld_elph.mp3 |
-| Tigrinya | ቀርኒ ኣንበሳ ኣሎ። | qerni gerafi alo. | sen_gen_wld_grff.mp3 |
+| Tigrinya | ቀርኒ ኣንበሳ ኣሎኒ። | qerni gerafi alini. | sen_gen_wld_grff.mp3 |
 | Tigrinya | ኣድጊ በረኻ ኣሎ። | adigi bereka alo. | sen_gen_wld_zebr.mp3 |
-| Tigrinya | ህበይ ኣሎ። | hibey alo. | sen_gen_wld_mnky.mp3 |
+| Tigrinya | ህበይ ኣሎኒ። | hibey alini. | sen_gen_wld_mnky.mp3 |
 | Tigrinya | መቀየሪ ብርሃን ኣሎ። | meqeyeri birhan alo. | sen_gen_elk_swtch.mp3 |
-| Tigrinya | ፊውዝ ኣሎ። | fiyuz alo. | sen_gen_elk_fuse.mp3 |
+| Tigrinya | ፊውዝ ኣሎኒ። | fiyuz alini. | sen_gen_elk_fuse.mp3 |
 | Tigrinya | ምቁራጽ ኤለትሪክ ኣሎ። | miquratsi eletrik alo. | sen_gen_elk_outg.mp3 |
-| Tigrinya | ጀነረተር ኣሎ። | jenereter alo. | sen_gen_elk_gnrtr.mp3 |
+| Tigrinya | ጀነረተር ኣሎኒ። | jenereter alini. | sen_gen_elk_gnrtr.mp3 |
 | Tigrinya | ትኪ ኣሎ። | tiki alo. | sen_gen_few_smk.mp3 |
 | Tigrinya | ኣጥፍአ (ሓዊ)። | atifi'e hawi. | sen_gen_few_extg.mp3 |
-| Tigrinya | ናይ ማይ ቱቦ ኣሎ። | nay mai tubo alo. | sen_gen_few_hose.mp3 |
+| Tigrinya | ናይ ማይ ቱቦ ኣሎኒ። | nay mai tubo alini. | sen_gen_few_hose.mp3 |
 | Tigrinya | ናይ ሓዊ ኣላርም ኣሎ። | nay hawi alarm alo. | sen_gen_few_alrm2.mp3 |
 | Tigrinya | ሞተር ነፋሪት ኣሎ። | moter nefarit alo. | sen_gen_flz_engn.mp3 |
-| Tigrinya | ክፍሊ ፓይሎት ኣሎ። | kifli paylot alo. | sen_gen_flz_ckpt.mp3 |
+| Tigrinya | ክፍሊ ፓይሎት ኣሎኒ። | kifli paylot alini. | sen_gen_flz_ckpt.mp3 |
 | Tigrinya | መንበር ነፋሪት ኣሎ። | menber nefarit alo. | sen_gen_flz_seat.mp3 |
-| Tigrinya | ሰራሕተኛታት ነፋሪት ኣሎ። | serahtegnatat nefarit alo. | sen_gen_flz_crew.mp3 |
+| Tigrinya | ሰራሕተኛታት ነፋሪት ኣሎኒ። | serahtegnatat nefarit alini. | sen_gen_flz_crew.mp3 |
 | Tigrinya | ናይ ጸጕሪ ማድረቒ ኣሎ። | nay tsegri madreqi alo. | sen_gen_frs_dryr.mp3 |
-| Tigrinya | ቁርጸት ጸጕሪ ኣሎ። | qurtset tsegri alo. | sen_gen_frs_cut2.mp3 |
+| Tigrinya | ቁርጸት ጸጕሪ ኣሎኒ። | qurtset tsegri alini. | sen_gen_frs_cut2.mp3 |
 | Tigrinya | ስንጭሮ ጸጕሪ ኣሎ። | sinichiro tsegri alo. | sen_gen_frs_braid.mp3 |
-| Tigrinya | ጭሕሚ ኣሎ። | chihmi alo. | sen_gen_frs_beard.mp3 |
+| Tigrinya | ጭሕሚ ኣሎኒ። | chihmi alini. | sen_gen_frs_beard.mp3 |
 | Tigrinya | ዓጹድ ኣሎ። | 'atsud alo. | sen_gen_grt_hedge.mp3 |
-| Tigrinya | ሓመድ ኣሎ። | hamed alo. | sen_gen_grt_soil.mp3 |
+| Tigrinya | ሓመድ ኣሎኒ። | hamed alini. | sen_gen_grt_soil.mp3 |
 | Tigrinya | ኣማይ ኣትክልቲ። | amai atikilti. | sen_gen_grt_water2.mp3 |
 | Tigrinya | ተኸለ። | tekele. | sen_gen_grt_plant2.mp3 |
 | Tigrinya | ቀለቤት ኣሎ። | qelebet alo. | sen_gen_hzf_ring.mp3 |
-| Tigrinya | መርዓዊ ኣሎ። | mer'awi alo. | sen_gen_hzf_grm.mp3 |
+| Tigrinya | መርዓዊ ኣሎኒ። | mer'awi alini. | sen_gen_hzf_grm.mp3 |
 | Tigrinya | መርዓት ኣሎ። | mer'at alo. | sen_gen_hzf_brd.mp3 |
-| Tigrinya | ምስክር መርዓ ኣሎ። | misikir mer'a alo. | sen_gen_hzf_wtns.mp3 |
+| Tigrinya | ምስክር መርዓ ኣሎኒ። | misikir mer'a alini. | sen_gen_hzf_wtns.mp3 |
 | Tigrinya | ዶሚኖ ኣሎ። | domino alo. | sen_gen_brs_domin.mp3 |
-| Tigrinya | ዳማ ኣሎ። | dama alo. | sen_gen_brs_chkrs.mp3 |
+| Tigrinya | ዳማ ኣሎኒ። | dama alini. | sen_gen_brs_chkrs.mp3 |
 | Tigrinya | ተራ ኣሎ። | tera alo. | sen_gen_brs_turn.mp3 |
 | Tigrinya | ተዓወተ። | te'awete. | sen_gen_brs_win2.mp3 |
 | Tigrinya | መልሕቅ ኣሎ። | melihiq alo. | sen_gen_seef_anch.mp3 |
-| Tigrinya | ወደብ ኣሎ። | wedeb alo. | sen_gen_seef_hrbr.mp3 |
+| Tigrinya | ወደብ ኣሎኒ። | wedeb alini. | sen_gen_seef_hrbr.mp3 |
 | Tigrinya | መርከበኛ ኣሎ። | merkebegna alo. | sen_gen_seef_saylr.mp3 |
-| Tigrinya | ካፕቴን ኣሎ። | kapiten alo. | sen_gen_seef_capt.mp3 |
+| Tigrinya | ካፕቴን ኣሎኒ። | kapiten alini. | sen_gen_seef_capt.mp3 |
 | Tigrinya | ካሜራ ምክትታል ኣሎ። | kamera mikitatal alo. | sen_gen_sch_cam.mp3 |
-| Tigrinya | ምሽጋር ኣሎ። | mishigar alo. | sen_gen_sch_lock2.mp3 |
+| Tigrinya | ምሽጋር ኣሎኒ። | mishigar alini. | sen_gen_sch_lock2.mp3 |
 | Tigrinya | ሓላዊ ድሕነት ኣሎ። | halawi dihinet alo. | sen_gen_sch_grd.mp3 |
 | Tigrinya | ንሱ ውሑስ እዩ። | nisu wihus 'iyu. | sen_gen_sch_safe2.mp3 |
 | Tigrinya | ትኬት ምእታው ኣሎ። | tiket mi'itaw alo. | sen_gen_vrn_tckt2.mp3 |
-| Tigrinya | መድረኽ ኣሎ። | medrekh alo. | sen_gen_vrn_stg.mp3 |
+| Tigrinya | መድረኽ ኣሎኒ። | medrekh alini. | sen_gen_vrn_stg.mp3 |
 | Tigrinya | ተዓዘብቲ ኣሎ። | te'azebti alo. | sen_gen_vrn_aud.mp3 |
-| Tigrinya | ትርኢት ኣሎ። | tir'it alo. | sen_gen_vrn_perf.mp3 |
+| Tigrinya | ትርኢት ኣሎኒ። | tir'it alini. | sen_gen_vrn_perf.mp3 |
 | Tigrinya | ጸምሪ ኣሎ። | tsemri alo. | sen_gen_txt_wool.mp3 |
-| Tigrinya | ሓሪር ኣሎ። | harir alo. | sen_gen_txt_silk.mp3 |
+| Tigrinya | ሓሪር ኣሎኒ። | harir alini. | sen_gen_txt_silk.mp3 |
 | Tigrinya | ቆርበት (ናይ ክዳን) ኣሎ። | qorbet nay kidan alo. | sen_gen_txt_lthr.mp3 |
-| Tigrinya | ጨርቂ ኣሎ። | cherqi alo. | sen_gen_txt_fbrc.mp3 |
+| Tigrinya | ጨርቂ ኣሎኒ። | cherqi alini. | sen_gen_txt_fbrc.mp3 |
 | Tigrinya | ናይ ምድሪ መጽረዪ ኣሎ። | nay midri metsereyi alo. | sen_gen_rng_mop.mp3 |
-| Tigrinya | ሳሙና ምሕጻብ ኣሎ። | samuna mihitsab alo. | sen_gen_rng_dtrg.mp3 |
+| Tigrinya | ሳሙና ምሕጻብ ኣሎኒ። | samuna mihitsab alini. | sen_gen_rng_dtrg.mp3 |
 | Tigrinya | ሳንዱቕ ጎሓፍ ኣሎ። | sanduq gohaf alo. | sen_gen_rng_bin.mp3 |
-| Tigrinya | ሓሸሽ ኣሎ። | hashesh alo. | sen_gen_rng_dust.mp3 |
+| Tigrinya | ሓሸሽ ኣሎኒ። | hashesh alini. | sen_gen_rng_dust.mp3 |
 | Tigrinya | ናይ ገንዘብ ቦርሳ ኣሎ። | nay genzeb borsa alo. | sen_gen_mda_wllt.mp3 |
-| Tigrinya | ጽላል ማይ ኣሎ። | tsilal mai alo. | sen_gen_mda_umbrl2.mp3 |
+| Tigrinya | ጽላል ማይ ኣሎኒ። | tsilal mai alini. | sen_gen_mda_umbrl2.mp3 |
 | Tigrinya | ኣቢሶ ኣሎ። | abiso alo. | sen_gen_mda_brclt.mp3 |
-| Tigrinya | ቀለቤት እዝኒ ኣሎ። | qelebet ezni alo. | sen_gen_mda_erng.mp3 |
+| Tigrinya | ቀለቤት እዝኒ ኣሎኒ። | qelebet ezni alini. | sen_gen_mda_erng.mp3 |
 | Tigrinya | ቀለም ጽሕፈት ኣሎ። | qelem tsihfet alo. | sen_gen_klg_ink.mp3 |
-| Tigrinya | ኣጸሓሕፋ ኣሎ። | atsehahifa alo. | sen_gen_klg_script.mp3 |
+| Tigrinya | ኣጸሓሕፋ ኣሎኒ። | atsehahifa alini. | sen_gen_klg_script.mp3 |
 | Tigrinya | ፊደል ኣሎ። | fidel alo. | sen_gen_klg_letr.mp3 |
-| Tigrinya | ኣገልጋሊ ኣሎ። | agelgali alo. | sen_gen_gsn_wtr.mp3 |
+| Tigrinya | ኣገልጋሊ ኣሎኒ። | agelgali alini. | sen_gen_gsn_wtr.mp3 |
 | Tigrinya | ተኸናኻኒ እንስሳ ኣሎ። | tekenakhani inisisa alo. | sen_gen_zoo_keepr.mp3 |
-| Tigrinya | በጻሒ ናይ እንስሳ ግቢ ኣሎ። | betsahi nay inisisa gibi alo. | sen_gen_zoo_visit.mp3 |
+| Tigrinya | በጻሒ ናይ እንስሳ ግቢ ኣሎኒ። | betsahi nay inisisa gibi alini. | sen_gen_zoo_visit.mp3 |
 | Tigrinya | ኣራዊት ኣሎ። | arawit alo. | sen_gen_zoo_wld2.mp3 |
-| Tigrinya | ገመድ ከልቢ ኣሎ። | gemed kelbi alo. | sen_gen_tpf_leash.mp3 |
+| Tigrinya | ገመድ ከልቢ ኣሎኒ። | gemed kelbi alini. | sen_gen_tpf_leash.mp3 |
 | Tigrinya | ናይ በረድ ጎቦ ኣሎ። | nay bered gobo alo. | sen_gen_glt_glcr.mp3 |
-| Tigrinya | ውርጪ ኣሎ። | wirichi alo. | sen_gen_glt_frst.mp3 |
+| Tigrinya | ውርጪ ኣሎኒ። | wirichi alini. | sen_gen_glt_frst.mp3 |
 | Tigrinya | ጫፍ ምድሪ ኣሎ። | chaf midri alo. | sen_gen_glt_pole.mp3 |
-| Tigrinya | ጽንብላሊዕ ኣሎ። | tsinibilali'i alo. | sen_gen_schm_btfl.mp3 |
+| Tigrinya | ጽንብላሊዕ ኣሎኒ። | tsinibilali'i alini. | sen_gen_schm_btfl.mp3 |
 | Tigrinya | ዋጋ ምዝርራብ ኣሎ። | waga miziribab alo. | sen_gen_flm_brgn.mp3 |
-| Tigrinya | ሕሱር ዋጋ ኣሎ። | hisur waga alo. | sen_gen_flm_deal.mp3 |
+| Tigrinya | ሕሱር ዋጋ ኣሎኒ። | hisur waga alini. | sen_gen_flm_deal.mp3 |
 | Tigrinya | ንኡስ ድኳን ኣሎ። | ni'us dikwan alo. | sen_gen_flm_stall.mp3 |
 | Tigrinya | ሸጠ። | shet'e. | sen_gen_flm_sell.mp3 |
 | Tigrinya | ናይ ዓይኒ መነጽር ኣሎ። | nay 'ayni menetsir alo. | sen_gen_opt_lens2.mp3 |
 | Tigrinya | ንሱ ደፊኡ ዝርአ እዩ። | nisu defi'u ziri'e 'iyu. | sen_gen_opt_blur.mp3 |
 | Tigrinya | ረኣየ። | re'aye. | sen_gen_opt_see.mp3 |
-| Tigrinya | በሰበሰ ስኒ ኣሎ። | besebese sinni alo. | sen_gen_zhn_cvty.mp3 |
+| Tigrinya | በሰበሰ ስኒ ኣሎኒ። | besebese sinni alini. | sen_gen_zhn_cvty.mp3 |
 | Tigrinya | ተሓምበሰ። | tehambese. | sen_gen_brw_ferm.mp3 |
 | Tigrinya | በርሚል ኣሎ። | berimil alo. | sen_gen_brw_bril.mp3 |
-| Tigrinya | ሆፕስ ኣሎ። | hopisi alo. | sen_gen_brw_hops.mp3 |
+| Tigrinya | ሆፕስ ኣሎኒ። | hopisi alini. | sen_gen_brw_hops.mp3 |
 | Tigrinya | ፍረ ቡን ኣሎ። | fire bun alo. | sen_gen_kfz_bean.mp3 |
 | Tigrinya | ናይ ህጹጽ ረድኤት ሳንዱቕ ኣሎ። | nay hitsuts red'et sanduq alo. | sen_gen_erh_kit.mp3 |
-| Tigrinya | ቁስሊ ኣሎ። | qusli alo. | sen_gen_erh_wound.mp3 |
+| Tigrinya | ቁስሊ ኣሎኒ። | qusli alini. | sen_gen_erh_wound.mp3 |
 | Tigrinya | ቃጸሎ ኣሎ። | qatselo alo. | sen_gen_erh_burn.mp3 |
 | Tigrinya | ዕለብጠ። | 'ilebite. | sen_gen_erh_faint.mp3 |
 | Tigrinya | ምልክት ተለፎን ኣሎ። | milikit telefon alo. | sen_gen_mbf_sgnl.mp3 |
 | Tigrinya | ደወለ። | dewele. | sen_gen_mbf_call.mp3 |
 | Tigrinya | ጽሓፈ መልእኽቲ። | tsihafe mel'ikiti. | sen_gen_mbf_txt.mp3 |
-| Tigrinya | መርበብ ተለፎን ኣሎ። | meribeb telefon alo. | sen_gen_mbf_ntwk.mp3 |
+| Tigrinya | መርበብ ተለፎን ኣሎኒ። | meribeb telefon alini. | sen_gen_mbf_ntwk.mp3 |
 | Tigrinya | ግብሪ ሽያጥ ኣሎ። | gibri shiyat alo. | sen_gen_stx_vat.mp3 |
-| Tigrinya | ቤት ጽሕፈት ግብሪ ኣሎ። | bet tsihfet gibri alo. | sen_gen_stx_offc.mp3 |
+| Tigrinya | ቤት ጽሕፈት ግብሪ ኣሎኒ። | bet tsihfet gibri alini. | sen_gen_stx_offc.mp3 |
 | Tigrinya | ኣፍለጠ ግብሪ። | afilete gibri. | sen_gen_stx_decl.mp3 |
 | Tigrinya | ንብረት ኣሎ። | nibiret alo. | sen_gen_imb_prop.mp3 |
 | Tigrinya | ውጥን ህንጻ ኣሎ። | wit'in hinitsa alo. | sen_gen_akt_plan2.mp3 |
-| Tigrinya | ስነ ህንጻ ኣገባብ ኣሎ። | sine hinitsa agebab alo. | sen_gen_akt_style2.mp3 |
+| Tigrinya | ስነ ህንጻ ኣገባብ ኣሎኒ። | sine hinitsa agebab alini. | sen_gen_akt_style2.mp3 |
 | Tigrinya | ዓንዲ ኣሎ። | 'andi alo. | sen_gen_akt_pillr.mp3 |
-| Tigrinya | ምስሊ ሓወልቲ ኣሎ። | misili hawelti alo. | sen_gen_dkm_stat.mp3 |
+| Tigrinya | ምስሊ ሓወልቲ ኣሎኒ። | misili hawelti alini. | sen_gen_dkm_stat.mp3 |
 | Tigrinya | ክንክን ኣሎ። | kinikin alo. | sen_gen_snp_care.mp3 |
-| Tigrinya | በትሪ ኣሎ። | betri alo. | sen_gen_snp_cane.mp3 |
+| Tigrinya | በትሪ ኣሎኒ። | betri alini. | sen_gen_snp_cane.mp3 |
 | Tigrinya | ተኸናኸነ። | tekenakene. | sen_gen_snp_hlp2.mp3 |
 | Tigrinya | መንእሰይ ኣሎ። | men'isey alo. | sen_gen_jgd_teen.mp3 |
 | Tigrinya | ሓይሊ ማይ ኣሎ። | hayili mai alo. | sen_gen_en2_hydro.mp3 |
-| Tigrinya | ናይ ጸሓይ ሰሌዳ ኣሎ። | nay tsehay seleda alo. | sen_gen_en2_panel.mp3 |
+| Tigrinya | ናይ ጸሓይ ሰሌዳ ኣሎኒ። | nay tsehay seleda alini. | sen_gen_en2_panel.mp3 |
 | Tigrinya | ንሱ ዘላቕነት ዘለዎ እዩ። | nisu zelaqinet zelewo 'iyu. | sen_gen_en2_sstn.mp3 |
 | Tigrinya | ምስትምቓር ማይ ኣሎ። | misitimiqar mai alo. | sen_gen_lw2_irrgt.mp3 |
 | Tigrinya | ስጋ ጥቅልል ኣሎ። | siga tiqilil alo. | sen_gen_flx_ssge.mp3 |
 | Tigrinya | ሓረደ። | harede. | sen_gen_flx_slghtr.mp3 |
-| Tigrinya | ባኒ ሰራሒ ኣሎ። | bani serahi alo. | sen_gen_bkr_bkr2.mp3 |
+| Tigrinya | ባኒ ሰራሒ ኣሎኒ። | bani serahi alini. | sen_gen_bkr_bkr2.mp3 |
 | Tigrinya | ንኡስ ባኒ ኣሎ። | ni'us bani alo. | sen_gen_bkr_roll.mp3 |
 | Tigrinya | መልአ ነዳዲ። | mel'e nedadi. | sen_gen_tst_fill.mp3 |
 | Tigrinya | መስፈሪ ነዳዲ ኣሎ። | mesiferi nedadi alo. | sen_gen_tst_pump.mp3 |
-| Tigrinya | ናፍጣ ኣሎ። | nafit'a alo. | sen_gen_tst_diesl.mp3 |
+| Tigrinya | ናፍጣ ኣሎኒ። | nafit'a alini. | sen_gen_tst_diesl.mp3 |
 | Tigrinya | ተለቓሒ መጽሓፍ። | teleqahi metsihaf. | sen_gen_bib_brrw.mp3 |
 | Tigrinya | ርእሱ ነቕነቐ። | ri'isu neqineqe. | sen_gen_gst2_nod.mp3 |
 | Tigrinya | ኢድ ተጣበቐ። | 'idi tet'abeqe. | sen_gen_gst2_shake.mp3 |
@@ -3152,7 +3152,7 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ደቀሰ። | deqese. | sen_gen_trm_sleep2.mp3 |
 | Tigrinya | ልማድ ናብራ ኣሎ። | limad nabra alo. | sen_gen_gwh_rtn.mp3 |
 | Tigrinya | ወትሩ ይገብር። | wetru yigebir. | sen_gen_gwh_always2.mp3 |
-| Tigrinya | ልማድ ኣሎ። | limad alo. | sen_gen_gwh_habit.mp3 |
+| Tigrinya | ልማድ ኣሎኒ። | limad alini. | sen_gen_gwh_habit.mp3 |
 | Tigrinya | ተሰማምዐ። | tesemam'e. | sen_gen_mng_agree.mp3 |
 | Tigrinya | ባእሲ ኣሎ። | ba'isi alo. | sen_gen_knf_fght.mp3 |
 | Tigrinya | ይቕረ በለ። | yiqire bele. | sen_gen_knf_sorry2.mp3 |
@@ -3160,12 +3160,12 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ተዓረቐ። | te'areqe. | sen_gen_knf_reconcl.mp3 |
 | Tigrinya | ረሲዑ። | resi'u. | sen_gen_ern_forgt.mp3 |
 | Tigrinya | ዝኽሪ ኣሎ። | zikhri alo. | sen_gen_ern_mem2.mp3 |
-| Tigrinya | ናፍቖት ኣሎ። | nafiqot alo. | sen_gen_ern_nostal.mp3 |
+| Tigrinya | ናፍቖት ኣሎኒ። | nafiqot alini. | sen_gen_ern_nostal.mp3 |
 | Tigrinya | ውጥን ኣሎ። | wit'in alo. | sen_gen_zkp_plan3.mp3 |
 | Tigrinya | ኣኽብሮት ኣሎ። | akibirot alo. | sen_gen_hfl_resp.mp3 |
 | Tigrinya | ንሱ ግሉል እዩ። | nisu gilul 'iyu. | sen_gen_hfl_rude.mp3 |
 | Tigrinya | ኣቋረጸ። | aquaretse. | sen_gen_hfl_intrp.mp3 |
-| Tigrinya | ንሱ ስራሕ ዝበዝሖ እዩ። | nisu sirah zibezho 'iyu. | sen_gen_zst2_busy2.mp3 |
+| Tigrinya | ንሳ ስራሕ ዝበዝሖ እያ። | nisa sirah zibezho 'iya. | sen_gen_zst2_busy2.mp3 |
 | Tigrinya | ዓንደረ። | 'andere. | sen_gen_bwg_crawl.mp3 |
 | Tigrinya | ደፍአ። | defi'e. | sen_gen_bwg_push.mp3 |
 | Tigrinya | ጐተተ። | gotete. | sen_gen_bwg_pull.mp3 |
@@ -3177,22 +3177,22 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ንሱ ዝሑል ንፋስ እዩ። | nisu zihul nifas 'iyu. | sen_gen_tmp_cool2.mp3 |
 | Tigrinya | ኣውጠጠ። | awit'et'e. | sen_gen_tmp_boil.mp3 |
 | Tigrinya | ተረግአ። | tereg'e. | sen_gen_tmp_freez.mp3 |
-| Tigrinya | ንሱ ልሱን እዩ። | nisu lisun 'iyu. | sen_gen_fmt_smooth.mp3 |
+| Tigrinya | ንሳ ልሱን እያ። | nisa lisun 'iya. | sen_gen_fmt_smooth.mp3 |
 | Tigrinya | ንሱ ጥርሙስ እዩ። | nisu tirimus 'iyu. | sen_gen_mng2_empty2.mp3 |
-| Tigrinya | ንሱ ብዙሕ እዩ። | nisu bizuh 'iyu. | sen_gen_mng2_many2.mp3 |
+| Tigrinya | ንሳ ብዙሕ እያ። | nisa bizuh 'iya. | sen_gen_mng2_many2.mp3 |
 | Tigrinya | ንሱ ውሑድ እዩ። | nisu wihud 'iyu. | sen_gen_mng2_few2.mp3 |
-| Tigrinya | ንሱ እኹል እዩ። | nisu 'ikhul 'iyu. | sen_gen_mng2_enough.mp3 |
+| Tigrinya | ንሳ እኹል እያ። | nisa 'ikhul 'iya. | sen_gen_mng2_enough.mp3 |
 | Tigrinya | ወሰኸ። | weseke. | sen_gen_vrd_grow2.mp3 |
 | Tigrinya | ነከየ። | nekeye. | sen_gen_vrd_decrs.mp3 |
 | Tigrinya | ደው ኣበለ። | dewi abele. | sen_gen_vrd_stop2.mp3 |
 | Tigrinya | ቀጸለ። | qetsele. | sen_gen_vrd_cntnu.mp3 |
 | Tigrinya | ንሱ ዝኸፍአ እዩ። | nisu zikhefi'e 'iyu. | sen_gen_vg2_worst2.mp3 |
-| Tigrinya | ንሱ ዝበለጸ እዩ። | nisu ziboletse 'iyu. | sen_gen_vg2_best2.mp3 |
+| Tigrinya | ንሳ ዝበለጸ እያ። | nisa ziboletse 'iya. | sen_gen_vg2_best2.mp3 |
 | Tigrinya | ንሱ ፍልይ ዝበለ እዩ። | nisu filiyi zibele 'iyu. | sen_gen_vg2_diff2.mp3 |
-| Tigrinya | ንሱ ማዕረ ማዕረ እዩ። | nisu ma'ere ma'ere 'iyu. | sen_gen_vg2_same2.mp3 |
+| Tigrinya | ንሳ ማዕረ ማዕረ እያ። | nisa ma'ere ma'ere 'iya. | sen_gen_vg2_same2.mp3 |
 | Tigrinya | ገንዘብ የብሉን። | genzeb yebilun. | sen_gen_gld_broke.mp3 |
 | Tigrinya | ንሱ ሃብታም እዩ። | nisu habitam 'iyu. | sen_gen_gld_rich2.mp3 |
-| Tigrinya | ንሱ ድኻ እዩ። | nisu dikha 'iyu. | sen_gen_gld_poor2.mp3 |
+| Tigrinya | ንሳ ድኻ እያ። | nisa dikha 'iya. | sen_gen_gld_poor2.mp3 |
 | Tigrinya | ክኸፍል ይኽእል። | kikhefil yikhi'ili. | sen_gen_gld_afford.mp3 |
 | Tigrinya | ሕማቕ ኩነታት ኣየር። | himaq kunetat ayer. | sen_gen_wta_badday.mp3 |
 | Tigrinya | ርሱን ኩነታት ኣየር። | risun kunetat ayer. | sen_gen_wta_hmdty.mp3 |

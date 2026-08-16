@@ -143,43 +143,43 @@
   },
   {
     "id": "sen_gen_vater",
-    "am": "አባት አለ።",
-    "tr": "abbat ale.",
+    "am": "አባት አለኝ።",
+    "tr": "abbat alegn.",
     "level": "A1.1",
     "uses": [
       "lex_vater"
     ],
     "t": {
-      "de": "der Vater ist vorhanden.",
-      "en": "There is father.",
-      "sv": "Det finns pappa.",
-      "nl": "Er is vader."
+      "de": "Ich habe der Vater.",
+      "en": "I have father.",
+      "sv": "Jag har pappa.",
+      "nl": "Ik heb vader."
     },
     "alt": {},
     "chunks": [
       "abbat",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_kind",
-    "am": "ልጅ አለ።",
-    "tr": "lij ale.",
+    "am": "ልጅ እወዳለሁ።",
+    "tr": "lij iwedallehu.",
     "level": "A1.1",
     "uses": [
       "lex_kind"
     ],
     "t": {
-      "de": "das Kind ist vorhanden.",
-      "en": "There is child.",
-      "sv": "Det finns barn.",
-      "nl": "Er is kind."
+      "de": "Ich mag das Kind.",
+      "en": "I like child.",
+      "sv": "Jag gillar barn.",
+      "nl": "Ik hou van kind."
     },
     "alt": {},
     "chunks": [
       "lij",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
@@ -206,22 +206,22 @@
   },
   {
     "id": "sen_gen_zahl_4",
-    "am": "አራት አለ።",
-    "tr": "arat ale.",
+    "am": "አራት አለኝ።",
+    "tr": "arat alegn.",
     "level": "A1.1",
     "uses": [
       "lex_zahl_4"
     ],
     "t": {
-      "de": "4 ist vorhanden.",
-      "en": "There is 4.",
-      "sv": "Det finns 4.",
-      "nl": "Er is 4."
+      "de": "Ich habe 4.",
+      "en": "I have 4.",
+      "sv": "Jag har 4.",
+      "nl": "Ik heb 4."
     },
     "alt": {},
     "chunks": [
       "arat",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
@@ -248,43 +248,43 @@
   },
   {
     "id": "sen_gen_milch",
-    "am": "ወተት አለ።",
-    "tr": "wetet ale.",
+    "am": "ወተት አለኝ።",
+    "tr": "wetet alegn.",
     "level": "A1.1",
     "uses": [
       "lex_milch"
     ],
     "t": {
-      "de": "die Milch ist vorhanden.",
-      "en": "There is milk.",
-      "sv": "Det finns mjölk.",
-      "nl": "Er is melk."
+      "de": "Ich habe die Milch.",
+      "en": "I have milk.",
+      "sv": "Jag har mjölk.",
+      "nl": "Ik heb melk."
     },
     "alt": {},
     "chunks": [
       "wetet",
-      "ale."
+      "alegn."
     ],
     "verified": false
   },
   {
     "id": "sen_gen_fleisch",
-    "am": "ስጋ አለ።",
-    "tr": "siga ale.",
+    "am": "ስጋ እወዳለሁ።",
+    "tr": "siga iwedallehu.",
     "level": "A1.1",
     "uses": [
       "lex_fleisch"
     ],
     "t": {
-      "de": "das Fleisch ist vorhanden.",
-      "en": "There is meat.",
-      "sv": "Det finns kött.",
-      "nl": "Er is vlees."
+      "de": "Ich mag das Fleisch.",
+      "en": "I like meat.",
+      "sv": "Jag gillar kött.",
+      "nl": "Ik hou van vlees."
     },
     "alt": {},
     "chunks": [
       "siga",
-      "ale."
+      "iwedallehu."
     ],
     "verified": false
   },
