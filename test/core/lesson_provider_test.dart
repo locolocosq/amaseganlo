@@ -248,9 +248,15 @@ void main() {
     test(
       'sentence-based exercises record SRS progress for the lexemes the sentence uses',
       () {
+        // Etappe 28 Nachtrag 8: unit_erste_begegnung (and the rest of
+        // Region 1/Addis Abeba) no longer has a sentenceBuilding stage at
+        // all - building a sentence from words you were only shown once,
+        // seconds earlier, was too demanding for the very first stations a
+        // learner ever sees (user feedback). unit_wetter_natur (Oromia,
+        // Region 2) still has one and works the same way.
         lessonProvider.startLesson(
-          unitId: 'unit_erste_begegnung',
-          lessonId: 'lesson_erste_begegnung_sentences',
+          unitId: 'unit_wetter_natur',
+          lessonId: 'unit_wetter_natur_sentences',
           locale: 'de',
           useHearts: false,
         );
@@ -264,13 +270,13 @@ void main() {
         );
         lessonProvider.submitChoiceOrBuildAnswer(exercise.correctAnswer);
 
-        // Etappe 26: no longer hardcoded to 'lex_dehna' specifically - this
-        // unit's sentence-building lesson now has two sentences
-        // (sen_dehna_negn, sen_awo_ameseginalehu), and exercise ordering
-        // isn't guaranteed, so `firstWhere` above can legitimately land on
-        // either one. What this test actually verifies is that SRS progress
-        // gets recorded for whichever lexeme(s) the picked exercise's own
-        // sentence uses - not which specific sentence comes first.
+        // Not hardcoded to one specific sentence/lexeme - this unit's
+        // sentence-building lesson has five sentences, and exercise
+        // ordering isn't guaranteed, so `firstWhere` above can legitimately
+        // land on any of them. What this test actually verifies is that SRS
+        // progress gets recorded for whichever lexeme(s) the picked
+        // exercise's own sentence uses - not which specific sentence comes
+        // first.
         expect(exercise.subjectIds, isNotEmpty);
         for (final lexemeId in exercise.subjectIds) {
           expect(progressProvider.progress.lexemeCards[lexemeId]?.box, 1);
@@ -279,36 +285,34 @@ void main() {
     );
 
     test(
-      'chunk-based exercises are skipped for one-chunk sentences (bug report: a gap-fill on a '
+      'chunk-based exercises never target a one-chunk sentence (bug report: a gap-fill on a '
       'single-word sentence like "yikirta." showed nothing but an empty blank, since redacting '
-      'the only chunk leaves no context at all)',
+      'the only chunk leaves no context at all) - content_validation_test.dart guarantees no real '
+      'sentenceBuilding-stage sentence has fewer than 2 chunks any more; this only re-checks that '
+      'the lesson_provider.dart guard (_chunkDependentTypes) still agrees for real content',
       () {
         lessonProvider.startLesson(
-          unitId: 'unit_erste_begegnung',
-          lessonId: 'lesson_erste_begegnung_sentences',
+          unitId: 'unit_wetter_natur',
+          lessonId: 'unit_wetter_natur_sentences',
           locale: 'de',
           useHearts: false,
         );
         final session = lessonProvider.session!;
 
-        // sen_gen_selam/sen_gen_ibakih/sen_gen_yikirta are single-chunk
-        // (interjections like "Hallo."/"Bitte."/"Entschuldigung.") - none of
-        // them should produce a sentenceBuild/sentenceGapChoice/
-        // sentenceGapTyping/listenBuild exercise.
         const chunkDependentTypes = {
           ExerciseType.sentenceBuild,
           ExerciseType.sentenceGapChoice,
           ExerciseType.sentenceGapTyping,
           ExerciseType.listenBuild,
         };
-        const oneChunkSentenceIds = {'sen_gen_selam', 'sen_gen_ibakih', 'sen_gen_yikirta'};
         for (final exercise in session.exercises) {
-          if (chunkDependentTypes.contains(exercise.type)) {
-            expect(oneChunkSentenceIds.contains(exercise.subjectId), isFalse);
-          }
+          if (!chunkDependentTypes.contains(exercise.type)) continue;
+          final sentence = repo.sentence(exercise.subjectId);
+          expect(sentence, isNotNull);
+          expect(sentence!.chunks.length, greaterThanOrEqualTo(2));
         }
 
-        // sen_dehna_negn/sen_awo_ameseginalehu (two chunks each) still get
+        // sen_zare_tsehay/sen_wushaw_konjo/sen_gen_* (two+ chunks each) still get
         // to use these exercise types - the fix only excludes the
         // degenerate one-chunk case, not the whole lesson.
         expect(

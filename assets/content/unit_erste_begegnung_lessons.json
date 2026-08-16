@@ -36,24 +36,6 @@
     ]
   },
   {
-    "id": "lesson_erste_begegnung_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_dehna"
-    ],
-    "sentenceIds": [
-      "sen_dehna_negn",
-      "sen_awo_ameseginalehu",
-      "sen_fix_dehna",
-      "sen_fix_dehna_2",
-      "sen_fix_dehna_3"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "lesson_erste_begegnung_listening",
     "kind": "listening",
     "lexemeIds": [

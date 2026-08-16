@@ -1156,3 +1156,40 @@ haben, nicht nur für diesen einen Satz: "es kann nicht sein dass ein Satz aus e
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 240/240 grün (239 + 1 neuer
   Regressionstest), `content_validation_test.dart` und `fidel_stufe_content_test.dart` beide grün,
   0 verbleibende Ein-Chunk-Sätze in irgendeiner `sentenceBuilding`-Stufe (rechnerisch bestätigt).
+
+## Etappe 28 Nachtrag 8: "Sätze bauen" aus Region 1 (Addis Abeba) entfernt
+
+Nutzer-Feedback direkt im Anschluss an Nachtrag 7: "Sätze bauen bei den ersten Stationen macht gar
+keinen Sinn, weil da Wörter benötigt werden, die man noch gar nicht kennt" - Wörter aktiv zu einem
+Satz zusammenzusetzen, Sekunden nachdem man sie zum ersten Mal gesehen hat, ist für die allerersten
+Stationen der ganzen App zu viel verlangt. Der Nutzer bot drei Optionen an (ganz raus, besser machen,
+oder einfach raus) - bei zweifacher Nennung von "raus"/"weg" als klar geäußerte Präferenz interpretiert.
+
+- **Die `sentenceBuilding`-Stufe komplett aus allen 7 Addis-Abeba-Einheiten entfernt**
+  (`unit_erste_begegnung`, `unit_ich_und_du`, `unit_familie_menschen`, `unit_zahlen_1_20`,
+  `unit_essen_trinken`, `unit_fragewoerter`, `unit_adverbien_mehr`) - nicht nur die
+  chunk-abhängigen Übungstypen deaktiviert, sondern die ganze Stufe (und damit die "Sätze
+  bauen"-Kachel) weg. Andere Sprachniveaus/Regionen unverändert - der Nutzer sprach explizit nur
+  von den ersten Stationen.
+- **Bewusst nur die Stufe entfernt, nicht die Sätze selbst.** Die 5 Sätze jeder Einheit bleiben in
+  `listening`/`freeApplication`/`review` verdrahtet (Übersetzen, Wahr/Falsch, Hörverstehen) - diese
+  Übungsformen verlangen kein aktives Zusammensetzen aus bekannten Wortbausteinen, sondern eher
+  Wiedererkennen/Verstehen, was für den allerersten Kontakt angemessener ist. Kein Inhalt verloren,
+  nur die eine zu anspruchsvolle Übungsform.
+- **Technisch bereits als sicher bekannt:** `unit_ich_und_du` hatte vor Etappe 28 Nachtrag 7 schon
+  einmal gar keine `sentenceBuilding`-Stufe (eine strukturelle Anomalie, die dort behoben wurde) -
+  die App kam damit klar, ohne Sonderbehandlung im Code. Das Entfernen der Stufe für ganz Region 1
+  ist also kein neuer, ungetesteter Zustand.
+- **Zwei bestehende Tests mussten auf eine andere Einheit umgestellt werden**
+  (`test/core/lesson_provider_test.dart`, Gruppe "sentence lessons"): beide nutzten bisher
+  `unit_erste_begegnung`s (jetzt entfernte) `sentenceBuilding`-Stufe - umgestellt auf
+  `unit_wetter_natur` (Oromia, Region 2), das dieselbe Struktur weiterhin hat.
+- **Der zweite Test wurde inhaltlich neu ausgerichtet statt nur umbenannt:** er prüfte bisher explizit
+  gegen drei konkrete Ein-Chunk-Sätze (`sen_gen_selam`/`ibakih`/`yikirta`), die es seit Nachtrag 7
+  gar nicht mehr gibt. Jetzt prüft er allgemein, dass jede chunk-abhängige Übung in einer echten
+  Lektion auf einen Satz mit mindestens 2 Chunks zeigt - und die eigentliche, dauerhafte Absicherung
+  sitzt jetzt als eigener Test in `content_validation_test.dart` ("every sentence referenced by a
+  sentenceBuilding-kind lesson stage has at least 2 chunks"), der die komplette Content-Basis prüft,
+  nicht nur eine Beispiel-Lektion.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 241/241 grün (240 + 1 neuer
+  Content-Validierungstest).

@@ -36,31 +36,6 @@
     ]
   },
   {
-    "id": "unit_ich_und_du_sentences_gen",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_ine",
-      "lex_ante",
-      "lex_anchi",
-      "lex_issu",
-      "lex_iswa",
-      "lex_egna",
-      "lex_sim",
-      "lex_ityopia"
-    ],
-    "sentenceIds": [
-      "sen_ine_ityopiawi",
-      "sen_issu_dehna",
-      "sen_gen_sim",
-      "sen_fix_sim",
-      "sen_fix_ityopia"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "lesson_ich_und_du_listening",
     "kind": "listening",
     "lexemeIds": [

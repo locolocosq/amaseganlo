@@ -174,6 +174,34 @@ void main() {
     expect(problems, isEmpty, reason: problems.join('; '));
   });
 
+  test('every sentence referenced by a sentenceBuilding-kind lesson stage has at least 2 chunks', () {
+    // Etappe 28 Nachtrag 7 (bug report via screenshot): a one-chunk
+    // "sentence" (e.g. a bare interjection like "yikirta."/"Entschuldigung.")
+    // makes the drag-word-order/gap-fill exercises degenerate - redacting
+    // the sentence's only word leaves nothing but an empty blank, no
+    // context to guess from. lesson_provider.dart's _chunkDependentTypes
+    // guard already keeps that from reaching the learner even if this ever
+    // regresses, but the content itself should never put a sentence this
+    // short in that stage to begin with.
+    final problems = <String>[];
+    for (final unit in units) {
+      final unitMap = unit as Map<String, dynamic>;
+      final lessons = lessonsByUnitId[unitMap['id'] as String] ?? const [];
+      for (final lesson in lessons) {
+        final lessonMap = lesson as Map<String, dynamic>;
+        if (lessonMap['kind'] != 'sentenceBuilding' && lessonMap['kind'] != 'sentences') continue;
+        for (final senId in (lessonMap['sentenceIds'] as List<dynamic>? ?? const [])) {
+          final sentence = sentencesById[senId as String];
+          final chunks = sentence?['chunks'] as List<dynamic>? ?? const [];
+          if (chunks.length < 2) {
+            problems.add('Satz $senId (Kapitel ${unitMap['id']}) hat nur ${chunks.length} Chunk(s)');
+          }
+        }
+      }
+    }
+    expect(problems, isEmpty, reason: problems.join('; '));
+  });
+
   test('every unit id used in a section actually exists in the units list', () {
     final unitIds = units.map((u) => (u as Map<String, dynamic>)['id'] as String).toSet();
     final problems = <String>[];

@@ -60,43 +60,6 @@
     ]
   },
   {
-    "id": "unit_zahlen_1_20_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_zahl_1",
-      "lex_zahl_2",
-      "lex_zahl_3",
-      "lex_zahl_4",
-      "lex_zahl_5",
-      "lex_zahl_6",
-      "lex_zahl_7",
-      "lex_zahl_8",
-      "lex_zahl_9",
-      "lex_zahl_10",
-      "lex_zahl_11",
-      "lex_zahl_12",
-      "lex_zahl_13",
-      "lex_zahl_14",
-      "lex_zahl_15",
-      "lex_zahl_16",
-      "lex_zahl_17",
-      "lex_zahl_18",
-      "lex_zahl_19",
-      "lex_zahl_20"
-    ],
-    "sentenceIds": [
-      "sen_amist_lijoch",
-      "sen_hulet_wendimoch",
-      "sen_sost_ihitoch",
-      "sen_gen_zahl_1",
-      "sen_gen_zahl_4"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_zahlen_1_20_listening",
     "kind": "listening",
     "lexemeIds": [

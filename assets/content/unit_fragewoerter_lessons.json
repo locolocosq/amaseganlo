@@ -44,35 +44,6 @@
     ]
   },
   {
-    "id": "unit_fragewoerter_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_was",
-      "lex_wer",
-      "lex_wo_word",
-      "lex_wann",
-      "lex_warum",
-      "lex_wie",
-      "lex_welche",
-      "lex_und",
-      "lex_oder",
-      "lex_aber",
-      "lex_weil",
-      "lex_dass"
-    ],
-    "sentenceIds": [
-      "sen_min_new",
-      "sen_simka_min",
-      "sen_issu_man",
-      "sen_fix_trinken_verb",
-      "sen_fix_essen_verb"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_fragewoerter_listening",
     "kind": "listening",
     "lexemeIds": [

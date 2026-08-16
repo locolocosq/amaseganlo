@@ -36,31 +36,6 @@
     ]
   },
   {
-    "id": "unit_adverbien_mehr_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_hier",
-      "lex_dort",
-      "lex_ueberall",
-      "lex_draussen",
-      "lex_oben",
-      "lex_unten",
-      "lex_zusammen",
-      "lex_allein"
-    ],
-    "sentenceIds": [
-      "sen_ine_izih",
-      "sen_issu_iziya",
-      "sen_fix_essen_verb_2",
-      "sen_fix_honig",
-      "sen_gen_trinken_verb"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_adverbien_mehr_listening",
     "kind": "listening",
     "lexemeIds": [
