@@ -19,6 +19,22 @@
     "verified": false
   },
   {
+    "id": "sen_awo_ameseginalehu",
+    "am": "አዎ፣ አመሰግናለሁ።",
+    "tr": "awo, ameseginalehu.",
+    "level": "A1.1",
+    "uses": ["lex_awo", "lex_ameseginalehu"],
+    "t": {
+      "de": "Ja, danke.",
+      "en": "Yes, thank you.",
+      "sv": "Ja, tack.",
+      "nl": "Ja, dank je."
+    },
+    "alt": {},
+    "chunks": ["awo,", "ameseginalehu"],
+    "verified": false
+  },
+  {
     "id": "sen_ine_ityopiawi",
     "am": "እኔ ኢትዮጵያ ውስጥ ነኝ።",
     "tr": "ine ityopia wist negn.",
@@ -31,6 +47,22 @@
       "nl": "Ik ben in Ethiopië."
     },
     "chunks": ["ine", "ityopia", "wist", "negn"],
+    "verified": false
+  },
+  {
+    "id": "sen_issu_dehna",
+    "am": "እሱ ደህና ነው።",
+    "tr": "issu dehna new.",
+    "level": "A1.1",
+    "uses": ["lex_issu", "lex_dehna"],
+    "t": {
+      "de": "Ihm geht es gut.",
+      "en": "He is fine.",
+      "sv": "Han mår bra.",
+      "nl": "Het gaat goed met hem."
+    },
+    "alt": {},
+    "chunks": ["issu", "dehna", "new"],
     "verified": false
   }
 ]

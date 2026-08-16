@@ -61,7 +61,9 @@
       "lex_dass"
     ],
     "sentenceIds": [
-      "sen_min_new"
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +88,9 @@
       "lex_dass"
     ],
     "sentenceIds": [
-      "sen_min_new"
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +115,9 @@
       "lex_dass"
     ],
     "sentenceIds": [
-      "sen_min_new"
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +142,9 @@
       "lex_dass"
     ],
     "sentenceIds": [
-      "sen_min_new"
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

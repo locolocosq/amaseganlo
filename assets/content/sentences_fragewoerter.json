@@ -20,5 +20,51 @@
       "new?"
     ],
     "verified": false
+  },
+  {
+    "id": "sen_simka_min",
+    "am": "ስምካ ምን ነው?",
+    "tr": "simka min new?",
+    "level": "A1.1",
+    "uses": [
+      "lex_sim",
+      "lex_was"
+    ],
+    "t": {
+      "de": "Wie heißt du?",
+      "en": "What is your name?",
+      "sv": "Vad heter du?",
+      "nl": "Wat is jouw naam?"
+    },
+    "alt": {},
+    "chunks": [
+      "simka",
+      "min",
+      "new?"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_issu_man",
+    "am": "እሱ ማን ነው?",
+    "tr": "issu man new?",
+    "level": "A1.1",
+    "uses": [
+      "lex_issu",
+      "lex_wer"
+    ],
+    "t": {
+      "de": "Wer ist er?",
+      "en": "Who is he?",
+      "sv": "Vem är han?",
+      "nl": "Wie is hij?"
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "man",
+      "new?"
+    ],
+    "verified": false
   }
 ]

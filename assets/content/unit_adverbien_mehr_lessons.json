@@ -48,7 +48,10 @@
       "lex_zusammen",
       "lex_allein"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -67,7 +70,10 @@
       "lex_zusammen",
       "lex_allein"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -86,7 +92,10 @@
       "lex_zusammen",
       "lex_allein"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -105,7 +114,10 @@
       "lex_zusammen",
       "lex_allein"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

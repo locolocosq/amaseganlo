@@ -17,28 +17,28 @@
     "id": "lesson_erste_begegnung_sentences",
     "kind": "sentenceBuilding",
     "lexemeIds": ["lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn"],
+    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
     "exerciseTypes": ["sentenceBuild", "sentenceGapChoice"]
   },
   {
     "id": "lesson_erste_begegnung_listening",
     "kind": "listening",
     "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn"],
+    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
     "exerciseTypes": ["listenChoice", "listenBuild"]
   },
   {
     "id": "lesson_erste_begegnung_free",
     "kind": "freeApplication",
     "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn"],
+    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
     "exerciseTypes": ["wordTyping", "sentenceTranslate"]
   },
   {
     "id": "lesson_erste_begegnung_review",
     "kind": "review",
     "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn"],
+    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
     "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping", "trueFalse"]
   }
 ]

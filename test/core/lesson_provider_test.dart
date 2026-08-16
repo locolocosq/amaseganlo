@@ -264,8 +264,17 @@ void main() {
         );
         lessonProvider.submitChoiceOrBuildAnswer(exercise.correctAnswer);
 
-        expect(exercise.subjectIds, contains('lex_dehna'));
-        expect(progressProvider.progress.lexemeCards['lex_dehna']?.box, 1);
+        // Etappe 26: no longer hardcoded to 'lex_dehna' specifically - this
+        // unit's sentence-building lesson now has two sentences
+        // (sen_dehna_negn, sen_awo_ameseginalehu), and exercise ordering
+        // isn't guaranteed, so `firstWhere` above can legitimately land on
+        // either one. What this test actually verifies is that SRS progress
+        // gets recorded for whichever lexeme(s) the picked exercise's own
+        // sentence uses - not which specific sentence comes first.
+        expect(exercise.subjectIds, isNotEmpty);
+        for (final lexemeId in exercise.subjectIds) {
+          expect(progressProvider.progress.lexemeCards[lexemeId]?.box, 1);
+        }
       },
     );
   });

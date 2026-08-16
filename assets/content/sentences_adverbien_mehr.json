@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "sen_ine_izih",
+    "am": "እኔ እዚህ ነኝ።",
+    "tr": "ine izih negn.",
+    "level": "A1.1",
+    "uses": ["lex_ine", "lex_hier"],
+    "t": {
+      "de": "Ich bin hier.",
+      "en": "I am here.",
+      "sv": "Jag är här.",
+      "nl": "Ik ben hier."
+    },
+    "alt": {},
+    "chunks": ["ine", "izih", "negn"],
+    "verified": false
+  },
+  {
+    "id": "sen_issu_iziya",
+    "am": "እሱ እዚያ ነው።",
+    "tr": "issu iziya new.",
+    "level": "A1.1",
+    "uses": ["lex_issu", "lex_dort"],
+    "t": {
+      "de": "Er ist dort.",
+      "en": "He is there.",
+      "sv": "Han är där.",
+      "nl": "Hij is daar."
+    },
+    "alt": {},
+    "chunks": ["issu", "iziya", "new"],
+    "verified": false
+  }
+]
