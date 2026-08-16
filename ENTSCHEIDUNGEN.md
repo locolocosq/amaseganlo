@@ -924,3 +924,30 @@ und die südöstliche Landzunge bis zur spitzen Ras-Dumeira-Spitze an der Grenze
   Prüfung im Browser bleibt (wie in Etappe 8/27 dokumentiert) durch die Umgebung eingeschränkt -
   die geometrische Korrektheit (kein Selbstschnitt, richtige Fläche/Ausdehnung) ist rechnerisch
   sichergestellt, eine Pixel-genaue Übereinstimmung mit der Referenzgrafik aber nicht.
+
+## Etappe 27 Nachtrag 3: Umriss auf 100 Punkte verdichtet
+
+Nutzerauftrag: statt der 31 Punkte aus Nachtrag 2 sollen es 100 sein. 100 Punkte von Hand aus einer
+Referenzgrafik abzulesen wäre weder präzise noch praktikabel gewesen - stattdessen wurde der bereits
+geprüfte 31-Punkte-Umriss programmatisch verdichtet: jede der 31 Kanten wird in mehrere Teilstücke
+zerlegt, mit kleinem senkrechtem Jitter (an den Endpunkten auf 0 auslaufend, damit die Nachbarkanten
+weiter exakt ineinander übergehen) für eine natürlich wirkende, unregelmäßige Küstenlinie statt einer
+glatten Kurve - dieselbe Silhouette, nur mit mehr Detailtreue.
+
+- **Kanten-Budget proportional zur Kantenlänge verteilt** (längere Küstenabschnitte bekommen mehr
+  Zusatzpunkte, kürzere weniger - realistischer als eine gleichmäßige Verteilung) und auf exakt 100
+  Gesamtpunkte genau austariert (31 Basispunkte + 69 verteilte Zusatzpunkte).
+- **Jitter-Amplitude im Schwanzbereich bewusst auf ein Viertel reduziert** (0,012° statt 0,055°):
+  genau dort hatte Nachtrag 2 schon eine echte Selbstüberschneidung gefunden und beheben müssen, weil
+  Hinweg- und Rückweg-Kante der schmalen Landzunge nah beieinander liegen - zusätzlicher Jitter hätte
+  dort mit hoher Wahrscheinlichkeit erneut eine Überschneidung erzeugt.
+- **Seed-Suche statt Handarbeit:** die Zufallszahlen für den Jitter kommen aus einem deterministischen
+  Pseudozufallsgenerator; ein Skript hat automatisiert durchprobiert, bis ein Seed 0 Selbstüber-
+  schneidungen ergab (derselbe Segment-Schnittpunkt-Test wie in Nachtrag 2), statt einzelne Punkte von
+  Hand nachzujustieren.
+- **Ergebnis geometrisch gegengeprüft:** exakt 100 Punkte, 0 Selbstüberschneidungen, gleiche
+  Umlaufrichtung und Fläche wie der 31-Punkte-Vorgänger, Keren/Asmara/Massawa weiterhin innerhalb der
+  Landmasse, Dahlak weiterhin knapp außerhalb (unverändert, siehe Nachtrag 2).
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün. Wie in Nachtrag 2:
+  echte Pixel-Prüfung im Browser durch die Umgebung nicht möglich, nur Konsole/Ladezustand
+  kontrolliert (fehlerfrei, keine neuen Laufzeitfehler).
