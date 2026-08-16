@@ -76,6 +76,12 @@ class AppSettings {
   final bool allLessonsUnlocked;
   final FidelLearningPath fidelLearningPath;
   final bool onboardingCompleted;
+  // Etappe 26: whether the one-time "you can also learn Tigrinya now" hint
+  // (shown right after onboarding, on first arrival at the world map) has
+  // already been dismissed - same persisted-flag pattern as
+  // [onboardingCompleted] itself, so it survives app restarts and never
+  // reappears once seen.
+  final bool hasSeenEritreaHint;
 
   const AppSettings({
     this.schemaVersion = settingsSchemaVersion,
@@ -95,6 +101,7 @@ class AppSettings {
     this.allLessonsUnlocked = false,
     this.fidelLearningPath = FidelLearningPath.traditional,
     this.onboardingCompleted = false,
+    this.hasSeenEritreaHint = false,
   });
 
   AppSettings copyWith({
@@ -114,6 +121,7 @@ class AppSettings {
     bool? allLessonsUnlocked,
     FidelLearningPath? fidelLearningPath,
     bool? onboardingCompleted,
+    bool? hasSeenEritreaHint,
   }) {
     return AppSettings(
       schemaVersion: settingsSchemaVersion,
@@ -133,6 +141,7 @@ class AppSettings {
       allLessonsUnlocked: allLessonsUnlocked ?? this.allLessonsUnlocked,
       fidelLearningPath: fidelLearningPath ?? this.fidelLearningPath,
       onboardingCompleted: onboardingCompleted ?? this.onboardingCompleted,
+      hasSeenEritreaHint: hasSeenEritreaHint ?? this.hasSeenEritreaHint,
     );
   }
 
@@ -155,6 +164,7 @@ class AppSettings {
       allLessonsUnlocked: json['allLessonsUnlocked'] as bool? ?? false,
       fidelLearningPath: _enumFromName(FidelLearningPath.values, json['fidelLearningPath'], FidelLearningPath.traditional),
       onboardingCompleted: json['onboardingCompleted'] as bool? ?? false,
+      hasSeenEritreaHint: json['hasSeenEritreaHint'] as bool? ?? false,
     );
   }
 
@@ -176,6 +186,7 @@ class AppSettings {
         'allLessonsUnlocked': allLessonsUnlocked,
         'fidelLearningPath': fidelLearningPath.name,
         'onboardingCompleted': onboardingCompleted,
+        'hasSeenEritreaHint': hasSeenEritreaHint,
       };
 
   static T _enumFromName<T extends Enum>(List<T> values, dynamic name, T fallback) {

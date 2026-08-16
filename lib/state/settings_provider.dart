@@ -38,4 +38,5 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> setAllLessonsUnlocked(bool enabled) => _update((s) => s.copyWith(allLessonsUnlocked: enabled));
   Future<void> setFidelLearningPath(FidelLearningPath path) => _update((s) => s.copyWith(fidelLearningPath: path));
   Future<void> setOnboardingCompleted(bool done) => _update((s) => s.copyWith(onboardingCompleted: done));
+  Future<void> setHasSeenEritreaHint(bool seen) => _update((s) => s.copyWith(hasSeenEritreaHint: seen));
 }

@@ -12,6 +12,7 @@ import '../../state/content_provider.dart';
 import '../../state/progress_provider.dart';
 import '../../state/settings_provider.dart';
 import '../../widgets/common/empty_state.dart';
+import '../../widgets/common/eritrea_hint_dialog.dart';
 import '../../widgets/journey/bus_driver.dart';
 import '../../widgets/journey/region_node_marker.dart';
 import '../../widgets/journey/traveling_bus.dart';
@@ -33,6 +34,7 @@ class WorldMapScreen extends StatefulWidget {
 class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProviderStateMixin {
   late final AnimationController _busController;
   bool _busAnimationStarted = false;
+  bool _eritreaHintTriggered = false;
 
   @override
   void initState() {
@@ -60,6 +62,23 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
       if (mounted) {
         _busController.animateTo(target, duration: Duration(milliseconds: (500 + target * 1600).round()), curve: Curves.easeInOutCubic);
       }
+    });
+  }
+
+  /// Shows the one-time "you can also learn Tigrinya now" dialog (Etappe
+  /// 26) the first time this screen builds with the hint not yet seen -
+  /// guarded the same way [_startBusTravel] guards its own one-shot
+  /// animation, so a rebuild (e.g. progress changing) never re-triggers it
+  /// mid-session even before the persisted flag round-trips through
+  /// storage.
+  void _maybeShowEritreaHint(bool alreadySeen) {
+    if (alreadySeen || _eritreaHintTriggered) return;
+    _eritreaHintTriggered = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (!mounted) return;
+      await showEritreaLanguageHintDialog(context);
+      if (!mounted) return;
+      context.read<SettingsProvider>().setHasSeenEritreaHint(true);
     });
   }
 
@@ -91,6 +110,8 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
         : l10n.journeyDriverWorldMapCurrent(currentSection.title[locale] ?? currentSection.id);
 
     final resumeTarget = findResumeTarget(contentProvider.repository, progressProvider.progress);
+
+    _maybeShowEritreaHint(settings.hasSeenEritreaHint);
 
     return Column(
       children: [

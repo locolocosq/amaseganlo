@@ -114,10 +114,18 @@ AudioService _fakeAudioService() => AudioService(
 /// state through this helper, and every existing test's tap sequences
 /// assume it's already landed on the main app shell. Pass
 /// `forceOnboardingCompleted: false` to test the onboarding flow itself.
+///
+/// The one-time Eritrea/Tigrinya hint dialog (Etappe 26) is forced to
+/// "already seen" by default for the same reason - it auto-shows itself on
+/// the world map's very first build via a post-frame callback, and without
+/// this override it would pop up under every single existing test that
+/// reaches `/learn`, intercepting taps meant for the map underneath. Pass
+/// `forceEritreaHintSeen: false` to test the hint dialog itself.
 Future<void> pumpTestApp(
   WidgetTester tester, {
   Map<String, Object> initialPrefs = const {},
   bool forceOnboardingCompleted = true,
+  bool forceEritreaHintSeen = true,
   AudioService? audioService,
   NotificationClient? notificationClient,
 }) async {
@@ -128,9 +136,14 @@ Future<void> pumpTestApp(
           jsonDecode(existingSettingsJson) as Map<String, dynamic>,
         )
       : const AppSettings();
-  if (forceOnboardingCompleted) {
+  if (forceOnboardingCompleted || forceEritreaHintSeen) {
     prefs['amaseganlo.settings'] = jsonEncode(
-      baseSettings.copyWith(onboardingCompleted: true).toJson(),
+      baseSettings
+          .copyWith(
+            onboardingCompleted: forceOnboardingCompleted ? true : baseSettings.onboardingCompleted,
+            hasSeenEritreaHint: forceEritreaHintSeen ? true : baseSettings.hasSeenEritreaHint,
+          )
+          .toJson(),
     );
   } else if (existingSettingsJson == null) {
     prefs['amaseganlo.settings'] = jsonEncode(baseSettings.toJson());
