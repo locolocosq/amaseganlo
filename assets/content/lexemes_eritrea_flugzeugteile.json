@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_flz_wing","am":"ክንፊ","tr":"kinfi","pos":"noun","topic":"airplane_parts","level":"TI","t":{"de":"der Flügel (Flugzeug)","en":"wing (airplane)","sv":"vinge (flygplan)","nl":"vleugel (vliegtuig)"},"emoji":"","verified":false},
+  {"id":"lex_ti_flz_engn","am":"ሞተር ነፋሪት","tr":"moter nefarit","pos":"noun","topic":"airplane_parts","level":"TI","t":{"de":"das Triebwerk","en":"engine (airplane)","sv":"flygmotor","nl":"vliegtuigmotor"},"emoji":"","verified":false},
+  {"id":"lex_ti_flz_ckpt","am":"ክፍሊ ፓይሎት","tr":"kifli paylot","pos":"noun","topic":"airplane_parts","level":"TI","t":{"de":"das Cockpit","en":"cockpit","sv":"cockpit","nl":"cockpit"},"emoji":"","verified":false},
+  {"id":"lex_ti_flz_seat","am":"መንበር ነፋሪት","tr":"menber nefarit","pos":"noun","topic":"airplane_parts","level":"TI","t":{"de":"der Flugzeugsitz","en":"airplane seat","sv":"flygplansstol","nl":"vliegtuigstoel"},"emoji":"","verified":false},
+  {"id":"lex_ti_flz_crew","am":"ሰራሕተኛታት ነፋሪት","tr":"serahtegnatat nefarit","pos":"noun","topic":"airplane_parts","level":"TI","t":{"de":"die Flugzeugbesatzung","en":"flight crew","sv":"flygbesättning","nl":"vliegtuigbemanning"},"emoji":"","verified":false}
+]

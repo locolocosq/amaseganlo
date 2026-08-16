@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_ntd_ambln","am":"ቁጽሪ ህጹጽ ረድኤት","tr":"qutsri hitsuts red'et","pos":"noun","topic":"emergency_services","level":"TI","t":{"de":"die Notrufnummer","en":"emergency number","sv":"nödnummer","nl":"alarmnummer"},"emoji":"📞","verified":false},
+  {"id":"lex_ti_ntd_rescu","am":"ኣገልግሎት ረድኤት","tr":"agelgilot red'et","pos":"noun","topic":"emergency_services","level":"TI","t":{"de":"der Rettungsdienst","en":"rescue service","sv":"räddningstjänst","nl":"reddingsdienst"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntd_urgnt","am":"ህጹጽ","tr":"hitsuts","pos":"adjective","topic":"emergency_services","level":"TI","t":{"de":"dringend, notfallmäßig","en":"urgent, emergency","sv":"akut, brådskande","nl":"dringend, spoedeisend"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntd_report","am":"ኣበሰረ","tr":"abesere","pos":"verb","topic":"emergency_services","level":"TI","t":{"de":"melden (Notfall)","en":"to report (emergency)","sv":"anmäla (nödsituation)","nl":"melden (noodgeval)"},"emoji":"","verified":false}
+]

@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_brs_dice","am":"ዳይስ","tr":"days","pos":"noun","topic":"board_games","level":"TI","t":{"de":"der Würfel (Spiel)","en":"dice","sv":"tärning","nl":"dobbelsteen"},"emoji":"🎲","verified":false},
+  {"id":"lex_ti_brs_domin","am":"ዶሚኖ","tr":"domino","pos":"noun","topic":"board_games","level":"TI","t":{"de":"das Domino","en":"dominoes","sv":"domino","nl":"domino"},"emoji":"","verified":false},
+  {"id":"lex_ti_brs_chkrs","am":"ዳማ","tr":"dama","pos":"noun","topic":"board_games","level":"TI","t":{"de":"das Damespiel","en":"checkers","sv":"dam (spel)","nl":"dammen"},"emoji":"","verified":false},
+  {"id":"lex_ti_brs_turn","am":"ተራ","tr":"tera","pos":"noun","topic":"board_games","level":"TI","t":{"de":"die Spielrunde, der Zug","en":"turn (game)","sv":"tur (spel)","nl":"beurt (spel)"},"emoji":"","verified":false},
+  {"id":"lex_ti_brs_win2","am":"ተዓወተ","tr":"te'awete","pos":"verb","topic":"board_games","level":"TI","t":{"de":"gewinnen","en":"to win","sv":"att vinna","nl":"winnen"},"emoji":"","verified":false},
+  {"id":"lex_ti_brs_lose2","am":"ተሳዕረ","tr":"tesa'ere","pos":"verb","topic":"board_games","level":"TI","t":{"de":"verlieren (Spiel)","en":"to lose (game)","sv":"att förlora (spel)","nl":"verliezen (spel)"},"emoji":"","verified":false}
+]

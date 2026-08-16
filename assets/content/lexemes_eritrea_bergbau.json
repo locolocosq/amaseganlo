@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_brg_mine","am":"ማዕድን ቦታ","tr":"ma'idin bota","pos":"noun","topic":"mining","level":"TI","t":{"de":"die Mine, das Bergwerk","en":"mine (mining)","sv":"gruva","nl":"mijn (mijnbouw)"},"emoji":"","verified":false},
+  {"id":"lex_ti_brg_minr","am":"ሰራሕተኛ ማዕድን","tr":"serahtegna ma'idin","pos":"noun","topic":"mining","level":"TI","t":{"de":"der Bergmann","en":"miner","sv":"gruvarbetare","nl":"mijnwerker"},"emoji":"","verified":false},
+  {"id":"lex_ti_brg_dig2","am":"ዓየረ","tr":"'ayere","pos":"verb","topic":"mining","level":"TI","t":{"de":"graben","en":"to dig","sv":"att gräva","nl":"graven"},"emoji":"","verified":false},
+  {"id":"lex_ti_brg_extr","am":"ኣውጽአ (ማዕድን)","tr":"awts'e ma'idin","pos":"verb","topic":"mining","level":"TI","t":{"de":"abbauen (Rohstoffe)","en":"to extract (minerals)","sv":"att utvinna (mineraler)","nl":"delven, winnen (mineralen)"},"emoji":"","verified":false},
+  {"id":"lex_ti_brg_tunl","am":"ትሕቲ ምድሪ መንገዲ","tr":"tihti midri mengedi","pos":"noun","topic":"mining","level":"TI","t":{"de":"der Tunnel","en":"tunnel","sv":"tunnel","nl":"tunnel"},"emoji":"","verified":false}
+]

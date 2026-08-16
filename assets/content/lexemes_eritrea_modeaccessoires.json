@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_mda_sngl","am":"መነጽር ጸሓይ","tr":"menetsir tsehay","pos":"noun","topic":"fashion_accessories","level":"TI","t":{"de":"die Sonnenbrille","en":"sunglasses","sv":"solglasögon","nl":"zonnebril"},"emoji":"🕶️","verified":false},
+  {"id":"lex_ti_mda_wllt","am":"ናይ ገንዘብ ቦርሳ","tr":"nay genzeb borsa","pos":"noun","topic":"fashion_accessories","level":"TI","t":{"de":"das Portemonnaie","en":"wallet","sv":"plånbok","nl":"portemonnee"},"emoji":"👛","verified":false},
+  {"id":"lex_ti_mda_umbrl2","am":"ጽላል ማይ","tr":"tsilal mai","pos":"noun","topic":"fashion_accessories","level":"TI","t":{"de":"der Regenschirm","en":"umbrella","sv":"paraply","nl":"paraplu"},"emoji":"☂️","verified":false},
+  {"id":"lex_ti_mda_brclt","am":"ኣቢሶ","tr":"abiso","pos":"noun","topic":"fashion_accessories","level":"TI","t":{"de":"das Armband","en":"bracelet","sv":"armband","nl":"armband"},"emoji":"","verified":false},
+  {"id":"lex_ti_mda_erng","am":"ቀለቤት እዝኒ","tr":"qelebet ezni","pos":"noun","topic":"fashion_accessories","level":"TI","t":{"de":"der Ohrring","en":"earring","sv":"örhänge","nl":"oorbel"},"emoji":"","verified":false}
+]

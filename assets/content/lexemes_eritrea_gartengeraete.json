@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_ggr_rake","am":"መጻረግ ቅጠል","tr":"metsareg qitel","pos":"noun","topic":"garden_tools","level":"TI","t":{"de":"der Rechen","en":"rake","sv":"kratta","nl":"hark"},"emoji":"","verified":false},
+  {"id":"lex_ti_ggr_can","am":"ማይ ኣትክልቲ መስተይቲ","tr":"mai atikilti mesteyti","pos":"noun","topic":"garden_tools","level":"TI","t":{"de":"die Gießkanne","en":"watering can","sv":"vattenkanna","nl":"gieter"},"emoji":"","verified":false},
+  {"id":"lex_ti_ggr_mwr","am":"መቑረጺ ሳዕሪ","tr":"mequretsi sa'iri","pos":"noun","topic":"garden_tools","level":"TI","t":{"de":"der Rasenmäher","en":"lawnmower","sv":"gräsklippare","nl":"grasmaaier"},"emoji":"","verified":false},
+  {"id":"lex_ti_ggr_shvl2","am":"መሕፍሪ","tr":"mehifiri","pos":"noun","topic":"garden_tools","level":"TI","t":{"de":"die Schaufel (Garten)","en":"garden shovel","sv":"spade (trädgård)","nl":"schep (tuin)"},"emoji":"🧹","verified":false},
+  {"id":"lex_ti_ggr_glvs","am":"ጓንቲ ኣትክልቲ","tr":"gwanti atikilti","pos":"noun","topic":"garden_tools","level":"TI","t":{"de":"die Gartenhandschuhe","en":"garden gloves","sv":"trädgårdshandskar","nl":"tuinhandschoenen"},"emoji":"🧤","verified":false}
+]

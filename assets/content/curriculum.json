@@ -299,7 +299,39 @@
     "lexemes_eritrea_umzug.json",
     "lexemes_eritrea_universitaet.json",
     "lexemes_eritrea_versicherung.json",
-    "lexemes_eritrea_wanderung.json"
+    "lexemes_eritrea_wanderung.json",
+    "lexemes_eritrea_archaeologie.json",
+    "lexemes_eritrea_bergbau.json",
+    "lexemes_eritrea_brettspiele.json",
+    "lexemes_eritrea_chemie.json",
+    "lexemes_eritrea_computerhardware.json",
+    "lexemes_eritrea_elektrizitaet.json",
+    "lexemes_eritrea_fabrik.json",
+    "lexemes_eritrea_feuerwehr.json",
+    "lexemes_eritrea_flugzeugteile.json",
+    "lexemes_eritrea_fotografie.json",
+    "lexemes_eritrea_friseursalon.json",
+    "lexemes_eritrea_gaerten.json",
+    "lexemes_eritrea_gartengeraete.json",
+    "lexemes_eritrea_gastronomie.json",
+    "lexemes_eritrea_gewaesser.json",
+    "lexemes_eritrea_hochzeitsfeier.json",
+    "lexemes_eritrea_jahrmarkt.json",
+    "lexemes_eritrea_kalligraphie.json",
+    "lexemes_eritrea_kunstwerke.json",
+    "lexemes_eritrea_mode2.json",
+    "lexemes_eritrea_modeaccessoires.json",
+    "lexemes_eritrea_notdienste.json",
+    "lexemes_eritrea_raumfahrt.json",
+    "lexemes_eritrea_reinigung.json",
+    "lexemes_eritrea_schneiderei.json",
+    "lexemes_eritrea_seefahrt.json",
+    "lexemes_eritrea_sicherheit.json",
+    "lexemes_eritrea_textilien.json",
+    "lexemes_eritrea_veranstaltung.json",
+    "lexemes_eritrea_verpackung.json",
+    "lexemes_eritrea_wildtiere.json",
+    "lexemes_eritrea_zirkus.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -461,7 +493,8 @@
     "sentences_eritrea_mehr.json",
     "sentences_eritrea_mehr2.json",
     "sentences_eritrea_mehr3.json",
-    "sentences_eritrea_mehr4.json"
+    "sentences_eritrea_mehr4.json",
+    "sentences_eritrea_mehr5.json"
   ],
   "sections": [
     {
@@ -791,7 +824,24 @@
         "unit_eritrea_diplomatie",
         "unit_eritrea_internetbegriffe",
         "unit_eritrea_haustiere_spielplatz",
-        "unit_eritrea_tanzen_gastfreundschaft"
+        "unit_eritrea_tanzen_gastfreundschaft",
+        "unit_eritrea_raumfahrt_archaeologie",
+        "unit_eritrea_chemie_computerhardware",
+        "unit_eritrea_wildtiere",
+        "unit_eritrea_elektrizitaet_fabrik",
+        "unit_eritrea_feuerwehr_notdienste",
+        "unit_eritrea_flugzeugteile_fotografie",
+        "unit_eritrea_friseursalon_schneiderei",
+        "unit_eritrea_gaerten_gartengeraete",
+        "unit_eritrea_hochzeitsfeier",
+        "unit_eritrea_brettspiele_jahrmarkt",
+        "unit_eritrea_seefahrt_gewaesser",
+        "unit_eritrea_sicherheit_verpackung",
+        "unit_eritrea_veranstaltung_zirkus",
+        "unit_eritrea_textilien_mode2",
+        "unit_eritrea_reinigung_kunstwerke",
+        "unit_eritrea_modeaccessoires_bergbau",
+        "unit_eritrea_kalligraphie_gastronomie"
       ]
     }
   ],
@@ -3876,6 +3926,227 @@
       },
       "topic": "dance_hospitality",
       "lessonFile": "unit_eritrea_tanzen_gastfreundschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_raumfahrt_archaeologie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Raumfahrt & Archäologie",
+        "en": "Space Travel & Archaeology",
+        "sv": "Rymdfärd & Arkeologi",
+        "nl": "Ruimtevaart & Archeologie"
+      },
+      "topic": "space_archaeology",
+      "lessonFile": "unit_eritrea_raumfahrt_archaeologie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_chemie_computerhardware",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Chemie & Computerhardware",
+        "en": "Chemistry & Computer Hardware",
+        "sv": "Kemi & Datorhårdvara",
+        "nl": "Scheikunde & Computerhardware"
+      },
+      "topic": "chemistry_hardware",
+      "lessonFile": "unit_eritrea_chemie_computerhardware_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wildtiere",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Wildtiere Afrikas",
+        "en": "African Wildlife",
+        "sv": "Afrikas vilda djur",
+        "nl": "Afrikaanse wilde dieren"
+      },
+      "topic": "wild_animals",
+      "lessonFile": "unit_eritrea_wildtiere_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_elektrizitaet_fabrik",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Elektrizität & Fabrik",
+        "en": "Electricity & Factory",
+        "sv": "Elektricitet & Fabrik",
+        "nl": "Elektriciteit & Fabriek"
+      },
+      "topic": "electricity_factory",
+      "lessonFile": "unit_eritrea_elektrizitaet_fabrik_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_feuerwehr_notdienste",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Feuerwehr & Notdienste",
+        "en": "Firefighting & Emergency Services",
+        "sv": "Brandkår & Räddningstjänster",
+        "nl": "Brandweer & Hulpdiensten"
+      },
+      "topic": "firefighting_emergency",
+      "lessonFile": "unit_eritrea_feuerwehr_notdienste_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_flugzeugteile_fotografie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Flugzeugteile & Fotografie",
+        "en": "Airplane Parts & Photography",
+        "sv": "Flygplansdelar & Fotografi",
+        "nl": "Vliegtuigonderdelen & Fotografie"
+      },
+      "topic": "airplane_photography",
+      "lessonFile": "unit_eritrea_flugzeugteile_fotografie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_friseursalon_schneiderei",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Friseursalon & Schneiderei",
+        "en": "Hair Salon & Tailoring",
+        "sv": "Frisörsalong & Skrädderi",
+        "nl": "Kapsalon & Kleermakerij"
+      },
+      "topic": "salon_tailoring",
+      "lessonFile": "unit_eritrea_friseursalon_schneiderei_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gaerten_gartengeraete",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gärten & Gartengeräte",
+        "en": "Gardens & Garden Tools",
+        "sv": "Trädgårdar & Trädgårdsredskap",
+        "nl": "Tuinen & Tuingereedschap"
+      },
+      "topic": "gardens_tools",
+      "lessonFile": "unit_eritrea_gaerten_gartengeraete_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_hochzeitsfeier",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Hochzeitsfeier",
+        "en": "Wedding Celebration",
+        "sv": "Bröllopsfest",
+        "nl": "Bruiloftsfeest"
+      },
+      "topic": "wedding",
+      "lessonFile": "unit_eritrea_hochzeitsfeier_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_brettspiele_jahrmarkt",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Brettspiele & Jahrmarkt",
+        "en": "Board Games & Funfair",
+        "sv": "Brädspel & Nöjesfält",
+        "nl": "Bordspellen & Kermis"
+      },
+      "topic": "games_funfair",
+      "lessonFile": "unit_eritrea_brettspiele_jahrmarkt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_seefahrt_gewaesser",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Seefahrt & Gewässer",
+        "en": "Seafaring & Bodies of Water",
+        "sv": "Sjöfart & Vattendrag",
+        "nl": "Scheepvaart & Wateren"
+      },
+      "topic": "seafaring_water",
+      "lessonFile": "unit_eritrea_seefahrt_gewaesser_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sicherheit_verpackung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Sicherheit & Verpackung",
+        "en": "Security & Packaging",
+        "sv": "Säkerhet & Förpackning",
+        "nl": "Veiligheid & Verpakking"
+      },
+      "topic": "security_packaging",
+      "lessonFile": "unit_eritrea_sicherheit_verpackung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_veranstaltung_zirkus",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Veranstaltung & Zirkus",
+        "en": "Events & Circus",
+        "sv": "Evenemang & Cirkus",
+        "nl": "Evenementen & Circus"
+      },
+      "topic": "events_circus",
+      "lessonFile": "unit_eritrea_veranstaltung_zirkus_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_textilien_mode2",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Textilien & Modebranche",
+        "en": "Textiles & Fashion Industry",
+        "sv": "Textilier & Modebransch",
+        "nl": "Textiel & Modebranche"
+      },
+      "topic": "textiles_fashion",
+      "lessonFile": "unit_eritrea_textilien_mode2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_reinigung_kunstwerke",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Reinigung & Kunstwerke",
+        "en": "Cleaning & Artworks",
+        "sv": "Städning & Konstverk",
+        "nl": "Schoonmaken & Kunstwerken"
+      },
+      "topic": "cleaning_art",
+      "lessonFile": "unit_eritrea_reinigung_kunstwerke_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_modeaccessoires_bergbau",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Mode-Accessoires & Bergbau",
+        "en": "Fashion Accessories & Mining",
+        "sv": "Modeaccessoarer & Gruvdrift",
+        "nl": "Mode-accessoires & Mijnbouw"
+      },
+      "topic": "accessories_mining",
+      "lessonFile": "unit_eritrea_modeaccessoires_bergbau_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kalligraphie_gastronomie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Kalligraphie & Gastronomie",
+        "en": "Calligraphy & Gastronomy",
+        "sv": "Kalligrafi & Gastronomi",
+        "nl": "Kalligrafie & Gastronomie"
+      },
+      "topic": "calligraphy_gastronomy",
+      "lessonFile": "unit_eritrea_kalligraphie_gastronomie_lessons.json"
     }
   ]
 }

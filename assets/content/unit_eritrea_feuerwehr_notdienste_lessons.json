@@ -1,0 +1,130 @@
+[
+  {
+    "id": "unit_eritrea_feuerwehr_notdienste_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_few_fire2",
+      "lex_ti_few_smk",
+      "lex_ti_few_extg",
+      "lex_ti_few_hose",
+      "lex_ti_few_alrm2",
+      "lex_ti_ntd_ambln",
+      "lex_ti_ntd_rescu",
+      "lex_ti_ntd_urgnt",
+      "lex_ti_ntd_report"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_feuerwehr_notdienste_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_few_fire2",
+      "lex_ti_few_smk",
+      "lex_ti_few_extg",
+      "lex_ti_few_hose",
+      "lex_ti_few_alrm2",
+      "lex_ti_ntd_ambln",
+      "lex_ti_ntd_rescu",
+      "lex_ti_ntd_urgnt",
+      "lex_ti_ntd_report"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_feuerwehr_notdienste_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_few_fire2",
+      "lex_ti_few_smk",
+      "lex_ti_few_extg",
+      "lex_ti_few_hose",
+      "lex_ti_few_alrm2",
+      "lex_ti_ntd_ambln",
+      "lex_ti_ntd_rescu",
+      "lex_ti_ntd_urgnt",
+      "lex_ti_ntd_report"
+    ],
+    "sentenceIds": [
+      "sen_ti_feuerwehr_notdienste_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_feuerwehr_notdienste_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_few_fire2",
+      "lex_ti_few_smk",
+      "lex_ti_few_extg",
+      "lex_ti_few_hose",
+      "lex_ti_few_alrm2",
+      "lex_ti_ntd_ambln",
+      "lex_ti_ntd_rescu",
+      "lex_ti_ntd_urgnt",
+      "lex_ti_ntd_report"
+    ],
+    "sentenceIds": [
+      "sen_ti_feuerwehr_notdienste_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_feuerwehr_notdienste_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_few_fire2",
+      "lex_ti_few_smk",
+      "lex_ti_few_extg",
+      "lex_ti_few_hose",
+      "lex_ti_few_alrm2",
+      "lex_ti_ntd_ambln",
+      "lex_ti_ntd_rescu",
+      "lex_ti_ntd_urgnt",
+      "lex_ti_ntd_report"
+    ],
+    "sentenceIds": [
+      "sen_ti_feuerwehr_notdienste_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_feuerwehr_notdienste_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_few_fire2",
+      "lex_ti_few_smk",
+      "lex_ti_few_extg",
+      "lex_ti_few_hose",
+      "lex_ti_few_alrm2",
+      "lex_ti_ntd_ambln",
+      "lex_ti_ntd_rescu",
+      "lex_ti_ntd_urgnt",
+      "lex_ti_ntd_report"
+    ],
+    "sentenceIds": [
+      "sen_ti_feuerwehr_notdienste_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

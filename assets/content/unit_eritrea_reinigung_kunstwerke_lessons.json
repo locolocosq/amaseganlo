@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_reinigung_kunstwerke_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_rng_vcm",
+      "lex_ti_rng_mop",
+      "lex_ti_rng_dtrg",
+      "lex_ti_rng_bin",
+      "lex_ti_rng_dust",
+      "lex_ti_knw_pntg",
+      "lex_ti_knw_sclp",
+      "lex_ti_knw_gllry",
+      "lex_ti_knw_brsh",
+      "lex_ti_knw_clr2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_reinigung_kunstwerke_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_rng_vcm",
+      "lex_ti_rng_mop",
+      "lex_ti_rng_dtrg",
+      "lex_ti_rng_bin",
+      "lex_ti_rng_dust",
+      "lex_ti_knw_pntg",
+      "lex_ti_knw_sclp",
+      "lex_ti_knw_gllry",
+      "lex_ti_knw_brsh",
+      "lex_ti_knw_clr2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_reinigung_kunstwerke_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_rng_vcm",
+      "lex_ti_rng_mop",
+      "lex_ti_rng_dtrg",
+      "lex_ti_rng_bin",
+      "lex_ti_rng_dust",
+      "lex_ti_knw_pntg",
+      "lex_ti_knw_sclp",
+      "lex_ti_knw_gllry",
+      "lex_ti_knw_brsh",
+      "lex_ti_knw_clr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_reinigung_kunstwerke_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_reinigung_kunstwerke_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_rng_vcm",
+      "lex_ti_rng_mop",
+      "lex_ti_rng_dtrg",
+      "lex_ti_rng_bin",
+      "lex_ti_rng_dust",
+      "lex_ti_knw_pntg",
+      "lex_ti_knw_sclp",
+      "lex_ti_knw_gllry",
+      "lex_ti_knw_brsh",
+      "lex_ti_knw_clr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_reinigung_kunstwerke_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_reinigung_kunstwerke_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_rng_vcm",
+      "lex_ti_rng_mop",
+      "lex_ti_rng_dtrg",
+      "lex_ti_rng_bin",
+      "lex_ti_rng_dust",
+      "lex_ti_knw_pntg",
+      "lex_ti_knw_sclp",
+      "lex_ti_knw_gllry",
+      "lex_ti_knw_brsh",
+      "lex_ti_knw_clr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_reinigung_kunstwerke_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_reinigung_kunstwerke_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_rng_vcm",
+      "lex_ti_rng_mop",
+      "lex_ti_rng_dtrg",
+      "lex_ti_rng_bin",
+      "lex_ti_rng_dust",
+      "lex_ti_knw_pntg",
+      "lex_ti_knw_sclp",
+      "lex_ti_knw_gllry",
+      "lex_ti_knw_brsh",
+      "lex_ti_knw_clr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_reinigung_kunstwerke_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

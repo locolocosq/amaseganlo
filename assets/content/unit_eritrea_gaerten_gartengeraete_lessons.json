@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_gaerten_gartengeraete_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_grt_lawn",
+      "lex_ti_grt_hedge",
+      "lex_ti_grt_soil",
+      "lex_ti_grt_water2",
+      "lex_ti_grt_plant2",
+      "lex_ti_ggr_rake",
+      "lex_ti_ggr_can",
+      "lex_ti_ggr_mwr",
+      "lex_ti_ggr_shvl2",
+      "lex_ti_ggr_glvs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gaerten_gartengeraete_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_grt_lawn",
+      "lex_ti_grt_hedge",
+      "lex_ti_grt_soil",
+      "lex_ti_grt_water2",
+      "lex_ti_grt_plant2",
+      "lex_ti_ggr_rake",
+      "lex_ti_ggr_can",
+      "lex_ti_ggr_mwr",
+      "lex_ti_ggr_shvl2",
+      "lex_ti_ggr_glvs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gaerten_gartengeraete_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_grt_lawn",
+      "lex_ti_grt_hedge",
+      "lex_ti_grt_soil",
+      "lex_ti_grt_water2",
+      "lex_ti_grt_plant2",
+      "lex_ti_ggr_rake",
+      "lex_ti_ggr_can",
+      "lex_ti_ggr_mwr",
+      "lex_ti_ggr_shvl2",
+      "lex_ti_ggr_glvs"
+    ],
+    "sentenceIds": [
+      "sen_ti_gaerten_gartengeraete_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gaerten_gartengeraete_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_grt_lawn",
+      "lex_ti_grt_hedge",
+      "lex_ti_grt_soil",
+      "lex_ti_grt_water2",
+      "lex_ti_grt_plant2",
+      "lex_ti_ggr_rake",
+      "lex_ti_ggr_can",
+      "lex_ti_ggr_mwr",
+      "lex_ti_ggr_shvl2",
+      "lex_ti_ggr_glvs"
+    ],
+    "sentenceIds": [
+      "sen_ti_gaerten_gartengeraete_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gaerten_gartengeraete_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_grt_lawn",
+      "lex_ti_grt_hedge",
+      "lex_ti_grt_soil",
+      "lex_ti_grt_water2",
+      "lex_ti_grt_plant2",
+      "lex_ti_ggr_rake",
+      "lex_ti_ggr_can",
+      "lex_ti_ggr_mwr",
+      "lex_ti_ggr_shvl2",
+      "lex_ti_ggr_glvs"
+    ],
+    "sentenceIds": [
+      "sen_ti_gaerten_gartengeraete_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gaerten_gartengeraete_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_grt_lawn",
+      "lex_ti_grt_hedge",
+      "lex_ti_grt_soil",
+      "lex_ti_grt_water2",
+      "lex_ti_grt_plant2",
+      "lex_ti_ggr_rake",
+      "lex_ti_ggr_can",
+      "lex_ti_ggr_mwr",
+      "lex_ti_ggr_shvl2",
+      "lex_ti_ggr_glvs"
+    ],
+    "sentenceIds": [
+      "sen_ti_gaerten_gartengeraete_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1769,3 +1769,193 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | ስዕስዐ ኣሎ። | si'isi'e alo. | sen_ti_tanzen_gastfreundschaft_1.mp3 |
 
 **Neuer Gesamtstand Tigrinya nach Runde 4:** 1584 Woerter, 89 Saetze ueber 85 Stationen.
+
+
+## Nachtrag 5 (Etappe 26, Tigrinya-Ausbau Runde 5)
+
+| Sprache | Text | Transliteration | Dateiname |
+|---|---|---|---|
+| Tigrinya | ሮኬት | roket | lex_ti_rfr_rckt.mp3 |
+| Tigrinya | ጠፈርተኛ | teferitegna | lex_ti_rfr_atrn.mp3 |
+| Tigrinya | መርከብ ጠፈር | merkeb tefer | lex_ti_rfr_shp2.mp3 |
+| Tigrinya | ወርሒ (ጠፈር) | werhi tefer | lex_ti_rfr_moon.mp3 |
+| Tigrinya | ሳተላይት | satelayt | lex_ti_rfr_sat.mp3 |
+| Tigrinya | ተወንጨፈ | tewenchefe | lex_ti_rfr_launch.mp3 |
+| Tigrinya | ምዑቓር | mi'uqar | lex_ti_arc_dig.mp3 |
+| Tigrinya | ጥንታዊ ኣቕሓ | tintawi aqiha | lex_ti_arc_artf.mp3 |
+| Tigrinya | ፍርስራስ | firisras | lex_ti_arc_ruin.mp3 |
+| Tigrinya | ቤት መዘክር | bet mezekir | lex_ti_arc_mus.mp3 |
+| Tigrinya | ጥንታዊ | tintawi | lex_ti_arc_anc.mp3 |
+| Tigrinya | ስልጣነ | siltane | lex_ti_arc_civ.mp3 |
+| Tigrinya | ንጥረ ነገር | nitire neger | lex_ti_chm_elmnt.mp3 |
+| Tigrinya | ሞለክዩል | molekiyul | lex_ti_chm_mlcl.mp3 |
+| Tigrinya | ግብረ መልሲ ኬሚካል | gibire melisi kemikal | lex_ti_chm_ractn.mp3 |
+| Tigrinya | ጋዝ | gazi | lex_ti_chm_gas.mp3 |
+| Tigrinya | ፈሳሲ | fesasi | lex_ti_chm_liqd.mp3 |
+| Tigrinya | ጽኑዕ | tsinu'i | lex_ti_chm_solid.mp3 |
+| Tigrinya | ማእከላይ መስርሒ ክፍሊ | ma'ikelay mesirihi kifli | lex_ti_chw_cpu.mp3 |
+| Tigrinya | ናይ ዝኽሪ ድስክ | nay zikhri diski | lex_ti_chw_disk.mp3 |
+| Tigrinya | ግዝያዊ ዝኽሪ | gizyawi zikhri | lex_ti_chw_ram.mp3 |
+| Tigrinya | ገመድ ኤለትሪክ | gemed eletrik | lex_ti_chw_cabl.mp3 |
+| Tigrinya | ላፕቶፕ | laptop | lex_ti_chw_lptp.mp3 |
+| Tigrinya | ኣንበሳ | anbesa | lex_ti_wld_lion.mp3 |
+| Tigrinya | ሓርማዝ | harimaz | lex_ti_wld_elph.mp3 |
+| Tigrinya | ቀርኒ ኣንበሳ | qerni gerafi | lex_ti_wld_grff.mp3 |
+| Tigrinya | ኣድጊ በረኻ | adigi bereka | lex_ti_wld_zebr.mp3 |
+| Tigrinya | ህበይ | hibey | lex_ti_wld_mnky.mp3 |
+| Tigrinya | ሓርገጽገጽ | hargetsgets | lex_ti_wld_croc.mp3 |
+| Tigrinya | ቀርኒ ዘለዎ ኣራዊት | qerni zelewo arawit | lex_ti_wld_rhno.mp3 |
+| Tigrinya | ዝብኢ | zibi'i | lex_ti_wld_hyna.mp3 |
+| Tigrinya | ፕላግ | pilagi | lex_ti_elk_plug.mp3 |
+| Tigrinya | መቀየሪ ብርሃን | meqeyeri birhan | lex_ti_elk_swtch.mp3 |
+| Tigrinya | ፊውዝ | fiyuz | lex_ti_elk_fuse.mp3 |
+| Tigrinya | ምቁራጽ ኤለትሪክ | miquratsi eletrik | lex_ti_elk_outg.mp3 |
+| Tigrinya | ጀነረተር | jenereter | lex_ti_elk_gnrtr.mp3 |
+| Tigrinya | ፋብሪካ | fabrika | lex_ti_fbr_fctry.mp3 |
+| Tigrinya | ማሽን (ፋብሪካ) | mashin fabrika | lex_ti_fbr_mchn.mp3 |
+| Tigrinya | ምህርቲ | mihirti | lex_ti_fbr_prod.mp3 |
+| Tigrinya | ሰራሕተኛ ፋብሪካ | serahtegna fabrika | lex_ti_fbr_wrkr.mp3 |
+| Tigrinya | ኣኪቡ ሰርሐ | akibu serihe | lex_ti_fbr_asmbl.mp3 |
+| Tigrinya | ሓዊ | hawi | lex_ti_few_fire2.mp3 |
+| Tigrinya | ትኪ | tiki | lex_ti_few_smk.mp3 |
+| Tigrinya | ኣጥፍአ (ሓዊ) | atifi'e hawi | lex_ti_few_extg.mp3 |
+| Tigrinya | ናይ ማይ ቱቦ | nay mai tubo | lex_ti_few_hose.mp3 |
+| Tigrinya | ናይ ሓዊ ኣላርም | nay hawi alarm | lex_ti_few_alrm2.mp3 |
+| Tigrinya | ክንፊ | kinfi | lex_ti_flz_wing.mp3 |
+| Tigrinya | ሞተር ነፋሪት | moter nefarit | lex_ti_flz_engn.mp3 |
+| Tigrinya | ክፍሊ ፓይሎት | kifli paylot | lex_ti_flz_ckpt.mp3 |
+| Tigrinya | መንበር ነፋሪት | menber nefarit | lex_ti_flz_seat.mp3 |
+| Tigrinya | ሰራሕተኛታት ነፋሪት | serahtegnatat nefarit | lex_ti_flz_crew.mp3 |
+| Tigrinya | መነጽር ካሜራ | menetsir kamera | lex_ti_fto_lens.mp3 |
+| Tigrinya | ብልጭታ ካሜራ | bilichita kamera | lex_ti_fto_flsh.mp3 |
+| Tigrinya | ስእሊ ኣልዓለ | si'ili al'ale | lex_ti_fto_shot.mp3 |
+| Tigrinya | ኣቀራረበ (ካሜራ) | aqerarebe kamera | lex_ti_fto_zoom.mp3 |
+| Tigrinya | ፍሬም ስእሊ | firem si'ili | lex_ti_fto_frme.mp3 |
+| Tigrinya | መቑረጺ | mequretsi | lex_ti_frs_scsr.mp3 |
+| Tigrinya | ናይ ጸጕሪ ማድረቒ | nay tsegri madreqi | lex_ti_frs_dryr.mp3 |
+| Tigrinya | ቁርጸት ጸጕሪ | qurtset tsegri | lex_ti_frs_cut2.mp3 |
+| Tigrinya | ስንጭሮ ጸጕሪ | sinichiro tsegri | lex_ti_frs_braid.mp3 |
+| Tigrinya | ጭሕሚ | chihmi | lex_ti_frs_beard.mp3 |
+| Tigrinya | ሳዕሪ ደምበ | sa'iri dembe | lex_ti_grt_lawn.mp3 |
+| Tigrinya | ዓጹድ | 'atsud | lex_ti_grt_hedge.mp3 |
+| Tigrinya | ሓመድ | hamed | lex_ti_grt_soil.mp3 |
+| Tigrinya | ኣማይ ኣትክልቲ | amai atikilti | lex_ti_grt_water2.mp3 |
+| Tigrinya | ተኸለ | tekele | lex_ti_grt_plant2.mp3 |
+| Tigrinya | ክዳን መርዓት | kidan mer'at | lex_ti_hzf_dress.mp3 |
+| Tigrinya | ቀለቤት | qelebet | lex_ti_hzf_ring.mp3 |
+| Tigrinya | መርዓዊ | mer'awi | lex_ti_hzf_grm.mp3 |
+| Tigrinya | መርዓት | mer'at | lex_ti_hzf_brd.mp3 |
+| Tigrinya | ምስክር መርዓ | misikir mer'a | lex_ti_hzf_wtns.mp3 |
+| Tigrinya | ድግስ | digisi | lex_ti_hzf_feast.mp3 |
+| Tigrinya | ዳይስ | days | lex_ti_brs_dice.mp3 |
+| Tigrinya | ዶሚኖ | domino | lex_ti_brs_domin.mp3 |
+| Tigrinya | ዳማ | dama | lex_ti_brs_chkrs.mp3 |
+| Tigrinya | ተራ | tera | lex_ti_brs_turn.mp3 |
+| Tigrinya | ተዓወተ | te'awete | lex_ti_brs_win2.mp3 |
+| Tigrinya | ተሳዕረ | tesa'ere | lex_ti_brs_lose2.mp3 |
+| Tigrinya | መርፍእ ስፌት | merfi'i sifet | lex_ti_snd_ndl.mp3 |
+| Tigrinya | ክርዳን | kirdan | lex_ti_snd_thrd.mp3 |
+| Tigrinya | ናይ ስፌት ማሽን | nay sifet mashin | lex_ti_snd_mchn2.mp3 |
+| Tigrinya | ሰፈየ | sefeye | lex_ti_snd_sew2.mp3 |
+| Tigrinya | ሰፋዪ | sefayi | lex_ti_snd_tlr2.mp3 |
+| Tigrinya | ሽራዕ | shira'i | lex_ti_seef_sail.mp3 |
+| Tigrinya | መልሕቅ | melihiq | lex_ti_seef_anch.mp3 |
+| Tigrinya | ወደብ | wedeb | lex_ti_seef_hrbr.mp3 |
+| Tigrinya | መርከበኛ | merkebegna | lex_ti_seef_saylr.mp3 |
+| Tigrinya | ካፕቴን | kapiten | lex_ti_seef_capt.mp3 |
+| Tigrinya | ኣላርም ድሕነት | alarm dihinet | lex_ti_sch_alrm3.mp3 |
+| Tigrinya | ካሜራ ምክትታል | kamera mikitatal | lex_ti_sch_cam.mp3 |
+| Tigrinya | ምሽጋር | mishigar | lex_ti_sch_lock2.mp3 |
+| Tigrinya | ሓላዊ ድሕነት | halawi dihinet | lex_ti_sch_grd.mp3 |
+| Tigrinya | ውሑስ | wihus | lex_ti_sch_safe2.mp3 |
+| Tigrinya | ኮንሰርት | konserit | lex_ti_vrn_cncrt.mp3 |
+| Tigrinya | ትኬት ምእታው | tiket mi'itaw | lex_ti_vrn_tckt2.mp3 |
+| Tigrinya | መድረኽ | medrekh | lex_ti_vrn_stg.mp3 |
+| Tigrinya | ተዓዘብቲ | te'azebti | lex_ti_vrn_aud.mp3 |
+| Tigrinya | ትርኢት | tir'it | lex_ti_vrn_perf.mp3 |
+| Tigrinya | መጠቅለሊ | met'eqileli | lex_ti_vrp_wrap.mp3 |
+| Tigrinya | ፎርፎር | forfor | lex_ti_vrp_foil.mp3 |
+| Tigrinya | ምልክት ዋጋ | milikit waga | lex_ti_vrp_lbl.mp3 |
+| Tigrinya | ናይ ፕላስቲክ ከረጺት | nay pilastik keretsit | lex_ti_vrp_bag2.mp3 |
+| Tigrinya | ዓተመ | 'ateme | lex_ti_vrp_seal.mp3 |
+| Tigrinya | ርባ | riba | lex_ti_gws_river.mp3 |
+| Tigrinya | ቀላይ | qelay | lex_ti_gws_lake.mp3 |
+| Tigrinya | ንኡስ ቀላይ | ni'us qelay | lex_ti_gws_pond.mp3 |
+| Tigrinya | ንኡስ ርባ | ni'us riba | lex_ti_gws_strm.mp3 |
+| Tigrinya | ውቅያኖስ | wiqiyanos | lex_ti_gws_ocean.mp3 |
+| Tigrinya | ጡጥ | tut'i | lex_ti_txt_cttn.mp3 |
+| Tigrinya | ጸምሪ | tsemri | lex_ti_txt_wool.mp3 |
+| Tigrinya | ሓሪር | harir | lex_ti_txt_silk.mp3 |
+| Tigrinya | ቆርበት (ናይ ክዳን) | qorbet nay kidan | lex_ti_txt_lthr.mp3 |
+| Tigrinya | ጨርቂ | cherqi | lex_ti_txt_fbrc.mp3 |
+| Tigrinya | ቁጽሪ ህጹጽ ረድኤት | qutsri hitsuts red'et | lex_ti_ntd_ambln.mp3 |
+| Tigrinya | ኣገልግሎት ረድኤት | agelgilot red'et | lex_ti_ntd_rescu.mp3 |
+| Tigrinya | ህጹጽ | hitsuts | lex_ti_ntd_urgnt.mp3 |
+| Tigrinya | ኣበሰረ | abesere | lex_ti_ntd_report.mp3 |
+| Tigrinya | ኮማድያን | komadyan | lex_ti_zrk_clwn.mp3 |
+| Tigrinya | ኣክሮባት | akrobat | lex_ti_zrk_acrb.mp3 |
+| Tigrinya | ድንኳን ጸወታ | dinkuan tsewata | lex_ti_zrk_tent2.mp3 |
+| Tigrinya | ናይ ስራሕ ኣሰልጣኒ | nay sirah aseltani | lex_ti_zrk_tmr.mp3 |
+| Tigrinya | ናይ ህጻናት ዙረት | nay hitsanat zuret | lex_ti_jhm_crsl.mp3 |
+| Tigrinya | ዓባይ ዙረት | 'abay zuret | lex_ti_jhm_wheel.mp3 |
+| Tigrinya | ዕጫ | 'icha | lex_ti_jhm_ltry.mp3 |
+| Tigrinya | ከረሜላ | keremela | lex_ti_jhm_cndy.mp3 |
+| Tigrinya | ኣርኣያ ክዳን | ar'aya kidan | lex_ti_md2_model.mp3 |
+| Tigrinya | መርአዪ ክዳን | mer'ayi kidan | lex_ti_md2_rnwy.mp3 |
+| Tigrinya | ቀያሲ ክዳን | qeyasi kidan | lex_ti_md2_dsgn.mp3 |
+| Tigrinya | ሓድሽ ኣገባብ | hadish agebab | lex_ti_md2_trnd.mp3 |
+| Tigrinya | ኣገባብ ኣለባብሳ | agebab alebabisa | lex_ti_md2_stle.mp3 |
+| Tigrinya | መስሓቢ ዶኻ | mesihabi dokha | lex_ti_rng_vcm.mp3 |
+| Tigrinya | ናይ ምድሪ መጽረዪ | nay midri metsereyi | lex_ti_rng_mop.mp3 |
+| Tigrinya | ሳሙና ምሕጻብ | samuna mihitsab | lex_ti_rng_dtrg.mp3 |
+| Tigrinya | ሳንዱቕ ጎሓፍ | sanduq gohaf | lex_ti_rng_bin.mp3 |
+| Tigrinya | ሓሸሽ | hashesh | lex_ti_rng_dust.mp3 |
+| Tigrinya | መጻረግ ቅጠል | metsareg qitel | lex_ti_ggr_rake.mp3 |
+| Tigrinya | ማይ ኣትክልቲ መስተይቲ | mai atikilti mesteyti | lex_ti_ggr_can.mp3 |
+| Tigrinya | መቑረጺ ሳዕሪ | mequretsi sa'iri | lex_ti_ggr_mwr.mp3 |
+| Tigrinya | መሕፍሪ | mehifiri | lex_ti_ggr_shvl2.mp3 |
+| Tigrinya | ጓንቲ ኣትክልቲ | gwanti atikilti | lex_ti_ggr_glvs.mp3 |
+| Tigrinya | ስእሊ ቀለም | si'ili qelem | lex_ti_knw_pntg.mp3 |
+| Tigrinya | ቅርጺ | qirtsi | lex_ti_knw_sclp.mp3 |
+| Tigrinya | ናይ ስነ ጥበብ ኣደራሽ | nay sine t'ibeb aderash | lex_ti_knw_gllry.mp3 |
+| Tigrinya | ብራሽ ቀለም | birash qelem | lex_ti_knw_brsh.mp3 |
+| Tigrinya | ቀለም (ስእሊ) | qelem si'ili | lex_ti_knw_clr2.mp3 |
+| Tigrinya | መነጽር ጸሓይ | menetsir tsehay | lex_ti_mda_sngl.mp3 |
+| Tigrinya | ናይ ገንዘብ ቦርሳ | nay genzeb borsa | lex_ti_mda_wllt.mp3 |
+| Tigrinya | ጽላል ማይ | tsilal mai | lex_ti_mda_umbrl2.mp3 |
+| Tigrinya | ኣቢሶ | abiso | lex_ti_mda_brclt.mp3 |
+| Tigrinya | ቀለቤት እዝኒ | qelebet ezni | lex_ti_mda_erng.mp3 |
+| Tigrinya | ማዕድን ቦታ | ma'idin bota | lex_ti_brg_mine.mp3 |
+| Tigrinya | ሰራሕተኛ ማዕድን | serahtegna ma'idin | lex_ti_brg_minr.mp3 |
+| Tigrinya | ዓየረ | 'ayere | lex_ti_brg_dig2.mp3 |
+| Tigrinya | ኣውጽአ (ማዕድን) | awts'e ma'idin | lex_ti_brg_extr.mp3 |
+| Tigrinya | ትሕቲ ምድሪ መንገዲ | tihti midri mengedi | lex_ti_brg_tunl.mp3 |
+| Tigrinya | ብርዒ ጽሕፈት | biri'i tsihfet | lex_ti_klg_pen2.mp3 |
+| Tigrinya | ቀለም ጽሕፈት | qelem tsihfet | lex_ti_klg_ink.mp3 |
+| Tigrinya | ኣጸሓሕፋ | atsehahifa | lex_ti_klg_script.mp3 |
+| Tigrinya | ፊደል | fidel | lex_ti_klg_letr.mp3 |
+| Tigrinya | ኣገልጋሊ | agelgali | lex_ti_gsn_wtr.mp3 |
+| Tigrinya | ሸፍ | shef | lex_ti_gsn_chef.mp3 |
+| Tigrinya | ዝርዝር ምግቢ | ziritzir migbi | lex_ti_gsn_menu.mp3 |
+| Tigrinya | ቦታ ሓዘ | bota haze | lex_ti_gsn_rsrv.mp3 |
+| Tigrinya | ቢል | bili | lex_ti_gsn_bill.mp3 |
+| Tigrinya | ጉርሻ | gurisha | lex_ti_gsn_tip.mp3 |
+| Tigrinya | ሮኬት ኣሎ። | roket alo. | sen_ti_raumfahrt_archaeologie_1.mp3 |
+| Tigrinya | ንጥረ ነገር ኣሎ። | nitire neger alo. | sen_ti_chemie_computerhardware_1.mp3 |
+| Tigrinya | ኣንበሳ ኣሎ። | anbesa alo. | sen_ti_wildtiere_1.mp3 |
+| Tigrinya | ፕላግ ኣሎ። | pilagi alo. | sen_ti_elektrizitaet_fabrik_1.mp3 |
+| Tigrinya | ሓዊ ኣሎ። | hawi alo. | sen_ti_feuerwehr_notdienste_1.mp3 |
+| Tigrinya | ክንፊ ኣሎ። | kinfi alo. | sen_ti_flugzeugteile_fotografie_1.mp3 |
+| Tigrinya | መቑረጺ ኣሎ። | mequretsi alo. | sen_ti_friseursalon_schneiderei_1.mp3 |
+| Tigrinya | ሳዕሪ ደምበ ኣሎ። | sa'iri dembe alo. | sen_ti_gaerten_gartengeraete_1.mp3 |
+| Tigrinya | ክዳን መርዓት ኣሎ። | kidan mer'at alo. | sen_ti_hochzeitsfeier_1.mp3 |
+| Tigrinya | ዳይስ ኣሎ። | days alo. | sen_ti_brettspiele_jahrmarkt_1.mp3 |
+| Tigrinya | ሽራዕ ኣሎ። | shira'i alo. | sen_ti_seefahrt_gewaesser_1.mp3 |
+| Tigrinya | ኣላርም ድሕነት ኣሎ። | alarm dihinet alo. | sen_ti_sicherheit_verpackung_1.mp3 |
+| Tigrinya | ኮንሰርት ኣሎ። | konserit alo. | sen_ti_veranstaltung_zirkus_1.mp3 |
+| Tigrinya | ጡጥ ኣሎ። | tut'i alo. | sen_ti_textilien_mode2_1.mp3 |
+| Tigrinya | መስሓቢ ዶኻ ኣሎ። | mesihabi dokha alo. | sen_ti_reinigung_kunstwerke_1.mp3 |
+| Tigrinya | መነጽር ጸሓይ ኣሎ። | menetsir tsehay alo. | sen_ti_modeaccessoires_bergbau_1.mp3 |
+| Tigrinya | ብርዒ ጽሕፈት ኣሎ። | biri'i tsihfet alo. | sen_ti_kalligraphie_gastronomie_1.mp3 |
+
+**Neuer Gesamtstand Tigrinya nach Runde 5:** 1749 Woerter, 106 Saetze ueber 102 Stationen.

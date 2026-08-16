@@ -1,0 +1,124 @@
+[
+  {
+    "id": "unit_eritrea_wildtiere_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_wld_lion",
+      "lex_ti_wld_elph",
+      "lex_ti_wld_grff",
+      "lex_ti_wld_zebr",
+      "lex_ti_wld_mnky",
+      "lex_ti_wld_croc",
+      "lex_ti_wld_rhno",
+      "lex_ti_wld_hyna"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_wildtiere_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_wld_lion",
+      "lex_ti_wld_elph",
+      "lex_ti_wld_grff",
+      "lex_ti_wld_zebr",
+      "lex_ti_wld_mnky",
+      "lex_ti_wld_croc",
+      "lex_ti_wld_rhno",
+      "lex_ti_wld_hyna"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wildtiere_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_wld_lion",
+      "lex_ti_wld_elph",
+      "lex_ti_wld_grff",
+      "lex_ti_wld_zebr",
+      "lex_ti_wld_mnky",
+      "lex_ti_wld_croc",
+      "lex_ti_wld_rhno",
+      "lex_ti_wld_hyna"
+    ],
+    "sentenceIds": [
+      "sen_ti_wildtiere_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wildtiere_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_wld_lion",
+      "lex_ti_wld_elph",
+      "lex_ti_wld_grff",
+      "lex_ti_wld_zebr",
+      "lex_ti_wld_mnky",
+      "lex_ti_wld_croc",
+      "lex_ti_wld_rhno",
+      "lex_ti_wld_hyna"
+    ],
+    "sentenceIds": [
+      "sen_ti_wildtiere_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wildtiere_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_wld_lion",
+      "lex_ti_wld_elph",
+      "lex_ti_wld_grff",
+      "lex_ti_wld_zebr",
+      "lex_ti_wld_mnky",
+      "lex_ti_wld_croc",
+      "lex_ti_wld_rhno",
+      "lex_ti_wld_hyna"
+    ],
+    "sentenceIds": [
+      "sen_ti_wildtiere_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wildtiere_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_wld_lion",
+      "lex_ti_wld_elph",
+      "lex_ti_wld_grff",
+      "lex_ti_wld_zebr",
+      "lex_ti_wld_mnky",
+      "lex_ti_wld_croc",
+      "lex_ti_wld_rhno",
+      "lex_ti_wld_hyna"
+    ],
+    "sentenceIds": [
+      "sen_ti_wildtiere_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

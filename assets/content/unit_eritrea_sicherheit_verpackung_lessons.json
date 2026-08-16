@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_sicherheit_verpackung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_sch_alrm3",
+      "lex_ti_sch_cam",
+      "lex_ti_sch_lock2",
+      "lex_ti_sch_grd",
+      "lex_ti_sch_safe2",
+      "lex_ti_vrp_wrap",
+      "lex_ti_vrp_foil",
+      "lex_ti_vrp_lbl",
+      "lex_ti_vrp_bag2",
+      "lex_ti_vrp_seal"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_sicherheit_verpackung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_sch_alrm3",
+      "lex_ti_sch_cam",
+      "lex_ti_sch_lock2",
+      "lex_ti_sch_grd",
+      "lex_ti_sch_safe2",
+      "lex_ti_vrp_wrap",
+      "lex_ti_vrp_foil",
+      "lex_ti_vrp_lbl",
+      "lex_ti_vrp_bag2",
+      "lex_ti_vrp_seal"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sicherheit_verpackung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_sch_alrm3",
+      "lex_ti_sch_cam",
+      "lex_ti_sch_lock2",
+      "lex_ti_sch_grd",
+      "lex_ti_sch_safe2",
+      "lex_ti_vrp_wrap",
+      "lex_ti_vrp_foil",
+      "lex_ti_vrp_lbl",
+      "lex_ti_vrp_bag2",
+      "lex_ti_vrp_seal"
+    ],
+    "sentenceIds": [
+      "sen_ti_sicherheit_verpackung_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sicherheit_verpackung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_sch_alrm3",
+      "lex_ti_sch_cam",
+      "lex_ti_sch_lock2",
+      "lex_ti_sch_grd",
+      "lex_ti_sch_safe2",
+      "lex_ti_vrp_wrap",
+      "lex_ti_vrp_foil",
+      "lex_ti_vrp_lbl",
+      "lex_ti_vrp_bag2",
+      "lex_ti_vrp_seal"
+    ],
+    "sentenceIds": [
+      "sen_ti_sicherheit_verpackung_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sicherheit_verpackung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_sch_alrm3",
+      "lex_ti_sch_cam",
+      "lex_ti_sch_lock2",
+      "lex_ti_sch_grd",
+      "lex_ti_sch_safe2",
+      "lex_ti_vrp_wrap",
+      "lex_ti_vrp_foil",
+      "lex_ti_vrp_lbl",
+      "lex_ti_vrp_bag2",
+      "lex_ti_vrp_seal"
+    ],
+    "sentenceIds": [
+      "sen_ti_sicherheit_verpackung_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_sicherheit_verpackung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_sch_alrm3",
+      "lex_ti_sch_cam",
+      "lex_ti_sch_lock2",
+      "lex_ti_sch_grd",
+      "lex_ti_sch_safe2",
+      "lex_ti_vrp_wrap",
+      "lex_ti_vrp_foil",
+      "lex_ti_vrp_lbl",
+      "lex_ti_vrp_bag2",
+      "lex_ti_vrp_seal"
+    ],
+    "sentenceIds": [
+      "sen_ti_sicherheit_verpackung_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_kalligraphie_gastronomie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_klg_pen2",
+      "lex_ti_klg_ink",
+      "lex_ti_klg_script",
+      "lex_ti_klg_letr",
+      "lex_ti_gsn_wtr",
+      "lex_ti_gsn_chef",
+      "lex_ti_gsn_menu",
+      "lex_ti_gsn_rsrv",
+      "lex_ti_gsn_bill",
+      "lex_ti_gsn_tip"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_kalligraphie_gastronomie_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_klg_pen2",
+      "lex_ti_klg_ink",
+      "lex_ti_klg_script",
+      "lex_ti_klg_letr",
+      "lex_ti_gsn_wtr",
+      "lex_ti_gsn_chef",
+      "lex_ti_gsn_menu",
+      "lex_ti_gsn_rsrv",
+      "lex_ti_gsn_bill",
+      "lex_ti_gsn_tip"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kalligraphie_gastronomie_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_klg_pen2",
+      "lex_ti_klg_ink",
+      "lex_ti_klg_script",
+      "lex_ti_klg_letr",
+      "lex_ti_gsn_wtr",
+      "lex_ti_gsn_chef",
+      "lex_ti_gsn_menu",
+      "lex_ti_gsn_rsrv",
+      "lex_ti_gsn_bill",
+      "lex_ti_gsn_tip"
+    ],
+    "sentenceIds": [
+      "sen_ti_kalligraphie_gastronomie_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kalligraphie_gastronomie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_klg_pen2",
+      "lex_ti_klg_ink",
+      "lex_ti_klg_script",
+      "lex_ti_klg_letr",
+      "lex_ti_gsn_wtr",
+      "lex_ti_gsn_chef",
+      "lex_ti_gsn_menu",
+      "lex_ti_gsn_rsrv",
+      "lex_ti_gsn_bill",
+      "lex_ti_gsn_tip"
+    ],
+    "sentenceIds": [
+      "sen_ti_kalligraphie_gastronomie_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kalligraphie_gastronomie_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_klg_pen2",
+      "lex_ti_klg_ink",
+      "lex_ti_klg_script",
+      "lex_ti_klg_letr",
+      "lex_ti_gsn_wtr",
+      "lex_ti_gsn_chef",
+      "lex_ti_gsn_menu",
+      "lex_ti_gsn_rsrv",
+      "lex_ti_gsn_bill",
+      "lex_ti_gsn_tip"
+    ],
+    "sentenceIds": [
+      "sen_ti_kalligraphie_gastronomie_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kalligraphie_gastronomie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_klg_pen2",
+      "lex_ti_klg_ink",
+      "lex_ti_klg_script",
+      "lex_ti_klg_letr",
+      "lex_ti_gsn_wtr",
+      "lex_ti_gsn_chef",
+      "lex_ti_gsn_menu",
+      "lex_ti_gsn_rsrv",
+      "lex_ti_gsn_bill",
+      "lex_ti_gsn_tip"
+    ],
+    "sentenceIds": [
+      "sen_ti_kalligraphie_gastronomie_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

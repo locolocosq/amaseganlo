@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_frs_scsr","am":"መቑረጺ","tr":"mequretsi","pos":"noun","topic":"hair_salon","level":"TI","t":{"de":"die Schere","en":"scissors","sv":"sax","nl":"schaar"},"emoji":"✂️","verified":false},
+  {"id":"lex_ti_frs_dryr","am":"ናይ ጸጕሪ ማድረቒ","tr":"nay tsegri madreqi","pos":"noun","topic":"hair_salon","level":"TI","t":{"de":"der Föhn","en":"hair dryer","sv":"hårtork","nl":"föhn"},"emoji":"","verified":false},
+  {"id":"lex_ti_frs_cut2","am":"ቁርጸት ጸጕሪ","tr":"qurtset tsegri","pos":"noun","topic":"hair_salon","level":"TI","t":{"de":"der Haarschnitt","en":"haircut","sv":"hårklippning","nl":"kapsel, knipbeurt"},"emoji":"💇","verified":false},
+  {"id":"lex_ti_frs_braid","am":"ስንጭሮ ጸጕሪ","tr":"sinichiro tsegri","pos":"noun","topic":"hair_salon","level":"TI","t":{"de":"der Zopf","en":"braid","sv":"fläta","nl":"vlecht"},"emoji":"","verified":false},
+  {"id":"lex_ti_frs_beard","am":"ጭሕሚ","tr":"chihmi","pos":"noun","topic":"hair_salon","level":"TI","t":{"de":"der Bart","en":"beard","sv":"skägg","nl":"baard"},"emoji":"🧔","verified":false}
+]

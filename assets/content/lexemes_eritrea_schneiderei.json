@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_snd_ndl","am":"መርፍእ ስፌት","tr":"merfi'i sifet","pos":"noun","topic":"tailoring","level":"TI","t":{"de":"die Nähnadel","en":"sewing needle","sv":"synål","nl":"naainaald"},"emoji":"🪡","verified":false},
+  {"id":"lex_ti_snd_thrd","am":"ክርዳን","tr":"kirdan","pos":"noun","topic":"tailoring","level":"TI","t":{"de":"der Faden","en":"thread","sv":"tråd","nl":"draad"},"emoji":"🧵","verified":false},
+  {"id":"lex_ti_snd_mchn2","am":"ናይ ስፌት ማሽን","tr":"nay sifet mashin","pos":"noun","topic":"tailoring","level":"TI","t":{"de":"die Nähmaschine","en":"sewing machine","sv":"symaskin","nl":"naaimachine"},"emoji":"","verified":false},
+  {"id":"lex_ti_snd_sew2","am":"ሰፈየ","tr":"sefeye","pos":"verb","topic":"tailoring","level":"TI","t":{"de":"nähen","en":"to sew","sv":"att sy","nl":"naaien"},"emoji":"","verified":false},
+  {"id":"lex_ti_snd_tlr2","am":"ሰፋዪ","tr":"sefayi","pos":"noun","topic":"tailoring","level":"TI","t":{"de":"der Schneider","en":"tailor","sv":"skräddare","nl":"kleermaker"},"emoji":"","verified":false}
+]

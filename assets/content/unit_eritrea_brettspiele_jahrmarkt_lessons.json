@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_brettspiele_jahrmarkt_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_brs_dice",
+      "lex_ti_brs_domin",
+      "lex_ti_brs_chkrs",
+      "lex_ti_brs_turn",
+      "lex_ti_brs_win2",
+      "lex_ti_brs_lose2",
+      "lex_ti_jhm_crsl",
+      "lex_ti_jhm_wheel",
+      "lex_ti_jhm_ltry",
+      "lex_ti_jhm_cndy"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_brettspiele_jahrmarkt_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_brs_dice",
+      "lex_ti_brs_domin",
+      "lex_ti_brs_chkrs",
+      "lex_ti_brs_turn",
+      "lex_ti_brs_win2",
+      "lex_ti_brs_lose2",
+      "lex_ti_jhm_crsl",
+      "lex_ti_jhm_wheel",
+      "lex_ti_jhm_ltry",
+      "lex_ti_jhm_cndy"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_brettspiele_jahrmarkt_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_brs_dice",
+      "lex_ti_brs_domin",
+      "lex_ti_brs_chkrs",
+      "lex_ti_brs_turn",
+      "lex_ti_brs_win2",
+      "lex_ti_brs_lose2",
+      "lex_ti_jhm_crsl",
+      "lex_ti_jhm_wheel",
+      "lex_ti_jhm_ltry",
+      "lex_ti_jhm_cndy"
+    ],
+    "sentenceIds": [
+      "sen_ti_brettspiele_jahrmarkt_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_brettspiele_jahrmarkt_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_brs_dice",
+      "lex_ti_brs_domin",
+      "lex_ti_brs_chkrs",
+      "lex_ti_brs_turn",
+      "lex_ti_brs_win2",
+      "lex_ti_brs_lose2",
+      "lex_ti_jhm_crsl",
+      "lex_ti_jhm_wheel",
+      "lex_ti_jhm_ltry",
+      "lex_ti_jhm_cndy"
+    ],
+    "sentenceIds": [
+      "sen_ti_brettspiele_jahrmarkt_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_brettspiele_jahrmarkt_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_brs_dice",
+      "lex_ti_brs_domin",
+      "lex_ti_brs_chkrs",
+      "lex_ti_brs_turn",
+      "lex_ti_brs_win2",
+      "lex_ti_brs_lose2",
+      "lex_ti_jhm_crsl",
+      "lex_ti_jhm_wheel",
+      "lex_ti_jhm_ltry",
+      "lex_ti_jhm_cndy"
+    ],
+    "sentenceIds": [
+      "sen_ti_brettspiele_jahrmarkt_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_brettspiele_jahrmarkt_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_brs_dice",
+      "lex_ti_brs_domin",
+      "lex_ti_brs_chkrs",
+      "lex_ti_brs_turn",
+      "lex_ti_brs_win2",
+      "lex_ti_brs_lose2",
+      "lex_ti_jhm_crsl",
+      "lex_ti_jhm_wheel",
+      "lex_ti_jhm_ltry",
+      "lex_ti_jhm_cndy"
+    ],
+    "sentenceIds": [
+      "sen_ti_brettspiele_jahrmarkt_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

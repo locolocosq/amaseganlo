@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_arc_dig","am":"ምዑቓር","tr":"mi'uqar","pos":"noun","topic":"archaeology","level":"TI","t":{"de":"die Ausgrabung","en":"excavation, dig","sv":"utgrävning","nl":"opgraving"},"emoji":"","verified":false},
+  {"id":"lex_ti_arc_artf","am":"ጥንታዊ ኣቕሓ","tr":"tintawi aqiha","pos":"noun","topic":"archaeology","level":"TI","t":{"de":"das Artefakt","en":"artifact","sv":"artefakt","nl":"artefact"},"emoji":"","verified":false},
+  {"id":"lex_ti_arc_ruin","am":"ፍርስራስ","tr":"firisras","pos":"noun","topic":"archaeology","level":"TI","t":{"de":"die Ruine","en":"ruin","sv":"ruin","nl":"ruïne"},"emoji":"🏛️","verified":false},
+  {"id":"lex_ti_arc_mus","am":"ቤት መዘክር","tr":"bet mezekir","pos":"noun","topic":"archaeology","level":"TI","t":{"de":"das Museum","en":"museum","sv":"museum","nl":"museum"},"emoji":"🏛️","verified":false},
+  {"id":"lex_ti_arc_anc","am":"ጥንታዊ","tr":"tintawi","pos":"adjective","topic":"archaeology","level":"TI","t":{"de":"antik, uralt","en":"ancient","sv":"antik, uråldrig","nl":"antiek, oeroud"},"emoji":"","verified":false},
+  {"id":"lex_ti_arc_civ","am":"ስልጣነ","tr":"siltane","pos":"noun","topic":"archaeology","level":"TI","t":{"de":"die Zivilisation","en":"civilization","sv":"civilisation","nl":"beschaving"},"emoji":"","verified":false}
+]

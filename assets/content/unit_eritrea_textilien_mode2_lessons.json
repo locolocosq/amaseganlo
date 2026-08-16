@@ -1,0 +1,136 @@
+[
+  {
+    "id": "unit_eritrea_textilien_mode2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_txt_cttn",
+      "lex_ti_txt_wool",
+      "lex_ti_txt_silk",
+      "lex_ti_txt_lthr",
+      "lex_ti_txt_fbrc",
+      "lex_ti_md2_model",
+      "lex_ti_md2_rnwy",
+      "lex_ti_md2_dsgn",
+      "lex_ti_md2_trnd",
+      "lex_ti_md2_stle"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_textilien_mode2_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_txt_cttn",
+      "lex_ti_txt_wool",
+      "lex_ti_txt_silk",
+      "lex_ti_txt_lthr",
+      "lex_ti_txt_fbrc",
+      "lex_ti_md2_model",
+      "lex_ti_md2_rnwy",
+      "lex_ti_md2_dsgn",
+      "lex_ti_md2_trnd",
+      "lex_ti_md2_stle"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_textilien_mode2_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_txt_cttn",
+      "lex_ti_txt_wool",
+      "lex_ti_txt_silk",
+      "lex_ti_txt_lthr",
+      "lex_ti_txt_fbrc",
+      "lex_ti_md2_model",
+      "lex_ti_md2_rnwy",
+      "lex_ti_md2_dsgn",
+      "lex_ti_md2_trnd",
+      "lex_ti_md2_stle"
+    ],
+    "sentenceIds": [
+      "sen_ti_textilien_mode2_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_textilien_mode2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_txt_cttn",
+      "lex_ti_txt_wool",
+      "lex_ti_txt_silk",
+      "lex_ti_txt_lthr",
+      "lex_ti_txt_fbrc",
+      "lex_ti_md2_model",
+      "lex_ti_md2_rnwy",
+      "lex_ti_md2_dsgn",
+      "lex_ti_md2_trnd",
+      "lex_ti_md2_stle"
+    ],
+    "sentenceIds": [
+      "sen_ti_textilien_mode2_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_textilien_mode2_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_txt_cttn",
+      "lex_ti_txt_wool",
+      "lex_ti_txt_silk",
+      "lex_ti_txt_lthr",
+      "lex_ti_txt_fbrc",
+      "lex_ti_md2_model",
+      "lex_ti_md2_rnwy",
+      "lex_ti_md2_dsgn",
+      "lex_ti_md2_trnd",
+      "lex_ti_md2_stle"
+    ],
+    "sentenceIds": [
+      "sen_ti_textilien_mode2_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_textilien_mode2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_txt_cttn",
+      "lex_ti_txt_wool",
+      "lex_ti_txt_silk",
+      "lex_ti_txt_lthr",
+      "lex_ti_txt_fbrc",
+      "lex_ti_md2_model",
+      "lex_ti_md2_rnwy",
+      "lex_ti_md2_dsgn",
+      "lex_ti_md2_trnd",
+      "lex_ti_md2_stle"
+    ],
+    "sentenceIds": [
+      "sen_ti_textilien_mode2_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

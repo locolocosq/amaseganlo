@@ -1,0 +1,142 @@
+[
+  {
+    "id": "unit_eritrea_chemie_computerhardware_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_chm_elmnt",
+      "lex_ti_chm_mlcl",
+      "lex_ti_chm_ractn",
+      "lex_ti_chm_gas",
+      "lex_ti_chm_liqd",
+      "lex_ti_chm_solid",
+      "lex_ti_chw_cpu",
+      "lex_ti_chw_disk",
+      "lex_ti_chw_ram",
+      "lex_ti_chw_cabl",
+      "lex_ti_chw_lptp"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_chemie_computerhardware_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_chm_elmnt",
+      "lex_ti_chm_mlcl",
+      "lex_ti_chm_ractn",
+      "lex_ti_chm_gas",
+      "lex_ti_chm_liqd",
+      "lex_ti_chm_solid",
+      "lex_ti_chw_cpu",
+      "lex_ti_chw_disk",
+      "lex_ti_chw_ram",
+      "lex_ti_chw_cabl",
+      "lex_ti_chw_lptp"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_chemie_computerhardware_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_chm_elmnt",
+      "lex_ti_chm_mlcl",
+      "lex_ti_chm_ractn",
+      "lex_ti_chm_gas",
+      "lex_ti_chm_liqd",
+      "lex_ti_chm_solid",
+      "lex_ti_chw_cpu",
+      "lex_ti_chw_disk",
+      "lex_ti_chw_ram",
+      "lex_ti_chw_cabl",
+      "lex_ti_chw_lptp"
+    ],
+    "sentenceIds": [
+      "sen_ti_chemie_computerhardware_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_chemie_computerhardware_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_chm_elmnt",
+      "lex_ti_chm_mlcl",
+      "lex_ti_chm_ractn",
+      "lex_ti_chm_gas",
+      "lex_ti_chm_liqd",
+      "lex_ti_chm_solid",
+      "lex_ti_chw_cpu",
+      "lex_ti_chw_disk",
+      "lex_ti_chw_ram",
+      "lex_ti_chw_cabl",
+      "lex_ti_chw_lptp"
+    ],
+    "sentenceIds": [
+      "sen_ti_chemie_computerhardware_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_chemie_computerhardware_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_chm_elmnt",
+      "lex_ti_chm_mlcl",
+      "lex_ti_chm_ractn",
+      "lex_ti_chm_gas",
+      "lex_ti_chm_liqd",
+      "lex_ti_chm_solid",
+      "lex_ti_chw_cpu",
+      "lex_ti_chw_disk",
+      "lex_ti_chw_ram",
+      "lex_ti_chw_cabl",
+      "lex_ti_chw_lptp"
+    ],
+    "sentenceIds": [
+      "sen_ti_chemie_computerhardware_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_chemie_computerhardware_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_chm_elmnt",
+      "lex_ti_chm_mlcl",
+      "lex_ti_chm_ractn",
+      "lex_ti_chm_gas",
+      "lex_ti_chm_liqd",
+      "lex_ti_chm_solid",
+      "lex_ti_chw_cpu",
+      "lex_ti_chw_disk",
+      "lex_ti_chw_ram",
+      "lex_ti_chw_cabl",
+      "lex_ti_chw_lptp"
+    ],
+    "sentenceIds": [
+      "sen_ti_chemie_computerhardware_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_rfr_rckt","am":"ሮኬት","tr":"roket","pos":"noun","topic":"space_travel","level":"TI","t":{"de":"die Rakete","en":"rocket","sv":"raket","nl":"raket"},"emoji":"🚀","verified":false},
+  {"id":"lex_ti_rfr_atrn","am":"ጠፈርተኛ","tr":"teferitegna","pos":"noun","topic":"space_travel","level":"TI","t":{"de":"der Astronaut","en":"astronaut","sv":"astronaut","nl":"astronaut"},"emoji":"👨‍🚀","verified":false},
+  {"id":"lex_ti_rfr_shp2","am":"መርከብ ጠፈር","tr":"merkeb tefer","pos":"noun","topic":"space_travel","level":"TI","t":{"de":"das Raumschiff","en":"spaceship","sv":"rymdskepp","nl":"ruimteschip"},"emoji":"🛸","verified":false},
+  {"id":"lex_ti_rfr_moon","am":"ወርሒ (ጠፈር)","tr":"werhi tefer","pos":"noun","topic":"space_travel","level":"TI","t":{"de":"der Mond","en":"moon","sv":"måne","nl":"maan"},"emoji":"🌙","verified":false},
+  {"id":"lex_ti_rfr_sat","am":"ሳተላይት","tr":"satelayt","pos":"noun","topic":"space_travel","level":"TI","t":{"de":"der Satellit","en":"satellite","sv":"satellit","nl":"satelliet"},"emoji":"🛰️","verified":false},
+  {"id":"lex_ti_rfr_launch","am":"ተወንጨፈ","tr":"tewenchefe","pos":"verb","topic":"space_travel","level":"TI","t":{"de":"starten (Rakete)","en":"to launch (rocket)","sv":"att skjuta upp (raket)","nl":"lanceren (raket)"},"emoji":"","verified":false}
+]

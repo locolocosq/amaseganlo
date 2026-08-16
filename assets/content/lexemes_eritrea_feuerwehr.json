@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_few_fire2","am":"ሓዊ","tr":"hawi","pos":"noun","topic":"firefighting","level":"TI","t":{"de":"das Feuer","en":"fire","sv":"eld","nl":"vuur"},"emoji":"🔥","verified":false},
+  {"id":"lex_ti_few_smk","am":"ትኪ","tr":"tiki","pos":"noun","topic":"firefighting","level":"TI","t":{"de":"der Rauch","en":"smoke","sv":"rök","nl":"rook"},"emoji":"💨","verified":false},
+  {"id":"lex_ti_few_extg","am":"ኣጥፍአ (ሓዊ)","tr":"atifi'e hawi","pos":"verb","topic":"firefighting","level":"TI","t":{"de":"löschen (Feuer)","en":"to extinguish (fire)","sv":"att släcka (eld)","nl":"blussen (vuur)"},"emoji":"","verified":false},
+  {"id":"lex_ti_few_hose","am":"ናይ ማይ ቱቦ","tr":"nay mai tubo","pos":"noun","topic":"firefighting","level":"TI","t":{"de":"der Feuerwehrschlauch","en":"fire hose","sv":"brandslang","nl":"brandslang"},"emoji":"","verified":false},
+  {"id":"lex_ti_few_alrm2","am":"ናይ ሓዊ ኣላርም","tr":"nay hawi alarm","pos":"noun","topic":"firefighting","level":"TI","t":{"de":"der Feueralarm","en":"fire alarm","sv":"brandlarm","nl":"brandalarm"},"emoji":"🚨","verified":false}
+]

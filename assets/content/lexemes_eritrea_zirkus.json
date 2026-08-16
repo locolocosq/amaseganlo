@@ -1,0 +1,6 @@
+[
+  {"id":"lex_ti_zrk_clwn","am":"ኮማድያን","tr":"komadyan","pos":"noun","topic":"circus","level":"TI","t":{"de":"der Clown","en":"clown","sv":"clown","nl":"clown"},"emoji":"🤡","verified":false},
+  {"id":"lex_ti_zrk_acrb","am":"ኣክሮባት","tr":"akrobat","pos":"noun","topic":"circus","level":"TI","t":{"de":"der Akrobat","en":"acrobat","sv":"akrobat","nl":"acrobaat"},"emoji":"🤸","verified":false},
+  {"id":"lex_ti_zrk_tent2","am":"ድንኳን ጸወታ","tr":"dinkuan tsewata","pos":"noun","topic":"circus","level":"TI","t":{"de":"das Zirkuszelt","en":"circus tent","sv":"cirkustält","nl":"circustent"},"emoji":"🎪","verified":false},
+  {"id":"lex_ti_zrk_tmr","am":"ናይ ስራሕ ኣሰልጣኒ","tr":"nay sirah aseltani","pos":"noun","topic":"circus","level":"TI","t":{"de":"der Dompteur","en":"animal tamer","sv":"djurtämjare","nl":"dierentemmer"},"emoji":"","verified":false}
+]

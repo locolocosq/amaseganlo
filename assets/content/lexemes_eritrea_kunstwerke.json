@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_knw_pntg","am":"ስእሊ ቀለም","tr":"si'ili qelem","pos":"noun","topic":"artworks","level":"TI","t":{"de":"das Gemälde","en":"painting","sv":"målning","nl":"schilderij"},"emoji":"🖼️","verified":false},
+  {"id":"lex_ti_knw_sclp","am":"ቅርጺ","tr":"qirtsi","pos":"noun","topic":"artworks","level":"TI","t":{"de":"die Skulptur","en":"sculpture","sv":"skulptur","nl":"beeldhouwwerk"},"emoji":"","verified":false},
+  {"id":"lex_ti_knw_gllry","am":"ናይ ስነ ጥበብ ኣደራሽ","tr":"nay sine t'ibeb aderash","pos":"noun","topic":"artworks","level":"TI","t":{"de":"die Galerie","en":"gallery","sv":"galleri","nl":"galerie"},"emoji":"","verified":false},
+  {"id":"lex_ti_knw_brsh","am":"ብራሽ ቀለም","tr":"birash qelem","pos":"noun","topic":"artworks","level":"TI","t":{"de":"der Pinsel","en":"paintbrush","sv":"pensel","nl":"penseel"},"emoji":"🖌️","verified":false},
+  {"id":"lex_ti_knw_clr2","am":"ቀለም (ስእሊ)","tr":"qelem si'ili","pos":"noun","topic":"artworks","level":"TI","t":{"de":"die Farbe (Malfarbe)","en":"paint","sv":"färg (målarfärg)","nl":"verf"},"emoji":"🎨","verified":false}
+]
