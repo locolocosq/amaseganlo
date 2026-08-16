@@ -665,3 +665,64 @@ Runde 5: 1749, Runde 6: 2001 Wörter). Sechs Commits, je eines pro Runde.
   Satzbau-Übung) und Zeitaufwand für individuell formulierte Sätze.
 - **Verifiziert nach jeder Runde:** `flutter analyze` (0 Probleme) und volle Testsuite (230/230 grün)
   nach jeder der fünf Folgerunden, jeweils vor dem zugehörigen Commit.
+
+## Etappe 27: Eritrea bekommt eine eigene, wischbare Weltkarte
+
+Nutzer-Feedback nach Etappe 26: die 131 Tigrinya-Stationen sollten nicht als ein einzelner Knoten
+auf der Äthiopien-Weltkarte hängen, sondern Eritrea sollte eine vollwertige, eigenständige Karte
+bekommen - analog zur Äthiopien-Karte, erreichbar per Wisch-Geste (nicht Antippen), mit Erklärung
+beim ersten Kontakt, weiterhin nur die ersten 3 Stationen kostenlos, und einem eigenen Reisepass
+im Profil statt eines gemeinsamen. Umgesetzt als horizontales `PageView` in `WorldMapScreen` mit
+zwei Seiten: die unveränderte Äthiopien-Karte (jetzt `_EthiopiaMapPage`, 6 Regionen) und eine neue
+`EritreaMapView` (ein einzelner großer `RegionNodeMarker` auf einem eigenen Rotes-Meer-Hintergrund,
+`EritreaMapPainter`) - kein drittes Kartenlevel und keine Gruppierung der 131 Stationen in
+Über-Stationen (das war meine erste, vom Nutzer korrigierte Fehlinterpretation der Anfrage).
+
+- **`JourneyProgress.currentRegionIndex`/`currentSectionId` (kreuzsprachlich) ersetzt durch
+  `sectionsForLanguage(language)`/`currentRegionIndexForLanguage(language)`.** Die alte,
+  kreuzsprachliche Berechnung hatte einen latenten Bug: wären irgendwann alle 6 Amharisch-Sektionen
+  abgeschlossen gewesen, hätte `currentRegionIndex` in `curriculum.sections` bis zu `sec_eritrea`
+  weitergezählt und der Busfahrer auf der (dann nicht mehr existierenden) Äthiopien-Karte fälschlich
+  "Nächster Halt: Eritrea!" angesagt. Mit zwei komplett getrennten Karten musste das ohnehin
+  aufgelöst werden - jede Karte berechnet ihre eigene "aktuelle Station" jetzt ausschließlich
+  innerhalb der eigenen Sprache.
+- **Stationssuche per Region statt per Listenindex.** `WorldMapScreen`/`RegionDetailScreen` haben
+  Sektionen bisher teils per `curriculum.sections[index]` angesprochen, unter der stillschweigenden
+  Annahme, dass `WorldMapLayout.order` und `curriculum.sections` exakt dieselbe Reihenfolge/Länge
+  haben - eine Annahme, die mit Eritreas Auszug aus `order` gebrochen wäre. Jetzt überall
+  `curriculum.sections.firstWhereOrNull((s) => journeyRegionFromId(s.region) == region)` (das
+  Muster, das `RegionDetailScreen` für die Routen-Auflösung schon nutzte) - robust unabhängig von
+  Sortierreihenfolge oder Listenlänge.
+- **Eritrea-Karte ohne eigenes Geo-Projektionssystem.** `EthiopiaMap`/`WorldMapLayout` bauen ihre
+  Positionen aus echten (grob stilisierten) Äthiopien-Koordinaten - für eine Karte mit nur einem
+  einzigen Stopp wäre das reiner Overhead gewesen. `EritreaMapPainter` ist bewusst simpel: dieselbe
+  Rotes-Meer-Kulisse (Himmel, Küstenlinie, Palmen, Leuchtturm), die die Eritrea-Medaillon-Grafik
+  schon nutzt, nur bildschirmfüllend statt in einem 52px-Kreis.
+- **Zustandsberechnung der einzelnen Eritrea-Station vereinfacht auf `current`/`completed`** (kein
+  `locked`/`upcoming`/`comingSoon`) - mit nur einem Knoten auf dieser Karte gibt es kein "davor" oder
+  "danach", das eine Sperre begründen würde; sie ist immer direkt erreichbar, wie in Etappe 26 schon
+  für den (damals einzigen) Eritrea-Knoten auf der gemeinsamen Karte festgelegt.
+- **Seiten-Punkte (2 kleine Kreise) statt Pfeile/Text als Wisch-Hinweis auf der Karte selbst** - dezent,
+  passt ins bestehende Design, ergänzt (ersetzt nicht) den einmaligen Erklär-Dialog.
+- **Der bestehende einmalige Eritrea-Hinweisdialog (Etappe 26) wurde inhaltlich umgeschrieben statt
+  durch etwas Neues ersetzt** - Titel/Button-Text blieben unverändert (spart unnötige
+  Test-/Übersetzungs-Änderungen), nur der Erklärtext beschreibt jetzt "nach links wischen" statt
+  "Region antippen".
+- **Zwei Reisepässe im Profil** (`_PassportCard`, je einmal für `language == 'am'` und einmal für
+  `language == 'ti'`) statt einer gemeinsamen Stempelreihe - der gemeinsame Hinweistext
+  ("Ein Stempel für jede Station...") wurde dafür sprachneutral umformuliert, statt zwei fast
+  identische Varianten zu pflegen.
+- **Freischaltungsgrenze (erste 3 Stationen kostenlos) unverändert, aber gezielt gegengetestet**
+  (neuer `test/core/journey_progress_test.dart`): `freeTrialUnitIds()` zählt weiterhin nur die
+  ersten 3 Einheiten der jeweils ersten Sektion pro Sprache, unabhängig davon, ob diese Sektion 4
+  oder 131 Einheiten hat - bei 131 Einheiten bestätigt der neue Test explizit, dass Station 4 (und
+  jede weitere) tatsächlich premium-gesperrt bleibt.
+- **Sichtprüfung im Browser nur eingeschränkt möglich** (dieselbe schon in Etappe 8 dokumentierte
+  Umgebungsgrenze: CanvasKit-Rendering ohne zugängliches DOM, Screenshot-Mechanismus dieser Umgebung
+  liefert "Browser pane is not displayed"). Verifiziert stattdessen über (a) die Browser-Konsole
+  (App startet fehlerfrei, einzige Meldung ist eine bekannte, unabhängige
+  `flutter_local_notifications_web`-Plugin-Warnung im `web-server`-Debug-Modus) und (b) die
+  vollständige automatisierte Testsuite inkl. zweier neuer, gezielter Tests
+  (`world_map_swipe_test.dart` für das Wischen selbst, `journey_progress_test.dart` für die
+  Freischaltungsgrenze).
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 233/233 grün.

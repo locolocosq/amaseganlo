@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -17,13 +18,16 @@ import '../../widgets/journey/bus_driver.dart';
 import '../../widgets/journey/region_node_marker.dart';
 import '../../widgets/journey/traveling_bus.dart';
 import '../../widgets/journey/world_map_painter.dart';
+import 'eritrea_map_view.dart';
 
-/// Ebene 1 of the journey map (Etappe 14): the whole "Äthiopien-Reise" at a
-/// glance, one node per region/section, connected by a road the bus drives
-/// along. Tapping a region pushes the Ebene-2 region-detail screen.
-/// Replaces the old flat list (`PathScreen`) as the `/learn` tab's content
-/// - the underlying unlock/progress rules are untouched, see
-/// [JourneyProgress].
+/// Ebene 1 of the journey map (Etappe 14), now two independent, swipeable
+/// pages (Etappe 27): "Äthiopien" (the original 6-region map, unchanged
+/// content/unlock logic) and "Eritrea" (its own single-stop page,
+/// [EritreaMapView]) - a horizontal [PageView] instead of one combined map,
+/// so a second target language gets its own map rather than one more node
+/// squeezed onto the first. Tapping a region still pushes the Ebene-2
+/// region-detail screen exactly as before; the underlying unlock/progress
+/// rules are untouched, see [JourneyProgress].
 class WorldMapScreen extends StatefulWidget {
   const WorldMapScreen({super.key});
 
@@ -33,18 +37,22 @@ class WorldMapScreen extends StatefulWidget {
 
 class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProviderStateMixin {
   late final AnimationController _busController;
+  late final PageController _pageController;
   bool _busAnimationStarted = false;
   bool _eritreaHintTriggered = false;
+  int _page = 0;
 
   @override
   void initState() {
     super.initState();
     _busController = AnimationController(vsync: this, duration: const Duration(milliseconds: 1200));
+    _pageController = PageController();
   }
 
   @override
   void dispose() {
     _busController.dispose();
+    _pageController.dispose();
     super.dispose();
   }
 
@@ -66,11 +74,12 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
   }
 
   /// Shows the one-time "you can also learn Tigrinya now" dialog (Etappe
-  /// 26) the first time this screen builds with the hint not yet seen -
-  /// guarded the same way [_startBusTravel] guards its own one-shot
-  /// animation, so a rebuild (e.g. progress changing) never re-triggers it
-  /// mid-session even before the persisted flag round-trips through
-  /// storage.
+  /// 26, updated in Etappe 27 to explain the swipe between the two map
+  /// pages instead of a tap on a shared map) the first time this screen
+  /// builds with the hint not yet seen - guarded the same way
+  /// [_startBusTravel] guards its own one-shot animation, so a rebuild
+  /// (e.g. progress changing) never re-triggers it mid-session even before
+  /// the persisted flag round-trips through storage.
   void _maybeShowEritreaHint(bool alreadySeen) {
     if (alreadySeen || _eritreaHintTriggered) return;
     _eritreaHintTriggered = true;
@@ -100,16 +109,8 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     }
 
     final journey = JourneyProgress(content: contentProvider.repository, progress: progressProvider.progress, settings: settings, isPremium: isPremium);
-    final currentRegionIndex = journey.currentRegionIndex;
-
-    final allDone = curriculum.sections.every(journey.isSectionDone);
-    final currentSection = curriculum.sections[currentRegionIndex];
-    final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
-    final driverMessage = allDone
-        ? l10n.journeyDriverWorldMapAllDone
-        : l10n.journeyDriverWorldMapCurrent(currentSection.title[locale] ?? currentSection.id);
-
     final resumeTarget = findResumeTarget(contentProvider.repository, progressProvider.progress);
+    final locale = settings.localeCode ?? Localizations.localeOf(context).languageCode;
 
     _maybeShowEritreaHint(settings.hasSeenEritreaHint);
 
@@ -120,6 +121,93 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
             unitTitle: contentProvider.repository.unit(resumeTarget.unitId)?.title[locale] ?? resumeTarget.unitId,
             onTap: () => context.push('/lesson/${resumeTarget.unitId}/${resumeTarget.lessonId}'),
           ),
+        Expanded(
+          child: PageView(
+            controller: _pageController,
+            onPageChanged: (page) => setState(() => _page = page),
+            children: [
+              _EthiopiaMapPage(
+                journey: journey,
+                curriculum: curriculum,
+                locale: locale,
+                busController: _busController,
+                onBusTarget: _startBusTravel,
+              ),
+              const EritreaMapView(),
+            ],
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 8),
+          child: _PageIndicatorDots(count: 2, current: _page),
+        ),
+      ],
+    );
+  }
+}
+
+/// Two small dots below the [PageView] hinting there is a second page to
+/// swipe to (Etappe 27) - a light, wordless affordance that complements
+/// (not replaces) the one-time onboarding hint dialog, which explains the
+/// gesture in words the first time.
+class _PageIndicatorDots extends StatelessWidget {
+  final int count;
+  final int current;
+  const _PageIndicatorDots({required this.count, required this.current});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        for (var i = 0; i < count; i++)
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 200),
+            margin: const EdgeInsets.symmetric(horizontal: 3),
+            width: i == current ? 18 : 7,
+            height: 7,
+            decoration: BoxDecoration(
+              color: i == current ? theme.colorScheme.primary : theme.colorScheme.outlineVariant,
+              borderRadius: BorderRadius.circular(4),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+/// The Ethiopia map page's body - the original single-map content from
+/// before Etappe 27, unchanged in logic, just extracted so [WorldMapScreen]
+/// can host it as one page of its [PageView].
+class _EthiopiaMapPage extends StatelessWidget {
+  final JourneyProgress journey;
+  final Curriculum curriculum;
+  final String locale;
+  final AnimationController busController;
+  final ValueChanged<double> onBusTarget;
+
+  const _EthiopiaMapPage({
+    required this.journey,
+    required this.curriculum,
+    required this.locale,
+    required this.busController,
+    required this.onBusTarget,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final amharicSections = journey.sectionsForLanguage('am');
+    final currentRegionIndex = journey.currentRegionIndexForLanguage('am');
+    final allDone = amharicSections.every(journey.isSectionDone);
+    final currentSection = amharicSections[currentRegionIndex];
+    final driverMessage = allDone
+        ? l10n.journeyDriverWorldMapAllDone
+        : l10n.journeyDriverWorldMapCurrent(currentSection.title[locale] ?? currentSection.id);
+
+    return Column(
+      children: [
         Padding(
           padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
           child: BusDriverBubble(message: driverMessage),
@@ -150,14 +238,14 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
                   final totalLength = segments.fold<double>(0, (sum, s) => sum + pathLength(s));
                   final reachedLength = segments.take(currentRegionIndex).fold<double>(0, (sum, s) => sum + pathLength(s));
                   final targetProgress = totalLength > 0 ? reachedLength / totalLength : 0.0;
-                  _startBusTravel(targetProgress);
+                  onBusTarget(targetProgress);
 
                   return Stack(
                     children: [
                       Positioned.fill(child: CustomPaint(painter: const WorldMapPainter())),
-                      Positioned.fill(child: TravelingBus(path: fullRoad, progress: _busController, scale: 1.1)),
+                      Positioned.fill(child: TravelingBus(path: fullRoad, progress: busController, scale: 1.1)),
                       for (var i = 0; i < WorldMapLayout.order.length; i++)
-                        _buildRegionNode(context, size, i, journey, curriculum, l10n),
+                        _buildRegionNode(context, size, i, currentRegionIndex, l10n),
                     ],
                   );
                 },
@@ -173,21 +261,21 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
     BuildContext context,
     Size size,
     int index,
-    JourneyProgress journey,
-    Curriculum curriculum,
+    int currentRegionIndex,
     AppLocalizations l10n,
   ) {
     final region = WorldMapLayout.order[index];
     final position = WorldMapLayout.positions(size)[region]!;
 
-    // [WorldMapLayout.order] can be longer than `curriculum.sections` - a
-    // place added to the map/route ahead of having real content (Etappe
-    // 22: Harar) has no section to index into here. Render it as a
-    // permanently locked "coming soon" placeholder instead of crashing;
-    // once a real section with this region appears in curriculum.json, it
-    // automatically falls into the normal branch below with no code
-    // change needed here.
-    if (index >= curriculum.sections.length) {
+    // A place added to the map/route ahead of having real content has no
+    // matching section yet - render it as a permanently locked "coming
+    // soon" placeholder instead of crashing; once a real section for this
+    // region appears in curriculum.json, it automatically falls into the
+    // normal branch below with no code change needed here. Looked up by
+    // region (not position/index) so this stays correct regardless of how
+    // curriculum.json orders its sections relative to WorldMapLayout.order.
+    final section = curriculum.sections.firstWhereOrNull((s) => journeyRegionFromId(s.region) == region);
+    if (section == null) {
       return Positioned(
         left: position.dx - 33,
         top: position.dy - 26,
@@ -206,9 +294,6 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
       );
     }
 
-    final section = curriculum.sections[index];
-
-    final currentRegionIndex = journey.currentRegionIndex;
     final state = index < currentRegionIndex
         ? RegionVisualState.completed
         : (index == currentRegionIndex ? RegionVisualState.current : RegionVisualState.upcoming);

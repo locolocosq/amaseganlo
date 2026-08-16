@@ -5,14 +5,14 @@ import '../../l10n/app_localizations.dart';
 import '../journey/region_node_marker.dart';
 
 /// A one-time, dezent hint shown right after onboarding (Etappe 26) that a
-/// second target language - Tigrinya, via the new Eritrea stop - now exists.
+/// second target language - Tigrinya, via the new Eritrea map - now exists.
 /// Deliberately not a 5th onboarding page: onboarding_flow_test.dart already
 /// exercises the exact 4-step handshake end-to-end, and this needs no
 /// interactive setup of its own (there is no language-switch *setting* to
-/// walk through - "switching" is simply tapping the new region on the world
-/// map, which the body text below says outright). Shown once, gated by
-/// [AppSettings.hasSeenEritreaHint], the same persisted-flag pattern already
-/// used for onboarding itself.
+/// walk through - "switching" is simply swiping between the two top-level
+/// map pages, Etappe 27, which the body text below says outright). Shown
+/// once, gated by [AppSettings.hasSeenEritreaHint], the same persisted-flag
+/// pattern already used for onboarding itself.
 Future<void> showEritreaLanguageHintDialog(BuildContext context) {
   final l10n = AppLocalizations.of(context);
   return showDialog<void>(

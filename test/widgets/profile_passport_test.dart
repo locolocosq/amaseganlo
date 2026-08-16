@@ -34,7 +34,8 @@ void main() {
     await tester.tap(find.byIcon(Icons.person_outline));
     await tester.pumpAndSettle();
 
-    expect(find.text('Dein Reisepass'), findsOneWidget);
+    expect(find.text('Dein Äthiopien-Pass'), findsOneWidget);
+    expect(find.text('Dein Eritrea-Pass'), findsOneWidget);
 
     final outline = Theme.of(tester.element(find.byIcon(Icons.location_city))).colorScheme.outline;
     final addisAbebaStamp = tester.widget<Icon>(find.byIcon(Icons.location_city));

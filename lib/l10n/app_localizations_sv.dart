@@ -666,11 +666,14 @@ class AppLocalizationsSv extends AppLocalizations {
   String get profileLast7Days => 'Senaste 7 dagarna';
 
   @override
-  String get profilePassportTitle => 'Ditt pass';
+  String get profilePassportTitleEthiopia => 'Ditt Etiopien-pass';
+
+  @override
+  String get profilePassportTitleEritrea => 'Ditt Eritrea-pass';
 
   @override
   String get profilePassportHint =>
-      'En stämpel för varje stopp på din Etiopien-resa, så snart du klarat kapitlet.';
+      'En stämpel för varje stopp, så snart du klarat kapitlet.';
 
   @override
   String get profileBadges => 'Utmärkelser';
@@ -950,6 +953,14 @@ class AppLocalizationsSv extends AppLocalizations {
       'Du har redan rest över hela kartan! Sugen på en ny runda?';
 
   @override
+  String get journeyDriverEritreaCurrent =>
+      'Välkommen till Eritrea! Redo för din första tigrinja?';
+
+  @override
+  String get journeyDriverEritreaAllDone =>
+      'Du har redan rest genom hela Eritrea-resan! Sugen på en ny runda?';
+
+  @override
   String journeyDriverRegionCurrent(String region) {
     return 'Välkommen till $region! Redo för nästa stopp?';
   }
@@ -995,7 +1006,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get onboardingEritreaHintBody =>
-      'Nu kan du också lära dig tigrinja, språket i Eritrea. Det nya stoppet Eritrea hittar du på världskartan, precis bredvid de andra regionerna - tryck bara på det för att byta. Amhariska stannar kvar på sin vanliga plats.';
+      'Nu kan du också lära dig tigrinja, språket i Eritrea. Svep bara åt vänster på kartan för att byta från Etiopien-kartan till Eritrea-kartan - och åt höger för att gå tillbaka. Amhariska stannar kvar på sin vanliga karta.';
 
   @override
   String get onboardingEritreaHintButton => 'Uppfattat';

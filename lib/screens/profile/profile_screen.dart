@@ -39,40 +39,28 @@ class ProfileScreen extends StatelessWidget {
           label: Text(l10n.profileAssessmentTest),
         ),
         const SizedBox(height: 24),
-        Container(
-          padding: isPremium ? const EdgeInsets.all(12) : EdgeInsets.zero,
-          decoration: isPremium
-              ? BoxDecoration(
-                  borderRadius: BorderRadius.circular(16),
-                  border: Border.all(color: const Color(0xFFD4A017), width: 1.5),
-                  gradient: LinearGradient(
-                    colors: [const Color(0xFFD4A017).withValues(alpha: 0.10), Colors.transparent],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
-                )
-              : null,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Text(l10n.profilePassportTitle, style: Theme.of(context).textTheme.titleMedium),
-                  if (isPremium) ...[
-                    const SizedBox(width: 6),
-                    const Icon(Icons.workspace_premium, size: 18, color: Color(0xFFD4A017)),
-                  ],
-                ],
-              ),
-              const SizedBox(height: 4),
-              Text(
-                l10n.profilePassportHint,
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
-              ),
-              const SizedBox(height: 12),
-              _PassportRow(content: content, progress: p, locale: locale),
-            ],
-          ),
+        // Etappe 27: two separate passports, one per target-language map
+        // (Äthiopien/Amharic, Eritrea/Tigrinya) - matching the world map's
+        // own split into two independent swipeable pages, instead of one
+        // shared stamp row that used to mix both languages' stops together.
+        _PassportCard(
+          title: l10n.profilePassportTitleEthiopia,
+          hint: l10n.profilePassportHint,
+          isPremium: isPremium,
+          sections: content.curriculum.sections.where((s) => s.language == 'am').toList(),
+          content: content,
+          progress: p,
+          locale: locale,
+        ),
+        const SizedBox(height: 16),
+        _PassportCard(
+          title: l10n.profilePassportTitleEritrea,
+          hint: l10n.profilePassportHint,
+          isPremium: isPremium,
+          sections: content.curriculum.sections.where((s) => s.language == 'ti').toList(),
+          content: content,
+          progress: p,
+          locale: locale,
         ),
         const SizedBox(height: 24),
         _StatsGrid(
@@ -199,20 +187,85 @@ class _SkippedUnitTile extends StatelessWidget {
   }
 }
 
-/// The "Reisepass" (Abschnitt Design): one stamp per Äthiopien-Reise stop
-/// (curriculum section), filled in once every unit in that section is
-/// completed or skipped - computed live from progress, the same "no extra
-/// persisted state" approach as `BadgeCatalog`.
-class _PassportRow extends StatelessWidget {
+/// One passport "card" (Etappe 27): a title, the shared explanatory hint,
+/// and a [_PassportRow] scoped to just one target language's own sections -
+/// the container/premium-styling wrapper that used to hold a single shared
+/// row now wraps each language's row separately.
+class _PassportCard extends StatelessWidget {
+  final String title;
+  final String hint;
+  final bool isPremium;
+  final List<CurriculumSection> sections;
   final ContentRepository content;
   final UserProgress progress;
   final String locale;
 
-  const _PassportRow({required this.content, required this.progress, required this.locale});
+  const _PassportCard({
+    required this.title,
+    required this.hint,
+    required this.isPremium,
+    required this.sections,
+    required this.content,
+    required this.progress,
+    required this.locale,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final sections = content.curriculum.sections;
+    return Container(
+      padding: isPremium ? const EdgeInsets.all(12) : EdgeInsets.zero,
+      decoration: isPremium
+          ? BoxDecoration(
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: const Color(0xFFD4A017), width: 1.5),
+              gradient: LinearGradient(
+                colors: [const Color(0xFFD4A017).withValues(alpha: 0.10), Colors.transparent],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
+            )
+          : null,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Text(title, style: Theme.of(context).textTheme.titleMedium),
+              if (isPremium) ...[
+                const SizedBox(width: 6),
+                const Icon(Icons.workspace_premium, size: 18, color: Color(0xFFD4A017)),
+              ],
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(
+            hint,
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
+          ),
+          const SizedBox(height: 12),
+          _PassportRow(sections: sections, content: content, progress: progress, locale: locale),
+        ],
+      ),
+    );
+  }
+}
+
+/// The "Reisepass" (Abschnitt Design): one stamp per stop (curriculum
+/// section) in [sections] - scoped to a single target language's own
+/// sections since Etappe 27 (see [_PassportCard]) - filled in once every
+/// unit in that section is completed or skipped, computed live from
+/// progress, the same "no extra persisted state" approach as
+/// `BadgeCatalog`.
+class _PassportRow extends StatelessWidget {
+  final List<CurriculumSection> sections;
+  final ContentRepository content;
+  final UserProgress progress;
+  final String locale;
+
+  const _PassportRow({required this.sections, required this.content, required this.progress, required this.locale});
+
+  @override
+  Widget build(BuildContext context) {
     return Row(
       children: [
         for (final section in sections) ...[

@@ -135,13 +135,6 @@ class JourneyProgress {
   bool isSectionDone(CurriculumSection section) =>
       section.unitIds.isNotEmpty && section.unitIds.every((id) => isUnitDone(id) || isUnitSkipped(id));
 
-  /// The section the "you are here" marker should sit on: the first
-  /// unfinished section, or the last one if everything is done.
-  String get currentSectionId {
-    final sections = content.curriculum.sections;
-    return sections.firstWhereOrNull((s) => !isSectionDone(s))?.id ?? sections.last.id;
-  }
-
   UnitState stateForFlatIndex(int flatIndex) => stateForUnit(flatUnitIds[flatIndex]);
 
   UnitState stateForUnit(String unitId) {
@@ -161,12 +154,21 @@ class JourneyProgress {
     return UnitState.locked;
   }
 
-  /// 0-based index (within `curriculum.sections`, which is 1:1 with
-  /// [WorldMapLayout.order]) of the region that currently has the
-  /// resume-worthy "you are here" unit - used to place the bus/camera on
-  /// the world map.
-  int get currentRegionIndex {
-    final sections = content.curriculum.sections;
+  /// Every section belonging to one target language, in curriculum order -
+  /// Etappe 27: the world map split into two independent, swipeable pages
+  /// (Ethiopia/Amharic and Eritrea/Tigrinya), each with its own "you are
+  /// here" bus position computed only from its own language's sections -
+  /// finishing every Amharic region must never make Eritrea's own single
+  /// section look "further along" than it really is, or vice versa.
+  List<CurriculumSection> sectionsForLanguage(String language) => content.curriculum.sections.where((s) => s.language == language).toList();
+
+  /// 0-based index (within `sectionsForLanguage(language)`, 1:1 with that
+  /// language's own map-page region order) of the section that currently
+  /// has the resume-worthy "you are here" unit - used to place the
+  /// bus/camera on that language's own world-map page.
+  int currentRegionIndexForLanguage(String language) {
+    final sections = sectionsForLanguage(language);
+    if (sections.isEmpty) return 0;
     final index = sections.indexWhere((s) => !isSectionDone(s));
     return index == -1 ? sections.length - 1 : index;
   }

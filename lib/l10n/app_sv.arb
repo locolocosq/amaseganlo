@@ -257,8 +257,9 @@
   "profileDaysLearned": "Dagar med lärande",
   "profileAccuracy": "Träffsäkerhet",
   "profileLast7Days": "Senaste 7 dagarna",
-  "profilePassportTitle": "Ditt pass",
-  "profilePassportHint": "En stämpel för varje stopp på din Etiopien-resa, så snart du klarat kapitlet.",
+  "profilePassportTitleEthiopia": "Ditt Etiopien-pass",
+  "profilePassportTitleEritrea": "Ditt Eritrea-pass",
+  "profilePassportHint": "En stämpel för varje stopp, så snart du klarat kapitlet.",
   "profileBadges": "Utmärkelser",
   "profileBadgesEmpty": "Inga utmärkelser än - kom igång!",
   "profileSkippedUnits": "Överhoppade kapitel",
@@ -361,6 +362,8 @@
   "journeyDriverWorldMapCurrent": "Nästa stopp: {region}! Hoppa på, nu åker vi.",
   "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverWorldMapAllDone": "Du har redan rest över hela kartan! Sugen på en ny runda?",
+  "journeyDriverEritreaCurrent": "Välkommen till Eritrea! Redo för din första tigrinja?",
+  "journeyDriverEritreaAllDone": "Du har redan rest genom hela Eritrea-resan! Sugen på en ny runda?",
   "journeyDriverRegionCurrent": "Välkommen till {region}! Redo för nästa stopp?",
   "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverRegionAllDone": "Det här stoppet känner du redan utan och innan! Titta gärna in igen.",
@@ -376,6 +379,6 @@
   "journeyRegionLabelSafari": "Safari",
   "journeyRegionLabelEritrea": "Eritrea",
   "onboardingEritreaHintTitle": "Nytt: upptäck Eritrea",
-  "onboardingEritreaHintBody": "Nu kan du också lära dig tigrinja, språket i Eritrea. Det nya stoppet Eritrea hittar du på världskartan, precis bredvid de andra regionerna - tryck bara på det för att byta. Amhariska stannar kvar på sin vanliga plats.",
+  "onboardingEritreaHintBody": "Nu kan du också lära dig tigrinja, språket i Eritrea. Svep bara åt vänster på kartan för att byta från Etiopien-kartan till Eritrea-kartan - och åt höger för att gå tillbaka. Amhariska stannar kvar på sin vanliga karta.",
   "onboardingEritreaHintButton": "Uppfattat"
 }

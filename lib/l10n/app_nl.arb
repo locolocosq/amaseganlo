@@ -257,8 +257,9 @@
   "profileDaysLearned": "Leerdagen",
   "profileAccuracy": "Nauwkeurigheid",
   "profileLast7Days": "Laatste 7 dagen",
-  "profilePassportTitle": "Je paspoort",
-  "profilePassportHint": "Een stempel voor elke stop op je Ethiopië-reis, zodra je dat hoofdstuk hebt afgerond.",
+  "profilePassportTitleEthiopia": "Je Ethiopië-paspoort",
+  "profilePassportTitleEritrea": "Je Eritrea-paspoort",
+  "profilePassportHint": "Een stempel voor elke stop, zodra je dat hoofdstuk hebt afgerond.",
   "profileBadges": "Badges",
   "profileBadgesEmpty": "Nog geen badges - begin nu!",
   "profileSkippedUnits": "Overgeslagen hoofdstukken",
@@ -361,6 +362,8 @@
   "journeyDriverWorldMapCurrent": "Volgende stop: {region}! Stap in, we gaan op weg.",
   "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverWorldMapAllDone": "Je hebt de hele kaart al bereisd! Zin in nog een rondje?",
+  "journeyDriverEritreaCurrent": "Welkom in Eritrea! Klaar voor je eerste Tigrinya?",
+  "journeyDriverEritreaAllDone": "Je hebt de hele Eritrea-reis al bereisd! Zin in nog een rondje?",
   "journeyDriverRegionCurrent": "Welkom in {region}! Klaar voor de volgende halte?",
   "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverRegionAllDone": "Deze halte kun je al dromen! Kijk gerust nog eens rond.",
@@ -376,6 +379,6 @@
   "journeyRegionLabelSafari": "Safari",
   "journeyRegionLabelEritrea": "Eritrea",
   "onboardingEritreaHintTitle": "Nieuw: ontdek Eritrea",
-  "onboardingEritreaHintBody": "Vanaf nu kun je hier ook Tigrinya leren, de taal van Eritrea. De nieuwe halte Eritrea vind je op de wereldkaart, gelijk naast de andere regio's - tik erop om te wisselen. Amhaars blijft gewoon op zijn vertrouwde plek.",
+  "onboardingEritreaHintBody": "Vanaf nu kun je hier ook Tigrinya leren, de taal van Eritrea. Veeg gewoon naar links op de kaart om van de Ethiopië-kaart naar de Eritrea-kaart te wisselen - en naar rechts om terug te gaan. Amhaars blijft op zijn vertrouwde kaart.",
   "onboardingEritreaHintButton": "Begrepen"
 }

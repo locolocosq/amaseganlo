@@ -257,8 +257,9 @@
   "profileDaysLearned": "Days learned",
   "profileAccuracy": "Accuracy",
   "profileLast7Days": "Last 7 days",
-  "profilePassportTitle": "Your passport",
-  "profilePassportHint": "A stamp for every stop on your Ethiopia journey, once you finish that chapter.",
+  "profilePassportTitleEthiopia": "Your Ethiopia passport",
+  "profilePassportTitleEritrea": "Your Eritrea passport",
+  "profilePassportHint": "A stamp for every stop, once you finish that chapter.",
   "profileBadges": "Badges",
   "profileBadgesEmpty": "No badges yet - get started!",
   "profileSkippedUnits": "Skipped units",
@@ -361,6 +362,8 @@
   "journeyDriverWorldMapCurrent": "Next stop: {region}! Hop on, let's roll.",
   "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverWorldMapAllDone": "You've travelled the whole map already! Fancy another round?",
+  "journeyDriverEritreaCurrent": "Welcome to Eritrea! Ready for your first Tigrinya?",
+  "journeyDriverEritreaAllDone": "You've travelled the whole Eritrea journey already! Fancy another round?",
   "journeyDriverRegionCurrent": "Welcome to {region}! Ready for the next stop?",
   "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverRegionAllDone": "You know this stop inside out! Feel free to look around again.",
@@ -376,6 +379,6 @@
   "journeyRegionLabelSafari": "Safari",
   "journeyRegionLabelEritrea": "Eritrea",
   "onboardingEritreaHintTitle": "New: discover Eritrea",
-  "onboardingEritreaHintBody": "You can now also learn Tigrinya, the language of Eritrea. Find the new Eritrea stop on the world map, right alongside the other regions - just tap it to switch. Amharic stays exactly where it was.",
+  "onboardingEritreaHintBody": "You can now also learn Tigrinya, the language of Eritrea. Just swipe left on the map to switch from the Ethiopia map to the Eritrea map - and swipe right to go back. Amharic stays on its usual map.",
   "onboardingEritreaHintButton": "Got it"
 }

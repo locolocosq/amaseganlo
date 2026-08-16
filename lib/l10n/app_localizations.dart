@@ -1302,16 +1302,22 @@ abstract class AppLocalizations {
   /// **'Last 7 days'**
   String get profileLast7Days;
 
-  /// No description provided for @profilePassportTitle.
+  /// No description provided for @profilePassportTitleEthiopia.
   ///
   /// In en, this message translates to:
-  /// **'Your passport'**
-  String get profilePassportTitle;
+  /// **'Your Ethiopia passport'**
+  String get profilePassportTitleEthiopia;
+
+  /// No description provided for @profilePassportTitleEritrea.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Eritrea passport'**
+  String get profilePassportTitleEritrea;
 
   /// No description provided for @profilePassportHint.
   ///
   /// In en, this message translates to:
-  /// **'A stamp for every stop on your Ethiopia journey, once you finish that chapter.'**
+  /// **'A stamp for every stop, once you finish that chapter.'**
   String get profilePassportHint;
 
   /// No description provided for @profileBadges.
@@ -1830,6 +1836,18 @@ abstract class AppLocalizations {
   /// **'You\'ve travelled the whole map already! Fancy another round?'**
   String get journeyDriverWorldMapAllDone;
 
+  /// No description provided for @journeyDriverEritreaCurrent.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to Eritrea! Ready for your first Tigrinya?'**
+  String get journeyDriverEritreaCurrent;
+
+  /// No description provided for @journeyDriverEritreaAllDone.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve travelled the whole Eritrea journey already! Fancy another round?'**
+  String get journeyDriverEritreaAllDone;
+
   /// No description provided for @journeyDriverRegionCurrent.
   ///
   /// In en, this message translates to:
@@ -1911,7 +1929,7 @@ abstract class AppLocalizations {
   /// No description provided for @onboardingEritreaHintBody.
   ///
   /// In en, this message translates to:
-  /// **'You can now also learn Tigrinya, the language of Eritrea. Find the new Eritrea stop on the world map, right alongside the other regions - just tap it to switch. Amharic stays exactly where it was.'**
+  /// **'You can now also learn Tigrinya, the language of Eritrea. Just swipe left on the map to switch from the Ethiopia map to the Eritrea map - and swipe right to go back. Amharic stays on its usual map.'**
   String get onboardingEritreaHintBody;
 
   /// No description provided for @onboardingEritreaHintButton.

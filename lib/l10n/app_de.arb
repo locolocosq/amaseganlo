@@ -257,8 +257,9 @@
   "profileDaysLearned": "Lerntage",
   "profileAccuracy": "Trefferquote",
   "profileLast7Days": "Letzte 7 Tage",
-  "profilePassportTitle": "Dein Reisepass",
-  "profilePassportHint": "Ein Stempel für jede Station deiner Äthiopien-Reise, sobald du das Kapitel abgeschlossen hast.",
+  "profilePassportTitleEthiopia": "Dein Äthiopien-Pass",
+  "profilePassportTitleEritrea": "Dein Eritrea-Pass",
+  "profilePassportHint": "Ein Stempel für jede Station, sobald du das Kapitel abgeschlossen hast.",
   "profileBadges": "Abzeichen",
   "profileBadgesEmpty": "Noch keine Abzeichen - leg los!",
   "profileSkippedUnits": "Übersprungene Kapitel",
@@ -361,6 +362,8 @@
   "journeyDriverWorldMapCurrent": "Nächster Halt: {region}! Steig ein, wir fahren los.",
   "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverWorldMapAllDone": "Du hast schon die ganze Karte bereist! Lust auf eine weitere Runde?",
+  "journeyDriverEritreaCurrent": "Willkommen in Eritrea! Bereit für dein erstes Tigrinya?",
+  "journeyDriverEritreaAllDone": "Du hast schon die ganze Eritrea-Reise geschafft! Lust auf eine weitere Runde?",
   "journeyDriverRegionCurrent": "Willkommen in {region}! Bereit für die nächste Station?",
   "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
   "journeyDriverRegionAllDone": "Diese Station kennst du schon in- und auswendig! Schau gern trotzdem nochmal vorbei.",
@@ -376,6 +379,6 @@
   "journeyRegionLabelSafari": "Safari",
   "journeyRegionLabelEritrea": "Eritrea",
   "onboardingEritreaHintTitle": "Neu: Eritrea entdecken",
-  "onboardingEritreaHintBody": "Ab sofort kannst du hier auch Tigrinya lernen, die Sprache Eritreas. Die neue Station Eritrea findest du auf der Weltkarte, gleich neben den anderen Regionen - einfach antippen, um zu wechseln. Amharisch bleibt an seinem gewohnten Platz.",
+  "onboardingEritreaHintBody": "Ab sofort kannst du hier auch Tigrinya lernen, die Sprache Eritreas. Wisch auf der Karte einfach nach links, um von der Äthiopien-Karte zur Eritrea-Karte zu wechseln - und zurück nach rechts. Amharisch bleibt auf seiner gewohnten Karte.",
   "onboardingEritreaHintButton": "Verstanden"
 }

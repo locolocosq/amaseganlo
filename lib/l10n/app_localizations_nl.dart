@@ -666,11 +666,14 @@ class AppLocalizationsNl extends AppLocalizations {
   String get profileLast7Days => 'Laatste 7 dagen';
 
   @override
-  String get profilePassportTitle => 'Je paspoort';
+  String get profilePassportTitleEthiopia => 'Je Ethiopië-paspoort';
+
+  @override
+  String get profilePassportTitleEritrea => 'Je Eritrea-paspoort';
 
   @override
   String get profilePassportHint =>
-      'Een stempel voor elke stop op je Ethiopië-reis, zodra je dat hoofdstuk hebt afgerond.';
+      'Een stempel voor elke stop, zodra je dat hoofdstuk hebt afgerond.';
 
   @override
   String get profileBadges => 'Badges';
@@ -951,6 +954,14 @@ class AppLocalizationsNl extends AppLocalizations {
       'Je hebt de hele kaart al bereisd! Zin in nog een rondje?';
 
   @override
+  String get journeyDriverEritreaCurrent =>
+      'Welkom in Eritrea! Klaar voor je eerste Tigrinya?';
+
+  @override
+  String get journeyDriverEritreaAllDone =>
+      'Je hebt de hele Eritrea-reis al bereisd! Zin in nog een rondje?';
+
+  @override
   String journeyDriverRegionCurrent(String region) {
     return 'Welkom in $region! Klaar voor de volgende halte?';
   }
@@ -996,7 +1007,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get onboardingEritreaHintBody =>
-      'Vanaf nu kun je hier ook Tigrinya leren, de taal van Eritrea. De nieuwe halte Eritrea vind je op de wereldkaart, gelijk naast de andere regio\'s - tik erop om te wisselen. Amhaars blijft gewoon op zijn vertrouwde plek.';
+      'Vanaf nu kun je hier ook Tigrinya leren, de taal van Eritrea. Veeg gewoon naar links op de kaart om van de Ethiopië-kaart naar de Eritrea-kaart te wisselen - en naar rechts om terug te gaan. Amhaars blijft op zijn vertrouwde kaart.';
 
   @override
   String get onboardingEritreaHintButton => 'Begrepen';

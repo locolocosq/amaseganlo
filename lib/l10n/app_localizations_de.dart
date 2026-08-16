@@ -668,11 +668,14 @@ class AppLocalizationsDe extends AppLocalizations {
   String get profileLast7Days => 'Letzte 7 Tage';
 
   @override
-  String get profilePassportTitle => 'Dein Reisepass';
+  String get profilePassportTitleEthiopia => 'Dein Äthiopien-Pass';
+
+  @override
+  String get profilePassportTitleEritrea => 'Dein Eritrea-Pass';
 
   @override
   String get profilePassportHint =>
-      'Ein Stempel für jede Station deiner Äthiopien-Reise, sobald du das Kapitel abgeschlossen hast.';
+      'Ein Stempel für jede Station, sobald du das Kapitel abgeschlossen hast.';
 
   @override
   String get profileBadges => 'Abzeichen';
@@ -955,6 +958,14 @@ class AppLocalizationsDe extends AppLocalizations {
       'Du hast schon die ganze Karte bereist! Lust auf eine weitere Runde?';
 
   @override
+  String get journeyDriverEritreaCurrent =>
+      'Willkommen in Eritrea! Bereit für dein erstes Tigrinya?';
+
+  @override
+  String get journeyDriverEritreaAllDone =>
+      'Du hast schon die ganze Eritrea-Reise geschafft! Lust auf eine weitere Runde?';
+
+  @override
   String journeyDriverRegionCurrent(String region) {
     return 'Willkommen in $region! Bereit für die nächste Station?';
   }
@@ -1000,7 +1011,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get onboardingEritreaHintBody =>
-      'Ab sofort kannst du hier auch Tigrinya lernen, die Sprache Eritreas. Die neue Station Eritrea findest du auf der Weltkarte, gleich neben den anderen Regionen - einfach antippen, um zu wechseln. Amharisch bleibt an seinem gewohnten Platz.';
+      'Ab sofort kannst du hier auch Tigrinya lernen, die Sprache Eritreas. Wisch auf der Karte einfach nach links, um von der Äthiopien-Karte zur Eritrea-Karte zu wechseln - und zurück nach rechts. Amharisch bleibt auf seiner gewohnten Karte.';
 
   @override
   String get onboardingEritreaHintButton => 'Verstanden';

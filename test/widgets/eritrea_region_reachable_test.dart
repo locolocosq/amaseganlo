@@ -7,12 +7,13 @@ import 'package:habesha_speak/core/journey_regions.dart';
 import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
-/// Etappe 26: the new Eritrea/Tigrinya region must be reachable and its
-/// first station playable from a completely fresh install - independent of
-/// how far the learner has gotten in the (unrelated) Amharic curriculum.
-/// This is the point of JourneyProgress's per-language unlock tracks: with
-/// the single old cross-language flatUnitIds list, Eritrea's first station
-/// would have stayed locked until every Amharic unit before it was done.
+/// Etappe 26/27: the new Eritrea/Tigrinya map must be reachable (by
+/// swiping over from the Ethiopia map, Etappe 27) and its first station
+/// playable from a completely fresh install - independent of how far the
+/// learner has gotten in the (unrelated) Amharic curriculum. This is the
+/// point of JourneyProgress's per-language unlock tracks: with the single
+/// old cross-language flatUnitIds list, Eritrea's first station would have
+/// stayed locked until every Amharic unit before it was done.
 void main() {
   testWidgets(
     'the Eritrea region node is reachable and its first station is not sequentially locked behind Amharic',
@@ -25,6 +26,12 @@ void main() {
           ),
         },
       );
+
+      // Eritrea lives on its own map page now (Etappe 27) - swipe the world
+      // map's PageView left to get there before its node exists in the tree.
+      expect(findRegionNode(JourneyRegion.eritrea), findsNothing);
+      await tester.drag(find.byType(PageView), const Offset(-600, 0));
+      await tester.pumpAndSettle();
 
       expect(findRegionNode(JourneyRegion.eritrea), findsOneWidget);
       await tester.tap(findRegionNode(JourneyRegion.eritrea));
