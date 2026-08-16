@@ -48,37 +48,6 @@
     ]
   },
   {
-    "id": "unit_eritrea_greetings_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_ti_selam",
-      "lex_ti_dehan",
-      "lex_ti_yiqeneyeley",
-      "lex_ti_awo",
-      "lex_ti_bejaka",
-      "lex_ti_yikreta",
-      "lex_ti_ane",
-      "lex_ti_nsika",
-      "lex_ti_nsiki",
-      "lex_ti_nsu",
-      "lex_ti_nsa",
-      "lex_ti_nihna",
-      "lex_ti_sim",
-      "lex_ti_eritriya"
-    ],
-    "sentenceIds": [
-      "sen_ti_ane_dehan",
-      "sen_ti_nsu_dehan",
-      "sen_fix_sim_2",
-      "sen_fix_eritriya",
-      "sen_fix_dehan"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_eritrea_greetings_listening",
     "kind": "listening",
     "lexemeIds": [

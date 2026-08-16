@@ -40,33 +40,6 @@
     ]
   },
   {
-    "id": "unit_eritrea_food_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_ti_mai",
-      "lex_ti_bun",
-      "lex_ti_bani",
-      "lex_ti_tsibhi",
-      "lex_ti_tseba",
-      "lex_ti_berbere",
-      "lex_ti_siga",
-      "lex_ti_shai",
-      "lex_ti_mgbi",
-      "lex_ti_asa"
-    ],
-    "sentenceIds": [
-      "sen_ti_mai_alo",
-      "sen_ti_bun_alo",
-      "sen_gen_bani",
-      "sen_gen_tsibhi",
-      "sen_gen_tseba"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_eritrea_food_listening",
     "kind": "listening",
     "lexemeIds": [

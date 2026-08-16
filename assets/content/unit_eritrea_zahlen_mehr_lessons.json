@@ -82,54 +82,6 @@
     ]
   },
   {
-    "id": "unit_eritrea_zahlen_mehr_sentences",
-    "kind": "sentences",
-    "lexemeIds": [
-      "lex_ti_zahl_11",
-      "lex_ti_zahl_12",
-      "lex_ti_zahl_13",
-      "lex_ti_zahl_14",
-      "lex_ti_zahl_15",
-      "lex_ti_zahl_16",
-      "lex_ti_zahl_17",
-      "lex_ti_zahl_18",
-      "lex_ti_zahl_19",
-      "lex_ti_zahl_20",
-      "lex_ti_zahl_30",
-      "lex_ti_zahl_40",
-      "lex_ti_zahl_50",
-      "lex_ti_zahl_60",
-      "lex_ti_zahl_70",
-      "lex_ti_zahl_80",
-      "lex_ti_zahl_90",
-      "lex_ti_zahl_100",
-      "lex_ti_zahl_1000",
-      "lex_ti_zero",
-      "lex_ti_kemal",
-      "lex_ti_kalay",
-      "lex_ti_salsay",
-      "lex_ti_rabay",
-      "lex_ti_hamsay",
-      "lex_ti_kifli",
-      "lex_ti_nusi",
-      "lex_ti_ridfi",
-      "lex_ti_kolel",
-      "lex_ti_nikuy",
-      "lex_ti_beziH"
-    ],
-    "sentenceIds": [
-      "sen_ti_zahlen_mehr_1",
-      "sen_gen_zahl_12",
-      "sen_gen_zahl_13",
-      "sen_gen_zahl_14",
-      "sen_gen_zahl_15"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_eritrea_zahlen_mehr_listening",
     "kind": "listening",
     "lexemeIds": [

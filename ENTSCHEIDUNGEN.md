@@ -1193,3 +1193,27 @@ oder einfach raus) - bei zweifacher Nennung von "raus"/"weg" als klar geäußert
   nicht nur eine Beispiel-Lektion.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 241/241 grün (240 + 1 neuer
   Content-Validierungstest).
+
+## Etappe 28 Nachtrag 11: Einstufungstest fragt nach Sprache; Keren-"Sätze bauen" erst ab Station 10
+
+Zwei weitere Nutzeraufträge im selben Zug. Erstens (Details siehe Commit "Einstufungstest fragt
+jetzt nach Sprache"): der Test lief bisher unabhängig von der Sprache stur durch alle
+`curriculum.sections`, was ihn praktisch Amharisch-only machte, da die 6 Äthiopien-Sektionen alle vor
+jeder Eritrea-Sektion liegen und ein nicht bestandener Block den Test sofort beendet. Jetzt fragt der
+Test vorher explizit, welche Sprache eingestuft werden soll, und filtert die Sektionsliste
+entsprechend - als Nebeneffekt bleibt er automatisch mit dem aktuellen Umfang synchron, weil er nie
+eine feste Fragenliste hatte, sondern immer schon dynamisch aus den Wörtern der jeweiligen Sektion
+zog.
+
+Zweitens: dasselbe Prinzip wie bei Äthiopiens Region 1 (Nachtrag 8), jetzt auch für Eritreas erste
+Region (Keren, 44 Stationen statt Äthiopiens 7) - aber diesmal nicht die ganze Region, sondern nur
+die ersten 9 Stationen, ab Station 10 bleibt "Sätze bauen" bestehen. Konkreter Nutzerwunsch
+("station 10 sätze bauen haben"): bei einer 44-Stationen-Region wäre ein kompletter Wegfall wie bei
+Äthiopien unnötig - dort sollte es nur so lange fehlen, wie der Wortschatz noch zu frisch ist, danach
+funktioniert die Übung wieder normal.
+
+- **Gleiche Umsetzung wie bei Äthiopien:** `sentenceBuilding`-Stufe aus den ersten 9
+  Keren-Lektionsdateien entfernt (`unit_eritrea_greetings` bis `unit_eritrea_haus_mehr`), restliche
+  35 Stationen unverändert. Die zugehörigen Sätze bleiben weiterhin in
+  `listening`/`freeApplication`/`review` verdrahtet.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 242/242 grün.

@@ -44,35 +44,6 @@
     ]
   },
   {
-    "id": "unit_eritrea_family_sentences",
-    "kind": "sentenceBuilding",
-    "lexemeIds": [
-      "lex_ti_sidra",
-      "lex_ti_ade",
-      "lex_ti_abo",
-      "lex_ti_kolu",
-      "lex_ti_haw",
-      "lex_ti_hafti",
-      "lex_ti_adki",
-      "lex_ti_sebay",
-      "lex_ti_sebeyti",
-      "lex_ti_hitsan",
-      "lex_ti_sew",
-      "lex_ti_zemed"
-    ],
-    "sentenceIds": [
-      "sen_ti_haw_ade",
-      "sen_ti_hafti_abo",
-      "sen_gen_sidra",
-      "sen_gen_kolu",
-      "sen_gen_adki"
-    ],
-    "exerciseTypes": [
-      "sentenceBuild",
-      "sentenceGapChoice"
-    ]
-  },
-  {
     "id": "unit_eritrea_family_listening",
     "kind": "listening",
     "lexemeIds": [
