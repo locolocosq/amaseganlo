@@ -1000,3 +1000,60 @@ Prinzip, das `ContentRepository._collectAmharicIds` für den Fidel-Lesepfad (Eta
   436 Zeilen, bereit für einen Colab-Lauf mit der bestehenden Amharisch-Stimme. Tigrinya bekommt einen
   eigenen Export/eine eigene Stimme erst, wenn das explizit gewünscht wird.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.
+
+## Etappe 28 Nachtrag 3: 436 Amharisch-Aufnahmen eingebaut
+
+Der Nutzer hat `tool/audio_worklist.csv` durch `tool/generate_audio_colab.py` (edge-tts, weibliche
+Stimme `am-ET-MekdesNeural`) laufen lassen und `audio_output.zip` als `tool/incoming/audio_output.zip`
+abgelegt. Vor dem Einbau geprüft statt blind vertraut:
+
+- **Encoding aller 484 gelieferten Dateien per Hand geparst** (MPEG-Frame-Header, dieselbe Methode wie
+  beim ursprünglichen Fund des MPEG-2/16kHz-Bugs in Etappe 15) - alle einheitlich MPEG-1 Layer III bei
+  44100 Hz, also im sicher abspielbaren Profil. Kein Wiederauftreten des alten Bugs.
+- **436 der 484 Dateien deckten sich exakt mit der gesendeten Amharisch-Worklist** (Kreuzabgleich per
+  ID) - diese wurden nach `assets/audio/words/` kopiert. Die restlichen 48 (`lex_ti_*`, Tigrinya-
+  Wörter) wurden bewusst NICHT übernommen: unklar, mit welcher Stimme sie erzeugt wurden, und zu dem
+  Zeitpunkt gab es noch keine geklärte Tigrinya-Stimme (siehe Nachtrag 4) - lieber auslassen als
+  möglicherweise falsch ausgesprochenes Audio einbauen.
+- **`fehlende_audiodateien.md` um die jetzt vorhandenen 436 Zeilen bereinigt** - dabei ein eigenes
+  Skript-Detail gefunden und korrigiert: die 8 ältesten Zeilen (aus der allerersten Runde) hatten den
+  Dateinamen in Backticks (`` `sen_hulet_wendimoch.mp3` ``) statt im späteren Format ohne Backticks -
+  eine erste Entfernungsrunde per Regex hat die deshalb übersehen, eine zweite, gezielte Runde hat sie
+  nachträglich erfasst.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün,
+  `audio_encoding_test.dart` bestätigt weiterhin durchgängig MPEG-1.
+
+## Etappe 28 Nachtrag 4: Eigener Tigrinya-Audio-Pfad (Meta MMS statt edge-tts)
+
+Nutzerauftrag: auch für Tigrinya eine Liste vorbereiten, mit weiblicher Stimme "wie bei Amharisch".
+Vor dem Erstellen geprüft (nicht angenommen): keiner der drei großen TTS-Anbieter, die für Amharisch
+in Frage kämen, hat eine echte Tigrinya-Stimme.
+
+- **Per Websuche verifiziert, nicht aus Trainingswissen übernommen** (derselbe Vorsichtsgrundsatz wie
+  schon bei der Verifikation der Amharisch-Stimmen in Etappe 16): Azure/edge-tts, Amazon Polly und
+  Google Cloud TTS unterstützen Tigrinya alle nicht. Manche Drittanbieter-Tools "faken" Tigrinya-
+  Unterstützung, indem sie im Hintergrund die Amharisch-Stimme einsetzen - das würde Tigrinya-Text mit
+  falscher Aussprache vorlesen (andere Sprache, andere Ausspracheregeln trotz gemeinsamer Schrift),
+  kein akzeptabler Ersatz.
+- **Nutzer nach expliziter Rückfrage für Metas `facebook/mms-tts-tir`-Forschungsmodell entschieden**
+  (Alternativen waren: vorerst zurückstellen, oder ersatzweise die Amharisch-Stimme missbrauchen) - per
+  Websuche bestätigt existent (Meta AI, VITS-Architektur, dieselbe uroman-Vorverarbeitung wie das
+  bereits bekannte `facebook/mms-tts-amh`). Dasselbe Modell, das für Amharisch wegen ungewohnter
+  Betonung (überwiegend religiöse Trainingstexte) verworfen wurde - für Tigrinya aber die einzige
+  verfügbare Option mit einer echten, trainierten Stimme.
+- **`tool/generate_audio_colab_ti.py` aus dem historischen, VOR der edge-tts-Umstellung genutzten
+  MMS-Skript abgeleitet** (`git show c2bb6c2^:tool/generate_audio_colab.py`), nicht neu geschrieben -
+  dieses alte Skript hatte den MPEG-2/16kHz-Encoding-Fix (Etappe 15) bereits eingebaut, das wurde
+  1:1 übernommen statt den Bug ein drittes Mal zu riskieren.
+- **`tool/export_audio_worklist_ti_test.dart` als eigenständige Schwester-Datei** von
+  `export_audio_worklist_test.dart` (nicht als Parameter/Flag in einer gemeinsamen Datei) - dieselbe
+  "lieber getrennt als eine gemeinsame Datei mit Verzweigungen" Abwägung wie bei
+  `EthiopiaMap`/`EritreaCountryMap` (Etappe 27). Sektionszugehörigkeit (`language == 'ti'`) statt
+  ID-Präfix-Raten, exakt spiegelbildlich zur Amharisch-Variante.
+- **Ergebnis:** 2666 fehlende Tigrinya-Einträge (2001 Wörter + 665 Sätze) - deutlich mehr als bei
+  Amharisch, weil der ~2000-Wörter-Wortschatzausbau (Etappe 26 Nachtrag 2-6) nie mit Audio unterlegt
+  wurde. `tool/audio_worklist_ti.csv` + `tool/generate_audio_colab_ti.py` an den Nutzer geschickt,
+  Hinweis zur ungewissen Aussprachequalität explizit mitgegeben (Stichprobe hören vor dem Zurückschicken
+  empfohlen).
+- **Verifiziert:** `flutter analyze` (0 Probleme). Kein Testlauf des Colab-Skripts selbst möglich
+  (externer Python-/GPU-Kontext) - wie bei der Amharisch-Variante schon der Fall.
