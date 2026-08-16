@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_shqti","am":"ቅንኢ","tr":"qini'i","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"die Eifersucht","en":"jealousy","sv":"svartsjuka","nl":"jaloezie"},"emoji":"","verified":false},
+  {"id":"lex_ti_hfrti2","am":"ጣዕሳ","tr":"t'a'esa","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"die Reue","en":"regret","sv":"ånger","nl":"spijt"},"emoji":"","verified":false},
+  {"id":"lex_ti_shkr","am":"ምስጋና","tr":"misgana","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"die Dankbarkeit","en":"gratitude","sv":"tacksamhet","nl":"dankbaarheid"},"emoji":"","verified":false},
+  {"id":"lex_ti_khyd","am":"ስቓይ","tr":"siqay","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"das Leiden","en":"suffering","sv":"lidande","nl":"lijden"},"emoji":"","verified":false},
+  {"id":"lex_ti_dnget","am":"ድንጋጸ","tr":"dinigatse","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"das Mitgefühl","en":"compassion, sympathy","sv":"medkänsla","nl":"medeleven"},"emoji":"","verified":false},
+  {"id":"lex_ti_hyln","am":"ተስፋ ምቝራጽ","tr":"tesfa miquratsi","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"die Verzweiflung","en":"despair","sv":"förtvivlan","nl":"wanhoop"},"emoji":"","verified":false},
+  {"id":"lex_ti_snbti2","am":"ዕግበት","tr":"'igibet","pos":"noun","topic":"emotions_more","level":"TI","t":{"de":"die Zufriedenheit","en":"satisfaction","sv":"tillfredsställelse","nl":"tevredenheid"},"emoji":"","verified":false}
+]

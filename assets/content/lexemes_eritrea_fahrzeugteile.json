@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_mekngo","am":"ሞተር","tr":"moter","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"der Motor","en":"engine","sv":"motor","nl":"motor"},"emoji":"","verified":false},
+  {"id":"lex_ti_gm2","am":"ጎማ (መኪና)","tr":"goma mekina","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"der Reifen","en":"tire","sv":"däck","nl":"band (auto)"},"emoji":"","verified":false},
+  {"id":"lex_ti_mfth2","am":"መፍትሕ መኪና","tr":"mefithi mekina","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"der Autoschlüssel","en":"car key","sv":"bilnyckel","nl":"autosleutel"},"emoji":"","verified":false},
+  {"id":"lex_ti_msln","am":"መስኮት መኪና","tr":"meskot mekina","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"das Autofenster","en":"car window","sv":"bilfönster","nl":"autoraam"},"emoji":"","verified":false},
+  {"id":"lex_ti_bnzn","am":"ነዳዲ","tr":"nedadi","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"das Benzin, Kraftstoff","en":"fuel, gasoline","sv":"bränsle, bensin","nl":"brandstof, benzine"},"emoji":"⛽","verified":false},
+  {"id":"lex_ti_frml","am":"ፍርምላ","tr":"firmila","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"die Bremse","en":"brake","sv":"broms","nl":"rem"},"emoji":"","verified":false},
+  {"id":"lex_ti_mkzn","am":"ኣፍሪቓ ንፋስ","tr":"afriqa nifas","pos":"noun","topic":"vehicle_parts","level":"TI","t":{"de":"die Hupe","en":"horn (car)","sv":"signalhorn","nl":"claxon"},"emoji":"","verified":false}
+]

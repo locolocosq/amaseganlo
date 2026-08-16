@@ -1,0 +1,172 @@
+[
+  {
+    "id": "unit_eritrea_wetter_geologie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_muqti",
+      "lex_ti_brdti",
+      "lex_ti_ntsti",
+      "lex_ti_swus",
+      "lex_ti_hlmi2",
+      "lex_ti_hgai",
+      "lex_ti_zbti3",
+      "lex_ti_gzwi",
+      "lex_ti_zenab4",
+      "lex_ti_dhab",
+      "lex_ti_frzi",
+      "lex_ti_hydn",
+      "lex_ti_hwda",
+      "lex_ti_bereka3",
+      "lex_ti_dngya",
+      "lex_ti_hmed"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_wetter_geologie_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_muqti",
+      "lex_ti_brdti",
+      "lex_ti_ntsti",
+      "lex_ti_swus",
+      "lex_ti_hlmi2",
+      "lex_ti_hgai",
+      "lex_ti_zbti3",
+      "lex_ti_gzwi",
+      "lex_ti_zenab4",
+      "lex_ti_dhab",
+      "lex_ti_frzi",
+      "lex_ti_hydn",
+      "lex_ti_hwda",
+      "lex_ti_bereka3",
+      "lex_ti_dngya",
+      "lex_ti_hmed"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetter_geologie_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_muqti",
+      "lex_ti_brdti",
+      "lex_ti_ntsti",
+      "lex_ti_swus",
+      "lex_ti_hlmi2",
+      "lex_ti_hgai",
+      "lex_ti_zbti3",
+      "lex_ti_gzwi",
+      "lex_ti_zenab4",
+      "lex_ti_dhab",
+      "lex_ti_frzi",
+      "lex_ti_hydn",
+      "lex_ti_hwda",
+      "lex_ti_bereka3",
+      "lex_ti_dngya",
+      "lex_ti_hmed"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetter_geologie_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetter_geologie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_muqti",
+      "lex_ti_brdti",
+      "lex_ti_ntsti",
+      "lex_ti_swus",
+      "lex_ti_hlmi2",
+      "lex_ti_hgai",
+      "lex_ti_zbti3",
+      "lex_ti_gzwi",
+      "lex_ti_zenab4",
+      "lex_ti_dhab",
+      "lex_ti_frzi",
+      "lex_ti_hydn",
+      "lex_ti_hwda",
+      "lex_ti_bereka3",
+      "lex_ti_dngya",
+      "lex_ti_hmed"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetter_geologie_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetter_geologie_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_muqti",
+      "lex_ti_brdti",
+      "lex_ti_ntsti",
+      "lex_ti_swus",
+      "lex_ti_hlmi2",
+      "lex_ti_hgai",
+      "lex_ti_zbti3",
+      "lex_ti_gzwi",
+      "lex_ti_zenab4",
+      "lex_ti_dhab",
+      "lex_ti_frzi",
+      "lex_ti_hydn",
+      "lex_ti_hwda",
+      "lex_ti_bereka3",
+      "lex_ti_dngya",
+      "lex_ti_hmed"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetter_geologie_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetter_geologie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_muqti",
+      "lex_ti_brdti",
+      "lex_ti_ntsti",
+      "lex_ti_swus",
+      "lex_ti_hlmi2",
+      "lex_ti_hgai",
+      "lex_ti_zbti3",
+      "lex_ti_gzwi",
+      "lex_ti_zenab4",
+      "lex_ti_dhab",
+      "lex_ti_frzi",
+      "lex_ti_hydn",
+      "lex_ti_hwda",
+      "lex_ti_bereka3",
+      "lex_ti_dngya",
+      "lex_ti_hmed"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetter_geologie_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

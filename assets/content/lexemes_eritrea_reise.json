@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_viza","am":"ቪዛ","tr":"viza","pos":"noun","topic":"travel","level":"TI","t":{"de":"das Visum","en":"visa","sv":"visum","nl":"visum"},"emoji":"","verified":false},
+  {"id":"lex_ti_gemgm2","am":"ደረት","tr":"deret","pos":"noun","topic":"travel","level":"TI","t":{"de":"die Grenze (Übergang)","en":"border crossing","sv":"gränsövergång","nl":"grensovergang"},"emoji":"","verified":false},
+  {"id":"lex_ti_kstm","am":"ጉምሩክ","tr":"gumiruk","pos":"noun","topic":"travel","level":"TI","t":{"de":"der Zoll","en":"customs","sv":"tull","nl":"douane"},"emoji":"","verified":false},
+  {"id":"lex_ti_twri","am":"በጻሒ","tr":"betsahi","pos":"noun","topic":"travel","level":"TI","t":{"de":"der Tourist, Besucher","en":"tourist, visitor","sv":"turist, besökare","nl":"toerist, bezoeker"},"emoji":"","verified":false},
+  {"id":"lex_ti_mrgudi","am":"መራሒ ጉዕዞ","tr":"merahi gu'ezo","pos":"noun","topic":"travel","level":"TI","t":{"de":"der Reiseführer (Person)","en":"tour guide","sv":"reseguide","nl":"reisgids (persoon)"},"emoji":"","verified":false},
+  {"id":"lex_ti_khrta","am":"ካርታ","tr":"karta","pos":"noun","topic":"travel","level":"TI","t":{"de":"die Landkarte","en":"map","sv":"karta","nl":"kaart (landkaart)"},"emoji":"🗺️","verified":false}
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "unit_eritrea_wohnen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_kray",
+      "lex_ti_bealgz",
+      "lex_ti_kraygz",
+      "lex_ti_hntsa",
+      "lex_ti_apartment",
+      "lex_ti_wela",
+      "lex_ti_gozo",
+      "lex_ti_hzti2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_wohnen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_kray",
+      "lex_ti_bealgz",
+      "lex_ti_kraygz",
+      "lex_ti_hntsa",
+      "lex_ti_apartment",
+      "lex_ti_wela",
+      "lex_ti_gozo",
+      "lex_ti_hzti2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wohnen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_kray",
+      "lex_ti_bealgz",
+      "lex_ti_kraygz",
+      "lex_ti_hntsa",
+      "lex_ti_apartment",
+      "lex_ti_wela",
+      "lex_ti_gozo",
+      "lex_ti_hzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_wohnen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wohnen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_kray",
+      "lex_ti_bealgz",
+      "lex_ti_kraygz",
+      "lex_ti_hntsa",
+      "lex_ti_apartment",
+      "lex_ti_wela",
+      "lex_ti_gozo",
+      "lex_ti_hzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_wohnen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wohnen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_kray",
+      "lex_ti_bealgz",
+      "lex_ti_kraygz",
+      "lex_ti_hntsa",
+      "lex_ti_apartment",
+      "lex_ti_wela",
+      "lex_ti_gozo",
+      "lex_ti_hzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_wohnen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wohnen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_kray",
+      "lex_ti_bealgz",
+      "lex_ti_kraygz",
+      "lex_ti_hntsa",
+      "lex_ti_apartment",
+      "lex_ti_wela",
+      "lex_ti_gozo",
+      "lex_ti_hzti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_wohnen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

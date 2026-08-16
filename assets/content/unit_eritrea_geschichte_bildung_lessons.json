@@ -1,0 +1,154 @@
+[
+  {
+    "id": "unit_eritrea_geschichte_bildung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_hbrsh",
+      "lex_ti_kolnl",
+      "lex_ti_shhab",
+      "lex_ti_shhid",
+      "lex_ti_zbn",
+      "lex_ti_tzkr",
+      "lex_ti_qdmti",
+      "lex_ti_klasi",
+      "lex_ti_drgi",
+      "lex_ti_dpluma",
+      "lex_ti_dgree",
+      "lex_ti_msml",
+      "lex_ti_shhda2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_geschichte_bildung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_hbrsh",
+      "lex_ti_kolnl",
+      "lex_ti_shhab",
+      "lex_ti_shhid",
+      "lex_ti_zbn",
+      "lex_ti_tzkr",
+      "lex_ti_qdmti",
+      "lex_ti_klasi",
+      "lex_ti_drgi",
+      "lex_ti_dpluma",
+      "lex_ti_dgree",
+      "lex_ti_msml",
+      "lex_ti_shhda2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_geschichte_bildung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_hbrsh",
+      "lex_ti_kolnl",
+      "lex_ti_shhab",
+      "lex_ti_shhid",
+      "lex_ti_zbn",
+      "lex_ti_tzkr",
+      "lex_ti_qdmti",
+      "lex_ti_klasi",
+      "lex_ti_drgi",
+      "lex_ti_dpluma",
+      "lex_ti_dgree",
+      "lex_ti_msml",
+      "lex_ti_shhda2"
+    ],
+    "sentenceIds": [
+      "sen_ti_geschichte_bildung_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_geschichte_bildung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_hbrsh",
+      "lex_ti_kolnl",
+      "lex_ti_shhab",
+      "lex_ti_shhid",
+      "lex_ti_zbn",
+      "lex_ti_tzkr",
+      "lex_ti_qdmti",
+      "lex_ti_klasi",
+      "lex_ti_drgi",
+      "lex_ti_dpluma",
+      "lex_ti_dgree",
+      "lex_ti_msml",
+      "lex_ti_shhda2"
+    ],
+    "sentenceIds": [
+      "sen_ti_geschichte_bildung_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_geschichte_bildung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_hbrsh",
+      "lex_ti_kolnl",
+      "lex_ti_shhab",
+      "lex_ti_shhid",
+      "lex_ti_zbn",
+      "lex_ti_tzkr",
+      "lex_ti_qdmti",
+      "lex_ti_klasi",
+      "lex_ti_drgi",
+      "lex_ti_dpluma",
+      "lex_ti_dgree",
+      "lex_ti_msml",
+      "lex_ti_shhda2"
+    ],
+    "sentenceIds": [
+      "sen_ti_geschichte_bildung_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_geschichte_bildung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_hbrsh",
+      "lex_ti_kolnl",
+      "lex_ti_shhab",
+      "lex_ti_shhid",
+      "lex_ti_zbn",
+      "lex_ti_tzkr",
+      "lex_ti_qdmti",
+      "lex_ti_klasi",
+      "lex_ti_drgi",
+      "lex_ti_dpluma",
+      "lex_ti_dgree",
+      "lex_ti_msml",
+      "lex_ti_shhda2"
+    ],
+    "sentenceIds": [
+      "sen_ti_geschichte_bildung_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

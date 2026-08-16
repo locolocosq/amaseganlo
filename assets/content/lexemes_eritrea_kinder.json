@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_arat2","am":"ዓራት ህጻን","tr":"'arat hitsan","pos":"noun","topic":"childcare","level":"TI","t":{"de":"das Kinderbett","en":"crib","sv":"barnsäng","nl":"wieg"},"emoji":"","verified":false},
+  {"id":"lex_ti_gwatra","am":"ጋት ህጻን","tr":"gat hitsan","pos":"noun","topic":"childcare","level":"TI","t":{"de":"der Kinderwagen","en":"stroller","sv":"barnvagn","nl":"kinderwagen"},"emoji":"","verified":false},
+  {"id":"lex_ti_shukhia","am":"ጫፍ ጡብ","tr":"chaf t'ub","pos":"noun","topic":"childcare","level":"TI","t":{"de":"der Schnuller","en":"pacifier","sv":"napp","nl":"speen"},"emoji":"","verified":false},
+  {"id":"lex_ti_tsawta","am":"ባምቡላ","tr":"bambula","pos":"noun","topic":"childcare","level":"TI","t":{"de":"die Puppe","en":"doll","sv":"docka","nl":"pop"},"emoji":"🪆","verified":false},
+  {"id":"lex_ti_kchna","am":"ኪንደርጋርተን","tr":"kindergarten","pos":"noun","topic":"childcare","level":"TI","t":{"de":"der Kindergarten","en":"kindergarten","sv":"förskola","nl":"kleuterschool"},"emoji":"","verified":false},
+  {"id":"lex_ti_hzti4","am":"ኣላዪት ህጻን","tr":"alayit hitsan","pos":"noun","topic":"childcare","level":"TI","t":{"de":"das Kindermädchen, die Babysitterin","en":"nanny, babysitter","sv":"barnvakt","nl":"oppas"},"emoji":"","verified":false}
+]

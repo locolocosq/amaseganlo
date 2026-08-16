@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_dnkya","am":"ፈራዲ ጸወታ","tr":"feradi tsewuta","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"der Schiedsrichter","en":"referee","sv":"domare (sport)","nl":"scheidsrechter"},"emoji":"","verified":false},
+  {"id":"lex_ti_gol","am":"ጎል","tr":"gol","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"das Tor (Sport)","en":"goal (sport)","sv":"mål (sport)","nl":"doelpunt"},"emoji":"⚽","verified":false},
+  {"id":"lex_ti_neqti","am":"ነጥቢ (ጸወታ)","tr":"netbi tsewuta","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"der Punkt (Spiel)","en":"point (game)","sv":"poäng","nl":"punt (spel)"},"emoji":"","verified":false},
+  {"id":"lex_ti_gwadl","am":"ጋንታ ተጻዋቲ","tr":"ganta tetsawati","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"der Spieler","en":"player","sv":"spelare","nl":"speler"},"emoji":"","verified":false},
+  {"id":"lex_ti_medl","am":"ሜዳልያ","tr":"medalya","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"die Medaille","en":"medal","sv":"medalj","nl":"medaille"},"emoji":"🏅","verified":false},
+  {"id":"lex_ti_stdim","am":"ስታዲየም","tr":"stadyem","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"das Stadion","en":"stadium","sv":"stadion","nl":"stadion"},"emoji":"🏟️","verified":false},
+  {"id":"lex_ti_atlt","am":"ኣትሌት","tr":"atlet","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"der Athlet, Sportler","en":"athlete","sv":"atlet, idrottare","nl":"atleet, sporter"},"emoji":"🏃","verified":false},
+  {"id":"lex_ti_mrqti","am":"ልምምድ","tr":"limimid","pos":"noun","topic":"sports_more","level":"TI","t":{"de":"das Training","en":"training","sv":"träning","nl":"training"},"emoji":"","verified":false}
+]

@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_ntsri","am":"መርመራ ስነ ፍልጠት","tr":"mermera sine filitet","pos":"noun","topic":"science","level":"TI","t":{"de":"das Experiment","en":"experiment","sv":"experiment","nl":"experiment"},"emoji":"🧪","verified":false},
+  {"id":"lex_ti_thyri","am":"ቲዮሪ","tr":"tiyori","pos":"noun","topic":"science","level":"TI","t":{"de":"die Theorie","en":"theory","sv":"teori","nl":"theorie"},"emoji":"","verified":false},
+  {"id":"lex_ti_hqyq","am":"ሓቂ","tr":"haqi","pos":"noun","topic":"science","level":"TI","t":{"de":"die Wahrheit, Tatsache","en":"truth, fact","sv":"sanning, faktum","nl":"waarheid, feit"},"emoji":"","verified":false},
+  {"id":"lex_ti_mkina3","am":"ማይክሮስኮፕ","tr":"maykroskop","pos":"noun","topic":"science","level":"TI","t":{"de":"das Mikroskop","en":"microscope","sv":"mikroskop","nl":"microscoop"},"emoji":"🔬","verified":false},
+  {"id":"lex_ti_tlskp","am":"ተለስኮፕ","tr":"teleskop","pos":"noun","topic":"science","level":"TI","t":{"de":"das Teleskop","en":"telescope","sv":"teleskop","nl":"telescoop"},"emoji":"🔭","verified":false},
+  {"id":"lex_ti_khymi","am":"ረቂቕ ህዋስ","tr":"reqiq hiwas","pos":"noun","topic":"science","level":"TI","t":{"de":"das Bakterium, der Mikroorganismus","en":"bacteria, microorganism","sv":"bakterie","nl":"bacterie"},"emoji":"🦠","verified":false}
+]

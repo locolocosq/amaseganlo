@@ -1,0 +1,10 @@
+[
+  {"id":"lex_ti_kzu2","am":"ዝበለጸ","tr":"zibelet'se","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"besser","en":"better","sv":"bättre","nl":"beter"},"emoji":"","verified":false},
+  {"id":"lex_ti_hzau","am":"ዝሓሸ","tr":"zihashe","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"am besten","en":"best","sv":"bäst","nl":"best"},"emoji":"","verified":false},
+  {"id":"lex_ti_hmqi","am":"ዝኸፍአ","tr":"zikhef'e","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"schlechter, schlimmer","en":"worse","sv":"sämre","nl":"slechter"},"emoji":"","verified":false},
+  {"id":"lex_ti_zabi","am":"ዝገዘፈ","tr":"zigezefe (bzhi)","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"größer","en":"bigger","sv":"större","nl":"groter"},"emoji":"","verified":false},
+  {"id":"lex_ti_nquk","am":"ዝንኣሰ","tr":"zini'ase","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"kleiner","en":"smaller","sv":"mindre","nl":"kleiner"},"emoji":"","verified":false},
+  {"id":"lex_ti_bzu2","am":"ዝበዝሐ","tr":"zibezhe","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"mehr","en":"more","sv":"mer","nl":"meer"},"emoji":"","verified":false},
+  {"id":"lex_ti_nqli","am":"ዝወሓደ","tr":"ziwehade","pos":"adjective","topic":"comparison","level":"TI","t":{"de":"weniger","en":"less","sv":"mindre (antal)","nl":"minder"},"emoji":"","verified":false},
+  {"id":"lex_ti_mrei","am":"ማዕረ ማዕረ","tr":"ma'ere ma'ere","pos":"adverb","topic":"comparison","level":"TI","t":{"de":"gleichermaßen","en":"equally","sv":"lika mycket","nl":"evenzeer"},"emoji":"","verified":false}
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_eritrea_koerperteile_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_riah",
+      "lex_ti_kwlyt",
+      "lex_ti_hymt",
+      "lex_ti_kbdi3",
+      "lex_ti_dmg",
+      "lex_ti_awzf",
+      "lex_ti_tsgri3",
+      "lex_ti_qrni",
+      "lex_ti_agmi",
+      "lex_ti_qrbti2",
+      "lex_ti_hbrti2",
+      "lex_ti_agln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_koerperteile_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_riah",
+      "lex_ti_kwlyt",
+      "lex_ti_hymt",
+      "lex_ti_kbdi3",
+      "lex_ti_dmg",
+      "lex_ti_awzf",
+      "lex_ti_tsgri3",
+      "lex_ti_qrni",
+      "lex_ti_agmi",
+      "lex_ti_qrbti2",
+      "lex_ti_hbrti2",
+      "lex_ti_agln"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_koerperteile_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_riah",
+      "lex_ti_kwlyt",
+      "lex_ti_hymt",
+      "lex_ti_kbdi3",
+      "lex_ti_dmg",
+      "lex_ti_awzf",
+      "lex_ti_tsgri3",
+      "lex_ti_qrni",
+      "lex_ti_agmi",
+      "lex_ti_qrbti2",
+      "lex_ti_hbrti2",
+      "lex_ti_agln"
+    ],
+    "sentenceIds": [
+      "sen_ti_koerperteile_mehr_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_koerperteile_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_riah",
+      "lex_ti_kwlyt",
+      "lex_ti_hymt",
+      "lex_ti_kbdi3",
+      "lex_ti_dmg",
+      "lex_ti_awzf",
+      "lex_ti_tsgri3",
+      "lex_ti_qrni",
+      "lex_ti_agmi",
+      "lex_ti_qrbti2",
+      "lex_ti_hbrti2",
+      "lex_ti_agln"
+    ],
+    "sentenceIds": [
+      "sen_ti_koerperteile_mehr_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_koerperteile_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_riah",
+      "lex_ti_kwlyt",
+      "lex_ti_hymt",
+      "lex_ti_kbdi3",
+      "lex_ti_dmg",
+      "lex_ti_awzf",
+      "lex_ti_tsgri3",
+      "lex_ti_qrni",
+      "lex_ti_agmi",
+      "lex_ti_qrbti2",
+      "lex_ti_hbrti2",
+      "lex_ti_agln"
+    ],
+    "sentenceIds": [
+      "sen_ti_koerperteile_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_koerperteile_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_riah",
+      "lex_ti_kwlyt",
+      "lex_ti_hymt",
+      "lex_ti_kbdi3",
+      "lex_ti_dmg",
+      "lex_ti_awzf",
+      "lex_ti_tsgri3",
+      "lex_ti_qrni",
+      "lex_ti_agmi",
+      "lex_ti_qrbti2",
+      "lex_ti_hbrti2",
+      "lex_ti_agln"
+    ],
+    "sentenceIds": [
+      "sen_ti_koerperteile_mehr_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

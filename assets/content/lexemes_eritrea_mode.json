@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_fshni","am":"ፋሽን","tr":"fashin","pos":"noun","topic":"fashion","level":"TI","t":{"de":"die Mode","en":"fashion","sv":"mode","nl":"mode"},"emoji":"","verified":false},
+  {"id":"lex_ti_stayl","am":"ቅዲ","tr":"qidi","pos":"noun","topic":"fashion","level":"TI","t":{"de":"der Stil","en":"style","sv":"stil","nl":"stijl"},"emoji":"","verified":false},
+  {"id":"lex_ti_msfi","am":"ልክዕ ዝኾነ","tr":"lik'i zikhone","pos":"adjective","topic":"fashion","level":"TI","t":{"de":"passend, richtig (Größe)","en":"fitting, right (size)","sv":"passande, rätt (storlek)","nl":"passend, juist (maat)"},"emoji":"","verified":false},
+  {"id":"lex_ti_frti","am":"ገፊሕ","tr":"gefih","pos":"adjective","topic":"fashion","level":"TI","t":{"de":"weit, locker (Kleidung)","en":"loose, baggy (clothing)","sv":"vid, lös (kläder)","nl":"wijd, los (kleding)"},"emoji":"","verified":false},
+  {"id":"lex_ti_tsbabi","am":"ጽኑዕ (ክዳን)","tr":"tsinu'i kidan","pos":"adjective","topic":"fashion","level":"TI","t":{"de":"eng (Kleidung)","en":"tight (clothing)","sv":"tight (kläder)","nl":"strak (kleding)"},"emoji":"","verified":false},
+  {"id":"lex_ti_lbsi","am":"ምኽዳን","tr":"mikhidan","pos":"verb","topic":"fashion","level":"TI","t":{"de":"anziehen (Kleidung)","en":"to wear, put on","sv":"ta på sig (kläder)","nl":"aantrekken (kleding)"},"emoji":"","verified":false},
+  {"id":"lex_ti_wkti","am":"ኣውጽእ (ክዳን)","tr":"awts'i kidan","pos":"verb","topic":"fashion","level":"TI","t":{"de":"ausziehen (Kleidung)","en":"to take off (clothing)","sv":"ta av sig (kläder)","nl":"uittrekken (kleding)"},"emoji":"","verified":false}
+]

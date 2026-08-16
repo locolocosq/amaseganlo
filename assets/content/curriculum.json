@@ -207,7 +207,40 @@
     "lexemes_eritrea_verkehr.json",
     "lexemes_eritrea_weltraum.json",
     "lexemes_eritrea_werkzeuge.json",
-    "lexemes_eritrea_zeit.json"
+    "lexemes_eritrea_zeit.json",
+    "lexemes_eritrea_arbeit.json",
+    "lexemes_eritrea_astronomie2.json",
+    "lexemes_eritrea_beziehungen.json",
+    "lexemes_eritrea_bildung.json",
+    "lexemes_eritrea_buerobedarf.json",
+    "lexemes_eritrea_charakter.json",
+    "lexemes_eritrea_dialog.json",
+    "lexemes_eritrea_emotionen2.json",
+    "lexemes_eritrea_fahrzeugteile.json",
+    "lexemes_eritrea_feste.json",
+    "lexemes_eritrea_finanzen.json",
+    "lexemes_eritrea_geologie.json",
+    "lexemes_eritrea_geometrie.json",
+    "lexemes_eritrea_geschichte.json",
+    "lexemes_eritrea_gesundheit2.json",
+    "lexemes_eritrea_insekten.json",
+    "lexemes_eritrea_kinder.json",
+    "lexemes_eritrea_kochen.json",
+    "lexemes_eritrea_koerperteile2.json",
+    "lexemes_eritrea_kommunikation.json",
+    "lexemes_eritrea_mathematik.json",
+    "lexemes_eritrea_mode.json",
+    "lexemes_eritrea_musik.json",
+    "lexemes_eritrea_notfall.json",
+    "lexemes_eritrea_pflanzen.json",
+    "lexemes_eritrea_recht.json",
+    "lexemes_eritrea_reise.json",
+    "lexemes_eritrea_sport2.json",
+    "lexemes_eritrea_vergleich.json",
+    "lexemes_eritrea_voegel.json",
+    "lexemes_eritrea_wetter.json",
+    "lexemes_eritrea_wissenschaft.json",
+    "lexemes_eritrea_wohnen.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -366,7 +399,8 @@
     "sentences_safari_frau_mann3.json",
     "sentences_safari_verben_possessiv3.json",
     "sentences_eritrea.json",
-    "sentences_eritrea_mehr.json"
+    "sentences_eritrea_mehr.json",
+    "sentences_eritrea_mehr2.json"
   ],
   "sections": [
     {
@@ -640,7 +674,24 @@
         "unit_eritrea_landwirtschaft_werkzeuge",
         "unit_eritrea_materialien_allgemein",
         "unit_eritrea_phrasen_ausrufe",
-        "unit_eritrea_adverbien_mehr"
+        "unit_eritrea_adverbien_mehr",
+        "unit_eritrea_koerperteile_mehr",
+        "unit_eritrea_finanzen_arbeit",
+        "unit_eritrea_fahrzeuge_buero",
+        "unit_eritrea_musik_feste",
+        "unit_eritrea_charakter_vergleich",
+        "unit_eritrea_wetter_geologie",
+        "unit_eritrea_recht_notfall",
+        "unit_eritrea_kommunikation_dialog",
+        "unit_eritrea_insekten_voegel",
+        "unit_eritrea_geschichte_bildung",
+        "unit_eritrea_gesundheit_kinder",
+        "unit_eritrea_sport_reise",
+        "unit_eritrea_mathematik_mehr",
+        "unit_eritrea_mode_pflanzen",
+        "unit_eritrea_kochen_wissenschaft",
+        "unit_eritrea_beziehungen_emotionen",
+        "unit_eritrea_wohnen"
       ]
     }
   ],
@@ -2997,6 +3048,227 @@
       },
       "topic": "adverbs_more",
       "lessonFile": "unit_eritrea_adverbien_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_koerperteile_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Körperteile (mehr)",
+        "en": "Body Parts (more)",
+        "sv": "Kroppsdelar (mer)",
+        "nl": "Lichaamsdelen (meer)"
+      },
+      "topic": "body_parts_more",
+      "lessonFile": "unit_eritrea_koerperteile_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_finanzen_arbeit",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Finanzen & Arbeit",
+        "en": "Finance & Work",
+        "sv": "Ekonomi & Arbete",
+        "nl": "Financiën & Werk"
+      },
+      "topic": "finance_work",
+      "lessonFile": "unit_eritrea_finanzen_arbeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_fahrzeuge_buero",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Fahrzeugteile & Bürobedarf",
+        "en": "Vehicle Parts & Office Supplies",
+        "sv": "Fordonsdelar & Kontorsmaterial",
+        "nl": "Voertuigonderdelen & Kantoorbenodigdheden"
+      },
+      "topic": "vehicles_office",
+      "lessonFile": "unit_eritrea_fahrzeuge_buero_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_musik_feste",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Musik & Feste",
+        "en": "Music & Festivals",
+        "sv": "Musik & Högtider",
+        "nl": "Muziek & Feesten"
+      },
+      "topic": "music_festivals",
+      "lessonFile": "unit_eritrea_musik_feste_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_charakter_vergleich",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Charakter & Vergleiche",
+        "en": "Character & Comparisons",
+        "sv": "Karaktär & Jämförelser",
+        "nl": "Karakter & Vergelijkingen"
+      },
+      "topic": "character_comparison",
+      "lessonFile": "unit_eritrea_charakter_vergleich_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wetter_geologie",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Wetter & Geologie",
+        "en": "Weather & Geology",
+        "sv": "Väder & Geologi",
+        "nl": "Weer & Geologie"
+      },
+      "topic": "weather_geology",
+      "lessonFile": "unit_eritrea_wetter_geologie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_recht_notfall",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Recht & Notfälle",
+        "en": "Law & Emergencies",
+        "sv": "Rätt & Nödsituationer",
+        "nl": "Recht & Noodgevallen"
+      },
+      "topic": "law_emergency",
+      "lessonFile": "unit_eritrea_recht_notfall_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kommunikation_dialog",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Kommunikation & Dialog",
+        "en": "Communication & Dialogue",
+        "sv": "Kommunikation & Dialog",
+        "nl": "Communicatie & Dialoog"
+      },
+      "topic": "communication_dialogue",
+      "lessonFile": "unit_eritrea_kommunikation_dialog_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_insekten_voegel",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Insekten & Vögel",
+        "en": "Insects & Birds",
+        "sv": "Insekter & Fåglar",
+        "nl": "Insecten & Vogels"
+      },
+      "topic": "insects_birds",
+      "lessonFile": "unit_eritrea_insekten_voegel_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_geschichte_bildung",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Geschichte & Bildung",
+        "en": "History & Education",
+        "sv": "Historia & Utbildning",
+        "nl": "Geschiedenis & Onderwijs"
+      },
+      "topic": "history_education",
+      "lessonFile": "unit_eritrea_geschichte_bildung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gesundheit_kinder",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Gesundheit & Kinder (mehr)",
+        "en": "Health & Children (more)",
+        "sv": "Hälsa & Barn (mer)",
+        "nl": "Gezondheid & Kinderen (meer)"
+      },
+      "topic": "health_children",
+      "lessonFile": "unit_eritrea_gesundheit_kinder_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sport_reise",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Sport & Reisen (mehr)",
+        "en": "Sports & Travel (more)",
+        "sv": "Sport & Resor (mer)",
+        "nl": "Sport & Reizen (meer)"
+      },
+      "topic": "sports_travel",
+      "lessonFile": "unit_eritrea_sport_reise_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_mathematik_mehr",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Mathematik & Astronomie (mehr)",
+        "en": "Math & Astronomy (more)",
+        "sv": "Matematik & Astronomi (mer)",
+        "nl": "Wiskunde & Astronomie (meer)"
+      },
+      "topic": "math_astronomy",
+      "lessonFile": "unit_eritrea_mathematik_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_mode_pflanzen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Mode & Pflanzen",
+        "en": "Fashion & Plants",
+        "sv": "Mode & Växter",
+        "nl": "Mode & Planten"
+      },
+      "topic": "fashion_plants",
+      "lessonFile": "unit_eritrea_mode_pflanzen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kochen_wissenschaft",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Kochen & Wissenschaft",
+        "en": "Cooking & Science",
+        "sv": "Matlagning & Vetenskap",
+        "nl": "Koken & Wetenschap"
+      },
+      "topic": "cooking_science",
+      "lessonFile": "unit_eritrea_kochen_wissenschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_beziehungen_emotionen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Beziehungen & Gefühle (mehr)",
+        "en": "Relationships & Emotions (more)",
+        "sv": "Relationer & Känslor (mer)",
+        "nl": "Relaties & Emoties (meer)"
+      },
+      "topic": "relationships_emotions",
+      "lessonFile": "unit_eritrea_beziehungen_emotionen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wohnen",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Wohnen",
+        "en": "Housing",
+        "sv": "Boende",
+        "nl": "Wonen"
+      },
+      "topic": "housing",
+      "lessonFile": "unit_eritrea_wohnen_lessons.json"
     }
   ]
 }

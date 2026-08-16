@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_mnkm","am":"ሓቅኻ ኢኻ","tr":"haqka ikha","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"du hast recht (zu einem Mann)","en":"you're right (to a man)","sv":"du har rätt (till en man)","nl":"je hebt gelijk (tegen een man)"},"emoji":"","verified":false},
+  {"id":"lex_ti_kdlm","am":"ኣይመስለንን","tr":"aymeslenin","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"ich glaube nicht","en":"I don't think so","sv":"jag tror inte det","nl":"ik denk het niet"},"emoji":"","verified":false},
+  {"id":"lex_ti_mgbani","am":"ይመስለኒ","tr":"yimeslegni","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"ich denke, glaube","en":"I think, I believe","sv":"jag tror","nl":"ik denk"},"emoji":"","verified":false},
+  {"id":"lex_ti_frdal","am":"ርግጸኛ እየ","tr":"rigitsegna iye","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"ich bin sicher","en":"I'm sure","sv":"jag är säker","nl":"ik ben zeker"},"emoji":"","verified":false},
+  {"id":"lex_ti_kdyzu","am":"ኣይፈልጥን እየ","tr":"ayfelit'in iye","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"ich weiß nicht","en":"I don't know","sv":"jag vet inte","nl":"ik weet het niet"},"emoji":"","verified":false},
+  {"id":"lex_ti_dgmlyu","am":"ደግም'ዶ ትኽእል","tr":"degim'do tikh'il","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"kannst du wiederholen? (zu einem Mann)","en":"can you repeat? (to a man)","sv":"kan du upprepa? (till en man)","nl":"kun je herhalen? (tegen een man)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bqlm","am":"ብቐስታ ተዛረብ","tr":"biqesta tezareb","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"sprich langsamer (zu einem Mann)","en":"speak slower (to a man)","sv":"prata långsammare (till en man)","nl":"spreek langzamer (tegen een man)"},"emoji":"","verified":false},
+  {"id":"lex_ti_algbn","am":"ኣይገባእንን","tr":"aygeba'enin","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"ich verstehe nicht (Alt.)","en":"I don't understand (alt.)","sv":"jag förstår inte (alt.)","nl":"ik begrijp het niet (alt.)"},"emoji":"","verified":false},
+  {"id":"lex_ti_bqlkm","am":"ብኸመይ ትብሎ","tr":"bikhemey tibilo","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"wie sagt man das?","en":"how do you say that?","sv":"hur säger man det?","nl":"hoe zeg je dat?"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntyzntkm","am":"እንታይ ማለት'ዩ","tr":"intay malet'yu","pos":"phrase","topic":"dialogue","level":"TI","t":{"de":"was bedeutet das?","en":"what does that mean?","sv":"vad betyder det?","nl":"wat betekent dat?"},"emoji":"","verified":false}
+]

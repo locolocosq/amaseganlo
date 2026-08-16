@@ -1,0 +1,7 @@
+[
+  {"id":"lex_ti_mlyni","am":"ሚልዮን","tr":"milyon","pos":"number","topic":"astronomy_more","level":"TI","t":{"de":"die Million","en":"million","sv":"miljon","nl":"miljoen"},"emoji":"","verified":false},
+  {"id":"lex_ti_blyni","am":"ቢልዮን","tr":"bilyon","pos":"number","topic":"astronomy_more","level":"TI","t":{"de":"die Milliarde","en":"billion","sv":"miljard","nl":"miljard"},"emoji":"","verified":false},
+  {"id":"lex_ti_sygni","am":"ምልክት ናይ ኮኸብ","tr":"milikit nay kokeb","pos":"noun","topic":"astronomy_more","level":"TI","t":{"de":"das Sternzeichen","en":"zodiac sign","sv":"stjärntecken","nl":"sterrenbeeld (astrologie)"},"emoji":"","verified":false},
+  {"id":"lex_ti_orbt","am":"ዙረት","tr":"zuret","pos":"noun","topic":"astronomy_more","level":"TI","t":{"de":"die Umlaufbahn, Umdrehung","en":"orbit, rotation","sv":"omloppsbana","nl":"baan, omwenteling"},"emoji":"","verified":false},
+  {"id":"lex_ti_krzr","am":"ብርሃን ኮኸብ","tr":"birhan kokeb","pos":"noun","topic":"astronomy_more","level":"TI","t":{"de":"das Sternenlicht","en":"starlight","sv":"stjärnljus","nl":"sterrenlicht"},"emoji":"","verified":false}
+]

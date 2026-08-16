@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_anqhu","am":"ኣንቋቑሖ","tr":"anquaquho","pos":"noun","topic":"birds","level":"TI","t":{"de":"das Straußenei","en":"ostrich egg","sv":"struts-ägg","nl":"struisvogelei"},"emoji":"","verified":false},
+  {"id":"lex_ti_shrnq","am":"ሰርኒቕ","tr":"sernik","pos":"noun","topic":"birds","level":"TI","t":{"de":"der Strauß","en":"ostrich","sv":"struts","nl":"struisvogel"},"emoji":"🦩","verified":false},
+  {"id":"lex_ti_zrafu","am":"በጨቐ","tr":"becheqe","pos":"noun","topic":"birds","level":"TI","t":{"de":"der Papagei","en":"parrot","sv":"papegoja","nl":"papegaai"},"emoji":"🦜","verified":false},
+  {"id":"lex_ti_bwmi","am":"ጉንዲ","tr":"gundi","pos":"noun","topic":"birds","level":"TI","t":{"de":"die Eule","en":"owl","sv":"uggla","nl":"uil"},"emoji":"🦉","verified":false},
+  {"id":"lex_ti_sqrn","am":"ስዉር ዑፍ","tr":"siwur 'uf","pos":"noun","topic":"birds","level":"TI","t":{"de":"der Falke","en":"falcon","sv":"falk","nl":"valk"},"emoji":"🦅","verified":false},
+  {"id":"lex_ti_nsti","am":"ንስሪ","tr":"nisri","pos":"noun","topic":"birds","level":"TI","t":{"de":"der Geier","en":"vulture","sv":"gam","nl":"gier"},"emoji":"","verified":false},
+  {"id":"lex_ti_qwqha","am":"ደርሆ በረኻ","tr":"derho bereka","pos":"noun","topic":"birds","level":"TI","t":{"de":"das Perlhuhn","en":"guinea fowl","sv":"pärlhöna","nl":"parelhoen"},"emoji":"","verified":false}
+]

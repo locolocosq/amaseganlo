@@ -1,0 +1,12 @@
+[
+  {"id":"lex_ti_wgni2","am":"ዘተ","tr":"zete","pos":"noun","topic":"communication","level":"TI","t":{"de":"das Gespräch","en":"conversation","sv":"samtal","nl":"gesprek"},"emoji":"","verified":false},
+  {"id":"lex_ti_krbi2","am":"ክትዕ","tr":"kitit'i","pos":"noun","topic":"communication","level":"TI","t":{"de":"die Diskussion, Debatte","en":"discussion, debate","sv":"diskussion","nl":"discussie"},"emoji":"","verified":false},
+  {"id":"lex_ti_nqfi","am":"ምኽሪ","tr":"mikhiri","pos":"noun","topic":"communication","level":"TI","t":{"de":"der Rat, Ratschlag","en":"advice","sv":"råd","nl":"advies"},"emoji":"","verified":false},
+  {"id":"lex_ti_wed2","am":"ውሳነ","tr":"wisane","pos":"noun","topic":"communication","level":"TI","t":{"de":"die Entscheidung","en":"decision","sv":"beslut","nl":"beslissing"},"emoji":"","verified":false},
+  {"id":"lex_ti_hbrti3","am":"ስምምዕ","tr":"simimi'i","pos":"noun","topic":"communication","level":"TI","t":{"de":"die Vereinbarung, Zustimmung","en":"agreement","sv":"överenskommelse","nl":"overeenkomst"},"emoji":"","verified":false},
+  {"id":"lex_ti_khli","am":"ካሕዲ","tr":"kahidi","pos":"noun","topic":"communication","level":"TI","t":{"de":"die Ablehnung, Verleugnung","en":"refusal, denial","sv":"avslag, förnekelse","nl":"weigering, ontkenning"},"emoji":"","verified":false},
+  {"id":"lex_ti_pms","am":"ትእዛዝ (ትእዛዝ ምሃብ)","tr":"ti'izaz mihab","pos":"noun","topic":"communication","level":"TI","t":{"de":"der Befehl, die Anweisung","en":"command, instruction","sv":"kommando, instruktion","nl":"bevel, instructie"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntsu3","am":"መልእኽቲ (ደብዳበ)","tr":"mel'ikti debdabe","pos":"noun","topic":"communication","level":"TI","t":{"de":"der Brief","en":"letter","sv":"brev","nl":"brief"},"emoji":"✉️","verified":false},
+  {"id":"lex_ti_prss","am":"ጋዜጣ","tr":"gazeta","pos":"noun","topic":"communication","level":"TI","t":{"de":"die Zeitung","en":"newspaper","sv":"tidning","nl":"krant"},"emoji":"📰","verified":false},
+  {"id":"lex_ti_zena2","am":"ዜና","tr":"zena","pos":"noun","topic":"communication","level":"TI","t":{"de":"die Nachrichten","en":"news","sv":"nyheter","nl":"nieuws"},"emoji":"","verified":false}
+]

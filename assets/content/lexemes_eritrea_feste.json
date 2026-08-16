@@ -1,0 +1,8 @@
+[
+  {"id":"lex_ti_meskel","am":"መስቀል","tr":"meskel","pos":"noun","topic":"holidays","level":"TI","t":{"de":"Meskel (Kreuzfest)","en":"Meskel (Finding of the Cross festival)","sv":"Meskel (korsfest)","nl":"Meskel (kruisfeest)"},"emoji":"","verified":false},
+  {"id":"lex_ti_timqet","am":"ጥምቀት","tr":"t'imqet","pos":"noun","topic":"holidays","level":"TI","t":{"de":"Timkat (Taufe/Epiphanias)","en":"Timkat (Epiphany)","sv":"Timkat (trettondagen)","nl":"Timkat (Driekoningen)"},"emoji":"","verified":false},
+  {"id":"lex_ti_addshamet","am":"ርእሰ ዓመት","tr":"ri'ise 'amet","pos":"noun","topic":"holidays","level":"TI","t":{"de":"Neujahr","en":"New Year","sv":"nyår","nl":"nieuwjaar"},"emoji":"🎊","verified":false},
+  {"id":"lex_ti_eid","am":"ዒድ","tr":"'id","pos":"noun","topic":"holidays","level":"TI","t":{"de":"Eid (islamisches Fest)","en":"Eid (Islamic holiday)","sv":"Eid (islamisk högtid)","nl":"Eid (islamitisch feest)"},"emoji":"","verified":false},
+  {"id":"lex_ti_natsnetbal","am":"በዓል ናጽነት","tr":"be'al natsinet","pos":"noun","topic":"holidays","level":"TI","t":{"de":"Unabhängigkeitstag","en":"Independence Day","sv":"självständighetsdag","nl":"onafhankelijkheidsdag"},"emoji":"🎉","verified":false},
+  {"id":"lex_ti_shhbal","am":"በዓል ሰውራ","tr":"be'al sewra","pos":"noun","topic":"holidays","level":"TI","t":{"de":"Revolutionstag","en":"Revolution Day","sv":"revolutionsdag","nl":"revolutiedag"},"emoji":"","verified":false}
+]

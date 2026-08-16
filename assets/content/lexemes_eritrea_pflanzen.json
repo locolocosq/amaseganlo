@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_selti","am":"ብቝልቁል","tr":"biqulqul","pos":"noun","topic":"plants","level":"TI","t":{"de":"der Kaktus","en":"cactus","sv":"kaktus","nl":"cactus"},"emoji":"🌵","verified":false},
+  {"id":"lex_ti_qwrhi","am":"ስረሮ","tr":"sirero","pos":"noun","topic":"plants","level":"TI","t":{"de":"die Wurzel","en":"root","sv":"rot","nl":"wortel (plant)"},"emoji":"","verified":false},
+  {"id":"lex_ti_gzai","am":"ቀንዲ ገረብ","tr":"qendi gereb","pos":"noun","topic":"plants","level":"TI","t":{"de":"der Stamm (Baum)","en":"trunk (tree)","sv":"stam (träd)","nl":"stam (boom)"},"emoji":"","verified":false},
+  {"id":"lex_ti_shoki","am":"እሾኽ","tr":"ishokh","pos":"noun","topic":"plants","level":"TI","t":{"de":"der Dorn","en":"thorn","sv":"tagg","nl":"doorn"},"emoji":"","verified":false},
+  {"id":"lex_ti_qslr","am":"ኮዸስተር","tr":"kodester","pos":"noun","topic":"plants","level":"TI","t":{"de":"die Frucht (allgemein Botanik)","en":"fruit (botanical)","sv":"frukt (botanisk)","nl":"vrucht (botanisch)"},"emoji":"","verified":false},
+  {"id":"lex_ti_dngu","am":"ጫካ ብዙሕ ገረብ","tr":"chaka bezuh gereb","pos":"noun","topic":"plants","level":"TI","t":{"de":"das Dickicht, Gehölz","en":"thicket, grove","sv":"snår, dunge","nl":"struikgewas, bosje"},"emoji":"","verified":false},
+  {"id":"lex_ti_hamli2","am":"ኣትክልቲ","tr":"atikilti","pos":"noun","topic":"plants","level":"TI","t":{"de":"die Pflanze","en":"plant","sv":"växt","nl":"plant"},"emoji":"🌿","verified":false}
+]

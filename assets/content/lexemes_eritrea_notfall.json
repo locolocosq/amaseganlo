@@ -1,0 +1,9 @@
+[
+  {"id":"lex_ti_rdt","am":"ረድኤት!","tr":"red'et!","pos":"interjection","topic":"emergency","level":"TI","t":{"de":"Hilfe!","en":"help!","sv":"hjälp!","nl":"help!"},"emoji":"🆘","verified":false},
+  {"id":"lex_ti_hzti3","am":"ሓደጋ","tr":"hadega","pos":"noun","topic":"emergency","level":"TI","t":{"de":"der Unfall, die Gefahr","en":"accident, danger","sv":"olycka, fara","nl":"ongeluk, gevaar"},"emoji":"⚠️","verified":false},
+  {"id":"lex_ti_ambulns","am":"ኣምቡላንስ","tr":"ambulans","pos":"noun","topic":"emergency","level":"TI","t":{"de":"der Krankenwagen","en":"ambulance","sv":"ambulans","nl":"ambulance"},"emoji":"🚑","verified":false},
+  {"id":"lex_ti_essatawi","am":"ሓዊ ኣጥፋኢ","tr":"hawi atfa'i","pos":"noun","topic":"emergency","level":"TI","t":{"de":"der Feuerlöscher","en":"fire extinguisher","sv":"brandsläckare","nl":"brandblusser"},"emoji":"","verified":false},
+  {"id":"lex_ti_snkiz","am":"ህጹጽ","tr":"hitsuts","pos":"adjective","topic":"emergency","level":"TI","t":{"de":"dringend, akut","en":"urgent","sv":"brådskande","nl":"dringend"},"emoji":"","verified":false},
+  {"id":"lex_ti_mwty","am":"ሞት","tr":"mot","pos":"noun","topic":"emergency","level":"TI","t":{"de":"der Tod","en":"death","sv":"död","nl":"dood"},"emoji":"","verified":false},
+  {"id":"lex_ti_ntsti2","am":"ደሓንነት","tr":"dehaninet","pos":"noun","topic":"emergency","level":"TI","t":{"de":"die Sicherheit","en":"safety, security","sv":"säkerhet","nl":"veiligheid"},"emoji":"","verified":false}
+]

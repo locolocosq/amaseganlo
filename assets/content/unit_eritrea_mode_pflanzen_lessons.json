@@ -1,0 +1,160 @@
+[
+  {
+    "id": "unit_eritrea_mode_pflanzen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_fshni",
+      "lex_ti_stayl",
+      "lex_ti_msfi",
+      "lex_ti_frti",
+      "lex_ti_tsbabi",
+      "lex_ti_lbsi",
+      "lex_ti_wkti",
+      "lex_ti_selti",
+      "lex_ti_qwrhi",
+      "lex_ti_gzai",
+      "lex_ti_shoki",
+      "lex_ti_qslr",
+      "lex_ti_dngu",
+      "lex_ti_hamli2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_mode_pflanzen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_fshni",
+      "lex_ti_stayl",
+      "lex_ti_msfi",
+      "lex_ti_frti",
+      "lex_ti_tsbabi",
+      "lex_ti_lbsi",
+      "lex_ti_wkti",
+      "lex_ti_selti",
+      "lex_ti_qwrhi",
+      "lex_ti_gzai",
+      "lex_ti_shoki",
+      "lex_ti_qslr",
+      "lex_ti_dngu",
+      "lex_ti_hamli2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mode_pflanzen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_fshni",
+      "lex_ti_stayl",
+      "lex_ti_msfi",
+      "lex_ti_frti",
+      "lex_ti_tsbabi",
+      "lex_ti_lbsi",
+      "lex_ti_wkti",
+      "lex_ti_selti",
+      "lex_ti_qwrhi",
+      "lex_ti_gzai",
+      "lex_ti_shoki",
+      "lex_ti_qslr",
+      "lex_ti_dngu",
+      "lex_ti_hamli2"
+    ],
+    "sentenceIds": [
+      "sen_ti_mode_pflanzen_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mode_pflanzen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_fshni",
+      "lex_ti_stayl",
+      "lex_ti_msfi",
+      "lex_ti_frti",
+      "lex_ti_tsbabi",
+      "lex_ti_lbsi",
+      "lex_ti_wkti",
+      "lex_ti_selti",
+      "lex_ti_qwrhi",
+      "lex_ti_gzai",
+      "lex_ti_shoki",
+      "lex_ti_qslr",
+      "lex_ti_dngu",
+      "lex_ti_hamli2"
+    ],
+    "sentenceIds": [
+      "sen_ti_mode_pflanzen_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mode_pflanzen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_fshni",
+      "lex_ti_stayl",
+      "lex_ti_msfi",
+      "lex_ti_frti",
+      "lex_ti_tsbabi",
+      "lex_ti_lbsi",
+      "lex_ti_wkti",
+      "lex_ti_selti",
+      "lex_ti_qwrhi",
+      "lex_ti_gzai",
+      "lex_ti_shoki",
+      "lex_ti_qslr",
+      "lex_ti_dngu",
+      "lex_ti_hamli2"
+    ],
+    "sentenceIds": [
+      "sen_ti_mode_pflanzen_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mode_pflanzen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_fshni",
+      "lex_ti_stayl",
+      "lex_ti_msfi",
+      "lex_ti_frti",
+      "lex_ti_tsbabi",
+      "lex_ti_lbsi",
+      "lex_ti_wkti",
+      "lex_ti_selti",
+      "lex_ti_qwrhi",
+      "lex_ti_gzai",
+      "lex_ti_shoki",
+      "lex_ti_qslr",
+      "lex_ti_dngu",
+      "lex_ti_hamli2"
+    ],
+    "sentenceIds": [
+      "sen_ti_mode_pflanzen_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

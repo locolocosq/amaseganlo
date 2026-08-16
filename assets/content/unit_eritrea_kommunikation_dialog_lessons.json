@@ -1,0 +1,196 @@
+[
+  {
+    "id": "unit_eritrea_kommunikation_dialog_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_wgni2",
+      "lex_ti_krbi2",
+      "lex_ti_nqfi",
+      "lex_ti_wed2",
+      "lex_ti_hbrti3",
+      "lex_ti_khli",
+      "lex_ti_pms",
+      "lex_ti_ntsu3",
+      "lex_ti_prss",
+      "lex_ti_zena2",
+      "lex_ti_mnkm",
+      "lex_ti_kdlm",
+      "lex_ti_mgbani",
+      "lex_ti_frdal",
+      "lex_ti_kdyzu",
+      "lex_ti_dgmlyu",
+      "lex_ti_bqlm",
+      "lex_ti_algbn",
+      "lex_ti_bqlkm",
+      "lex_ti_ntyzntkm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_kommunikation_dialog_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_wgni2",
+      "lex_ti_krbi2",
+      "lex_ti_nqfi",
+      "lex_ti_wed2",
+      "lex_ti_hbrti3",
+      "lex_ti_khli",
+      "lex_ti_pms",
+      "lex_ti_ntsu3",
+      "lex_ti_prss",
+      "lex_ti_zena2",
+      "lex_ti_mnkm",
+      "lex_ti_kdlm",
+      "lex_ti_mgbani",
+      "lex_ti_frdal",
+      "lex_ti_kdyzu",
+      "lex_ti_dgmlyu",
+      "lex_ti_bqlm",
+      "lex_ti_algbn",
+      "lex_ti_bqlkm",
+      "lex_ti_ntyzntkm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kommunikation_dialog_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_wgni2",
+      "lex_ti_krbi2",
+      "lex_ti_nqfi",
+      "lex_ti_wed2",
+      "lex_ti_hbrti3",
+      "lex_ti_khli",
+      "lex_ti_pms",
+      "lex_ti_ntsu3",
+      "lex_ti_prss",
+      "lex_ti_zena2",
+      "lex_ti_mnkm",
+      "lex_ti_kdlm",
+      "lex_ti_mgbani",
+      "lex_ti_frdal",
+      "lex_ti_kdyzu",
+      "lex_ti_dgmlyu",
+      "lex_ti_bqlm",
+      "lex_ti_algbn",
+      "lex_ti_bqlkm",
+      "lex_ti_ntyzntkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_kommunikation_dialog_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kommunikation_dialog_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_wgni2",
+      "lex_ti_krbi2",
+      "lex_ti_nqfi",
+      "lex_ti_wed2",
+      "lex_ti_hbrti3",
+      "lex_ti_khli",
+      "lex_ti_pms",
+      "lex_ti_ntsu3",
+      "lex_ti_prss",
+      "lex_ti_zena2",
+      "lex_ti_mnkm",
+      "lex_ti_kdlm",
+      "lex_ti_mgbani",
+      "lex_ti_frdal",
+      "lex_ti_kdyzu",
+      "lex_ti_dgmlyu",
+      "lex_ti_bqlm",
+      "lex_ti_algbn",
+      "lex_ti_bqlkm",
+      "lex_ti_ntyzntkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_kommunikation_dialog_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kommunikation_dialog_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_wgni2",
+      "lex_ti_krbi2",
+      "lex_ti_nqfi",
+      "lex_ti_wed2",
+      "lex_ti_hbrti3",
+      "lex_ti_khli",
+      "lex_ti_pms",
+      "lex_ti_ntsu3",
+      "lex_ti_prss",
+      "lex_ti_zena2",
+      "lex_ti_mnkm",
+      "lex_ti_kdlm",
+      "lex_ti_mgbani",
+      "lex_ti_frdal",
+      "lex_ti_kdyzu",
+      "lex_ti_dgmlyu",
+      "lex_ti_bqlm",
+      "lex_ti_algbn",
+      "lex_ti_bqlkm",
+      "lex_ti_ntyzntkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_kommunikation_dialog_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kommunikation_dialog_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_wgni2",
+      "lex_ti_krbi2",
+      "lex_ti_nqfi",
+      "lex_ti_wed2",
+      "lex_ti_hbrti3",
+      "lex_ti_khli",
+      "lex_ti_pms",
+      "lex_ti_ntsu3",
+      "lex_ti_prss",
+      "lex_ti_zena2",
+      "lex_ti_mnkm",
+      "lex_ti_kdlm",
+      "lex_ti_mgbani",
+      "lex_ti_frdal",
+      "lex_ti_kdyzu",
+      "lex_ti_dgmlyu",
+      "lex_ti_bqlm",
+      "lex_ti_algbn",
+      "lex_ti_bqlkm",
+      "lex_ti_ntyzntkm"
+    ],
+    "sentenceIds": [
+      "sen_ti_kommunikation_dialog_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

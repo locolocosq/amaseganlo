@@ -1,0 +1,166 @@
+[
+  {
+    "id": "unit_eritrea_fahrzeuge_buero_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_mekngo",
+      "lex_ti_gm2",
+      "lex_ti_mfth2",
+      "lex_ti_msln",
+      "lex_ti_bnzn",
+      "lex_ti_frml",
+      "lex_ti_mkzn",
+      "lex_ti_qlm2",
+      "lex_ti_mshhi",
+      "lex_ti_mqrri",
+      "lex_ti_msqi",
+      "lex_ti_dfti",
+      "lex_ti_kls2",
+      "lex_ti_shnt",
+      "lex_ti_lstk2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_fahrzeuge_buero_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_mekngo",
+      "lex_ti_gm2",
+      "lex_ti_mfth2",
+      "lex_ti_msln",
+      "lex_ti_bnzn",
+      "lex_ti_frml",
+      "lex_ti_mkzn",
+      "lex_ti_qlm2",
+      "lex_ti_mshhi",
+      "lex_ti_mqrri",
+      "lex_ti_msqi",
+      "lex_ti_dfti",
+      "lex_ti_kls2",
+      "lex_ti_shnt",
+      "lex_ti_lstk2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fahrzeuge_buero_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_mekngo",
+      "lex_ti_gm2",
+      "lex_ti_mfth2",
+      "lex_ti_msln",
+      "lex_ti_bnzn",
+      "lex_ti_frml",
+      "lex_ti_mkzn",
+      "lex_ti_qlm2",
+      "lex_ti_mshhi",
+      "lex_ti_mqrri",
+      "lex_ti_msqi",
+      "lex_ti_dfti",
+      "lex_ti_kls2",
+      "lex_ti_shnt",
+      "lex_ti_lstk2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fahrzeuge_buero_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fahrzeuge_buero_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_mekngo",
+      "lex_ti_gm2",
+      "lex_ti_mfth2",
+      "lex_ti_msln",
+      "lex_ti_bnzn",
+      "lex_ti_frml",
+      "lex_ti_mkzn",
+      "lex_ti_qlm2",
+      "lex_ti_mshhi",
+      "lex_ti_mqrri",
+      "lex_ti_msqi",
+      "lex_ti_dfti",
+      "lex_ti_kls2",
+      "lex_ti_shnt",
+      "lex_ti_lstk2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fahrzeuge_buero_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fahrzeuge_buero_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_mekngo",
+      "lex_ti_gm2",
+      "lex_ti_mfth2",
+      "lex_ti_msln",
+      "lex_ti_bnzn",
+      "lex_ti_frml",
+      "lex_ti_mkzn",
+      "lex_ti_qlm2",
+      "lex_ti_mshhi",
+      "lex_ti_mqrri",
+      "lex_ti_msqi",
+      "lex_ti_dfti",
+      "lex_ti_kls2",
+      "lex_ti_shnt",
+      "lex_ti_lstk2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fahrzeuge_buero_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_fahrzeuge_buero_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_mekngo",
+      "lex_ti_gm2",
+      "lex_ti_mfth2",
+      "lex_ti_msln",
+      "lex_ti_bnzn",
+      "lex_ti_frml",
+      "lex_ti_mkzn",
+      "lex_ti_qlm2",
+      "lex_ti_mshhi",
+      "lex_ti_mqrri",
+      "lex_ti_msqi",
+      "lex_ti_dfti",
+      "lex_ti_kls2",
+      "lex_ti_shnt",
+      "lex_ti_lstk2"
+    ],
+    "sentenceIds": [
+      "sen_ti_fahrzeuge_buero_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

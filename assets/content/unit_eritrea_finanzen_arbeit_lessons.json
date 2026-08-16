@@ -1,0 +1,172 @@
+[
+  {
+    "id": "unit_eritrea_finanzen_arbeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_bank2",
+      "lex_ti_lezhi",
+      "lex_ti_wraq2",
+      "lex_ti_qmz",
+      "lex_ti_hzbti2",
+      "lex_ti_gne2",
+      "lex_ti_ashd",
+      "lex_ti_gebri3",
+      "lex_ti_shefu",
+      "lex_ti_hbrto",
+      "lex_ti_shgl2",
+      "lex_ti_kv2",
+      "lex_ti_ognz",
+      "lex_ti_prjct",
+      "lex_ti_dedb",
+      "lex_ti_izini"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_finanzen_arbeit_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_bank2",
+      "lex_ti_lezhi",
+      "lex_ti_wraq2",
+      "lex_ti_qmz",
+      "lex_ti_hzbti2",
+      "lex_ti_gne2",
+      "lex_ti_ashd",
+      "lex_ti_gebri3",
+      "lex_ti_shefu",
+      "lex_ti_hbrto",
+      "lex_ti_shgl2",
+      "lex_ti_kv2",
+      "lex_ti_ognz",
+      "lex_ti_prjct",
+      "lex_ti_dedb",
+      "lex_ti_izini"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_finanzen_arbeit_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_bank2",
+      "lex_ti_lezhi",
+      "lex_ti_wraq2",
+      "lex_ti_qmz",
+      "lex_ti_hzbti2",
+      "lex_ti_gne2",
+      "lex_ti_ashd",
+      "lex_ti_gebri3",
+      "lex_ti_shefu",
+      "lex_ti_hbrto",
+      "lex_ti_shgl2",
+      "lex_ti_kv2",
+      "lex_ti_ognz",
+      "lex_ti_prjct",
+      "lex_ti_dedb",
+      "lex_ti_izini"
+    ],
+    "sentenceIds": [
+      "sen_ti_finanzen_arbeit_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_finanzen_arbeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_bank2",
+      "lex_ti_lezhi",
+      "lex_ti_wraq2",
+      "lex_ti_qmz",
+      "lex_ti_hzbti2",
+      "lex_ti_gne2",
+      "lex_ti_ashd",
+      "lex_ti_gebri3",
+      "lex_ti_shefu",
+      "lex_ti_hbrto",
+      "lex_ti_shgl2",
+      "lex_ti_kv2",
+      "lex_ti_ognz",
+      "lex_ti_prjct",
+      "lex_ti_dedb",
+      "lex_ti_izini"
+    ],
+    "sentenceIds": [
+      "sen_ti_finanzen_arbeit_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_finanzen_arbeit_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_bank2",
+      "lex_ti_lezhi",
+      "lex_ti_wraq2",
+      "lex_ti_qmz",
+      "lex_ti_hzbti2",
+      "lex_ti_gne2",
+      "lex_ti_ashd",
+      "lex_ti_gebri3",
+      "lex_ti_shefu",
+      "lex_ti_hbrto",
+      "lex_ti_shgl2",
+      "lex_ti_kv2",
+      "lex_ti_ognz",
+      "lex_ti_prjct",
+      "lex_ti_dedb",
+      "lex_ti_izini"
+    ],
+    "sentenceIds": [
+      "sen_ti_finanzen_arbeit_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_finanzen_arbeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_bank2",
+      "lex_ti_lezhi",
+      "lex_ti_wraq2",
+      "lex_ti_qmz",
+      "lex_ti_hzbti2",
+      "lex_ti_gne2",
+      "lex_ti_ashd",
+      "lex_ti_gebri3",
+      "lex_ti_shefu",
+      "lex_ti_hbrto",
+      "lex_ti_shgl2",
+      "lex_ti_kv2",
+      "lex_ti_ognz",
+      "lex_ti_prjct",
+      "lex_ti_dedb",
+      "lex_ti_izini"
+    ],
+    "sentenceIds": [
+      "sen_ti_finanzen_arbeit_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

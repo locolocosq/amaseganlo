@@ -1,0 +1,172 @@
+[
+  {
+    "id": "unit_eritrea_kochen_wissenschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_hkw",
+      "lex_ti_ktfi",
+      "lex_ti_kwyi",
+      "lex_ti_kzri2",
+      "lex_ti_hlti",
+      "lex_ti_zrgi",
+      "lex_ti_qrbi",
+      "lex_ti_hlwi2",
+      "lex_ti_qmem",
+      "lex_ti_mgb2",
+      "lex_ti_ntsri",
+      "lex_ti_thyri",
+      "lex_ti_hqyq",
+      "lex_ti_mkina3",
+      "lex_ti_tlskp",
+      "lex_ti_khymi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_kochen_wissenschaft_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_hkw",
+      "lex_ti_ktfi",
+      "lex_ti_kwyi",
+      "lex_ti_kzri2",
+      "lex_ti_hlti",
+      "lex_ti_zrgi",
+      "lex_ti_qrbi",
+      "lex_ti_hlwi2",
+      "lex_ti_qmem",
+      "lex_ti_mgb2",
+      "lex_ti_ntsri",
+      "lex_ti_thyri",
+      "lex_ti_hqyq",
+      "lex_ti_mkina3",
+      "lex_ti_tlskp",
+      "lex_ti_khymi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kochen_wissenschaft_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_hkw",
+      "lex_ti_ktfi",
+      "lex_ti_kwyi",
+      "lex_ti_kzri2",
+      "lex_ti_hlti",
+      "lex_ti_zrgi",
+      "lex_ti_qrbi",
+      "lex_ti_hlwi2",
+      "lex_ti_qmem",
+      "lex_ti_mgb2",
+      "lex_ti_ntsri",
+      "lex_ti_thyri",
+      "lex_ti_hqyq",
+      "lex_ti_mkina3",
+      "lex_ti_tlskp",
+      "lex_ti_khymi"
+    ],
+    "sentenceIds": [
+      "sen_ti_kochen_wissenschaft_1"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kochen_wissenschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_hkw",
+      "lex_ti_ktfi",
+      "lex_ti_kwyi",
+      "lex_ti_kzri2",
+      "lex_ti_hlti",
+      "lex_ti_zrgi",
+      "lex_ti_qrbi",
+      "lex_ti_hlwi2",
+      "lex_ti_qmem",
+      "lex_ti_mgb2",
+      "lex_ti_ntsri",
+      "lex_ti_thyri",
+      "lex_ti_hqyq",
+      "lex_ti_mkina3",
+      "lex_ti_tlskp",
+      "lex_ti_khymi"
+    ],
+    "sentenceIds": [
+      "sen_ti_kochen_wissenschaft_1"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kochen_wissenschaft_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_hkw",
+      "lex_ti_ktfi",
+      "lex_ti_kwyi",
+      "lex_ti_kzri2",
+      "lex_ti_hlti",
+      "lex_ti_zrgi",
+      "lex_ti_qrbi",
+      "lex_ti_hlwi2",
+      "lex_ti_qmem",
+      "lex_ti_mgb2",
+      "lex_ti_ntsri",
+      "lex_ti_thyri",
+      "lex_ti_hqyq",
+      "lex_ti_mkina3",
+      "lex_ti_tlskp",
+      "lex_ti_khymi"
+    ],
+    "sentenceIds": [
+      "sen_ti_kochen_wissenschaft_1"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kochen_wissenschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_hkw",
+      "lex_ti_ktfi",
+      "lex_ti_kwyi",
+      "lex_ti_kzri2",
+      "lex_ti_hlti",
+      "lex_ti_zrgi",
+      "lex_ti_qrbi",
+      "lex_ti_hlwi2",
+      "lex_ti_qmem",
+      "lex_ti_mgb2",
+      "lex_ti_ntsri",
+      "lex_ti_thyri",
+      "lex_ti_hqyq",
+      "lex_ti_mkina3",
+      "lex_ti_tlskp",
+      "lex_ti_khymi"
+    ],
+    "sentenceIds": [
+      "sen_ti_kochen_wissenschaft_1"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

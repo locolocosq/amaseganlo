@@ -1,0 +1,11 @@
+[
+  {"id":"lex_ti_muqti","am":"ሙቐት","tr":"muqet","pos":"noun","topic":"weather","level":"TI","t":{"de":"die Hitze","en":"heat","sv":"värme","nl":"hitte"},"emoji":"🔥","verified":false},
+  {"id":"lex_ti_brdti","am":"ብርዲ","tr":"birdi","pos":"noun","topic":"weather","level":"TI","t":{"de":"die Kälte","en":"coldness","sv":"kyla","nl":"kou"},"emoji":"🥶","verified":false},
+  {"id":"lex_ti_ntsti","am":"ንፋስ ብርቱዕ","tr":"nifas biritu'e","pos":"noun","topic":"weather","level":"TI","t":{"de":"der Sturm","en":"storm","sv":"storm","nl":"storm"},"emoji":"🌪️","verified":false},
+  {"id":"lex_ti_swus","am":"ግመ","tr":"gime","pos":"noun","topic":"weather","level":"TI","t":{"de":"der Nebel","en":"fog","sv":"dimma","nl":"mist"},"emoji":"🌫️","verified":false},
+  {"id":"lex_ti_hlmi2","am":"ንፍሒ ማይ","tr":"nifhi mai","pos":"noun","topic":"weather","level":"TI","t":{"de":"die Überschwemmung","en":"flood","sv":"översvämning","nl":"overstroming"},"emoji":"🌊","verified":false},
+  {"id":"lex_ti_hgai","am":"ድርቂ","tr":"dirqi","pos":"noun","topic":"weather","level":"TI","t":{"de":"die Dürre","en":"drought","sv":"torka","nl":"droogte"},"emoji":"","verified":false},
+  {"id":"lex_ti_zbti3","am":"ምድቃቕ ምድሪ","tr":"midqaq midri","pos":"noun","topic":"weather","level":"TI","t":{"de":"das Erdbeben","en":"earthquake","sv":"jordbävning","nl":"aardbeving"},"emoji":"","verified":false},
+  {"id":"lex_ti_gzwi","am":"ንፋስ ይንፍስ","tr":"nifas yinfis","pos":"phrase","topic":"weather","level":"TI","t":{"de":"es weht Wind","en":"it's windy","sv":"det blåser","nl":"het waait"},"emoji":"","verified":false},
+  {"id":"lex_ti_zenab4","am":"ዝናብ ይዘንብ","tr":"zinab yizenib","pos":"phrase","topic":"weather","level":"TI","t":{"de":"es regnet","en":"it's raining","sv":"det regnar","nl":"het regent"},"emoji":"🌧️","verified":false}
+]
