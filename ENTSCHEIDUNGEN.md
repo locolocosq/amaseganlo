@@ -1057,3 +1057,29 @@ in Frage kämen, hat eine echte Tigrinya-Stimme.
   empfohlen).
 - **Verifiziert:** `flutter analyze` (0 Probleme). Kein Testlauf des Colab-Skripts selbst möglich
   (externer Python-/GPU-Kontext) - wie bei der Amharisch-Variante schon der Fall.
+
+## Etappe 28 Nachtrag 5: Tigrinya-Colab-Skript - uroman-Fehler behoben
+
+Der Nutzer hat `generate_audio_colab_ti.py` laufen lassen: Modell lud korrekt (MMS-TTS-Gewichte,
+762 Tensoren), aber beim ersten Satz schlug es fehl mit `uroman-Fehler 2: Can't open perl script
+"/content/uroman/bin/uroman.pl": No such file or directory`.
+
+- **Ursache gefunden statt geraten:** das aus dem historischen Amharic-MMS-Skript übernommene
+  `git clone isi-nlp/uroman` + `perl bin/uroman.pl`-Vorgehen war zum Zeitpunkt des alten Skripts
+  (Etappe 11) korrekt, aber *uroman* selbst hat seither auf ein offizielles Python-Paket umgestellt
+  (Version 1.3.1, laut eigenem Änderungsprotokoll) - die alte Perl-Variante ist im aktuellen Repo
+  nicht mehr in der erwarteten Form vorhanden. Per README-Abruf direkt von der Quelle bestätigt
+  (`raw.githubusercontent.com/isi-nlp/uroman/master/README.md`), nicht angenommen.
+- **Umgestellt auf `pip install uroman` + `import uroman as ur; ur.Uroman().romanize_string(...)`**
+  - kein `git clone`, kein `perl`-Subprozess pro Satz mehr nötig. Nebeneffekt: die Romanisierungsdaten
+  werden jetzt einmalig geladen statt bei jedem der 2666 Aufrufe einen neuen Perl-Prozess zu starten -
+  sollte auch spürbar schneller laufen.
+- **`lcode="tir"` explizit mitgegeben** (optionaler Sprachcode-Parameter der neuen Python-API,
+  laut Doku potenziell bessere Romanisierung für die angegebene Sprache) - beim alten Perl-Aufruf gab
+  es dafür keine Entsprechung.
+- Datei erneut an den Nutzer geschickt, mit der Bitte, die Colab-Zelle komplett neu zu starten (der
+  `pip install`-Schritt muss neu laufen).
+- **Verifiziert:** Python-Syntax lokal per `ast.parse` geprüft (kein Python-Interpreter mit den
+  Colab-spezifischen Paketen hier verfügbar, aber Syntaxfehler wären so schon aufgefallen),
+  `flutter analyze` weiterhin 0 Probleme. Der eigentliche Colab-Lauf selbst bleibt ungetestet von
+  hier aus möglich.

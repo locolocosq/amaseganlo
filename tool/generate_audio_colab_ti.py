@@ -30,10 +30,13 @@
 # ============================================================
 
 !pip install -q --upgrade transformers accelerate
-!git clone -q https://github.com/isi-nlp/uroman.git
-# Falls diese Zeile mit "perl: command not found" fehlschlaegt (Colab hat
-# perl normalerweise vorinstalliert), einmalig zusaetzlich ausfuehren:
-# !apt-get -y install perl ffmpeg
+!pip install -q uroman
+# Aeltere Anleitungen (auch die vorherige Version dieses Skripts) klonen
+# stattdessen das isi-nlp/uroman-Repo und rufen "bin/uroman.pl" per perl auf
+# - das ist die alte, mittlerweile abgeloeste Variante. Seit uroman 1.3.1
+# gibt es ein offizielles Python-Paket, das direkt importiert werden kann,
+# kein perl/git-Klon mehr noetig (siehe github.com/isi-nlp/uroman README,
+# Abschnitt "Using uroman inside Python").
 
 import csv
 import os
@@ -41,11 +44,10 @@ import shutil
 import subprocess
 
 import torch
+import uroman as ur
 from transformers import VitsModel, VitsTokenizer, set_seed
 import scipy.io.wavfile
 from google.colab import files
-
-os.environ["UROMAN"] = os.path.abspath("uroman")
 
 MODEL_NAME = "facebook/mms-tts-tir"
 WAV_DIR = "output_wav"
@@ -64,22 +66,15 @@ tokenizer = VitsTokenizer.from_pretrained(MODEL_NAME)
 model = VitsModel.from_pretrained(MODEL_NAME).to(device)
 print(f"Braucht uroman-Umschrift: {tokenizer.is_uroman}")
 
+uromanizer = ur.Uroman()  # laedt die Romanisierungs-Daten einmalig (ca. 1 Sekunde)
 
-def uromanize(text, uroman_path):
+
+def uromanize(text):
     """Wandelt Ge'ez-Text in lateinische Schrift um - das MMS-TTS-Modell
     erwartet laut offizieller Doku fuer nicht-lateinische Schriften diese
-    Vorverarbeitung."""
-    script_path = os.path.join(uroman_path, "bin", "uroman.pl")
-    process = subprocess.Popen(
-        ["perl", script_path],
-        stdin=subprocess.PIPE,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-    )
-    stdout, stderr = process.communicate(input=text.encode("utf-8"))
-    if process.returncode != 0:
-        raise ValueError(f"uroman-Fehler {process.returncode}: {stderr.decode()}")
-    return stdout.decode("utf-8").strip()
+    Vorverarbeitung. lcode='tir' ist optional, kann laut Doku die
+    Romanisierung fuer die angegebene Sprache verbessern."""
+    return uromanizer.romanize_string(text, lcode="tir")
 
 
 with open(csv_path, encoding="utf-8") as f:
@@ -95,7 +90,7 @@ for i, row in enumerate(rows):
     if os.path.exists(wav_path):
         continue  # schon erzeugt (z.B. nach Neustart der Zelle) - ueberspringen
 
-    prepared = uromanize(text, os.environ["UROMAN"]) if tokenizer.is_uroman else text
+    prepared = uromanize(text) if tokenizer.is_uroman else text
     inputs = tokenizer(text=prepared, return_tensors="pt").to(model.device)
 
     set_seed(555)  # fuer reproduzierbare Ergebnisse
