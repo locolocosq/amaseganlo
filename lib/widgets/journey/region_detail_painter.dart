@@ -29,8 +29,14 @@ class RegionDetailPainter extends CustomPainter {
         return (const Color(0xFFF3E6C4), const Color(0xFFE0C98F));
       case JourneyRegion.safari:
         return (const Color(0xFFFAD9A8), const Color(0xFFE9A868));
-      case JourneyRegion.eritrea:
+      case JourneyRegion.asmara:
+        return (const Color(0xFFFCE3D6), const Color(0xFFEBC4B0));
+      case JourneyRegion.massawa:
         return (const Color(0xFFFFE0B8), const Color(0xFFB8DDE8));
+      case JourneyRegion.keren:
+        return (const Color(0xFFE4EFC9), const Color(0xFFB9CE8C));
+      case JourneyRegion.dahlak:
+        return (const Color(0xFFCDEFF0), const Color(0xFFA0DEDC));
     }
   }
 
@@ -112,11 +118,32 @@ class RegionDetailPainter extends CustomPainter {
             Sketch.rock(canvas, clamped, scale, color: const Color(0xFF8C6E56));
           }
           break;
-        case JourneyRegion.eritrea:
+        case JourneyRegion.asmara:
+          if (i.isEven) {
+            _miniBuilding(canvas, clamped, scale);
+          } else {
+            Sketch.rock(canvas, clamped, scale, color: const Color(0xFFD97B66));
+          }
+          break;
+        case JourneyRegion.massawa:
           if (i.isEven) {
             Sketch.palm(canvas, clamped, scale);
           } else {
             _miniBuilding(canvas, clamped, scale);
+          }
+          break;
+        case JourneyRegion.keren:
+          if (i % 2 == 0) {
+            Sketch.acacia(canvas, clamped, scale);
+          } else {
+            Sketch.rock(canvas, clamped, scale, color: const Color(0xFF7A8B4F));
+          }
+          break;
+        case JourneyRegion.dahlak:
+          if (i.isEven) {
+            Sketch.palm(canvas, clamped, scale * 0.8);
+          } else {
+            Sketch.rock(canvas, clamped, scale * 0.7, color: const Color(0xFFE8D9A8));
           }
           break;
       }

@@ -18,8 +18,8 @@ Future<void> showEritreaLanguageHintDialog(BuildContext context) {
   return showDialog<void>(
     context: context,
     builder: (ctx) => AlertDialog(
-      // The same hand-drawn medallion art the world map itself uses for the
-      // Eritrea region node (RegionIconPainter), not a generic Material
+      // The same hand-drawn medallion art the Eritrea map itself uses for
+      // its first stop, Asmara (RegionIconPainter), not a generic Material
       // icon - so this hint visibly previews exactly what the learner is
       // about to go find, in the app's own established illustration style.
       icon: SizedBox(
@@ -27,7 +27,7 @@ Future<void> showEritreaLanguageHintDialog(BuildContext context) {
         height: 56,
         child: ClipOval(
           child: CustomPaint(
-            painter: RegionIconPainter(region: JourneyRegion.eritrea),
+            painter: RegionIconPainter(region: JourneyRegion.asmara),
             size: Size.infinite,
           ),
         ),

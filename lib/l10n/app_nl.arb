@@ -1,12 +1,10 @@
 {
   "@@locale": "nl",
   "appTitle": "Habesha Speak",
-
   "navLearn": "Leren",
   "navFidel": "Fidel",
   "navReview": "Herhalen",
   "navProfile": "Profiel",
-
   "commonBack": "Terug",
   "commonNext": "Volgende",
   "commonContinue": "Verder",
@@ -21,7 +19,6 @@
   "commonComingSoon": "Komt binnenkort",
   "commonDontKnow": "Ik weet het niet",
   "commonSkip": "Overslaan",
-
   "settingsTitle": "Instellingen",
   "settingsLanguage": "Taal van de app",
   "settingsAppearance": "Weergave",
@@ -55,12 +52,17 @@
   "settingsReminderPermissionDenied": "Meldingen zijn geblokkeerd voor Habesha Speak in je apparaatinstellingen",
   "settingsReminderTime": "Herinneringstijd",
   "settingsReminderTimeSubtitle": "Herinnert je elke dag om {time}",
-  "@settingsReminderTimeSubtitle": { "placeholders": { "time": { "type": "String" } } },
+  "@settingsReminderTimeSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "settingsPremiumSection": "Premium",
   "settingsPremium": "Habesha Speak Premium",
   "settingsPremiumHint": "Alle stations ontgrendelen",
   "settingsPremiumActive": "Actief - bedankt voor je steun!",
-
   "premiumTitle": "Habesha Speak Premium",
   "premiumHeadline": "Ontgrendel de hele reis",
   "premiumDescription": "De eerste hoofdstukken van Station 1 zijn gratis. Met Habesha Speak Premium leer je onbeperkt verder - alle stations, alle hoofdstukken.",
@@ -85,7 +87,6 @@
   "premiumLockedDialogBody": "De eerste hoofdstukken van Station 1 zijn gratis. Met Premium (jaarlijks of levenslang) ontgrendel je alle verdere stations en hoofdstukken.",
   "premiumLockedDialogAction": "Premium bekijken",
   "premiumRequiredBadge": "Premium vereist",
-
   "settingsDataSection": "Gegevens",
   "settingsBackupProgress": "Voortgang backuppen",
   "settingsRestoreProgress": "Voortgang herstellen",
@@ -95,20 +96,17 @@
   "fidelPathTraditional": "Traditioneel – zoals in Ethiopië",
   "fidelPathFast": "Snel leren lezen",
   "settingsSaved": "Instellingen opgeslagen",
-
   "resetProgressTitle": "Voortgang resetten?",
   "resetProgressWarning": "Dit verwijdert al je leervoortgang permanent. Dit kan niet ongedaan worden gemaakt.",
   "resetProgressTypeWord": "Typ \"verwijderen\" ter bevestiging.",
   "resetProgressConfirmWord": "verwijderen",
   "resetProgressDone": "Je voortgang is gereset.",
-
   "backupProgressDone": "Je voortgang is geback-upt.",
   "backupProgressError": "Backuppen is mislukt.",
   "restoreProgressTitle": "Voortgang herstellen?",
   "restoreProgressWarning": "Je huidige voortgang wordt vervangen door de backup uit dit bestand. Dit kan niet ongedaan worden gemaakt.",
   "restoreProgressDone": "Je voortgang is hersteld.",
   "restoreProgressInvalidFile": "Dit bestand is geen geldige Habesha Speak-backup.",
-
   "aboutVersion": "Versie",
   "aboutBuildDate": "Builddatum",
   "aboutPrivacy": "Al je gegevens blijven op dit apparaat. Geen account, geen server, geen advertenties, geen tracking.",
@@ -118,7 +116,6 @@
   "aboutShortcutsNext": "Enter: bevestigen / verder",
   "aboutShortcutsCancel": "Escape: annuleren",
   "aboutShortcutsAudio": "Spatie: geluid opnieuw afspelen",
-
   "onboardingWelcomeTitle": "Selam! Welkom bij Habesha Speak",
   "onboardingWelcomeBody": "Habesha Speak leert je Amhaars (አማርኛ), de officiële taal van Ethiopië.",
   "onboardingChooseLanguage": "Kies de taal van de app",
@@ -130,24 +127,34 @@
   "onboardingAssessmentSome": "Een paar woorden",
   "onboardingAssessmentGood": "Ik kan al behoorlijk wat",
   "onboardingStart": "Laten we beginnen",
-
   "homeContinueLearning": "Verder leren",
   "homeDailyGoal": "Dagelijks doel",
   "homeStreak": "Reeks",
   "homeReviewDue": "{count} vandaag te herhalen",
   "@homeReviewDue": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "homeFreePractice": "Vrij oefenen",
   "homeNoReviewsDue": "Nu niets te herhalen. In plaats daarvan zwakke woorden oefenen?",
-
   "pathSectionProgress": "Sectie {section}: {title} — {done} van {total} hoofdstukken",
   "@pathSectionProgress": {
     "placeholders": {
-      "section": { "type": "int" },
-      "title": { "type": "String" },
-      "done": { "type": "int" },
-      "total": { "type": "int" }
+      "section": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "pathLocked": "Vergrendeld",
@@ -163,74 +170,123 @@
   "regionReviewLockedBody": "Rond eerst alle hoofdstukken van deze halte af om hier vrij te kunnen herhalen.",
   "pathResumeTitle": "Verder leren",
   "pathResumeSubtitle": "Verder in {unit}",
-  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
-
+  "@pathResumeSubtitle": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "chapterTestScore": "{correct} van {total} goed",
-  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "@chapterTestScore": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "chapterTestPassedTitle": "Geslaagd!",
   "chapterTestPassedBody": "Je hebt een kroon verdiend voor dit hoofdstuk.",
   "chapterTestFailedTitle": "Nog niet gelukt",
   "chapterTestFailedBody": "Geen probleem - de fout beantwoorde woorden zijn gereset. Probeer het meteen opnieuw.",
-
   "placementTestTitle": "Instaptoets",
   "placementTestIntro": "We stellen je een paar vragen om de beste startplek te bepalen. Je kunt altijd afbreken.",
   "placementTestStart": "Laten we gaan",
   "placementTestResultTitle": "Voorstel: {section}",
-  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "@placementTestResultTitle": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
   "placementTestResultBody": "Op basis van je antwoorden stellen we voor hier te beginnen. Eerdere hoofdstukken worden als overgeslagen gemarkeerd en kun je altijd nog inhalen.",
   "placementTestResultBodyBeginning": "Helemaal vanaf het begin beginnen past het best - dat is helemaal normaal!",
   "placementTestAccept": "Gebruik dit",
   "placementTestCancel": "Toets afbreken",
-
   "unitOverviewLessons": "Lessen",
   "unitOverviewWordList": "Woordenlijst",
   "unitOverviewCrowns": "{crowns} van 5 kronen",
   "@unitOverviewCrowns": {
-    "placeholders": { "crowns": { "type": "int" } }
+    "placeholders": {
+      "crowns": {
+        "type": "int"
+      }
+    }
   },
-
   "lessonExitConfirmTitle": "Les echt beëindigen?",
   "lessonExitConfirmBody": "Je voortgang in deze les gaat verloren.",
   "lessonCompleteTitle": "Les afgerond!",
   "lessonCompleteXp": "{xp} XP",
   "@lessonCompleteXp": {
-    "placeholders": { "xp": { "type": "int" } }
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteAccuracy": "Nauwkeurigheid: {percent}%",
   "@lessonCompleteAccuracy": {
-    "placeholders": { "percent": { "type": "int" } }
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteDuration": "Duur: {minutes} min",
   "@lessonCompleteDuration": {
-    "placeholders": { "minutes": { "type": "int" } }
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteSkipped": "Overgeslagen: {count}",
   "@lessonCompleteSkipped": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteContinue": "Verder",
   "lessonCompleteRetry": "Opnieuw",
   "lessonOutOfHearts": "Geen hartjes meer",
   "lessonOutOfHeartsBody": "Je hebt alle hartjes voor deze les gebruikt. Kom later terug of oefen opnieuw.",
-
   "feedbackCorrect": "Goed!",
   "feedbackIncorrect": "Niet helemaal",
   "feedbackAlmostCorrect": "Bijna! Let op de spelling: {correct}",
   "@feedbackAlmostCorrect": {
-    "placeholders": { "correct": { "type": "String" } }
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      }
+    }
   },
   "feedbackCorrectAnswerWas": "Juiste antwoord: {answer}",
   "@feedbackCorrectAnswerWas": {
-    "placeholders": { "answer": { "type": "String" } }
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
   },
-
   "reviewTitle": "Herhalen",
   "reviewDueToday": "Vandaag te doen",
   "reviewDifficultWords": "Moeilijke woorden",
   "reviewFreePractice": "Vrij oefenen",
   "reviewEmpty": "Nu niets te herhalen. Goed bezig!",
   "reviewWordCount": "{count} woorden",
-  "@reviewWordCount": { "placeholders": { "count": { "type": "int" } } },
+  "@reviewWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "reviewWordCountOne": "1 woord",
   "reviewStart": "Laten we gaan",
   "reviewNoWordsForSession": "Hier zijn momenteel geen woorden voor.",
@@ -238,15 +294,19 @@
   "reviewFreePracticeAllLevels": "Alle niveaus",
   "reviewSessionCompleteTitle": "Herhaling voltooid!",
   "reviewSessionCompleteXp": "+{xp} XP",
-  "@reviewSessionCompleteXp": { "placeholders": { "xp": { "type": "int" } } },
+  "@reviewSessionCompleteXp": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
   "reviewSessionCompleteBody": "Ga zo door!",
-
   "dictionaryTitle": "Woordenboek",
   "dictionarySearchHint": "Woorden zoeken…",
   "dictionaryFilterAll": "Alle onderwerpen",
   "dictionaryEmpty": "Nog geen woorden geleerd in dit onderwerp.",
   "dictionarySearchNoResults": "Geen resultaten.",
-
   "profileTitle": "Profiel",
   "profileWordsLearned": "Geleerde woorden",
   "profileWordsMastered": "Beheerste woorden",
@@ -266,7 +326,6 @@
   "profileSkippedUnitsEmpty": "Je hebt nog geen hoofdstukken overgeslagen.",
   "profileCatchUp": "Inhalen",
   "profileAssessmentTest": "Instaptoets",
-
   "profileBadgeFirstLessonName": "Eerste stappen",
   "profileBadgeFirstLessonDesc": "Voltooi je eerste les.",
   "profileBadgeStreak7Name": "Eén week bezig",
@@ -283,21 +342,17 @@
   "profileBadgeXp1000Desc": "Verzamel in totaal 1000 XP.",
   "profileBadgeFirstCrownName": "Eerste kroon",
   "profileBadgeFirstCrownDesc": "Behaal je eerste hoofdstuktoets.",
-
   "errorGenericTitle": "Er is iets misgegaan",
   "errorGenericBody": "Je voortgang is opgeslagen.",
   "errorGoHome": "Terug naar start",
   "errorReload": "Opnieuw laden",
   "errorContentUnit": "Dit hoofdstuk kon niet worden geladen en is overgeslagen.",
   "errorCorruptSave": "Je opgeslagen gegevens konden niet worden gelezen. Er wordt opnieuw gestart.",
-
   "resumeLessonTitle": "Je was midden in een les",
   "resumeLessonBody": "Doorgaan waar je was gebleven?",
   "resumeLessonContinue": "Doorgaan",
   "resumeLessonRestart": "Opnieuw beginnen",
-
   "exitAppConfirm": "Druk nogmaals op terug om te stoppen",
-
   "exerciseCheckAnswer": "Controleren",
   "exerciseTypeAnswerHint": "Typ je antwoord…",
   "exercisePairMatchingHint": "Tik op bijpassende paren",
@@ -307,7 +362,6 @@
   "exerciseAudioUnavailable": "Amhaars geluid is niet beschikbaar op dit apparaat",
   "audioPlayTooltip": "Geluid afspelen",
   "introCardContinue": "Verder",
-
   "lessonKindIntro": "Nieuwe woorden",
   "lessonKindWordPractice": "Woorden oefenen",
   "lessonKindSentenceBuilding": "Zinnen bouwen",
@@ -315,11 +369,17 @@
   "lessonKindFreeApplication": "Vrij oefenen",
   "lessonKindReview": "Herhaling",
   "lessonKindUnitTest": "Hoofdstuktest",
-
   "fidelHomeTitle": "Fidel leren",
   "fidelStageProgress": "Stap {number}: {title}",
   "@fidelStageProgress": {
-    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
   },
   "fidelStageBonus": "Bonus",
   "fidelStageComingSoon": "Komt binnenkort",
@@ -337,7 +397,11 @@
   "fidelHomophoneTitle": "Let op: dezelfde klank",
   "fidelHomophoneBody": "Dit teken klinkt precies als {chars}, dat je al kent. Welke je schrijft hangt af van het woord - dat leer je later bij het lezen.",
   "@fidelHomophoneBody": {
-    "placeholders": { "chars": { "type": "String" } }
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
   },
   "fidelVowelExplainerTitle": "Elk teken is een lettergreep",
   "fidelVowelExplainerIntro": "ለ is niet \"l\", het is \"le\" - elk Fidel-teken staat voor een hele lettergreepklank, niet alleen een medeklinker.",
@@ -352,24 +416,38 @@
   "fidelExplainerContinue": "Verder",
   "fidelLockedDialogTitle": "Deze fase bouwt voort op de vorige",
   "fidelLockedDialogBody": "Je hebt de vorige fase nog niet afgerond. Toch beginnen?",
-
   "hahuDrillTapHint": "Tik voor het volgende teken",
   "hahuDrillWithTransliteration": "Ronde 1 van 2: met transliteratie",
   "hahuDrillCharsOnly": "Ronde 2 van 2: alleen tekens",
   "hahuDrillContinue": "Verder",
-
   "journeyWorldMapTitle": "Jouw Ethiopië-reis",
   "journeyDriverWorldMapCurrent": "Volgende stop: {region}! Stap in, we gaan op weg.",
-  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverWorldMapCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverWorldMapAllDone": "Je hebt de hele kaart al bereisd! Zin in nog een rondje?",
-  "journeyDriverEritreaCurrent": "Welkom in Eritrea! Klaar voor je eerste Tigrinya?",
-  "journeyDriverEritreaAllDone": "Je hebt de hele Eritrea-reis al bereisd! Zin in nog een rondje?",
   "journeyDriverRegionCurrent": "Welkom in {region}! Klaar voor de volgende halte?",
-  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverRegionCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverRegionAllDone": "Deze halte kun je al dromen! Kijk gerust nog eens rond.",
   "journeyBackToMap": "Terug naar de kaart",
   "journeyStationNumber": "Halte {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "@journeyStationNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
   "journeyRegionHarar": "Harar",
   "journeyRegionComingSoon": "Binnenkort beschikbaar",
   "journeyRegionLabelAddisAbeba": "Addis",
@@ -377,7 +455,10 @@
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
   "journeyRegionLabelSafari": "Safari",
-  "journeyRegionLabelEritrea": "Eritrea",
+  "journeyRegionLabelAsmara": "Asmara",
+  "journeyRegionLabelMassawa": "Massawa",
+  "journeyRegionLabelKeren": "Keren",
+  "journeyRegionLabelDahlak": "Dahlak",
   "onboardingEritreaHintTitle": "Nieuw: ontdek Eritrea",
   "onboardingEritreaHintBody": "Vanaf nu kun je hier ook Tigrinya leren, de taal van Eritrea. Veeg gewoon naar links op de kaart om van de Ethiopië-kaart naar de Eritrea-kaart te wisselen - en naar rechts om terug te gaan. Amhaars blijft op zijn vertrouwde kaart.",
   "onboardingEritreaHintButton": "Begrepen"

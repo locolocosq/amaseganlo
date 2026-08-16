@@ -7,13 +7,17 @@ import 'package:habesha_speak/core/journey_regions.dart';
 import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
-/// Etappe 26/27: the new Eritrea/Tigrinya map must be reachable (by
-/// swiping over from the Ethiopia map, Etappe 27) and its first station
+/// Etappe 26/27 (+ Nachtrag): the new Eritrea/Tigrinya map must be reachable
+/// (by swiping over from the Ethiopia map, Etappe 27) and its first station
 /// playable from a completely fresh install - independent of how far the
 /// learner has gotten in the (unrelated) Amharic curriculum. This is the
 /// point of JourneyProgress's per-language unlock tracks: with the single
 /// old cross-language flatUnitIds list, Eritrea's first station would have
 /// stayed locked until every Amharic unit before it was done.
+///
+/// Eritrea's page is itself a 4-region country map now (Keren/Asmara/
+/// Massawa/Dahlak, Etappe 27 Nachtrag), so reaching a station means tapping
+/// into Keren - the first of the four - on top of the swipe.
 void main() {
   testWidgets(
     'the Eritrea region node is reachable and its first station is not sequentially locked behind Amharic',
@@ -28,16 +32,16 @@ void main() {
       );
 
       // Eritrea lives on its own map page now (Etappe 27) - swipe the world
-      // map's PageView left to get there before its node exists in the tree.
-      expect(findRegionNode(JourneyRegion.eritrea), findsNothing);
+      // map's PageView left to get there before its nodes exist in the tree.
+      expect(findRegionNode(JourneyRegion.keren), findsNothing);
       await tester.drag(find.byType(PageView), const Offset(-600, 0));
       await tester.pumpAndSettle();
 
-      expect(findRegionNode(JourneyRegion.eritrea), findsOneWidget);
-      await tester.tap(findRegionNode(JourneyRegion.eritrea));
+      expect(findRegionNode(JourneyRegion.keren), findsOneWidget);
+      await tester.tap(findRegionNode(JourneyRegion.keren));
       await tester.pumpAndSettle();
 
-      expect(find.text('Eritrea — Tigrinya entdecken'), findsOneWidget);
+      expect(find.text('Station 1: Keren — das Westland'), findsOneWidget);
       await tester.scrollUntilVisible(
         find.text('Begrüßung & Pronomen'),
         200,

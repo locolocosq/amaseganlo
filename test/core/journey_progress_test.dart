@@ -19,7 +19,10 @@ void main() {
         isPremium: false,
       );
 
-      final eritreaSection = repo.curriculum.sections.firstWhere((s) => s.region == 'eritrea');
+      // Eritrea's map is now 4 sections (Keren/Asmara/Massawa/Dahlak,
+      // Etappe 27 Nachtrag) - the free trial only ever looks at the first
+      // section of each language, so that's Keren here.
+      final eritreaSection = repo.curriculum.sections.firstWhere((s) => s.language == 'ti');
       final unitIds = eritreaSection.unitIds;
       expect(unitIds.length, greaterThan(freeTrialUnitCount), reason: 'this test only means something if there is at least one locked unit past the free ones');
 
@@ -45,8 +48,10 @@ void main() {
       final tigrinyaSections = journey.sectionsForLanguage('ti');
       expect(amharicSections, isNotEmpty);
       expect(amharicSections.every((s) => s.language == 'am'), isTrue);
-      expect(tigrinyaSections.length, 1);
-      expect(tigrinyaSections.single.region, 'eritrea');
+      // Eritrea's map is 4 sections now (Keren/Asmara/Massawa/Dahlak,
+      // Etappe 27 Nachtrag) instead of one - Keren stays first.
+      expect(tigrinyaSections.length, 4);
+      expect(tigrinyaSections.first.region, 'keren');
 
       // Nothing played yet on either track: both maps should show their own
       // first section as current (index 0), independent of each other.

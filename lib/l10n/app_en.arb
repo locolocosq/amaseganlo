@@ -1,12 +1,10 @@
 {
   "@@locale": "en",
   "appTitle": "Habesha Speak",
-
   "navLearn": "Learn",
   "navFidel": "Fidel",
   "navReview": "Review",
   "navProfile": "Profile",
-
   "commonBack": "Back",
   "commonNext": "Next",
   "commonContinue": "Continue",
@@ -21,7 +19,6 @@
   "commonComingSoon": "Coming soon",
   "commonDontKnow": "I don't know",
   "commonSkip": "Skip",
-
   "settingsTitle": "Settings",
   "settingsLanguage": "App language",
   "settingsAppearance": "Appearance",
@@ -55,12 +52,17 @@
   "settingsReminderPermissionDenied": "Notifications are blocked for Habesha Speak in your device settings",
   "settingsReminderTime": "Reminder time",
   "settingsReminderTimeSubtitle": "Reminds you every day at {time}",
-  "@settingsReminderTimeSubtitle": { "placeholders": { "time": { "type": "String" } } },
+  "@settingsReminderTimeSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "settingsPremiumSection": "Premium",
   "settingsPremium": "Habesha Speak Premium",
   "settingsPremiumHint": "Unlock every station",
   "settingsPremiumActive": "Active - thank you for your support!",
-
   "premiumTitle": "Habesha Speak Premium",
   "premiumHeadline": "Unlock the whole journey",
   "premiumDescription": "The first chapters of Station 1 are free. With Habesha Speak Premium you keep learning without limits - every station, every chapter.",
@@ -85,7 +87,6 @@
   "premiumLockedDialogBody": "The first chapters of Station 1 are free. Premium (yearly or lifetime) unlocks every further station and chapter.",
   "premiumLockedDialogAction": "View Premium",
   "premiumRequiredBadge": "Premium required",
-
   "settingsDataSection": "Data",
   "settingsBackupProgress": "Back up progress",
   "settingsRestoreProgress": "Restore progress",
@@ -95,20 +96,17 @@
   "fidelPathTraditional": "Traditional – as in Ethiopia",
   "fidelPathFast": "Read fast",
   "settingsSaved": "Settings saved",
-
   "resetProgressTitle": "Reset progress?",
   "resetProgressWarning": "This deletes all your learning progress permanently. This cannot be undone.",
   "resetProgressTypeWord": "Type \"delete\" to confirm.",
   "resetProgressConfirmWord": "delete",
   "resetProgressDone": "Your progress has been reset.",
-
   "backupProgressDone": "Your progress has been backed up.",
   "backupProgressError": "Backing up failed.",
   "restoreProgressTitle": "Restore progress?",
   "restoreProgressWarning": "Your current progress will be replaced by the backup from this file. This cannot be undone.",
   "restoreProgressDone": "Your progress has been restored.",
   "restoreProgressInvalidFile": "This file is not a valid Habesha Speak backup.",
-
   "aboutVersion": "Version",
   "aboutBuildDate": "Build date",
   "aboutPrivacy": "All your data stays on this device. No account, no server, no ads, no tracking.",
@@ -118,7 +116,6 @@
   "aboutShortcutsNext": "Enter: confirm / continue",
   "aboutShortcutsCancel": "Escape: cancel",
   "aboutShortcutsAudio": "Space: replay audio",
-
   "onboardingWelcomeTitle": "Selam! Welcome to Habesha Speak",
   "onboardingWelcomeBody": "Habesha Speak teaches you Amharic (አማርኛ), the official language of Ethiopia.",
   "onboardingChooseLanguage": "Choose your app language",
@@ -130,24 +127,34 @@
   "onboardingAssessmentSome": "A few words",
   "onboardingAssessmentGood": "I already know quite a bit",
   "onboardingStart": "Let's go",
-
   "homeContinueLearning": "Continue learning",
   "homeDailyGoal": "Daily goal",
   "homeStreak": "Streak",
   "homeReviewDue": "{count} due for review",
   "@homeReviewDue": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "homeFreePractice": "Free practice",
   "homeNoReviewsDue": "Nothing due right now. Practice your weak words instead?",
-
   "pathSectionProgress": "Section {section}: {title} — {done} of {total} units",
   "@pathSectionProgress": {
     "placeholders": {
-      "section": { "type": "int" },
-      "title": { "type": "String" },
-      "done": { "type": "int" },
-      "total": { "type": "int" }
+      "section": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "pathLocked": "Locked",
@@ -163,74 +170,123 @@
   "regionReviewLockedBody": "Finish every unit in this stop first to unlock free review here.",
   "pathResumeTitle": "Continue learning",
   "pathResumeSubtitle": "Pick up in {unit}",
-  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
-
+  "@pathResumeSubtitle": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "chapterTestScore": "{correct} of {total} correct",
-  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "@chapterTestScore": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "chapterTestPassedTitle": "Passed!",
   "chapterTestPassedBody": "You've earned a crown for this unit.",
   "chapterTestFailedTitle": "Not quite there yet",
   "chapterTestFailedBody": "No worries - the words you missed have been reset. Try again right away.",
-
   "placementTestTitle": "Placement test",
   "placementTestIntro": "We'll ask you a few questions to find the best place for you to start. You can cancel anytime.",
   "placementTestStart": "Let's go",
   "placementTestResultTitle": "Suggestion: {section}",
-  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "@placementTestResultTitle": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
   "placementTestResultBody": "Based on your answers, we suggest starting here. Earlier units are marked as skipped and can be caught up on anytime.",
   "placementTestResultBodyBeginning": "Starting right from the beginning is the best fit - that's completely normal!",
   "placementTestAccept": "Use this",
   "placementTestCancel": "Cancel test",
-
   "unitOverviewLessons": "Lessons",
   "unitOverviewWordList": "Word list",
   "unitOverviewCrowns": "{crowns} of 5 crowns",
   "@unitOverviewCrowns": {
-    "placeholders": { "crowns": { "type": "int" } }
+    "placeholders": {
+      "crowns": {
+        "type": "int"
+      }
+    }
   },
-
   "lessonExitConfirmTitle": "End this lesson?",
   "lessonExitConfirmBody": "Your progress in this lesson will be lost.",
   "lessonCompleteTitle": "Lesson complete!",
   "lessonCompleteXp": "{xp} XP",
   "@lessonCompleteXp": {
-    "placeholders": { "xp": { "type": "int" } }
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteAccuracy": "Accuracy: {percent}%",
   "@lessonCompleteAccuracy": {
-    "placeholders": { "percent": { "type": "int" } }
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteDuration": "Duration: {minutes} min",
   "@lessonCompleteDuration": {
-    "placeholders": { "minutes": { "type": "int" } }
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteSkipped": "Skipped: {count}",
   "@lessonCompleteSkipped": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteContinue": "Continue",
   "lessonCompleteRetry": "Do it again",
   "lessonOutOfHearts": "Out of hearts",
   "lessonOutOfHeartsBody": "You've used all your hearts for this lesson. Come back later or practice again.",
-
   "feedbackCorrect": "Correct!",
   "feedbackIncorrect": "Not quite",
   "feedbackAlmostCorrect": "Almost! Watch the spelling: {correct}",
   "@feedbackAlmostCorrect": {
-    "placeholders": { "correct": { "type": "String" } }
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      }
+    }
   },
   "feedbackCorrectAnswerWas": "Correct answer: {answer}",
   "@feedbackCorrectAnswerWas": {
-    "placeholders": { "answer": { "type": "String" } }
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
   },
-
   "reviewTitle": "Review",
   "reviewDueToday": "Due today",
   "reviewDifficultWords": "Difficult words",
   "reviewFreePractice": "Free practice",
   "reviewEmpty": "Nothing to review right now. Great job keeping up!",
   "reviewWordCount": "{count} words",
-  "@reviewWordCount": { "placeholders": { "count": { "type": "int" } } },
+  "@reviewWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "reviewWordCountOne": "1 word",
   "reviewStart": "Let's go",
   "reviewNoWordsForSession": "There are no words for this right now.",
@@ -238,15 +294,19 @@
   "reviewFreePracticeAllLevels": "All levels",
   "reviewSessionCompleteTitle": "Review complete!",
   "reviewSessionCompleteXp": "+{xp} XP",
-  "@reviewSessionCompleteXp": { "placeholders": { "xp": { "type": "int" } } },
+  "@reviewSessionCompleteXp": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
   "reviewSessionCompleteBody": "Keep it up!",
-
   "dictionaryTitle": "Dictionary",
   "dictionarySearchHint": "Search words…",
   "dictionaryFilterAll": "All topics",
   "dictionaryEmpty": "No words learned yet in this topic.",
   "dictionarySearchNoResults": "No matches.",
-
   "profileTitle": "Profile",
   "profileWordsLearned": "Words learned",
   "profileWordsMastered": "Words mastered",
@@ -266,7 +326,6 @@
   "profileSkippedUnitsEmpty": "You haven't skipped any units.",
   "profileCatchUp": "Catch up",
   "profileAssessmentTest": "Placement test",
-
   "profileBadgeFirstLessonName": "First steps",
   "profileBadgeFirstLessonDesc": "Complete your first lesson.",
   "profileBadgeStreak7Name": "One week in",
@@ -283,21 +342,17 @@
   "profileBadgeXp1000Desc": "Earn a total of 1000 XP.",
   "profileBadgeFirstCrownName": "First crown",
   "profileBadgeFirstCrownDesc": "Pass your first unit test.",
-
   "errorGenericTitle": "Something went wrong",
   "errorGenericBody": "Your progress is saved.",
   "errorGoHome": "Back to home",
   "errorReload": "Reload",
   "errorContentUnit": "This unit couldn't be loaded and was skipped.",
   "errorCorruptSave": "Your saved data couldn't be read. Starting fresh.",
-
   "resumeLessonTitle": "You were in the middle of a lesson",
   "resumeLessonBody": "Continue where you left off?",
   "resumeLessonContinue": "Continue",
   "resumeLessonRestart": "Start over",
-
   "exitAppConfirm": "Press back again to exit",
-
   "exerciseCheckAnswer": "Check",
   "exerciseTypeAnswerHint": "Type your answer…",
   "exercisePairMatchingHint": "Tap matching pairs",
@@ -307,7 +362,6 @@
   "exerciseAudioUnavailable": "Amharic audio isn't available on this device",
   "audioPlayTooltip": "Play audio",
   "introCardContinue": "Continue",
-
   "lessonKindIntro": "New words",
   "lessonKindWordPractice": "Practice words",
   "lessonKindSentenceBuilding": "Build sentences",
@@ -315,11 +369,17 @@
   "lessonKindFreeApplication": "Free practice",
   "lessonKindReview": "Review",
   "lessonKindUnitTest": "Unit test",
-
   "fidelHomeTitle": "Learn Fidel",
   "fidelStageProgress": "Stage {number}: {title}",
   "@fidelStageProgress": {
-    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
   },
   "fidelStageBonus": "Bonus",
   "fidelStageComingSoon": "Coming soon",
@@ -337,7 +397,11 @@
   "fidelHomophoneTitle": "Careful: same sound",
   "fidelHomophoneBody": "This sign sounds exactly like {chars}, which you already know. Which one to write depends on the word - you'll learn that later when reading.",
   "@fidelHomophoneBody": {
-    "placeholders": { "chars": { "type": "String" } }
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
   },
   "fidelVowelExplainerTitle": "Every sign is a syllable",
   "fidelVowelExplainerIntro": "ለ is not \"l\", it's \"le\" - every Fidel sign stands for a whole syllable sound, not just a consonant.",
@@ -352,24 +416,38 @@
   "fidelExplainerContinue": "Continue",
   "fidelLockedDialogTitle": "This stage builds on the previous one",
   "fidelLockedDialogBody": "You haven't finished the previous stage yet. Start anyway?",
-
   "hahuDrillTapHint": "Tap for the next sign",
   "hahuDrillWithTransliteration": "Round 1 of 2: with transliteration",
   "hahuDrillCharsOnly": "Round 2 of 2: signs only",
   "hahuDrillContinue": "Continue",
-
   "journeyWorldMapTitle": "Your Ethiopia journey",
   "journeyDriverWorldMapCurrent": "Next stop: {region}! Hop on, let's roll.",
-  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverWorldMapCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverWorldMapAllDone": "You've travelled the whole map already! Fancy another round?",
-  "journeyDriverEritreaCurrent": "Welcome to Eritrea! Ready for your first Tigrinya?",
-  "journeyDriverEritreaAllDone": "You've travelled the whole Eritrea journey already! Fancy another round?",
   "journeyDriverRegionCurrent": "Welcome to {region}! Ready for the next stop?",
-  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverRegionCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverRegionAllDone": "You know this stop inside out! Feel free to look around again.",
   "journeyBackToMap": "Back to the map",
   "journeyStationNumber": "Stop {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "@journeyStationNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
   "journeyRegionHarar": "Harar",
   "journeyRegionComingSoon": "Coming soon",
   "journeyRegionLabelAddisAbeba": "Addis",
@@ -377,7 +455,10 @@
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
   "journeyRegionLabelSafari": "Safari",
-  "journeyRegionLabelEritrea": "Eritrea",
+  "journeyRegionLabelAsmara": "Asmara",
+  "journeyRegionLabelMassawa": "Massawa",
+  "journeyRegionLabelKeren": "Keren",
+  "journeyRegionLabelDahlak": "Dahlak",
   "onboardingEritreaHintTitle": "New: discover Eritrea",
   "onboardingEritreaHintBody": "You can now also learn Tigrinya, the language of Eritrea. Just swipe left on the map to switch from the Ethiopia map to the Eritrea map - and swipe right to go back. Amharic stays on its usual map.",
   "onboardingEritreaHintButton": "Got it"

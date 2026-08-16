@@ -11,15 +11,22 @@ import '../l10n/app_localizations.dart';
 /// differences) built entirely from words every earlier stop already
 /// taught. Every place that switches on [JourneyRegion] must still cover
 /// both (Dart's exhaustiveness check enforces this).
-/// [eritrea] (Etappe 26) is the app's first stop for a second target
-/// language - Tigrinya, not Amharic. It sits at the very end of
-/// [WorldMapLayout.order], geographically fitting (Eritrea is the real
-/// country north of every other stop here) and low-risk to add (no existing
-/// region's index/order shifts). It is NOT locked behind finishing every
-/// Amharic region first, though - see [JourneyProgress]'s per-language
-/// unlock tracks - tapping it is always possible like any other region, and
-/// its own first station unlocks independently.
-enum JourneyRegion { addisAbeba, oromia, tigray, sidama, harar, safari, eritrea }
+/// [asmara], [massawa], [keren] and [dahlak] (Etappe 26/27) are Eritrea's
+/// stops for a second target language - Tigrinya, not Amharic. Etappe 26
+/// first tried a single combined [eritrea] node on this same map; Etappe 27
+/// gave Eritrea its own top-level swipeable map instead (see
+/// [WorldMapScreen]/`EritreaCountryMap`), with these four stops laid out on
+/// it exactly the way [addisAbeba]..[safari] are laid out here - a road, a
+/// bus, one stop per curriculum section. [dahlak] plays the same role
+/// [safari] plays for Ethiopia: the final, capstone stop, no new vocabulary
+/// of its own, only sentence-building with conjunctions built entirely from
+/// words the three earlier Eritrea stops already taught. None of these four
+/// are locked behind finishing every Amharic region first, or behind each
+/// other beyond normal sequential unlocking - see [JourneyProgress]'s
+/// per-language unlock tracks. Every place that switches on [JourneyRegion]
+/// must still cover all ten values (Dart's exhaustiveness check enforces
+/// this).
+enum JourneyRegion { addisAbeba, oromia, tigray, sidama, harar, safari, asmara, massawa, keren, dahlak }
 
 JourneyRegion? journeyRegionFromId(String id) {
   switch (id) {
@@ -35,8 +42,14 @@ JourneyRegion? journeyRegionFromId(String id) {
       return JourneyRegion.harar;
     case 'safari':
       return JourneyRegion.safari;
-    case 'eritrea':
-      return JourneyRegion.eritrea;
+    case 'asmara':
+      return JourneyRegion.asmara;
+    case 'massawa':
+      return JourneyRegion.massawa;
+    case 'keren':
+      return JourneyRegion.keren;
+    case 'dahlak':
+      return JourneyRegion.dahlak;
     default:
       return null;
   }
@@ -79,8 +92,14 @@ String journeyRegionShortLabel(JourneyRegion region, AppLocalizations l10n) {
       return l10n.journeyRegionHarar;
     case JourneyRegion.safari:
       return l10n.journeyRegionLabelSafari;
-    case JourneyRegion.eritrea:
-      return l10n.journeyRegionLabelEritrea;
+    case JourneyRegion.asmara:
+      return l10n.journeyRegionLabelAsmara;
+    case JourneyRegion.massawa:
+      return l10n.journeyRegionLabelMassawa;
+    case JourneyRegion.keren:
+      return l10n.journeyRegionLabelKeren;
+    case JourneyRegion.dahlak:
+      return l10n.journeyRegionLabelDahlak;
   }
 }
 
@@ -107,11 +126,23 @@ extension JourneyRegionTheme on JourneyRegion {
         // Sunset terracotta - the capstone stop, distinct from every
         // region it draws its grammar practice from.
         return const Color(0xFFD9662D);
-      case JourneyRegion.eritrea:
-        // A deep Red Sea marine blue (Etappe 26) - Eritrea's coastline is
-        // its defining feature, and this reads clearly distinct from
-        // Sidama's lighter lake teal and Addis Abeba's muted slate-blue.
+      case JourneyRegion.asmara:
+        // Warm coral/pink - Asmara's famous Art Deco skyline is built from
+        // exactly this pastel palette (Etappe 27).
+        return const Color(0xFFD97B66);
+      case JourneyRegion.massawa:
+        // The same deep Red Sea marine blue Etappe 26 chose for the single
+        // combined Eritrea node - Massawa is the real port city that art
+        // was always depicting, so it keeps the colour on the new map.
         return const Color(0xFF1D6FA3);
+      case JourneyRegion.keren:
+        // An olive/agricultural green, distinct from Oromia's brighter
+        // highland green - Keren sits in Eritrea's western farming belt.
+        return const Color(0xFF7A8B4F);
+      case JourneyRegion.dahlak:
+        // A light turquoise for the Dahlak archipelago's shallow reef
+        // water - the capstone stop, distinct from Massawa's deeper blue.
+        return const Color(0xFF5EC4C0);
     }
   }
 }

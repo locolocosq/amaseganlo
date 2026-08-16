@@ -1,12 +1,10 @@
 {
   "@@locale": "sv",
   "appTitle": "Habesha Speak",
-
   "navLearn": "Lär dig",
   "navFidel": "Fidel",
   "navReview": "Repetera",
   "navProfile": "Profil",
-
   "commonBack": "Tillbaka",
   "commonNext": "Nästa",
   "commonContinue": "Fortsätt",
@@ -21,7 +19,6 @@
   "commonComingSoon": "Kommer snart",
   "commonDontKnow": "Jag vet inte",
   "commonSkip": "Hoppa över",
-
   "settingsTitle": "Inställningar",
   "settingsLanguage": "Appens språk",
   "settingsAppearance": "Utseende",
@@ -55,12 +52,17 @@
   "settingsReminderPermissionDenied": "Aviseringar är blockerade för Habesha Speak i enhetsinställningarna",
   "settingsReminderTime": "Påminnelsetid",
   "settingsReminderTimeSubtitle": "Påminner dig varje dag kl. {time}",
-  "@settingsReminderTimeSubtitle": { "placeholders": { "time": { "type": "String" } } },
+  "@settingsReminderTimeSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "settingsPremiumSection": "Premium",
   "settingsPremium": "Habesha Speak Premium",
   "settingsPremiumHint": "Lås upp alla stationer",
   "settingsPremiumActive": "Aktiverat - tack för ditt stöd!",
-
   "premiumTitle": "Habesha Speak Premium",
   "premiumHeadline": "Lås upp hela resan",
   "premiumDescription": "De första kapitlen i Station 1 är gratis. Med Habesha Speak Premium fortsätter du lära dig obegränsat - alla stationer, alla kapitel.",
@@ -85,7 +87,6 @@
   "premiumLockedDialogBody": "De första kapitlen i Station 1 är gratis. Med Premium (årligen eller livstid) låser du upp alla ytterligare stationer och kapitel.",
   "premiumLockedDialogAction": "Visa Premium",
   "premiumRequiredBadge": "Premium krävs",
-
   "settingsDataSection": "Data",
   "settingsBackupProgress": "Säkerhetskopiera framsteg",
   "settingsRestoreProgress": "Återställ framsteg",
@@ -95,20 +96,17 @@
   "fidelPathTraditional": "Traditionellt – som i Etiopien",
   "fidelPathFast": "Läs snabbt",
   "settingsSaved": "Inställningar sparade",
-
   "resetProgressTitle": "Återställa framsteg?",
   "resetProgressWarning": "Detta raderar permanent alla dina inlärningsframsteg. Det kan inte ångras.",
   "resetProgressTypeWord": "Skriv \"radera\" för att bekräfta.",
   "resetProgressConfirmWord": "radera",
   "resetProgressDone": "Dina framsteg har återställts.",
-
   "backupProgressDone": "Dina framsteg har säkerhetskopierats.",
   "backupProgressError": "Säkerhetskopieringen misslyckades.",
   "restoreProgressTitle": "Återställa framsteg?",
   "restoreProgressWarning": "Dina nuvarande framsteg ersätts av säkerhetskopian från den här filen. Det kan inte ångras.",
   "restoreProgressDone": "Dina framsteg har återställts från säkerhetskopian.",
   "restoreProgressInvalidFile": "Den här filen är ingen giltig Habesha Speak-säkerhetskopia.",
-
   "aboutVersion": "Version",
   "aboutBuildDate": "Byggdatum",
   "aboutPrivacy": "All din data stannar på den här enheten. Inget konto, ingen server, ingen reklam, ingen spårning.",
@@ -118,7 +116,6 @@
   "aboutShortcutsNext": "Enter: bekräfta / fortsätt",
   "aboutShortcutsCancel": "Escape: avbryt",
   "aboutShortcutsAudio": "Mellanslag: spela upp ljudet igen",
-
   "onboardingWelcomeTitle": "Selam! Välkommen till Habesha Speak",
   "onboardingWelcomeBody": "Habesha Speak lär dig amhariska (አማርኛ), Etiopiens officiella språk.",
   "onboardingChooseLanguage": "Välj appens språk",
@@ -130,24 +127,34 @@
   "onboardingAssessmentSome": "Några ord",
   "onboardingAssessmentGood": "Jag kan redan ganska mycket",
   "onboardingStart": "Sätt igång",
-
   "homeContinueLearning": "Fortsätt lära",
   "homeDailyGoal": "Dagligt mål",
   "homeStreak": "Serie",
   "homeReviewDue": "{count} att repetera idag",
   "@homeReviewDue": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "homeFreePractice": "Fri övning",
   "homeNoReviewsDue": "Inget att repetera just nu. Öva svaga ord istället?",
-
   "pathSectionProgress": "Avsnitt {section}: {title} — {done} av {total} kapitel",
   "@pathSectionProgress": {
     "placeholders": {
-      "section": { "type": "int" },
-      "title": { "type": "String" },
-      "done": { "type": "int" },
-      "total": { "type": "int" }
+      "section": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "pathLocked": "Låst",
@@ -163,74 +170,123 @@
   "regionReviewLockedBody": "Klara alla kapitel i det här stoppet först för att låsa upp fri repetition här.",
   "pathResumeTitle": "Fortsätt lära dig",
   "pathResumeSubtitle": "Fortsätt i {unit}",
-  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
-
+  "@pathResumeSubtitle": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "chapterTestScore": "{correct} av {total} rätt",
-  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "@chapterTestScore": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "chapterTestPassedTitle": "Godkänt!",
   "chapterTestPassedBody": "Du har fått en krona för det här kapitlet.",
   "chapterTestFailedTitle": "Inte riktigt än",
   "chapterTestFailedBody": "Inga problem - orden du svarade fel på har återställts. Försök igen direkt.",
-
   "placementTestTitle": "Placeringstest",
   "placementTestIntro": "Vi ställer några frågor för att hitta bästa startpunkten för dig. Du kan avbryta när som helst.",
   "placementTestStart": "Kör igång",
   "placementTestResultTitle": "Förslag: {section}",
-  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "@placementTestResultTitle": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
   "placementTestResultBody": "Baserat på dina svar föreslår vi att du börjar här. Tidigare kapitel markeras som överhoppade och kan tas igen när som helst.",
   "placementTestResultBodyBeginning": "Att börja från början passar bäst - helt normalt!",
   "placementTestAccept": "Använd detta",
   "placementTestCancel": "Avbryt testet",
-
   "unitOverviewLessons": "Lektioner",
   "unitOverviewWordList": "Ordlista",
   "unitOverviewCrowns": "{crowns} av 5 kronor",
   "@unitOverviewCrowns": {
-    "placeholders": { "crowns": { "type": "int" } }
+    "placeholders": {
+      "crowns": {
+        "type": "int"
+      }
+    }
   },
-
   "lessonExitConfirmTitle": "Avsluta lektionen?",
   "lessonExitConfirmBody": "Dina framsteg i denna lektion går förlorade.",
   "lessonCompleteTitle": "Lektion klar!",
   "lessonCompleteXp": "{xp} XP",
   "@lessonCompleteXp": {
-    "placeholders": { "xp": { "type": "int" } }
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteAccuracy": "Träffsäkerhet: {percent}%",
   "@lessonCompleteAccuracy": {
-    "placeholders": { "percent": { "type": "int" } }
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteDuration": "Tid: {minutes} min",
   "@lessonCompleteDuration": {
-    "placeholders": { "minutes": { "type": "int" } }
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteSkipped": "Överhoppade: {count}",
   "@lessonCompleteSkipped": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteContinue": "Fortsätt",
   "lessonCompleteRetry": "Gör om",
   "lessonOutOfHearts": "Inga hjärtan kvar",
   "lessonOutOfHeartsBody": "Du har använt alla hjärtan för denna lektion. Kom tillbaka senare eller öva igen.",
-
   "feedbackCorrect": "Rätt!",
   "feedbackIncorrect": "Inte riktigt",
   "feedbackAlmostCorrect": "Nästan! Kolla stavningen: {correct}",
   "@feedbackAlmostCorrect": {
-    "placeholders": { "correct": { "type": "String" } }
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      }
+    }
   },
   "feedbackCorrectAnswerWas": "Rätt svar: {answer}",
   "@feedbackCorrectAnswerWas": {
-    "placeholders": { "answer": { "type": "String" } }
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
   },
-
   "reviewTitle": "Repetera",
   "reviewDueToday": "Att göra idag",
   "reviewDifficultWords": "Svåra ord",
   "reviewFreePractice": "Fri övning",
   "reviewEmpty": "Inget att repetera just nu. Bra jobbat!",
   "reviewWordCount": "{count} ord",
-  "@reviewWordCount": { "placeholders": { "count": { "type": "int" } } },
+  "@reviewWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "reviewWordCountOne": "1 ord",
   "reviewStart": "Kör igång",
   "reviewNoWordsForSession": "Det finns inga ord för detta just nu.",
@@ -238,15 +294,19 @@
   "reviewFreePracticeAllLevels": "Alla nivåer",
   "reviewSessionCompleteTitle": "Genomgång klar!",
   "reviewSessionCompleteXp": "+{xp} XP",
-  "@reviewSessionCompleteXp": { "placeholders": { "xp": { "type": "int" } } },
+  "@reviewSessionCompleteXp": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
   "reviewSessionCompleteBody": "Fortsätt så!",
-
   "dictionaryTitle": "Ordbok",
   "dictionarySearchHint": "Sök ord…",
   "dictionaryFilterAll": "Alla ämnen",
   "dictionaryEmpty": "Inga ord inlärda i detta ämne än.",
   "dictionarySearchNoResults": "Inga träffar.",
-
   "profileTitle": "Profil",
   "profileWordsLearned": "Inlärda ord",
   "profileWordsMastered": "Behärskade ord",
@@ -266,7 +326,6 @@
   "profileSkippedUnitsEmpty": "Du har inte hoppat över några kapitel.",
   "profileCatchUp": "Ta igen",
   "profileAssessmentTest": "Placeringstest",
-
   "profileBadgeFirstLessonName": "Första stegen",
   "profileBadgeFirstLessonDesc": "Slutför din första lektion.",
   "profileBadgeStreak7Name": "En vecka igång",
@@ -283,21 +342,17 @@
   "profileBadgeXp1000Desc": "Samla totalt 1000 XP.",
   "profileBadgeFirstCrownName": "Första kronan",
   "profileBadgeFirstCrownDesc": "Klara ditt första kapitel-test.",
-
   "errorGenericTitle": "Något gick fel",
   "errorGenericBody": "Dina framsteg är sparade.",
   "errorGoHome": "Tillbaka till start",
   "errorReload": "Ladda om",
   "errorContentUnit": "Detta kapitel kunde inte laddas och hoppades över.",
   "errorCorruptSave": "Dina sparade data kunde inte läsas. Startar om med tomma data.",
-
   "resumeLessonTitle": "Du var mitt i en lektion",
   "resumeLessonBody": "Vill du fortsätta?",
   "resumeLessonContinue": "Fortsätt",
   "resumeLessonRestart": "Börja om",
-
   "exitAppConfirm": "Tryck tillbaka igen för att avsluta",
-
   "exerciseCheckAnswer": "Kontrollera",
   "exerciseTypeAnswerHint": "Skriv ditt svar…",
   "exercisePairMatchingHint": "Tryck på matchande par",
@@ -307,7 +362,6 @@
   "exerciseAudioUnavailable": "Amhariskt ljud är inte tillgängligt på den här enheten",
   "audioPlayTooltip": "Spela upp ljud",
   "introCardContinue": "Fortsätt",
-
   "lessonKindIntro": "Nya ord",
   "lessonKindWordPractice": "Öva ord",
   "lessonKindSentenceBuilding": "Bygg meningar",
@@ -315,11 +369,17 @@
   "lessonKindFreeApplication": "Fri övning",
   "lessonKindReview": "Repetition",
   "lessonKindUnitTest": "Kapiteltest",
-
   "fidelHomeTitle": "Lär dig Fidel",
   "fidelStageProgress": "Steg {number}: {title}",
   "@fidelStageProgress": {
-    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
   },
   "fidelStageBonus": "Bonus",
   "fidelStageComingSoon": "Kommer snart",
@@ -337,7 +397,11 @@
   "fidelHomophoneTitle": "Obs: samma ljud",
   "fidelHomophoneBody": "Detta tecken låter exakt som {chars}, som du redan känner till. Vilket man skriver beror på ordet - det lär du dig senare vid läsning.",
   "@fidelHomophoneBody": {
-    "placeholders": { "chars": { "type": "String" } }
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
   },
   "fidelVowelExplainerTitle": "Varje tecken är en stavelse",
   "fidelVowelExplainerIntro": "ለ är inte \"l\", det är \"le\" - varje Fidel-tecken står för ett helt stavelsesljud, inte bara en konsonant.",
@@ -352,24 +416,38 @@
   "fidelExplainerContinue": "Fortsätt",
   "fidelLockedDialogTitle": "Detta steg bygger på det föregående",
   "fidelLockedDialogBody": "Du har inte avslutat föregående steg än. Starta trots det?",
-
   "hahuDrillTapHint": "Tryck för nästa tecken",
   "hahuDrillWithTransliteration": "Omgång 1 av 2: med translitterering",
   "hahuDrillCharsOnly": "Omgång 2 av 2: bara tecken",
   "hahuDrillContinue": "Fortsätt",
-
   "journeyWorldMapTitle": "Din Etiopien-resa",
   "journeyDriverWorldMapCurrent": "Nästa stopp: {region}! Hoppa på, nu åker vi.",
-  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverWorldMapCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverWorldMapAllDone": "Du har redan rest över hela kartan! Sugen på en ny runda?",
-  "journeyDriverEritreaCurrent": "Välkommen till Eritrea! Redo för din första tigrinja?",
-  "journeyDriverEritreaAllDone": "Du har redan rest genom hela Eritrea-resan! Sugen på en ny runda?",
   "journeyDriverRegionCurrent": "Välkommen till {region}! Redo för nästa stopp?",
-  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverRegionCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverRegionAllDone": "Det här stoppet känner du redan utan och innan! Titta gärna in igen.",
   "journeyBackToMap": "Tillbaka till kartan",
   "journeyStationNumber": "Stopp {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "@journeyStationNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
   "journeyRegionHarar": "Harar",
   "journeyRegionComingSoon": "Kommer snart",
   "journeyRegionLabelAddisAbeba": "Addis",
@@ -377,7 +455,10 @@
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
   "journeyRegionLabelSafari": "Safari",
-  "journeyRegionLabelEritrea": "Eritrea",
+  "journeyRegionLabelAsmara": "Asmara",
+  "journeyRegionLabelMassawa": "Massawa",
+  "journeyRegionLabelKeren": "Keren",
+  "journeyRegionLabelDahlak": "Dahlak",
   "onboardingEritreaHintTitle": "Nytt: upptäck Eritrea",
   "onboardingEritreaHintBody": "Nu kan du också lära dig tigrinja, språket i Eritrea. Svep bara åt vänster på kartan för att byta från Etiopien-kartan till Eritrea-kartan - och åt höger för att gå tillbaka. Amhariska stannar kvar på sin vanliga karta.",
   "onboardingEritreaHintButton": "Uppfattat"

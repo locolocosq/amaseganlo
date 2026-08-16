@@ -54,7 +54,10 @@ class _JourneyPainter extends CustomPainter {
         break;
       case JourneyRegion.harar:
       case JourneyRegion.safari:
-      case JourneyRegion.eritrea:
+      case JourneyRegion.asmara:
+      case JourneyRegion.massawa:
+      case JourneyRegion.keren:
+      case JourneyRegion.dahlak:
         // This whole painter has had no active caller since Etappe 14 (see
         // class doc below) - not worth a bespoke scene for any of these.
         _sky(canvas, size, const Color(0xFFD8D8D8), const Color(0xFFEDEDED));

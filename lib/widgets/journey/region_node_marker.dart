@@ -279,10 +279,33 @@ class RegionIconPainter extends CustomPainter {
         Sketch.hill(canvas, area, const Color(0xFF7A5A3A), 0.80, 0.04, leftLean: 0.25, rightLean: 0.75);
         Sketch.acacia(canvas, Offset(area.width * 0.68, area.height * 0.86), 0.95);
         break;
-      case JourneyRegion.eritrea:
-        // Eritrea's Red Sea coast (Etappe 26) - Massawa's harbour, a warm
-        // sunset over water with a simple lighthouse marking the port, a
-        // distinct scene from every landlocked region above.
+      case JourneyRegion.asmara:
+        // Asmara's famous Art Deco skyline (Etappe 27) - simple rounded
+        // pastel building silhouettes against a clear highland sky, a
+        // deliberately different city scene from Addis Abeba's slate-blue
+        // towers above.
+        Sketch.sky(canvas, area, const Color(0xFFFCE3D6), const Color(0xFFFFF6EF));
+        Sketch.hill(canvas, area, const Color(0xFFDDBFA0), 0.80, 0.02, leftLean: 0.2, rightLean: 0.8);
+        canvas.drawRRect(
+          RRect.fromRectAndRadius(
+            Rect.fromLTWH(area.width * 0.20, area.height * 0.46, area.width * 0.18, area.height * 0.34),
+            Radius.circular(area.width * 0.09),
+          ),
+          Paint()..color = const Color(0xFFF0B9A0),
+        );
+        canvas.drawRRect(
+          RRect.fromRectAndRadius(
+            Rect.fromLTWH(area.width * 0.44, area.height * 0.36, area.width * 0.14, area.height * 0.44),
+            Radius.circular(area.width * 0.05),
+          ),
+          Paint()..color = const Color(0xFFD97B66),
+        );
+        canvas.drawCircle(Offset(area.width * 0.70, area.height * 0.58), area.width * 0.10, Paint()..color = const Color(0xFFF3D2C2));
+        break;
+      case JourneyRegion.massawa:
+        // Eritrea's Red Sea coast (Etappe 26, kept for Massawa in Etappe
+        // 27) - the harbour, a warm sunset over water with a simple
+        // lighthouse marking the port.
         Sketch.sky(canvas, area, const Color(0xFFFFD9A0), const Color(0xFFB8DDE8));
         Sketch.lake(canvas, area, 0.70);
         Sketch.palm(canvas, Offset(area.width * 0.22, area.height * 0.82), 0.85);
@@ -296,6 +319,29 @@ class RegionIconPainter extends CustomPainter {
           Rect.fromLTWH(towerX - area.width * 0.04, towerBase - area.height * 0.40, area.width * 0.08, area.height * 0.06),
           Paint()..color = const Color(0xFFB8492E),
         );
+        break;
+      case JourneyRegion.keren:
+        // Eritrea's western farming belt (Etappe 27) - rolling hills and
+        // acacias, an olive-green scene distinct from Oromia's brighter
+        // highland green.
+        Sketch.sky(canvas, area, const Color(0xFFE4EFC9), const Color(0xFFF6FBEC));
+        Sketch.hill(canvas, area, const Color(0xFF8FA35C), 0.66, 0.14, leftLean: 0.25, rightLean: 0.7);
+        Sketch.hill(canvas, area, const Color(0xFF7A8B4F), 0.84, 0.08, leftLean: 0.3, rightLean: 0.75);
+        Sketch.acacia(canvas, Offset(area.width * 0.28, area.height * 0.80), 0.9);
+        Sketch.acacia(canvas, Offset(area.width * 0.66, area.height * 0.86), 0.7);
+        break;
+      case JourneyRegion.dahlak:
+        // The Dahlak archipelago (Etappe 27) - the capstone stop, a
+        // scatter of small islands in shallow reef-turquoise water.
+        Sketch.sky(canvas, area, const Color(0xFFCDEFF0), const Color(0xFFEFFBFA));
+        Sketch.lake(canvas, area, 0.58);
+        for (final dx in [0.30, 0.52, 0.70]) {
+          canvas.drawOval(
+            Rect.fromCenter(center: Offset(area.width * dx, area.height * 0.74), width: area.width * 0.14, height: area.height * 0.07),
+            Paint()..color = const Color(0xFFE8D9A8),
+          );
+        }
+        Sketch.palm(canvas, Offset(area.width * 0.52, area.height * 0.74), 0.55);
         break;
     }
   }

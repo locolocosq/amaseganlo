@@ -18,16 +18,18 @@ import '../../widgets/journey/bus_driver.dart';
 import '../../widgets/journey/region_node_marker.dart';
 import '../../widgets/journey/traveling_bus.dart';
 import '../../widgets/journey/world_map_painter.dart';
-import 'eritrea_map_view.dart';
+import 'eritrea_country_map_page.dart';
 
 /// Ebene 1 of the journey map (Etappe 14), now two independent, swipeable
 /// pages (Etappe 27): "Äthiopien" (the original 6-region map, unchanged
-/// content/unlock logic) and "Eritrea" (its own single-stop page,
-/// [EritreaMapView]) - a horizontal [PageView] instead of one combined map,
-/// so a second target language gets its own map rather than one more node
-/// squeezed onto the first. Tapping a region still pushes the Ebene-2
-/// region-detail screen exactly as before; the underlying unlock/progress
-/// rules are untouched, see [JourneyProgress].
+/// content/unlock logic) and "Eritrea" (its own four-region map,
+/// [EritreaCountryMapPage] - Etappe 27's first draft used a single
+/// combined stop here, replaced on request with a full sibling map) - a
+/// horizontal [PageView] instead of one combined map, so a second target
+/// language gets its own map rather than more nodes squeezed onto the
+/// first. Tapping a region still pushes the Ebene-2 region-detail screen
+/// exactly as before; the underlying unlock/progress rules are untouched,
+/// see [JourneyProgress].
 class WorldMapScreen extends StatefulWidget {
   const WorldMapScreen({super.key});
 
@@ -133,7 +135,7 @@ class _WorldMapScreenState extends State<WorldMapScreen> with SingleTickerProvid
                 busController: _busController,
                 onBusTarget: _startBusTravel,
               ),
-              const EritreaMapView(),
+              const EritreaCountryMapPage(),
             ],
           ),
         ),

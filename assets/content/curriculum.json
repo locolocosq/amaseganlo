@@ -553,7 +553,9 @@
     "sentences_eritrea_mehr3.json",
     "sentences_eritrea_mehr4.json",
     "sentences_eritrea_mehr5.json",
-    "sentences_eritrea_mehr6.json"
+    "sentences_eritrea_mehr6.json",
+    "sentences_safari_bindewoerter.json",
+    "sentences_eritrea_dahlak.json"
   ],
   "sections": [
     {
@@ -783,20 +785,20 @@
       },
       "units": [
         "unit_safari_frau_mann",
-        "unit_safari_verben_possessiv"
+        "unit_safari_verben_possessiv",
+        "unit_safari_bindewoerter"
       ],
       "region": "safari"
     },
     {
-      "id": "sec_eritrea",
+      "id": "sec_eritrea_keren",
       "level": "TI",
-      "region": "eritrea",
       "language": "ti",
       "title": {
-        "de": "Eritrea — Tigrinya entdecken",
-        "en": "Eritrea — discovering Tigrinya",
-        "sv": "Eritrea — upptäck tigrinja",
-        "nl": "Eritrea — Tigrinya ontdekken"
+        "de": "Station 1: Keren — das Westland",
+        "en": "Stop 1: Keren — the western lands",
+        "sv": "Stopp 1: Keren — västlandet",
+        "nl": "Stop 1: Keren — het westerland"
       },
       "units": [
         "unit_eritrea_greetings",
@@ -842,7 +844,21 @@
         "unit_eritrea_sport_reise",
         "unit_eritrea_mathematik_mehr",
         "unit_eritrea_mode_pflanzen",
-        "unit_eritrea_kochen_wissenschaft",
+        "unit_eritrea_kochen_wissenschaft"
+      ],
+      "region": "keren"
+    },
+    {
+      "id": "sec_eritrea_asmara",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 2: Asmara — die Hauptstadt",
+        "en": "Stop 2: Asmara — the capital",
+        "sv": "Stopp 2: Asmara — huvudstaden",
+        "nl": "Stop 2: Asmara — de hoofdstad"
+      },
+      "units": [
         "unit_eritrea_beziehungen_emotionen",
         "unit_eritrea_wohnen",
         "unit_eritrea_verben_adjektive",
@@ -886,7 +902,21 @@
         "unit_eritrea_tanzen_gastfreundschaft",
         "unit_eritrea_raumfahrt_archaeologie",
         "unit_eritrea_chemie_computerhardware",
-        "unit_eritrea_wildtiere",
+        "unit_eritrea_wildtiere"
+      ],
+      "region": "asmara"
+    },
+    {
+      "id": "sec_eritrea_massawa",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 3: Massawa — die Rotes-Meer-Küste",
+        "en": "Stop 3: Massawa — the Red Sea coast",
+        "sv": "Stopp 3: Massawa — Röda havets kust",
+        "nl": "Stop 3: Massawa — de Rode Zeekust"
+      },
+      "units": [
         "unit_eritrea_elektrizitaet_fabrik",
         "unit_eritrea_feuerwehr_notdienste",
         "unit_eritrea_flugzeugteile_fotografie",
@@ -930,7 +960,23 @@
         "unit_eritrea_wetterausdruecke_verabschiedung",
         "unit_eritrea_smalltalk_notfallphrasen",
         "unit_eritrea_gluecksphrasen_wuensche"
-      ]
+      ],
+      "region": "massawa"
+    },
+    {
+      "id": "sec_eritrea_dahlak",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 4: Dahlak — Sätze bauen",
+        "en": "Stop 4: Dahlak — building sentences",
+        "sv": "Stopp 4: Dahlak — att bygga meningar",
+        "nl": "Stop 4: Dahlak — zinnen bouwen"
+      },
+      "units": [
+        "unit_eritrea_dahlak_bindewoerter"
+      ],
+      "region": "dahlak"
     }
   ],
   "units": [
@@ -2912,7 +2958,7 @@
     },
     {
       "id": "unit_eritrea_greetings",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Begrüßung & Pronomen",
@@ -2925,7 +2971,7 @@
     },
     {
       "id": "unit_eritrea_family",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Familie",
@@ -2938,7 +2984,7 @@
     },
     {
       "id": "unit_eritrea_numbers",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Zahlen 1-10",
@@ -2951,7 +2997,7 @@
     },
     {
       "id": "unit_eritrea_food",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Essen & Trinken",
@@ -2964,7 +3010,7 @@
     },
     {
       "id": "unit_eritrea_zahlen_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Zahlen 11-1000",
@@ -2977,7 +3023,7 @@
     },
     {
       "id": "unit_eritrea_farben_formen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Farben & Formen",
@@ -2990,7 +3036,7 @@
     },
     {
       "id": "unit_eritrea_koerper_gesundheit",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Körper & Gesundheit",
@@ -3003,7 +3049,7 @@
     },
     {
       "id": "unit_eritrea_kleidung_schmuck",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Kleidung & Schmuck",
@@ -3016,7 +3062,7 @@
     },
     {
       "id": "unit_eritrea_haus_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Haus & Haushalt",
@@ -3029,7 +3075,7 @@
     },
     {
       "id": "unit_eritrea_natur_geographie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Natur & Geografie",
@@ -3042,7 +3088,7 @@
     },
     {
       "id": "unit_eritrea_tiere_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Tiere (mehr)",
@@ -3055,7 +3101,7 @@
     },
     {
       "id": "unit_eritrea_zeit_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Zeit & Datum (mehr)",
@@ -3068,7 +3114,7 @@
     },
     {
       "id": "unit_eritrea_berufe_staat",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Berufe & Staat",
@@ -3081,7 +3127,7 @@
     },
     {
       "id": "unit_eritrea_verkehr_stadt",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Verkehr & Stadt",
@@ -3094,7 +3140,7 @@
     },
     {
       "id": "unit_eritrea_verben",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Verben (Grundlagen)",
@@ -3107,7 +3153,7 @@
     },
     {
       "id": "unit_eritrea_verben_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Verben (mehr)",
@@ -3120,7 +3166,7 @@
     },
     {
       "id": "unit_eritrea_gefuehle_sinne",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Gefühle & Sinne",
@@ -3133,7 +3179,7 @@
     },
     {
       "id": "unit_eritrea_schule_faecher",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Schule & Fächer",
@@ -3146,7 +3192,7 @@
     },
     {
       "id": "unit_eritrea_technologie_masse",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Technologie & Maße",
@@ -3159,7 +3205,7 @@
     },
     {
       "id": "unit_eritrea_sport_freizeit",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Sport & Freizeit",
@@ -3172,7 +3218,7 @@
     },
     {
       "id": "unit_eritrea_kultur",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Kultur & Religion",
@@ -3185,7 +3231,7 @@
     },
     {
       "id": "unit_eritrea_einkaufen_restaurant",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Einkaufen & Restaurant",
@@ -3198,7 +3244,7 @@
     },
     {
       "id": "unit_eritrea_essen_gerichte",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Essen & Gerichte (mehr)",
@@ -3211,7 +3257,7 @@
     },
     {
       "id": "unit_eritrea_familie_pronomen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Familie & Pronomen (mehr)",
@@ -3224,7 +3270,7 @@
     },
     {
       "id": "unit_eritrea_laender",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Länder & Sprachen",
@@ -3237,7 +3283,7 @@
     },
     {
       "id": "unit_eritrea_landwirtschaft_werkzeuge",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Landwirtschaft & Werkzeuge",
@@ -3250,7 +3296,7 @@
     },
     {
       "id": "unit_eritrea_materialien_allgemein",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Materialien & Allgemeines",
@@ -3263,7 +3309,7 @@
     },
     {
       "id": "unit_eritrea_phrasen_ausrufe",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Redewendungen & Ausrufe",
@@ -3276,7 +3322,7 @@
     },
     {
       "id": "unit_eritrea_adverbien_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Adverbien & Präpositionen (mehr)",
@@ -3289,7 +3335,7 @@
     },
     {
       "id": "unit_eritrea_koerperteile_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Körperteile (mehr)",
@@ -3302,7 +3348,7 @@
     },
     {
       "id": "unit_eritrea_finanzen_arbeit",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Finanzen & Arbeit",
@@ -3315,7 +3361,7 @@
     },
     {
       "id": "unit_eritrea_fahrzeuge_buero",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Fahrzeugteile & Bürobedarf",
@@ -3328,7 +3374,7 @@
     },
     {
       "id": "unit_eritrea_musik_feste",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Musik & Feste",
@@ -3341,7 +3387,7 @@
     },
     {
       "id": "unit_eritrea_charakter_vergleich",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Charakter & Vergleiche",
@@ -3354,7 +3400,7 @@
     },
     {
       "id": "unit_eritrea_wetter_geologie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Wetter & Geologie",
@@ -3367,7 +3413,7 @@
     },
     {
       "id": "unit_eritrea_recht_notfall",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Recht & Notfälle",
@@ -3380,7 +3426,7 @@
     },
     {
       "id": "unit_eritrea_kommunikation_dialog",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Kommunikation & Dialog",
@@ -3393,7 +3439,7 @@
     },
     {
       "id": "unit_eritrea_insekten_voegel",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Insekten & Vögel",
@@ -3406,7 +3452,7 @@
     },
     {
       "id": "unit_eritrea_geschichte_bildung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Geschichte & Bildung",
@@ -3419,7 +3465,7 @@
     },
     {
       "id": "unit_eritrea_gesundheit_kinder",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Gesundheit & Kinder (mehr)",
@@ -3432,7 +3478,7 @@
     },
     {
       "id": "unit_eritrea_sport_reise",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Sport & Reisen (mehr)",
@@ -3445,7 +3491,7 @@
     },
     {
       "id": "unit_eritrea_mathematik_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Mathematik & Astronomie (mehr)",
@@ -3458,7 +3504,7 @@
     },
     {
       "id": "unit_eritrea_mode_pflanzen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Mode & Pflanzen",
@@ -3471,7 +3517,7 @@
     },
     {
       "id": "unit_eritrea_kochen_wissenschaft",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_keren",
       "level": "TI",
       "title": {
         "de": "Kochen & Wissenschaft",
@@ -3484,7 +3530,7 @@
     },
     {
       "id": "unit_eritrea_beziehungen_emotionen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Beziehungen & Gefühle (mehr)",
@@ -3497,7 +3543,7 @@
     },
     {
       "id": "unit_eritrea_wohnen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Wohnen",
@@ -3510,7 +3556,7 @@
     },
     {
       "id": "unit_eritrea_verben_adjektive",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Verben & Adjektive (mehr)",
@@ -3523,7 +3569,7 @@
     },
     {
       "id": "unit_eritrea_praepositionen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Präpositionen",
@@ -3536,7 +3582,7 @@
     },
     {
       "id": "unit_eritrea_medizin",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Medizin & Krankenhaus",
@@ -3549,7 +3595,7 @@
     },
     {
       "id": "unit_eritrea_technologie_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Technologie (mehr)",
@@ -3562,7 +3608,7 @@
     },
     {
       "id": "unit_eritrea_umwelt_medien",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Umwelt & Medien",
@@ -3575,7 +3621,7 @@
     },
     {
       "id": "unit_eritrea_hobbys",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Hobbys",
@@ -3588,7 +3634,7 @@
     },
     {
       "id": "unit_eritrea_laender_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Länder (mehr)",
@@ -3601,7 +3647,7 @@
     },
     {
       "id": "unit_eritrea_sport_mehr2",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Sport (mehr)",
@@ -3614,7 +3660,7 @@
     },
     {
       "id": "unit_eritrea_berufe_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Berufe (mehr)",
@@ -3627,7 +3673,7 @@
     },
     {
       "id": "unit_eritrea_wetter_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Wetter (mehr)",
@@ -3640,7 +3686,7 @@
     },
     {
       "id": "unit_eritrea_kleidung_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Kleidung (mehr)",
@@ -3653,7 +3699,7 @@
     },
     {
       "id": "unit_eritrea_recht_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Recht (mehr)",
@@ -3666,7 +3712,7 @@
     },
     {
       "id": "unit_eritrea_meerestiere",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Meerestiere",
@@ -3679,7 +3725,7 @@
     },
     {
       "id": "unit_eritrea_spielzeug",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Spielzeug",
@@ -3692,7 +3738,7 @@
     },
     {
       "id": "unit_eritrea_buero_waehrung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Büro & Währung",
@@ -3705,7 +3751,7 @@
     },
     {
       "id": "unit_eritrea_moebel_kueche",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Möbel & Küchengeschirr",
@@ -3718,7 +3764,7 @@
     },
     {
       "id": "unit_eritrea_bauernhof_landschaft",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Bauernhof & Landschaft",
@@ -3731,7 +3777,7 @@
     },
     {
       "id": "unit_eritrea_post_hygiene",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Post & Hygiene (mehr)",
@@ -3744,7 +3790,7 @@
     },
     {
       "id": "unit_eritrea_phrasen_ausrufe_mehr",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Redewendungen & Ausrufe (mehr)",
@@ -3757,7 +3803,7 @@
     },
     {
       "id": "unit_eritrea_verkehr_flughafen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Verkehr & Flughafen",
@@ -3770,7 +3816,7 @@
     },
     {
       "id": "unit_eritrea_sinne_farben",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Sinne & Farbnuancen",
@@ -3783,7 +3829,7 @@
     },
     {
       "id": "unit_eritrea_literatur",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Literatur",
@@ -3796,7 +3842,7 @@
     },
     {
       "id": "unit_eritrea_versicherung_reparatur",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Versicherung & Reparatur",
@@ -3809,7 +3855,7 @@
     },
     {
       "id": "unit_eritrea_umzug_nachbarschaft",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Umzug & Nachbarschaft",
@@ -3822,7 +3868,7 @@
     },
     {
       "id": "unit_eritrea_schwangerschaft",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Schwangerschaft & Baby",
@@ -3835,7 +3881,7 @@
     },
     {
       "id": "unit_eritrea_handwerk_baustelle",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Handwerk & Baustelle",
@@ -3848,7 +3894,7 @@
     },
     {
       "id": "unit_eritrea_richtungen_uhrzeit",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Richtungen & Uhrzeit",
@@ -3861,7 +3907,7 @@
     },
     {
       "id": "unit_eritrea_universitaet_sprachlernen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Universität & Sprachenlernen",
@@ -3874,7 +3920,7 @@
     },
     {
       "id": "unit_eritrea_bankdienste",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Bankdienste",
@@ -3887,7 +3933,7 @@
     },
     {
       "id": "unit_eritrea_picknick_strand",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Picknick & Strand",
@@ -3900,7 +3946,7 @@
     },
     {
       "id": "unit_eritrea_wanderung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Wandern",
@@ -3913,7 +3959,7 @@
     },
     {
       "id": "unit_eritrea_planeten_mineralien",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Planeten & Mineralien",
@@ -3926,7 +3972,7 @@
     },
     {
       "id": "unit_eritrea_baeume_blumen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Bäume & Blumen",
@@ -3939,7 +3985,7 @@
     },
     {
       "id": "unit_eritrea_gewuerze_backen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Gewürze & Backen",
@@ -3952,7 +3998,7 @@
     },
     {
       "id": "unit_eritrea_getreide",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Getreide",
@@ -3965,7 +4011,7 @@
     },
     {
       "id": "unit_eritrea_diplomatie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Diplomatie",
@@ -3978,7 +4024,7 @@
     },
     {
       "id": "unit_eritrea_internetbegriffe",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Internetbegriffe",
@@ -3991,7 +4037,7 @@
     },
     {
       "id": "unit_eritrea_haustiere_spielplatz",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Haustiere & Spielplatz",
@@ -4004,7 +4050,7 @@
     },
     {
       "id": "unit_eritrea_tanzen_gastfreundschaft",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Tanzen & Gastfreundschaft",
@@ -4017,7 +4063,7 @@
     },
     {
       "id": "unit_eritrea_raumfahrt_archaeologie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Raumfahrt & Archäologie",
@@ -4030,7 +4076,7 @@
     },
     {
       "id": "unit_eritrea_chemie_computerhardware",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Chemie & Computerhardware",
@@ -4043,7 +4089,7 @@
     },
     {
       "id": "unit_eritrea_wildtiere",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_asmara",
       "level": "TI",
       "title": {
         "de": "Wildtiere Afrikas",
@@ -4056,7 +4102,7 @@
     },
     {
       "id": "unit_eritrea_elektrizitaet_fabrik",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Elektrizität & Fabrik",
@@ -4069,7 +4115,7 @@
     },
     {
       "id": "unit_eritrea_feuerwehr_notdienste",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Feuerwehr & Notdienste",
@@ -4082,7 +4128,7 @@
     },
     {
       "id": "unit_eritrea_flugzeugteile_fotografie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Flugzeugteile & Fotografie",
@@ -4095,7 +4141,7 @@
     },
     {
       "id": "unit_eritrea_friseursalon_schneiderei",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Friseursalon & Schneiderei",
@@ -4108,7 +4154,7 @@
     },
     {
       "id": "unit_eritrea_gaerten_gartengeraete",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Gärten & Gartengeräte",
@@ -4121,7 +4167,7 @@
     },
     {
       "id": "unit_eritrea_hochzeitsfeier",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Hochzeitsfeier",
@@ -4134,7 +4180,7 @@
     },
     {
       "id": "unit_eritrea_brettspiele_jahrmarkt",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Brettspiele & Jahrmarkt",
@@ -4147,7 +4193,7 @@
     },
     {
       "id": "unit_eritrea_seefahrt_gewaesser",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Seefahrt & Gewässer",
@@ -4160,7 +4206,7 @@
     },
     {
       "id": "unit_eritrea_sicherheit_verpackung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Sicherheit & Verpackung",
@@ -4173,7 +4219,7 @@
     },
     {
       "id": "unit_eritrea_veranstaltung_zirkus",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Veranstaltung & Zirkus",
@@ -4186,7 +4232,7 @@
     },
     {
       "id": "unit_eritrea_textilien_mode2",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Textilien & Modebranche",
@@ -4199,7 +4245,7 @@
     },
     {
       "id": "unit_eritrea_reinigung_kunstwerke",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Reinigung & Kunstwerke",
@@ -4212,7 +4258,7 @@
     },
     {
       "id": "unit_eritrea_modeaccessoires_bergbau",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Mode-Accessoires & Bergbau",
@@ -4225,7 +4271,7 @@
     },
     {
       "id": "unit_eritrea_kalligraphie_gastronomie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Kalligraphie & Gastronomie",
@@ -4238,7 +4284,7 @@
     },
     {
       "id": "unit_eritrea_zoo_wildpflege",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Zoo & Tierpflege",
@@ -4251,7 +4297,7 @@
     },
     {
       "id": "unit_eritrea_gletscher_schmetterlinge",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Gletscher & Insekten",
@@ -4264,7 +4310,7 @@
     },
     {
       "id": "unit_eritrea_flohmarkt_supermarkt",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Flohmarkt & Supermarkt",
@@ -4277,7 +4323,7 @@
     },
     {
       "id": "unit_eritrea_optik_zahnarzt",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Optiker & Zahnarzt",
@@ -4290,7 +4336,7 @@
     },
     {
       "id": "unit_eritrea_brauerei_kaffeezeremonie",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Brauerei & Kaffeezeremonie",
@@ -4303,7 +4349,7 @@
     },
     {
       "id": "unit_eritrea_erstehilfe_notdienste2",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Erste Hilfe",
@@ -4316,7 +4362,7 @@
     },
     {
       "id": "unit_eritrea_mobilfunk_technikphrasen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Mobilfunk & Technikprobleme",
@@ -4329,7 +4375,7 @@
     },
     {
       "id": "unit_eritrea_steuern_immobilien",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Steuern & Immobilien",
@@ -4342,7 +4388,7 @@
     },
     {
       "id": "unit_eritrea_architektur_denkmal",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Architektur & Denkmäler",
@@ -4355,7 +4401,7 @@
     },
     {
       "id": "unit_eritrea_seniorenpflege_jugend",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Seniorenpflege & Jugend",
@@ -4368,7 +4414,7 @@
     },
     {
       "id": "unit_eritrea_energie2_landwirtschaft2",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Erneuerbare Energie & Landwirtschaft (mehr)",
@@ -4381,7 +4427,7 @@
     },
     {
       "id": "unit_eritrea_fleischerei_baeckerei",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Metzgerei & Bäckerei",
@@ -4394,7 +4440,7 @@
     },
     {
       "id": "unit_eritrea_tankstelle_bibliothek",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Tankstelle & Bibliothek",
@@ -4407,7 +4453,7 @@
     },
     {
       "id": "unit_eritrea_gesten_koerperhaltung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Gestik & Körperhaltung",
@@ -4420,7 +4466,7 @@
     },
     {
       "id": "unit_eritrea_briefmarken_traeume",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Sammeln & Träume",
@@ -4433,7 +4479,7 @@
     },
     {
       "id": "unit_eritrea_gewohnheiten_meinungen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Gewohnheiten & Meinungen",
@@ -4446,7 +4492,7 @@
     },
     {
       "id": "unit_eritrea_konflikt_zustimmung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Konflikt & Zustimmung",
@@ -4459,7 +4505,7 @@
     },
     {
       "id": "unit_eritrea_erinnerung_zukunftsplaene",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Erinnerung & Zukunftspläne",
@@ -4472,7 +4518,7 @@
     },
     {
       "id": "unit_eritrea_hoeflichkeit_zustaende",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Höflichkeit & Zustände",
@@ -4485,7 +4531,7 @@
     },
     {
       "id": "unit_eritrea_bewegung_koerperfunktionen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Bewegung & Körperfunktionen",
@@ -4498,7 +4544,7 @@
     },
     {
       "id": "unit_eritrea_geraeusche_licht",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Geräusche & Licht",
@@ -4511,7 +4557,7 @@
     },
     {
       "id": "unit_eritrea_temperatur_form_textur",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Temperatur & Textur",
@@ -4524,7 +4570,7 @@
     },
     {
       "id": "unit_eritrea_menge_gefahren",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Menge & Gefahren",
@@ -4537,7 +4583,7 @@
     },
     {
       "id": "unit_eritrea_veraenderung_vergleiche2",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Veränderung & Vergleiche (mehr)",
@@ -4550,7 +4596,7 @@
     },
     {
       "id": "unit_eritrea_position_haeufigkeit",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Position & Häufigkeit",
@@ -4563,7 +4609,7 @@
     },
     {
       "id": "unit_eritrea_konjunktionen_geld_ausdruecke",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Konjunktionen & Geldausdrücke",
@@ -4576,7 +4622,7 @@
     },
     {
       "id": "unit_eritrea_wetterausdruecke_verabschiedung",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Wetterausdrücke & Verabschiedung",
@@ -4589,7 +4635,7 @@
     },
     {
       "id": "unit_eritrea_smalltalk_notfallphrasen",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Small Talk & Notfallphrasen",
@@ -4602,7 +4648,7 @@
     },
     {
       "id": "unit_eritrea_gluecksphrasen_wuensche",
-      "sectionId": "sec_eritrea",
+      "sectionId": "sec_eritrea_massawa",
       "level": "TI",
       "title": {
         "de": "Glückwünsche & Wünsche",
@@ -4612,6 +4658,32 @@
       },
       "topic": "congratulations_wishes",
       "lessonFile": "unit_eritrea_gluecksphrasen_wuensche_lessons.json"
+    },
+    {
+      "id": "unit_safari_bindewoerter",
+      "sectionId": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Sie und er: Sätze mit Bindewörtern",
+        "en": "She and he: sentences with conjunctions",
+        "sv": "Hon och han: meningar med bindeord",
+        "nl": "Zij en hij: zinnen met voegwoorden"
+      },
+      "topic": "conjunctions_review",
+      "lessonFile": "unit_safari_bindewoerter_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_dahlak_bindewoerter",
+      "sectionId": "sec_eritrea_dahlak",
+      "level": "TI",
+      "title": {
+        "de": "Zusammen: Sätze mit Bindewörtern",
+        "en": "Together: sentences with conjunctions",
+        "sv": "Tillsammans: meningar med bindeord",
+        "nl": "Samen: zinnen met voegwoorden"
+      },
+      "topic": "conjunctions_review",
+      "lessonFile": "unit_eritrea_dahlak_bindewoerter_lessons.json"
     }
   ]
 }

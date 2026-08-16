@@ -1,12 +1,10 @@
 {
   "@@locale": "de",
   "appTitle": "Habesha Speak",
-
   "navLearn": "Lernen",
   "navFidel": "Fidel",
   "navReview": "Wiederholen",
   "navProfile": "Profil",
-
   "commonBack": "Zurück",
   "commonNext": "Weiter",
   "commonContinue": "Weiter",
@@ -21,7 +19,6 @@
   "commonComingSoon": "Kommt bald",
   "commonDontKnow": "Ich weiß es nicht",
   "commonSkip": "Überspringen",
-
   "settingsTitle": "Einstellungen",
   "settingsLanguage": "Sprache der Oberfläche",
   "settingsAppearance": "Erscheinungsbild",
@@ -55,12 +52,17 @@
   "settingsReminderPermissionDenied": "Benachrichtigungen sind für Habesha Speak in den Geräteeinstellungen blockiert",
   "settingsReminderTime": "Erinnerungszeit",
   "settingsReminderTimeSubtitle": "Erinnert dich täglich um {time}",
-  "@settingsReminderTimeSubtitle": { "placeholders": { "time": { "type": "String" } } },
+  "@settingsReminderTimeSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
   "settingsPremiumSection": "Premium",
   "settingsPremium": "Habesha Speak Premium",
   "settingsPremiumHint": "Alle Stationen freischalten",
   "settingsPremiumActive": "Aktiv - danke für deine Unterstützung!",
-
   "premiumTitle": "Habesha Speak Premium",
   "premiumHeadline": "Schalte die ganze Reise frei",
   "premiumDescription": "Die ersten Kapitel von Station 1 sind kostenlos. Mit Habesha Speak Premium lernst du unbegrenzt weiter - alle Stationen, alle Kapitel.",
@@ -85,7 +87,6 @@
   "premiumLockedDialogBody": "Die ersten Kapitel von Station 1 sind kostenlos. Mit Premium (jährlich oder lebenslang) schaltest du alle weiteren Stationen und Kapitel frei.",
   "premiumLockedDialogAction": "Premium ansehen",
   "premiumRequiredBadge": "Premium erforderlich",
-
   "settingsDataSection": "Daten",
   "settingsBackupProgress": "Fortschritt sichern",
   "settingsRestoreProgress": "Fortschritt wiederherstellen",
@@ -95,20 +96,17 @@
   "fidelPathTraditional": "Traditionell – wie in Äthiopien",
   "fidelPathFast": "Schnell lesen",
   "settingsSaved": "Einstellungen gespeichert",
-
   "resetProgressTitle": "Fortschritt zurücksetzen?",
   "resetProgressWarning": "Damit wird dein gesamter Lernfortschritt endgültig gelöscht. Das kann nicht rückgängig gemacht werden.",
   "resetProgressTypeWord": "Tippe \"löschen\" zur Bestätigung.",
   "resetProgressConfirmWord": "löschen",
   "resetProgressDone": "Dein Fortschritt wurde zurückgesetzt.",
-
   "backupProgressDone": "Dein Fortschritt wurde gesichert.",
   "backupProgressError": "Sichern ist fehlgeschlagen.",
   "restoreProgressTitle": "Fortschritt wiederherstellen?",
   "restoreProgressWarning": "Dein aktueller Fortschritt wird durch die Sicherung aus dieser Datei ersetzt. Das kann nicht rückgängig gemacht werden.",
   "restoreProgressDone": "Dein Fortschritt wurde wiederhergestellt.",
   "restoreProgressInvalidFile": "Diese Datei ist keine gültige Habesha-Speak-Sicherung.",
-
   "aboutVersion": "Version",
   "aboutBuildDate": "Erstellungsdatum",
   "aboutPrivacy": "Alle deine Daten bleiben auf diesem Gerät. Kein Konto, kein Server, keine Werbung, kein Tracking.",
@@ -118,7 +116,6 @@
   "aboutShortcutsNext": "Enter: bestätigen / weiter",
   "aboutShortcutsCancel": "Escape: abbrechen",
   "aboutShortcutsAudio": "Leertaste: Ton erneut abspielen",
-
   "onboardingWelcomeTitle": "Selam! Willkommen bei Habesha Speak",
   "onboardingWelcomeBody": "Habesha Speak bringt dir Amharisch (አማርኛ) bei, die Amtssprache Äthiopiens.",
   "onboardingChooseLanguage": "Wähle die Sprache der App",
@@ -130,24 +127,34 @@
   "onboardingAssessmentSome": "Ein paar Wörter",
   "onboardingAssessmentGood": "Ich kann schon einiges",
   "onboardingStart": "Los geht's",
-
   "homeContinueLearning": "Weiterlernen",
   "homeDailyGoal": "Tagesziel",
   "homeStreak": "Serie",
   "homeReviewDue": "{count} heute fällig",
   "@homeReviewDue": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "homeFreePractice": "Freies Üben",
   "homeNoReviewsDue": "Gerade nichts fällig. Stattdessen schwache Wörter üben?",
-
   "pathSectionProgress": "Abschnitt {section}: {title} — {done} von {total} Kapiteln",
   "@pathSectionProgress": {
     "placeholders": {
-      "section": { "type": "int" },
-      "title": { "type": "String" },
-      "done": { "type": "int" },
-      "total": { "type": "int" }
+      "section": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
     }
   },
   "pathLocked": "Gesperrt",
@@ -163,74 +170,123 @@
   "regionReviewLockedBody": "Schließe erst alle Kapitel dieser Station ab, um hier frei zu wiederholen.",
   "pathResumeTitle": "Weiterlernen",
   "pathResumeSubtitle": "Weiter in {unit}",
-  "@pathResumeSubtitle": { "placeholders": { "unit": { "type": "String" } } },
-
+  "@pathResumeSubtitle": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
   "chapterTestScore": "{correct} von {total} richtig",
-  "@chapterTestScore": { "placeholders": { "correct": { "type": "int" }, "total": { "type": "int" } } },
+  "@chapterTestScore": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
   "chapterTestPassedTitle": "Bestanden!",
   "chapterTestPassedBody": "Du hast eine Krone für dieses Kapitel verdient.",
   "chapterTestFailedTitle": "Noch nicht bestanden",
   "chapterTestFailedBody": "Kein Problem - die falsch beantworteten Wörter wurden zurückgesetzt. Versuch's gleich nochmal.",
-
   "placementTestTitle": "Einstufungstest",
   "placementTestIntro": "Wir stellen dir ein paar Fragen, um herauszufinden, wo du am besten anfängst. Du kannst jederzeit abbrechen.",
   "placementTestStart": "Los geht's",
   "placementTestResultTitle": "Vorschlag: {section}",
-  "@placementTestResultTitle": { "placeholders": { "section": { "type": "String" } } },
+  "@placementTestResultTitle": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
   "placementTestResultBody": "Basierend auf deinen Antworten schlagen wir vor, hier anzufangen. Frühere Kapitel gelten als übersprungen und lassen sich jederzeit nachholen.",
   "placementTestResultBodyBeginning": "Am besten fängst du ganz am Anfang an - das ist völlig normal!",
   "placementTestAccept": "Übernehmen",
   "placementTestCancel": "Test abbrechen",
-
   "unitOverviewLessons": "Lektionen",
   "unitOverviewWordList": "Wortliste",
   "unitOverviewCrowns": "{crowns} von 5 Kronen",
   "@unitOverviewCrowns": {
-    "placeholders": { "crowns": { "type": "int" } }
+    "placeholders": {
+      "crowns": {
+        "type": "int"
+      }
+    }
   },
-
   "lessonExitConfirmTitle": "Lektion wirklich beenden?",
   "lessonExitConfirmBody": "Dein Fortschritt in dieser Lektion geht verloren.",
   "lessonCompleteTitle": "Lektion abgeschlossen!",
   "lessonCompleteXp": "{xp} XP",
   "@lessonCompleteXp": {
-    "placeholders": { "xp": { "type": "int" } }
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteAccuracy": "Trefferquote: {percent}%",
   "@lessonCompleteAccuracy": {
-    "placeholders": { "percent": { "type": "int" } }
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteDuration": "Dauer: {minutes} Min.",
   "@lessonCompleteDuration": {
-    "placeholders": { "minutes": { "type": "int" } }
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteSkipped": "Übersprungen: {count}",
   "@lessonCompleteSkipped": {
-    "placeholders": { "count": { "type": "int" } }
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
   },
   "lessonCompleteContinue": "Weiter",
   "lessonCompleteRetry": "Nochmal",
   "lessonOutOfHearts": "Keine Herzen mehr",
   "lessonOutOfHeartsBody": "Du hast alle Herzen für diese Lektion verbraucht. Komm später wieder oder übe erneut.",
-
   "feedbackCorrect": "Richtig!",
   "feedbackIncorrect": "Nicht ganz",
   "feedbackAlmostCorrect": "Fast! Achte auf die Schreibweise: {correct}",
   "@feedbackAlmostCorrect": {
-    "placeholders": { "correct": { "type": "String" } }
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      }
+    }
   },
   "feedbackCorrectAnswerWas": "Richtige Antwort: {answer}",
   "@feedbackCorrectAnswerWas": {
-    "placeholders": { "answer": { "type": "String" } }
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
   },
-
   "reviewTitle": "Wiederholen",
   "reviewDueToday": "Heute fällig",
   "reviewDifficultWords": "Schwierige Wörter",
   "reviewFreePractice": "Freies Üben",
   "reviewEmpty": "Gerade nichts zu wiederholen. Weiter so!",
   "reviewWordCount": "{count} Wörter",
-  "@reviewWordCount": { "placeholders": { "count": { "type": "int" } } },
+  "@reviewWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "reviewWordCountOne": "1 Wort",
   "reviewStart": "Los geht's",
   "reviewNoWordsForSession": "Dafür gibt es aktuell keine Wörter.",
@@ -238,15 +294,19 @@
   "reviewFreePracticeAllLevels": "Alle Stufen",
   "reviewSessionCompleteTitle": "Wiederholung abgeschlossen!",
   "reviewSessionCompleteXp": "+{xp} XP",
-  "@reviewSessionCompleteXp": { "placeholders": { "xp": { "type": "int" } } },
+  "@reviewSessionCompleteXp": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
   "reviewSessionCompleteBody": "Weiter so!",
-
   "dictionaryTitle": "Wörterbuch",
   "dictionarySearchHint": "Wörter suchen…",
   "dictionaryFilterAll": "Alle Themen",
   "dictionaryEmpty": "In diesem Thema noch keine Wörter gelernt.",
   "dictionarySearchNoResults": "Keine Treffer.",
-
   "profileTitle": "Profil",
   "profileWordsLearned": "Gelernte Wörter",
   "profileWordsMastered": "Gemeisterte Wörter",
@@ -266,7 +326,6 @@
   "profileSkippedUnitsEmpty": "Du hast noch keine Kapitel übersprungen.",
   "profileCatchUp": "Nachholen",
   "profileAssessmentTest": "Einstufungstest",
-
   "profileBadgeFirstLessonName": "Erste Schritte",
   "profileBadgeFirstLessonDesc": "Schließe deine erste Lektion ab.",
   "profileBadgeStreak7Name": "Eine Woche dabei",
@@ -283,21 +342,17 @@
   "profileBadgeXp1000Desc": "Sammle insgesamt 1000 XP.",
   "profileBadgeFirstCrownName": "Erste Krone",
   "profileBadgeFirstCrownDesc": "Bestehe deinen ersten Kapitel-Test.",
-
   "errorGenericTitle": "Da ist etwas schiefgelaufen",
   "errorGenericBody": "Dein Fortschritt ist gespeichert.",
   "errorGoHome": "Zurück zur Startseite",
   "errorReload": "Neu laden",
   "errorContentUnit": "Dieses Kapitel konnte nicht geladen werden und wurde übersprungen.",
   "errorCorruptSave": "Deine gespeicherten Daten konnten nicht gelesen werden. Es wird neu gestartet.",
-
   "resumeLessonTitle": "Du warst mitten in einer Lektion",
   "resumeLessonBody": "Weitermachen?",
   "resumeLessonContinue": "Weitermachen",
   "resumeLessonRestart": "Neu beginnen",
-
   "exitAppConfirm": "Noch einmal drücken zum Beenden",
-
   "exerciseCheckAnswer": "Prüfen",
   "exerciseTypeAnswerHint": "Antwort eingeben…",
   "exercisePairMatchingHint": "Tippe passende Paare an",
@@ -307,7 +362,6 @@
   "exerciseAudioUnavailable": "Ton für Amharisch ist auf diesem Gerät nicht verfügbar",
   "audioPlayTooltip": "Ton abspielen",
   "introCardContinue": "Weiter",
-
   "lessonKindIntro": "Neue Wörter",
   "lessonKindWordPractice": "Wörter üben",
   "lessonKindSentenceBuilding": "Sätze bauen",
@@ -315,11 +369,17 @@
   "lessonKindFreeApplication": "Freies Anwenden",
   "lessonKindReview": "Wiederholung",
   "lessonKindUnitTest": "Kapitel-Test",
-
   "fidelHomeTitle": "Fidel lernen",
   "fidelStageProgress": "Stufe {number}: {title}",
   "@fidelStageProgress": {
-    "placeholders": { "number": { "type": "int" }, "title": { "type": "String" } }
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
   },
   "fidelStageBonus": "Bonus",
   "fidelStageComingSoon": "Kommt bald",
@@ -337,7 +397,11 @@
   "fidelHomophoneTitle": "Achtung: gleicher Laut",
   "fidelHomophoneBody": "Dieses Zeichen klingt genauso wie {chars}, das du schon kennst. Welches man schreibt, hängt vom Wort ab - das lernst du später beim Lesen mit.",
   "@fidelHomophoneBody": {
-    "placeholders": { "chars": { "type": "String" } }
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
   },
   "fidelVowelExplainerTitle": "Jedes Zeichen ist eine Silbe",
   "fidelVowelExplainerIntro": "ለ ist nicht „l“, sondern „le“ - jedes Fidel-Zeichen steht für einen ganzen Silben-Klang, nicht nur einen Konsonanten.",
@@ -352,24 +416,38 @@
   "fidelExplainerContinue": "Weiter",
   "fidelLockedDialogTitle": "Diese Stufe baut auf der vorherigen auf",
   "fidelLockedDialogBody": "Du hast die vorherige Stufe noch nicht abgeschlossen. Trotzdem starten?",
-
   "hahuDrillTapHint": "Tippen für das nächste Zeichen",
   "hahuDrillWithTransliteration": "Durchgang 1 von 2: mit Umschrift",
   "hahuDrillCharsOnly": "Durchgang 2 von 2: nur Zeichen",
   "hahuDrillContinue": "Weiter",
-
   "journeyWorldMapTitle": "Deine Äthiopien-Reise",
   "journeyDriverWorldMapCurrent": "Nächster Halt: {region}! Steig ein, wir fahren los.",
-  "@journeyDriverWorldMapCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverWorldMapCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverWorldMapAllDone": "Du hast schon die ganze Karte bereist! Lust auf eine weitere Runde?",
-  "journeyDriverEritreaCurrent": "Willkommen in Eritrea! Bereit für dein erstes Tigrinya?",
-  "journeyDriverEritreaAllDone": "Du hast schon die ganze Eritrea-Reise geschafft! Lust auf eine weitere Runde?",
   "journeyDriverRegionCurrent": "Willkommen in {region}! Bereit für die nächste Station?",
-  "@journeyDriverRegionCurrent": { "placeholders": { "region": { "type": "String" } } },
+  "@journeyDriverRegionCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
   "journeyDriverRegionAllDone": "Diese Station kennst du schon in- und auswendig! Schau gern trotzdem nochmal vorbei.",
   "journeyBackToMap": "Zurück zur Karte",
   "journeyStationNumber": "Station {number}",
-  "@journeyStationNumber": { "placeholders": { "number": { "type": "int" } } },
+  "@journeyStationNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
   "journeyRegionHarar": "Harar",
   "journeyRegionComingSoon": "Bald verfügbar",
   "journeyRegionLabelAddisAbeba": "Addis",
@@ -377,7 +455,10 @@
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
   "journeyRegionLabelSafari": "Safari",
-  "journeyRegionLabelEritrea": "Eritrea",
+  "journeyRegionLabelAsmara": "Asmara",
+  "journeyRegionLabelMassawa": "Massawa",
+  "journeyRegionLabelKeren": "Keren",
+  "journeyRegionLabelDahlak": "Dahlak",
   "onboardingEritreaHintTitle": "Neu: Eritrea entdecken",
   "onboardingEritreaHintBody": "Ab sofort kannst du hier auch Tigrinya lernen, die Sprache Eritreas. Wisch auf der Karte einfach nach links, um von der Äthiopien-Karte zur Eritrea-Karte zu wechseln - und zurück nach rechts. Amharisch bleibt auf seiner gewohnten Karte.",
   "onboardingEritreaHintButton": "Verstanden"

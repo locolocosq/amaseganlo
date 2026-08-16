@@ -2248,3 +2248,23 @@ Zweite Ausbaurunde auf demselben Weg wie der erste Nachtrag - 253 weitere Woerte
 | Tigrinya | እንቋዕ ሓጎሰካ ኣሎ። | iniqua'i hagoseka alo. | sen_ti_gluecksphrasen_wuensche_1.mp3 |
 
 **Neuer Gesamtstand Tigrinya nach Runde 6 (Zielerreichung):** 2001 Woerter, 135 Saetze ueber 131 Stationen. Damit ist die vom Nutzer angeordnete Zielmarke von ca. 2000 Woertern erreicht.
+| Amharisch | እሱ ደግ ነው፣ ግን እሷ ትንሽ ናት። | issu deg new, gin iswa tinish nat. | sen_safari_bw_deg_tinish.mp3 |
+| Amharisch | አንተ ብልህ ነህ፣ ግን አንቺ ደካማ ነሽ። | ante bilih neh, gin anchi dekama nesh. | sen_safari_bw_bilih_dekama.mp3 |
+| Amharisch | እሱ ትልቅ ነው እና እሷ ቆንጆ ናት። | issu tilik' new ina iswa konjo nat. | sen_safari_bw_tilik_konjo.mp3 |
+| Amharisch | አንተ ፈጣን ነህ እና አንቺ ብልህ ነሽ። | ante fetan neh ina anchi bilih nesh. | sen_safari_bw_fetan_bilih.mp3 |
+| Amharisch | እሱ ጤናማ ነው ወይም ደካማ ነው። | issu t'enama new weyim dekama new. | sen_safari_bw_tenama_dekama.mp3 |
+| Amharisch | እሷ ሀብታም ናት ወይም ድሃ ናት። | iswa habtam nat weyim dha nat. | sen_safari_bw_habtam_dha.mp3 |
+| Amharisch | እሱ ሀብታም ነው፣ ስለዚህ እሷ ደስተኛ ናት። | issu habtam new, silezih iswa destegna nat. | sen_safari_bw_habtam_destegna.mp3 |
+| Amharisch | አንተ ጠንካራ ነህ፣ ስለዚህ አንቺ ጤናማ ነሽ። | ante t'enkara neh, silezih anchi t'enama nesh. | sen_safari_bw_tenkara_tenama.mp3 |
+| Amharisch | እሱ ደካማ ነው፣ እያለ እሷ ጠንካራ ናት። | issu dekama new, iyale iswa t'enkara nat. | sen_safari_bw_dekama_tenkara.mp3 |
+| Amharisch | እሱ አሮጌ ነው፣ ምንም እንኳን እሷ ጠንካራ ናት። | issu aroge new, minim inikwan iswa t'enkara nat. | sen_safari_bw_aroge_tenkara.mp3 |
+| Tigrinya | ማይ ኣሎ፣ ከምኡውን ቡን ኣሎ። | mai alo, kem'uwin bun alo. | sen_ti_dahlak_mai_bun.mp3 |
+| Tigrinya | ገዛ ኣሎ፣ ግን ስጋ ኣሎ። | geza alo, gini siga alo. | sen_ti_dahlak_geza_siga.mp3 |
+| Tigrinya | ባኒ ኣሎ ወይ ሻሂ ኣሎ። | bani alo wey shai alo. | sen_ti_dahlak_bani_shai.mp3 |
+| Tigrinya | ኣቦ ኣሎ፣ ስለዚ ኣደ ኣሎ። | abo alo, silezi ade alo. | sen_ti_dahlak_abo_ade.mp3 |
+| Tigrinya | ሓው ኣሎ እንተ ሓፍቲ ኣሎ። | haw alo 'inite hafti alo. | sen_ti_dahlak_haw_hafti.mp3 |
+| Tigrinya | ማይ ኣሎ፣ እኳ እንተኾነ ቡን ኣሎ። | mai alo, 'ikua 'initekhone bun alo. | sen_ti_dahlak_mai_bun2.mp3 |
+| Tigrinya | ገዛ ኣሎ፣ ከምኡውን ባኒ ኣሎ። | geza alo, kem'uwin bani alo. | sen_ti_dahlak_geza_bani.mp3 |
+| Tigrinya | ስጋ ኣሎ፣ ግን ማይ ኣሎ። | siga alo, gini mai alo. | sen_ti_dahlak_siga_mai.mp3 |
+| Tigrinya | ኣቦ ኣሎ ወይ ኣደ ኣሎ። | abo alo wey ade alo. | sen_ti_dahlak_abo_ade2.mp3 |
+| Tigrinya | ሓው ኣሎ፣ ስለዚ ሓፍቲ ኣሎ። | haw alo, silezi hafti alo. | sen_ti_dahlak_haw_hafti2.mp3 |

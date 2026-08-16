@@ -1836,18 +1836,6 @@ abstract class AppLocalizations {
   /// **'You\'ve travelled the whole map already! Fancy another round?'**
   String get journeyDriverWorldMapAllDone;
 
-  /// No description provided for @journeyDriverEritreaCurrent.
-  ///
-  /// In en, this message translates to:
-  /// **'Welcome to Eritrea! Ready for your first Tigrinya?'**
-  String get journeyDriverEritreaCurrent;
-
-  /// No description provided for @journeyDriverEritreaAllDone.
-  ///
-  /// In en, this message translates to:
-  /// **'You\'ve travelled the whole Eritrea journey already! Fancy another round?'**
-  String get journeyDriverEritreaAllDone;
-
   /// No description provided for @journeyDriverRegionCurrent.
   ///
   /// In en, this message translates to:
@@ -1914,11 +1902,29 @@ abstract class AppLocalizations {
   /// **'Safari'**
   String get journeyRegionLabelSafari;
 
-  /// No description provided for @journeyRegionLabelEritrea.
+  /// No description provided for @journeyRegionLabelAsmara.
   ///
   /// In en, this message translates to:
-  /// **'Eritrea'**
-  String get journeyRegionLabelEritrea;
+  /// **'Asmara'**
+  String get journeyRegionLabelAsmara;
+
+  /// No description provided for @journeyRegionLabelMassawa.
+  ///
+  /// In en, this message translates to:
+  /// **'Massawa'**
+  String get journeyRegionLabelMassawa;
+
+  /// No description provided for @journeyRegionLabelKeren.
+  ///
+  /// In en, this message translates to:
+  /// **'Keren'**
+  String get journeyRegionLabelKeren;
+
+  /// No description provided for @journeyRegionLabelDahlak.
+  ///
+  /// In en, this message translates to:
+  /// **'Dahlak'**
+  String get journeyRegionLabelDahlak;
 
   /// No description provided for @onboardingEritreaHintTitle.
   ///

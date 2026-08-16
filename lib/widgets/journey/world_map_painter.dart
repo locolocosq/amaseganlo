@@ -150,10 +150,15 @@ class WorldMapPainter extends CustomPainter {
             Sketch.acacia(canvas, spot, 0.7 + rng.nextDouble() * 0.5);
           }
           break;
-        case JourneyRegion.eritrea:
-          // Etappe 26: palm trees along the coast - matching the region's
-          // own medallion (region_node_marker.dart).
-          Sketch.palm(canvas, spot, 0.7 + rng.nextDouble() * 0.4);
+        case JourneyRegion.asmara:
+        case JourneyRegion.massawa:
+        case JourneyRegion.keren:
+        case JourneyRegion.dahlak:
+          // This painter only ever iterates WorldMapLayout.order, which is
+          // Ethiopia-only since Etappe 27 (Eritrea's four stops live on
+          // their own EritreaCountryMap/EritreaCountryPainter instead) -
+          // these cases exist purely so the switch stays exhaustive over
+          // every JourneyRegion value, and are never actually reached.
           break;
       }
     }

@@ -726,3 +726,74 @@ zwei Seiten: die unveränderte Äthiopien-Karte (jetzt `_EthiopiaMapPage`, 6 Reg
   (`world_map_swipe_test.dart` für das Wischen selbst, `journey_progress_test.dart` für die
   Freischaltungsgrenze).
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 233/233 grün.
+
+## Etappe 27 Nachtrag: Eritrea-Karte wird zur echten 4-Regionen-Länderkarte
+
+Direkt nach Etappe 27 stellte sich heraus, dass der einzelne Eritrea-Knoten den Nutzerwunsch nicht
+traf: gewollt war von Anfang an eine vollwertige zweite Länderkarte analog zu Äthiopien, mit
+mehreren "Ober-Stationen", eigenen Detailkarten pro Region, einer Straße mit Bus dazwischen und
+entsprechend vielen Reisepass-Stempeln. Nach zwei weiteren, vom Nutzer präzisierten Anfragen (erst
+3 Regionen, dann 4 mit einer Grammatik-Abschlussstation wie Äthiopiens "Safari") wurde die 131
+Tigrinya-Stationen umfassende `sec_eritrea`-Sektion auf vier Regionen aufgeteilt: **Keren**
+(Westland, 44 Einheiten, bestehender Wortschatz), **Asmara** (Hauptstadt, 44 Einheiten),
+**Massawa** (Rotes-Meer-Küste, 43 Einheiten) und neu **Dahlak** (Abschlussstation, 1 Einheit mit
+10 neuen Bindewort-Sätzen, kein neuer Wortschatz - exakt das gleiche Muster wie Äthiopiens Safari).
+
+- **Unabhängige/parallele statt gemeinsame Implementierung, bewusst.** `EritreaCountryMap`
+  (`lib/core/eritrea_map_layout.dart`) und `EritreaCountryPainter` dupliziert das Muster von
+  `EthiopiaMap`/`WorldMapPainter` fast eins zu eins (eigene `_MapTransform`, eigene
+  Geo-Projektion, eigene `_decorateZone`), statt beide auf eine gemeinsame, parametrisierte Basis
+  zu heben. Gleiche Abwägung wie schon bei `LessonScreen`/`ExercisePlayer` in Etappe 6 dokumentiert:
+  zwei einfache, unabhängig lesbare Implementierungen sind hier wartbarer als eine gemeinsame mit
+  Verzweigungen für jede Länder-Eigenheit (unterschiedliche Anzahl Regionen, unterschiedliche
+  Küstenform, Dahlaks Inselgruppe, die Äthiopien gar nicht hat).
+- **Eritreas Umriss ist eine handgezeichnete Annäherung, keine vermessenen Daten** - anders als
+  `EthiopiaMap`, deren Umriss auf echten (grob stilisierten) Koordinaten beruht. Aus dem vom Nutzer
+  geschickten Referenzbild und allgemeinem Kartenwissen abgeleitet; für die Bus-Route und die grobe
+  Silhouette ausreichend, aber bewusst nicht als geografisch exakt zu verstehen.
+- **Regionspositionen sind bewusst NICHT die echten geografischen Koordinaten**, sondern manuell so
+  gewählt, dass sie dem expliziten Nutzerwunsch folgen: "nicht zu nah beieinander", ein Pfad von
+  oben links nach rechts mit "genügend Abstand" (Keren Nordwesten → Asmara Zentrum → Massawa Küste
+  → Dahlak Inseln vor der Küste). Reales Asmara liegt geografisch näher an Massawa als an Keren -
+  hier wurde lesbarer Kartenabstand bewusst über geografische Treue gestellt.
+- **Vier neue `JourneyRegion`-Werte (`asmara`/`massawa`/`keren`/`dahlak`) ersetzen den einen alten
+  `eritrea`-Wert vollständig**, statt Eritrea als Sub-Enum oder verschachtelte Struktur zu
+  modellieren - jede Region ist auf Enum-Ebene gleichrangig zu Äthiopiens 6 Regionen, was
+  `RegionDetailScreen` (komplett generisch, unverändert wiederverwendet) und alle
+  `switch (region)`-Stellen ohne Sonderfall handhaben.
+- **`RegionIconPainter`/`region_detail_painter.dart` bekamen für alle 4 neuen Regionen echte,
+  unterschiedliche Illustrationen** (Asmara: Art-Deco-Fassaden, Massawa: die alte Eritrea-Grafik aus
+  Etappe 26/27 unverändert übernommen, Keren: zwei Hügelzüge mit Akazien, Dahlak: türkise
+  Lagune mit drei Inseln) - nur die inzwischen tote `journey_stop_banner.dart` und das
+  Äthiopien-only iterierende `world_map_painter.dart` bekamen reine No-Op-Fälle, rein für
+  Exhaustiveness, da sie diese Regionen nie tatsächlich rendern.
+- **Sätze mit Bindewörtern für Äthiopiens Safari UND Eritreas neue Dahlak-Station**, beide aus
+  ausschließlich bereits etabliertem, risikoarmem Wortschatz gebaut statt aus neuen, unsicheren
+  Konstruktionen: Safari nutzt die bestehenden Kopula-Adjektiv-Satzpaare ("Er ist X, sie ist Y") mit
+  6 nicht-zirkumfixen Amharisch-Konjunktionen (`gin`/aber, `ina`/und, `weyim`/oder, `silezih`/
+  deshalb, `iyale`/während, `minim inikwan`/obwohl) - die zirkumfixen Konjunktionen (`ke...bi` usw.)
+  wurden bewusst ausgelassen, weil sie mit dem wortweise-tokenisierten `chunks`-Satzbaumodell nicht
+  sicher funktionieren. Dahlak nutzt das bestehende Tigrinya-Existenzmuster ("X ኣሎ") mit 6 neuen
+  Tigrinya-Konjunktionslexemen, unter bewusstem, vollständigem Verzicht auf Verneinung (keine der
+  verfügbaren Tigrinya-Verneinungsformen war sicher genug etabliert, um sie hier zu riskieren).
+- **`sec_eritrea_dahlak` wurde bewusst NACH den anderen drei Eritrea-Sektionen angehängt** (nicht an
+  beliebiger Stelle), damit die Content-Validierungsregel "Sätze dürfen nur Lexeme referenzieren,
+  die spätestens in ihrer eigenen Unit eingeführt wurden" für Dahlaks Konjunktionssätze eingehalten
+  bleibt - dieselbe Reihenfolge-Anforderung, die schon beim Anhängen von Safaris Bindewort-Unit an
+  `sec_safari.units` beachtet wurde.
+- **Icon-Kollision im Profil-Reisepass gefunden und behoben:** Asmara hätte als "Hauptstadt" naheliegend
+  dasselbe `Icons.location_city` wie Addis Abeba bekommen - das kollidierte mit einem bestehenden
+  Test (`profile_passport_test.dart`), der über `find.byIcon(...)` genau ein Icon erwartet, und wäre
+  auch für echte Nutzer im UI nicht unterscheidbar gewesen (zwei gleiche Icons in zwei verschiedenen
+  Pässen). Asmara bekam stattdessen `Icons.apartment` (passend zur Art-Deco-Bauweise).
+- **Zwei zuvor Eritrea-spezifische Fahrer-Sprüche (`journeyDriverEritreaCurrent`/`AllDone`) wieder
+  entfernt** - die neue 4-Knoten-Karte verhält sich strukturell wie Äthiopiens Karte und nutzt daher
+  einfach dieselben generischen `journeyDriverWorldMapCurrent`/`AllDone`-Schlüssel wie dort, statt
+  eigene (und inhaltlich ohnehin kaum noch passende, weil jetzt "Nächster Halt: Asmara!" statt
+  "Nächster Halt: Eritrea!" gemeint ist) Varianten zu pflegen.
+- **Zwei bestehende Tests mussten wegen der Strukturänderung angepasst werden**
+  (`eritrea_region_reachable_test.dart`, `world_map_swipe_test.dart`, `journey_progress_test.dart`):
+  sie suchten bisher nach `JourneyRegion.eritrea` bzw. einer Sektion mit `region == 'eritrea'`, die
+  es nicht mehr gibt - jetzt zeigen sie stellvertretend auf `JourneyRegion.keren` (die erste der
+  vier neuen Regionen) bzw. finden die erste `language == 'ti'`-Sektion dynamisch.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.

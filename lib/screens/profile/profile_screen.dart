@@ -344,8 +344,14 @@ class _PassportStamp extends StatelessWidget {
         return const Color(0xFFC9A227);
       case JourneyRegion.safari:
         return const Color(0xFFD9662D);
-      case JourneyRegion.eritrea:
+      case JourneyRegion.asmara:
+        return const Color(0xFFD97B66);
+      case JourneyRegion.massawa:
         return const Color(0xFF1D6FA3);
+      case JourneyRegion.keren:
+        return const Color(0xFF7A8B4F);
+      case JourneyRegion.dahlak:
+        return const Color(0xFF5EC4C0);
       case null:
         return successColor;
     }
@@ -365,8 +371,14 @@ class _PassportStamp extends StatelessWidget {
         return Icons.mosque;
       case JourneyRegion.safari:
         return Icons.wb_twilight;
-      case JourneyRegion.eritrea:
+      case JourneyRegion.asmara:
+        return Icons.apartment;
+      case JourneyRegion.massawa:
         return Icons.waves;
+      case JourneyRegion.keren:
+        return Icons.grass;
+      case JourneyRegion.dahlak:
+        return Icons.terrain;
       case null:
         return Icons.flag_outlined;
     }

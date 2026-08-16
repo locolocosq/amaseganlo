@@ -953,14 +953,6 @@ class AppLocalizationsEn extends AppLocalizations {
       'You\'ve travelled the whole map already! Fancy another round?';
 
   @override
-  String get journeyDriverEritreaCurrent =>
-      'Welcome to Eritrea! Ready for your first Tigrinya?';
-
-  @override
-  String get journeyDriverEritreaAllDone =>
-      'You\'ve travelled the whole Eritrea journey already! Fancy another round?';
-
-  @override
   String journeyDriverRegionCurrent(String region) {
     return 'Welcome to $region! Ready for the next stop?';
   }
@@ -999,7 +991,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get journeyRegionLabelSafari => 'Safari';
 
   @override
-  String get journeyRegionLabelEritrea => 'Eritrea';
+  String get journeyRegionLabelAsmara => 'Asmara';
+
+  @override
+  String get journeyRegionLabelMassawa => 'Massawa';
+
+  @override
+  String get journeyRegionLabelKeren => 'Keren';
+
+  @override
+  String get journeyRegionLabelDahlak => 'Dahlak';
 
   @override
   String get onboardingEritreaHintTitle => 'New: discover Eritrea';
