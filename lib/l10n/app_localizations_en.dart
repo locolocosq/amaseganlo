@@ -986,4 +986,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get journeyRegionLabelSafari => 'Safari';
+
+  @override
+  String get journeyRegionLabelEritrea => 'Eritrea';
+
+  @override
+  String get onboardingEritreaHintTitle => 'New: discover Eritrea';
+
+  @override
+  String get onboardingEritreaHintBody =>
+      'You can now also learn Tigrinya, the language of Eritrea. Find the new Eritrea stop on the world map, right alongside the other regions - just tap it to switch. Amharic stays exactly where it was.';
+
+  @override
+  String get onboardingEritreaHintButton => 'Got it';
 }

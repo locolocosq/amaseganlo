@@ -62,14 +62,24 @@ void main() {
       final subject = repo.lexeme('lex_selam')!;
       final exercise = generator.generateWordChoice(subject: subject, amToNative: true, locale: 'de');
 
-      final distractorLexemes = repo.allLexemes.where(
-        (l) => exercise.options.contains(l.t['de']) && l.id != subject.id,
-      );
+      // Etappe 26: verify each wrong option's text is findable within the
+      // same-topic-same-level pool, rather than reverse-looking-up "any
+      // lexeme anywhere in the repo with this translation" (the original
+      // approach) - now that a second language (Tigrinya) exists, an
+      // unrelated word can legitimately share an identical translation with
+      // an Amharic one (e.g. both languages have their own distinct word
+      // for "sorry" that happens to translate to the same German
+      // "Entschuldigung"), which isn't the same thing as that word having
+      // actually been chosen as a distractor here.
+      final sameTopicLevelTexts = repo.allLexemes
+          .where((l) => l.id != subject.id && l.topic == subject.topic && l.level == subject.level)
+          .map((l) => l.t['de'])
+          .toSet();
+      final wrongOptions = exercise.options.where((o) => o != exercise.correctAnswer);
       // The greetings sample pool has 8 same-topic same-level words, more
       // than enough to fill 3 distractor slots without falling back.
-      for (final l in distractorLexemes) {
-        expect(l.topic, subject.topic);
-        expect(l.level, subject.level);
+      for (final option in wrongOptions) {
+        expect(sameTopicLevelTexts.contains(option), isTrue, reason: 'distractor "$option" was not drawn from the same-topic-same-level pool');
       }
     });
   });

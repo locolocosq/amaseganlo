@@ -11,7 +11,15 @@ import '../l10n/app_localizations.dart';
 /// differences) built entirely from words every earlier stop already
 /// taught. Every place that switches on [JourneyRegion] must still cover
 /// both (Dart's exhaustiveness check enforces this).
-enum JourneyRegion { addisAbeba, oromia, tigray, sidama, harar, safari }
+/// [eritrea] (Etappe 26) is the app's first stop for a second target
+/// language - Tigrinya, not Amharic. It sits at the very end of
+/// [WorldMapLayout.order], geographically fitting (Eritrea is the real
+/// country north of every other stop here) and low-risk to add (no existing
+/// region's index/order shifts). It is NOT locked behind finishing every
+/// Amharic region first, though - see [JourneyProgress]'s per-language
+/// unlock tracks - tapping it is always possible like any other region, and
+/// its own first station unlocks independently.
+enum JourneyRegion { addisAbeba, oromia, tigray, sidama, harar, safari, eritrea }
 
 JourneyRegion? journeyRegionFromId(String id) {
   switch (id) {
@@ -27,6 +35,8 @@ JourneyRegion? journeyRegionFromId(String id) {
       return JourneyRegion.harar;
     case 'safari':
       return JourneyRegion.safari;
+    case 'eritrea':
+      return JourneyRegion.eritrea;
     default:
       return null;
   }
@@ -69,6 +79,8 @@ String journeyRegionShortLabel(JourneyRegion region, AppLocalizations l10n) {
       return l10n.journeyRegionHarar;
     case JourneyRegion.safari:
       return l10n.journeyRegionLabelSafari;
+    case JourneyRegion.eritrea:
+      return l10n.journeyRegionLabelEritrea;
   }
 }
 
@@ -95,6 +107,11 @@ extension JourneyRegionTheme on JourneyRegion {
         // Sunset terracotta - the capstone stop, distinct from every
         // region it draws its grammar practice from.
         return const Color(0xFFD9662D);
+      case JourneyRegion.eritrea:
+        // A deep Red Sea marine blue (Etappe 26) - Eritrea's coastline is
+        // its defining feature, and this reads clearly distinct from
+        // Sidama's lighter lake teal and Addis Abeba's muted slate-blue.
+        return const Color(0xFF1D6FA3);
     }
   }
 }

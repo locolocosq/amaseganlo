@@ -11,6 +11,14 @@ class CurriculumSection {
   final String region;
   final Map<String, String> title;
   final List<String> unitIds;
+  // Etappe 26: which target language this section teaches - 'am' (Amharic)
+  // for every section that predates this field (defaulted below, so none of
+  // the existing curriculum.json entries needed touching), 'ti' (Tigrinya)
+  // for the new Eritrea section. JourneyProgress uses this to unlock each
+  // language's own first unit independently, instead of chaining Eritrea's
+  // stations behind finishing the entire Amharic curriculum first - see
+  // ENTSCHEIDUNGEN.md Etappe 26.
+  final String language;
 
   const CurriculumSection({
     required this.id,
@@ -18,6 +26,7 @@ class CurriculumSection {
     required this.title,
     required this.unitIds,
     this.region = '',
+    this.language = 'am',
   });
 
   factory CurriculumSection.fromJson(Map<String, dynamic> json) {
@@ -27,6 +36,7 @@ class CurriculumSection {
       region: json['region'] as String? ?? '',
       title: Map<String, String>.from(json['title'] as Map? ?? const {}),
       unitIds: List<String>.from(json['units'] as List? ?? const []),
+      language: json['language'] as String? ?? 'am',
     );
   }
 
@@ -36,6 +46,7 @@ class CurriculumSection {
         'region': region,
         'title': title,
         'units': unitIds,
+        'language': language,
       };
 }
 

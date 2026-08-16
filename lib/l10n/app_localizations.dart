@@ -1895,6 +1895,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Safari'**
   String get journeyRegionLabelSafari;
+
+  /// No description provided for @journeyRegionLabelEritrea.
+  ///
+  /// In en, this message translates to:
+  /// **'Eritrea'**
+  String get journeyRegionLabelEritrea;
+
+  /// No description provided for @onboardingEritreaHintTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'New: discover Eritrea'**
+  String get onboardingEritreaHintTitle;
+
+  /// No description provided for @onboardingEritreaHintBody.
+  ///
+  /// In en, this message translates to:
+  /// **'You can now also learn Tigrinya, the language of Eritrea. Find the new Eritrea stop on the world map, right alongside the other regions - just tap it to switch. Amharic stays exactly where it was.'**
+  String get onboardingEritreaHintBody;
+
+  /// No description provided for @onboardingEritreaHintButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Got it'**
+  String get onboardingEritreaHintButton;
 }
 
 class _AppLocalizationsDelegate

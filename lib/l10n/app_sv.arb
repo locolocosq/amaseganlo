@@ -373,5 +373,9 @@
   "journeyRegionLabelSouth": "Söder",
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
-  "journeyRegionLabelSafari": "Safari"
+  "journeyRegionLabelSafari": "Safari",
+  "journeyRegionLabelEritrea": "Eritrea",
+  "onboardingEritreaHintTitle": "Nytt: upptäck Eritrea",
+  "onboardingEritreaHintBody": "Nu kan du också lära dig tigrinja, språket i Eritrea. Det nya stoppet Eritrea hittar du på världskartan, precis bredvid de andra regionerna - tryck bara på det för att byta. Amhariska stannar kvar på sin vanliga plats.",
+  "onboardingEritreaHintButton": "Uppfattat"
 }

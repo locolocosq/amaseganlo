@@ -104,7 +104,7 @@ class RegionNodeMarker extends StatelessWidget {
                           border: Border.all(color: ringColor, width: 3),
                         ),
                         child: ClipOval(
-                          child: CustomPaint(painter: _RegionIconPainter(region: region), size: Size.infinite),
+                          child: CustomPaint(painter: RegionIconPainter(region: region), size: Size.infinite),
                         ),
                       ),
                     ),
@@ -230,9 +230,12 @@ class _CrownSummary extends StatelessWidget {
   }
 }
 
-class _RegionIconPainter extends CustomPainter {
+/// Public (Etappe 26) so [EritreaLanguageHintDialog] can reuse the exact
+/// same hand-drawn medallion art for its "here's what you'll see on the
+/// map" illustration, instead of duplicating or inventing a second one.
+class RegionIconPainter extends CustomPainter {
   final JourneyRegion region;
-  const _RegionIconPainter({required this.region});
+  const RegionIconPainter({required this.region});
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -276,9 +279,27 @@ class _RegionIconPainter extends CustomPainter {
         Sketch.hill(canvas, area, const Color(0xFF7A5A3A), 0.80, 0.04, leftLean: 0.25, rightLean: 0.75);
         Sketch.acacia(canvas, Offset(area.width * 0.68, area.height * 0.86), 0.95);
         break;
+      case JourneyRegion.eritrea:
+        // Eritrea's Red Sea coast (Etappe 26) - Massawa's harbour, a warm
+        // sunset over water with a simple lighthouse marking the port, a
+        // distinct scene from every landlocked region above.
+        Sketch.sky(canvas, area, const Color(0xFFFFD9A0), const Color(0xFFB8DDE8));
+        Sketch.lake(canvas, area, 0.70);
+        Sketch.palm(canvas, Offset(area.width * 0.22, area.height * 0.82), 0.85);
+        final towerX = area.width * 0.66;
+        final towerBase = area.height * 0.66;
+        canvas.drawRect(
+          Rect.fromLTWH(towerX - area.width * 0.025, towerBase - area.height * 0.34, area.width * 0.05, area.height * 0.34),
+          Paint()..color = const Color(0xFFF3F7FA),
+        );
+        canvas.drawRect(
+          Rect.fromLTWH(towerX - area.width * 0.04, towerBase - area.height * 0.40, area.width * 0.08, area.height * 0.06),
+          Paint()..color = const Color(0xFFB8492E),
+        );
+        break;
     }
   }
 
   @override
-  bool shouldRepaint(covariant _RegionIconPainter oldDelegate) => oldDelegate.region != region;
+  bool shouldRepaint(covariant RegionIconPainter oldDelegate) => oldDelegate.region != region;
 }

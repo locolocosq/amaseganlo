@@ -1,0 +1,112 @@
+[
+  {
+    "id": "lex_ti_zahl_1",
+    "am": "ሓደ",
+    "tr": "hade",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "1", "en": "1", "sv": "1", "nl": "1" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_2",
+    "am": "ክልተ",
+    "tr": "kelte",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "2", "en": "2", "sv": "2", "nl": "2" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_3",
+    "am": "ሰለስተ",
+    "tr": "seleste",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "3", "en": "3", "sv": "3", "nl": "3" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_4",
+    "am": "ኣርባዕተ",
+    "tr": "arba'ete",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "4", "en": "4", "sv": "4", "nl": "4" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_5",
+    "am": "ሓሙሽተ",
+    "tr": "hamushte",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "5", "en": "5", "sv": "5", "nl": "5" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_6",
+    "am": "ሽዱሽተ",
+    "tr": "shudushte",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "6", "en": "6", "sv": "6", "nl": "6" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_7",
+    "am": "ሸውዓተ",
+    "tr": "shewa'ete",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "7", "en": "7", "sv": "7", "nl": "7" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_8",
+    "am": "ሽሞንተ",
+    "tr": "shimonte",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "8", "en": "8", "sv": "8", "nl": "8" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_9",
+    "am": "ትሽዓተ",
+    "tr": "tishate",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "9", "en": "9", "sv": "9", "nl": "9" },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zahl_10",
+    "am": "ዓሰርተ",
+    "tr": "asirte",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "TI",
+    "t": { "de": "10", "en": "10", "sv": "10", "nl": "10" },
+    "emoji": "",
+    "verified": false
+  }
+]

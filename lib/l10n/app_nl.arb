@@ -373,5 +373,9 @@
   "journeyRegionLabelSouth": "Zuiden",
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
-  "journeyRegionLabelSafari": "Safari"
+  "journeyRegionLabelSafari": "Safari",
+  "journeyRegionLabelEritrea": "Eritrea",
+  "onboardingEritreaHintTitle": "Nieuw: ontdek Eritrea",
+  "onboardingEritreaHintBody": "Vanaf nu kun je hier ook Tigrinya leren, de taal van Eritrea. De nieuwe halte Eritrea vind je op de wereldkaart, gelijk naast de andere regio's - tik erop om te wisselen. Amhaars blijft gewoon op zijn vertrouwde plek.",
+  "onboardingEritreaHintButton": "Begrepen"
 }

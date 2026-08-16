@@ -150,6 +150,11 @@ class WorldMapPainter extends CustomPainter {
             Sketch.acacia(canvas, spot, 0.7 + rng.nextDouble() * 0.5);
           }
           break;
+        case JourneyRegion.eritrea:
+          // Etappe 26: palm trees along the coast - matching the region's
+          // own medallion (region_node_marker.dart).
+          Sketch.palm(canvas, spot, 0.7 + rng.nextDouble() * 0.4);
+          break;
       }
     }
   }

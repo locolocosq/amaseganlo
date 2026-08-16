@@ -1,0 +1,134 @@
+[
+  {
+    "id": "lex_ti_sidra",
+    "am": "ስድራ",
+    "tr": "sidra",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "die Familie", "en": "family", "sv": "familj", "nl": "familie" },
+    "emoji": "👨‍👩‍👧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ade",
+    "am": "ኣደ",
+    "tr": "ade",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "die Mutter", "en": "mother", "sv": "mamma", "nl": "moeder" },
+    "emoji": "👩",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_abo",
+    "am": "ኣቦ",
+    "tr": "abo",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "der Vater", "en": "father", "sv": "pappa", "nl": "vader" },
+    "emoji": "👨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kolu",
+    "am": "ቆልዓ",
+    "tr": "kolu",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "das Kind", "en": "child", "sv": "barn", "nl": "kind" },
+    "emoji": "🧒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_haw",
+    "am": "ሓው",
+    "tr": "haw",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "der Bruder", "en": "brother", "sv": "bror", "nl": "broer" },
+    "emoji": "👦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hafti",
+    "am": "ሓፍቲ",
+    "tr": "hafti",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "die Schwester", "en": "sister", "sv": "syster", "nl": "zus" },
+    "emoji": "👧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adki",
+    "am": "ዓርኪ",
+    "tr": "adki",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "der Freund, die Freundin", "en": "friend", "sv": "vän", "nl": "vriend" },
+    "emoji": "🧑‍🤝‍🧑",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sebay",
+    "am": "ሰብኣይ",
+    "tr": "sebay",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "der Mann, der Ehemann", "en": "man, husband", "sv": "man, make", "nl": "man, echtgenoot" },
+    "emoji": "👨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sebeyti",
+    "am": "ሰበይቲ",
+    "tr": "sebeyti",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "die Frau, die Ehefrau", "en": "woman, wife", "sv": "kvinna, maka", "nl": "vrouw, echtgenote" },
+    "emoji": "👩",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hitsan",
+    "am": "ሕጻን",
+    "tr": "hitsan",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "das Baby", "en": "baby", "sv": "bebis", "nl": "baby" },
+    "emoji": "👶",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sew",
+    "am": "ሰብ",
+    "tr": "sew",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "die Person, der Mensch", "en": "person, human", "sv": "person, människa", "nl": "persoon, mens" },
+    "emoji": "🧍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zemed",
+    "am": "ዘመድ",
+    "tr": "zemed",
+    "pos": "noun",
+    "topic": "family",
+    "level": "TI",
+    "t": { "de": "der/die Verwandte", "en": "relative", "sv": "släkting", "nl": "familielid" },
+    "emoji": "👥",
+    "verified": false
+  }
+]

@@ -15,13 +15,27 @@ enum UnitState { completed, skipped, current, locked, premiumLocked }
 const int freeTrialUnitCount = 3;
 
 /// The unit ids playable without Premium - the first [freeTrialUnitCount]
-/// units of the first curriculum section. Shared between [JourneyProgress]
-/// (map lock state) and the placement test (must never auto-skip a learner
-/// *past* the paywall for free) so both agree on exactly the same boundary.
+/// units of the first curriculum section *of each target language* (Etappe
+/// 26: previously just "the first section", back when Amharic was the only
+/// language - Eritrea's Tigrinya track gets its own free sample this way
+/// too, instead of every one of its stations being Premium-locked from the
+/// very first tap). For the single pre-existing 'am' language this is
+/// exactly the same units as before (still `sections.first`, since 'am' is
+/// still the first language encountered), so no existing behaviour changes.
+/// Shared between [JourneyProgress] (map lock state) and the placement test
+/// (must never auto-skip a learner *past* the paywall for free) so both
+/// agree on exactly the same boundary.
 List<String> freeTrialUnitIds(ContentRepository content) {
   final sections = content.curriculum.sections;
   if (sections.isEmpty) return const [];
-  return sections.first.unitIds.take(freeTrialUnitCount).toList();
+  final seenLanguages = <String>{};
+  final result = <String>[];
+  for (final section in sections) {
+    if (seenLanguages.add(section.language)) {
+      result.addAll(section.unitIds.take(freeTrialUnitCount));
+    }
+  }
+  return result;
 }
 
 /// How many of the Fidel path's stages (Stufe 1-8) are playable without
@@ -82,6 +96,26 @@ class JourneyProgress {
 
   late final List<String> flatUnitIds = [for (final s in content.curriculum.sections) ...s.unitIds];
 
+  /// Units grouped by [CurriculumSection.language] - Etappe 26. Sequential
+  /// unlocking (below) is computed within one language's own list, not the
+  /// single cross-language [flatUnitIds]: without this, Eritrea's first
+  /// Tigrinya station would only unlock after every Amharic unit before it
+  /// in [flatUnitIds] is done, since it sits after them there. Language
+  /// tracks are otherwise fully independent - finishing one never affects
+  /// the other's lock state.
+  late final Map<String, List<String>> _unitIdsByLanguage = () {
+    final map = <String, List<String>>{};
+    for (final s in content.curriculum.sections) {
+      map.putIfAbsent(s.language, () => []).addAll(s.unitIds);
+    }
+    return map;
+  }();
+
+  late final Map<String, String> _languageForUnit = {
+    for (final s in content.curriculum.sections)
+      for (final id in s.unitIds) id: s.language,
+  };
+
   late final Set<String> _freeUnitIds = freeTrialUnitIds(content).toSet();
 
   /// Whether reaching this unit's content at all requires Premium - checked
@@ -108,18 +142,24 @@ class JourneyProgress {
     return sections.firstWhereOrNull((s) => !isSectionDone(s))?.id ?? sections.last.id;
   }
 
-  UnitState stateForFlatIndex(int flatIndex) {
-    final unitId = flatUnitIds[flatIndex];
+  UnitState stateForFlatIndex(int flatIndex) => stateForUnit(flatUnitIds[flatIndex]);
+
+  UnitState stateForUnit(String unitId) {
     if (isUnitPremiumLocked(unitId)) return UnitState.premiumLocked;
     if (isUnitDone(unitId)) return UnitState.completed;
     if (isUnitSkipped(unitId)) return UnitState.skipped;
-    if (settings.allLessonsUnlocked || flatIndex == 0) return UnitState.current;
-    final previousId = flatUnitIds[flatIndex - 1];
-    if (isUnitDone(previousId) || isUnitSkipped(previousId)) return UnitState.current;
+    final language = _languageForUnit[unitId] ?? 'am';
+    final unitsInLanguage = _unitIdsByLanguage[language] ?? const [];
+    final indexInLanguage = unitsInLanguage.indexOf(unitId);
+    if (settings.allLessonsUnlocked || indexInLanguage <= 0) {
+      return UnitState.current;
+    }
+    final previousId = unitsInLanguage[indexInLanguage - 1];
+    if (isUnitDone(previousId) || isUnitSkipped(previousId)) {
+      return UnitState.current;
+    }
     return UnitState.locked;
   }
-
-  UnitState stateForUnit(String unitId) => stateForFlatIndex(flatUnitIds.indexOf(unitId));
 
   /// 0-based index (within `curriculum.sections`, which is 1:1 with
   /// [WorldMapLayout.order]) of the region that currently has the

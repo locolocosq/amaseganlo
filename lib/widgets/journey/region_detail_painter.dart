@@ -29,6 +29,8 @@ class RegionDetailPainter extends CustomPainter {
         return (const Color(0xFFF3E6C4), const Color(0xFFE0C98F));
       case JourneyRegion.safari:
         return (const Color(0xFFFAD9A8), const Color(0xFFE9A868));
+      case JourneyRegion.eritrea:
+        return (const Color(0xFFFFE0B8), const Color(0xFFB8DDE8));
     }
   }
 
@@ -108,6 +110,13 @@ class RegionDetailPainter extends CustomPainter {
             Sketch.acacia(canvas, clamped, scale);
           } else {
             Sketch.rock(canvas, clamped, scale, color: const Color(0xFF8C6E56));
+          }
+          break;
+        case JourneyRegion.eritrea:
+          if (i.isEven) {
+            Sketch.palm(canvas, clamped, scale);
+          } else {
+            _miniBuilding(canvas, clamped, scale);
           }
           break;
       }

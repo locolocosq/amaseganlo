@@ -373,5 +373,9 @@
   "journeyRegionLabelSouth": "Süden",
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
-  "journeyRegionLabelSafari": "Safari"
+  "journeyRegionLabelSafari": "Safari",
+  "journeyRegionLabelEritrea": "Eritrea",
+  "onboardingEritreaHintTitle": "Neu: Eritrea entdecken",
+  "onboardingEritreaHintBody": "Ab sofort kannst du hier auch Tigrinya lernen, die Sprache Eritreas. Die neue Station Eritrea findest du auf der Weltkarte, gleich neben den anderen Regionen - einfach antippen, um zu wechseln. Amharisch bleibt an seinem gewohnten Platz.",
+  "onboardingEritreaHintButton": "Verstanden"
 }

@@ -373,5 +373,9 @@
   "journeyRegionLabelSouth": "South",
   "journeyRegionLabelTigray": "Tigray",
   "journeyRegionLabelOromia": "Oromia",
-  "journeyRegionLabelSafari": "Safari"
+  "journeyRegionLabelSafari": "Safari",
+  "journeyRegionLabelEritrea": "Eritrea",
+  "onboardingEritreaHintTitle": "New: discover Eritrea",
+  "onboardingEritreaHintBody": "You can now also learn Tigrinya, the language of Eritrea. Find the new Eritrea stop on the world map, right alongside the other regions - just tap it to switch. Amharic stays exactly where it was.",
+  "onboardingEritreaHintButton": "Got it"
 }

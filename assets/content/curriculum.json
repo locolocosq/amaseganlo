@@ -152,7 +152,11 @@
     "lexemes_harar_freizeit_spiele.json",
     "lexemes_harar_naturschutz.json",
     "lexemes_harar_kunst_malerei.json",
-    "lexemes_harar_kindheit_erziehung.json"
+    "lexemes_harar_kindheit_erziehung.json",
+    "lexemes_eritrea_greetings.json",
+    "lexemes_eritrea_family.json",
+    "lexemes_eritrea_numbers.json",
+    "lexemes_eritrea_food.json"
   ],
   "sentenceFiles": [
     "sentences_a1_1.json",
@@ -309,7 +313,8 @@
     "sentences_safari_frau_mann2.json",
     "sentences_safari_verben_possessiv2.json",
     "sentences_safari_frau_mann3.json",
-    "sentences_safari_verben_possessiv3.json"
+    "sentences_safari_verben_possessiv3.json",
+    "sentences_eritrea.json"
   ],
   "sections": [
     {
@@ -542,6 +547,24 @@
         "unit_safari_verben_possessiv"
       ],
       "region": "safari"
+    },
+    {
+      "id": "sec_eritrea",
+      "level": "TI",
+      "region": "eritrea",
+      "language": "ti",
+      "title": {
+        "de": "Eritrea — Tigrinya entdecken",
+        "en": "Eritrea — discovering Tigrinya",
+        "sv": "Eritrea — upptäck tigrinja",
+        "nl": "Eritrea — Tigrinya ontdekken"
+      },
+      "units": [
+        "unit_eritrea_greetings",
+        "unit_eritrea_family",
+        "unit_eritrea_numbers",
+        "unit_eritrea_food"
+      ]
     }
   ],
   "units": [
@@ -2520,6 +2543,58 @@
       },
       "topic": "gender_grammar_2",
       "lessonFile": "unit_safari_verben_possessiv_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_greetings",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Begrüßung & Pronomen",
+        "en": "Greetings & pronouns",
+        "sv": "Hälsningar & pronomen",
+        "nl": "Begroetingen & voornaamwoorden"
+      },
+      "topic": "greetings",
+      "lessonFile": "unit_eritrea_greetings_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_family",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Familie",
+        "en": "Family",
+        "sv": "Familj",
+        "nl": "Familie"
+      },
+      "topic": "family",
+      "lessonFile": "unit_eritrea_family_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_numbers",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Zahlen 1-10",
+        "en": "Numbers 1-10",
+        "sv": "Siffror 1-10",
+        "nl": "Getallen 1-10"
+      },
+      "topic": "numbers",
+      "lessonFile": "unit_eritrea_numbers_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_food",
+      "sectionId": "sec_eritrea",
+      "level": "TI",
+      "title": {
+        "de": "Essen & Trinken",
+        "en": "Food & drink",
+        "sv": "Mat & dryck",
+        "nl": "Eten & drinken"
+      },
+      "topic": "food",
+      "lessonFile": "unit_eritrea_food_lessons.json"
     }
   ]
 }

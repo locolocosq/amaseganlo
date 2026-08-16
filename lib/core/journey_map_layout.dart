@@ -113,6 +113,18 @@ class EthiopiaMap {
     // Sidama's re-placement above for the southernmost/most-centered spot
     // that still clears every other marker's tap-box.
     JourneyRegion.safari: GeoPoint(39.1, 4.9),
+    // Etappe 26: Eritrea, the first stop for a second target language
+    // (Tigrinya). Real Eritrea sits mostly at/above this map's _maxLat
+    // (15.4) - Asmara itself is ~15.33, right at the edge - so a fully
+    // accurate placement isn't possible without recalibrating every other
+    // region's already-tuned position (see the geoPositions notes above and
+    // the widget-test-harness scale they were verified against). Kept
+    // within the existing box instead, using the same "grob richtig
+    // zueinander" license already used for Sidama/Oromia above: shifted
+    // east of Tigray (not directly north) for tap-clearance, since the two
+    // are otherwise too close at this map's scale - still unambiguously
+    // "the stop past the northern edge of Ethiopia" on the rendered map.
+    JourneyRegion.eritrea: GeoPoint(41.0, 14.3),
   };
 
   /// One scale factor + centring offset for a given canvas size (Etappe 22
@@ -388,6 +400,10 @@ class WorldMapLayout {
     JourneyRegion.sidama,
     JourneyRegion.harar,
     JourneyRegion.safari,
+    // Etappe 26: Eritrea/Tigrinya - appended at the end rather than
+    // reordered in, so every existing region keeps its exact index (and
+    // therefore its already-verified tap-clearance geometry) unchanged.
+    JourneyRegion.eritrea,
   ];
 
   static Map<JourneyRegion, Offset> positions(Size size) => EthiopiaMap.positions(size);

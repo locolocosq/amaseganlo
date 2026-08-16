@@ -1,0 +1,44 @@
+[
+  {
+    "id": "unit_eritrea_numbers_intro",
+    "kind": "intro",
+    "lexemeIds": ["lex_ti_zahl_1", "lex_ti_zahl_2", "lex_ti_zahl_3", "lex_ti_zahl_4", "lex_ti_zahl_5", "lex_ti_zahl_6", "lex_ti_zahl_7", "lex_ti_zahl_8", "lex_ti_zahl_9", "lex_ti_zahl_10"],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_numbers_words",
+    "kind": "wordPractice",
+    "lexemeIds": ["lex_ti_zahl_1", "lex_ti_zahl_2", "lex_ti_zahl_3", "lex_ti_zahl_4", "lex_ti_zahl_5", "lex_ti_zahl_6", "lex_ti_zahl_7", "lex_ti_zahl_8", "lex_ti_zahl_9", "lex_ti_zahl_10"],
+    "sentenceIds": [],
+    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
+  },
+  {
+    "id": "unit_eritrea_numbers_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": ["lex_ti_zahl_1", "lex_ti_zahl_2", "lex_ti_zahl_3", "lex_ti_zahl_4", "lex_ti_zahl_5", "lex_ti_zahl_6", "lex_ti_zahl_7", "lex_ti_zahl_8", "lex_ti_zahl_9", "lex_ti_zahl_10"],
+    "sentenceIds": ["sen_ti_kelte_kolu", "sen_ti_seleste_ahwat"],
+    "exerciseTypes": ["sentenceBuild", "sentenceGapChoice"]
+  },
+  {
+    "id": "unit_eritrea_numbers_listening",
+    "kind": "listening",
+    "lexemeIds": ["lex_ti_zahl_1", "lex_ti_zahl_2", "lex_ti_zahl_3", "lex_ti_zahl_4", "lex_ti_zahl_5", "lex_ti_zahl_6", "lex_ti_zahl_7", "lex_ti_zahl_8", "lex_ti_zahl_9", "lex_ti_zahl_10"],
+    "sentenceIds": ["sen_ti_kelte_kolu", "sen_ti_seleste_ahwat"],
+    "exerciseTypes": ["listenChoice", "listenBuild"]
+  },
+  {
+    "id": "unit_eritrea_numbers_free",
+    "kind": "freeApplication",
+    "lexemeIds": ["lex_ti_zahl_1", "lex_ti_zahl_2", "lex_ti_zahl_3", "lex_ti_zahl_4", "lex_ti_zahl_5", "lex_ti_zahl_6", "lex_ti_zahl_7", "lex_ti_zahl_8", "lex_ti_zahl_9", "lex_ti_zahl_10"],
+    "sentenceIds": ["sen_ti_kelte_kolu", "sen_ti_seleste_ahwat"],
+    "exerciseTypes": ["wordTyping", "sentenceTranslate"]
+  },
+  {
+    "id": "unit_eritrea_numbers_review",
+    "kind": "review",
+    "lexemeIds": ["lex_ti_zahl_1", "lex_ti_zahl_2", "lex_ti_zahl_3", "lex_ti_zahl_4", "lex_ti_zahl_5", "lex_ti_zahl_6", "lex_ti_zahl_7", "lex_ti_zahl_8", "lex_ti_zahl_9", "lex_ti_zahl_10"],
+    "sentenceIds": ["sen_ti_kelte_kolu", "sen_ti_seleste_ahwat"],
+    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping", "trueFalse"]
+  }
+]
