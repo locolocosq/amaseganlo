@@ -2,8 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:file_selector/file_selector.dart';
-import 'package:flutter/foundation.dart'
-    show TargetPlatform, defaultTargetPlatform, kIsWeb;
+import 'package:flutter/foundation.dart' show TargetPlatform, defaultTargetPlatform, kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -32,10 +31,7 @@ class SettingsScreen extends StatelessWidget {
 
     void savedSnack() {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(l10n.settingsSaved),
-          duration: const Duration(seconds: 1),
-        ),
+        SnackBar(content: Text(l10n.settingsSaved), duration: const Duration(seconds: 1)),
       );
     }
 
@@ -59,10 +55,7 @@ class SettingsScreen extends StatelessWidget {
     Future<void> pickReminderTime() async {
       final picked = await showTimePicker(
         context: context,
-        initialTime: TimeOfDay(
-          hour: settings.reminderHour,
-          minute: settings.reminderMinute,
-        ),
+        initialTime: TimeOfDay(hour: settings.reminderHour, minute: settings.reminderMinute),
       );
       if (picked == null) return;
       await settingsProvider.setReminderTime(picked.hour, picked.minute);
@@ -70,11 +63,7 @@ class SettingsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          tooltip: l10n.commonBack,
-          onPressed: () => context.pop(),
-        ),
+        leading: IconButton(icon: const Icon(Icons.arrow_back), tooltip: l10n.commonBack, onPressed: () => context.pop()),
         title: Text(l10n.settingsTitle),
       ),
       // Bug (found while reviewing scroll reachability): unlike every
@@ -94,349 +83,272 @@ class SettingsScreen extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(0, 12, 0, 40),
           children: [
-            _SettingsSection(
-              icon: Icons.language,
-              color: AppBrandColors.green,
-              title: l10n.settingsLanguage,
-              children: [
-                DropdownButtonFormField<String>(
-                  initialValue: settings.localeCode,
-                  items: [
-                    DropdownMenuItem(
-                      value: null,
-                      child: Text(l10n.appearanceSystem),
-                    ),
-                    for (final code in supportedLocaleCodes)
-                      DropdownMenuItem(
-                        value: code,
-                        child: Text(languageDisplayName(code)),
-                      ),
-                  ],
-                  onChanged: (code) {
-                    settingsProvider.setLocaleCode(code);
-                    savedSnack();
-                  },
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.brightness_6_outlined,
-              color: AppBrandColors.gold,
-              title: l10n.settingsAppearance,
-              children: [
-                SegmentedButton<AppThemeMode>(
-                  segments: [
-                    ButtonSegment(
-                      value: AppThemeMode.light,
-                      label: Text(l10n.appearanceLight),
-                      icon: const Icon(Icons.light_mode_outlined),
-                    ),
-                    ButtonSegment(
-                      value: AppThemeMode.dark,
-                      label: Text(l10n.appearanceDark),
-                      icon: const Icon(Icons.dark_mode_outlined),
-                    ),
-                    ButtonSegment(
-                      value: AppThemeMode.system,
-                      label: Text(l10n.appearanceSystem),
-                      icon: const Icon(Icons.brightness_auto_outlined),
-                    ),
-                  ],
-                  selected: {settings.themeMode},
-                  onSelectionChanged: (s) =>
-                      settingsProvider.setThemeMode(s.first),
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.text_fields,
-              color: AppBrandColors.terracotta,
-              title: l10n.settingsFontSize,
-              children: [
-                SegmentedButton<FontSizeOption>(
-                  segments: [
-                    ButtonSegment(
-                      value: FontSizeOption.small,
-                      label: Text(l10n.fontSizeSmall),
-                    ),
-                    ButtonSegment(
-                      value: FontSizeOption.normal,
-                      label: Text(l10n.fontSizeNormal),
-                    ),
-                    ButtonSegment(
-                      value: FontSizeOption.large,
-                      label: Text(l10n.fontSizeLarge),
-                    ),
-                    ButtonSegment(
-                      value: FontSizeOption.extraLarge,
-                      label: Text(l10n.fontSizeExtraLarge),
-                    ),
-                  ],
-                  showSelectedIcon: false,
-                  selected: {settings.fontSize},
-                  onSelectionChanged: (s) =>
-                      settingsProvider.setFontSize(s.first),
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.abc,
-              color: AppBrandColors.green,
-              title: l10n.settingsShowFidelInMainPath,
-              children: [
-                RadioGroup<FidelDisplayMode>(
-                  groupValue: settings.fidelDisplayMode,
-                  onChanged: (v) {
-                    if (v != null) settingsProvider.setFidelDisplayMode(v);
-                  },
-                  child: Column(
-                    children: [
-                      RadioListTile<FidelDisplayMode>(
-                        contentPadding: EdgeInsets.zero,
-                        title: Text(l10n.fidelDisplayNever),
-                        value: FidelDisplayMode.never,
-                      ),
-                      RadioListTile<FidelDisplayMode>(
-                        contentPadding: EdgeInsets.zero,
-                        title: Text(l10n.fidelDisplayBelow),
-                        value: FidelDisplayMode.below,
-                      ),
-                      RadioListTile<FidelDisplayMode>(
-                        contentPadding: EdgeInsets.zero,
-                        title: Text(l10n.fidelDisplayInstead),
-                        value: FidelDisplayMode.instead,
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.speed_outlined,
-              color: AppBrandColors.gold,
-              title: l10n.settingsFidelLearningPath,
-              children: [
-                RadioGroup<FidelLearningPath>(
-                  groupValue: settings.fidelLearningPath,
-                  onChanged: (v) {
-                    if (v != null) settingsProvider.setFidelLearningPath(v);
-                  },
-                  child: Column(
-                    children: [
-                      RadioListTile<FidelLearningPath>(
-                        contentPadding: EdgeInsets.zero,
-                        title: Text(l10n.fidelPathTraditional),
-                        value: FidelLearningPath.traditional,
-                      ),
-                      RadioListTile<FidelLearningPath>(
-                        contentPadding: EdgeInsets.zero,
-                        title: Text(l10n.fidelPathFast),
-                        value: FidelLearningPath.fast,
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.volume_up_outlined,
-              color: AppBrandColors.terracotta,
-              title: l10n.settingsSound,
-              children: [
-                SwitchListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: Text(l10n.settingsSound),
-                  value: settings.soundEnabled,
-                  onChanged: settingsProvider.setSoundEnabled,
-                ),
-                Row(
-                  children: [
-                    const Icon(Icons.volume_down),
-                    Expanded(
-                      child: Slider(
-                        value: settings.volume,
-                        onChanged: settings.soundEnabled
-                            ? settingsProvider.setVolume
-                            : null,
-                      ),
-                    ),
-                    const Icon(Icons.volume_up),
-                  ],
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  l10n.settingsSpeechRate,
-                  style: Theme.of(context).textTheme.labelLarge,
-                ),
-                const SizedBox(height: 8),
-                SegmentedButton<SpeechRate>(
-                  segments: [
-                    ButtonSegment(
-                      value: SpeechRate.slow,
-                      label: Text(l10n.speechRateSlow),
-                    ),
-                    ButtonSegment(
-                      value: SpeechRate.medium,
-                      label: Text(l10n.speechRateMedium),
-                    ),
-                    ButtonSegment(
-                      value: SpeechRate.normal,
-                      label: Text(l10n.speechRateNormal),
-                    ),
-                  ],
-                  selected: {settings.speechRate},
-                  onSelectionChanged: settings.soundEnabled
-                      ? (s) => settingsProvider.setSpeechRate(s.first)
-                      : null,
-                ),
-                SwitchListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: Text(l10n.settingsAutoPlayNewWords),
-                  value: settings.autoPlayNewWords,
-                  onChanged: settingsProvider.setAutoPlayNewWords,
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.flag_outlined,
-              color: AppBrandColors.green,
-              title: l10n.settingsDailyGoal,
-              children: [
-                SegmentedButton<DailyGoal>(
-                  segments: [
-                    ButtonSegment(
-                      value: DailyGoal.relaxed,
-                      label: Text(l10n.dailyGoalRelaxed),
-                    ),
-                    ButtonSegment(
-                      value: DailyGoal.normal,
-                      label: Text(l10n.dailyGoalNormal),
-                    ),
-                    ButtonSegment(
-                      value: DailyGoal.ambitious,
-                      label: Text(l10n.dailyGoalAmbitious),
-                    ),
-                  ],
-                  selected: {settings.dailyGoal},
-                  onSelectionChanged: (s) =>
-                      settingsProvider.setDailyGoal(s.first),
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.tune,
-              color: AppBrandColors.gold,
-              title: l10n.settingsMoreOptions,
-              children: [
-                SwitchListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: Text(l10n.settingsUseHearts),
-                  value: settings.useHearts,
-                  onChanged: settingsProvider.setUseHearts,
-                ),
-                SwitchListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: Text(l10n.settingsDailyReminder),
-                  subtitle: Text(l10n.settingsDailyReminderSubtitle),
-                  value: settings.dailyReminderEnabled,
-                  onChanged: handleReminderToggle,
-                ),
-                if (settings.dailyReminderEnabled)
-                  ListTile(
-                    contentPadding: EdgeInsets.zero,
-                    leading: const Icon(Icons.access_time),
-                    title: Text(l10n.settingsReminderTime),
-                    subtitle: Text(
-                      l10n.settingsReminderTimeSubtitle(
-                        TimeOfDay(
-                          hour: settings.reminderHour,
-                          minute: settings.reminderMinute,
-                        ).format(context),
-                      ),
-                    ),
-                    onTap: pickReminderTime,
-                  ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.workspace_premium_outlined,
-              color: AppBrandColors.terracotta,
-              title: l10n.settingsPremiumSection,
-              children: [
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  title: Text(l10n.settingsPremium),
-                  subtitle: Text(
-                    purchaseService.isPremium
-                        ? l10n.settingsPremiumActive
-                        : l10n.settingsPremiumHint,
-                  ),
-                  trailing: const Icon(Icons.chevron_right),
-                  onTap: () => context.push('/settings/premium'),
-                ),
-              ],
-            ),
-            _SettingsSection(
-              icon: Icons.storage_outlined,
-              color: AppBrandColors.green,
-              title: l10n.settingsDataSection,
-              children: [
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  leading: const Icon(Icons.cloud_upload_outlined),
-                  title: Text(l10n.settingsBackupProgress),
-                  onTap: () => _backupProgress(context, l10n),
-                ),
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  leading: const Icon(Icons.cloud_download_outlined),
-                  title: Text(l10n.settingsRestoreProgress),
-                  onTap: () => _restoreProgress(context, l10n),
-                ),
-                ListTile(
-                  contentPadding: EdgeInsets.zero,
-                  leading: Icon(
-                    Icons.delete_outline,
-                    color: Theme.of(context).colorScheme.error,
-                  ),
-                  title: Text(l10n.settingsResetProgress),
-                  onTap: () => _confirmReset(context, l10n),
-                ),
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: ListTile(
-                leading: const Icon(Icons.info_outline),
-                title: Text(l10n.settingsAbout),
-                trailing: const Icon(Icons.chevron_right),
-                onTap: () => context.push('/settings/about'),
+          _SettingsSection(
+            icon: Icons.language,
+            color: AppBrandColors.green,
+            title: l10n.settingsLanguage,
+            children: [
+              DropdownButtonFormField<String>(
+                initialValue: settings.localeCode,
+                items: [
+                  DropdownMenuItem(value: null, child: Text(l10n.appearanceSystem)),
+                  for (final code in supportedLocaleCodes)
+                    DropdownMenuItem(value: code, child: Text(languageDisplayName(code))),
+                ],
+                onChanged: (code) {
+                  settingsProvider.setLocaleCode(code);
+                  savedSnack();
+                },
               ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.brightness_6_outlined,
+            color: AppBrandColors.gold,
+            title: l10n.settingsAppearance,
+            children: [
+              SegmentedButton<AppThemeMode>(
+                segments: [
+                  ButtonSegment(value: AppThemeMode.light, label: Text(l10n.appearanceLight), icon: const Icon(Icons.light_mode_outlined)),
+                  ButtonSegment(value: AppThemeMode.dark, label: Text(l10n.appearanceDark), icon: const Icon(Icons.dark_mode_outlined)),
+                  ButtonSegment(value: AppThemeMode.system, label: Text(l10n.appearanceSystem), icon: const Icon(Icons.brightness_auto_outlined)),
+                ],
+                selected: {settings.themeMode},
+                onSelectionChanged: (s) => settingsProvider.setThemeMode(s.first),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.text_fields,
+            color: AppBrandColors.terracotta,
+            title: l10n.settingsFontSize,
+            children: [
+              SegmentedButton<FontSizeOption>(
+                segments: [
+                  ButtonSegment(value: FontSizeOption.small, label: Text(l10n.fontSizeSmall)),
+                  ButtonSegment(value: FontSizeOption.normal, label: Text(l10n.fontSizeNormal)),
+                  ButtonSegment(value: FontSizeOption.large, label: Text(l10n.fontSizeLarge)),
+                  ButtonSegment(value: FontSizeOption.extraLarge, label: Text(l10n.fontSizeExtraLarge)),
+                ],
+                showSelectedIcon: false,
+                selected: {settings.fontSize},
+                onSelectionChanged: (s) => settingsProvider.setFontSize(s.first),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.abc,
+            color: AppBrandColors.green,
+            title: l10n.settingsShowFidelInMainPath,
+            children: [
+              RadioGroup<FidelDisplayMode>(
+                groupValue: settings.fidelDisplayMode,
+                onChanged: (v) {
+                  if (v != null) settingsProvider.setFidelDisplayMode(v);
+                },
+                child: Column(
+                  children: [
+                    RadioListTile<FidelDisplayMode>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelDisplayNever),
+                      value: FidelDisplayMode.never,
+                    ),
+                    RadioListTile<FidelDisplayMode>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelDisplayBelow),
+                      value: FidelDisplayMode.below,
+                    ),
+                    RadioListTile<FidelDisplayMode>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelDisplayInstead),
+                      value: FidelDisplayMode.instead,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.speed_outlined,
+            color: AppBrandColors.gold,
+            title: l10n.settingsFidelLearningPath,
+            children: [
+              RadioGroup<FidelLearningPath>(
+                groupValue: settings.fidelLearningPath,
+                onChanged: (v) {
+                  if (v != null) settingsProvider.setFidelLearningPath(v);
+                },
+                child: Column(
+                  children: [
+                    RadioListTile<FidelLearningPath>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelPathTraditional),
+                      value: FidelLearningPath.traditional,
+                    ),
+                    RadioListTile<FidelLearningPath>(
+                      contentPadding: EdgeInsets.zero,
+                      title: Text(l10n.fidelPathFast),
+                      value: FidelLearningPath.fast,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.volume_up_outlined,
+            color: AppBrandColors.terracotta,
+            title: l10n.settingsSound,
+            children: [
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsSound),
+                value: settings.soundEnabled,
+                onChanged: settingsProvider.setSoundEnabled,
+              ),
+              Row(
+                children: [
+                  const Icon(Icons.volume_down),
+                  Expanded(
+                    child: Slider(
+                      value: settings.volume,
+                      onChanged: settings.soundEnabled ? settingsProvider.setVolume : null,
+                    ),
+                  ),
+                  const Icon(Icons.volume_up),
+                ],
+              ),
+              const SizedBox(height: 4),
+              Text(l10n.settingsSpeechRate, style: Theme.of(context).textTheme.labelLarge),
+              const SizedBox(height: 8),
+              SegmentedButton<SpeechRate>(
+                segments: [
+                  ButtonSegment(value: SpeechRate.slow, label: Text(l10n.speechRateSlow)),
+                  ButtonSegment(value: SpeechRate.medium, label: Text(l10n.speechRateMedium)),
+                  ButtonSegment(value: SpeechRate.normal, label: Text(l10n.speechRateNormal)),
+                ],
+                selected: {settings.speechRate},
+                onSelectionChanged: settings.soundEnabled ? (s) => settingsProvider.setSpeechRate(s.first) : null,
+              ),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsAutoPlayNewWords),
+                value: settings.autoPlayNewWords,
+                onChanged: settingsProvider.setAutoPlayNewWords,
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.flag_outlined,
+            color: AppBrandColors.green,
+            title: l10n.settingsDailyGoal,
+            children: [
+              SegmentedButton<DailyGoal>(
+                segments: [
+                  ButtonSegment(value: DailyGoal.relaxed, label: Text(l10n.dailyGoalRelaxed)),
+                  ButtonSegment(value: DailyGoal.normal, label: Text(l10n.dailyGoalNormal)),
+                  ButtonSegment(value: DailyGoal.ambitious, label: Text(l10n.dailyGoalAmbitious)),
+                ],
+                selected: {settings.dailyGoal},
+                onSelectionChanged: (s) => settingsProvider.setDailyGoal(s.first),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.tune,
+            color: AppBrandColors.gold,
+            title: l10n.settingsMoreOptions,
+            children: [
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsUseHearts),
+                value: settings.useHearts,
+                onChanged: settingsProvider.setUseHearts,
+              ),
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsDailyReminder),
+                subtitle: Text(l10n.settingsDailyReminderSubtitle),
+                value: settings.dailyReminderEnabled,
+                onChanged: handleReminderToggle,
+              ),
+              if (settings.dailyReminderEnabled)
+                ListTile(
+                  contentPadding: EdgeInsets.zero,
+                  leading: const Icon(Icons.access_time),
+                  title: Text(l10n.settingsReminderTime),
+                  subtitle: Text(
+                    l10n.settingsReminderTimeSubtitle(
+                      TimeOfDay(hour: settings.reminderHour, minute: settings.reminderMinute).format(context),
+                    ),
+                  ),
+                  onTap: pickReminderTime,
+                ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.workspace_premium_outlined,
+            color: AppBrandColors.terracotta,
+            title: l10n.settingsPremiumSection,
+            children: [
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                title: Text(l10n.settingsPremium),
+                subtitle: Text(purchaseService.isPremium ? l10n.settingsPremiumActive : l10n.settingsPremiumHint),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => context.push('/settings/premium'),
+              ),
+            ],
+          ),
+          _SettingsSection(
+            icon: Icons.storage_outlined,
+            color: AppBrandColors.green,
+            title: l10n.settingsDataSection,
+            children: [
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.cloud_upload_outlined),
+                title: Text(l10n.settingsBackupProgress),
+                onTap: () => _backupProgress(context, l10n),
+              ),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: const Icon(Icons.cloud_download_outlined),
+                title: Text(l10n.settingsRestoreProgress),
+                onTap: () => _restoreProgress(context, l10n),
+              ),
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: Icon(Icons.delete_outline, color: Theme.of(context).colorScheme.error),
+                title: Text(l10n.settingsResetProgress),
+                onTap: () => _confirmReset(context, l10n),
+              ),
+            ],
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: ListTile(
+              leading: const Icon(Icons.info_outline),
+              title: Text(l10n.settingsAbout),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => context.push('/settings/about'),
             ),
-          ],
+          ),
+        ],
         ),
       ),
     );
   }
 
-  Future<void> _confirmReset(
-    BuildContext context,
-    AppLocalizations l10n,
-  ) async {
+  Future<void> _confirmReset(BuildContext context, AppLocalizations l10n) async {
     final firstConfirm = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
         title: Text(l10n.resetProgressTitle),
         content: Text(l10n.resetProgressWarning),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: Text(l10n.commonCancel),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            child: Text(l10n.commonConfirm),
-          ),
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(l10n.commonCancel)),
+          FilledButton(onPressed: () => Navigator.pop(ctx, true), child: Text(l10n.commonConfirm)),
         ],
       ),
     );
@@ -457,18 +369,12 @@ class SettingsScreen extends StatelessWidget {
           ],
         ),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: Text(l10n.commonCancel),
-          ),
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(l10n.commonCancel)),
           FilledButton(
-            style: FilledButton.styleFrom(
-              backgroundColor: Theme.of(ctx).colorScheme.error,
-            ),
+            style: FilledButton.styleFrom(backgroundColor: Theme.of(ctx).colorScheme.error),
             onPressed: () => Navigator.pop(
               ctx,
-              controller.text.trim().toLowerCase() ==
-                  l10n.resetProgressConfirmWord.toLowerCase(),
+              controller.text.trim().toLowerCase() == l10n.resetProgressConfirmWord.toLowerCase(),
             ),
             child: Text(l10n.settingsResetProgress),
           ),
@@ -487,9 +393,7 @@ class SettingsScreen extends StatelessWidget {
     await progressProvider.resetAll();
     await settingsProvider.setOnboardingCompleted(false);
     if (!context.mounted) return;
-    ScaffoldMessenger.of(
-      context,
-    ).showSnackBar(SnackBar(content: Text(l10n.resetProgressDone)));
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.resetProgressDone)));
   }
 
   /// Exports the current progress as a JSON file.
@@ -505,26 +409,14 @@ class SettingsScreen extends StatelessWidget {
   /// supports natively. Web/desktop keep the original `getSaveLocation` +
   /// `saveTo` flow - see ENTSCHEIDUNGEN.md Etappe 10 for why that works there
   /// without `dart:io`.
-  Future<void> _backupProgress(
-    BuildContext context,
-    AppLocalizations l10n,
-  ) async {
+  Future<void> _backupProgress(BuildContext context, AppLocalizations l10n) async {
     final progress = context.read<ProgressProvider>();
     final bytes = Uint8List.fromList(utf8.encode(progress.exportJson()));
-    final file = XFile.fromData(
-      bytes,
-      name: 'habesha_speak_backup.json',
-      mimeType: 'application/json',
-    );
-    final isMobile =
-        !kIsWeb &&
-        (defaultTargetPlatform == TargetPlatform.android ||
-            defaultTargetPlatform == TargetPlatform.iOS);
+    final file = XFile.fromData(bytes, name: 'habesha_speak_backup.json', mimeType: 'application/json');
+    final isMobile = !kIsWeb && (defaultTargetPlatform == TargetPlatform.android || defaultTargetPlatform == TargetPlatform.iOS);
     try {
       if (isMobile) {
-        final result = await SharePlus.instance.share(
-          ShareParams(files: [file]),
-        );
+        final result = await SharePlus.instance.share(ShareParams(files: [file]));
         if (result.status == ShareResultStatus.dismissed) return;
       } else {
         final location = await getSaveLocation(
@@ -535,21 +427,14 @@ class SettingsScreen extends StatelessWidget {
         await file.saveTo(location.path);
       }
       if (!context.mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(l10n.backupProgressDone)));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.backupProgressDone)));
     } catch (_) {
       if (!context.mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(l10n.backupProgressError)));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.backupProgressError)));
     }
   }
 
-  Future<void> _restoreProgress(
-    BuildContext context,
-    AppLocalizations l10n,
-  ) async {
+  Future<void> _restoreProgress(BuildContext context, AppLocalizations l10n) async {
     final file = await openFile(acceptedTypeGroups: const [_backupTypeGroup]);
     if (file == null || !context.mounted) return;
 
@@ -558,9 +443,7 @@ class SettingsScreen extends StatelessWidget {
       contents = await file.readAsString();
     } catch (_) {
       if (!context.mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(l10n.restoreProgressInvalidFile)));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.restoreProgressInvalidFile)));
       return;
     }
     if (!context.mounted) return;
@@ -571,14 +454,8 @@ class SettingsScreen extends StatelessWidget {
         title: Text(l10n.restoreProgressTitle),
         content: Text(l10n.restoreProgressWarning),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx, false),
-            child: Text(l10n.commonCancel),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.pop(ctx, true),
-            child: Text(l10n.commonConfirm),
-          ),
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(l10n.commonCancel)),
+          FilledButton(onPressed: () => Navigator.pop(ctx, true), child: Text(l10n.commonConfirm)),
         ],
       ),
     );
@@ -587,14 +464,10 @@ class SettingsScreen extends StatelessWidget {
     try {
       await context.read<ProgressProvider>().importJson(contents);
       if (!context.mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(l10n.restoreProgressDone)));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.restoreProgressDone)));
     } catch (_) {
       if (!context.mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(l10n.restoreProgressInvalidFile)));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l10n.restoreProgressInvalidFile)));
     }
   }
 }
@@ -641,9 +514,7 @@ class _SettingsSection extends StatelessWidget {
                   Expanded(
                     child: Text(
                       title,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w600,
-                      ),
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w600),
                     ),
                   ),
                 ],

@@ -50,14 +50,8 @@ class _AboutScreenState extends State<AboutScreen> {
           onSubmitted: (value) => Navigator.pop(ctx, value),
         ),
         actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child: Text(l10n.commonCancel),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.pop(ctx, controller.text),
-            child: Text(l10n.devUnlockButton),
-          ),
+          TextButton(onPressed: () => Navigator.pop(ctx), child: Text(l10n.commonCancel)),
+          FilledButton(onPressed: () => Navigator.pop(ctx, controller.text), child: Text(l10n.devUnlockButton)),
         ],
       ),
     );
@@ -66,9 +60,7 @@ class _AboutScreenState extends State<AboutScreen> {
     final ok = context.read<PurchaseService>().redeemDevCode(code);
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(ok ? l10n.devUnlockSuccess : l10n.devUnlockInvalid),
-      ),
+      SnackBar(content: Text(ok ? l10n.devUnlockSuccess : l10n.devUnlockInvalid)),
     );
   }
 
@@ -91,72 +83,72 @@ class _AboutScreenState extends State<AboutScreen> {
         child: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            Center(
+          Center(
+            child: Column(
+              children: [
+                Icon(
+                  Icons.translate,
+                  size: 56,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  l10n.appTitle,
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+                const SizedBox(height: 4),
+                GestureDetector(
+                  onTap: _onVersionTap,
+                  child: Text('${l10n.aboutVersion} $_appVersion'),
+                ),
+                Text(
+                  '${l10n.aboutBuildDate}: $_buildDate',
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 24),
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Text(l10n.aboutPrivacy),
+            ),
+          ),
+          const SizedBox(height: 16),
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(
-                    Icons.translate,
-                    size: 56,
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                  const SizedBox(height: 12),
                   Text(
-                    l10n.appTitle,
-                    style: Theme.of(context).textTheme.headlineSmall,
+                    l10n.aboutShortcuts,
+                    style: Theme.of(context).textTheme.titleMedium,
                   ),
-                  const SizedBox(height: 4),
-                  GestureDetector(
-                    onTap: _onVersionTap,
-                    child: Text('${l10n.aboutVersion} $_appVersion'),
-                  ),
-                  Text(
-                    '${l10n.aboutBuildDate}: $_buildDate',
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Theme.of(context).colorScheme.onSurfaceVariant,
-                    ),
-                  ),
+                  const SizedBox(height: 8),
+                  Text(l10n.aboutShortcutsAnswer),
+                  Text(l10n.aboutShortcutsNext),
+                  Text(l10n.aboutShortcutsCancel),
+                  Text(l10n.aboutShortcutsAudio),
                 ],
               ),
             ),
-            const SizedBox(height: 24),
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Text(l10n.aboutPrivacy),
-              ),
+          ),
+          const SizedBox(height: 16),
+          ListTile(
+            leading: const Icon(Icons.description_outlined),
+            title: Text(l10n.aboutLicenses),
+            trailing: const Icon(Icons.chevron_right),
+            onTap: () => showLicensePage(
+              context: context,
+              applicationName: l10n.appTitle,
+              applicationVersion: _appVersion,
             ),
-            const SizedBox(height: 16),
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      l10n.aboutShortcuts,
-                      style: Theme.of(context).textTheme.titleMedium,
-                    ),
-                    const SizedBox(height: 8),
-                    Text(l10n.aboutShortcutsAnswer),
-                    Text(l10n.aboutShortcutsNext),
-                    Text(l10n.aboutShortcutsCancel),
-                    Text(l10n.aboutShortcutsAudio),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(height: 16),
-            ListTile(
-              leading: const Icon(Icons.description_outlined),
-              title: Text(l10n.aboutLicenses),
-              trailing: const Icon(Icons.chevron_right),
-              onTap: () => showLicensePage(
-                context: context,
-                applicationName: l10n.appTitle,
-                applicationVersion: _appVersion,
-              ),
-            ),
-          ],
+          ),
+        ],
         ),
       ),
     );
