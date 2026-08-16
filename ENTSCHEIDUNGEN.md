@@ -892,3 +892,35 @@ Sätze-bauen-Übung gar nicht mehr verstehen - genau das Gegenteil vom Zweck der
   Fidel-Zeichenset geprüft** (gleiche Methode wie in Etappe 28 für die erste Bug-Behebung) - alle
   bestehen, keine neue Stufe-5/6-Verletzung.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.
+
+## Etappe 27 Nachtrag 2: Eritrea-Umriss neu gezeichnet, nahe an der Referenz
+
+Nutzer-Einwand: der erste Eritrea-Umriss (Etappe 27) war zu grob/"halbläbig" - der Nutzer schickte
+erneut die Referenz-Umrissgrafik und wollte den Umriss 1:1 daran angelehnt, nicht nur ungefähr
+ähnlich. `_outlineVertices` in `lib/core/eritrea_map_layout.dart` wurde von 18 auf 31 Punkte
+erweitert und deutlich genauer an die reale/abgebildete Silhouette angenähert: die scharfe
+Nordspitze bei Karora (Sudan/Rotes-Meer-Ecke), eine bucklige, mehrfach eingekerbte Westgrenze zu
+Sudan, eine eingebuchtete Rotes-Meer-Küste, die "Taille" wo sich der Schwanz vom Hauptkörper löst,
+und die südöstliche Landzunge bis zur spitzen Ras-Dumeira-Spitze an der Grenze zu Dschibuti.
+
+- **Selbstüberschneidung des Polygons rechnerisch geprüft statt nur optisch.** Ein Screenshot-Check
+  war in dieser Umgebung nicht möglich (dieselbe schon in Etappe 8/27 dokumentierte Einschränkung:
+  "Browser pane is not displayed" beim Screenshot-Mechanismus). Stattdessen wurde der komplette
+  31-Punkte-Umriss mit einem eigenständigen Segment-Schnittpunkt-Test (Node-Skript, nicht Teil des
+  Repos) auf Selbstüberschneidungen geprüft - ein erster Entwurf mit mehr Zacken im Schwanzbereich
+  hatte tatsächlich eine Überschneidung (Hinweg- und Rückweg-Kante der Landzunge kreuzten sich), was
+  beim Rendern als verdrehte "Schleife" ausgesehen hätte. Der Schwanz wurde daraufhin bewusst mit
+  weniger, aber sauber getrennten Kontrollpunkten gezeichnet (Hinweg/Küste konsequent östlich vom
+  Rückweg/Grenze bei jedem Breitengrad) - am Ende 0 Überschneidungen, korrekte
+  Umlaufrichtung, alle 4 Stations-Positionen weiterhin sinnvoll platziert (Keren/Asmara/Massawa
+  liegen innerhalb der Landmasse, Dahlak bewusst leicht außerhalb - unverändert seit Etappe 27, da
+  die Dahlak-Station ohnehin für die Vor-der-Küste-Inselgruppe steht und ihre Position schon immer
+  für Kartenabstand statt geografischer Genauigkeit gewählt wurde).
+- **Direkt im Browser gegen den laufenden `flutter run -d web-server` geprüft** (kein manueller
+  Screenshot möglich, aber Konsole und Ladezustand kontrolliert: App startet fehlerfrei, keine neuen
+  Laufzeitfehler gegenüber vorher, nur die schon bekannte, unabhängige DWDS-Websocket-Warnung im
+  Debug-Modus).
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün. Echte visuelle
+  Prüfung im Browser bleibt (wie in Etappe 8/27 dokumentiert) durch die Umgebung eingeschränkt -
+  die geometrische Korrektheit (kein Selbstschnitt, richtige Fläche/Ausdehnung) ist rechnerisch
+  sichergestellt, eine Pixel-genaue Übereinstimmung mit der Referenzgrafik aber nicht.

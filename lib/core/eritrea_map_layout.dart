@@ -28,14 +28,16 @@ class _MapTransform {
 /// trade-off ENTSCHEIDUNGEN.md already documents for `LessonScreen` vs
 /// `ExercisePlayer` (Etappe 6).
 ///
-/// The outline below is a simplified, hand-authored approximation of
-/// Eritrea's real boundary (elongated along the Red Sea coast, a straighter
-/// western border with Sudan, a jagged south-eastern coastline down to the
-/// Djibouti border) - built from general geographic knowledge and the
-/// reference outline the user sent, not a surveyed dataset the way
-/// [EthiopiaMap.outline] was (that one came from a real `ETH.geo.json`
-/// boundary file). Same "grob richtig, nicht exakt maßstabsgetreu" license
-/// [EthiopiaMap.geoPositions] already uses for tap-clearance.
+/// The outline below is a hand-authored approximation of Eritrea's real
+/// boundary, redrawn (Etappe 27 Nachtrag 2) to closely trace the reference
+/// silhouette the user sent: the sharp northern spike at the Sudan/Red Sea
+/// corner near Karora, a scalloped western border with Sudan bulging out
+/// around 15-16°N, a notched Red Sea coast, the waist where the body
+/// narrows into the south-eastern tail, and that tail's jagged run down to
+/// the pointed Ras Dumeira tip at the Djibouti border - not a surveyed
+/// dataset the way [EthiopiaMap.outline] was (that one came from a real
+/// `ETH.geo.json` boundary file), but traced point-by-point against the
+/// reference image rather than the looser first attempt.
 class EritreaCountryMap {
   static const double _minLon = 36.0;
   static const double _maxLon = 43.6;
@@ -85,25 +87,38 @@ class EritreaCountryMap {
   }
 
   static const List<GeoPoint> _outlineVertices = [
-    GeoPoint(36.8, 18.0),
-    GeoPoint(38.0, 17.6),
-    GeoPoint(39.0, 16.6),
-    GeoPoint(39.5, 15.6),
-    GeoPoint(39.9, 15.0),
-    GeoPoint(39.5, 14.5),
-    GeoPoint(40.1, 13.9),
-    GeoPoint(40.6, 13.3),
-    GeoPoint(41.5, 13.0),
-    GeoPoint(42.3, 12.7),
-    GeoPoint(43.3, 12.45),
-    GeoPoint(42.6, 12.6),
-    GeoPoint(41.0, 13.4),
-    GeoPoint(39.7, 14.0),
-    GeoPoint(38.7, 14.3),
-    GeoPoint(37.5, 14.6),
-    GeoPoint(36.5, 15.0),
-    GeoPoint(36.4, 16.5),
-    GeoPoint(36.8, 18.0),
+    GeoPoint(38.5, 18.05), // north tip (Karora/Sudan-Red Sea corner) - the sharp spike
+    GeoPoint(38.15, 17.75),
+    GeoPoint(38.55, 17.5),
+    GeoPoint(39.0, 17.0),
+    GeoPoint(39.25, 16.5),
+    GeoPoint(39.1, 16.15), // small bay notch
+    GeoPoint(39.5, 15.85),
+    GeoPoint(39.85, 15.55),
+    GeoPoint(39.7, 15.2), // Gulf-of-Zula-style notch
+    GeoPoint(40.1, 14.95),
+    GeoPoint(40.5, 14.55),
+    GeoPoint(40.35, 14.2), // small coastal notch
+    GeoPoint(40.75, 13.95), // the waist, where the tail narrows off the main body
+    GeoPoint(41.2, 13.5), // south-east tail, outbound (coast) side
+    GeoPoint(42.2, 12.9),
+    GeoPoint(43.25, 12.42), // south-east tip (Ras Dumeira / Djibouti border)
+    GeoPoint(42.0, 12.75), // back along the tail's return (southern/Ethiopia border) side
+    GeoPoint(41.0, 13.3),
+    GeoPoint(39.9, 14.1),
+    GeoPoint(39.4, 14.35),
+    GeoPoint(38.9, 14.5),
+    GeoPoint(38.35, 14.7),
+    GeoPoint(37.75, 14.85),
+    GeoPoint(37.15, 15.05), // south-west corner, the Sudan border begins
+    GeoPoint(36.75, 15.35),
+    GeoPoint(36.55, 15.85), // westernmost bulge
+    GeoPoint(36.85, 16.25), // small bay notch
+    GeoPoint(36.65, 16.65),
+    GeoPoint(36.9, 17.05),
+    GeoPoint(37.2, 17.4),
+    GeoPoint(37.7, 17.7),
+    GeoPoint(38.5, 18.05), // close back at the north tip
   ];
 
   /// The Dahlak archipelago's own small island shapes, offshore of Massawa
