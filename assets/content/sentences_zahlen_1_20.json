@@ -21,5 +21,51 @@
       "alu"
     ],
     "verified": false
+  },
+  {
+    "id": "sen_hulet_wendimoch",
+    "am": "ሁለት ወንድሞች አሉ።",
+    "tr": "hulet wendimoch alu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_zahl_2",
+      "lex_bruder"
+    ],
+    "t": {
+      "de": "Es gibt zwei Brüder.",
+      "en": "There are two brothers.",
+      "sv": "Det finns två bröder.",
+      "nl": "Er zijn twee broers."
+    },
+    "alt": {},
+    "chunks": [
+      "hulet",
+      "wendimoch",
+      "alu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_sost_ihitoch",
+    "am": "ሶስት እህቶች አሉ።",
+    "tr": "sost ihitoch alu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_zahl_3",
+      "lex_schwester"
+    ],
+    "t": {
+      "de": "Es gibt drei Schwestern.",
+      "en": "There are three sisters.",
+      "sv": "Det finns tre systrar.",
+      "nl": "Er zijn drie zussen."
+    },
+    "alt": {},
+    "chunks": [
+      "sost",
+      "ihitoch",
+      "alu"
+    ],
+    "verified": false
   }
 ]

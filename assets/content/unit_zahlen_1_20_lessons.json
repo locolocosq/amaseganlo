@@ -85,7 +85,9 @@
       "lex_zahl_20"
     ],
     "sentenceIds": [
-      "sen_amist_lijoch"
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -118,7 +120,9 @@
       "lex_zahl_20"
     ],
     "sentenceIds": [
-      "sen_amist_lijoch"
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -151,7 +155,9 @@
       "lex_zahl_20"
     ],
     "sentenceIds": [
-      "sen_amist_lijoch"
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -184,7 +190,9 @@
       "lex_zahl_20"
     ],
     "sentenceIds": [
-      "sen_amist_lijoch"
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
