@@ -76,7 +76,11 @@
       "lex_ti_kg_serveti"
     ],
     "sentenceIds": [
-      "sen_ti_moebel_kueche_1"
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -106,7 +110,11 @@
       "lex_ti_kg_serveti"
     ],
     "sentenceIds": [
-      "sen_ti_moebel_kueche_1"
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -136,7 +144,11 @@
       "lex_ti_kg_serveti"
     ],
     "sentenceIds": [
-      "sen_ti_moebel_kueche_1"
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -166,7 +178,11 @@
       "lex_ti_kg_serveti"
     ],
     "sentenceIds": [
-      "sen_ti_moebel_kueche_1"
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

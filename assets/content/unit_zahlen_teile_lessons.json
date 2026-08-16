@@ -39,7 +39,13 @@
       "lex_doppelt",
       "lex_dutzend"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_doppelt",
       "lex_dutzend"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_doppelt",
       "lex_dutzend"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_doppelt",
       "lex_dutzend"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

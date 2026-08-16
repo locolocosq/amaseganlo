@@ -54,7 +54,13 @@
       "lex_zahl_800",
       "lex_zahl_900"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sechste",
+      "sen_gen_siebte",
+      "sen_gen_achte",
+      "sen_gen_neunte",
+      "sen_gen_zehnte"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -75,7 +81,13 @@
       "lex_zahl_800",
       "lex_zahl_900"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sechste",
+      "sen_gen_siebte",
+      "sen_gen_achte",
+      "sen_gen_neunte",
+      "sen_gen_zehnte"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -96,7 +108,13 @@
       "lex_zahl_800",
       "lex_zahl_900"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sechste",
+      "sen_gen_siebte",
+      "sen_gen_achte",
+      "sen_gen_neunte",
+      "sen_gen_zehnte"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -117,7 +135,13 @@
       "lex_zahl_800",
       "lex_zahl_900"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sechste",
+      "sen_gen_siebte",
+      "sen_gen_achte",
+      "sen_gen_neunte",
+      "sen_gen_zehnte"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

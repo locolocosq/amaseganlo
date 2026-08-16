@@ -122,7 +122,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_meweded",
-      "sen_ine_ihedalehu"
+      "sen_ine_ihedalehu",
+      "sen_gen_v_kommen",
+      "sen_gen_v_sehen",
+      "sen_gen_v_machen"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -168,7 +171,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_meweded",
-      "sen_ine_ihedalehu"
+      "sen_ine_ihedalehu",
+      "sen_gen_v_kommen",
+      "sen_gen_v_sehen",
+      "sen_gen_v_machen"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -214,7 +220,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_meweded",
-      "sen_ine_ihedalehu"
+      "sen_ine_ihedalehu",
+      "sen_gen_v_kommen",
+      "sen_gen_v_sehen",
+      "sen_gen_v_machen"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -260,7 +269,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_meweded",
-      "sen_ine_ihedalehu"
+      "sen_ine_ihedalehu",
+      "sen_gen_v_kommen",
+      "sen_gen_v_sehen",
+      "sen_gen_v_machen"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -74,7 +74,10 @@
     ],
     "sentenceIds": [
       "sen_suk_yet_new",
-      "sen_ketema_tilik"
+      "sen_ketema_tilik",
+      "sen_gen_strasse",
+      "sen_gen_krankenhaus",
+      "sen_gen_schule"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -104,7 +107,10 @@
     ],
     "sentenceIds": [
       "sen_suk_yet_new",
-      "sen_ketema_tilik"
+      "sen_ketema_tilik",
+      "sen_gen_strasse",
+      "sen_gen_krankenhaus",
+      "sen_gen_schule"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -134,7 +140,10 @@
     ],
     "sentenceIds": [
       "sen_suk_yet_new",
-      "sen_ketema_tilik"
+      "sen_ketema_tilik",
+      "sen_gen_strasse",
+      "sen_gen_krankenhaus",
+      "sen_gen_schule"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -164,7 +173,10 @@
     ],
     "sentenceIds": [
       "sen_suk_yet_new",
-      "sen_ketema_tilik"
+      "sen_ketema_tilik",
+      "sen_gen_strasse",
+      "sen_gen_krankenhaus",
+      "sen_gen_schule"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

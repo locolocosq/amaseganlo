@@ -43,7 +43,11 @@
       "lex_ti_ibg_video2"
     ],
     "sentenceIds": [
-      "sen_ti_internetbegriffe_1"
+      "sen_ti_internetbegriffe_1",
+      "sen_gen_ibg_email",
+      "sen_gen_ibg_srch",
+      "sen_gen_ibg_link",
+      "sen_gen_ibg_conn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -62,7 +66,11 @@
       "lex_ti_ibg_video2"
     ],
     "sentenceIds": [
-      "sen_ti_internetbegriffe_1"
+      "sen_ti_internetbegriffe_1",
+      "sen_gen_ibg_email",
+      "sen_gen_ibg_srch",
+      "sen_gen_ibg_link",
+      "sen_gen_ibg_conn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -81,7 +89,11 @@
       "lex_ti_ibg_video2"
     ],
     "sentenceIds": [
-      "sen_ti_internetbegriffe_1"
+      "sen_ti_internetbegriffe_1",
+      "sen_gen_ibg_email",
+      "sen_gen_ibg_srch",
+      "sen_gen_ibg_link",
+      "sen_gen_ibg_conn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -100,7 +112,11 @@
       "lex_ti_ibg_video2"
     ],
     "sentenceIds": [
-      "sen_ti_internetbegriffe_1"
+      "sen_ti_internetbegriffe_1",
+      "sen_gen_ibg_email",
+      "sen_gen_ibg_srch",
+      "sen_gen_ibg_link",
+      "sen_gen_ibg_conn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

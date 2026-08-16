@@ -63,7 +63,13 @@
       "lex_mut",
       "lex_geduld_n"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -87,7 +93,13 @@
       "lex_mut",
       "lex_geduld_n"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -111,7 +123,13 @@
       "lex_mut",
       "lex_geduld_n"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -135,7 +153,13 @@
       "lex_mut",
       "lex_geduld_n"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

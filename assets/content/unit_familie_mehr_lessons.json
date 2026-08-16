@@ -48,7 +48,13 @@
       "lex_witwer",
       "lex_stiefmutter"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_zwilling",
+      "sen_gen_witwe",
+      "sen_gen_stiefmutter",
+      "sen_gen_fingernagel",
+      "sen_gen_zunge"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -67,7 +73,13 @@
       "lex_witwer",
       "lex_stiefmutter"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_zwilling",
+      "sen_gen_witwe",
+      "sen_gen_stiefmutter",
+      "sen_gen_fingernagel",
+      "sen_gen_zunge"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -86,7 +98,13 @@
       "lex_witwer",
       "lex_stiefmutter"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_zwilling",
+      "sen_gen_witwe",
+      "sen_gen_stiefmutter",
+      "sen_gen_fingernagel",
+      "sen_gen_zunge"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -105,7 +123,13 @@
       "lex_witwer",
       "lex_stiefmutter"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_zwilling",
+      "sen_gen_witwe",
+      "sen_gen_stiefmutter",
+      "sen_gen_fingernagel",
+      "sen_gen_zunge"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

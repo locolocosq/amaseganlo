@@ -52,7 +52,11 @@
       "lex_ti_gfh_avoid"
     ],
     "sentenceIds": [
-      "sen_ti_menge_gefahren_1"
+      "sen_ti_menge_gefahren_1",
+      "sen_gen_mng2_empty2",
+      "sen_gen_mng2_many2",
+      "sen_gen_mng2_few2",
+      "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_gfh_avoid"
     ],
     "sentenceIds": [
-      "sen_ti_menge_gefahren_1"
+      "sen_ti_menge_gefahren_1",
+      "sen_gen_mng2_empty2",
+      "sen_gen_mng2_many2",
+      "sen_gen_mng2_few2",
+      "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_gfh_avoid"
     ],
     "sentenceIds": [
-      "sen_ti_menge_gefahren_1"
+      "sen_ti_menge_gefahren_1",
+      "sen_gen_mng2_empty2",
+      "sen_gen_mng2_many2",
+      "sen_gen_mng2_few2",
+      "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_gfh_avoid"
     ],
     "sentenceIds": [
-      "sen_ti_menge_gefahren_1"
+      "sen_ti_menge_gefahren_1",
+      "sen_gen_mng2_empty2",
+      "sen_gen_mng2_many2",
+      "sen_gen_mng2_few2",
+      "sen_gen_mng2_enough"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

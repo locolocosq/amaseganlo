@@ -45,7 +45,13 @@
       "lex_feier",
       "lex_beerdigung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_feier",
       "lex_beerdigung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_feier",
       "lex_beerdigung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_feier",
       "lex_beerdigung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

@@ -151,7 +151,11 @@
       "lex_ti_zenab3"
     ],
     "sentenceIds": [
-      "sen_ti_tiere_mehr_1"
+      "sen_ti_tiere_mehr_1",
+      "sen_gen_dmu",
+      "sen_gen_faras",
+      "sen_gen_lam",
+      "sen_gen_bereh"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -206,7 +210,11 @@
       "lex_ti_zenab3"
     ],
     "sentenceIds": [
-      "sen_ti_tiere_mehr_1"
+      "sen_ti_tiere_mehr_1",
+      "sen_gen_dmu",
+      "sen_gen_faras",
+      "sen_gen_lam",
+      "sen_gen_bereh"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -261,7 +269,11 @@
       "lex_ti_zenab3"
     ],
     "sentenceIds": [
-      "sen_ti_tiere_mehr_1"
+      "sen_ti_tiere_mehr_1",
+      "sen_gen_dmu",
+      "sen_gen_faras",
+      "sen_gen_lam",
+      "sen_gen_bereh"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -316,7 +328,11 @@
       "lex_ti_zenab3"
     ],
     "sentenceIds": [
-      "sen_ti_tiere_mehr_1"
+      "sen_ti_tiere_mehr_1",
+      "sen_gen_dmu",
+      "sen_gen_faras",
+      "sen_gen_lam",
+      "sen_gen_bereh"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

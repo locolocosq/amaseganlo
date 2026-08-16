@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_verkehr2_intro","kind":"intro","lexemeIds":["lex_hv2_awtobis","lex_hv2_bajaj","lex_hv2_menged2","lex_hv2_meredaja","lex_hv2_v_mengodgede","lex_hv2_menaji","lex_hv2_menikise","lex_hv2_tiya","lex_hv2_merkeb","lex_hv2_v_mekomat","lex_hv2_mebrek","lex_hv2_akidet","lex_hv2_dinbir2","lex_hv2_menged_mekelakel","lex_hv2_v_metsigen","lex_hv2_menged_bota","lex_hv2_meskelegna","lex_hv2_bnzin","lex_hv2_gomaye","lex_hv2_v_mekemamet"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_verkehr2_words","kind":"wordPractice","lexemeIds":["lex_hv2_awtobis","lex_hv2_bajaj","lex_hv2_menged2","lex_hv2_meredaja","lex_hv2_v_mengodgede","lex_hv2_menaji","lex_hv2_menikise","lex_hv2_tiya","lex_hv2_merkeb","lex_hv2_v_mekomat","lex_hv2_mebrek","lex_hv2_akidet","lex_hv2_dinbir2","lex_hv2_menged_mekelakel","lex_hv2_v_metsigen","lex_hv2_menged_bota","lex_hv2_meskelegna","lex_hv2_bnzin","lex_hv2_gomaye","lex_hv2_v_mekemamet"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_verkehr2_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hv2_awtobis","lex_hv2_bajaj","lex_hv2_menged2","lex_hv2_meredaja","lex_hv2_v_mengodgede","lex_hv2_menaji","lex_hv2_menikise","lex_hv2_tiya","lex_hv2_merkeb","lex_hv2_v_mekomat","lex_hv2_mebrek","lex_hv2_akidet","lex_hv2_dinbir2","lex_hv2_menged_mekelakel","lex_hv2_v_metsigen","lex_hv2_menged_bota","lex_hv2_meskelegna","lex_hv2_bnzin","lex_hv2_gomaye","lex_hv2_v_mekemamet"],"sentenceIds":["sen_hv2_shuferu_awtobis","sen_hv2_mengedegna_tiya","sen_hv2_awtobis_merkeb","sen_hv2_mebrek_akidet"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_verkehr2_listening","kind":"listening","lexemeIds":["lex_hv2_awtobis","lex_hv2_bajaj","lex_hv2_menged2","lex_hv2_meredaja","lex_hv2_v_mengodgede","lex_hv2_menaji","lex_hv2_menikise","lex_hv2_tiya","lex_hv2_merkeb","lex_hv2_v_mekomat","lex_hv2_mebrek","lex_hv2_akidet","lex_hv2_dinbir2","lex_hv2_menged_mekelakel","lex_hv2_v_metsigen","lex_hv2_menged_bota","lex_hv2_meskelegna","lex_hv2_bnzin","lex_hv2_gomaye","lex_hv2_v_mekemamet"],"sentenceIds":["sen_hv2_shuferu_awtobis","sen_hv2_mengedegna_tiya","sen_hv2_awtobis_merkeb","sen_hv2_mebrek_akidet"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_verkehr2_free","kind":"freeApplication","lexemeIds":["lex_hv2_awtobis","lex_hv2_bajaj","lex_hv2_menged2","lex_hv2_meredaja","lex_hv2_v_mengodgede","lex_hv2_menaji","lex_hv2_menikise","lex_hv2_tiya","lex_hv2_merkeb","lex_hv2_v_mekomat","lex_hv2_mebrek","lex_hv2_akidet","lex_hv2_dinbir2","lex_hv2_menged_mekelakel","lex_hv2_v_metsigen","lex_hv2_menged_bota","lex_hv2_meskelegna","lex_hv2_bnzin","lex_hv2_gomaye","lex_hv2_v_mekemamet"],"sentenceIds":["sen_hv2_shuferu_awtobis","sen_hv2_mengedegna_tiya","sen_hv2_awtobis_merkeb","sen_hv2_mebrek_akidet"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_verkehr2_review","kind":"review","lexemeIds":["lex_hv2_awtobis","lex_hv2_bajaj","lex_hv2_menged2","lex_hv2_meredaja","lex_hv2_v_mengodgede","lex_hv2_menaji","lex_hv2_menikise","lex_hv2_tiya","lex_hv2_merkeb","lex_hv2_v_mekomat","lex_hv2_mebrek","lex_hv2_akidet","lex_hv2_dinbir2","lex_hv2_menged_mekelakel","lex_hv2_v_metsigen","lex_hv2_menged_bota","lex_hv2_meskelegna","lex_hv2_bnzin","lex_hv2_gomaye","lex_hv2_v_mekemamet"],"sentenceIds":["sen_hv2_shuferu_awtobis","sen_hv2_mengedegna_tiya","sen_hv2_awtobis_merkeb","sen_hv2_mebrek_akidet"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_verkehr2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hv2_awtobis",
+      "lex_hv2_bajaj",
+      "lex_hv2_menged2",
+      "lex_hv2_meredaja",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_menaji",
+      "lex_hv2_menikise",
+      "lex_hv2_tiya",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat",
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet",
+      "lex_hv2_dinbir2",
+      "lex_hv2_menged_mekelakel",
+      "lex_hv2_v_metsigen",
+      "lex_hv2_menged_bota",
+      "lex_hv2_meskelegna",
+      "lex_hv2_bnzin",
+      "lex_hv2_gomaye",
+      "lex_hv2_v_mekemamet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_verkehr2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hv2_awtobis",
+      "lex_hv2_bajaj",
+      "lex_hv2_menged2",
+      "lex_hv2_meredaja",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_menaji",
+      "lex_hv2_menikise",
+      "lex_hv2_tiya",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat",
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet",
+      "lex_hv2_dinbir2",
+      "lex_hv2_menged_mekelakel",
+      "lex_hv2_v_metsigen",
+      "lex_hv2_menged_bota",
+      "lex_hv2_meskelegna",
+      "lex_hv2_bnzin",
+      "lex_hv2_gomaye",
+      "lex_hv2_v_mekemamet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_verkehr2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hv2_awtobis",
+      "lex_hv2_bajaj",
+      "lex_hv2_menged2",
+      "lex_hv2_meredaja",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_menaji",
+      "lex_hv2_menikise",
+      "lex_hv2_tiya",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat",
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet",
+      "lex_hv2_dinbir2",
+      "lex_hv2_menged_mekelakel",
+      "lex_hv2_v_metsigen",
+      "lex_hv2_menged_bota",
+      "lex_hv2_meskelegna",
+      "lex_hv2_bnzin",
+      "lex_hv2_gomaye",
+      "lex_hv2_v_mekemamet"
+    ],
+    "sentenceIds": [
+      "sen_hv2_shuferu_awtobis",
+      "sen_hv2_mengedegna_tiya",
+      "sen_hv2_awtobis_merkeb",
+      "sen_hv2_mebrek_akidet",
+      "sen_gen_hv2_bajaj"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_verkehr2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hv2_awtobis",
+      "lex_hv2_bajaj",
+      "lex_hv2_menged2",
+      "lex_hv2_meredaja",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_menaji",
+      "lex_hv2_menikise",
+      "lex_hv2_tiya",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat",
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet",
+      "lex_hv2_dinbir2",
+      "lex_hv2_menged_mekelakel",
+      "lex_hv2_v_metsigen",
+      "lex_hv2_menged_bota",
+      "lex_hv2_meskelegna",
+      "lex_hv2_bnzin",
+      "lex_hv2_gomaye",
+      "lex_hv2_v_mekemamet"
+    ],
+    "sentenceIds": [
+      "sen_hv2_shuferu_awtobis",
+      "sen_hv2_mengedegna_tiya",
+      "sen_hv2_awtobis_merkeb",
+      "sen_hv2_mebrek_akidet",
+      "sen_gen_hv2_bajaj"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_verkehr2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hv2_awtobis",
+      "lex_hv2_bajaj",
+      "lex_hv2_menged2",
+      "lex_hv2_meredaja",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_menaji",
+      "lex_hv2_menikise",
+      "lex_hv2_tiya",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat",
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet",
+      "lex_hv2_dinbir2",
+      "lex_hv2_menged_mekelakel",
+      "lex_hv2_v_metsigen",
+      "lex_hv2_menged_bota",
+      "lex_hv2_meskelegna",
+      "lex_hv2_bnzin",
+      "lex_hv2_gomaye",
+      "lex_hv2_v_mekemamet"
+    ],
+    "sentenceIds": [
+      "sen_hv2_shuferu_awtobis",
+      "sen_hv2_mengedegna_tiya",
+      "sen_hv2_awtobis_merkeb",
+      "sen_hv2_mebrek_akidet",
+      "sen_gen_hv2_bajaj"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_verkehr2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hv2_awtobis",
+      "lex_hv2_bajaj",
+      "lex_hv2_menged2",
+      "lex_hv2_meredaja",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_menaji",
+      "lex_hv2_menikise",
+      "lex_hv2_tiya",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat",
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet",
+      "lex_hv2_dinbir2",
+      "lex_hv2_menged_mekelakel",
+      "lex_hv2_v_metsigen",
+      "lex_hv2_menged_bota",
+      "lex_hv2_meskelegna",
+      "lex_hv2_bnzin",
+      "lex_hv2_gomaye",
+      "lex_hv2_v_mekemamet"
+    ],
+    "sentenceIds": [
+      "sen_hv2_shuferu_awtobis",
+      "sen_hv2_mengedegna_tiya",
+      "sen_hv2_awtobis_merkeb",
+      "sen_hv2_mebrek_akidet",
+      "sen_gen_hv2_bajaj"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

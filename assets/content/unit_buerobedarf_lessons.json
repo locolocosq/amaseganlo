@@ -45,7 +45,13 @@
       "lex_umschlag",
       "lex_briefmarke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_umschlag",
       "lex_briefmarke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_umschlag",
       "lex_briefmarke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_umschlag",
       "lex_briefmarke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

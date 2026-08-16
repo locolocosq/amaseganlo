@@ -52,7 +52,11 @@
       "lex_ti_tkp_restrt"
     ],
     "sentenceIds": [
-      "sen_ti_mobilfunk_technikphrasen_1"
+      "sen_ti_mobilfunk_technikphrasen_1",
+      "sen_gen_mbf_sgnl",
+      "sen_gen_mbf_call",
+      "sen_gen_mbf_txt",
+      "sen_gen_mbf_ntwk"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_tkp_restrt"
     ],
     "sentenceIds": [
-      "sen_ti_mobilfunk_technikphrasen_1"
+      "sen_ti_mobilfunk_technikphrasen_1",
+      "sen_gen_mbf_sgnl",
+      "sen_gen_mbf_call",
+      "sen_gen_mbf_txt",
+      "sen_gen_mbf_ntwk"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_tkp_restrt"
     ],
     "sentenceIds": [
-      "sen_ti_mobilfunk_technikphrasen_1"
+      "sen_ti_mobilfunk_technikphrasen_1",
+      "sen_gen_mbf_sgnl",
+      "sen_gen_mbf_call",
+      "sen_gen_mbf_txt",
+      "sen_gen_mbf_ntwk"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_tkp_restrt"
     ],
     "sentenceIds": [
-      "sen_ti_mobilfunk_technikphrasen_1"
+      "sen_ti_mobilfunk_technikphrasen_1",
+      "sen_gen_mbf_sgnl",
+      "sen_gen_mbf_call",
+      "sen_gen_mbf_txt",
+      "sen_gen_mbf_ntwk"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

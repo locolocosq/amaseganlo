@@ -1,0 +1,3636 @@
+[
+  {
+    "id": "sen_gen_selam_2",
+    "am": "ሰላም።",
+    "tr": "selam.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_selam"
+    ],
+    "t": {
+      "de": "Hallo.",
+      "en": "Hello.",
+      "sv": "Hej.",
+      "nl": "Hallo."
+    },
+    "alt": {},
+    "chunks": [
+      "selam."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_yiqeneyeley",
+    "am": "የቐንየለይ።",
+    "tr": "yiqeneyeley.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_yiqeneyeley"
+    ],
+    "t": {
+      "de": "Danke.",
+      "en": "Thank you.",
+      "sv": "Tack.",
+      "nl": "Dank je."
+    },
+    "alt": {},
+    "chunks": [
+      "yiqeneyeley."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bejaka",
+    "am": "በጃኻ።",
+    "tr": "bejaka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bejaka"
+    ],
+    "t": {
+      "de": "Bitte.",
+      "en": "Please.",
+      "sv": "Snälla.",
+      "nl": "Alsjeblieft."
+    },
+    "alt": {},
+    "chunks": [
+      "bejaka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sidra",
+    "am": "ስድራ ኣሎ።",
+    "tr": "sidra alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sidra"
+    ],
+    "t": {
+      "de": "die Familie ist vorhanden.",
+      "en": "There is family.",
+      "sv": "Det finns familj.",
+      "nl": "Er is familie."
+    },
+    "alt": {},
+    "chunks": [
+      "sidra",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kolu",
+    "am": "ቆልዓ ኣሎ።",
+    "tr": "kolu alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kolu"
+    ],
+    "t": {
+      "de": "das Kind ist vorhanden.",
+      "en": "There is child.",
+      "sv": "Det finns barn.",
+      "nl": "Er is kind."
+    },
+    "alt": {},
+    "chunks": [
+      "kolu",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_adki",
+    "am": "ዓርኪ ኣሎ።",
+    "tr": "adki alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_adki"
+    ],
+    "t": {
+      "de": "der Freund, die Freundin ist vorhanden.",
+      "en": "There is friend.",
+      "sv": "Det finns vän.",
+      "nl": "Er is vriend."
+    },
+    "alt": {},
+    "chunks": [
+      "adki",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_1_2",
+    "am": "ሓደ ኣሎ።",
+    "tr": "hade alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_1"
+    ],
+    "t": {
+      "de": "1 ist vorhanden.",
+      "en": "There is 1.",
+      "sv": "Det finns 1.",
+      "nl": "Er is 1."
+    },
+    "alt": {},
+    "chunks": [
+      "hade",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_4_2",
+    "am": "ኣርባዕተ ኣሎ።",
+    "tr": "arba'ete alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_4"
+    ],
+    "t": {
+      "de": "4 ist vorhanden.",
+      "en": "There is 4.",
+      "sv": "Det finns 4.",
+      "nl": "Er is 4."
+    },
+    "alt": {},
+    "chunks": [
+      "arba'ete",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_5",
+    "am": "ሓሙሽተ ኣሎ።",
+    "tr": "hamushte alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_5"
+    ],
+    "t": {
+      "de": "5 ist vorhanden.",
+      "en": "There is 5.",
+      "sv": "Det finns 5.",
+      "nl": "Er is 5."
+    },
+    "alt": {},
+    "chunks": [
+      "hamushte",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bani",
+    "am": "ባኒ ኣሎ።",
+    "tr": "bani alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bani"
+    ],
+    "t": {
+      "de": "das Brot ist vorhanden.",
+      "en": "There is bread.",
+      "sv": "Det finns bröd.",
+      "nl": "Er is brood."
+    },
+    "alt": {},
+    "chunks": [
+      "bani",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tsibhi",
+    "am": "ጽብሒ ኣሎ።",
+    "tr": "tsibhi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tsibhi"
+    ],
+    "t": {
+      "de": "der Eintopf, die Sauce ist vorhanden.",
+      "en": "There is stew, sauce.",
+      "sv": "Det finns gryta, sås.",
+      "nl": "Er is stoofpot, saus."
+    },
+    "alt": {},
+    "chunks": [
+      "tsibhi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tseba",
+    "am": "ጸባ ኣሎ።",
+    "tr": "tseba alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tseba"
+    ],
+    "t": {
+      "de": "die Milch ist vorhanden.",
+      "en": "There is milk.",
+      "sv": "Det finns mjölk.",
+      "nl": "Er is melk."
+    },
+    "alt": {},
+    "chunks": [
+      "tseba",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_12",
+    "am": "ዓሰርተ ክልተ ኣሎ።",
+    "tr": "asirte kelte alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_12"
+    ],
+    "t": {
+      "de": "12 ist vorhanden.",
+      "en": "There is 12.",
+      "sv": "Det finns 12.",
+      "nl": "Er is 12."
+    },
+    "alt": {},
+    "chunks": [
+      "asirte",
+      "kelte",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_13",
+    "am": "ዓሰርተ ሰለስተ ኣሎ።",
+    "tr": "asirte seleste alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_13"
+    ],
+    "t": {
+      "de": "13 ist vorhanden.",
+      "en": "There is 13.",
+      "sv": "Det finns 13.",
+      "nl": "Er is 13."
+    },
+    "alt": {},
+    "chunks": [
+      "asirte",
+      "seleste",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_14",
+    "am": "ዓሰርተ ኣርባዕተ ኣሎ።",
+    "tr": "asirte arba'ete alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_14"
+    ],
+    "t": {
+      "de": "14 ist vorhanden.",
+      "en": "There is 14.",
+      "sv": "Det finns 14.",
+      "nl": "Er is 14."
+    },
+    "alt": {},
+    "chunks": [
+      "asirte",
+      "arba'ete",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_15",
+    "am": "ዓሰርተ ሓሙሽተ ኣሎ።",
+    "tr": "asirte hamushte alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_15"
+    ],
+    "t": {
+      "de": "15 ist vorhanden.",
+      "en": "There is 15.",
+      "sv": "Det finns 15.",
+      "nl": "Er is 15."
+    },
+    "alt": {},
+    "chunks": [
+      "asirte",
+      "hamushte",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kokhay",
+    "am": "ንሱ ሰማያዊ እዩ።",
+    "tr": "nisu semayawi 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kokhay"
+    ],
+    "t": {
+      "de": "Er ist blau.",
+      "en": "He is blue.",
+      "sv": "Han är blå.",
+      "nl": "Hij is blauw."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "semayawi",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_qetsli",
+    "am": "ንሱ ቀጠልያ እዩ።",
+    "tr": "nisu qet'elya 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_qetsli"
+    ],
+    "t": {
+      "de": "Er ist grün.",
+      "en": "He is green.",
+      "sv": "Han är grön.",
+      "nl": "Hij is groen."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "qet'elya",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tsaada",
+    "am": "ንሱ ጻዕዳ እዩ።",
+    "tr": "nisu tsa'eda 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tsaada"
+    ],
+    "t": {
+      "de": "Er ist weiß.",
+      "en": "He is white.",
+      "sv": "Han är vit.",
+      "nl": "Hij is wit."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "tsa'eda",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kekhi",
+    "am": "ንሱ ጸሊም እዩ።",
+    "tr": "nisu tselim 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kekhi"
+    ],
+    "t": {
+      "de": "Er ist schwarz.",
+      "en": "He is black.",
+      "sv": "Han är svart.",
+      "nl": "Hij is zwart."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "tselim",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_geets",
+    "am": "ገጽ ኣሎ።",
+    "tr": "gets alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_geets"
+    ],
+    "t": {
+      "de": "das Gesicht ist vorhanden.",
+      "en": "There is face.",
+      "sv": "Det finns ansikte.",
+      "nl": "Er is gezicht."
+    },
+    "alt": {},
+    "chunks": [
+      "gets",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ayni",
+    "am": "ዓይኒ ኣሎ።",
+    "tr": "'ayni alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ayni"
+    ],
+    "t": {
+      "de": "das Auge ist vorhanden.",
+      "en": "There is eye.",
+      "sv": "Det finns öga.",
+      "nl": "Er is oog."
+    },
+    "alt": {},
+    "chunks": [
+      "'ayni",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_afu",
+    "am": "ኣፍ ኣሎ።",
+    "tr": "afu alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_afu"
+    ],
+    "t": {
+      "de": "der Mund ist vorhanden.",
+      "en": "There is mouth.",
+      "sv": "Det finns mun.",
+      "nl": "Er is mond."
+    },
+    "alt": {},
+    "chunks": [
+      "afu",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_afinca",
+    "am": "ኣፍንጫ ኣሎ።",
+    "tr": "afincha alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_afinca"
+    ],
+    "t": {
+      "de": "die Nase ist vorhanden.",
+      "en": "There is nose.",
+      "sv": "Det finns näsa.",
+      "nl": "Er is neus."
+    },
+    "alt": {},
+    "chunks": [
+      "afincha",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kemis",
+    "am": "ቀሚሽ ኣሎ።",
+    "tr": "qemish alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kemis"
+    ],
+    "t": {
+      "de": "das Kleid ist vorhanden.",
+      "en": "There is dress.",
+      "sv": "Det finns klänning.",
+      "nl": "Er is jurk."
+    },
+    "alt": {},
+    "chunks": [
+      "qemish",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_shurbi",
+    "am": "ካልሲ ኣሎ።",
+    "tr": "kalsi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_shurbi"
+    ],
+    "t": {
+      "de": "die Socke ist vorhanden.",
+      "en": "There is sock.",
+      "sv": "Det finns strumpa.",
+      "nl": "Er is sok."
+    },
+    "alt": {},
+    "chunks": [
+      "kalsi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kondom",
+    "am": "ስረ ኣሎ።",
+    "tr": "sire alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kondom"
+    ],
+    "t": {
+      "de": "die Hose ist vorhanden.",
+      "en": "There is trousers.",
+      "sv": "Det finns byxor.",
+      "nl": "Er is broek."
+    },
+    "alt": {},
+    "chunks": [
+      "sire",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_shemis",
+    "am": "ካምቻ ኣሎ።",
+    "tr": "kamcha alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_shemis"
+    ],
+    "t": {
+      "de": "das Hemd ist vorhanden.",
+      "en": "There is shirt.",
+      "sv": "Det finns skjorta.",
+      "nl": "Er is overhemd."
+    },
+    "alt": {},
+    "chunks": [
+      "kamcha",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kotari",
+    "am": "ክፍሊ (ገዛ) ኣሎ።",
+    "tr": "kifli geza alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kotari"
+    ],
+    "t": {
+      "de": "das Zimmer ist vorhanden.",
+      "en": "There is room.",
+      "sv": "Det finns rum.",
+      "nl": "Er is kamer."
+    },
+    "alt": {},
+    "chunks": [
+      "kifli",
+      "geza",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bota",
+    "am": "ማዕጾ ኣሎ።",
+    "tr": "ma'etso alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bota"
+    ],
+    "t": {
+      "de": "die Tür ist vorhanden.",
+      "en": "There is door.",
+      "sv": "Det finns dörr.",
+      "nl": "Er is deur."
+    },
+    "alt": {},
+    "chunks": [
+      "ma'etso",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_meskot",
+    "am": "መስኮት ኣሎ።",
+    "tr": "meskot alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_meskot"
+    ],
+    "t": {
+      "de": "das Fenster ist vorhanden.",
+      "en": "There is window.",
+      "sv": "Det finns fönster.",
+      "nl": "Er is raam."
+    },
+    "alt": {},
+    "chunks": [
+      "meskot",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_teret",
+    "am": "ጠረጴዛ ኣሎ።",
+    "tr": "teretseza alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_teret"
+    ],
+    "t": {
+      "de": "der Tisch ist vorhanden.",
+      "en": "There is table.",
+      "sv": "Det finns bord.",
+      "nl": "Er is tafel."
+    },
+    "alt": {},
+    "chunks": [
+      "teretseza",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wersiha",
+    "am": "ወርሒ ኣሎ።",
+    "tr": "werhi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wersiha"
+    ],
+    "t": {
+      "de": "der Mond ist vorhanden.",
+      "en": "There is moon.",
+      "sv": "Det finns måne.",
+      "nl": "Er is maan."
+    },
+    "alt": {},
+    "chunks": [
+      "werhi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kokebti",
+    "am": "ኮኸብ ኣሎ።",
+    "tr": "kokeb alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kokebti"
+    ],
+    "t": {
+      "de": "der Stern ist vorhanden.",
+      "en": "There is star.",
+      "sv": "Det finns stjärna.",
+      "nl": "Er is ster."
+    },
+    "alt": {},
+    "chunks": [
+      "kokeb",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_semay",
+    "am": "ሰማይ ኣሎ።",
+    "tr": "semay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_semay"
+    ],
+    "t": {
+      "de": "der Himmel ist vorhanden.",
+      "en": "There is sky.",
+      "sv": "Det finns himmel.",
+      "nl": "Er is lucht."
+    },
+    "alt": {},
+    "chunks": [
+      "semay",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dammena",
+    "am": "ደበና ኣሎ።",
+    "tr": "debena alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dammena"
+    ],
+    "t": {
+      "de": "die Wolke ist vorhanden.",
+      "en": "There is cloud.",
+      "sv": "Det finns moln.",
+      "nl": "Er is wolk."
+    },
+    "alt": {},
+    "chunks": [
+      "debena",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dmu",
+    "am": "ድሙ ኣሎ።",
+    "tr": "dimu alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dmu"
+    ],
+    "t": {
+      "de": "die Katze ist vorhanden.",
+      "en": "There is cat.",
+      "sv": "Det finns katt.",
+      "nl": "Er is kat."
+    },
+    "alt": {},
+    "chunks": [
+      "dimu",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_faras",
+    "am": "ፈረስ ኣሎ።",
+    "tr": "feres alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_faras"
+    ],
+    "t": {
+      "de": "das Pferd ist vorhanden.",
+      "en": "There is horse.",
+      "sv": "Det finns häst.",
+      "nl": "Er is paard."
+    },
+    "alt": {},
+    "chunks": [
+      "feres",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lam",
+    "am": "ላም ኣሎ።",
+    "tr": "lam alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_lam"
+    ],
+    "t": {
+      "de": "die Kuh ist vorhanden.",
+      "en": "There is cow.",
+      "sv": "Det finns ko.",
+      "nl": "Er is koe."
+    },
+    "alt": {},
+    "chunks": [
+      "lam",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bereh",
+    "am": "ኣባጊዕ ኣሎ።",
+    "tr": "abagi'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bereh"
+    ],
+    "t": {
+      "de": "das Schaf ist vorhanden.",
+      "en": "There is sheep.",
+      "sv": "Det finns får.",
+      "nl": "Er is schaap."
+    },
+    "alt": {},
+    "chunks": [
+      "abagi'e",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_deqiqa",
+    "am": "ደቒቕ ኣሎ።",
+    "tr": "deqiq alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_deqiqa"
+    ],
+    "t": {
+      "de": "die Minute ist vorhanden.",
+      "en": "There is minute.",
+      "sv": "Det finns minut.",
+      "nl": "Er is minuut."
+    },
+    "alt": {},
+    "chunks": [
+      "deqiq",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sekond",
+    "am": "ካልኢት ኣሎ።",
+    "tr": "kal'it alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sekond"
+    ],
+    "t": {
+      "de": "die Sekunde ist vorhanden.",
+      "en": "There is second.",
+      "sv": "Det finns sekund.",
+      "nl": "Er is seconde."
+    },
+    "alt": {},
+    "chunks": [
+      "kal'it",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mieti",
+    "am": "መዓልቲ ኣሎ።",
+    "tr": "me'alti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mieti"
+    ],
+    "t": {
+      "de": "der Tag ist vorhanden.",
+      "en": "There is day.",
+      "sv": "Det finns dag.",
+      "nl": "Er is dag."
+    },
+    "alt": {},
+    "chunks": [
+      "me'alti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lelit",
+    "am": "ለይቲ ኣሎ።",
+    "tr": "leyti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_lelit"
+    ],
+    "t": {
+      "de": "die Nacht ist vorhanden.",
+      "en": "There is night.",
+      "sv": "Det finns natt.",
+      "nl": "Er is nacht."
+    },
+    "alt": {},
+    "chunks": [
+      "leyti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hakim",
+    "am": "ሓኪም ኣሎ።",
+    "tr": "hakim alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hakim"
+    ],
+    "t": {
+      "de": "der Arzt ist vorhanden.",
+      "en": "There is doctor.",
+      "sv": "Det finns läkare.",
+      "nl": "Er is arts."
+    },
+    "alt": {},
+    "chunks": [
+      "hakim",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_neurse",
+    "am": "ነርስ ኣሎ።",
+    "tr": "nersi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_neurse"
+    ],
+    "t": {
+      "de": "die Krankenschwester ist vorhanden.",
+      "en": "There is nurse.",
+      "sv": "Det finns sjuksköterska.",
+      "nl": "Er is verpleegkundige."
+    },
+    "alt": {},
+    "chunks": [
+      "nersi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gebari",
+    "am": "ሓረስታይ ኣሎ።",
+    "tr": "harestay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gebari"
+    ],
+    "t": {
+      "de": "der Bauer ist vorhanden.",
+      "en": "There is farmer.",
+      "sv": "Det finns bonde.",
+      "nl": "Er is boer."
+    },
+    "alt": {},
+    "chunks": [
+      "harestay",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_negadi",
+    "am": "ነጋዳይ ኣሎ።",
+    "tr": "negaday alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_negadi"
+    ],
+    "t": {
+      "de": "der Händler ist vorhanden.",
+      "en": "There is trader, merchant.",
+      "sv": "Det finns handlare.",
+      "nl": "Er is handelaar."
+    },
+    "alt": {},
+    "chunks": [
+      "negaday",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_awtobus",
+    "am": "ኣውቶቡስ ኣሎ።",
+    "tr": "awtobus alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_awtobus"
+    ],
+    "t": {
+      "de": "der Bus ist vorhanden.",
+      "en": "There is bus.",
+      "sv": "Det finns buss.",
+      "nl": "Er is bus."
+    },
+    "alt": {},
+    "chunks": [
+      "awtobus",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_babur",
+    "am": "ባቡር ኣሎ።",
+    "tr": "babur alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_babur"
+    ],
+    "t": {
+      "de": "der Zug ist vorhanden.",
+      "en": "There is train.",
+      "sv": "Det finns tåg.",
+      "nl": "Er is trein."
+    },
+    "alt": {},
+    "chunks": [
+      "babur",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_aeroplan",
+    "am": "ነፋሪት ኣሎ።",
+    "tr": "nefarit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_aeroplan"
+    ],
+    "t": {
+      "de": "das Flugzeug ist vorhanden.",
+      "en": "There is airplane.",
+      "sv": "Det finns flygplan.",
+      "nl": "Er is vliegtuig."
+    },
+    "alt": {},
+    "chunks": [
+      "nefarit",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_merkeb",
+    "am": "መርከብ ኣሎ።",
+    "tr": "merkeb alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_merkeb"
+    ],
+    "t": {
+      "de": "das Schiff ist vorhanden.",
+      "en": "There is ship.",
+      "sv": "Det finns skepp.",
+      "nl": "Er is schip."
+    },
+    "alt": {},
+    "chunks": [
+      "merkeb",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sitay",
+    "am": "ስተይ።",
+    "tr": "sitey.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sitay"
+    ],
+    "t": {
+      "de": "Trinken!",
+      "en": "Drink!",
+      "sv": "Dricka!",
+      "nl": "Drinken!"
+    },
+    "alt": {},
+    "chunks": [
+      "sitey."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dqs",
+    "am": "ደቅስ።",
+    "tr": "deqis.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dqs"
+    ],
+    "t": {
+      "de": "Schlafen!",
+      "en": "Sleep!",
+      "sv": "Sova!",
+      "nl": "Slapen!"
+    },
+    "alt": {},
+    "chunks": [
+      "deqis."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tesi",
+    "am": "ተንስእ።",
+    "tr": "tensi'e.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tesi"
+    ],
+    "t": {
+      "de": "Aufstehen!",
+      "en": "Get up, stand up!",
+      "sv": "Stiga upp!",
+      "nl": "Opstaan!"
+    },
+    "alt": {},
+    "chunks": [
+      "tensi'e."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hid",
+    "am": "ኪድ።",
+    "tr": "kidi.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hid"
+    ],
+    "t": {
+      "de": "Gehen!",
+      "en": "Go!",
+      "sv": "Gå!",
+      "nl": "Gaan!"
+    },
+    "alt": {},
+    "chunks": [
+      "kidi."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kfli2",
+    "am": "ምረጽ።",
+    "tr": "mirets.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kfli2"
+    ],
+    "t": {
+      "de": "Wählen!",
+      "en": "Choose!",
+      "sv": "Välja!",
+      "nl": "Kiezen!"
+    },
+    "alt": {},
+    "chunks": [
+      "mirets."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hwsi",
+    "am": "ቀይር።",
+    "tr": "qeyir.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hwsi"
+    ],
+    "t": {
+      "de": "Ändern, wechseln!",
+      "en": "Change!",
+      "sv": "Ändra!",
+      "nl": "Veranderen!"
+    },
+    "alt": {},
+    "chunks": [
+      "qeyir."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tsri",
+    "am": "ኣቐምጥ።",
+    "tr": "aqemit.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tsri"
+    ],
+    "t": {
+      "de": "Legen, stellen!",
+      "en": "Put, place!",
+      "sv": "Lägga, ställa!",
+      "nl": "Leggen, plaatsen!"
+    },
+    "alt": {},
+    "chunks": [
+      "aqemit."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zbti",
+    "am": "ኣንቅል።",
+    "tr": "aniqil.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zbti"
+    ],
+    "t": {
+      "de": "Bewegen!",
+      "en": "Move!",
+      "sv": "Flytta!",
+      "nl": "Bewegen!"
+    },
+    "alt": {},
+    "chunks": [
+      "aniqil."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hazani",
+    "am": "ሓዘን ኣሎ።",
+    "tr": "hazen alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hazani"
+    ],
+    "t": {
+      "de": "die Trauer ist vorhanden.",
+      "en": "There is sadness, grief.",
+      "sv": "Det finns sorg.",
+      "nl": "Er is verdriet."
+    },
+    "alt": {},
+    "chunks": [
+      "hazen",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_qurtsi",
+    "am": "ሕርቃን ኣሎ።",
+    "tr": "hirqan alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_qurtsi"
+    ],
+    "t": {
+      "de": "die Wut, der Ärger ist vorhanden.",
+      "en": "There is anger.",
+      "sv": "Det finns ilska.",
+      "nl": "Er is boosheid."
+    },
+    "alt": {},
+    "chunks": [
+      "hirqan",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_firhi",
+    "am": "ፍርሒ ኣሎ።",
+    "tr": "firhi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_firhi"
+    ],
+    "t": {
+      "de": "die Angst ist vorhanden.",
+      "en": "There is fear.",
+      "sv": "Det finns rädsla.",
+      "nl": "Er is angst."
+    },
+    "alt": {},
+    "chunks": [
+      "firhi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tmhrti",
+    "am": "ንሱ ሕጉስ እዩ።",
+    "tr": "nisu higus 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tmhrti"
+    ],
+    "t": {
+      "de": "Er ist glücklich, froh.",
+      "en": "He is happy.",
+      "sv": "Han är lycklig.",
+      "nl": "Hij is gelukkig."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "higus",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ebiy",
+    "am": "ብርዒ ኣሎ።",
+    "tr": "birI'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ebiy"
+    ],
+    "t": {
+      "de": "der Stift ist vorhanden.",
+      "en": "There is pen.",
+      "sv": "Det finns penna.",
+      "nl": "Er is pen."
+    },
+    "alt": {},
+    "chunks": [
+      "birI'i",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wereqet",
+    "am": "ወረቐት ኣሎ።",
+    "tr": "wereqet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wereqet"
+    ],
+    "t": {
+      "de": "das Papier, das Blatt ist vorhanden.",
+      "en": "There is paper.",
+      "sv": "Det finns papper.",
+      "nl": "Er is papier."
+    },
+    "alt": {},
+    "chunks": [
+      "wereqet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tsihfet",
+    "am": "ጽሕፈት ኣሎ።",
+    "tr": "tsihfet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tsihfet"
+    ],
+    "t": {
+      "de": "das Schreiben, der Text ist vorhanden.",
+      "en": "There is writing, text.",
+      "sv": "Det finns skrift.",
+      "nl": "Er is geschrift."
+    },
+    "alt": {},
+    "chunks": [
+      "tsihfet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_timhirti",
+    "am": "ትምህርቲ ኣሎ።",
+    "tr": "timhirti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_timhirti"
+    ],
+    "t": {
+      "de": "der Unterricht, die Bildung ist vorhanden.",
+      "en": "There is lesson, education.",
+      "sv": "Det finns lektion, utbildning.",
+      "nl": "Er is les, onderwijs."
+    },
+    "alt": {},
+    "chunks": [
+      "timhirti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kompiuter",
+    "am": "ኮምፒተር ኣሎ።",
+    "tr": "kompiter alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kompiuter"
+    ],
+    "t": {
+      "de": "der Computer ist vorhanden.",
+      "en": "There is computer.",
+      "sv": "Det finns dator.",
+      "nl": "Er is computer."
+    },
+    "alt": {},
+    "chunks": [
+      "kompiter",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_intrnet",
+    "am": "ኢንተርነት ኣሎ።",
+    "tr": "internet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_intrnet"
+    ],
+    "t": {
+      "de": "das Internet ist vorhanden.",
+      "en": "There is internet.",
+      "sv": "Det finns internet.",
+      "nl": "Er is internet."
+    },
+    "alt": {},
+    "chunks": [
+      "internet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_msgbi",
+    "am": "መልእኽቲ ኣሎ።",
+    "tr": "mel'ikti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_msgbi"
+    ],
+    "t": {
+      "de": "die Nachricht ist vorhanden.",
+      "en": "There is message.",
+      "sv": "Det finns meddelande.",
+      "nl": "Er is bericht."
+    },
+    "alt": {},
+    "chunks": [
+      "mel'ikti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_slti",
+    "am": "ስእሊ (ካሜራ) ኣሎ።",
+    "tr": "si'ili kamera alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_slti"
+    ],
+    "t": {
+      "de": "das Foto ist vorhanden.",
+      "en": "There is photo.",
+      "sv": "Det finns foto.",
+      "nl": "Er is foto."
+    },
+    "alt": {},
+    "chunks": [
+      "si'ili",
+      "kamera",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kws",
+    "am": "ኩዕሶ ኣሎ።",
+    "tr": "ku'iso alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kws"
+    ],
+    "t": {
+      "de": "der Ball ist vorhanden.",
+      "en": "There is ball.",
+      "sv": "Det finns boll.",
+      "nl": "Er is bal."
+    },
+    "alt": {},
+    "chunks": [
+      "ku'iso",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gugsi",
+    "am": "ጉያ ኣሎ።",
+    "tr": "guya alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gugsi"
+    ],
+    "t": {
+      "de": "das Laufen, Rennen ist vorhanden.",
+      "en": "There is running.",
+      "sv": "Det finns löpning.",
+      "nl": "Er is hardlopen."
+    },
+    "alt": {},
+    "chunks": [
+      "guya",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wnah",
+    "am": "ምሕምባስ ኣሎ።",
+    "tr": "mihimbas alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wnah"
+    ],
+    "t": {
+      "de": "das Schwimmen ist vorhanden.",
+      "en": "There is swimming.",
+      "sv": "Det finns simning.",
+      "nl": "Er is zwemmen."
+    },
+    "alt": {},
+    "chunks": [
+      "mihimbas",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gnzabi",
+    "am": "ጸወታ ኣሎ።",
+    "tr": "tsewuta alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gnzabi"
+    ],
+    "t": {
+      "de": "das Spiel ist vorhanden.",
+      "en": "There is game.",
+      "sv": "Det finns spel.",
+      "nl": "Er is spel."
+    },
+    "alt": {},
+    "chunks": [
+      "tsewuta",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tsli3",
+    "am": "ጸሎት ኣሎ።",
+    "tr": "tselot alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tsli3"
+    ],
+    "t": {
+      "de": "das Gebet ist vorhanden.",
+      "en": "There is prayer.",
+      "sv": "Det finns bön.",
+      "nl": "Er is gebed."
+    },
+    "alt": {},
+    "chunks": [
+      "tselot",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bal2",
+    "am": "በዓል ኣሎ።",
+    "tr": "be'al alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bal2"
+    ],
+    "t": {
+      "de": "das Fest, der Feiertag ist vorhanden.",
+      "en": "There is festival, holiday.",
+      "sv": "Det finns fest, helgdag.",
+      "nl": "Er is feest, feestdag."
+    },
+    "alt": {},
+    "chunks": [
+      "be'al",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fasika",
+    "am": "ፋሲካ ኣሎ።",
+    "tr": "fasika alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_fasika"
+    ],
+    "t": {
+      "de": "Ostern ist vorhanden.",
+      "en": "There is Easter.",
+      "sv": "Det finns påsk.",
+      "nl": "Er is Pasen."
+    },
+    "alt": {},
+    "chunks": [
+      "fasika",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lidet",
+    "am": "ልደት ኣሎ።",
+    "tr": "lidet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_lidet"
+    ],
+    "t": {
+      "de": "Weihnachten ist vorhanden.",
+      "en": "There is Christmas.",
+      "sv": "Det finns jul.",
+      "nl": "Er is Kerstmis."
+    },
+    "alt": {},
+    "chunks": [
+      "lidet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wagi",
+    "am": "ዋጋ ኣሎ።",
+    "tr": "waga alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wagi"
+    ],
+    "t": {
+      "de": "der Preis ist vorhanden.",
+      "en": "There is price.",
+      "sv": "Det finns pris.",
+      "nl": "Er is prijs."
+    },
+    "alt": {},
+    "chunks": [
+      "waga",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nakfa",
+    "am": "ናቕፋ ኣሎ።",
+    "tr": "nakfa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_nakfa"
+    ],
+    "t": {
+      "de": "Nakfa (eritreische Währung) ist vorhanden.",
+      "en": "There is nakfa (Eritrean currency).",
+      "sv": "Det finns nakfa (eritreansk valuta).",
+      "nl": "Er is nakfa (Eritrese munt)."
+    },
+    "alt": {},
+    "chunks": [
+      "nakfa",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kredit",
+    "am": "ካርድ ኣሎ።",
+    "tr": "kard alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kredit"
+    ],
+    "t": {
+      "de": "die Karte (Kredit-) ist vorhanden.",
+      "en": "There is card (credit).",
+      "sv": "Det finns kort.",
+      "nl": "Er is kaart."
+    },
+    "alt": {},
+    "chunks": [
+      "kard",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kreyi",
+    "am": "ቅብሊት ኣሎ።",
+    "tr": "qibilit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kreyi"
+    ],
+    "t": {
+      "de": "die Quittung ist vorhanden.",
+      "en": "There is receipt.",
+      "sv": "Det finns kvitto.",
+      "nl": "Er is bon."
+    },
+    "alt": {},
+    "chunks": [
+      "qibilit",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_injera",
+    "am": "ጣዕሚ ኣሎ።",
+    "tr": "t'a'imi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_injera"
+    ],
+    "t": {
+      "de": "der Geschmack ist vorhanden.",
+      "en": "There is taste, flavor.",
+      "sv": "Det finns smak.",
+      "nl": "Er is smaak."
+    },
+    "alt": {},
+    "chunks": [
+      "t'a'imi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ficn",
+    "am": "ፍረታት ኣሎ።",
+    "tr": "firetat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ficn"
+    ],
+    "t": {
+      "de": "das Obst ist vorhanden.",
+      "en": "There is fruit.",
+      "sv": "Det finns frukt.",
+      "nl": "Er is fruit."
+    },
+    "alt": {},
+    "chunks": [
+      "firetat",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hxavi",
+    "am": "ኣሕምልቲ ኣሎ።",
+    "tr": "ahimilti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hxavi"
+    ],
+    "t": {
+      "de": "das Gemüse ist vorhanden.",
+      "en": "There is vegetables.",
+      "sv": "Det finns grönsaker.",
+      "nl": "Er is groenten."
+    },
+    "alt": {},
+    "chunks": [
+      "ahimilti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bnbn",
+    "am": "ሙዝ ኣሎ።",
+    "tr": "muz alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bnbn"
+    ],
+    "t": {
+      "de": "die Banane ist vorhanden.",
+      "en": "There is banana.",
+      "sv": "Det finns banan.",
+      "nl": "Er is banaan."
+    },
+    "alt": {},
+    "chunks": [
+      "muz",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_haltey",
+    "am": "ሓትኖ ኣሎ።",
+    "tr": "hatino alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_haltey"
+    ],
+    "t": {
+      "de": "die Tante ist vorhanden.",
+      "en": "There is aunt.",
+      "sv": "Det finns faster/moster.",
+      "nl": "Er is tante."
+    },
+    "alt": {},
+    "chunks": [
+      "hatino",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wediHi",
+    "am": "ወዲ ሓው ኣሎ።",
+    "tr": "wedi haw alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wediHi"
+    ],
+    "t": {
+      "de": "der Neffe ist vorhanden.",
+      "en": "There is nephew.",
+      "sv": "Det finns brorson.",
+      "nl": "Er is neef (zoon van broer)."
+    },
+    "alt": {},
+    "chunks": [
+      "wedi",
+      "haw",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gwadu",
+    "am": "ጓል ሓው ኣሎ።",
+    "tr": "gwal haw alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwadu"
+    ],
+    "t": {
+      "de": "die Nichte ist vorhanden.",
+      "en": "There is niece.",
+      "sv": "Det finns brorsdotter.",
+      "nl": "Er is nicht (dochter van broer)."
+    },
+    "alt": {},
+    "chunks": [
+      "gwal",
+      "haw",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_abay",
+    "am": "ዓባይ ኣሎ።",
+    "tr": "'abay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_abay"
+    ],
+    "t": {
+      "de": "die Großmutter ist vorhanden.",
+      "en": "There is grandmother.",
+      "sv": "Det finns farmor/mormor.",
+      "nl": "Er is grootmoeder."
+    },
+    "alt": {},
+    "chunks": [
+      "'abay",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_swden",
+    "am": "ስዊድን ኣሎ።",
+    "tr": "swidin alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_swden"
+    ],
+    "t": {
+      "de": "Schweden ist vorhanden.",
+      "en": "There is Sweden.",
+      "sv": "Det finns Sverige.",
+      "nl": "Er is Zweden."
+    },
+    "alt": {},
+    "chunks": [
+      "swidin",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hollandi",
+    "am": "ሆላንድ ኣሎ።",
+    "tr": "holand alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hollandi"
+    ],
+    "t": {
+      "de": "Niederlande ist vorhanden.",
+      "en": "There is Netherlands.",
+      "sv": "Det finns Nederländerna.",
+      "nl": "Er is Nederland."
+    },
+    "alt": {},
+    "chunks": [
+      "holand",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ingliz",
+    "am": "እንግሊዝ ኣሎ።",
+    "tr": "inglizi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ingliz"
+    ],
+    "t": {
+      "de": "England ist vorhanden.",
+      "en": "There is England.",
+      "sv": "Det finns England.",
+      "nl": "Er is Engeland."
+    },
+    "alt": {},
+    "chunks": [
+      "inglizi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_faransa",
+    "am": "ፈረንሳ ኣሎ።",
+    "tr": "ferensa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_faransa"
+    ],
+    "t": {
+      "de": "Frankreich ist vorhanden.",
+      "en": "There is France.",
+      "sv": "Det finns Frankrike.",
+      "nl": "Er is Frankrijk."
+    },
+    "alt": {},
+    "chunks": [
+      "ferensa",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_agdi",
+    "am": "ግራት ኣሎ።",
+    "tr": "girat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_agdi"
+    ],
+    "t": {
+      "de": "das Feld ist vorhanden.",
+      "en": "There is field.",
+      "sv": "Det finns åker, fält.",
+      "nl": "Er is veld, akker."
+    },
+    "alt": {},
+    "chunks": [
+      "girat",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zerie",
+    "am": "ዘርኢ ኣሎ።",
+    "tr": "zeri'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zerie"
+    ],
+    "t": {
+      "de": "der Samen ist vorhanden.",
+      "en": "There is seed.",
+      "sv": "Det finns frö.",
+      "nl": "Er is zaad."
+    },
+    "alt": {},
+    "chunks": [
+      "zeri'i",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_asrha",
+    "am": "ምሕራስ ኣሎ።",
+    "tr": "mihiras alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_asrha"
+    ],
+    "t": {
+      "de": "das Pflügen ist vorhanden.",
+      "en": "There is plowing.",
+      "sv": "Det finns plöjning.",
+      "nl": "Er is ploegen."
+    },
+    "alt": {},
+    "chunks": [
+      "mihiras",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_asisi",
+    "am": "ምእካብ ኣሎ።",
+    "tr": "mi'ikab alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_asisi"
+    ],
+    "t": {
+      "de": "die Ernte ist vorhanden.",
+      "en": "There is harvest.",
+      "sv": "Det finns skörd.",
+      "nl": "Er is oogst."
+    },
+    "alt": {},
+    "chunks": [
+      "mi'ikab",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_suf2",
+    "am": "ሱፍ ኣሎ።",
+    "tr": "suf alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_suf2"
+    ],
+    "t": {
+      "de": "die Wolle ist vorhanden.",
+      "en": "There is wool.",
+      "sv": "Det finns ull.",
+      "nl": "Er is wol."
+    },
+    "alt": {},
+    "chunks": [
+      "suf",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_geldi2",
+    "am": "ቆርበት (ንብረት) ኣሎ።",
+    "tr": "qorbet nibret alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_geldi2"
+    ],
+    "t": {
+      "de": "das Leder ist vorhanden.",
+      "en": "There is leather.",
+      "sv": "Det finns läder.",
+      "nl": "Er is leer."
+    },
+    "alt": {},
+    "chunks": [
+      "qorbet",
+      "nibret",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bret2",
+    "am": "ብርጭቆ (ንብረት) ኣሎ።",
+    "tr": "birchiqo nibret alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bret2"
+    ],
+    "t": {
+      "de": "das Glas (Material) ist vorhanden.",
+      "en": "There is glass (material).",
+      "sv": "Det finns glas (material).",
+      "nl": "Er is glas (materiaal)."
+    },
+    "alt": {},
+    "chunks": [
+      "birchiqo",
+      "nibret",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_plastik_2",
+    "am": "ላስቲክ ኣሎ።",
+    "tr": "lastik alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_plastik"
+    ],
+    "t": {
+      "de": "der Kunststoff, Plastik ist vorhanden.",
+      "en": "There is plastic.",
+      "sv": "Det finns plast.",
+      "nl": "Er is plastic."
+    },
+    "alt": {},
+    "chunks": [
+      "lastik",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kesela",
+    "am": "ደሓን ሓደር።",
+    "tr": "dehan hader.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kesela"
+    ],
+    "t": {
+      "de": "Gute Nacht.",
+      "en": "good night.",
+      "sv": "god natt.",
+      "nl": "goedenacht."
+    },
+    "alt": {},
+    "chunks": [
+      "dehan",
+      "hader."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dhnbot",
+    "am": "ደሓን ንበር።",
+    "tr": "dehan niber.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dhnbot"
+    ],
+    "t": {
+      "de": "Bleib gesund (Abschied).",
+      "en": "stay well (farewell).",
+      "sv": "må bra (avsked).",
+      "nl": "blijf gezond (afscheid)."
+    },
+    "alt": {},
+    "chunks": [
+      "dehan",
+      "niber."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bruk_mb",
+    "am": "እንቋዕ ደሓን መጻእካ።",
+    "tr": "inqua'e dehan metsa'eka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bruk_mb"
+    ],
+    "t": {
+      "de": "Willkommen (zu einem Mann).",
+      "en": "welcome (to a man).",
+      "sv": "välkommen (till en man).",
+      "nl": "welkom (tegen een man)."
+    },
+    "alt": {},
+    "chunks": [
+      "inqua'e",
+      "dehan",
+      "metsa'eka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kemzi",
+    "am": "ከመይ ኣለኻ።",
+    "tr": "kemey aleka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kemzi"
+    ],
+    "t": {
+      "de": "Wie geht es dir? (zu einem Mann).",
+      "en": "how are you? (to a man).",
+      "sv": "hur mår du? (till en man).",
+      "nl": "hoe gaat het? (tegen een man)."
+    },
+    "alt": {},
+    "chunks": [
+      "kemey",
+      "aleka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brvo",
+    "am": "ጽቡቕ ኢኻ ገይርካ።",
+    "tr": "tsibuq ikha geyirka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brvo"
+    ],
+    "t": {
+      "de": "gut gemacht! (zu einem Mann).",
+      "en": "well done! (to a man).",
+      "sv": "bra jobbat! (till en man).",
+      "nl": "goed gedaan! (tegen een man)."
+    },
+    "alt": {},
+    "chunks": [
+      "tsibuq",
+      "ikha",
+      "geyirka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hlkm",
+    "am": "ደሓን'ዩ።",
+    "tr": "dehan'yu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hlkm"
+    ],
+    "t": {
+      "de": "es ist okay, kein Problem.",
+      "en": "it's okay, no worries.",
+      "sv": "det är okej.",
+      "nl": "het is oké."
+    },
+    "alt": {},
+    "chunks": [
+      "dehan'yu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hgz",
+    "am": "ቀልጢፍካ!",
+    "tr": "qelt'ifka!",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hgz"
+    ],
+    "t": {
+      "de": "beeil dich! (zu einem Mann).",
+      "en": "hurry up! (to a man).",
+      "sv": "skynda dig! (till en man).",
+      "nl": "schiet op! (tegen een man)."
+    },
+    "alt": {},
+    "chunks": [
+      "qelt'ifka!"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nkm2",
+    "am": "ተጠንቀቕ።",
+    "tr": "tet'enqeq.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_nkm2"
+    ],
+    "t": {
+      "de": "pass auf! Vorsicht!",
+      "en": "watch out! careful!",
+      "sv": "se upp! försiktigt!",
+      "nl": "pas op! voorzichtig!"
+    },
+    "alt": {},
+    "chunks": [
+      "tet'enqeq."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kwlyt",
+    "am": "ኩሊት ኣሎ።",
+    "tr": "kulit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kwlyt"
+    ],
+    "t": {
+      "de": "die Niere ist vorhanden.",
+      "en": "There is kidney.",
+      "sv": "Det finns njure.",
+      "nl": "Er is nier."
+    },
+    "alt": {},
+    "chunks": [
+      "kulit",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hymt",
+    "am": "ማህጸን ኣሎ።",
+    "tr": "mahitsen alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hymt"
+    ],
+    "t": {
+      "de": "die Gebärmutter ist vorhanden.",
+      "en": "There is womb.",
+      "sv": "Det finns livmoder.",
+      "nl": "Er is baarmoeder."
+    },
+    "alt": {},
+    "chunks": [
+      "mahitsen",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kbdi3",
+    "am": "ኣንጀት ኣሎ።",
+    "tr": "anjet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kbdi3"
+    ],
+    "t": {
+      "de": "der Darm ist vorhanden.",
+      "en": "There is intestine.",
+      "sv": "Det finns tarm.",
+      "nl": "Er is darm."
+    },
+    "alt": {},
+    "chunks": [
+      "anjet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dmg",
+    "am": "ሓንጎል ኣሎ።",
+    "tr": "hangol alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dmg"
+    ],
+    "t": {
+      "de": "das Gehirn ist vorhanden.",
+      "en": "There is brain.",
+      "sv": "Det finns hjärna.",
+      "nl": "Er is hersenen."
+    },
+    "alt": {},
+    "chunks": [
+      "hangol",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lezhi",
+    "am": "ልቓሕ ኣሎ።",
+    "tr": "liqah alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_lezhi"
+    ],
+    "t": {
+      "de": "der Kredit, das Darlehen ist vorhanden.",
+      "en": "There is loan, credit.",
+      "sv": "Det finns lån, kredit.",
+      "nl": "Er is lening, krediet."
+    },
+    "alt": {},
+    "chunks": [
+      "liqah",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wraq2",
+    "am": "ወለድ ኣሎ።",
+    "tr": "weled alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wraq2"
+    ],
+    "t": {
+      "de": "der Zins ist vorhanden.",
+      "en": "There is interest (finance).",
+      "sv": "Det finns ränta.",
+      "nl": "Er is rente."
+    },
+    "alt": {},
+    "chunks": [
+      "weled",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_qmz",
+    "am": "ዕቋር ኣሎ።",
+    "tr": "'iquar alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_qmz"
+    ],
+    "t": {
+      "de": "die Ersparnisse ist vorhanden.",
+      "en": "There is savings.",
+      "sv": "Det finns besparingar.",
+      "nl": "Er is spaargeld."
+    },
+    "alt": {},
+    "chunks": [
+      "'iquar",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzbti2",
+    "am": "ወጻኢታት ኣሎ።",
+    "tr": "wetsa'itat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzbti2"
+    ],
+    "t": {
+      "de": "die Ausgaben ist vorhanden.",
+      "en": "There is expenses.",
+      "sv": "Det finns utgifter.",
+      "nl": "Er is uitgaven."
+    },
+    "alt": {},
+    "chunks": [
+      "wetsa'itat",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gm2",
+    "am": "ጎማ (መኪና) ኣሎ።",
+    "tr": "goma mekina alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gm2"
+    ],
+    "t": {
+      "de": "der Reifen ist vorhanden.",
+      "en": "There is tire.",
+      "sv": "Det finns däck.",
+      "nl": "Er is band (auto)."
+    },
+    "alt": {},
+    "chunks": [
+      "goma",
+      "mekina",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mfth2",
+    "am": "መፍትሕ መኪና ኣሎ።",
+    "tr": "mefithi mekina alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mfth2"
+    ],
+    "t": {
+      "de": "der Autoschlüssel ist vorhanden.",
+      "en": "There is car key.",
+      "sv": "Det finns bilnyckel.",
+      "nl": "Er is autosleutel."
+    },
+    "alt": {},
+    "chunks": [
+      "mefithi",
+      "mekina",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_msln",
+    "am": "መስኮት መኪና ኣሎ።",
+    "tr": "meskot mekina alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_msln"
+    ],
+    "t": {
+      "de": "das Autofenster ist vorhanden.",
+      "en": "There is car window.",
+      "sv": "Det finns bilfönster.",
+      "nl": "Er is autoraam."
+    },
+    "alt": {},
+    "chunks": [
+      "meskot",
+      "mekina",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bnzn",
+    "am": "ነዳዲ ኣሎ።",
+    "tr": "nedadi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bnzn"
+    ],
+    "t": {
+      "de": "das Benzin, Kraftstoff ist vorhanden.",
+      "en": "There is fuel, gasoline.",
+      "sv": "Det finns bränsle, bensin.",
+      "nl": "Er is brandstof, benzine."
+    },
+    "alt": {},
+    "chunks": [
+      "nedadi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kbro",
+    "am": "ከበሮ ኣሎ።",
+    "tr": "kebero alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kbro"
+    ],
+    "t": {
+      "de": "die Trommel ist vorhanden.",
+      "en": "There is drum.",
+      "sv": "Det finns trumma.",
+      "nl": "Er is trommel."
+    },
+    "alt": {},
+    "chunks": [
+      "kebero",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wshnt",
+    "am": "ዋሽንት ኣሎ።",
+    "tr": "washint alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wshnt"
+    ],
+    "t": {
+      "de": "die Flöte ist vorhanden.",
+      "en": "There is flute.",
+      "sv": "Det finns flöjt.",
+      "nl": "Er is fluit."
+    },
+    "alt": {},
+    "chunks": [
+      "washint",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gitar",
+    "am": "ጊታር ኣሎ።",
+    "tr": "gitar alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gitar"
+    ],
+    "t": {
+      "de": "die Gitarre ist vorhanden.",
+      "en": "There is guitar.",
+      "sv": "Det finns gitarr.",
+      "nl": "Er is gitaar."
+    },
+    "alt": {},
+    "chunks": [
+      "gitar",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_pyano",
+    "am": "ፒያኖ ኣሎ።",
+    "tr": "piyano alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_pyano"
+    ],
+    "t": {
+      "de": "das Klavier ist vorhanden.",
+      "en": "There is piano.",
+      "sv": "Det finns piano.",
+      "nl": "Er is piano."
+    },
+    "alt": {},
+    "chunks": [
+      "piyano",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frhan",
+    "am": "ንሱ ፈራሕ እዩ።",
+    "tr": "nisu ferah 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frhan"
+    ],
+    "t": {
+      "de": "Er ist feige, ängstlich.",
+      "en": "He is cowardly.",
+      "sv": "Han är feg.",
+      "nl": "Hij is laf."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "ferah",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_srhtnk",
+    "am": "ንሱ ትግሃት ዘለዎ እዩ።",
+    "tr": "nisu tighat zelewo 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_srhtnk"
+    ],
+    "t": {
+      "de": "Er ist fleißig.",
+      "en": "He is diligent, hardworking.",
+      "sv": "Han är flitig.",
+      "nl": "Hij is vlijtig."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "tighat",
+      "zelewo",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kslti",
+    "am": "ንሱ ህኩይ እዩ።",
+    "tr": "nisu hikuy 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kslti"
+    ],
+    "t": {
+      "de": "Er ist faul.",
+      "en": "He is lazy.",
+      "sv": "Han är lat.",
+      "nl": "Hij is lui."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "hikuy",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_amnti",
+    "am": "ንሱ እሙን እዩ።",
+    "tr": "nisu imun 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_amnti"
+    ],
+    "t": {
+      "de": "Er ist treu, vertrauenswürdig.",
+      "en": "He is loyal, trustworthy.",
+      "sv": "Han är trogen, pålitlig.",
+      "nl": "Hij is trouw, betrouwbaar."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "imun",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brdti",
+    "am": "ብርዲ ኣሎ።",
+    "tr": "birdi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brdti"
+    ],
+    "t": {
+      "de": "die Kälte ist vorhanden.",
+      "en": "There is coldness.",
+      "sv": "Det finns kyla.",
+      "nl": "Er is kou."
+    },
+    "alt": {},
+    "chunks": [
+      "birdi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ntsti",
+    "am": "ንፋስ ብርቱዕ ኣሎ።",
+    "tr": "nifas biritu'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ntsti"
+    ],
+    "t": {
+      "de": "der Sturm ist vorhanden.",
+      "en": "There is storm.",
+      "sv": "Det finns storm.",
+      "nl": "Er is storm."
+    },
+    "alt": {},
+    "chunks": [
+      "nifas",
+      "biritu'e",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_swus",
+    "am": "ግመ ኣሎ።",
+    "tr": "gime alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_swus"
+    ],
+    "t": {
+      "de": "der Nebel ist vorhanden.",
+      "en": "There is fog.",
+      "sv": "Det finns dimma.",
+      "nl": "Er is mist."
+    },
+    "alt": {},
+    "chunks": [
+      "gime",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hlmi2",
+    "am": "ንፍሒ ማይ ኣሎ።",
+    "tr": "nifhi mai alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hlmi2"
+    ],
+    "t": {
+      "de": "die Überschwemmung ist vorhanden.",
+      "en": "There is flood.",
+      "sv": "Det finns översvämning.",
+      "nl": "Er is overstroming."
+    },
+    "alt": {},
+    "chunks": [
+      "nifhi",
+      "mai",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frdi2",
+    "am": "ፈራዲ ኣሎ።",
+    "tr": "feradi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frdi2"
+    ],
+    "t": {
+      "de": "der Richter ist vorhanden.",
+      "en": "There is judge.",
+      "sv": "Det finns domare.",
+      "nl": "Er is rechter."
+    },
+    "alt": {},
+    "chunks": [
+      "feradi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wnzk",
+    "am": "ገበን ኣሎ።",
+    "tr": "geben alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wnzk"
+    ],
+    "t": {
+      "de": "das Verbrechen ist vorhanden.",
+      "en": "There is crime.",
+      "sv": "Det finns brott.",
+      "nl": "Er is misdaad."
+    },
+    "alt": {},
+    "chunks": [
+      "geben",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_habsti",
+    "am": "ማእሰርቲ ኣሎ።",
+    "tr": "ma'iserti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_habsti"
+    ],
+    "t": {
+      "de": "das Gefängnis ist vorhanden.",
+      "en": "There is prison.",
+      "sv": "Det finns fängelse.",
+      "nl": "Er is gevangenis."
+    },
+    "alt": {},
+    "chunks": [
+      "ma'iserti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_shhda",
+    "am": "ምስክር ኣሎ።",
+    "tr": "misikir alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_shhda"
+    ],
+    "t": {
+      "de": "der Zeuge ist vorhanden.",
+      "en": "There is witness.",
+      "sv": "Det finns vittne.",
+      "nl": "Er is getuige."
+    },
+    "alt": {},
+    "chunks": [
+      "misikir",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_krbi2",
+    "am": "ክትዕ ኣሎ።",
+    "tr": "kitit'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_krbi2"
+    ],
+    "t": {
+      "de": "die Diskussion, Debatte ist vorhanden.",
+      "en": "There is discussion, debate.",
+      "sv": "Det finns diskussion.",
+      "nl": "Er is discussie."
+    },
+    "alt": {},
+    "chunks": [
+      "kitit'i",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nqfi",
+    "am": "ምኽሪ ኣሎ።",
+    "tr": "mikhiri alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_nqfi"
+    ],
+    "t": {
+      "de": "der Rat, Ratschlag ist vorhanden.",
+      "en": "There is advice.",
+      "sv": "Det finns råd.",
+      "nl": "Er is advies."
+    },
+    "alt": {},
+    "chunks": [
+      "mikhiri",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wed2",
+    "am": "ውሳነ ኣሎ።",
+    "tr": "wisane alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wed2"
+    ],
+    "t": {
+      "de": "die Entscheidung ist vorhanden.",
+      "en": "There is decision.",
+      "sv": "Det finns beslut.",
+      "nl": "Er is beslissing."
+    },
+    "alt": {},
+    "chunks": [
+      "wisane",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hbrti3",
+    "am": "ስምምዕ ኣሎ።",
+    "tr": "simimi'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hbrti3"
+    ],
+    "t": {
+      "de": "die Vereinbarung, Zustimmung ist vorhanden.",
+      "en": "There is agreement.",
+      "sv": "Det finns överenskommelse.",
+      "nl": "Er is overeenkomst."
+    },
+    "alt": {},
+    "chunks": [
+      "simimi'i",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_pparfl",
+    "am": "ጃርት ኣሎ።",
+    "tr": "jarti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_pparfl"
+    ],
+    "t": {
+      "de": "der Schmetterling ist vorhanden.",
+      "en": "There is butterfly.",
+      "sv": "Det finns fjäril.",
+      "nl": "Er is vlinder."
+    },
+    "alt": {},
+    "chunks": [
+      "jarti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bqbq",
+    "am": "ኣንበጣ ልሙድ ኣሎ።",
+    "tr": "anbet'a limud alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bqbq"
+    ],
+    "t": {
+      "de": "die Grille ist vorhanden.",
+      "en": "There is cricket.",
+      "sv": "Det finns syrsa.",
+      "nl": "Er is krekel."
+    },
+    "alt": {},
+    "chunks": [
+      "anbet'a",
+      "limud",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_qwrmb",
+    "am": "ደናግር ኣሎ።",
+    "tr": "denagir alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_qwrmb"
+    ],
+    "t": {
+      "de": "die Raupe ist vorhanden.",
+      "en": "There is caterpillar.",
+      "sv": "Det finns larv.",
+      "nl": "Er is rups."
+    },
+    "alt": {},
+    "chunks": [
+      "denagir",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zabab",
+    "am": "ኣንበጣ በረኻ ኣሎ።",
+    "tr": "anbet'a bereka alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zabab"
+    ],
+    "t": {
+      "de": "die Wüstenheuschrecke ist vorhanden.",
+      "en": "There is desert locust.",
+      "sv": "Det finns ökengräshoppa.",
+      "nl": "Er is woestijnsprinkhaan."
+    },
+    "alt": {},
+    "chunks": [
+      "anbet'a",
+      "bereka",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kolnl",
+    "am": "ግዝኣት ኣሎ።",
+    "tr": "gizi'at alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kolnl"
+    ],
+    "t": {
+      "de": "die Kolonie ist vorhanden.",
+      "en": "There is colony.",
+      "sv": "Det finns koloni.",
+      "nl": "Er is kolonie."
+    },
+    "alt": {},
+    "chunks": [
+      "gizi'at",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_shhab",
+    "am": "ሰውራ ኣሎ።",
+    "tr": "sewra alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_shhab"
+    ],
+    "t": {
+      "de": "die Revolution, der Kampf ist vorhanden.",
+      "en": "There is revolution, struggle.",
+      "sv": "Det finns revolution, kamp.",
+      "nl": "Er is revolutie, strijd."
+    },
+    "alt": {},
+    "chunks": [
+      "sewra",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_shhid",
+    "am": "ስዉእ ኣሎ።",
+    "tr": "siwu'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_shhid"
+    ],
+    "t": {
+      "de": "der Märtyrer, Gefallene ist vorhanden.",
+      "en": "There is martyr, fallen hero.",
+      "sv": "Det finns martyr.",
+      "nl": "Er is martelaar."
+    },
+    "alt": {},
+    "chunks": [
+      "siwu'e",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zbn",
+    "am": "ዘበን ኣሎ።",
+    "tr": "zeben alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zbn"
+    ],
+    "t": {
+      "de": "die Ära, Epoche ist vorhanden.",
+      "en": "There is era, epoch.",
+      "sv": "Det finns era, epok.",
+      "nl": "Er is tijdperk."
+    },
+    "alt": {},
+    "chunks": [
+      "zeben",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_alrji",
+    "am": "ኣለርጂ ኣሎ።",
+    "tr": "alerji alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_alrji"
+    ],
+    "t": {
+      "de": "die Allergie ist vorhanden.",
+      "en": "There is allergy.",
+      "sv": "Det finns allergi.",
+      "nl": "Er is allergie."
+    },
+    "alt": {},
+    "chunks": [
+      "alerji",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sksh",
+    "am": "ተላጋቢ ሕማም ኣሎ።",
+    "tr": "telagabi himam alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sksh"
+    ],
+    "t": {
+      "de": "die ansteckende Krankheit ist vorhanden.",
+      "en": "There is contagious disease.",
+      "sv": "Det finns smittsam sjukdom.",
+      "nl": "Er is besmettelijke ziekte."
+    },
+    "alt": {},
+    "chunks": [
+      "telagabi",
+      "himam",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_klya",
+    "am": "ክታበት ኣሎ።",
+    "tr": "kitabet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_klya"
+    ],
+    "t": {
+      "de": "die Impfung ist vorhanden.",
+      "en": "There is vaccination.",
+      "sv": "Det finns vaccination.",
+      "nl": "Er is vaccinatie."
+    },
+    "alt": {},
+    "chunks": [
+      "kitabet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_snbulet",
+    "am": "ስንብራት ኣሎ።",
+    "tr": "sinibrat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_snbulet"
+    ],
+    "t": {
+      "de": "die Narbe ist vorhanden.",
+      "en": "There is scar.",
+      "sv": "Det finns ärr.",
+      "nl": "Er is litteken."
+    },
+    "alt": {},
+    "chunks": [
+      "sinibrat",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gol",
+    "am": "ጎል ኣሎ።",
+    "tr": "gol alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gol"
+    ],
+    "t": {
+      "de": "das Tor (Sport) ist vorhanden.",
+      "en": "There is goal (sport).",
+      "sv": "Det finns mål (sport).",
+      "nl": "Er is doelpunt."
+    },
+    "alt": {},
+    "chunks": [
+      "gol",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_neqti",
+    "am": "ነጥቢ (ጸወታ) ኣሎ።",
+    "tr": "netbi tsewuta alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_neqti"
+    ],
+    "t": {
+      "de": "der Punkt (Spiel) ist vorhanden.",
+      "en": "There is point (game).",
+      "sv": "Det finns poäng.",
+      "nl": "Er is punt (spel)."
+    },
+    "alt": {},
+    "chunks": [
+      "netbi",
+      "tsewuta",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gwadl",
+    "am": "ጋንታ ተጻዋቲ ኣሎ።",
+    "tr": "ganta tetsawati alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwadl"
+    ],
+    "t": {
+      "de": "der Spieler ist vorhanden.",
+      "en": "There is player.",
+      "sv": "Det finns spelare.",
+      "nl": "Er is speler."
+    },
+    "alt": {},
+    "chunks": [
+      "ganta",
+      "tetsawati",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_medl",
+    "am": "ሜዳልያ ኣሎ።",
+    "tr": "medalya alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_medl"
+    ],
+    "t": {
+      "de": "die Medaille ist vorhanden.",
+      "en": "There is medal.",
+      "sv": "Det finns medalj.",
+      "nl": "Er is medaille."
+    },
+    "alt": {},
+    "chunks": [
+      "medalya",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sdsi",
+    "am": "ገጽ ሽድሽተ ኣሎ።",
+    "tr": "gets shidishte alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sdsi"
+    ],
+    "t": {
+      "de": "der Würfel ist vorhanden.",
+      "en": "There is cube.",
+      "sv": "Det finns kub.",
+      "nl": "Er is kubus."
+    },
+    "alt": {},
+    "chunks": [
+      "gets",
+      "shidishte",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kzln",
+    "am": "ፐርሰንት ኣሎ።",
+    "tr": "persent alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kzln"
+    ],
+    "t": {
+      "de": "das Prozent ist vorhanden.",
+      "en": "There is percent.",
+      "sv": "Det finns procent.",
+      "nl": "Er is procent."
+    },
+    "alt": {},
+    "chunks": [
+      "persent",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kzr2",
+    "am": "ቅርጺ ኣሎ።",
+    "tr": "qirtsi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kzr2"
+    ],
+    "t": {
+      "de": "die Form ist vorhanden.",
+      "en": "There is shape, form.",
+      "sv": "Det finns form.",
+      "nl": "Er is vorm."
+    },
+    "alt": {},
+    "chunks": [
+      "qirtsi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hntu",
+    "am": "ስፍሓት ገጽ ኣሎ።",
+    "tr": "sifhat gets alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hntu"
+    ],
+    "t": {
+      "de": "die Fläche ist vorhanden.",
+      "en": "There is area, surface.",
+      "sv": "Det finns yta.",
+      "nl": "Er is oppervlakte."
+    },
+    "alt": {},
+    "chunks": [
+      "sifhat",
+      "gets",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stayl",
+    "am": "ቅዲ ኣሎ።",
+    "tr": "qidi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_stayl"
+    ],
+    "t": {
+      "de": "der Stil ist vorhanden.",
+      "en": "There is style.",
+      "sv": "Det finns stil.",
+      "nl": "Er is stijl."
+    },
+    "alt": {},
+    "chunks": [
+      "qidi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_msfi",
+    "am": "ንሱ ልክዕ ዝኾነ እዩ።",
+    "tr": "nisu lik'i zikhone 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_msfi"
+    ],
+    "t": {
+      "de": "Er ist passend, richtig (Größe).",
+      "en": "He is fitting, right (size).",
+      "sv": "Han är passande, rätt (storlek).",
+      "nl": "Hij is passend, juist (maat)."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "lik'i",
+      "zikhone",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frti",
+    "am": "ንሱ ገፊሕ እዩ።",
+    "tr": "nisu gefih 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frti"
+    ],
+    "t": {
+      "de": "Er ist weit, locker (Kleidung).",
+      "en": "He is loose, baggy (clothing).",
+      "sv": "Han är vid, lös (kläder).",
+      "nl": "Hij is wijd, los (kleding)."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "gefih",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tsbabi",
+    "am": "ንሱ ጽኑዕ (ክዳን) እዩ።",
+    "tr": "nisu tsinu'i kidan 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tsbabi"
+    ],
+    "t": {
+      "de": "Er ist eng (Kleidung).",
+      "en": "He is tight (clothing).",
+      "sv": "Han är tight (kläder).",
+      "nl": "Hij is strak (kleding)."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "tsinu'i",
+      "kidan",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ktfi",
+    "am": "ጥበስ።",
+    "tr": "t'ibes.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ktfi"
+    ],
+    "t": {
+      "de": "Braten!",
+      "en": "Fry!",
+      "sv": "Steka!",
+      "nl": "Bakken (in pan)!"
+    },
+    "alt": {},
+    "chunks": [
+      "t'ibes."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kwyi",
+    "am": "ጥበስ (ምድጓ)።",
+    "tr": "t'ibes midgwa.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kwyi"
+    ],
+    "t": {
+      "de": "Backen!",
+      "en": "Bake!",
+      "sv": "Baka!",
+      "nl": "Bakken (oven)!"
+    },
+    "alt": {},
+    "chunks": [
+      "t'ibes",
+      "midgwa."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kzri2",
+    "am": "ቁረጽ።",
+    "tr": "quirets.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kzri2"
+    ],
+    "t": {
+      "de": "Schneiden!",
+      "en": "Cut!",
+      "sv": "Skära!",
+      "nl": "Snijden!"
+    },
+    "alt": {},
+    "chunks": [
+      "quirets."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hlti",
+    "am": "ሓውስ።",
+    "tr": "hawis.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hlti"
+    ],
+    "t": {
+      "de": "Mischen, rühren!",
+      "en": "Mix, stir!",
+      "sv": "Blanda, röra!",
+      "nl": "Mengen, roeren!"
+    },
+    "alt": {},
+    "chunks": [
+      "hawis."
+    ],
+    "verified": false
+  }
+]

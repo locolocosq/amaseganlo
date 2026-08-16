@@ -82,7 +82,11 @@
       "lex_ti_amrgn"
     ],
     "sentenceIds": [
-      "sen_ti_laender_1"
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -114,7 +118,11 @@
       "lex_ti_amrgn"
     ],
     "sentenceIds": [
-      "sen_ti_laender_1"
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -146,7 +154,11 @@
       "lex_ti_amrgn"
     ],
     "sentenceIds": [
-      "sen_ti_laender_1"
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -178,7 +190,11 @@
       "lex_ti_amrgn"
     ],
     "sentenceIds": [
-      "sen_ti_laender_1"
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

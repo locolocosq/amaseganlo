@@ -43,7 +43,11 @@
       "lex_ti_bnk_blnc"
     ],
     "sentenceIds": [
-      "sen_ti_bankdienste_1"
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -62,7 +66,11 @@
       "lex_ti_bnk_blnc"
     ],
     "sentenceIds": [
-      "sen_ti_bankdienste_1"
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -81,7 +89,11 @@
       "lex_ti_bnk_blnc"
     ],
     "sentenceIds": [
-      "sen_ti_bankdienste_1"
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -100,7 +112,11 @@
       "lex_ti_bnk_blnc"
     ],
     "sentenceIds": [
-      "sen_ti_bankdienste_1"
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

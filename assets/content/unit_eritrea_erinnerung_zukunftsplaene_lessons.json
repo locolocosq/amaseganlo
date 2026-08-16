@@ -49,7 +49,11 @@
       "lex_ti_zkp_future"
     ],
     "sentenceIds": [
-      "sen_ti_erinnerung_zukunftsplaene_1"
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_gen_ern_forgt",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_zkp_future"
     ],
     "sentenceIds": [
-      "sen_ti_erinnerung_zukunftsplaene_1"
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_gen_ern_forgt",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_zkp_future"
     ],
     "sentenceIds": [
-      "sen_ti_erinnerung_zukunftsplaene_1"
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_gen_ern_forgt",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_zkp_future"
     ],
     "sentenceIds": [
-      "sen_ti_erinnerung_zukunftsplaene_1"
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_gen_ern_forgt",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

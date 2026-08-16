@@ -76,7 +76,11 @@
       "lex_ti_lsc_pnnsl"
     ],
     "sentenceIds": [
-      "sen_ti_bauernhof_landschaft_1"
+      "sen_ti_bauernhof_landschaft_1",
+      "sen_gen_bh_bgei",
+      "sen_gen_bh_ghri",
+      "sen_gen_bh_derho",
+      "sen_gen_bh_ferase"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -106,7 +110,11 @@
       "lex_ti_lsc_pnnsl"
     ],
     "sentenceIds": [
-      "sen_ti_bauernhof_landschaft_1"
+      "sen_ti_bauernhof_landschaft_1",
+      "sen_gen_bh_bgei",
+      "sen_gen_bh_ghri",
+      "sen_gen_bh_derho",
+      "sen_gen_bh_ferase"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -136,7 +144,11 @@
       "lex_ti_lsc_pnnsl"
     ],
     "sentenceIds": [
-      "sen_ti_bauernhof_landschaft_1"
+      "sen_ti_bauernhof_landschaft_1",
+      "sen_gen_bh_bgei",
+      "sen_gen_bh_ghri",
+      "sen_gen_bh_derho",
+      "sen_gen_bh_ferase"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -166,7 +178,11 @@
       "lex_ti_lsc_pnnsl"
     ],
     "sentenceIds": [
-      "sen_ti_bauernhof_landschaft_1"
+      "sen_ti_bauernhof_landschaft_1",
+      "sen_gen_bh_bgei",
+      "sen_gen_bh_ghri",
+      "sen_gen_bh_derho",
+      "sen_gen_bh_ferase"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

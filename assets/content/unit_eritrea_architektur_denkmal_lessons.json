@@ -46,7 +46,11 @@
       "lex_ti_dkm_lndmk"
     ],
     "sentenceIds": [
-      "sen_ti_architektur_denkmal_1"
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -66,7 +70,11 @@
       "lex_ti_dkm_lndmk"
     ],
     "sentenceIds": [
-      "sen_ti_architektur_denkmal_1"
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -86,7 +94,11 @@
       "lex_ti_dkm_lndmk"
     ],
     "sentenceIds": [
-      "sen_ti_architektur_denkmal_1"
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -106,7 +118,11 @@
       "lex_ti_dkm_lndmk"
     ],
     "sentenceIds": [
-      "sen_ti_architektur_denkmal_1"
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

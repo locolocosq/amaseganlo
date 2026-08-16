@@ -60,7 +60,13 @@
       "lex_glatt",
       "lex_rau"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_schwer_gewicht",
+      "sen_gen_leicht_gewicht",
+      "sen_gen_tief",
+      "sen_gen_flach",
+      "sen_gen_breit"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -83,7 +89,13 @@
       "lex_glatt",
       "lex_rau"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_schwer_gewicht",
+      "sen_gen_leicht_gewicht",
+      "sen_gen_tief",
+      "sen_gen_flach",
+      "sen_gen_breit"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -106,7 +118,13 @@
       "lex_glatt",
       "lex_rau"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_schwer_gewicht",
+      "sen_gen_leicht_gewicht",
+      "sen_gen_tief",
+      "sen_gen_flach",
+      "sen_gen_breit"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -129,7 +147,13 @@
       "lex_glatt",
       "lex_rau"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_schwer_gewicht",
+      "sen_gen_leicht_gewicht",
+      "sen_gen_tief",
+      "sen_gen_flach",
+      "sen_gen_breit"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

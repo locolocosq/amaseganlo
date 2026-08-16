@@ -45,7 +45,13 @@
       "lex_punkt_geo",
       "lex_winkel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_dreieck",
+      "sen_gen_quadrat",
+      "sen_gen_kreis",
+      "sen_gen_rechteck",
+      "sen_gen_linie"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_punkt_geo",
       "lex_winkel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_dreieck",
+      "sen_gen_quadrat",
+      "sen_gen_kreis",
+      "sen_gen_rechteck",
+      "sen_gen_linie"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_punkt_geo",
       "lex_winkel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_dreieck",
+      "sen_gen_quadrat",
+      "sen_gen_kreis",
+      "sen_gen_rechteck",
+      "sen_gen_linie"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_punkt_geo",
       "lex_winkel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_dreieck",
+      "sen_gen_quadrat",
+      "sen_gen_kreis",
+      "sen_gen_rechteck",
+      "sen_gen_linie"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

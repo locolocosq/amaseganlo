@@ -91,7 +91,11 @@
       "lex_ti_wnzri"
     ],
     "sentenceIds": [
-      "sen_ti_sport_freizeit_1"
+      "sen_ti_sport_freizeit_1",
+      "sen_gen_kws",
+      "sen_gen_gugsi",
+      "sen_gen_wnah",
+      "sen_gen_gnzabi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -126,7 +130,11 @@
       "lex_ti_wnzri"
     ],
     "sentenceIds": [
-      "sen_ti_sport_freizeit_1"
+      "sen_ti_sport_freizeit_1",
+      "sen_gen_kws",
+      "sen_gen_gugsi",
+      "sen_gen_wnah",
+      "sen_gen_gnzabi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -161,7 +169,11 @@
       "lex_ti_wnzri"
     ],
     "sentenceIds": [
-      "sen_ti_sport_freizeit_1"
+      "sen_ti_sport_freizeit_1",
+      "sen_gen_kws",
+      "sen_gen_gugsi",
+      "sen_gen_wnah",
+      "sen_gen_gnzabi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -196,7 +208,11 @@
       "lex_ti_wnzri"
     ],
     "sentenceIds": [
-      "sen_ti_sport_freizeit_1"
+      "sen_ti_sport_freizeit_1",
+      "sen_gen_kws",
+      "sen_gen_gugsi",
+      "sen_gen_wnah",
+      "sen_gen_gnzabi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

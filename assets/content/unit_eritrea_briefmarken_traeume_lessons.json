@@ -52,7 +52,11 @@
       "lex_ti_trm_snor"
     ],
     "sentenceIds": [
-      "sen_ti_briefmarken_traeume_1"
+      "sen_ti_briefmarken_traeume_1",
+      "sen_gen_brm_coin2",
+      "sen_gen_brm_rare",
+      "sen_gen_brm_colct",
+      "sen_gen_trm_sleep2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_trm_snor"
     ],
     "sentenceIds": [
-      "sen_ti_briefmarken_traeume_1"
+      "sen_ti_briefmarken_traeume_1",
+      "sen_gen_brm_coin2",
+      "sen_gen_brm_rare",
+      "sen_gen_brm_colct",
+      "sen_gen_trm_sleep2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_trm_snor"
     ],
     "sentenceIds": [
-      "sen_ti_briefmarken_traeume_1"
+      "sen_ti_briefmarken_traeume_1",
+      "sen_gen_brm_coin2",
+      "sen_gen_brm_rare",
+      "sen_gen_brm_colct",
+      "sen_gen_trm_sleep2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_trm_snor"
     ],
     "sentenceIds": [
-      "sen_ti_briefmarken_traeume_1"
+      "sen_ti_briefmarken_traeume_1",
+      "sen_gen_brm_coin2",
+      "sen_gen_brm_rare",
+      "sen_gen_brm_colct",
+      "sen_gen_trm_sleep2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

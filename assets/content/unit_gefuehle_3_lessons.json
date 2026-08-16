@@ -45,7 +45,13 @@
       "lex_selbstbewusst",
       "lex_beschaemt"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_begeistert",
+      "sen_gen_gelangweilt",
+      "sen_gen_erleichtert",
+      "sen_gen_dankbar",
+      "sen_gen_motiviert"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_selbstbewusst",
       "lex_beschaemt"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_begeistert",
+      "sen_gen_gelangweilt",
+      "sen_gen_erleichtert",
+      "sen_gen_dankbar",
+      "sen_gen_motiviert"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_selbstbewusst",
       "lex_beschaemt"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_begeistert",
+      "sen_gen_gelangweilt",
+      "sen_gen_erleichtert",
+      "sen_gen_dankbar",
+      "sen_gen_motiviert"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_selbstbewusst",
       "lex_beschaemt"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_begeistert",
+      "sen_gen_gelangweilt",
+      "sen_gen_erleichtert",
+      "sen_gen_dankbar",
+      "sen_gen_motiviert"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

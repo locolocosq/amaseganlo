@@ -42,7 +42,13 @@
       "lex_allergie",
       "lex_kopfschmerz"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -59,7 +65,13 @@
       "lex_allergie",
       "lex_kopfschmerz"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -76,7 +88,13 @@
       "lex_allergie",
       "lex_kopfschmerz"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -93,7 +111,13 @@
       "lex_allergie",
       "lex_kopfschmerz"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

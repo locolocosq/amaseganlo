@@ -55,7 +55,11 @@
       "lex_ti_spz_swng"
     ],
     "sentenceIds": [
-      "sen_ti_spielzeug_1"
+      "sen_ti_spielzeug_1",
+      "sen_gen_spz_mkna3",
+      "sen_gen_spz_blon",
+      "sen_gen_spz_pzli",
+      "sen_gen_spz_kuis"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_spz_swng"
     ],
     "sentenceIds": [
-      "sen_ti_spielzeug_1"
+      "sen_ti_spielzeug_1",
+      "sen_gen_spz_mkna3",
+      "sen_gen_spz_blon",
+      "sen_gen_spz_pzli",
+      "sen_gen_spz_kuis"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_spz_swng"
     ],
     "sentenceIds": [
-      "sen_ti_spielzeug_1"
+      "sen_ti_spielzeug_1",
+      "sen_gen_spz_mkna3",
+      "sen_gen_spz_blon",
+      "sen_gen_spz_pzli",
+      "sen_gen_spz_kuis"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_spz_swng"
     ],
     "sentenceIds": [
-      "sen_ti_spielzeug_1"
+      "sen_ti_spielzeug_1",
+      "sen_gen_spz_mkna3",
+      "sen_gen_spz_blon",
+      "sen_gen_spz_pzli",
+      "sen_gen_spz_kuis"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

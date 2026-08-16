@@ -57,7 +57,13 @@
       "lex_nett",
       "lex_vorsichtig"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_impfung",
+      "sen_gen_verletzung",
+      "sen_gen_unfall",
+      "sen_gen_regenbogen",
+      "sen_gen_wueste"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -79,7 +85,13 @@
       "lex_nett",
       "lex_vorsichtig"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_impfung",
+      "sen_gen_verletzung",
+      "sen_gen_unfall",
+      "sen_gen_regenbogen",
+      "sen_gen_wueste"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -101,7 +113,13 @@
       "lex_nett",
       "lex_vorsichtig"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_impfung",
+      "sen_gen_verletzung",
+      "sen_gen_unfall",
+      "sen_gen_regenbogen",
+      "sen_gen_wueste"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -123,7 +141,13 @@
       "lex_nett",
       "lex_vorsichtig"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_impfung",
+      "sen_gen_verletzung",
+      "sen_gen_unfall",
+      "sen_gen_regenbogen",
+      "sen_gen_wueste"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

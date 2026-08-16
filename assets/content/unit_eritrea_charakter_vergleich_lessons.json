@@ -85,7 +85,11 @@
       "lex_ti_mrei"
     ],
     "sentenceIds": [
-      "sen_ti_charakter_vergleich_1"
+      "sen_ti_charakter_vergleich_1",
+      "sen_gen_frhan",
+      "sen_gen_srhtnk",
+      "sen_gen_kslti",
+      "sen_gen_amnti"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -118,7 +122,11 @@
       "lex_ti_mrei"
     ],
     "sentenceIds": [
-      "sen_ti_charakter_vergleich_1"
+      "sen_ti_charakter_vergleich_1",
+      "sen_gen_frhan",
+      "sen_gen_srhtnk",
+      "sen_gen_kslti",
+      "sen_gen_amnti"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -151,7 +159,11 @@
       "lex_ti_mrei"
     ],
     "sentenceIds": [
-      "sen_ti_charakter_vergleich_1"
+      "sen_ti_charakter_vergleich_1",
+      "sen_gen_frhan",
+      "sen_gen_srhtnk",
+      "sen_gen_kslti",
+      "sen_gen_amnti"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -184,7 +196,11 @@
       "lex_ti_mrei"
     ],
     "sentenceIds": [
-      "sen_ti_charakter_vergleich_1"
+      "sen_ti_charakter_vergleich_1",
+      "sen_gen_frhan",
+      "sen_gen_srhtnk",
+      "sen_gen_kslti",
+      "sen_gen_amnti"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

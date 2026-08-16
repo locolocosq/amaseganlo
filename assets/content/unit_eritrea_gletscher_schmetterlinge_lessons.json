@@ -52,7 +52,11 @@
       "lex_ti_schm_cttp"
     ],
     "sentenceIds": [
-      "sen_ti_gletscher_schmetterlinge_1"
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_schm_cttp"
     ],
     "sentenceIds": [
-      "sen_ti_gletscher_schmetterlinge_1"
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_schm_cttp"
     ],
     "sentenceIds": [
-      "sen_ti_gletscher_schmetterlinge_1"
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_schm_cttp"
     ],
     "sentenceIds": [
-      "sen_ti_gletscher_schmetterlinge_1"
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

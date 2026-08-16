@@ -45,7 +45,13 @@
       "lex_hagel",
       "lex_nieselregen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_hagel",
       "lex_nieselregen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_hagel",
       "lex_nieselregen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_hagel",
       "lex_nieselregen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

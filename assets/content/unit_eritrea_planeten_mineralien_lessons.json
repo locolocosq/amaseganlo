@@ -64,7 +64,11 @@
       "lex_ti_min_sand2"
     ],
     "sentenceIds": [
-      "sen_ti_planeten_mineralien_1"
+      "sen_ti_planeten_mineralien_1",
+      "sen_gen_plnt_vns",
+      "sen_gen_plnt_jptr",
+      "sen_gen_plnt_srn",
+      "sen_gen_plnt_erth"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +94,11 @@
       "lex_ti_min_sand2"
     ],
     "sentenceIds": [
-      "sen_ti_planeten_mineralien_1"
+      "sen_ti_planeten_mineralien_1",
+      "sen_gen_plnt_vns",
+      "sen_gen_plnt_jptr",
+      "sen_gen_plnt_srn",
+      "sen_gen_plnt_erth"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -116,7 +124,11 @@
       "lex_ti_min_sand2"
     ],
     "sentenceIds": [
-      "sen_ti_planeten_mineralien_1"
+      "sen_ti_planeten_mineralien_1",
+      "sen_gen_plnt_vns",
+      "sen_gen_plnt_jptr",
+      "sen_gen_plnt_srn",
+      "sen_gen_plnt_erth"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -142,7 +154,11 @@
       "lex_ti_min_sand2"
     ],
     "sentenceIds": [
-      "sen_ti_planeten_mineralien_1"
+      "sen_ti_planeten_mineralien_1",
+      "sen_gen_plnt_vns",
+      "sen_gen_plnt_jptr",
+      "sen_gen_plnt_srn",
+      "sen_gen_plnt_erth"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

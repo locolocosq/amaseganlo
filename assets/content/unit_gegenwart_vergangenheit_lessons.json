@@ -61,7 +61,11 @@
       "lex_spaet"
     ],
     "sentenceIds": [
-      "sen_ahun_ihedalehu"
+      "sen_ahun_ihedalehu",
+      "sen_gen_ich_ging",
+      "sen_gen_ich_ass",
+      "sen_gen_ich_trank",
+      "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_spaet"
     ],
     "sentenceIds": [
-      "sen_ahun_ihedalehu"
+      "sen_ahun_ihedalehu",
+      "sen_gen_ich_ging",
+      "sen_gen_ich_ass",
+      "sen_gen_ich_trank",
+      "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_spaet"
     ],
     "sentenceIds": [
-      "sen_ahun_ihedalehu"
+      "sen_ahun_ihedalehu",
+      "sen_gen_ich_ging",
+      "sen_gen_ich_ass",
+      "sen_gen_ich_trank",
+      "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_spaet"
     ],
     "sentenceIds": [
-      "sen_ahun_ihedalehu"
+      "sen_ahun_ihedalehu",
+      "sen_gen_ich_ging",
+      "sen_gen_ich_ass",
+      "sen_gen_ich_trank",
+      "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_tiere2_intro","kind":"intro","lexemeIds":["lex_ht2_ferres","lex_ht2_ferenj_dog","lex_ht2_dimet","lex_ht2_doro2","lex_ht2_ayit","lex_ht2_nib2","lex_ht2_fasama","lex_ht2_ilfe","lex_ht2_ambesa","lex_ht2_zihon","lex_ht2_neber","lex_ht2_arwe_bahir","lex_ht2_iske","lex_ht2_asama","lex_ht2_akal10","lex_ht2_gilgel","lex_ht2_dagusa","lex_ht2_kinif","lex_ht2_v_meber","lex_ht2_v_mewetsa"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_tiere2_words","kind":"wordPractice","lexemeIds":["lex_ht2_ferres","lex_ht2_ferenj_dog","lex_ht2_dimet","lex_ht2_doro2","lex_ht2_ayit","lex_ht2_nib2","lex_ht2_fasama","lex_ht2_ilfe","lex_ht2_ambesa","lex_ht2_zihon","lex_ht2_neber","lex_ht2_arwe_bahir","lex_ht2_iske","lex_ht2_asama","lex_ht2_akal10","lex_ht2_gilgel","lex_ht2_dagusa","lex_ht2_kinif","lex_ht2_v_meber","lex_ht2_v_mewetsa"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_tiere2_sentences","kind":"sentenceBuilding","lexemeIds":["lex_ht2_ferres","lex_ht2_ferenj_dog","lex_ht2_dimet","lex_ht2_doro2","lex_ht2_ayit","lex_ht2_nib2","lex_ht2_fasama","lex_ht2_ilfe","lex_ht2_ambesa","lex_ht2_zihon","lex_ht2_neber","lex_ht2_arwe_bahir","lex_ht2_iske","lex_ht2_asama","lex_ht2_akal10","lex_ht2_gilgel","lex_ht2_dagusa","lex_ht2_kinif","lex_ht2_v_meber","lex_ht2_v_mewetsa"],"sentenceIds":["sen_ht2_feres_wisha","sen_ht2_ambesa_neber","sen_ht2_nib_kinif","sen_ht2_asama_mewetsa"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_tiere2_listening","kind":"listening","lexemeIds":["lex_ht2_ferres","lex_ht2_ferenj_dog","lex_ht2_dimet","lex_ht2_doro2","lex_ht2_ayit","lex_ht2_nib2","lex_ht2_fasama","lex_ht2_ilfe","lex_ht2_ambesa","lex_ht2_zihon","lex_ht2_neber","lex_ht2_arwe_bahir","lex_ht2_iske","lex_ht2_asama","lex_ht2_akal10","lex_ht2_gilgel","lex_ht2_dagusa","lex_ht2_kinif","lex_ht2_v_meber","lex_ht2_v_mewetsa"],"sentenceIds":["sen_ht2_feres_wisha","sen_ht2_ambesa_neber","sen_ht2_nib_kinif","sen_ht2_asama_mewetsa"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_tiere2_free","kind":"freeApplication","lexemeIds":["lex_ht2_ferres","lex_ht2_ferenj_dog","lex_ht2_dimet","lex_ht2_doro2","lex_ht2_ayit","lex_ht2_nib2","lex_ht2_fasama","lex_ht2_ilfe","lex_ht2_ambesa","lex_ht2_zihon","lex_ht2_neber","lex_ht2_arwe_bahir","lex_ht2_iske","lex_ht2_asama","lex_ht2_akal10","lex_ht2_gilgel","lex_ht2_dagusa","lex_ht2_kinif","lex_ht2_v_meber","lex_ht2_v_mewetsa"],"sentenceIds":["sen_ht2_feres_wisha","sen_ht2_ambesa_neber","sen_ht2_nib_kinif","sen_ht2_asama_mewetsa"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_tiere2_review","kind":"review","lexemeIds":["lex_ht2_ferres","lex_ht2_ferenj_dog","lex_ht2_dimet","lex_ht2_doro2","lex_ht2_ayit","lex_ht2_nib2","lex_ht2_fasama","lex_ht2_ilfe","lex_ht2_ambesa","lex_ht2_zihon","lex_ht2_neber","lex_ht2_arwe_bahir","lex_ht2_iske","lex_ht2_asama","lex_ht2_akal10","lex_ht2_gilgel","lex_ht2_dagusa","lex_ht2_kinif","lex_ht2_v_meber","lex_ht2_v_mewetsa"],"sentenceIds":["sen_ht2_feres_wisha","sen_ht2_ambesa_neber","sen_ht2_nib_kinif","sen_ht2_asama_mewetsa"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_tiere2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog",
+      "lex_ht2_dimet",
+      "lex_ht2_doro2",
+      "lex_ht2_ayit",
+      "lex_ht2_nib2",
+      "lex_ht2_fasama",
+      "lex_ht2_ilfe",
+      "lex_ht2_ambesa",
+      "lex_ht2_zihon",
+      "lex_ht2_neber",
+      "lex_ht2_arwe_bahir",
+      "lex_ht2_iske",
+      "lex_ht2_asama",
+      "lex_ht2_akal10",
+      "lex_ht2_gilgel",
+      "lex_ht2_dagusa",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber",
+      "lex_ht2_v_mewetsa"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_tiere2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog",
+      "lex_ht2_dimet",
+      "lex_ht2_doro2",
+      "lex_ht2_ayit",
+      "lex_ht2_nib2",
+      "lex_ht2_fasama",
+      "lex_ht2_ilfe",
+      "lex_ht2_ambesa",
+      "lex_ht2_zihon",
+      "lex_ht2_neber",
+      "lex_ht2_arwe_bahir",
+      "lex_ht2_iske",
+      "lex_ht2_asama",
+      "lex_ht2_akal10",
+      "lex_ht2_gilgel",
+      "lex_ht2_dagusa",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber",
+      "lex_ht2_v_mewetsa"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_tiere2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog",
+      "lex_ht2_dimet",
+      "lex_ht2_doro2",
+      "lex_ht2_ayit",
+      "lex_ht2_nib2",
+      "lex_ht2_fasama",
+      "lex_ht2_ilfe",
+      "lex_ht2_ambesa",
+      "lex_ht2_zihon",
+      "lex_ht2_neber",
+      "lex_ht2_arwe_bahir",
+      "lex_ht2_iske",
+      "lex_ht2_asama",
+      "lex_ht2_akal10",
+      "lex_ht2_gilgel",
+      "lex_ht2_dagusa",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber",
+      "lex_ht2_v_mewetsa"
+    ],
+    "sentenceIds": [
+      "sen_ht2_feres_wisha",
+      "sen_ht2_ambesa_neber",
+      "sen_ht2_nib_kinif",
+      "sen_ht2_asama_mewetsa",
+      "sen_gen_ht2_dimet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_tiere2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog",
+      "lex_ht2_dimet",
+      "lex_ht2_doro2",
+      "lex_ht2_ayit",
+      "lex_ht2_nib2",
+      "lex_ht2_fasama",
+      "lex_ht2_ilfe",
+      "lex_ht2_ambesa",
+      "lex_ht2_zihon",
+      "lex_ht2_neber",
+      "lex_ht2_arwe_bahir",
+      "lex_ht2_iske",
+      "lex_ht2_asama",
+      "lex_ht2_akal10",
+      "lex_ht2_gilgel",
+      "lex_ht2_dagusa",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber",
+      "lex_ht2_v_mewetsa"
+    ],
+    "sentenceIds": [
+      "sen_ht2_feres_wisha",
+      "sen_ht2_ambesa_neber",
+      "sen_ht2_nib_kinif",
+      "sen_ht2_asama_mewetsa",
+      "sen_gen_ht2_dimet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_tiere2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog",
+      "lex_ht2_dimet",
+      "lex_ht2_doro2",
+      "lex_ht2_ayit",
+      "lex_ht2_nib2",
+      "lex_ht2_fasama",
+      "lex_ht2_ilfe",
+      "lex_ht2_ambesa",
+      "lex_ht2_zihon",
+      "lex_ht2_neber",
+      "lex_ht2_arwe_bahir",
+      "lex_ht2_iske",
+      "lex_ht2_asama",
+      "lex_ht2_akal10",
+      "lex_ht2_gilgel",
+      "lex_ht2_dagusa",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber",
+      "lex_ht2_v_mewetsa"
+    ],
+    "sentenceIds": [
+      "sen_ht2_feres_wisha",
+      "sen_ht2_ambesa_neber",
+      "sen_ht2_nib_kinif",
+      "sen_ht2_asama_mewetsa",
+      "sen_gen_ht2_dimet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_tiere2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog",
+      "lex_ht2_dimet",
+      "lex_ht2_doro2",
+      "lex_ht2_ayit",
+      "lex_ht2_nib2",
+      "lex_ht2_fasama",
+      "lex_ht2_ilfe",
+      "lex_ht2_ambesa",
+      "lex_ht2_zihon",
+      "lex_ht2_neber",
+      "lex_ht2_arwe_bahir",
+      "lex_ht2_iske",
+      "lex_ht2_asama",
+      "lex_ht2_akal10",
+      "lex_ht2_gilgel",
+      "lex_ht2_dagusa",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber",
+      "lex_ht2_v_mewetsa"
+    ],
+    "sentenceIds": [
+      "sen_ht2_feres_wisha",
+      "sen_ht2_ambesa_neber",
+      "sen_ht2_nib_kinif",
+      "sen_ht2_asama_mewetsa",
+      "sen_gen_ht2_dimet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

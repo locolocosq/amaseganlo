@@ -67,7 +67,11 @@
       "lex_ti_uhr_alrm"
     ],
     "sentenceIds": [
-      "sen_ti_richtungen_uhrzeit_1"
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_uhr_alrm"
     ],
     "sentenceIds": [
-      "sen_ti_richtungen_uhrzeit_1"
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_uhr_alrm"
     ],
     "sentenceIds": [
-      "sen_ti_richtungen_uhrzeit_1"
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_uhr_alrm"
     ],
     "sentenceIds": [
-      "sen_ti_richtungen_uhrzeit_1"
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -36,7 +36,13 @@
       "lex_eisen",
       "lex_plastik"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -51,7 +57,13 @@
       "lex_eisen",
       "lex_plastik"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -66,7 +78,13 @@
       "lex_eisen",
       "lex_plastik"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -81,7 +99,13 @@
       "lex_eisen",
       "lex_plastik"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

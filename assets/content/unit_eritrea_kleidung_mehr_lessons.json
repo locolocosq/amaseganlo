@@ -55,7 +55,11 @@
       "lex_ti_kl2_shrz"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_mehr_1"
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_kl2_shrz"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_mehr_1"
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_kl2_shrz"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_mehr_1"
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_kl2_shrz"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_mehr_1"
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -42,7 +42,13 @@
       "lex_bereits",
       "lex_noch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -59,7 +65,13 @@
       "lex_bereits",
       "lex_noch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -76,7 +88,13 @@
       "lex_bereits",
       "lex_noch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -93,7 +111,13 @@
       "lex_bereits",
       "lex_noch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

@@ -1,8 +1,170 @@
 [
-  {"id":"unit_harar_kindheit_erziehung_intro","kind":"intro","lexemeIds":["lex_hke_lijinet","lex_hke_v_maridat","lex_hke_tegisats","lex_hke_yehitsanat_makoya","lex_hke_hitsan2","lex_hke_mikir2","lex_hke_sine_migibar","lex_hke_adj_tihut","lex_hke_adj_tinish2","lex_hke_lidet2","lex_hke_mechaweca","lex_hke_inat2","lex_hke_abat2"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_kindheit_erziehung_words","kind":"wordPractice","lexemeIds":["lex_hke_lijinet","lex_hke_v_maridat","lex_hke_tegisats","lex_hke_yehitsanat_makoya","lex_hke_hitsan2","lex_hke_mikir2","lex_hke_sine_migibar","lex_hke_adj_tihut","lex_hke_adj_tinish2","lex_hke_lidet2","lex_hke_mechaweca","lex_hke_inat2","lex_hke_abat2"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_kindheit_erziehung_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hke_lijinet","lex_hke_v_maridat","lex_hke_tegisats","lex_hke_yehitsanat_makoya","lex_hke_hitsan2","lex_hke_mikir2","lex_hke_sine_migibar","lex_hke_adj_tihut","lex_hke_adj_tinish2","lex_hke_lidet2","lex_hke_mechaweca","lex_hke_inat2","lex_hke_abat2"],"sentenceIds":["sen_hke_inat_abat","sen_hke_lijinet_des","sen_hke_hitsan_mechaweca","sen_hke_tihut_mikir"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_kindheit_erziehung_listening","kind":"listening","lexemeIds":["lex_hke_lijinet","lex_hke_v_maridat","lex_hke_tegisats","lex_hke_yehitsanat_makoya","lex_hke_hitsan2","lex_hke_mikir2","lex_hke_sine_migibar","lex_hke_adj_tihut","lex_hke_adj_tinish2","lex_hke_lidet2","lex_hke_mechaweca","lex_hke_inat2","lex_hke_abat2"],"sentenceIds":["sen_hke_inat_abat","sen_hke_lijinet_des","sen_hke_hitsan_mechaweca","sen_hke_tihut_mikir"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_kindheit_erziehung_free","kind":"freeApplication","lexemeIds":["lex_hke_lijinet","lex_hke_v_maridat","lex_hke_tegisats","lex_hke_yehitsanat_makoya","lex_hke_hitsan2","lex_hke_mikir2","lex_hke_sine_migibar","lex_hke_adj_tihut","lex_hke_adj_tinish2","lex_hke_lidet2","lex_hke_mechaweca","lex_hke_inat2","lex_hke_abat2"],"sentenceIds":["sen_hke_inat_abat","sen_hke_lijinet_des","sen_hke_hitsan_mechaweca","sen_hke_tihut_mikir"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_kindheit_erziehung_review","kind":"review","lexemeIds":["lex_hke_lijinet","lex_hke_v_maridat","lex_hke_tegisats","lex_hke_yehitsanat_makoya","lex_hke_hitsan2","lex_hke_mikir2","lex_hke_sine_migibar","lex_hke_adj_tihut","lex_hke_adj_tinish2","lex_hke_lidet2","lex_hke_mechaweca","lex_hke_inat2","lex_hke_abat2"],"sentenceIds":["sen_hke_inat_abat","sen_hke_lijinet_des","sen_hke_hitsan_mechaweca","sen_hke_tihut_mikir"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_kindheit_erziehung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hke_lijinet",
+      "lex_hke_v_maridat",
+      "lex_hke_tegisats",
+      "lex_hke_yehitsanat_makoya",
+      "lex_hke_hitsan2",
+      "lex_hke_mikir2",
+      "lex_hke_sine_migibar",
+      "lex_hke_adj_tihut",
+      "lex_hke_adj_tinish2",
+      "lex_hke_lidet2",
+      "lex_hke_mechaweca",
+      "lex_hke_inat2",
+      "lex_hke_abat2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_kindheit_erziehung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hke_lijinet",
+      "lex_hke_v_maridat",
+      "lex_hke_tegisats",
+      "lex_hke_yehitsanat_makoya",
+      "lex_hke_hitsan2",
+      "lex_hke_mikir2",
+      "lex_hke_sine_migibar",
+      "lex_hke_adj_tihut",
+      "lex_hke_adj_tinish2",
+      "lex_hke_lidet2",
+      "lex_hke_mechaweca",
+      "lex_hke_inat2",
+      "lex_hke_abat2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_kindheit_erziehung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hke_lijinet",
+      "lex_hke_v_maridat",
+      "lex_hke_tegisats",
+      "lex_hke_yehitsanat_makoya",
+      "lex_hke_hitsan2",
+      "lex_hke_mikir2",
+      "lex_hke_sine_migibar",
+      "lex_hke_adj_tihut",
+      "lex_hke_adj_tinish2",
+      "lex_hke_lidet2",
+      "lex_hke_mechaweca",
+      "lex_hke_inat2",
+      "lex_hke_abat2"
+    ],
+    "sentenceIds": [
+      "sen_hke_inat_abat",
+      "sen_hke_lijinet_des",
+      "sen_hke_hitsan_mechaweca",
+      "sen_hke_tihut_mikir",
+      "sen_gen_hke_tegisats"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_kindheit_erziehung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hke_lijinet",
+      "lex_hke_v_maridat",
+      "lex_hke_tegisats",
+      "lex_hke_yehitsanat_makoya",
+      "lex_hke_hitsan2",
+      "lex_hke_mikir2",
+      "lex_hke_sine_migibar",
+      "lex_hke_adj_tihut",
+      "lex_hke_adj_tinish2",
+      "lex_hke_lidet2",
+      "lex_hke_mechaweca",
+      "lex_hke_inat2",
+      "lex_hke_abat2"
+    ],
+    "sentenceIds": [
+      "sen_hke_inat_abat",
+      "sen_hke_lijinet_des",
+      "sen_hke_hitsan_mechaweca",
+      "sen_hke_tihut_mikir",
+      "sen_gen_hke_tegisats"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_kindheit_erziehung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hke_lijinet",
+      "lex_hke_v_maridat",
+      "lex_hke_tegisats",
+      "lex_hke_yehitsanat_makoya",
+      "lex_hke_hitsan2",
+      "lex_hke_mikir2",
+      "lex_hke_sine_migibar",
+      "lex_hke_adj_tihut",
+      "lex_hke_adj_tinish2",
+      "lex_hke_lidet2",
+      "lex_hke_mechaweca",
+      "lex_hke_inat2",
+      "lex_hke_abat2"
+    ],
+    "sentenceIds": [
+      "sen_hke_inat_abat",
+      "sen_hke_lijinet_des",
+      "sen_hke_hitsan_mechaweca",
+      "sen_hke_tihut_mikir",
+      "sen_gen_hke_tegisats"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_kindheit_erziehung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hke_lijinet",
+      "lex_hke_v_maridat",
+      "lex_hke_tegisats",
+      "lex_hke_yehitsanat_makoya",
+      "lex_hke_hitsan2",
+      "lex_hke_mikir2",
+      "lex_hke_sine_migibar",
+      "lex_hke_adj_tihut",
+      "lex_hke_adj_tinish2",
+      "lex_hke_lidet2",
+      "lex_hke_mechaweca",
+      "lex_hke_inat2",
+      "lex_hke_abat2"
+    ],
+    "sentenceIds": [
+      "sen_hke_inat_abat",
+      "sen_hke_lijinet_des",
+      "sen_hke_hitsan_mechaweca",
+      "sen_hke_tihut_mikir",
+      "sen_gen_hke_tegisats"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

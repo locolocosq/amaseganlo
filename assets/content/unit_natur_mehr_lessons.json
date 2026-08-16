@@ -42,7 +42,13 @@
       "lex_hoehle",
       "lex_wasserfall"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ozean",
+      "sen_gen_tal",
+      "sen_gen_insel",
+      "sen_gen_huegel",
+      "sen_gen_hoehle"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -59,7 +65,13 @@
       "lex_hoehle",
       "lex_wasserfall"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ozean",
+      "sen_gen_tal",
+      "sen_gen_insel",
+      "sen_gen_huegel",
+      "sen_gen_hoehle"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -76,7 +88,13 @@
       "lex_hoehle",
       "lex_wasserfall"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ozean",
+      "sen_gen_tal",
+      "sen_gen_insel",
+      "sen_gen_huegel",
+      "sen_gen_hoehle"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -93,7 +111,13 @@
       "lex_hoehle",
       "lex_wasserfall"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ozean",
+      "sen_gen_tal",
+      "sen_gen_insel",
+      "sen_gen_huegel",
+      "sen_gen_hoehle"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

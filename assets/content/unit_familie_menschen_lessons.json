@@ -77,7 +77,10 @@
     ],
     "sentenceIds": [
       "sen_ine_sew_negn",
-      "sen_beteseb_tilik"
+      "sen_beteseb_tilik",
+      "sen_gen_mutter",
+      "sen_gen_vater",
+      "sen_gen_kind"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -108,7 +111,10 @@
     ],
     "sentenceIds": [
       "sen_ine_sew_negn",
-      "sen_beteseb_tilik"
+      "sen_beteseb_tilik",
+      "sen_gen_mutter",
+      "sen_gen_vater",
+      "sen_gen_kind"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -139,7 +145,10 @@
     ],
     "sentenceIds": [
       "sen_ine_sew_negn",
-      "sen_beteseb_tilik"
+      "sen_beteseb_tilik",
+      "sen_gen_mutter",
+      "sen_gen_vater",
+      "sen_gen_kind"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -170,7 +179,10 @@
     ],
     "sentenceIds": [
       "sen_ine_sew_negn",
-      "sen_beteseb_tilik"
+      "sen_beteseb_tilik",
+      "sen_gen_mutter",
+      "sen_gen_vater",
+      "sen_gen_kind"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

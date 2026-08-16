@@ -48,7 +48,13 @@
       "lex_weihrauch",
       "lex_kloster"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gebet",
+      "sen_gen_feiertag_fest",
+      "sen_gen_fasten",
+      "sen_gen_pilgerfahrt",
+      "sen_gen_segen"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -67,7 +73,13 @@
       "lex_weihrauch",
       "lex_kloster"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gebet",
+      "sen_gen_feiertag_fest",
+      "sen_gen_fasten",
+      "sen_gen_pilgerfahrt",
+      "sen_gen_segen"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -86,7 +98,13 @@
       "lex_weihrauch",
       "lex_kloster"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gebet",
+      "sen_gen_feiertag_fest",
+      "sen_gen_fasten",
+      "sen_gen_pilgerfahrt",
+      "sen_gen_segen"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -105,7 +123,13 @@
       "lex_weihrauch",
       "lex_kloster"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gebet",
+      "sen_gen_feiertag_fest",
+      "sen_gen_fasten",
+      "sen_gen_pilgerfahrt",
+      "sen_gen_segen"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

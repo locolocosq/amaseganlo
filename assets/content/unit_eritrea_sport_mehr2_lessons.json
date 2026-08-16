@@ -55,7 +55,11 @@
       "lex_ti_sp3_ymnst"
     ],
     "sentenceIds": [
-      "sen_ti_sport_mehr2_1"
+      "sen_ti_sport_mehr2_1",
+      "sen_gen_sp3_bskt",
+      "sen_gen_sp3_golf",
+      "sen_gen_sp3_grmn",
+      "sen_gen_sp3_krte"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_sp3_ymnst"
     ],
     "sentenceIds": [
-      "sen_ti_sport_mehr2_1"
+      "sen_ti_sport_mehr2_1",
+      "sen_gen_sp3_bskt",
+      "sen_gen_sp3_golf",
+      "sen_gen_sp3_grmn",
+      "sen_gen_sp3_krte"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_sp3_ymnst"
     ],
     "sentenceIds": [
-      "sen_ti_sport_mehr2_1"
+      "sen_ti_sport_mehr2_1",
+      "sen_gen_sp3_bskt",
+      "sen_gen_sp3_golf",
+      "sen_gen_sp3_grmn",
+      "sen_gen_sp3_krte"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_sp3_ymnst"
     ],
     "sentenceIds": [
-      "sen_ti_sport_mehr2_1"
+      "sen_ti_sport_mehr2_1",
+      "sen_gen_sp3_bskt",
+      "sen_gen_sp3_golf",
+      "sen_gen_sp3_grmn",
+      "sen_gen_sp3_krte"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

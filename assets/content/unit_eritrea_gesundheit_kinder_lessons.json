@@ -73,7 +73,11 @@
       "lex_ti_hzti4"
     ],
     "sentenceIds": [
-      "sen_ti_gesundheit_kinder_1"
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -102,7 +106,11 @@
       "lex_ti_hzti4"
     ],
     "sentenceIds": [
-      "sen_ti_gesundheit_kinder_1"
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -131,7 +139,11 @@
       "lex_ti_hzti4"
     ],
     "sentenceIds": [
-      "sen_ti_gesundheit_kinder_1"
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -160,7 +172,11 @@
       "lex_ti_hzti4"
     ],
     "sentenceIds": [
-      "sen_ti_gesundheit_kinder_1"
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

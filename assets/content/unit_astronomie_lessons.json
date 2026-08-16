@@ -42,7 +42,13 @@
       "lex_universum",
       "lex_schwerkraft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_planet",
+      "sen_gen_komet",
+      "sen_gen_finsternis",
+      "sen_gen_galaxie",
+      "sen_gen_universum"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -59,7 +65,13 @@
       "lex_universum",
       "lex_schwerkraft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_planet",
+      "sen_gen_komet",
+      "sen_gen_finsternis",
+      "sen_gen_galaxie",
+      "sen_gen_universum"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -76,7 +88,13 @@
       "lex_universum",
       "lex_schwerkraft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_planet",
+      "sen_gen_komet",
+      "sen_gen_finsternis",
+      "sen_gen_galaxie",
+      "sen_gen_universum"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -93,7 +111,13 @@
       "lex_universum",
       "lex_schwerkraft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_planet",
+      "sen_gen_komet",
+      "sen_gen_finsternis",
+      "sen_gen_galaxie",
+      "sen_gen_universum"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

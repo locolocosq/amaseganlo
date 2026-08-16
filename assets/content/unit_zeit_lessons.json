@@ -83,7 +83,10 @@
     ],
     "sentenceIds": [
       "sen_zare_segno",
-      "sen_nege_kidame"
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -116,7 +119,10 @@
     ],
     "sentenceIds": [
       "sen_zare_segno",
-      "sen_nege_kidame"
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -149,7 +155,10 @@
     ],
     "sentenceIds": [
       "sen_zare_segno",
-      "sen_nege_kidame"
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -182,7 +191,10 @@
     ],
     "sentenceIds": [
       "sen_zare_segno",
-      "sen_nege_kidame"
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

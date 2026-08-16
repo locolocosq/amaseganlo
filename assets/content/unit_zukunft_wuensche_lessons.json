@@ -61,7 +61,11 @@
       "lex_v_hoffen"
     ],
     "sentenceIds": [
-      "sen_hilm_alegn"
+      "sen_hilm_alegn",
+      "sen_gen_ich_moechte",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_v_hoffen"
     ],
     "sentenceIds": [
-      "sen_hilm_alegn"
+      "sen_hilm_alegn",
+      "sen_gen_ich_moechte",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_v_hoffen"
     ],
     "sentenceIds": [
-      "sen_hilm_alegn"
+      "sen_hilm_alegn",
+      "sen_gen_ich_moechte",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_v_hoffen"
     ],
     "sentenceIds": [
-      "sen_hilm_alegn"
+      "sen_hilm_alegn",
+      "sen_gen_ich_moechte",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

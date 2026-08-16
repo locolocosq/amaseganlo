@@ -148,7 +148,11 @@
       "lex_ti_lmnti"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_stadt_1"
+      "sen_ti_verkehr_stadt_1",
+      "sen_gen_awtobus",
+      "sen_gen_babur",
+      "sen_gen_aeroplan",
+      "sen_gen_merkeb"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -202,7 +206,11 @@
       "lex_ti_lmnti"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_stadt_1"
+      "sen_ti_verkehr_stadt_1",
+      "sen_gen_awtobus",
+      "sen_gen_babur",
+      "sen_gen_aeroplan",
+      "sen_gen_merkeb"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -256,7 +264,11 @@
       "lex_ti_lmnti"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_stadt_1"
+      "sen_ti_verkehr_stadt_1",
+      "sen_gen_awtobus",
+      "sen_gen_babur",
+      "sen_gen_aeroplan",
+      "sen_gen_merkeb"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -310,7 +322,11 @@
       "lex_ti_lmnti"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_stadt_1"
+      "sen_ti_verkehr_stadt_1",
+      "sen_gen_awtobus",
+      "sen_gen_babur",
+      "sen_gen_aeroplan",
+      "sen_gen_merkeb"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

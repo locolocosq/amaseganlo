@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_ethik_moral_intro","kind":"intro","lexemeIds":["lex_hem_iwnet2","lex_hem_wishet","lex_hem_v_mewasheet","lex_hem_sinat","lex_hem_wetatawi","lex_hem_higuinet","lex_hem_wega","lex_hem_v_mekelakel2","lex_hem_kitil","lex_hem_widket","lex_hem_v_mekesat","lex_hem_yilugnta","lex_hem_selam3","lex_hem_kihidet","lex_hem_v_mekader","lex_hem_fitih2","lex_hem_chegir","lex_hem_kifu","lex_hem_v_meirdat","lex_hem_adenet2"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_ethik_moral_words","kind":"wordPractice","lexemeIds":["lex_hem_iwnet2","lex_hem_wishet","lex_hem_v_mewasheet","lex_hem_sinat","lex_hem_wetatawi","lex_hem_higuinet","lex_hem_wega","lex_hem_v_mekelakel2","lex_hem_kitil","lex_hem_widket","lex_hem_v_mekesat","lex_hem_yilugnta","lex_hem_selam3","lex_hem_kihidet","lex_hem_v_mekader","lex_hem_fitih2","lex_hem_chegir","lex_hem_kifu","lex_hem_v_meirdat","lex_hem_adenet2"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_ethik_moral_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hem_iwnet2","lex_hem_wishet","lex_hem_v_mewasheet","lex_hem_sinat","lex_hem_wetatawi","lex_hem_higuinet","lex_hem_wega","lex_hem_v_mekelakel2","lex_hem_kitil","lex_hem_widket","lex_hem_v_mekesat","lex_hem_yilugnta","lex_hem_selam3","lex_hem_kihidet","lex_hem_v_mekader","lex_hem_fitih2","lex_hem_chegir","lex_hem_kifu","lex_hem_v_meirdat","lex_hem_adenet2"],"sentenceIds":["sen_hem_iwnet2_wishet","sen_hem_higuinet_v_mekelakel2","sen_hem_fitih2_chegir","sen_hem_v_meirdat_widket"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_ethik_moral_listening","kind":"listening","lexemeIds":["lex_hem_iwnet2","lex_hem_wishet","lex_hem_v_mewasheet","lex_hem_sinat","lex_hem_wetatawi","lex_hem_higuinet","lex_hem_wega","lex_hem_v_mekelakel2","lex_hem_kitil","lex_hem_widket","lex_hem_v_mekesat","lex_hem_yilugnta","lex_hem_selam3","lex_hem_kihidet","lex_hem_v_mekader","lex_hem_fitih2","lex_hem_chegir","lex_hem_kifu","lex_hem_v_meirdat","lex_hem_adenet2"],"sentenceIds":["sen_hem_iwnet2_wishet","sen_hem_higuinet_v_mekelakel2","sen_hem_fitih2_chegir","sen_hem_v_meirdat_widket"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_ethik_moral_free","kind":"freeApplication","lexemeIds":["lex_hem_iwnet2","lex_hem_wishet","lex_hem_v_mewasheet","lex_hem_sinat","lex_hem_wetatawi","lex_hem_higuinet","lex_hem_wega","lex_hem_v_mekelakel2","lex_hem_kitil","lex_hem_widket","lex_hem_v_mekesat","lex_hem_yilugnta","lex_hem_selam3","lex_hem_kihidet","lex_hem_v_mekader","lex_hem_fitih2","lex_hem_chegir","lex_hem_kifu","lex_hem_v_meirdat","lex_hem_adenet2"],"sentenceIds":["sen_hem_iwnet2_wishet","sen_hem_higuinet_v_mekelakel2","sen_hem_fitih2_chegir","sen_hem_v_meirdat_widket"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_ethik_moral_review","kind":"review","lexemeIds":["lex_hem_iwnet2","lex_hem_wishet","lex_hem_v_mewasheet","lex_hem_sinat","lex_hem_wetatawi","lex_hem_higuinet","lex_hem_wega","lex_hem_v_mekelakel2","lex_hem_kitil","lex_hem_widket","lex_hem_v_mekesat","lex_hem_yilugnta","lex_hem_selam3","lex_hem_kihidet","lex_hem_v_mekader","lex_hem_fitih2","lex_hem_chegir","lex_hem_kifu","lex_hem_v_meirdat","lex_hem_adenet2"],"sentenceIds":["sen_hem_iwnet2_wishet","sen_hem_higuinet_v_mekelakel2","sen_hem_fitih2_chegir","sen_hem_v_meirdat_widket"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_ethik_moral_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hem_iwnet2",
+      "lex_hem_wishet",
+      "lex_hem_v_mewasheet",
+      "lex_hem_sinat",
+      "lex_hem_wetatawi",
+      "lex_hem_higuinet",
+      "lex_hem_wega",
+      "lex_hem_v_mekelakel2",
+      "lex_hem_kitil",
+      "lex_hem_widket",
+      "lex_hem_v_mekesat",
+      "lex_hem_yilugnta",
+      "lex_hem_selam3",
+      "lex_hem_kihidet",
+      "lex_hem_v_mekader",
+      "lex_hem_fitih2",
+      "lex_hem_chegir",
+      "lex_hem_kifu",
+      "lex_hem_v_meirdat",
+      "lex_hem_adenet2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_ethik_moral_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hem_iwnet2",
+      "lex_hem_wishet",
+      "lex_hem_v_mewasheet",
+      "lex_hem_sinat",
+      "lex_hem_wetatawi",
+      "lex_hem_higuinet",
+      "lex_hem_wega",
+      "lex_hem_v_mekelakel2",
+      "lex_hem_kitil",
+      "lex_hem_widket",
+      "lex_hem_v_mekesat",
+      "lex_hem_yilugnta",
+      "lex_hem_selam3",
+      "lex_hem_kihidet",
+      "lex_hem_v_mekader",
+      "lex_hem_fitih2",
+      "lex_hem_chegir",
+      "lex_hem_kifu",
+      "lex_hem_v_meirdat",
+      "lex_hem_adenet2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_ethik_moral_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hem_iwnet2",
+      "lex_hem_wishet",
+      "lex_hem_v_mewasheet",
+      "lex_hem_sinat",
+      "lex_hem_wetatawi",
+      "lex_hem_higuinet",
+      "lex_hem_wega",
+      "lex_hem_v_mekelakel2",
+      "lex_hem_kitil",
+      "lex_hem_widket",
+      "lex_hem_v_mekesat",
+      "lex_hem_yilugnta",
+      "lex_hem_selam3",
+      "lex_hem_kihidet",
+      "lex_hem_v_mekader",
+      "lex_hem_fitih2",
+      "lex_hem_chegir",
+      "lex_hem_kifu",
+      "lex_hem_v_meirdat",
+      "lex_hem_adenet2"
+    ],
+    "sentenceIds": [
+      "sen_hem_iwnet2_wishet",
+      "sen_hem_higuinet_v_mekelakel2",
+      "sen_hem_fitih2_chegir",
+      "sen_hem_v_meirdat_widket",
+      "sen_gen_hem_v_mewasheet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_ethik_moral_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hem_iwnet2",
+      "lex_hem_wishet",
+      "lex_hem_v_mewasheet",
+      "lex_hem_sinat",
+      "lex_hem_wetatawi",
+      "lex_hem_higuinet",
+      "lex_hem_wega",
+      "lex_hem_v_mekelakel2",
+      "lex_hem_kitil",
+      "lex_hem_widket",
+      "lex_hem_v_mekesat",
+      "lex_hem_yilugnta",
+      "lex_hem_selam3",
+      "lex_hem_kihidet",
+      "lex_hem_v_mekader",
+      "lex_hem_fitih2",
+      "lex_hem_chegir",
+      "lex_hem_kifu",
+      "lex_hem_v_meirdat",
+      "lex_hem_adenet2"
+    ],
+    "sentenceIds": [
+      "sen_hem_iwnet2_wishet",
+      "sen_hem_higuinet_v_mekelakel2",
+      "sen_hem_fitih2_chegir",
+      "sen_hem_v_meirdat_widket",
+      "sen_gen_hem_v_mewasheet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_ethik_moral_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hem_iwnet2",
+      "lex_hem_wishet",
+      "lex_hem_v_mewasheet",
+      "lex_hem_sinat",
+      "lex_hem_wetatawi",
+      "lex_hem_higuinet",
+      "lex_hem_wega",
+      "lex_hem_v_mekelakel2",
+      "lex_hem_kitil",
+      "lex_hem_widket",
+      "lex_hem_v_mekesat",
+      "lex_hem_yilugnta",
+      "lex_hem_selam3",
+      "lex_hem_kihidet",
+      "lex_hem_v_mekader",
+      "lex_hem_fitih2",
+      "lex_hem_chegir",
+      "lex_hem_kifu",
+      "lex_hem_v_meirdat",
+      "lex_hem_adenet2"
+    ],
+    "sentenceIds": [
+      "sen_hem_iwnet2_wishet",
+      "sen_hem_higuinet_v_mekelakel2",
+      "sen_hem_fitih2_chegir",
+      "sen_hem_v_meirdat_widket",
+      "sen_gen_hem_v_mewasheet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_ethik_moral_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hem_iwnet2",
+      "lex_hem_wishet",
+      "lex_hem_v_mewasheet",
+      "lex_hem_sinat",
+      "lex_hem_wetatawi",
+      "lex_hem_higuinet",
+      "lex_hem_wega",
+      "lex_hem_v_mekelakel2",
+      "lex_hem_kitil",
+      "lex_hem_widket",
+      "lex_hem_v_mekesat",
+      "lex_hem_yilugnta",
+      "lex_hem_selam3",
+      "lex_hem_kihidet",
+      "lex_hem_v_mekader",
+      "lex_hem_fitih2",
+      "lex_hem_chegir",
+      "lex_hem_kifu",
+      "lex_hem_v_meirdat",
+      "lex_hem_adenet2"
+    ],
+    "sentenceIds": [
+      "sen_hem_iwnet2_wishet",
+      "sen_hem_higuinet_v_mekelakel2",
+      "sen_hem_fitih2_chegir",
+      "sen_hem_v_meirdat_widket",
+      "sen_gen_hem_v_mewasheet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

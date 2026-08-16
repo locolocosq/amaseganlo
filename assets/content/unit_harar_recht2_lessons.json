@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_recht2_intro","kind":"intro","lexemeIds":["lex_hr2_firdibet","lex_hr2_firdi","lex_hr2_dagna","lex_hr2_tebaki","lex_hr2_kesetegna","lex_hr2_tekesash","lex_hr2_wega2","lex_hr2_wegetegna","lex_hr2_polis","lex_hr2_v_masser","lex_hr2_iser_bet","lex_hr2_kilil2","lex_hr2_v_mekesekes","lex_hr2_mereja2","lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_higuge","lex_hr2_adj_higawi","lex_hr2_adj_ihigawi","lex_hr2_kontrat2"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_recht2_words","kind":"wordPractice","lexemeIds":["lex_hr2_firdibet","lex_hr2_firdi","lex_hr2_dagna","lex_hr2_tebaki","lex_hr2_kesetegna","lex_hr2_tekesash","lex_hr2_wega2","lex_hr2_wegetegna","lex_hr2_polis","lex_hr2_v_masser","lex_hr2_iser_bet","lex_hr2_kilil2","lex_hr2_v_mekesekes","lex_hr2_mereja2","lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_higuge","lex_hr2_adj_higawi","lex_hr2_adj_ihigawi","lex_hr2_kontrat2"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_recht2_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hr2_firdibet","lex_hr2_firdi","lex_hr2_dagna","lex_hr2_tebaki","lex_hr2_kesetegna","lex_hr2_tekesash","lex_hr2_wega2","lex_hr2_wegetegna","lex_hr2_polis","lex_hr2_v_masser","lex_hr2_iser_bet","lex_hr2_kilil2","lex_hr2_v_mekesekes","lex_hr2_mereja2","lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_higuge","lex_hr2_adj_higawi","lex_hr2_adj_ihigawi","lex_hr2_kontrat2"],"sentenceIds":["sen_hr2_dagna_firdi","sen_hr2_polis_wegetegna","sen_hr2_tebaki_mereja","sen_hr2_sahid_firdibet"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_recht2_listening","kind":"listening","lexemeIds":["lex_hr2_firdibet","lex_hr2_firdi","lex_hr2_dagna","lex_hr2_tebaki","lex_hr2_kesetegna","lex_hr2_tekesash","lex_hr2_wega2","lex_hr2_wegetegna","lex_hr2_polis","lex_hr2_v_masser","lex_hr2_iser_bet","lex_hr2_kilil2","lex_hr2_v_mekesekes","lex_hr2_mereja2","lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_higuge","lex_hr2_adj_higawi","lex_hr2_adj_ihigawi","lex_hr2_kontrat2"],"sentenceIds":["sen_hr2_dagna_firdi","sen_hr2_polis_wegetegna","sen_hr2_tebaki_mereja","sen_hr2_sahid_firdibet"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_recht2_free","kind":"freeApplication","lexemeIds":["lex_hr2_firdibet","lex_hr2_firdi","lex_hr2_dagna","lex_hr2_tebaki","lex_hr2_kesetegna","lex_hr2_tekesash","lex_hr2_wega2","lex_hr2_wegetegna","lex_hr2_polis","lex_hr2_v_masser","lex_hr2_iser_bet","lex_hr2_kilil2","lex_hr2_v_mekesekes","lex_hr2_mereja2","lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_higuge","lex_hr2_adj_higawi","lex_hr2_adj_ihigawi","lex_hr2_kontrat2"],"sentenceIds":["sen_hr2_dagna_firdi","sen_hr2_polis_wegetegna","sen_hr2_tebaki_mereja","sen_hr2_sahid_firdibet"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_recht2_review","kind":"review","lexemeIds":["lex_hr2_firdibet","lex_hr2_firdi","lex_hr2_dagna","lex_hr2_tebaki","lex_hr2_kesetegna","lex_hr2_tekesash","lex_hr2_wega2","lex_hr2_wegetegna","lex_hr2_polis","lex_hr2_v_masser","lex_hr2_iser_bet","lex_hr2_kilil2","lex_hr2_v_mekesekes","lex_hr2_mereja2","lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_higuge","lex_hr2_adj_higawi","lex_hr2_adj_ihigawi","lex_hr2_kontrat2"],"sentenceIds":["sen_hr2_dagna_firdi","sen_hr2_polis_wegetegna","sen_hr2_tebaki_mereja","sen_hr2_sahid_firdibet"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_recht2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hr2_firdibet",
+      "lex_hr2_firdi",
+      "lex_hr2_dagna",
+      "lex_hr2_tebaki",
+      "lex_hr2_kesetegna",
+      "lex_hr2_tekesash",
+      "lex_hr2_wega2",
+      "lex_hr2_wegetegna",
+      "lex_hr2_polis",
+      "lex_hr2_v_masser",
+      "lex_hr2_iser_bet",
+      "lex_hr2_kilil2",
+      "lex_hr2_v_mekesekes",
+      "lex_hr2_mereja2",
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_higuge",
+      "lex_hr2_adj_higawi",
+      "lex_hr2_adj_ihigawi",
+      "lex_hr2_kontrat2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_recht2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hr2_firdibet",
+      "lex_hr2_firdi",
+      "lex_hr2_dagna",
+      "lex_hr2_tebaki",
+      "lex_hr2_kesetegna",
+      "lex_hr2_tekesash",
+      "lex_hr2_wega2",
+      "lex_hr2_wegetegna",
+      "lex_hr2_polis",
+      "lex_hr2_v_masser",
+      "lex_hr2_iser_bet",
+      "lex_hr2_kilil2",
+      "lex_hr2_v_mekesekes",
+      "lex_hr2_mereja2",
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_higuge",
+      "lex_hr2_adj_higawi",
+      "lex_hr2_adj_ihigawi",
+      "lex_hr2_kontrat2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_recht2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hr2_firdibet",
+      "lex_hr2_firdi",
+      "lex_hr2_dagna",
+      "lex_hr2_tebaki",
+      "lex_hr2_kesetegna",
+      "lex_hr2_tekesash",
+      "lex_hr2_wega2",
+      "lex_hr2_wegetegna",
+      "lex_hr2_polis",
+      "lex_hr2_v_masser",
+      "lex_hr2_iser_bet",
+      "lex_hr2_kilil2",
+      "lex_hr2_v_mekesekes",
+      "lex_hr2_mereja2",
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_higuge",
+      "lex_hr2_adj_higawi",
+      "lex_hr2_adj_ihigawi",
+      "lex_hr2_kontrat2"
+    ],
+    "sentenceIds": [
+      "sen_hr2_dagna_firdi",
+      "sen_hr2_polis_wegetegna",
+      "sen_hr2_tebaki_mereja",
+      "sen_hr2_sahid_firdibet",
+      "sen_gen_hr2_kesetegna"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_recht2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hr2_firdibet",
+      "lex_hr2_firdi",
+      "lex_hr2_dagna",
+      "lex_hr2_tebaki",
+      "lex_hr2_kesetegna",
+      "lex_hr2_tekesash",
+      "lex_hr2_wega2",
+      "lex_hr2_wegetegna",
+      "lex_hr2_polis",
+      "lex_hr2_v_masser",
+      "lex_hr2_iser_bet",
+      "lex_hr2_kilil2",
+      "lex_hr2_v_mekesekes",
+      "lex_hr2_mereja2",
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_higuge",
+      "lex_hr2_adj_higawi",
+      "lex_hr2_adj_ihigawi",
+      "lex_hr2_kontrat2"
+    ],
+    "sentenceIds": [
+      "sen_hr2_dagna_firdi",
+      "sen_hr2_polis_wegetegna",
+      "sen_hr2_tebaki_mereja",
+      "sen_hr2_sahid_firdibet",
+      "sen_gen_hr2_kesetegna"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_recht2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hr2_firdibet",
+      "lex_hr2_firdi",
+      "lex_hr2_dagna",
+      "lex_hr2_tebaki",
+      "lex_hr2_kesetegna",
+      "lex_hr2_tekesash",
+      "lex_hr2_wega2",
+      "lex_hr2_wegetegna",
+      "lex_hr2_polis",
+      "lex_hr2_v_masser",
+      "lex_hr2_iser_bet",
+      "lex_hr2_kilil2",
+      "lex_hr2_v_mekesekes",
+      "lex_hr2_mereja2",
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_higuge",
+      "lex_hr2_adj_higawi",
+      "lex_hr2_adj_ihigawi",
+      "lex_hr2_kontrat2"
+    ],
+    "sentenceIds": [
+      "sen_hr2_dagna_firdi",
+      "sen_hr2_polis_wegetegna",
+      "sen_hr2_tebaki_mereja",
+      "sen_hr2_sahid_firdibet",
+      "sen_gen_hr2_kesetegna"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_recht2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hr2_firdibet",
+      "lex_hr2_firdi",
+      "lex_hr2_dagna",
+      "lex_hr2_tebaki",
+      "lex_hr2_kesetegna",
+      "lex_hr2_tekesash",
+      "lex_hr2_wega2",
+      "lex_hr2_wegetegna",
+      "lex_hr2_polis",
+      "lex_hr2_v_masser",
+      "lex_hr2_iser_bet",
+      "lex_hr2_kilil2",
+      "lex_hr2_v_mekesekes",
+      "lex_hr2_mereja2",
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_higuge",
+      "lex_hr2_adj_higawi",
+      "lex_hr2_adj_ihigawi",
+      "lex_hr2_kontrat2"
+    ],
+    "sentenceIds": [
+      "sen_hr2_dagna_firdi",
+      "sen_hr2_polis_wegetegna",
+      "sen_hr2_tebaki_mereja",
+      "sen_hr2_sahid_firdibet",
+      "sen_gen_hr2_kesetegna"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

@@ -58,7 +58,11 @@
       "lex_jung"
     ],
     "sentenceIds": [
-      "sen_wushaw_fetan"
+      "sen_wushaw_fetan",
+      "sen_gen_langsam",
+      "sen_gen_sauber",
+      "sen_gen_schmutzig",
+      "sen_gen_voll"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_jung"
     ],
     "sentenceIds": [
-      "sen_wushaw_fetan"
+      "sen_wushaw_fetan",
+      "sen_gen_langsam",
+      "sen_gen_sauber",
+      "sen_gen_schmutzig",
+      "sen_gen_voll"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_jung"
     ],
     "sentenceIds": [
-      "sen_wushaw_fetan"
+      "sen_wushaw_fetan",
+      "sen_gen_langsam",
+      "sen_gen_sauber",
+      "sen_gen_schmutzig",
+      "sen_gen_voll"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_jung"
     ],
     "sentenceIds": [
-      "sen_wushaw_fetan"
+      "sen_wushaw_fetan",
+      "sen_gen_langsam",
+      "sen_gen_sauber",
+      "sen_gen_schmutzig",
+      "sen_gen_voll"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

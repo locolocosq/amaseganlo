@@ -61,7 +61,11 @@
       "lex_ti_agln"
     ],
     "sentenceIds": [
-      "sen_ti_koerperteile_mehr_1"
+      "sen_ti_koerperteile_mehr_1",
+      "sen_gen_kwlyt",
+      "sen_gen_hymt",
+      "sen_gen_kbdi3",
+      "sen_gen_dmg"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_agln"
     ],
     "sentenceIds": [
-      "sen_ti_koerperteile_mehr_1"
+      "sen_ti_koerperteile_mehr_1",
+      "sen_gen_kwlyt",
+      "sen_gen_hymt",
+      "sen_gen_kbdi3",
+      "sen_gen_dmg"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_agln"
     ],
     "sentenceIds": [
-      "sen_ti_koerperteile_mehr_1"
+      "sen_ti_koerperteile_mehr_1",
+      "sen_gen_kwlyt",
+      "sen_gen_hymt",
+      "sen_gen_kbdi3",
+      "sen_gen_dmg"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_agln"
     ],
     "sentenceIds": [
-      "sen_ti_koerperteile_mehr_1"
+      "sen_ti_koerperteile_mehr_1",
+      "sen_gen_kwlyt",
+      "sen_gen_hymt",
+      "sen_gen_kbdi3",
+      "sen_gen_dmg"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

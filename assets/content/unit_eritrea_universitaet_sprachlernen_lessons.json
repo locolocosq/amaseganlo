@@ -67,7 +67,11 @@
       "lex_ti_spl_fluent"
     ],
     "sentenceIds": [
-      "sen_ti_universitaet_sprachlernen_1"
+      "sen_ti_universitaet_sprachlernen_1",
+      "sen_gen_uni_prof",
+      "sen_gen_uni_dgr",
+      "sen_gen_uni_thss",
+      "sen_gen_uni_schlr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_spl_fluent"
     ],
     "sentenceIds": [
-      "sen_ti_universitaet_sprachlernen_1"
+      "sen_ti_universitaet_sprachlernen_1",
+      "sen_gen_uni_prof",
+      "sen_gen_uni_dgr",
+      "sen_gen_uni_thss",
+      "sen_gen_uni_schlr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_spl_fluent"
     ],
     "sentenceIds": [
-      "sen_ti_universitaet_sprachlernen_1"
+      "sen_ti_universitaet_sprachlernen_1",
+      "sen_gen_uni_prof",
+      "sen_gen_uni_dgr",
+      "sen_gen_uni_thss",
+      "sen_gen_uni_schlr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_spl_fluent"
     ],
     "sentenceIds": [
-      "sen_ti_universitaet_sprachlernen_1"
+      "sen_ti_universitaet_sprachlernen_1",
+      "sen_gen_uni_prof",
+      "sen_gen_uni_dgr",
+      "sen_gen_uni_thss",
+      "sen_gen_uni_schlr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

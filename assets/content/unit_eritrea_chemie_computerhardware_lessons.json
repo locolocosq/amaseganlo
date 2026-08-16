@@ -58,7 +58,11 @@
       "lex_ti_chw_lptp"
     ],
     "sentenceIds": [
-      "sen_ti_chemie_computerhardware_1"
+      "sen_ti_chemie_computerhardware_1",
+      "sen_gen_chm_mlcl",
+      "sen_gen_chm_ractn",
+      "sen_gen_chm_gas",
+      "sen_gen_chm_liqd"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_ti_chw_lptp"
     ],
     "sentenceIds": [
-      "sen_ti_chemie_computerhardware_1"
+      "sen_ti_chemie_computerhardware_1",
+      "sen_gen_chm_mlcl",
+      "sen_gen_chm_ractn",
+      "sen_gen_chm_gas",
+      "sen_gen_chm_liqd"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_ti_chw_lptp"
     ],
     "sentenceIds": [
-      "sen_ti_chemie_computerhardware_1"
+      "sen_ti_chemie_computerhardware_1",
+      "sen_gen_chm_mlcl",
+      "sen_gen_chm_ractn",
+      "sen_gen_chm_gas",
+      "sen_gen_chm_liqd"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_ti_chw_lptp"
     ],
     "sentenceIds": [
-      "sen_ti_chemie_computerhardware_1"
+      "sen_ti_chemie_computerhardware_1",
+      "sen_gen_chm_mlcl",
+      "sen_gen_chm_ractn",
+      "sen_gen_chm_gas",
+      "sen_gen_chm_liqd"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

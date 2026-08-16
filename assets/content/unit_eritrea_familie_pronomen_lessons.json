@@ -106,7 +106,11 @@
       "lex_ti_hzo"
     ],
     "sentenceIds": [
-      "sen_ti_familie_pronomen_1"
+      "sen_ti_familie_pronomen_1",
+      "sen_gen_haltey",
+      "sen_gen_wediHi",
+      "sen_gen_gwadu",
+      "sen_gen_abay"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -146,7 +150,11 @@
       "lex_ti_hzo"
     ],
     "sentenceIds": [
-      "sen_ti_familie_pronomen_1"
+      "sen_ti_familie_pronomen_1",
+      "sen_gen_haltey",
+      "sen_gen_wediHi",
+      "sen_gen_gwadu",
+      "sen_gen_abay"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -186,7 +194,11 @@
       "lex_ti_hzo"
     ],
     "sentenceIds": [
-      "sen_ti_familie_pronomen_1"
+      "sen_ti_familie_pronomen_1",
+      "sen_gen_haltey",
+      "sen_gen_wediHi",
+      "sen_gen_gwadu",
+      "sen_gen_abay"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -226,7 +238,11 @@
       "lex_ti_hzo"
     ],
     "sentenceIds": [
-      "sen_ti_familie_pronomen_1"
+      "sen_ti_familie_pronomen_1",
+      "sen_gen_haltey",
+      "sen_gen_wediHi",
+      "sen_gen_gwadu",
+      "sen_gen_abay"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -57,7 +57,13 @@
       "lex_afrika",
       "lex_australien"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_telefon",
+      "sen_gen_internet",
+      "sen_gen_email",
+      "sen_gen_nachricht",
+      "sen_gen_batterie"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -79,7 +85,13 @@
       "lex_afrika",
       "lex_australien"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_telefon",
+      "sen_gen_internet",
+      "sen_gen_email",
+      "sen_gen_nachricht",
+      "sen_gen_batterie"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -101,7 +113,13 @@
       "lex_afrika",
       "lex_australien"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_telefon",
+      "sen_gen_internet",
+      "sen_gen_email",
+      "sen_gen_nachricht",
+      "sen_gen_batterie"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -123,7 +141,13 @@
       "lex_afrika",
       "lex_australien"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_telefon",
+      "sen_gen_internet",
+      "sen_gen_email",
+      "sen_gen_nachricht",
+      "sen_gen_batterie"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

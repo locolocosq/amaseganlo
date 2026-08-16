@@ -154,7 +154,11 @@
       "lex_ti_sqli2"
     ],
     "sentenceIds": [
-      "sen_ti_haus_mehr_1"
+      "sen_ti_haus_mehr_1",
+      "sen_gen_kotari",
+      "sen_gen_bota",
+      "sen_gen_meskot",
+      "sen_gen_teret"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -210,7 +214,11 @@
       "lex_ti_sqli2"
     ],
     "sentenceIds": [
-      "sen_ti_haus_mehr_1"
+      "sen_ti_haus_mehr_1",
+      "sen_gen_kotari",
+      "sen_gen_bota",
+      "sen_gen_meskot",
+      "sen_gen_teret"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -266,7 +274,11 @@
       "lex_ti_sqli2"
     ],
     "sentenceIds": [
-      "sen_ti_haus_mehr_1"
+      "sen_ti_haus_mehr_1",
+      "sen_gen_kotari",
+      "sen_gen_bota",
+      "sen_gen_meskot",
+      "sen_gen_teret"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -322,7 +334,11 @@
       "lex_ti_sqli2"
     ],
     "sentenceIds": [
-      "sen_ti_haus_mehr_1"
+      "sen_ti_haus_mehr_1",
+      "sen_gen_kotari",
+      "sen_gen_bota",
+      "sen_gen_meskot",
+      "sen_gen_teret"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

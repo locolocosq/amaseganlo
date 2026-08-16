@@ -139,7 +139,11 @@
       "lex_ti_shmi"
     ],
     "sentenceIds": [
-      "sen_ti_gefuehle_sinne_1"
+      "sen_ti_gefuehle_sinne_1",
+      "sen_gen_hazani",
+      "sen_gen_qurtsi",
+      "sen_gen_firhi",
+      "sen_gen_tmhrti"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -190,7 +194,11 @@
       "lex_ti_shmi"
     ],
     "sentenceIds": [
-      "sen_ti_gefuehle_sinne_1"
+      "sen_ti_gefuehle_sinne_1",
+      "sen_gen_hazani",
+      "sen_gen_qurtsi",
+      "sen_gen_firhi",
+      "sen_gen_tmhrti"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -241,7 +249,11 @@
       "lex_ti_shmi"
     ],
     "sentenceIds": [
-      "sen_ti_gefuehle_sinne_1"
+      "sen_ti_gefuehle_sinne_1",
+      "sen_gen_hazani",
+      "sen_gen_qurtsi",
+      "sen_gen_firhi",
+      "sen_gen_tmhrti"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -292,7 +304,11 @@
       "lex_ti_shmi"
     ],
     "sentenceIds": [
-      "sen_ti_gefuehle_sinne_1"
+      "sen_ti_gefuehle_sinne_1",
+      "sen_gen_hazani",
+      "sen_gen_qurtsi",
+      "sen_gen_firhi",
+      "sen_gen_tmhrti"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

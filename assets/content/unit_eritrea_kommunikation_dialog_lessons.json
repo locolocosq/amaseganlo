@@ -85,7 +85,11 @@
       "lex_ti_ntyzntkm"
     ],
     "sentenceIds": [
-      "sen_ti_kommunikation_dialog_1"
+      "sen_ti_kommunikation_dialog_1",
+      "sen_gen_krbi2",
+      "sen_gen_nqfi",
+      "sen_gen_wed2",
+      "sen_gen_hbrti3"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -118,7 +122,11 @@
       "lex_ti_ntyzntkm"
     ],
     "sentenceIds": [
-      "sen_ti_kommunikation_dialog_1"
+      "sen_ti_kommunikation_dialog_1",
+      "sen_gen_krbi2",
+      "sen_gen_nqfi",
+      "sen_gen_wed2",
+      "sen_gen_hbrti3"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -151,7 +159,11 @@
       "lex_ti_ntyzntkm"
     ],
     "sentenceIds": [
-      "sen_ti_kommunikation_dialog_1"
+      "sen_ti_kommunikation_dialog_1",
+      "sen_gen_krbi2",
+      "sen_gen_nqfi",
+      "sen_gen_wed2",
+      "sen_gen_hbrti3"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -184,7 +196,11 @@
       "lex_ti_ntyzntkm"
     ],
     "sentenceIds": [
-      "sen_ti_kommunikation_dialog_1"
+      "sen_ti_kommunikation_dialog_1",
+      "sen_gen_krbi2",
+      "sen_gen_nqfi",
+      "sen_gen_wed2",
+      "sen_gen_hbrti3"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

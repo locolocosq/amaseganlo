@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_verben_alltag2_intro","kind":"intro","lexemeIds":["lex_hva_mewised","lex_hva_mesitet","lex_hva_mayet2","lex_hva_mesimat","lex_hva_mehied","lex_hva_memitat","lex_hva_mekemet2","lex_hva_metegnat","lex_hva_menikat","lex_hva_madireg","lex_hva_maseb","lex_hva_meteyek2","lex_hva_metetat2","lex_hva_meramed","lex_hva_malikes","lex_hva_mesak","lex_hva_mesirat2","lex_hva_mefeleg","lex_hva_mawek","lex_hva_mecheres"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_verben_alltag2_words","kind":"wordPractice","lexemeIds":["lex_hva_mewised","lex_hva_mesitet","lex_hva_mayet2","lex_hva_mesimat","lex_hva_mehied","lex_hva_memitat","lex_hva_mekemet2","lex_hva_metegnat","lex_hva_menikat","lex_hva_madireg","lex_hva_maseb","lex_hva_meteyek2","lex_hva_metetat2","lex_hva_meramed","lex_hva_malikes","lex_hva_mesak","lex_hva_mesirat2","lex_hva_mefeleg","lex_hva_mawek","lex_hva_mecheres"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_verben_alltag2_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hva_mewised","lex_hva_mesitet","lex_hva_mayet2","lex_hva_mesimat","lex_hva_mehied","lex_hva_memitat","lex_hva_mekemet2","lex_hva_metegnat","lex_hva_menikat","lex_hva_madireg","lex_hva_maseb","lex_hva_meteyek2","lex_hva_metetat2","lex_hva_meramed","lex_hva_malikes","lex_hva_mesak","lex_hva_mesirat2","lex_hva_mefeleg","lex_hva_mawek","lex_hva_mecheres"],"sentenceIds":["sen_hva_menikat_mehied","sen_hva_metetat_metegnat","sen_hva_maseb_meteyek","sen_hva_mesimat_mesak"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_verben_alltag2_listening","kind":"listening","lexemeIds":["lex_hva_mewised","lex_hva_mesitet","lex_hva_mayet2","lex_hva_mesimat","lex_hva_mehied","lex_hva_memitat","lex_hva_mekemet2","lex_hva_metegnat","lex_hva_menikat","lex_hva_madireg","lex_hva_maseb","lex_hva_meteyek2","lex_hva_metetat2","lex_hva_meramed","lex_hva_malikes","lex_hva_mesak","lex_hva_mesirat2","lex_hva_mefeleg","lex_hva_mawek","lex_hva_mecheres"],"sentenceIds":["sen_hva_menikat_mehied","sen_hva_metetat_metegnat","sen_hva_maseb_meteyek","sen_hva_mesimat_mesak"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_verben_alltag2_free","kind":"freeApplication","lexemeIds":["lex_hva_mewised","lex_hva_mesitet","lex_hva_mayet2","lex_hva_mesimat","lex_hva_mehied","lex_hva_memitat","lex_hva_mekemet2","lex_hva_metegnat","lex_hva_menikat","lex_hva_madireg","lex_hva_maseb","lex_hva_meteyek2","lex_hva_metetat2","lex_hva_meramed","lex_hva_malikes","lex_hva_mesak","lex_hva_mesirat2","lex_hva_mefeleg","lex_hva_mawek","lex_hva_mecheres"],"sentenceIds":["sen_hva_menikat_mehied","sen_hva_metetat_metegnat","sen_hva_maseb_meteyek","sen_hva_mesimat_mesak"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_verben_alltag2_review","kind":"review","lexemeIds":["lex_hva_mewised","lex_hva_mesitet","lex_hva_mayet2","lex_hva_mesimat","lex_hva_mehied","lex_hva_memitat","lex_hva_mekemet2","lex_hva_metegnat","lex_hva_menikat","lex_hva_madireg","lex_hva_maseb","lex_hva_meteyek2","lex_hva_metetat2","lex_hva_meramed","lex_hva_malikes","lex_hva_mesak","lex_hva_mesirat2","lex_hva_mefeleg","lex_hva_mawek","lex_hva_mecheres"],"sentenceIds":["sen_hva_menikat_mehied","sen_hva_metetat_metegnat","sen_hva_maseb_meteyek","sen_hva_mesimat_mesak"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_verben_alltag2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hva_mewised",
+      "lex_hva_mesitet",
+      "lex_hva_mayet2",
+      "lex_hva_mesimat",
+      "lex_hva_mehied",
+      "lex_hva_memitat",
+      "lex_hva_mekemet2",
+      "lex_hva_metegnat",
+      "lex_hva_menikat",
+      "lex_hva_madireg",
+      "lex_hva_maseb",
+      "lex_hva_meteyek2",
+      "lex_hva_metetat2",
+      "lex_hva_meramed",
+      "lex_hva_malikes",
+      "lex_hva_mesak",
+      "lex_hva_mesirat2",
+      "lex_hva_mefeleg",
+      "lex_hva_mawek",
+      "lex_hva_mecheres"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_verben_alltag2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hva_mewised",
+      "lex_hva_mesitet",
+      "lex_hva_mayet2",
+      "lex_hva_mesimat",
+      "lex_hva_mehied",
+      "lex_hva_memitat",
+      "lex_hva_mekemet2",
+      "lex_hva_metegnat",
+      "lex_hva_menikat",
+      "lex_hva_madireg",
+      "lex_hva_maseb",
+      "lex_hva_meteyek2",
+      "lex_hva_metetat2",
+      "lex_hva_meramed",
+      "lex_hva_malikes",
+      "lex_hva_mesak",
+      "lex_hva_mesirat2",
+      "lex_hva_mefeleg",
+      "lex_hva_mawek",
+      "lex_hva_mecheres"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_verben_alltag2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hva_mewised",
+      "lex_hva_mesitet",
+      "lex_hva_mayet2",
+      "lex_hva_mesimat",
+      "lex_hva_mehied",
+      "lex_hva_memitat",
+      "lex_hva_mekemet2",
+      "lex_hva_metegnat",
+      "lex_hva_menikat",
+      "lex_hva_madireg",
+      "lex_hva_maseb",
+      "lex_hva_meteyek2",
+      "lex_hva_metetat2",
+      "lex_hva_meramed",
+      "lex_hva_malikes",
+      "lex_hva_mesak",
+      "lex_hva_mesirat2",
+      "lex_hva_mefeleg",
+      "lex_hva_mawek",
+      "lex_hva_mecheres"
+    ],
+    "sentenceIds": [
+      "sen_hva_menikat_mehied",
+      "sen_hva_metetat_metegnat",
+      "sen_hva_maseb_meteyek",
+      "sen_hva_mesimat_mesak",
+      "sen_gen_hva_mewised"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_verben_alltag2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hva_mewised",
+      "lex_hva_mesitet",
+      "lex_hva_mayet2",
+      "lex_hva_mesimat",
+      "lex_hva_mehied",
+      "lex_hva_memitat",
+      "lex_hva_mekemet2",
+      "lex_hva_metegnat",
+      "lex_hva_menikat",
+      "lex_hva_madireg",
+      "lex_hva_maseb",
+      "lex_hva_meteyek2",
+      "lex_hva_metetat2",
+      "lex_hva_meramed",
+      "lex_hva_malikes",
+      "lex_hva_mesak",
+      "lex_hva_mesirat2",
+      "lex_hva_mefeleg",
+      "lex_hva_mawek",
+      "lex_hva_mecheres"
+    ],
+    "sentenceIds": [
+      "sen_hva_menikat_mehied",
+      "sen_hva_metetat_metegnat",
+      "sen_hva_maseb_meteyek",
+      "sen_hva_mesimat_mesak",
+      "sen_gen_hva_mewised"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_verben_alltag2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hva_mewised",
+      "lex_hva_mesitet",
+      "lex_hva_mayet2",
+      "lex_hva_mesimat",
+      "lex_hva_mehied",
+      "lex_hva_memitat",
+      "lex_hva_mekemet2",
+      "lex_hva_metegnat",
+      "lex_hva_menikat",
+      "lex_hva_madireg",
+      "lex_hva_maseb",
+      "lex_hva_meteyek2",
+      "lex_hva_metetat2",
+      "lex_hva_meramed",
+      "lex_hva_malikes",
+      "lex_hva_mesak",
+      "lex_hva_mesirat2",
+      "lex_hva_mefeleg",
+      "lex_hva_mawek",
+      "lex_hva_mecheres"
+    ],
+    "sentenceIds": [
+      "sen_hva_menikat_mehied",
+      "sen_hva_metetat_metegnat",
+      "sen_hva_maseb_meteyek",
+      "sen_hva_mesimat_mesak",
+      "sen_gen_hva_mewised"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_verben_alltag2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hva_mewised",
+      "lex_hva_mesitet",
+      "lex_hva_mayet2",
+      "lex_hva_mesimat",
+      "lex_hva_mehied",
+      "lex_hva_memitat",
+      "lex_hva_mekemet2",
+      "lex_hva_metegnat",
+      "lex_hva_menikat",
+      "lex_hva_madireg",
+      "lex_hva_maseb",
+      "lex_hva_meteyek2",
+      "lex_hva_metetat2",
+      "lex_hva_meramed",
+      "lex_hva_malikes",
+      "lex_hva_mesak",
+      "lex_hva_mesirat2",
+      "lex_hva_mefeleg",
+      "lex_hva_mawek",
+      "lex_hva_mecheres"
+    ],
+    "sentenceIds": [
+      "sen_hva_menikat_mehied",
+      "sen_hva_metetat_metegnat",
+      "sen_hva_maseb_meteyek",
+      "sen_hva_mesimat_mesak",
+      "sen_gen_hva_mewised"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

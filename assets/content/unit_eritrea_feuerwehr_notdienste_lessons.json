@@ -52,7 +52,11 @@
       "lex_ti_ntd_report"
     ],
     "sentenceIds": [
-      "sen_ti_feuerwehr_notdienste_1"
+      "sen_ti_feuerwehr_notdienste_1",
+      "sen_gen_few_smk",
+      "sen_gen_few_extg",
+      "sen_gen_few_hose",
+      "sen_gen_few_alrm2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_ntd_report"
     ],
     "sentenceIds": [
-      "sen_ti_feuerwehr_notdienste_1"
+      "sen_ti_feuerwehr_notdienste_1",
+      "sen_gen_few_smk",
+      "sen_gen_few_extg",
+      "sen_gen_few_hose",
+      "sen_gen_few_alrm2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_ntd_report"
     ],
     "sentenceIds": [
-      "sen_ti_feuerwehr_notdienste_1"
+      "sen_ti_feuerwehr_notdienste_1",
+      "sen_gen_few_smk",
+      "sen_gen_few_extg",
+      "sen_gen_few_hose",
+      "sen_gen_few_alrm2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_ntd_report"
     ],
     "sentenceIds": [
-      "sen_ti_feuerwehr_notdienste_1"
+      "sen_ti_feuerwehr_notdienste_1",
+      "sen_gen_few_smk",
+      "sen_gen_few_extg",
+      "sen_gen_few_hose",
+      "sen_gen_few_alrm2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

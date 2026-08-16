@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_koerper_pflege_intro","kind":"intro","lexemeIds":["lex_hkp_sabon","lex_hkp_v_metaseb","lex_hkp_shamp","lex_hkp_masiat","lex_hkp_v_meshefef","lex_hkp_fircha","lex_hkp_sinbet","lex_hkp_v_metaseb2","lex_hkp_mokase","lex_hkp_kolonya","lex_hkp_akal9","lex_hkp_v_metatab","lex_hkp_lidet_it","lex_hkp_kern","lex_hkp_v_metsehen","lex_hkp_konjo","lex_hkp_tsegurat","lex_hkp_v_mekech","lex_hkp_ijj_tirinif","lex_hkp_v_metebek_nitsihina"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_koerper_pflege_words","kind":"wordPractice","lexemeIds":["lex_hkp_sabon","lex_hkp_v_metaseb","lex_hkp_shamp","lex_hkp_masiat","lex_hkp_v_meshefef","lex_hkp_fircha","lex_hkp_sinbet","lex_hkp_v_metaseb2","lex_hkp_mokase","lex_hkp_kolonya","lex_hkp_akal9","lex_hkp_v_metatab","lex_hkp_lidet_it","lex_hkp_kern","lex_hkp_v_metsehen","lex_hkp_konjo","lex_hkp_tsegurat","lex_hkp_v_mekech","lex_hkp_ijj_tirinif","lex_hkp_v_metebek_nitsihina"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_koerper_pflege_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hkp_sabon","lex_hkp_v_metaseb","lex_hkp_shamp","lex_hkp_masiat","lex_hkp_v_meshefef","lex_hkp_fircha","lex_hkp_sinbet","lex_hkp_v_metaseb2","lex_hkp_mokase","lex_hkp_kolonya","lex_hkp_akal9","lex_hkp_v_metatab","lex_hkp_lidet_it","lex_hkp_kern","lex_hkp_v_metsehen","lex_hkp_konjo","lex_hkp_tsegurat","lex_hkp_v_mekech","lex_hkp_ijj_tirinif","lex_hkp_v_metebek_nitsihina"],"sentenceIds":["sen_hkp_sabon_shamp","sen_hkp_tsegurat_masiat","sen_hkp_akal9_kern","sen_hkp_metatab_lidet"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_koerper_pflege_listening","kind":"listening","lexemeIds":["lex_hkp_sabon","lex_hkp_v_metaseb","lex_hkp_shamp","lex_hkp_masiat","lex_hkp_v_meshefef","lex_hkp_fircha","lex_hkp_sinbet","lex_hkp_v_metaseb2","lex_hkp_mokase","lex_hkp_kolonya","lex_hkp_akal9","lex_hkp_v_metatab","lex_hkp_lidet_it","lex_hkp_kern","lex_hkp_v_metsehen","lex_hkp_konjo","lex_hkp_tsegurat","lex_hkp_v_mekech","lex_hkp_ijj_tirinif","lex_hkp_v_metebek_nitsihina"],"sentenceIds":["sen_hkp_sabon_shamp","sen_hkp_tsegurat_masiat","sen_hkp_akal9_kern","sen_hkp_metatab_lidet"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_koerper_pflege_free","kind":"freeApplication","lexemeIds":["lex_hkp_sabon","lex_hkp_v_metaseb","lex_hkp_shamp","lex_hkp_masiat","lex_hkp_v_meshefef","lex_hkp_fircha","lex_hkp_sinbet","lex_hkp_v_metaseb2","lex_hkp_mokase","lex_hkp_kolonya","lex_hkp_akal9","lex_hkp_v_metatab","lex_hkp_lidet_it","lex_hkp_kern","lex_hkp_v_metsehen","lex_hkp_konjo","lex_hkp_tsegurat","lex_hkp_v_mekech","lex_hkp_ijj_tirinif","lex_hkp_v_metebek_nitsihina"],"sentenceIds":["sen_hkp_sabon_shamp","sen_hkp_tsegurat_masiat","sen_hkp_akal9_kern","sen_hkp_metatab_lidet"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_koerper_pflege_review","kind":"review","lexemeIds":["lex_hkp_sabon","lex_hkp_v_metaseb","lex_hkp_shamp","lex_hkp_masiat","lex_hkp_v_meshefef","lex_hkp_fircha","lex_hkp_sinbet","lex_hkp_v_metaseb2","lex_hkp_mokase","lex_hkp_kolonya","lex_hkp_akal9","lex_hkp_v_metatab","lex_hkp_lidet_it","lex_hkp_kern","lex_hkp_v_metsehen","lex_hkp_konjo","lex_hkp_tsegurat","lex_hkp_v_mekech","lex_hkp_ijj_tirinif","lex_hkp_v_metebek_nitsihina"],"sentenceIds":["sen_hkp_sabon_shamp","sen_hkp_tsegurat_masiat","sen_hkp_akal9_kern","sen_hkp_metatab_lidet"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_koerper_pflege_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hkp_sabon",
+      "lex_hkp_v_metaseb",
+      "lex_hkp_shamp",
+      "lex_hkp_masiat",
+      "lex_hkp_v_meshefef",
+      "lex_hkp_fircha",
+      "lex_hkp_sinbet",
+      "lex_hkp_v_metaseb2",
+      "lex_hkp_mokase",
+      "lex_hkp_kolonya",
+      "lex_hkp_akal9",
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it",
+      "lex_hkp_kern",
+      "lex_hkp_v_metsehen",
+      "lex_hkp_konjo",
+      "lex_hkp_tsegurat",
+      "lex_hkp_v_mekech",
+      "lex_hkp_ijj_tirinif",
+      "lex_hkp_v_metebek_nitsihina"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_koerper_pflege_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hkp_sabon",
+      "lex_hkp_v_metaseb",
+      "lex_hkp_shamp",
+      "lex_hkp_masiat",
+      "lex_hkp_v_meshefef",
+      "lex_hkp_fircha",
+      "lex_hkp_sinbet",
+      "lex_hkp_v_metaseb2",
+      "lex_hkp_mokase",
+      "lex_hkp_kolonya",
+      "lex_hkp_akal9",
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it",
+      "lex_hkp_kern",
+      "lex_hkp_v_metsehen",
+      "lex_hkp_konjo",
+      "lex_hkp_tsegurat",
+      "lex_hkp_v_mekech",
+      "lex_hkp_ijj_tirinif",
+      "lex_hkp_v_metebek_nitsihina"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_koerper_pflege_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hkp_sabon",
+      "lex_hkp_v_metaseb",
+      "lex_hkp_shamp",
+      "lex_hkp_masiat",
+      "lex_hkp_v_meshefef",
+      "lex_hkp_fircha",
+      "lex_hkp_sinbet",
+      "lex_hkp_v_metaseb2",
+      "lex_hkp_mokase",
+      "lex_hkp_kolonya",
+      "lex_hkp_akal9",
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it",
+      "lex_hkp_kern",
+      "lex_hkp_v_metsehen",
+      "lex_hkp_konjo",
+      "lex_hkp_tsegurat",
+      "lex_hkp_v_mekech",
+      "lex_hkp_ijj_tirinif",
+      "lex_hkp_v_metebek_nitsihina"
+    ],
+    "sentenceIds": [
+      "sen_hkp_sabon_shamp",
+      "sen_hkp_tsegurat_masiat",
+      "sen_hkp_akal9_kern",
+      "sen_hkp_metatab_lidet",
+      "sen_gen_hkp_v_meshefef"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_koerper_pflege_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hkp_sabon",
+      "lex_hkp_v_metaseb",
+      "lex_hkp_shamp",
+      "lex_hkp_masiat",
+      "lex_hkp_v_meshefef",
+      "lex_hkp_fircha",
+      "lex_hkp_sinbet",
+      "lex_hkp_v_metaseb2",
+      "lex_hkp_mokase",
+      "lex_hkp_kolonya",
+      "lex_hkp_akal9",
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it",
+      "lex_hkp_kern",
+      "lex_hkp_v_metsehen",
+      "lex_hkp_konjo",
+      "lex_hkp_tsegurat",
+      "lex_hkp_v_mekech",
+      "lex_hkp_ijj_tirinif",
+      "lex_hkp_v_metebek_nitsihina"
+    ],
+    "sentenceIds": [
+      "sen_hkp_sabon_shamp",
+      "sen_hkp_tsegurat_masiat",
+      "sen_hkp_akal9_kern",
+      "sen_hkp_metatab_lidet",
+      "sen_gen_hkp_v_meshefef"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_koerper_pflege_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hkp_sabon",
+      "lex_hkp_v_metaseb",
+      "lex_hkp_shamp",
+      "lex_hkp_masiat",
+      "lex_hkp_v_meshefef",
+      "lex_hkp_fircha",
+      "lex_hkp_sinbet",
+      "lex_hkp_v_metaseb2",
+      "lex_hkp_mokase",
+      "lex_hkp_kolonya",
+      "lex_hkp_akal9",
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it",
+      "lex_hkp_kern",
+      "lex_hkp_v_metsehen",
+      "lex_hkp_konjo",
+      "lex_hkp_tsegurat",
+      "lex_hkp_v_mekech",
+      "lex_hkp_ijj_tirinif",
+      "lex_hkp_v_metebek_nitsihina"
+    ],
+    "sentenceIds": [
+      "sen_hkp_sabon_shamp",
+      "sen_hkp_tsegurat_masiat",
+      "sen_hkp_akal9_kern",
+      "sen_hkp_metatab_lidet",
+      "sen_gen_hkp_v_meshefef"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_koerper_pflege_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hkp_sabon",
+      "lex_hkp_v_metaseb",
+      "lex_hkp_shamp",
+      "lex_hkp_masiat",
+      "lex_hkp_v_meshefef",
+      "lex_hkp_fircha",
+      "lex_hkp_sinbet",
+      "lex_hkp_v_metaseb2",
+      "lex_hkp_mokase",
+      "lex_hkp_kolonya",
+      "lex_hkp_akal9",
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it",
+      "lex_hkp_kern",
+      "lex_hkp_v_metsehen",
+      "lex_hkp_konjo",
+      "lex_hkp_tsegurat",
+      "lex_hkp_v_mekech",
+      "lex_hkp_ijj_tirinif",
+      "lex_hkp_v_metebek_nitsihina"
+    ],
+    "sentenceIds": [
+      "sen_hkp_sabon_shamp",
+      "sen_hkp_tsegurat_masiat",
+      "sen_hkp_akal9_kern",
+      "sen_hkp_metatab_lidet",
+      "sen_gen_hkp_v_meshefef"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

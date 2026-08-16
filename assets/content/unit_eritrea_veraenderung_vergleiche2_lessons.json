@@ -55,7 +55,11 @@
       "lex_ti_vg2_more2"
     ],
     "sentenceIds": [
-      "sen_ti_veraenderung_vergleiche2_1"
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_gen_vrd_grow2",
+      "sen_gen_vrd_decrs",
+      "sen_gen_vrd_stop2",
+      "sen_gen_vrd_cntnu"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_vg2_more2"
     ],
     "sentenceIds": [
-      "sen_ti_veraenderung_vergleiche2_1"
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_gen_vrd_grow2",
+      "sen_gen_vrd_decrs",
+      "sen_gen_vrd_stop2",
+      "sen_gen_vrd_cntnu"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_vg2_more2"
     ],
     "sentenceIds": [
-      "sen_ti_veraenderung_vergleiche2_1"
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_gen_vrd_grow2",
+      "sen_gen_vrd_decrs",
+      "sen_gen_vrd_stop2",
+      "sen_gen_vrd_cntnu"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_vg2_more2"
     ],
     "sentenceIds": [
-      "sen_ti_veraenderung_vergleiche2_1"
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_gen_vrd_grow2",
+      "sen_gen_vrd_decrs",
+      "sen_gen_vrd_stop2",
+      "sen_gen_vrd_cntnu"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

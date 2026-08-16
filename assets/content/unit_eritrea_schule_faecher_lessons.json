@@ -106,7 +106,11 @@
       "lex_ti_fni"
     ],
     "sentenceIds": [
-      "sen_ti_schule_faecher_1"
+      "sen_ti_schule_faecher_1",
+      "sen_gen_ebiy",
+      "sen_gen_wereqet",
+      "sen_gen_tsihfet",
+      "sen_gen_timhirti"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -146,7 +150,11 @@
       "lex_ti_fni"
     ],
     "sentenceIds": [
-      "sen_ti_schule_faecher_1"
+      "sen_ti_schule_faecher_1",
+      "sen_gen_ebiy",
+      "sen_gen_wereqet",
+      "sen_gen_tsihfet",
+      "sen_gen_timhirti"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -186,7 +194,11 @@
       "lex_ti_fni"
     ],
     "sentenceIds": [
-      "sen_ti_schule_faecher_1"
+      "sen_ti_schule_faecher_1",
+      "sen_gen_ebiy",
+      "sen_gen_wereqet",
+      "sen_gen_tsihfet",
+      "sen_gen_timhirti"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -226,7 +238,11 @@
       "lex_ti_fni"
     ],
     "sentenceIds": [
-      "sen_ti_schule_faecher_1"
+      "sen_ti_schule_faecher_1",
+      "sen_gen_ebiy",
+      "sen_gen_wereqet",
+      "sen_gen_tsihfet",
+      "sen_gen_timhirti"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -55,7 +55,11 @@
       "lex_ti_gld_afford"
     ],
     "sentenceIds": [
-      "sen_ti_konjunktionen_geld_ausdruecke_1"
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_gld_afford"
     ],
     "sentenceIds": [
-      "sen_ti_konjunktionen_geld_ausdruecke_1"
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_gld_afford"
     ],
     "sentenceIds": [
-      "sen_ti_konjunktionen_geld_ausdruecke_1"
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_gld_afford"
     ],
     "sentenceIds": [
-      "sen_ti_konjunktionen_geld_ausdruecke_1"
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -52,7 +52,11 @@
       "lex_ti_lct_shine"
     ],
     "sentenceIds": [
-      "sen_ti_geraeusche_licht_1"
+      "sen_ti_geraeusche_licht_1",
+      "sen_gen_grs_quiet2",
+      "sen_gen_grs_noise",
+      "sen_gen_grs_scrm",
+      "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_lct_shine"
     ],
     "sentenceIds": [
-      "sen_ti_geraeusche_licht_1"
+      "sen_ti_geraeusche_licht_1",
+      "sen_gen_grs_quiet2",
+      "sen_gen_grs_noise",
+      "sen_gen_grs_scrm",
+      "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_lct_shine"
     ],
     "sentenceIds": [
-      "sen_ti_geraeusche_licht_1"
+      "sen_ti_geraeusche_licht_1",
+      "sen_gen_grs_quiet2",
+      "sen_gen_grs_noise",
+      "sen_gen_grs_scrm",
+      "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_lct_shine"
     ],
     "sentenceIds": [
-      "sen_ti_geraeusche_licht_1"
+      "sen_ti_geraeusche_licht_1",
+      "sen_gen_grs_quiet2",
+      "sen_gen_grs_noise",
+      "sen_gen_grs_scrm",
+      "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

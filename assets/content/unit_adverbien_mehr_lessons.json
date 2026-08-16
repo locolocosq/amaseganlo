@@ -50,7 +50,10 @@
     ],
     "sentenceIds": [
       "sen_ine_izih",
-      "sen_issu_iziya"
+      "sen_issu_iziya",
+      "sen_gen_durstig_2",
+      "sen_gen_hungrig_2",
+      "sen_gen_trinken_verb"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -72,7 +75,10 @@
     ],
     "sentenceIds": [
       "sen_ine_izih",
-      "sen_issu_iziya"
+      "sen_issu_iziya",
+      "sen_gen_durstig_2",
+      "sen_gen_hungrig_2",
+      "sen_gen_trinken_verb"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -94,7 +100,10 @@
     ],
     "sentenceIds": [
       "sen_ine_izih",
-      "sen_issu_iziya"
+      "sen_issu_iziya",
+      "sen_gen_durstig_2",
+      "sen_gen_hungrig_2",
+      "sen_gen_trinken_verb"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -116,7 +125,10 @@
     ],
     "sentenceIds": [
       "sen_ine_izih",
-      "sen_issu_iziya"
+      "sen_issu_iziya",
+      "sen_gen_durstig_2",
+      "sen_gen_hungrig_2",
+      "sen_gen_trinken_verb"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

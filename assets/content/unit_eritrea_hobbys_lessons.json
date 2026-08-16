@@ -55,7 +55,11 @@
       "lex_ti_hby_gzti2"
     ],
     "sentenceIds": [
-      "sen_ti_hobbys_1"
+      "sen_ti_hobbys_1",
+      "sen_gen_hby_ssla",
+      "sen_gen_hby_zfen2",
+      "sen_gen_hby_cnq",
+      "sen_gen_hby_msyq"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_hby_gzti2"
     ],
     "sentenceIds": [
-      "sen_ti_hobbys_1"
+      "sen_ti_hobbys_1",
+      "sen_gen_hby_ssla",
+      "sen_gen_hby_zfen2",
+      "sen_gen_hby_cnq",
+      "sen_gen_hby_msyq"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_hby_gzti2"
     ],
     "sentenceIds": [
-      "sen_ti_hobbys_1"
+      "sen_ti_hobbys_1",
+      "sen_gen_hby_ssla",
+      "sen_gen_hby_zfen2",
+      "sen_gen_hby_cnq",
+      "sen_gen_hby_msyq"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_hby_gzti2"
     ],
     "sentenceIds": [
-      "sen_ti_hobbys_1"
+      "sen_ti_hobbys_1",
+      "sen_gen_hby_ssla",
+      "sen_gen_hby_zfen2",
+      "sen_gen_hby_cnq",
+      "sen_gen_hby_msyq"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

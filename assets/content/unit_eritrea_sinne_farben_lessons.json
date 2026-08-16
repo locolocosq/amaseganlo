@@ -61,7 +61,11 @@
       "lex_ti_fn_trkis"
     ],
     "sentenceIds": [
-      "sen_ti_sinne_farben_1"
+      "sen_ti_sinne_farben_1",
+      "sen_gen_sn2_smell",
+      "sen_gen_sn2_taste",
+      "sen_gen_sn2_touch",
+      "sen_gen_sn2_hear"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_fn_trkis"
     ],
     "sentenceIds": [
-      "sen_ti_sinne_farben_1"
+      "sen_ti_sinne_farben_1",
+      "sen_gen_sn2_smell",
+      "sen_gen_sn2_taste",
+      "sen_gen_sn2_touch",
+      "sen_gen_sn2_hear"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_fn_trkis"
     ],
     "sentenceIds": [
-      "sen_ti_sinne_farben_1"
+      "sen_ti_sinne_farben_1",
+      "sen_gen_sn2_smell",
+      "sen_gen_sn2_taste",
+      "sen_gen_sn2_touch",
+      "sen_gen_sn2_hear"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_fn_trkis"
     ],
     "sentenceIds": [
-      "sen_ti_sinne_farben_1"
+      "sen_ti_sinne_farben_1",
+      "sen_gen_sn2_smell",
+      "sen_gen_sn2_taste",
+      "sen_gen_sn2_touch",
+      "sen_gen_sn2_hear"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

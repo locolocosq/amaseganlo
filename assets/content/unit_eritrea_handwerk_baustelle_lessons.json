@@ -61,7 +61,11 @@
       "lex_ti_bau_site"
     ],
     "sentenceIds": [
-      "sen_ti_handwerk_baustelle_1"
+      "sen_ti_handwerk_baustelle_1",
+      "sen_gen_hwk_pot",
+      "sen_gen_hwk_carve",
+      "sen_gen_hwk_embr",
+      "sen_gen_hwk_sblv"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_bau_site"
     ],
     "sentenceIds": [
-      "sen_ti_handwerk_baustelle_1"
+      "sen_ti_handwerk_baustelle_1",
+      "sen_gen_hwk_pot",
+      "sen_gen_hwk_carve",
+      "sen_gen_hwk_embr",
+      "sen_gen_hwk_sblv"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_bau_site"
     ],
     "sentenceIds": [
-      "sen_ti_handwerk_baustelle_1"
+      "sen_ti_handwerk_baustelle_1",
+      "sen_gen_hwk_pot",
+      "sen_gen_hwk_carve",
+      "sen_gen_hwk_embr",
+      "sen_gen_hwk_sblv"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_bau_site"
     ],
     "sentenceIds": [
-      "sen_ti_handwerk_baustelle_1"
+      "sen_ti_handwerk_baustelle_1",
+      "sen_gen_hwk_pot",
+      "sen_gen_hwk_carve",
+      "sen_gen_hwk_embr",
+      "sen_gen_hwk_sblv"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

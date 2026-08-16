@@ -163,7 +163,11 @@
       "lex_ti_snni3"
     ],
     "sentenceIds": [
-      "sen_ti_koerper_gesundheit_1"
+      "sen_ti_koerper_gesundheit_1",
+      "sen_gen_geets",
+      "sen_gen_ayni",
+      "sen_gen_afu",
+      "sen_gen_afinca"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -222,7 +226,11 @@
       "lex_ti_snni3"
     ],
     "sentenceIds": [
-      "sen_ti_koerper_gesundheit_1"
+      "sen_ti_koerper_gesundheit_1",
+      "sen_gen_geets",
+      "sen_gen_ayni",
+      "sen_gen_afu",
+      "sen_gen_afinca"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -281,7 +289,11 @@
       "lex_ti_snni3"
     ],
     "sentenceIds": [
-      "sen_ti_koerper_gesundheit_1"
+      "sen_ti_koerper_gesundheit_1",
+      "sen_gen_geets",
+      "sen_gen_ayni",
+      "sen_gen_afu",
+      "sen_gen_afinca"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -340,7 +352,11 @@
       "lex_ti_snni3"
     ],
     "sentenceIds": [
-      "sen_ti_koerper_gesundheit_1"
+      "sen_ti_koerper_gesundheit_1",
+      "sen_gen_geets",
+      "sen_gen_ayni",
+      "sen_gen_afu",
+      "sen_gen_afinca"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

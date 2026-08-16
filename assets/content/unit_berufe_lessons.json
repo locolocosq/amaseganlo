@@ -64,7 +64,11 @@
       "lex_praesident"
     ],
     "sentenceIds": [
-      "sen_geberie_sira"
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +94,11 @@
       "lex_praesident"
     ],
     "sentenceIds": [
-      "sen_geberie_sira"
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -116,7 +124,11 @@
       "lex_praesident"
     ],
     "sentenceIds": [
-      "sen_geberie_sira"
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -142,7 +154,11 @@
       "lex_praesident"
     ],
     "sentenceIds": [
-      "sen_geberie_sira"
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

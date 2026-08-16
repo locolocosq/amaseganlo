@@ -58,7 +58,11 @@
       "lex_westen"
     ],
     "sentenceIds": [
-      "sen_kulfu_lay"
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_westen"
     ],
     "sentenceIds": [
-      "sen_kulfu_lay"
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_westen"
     ],
     "sentenceIds": [
-      "sen_kulfu_lay"
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_westen"
     ],
     "sentenceIds": [
-      "sen_kulfu_lay"
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

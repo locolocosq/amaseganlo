@@ -70,7 +70,11 @@
       "lex_ti_hy2_mrrr"
     ],
     "sentenceIds": [
-      "sen_ti_post_hygiene_1"
+      "sen_ti_post_hygiene_1",
+      "sen_gen_pst_pkg",
+      "sen_gen_pst_stmp",
+      "sen_gen_pst_pbox",
+      "sen_gen_pst_adrs"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -98,7 +102,11 @@
       "lex_ti_hy2_mrrr"
     ],
     "sentenceIds": [
-      "sen_ti_post_hygiene_1"
+      "sen_ti_post_hygiene_1",
+      "sen_gen_pst_pkg",
+      "sen_gen_pst_stmp",
+      "sen_gen_pst_pbox",
+      "sen_gen_pst_adrs"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -126,7 +134,11 @@
       "lex_ti_hy2_mrrr"
     ],
     "sentenceIds": [
-      "sen_ti_post_hygiene_1"
+      "sen_ti_post_hygiene_1",
+      "sen_gen_pst_pkg",
+      "sen_gen_pst_stmp",
+      "sen_gen_pst_pbox",
+      "sen_gen_pst_adrs"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -154,7 +166,11 @@
       "lex_ti_hy2_mrrr"
     ],
     "sentenceIds": [
-      "sen_ti_post_hygiene_1"
+      "sen_ti_post_hygiene_1",
+      "sen_gen_pst_pkg",
+      "sen_gen_pst_stmp",
+      "sen_gen_pst_pbox",
+      "sen_gen_pst_adrs"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

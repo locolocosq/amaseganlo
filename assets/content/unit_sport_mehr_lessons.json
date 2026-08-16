@@ -54,7 +54,13 @@
       "lex_radfahren",
       "lex_fitness"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_basketball",
+      "sen_gen_schwimmen",
+      "sen_gen_laufen_sport",
+      "sen_gen_team",
+      "sen_gen_tor_sport"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -75,7 +81,13 @@
       "lex_radfahren",
       "lex_fitness"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_basketball",
+      "sen_gen_schwimmen",
+      "sen_gen_laufen_sport",
+      "sen_gen_team",
+      "sen_gen_tor_sport"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -96,7 +108,13 @@
       "lex_radfahren",
       "lex_fitness"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_basketball",
+      "sen_gen_schwimmen",
+      "sen_gen_laufen_sport",
+      "sen_gen_team",
+      "sen_gen_tor_sport"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -117,7 +135,13 @@
       "lex_radfahren",
       "lex_fitness"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_basketball",
+      "sen_gen_schwimmen",
+      "sen_gen_laufen_sport",
+      "sen_gen_team",
+      "sen_gen_tor_sport"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

@@ -33,7 +33,13 @@
       "lex_fern",
       "lex_ecke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -47,7 +53,13 @@
       "lex_fern",
       "lex_ecke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -61,7 +73,13 @@
       "lex_fern",
       "lex_ecke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -75,7 +93,13 @@
       "lex_fern",
       "lex_ecke"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

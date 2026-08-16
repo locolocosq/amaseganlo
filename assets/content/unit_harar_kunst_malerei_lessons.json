@@ -1,8 +1,158 @@
 [
-  {"id":"unit_harar_kunst_malerei_intro","kind":"intro","lexemeIds":["lex_hka_sitil","lex_hka_v_mesal","lex_hka_seali","lex_hka_kanivas","lex_hka_biriush2","lex_hka_kelemat","lex_hka_kirtsa_kirits","lex_hka_galeri","lex_hka_sinetibeb","lex_hka_adj_zemenawi","lex_hka_metasebiya2"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_kunst_malerei_words","kind":"wordPractice","lexemeIds":["lex_hka_sitil","lex_hka_v_mesal","lex_hka_seali","lex_hka_kanivas","lex_hka_biriush2","lex_hka_kelemat","lex_hka_kirtsa_kirits","lex_hka_galeri","lex_hka_sinetibeb","lex_hka_adj_zemenawi","lex_hka_metasebiya2"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_kunst_malerei_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hka_sitil","lex_hka_v_mesal","lex_hka_seali","lex_hka_kanivas","lex_hka_biriush2","lex_hka_kelemat","lex_hka_kirtsa_kirits","lex_hka_galeri","lex_hka_sinetibeb","lex_hka_adj_zemenawi","lex_hka_metasebiya2"],"sentenceIds":["sen_hka_seali_sitil","sen_hka_biriush_kelemat","sen_hka_kirtsa_galeri","sen_hka_sinetibeb_zemenawi"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_kunst_malerei_listening","kind":"listening","lexemeIds":["lex_hka_sitil","lex_hka_v_mesal","lex_hka_seali","lex_hka_kanivas","lex_hka_biriush2","lex_hka_kelemat","lex_hka_kirtsa_kirits","lex_hka_galeri","lex_hka_sinetibeb","lex_hka_adj_zemenawi","lex_hka_metasebiya2"],"sentenceIds":["sen_hka_seali_sitil","sen_hka_biriush_kelemat","sen_hka_kirtsa_galeri","sen_hka_sinetibeb_zemenawi"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_kunst_malerei_free","kind":"freeApplication","lexemeIds":["lex_hka_sitil","lex_hka_v_mesal","lex_hka_seali","lex_hka_kanivas","lex_hka_biriush2","lex_hka_kelemat","lex_hka_kirtsa_kirits","lex_hka_galeri","lex_hka_sinetibeb","lex_hka_adj_zemenawi","lex_hka_metasebiya2"],"sentenceIds":["sen_hka_seali_sitil","sen_hka_biriush_kelemat","sen_hka_kirtsa_galeri","sen_hka_sinetibeb_zemenawi"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_kunst_malerei_review","kind":"review","lexemeIds":["lex_hka_sitil","lex_hka_v_mesal","lex_hka_seali","lex_hka_kanivas","lex_hka_biriush2","lex_hka_kelemat","lex_hka_kirtsa_kirits","lex_hka_galeri","lex_hka_sinetibeb","lex_hka_adj_zemenawi","lex_hka_metasebiya2"],"sentenceIds":["sen_hka_seali_sitil","sen_hka_biriush_kelemat","sen_hka_kirtsa_galeri","sen_hka_sinetibeb_zemenawi"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_kunst_malerei_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hka_sitil",
+      "lex_hka_v_mesal",
+      "lex_hka_seali",
+      "lex_hka_kanivas",
+      "lex_hka_biriush2",
+      "lex_hka_kelemat",
+      "lex_hka_kirtsa_kirits",
+      "lex_hka_galeri",
+      "lex_hka_sinetibeb",
+      "lex_hka_adj_zemenawi",
+      "lex_hka_metasebiya2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_kunst_malerei_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hka_sitil",
+      "lex_hka_v_mesal",
+      "lex_hka_seali",
+      "lex_hka_kanivas",
+      "lex_hka_biriush2",
+      "lex_hka_kelemat",
+      "lex_hka_kirtsa_kirits",
+      "lex_hka_galeri",
+      "lex_hka_sinetibeb",
+      "lex_hka_adj_zemenawi",
+      "lex_hka_metasebiya2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_kunst_malerei_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hka_sitil",
+      "lex_hka_v_mesal",
+      "lex_hka_seali",
+      "lex_hka_kanivas",
+      "lex_hka_biriush2",
+      "lex_hka_kelemat",
+      "lex_hka_kirtsa_kirits",
+      "lex_hka_galeri",
+      "lex_hka_sinetibeb",
+      "lex_hka_adj_zemenawi",
+      "lex_hka_metasebiya2"
+    ],
+    "sentenceIds": [
+      "sen_hka_seali_sitil",
+      "sen_hka_biriush_kelemat",
+      "sen_hka_kirtsa_galeri",
+      "sen_hka_sinetibeb_zemenawi",
+      "sen_gen_hka_metasebiya2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_kunst_malerei_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hka_sitil",
+      "lex_hka_v_mesal",
+      "lex_hka_seali",
+      "lex_hka_kanivas",
+      "lex_hka_biriush2",
+      "lex_hka_kelemat",
+      "lex_hka_kirtsa_kirits",
+      "lex_hka_galeri",
+      "lex_hka_sinetibeb",
+      "lex_hka_adj_zemenawi",
+      "lex_hka_metasebiya2"
+    ],
+    "sentenceIds": [
+      "sen_hka_seali_sitil",
+      "sen_hka_biriush_kelemat",
+      "sen_hka_kirtsa_galeri",
+      "sen_hka_sinetibeb_zemenawi",
+      "sen_gen_hka_metasebiya2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_kunst_malerei_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hka_sitil",
+      "lex_hka_v_mesal",
+      "lex_hka_seali",
+      "lex_hka_kanivas",
+      "lex_hka_biriush2",
+      "lex_hka_kelemat",
+      "lex_hka_kirtsa_kirits",
+      "lex_hka_galeri",
+      "lex_hka_sinetibeb",
+      "lex_hka_adj_zemenawi",
+      "lex_hka_metasebiya2"
+    ],
+    "sentenceIds": [
+      "sen_hka_seali_sitil",
+      "sen_hka_biriush_kelemat",
+      "sen_hka_kirtsa_galeri",
+      "sen_hka_sinetibeb_zemenawi",
+      "sen_gen_hka_metasebiya2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_kunst_malerei_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hka_sitil",
+      "lex_hka_v_mesal",
+      "lex_hka_seali",
+      "lex_hka_kanivas",
+      "lex_hka_biriush2",
+      "lex_hka_kelemat",
+      "lex_hka_kirtsa_kirits",
+      "lex_hka_galeri",
+      "lex_hka_sinetibeb",
+      "lex_hka_adj_zemenawi",
+      "lex_hka_metasebiya2"
+    ],
+    "sentenceIds": [
+      "sen_hka_seali_sitil",
+      "sen_hka_biriush_kelemat",
+      "sen_hka_kirtsa_galeri",
+      "sen_hka_sinetibeb_zemenawi",
+      "sen_gen_hka_metasebiya2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

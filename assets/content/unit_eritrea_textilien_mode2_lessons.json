@@ -55,7 +55,11 @@
       "lex_ti_md2_stle"
     ],
     "sentenceIds": [
-      "sen_ti_textilien_mode2_1"
+      "sen_ti_textilien_mode2_1",
+      "sen_gen_txt_wool",
+      "sen_gen_txt_silk",
+      "sen_gen_txt_lthr",
+      "sen_gen_txt_fbrc"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_md2_stle"
     ],
     "sentenceIds": [
-      "sen_ti_textilien_mode2_1"
+      "sen_ti_textilien_mode2_1",
+      "sen_gen_txt_wool",
+      "sen_gen_txt_silk",
+      "sen_gen_txt_lthr",
+      "sen_gen_txt_fbrc"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_md2_stle"
     ],
     "sentenceIds": [
-      "sen_ti_textilien_mode2_1"
+      "sen_ti_textilien_mode2_1",
+      "sen_gen_txt_wool",
+      "sen_gen_txt_silk",
+      "sen_gen_txt_lthr",
+      "sen_gen_txt_fbrc"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_md2_stle"
     ],
     "sentenceIds": [
-      "sen_ti_textilien_mode2_1"
+      "sen_ti_textilien_mode2_1",
+      "sen_gen_txt_wool",
+      "sen_gen_txt_silk",
+      "sen_gen_txt_lthr",
+      "sen_gen_txt_fbrc"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

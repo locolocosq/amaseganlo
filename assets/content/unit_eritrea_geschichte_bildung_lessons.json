@@ -64,7 +64,11 @@
       "lex_ti_shhda2"
     ],
     "sentenceIds": [
-      "sen_ti_geschichte_bildung_1"
+      "sen_ti_geschichte_bildung_1",
+      "sen_gen_kolnl",
+      "sen_gen_shhab",
+      "sen_gen_shhid",
+      "sen_gen_zbn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +94,11 @@
       "lex_ti_shhda2"
     ],
     "sentenceIds": [
-      "sen_ti_geschichte_bildung_1"
+      "sen_ti_geschichte_bildung_1",
+      "sen_gen_kolnl",
+      "sen_gen_shhab",
+      "sen_gen_shhid",
+      "sen_gen_zbn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -116,7 +124,11 @@
       "lex_ti_shhda2"
     ],
     "sentenceIds": [
-      "sen_ti_geschichte_bildung_1"
+      "sen_ti_geschichte_bildung_1",
+      "sen_gen_kolnl",
+      "sen_gen_shhab",
+      "sen_gen_shhid",
+      "sen_gen_zbn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -142,7 +154,11 @@
       "lex_ti_shhda2"
     ],
     "sentenceIds": [
-      "sen_ti_geschichte_bildung_1"
+      "sen_ti_geschichte_bildung_1",
+      "sen_gen_kolnl",
+      "sen_gen_shhab",
+      "sen_gen_shhid",
+      "sen_gen_zbn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

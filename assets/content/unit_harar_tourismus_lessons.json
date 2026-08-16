@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_tourismus_intro","kind":"intro","lexemeIds":["lex_htu_turist","lex_htu_metaya2","lex_htu_meriya","lex_htu_meriya_ort","lex_htu_v_masiyet","lex_htu_hotel","lex_htu_zenzir","lex_htu_fasika_gize","lex_htu_madiya","lex_htu_fotograf","lex_htu_v_mefotograf","lex_htu_zikir","lex_htu_visa","lex_htu_pasport","lex_htu_dinbir","lex_htu_gunzo","lex_htu_v_meshecher","lex_htu_akal5","lex_htu_bejaje","lex_htu_v_meakemem"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_tourismus_words","kind":"wordPractice","lexemeIds":["lex_htu_turist","lex_htu_metaya2","lex_htu_meriya","lex_htu_meriya_ort","lex_htu_v_masiyet","lex_htu_hotel","lex_htu_zenzir","lex_htu_fasika_gize","lex_htu_madiya","lex_htu_fotograf","lex_htu_v_mefotograf","lex_htu_zikir","lex_htu_visa","lex_htu_pasport","lex_htu_dinbir","lex_htu_gunzo","lex_htu_v_meshecher","lex_htu_akal5","lex_htu_bejaje","lex_htu_v_meakemem"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_tourismus_sentences","kind":"sentenceBuilding","lexemeIds":["lex_htu_turist","lex_htu_metaya2","lex_htu_meriya","lex_htu_meriya_ort","lex_htu_v_masiyet","lex_htu_hotel","lex_htu_zenzir","lex_htu_fasika_gize","lex_htu_madiya","lex_htu_fotograf","lex_htu_v_mefotograf","lex_htu_zikir","lex_htu_visa","lex_htu_pasport","lex_htu_dinbir","lex_htu_gunzo","lex_htu_v_meshecher","lex_htu_akal5","lex_htu_bejaje","lex_htu_v_meakemem"],"sentenceIds":["sen_htu_turist_asigobinyi","sen_htu_hotel_maref","sen_htu_pasport_visa","sen_htu_fotograf_zikir"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_tourismus_listening","kind":"listening","lexemeIds":["lex_htu_turist","lex_htu_metaya2","lex_htu_meriya","lex_htu_meriya_ort","lex_htu_v_masiyet","lex_htu_hotel","lex_htu_zenzir","lex_htu_fasika_gize","lex_htu_madiya","lex_htu_fotograf","lex_htu_v_mefotograf","lex_htu_zikir","lex_htu_visa","lex_htu_pasport","lex_htu_dinbir","lex_htu_gunzo","lex_htu_v_meshecher","lex_htu_akal5","lex_htu_bejaje","lex_htu_v_meakemem"],"sentenceIds":["sen_htu_turist_asigobinyi","sen_htu_hotel_maref","sen_htu_pasport_visa","sen_htu_fotograf_zikir"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_tourismus_free","kind":"freeApplication","lexemeIds":["lex_htu_turist","lex_htu_metaya2","lex_htu_meriya","lex_htu_meriya_ort","lex_htu_v_masiyet","lex_htu_hotel","lex_htu_zenzir","lex_htu_fasika_gize","lex_htu_madiya","lex_htu_fotograf","lex_htu_v_mefotograf","lex_htu_zikir","lex_htu_visa","lex_htu_pasport","lex_htu_dinbir","lex_htu_gunzo","lex_htu_v_meshecher","lex_htu_akal5","lex_htu_bejaje","lex_htu_v_meakemem"],"sentenceIds":["sen_htu_turist_asigobinyi","sen_htu_hotel_maref","sen_htu_pasport_visa","sen_htu_fotograf_zikir"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_tourismus_review","kind":"review","lexemeIds":["lex_htu_turist","lex_htu_metaya2","lex_htu_meriya","lex_htu_meriya_ort","lex_htu_v_masiyet","lex_htu_hotel","lex_htu_zenzir","lex_htu_fasika_gize","lex_htu_madiya","lex_htu_fotograf","lex_htu_v_mefotograf","lex_htu_zikir","lex_htu_visa","lex_htu_pasport","lex_htu_dinbir","lex_htu_gunzo","lex_htu_v_meshecher","lex_htu_akal5","lex_htu_bejaje","lex_htu_v_meakemem"],"sentenceIds":["sen_htu_turist_asigobinyi","sen_htu_hotel_maref","sen_htu_pasport_visa","sen_htu_fotograf_zikir"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_tourismus_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_htu_turist",
+      "lex_htu_metaya2",
+      "lex_htu_meriya",
+      "lex_htu_meriya_ort",
+      "lex_htu_v_masiyet",
+      "lex_htu_hotel",
+      "lex_htu_zenzir",
+      "lex_htu_fasika_gize",
+      "lex_htu_madiya",
+      "lex_htu_fotograf",
+      "lex_htu_v_mefotograf",
+      "lex_htu_zikir",
+      "lex_htu_visa",
+      "lex_htu_pasport",
+      "lex_htu_dinbir",
+      "lex_htu_gunzo",
+      "lex_htu_v_meshecher",
+      "lex_htu_akal5",
+      "lex_htu_bejaje",
+      "lex_htu_v_meakemem"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_tourismus_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_htu_turist",
+      "lex_htu_metaya2",
+      "lex_htu_meriya",
+      "lex_htu_meriya_ort",
+      "lex_htu_v_masiyet",
+      "lex_htu_hotel",
+      "lex_htu_zenzir",
+      "lex_htu_fasika_gize",
+      "lex_htu_madiya",
+      "lex_htu_fotograf",
+      "lex_htu_v_mefotograf",
+      "lex_htu_zikir",
+      "lex_htu_visa",
+      "lex_htu_pasport",
+      "lex_htu_dinbir",
+      "lex_htu_gunzo",
+      "lex_htu_v_meshecher",
+      "lex_htu_akal5",
+      "lex_htu_bejaje",
+      "lex_htu_v_meakemem"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_tourismus_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_htu_turist",
+      "lex_htu_metaya2",
+      "lex_htu_meriya",
+      "lex_htu_meriya_ort",
+      "lex_htu_v_masiyet",
+      "lex_htu_hotel",
+      "lex_htu_zenzir",
+      "lex_htu_fasika_gize",
+      "lex_htu_madiya",
+      "lex_htu_fotograf",
+      "lex_htu_v_mefotograf",
+      "lex_htu_zikir",
+      "lex_htu_visa",
+      "lex_htu_pasport",
+      "lex_htu_dinbir",
+      "lex_htu_gunzo",
+      "lex_htu_v_meshecher",
+      "lex_htu_akal5",
+      "lex_htu_bejaje",
+      "lex_htu_v_meakemem"
+    ],
+    "sentenceIds": [
+      "sen_htu_turist_asigobinyi",
+      "sen_htu_hotel_maref",
+      "sen_htu_pasport_visa",
+      "sen_htu_fotograf_zikir",
+      "sen_gen_htu_metaya2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_tourismus_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_htu_turist",
+      "lex_htu_metaya2",
+      "lex_htu_meriya",
+      "lex_htu_meriya_ort",
+      "lex_htu_v_masiyet",
+      "lex_htu_hotel",
+      "lex_htu_zenzir",
+      "lex_htu_fasika_gize",
+      "lex_htu_madiya",
+      "lex_htu_fotograf",
+      "lex_htu_v_mefotograf",
+      "lex_htu_zikir",
+      "lex_htu_visa",
+      "lex_htu_pasport",
+      "lex_htu_dinbir",
+      "lex_htu_gunzo",
+      "lex_htu_v_meshecher",
+      "lex_htu_akal5",
+      "lex_htu_bejaje",
+      "lex_htu_v_meakemem"
+    ],
+    "sentenceIds": [
+      "sen_htu_turist_asigobinyi",
+      "sen_htu_hotel_maref",
+      "sen_htu_pasport_visa",
+      "sen_htu_fotograf_zikir",
+      "sen_gen_htu_metaya2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_tourismus_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_htu_turist",
+      "lex_htu_metaya2",
+      "lex_htu_meriya",
+      "lex_htu_meriya_ort",
+      "lex_htu_v_masiyet",
+      "lex_htu_hotel",
+      "lex_htu_zenzir",
+      "lex_htu_fasika_gize",
+      "lex_htu_madiya",
+      "lex_htu_fotograf",
+      "lex_htu_v_mefotograf",
+      "lex_htu_zikir",
+      "lex_htu_visa",
+      "lex_htu_pasport",
+      "lex_htu_dinbir",
+      "lex_htu_gunzo",
+      "lex_htu_v_meshecher",
+      "lex_htu_akal5",
+      "lex_htu_bejaje",
+      "lex_htu_v_meakemem"
+    ],
+    "sentenceIds": [
+      "sen_htu_turist_asigobinyi",
+      "sen_htu_hotel_maref",
+      "sen_htu_pasport_visa",
+      "sen_htu_fotograf_zikir",
+      "sen_gen_htu_metaya2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_tourismus_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_htu_turist",
+      "lex_htu_metaya2",
+      "lex_htu_meriya",
+      "lex_htu_meriya_ort",
+      "lex_htu_v_masiyet",
+      "lex_htu_hotel",
+      "lex_htu_zenzir",
+      "lex_htu_fasika_gize",
+      "lex_htu_madiya",
+      "lex_htu_fotograf",
+      "lex_htu_v_mefotograf",
+      "lex_htu_zikir",
+      "lex_htu_visa",
+      "lex_htu_pasport",
+      "lex_htu_dinbir",
+      "lex_htu_gunzo",
+      "lex_htu_v_meshecher",
+      "lex_htu_akal5",
+      "lex_htu_bejaje",
+      "lex_htu_v_meakemem"
+    ],
+    "sentenceIds": [
+      "sen_htu_turist_asigobinyi",
+      "sen_htu_hotel_maref",
+      "sen_htu_pasport_visa",
+      "sen_htu_fotograf_zikir",
+      "sen_gen_htu_metaya2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

@@ -51,7 +51,13 @@
       "lex_zahl_500",
       "lex_million"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erste",
+      "sen_gen_zweite",
+      "sen_gen_dritte",
+      "sen_gen_vierte",
+      "sen_gen_fuenfte"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -71,7 +77,13 @@
       "lex_zahl_500",
       "lex_million"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erste",
+      "sen_gen_zweite",
+      "sen_gen_dritte",
+      "sen_gen_vierte",
+      "sen_gen_fuenfte"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -91,7 +103,13 @@
       "lex_zahl_500",
       "lex_million"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erste",
+      "sen_gen_zweite",
+      "sen_gen_dritte",
+      "sen_gen_vierte",
+      "sen_gen_fuenfte"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -111,7 +129,13 @@
       "lex_zahl_500",
       "lex_million"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erste",
+      "sen_gen_zweite",
+      "sen_gen_dritte",
+      "sen_gen_vierte",
+      "sen_gen_fuenfte"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

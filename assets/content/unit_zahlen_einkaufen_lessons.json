@@ -79,7 +79,11 @@
       "lex_wieviel_kostet"
     ],
     "sentenceIds": [
-      "sen_wagau_wid"
+      "sen_wagau_wid",
+      "sen_gen_zahl_30",
+      "sen_gen_zahl_40",
+      "sen_gen_zahl_50",
+      "sen_gen_zahl_60"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -110,7 +114,11 @@
       "lex_wieviel_kostet"
     ],
     "sentenceIds": [
-      "sen_wagau_wid"
+      "sen_wagau_wid",
+      "sen_gen_zahl_30",
+      "sen_gen_zahl_40",
+      "sen_gen_zahl_50",
+      "sen_gen_zahl_60"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -141,7 +149,11 @@
       "lex_wieviel_kostet"
     ],
     "sentenceIds": [
-      "sen_wagau_wid"
+      "sen_wagau_wid",
+      "sen_gen_zahl_30",
+      "sen_gen_zahl_40",
+      "sen_gen_zahl_50",
+      "sen_gen_zahl_60"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -172,7 +184,11 @@
       "lex_wieviel_kostet"
     ],
     "sentenceIds": [
-      "sen_wagau_wid"
+      "sen_wagau_wid",
+      "sen_gen_zahl_30",
+      "sen_gen_zahl_40",
+      "sen_gen_zahl_50",
+      "sen_gen_zahl_60"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

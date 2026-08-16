@@ -79,7 +79,11 @@
       "lex_luege"
     ],
     "sentenceIds": [
-      "sen_and_gize_nigus"
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -110,7 +114,11 @@
       "lex_luege"
     ],
     "sentenceIds": [
-      "sen_and_gize_nigus"
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -141,7 +149,11 @@
       "lex_luege"
     ],
     "sentenceIds": [
-      "sen_and_gize_nigus"
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -172,7 +184,11 @@
       "lex_luege"
     ],
     "sentenceIds": [
-      "sen_and_gize_nigus"
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

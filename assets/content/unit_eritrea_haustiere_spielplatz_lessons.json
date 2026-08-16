@@ -58,7 +58,11 @@
       "lex_ti_spp_play"
     ],
     "sentenceIds": [
-      "sen_ti_haustiere_spielplatz_1"
+      "sen_ti_haustiere_spielplatz_1",
+      "sen_gen_hst_cat",
+      "sen_gen_hst_brd2",
+      "sen_gen_hst_fish",
+      "sen_gen_hst_cage"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_ti_spp_play"
     ],
     "sentenceIds": [
-      "sen_ti_haustiere_spielplatz_1"
+      "sen_ti_haustiere_spielplatz_1",
+      "sen_gen_hst_cat",
+      "sen_gen_hst_brd2",
+      "sen_gen_hst_fish",
+      "sen_gen_hst_cage"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_ti_spp_play"
     ],
     "sentenceIds": [
-      "sen_ti_haustiere_spielplatz_1"
+      "sen_ti_haustiere_spielplatz_1",
+      "sen_gen_hst_cat",
+      "sen_gen_hst_brd2",
+      "sen_gen_hst_fish",
+      "sen_gen_hst_cage"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_ti_spp_play"
     ],
     "sentenceIds": [
-      "sen_ti_haustiere_spielplatz_1"
+      "sen_ti_haustiere_spielplatz_1",
+      "sen_gen_hst_cat",
+      "sen_gen_hst_brd2",
+      "sen_gen_hst_fish",
+      "sen_gen_hst_cage"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

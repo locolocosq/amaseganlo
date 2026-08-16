@@ -55,7 +55,11 @@
       "lex_ti_fbr_asmbl"
     ],
     "sentenceIds": [
-      "sen_ti_elektrizitaet_fabrik_1"
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_fbr_asmbl"
     ],
     "sentenceIds": [
-      "sen_ti_elektrizitaet_fabrik_1"
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_fbr_asmbl"
     ],
     "sentenceIds": [
-      "sen_ti_elektrizitaet_fabrik_1"
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_fbr_asmbl"
     ],
     "sentenceIds": [
-      "sen_ti_elektrizitaet_fabrik_1"
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

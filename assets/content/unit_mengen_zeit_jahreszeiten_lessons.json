@@ -66,7 +66,13 @@
       "lex_regenzeit",
       "lex_trockenzeit"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viel",
+      "sen_gen_wenig",
+      "sen_gen_mehr",
+      "sen_gen_genug",
+      "sen_gen_mittag"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -91,7 +97,13 @@
       "lex_regenzeit",
       "lex_trockenzeit"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viel",
+      "sen_gen_wenig",
+      "sen_gen_mehr",
+      "sen_gen_genug",
+      "sen_gen_mittag"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -116,7 +128,13 @@
       "lex_regenzeit",
       "lex_trockenzeit"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viel",
+      "sen_gen_wenig",
+      "sen_gen_mehr",
+      "sen_gen_genug",
+      "sen_gen_mittag"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -141,7 +159,13 @@
       "lex_regenzeit",
       "lex_trockenzeit"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_viel",
+      "sen_gen_wenig",
+      "sen_gen_mehr",
+      "sen_gen_genug",
+      "sen_gen_mittag"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

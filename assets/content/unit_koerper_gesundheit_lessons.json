@@ -113,7 +113,10 @@
     ],
     "sentenceIds": [
       "sen_rasi_yimenal",
-      "sen_hakim_negn"
+      "sen_hakim_negn",
+      "sen_gen_auge",
+      "sen_gen_ohr",
+      "sen_gen_nase"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -156,7 +159,10 @@
     ],
     "sentenceIds": [
       "sen_rasi_yimenal",
-      "sen_hakim_negn"
+      "sen_hakim_negn",
+      "sen_gen_auge",
+      "sen_gen_ohr",
+      "sen_gen_nase"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -199,7 +205,10 @@
     ],
     "sentenceIds": [
       "sen_rasi_yimenal",
-      "sen_hakim_negn"
+      "sen_hakim_negn",
+      "sen_gen_auge",
+      "sen_gen_ohr",
+      "sen_gen_nase"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -242,7 +251,10 @@
     ],
     "sentenceIds": [
       "sen_rasi_yimenal",
-      "sen_hakim_negn"
+      "sen_hakim_negn",
+      "sen_gen_auge",
+      "sen_gen_ohr",
+      "sen_gen_nase"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -67,7 +67,11 @@
       "lex_ti_fh_tkoff"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_flughafen_1"
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_fh_tkoff"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_flughafen_1"
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_fh_tkoff"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_flughafen_1"
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_fh_tkoff"
     ],
     "sentenceIds": [
-      "sen_ti_verkehr_flughafen_1"
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

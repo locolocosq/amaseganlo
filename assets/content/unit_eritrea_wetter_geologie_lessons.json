@@ -73,7 +73,11 @@
       "lex_ti_hmed"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_geologie_1"
+      "sen_ti_wetter_geologie_1",
+      "sen_gen_brdti",
+      "sen_gen_ntsti",
+      "sen_gen_swus",
+      "sen_gen_hlmi2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -102,7 +106,11 @@
       "lex_ti_hmed"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_geologie_1"
+      "sen_ti_wetter_geologie_1",
+      "sen_gen_brdti",
+      "sen_gen_ntsti",
+      "sen_gen_swus",
+      "sen_gen_hlmi2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -131,7 +139,11 @@
       "lex_ti_hmed"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_geologie_1"
+      "sen_ti_wetter_geologie_1",
+      "sen_gen_brdti",
+      "sen_gen_ntsti",
+      "sen_gen_swus",
+      "sen_gen_hlmi2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -160,7 +172,11 @@
       "lex_ti_hmed"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_geologie_1"
+      "sen_ti_wetter_geologie_1",
+      "sen_gen_brdti",
+      "sen_gen_ntsti",
+      "sen_gen_swus",
+      "sen_gen_hlmi2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

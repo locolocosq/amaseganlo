@@ -2,43 +2,163 @@
   {
     "id": "unit_eritrea_family_intro",
     "kind": "intro",
-    "lexemeIds": ["lex_ti_sidra", "lex_ti_ade", "lex_ti_abo", "lex_ti_kolu", "lex_ti_haw", "lex_ti_hafti", "lex_ti_adki", "lex_ti_sebay", "lex_ti_sebeyti", "lex_ti_hitsan", "lex_ti_sew", "lex_ti_zemed"],
+    "lexemeIds": [
+      "lex_ti_sidra",
+      "lex_ti_ade",
+      "lex_ti_abo",
+      "lex_ti_kolu",
+      "lex_ti_haw",
+      "lex_ti_hafti",
+      "lex_ti_adki",
+      "lex_ti_sebay",
+      "lex_ti_sebeyti",
+      "lex_ti_hitsan",
+      "lex_ti_sew",
+      "lex_ti_zemed"
+    ],
     "sentenceIds": [],
     "exerciseTypes": []
   },
   {
     "id": "unit_eritrea_family_words",
     "kind": "wordPractice",
-    "lexemeIds": ["lex_ti_sidra", "lex_ti_ade", "lex_ti_abo", "lex_ti_kolu", "lex_ti_haw", "lex_ti_hafti", "lex_ti_adki", "lex_ti_sebay", "lex_ti_sebeyti", "lex_ti_hitsan", "lex_ti_sew", "lex_ti_zemed"],
+    "lexemeIds": [
+      "lex_ti_sidra",
+      "lex_ti_ade",
+      "lex_ti_abo",
+      "lex_ti_kolu",
+      "lex_ti_haw",
+      "lex_ti_hafti",
+      "lex_ti_adki",
+      "lex_ti_sebay",
+      "lex_ti_sebeyti",
+      "lex_ti_hitsan",
+      "lex_ti_sew",
+      "lex_ti_zemed"
+    ],
     "sentenceIds": [],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
   },
   {
     "id": "unit_eritrea_family_sentences",
     "kind": "sentenceBuilding",
-    "lexemeIds": ["lex_ti_sidra", "lex_ti_ade", "lex_ti_abo", "lex_ti_kolu", "lex_ti_haw", "lex_ti_hafti", "lex_ti_adki", "lex_ti_sebay", "lex_ti_sebeyti", "lex_ti_hitsan", "lex_ti_sew", "lex_ti_zemed"],
-    "sentenceIds": ["sen_ti_haw_ade", "sen_ti_hafti_abo"],
-    "exerciseTypes": ["sentenceBuild", "sentenceGapChoice"]
+    "lexemeIds": [
+      "lex_ti_sidra",
+      "lex_ti_ade",
+      "lex_ti_abo",
+      "lex_ti_kolu",
+      "lex_ti_haw",
+      "lex_ti_hafti",
+      "lex_ti_adki",
+      "lex_ti_sebay",
+      "lex_ti_sebeyti",
+      "lex_ti_hitsan",
+      "lex_ti_sew",
+      "lex_ti_zemed"
+    ],
+    "sentenceIds": [
+      "sen_ti_haw_ade",
+      "sen_ti_hafti_abo",
+      "sen_gen_sidra",
+      "sen_gen_kolu",
+      "sen_gen_adki"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
   },
   {
     "id": "unit_eritrea_family_listening",
     "kind": "listening",
-    "lexemeIds": ["lex_ti_sidra", "lex_ti_ade", "lex_ti_abo", "lex_ti_kolu", "lex_ti_haw", "lex_ti_hafti", "lex_ti_adki", "lex_ti_sebay", "lex_ti_sebeyti", "lex_ti_hitsan", "lex_ti_sew", "lex_ti_zemed"],
-    "sentenceIds": ["sen_ti_haw_ade", "sen_ti_hafti_abo"],
-    "exerciseTypes": ["listenChoice", "listenBuild"]
+    "lexemeIds": [
+      "lex_ti_sidra",
+      "lex_ti_ade",
+      "lex_ti_abo",
+      "lex_ti_kolu",
+      "lex_ti_haw",
+      "lex_ti_hafti",
+      "lex_ti_adki",
+      "lex_ti_sebay",
+      "lex_ti_sebeyti",
+      "lex_ti_hitsan",
+      "lex_ti_sew",
+      "lex_ti_zemed"
+    ],
+    "sentenceIds": [
+      "sen_ti_haw_ade",
+      "sen_ti_hafti_abo",
+      "sen_gen_sidra",
+      "sen_gen_kolu",
+      "sen_gen_adki"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
   },
   {
     "id": "unit_eritrea_family_free",
     "kind": "freeApplication",
-    "lexemeIds": ["lex_ti_sidra", "lex_ti_ade", "lex_ti_abo", "lex_ti_kolu", "lex_ti_haw", "lex_ti_hafti", "lex_ti_adki", "lex_ti_sebay", "lex_ti_sebeyti", "lex_ti_hitsan", "lex_ti_sew", "lex_ti_zemed"],
-    "sentenceIds": ["sen_ti_haw_ade", "sen_ti_hafti_abo"],
-    "exerciseTypes": ["wordTyping", "sentenceTranslate"]
+    "lexemeIds": [
+      "lex_ti_sidra",
+      "lex_ti_ade",
+      "lex_ti_abo",
+      "lex_ti_kolu",
+      "lex_ti_haw",
+      "lex_ti_hafti",
+      "lex_ti_adki",
+      "lex_ti_sebay",
+      "lex_ti_sebeyti",
+      "lex_ti_hitsan",
+      "lex_ti_sew",
+      "lex_ti_zemed"
+    ],
+    "sentenceIds": [
+      "sen_ti_haw_ade",
+      "sen_ti_hafti_abo",
+      "sen_gen_sidra",
+      "sen_gen_kolu",
+      "sen_gen_adki"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
   },
   {
     "id": "unit_eritrea_family_review",
     "kind": "review",
-    "lexemeIds": ["lex_ti_sidra", "lex_ti_ade", "lex_ti_abo", "lex_ti_kolu", "lex_ti_haw", "lex_ti_hafti", "lex_ti_adki", "lex_ti_sebay", "lex_ti_sebeyti", "lex_ti_hitsan", "lex_ti_sew", "lex_ti_zemed"],
-    "sentenceIds": ["sen_ti_haw_ade", "sen_ti_hafti_abo"],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping", "trueFalse"]
+    "lexemeIds": [
+      "lex_ti_sidra",
+      "lex_ti_ade",
+      "lex_ti_abo",
+      "lex_ti_kolu",
+      "lex_ti_haw",
+      "lex_ti_hafti",
+      "lex_ti_adki",
+      "lex_ti_sebay",
+      "lex_ti_sebeyti",
+      "lex_ti_hitsan",
+      "lex_ti_sew",
+      "lex_ti_zemed"
+    ],
+    "sentenceIds": [
+      "sen_ti_haw_ade",
+      "sen_ti_hafti_abo",
+      "sen_gen_sidra",
+      "sen_gen_kolu",
+      "sen_gen_adki"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
   }
 ]

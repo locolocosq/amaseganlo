@@ -55,7 +55,11 @@
       "lex_ti_gws_ocean"
     ],
     "sentenceIds": [
-      "sen_ti_seefahrt_gewaesser_1"
+      "sen_ti_seefahrt_gewaesser_1",
+      "sen_gen_seef_anch",
+      "sen_gen_seef_hrbr",
+      "sen_gen_seef_saylr",
+      "sen_gen_seef_capt"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_gws_ocean"
     ],
     "sentenceIds": [
-      "sen_ti_seefahrt_gewaesser_1"
+      "sen_ti_seefahrt_gewaesser_1",
+      "sen_gen_seef_anch",
+      "sen_gen_seef_hrbr",
+      "sen_gen_seef_saylr",
+      "sen_gen_seef_capt"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_gws_ocean"
     ],
     "sentenceIds": [
-      "sen_ti_seefahrt_gewaesser_1"
+      "sen_ti_seefahrt_gewaesser_1",
+      "sen_gen_seef_anch",
+      "sen_gen_seef_hrbr",
+      "sen_gen_seef_saylr",
+      "sen_gen_seef_capt"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_gws_ocean"
     ],
     "sentenceIds": [
-      "sen_ti_seefahrt_gewaesser_1"
+      "sen_ti_seefahrt_gewaesser_1",
+      "sen_gen_seef_anch",
+      "sen_gen_seef_hrbr",
+      "sen_gen_seef_saylr",
+      "sen_gen_seef_capt"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -172,7 +172,11 @@
       "lex_ti_dhlk"
     ],
     "sentenceIds": [
-      "sen_ti_natur_geographie_1"
+      "sen_ti_natur_geographie_1",
+      "sen_gen_wersiha",
+      "sen_gen_kokebti",
+      "sen_gen_semay",
+      "sen_gen_dammena"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -234,7 +238,11 @@
       "lex_ti_dhlk"
     ],
     "sentenceIds": [
-      "sen_ti_natur_geographie_1"
+      "sen_ti_natur_geographie_1",
+      "sen_gen_wersiha",
+      "sen_gen_kokebti",
+      "sen_gen_semay",
+      "sen_gen_dammena"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -296,7 +304,11 @@
       "lex_ti_dhlk"
     ],
     "sentenceIds": [
-      "sen_ti_natur_geographie_1"
+      "sen_ti_natur_geographie_1",
+      "sen_gen_wersiha",
+      "sen_gen_kokebti",
+      "sen_gen_semay",
+      "sen_gen_dammena"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -358,7 +370,11 @@
       "lex_ti_dhlk"
     ],
     "sentenceIds": [
-      "sen_ti_natur_geographie_1"
+      "sen_ti_natur_geographie_1",
+      "sen_gen_wersiha",
+      "sen_gen_kokebti",
+      "sen_gen_semay",
+      "sen_gen_dammena"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

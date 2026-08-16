@@ -166,7 +166,11 @@
       "lex_ti_rieqi"
     ],
     "sentenceIds": [
-      "sen_ti_farben_formen_1"
+      "sen_ti_farben_formen_1",
+      "sen_gen_kokhay",
+      "sen_gen_qetsli",
+      "sen_gen_tsaada",
+      "sen_gen_kekhi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -226,7 +230,11 @@
       "lex_ti_rieqi"
     ],
     "sentenceIds": [
-      "sen_ti_farben_formen_1"
+      "sen_ti_farben_formen_1",
+      "sen_gen_kokhay",
+      "sen_gen_qetsli",
+      "sen_gen_tsaada",
+      "sen_gen_kekhi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -286,7 +294,11 @@
       "lex_ti_rieqi"
     ],
     "sentenceIds": [
-      "sen_ti_farben_formen_1"
+      "sen_ti_farben_formen_1",
+      "sen_gen_kokhay",
+      "sen_gen_qetsli",
+      "sen_gen_tsaada",
+      "sen_gen_kekhi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -346,7 +358,11 @@
       "lex_ti_rieqi"
     ],
     "sentenceIds": [
-      "sen_ti_farben_formen_1"
+      "sen_ti_farben_formen_1",
+      "sen_gen_kokhay",
+      "sen_gen_qetsli",
+      "sen_gen_tsaada",
+      "sen_gen_kekhi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

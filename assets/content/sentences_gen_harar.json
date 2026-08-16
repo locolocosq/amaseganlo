@@ -1,0 +1,873 @@
+[
+  {
+    "id": "sen_gen_hh_serategna",
+    "am": "ሰራተኛ እጅ አለ።",
+    "tr": "serategna ij ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hh_serategna"
+    ],
+    "t": {
+      "de": "die Handwerkskunst ist vorhanden.",
+      "en": "There is craftsmanship.",
+      "sv": "Det finns hantverksskicklighet.",
+      "nl": "Er is vakmanschap."
+    },
+    "alt": {},
+    "chunks": [
+      "serategna",
+      "ij",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hs_kitir_kacha",
+    "am": "ጅግራ አለ።",
+    "tr": "jigira ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hs_kitir_kacha"
+    ],
+    "t": {
+      "de": "die Stadtmauer ist vorhanden.",
+      "en": "There is city wall.",
+      "sv": "Det finns stadsmur.",
+      "nl": "Er is stadsmuur."
+    },
+    "alt": {},
+    "chunks": [
+      "jigira",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ht_yejib_sew",
+    "am": "የጅብ ሰው አለ።",
+    "tr": "yejib sew ale.",
+    "level": "B2",
+    "uses": [
+      "lex_ht_yejib_sew"
+    ],
+    "t": {
+      "de": "der Hyänenmann (Hararer Tradition) ist vorhanden.",
+      "en": "There is the hyena man (Harar tradition).",
+      "sv": "Det finns hyenamannen (Harar-tradition).",
+      "nl": "Er is de hyenaman (Harar-traditie)."
+    },
+    "alt": {},
+    "chunks": [
+      "yejib",
+      "sew",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hm_v_meweziwaz",
+    "am": "መውዘዋዘ እፈልጋለሁ።",
+    "tr": "mewizewaz ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hm_v_meweziwaz"
+    ],
+    "t": {
+      "de": "Ich möchte tanzen.",
+      "en": "I want to dance.",
+      "sv": "Jag vill dansa.",
+      "nl": "Ik wil dansen."
+    },
+    "alt": {},
+    "chunks": [
+      "mewizewaz",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hg_shengo",
+    "am": "ሸንተረር አለ።",
+    "tr": "shenterer ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hg_shengo"
+    ],
+    "t": {
+      "de": "der Gebirgskamm ist vorhanden.",
+      "en": "There is mountain ridge.",
+      "sv": "Det finns bergskam.",
+      "nl": "Er is bergkam."
+    },
+    "alt": {},
+    "chunks": [
+      "shenterer",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hl_gebs",
+    "am": "ገብስ አለ።",
+    "tr": "gebis ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hl_gebs"
+    ],
+    "t": {
+      "de": "die Gerste ist vorhanden.",
+      "en": "There is barley.",
+      "sv": "Det finns korn.",
+      "nl": "Er is gerst."
+    },
+    "alt": {},
+    "chunks": [
+      "gebis",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hsl_tarik",
+    "am": "ታሪክ አለ።",
+    "tr": "tarik ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hsl_tarik"
+    ],
+    "t": {
+      "de": "die Geschichte, Erzählung ist vorhanden.",
+      "en": "There is story, history.",
+      "sv": "Det finns historia, berättelse.",
+      "nl": "Er is verhaal, geschiedenis."
+    },
+    "alt": {},
+    "chunks": [
+      "tarik",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hmt_bahilawi_medhanit",
+    "am": "ባህላዊ መድሃኒት አለ።",
+    "tr": "bahilawi medhanit ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hmt_bahilawi_medhanit"
+    ],
+    "t": {
+      "de": "die traditionelle Medizin ist vorhanden.",
+      "en": "There is traditional medicine.",
+      "sv": "Det finns traditionell medicin.",
+      "nl": "Er is traditionele geneeskunde."
+    },
+    "alt": {},
+    "chunks": [
+      "bahilawi",
+      "medhanit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzg_zemen2",
+    "am": "ወቅት አለ።",
+    "tr": "wek'it ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hzg_zemen2"
+    ],
+    "t": {
+      "de": "die Periode, Saison ist vorhanden.",
+      "en": "There is period, season.",
+      "sv": "Det finns period, säsong.",
+      "nl": "Er is periode, seizoen."
+    },
+    "alt": {},
+    "chunks": [
+      "wek'it",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hv_wereda",
+    "am": "ወረዳ አለ።",
+    "tr": "wereda ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hv_wereda"
+    ],
+    "t": {
+      "de": "der Verwaltungsbezirk ist vorhanden.",
+      "en": "There is district.",
+      "sv": "Det finns distrikt.",
+      "nl": "Er is district."
+    },
+    "alt": {},
+    "chunks": [
+      "wereda",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hbt_derek",
+    "am": "ጣራ አለ።",
+    "tr": "t'ara ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hbt_derek"
+    ],
+    "t": {
+      "de": "das Dach ist vorhanden.",
+      "en": "There is roof.",
+      "sv": "Det finns tak.",
+      "nl": "Er is dak."
+    },
+    "alt": {},
+    "chunks": [
+      "t'ara",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hk2_sitalefit",
+    "am": "ስልክ አለ።",
+    "tr": "silik ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hk2_sitalefit"
+    ],
+    "t": {
+      "de": "das Telefon ist vorhanden.",
+      "en": "There is telephone.",
+      "sv": "Det finns telefon.",
+      "nl": "Er is telefoon."
+    },
+    "alt": {},
+    "chunks": [
+      "silik",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_he_dilta",
+    "am": "ድልታ አለ።",
+    "tr": "dilita ale.",
+    "level": "B2",
+    "uses": [
+      "lex_he_dilta"
+    ],
+    "t": {
+      "de": "die Zufriedenheit ist vorhanden.",
+      "en": "There is contentment.",
+      "sv": "Det finns belåtenhet.",
+      "nl": "Er is tevredenheid."
+    },
+    "alt": {},
+    "chunks": [
+      "dilita",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hem_v_mewasheet",
+    "am": "መዋሸት እፈልጋለሁ።",
+    "tr": "mewashet ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hem_v_mewasheet"
+    ],
+    "t": {
+      "de": "Ich möchte lügen.",
+      "en": "I want to lie.",
+      "sv": "Jag vill ljuga.",
+      "nl": "Ik wil liegen."
+    },
+    "alt": {},
+    "chunks": [
+      "mewashet",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_htu_metaya2",
+    "am": "የቱሪዝም ስፍራ አለ።",
+    "tr": "yeturizim sifira ale.",
+    "level": "B2",
+    "uses": [
+      "lex_htu_metaya2"
+    ],
+    "t": {
+      "de": "die Touristenattraktion ist vorhanden.",
+      "en": "There is tourist attraction.",
+      "sv": "Det finns turistattraktion.",
+      "nl": "Er is toeristische attractie."
+    },
+    "alt": {},
+    "chunks": [
+      "yeturizim",
+      "sifira",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hu3_v_zenb_metat",
+    "am": "ዝናብ መጣል እፈልጋለሁ።",
+    "tr": "zinab met'al ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hu3_v_zenb_metat"
+    ],
+    "t": {
+      "de": "Ich möchte regnen.",
+      "en": "I want to rain.",
+      "sv": "Jag vill regna.",
+      "nl": "Ik wil regenen."
+    },
+    "alt": {},
+    "chunks": [
+      "zinab",
+      "met'al",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hv2_bajaj",
+    "am": "ባጃጅ አለ።",
+    "tr": "bajaj ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hv2_bajaj"
+    ],
+    "t": {
+      "de": "die Auto-Rikscha ist vorhanden.",
+      "en": "There is tuk-tuk, auto-rickshaw.",
+      "sv": "Det finns tuktuk.",
+      "nl": "Er is tuktuk."
+    },
+    "alt": {},
+    "chunks": [
+      "bajaj",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hb2_yuniversiti",
+    "am": "ከፍተኛ ትምህርት ቤት አለ።",
+    "tr": "kefitegna timihirt bet ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hb2_yuniversiti"
+    ],
+    "t": {
+      "de": "die Universität ist vorhanden.",
+      "en": "There is university.",
+      "sv": "Det finns universitet.",
+      "nl": "Er is universiteit."
+    },
+    "alt": {},
+    "chunks": [
+      "kefitegna",
+      "timihirt",
+      "bet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hg3_doktor",
+    "am": "ዶክተር አለ።",
+    "tr": "dokiter ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hg3_doktor"
+    ],
+    "t": {
+      "de": "der Arzt ist vorhanden.",
+      "en": "There is doctor.",
+      "sv": "Det finns läkare.",
+      "nl": "Er is dokter."
+    },
+    "alt": {},
+    "chunks": [
+      "dokiter",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hr2_kesetegna",
+    "am": "ከሳሽ አለ።",
+    "tr": "kesash ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hr2_kesetegna"
+    ],
+    "t": {
+      "de": "der Kläger ist vorhanden.",
+      "en": "There is plaintiff.",
+      "sv": "Det finns kärande.",
+      "nl": "Er is eiser."
+    },
+    "alt": {},
+    "chunks": [
+      "kesash",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hbz_arsi",
+    "am": "አጭ አለ።",
+    "tr": "achi ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hbz_arsi"
+    ],
+    "t": {
+      "de": "der Verlobte, die Verlobte ist vorhanden.",
+      "en": "There is fiancé/fiancée.",
+      "sv": "Det finns förlovad.",
+      "nl": "Er is verloofde."
+    },
+    "alt": {},
+    "chunks": [
+      "achi",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_het2_shiro",
+    "am": "ሽሮ አለ።",
+    "tr": "shiro ale.",
+    "level": "B2",
+    "uses": [
+      "lex_het2_shiro"
+    ],
+    "t": {
+      "de": "das Kichererbsenpüree ist vorhanden.",
+      "en": "There is chickpea/legume stew.",
+      "sv": "Det finns kikärtsgryta.",
+      "nl": "Er is kikkererwtenstoofpot."
+    },
+    "alt": {},
+    "chunks": [
+      "shiro",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hkp_v_meshefef",
+    "am": "መጣፍ እፈልጋለሁ።",
+    "tr": "met'af ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hkp_v_meshefef"
+    ],
+    "t": {
+      "de": "Ich möchte kämmen.",
+      "en": "I want to comb.",
+      "sv": "Jag vill kamma.",
+      "nl": "Ik wil kammen."
+    },
+    "alt": {},
+    "chunks": [
+      "met'af",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hab2_meser_bet",
+    "am": "ድርጅት አለ።",
+    "tr": "dirijit ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hab2_meser_bet"
+    ],
+    "t": {
+      "de": "die Organisation, das Unternehmen ist vorhanden.",
+      "en": "There is organization, company.",
+      "sv": "Det finns organisation, företag.",
+      "nl": "Er is organisatie, bedrijf."
+    },
+    "alt": {},
+    "chunks": [
+      "dirijit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzm_litr",
+    "am": "ሊትር አለ።",
+    "tr": "litir ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hzm_litr"
+    ],
+    "t": {
+      "de": "der Liter ist vorhanden.",
+      "en": "There is liter.",
+      "sv": "Det finns liter.",
+      "nl": "Er is liter."
+    },
+    "alt": {},
+    "chunks": [
+      "litir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hw2_kokeb2",
+    "am": "ኮከብ አለ።",
+    "tr": "kokeb ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hw2_kokeb2"
+    ],
+    "t": {
+      "de": "der Stern ist vorhanden.",
+      "en": "There is star.",
+      "sv": "Det finns stjärna.",
+      "nl": "Er is ster."
+    },
+    "alt": {},
+    "chunks": [
+      "kokeb",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ht2_dimet",
+    "am": "ድመት አለ።",
+    "tr": "dimet ale.",
+    "level": "B2",
+    "uses": [
+      "lex_ht2_dimet"
+    ],
+    "t": {
+      "de": "die Katze ist vorhanden.",
+      "en": "There is cat.",
+      "sv": "Det finns katt.",
+      "nl": "Er is kat."
+    },
+    "alt": {},
+    "chunks": [
+      "dimet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hhw_azaji2",
+    "am": "አከራይ አለ።",
+    "tr": "akeray ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hhw_azaji2"
+    ],
+    "t": {
+      "de": "der Vermieter ist vorhanden.",
+      "en": "There is landlord.",
+      "sv": "Det finns hyresvärd.",
+      "nl": "Er is verhuurder."
+    },
+    "alt": {},
+    "chunks": [
+      "akeray",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hs2_igirikuadere",
+    "am": "እግር ኳስ አለ።",
+    "tr": "igir kuadere ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hs2_igirikuadere"
+    ],
+    "t": {
+      "de": "der Fußball ist vorhanden.",
+      "en": "There is football, soccer.",
+      "sv": "Det finns fotboll.",
+      "nl": "Er is voetbal."
+    },
+    "alt": {},
+    "chunks": [
+      "igir",
+      "kuadere",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hwi_v_mermer",
+    "am": "መመርመር እፈልጋለሁ።",
+    "tr": "memermer ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hwi_v_mermer"
+    ],
+    "t": {
+      "de": "Ich möchte forschen, untersuchen.",
+      "en": "I want to research, to investigate.",
+      "sv": "Jag vill forska, undersöka.",
+      "nl": "Ik wil onderzoeken."
+    },
+    "alt": {},
+    "chunks": [
+      "memermer",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hnk_amora_zaf",
+    "am": "ወይራ አለ።",
+    "tr": "weyira ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hnk_amora_zaf"
+    ],
+    "t": {
+      "de": "der Olivenbaum (afrikanisch) ist vorhanden.",
+      "en": "There is African olive tree.",
+      "sv": "Det finns afrikanskt olivträd.",
+      "nl": "Er is Afrikaanse olijfboom."
+    },
+    "alt": {},
+    "chunks": [
+      "weyira",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hac_tara",
+    "am": "ጣራ አለ።",
+    "tr": "t'ara ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hac_tara"
+    ],
+    "t": {
+      "de": "das Dach ist vorhanden.",
+      "en": "There is roof.",
+      "sv": "Det finns tak.",
+      "nl": "Er is dak."
+    },
+    "alt": {},
+    "chunks": [
+      "t'ara",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hha_gebir",
+    "am": "ግብር አለ።",
+    "tr": "gibir ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hha_gebir"
+    ],
+    "t": {
+      "de": "die Steuer, der Zoll ist vorhanden.",
+      "en": "There is tax, customs duty.",
+      "sv": "Det finns skatt, tull.",
+      "nl": "Er is belasting, douane."
+    },
+    "alt": {},
+    "chunks": [
+      "gibir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hsc_yejoro_get",
+    "am": "የጆሮ ጌጥ አለ።",
+    "tr": "yejoro get' ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hsc_yejoro_get"
+    ],
+    "t": {
+      "de": "der Ohrring ist vorhanden.",
+      "en": "There is earring.",
+      "sv": "Det finns örhänge.",
+      "nl": "Er is oorbel."
+    },
+    "alt": {},
+    "chunks": [
+      "yejoro",
+      "get'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hpb_posta",
+    "am": "ፖስታ አለ።",
+    "tr": "posta ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hpb_posta"
+    ],
+    "t": {
+      "de": "der Umschlag, die Post ist vorhanden.",
+      "en": "There is envelope, mail.",
+      "sv": "Det finns kuvert, post.",
+      "nl": "Er is envelop, post."
+    },
+    "alt": {},
+    "chunks": [
+      "posta",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hae_fetan2",
+    "am": "እሱ ፈጣን ነው።",
+    "tr": "issu fetan new.",
+    "level": "B2",
+    "uses": [
+      "lex_hae_fetan2"
+    ],
+    "t": {
+      "de": "Er ist schnell.",
+      "en": "He is fast.",
+      "sv": "Han är snabb.",
+      "nl": "Hij is snel."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "fetan",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hva_mewised",
+    "am": "መውሰድ እፈልጋለሁ።",
+    "tr": "mewised ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hva_mewised"
+    ],
+    "t": {
+      "de": "Ich möchte nehmen.",
+      "en": "I want to take.",
+      "sv": "Jag vill ta.",
+      "nl": "Ik wil nemen."
+    },
+    "alt": {},
+    "chunks": [
+      "mewised",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hfs_mezinagna",
+    "am": "መዝናኛ አለ።",
+    "tr": "mezinagna ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hfs_mezinagna"
+    ],
+    "t": {
+      "de": "die Unterhaltung, Freizeit ist vorhanden.",
+      "en": "There is entertainment, recreation.",
+      "sv": "Det finns underhållning.",
+      "nl": "Er is vermaak."
+    },
+    "alt": {},
+    "chunks": [
+      "mezinagna",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hns_menoriya2",
+    "am": "መኖሪያ አለ።",
+    "tr": "menoriya ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hns_menoriya2"
+    ],
+    "t": {
+      "de": "der Lebensraum ist vorhanden.",
+      "en": "There is habitat.",
+      "sv": "Det finns habitat.",
+      "nl": "Er is habitat."
+    },
+    "alt": {},
+    "chunks": [
+      "menoriya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hka_metasebiya2",
+    "am": "መታሰቢያ አለ።",
+    "tr": "metasebiya ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hka_metasebiya2"
+    ],
+    "t": {
+      "de": "das Denkmal ist vorhanden.",
+      "en": "There is monument, memorial.",
+      "sv": "Det finns monument.",
+      "nl": "Er is monument."
+    },
+    "alt": {},
+    "chunks": [
+      "metasebiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hke_tegisats",
+    "am": "ተግሳጽ አለ።",
+    "tr": "tegisats' ale.",
+    "level": "B2",
+    "uses": [
+      "lex_hke_tegisats"
+    ],
+    "t": {
+      "de": "die Disziplin, Ermahnung ist vorhanden.",
+      "en": "There is discipline, reprimand.",
+      "sv": "Det finns disciplin.",
+      "nl": "Er is discipline."
+    },
+    "alt": {},
+    "chunks": [
+      "tegisats'",
+      "ale."
+    ],
+    "verified": false
+  }
+]

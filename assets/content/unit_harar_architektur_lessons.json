@@ -1,8 +1,230 @@
 [
-  {"id":"unit_harar_architektur_intro","kind":"intro","lexemeIds":["lex_hac_dejaf","lex_hac_mesikot2","lex_hac_gidigida","lex_hac_tara","lex_hac_amid","lex_hac_medeb","lex_hac_berenda","lex_hac_kornis","lex_hac_inichet_sira","lex_hac_dereja","lex_hac_tebab_menged","lex_hac_kifef","lex_hac_mekerkeriya","lex_hac_tub","lex_hac_dinigay_ginib","lex_hac_tariya_shifan","lex_hac_v_masiget","lex_hac_tinitawi_bet","lex_hac_maizen","lex_hac_kelem_gidigida","lex_hac_dej","lex_hac_meseret2","lex_hac_adj_sefi"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_architektur_words","kind":"wordPractice","lexemeIds":["lex_hac_dejaf","lex_hac_mesikot2","lex_hac_gidigida","lex_hac_tara","lex_hac_amid","lex_hac_medeb","lex_hac_berenda","lex_hac_kornis","lex_hac_inichet_sira","lex_hac_dereja","lex_hac_tebab_menged","lex_hac_kifef","lex_hac_mekerkeriya","lex_hac_tub","lex_hac_dinigay_ginib","lex_hac_tariya_shifan","lex_hac_v_masiget","lex_hac_tinitawi_bet","lex_hac_maizen","lex_hac_kelem_gidigida","lex_hac_dej","lex_hac_meseret2","lex_hac_adj_sefi"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_architektur_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hac_dejaf","lex_hac_mesikot2","lex_hac_gidigida","lex_hac_tara","lex_hac_amid","lex_hac_medeb","lex_hac_berenda","lex_hac_kornis","lex_hac_inichet_sira","lex_hac_dereja","lex_hac_tebab_menged","lex_hac_kifef","lex_hac_mekerkeriya","lex_hac_tub","lex_hac_dinigay_ginib","lex_hac_tariya_shifan","lex_hac_v_masiget","lex_hac_tinitawi_bet","lex_hac_maizen","lex_hac_kelem_gidigida","lex_hac_dej","lex_hac_meseret2","lex_hac_adj_sefi"],"sentenceIds":["sen_hac_dejaf_mesikot","sen_hac_gidigida_inichet","sen_hac_medeb_berenda","sen_hac_tub_dereja"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_architektur_listening","kind":"listening","lexemeIds":["lex_hac_dejaf","lex_hac_mesikot2","lex_hac_gidigida","lex_hac_tara","lex_hac_amid","lex_hac_medeb","lex_hac_berenda","lex_hac_kornis","lex_hac_inichet_sira","lex_hac_dereja","lex_hac_tebab_menged","lex_hac_kifef","lex_hac_mekerkeriya","lex_hac_tub","lex_hac_dinigay_ginib","lex_hac_tariya_shifan","lex_hac_v_masiget","lex_hac_tinitawi_bet","lex_hac_maizen","lex_hac_kelem_gidigida","lex_hac_dej","lex_hac_meseret2","lex_hac_adj_sefi"],"sentenceIds":["sen_hac_dejaf_mesikot","sen_hac_gidigida_inichet","sen_hac_medeb_berenda","sen_hac_tub_dereja"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_architektur_free","kind":"freeApplication","lexemeIds":["lex_hac_dejaf","lex_hac_mesikot2","lex_hac_gidigida","lex_hac_tara","lex_hac_amid","lex_hac_medeb","lex_hac_berenda","lex_hac_kornis","lex_hac_inichet_sira","lex_hac_dereja","lex_hac_tebab_menged","lex_hac_kifef","lex_hac_mekerkeriya","lex_hac_tub","lex_hac_dinigay_ginib","lex_hac_tariya_shifan","lex_hac_v_masiget","lex_hac_tinitawi_bet","lex_hac_maizen","lex_hac_kelem_gidigida","lex_hac_dej","lex_hac_meseret2","lex_hac_adj_sefi"],"sentenceIds":["sen_hac_dejaf_mesikot","sen_hac_gidigida_inichet","sen_hac_medeb_berenda","sen_hac_tub_dereja"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_architektur_review","kind":"review","lexemeIds":["lex_hac_dejaf","lex_hac_mesikot2","lex_hac_gidigida","lex_hac_tara","lex_hac_amid","lex_hac_medeb","lex_hac_berenda","lex_hac_kornis","lex_hac_inichet_sira","lex_hac_dereja","lex_hac_tebab_menged","lex_hac_kifef","lex_hac_mekerkeriya","lex_hac_tub","lex_hac_dinigay_ginib","lex_hac_tariya_shifan","lex_hac_v_masiget","lex_hac_tinitawi_bet","lex_hac_maizen","lex_hac_kelem_gidigida","lex_hac_dej","lex_hac_meseret2","lex_hac_adj_sefi"],"sentenceIds":["sen_hac_dejaf_mesikot","sen_hac_gidigida_inichet","sen_hac_medeb_berenda","sen_hac_tub_dereja"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_architektur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2",
+      "lex_hac_gidigida",
+      "lex_hac_tara",
+      "lex_hac_amid",
+      "lex_hac_medeb",
+      "lex_hac_berenda",
+      "lex_hac_kornis",
+      "lex_hac_inichet_sira",
+      "lex_hac_dereja",
+      "lex_hac_tebab_menged",
+      "lex_hac_kifef",
+      "lex_hac_mekerkeriya",
+      "lex_hac_tub",
+      "lex_hac_dinigay_ginib",
+      "lex_hac_tariya_shifan",
+      "lex_hac_v_masiget",
+      "lex_hac_tinitawi_bet",
+      "lex_hac_maizen",
+      "lex_hac_kelem_gidigida",
+      "lex_hac_dej",
+      "lex_hac_meseret2",
+      "lex_hac_adj_sefi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_architektur_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2",
+      "lex_hac_gidigida",
+      "lex_hac_tara",
+      "lex_hac_amid",
+      "lex_hac_medeb",
+      "lex_hac_berenda",
+      "lex_hac_kornis",
+      "lex_hac_inichet_sira",
+      "lex_hac_dereja",
+      "lex_hac_tebab_menged",
+      "lex_hac_kifef",
+      "lex_hac_mekerkeriya",
+      "lex_hac_tub",
+      "lex_hac_dinigay_ginib",
+      "lex_hac_tariya_shifan",
+      "lex_hac_v_masiget",
+      "lex_hac_tinitawi_bet",
+      "lex_hac_maizen",
+      "lex_hac_kelem_gidigida",
+      "lex_hac_dej",
+      "lex_hac_meseret2",
+      "lex_hac_adj_sefi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_architektur_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2",
+      "lex_hac_gidigida",
+      "lex_hac_tara",
+      "lex_hac_amid",
+      "lex_hac_medeb",
+      "lex_hac_berenda",
+      "lex_hac_kornis",
+      "lex_hac_inichet_sira",
+      "lex_hac_dereja",
+      "lex_hac_tebab_menged",
+      "lex_hac_kifef",
+      "lex_hac_mekerkeriya",
+      "lex_hac_tub",
+      "lex_hac_dinigay_ginib",
+      "lex_hac_tariya_shifan",
+      "lex_hac_v_masiget",
+      "lex_hac_tinitawi_bet",
+      "lex_hac_maizen",
+      "lex_hac_kelem_gidigida",
+      "lex_hac_dej",
+      "lex_hac_meseret2",
+      "lex_hac_adj_sefi"
+    ],
+    "sentenceIds": [
+      "sen_hac_dejaf_mesikot",
+      "sen_hac_gidigida_inichet",
+      "sen_hac_medeb_berenda",
+      "sen_hac_tub_dereja",
+      "sen_gen_hac_tara"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_architektur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2",
+      "lex_hac_gidigida",
+      "lex_hac_tara",
+      "lex_hac_amid",
+      "lex_hac_medeb",
+      "lex_hac_berenda",
+      "lex_hac_kornis",
+      "lex_hac_inichet_sira",
+      "lex_hac_dereja",
+      "lex_hac_tebab_menged",
+      "lex_hac_kifef",
+      "lex_hac_mekerkeriya",
+      "lex_hac_tub",
+      "lex_hac_dinigay_ginib",
+      "lex_hac_tariya_shifan",
+      "lex_hac_v_masiget",
+      "lex_hac_tinitawi_bet",
+      "lex_hac_maizen",
+      "lex_hac_kelem_gidigida",
+      "lex_hac_dej",
+      "lex_hac_meseret2",
+      "lex_hac_adj_sefi"
+    ],
+    "sentenceIds": [
+      "sen_hac_dejaf_mesikot",
+      "sen_hac_gidigida_inichet",
+      "sen_hac_medeb_berenda",
+      "sen_hac_tub_dereja",
+      "sen_gen_hac_tara"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_architektur_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2",
+      "lex_hac_gidigida",
+      "lex_hac_tara",
+      "lex_hac_amid",
+      "lex_hac_medeb",
+      "lex_hac_berenda",
+      "lex_hac_kornis",
+      "lex_hac_inichet_sira",
+      "lex_hac_dereja",
+      "lex_hac_tebab_menged",
+      "lex_hac_kifef",
+      "lex_hac_mekerkeriya",
+      "lex_hac_tub",
+      "lex_hac_dinigay_ginib",
+      "lex_hac_tariya_shifan",
+      "lex_hac_v_masiget",
+      "lex_hac_tinitawi_bet",
+      "lex_hac_maizen",
+      "lex_hac_kelem_gidigida",
+      "lex_hac_dej",
+      "lex_hac_meseret2",
+      "lex_hac_adj_sefi"
+    ],
+    "sentenceIds": [
+      "sen_hac_dejaf_mesikot",
+      "sen_hac_gidigida_inichet",
+      "sen_hac_medeb_berenda",
+      "sen_hac_tub_dereja",
+      "sen_gen_hac_tara"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_architektur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2",
+      "lex_hac_gidigida",
+      "lex_hac_tara",
+      "lex_hac_amid",
+      "lex_hac_medeb",
+      "lex_hac_berenda",
+      "lex_hac_kornis",
+      "lex_hac_inichet_sira",
+      "lex_hac_dereja",
+      "lex_hac_tebab_menged",
+      "lex_hac_kifef",
+      "lex_hac_mekerkeriya",
+      "lex_hac_tub",
+      "lex_hac_dinigay_ginib",
+      "lex_hac_tariya_shifan",
+      "lex_hac_v_masiget",
+      "lex_hac_tinitawi_bet",
+      "lex_hac_maizen",
+      "lex_hac_kelem_gidigida",
+      "lex_hac_dej",
+      "lex_hac_meseret2",
+      "lex_hac_adj_sefi"
+    ],
+    "sentenceIds": [
+      "sen_hac_dejaf_mesikot",
+      "sen_hac_gidigida_inichet",
+      "sen_hac_medeb_berenda",
+      "sen_hac_tub_dereja",
+      "sen_gen_hac_tara"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

@@ -184,7 +184,11 @@
       "lex_ti_kesa"
     ],
     "sentenceIds": [
-      "sen_ti_essen_gerichte_1"
+      "sen_ti_essen_gerichte_1",
+      "sen_gen_injera",
+      "sen_gen_ficn",
+      "sen_gen_hxavi",
+      "sen_gen_bnbn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -250,7 +254,11 @@
       "lex_ti_kesa"
     ],
     "sentenceIds": [
-      "sen_ti_essen_gerichte_1"
+      "sen_ti_essen_gerichte_1",
+      "sen_gen_injera",
+      "sen_gen_ficn",
+      "sen_gen_hxavi",
+      "sen_gen_bnbn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -316,7 +324,11 @@
       "lex_ti_kesa"
     ],
     "sentenceIds": [
-      "sen_ti_essen_gerichte_1"
+      "sen_ti_essen_gerichte_1",
+      "sen_gen_injera",
+      "sen_gen_ficn",
+      "sen_gen_hxavi",
+      "sen_gen_bnbn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -382,7 +394,11 @@
       "lex_ti_kesa"
     ],
     "sentenceIds": [
-      "sen_ti_essen_gerichte_1"
+      "sen_ti_essen_gerichte_1",
+      "sen_gen_injera",
+      "sen_gen_ficn",
+      "sen_gen_hxavi",
+      "sen_gen_bnbn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

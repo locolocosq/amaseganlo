@@ -52,7 +52,11 @@
       "lex_ti_zst2_alone2"
     ],
     "sentenceIds": [
-      "sen_ti_hoeflichkeit_zustaende_1"
+      "sen_ti_hoeflichkeit_zustaende_1",
+      "sen_gen_hfl_resp",
+      "sen_gen_hfl_rude",
+      "sen_gen_hfl_intrp",
+      "sen_gen_zst2_busy2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_zst2_alone2"
     ],
     "sentenceIds": [
-      "sen_ti_hoeflichkeit_zustaende_1"
+      "sen_ti_hoeflichkeit_zustaende_1",
+      "sen_gen_hfl_resp",
+      "sen_gen_hfl_rude",
+      "sen_gen_hfl_intrp",
+      "sen_gen_zst2_busy2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_zst2_alone2"
     ],
     "sentenceIds": [
-      "sen_ti_hoeflichkeit_zustaende_1"
+      "sen_ti_hoeflichkeit_zustaende_1",
+      "sen_gen_hfl_resp",
+      "sen_gen_hfl_rude",
+      "sen_gen_hfl_intrp",
+      "sen_gen_zst2_busy2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_zst2_alone2"
     ],
     "sentenceIds": [
-      "sen_ti_hoeflichkeit_zustaende_1"
+      "sen_ti_hoeflichkeit_zustaende_1",
+      "sen_gen_hfl_resp",
+      "sen_gen_hfl_rude",
+      "sen_gen_hfl_intrp",
+      "sen_gen_zst2_busy2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

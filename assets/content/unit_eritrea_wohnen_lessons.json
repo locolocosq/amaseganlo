@@ -49,7 +49,11 @@
       "lex_ti_hzti2"
     ],
     "sentenceIds": [
-      "sen_ti_wohnen_1"
+      "sen_ti_wohnen_1",
+      "sen_gen_bealgz",
+      "sen_gen_kraygz",
+      "sen_gen_hntsa",
+      "sen_gen_apartment"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_hzti2"
     ],
     "sentenceIds": [
-      "sen_ti_wohnen_1"
+      "sen_ti_wohnen_1",
+      "sen_gen_bealgz",
+      "sen_gen_kraygz",
+      "sen_gen_hntsa",
+      "sen_gen_apartment"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_hzti2"
     ],
     "sentenceIds": [
-      "sen_ti_wohnen_1"
+      "sen_ti_wohnen_1",
+      "sen_gen_bealgz",
+      "sen_gen_kraygz",
+      "sen_gen_hntsa",
+      "sen_gen_apartment"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_hzti2"
     ],
     "sentenceIds": [
-      "sen_ti_wohnen_1"
+      "sen_ti_wohnen_1",
+      "sen_gen_bealgz",
+      "sen_gen_kraygz",
+      "sen_gen_hntsa",
+      "sen_gen_apartment"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

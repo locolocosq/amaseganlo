@@ -118,7 +118,11 @@
       "lex_ti_beziH"
     ],
     "sentenceIds": [
-      "sen_ti_zahlen_mehr_1"
+      "sen_ti_zahlen_mehr_1",
+      "sen_gen_zahl_12",
+      "sen_gen_zahl_13",
+      "sen_gen_zahl_14",
+      "sen_gen_zahl_15"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -162,7 +166,11 @@
       "lex_ti_beziH"
     ],
     "sentenceIds": [
-      "sen_ti_zahlen_mehr_1"
+      "sen_ti_zahlen_mehr_1",
+      "sen_gen_zahl_12",
+      "sen_gen_zahl_13",
+      "sen_gen_zahl_14",
+      "sen_gen_zahl_15"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -206,7 +214,11 @@
       "lex_ti_beziH"
     ],
     "sentenceIds": [
-      "sen_ti_zahlen_mehr_1"
+      "sen_ti_zahlen_mehr_1",
+      "sen_gen_zahl_12",
+      "sen_gen_zahl_13",
+      "sen_gen_zahl_14",
+      "sen_gen_zahl_15"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -250,7 +262,11 @@
       "lex_ti_beziH"
     ],
     "sentenceIds": [
-      "sen_ti_zahlen_mehr_1"
+      "sen_ti_zahlen_mehr_1",
+      "sen_gen_zahl_12",
+      "sen_gen_zahl_13",
+      "sen_gen_zahl_14",
+      "sen_gen_zahl_15"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

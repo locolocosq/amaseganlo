@@ -55,7 +55,11 @@
       "lex_ti_vrp_seal"
     ],
     "sentenceIds": [
-      "sen_ti_sicherheit_verpackung_1"
+      "sen_ti_sicherheit_verpackung_1",
+      "sen_gen_sch_cam",
+      "sen_gen_sch_lock2",
+      "sen_gen_sch_grd",
+      "sen_gen_sch_safe2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_vrp_seal"
     ],
     "sentenceIds": [
-      "sen_ti_sicherheit_verpackung_1"
+      "sen_ti_sicherheit_verpackung_1",
+      "sen_gen_sch_cam",
+      "sen_gen_sch_lock2",
+      "sen_gen_sch_grd",
+      "sen_gen_sch_safe2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_vrp_seal"
     ],
     "sentenceIds": [
-      "sen_ti_sicherheit_verpackung_1"
+      "sen_ti_sicherheit_verpackung_1",
+      "sen_gen_sch_cam",
+      "sen_gen_sch_lock2",
+      "sen_gen_sch_grd",
+      "sen_gen_sch_safe2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_vrp_seal"
     ],
     "sentenceIds": [
-      "sen_ti_sicherheit_verpackung_1"
+      "sen_ti_sicherheit_verpackung_1",
+      "sen_gen_sch_cam",
+      "sen_gen_sch_lock2",
+      "sen_gen_sch_grd",
+      "sen_gen_sch_safe2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -69,7 +69,13 @@
       "lex_sieg",
       "lex_veraenderung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_idee",
+      "sen_gen_problem",
+      "sen_gen_loesung",
+      "sen_gen_grund",
+      "sen_gen_beispiel"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -95,7 +101,13 @@
       "lex_sieg",
       "lex_veraenderung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_idee",
+      "sen_gen_problem",
+      "sen_gen_loesung",
+      "sen_gen_grund",
+      "sen_gen_beispiel"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -121,7 +133,13 @@
       "lex_sieg",
       "lex_veraenderung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_idee",
+      "sen_gen_problem",
+      "sen_gen_loesung",
+      "sen_gen_grund",
+      "sen_gen_beispiel"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -147,7 +165,13 @@
       "lex_sieg",
       "lex_veraenderung"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_idee",
+      "sen_gen_problem",
+      "sen_gen_loesung",
+      "sen_gen_grund",
+      "sen_gen_beispiel"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

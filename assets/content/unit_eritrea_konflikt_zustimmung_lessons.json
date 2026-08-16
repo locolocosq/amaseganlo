@@ -52,7 +52,11 @@
       "lex_ti_zst_prhps"
     ],
     "sentenceIds": [
-      "sen_ti_konflikt_zustimmung_1"
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_gen_knf_reconcl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_zst_prhps"
     ],
     "sentenceIds": [
-      "sen_ti_konflikt_zustimmung_1"
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_gen_knf_reconcl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_zst_prhps"
     ],
     "sentenceIds": [
-      "sen_ti_konflikt_zustimmung_1"
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_gen_knf_reconcl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_zst_prhps"
     ],
     "sentenceIds": [
-      "sen_ti_konflikt_zustimmung_1"
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_gen_knf_reconcl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

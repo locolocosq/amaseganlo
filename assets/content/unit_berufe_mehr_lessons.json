@@ -45,7 +45,13 @@
       "lex_journalist",
       "lex_fotograf"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_gen_sekretaer"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_journalist",
       "lex_fotograf"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_gen_sekretaer"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_journalist",
       "lex_fotograf"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_gen_sekretaer"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_journalist",
       "lex_fotograf"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_gen_sekretaer"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

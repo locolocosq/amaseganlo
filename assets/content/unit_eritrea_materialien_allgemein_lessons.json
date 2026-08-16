@@ -94,7 +94,11 @@
       "lex_ti_bkm"
     ],
     "sentenceIds": [
-      "sen_ti_materialien_allgemein_1"
+      "sen_ti_materialien_allgemein_1",
+      "sen_gen_suf2",
+      "sen_gen_geldi2",
+      "sen_gen_bret2",
+      "sen_gen_plastik_2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -130,7 +134,11 @@
       "lex_ti_bkm"
     ],
     "sentenceIds": [
-      "sen_ti_materialien_allgemein_1"
+      "sen_ti_materialien_allgemein_1",
+      "sen_gen_suf2",
+      "sen_gen_geldi2",
+      "sen_gen_bret2",
+      "sen_gen_plastik_2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -166,7 +174,11 @@
       "lex_ti_bkm"
     ],
     "sentenceIds": [
-      "sen_ti_materialien_allgemein_1"
+      "sen_ti_materialien_allgemein_1",
+      "sen_gen_suf2",
+      "sen_gen_geldi2",
+      "sen_gen_bret2",
+      "sen_gen_plastik_2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -202,7 +214,11 @@
       "lex_ti_bkm"
     ],
     "sentenceIds": [
-      "sen_ti_materialien_allgemein_1"
+      "sen_ti_materialien_allgemein_1",
+      "sen_gen_suf2",
+      "sen_gen_geldi2",
+      "sen_gen_bret2",
+      "sen_gen_plastik_2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

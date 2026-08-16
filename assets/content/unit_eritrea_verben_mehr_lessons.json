@@ -127,7 +127,11 @@
       "lex_ti_gebri2"
     ],
     "sentenceIds": [
-      "sen_ti_verben_mehr_1"
+      "sen_ti_verben_mehr_1",
+      "sen_gen_kfli2",
+      "sen_gen_hwsi",
+      "sen_gen_tsri",
+      "sen_gen_zbti"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -174,7 +178,11 @@
       "lex_ti_gebri2"
     ],
     "sentenceIds": [
-      "sen_ti_verben_mehr_1"
+      "sen_ti_verben_mehr_1",
+      "sen_gen_kfli2",
+      "sen_gen_hwsi",
+      "sen_gen_tsri",
+      "sen_gen_zbti"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -221,7 +229,11 @@
       "lex_ti_gebri2"
     ],
     "sentenceIds": [
-      "sen_ti_verben_mehr_1"
+      "sen_ti_verben_mehr_1",
+      "sen_gen_kfli2",
+      "sen_gen_hwsi",
+      "sen_gen_tsri",
+      "sen_gen_zbti"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -268,7 +280,11 @@
       "lex_ti_gebri2"
     ],
     "sentenceIds": [
-      "sen_ti_verben_mehr_1"
+      "sen_ti_verben_mehr_1",
+      "sen_gen_kfli2",
+      "sen_gen_hwsi",
+      "sen_gen_tsri",
+      "sen_gen_zbti"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -45,7 +45,13 @@
       "lex_deshalb",
       "lex_ausser_wenn"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_deshalb",
       "lex_ausser_wenn"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_deshalb",
       "lex_ausser_wenn"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_deshalb",
       "lex_ausser_wenn"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

@@ -67,7 +67,11 @@
       "lex_ti_hamli2"
     ],
     "sentenceIds": [
-      "sen_ti_mode_pflanzen_1"
+      "sen_ti_mode_pflanzen_1",
+      "sen_gen_stayl",
+      "sen_gen_msfi",
+      "sen_gen_frti",
+      "sen_gen_tsbabi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_hamli2"
     ],
     "sentenceIds": [
-      "sen_ti_mode_pflanzen_1"
+      "sen_ti_mode_pflanzen_1",
+      "sen_gen_stayl",
+      "sen_gen_msfi",
+      "sen_gen_frti",
+      "sen_gen_tsbabi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_hamli2"
     ],
     "sentenceIds": [
-      "sen_ti_mode_pflanzen_1"
+      "sen_ti_mode_pflanzen_1",
+      "sen_gen_stayl",
+      "sen_gen_msfi",
+      "sen_gen_frti",
+      "sen_gen_tsbabi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_hamli2"
     ],
     "sentenceIds": [
-      "sen_ti_mode_pflanzen_1"
+      "sen_ti_mode_pflanzen_1",
+      "sen_gen_stayl",
+      "sen_gen_msfi",
+      "sen_gen_frti",
+      "sen_gen_tsbabi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

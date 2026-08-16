@@ -1,8 +1,152 @@
 [
-  {"id":"unit_harar_naturschutz_intro","kind":"intro","lexemeIds":["lex_hns_tebeka_bota","lex_hns_v_metebaki","lex_hns_menoriya2","lex_hns_akababi5","lex_hns_adj_birik","lex_hns_park2","lex_hns_yeduri_inisisat","lex_hns_v_madineg","lex_hns_adj_akababawi","lex_hns_tibeka"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_naturschutz_words","kind":"wordPractice","lexemeIds":["lex_hns_tebeka_bota","lex_hns_v_metebaki","lex_hns_menoriya2","lex_hns_akababi5","lex_hns_adj_birik","lex_hns_park2","lex_hns_yeduri_inisisat","lex_hns_v_madineg","lex_hns_adj_akababawi","lex_hns_tibeka"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_naturschutz_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hns_tebeka_bota","lex_hns_v_metebaki","lex_hns_menoriya2","lex_hns_akababi5","lex_hns_adj_birik","lex_hns_park2","lex_hns_yeduri_inisisat","lex_hns_v_madineg","lex_hns_adj_akababawi","lex_hns_tibeka"],"sentenceIds":["sen_hns_tebeka_yeduri","sen_hns_park_akababi","sen_hns_birik_madineg","sen_hns_akababawi_tibeka"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_naturschutz_listening","kind":"listening","lexemeIds":["lex_hns_tebeka_bota","lex_hns_v_metebaki","lex_hns_menoriya2","lex_hns_akababi5","lex_hns_adj_birik","lex_hns_park2","lex_hns_yeduri_inisisat","lex_hns_v_madineg","lex_hns_adj_akababawi","lex_hns_tibeka"],"sentenceIds":["sen_hns_tebeka_yeduri","sen_hns_park_akababi","sen_hns_birik_madineg","sen_hns_akababawi_tibeka"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_naturschutz_free","kind":"freeApplication","lexemeIds":["lex_hns_tebeka_bota","lex_hns_v_metebaki","lex_hns_menoriya2","lex_hns_akababi5","lex_hns_adj_birik","lex_hns_park2","lex_hns_yeduri_inisisat","lex_hns_v_madineg","lex_hns_adj_akababawi","lex_hns_tibeka"],"sentenceIds":["sen_hns_tebeka_yeduri","sen_hns_park_akababi","sen_hns_birik_madineg","sen_hns_akababawi_tibeka"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_naturschutz_review","kind":"review","lexemeIds":["lex_hns_tebeka_bota","lex_hns_v_metebaki","lex_hns_menoriya2","lex_hns_akababi5","lex_hns_adj_birik","lex_hns_park2","lex_hns_yeduri_inisisat","lex_hns_v_madineg","lex_hns_adj_akababawi","lex_hns_tibeka"],"sentenceIds":["sen_hns_tebeka_yeduri","sen_hns_park_akababi","sen_hns_birik_madineg","sen_hns_akababawi_tibeka"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_naturschutz_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_v_metebaki",
+      "lex_hns_menoriya2",
+      "lex_hns_akababi5",
+      "lex_hns_adj_birik",
+      "lex_hns_park2",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_madineg",
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_naturschutz_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_v_metebaki",
+      "lex_hns_menoriya2",
+      "lex_hns_akababi5",
+      "lex_hns_adj_birik",
+      "lex_hns_park2",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_madineg",
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_naturschutz_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_v_metebaki",
+      "lex_hns_menoriya2",
+      "lex_hns_akababi5",
+      "lex_hns_adj_birik",
+      "lex_hns_park2",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_madineg",
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "sentenceIds": [
+      "sen_hns_tebeka_yeduri",
+      "sen_hns_park_akababi",
+      "sen_hns_birik_madineg",
+      "sen_hns_akababawi_tibeka",
+      "sen_gen_hns_menoriya2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_naturschutz_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_v_metebaki",
+      "lex_hns_menoriya2",
+      "lex_hns_akababi5",
+      "lex_hns_adj_birik",
+      "lex_hns_park2",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_madineg",
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "sentenceIds": [
+      "sen_hns_tebeka_yeduri",
+      "sen_hns_park_akababi",
+      "sen_hns_birik_madineg",
+      "sen_hns_akababawi_tibeka",
+      "sen_gen_hns_menoriya2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_naturschutz_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_v_metebaki",
+      "lex_hns_menoriya2",
+      "lex_hns_akababi5",
+      "lex_hns_adj_birik",
+      "lex_hns_park2",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_madineg",
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "sentenceIds": [
+      "sen_hns_tebeka_yeduri",
+      "sen_hns_park_akababi",
+      "sen_hns_birik_madineg",
+      "sen_hns_akababawi_tibeka",
+      "sen_gen_hns_menoriya2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_naturschutz_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_v_metebaki",
+      "lex_hns_menoriya2",
+      "lex_hns_akababi5",
+      "lex_hns_adj_birik",
+      "lex_hns_park2",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_madineg",
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "sentenceIds": [
+      "sen_hns_tebeka_yeduri",
+      "sen_hns_park_akababi",
+      "sen_hns_birik_madineg",
+      "sen_hns_akababawi_tibeka",
+      "sen_gen_hns_menoriya2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

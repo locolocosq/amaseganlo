@@ -85,7 +85,11 @@
       "lex_ti_mdn_pblc"
     ],
     "sentenceIds": [
-      "sen_ti_umwelt_medien_1"
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -118,7 +122,11 @@
       "lex_ti_mdn_pblc"
     ],
     "sentenceIds": [
-      "sen_ti_umwelt_medien_1"
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -151,7 +159,11 @@
       "lex_ti_mdn_pblc"
     ],
     "sentenceIds": [
-      "sen_ti_umwelt_medien_1"
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -184,7 +196,11 @@
       "lex_ti_mdn_pblc"
     ],
     "sentenceIds": [
-      "sen_ti_umwelt_medien_1"
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

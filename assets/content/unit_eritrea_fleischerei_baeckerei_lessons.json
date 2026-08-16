@@ -43,7 +43,11 @@
       "lex_ti_bkr_oven2"
     ],
     "sentenceIds": [
-      "sen_ti_fleischerei_baeckerei_1"
+      "sen_ti_fleischerei_baeckerei_1",
+      "sen_gen_flx_ssge",
+      "sen_gen_flx_slghtr",
+      "sen_gen_bkr_bkr2",
+      "sen_gen_bkr_roll"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -62,7 +66,11 @@
       "lex_ti_bkr_oven2"
     ],
     "sentenceIds": [
-      "sen_ti_fleischerei_baeckerei_1"
+      "sen_ti_fleischerei_baeckerei_1",
+      "sen_gen_flx_ssge",
+      "sen_gen_flx_slghtr",
+      "sen_gen_bkr_bkr2",
+      "sen_gen_bkr_roll"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -81,7 +89,11 @@
       "lex_ti_bkr_oven2"
     ],
     "sentenceIds": [
-      "sen_ti_fleischerei_baeckerei_1"
+      "sen_ti_fleischerei_baeckerei_1",
+      "sen_gen_flx_ssge",
+      "sen_gen_flx_slghtr",
+      "sen_gen_bkr_bkr2",
+      "sen_gen_bkr_roll"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -100,7 +112,11 @@
       "lex_ti_bkr_oven2"
     ],
     "sentenceIds": [
-      "sen_ti_fleischerei_baeckerei_1"
+      "sen_ti_fleischerei_baeckerei_1",
+      "sen_gen_flx_ssge",
+      "sen_gen_flx_slghtr",
+      "sen_gen_bkr_bkr2",
+      "sen_gen_bkr_roll"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

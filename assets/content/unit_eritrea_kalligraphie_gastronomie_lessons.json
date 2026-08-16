@@ -55,7 +55,11 @@
       "lex_ti_gsn_tip"
     ],
     "sentenceIds": [
-      "sen_ti_kalligraphie_gastronomie_1"
+      "sen_ti_kalligraphie_gastronomie_1",
+      "sen_gen_klg_ink",
+      "sen_gen_klg_script",
+      "sen_gen_klg_letr",
+      "sen_gen_gsn_wtr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_gsn_tip"
     ],
     "sentenceIds": [
-      "sen_ti_kalligraphie_gastronomie_1"
+      "sen_ti_kalligraphie_gastronomie_1",
+      "sen_gen_klg_ink",
+      "sen_gen_klg_script",
+      "sen_gen_klg_letr",
+      "sen_gen_gsn_wtr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_gsn_tip"
     ],
     "sentenceIds": [
-      "sen_ti_kalligraphie_gastronomie_1"
+      "sen_ti_kalligraphie_gastronomie_1",
+      "sen_gen_klg_ink",
+      "sen_gen_klg_script",
+      "sen_gen_klg_letr",
+      "sen_gen_gsn_wtr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_gsn_tip"
     ],
     "sentenceIds": [
-      "sen_ti_kalligraphie_gastronomie_1"
+      "sen_ti_kalligraphie_gastronomie_1",
+      "sen_gen_klg_ink",
+      "sen_gen_klg_script",
+      "sen_gen_klg_letr",
+      "sen_gen_gsn_wtr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -92,7 +92,10 @@
     ],
     "sentenceIds": [
       "sen_destegna_negn",
-      "sen_fikir_kilki_new"
+      "sen_fikir_kilki_new",
+      "sen_gen_traurig_phrase",
+      "sen_gen_wuetend_phrase",
+      "sen_gen_angst_phrase"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -128,7 +131,10 @@
     ],
     "sentenceIds": [
       "sen_destegna_negn",
-      "sen_fikir_kilki_new"
+      "sen_fikir_kilki_new",
+      "sen_gen_traurig_phrase",
+      "sen_gen_wuetend_phrase",
+      "sen_gen_angst_phrase"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -164,7 +170,10 @@
     ],
     "sentenceIds": [
       "sen_destegna_negn",
-      "sen_fikir_kilki_new"
+      "sen_fikir_kilki_new",
+      "sen_gen_traurig_phrase",
+      "sen_gen_wuetend_phrase",
+      "sen_gen_angst_phrase"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -200,7 +209,10 @@
     ],
     "sentenceIds": [
       "sen_destegna_negn",
-      "sen_fikir_kilki_new"
+      "sen_fikir_kilki_new",
+      "sen_gen_traurig_phrase",
+      "sen_gen_wuetend_phrase",
+      "sen_gen_angst_phrase"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

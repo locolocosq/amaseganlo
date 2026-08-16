@@ -39,7 +39,13 @@
       "lex_sonnenbrille",
       "lex_regenschirm"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_stiefel",
+      "sen_gen_schmuck",
+      "sen_gen_handschuhe",
+      "sen_gen_sonnenbrille",
+      "sen_gen_regenschirm"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_sonnenbrille",
       "lex_regenschirm"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_stiefel",
+      "sen_gen_schmuck",
+      "sen_gen_handschuhe",
+      "sen_gen_sonnenbrille",
+      "sen_gen_regenschirm"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_sonnenbrille",
       "lex_regenschirm"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_stiefel",
+      "sen_gen_schmuck",
+      "sen_gen_handschuhe",
+      "sen_gen_sonnenbrille",
+      "sen_gen_regenschirm"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_sonnenbrille",
       "lex_regenschirm"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_stiefel",
+      "sen_gen_schmuck",
+      "sen_gen_handschuhe",
+      "sen_gen_sonnenbrille",
+      "sen_gen_regenschirm"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

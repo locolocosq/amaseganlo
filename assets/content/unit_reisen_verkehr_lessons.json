@@ -82,7 +82,11 @@
       "lex_bruecke"
     ],
     "sentenceIds": [
-      "sen_awroplan_megwaz"
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -114,7 +118,11 @@
       "lex_bruecke"
     ],
     "sentenceIds": [
-      "sen_awroplan_megwaz"
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -146,7 +154,11 @@
       "lex_bruecke"
     ],
     "sentenceIds": [
-      "sen_awroplan_megwaz"
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -178,7 +190,11 @@
       "lex_bruecke"
     ],
     "sentenceIds": [
-      "sen_awroplan_megwaz"
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

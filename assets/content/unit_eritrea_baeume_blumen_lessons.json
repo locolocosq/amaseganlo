@@ -64,7 +64,11 @@
       "lex_ti_blm_bqt"
     ],
     "sentenceIds": [
-      "sen_ti_baeume_blumen_1"
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +94,11 @@
       "lex_ti_blm_bqt"
     ],
     "sentenceIds": [
-      "sen_ti_baeume_blumen_1"
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -116,7 +124,11 @@
       "lex_ti_blm_bqt"
     ],
     "sentenceIds": [
-      "sen_ti_baeume_blumen_1"
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -142,7 +154,11 @@
       "lex_ti_blm_bqt"
     ],
     "sentenceIds": [
-      "sen_ti_baeume_blumen_1"
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

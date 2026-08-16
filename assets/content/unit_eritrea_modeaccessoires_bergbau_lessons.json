@@ -55,7 +55,11 @@
       "lex_ti_brg_tunl"
     ],
     "sentenceIds": [
-      "sen_ti_modeaccessoires_bergbau_1"
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_brg_tunl"
     ],
     "sentenceIds": [
-      "sen_ti_modeaccessoires_bergbau_1"
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_brg_tunl"
     ],
     "sentenceIds": [
-      "sen_ti_modeaccessoires_bergbau_1"
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_brg_tunl"
     ],
     "sentenceIds": [
-      "sen_ti_modeaccessoires_bergbau_1"
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

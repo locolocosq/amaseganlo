@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "sen_gen_zimmer",
+    "am": "ክፍል አለ።",
+    "tr": "kifil ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zimmer"
+    ],
+    "t": {
+      "de": "das Zimmer ist vorhanden.",
+      "en": "There is room.",
+      "sv": "Det finns rum.",
+      "nl": "Er is kamer."
+    },
+    "alt": {},
+    "chunks": [
+      "kifil",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tisch",
+    "am": "ጠረጴዛ አለ።",
+    "tr": "t'eret'eza ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tisch"
+    ],
+    "t": {
+      "de": "der Tisch ist vorhanden.",
+      "en": "There is table.",
+      "sv": "Det finns bord.",
+      "nl": "Er is tafel."
+    },
+    "alt": {},
+    "chunks": [
+      "t'eret'eza",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stuhl",
+    "am": "ወንበር አለ።",
+    "tr": "wenber ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_stuhl"
+    ],
+    "t": {
+      "de": "der Stuhl ist vorhanden.",
+      "en": "There is chair.",
+      "sv": "Det finns stol.",
+      "nl": "Er is stoel."
+    },
+    "alt": {},
+    "chunks": [
+      "wenber",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tag",
+    "am": "ቀን አለ።",
+    "tr": "ken ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tag"
+    ],
+    "t": {
+      "de": "der Tag ist vorhanden.",
+      "en": "There is day.",
+      "sv": "Det finns dag.",
+      "nl": "Er is dag."
+    },
+    "alt": {},
+    "chunks": [
+      "ken",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nacht",
+    "am": "ሌሊት አለ።",
+    "tr": "lelit ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_nacht"
+    ],
+    "t": {
+      "de": "die Nacht ist vorhanden.",
+      "en": "There is night.",
+      "sv": "Det finns natt.",
+      "nl": "Er is nacht."
+    },
+    "alt": {},
+    "chunks": [
+      "lelit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_abend",
+    "am": "ማታ አለ።",
+    "tr": "mata ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_abend"
+    ],
+    "t": {
+      "de": "der Abend ist vorhanden.",
+      "en": "There is evening.",
+      "sv": "Det finns kväll.",
+      "nl": "Er is avond."
+    },
+    "alt": {},
+    "chunks": [
+      "mata",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rot",
+    "am": "እሱ ቀይ ነው።",
+    "tr": "issu keyy new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_rot"
+    ],
+    "t": {
+      "de": "Er ist rot.",
+      "en": "He is red.",
+      "sv": "Han är röd.",
+      "nl": "Hij is rood."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "keyy",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_blau",
+    "am": "እሱ ሰማያዊ ነው።",
+    "tr": "issu semayawi new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_blau"
+    ],
+    "t": {
+      "de": "Er ist blau.",
+      "en": "He is blue.",
+      "sv": "Han är blå.",
+      "nl": "Hij is blauw."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "semayawi",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gruen",
+    "am": "እሱ አረንጓዴ ነው።",
+    "tr": "issu arenguadie new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_gruen"
+    ],
+    "t": {
+      "de": "Er ist grün.",
+      "en": "He is green.",
+      "sv": "Han är grön.",
+      "nl": "Hij is groen."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "arenguadie",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_30",
+    "am": "ሰላሳ አለ።",
+    "tr": "selasa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_30"
+    ],
+    "t": {
+      "de": "30 ist vorhanden.",
+      "en": "There is 30.",
+      "sv": "Det finns 30.",
+      "nl": "Er is 30."
+    },
+    "alt": {},
+    "chunks": [
+      "selasa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_40",
+    "am": "አርባ አለ።",
+    "tr": "arba ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_40"
+    ],
+    "t": {
+      "de": "40 ist vorhanden.",
+      "en": "There is 40.",
+      "sv": "Det finns 40.",
+      "nl": "Er is 40."
+    },
+    "alt": {},
+    "chunks": [
+      "arba",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_50",
+    "am": "ሃምሳ አለ።",
+    "tr": "hamsa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_50"
+    ],
+    "t": {
+      "de": "50 ist vorhanden.",
+      "en": "There is 50.",
+      "sv": "Det finns 50.",
+      "nl": "Er is 50."
+    },
+    "alt": {},
+    "chunks": [
+      "hamsa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_60",
+    "am": "ስድሳ አለ።",
+    "tr": "sidsa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_60"
+    ],
+    "t": {
+      "de": "60 ist vorhanden.",
+      "en": "There is 60.",
+      "sv": "Det finns 60.",
+      "nl": "Er is 60."
+    },
+    "alt": {},
+    "chunks": [
+      "sidsa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_strasse",
+    "am": "መንገድ አለ።",
+    "tr": "mengad ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_strasse"
+    ],
+    "t": {
+      "de": "die Straße, der Weg ist vorhanden.",
+      "en": "There is street, road.",
+      "sv": "Det finns gata, väg.",
+      "nl": "Er is straat, weg."
+    },
+    "alt": {},
+    "chunks": [
+      "mengad",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_krankenhaus",
+    "am": "ሆስፒታል አለ።",
+    "tr": "hospital ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_krankenhaus"
+    ],
+    "t": {
+      "de": "das Krankenhaus ist vorhanden.",
+      "en": "There is hospital.",
+      "sv": "Det finns sjukhus.",
+      "nl": "Er is ziekenhuis."
+    },
+    "alt": {},
+    "chunks": [
+      "hospital",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schule",
+    "am": "ትምህርት ቤት አለ።",
+    "tr": "timhirt biet ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schule"
+    ],
+    "t": {
+      "de": "die Schule ist vorhanden.",
+      "en": "There is school.",
+      "sv": "Det finns skola.",
+      "nl": "Er is school."
+    },
+    "alt": {},
+    "chunks": [
+      "timhirt",
+      "biet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kleidung",
+    "am": "ልብስ አለ።",
+    "tr": "libs ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kleidung"
+    ],
+    "t": {
+      "de": "die Kleidung ist vorhanden.",
+      "en": "There is clothes.",
+      "sv": "Det finns kläder.",
+      "nl": "Er is kleding."
+    },
+    "alt": {},
+    "chunks": [
+      "libs",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hose",
+    "am": "ሱሪ አለ።",
+    "tr": "suri ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hose"
+    ],
+    "t": {
+      "de": "die Hose ist vorhanden.",
+      "en": "There is trousers, pants.",
+      "sv": "Det finns byxor.",
+      "nl": "Er is broek."
+    },
+    "alt": {},
+    "chunks": [
+      "suri",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schuh",
+    "am": "ጫማ አለ።",
+    "tr": "chama ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schuh"
+    ],
+    "t": {
+      "de": "der Schuh ist vorhanden.",
+      "en": "There is shoe.",
+      "sv": "Det finns sko.",
+      "nl": "Er is schoen."
+    },
+    "alt": {},
+    "chunks": [
+      "chama",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hut",
+    "am": "ካፕ አለ።",
+    "tr": "kap ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hut"
+    ],
+    "t": {
+      "de": "die Mütze, der Hut ist vorhanden.",
+      "en": "There is hat, cap.",
+      "sv": "Det finns mössa, keps.",
+      "nl": "Er is pet, hoed."
+    },
+    "alt": {},
+    "chunks": [
+      "kap",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_norden",
+    "am": "ሰሜን አለ።",
+    "tr": "semien ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_norden"
+    ],
+    "t": {
+      "de": "Norden ist vorhanden.",
+      "en": "There is north.",
+      "sv": "Det finns norr.",
+      "nl": "Er is noorden."
+    },
+    "alt": {},
+    "chunks": [
+      "semien",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sueden",
+    "am": "ደቡብ አለ።",
+    "tr": "debub ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sueden"
+    ],
+    "t": {
+      "de": "Süden ist vorhanden.",
+      "en": "There is south.",
+      "sv": "Det finns söder.",
+      "nl": "Er is zuiden."
+    },
+    "alt": {},
+    "chunks": [
+      "debub",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_osten",
+    "am": "ምስራቅ አለ።",
+    "tr": "misrak' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_osten"
+    ],
+    "t": {
+      "de": "Osten ist vorhanden.",
+      "en": "There is east.",
+      "sv": "Det finns öster.",
+      "nl": "Er is oosten."
+    },
+    "alt": {},
+    "chunks": [
+      "misrak'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_westen",
+    "am": "ምዕራብ አለ።",
+    "tr": "mi'irab ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_westen"
+    ],
+    "t": {
+      "de": "Westen ist vorhanden.",
+      "en": "There is west.",
+      "sv": "Det finns väster.",
+      "nl": "Er is westen."
+    },
+    "alt": {},
+    "chunks": [
+      "mi'irab",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tasse",
+    "am": "ኩባያ አለ።",
+    "tr": "kubaya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tasse"
+    ],
+    "t": {
+      "de": "die Tasse ist vorhanden.",
+      "en": "There is cup.",
+      "sv": "Det finns kopp.",
+      "nl": "Er is kopje."
+    },
+    "alt": {},
+    "chunks": [
+      "kubaya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_loeffel",
+    "am": "ማንኪያ አለ።",
+    "tr": "mankiya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_loeffel"
+    ],
+    "t": {
+      "de": "der Löffel ist vorhanden.",
+      "en": "There is spoon.",
+      "sv": "Det finns sked.",
+      "nl": "Er is lepel."
+    },
+    "alt": {},
+    "chunks": [
+      "mankiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gabel",
+    "am": "ፎርክ አለ።",
+    "tr": "fork ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_gabel"
+    ],
+    "t": {
+      "de": "die Gabel ist vorhanden.",
+      "en": "There is fork.",
+      "sv": "Det finns gaffel.",
+      "nl": "Er is vork."
+    },
+    "alt": {},
+    "chunks": [
+      "fork",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_messer",
+    "am": "ቢላዋ አለ።",
+    "tr": "bilawa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_messer"
+    ],
+    "t": {
+      "de": "das Messer ist vorhanden.",
+      "en": "There is knife.",
+      "sv": "Det finns kniv.",
+      "nl": "Er is mes."
+    },
+    "alt": {},
+    "chunks": [
+      "bilawa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tomate",
+    "am": "ቲማቲም አለ።",
+    "tr": "timatim ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tomate"
+    ],
+    "t": {
+      "de": "die Tomate ist vorhanden.",
+      "en": "There is tomato.",
+      "sv": "Det finns tomat.",
+      "nl": "Er is tomaat."
+    },
+    "alt": {},
+    "chunks": [
+      "timatim",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kartoffel",
+    "am": "ድንች አለ።",
+    "tr": "dinich ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kartoffel"
+    ],
+    "t": {
+      "de": "die Kartoffel ist vorhanden.",
+      "en": "There is potato.",
+      "sv": "Det finns potatis.",
+      "nl": "Er is aardappel."
+    },
+    "alt": {},
+    "chunks": [
+      "dinich",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_knoblauch",
+    "am": "ነጭ ሽንኩርት አለ።",
+    "tr": "nech shinkurt ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_knoblauch"
+    ],
+    "t": {
+      "de": "der Knoblauch ist vorhanden.",
+      "en": "There is garlic.",
+      "sv": "Det finns vitlök.",
+      "nl": "Er is knoflook."
+    },
+    "alt": {},
+    "chunks": [
+      "nech",
+      "shinkurt",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_karotte",
+    "am": "ካሮት አለ።",
+    "tr": "karot ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_karotte"
+    ],
+    "t": {
+      "de": "die Karotte ist vorhanden.",
+      "en": "There is carrot.",
+      "sv": "Det finns morot.",
+      "nl": "Er is wortel."
+    },
+    "alt": {},
+    "chunks": [
+      "karot",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_erste",
+    "am": "እሱ አንደኛ ነው።",
+    "tr": "issu andegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_erste"
+    ],
+    "t": {
+      "de": "Er ist erste(r/s).",
+      "en": "He is first.",
+      "sv": "Han är första.",
+      "nl": "Hij is eerste."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "andegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zweite",
+    "am": "እሱ ሁለተኛ ነው።",
+    "tr": "issu huletegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zweite"
+    ],
+    "t": {
+      "de": "Er ist zweite(r/s).",
+      "en": "He is second.",
+      "sv": "Han är andra.",
+      "nl": "Hij is tweede."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "huletegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dritte",
+    "am": "እሱ ሶስተኛ ነው።",
+    "tr": "issu sostegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_dritte"
+    ],
+    "t": {
+      "de": "Er ist dritte(r/s).",
+      "en": "He is third.",
+      "sv": "Han är tredje.",
+      "nl": "Hij is derde."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "sostegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vierte",
+    "am": "እሱ አራተኛ ነው።",
+    "tr": "issu arategna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_vierte"
+    ],
+    "t": {
+      "de": "Er ist vierte(r/s).",
+      "en": "He is fourth.",
+      "sv": "Han är fjärde.",
+      "nl": "Hij is vierde."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "arategna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fuenfte",
+    "am": "እሱ አምስተኛ ነው።",
+    "tr": "issu amistegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_fuenfte"
+    ],
+    "t": {
+      "de": "Er ist fünfte(r/s).",
+      "en": "He is fifth.",
+      "sv": "Han är femte.",
+      "nl": "Hij is vijfde."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "amistegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_teppich",
+    "am": "ምንጣፍ አለ።",
+    "tr": "mint'af ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_teppich"
+    ],
+    "t": {
+      "de": "der Teppich ist vorhanden.",
+      "en": "There is carpet, rug.",
+      "sv": "Det finns matta.",
+      "nl": "Er is tapijt."
+    },
+    "alt": {},
+    "chunks": [
+      "mint'af",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kissen",
+    "am": "ትራስ አለ።",
+    "tr": "tiras ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kissen"
+    ],
+    "t": {
+      "de": "das Kissen ist vorhanden.",
+      "en": "There is pillow, cushion.",
+      "sv": "Det finns kudde.",
+      "nl": "Er is kussen."
+    },
+    "alt": {},
+    "chunks": [
+      "tiras",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_decke",
+    "am": "ብርድ ልብስ አለ።",
+    "tr": "birid libs ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_decke"
+    ],
+    "t": {
+      "de": "die Decke (Bettdecke) ist vorhanden.",
+      "en": "There is blanket.",
+      "sv": "Det finns täcke.",
+      "nl": "Er is deken."
+    },
+    "alt": {},
+    "chunks": [
+      "birid",
+      "libs",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vorhang",
+    "am": "መጋረጃ አለ።",
+    "tr": "megareja ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_vorhang"
+    ],
+    "t": {
+      "de": "der Vorhang ist vorhanden.",
+      "en": "There is curtain.",
+      "sv": "Det finns gardin.",
+      "nl": "Er is gordijn."
+    },
+    "alt": {},
+    "chunks": [
+      "megareja",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wand",
+    "am": "ግድግዳ አለ።",
+    "tr": "gidigida ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_wand"
+    ],
+    "t": {
+      "de": "die Wand ist vorhanden.",
+      "en": "There is wall.",
+      "sv": "Det finns vägg.",
+      "nl": "Er is muur."
+    },
+    "alt": {},
+    "chunks": [
+      "gidigida",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_21",
+    "am": "ሃያ አንድ አለ።",
+    "tr": "haya and ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_21"
+    ],
+    "t": {
+      "de": "21 ist vorhanden.",
+      "en": "There is 21.",
+      "sv": "Det finns 21.",
+      "nl": "Er is 21."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "and",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_22",
+    "am": "ሃያ ሁለት አለ።",
+    "tr": "haya hulet ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_22"
+    ],
+    "t": {
+      "de": "22 ist vorhanden.",
+      "en": "There is 22.",
+      "sv": "Det finns 22.",
+      "nl": "Er is 22."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "hulet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_23",
+    "am": "ሃያ ሶስት አለ።",
+    "tr": "haya sost ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_23"
+    ],
+    "t": {
+      "de": "23 ist vorhanden.",
+      "en": "There is 23.",
+      "sv": "Det finns 23.",
+      "nl": "Er is 23."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "sost",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_24",
+    "am": "ሃያ አራት አለ።",
+    "tr": "haya arat ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_24"
+    ],
+    "t": {
+      "de": "24 ist vorhanden.",
+      "en": "There is 24.",
+      "sv": "Det finns 24.",
+      "nl": "Er is 24."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "arat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_25",
+    "am": "ሃያ አምስት አለ።",
+    "tr": "haya amist ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_25"
+    ],
+    "t": {
+      "de": "25 ist vorhanden.",
+      "en": "There is 25.",
+      "sv": "Det finns 25.",
+      "nl": "Er is 25."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "amist",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sechste",
+    "am": "እሱ ስድስተኛ ነው።",
+    "tr": "issu sidistegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sechste"
+    ],
+    "t": {
+      "de": "Er ist sechste(r/s).",
+      "en": "He is sixth.",
+      "sv": "Han är sjätte.",
+      "nl": "Hij is zesde."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "sidistegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_siebte",
+    "am": "እሱ ሰባተኛ ነው።",
+    "tr": "issu sebategna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_siebte"
+    ],
+    "t": {
+      "de": "Er ist siebte(r/s).",
+      "en": "He is seventh.",
+      "sv": "Han är sjunde.",
+      "nl": "Hij is zevende."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "sebategna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_achte",
+    "am": "እሱ ስምንተኛ ነው።",
+    "tr": "issu siminitegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_achte"
+    ],
+    "t": {
+      "de": "Er ist achte(r/s).",
+      "en": "He is eighth.",
+      "sv": "Han är åttonde.",
+      "nl": "Hij is achtste."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "siminitegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_neunte",
+    "am": "እሱ ዘጠነኛ ነው።",
+    "tr": "issu zetenegna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_neunte"
+    ],
+    "t": {
+      "de": "Er ist neunte(r/s).",
+      "en": "He is ninth.",
+      "sv": "Han är nionde.",
+      "nl": "Hij is negende."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "zetenegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zehnte",
+    "am": "እሱ አስረኛ ነው።",
+    "tr": "issu asregna new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zehnte"
+    ],
+    "t": {
+      "de": "Er ist zehnte(r/s).",
+      "en": "He is tenth.",
+      "sv": "Han är tionde.",
+      "nl": "Hij is tiende."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "asregna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_viel",
+    "am": "እሱ ብዙ ነው።",
+    "tr": "issu bizu new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_viel"
+    ],
+    "t": {
+      "de": "Er ist viel.",
+      "en": "He is much, many.",
+      "sv": "Han är mycket, många.",
+      "nl": "Hij is veel."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "bizu",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wenig",
+    "am": "እሱ ጥቂት ነው።",
+    "tr": "issu t'ik'it new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_wenig"
+    ],
+    "t": {
+      "de": "Er ist wenig, ein paar.",
+      "en": "He is little, few.",
+      "sv": "Han är lite, några.",
+      "nl": "Hij is weinig, een paar."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "t'ik'it",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mehr",
+    "am": "እሱ ተጨማሪ ነው።",
+    "tr": "issu techemari new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_mehr"
+    ],
+    "t": {
+      "de": "Er ist mehr, zusätzlich.",
+      "en": "He is more, additional.",
+      "sv": "Han är mer, ytterligare.",
+      "nl": "Hij is meer, extra."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "techemari",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_genug",
+    "am": "እሱ በቂ ነው።",
+    "tr": "issu beki' new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_genug"
+    ],
+    "t": {
+      "de": "Er ist genug.",
+      "en": "He is enough.",
+      "sv": "Han är nog.",
+      "nl": "Hij is genoeg."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "beki'",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mittag",
+    "am": "ቀትር አለ።",
+    "tr": "ket'ir ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_mittag"
+    ],
+    "t": {
+      "de": "der Mittag ist vorhanden.",
+      "en": "There is noon.",
+      "sv": "Det finns middag.",
+      "nl": "Er is middag."
+    },
+    "alt": {},
+    "chunks": [
+      "ket'ir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kuehlschrank",
+    "am": "ማቀዝቀዣ አለ።",
+    "tr": "mak'ezk'eza ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kuehlschrank"
+    ],
+    "t": {
+      "de": "der Kühlschrank ist vorhanden.",
+      "en": "There is refrigerator.",
+      "sv": "Det finns kylskåp.",
+      "nl": "Er is koelkast."
+    },
+    "alt": {},
+    "chunks": [
+      "mak'ezk'eza",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ofen",
+    "am": "ምድጃ አለ።",
+    "tr": "midija ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_ofen"
+    ],
+    "t": {
+      "de": "der Ofen, Herd ist vorhanden.",
+      "en": "There is oven, stove.",
+      "sv": "Det finns ugn, spis.",
+      "nl": "Er is oven, fornuis."
+    },
+    "alt": {},
+    "chunks": [
+      "midija",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gold",
+    "am": "ወርቅ አለ።",
+    "tr": "werk' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_gold"
+    ],
+    "t": {
+      "de": "das Gold ist vorhanden.",
+      "en": "There is gold.",
+      "sv": "Det finns guld.",
+      "nl": "Er is goud."
+    },
+    "alt": {},
+    "chunks": [
+      "werk'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_silber",
+    "am": "ብር አለ።",
+    "tr": "bir ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_silber"
+    ],
+    "t": {
+      "de": "das Silber ist vorhanden.",
+      "en": "There is silver.",
+      "sv": "Det finns silver.",
+      "nl": "Er is zilver."
+    },
+    "alt": {},
+    "chunks": [
+      "bir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bier",
+    "am": "ቢራ አለ።",
+    "tr": "bira ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_bier"
+    ],
+    "t": {
+      "de": "das Bier ist vorhanden.",
+      "en": "There is beer.",
+      "sv": "Det finns öl.",
+      "nl": "Er is bier."
+    },
+    "alt": {},
+    "chunks": [
+      "bira",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sturm",
+    "am": "ኃይለኛ ንፋስ አለ።",
+    "tr": "hailegna nifas ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sturm"
+    ],
+    "t": {
+      "de": "der Sturm ist vorhanden.",
+      "en": "There is storm.",
+      "sv": "Det finns storm.",
+      "nl": "Er is storm."
+    },
+    "alt": {},
+    "chunks": [
+      "hailegna",
+      "nifas",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_blitz",
+    "am": "መብረቅ አለ።",
+    "tr": "mebrek' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_blitz"
+    ],
+    "t": {
+      "de": "der Blitz ist vorhanden.",
+      "en": "There is lightning.",
+      "sv": "Det finns blixt.",
+      "nl": "Er is bliksem."
+    },
+    "alt": {},
+    "chunks": [
+      "mebrek'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_donner",
+    "am": "ነጎድጓድ አለ።",
+    "tr": "negodgwad ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_donner"
+    ],
+    "t": {
+      "de": "der Donner ist vorhanden.",
+      "en": "There is thunder.",
+      "sv": "Det finns åska.",
+      "nl": "Er is donder."
+    },
+    "alt": {},
+    "chunks": [
+      "negodgwad",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_feucht",
+    "am": "እሱ እርጥበት ያለው ነው።",
+    "tr": "issu irt'ibet yalew new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_feucht"
+    ],
+    "t": {
+      "de": "Er ist feucht.",
+      "en": "He is humid.",
+      "sv": "Han är fuktig.",
+      "nl": "Hij is vochtig."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "irt'ibet",
+      "yalew",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nebel",
+    "am": "ጭጋግ አለ።",
+    "tr": "chigag ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_nebel"
+    ],
+    "t": {
+      "de": "der Nebel ist vorhanden.",
+      "en": "There is fog.",
+      "sv": "Det finns dimma.",
+      "nl": "Er is mist."
+    },
+    "alt": {},
+    "chunks": [
+      "chigag",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kuh",
+    "am": "ላም አለ።",
+    "tr": "lam ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kuh"
+    ],
+    "t": {
+      "de": "die Kuh ist vorhanden.",
+      "en": "There is cow.",
+      "sv": "Det finns ko.",
+      "nl": "Er is koe."
+    },
+    "alt": {},
+    "chunks": [
+      "lam",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ziege",
+    "am": "ፍየል አለ።",
+    "tr": "fiyel ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_ziege"
+    ],
+    "t": {
+      "de": "die Ziege ist vorhanden.",
+      "en": "There is goat.",
+      "sv": "Det finns get.",
+      "nl": "Er is geit."
+    },
+    "alt": {},
+    "chunks": [
+      "fiyel",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schaf",
+    "am": "በግ አለ።",
+    "tr": "beg ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schaf"
+    ],
+    "t": {
+      "de": "das Schaf ist vorhanden.",
+      "en": "There is sheep.",
+      "sv": "Det finns får.",
+      "nl": "Er is schaap."
+    },
+    "alt": {},
+    "chunks": [
+      "beg",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_esel",
+    "am": "አህያ አለ።",
+    "tr": "ahiya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_esel"
+    ],
+    "t": {
+      "de": "der Esel ist vorhanden.",
+      "en": "There is donkey.",
+      "sv": "Det finns åsna.",
+      "nl": "Er is ezel."
+    },
+    "alt": {},
+    "chunks": [
+      "ahiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kamel",
+    "am": "ግመል አለ።",
+    "tr": "gimel ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kamel"
+    ],
+    "t": {
+      "de": "das Kamel ist vorhanden.",
+      "en": "There is camel.",
+      "sv": "Det finns kamel.",
+      "nl": "Er is kameel."
+    },
+    "alt": {},
+    "chunks": [
+      "gimel",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_decke_bett",
+    "am": "ብርድ ልብስ አለ።",
+    "tr": "birid libs ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_decke_bett"
+    ],
+    "t": {
+      "de": "die Bettdecke ist vorhanden.",
+      "en": "There is blanket.",
+      "sv": "Det finns täcke.",
+      "nl": "Er is deken."
+    },
+    "alt": {},
+    "chunks": [
+      "birid",
+      "libs",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_besen",
+    "am": "ጥራሪ አለ።",
+    "tr": "t'irari ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_besen"
+    ],
+    "t": {
+      "de": "der Besen ist vorhanden.",
+      "en": "There is broom.",
+      "sv": "Det finns kvast.",
+      "nl": "Er is bezem."
+    },
+    "alt": {},
+    "chunks": [
+      "t'irari",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_eimer",
+    "am": "ባልዲ አለ።",
+    "tr": "baldi ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_eimer"
+    ],
+    "t": {
+      "de": "der Eimer ist vorhanden.",
+      "en": "There is bucket.",
+      "sv": "Det finns hink.",
+      "nl": "Er is emmer."
+    },
+    "alt": {},
+    "chunks": [
+      "baldi",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kerze",
+    "am": "ሻማ አለ።",
+    "tr": "shama ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kerze"
+    ],
+    "t": {
+      "de": "die Kerze ist vorhanden.",
+      "en": "There is candle.",
+      "sv": "Det finns ljus.",
+      "nl": "Er is kaars."
+    },
+    "alt": {},
+    "chunks": [
+      "shama",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hyaene",
+    "am": "ጅብ አለ።",
+    "tr": "jib ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hyaene"
+    ],
+    "t": {
+      "de": "die Hyäne ist vorhanden.",
+      "en": "There is hyena.",
+      "sv": "Det finns hyena.",
+      "nl": "Er is hyena."
+    },
+    "alt": {},
+    "chunks": [
+      "jib",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stiefel",
+    "am": "ቦት ጫማ አለ።",
+    "tr": "bot chama ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_stiefel"
+    ],
+    "t": {
+      "de": "der Stiefel ist vorhanden.",
+      "en": "There is boots.",
+      "sv": "Det finns stövlar.",
+      "nl": "Er is laarzen."
+    },
+    "alt": {},
+    "chunks": [
+      "bot",
+      "chama",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schmuck",
+    "am": "ጌጣጌጥ አለ።",
+    "tr": "geTagéT' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schmuck"
+    ],
+    "t": {
+      "de": "der Schmuck ist vorhanden.",
+      "en": "There is jewelry.",
+      "sv": "Det finns smycken.",
+      "nl": "Er is sieraden."
+    },
+    "alt": {},
+    "chunks": [
+      "geTagéT'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_handschuhe",
+    "am": "ጓንት አለ።",
+    "tr": "gwanit ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_handschuhe"
+    ],
+    "t": {
+      "de": "die Handschuhe ist vorhanden.",
+      "en": "There is gloves.",
+      "sv": "Det finns handskar.",
+      "nl": "Er is handschoenen."
+    },
+    "alt": {},
+    "chunks": [
+      "gwanit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sonnenbrille",
+    "am": "የፀሐይ መነጽር አለ።",
+    "tr": "yetsehai menetsir ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sonnenbrille"
+    ],
+    "t": {
+      "de": "die Sonnenbrille ist vorhanden.",
+      "en": "There is sunglasses.",
+      "sv": "Det finns solglasögon.",
+      "nl": "Er is zonnebril."
+    },
+    "alt": {},
+    "chunks": [
+      "yetsehai",
+      "menetsir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_regenschirm",
+    "am": "ጃንጥላ አለ።",
+    "tr": "jant'ila ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_regenschirm"
+    ],
+    "t": {
+      "de": "der Regenschirm ist vorhanden.",
+      "en": "There is umbrella.",
+      "sv": "Det finns paraply.",
+      "nl": "Er is paraplu."
+    },
+    "alt": {},
+    "chunks": [
+      "jant'ila",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_pfanne",
+    "am": "ምጥ አለ።",
+    "tr": "mit' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_pfanne"
+    ],
+    "t": {
+      "de": "die Pfanne ist vorhanden.",
+      "en": "There is pan.",
+      "sv": "Det finns stekpanna.",
+      "nl": "Er is pan."
+    },
+    "alt": {},
+    "chunks": [
+      "mit'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schneidebrett",
+    "am": "የመቁረጫ ሰሌዳ አለ።",
+    "tr": "yemek'urecha seleda ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schneidebrett"
+    ],
+    "t": {
+      "de": "das Schneidebrett ist vorhanden.",
+      "en": "There is cutting board.",
+      "sv": "Det finns skärbräda.",
+      "nl": "Er is snijplank."
+    },
+    "alt": {},
+    "chunks": [
+      "yemek'urecha",
+      "seleda",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schoepfloeffel",
+    "am": "ማንኪያ ትልቅ አለ።",
+    "tr": "mankiya tilik' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schoepfloeffel"
+    ],
+    "t": {
+      "de": "der Schöpflöffel ist vorhanden.",
+      "en": "There is ladle.",
+      "sv": "Det finns slev.",
+      "nl": "Er is soeplepel."
+    },
+    "alt": {},
+    "chunks": [
+      "mankiya",
+      "tilik'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_reibe",
+    "am": "መፋቂያ አለ።",
+    "tr": "mefak'iya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_reibe"
+    ],
+    "t": {
+      "de": "die Reibe ist vorhanden.",
+      "en": "There is grater.",
+      "sv": "Det finns rivjärn.",
+      "nl": "Er is rasp."
+    },
+    "alt": {},
+    "chunks": [
+      "mefak'iya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sieb",
+    "am": "ማጣሪያ አለ።",
+    "tr": "mat'ariya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sieb"
+    ],
+    "t": {
+      "de": "das Sieb ist vorhanden.",
+      "en": "There is sieve.",
+      "sv": "Det finns sil.",
+      "nl": "Er is zeef."
+    },
+    "alt": {},
+    "chunks": [
+      "mat'ariya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bleistift",
+    "am": "እርሳስ አለ።",
+    "tr": "irsas ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_bleistift"
+    ],
+    "t": {
+      "de": "der Bleistift ist vorhanden.",
+      "en": "There is pencil.",
+      "sv": "Det finns blyertspenna.",
+      "nl": "Er is potlood."
+    },
+    "alt": {},
+    "chunks": [
+      "irsas",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_radiergummi",
+    "am": "ማጥፊያ አለ።",
+    "tr": "mat'ifiya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_radiergummi"
+    ],
+    "t": {
+      "de": "der Radiergummi ist vorhanden.",
+      "en": "There is eraser.",
+      "sv": "Det finns suddgummi.",
+      "nl": "Er is gum."
+    },
+    "alt": {},
+    "chunks": [
+      "mat'ifiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lineal",
+    "am": "መስመሪያ አለ።",
+    "tr": "mesimeriya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_lineal"
+    ],
+    "t": {
+      "de": "das Lineal ist vorhanden.",
+      "en": "There is ruler.",
+      "sv": "Det finns linjal.",
+      "nl": "Er is liniaal."
+    },
+    "alt": {},
+    "chunks": [
+      "mesimeriya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hefter",
+    "am": "ስቴፕለር አለ።",
+    "tr": "steplar ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hefter"
+    ],
+    "t": {
+      "de": "der Hefter, Tacker ist vorhanden.",
+      "en": "There is stapler.",
+      "sv": "Det finns häftapparat.",
+      "nl": "Er is nietmachine."
+    },
+    "alt": {},
+    "chunks": [
+      "steplar",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schere",
+    "am": "መቀስ አለ።",
+    "tr": "mek'es ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schere"
+    ],
+    "t": {
+      "de": "die Schere ist vorhanden.",
+      "en": "There is scissors.",
+      "sv": "Det finns sax.",
+      "nl": "Er is schaar."
+    },
+    "alt": {},
+    "chunks": [
+      "mek'es",
+      "ale."
+    ],
+    "verified": false
+  }
+]

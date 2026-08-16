@@ -1,8 +1,212 @@
 [
-  {"id":"unit_harar_haus_wohnen_intro","kind":"intro","lexemeIds":["lex_hhw_kiray2","lex_hhw_kirayi","lex_hhw_azaji2","lex_hhw_bet_bota","lex_hhw_ye_gibi_bet","lex_hhw_v_menor","lex_hhw_menoriya","lex_hhw_mokelalya","lex_hhw_metateb_bet","lex_hhw_metenaya_kifil","lex_hhw_teqebay_kifil","lex_hhw_yeanb_bota","lex_hhw_v_mesenker","lex_hhw_bota_makina","lex_hhw_kir2","lex_hhw_v_mekefet","lex_hhw_v_mezegat","lex_hhw_kulf","lex_hhw_mestewat","lex_hhw_wiha2"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_haus_wohnen_words","kind":"wordPractice","lexemeIds":["lex_hhw_kiray2","lex_hhw_kirayi","lex_hhw_azaji2","lex_hhw_bet_bota","lex_hhw_ye_gibi_bet","lex_hhw_v_menor","lex_hhw_menoriya","lex_hhw_mokelalya","lex_hhw_metateb_bet","lex_hhw_metenaya_kifil","lex_hhw_teqebay_kifil","lex_hhw_yeanb_bota","lex_hhw_v_mesenker","lex_hhw_bota_makina","lex_hhw_kir2","lex_hhw_v_mekefet","lex_hhw_v_mezegat","lex_hhw_kulf","lex_hhw_mestewat","lex_hhw_wiha2"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_haus_wohnen_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hhw_kiray2","lex_hhw_kirayi","lex_hhw_azaji2","lex_hhw_bet_bota","lex_hhw_ye_gibi_bet","lex_hhw_v_menor","lex_hhw_menoriya","lex_hhw_mokelalya","lex_hhw_metateb_bet","lex_hhw_metenaya_kifil","lex_hhw_teqebay_kifil","lex_hhw_yeanb_bota","lex_hhw_v_mesenker","lex_hhw_bota_makina","lex_hhw_kir2","lex_hhw_v_mekefet","lex_hhw_v_mezegat","lex_hhw_kulf","lex_hhw_mestewat","lex_hhw_wiha2"],"sentenceIds":["sen_hhw_kirayi_kiray","sen_hhw_apartama_kifil","sen_hhw_kulf_mekefet","sen_hhw_yeanb_kir"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_haus_wohnen_listening","kind":"listening","lexemeIds":["lex_hhw_kiray2","lex_hhw_kirayi","lex_hhw_azaji2","lex_hhw_bet_bota","lex_hhw_ye_gibi_bet","lex_hhw_v_menor","lex_hhw_menoriya","lex_hhw_mokelalya","lex_hhw_metateb_bet","lex_hhw_metenaya_kifil","lex_hhw_teqebay_kifil","lex_hhw_yeanb_bota","lex_hhw_v_mesenker","lex_hhw_bota_makina","lex_hhw_kir2","lex_hhw_v_mekefet","lex_hhw_v_mezegat","lex_hhw_kulf","lex_hhw_mestewat","lex_hhw_wiha2"],"sentenceIds":["sen_hhw_kirayi_kiray","sen_hhw_apartama_kifil","sen_hhw_kulf_mekefet","sen_hhw_yeanb_kir"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_haus_wohnen_free","kind":"freeApplication","lexemeIds":["lex_hhw_kiray2","lex_hhw_kirayi","lex_hhw_azaji2","lex_hhw_bet_bota","lex_hhw_ye_gibi_bet","lex_hhw_v_menor","lex_hhw_menoriya","lex_hhw_mokelalya","lex_hhw_metateb_bet","lex_hhw_metenaya_kifil","lex_hhw_teqebay_kifil","lex_hhw_yeanb_bota","lex_hhw_v_mesenker","lex_hhw_bota_makina","lex_hhw_kir2","lex_hhw_v_mekefet","lex_hhw_v_mezegat","lex_hhw_kulf","lex_hhw_mestewat","lex_hhw_wiha2"],"sentenceIds":["sen_hhw_kirayi_kiray","sen_hhw_apartama_kifil","sen_hhw_kulf_mekefet","sen_hhw_yeanb_kir"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_haus_wohnen_review","kind":"review","lexemeIds":["lex_hhw_kiray2","lex_hhw_kirayi","lex_hhw_azaji2","lex_hhw_bet_bota","lex_hhw_ye_gibi_bet","lex_hhw_v_menor","lex_hhw_menoriya","lex_hhw_mokelalya","lex_hhw_metateb_bet","lex_hhw_metenaya_kifil","lex_hhw_teqebay_kifil","lex_hhw_yeanb_bota","lex_hhw_v_mesenker","lex_hhw_bota_makina","lex_hhw_kir2","lex_hhw_v_mekefet","lex_hhw_v_mezegat","lex_hhw_kulf","lex_hhw_mestewat","lex_hhw_wiha2"],"sentenceIds":["sen_hhw_kirayi_kiray","sen_hhw_apartama_kifil","sen_hhw_kulf_mekefet","sen_hhw_yeanb_kir"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_haus_wohnen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hhw_kiray2",
+      "lex_hhw_kirayi",
+      "lex_hhw_azaji2",
+      "lex_hhw_bet_bota",
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_v_menor",
+      "lex_hhw_menoriya",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metateb_bet",
+      "lex_hhw_metenaya_kifil",
+      "lex_hhw_teqebay_kifil",
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_v_mesenker",
+      "lex_hhw_bota_makina",
+      "lex_hhw_kir2",
+      "lex_hhw_v_mekefet",
+      "lex_hhw_v_mezegat",
+      "lex_hhw_kulf",
+      "lex_hhw_mestewat",
+      "lex_hhw_wiha2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_haus_wohnen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hhw_kiray2",
+      "lex_hhw_kirayi",
+      "lex_hhw_azaji2",
+      "lex_hhw_bet_bota",
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_v_menor",
+      "lex_hhw_menoriya",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metateb_bet",
+      "lex_hhw_metenaya_kifil",
+      "lex_hhw_teqebay_kifil",
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_v_mesenker",
+      "lex_hhw_bota_makina",
+      "lex_hhw_kir2",
+      "lex_hhw_v_mekefet",
+      "lex_hhw_v_mezegat",
+      "lex_hhw_kulf",
+      "lex_hhw_mestewat",
+      "lex_hhw_wiha2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_haus_wohnen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hhw_kiray2",
+      "lex_hhw_kirayi",
+      "lex_hhw_azaji2",
+      "lex_hhw_bet_bota",
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_v_menor",
+      "lex_hhw_menoriya",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metateb_bet",
+      "lex_hhw_metenaya_kifil",
+      "lex_hhw_teqebay_kifil",
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_v_mesenker",
+      "lex_hhw_bota_makina",
+      "lex_hhw_kir2",
+      "lex_hhw_v_mekefet",
+      "lex_hhw_v_mezegat",
+      "lex_hhw_kulf",
+      "lex_hhw_mestewat",
+      "lex_hhw_wiha2"
+    ],
+    "sentenceIds": [
+      "sen_hhw_kirayi_kiray",
+      "sen_hhw_apartama_kifil",
+      "sen_hhw_kulf_mekefet",
+      "sen_hhw_yeanb_kir",
+      "sen_gen_hhw_azaji2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_haus_wohnen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hhw_kiray2",
+      "lex_hhw_kirayi",
+      "lex_hhw_azaji2",
+      "lex_hhw_bet_bota",
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_v_menor",
+      "lex_hhw_menoriya",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metateb_bet",
+      "lex_hhw_metenaya_kifil",
+      "lex_hhw_teqebay_kifil",
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_v_mesenker",
+      "lex_hhw_bota_makina",
+      "lex_hhw_kir2",
+      "lex_hhw_v_mekefet",
+      "lex_hhw_v_mezegat",
+      "lex_hhw_kulf",
+      "lex_hhw_mestewat",
+      "lex_hhw_wiha2"
+    ],
+    "sentenceIds": [
+      "sen_hhw_kirayi_kiray",
+      "sen_hhw_apartama_kifil",
+      "sen_hhw_kulf_mekefet",
+      "sen_hhw_yeanb_kir",
+      "sen_gen_hhw_azaji2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_haus_wohnen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hhw_kiray2",
+      "lex_hhw_kirayi",
+      "lex_hhw_azaji2",
+      "lex_hhw_bet_bota",
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_v_menor",
+      "lex_hhw_menoriya",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metateb_bet",
+      "lex_hhw_metenaya_kifil",
+      "lex_hhw_teqebay_kifil",
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_v_mesenker",
+      "lex_hhw_bota_makina",
+      "lex_hhw_kir2",
+      "lex_hhw_v_mekefet",
+      "lex_hhw_v_mezegat",
+      "lex_hhw_kulf",
+      "lex_hhw_mestewat",
+      "lex_hhw_wiha2"
+    ],
+    "sentenceIds": [
+      "sen_hhw_kirayi_kiray",
+      "sen_hhw_apartama_kifil",
+      "sen_hhw_kulf_mekefet",
+      "sen_hhw_yeanb_kir",
+      "sen_gen_hhw_azaji2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_haus_wohnen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hhw_kiray2",
+      "lex_hhw_kirayi",
+      "lex_hhw_azaji2",
+      "lex_hhw_bet_bota",
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_v_menor",
+      "lex_hhw_menoriya",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metateb_bet",
+      "lex_hhw_metenaya_kifil",
+      "lex_hhw_teqebay_kifil",
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_v_mesenker",
+      "lex_hhw_bota_makina",
+      "lex_hhw_kir2",
+      "lex_hhw_v_mekefet",
+      "lex_hhw_v_mezegat",
+      "lex_hhw_kulf",
+      "lex_hhw_mestewat",
+      "lex_hhw_wiha2"
+    ],
+    "sentenceIds": [
+      "sen_hhw_kirayi_kiray",
+      "sen_hhw_apartama_kifil",
+      "sen_hhw_kulf_mekefet",
+      "sen_hhw_yeanb_kir",
+      "sen_gen_hhw_azaji2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

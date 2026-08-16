@@ -797,3 +797,69 @@ Tigrinya-Stationen umfassende `sec_eritrea`-Sektion auf vier Regionen aufgeteilt
   es nicht mehr gibt - jetzt zeigen sie stellvertretend auf `JourneyRegion.keren` (die erste der
   vier neuen Regionen) bzw. finden die erste `language == 'ti'`-Sektion dynamisch.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.
+
+## Etappe 28: "Sätze bauen" auf mindestens 5 Sätze pro Station ausgebaut (Äthiopien + Eritrea)
+
+Nutzerauftrag: jede Station (jede Lektion/jeder Kartenknoten in `RegionDetailScreen`, nicht nur die
+6+4 Ober-Regionen) sollte mindestens 5 Sätze in ihrer "Sätze bauen"-Übung haben, ausdrücklich auch
+mit neuem, stationsfremdem Wortschatz, falls nötig. Eine Bestandsaufnahme zeigte 257 von 285
+Stationen unter 5 Sätzen (viele bei 0-2, aus früheren Runden mit nur einem Satz pro Thema). Statt
+alle ~938 fehlenden Sätze einzeln von Hand zu verfassen, wurde ein einmaliges Node-Generierungs-
+skript geschrieben (nach Gebrauch wieder gelöscht, nicht Teil des Repos), das systematisch für jede
+Station die Lücke bis 5 auffüllt.
+
+- **Drei feste, sichere Satzschablonen statt freier Textgenerierung**, je nach Wortart (`pos`) des
+  gewählten Lexems, um Grammatikrisiko zu minimieren:
+  - **Nomen/Zahl → Existenzsatz** ("[Wort] አለ።"/"[Wort] ኣሎ።", "es gibt X") - dasselbe Muster, das
+    schon in hunderten bestehenden Sätzen genutzt wird.
+  - **Adjektiv → Pronomen-Kopula** ("እሱ [Adjektiv] ነው።"/"ንሱ [Adjektiv] እዩ።", "er ist X") - dasselbe
+    Muster wie Safaris Bindewort-Sätze (Etappe 27 Nachtrag).
+  - **Amharisches Verb (liegt als Infinitiv vor, z. B. "መብላት"/"zu essen") → "[Infinitiv]
+    እፈልጋለሁ።"** ("ich möchte X") - Standardkonstruktion Infinitiv + `ifeligalehu`; da `t.de/t.sv/t.nl`
+    der Verb-Lexeme bereits als nackter Infinitiv gespeichert sind, funktionieren "möchte/vill/wil" +
+    Infinitiv direkt korrekt in allen drei Sprachen.
+  - **Phrase/Interjektion, sowie Tigrinya-Verben (liegen als Imperativ vor, z. B. "ኣጋግሕ" = "bügle!")
+    → als-ist übernommen**, ggf. nur um Satzschlusszeichen ergänzt - das sind bereits vollständige
+    Äußerungen, kein Wrapping nötig oder sinnvoll.
+- **Pronomen, Partikel, Präpositionen, Konjunktionen und Adverbien bewusst von der Auswahl
+  ausgeschlossen.** Ein erster Versuch zeigte, warum: das generische Existenz-Wrapping ergab bei
+  diesen Wortarten Unsinn ("es gibt gestern", "es gibt kein" für die Negationspartikel `aydelem`,
+  "es gibt du"). Da diese Kategorien zusammen nur ~3 % aller Lexeme ausmachen, verkleinert der
+  Ausschluss den Kandidatenpool kaum - kein einziger der 285 Stationen hatte am Ende zu wenig
+  Vokabular übrig (`unitsSkippedNoVocab: 0`).
+- **Vokabelquelle: zuerst die eigenen Wörter der Station, erst bei Bedarf ältere Wörter derselben
+  Sprache.** Für jede Station wurden zuerst ihre eigenen `wordPractice`-Lexeme durchprobiert
+  (thematisch passend, direkte Wiederholung); nur wenn das nicht für 5 Sätze reichte (viele kleine
+  Stationen mit nur 5-10 eigenen Wörtern), wurde auf bereits früher in derselben Sprache eingeführten
+  Wortschatz zurückgegriffen (rückwärts ab der aktuellen Position, damit thematisch möglichst nah).
+  Deckt den Nutzerwunsch "gerne auch neue Wörter, auch wenn sie nicht in der Station sind" ab, ohne
+  neue Lexem-Einträge anlegen zu müssen - das gesamte bestehende Vokabular (4020 Lexeme) diente als
+  Fallback-Pool, in derselben sprachlich getrennten Reihenfolge, die auch
+  `content_validation_test.dart`s "keine Vorwärtsreferenzen"-Regel prüft.
+- **Bug gefunden und behoben: Fidel-Lesbarkeits-Verletzung bei 13 der ersten 938 generierten
+  Amharisch-Sätze.** Stufe 5/6 (Lese-Pfad) verlangt, dass jeder Amharisch-Satz bei vollständig
+  gelerntem Alphabet lesbar ist (`content_repository.dart`s `_isDecodableWith`). 13 Sätze
+  verwendeten Lexeme mit Klammer-Zusatzangaben ("ሰዓት (ግድግዳ)" = "Uhr (Wand-)", zur Abgrenzung von
+  Homonymen) oder mit seltenen Lehnwort-Buchstaben (ቮ/ቪ/ቫ/ቧ/ኋ für v-Laute wie "ቴሌቪዝን"/Fernsehen),
+  die die App nie unterrichtet. Das Generierungsskript prüft seither vor der Auswahl eines
+  Amharisch-Lexems dessen Lesbarkeit gegen das komplette gelernte Zeichenset (Basistabelle + Stufe-7-
+  Extras) und überspringt nicht-lesbare Kandidaten - für Tigrinya nicht relevant, da
+  `sentencesDecodableWith` laut eigenem Kommentar bewusst nur den Amharisch-Lesepfad prüft.
+- **Eine strukturelle Anomalie gefunden und repariert:** `unit_ich_und_du` (zweite Äthiopien-Station)
+  hatte nie eine eigene `sentenceBuilding`-Stufe, sondern sprang direkt von `wordPractice` zu
+  `listening` - mit 2 Sätzen, die nur in Listening/FreeApplication/Review auftauchten. Das
+  Generierungsskript synthetisiert in so einem Fall eine neue `sentenceBuilding`-Stufe (Struktur wie
+  überall sonst, direkt nach `wordPractice` eingefügt), vorbefüllt mit den 2 bestehenden Sätzen,
+  bevor die übliche Auffüll-Logik greift.
+- **8 neue, nach Region gebündelte Satzdateien** (`sentences_gen_addisabeba/tigray/oromia/sidama/
+  harar/keren/asmara/massawa.json`, insgesamt 938 Sätze, alle `verified: false`) statt einer
+  Datei pro Station oder einer einzigen Riesendatei - folgt derselben Gliederung wie die
+  bestehenden Themen-Sammeldateien (z. B. `sentences_eritrea_mehr6.json`).
+- **Ein bestehender Test musste wegen der neuen Stufe angepasst werden**
+  (`region_locked_station_test.dart`): die "Kapitel-Test"-Kachel unter `unit_ich_und_du`s jetzt
+  längerer Lektionsliste liegt nicht mehr automatisch im sichtbaren Bereich - derselbe, bereits in
+  `eritrea_region_reachable_test.dart` etablierte Scroll-Fix.
+- **Audio-Manifest + `fehlende_audiodateien.md`** um alle 938 neuen Satz-IDs ergänzt, gleiches
+  Muster wie immer; die eigentlichen Audiodateien folgen wie besprochen erst später.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün, inklusive
+  `content_validation_test.dart` und `fidel_stufe_content_test.dart`.

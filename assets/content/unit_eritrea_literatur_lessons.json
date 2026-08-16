@@ -49,7 +49,11 @@
       "lex_ti_lit_ttl"
     ],
     "sentenceIds": [
-      "sen_ti_literatur_1"
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_lit_ttl"
     ],
     "sentenceIds": [
-      "sen_ti_literatur_1"
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_lit_ttl"
     ],
     "sentenceIds": [
-      "sen_ti_literatur_1"
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_lit_ttl"
     ],
     "sentenceIds": [
-      "sen_ti_literatur_1"
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

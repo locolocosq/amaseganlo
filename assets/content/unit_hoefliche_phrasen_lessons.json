@@ -39,7 +39,13 @@
       "lex_gute_reise",
       "lex_zum_wohl"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_tut_mir_leid",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_gen_zum_wohl"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_gute_reise",
       "lex_zum_wohl"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_tut_mir_leid",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_gen_zum_wohl"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_gute_reise",
       "lex_zum_wohl"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_tut_mir_leid",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_gen_zum_wohl"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_gute_reise",
       "lex_zum_wohl"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_tut_mir_leid",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_gen_zum_wohl"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

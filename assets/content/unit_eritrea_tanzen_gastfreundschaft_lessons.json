@@ -55,7 +55,11 @@
       "lex_ti_gst_gnrs"
     ],
     "sentenceIds": [
-      "sen_ti_tanzen_gastfreundschaft_1"
+      "sen_ti_tanzen_gastfreundschaft_1",
+      "sen_gen_tnz_dncr",
+      "sen_gen_tnz_trad",
+      "sen_gen_tnz_rhthm",
+      "sen_gen_tnz_drum"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_gst_gnrs"
     ],
     "sentenceIds": [
-      "sen_ti_tanzen_gastfreundschaft_1"
+      "sen_ti_tanzen_gastfreundschaft_1",
+      "sen_gen_tnz_dncr",
+      "sen_gen_tnz_trad",
+      "sen_gen_tnz_rhthm",
+      "sen_gen_tnz_drum"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_gst_gnrs"
     ],
     "sentenceIds": [
-      "sen_ti_tanzen_gastfreundschaft_1"
+      "sen_ti_tanzen_gastfreundschaft_1",
+      "sen_gen_tnz_dncr",
+      "sen_gen_tnz_trad",
+      "sen_gen_tnz_rhthm",
+      "sen_gen_tnz_drum"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_gst_gnrs"
     ],
     "sentenceIds": [
-      "sen_ti_tanzen_gastfreundschaft_1"
+      "sen_ti_tanzen_gastfreundschaft_1",
+      "sen_gen_tnz_dncr",
+      "sen_gen_tnz_trad",
+      "sen_gen_tnz_rhthm",
+      "sen_gen_tnz_drum"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

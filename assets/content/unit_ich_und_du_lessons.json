@@ -2,36 +2,135 @@
   {
     "id": "lesson_ich_und_du_intro",
     "kind": "intro",
-    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
+    "lexemeIds": [
+      "lex_ine",
+      "lex_ante",
+      "lex_anchi",
+      "lex_issu",
+      "lex_iswa",
+      "lex_egna",
+      "lex_sim",
+      "lex_ityopia"
+    ],
     "sentenceIds": [],
     "exerciseTypes": []
   },
   {
     "id": "lesson_ich_und_du_words",
     "kind": "wordPractice",
-    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
+    "lexemeIds": [
+      "lex_ine",
+      "lex_ante",
+      "lex_anchi",
+      "lex_issu",
+      "lex_iswa",
+      "lex_egna",
+      "lex_sim",
+      "lex_ityopia"
+    ],
     "sentenceIds": [],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_ich_und_du_sentences_gen",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ine",
+      "lex_ante",
+      "lex_anchi",
+      "lex_issu",
+      "lex_iswa",
+      "lex_egna",
+      "lex_sim",
+      "lex_ityopia"
+    ],
+    "sentenceIds": [
+      "sen_ine_ityopiawi",
+      "sen_issu_dehna",
+      "sen_gen_sim",
+      "sen_gen_algebagnem",
+      "sen_gen_yikirta_2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
   },
   {
     "id": "lesson_ich_und_du_listening",
     "kind": "listening",
-    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna"],
-    "sentenceIds": ["sen_ine_ityopiawi", "sen_issu_dehna"],
-    "exerciseTypes": ["listenChoice"]
+    "lexemeIds": [
+      "lex_ine",
+      "lex_ante",
+      "lex_anchi",
+      "lex_issu",
+      "lex_iswa",
+      "lex_egna"
+    ],
+    "sentenceIds": [
+      "sen_ine_ityopiawi",
+      "sen_issu_dehna",
+      "sen_gen_sim",
+      "sen_gen_algebagnem",
+      "sen_gen_yikirta_2"
+    ],
+    "exerciseTypes": [
+      "listenChoice"
+    ]
   },
   {
     "id": "lesson_ich_und_du_free",
     "kind": "freeApplication",
-    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
-    "sentenceIds": ["sen_ine_ityopiawi", "sen_issu_dehna"],
-    "exerciseTypes": ["wordTyping", "sentenceTranslate"]
+    "lexemeIds": [
+      "lex_ine",
+      "lex_ante",
+      "lex_anchi",
+      "lex_issu",
+      "lex_iswa",
+      "lex_egna",
+      "lex_sim",
+      "lex_ityopia"
+    ],
+    "sentenceIds": [
+      "sen_ine_ityopiawi",
+      "sen_issu_dehna",
+      "sen_gen_sim",
+      "sen_gen_algebagnem",
+      "sen_gen_yikirta_2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
   },
   {
     "id": "lesson_ich_und_du_review",
     "kind": "review",
-    "lexemeIds": ["lex_ine", "lex_ante", "lex_anchi", "lex_issu", "lex_iswa", "lex_egna", "lex_sim", "lex_ityopia"],
-    "sentenceIds": ["sen_ine_ityopiawi", "sen_issu_dehna"],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping"]
+    "lexemeIds": [
+      "lex_ine",
+      "lex_ante",
+      "lex_anchi",
+      "lex_issu",
+      "lex_iswa",
+      "lex_egna",
+      "lex_sim",
+      "lex_ityopia"
+    ],
+    "sentenceIds": [
+      "sen_ine_ityopiawi",
+      "sen_issu_dehna",
+      "sen_gen_sim",
+      "sen_gen_algebagnem",
+      "sen_gen_yikirta_2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping"
+    ]
   }
 ]

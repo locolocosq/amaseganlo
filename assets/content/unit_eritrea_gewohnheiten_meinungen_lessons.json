@@ -52,7 +52,11 @@
       "lex_ti_mng_maybe2"
     ],
     "sentenceIds": [
-      "sen_ti_gewohnheiten_meinungen_1"
+      "sen_ti_gewohnheiten_meinungen_1",
+      "sen_gen_gwh_rtn",
+      "sen_gen_gwh_always2",
+      "sen_gen_gwh_habit",
+      "sen_gen_mng_agree"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_mng_maybe2"
     ],
     "sentenceIds": [
-      "sen_ti_gewohnheiten_meinungen_1"
+      "sen_ti_gewohnheiten_meinungen_1",
+      "sen_gen_gwh_rtn",
+      "sen_gen_gwh_always2",
+      "sen_gen_gwh_habit",
+      "sen_gen_mng_agree"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_mng_maybe2"
     ],
     "sentenceIds": [
-      "sen_ti_gewohnheiten_meinungen_1"
+      "sen_ti_gewohnheiten_meinungen_1",
+      "sen_gen_gwh_rtn",
+      "sen_gen_gwh_always2",
+      "sen_gen_gwh_habit",
+      "sen_gen_mng_agree"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_mng_maybe2"
     ],
     "sentenceIds": [
-      "sen_ti_gewohnheiten_meinungen_1"
+      "sen_ti_gewohnheiten_meinungen_1",
+      "sen_gen_gwh_rtn",
+      "sen_gen_gwh_always2",
+      "sen_gen_gwh_habit",
+      "sen_gen_mng_agree"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

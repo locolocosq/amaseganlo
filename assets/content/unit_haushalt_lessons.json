@@ -49,7 +49,11 @@
       "lex_handtuch"
     ],
     "sentenceIds": [
-      "sen_sahinu_nech"
+      "sen_sahinu_nech",
+      "sen_gen_tasse",
+      "sen_gen_loeffel",
+      "sen_gen_gabel",
+      "sen_gen_messer"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_handtuch"
     ],
     "sentenceIds": [
-      "sen_sahinu_nech"
+      "sen_sahinu_nech",
+      "sen_gen_tasse",
+      "sen_gen_loeffel",
+      "sen_gen_gabel",
+      "sen_gen_messer"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_handtuch"
     ],
     "sentenceIds": [
-      "sen_sahinu_nech"
+      "sen_sahinu_nech",
+      "sen_gen_tasse",
+      "sen_gen_loeffel",
+      "sen_gen_gabel",
+      "sen_gen_messer"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_handtuch"
     ],
     "sentenceIds": [
-      "sen_sahinu_nech"
+      "sen_sahinu_nech",
+      "sen_gen_tasse",
+      "sen_gen_loeffel",
+      "sen_gen_gabel",
+      "sen_gen_messer"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

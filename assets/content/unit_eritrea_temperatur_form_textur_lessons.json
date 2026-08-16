@@ -55,7 +55,11 @@
       "lex_ti_fmt_dull"
     ],
     "sentenceIds": [
-      "sen_ti_temperatur_form_textur_1"
+      "sen_ti_temperatur_form_textur_1",
+      "sen_gen_tmp_cool2",
+      "sen_gen_tmp_boil",
+      "sen_gen_tmp_freez",
+      "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_fmt_dull"
     ],
     "sentenceIds": [
-      "sen_ti_temperatur_form_textur_1"
+      "sen_ti_temperatur_form_textur_1",
+      "sen_gen_tmp_cool2",
+      "sen_gen_tmp_boil",
+      "sen_gen_tmp_freez",
+      "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_fmt_dull"
     ],
     "sentenceIds": [
-      "sen_ti_temperatur_form_textur_1"
+      "sen_ti_temperatur_form_textur_1",
+      "sen_gen_tmp_cool2",
+      "sen_gen_tmp_boil",
+      "sen_gen_tmp_freez",
+      "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_fmt_dull"
     ],
     "sentenceIds": [
-      "sen_ti_temperatur_form_textur_1"
+      "sen_ti_temperatur_form_textur_1",
+      "sen_gen_tmp_cool2",
+      "sen_gen_tmp_boil",
+      "sen_gen_tmp_freez",
+      "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

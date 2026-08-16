@@ -61,7 +61,11 @@
       "lex_ti_tec2_usbs"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_mehr_1"
+      "sen_ti_technologie_mehr_1",
+      "sen_gen_tec2_sfrl",
+      "sen_gen_tec2_apka",
+      "sen_gen_tec2_shrke",
+      "sen_gen_tec2_ansl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_tec2_usbs"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_mehr_1"
+      "sen_ti_technologie_mehr_1",
+      "sen_gen_tec2_sfrl",
+      "sen_gen_tec2_apka",
+      "sen_gen_tec2_shrke",
+      "sen_gen_tec2_ansl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_tec2_usbs"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_mehr_1"
+      "sen_ti_technologie_mehr_1",
+      "sen_gen_tec2_sfrl",
+      "sen_gen_tec2_apka",
+      "sen_gen_tec2_shrke",
+      "sen_gen_tec2_ansl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_tec2_usbs"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_mehr_1"
+      "sen_ti_technologie_mehr_1",
+      "sen_gen_tec2_sfrl",
+      "sen_gen_tec2_apka",
+      "sen_gen_tec2_shrke",
+      "sen_gen_tec2_ansl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

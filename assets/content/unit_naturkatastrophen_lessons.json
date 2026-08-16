@@ -42,7 +42,13 @@
       "lex_vulkan",
       "lex_erdrutsch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erdbeben",
+      "sen_gen_flut",
+      "sen_gen_duerre",
+      "sen_gen_wirbelsturm",
+      "sen_gen_vulkan"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -59,7 +65,13 @@
       "lex_vulkan",
       "lex_erdrutsch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erdbeben",
+      "sen_gen_flut",
+      "sen_gen_duerre",
+      "sen_gen_wirbelsturm",
+      "sen_gen_vulkan"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -76,7 +88,13 @@
       "lex_vulkan",
       "lex_erdrutsch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erdbeben",
+      "sen_gen_flut",
+      "sen_gen_duerre",
+      "sen_gen_wirbelsturm",
+      "sen_gen_vulkan"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -93,7 +111,13 @@
       "lex_vulkan",
       "lex_erdrutsch"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_erdbeben",
+      "sen_gen_flut",
+      "sen_gen_duerre",
+      "sen_gen_wirbelsturm",
+      "sen_gen_vulkan"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

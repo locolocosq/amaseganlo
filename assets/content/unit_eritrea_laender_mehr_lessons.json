@@ -61,7 +61,11 @@
       "lex_ti_ld2_kanad"
     ],
     "sentenceIds": [
-      "sen_ti_laender_mehr_1"
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_ld2_kanad"
     ],
     "sentenceIds": [
-      "sen_ti_laender_mehr_1"
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_ld2_kanad"
     ],
     "sentenceIds": [
-      "sen_ti_laender_mehr_1"
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_ld2_kanad"
     ],
     "sentenceIds": [
-      "sen_ti_laender_mehr_1"
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

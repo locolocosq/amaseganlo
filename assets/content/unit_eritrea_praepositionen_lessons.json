@@ -55,7 +55,11 @@
       "lex_ti_prp_ksab"
     ],
     "sentenceIds": [
-      "sen_ti_praepositionen_1"
+      "sen_ti_praepositionen_1",
+      "sen_gen_vb3_temharkabe",
+      "sen_gen_vb3_redae",
+      "sen_gen_vb3_delede",
+      "sen_gen_vb3_gorede"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_prp_ksab"
     ],
     "sentenceIds": [
-      "sen_ti_praepositionen_1"
+      "sen_ti_praepositionen_1",
+      "sen_gen_vb3_temharkabe",
+      "sen_gen_vb3_redae",
+      "sen_gen_vb3_delede",
+      "sen_gen_vb3_gorede"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_prp_ksab"
     ],
     "sentenceIds": [
-      "sen_ti_praepositionen_1"
+      "sen_ti_praepositionen_1",
+      "sen_gen_vb3_temharkabe",
+      "sen_gen_vb3_redae",
+      "sen_gen_vb3_delede",
+      "sen_gen_vb3_gorede"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_prp_ksab"
     ],
     "sentenceIds": [
-      "sen_ti_praepositionen_1"
+      "sen_ti_praepositionen_1",
+      "sen_gen_vb3_temharkabe",
+      "sen_gen_vb3_redae",
+      "sen_gen_vb3_delede",
+      "sen_gen_vb3_gorede"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

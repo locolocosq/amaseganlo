@@ -58,7 +58,11 @@
       "lex_ti_str_sunsc"
     ],
     "sentenceIds": [
-      "sen_ti_picknick_strand_1"
+      "sen_ti_picknick_strand_1",
+      "sen_gen_pkn_blnkt",
+      "sen_gen_pkn_grll",
+      "sen_gen_pkn_camp",
+      "sen_gen_pkn_sleep"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_ti_str_sunsc"
     ],
     "sentenceIds": [
-      "sen_ti_picknick_strand_1"
+      "sen_ti_picknick_strand_1",
+      "sen_gen_pkn_blnkt",
+      "sen_gen_pkn_grll",
+      "sen_gen_pkn_camp",
+      "sen_gen_pkn_sleep"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_ti_str_sunsc"
     ],
     "sentenceIds": [
-      "sen_ti_picknick_strand_1"
+      "sen_ti_picknick_strand_1",
+      "sen_gen_pkn_blnkt",
+      "sen_gen_pkn_grll",
+      "sen_gen_pkn_camp",
+      "sen_gen_pkn_sleep"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_ti_str_sunsc"
     ],
     "sentenceIds": [
-      "sen_ti_picknick_strand_1"
+      "sen_ti_picknick_strand_1",
+      "sen_gen_pkn_blnkt",
+      "sen_gen_pkn_grll",
+      "sen_gen_pkn_camp",
+      "sen_gen_pkn_sleep"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

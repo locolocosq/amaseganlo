@@ -127,7 +127,11 @@
       "lex_ti_agelglo"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_schmuck_1"
+      "sen_ti_kleidung_schmuck_1",
+      "sen_gen_kemis",
+      "sen_gen_shurbi",
+      "sen_gen_kondom",
+      "sen_gen_shemis"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -174,7 +178,11 @@
       "lex_ti_agelglo"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_schmuck_1"
+      "sen_ti_kleidung_schmuck_1",
+      "sen_gen_kemis",
+      "sen_gen_shurbi",
+      "sen_gen_kondom",
+      "sen_gen_shemis"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -221,7 +229,11 @@
       "lex_ti_agelglo"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_schmuck_1"
+      "sen_ti_kleidung_schmuck_1",
+      "sen_gen_kemis",
+      "sen_gen_shurbi",
+      "sen_gen_kondom",
+      "sen_gen_shemis"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -268,7 +280,11 @@
       "lex_ti_agelglo"
     ],
     "sentenceIds": [
-      "sen_ti_kleidung_schmuck_1"
+      "sen_ti_kleidung_schmuck_1",
+      "sen_gen_kemis",
+      "sen_gen_shurbi",
+      "sen_gen_kondom",
+      "sen_gen_shemis"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

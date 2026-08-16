@@ -52,7 +52,11 @@
       "lex_ti_smk_recpt"
     ],
     "sentenceIds": [
-      "sen_ti_flohmarkt_supermarkt_1"
+      "sen_ti_flohmarkt_supermarkt_1",
+      "sen_gen_flm_brgn",
+      "sen_gen_flm_deal",
+      "sen_gen_flm_stall",
+      "sen_gen_flm_sell"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_smk_recpt"
     ],
     "sentenceIds": [
-      "sen_ti_flohmarkt_supermarkt_1"
+      "sen_ti_flohmarkt_supermarkt_1",
+      "sen_gen_flm_brgn",
+      "sen_gen_flm_deal",
+      "sen_gen_flm_stall",
+      "sen_gen_flm_sell"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_smk_recpt"
     ],
     "sentenceIds": [
-      "sen_ti_flohmarkt_supermarkt_1"
+      "sen_ti_flohmarkt_supermarkt_1",
+      "sen_gen_flm_brgn",
+      "sen_gen_flm_deal",
+      "sen_gen_flm_stall",
+      "sen_gen_flm_sell"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_smk_recpt"
     ],
     "sentenceIds": [
-      "sen_ti_flohmarkt_supermarkt_1"
+      "sen_ti_flohmarkt_supermarkt_1",
+      "sen_gen_flm_brgn",
+      "sen_gen_flm_deal",
+      "sen_gen_flm_stall",
+      "sen_gen_flm_sell"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

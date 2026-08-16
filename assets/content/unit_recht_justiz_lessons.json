@@ -42,7 +42,13 @@
       "lex_verbrechen",
       "lex_gefaengnis"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gericht",
+      "sen_gen_vertrag",
+      "sen_gen_zeuge",
+      "sen_gen_beweis",
+      "sen_gen_verbrechen"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -59,7 +65,13 @@
       "lex_verbrechen",
       "lex_gefaengnis"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gericht",
+      "sen_gen_vertrag",
+      "sen_gen_zeuge",
+      "sen_gen_beweis",
+      "sen_gen_verbrechen"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -76,7 +88,13 @@
       "lex_verbrechen",
       "lex_gefaengnis"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gericht",
+      "sen_gen_vertrag",
+      "sen_gen_zeuge",
+      "sen_gen_beweis",
+      "sen_gen_verbrechen"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -93,7 +111,13 @@
       "lex_verbrechen",
       "lex_gefaengnis"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gericht",
+      "sen_gen_vertrag",
+      "sen_gen_zeuge",
+      "sen_gen_beweis",
+      "sen_gen_verbrechen"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

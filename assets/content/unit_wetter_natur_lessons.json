@@ -110,7 +110,10 @@
     ],
     "sentenceIds": [
       "sen_zare_tsehay",
-      "sen_wushaw_konjo"
+      "sen_wushaw_konjo",
+      "sen_gen_regen",
+      "sen_gen_wind",
+      "sen_gen_berg"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -152,7 +155,10 @@
     ],
     "sentenceIds": [
       "sen_zare_tsehay",
-      "sen_wushaw_konjo"
+      "sen_wushaw_konjo",
+      "sen_gen_regen",
+      "sen_gen_wind",
+      "sen_gen_berg"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -194,7 +200,10 @@
     ],
     "sentenceIds": [
       "sen_zare_tsehay",
-      "sen_wushaw_konjo"
+      "sen_wushaw_konjo",
+      "sen_gen_regen",
+      "sen_gen_wind",
+      "sen_gen_berg"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -236,7 +245,10 @@
     ],
     "sentenceIds": [
       "sen_zare_tsehay",
-      "sen_wushaw_konjo"
+      "sen_wushaw_konjo",
+      "sen_gen_regen",
+      "sen_gen_wind",
+      "sen_gen_berg"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

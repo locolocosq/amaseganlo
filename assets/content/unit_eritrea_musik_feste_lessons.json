@@ -64,7 +64,11 @@
       "lex_ti_shhbal"
     ],
     "sentenceIds": [
-      "sen_ti_musik_feste_1"
+      "sen_ti_musik_feste_1",
+      "sen_gen_kbro",
+      "sen_gen_wshnt",
+      "sen_gen_gitar",
+      "sen_gen_pyano"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +94,11 @@
       "lex_ti_shhbal"
     ],
     "sentenceIds": [
-      "sen_ti_musik_feste_1"
+      "sen_ti_musik_feste_1",
+      "sen_gen_kbro",
+      "sen_gen_wshnt",
+      "sen_gen_gitar",
+      "sen_gen_pyano"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -116,7 +124,11 @@
       "lex_ti_shhbal"
     ],
     "sentenceIds": [
-      "sen_ti_musik_feste_1"
+      "sen_ti_musik_feste_1",
+      "sen_gen_kbro",
+      "sen_gen_wshnt",
+      "sen_gen_gitar",
+      "sen_gen_pyano"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -142,7 +154,11 @@
       "lex_ti_shhbal"
     ],
     "sentenceIds": [
-      "sen_ti_musik_feste_1"
+      "sen_ti_musik_feste_1",
+      "sen_gen_kbro",
+      "sen_gen_wshnt",
+      "sen_gen_gitar",
+      "sen_gen_pyano"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

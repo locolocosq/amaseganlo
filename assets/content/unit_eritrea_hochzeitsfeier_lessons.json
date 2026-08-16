@@ -43,7 +43,11 @@
       "lex_ti_hzf_feast"
     ],
     "sentenceIds": [
-      "sen_ti_hochzeitsfeier_1"
+      "sen_ti_hochzeitsfeier_1",
+      "sen_gen_hzf_ring",
+      "sen_gen_hzf_grm",
+      "sen_gen_hzf_brd",
+      "sen_gen_hzf_wtns"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -62,7 +66,11 @@
       "lex_ti_hzf_feast"
     ],
     "sentenceIds": [
-      "sen_ti_hochzeitsfeier_1"
+      "sen_ti_hochzeitsfeier_1",
+      "sen_gen_hzf_ring",
+      "sen_gen_hzf_grm",
+      "sen_gen_hzf_brd",
+      "sen_gen_hzf_wtns"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -81,7 +89,11 @@
       "lex_ti_hzf_feast"
     ],
     "sentenceIds": [
-      "sen_ti_hochzeitsfeier_1"
+      "sen_ti_hochzeitsfeier_1",
+      "sen_gen_hzf_ring",
+      "sen_gen_hzf_grm",
+      "sen_gen_hzf_brd",
+      "sen_gen_hzf_wtns"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -100,7 +112,11 @@
       "lex_ti_hzf_feast"
     ],
     "sentenceIds": [
-      "sen_ti_hochzeitsfeier_1"
+      "sen_ti_hochzeitsfeier_1",
+      "sen_gen_hzf_ring",
+      "sen_gen_hzf_grm",
+      "sen_gen_hzf_brd",
+      "sen_gen_hzf_wtns"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

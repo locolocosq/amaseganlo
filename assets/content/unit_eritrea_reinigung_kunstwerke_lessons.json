@@ -55,7 +55,11 @@
       "lex_ti_knw_clr2"
     ],
     "sentenceIds": [
-      "sen_ti_reinigung_kunstwerke_1"
+      "sen_ti_reinigung_kunstwerke_1",
+      "sen_gen_rng_mop",
+      "sen_gen_rng_dtrg",
+      "sen_gen_rng_bin",
+      "sen_gen_rng_dust"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_knw_clr2"
     ],
     "sentenceIds": [
-      "sen_ti_reinigung_kunstwerke_1"
+      "sen_ti_reinigung_kunstwerke_1",
+      "sen_gen_rng_mop",
+      "sen_gen_rng_dtrg",
+      "sen_gen_rng_bin",
+      "sen_gen_rng_dust"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_knw_clr2"
     ],
     "sentenceIds": [
-      "sen_ti_reinigung_kunstwerke_1"
+      "sen_ti_reinigung_kunstwerke_1",
+      "sen_gen_rng_mop",
+      "sen_gen_rng_dtrg",
+      "sen_gen_rng_bin",
+      "sen_gen_rng_dust"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_knw_clr2"
     ],
     "sentenceIds": [
-      "sen_ti_reinigung_kunstwerke_1"
+      "sen_ti_reinigung_kunstwerke_1",
+      "sen_gen_rng_mop",
+      "sen_gen_rng_dtrg",
+      "sen_gen_rng_bin",
+      "sen_gen_rng_dust"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

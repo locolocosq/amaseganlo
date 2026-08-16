@@ -39,7 +39,13 @@
       "lex_eimer",
       "lex_kerze"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_eimer",
       "lex_kerze"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_eimer",
       "lex_kerze"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_eimer",
       "lex_kerze"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

@@ -67,7 +67,11 @@
       "lex_ti_khrta"
     ],
     "sentenceIds": [
-      "sen_ti_sport_reise_1"
+      "sen_ti_sport_reise_1",
+      "sen_gen_gol",
+      "sen_gen_neqti",
+      "sen_gen_gwadl",
+      "sen_gen_medl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_khrta"
     ],
     "sentenceIds": [
-      "sen_ti_sport_reise_1"
+      "sen_ti_sport_reise_1",
+      "sen_gen_gol",
+      "sen_gen_neqti",
+      "sen_gen_gwadl",
+      "sen_gen_medl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_khrta"
     ],
     "sentenceIds": [
-      "sen_ti_sport_reise_1"
+      "sen_ti_sport_reise_1",
+      "sen_gen_gol",
+      "sen_gen_neqti",
+      "sen_gen_gwadl",
+      "sen_gen_medl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_khrta"
     ],
     "sentenceIds": [
-      "sen_ti_sport_reise_1"
+      "sen_ti_sport_reise_1",
+      "sen_gen_gol",
+      "sen_gen_neqti",
+      "sen_gen_gwadl",
+      "sen_gen_medl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

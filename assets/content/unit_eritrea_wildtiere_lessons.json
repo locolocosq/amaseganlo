@@ -49,7 +49,11 @@
       "lex_ti_wld_hyna"
     ],
     "sentenceIds": [
-      "sen_ti_wildtiere_1"
+      "sen_ti_wildtiere_1",
+      "sen_gen_wld_elph",
+      "sen_gen_wld_grff",
+      "sen_gen_wld_zebr",
+      "sen_gen_wld_mnky"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_wld_hyna"
     ],
     "sentenceIds": [
-      "sen_ti_wildtiere_1"
+      "sen_ti_wildtiere_1",
+      "sen_gen_wld_elph",
+      "sen_gen_wld_grff",
+      "sen_gen_wld_zebr",
+      "sen_gen_wld_mnky"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_wld_hyna"
     ],
     "sentenceIds": [
-      "sen_ti_wildtiere_1"
+      "sen_ti_wildtiere_1",
+      "sen_gen_wld_elph",
+      "sen_gen_wld_grff",
+      "sen_gen_wld_zebr",
+      "sen_gen_wld_mnky"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_wld_hyna"
     ],
     "sentenceIds": [
-      "sen_ti_wildtiere_1"
+      "sen_ti_wildtiere_1",
+      "sen_gen_wld_elph",
+      "sen_gen_wld_grff",
+      "sen_gen_wld_zebr",
+      "sen_gen_wld_mnky"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -1,8 +1,164 @@
 [
-  {"id":"unit_harar_natur_klima_intro","kind":"intro","lexemeIds":["lex_hnk_bahir","lex_hnk_amora_zaf","lex_hnk_kitel_abeba","lex_hnk_sar","lex_hnk_zaf_akal","lex_hnk_v_mefotot","lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu","lex_hnk_bahir_zaf","lex_hnk_v_mekelakel4","lex_hnk_werq_akal"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_natur_klima_words","kind":"wordPractice","lexemeIds":["lex_hnk_bahir","lex_hnk_amora_zaf","lex_hnk_kitel_abeba","lex_hnk_sar","lex_hnk_zaf_akal","lex_hnk_v_mefotot","lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu","lex_hnk_bahir_zaf","lex_hnk_v_mekelakel4","lex_hnk_werq_akal"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_natur_klima_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hnk_bahir","lex_hnk_amora_zaf","lex_hnk_kitel_abeba","lex_hnk_sar","lex_hnk_zaf_akal","lex_hnk_v_mefotot","lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu","lex_hnk_bahir_zaf","lex_hnk_v_mekelakel4","lex_hnk_werq_akal"],"sentenceIds":["sen_hnk_abeba_sar","sen_hnk_fire_bisil_tire","sen_hnk_bahir_zaf_mefotot","sen_hnk_werq_zaf_akal"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_natur_klima_listening","kind":"listening","lexemeIds":["lex_hnk_bahir","lex_hnk_amora_zaf","lex_hnk_kitel_abeba","lex_hnk_sar","lex_hnk_zaf_akal","lex_hnk_v_mefotot","lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu","lex_hnk_bahir_zaf","lex_hnk_v_mekelakel4","lex_hnk_werq_akal"],"sentenceIds":["sen_hnk_abeba_sar","sen_hnk_fire_bisil_tire","sen_hnk_bahir_zaf_mefotot","sen_hnk_werq_zaf_akal"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_natur_klima_free","kind":"freeApplication","lexemeIds":["lex_hnk_bahir","lex_hnk_amora_zaf","lex_hnk_kitel_abeba","lex_hnk_sar","lex_hnk_zaf_akal","lex_hnk_v_mefotot","lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu","lex_hnk_bahir_zaf","lex_hnk_v_mekelakel4","lex_hnk_werq_akal"],"sentenceIds":["sen_hnk_abeba_sar","sen_hnk_fire_bisil_tire","sen_hnk_bahir_zaf_mefotot","sen_hnk_werq_zaf_akal"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_natur_klima_review","kind":"review","lexemeIds":["lex_hnk_bahir","lex_hnk_amora_zaf","lex_hnk_kitel_abeba","lex_hnk_sar","lex_hnk_zaf_akal","lex_hnk_v_mefotot","lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu","lex_hnk_bahir_zaf","lex_hnk_v_mekelakel4","lex_hnk_werq_akal"],"sentenceIds":["sen_hnk_abeba_sar","sen_hnk_fire_bisil_tire","sen_hnk_bahir_zaf_mefotot","sen_hnk_werq_zaf_akal"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_natur_klima_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hnk_bahir",
+      "lex_hnk_amora_zaf",
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar",
+      "lex_hnk_zaf_akal",
+      "lex_hnk_v_mefotot",
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu",
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_v_mekelakel4",
+      "lex_hnk_werq_akal"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_natur_klima_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hnk_bahir",
+      "lex_hnk_amora_zaf",
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar",
+      "lex_hnk_zaf_akal",
+      "lex_hnk_v_mefotot",
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu",
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_v_mekelakel4",
+      "lex_hnk_werq_akal"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_natur_klima_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hnk_bahir",
+      "lex_hnk_amora_zaf",
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar",
+      "lex_hnk_zaf_akal",
+      "lex_hnk_v_mefotot",
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu",
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_v_mekelakel4",
+      "lex_hnk_werq_akal"
+    ],
+    "sentenceIds": [
+      "sen_hnk_abeba_sar",
+      "sen_hnk_fire_bisil_tire",
+      "sen_hnk_bahir_zaf_mefotot",
+      "sen_hnk_werq_zaf_akal",
+      "sen_gen_hnk_amora_zaf"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_natur_klima_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hnk_bahir",
+      "lex_hnk_amora_zaf",
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar",
+      "lex_hnk_zaf_akal",
+      "lex_hnk_v_mefotot",
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu",
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_v_mekelakel4",
+      "lex_hnk_werq_akal"
+    ],
+    "sentenceIds": [
+      "sen_hnk_abeba_sar",
+      "sen_hnk_fire_bisil_tire",
+      "sen_hnk_bahir_zaf_mefotot",
+      "sen_hnk_werq_zaf_akal",
+      "sen_gen_hnk_amora_zaf"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_natur_klima_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hnk_bahir",
+      "lex_hnk_amora_zaf",
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar",
+      "lex_hnk_zaf_akal",
+      "lex_hnk_v_mefotot",
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu",
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_v_mekelakel4",
+      "lex_hnk_werq_akal"
+    ],
+    "sentenceIds": [
+      "sen_hnk_abeba_sar",
+      "sen_hnk_fire_bisil_tire",
+      "sen_hnk_bahir_zaf_mefotot",
+      "sen_hnk_werq_zaf_akal",
+      "sen_gen_hnk_amora_zaf"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_natur_klima_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hnk_bahir",
+      "lex_hnk_amora_zaf",
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar",
+      "lex_hnk_zaf_akal",
+      "lex_hnk_v_mefotot",
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu",
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_v_mekelakel4",
+      "lex_hnk_werq_akal"
+    ],
+    "sentenceIds": [
+      "sen_hnk_abeba_sar",
+      "sen_hnk_fire_bisil_tire",
+      "sen_hnk_bahir_zaf_mefotot",
+      "sen_hnk_werq_zaf_akal",
+      "sen_gen_hnk_amora_zaf"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

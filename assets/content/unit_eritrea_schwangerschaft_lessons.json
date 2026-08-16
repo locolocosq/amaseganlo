@@ -40,7 +40,11 @@
       "lex_ti_swg_cradl"
     ],
     "sentenceIds": [
-      "sen_ti_schwangerschaft_1"
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -58,7 +62,11 @@
       "lex_ti_swg_cradl"
     ],
     "sentenceIds": [
-      "sen_ti_schwangerschaft_1"
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -76,7 +84,11 @@
       "lex_ti_swg_cradl"
     ],
     "sentenceIds": [
-      "sen_ti_schwangerschaft_1"
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -94,7 +106,11 @@
       "lex_ti_swg_cradl"
     ],
     "sentenceIds": [
-      "sen_ti_schwangerschaft_1"
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

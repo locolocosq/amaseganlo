@@ -142,7 +142,11 @@
       "lex_ti_zmamt"
     ],
     "sentenceIds": [
-      "sen_ti_zeit_mehr_1"
+      "sen_ti_zeit_mehr_1",
+      "sen_gen_deqiqa",
+      "sen_gen_sekond",
+      "sen_gen_mieti",
+      "sen_gen_lelit"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -194,7 +198,11 @@
       "lex_ti_zmamt"
     ],
     "sentenceIds": [
-      "sen_ti_zeit_mehr_1"
+      "sen_ti_zeit_mehr_1",
+      "sen_gen_deqiqa",
+      "sen_gen_sekond",
+      "sen_gen_mieti",
+      "sen_gen_lelit"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -246,7 +254,11 @@
       "lex_ti_zmamt"
     ],
     "sentenceIds": [
-      "sen_ti_zeit_mehr_1"
+      "sen_ti_zeit_mehr_1",
+      "sen_gen_deqiqa",
+      "sen_gen_sekond",
+      "sen_gen_mieti",
+      "sen_gen_lelit"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -298,7 +310,11 @@
       "lex_ti_zmamt"
     ],
     "sentenceIds": [
-      "sen_ti_zeit_mehr_1"
+      "sen_ti_zeit_mehr_1",
+      "sen_gen_deqiqa",
+      "sen_gen_sekond",
+      "sen_gen_mieti",
+      "sen_gen_lelit"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

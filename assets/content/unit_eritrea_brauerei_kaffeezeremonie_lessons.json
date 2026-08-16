@@ -55,7 +55,11 @@
       "lex_ti_kfz_round"
     ],
     "sentenceIds": [
-      "sen_ti_brauerei_kaffeezeremonie_1"
+      "sen_ti_brauerei_kaffeezeremonie_1",
+      "sen_gen_brw_ferm",
+      "sen_gen_brw_bril",
+      "sen_gen_brw_hops",
+      "sen_gen_kfz_bean"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_kfz_round"
     ],
     "sentenceIds": [
-      "sen_ti_brauerei_kaffeezeremonie_1"
+      "sen_ti_brauerei_kaffeezeremonie_1",
+      "sen_gen_brw_ferm",
+      "sen_gen_brw_bril",
+      "sen_gen_brw_hops",
+      "sen_gen_kfz_bean"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_kfz_round"
     ],
     "sentenceIds": [
-      "sen_ti_brauerei_kaffeezeremonie_1"
+      "sen_ti_brauerei_kaffeezeremonie_1",
+      "sen_gen_brw_ferm",
+      "sen_gen_brw_bril",
+      "sen_gen_brw_hops",
+      "sen_gen_kfz_bean"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_kfz_round"
     ],
     "sentenceIds": [
-      "sen_ti_brauerei_kaffeezeremonie_1"
+      "sen_ti_brauerei_kaffeezeremonie_1",
+      "sen_gen_brw_ferm",
+      "sen_gen_brw_bril",
+      "sen_gen_brw_hops",
+      "sen_gen_kfz_bean"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

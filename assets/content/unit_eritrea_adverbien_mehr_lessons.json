@@ -73,7 +73,11 @@
       "lex_ti_kmnti"
     ],
     "sentenceIds": [
-      "sen_ti_adverbien_mehr_1"
+      "sen_ti_adverbien_mehr_1",
+      "sen_gen_brvo",
+      "sen_gen_hlkm",
+      "sen_gen_hgz",
+      "sen_gen_nkm2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -102,7 +106,11 @@
       "lex_ti_kmnti"
     ],
     "sentenceIds": [
-      "sen_ti_adverbien_mehr_1"
+      "sen_ti_adverbien_mehr_1",
+      "sen_gen_brvo",
+      "sen_gen_hlkm",
+      "sen_gen_hgz",
+      "sen_gen_nkm2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -131,7 +139,11 @@
       "lex_ti_kmnti"
     ],
     "sentenceIds": [
-      "sen_ti_adverbien_mehr_1"
+      "sen_ti_adverbien_mehr_1",
+      "sen_gen_brvo",
+      "sen_gen_hlkm",
+      "sen_gen_hgz",
+      "sen_gen_nkm2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -160,7 +172,11 @@
       "lex_ti_kmnti"
     ],
     "sentenceIds": [
-      "sen_ti_adverbien_mehr_1"
+      "sen_ti_adverbien_mehr_1",
+      "sen_gen_brvo",
+      "sen_gen_hlkm",
+      "sen_gen_hgz",
+      "sen_gen_nkm2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

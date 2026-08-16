@@ -49,7 +49,11 @@
       "lex_ti_zhn_extrct"
     ],
     "sentenceIds": [
-      "sen_ti_optik_zahnarzt_1"
+      "sen_ti_optik_zahnarzt_1",
+      "sen_gen_opt_lens2",
+      "sen_gen_opt_blur",
+      "sen_gen_opt_see",
+      "sen_gen_zhn_cvty"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_zhn_extrct"
     ],
     "sentenceIds": [
-      "sen_ti_optik_zahnarzt_1"
+      "sen_ti_optik_zahnarzt_1",
+      "sen_gen_opt_lens2",
+      "sen_gen_opt_blur",
+      "sen_gen_opt_see",
+      "sen_gen_zhn_cvty"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_zhn_extrct"
     ],
     "sentenceIds": [
-      "sen_ti_optik_zahnarzt_1"
+      "sen_ti_optik_zahnarzt_1",
+      "sen_gen_opt_lens2",
+      "sen_gen_opt_blur",
+      "sen_gen_opt_see",
+      "sen_gen_zhn_cvty"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_zhn_extrct"
     ],
     "sentenceIds": [
-      "sen_ti_optik_zahnarzt_1"
+      "sen_ti_optik_zahnarzt_1",
+      "sen_gen_opt_lens2",
+      "sen_gen_opt_blur",
+      "sen_gen_opt_see",
+      "sen_gen_zhn_cvty"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

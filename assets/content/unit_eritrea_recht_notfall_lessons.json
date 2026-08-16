@@ -67,7 +67,11 @@
       "lex_ti_ntsti2"
     ],
     "sentenceIds": [
-      "sen_ti_recht_notfall_1"
+      "sen_ti_recht_notfall_1",
+      "sen_gen_frdi2",
+      "sen_gen_wnzk",
+      "sen_gen_habsti",
+      "sen_gen_shhda"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_ntsti2"
     ],
     "sentenceIds": [
-      "sen_ti_recht_notfall_1"
+      "sen_ti_recht_notfall_1",
+      "sen_gen_frdi2",
+      "sen_gen_wnzk",
+      "sen_gen_habsti",
+      "sen_gen_shhda"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_ntsti2"
     ],
     "sentenceIds": [
-      "sen_ti_recht_notfall_1"
+      "sen_ti_recht_notfall_1",
+      "sen_gen_frdi2",
+      "sen_gen_wnzk",
+      "sen_gen_habsti",
+      "sen_gen_shhda"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_ntsti2"
     ],
     "sentenceIds": [
-      "sen_ti_recht_notfall_1"
+      "sen_ti_recht_notfall_1",
+      "sen_gen_frdi2",
+      "sen_gen_wnzk",
+      "sen_gen_habsti",
+      "sen_gen_shhda"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

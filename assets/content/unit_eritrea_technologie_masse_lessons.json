@@ -103,7 +103,11 @@
       "lex_ti_klls"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_masse_1"
+      "sen_ti_technologie_masse_1",
+      "sen_gen_kompiuter",
+      "sen_gen_intrnet",
+      "sen_gen_msgbi",
+      "sen_gen_slti"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -142,7 +146,11 @@
       "lex_ti_klls"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_masse_1"
+      "sen_ti_technologie_masse_1",
+      "sen_gen_kompiuter",
+      "sen_gen_intrnet",
+      "sen_gen_msgbi",
+      "sen_gen_slti"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -181,7 +189,11 @@
       "lex_ti_klls"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_masse_1"
+      "sen_ti_technologie_masse_1",
+      "sen_gen_kompiuter",
+      "sen_gen_intrnet",
+      "sen_gen_msgbi",
+      "sen_gen_slti"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -220,7 +232,11 @@
       "lex_ti_klls"
     ],
     "sentenceIds": [
-      "sen_ti_technologie_masse_1"
+      "sen_ti_technologie_masse_1",
+      "sen_gen_kompiuter",
+      "sen_gen_intrnet",
+      "sen_gen_msgbi",
+      "sen_gen_slti"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

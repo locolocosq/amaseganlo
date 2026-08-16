@@ -1,8 +1,146 @@
 [
-  {"id":"unit_harar_freizeit_spiele_intro","kind":"intro","lexemeIds":["lex_hfs_chewata2","lex_hfs_gebeta","lex_hfs_v_mechawet","lex_hfs_beal2","lex_hfs_chez","lex_hfs_meda2","lex_hfs_gibiza","lex_hfs_adj_azinagn","lex_hfs_mezinagna"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_freizeit_spiele_words","kind":"wordPractice","lexemeIds":["lex_hfs_chewata2","lex_hfs_gebeta","lex_hfs_v_mechawet","lex_hfs_beal2","lex_hfs_chez","lex_hfs_meda2","lex_hfs_gibiza","lex_hfs_adj_azinagn","lex_hfs_mezinagna"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_freizeit_spiele_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hfs_chewata2","lex_hfs_gebeta","lex_hfs_v_mechawet","lex_hfs_beal2","lex_hfs_chez","lex_hfs_meda2","lex_hfs_gibiza","lex_hfs_adj_azinagn","lex_hfs_mezinagna"],"sentenceIds":["sen_hfs_gebeta_mechawet","sen_hfs_beal_gibiza","sen_hfs_chez_azinagn","sen_hfs_meda_mechawet"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_freizeit_spiele_listening","kind":"listening","lexemeIds":["lex_hfs_chewata2","lex_hfs_gebeta","lex_hfs_v_mechawet","lex_hfs_beal2","lex_hfs_chez","lex_hfs_meda2","lex_hfs_gibiza","lex_hfs_adj_azinagn","lex_hfs_mezinagna"],"sentenceIds":["sen_hfs_gebeta_mechawet","sen_hfs_beal_gibiza","sen_hfs_chez_azinagn","sen_hfs_meda_mechawet"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_freizeit_spiele_free","kind":"freeApplication","lexemeIds":["lex_hfs_chewata2","lex_hfs_gebeta","lex_hfs_v_mechawet","lex_hfs_beal2","lex_hfs_chez","lex_hfs_meda2","lex_hfs_gibiza","lex_hfs_adj_azinagn","lex_hfs_mezinagna"],"sentenceIds":["sen_hfs_gebeta_mechawet","sen_hfs_beal_gibiza","sen_hfs_chez_azinagn","sen_hfs_meda_mechawet"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_freizeit_spiele_review","kind":"review","lexemeIds":["lex_hfs_chewata2","lex_hfs_gebeta","lex_hfs_v_mechawet","lex_hfs_beal2","lex_hfs_chez","lex_hfs_meda2","lex_hfs_gibiza","lex_hfs_adj_azinagn","lex_hfs_mezinagna"],"sentenceIds":["sen_hfs_gebeta_mechawet","sen_hfs_beal_gibiza","sen_hfs_chez_azinagn","sen_hfs_meda_mechawet"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_freizeit_spiele_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hfs_chewata2",
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet",
+      "lex_hfs_beal2",
+      "lex_hfs_chez",
+      "lex_hfs_meda2",
+      "lex_hfs_gibiza",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_mezinagna"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_freizeit_spiele_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hfs_chewata2",
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet",
+      "lex_hfs_beal2",
+      "lex_hfs_chez",
+      "lex_hfs_meda2",
+      "lex_hfs_gibiza",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_mezinagna"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_freizeit_spiele_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hfs_chewata2",
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet",
+      "lex_hfs_beal2",
+      "lex_hfs_chez",
+      "lex_hfs_meda2",
+      "lex_hfs_gibiza",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_mezinagna"
+    ],
+    "sentenceIds": [
+      "sen_hfs_gebeta_mechawet",
+      "sen_hfs_beal_gibiza",
+      "sen_hfs_chez_azinagn",
+      "sen_hfs_meda_mechawet",
+      "sen_gen_hfs_mezinagna"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_freizeit_spiele_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hfs_chewata2",
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet",
+      "lex_hfs_beal2",
+      "lex_hfs_chez",
+      "lex_hfs_meda2",
+      "lex_hfs_gibiza",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_mezinagna"
+    ],
+    "sentenceIds": [
+      "sen_hfs_gebeta_mechawet",
+      "sen_hfs_beal_gibiza",
+      "sen_hfs_chez_azinagn",
+      "sen_hfs_meda_mechawet",
+      "sen_gen_hfs_mezinagna"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_freizeit_spiele_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hfs_chewata2",
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet",
+      "lex_hfs_beal2",
+      "lex_hfs_chez",
+      "lex_hfs_meda2",
+      "lex_hfs_gibiza",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_mezinagna"
+    ],
+    "sentenceIds": [
+      "sen_hfs_gebeta_mechawet",
+      "sen_hfs_beal_gibiza",
+      "sen_hfs_chez_azinagn",
+      "sen_hfs_meda_mechawet",
+      "sen_gen_hfs_mezinagna"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_freizeit_spiele_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hfs_chewata2",
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet",
+      "lex_hfs_beal2",
+      "lex_hfs_chez",
+      "lex_hfs_meda2",
+      "lex_hfs_gibiza",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_mezinagna"
+    ],
+    "sentenceIds": [
+      "sen_hfs_gebeta_mechawet",
+      "sen_hfs_beal_gibiza",
+      "sen_hfs_chez_azinagn",
+      "sen_hfs_meda_mechawet",
+      "sen_gen_hfs_mezinagna"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

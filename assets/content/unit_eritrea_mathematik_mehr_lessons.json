@@ -82,7 +82,11 @@
       "lex_ti_krzr"
     ],
     "sentenceIds": [
-      "sen_ti_mathematik_mehr_1"
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -114,7 +118,11 @@
       "lex_ti_krzr"
     ],
     "sentenceIds": [
-      "sen_ti_mathematik_mehr_1"
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -146,7 +154,11 @@
       "lex_ti_krzr"
     ],
     "sentenceIds": [
-      "sen_ti_mathematik_mehr_1"
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -178,7 +190,11 @@
       "lex_ti_krzr"
     ],
     "sentenceIds": [
-      "sen_ti_mathematik_mehr_1"
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

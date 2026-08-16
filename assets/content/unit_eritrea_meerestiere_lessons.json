@@ -55,7 +55,11 @@
       "lex_ti_mrt_kslw"
     ],
     "sentenceIds": [
-      "sen_ti_meerestiere_1"
+      "sen_ti_meerestiere_1",
+      "sen_gen_mrt_shrq",
+      "sen_gen_mrt_dlfn",
+      "sen_gen_mrt_ankm",
+      "sen_gen_mrt_srtn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_mrt_kslw"
     ],
     "sentenceIds": [
-      "sen_ti_meerestiere_1"
+      "sen_ti_meerestiere_1",
+      "sen_gen_mrt_shrq",
+      "sen_gen_mrt_dlfn",
+      "sen_gen_mrt_ankm",
+      "sen_gen_mrt_srtn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_mrt_kslw"
     ],
     "sentenceIds": [
-      "sen_ti_meerestiere_1"
+      "sen_ti_meerestiere_1",
+      "sen_gen_mrt_shrq",
+      "sen_gen_mrt_dlfn",
+      "sen_gen_mrt_ankm",
+      "sen_gen_mrt_srtn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_mrt_kslw"
     ],
     "sentenceIds": [
-      "sen_ti_meerestiere_1"
+      "sen_ti_meerestiere_1",
+      "sen_gen_mrt_shrq",
+      "sen_gen_mrt_dlfn",
+      "sen_gen_mrt_ankm",
+      "sen_gen_mrt_srtn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

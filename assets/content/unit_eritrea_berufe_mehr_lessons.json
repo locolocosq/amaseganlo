@@ -55,7 +55,11 @@
       "lex_ti_brf2_fotog"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_mehr_1"
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_brf2_fotog"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_mehr_1"
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_brf2_fotog"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_mehr_1"
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_brf2_fotog"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_mehr_1"
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

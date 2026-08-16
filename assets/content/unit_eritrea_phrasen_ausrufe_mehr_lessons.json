@@ -70,7 +70,11 @@
       "lex_ti_au2_gdjb"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_mehr_1"
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_gen_ph2_kfu",
+      "sen_gen_ph2_slm2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -98,7 +102,11 @@
       "lex_ti_au2_gdjb"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_mehr_1"
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_gen_ph2_kfu",
+      "sen_gen_ph2_slm2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -126,7 +134,11 @@
       "lex_ti_au2_gdjb"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_mehr_1"
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_gen_ph2_kfu",
+      "sen_gen_ph2_slm2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -154,7 +166,11 @@
       "lex_ti_au2_gdjb"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_mehr_1"
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_gen_ph2_kfu",
+      "sen_gen_ph2_slm2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

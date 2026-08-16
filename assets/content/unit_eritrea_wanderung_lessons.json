@@ -40,7 +40,11 @@
       "lex_ti_wnd_climb"
     ],
     "sentenceIds": [
-      "sen_ti_wanderung_1"
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_gen_wnd_climb"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -58,7 +62,11 @@
       "lex_ti_wnd_climb"
     ],
     "sentenceIds": [
-      "sen_ti_wanderung_1"
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_gen_wnd_climb"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -76,7 +84,11 @@
       "lex_ti_wnd_climb"
     ],
     "sentenceIds": [
-      "sen_ti_wanderung_1"
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_gen_wnd_climb"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -94,7 +106,11 @@
       "lex_ti_wnd_climb"
     ],
     "sentenceIds": [
-      "sen_ti_wanderung_1"
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_gen_wnd_climb"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

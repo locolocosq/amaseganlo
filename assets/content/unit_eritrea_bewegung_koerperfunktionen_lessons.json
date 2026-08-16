@@ -58,7 +58,11 @@
       "lex_ti_kfn_sneeze"
     ],
     "sentenceIds": [
-      "sen_ti_bewegung_koerperfunktionen_1"
+      "sen_ti_bewegung_koerperfunktionen_1",
+      "sen_gen_bwg_crawl",
+      "sen_gen_bwg_push",
+      "sen_gen_bwg_pull",
+      "sen_gen_bwg_throw"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_ti_kfn_sneeze"
     ],
     "sentenceIds": [
-      "sen_ti_bewegung_koerperfunktionen_1"
+      "sen_ti_bewegung_koerperfunktionen_1",
+      "sen_gen_bwg_crawl",
+      "sen_gen_bwg_push",
+      "sen_gen_bwg_pull",
+      "sen_gen_bwg_throw"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_ti_kfn_sneeze"
     ],
     "sentenceIds": [
-      "sen_ti_bewegung_koerperfunktionen_1"
+      "sen_ti_bewegung_koerperfunktionen_1",
+      "sen_gen_bwg_crawl",
+      "sen_gen_bwg_push",
+      "sen_gen_bwg_pull",
+      "sen_gen_bwg_throw"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_ti_kfn_sneeze"
     ],
     "sentenceIds": [
-      "sen_ti_bewegung_koerperfunktionen_1"
+      "sen_ti_bewegung_koerperfunktionen_1",
+      "sen_gen_bwg_crawl",
+      "sen_gen_bwg_push",
+      "sen_gen_bwg_pull",
+      "sen_gen_bwg_throw"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

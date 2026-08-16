@@ -57,7 +57,13 @@
       "lex_geduldig",
       "lex_stur"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -79,7 +85,13 @@
       "lex_geduldig",
       "lex_stur"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -101,7 +113,13 @@
       "lex_geduldig",
       "lex_stur"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -123,7 +141,13 @@
       "lex_geduldig",
       "lex_stur"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

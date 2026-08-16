@@ -63,7 +63,13 @@
       "lex_krokodil",
       "lex_hyaene"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -87,7 +93,13 @@
       "lex_krokodil",
       "lex_hyaene"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -111,7 +123,13 @@
       "lex_krokodil",
       "lex_hyaene"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -135,7 +153,13 @@
       "lex_krokodil",
       "lex_hyaene"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

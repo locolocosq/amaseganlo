@@ -1,8 +1,194 @@
 [
-  {"id":"unit_harar_schmuck_tracht_intro","kind":"intro","lexemeIds":["lex_hsc_getagget","lex_hsc_aniget_get","lex_hsc_kelebet","lex_hsc_yejoro_get","lex_hsc_anibar","lex_hsc_netela","lex_hsc_kaba","lex_hsc_kebeto","lex_hsc_kofiya","lex_hsc_doka","lex_hsc_bir2","lex_hsc_werk2","lex_hsc_adj_bahilawi2","lex_hsc_v_melibes","lex_hsc_libis","lex_hsc_nidif","lex_hsc_adj_habesha"],"sentenceIds":[],"exerciseTypes":[]},
-  {"id":"unit_harar_schmuck_tracht_words","kind":"wordPractice","lexemeIds":["lex_hsc_getagget","lex_hsc_aniget_get","lex_hsc_kelebet","lex_hsc_yejoro_get","lex_hsc_anibar","lex_hsc_netela","lex_hsc_kaba","lex_hsc_kebeto","lex_hsc_kofiya","lex_hsc_doka","lex_hsc_bir2","lex_hsc_werk2","lex_hsc_adj_bahilawi2","lex_hsc_v_melibes","lex_hsc_libis","lex_hsc_nidif","lex_hsc_adj_habesha"],"sentenceIds":[],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","pairMatching"]},
-  {"id":"unit_harar_schmuck_tracht_sentences","kind":"sentenceBuilding","lexemeIds":["lex_hsc_getagget","lex_hsc_aniget_get","lex_hsc_kelebet","lex_hsc_yejoro_get","lex_hsc_anibar","lex_hsc_netela","lex_hsc_kaba","lex_hsc_kebeto","lex_hsc_kofiya","lex_hsc_doka","lex_hsc_bir2","lex_hsc_werk2","lex_hsc_adj_bahilawi2","lex_hsc_v_melibes","lex_hsc_libis","lex_hsc_nidif","lex_hsc_adj_habesha"],"sentenceIds":["sen_hsc_aniget_kelebet","sen_hsc_netela_kaba","sen_hsc_werk_bir","sen_hsc_kofiya_melibes"],"exerciseTypes":["sentenceBuild","sentenceGapChoice"]},
-  {"id":"unit_harar_schmuck_tracht_listening","kind":"listening","lexemeIds":["lex_hsc_getagget","lex_hsc_aniget_get","lex_hsc_kelebet","lex_hsc_yejoro_get","lex_hsc_anibar","lex_hsc_netela","lex_hsc_kaba","lex_hsc_kebeto","lex_hsc_kofiya","lex_hsc_doka","lex_hsc_bir2","lex_hsc_werk2","lex_hsc_adj_bahilawi2","lex_hsc_v_melibes","lex_hsc_libis","lex_hsc_nidif","lex_hsc_adj_habesha"],"sentenceIds":["sen_hsc_aniget_kelebet","sen_hsc_netela_kaba","sen_hsc_werk_bir","sen_hsc_kofiya_melibes"],"exerciseTypes":["listenChoice","listenBuild"]},
-  {"id":"unit_harar_schmuck_tracht_free","kind":"freeApplication","lexemeIds":["lex_hsc_getagget","lex_hsc_aniget_get","lex_hsc_kelebet","lex_hsc_yejoro_get","lex_hsc_anibar","lex_hsc_netela","lex_hsc_kaba","lex_hsc_kebeto","lex_hsc_kofiya","lex_hsc_doka","lex_hsc_bir2","lex_hsc_werk2","lex_hsc_adj_bahilawi2","lex_hsc_v_melibes","lex_hsc_libis","lex_hsc_nidif","lex_hsc_adj_habesha"],"sentenceIds":["sen_hsc_aniget_kelebet","sen_hsc_netela_kaba","sen_hsc_werk_bir","sen_hsc_kofiya_melibes"],"exerciseTypes":["wordTyping","sentenceTranslate"]},
-  {"id":"unit_harar_schmuck_tracht_review","kind":"review","lexemeIds":["lex_hsc_getagget","lex_hsc_aniget_get","lex_hsc_kelebet","lex_hsc_yejoro_get","lex_hsc_anibar","lex_hsc_netela","lex_hsc_kaba","lex_hsc_kebeto","lex_hsc_kofiya","lex_hsc_doka","lex_hsc_bir2","lex_hsc_werk2","lex_hsc_adj_bahilawi2","lex_hsc_v_melibes","lex_hsc_libis","lex_hsc_nidif","lex_hsc_adj_habesha"],"sentenceIds":["sen_hsc_aniget_kelebet","sen_hsc_netela_kaba","sen_hsc_werk_bir","sen_hsc_kofiya_melibes"],"exerciseTypes":["wordChoiceAmToNative","wordChoiceNativeToAm","wordTyping","trueFalse"]}
+  {
+    "id": "unit_harar_schmuck_tracht_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hsc_getagget",
+      "lex_hsc_aniget_get",
+      "lex_hsc_kelebet",
+      "lex_hsc_yejoro_get",
+      "lex_hsc_anibar",
+      "lex_hsc_netela",
+      "lex_hsc_kaba",
+      "lex_hsc_kebeto",
+      "lex_hsc_kofiya",
+      "lex_hsc_doka",
+      "lex_hsc_bir2",
+      "lex_hsc_werk2",
+      "lex_hsc_adj_bahilawi2",
+      "lex_hsc_v_melibes",
+      "lex_hsc_libis",
+      "lex_hsc_nidif",
+      "lex_hsc_adj_habesha"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_schmuck_tracht_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hsc_getagget",
+      "lex_hsc_aniget_get",
+      "lex_hsc_kelebet",
+      "lex_hsc_yejoro_get",
+      "lex_hsc_anibar",
+      "lex_hsc_netela",
+      "lex_hsc_kaba",
+      "lex_hsc_kebeto",
+      "lex_hsc_kofiya",
+      "lex_hsc_doka",
+      "lex_hsc_bir2",
+      "lex_hsc_werk2",
+      "lex_hsc_adj_bahilawi2",
+      "lex_hsc_v_melibes",
+      "lex_hsc_libis",
+      "lex_hsc_nidif",
+      "lex_hsc_adj_habesha"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_schmuck_tracht_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hsc_getagget",
+      "lex_hsc_aniget_get",
+      "lex_hsc_kelebet",
+      "lex_hsc_yejoro_get",
+      "lex_hsc_anibar",
+      "lex_hsc_netela",
+      "lex_hsc_kaba",
+      "lex_hsc_kebeto",
+      "lex_hsc_kofiya",
+      "lex_hsc_doka",
+      "lex_hsc_bir2",
+      "lex_hsc_werk2",
+      "lex_hsc_adj_bahilawi2",
+      "lex_hsc_v_melibes",
+      "lex_hsc_libis",
+      "lex_hsc_nidif",
+      "lex_hsc_adj_habesha"
+    ],
+    "sentenceIds": [
+      "sen_hsc_aniget_kelebet",
+      "sen_hsc_netela_kaba",
+      "sen_hsc_werk_bir",
+      "sen_hsc_kofiya_melibes",
+      "sen_gen_hsc_yejoro_get"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_schmuck_tracht_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hsc_getagget",
+      "lex_hsc_aniget_get",
+      "lex_hsc_kelebet",
+      "lex_hsc_yejoro_get",
+      "lex_hsc_anibar",
+      "lex_hsc_netela",
+      "lex_hsc_kaba",
+      "lex_hsc_kebeto",
+      "lex_hsc_kofiya",
+      "lex_hsc_doka",
+      "lex_hsc_bir2",
+      "lex_hsc_werk2",
+      "lex_hsc_adj_bahilawi2",
+      "lex_hsc_v_melibes",
+      "lex_hsc_libis",
+      "lex_hsc_nidif",
+      "lex_hsc_adj_habesha"
+    ],
+    "sentenceIds": [
+      "sen_hsc_aniget_kelebet",
+      "sen_hsc_netela_kaba",
+      "sen_hsc_werk_bir",
+      "sen_hsc_kofiya_melibes",
+      "sen_gen_hsc_yejoro_get"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_schmuck_tracht_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hsc_getagget",
+      "lex_hsc_aniget_get",
+      "lex_hsc_kelebet",
+      "lex_hsc_yejoro_get",
+      "lex_hsc_anibar",
+      "lex_hsc_netela",
+      "lex_hsc_kaba",
+      "lex_hsc_kebeto",
+      "lex_hsc_kofiya",
+      "lex_hsc_doka",
+      "lex_hsc_bir2",
+      "lex_hsc_werk2",
+      "lex_hsc_adj_bahilawi2",
+      "lex_hsc_v_melibes",
+      "lex_hsc_libis",
+      "lex_hsc_nidif",
+      "lex_hsc_adj_habesha"
+    ],
+    "sentenceIds": [
+      "sen_hsc_aniget_kelebet",
+      "sen_hsc_netela_kaba",
+      "sen_hsc_werk_bir",
+      "sen_hsc_kofiya_melibes",
+      "sen_gen_hsc_yejoro_get"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_schmuck_tracht_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hsc_getagget",
+      "lex_hsc_aniget_get",
+      "lex_hsc_kelebet",
+      "lex_hsc_yejoro_get",
+      "lex_hsc_anibar",
+      "lex_hsc_netela",
+      "lex_hsc_kaba",
+      "lex_hsc_kebeto",
+      "lex_hsc_kofiya",
+      "lex_hsc_doka",
+      "lex_hsc_bir2",
+      "lex_hsc_werk2",
+      "lex_hsc_adj_bahilawi2",
+      "lex_hsc_v_melibes",
+      "lex_hsc_libis",
+      "lex_hsc_nidif",
+      "lex_hsc_adj_habesha"
+    ],
+    "sentenceIds": [
+      "sen_hsc_aniget_kelebet",
+      "sen_hsc_netela_kaba",
+      "sen_hsc_werk_bir",
+      "sen_hsc_kofiya_melibes",
+      "sen_gen_hsc_yejoro_get"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
 ]

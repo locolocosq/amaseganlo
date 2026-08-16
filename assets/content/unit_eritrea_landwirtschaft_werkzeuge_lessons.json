@@ -97,7 +97,11 @@
       "lex_ti_beret"
     ],
     "sentenceIds": [
-      "sen_ti_landwirtschaft_werkzeuge_1"
+      "sen_ti_landwirtschaft_werkzeuge_1",
+      "sen_gen_agdi",
+      "sen_gen_zerie",
+      "sen_gen_asrha",
+      "sen_gen_asisi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -134,7 +138,11 @@
       "lex_ti_beret"
     ],
     "sentenceIds": [
-      "sen_ti_landwirtschaft_werkzeuge_1"
+      "sen_ti_landwirtschaft_werkzeuge_1",
+      "sen_gen_agdi",
+      "sen_gen_zerie",
+      "sen_gen_asrha",
+      "sen_gen_asisi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -171,7 +179,11 @@
       "lex_ti_beret"
     ],
     "sentenceIds": [
-      "sen_ti_landwirtschaft_werkzeuge_1"
+      "sen_ti_landwirtschaft_werkzeuge_1",
+      "sen_gen_agdi",
+      "sen_gen_zerie",
+      "sen_gen_asrha",
+      "sen_gen_asisi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -208,7 +220,11 @@
       "lex_ti_beret"
     ],
     "sentenceIds": [
-      "sen_ti_landwirtschaft_werkzeuge_1"
+      "sen_ti_landwirtschaft_werkzeuge_1",
+      "sen_gen_agdi",
+      "sen_gen_zerie",
+      "sen_gen_asrha",
+      "sen_gen_asisi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -61,7 +61,11 @@
       "lex_ti_med_thlq"
     ],
     "sentenceIds": [
-      "sen_ti_medizin_1"
+      "sen_ti_medizin_1",
+      "sen_gen_med_nrsi",
+      "sen_gen_med_medhanit",
+      "sen_gen_med_shirit",
+      "sen_gen_med_hmam"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_med_thlq"
     ],
     "sentenceIds": [
-      "sen_ti_medizin_1"
+      "sen_ti_medizin_1",
+      "sen_gen_med_nrsi",
+      "sen_gen_med_medhanit",
+      "sen_gen_med_shirit",
+      "sen_gen_med_hmam"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_med_thlq"
     ],
     "sentenceIds": [
-      "sen_ti_medizin_1"
+      "sen_ti_medizin_1",
+      "sen_gen_med_nrsi",
+      "sen_gen_med_medhanit",
+      "sen_gen_med_shirit",
+      "sen_gen_med_hmam"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_med_thlq"
     ],
     "sentenceIds": [
-      "sen_ti_medizin_1"
+      "sen_ti_medizin_1",
+      "sen_gen_med_nrsi",
+      "sen_gen_med_medhanit",
+      "sen_gen_med_shirit",
+      "sen_gen_med_hmam"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

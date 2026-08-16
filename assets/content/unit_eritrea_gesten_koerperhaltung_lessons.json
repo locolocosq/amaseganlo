@@ -55,7 +55,11 @@
       "lex_ti_khl_bend"
     ],
     "sentenceIds": [
-      "sen_ti_gesten_koerperhaltung_1"
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_gen_gst2_hug"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_khl_bend"
     ],
     "sentenceIds": [
-      "sen_ti_gesten_koerperhaltung_1"
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_gen_gst2_hug"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_khl_bend"
     ],
     "sentenceIds": [
-      "sen_ti_gesten_koerperhaltung_1"
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_gen_gst2_hug"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_khl_bend"
     ],
     "sentenceIds": [
-      "sen_ti_gesten_koerperhaltung_1"
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_gen_gst2_hug"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

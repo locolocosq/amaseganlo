@@ -73,7 +73,11 @@
       "lex_timkat"
     ],
     "sentenceIds": [
-      "sen_ingida_konjo"
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -102,7 +106,11 @@
       "lex_timkat"
     ],
     "sentenceIds": [
-      "sen_ingida_konjo"
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -131,7 +139,11 @@
       "lex_timkat"
     ],
     "sentenceIds": [
-      "sen_ingida_konjo"
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -160,7 +172,11 @@
       "lex_timkat"
     ],
     "sentenceIds": [
-      "sen_ingida_konjo"
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

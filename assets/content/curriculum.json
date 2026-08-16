@@ -555,7 +555,15 @@
     "sentences_eritrea_mehr5.json",
     "sentences_eritrea_mehr6.json",
     "sentences_safari_bindewoerter.json",
-    "sentences_eritrea_dahlak.json"
+    "sentences_eritrea_dahlak.json",
+    "sentences_gen_addisabeba.json",
+    "sentences_gen_tigray.json",
+    "sentences_gen_oromia.json",
+    "sentences_gen_sidama.json",
+    "sentences_gen_harar.json",
+    "sentences_gen_keren.json",
+    "sentences_gen_asmara.json",
+    "sentences_gen_massawa.json"
   ],
   "sections": [
     {

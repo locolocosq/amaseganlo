@@ -1,0 +1,3417 @@
+[
+  {
+    "id": "sen_gen_v_kommen",
+    "am": "መምጣት እፈልጋለሁ።",
+    "tr": "memt'at ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_kommen"
+    ],
+    "t": {
+      "de": "Ich möchte kommen.",
+      "en": "I want to come.",
+      "sv": "Jag vill komma.",
+      "nl": "Ik wil komen."
+    },
+    "alt": {},
+    "chunks": [
+      "memt'at",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_sehen",
+    "am": "ማየት እፈልጋለሁ።",
+    "tr": "mayet ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_sehen"
+    ],
+    "t": {
+      "de": "Ich möchte sehen.",
+      "en": "I want to see.",
+      "sv": "Jag vill se.",
+      "nl": "Ik wil zien."
+    },
+    "alt": {},
+    "chunks": [
+      "mayet",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_machen",
+    "am": "ማድረግ እፈልጋለሁ።",
+    "tr": "madirege ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_machen"
+    ],
+    "t": {
+      "de": "Ich möchte machen, tun.",
+      "en": "I want to do, to make.",
+      "sv": "Jag vill göra.",
+      "nl": "Ik wil doen, maken."
+    },
+    "alt": {},
+    "chunks": [
+      "madirege",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ich_ging",
+    "am": "ሄድኩ።",
+    "tr": "hedku.",
+    "level": "A2",
+    "uses": [
+      "lex_ich_ging"
+    ],
+    "t": {
+      "de": "ich ging.",
+      "en": "I went.",
+      "sv": "jag gick.",
+      "nl": "ik ging."
+    },
+    "alt": {},
+    "chunks": [
+      "hedku."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ich_ass",
+    "am": "በላሁ።",
+    "tr": "belahu.",
+    "level": "A2",
+    "uses": [
+      "lex_ich_ass"
+    ],
+    "t": {
+      "de": "ich aß.",
+      "en": "I ate.",
+      "sv": "jag åt.",
+      "nl": "ik at."
+    },
+    "alt": {},
+    "chunks": [
+      "belahu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ich_trank",
+    "am": "ጠጣሁ።",
+    "tr": "t'et'ahu.",
+    "level": "A2",
+    "uses": [
+      "lex_ich_trank"
+    ],
+    "t": {
+      "de": "ich trank.",
+      "en": "I drank.",
+      "sv": "jag drack.",
+      "nl": "ik dronk."
+    },
+    "alt": {},
+    "chunks": [
+      "t'et'ahu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_lachen",
+    "am": "መሳቅ እፈልጋለሁ።",
+    "tr": "mesak' ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_lachen"
+    ],
+    "t": {
+      "de": "Ich möchte lachen.",
+      "en": "I want to laugh.",
+      "sv": "Jag vill skratta.",
+      "nl": "Ik wil lachen."
+    },
+    "alt": {},
+    "chunks": [
+      "mesak'",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_auge",
+    "am": "ዓይን አለ።",
+    "tr": "ayn ale.",
+    "level": "A2",
+    "uses": [
+      "lex_auge"
+    ],
+    "t": {
+      "de": "das Auge ist vorhanden.",
+      "en": "There is eye.",
+      "sv": "Det finns öga.",
+      "nl": "Er is oog."
+    },
+    "alt": {},
+    "chunks": [
+      "ayn",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ohr",
+    "am": "ጆሮ አለ።",
+    "tr": "joro ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ohr"
+    ],
+    "t": {
+      "de": "das Ohr ist vorhanden.",
+      "en": "There is ear.",
+      "sv": "Det finns öra.",
+      "nl": "Er is oor."
+    },
+    "alt": {},
+    "chunks": [
+      "joro",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nase",
+    "am": "አፍንጫ አለ።",
+    "tr": "afincha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_nase"
+    ],
+    "t": {
+      "de": "die Nase ist vorhanden.",
+      "en": "There is nose.",
+      "sv": "Det finns näsa.",
+      "nl": "Er is neus."
+    },
+    "alt": {},
+    "chunks": [
+      "afincha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_beruf",
+    "am": "ስራ አለ።",
+    "tr": "sira ale.",
+    "level": "A2",
+    "uses": [
+      "lex_beruf"
+    ],
+    "t": {
+      "de": "die Arbeit, der Beruf ist vorhanden.",
+      "en": "There is work, job.",
+      "sv": "Det finns arbete, jobb.",
+      "nl": "Er is werk, baan."
+    },
+    "alt": {},
+    "chunks": [
+      "sira",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_buero",
+    "am": "ቢሮ አለ።",
+    "tr": "biro ale.",
+    "level": "A2",
+    "uses": [
+      "lex_buero"
+    ],
+    "t": {
+      "de": "das Büro ist vorhanden.",
+      "en": "There is office.",
+      "sv": "Det finns kontor.",
+      "nl": "Er is kantoor."
+    },
+    "alt": {},
+    "chunks": [
+      "biro",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lehrer",
+    "am": "አስተማሪ አለ።",
+    "tr": "astemari ale.",
+    "level": "A2",
+    "uses": [
+      "lex_lehrer"
+    ],
+    "t": {
+      "de": "der Lehrer, die Lehrerin ist vorhanden.",
+      "en": "There is teacher.",
+      "sv": "Det finns lärare.",
+      "nl": "Er is leraar."
+    },
+    "alt": {},
+    "chunks": [
+      "astemari",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bus",
+    "am": "አውቶቢስ አለ።",
+    "tr": "awtobis ale.",
+    "level": "A2",
+    "uses": [
+      "lex_bus"
+    ],
+    "t": {
+      "de": "der Bus ist vorhanden.",
+      "en": "There is bus.",
+      "sv": "Det finns buss.",
+      "nl": "Er is bus."
+    },
+    "alt": {},
+    "chunks": [
+      "awtobis",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_taxi",
+    "am": "ታክሲ አለ።",
+    "tr": "taksi ale.",
+    "level": "A2",
+    "uses": [
+      "lex_taxi"
+    ],
+    "t": {
+      "de": "das Taxi ist vorhanden.",
+      "en": "There is taxi.",
+      "sv": "Det finns taxi.",
+      "nl": "Er is taxi."
+    },
+    "alt": {},
+    "chunks": [
+      "taksi",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ticket",
+    "am": "ትኬት አለ።",
+    "tr": "tiket ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ticket"
+    ],
+    "t": {
+      "de": "das Ticket, die Fahrkarte ist vorhanden.",
+      "en": "There is ticket.",
+      "sv": "Det finns biljett.",
+      "nl": "Er is ticket."
+    },
+    "alt": {},
+    "chunks": [
+      "tiket",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gepaeck",
+    "am": "ሻንጣ አለ።",
+    "tr": "shanta ale.",
+    "level": "A2",
+    "uses": [
+      "lex_gepaeck"
+    ],
+    "t": {
+      "de": "das Gepäck, die Tasche ist vorhanden.",
+      "en": "There is luggage, bag.",
+      "sv": "Det finns bagage.",
+      "nl": "Er is bagage."
+    },
+    "alt": {},
+    "chunks": [
+      "shanta",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_regen",
+    "am": "ዝናብ አለ።",
+    "tr": "zinab ale.",
+    "level": "A2",
+    "uses": [
+      "lex_regen"
+    ],
+    "t": {
+      "de": "der Regen ist vorhanden.",
+      "en": "There is rain.",
+      "sv": "Det finns regn.",
+      "nl": "Er is regen."
+    },
+    "alt": {},
+    "chunks": [
+      "zinab",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wind",
+    "am": "ነፋስ አለ።",
+    "tr": "nefas ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wind"
+    ],
+    "t": {
+      "de": "der Wind ist vorhanden.",
+      "en": "There is wind.",
+      "sv": "Det finns vind.",
+      "nl": "Er is wind."
+    },
+    "alt": {},
+    "chunks": [
+      "nefas",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_berg",
+    "am": "ተራራ አለ።",
+    "tr": "terara ale.",
+    "level": "A2",
+    "uses": [
+      "lex_berg"
+    ],
+    "t": {
+      "de": "der Berg ist vorhanden.",
+      "en": "There is mountain.",
+      "sv": "Det finns berg.",
+      "nl": "Er is berg."
+    },
+    "alt": {},
+    "chunks": [
+      "terara",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_koch",
+    "am": "አብሳይ አለ።",
+    "tr": "abesay ale.",
+    "level": "A2",
+    "uses": [
+      "lex_koch"
+    ],
+    "t": {
+      "de": "der Koch, die Köchin ist vorhanden.",
+      "en": "There is cook.",
+      "sv": "Det finns kock.",
+      "nl": "Er is kok."
+    },
+    "alt": {},
+    "chunks": [
+      "abesay",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fahrer",
+    "am": "ሹፌር አለ።",
+    "tr": "shoferr ale.",
+    "level": "A2",
+    "uses": [
+      "lex_fahrer"
+    ],
+    "t": {
+      "de": "der Fahrer ist vorhanden.",
+      "en": "There is driver.",
+      "sv": "Det finns förare.",
+      "nl": "Er is chauffeur."
+    },
+    "alt": {},
+    "chunks": [
+      "shoferr",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ingenieur",
+    "am": "ኢንጂነር አለ።",
+    "tr": "injinerr ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ingenieur"
+    ],
+    "t": {
+      "de": "der Ingenieur ist vorhanden.",
+      "en": "There is engineer.",
+      "sv": "Det finns ingenjör.",
+      "nl": "Er is ingenieur."
+    },
+    "alt": {},
+    "chunks": [
+      "injinerr",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kuenstler",
+    "am": "አርቲስት አለ።",
+    "tr": "artist ale.",
+    "level": "A2",
+    "uses": [
+      "lex_kuenstler"
+    ],
+    "t": {
+      "de": "der Künstler ist vorhanden.",
+      "en": "There is artist.",
+      "sv": "Det finns konstnär.",
+      "nl": "Er is kunstenaar."
+    },
+    "alt": {},
+    "chunks": [
+      "artist",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_schwimmen",
+    "am": "መዋኘት እፈልጋለሁ።",
+    "tr": "mewagnet ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_schwimmen"
+    ],
+    "t": {
+      "de": "Ich möchte schwimmen.",
+      "en": "I want to swim.",
+      "sv": "Jag vill simma.",
+      "nl": "Ik wil zwemmen."
+    },
+    "alt": {},
+    "chunks": [
+      "mewagnet",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_musik",
+    "am": "ሙዚቃ አለ።",
+    "tr": "muzika ale.",
+    "level": "A2",
+    "uses": [
+      "lex_musik"
+    ],
+    "t": {
+      "de": "die Musik ist vorhanden.",
+      "en": "There is music.",
+      "sv": "Det finns musik.",
+      "nl": "Er is muziek."
+    },
+    "alt": {},
+    "chunks": [
+      "muzika",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_film",
+    "am": "ፊልም አለ።",
+    "tr": "film ale.",
+    "level": "A2",
+    "uses": [
+      "lex_film"
+    ],
+    "t": {
+      "de": "der Film ist vorhanden.",
+      "en": "There is film, movie.",
+      "sv": "Det finns film.",
+      "nl": "Er is film."
+    },
+    "alt": {},
+    "chunks": [
+      "film",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_radio",
+    "am": "ራድዮ አለ።",
+    "tr": "radiyo ale.",
+    "level": "A2",
+    "uses": [
+      "lex_radio"
+    ],
+    "t": {
+      "de": "das Radio ist vorhanden.",
+      "en": "There is radio.",
+      "sv": "Det finns radio.",
+      "nl": "Er is radio."
+    },
+    "alt": {},
+    "chunks": [
+      "radiyo",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_langsam",
+    "am": "እሱ ዝግተኛ ነው።",
+    "tr": "issu zigitegna new.",
+    "level": "A2",
+    "uses": [
+      "lex_langsam"
+    ],
+    "t": {
+      "de": "Er ist langsam.",
+      "en": "He is slow.",
+      "sv": "Han är långsam.",
+      "nl": "Hij is langzaam."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "zigitegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sauber",
+    "am": "እሱ ንጹህ ነው።",
+    "tr": "issu nitsuh new.",
+    "level": "A2",
+    "uses": [
+      "lex_sauber"
+    ],
+    "t": {
+      "de": "Er ist sauber.",
+      "en": "He is clean.",
+      "sv": "Han är ren.",
+      "nl": "Hij is schoon."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "nitsuh",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schmutzig",
+    "am": "እሱ ቆሻሻ ነው።",
+    "tr": "issu k'oshasha new.",
+    "level": "A2",
+    "uses": [
+      "lex_schmutzig"
+    ],
+    "t": {
+      "de": "Er ist schmutzig.",
+      "en": "He is dirty.",
+      "sv": "Han är smutsig.",
+      "nl": "Hij is vuil."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "k'oshasha",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_voll",
+    "am": "እሱ ሙሉ ነው።",
+    "tr": "issu mulu new.",
+    "level": "A2",
+    "uses": [
+      "lex_voll"
+    ],
+    "t": {
+      "de": "Er ist voll.",
+      "en": "He is full.",
+      "sv": "Han är full.",
+      "nl": "Hij is vol."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "mulu",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_england",
+    "am": "እንግሊዝ አለ።",
+    "tr": "ingiliz ale.",
+    "level": "A2",
+    "uses": [
+      "lex_england"
+    ],
+    "t": {
+      "de": "England ist vorhanden.",
+      "en": "There is England.",
+      "sv": "Det finns England.",
+      "nl": "Er is Engeland."
+    },
+    "alt": {},
+    "chunks": [
+      "ingiliz",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schweden",
+    "am": "ስዊድን አለ።",
+    "tr": "swidin ale.",
+    "level": "A2",
+    "uses": [
+      "lex_schweden"
+    ],
+    "t": {
+      "de": "Schweden ist vorhanden.",
+      "en": "There is Sweden.",
+      "sv": "Det finns Sverige.",
+      "nl": "Er is Zweden."
+    },
+    "alt": {},
+    "chunks": [
+      "swidin",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_niederlande",
+    "am": "ሆላንድ አለ።",
+    "tr": "holand ale.",
+    "level": "A2",
+    "uses": [
+      "lex_niederlande"
+    ],
+    "t": {
+      "de": "die Niederlande, Holland ist vorhanden.",
+      "en": "There is the Netherlands, Holland.",
+      "sv": "Det finns Nederländerna, Holland.",
+      "nl": "Er is Nederland, Holland."
+    },
+    "alt": {},
+    "chunks": [
+      "holand",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frankreich",
+    "am": "ፈረንሳይ አለ።",
+    "tr": "ferensay ale.",
+    "level": "A2",
+    "uses": [
+      "lex_frankreich"
+    ],
+    "t": {
+      "de": "Frankreich ist vorhanden.",
+      "en": "There is France.",
+      "sv": "Det finns Frankrike.",
+      "nl": "Er is Frankrijk."
+    },
+    "alt": {},
+    "chunks": [
+      "ferensay",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_bauen",
+    "am": "መገንባት እፈልጋለሁ።",
+    "tr": "megenbat ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_bauen"
+    ],
+    "t": {
+      "de": "Ich möchte bauen.",
+      "en": "I want to build.",
+      "sv": "Jag vill bygga.",
+      "nl": "Ik wil bouwen."
+    },
+    "alt": {},
+    "chunks": [
+      "megenbat",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_tragen",
+    "am": "መሸከም እፈልጋለሁ።",
+    "tr": "meshekem ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_tragen"
+    ],
+    "t": {
+      "de": "Ich möchte tragen.",
+      "en": "I want to carry.",
+      "sv": "Jag vill bära.",
+      "nl": "Ik wil dragen."
+    },
+    "alt": {},
+    "chunks": [
+      "meshekem",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_ziehen",
+    "am": "መጎተት እፈልጋለሁ።",
+    "tr": "megotet ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_ziehen"
+    ],
+    "t": {
+      "de": "Ich möchte ziehen.",
+      "en": "I want to pull.",
+      "sv": "Jag vill dra.",
+      "nl": "Ik wil trekken."
+    },
+    "alt": {},
+    "chunks": [
+      "megotet",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_fallen",
+    "am": "መውደቅ እፈልጋለሁ።",
+    "tr": "mewdek' ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_fallen"
+    ],
+    "t": {
+      "de": "Ich möchte fallen.",
+      "en": "I want to fall.",
+      "sv": "Jag vill falla.",
+      "nl": "Ik wil vallen."
+    },
+    "alt": {},
+    "chunks": [
+      "mewdek'",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_springen",
+    "am": "መዝለል እፈልጋለሁ።",
+    "tr": "mezlel ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_springen"
+    ],
+    "t": {
+      "de": "Ich möchte springen.",
+      "en": "I want to jump.",
+      "sv": "Jag vill hoppa.",
+      "nl": "Ik wil springen."
+    },
+    "alt": {},
+    "chunks": [
+      "mezlel",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_holz",
+    "am": "እንጨት አለ።",
+    "tr": "inchet ale.",
+    "level": "A2",
+    "uses": [
+      "lex_holz"
+    ],
+    "t": {
+      "de": "das Holz ist vorhanden.",
+      "en": "There is wood.",
+      "sv": "Det finns trä.",
+      "nl": "Er is hout."
+    },
+    "alt": {},
+    "chunks": [
+      "inchet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stein",
+    "am": "ድንጋይ አለ።",
+    "tr": "dingay ale.",
+    "level": "A2",
+    "uses": [
+      "lex_stein"
+    ],
+    "t": {
+      "de": "der Stein ist vorhanden.",
+      "en": "There is stone.",
+      "sv": "Det finns sten.",
+      "nl": "Er is steen."
+    },
+    "alt": {},
+    "chunks": [
+      "dingay",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_eisen",
+    "am": "ብረት አለ።",
+    "tr": "biret ale.",
+    "level": "A2",
+    "uses": [
+      "lex_eisen"
+    ],
+    "t": {
+      "de": "das Eisen, Metall ist vorhanden.",
+      "en": "There is iron, metal.",
+      "sv": "Det finns järn, metall.",
+      "nl": "Er is ijzer, metaal."
+    },
+    "alt": {},
+    "chunks": [
+      "biret",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_plastik",
+    "am": "ላስቲክ አለ።",
+    "tr": "lastik ale.",
+    "level": "A2",
+    "uses": [
+      "lex_plastik"
+    ],
+    "t": {
+      "de": "das Plastik ist vorhanden.",
+      "en": "There is plastic.",
+      "sv": "Det finns plast.",
+      "nl": "Er is plastic."
+    },
+    "alt": {},
+    "chunks": [
+      "lastik",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_reparieren",
+    "am": "መጠገን እፈልጋለሁ።",
+    "tr": "met'egen ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_reparieren"
+    ],
+    "t": {
+      "de": "Ich möchte reparieren.",
+      "en": "I want to repair.",
+      "sv": "Jag vill reparera.",
+      "nl": "Ik wil repareren."
+    },
+    "alt": {},
+    "chunks": [
+      "met'egen",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_beginnen",
+    "am": "መጀመር እፈልጋለሁ።",
+    "tr": "mejemer ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_beginnen"
+    ],
+    "t": {
+      "de": "Ich möchte beginnen.",
+      "en": "I want to begin.",
+      "sv": "Jag vill börja.",
+      "nl": "Ik wil beginnen."
+    },
+    "alt": {},
+    "chunks": [
+      "mejemer",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_aufhoeren",
+    "am": "ማቆም እፈልጋለሁ።",
+    "tr": "mak'om ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_aufhoeren"
+    ],
+    "t": {
+      "de": "Ich möchte aufhören, anhalten.",
+      "en": "I want to stop.",
+      "sv": "Jag vill sluta, stanna.",
+      "nl": "Ik wil stoppen."
+    },
+    "alt": {},
+    "chunks": [
+      "mak'om",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_gewinnen",
+    "am": "ማሸነፍ እፈልጋለሁ።",
+    "tr": "mashenef ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_gewinnen"
+    ],
+    "t": {
+      "de": "Ich möchte gewinnen.",
+      "en": "I want to win.",
+      "sv": "Jag vill vinna.",
+      "nl": "Ik wil winnen."
+    },
+    "alt": {},
+    "chunks": [
+      "mashenef",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_verlieren",
+    "am": "ማጣት እፈልጋለሁ።",
+    "tr": "mat'at ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_verlieren"
+    ],
+    "t": {
+      "de": "Ich möchte verlieren.",
+      "en": "I want to lose.",
+      "sv": "Jag vill förlora.",
+      "nl": "Ik wil verliezen."
+    },
+    "alt": {},
+    "chunks": [
+      "mat'at",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_bezahlen",
+    "am": "መክፈል እፈልጋለሁ።",
+    "tr": "mekfel ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_bezahlen"
+    ],
+    "t": {
+      "de": "Ich möchte bezahlen.",
+      "en": "I want to pay.",
+      "sv": "Jag vill betala.",
+      "nl": "Ik wil betalen."
+    },
+    "alt": {},
+    "chunks": [
+      "mekfel",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_telefon",
+    "am": "ስልክ አለ።",
+    "tr": "silk ale.",
+    "level": "A2",
+    "uses": [
+      "lex_telefon"
+    ],
+    "t": {
+      "de": "das Telefon, Handy ist vorhanden.",
+      "en": "There is telephone, phone.",
+      "sv": "Det finns telefon.",
+      "nl": "Er is telefoon."
+    },
+    "alt": {},
+    "chunks": [
+      "silk",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_internet",
+    "am": "ኢንተርኔት አለ።",
+    "tr": "internet ale.",
+    "level": "A2",
+    "uses": [
+      "lex_internet"
+    ],
+    "t": {
+      "de": "das Internet ist vorhanden.",
+      "en": "There is internet.",
+      "sv": "Det finns internet.",
+      "nl": "Er is internet."
+    },
+    "alt": {},
+    "chunks": [
+      "internet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_email",
+    "am": "ኢሜል አለ።",
+    "tr": "imayl ale.",
+    "level": "A2",
+    "uses": [
+      "lex_email"
+    ],
+    "t": {
+      "de": "die E-Mail ist vorhanden.",
+      "en": "There is email.",
+      "sv": "Det finns e-post.",
+      "nl": "Er is e-mail."
+    },
+    "alt": {},
+    "chunks": [
+      "imayl",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nachricht",
+    "am": "መልእክት አለ።",
+    "tr": "melikt ale.",
+    "level": "A2",
+    "uses": [
+      "lex_nachricht"
+    ],
+    "t": {
+      "de": "die Nachricht ist vorhanden.",
+      "en": "There is message.",
+      "sv": "Det finns meddelande.",
+      "nl": "Er is bericht."
+    },
+    "alt": {},
+    "chunks": [
+      "melikt",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_batterie",
+    "am": "ባትሪ አለ።",
+    "tr": "batri ale.",
+    "level": "A2",
+    "uses": [
+      "lex_batterie"
+    ],
+    "t": {
+      "de": "die Batterie ist vorhanden.",
+      "en": "There is battery.",
+      "sv": "Det finns batteri.",
+      "nl": "Er is batterij."
+    },
+    "alt": {},
+    "chunks": [
+      "batri",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_impfung",
+    "am": "ክትባት አለ።",
+    "tr": "kitibat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_impfung"
+    ],
+    "t": {
+      "de": "die Impfung ist vorhanden.",
+      "en": "There is vaccination.",
+      "sv": "Det finns vaccination.",
+      "nl": "Er is vaccinatie."
+    },
+    "alt": {},
+    "chunks": [
+      "kitibat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_verletzung",
+    "am": "ጉዳት አለ።",
+    "tr": "gudat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_verletzung"
+    ],
+    "t": {
+      "de": "die Verletzung ist vorhanden.",
+      "en": "There is injury.",
+      "sv": "Det finns skada.",
+      "nl": "Er is verwonding."
+    },
+    "alt": {},
+    "chunks": [
+      "gudat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_unfall",
+    "am": "አደጋ አለ።",
+    "tr": "adega ale.",
+    "level": "A2",
+    "uses": [
+      "lex_unfall"
+    ],
+    "t": {
+      "de": "der Unfall ist vorhanden.",
+      "en": "There is accident.",
+      "sv": "Det finns olycka.",
+      "nl": "Er is ongeluk."
+    },
+    "alt": {},
+    "chunks": [
+      "adega",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_regenbogen",
+    "am": "ቀስተ ደመና አለ።",
+    "tr": "k'este demena ale.",
+    "level": "A2",
+    "uses": [
+      "lex_regenbogen"
+    ],
+    "t": {
+      "de": "der Regenbogen ist vorhanden.",
+      "en": "There is rainbow.",
+      "sv": "Det finns regnbåge.",
+      "nl": "Er is regenboog."
+    },
+    "alt": {},
+    "chunks": [
+      "k'este",
+      "demena",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wueste",
+    "am": "በረሃ አለ።",
+    "tr": "bereha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wueste"
+    ],
+    "t": {
+      "de": "die Wüste ist vorhanden.",
+      "en": "There is desert.",
+      "sv": "Det finns öken.",
+      "nl": "Er is woestijn."
+    },
+    "alt": {},
+    "chunks": [
+      "bereha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_eifersuechtig",
+    "am": "እሱ ቀናተኛ ነው።",
+    "tr": "issu kenategna new.",
+    "level": "A2",
+    "uses": [
+      "lex_eifersuechtig"
+    ],
+    "t": {
+      "de": "Er ist eifersüchtig.",
+      "en": "He is jealous.",
+      "sv": "Han är jalousk.",
+      "nl": "Hij is jaloers."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "kenategna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_erstaunt",
+    "am": "መገረም እፈልጋለሁ።",
+    "tr": "megerem ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_erstaunt"
+    ],
+    "t": {
+      "de": "Ich möchte erstaunt sein, sich wundern.",
+      "en": "I want to be amazed.",
+      "sv": "Jag vill bli förvånad.",
+      "nl": "Ik wil verbaasd zijn."
+    },
+    "alt": {},
+    "chunks": [
+      "megerem",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_besorgt",
+    "am": "መጨነቅ እፈልጋለሁ።",
+    "tr": "mechenek' ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_besorgt"
+    ],
+    "t": {
+      "de": "Ich möchte besorgt sein, sich sorgen.",
+      "en": "I want to worry.",
+      "sv": "Jag vill oroa sig.",
+      "nl": "Ik wil zich zorgen maken."
+    },
+    "alt": {},
+    "chunks": [
+      "mechenek'",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_verlegen",
+    "am": "ማፈር እፈልጋለሁ።",
+    "tr": "mafer ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_verlegen"
+    ],
+    "t": {
+      "de": "Ich möchte verlegen/beschämt sein.",
+      "en": "I want to be embarrassed.",
+      "sv": "Jag vill skämmas.",
+      "nl": "Ik wil zich schamen."
+    },
+    "alt": {},
+    "chunks": [
+      "mafer",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_einsamkeit",
+    "am": "ብቸኝነት አለ።",
+    "tr": "bichegninet ale.",
+    "level": "A2",
+    "uses": [
+      "lex_einsamkeit"
+    ],
+    "t": {
+      "de": "die Einsamkeit ist vorhanden.",
+      "en": "There is loneliness.",
+      "sv": "Det finns ensamhet.",
+      "nl": "Er is eenzaamheid."
+    },
+    "alt": {},
+    "chunks": [
+      "bichegninet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_intelligent",
+    "am": "እሱ አስተዋይ ነው።",
+    "tr": "issu astewai new.",
+    "level": "A2",
+    "uses": [
+      "lex_intelligent"
+    ],
+    "t": {
+      "de": "Er ist intelligent, klug.",
+      "en": "He is intelligent, clever.",
+      "sv": "Han är intelligent.",
+      "nl": "Hij is intelligent."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "astewai",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_faul",
+    "am": "እሱ ስንፍተኛ ነው።",
+    "tr": "issu sinfitegna new.",
+    "level": "A2",
+    "uses": [
+      "lex_faul"
+    ],
+    "t": {
+      "de": "Er ist faul.",
+      "en": "He is lazy.",
+      "sv": "Han är lat.",
+      "nl": "Hij is lui."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "sinfitegna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fleissig",
+    "am": "እሱ ታታሪ ነው።",
+    "tr": "issu tatari new.",
+    "level": "A2",
+    "uses": [
+      "lex_fleissig"
+    ],
+    "t": {
+      "de": "Er ist fleißig.",
+      "en": "He is hardworking.",
+      "sv": "Han är flitig.",
+      "nl": "Hij is hardwerkend."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "tatari",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ehrlich",
+    "am": "እሱ ታማኝ ነው።",
+    "tr": "issu tamagn new.",
+    "level": "A2",
+    "uses": [
+      "lex_ehrlich"
+    ],
+    "t": {
+      "de": "Er ist ehrlich, treu.",
+      "en": "He is honest, loyal.",
+      "sv": "Han är ärlig, trogen.",
+      "nl": "Hij is eerlijk, trouw."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "tamagn",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grossherzig",
+    "am": "እሱ ቸር ነው።",
+    "tr": "issu cher new.",
+    "level": "A2",
+    "uses": [
+      "lex_grossherzig"
+    ],
+    "t": {
+      "de": "Er ist großherzig, gütig.",
+      "en": "He is generous, kind.",
+      "sv": "Han är generös.",
+      "nl": "Hij is gul."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "cher",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_richter",
+    "am": "ዳኛ አለ።",
+    "tr": "dagna ale.",
+    "level": "A2",
+    "uses": [
+      "lex_richter"
+    ],
+    "t": {
+      "de": "der Richter ist vorhanden.",
+      "en": "There is judge.",
+      "sv": "Det finns domare.",
+      "nl": "Er is rechter."
+    },
+    "alt": {},
+    "chunks": [
+      "dagna",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_priester",
+    "am": "ቄስ አለ።",
+    "tr": "k'es ale.",
+    "level": "A2",
+    "uses": [
+      "lex_priester"
+    ],
+    "t": {
+      "de": "der Priester ist vorhanden.",
+      "en": "There is priest.",
+      "sv": "Det finns präst.",
+      "nl": "Er is priester."
+    },
+    "alt": {},
+    "chunks": [
+      "k'es",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schneider",
+    "am": "ልብስ ስፌት አለ።",
+    "tr": "libs sifet ale.",
+    "level": "A2",
+    "uses": [
+      "lex_schneider"
+    ],
+    "t": {
+      "de": "der Schneider ist vorhanden.",
+      "en": "There is tailor.",
+      "sv": "Det finns skräddare.",
+      "nl": "Er is kleermaker."
+    },
+    "alt": {},
+    "chunks": [
+      "libs",
+      "sifet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zimmermann",
+    "am": "ጣውላ ሰራተኛ አለ።",
+    "tr": "t'awila serategna ale.",
+    "level": "A2",
+    "uses": [
+      "lex_zimmermann"
+    ],
+    "t": {
+      "de": "der Zimmermann, Schreiner ist vorhanden.",
+      "en": "There is carpenter.",
+      "sv": "Det finns snickare.",
+      "nl": "Er is timmerman."
+    },
+    "alt": {},
+    "chunks": [
+      "t'awila",
+      "serategna",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sekretaer",
+    "am": "ፀሐፊ አለ።",
+    "tr": "tsehafi ale.",
+    "level": "A2",
+    "uses": [
+      "lex_sekretaer"
+    ],
+    "t": {
+      "de": "der/die Sekretär(in) ist vorhanden.",
+      "en": "There is secretary.",
+      "sv": "Det finns sekreterare.",
+      "nl": "Er is secretaresse."
+    },
+    "alt": {},
+    "chunks": [
+      "tsehafi",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rabatt",
+    "am": "ቅናሽ አለ።",
+    "tr": "k'inash ale.",
+    "level": "A2",
+    "uses": [
+      "lex_rabatt"
+    ],
+    "t": {
+      "de": "der Rabatt ist vorhanden.",
+      "en": "There is discount.",
+      "sv": "Det finns rabatt.",
+      "nl": "Er is korting."
+    },
+    "alt": {},
+    "chunks": [
+      "k'inash",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_quittung",
+    "am": "ደረሰኝ አለ።",
+    "tr": "deresegn ale.",
+    "level": "A2",
+    "uses": [
+      "lex_quittung"
+    ],
+    "t": {
+      "de": "die Quittung ist vorhanden.",
+      "en": "There is receipt.",
+      "sv": "Det finns kvitto.",
+      "nl": "Er is bon."
+    },
+    "alt": {},
+    "chunks": [
+      "deresegn",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bargeld",
+    "am": "ጥሬ ገንዘብ አለ።",
+    "tr": "t'ire genzeb ale.",
+    "level": "A2",
+    "uses": [
+      "lex_bargeld"
+    ],
+    "t": {
+      "de": "das Bargeld ist vorhanden.",
+      "en": "There is cash.",
+      "sv": "Det finns kontanter.",
+      "nl": "Er is contant geld."
+    },
+    "alt": {},
+    "chunks": [
+      "t'ire",
+      "genzeb",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kreditkarte",
+    "am": "ክሬዲት ካርድ አለ።",
+    "tr": "kredit kard ale.",
+    "level": "A2",
+    "uses": [
+      "lex_kreditkarte"
+    ],
+    "t": {
+      "de": "die Kreditkarte ist vorhanden.",
+      "en": "There is credit card.",
+      "sv": "Det finns kreditkort.",
+      "nl": "Er is creditcard."
+    },
+    "alt": {},
+    "chunks": [
+      "kredit",
+      "kard",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_geldbeutel",
+    "am": "ቦርሳ ገንዘብ አለ።",
+    "tr": "borsa genzeb ale.",
+    "level": "A2",
+    "uses": [
+      "lex_geldbeutel"
+    ],
+    "t": {
+      "de": "der Geldbeutel ist vorhanden.",
+      "en": "There is wallet.",
+      "sv": "Det finns plånbok.",
+      "nl": "Er is portemonnee."
+    },
+    "alt": {},
+    "chunks": [
+      "borsa",
+      "genzeb",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ampel",
+    "am": "የመንገድ መብራት አለ።",
+    "tr": "yemenged mebrat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ampel"
+    ],
+    "t": {
+      "de": "die Ampel ist vorhanden.",
+      "en": "There is traffic light.",
+      "sv": "Det finns trafikljus.",
+      "nl": "Er is verkeerslicht."
+    },
+    "alt": {},
+    "chunks": [
+      "yemenged",
+      "mebrat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fahrkarte",
+    "am": "ትኬት አለ።",
+    "tr": "tiket ale.",
+    "level": "A2",
+    "uses": [
+      "lex_fahrkarte"
+    ],
+    "t": {
+      "de": "die Fahrkarte, das Ticket ist vorhanden.",
+      "en": "There is ticket.",
+      "sv": "Det finns biljett.",
+      "nl": "Er is ticket."
+    },
+    "alt": {},
+    "chunks": [
+      "tiket",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bushaltestelle",
+    "am": "የአውቶብስ ማቆሚያ አለ።",
+    "tr": "yeawtobis mak'omiya ale.",
+    "level": "A2",
+    "uses": [
+      "lex_bushaltestelle"
+    ],
+    "t": {
+      "de": "die Bushaltestelle ist vorhanden.",
+      "en": "There is bus stop.",
+      "sv": "Det finns busshållplats.",
+      "nl": "Er is bushalte."
+    },
+    "alt": {},
+    "chunks": [
+      "yeawtobis",
+      "mak'omiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fuehrerschein",
+    "am": "የመንጃ ፍቃድ አለ።",
+    "tr": "yemenja fik'ad ale.",
+    "level": "A2",
+    "uses": [
+      "lex_fuehrerschein"
+    ],
+    "t": {
+      "de": "der Führerschein ist vorhanden.",
+      "en": "There is driver's license.",
+      "sv": "Det finns körkort.",
+      "nl": "Er is rijbewijs."
+    },
+    "alt": {},
+    "chunks": [
+      "yemenja",
+      "fik'ad",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tankstelle",
+    "am": "ነዳጅ ማደያ አለ።",
+    "tr": "nedaj madeya ale.",
+    "level": "A2",
+    "uses": [
+      "lex_tankstelle"
+    ],
+    "t": {
+      "de": "die Tankstelle ist vorhanden.",
+      "en": "There is gas station.",
+      "sv": "Det finns bensinstation.",
+      "nl": "Er is tankstation."
+    },
+    "alt": {},
+    "chunks": [
+      "nedaj",
+      "madeya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nah",
+    "am": "እሱ የቀረበ ነው።",
+    "tr": "issu yekerebe new.",
+    "level": "A2",
+    "uses": [
+      "lex_nah"
+    ],
+    "t": {
+      "de": "Er ist nah.",
+      "en": "He is near.",
+      "sv": "Han är nära.",
+      "nl": "Hij is dichtbij."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "yekerebe",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fern",
+    "am": "እሱ የራቀ ነው።",
+    "tr": "issu yerak'e new.",
+    "level": "A2",
+    "uses": [
+      "lex_fern"
+    ],
+    "t": {
+      "de": "Er ist fern, weit.",
+      "en": "He is far.",
+      "sv": "Han är långt bort.",
+      "nl": "Hij is ver."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "yerak'e",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ecke",
+    "am": "ኩርንችት አለ።",
+    "tr": "kurunchit ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ecke"
+    ],
+    "t": {
+      "de": "die Ecke ist vorhanden.",
+      "en": "There is corner.",
+      "sv": "Det finns hörn.",
+      "nl": "Er is hoek."
+    },
+    "alt": {},
+    "chunks": [
+      "kurunchit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tankstelle_2",
+    "am": "ነዳጅ ማደያ አለ።",
+    "tr": "nedaj madeya ale.",
+    "level": "A2",
+    "uses": [
+      "lex_tankstelle"
+    ],
+    "t": {
+      "de": "die Tankstelle ist vorhanden.",
+      "en": "There is gas station.",
+      "sv": "Det finns bensinstation.",
+      "nl": "Er is tankstation."
+    },
+    "alt": {},
+    "chunks": [
+      "nedaj",
+      "madeya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fuehrerschein_2",
+    "am": "የመንጃ ፍቃድ አለ።",
+    "tr": "yemenja fik'ad ale.",
+    "level": "A2",
+    "uses": [
+      "lex_fuehrerschein"
+    ],
+    "t": {
+      "de": "der Führerschein ist vorhanden.",
+      "en": "There is driver's license.",
+      "sv": "Det finns körkort.",
+      "nl": "Er is rijbewijs."
+    },
+    "alt": {},
+    "chunks": [
+      "yemenja",
+      "fik'ad",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_basketball",
+    "am": "ባስኬትቦል አለ።",
+    "tr": "basketbol ale.",
+    "level": "A2",
+    "uses": [
+      "lex_basketball"
+    ],
+    "t": {
+      "de": "der Basketball ist vorhanden.",
+      "en": "There is basketball.",
+      "sv": "Det finns basket.",
+      "nl": "Er is basketbal."
+    },
+    "alt": {},
+    "chunks": [
+      "basketbol",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schwimmen",
+    "am": "ውኃ ዋና አለ።",
+    "tr": "wiha wana ale.",
+    "level": "A2",
+    "uses": [
+      "lex_schwimmen"
+    ],
+    "t": {
+      "de": "das Schwimmen ist vorhanden.",
+      "en": "There is swimming.",
+      "sv": "Det finns simning.",
+      "nl": "Er is zwemmen."
+    },
+    "alt": {},
+    "chunks": [
+      "wiha",
+      "wana",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_laufen_sport",
+    "am": "ሩጫ አለ።",
+    "tr": "rucha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_laufen_sport"
+    ],
+    "t": {
+      "de": "das Laufen (Sport) ist vorhanden.",
+      "en": "There is running.",
+      "sv": "Det finns löpning.",
+      "nl": "Er is hardlopen."
+    },
+    "alt": {},
+    "chunks": [
+      "rucha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_team",
+    "am": "ቡድን አለ።",
+    "tr": "budin ale.",
+    "level": "A2",
+    "uses": [
+      "lex_team"
+    ],
+    "t": {
+      "de": "das Team, die Mannschaft ist vorhanden.",
+      "en": "There is team.",
+      "sv": "Det finns lag.",
+      "nl": "Er is team."
+    },
+    "alt": {},
+    "chunks": [
+      "budin",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tor_sport",
+    "am": "ጎል አለ።",
+    "tr": "gol ale.",
+    "level": "A2",
+    "uses": [
+      "lex_tor_sport"
+    ],
+    "t": {
+      "de": "das Tor (Sport) ist vorhanden.",
+      "en": "There is goal.",
+      "sv": "Det finns mål.",
+      "nl": "Er is doelpunt."
+    },
+    "alt": {},
+    "chunks": [
+      "gol",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ozean",
+    "am": "ውቅያኖስ አለ።",
+    "tr": "wik'yanos ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ozean"
+    ],
+    "t": {
+      "de": "der Ozean ist vorhanden.",
+      "en": "There is ocean.",
+      "sv": "Det finns ocean.",
+      "nl": "Er is oceaan."
+    },
+    "alt": {},
+    "chunks": [
+      "wik'yanos",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tal",
+    "am": "ሸለቆ አለ።",
+    "tr": "sheleko' ale.",
+    "level": "A2",
+    "uses": [
+      "lex_tal"
+    ],
+    "t": {
+      "de": "das Tal ist vorhanden.",
+      "en": "There is valley.",
+      "sv": "Det finns dal.",
+      "nl": "Er is vallei."
+    },
+    "alt": {},
+    "chunks": [
+      "sheleko'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_insel",
+    "am": "ደሴት አለ።",
+    "tr": "deset ale.",
+    "level": "A2",
+    "uses": [
+      "lex_insel"
+    ],
+    "t": {
+      "de": "die Insel ist vorhanden.",
+      "en": "There is island.",
+      "sv": "Det finns ö.",
+      "nl": "Er is eiland."
+    },
+    "alt": {},
+    "chunks": [
+      "deset",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_huegel",
+    "am": "ኮረብታ አለ።",
+    "tr": "korebita ale.",
+    "level": "A2",
+    "uses": [
+      "lex_huegel"
+    ],
+    "t": {
+      "de": "der Hügel ist vorhanden.",
+      "en": "There is hill.",
+      "sv": "Det finns kulle.",
+      "nl": "Er is heuvel."
+    },
+    "alt": {},
+    "chunks": [
+      "korebita",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hoehle",
+    "am": "ዋሻ አለ።",
+    "tr": "washa ale.",
+    "level": "A2",
+    "uses": [
+      "lex_hoehle"
+    ],
+    "t": {
+      "de": "die Höhle ist vorhanden.",
+      "en": "There is cave.",
+      "sv": "Det finns grotta.",
+      "nl": "Er is grot."
+    },
+    "alt": {},
+    "chunks": [
+      "washa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ernte",
+    "am": "መከር አለ።",
+    "tr": "mekker ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ernte"
+    ],
+    "t": {
+      "de": "die Ernte ist vorhanden.",
+      "en": "There is harvest.",
+      "sv": "Det finns skörd.",
+      "nl": "Er is oogst."
+    },
+    "alt": {},
+    "chunks": [
+      "mekker",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_samen",
+    "am": "ዘር አለ።",
+    "tr": "zer ale.",
+    "level": "A2",
+    "uses": [
+      "lex_samen"
+    ],
+    "t": {
+      "de": "der Same(n) ist vorhanden.",
+      "en": "There is seed.",
+      "sv": "Det finns frö.",
+      "nl": "Er is zaad."
+    },
+    "alt": {},
+    "chunks": [
+      "zer",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_boden_erde",
+    "am": "አፈር አለ።",
+    "tr": "afer ale.",
+    "level": "A2",
+    "uses": [
+      "lex_boden_erde"
+    ],
+    "t": {
+      "de": "der Boden, die Erde ist vorhanden.",
+      "en": "There is soil.",
+      "sv": "Det finns jord.",
+      "nl": "Er is grond."
+    },
+    "alt": {},
+    "chunks": [
+      "afer",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_pflug",
+    "am": "ማረሻ አለ።",
+    "tr": "maresha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_pflug"
+    ],
+    "t": {
+      "de": "der Pflug ist vorhanden.",
+      "en": "There is plow.",
+      "sv": "Det finns plog.",
+      "nl": "Er is ploeg."
+    },
+    "alt": {},
+    "chunks": [
+      "maresha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_feldfrucht",
+    "am": "ምርት አለ።",
+    "tr": "mirt ale.",
+    "level": "A2",
+    "uses": [
+      "lex_feldfrucht"
+    ],
+    "t": {
+      "de": "die Feldfrucht, das Erzeugnis ist vorhanden.",
+      "en": "There is crop.",
+      "sv": "Det finns gröda.",
+      "nl": "Er is gewas."
+    },
+    "alt": {},
+    "chunks": [
+      "mirt",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_medizin",
+    "am": "መድሃኒት አለ።",
+    "tr": "medhanit ale.",
+    "level": "A2",
+    "uses": [
+      "lex_medizin"
+    ],
+    "t": {
+      "de": "die Medizin, das Medikament ist vorhanden.",
+      "en": "There is medicine.",
+      "sv": "Det finns medicin.",
+      "nl": "Er is medicijn."
+    },
+    "alt": {},
+    "chunks": [
+      "medhanit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_spritze",
+    "am": "መርፍ አለ።",
+    "tr": "merfe ale.",
+    "level": "A2",
+    "uses": [
+      "lex_spritze"
+    ],
+    "t": {
+      "de": "die Spritze, Injektion ist vorhanden.",
+      "en": "There is injection.",
+      "sv": "Det finns injektion.",
+      "nl": "Er is injectie."
+    },
+    "alt": {},
+    "chunks": [
+      "merfe",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_verband",
+    "am": "ፋሻ አለ።",
+    "tr": "fasha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_verband"
+    ],
+    "t": {
+      "de": "der Verband ist vorhanden.",
+      "en": "There is bandage.",
+      "sv": "Det finns bandage.",
+      "nl": "Er is verband."
+    },
+    "alt": {},
+    "chunks": [
+      "fasha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wunde",
+    "am": "ቁስል አለ።",
+    "tr": "k'usil ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wunde"
+    ],
+    "t": {
+      "de": "die Wunde ist vorhanden.",
+      "en": "There is wound.",
+      "sv": "Det finns sår.",
+      "nl": "Er is wond."
+    },
+    "alt": {},
+    "chunks": [
+      "k'usil",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_allergie",
+    "am": "አለርጂ አለ።",
+    "tr": "alerji ale.",
+    "level": "A2",
+    "uses": [
+      "lex_allergie"
+    ],
+    "t": {
+      "de": "die Allergie ist vorhanden.",
+      "en": "There is allergy.",
+      "sv": "Det finns allergi.",
+      "nl": "Er is allergie."
+    },
+    "alt": {},
+    "chunks": [
+      "alerji",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kopfschmerz",
+    "am": "ራስ ምታት አለ።",
+    "tr": "ras mitat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_kopfschmerz"
+    ],
+    "t": {
+      "de": "die Kopfschmerzen ist vorhanden.",
+      "en": "There is headache.",
+      "sv": "Det finns huvudvärk.",
+      "nl": "Er is hoofdpijn."
+    },
+    "alt": {},
+    "chunks": [
+      "ras",
+      "mitat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_allergie_2",
+    "am": "አለርጂ አለ።",
+    "tr": "alerji ale.",
+    "level": "A2",
+    "uses": [
+      "lex_allergie"
+    ],
+    "t": {
+      "de": "die Allergie ist vorhanden.",
+      "en": "There is allergy.",
+      "sv": "Det finns allergi.",
+      "nl": "Er is allergie."
+    },
+    "alt": {},
+    "chunks": [
+      "alerji",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wunde_2",
+    "am": "ቁስል አለ።",
+    "tr": "k'usil ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wunde"
+    ],
+    "t": {
+      "de": "die Wunde ist vorhanden.",
+      "en": "There is wound.",
+      "sv": "Det finns sår.",
+      "nl": "Er is wond."
+    },
+    "alt": {},
+    "chunks": [
+      "k'usil",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_verband_2",
+    "am": "ፋሻ አለ።",
+    "tr": "fasha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_verband"
+    ],
+    "t": {
+      "de": "der Verband ist vorhanden.",
+      "en": "There is bandage.",
+      "sv": "Det finns bandage.",
+      "nl": "Er is verband."
+    },
+    "alt": {},
+    "chunks": [
+      "fasha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_spritze_2",
+    "am": "መርፍ አለ።",
+    "tr": "merfe ale.",
+    "level": "A2",
+    "uses": [
+      "lex_spritze"
+    ],
+    "t": {
+      "de": "die Spritze, Injektion ist vorhanden.",
+      "en": "There is injection.",
+      "sv": "Det finns injektion.",
+      "nl": "Er is injectie."
+    },
+    "alt": {},
+    "chunks": [
+      "merfe",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kopfschmerz_2",
+    "am": "ራስ ምታት አለ።",
+    "tr": "ras mitat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_kopfschmerz"
+    ],
+    "t": {
+      "de": "die Kopfschmerzen ist vorhanden.",
+      "en": "There is headache.",
+      "sv": "Det finns huvudvärk.",
+      "nl": "Er is hoofdpijn."
+    },
+    "alt": {},
+    "chunks": [
+      "ras",
+      "mitat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_allergie_3",
+    "am": "አለርጂ አለ።",
+    "tr": "alerji ale.",
+    "level": "A2",
+    "uses": [
+      "lex_allergie"
+    ],
+    "t": {
+      "de": "die Allergie ist vorhanden.",
+      "en": "There is allergy.",
+      "sv": "Det finns allergi.",
+      "nl": "Er is allergie."
+    },
+    "alt": {},
+    "chunks": [
+      "alerji",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wunde_3",
+    "am": "ቁስል አለ።",
+    "tr": "k'usil ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wunde"
+    ],
+    "t": {
+      "de": "die Wunde ist vorhanden.",
+      "en": "There is wound.",
+      "sv": "Det finns sår.",
+      "nl": "Er is wond."
+    },
+    "alt": {},
+    "chunks": [
+      "k'usil",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_verband_3",
+    "am": "ፋሻ አለ።",
+    "tr": "fasha ale.",
+    "level": "A2",
+    "uses": [
+      "lex_verband"
+    ],
+    "t": {
+      "de": "der Verband ist vorhanden.",
+      "en": "There is bandage.",
+      "sv": "Det finns bandage.",
+      "nl": "Er is verband."
+    },
+    "alt": {},
+    "chunks": [
+      "fasha",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_spritze_3",
+    "am": "መርፍ አለ።",
+    "tr": "merfe ale.",
+    "level": "A2",
+    "uses": [
+      "lex_spritze"
+    ],
+    "t": {
+      "de": "die Spritze, Injektion ist vorhanden.",
+      "en": "There is injection.",
+      "sv": "Det finns injektion.",
+      "nl": "Er is injectie."
+    },
+    "alt": {},
+    "chunks": [
+      "merfe",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_rennen",
+    "am": "መሮጥ እፈልጋለሁ።",
+    "tr": "meroT' ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_rennen"
+    ],
+    "t": {
+      "de": "Ich möchte rennen, laufen.",
+      "en": "I want to run.",
+      "sv": "Jag vill springa.",
+      "nl": "Ik wil rennen."
+    },
+    "alt": {},
+    "chunks": [
+      "meroT'",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_klettern",
+    "am": "መውጣት እፈልጋለሁ።",
+    "tr": "mewt'at ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_klettern"
+    ],
+    "t": {
+      "de": "Ich möchte klettern, hinaufsteigen.",
+      "en": "I want to climb.",
+      "sv": "Jag vill klättra.",
+      "nl": "Ik wil klimmen."
+    },
+    "alt": {},
+    "chunks": [
+      "mewt'at",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_schieben",
+    "am": "መግፍት እፈልጋለሁ።",
+    "tr": "megfit ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_schieben"
+    ],
+    "t": {
+      "de": "Ich möchte schieben.",
+      "en": "I want to push.",
+      "sv": "Jag vill skjuta på.",
+      "nl": "Ik wil duwen."
+    },
+    "alt": {},
+    "chunks": [
+      "megfit",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_werfen",
+    "am": "መወርወር እፈልጋለሁ።",
+    "tr": "mewerwer ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_werfen"
+    ],
+    "t": {
+      "de": "Ich möchte werfen.",
+      "en": "I want to throw.",
+      "sv": "Jag vill kasta.",
+      "nl": "Ik wil gooien."
+    },
+    "alt": {},
+    "chunks": [
+      "mewerwer",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_verstecken",
+    "am": "መደበቅ እፈልጋለሁ።",
+    "tr": "medebek' ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_verstecken"
+    ],
+    "t": {
+      "de": "Ich möchte verstecken.",
+      "en": "I want to hide.",
+      "sv": "Jag vill gömma.",
+      "nl": "Ik wil verstoppen."
+    },
+    "alt": {},
+    "chunks": [
+      "medebek'",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zelt",
+    "am": "ድንኳን አለ።",
+    "tr": "dinkwan ale.",
+    "level": "A2",
+    "uses": [
+      "lex_zelt"
+    ],
+    "t": {
+      "de": "das Zelt ist vorhanden.",
+      "en": "There is tent.",
+      "sv": "Det finns tält.",
+      "nl": "Er is tent."
+    },
+    "alt": {},
+    "chunks": [
+      "dinkwan",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schlafsack",
+    "am": "የመተኛ ቦርሳ አለ።",
+    "tr": "yemetegna borsa ale.",
+    "level": "A2",
+    "uses": [
+      "lex_schlafsack"
+    ],
+    "t": {
+      "de": "der Schlafsack ist vorhanden.",
+      "en": "There is sleeping bag.",
+      "sv": "Det finns sovsäck.",
+      "nl": "Er is slaapzak."
+    },
+    "alt": {},
+    "chunks": [
+      "yemetegna",
+      "borsa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lagerfeuer",
+    "am": "የካምፕ እሳት አለ።",
+    "tr": "yekamp isat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_lagerfeuer"
+    ],
+    "t": {
+      "de": "das Lagerfeuer ist vorhanden.",
+      "en": "There is campfire.",
+      "sv": "Det finns lägereld.",
+      "nl": "Er is kampvuur."
+    },
+    "alt": {},
+    "chunks": [
+      "yekamp",
+      "isat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_angeln",
+    "am": "ማጥመድ አለ።",
+    "tr": "mat'imed ale.",
+    "level": "A2",
+    "uses": [
+      "lex_angeln"
+    ],
+    "t": {
+      "de": "das Angeln ist vorhanden.",
+      "en": "There is fishing.",
+      "sv": "Det finns fiske.",
+      "nl": "Er is vissen."
+    },
+    "alt": {},
+    "chunks": [
+      "mat'imed",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wandern",
+    "am": "የእግር ጉዞ አለ።",
+    "tr": "yeigir guzo ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wandern"
+    ],
+    "t": {
+      "de": "das Wandern ist vorhanden.",
+      "en": "There is hiking.",
+      "sv": "Det finns vandring.",
+      "nl": "Er is wandelen."
+    },
+    "alt": {},
+    "chunks": [
+      "yeigir",
+      "guzo",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hammer",
+    "am": "መጠቅ አለ።",
+    "tr": "met'ek' ale.",
+    "level": "A2",
+    "uses": [
+      "lex_hammer"
+    ],
+    "t": {
+      "de": "der Hammer ist vorhanden.",
+      "en": "There is hammer.",
+      "sv": "Det finns hammare.",
+      "nl": "Er is hamer."
+    },
+    "alt": {},
+    "chunks": [
+      "met'ek'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nagel",
+    "am": "ችንካር አለ።",
+    "tr": "chinikar ale.",
+    "level": "A2",
+    "uses": [
+      "lex_nagel"
+    ],
+    "t": {
+      "de": "der Nagel ist vorhanden.",
+      "en": "There is nail.",
+      "sv": "Det finns spik.",
+      "nl": "Er is spijker."
+    },
+    "alt": {},
+    "chunks": [
+      "chinikar",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schraube",
+    "am": "ብሎን አለ።",
+    "tr": "bilon ale.",
+    "level": "A2",
+    "uses": [
+      "lex_schraube"
+    ],
+    "t": {
+      "de": "die Schraube ist vorhanden.",
+      "en": "There is screw.",
+      "sv": "Det finns skruv.",
+      "nl": "Er is schroef."
+    },
+    "alt": {},
+    "chunks": [
+      "bilon",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_saege",
+    "am": "መጋዝ አለ።",
+    "tr": "megaz ale.",
+    "level": "A2",
+    "uses": [
+      "lex_saege"
+    ],
+    "t": {
+      "de": "die Säge ist vorhanden.",
+      "en": "There is saw.",
+      "sv": "Det finns såg.",
+      "nl": "Er is zaag."
+    },
+    "alt": {},
+    "chunks": [
+      "megaz",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bohrer",
+    "am": "መብሳት አለ።",
+    "tr": "mebisat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_bohrer"
+    ],
+    "t": {
+      "de": "der Bohrer ist vorhanden.",
+      "en": "There is drill.",
+      "sv": "Det finns borr.",
+      "nl": "Er is boor."
+    },
+    "alt": {},
+    "chunks": [
+      "mebisat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_viertel",
+    "am": "ሩብ አለ።",
+    "tr": "rub ale.",
+    "level": "A2",
+    "uses": [
+      "lex_viertel"
+    ],
+    "t": {
+      "de": "das Viertel ist vorhanden.",
+      "en": "There is quarter.",
+      "sv": "Det finns fjärdedel.",
+      "nl": "Er is kwart."
+    },
+    "alt": {},
+    "chunks": [
+      "rub",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_drittel",
+    "am": "ሲሶ አለ።",
+    "tr": "siso ale.",
+    "level": "A2",
+    "uses": [
+      "lex_drittel"
+    ],
+    "t": {
+      "de": "das Drittel ist vorhanden.",
+      "en": "There is third.",
+      "sv": "Det finns tredjedel.",
+      "nl": "Er is derde."
+    },
+    "alt": {},
+    "chunks": [
+      "siso",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_prozent",
+    "am": "በመቶ አለ።",
+    "tr": "bemeto ale.",
+    "level": "A2",
+    "uses": [
+      "lex_prozent"
+    ],
+    "t": {
+      "de": "das Prozent ist vorhanden.",
+      "en": "There is percent.",
+      "sv": "Det finns procent.",
+      "nl": "Er is procent."
+    },
+    "alt": {},
+    "chunks": [
+      "bemeto",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_doppelt",
+    "am": "እሱ ሁለት እጥፍ ነው።",
+    "tr": "issu hulet it'if new.",
+    "level": "A2",
+    "uses": [
+      "lex_doppelt"
+    ],
+    "t": {
+      "de": "Er ist doppelt.",
+      "en": "He is double.",
+      "sv": "Han är dubbel.",
+      "nl": "Hij is dubbel."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "hulet",
+      "it'if",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dutzend",
+    "am": "ደርዘን አለ።",
+    "tr": "derzen ale.",
+    "level": "A2",
+    "uses": [
+      "lex_dutzend"
+    ],
+    "t": {
+      "de": "das Dutzend ist vorhanden.",
+      "en": "There is dozen.",
+      "sv": "Det finns dussin.",
+      "nl": "Er is dozijn."
+    },
+    "alt": {},
+    "chunks": [
+      "derzen",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_waschmaschine",
+    "am": "ልብስ ማጠቢያ አለ።",
+    "tr": "libs matebiya ale.",
+    "level": "A2",
+    "uses": [
+      "lex_waschmaschine"
+    ],
+    "t": {
+      "de": "die Waschmaschine ist vorhanden.",
+      "en": "There is washing machine.",
+      "sv": "Det finns tvättmaskin.",
+      "nl": "Er is wasmachine."
+    },
+    "alt": {},
+    "chunks": [
+      "libs",
+      "matebiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_buegeleisen",
+    "am": "ሙቅ ብረት አለ።",
+    "tr": "muk' biret ale.",
+    "level": "A2",
+    "uses": [
+      "lex_buegeleisen"
+    ],
+    "t": {
+      "de": "das Bügeleisen ist vorhanden.",
+      "en": "There is iron.",
+      "sv": "Det finns strykjärn.",
+      "nl": "Er is strijkijzer."
+    },
+    "alt": {},
+    "chunks": [
+      "muk'",
+      "biret",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mikrowelle",
+    "am": "ማይክሮዌብ አለ።",
+    "tr": "maikirowev ale.",
+    "level": "A2",
+    "uses": [
+      "lex_mikrowelle"
+    ],
+    "t": {
+      "de": "die Mikrowelle ist vorhanden.",
+      "en": "There is microwave.",
+      "sv": "Det finns mikrovågsugn.",
+      "nl": "Er is magnetron."
+    },
+    "alt": {},
+    "chunks": [
+      "maikirowev",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_toaster",
+    "am": "ቶስተር አለ።",
+    "tr": "toster ale.",
+    "level": "A2",
+    "uses": [
+      "lex_toaster"
+    ],
+    "t": {
+      "de": "der Toaster ist vorhanden.",
+      "en": "There is toaster.",
+      "sv": "Det finns brödrost.",
+      "nl": "Er is broodrooster."
+    },
+    "alt": {},
+    "chunks": [
+      "toster",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_geschirrspueler",
+    "am": "ማጠቢያ ዕቃ አለ።",
+    "tr": "matebiya i'k'a ale.",
+    "level": "A2",
+    "uses": [
+      "lex_geschirrspueler"
+    ],
+    "t": {
+      "de": "die Geschirrspülmaschine ist vorhanden.",
+      "en": "There is dishwasher.",
+      "sv": "Det finns diskmaskin.",
+      "nl": "Er is vaatwasser."
+    },
+    "alt": {},
+    "chunks": [
+      "matebiya",
+      "i'k'a",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_augenbraue",
+    "am": "ቅንድብ አለ።",
+    "tr": "kinidib ale.",
+    "level": "A2",
+    "uses": [
+      "lex_augenbraue"
+    ],
+    "t": {
+      "de": "die Augenbraue ist vorhanden.",
+      "en": "There is eyebrow.",
+      "sv": "Det finns ögonbryn.",
+      "nl": "Er is wenkbrauw."
+    },
+    "alt": {},
+    "chunks": [
+      "kinidib",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wimper",
+    "am": "የዐይን ጸጉር አለ።",
+    "tr": "yeayin tsegur ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wimper"
+    ],
+    "t": {
+      "de": "die Wimper ist vorhanden.",
+      "en": "There is eyelash.",
+      "sv": "Det finns ögonfrans.",
+      "nl": "Er is wimper."
+    },
+    "alt": {},
+    "chunks": [
+      "yeayin",
+      "tsegur",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kinn",
+    "am": "አገጭ አለ።",
+    "tr": "agech ale.",
+    "level": "A2",
+    "uses": [
+      "lex_kinn"
+    ],
+    "t": {
+      "de": "das Kinn ist vorhanden.",
+      "en": "There is chin.",
+      "sv": "Det finns haka.",
+      "nl": "Er is kin."
+    },
+    "alt": {},
+    "chunks": [
+      "agech",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wange",
+    "am": "ጉንጭ አለ።",
+    "tr": "gunich ale.",
+    "level": "A2",
+    "uses": [
+      "lex_wange"
+    ],
+    "t": {
+      "de": "die Wange ist vorhanden.",
+      "en": "There is cheek.",
+      "sv": "Det finns kind.",
+      "nl": "Er is wang."
+    },
+    "alt": {},
+    "chunks": [
+      "gunich",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ellbogen",
+    "am": "ክርን አለ።",
+    "tr": "kirin ale.",
+    "level": "A2",
+    "uses": [
+      "lex_ellbogen"
+    ],
+    "t": {
+      "de": "der Ellbogen ist vorhanden.",
+      "en": "There is elbow.",
+      "sv": "Det finns armbåge.",
+      "nl": "Er is elleboog."
+    },
+    "alt": {},
+    "chunks": [
+      "kirin",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zwilling",
+    "am": "መንታ አለ።",
+    "tr": "menta ale.",
+    "level": "A2",
+    "uses": [
+      "lex_zwilling"
+    ],
+    "t": {
+      "de": "der Zwilling ist vorhanden.",
+      "en": "There is twin.",
+      "sv": "Det finns tvilling.",
+      "nl": "Er is tweeling."
+    },
+    "alt": {},
+    "chunks": [
+      "menta",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_witwe",
+    "am": "መበለት አለ።",
+    "tr": "mebelet ale.",
+    "level": "A2",
+    "uses": [
+      "lex_witwe"
+    ],
+    "t": {
+      "de": "die Witwe ist vorhanden.",
+      "en": "There is widow.",
+      "sv": "Det finns änka.",
+      "nl": "Er is weduwe."
+    },
+    "alt": {},
+    "chunks": [
+      "mebelet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stiefmutter",
+    "am": "የእንጀራ እናት አለ።",
+    "tr": "yeinjera enat ale.",
+    "level": "A2",
+    "uses": [
+      "lex_stiefmutter"
+    ],
+    "t": {
+      "de": "die Stiefmutter ist vorhanden.",
+      "en": "There is stepmother.",
+      "sv": "Det finns styvmor.",
+      "nl": "Er is stiefmoeder."
+    },
+    "alt": {},
+    "chunks": [
+      "yeinjera",
+      "enat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fingernagel",
+    "am": "ጥፍር አለ።",
+    "tr": "t'ifir ale.",
+    "level": "A2",
+    "uses": [
+      "lex_fingernagel"
+    ],
+    "t": {
+      "de": "der Fingernagel ist vorhanden.",
+      "en": "There is fingernail.",
+      "sv": "Det finns nagel.",
+      "nl": "Er is vingernagel."
+    },
+    "alt": {},
+    "chunks": [
+      "t'ifir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zunge",
+    "am": "ምላስ አለ።",
+    "tr": "milas ale.",
+    "level": "A2",
+    "uses": [
+      "lex_zunge"
+    ],
+    "t": {
+      "de": "die Zunge ist vorhanden.",
+      "en": "There is tongue.",
+      "sv": "Det finns tunga.",
+      "nl": "Er is tong."
+    },
+    "alt": {},
+    "chunks": [
+      "milas",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_kochen_verb",
+    "am": "ማፍላት እፈልጋለሁ።",
+    "tr": "mafilat ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_kochen_verb"
+    ],
+    "t": {
+      "de": "Ich möchte kochen, sieden lassen.",
+      "en": "I want to boil.",
+      "sv": "Jag vill koka.",
+      "nl": "Ik wil koken."
+    },
+    "alt": {},
+    "chunks": [
+      "mafilat",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_braten",
+    "am": "መጥበስ እፈልጋለሁ።",
+    "tr": "met'ibes ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_braten"
+    ],
+    "t": {
+      "de": "Ich möchte braten, frittieren.",
+      "en": "I want to fry.",
+      "sv": "Jag vill steka.",
+      "nl": "Ik wil bakken (in de pan)."
+    },
+    "alt": {},
+    "chunks": [
+      "met'ibes",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_roesten",
+    "am": "ማቁላት እፈልጋለሁ።",
+    "tr": "mak'ulat ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_roesten"
+    ],
+    "t": {
+      "de": "Ich möchte rösten (z.B. Kaffee).",
+      "en": "I want to roast (e.g. coffee).",
+      "sv": "Jag vill rosta (t.ex. kaffe).",
+      "nl": "Ik wil roosteren (bv. koffie)."
+    },
+    "alt": {},
+    "chunks": [
+      "mak'ulat",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_mischen",
+    "am": "ማዋሃድ እፈልጋለሁ።",
+    "tr": "mawahad ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_mischen"
+    ],
+    "t": {
+      "de": "Ich möchte mischen.",
+      "en": "I want to mix.",
+      "sv": "Jag vill blanda.",
+      "nl": "Ik wil mengen."
+    },
+    "alt": {},
+    "chunks": [
+      "mawahad",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_v_ruehren",
+    "am": "ማማሰል እፈልጋለሁ።",
+    "tr": "mamasel ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_ruehren"
+    ],
+    "t": {
+      "de": "Ich möchte rühren, umrühren.",
+      "en": "I want to stir.",
+      "sv": "Jag vill röra om.",
+      "nl": "Ik wil roeren."
+    },
+    "alt": {},
+    "chunks": [
+      "mamasel",
+      "ifeligalehu."
+    ],
+    "verified": false
+  }
+]

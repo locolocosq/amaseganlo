@@ -97,7 +97,11 @@
       "lex_ti_adj_rhyk"
     ],
     "sentenceIds": [
-      "sen_ti_verben_adjektive_1"
+      "sen_ti_verben_adjektive_1",
+      "sen_gen_vb3_zegede",
+      "sen_gen_vb3_wesede",
+      "sen_gen_vb3_hzq",
+      "sen_gen_vb3_hade"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -134,7 +138,11 @@
       "lex_ti_adj_rhyk"
     ],
     "sentenceIds": [
-      "sen_ti_verben_adjektive_1"
+      "sen_ti_verben_adjektive_1",
+      "sen_gen_vb3_zegede",
+      "sen_gen_vb3_wesede",
+      "sen_gen_vb3_hzq",
+      "sen_gen_vb3_hade"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -171,7 +179,11 @@
       "lex_ti_adj_rhyk"
     ],
     "sentenceIds": [
-      "sen_ti_verben_adjektive_1"
+      "sen_ti_verben_adjektive_1",
+      "sen_gen_vb3_zegede",
+      "sen_gen_vb3_wesede",
+      "sen_gen_vb3_hzq",
+      "sen_gen_vb3_hade"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -208,7 +220,11 @@
       "lex_ti_adj_rhyk"
     ],
     "sentenceIds": [
-      "sen_ti_verben_adjektive_1"
+      "sen_ti_verben_adjektive_1",
+      "sen_gen_vb3_zegede",
+      "sen_gen_vb3_wesede",
+      "sen_gen_vb3_hzq",
+      "sen_gen_vb3_hade"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

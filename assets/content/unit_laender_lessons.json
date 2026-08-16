@@ -67,7 +67,11 @@
       "lex_englisch_sprache"
     ],
     "sentenceIds": [
-      "sen_ine_jerman"
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_englisch_sprache"
     ],
     "sentenceIds": [
-      "sen_ine_jerman"
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_englisch_sprache"
     ],
     "sentenceIds": [
-      "sen_ine_jerman"
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_englisch_sprache"
     ],
     "sentenceIds": [
-      "sen_ine_jerman"
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

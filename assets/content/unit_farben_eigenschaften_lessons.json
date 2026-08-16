@@ -89,7 +89,10 @@
     ],
     "sentenceIds": [
       "sen_bietu_konjo",
-      "sen_wuha_kezkaza"
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -124,7 +127,10 @@
     ],
     "sentenceIds": [
       "sen_bietu_konjo",
-      "sen_wuha_kezkaza"
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -159,7 +165,10 @@
     ],
     "sentenceIds": [
       "sen_bietu_konjo",
-      "sen_wuha_kezkaza"
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -194,7 +203,10 @@
     ],
     "sentenceIds": [
       "sen_bietu_konjo",
-      "sen_wuha_kezkaza"
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

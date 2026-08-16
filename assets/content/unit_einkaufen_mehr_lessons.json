@@ -48,7 +48,13 @@
       "lex_kunde",
       "lex_v_handeln"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_rabatt",
+      "sen_gen_quittung",
+      "sen_gen_bargeld",
+      "sen_gen_kreditkarte",
+      "sen_gen_geldbeutel"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -67,7 +73,13 @@
       "lex_kunde",
       "lex_v_handeln"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_rabatt",
+      "sen_gen_quittung",
+      "sen_gen_bargeld",
+      "sen_gen_kreditkarte",
+      "sen_gen_geldbeutel"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -86,7 +98,13 @@
       "lex_kunde",
       "lex_v_handeln"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_rabatt",
+      "sen_gen_quittung",
+      "sen_gen_bargeld",
+      "sen_gen_kreditkarte",
+      "sen_gen_geldbeutel"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -105,7 +123,13 @@
       "lex_kunde",
       "lex_v_handeln"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_rabatt",
+      "sen_gen_quittung",
+      "sen_gen_bargeld",
+      "sen_gen_kreditkarte",
+      "sen_gen_geldbeutel"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

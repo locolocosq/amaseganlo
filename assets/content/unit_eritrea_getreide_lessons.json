@@ -40,7 +40,11 @@
       "lex_ti_gtr_lntl"
     ],
     "sentenceIds": [
-      "sen_ti_getreide_1"
+      "sen_ti_getreide_1",
+      "sen_gen_gtr_barl",
+      "sen_gen_gtr_mais",
+      "sen_gen_gtr_sorg",
+      "sen_gen_gtr_lntl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -58,7 +62,11 @@
       "lex_ti_gtr_lntl"
     ],
     "sentenceIds": [
-      "sen_ti_getreide_1"
+      "sen_ti_getreide_1",
+      "sen_gen_gtr_barl",
+      "sen_gen_gtr_mais",
+      "sen_gen_gtr_sorg",
+      "sen_gen_gtr_lntl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -76,7 +84,11 @@
       "lex_ti_gtr_lntl"
     ],
     "sentenceIds": [
-      "sen_ti_getreide_1"
+      "sen_ti_getreide_1",
+      "sen_gen_gtr_barl",
+      "sen_gen_gtr_mais",
+      "sen_gen_gtr_sorg",
+      "sen_gen_gtr_lntl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -94,7 +106,11 @@
       "lex_ti_gtr_lntl"
     ],
     "sentenceIds": [
-      "sen_ti_getreide_1"
+      "sen_ti_getreide_1",
+      "sen_gen_gtr_barl",
+      "sen_gen_gtr_mais",
+      "sen_gen_gtr_sorg",
+      "sen_gen_gtr_lntl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

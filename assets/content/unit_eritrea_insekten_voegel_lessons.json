@@ -67,7 +67,11 @@
       "lex_ti_qwqha"
     ],
     "sentenceIds": [
-      "sen_ti_insekten_voegel_1"
+      "sen_ti_insekten_voegel_1",
+      "sen_gen_pparfl",
+      "sen_gen_bqbq",
+      "sen_gen_qwrmb",
+      "sen_gen_zabab"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_qwqha"
     ],
     "sentenceIds": [
-      "sen_ti_insekten_voegel_1"
+      "sen_ti_insekten_voegel_1",
+      "sen_gen_pparfl",
+      "sen_gen_bqbq",
+      "sen_gen_qwrmb",
+      "sen_gen_zabab"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_qwqha"
     ],
     "sentenceIds": [
-      "sen_ti_insekten_voegel_1"
+      "sen_ti_insekten_voegel_1",
+      "sen_gen_pparfl",
+      "sen_gen_bqbq",
+      "sen_gen_qwrmb",
+      "sen_gen_zabab"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_qwqha"
     ],
     "sentenceIds": [
-      "sen_ti_insekten_voegel_1"
+      "sen_ti_insekten_voegel_1",
+      "sen_gen_pparfl",
+      "sen_gen_bqbq",
+      "sen_gen_qwrmb",
+      "sen_gen_zabab"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

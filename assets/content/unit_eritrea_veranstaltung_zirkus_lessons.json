@@ -52,7 +52,11 @@
       "lex_ti_zrk_tmr"
     ],
     "sentenceIds": [
-      "sen_ti_veranstaltung_zirkus_1"
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -74,7 +78,11 @@
       "lex_ti_zrk_tmr"
     ],
     "sentenceIds": [
-      "sen_ti_veranstaltung_zirkus_1"
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -96,7 +104,11 @@
       "lex_ti_zrk_tmr"
     ],
     "sentenceIds": [
-      "sen_ti_veranstaltung_zirkus_1"
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -118,7 +130,11 @@
       "lex_ti_zrk_tmr"
     ],
     "sentenceIds": [
-      "sen_ti_veranstaltung_zirkus_1"
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

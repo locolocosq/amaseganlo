@@ -70,7 +70,11 @@
       "lex_ti_lstk2"
     ],
     "sentenceIds": [
-      "sen_ti_fahrzeuge_buero_1"
+      "sen_ti_fahrzeuge_buero_1",
+      "sen_gen_gm2",
+      "sen_gen_mfth2",
+      "sen_gen_msln",
+      "sen_gen_bnzn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -98,7 +102,11 @@
       "lex_ti_lstk2"
     ],
     "sentenceIds": [
-      "sen_ti_fahrzeuge_buero_1"
+      "sen_ti_fahrzeuge_buero_1",
+      "sen_gen_gm2",
+      "sen_gen_mfth2",
+      "sen_gen_msln",
+      "sen_gen_bnzn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -126,7 +134,11 @@
       "lex_ti_lstk2"
     ],
     "sentenceIds": [
-      "sen_ti_fahrzeuge_buero_1"
+      "sen_ti_fahrzeuge_buero_1",
+      "sen_gen_gm2",
+      "sen_gen_mfth2",
+      "sen_gen_msln",
+      "sen_gen_bnzn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -154,7 +166,11 @@
       "lex_ti_lstk2"
     ],
     "sentenceIds": [
-      "sen_ti_fahrzeuge_buero_1"
+      "sen_ti_fahrzeuge_buero_1",
+      "sen_gen_gm2",
+      "sen_gen_mfth2",
+      "sen_gen_msln",
+      "sen_gen_bnzn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

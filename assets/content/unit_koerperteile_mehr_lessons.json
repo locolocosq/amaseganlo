@@ -57,7 +57,13 @@
       "lex_zunge",
       "lex_fingernagel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_augenbraue",
+      "sen_gen_wimper",
+      "sen_gen_kinn",
+      "sen_gen_wange",
+      "sen_gen_ellbogen"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -79,7 +85,13 @@
       "lex_zunge",
       "lex_fingernagel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_augenbraue",
+      "sen_gen_wimper",
+      "sen_gen_kinn",
+      "sen_gen_wange",
+      "sen_gen_ellbogen"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -101,7 +113,13 @@
       "lex_zunge",
       "lex_fingernagel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_augenbraue",
+      "sen_gen_wimper",
+      "sen_gen_kinn",
+      "sen_gen_wange",
+      "sen_gen_ellbogen"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -123,7 +141,13 @@
       "lex_zunge",
       "lex_fingernagel"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_augenbraue",
+      "sen_gen_wimper",
+      "sen_gen_kinn",
+      "sen_gen_wange",
+      "sen_gen_ellbogen"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

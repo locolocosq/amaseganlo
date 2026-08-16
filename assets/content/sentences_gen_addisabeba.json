@@ -1,0 +1,392 @@
+[
+  {
+    "id": "sen_gen_selam",
+    "am": "ሰላም።",
+    "tr": "selam.",
+    "level": "A1.1",
+    "uses": [
+      "lex_selam"
+    ],
+    "t": {
+      "de": "Hallo.",
+      "en": "Hello.",
+      "sv": "Hej.",
+      "nl": "Hallo."
+    },
+    "alt": {},
+    "chunks": [
+      "selam."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ibakih",
+    "am": "እባክህ።",
+    "tr": "ibakih.",
+    "level": "A1.1",
+    "uses": [
+      "lex_ibakih"
+    ],
+    "t": {
+      "de": "Bitte.",
+      "en": "Please.",
+      "sv": "Snälla.",
+      "nl": "Alsjeblieft."
+    },
+    "alt": {},
+    "chunks": [
+      "ibakih."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_yikirta",
+    "am": "ይቅርታ።",
+    "tr": "yikirta.",
+    "level": "A1.1",
+    "uses": [
+      "lex_yikirta"
+    ],
+    "t": {
+      "de": "Entschuldigung.",
+      "en": "Sorry / excuse me.",
+      "sv": "Ursäkta.",
+      "nl": "Sorry / pardon."
+    },
+    "alt": {},
+    "chunks": [
+      "yikirta."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sim",
+    "am": "ስም አለ።",
+    "tr": "sim ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_sim"
+    ],
+    "t": {
+      "de": "der Name ist vorhanden.",
+      "en": "There is name.",
+      "sv": "Det finns namnet.",
+      "nl": "Er is de naam."
+    },
+    "alt": {},
+    "chunks": [
+      "sim",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_algebagnem",
+    "am": "አልገባኝም።",
+    "tr": "algebagnim.",
+    "level": "A1.1",
+    "uses": [
+      "lex_algebagnem"
+    ],
+    "t": {
+      "de": "Ich verstehe nicht.",
+      "en": "I don't understand.",
+      "sv": "Jag förstår inte.",
+      "nl": "Ik begrijp het niet."
+    },
+    "alt": {},
+    "chunks": [
+      "algebagnim."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_yikirta_2",
+    "am": "ይቅርታ።",
+    "tr": "yikirta.",
+    "level": "A1.1",
+    "uses": [
+      "lex_yikirta"
+    ],
+    "t": {
+      "de": "Entschuldigung.",
+      "en": "Sorry / excuse me.",
+      "sv": "Ursäkta.",
+      "nl": "Sorry / pardon."
+    },
+    "alt": {},
+    "chunks": [
+      "yikirta."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mutter",
+    "am": "እናት አለ።",
+    "tr": "innat ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_mutter"
+    ],
+    "t": {
+      "de": "die Mutter ist vorhanden.",
+      "en": "There is mother.",
+      "sv": "Det finns mamma.",
+      "nl": "Er is moeder."
+    },
+    "alt": {},
+    "chunks": [
+      "innat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vater",
+    "am": "አባት አለ።",
+    "tr": "abbat ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_vater"
+    ],
+    "t": {
+      "de": "der Vater ist vorhanden.",
+      "en": "There is father.",
+      "sv": "Det finns pappa.",
+      "nl": "Er is vader."
+    },
+    "alt": {},
+    "chunks": [
+      "abbat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kind",
+    "am": "ልጅ አለ።",
+    "tr": "lij ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_kind"
+    ],
+    "t": {
+      "de": "das Kind ist vorhanden.",
+      "en": "There is child.",
+      "sv": "Det finns barn.",
+      "nl": "Er is kind."
+    },
+    "alt": {},
+    "chunks": [
+      "lij",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_1",
+    "am": "አንድ አለ።",
+    "tr": "and ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_zahl_1"
+    ],
+    "t": {
+      "de": "1 ist vorhanden.",
+      "en": "There is 1.",
+      "sv": "Det finns 1.",
+      "nl": "Er is 1."
+    },
+    "alt": {},
+    "chunks": [
+      "and",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_4",
+    "am": "አራት አለ።",
+    "tr": "arat ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_zahl_4"
+    ],
+    "t": {
+      "de": "4 ist vorhanden.",
+      "en": "There is 4.",
+      "sv": "Det finns 4.",
+      "nl": "Er is 4."
+    },
+    "alt": {},
+    "chunks": [
+      "arat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kaffee",
+    "am": "ቡና አለ።",
+    "tr": "buna ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_kaffee"
+    ],
+    "t": {
+      "de": "der Kaffee ist vorhanden.",
+      "en": "There is coffee.",
+      "sv": "Det finns kaffe.",
+      "nl": "Er is koffie."
+    },
+    "alt": {},
+    "chunks": [
+      "buna",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_milch",
+    "am": "ወተት አለ።",
+    "tr": "wetet ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_milch"
+    ],
+    "t": {
+      "de": "die Milch ist vorhanden.",
+      "en": "There is milk.",
+      "sv": "Det finns mjölk.",
+      "nl": "Er is melk."
+    },
+    "alt": {},
+    "chunks": [
+      "wetet",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fleisch",
+    "am": "ስጋ አለ።",
+    "tr": "siga ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_fleisch"
+    ],
+    "t": {
+      "de": "das Fleisch ist vorhanden.",
+      "en": "There is meat.",
+      "sv": "Det finns kött.",
+      "nl": "Er is vlees."
+    },
+    "alt": {},
+    "chunks": [
+      "siga",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_durstig",
+    "am": "ጠምቶኛል።",
+    "tr": "t'emtogniall.",
+    "level": "A1.1",
+    "uses": [
+      "lex_durstig"
+    ],
+    "t": {
+      "de": "Ich bin durstig.",
+      "en": "I am thirsty.",
+      "sv": "Jag är törstig.",
+      "nl": "Ik heb dorst."
+    },
+    "alt": {},
+    "chunks": [
+      "t'emtogniall."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hungrig",
+    "am": "ርቦኛል።",
+    "tr": "ribogniall.",
+    "level": "A1.1",
+    "uses": [
+      "lex_hungrig"
+    ],
+    "t": {
+      "de": "Ich bin hungrig.",
+      "en": "I am hungry.",
+      "sv": "Jag är hungrig.",
+      "nl": "Ik heb honger."
+    },
+    "alt": {},
+    "chunks": [
+      "ribogniall."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_durstig_2",
+    "am": "ጠምቶኛል።",
+    "tr": "t'emtogniall.",
+    "level": "A1.1",
+    "uses": [
+      "lex_durstig"
+    ],
+    "t": {
+      "de": "Ich bin durstig.",
+      "en": "I am thirsty.",
+      "sv": "Jag är törstig.",
+      "nl": "Ik heb dorst."
+    },
+    "alt": {},
+    "chunks": [
+      "t'emtogniall."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hungrig_2",
+    "am": "ርቦኛል።",
+    "tr": "ribogniall.",
+    "level": "A1.1",
+    "uses": [
+      "lex_hungrig"
+    ],
+    "t": {
+      "de": "Ich bin hungrig.",
+      "en": "I am hungry.",
+      "sv": "Jag är hungrig.",
+      "nl": "Ik heb honger."
+    },
+    "alt": {},
+    "chunks": [
+      "ribogniall."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_trinken_verb",
+    "am": "መጠጣት እፈልጋለሁ።",
+    "tr": "met'et'at ifeligalehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_trinken_verb"
+    ],
+    "t": {
+      "de": "Ich möchte trinken.",
+      "en": "I want to drink.",
+      "sv": "Jag vill dricka.",
+      "nl": "Ik wil drinken."
+    },
+    "alt": {},
+    "chunks": [
+      "met'et'at",
+      "ifeligalehu."
+    ],
+    "verified": false
+  }
+]

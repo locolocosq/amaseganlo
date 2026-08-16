@@ -82,7 +82,11 @@
       "lex_ti_tqmi"
     ],
     "sentenceIds": [
-      "sen_ti_einkaufen_restaurant_1"
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -114,7 +118,11 @@
       "lex_ti_tqmi"
     ],
     "sentenceIds": [
-      "sen_ti_einkaufen_restaurant_1"
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -146,7 +154,11 @@
       "lex_ti_tqmi"
     ],
     "sentenceIds": [
-      "sen_ti_einkaufen_restaurant_1"
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -178,7 +190,11 @@
       "lex_ti_tqmi"
     ],
     "sentenceIds": [
-      "sen_ti_einkaufen_restaurant_1"
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

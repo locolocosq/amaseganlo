@@ -51,7 +51,13 @@
       "lex_ruhig",
       "lex_neugier"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_eifersuechtig",
+      "sen_gen_v_erstaunt",
+      "sen_gen_v_besorgt",
+      "sen_gen_v_verlegen",
+      "sen_gen_einsamkeit"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -71,7 +77,13 @@
       "lex_ruhig",
       "lex_neugier"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_eifersuechtig",
+      "sen_gen_v_erstaunt",
+      "sen_gen_v_besorgt",
+      "sen_gen_v_verlegen",
+      "sen_gen_einsamkeit"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -91,7 +103,13 @@
       "lex_ruhig",
       "lex_neugier"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_eifersuechtig",
+      "sen_gen_v_erstaunt",
+      "sen_gen_v_besorgt",
+      "sen_gen_v_verlegen",
+      "sen_gen_einsamkeit"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -111,7 +129,13 @@
       "lex_ruhig",
       "lex_neugier"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_eifersuechtig",
+      "sen_gen_v_erstaunt",
+      "sen_gen_v_besorgt",
+      "sen_gen_v_verlegen",
+      "sen_gen_einsamkeit"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

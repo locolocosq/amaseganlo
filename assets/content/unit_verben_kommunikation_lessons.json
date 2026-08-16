@@ -60,7 +60,13 @@
       "lex_v_ueberzeugen",
       "lex_v_ermutigen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -83,7 +89,13 @@
       "lex_v_ueberzeugen",
       "lex_v_ermutigen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -106,7 +118,13 @@
       "lex_v_ueberzeugen",
       "lex_v_ermutigen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -129,7 +147,13 @@
       "lex_v_ueberzeugen",
       "lex_v_ermutigen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

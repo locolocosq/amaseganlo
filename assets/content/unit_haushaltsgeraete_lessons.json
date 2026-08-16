@@ -45,7 +45,13 @@
       "lex_geschirrspueler",
       "lex_ventilator"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_waschmaschine",
+      "sen_gen_buegeleisen",
+      "sen_gen_mikrowelle",
+      "sen_gen_toaster",
+      "sen_gen_geschirrspueler"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_geschirrspueler",
       "lex_ventilator"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_waschmaschine",
+      "sen_gen_buegeleisen",
+      "sen_gen_mikrowelle",
+      "sen_gen_toaster",
+      "sen_gen_geschirrspueler"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_geschirrspueler",
       "lex_ventilator"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_waschmaschine",
+      "sen_gen_buegeleisen",
+      "sen_gen_mikrowelle",
+      "sen_gen_toaster",
+      "sen_gen_geschirrspueler"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_geschirrspueler",
       "lex_ventilator"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_waschmaschine",
+      "sen_gen_buegeleisen",
+      "sen_gen_mikrowelle",
+      "sen_gen_toaster",
+      "sen_gen_geschirrspueler"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

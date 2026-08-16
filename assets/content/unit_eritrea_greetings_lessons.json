@@ -2,43 +2,175 @@
   {
     "id": "unit_eritrea_greetings_intro",
     "kind": "intro",
-    "lexemeIds": ["lex_ti_selam", "lex_ti_dehan", "lex_ti_yiqeneyeley", "lex_ti_awo", "lex_ti_bejaka", "lex_ti_yikreta", "lex_ti_ane", "lex_ti_nsika", "lex_ti_nsiki", "lex_ti_nsu", "lex_ti_nsa", "lex_ti_nihna", "lex_ti_sim", "lex_ti_eritriya"],
+    "lexemeIds": [
+      "lex_ti_selam",
+      "lex_ti_dehan",
+      "lex_ti_yiqeneyeley",
+      "lex_ti_awo",
+      "lex_ti_bejaka",
+      "lex_ti_yikreta",
+      "lex_ti_ane",
+      "lex_ti_nsika",
+      "lex_ti_nsiki",
+      "lex_ti_nsu",
+      "lex_ti_nsa",
+      "lex_ti_nihna",
+      "lex_ti_sim",
+      "lex_ti_eritriya"
+    ],
     "sentenceIds": [],
     "exerciseTypes": []
   },
   {
     "id": "unit_eritrea_greetings_words",
     "kind": "wordPractice",
-    "lexemeIds": ["lex_ti_selam", "lex_ti_dehan", "lex_ti_yiqeneyeley", "lex_ti_awo", "lex_ti_bejaka", "lex_ti_yikreta", "lex_ti_ane", "lex_ti_nsika", "lex_ti_nsiki", "lex_ti_nsu", "lex_ti_nsa", "lex_ti_nihna", "lex_ti_sim", "lex_ti_eritriya"],
+    "lexemeIds": [
+      "lex_ti_selam",
+      "lex_ti_dehan",
+      "lex_ti_yiqeneyeley",
+      "lex_ti_awo",
+      "lex_ti_bejaka",
+      "lex_ti_yikreta",
+      "lex_ti_ane",
+      "lex_ti_nsika",
+      "lex_ti_nsiki",
+      "lex_ti_nsu",
+      "lex_ti_nsa",
+      "lex_ti_nihna",
+      "lex_ti_sim",
+      "lex_ti_eritriya"
+    ],
     "sentenceIds": [],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
   },
   {
     "id": "unit_eritrea_greetings_sentences",
     "kind": "sentenceBuilding",
-    "lexemeIds": ["lex_ti_selam", "lex_ti_dehan", "lex_ti_yiqeneyeley", "lex_ti_awo", "lex_ti_bejaka", "lex_ti_yikreta", "lex_ti_ane", "lex_ti_nsika", "lex_ti_nsiki", "lex_ti_nsu", "lex_ti_nsa", "lex_ti_nihna", "lex_ti_sim", "lex_ti_eritriya"],
-    "sentenceIds": ["sen_ti_ane_dehan", "sen_ti_nsu_dehan"],
-    "exerciseTypes": ["sentenceBuild", "sentenceGapChoice"]
+    "lexemeIds": [
+      "lex_ti_selam",
+      "lex_ti_dehan",
+      "lex_ti_yiqeneyeley",
+      "lex_ti_awo",
+      "lex_ti_bejaka",
+      "lex_ti_yikreta",
+      "lex_ti_ane",
+      "lex_ti_nsika",
+      "lex_ti_nsiki",
+      "lex_ti_nsu",
+      "lex_ti_nsa",
+      "lex_ti_nihna",
+      "lex_ti_sim",
+      "lex_ti_eritriya"
+    ],
+    "sentenceIds": [
+      "sen_ti_ane_dehan",
+      "sen_ti_nsu_dehan",
+      "sen_gen_selam_2",
+      "sen_gen_yiqeneyeley",
+      "sen_gen_bejaka"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
   },
   {
     "id": "unit_eritrea_greetings_listening",
     "kind": "listening",
-    "lexemeIds": ["lex_ti_selam", "lex_ti_dehan", "lex_ti_yiqeneyeley", "lex_ti_awo", "lex_ti_bejaka", "lex_ti_yikreta", "lex_ti_ane", "lex_ti_nsika", "lex_ti_nsiki", "lex_ti_nsu", "lex_ti_nsa", "lex_ti_nihna", "lex_ti_sim", "lex_ti_eritriya"],
-    "sentenceIds": ["sen_ti_ane_dehan", "sen_ti_nsu_dehan"],
-    "exerciseTypes": ["listenChoice", "listenBuild"]
+    "lexemeIds": [
+      "lex_ti_selam",
+      "lex_ti_dehan",
+      "lex_ti_yiqeneyeley",
+      "lex_ti_awo",
+      "lex_ti_bejaka",
+      "lex_ti_yikreta",
+      "lex_ti_ane",
+      "lex_ti_nsika",
+      "lex_ti_nsiki",
+      "lex_ti_nsu",
+      "lex_ti_nsa",
+      "lex_ti_nihna",
+      "lex_ti_sim",
+      "lex_ti_eritriya"
+    ],
+    "sentenceIds": [
+      "sen_ti_ane_dehan",
+      "sen_ti_nsu_dehan",
+      "sen_gen_selam_2",
+      "sen_gen_yiqeneyeley",
+      "sen_gen_bejaka"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
   },
   {
     "id": "unit_eritrea_greetings_free",
     "kind": "freeApplication",
-    "lexemeIds": ["lex_ti_selam", "lex_ti_dehan", "lex_ti_yiqeneyeley", "lex_ti_awo", "lex_ti_bejaka", "lex_ti_yikreta", "lex_ti_ane", "lex_ti_nsika", "lex_ti_nsiki", "lex_ti_nsu", "lex_ti_nsa", "lex_ti_nihna", "lex_ti_sim", "lex_ti_eritriya"],
-    "sentenceIds": ["sen_ti_ane_dehan", "sen_ti_nsu_dehan"],
-    "exerciseTypes": ["wordTyping", "sentenceTranslate"]
+    "lexemeIds": [
+      "lex_ti_selam",
+      "lex_ti_dehan",
+      "lex_ti_yiqeneyeley",
+      "lex_ti_awo",
+      "lex_ti_bejaka",
+      "lex_ti_yikreta",
+      "lex_ti_ane",
+      "lex_ti_nsika",
+      "lex_ti_nsiki",
+      "lex_ti_nsu",
+      "lex_ti_nsa",
+      "lex_ti_nihna",
+      "lex_ti_sim",
+      "lex_ti_eritriya"
+    ],
+    "sentenceIds": [
+      "sen_ti_ane_dehan",
+      "sen_ti_nsu_dehan",
+      "sen_gen_selam_2",
+      "sen_gen_yiqeneyeley",
+      "sen_gen_bejaka"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
   },
   {
     "id": "unit_eritrea_greetings_review",
     "kind": "review",
-    "lexemeIds": ["lex_ti_selam", "lex_ti_dehan", "lex_ti_yiqeneyeley", "lex_ti_awo", "lex_ti_bejaka", "lex_ti_yikreta", "lex_ti_ane", "lex_ti_nsika", "lex_ti_nsiki", "lex_ti_nsu", "lex_ti_nsa", "lex_ti_nihna", "lex_ti_sim", "lex_ti_eritriya"],
-    "sentenceIds": ["sen_ti_ane_dehan", "sen_ti_nsu_dehan"],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping", "trueFalse"]
+    "lexemeIds": [
+      "lex_ti_selam",
+      "lex_ti_dehan",
+      "lex_ti_yiqeneyeley",
+      "lex_ti_awo",
+      "lex_ti_bejaka",
+      "lex_ti_yikreta",
+      "lex_ti_ane",
+      "lex_ti_nsika",
+      "lex_ti_nsiki",
+      "lex_ti_nsu",
+      "lex_ti_nsa",
+      "lex_ti_nihna",
+      "lex_ti_sim",
+      "lex_ti_eritriya"
+    ],
+    "sentenceIds": [
+      "sen_ti_ane_dehan",
+      "sen_ti_nsu_dehan",
+      "sen_gen_selam_2",
+      "sen_gen_yiqeneyeley",
+      "sen_gen_bejaka"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
   }
 ]

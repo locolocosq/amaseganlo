@@ -127,7 +127,11 @@
       "lex_ti_wr2"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_staat_1"
+      "sen_ti_berufe_staat_1",
+      "sen_gen_hakim",
+      "sen_gen_neurse",
+      "sen_gen_gebari",
+      "sen_gen_negadi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -174,7 +178,11 @@
       "lex_ti_wr2"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_staat_1"
+      "sen_ti_berufe_staat_1",
+      "sen_gen_hakim",
+      "sen_gen_neurse",
+      "sen_gen_gebari",
+      "sen_gen_negadi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -221,7 +229,11 @@
       "lex_ti_wr2"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_staat_1"
+      "sen_ti_berufe_staat_1",
+      "sen_gen_hakim",
+      "sen_gen_neurse",
+      "sen_gen_gebari",
+      "sen_gen_negadi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -268,7 +280,11 @@
       "lex_ti_wr2"
     ],
     "sentenceIds": [
-      "sen_ti_berufe_staat_1"
+      "sen_ti_berufe_staat_1",
+      "sen_gen_hakim",
+      "sen_gen_neurse",
+      "sen_gen_gebari",
+      "sen_gen_negadi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

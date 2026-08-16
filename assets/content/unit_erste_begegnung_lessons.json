@@ -2,43 +2,132 @@
   {
     "id": "lesson_erste_begegnung_intro",
     "kind": "intro",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": [
+      "lex_selam",
+      "lex_ameseginalehu",
+      "lex_awo",
+      "lex_aydelem",
+      "lex_ibakih",
+      "lex_yikirta",
+      "lex_algebagnem",
+      "lex_dehna"
+    ],
     "sentenceIds": [],
     "exerciseTypes": []
   },
   {
     "id": "lesson_erste_begegnung_words",
     "kind": "wordPractice",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
+    "lexemeIds": [
+      "lex_selam",
+      "lex_ameseginalehu",
+      "lex_awo",
+      "lex_aydelem",
+      "lex_ibakih",
+      "lex_yikirta",
+      "lex_algebagnem",
+      "lex_dehna"
+    ],
     "sentenceIds": [],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "pairMatching"]
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
   },
   {
     "id": "lesson_erste_begegnung_sentences",
     "kind": "sentenceBuilding",
-    "lexemeIds": ["lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
-    "exerciseTypes": ["sentenceBuild", "sentenceGapChoice"]
+    "lexemeIds": [
+      "lex_dehna"
+    ],
+    "sentenceIds": [
+      "sen_dehna_negn",
+      "sen_awo_ameseginalehu",
+      "sen_gen_selam",
+      "sen_gen_ibakih",
+      "sen_gen_yikirta"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
   },
   {
     "id": "lesson_erste_begegnung_listening",
     "kind": "listening",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
-    "exerciseTypes": ["listenChoice", "listenBuild"]
+    "lexemeIds": [
+      "lex_selam",
+      "lex_ameseginalehu",
+      "lex_awo",
+      "lex_aydelem",
+      "lex_ibakih",
+      "lex_yikirta",
+      "lex_algebagnem",
+      "lex_dehna"
+    ],
+    "sentenceIds": [
+      "sen_dehna_negn",
+      "sen_awo_ameseginalehu",
+      "sen_gen_selam",
+      "sen_gen_ibakih",
+      "sen_gen_yikirta"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
   },
   {
     "id": "lesson_erste_begegnung_free",
     "kind": "freeApplication",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
-    "exerciseTypes": ["wordTyping", "sentenceTranslate"]
+    "lexemeIds": [
+      "lex_selam",
+      "lex_ameseginalehu",
+      "lex_awo",
+      "lex_aydelem",
+      "lex_ibakih",
+      "lex_yikirta",
+      "lex_algebagnem",
+      "lex_dehna"
+    ],
+    "sentenceIds": [
+      "sen_dehna_negn",
+      "sen_awo_ameseginalehu",
+      "sen_gen_selam",
+      "sen_gen_ibakih",
+      "sen_gen_yikirta"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
   },
   {
     "id": "lesson_erste_begegnung_review",
     "kind": "review",
-    "lexemeIds": ["lex_selam", "lex_ameseginalehu", "lex_awo", "lex_aydelem", "lex_ibakih", "lex_yikirta", "lex_algebagnem", "lex_dehna"],
-    "sentenceIds": ["sen_dehna_negn", "sen_awo_ameseginalehu"],
-    "exerciseTypes": ["wordChoiceAmToNative", "wordChoiceNativeToAm", "wordTyping", "trueFalse"]
+    "lexemeIds": [
+      "lex_selam",
+      "lex_ameseginalehu",
+      "lex_awo",
+      "lex_aydelem",
+      "lex_ibakih",
+      "lex_yikirta",
+      "lex_algebagnem",
+      "lex_dehna"
+    ],
+    "sentenceIds": [
+      "sen_dehna_negn",
+      "sen_awo_ameseginalehu",
+      "sen_gen_selam",
+      "sen_gen_ibakih",
+      "sen_gen_yikirta"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
   }
 ]

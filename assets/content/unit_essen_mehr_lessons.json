@@ -58,7 +58,11 @@
       "lex_butter"
     ],
     "sentenceIds": [
-      "sen_shinkurt_keyy"
+      "sen_shinkurt_keyy",
+      "sen_gen_tomate",
+      "sen_gen_kartoffel",
+      "sen_gen_knoblauch",
+      "sen_gen_karotte"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_butter"
     ],
     "sentenceIds": [
-      "sen_shinkurt_keyy"
+      "sen_shinkurt_keyy",
+      "sen_gen_tomate",
+      "sen_gen_kartoffel",
+      "sen_gen_knoblauch",
+      "sen_gen_karotte"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_butter"
     ],
     "sentenceIds": [
-      "sen_shinkurt_keyy"
+      "sen_shinkurt_keyy",
+      "sen_gen_tomate",
+      "sen_gen_kartoffel",
+      "sen_gen_knoblauch",
+      "sen_gen_karotte"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_butter"
     ],
     "sentenceIds": [
-      "sen_shinkurt_keyy"
+      "sen_shinkurt_keyy",
+      "sen_gen_tomate",
+      "sen_gen_kartoffel",
+      "sen_gen_knoblauch",
+      "sen_gen_karotte"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

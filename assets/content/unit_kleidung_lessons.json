@@ -58,7 +58,11 @@
       "lex_ring"
     ],
     "sentenceIds": [
-      "sen_shemizu_keyy"
+      "sen_shemizu_keyy",
+      "sen_gen_kleidung",
+      "sen_gen_hose",
+      "sen_gen_schuh",
+      "sen_gen_hut"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_ring"
     ],
     "sentenceIds": [
-      "sen_shemizu_keyy"
+      "sen_shemizu_keyy",
+      "sen_gen_kleidung",
+      "sen_gen_hose",
+      "sen_gen_schuh",
+      "sen_gen_hut"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_ring"
     ],
     "sentenceIds": [
-      "sen_shemizu_keyy"
+      "sen_shemizu_keyy",
+      "sen_gen_kleidung",
+      "sen_gen_hose",
+      "sen_gen_schuh",
+      "sen_gen_hut"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_ring"
     ],
     "sentenceIds": [
-      "sen_shemizu_keyy"
+      "sen_shemizu_keyy",
+      "sen_gen_kleidung",
+      "sen_gen_hose",
+      "sen_gen_schuh",
+      "sen_gen_hut"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -82,7 +82,11 @@
       "lex_ti_whr_wga"
     ],
     "sentenceIds": [
-      "sen_ti_buero_waehrung_1"
+      "sen_ti_buero_waehrung_1",
+      "sen_gen_bro_msmr2",
+      "sen_gen_bro_wrqt",
+      "sen_gen_bro_mzgb2",
+      "sen_gen_bro_agr"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -114,7 +118,11 @@
       "lex_ti_whr_wga"
     ],
     "sentenceIds": [
-      "sen_ti_buero_waehrung_1"
+      "sen_ti_buero_waehrung_1",
+      "sen_gen_bro_msmr2",
+      "sen_gen_bro_wrqt",
+      "sen_gen_bro_mzgb2",
+      "sen_gen_bro_agr"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -146,7 +154,11 @@
       "lex_ti_whr_wga"
     ],
     "sentenceIds": [
-      "sen_ti_buero_waehrung_1"
+      "sen_ti_buero_waehrung_1",
+      "sen_gen_bro_msmr2",
+      "sen_gen_bro_wrqt",
+      "sen_gen_bro_mzgb2",
+      "sen_gen_bro_agr"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -178,7 +190,11 @@
       "lex_ti_whr_wga"
     ],
     "sentenceIds": [
-      "sen_ti_buero_waehrung_1"
+      "sen_ti_buero_waehrung_1",
+      "sen_gen_bro_msmr2",
+      "sen_gen_bro_wrqt",
+      "sen_gen_bro_mzgb2",
+      "sen_gen_bro_agr"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

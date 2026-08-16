@@ -45,7 +45,13 @@
       "lex_wein",
       "lex_saft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -63,7 +69,13 @@
       "lex_wein",
       "lex_saft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -81,7 +93,13 @@
       "lex_wein",
       "lex_saft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -99,7 +117,13 @@
       "lex_wein",
       "lex_saft"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

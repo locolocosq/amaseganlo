@@ -51,7 +51,13 @@
       "lex_v_probieren",
       "lex_v_servieren"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_kochen_verb",
+      "sen_gen_v_braten",
+      "sen_gen_v_roesten",
+      "sen_gen_v_mischen",
+      "sen_gen_v_ruehren"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -71,7 +77,13 @@
       "lex_v_probieren",
       "lex_v_servieren"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_kochen_verb",
+      "sen_gen_v_braten",
+      "sen_gen_v_roesten",
+      "sen_gen_v_mischen",
+      "sen_gen_v_ruehren"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -91,7 +103,13 @@
       "lex_v_probieren",
       "lex_v_servieren"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_kochen_verb",
+      "sen_gen_v_braten",
+      "sen_gen_v_roesten",
+      "sen_gen_v_mischen",
+      "sen_gen_v_ruehren"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -111,7 +129,13 @@
       "lex_v_probieren",
       "lex_v_servieren"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_v_kochen_verb",
+      "sen_gen_v_braten",
+      "sen_gen_v_roesten",
+      "sen_gen_v_mischen",
+      "sen_gen_v_ruehren"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

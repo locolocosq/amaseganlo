@@ -63,7 +63,9 @@
     "sentenceIds": [
       "sen_min_new",
       "sen_simka_min",
-      "sen_issu_man"
+      "sen_issu_man",
+      "sen_gen_durstig",
+      "sen_gen_hungrig"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +92,9 @@
     "sentenceIds": [
       "sen_min_new",
       "sen_simka_min",
-      "sen_issu_man"
+      "sen_issu_man",
+      "sen_gen_durstig",
+      "sen_gen_hungrig"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -117,7 +121,9 @@
     "sentenceIds": [
       "sen_min_new",
       "sen_simka_min",
-      "sen_issu_man"
+      "sen_issu_man",
+      "sen_gen_durstig",
+      "sen_gen_hungrig"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -144,7 +150,9 @@
     "sentenceIds": [
       "sen_min_new",
       "sen_simka_min",
-      "sen_issu_man"
+      "sen_issu_man",
+      "sen_gen_durstig",
+      "sen_gen_hungrig"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

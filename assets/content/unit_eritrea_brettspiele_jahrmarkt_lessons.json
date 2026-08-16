@@ -55,7 +55,11 @@
       "lex_ti_jhm_cndy"
     ],
     "sentenceIds": [
-      "sen_ti_brettspiele_jahrmarkt_1"
+      "sen_ti_brettspiele_jahrmarkt_1",
+      "sen_gen_brs_domin",
+      "sen_gen_brs_chkrs",
+      "sen_gen_brs_turn",
+      "sen_gen_brs_win2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_jhm_cndy"
     ],
     "sentenceIds": [
-      "sen_ti_brettspiele_jahrmarkt_1"
+      "sen_ti_brettspiele_jahrmarkt_1",
+      "sen_gen_brs_domin",
+      "sen_gen_brs_chkrs",
+      "sen_gen_brs_turn",
+      "sen_gen_brs_win2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_jhm_cndy"
     ],
     "sentenceIds": [
-      "sen_ti_brettspiele_jahrmarkt_1"
+      "sen_ti_brettspiele_jahrmarkt_1",
+      "sen_gen_brs_domin",
+      "sen_gen_brs_chkrs",
+      "sen_gen_brs_turn",
+      "sen_gen_brs_win2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_jhm_cndy"
     ],
     "sentenceIds": [
-      "sen_ti_brettspiele_jahrmarkt_1"
+      "sen_ti_brettspiele_jahrmarkt_1",
+      "sen_gen_brs_domin",
+      "sen_gen_brs_chkrs",
+      "sen_gen_brs_turn",
+      "sen_gen_brs_win2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

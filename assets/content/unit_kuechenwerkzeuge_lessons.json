@@ -39,7 +39,13 @@
       "lex_reibe",
       "lex_sieb"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_reibe",
       "lex_sieb"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_reibe",
       "lex_sieb"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_reibe",
       "lex_sieb"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

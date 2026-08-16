@@ -98,7 +98,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_itetalehu",
-      "sen_dabo_ibelalehu"
+      "sen_dabo_ibelalehu",
+      "sen_gen_kaffee",
+      "sen_gen_milch",
+      "sen_gen_fleisch"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -136,7 +139,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_itetalehu",
-      "sen_dabo_ibelalehu"
+      "sen_dabo_ibelalehu",
+      "sen_gen_kaffee",
+      "sen_gen_milch",
+      "sen_gen_fleisch"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -174,7 +180,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_itetalehu",
-      "sen_dabo_ibelalehu"
+      "sen_dabo_ibelalehu",
+      "sen_gen_kaffee",
+      "sen_gen_milch",
+      "sen_gen_fleisch"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -212,7 +221,10 @@
     ],
     "sentenceIds": [
       "sen_wuha_itetalehu",
-      "sen_dabo_ibelalehu"
+      "sen_dabo_ibelalehu",
+      "sen_gen_kaffee",
+      "sen_gen_milch",
+      "sen_gen_fleisch"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

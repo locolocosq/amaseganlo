@@ -40,7 +40,11 @@
       "lex_ti_erh_faint"
     ],
     "sentenceIds": [
-      "sen_ti_erstehilfe_notdienste2_1"
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_gen_erh_faint"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -58,7 +62,11 @@
       "lex_ti_erh_faint"
     ],
     "sentenceIds": [
-      "sen_ti_erstehilfe_notdienste2_1"
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_gen_erh_faint"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -76,7 +84,11 @@
       "lex_ti_erh_faint"
     ],
     "sentenceIds": [
-      "sen_ti_erstehilfe_notdienste2_1"
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_gen_erh_faint"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -94,7 +106,11 @@
       "lex_ti_erh_faint"
     ],
     "sentenceIds": [
-      "sen_ti_erstehilfe_notdienste2_1"
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_gen_erh_faint"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

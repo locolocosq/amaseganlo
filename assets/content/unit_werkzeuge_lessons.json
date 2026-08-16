@@ -54,7 +54,13 @@
       "lex_klebeband",
       "lex_leim"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_hammer",
+      "sen_gen_nagel",
+      "sen_gen_schraube",
+      "sen_gen_saege",
+      "sen_gen_bohrer"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -75,7 +81,13 @@
       "lex_klebeband",
       "lex_leim"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_hammer",
+      "sen_gen_nagel",
+      "sen_gen_schraube",
+      "sen_gen_saege",
+      "sen_gen_bohrer"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -96,7 +108,13 @@
       "lex_klebeband",
       "lex_leim"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_hammer",
+      "sen_gen_nagel",
+      "sen_gen_schraube",
+      "sen_gen_saege",
+      "sen_gen_bohrer"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -117,7 +135,13 @@
       "lex_klebeband",
       "lex_leim"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_hammer",
+      "sen_gen_nagel",
+      "sen_gen_schraube",
+      "sen_gen_saege",
+      "sen_gen_bohrer"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

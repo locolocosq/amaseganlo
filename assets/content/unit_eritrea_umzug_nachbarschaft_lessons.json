@@ -64,7 +64,11 @@
       "lex_ti_nbr_meet"
     ],
     "sentenceIds": [
-      "sen_ti_umzug_nachbarschaft_1"
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_gen_umz_rnt",
+      "sen_gen_umz_own",
+      "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -90,7 +94,11 @@
       "lex_ti_nbr_meet"
     ],
     "sentenceIds": [
-      "sen_ti_umzug_nachbarschaft_1"
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_gen_umz_rnt",
+      "sen_gen_umz_own",
+      "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -116,7 +124,11 @@
       "lex_ti_nbr_meet"
     ],
     "sentenceIds": [
-      "sen_ti_umzug_nachbarschaft_1"
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_gen_umz_rnt",
+      "sen_gen_umz_own",
+      "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -142,7 +154,11 @@
       "lex_ti_nbr_meet"
     ],
     "sentenceIds": [
-      "sen_ti_umzug_nachbarschaft_1"
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_gen_umz_rnt",
+      "sen_gen_umz_own",
+      "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

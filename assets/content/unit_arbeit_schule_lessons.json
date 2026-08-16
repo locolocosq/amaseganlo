@@ -83,7 +83,10 @@
     ],
     "sentenceIds": [
       "sen_temari_negn",
-      "sen_metsihaf_manbeb"
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -116,7 +119,10 @@
     ],
     "sentenceIds": [
       "sen_temari_negn",
-      "sen_metsihaf_manbeb"
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -149,7 +155,10 @@
     ],
     "sentenceIds": [
       "sen_temari_negn",
-      "sen_metsihaf_manbeb"
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -182,7 +191,10 @@
     ],
     "sentenceIds": [
       "sen_temari_negn",
-      "sen_metsihaf_manbeb"
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

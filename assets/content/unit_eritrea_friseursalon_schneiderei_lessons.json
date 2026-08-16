@@ -55,7 +55,11 @@
       "lex_ti_snd_tlr2"
     ],
     "sentenceIds": [
-      "sen_ti_friseursalon_schneiderei_1"
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_snd_tlr2"
     ],
     "sentenceIds": [
-      "sen_ti_friseursalon_schneiderei_1"
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_snd_tlr2"
     ],
     "sentenceIds": [
-      "sen_ti_friseursalon_schneiderei_1"
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_snd_tlr2"
     ],
     "sentenceIds": [
-      "sen_ti_friseursalon_schneiderei_1"
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

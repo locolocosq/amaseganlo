@@ -39,7 +39,13 @@
       "lex_fuehrerschein",
       "lex_tankstelle"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ampel",
+      "sen_gen_fahrkarte",
+      "sen_gen_bushaltestelle",
+      "sen_gen_fuehrerschein",
+      "sen_gen_tankstelle"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_fuehrerschein",
       "lex_tankstelle"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ampel",
+      "sen_gen_fahrkarte",
+      "sen_gen_bushaltestelle",
+      "sen_gen_fuehrerschein",
+      "sen_gen_tankstelle"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_fuehrerschein",
       "lex_tankstelle"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ampel",
+      "sen_gen_fahrkarte",
+      "sen_gen_bushaltestelle",
+      "sen_gen_fuehrerschein",
+      "sen_gen_tankstelle"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_fuehrerschein",
       "lex_tankstelle"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ampel",
+      "sen_gen_fahrkarte",
+      "sen_gen_bushaltestelle",
+      "sen_gen_fuehrerschein",
+      "sen_gen_tankstelle"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

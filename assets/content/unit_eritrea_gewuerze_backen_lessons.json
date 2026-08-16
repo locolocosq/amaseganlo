@@ -67,7 +67,11 @@
       "lex_ti_bck_cake"
     ],
     "sentenceIds": [
-      "sen_ti_gewuerze_backen_1"
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_bck_cake"
     ],
     "sentenceIds": [
-      "sen_ti_gewuerze_backen_1"
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_bck_cake"
     ],
     "sentenceIds": [
-      "sen_ti_gewuerze_backen_1"
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_bck_cake"
     ],
     "sentenceIds": [
-      "sen_ti_gewuerze_backen_1"
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

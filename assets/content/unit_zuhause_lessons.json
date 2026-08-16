@@ -74,7 +74,10 @@
     ],
     "sentenceIds": [
       "sen_biet_tilik",
-      "sen_ber_kefeto"
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -104,7 +107,10 @@
     ],
     "sentenceIds": [
       "sen_biet_tilik",
-      "sen_ber_kefeto"
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -134,7 +140,10 @@
     ],
     "sentenceIds": [
       "sen_biet_tilik",
-      "sen_ber_kefeto"
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -164,7 +173,10 @@
     ],
     "sentenceIds": [
       "sen_biet_tilik",
-      "sen_ber_kefeto"
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

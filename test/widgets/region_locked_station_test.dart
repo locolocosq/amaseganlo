@@ -31,6 +31,12 @@ void main() {
     await tester.pumpAndSettle();
 
     // Landed on the unit overview (unchanged screen), not still on the map.
+    // "Ich und du" gained its own dedicated sentence-building stage
+    // (previously it went straight from word practice to listening), so the
+    // "Kapitel-Test" tile below the now-longer lesson list needs scrolling
+    // into view first, same as eritrea_region_reachable_test.dart already
+    // does for a different unit.
+    await tester.scrollUntilVisible(find.text('Kapitel-Test'), 300, scrollable: find.byType(Scrollable).first);
     expect(find.text('Kapitel-Test'), findsOneWidget);
   });
 }

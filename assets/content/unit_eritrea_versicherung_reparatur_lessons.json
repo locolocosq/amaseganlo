@@ -58,7 +58,11 @@
       "lex_ti_rpr_wrnty"
     ],
     "sentenceIds": [
-      "sen_ti_versicherung_reparatur_1"
+      "sen_ti_versicherung_reparatur_1",
+      "sen_gen_vsc_prem",
+      "sen_gen_vsc_clm",
+      "sen_gen_vsc_kahisa",
+      "sen_gen_vsc_rsk"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +86,11 @@
       "lex_ti_rpr_wrnty"
     ],
     "sentenceIds": [
-      "sen_ti_versicherung_reparatur_1"
+      "sen_ti_versicherung_reparatur_1",
+      "sen_gen_vsc_prem",
+      "sen_gen_vsc_clm",
+      "sen_gen_vsc_kahisa",
+      "sen_gen_vsc_rsk"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -106,7 +114,11 @@
       "lex_ti_rpr_wrnty"
     ],
     "sentenceIds": [
-      "sen_ti_versicherung_reparatur_1"
+      "sen_ti_versicherung_reparatur_1",
+      "sen_gen_vsc_prem",
+      "sen_gen_vsc_clm",
+      "sen_gen_vsc_kahisa",
+      "sen_gen_vsc_rsk"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -130,7 +142,11 @@
       "lex_ti_rpr_wrnty"
     ],
     "sentenceIds": [
-      "sen_ti_versicherung_reparatur_1"
+      "sen_ti_versicherung_reparatur_1",
+      "sen_gen_vsc_prem",
+      "sen_gen_vsc_clm",
+      "sen_gen_vsc_kahisa",
+      "sen_gen_vsc_rsk"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

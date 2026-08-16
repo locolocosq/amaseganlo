@@ -55,7 +55,11 @@
       "lex_ti_ggr_glvs"
     ],
     "sentenceIds": [
-      "sen_ti_gaerten_gartengeraete_1"
+      "sen_ti_gaerten_gartengeraete_1",
+      "sen_gen_grt_hedge",
+      "sen_gen_grt_soil",
+      "sen_gen_grt_water2",
+      "sen_gen_grt_plant2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -78,7 +82,11 @@
       "lex_ti_ggr_glvs"
     ],
     "sentenceIds": [
-      "sen_ti_gaerten_gartengeraete_1"
+      "sen_ti_gaerten_gartengeraete_1",
+      "sen_gen_grt_hedge",
+      "sen_gen_grt_soil",
+      "sen_gen_grt_water2",
+      "sen_gen_grt_plant2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -101,7 +109,11 @@
       "lex_ti_ggr_glvs"
     ],
     "sentenceIds": [
-      "sen_ti_gaerten_gartengeraete_1"
+      "sen_ti_gaerten_gartengeraete_1",
+      "sen_gen_grt_hedge",
+      "sen_gen_grt_soil",
+      "sen_gen_grt_water2",
+      "sen_gen_grt_plant2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,7 +136,11 @@
       "lex_ti_ggr_glvs"
     ],
     "sentenceIds": [
-      "sen_ti_gaerten_gartengeraete_1"
+      "sen_ti_gaerten_gartengeraete_1",
+      "sen_gen_grt_hedge",
+      "sen_gen_grt_soil",
+      "sen_gen_grt_water2",
+      "sen_gen_grt_plant2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -54,7 +54,13 @@
       "lex_wat",
       "lex_firfir"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gondar",
+      "sen_gen_axum",
+      "sen_gen_lalibela",
+      "sen_gen_bahirdar",
+      "sen_gen_mekelle"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -75,7 +81,13 @@
       "lex_wat",
       "lex_firfir"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gondar",
+      "sen_gen_axum",
+      "sen_gen_lalibela",
+      "sen_gen_bahirdar",
+      "sen_gen_mekelle"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -96,7 +108,13 @@
       "lex_wat",
       "lex_firfir"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gondar",
+      "sen_gen_axum",
+      "sen_gen_lalibela",
+      "sen_gen_bahirdar",
+      "sen_gen_mekelle"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -117,7 +135,13 @@
       "lex_wat",
       "lex_firfir"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_gondar",
+      "sen_gen_axum",
+      "sen_gen_lalibela",
+      "sen_gen_bahirdar",
+      "sen_gen_mekelle"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

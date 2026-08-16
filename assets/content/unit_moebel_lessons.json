@@ -39,7 +39,13 @@
       "lex_vorhang",
       "lex_wand"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -55,7 +61,13 @@
       "lex_vorhang",
       "lex_wand"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -71,7 +83,13 @@
       "lex_vorhang",
       "lex_wand"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -87,7 +105,13 @@
       "lex_vorhang",
       "lex_wand"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

@@ -49,7 +49,11 @@
       "lex_ti_wt2_kilma"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_mehr_1"
+      "sen_ti_wetter_mehr_1",
+      "sen_gen_wt2_mbrq",
+      "sen_gen_wt2_nqts",
+      "sen_gen_wt2_bred",
+      "sen_gen_wt2_dmna"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_wt2_kilma"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_mehr_1"
+      "sen_ti_wetter_mehr_1",
+      "sen_gen_wt2_mbrq",
+      "sen_gen_wt2_nqts",
+      "sen_gen_wt2_bred",
+      "sen_gen_wt2_dmna"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_wt2_kilma"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_mehr_1"
+      "sen_ti_wetter_mehr_1",
+      "sen_gen_wt2_mbrq",
+      "sen_gen_wt2_nqts",
+      "sen_gen_wt2_bred",
+      "sen_gen_wt2_dmna"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_wt2_kilma"
     ],
     "sentenceIds": [
-      "sen_ti_wetter_mehr_1"
+      "sen_ti_wetter_mehr_1",
+      "sen_gen_wt2_mbrq",
+      "sen_gen_wt2_nqts",
+      "sen_gen_wt2_bred",
+      "sen_gen_wt2_dmna"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

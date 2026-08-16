@@ -40,7 +40,11 @@
       "lex_ti_dpl_nego"
     ],
     "sentenceIds": [
-      "sen_ti_diplomatie_1"
+      "sen_ti_diplomatie_1",
+      "sen_gen_dpl_embsy",
+      "sen_gen_dpl_trty",
+      "sen_gen_dpl_peace",
+      "sen_gen_dpl_nego"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -58,7 +62,11 @@
       "lex_ti_dpl_nego"
     ],
     "sentenceIds": [
-      "sen_ti_diplomatie_1"
+      "sen_ti_diplomatie_1",
+      "sen_gen_dpl_embsy",
+      "sen_gen_dpl_trty",
+      "sen_gen_dpl_peace",
+      "sen_gen_dpl_nego"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -76,7 +84,11 @@
       "lex_ti_dpl_nego"
     ],
     "sentenceIds": [
-      "sen_ti_diplomatie_1"
+      "sen_ti_diplomatie_1",
+      "sen_gen_dpl_embsy",
+      "sen_gen_dpl_trty",
+      "sen_gen_dpl_peace",
+      "sen_gen_dpl_nego"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -94,7 +106,11 @@
       "lex_ti_dpl_nego"
     ],
     "sentenceIds": [
-      "sen_ti_diplomatie_1"
+      "sen_ti_diplomatie_1",
+      "sen_gen_dpl_embsy",
+      "sen_gen_dpl_trty",
+      "sen_gen_dpl_peace",
+      "sen_gen_dpl_nego"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

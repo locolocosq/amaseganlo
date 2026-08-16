@@ -49,7 +49,11 @@
       "lex_ti_imb_plot"
     ],
     "sentenceIds": [
-      "sen_ti_steuern_immobilien_1"
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -70,7 +74,11 @@
       "lex_ti_imb_plot"
     ],
     "sentenceIds": [
-      "sen_ti_steuern_immobilien_1"
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -91,7 +99,11 @@
       "lex_ti_imb_plot"
     ],
     "sentenceIds": [
-      "sen_ti_steuern_immobilien_1"
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -112,7 +124,11 @@
       "lex_ti_imb_plot"
     ],
     "sentenceIds": [
-      "sen_ti_steuern_immobilien_1"
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

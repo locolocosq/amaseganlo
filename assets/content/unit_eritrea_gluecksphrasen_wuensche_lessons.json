@@ -61,7 +61,11 @@
       "lex_ti_abs_done2"
     ],
     "sentenceIds": [
-      "sen_ti_gluecksphrasen_wuensche_1"
+      "sen_ti_gluecksphrasen_wuensche_1",
+      "sen_gen_glp_hbday",
+      "sen_gen_glp_gdluck",
+      "sen_gen_glp_wellsdo",
+      "sen_gen_wns_wish2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_abs_done2"
     ],
     "sentenceIds": [
-      "sen_ti_gluecksphrasen_wuensche_1"
+      "sen_ti_gluecksphrasen_wuensche_1",
+      "sen_gen_glp_hbday",
+      "sen_gen_glp_gdluck",
+      "sen_gen_glp_wellsdo",
+      "sen_gen_wns_wish2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_abs_done2"
     ],
     "sentenceIds": [
-      "sen_ti_gluecksphrasen_wuensche_1"
+      "sen_ti_gluecksphrasen_wuensche_1",
+      "sen_gen_glp_hbday",
+      "sen_gen_glp_gdluck",
+      "sen_gen_glp_wellsdo",
+      "sen_gen_wns_wish2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_abs_done2"
     ],
     "sentenceIds": [
-      "sen_ti_gluecksphrasen_wuensche_1"
+      "sen_ti_gluecksphrasen_wuensche_1",
+      "sen_gen_glp_hbday",
+      "sen_gen_glp_gdluck",
+      "sen_gen_glp_wellsdo",
+      "sen_gen_wns_wish2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -61,7 +61,11 @@
       "lex_ti_arc_civ"
     ],
     "sentenceIds": [
-      "sen_ti_raumfahrt_archaeologie_1"
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +90,11 @@
       "lex_ti_arc_civ"
     ],
     "sentenceIds": [
-      "sen_ti_raumfahrt_archaeologie_1"
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -111,7 +119,11 @@
       "lex_ti_arc_civ"
     ],
     "sentenceIds": [
-      "sen_ti_raumfahrt_archaeologie_1"
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -136,7 +148,11 @@
       "lex_ti_arc_civ"
     ],
     "sentenceIds": [
-      "sen_ti_raumfahrt_archaeologie_1"
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

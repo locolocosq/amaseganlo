@@ -48,7 +48,13 @@
       "lex_scheune",
       "lex_brunnen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ernte",
+      "sen_gen_samen",
+      "sen_gen_boden_erde",
+      "sen_gen_pflug",
+      "sen_gen_feldfrucht"
+    ],
     "exerciseTypes": [
       "sentenceBuild",
       "sentenceGapChoice"
@@ -67,7 +73,13 @@
       "lex_scheune",
       "lex_brunnen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ernte",
+      "sen_gen_samen",
+      "sen_gen_boden_erde",
+      "sen_gen_pflug",
+      "sen_gen_feldfrucht"
+    ],
     "exerciseTypes": [
       "listenChoice",
       "listenBuild"
@@ -86,7 +98,13 @@
       "lex_scheune",
       "lex_brunnen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ernte",
+      "sen_gen_samen",
+      "sen_gen_boden_erde",
+      "sen_gen_pflug",
+      "sen_gen_feldfrucht"
+    ],
     "exerciseTypes": [
       "wordTyping",
       "sentenceTranslate"
@@ -105,7 +123,13 @@
       "lex_scheune",
       "lex_brunnen"
     ],
-    "sentenceIds": [],
+    "sentenceIds": [
+      "sen_gen_ernte",
+      "sen_gen_samen",
+      "sen_gen_boden_erde",
+      "sen_gen_pflug",
+      "sen_gen_feldfrucht"
+    ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
       "wordChoiceNativeToAm",

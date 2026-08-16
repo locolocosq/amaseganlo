@@ -109,7 +109,11 @@
       "lex_ti_brvo"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_1"
+      "sen_ti_phrasen_ausrufe_1",
+      "sen_gen_kesela",
+      "sen_gen_dhnbot",
+      "sen_gen_bruk_mb",
+      "sen_gen_kemzi"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -150,7 +154,11 @@
       "lex_ti_brvo"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_1"
+      "sen_ti_phrasen_ausrufe_1",
+      "sen_gen_kesela",
+      "sen_gen_dhnbot",
+      "sen_gen_bruk_mb",
+      "sen_gen_kemzi"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -191,7 +199,11 @@
       "lex_ti_brvo"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_1"
+      "sen_ti_phrasen_ausrufe_1",
+      "sen_gen_kesela",
+      "sen_gen_dhnbot",
+      "sen_gen_bruk_mb",
+      "sen_gen_kemzi"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -232,7 +244,11 @@
       "lex_ti_brvo"
     ],
     "sentenceIds": [
-      "sen_ti_phrasen_ausrufe_1"
+      "sen_ti_phrasen_ausrufe_1",
+      "sen_gen_kesela",
+      "sen_gen_dhnbot",
+      "sen_gen_bruk_mb",
+      "sen_gen_kemzi"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

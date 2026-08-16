@@ -67,7 +67,11 @@
       "lex_ti_tarik"
     ],
     "sentenceIds": [
-      "sen_ti_kultur_1"
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -94,7 +98,11 @@
       "lex_ti_tarik"
     ],
     "sentenceIds": [
-      "sen_ti_kultur_1"
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -121,7 +129,11 @@
       "lex_ti_tarik"
     ],
     "sentenceIds": [
-      "sen_ti_kultur_1"
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -148,7 +160,11 @@
       "lex_ti_tarik"
     ],
     "sentenceIds": [
-      "sen_ti_kultur_1"
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",
