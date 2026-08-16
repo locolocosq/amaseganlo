@@ -1,65 +1,5 @@
 [
   {
-    "id": "sen_gen_selam",
-    "am": "ሰላም።",
-    "tr": "selam.",
-    "level": "A1.1",
-    "uses": [
-      "lex_selam"
-    ],
-    "t": {
-      "de": "Hallo.",
-      "en": "Hello.",
-      "sv": "Hej.",
-      "nl": "Hallo."
-    },
-    "alt": {},
-    "chunks": [
-      "selam."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_ibakih",
-    "am": "እባክህ።",
-    "tr": "ibakih.",
-    "level": "A1.1",
-    "uses": [
-      "lex_ibakih"
-    ],
-    "t": {
-      "de": "Bitte.",
-      "en": "Please.",
-      "sv": "Snälla.",
-      "nl": "Alsjeblieft."
-    },
-    "alt": {},
-    "chunks": [
-      "ibakih."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_yikirta",
-    "am": "ይቅርታ።",
-    "tr": "yikirta.",
-    "level": "A1.1",
-    "uses": [
-      "lex_yikirta"
-    ],
-    "t": {
-      "de": "Entschuldigung.",
-      "en": "Sorry / excuse me.",
-      "sv": "Ursäkta.",
-      "nl": "Sorry / pardon."
-    },
-    "alt": {},
-    "chunks": [
-      "yikirta."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_sim",
     "am": "ስም አለ።",
     "tr": "sim ale.",
@@ -77,46 +17,6 @@
     "chunks": [
       "sim",
       "ale."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_algebagnem",
-    "am": "አልገባኝም።",
-    "tr": "algebagnim.",
-    "level": "A1.1",
-    "uses": [
-      "lex_algebagnem"
-    ],
-    "t": {
-      "de": "Ich verstehe nicht.",
-      "en": "I don't understand.",
-      "sv": "Jag förstår inte.",
-      "nl": "Ik begrijp het niet."
-    },
-    "alt": {},
-    "chunks": [
-      "algebagnim."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_yikirta_2",
-    "am": "ይቅርታ።",
-    "tr": "yikirta.",
-    "level": "A1.1",
-    "uses": [
-      "lex_yikirta"
-    ],
-    "t": {
-      "de": "Entschuldigung.",
-      "en": "Sorry / excuse me.",
-      "sv": "Ursäkta.",
-      "nl": "Sorry / pardon."
-    },
-    "alt": {},
-    "chunks": [
-      "yikirta."
     ],
     "verified": false
   },
@@ -285,86 +185,6 @@
     "chunks": [
       "siga",
       "iwedallehu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_durstig",
-    "am": "ጠምቶኛል።",
-    "tr": "t'emtogniall.",
-    "level": "A1.1",
-    "uses": [
-      "lex_durstig"
-    ],
-    "t": {
-      "de": "Ich bin durstig.",
-      "en": "I am thirsty.",
-      "sv": "Jag är törstig.",
-      "nl": "Ik heb dorst."
-    },
-    "alt": {},
-    "chunks": [
-      "t'emtogniall."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_hungrig",
-    "am": "ርቦኛል።",
-    "tr": "ribogniall.",
-    "level": "A1.1",
-    "uses": [
-      "lex_hungrig"
-    ],
-    "t": {
-      "de": "Ich bin hungrig.",
-      "en": "I am hungry.",
-      "sv": "Jag är hungrig.",
-      "nl": "Ik heb honger."
-    },
-    "alt": {},
-    "chunks": [
-      "ribogniall."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_durstig_2",
-    "am": "ጠምቶኛል።",
-    "tr": "t'emtogniall.",
-    "level": "A1.1",
-    "uses": [
-      "lex_durstig"
-    ],
-    "t": {
-      "de": "Ich bin durstig.",
-      "en": "I am thirsty.",
-      "sv": "Jag är törstig.",
-      "nl": "Ik heb dorst."
-    },
-    "alt": {},
-    "chunks": [
-      "t'emtogniall."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_hungrig_2",
-    "am": "ርቦኛል።",
-    "tr": "ribogniall.",
-    "level": "A1.1",
-    "uses": [
-      "lex_hungrig"
-    ],
-    "t": {
-      "de": "Ich bin hungrig.",
-      "en": "I am hungry.",
-      "sv": "Jag är hungrig.",
-      "nl": "Ik heb honger."
-    },
-    "alt": {},
-    "chunks": [
-      "ribogniall."
     ],
     "verified": false
   },

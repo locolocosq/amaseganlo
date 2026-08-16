@@ -59,10 +59,10 @@
     ],
     "sentenceIds": [
       "sen_ti_bewegung_koerperfunktionen_1",
-      "sen_gen_bwg_crawl",
-      "sen_gen_bwg_push",
-      "sen_gen_bwg_pull",
-      "sen_gen_bwg_throw"
+      "sen_fix_zst2_alone2",
+      "sen_fix_zst2_bored",
+      "sen_fix_zst2_ready2",
+      "sen_fix_zst2_free2_2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -87,10 +87,10 @@
     ],
     "sentenceIds": [
       "sen_ti_bewegung_koerperfunktionen_1",
-      "sen_gen_bwg_crawl",
-      "sen_gen_bwg_push",
-      "sen_gen_bwg_pull",
-      "sen_gen_bwg_throw"
+      "sen_fix_zst2_alone2",
+      "sen_fix_zst2_bored",
+      "sen_fix_zst2_ready2",
+      "sen_fix_zst2_free2_2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -115,10 +115,10 @@
     ],
     "sentenceIds": [
       "sen_ti_bewegung_koerperfunktionen_1",
-      "sen_gen_bwg_crawl",
-      "sen_gen_bwg_push",
-      "sen_gen_bwg_pull",
-      "sen_gen_bwg_throw"
+      "sen_fix_zst2_alone2",
+      "sen_fix_zst2_bored",
+      "sen_fix_zst2_ready2",
+      "sen_fix_zst2_free2_2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -143,10 +143,10 @@
     ],
     "sentenceIds": [
       "sen_ti_bewegung_koerperfunktionen_1",
-      "sen_gen_bwg_crawl",
-      "sen_gen_bwg_push",
-      "sen_gen_bwg_pull",
-      "sen_gen_bwg_throw"
+      "sen_fix_zst2_alone2",
+      "sen_fix_zst2_bored",
+      "sen_fix_zst2_ready2",
+      "sen_fix_zst2_free2_2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

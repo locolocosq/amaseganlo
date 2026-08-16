@@ -56,7 +56,7 @@
       "sen_gen_flm_brgn",
       "sen_gen_flm_deal",
       "sen_gen_flm_stall",
-      "sen_gen_flm_sell"
+      "sen_fix_smk_cart"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +82,7 @@
       "sen_gen_flm_brgn",
       "sen_gen_flm_deal",
       "sen_gen_flm_stall",
-      "sen_gen_flm_sell"
+      "sen_fix_smk_cart"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -108,7 +108,7 @@
       "sen_gen_flm_brgn",
       "sen_gen_flm_deal",
       "sen_gen_flm_stall",
-      "sen_gen_flm_sell"
+      "sen_fix_smk_cart"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -134,7 +134,7 @@
       "sen_gen_flm_brgn",
       "sen_gen_flm_deal",
       "sen_gen_flm_stall",
-      "sen_gen_flm_sell"
+      "sen_fix_smk_cart"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

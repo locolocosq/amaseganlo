@@ -59,7 +59,7 @@
       "sen_gen_grt_hedge",
       "sen_gen_grt_soil",
       "sen_gen_grt_water2",
-      "sen_gen_grt_plant2"
+      "sen_fix_ggr_rake"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +86,7 @@
       "sen_gen_grt_hedge",
       "sen_gen_grt_soil",
       "sen_gen_grt_water2",
-      "sen_gen_grt_plant2"
+      "sen_fix_ggr_rake"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -113,7 +113,7 @@
       "sen_gen_grt_hedge",
       "sen_gen_grt_soil",
       "sen_gen_grt_water2",
-      "sen_gen_grt_plant2"
+      "sen_fix_ggr_rake"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -140,7 +140,7 @@
       "sen_gen_grt_hedge",
       "sen_gen_grt_soil",
       "sen_gen_grt_water2",
-      "sen_gen_grt_plant2"
+      "sen_fix_ggr_rake"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

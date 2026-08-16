@@ -55,7 +55,7 @@
       "sen_ti_geraeusche_licht_1",
       "sen_gen_grs_quiet2",
       "sen_gen_grs_noise",
-      "sen_gen_grs_scrm",
+      "sen_fix_lct_bright",
       "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
@@ -81,7 +81,7 @@
       "sen_ti_geraeusche_licht_1",
       "sen_gen_grs_quiet2",
       "sen_gen_grs_noise",
-      "sen_gen_grs_scrm",
+      "sen_fix_lct_bright",
       "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
@@ -107,7 +107,7 @@
       "sen_ti_geraeusche_licht_1",
       "sen_gen_grs_quiet2",
       "sen_gen_grs_noise",
-      "sen_gen_grs_scrm",
+      "sen_fix_lct_bright",
       "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [
@@ -133,7 +133,7 @@
       "sen_ti_geraeusche_licht_1",
       "sen_gen_grs_quiet2",
       "sen_gen_grs_noise",
-      "sen_gen_grs_scrm",
+      "sen_fix_lct_bright",
       "sen_gen_grs_whspr"
     ],
     "exerciseTypes": [

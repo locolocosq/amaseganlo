@@ -1,0 +1,149 @@
+[
+  {
+    "id": "sen_fix_freude",
+    "am": "ደስታ አለ።",
+    "tr": "desta ale.",
+    "level": "B1",
+    "uses": [
+      "lex_freude"
+    ],
+    "t": {
+      "de": "die Freude, das Glück ist vorhanden.",
+      "en": "There is joy, happiness.",
+      "sv": "Det finns glädje.",
+      "nl": "Er is vreugde."
+    },
+    "alt": {},
+    "chunks": [
+      "desta",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_traurigkeit",
+    "am": "ሀዘን አለኝ።",
+    "tr": "hazen alegn.",
+    "level": "B1",
+    "uses": [
+      "lex_traurigkeit"
+    ],
+    "t": {
+      "de": "Ich habe die Traurigkeit.",
+      "en": "I have sadness.",
+      "sv": "Jag har sorg.",
+      "nl": "Ik heb verdriet."
+    },
+    "alt": {},
+    "chunks": [
+      "hazen",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_meinung",
+    "am": "አስተያየት እወዳለሁ።",
+    "tr": "astyayet iwedallehu.",
+    "level": "B1",
+    "uses": [
+      "lex_meinung"
+    ],
+    "t": {
+      "de": "Ich mag die Meinung.",
+      "en": "I like opinion.",
+      "sv": "Jag gillar åsikt.",
+      "nl": "Ik hou van mening."
+    },
+    "alt": {},
+    "chunks": [
+      "astyayet",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_zukunft",
+    "am": "ወደፊት አለ።",
+    "tr": "wedefit ale.",
+    "level": "B1",
+    "uses": [
+      "lex_zukunft"
+    ],
+    "t": {
+      "de": "die Zukunft, in Zukunft ist vorhanden.",
+      "en": "There is the future, ahead.",
+      "sv": "Det finns framtiden, framöver.",
+      "nl": "Er is de toekomst, voortaan."
+    },
+    "alt": {},
+    "chunks": [
+      "wedefit",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_pagume",
+    "am": "ጳጉሜ አለ።",
+    "tr": "pagume ale.",
+    "level": "B1",
+    "uses": [
+      "lex_pagume"
+    ],
+    "t": {
+      "de": "Pagumen (13. Monat, kurz) ist vorhanden.",
+      "en": "There is Pagume (13th, short month).",
+      "sv": "Det finns Pagume (13:e, kort månaden).",
+      "nl": "Er is Pagume (13e, korte maand)."
+    },
+    "alt": {},
+    "chunks": [
+      "pagume",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_nehase",
+    "am": "ነሐሴ አለኝ።",
+    "tr": "nehase alegn.",
+    "level": "B1",
+    "uses": [
+      "lex_nehase"
+    ],
+    "t": {
+      "de": "Ich habe Nehase (12. Monat).",
+      "en": "I have Nehase (12th month).",
+      "sv": "Jag har Nehase (12:e månaden).",
+      "nl": "Ik heb Nehase (12e maand)."
+    },
+    "alt": {},
+    "chunks": [
+      "nehase",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_pagume_2",
+    "am": "ጳጉሜ አለ።",
+    "tr": "pagume ale.",
+    "level": "B1",
+    "uses": [
+      "lex_pagume"
+    ],
+    "t": {
+      "de": "Pagumen (13. Monat, kurz) ist vorhanden.",
+      "en": "There is Pagume (13th, short month).",
+      "sv": "Det finns Pagume (13:e, kort månaden).",
+      "nl": "Er is Pagume (13e, korte maand)."
+    },
+    "alt": {},
+    "chunks": [
+      "pagume",
+      "ale."
+    ],
+    "verified": false
+  }
+]

@@ -64,8 +64,8 @@
       "sen_ti_technologie_mehr_1",
       "sen_gen_tec2_sfrl",
       "sen_gen_tec2_apka",
-      "sen_gen_tec2_shrke",
-      "sen_gen_tec2_ansl"
+      "sen_fix_tec2_scrn",
+      "sen_fix_tec2_kybrd"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -93,8 +93,8 @@
       "sen_ti_technologie_mehr_1",
       "sen_gen_tec2_sfrl",
       "sen_gen_tec2_apka",
-      "sen_gen_tec2_shrke",
-      "sen_gen_tec2_ansl"
+      "sen_fix_tec2_scrn",
+      "sen_fix_tec2_kybrd"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -122,8 +122,8 @@
       "sen_ti_technologie_mehr_1",
       "sen_gen_tec2_sfrl",
       "sen_gen_tec2_apka",
-      "sen_gen_tec2_shrke",
-      "sen_gen_tec2_ansl"
+      "sen_fix_tec2_scrn",
+      "sen_fix_tec2_kybrd"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -151,8 +151,8 @@
       "sen_ti_technologie_mehr_1",
       "sen_gen_tec2_sfrl",
       "sen_gen_tec2_apka",
-      "sen_gen_tec2_shrke",
-      "sen_gen_tec2_ansl"
+      "sen_fix_tec2_scrn",
+      "sen_fix_tec2_kybrd"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -63,66 +63,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_ich_ging",
-    "am": "ሄድኩ።",
-    "tr": "hedku.",
-    "level": "A2",
-    "uses": [
-      "lex_ich_ging"
-    ],
-    "t": {
-      "de": "ich ging.",
-      "en": "I went.",
-      "sv": "jag gick.",
-      "nl": "ik ging."
-    },
-    "alt": {},
-    "chunks": [
-      "hedku."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_ich_ass",
-    "am": "በላሁ።",
-    "tr": "belahu.",
-    "level": "A2",
-    "uses": [
-      "lex_ich_ass"
-    ],
-    "t": {
-      "de": "ich aß.",
-      "en": "I ate.",
-      "sv": "jag åt.",
-      "nl": "ik at."
-    },
-    "alt": {},
-    "chunks": [
-      "belahu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_ich_trank",
-    "am": "ጠጣሁ።",
-    "tr": "t'et'ahu.",
-    "level": "A2",
-    "uses": [
-      "lex_ich_trank"
-    ],
-    "t": {
-      "de": "ich trank.",
-      "en": "I drank.",
-      "sv": "jag drack.",
-      "nl": "ik dronk."
-    },
-    "alt": {},
-    "chunks": [
-      "t'et'ahu."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_v_lachen",
     "am": "መሳቅ እፈልጋለሁ።",
     "tr": "mesak' ifeligalehu.",

@@ -563,7 +563,13 @@
     "sentences_gen_harar.json",
     "sentences_gen_keren.json",
     "sentences_gen_asmara.json",
-    "sentences_gen_massawa.json"
+    "sentences_gen_massawa.json",
+    "sentences_fix_addisabeba.json",
+    "sentences_fix_oromia.json",
+    "sentences_fix_sidama.json",
+    "sentences_fix_keren.json",
+    "sentences_fix_asmara.json",
+    "sentences_fix_massawa.json"
   ],
   "sections": [
     {

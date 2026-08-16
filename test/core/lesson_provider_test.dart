@@ -277,6 +277,46 @@ void main() {
         }
       },
     );
+
+    test(
+      'chunk-based exercises are skipped for one-chunk sentences (bug report: a gap-fill on a '
+      'single-word sentence like "yikirta." showed nothing but an empty blank, since redacting '
+      'the only chunk leaves no context at all)',
+      () {
+        lessonProvider.startLesson(
+          unitId: 'unit_erste_begegnung',
+          lessonId: 'lesson_erste_begegnung_sentences',
+          locale: 'de',
+          useHearts: false,
+        );
+        final session = lessonProvider.session!;
+
+        // sen_gen_selam/sen_gen_ibakih/sen_gen_yikirta are single-chunk
+        // (interjections like "Hallo."/"Bitte."/"Entschuldigung.") - none of
+        // them should produce a sentenceBuild/sentenceGapChoice/
+        // sentenceGapTyping/listenBuild exercise.
+        const chunkDependentTypes = {
+          ExerciseType.sentenceBuild,
+          ExerciseType.sentenceGapChoice,
+          ExerciseType.sentenceGapTyping,
+          ExerciseType.listenBuild,
+        };
+        const oneChunkSentenceIds = {'sen_gen_selam', 'sen_gen_ibakih', 'sen_gen_yikirta'};
+        for (final exercise in session.exercises) {
+          if (chunkDependentTypes.contains(exercise.type)) {
+            expect(oneChunkSentenceIds.contains(exercise.subjectId), isFalse);
+          }
+        }
+
+        // sen_dehna_negn/sen_awo_ameseginalehu (two chunks each) still get
+        // to use these exercise types - the fix only excludes the
+        // degenerate one-chunk case, not the whole lesson.
+        expect(
+          session.exercises.any((e) => chunkDependentTypes.contains(e.type)),
+          isTrue,
+        );
+      },
+    );
   });
 
   group('LessonProvider - audio exercises are excluded without audio', () {

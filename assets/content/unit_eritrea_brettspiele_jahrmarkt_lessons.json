@@ -59,7 +59,7 @@
       "sen_gen_brs_domin",
       "sen_gen_brs_chkrs",
       "sen_gen_brs_turn",
-      "sen_gen_brs_win2"
+      "sen_fix_jhm_crsl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +86,7 @@
       "sen_gen_brs_domin",
       "sen_gen_brs_chkrs",
       "sen_gen_brs_turn",
-      "sen_gen_brs_win2"
+      "sen_fix_jhm_crsl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -113,7 +113,7 @@
       "sen_gen_brs_domin",
       "sen_gen_brs_chkrs",
       "sen_gen_brs_turn",
-      "sen_gen_brs_win2"
+      "sen_fix_jhm_crsl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -140,7 +140,7 @@
       "sen_gen_brs_domin",
       "sen_gen_brs_chkrs",
       "sen_gen_brs_turn",
-      "sen_gen_brs_win2"
+      "sen_fix_jhm_crsl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

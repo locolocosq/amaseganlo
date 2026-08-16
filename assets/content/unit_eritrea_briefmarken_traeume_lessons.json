@@ -55,8 +55,8 @@
       "sen_ti_briefmarken_traeume_1",
       "sen_gen_brm_coin2",
       "sen_gen_brm_rare",
-      "sen_gen_brm_colct",
-      "sen_gen_trm_sleep2"
+      "sen_fix_trm_nghtmr",
+      "sen_fix_bib_quiet_2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -81,8 +81,8 @@
       "sen_ti_briefmarken_traeume_1",
       "sen_gen_brm_coin2",
       "sen_gen_brm_rare",
-      "sen_gen_brm_colct",
-      "sen_gen_trm_sleep2"
+      "sen_fix_trm_nghtmr",
+      "sen_fix_bib_quiet_2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -107,8 +107,8 @@
       "sen_ti_briefmarken_traeume_1",
       "sen_gen_brm_coin2",
       "sen_gen_brm_rare",
-      "sen_gen_brm_colct",
-      "sen_gen_trm_sleep2"
+      "sen_fix_trm_nghtmr",
+      "sen_fix_bib_quiet_2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -133,8 +133,8 @@
       "sen_ti_briefmarken_traeume_1",
       "sen_gen_brm_coin2",
       "sen_gen_brm_rare",
-      "sen_gen_brm_colct",
-      "sen_gen_trm_sleep2"
+      "sen_fix_trm_nghtmr",
+      "sen_fix_bib_quiet_2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

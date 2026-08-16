@@ -66,8 +66,8 @@
     "sentenceIds": [
       "sen_ti_umzug_nachbarschaft_1",
       "sen_gen_umz_trck",
-      "sen_gen_umz_rnt",
-      "sen_gen_umz_own",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
       "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
@@ -96,8 +96,8 @@
     "sentenceIds": [
       "sen_ti_umzug_nachbarschaft_1",
       "sen_gen_umz_trck",
-      "sen_gen_umz_rnt",
-      "sen_gen_umz_own",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
       "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
@@ -126,8 +126,8 @@
     "sentenceIds": [
       "sen_ti_umzug_nachbarschaft_1",
       "sen_gen_umz_trck",
-      "sen_gen_umz_rnt",
-      "sen_gen_umz_own",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
       "sen_gen_umz_lease"
     ],
     "exerciseTypes": [
@@ -156,8 +156,8 @@
     "sentenceIds": [
       "sen_ti_umzug_nachbarschaft_1",
       "sen_gen_umz_trck",
-      "sen_gen_umz_rnt",
-      "sen_gen_umz_own",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
       "sen_gen_umz_lease"
     ],
     "exerciseTypes": [

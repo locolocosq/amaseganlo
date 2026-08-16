@@ -1,0 +1,365 @@
+[
+  {
+    "id": "sen_fix_sim_2",
+    "am": "ስም ኣሎ።",
+    "tr": "sim alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sim"
+    ],
+    "t": {
+      "de": "der Name ist vorhanden.",
+      "en": "There is name.",
+      "sv": "Det finns namnet.",
+      "nl": "Er is de naam."
+    },
+    "alt": {},
+    "chunks": [
+      "sim",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_eritriya",
+    "am": "ኤርትራ ኣሎኒ።",
+    "tr": "eritriya alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_eritriya"
+    ],
+    "t": {
+      "de": "Ich habe Eritrea.",
+      "en": "I have Eritrea.",
+      "sv": "Jag har Eritrea.",
+      "nl": "Ik heb Eritrea."
+    },
+    "alt": {},
+    "chunks": [
+      "eritriya",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_dehan",
+    "am": "ንሱ ደሓን እዩ።",
+    "tr": "nisu dehan 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dehan"
+    ],
+    "t": {
+      "de": "Er ist gut / wohl.",
+      "en": "He is fine / well.",
+      "sv": "Han är bra / väl.",
+      "nl": "Hij is goed / wel."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "dehan",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_baynkabota",
+    "am": "ባንክ ኣሎ።",
+    "tr": "bank alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_baynkabota"
+    ],
+    "t": {
+      "de": "die Bank ist vorhanden.",
+      "en": "There is bank.",
+      "sv": "Det finns bank.",
+      "nl": "Er is bank."
+    },
+    "alt": {},
+    "chunks": [
+      "bank",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_hotel",
+    "am": "ሆቴል ኣሎኒ።",
+    "tr": "hotel alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hotel"
+    ],
+    "t": {
+      "de": "Ich habe das Hotel.",
+      "en": "I have hotel.",
+      "sv": "Jag har hotell.",
+      "nl": "Ik heb hotel."
+    },
+    "alt": {},
+    "chunks": [
+      "hotel",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_bota3",
+    "am": "ፓርክ ኣሎ።",
+    "tr": "park alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bota3"
+    ],
+    "t": {
+      "de": "der Park ist vorhanden.",
+      "en": "There is park.",
+      "sv": "Det finns park.",
+      "nl": "Er is park."
+    },
+    "alt": {},
+    "chunks": [
+      "park",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_mesgid",
+    "am": "መስጊድ ኣሎኒ።",
+    "tr": "mesgid alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mesgid"
+    ],
+    "t": {
+      "de": "Ich habe die Moschee.",
+      "en": "I have mosque.",
+      "sv": "Jag har moské.",
+      "nl": "Ik heb moskee."
+    },
+    "alt": {},
+    "chunks": [
+      "mesgid",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_baynkabota_2",
+    "am": "ባንክ ኣሎ።",
+    "tr": "bank alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_baynkabota"
+    ],
+    "t": {
+      "de": "die Bank ist vorhanden.",
+      "en": "There is bank.",
+      "sv": "Det finns bank.",
+      "nl": "Er is bank."
+    },
+    "alt": {},
+    "chunks": [
+      "bank",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_hotel_2",
+    "am": "ሆቴል ኣሎኒ።",
+    "tr": "hotel alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hotel"
+    ],
+    "t": {
+      "de": "Ich habe das Hotel.",
+      "en": "I have hotel.",
+      "sv": "Jag har hotell.",
+      "nl": "Ik heb hotel."
+    },
+    "alt": {},
+    "chunks": [
+      "hotel",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_bota3_2",
+    "am": "ፓርክ ኣሎ።",
+    "tr": "park alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bota3"
+    ],
+    "t": {
+      "de": "der Park ist vorhanden.",
+      "en": "There is park.",
+      "sv": "Det finns park.",
+      "nl": "Er is park."
+    },
+    "alt": {},
+    "chunks": [
+      "park",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_mesgid_2",
+    "am": "መስጊድ ኣሎኒ።",
+    "tr": "mesgid alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mesgid"
+    ],
+    "t": {
+      "de": "Ich habe die Moschee.",
+      "en": "I have mosque.",
+      "sv": "Jag har moské.",
+      "nl": "Ik heb moskee."
+    },
+    "alt": {},
+    "chunks": [
+      "mesgid",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_hyl",
+    "am": "ዕድል (ተኽእሎ) ኣሎ።",
+    "tr": "'idil tekh'ilo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hyl"
+    ],
+    "t": {
+      "de": "die Möglichkeit ist vorhanden.",
+      "en": "There is possibility.",
+      "sv": "Det finns möjlighet.",
+      "nl": "Er is mogelijkheid."
+    },
+    "alt": {},
+    "chunks": [
+      "'idil",
+      "tekh'ilo",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_msruh",
+    "am": "ምኽንያት ኣሎኒ።",
+    "tr": "mikinyat alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_msruh"
+    ],
+    "t": {
+      "de": "Ich habe der Grund.",
+      "en": "I have reason.",
+      "sv": "Jag har anledning.",
+      "nl": "Ik heb reden."
+    },
+    "alt": {},
+    "chunks": [
+      "mikinyat",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_mfth",
+    "am": "መፍትሒ ኣሎ።",
+    "tr": "mefithi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mfth"
+    ],
+    "t": {
+      "de": "die Lösung ist vorhanden.",
+      "en": "There is solution.",
+      "sv": "Det finns lösning.",
+      "nl": "Er is oplossing."
+    },
+    "alt": {},
+    "chunks": [
+      "mefithi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_qmem",
+    "am": "ቅመም ኣሎ።",
+    "tr": "qimem alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_qmem"
+    ],
+    "t": {
+      "de": "das Gewürz ist vorhanden.",
+      "en": "There is spice, seasoning.",
+      "sv": "Det finns krydda.",
+      "nl": "Er is kruid."
+    },
+    "alt": {},
+    "chunks": [
+      "qimem",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_mgb2",
+    "am": "ዝርዝር ምግቢ (ጥብሳ) ኣሎኒ።",
+    "tr": "zirzir migbi t'ibsa alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mgb2"
+    ],
+    "t": {
+      "de": "Ich habe das Rezept.",
+      "en": "I have recipe.",
+      "sv": "Jag har recept.",
+      "nl": "Ik heb recept."
+    },
+    "alt": {},
+    "chunks": [
+      "zirzir",
+      "migbi",
+      "t'ibsa",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_ntsri",
+    "am": "መርመራ ስነ ፍልጠት ኣሎ።",
+    "tr": "mermera sine filitet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ntsri"
+    ],
+    "t": {
+      "de": "das Experiment ist vorhanden.",
+      "en": "There is experiment.",
+      "sv": "Det finns experiment.",
+      "nl": "Er is experiment."
+    },
+    "alt": {},
+    "chunks": [
+      "mermera",
+      "sine",
+      "filitet",
+      "alo."
+    ],
+    "verified": false
+  }
+]

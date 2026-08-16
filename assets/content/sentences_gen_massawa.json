@@ -413,26 +413,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_grt_plant2",
-    "am": "ተኸለ።",
-    "tr": "tekele.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_grt_plant2"
-    ],
-    "t": {
-      "de": "Pflanzen!",
-      "en": "Plant!",
-      "sv": "Att plantera!",
-      "nl": "Planten!"
-    },
-    "alt": {},
-    "chunks": [
-      "tekele."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_hzf_ring",
     "am": "ቀለቤት ኣሎ።",
     "tr": "qelebet alo.",
@@ -577,26 +557,6 @@
     "chunks": [
       "tera",
       "alo."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_brs_win2",
-    "am": "ተዓወተ።",
-    "tr": "te'awete.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_brs_win2"
-    ],
-    "t": {
-      "de": "Gewinnen!",
-      "en": "Win!",
-      "sv": "Att vinna!",
-      "nl": "Winnen!"
-    },
-    "alt": {},
-    "chunks": [
-      "te'awete."
     ],
     "verified": false
   },
@@ -1446,26 +1406,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_flm_sell",
-    "am": "ሸጠ።",
-    "tr": "shet'e.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_flm_sell"
-    ],
-    "t": {
-      "de": "Verkaufen!",
-      "en": "Sell!",
-      "sv": "Att sälja!",
-      "nl": "Verkopen!"
-    },
-    "alt": {},
-    "chunks": [
-      "shet'e."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_opt_lens2",
     "am": "ናይ ዓይኒ መነጽር ኣሎ።",
     "tr": "nay 'ayni menetsir alo.",
@@ -1512,26 +1452,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_opt_see",
-    "am": "ረኣየ።",
-    "tr": "re'aye.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_opt_see"
-    ],
-    "t": {
-      "de": "Sehen!",
-      "en": "See!",
-      "sv": "Att se!",
-      "nl": "Zien!"
-    },
-    "alt": {},
-    "chunks": [
-      "re'aye."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_zhn_cvty",
     "am": "በሰበሰ ስኒ ኣሎኒ።",
     "tr": "besebese sinni alini.",
@@ -1550,26 +1470,6 @@
       "besebese",
       "sinni",
       "alini."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_brw_ferm",
-    "am": "ተሓምበሰ።",
-    "tr": "tehambese.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_brw_ferm"
-    ],
-    "t": {
-      "de": "Gären!",
-      "en": "Ferment!",
-      "sv": "Att jäsa!",
-      "nl": "Gisten!"
-    },
-    "alt": {},
-    "chunks": [
-      "tehambese."
     ],
     "verified": false
   },
@@ -1704,26 +1604,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_erh_faint",
-    "am": "ዕለብጠ።",
-    "tr": "'ilebite.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_erh_faint"
-    ],
-    "t": {
-      "de": "Ohnmächtig werden!",
-      "en": "Faint!",
-      "sv": "Att svimma!",
-      "nl": "Flauwvallen!"
-    },
-    "alt": {},
-    "chunks": [
-      "'ilebite."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_mbf_sgnl",
     "am": "ምልክት ተለፎን ኣሎ።",
     "tr": "milikit telefon alo.",
@@ -1742,26 +1622,6 @@
       "milikit",
       "telefon",
       "alo."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_mbf_call",
-    "am": "ደወለ።",
-    "tr": "dewele.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_mbf_call"
-    ],
-    "t": {
-      "de": "Anrufen!",
-      "en": "Call (phone)!",
-      "sv": "Att ringa!",
-      "nl": "Bellen!"
-    },
-    "alt": {},
-    "chunks": [
-      "dewele."
     ],
     "verified": false
   },
@@ -2026,26 +1886,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_snp_hlp2",
-    "am": "ተኸናኸነ።",
-    "tr": "tekenakene.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_snp_hlp2"
-    ],
-    "t": {
-      "de": "Pflegen, betreuen!",
-      "en": "Care for!",
-      "sv": "Att ta hand om!",
-      "nl": "Verzorgen!"
-    },
-    "alt": {},
-    "chunks": [
-      "tekenakene."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_jgd_teen",
     "am": "መንእሰይ ኣሎ።",
     "tr": "men'isey alo.",
@@ -2175,26 +2015,6 @@
       "siga",
       "tiqilil",
       "alo."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_flx_slghtr",
-    "am": "ሓረደ።",
-    "tr": "harede.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_flx_slghtr"
-    ],
-    "t": {
-      "de": "Schlachten!",
-      "en": "Slaughter!",
-      "sv": "Att slakta!",
-      "nl": "Slachten!"
-    },
-    "alt": {},
-    "chunks": [
-      "harede."
     ],
     "verified": false
   },
@@ -2391,26 +2211,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_gst2_hug",
-    "am": "ሓቖፈ።",
-    "tr": "haqofe.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_gst2_hug"
-    ],
-    "t": {
-      "de": "Umarmen!",
-      "en": "Hug!",
-      "sv": "Att krama!",
-      "nl": "Omhelzen!"
-    },
-    "alt": {},
-    "chunks": [
-      "haqofe."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_brm_coin2",
     "am": "ኣከቓቓቢ ሳንቲም ኣሎ።",
     "tr": "akeqaqabi santim alo.",
@@ -2452,46 +2252,6 @@
       "bizuh",
       "zeyirikeb",
       "'iyu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_brm_colct",
-    "am": "ኣከበ።",
-    "tr": "akebe.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_brm_colct"
-    ],
-    "t": {
-      "de": "Sammeln!",
-      "en": "Collect!",
-      "sv": "Att samla!",
-      "nl": "Verzamelen (ww)!"
-    },
-    "alt": {},
-    "chunks": [
-      "akebe."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_trm_sleep2",
-    "am": "ደቀሰ።",
-    "tr": "deqese.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_trm_sleep2"
-    ],
-    "t": {
-      "de": "Schlafen!",
-      "en": "Sleep!",
-      "sv": "Att sova!",
-      "nl": "Slapen!"
-    },
-    "alt": {},
-    "chunks": [
-      "deqese."
     ],
     "verified": false
   },
@@ -2560,26 +2320,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_mng_agree",
-    "am": "ተሰማምዐ።",
-    "tr": "tesemam'e.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_mng_agree"
-    ],
-    "t": {
-      "de": "Zustimmen!",
-      "en": "Agree!",
-      "sv": "Att hålla med!",
-      "nl": "Instemmen!"
-    },
-    "alt": {},
-    "chunks": [
-      "tesemam'e."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_knf_fght",
     "am": "ባእሲ ኣሎ።",
     "tr": "ba'isi alo.",
@@ -2640,46 +2380,6 @@
       "yiqire",
       "'ilu",
       "hadege."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_knf_reconcl",
-    "am": "ተዓረቐ።",
-    "tr": "te'areqe.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_knf_reconcl"
-    ],
-    "t": {
-      "de": "Sich versöhnen!",
-      "en": "Reconcile!",
-      "sv": "Att försonas!",
-      "nl": "Verzoenen!"
-    },
-    "alt": {},
-    "chunks": [
-      "te'areqe."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_ern_forgt",
-    "am": "ረሲዑ።",
-    "tr": "resi'u.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_ern_forgt"
-    ],
-    "t": {
-      "de": "Vergessen!",
-      "en": "Forget!",
-      "sv": "Att glömma!",
-      "nl": "Vergeten!"
-    },
-    "alt": {},
-    "chunks": [
-      "resi'u."
     ],
     "verified": false
   },
@@ -2790,26 +2490,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_hfl_intrp",
-    "am": "ኣቋረጸ።",
-    "tr": "aquaretse.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_hfl_intrp"
-    ],
-    "t": {
-      "de": "Unterbrechen!",
-      "en": "Interrupt!",
-      "sv": "Att avbryta!",
-      "nl": "Onderbreken!"
-    },
-    "alt": {},
-    "chunks": [
-      "aquaretse."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_zst2_busy2",
     "am": "ንሳ ስራሕ ዝበዝሖ እያ።",
     "tr": "nisa sirah zibezho 'iya.",
@@ -2829,86 +2509,6 @@
       "sirah",
       "zibezho",
       "'iya."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_bwg_crawl",
-    "am": "ዓንደረ።",
-    "tr": "'andere.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_bwg_crawl"
-    ],
-    "t": {
-      "de": "Kriechen!",
-      "en": "Crawl!",
-      "sv": "Att krypa!",
-      "nl": "Kruipen!"
-    },
-    "alt": {},
-    "chunks": [
-      "'andere."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_bwg_push",
-    "am": "ደፍአ።",
-    "tr": "defi'e.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_bwg_push"
-    ],
-    "t": {
-      "de": "Schieben, drücken!",
-      "en": "Push!",
-      "sv": "Att skjuta, trycka!",
-      "nl": "Duwen!"
-    },
-    "alt": {},
-    "chunks": [
-      "defi'e."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_bwg_pull",
-    "am": "ጐተተ።",
-    "tr": "gotete.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_bwg_pull"
-    ],
-    "t": {
-      "de": "Ziehen!",
-      "en": "Pull!",
-      "sv": "Att dra!",
-      "nl": "Trekken!"
-    },
-    "alt": {},
-    "chunks": [
-      "gotete."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_bwg_throw",
-    "am": "ደርበየ።",
-    "tr": "deribeye.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_bwg_throw"
-    ],
-    "t": {
-      "de": "Werfen!",
-      "en": "Throw!",
-      "sv": "Att kasta!",
-      "nl": "Gooien!"
-    },
-    "alt": {},
-    "chunks": [
-      "deribeye."
     ],
     "verified": false
   },
@@ -2957,26 +2557,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_grs_scrm",
-    "am": "ጨርሐ።",
-    "tr": "cherihe.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_grs_scrm"
-    ],
-    "t": {
-      "de": "Schreien!",
-      "en": "Scream!",
-      "sv": "Att skrika!",
-      "nl": "Schreeuwen!"
-    },
-    "alt": {},
-    "chunks": [
-      "cherihe."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_grs_whspr",
     "am": "ሕሽኽ በለ።",
     "tr": "hishik bele.",
@@ -3017,46 +2597,6 @@
       "zihul",
       "nifas",
       "'iyu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_tmp_boil",
-    "am": "ኣውጠጠ።",
-    "tr": "awit'et'e.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_tmp_boil"
-    ],
-    "t": {
-      "de": "Kochen (Wasser)!",
-      "en": "Boil!",
-      "sv": "Att koka!",
-      "nl": "Koken (water)!"
-    },
-    "alt": {},
-    "chunks": [
-      "awit'et'e."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_tmp_freez",
-    "am": "ተረግአ።",
-    "tr": "tereg'e.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_tmp_freez"
-    ],
-    "t": {
-      "de": "Gefrieren!",
-      "en": "Freeze!",
-      "sv": "Att frysa!",
-      "nl": "Bevriezen!"
-    },
-    "alt": {},
-    "chunks": [
-      "tereg'e."
     ],
     "verified": false
   },
@@ -3171,46 +2711,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_vrd_grow2",
-    "am": "ወሰኸ።",
-    "tr": "weseke.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_vrd_grow2"
-    ],
-    "t": {
-      "de": "Zunehmen, wachsen!",
-      "en": "Increase, grow!",
-      "sv": "Att öka, växa!",
-      "nl": "Toenemen, groeien!"
-    },
-    "alt": {},
-    "chunks": [
-      "weseke."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_vrd_decrs",
-    "am": "ነከየ።",
-    "tr": "nekeye.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_vrd_decrs"
-    ],
-    "t": {
-      "de": "Abnehmen, verringern!",
-      "en": "Decrease!",
-      "sv": "Att minska!",
-      "nl": "Afnemen, verminderen!"
-    },
-    "alt": {},
-    "chunks": [
-      "nekeye."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_vrd_stop2",
     "am": "ደው ኣበለ።",
     "tr": "dewi abele.",
@@ -3228,26 +2728,6 @@
     "chunks": [
       "dewi",
       "abele."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_vrd_cntnu",
-    "am": "ቀጸለ።",
-    "tr": "qetsele.",
-    "level": "TI",
-    "uses": [
-      "lex_ti_vrd_cntnu"
-    ],
-    "t": {
-      "de": "Fortsetzen, weitermachen!",
-      "en": "Continue!",
-      "sv": "Att fortsätta!",
-      "nl": "Doorgaan!"
-    },
-    "alt": {},
-    "chunks": [
-      "qetsele."
     ],
     "verified": false
   },

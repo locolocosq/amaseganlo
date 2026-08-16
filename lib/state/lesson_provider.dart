@@ -319,11 +319,27 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
+  /// Exercise types that redact or rearrange word chunks - meaningless (or
+  /// actively confusing, see the bug report that prompted this: a gap-fill
+  /// on a one-word sentence like "ይቅርታ።"/"yikirta." shows nothing but a
+  /// blank, since there's no other chunk left once the only one is
+  /// redacted) once a sentence has fewer than 2 chunks. Phrase/interjection
+  /// "sentences" generated as-is from a single-chunk lexeme (Etappe 28) hit
+  /// this regularly - sentenceTranslate/trueFalse below stay unaffected
+  /// since they never touch individual chunks.
+  static const _chunkDependentTypes = {
+    ExerciseType.sentenceBuild,
+    ExerciseType.sentenceGapChoice,
+    ExerciseType.sentenceGapTyping,
+    ExerciseType.listenBuild,
+  };
+
   GeneratedExercise? _generateSentenceExercise(
     ExerciseType type,
     Sentence sentence,
     String locale,
   ) {
+    if (_chunkDependentTypes.contains(type) && sentence.chunks.length < 2) return null;
     switch (type) {
       case ExerciseType.sentenceBuild:
         return _generator.generateSentenceBuild(

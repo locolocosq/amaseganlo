@@ -44,7 +44,7 @@
       "sen_gen_dpl_embsy",
       "sen_gen_dpl_trty",
       "sen_gen_dpl_peace",
-      "sen_gen_dpl_nego"
+      "sen_fix_gtr_lntl"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -66,7 +66,7 @@
       "sen_gen_dpl_embsy",
       "sen_gen_dpl_trty",
       "sen_gen_dpl_peace",
-      "sen_gen_dpl_nego"
+      "sen_fix_gtr_lntl"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -88,7 +88,7 @@
       "sen_gen_dpl_embsy",
       "sen_gen_dpl_trty",
       "sen_gen_dpl_peace",
-      "sen_gen_dpl_nego"
+      "sen_fix_gtr_lntl"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -110,7 +110,7 @@
       "sen_gen_dpl_embsy",
       "sen_gen_dpl_trty",
       "sen_gen_dpl_peace",
-      "sen_gen_dpl_nego"
+      "sen_fix_gtr_lntl"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

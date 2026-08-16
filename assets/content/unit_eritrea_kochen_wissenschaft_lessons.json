@@ -74,10 +74,10 @@
     ],
     "sentenceIds": [
       "sen_ti_kochen_wissenschaft_1",
-      "sen_gen_ktfi",
+      "sen_fix_qmem",
       "sen_gen_kwyi",
-      "sen_gen_kzri2",
-      "sen_gen_hlti"
+      "sen_fix_mgb2",
+      "sen_fix_ntsri"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -107,10 +107,10 @@
     ],
     "sentenceIds": [
       "sen_ti_kochen_wissenschaft_1",
-      "sen_gen_ktfi",
+      "sen_fix_qmem",
       "sen_gen_kwyi",
-      "sen_gen_kzri2",
-      "sen_gen_hlti"
+      "sen_fix_mgb2",
+      "sen_fix_ntsri"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -140,10 +140,10 @@
     ],
     "sentenceIds": [
       "sen_ti_kochen_wissenschaft_1",
-      "sen_gen_ktfi",
+      "sen_fix_qmem",
       "sen_gen_kwyi",
-      "sen_gen_kzri2",
-      "sen_gen_hlti"
+      "sen_fix_mgb2",
+      "sen_fix_ntsri"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -173,10 +173,10 @@
     ],
     "sentenceIds": [
       "sen_ti_kochen_wissenschaft_1",
-      "sen_gen_ktfi",
+      "sen_fix_qmem",
       "sen_gen_kwyi",
-      "sen_gen_kzri2",
-      "sen_gen_hlti"
+      "sen_fix_mgb2",
+      "sen_fix_ntsri"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -56,7 +56,7 @@
       "sen_gen_gwh_rtn",
       "sen_gen_gwh_always2",
       "sen_gen_gwh_habit",
-      "sen_gen_mng_agree"
+      "sen_fix_mng_opnn"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -82,7 +82,7 @@
       "sen_gen_gwh_rtn",
       "sen_gen_gwh_always2",
       "sen_gen_gwh_habit",
-      "sen_gen_mng_agree"
+      "sen_fix_mng_opnn"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -108,7 +108,7 @@
       "sen_gen_gwh_rtn",
       "sen_gen_gwh_always2",
       "sen_gen_gwh_habit",
-      "sen_gen_mng_agree"
+      "sen_fix_mng_opnn"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -134,7 +134,7 @@
       "sen_gen_gwh_rtn",
       "sen_gen_gwh_always2",
       "sen_gen_gwh_habit",
-      "sen_gen_mng_agree"
+      "sen_fix_mng_opnn"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

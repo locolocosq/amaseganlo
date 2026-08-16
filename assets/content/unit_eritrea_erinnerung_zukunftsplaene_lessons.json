@@ -50,7 +50,7 @@
     ],
     "sentenceIds": [
       "sen_ti_erinnerung_zukunftsplaene_1",
-      "sen_gen_ern_forgt",
+      "sen_fix_zkp_goal",
       "sen_gen_ern_mem2",
       "sen_gen_ern_nostal",
       "sen_gen_zkp_plan3"
@@ -75,7 +75,7 @@
     ],
     "sentenceIds": [
       "sen_ti_erinnerung_zukunftsplaene_1",
-      "sen_gen_ern_forgt",
+      "sen_fix_zkp_goal",
       "sen_gen_ern_mem2",
       "sen_gen_ern_nostal",
       "sen_gen_zkp_plan3"
@@ -100,7 +100,7 @@
     ],
     "sentenceIds": [
       "sen_ti_erinnerung_zukunftsplaene_1",
-      "sen_gen_ern_forgt",
+      "sen_fix_zkp_goal",
       "sen_gen_ern_mem2",
       "sen_gen_ern_nostal",
       "sen_gen_zkp_plan3"
@@ -125,7 +125,7 @@
     ],
     "sentenceIds": [
       "sen_ti_erinnerung_zukunftsplaene_1",
-      "sen_gen_ern_forgt",
+      "sen_fix_zkp_goal",
       "sen_gen_ern_mem2",
       "sen_gen_ern_nostal",
       "sen_gen_zkp_plan3"

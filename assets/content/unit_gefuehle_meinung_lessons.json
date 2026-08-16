@@ -93,9 +93,9 @@
     "sentenceIds": [
       "sen_destegna_negn",
       "sen_fikir_kilki_new",
-      "sen_gen_traurig_phrase",
-      "sen_gen_wuetend_phrase",
-      "sen_gen_angst_phrase"
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -132,9 +132,9 @@
     "sentenceIds": [
       "sen_destegna_negn",
       "sen_fikir_kilki_new",
-      "sen_gen_traurig_phrase",
-      "sen_gen_wuetend_phrase",
-      "sen_gen_angst_phrase"
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -171,9 +171,9 @@
     "sentenceIds": [
       "sen_destegna_negn",
       "sen_fikir_kilki_new",
-      "sen_gen_traurig_phrase",
-      "sen_gen_wuetend_phrase",
-      "sen_gen_angst_phrase"
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -210,9 +210,9 @@
     "sentenceIds": [
       "sen_destegna_negn",
       "sen_fikir_kilki_new",
-      "sen_gen_traurig_phrase",
-      "sen_gen_wuetend_phrase",
-      "sen_gen_angst_phrase"
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

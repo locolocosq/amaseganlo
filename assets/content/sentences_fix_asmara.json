@@ -1,0 +1,412 @@
+[
+  {
+    "id": "sen_fix_hzti2",
+    "am": "ኣንቀርቀሮ ኣሎ።",
+    "tr": "anqerqero alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzti2"
+    ],
+    "t": {
+      "de": "der Balkon ist vorhanden.",
+      "en": "There is balcony.",
+      "sv": "Det finns balkong.",
+      "nl": "Er is balkon."
+    },
+    "alt": {},
+    "chunks": [
+      "anqerqero",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_gozo",
+    "am": "ቀጽሪ ኣሎኒ።",
+    "tr": "qetsri alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gozo"
+    ],
+    "t": {
+      "de": "Ich habe der Hof, Zaun.",
+      "en": "I have yard, fence.",
+      "sv": "Jag har gård, staket.",
+      "nl": "Ik heb erf, hek."
+    },
+    "alt": {},
+    "chunks": [
+      "qetsri",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_wela",
+    "am": "ደወል ማዕጾ ኣሎ።",
+    "tr": "dewel ma'etso alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wela"
+    ],
+    "t": {
+      "de": "die Türklingel ist vorhanden.",
+      "en": "There is doorbell.",
+      "sv": "Det finns dörrklocka.",
+      "nl": "Er is deurbel."
+    },
+    "alt": {},
+    "chunks": [
+      "dewel",
+      "ma'etso",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_apartment",
+    "am": "ኣፓርታማ ኣሎኒ።",
+    "tr": "apartama alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_apartment"
+    ],
+    "t": {
+      "de": "Ich habe die Wohnung.",
+      "en": "I have apartment.",
+      "sv": "Jag har lägenhet.",
+      "nl": "Ik heb appartement."
+    },
+    "alt": {},
+    "chunks": [
+      "apartama",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_hzti2_2",
+    "am": "ኣንቀርቀሮ ኣሎ።",
+    "tr": "anqerqero alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzti2"
+    ],
+    "t": {
+      "de": "der Balkon ist vorhanden.",
+      "en": "There is balcony.",
+      "sv": "Det finns balkong.",
+      "nl": "Er is balkon."
+    },
+    "alt": {},
+    "chunks": [
+      "anqerqero",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_gozo_2",
+    "am": "ቀጽሪ ኣሎኒ።",
+    "tr": "qetsri alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gozo"
+    ],
+    "t": {
+      "de": "Ich habe der Hof, Zaun.",
+      "en": "I have yard, fence.",
+      "sv": "Jag har gård, staket.",
+      "nl": "Ik heb erf, hek."
+    },
+    "alt": {},
+    "chunks": [
+      "qetsri",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_wela_2",
+    "am": "ደወል ማዕጾ ኣሎ።",
+    "tr": "dewel ma'etso alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wela"
+    ],
+    "t": {
+      "de": "die Türklingel ist vorhanden.",
+      "en": "There is doorbell.",
+      "sv": "Det finns dörrklocka.",
+      "nl": "Er is deurbel."
+    },
+    "alt": {},
+    "chunks": [
+      "dewel",
+      "ma'etso",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_apartment_2",
+    "am": "ኣፓርታማ ኣሎኒ።",
+    "tr": "apartama alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_apartment"
+    ],
+    "t": {
+      "de": "Ich habe die Wohnung.",
+      "en": "I have apartment.",
+      "sv": "Jag har lägenhet.",
+      "nl": "Ik heb appartement."
+    },
+    "alt": {},
+    "chunks": [
+      "apartama",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_tec2_scrn",
+    "am": "መርኣዪ ኣሎ።",
+    "tr": "mer'ayi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tec2_scrn"
+    ],
+    "t": {
+      "de": "der Bildschirm ist vorhanden.",
+      "en": "There is screen.",
+      "sv": "Det finns skärm.",
+      "nl": "Er is scherm."
+    },
+    "alt": {},
+    "chunks": [
+      "mer'ayi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_tec2_kybrd",
+    "am": "ፊደላት መጻሕፍቲ ኣሎኒ።",
+    "tr": "fidelat metsahifti alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tec2_kybrd"
+    ],
+    "t": {
+      "de": "Ich habe die Tastatur.",
+      "en": "I have keyboard.",
+      "sv": "Jag har tangentbord.",
+      "nl": "Ik heb toetsenbord."
+    },
+    "alt": {},
+    "chunks": [
+      "fidelat",
+      "metsahifti",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_hy2_mrrr",
+    "am": "ኣንጸባራቒ ኣሎ።",
+    "tr": "antsebaraqi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hy2_mrrr"
+    ],
+    "t": {
+      "de": "der Spiegel (Handspiegel) ist vorhanden.",
+      "en": "There is hand mirror.",
+      "sv": "Det finns handspegel.",
+      "nl": "Er is handspiegel."
+    },
+    "alt": {},
+    "chunks": [
+      "antsebaraqi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_fn_hlbl",
+    "am": "ንሱ ፈዛዝ ሰማያዊ እዩ።",
+    "tr": "nisu fezaz semayawi 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_fn_hlbl"
+    ],
+    "t": {
+      "de": "Er ist hellblau.",
+      "en": "He is light blue.",
+      "sv": "Han är ljusblå.",
+      "nl": "Hij is lichtblauw."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "fezaz",
+      "semayawi",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_fn_dkgr",
+    "am": "ንሳ ድቁቕ ቀጠልያ እያ።",
+    "tr": "nisa diquq qet'elya 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_fn_dkgr"
+    ],
+    "t": {
+      "de": "Sie ist dunkelgrün.",
+      "en": "She is dark green.",
+      "sv": "Hon är mörkgrön.",
+      "nl": "Zij is donkergroen."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "diquq",
+      "qet'elya",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_fn_glbn",
+    "am": "ንሱ ወርቃዊ እዩ።",
+    "tr": "nisu werqawi 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_fn_glbn"
+    ],
+    "t": {
+      "de": "Er ist golden.",
+      "en": "He is golden.",
+      "sv": "Han är gyllene.",
+      "nl": "Hij is goudkleurig."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "werqawi",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_umz_owner",
+    "am": "ወናኒ ገዛ ኣሎ።",
+    "tr": "wenani geza alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_umz_owner"
+    ],
+    "t": {
+      "de": "der Vermieter ist vorhanden.",
+      "en": "There is landlord.",
+      "sv": "Det finns hyresvärd.",
+      "nl": "Er is verhuurder."
+    },
+    "alt": {},
+    "chunks": [
+      "wenani",
+      "geza",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_nbr_neig",
+    "am": "ጎረቤት ኣሎኒ።",
+    "tr": "gorebet alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_nbr_neig"
+    ],
+    "t": {
+      "de": "Ich habe der Nachbar.",
+      "en": "I have neighbor.",
+      "sv": "Jag har granne.",
+      "nl": "Ik heb buur."
+    },
+    "alt": {},
+    "chunks": [
+      "gorebet",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_str_sunsc",
+    "am": "ቅብኢ ጸሓይ ኣሎ።",
+    "tr": "qib'i tsehay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_str_sunsc"
+    ],
+    "t": {
+      "de": "die Sonnencreme ist vorhanden.",
+      "en": "There is sunscreen.",
+      "sv": "Det finns solkräm.",
+      "nl": "Er is zonnebrand."
+    },
+    "alt": {},
+    "chunks": [
+      "qib'i",
+      "tsehay",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_gtr_lntl",
+    "am": "ብርስን ኣሎ።",
+    "tr": "birisin alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gtr_lntl"
+    ],
+    "t": {
+      "de": "die Linse (Hülsenfrucht) ist vorhanden.",
+      "en": "There is lentil.",
+      "sv": "Det finns lins (böna).",
+      "nl": "Er is linze."
+    },
+    "alt": {},
+    "chunks": [
+      "birisin",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_ibg_video2",
+    "am": "ጻውዒት ቪድዮ ኣሎ።",
+    "tr": "tsawi'it vidiyo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ibg_video2"
+    ],
+    "t": {
+      "de": "der Videoanruf ist vorhanden.",
+      "en": "There is video call.",
+      "sv": "Det finns videosamtal.",
+      "nl": "Er is videogesprek."
+    },
+    "alt": {},
+    "chunks": [
+      "tsawi'it",
+      "vidiyo",
+      "alo."
+    ],
+    "verified": false
+  }
+]

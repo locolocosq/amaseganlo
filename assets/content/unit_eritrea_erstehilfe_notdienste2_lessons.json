@@ -44,7 +44,7 @@
       "sen_gen_erh_kit",
       "sen_gen_erh_wound",
       "sen_gen_erh_burn",
-      "sen_gen_erh_faint"
+      "sen_fix_kfz_round"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -66,7 +66,7 @@
       "sen_gen_erh_kit",
       "sen_gen_erh_wound",
       "sen_gen_erh_burn",
-      "sen_gen_erh_faint"
+      "sen_fix_kfz_round"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -88,7 +88,7 @@
       "sen_gen_erh_kit",
       "sen_gen_erh_wound",
       "sen_gen_erh_burn",
-      "sen_gen_erh_faint"
+      "sen_fix_kfz_round"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -110,7 +110,7 @@
       "sen_gen_erh_kit",
       "sen_gen_erh_wound",
       "sen_gen_erh_burn",
-      "sen_gen_erh_faint"
+      "sen_fix_kfz_round"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

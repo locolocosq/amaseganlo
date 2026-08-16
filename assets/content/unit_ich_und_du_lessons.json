@@ -52,8 +52,8 @@
       "sen_ine_ityopiawi",
       "sen_issu_dehna",
       "sen_gen_sim",
-      "sen_gen_algebagnem",
-      "sen_gen_yikirta_2"
+      "sen_fix_sim",
+      "sen_fix_ityopia"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -75,8 +75,8 @@
       "sen_ine_ityopiawi",
       "sen_issu_dehna",
       "sen_gen_sim",
-      "sen_gen_algebagnem",
-      "sen_gen_yikirta_2"
+      "sen_fix_sim",
+      "sen_fix_ityopia"
     ],
     "exerciseTypes": [
       "listenChoice"
@@ -99,8 +99,8 @@
       "sen_ine_ityopiawi",
       "sen_issu_dehna",
       "sen_gen_sim",
-      "sen_gen_algebagnem",
-      "sen_gen_yikirta_2"
+      "sen_fix_sim",
+      "sen_fix_ityopia"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -124,8 +124,8 @@
       "sen_ine_ityopiawi",
       "sen_issu_dehna",
       "sen_gen_sim",
-      "sen_gen_algebagnem",
-      "sen_gen_yikirta_2"
+      "sen_fix_sim",
+      "sen_fix_ityopia"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

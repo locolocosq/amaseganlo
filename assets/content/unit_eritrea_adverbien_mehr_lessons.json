@@ -75,9 +75,9 @@
     "sentenceIds": [
       "sen_ti_adverbien_mehr_1",
       "sen_gen_brvo",
-      "sen_gen_hlkm",
-      "sen_gen_hgz",
-      "sen_gen_nkm2"
+      "sen_fix_hyl",
+      "sen_fix_msruh",
+      "sen_fix_mfth"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -108,9 +108,9 @@
     "sentenceIds": [
       "sen_ti_adverbien_mehr_1",
       "sen_gen_brvo",
-      "sen_gen_hlkm",
-      "sen_gen_hgz",
-      "sen_gen_nkm2"
+      "sen_fix_hyl",
+      "sen_fix_msruh",
+      "sen_fix_mfth"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -141,9 +141,9 @@
     "sentenceIds": [
       "sen_ti_adverbien_mehr_1",
       "sen_gen_brvo",
-      "sen_gen_hlkm",
-      "sen_gen_hgz",
-      "sen_gen_nkm2"
+      "sen_fix_hyl",
+      "sen_fix_msruh",
+      "sen_fix_mfth"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -174,9 +174,9 @@
     "sentenceIds": [
       "sen_ti_adverbien_mehr_1",
       "sen_gen_brvo",
-      "sen_gen_hlkm",
-      "sen_gen_hgz",
-      "sen_gen_nkm2"
+      "sen_fix_hyl",
+      "sen_fix_msruh",
+      "sen_fix_mfth"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -64,8 +64,8 @@
       "sen_min_new",
       "sen_simka_min",
       "sen_issu_man",
-      "sen_gen_durstig",
-      "sen_gen_hungrig"
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -93,8 +93,8 @@
       "sen_min_new",
       "sen_simka_min",
       "sen_issu_man",
-      "sen_gen_durstig",
-      "sen_gen_hungrig"
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -122,8 +122,8 @@
       "sen_min_new",
       "sen_simka_min",
       "sen_issu_man",
-      "sen_gen_durstig",
-      "sen_gen_hungrig"
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -151,8 +151,8 @@
       "sen_min_new",
       "sen_simka_min",
       "sen_issu_man",
-      "sen_gen_durstig",
-      "sen_gen_hungrig"
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

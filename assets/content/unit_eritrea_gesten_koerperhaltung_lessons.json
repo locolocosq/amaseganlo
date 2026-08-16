@@ -59,7 +59,7 @@
       "sen_gen_gst2_nod",
       "sen_gen_gst2_shake",
       "sen_gen_gst2_pnt",
-      "sen_gen_gst2_hug"
+      "sen_fix_bib_quiet"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -86,7 +86,7 @@
       "sen_gen_gst2_nod",
       "sen_gen_gst2_shake",
       "sen_gen_gst2_pnt",
-      "sen_gen_gst2_hug"
+      "sen_fix_bib_quiet"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -113,7 +113,7 @@
       "sen_gen_gst2_nod",
       "sen_gen_gst2_shake",
       "sen_gen_gst2_pnt",
-      "sen_gen_gst2_hug"
+      "sen_fix_bib_quiet"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -140,7 +140,7 @@
       "sen_gen_gst2_nod",
       "sen_gen_gst2_shake",
       "sen_gen_gst2_pnt",
-      "sen_gen_gst2_hug"
+      "sen_fix_bib_quiet"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

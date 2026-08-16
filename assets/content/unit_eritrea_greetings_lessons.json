@@ -69,9 +69,9 @@
     "sentenceIds": [
       "sen_ti_ane_dehan",
       "sen_ti_nsu_dehan",
-      "sen_gen_selam_2",
-      "sen_gen_yiqeneyeley",
-      "sen_gen_bejaka"
+      "sen_fix_sim_2",
+      "sen_fix_eritriya",
+      "sen_fix_dehan"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -100,9 +100,9 @@
     "sentenceIds": [
       "sen_ti_ane_dehan",
       "sen_ti_nsu_dehan",
-      "sen_gen_selam_2",
-      "sen_gen_yiqeneyeley",
-      "sen_gen_bejaka"
+      "sen_fix_sim_2",
+      "sen_fix_eritriya",
+      "sen_fix_dehan"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -131,9 +131,9 @@
     "sentenceIds": [
       "sen_ti_ane_dehan",
       "sen_ti_nsu_dehan",
-      "sen_gen_selam_2",
-      "sen_gen_yiqeneyeley",
-      "sen_gen_bejaka"
+      "sen_fix_sim_2",
+      "sen_fix_eritriya",
+      "sen_fix_dehan"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -162,9 +162,9 @@
     "sentenceIds": [
       "sen_ti_ane_dehan",
       "sen_ti_nsu_dehan",
-      "sen_gen_selam_2",
-      "sen_gen_yiqeneyeley",
-      "sen_gen_bejaka"
+      "sen_fix_sim_2",
+      "sen_fix_eritriya",
+      "sen_fix_dehan"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

@@ -57,8 +57,8 @@
     "sentenceIds": [
       "sen_ti_temperatur_form_textur_1",
       "sen_gen_tmp_cool2",
-      "sen_gen_tmp_boil",
-      "sen_gen_tmp_freez",
+      "sen_fix_fmt_rough",
+      "sen_fix_fmt_wet",
       "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
@@ -84,8 +84,8 @@
     "sentenceIds": [
       "sen_ti_temperatur_form_textur_1",
       "sen_gen_tmp_cool2",
-      "sen_gen_tmp_boil",
-      "sen_gen_tmp_freez",
+      "sen_fix_fmt_rough",
+      "sen_fix_fmt_wet",
       "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
@@ -111,8 +111,8 @@
     "sentenceIds": [
       "sen_ti_temperatur_form_textur_1",
       "sen_gen_tmp_cool2",
-      "sen_gen_tmp_boil",
-      "sen_gen_tmp_freez",
+      "sen_fix_fmt_rough",
+      "sen_fix_fmt_wet",
       "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [
@@ -138,8 +138,8 @@
     "sentenceIds": [
       "sen_ti_temperatur_form_textur_1",
       "sen_gen_tmp_cool2",
-      "sen_gen_tmp_boil",
-      "sen_gen_tmp_freez",
+      "sen_fix_fmt_rough",
+      "sen_fix_fmt_wet",
       "sen_gen_fmt_smooth"
     ],
     "exerciseTypes": [

@@ -56,10 +56,10 @@
     ],
     "sentenceIds": [
       "sen_ti_veraenderung_vergleiche2_1",
-      "sen_gen_vrd_grow2",
-      "sen_gen_vrd_decrs",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
       "sen_gen_vrd_stop2",
-      "sen_gen_vrd_cntnu"
+      "sen_fix_vg2_best2"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -83,10 +83,10 @@
     ],
     "sentenceIds": [
       "sen_ti_veraenderung_vergleiche2_1",
-      "sen_gen_vrd_grow2",
-      "sen_gen_vrd_decrs",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
       "sen_gen_vrd_stop2",
-      "sen_gen_vrd_cntnu"
+      "sen_fix_vg2_best2"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -110,10 +110,10 @@
     ],
     "sentenceIds": [
       "sen_ti_veraenderung_vergleiche2_1",
-      "sen_gen_vrd_grow2",
-      "sen_gen_vrd_decrs",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
       "sen_gen_vrd_stop2",
-      "sen_gen_vrd_cntnu"
+      "sen_fix_vg2_best2"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -137,10 +137,10 @@
     ],
     "sentenceIds": [
       "sen_ti_veraenderung_vergleiche2_1",
-      "sen_gen_vrd_grow2",
-      "sen_gen_vrd_decrs",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
       "sen_gen_vrd_stop2",
-      "sen_gen_vrd_cntnu"
+      "sen_fix_vg2_best2"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

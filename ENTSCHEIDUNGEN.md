@@ -1105,3 +1105,54 @@ attribute 'Uroman'`, obwohl `pip install uroman` erfolgreich lief.
   "Sitzung neu starten"), nicht nur die Zelle erneut auszuführen - genau der Unterschied, der den
   vorherigen Fix wirkungslos gemacht haben könnte.
 - **Verifiziert:** Python-Syntax weiterhin per `ast.parse` geprüft, `flutter analyze` 0 Probleme.
+
+## Etappe 28 Nachtrag 7: Keine Ein-Wort-"Sätze" mehr bei Sätze bauen
+
+Der Nutzer schickte einen Screenshot: ein "Sätze bauen"-Bildschirm mit nur einer Lücke (`___`) und
+vier Wortoptionen - kein sichtbarer Satzkontext. Ursache gefunden: `sen_gen_yikirta` (ein Etappe-28-
+generierter Satz aus dem Interjektions-Lexem "ይቅርታ"/"Entschuldigung") hat nur einen einzigen Chunk.
+`generateSentenceGapChoice` ersetzt bei einem Ein-Chunk-Satz den einzigen Chunk durch die Lücke - übrig
+bleibt buchstäblich nur "___", ohne jeden Kontext zum Erraten. Der Nutzer wollte das explizit behoben
+haben, nicht nur für diesen einen Satz: "es kann nicht sein dass ein Satz aus einem Wort besteht".
+
+- **Zwei Ebenen behoben, nicht nur eine.** Code-seitig (`lib/state/lesson_provider.dart`,
+  `_generateSentenceExercise`): `sentenceBuild`/`sentenceGapChoice`/`sentenceGapTyping`/`listenBuild`
+  werden jetzt für jeden Satz mit weniger als 2 Chunks übersprungen (`_chunkDependentTypes`-Guard) -
+  eine dauerhafte Absicherung gegen jeden zukünftigen Ein-Chunk-Satz, egal woher er kommt. Zusätzlich
+  mit einem gezielten Regressionstest in `test/core/lesson_provider_test.dart` abgesichert (prüft
+  gegen echten Content, nicht gemockt).
+- **Inhaltlich zusätzlich bereinigt, nicht nur code-seitig abgefangen** - der Nutzer wollte die
+  Ein-Wort-Sätze aus der Sätze-bauen-Auswahl komplett draußen haben, nicht nur unauffällig
+  übersprungen. Alle 81 Ein-Chunk-Sätze, die in irgendeiner `sentenceBuilding`-Stufe irgendeiner
+  Station lagen (42 Stationen betroffen, beide Sprachen), wurden durch frisch generierte,
+  garantiert mehrchunkige Sätze ersetzt - dieselben Nomen-/Adjektiv-/Verb-Schablonen wie in Etappe 28
+  (Existenzsatz, Besitzsatz, "mag ich", Pronomen-Kopula), diesmal mit Phrasen/Interjektionen/
+  Tigrinya-Verben (Imperativ-Form) bewusst als Quelle ausgeschlossen, da genau die die Ein-Chunk-Sätze
+  verursacht hatten.
+- **Bug im eigenen Ersatz-Skript gefunden und behoben, bevor geschrieben wurde:** ein erster Test-Lauf
+  erzeugte Unsinn wie "ንዓ ኣሎ።" ("es gibt komm!") - Tigrinya-Verb-Lexeme (liegen als Imperativ vor)
+  wurden versehentlich in die Nomen-Schablone einsortiert, weil die POS-Weiche im Ersatz-Skript den
+  Tigrinya-Verb-Sonderfall (anders als im ursprünglichen Etappe-28-Skript) nicht abgefangen hatte.
+  Vor dem eigentlichen Schreiben per Stichprobenkontrolle gefunden, korrigiert, erneut geprüft.
+- **Vokabelknappheit bei den allerersten Stationen einer Sprache** (`unit_erste_begegnung` als erste
+  Amharisch-Station, `unit_eritrea_greetings` als erste Tigrinya-Station) - dort gibt es kaum eigenes
+  UND noch gar kein früheres Vokabular. Lösung: Wiederverwendung eines bereits in der Station
+  genutzten Wortes für einen zweiten Satz, aber mit einer anderen Schablone (z. B. "er ist wohlauf" /
+  "sie ist wohlauf" / "es ist sehr wohlauf" für `lex_dehna`) - ein echter Mehr-Wort-Satz aus
+  wiederverwendetem statt neuem Wortschatz ist immer noch besser als ein Ein-Wort-Satz.
+- **19 verwaiste Satz-Objekte gefunden und aufgeräumt, nicht einfach liegen gelassen.** Beim
+  Entfernen der alten Ein-Chunk-Sätze aus den Lektionsstufen blieben ihre JSON-Objekte zunächst
+  unreferenziert in ihren Dateien liegen (in der Annahme, das sei harmlos wie bei früheren
+  Aufräumaktionen) - das brach aber `fidel_stufe_content_test.dart`s Annahme, dass jeder nicht-
+  Tigrinya-Satz über eine `am`-Sektion erreichbar ist. Alle 81 verwaisten Satz-Objekte (19 Amharisch,
+  62 Tigrinya) aus ihren Dateien entfernt. Bei 19 davon existierte bereits echtes, aufgenommenes
+  Audio aus dem letzten Colab-Lauf (Etappe 28 Nachtrag 3) - diese Aufnahmen inklusive Manifest-
+  Einträgen ebenfalls entfernt, da sie ab jetzt nichts mehr referenziert.
+- **Audio-Tracking für die 81 neuen Ersatzsätze ergänzt** (Manifest + `fehlende_audiodateien.md`),
+  aber bewusst NICHT die laufende `tool/audio_worklist_ti.csv` neu erzeugt/verschickt - der Nutzer
+  hatte zu diesem Zeitpunkt bereits einen Colab-Lauf mit der bisherigen 2666er-Liste gestartet; ein
+  Austausch der Datei mitten im Lauf hätte das nur durcheinandergebracht. Die 62 neuen Tigrinya-
+  Ersatzsätze folgen im nächsten regulären Export.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 240/240 grün (239 + 1 neuer
+  Regressionstest), `content_validation_test.dart` und `fidel_stufe_content_test.dart` beide grün,
+  0 verbleibende Ein-Chunk-Sätze in irgendeiner `sentenceBuilding`-Stufe (rechnerisch bestätigt).

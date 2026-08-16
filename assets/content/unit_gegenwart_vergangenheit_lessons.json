@@ -62,9 +62,9 @@
     ],
     "sentenceIds": [
       "sen_ahun_ihedalehu",
-      "sen_gen_ich_ging",
-      "sen_gen_ich_ass",
-      "sen_gen_ich_trank",
+      "sen_fix_v_bringen",
+      "sen_fix_v_suchen",
+      "sen_fix_v_warten",
       "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
@@ -91,9 +91,9 @@
     ],
     "sentenceIds": [
       "sen_ahun_ihedalehu",
-      "sen_gen_ich_ging",
-      "sen_gen_ich_ass",
-      "sen_gen_ich_trank",
+      "sen_fix_v_bringen",
+      "sen_fix_v_suchen",
+      "sen_fix_v_warten",
       "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
@@ -120,9 +120,9 @@
     ],
     "sentenceIds": [
       "sen_ahun_ihedalehu",
-      "sen_gen_ich_ging",
-      "sen_gen_ich_ass",
-      "sen_gen_ich_trank",
+      "sen_fix_v_bringen",
+      "sen_fix_v_suchen",
+      "sen_fix_v_warten",
       "sen_gen_v_lachen"
     ],
     "exerciseTypes": [
@@ -149,9 +149,9 @@
     ],
     "sentenceIds": [
       "sen_ahun_ihedalehu",
-      "sen_gen_ich_ging",
-      "sen_gen_ich_ass",
-      "sen_gen_ich_trank",
+      "sen_fix_v_bringen",
+      "sen_fix_v_suchen",
+      "sen_fix_v_warten",
       "sen_gen_v_lachen"
     ],
     "exerciseTypes": [

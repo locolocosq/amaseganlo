@@ -44,7 +44,7 @@
       "sen_gen_wnd_pk",
       "sen_gen_wnd_cmps",
       "sen_gen_wnd_bkpck",
-      "sen_gen_wnd_climb"
+      "sen_fix_str_sunsc"
     ],
     "exerciseTypes": [
       "sentenceBuild",
@@ -66,7 +66,7 @@
       "sen_gen_wnd_pk",
       "sen_gen_wnd_cmps",
       "sen_gen_wnd_bkpck",
-      "sen_gen_wnd_climb"
+      "sen_fix_str_sunsc"
     ],
     "exerciseTypes": [
       "listenChoice",
@@ -88,7 +88,7 @@
       "sen_gen_wnd_pk",
       "sen_gen_wnd_cmps",
       "sen_gen_wnd_bkpck",
-      "sen_gen_wnd_climb"
+      "sen_fix_str_sunsc"
     ],
     "exerciseTypes": [
       "wordTyping",
@@ -110,7 +110,7 @@
       "sen_gen_wnd_pk",
       "sen_gen_wnd_cmps",
       "sen_gen_wnd_bkpck",
-      "sen_gen_wnd_climb"
+      "sen_fix_str_sunsc"
     ],
     "exerciseTypes": [
       "wordChoiceAmToNative",

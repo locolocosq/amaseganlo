@@ -1,85 +1,5 @@
 [
   {
-    "id": "sen_gen_traurig_phrase",
-    "am": "አዝኛለሁ።",
-    "tr": "azegnalehu.",
-    "level": "B1",
-    "uses": [
-      "lex_traurig_phrase"
-    ],
-    "t": {
-      "de": "Ich bin traurig.",
-      "en": "I am sad.",
-      "sv": "Jag är ledsen.",
-      "nl": "Ik ben verdrietig."
-    },
-    "alt": {},
-    "chunks": [
-      "azegnalehu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_wuetend_phrase",
-    "am": "ተቆጥቻለሁ።",
-    "tr": "tek'ot'chalehu.",
-    "level": "B1",
-    "uses": [
-      "lex_wuetend_phrase"
-    ],
-    "t": {
-      "de": "Ich bin wütend.",
-      "en": "I am angry.",
-      "sv": "Jag är arg.",
-      "nl": "Ik ben boos."
-    },
-    "alt": {},
-    "chunks": [
-      "tek'ot'chalehu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_angst_phrase",
-    "am": "ፈርቻለሁ።",
-    "tr": "ferchalehu.",
-    "level": "B1",
-    "uses": [
-      "lex_angst_phrase"
-    ],
-    "t": {
-      "de": "Ich habe Angst.",
-      "en": "I am afraid.",
-      "sv": "Jag är rädd.",
-      "nl": "Ik ben bang."
-    },
-    "alt": {},
-    "chunks": [
-      "ferchalehu."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_ich_moechte",
-    "am": "እፈልጋለሁ።",
-    "tr": "ifeligalehu.",
-    "level": "B1",
-    "uses": [
-      "lex_ich_moechte"
-    ],
-    "t": {
-      "de": "ich möchte, ich will.",
-      "en": "I want.",
-      "sv": "jag vill.",
-      "nl": "ik wil."
-    },
-    "alt": {},
-    "chunks": [
-      "ifeligalehu."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_plan",
     "am": "ፕላን አለ።",
     "tr": "plan ale.",
@@ -418,26 +338,6 @@
     "verified": false
   },
   {
-    "id": "sen_gen_tut_mir_leid",
-    "am": "አዝናለሁ።",
-    "tr": "aznalehu.",
-    "level": "B1",
-    "uses": [
-      "lex_tut_mir_leid"
-    ],
-    "t": {
-      "de": "Es tut mir leid.",
-      "en": "I'm sorry.",
-      "sv": "Jag är ledsen.",
-      "nl": "Het spijt me."
-    },
-    "alt": {},
-    "chunks": [
-      "aznalehu."
-    ],
-    "verified": false
-  },
-  {
     "id": "sen_gen_kein_problem",
     "am": "ችግር የለም።",
     "tr": "chiggir yelem.",
@@ -497,26 +397,6 @@
     "chunks": [
       "melkam",
       "guzo."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_zum_wohl",
-    "am": "ለጤናዎ።",
-    "tr": "lete'nawo.",
-    "level": "B1",
-    "uses": [
-      "lex_zum_wohl"
-    ],
-    "t": {
-      "de": "Zum Wohl, Prost.",
-      "en": "Cheers.",
-      "sv": "Skål.",
-      "nl": "Proost."
-    },
-    "alt": {},
-    "chunks": [
-      "lete'nawo."
     ],
     "verified": false
   },
@@ -601,26 +481,6 @@
     "chunks": [
       "washint",
       "ale."
-    ],
-    "verified": false
-  },
-  {
-    "id": "sen_gen_zum_wohl_2",
-    "am": "ለጤናዎ።",
-    "tr": "lete'nawo.",
-    "level": "B1",
-    "uses": [
-      "lex_zum_wohl"
-    ],
-    "t": {
-      "de": "Zum Wohl, Prost.",
-      "en": "Cheers.",
-      "sv": "Skål.",
-      "nl": "Proost."
-    },
-    "alt": {},
-    "chunks": [
-      "lete'nawo."
     ],
     "verified": false
   },
