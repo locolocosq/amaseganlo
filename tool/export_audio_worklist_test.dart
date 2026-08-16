@@ -13,15 +13,14 @@
 // after new content is added, now naturally picks up only what's actually
 // missing - never needs to be told explicitly what's "new".
 //
-// Also covers the Fidel table: every syllable is a single Ge'ez character,
-// which (unlike a random symbol) already *is* a full, well-formed spoken
-// syllable, so feeding it straight to the same Amharic TTS pipeline as a
-// word works the same way. Numerals (፩,፳,...) and punctuation (፡,።,...)
-// are deliberately left out here: those aren't syllables with a natural
-// single-word pronunciation the way a letter or a vocabulary word is, and
-// generic TTS reading a bare punctuation glyph aloud is unlikely to
-// produce anything useful - revisit only if that's specifically wanted
-// later.
+// Etappe 28 Nachtrag 2: Amharic-only again. This script predates Eritrea's
+// Tigrinya track entirely, and `tool/generate_audio_colab.py` only knows the
+// Amharic edge-tts voices (am-ET-*) - feeding it Tigrinya text would read it
+// aloud with the wrong pronunciation rules, not fail loudly. Scoped to
+// `am`-language sections the same principled way
+// `ContentRepository._collectAmharicIds` already does for the Fidel reading
+// path (Etappe 26), rather than guessing from id prefixes. Tigrinya gets its
+// own worklist/voice once that pipeline exists - not this run.
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
@@ -33,9 +32,22 @@ String _csvEscape(String s) => '"${s.replaceAll('"', '""')}"';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('exports every lexeme/sentence/Fidel-sign id without a recording yet to tool/audio_worklist.csv', () async {
+  test('exports every Amharic lexeme/sentence/Fidel-sign id without a recording yet to tool/audio_worklist.csv',
+      () async {
     final repo = ContentRepository();
     await repo.load();
+
+    final amharicLexemeIds = <String>{};
+    final amharicSentenceIds = <String>{};
+    for (final section in repo.curriculum.sections) {
+      if (section.language != 'am') continue;
+      for (final unitId in section.unitIds) {
+        for (final lesson in repo.lessonsForUnit(unitId)) {
+          amharicLexemeIds.addAll(lesson.lexemeIds);
+          amharicSentenceIds.addAll(lesson.sentenceIds);
+        }
+      }
+    }
 
     final existingIds = Directory('assets/audio/words')
         .listSync()
@@ -56,9 +68,11 @@ void main() {
     }
 
     for (final lex in repo.allLexemes) {
+      if (!amharicLexemeIds.contains(lex.id)) continue;
       writeRow(lex.id, 'word', lex.am);
     }
     for (final sentence in repo.allSentences) {
+      if (!amharicSentenceIds.contains(sentence.id)) continue;
       writeRow(sentence.id, 'sentence', sentence.am);
     }
     for (final char in repo.allFidelChars) {
