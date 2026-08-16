@@ -951,3 +951,52 @@ glatten Kurve - dieselbe Silhouette, nur mit mehr Detailtreue.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün. Wie in Nachtrag 2:
   echte Pixel-Prüfung im Browser durch die Umgebung nicht möglich, nur Konsole/Ladezustand
   kontrolliert (fehlerfrei, keine neuen Laufzeitfehler).
+
+## Etappe 27 Nachtrag 4: Eritrea-Umriss durch die echte Landesgrenze ersetzt
+
+Nutzerauftrag, unmissverständlich: "1:1 wie die echte Eritrea Landkarte" statt einer weiteren
+Annäherung. Genau die gleiche Anforderung, die `EthiopiaMap.outline` schon in Etappe 22 Nachtrag 4
+seine echten Grenzdaten eingebracht hatte - also dieselbe Quelle noch einmal genutzt: das
+`johan/world.geo.json`-Dataset (gemeinfrei/CC0, echte Vermessungsdaten), diesmal dessen
+`ERI.geo.json`. Per `curl` direkt von `raw.githubusercontent.com` geladen (nicht über WebFetch, das
+den Inhalt durch ein KI-Modell zusammenfassen lässt - für exakte Koordinatenwerte ungeeignet, ein
+`curl` liefert die Rohdaten unverändert).
+
+- **27 Punkte statt der 100 aus Nachtrag 3** - diesmal bewusst nicht rund/gewählt, sondern exakt so
+  viele, wie die echte, bereits vereinfachte Vermessungsgrenze hat. Weniger Punkte als beim
+  hand-verdichteten Vorgänger, aber die tatsächliche Form statt einer Annäherung daran.
+  Übernommen ohne Glättung, exakt wie bei `EthiopiaMap.outline` ("used as-is with no smoothing").
+- **Mehrere Punkte sind byte-identisch mit Punkten aus `EthiopiaMap.outline`** (z. B.
+  `GeoPoint(42.35156, 12.54223)`, `GeoPoint(37.90607, 14.95943)`) - die gemeinsame Äthiopien-Eritrea-
+  Grenze. Das ist keine Übereinstimmung, die man auf ein Hand-Zeichnen zurückführen könnte, sondern
+  bestätigt, dass beide Länder-Umrisse aus demselben konsistenten, echten Datensatz stammen.
+  Rechnerisch geprüft: 0 Selbstüberschneidungen, gleiche Umlaufrichtung wie zuvor.
+- **Enthält die Dahlak-Inselgruppe nicht als eigene Geometrie** (dieses vereinfachte Festland-only-
+  Dataset hat sie nicht) - `islands()` zeichnet sie unverändert als eigene, handgezeichnete Formen
+  weiter, wie schon seit Etappe 27.
+- **Massawa-Stationsposition leicht nachjustiert** (`(40.6, 14.0)` → `(40.4, 14.4)`): die echte
+  Küstenlinie verläuft an der Stelle weiter westlich als die alte Annäherung - die alte Position wäre
+  jetzt knapp außerhalb der (nun genauen) Landmasse gelandet. Keren/Asmara/Dahlak-Positionen
+  unverändert, weiterhin bewusst nicht die exakten realen Koordinaten (siehe Etappe 27: Abstand für
+  die Kartenlesbarkeit hat Vorrang vor geografischer Genauigkeit).
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.
+
+## Etappe 28 Nachtrag 2: Audio-Worklist-Export auf Amharisch beschränkt
+
+Nutzerauftrag: erstmal nur die Amharisch-Aufnahmen "wie damals" - das bestehende
+`tool/generate_audio_colab.py` kennt nur die Amharisch-Stimmen (`am-ET-*`) und würde Tigrinya-Text
+mit falscher Aussprache vorlesen, statt sichtbar zu scheitern. `tool/export_audio_worklist_test.dart`
+exportierte bisher sprachübergreifend alles - jetzt auf `am`-Sektionen eingeschränkt, nach demselben
+Prinzip, das `ContentRepository._collectAmharicIds` für den Fidel-Lesepfad (Etappe 26) schon nutzt
+(Zugehörigkeit über die Sektion, nicht über Raten anhand des ID-Präfixes).
+
+- **Eigene Zwischenrechnung korrigiert:** vor dieser Umstellung hatte ich per ID-Präfix-Heuristik
+  (`enthält _ti_?`) 956 fehlende Amharisch-Sätze überschlagen und dem Nutzer genannt - falsch. Die
+  echte, App-eigene Sektionslogik ergibt 436. Die Differenz (520) waren Sätze, deren ID zufällig nicht
+  auf `_ti_` passte, die aber trotzdem zu einer Tigrinya-Sektion gehören - eine ungeprüfte
+  ID-Heuristik statt der echten Content-Zuordnung war hier schlicht der falsche Ansatz.
+- **Endstand nach der Umstellung:** 436 fehlende Amharisch-Sätze, 0 fehlende Amharisch-Wörter (alle
+  vorhanden), 0 fehlende Fidel-Zeichen (alle vorhanden) - macht `tool/audio_worklist.csv` mit genau
+  436 Zeilen, bereit für einen Colab-Lauf mit der bestehenden Amharisch-Stimme. Tigrinya bekommt einen
+  eigenen Export/eine eigene Stimme erst, wenn das explizit gewünscht wird.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 239/239 grün.

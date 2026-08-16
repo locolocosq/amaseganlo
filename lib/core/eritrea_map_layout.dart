@@ -28,26 +28,26 @@ class _MapTransform {
 /// trade-off ENTSCHEIDUNGEN.md already documents for `LessonScreen` vs
 /// `ExercisePlayer` (Etappe 6).
 ///
-/// The outline below is a hand-authored approximation of Eritrea's real
-/// boundary, redrawn (Etappe 27 Nachtrag 2) to closely trace the reference
-/// silhouette the user sent: the sharp northern spike at the Sudan/Red Sea
-/// corner near Karora, a scalloped western border with Sudan bulging out
-/// around 15-16°N, a notched Red Sea coast, the waist where the body
-/// narrows into the south-eastern tail, and that tail's jagged run down to
-/// the pointed Ras Dumeira tip at the Djibouti border - not a surveyed
-/// dataset the way [EthiopiaMap.outline] was (that one came from a real
-/// `ETH.geo.json` boundary file), but traced point-by-point against the
-/// reference image rather than the looser first attempt.
+/// The outline below is Eritrea's real national boundary (Etappe 27
+/// Nachtrag 4) - after two rounds of hand-authored approximation (Nachtrag
+/// 2/3), the user asked for the outline "1:1 wie die echte Erta[sic]
+/// Landkarte", exactly the same request that got [EthiopiaMap.outline] its
+/// real boundary (Etappe 22 Nachtrag 4). Same source and same treatment:
+/// the `johan/world.geo.json` dataset's `ERI.geo.json` (real survey-derived
+/// data, CC0), used as-is with no smoothing or densifying. It's already a
+/// simplified ~27-point polygon, not full-resolution survey detail - a
+/// deliberately lower point count than Nachtrag 3's densified 100, but
+/// this time because it's what the actual boundary data has, not a
+/// hand-picked round number. Several vertices are byte-identical to ones
+/// in [EthiopiaMap.outline] (e.g. `GeoPoint(42.35156, 12.54223)`) - the
+/// shared Ethiopia-Eritrea border, confirming both come from the same
+/// consistent, real dataset rather than two independent guesses that
+/// happen to be close.
 ///
-/// 100 points (Etappe 27 Nachtrag 3, on request - up from the 31 of
-/// Nachtrag 2): the same 31-point silhouette above, densified by
-/// subdividing each edge and adding small perpendicular jitter so the
-/// coastline reads as naturally jagged rather than a smooth spline, with
-/// jitter kept deliberately small around the narrow south-eastern tail to
-/// avoid reintroducing the self-crossing Nachtrag 2 already had to fix
-/// there. Verified programmatically (no screenshot possible in this
-/// environment, see Nachtrag 2) to still be a simple, non-self-intersecting
-/// polygon with the same overall shape and winding direction.
+/// Doesn't include the Dahlak archipelago as separate island geometry
+/// (this simplified mainland-only dataset doesn't carry it) - `islands()`
+/// below still draws them as their own hand-authored shapes, unchanged
+/// from Etappe 27.
 class EritreaCountryMap {
   static const double _minLon = 36.0;
   static const double _maxLon = 43.6;
@@ -65,7 +65,9 @@ class EritreaCountryMap {
   static const Map<JourneyRegion, GeoPoint> geoPositions = {
     JourneyRegion.keren: GeoPoint(37.2, 16.3), // west, the farming belt
     JourneyRegion.asmara: GeoPoint(38.9, 15.3), // the real capital
-    JourneyRegion.massawa: GeoPoint(40.6, 14.0), // the Red Sea port
+    JourneyRegion.massawa: GeoPoint(40.4, 14.4), // the Red Sea port (nudged inland of the old
+    // hand-drawn outline in Etappe 27 Nachtrag 4 - the real coastline here sits further west, and
+    // the old spot fell just outside the now-accurate mainland shape)
     JourneyRegion.dahlak: GeoPoint(41.9, 13.1), // the archipelago, furthest offshore/south-east
   };
 
@@ -97,107 +99,34 @@ class EritreaCountryMap {
   }
 
   static const List<GeoPoint> _outlineVertices = [
-    GeoPoint(38.5000, 18.0500), // north tip (Karora/Sudan-Red Sea corner) - the sharp spike
-    GeoPoint(38.3842, 17.9490),
-    GeoPoint(38.2466, 17.8735),
-    GeoPoint(38.1500, 17.7500),
-    GeoPoint(38.2659, 17.6388),
-    GeoPoint(38.3988, 17.5548),
-    GeoPoint(38.5500, 17.5000),
-    GeoPoint(38.6501, 17.3638),
-    GeoPoint(38.8101, 17.2816),
-    GeoPoint(38.8591, 17.0994),
-    GeoPoint(39.0000, 17.0000),
-    GeoPoint(39.0896, 16.8885),
-    GeoPoint(39.0893, 16.7322),
-    GeoPoint(39.1684, 16.6155),
-    GeoPoint(39.2500, 16.5000),
-    GeoPoint(39.1527, 16.3345),
-    GeoPoint(39.1000, 16.1500), // small bay notch
-    GeoPoint(39.2501, 16.0724),
-    GeoPoint(39.3615, 15.9430),
-    GeoPoint(39.5000, 15.8500),
-    GeoPoint(39.6194, 15.7532),
-    GeoPoint(39.7583, 15.6791),
-    GeoPoint(39.8500, 15.5500),
-    GeoPoint(39.7699, 15.3772),
-    GeoPoint(39.7000, 15.2000), // Gulf-of-Zula-style notch
-    GeoPoint(39.8174, 15.0912),
-    GeoPoint(39.9632, 15.0278),
-    GeoPoint(40.1000, 14.9500),
-    GeoPoint(40.2187, 14.8687),
-    GeoPoint(40.2871, 14.7371),
-    GeoPoint(40.3865, 14.6365),
-    GeoPoint(40.5000, 14.5500),
-    GeoPoint(40.4353, 14.3706),
-    GeoPoint(40.3500, 14.2000), // small coastal notch
-    GeoPoint(40.4635, 14.0850),
-    GeoPoint(40.6400, 14.0707),
-    GeoPoint(40.7500, 13.9500), // the waist, where the tail narrows off the main body
-    GeoPoint(40.9009, 13.8009),
-    GeoPoint(41.0547, 13.6547),
-    GeoPoint(41.2000, 13.5000), // south-east tail, outbound (coast) side
-    GeoPoint(41.5342, 13.3014),
-    GeoPoint(41.8615, 13.0914),
-    GeoPoint(42.2000, 12.9000),
-    GeoPoint(42.5520, 12.7444),
-    GeoPoint(42.9037, 12.5881),
-    GeoPoint(43.2500, 12.4200), // south-east tip (Ras Dumeira / Djibouti border)
-    GeoPoint(42.8327, 12.5276), // back along the tail's return (southern/Ethiopia border) side
-    GeoPoint(42.4170, 12.6414),
-    GeoPoint(42.0000, 12.7500),
-    GeoPoint(41.6650, 12.9303),
-    GeoPoint(41.3291, 13.1090),
-    GeoPoint(41.0000, 13.3000),
-    GeoPoint(40.6306, 13.5629),
-    GeoPoint(40.2609, 13.8254),
-    GeoPoint(39.9000, 14.1000),
-    GeoPoint(39.7333, 14.1833),
-    GeoPoint(39.5653, 14.2640),
-    GeoPoint(39.4000, 14.3500),
-    GeoPoint(39.2378, 14.4149),
-    GeoPoint(39.0623, 14.4354),
-    GeoPoint(38.9000, 14.5000),
-    GeoPoint(38.7557, 14.5314),
-    GeoPoint(38.6334, 14.6230),
-    GeoPoint(38.5004, 14.6855),
-    GeoPoint(38.3500, 14.7000),
-    GeoPoint(38.2029, 14.7493),
-    GeoPoint(38.0410, 14.7392),
-    GeoPoint(37.8954, 14.7939),
-    GeoPoint(37.7500, 14.8500),
-    GeoPoint(37.6011, 14.9032),
-    GeoPoint(37.4642, 14.9927),
-    GeoPoint(37.3120, 15.0359),
-    GeoPoint(37.1500, 15.0500), // south-west corner, the Sudan border begins
-    GeoPoint(37.0362, 15.1760),
-    GeoPoint(36.8961, 15.2670),
-    GeoPoint(36.7500, 15.3500),
-    GeoPoint(36.6728, 15.4641),
-    GeoPoint(36.6324, 15.5930),
-    GeoPoint(36.5667, 15.7117),
-    GeoPoint(36.5500, 15.8500), // westernmost bulge
-    GeoPoint(36.6324, 15.9965),
-    GeoPoint(36.7774, 16.0961),
-    GeoPoint(36.8500, 16.2500), // small bay notch
-    GeoPoint(36.8173, 16.4003),
-    GeoPoint(36.7361, 16.5264),
-    GeoPoint(36.6500, 16.6500),
-    GeoPoint(36.6957, 16.8068),
-    GeoPoint(36.8437, 16.8998),
-    GeoPoint(36.9000, 17.0500),
-    GeoPoint(36.9809, 17.1830),
-    GeoPoint(37.1272, 17.2600),
-    GeoPoint(37.2000, 17.4000),
-    GeoPoint(37.3303, 17.4662),
-    GeoPoint(37.4290, 17.5850),
-    GeoPoint(37.5798, 17.6169),
-    GeoPoint(37.7000, 17.7000),
-    GeoPoint(37.8687, 17.7502),
-    GeoPoint(38.0246, 17.8295),
-    GeoPoint(38.1642, 17.9461),
-    GeoPoint(38.3335, 17.9948),
-    GeoPoint(38.5000, 18.0500), // close back at the north tip
+    GeoPoint(42.35156, 12.54223), // shared Ethiopia-Eritrea border point (see EthiopiaMap.outline)
+    GeoPoint(42.00975, 12.86582), // shared border point
+    GeoPoint(41.59856, 13.45209), // shared border point
+    GeoPoint(41.155194, 13.77332),
+    GeoPoint(40.8966, 14.11864), // shared border point
+    GeoPoint(40.026219, 14.519579),
+    GeoPoint(39.34061, 14.53155), // shared border point
+    GeoPoint(39.0994, 14.74064), // shared border point
+    GeoPoint(38.51295, 14.50547), // shared border point
+    GeoPoint(37.90607, 14.95943), // shared border point
+    GeoPoint(37.59377, 14.2131),
+    GeoPoint(36.42951, 14.42211),
+    GeoPoint(36.323189, 14.822481),
+    GeoPoint(36.75386, 16.291874), // westernmost bulge, the Sudan border
+    GeoPoint(36.85253, 16.95655),
+    GeoPoint(37.16747, 17.26314),
+    GeoPoint(37.904, 17.42754),
+    GeoPoint(38.41009, 17.998307), // north tip (Karora/Sudan-Red Sea corner)
+    GeoPoint(38.990623, 16.840626),
+    GeoPoint(39.26611, 15.922723),
+    GeoPoint(39.814294, 15.435647),
+    GeoPoint(41.179275, 14.49108),
+    GeoPoint(41.734952, 13.921037),
+    GeoPoint(42.276831, 13.343992),
+    GeoPoint(42.589576, 13.000421),
+    GeoPoint(43.081226, 12.699639), // south-east tail, the Djibouti border
+    GeoPoint(42.779642, 12.455416),
+    GeoPoint(42.35156, 12.54223), // back to start
   ];
 
   /// The Dahlak archipelago's own small island shapes, offshore of Massawa
