@@ -1,8 +1,8 @@
 [
   {
     "id": "sen_selam_alaykum",
-    "am": "ሰላም ዓለይኩም",
-    "tr": "selam alaykum",
+    "am": "ሰላም ዓለይኩም።",
+    "tr": "selam alaykum.",
     "level": "B2",
     "uses": ["lex_selam_alaykum"],
     "t": {
@@ -16,8 +16,8 @@
   },
   {
     "id": "sen_wealaykum_reply",
-    "am": "ወዓለይኩም ሰላም",
-    "tr": "wa alaykum selam",
+    "am": "ወዓለይኩም ሰላም።",
+    "tr": "wa alaykum selam.",
     "level": "B2",
     "uses": ["lex_wealaykum"],
     "t": {

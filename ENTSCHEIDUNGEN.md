@@ -1256,3 +1256,41 @@ systematisch behoben, nicht nur die gemeldeten Einzelfälle.
   after Ich habe/Ich mag".
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 244/244 grün (242 + 2 neue
   Content-Validierungstests), `fidel_stufe_content_test.dart` weiterhin grün (keine neuen Waisen).
+
+## Etappe 28 Nachtrag 13: vollständiger "Alles durchspielen"-Test vor geplantem Store-Update
+
+Nutzerauftrag, wörtlich: jede einzelne Station in beiden Sprachen selbst durchspielen und auf
+Korrektheit prüfen, "es soll wirklich alles getestet werden". Dazu zwei zusätzliche kleinere
+Korrekturen (fehlende Satzzeichen bei zwei Harar-Grußformeln) und dann die eigentliche, große Prüfung.
+
+- **Manuelles Klick-Durchspielen im Browser war technisch nicht möglich** - dieselbe, bereits in
+  Etappe 8/27 dokumentierte Umgebungsgrenze: das Browser-Pane wird in dieser Sitzung nicht sichtbar
+  angezeigt, wodurch CanvasKit nie einen Frame rendert (`screenshot failed: the Browser pane is not
+  displayed`) - auch ein programmatischer Klick auf Flutters Accessibility-Placeholder brachte keinen
+  auslesbaren Semantik-Baum zustande (Flutters Aktivierung reagiert nur auf echte Pointer-Events,
+  nicht auf synthetische JS-Klicks).
+- **Stattdessen die echte `LessonProvider`/`ExerciseGenerator`-Pipeline direkt angesteuert** statt
+  manuell zu klicken - strenger als ein Stichproben-Durchklicken, weil es wirklich jede einzelne
+  Station statt einer Auswahl prüft: `test/content/full_playthrough_test.dart` (neu) ruft für alle
+  285 Einheiten und alle 1409 Lektionsstufen `LessonProvider.startLesson` echt auf und prüft die
+  entstehende Übungsliste (15.066 Übungen insgesamt) auf Abstürze und leere Pflichtfelder
+  (`promptText`/`correctAnswer`). Lief in ~5 Sekunden durch - 0 Probleme gefunden.
+- **Ein Fehlalarm im eigenen Test gefunden und korrigiert, bevor er als Bug gemeldet wurde:**
+  `pairMatching`-Übungen speichern ihren Inhalt bewusst in `pairs` statt in `promptText`/
+  `correctAnswer` (`generatePairMatching` in `exercise_generator.dart`) - beim ersten Lauf zeigte der
+  Test das fälschlich als "leerer promptText" bei über 280 Übungen an. Nach Prüfung des tatsächlichen
+  Generator-Codes als Testfehler erkannt und die Ausnahme ergänzt, nicht die Produktionslogik
+  angefasst.
+- **Zwei fehlende Satzzeichen behoben** (`sen_selam_alaykum`/`sen_wealaykum_reply`, arabischstämmige
+  Grußformeln in Harar) - beim systematischen Scan nach fehlender Terminalinterpunktion gefunden,
+  keine inhaltliche Änderung.
+- **Bestätigt (rechnerisch, nicht nur behauptet):** keine verbliebene Ein-Chunk-"Sätze bauen"-Instanz,
+  keine verbliebene Wörterbuch-Notation, keine verbliebenen deutschen Kasusfehler nach Ich-habe/Ich-
+  mag, exakt die erwarteten 16 Stationen ohne Sätze-bauen-Stufe (7 Addis Abeba + 9 Keren), 0
+  Vorwärtsreferenzen im gesamten Lehrplan.
+- **Ehrlich benannte Grenze:** die eigentliche sprachliche Natürlichkeit/Richtigkeit der Amharisch-
+  und Tigrinya-Inhalte selbst bleibt weiterhin `verified: false` und kann von hier aus nicht
+  muttersprachlich geprüft werden - alles automatisiert Prüfbare (Struktur, Reihenfolge, Kasus/Genus
+  in den vier UI-Sprachen, Abstürze, leere Felder) wurde geprüft und ist grün.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün (244 + 1 neuer
+  Playthrough-Test).
