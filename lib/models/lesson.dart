@@ -68,16 +68,46 @@ class Lesson {
     return Lesson(
       id: json['id'] as String,
       unitId: unitId,
-      kind: LessonKind.values.firstWhere(
-        (k) => k.name == json['kind'],
-        orElse: () => LessonKind.wordPractice,
-      ),
+      kind: _lessonKindFromJson(json['kind'] as String?, unitId: unitId, lessonId: json['id'] as String?),
       lexemeIds: List<String>.from(json['lexemeIds'] as List? ?? const []),
       sentenceIds: List<String>.from(json['sentenceIds'] as List? ?? const []),
       exerciseTypes: [
         for (final t in (json['exerciseTypes'] as List? ?? const [])) exerciseTypeFromName(t as String),
       ],
     );
+  }
+
+  /// A handful of older curriculum.json content files (127 units, found by
+  /// full-app audit) predate `LessonKind`'s current names and still use
+  /// "words"/"sentences"/"free" instead of "wordPractice"/"sentenceBuilding"/
+  /// "freeApplication". Those aren't typos to migrate away - both spellings
+  /// are accepted content, on purpose, so this mapping needs to keep
+  /// existing indefinitely rather than being a one-time fixup. What must
+  /// never happen again is silently mapping an *unrecognized* kind to
+  /// wordPractice (the previous behaviour): that's exactly how 376 stages
+  /// across those 127 units silently turned into extra "Wörter üben" tiles
+  /// and generated word exercises from a stage's sentenceIds instead of the
+  /// sentence exercises it was actually meant to have - invisible until a
+  /// user happened to notice the labels. A genuinely unknown kind now
+  /// throws, which ContentRepository already catches per-unit (a missing/
+  /// broken lesson file is skipped, not a whole-app crash) instead of
+  /// quietly corrupting that unit's lesson list.
+  static const _kindAliases = {
+    'words': LessonKind.wordPractice,
+    'sentences': LessonKind.sentenceBuilding,
+    'free': LessonKind.freeApplication,
+  };
+
+  static LessonKind _lessonKindFromJson(String? raw, {required String unitId, String? lessonId}) {
+    if (raw == null) {
+      throw FormatException('Lesson "$lessonId" in unit "$unitId" has no "kind" field');
+    }
+    for (final k in LessonKind.values) {
+      if (k.name == raw) return k;
+    }
+    final aliased = _kindAliases[raw];
+    if (aliased != null) return aliased;
+    throw FormatException('Lesson "$lessonId" in unit "$unitId" has unrecognized kind "$raw"');
   }
 
   Map<String, dynamic> toJson() => {

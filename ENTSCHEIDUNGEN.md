@@ -1294,3 +1294,38 @@ Korrekturen (fehlende Satzzeichen bei zwei Harar-Grußformeln) und dann die eige
   in den vier UI-Sprachen, Abstürze, leere Felder) wurde geprüft und ist grün.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün (244 + 1 neuer
   Playthrough-Test).
+
+## Etappe 28 Nachtrag 14: "drei mal Wörter üben" bei Eritrea - stiller Parsing-Fehler in Lesson.fromJson
+
+Nutzerauftrag, wörtlich: "bei eritrea steht drei mal bei den stationen wörter übern schua dir mal
+die stationen an". Sah zunächst nach einem kosmetischen Anzeigefehler aus, war aber ein echter,
+funktionaler Bug, der schon lange im Content-Format schlummerte.
+
+- **Root Cause gefunden:** `Lesson.fromJson` in `lib/models/lesson.dart` nutzte
+  `LessonKind.values.firstWhere((k) => k.name == json['kind'], orElse: () => LessonKind.wordPractice)`
+  - jeder nicht erkannte `kind`-String wurde **still** auf `wordPractice` abgebildet. Ein Teil der
+  älteren Lektions-JSON-Dateien nutzt seit jeher `"words"/"sentences"/"free"` statt der kanonischen
+  Namen `"wordPractice"/"sentenceBuilding"/"freeApplication"` - keine Tippfehler, sondern eine
+  durchgehend genutzte, ältere Schreibweise. Der Parser kannte diese Aliase nie, daher wurden alle
+  drei Stufentypen einer betroffenen Station gleichermaßen zu "Wörter üben" - exakt das vom Nutzer
+  beschriebene "drei mal Wörter üben".
+- **Tragweite per Skript ermittelt:** 127 Einheiten, 376 Lektionsstufen betroffen. Das war kein rein
+  kosmetisches Label-Problem: die betroffenen Stufen generierten tatsächlich Wortübungen aus ihren
+  `sentenceIds` statt der eigentlich vorgesehenen Satzbau-/Hör-/Anwendungs-Übungen - unsichtbar, bis
+  ein Nutzer die Stationsbeschriftungen genau genug anschaute.
+- **Fix:** neue `_lessonKindFromJson`-Methode statt der stillen `firstWhere`-Fallback-Logik - prüft
+  zuerst die kanonischen Enum-Namen, dann eine explizite `_kindAliases`-Map (`words`→`wordPractice`,
+  `sentences`→`sentenceBuilding`, `free`→`freeApplication`), und wirft für jeden wirklich unbekannten
+  Wert eine `FormatException`. Das ist sicher, weil `ContentRepository` das Laden jeder Einheit schon
+  einzeln in try/catch kapselt (bestehendes, bereits getestetes Verhalten: eine kaputte Lektionsdatei
+  überspringt nur diese Einheit, statt die ganze App abstürzen zu lassen) - ein still falsch
+  geparster `kind` ist gefährlicher als ein deutlich sichtbarer, auf die eine Einheit begrenzter
+  Fehler.
+- **Beide Schreibweisen bleiben dauerhaft gültiger Content**, keine Migration der 127 Einheiten auf
+  die kanonischen Namen nötig oder geplant - die Alias-Map ist die dauerhafte Lösung, kein
+  Übergangs-Hack.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün - insbesondere
+  `full_playthrough_test.dart` (weiterhin 285 Einheiten/1409 Stufen/15.066 Übungen, jetzt mit den
+  vormals fehlerhaft geparsten 376 Stufen korrekt als Satzbau/Hören/Anwendung statt Wortübung) und
+  `content_validation_test.dart` unverändert grün - der Fix ändert also den generierten Übungstyp für
+  127 Einheiten, ohne irgendwo neue Abstürze oder leere Pflichtfelder zu verursachen.
