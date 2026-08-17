@@ -1,6 +1,100 @@
 [
-  {"id":"sen_he_tesfa_dilta","am":"ተስፋ ደስታ ያመጣል።","tr":"tesifa desita yamet'al.","level":"B2","uses":["lex_he_tesfa","lex_he_hiyaw_ferha"],"t":{"de":"Hoffnung bringt Freude.","en":"Hope brings joy.","sv":"Hopp ger glädje.","nl":"Hoop brengt vreugde."},"chunks":["tesifa","desita","yamet'al"],"verified":false},
-  {"id":"sen_he_firenat_dinik","am":"ፍርሃት እና ድንጋጤ ተመሳሳይ ናቸው።","tr":"firihat ina dinigat'e temesasay nachew.","level":"B2","uses":["lex_he_firenat","lex_he_dinik"],"t":{"de":"Angst und Schock sind ähnlich.","en":"Fear and shock are similar.","sv":"Rädsla och chock är liknande.","nl":"Angst en schok zijn vergelijkbaar."},"chunks":["firihat","ina","dinigat'e","temesasay","nachew"],"verified":false},
-  {"id":"sen_he_tigat_kult","am":"ትዕግስት ከቁጣ ይሻላል።","tr":"ti'igist kek'uta yishalal.","level":"B2","uses":["lex_he_tigat","lex_he_kult"],"t":{"de":"Geduld ist besser als Wut.","en":"Patience is better than anger.","sv":"Tålamod är bättre än ilska.","nl":"Geduld is beter dan woede."},"chunks":["ti'igist","kek'uta","yishalal"],"verified":false},
-  {"id":"sen_he_fikir2_widedet","am":"ፍቅር ከውዴታ ይበልጣል።","tr":"fikir kewidedeta yibelit'al.","level":"B2","uses":["lex_he_fikir2","lex_he_widedet"],"t":{"de":"Liebe ist mehr als Zuneigung.","en":"Love is more than affection.","sv":"Kärlek är mer än tillgivenhet.","nl":"Liefde is meer dan genegenheid."},"chunks":["fikir","kewidedeta","yibelit'al"],"verified":false}
+  {
+    "id": "sen_he_tesfa_dilta",
+    "am": "ተስፋ ደስታ ያመጣል።",
+    "tr": "tesifa desita yamet'al.",
+    "level": "B2",
+    "uses": [
+      "lex_he_tesfa",
+      "lex_he_hiyaw_ferha"
+    ],
+    "t": {
+      "de": "Hoffnung bringt Freude.",
+      "en": "Hope brings joy.",
+      "sv": "Hopp ger glädje.",
+      "nl": "Hoop brengt vreugde.",
+      "it": "La speranza porta gioia.",
+      "es": "La esperanza trae alegría."
+    },
+    "chunks": [
+      "tesifa",
+      "desita",
+      "yamet'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_he_firenat_dinik",
+    "am": "ፍርሃት እና ድንጋጤ ተመሳሳይ ናቸው።",
+    "tr": "firihat ina dinigat'e temesasay nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_he_firenat",
+      "lex_he_dinik"
+    ],
+    "t": {
+      "de": "Angst und Schock sind ähnlich.",
+      "en": "Fear and shock are similar.",
+      "sv": "Rädsla och chock är liknande.",
+      "nl": "Angst en schok zijn vergelijkbaar.",
+      "it": "Paura e shock sono simili.",
+      "es": "El miedo y la conmoción son similares."
+    },
+    "chunks": [
+      "firihat",
+      "ina",
+      "dinigat'e",
+      "temesasay",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_he_tigat_kult",
+    "am": "ትዕግስት ከቁጣ ይሻላል።",
+    "tr": "ti'igist kek'uta yishalal.",
+    "level": "B2",
+    "uses": [
+      "lex_he_tigat",
+      "lex_he_kult"
+    ],
+    "t": {
+      "de": "Geduld ist besser als Wut.",
+      "en": "Patience is better than anger.",
+      "sv": "Tålamod är bättre än ilska.",
+      "nl": "Geduld is beter dan woede.",
+      "it": "La pazienza è meglio della rabbia.",
+      "es": "La paciencia es mejor que la ira."
+    },
+    "chunks": [
+      "ti'igist",
+      "kek'uta",
+      "yishalal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_he_fikir2_widedet",
+    "am": "ፍቅር ከውዴታ ይበልጣል።",
+    "tr": "fikir kewidedeta yibelit'al.",
+    "level": "B2",
+    "uses": [
+      "lex_he_fikir2",
+      "lex_he_widedet"
+    ],
+    "t": {
+      "de": "Liebe ist mehr als Zuneigung.",
+      "en": "Love is more than affection.",
+      "sv": "Kärlek är mer än tillgivenhet.",
+      "nl": "Liefde is meer dan genegenheid.",
+      "it": "L'amore è più dell'affetto.",
+      "es": "El amor es más que el cariño."
+    },
+    "chunks": [
+      "fikir",
+      "kewidedeta",
+      "yibelit'al"
+    ],
+    "verified": false
+  }
 ]

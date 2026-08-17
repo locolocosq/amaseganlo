@@ -11,7 +11,9 @@
       "de": "die Freude, das Glück ist vorhanden.",
       "en": "There is joy, happiness.",
       "sv": "Det finns glädje.",
-      "nl": "Er is vreugde."
+      "nl": "Er is vreugde.",
+      "it": "C'è gioia, felicità.",
+      "es": "Hay alegría, felicidad."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Ich habe die Traurigkeit.",
       "en": "I have sadness.",
       "sv": "Jag har sorg.",
-      "nl": "Ik heb verdriet."
+      "nl": "Ik heb verdriet.",
+      "it": "Ho tristezza.",
+      "es": "Tengo tristeza."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Ich mag die Meinung.",
       "en": "I like opinion.",
       "sv": "Jag gillar åsikt.",
-      "nl": "Ik hou van mening."
+      "nl": "Ik hou van mening.",
+      "it": "Mi piace l'opinione.",
+      "es": "Me gusta la opinión."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "die Zukunft, in Zukunft ist vorhanden.",
       "en": "There is the future, ahead.",
       "sv": "Det finns framtiden, framöver.",
-      "nl": "Er is de toekomst, voortaan."
+      "nl": "Er is de toekomst, voortaan.",
+      "it": "C'è il futuro, più avanti.",
+      "es": "Hay futuro, más adelante."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "Pagumen (13. Monat, kurz) ist vorhanden.",
       "en": "There is Pagume (13th, short month).",
       "sv": "Det finns Pagume (13:e, kort månaden).",
-      "nl": "Er is Pagume (13e, korte maand)."
+      "nl": "Er is Pagume (13e, korte maand).",
+      "it": "C'è Pagume (13° mese, breve).",
+      "es": "Hay Pagume (13.º mes, breve)."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Ich habe Nehase (12. Monat).",
       "en": "I have Nehase (12th month).",
       "sv": "Jag har Nehase (12:e månaden).",
-      "nl": "Ik heb Nehase (12e maand)."
+      "nl": "Ik heb Nehase (12e maand).",
+      "it": "Ho Nehase (12° mese).",
+      "es": "Tengo Nehase (12.º mes)."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "Pagumen (13. Monat, kurz) ist vorhanden.",
       "en": "There is Pagume (13th, short month).",
       "sv": "Det finns Pagume (13:e, kort månaden).",
-      "nl": "Er is Pagume (13e, korte maand)."
+      "nl": "Er is Pagume (13e, korte maand).",
+      "it": "C'è Pagume (13° mese, breve).",
+      "es": "Hay Pagume (13.º mes, breve)."
     },
     "alt": {},
     "chunks": [

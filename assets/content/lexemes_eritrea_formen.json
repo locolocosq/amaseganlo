@@ -1,16 +1,254 @@
 [
-  {"id":"lex_ti_kbi","am":"ክቢ","tr":"kibi","pos":"noun","topic":"shapes","level":"TI","t":{"de":"der Kreis","en":"circle","sv":"cirkel","nl":"cirkel"},"emoji":"⭕","verified":false},
-  {"id":"lex_ti_seleste2","am":"ስሉስ ኩርናዕ","tr":"silus kurna'e","pos":"noun","topic":"shapes","level":"TI","t":{"de":"das Dreieck","en":"triangle","sv":"triangel","nl":"driehoek"},"emoji":"🔺","verified":false},
-  {"id":"lex_ti_arba2","am":"ኣርባዕተ ኩርናዕ","tr":"arba'ete kurna'e","pos":"noun","topic":"shapes","level":"TI","t":{"de":"das Viereck, Quadrat","en":"square, rectangle","sv":"fyrkant","nl":"vierkant"},"emoji":"⬜","verified":false},
-  {"id":"lex_ti_medeb","am":"መስመር","tr":"mesmer","pos":"noun","topic":"shapes","level":"TI","t":{"de":"die Linie","en":"line","sv":"linje","nl":"lijn"},"emoji":"","verified":false},
-  {"id":"lex_ti_nikot","am":"ነጥቢ","tr":"netbi","pos":"noun","topic":"shapes","level":"TI","t":{"de":"der Punkt","en":"point, dot","sv":"punkt","nl":"punt"},"emoji":"","verified":false},
-  {"id":"lex_ti_kefta","am":"ደው ዝበለ","tr":"dew zibele","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"aufrecht, vertikal","en":"upright, vertical","sv":"upprätt, vertikal","nl":"rechtop, verticaal"},"emoji":"","verified":false},
-  {"id":"lex_ti_werari2","am":"ዝገዘፈ","tr":"zigezefe","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"dick, breit","en":"thick, wide","sv":"tjock, bred","nl":"dik, breed"},"emoji":"","verified":false},
-  {"id":"lex_ti_reqiq","am":"ቀጢን","tr":"qet'in","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"dünn, schmal","en":"thin, narrow","sv":"tunn, smal","nl":"dun, smal"},"emoji":"","verified":false},
-  {"id":"lex_ti_mlue","am":"መሉእ","tr":"melu'e","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"voll","en":"full","sv":"full","nl":"vol"},"emoji":"","verified":false},
-  {"id":"lex_ti_ryaam","am":"ሪጋም","tr":"rigam","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"leer","en":"empty","sv":"tom","nl":"leeg"},"emoji":"","verified":false},
-  {"id":"lex_ti_kefti","am":"ክፉት","tr":"kifut","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"offen","en":"open","sv":"öppen","nl":"open"},"emoji":"","verified":false},
-  {"id":"lex_ti_tsgu","am":"ዕጹው","tr":"'itswu","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"geschlossen","en":"closed","sv":"stängd","nl":"gesloten"},"emoji":"","verified":false},
-  {"id":"lex_ti_qrbti","am":"ቀረባ","tr":"qereba","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"nah","en":"near, close","sv":"nära","nl":"dichtbij"},"emoji":"","verified":false},
-  {"id":"lex_ti_rieqi","am":"ርሑቕ","tr":"rihuq","pos":"adjective","topic":"shapes","level":"TI","t":{"de":"fern, weit","en":"far, distant","sv":"fjärran, långt","nl":"ver, ver weg"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_kbi",
+    "am": "ክቢ",
+    "tr": "kibi",
+    "pos": "noun",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "der Kreis",
+      "en": "circle",
+      "sv": "cirkel",
+      "nl": "cirkel",
+      "it": "il cerchio",
+      "es": "el círculo"
+    },
+    "emoji": "⭕",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seleste2",
+    "am": "ስሉስ ኩርናዕ",
+    "tr": "silus kurna'e",
+    "pos": "noun",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "das Dreieck",
+      "en": "triangle",
+      "sv": "triangel",
+      "nl": "driehoek",
+      "it": "il triangolo",
+      "es": "el triángulo"
+    },
+    "emoji": "🔺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arba2",
+    "am": "ኣርባዕተ ኩርናዕ",
+    "tr": "arba'ete kurna'e",
+    "pos": "noun",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "das Viereck, Quadrat",
+      "en": "square, rectangle",
+      "sv": "fyrkant",
+      "nl": "vierkant",
+      "it": "il quadrato, il rettangolo",
+      "es": "el cuadrado, el rectángulo"
+    },
+    "emoji": "⬜",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_medeb",
+    "am": "መስመር",
+    "tr": "mesmer",
+    "pos": "noun",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "die Linie",
+      "en": "line",
+      "sv": "linje",
+      "nl": "lijn",
+      "it": "la linea",
+      "es": "la línea"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nikot",
+    "am": "ነጥቢ",
+    "tr": "netbi",
+    "pos": "noun",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "der Punkt",
+      "en": "point, dot",
+      "sv": "punkt",
+      "nl": "punt",
+      "it": "il punto",
+      "es": "el punto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kefta",
+    "am": "ደው ዝበለ",
+    "tr": "dew zibele",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "aufrecht, vertikal",
+      "en": "upright, vertical",
+      "sv": "upprätt, vertikal",
+      "nl": "rechtop, verticaal",
+      "it": "verticale",
+      "es": "vertical"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_werari2",
+    "am": "ዝገዘፈ",
+    "tr": "zigezefe",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "dick, breit",
+      "en": "thick, wide",
+      "sv": "tjock, bred",
+      "nl": "dik, breed",
+      "it": "spesso, largo",
+      "es": "grueso, ancho"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_reqiq",
+    "am": "ቀጢን",
+    "tr": "qet'in",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "dünn, schmal",
+      "en": "thin, narrow",
+      "sv": "tunn, smal",
+      "nl": "dun, smal",
+      "it": "sottile, stretto",
+      "es": "delgado, estrecho"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mlue",
+    "am": "መሉእ",
+    "tr": "melu'e",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "voll",
+      "en": "full",
+      "sv": "full",
+      "nl": "vol",
+      "it": "pieno",
+      "es": "lleno"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ryaam",
+    "am": "ሪጋም",
+    "tr": "rigam",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "leer",
+      "en": "empty",
+      "sv": "tom",
+      "nl": "leeg",
+      "it": "vuoto",
+      "es": "vacío"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kefti",
+    "am": "ክፉት",
+    "tr": "kifut",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "offen",
+      "en": "open",
+      "sv": "öppen",
+      "nl": "open",
+      "it": "aperto",
+      "es": "abierto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsgu",
+    "am": "ዕጹው",
+    "tr": "'itswu",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "geschlossen",
+      "en": "closed",
+      "sv": "stängd",
+      "nl": "gesloten",
+      "it": "chiuso",
+      "es": "cerrado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qrbti",
+    "am": "ቀረባ",
+    "tr": "qereba",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "nah",
+      "en": "near, close",
+      "sv": "nära",
+      "nl": "dichtbij",
+      "it": "vicino",
+      "es": "cerca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rieqi",
+    "am": "ርሑቕ",
+    "tr": "rihuq",
+    "pos": "adjective",
+    "topic": "shapes",
+    "level": "TI",
+    "t": {
+      "de": "fern, weit",
+      "en": "far, distant",
+      "sv": "fjärran, långt",
+      "nl": "ver, ver weg",
+      "it": "lontano",
+      "es": "lejos"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

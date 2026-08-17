@@ -4,14 +4,25 @@
     "am": "ሰው ሰራሽ አስተውሎት ዘመናዊ ነው።",
     "tr": "sew serash astewilot zemenawi newu.",
     "level": "B2",
-    "uses": ["lex_sew_serash", "lex_adj_zemenawi"],
+    "uses": [
+      "lex_sew_serash",
+      "lex_adj_zemenawi"
+    ],
     "t": {
       "de": "Künstliche Intelligenz ist modern.",
       "en": "Artificial intelligence is modern.",
       "sv": "Artificiell intelligens är modern.",
-      "nl": "Kunstmatige intelligentie is modern."
+      "nl": "Kunstmatige intelligentie is modern.",
+      "it": "L'intelligenza artificiale è moderna.",
+      "es": "La inteligencia artificial es moderna."
     },
-    "chunks": ["sew", "serash", "astewilot", "zemenawi", "newu"],
+    "chunks": [
+      "sew",
+      "serash",
+      "astewilot",
+      "zemenawi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -19,14 +30,22 @@
     "am": "ውሂብ አስፈላጊ ነው።",
     "tr": "wihib asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_wihib"],
+    "uses": [
+      "lex_wihib"
+    ],
     "t": {
       "de": "Daten sind wichtig.",
       "en": "Data is important.",
       "sv": "Data är viktigt.",
-      "nl": "Gegevens zijn belangrijk."
+      "nl": "Gegevens zijn belangrijk.",
+      "it": "I dati sono importanti.",
+      "es": "Los datos son importantes."
     },
-    "chunks": ["wihib", "asfelagi", "newu"],
+    "chunks": [
+      "wihib",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +53,23 @@
     "am": "የይለፍ ቃል አስፈላጊ ነው።",
     "tr": "yeyilef k'al asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_yeyilef_kal"],
+    "uses": [
+      "lex_yeyilef_kal"
+    ],
     "t": {
       "de": "Ein Passwort ist wichtig.",
       "en": "A password is important.",
       "sv": "Ett lösenord är viktigt.",
-      "nl": "Een wachtwoord is belangrijk."
+      "nl": "Een wachtwoord is belangrijk.",
+      "it": "Una password è importante.",
+      "es": "Una contraseña es importante."
     },
-    "chunks": ["yeyilef", "k'al", "asfelagi", "newu"],
+    "chunks": [
+      "yeyilef",
+      "k'al",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +77,25 @@
     "am": "ይህ ድህረ ገጽ ዘመናዊ ነው።",
     "tr": "yih dihire gets' zemenawi newu.",
     "level": "B2",
-    "uses": ["lex_dihire_gets", "lex_adj_zemenawi"],
+    "uses": [
+      "lex_dihire_gets",
+      "lex_adj_zemenawi"
+    ],
     "t": {
       "de": "Diese Website ist modern.",
       "en": "This website is modern.",
       "sv": "Den här webbplatsen är modern.",
-      "nl": "Deze website is modern."
+      "nl": "Deze website is modern.",
+      "it": "Questo sito web è moderno.",
+      "es": "Este sitio web es moderno."
     },
-    "chunks": ["yih", "dihire", "gets'", "zemenawi", "newu"],
+    "chunks": [
+      "yih",
+      "dihire",
+      "gets'",
+      "zemenawi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +103,24 @@
     "am": "ድህረ ገጽ ውሂብ አለው።",
     "tr": "dihire gets' wihib alew.",
     "level": "B2",
-    "uses": ["lex_dihire_gets", "lex_wihib"],
+    "uses": [
+      "lex_dihire_gets",
+      "lex_wihib"
+    ],
     "t": {
       "de": "Eine Website hat Daten.",
       "en": "A website has data.",
       "sv": "En webbplats har data.",
-      "nl": "Een website heeft gegevens."
+      "nl": "Een website heeft gegevens.",
+      "it": "Un sito web ha dati.",
+      "es": "Un sitio web tiene datos."
     },
-    "chunks": ["dihire", "gets'", "wihib", "alew"],
+    "chunks": [
+      "dihire",
+      "gets'",
+      "wihib",
+      "alew"
+    ],
     "verified": false
   }
 ]

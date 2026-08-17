@@ -10,7 +10,9 @@
       "de": "das Recycling",
       "en": "recycling",
       "sv": "återvinning",
-      "nl": "recycling"
+      "nl": "recycling",
+      "it": "il riciclaggio",
+      "es": "el reciclaje"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die biologische Vielfalt",
       "en": "biodiversity",
       "sv": "biologisk mångfald",
-      "nl": "biodiversiteit"
+      "nl": "biodiversiteit",
+      "it": "la biodiversità",
+      "es": "la biodiversidad"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "aussterben, verschwinden",
       "en": "to become extinct, to disappear",
       "sv": "dö ut, försvinna",
-      "nl": "uitsterven, verdwijnen"
+      "nl": "uitsterven, verdwijnen",
+      "it": "estinguersi, scomparire",
+      "es": "extinguirse, desaparecer"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Ökosystem",
       "en": "ecosystem",
       "sv": "ekosystem",
-      "nl": "ecosysteem"
+      "nl": "ecosysteem",
+      "it": "l'ecosistema",
+      "es": "el ecosistema"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Nachhaltigkeit",
       "en": "sustainability",
       "sv": "hållbarhet",
-      "nl": "duurzaamheid"
+      "nl": "duurzaamheid",
+      "it": "la sostenibilità",
+      "es": "la sostenibilidad"
     },
     "hint": {},
     "alt": {},

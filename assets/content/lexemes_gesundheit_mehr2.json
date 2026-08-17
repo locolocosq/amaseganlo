@@ -10,7 +10,9 @@
       "de": "die Medizin, das Medikament",
       "en": "medicine",
       "sv": "medicin",
-      "nl": "medicijn"
+      "nl": "medicijn",
+      "it": "la medicina, il farmaco",
+      "es": "la medicina, el medicamento"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Spritze, Injektion",
       "en": "injection",
       "sv": "injektion",
-      "nl": "injectie"
+      "nl": "injectie",
+      "it": "l'iniezione, la puntura",
+      "es": "la inyección"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Verband",
       "en": "bandage",
       "sv": "bandage",
-      "nl": "verband"
+      "nl": "verband",
+      "it": "la fasciatura, la benda",
+      "es": "la venda"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Wunde",
       "en": "wound",
       "sv": "sår",
-      "nl": "wond"
+      "nl": "wond",
+      "it": "la ferita",
+      "es": "la herida"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Allergie",
       "en": "allergy",
       "sv": "allergi",
-      "nl": "allergie"
+      "nl": "allergie",
+      "it": "l'allergia",
+      "es": "la alergia"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Kopfschmerzen",
       "en": "headache",
       "sv": "huvudvärk",
-      "nl": "hoofdpijn"
+      "nl": "hoofdpijn",
+      "it": "il mal di testa",
+      "es": "el dolor de cabeza"
     },
     "hint": {},
     "alt": {},

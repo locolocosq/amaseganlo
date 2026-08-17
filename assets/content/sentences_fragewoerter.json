@@ -11,7 +11,9 @@
       "de": "Was ist das?",
       "en": "What is this?",
       "sv": "Vad är detta?",
-      "nl": "Wat is dit?"
+      "nl": "Wat is dit?",
+      "it": "Cos'è questo?",
+      "es": "¿Qué es esto?"
     },
     "alt": {},
     "chunks": [
@@ -34,7 +36,9 @@
       "de": "Wie heißt du?",
       "en": "What is your name?",
       "sv": "Vad heter du?",
-      "nl": "Wat is jouw naam?"
+      "nl": "Wat is jouw naam?",
+      "it": "Come ti chiami?",
+      "es": "¿Cómo te llamas?"
     },
     "alt": {},
     "chunks": [
@@ -57,7 +61,9 @@
       "de": "Wer ist er?",
       "en": "Who is he?",
       "sv": "Vem är han?",
-      "nl": "Wie is hij?"
+      "nl": "Wie is hij?",
+      "it": "Chi è lui?",
+      "es": "¿Quién es él?"
     },
     "alt": {},
     "chunks": [

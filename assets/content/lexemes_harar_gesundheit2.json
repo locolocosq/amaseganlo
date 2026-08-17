@@ -10,7 +10,9 @@
       "de": "die Diagnose, die Untersuchung",
       "en": "diagnosis, examination",
       "sv": "diagnos, undersökning",
-      "nl": "diagnose, onderzoek"
+      "nl": "diagnose, onderzoek",
+      "it": "la diagnosi, la visita",
+      "es": "el diagnóstico, el examen"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Behandlung, die Medizin",
       "en": "treatment, medicine",
       "sv": "behandling, medicin",
-      "nl": "behandeling, geneeskunde"
+      "nl": "behandeling, geneeskunde",
+      "it": "la cura, la medicina",
+      "es": "el tratamiento, la medicina"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Operation",
       "en": "surgery",
       "sv": "operation",
-      "nl": "operatie"
+      "nl": "operatie",
+      "it": "l'operazione",
+      "es": "la cirugía"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Symptom, das Zeichen",
       "en": "symptom, sign",
       "sv": "symtom, tecken",
-      "nl": "symptoom, teken"
+      "nl": "symptoom, teken",
+      "it": "il sintomo, il segno",
+      "es": "el síntoma, la señal"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "chronisch",
       "en": "chronic",
       "sv": "kronisk",
-      "nl": "chronisch"
+      "nl": "chronisch",
+      "it": "cronico",
+      "es": "crónico"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "behandeln (medizinisch)",
       "en": "to treat (medically)",
       "sv": "behandla (medicinskt)",
-      "nl": "behandelen (medisch)"
+      "nl": "behandelen (medisch)",
+      "it": "curare (dal punto di vista medico)",
+      "es": "tratar (médicamente)"
     },
     "hint": {},
     "alt": {},

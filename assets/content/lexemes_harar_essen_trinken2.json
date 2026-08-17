@@ -1,22 +1,402 @@
 [
-  {"id":"lex_het2_injera","am":"እንጀራ","tr":"injera","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Injera (Sauerteigbrot)","en":"injera (sourdough flatbread)","sv":"injera (surdegsbröd)","nl":"injera (zuurdesembrood)"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_wet","am":"ወጥ","tr":"wet","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"der Eintopf, Curry","en":"stew, curry","sv":"gryta","nl":"stoofpot"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_dorowet","am":"ዶሮ ወጥ","tr":"doro wet","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Hühnercurry","en":"chicken stew","sv":"kycklinggryta","nl":"kippenstoofpot"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_berbere","am":"በርበሬ","tr":"berbere","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"die Gewürzmischung (scharf)","en":"spice blend (hot)","sv":"kryddblandning (het)","nl":"kruidenmix (heet)"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_shiro","am":"ሽሮ","tr":"shiro","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Kichererbsenpüree","en":"chickpea/legume stew","sv":"kikärtsgryta","nl":"kikkererwtenstoofpot"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_tibs","am":"ጥብስ","tr":"t'ibis","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das gebratene Fleisch","en":"fried/sautéed meat","sv":"stekt kött","nl":"gebakken vlees"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_tej","am":"ጠጅ","tr":"t'ej","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"der Honigwein","en":"honey wine (tej)","sv":"honungsvin","nl":"honingwijn"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_tela","am":"ጠላ","tr":"t'ela","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das traditionelle Bier","en":"traditional beer (tella)","sv":"traditionell öl","nl":"traditioneel bier"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_dabo","am":"ዳቦ","tr":"dabo","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Brot","en":"bread","sv":"bröd","nl":"brood"},"hint":{},"alt":{},"emoji":"🍞","verified":true},
-  {"id":"lex_het2_kitfo","am":"ክትፎ","tr":"kitifo","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"Kitfo (gehacktes rohes Rindfleisch)","en":"kitfo (minced raw beef)","sv":"kitfo (hackad rå nötkött)","nl":"kitfo (gehakt rauw rundvlees)"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_ayib","am":"አይብ","tr":"ayib","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"der frische Käse","en":"fresh cottage cheese","sv":"färsk keso","nl":"verse kwark"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_shinkurit","am":"ሽንኩርት","tr":"shinikurit","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"die Zwiebel","en":"onion","sv":"lök","nl":"ui"},"hint":{},"alt":{},"emoji":"🧅","verified":true},
-  {"id":"lex_het2_kibe","am":"ቅቤ","tr":"kibe","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"die gewürzte Butter","en":"spiced clarified butter","sv":"kryddat smör","nl":"gekruide boter"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_mitmita","am":"ሚጥሚጣ","tr":"mitimita","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"die scharfe Chili-Würzmischung","en":"hot chili spice blend","sv":"stark chilikryddmix","nl":"hete chilikruidenmix"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_v_metamet","am":"መቅመስ","tr":"mek'imes","pos":"verb","topic":"food_drink_2","level":"B2","t":{"de":"kosten, probieren","en":"to taste","sv":"smaka","nl":"proeven"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_kurs","am":"ቁርስ","tr":"k'urs","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Frühstück","en":"breakfast","sv":"frukost","nl":"ontbijt"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_misa","am":"ምሳ","tr":"misa","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Mittagessen","en":"lunch","sv":"lunch","nl":"lunch"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_erat","am":"እራት","tr":"irat","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Abendessen","en":"dinner","sv":"middag","nl":"avondmaal"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_gursha","am":"ጉርሻ","tr":"gurisha","pos":"noun","topic":"food_drink_2","level":"B2","t":{"de":"das Füttern von Hand (Zeichen der Zuneigung)","en":"hand-feeding gesture (of affection)","sv":"handmatning (tillgivenhet)","nl":"handvoeding (genegenheid)"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_het2_v_meblat","am":"መብላት","tr":"mebilat","pos":"verb","topic":"food_drink_2","level":"B2","t":{"de":"essen","en":"to eat","sv":"äta","nl":"eten"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_het2_injera",
+    "am": "እንጀራ",
+    "tr": "injera",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Injera (Sauerteigbrot)",
+      "en": "injera (sourdough flatbread)",
+      "sv": "injera (surdegsbröd)",
+      "nl": "injera (zuurdesembrood)",
+      "it": "l'injera (pane lievitato acido)",
+      "es": "el injera (pan plano fermentado)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_wet",
+    "am": "ወጥ",
+    "tr": "wet",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "der Eintopf, Curry",
+      "en": "stew, curry",
+      "sv": "gryta",
+      "nl": "stoofpot",
+      "it": "lo stufato, il curry",
+      "es": "el guiso, el curry"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_dorowet",
+    "am": "ዶሮ ወጥ",
+    "tr": "doro wet",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Hühnercurry",
+      "en": "chicken stew",
+      "sv": "kycklinggryta",
+      "nl": "kippenstoofpot",
+      "it": "il curry di pollo",
+      "es": "el guiso de pollo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_berbere",
+    "am": "በርበሬ",
+    "tr": "berbere",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "die Gewürzmischung (scharf)",
+      "en": "spice blend (hot)",
+      "sv": "kryddblandning (het)",
+      "nl": "kruidenmix (heet)",
+      "it": "il berbere (miscela di spezie piccante)",
+      "es": "el berbere (mezcla de especias picante)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_shiro",
+    "am": "ሽሮ",
+    "tr": "shiro",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Kichererbsenpüree",
+      "en": "chickpea/legume stew",
+      "sv": "kikärtsgryta",
+      "nl": "kikkererwtenstoofpot",
+      "it": "lo shiro (purè di ceci)",
+      "es": "el shiro (puré de garbanzos)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_tibs",
+    "am": "ጥብስ",
+    "tr": "t'ibis",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das gebratene Fleisch",
+      "en": "fried/sautéed meat",
+      "sv": "stekt kött",
+      "nl": "gebakken vlees",
+      "it": "la carne saltata in padella",
+      "es": "la carne salteada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_tej",
+    "am": "ጠጅ",
+    "tr": "t'ej",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "der Honigwein",
+      "en": "honey wine (tej)",
+      "sv": "honungsvin",
+      "nl": "honingwijn",
+      "it": "il tej (vino al miele)",
+      "es": "el tej (vino de miel)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_tela",
+    "am": "ጠላ",
+    "tr": "t'ela",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das traditionelle Bier",
+      "en": "traditional beer (tella)",
+      "sv": "traditionell öl",
+      "nl": "traditioneel bier",
+      "it": "la tella (birra tradizionale)",
+      "es": "la tella (cerveza tradicional)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_dabo",
+    "am": "ዳቦ",
+    "tr": "dabo",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Brot",
+      "en": "bread",
+      "sv": "bröd",
+      "nl": "brood",
+      "it": "il pane",
+      "es": "el pan"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍞",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_kitfo",
+    "am": "ክትፎ",
+    "tr": "kitifo",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "Kitfo (gehacktes rohes Rindfleisch)",
+      "en": "kitfo (minced raw beef)",
+      "sv": "kitfo (hackad rå nötkött)",
+      "nl": "kitfo (gehakt rauw rundvlees)",
+      "it": "il kitfo (carne di manzo cruda tritata)",
+      "es": "el kitfo (carne de res cruda picada)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_ayib",
+    "am": "አይብ",
+    "tr": "ayib",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "der frische Käse",
+      "en": "fresh cottage cheese",
+      "sv": "färsk keso",
+      "nl": "verse kwark",
+      "it": "il formaggio fresco",
+      "es": "el queso fresco"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_shinkurit",
+    "am": "ሽንኩርት",
+    "tr": "shinikurit",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "die Zwiebel",
+      "en": "onion",
+      "sv": "lök",
+      "nl": "ui",
+      "it": "la cipolla",
+      "es": "la cebolla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧅",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_kibe",
+    "am": "ቅቤ",
+    "tr": "kibe",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "die gewürzte Butter",
+      "en": "spiced clarified butter",
+      "sv": "kryddat smör",
+      "nl": "gekruide boter",
+      "it": "il burro chiarificato speziato",
+      "es": "la mantequilla clarificada especiada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_mitmita",
+    "am": "ሚጥሚጣ",
+    "tr": "mitimita",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "die scharfe Chili-Würzmischung",
+      "en": "hot chili spice blend",
+      "sv": "stark chilikryddmix",
+      "nl": "hete chilikruidenmix",
+      "it": "la mitmita (miscela di peperoncino piccante)",
+      "es": "la mitmita (mezcla picante de chile)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_v_metamet",
+    "am": "መቅመስ",
+    "tr": "mek'imes",
+    "pos": "verb",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "kosten, probieren",
+      "en": "to taste",
+      "sv": "smaka",
+      "nl": "proeven",
+      "it": "assaggiare",
+      "es": "probar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_kurs",
+    "am": "ቁርስ",
+    "tr": "k'urs",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Frühstück",
+      "en": "breakfast",
+      "sv": "frukost",
+      "nl": "ontbijt",
+      "it": "la colazione",
+      "es": "el desayuno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_misa",
+    "am": "ምሳ",
+    "tr": "misa",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Mittagessen",
+      "en": "lunch",
+      "sv": "lunch",
+      "nl": "lunch",
+      "it": "il pranzo",
+      "es": "el almuerzo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_erat",
+    "am": "እራት",
+    "tr": "irat",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Abendessen",
+      "en": "dinner",
+      "sv": "middag",
+      "nl": "avondmaal",
+      "it": "la cena",
+      "es": "la cena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_gursha",
+    "am": "ጉርሻ",
+    "tr": "gurisha",
+    "pos": "noun",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "das Füttern von Hand (Zeichen der Zuneigung)",
+      "en": "hand-feeding gesture (of affection)",
+      "sv": "handmatning (tillgivenhet)",
+      "nl": "handvoeding (genegenheid)",
+      "it": "il gesto di imboccare con la mano (segno d'affetto)",
+      "es": "el gesto de dar de comer con la mano (señal de cariño)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_het2_v_meblat",
+    "am": "መብላት",
+    "tr": "mebilat",
+    "pos": "verb",
+    "topic": "food_drink_2",
+    "level": "B2",
+    "t": {
+      "de": "essen",
+      "en": "to eat",
+      "sv": "äta",
+      "nl": "eten",
+      "it": "mangiare",
+      "es": "comer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

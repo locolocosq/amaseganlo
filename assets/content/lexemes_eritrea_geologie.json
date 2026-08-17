@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_dhab","am":"ነሓሲ","tr":"nehasi","pos":"noun","topic":"geology","level":"TI","t":{"de":"das Kupfer","en":"copper","sv":"koppar","nl":"koper"},"emoji":"","verified":false},
-  {"id":"lex_ti_frzi","am":"ማዕድን","tr":"ma'edin","pos":"noun","topic":"geology","level":"TI","t":{"de":"das Mineral, Erz","en":"mineral, ore","sv":"mineral, malm","nl":"mineraal, erts"},"emoji":"","verified":false},
-  {"id":"lex_ti_hydn","am":"ደረት ማይ","tr":"deret mai","pos":"noun","topic":"geology","level":"TI","t":{"de":"das Grundwasser","en":"groundwater","sv":"grundvatten","nl":"grondwater"},"emoji":"","verified":false},
-  {"id":"lex_ti_hwda","am":"እምባ","tr":"imba","pos":"noun","topic":"geology","level":"TI","t":{"de":"das Hochplateau","en":"plateau, highland","sv":"platå, högland","nl":"plateau, hoogland"},"emoji":"","verified":false},
-  {"id":"lex_ti_bereka3","am":"ቆላ","tr":"qola","pos":"noun","topic":"geology","level":"TI","t":{"de":"das Tiefland","en":"lowland","sv":"lågland","nl":"laagland"},"emoji":"","verified":false},
-  {"id":"lex_ti_dngya","am":"እምኒ","tr":"imni","pos":"noun","topic":"geology","level":"TI","t":{"de":"der Felsen","en":"rock","sv":"klippa","nl":"rots"},"emoji":"🪨","verified":false},
-  {"id":"lex_ti_hmed","am":"ሓመድ","tr":"hamed","pos":"noun","topic":"geology","level":"TI","t":{"de":"der Lehm, die Erde (Bodenart)","en":"clay, soil","sv":"lera, jord","nl":"klei, aarde"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_dhab",
+    "am": "ነሓሲ",
+    "tr": "nehasi",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "das Kupfer",
+      "en": "copper",
+      "sv": "koppar",
+      "nl": "koper",
+      "it": "il rame",
+      "es": "el cobre"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frzi",
+    "am": "ማዕድን",
+    "tr": "ma'edin",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "das Mineral, Erz",
+      "en": "mineral, ore",
+      "sv": "mineral, malm",
+      "nl": "mineraal, erts",
+      "it": "il minerale",
+      "es": "el mineral"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hydn",
+    "am": "ደረት ማይ",
+    "tr": "deret mai",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "das Grundwasser",
+      "en": "groundwater",
+      "sv": "grundvatten",
+      "nl": "grondwater",
+      "it": "l'acqua di falda",
+      "es": "el agua subterránea"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwda",
+    "am": "እምባ",
+    "tr": "imba",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "das Hochplateau",
+      "en": "plateau, highland",
+      "sv": "platå, högland",
+      "nl": "plateau, hoogland",
+      "it": "l'altopiano",
+      "es": "la meseta, el altiplano"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bereka3",
+    "am": "ቆላ",
+    "tr": "qola",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "das Tiefland",
+      "en": "lowland",
+      "sv": "lågland",
+      "nl": "laagland",
+      "it": "la pianura, le terre basse",
+      "es": "las tierras bajas"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dngya",
+    "am": "እምኒ",
+    "tr": "imni",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "der Felsen",
+      "en": "rock",
+      "sv": "klippa",
+      "nl": "rots",
+      "it": "la roccia",
+      "es": "la roca"
+    },
+    "emoji": "🪨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hmed",
+    "am": "ሓመድ",
+    "tr": "hamed",
+    "pos": "noun",
+    "topic": "geology",
+    "level": "TI",
+    "t": {
+      "de": "der Lehm, die Erde (Bodenart)",
+      "en": "clay, soil",
+      "sv": "lera, jord",
+      "nl": "klei, aarde",
+      "it": "l'argilla, la terra (tipo di suolo)",
+      "es": "la arcilla, la tierra"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

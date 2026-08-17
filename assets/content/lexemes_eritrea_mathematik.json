@@ -1,10 +1,146 @@
 [
-  {"id":"lex_ti_dmts3","am":"ድምር","tr":"dimir","pos":"noun","topic":"math","level":"TI","t":{"de":"die Summe","en":"sum","sv":"summa","nl":"som"},"emoji":"","verified":false},
-  {"id":"lex_ti_kfli3","am":"ኣብዙሕ","tr":"abzuh","pos":"verb","topic":"math","level":"TI","t":{"de":"multiplizieren","en":"to multiply","sv":"multiplicera","nl":"vermenigvuldigen"},"emoji":"","verified":false},
-  {"id":"lex_ti_kflig","am":"ኣካፍል","tr":"akafil","pos":"verb","topic":"math","level":"TI","t":{"de":"dividieren, teilen","en":"to divide","sv":"dividera","nl":"delen"},"emoji":"","verified":false},
-  {"id":"lex_ti_msuai","am":"ማዕረ","tr":"ma'ere (=)","pos":"noun","topic":"math","level":"TI","t":{"de":"das Gleichheitszeichen, gleich","en":"equals","sv":"lika med","nl":"gelijk aan"},"emoji":"=","verified":false},
-  {"id":"lex_ti_ubti","am":"ልዕሊ","tr":"li'eli (>)","pos":"preposition","topic":"math","level":"TI","t":{"de":"größer als","en":"greater than","sv":"större än","nl":"groter dan"},"emoji":"","verified":false},
-  {"id":"lex_ti_tzus","am":"ትሕቲ","tr":"tihti (<)","pos":"preposition","topic":"math","level":"TI","t":{"de":"kleiner als","en":"less than","sv":"mindre än","nl":"kleiner dan"},"emoji":"","verified":false},
-  {"id":"lex_ti_zbti4","am":"ልዑል ቁጽሪ","tr":"li'ul qutsri","pos":"noun","topic":"math","level":"TI","t":{"de":"die gerade Zahl","en":"even number","sv":"jämnt tal","nl":"even getal"},"emoji":"","verified":false},
-  {"id":"lex_ti_ntsu4","am":"ዘይሙሉእ ቁጽሪ","tr":"zeymulu'e qutsri","pos":"noun","topic":"math","level":"TI","t":{"de":"die ungerade Zahl","en":"odd number","sv":"udda tal","nl":"oneven getal"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_dmts3",
+    "am": "ድምር",
+    "tr": "dimir",
+    "pos": "noun",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "die Summe",
+      "en": "sum",
+      "sv": "summa",
+      "nl": "som",
+      "it": "la somma",
+      "es": "la suma"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kfli3",
+    "am": "ኣብዙሕ",
+    "tr": "abzuh",
+    "pos": "verb",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "multiplizieren",
+      "en": "to multiply",
+      "sv": "multiplicera",
+      "nl": "vermenigvuldigen",
+      "it": "moltiplicare",
+      "es": "multiplicar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kflig",
+    "am": "ኣካፍል",
+    "tr": "akafil",
+    "pos": "verb",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "dividieren, teilen",
+      "en": "to divide",
+      "sv": "dividera",
+      "nl": "delen",
+      "it": "dividere",
+      "es": "dividir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msuai",
+    "am": "ማዕረ",
+    "tr": "ma'ere (=)",
+    "pos": "noun",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "das Gleichheitszeichen, gleich",
+      "en": "equals",
+      "sv": "lika med",
+      "nl": "gelijk aan",
+      "it": "il segno di uguale, uguale",
+      "es": "el signo igual, igual"
+    },
+    "emoji": "=",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ubti",
+    "am": "ልዕሊ",
+    "tr": "li'eli (>)",
+    "pos": "preposition",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "größer als",
+      "en": "greater than",
+      "sv": "större än",
+      "nl": "groter dan",
+      "it": "maggiore di",
+      "es": "mayor que"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tzus",
+    "am": "ትሕቲ",
+    "tr": "tihti (<)",
+    "pos": "preposition",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "kleiner als",
+      "en": "less than",
+      "sv": "mindre än",
+      "nl": "kleiner dan",
+      "it": "minore di",
+      "es": "menor que"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbti4",
+    "am": "ልዑል ቁጽሪ",
+    "tr": "li'ul qutsri",
+    "pos": "noun",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "die gerade Zahl",
+      "en": "even number",
+      "sv": "jämnt tal",
+      "nl": "even getal",
+      "it": "il numero pari",
+      "es": "el número par"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntsu4",
+    "am": "ዘይሙሉእ ቁጽሪ",
+    "tr": "zeymulu'e qutsri",
+    "pos": "noun",
+    "topic": "math",
+    "level": "TI",
+    "t": {
+      "de": "die ungerade Zahl",
+      "en": "odd number",
+      "sv": "udda tal",
+      "nl": "oneven getal",
+      "it": "il numero dispari",
+      "es": "el número impar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

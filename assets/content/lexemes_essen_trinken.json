@@ -10,7 +10,9 @@
       "de": "das Wasser",
       "en": "water",
       "sv": "vatten",
-      "nl": "water"
+      "nl": "water",
+      "it": "l'acqua",
+      "es": "el agua"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Brot",
       "en": "bread",
       "sv": "bröd",
-      "nl": "brood"
+      "nl": "brood",
+      "it": "il pane",
+      "es": "el pan"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Kaffee",
       "en": "coffee",
       "sv": "kaffe",
-      "nl": "koffie"
+      "nl": "koffie",
+      "it": "il caffè",
+      "es": "el café"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Milch",
       "en": "milk",
       "sv": "mjölk",
-      "nl": "melk"
+      "nl": "melk",
+      "it": "il latte",
+      "es": "la leche"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Fleisch",
       "en": "meat",
       "sv": "kött",
-      "nl": "vlees"
+      "nl": "vlees",
+      "it": "la carne",
+      "es": "la carne"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Gemüse",
       "en": "vegetable",
       "sv": "grönsak",
-      "nl": "groente"
+      "nl": "groente",
+      "it": "la verdura",
+      "es": "la verdura"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Injera",
       "en": "injera (Ethiopian flatbread)",
       "sv": "injera",
-      "nl": "injera"
+      "nl": "injera",
+      "it": "l'injera (pane etiope)",
+      "es": "la injera (pan etíope)"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Ei",
       "en": "egg",
       "sv": "ägg",
-      "nl": "ei"
+      "nl": "ei",
+      "it": "l'uovo",
+      "es": "el huevo"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Zucker",
       "en": "sugar",
       "sv": "socker",
-      "nl": "suiker"
+      "nl": "suiker",
+      "it": "lo zucchero",
+      "es": "el azúcar"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Salz",
       "en": "salt",
       "sv": "salt",
-      "nl": "zout"
+      "nl": "zout",
+      "it": "il sale",
+      "es": "la sal"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "das Obst, die Früchte",
       "en": "fruit",
       "sv": "frukt",
-      "nl": "fruit"
+      "nl": "fruit",
+      "it": "la frutta",
+      "es": "la fruta"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "der Tee",
       "en": "tea",
       "sv": "te",
-      "nl": "thee"
+      "nl": "thee",
+      "it": "il tè",
+      "es": "el té"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "das Huhn",
       "en": "chicken",
       "sv": "kyckling",
-      "nl": "kip"
+      "nl": "kip",
+      "it": "il pollo",
+      "es": "el pollo"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "der Reis",
       "en": "rice",
       "sv": "ris",
-      "nl": "rijst"
+      "nl": "rijst",
+      "it": "il riso",
+      "es": "el arroz"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "die Banane",
       "en": "banana",
       "sv": "banan",
-      "nl": "banaan"
+      "nl": "banaan",
+      "it": "la banana",
+      "es": "el plátano"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "der Apfel",
       "en": "apple",
       "sv": "äpple",
-      "nl": "appel"
+      "nl": "appel",
+      "it": "la mela",
+      "es": "la manzana"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "die Orange",
       "en": "orange",
       "sv": "apelsin",
-      "nl": "sinaasappel"
+      "nl": "sinaasappel",
+      "it": "l'arancia",
+      "es": "la naranja"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "das Berbere-Gewürz",
       "en": "berbere spice",
       "sv": "berberekrydda",
-      "nl": "berberekruid"
+      "nl": "berberekruid",
+      "it": "la spezia berbere",
+      "es": "la especia berbere"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "der Teff",
       "en": "teff grain",
       "sv": "teff",
-      "nl": "teff"
+      "nl": "teff",
+      "it": "il teff",
+      "es": "el teff"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "der Honig",
       "en": "honey",
       "sv": "honung",
-      "nl": "honing"
+      "nl": "honing",
+      "it": "il miele",
+      "es": "la miel"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "essen",
       "en": "to eat",
       "sv": "äta",
-      "nl": "eten"
+      "nl": "eten",
+      "it": "mangiare",
+      "es": "comer"
     },
     "hint": {},
     "alt": {},
@@ -388,7 +430,9 @@
       "de": "trinken",
       "en": "to drink",
       "sv": "dricka",
-      "nl": "drinken"
+      "nl": "drinken",
+      "it": "bere",
+      "es": "beber"
     },
     "hint": {},
     "alt": {},
@@ -406,7 +450,9 @@
       "de": "Ich bin hungrig",
       "en": "I am hungry",
       "sv": "Jag är hungrig",
-      "nl": "Ik heb honger"
+      "nl": "Ik heb honger",
+      "it": "Ho fame",
+      "es": "Tengo hambre"
     },
     "hint": {},
     "alt": {},
@@ -424,7 +470,9 @@
       "de": "Ich bin durstig",
       "en": "I am thirsty",
       "sv": "Jag är törstig",
-      "nl": "Ik heb dorst"
+      "nl": "Ik heb dorst",
+      "it": "Ho sete",
+      "es": "Tengo sed"
     },
     "hint": {},
     "alt": {},

@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_stx_incm","am":"ግብሪ እቶት","tr":"gibri itot","pos":"noun","topic":"taxes","level":"TI","t":{"de":"die Einkommensteuer","en":"income tax","sv":"inkomstskatt","nl":"inkomstenbelasting"},"emoji":"","verified":false},
-  {"id":"lex_ti_stx_vat","am":"ግብሪ ሽያጥ","tr":"gibri shiyat","pos":"noun","topic":"taxes","level":"TI","t":{"de":"die Mehrwertsteuer","en":"value-added tax","sv":"moms","nl":"btw"},"emoji":"","verified":false},
-  {"id":"lex_ti_stx_offc","am":"ቤት ጽሕፈት ግብሪ","tr":"bet tsihfet gibri","pos":"noun","topic":"taxes","level":"TI","t":{"de":"das Finanzamt","en":"tax office","sv":"skattekontor","nl":"belastingdienst"},"emoji":"","verified":false},
-  {"id":"lex_ti_stx_decl","am":"ኣፍለጠ ግብሪ","tr":"afilete gibri","pos":"verb","topic":"taxes","level":"TI","t":{"de":"Steuern erklären","en":"to declare taxes","sv":"deklarera skatt","nl":"belasting aangeven"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_stx_incm",
+    "am": "ግብሪ እቶት",
+    "tr": "gibri itot",
+    "pos": "noun",
+    "topic": "taxes",
+    "level": "TI",
+    "t": {
+      "de": "die Einkommensteuer",
+      "en": "income tax",
+      "sv": "inkomstskatt",
+      "nl": "inkomstenbelasting",
+      "it": "l'imposta sul reddito",
+      "es": "el impuesto sobre la renta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_stx_vat",
+    "am": "ግብሪ ሽያጥ",
+    "tr": "gibri shiyat",
+    "pos": "noun",
+    "topic": "taxes",
+    "level": "TI",
+    "t": {
+      "de": "die Mehrwertsteuer",
+      "en": "value-added tax",
+      "sv": "moms",
+      "nl": "btw",
+      "it": "l'IVA",
+      "es": "el IVA"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_stx_offc",
+    "am": "ቤት ጽሕፈት ግብሪ",
+    "tr": "bet tsihfet gibri",
+    "pos": "noun",
+    "topic": "taxes",
+    "level": "TI",
+    "t": {
+      "de": "das Finanzamt",
+      "en": "tax office",
+      "sv": "skattekontor",
+      "nl": "belastingdienst",
+      "it": "l'agenzia delle entrate",
+      "es": "la oficina de impuestos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_stx_decl",
+    "am": "ኣፍለጠ ግብሪ",
+    "tr": "afilete gibri",
+    "pos": "verb",
+    "topic": "taxes",
+    "level": "TI",
+    "t": {
+      "de": "Steuern erklären",
+      "en": "to declare taxes",
+      "sv": "deklarera skatt",
+      "nl": "belasting aangeven",
+      "it": "dichiarare le tasse",
+      "es": "declarar impuestos"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

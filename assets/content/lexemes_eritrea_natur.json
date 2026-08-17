@@ -1,29 +1,488 @@
 [
-  {"id":"lex_ti_tselam","am":"ጸሓይ","tr":"tsehay","pos":"noun","topic":"nature","level":"TI","t":{"de":"die Sonne","en":"sun","sv":"sol","nl":"zon"},"emoji":"☀️","verified":false},
-  {"id":"lex_ti_wersiha","am":"ወርሒ","tr":"werhi","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Mond","en":"moon","sv":"måne","nl":"maan"},"emoji":"🌙","verified":false},
-  {"id":"lex_ti_kokebti","am":"ኮኸብ","tr":"kokeb","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Stern","en":"star","sv":"stjärna","nl":"ster"},"emoji":"⭐","verified":false},
-  {"id":"lex_ti_semay","am":"ሰማይ","tr":"semay","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Himmel","en":"sky","sv":"himmel","nl":"lucht"},"emoji":"🌤️","verified":false},
-  {"id":"lex_ti_dammena","am":"ደበና","tr":"debena","pos":"noun","topic":"nature","level":"TI","t":{"de":"die Wolke","en":"cloud","sv":"moln","nl":"wolk"},"emoji":"☁️","verified":false},
-  {"id":"lex_ti_zenab2","am":"ዝናብ","tr":"zinab","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Regen","en":"rain","sv":"regn","nl":"regen"},"emoji":"🌧️","verified":false},
-  {"id":"lex_ti_nifas","am":"ንፋስ","tr":"nifas","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Wind","en":"wind","sv":"vind","nl":"wind"},"emoji":"💨","verified":false},
-  {"id":"lex_ti_barad","am":"በረድ","tr":"bered","pos":"noun","topic":"nature","level":"TI","t":{"de":"das Eis, der Schnee","en":"ice, snow","sv":"is, snö","nl":"ijs, sneeuw"},"emoji":"❄️","verified":false},
-  {"id":"lex_ti_kem","am":"ጎቦ","tr":"gobo","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Berg","en":"mountain","sv":"berg","nl":"berg"},"emoji":"⛰️","verified":false},
-  {"id":"lex_ti_dorho2","am":"ጎላጉል","tr":"golagul","pos":"noun","topic":"nature","level":"TI","t":{"de":"das Tal","en":"valley","sv":"dal","nl":"vallei"},"emoji":"","verified":false},
-  {"id":"lex_ti_baHri","am":"ባሕሪ","tr":"bahri","pos":"noun","topic":"nature","level":"TI","t":{"de":"das Meer","en":"sea","sv":"hav","nl":"zee"},"emoji":"🌊","verified":false},
-  {"id":"lex_ti_wenz","am":"ፈለግ","tr":"feleg","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Fluss","en":"river","sv":"flod","nl":"rivier"},"emoji":"🏞️","verified":false},
-  {"id":"lex_ti_haik","am":"ቀላይ","tr":"qelay","pos":"noun","topic":"nature","level":"TI","t":{"de":"der See","en":"lake","sv":"sjö","nl":"meer"},"emoji":"","verified":false},
-  {"id":"lex_ti_dej","am":"ጫካ","tr":"chaka","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Wald","en":"forest","sv":"skog","nl":"bos"},"emoji":"🌲","verified":false},
-  {"id":"lex_ti_bereka2","am":"በረኻ","tr":"bereka","pos":"noun","topic":"nature","level":"TI","t":{"de":"die Wüste","en":"desert","sv":"öken","nl":"woestijn"},"emoji":"🏜️","verified":false},
-  {"id":"lex_ti_meret","am":"መሬት","tr":"meret","pos":"noun","topic":"nature","level":"TI","t":{"de":"die Erde, der Boden","en":"earth, ground","sv":"jord, mark","nl":"aarde, grond"},"emoji":"🌍","verified":false},
-  {"id":"lex_ti_dinsi","am":"ኣእማን","tr":"a'eman","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Stein","en":"stone","sv":"sten","nl":"steen"},"emoji":"🪨","verified":false},
-  {"id":"lex_ti_hutsi","am":"ሑጻ","tr":"hutsa","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Sand","en":"sand","sv":"sand","nl":"zand"},"emoji":"","verified":false},
-  {"id":"lex_ti_ayer","am":"ኣየር","tr":"ayer","pos":"noun","topic":"nature","level":"TI","t":{"de":"die Luft","en":"air","sv":"luft","nl":"lucht"},"emoji":"","verified":false},
-  {"id":"lex_ti_essat","am":"ሓዊ","tr":"hawi","pos":"noun","topic":"nature","level":"TI","t":{"de":"das Feuer","en":"fire","sv":"eld","nl":"vuur"},"emoji":"🔥","verified":false},
-  {"id":"lex_ti_fikara","am":"ቀስተ ደመና","tr":"qeste demena","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Regenbogen","en":"rainbow","sv":"regnbåge","nl":"regenboog"},"emoji":"🌈","verified":false},
-  {"id":"lex_ti_bruk","am":"መብረቕ","tr":"mebreq","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Blitz","en":"lightning","sv":"blixt","nl":"bliksem"},"emoji":"⚡","verified":false},
-  {"id":"lex_ti_kalti","am":"ነጐድጓድ","tr":"negodgwad","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Donner","en":"thunder","sv":"åska","nl":"donder"},"emoji":"","verified":false},
-  {"id":"lex_ti_hara","am":"ቆጽሊ","tr":"qotsli","pos":"noun","topic":"nature","level":"TI","t":{"de":"das Blatt","en":"leaf","sv":"löv","nl":"blad"},"emoji":"🍃","verified":false},
-  {"id":"lex_ti_gereb","am":"ገረብ","tr":"gereb","pos":"noun","topic":"nature","level":"TI","t":{"de":"der Baum","en":"tree","sv":"träd","nl":"boom"},"emoji":"🌳","verified":false},
-  {"id":"lex_ti_hasas","am":"ሳዕሪ","tr":"sa'eri","pos":"noun","topic":"nature","level":"TI","t":{"de":"das Gras","en":"grass","sv":"gräs","nl":"gras"},"emoji":"🌱","verified":false},
-  {"id":"lex_ti_abeba","am":"ዕንባባ","tr":"'inbaba","pos":"noun","topic":"nature","level":"TI","t":{"de":"die Blume","en":"flower","sv":"blomma","nl":"bloem"},"emoji":"🌸","verified":false}
+  {
+    "id": "lex_ti_tselam",
+    "am": "ጸሓይ",
+    "tr": "tsehay",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "die Sonne",
+      "en": "sun",
+      "sv": "sol",
+      "nl": "zon",
+      "it": "il sole",
+      "es": "el sol"
+    },
+    "emoji": "☀️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wersiha",
+    "am": "ወርሒ",
+    "tr": "werhi",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Mond",
+      "en": "moon",
+      "sv": "måne",
+      "nl": "maan",
+      "it": "la luna",
+      "es": "la luna"
+    },
+    "emoji": "🌙",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kokebti",
+    "am": "ኮኸብ",
+    "tr": "kokeb",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Stern",
+      "en": "star",
+      "sv": "stjärna",
+      "nl": "ster",
+      "it": "la stella",
+      "es": "la estrella"
+    },
+    "emoji": "⭐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_semay",
+    "am": "ሰማይ",
+    "tr": "semay",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Himmel",
+      "en": "sky",
+      "sv": "himmel",
+      "nl": "lucht",
+      "it": "il cielo",
+      "es": "el cielo"
+    },
+    "emoji": "🌤️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dammena",
+    "am": "ደበና",
+    "tr": "debena",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "die Wolke",
+      "en": "cloud",
+      "sv": "moln",
+      "nl": "wolk",
+      "it": "la nuvola",
+      "es": "la nube"
+    },
+    "emoji": "☁️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zenab2",
+    "am": "ዝናብ",
+    "tr": "zinab",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Regen",
+      "en": "rain",
+      "sv": "regn",
+      "nl": "regen",
+      "it": "la pioggia",
+      "es": "la lluvia"
+    },
+    "emoji": "🌧️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nifas",
+    "am": "ንፋስ",
+    "tr": "nifas",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Wind",
+      "en": "wind",
+      "sv": "vind",
+      "nl": "wind",
+      "it": "il vento",
+      "es": "el viento"
+    },
+    "emoji": "💨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_barad",
+    "am": "በረድ",
+    "tr": "bered",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "das Eis, der Schnee",
+      "en": "ice, snow",
+      "sv": "is, snö",
+      "nl": "ijs, sneeuw",
+      "it": "il ghiaccio, la neve",
+      "es": "el hielo, la nieve"
+    },
+    "emoji": "❄️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kem",
+    "am": "ጎቦ",
+    "tr": "gobo",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Berg",
+      "en": "mountain",
+      "sv": "berg",
+      "nl": "berg",
+      "it": "la montagna",
+      "es": "la montaña"
+    },
+    "emoji": "⛰️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dorho2",
+    "am": "ጎላጉል",
+    "tr": "golagul",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "das Tal",
+      "en": "valley",
+      "sv": "dal",
+      "nl": "vallei",
+      "it": "la valle",
+      "es": "el valle"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_baHri",
+    "am": "ባሕሪ",
+    "tr": "bahri",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "das Meer",
+      "en": "sea",
+      "sv": "hav",
+      "nl": "zee",
+      "it": "il mare",
+      "es": "el mar"
+    },
+    "emoji": "🌊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wenz",
+    "am": "ፈለግ",
+    "tr": "feleg",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Fluss",
+      "en": "river",
+      "sv": "flod",
+      "nl": "rivier",
+      "it": "il fiume",
+      "es": "el río"
+    },
+    "emoji": "🏞️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_haik",
+    "am": "ቀላይ",
+    "tr": "qelay",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der See",
+      "en": "lake",
+      "sv": "sjö",
+      "nl": "meer",
+      "it": "il lago",
+      "es": "el lago"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dej",
+    "am": "ጫካ",
+    "tr": "chaka",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Wald",
+      "en": "forest",
+      "sv": "skog",
+      "nl": "bos",
+      "it": "la foresta, il bosco",
+      "es": "el bosque"
+    },
+    "emoji": "🌲",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bereka2",
+    "am": "በረኻ",
+    "tr": "bereka",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "die Wüste",
+      "en": "desert",
+      "sv": "öken",
+      "nl": "woestijn",
+      "it": "il deserto",
+      "es": "el desierto"
+    },
+    "emoji": "🏜️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_meret",
+    "am": "መሬት",
+    "tr": "meret",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "die Erde, der Boden",
+      "en": "earth, ground",
+      "sv": "jord, mark",
+      "nl": "aarde, grond",
+      "it": "la terra, il suolo",
+      "es": "la tierra, el suelo"
+    },
+    "emoji": "🌍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dinsi",
+    "am": "ኣእማን",
+    "tr": "a'eman",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Stein",
+      "en": "stone",
+      "sv": "sten",
+      "nl": "steen",
+      "it": "la pietra",
+      "es": "la piedra"
+    },
+    "emoji": "🪨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hutsi",
+    "am": "ሑጻ",
+    "tr": "hutsa",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Sand",
+      "en": "sand",
+      "sv": "sand",
+      "nl": "zand",
+      "it": "la sabbia",
+      "es": "la arena"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ayer",
+    "am": "ኣየር",
+    "tr": "ayer",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "die Luft",
+      "en": "air",
+      "sv": "luft",
+      "nl": "lucht",
+      "it": "l'aria",
+      "es": "el aire"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_essat",
+    "am": "ሓዊ",
+    "tr": "hawi",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "das Feuer",
+      "en": "fire",
+      "sv": "eld",
+      "nl": "vuur",
+      "it": "il fuoco",
+      "es": "el fuego"
+    },
+    "emoji": "🔥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fikara",
+    "am": "ቀስተ ደመና",
+    "tr": "qeste demena",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Regenbogen",
+      "en": "rainbow",
+      "sv": "regnbåge",
+      "nl": "regenboog",
+      "it": "l'arcobaleno",
+      "es": "el arcoíris"
+    },
+    "emoji": "🌈",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bruk",
+    "am": "መብረቕ",
+    "tr": "mebreq",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Blitz",
+      "en": "lightning",
+      "sv": "blixt",
+      "nl": "bliksem",
+      "it": "il fulmine",
+      "es": "el relámpago"
+    },
+    "emoji": "⚡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kalti",
+    "am": "ነጐድጓድ",
+    "tr": "negodgwad",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Donner",
+      "en": "thunder",
+      "sv": "åska",
+      "nl": "donder",
+      "it": "il tuono",
+      "es": "el trueno"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hara",
+    "am": "ቆጽሊ",
+    "tr": "qotsli",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "das Blatt",
+      "en": "leaf",
+      "sv": "löv",
+      "nl": "blad",
+      "it": "la foglia",
+      "es": "la hoja"
+    },
+    "emoji": "🍃",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gereb",
+    "am": "ገረብ",
+    "tr": "gereb",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "der Baum",
+      "en": "tree",
+      "sv": "träd",
+      "nl": "boom",
+      "it": "l'albero",
+      "es": "el árbol"
+    },
+    "emoji": "🌳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hasas",
+    "am": "ሳዕሪ",
+    "tr": "sa'eri",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "das Gras",
+      "en": "grass",
+      "sv": "gräs",
+      "nl": "gras",
+      "it": "l'erba",
+      "es": "la hierba"
+    },
+    "emoji": "🌱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_abeba",
+    "am": "ዕንባባ",
+    "tr": "'inbaba",
+    "pos": "noun",
+    "topic": "nature",
+    "level": "TI",
+    "t": {
+      "de": "die Blume",
+      "en": "flower",
+      "sv": "blomma",
+      "nl": "bloem",
+      "it": "il fiore",
+      "es": "la flor"
+    },
+    "emoji": "🌸",
+    "verified": false
+  }
 ]

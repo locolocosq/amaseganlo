@@ -10,7 +10,9 @@
       "de": "die Umwelt, die Umgebung",
       "en": "environment, surroundings",
       "sv": "miljön, omgivningen",
-      "nl": "omgeving, milieu"
+      "nl": "omgeving, milieu",
+      "it": "l'ambiente, i dintorni",
+      "es": "el medio ambiente, los alrededores"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Klimawandel",
       "en": "climate change",
       "sv": "klimatförändringen",
-      "nl": "klimaatverandering"
+      "nl": "klimaatverandering",
+      "it": "il cambiamento climatico",
+      "es": "el cambio climático"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Verschmutzung",
       "en": "pollution",
       "sv": "föroreningen",
-      "nl": "vervuiling"
+      "nl": "vervuiling",
+      "it": "l'inquinamento",
+      "es": "la contaminación"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "schützen, verhindern",
       "en": "to protect, to prevent",
       "sv": "skydda, förhindra",
-      "nl": "beschermen, voorkomen"
+      "nl": "beschermen, voorkomen",
+      "it": "proteggere, prevenire",
+      "es": "proteger, prevenir"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die erneuerbare Energie",
       "en": "renewable energy",
       "sv": "förnybar energi",
-      "nl": "hernieuwbare energie"
+      "nl": "hernieuwbare energie",
+      "it": "l'energia rinnovabile",
+      "es": "la energía renovable"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "notwendig, wichtig",
       "en": "necessary, important",
       "sv": "nödvändig, viktig",
-      "nl": "noodzakelijk, belangrijk"
+      "nl": "noodzakelijk, belangrijk",
+      "it": "necessario, importante",
+      "es": "necesario, importante"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Region, das Bundesland",
       "en": "region, state (federal)",
       "sv": "region, delstat",
-      "nl": "regio, deelstaat"
+      "nl": "regio, deelstaat",
+      "it": "la regione, lo stato federale",
+      "es": "la región, el estado federal"
     },
     "hint": {},
     "alt": {},

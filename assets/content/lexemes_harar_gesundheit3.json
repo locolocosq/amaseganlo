@@ -1,22 +1,402 @@
 [
-  {"id":"lex_hg3_hospital","am":"ሆስፒታል","tr":"hospital","pos":"noun","topic":"health_3","level":"B2","t":{"de":"das Krankenhaus","en":"hospital","sv":"sjukhus","nl":"ziekenhuis"},"hint":{},"alt":{},"emoji":"🏥","verified":true},
-  {"id":"lex_hg3_doktor","am":"ዶክተር","tr":"dokiter","pos":"noun","topic":"health_3","level":"B2","t":{"de":"der Arzt","en":"doctor","sv":"läkare","nl":"dokter"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_neres","am":"ነርስ","tr":"neris","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Krankenschwester","en":"nurse","sv":"sjuksköterska","nl":"verpleegkundige"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_wetat","am":"ክኒን","tr":"kinin","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Tablette","en":"pill, tablet","sv":"tablett","nl":"pil"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_metrek","am":"መርፌ","tr":"merfe","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Spritze, Injektion","en":"injection, needle","sv":"injektion, nål","nl":"injectie, naald"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_v_meweged","am":"መወጋት","tr":"mewegat","pos":"verb","topic":"health_3","level":"B2","t":{"de":"impfen, spritzen","en":"to inject, to vaccinate","sv":"injicera, vaccinera","nl":"injecteren, vaccineren"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_akal7","am":"ትኩሳት","tr":"tikusat","pos":"noun","topic":"health_3","level":"B2","t":{"de":"das Fieber","en":"fever","sv":"feber","nl":"koorts"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_kurt","am":"ሳል","tr":"sal","pos":"noun","topic":"health_3","level":"B2","t":{"de":"der Husten","en":"cough","sv":"hosta","nl":"hoest"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_ashenafi","am":"ራስ ምታት","tr":"ras mitat","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Kopfschmerzen","en":"headache","sv":"huvudvärk","nl":"hoofdpijn"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_hakim2","am":"ስቅለት ኩላሊት","tr":"sik'ilet kulalit","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Nierenschmerzen","en":"kidney pain","sv":"njursmärta","nl":"nierpijn"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hg3_mekelakel3","am":"ክትባት","tr":"kitibat","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Impfung","en":"vaccination","sv":"vaccination","nl":"vaccinatie"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_v_metekakel7","am":"ማዋለድ","tr":"mawaled","pos":"verb","topic":"health_3","level":"B2","t":{"de":"entbinden, gebären helfen","en":"to deliver (a baby)","sv":"förlösa","nl":"bevallen (bijstaan)"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hg3_hakim_ye_it","am":"አዋላጅ","tr":"awalaj","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Hebamme","en":"midwife","sv":"barnmorska","nl":"verloskundige"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hg3_yehiwot","am":"ጭንቅላት","tr":"chinik'ilat","pos":"noun","topic":"health_3","level":"B2","t":{"de":"das Gehirn","en":"brain","sv":"hjärna","nl":"brein"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_libi2","am":"ልብ","tr":"lib","pos":"noun","topic":"health_3","level":"B2","t":{"de":"das Herz (Organ)","en":"heart (organ)","sv":"hjärta (organ)","nl":"hart (orgaan)"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_fital","am":"ሳምባ","tr":"samiba","pos":"noun","topic":"health_3","level":"B2","t":{"de":"die Lunge","en":"lung","sv":"lunga","nl":"long"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hg3_v_meazen","am":"ማዘን ምርመራ","tr":"mazen mirmera","pos":"verb","topic":"health_3","level":"B2","t":{"de":"diagnostizieren","en":"to diagnose","sv":"diagnostisera","nl":"diagnosticeren"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hg3_biret2","am":"የቀዶ ጥገና ክፍል","tr":"yek'edo t'igena kifil","pos":"noun","topic":"health_3","level":"B2","t":{"de":"der Operationssaal","en":"operating room","sv":"operationssal","nl":"operatiekamer"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hg3_amibulans","am":"አምቡላንስ","tr":"ambulanis","pos":"noun","topic":"health_3","level":"B2","t":{"de":"der Krankenwagen","en":"ambulance","sv":"ambulans","nl":"ambulance"},"hint":{},"alt":{},"emoji":"🚑","verified":true},
-  {"id":"lex_hg3_v_meshefa2","am":"ማገገም","tr":"magegem","pos":"verb","topic":"health_3","level":"B2","t":{"de":"sich erholen, genesen","en":"to recover","sv":"återhämta sig","nl":"herstellen"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hg3_hospital",
+    "am": "ሆስፒታል",
+    "tr": "hospital",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "das Krankenhaus",
+      "en": "hospital",
+      "sv": "sjukhus",
+      "nl": "ziekenhuis",
+      "it": "l'ospedale",
+      "es": "el hospital"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏥",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_doktor",
+    "am": "ዶክተር",
+    "tr": "dokiter",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "der Arzt",
+      "en": "doctor",
+      "sv": "läkare",
+      "nl": "dokter",
+      "it": "il medico",
+      "es": "el médico"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_neres",
+    "am": "ነርስ",
+    "tr": "neris",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Krankenschwester",
+      "en": "nurse",
+      "sv": "sjuksköterska",
+      "nl": "verpleegkundige",
+      "it": "l'infermiere, l'infermiera",
+      "es": "el enfermero, la enfermera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_wetat",
+    "am": "ክኒን",
+    "tr": "kinin",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Tablette",
+      "en": "pill, tablet",
+      "sv": "tablett",
+      "nl": "pil",
+      "it": "la pastiglia, la compressa",
+      "es": "la pastilla, la tableta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_metrek",
+    "am": "መርፌ",
+    "tr": "merfe",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Spritze, Injektion",
+      "en": "injection, needle",
+      "sv": "injektion, nål",
+      "nl": "injectie, naald",
+      "it": "l'iniezione, l'ago",
+      "es": "la inyección, la aguja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_v_meweged",
+    "am": "መወጋት",
+    "tr": "mewegat",
+    "pos": "verb",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "impfen, spritzen",
+      "en": "to inject, to vaccinate",
+      "sv": "injicera, vaccinera",
+      "nl": "injecteren, vaccineren",
+      "it": "iniettare, vaccinare",
+      "es": "inyectar, vacunar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_akal7",
+    "am": "ትኩሳት",
+    "tr": "tikusat",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "das Fieber",
+      "en": "fever",
+      "sv": "feber",
+      "nl": "koorts",
+      "it": "la febbre",
+      "es": "la fiebre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_kurt",
+    "am": "ሳል",
+    "tr": "sal",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "der Husten",
+      "en": "cough",
+      "sv": "hosta",
+      "nl": "hoest",
+      "it": "la tosse",
+      "es": "la tos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_ashenafi",
+    "am": "ራስ ምታት",
+    "tr": "ras mitat",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Kopfschmerzen",
+      "en": "headache",
+      "sv": "huvudvärk",
+      "nl": "hoofdpijn",
+      "it": "il mal di testa",
+      "es": "el dolor de cabeza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_hakim2",
+    "am": "ስቅለት ኩላሊት",
+    "tr": "sik'ilet kulalit",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Nierenschmerzen",
+      "en": "kidney pain",
+      "sv": "njursmärta",
+      "nl": "nierpijn",
+      "it": "il dolore ai reni",
+      "es": "el dolor de riñones"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg3_mekelakel3",
+    "am": "ክትባት",
+    "tr": "kitibat",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Impfung",
+      "en": "vaccination",
+      "sv": "vaccination",
+      "nl": "vaccinatie",
+      "it": "la vaccinazione",
+      "es": "la vacunación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_v_metekakel7",
+    "am": "ማዋለድ",
+    "tr": "mawaled",
+    "pos": "verb",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "entbinden, gebären helfen",
+      "en": "to deliver (a baby)",
+      "sv": "förlösa",
+      "nl": "bevallen (bijstaan)",
+      "it": "far partorire, assistere al parto",
+      "es": "asistir en el parto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg3_hakim_ye_it",
+    "am": "አዋላጅ",
+    "tr": "awalaj",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Hebamme",
+      "en": "midwife",
+      "sv": "barnmorska",
+      "nl": "verloskundige",
+      "it": "l'ostetrica",
+      "es": "la partera, la comadrona"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg3_yehiwot",
+    "am": "ጭንቅላት",
+    "tr": "chinik'ilat",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "das Gehirn",
+      "en": "brain",
+      "sv": "hjärna",
+      "nl": "brein",
+      "it": "il cervello",
+      "es": "el cerebro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_libi2",
+    "am": "ልብ",
+    "tr": "lib",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "das Herz (Organ)",
+      "en": "heart (organ)",
+      "sv": "hjärta (organ)",
+      "nl": "hart (orgaan)",
+      "it": "il cuore (organo)",
+      "es": "el corazón (órgano)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_fital",
+    "am": "ሳምባ",
+    "tr": "samiba",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "die Lunge",
+      "en": "lung",
+      "sv": "lunga",
+      "nl": "long",
+      "it": "il polmone",
+      "es": "el pulmón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_v_meazen",
+    "am": "ማዘን ምርመራ",
+    "tr": "mazen mirmera",
+    "pos": "verb",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "diagnostizieren",
+      "en": "to diagnose",
+      "sv": "diagnostisera",
+      "nl": "diagnosticeren",
+      "it": "diagnosticare",
+      "es": "diagnosticar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg3_biret2",
+    "am": "የቀዶ ጥገና ክፍል",
+    "tr": "yek'edo t'igena kifil",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "der Operationssaal",
+      "en": "operating room",
+      "sv": "operationssal",
+      "nl": "operatiekamer",
+      "it": "la sala operatoria",
+      "es": "el quirófano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg3_amibulans",
+    "am": "አምቡላንስ",
+    "tr": "ambulanis",
+    "pos": "noun",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "der Krankenwagen",
+      "en": "ambulance",
+      "sv": "ambulans",
+      "nl": "ambulance",
+      "it": "l'ambulanza",
+      "es": "la ambulancia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚑",
+    "verified": true
+  },
+  {
+    "id": "lex_hg3_v_meshefa2",
+    "am": "ማገገም",
+    "tr": "magegem",
+    "pos": "verb",
+    "topic": "health_3",
+    "level": "B2",
+    "t": {
+      "de": "sich erholen, genesen",
+      "en": "to recover",
+      "sv": "återhämta sig",
+      "nl": "herstellen",
+      "it": "riprendersi, guarire",
+      "es": "recuperarse, curarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

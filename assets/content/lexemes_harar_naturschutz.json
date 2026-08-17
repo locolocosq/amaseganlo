@@ -1,12 +1,202 @@
 [
-  {"id":"lex_hns_tebeka_bota","am":"የተጠበቀ ቦታ","tr":"yetet'ebek'e bota","pos":"noun","topic":"conservation","level":"B2","t":{"de":"das Schutzgebiet","en":"protected area, reserve","sv":"skyddat område","nl":"beschermd gebied"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_v_metebaki","am":"መጠበቅ","tr":"met'ebek'","pos":"verb","topic":"conservation","level":"B2","t":{"de":"schützen","en":"to protect","sv":"skydda","nl":"beschermen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_menoriya2","am":"መኖሪያ","tr":"menoriya","pos":"noun","topic":"conservation","level":"B2","t":{"de":"der Lebensraum","en":"habitat","sv":"habitat","nl":"habitat"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_akababi5","am":"አካባቢ","tr":"akababi","pos":"noun","topic":"conservation","level":"B2","t":{"de":"die Umwelt","en":"environment","sv":"miljö","nl":"milieu"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_adj_birik","am":"ብርቅ","tr":"birik'","pos":"adjective","topic":"conservation","level":"B2","t":{"de":"selten","en":"rare","sv":"sällsynt","nl":"zeldzaam"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_park2","am":"ፓርክ","tr":"park","pos":"noun","topic":"conservation","level":"B2","t":{"de":"der Park, das Reservat","en":"park, reserve","sv":"park","nl":"park"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_yeduri_inisisat","am":"የዱር እንስሳት","tr":"yeduri inisisat","pos":"noun","topic":"conservation","level":"B2","t":{"de":"die Wildtiere","en":"wild animals, wildlife","sv":"vilda djur","nl":"wilde dieren"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_v_madineg","am":"ማዳን","tr":"madan","pos":"verb","topic":"conservation","level":"B2","t":{"de":"retten","en":"to save, to rescue","sv":"rädda","nl":"redden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_adj_akababawi","am":"አካባቢያዊ","tr":"akababawi","pos":"adjective","topic":"conservation","level":"B2","t":{"de":"umweltbezogen","en":"environmental","sv":"miljömässig","nl":"milieu-"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hns_tibeka","am":"ጥበቃ","tr":"t'ibek'a","pos":"noun","topic":"conservation","level":"B2","t":{"de":"der Schutz, die Bewahrung","en":"protection, conservation","sv":"bevarande","nl":"bescherming"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hns_tebeka_bota",
+    "am": "የተጠበቀ ቦታ",
+    "tr": "yetet'ebek'e bota",
+    "pos": "noun",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "das Schutzgebiet",
+      "en": "protected area, reserve",
+      "sv": "skyddat område",
+      "nl": "beschermd gebied",
+      "it": "l'area protetta, la riserva",
+      "es": "el área protegida, la reserva"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_v_metebaki",
+    "am": "መጠበቅ",
+    "tr": "met'ebek'",
+    "pos": "verb",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "schützen",
+      "en": "to protect",
+      "sv": "skydda",
+      "nl": "beschermen",
+      "it": "proteggere",
+      "es": "proteger"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_menoriya2",
+    "am": "መኖሪያ",
+    "tr": "menoriya",
+    "pos": "noun",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "der Lebensraum",
+      "en": "habitat",
+      "sv": "habitat",
+      "nl": "habitat",
+      "it": "l'habitat",
+      "es": "el hábitat"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_akababi5",
+    "am": "አካባቢ",
+    "tr": "akababi",
+    "pos": "noun",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "die Umwelt",
+      "en": "environment",
+      "sv": "miljö",
+      "nl": "milieu",
+      "it": "l'ambiente",
+      "es": "el medio ambiente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_adj_birik",
+    "am": "ብርቅ",
+    "tr": "birik'",
+    "pos": "adjective",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "selten",
+      "en": "rare",
+      "sv": "sällsynt",
+      "nl": "zeldzaam",
+      "it": "raro/a",
+      "es": "raro/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_park2",
+    "am": "ፓርክ",
+    "tr": "park",
+    "pos": "noun",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "der Park, das Reservat",
+      "en": "park, reserve",
+      "sv": "park",
+      "nl": "park",
+      "it": "il parco, la riserva",
+      "es": "el parque, la reserva"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_yeduri_inisisat",
+    "am": "የዱር እንስሳት",
+    "tr": "yeduri inisisat",
+    "pos": "noun",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "die Wildtiere",
+      "en": "wild animals, wildlife",
+      "sv": "vilda djur",
+      "nl": "wilde dieren",
+      "it": "gli animali selvatici, la fauna selvatica",
+      "es": "los animales salvajes, la fauna silvestre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_v_madineg",
+    "am": "ማዳን",
+    "tr": "madan",
+    "pos": "verb",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "retten",
+      "en": "to save, to rescue",
+      "sv": "rädda",
+      "nl": "redden",
+      "it": "salvare",
+      "es": "salvar, rescatar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_adj_akababawi",
+    "am": "አካባቢያዊ",
+    "tr": "akababawi",
+    "pos": "adjective",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "umweltbezogen",
+      "en": "environmental",
+      "sv": "miljömässig",
+      "nl": "milieu-",
+      "it": "ambientale",
+      "es": "ambiental"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hns_tibeka",
+    "am": "ጥበቃ",
+    "tr": "t'ibek'a",
+    "pos": "noun",
+    "topic": "conservation",
+    "level": "B2",
+    "t": {
+      "de": "der Schutz, die Bewahrung",
+      "en": "protection, conservation",
+      "sv": "bevarande",
+      "nl": "bescherming",
+      "it": "la protezione, la conservazione",
+      "es": "la protección, la conservación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

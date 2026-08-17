@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_fbr_fctry","am":"ፋብሪካ","tr":"fabrika","pos":"noun","topic":"factory","level":"TI","t":{"de":"die Fabrik","en":"factory","sv":"fabrik","nl":"fabriek"},"emoji":"🏭","verified":false},
-  {"id":"lex_ti_fbr_mchn","am":"ማሽን (ፋብሪካ)","tr":"mashin fabrika","pos":"noun","topic":"factory","level":"TI","t":{"de":"die Maschine (Fabrik)","en":"machine (factory)","sv":"maskin (fabrik)","nl":"machine (fabriek)"},"emoji":"","verified":false},
-  {"id":"lex_ti_fbr_prod","am":"ምህርቲ","tr":"mihirti","pos":"noun","topic":"factory","level":"TI","t":{"de":"die Produktion","en":"production","sv":"produktion","nl":"productie"},"emoji":"","verified":false},
-  {"id":"lex_ti_fbr_wrkr","am":"ሰራሕተኛ ፋብሪካ","tr":"serahtegna fabrika","pos":"noun","topic":"factory","level":"TI","t":{"de":"der Fabrikarbeiter","en":"factory worker","sv":"fabriksarbetare","nl":"fabrieksarbeider"},"emoji":"","verified":false},
-  {"id":"lex_ti_fbr_asmbl","am":"ኣኪቡ ሰርሐ","tr":"akibu serihe","pos":"verb","topic":"factory","level":"TI","t":{"de":"zusammenbauen","en":"to assemble","sv":"att montera","nl":"assembleren"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_fbr_fctry",
+    "am": "ፋብሪካ",
+    "tr": "fabrika",
+    "pos": "noun",
+    "topic": "factory",
+    "level": "TI",
+    "t": {
+      "de": "die Fabrik",
+      "en": "factory",
+      "sv": "fabrik",
+      "nl": "fabriek",
+      "it": "la fabbrica",
+      "es": "la fábrica"
+    },
+    "emoji": "🏭",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fbr_mchn",
+    "am": "ማሽን (ፋብሪካ)",
+    "tr": "mashin fabrika",
+    "pos": "noun",
+    "topic": "factory",
+    "level": "TI",
+    "t": {
+      "de": "die Maschine (Fabrik)",
+      "en": "machine (factory)",
+      "sv": "maskin (fabrik)",
+      "nl": "machine (fabriek)",
+      "it": "la macchina (fabbrica)",
+      "es": "la máquina (fábrica)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fbr_prod",
+    "am": "ምህርቲ",
+    "tr": "mihirti",
+    "pos": "noun",
+    "topic": "factory",
+    "level": "TI",
+    "t": {
+      "de": "die Produktion",
+      "en": "production",
+      "sv": "produktion",
+      "nl": "productie",
+      "it": "la produzione",
+      "es": "la producción"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fbr_wrkr",
+    "am": "ሰራሕተኛ ፋብሪካ",
+    "tr": "serahtegna fabrika",
+    "pos": "noun",
+    "topic": "factory",
+    "level": "TI",
+    "t": {
+      "de": "der Fabrikarbeiter",
+      "en": "factory worker",
+      "sv": "fabriksarbetare",
+      "nl": "fabrieksarbeider",
+      "it": "l'operaio di fabbrica",
+      "es": "el obrero de fábrica"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fbr_asmbl",
+    "am": "ኣኪቡ ሰርሐ",
+    "tr": "akibu serihe",
+    "pos": "verb",
+    "topic": "factory",
+    "level": "TI",
+    "t": {
+      "de": "zusammenbauen",
+      "en": "to assemble",
+      "sv": "att montera",
+      "nl": "assembleren",
+      "it": "assemblare",
+      "es": "ensamblar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

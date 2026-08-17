@@ -1,22 +1,402 @@
 [
-  {"id":"lex_hva_mewised","am":"መውሰድ","tr":"mewised","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"nehmen","en":"to take","sv":"ta","nl":"nemen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mesitet","am":"መስጠት","tr":"mesit'et","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"geben","en":"to give","sv":"ge","nl":"geven"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mayet2","am":"ማየት","tr":"mayet","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"sehen","en":"to see","sv":"se","nl":"zien"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mesimat","am":"መስማት","tr":"mesimat","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"hören","en":"to hear","sv":"höra","nl":"horen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mehied","am":"መሄድ","tr":"mehied","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"gehen","en":"to go","sv":"gå","nl":"gaan"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_memitat","am":"መምጣት","tr":"memit'at","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"kommen","en":"to come","sv":"komma","nl":"komen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mekemet2","am":"መቀመጥ","tr":"mek'emet'","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"sitzen","en":"to sit","sv":"sitta","nl":"zitten"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_metegnat","am":"መተኛት","tr":"metegnat","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"schlafen","en":"to sleep","sv":"sova","nl":"slapen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_menikat","am":"መንቃት","tr":"menik'at","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"aufwachen","en":"to wake up","sv":"vakna","nl":"wakker worden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_madireg","am":"ማድረግ","tr":"madireg","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"tun, machen","en":"to do, to make","sv":"göra","nl":"doen, maken"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_maseb","am":"ማሰብ","tr":"maseb","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"denken","en":"to think","sv":"tänka","nl":"denken"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_meteyek2","am":"መጠየቅ","tr":"met'eyek'","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"fragen","en":"to ask","sv":"fråga","nl":"vragen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_metetat2","am":"መጠጣት","tr":"met'et'at","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"trinken","en":"to drink","sv":"dricka","nl":"drinken"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_meramed","am":"መራመድ","tr":"meramed","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"gehen, laufen","en":"to walk","sv":"gå, promenera","nl":"lopen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_malikes","am":"ማልቀስ","tr":"malik'es","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"weinen","en":"to cry","sv":"gråta","nl":"huilen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mesak","am":"መሳቅ","tr":"mesak'","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"lachen","en":"to laugh","sv":"skratta","nl":"lachen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mesirat2","am":"መስራት","tr":"mesirat","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"arbeiten","en":"to work","sv":"arbeta","nl":"werken"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mefeleg","am":"መፈለግ","tr":"mefeleg","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"wollen, brauchen","en":"to want, to need","sv":"vilja, behöva","nl":"willen, nodig hebben"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mawek","am":"ማወቅ","tr":"mawek'","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"wissen","en":"to know","sv":"veta","nl":"weten"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hva_mecheres","am":"መጨረስ","tr":"mecheres","pos":"verb","topic":"daily_verbs_2","level":"B2","t":{"de":"beenden, fertig sein","en":"to finish","sv":"avsluta","nl":"beëindigen"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hva_mewised",
+    "am": "መውሰድ",
+    "tr": "mewised",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "nehmen",
+      "en": "to take",
+      "sv": "ta",
+      "nl": "nemen",
+      "it": "prendere",
+      "es": "tomar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mesitet",
+    "am": "መስጠት",
+    "tr": "mesit'et",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "geben",
+      "en": "to give",
+      "sv": "ge",
+      "nl": "geven",
+      "it": "dare",
+      "es": "dar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mayet2",
+    "am": "ማየት",
+    "tr": "mayet",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "sehen",
+      "en": "to see",
+      "sv": "se",
+      "nl": "zien",
+      "it": "vedere",
+      "es": "ver"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mesimat",
+    "am": "መስማት",
+    "tr": "mesimat",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "hören",
+      "en": "to hear",
+      "sv": "höra",
+      "nl": "horen",
+      "it": "sentire",
+      "es": "oír"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mehied",
+    "am": "መሄድ",
+    "tr": "mehied",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "gehen",
+      "en": "to go",
+      "sv": "gå",
+      "nl": "gaan",
+      "it": "andare",
+      "es": "ir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_memitat",
+    "am": "መምጣት",
+    "tr": "memit'at",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "kommen",
+      "en": "to come",
+      "sv": "komma",
+      "nl": "komen",
+      "it": "venire",
+      "es": "venir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mekemet2",
+    "am": "መቀመጥ",
+    "tr": "mek'emet'",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "sitzen",
+      "en": "to sit",
+      "sv": "sitta",
+      "nl": "zitten",
+      "it": "sedersi",
+      "es": "sentarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_metegnat",
+    "am": "መተኛት",
+    "tr": "metegnat",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "schlafen",
+      "en": "to sleep",
+      "sv": "sova",
+      "nl": "slapen",
+      "it": "dormire",
+      "es": "dormir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_menikat",
+    "am": "መንቃት",
+    "tr": "menik'at",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "aufwachen",
+      "en": "to wake up",
+      "sv": "vakna",
+      "nl": "wakker worden",
+      "it": "svegliarsi",
+      "es": "despertarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_madireg",
+    "am": "ማድረግ",
+    "tr": "madireg",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "tun, machen",
+      "en": "to do, to make",
+      "sv": "göra",
+      "nl": "doen, maken",
+      "it": "fare",
+      "es": "hacer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_maseb",
+    "am": "ማሰብ",
+    "tr": "maseb",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "denken",
+      "en": "to think",
+      "sv": "tänka",
+      "nl": "denken",
+      "it": "pensare",
+      "es": "pensar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_meteyek2",
+    "am": "መጠየቅ",
+    "tr": "met'eyek'",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "fragen",
+      "en": "to ask",
+      "sv": "fråga",
+      "nl": "vragen",
+      "it": "chiedere",
+      "es": "preguntar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_metetat2",
+    "am": "መጠጣት",
+    "tr": "met'et'at",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "trinken",
+      "en": "to drink",
+      "sv": "dricka",
+      "nl": "drinken",
+      "it": "bere",
+      "es": "beber"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_meramed",
+    "am": "መራመድ",
+    "tr": "meramed",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "gehen, laufen",
+      "en": "to walk",
+      "sv": "gå, promenera",
+      "nl": "lopen",
+      "it": "camminare",
+      "es": "caminar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_malikes",
+    "am": "ማልቀስ",
+    "tr": "malik'es",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "weinen",
+      "en": "to cry",
+      "sv": "gråta",
+      "nl": "huilen",
+      "it": "piangere",
+      "es": "llorar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mesak",
+    "am": "መሳቅ",
+    "tr": "mesak'",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "lachen",
+      "en": "to laugh",
+      "sv": "skratta",
+      "nl": "lachen",
+      "it": "ridere",
+      "es": "reír"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mesirat2",
+    "am": "መስራት",
+    "tr": "mesirat",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "arbeiten",
+      "en": "to work",
+      "sv": "arbeta",
+      "nl": "werken",
+      "it": "lavorare",
+      "es": "trabajar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mefeleg",
+    "am": "መፈለግ",
+    "tr": "mefeleg",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "wollen, brauchen",
+      "en": "to want, to need",
+      "sv": "vilja, behöva",
+      "nl": "willen, nodig hebben",
+      "it": "volere, avere bisogno",
+      "es": "querer, necesitar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mawek",
+    "am": "ማወቅ",
+    "tr": "mawek'",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "wissen",
+      "en": "to know",
+      "sv": "veta",
+      "nl": "weten",
+      "it": "sapere",
+      "es": "saber"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hva_mecheres",
+    "am": "መጨረስ",
+    "tr": "mecheres",
+    "pos": "verb",
+    "topic": "daily_verbs_2",
+    "level": "B2",
+    "t": {
+      "de": "beenden, fertig sein",
+      "en": "to finish",
+      "sv": "avsluta",
+      "nl": "beëindigen",
+      "it": "finire",
+      "es": "terminar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

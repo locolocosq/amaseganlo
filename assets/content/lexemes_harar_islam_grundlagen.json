@@ -10,7 +10,9 @@
       "de": "der Islam (die Religion)",
       "en": "Islam (the religion)",
       "sv": "islam (religionen)",
-      "nl": "islam (de religie)"
+      "nl": "islam (de religie)",
+      "it": "l'Islam (la religione)",
+      "es": "el Islam (la religión)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Muslim, die Muslimin",
       "en": "Muslim",
       "sv": "muslim",
-      "nl": "moslim"
+      "nl": "moslim",
+      "it": "il musulmano, la musulmana",
+      "es": "el musulmán, la musulmana"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "Allah, Gott (im Islam)",
       "en": "Allah, God (in Islam)",
       "sv": "Allah, Gud (inom islam)",
-      "nl": "Allah, God (in de islam)"
+      "nl": "Allah, God (in de islam)",
+      "it": "Allah, Dio (nell'Islam)",
+      "es": "Alá, Dios (en el Islam)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Prophet",
       "en": "prophet",
       "sv": "profet",
-      "nl": "profeet"
+      "nl": "profeet",
+      "it": "il profeta",
+      "es": "el profeta"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Koran",
       "en": "the Quran",
       "sv": "Koranen",
-      "nl": "de Koran"
+      "nl": "de Koran",
+      "it": "il Corano",
+      "es": "el Corán"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Moschee",
       "en": "mosque",
       "sv": "moské",
-      "nl": "moskee"
+      "nl": "moskee",
+      "it": "la moschea",
+      "es": "la mezquita"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Imam",
       "en": "imam",
       "sv": "imam",
-      "nl": "imam"
+      "nl": "imam",
+      "it": "l'imam",
+      "es": "el imán"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der/die Gläubige",
       "en": "believer",
       "sv": "troende",
-      "nl": "gelovige"
+      "nl": "gelovige",
+      "it": "il/la credente",
+      "es": "el/la creyente"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "treu, loyal, gläubig",
       "en": "faithful, loyal",
       "sv": "trogen, lojal",
-      "nl": "trouw, loyaal"
+      "nl": "trouw, loyaal",
+      "it": "fedele, leale",
+      "es": "fiel, leal"
     },
     "hint": {},
     "alt": {},

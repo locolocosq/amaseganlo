@@ -1,23 +1,422 @@
 [
-  {"id":"lex_hwi_sinseb","am":"ሳይንስ","tr":"sayins","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Wissenschaft","en":"science","sv":"vetenskap","nl":"wetenschap"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_mokara","am":"ምርምር","tr":"mirimir","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Forschung","en":"research","sv":"forskning","nl":"onderzoek"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_v_mermer","am":"መመርመር","tr":"memermer","pos":"verb","topic":"science_2","level":"B2","t":{"de":"forschen, untersuchen","en":"to research, to investigate","sv":"forska, undersöka","nl":"onderzoeken"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_mokari","am":"ተመራማሪ","tr":"temeramari","pos":"noun","topic":"science_2","level":"B2","t":{"de":"der Forscher","en":"researcher","sv":"forskare","nl":"onderzoeker"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_gimet","am":"ግምት","tr":"gimit","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Vermutung, Hypothese","en":"hypothesis, assumption","sv":"hypotes, antagande","nl":"hypothese, veronderstelling"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_mokara_bet","am":"ላብራቶሪ","tr":"labiratori","pos":"noun","topic":"science_2","level":"B2","t":{"de":"das Labor","en":"laboratory","sv":"laboratorium","nl":"laboratorium"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_v_meshet2","am":"መሞከር","tr":"memoker","pos":"verb","topic":"science_2","level":"B2","t":{"de":"experimentieren, versuchen","en":"to experiment, to try","sv":"experimentera","nl":"experimenteren"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_mokerya","am":"ሙከራ","tr":"mukera","pos":"noun","topic":"science_2","level":"B2","t":{"de":"das Experiment","en":"experiment","sv":"experiment","nl":"experiment"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_wutet","am":"ውጤት ምርምር","tr":"wit'et mirimir","pos":"noun","topic":"science_2","level":"B2","t":{"de":"das Forschungsergebnis","en":"research result","sv":"forskningsresultat","nl":"onderzoeksresultaat"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hwi_kemistri","am":"ኬሚስትሪ","tr":"kemisitiri","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Chemie","en":"chemistry","sv":"kemi","nl":"chemie"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_fisiks","am":"ፊዚክስ","tr":"fizikis","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Physik","en":"physics","sv":"fysik","nl":"fysica"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_bayoloji","am":"ባዮሎጂ","tr":"bayoloji","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Biologie","en":"biology","sv":"biologi","nl":"biologie"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_v_megelts","am":"ማግኘት","tr":"magignet","pos":"verb","topic":"science_2","level":"B2","t":{"de":"entdecken, finden","en":"to discover, to find","sv":"upptäcka, hitta","nl":"ontdekken, vinden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_gilits","am":"ግኝት","tr":"gignit","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Entdeckung","en":"discovery","sv":"upptäckt","nl":"ontdekking"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_mizan2","am":"ልኪያ","tr":"likiya","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Messung","en":"measurement","sv":"mätning","nl":"meting"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hwi_v_meliket2","am":"መለካት","tr":"melekat","pos":"verb","topic":"science_2","level":"B2","t":{"de":"messen","en":"to measure","sv":"mäta","nl":"meten"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_zergonet","am":"ቴክኒክ","tr":"tekinik","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Technik, Methode","en":"technique, method","sv":"teknik, metod","nl":"techniek, methode"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_akal12","am":"ቴሌስኮፕ","tr":"teleskop","pos":"noun","topic":"science_2","level":"B2","t":{"de":"das Teleskop","en":"telescope","sv":"teleskop","nl":"telescoop"},"hint":{},"alt":{},"emoji":"🔭","verified":true},
-  {"id":"lex_hwi_mikroskop","am":"ማይክሮስኮፕ","tr":"mayikirosikop","pos":"noun","topic":"science_2","level":"B2","t":{"de":"das Mikroskop","en":"microscope","sv":"mikroskop","nl":"microscoop"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hwi_v_mafeteh","am":"ማፍጠር","tr":"mafit'er","pos":"verb","topic":"science_2","level":"B2","t":{"de":"erfinden","en":"to invent","sv":"uppfinna","nl":"uitvinden"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hwi_fetera","am":"ፍጥረት","tr":"fit'iret","pos":"noun","topic":"science_2","level":"B2","t":{"de":"die Erfindung, Schöpfung","en":"invention, creation","sv":"uppfinning, skapelse","nl":"uitvinding, schepping"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hwi_sinseb",
+    "am": "ሳይንስ",
+    "tr": "sayins",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Wissenschaft",
+      "en": "science",
+      "sv": "vetenskap",
+      "nl": "wetenschap",
+      "it": "la scienza",
+      "es": "la ciencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_mokara",
+    "am": "ምርምር",
+    "tr": "mirimir",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Forschung",
+      "en": "research",
+      "sv": "forskning",
+      "nl": "onderzoek",
+      "it": "la ricerca",
+      "es": "la investigación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_v_mermer",
+    "am": "መመርመር",
+    "tr": "memermer",
+    "pos": "verb",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "forschen, untersuchen",
+      "en": "to research, to investigate",
+      "sv": "forska, undersöka",
+      "nl": "onderzoeken",
+      "it": "ricercare, indagare",
+      "es": "investigar, indagar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_mokari",
+    "am": "ተመራማሪ",
+    "tr": "temeramari",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "der Forscher",
+      "en": "researcher",
+      "sv": "forskare",
+      "nl": "onderzoeker",
+      "it": "il ricercatore",
+      "es": "el investigador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_gimet",
+    "am": "ግምት",
+    "tr": "gimit",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Vermutung, Hypothese",
+      "en": "hypothesis, assumption",
+      "sv": "hypotes, antagande",
+      "nl": "hypothese, veronderstelling",
+      "it": "l'ipotesi",
+      "es": "la hipótesis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_mokara_bet",
+    "am": "ላብራቶሪ",
+    "tr": "labiratori",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "das Labor",
+      "en": "laboratory",
+      "sv": "laboratorium",
+      "nl": "laboratorium",
+      "it": "il laboratorio",
+      "es": "el laboratorio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_v_meshet2",
+    "am": "መሞከር",
+    "tr": "memoker",
+    "pos": "verb",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "experimentieren, versuchen",
+      "en": "to experiment, to try",
+      "sv": "experimentera",
+      "nl": "experimenteren",
+      "it": "sperimentare, provare",
+      "es": "experimentar, probar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_mokerya",
+    "am": "ሙከራ",
+    "tr": "mukera",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "das Experiment",
+      "en": "experiment",
+      "sv": "experiment",
+      "nl": "experiment",
+      "it": "l'esperimento",
+      "es": "el experimento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_wutet",
+    "am": "ውጤት ምርምር",
+    "tr": "wit'et mirimir",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "das Forschungsergebnis",
+      "en": "research result",
+      "sv": "forskningsresultat",
+      "nl": "onderzoeksresultaat",
+      "it": "il risultato della ricerca",
+      "es": "el resultado de la investigación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hwi_kemistri",
+    "am": "ኬሚስትሪ",
+    "tr": "kemisitiri",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Chemie",
+      "en": "chemistry",
+      "sv": "kemi",
+      "nl": "chemie",
+      "it": "la chimica",
+      "es": "la química"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_fisiks",
+    "am": "ፊዚክስ",
+    "tr": "fizikis",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Physik",
+      "en": "physics",
+      "sv": "fysik",
+      "nl": "fysica",
+      "it": "la fisica",
+      "es": "la física"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_bayoloji",
+    "am": "ባዮሎጂ",
+    "tr": "bayoloji",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Biologie",
+      "en": "biology",
+      "sv": "biologi",
+      "nl": "biologie",
+      "it": "la biologia",
+      "es": "la biología"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_v_megelts",
+    "am": "ማግኘት",
+    "tr": "magignet",
+    "pos": "verb",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "entdecken, finden",
+      "en": "to discover, to find",
+      "sv": "upptäcka, hitta",
+      "nl": "ontdekken, vinden",
+      "it": "scoprire, trovare",
+      "es": "descubrir, encontrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_gilits",
+    "am": "ግኝት",
+    "tr": "gignit",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Entdeckung",
+      "en": "discovery",
+      "sv": "upptäckt",
+      "nl": "ontdekking",
+      "it": "la scoperta",
+      "es": "el descubrimiento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_mizan2",
+    "am": "ልኪያ",
+    "tr": "likiya",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Messung",
+      "en": "measurement",
+      "sv": "mätning",
+      "nl": "meting",
+      "it": "la misurazione",
+      "es": "la medición"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hwi_v_meliket2",
+    "am": "መለካት",
+    "tr": "melekat",
+    "pos": "verb",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "messen",
+      "en": "to measure",
+      "sv": "mäta",
+      "nl": "meten",
+      "it": "misurare",
+      "es": "medir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_zergonet",
+    "am": "ቴክኒክ",
+    "tr": "tekinik",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Technik, Methode",
+      "en": "technique, method",
+      "sv": "teknik, metod",
+      "nl": "techniek, methode",
+      "it": "la tecnica, il metodo",
+      "es": "la técnica, el método"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_akal12",
+    "am": "ቴሌስኮፕ",
+    "tr": "teleskop",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "das Teleskop",
+      "en": "telescope",
+      "sv": "teleskop",
+      "nl": "telescoop",
+      "it": "il telescopio",
+      "es": "el telescopio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔭",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_mikroskop",
+    "am": "ማይክሮስኮፕ",
+    "tr": "mayikirosikop",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "das Mikroskop",
+      "en": "microscope",
+      "sv": "mikroskop",
+      "nl": "microscoop",
+      "it": "il microscopio",
+      "es": "el microscopio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hwi_v_mafeteh",
+    "am": "ማፍጠር",
+    "tr": "mafit'er",
+    "pos": "verb",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "erfinden",
+      "en": "to invent",
+      "sv": "uppfinna",
+      "nl": "uitvinden",
+      "it": "inventare",
+      "es": "inventar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hwi_fetera",
+    "am": "ፍጥረት",
+    "tr": "fit'iret",
+    "pos": "noun",
+    "topic": "science_2",
+    "level": "B2",
+    "t": {
+      "de": "die Erfindung, Schöpfung",
+      "en": "invention, creation",
+      "sv": "uppfinning, skapelse",
+      "nl": "uitvinding, schepping",
+      "it": "l'invenzione, la creazione",
+      "es": "la invención, la creación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

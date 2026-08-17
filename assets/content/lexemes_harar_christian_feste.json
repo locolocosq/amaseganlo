@@ -10,7 +10,9 @@
       "de": "Ostern",
       "en": "Easter",
       "sv": "påsk",
-      "nl": "Pasen"
+      "nl": "Pasen",
+      "it": "Pasqua",
+      "es": "Pascua"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "Weihnachten",
       "en": "Christmas",
       "sv": "jul",
-      "nl": "Kerstmis"
+      "nl": "Kerstmis",
+      "it": "Natale",
+      "es": "Navidad"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Taufe, Timkat (Epiphaniasfest)",
       "en": "baptism, Timkat (Epiphany)",
       "sv": "dopet, Timkat (trettondagen)",
-      "nl": "de doop, Timkat (Epifanie)"
+      "nl": "de doop, Timkat (Epifanie)",
+      "it": "il battesimo, Timkat (Epifania)",
+      "es": "el bautismo, Timkat (Epifanía)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "taufen",
       "en": "to baptize",
       "sv": "döpa",
-      "nl": "dopen"
+      "nl": "dopen",
+      "it": "battezzare",
+      "es": "bautizar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "segnen",
       "en": "to bless",
       "sv": "välsigna",
-      "nl": "zegenen"
+      "nl": "zegenen",
+      "it": "benedire",
+      "es": "bendecir"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "beichten",
       "en": "to confess",
       "sv": "bikta",
-      "nl": "biechten"
+      "nl": "biechten",
+      "it": "confessarsi",
+      "es": "confesarse"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Sünde",
       "en": "sin",
       "sv": "synd",
-      "nl": "zonde"
+      "nl": "zonde",
+      "it": "il peccato",
+      "es": "el pecado"
     },
     "hint": {},
     "alt": {},

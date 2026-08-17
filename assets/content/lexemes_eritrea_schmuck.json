@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_werqi","am":"ወርቂ","tr":"werqi","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"das Gold","en":"gold","sv":"guld","nl":"goud"},"emoji":"","verified":false},
-  {"id":"lex_ti_biret2","am":"ብሩር","tr":"birur","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"das Silber","en":"silver","sv":"silver","nl":"zilver"},"emoji":"","verified":false},
-  {"id":"lex_ti_snsl","am":"ስንሰለት","tr":"sinselet","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"die Kette (Schmuck)","en":"necklace, chain","sv":"halskedja","nl":"ketting"},"emoji":"📿","verified":false},
-  {"id":"lex_ti_qelbi","am":"ቀለቤት","tr":"qelebet","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"der Ring","en":"ring","sv":"ring","nl":"ring"},"emoji":"💍","verified":false},
-  {"id":"lex_ti_gngil","am":"ቀለቤት እዝኒ","tr":"qelebet ezni","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"der Ohrring","en":"earring","sv":"örhänge","nl":"oorbel"},"emoji":"","verified":false},
-  {"id":"lex_ti_habi2","am":"ኣቁሑት ወርቂ","tr":"aquhut werqi","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"der Schmuck","en":"jewelry","sv":"smycken","nl":"sieraden"},"emoji":"💎","verified":false},
-  {"id":"lex_ti_dngil","am":"ኣልማዝ","tr":"almaz","pos":"noun","topic":"jewelry","level":"TI","t":{"de":"der Diamant","en":"diamond","sv":"diamant","nl":"diamant"},"emoji":"💎","verified":false}
+  {
+    "id": "lex_ti_werqi",
+    "am": "ወርቂ",
+    "tr": "werqi",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "das Gold",
+      "en": "gold",
+      "sv": "guld",
+      "nl": "goud",
+      "it": "l'oro",
+      "es": "el oro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_biret2",
+    "am": "ብሩር",
+    "tr": "birur",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "das Silber",
+      "en": "silver",
+      "sv": "silver",
+      "nl": "zilver",
+      "it": "l'argento",
+      "es": "la plata"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snsl",
+    "am": "ስንሰለት",
+    "tr": "sinselet",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "die Kette (Schmuck)",
+      "en": "necklace, chain",
+      "sv": "halskedja",
+      "nl": "ketting",
+      "it": "la collana",
+      "es": "el collar"
+    },
+    "emoji": "📿",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qelbi",
+    "am": "ቀለቤት",
+    "tr": "qelebet",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "der Ring",
+      "en": "ring",
+      "sv": "ring",
+      "nl": "ring",
+      "it": "l'anello",
+      "es": "el anillo"
+    },
+    "emoji": "💍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gngil",
+    "am": "ቀለቤት እዝኒ",
+    "tr": "qelebet ezni",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "der Ohrring",
+      "en": "earring",
+      "sv": "örhänge",
+      "nl": "oorbel",
+      "it": "l'orecchino",
+      "es": "el pendiente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_habi2",
+    "am": "ኣቁሑት ወርቂ",
+    "tr": "aquhut werqi",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "der Schmuck",
+      "en": "jewelry",
+      "sv": "smycken",
+      "nl": "sieraden",
+      "it": "i gioielli",
+      "es": "las joyas"
+    },
+    "emoji": "💎",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dngil",
+    "am": "ኣልማዝ",
+    "tr": "almaz",
+    "pos": "noun",
+    "topic": "jewelry",
+    "level": "TI",
+    "t": {
+      "de": "der Diamant",
+      "en": "diamond",
+      "sv": "diamant",
+      "nl": "diamant",
+      "it": "il diamante",
+      "es": "el diamante"
+    },
+    "emoji": "💎",
+    "verified": false
+  }
 ]

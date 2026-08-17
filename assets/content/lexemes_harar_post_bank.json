@@ -1,19 +1,342 @@
 [
-  {"id":"lex_hpb_posta_bet","am":"ፖስታ ቤት","tr":"posta bet","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"das Postamt","en":"post office","sv":"postkontor","nl":"postkantoor"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_posta","am":"ፖስታ","tr":"posta","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"der Umschlag, die Post","en":"envelope, mail","sv":"kuvert, post","nl":"envelop, post"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_tembir","am":"ቴምብር","tr":"tembir","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"die Briefmarke","en":"postage stamp","sv":"frimärke","nl":"postzegel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_bank","am":"ባንክ","tr":"bank","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"die Bank","en":"bank","sv":"bank","nl":"bank"},"hint":{},"alt":{},"emoji":"🏦","verified":true},
-  {"id":"lex_hpb_yebank_hisab","am":"የባንክ ሂሳብ","tr":"yebank hisab","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"das Bankkonto","en":"bank account","sv":"bankkonto","nl":"bankrekening"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_kard","am":"ካርድ","tr":"kard","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"die Karte","en":"card","sv":"kort","nl":"kaart"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_v_masqemat","am":"ማስቀመጥ","tr":"masik'emet'","pos":"verb","topic":"post_bank","level":"B2","t":{"de":"einzahlen, sparen","en":"to deposit, to save","sv":"sätta in, spara","nl":"storten, sparen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_v_mawitat","am":"ማውጣት","tr":"mawit'at","pos":"verb","topic":"post_bank","level":"B2","t":{"de":"abheben (Geld)","en":"to withdraw (money)","sv":"ta ut (pengar)","nl":"opnemen (geld)"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_weled","am":"ወለድ","tr":"weled","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"der Zins","en":"interest (banking)","sv":"ränta","nl":"rente"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_chek","am":"ቼክ","tr":"chek","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"der Scheck","en":"check, cheque","sv":"check","nl":"cheque"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_telegiram","am":"ቴሌግራም","tr":"telegiram","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"das Telegramm","en":"telegram","sv":"telegram","nl":"telegram"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_adirasha2","am":"አድራሻ","tr":"adirasha","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"die Adresse","en":"address","sv":"adress","nl":"adres"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_v_melak","am":"መላክ","tr":"melak","pos":"verb","topic":"post_bank","level":"B2","t":{"de":"senden, schicken","en":"to send","sv":"skicka","nl":"versturen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_paket","am":"ፓኬት","tr":"paket","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"das Paket","en":"package, parcel","sv":"paket","nl":"pakket"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_bidir","am":"ብድር","tr":"bidir","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"das Darlehen, der Kredit","en":"loan","sv":"lån","nl":"lening"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_v_mabeder","am":"ማበደር","tr":"mabeder","pos":"verb","topic":"post_bank","level":"B2","t":{"de":"verleihen, ausleihen","en":"to lend","sv":"låna ut","nl":"uitlenen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hpb_keri","am":"ቀሪ","tr":"k'eri","pos":"noun","topic":"post_bank","level":"B2","t":{"de":"der Rest, das Guthaben","en":"balance, remainder","sv":"saldo, rest","nl":"saldo, rest"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hpb_posta_bet",
+    "am": "ፖስታ ቤት",
+    "tr": "posta bet",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "das Postamt",
+      "en": "post office",
+      "sv": "postkontor",
+      "nl": "postkantoor",
+      "it": "l'ufficio postale",
+      "es": "la oficina de correos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_posta",
+    "am": "ፖስታ",
+    "tr": "posta",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "der Umschlag, die Post",
+      "en": "envelope, mail",
+      "sv": "kuvert, post",
+      "nl": "envelop, post",
+      "it": "la busta, la posta",
+      "es": "el sobre, el correo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_tembir",
+    "am": "ቴምብር",
+    "tr": "tembir",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "die Briefmarke",
+      "en": "postage stamp",
+      "sv": "frimärke",
+      "nl": "postzegel",
+      "it": "il francobollo",
+      "es": "el sello (postal)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_bank",
+    "am": "ባንክ",
+    "tr": "bank",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "die Bank",
+      "en": "bank",
+      "sv": "bank",
+      "nl": "bank",
+      "it": "la banca",
+      "es": "el banco"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏦",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_yebank_hisab",
+    "am": "የባንክ ሂሳብ",
+    "tr": "yebank hisab",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "das Bankkonto",
+      "en": "bank account",
+      "sv": "bankkonto",
+      "nl": "bankrekening",
+      "it": "il conto bancario",
+      "es": "la cuenta bancaria"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_kard",
+    "am": "ካርድ",
+    "tr": "kard",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "die Karte",
+      "en": "card",
+      "sv": "kort",
+      "nl": "kaart",
+      "it": "la carta",
+      "es": "la tarjeta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_v_masqemat",
+    "am": "ማስቀመጥ",
+    "tr": "masik'emet'",
+    "pos": "verb",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "einzahlen, sparen",
+      "en": "to deposit, to save",
+      "sv": "sätta in, spara",
+      "nl": "storten, sparen",
+      "it": "depositare, risparmiare",
+      "es": "depositar, ahorrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_v_mawitat",
+    "am": "ማውጣት",
+    "tr": "mawit'at",
+    "pos": "verb",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "abheben (Geld)",
+      "en": "to withdraw (money)",
+      "sv": "ta ut (pengar)",
+      "nl": "opnemen (geld)",
+      "it": "prelevare (denaro)",
+      "es": "retirar (dinero)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_weled",
+    "am": "ወለድ",
+    "tr": "weled",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "der Zins",
+      "en": "interest (banking)",
+      "sv": "ränta",
+      "nl": "rente",
+      "it": "l'interesse (bancario)",
+      "es": "el interés (bancario)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_chek",
+    "am": "ቼክ",
+    "tr": "chek",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "der Scheck",
+      "en": "check, cheque",
+      "sv": "check",
+      "nl": "cheque",
+      "it": "l'assegno",
+      "es": "el cheque"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_telegiram",
+    "am": "ቴሌግራም",
+    "tr": "telegiram",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "das Telegramm",
+      "en": "telegram",
+      "sv": "telegram",
+      "nl": "telegram",
+      "it": "il telegramma",
+      "es": "el telegrama"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_adirasha2",
+    "am": "አድራሻ",
+    "tr": "adirasha",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "die Adresse",
+      "en": "address",
+      "sv": "adress",
+      "nl": "adres",
+      "it": "l'indirizzo",
+      "es": "la dirección"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_v_melak",
+    "am": "መላክ",
+    "tr": "melak",
+    "pos": "verb",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "senden, schicken",
+      "en": "to send",
+      "sv": "skicka",
+      "nl": "versturen",
+      "it": "inviare, spedire",
+      "es": "enviar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_paket",
+    "am": "ፓኬት",
+    "tr": "paket",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "das Paket",
+      "en": "package, parcel",
+      "sv": "paket",
+      "nl": "pakket",
+      "it": "il pacco",
+      "es": "el paquete"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_bidir",
+    "am": "ብድር",
+    "tr": "bidir",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "das Darlehen, der Kredit",
+      "en": "loan",
+      "sv": "lån",
+      "nl": "lening",
+      "it": "il prestito",
+      "es": "el préstamo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_v_mabeder",
+    "am": "ማበደር",
+    "tr": "mabeder",
+    "pos": "verb",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "verleihen, ausleihen",
+      "en": "to lend",
+      "sv": "låna ut",
+      "nl": "uitlenen",
+      "it": "prestare",
+      "es": "prestar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hpb_keri",
+    "am": "ቀሪ",
+    "tr": "k'eri",
+    "pos": "noun",
+    "topic": "post_bank",
+    "level": "B2",
+    "t": {
+      "de": "der Rest, das Guthaben",
+      "en": "balance, remainder",
+      "sv": "saldo, rest",
+      "nl": "saldo, rest",
+      "it": "il saldo, il resto",
+      "es": "el saldo, el resto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

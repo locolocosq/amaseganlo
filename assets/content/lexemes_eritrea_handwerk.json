@@ -1,8 +1,110 @@
 [
-  {"id":"lex_ti_hwk_weav","am":"ሸማ ምሽራም","tr":"shema mishirami","pos":"noun","topic":"crafts","level":"TI","t":{"de":"das Weben","en":"weaving","sv":"vävning","nl":"weven"},"emoji":"","verified":false},
-  {"id":"lex_ti_hwk_pot","am":"ስራሕ ሸክላ","tr":"sirah shekla","pos":"noun","topic":"crafts","level":"TI","t":{"de":"die Töpferei","en":"pottery","sv":"keramik","nl":"pottenbakken"},"emoji":"🏺","verified":false},
-  {"id":"lex_ti_hwk_carve","am":"ቀሪጹ ሰርሐ","tr":"qeritsu serihe","pos":"verb","topic":"crafts","level":"TI","t":{"de":"schnitzen","en":"to carve","sv":"att snida","nl":"houtsnijden"},"emoji":"","verified":false},
-  {"id":"lex_ti_hwk_embr","am":"ጥልፊ","tr":"tilfi","pos":"noun","topic":"crafts","level":"TI","t":{"de":"die Stickerei","en":"embroidery","sv":"broderi","nl":"borduurwerk"},"emoji":"","verified":false},
-  {"id":"lex_ti_hwk_sblv","am":"ስራሕ ብራና","tr":"sirah birana","pos":"noun","topic":"crafts","level":"TI","t":{"de":"die Silberschmiedekunst","en":"silversmithing","sv":"silversmide","nl":"zilversmeden"},"emoji":"","verified":false},
-  {"id":"lex_ti_hwk_basket","am":"ኣቅሓ ገፀት","tr":"aqiha getset","pos":"noun","topic":"crafts","level":"TI","t":{"de":"die Korbflechterei","en":"basket weaving","sv":"korgflätning","nl":"mandenvlechten"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_hwk_weav",
+    "am": "ሸማ ምሽራም",
+    "tr": "shema mishirami",
+    "pos": "noun",
+    "topic": "crafts",
+    "level": "TI",
+    "t": {
+      "de": "das Weben",
+      "en": "weaving",
+      "sv": "vävning",
+      "nl": "weven",
+      "it": "la tessitura",
+      "es": "el tejido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwk_pot",
+    "am": "ስራሕ ሸክላ",
+    "tr": "sirah shekla",
+    "pos": "noun",
+    "topic": "crafts",
+    "level": "TI",
+    "t": {
+      "de": "die Töpferei",
+      "en": "pottery",
+      "sv": "keramik",
+      "nl": "pottenbakken",
+      "it": "la ceramica",
+      "es": "la cerámica"
+    },
+    "emoji": "🏺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwk_carve",
+    "am": "ቀሪጹ ሰርሐ",
+    "tr": "qeritsu serihe",
+    "pos": "verb",
+    "topic": "crafts",
+    "level": "TI",
+    "t": {
+      "de": "schnitzen",
+      "en": "to carve",
+      "sv": "att snida",
+      "nl": "houtsnijden",
+      "it": "intagliare",
+      "es": "tallar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwk_embr",
+    "am": "ጥልፊ",
+    "tr": "tilfi",
+    "pos": "noun",
+    "topic": "crafts",
+    "level": "TI",
+    "t": {
+      "de": "die Stickerei",
+      "en": "embroidery",
+      "sv": "broderi",
+      "nl": "borduurwerk",
+      "it": "il ricamo",
+      "es": "el bordado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwk_sblv",
+    "am": "ስራሕ ብራና",
+    "tr": "sirah birana",
+    "pos": "noun",
+    "topic": "crafts",
+    "level": "TI",
+    "t": {
+      "de": "die Silberschmiedekunst",
+      "en": "silversmithing",
+      "sv": "silversmide",
+      "nl": "zilversmeden",
+      "it": "l'arte orafa dell'argento",
+      "es": "la orfebrería en plata"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwk_basket",
+    "am": "ኣቅሓ ገፀት",
+    "tr": "aqiha getset",
+    "pos": "noun",
+    "topic": "crafts",
+    "level": "TI",
+    "t": {
+      "de": "die Korbflechterei",
+      "en": "basket weaving",
+      "sv": "korgflätning",
+      "nl": "mandenvlechten",
+      "it": "l'intreccio di ceste",
+      "es": "la cestería"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

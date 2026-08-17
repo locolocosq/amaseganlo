@@ -10,7 +10,9 @@
       "de": "eifersüchtig",
       "en": "jealous",
       "sv": "jalousk",
-      "nl": "jaloers"
+      "nl": "jaloers",
+      "it": "geloso",
+      "es": "celoso"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "erstaunt sein, sich wundern",
       "en": "to be amazed",
       "sv": "bli förvånad",
-      "nl": "verbaasd zijn"
+      "nl": "verbaasd zijn",
+      "it": "essere stupito, meravigliarsi",
+      "es": "estar asombrado, sorprenderse"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "besorgt sein, sich sorgen",
       "en": "to worry",
       "sv": "oroa sig",
-      "nl": "zich zorgen maken"
+      "nl": "zich zorgen maken",
+      "it": "essere preoccupato, preoccuparsi",
+      "es": "estar preocupado, preocuparse"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "verlegen/beschämt sein",
       "en": "to be embarrassed",
       "sv": "skämmas",
-      "nl": "zich schamen"
+      "nl": "zich schamen",
+      "it": "essere imbarazzato",
+      "es": "estar avergonzado"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Einsamkeit",
       "en": "loneliness",
       "sv": "ensamhet",
-      "nl": "eenzaamheid"
+      "nl": "eenzaamheid",
+      "it": "la solitudine",
+      "es": "la soledad"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "verwirrt sein",
       "en": "to be confused",
       "sv": "bli förvirrad",
-      "nl": "in de war zijn"
+      "nl": "in de war zijn",
+      "it": "essere confuso",
+      "es": "estar confundido"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "zufrieden sein",
       "en": "to be satisfied",
       "sv": "vara nöjd",
-      "nl": "tevreden zijn"
+      "nl": "tevreden zijn",
+      "it": "essere soddisfatto",
+      "es": "estar satisfecho"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "ruhig, still",
       "en": "calm, quiet",
       "sv": "lugn, tyst",
-      "nl": "kalm, stil"
+      "nl": "kalm, stil",
+      "it": "calmo, tranquillo",
+      "es": "tranquilo, calmado"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "die Neugier",
       "en": "curiosity",
       "sv": "nyfikenhet",
-      "nl": "nieuwsgierigheid"
+      "nl": "nieuwsgierigheid",
+      "it": "la curiosità",
+      "es": "la curiosidad"
     },
     "hint": {},
     "alt": {},

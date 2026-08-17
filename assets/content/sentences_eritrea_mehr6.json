@@ -11,7 +11,9 @@
       "de": "Es gibt das Gehege.",
       "en": "There is enclosure.",
       "sv": "Det finns inhägnad.",
-      "nl": "Er is dierenverblijf."
+      "nl": "Er is dierenverblijf.",
+      "it": "C'è il recinto.",
+      "es": "Hay un recinto."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Es gibt das Eis.",
       "en": "There is ice.",
       "sv": "Det finns is.",
-      "nl": "Er is ijs."
+      "nl": "Er is ijs.",
+      "it": "C'è il ghiaccio.",
+      "es": "Hay hielo."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Es gibt gebraucht.",
       "en": "There is used, second-hand.",
       "sv": "Det finns begagnad.",
-      "nl": "Er is tweedehands."
+      "nl": "Er is tweedehands.",
+      "it": "C'è usato.",
+      "es": "Hay usado, de segunda mano."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "Es gibt der Sehtest.",
       "en": "There is eye test.",
       "sv": "Det finns synundersökning.",
-      "nl": "Er is oogtest."
+      "nl": "Er is oogtest.",
+      "it": "C'è il test della vista.",
+      "es": "Hay examen de la vista."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "Es gibt brauen.",
       "en": "There is to brew.",
       "sv": "Det finns att brygga.",
-      "nl": "Er is brouwen."
+      "nl": "Er is brouwen.",
+      "it": "C'è fare la birra.",
+      "es": "Hay hacer cerveza."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Es gibt das Pflaster.",
       "en": "There is adhesive bandage.",
       "sv": "Det finns plåster.",
-      "nl": "Er is pleister."
+      "nl": "Er is pleister.",
+      "it": "C'è il cerotto.",
+      "es": "Hay una tirita."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "Es gibt die SIM-Karte.",
       "en": "There is SIM card.",
       "sv": "Det finns sim-kort.",
-      "nl": "Er is simkaart."
+      "nl": "Er is simkaart.",
+      "it": "C'è la scheda SIM.",
+      "es": "Hay tarjeta SIM."
     },
     "alt": {},
     "chunks": [
@@ -158,7 +172,9 @@
       "de": "Es gibt die Einkommensteuer.",
       "en": "There is income tax.",
       "sv": "Det finns inkomstskatt.",
-      "nl": "Er is inkomstenbelasting."
+      "nl": "Er is inkomstenbelasting.",
+      "it": "C'è l'imposta sul reddito.",
+      "es": "Hay impuesto sobre la renta."
     },
     "alt": {},
     "chunks": [
@@ -179,7 +195,9 @@
       "de": "Es gibt die Fassade.",
       "en": "There is facade.",
       "sv": "Det finns fasad.",
-      "nl": "Er is gevel."
+      "nl": "Er is gevel.",
+      "it": "C'è la facciata.",
+      "es": "Hay fachada."
     },
     "alt": {},
     "chunks": [
@@ -200,7 +218,9 @@
       "de": "Es gibt eine ältere Person.",
       "en": "There is elderly person.",
       "sv": "Det finns äldre person.",
-      "nl": "Er is oudere."
+      "nl": "Er is oudere.",
+      "it": "C'è una persona anziana.",
+      "es": "Hay una persona mayor."
     },
     "alt": {},
     "chunks": [
@@ -221,7 +241,9 @@
       "de": "Es gibt die Windkraft.",
       "en": "There is wind power.",
       "sv": "Det finns vindkraft.",
-      "nl": "Er is windenergie."
+      "nl": "Er is windenergie.",
+      "it": "C'è l'energia eolica.",
+      "es": "Hay energía eólica."
     },
     "alt": {},
     "chunks": [
@@ -242,7 +264,9 @@
       "de": "Es gibt der Metzger.",
       "en": "There is butcher.",
       "sv": "Det finns slaktare.",
-      "nl": "Er is slager."
+      "nl": "Er is slager.",
+      "it": "C'è il macellaio.",
+      "es": "Hay carnicero."
     },
     "alt": {},
     "chunks": [
@@ -263,7 +287,9 @@
       "de": "Es gibt das Benzin.",
       "en": "There is gasoline.",
       "sv": "Det finns bensin.",
-      "nl": "Er is benzine."
+      "nl": "Er is benzine.",
+      "it": "C'è la benzina.",
+      "es": "Hay gasolina."
     },
     "alt": {},
     "chunks": [
@@ -284,7 +310,9 @@
       "de": "Es gibt winken.",
       "en": "There is to wave.",
       "sv": "Det finns att vinka.",
-      "nl": "Er is zwaaien."
+      "nl": "Er is zwaaien.",
+      "it": "C'è salutare con la mano.",
+      "es": "Hay saludar con la mano."
     },
     "alt": {},
     "chunks": [
@@ -305,7 +333,9 @@
       "de": "Es gibt das Sammeln.",
       "en": "There is collecting.",
       "sv": "Det finns samlande.",
-      "nl": "Er is verzamelen."
+      "nl": "Er is verzamelen.",
+      "it": "C'è il collezionismo.",
+      "es": "Hay coleccionar."
     },
     "alt": {},
     "chunks": [
@@ -326,7 +356,9 @@
       "de": "Es gibt täglich.",
       "en": "There is daily.",
       "sv": "Det finns daglig.",
-      "nl": "Er is dagelijks."
+      "nl": "Er is dagelijks.",
+      "it": "C'è quotidiano.",
+      "es": "Hay diario."
     },
     "alt": {},
     "chunks": [
@@ -347,7 +379,9 @@
       "de": "Es gibt streiten.",
       "en": "There is to argue.",
       "sv": "Det finns att gräla.",
-      "nl": "Er is ruzie maken."
+      "nl": "Er is ruzie maken.",
+      "it": "C'è litigare.",
+      "es": "Hay discutir."
     },
     "alt": {},
     "chunks": [
@@ -368,7 +402,9 @@
       "de": "Es gibt sich erinnern.",
       "en": "There is to remember.",
       "sv": "Det finns att minnas.",
-      "nl": "Er is herinneren."
+      "nl": "Er is herinneren.",
+      "it": "C'è ricordare.",
+      "es": "Hay recordar."
     },
     "alt": {},
     "chunks": [
@@ -389,7 +425,9 @@
       "de": "Es gibt die Höflichkeit.",
       "en": "There is politeness.",
       "sv": "Det finns artighet.",
-      "nl": "Er is beleefdheid."
+      "nl": "Er is beleefdheid.",
+      "it": "C'è la cortesia.",
+      "es": "Hay cortesía."
     },
     "alt": {},
     "chunks": [
@@ -410,7 +448,9 @@
       "de": "Es gibt springen.",
       "en": "There is to jump.",
       "sv": "Det finns att hoppa.",
-      "nl": "Er is springen."
+      "nl": "Er is springen.",
+      "it": "C'è saltare.",
+      "es": "Hay saltar."
     },
     "alt": {},
     "chunks": [
@@ -431,7 +471,9 @@
       "de": "Es gibt laut.",
       "en": "There is loud.",
       "sv": "Det finns högljudd.",
-      "nl": "Er is luid."
+      "nl": "Er is luid.",
+      "it": "C'è forte, rumoroso.",
+      "es": "Hay fuerte, ruidoso."
     },
     "alt": {},
     "chunks": [
@@ -452,7 +494,9 @@
       "de": "Es gibt heiß.",
       "en": "There is hot.",
       "sv": "Det finns het, varm.",
-      "nl": "Er is heet."
+      "nl": "Er is heet.",
+      "it": "C'è caldo.",
+      "es": "Hay calor."
     },
     "alt": {},
     "chunks": [
@@ -473,7 +517,9 @@
       "de": "Es gibt voll.",
       "en": "There is full.",
       "sv": "Det finns full.",
-      "nl": "Er is vol."
+      "nl": "Er is vol.",
+      "it": "C'è pieno.",
+      "es": "Hay lleno."
     },
     "alt": {},
     "chunks": [
@@ -494,7 +540,9 @@
       "de": "Es gibt ändern.",
       "en": "There is to change.",
       "sv": "Det finns att ändra.",
-      "nl": "Er is veranderen."
+      "nl": "Er is veranderen.",
+      "it": "C'è cambiare.",
+      "es": "Hay cambiar."
     },
     "alt": {},
     "chunks": [
@@ -515,7 +563,9 @@
       "de": "Es gibt zwischen.",
       "en": "There is between, in the middle.",
       "sv": "Det finns mellan, i mitten.",
-      "nl": "Er is tussen, in het midden."
+      "nl": "Er is tussen, in het midden.",
+      "it": "C'è tra, in mezzo.",
+      "es": "Hay entre, en medio."
     },
     "alt": {},
     "chunks": [
@@ -536,7 +586,9 @@
       "de": "Es gibt und auch.",
       "en": "There is and also.",
       "sv": "Det finns och även.",
-      "nl": "Er is en ook."
+      "nl": "Er is en ook.",
+      "it": "C'è e anche.",
+      "es": "Hay y también."
     },
     "alt": {},
     "chunks": [
@@ -557,7 +609,9 @@
       "de": "Es gibt schönes Wetter.",
       "en": "There is nice weather.",
       "sv": "Det finns fint väder.",
-      "nl": "Er is mooi weer."
+      "nl": "Er is mooi weer.",
+      "it": "C'è bel tempo.",
+      "es": "Hay buen tiempo."
     },
     "alt": {},
     "chunks": [
@@ -578,7 +632,9 @@
       "de": "Es gibt wie war dein Tag.",
       "en": "There is how was your day.",
       "sv": "Det finns hur var din dag.",
-      "nl": "Er is hoe was je dag."
+      "nl": "Er is hoe was je dag.",
+      "it": "C'è come è andata la tua giornata.",
+      "es": "Hay cómo fue tu día."
     },
     "alt": {},
     "chunks": [
@@ -599,7 +655,9 @@
       "de": "Es gibt herzlichen Glückwunsch.",
       "en": "There is congratulations.",
       "sv": "Det finns grattis.",
-      "nl": "Er is gefeliciteerd."
+      "nl": "Er is gefeliciteerd.",
+      "it": "C'è congratulazioni.",
+      "es": "Hay felicidades."
     },
     "alt": {},
     "chunks": [

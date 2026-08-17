@@ -10,7 +10,9 @@
       "de": "die Ernte",
       "en": "harvest",
       "sv": "skörd",
-      "nl": "oogst"
+      "nl": "oogst",
+      "it": "il raccolto",
+      "es": "la cosecha"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Same(n)",
       "en": "seed",
       "sv": "frö",
-      "nl": "zaad"
+      "nl": "zaad",
+      "it": "il seme",
+      "es": "la semilla"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Boden, die Erde",
       "en": "soil",
       "sv": "jord",
-      "nl": "grond"
+      "nl": "grond",
+      "it": "il suolo, la terra",
+      "es": "el suelo, la tierra"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Pflug",
       "en": "plow",
       "sv": "plog",
-      "nl": "ploeg"
+      "nl": "ploeg",
+      "it": "l'aratro",
+      "es": "el arado"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Feldfrucht, das Erzeugnis",
       "en": "crop",
       "sv": "gröda",
-      "nl": "gewas"
+      "nl": "gewas",
+      "it": "la coltura, il prodotto agricolo",
+      "es": "el cultivo, el producto agrícola"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Vieh, die Tiere",
       "en": "livestock",
       "sv": "boskap",
-      "nl": "vee"
+      "nl": "vee",
+      "it": "il bestiame, gli animali",
+      "es": "el ganado, los animales"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Scheune",
       "en": "barn",
       "sv": "lada",
-      "nl": "schuur"
+      "nl": "schuur",
+      "it": "il fienile",
+      "es": "el granero"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Brunnen",
       "en": "well",
       "sv": "brunn",
-      "nl": "put"
+      "nl": "put",
+      "it": "il pozzo",
+      "es": "el pozo"
     },
     "hint": {},
     "alt": {},

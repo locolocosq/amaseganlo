@@ -6,7 +6,14 @@
     "pos": "pronoun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "ich", "en": "I", "sv": "jag", "nl": "ik" },
+    "t": {
+      "de": "ich",
+      "en": "I",
+      "sv": "jag",
+      "nl": "ik",
+      "it": "io",
+      "es": "yo"
+    },
     "emoji": "🙋",
     "verified": true
   },
@@ -17,12 +24,21 @@
     "pos": "pronoun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "du (zu einem Mann)", "en": "you (to a man)", "sv": "du (till en man)", "nl": "jij (tegen een man)" },
+    "t": {
+      "de": "du (zu einem Mann)",
+      "en": "you (to a man)",
+      "sv": "du (till en man)",
+      "nl": "jij (tegen een man)",
+      "it": "tu (a un uomo)",
+      "es": "tú (a un hombre)"
+    },
     "hint": {
       "de": "Amharisch unterscheidet die Anrede nach Geschlecht - siehe „anchi“.",
       "en": "Amharic distinguishes \"you\" by gender - see \"anchi\".",
       "sv": "Amhariska skiljer på tilltal efter kön - se \"anchi\".",
-      "nl": "Amhaars maakt onderscheid in aanspreekvorm naar geslacht - zie \"anchi\"."
+      "nl": "Amhaars maakt onderscheid in aanspreekvorm naar geslacht - zie \"anchi\".",
+      "it": "L'amarico distingue il \"tu\" in base al genere - vedi \"anchi\".",
+      "es": "El amárico distingue el \"tú\" según el género - mira \"anchi\"."
     },
     "emoji": "👤",
     "verified": true
@@ -34,7 +50,14 @@
     "pos": "pronoun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "du (zu einer Frau)", "en": "you (to a woman)", "sv": "du (till en kvinna)", "nl": "jij (tegen een vrouw)" },
+    "t": {
+      "de": "du (zu einer Frau)",
+      "en": "you (to a woman)",
+      "sv": "du (till en kvinna)",
+      "nl": "jij (tegen een vrouw)",
+      "it": "tu (a una donna)",
+      "es": "tú (a una mujer)"
+    },
     "emoji": "👤",
     "verified": true
   },
@@ -45,7 +68,14 @@
     "pos": "pronoun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "er", "en": "he", "sv": "han", "nl": "hij" },
+    "t": {
+      "de": "er",
+      "en": "he",
+      "sv": "han",
+      "nl": "hij",
+      "it": "lui",
+      "es": "él"
+    },
     "emoji": "👨",
     "verified": true
   },
@@ -56,7 +86,14 @@
     "pos": "pronoun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "sie", "en": "she", "sv": "hon", "nl": "zij" },
+    "t": {
+      "de": "sie",
+      "en": "she",
+      "sv": "hon",
+      "nl": "zij",
+      "it": "lei",
+      "es": "ella"
+    },
     "emoji": "👩",
     "verified": true
   },
@@ -67,7 +104,14 @@
     "pos": "pronoun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "wir", "en": "we", "sv": "vi", "nl": "wij" },
+    "t": {
+      "de": "wir",
+      "en": "we",
+      "sv": "vi",
+      "nl": "wij",
+      "it": "noi",
+      "es": "nosotros"
+    },
     "emoji": "👥",
     "verified": true
   },
@@ -78,7 +122,14 @@
     "pos": "noun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "der Name", "en": "name", "sv": "namnet", "nl": "de naam" },
+    "t": {
+      "de": "der Name",
+      "en": "name",
+      "sv": "namnet",
+      "nl": "de naam",
+      "it": "il nome",
+      "es": "el nombre"
+    },
     "emoji": "📛",
     "verified": false
   },
@@ -89,7 +140,14 @@
     "pos": "noun",
     "topic": "pronouns",
     "level": "A1.1",
-    "t": { "de": "Äthiopien", "en": "Ethiopia", "sv": "Etiopien", "nl": "Ethiopië" },
+    "t": {
+      "de": "Äthiopien",
+      "en": "Ethiopia",
+      "sv": "Etiopien",
+      "nl": "Ethiopië",
+      "it": "Etiopia",
+      "es": "Etiopía"
+    },
     "emoji": "🇪🇹",
     "verified": true
   }

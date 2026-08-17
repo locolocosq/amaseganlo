@@ -10,7 +10,9 @@
       "de": "die Gleichheit",
       "en": "equality",
       "sv": "jämlikhet",
-      "nl": "gelijkheid"
+      "nl": "gelijkheid",
+      "it": "l'uguaglianza",
+      "es": "la igualdad"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Diskriminierung",
       "en": "discrimination",
       "sv": "diskriminering",
-      "nl": "discriminatie"
+      "nl": "discriminatie",
+      "it": "la discriminazione",
+      "es": "la discriminación"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Minderheit",
       "en": "minority",
       "sv": "minoritet",
-      "nl": "minderheid"
+      "nl": "minderheid",
+      "it": "la minoranza",
+      "es": "la minoría"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Flüchtling, der Migrant",
       "en": "refugee, migrant",
       "sv": "flykting, migrant",
-      "nl": "vluchteling, migrant"
+      "nl": "vluchteling, migrant",
+      "it": "il rifugiato, il migrante",
+      "es": "el refugiado, el migrante"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "gerecht, fair",
       "en": "just, fair",
       "sv": "rättvis",
-      "nl": "rechtvaardig"
+      "nl": "rechtvaardig",
+      "it": "giusto, equo",
+      "es": "justo, equitativo"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "ungerecht, unfair",
       "en": "unjust, unfair",
       "sv": "orättvis",
-      "nl": "onrechtvaardig"
+      "nl": "onrechtvaardig",
+      "it": "ingiusto, iniquo",
+      "es": "injusto, inequitativo"
     },
     "hint": {},
     "alt": {},

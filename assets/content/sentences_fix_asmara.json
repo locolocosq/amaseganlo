@@ -11,7 +11,9 @@
       "de": "der Balkon ist vorhanden.",
       "en": "There is balcony.",
       "sv": "Det finns balkong.",
-      "nl": "Er is balkon."
+      "nl": "Er is balkon.",
+      "it": "C'è un balcone.",
+      "es": "Hay un balcón."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Ich habe den Hof, Zaun.",
       "en": "I have yard, fence.",
       "sv": "Jag har gård, staket.",
-      "nl": "Ik heb erf, hek."
+      "nl": "Ik heb erf, hek.",
+      "it": "Ho un cortile, una recinzione.",
+      "es": "Tengo un patio, una valla."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "die Türklingel ist vorhanden.",
       "en": "There is doorbell.",
       "sv": "Det finns dörrklocka.",
-      "nl": "Er is deurbel."
+      "nl": "Er is deurbel.",
+      "it": "C'è un campanello.",
+      "es": "Hay un timbre."
     },
     "alt": {},
     "chunks": [
@@ -75,7 +81,9 @@
       "de": "Ich habe die Wohnung.",
       "en": "I have apartment.",
       "sv": "Jag har lägenhet.",
-      "nl": "Ik heb appartement."
+      "nl": "Ik heb appartement.",
+      "it": "Ho un appartamento.",
+      "es": "Tengo un apartamento."
     },
     "alt": {},
     "chunks": [
@@ -96,7 +104,9 @@
       "de": "der Balkon ist vorhanden.",
       "en": "There is balcony.",
       "sv": "Det finns balkong.",
-      "nl": "Er is balkon."
+      "nl": "Er is balkon.",
+      "it": "C'è un balcone.",
+      "es": "Hay un balcón."
     },
     "alt": {},
     "chunks": [
@@ -117,7 +127,9 @@
       "de": "Ich habe den Hof, Zaun.",
       "en": "I have yard, fence.",
       "sv": "Jag har gård, staket.",
-      "nl": "Ik heb erf, hek."
+      "nl": "Ik heb erf, hek.",
+      "it": "Ho un cortile, una recinzione.",
+      "es": "Tengo un patio, una valla."
     },
     "alt": {},
     "chunks": [
@@ -138,7 +150,9 @@
       "de": "die Türklingel ist vorhanden.",
       "en": "There is doorbell.",
       "sv": "Det finns dörrklocka.",
-      "nl": "Er is deurbel."
+      "nl": "Er is deurbel.",
+      "it": "C'è un campanello.",
+      "es": "Hay un timbre."
     },
     "alt": {},
     "chunks": [
@@ -160,7 +174,9 @@
       "de": "Ich habe die Wohnung.",
       "en": "I have apartment.",
       "sv": "Jag har lägenhet.",
-      "nl": "Ik heb appartement."
+      "nl": "Ik heb appartement.",
+      "it": "Ho un appartamento.",
+      "es": "Tengo un apartamento."
     },
     "alt": {},
     "chunks": [
@@ -181,7 +197,9 @@
       "de": "der Bildschirm ist vorhanden.",
       "en": "There is screen.",
       "sv": "Det finns skärm.",
-      "nl": "Er is scherm."
+      "nl": "Er is scherm.",
+      "it": "C'è uno schermo.",
+      "es": "Hay una pantalla."
     },
     "alt": {},
     "chunks": [
@@ -202,7 +220,9 @@
       "de": "Ich habe die Tastatur.",
       "en": "I have keyboard.",
       "sv": "Jag har tangentbord.",
-      "nl": "Ik heb toetsenbord."
+      "nl": "Ik heb toetsenbord.",
+      "it": "Ho una tastiera.",
+      "es": "Tengo un teclado."
     },
     "alt": {},
     "chunks": [
@@ -224,7 +244,9 @@
       "de": "der Spiegel (Handspiegel) ist vorhanden.",
       "en": "There is hand mirror.",
       "sv": "Det finns handspegel.",
-      "nl": "Er is handspiegel."
+      "nl": "Er is handspiegel.",
+      "it": "C'è uno specchietto.",
+      "es": "Hay un espejo de mano."
     },
     "alt": {},
     "chunks": [
@@ -245,7 +267,9 @@
       "de": "Er ist hellblau.",
       "en": "He is light blue.",
       "sv": "Han är ljusblå.",
-      "nl": "Hij is lichtblauw."
+      "nl": "Hij is lichtblauw.",
+      "it": "È azzurro.",
+      "es": "Es azul claro."
     },
     "alt": {},
     "chunks": [
@@ -268,7 +292,9 @@
       "de": "Sie ist dunkelgrün.",
       "en": "She is dark green.",
       "sv": "Hon är mörkgrön.",
-      "nl": "Zij is donkergroen."
+      "nl": "Zij is donkergroen.",
+      "it": "È verde scuro.",
+      "es": "Es verde oscuro."
     },
     "alt": {},
     "chunks": [
@@ -291,7 +317,9 @@
       "de": "Er ist golden.",
       "en": "He is golden.",
       "sv": "Han är gyllene.",
-      "nl": "Hij is goudkleurig."
+      "nl": "Hij is goudkleurig.",
+      "it": "È dorato.",
+      "es": "Es dorado."
     },
     "alt": {},
     "chunks": [
@@ -313,7 +341,9 @@
       "de": "der Vermieter ist vorhanden.",
       "en": "There is landlord.",
       "sv": "Det finns hyresvärd.",
-      "nl": "Er is verhuurder."
+      "nl": "Er is verhuurder.",
+      "it": "C'è un padrone di casa.",
+      "es": "Hay un casero."
     },
     "alt": {},
     "chunks": [
@@ -335,7 +365,9 @@
       "de": "Ich habe den Nachbar.",
       "en": "I have neighbor.",
       "sv": "Jag har granne.",
-      "nl": "Ik heb buur."
+      "nl": "Ik heb buur.",
+      "it": "Ho un vicino.",
+      "es": "Tengo un vecino."
     },
     "alt": {},
     "chunks": [
@@ -356,7 +388,9 @@
       "de": "die Sonnencreme ist vorhanden.",
       "en": "There is sunscreen.",
       "sv": "Det finns solkräm.",
-      "nl": "Er is zonnebrand."
+      "nl": "Er is zonnebrand.",
+      "it": "C'è la crema solare.",
+      "es": "Hay crema solar."
     },
     "alt": {},
     "chunks": [
@@ -378,7 +412,9 @@
       "de": "die Linse (Hülsenfrucht) ist vorhanden.",
       "en": "There is lentil.",
       "sv": "Det finns lins (böna).",
-      "nl": "Er is linze."
+      "nl": "Er is linze.",
+      "it": "Ci sono le lenticchie.",
+      "es": "Hay lentejas."
     },
     "alt": {},
     "chunks": [
@@ -399,7 +435,9 @@
       "de": "der Videoanruf ist vorhanden.",
       "en": "There is video call.",
       "sv": "Det finns videosamtal.",
-      "nl": "Er is videogesprek."
+      "nl": "Er is videogesprek.",
+      "it": "C'è una videochiamata.",
+      "es": "Hay una videollamada."
     },
     "alt": {},
     "chunks": [

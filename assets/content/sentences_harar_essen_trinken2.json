@@ -1,6 +1,107 @@
 [
-  {"id":"sen_het2_injera_wet","am":"እንጀራ ከወጥ ጋር እበላለሁ።","tr":"injera kewet gar ibelalehu.","level":"B2","uses":["lex_het2_injera","lex_het2_wet","lex_het2_v_meblat"],"t":{"de":"Ich esse Injera mit Eintopf.","en":"I eat injera with stew.","sv":"Jag äter injera med gryta.","nl":"Ik eet injera met stoofpot."},"chunks":["injera","kewet","gar","ibelalehu"],"verified":false},
-  {"id":"sen_het2_dorowet_berbere","am":"ዶሮ ወጥ በበርበሬ ይሠራል።","tr":"doro wet beberbere yiserawal.","level":"B2","uses":["lex_het2_dorowet","lex_het2_berbere"],"t":{"de":"Hühnercurry wird mit Berbere gemacht.","en":"Chicken stew is made with berbere spice.","sv":"Kycklinggryta görs med berbere.","nl":"Kippenstoofpot wordt gemaakt met berbere."},"chunks":["doro","wet","beberbere","yiserawal"],"verified":false},
-  {"id":"sen_het2_kurs_dabo_ayib","am":"ለቁርስ ዳቦ እና አይብ በላሁ።","tr":"lek'urs dabo ina ayib belahu.","level":"B2","uses":["lex_het2_kurs","lex_het2_dabo","lex_het2_ayib"],"t":{"de":"Zum Frühstück habe ich Brot und Käse gegessen.","en":"For breakfast I ate bread and cheese.","sv":"Till frukost åt jag bröd och ost.","nl":"Als ontbijt at ik brood en kaas."},"chunks":["lek'urs","dabo","ina","ayib","belahu"],"verified":false},
-  {"id":"sen_het2_tej_tela","am":"ጠጅ እና ጠላ የኢትዮጵያ መጠጦች ናቸው።","tr":"t'ej ina t'ela yeitiyop'ya met'et'och nachew.","level":"B2","uses":["lex_het2_tej","lex_het2_tela"],"t":{"de":"Tej und Tella sind äthiopische Getränke.","en":"Tej and tella are Ethiopian drinks.","sv":"Tej och tella är etiopiska drycker.","nl":"Tej en tella zijn Ethiopische dranken."},"chunks":["t'ej","ina","t'ela","yeitiyop'ya","met'et'och","nachew"],"verified":false}
+  {
+    "id": "sen_het2_injera_wet",
+    "am": "እንጀራ ከወጥ ጋር እበላለሁ።",
+    "tr": "injera kewet gar ibelalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_het2_injera",
+      "lex_het2_wet",
+      "lex_het2_v_meblat"
+    ],
+    "t": {
+      "de": "Ich esse Injera mit Eintopf.",
+      "en": "I eat injera with stew.",
+      "sv": "Jag äter injera med gryta.",
+      "nl": "Ik eet injera met stoofpot.",
+      "it": "Mangio injera con lo stufato.",
+      "es": "Como injera con guiso."
+    },
+    "chunks": [
+      "injera",
+      "kewet",
+      "gar",
+      "ibelalehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_het2_dorowet_berbere",
+    "am": "ዶሮ ወጥ በበርበሬ ይሠራል።",
+    "tr": "doro wet beberbere yiserawal.",
+    "level": "B2",
+    "uses": [
+      "lex_het2_dorowet",
+      "lex_het2_berbere"
+    ],
+    "t": {
+      "de": "Hühnercurry wird mit Berbere gemacht.",
+      "en": "Chicken stew is made with berbere spice.",
+      "sv": "Kycklinggryta görs med berbere.",
+      "nl": "Kippenstoofpot wordt gemaakt met berbere.",
+      "it": "Il curry di pollo si prepara con il berbere.",
+      "es": "El curry de pollo se prepara con berbere."
+    },
+    "chunks": [
+      "doro",
+      "wet",
+      "beberbere",
+      "yiserawal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_het2_kurs_dabo_ayib",
+    "am": "ለቁርስ ዳቦ እና አይብ በላሁ።",
+    "tr": "lek'urs dabo ina ayib belahu.",
+    "level": "B2",
+    "uses": [
+      "lex_het2_kurs",
+      "lex_het2_dabo",
+      "lex_het2_ayib"
+    ],
+    "t": {
+      "de": "Zum Frühstück habe ich Brot und Käse gegessen.",
+      "en": "For breakfast I ate bread and cheese.",
+      "sv": "Till frukost åt jag bröd och ost.",
+      "nl": "Als ontbijt at ik brood en kaas.",
+      "it": "A colazione ho mangiato pane e formaggio.",
+      "es": "En el desayuno comí pan y queso."
+    },
+    "chunks": [
+      "lek'urs",
+      "dabo",
+      "ina",
+      "ayib",
+      "belahu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_het2_tej_tela",
+    "am": "ጠጅ እና ጠላ የኢትዮጵያ መጠጦች ናቸው።",
+    "tr": "t'ej ina t'ela yeitiyop'ya met'et'och nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_het2_tej",
+      "lex_het2_tela"
+    ],
+    "t": {
+      "de": "Tej und Tella sind äthiopische Getränke.",
+      "en": "Tej and tella are Ethiopian drinks.",
+      "sv": "Tej och tella är etiopiska drycker.",
+      "nl": "Tej en tella zijn Ethiopische dranken.",
+      "it": "Il tej e la tella sono bevande etiopi.",
+      "es": "El tej y la tella son bebidas etíopes."
+    },
+    "chunks": [
+      "t'ej",
+      "ina",
+      "t'ela",
+      "yeitiyop'ya",
+      "met'et'och",
+      "nachew"
+    ],
+    "verified": false
+  }
 ]

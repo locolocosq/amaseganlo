@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_erh_plstr","am":"ላስቲክ ቁስሊ","tr":"lastik qusli","pos":"noun","topic":"first_aid","level":"TI","t":{"de":"das Pflaster","en":"adhesive bandage","sv":"plåster","nl":"pleister"},"emoji":"🩹","verified":false},
-  {"id":"lex_ti_erh_kit","am":"ናይ ህጹጽ ረድኤት ሳንዱቕ","tr":"nay hitsuts red'et sanduq","pos":"noun","topic":"first_aid","level":"TI","t":{"de":"das Erste-Hilfe-Set","en":"first aid kit","sv":"första hjälpen-låda","nl":"EHBO-kit"},"emoji":"🩺","verified":false},
-  {"id":"lex_ti_erh_wound","am":"ቁስሊ","tr":"qusli","pos":"noun","topic":"first_aid","level":"TI","t":{"de":"die Wunde","en":"wound","sv":"sår","nl":"wond"},"emoji":"","verified":false},
-  {"id":"lex_ti_erh_burn","am":"ቃጸሎ","tr":"qatselo","pos":"noun","topic":"first_aid","level":"TI","t":{"de":"die Verbrennung","en":"burn (injury)","sv":"brännskada","nl":"brandwond"},"emoji":"","verified":false},
-  {"id":"lex_ti_erh_faint","am":"ዕለብጠ","tr":"'ilebite","pos":"verb","topic":"first_aid","level":"TI","t":{"de":"ohnmächtig werden","en":"to faint","sv":"att svimma","nl":"flauwvallen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_erh_plstr",
+    "am": "ላስቲክ ቁስሊ",
+    "tr": "lastik qusli",
+    "pos": "noun",
+    "topic": "first_aid",
+    "level": "TI",
+    "t": {
+      "de": "das Pflaster",
+      "en": "adhesive bandage",
+      "sv": "plåster",
+      "nl": "pleister",
+      "it": "il cerotto",
+      "es": "la tirita"
+    },
+    "emoji": "🩹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_erh_kit",
+    "am": "ናይ ህጹጽ ረድኤት ሳንዱቕ",
+    "tr": "nay hitsuts red'et sanduq",
+    "pos": "noun",
+    "topic": "first_aid",
+    "level": "TI",
+    "t": {
+      "de": "das Erste-Hilfe-Set",
+      "en": "first aid kit",
+      "sv": "första hjälpen-låda",
+      "nl": "EHBO-kit",
+      "it": "il kit di pronto soccorso",
+      "es": "el botiquín de primeros auxilios"
+    },
+    "emoji": "🩺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_erh_wound",
+    "am": "ቁስሊ",
+    "tr": "qusli",
+    "pos": "noun",
+    "topic": "first_aid",
+    "level": "TI",
+    "t": {
+      "de": "die Wunde",
+      "en": "wound",
+      "sv": "sår",
+      "nl": "wond",
+      "it": "la ferita",
+      "es": "la herida"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_erh_burn",
+    "am": "ቃጸሎ",
+    "tr": "qatselo",
+    "pos": "noun",
+    "topic": "first_aid",
+    "level": "TI",
+    "t": {
+      "de": "die Verbrennung",
+      "en": "burn (injury)",
+      "sv": "brännskada",
+      "nl": "brandwond",
+      "it": "l'ustione",
+      "es": "la quemadura"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_erh_faint",
+    "am": "ዕለብጠ",
+    "tr": "'ilebite",
+    "pos": "verb",
+    "topic": "first_aid",
+    "level": "TI",
+    "t": {
+      "de": "ohnmächtig werden",
+      "en": "to faint",
+      "sv": "att svimma",
+      "nl": "flauwvallen",
+      "it": "svenire",
+      "es": "desmayarse"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

@@ -6,7 +6,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "das Wasser", "en": "water", "sv": "vatten", "nl": "water" },
+    "t": {
+      "de": "das Wasser",
+      "en": "water",
+      "sv": "vatten",
+      "nl": "water",
+      "it": "l'acqua",
+      "es": "el agua"
+    },
     "emoji": "💧",
     "verified": false
   },
@@ -17,12 +24,21 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "der Kaffee", "en": "coffee", "sv": "kaffe", "nl": "koffie" },
+    "t": {
+      "de": "der Kaffee",
+      "en": "coffee",
+      "sv": "kaffe",
+      "nl": "koffie",
+      "it": "il caffè",
+      "es": "el café"
+    },
     "hint": {
       "de": "Eritrea teilt die Kaffeekultur mit Äthiopien - das Wort ist eng mit dem amharischen „bunna“ verwandt.",
       "en": "Eritrea shares its coffee culture with Ethiopia - closely related to the Amharic word \"bunna\".",
       "sv": "Eritrea delar sin kaffekultur med Etiopien - nära besläktat med det amhariska ordet \"bunna\".",
-      "nl": "Eritrea deelt zijn koffiecultuur met Ethiopië - nauw verwant aan het Amhaarse woord \"bunna\"."
+      "nl": "Eritrea deelt zijn koffiecultuur met Ethiopië - nauw verwant aan het Amhaarse woord \"bunna\".",
+      "it": "L'Eritrea condivide la cultura del caffè con l'Etiopia - la parola è strettamente legata al termine amarico «bunna».",
+      "es": "Eritrea comparte su cultura del café con Etiopía - está estrechamente relacionada con la palabra amárica «bunna»."
     },
     "emoji": "☕",
     "verified": false
@@ -34,7 +50,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "das Brot", "en": "bread", "sv": "bröd", "nl": "brood" },
+    "t": {
+      "de": "das Brot",
+      "en": "bread",
+      "sv": "bröd",
+      "nl": "brood",
+      "it": "il pane",
+      "es": "el pan"
+    },
     "emoji": "🍞",
     "verified": false
   },
@@ -45,7 +68,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "der Eintopf, die Sauce", "en": "stew, sauce", "sv": "gryta, sås", "nl": "stoofpot, saus" },
+    "t": {
+      "de": "der Eintopf, die Sauce",
+      "en": "stew, sauce",
+      "sv": "gryta, sås",
+      "nl": "stoofpot, saus",
+      "it": "lo stufato, la salsa",
+      "es": "el guiso, la salsa"
+    },
     "emoji": "🍲",
     "verified": false
   },
@@ -56,7 +86,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "die Milch", "en": "milk", "sv": "mjölk", "nl": "melk" },
+    "t": {
+      "de": "die Milch",
+      "en": "milk",
+      "sv": "mjölk",
+      "nl": "melk",
+      "it": "il latte",
+      "es": "la leche"
+    },
     "emoji": "🥛",
     "verified": false
   },
@@ -67,7 +104,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "die Gewürzmischung", "en": "spice blend", "sv": "kryddblandning", "nl": "kruidenmix" },
+    "t": {
+      "de": "die Gewürzmischung",
+      "en": "spice blend",
+      "sv": "kryddblandning",
+      "nl": "kruidenmix",
+      "it": "il mix di spezie",
+      "es": "la mezcla de especias"
+    },
     "emoji": "🌶️",
     "verified": false
   },
@@ -78,7 +122,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "das Fleisch", "en": "meat", "sv": "kött", "nl": "vlees" },
+    "t": {
+      "de": "das Fleisch",
+      "en": "meat",
+      "sv": "kött",
+      "nl": "vlees",
+      "it": "la carne",
+      "es": "la carne"
+    },
     "emoji": "🍖",
     "verified": false
   },
@@ -89,7 +140,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "der Tee", "en": "tea", "sv": "te", "nl": "thee" },
+    "t": {
+      "de": "der Tee",
+      "en": "tea",
+      "sv": "te",
+      "nl": "thee",
+      "it": "il tè",
+      "es": "el té"
+    },
     "emoji": "🍵",
     "verified": false
   },
@@ -100,7 +158,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "das Essen", "en": "food", "sv": "mat", "nl": "eten" },
+    "t": {
+      "de": "das Essen",
+      "en": "food",
+      "sv": "mat",
+      "nl": "eten",
+      "it": "il cibo",
+      "es": "la comida"
+    },
     "emoji": "🍽️",
     "verified": false
   },
@@ -111,7 +176,14 @@
     "pos": "noun",
     "topic": "food",
     "level": "TI",
-    "t": { "de": "der Fisch", "en": "fish", "sv": "fisk", "nl": "vis" },
+    "t": {
+      "de": "der Fisch",
+      "en": "fish",
+      "sv": "fisk",
+      "nl": "vis",
+      "it": "il pesce",
+      "es": "el pescado"
+    },
     "emoji": "🐟",
     "verified": false
   }

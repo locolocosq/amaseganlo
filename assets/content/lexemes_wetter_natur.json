@@ -10,7 +10,9 @@
       "de": "die Sonne",
       "en": "sun",
       "sv": "sol",
-      "nl": "zon"
+      "nl": "zon",
+      "it": "il sole",
+      "es": "el sol"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Regen",
       "en": "rain",
       "sv": "regn",
-      "nl": "regen"
+      "nl": "regen",
+      "it": "la pioggia",
+      "es": "la lluvia"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Wind",
       "en": "wind",
       "sv": "vind",
-      "nl": "wind"
+      "nl": "wind",
+      "it": "il vento",
+      "es": "el viento"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Berg",
       "en": "mountain",
       "sv": "berg",
-      "nl": "berg"
+      "nl": "berg",
+      "it": "la montagna",
+      "es": "la montaña"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Fluss",
       "en": "river",
       "sv": "flod",
-      "nl": "rivier"
+      "nl": "rivier",
+      "it": "il fiume",
+      "es": "el río"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Baum",
       "en": "tree",
       "sv": "träd",
-      "nl": "boom"
+      "nl": "boom",
+      "it": "l'albero",
+      "es": "el árbol"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "das Tier",
       "en": "animal",
       "sv": "djur",
-      "nl": "dier"
+      "nl": "dier",
+      "it": "l'animale",
+      "es": "el animal"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Hund",
       "en": "dog",
       "sv": "hund",
-      "nl": "hond"
+      "nl": "hond",
+      "it": "il cane",
+      "es": "el perro"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "die Katze",
       "en": "cat",
       "sv": "katt",
-      "nl": "kat"
+      "nl": "kat",
+      "it": "il gatto",
+      "es": "el gato"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "der Vogel",
       "en": "bird",
       "sv": "fågel",
-      "nl": "vogel"
+      "nl": "vogel",
+      "it": "l'uccello",
+      "es": "el pájaro"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Himmel",
       "en": "sky",
       "sv": "himmel",
-      "nl": "lucht"
+      "nl": "lucht",
+      "it": "il cielo",
+      "es": "el cielo"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Wolke",
       "en": "cloud",
       "sv": "moln",
-      "nl": "wolk"
+      "nl": "wolk",
+      "it": "la nuvola",
+      "es": "la nube"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "der Schnee, das Eis",
       "en": "snow, ice",
       "sv": "snö, is",
-      "nl": "sneeuw, ijs"
+      "nl": "sneeuw, ijs",
+      "it": "la neve, il ghiaccio",
+      "es": "la nieve, el hielo"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "die Blume",
       "en": "flower",
       "sv": "blomma",
-      "nl": "bloem"
+      "nl": "bloem",
+      "it": "il fiore",
+      "es": "la flor"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "das Wetter",
       "en": "weather",
       "sv": "väder",
-      "nl": "weer"
+      "nl": "weer",
+      "it": "il tempo (meteo)",
+      "es": "el tiempo (clima)"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "der Wald",
       "en": "forest",
       "sv": "skog",
-      "nl": "bos"
+      "nl": "bos",
+      "it": "il bosco",
+      "es": "el bosque"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "der See",
       "en": "lake",
       "sv": "sjö",
-      "nl": "meer"
+      "nl": "meer",
+      "it": "il lago",
+      "es": "el lago"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "das Meer, der Ozean",
       "en": "sea, ocean",
       "sv": "hav, ocean",
-      "nl": "zee, oceaan"
+      "nl": "zee, oceaan",
+      "it": "il mare, l'oceano",
+      "es": "el mar, el océano"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "der Stern",
       "en": "star",
       "sv": "stjärna",
-      "nl": "ster"
+      "nl": "ster",
+      "it": "la stella",
+      "es": "la estrella"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "der Mond",
       "en": "moon",
       "sv": "måne",
-      "nl": "maan"
+      "nl": "maan",
+      "it": "la luna",
+      "es": "la luna"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "das Feuer",
       "en": "fire",
       "sv": "eld",
-      "nl": "vuur"
+      "nl": "vuur",
+      "it": "il fuoco",
+      "es": "el fuego"
     },
     "hint": {},
     "alt": {},
@@ -388,7 +430,9 @@
       "de": "die Erde, der Boden",
       "en": "earth, ground",
       "sv": "jord, mark",
-      "nl": "aarde, grond"
+      "nl": "aarde, grond",
+      "it": "la terra, il suolo",
+      "es": "la tierra, el suelo"
     },
     "hint": {},
     "alt": {},
@@ -406,7 +450,9 @@
       "de": "die Luft",
       "en": "air",
       "sv": "luft",
-      "nl": "lucht"
+      "nl": "lucht",
+      "it": "l'aria",
+      "es": "el aire"
     },
     "hint": {},
     "alt": {},
@@ -424,7 +470,9 @@
       "de": "der Löwe",
       "en": "lion",
       "sv": "lejon",
-      "nl": "leeuw"
+      "nl": "leeuw",
+      "it": "il leone",
+      "es": "el león"
     },
     "hint": {},
     "alt": {},
@@ -442,7 +490,9 @@
       "de": "der Elefant",
       "en": "elephant",
       "sv": "elefant",
-      "nl": "olifant"
+      "nl": "olifant",
+      "it": "l'elefante",
+      "es": "el elefante"
     },
     "hint": {},
     "alt": {},
@@ -460,7 +510,9 @@
       "de": "der Affe",
       "en": "monkey",
       "sv": "apa",
-      "nl": "aap"
+      "nl": "aap",
+      "it": "la scimmia",
+      "es": "el mono"
     },
     "hint": {},
     "alt": {},
@@ -478,7 +530,9 @@
       "de": "die Schlange",
       "en": "snake",
       "sv": "orm",
-      "nl": "slang"
+      "nl": "slang",
+      "it": "il serpente",
+      "es": "la serpiente"
     },
     "hint": {},
     "alt": {},
@@ -496,7 +550,9 @@
       "de": "der Fisch",
       "en": "fish",
       "sv": "fisk",
-      "nl": "vis"
+      "nl": "vis",
+      "it": "il pesce",
+      "es": "el pez"
     },
     "hint": {},
     "alt": {},

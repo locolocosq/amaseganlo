@@ -10,7 +10,9 @@
       "de": "obwohl",
       "en": "although",
       "sv": "även om",
-      "nl": "hoewel"
+      "nl": "hoewel",
+      "it": "sebbene, benché",
+      "es": "aunque"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "wenn, falls",
       "en": "if",
       "sv": "om",
-      "nl": "als"
+      "nl": "als",
+      "it": "se",
+      "es": "si"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "wann (als)",
       "en": "when",
       "sv": "när",
-      "nl": "wanneer"
+      "nl": "wanneer",
+      "it": "quando",
+      "es": "cuando"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "während",
       "en": "while",
       "sv": "medan",
-      "nl": "terwijl"
+      "nl": "terwijl",
+      "it": "mentre",
+      "es": "mientras"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "seit, seitdem",
       "en": "since",
       "sv": "sedan",
-      "nl": "sinds"
+      "nl": "sinds",
+      "it": "da quando",
+      "es": "desde que"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "deshalb, deswegen",
       "en": "therefore",
       "sv": "därför",
-      "nl": "daarom"
+      "nl": "daarom",
+      "it": "perciò, quindi",
+      "es": "por eso, por lo tanto"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "außer wenn, es sei denn",
       "en": "unless",
       "sv": "om inte",
-      "nl": "tenzij"
+      "nl": "tenzij",
+      "it": "a meno che",
+      "es": "a menos que"
     },
     "hint": {},
     "alt": {},

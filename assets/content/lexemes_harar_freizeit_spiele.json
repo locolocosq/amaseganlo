@@ -1,11 +1,182 @@
 [
-  {"id":"lex_hfs_chewata2","am":"ጨዋታ","tr":"chewata","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"das Spiel","en":"game, play","sv":"spel","nl":"spel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_gebeta","am":"ገበጣ","tr":"gebet'a","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"traditionelles Brettspiel","en":"traditional board game","sv":"traditionellt brädspel","nl":"traditioneel bordspel"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hfs_v_mechawet","am":"መጫወት","tr":"mechawet","pos":"verb","topic":"leisure_games","level":"B2","t":{"de":"spielen","en":"to play","sv":"leka, spela","nl":"spelen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_beal2","am":"በዓል","tr":"be'al","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"das Fest, Feiertag","en":"festival, holiday","sv":"högtid","nl":"feestdag"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_chez","am":"ቼዝ","tr":"chez","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"das Schach","en":"chess","sv":"schack","nl":"schaak"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_meda2","am":"ሜዳ","tr":"meda","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"der Spielplatz, das Feld","en":"playground, field","sv":"lekplats, fält","nl":"speelveld"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_gibiza","am":"ግብዣ","tr":"gibiza","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"die Einladung, das Festessen","en":"invitation, feast","sv":"inbjudan, fest","nl":"uitnodiging, feestmaal"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_adj_azinagn","am":"አዝናኝ","tr":"azinagn","pos":"adjective","topic":"leisure_games","level":"B2","t":{"de":"unterhaltsam","en":"entertaining, fun","sv":"underhållande","nl":"vermakelijk"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hfs_mezinagna","am":"መዝናኛ","tr":"mezinagna","pos":"noun","topic":"leisure_games","level":"B2","t":{"de":"die Unterhaltung, Freizeit","en":"entertainment, recreation","sv":"underhållning","nl":"vermaak"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hfs_chewata2",
+    "am": "ጨዋታ",
+    "tr": "chewata",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "das Spiel",
+      "en": "game, play",
+      "sv": "spel",
+      "nl": "spel",
+      "it": "il gioco",
+      "es": "el juego"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_gebeta",
+    "am": "ገበጣ",
+    "tr": "gebet'a",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "traditionelles Brettspiel",
+      "en": "traditional board game",
+      "sv": "traditionellt brädspel",
+      "nl": "traditioneel bordspel",
+      "it": "gioco da tavolo tradizionale",
+      "es": "juego de mesa tradicional"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hfs_v_mechawet",
+    "am": "መጫወት",
+    "tr": "mechawet",
+    "pos": "verb",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "spielen",
+      "en": "to play",
+      "sv": "leka, spela",
+      "nl": "spelen",
+      "it": "giocare",
+      "es": "jugar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_beal2",
+    "am": "በዓል",
+    "tr": "be'al",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "das Fest, Feiertag",
+      "en": "festival, holiday",
+      "sv": "högtid",
+      "nl": "feestdag",
+      "it": "la festa, il giorno festivo",
+      "es": "la fiesta, el día festivo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_chez",
+    "am": "ቼዝ",
+    "tr": "chez",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "das Schach",
+      "en": "chess",
+      "sv": "schack",
+      "nl": "schaak",
+      "it": "gli scacchi",
+      "es": "el ajedrez"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_meda2",
+    "am": "ሜዳ",
+    "tr": "meda",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "der Spielplatz, das Feld",
+      "en": "playground, field",
+      "sv": "lekplats, fält",
+      "nl": "speelveld",
+      "it": "il parco giochi, il campo",
+      "es": "el patio de juegos, el campo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_gibiza",
+    "am": "ግብዣ",
+    "tr": "gibiza",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "die Einladung, das Festessen",
+      "en": "invitation, feast",
+      "sv": "inbjudan, fest",
+      "nl": "uitnodiging, feestmaal",
+      "it": "l'invito, il banchetto",
+      "es": "la invitación, el banquete"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_adj_azinagn",
+    "am": "አዝናኝ",
+    "tr": "azinagn",
+    "pos": "adjective",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "unterhaltsam",
+      "en": "entertaining, fun",
+      "sv": "underhållande",
+      "nl": "vermakelijk",
+      "it": "divertente",
+      "es": "divertido"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hfs_mezinagna",
+    "am": "መዝናኛ",
+    "tr": "mezinagna",
+    "pos": "noun",
+    "topic": "leisure_games",
+    "level": "B2",
+    "t": {
+      "de": "die Unterhaltung, Freizeit",
+      "en": "entertainment, recreation",
+      "sv": "underhållning",
+      "nl": "vermaak",
+      "it": "l'intrattenimento, lo svago",
+      "es": "el entretenimiento, el ocio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

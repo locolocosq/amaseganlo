@@ -11,7 +11,9 @@
       "de": "Es gibt die Rakete.",
       "en": "There is rocket.",
       "sv": "Det finns raket.",
-      "nl": "Er is raket."
+      "nl": "Er is raket.",
+      "it": "C'è razzo.",
+      "es": "Hay cohete."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Es gibt das Element.",
       "en": "There is element (chemistry).",
       "sv": "Det finns grundämne.",
-      "nl": "Er is element (scheikunde)."
+      "nl": "Er is element (scheikunde).",
+      "it": "C'è elemento.",
+      "es": "Hay elemento."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Es gibt der Löwe.",
       "en": "There is lion.",
       "sv": "Det finns lejon.",
-      "nl": "Er is leeuw."
+      "nl": "Er is leeuw.",
+      "it": "C'è leone.",
+      "es": "Hay león."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "Es gibt der Stecker.",
       "en": "There is plug.",
       "sv": "Det finns kontakt (el).",
-      "nl": "Er is stekker."
+      "nl": "Er is stekker.",
+      "it": "C'è spina.",
+      "es": "Hay enchufe."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "Es gibt das Feuer.",
       "en": "There is fire.",
       "sv": "Det finns eld.",
-      "nl": "Er is vuur."
+      "nl": "Er is vuur.",
+      "it": "C'è fuoco.",
+      "es": "Hay fuego."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Es gibt der Flügel.",
       "en": "There is wing (airplane).",
       "sv": "Det finns vinge (flygplan).",
-      "nl": "Er is vleugel (vliegtuig)."
+      "nl": "Er is vleugel (vliegtuig).",
+      "it": "C'è ala (aereo).",
+      "es": "Hay ala (avión)."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "Es gibt die Schere.",
       "en": "There is scissors.",
       "sv": "Det finns sax.",
-      "nl": "Er is schaar."
+      "nl": "Er is schaar.",
+      "it": "Ci sono forbici.",
+      "es": "Hay tijeras."
     },
     "alt": {},
     "chunks": [
@@ -158,7 +172,9 @@
       "de": "Es gibt der Rasen.",
       "en": "There is lawn.",
       "sv": "Det finns gräsmatta.",
-      "nl": "Er is gazon."
+      "nl": "Er is gazon.",
+      "it": "C'è prato.",
+      "es": "Hay césped."
     },
     "alt": {},
     "chunks": [
@@ -179,7 +195,9 @@
       "de": "Es gibt das Brautkleid.",
       "en": "There is wedding dress.",
       "sv": "Det finns bröllopsklänning.",
-      "nl": "Er is trouwjurk."
+      "nl": "Er is trouwjurk.",
+      "it": "C'è abito da sposa.",
+      "es": "Hay vestido de novia."
     },
     "alt": {},
     "chunks": [
@@ -200,7 +218,9 @@
       "de": "Es gibt der Würfel.",
       "en": "There is dice.",
       "sv": "Det finns tärning.",
-      "nl": "Er is dobbelsteen."
+      "nl": "Er is dobbelsteen.",
+      "it": "C'è dado.",
+      "es": "Hay dado."
     },
     "alt": {},
     "chunks": [
@@ -221,7 +241,9 @@
       "de": "Es gibt das Segel.",
       "en": "There is sail.",
       "sv": "Det finns segel.",
-      "nl": "Er is zeil."
+      "nl": "Er is zeil.",
+      "it": "C'è vela.",
+      "es": "Hay vela."
     },
     "alt": {},
     "chunks": [
@@ -242,7 +264,9 @@
       "de": "Es gibt die Alarmanlage.",
       "en": "There is security alarm.",
       "sv": "Det finns larmsystem.",
-      "nl": "Er is alarmsysteem."
+      "nl": "Er is alarmsysteem.",
+      "it": "C'è allarme di sicurezza.",
+      "es": "Hay alarma de seguridad."
     },
     "alt": {},
     "chunks": [
@@ -263,7 +287,9 @@
       "de": "Es gibt das Konzert.",
       "en": "There is concert.",
       "sv": "Det finns konsert.",
-      "nl": "Er is concert."
+      "nl": "Er is concert.",
+      "it": "C'è concerto.",
+      "es": "Hay concierto."
     },
     "alt": {},
     "chunks": [
@@ -284,7 +310,9 @@
       "de": "Es gibt die Baumwolle.",
       "en": "There is cotton.",
       "sv": "Det finns bomull.",
-      "nl": "Er is katoen."
+      "nl": "Er is katoen.",
+      "it": "C'è cotone.",
+      "es": "Hay algodón."
     },
     "alt": {},
     "chunks": [
@@ -305,7 +333,9 @@
       "de": "Es gibt der Staubsauger.",
       "en": "There is vacuum cleaner.",
       "sv": "Det finns dammsugare.",
-      "nl": "Er is stofzuiger."
+      "nl": "Er is stofzuiger.",
+      "it": "C'è aspirapolvere.",
+      "es": "Hay aspiradora."
     },
     "alt": {},
     "chunks": [
@@ -326,7 +356,9 @@
       "de": "Es gibt die Sonnenbrille.",
       "en": "There is sunglasses.",
       "sv": "Det finns solglasögon.",
-      "nl": "Er is zonnebril."
+      "nl": "Er is zonnebril.",
+      "it": "Ci sono occhiali da sole.",
+      "es": "Hay gafas de sol."
     },
     "alt": {},
     "chunks": [
@@ -347,7 +379,9 @@
       "de": "Es gibt die Schreibfeder.",
       "en": "There is writing pen.",
       "sv": "Det finns skrivpenna.",
-      "nl": "Er is schrijfpen."
+      "nl": "Er is schrijfpen.",
+      "it": "C'è penna da scrittura.",
+      "es": "Hay pluma de escribir."
     },
     "alt": {},
     "chunks": [

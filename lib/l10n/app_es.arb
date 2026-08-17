@@ -1,0 +1,468 @@
+{
+  "@@locale": "es",
+  "appTitle": "Habesha Speak",
+  "navLearn": "Aprender",
+  "navFidel": "Fidel",
+  "navReview": "Repasar",
+  "navProfile": "Perfil",
+  "commonBack": "Atrás",
+  "commonNext": "Siguiente",
+  "commonContinue": "Continuar",
+  "commonCancel": "Cancelar",
+  "commonConfirm": "Confirmar",
+  "commonClose": "Cerrar",
+  "commonSave": "Guardar",
+  "commonRetry": "Intentar de nuevo",
+  "commonYes": "Sí",
+  "commonNo": "No",
+  "commonLoading": "Cargando…",
+  "commonComingSoon": "Próximamente",
+  "commonDontKnow": "No lo sé",
+  "commonSkip": "Saltar",
+  "settingsTitle": "Ajustes",
+  "settingsLanguage": "Idioma de la app",
+  "settingsAppearance": "Apariencia",
+  "appearanceLight": "Claro",
+  "appearanceDark": "Oscuro",
+  "appearanceSystem": "Sistema",
+  "settingsFontSize": "Tamaño del texto",
+  "fontSizeSmall": "Pequeño",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Grande",
+  "fontSizeExtraLarge": "Muy grande",
+  "settingsShowFidelInMainPath": "Mostrar la escritura Fidel en el camino principal",
+  "fidelDisplayNever": "Nunca",
+  "fidelDisplayBelow": "Debajo de la transliteración",
+  "fidelDisplayInstead": "En lugar de la transliteración",
+  "settingsSound": "Sonido",
+  "settingsVolume": "Volumen",
+  "settingsAutoPlayNewWords": "Reproducir automáticamente las palabras nuevas",
+  "settingsSpeechRate": "Velocidad de reproducción de voz",
+  "speechRateSlow": "Lenta (0,5×)",
+  "speechRateMedium": "Media (0,75×)",
+  "speechRateNormal": "Normal (1×)",
+  "settingsDailyGoal": "Objetivo diario",
+  "dailyGoalRelaxed": "Relajado · 20 XP",
+  "dailyGoalNormal": "Normal · 50 XP",
+  "dailyGoalAmbitious": "Ambicioso · 100 XP",
+  "settingsMoreOptions": "Más opciones",
+  "settingsUseHearts": "Usar corazones",
+  "settingsDailyReminder": "Recordatorio diario",
+  "settingsDailyReminderSubtitle": "Un pequeño empujón para seguir practicando",
+  "settingsReminderPermissionDenied": "Las notificaciones están bloqueadas para Habesha Speak en los ajustes del dispositivo",
+  "settingsReminderTime": "Hora del recordatorio",
+  "settingsReminderTimeSubtitle": "Te lo recuerda cada día a las {time}",
+  "@settingsReminderTimeSubtitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsPremiumSection": "Premium",
+  "settingsPremium": "Habesha Speak Premium",
+  "settingsPremiumHint": "Desbloquea todas las estaciones",
+  "settingsPremiumActive": "Activo - ¡gracias por tu apoyo!",
+  "premiumTitle": "Habesha Speak Premium",
+  "premiumHeadline": "Desbloquea todo el viaje",
+  "premiumDescription": "Los primeros capítulos de la Estación 1 son gratis. Con Habesha Speak Premium sigues aprendiendo sin límites - todas las estaciones, todos los capítulos.",
+  "premiumFeatureAllStations": "Todas las estaciones y capítulos desbloqueados",
+  "premiumFeatureUnlimited": "Sigue aprendiendo sin límites, sin esperas",
+  "premiumFeatureCover": "Una portada especial para el pasaporte",
+  "premiumBuyYearlyButton": "Plan anual",
+  "premiumBuyLifetimeButton": "Desbloquear de por vida",
+  "premiumRestoreButton": "Restaurar compras",
+  "premiumAlreadyOwnedYearly": "Tu plan: Anual - ¡gracias por tu apoyo!",
+  "premiumAlreadyOwnedLifetime": "Tu plan: De por vida - ¡gracias por tu apoyo!",
+  "premiumStoreUnavailable": "Las compras no están disponibles aquí - solo a través de la versión de App Store/Play Store.",
+  "premiumPurchaseError": "No se pudo completar la compra.",
+  "premiumPurchaseCanceled": "Compra cancelada.",
+  "premiumRestoreDone": "Se han comprobado las compras.",
+  "premiumPriceUnknown": "Precio no disponible",
+  "devUnlockDialogTitle": "Introduce el código",
+  "devUnlockButton": "Canjear",
+  "devUnlockSuccess": "Premium se ha desbloqueado.",
+  "devUnlockInvalid": "Este código no es válido.",
+  "premiumLockedDialogTitle": "Esto forma parte de Habesha Speak Premium",
+  "premiumLockedDialogBody": "Los primeros capítulos de la Estación 1 son gratis. Premium (anual o de por vida) desbloquea todas las estaciones y capítulos siguientes.",
+  "premiumLockedDialogAction": "Ver Premium",
+  "premiumRequiredBadge": "Requiere Premium",
+  "settingsDataSection": "Datos",
+  "settingsBackupProgress": "Hacer copia de seguridad del progreso",
+  "settingsRestoreProgress": "Restaurar progreso",
+  "settingsResetProgress": "Restablecer progreso",
+  "settingsAbout": "Acerca de esta app",
+  "settingsFidelLearningPath": "Camino de aprendizaje del Fidel",
+  "fidelPathTraditional": "Tradicional – como en Etiopía",
+  "fidelPathFast": "Leer rápido",
+  "settingsSaved": "Ajustes guardados",
+  "resetProgressTitle": "¿Restablecer el progreso?",
+  "resetProgressWarning": "Esto elimina permanentemente todo tu progreso de aprendizaje. No se puede deshacer.",
+  "resetProgressTypeWord": "Escribe \"eliminar\" para confirmar.",
+  "resetProgressConfirmWord": "eliminar",
+  "resetProgressDone": "Tu progreso se ha restablecido.",
+  "backupProgressDone": "Se ha hecho una copia de seguridad de tu progreso.",
+  "backupProgressError": "La copia de seguridad ha fallado.",
+  "restoreProgressTitle": "¿Restaurar el progreso?",
+  "restoreProgressWarning": "Tu progreso actual será reemplazado por la copia de seguridad de este archivo. No se puede deshacer.",
+  "restoreProgressDone": "Tu progreso se ha restaurado.",
+  "restoreProgressInvalidFile": "Este archivo no es una copia de seguridad válida de Habesha Speak.",
+  "aboutVersion": "Versión",
+  "aboutBuildDate": "Fecha de compilación",
+  "aboutPrivacy": "Todos tus datos permanecen en este dispositivo. Sin cuenta, sin servidor, sin anuncios, sin rastreo.",
+  "aboutLicenses": "Licencias de código abierto",
+  "aboutShortcuts": "Atajos de teclado",
+  "aboutShortcutsAnswer": "1–4: elegir una respuesta",
+  "aboutShortcutsNext": "Intro: confirmar / continuar",
+  "aboutShortcutsCancel": "Esc: cancelar",
+  "aboutShortcutsAudio": "Barra espaciadora: repetir audio",
+  "onboardingWelcomeTitle": "¡Selam! Te damos la bienvenida a Habesha Speak",
+  "onboardingWelcomeBody": "Habesha Speak te enseña amárico (አማርኛ), el idioma oficial de Etiopía.",
+  "onboardingChooseLanguage": "Elige el idioma de la app",
+  "onboardingTwoPathsTitle": "Dos caminos de aprendizaje",
+  "onboardingTwoPathsBody": "\"Habla y comprende\" enseña amárico en transliteración latina. \"Aprende el Fidel\" enseña la escritura etíope. Ambos avanzan en paralelo.",
+  "onboardingDailyGoalTitle": "Elige tu objetivo diario",
+  "onboardingAssessmentQuestion": "¿Ya sabes algo de amárico?",
+  "onboardingAssessmentNone": "Empiezo desde cero",
+  "onboardingAssessmentSome": "Algunas palabras",
+  "onboardingAssessmentGood": "Ya sé bastante",
+  "onboardingStart": "Vamos allá",
+  "homeContinueLearning": "Seguir aprendiendo",
+  "homeDailyGoal": "Objetivo diario",
+  "homeStreak": "Racha",
+  "homeReviewDue": "{count} pendientes de repaso",
+  "@homeReviewDue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeFreePractice": "Práctica libre",
+  "homeNoReviewsDue": "No hay nada pendiente por ahora. ¿Practicamos tus palabras difíciles?",
+  "pathSectionProgress": "Sección {section}: {title} — {done} de {total} unidades",
+  "@pathSectionProgress": {
+    "placeholders": {
+      "section": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      },
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "pathLocked": "Bloqueado",
+  "pathSkipped": "Omitido",
+  "pathCompleted": "Completado",
+  "pathLockedDialogTitle": "Esta unidad se basa en las anteriores",
+  "pathLockedDialogBody": "Todavía no conoces todas las palabras que se usan aquí. ¿Empezar de todos modos?",
+  "pathLockedDialogLater": "Quizá más tarde",
+  "pathLockedDialogStart": "Empezar de todos modos",
+  "pathUnitTest": "Examen de la unidad",
+  "pathUnitTestHint": "Sáltate esta unidad aprobando un examen",
+  "regionReviewStationTitle": "Repaso libre",
+  "regionReviewLockedBody": "Termina primero todas las unidades de esta parada para desbloquear el repaso libre aquí.",
+  "pathResumeTitle": "Seguir aprendiendo",
+  "pathResumeSubtitle": "Continúa en {unit}",
+  "@pathResumeSubtitle": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "chapterTestScore": "{correct} de {total} correctas",
+  "@chapterTestScore": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "chapterTestPassedTitle": "¡Aprobado!",
+  "chapterTestPassedBody": "Has ganado una corona para esta unidad.",
+  "chapterTestFailedTitle": "Todavía no",
+  "chapterTestFailedBody": "No pasa nada - las palabras que fallaste se han restablecido. Inténtalo de nuevo ahora mismo.",
+  "placementTestTitle": "Prueba de nivel",
+  "placementTestIntro": "Te haremos algunas preguntas para encontrar el mejor punto de partida para ti. Puedes cancelar en cualquier momento.",
+  "placementTestChooseLanguagePrompt": "¿Para qué idioma quieres hacer la prueba de nivel?",
+  "placementTestChooseLanguageEthiopia": "Etíope (amárico)",
+  "placementTestChooseLanguageEritrea": "Eritreo (tigriña)",
+  "placementTestStart": "Vamos allá",
+  "placementTestResultTitle": "Sugerencia: {section}",
+  "@placementTestResultTitle": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
+  "placementTestResultBody": "Según tus respuestas, te recomendamos empezar aquí. Las unidades anteriores se marcan como omitidas y puedes ponerte al día en cualquier momento.",
+  "placementTestResultBodyBeginning": "Empezar justo desde el principio es lo que mejor te viene - ¡es completamente normal!",
+  "placementTestAccept": "Usar esto",
+  "placementTestCancel": "Cancelar la prueba",
+  "unitOverviewLessons": "Lecciones",
+  "unitOverviewWordList": "Lista de palabras",
+  "unitOverviewCrowns": "{crowns} de 5 coronas",
+  "@unitOverviewCrowns": {
+    "placeholders": {
+      "crowns": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonExitConfirmTitle": "¿Terminar esta lección?",
+  "lessonExitConfirmBody": "Perderás tu progreso en esta lección.",
+  "lessonCompleteTitle": "¡Lección completada!",
+  "lessonCompleteXp": "{xp} XP",
+  "@lessonCompleteXp": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonCompleteAccuracy": "Precisión: {percent}%",
+  "@lessonCompleteAccuracy": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonCompleteDuration": "Duración: {minutes} min",
+  "@lessonCompleteDuration": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonCompleteSkipped": "Omitidas: {count}",
+  "@lessonCompleteSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonCompleteContinue": "Continuar",
+  "lessonCompleteRetry": "Repetir",
+  "lessonOutOfHearts": "Sin corazones",
+  "lessonOutOfHeartsBody": "Has usado todos tus corazones en esta lección. Vuelve más tarde o practica de nuevo.",
+  "feedbackCorrect": "¡Correcto!",
+  "feedbackIncorrect": "No del todo",
+  "feedbackAlmostCorrect": "¡Casi! Fíjate en la ortografía: {correct}",
+  "@feedbackAlmostCorrect": {
+    "placeholders": {
+      "correct": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackCorrectAnswerWas": "Respuesta correcta: {answer}",
+  "@feedbackCorrectAnswerWas": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewTitle": "Repaso",
+  "reviewDueToday": "Pendiente hoy",
+  "reviewDifficultWords": "Palabras difíciles",
+  "reviewFreePractice": "Práctica libre",
+  "reviewEmpty": "No hay nada que repasar ahora mismo. ¡Sigue así!",
+  "reviewWordCount": "{count} palabras",
+  "@reviewWordCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewWordCountOne": "1 palabra",
+  "reviewStart": "Vamos allá",
+  "reviewNoWordsForSession": "Ahora mismo no hay palabras para esto.",
+  "reviewFreePracticeChooseLevel": "Elige un nivel",
+  "reviewFreePracticeAllLevels": "Todos los niveles",
+  "reviewSessionCompleteTitle": "¡Repaso completado!",
+  "reviewSessionCompleteXp": "+{xp} XP",
+  "@reviewSessionCompleteXp": {
+    "placeholders": {
+      "xp": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewSessionCompleteBody": "¡Sigue así!",
+  "dictionaryTitle": "Diccionario",
+  "dictionarySearchHint": "Buscar palabras…",
+  "dictionaryFilterAll": "Todos los temas",
+  "dictionaryEmpty": "Todavía no has aprendido ninguna palabra en este tema.",
+  "dictionarySearchNoResults": "Sin resultados.",
+  "profileTitle": "Perfil",
+  "profileWordsLearned": "Palabras aprendidas",
+  "profileWordsMastered": "Palabras dominadas",
+  "profileFidelChars": "Signos Fidel aprendidos",
+  "profileTotalXp": "XP totales",
+  "profileLongestStreak": "Racha más larga",
+  "profileCurrentStreak": "Racha actual",
+  "profileDaysLearned": "Días de estudio",
+  "profileAccuracy": "Precisión",
+  "profileLast7Days": "Últimos 7 días",
+  "profilePassportTitleEthiopia": "Tu pasaporte de Etiopía",
+  "profilePassportTitleEritrea": "Tu pasaporte de Eritrea",
+  "profilePassportHint": "Un sello por cada parada, en cuanto termines ese capítulo.",
+  "profileBadges": "Insignias",
+  "profileBadgesEmpty": "Todavía no tienes insignias - ¡empieza ya!",
+  "profileSkippedUnits": "Unidades omitidas",
+  "profileSkippedUnitsEmpty": "No has omitido ninguna unidad.",
+  "profileCatchUp": "Ponerte al día",
+  "profileAssessmentTest": "Prueba de nivel",
+  "profileBadgeFirstLessonName": "Primeros pasos",
+  "profileBadgeFirstLessonDesc": "Completa tu primera lección.",
+  "profileBadgeStreak7Name": "Primera semana",
+  "profileBadgeStreak7Desc": "Alcanza una racha de 7 días.",
+  "profileBadgeStreak30Name": "Primer mes",
+  "profileBadgeStreak30Desc": "Alcanza una racha de 30 días.",
+  "profileBadgeWords100Name": "Vocabulario en crecimiento",
+  "profileBadgeWords100Desc": "Aprende 100 palabras.",
+  "profileBadgeWords500Name": "Un torrente de palabras",
+  "profileBadgeWords500Desc": "Aprende 500 palabras.",
+  "profileBadgeFidelMasterName": "Dominio del Fidel",
+  "profileBadgeFidelMasterDesc": "Aprende los 231 signos Fidel.",
+  "profileBadgeXp1000Name": "1000 XP",
+  "profileBadgeXp1000Desc": "Consigue un total de 1000 XP.",
+  "profileBadgeFirstCrownName": "Primera corona",
+  "profileBadgeFirstCrownDesc": "Aprueba tu primer examen de unidad.",
+  "errorGenericTitle": "Algo salió mal",
+  "errorGenericBody": "Tu progreso está guardado.",
+  "errorGoHome": "Volver al inicio",
+  "errorReload": "Recargar",
+  "errorContentUnit": "Esta unidad no se pudo cargar y se ha omitido.",
+  "errorCorruptSave": "No se pudieron leer tus datos guardados. Empezamos de nuevo.",
+  "resumeLessonTitle": "Estabas a mitad de una lección",
+  "resumeLessonBody": "¿Continuar donde lo dejaste?",
+  "resumeLessonContinue": "Continuar",
+  "resumeLessonRestart": "Empezar de nuevo",
+  "exitAppConfirm": "Pulsa atrás otra vez para salir",
+  "exerciseCheckAnswer": "Comprobar",
+  "exerciseTypeAnswerHint": "Escribe tu respuesta…",
+  "exercisePairMatchingHint": "Toca las parejas que coincidan",
+  "exerciseTrueFalseQuestion": "¿Es correcto?",
+  "exerciseTrue": "Verdadero",
+  "exerciseFalse": "Falso",
+  "exerciseAudioUnavailable": "El audio en amárico no está disponible en este dispositivo",
+  "audioPlayTooltip": "Reproducir audio",
+  "introCardContinue": "Continuar",
+  "lessonKindIntro": "Palabras nuevas",
+  "lessonKindWordPractice": "Practicar palabras",
+  "lessonKindSentenceBuilding": "Construir frases",
+  "lessonKindListening": "Escucha",
+  "lessonKindFreeApplication": "Práctica libre",
+  "lessonKindReview": "Repaso",
+  "lessonKindUnitTest": "Examen de la unidad",
+  "fidelHomeTitle": "Aprende el Fidel",
+  "fidelStageProgress": "Nivel {number}: {title}",
+  "@fidelStageProgress": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "fidelStageBonus": "Bonus",
+  "fidelStageComingSoon": "Próximamente",
+  "fidelLessonList": "Lecciones",
+  "fidelTableTitle": "Tabla Fidel",
+  "fidelTableFilterAll": "Todos",
+  "fidelTableFilterLearned": "Solo aprendidos",
+  "fidelTableFilterOpen": "Todavía no aprendidos",
+  "fidelTableStudyRow": "Practicar esta fila",
+  "fidelAudioDrillTitle": "Ejercicio de escucha",
+  "fidelAudioDrillSubtitle": "Escucha el sonido, toca el signo correspondiente",
+  "fidelAudioDrillRowButton": "Ejercicio de escucha para esta fila",
+  "fidelTableDetailLearned": "Aprendido",
+  "fidelTableDetailNotLearned": "Todavía no aprendido",
+  "fidelHomophoneTitle": "Atención: mismo sonido",
+  "fidelHomophoneBody": "Este signo suena exactamente igual que {chars}, que ya conoces. Cuál escribir depende de la palabra - lo aprenderás más adelante al leer.",
+  "@fidelHomophoneBody": {
+    "placeholders": {
+      "chars": {
+        "type": "String"
+      }
+    }
+  },
+  "fidelVowelExplainerTitle": "Cada signo es una sílaba",
+  "fidelVowelExplainerIntro": "ለ no es \"l\", es \"le\" - cada signo Fidel representa un sonido silábico completo, no solo una consonante.",
+  "fidelVowelExplainerRow1Title": "Mira la fila de ሀ (h)",
+  "fidelVowelExplainerRow1Body": "Siete formas, siete vocales - la forma base se mantiene, solo cambia la parte vocálica (coloreada).",
+  "fidelVowelExplainerRow2Title": "Ahora la fila de ለ (l)",
+  "fidelVowelExplainerRow2Body": "El mismo patrón que ሀ - no es casualidad, es un sistema.",
+  "fidelVowelExplainerOrder6Title": "El 6.º orden es el más difícil",
+  "fidelVowelExplainerOrder6Body": "Su vocal apenas se oye (una \"ə\" casi muda), y la forma a menudo difiere solo ligeramente del signo base. También es la forma individual más común - la verás mucho.",
+  "fidelVowelExplainerExceptionTitle": "No todas las filas son perfectamente regulares",
+  "fidelVowelExplainerExceptionBody": "La mayoría de las filas siguen este patrón, pero algunas no. La app siempre te lo dirá con sinceridad cuando sea el caso.",
+  "fidelExplainerContinue": "Continuar",
+  "fidelLockedDialogTitle": "Este nivel se basa en el anterior",
+  "fidelLockedDialogBody": "Todavía no has terminado el nivel anterior. ¿Empezar de todos modos?",
+  "hahuDrillTapHint": "Toca para el siguiente signo",
+  "hahuDrillWithTransliteration": "Ronda 1 de 2: con transliteración",
+  "hahuDrillCharsOnly": "Ronda 2 de 2: solo signos",
+  "hahuDrillContinue": "Continuar",
+  "journeyWorldMapTitle": "Tu viaje por Etiopía",
+  "journeyDriverWorldMapCurrent": "¡Siguiente parada: {region}! Sube, vámonos.",
+  "@journeyDriverWorldMapCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "journeyDriverWorldMapAllDone": "¡Ya has recorrido todo el mapa! ¿Te animas a otra vuelta?",
+  "journeyDriverRegionCurrent": "¡Te damos la bienvenida a {region}! ¿Vamos a por la siguiente parada?",
+  "@journeyDriverRegionCurrent": {
+    "placeholders": {
+      "region": {
+        "type": "String"
+      }
+    }
+  },
+  "journeyDriverRegionAllDone": "¡Te conoces esta parada al dedillo! Échale otro vistazo cuando quieras.",
+  "journeyBackToMap": "Volver al mapa",
+  "journeyStationNumber": "Parada {number}",
+  "@journeyStationNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "journeyRegionHarar": "Harar",
+  "journeyRegionComingSoon": "Próximamente",
+  "journeyRegionLabelAddisAbeba": "Addis",
+  "journeyRegionLabelSouth": "Sur",
+  "journeyRegionLabelTigray": "Tigray",
+  "journeyRegionLabelOromia": "Oromía",
+  "journeyRegionLabelSafari": "Safari",
+  "journeyRegionLabelAsmara": "Asmara",
+  "journeyRegionLabelMassawa": "Massawa",
+  "journeyRegionLabelKeren": "Keren",
+  "journeyRegionLabelDahlak": "Dahlak",
+  "onboardingEritreaHintTitle": "Novedad: descubre Eritrea",
+  "onboardingEritreaHintBody": "Ahora también puedes aprender tigriña, el idioma de Eritrea. Desliza a la izquierda en el mapa para pasar del mapa de Etiopía al de Eritrea - y desliza a la derecha para volver. El amárico se queda en su mapa habitual.",
+  "onboardingEritreaHintButton": "Entendido"
+}

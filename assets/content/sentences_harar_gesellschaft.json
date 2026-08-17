@@ -4,14 +4,23 @@
     "am": "እኩልነት ፍትሃዊ ነው።",
     "tr": "ikulinet fitihawi newu.",
     "level": "B2",
-    "uses": ["lex_ikulinet", "lex_adj_fitihawi"],
+    "uses": [
+      "lex_ikulinet",
+      "lex_adj_fitihawi"
+    ],
     "t": {
       "de": "Gleichheit ist gerecht.",
       "en": "Equality is just.",
       "sv": "Jämlikhet är rättvis.",
-      "nl": "Gelijkheid is rechtvaardig."
+      "nl": "Gelijkheid is rechtvaardig.",
+      "it": "L'uguaglianza è giusta.",
+      "es": "La igualdad es justa."
     },
-    "chunks": ["ikulinet", "fitihawi", "newu"],
+    "chunks": [
+      "ikulinet",
+      "fitihawi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -19,14 +28,23 @@
     "am": "መድልዎ ኢፍትሃዊ ነው።",
     "tr": "medilewo ifitihawi newu.",
     "level": "B2",
-    "uses": ["lex_medilewo", "lex_adj_ifitihawi"],
+    "uses": [
+      "lex_medilewo",
+      "lex_adj_ifitihawi"
+    ],
     "t": {
       "de": "Diskriminierung ist ungerecht.",
       "en": "Discrimination is unjust.",
       "sv": "Diskriminering är orättvis.",
-      "nl": "Discriminatie is onrechtvaardig."
+      "nl": "Discriminatie is onrechtvaardig.",
+      "it": "La discriminazione è ingiusta.",
+      "es": "La discriminación es injusta."
     },
-    "chunks": ["medilewo", "ifitihawi", "newu"],
+    "chunks": [
+      "medilewo",
+      "ifitihawi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +52,23 @@
     "am": "አናሳ ትንሽ ቁጥር ነው።",
     "tr": "anasa tinish k'utir newu.",
     "level": "B2",
-    "uses": ["lex_anasa"],
+    "uses": [
+      "lex_anasa"
+    ],
     "t": {
       "de": "Eine Minderheit ist eine kleine Zahl.",
       "en": "A minority is a small number.",
       "sv": "En minoritet är ett litet antal.",
-      "nl": "Een minderheid is een klein aantal."
+      "nl": "Een minderheid is een klein aantal.",
+      "it": "Una minoranza è un numero piccolo.",
+      "es": "Una minoría es un número pequeño."
     },
-    "chunks": ["anasa", "tinish", "k'utir", "newu"],
+    "chunks": [
+      "anasa",
+      "tinish",
+      "k'utir",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +76,23 @@
     "am": "ስደተኛ አዲስ ሀገር ፈለገ።",
     "tr": "sidetegna addis hager felege.",
     "level": "B2",
-    "uses": ["lex_sidetegna"],
+    "uses": [
+      "lex_sidetegna"
+    ],
     "t": {
       "de": "Der Flüchtling suchte ein neues Land.",
       "en": "The refugee sought a new country.",
       "sv": "Flyktingen sökte ett nytt land.",
-      "nl": "De vluchteling zocht een nieuw land."
+      "nl": "De vluchteling zocht een nieuw land.",
+      "it": "Il rifugiato cercava un nuovo paese.",
+      "es": "El refugiado buscaba un nuevo país."
     },
-    "chunks": ["sidetegna", "addis", "hager", "felege"],
+    "chunks": [
+      "sidetegna",
+      "addis",
+      "hager",
+      "felege"
+    ],
     "verified": false
   },
   {
@@ -64,14 +100,27 @@
     "am": "ይህ ፍትሃዊ ነው፤ ያ ግን ኢፍትሃዊ ነው።",
     "tr": "yih fitihawi newu; ya gin ifitihawi newu.",
     "level": "B2",
-    "uses": ["lex_adj_fitihawi", "lex_adj_ifitihawi"],
+    "uses": [
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
     "t": {
       "de": "Das ist gerecht, aber jenes ist ungerecht.",
       "en": "This is just, but that is unjust.",
       "sv": "Detta är rättvist, men det där är orättvist.",
-      "nl": "Dit is rechtvaardig, maar dat is onrechtvaardig."
+      "nl": "Dit is rechtvaardig, maar dat is onrechtvaardig.",
+      "it": "Questo è giusto, ma quello è ingiusto.",
+      "es": "Esto es justo, pero eso es injusto."
     },
-    "chunks": ["yih", "fitihawi", "newu", "ya", "gin", "ifitihawi", "newu"],
+    "chunks": [
+      "yih",
+      "fitihawi",
+      "newu",
+      "ya",
+      "gin",
+      "ifitihawi",
+      "newu"
+    ],
     "verified": false
   }
 ]

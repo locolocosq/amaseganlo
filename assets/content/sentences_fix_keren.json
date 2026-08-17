@@ -11,7 +11,9 @@
       "de": "der Name ist vorhanden.",
       "en": "There is name.",
       "sv": "Det finns namnet.",
-      "nl": "Er is de naam."
+      "nl": "Er is de naam.",
+      "it": "C'è un nome.",
+      "es": "Hay un nombre."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Ich habe Eritrea.",
       "en": "I have Eritrea.",
       "sv": "Jag har Eritrea.",
-      "nl": "Ik heb Eritrea."
+      "nl": "Ik heb Eritrea.",
+      "it": "Ho l'Eritrea.",
+      "es": "Tengo Eritrea."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Er ist gut / wohl.",
       "en": "He is fine / well.",
       "sv": "Han är bra / väl.",
-      "nl": "Hij is goed / wel."
+      "nl": "Hij is goed / wel.",
+      "it": "Lui sta bene.",
+      "es": "Él está bien."
     },
     "alt": {},
     "chunks": [
@@ -75,7 +81,9 @@
       "de": "die Bank ist vorhanden.",
       "en": "There is bank.",
       "sv": "Det finns bank.",
-      "nl": "Er is bank."
+      "nl": "Er is bank.",
+      "it": "C'è una banca.",
+      "es": "Hay un banco."
     },
     "alt": {},
     "chunks": [
@@ -96,7 +104,9 @@
       "de": "Ich habe das Hotel.",
       "en": "I have hotel.",
       "sv": "Jag har hotell.",
-      "nl": "Ik heb hotel."
+      "nl": "Ik heb hotel.",
+      "it": "Ho un hotel.",
+      "es": "Tengo un hotel."
     },
     "alt": {},
     "chunks": [
@@ -117,7 +127,9 @@
       "de": "der Park ist vorhanden.",
       "en": "There is park.",
       "sv": "Det finns park.",
-      "nl": "Er is park."
+      "nl": "Er is park.",
+      "it": "C'è un parco.",
+      "es": "Hay un parque."
     },
     "alt": {},
     "chunks": [
@@ -138,7 +150,9 @@
       "de": "Ich habe die Moschee.",
       "en": "I have mosque.",
       "sv": "Jag har moské.",
-      "nl": "Ik heb moskee."
+      "nl": "Ik heb moskee.",
+      "it": "Ho una moschea.",
+      "es": "Tengo una mezquita."
     },
     "alt": {},
     "chunks": [
@@ -159,7 +173,9 @@
       "de": "die Bank ist vorhanden.",
       "en": "There is bank.",
       "sv": "Det finns bank.",
-      "nl": "Er is bank."
+      "nl": "Er is bank.",
+      "it": "C'è una banca.",
+      "es": "Hay un banco."
     },
     "alt": {},
     "chunks": [
@@ -180,7 +196,9 @@
       "de": "Ich habe das Hotel.",
       "en": "I have hotel.",
       "sv": "Jag har hotell.",
-      "nl": "Ik heb hotel."
+      "nl": "Ik heb hotel.",
+      "it": "Ho un hotel.",
+      "es": "Tengo un hotel."
     },
     "alt": {},
     "chunks": [
@@ -201,7 +219,9 @@
       "de": "der Park ist vorhanden.",
       "en": "There is park.",
       "sv": "Det finns park.",
-      "nl": "Er is park."
+      "nl": "Er is park.",
+      "it": "C'è un parco.",
+      "es": "Hay un parque."
     },
     "alt": {},
     "chunks": [
@@ -222,7 +242,9 @@
       "de": "Ich habe die Moschee.",
       "en": "I have mosque.",
       "sv": "Jag har moské.",
-      "nl": "Ik heb moskee."
+      "nl": "Ik heb moskee.",
+      "it": "Ho una moschea.",
+      "es": "Tengo una mezquita."
     },
     "alt": {},
     "chunks": [
@@ -243,7 +265,9 @@
       "de": "die Möglichkeit ist vorhanden.",
       "en": "There is possibility.",
       "sv": "Det finns möjlighet.",
-      "nl": "Er is mogelijkheid."
+      "nl": "Er is mogelijkheid.",
+      "it": "C'è una possibilità.",
+      "es": "Hay una posibilidad."
     },
     "alt": {},
     "chunks": [
@@ -265,7 +289,9 @@
       "de": "Ich habe den Grund.",
       "en": "I have reason.",
       "sv": "Jag har anledning.",
-      "nl": "Ik heb reden."
+      "nl": "Ik heb reden.",
+      "it": "Ho un motivo.",
+      "es": "Tengo un motivo."
     },
     "alt": {},
     "chunks": [
@@ -286,7 +312,9 @@
       "de": "die Lösung ist vorhanden.",
       "en": "There is solution.",
       "sv": "Det finns lösning.",
-      "nl": "Er is oplossing."
+      "nl": "Er is oplossing.",
+      "it": "C'è una soluzione.",
+      "es": "Hay una solución."
     },
     "alt": {},
     "chunks": [
@@ -307,7 +335,9 @@
       "de": "das Gewürz ist vorhanden.",
       "en": "There is spice, seasoning.",
       "sv": "Det finns krydda.",
-      "nl": "Er is kruid."
+      "nl": "Er is kruid.",
+      "it": "C'è una spezia.",
+      "es": "Hay una especia."
     },
     "alt": {},
     "chunks": [
@@ -328,7 +358,9 @@
       "de": "Ich habe das Rezept.",
       "en": "I have recipe.",
       "sv": "Jag har recept.",
-      "nl": "Ik heb recept."
+      "nl": "Ik heb recept.",
+      "it": "Ho una ricetta.",
+      "es": "Tengo una receta."
     },
     "alt": {},
     "chunks": [
@@ -351,7 +383,9 @@
       "de": "das Experiment ist vorhanden.",
       "en": "There is experiment.",
       "sv": "Det finns experiment.",
-      "nl": "Er is experiment."
+      "nl": "Er is experiment.",
+      "it": "C'è un esperimento.",
+      "es": "Hay un experimento."
     },
     "alt": {},
     "chunks": [

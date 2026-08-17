@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_frsh","am":"ብራሽ ስኒ","tr":"birash sinni","pos":"noun","topic":"hygiene","level":"TI","t":{"de":"die Zahnbürste","en":"toothbrush","sv":"tandborste","nl":"tandenborstel"},"emoji":"🪥","verified":false},
-  {"id":"lex_ti_mshamp","am":"ሻምፖ","tr":"shampo","pos":"noun","topic":"hygiene","level":"TI","t":{"de":"das Shampoo","en":"shampoo","sv":"schampo","nl":"shampoo"},"emoji":"🧴","verified":false},
-  {"id":"lex_ti_msht2","am":"መመሽጢ","tr":"memeshiti","pos":"noun","topic":"hygiene","level":"TI","t":{"de":"der Kamm","en":"comb","sv":"kam","nl":"kam"},"emoji":"","verified":false},
-  {"id":"lex_ti_mnshfa","am":"ፎጣ","tr":"fota","pos":"noun","topic":"hygiene","level":"TI","t":{"de":"das Handtuch","en":"towel","sv":"handduk","nl":"handdoek"},"emoji":"🧻","verified":false},
-  {"id":"lex_ti_mraa","am":"ብርኪ ምሕጻብ","tr":"birki mihitsab","pos":"verb","topic":"hygiene","level":"TI","t":{"de":"sich duschen, baden","en":"to shower, bathe","sv":"duscha, bada","nl":"douchen, baden"},"emoji":"","verified":false},
-  {"id":"lex_ti_tsgri2","am":"ጸጕሪ ምሕጻብ","tr":"tsegri mihitsab","pos":"verb","topic":"hygiene","level":"TI","t":{"de":"die Haare waschen","en":"to wash hair","sv":"tvätta håret","nl":"haren wassen"},"emoji":"","verified":false},
-  {"id":"lex_ti_snni3","am":"ስኒ ምሕጻብ","tr":"sinni mihitsab","pos":"verb","topic":"hygiene","level":"TI","t":{"de":"Zähne putzen","en":"to brush teeth","sv":"borsta tänderna","nl":"tanden poetsen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_frsh",
+    "am": "ብራሽ ስኒ",
+    "tr": "birash sinni",
+    "pos": "noun",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "die Zahnbürste",
+      "en": "toothbrush",
+      "sv": "tandborste",
+      "nl": "tandenborstel",
+      "it": "lo spazzolino da denti",
+      "es": "el cepillo de dientes"
+    },
+    "emoji": "🪥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mshamp",
+    "am": "ሻምፖ",
+    "tr": "shampo",
+    "pos": "noun",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "das Shampoo",
+      "en": "shampoo",
+      "sv": "schampo",
+      "nl": "shampoo",
+      "it": "lo shampoo",
+      "es": "el champú"
+    },
+    "emoji": "🧴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msht2",
+    "am": "መመሽጢ",
+    "tr": "memeshiti",
+    "pos": "noun",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "der Kamm",
+      "en": "comb",
+      "sv": "kam",
+      "nl": "kam",
+      "it": "il pettine",
+      "es": "el peine"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mnshfa",
+    "am": "ፎጣ",
+    "tr": "fota",
+    "pos": "noun",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "das Handtuch",
+      "en": "towel",
+      "sv": "handduk",
+      "nl": "handdoek",
+      "it": "l'asciugamano",
+      "es": "la toalla"
+    },
+    "emoji": "🧻",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mraa",
+    "am": "ብርኪ ምሕጻብ",
+    "tr": "birki mihitsab",
+    "pos": "verb",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "sich duschen, baden",
+      "en": "to shower, bathe",
+      "sv": "duscha, bada",
+      "nl": "douchen, baden",
+      "it": "farsi la doccia, fare il bagno",
+      "es": "ducharse, bañarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsgri2",
+    "am": "ጸጕሪ ምሕጻብ",
+    "tr": "tsegri mihitsab",
+    "pos": "verb",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "die Haare waschen",
+      "en": "to wash hair",
+      "sv": "tvätta håret",
+      "nl": "haren wassen",
+      "it": "lavarsi i capelli",
+      "es": "lavarse el pelo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snni3",
+    "am": "ስኒ ምሕጻብ",
+    "tr": "sinni mihitsab",
+    "pos": "verb",
+    "topic": "hygiene",
+    "level": "TI",
+    "t": {
+      "de": "Zähne putzen",
+      "en": "to brush teeth",
+      "sv": "borsta tänderna",
+      "nl": "tanden poetsen",
+      "it": "lavarsi i denti",
+      "es": "cepillarse los dientes"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

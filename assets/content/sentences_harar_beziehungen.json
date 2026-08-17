@@ -1,6 +1,102 @@
 [
-  {"id":"sen_hbz_wedaj_meamen","am":"ወዳጄን አምናለሁ።","tr":"wedajen aminalehu.","level":"B2","uses":["lex_hbz_wedaj","lex_hbz_v_meamen"],"t":{"de":"Ich vertraue meinem engen Freund.","en":"I trust my close friend.","sv":"Jag litar på min nära vän.","nl":"Ik vertrouw mijn goede vriend."},"chunks":["wedajen","aminalehu"],"verified":false},
-  {"id":"sen_hbz_megaba_gabicha","am":"እሱ አገባ፤ ጋብቻ መልካም ነው።","tr":"isu ageba; gabicha melikam newu.","level":"B2","uses":["lex_hbz_v_megaba","lex_hbz_fiker_gabicha"],"t":{"de":"Er heiratete; die Ehe ist gut.","en":"He got married; marriage is good.","sv":"Han gifte sig; äktenskap är bra.","nl":"Hij trouwde; het huwelijk is goed."},"chunks":["isu","ageba","gabicha","melikam","newu"],"verified":false},
-  {"id":"sen_hbz_gorebet_zemed","am":"ጎረቤቴ እና ዘመዴ ይከባበራሉ።","tr":"gorebete ina zemede yikebaberalu.","level":"B2","uses":["lex_hbz_gubaenya","lex_hbz_zemed","lex_hbz_v_mekebir"],"t":{"de":"Mein Nachbar und mein Verwandter respektieren sich gegenseitig.","en":"My neighbor and my relative respect each other.","sv":"Min granne och min släkting respekterar varandra.","nl":"Mijn buur en mijn familielid respecteren elkaar."},"chunks":["gorebete","ina","zemede","yikebaberalu"],"verified":false},
-  {"id":"sen_hbz_shimagle_hasabinet","am":"ሽማግሌው አለመግባባቱን አስታረቀ።","tr":"shimagilew alemegibabatun asitareke.","level":"B2","uses":["lex_hbz_shimagle2","lex_hbz_hasabinet","lex_hbz_v_meridat2"],"t":{"de":"Der Ältestenvermittler löste das Missverständnis.","en":"The elder mediator resolved the misunderstanding.","sv":"Den äldre medlaren löste missförståndet.","nl":"De oudere bemiddelaar loste het misverstand op."},"chunks":["shimagilew","alemegibabatun","asitareke"],"verified":false}
+  {
+    "id": "sen_hbz_wedaj_meamen",
+    "am": "ወዳጄን አምናለሁ።",
+    "tr": "wedajen aminalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hbz_wedaj",
+      "lex_hbz_v_meamen"
+    ],
+    "t": {
+      "de": "Ich vertraue meinem engen Freund.",
+      "en": "I trust my close friend.",
+      "sv": "Jag litar på min nära vän.",
+      "nl": "Ik vertrouw mijn goede vriend.",
+      "it": "Mi fido del mio amico intimo.",
+      "es": "Confío en mi amigo íntimo."
+    },
+    "chunks": [
+      "wedajen",
+      "aminalehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hbz_megaba_gabicha",
+    "am": "እሱ አገባ፤ ጋብቻ መልካም ነው።",
+    "tr": "isu ageba; gabicha melikam newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hbz_v_megaba",
+      "lex_hbz_fiker_gabicha"
+    ],
+    "t": {
+      "de": "Er heiratete; die Ehe ist gut.",
+      "en": "He got married; marriage is good.",
+      "sv": "Han gifte sig; äktenskap är bra.",
+      "nl": "Hij trouwde; het huwelijk is goed.",
+      "it": "Lui si è sposato; il matrimonio è una cosa buona.",
+      "es": "Él se casó; el matrimonio es bueno."
+    },
+    "chunks": [
+      "isu",
+      "ageba",
+      "gabicha",
+      "melikam",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hbz_gorebet_zemed",
+    "am": "ጎረቤቴ እና ዘመዴ ይከባበራሉ።",
+    "tr": "gorebete ina zemede yikebaberalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_v_mekebir"
+    ],
+    "t": {
+      "de": "Mein Nachbar und mein Verwandter respektieren sich gegenseitig.",
+      "en": "My neighbor and my relative respect each other.",
+      "sv": "Min granne och min släkting respekterar varandra.",
+      "nl": "Mijn buur en mijn familielid respecteren elkaar.",
+      "it": "Il mio vicino e il mio parente si rispettano a vicenda.",
+      "es": "Mi vecino y mi pariente se respetan mutuamente."
+    },
+    "chunks": [
+      "gorebete",
+      "ina",
+      "zemede",
+      "yikebaberalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hbz_shimagle_hasabinet",
+    "am": "ሽማግሌው አለመግባባቱን አስታረቀ።",
+    "tr": "shimagilew alemegibabatun asitareke.",
+    "level": "B2",
+    "uses": [
+      "lex_hbz_shimagle2",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2"
+    ],
+    "t": {
+      "de": "Der Ältestenvermittler löste das Missverständnis.",
+      "en": "The elder mediator resolved the misunderstanding.",
+      "sv": "Den äldre medlaren löste missförståndet.",
+      "nl": "De oudere bemiddelaar loste het misverstand op.",
+      "it": "Il mediatore anziano ha risolto il malinteso.",
+      "es": "El mediador anciano resolvió el malentendido."
+    },
+    "chunks": [
+      "shimagilew",
+      "alemegibabatun",
+      "asitareke"
+    ],
+    "verified": false
+  }
 ]

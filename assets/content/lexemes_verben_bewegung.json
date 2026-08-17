@@ -10,7 +10,9 @@
       "de": "rennen, laufen",
       "en": "to run",
       "sv": "springa",
-      "nl": "rennen"
+      "nl": "rennen",
+      "it": "correre",
+      "es": "correr"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "klettern, hinaufsteigen",
       "en": "to climb",
       "sv": "klättra",
-      "nl": "klimmen"
+      "nl": "klimmen",
+      "it": "arrampicarsi",
+      "es": "escalar, trepar"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "schieben",
       "en": "to push",
       "sv": "skjuta på",
-      "nl": "duwen"
+      "nl": "duwen",
+      "it": "spingere",
+      "es": "empujar"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "werfen",
       "en": "to throw",
       "sv": "kasta",
-      "nl": "gooien"
+      "nl": "gooien",
+      "it": "lanciare",
+      "es": "lanzar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "verstecken",
       "en": "to hide",
       "sv": "gömma",
-      "nl": "verstoppen"
+      "nl": "verstoppen",
+      "it": "nascondere",
+      "es": "esconder"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "folgen",
       "en": "to follow",
       "sv": "följa",
-      "nl": "volgen"
+      "nl": "volgen",
+      "it": "seguire",
+      "es": "seguir"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "führen, leiten",
       "en": "to lead",
       "sv": "leda",
-      "nl": "leiden"
+      "nl": "leiden",
+      "it": "guidare, condurre",
+      "es": "guiar, dirigir"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "abreisen, aufbrechen",
       "en": "to depart",
       "sv": "avresa",
-      "nl": "vertrekken"
+      "nl": "vertrekken",
+      "it": "partire",
+      "es": "partir"
     },
     "hint": {},
     "alt": {},

@@ -10,7 +10,9 @@
       "de": "nah",
       "en": "near",
       "sv": "nära",
-      "nl": "dichtbij"
+      "nl": "dichtbij",
+      "it": "vicino",
+      "es": "cerca"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "fern, weit",
       "en": "far",
       "sv": "långt bort",
-      "nl": "ver"
+      "nl": "ver",
+      "it": "lontano",
+      "es": "lejos"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Ecke",
       "en": "corner",
       "sv": "hörn",
-      "nl": "hoek"
+      "nl": "hoek",
+      "it": "l'angolo",
+      "es": "la esquina"
     },
     "hint": {},
     "alt": {},

@@ -11,7 +11,9 @@
       "de": "Es gibt 11.",
       "en": "There is 11.",
       "sv": "Det finns 11.",
-      "nl": "Er is 11."
+      "nl": "Er is 11.",
+      "it": "C'è l'11.",
+      "es": "Hay un 11."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Es gibt rot.",
       "en": "There is red.",
       "sv": "Det finns röd.",
-      "nl": "Er is rood."
+      "nl": "Er is rood.",
+      "it": "C'è il rosso.",
+      "es": "Hay rojo."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Es gibt der Kopf.",
       "en": "There is head.",
       "sv": "Det finns huvud.",
-      "nl": "Er is hoofd."
+      "nl": "Er is hoofd.",
+      "it": "C'è la testa.",
+      "es": "Hay una cabeza."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "Es gibt die Kleidung.",
       "en": "There is clothing.",
       "sv": "Det finns kläder.",
-      "nl": "Er is kleding."
+      "nl": "Er is kleding.",
+      "it": "C'è l'abbigliamento.",
+      "es": "Hay ropa."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "Es gibt das Haus.",
       "en": "There is house.",
       "sv": "Det finns hus.",
-      "nl": "Er is huis."
+      "nl": "Er is huis.",
+      "it": "C'è la casa.",
+      "es": "Hay una casa."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Es gibt die Sonne.",
       "en": "There is sun.",
       "sv": "Det finns sol.",
-      "nl": "Er is zon."
+      "nl": "Er is zon.",
+      "it": "C'è il sole.",
+      "es": "Hay sol."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "Es gibt der Hund.",
       "en": "There is dog.",
       "sv": "Det finns hund.",
-      "nl": "Er is hond."
+      "nl": "Er is hond.",
+      "it": "C'è il cane.",
+      "es": "Hay un perro."
     },
     "alt": {},
     "chunks": [
@@ -158,7 +172,9 @@
       "de": "Es gibt die Stunde.",
       "en": "There is hour, time.",
       "sv": "Det finns timme, tid.",
-      "nl": "Er is uur, tijd."
+      "nl": "Er is uur, tijd.",
+      "it": "C'è l'ora, il tempo.",
+      "es": "Hay una hora, tiempo."
     },
     "alt": {},
     "chunks": [
@@ -179,7 +195,9 @@
       "de": "Es gibt der Lehrer.",
       "en": "There is teacher.",
       "sv": "Det finns lärare.",
-      "nl": "Er is leraar."
+      "nl": "Er is leraar.",
+      "it": "C'è l'insegnante.",
+      "es": "Hay un profesor."
     },
     "alt": {},
     "chunks": [
@@ -200,7 +218,9 @@
       "de": "Es gibt das Auto.",
       "en": "There is car.",
       "sv": "Det finns bil.",
-      "nl": "Er is auto."
+      "nl": "Er is auto.",
+      "it": "C'è l'auto.",
+      "es": "Hay un coche."
     },
     "alt": {},
     "chunks": [
@@ -221,7 +241,9 @@
       "de": "Es gibt essen.",
       "en": "There is to eat.",
       "sv": "Det finns äta.",
-      "nl": "Er is eten."
+      "nl": "Er is eten.",
+      "it": "C'è mangiare.",
+      "es": "Hay comer."
     },
     "alt": {},
     "chunks": [
@@ -242,7 +264,9 @@
       "de": "Es gibt zeigen.",
       "en": "There is to show.",
       "sv": "Det finns visa.",
-      "nl": "Er is tonen."
+      "nl": "Er is tonen.",
+      "it": "C'è mostrare.",
+      "es": "Hay mostrar."
     },
     "alt": {},
     "chunks": [
@@ -263,7 +287,9 @@
       "de": "Es gibt die Freude.",
       "en": "There is joy, happiness.",
       "sv": "Det finns glädje.",
-      "nl": "Er is vreugde."
+      "nl": "Er is vreugde.",
+      "it": "C'è la gioia.",
+      "es": "Hay alegría."
     },
     "alt": {},
     "chunks": [
@@ -284,7 +310,9 @@
       "de": "Es gibt das Buch.",
       "en": "There is book.",
       "sv": "Det finns bok.",
-      "nl": "Er is boek."
+      "nl": "Er is boek.",
+      "it": "C'è il libro.",
+      "es": "Hay un libro."
     },
     "alt": {},
     "chunks": [
@@ -305,7 +333,9 @@
       "de": "Es gibt das Telefon.",
       "en": "There is telephone.",
       "sv": "Det finns telefon.",
-      "nl": "Er is telefoon."
+      "nl": "Er is telefoon.",
+      "it": "C'è il telefono.",
+      "es": "Hay un teléfono."
     },
     "alt": {},
     "chunks": [
@@ -326,7 +356,9 @@
       "de": "Es gibt der Fußball.",
       "en": "There is football, soccer.",
       "sv": "Det finns fotboll.",
-      "nl": "Er is voetbal."
+      "nl": "Er is voetbal.",
+      "it": "C'è il calcio.",
+      "es": "Hay fútbol."
     },
     "alt": {},
     "chunks": [
@@ -347,7 +379,9 @@
       "de": "Es gibt Gott.",
       "en": "There is God.",
       "sv": "Det finns Gud.",
-      "nl": "Er is God."
+      "nl": "Er is God.",
+      "it": "C'è Dio.",
+      "es": "Hay Dios."
     },
     "alt": {},
     "chunks": [
@@ -368,7 +402,9 @@
       "de": "Es gibt das Geld.",
       "en": "There is money.",
       "sv": "Det finns pengar.",
-      "nl": "Er is geld."
+      "nl": "Er is geld.",
+      "it": "C'è il denaro.",
+      "es": "Hay dinero."
     },
     "alt": {},
     "chunks": [
@@ -389,7 +425,9 @@
       "de": "Es gibt das Fladenbrot.",
       "en": "There is flatbread (injera-like).",
       "sv": "Det finns tunt bröd.",
-      "nl": "Er is platbrood."
+      "nl": "Er is platbrood.",
+      "it": "C'è il pane piatto.",
+      "es": "Hay pan plano."
     },
     "alt": {},
     "chunks": [
@@ -410,7 +448,9 @@
       "de": "Es gibt der Onkel.",
       "en": "There is uncle (paternal).",
       "sv": "Det finns farbror.",
-      "nl": "Er is oom (vaderskant)."
+      "nl": "Er is oom (vaderskant).",
+      "it": "C'è lo zio (paterno).",
+      "es": "Hay un tío (paterno)."
     },
     "alt": {},
     "chunks": [
@@ -431,7 +471,9 @@
       "de": "Es gibt Deutschland.",
       "en": "There is Germany.",
       "sv": "Det finns Tyskland.",
-      "nl": "Er is Duitsland."
+      "nl": "Er is Duitsland.",
+      "it": "C'è la Germania.",
+      "es": "Hay Alemania."
     },
     "alt": {},
     "chunks": [
@@ -452,7 +494,9 @@
       "de": "Es gibt die Landwirtschaft.",
       "en": "There is agriculture, farming.",
       "sv": "Det finns jordbruk.",
-      "nl": "Er is landbouw."
+      "nl": "Er is landbouw.",
+      "it": "C'è l'agricoltura.",
+      "es": "Hay agricultura."
     },
     "alt": {},
     "chunks": [
@@ -473,7 +517,9 @@
       "de": "Es gibt die Baumwolle.",
       "en": "There is cotton.",
       "sv": "Det finns bomull.",
-      "nl": "Er is katoen."
+      "nl": "Er is katoen.",
+      "it": "C'è il cotone.",
+      "es": "Hay algodón."
     },
     "alt": {},
     "chunks": [
@@ -494,7 +540,9 @@
       "de": "Es gibt Auf Wiedersehen.",
       "en": "There is goodbye (to several).",
       "sv": "Det finns hej då (till flera).",
-      "nl": "Er is tot ziens (tegen meerderen)."
+      "nl": "Er is tot ziens (tegen meerderen).",
+      "it": "C'è l'arrivederci (a più persone).",
+      "es": "Hay un adiós (a varias personas)."
     },
     "alt": {},
     "chunks": [
@@ -515,7 +563,9 @@
       "de": "Es gibt immer.",
       "en": "There is always.",
       "sv": "Det finns alltid.",
-      "nl": "Er is altijd."
+      "nl": "Er is altijd.",
+      "it": "C'è sempre.",
+      "es": "Hay siempre."
     },
     "alt": {},
     "chunks": [

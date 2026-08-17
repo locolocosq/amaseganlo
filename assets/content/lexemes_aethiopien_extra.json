@@ -10,7 +10,9 @@
       "de": "Gondar (Stadt)",
       "en": "Gondar (city)",
       "sv": "Gondar (stad)",
-      "nl": "Gondar (stad)"
+      "nl": "Gondar (stad)",
+      "it": "Gondar (città)",
+      "es": "Gondar (ciudad)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "Axum (Stadt)",
       "en": "Axum (city)",
       "sv": "Axum (stad)",
-      "nl": "Axum (stad)"
+      "nl": "Axum (stad)",
+      "it": "Axum (città)",
+      "es": "Axum (ciudad)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "Lalibela (Stadt)",
       "en": "Lalibela (city)",
       "sv": "Lalibela (stad)",
-      "nl": "Lalibela (stad)"
+      "nl": "Lalibela (stad)",
+      "it": "Lalibela (città)",
+      "es": "Lalibela (ciudad)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "Bahir Dar (Stadt)",
       "en": "Bahir Dar (city)",
       "sv": "Bahir Dar (stad)",
-      "nl": "Bahir Dar (stad)"
+      "nl": "Bahir Dar (stad)",
+      "it": "Bahir Dar (città)",
+      "es": "Bahir Dar (ciudad)"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "Mekelle (Stadt)",
       "en": "Mekelle (city)",
       "sv": "Mekelle (stad)",
-      "nl": "Mekelle (stad)"
+      "nl": "Mekelle (stad)",
+      "it": "Mekelle (città)",
+      "es": "Mekelle (ciudad)"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "Hawassa (Stadt)",
       "en": "Hawassa (city)",
       "sv": "Hawassa (stad)",
-      "nl": "Hawassa (stad)"
+      "nl": "Hawassa (stad)",
+      "it": "Hawassa (città)",
+      "es": "Hawassa (ciudad)"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "Tibs (gebratenes Fleisch)",
       "en": "tibs (fried meat)",
       "sv": "tibs (stekt kött)",
-      "nl": "tibs (gebakken vlees)"
+      "nl": "tibs (gebakken vlees)",
+      "it": "tibs (carne fritta)",
+      "es": "tibs (carne frita)"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "Kitfo (Hackfleisch-Gericht)",
       "en": "kitfo (minced meat dish)",
       "sv": "kitfo (köttfärsrätt)",
-      "nl": "kitfo (gehaktgerecht)"
+      "nl": "kitfo (gehaktgerecht)",
+      "it": "kitfo (piatto di carne macinata)",
+      "es": "kitfo (plato de carne picada)"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "Wat (Eintopf/Soße)",
       "en": "wat (stew)",
       "sv": "wat (gryta)",
-      "nl": "wat (stoofpot)"
+      "nl": "wat (stoofpot)",
+      "it": "wat (stufato)",
+      "es": "wat (guiso)"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "Firfir (Injera-Gericht)",
       "en": "firfir (injera dish)",
       "sv": "firfir (injera-rätt)",
-      "nl": "firfir (injeragerecht)"
+      "nl": "firfir (injeragerecht)",
+      "it": "firfir (piatto a base di injera)",
+      "es": "firfir (plato a base de injera)"
     },
     "hint": {},
     "alt": {},

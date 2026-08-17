@@ -10,7 +10,9 @@
       "de": "der Scheich (religiöser Gelehrter)",
       "en": "sheikh (religious scholar)",
       "sv": "shejk (religiös lärd)",
-      "nl": "sjeik (religieuze geleerde)"
+      "nl": "sjeik (religieuze geleerde)",
+      "it": "lo sceicco (studioso religioso)",
+      "es": "el jeque (erudito religioso)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Religionslehrer (Ustaz)",
       "en": "Islamic teacher (ustadh)",
       "sv": "religionslärare (ustadh)",
-      "nl": "islamitische leraar (ustadh)"
+      "nl": "islamitische leraar (ustadh)",
+      "it": "l'insegnante islamico (ustadh)",
+      "es": "el maestro islámico (ustadh)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Koranschule (Madrasa)",
       "en": "Islamic school (madrasa)",
       "sv": "koranskola (madrasa)",
-      "nl": "koranschool (madrassa)"
+      "nl": "koranschool (madrassa)",
+      "it": "la scuola coranica (madrasa)",
+      "es": "la escuela coránica (madrasa)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "erlaubt, halal",
       "en": "permissible, halal",
       "sv": "tillåten, halal",
-      "nl": "toegestaan, halal"
+      "nl": "toegestaan, halal",
+      "it": "permesso, halal",
+      "es": "permitido, halal"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "verboten, haram",
       "en": "forbidden, haram",
       "sv": "förbjuden, haram",
-      "nl": "verboden, haram"
+      "nl": "verboden, haram",
+      "it": "proibito, haram",
+      "es": "prohibido, haram"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "glauben",
       "en": "to believe",
       "sv": "tro",
-      "nl": "geloven"
+      "nl": "geloven",
+      "it": "credere",
+      "es": "creer"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "Hadschi (Titel für Mekka-Pilger)",
       "en": "Hajji (title for a Mecca pilgrim)",
       "sv": "hadji (titel för Mecka-pilgrim)",
-      "nl": "hadji (titel voor Mekka-pelgrim)"
+      "nl": "hadji (titel voor Mekka-pelgrim)",
+      "it": "Hajji (titolo per un pellegrino della Mecca)",
+      "es": "Hayyi (título para un peregrino de La Meca)"
     },
     "hint": {},
     "alt": {},

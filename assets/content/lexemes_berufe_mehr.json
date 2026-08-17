@@ -10,7 +10,9 @@
       "de": "der Richter",
       "en": "judge",
       "sv": "domare",
-      "nl": "rechter"
+      "nl": "rechter",
+      "it": "il giudice",
+      "es": "el juez"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Priester",
       "en": "priest",
       "sv": "präst",
-      "nl": "priester"
+      "nl": "priester",
+      "it": "il prete, il sacerdote",
+      "es": "el sacerdote"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Schneider",
       "en": "tailor",
       "sv": "skräddare",
-      "nl": "kleermaker"
+      "nl": "kleermaker",
+      "it": "il sarto",
+      "es": "el sastre"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Zimmermann, Schreiner",
       "en": "carpenter",
       "sv": "snickare",
-      "nl": "timmerman"
+      "nl": "timmerman",
+      "it": "il falegname",
+      "es": "el carpintero"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der/die Sekretär(in)",
       "en": "secretary",
       "sv": "sekreterare",
-      "nl": "secretaresse"
+      "nl": "secretaresse",
+      "it": "il segretario, la segretaria",
+      "es": "el secretario, la secretaria"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der/die Journalist(in)",
       "en": "journalist",
       "sv": "journalist",
-      "nl": "journalist"
+      "nl": "journalist",
+      "it": "il/la giornalista",
+      "es": "el/la periodista"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der/die Fotograf(in)",
       "en": "photographer",
       "sv": "fotograf",
-      "nl": "fotograaf"
+      "nl": "fotograaf",
+      "it": "il fotografo, la fotografa",
+      "es": "el fotógrafo, la fotógrafa"
     },
     "hint": {},
     "alt": {},

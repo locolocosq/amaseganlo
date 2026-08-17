@@ -1,14 +1,218 @@
 [
-  {"id":"lex_ti_ld2_ertra","am":"ኤርትራ","tr":"ertra","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Eritrea","en":"Eritrea","sv":"Eritrea","nl":"Eritrea"},"emoji":"🇪🇷","verified":false},
-  {"id":"lex_ti_ld2_ityop","am":"ኢትዮጵያ","tr":"ityop'ya","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Äthiopien","en":"Ethiopia","sv":"Etiopien","nl":"Ethiopië"},"emoji":"🇪🇹","verified":false},
-  {"id":"lex_ti_ld2_sudan","am":"ሱዳን","tr":"sudan","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Sudan","en":"Sudan","sv":"Sudan","nl":"Soedan"},"emoji":"🇸🇩","verified":false},
-  {"id":"lex_ti_ld2_gbtsi","am":"ግብጺ","tr":"gibitsi","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Ägypten","en":"Egypt","sv":"Egypten","nl":"Egypte"},"emoji":"🇪🇬","verified":false},
-  {"id":"lex_ti_ld2_somal","am":"ሶማልያ","tr":"somaliya","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Somalia","en":"Somalia","sv":"Somalia","nl":"Somalië"},"emoji":"🇸🇴","verified":false},
-  {"id":"lex_ti_ld2_djbti","am":"ጅቡቲ","tr":"jibuti","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Dschibuti","en":"Djibouti","sv":"Djibouti","nl":"Djibouti"},"emoji":"🇩🇯","verified":false},
-  {"id":"lex_ti_ld2_spain","am":"ስጳኛ","tr":"sipagna","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Spanien","en":"Spain","sv":"Spanien","nl":"Spanje"},"emoji":"🇪🇸","verified":false},
-  {"id":"lex_ti_ld2_rusia","am":"ሩስያ","tr":"rusiya","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Russland","en":"Russia","sv":"Ryssland","nl":"Rusland"},"emoji":"🇷🇺","verified":false},
-  {"id":"lex_ti_ld2_japan","am":"ጃፓን","tr":"japan","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Japan","en":"Japan","sv":"Japan","nl":"Japan"},"emoji":"🇯🇵","verified":false},
-  {"id":"lex_ti_ld2_sthaf","am":"ደቡብ ኣፍሪቃ","tr":"debub afrika","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Südafrika","en":"South Africa","sv":"Sydafrika","nl":"Zuid-Afrika"},"emoji":"🇿🇦","verified":false},
-  {"id":"lex_ti_ld2_turki","am":"ቱርኪ","tr":"turki","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"die Türkei","en":"Turkey","sv":"Turkiet","nl":"Turkije"},"emoji":"🇹🇷","verified":false},
-  {"id":"lex_ti_ld2_kanad","am":"ካናዳ","tr":"kanada","pos":"noun","topic":"countries_more","level":"TI","t":{"de":"Kanada","en":"Canada","sv":"Kanada","nl":"Canada"},"emoji":"🇨🇦","verified":false}
+  {
+    "id": "lex_ti_ld2_ertra",
+    "am": "ኤርትራ",
+    "tr": "ertra",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Eritrea",
+      "en": "Eritrea",
+      "sv": "Eritrea",
+      "nl": "Eritrea",
+      "it": "Eritrea",
+      "es": "Eritrea"
+    },
+    "emoji": "🇪🇷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_ityop",
+    "am": "ኢትዮጵያ",
+    "tr": "ityop'ya",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Äthiopien",
+      "en": "Ethiopia",
+      "sv": "Etiopien",
+      "nl": "Ethiopië",
+      "it": "Etiopia",
+      "es": "Etiopía"
+    },
+    "emoji": "🇪🇹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_sudan",
+    "am": "ሱዳን",
+    "tr": "sudan",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Sudan",
+      "en": "Sudan",
+      "sv": "Sudan",
+      "nl": "Soedan",
+      "it": "Sudan",
+      "es": "Sudán"
+    },
+    "emoji": "🇸🇩",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_gbtsi",
+    "am": "ግብጺ",
+    "tr": "gibitsi",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Ägypten",
+      "en": "Egypt",
+      "sv": "Egypten",
+      "nl": "Egypte",
+      "it": "Egitto",
+      "es": "Egipto"
+    },
+    "emoji": "🇪🇬",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_somal",
+    "am": "ሶማልያ",
+    "tr": "somaliya",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Somalia",
+      "en": "Somalia",
+      "sv": "Somalia",
+      "nl": "Somalië",
+      "it": "Somalia",
+      "es": "Somalia"
+    },
+    "emoji": "🇸🇴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_djbti",
+    "am": "ጅቡቲ",
+    "tr": "jibuti",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Dschibuti",
+      "en": "Djibouti",
+      "sv": "Djibouti",
+      "nl": "Djibouti",
+      "it": "Gibuti",
+      "es": "Yibuti"
+    },
+    "emoji": "🇩🇯",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_spain",
+    "am": "ስጳኛ",
+    "tr": "sipagna",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Spanien",
+      "en": "Spain",
+      "sv": "Spanien",
+      "nl": "Spanje",
+      "it": "Spagna",
+      "es": "España"
+    },
+    "emoji": "🇪🇸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_rusia",
+    "am": "ሩስያ",
+    "tr": "rusiya",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Russland",
+      "en": "Russia",
+      "sv": "Ryssland",
+      "nl": "Rusland",
+      "it": "Russia",
+      "es": "Rusia"
+    },
+    "emoji": "🇷🇺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_japan",
+    "am": "ጃፓን",
+    "tr": "japan",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Japan",
+      "en": "Japan",
+      "sv": "Japan",
+      "nl": "Japan",
+      "it": "Giappone",
+      "es": "Japón"
+    },
+    "emoji": "🇯🇵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_sthaf",
+    "am": "ደቡብ ኣፍሪቃ",
+    "tr": "debub afrika",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Südafrika",
+      "en": "South Africa",
+      "sv": "Sydafrika",
+      "nl": "Zuid-Afrika",
+      "it": "Sudafrica",
+      "es": "Sudáfrica"
+    },
+    "emoji": "🇿🇦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_turki",
+    "am": "ቱርኪ",
+    "tr": "turki",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "die Türkei",
+      "en": "Turkey",
+      "sv": "Turkiet",
+      "nl": "Turkije",
+      "it": "Turchia",
+      "es": "Turquía"
+    },
+    "emoji": "🇹🇷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ld2_kanad",
+    "am": "ካናዳ",
+    "tr": "kanada",
+    "pos": "noun",
+    "topic": "countries_more",
+    "level": "TI",
+    "t": {
+      "de": "Kanada",
+      "en": "Canada",
+      "sv": "Kanada",
+      "nl": "Canada",
+      "it": "Canada",
+      "es": "Canadá"
+    },
+    "emoji": "🇨🇦",
+    "verified": false
+  }
 ]

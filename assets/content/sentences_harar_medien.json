@@ -4,14 +4,23 @@
     "am": "ጋዜጠኛው ለጋዜጣ ይጽፋል።",
     "tr": "gazetegnaw legazeta yits'ifal.",
     "level": "B2",
-    "uses": ["lex_gazetegna", "lex_gazeta"],
+    "uses": [
+      "lex_gazetegna",
+      "lex_gazeta"
+    ],
     "t": {
       "de": "Der Journalist schreibt für die Zeitung.",
       "en": "The journalist writes for the newspaper.",
       "sv": "Journalisten skriver för tidningen.",
-      "nl": "De journalist schrijft voor de krant."
+      "nl": "De journalist schrijft voor de krant.",
+      "it": "Il giornalista scrive per il giornale.",
+      "es": "El periodista escribe para el periódico."
     },
-    "chunks": ["gazetegnaw", "legazeta", "yits'ifal"],
+    "chunks": [
+      "gazetegnaw",
+      "legazeta",
+      "yits'ifal"
+    ],
     "verified": false
   },
   {
@@ -19,14 +28,24 @@
     "am": "ይህ ዜና እውነተኛ ነው።",
     "tr": "yih zena iwinetegna newu.",
     "level": "B2",
-    "uses": ["lex_zena", "lex_adj_iwnet"],
+    "uses": [
+      "lex_zena",
+      "lex_adj_iwnet"
+    ],
     "t": {
       "de": "Diese Nachricht ist wahr.",
       "en": "This news is true.",
       "sv": "Den här nyheten är sann.",
-      "nl": "Dit nieuws is waar."
+      "nl": "Dit nieuws is waar.",
+      "it": "Questa notizia è vera.",
+      "es": "Esta noticia es verdadera."
     },
-    "chunks": ["yih", "zena", "iwinetegna", "newu"],
+    "chunks": [
+      "yih",
+      "zena",
+      "iwinetegna",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +53,24 @@
     "am": "ጋዜጠኛው ዜናውን አስታወቀ።",
     "tr": "gazetegnaw zenawin asitawek'e.",
     "level": "B2",
-    "uses": ["lex_v_meglets", "lex_zena", "lex_gazetegna"],
+    "uses": [
+      "lex_v_meglets",
+      "lex_zena",
+      "lex_gazetegna"
+    ],
     "t": {
       "de": "Der Journalist gab die Nachricht bekannt.",
       "en": "The journalist announced the news.",
       "sv": "Journalisten tillkännagav nyheten.",
-      "nl": "De journalist kondigde het nieuws aan."
+      "nl": "De journalist kondigde het nieuws aan.",
+      "it": "Il giornalista ha annunciato la notizia.",
+      "es": "El periodista anunció la noticia."
     },
-    "chunks": ["gazetegnaw", "zenawin", "asitawek'e"],
+    "chunks": [
+      "gazetegnaw",
+      "zenawin",
+      "asitawek'e"
+    ],
     "verified": false
   },
   {
@@ -49,14 +78,23 @@
     "am": "የህዝብ አስተያየት አስፈላጊ ነው።",
     "tr": "yehizib astayayet asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_akera_hasab"],
+    "uses": [
+      "lex_akera_hasab"
+    ],
     "t": {
       "de": "Die öffentliche Meinung ist wichtig.",
       "en": "Public opinion is important.",
       "sv": "Den allmänna opinionen är viktig.",
-      "nl": "De publieke opinie is belangrijk."
+      "nl": "De publieke opinie is belangrijk.",
+      "it": "L'opinione pubblica è importante.",
+      "es": "La opinión pública es importante."
     },
-    "chunks": ["yehizib", "astayayet", "asfelagi", "newu"],
+    "chunks": [
+      "yehizib",
+      "astayayet",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +102,26 @@
     "am": "ይህ ጋዜጣ እውነተኛ ዜና ይጽፋል።",
     "tr": "yih gazeta iwinetegna zena yits'ifal.",
     "level": "B2",
-    "uses": ["lex_gazeta", "lex_adj_iwnet", "lex_zena"],
+    "uses": [
+      "lex_gazeta",
+      "lex_adj_iwnet",
+      "lex_zena"
+    ],
     "t": {
       "de": "Diese Zeitung schreibt wahre Nachrichten.",
       "en": "This newspaper writes true news.",
       "sv": "Den här tidningen skriver sanna nyheter.",
-      "nl": "Deze krant schrijft waar nieuws."
+      "nl": "Deze krant schrijft waar nieuws.",
+      "it": "Questo giornale scrive notizie vere.",
+      "es": "Este periódico escribe noticias verdaderas."
     },
-    "chunks": ["yih", "gazeta", "iwinetegna", "zena", "yits'ifal"],
+    "chunks": [
+      "yih",
+      "gazeta",
+      "iwinetegna",
+      "zena",
+      "yits'ifal"
+    ],
     "verified": false
   }
 ]

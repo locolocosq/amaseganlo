@@ -1,18 +1,290 @@
 [
-  {"id":"lex_ti_ertra","am":"ኤርትራ","tr":"ertra","pos":"noun","topic":"geography","level":"TI","t":{"de":"Eritrea (Land)","en":"Eritrea (country)","sv":"Eritrea","nl":"Eritrea"},"emoji":"🇪🇷","verified":false},
-  {"id":"lex_ti_asmera","am":"ኣስመራ","tr":"asmera","pos":"noun","topic":"geography","level":"TI","t":{"de":"Asmara (Hauptstadt)","en":"Asmara (capital)","sv":"Asmara","nl":"Asmara"},"emoji":"","verified":false},
-  {"id":"lex_ti_masewa","am":"ምጽዋዕ","tr":"mitswa'e","pos":"noun","topic":"geography","level":"TI","t":{"de":"Massawa (Hafenstadt)","en":"Massawa (port city)","sv":"Massawa","nl":"Massawa"},"emoji":"","verified":false},
-  {"id":"lex_ti_kern","am":"ከረን","tr":"keren","pos":"noun","topic":"geography","level":"TI","t":{"de":"Keren (Stadt)","en":"Keren (city)","sv":"Keren","nl":"Keren"},"emoji":"","verified":false},
-  {"id":"lex_ti_ityopia","am":"ኢትዮጵያ","tr":"ityopia","pos":"noun","topic":"geography","level":"TI","t":{"de":"Äthiopien","en":"Ethiopia","sv":"Etiopien","nl":"Ethiopië"},"emoji":"🇪🇹","verified":false},
-  {"id":"lex_ti_sudan","am":"ሱዳን","tr":"sudan","pos":"noun","topic":"geography","level":"TI","t":{"de":"Sudan","en":"Sudan","sv":"Sudan","nl":"Soedan"},"emoji":"","verified":false},
-  {"id":"lex_ti_jibuti","am":"ጅቡቲ","tr":"jibuti","pos":"noun","topic":"geography","level":"TI","t":{"de":"Dschibuti","en":"Djibouti","sv":"Djibouti","nl":"Djibouti"},"emoji":"","verified":false},
-  {"id":"lex_ti_alem","am":"ዓለም","tr":"'alem","pos":"noun","topic":"geography","level":"TI","t":{"de":"die Welt","en":"world","sv":"värld","nl":"wereld"},"emoji":"🌍","verified":false},
-  {"id":"lex_ti_hagr","am":"ሃገር","tr":"hager","pos":"noun","topic":"geography","level":"TI","t":{"de":"das Land, die Nation","en":"country, nation","sv":"land, nation","nl":"land, natie"},"emoji":"","verified":false},
-  {"id":"lex_ti_kilil","am":"ዞባ","tr":"zoba","pos":"noun","topic":"geography","level":"TI","t":{"de":"die Region","en":"region","sv":"region","nl":"regio"},"emoji":"","verified":false},
-  {"id":"lex_ti_debub","am":"ደቡብ","tr":"debub","pos":"noun","topic":"geography","level":"TI","t":{"de":"der Süden","en":"south","sv":"söder","nl":"zuiden"},"emoji":"","verified":false},
-  {"id":"lex_ti_semen","am":"ሰሜን","tr":"semen","pos":"noun","topic":"geography","level":"TI","t":{"de":"der Norden","en":"north","sv":"norr","nl":"noorden"},"emoji":"","verified":false},
-  {"id":"lex_ti_misrak","am":"ምብራቕ","tr":"mibraq","pos":"noun","topic":"geography","level":"TI","t":{"de":"der Osten","en":"east","sv":"öster","nl":"oosten"},"emoji":"","verified":false},
-  {"id":"lex_ti_mieraf","am":"ምዕራብ","tr":"mi'irab","pos":"noun","topic":"geography","level":"TI","t":{"de":"der Westen","en":"west","sv":"väster","nl":"westen"},"emoji":"","verified":false},
-  {"id":"lex_ti_kef","am":"ገምገም ባሕሪ","tr":"gemgem bahri","pos":"noun","topic":"geography","level":"TI","t":{"de":"die Küste","en":"coast","sv":"kust","nl":"kust"},"emoji":"🏖️","verified":false},
-  {"id":"lex_ti_dhlk","am":"ደሴት","tr":"deset","pos":"noun","topic":"geography","level":"TI","t":{"de":"die Insel","en":"island","sv":"ö","nl":"eiland"},"emoji":"🏝️","verified":false}
+  {
+    "id": "lex_ti_ertra",
+    "am": "ኤርትራ",
+    "tr": "ertra",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Eritrea (Land)",
+      "en": "Eritrea (country)",
+      "sv": "Eritrea",
+      "nl": "Eritrea",
+      "it": "Eritrea (paese)",
+      "es": "Eritrea (país)"
+    },
+    "emoji": "🇪🇷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_asmera",
+    "am": "ኣስመራ",
+    "tr": "asmera",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Asmara (Hauptstadt)",
+      "en": "Asmara (capital)",
+      "sv": "Asmara",
+      "nl": "Asmara",
+      "it": "Asmara (capitale)",
+      "es": "Asmara (capital)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_masewa",
+    "am": "ምጽዋዕ",
+    "tr": "mitswa'e",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Massawa (Hafenstadt)",
+      "en": "Massawa (port city)",
+      "sv": "Massawa",
+      "nl": "Massawa",
+      "it": "Massaua (città portuale)",
+      "es": "Massaua (ciudad portuaria)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kern",
+    "am": "ከረን",
+    "tr": "keren",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Keren (Stadt)",
+      "en": "Keren (city)",
+      "sv": "Keren",
+      "nl": "Keren",
+      "it": "Keren (città)",
+      "es": "Keren (ciudad)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ityopia",
+    "am": "ኢትዮጵያ",
+    "tr": "ityopia",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Äthiopien",
+      "en": "Ethiopia",
+      "sv": "Etiopien",
+      "nl": "Ethiopië",
+      "it": "Etiopia",
+      "es": "Etiopía"
+    },
+    "emoji": "🇪🇹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sudan",
+    "am": "ሱዳን",
+    "tr": "sudan",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Sudan",
+      "en": "Sudan",
+      "sv": "Sudan",
+      "nl": "Soedan",
+      "it": "Sudan",
+      "es": "Sudán"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jibuti",
+    "am": "ጅቡቲ",
+    "tr": "jibuti",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "Dschibuti",
+      "en": "Djibouti",
+      "sv": "Djibouti",
+      "nl": "Djibouti",
+      "it": "Gibuti",
+      "es": "Yibuti"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_alem",
+    "am": "ዓለም",
+    "tr": "'alem",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "die Welt",
+      "en": "world",
+      "sv": "värld",
+      "nl": "wereld",
+      "it": "il mondo",
+      "es": "el mundo"
+    },
+    "emoji": "🌍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hagr",
+    "am": "ሃገር",
+    "tr": "hager",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "das Land, die Nation",
+      "en": "country, nation",
+      "sv": "land, nation",
+      "nl": "land, natie",
+      "it": "il paese, la nazione",
+      "es": "el país, la nación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kilil",
+    "am": "ዞባ",
+    "tr": "zoba",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "die Region",
+      "en": "region",
+      "sv": "region",
+      "nl": "regio",
+      "it": "la regione",
+      "es": "la región"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_debub",
+    "am": "ደቡብ",
+    "tr": "debub",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "der Süden",
+      "en": "south",
+      "sv": "söder",
+      "nl": "zuiden",
+      "it": "il sud",
+      "es": "el sur"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_semen",
+    "am": "ሰሜን",
+    "tr": "semen",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "der Norden",
+      "en": "north",
+      "sv": "norr",
+      "nl": "noorden",
+      "it": "il nord",
+      "es": "el norte"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_misrak",
+    "am": "ምብራቕ",
+    "tr": "mibraq",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "der Osten",
+      "en": "east",
+      "sv": "öster",
+      "nl": "oosten",
+      "it": "l'est",
+      "es": "el este"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mieraf",
+    "am": "ምዕራብ",
+    "tr": "mi'irab",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "der Westen",
+      "en": "west",
+      "sv": "väster",
+      "nl": "westen",
+      "it": "l'ovest",
+      "es": "el oeste"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kef",
+    "am": "ገምገም ባሕሪ",
+    "tr": "gemgem bahri",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "die Küste",
+      "en": "coast",
+      "sv": "kust",
+      "nl": "kust",
+      "it": "la costa",
+      "es": "la costa"
+    },
+    "emoji": "🏖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dhlk",
+    "am": "ደሴት",
+    "tr": "deset",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "TI",
+    "t": {
+      "de": "die Insel",
+      "en": "island",
+      "sv": "ö",
+      "nl": "eiland",
+      "it": "l'isola",
+      "es": "la isla"
+    },
+    "emoji": "🏝️",
+    "verified": false
+  }
 ]

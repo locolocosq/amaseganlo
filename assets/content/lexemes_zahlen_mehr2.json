@@ -10,7 +10,9 @@
       "de": "sechste(r/s)",
       "en": "sixth",
       "sv": "sjätte",
-      "nl": "zesde"
+      "nl": "zesde",
+      "it": "sesto/a",
+      "es": "sexto/a"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "siebte(r/s)",
       "en": "seventh",
       "sv": "sjunde",
-      "nl": "zevende"
+      "nl": "zevende",
+      "it": "settimo/a",
+      "es": "séptimo/a"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "achte(r/s)",
       "en": "eighth",
       "sv": "åttonde",
-      "nl": "achtste"
+      "nl": "achtste",
+      "it": "ottavo/a",
+      "es": "octavo/a"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "neunte(r/s)",
       "en": "ninth",
       "sv": "nionde",
-      "nl": "negende"
+      "nl": "negende",
+      "it": "nono/a",
+      "es": "noveno/a"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "zehnte(r/s)",
       "en": "tenth",
       "sv": "tionde",
-      "nl": "tiende"
+      "nl": "tiende",
+      "it": "decimo/a",
+      "es": "décimo/a"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "400",
       "en": "400",
       "sv": "400",
-      "nl": "400"
+      "nl": "400",
+      "it": "400",
+      "es": "400"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "600",
       "en": "600",
       "sv": "600",
-      "nl": "600"
+      "nl": "600",
+      "it": "600",
+      "es": "600"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "700",
       "en": "700",
       "sv": "700",
-      "nl": "700"
+      "nl": "700",
+      "it": "700",
+      "es": "700"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "800",
       "en": "800",
       "sv": "800",
-      "nl": "800"
+      "nl": "800",
+      "it": "800",
+      "es": "800"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "900",
       "en": "900",
       "sv": "900",
-      "nl": "900"
+      "nl": "900",
+      "it": "900",
+      "es": "900"
     },
     "hint": {},
     "alt": {},

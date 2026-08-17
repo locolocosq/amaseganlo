@@ -10,7 +10,9 @@
       "de": "die Entscheidung",
       "en": "decision",
       "sv": "beslut",
-      "nl": "beslissing"
+      "nl": "beslissing",
+      "it": "la decisione",
+      "es": "la decisión"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Projekt",
       "en": "project",
       "sv": "projekt",
-      "nl": "project"
+      "nl": "project",
+      "it": "il progetto",
+      "es": "el proyecto"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Ziel, die Absicht",
       "en": "goal, aim",
       "sv": "mål, syfte",
-      "nl": "doel"
+      "nl": "doel",
+      "it": "l'obiettivo, l'intenzione",
+      "es": "la meta, el propósito"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Gewohnheit",
       "en": "habit",
       "sv": "vana",
-      "nl": "gewoonte"
+      "nl": "gewoonte",
+      "it": "l'abitudine",
+      "es": "el hábito"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Zeremonie",
       "en": "ceremony",
       "sv": "ceremoni",
-      "nl": "ceremonie"
+      "nl": "ceremonie",
+      "it": "la cerimonia",
+      "es": "la ceremonia"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Feier",
       "en": "celebration",
       "sv": "fest",
-      "nl": "feest"
+      "nl": "feest",
+      "it": "la festa",
+      "es": "la celebración"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Beerdigung",
       "en": "funeral",
       "sv": "begravning",
-      "nl": "begrafenis"
+      "nl": "begrafenis",
+      "it": "il funerale",
+      "es": "el funeral"
     },
     "hint": {},
     "alt": {},

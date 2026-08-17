@@ -1,10 +1,218 @@
 [
-  {"id":"sen_safari_yeissu_hund","am":"የእሱ ውሻ ትንሽ ነው።","tr":"yeissu wusha tinish new.","level":"B2","uses":["lex_poss_yeissu","lex_hund","lex_klein","lex_copula_new"],"t":{"de":"Sein Hund ist klein.","en":"His dog is small.","sv":"Hans hund är liten.","nl":"Zijn hond is klein."},"chunks":["yeissu","wusha","tinish","new"],"verified":false},
-  {"id":"sen_safari_yeiswa_hund","am":"የእሷ ውሻ ትንሽ ነው።","tr":"yeiswa wusha tinish new.","level":"B2","uses":["lex_poss_yeiswa","lex_hund","lex_klein","lex_copula_new"],"t":{"de":"Ihr Hund ist klein.","en":"Her dog is small.","sv":"Hennes hund är liten.","nl":"Haar hond is klein."},"chunks":["yeiswa","wusha","tinish","new"],"verified":false},
-  {"id":"sen_safari_yeissu_tasche","am":"የእሱ ቦርሳ ከባድ ነው።","tr":"yeissu borsa kebad new.","level":"B2","uses":["lex_poss_yeissu","lex_tasche","lex_schwer_gewicht","lex_copula_new"],"t":{"de":"Seine Tasche ist schwer.","en":"His bag is heavy.","sv":"Hans väska är tung.","nl":"Zijn tas is zwaar."},"chunks":["yeissu","borsa","kebad","new"],"verified":false},
-  {"id":"sen_safari_yeiswa_tasche","am":"የእሷ ቦርሳ ቀላል ነው።","tr":"yeiswa borsa kelal new.","level":"B2","uses":["lex_poss_yeiswa","lex_tasche","lex_leicht_gewicht","lex_copula_new"],"t":{"de":"Ihre Tasche ist leicht.","en":"Her bag is light.","sv":"Hennes väska är lätt.","nl":"Haar tas is licht."},"chunks":["yeiswa","borsa","kelal","new"],"verified":false},
-  {"id":"sen_safari_yeissu_katze","am":"የእሱ ድመት ቆንጆ ነው።","tr":"yeissu dimet konjo new.","level":"B2","uses":["lex_poss_yeissu","lex_katze","lex_schoen","lex_copula_new"],"t":{"de":"Seine Katze ist schön.","en":"His cat is cute.","sv":"Hans katt är vacker.","nl":"Zijn kat is mooi."},"chunks":["yeissu","dimet","konjo","new"],"verified":false},
-  {"id":"sen_safari_yeiswa_katze","am":"የእሷ ድመት ቆንጆ ነው።","tr":"yeiswa dimet konjo new.","level":"B2","uses":["lex_poss_yeiswa","lex_katze","lex_schoen","lex_copula_new"],"t":{"de":"Ihre Katze ist schön.","en":"Her cat is cute.","sv":"Hennes katt är vacker.","nl":"Haar kat is mooi."},"chunks":["yeiswa","dimet","konjo","new"],"verified":false},
-  {"id":"sen_safari_yeissu_strasse","am":"የእሱ መንገድ ረጅም ነው።","tr":"yeissu mengad rejim new.","level":"B2","uses":["lex_poss_yeissu","lex_strasse","lex_lang","lex_copula_new"],"t":{"de":"Seine Straße ist lang.","en":"His street is long.","sv":"Hans gata är lång.","nl":"Zijn straat is lang."},"chunks":["yeissu","mengad","rejim","new"],"verified":false},
-  {"id":"sen_safari_yeiswa_strasse","am":"የእሷ መንገድ አጭር ነው።","tr":"yeiswa mengad achir new.","level":"B2","uses":["lex_poss_yeiswa","lex_strasse","lex_kurz","lex_copula_new"],"t":{"de":"Ihre Straße ist kurz.","en":"Her street is short.","sv":"Hennes gata är kort.","nl":"Haar straat is kort."},"chunks":["yeiswa","mengad","achir","new"],"verified":false}
+  {
+    "id": "sen_safari_yeissu_hund",
+    "am": "የእሱ ውሻ ትንሽ ነው።",
+    "tr": "yeissu wusha tinish new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeissu",
+      "lex_hund",
+      "lex_klein",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Sein Hund ist klein.",
+      "en": "His dog is small.",
+      "sv": "Hans hund är liten.",
+      "nl": "Zijn hond is klein.",
+      "it": "Il suo cane (di lui) è piccolo.",
+      "es": "Su perro (de él) es pequeño."
+    },
+    "chunks": [
+      "yeissu",
+      "wusha",
+      "tinish",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeiswa_hund",
+    "am": "የእሷ ውሻ ትንሽ ነው።",
+    "tr": "yeiswa wusha tinish new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeiswa",
+      "lex_hund",
+      "lex_klein",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Ihr Hund ist klein.",
+      "en": "Her dog is small.",
+      "sv": "Hennes hund är liten.",
+      "nl": "Haar hond is klein.",
+      "it": "Il suo cane (di lei) è piccolo.",
+      "es": "Su perro (de ella) es pequeño."
+    },
+    "chunks": [
+      "yeiswa",
+      "wusha",
+      "tinish",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeissu_tasche",
+    "am": "የእሱ ቦርሳ ከባድ ነው።",
+    "tr": "yeissu borsa kebad new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeissu",
+      "lex_tasche",
+      "lex_schwer_gewicht",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Seine Tasche ist schwer.",
+      "en": "His bag is heavy.",
+      "sv": "Hans väska är tung.",
+      "nl": "Zijn tas is zwaar.",
+      "it": "La sua borsa (di lui) è pesante.",
+      "es": "Su bolsa (de él) es pesada."
+    },
+    "chunks": [
+      "yeissu",
+      "borsa",
+      "kebad",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeiswa_tasche",
+    "am": "የእሷ ቦርሳ ቀላል ነው።",
+    "tr": "yeiswa borsa kelal new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeiswa",
+      "lex_tasche",
+      "lex_leicht_gewicht",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Ihre Tasche ist leicht.",
+      "en": "Her bag is light.",
+      "sv": "Hennes väska är lätt.",
+      "nl": "Haar tas is licht.",
+      "it": "La sua borsa (di lei) è leggera.",
+      "es": "Su bolsa (de ella) es ligera."
+    },
+    "chunks": [
+      "yeiswa",
+      "borsa",
+      "kelal",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeissu_katze",
+    "am": "የእሱ ድመት ቆንጆ ነው።",
+    "tr": "yeissu dimet konjo new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeissu",
+      "lex_katze",
+      "lex_schoen",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Seine Katze ist schön.",
+      "en": "His cat is cute.",
+      "sv": "Hans katt är vacker.",
+      "nl": "Zijn kat is mooi.",
+      "it": "Il suo gatto (di lui) è bello.",
+      "es": "Su gato (de él) es bonito."
+    },
+    "chunks": [
+      "yeissu",
+      "dimet",
+      "konjo",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeiswa_katze",
+    "am": "የእሷ ድመት ቆንጆ ነው።",
+    "tr": "yeiswa dimet konjo new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeiswa",
+      "lex_katze",
+      "lex_schoen",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Ihre Katze ist schön.",
+      "en": "Her cat is cute.",
+      "sv": "Hennes katt är vacker.",
+      "nl": "Haar kat is mooi.",
+      "it": "Il suo gatto (di lei) è bello.",
+      "es": "Su gato (de ella) es bonito."
+    },
+    "chunks": [
+      "yeiswa",
+      "dimet",
+      "konjo",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeissu_strasse",
+    "am": "የእሱ መንገድ ረጅም ነው።",
+    "tr": "yeissu mengad rejim new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeissu",
+      "lex_strasse",
+      "lex_lang",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Seine Straße ist lang.",
+      "en": "His street is long.",
+      "sv": "Hans gata är lång.",
+      "nl": "Zijn straat is lang.",
+      "it": "La sua strada (di lui) è lunga.",
+      "es": "Su calle (de él) es larga."
+    },
+    "chunks": [
+      "yeissu",
+      "mengad",
+      "rejim",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeiswa_strasse",
+    "am": "የእሷ መንገድ አጭር ነው።",
+    "tr": "yeiswa mengad achir new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeiswa",
+      "lex_strasse",
+      "lex_kurz",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Ihre Straße ist kurz.",
+      "en": "Her street is short.",
+      "sv": "Hennes gata är kort.",
+      "nl": "Haar straat is kort.",
+      "it": "La sua strada (di lei) è corta.",
+      "es": "Su calle (de ella) es corta."
+    },
+    "chunks": [
+      "yeiswa",
+      "mengad",
+      "achir",
+      "new"
+    ],
+    "verified": false
+  }
 ]

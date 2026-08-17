@@ -10,7 +10,9 @@
       "de": "beginnen",
       "en": "to begin",
       "sv": "börja",
-      "nl": "beginnen"
+      "nl": "beginnen",
+      "it": "iniziare",
+      "es": "empezar"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "aufhören, anhalten",
       "en": "to stop",
       "sv": "sluta, stanna",
-      "nl": "stoppen"
+      "nl": "stoppen",
+      "it": "smettere, fermarsi",
+      "es": "parar, dejar de"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "gewinnen",
       "en": "to win",
       "sv": "vinna",
-      "nl": "winnen"
+      "nl": "winnen",
+      "it": "vincere",
+      "es": "ganar"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "verlieren",
       "en": "to lose",
       "sv": "förlora",
-      "nl": "verliezen"
+      "nl": "verliezen",
+      "it": "perdere",
+      "es": "perder"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "bezahlen",
       "en": "to pay",
       "sv": "betala",
-      "nl": "betalen"
+      "nl": "betalen",
+      "it": "pagare",
+      "es": "pagar"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "sparen",
       "en": "to save (money)",
       "sv": "spara",
-      "nl": "sparen"
+      "nl": "sparen",
+      "it": "risparmiare",
+      "es": "ahorrar"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "teilen",
       "en": "to share",
       "sv": "dela",
-      "nl": "delen"
+      "nl": "delen",
+      "it": "condividere",
+      "es": "compartir"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "sammeln",
       "en": "to collect",
       "sv": "samla",
-      "nl": "verzamelen"
+      "nl": "verzamelen",
+      "it": "raccogliere",
+      "es": "recoger"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "wählen",
       "en": "to choose",
       "sv": "välja",
-      "nl": "kiezen"
+      "nl": "kiezen",
+      "it": "scegliere",
+      "es": "elegir"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "vergessen",
       "en": "to forget",
       "sv": "glömma",
-      "nl": "vergeten"
+      "nl": "vergeten",
+      "it": "dimenticare",
+      "es": "olvidar"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "sich erinnern",
       "en": "to remember",
       "sv": "komma ihåg",
-      "nl": "onthouden"
+      "nl": "onthouden",
+      "it": "ricordarsi",
+      "es": "acordarse"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "erklären",
       "en": "to explain",
       "sv": "förklara",
-      "nl": "uitleggen"
+      "nl": "uitleggen",
+      "it": "spiegare",
+      "es": "explicar"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "übersetzen",
       "en": "to translate",
       "sv": "översätta",
-      "nl": "vertalen"
+      "nl": "vertalen",
+      "it": "tradurre",
+      "es": "traducir"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "wiederholen",
       "en": "to repeat",
       "sv": "upprepa",
-      "nl": "herhalen"
+      "nl": "herhalen",
+      "it": "ripetere",
+      "es": "repetir"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "üben",
       "en": "to practice",
       "sv": "öva",
-      "nl": "oefenen"
+      "nl": "oefenen",
+      "it": "esercitarsi",
+      "es": "practicar"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "unterrichten",
       "en": "to teach",
       "sv": "undervisa",
-      "nl": "onderwijzen"
+      "nl": "onderwijzen",
+      "it": "insegnare",
+      "es": "enseñar"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "putzen, reinigen",
       "en": "to clean",
       "sv": "göra rent",
-      "nl": "schoonmaken"
+      "nl": "schoonmaken",
+      "it": "pulire",
+      "es": "limpiar"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "zeigen",
       "en": "to show",
       "sv": "visa",
-      "nl": "laten zien"
+      "nl": "laten zien",
+      "it": "mostrare",
+      "es": "mostrar"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "treffen",
       "en": "to meet",
       "sv": "träffa",
-      "nl": "ontmoeten"
+      "nl": "ontmoeten",
+      "it": "incontrare",
+      "es": "quedar con alguien"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "besuchen",
       "en": "to visit",
       "sv": "besöka",
-      "nl": "bezoeken"
+      "nl": "bezoeken",
+      "it": "visitare",
+      "es": "visitar"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "einladen",
       "en": "to invite",
       "sv": "bjuda in",
-      "nl": "uitnodigen"
+      "nl": "uitnodigen",
+      "it": "invitare",
+      "es": "invitar"
     },
     "hint": {},
     "alt": {},
@@ -388,7 +430,9 @@
       "de": "danken",
       "en": "to thank",
       "sv": "tacka",
-      "nl": "bedanken"
+      "nl": "bedanken",
+      "it": "ringraziare",
+      "es": "agradecer"
     },
     "hint": {},
     "alt": {},
@@ -406,7 +450,9 @@
       "de": "lächeln",
       "en": "to smile",
       "sv": "le",
-      "nl": "glimlachen"
+      "nl": "glimlachen",
+      "it": "sorridere",
+      "es": "sonreír"
     },
     "hint": {},
     "alt": {},
@@ -424,7 +470,9 @@
       "de": "schreien",
       "en": "to scream",
       "sv": "skrika",
-      "nl": "schreeuwen"
+      "nl": "schreeuwen",
+      "it": "urlare",
+      "es": "gritar"
     },
     "hint": {},
     "alt": {},
@@ -442,7 +490,9 @@
       "de": "berühren",
       "en": "to touch",
       "sv": "röra",
-      "nl": "aanraken"
+      "nl": "aanraken",
+      "it": "toccare",
+      "es": "tocar"
     },
     "hint": {},
     "alt": {},
@@ -460,7 +510,9 @@
       "de": "riechen",
       "en": "to smell",
       "sv": "lukta",
-      "nl": "ruiken"
+      "nl": "ruiken",
+      "it": "annusare, sentire odore",
+      "es": "oler"
     },
     "hint": {},
     "alt": {},
@@ -478,7 +530,9 @@
       "de": "backen",
       "en": "to bake",
       "sv": "baka",
-      "nl": "bakken"
+      "nl": "bakken",
+      "it": "cuocere al forno",
+      "es": "hornear"
     },
     "hint": {},
     "alt": {},
@@ -496,7 +550,9 @@
       "de": "schneiden",
       "en": "to cut",
       "sv": "skära",
-      "nl": "snijden"
+      "nl": "snijden",
+      "it": "tagliare",
+      "es": "cortar"
     },
     "hint": {},
     "alt": {},
@@ -514,7 +570,9 @@
       "de": "drücken",
       "en": "to press",
       "sv": "trycka",
-      "nl": "duwen"
+      "nl": "duwen",
+      "it": "premere",
+      "es": "pulsar, presionar"
     },
     "hint": {},
     "alt": {},
@@ -532,7 +590,9 @@
       "de": "drehen",
       "en": "to turn",
       "sv": "vrida",
-      "nl": "draaien"
+      "nl": "draaien",
+      "it": "girare",
+      "es": "girar"
     },
     "hint": {},
     "alt": {},
@@ -550,7 +610,9 @@
       "de": "fangen, halten",
       "en": "to catch, to hold",
       "sv": "fånga, hålla",
-      "nl": "vangen, houden"
+      "nl": "vangen, houden",
+      "it": "prendere, afferrare",
+      "es": "atrapar, agarrar"
     },
     "hint": {},
     "alt": {},
@@ -568,7 +630,9 @@
       "de": "verlassen",
       "en": "to leave",
       "sv": "lämna",
-      "nl": "verlaten"
+      "nl": "verlaten",
+      "it": "lasciare",
+      "es": "dejar"
     },
     "hint": {},
     "alt": {},
@@ -586,7 +650,9 @@
       "de": "bleiben",
       "en": "to stay",
       "sv": "stanna",
-      "nl": "blijven"
+      "nl": "blijven",
+      "it": "rimanere",
+      "es": "quedarse"
     },
     "hint": {},
     "alt": {},

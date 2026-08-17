@@ -10,7 +10,9 @@
       "de": "der Ozean",
       "en": "ocean",
       "sv": "ocean",
-      "nl": "oceaan"
+      "nl": "oceaan",
+      "it": "l'oceano",
+      "es": "el océano"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Tal",
       "en": "valley",
       "sv": "dal",
-      "nl": "vallei"
+      "nl": "vallei",
+      "it": "la valle",
+      "es": "el valle"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Insel",
       "en": "island",
       "sv": "ö",
-      "nl": "eiland"
+      "nl": "eiland",
+      "it": "l'isola",
+      "es": "la isla"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Hügel",
       "en": "hill",
       "sv": "kulle",
-      "nl": "heuvel"
+      "nl": "heuvel",
+      "it": "la collina",
+      "es": "la colina"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Höhle",
       "en": "cave",
       "sv": "grotta",
-      "nl": "grot"
+      "nl": "grot",
+      "it": "la grotta",
+      "es": "la cueva"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Wasserfall",
       "en": "waterfall",
       "sv": "vattenfall",
-      "nl": "waterval"
+      "nl": "waterval",
+      "it": "la cascata",
+      "es": "la cascada"
     },
     "hint": {},
     "alt": {},

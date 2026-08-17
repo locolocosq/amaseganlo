@@ -10,7 +10,9 @@
       "de": "die Augenbraue",
       "en": "eyebrow",
       "sv": "ögonbryn",
-      "nl": "wenkbrauw"
+      "nl": "wenkbrauw",
+      "it": "il sopracciglio",
+      "es": "la ceja"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Wimper",
       "en": "eyelash",
       "sv": "ögonfrans",
-      "nl": "wimper"
+      "nl": "wimper",
+      "it": "il ciglio",
+      "es": "la pestaña"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Kinn",
       "en": "chin",
       "sv": "haka",
-      "nl": "kin"
+      "nl": "kin",
+      "it": "il mento",
+      "es": "la barbilla"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Wange",
       "en": "cheek",
       "sv": "kind",
-      "nl": "wang"
+      "nl": "wang",
+      "it": "la guancia",
+      "es": "la mejilla"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Ellbogen",
       "en": "elbow",
       "sv": "armbåge",
-      "nl": "elleboog"
+      "nl": "elleboog",
+      "it": "il gomito",
+      "es": "el codo"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Knöchel",
       "en": "ankle",
       "sv": "vrist",
-      "nl": "enkel"
+      "nl": "enkel",
+      "it": "la caviglia",
+      "es": "el tobillo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "das Handgelenk",
       "en": "wrist",
       "sv": "handled",
-      "nl": "pols"
+      "nl": "pols",
+      "it": "il polso",
+      "es": "la muñeca"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Taille",
       "en": "waist",
       "sv": "midja",
-      "nl": "taille"
+      "nl": "taille",
+      "it": "la vita",
+      "es": "la cintura"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "die Stirn",
       "en": "forehead",
       "sv": "panna",
-      "nl": "voorhoofd"
+      "nl": "voorhoofd",
+      "it": "la fronte",
+      "es": "la frente"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Zunge",
       "en": "tongue",
       "sv": "tunga",
-      "nl": "tong"
+      "nl": "tong",
+      "it": "la lingua",
+      "es": "la lengua"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Fingernagel",
       "en": "fingernail",
       "sv": "nagel",
-      "nl": "vingernagel"
+      "nl": "vingernagel",
+      "it": "l'unghia",
+      "es": "la uña"
     },
     "hint": {},
     "alt": {},

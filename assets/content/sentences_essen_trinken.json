@@ -12,7 +12,9 @@
       "de": "Ich trinke Wasser.",
       "en": "I drink water.",
       "sv": "Jag dricker vatten.",
-      "nl": "Ik drink water."
+      "nl": "Ik drink water.",
+      "it": "Bevo acqua.",
+      "es": "Bebo agua."
     },
     "alt": {},
     "chunks": [
@@ -34,7 +36,9 @@
       "de": "Ich esse Brot.",
       "en": "I eat bread.",
       "sv": "Jag äter bröd.",
-      "nl": "Ik eet brood."
+      "nl": "Ik eet brood.",
+      "it": "Mangio pane.",
+      "es": "Como pan."
     },
     "alt": {},
     "chunks": [

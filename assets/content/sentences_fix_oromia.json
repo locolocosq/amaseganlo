@@ -11,7 +11,9 @@
       "de": "Ich möchte bringen.",
       "en": "I want to bring.",
       "sv": "Jag vill ta med.",
-      "nl": "Ik wil brengen."
+      "nl": "Ik wil brengen.",
+      "it": "Voglio portare.",
+      "es": "Quiero traer."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Suchen mag ich.",
       "en": "I like to search.",
       "sv": "Jag gillar att söka.",
-      "nl": "Ik hou van zoeken."
+      "nl": "Ik hou van zoeken.",
+      "it": "Mi piace cercare.",
+      "es": "Me gusta buscar."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Ich möchte warten.",
       "en": "I want to wait.",
       "sv": "Jag vill vänta.",
-      "nl": "Ik wil wachten."
+      "nl": "Ik wil wachten.",
+      "it": "Voglio aspettare.",
+      "es": "Quiero esperar."
     },
     "alt": {},
     "chunks": [

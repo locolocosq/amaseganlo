@@ -4,14 +4,23 @@
     "am": "ካህኑ ቅዳሴ ያደርጋል።",
     "tr": "kahinu k'idase yaderigal.",
     "level": "B2",
-    "uses": ["lex_kahin", "lex_kidase"],
+    "uses": [
+      "lex_kahin",
+      "lex_kidase"
+    ],
     "t": {
       "de": "Der Priester hält die Liturgie.",
       "en": "The priest performs the liturgy.",
       "sv": "Prästen håller liturgin.",
-      "nl": "De priester houdt de liturgie."
+      "nl": "De priester houdt de liturgie.",
+      "it": "Il sacerdote celebra la liturgia.",
+      "es": "El sacerdote celebra la liturgia."
     },
-    "chunks": ["kahinu", "k'idase", "yaderigal"],
+    "chunks": [
+      "kahinu",
+      "k'idase",
+      "yaderigal"
+    ],
     "verified": false
   },
   {
@@ -19,14 +28,24 @@
     "am": "ጳጳስ ትልቅ ካህን ነው።",
     "tr": "papase tilik' kahin newu.",
     "level": "B2",
-    "uses": ["lex_papase", "lex_kahin"],
+    "uses": [
+      "lex_papase",
+      "lex_kahin"
+    ],
     "t": {
       "de": "Ein Bischof ist ein hochrangiger Priester.",
       "en": "A bishop is a senior priest.",
       "sv": "En biskop är en hög präst.",
-      "nl": "Een bisschop is een hooggeplaatste priester."
+      "nl": "Een bisschop is een hooggeplaatste priester.",
+      "it": "Un vescovo è un sacerdote di alto rango.",
+      "es": "Un obispo es un sacerdote de alto rango."
     },
-    "chunks": ["papase", "tilik'", "kahin", "newu"],
+    "chunks": [
+      "papase",
+      "tilik'",
+      "kahin",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +53,26 @@
     "am": "መነኩሴ ወንድ ነው፤ መነኩሲት ሴት ናት።",
     "tr": "menekuse wend newu; menekusit set nat.",
     "level": "B2",
-    "uses": ["lex_menekuse", "lex_menekusit"],
+    "uses": [
+      "lex_menekuse",
+      "lex_menekusit"
+    ],
     "t": {
       "de": "Ein Mönch ist ein Mann, eine Nonne ist eine Frau.",
       "en": "A monk is a man; a nun is a woman.",
       "sv": "En munk är en man; en nunna är en kvinna.",
-      "nl": "Een monnik is een man; een non is een vrouw."
+      "nl": "Een monnik is een man; een non is een vrouw.",
+      "it": "Un monaco è un uomo; una monaca è una donna.",
+      "es": "Un monje es un hombre; una monja es una mujer."
     },
-    "chunks": ["menekuse", "wend", "newu", "menekusit", "set", "nat"],
+    "chunks": [
+      "menekuse",
+      "wend",
+      "newu",
+      "menekusit",
+      "set",
+      "nat"
+    ],
     "verified": false
   },
   {
@@ -49,14 +80,25 @@
     "am": "ወንጌል የመጽሐፍ ቅዱስ ክፍል ነው።",
     "tr": "wongel yemetsihaf k'idus kifil newu.",
     "level": "B2",
-    "uses": ["lex_wongel", "lex_metsihaf_kidus"],
+    "uses": [
+      "lex_wongel",
+      "lex_metsihaf_kidus"
+    ],
     "t": {
       "de": "Das Evangelium ist ein Teil der Bibel.",
       "en": "The gospel is a part of the Bible.",
       "sv": "Evangeliet är en del av Bibeln.",
-      "nl": "Het evangelie is een deel van de Bijbel."
+      "nl": "Het evangelie is een deel van de Bijbel.",
+      "it": "Il Vangelo è una parte della Bibbia.",
+      "es": "El Evangelio es una parte de la Biblia."
     },
-    "chunks": ["wongel", "yemetsihaf", "k'idus", "kifil", "newu"],
+    "chunks": [
+      "wongel",
+      "yemetsihaf",
+      "k'idus",
+      "kifil",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +106,25 @@
     "am": "መጽሐፍ ቅዱስ ለክርስቲያኖች ቅዱስ ነው።",
     "tr": "metsihaf k'idus lekiristiyanoch k'idus newu.",
     "level": "B2",
-    "uses": ["lex_metsihaf_kidus", "lex_adj_kidus"],
+    "uses": [
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
     "t": {
       "de": "Die Bibel ist heilig für Christen.",
       "en": "The Bible is holy to Christians.",
       "sv": "Bibeln är helig för kristna.",
-      "nl": "De Bijbel is heilig voor christenen."
+      "nl": "De Bijbel is heilig voor christenen.",
+      "it": "La Bibbia è sacra per i cristiani.",
+      "es": "La Biblia es sagrada para los cristianos."
     },
-    "chunks": ["metsihaf", "k'idus", "lekiristiyanoch", "k'idus", "newu"],
+    "chunks": [
+      "metsihaf",
+      "k'idus",
+      "lekiristiyanoch",
+      "k'idus",
+      "newu"
+    ],
     "verified": false
   }
 ]

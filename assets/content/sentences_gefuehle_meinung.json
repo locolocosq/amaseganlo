@@ -12,7 +12,9 @@
       "de": "Ich bin glücklich.",
       "en": "I am happy.",
       "sv": "Jag är glad.",
-      "nl": "Ik ben gelukkig."
+      "nl": "Ik ben gelukkig.",
+      "it": "Sono felice.",
+      "es": "Estoy feliz."
     },
     "alt": {},
     "chunks": [
@@ -35,7 +37,9 @@
       "de": "Liebe ist ein Schlüssel.",
       "en": "Love is a key.",
       "sv": "Kärlek är en nyckel.",
-      "nl": "Liefde is een sleutel."
+      "nl": "Liefde is een sleutel.",
+      "it": "L'amore è una chiave.",
+      "es": "El amor es una llave."
     },
     "alt": {},
     "chunks": [

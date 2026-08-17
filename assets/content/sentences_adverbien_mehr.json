@@ -4,15 +4,24 @@
     "am": "እኔ እዚህ ነኝ።",
     "tr": "ine izih negn.",
     "level": "A1.1",
-    "uses": ["lex_ine", "lex_hier"],
+    "uses": [
+      "lex_ine",
+      "lex_hier"
+    ],
     "t": {
       "de": "Ich bin hier.",
       "en": "I am here.",
       "sv": "Jag är här.",
-      "nl": "Ik ben hier."
+      "nl": "Ik ben hier.",
+      "it": "Sono qui.",
+      "es": "Estoy aquí."
     },
     "alt": {},
-    "chunks": ["ine", "izih", "negn"],
+    "chunks": [
+      "ine",
+      "izih",
+      "negn"
+    ],
     "verified": false
   },
   {
@@ -20,15 +29,24 @@
     "am": "እሱ እዚያ ነው።",
     "tr": "issu iziya new.",
     "level": "A1.1",
-    "uses": ["lex_issu", "lex_dort"],
+    "uses": [
+      "lex_issu",
+      "lex_dort"
+    ],
     "t": {
       "de": "Er ist dort.",
       "en": "He is there.",
       "sv": "Han är där.",
-      "nl": "Hij is daar."
+      "nl": "Hij is daar.",
+      "it": "Lui è lì.",
+      "es": "Él está allí."
     },
     "alt": {},
-    "chunks": ["issu", "iziya", "new"],
+    "chunks": [
+      "issu",
+      "iziya",
+      "new"
+    ],
     "verified": false
   }
 ]

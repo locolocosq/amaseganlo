@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_brm_hobby","am":"ኣከቓቕባ","tr":"akeqaqiba","pos":"noun","topic":"collecting","level":"TI","t":{"de":"das Sammeln","en":"collecting","sv":"samlande","nl":"verzamelen"},"emoji":"","verified":false},
-  {"id":"lex_ti_brm_coin2","am":"ኣከቓቓቢ ሳንቲም","tr":"akeqaqabi santim","pos":"noun","topic":"collecting","level":"TI","t":{"de":"der Münzsammler","en":"coin collector","sv":"myntsamlare","nl":"muntenverzamelaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_brm_rare","am":"ብዙሕ ዘይርከብ","tr":"bizuh zeyirikeb","pos":"adjective","topic":"collecting","level":"TI","t":{"de":"selten, rar","en":"rare","sv":"sällsynt","nl":"zeldzaam"},"emoji":"","verified":false},
-  {"id":"lex_ti_brm_colct","am":"ኣከበ","tr":"akebe","pos":"verb","topic":"collecting","level":"TI","t":{"de":"sammeln","en":"to collect","sv":"att samla","nl":"verzamelen (ww)"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_brm_hobby",
+    "am": "ኣከቓቕባ",
+    "tr": "akeqaqiba",
+    "pos": "noun",
+    "topic": "collecting",
+    "level": "TI",
+    "t": {
+      "de": "das Sammeln",
+      "en": "collecting",
+      "sv": "samlande",
+      "nl": "verzamelen",
+      "it": "il collezionismo",
+      "es": "el coleccionismo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brm_coin2",
+    "am": "ኣከቓቓቢ ሳንቲም",
+    "tr": "akeqaqabi santim",
+    "pos": "noun",
+    "topic": "collecting",
+    "level": "TI",
+    "t": {
+      "de": "der Münzsammler",
+      "en": "coin collector",
+      "sv": "myntsamlare",
+      "nl": "muntenverzamelaar",
+      "it": "il collezionista di monete",
+      "es": "el coleccionista de monedas"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brm_rare",
+    "am": "ብዙሕ ዘይርከብ",
+    "tr": "bizuh zeyirikeb",
+    "pos": "adjective",
+    "topic": "collecting",
+    "level": "TI",
+    "t": {
+      "de": "selten, rar",
+      "en": "rare",
+      "sv": "sällsynt",
+      "nl": "zeldzaam",
+      "it": "raro/a",
+      "es": "raro/a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brm_colct",
+    "am": "ኣከበ",
+    "tr": "akebe",
+    "pos": "verb",
+    "topic": "collecting",
+    "level": "TI",
+    "t": {
+      "de": "sammeln",
+      "en": "to collect",
+      "sv": "att samla",
+      "nl": "verzamelen (ww)",
+      "it": "collezionare",
+      "es": "coleccionar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

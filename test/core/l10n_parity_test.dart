@@ -1,5 +1,5 @@
 // Runs on the Dart VM only (test code), reading the ARB source files
-// directly to make sure all four languages define exactly the same set of
+// directly to make sure all six languages define exactly the same set of
 // translatable keys. "@"-prefixed entries are ICU metadata that only the
 // template file (app_en.arb) needs, per the standard Flutter l10n workflow.
 import 'dart:convert';
@@ -8,8 +8,8 @@ import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('all four ARB files define exactly the same translation keys', () {
-    const locales = ['de', 'en', 'sv', 'nl'];
+  test('all six ARB files define exactly the same translation keys', () {
+    const locales = ['de', 'en', 'sv', 'nl', 'it', 'es'];
     final keysByLocale = <String, Set<String>>{};
 
     for (final locale in locales) {
@@ -28,7 +28,7 @@ void main() {
   });
 
   test('no translation value is empty', () {
-    const locales = ['de', 'en', 'sv', 'nl'];
+    const locales = ['de', 'en', 'sv', 'nl', 'it', 'es'];
     for (final locale in locales) {
       final raw = File('lib/l10n/app_$locale.arb').readAsStringSync();
       final map = jsonDecode(raw) as Map<String, dynamic>;

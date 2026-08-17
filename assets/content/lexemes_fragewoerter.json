@@ -10,7 +10,9 @@
       "de": "was",
       "en": "what",
       "sv": "vad",
-      "nl": "wat"
+      "nl": "wat",
+      "it": "cosa",
+      "es": "qué"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "wer",
       "en": "who",
       "sv": "vem",
-      "nl": "wie"
+      "nl": "wie",
+      "it": "chi",
+      "es": "quién"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "wo",
       "en": "where",
       "sv": "var",
-      "nl": "waar"
+      "nl": "waar",
+      "it": "dove",
+      "es": "dónde"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "wann",
       "en": "when",
       "sv": "när",
-      "nl": "wanneer"
+      "nl": "wanneer",
+      "it": "quando",
+      "es": "cuándo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "warum",
       "en": "why",
       "sv": "varför",
-      "nl": "waarom"
+      "nl": "waarom",
+      "it": "perché",
+      "es": "por qué"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "wie",
       "en": "how",
       "sv": "hur",
-      "nl": "hoe"
+      "nl": "hoe",
+      "it": "come",
+      "es": "cómo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "welche(r/s)",
       "en": "which",
       "sv": "vilken",
-      "nl": "welke"
+      "nl": "welke",
+      "it": "quale",
+      "es": "cuál"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "und",
       "en": "and",
       "sv": "och",
-      "nl": "en"
+      "nl": "en",
+      "it": "e",
+      "es": "y"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "oder",
       "en": "or",
       "sv": "eller",
-      "nl": "of"
+      "nl": "of",
+      "it": "o",
+      "es": "o"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "aber",
       "en": "but",
       "sv": "men",
-      "nl": "maar"
+      "nl": "maar",
+      "it": "ma",
+      "es": "pero"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "weil, wegen",
       "en": "because, about",
       "sv": "eftersom, om",
-      "nl": "omdat, over"
+      "nl": "omdat, over",
+      "it": "perché, riguardo a",
+      "es": "porque, sobre"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "dass, wie, als",
       "en": "that, as, like",
       "sv": "att, som",
-      "nl": "dat, zoals"
+      "nl": "dat, zoals",
+      "it": "che, come",
+      "es": "que, como"
     },
     "hint": {},
     "alt": {},

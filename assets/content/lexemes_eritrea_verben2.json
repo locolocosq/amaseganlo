@@ -1,26 +1,434 @@
 [
-  {"id":"lex_ti_hzki","am":"ኣርኢ","tr":"ari'i","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"zeigen","en":"to show","sv":"visa","nl":"tonen"},"emoji":"","verified":false},
-  {"id":"lex_ti_kfli2","am":"ምረጽ","tr":"mirets","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"wählen","en":"to choose","sv":"välja","nl":"kiezen"},"emoji":"","verified":false},
-  {"id":"lex_ti_hwsi","am":"ቀይር","tr":"qeyir","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"ändern, wechseln","en":"to change","sv":"ändra","nl":"veranderen"},"emoji":"","verified":false},
-  {"id":"lex_ti_tsri","am":"ኣቐምጥ","tr":"aqemit","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"legen, stellen","en":"to put, place","sv":"lägga, ställa","nl":"leggen, plaatsen"},"emoji":"","verified":false},
-  {"id":"lex_ti_zbti","am":"ኣንቅል","tr":"aniqil","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"bewegen","en":"to move","sv":"flytta","nl":"bewegen"},"emoji":"","verified":false},
-  {"id":"lex_ti_nkli","am":"ተንቀሳቐስ","tr":"tenqesaqes","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"sich bewegen","en":"to move (oneself)","sv":"röra sig","nl":"zich bewegen"},"emoji":"","verified":false},
-  {"id":"lex_ti_qwmi","am":"ኣልዕል","tr":"ali'il","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"heben, aufheben","en":"to lift, pick up","sv":"lyfta","nl":"tillen, oprapen"},"emoji":"","verified":false},
-  {"id":"lex_ti_wdqi","am":"ውደቕ","tr":"widiq","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"fallen","en":"to fall","sv":"falla","nl":"vallen"},"emoji":"","verified":false},
-  {"id":"lex_ti_wgai","am":"ቅለብ","tr":"qileb","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"springen","en":"to jump","sv":"hoppa","nl":"springen"},"emoji":"","verified":false},
-  {"id":"lex_ti_frqi2","am":"ብረር","tr":"birer","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"fliegen","en":"to fly","sv":"flyga","nl":"vliegen"},"emoji":"","verified":false},
-  {"id":"lex_ti_shni","am":"ሓምብስ","tr":"hamibis","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"schwimmen","en":"to swim","sv":"simma","nl":"zwemmen"},"emoji":"","verified":false},
-  {"id":"lex_ti_slmi","am":"ስዓም","tr":"si'am","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"küssen","en":"to kiss","sv":"kyssa","nl":"kussen"},"emoji":"","verified":false},
-  {"id":"lex_ti_hzti","am":"ሓቖፍ","tr":"haqof","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"umarmen","en":"to hug, embrace","sv":"krama","nl":"omhelzen"},"emoji":"","verified":false},
-  {"id":"lex_ti_sqli","am":"ስሓቅ","tr":"sihaq","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"lachen","en":"to laugh","sv":"skratta","nl":"lachen"},"emoji":"","verified":false},
-  {"id":"lex_ti_bkyi","am":"ብኪ","tr":"biki","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"weinen","en":"to cry","sv":"gråta","nl":"huilen"},"emoji":"","verified":false},
-  {"id":"lex_ti_zmri2","am":"ደውል","tr":"dewil","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"anrufen","en":"to call (phone)","sv":"ringa","nl":"bellen"},"emoji":"","verified":false},
-  {"id":"lex_ti_ftsi","am":"ኣዳምጽ","tr":"adamits","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"zuhören","en":"to listen","sv":"lyssna","nl":"luisteren"},"emoji":"","verified":false},
-  {"id":"lex_ti_ansbi","am":"ኣንብብ (ደገም)","tr":"anbib degem","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"wiederholen","en":"to repeat","sv":"upprepa","nl":"herhalen"},"emoji":"","verified":false},
-  {"id":"lex_ti_gyzi","am":"ተጓዓዝ","tr":"tegwa'ez","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"reisen","en":"to travel","sv":"resa","nl":"reizen"},"emoji":"","verified":false},
-  {"id":"lex_ti_msni","am":"ተላለ","tr":"telale","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"sich kennenlernen, sich treffen","en":"to meet","sv":"träffas, mötas","nl":"ontmoeten"},"emoji":"","verified":false},
-  {"id":"lex_ti_wnzi","am":"ኣላልይ","tr":"alaliy","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"vorstellen (jemanden)","en":"to introduce (someone)","sv":"presentera (någon)","nl":"voorstellen (iemand)"},"emoji":"","verified":false},
-  {"id":"lex_ti_hlwi","am":"ተስፋ ግበር","tr":"tesfa gber","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"hoffen","en":"to hope","sv":"hoppas","nl":"hopen"},"emoji":"","verified":false},
-  {"id":"lex_ti_tsli4","am":"ተመን","tr":"temen (fi'l)","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"wünschen","en":"to wish","sv":"önska","nl":"wensen"},"emoji":"","verified":false},
-  {"id":"lex_ti_hlmi","am":"ሕልሚ ርአ","tr":"hilmi ri'e","pos":"verb","topic":"verbs_more","level":"TI","t":{"de":"träumen","en":"to dream","sv":"drömma","nl":"dromen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_hzki",
+    "am": "ኣርኢ",
+    "tr": "ari'i",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "zeigen",
+      "en": "to show",
+      "sv": "visa",
+      "nl": "tonen",
+      "it": "mostrare",
+      "es": "mostrar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kfli2",
+    "am": "ምረጽ",
+    "tr": "mirets",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "wählen",
+      "en": "to choose",
+      "sv": "välja",
+      "nl": "kiezen",
+      "it": "scegliere",
+      "es": "elegir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hwsi",
+    "am": "ቀይር",
+    "tr": "qeyir",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "ändern, wechseln",
+      "en": "to change",
+      "sv": "ändra",
+      "nl": "veranderen",
+      "it": "cambiare",
+      "es": "cambiar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsri",
+    "am": "ኣቐምጥ",
+    "tr": "aqemit",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "legen, stellen",
+      "en": "to put, place",
+      "sv": "lägga, ställa",
+      "nl": "leggen, plaatsen",
+      "it": "mettere, posare",
+      "es": "poner, colocar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbti",
+    "am": "ኣንቅል",
+    "tr": "aniqil",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "bewegen",
+      "en": "to move",
+      "sv": "flytta",
+      "nl": "bewegen",
+      "it": "muovere",
+      "es": "mover"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nkli",
+    "am": "ተንቀሳቐስ",
+    "tr": "tenqesaqes",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "sich bewegen",
+      "en": "to move (oneself)",
+      "sv": "röra sig",
+      "nl": "zich bewegen",
+      "it": "muoversi",
+      "es": "moverse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qwmi",
+    "am": "ኣልዕል",
+    "tr": "ali'il",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "heben, aufheben",
+      "en": "to lift, pick up",
+      "sv": "lyfta",
+      "nl": "tillen, oprapen",
+      "it": "sollevare, raccogliere",
+      "es": "levantar, recoger"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wdqi",
+    "am": "ውደቕ",
+    "tr": "widiq",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "fallen",
+      "en": "to fall",
+      "sv": "falla",
+      "nl": "vallen",
+      "it": "cadere",
+      "es": "caer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wgai",
+    "am": "ቅለብ",
+    "tr": "qileb",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "springen",
+      "en": "to jump",
+      "sv": "hoppa",
+      "nl": "springen",
+      "it": "saltare",
+      "es": "saltar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frqi2",
+    "am": "ብረር",
+    "tr": "birer",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "fliegen",
+      "en": "to fly",
+      "sv": "flyga",
+      "nl": "vliegen",
+      "it": "volare",
+      "es": "volar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shni",
+    "am": "ሓምብስ",
+    "tr": "hamibis",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "schwimmen",
+      "en": "to swim",
+      "sv": "simma",
+      "nl": "zwemmen",
+      "it": "nuotare",
+      "es": "nadar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_slmi",
+    "am": "ስዓም",
+    "tr": "si'am",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "küssen",
+      "en": "to kiss",
+      "sv": "kyssa",
+      "nl": "kussen",
+      "it": "baciare",
+      "es": "besar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzti",
+    "am": "ሓቖፍ",
+    "tr": "haqof",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "umarmen",
+      "en": "to hug, embrace",
+      "sv": "krama",
+      "nl": "omhelzen",
+      "it": "abbracciare",
+      "es": "abrazar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sqli",
+    "am": "ስሓቅ",
+    "tr": "sihaq",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "lachen",
+      "en": "to laugh",
+      "sv": "skratta",
+      "nl": "lachen",
+      "it": "ridere",
+      "es": "reír"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bkyi",
+    "am": "ብኪ",
+    "tr": "biki",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "weinen",
+      "en": "to cry",
+      "sv": "gråta",
+      "nl": "huilen",
+      "it": "piangere",
+      "es": "llorar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zmri2",
+    "am": "ደውል",
+    "tr": "dewil",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "anrufen",
+      "en": "to call (phone)",
+      "sv": "ringa",
+      "nl": "bellen",
+      "it": "chiamare (telefono)",
+      "es": "llamar (por teléfono)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ftsi",
+    "am": "ኣዳምጽ",
+    "tr": "adamits",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "zuhören",
+      "en": "to listen",
+      "sv": "lyssna",
+      "nl": "luisteren",
+      "it": "ascoltare",
+      "es": "escuchar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ansbi",
+    "am": "ኣንብብ (ደገም)",
+    "tr": "anbib degem",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "wiederholen",
+      "en": "to repeat",
+      "sv": "upprepa",
+      "nl": "herhalen",
+      "it": "ripetere",
+      "es": "repetir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gyzi",
+    "am": "ተጓዓዝ",
+    "tr": "tegwa'ez",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "reisen",
+      "en": "to travel",
+      "sv": "resa",
+      "nl": "reizen",
+      "it": "viaggiare",
+      "es": "viajar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msni",
+    "am": "ተላለ",
+    "tr": "telale",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "sich kennenlernen, sich treffen",
+      "en": "to meet",
+      "sv": "träffas, mötas",
+      "nl": "ontmoeten",
+      "it": "conoscersi, incontrarsi",
+      "es": "conocerse, encontrarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wnzi",
+    "am": "ኣላልይ",
+    "tr": "alaliy",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "vorstellen (jemanden)",
+      "en": "to introduce (someone)",
+      "sv": "presentera (någon)",
+      "nl": "voorstellen (iemand)",
+      "it": "presentare (qualcuno)",
+      "es": "presentar (a alguien)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hlwi",
+    "am": "ተስፋ ግበር",
+    "tr": "tesfa gber",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "hoffen",
+      "en": "to hope",
+      "sv": "hoppas",
+      "nl": "hopen",
+      "it": "sperare",
+      "es": "esperar (tener esperanza)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsli4",
+    "am": "ተመን",
+    "tr": "temen (fi'l)",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "wünschen",
+      "en": "to wish",
+      "sv": "önska",
+      "nl": "wensen",
+      "it": "desiderare",
+      "es": "desear"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hlmi",
+    "am": "ሕልሚ ርአ",
+    "tr": "hilmi ri'e",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "TI",
+    "t": {
+      "de": "träumen",
+      "en": "to dream",
+      "sv": "drömma",
+      "nl": "dromen",
+      "it": "sognare",
+      "es": "soñar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

@@ -1,6 +1,100 @@
 [
-  {"id":"sen_hsl_derasi_metsafat","am":"ደራሲው መጽሐፍ ጻፈ።","tr":"derasiw metsihaf tsafe.","level":"B2","uses":["lex_hsl_derasi","lex_hsl_v_metsafat","lex_hsl_metsihaf"],"t":{"de":"Der Autor schrieb ein Buch.","en":"The author wrote a book.","sv":"Författaren skrev en bok.","nl":"De auteur schreef een boek."},"chunks":["derasiw","metsihaf","tsafe"],"verified":false},
-  {"id":"sen_hsl_geter_gitim","am":"ገጣሚው ግጥም ደርድሮ ተናገረ።","tr":"getamiw gitim deridiro tenagere.","level":"B2","uses":["lex_hsl_geter"],"t":{"de":"Der Dichter trug ein Gedicht vor.","en":"The poet recited a poem.","sv":"Poeten läste upp en dikt.","nl":"De dichter droeg een gedicht voor."},"chunks":["getamiw","gitim","deridiro","tenagere"],"verified":false},
-  {"id":"sen_hsl_hareri_kal","am":"ሀረሪ ቋንቋ ነው።","tr":"hareri k'wank'wa newu.","level":"B2","uses":["lex_hsl_hareri","lex_hsl_kal"],"t":{"de":"Harari ist eine Sprache.","en":"Harari is a language.","sv":"Harari är ett språk.","nl":"Harari is een taal."},"chunks":["hareri","k'wank'wa","newu"],"verified":false},
-  {"id":"sen_hsl_manibeb_metsihaf_bet","am":"ተማሪዎች በቤተ መጻሕፍት ያነብባሉ።","tr":"temariwoch bebete metsahift yanebibalu.","level":"B2","uses":["lex_hsl_v_manibeb","lex_hsl_metsihaf_bet"],"t":{"de":"Die Studenten lesen in der Bibliothek.","en":"The students read in the library.","sv":"Studenterna läser på biblioteket.","nl":"De studenten lezen in de bibliotheek."},"chunks":["temariwoch","bebete","metsahift","yanebibalu"],"verified":false}
+  {
+    "id": "sen_hsl_derasi_metsafat",
+    "am": "ደራሲው መጽሐፍ ጻፈ።",
+    "tr": "derasiw metsihaf tsafe.",
+    "level": "B2",
+    "uses": [
+      "lex_hsl_derasi",
+      "lex_hsl_v_metsafat",
+      "lex_hsl_metsihaf"
+    ],
+    "t": {
+      "de": "Der Autor schrieb ein Buch.",
+      "en": "The author wrote a book.",
+      "sv": "Författaren skrev en bok.",
+      "nl": "De auteur schreef een boek.",
+      "it": "L'autore ha scritto un libro.",
+      "es": "El autor escribió un libro."
+    },
+    "chunks": [
+      "derasiw",
+      "metsihaf",
+      "tsafe"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hsl_geter_gitim",
+    "am": "ገጣሚው ግጥም ደርድሮ ተናገረ።",
+    "tr": "getamiw gitim deridiro tenagere.",
+    "level": "B2",
+    "uses": [
+      "lex_hsl_geter"
+    ],
+    "t": {
+      "de": "Der Dichter trug ein Gedicht vor.",
+      "en": "The poet recited a poem.",
+      "sv": "Poeten läste upp en dikt.",
+      "nl": "De dichter droeg een gedicht voor.",
+      "it": "Il poeta ha recitato una poesia.",
+      "es": "El poeta recitó un poema."
+    },
+    "chunks": [
+      "getamiw",
+      "gitim",
+      "deridiro",
+      "tenagere"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hsl_hareri_kal",
+    "am": "ሀረሪ ቋንቋ ነው።",
+    "tr": "hareri k'wank'wa newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hsl_hareri",
+      "lex_hsl_kal"
+    ],
+    "t": {
+      "de": "Harari ist eine Sprache.",
+      "en": "Harari is a language.",
+      "sv": "Harari är ett språk.",
+      "nl": "Harari is een taal.",
+      "it": "L'harari è una lingua.",
+      "es": "El harari es un idioma."
+    },
+    "chunks": [
+      "hareri",
+      "k'wank'wa",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hsl_manibeb_metsihaf_bet",
+    "am": "ተማሪዎች በቤተ መጻሕፍት ያነብባሉ።",
+    "tr": "temariwoch bebete metsahift yanebibalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hsl_v_manibeb",
+      "lex_hsl_metsihaf_bet"
+    ],
+    "t": {
+      "de": "Die Studenten lesen in der Bibliothek.",
+      "en": "The students read in the library.",
+      "sv": "Studenterna läser på biblioteket.",
+      "nl": "De studenten lezen in de bibliotheek.",
+      "it": "Gli studenti leggono in biblioteca.",
+      "es": "Los estudiantes leen en la biblioteca."
+    },
+    "chunks": [
+      "temariwoch",
+      "bebete",
+      "metsahift",
+      "yanebibalu"
+    ],
+    "verified": false
+  }
 ]

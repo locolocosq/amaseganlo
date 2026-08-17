@@ -11,7 +11,9 @@
       "de": "der Rechen ist vorhanden.",
       "en": "There is rake.",
       "sv": "Det finns kratta.",
-      "nl": "Er is hark."
+      "nl": "Er is hark.",
+      "it": "C'è un rastrello.",
+      "es": "Hay un rastrillo."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "das Karussell ist vorhanden.",
       "en": "There is carousel.",
       "sv": "Det finns karusell.",
-      "nl": "Er is draaimolen."
+      "nl": "Er is draaimolen.",
+      "it": "C'è una giostra.",
+      "es": "Hay un carrusel."
     },
     "alt": {},
     "chunks": [
@@ -56,7 +60,9 @@
       "de": "der Einkaufswagen ist vorhanden.",
       "en": "There is shopping cart.",
       "sv": "Det finns shoppingvagn.",
-      "nl": "Er is winkelwagentje."
+      "nl": "Er is winkelwagentje.",
+      "it": "C'è un carrello della spesa.",
+      "es": "Hay un carrito de compras."
     },
     "alt": {},
     "chunks": [
@@ -78,7 +84,9 @@
       "de": "die Zahnspange ist vorhanden.",
       "en": "There is braces.",
       "sv": "Det finns tandställning.",
-      "nl": "Er is beugel."
+      "nl": "Er is beugel.",
+      "it": "C'è l'apparecchio per i denti.",
+      "es": "Hay un aparato de ortodoncia."
     },
     "alt": {},
     "chunks": [
@@ -101,7 +109,9 @@
       "de": "der Weihrauch ist vorhanden.",
       "en": "There is incense.",
       "sv": "Det finns rökelse.",
-      "nl": "Er is wierook."
+      "nl": "Er is wierook.",
+      "it": "C'è l'incenso.",
+      "es": "Hay incienso."
     },
     "alt": {},
     "chunks": [
@@ -122,7 +132,9 @@
       "de": "die Kaffeerunde (Zeremonie) ist vorhanden.",
       "en": "There is coffee round (ceremony).",
       "sv": "Det finns kafferunda (ceremoni).",
-      "nl": "Er is koffieronde (ceremonie)."
+      "nl": "Er is koffieronde (ceremonie).",
+      "it": "C'è il giro del caffè (cerimonia).",
+      "es": "Hay una ronda de café (ceremonia)."
     },
     "alt": {},
     "chunks": [
@@ -144,7 +156,9 @@
       "de": "die Verbrennung ist vorhanden.",
       "en": "There is burn (injury).",
       "sv": "Det finns brännskada.",
-      "nl": "Er is brandwond."
+      "nl": "Er is brandwond.",
+      "it": "C'è un'ustione.",
+      "es": "Hay una quemadura."
     },
     "alt": {},
     "chunks": [
@@ -165,7 +179,9 @@
       "de": "der Traum (Zukunftstraum) ist vorhanden.",
       "en": "There is dream (aspiration).",
       "sv": "Det finns dröm (framtidsdröm).",
-      "nl": "Er is droom (toekomst)."
+      "nl": "Er is droom (toekomst).",
+      "it": "C'è un sogno (aspirazione).",
+      "es": "Hay un sueño (aspiración)."
     },
     "alt": {},
     "chunks": [
@@ -187,7 +203,9 @@
       "de": "der Backofen (Bäckerei) ist vorhanden.",
       "en": "There is bakery oven.",
       "sv": "Det finns bageriugn.",
-      "nl": "Er is bakkersoven."
+      "nl": "Er is bakkersoven.",
+      "it": "C'è il forno del panificio.",
+      "es": "Hay un horno de panadería."
     },
     "alt": {},
     "chunks": [
@@ -209,7 +227,9 @@
       "de": "die Stille ist vorhanden.",
       "en": "There is silence.",
       "sv": "Det finns tystnad.",
-      "nl": "Er is stilte."
+      "nl": "Er is stilte.",
+      "it": "C'è silenzio.",
+      "es": "Hay silencio."
     },
     "alt": {},
     "chunks": [
@@ -230,7 +250,9 @@
       "de": "der Albtraum ist vorhanden.",
       "en": "There is nightmare.",
       "sv": "Det finns mardröm.",
-      "nl": "Er is nachtmerrie."
+      "nl": "Er is nachtmerrie.",
+      "it": "C'è un incubo.",
+      "es": "Hay una pesadilla."
     },
     "alt": {},
     "chunks": [
@@ -252,7 +274,9 @@
       "de": "Ich habe die Stille.",
       "en": "I have silence.",
       "sv": "Jag har tystnad.",
-      "nl": "Ik heb stilte."
+      "nl": "Ik heb stilte.",
+      "it": "Ho silenzio.",
+      "es": "Tengo silencio."
     },
     "alt": {},
     "chunks": [
@@ -273,7 +297,9 @@
       "de": "die Meinung ist vorhanden.",
       "en": "There is opinion.",
       "sv": "Det finns åsikt.",
-      "nl": "Er is mening."
+      "nl": "Er is mening.",
+      "it": "C'è un'opinione.",
+      "es": "Hay una opinión."
     },
     "alt": {},
     "chunks": [
@@ -294,7 +320,9 @@
       "de": "die Meinung ist vorhanden.",
       "en": "There is opinion.",
       "sv": "Det finns åsikt.",
-      "nl": "Er is mening."
+      "nl": "Er is mening.",
+      "it": "C'è un'opinione.",
+      "es": "Hay una opinión."
     },
     "alt": {},
     "chunks": [
@@ -315,7 +343,9 @@
       "de": "das Ziel ist vorhanden.",
       "en": "There is goal.",
       "sv": "Det finns mål (syfte).",
-      "nl": "Er is doel."
+      "nl": "Er is doel.",
+      "it": "C'è un obiettivo.",
+      "es": "Hay una meta."
     },
     "alt": {},
     "chunks": [
@@ -336,7 +366,9 @@
       "de": "Er ist frei, verfügbar.",
       "en": "He is free, available.",
       "sv": "Han är ledig.",
-      "nl": "Hij is vrij, beschikbaar."
+      "nl": "Hij is vrij, beschikbaar.",
+      "it": "Lui è libero, disponibile.",
+      "es": "Él está libre, disponible."
     },
     "alt": {},
     "chunks": [
@@ -360,7 +392,9 @@
       "de": "Er ist allein.",
       "en": "He is alone.",
       "sv": "Han är ensam.",
-      "nl": "Hij is alleen."
+      "nl": "Hij is alleen.",
+      "it": "Lui è solo.",
+      "es": "Él está solo."
     },
     "alt": {},
     "chunks": [
@@ -382,7 +416,9 @@
       "de": "Sie ist gelangweilt.",
       "en": "She is bored.",
       "sv": "Hon är uttråkad.",
-      "nl": "Zij is verveeld."
+      "nl": "Zij is verveeld.",
+      "it": "Lei è annoiata.",
+      "es": "Ella está aburrida."
     },
     "alt": {},
     "chunks": [
@@ -405,7 +441,9 @@
       "de": "Er ist bereit.",
       "en": "He is ready.",
       "sv": "Han är redo.",
-      "nl": "Hij is klaar."
+      "nl": "Hij is klaar.",
+      "it": "Lui è pronto.",
+      "es": "Él está listo."
     },
     "alt": {},
     "chunks": [
@@ -427,7 +465,9 @@
       "de": "Sie ist frei, verfügbar.",
       "en": "She is free, available.",
       "sv": "Hon är ledig.",
-      "nl": "Zij is vrij, beschikbaar."
+      "nl": "Zij is vrij, beschikbaar.",
+      "it": "Lei è libera, disponibile.",
+      "es": "Ella está libre, disponible."
     },
     "alt": {},
     "chunks": [
@@ -451,7 +491,9 @@
       "de": "Er ist hell.",
       "en": "He is bright.",
       "sv": "Han är ljus (klar).",
-      "nl": "Hij is licht (helder)."
+      "nl": "Hij is licht (helder).",
+      "it": "Lui è chiaro, luminoso.",
+      "es": "Él es claro, luminoso."
     },
     "alt": {},
     "chunks": [
@@ -473,7 +515,9 @@
       "de": "Er ist rau.",
       "en": "He is rough.",
       "sv": "Han är grov, sträv.",
-      "nl": "Hij is ruw."
+      "nl": "Hij is ruw.",
+      "it": "Lui è ruvido.",
+      "es": "Él es áspero."
     },
     "alt": {},
     "chunks": [
@@ -495,7 +539,9 @@
       "de": "Sie ist nass, feucht.",
       "en": "She is wet.",
       "sv": "Hon är blöt.",
-      "nl": "Zij is nat."
+      "nl": "Zij is nat.",
+      "it": "Lei è bagnata, umida.",
+      "es": "Ella está mojada, húmeda."
     },
     "alt": {},
     "chunks": [
@@ -517,7 +563,9 @@
       "de": "Er ist gleich, identisch.",
       "en": "He is same, identical.",
       "sv": "Han är samma, identisk.",
-      "nl": "Hij is hetzelfde, identiek."
+      "nl": "Hij is hetzelfde, identiek.",
+      "it": "Lui è uguale, identico.",
+      "es": "Él es igual, idéntico."
     },
     "alt": {},
     "chunks": [
@@ -540,7 +588,9 @@
       "de": "Sie ist unterschiedlich, verschieden.",
       "en": "She is different.",
       "sv": "Hon är olika.",
-      "nl": "Zij is verschillend."
+      "nl": "Zij is verschillend.",
+      "it": "Lei è diversa.",
+      "es": "Ella es diferente."
     },
     "alt": {},
     "chunks": [
@@ -563,7 +613,9 @@
       "de": "Er ist das Beste.",
       "en": "He is best.",
       "sv": "Han är bäst.",
-      "nl": "Hij is beste."
+      "nl": "Hij is beste.",
+      "it": "Lui è il migliore.",
+      "es": "Él es el mejor."
     },
     "alt": {},
     "chunks": [

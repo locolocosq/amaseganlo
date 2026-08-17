@@ -4,15 +4,27 @@
     "am": "ማይ ኣሎ፣ ከምኡውን ቡን ኣሎ።",
     "tr": "mai alo, kem'uwin bun alo.",
     "level": "TI",
-    "uses": ["lex_ti_mai", "lex_ti_knj_and2", "lex_ti_bun"],
+    "uses": [
+      "lex_ti_mai",
+      "lex_ti_knj_and2",
+      "lex_ti_bun"
+    ],
     "t": {
       "de": "Es gibt Wasser, und auch Kaffee.",
       "en": "There is water, and also coffee.",
       "sv": "Det finns vatten, och även kaffe.",
-      "nl": "Er is water, en ook koffie."
+      "nl": "Er is water, en ook koffie.",
+      "it": "C'è acqua, e anche caffè.",
+      "es": "Hay agua, y también café."
     },
     "alt": {},
-    "chunks": ["mai", "alo,", "kem'uwin", "bun", "alo."],
+    "chunks": [
+      "mai",
+      "alo,",
+      "kem'uwin",
+      "bun",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -20,15 +32,27 @@
     "am": "ገዛ ኣሎ፣ ግን ስጋ ኣሎ።",
     "tr": "geza alo, gini siga alo.",
     "level": "TI",
-    "uses": ["lex_ti_geza", "lex_ti_knj_but2", "lex_ti_siga"],
+    "uses": [
+      "lex_ti_geza",
+      "lex_ti_knj_but2",
+      "lex_ti_siga"
+    ],
     "t": {
       "de": "Es gibt ein Haus, aber auch Fleisch.",
       "en": "There is a house, but also meat.",
       "sv": "Det finns ett hus, men även kött.",
-      "nl": "Er is een huis, maar ook vlees."
+      "nl": "Er is een huis, maar ook vlees.",
+      "it": "C'è una casa, ma anche carne.",
+      "es": "Hay una casa, pero también carne."
     },
     "alt": {},
-    "chunks": ["geza", "alo,", "gini", "siga", "alo."],
+    "chunks": [
+      "geza",
+      "alo,",
+      "gini",
+      "siga",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -36,15 +60,27 @@
     "am": "ባኒ ኣሎ ወይ ሻሂ ኣሎ።",
     "tr": "bani alo wey shai alo.",
     "level": "TI",
-    "uses": ["lex_ti_bani", "lex_ti_knj_or2", "lex_ti_shai"],
+    "uses": [
+      "lex_ti_bani",
+      "lex_ti_knj_or2",
+      "lex_ti_shai"
+    ],
     "t": {
       "de": "Es gibt Brot oder Tee.",
       "en": "There is bread or tea.",
       "sv": "Det finns bröd eller te.",
-      "nl": "Er is brood of thee."
+      "nl": "Er is brood of thee.",
+      "it": "C'è pane o tè.",
+      "es": "Hay pan o té."
     },
     "alt": {},
-    "chunks": ["bani", "alo", "wey", "shai", "alo."],
+    "chunks": [
+      "bani",
+      "alo",
+      "wey",
+      "shai",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -52,15 +88,27 @@
     "am": "ኣቦ ኣሎ፣ ስለዚ ኣደ ኣሎ።",
     "tr": "abo alo, silezi ade alo.",
     "level": "TI",
-    "uses": ["lex_ti_abo", "lex_ti_knj_becaus", "lex_ti_ade"],
+    "uses": [
+      "lex_ti_abo",
+      "lex_ti_knj_becaus",
+      "lex_ti_ade"
+    ],
     "t": {
       "de": "Es gibt einen Vater, deshalb eine Mutter.",
       "en": "There is a father, therefore a mother.",
       "sv": "Det finns en far, därför en mor.",
-      "nl": "Er is een vader, daarom een moeder."
+      "nl": "Er is een vader, daarom een moeder.",
+      "it": "C'è un padre, quindi una madre.",
+      "es": "Hay un padre, por lo tanto una madre."
     },
     "alt": {},
-    "chunks": ["abo", "alo,", "silezi", "ade", "alo."],
+    "chunks": [
+      "abo",
+      "alo,",
+      "silezi",
+      "ade",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -68,15 +116,27 @@
     "am": "ሓው ኣሎ እንተ ሓፍቲ ኣሎ።",
     "tr": "haw alo 'inite hafti alo.",
     "level": "TI",
-    "uses": ["lex_ti_haw", "lex_ti_knj_if2", "lex_ti_hafti"],
+    "uses": [
+      "lex_ti_haw",
+      "lex_ti_knj_if2",
+      "lex_ti_hafti"
+    ],
     "t": {
       "de": "Es gibt einen Bruder, wenn es eine Schwester gibt.",
       "en": "There is a brother, if there is a sister.",
       "sv": "Det finns en bror, om det finns en syster.",
-      "nl": "Er is een broer, als er een zus is."
+      "nl": "Er is een broer, als er een zus is.",
+      "it": "C'è un fratello, se c'è una sorella.",
+      "es": "Hay un hermano, si hay una hermana."
     },
     "alt": {},
-    "chunks": ["haw", "alo", "'inite", "hafti", "alo."],
+    "chunks": [
+      "haw",
+      "alo",
+      "'inite",
+      "hafti",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -84,15 +144,28 @@
     "am": "ማይ ኣሎ፣ እኳ እንተኾነ ቡን ኣሎ።",
     "tr": "mai alo, 'ikua 'initekhone bun alo.",
     "level": "TI",
-    "uses": ["lex_ti_mai", "lex_ti_knj_altho", "lex_ti_bun"],
+    "uses": [
+      "lex_ti_mai",
+      "lex_ti_knj_altho",
+      "lex_ti_bun"
+    ],
     "t": {
       "de": "Es gibt Wasser, obwohl es auch Kaffee gibt.",
       "en": "There is water, although there is also coffee.",
       "sv": "Det finns vatten, fastän det även finns kaffe.",
-      "nl": "Er is water, hoewel er ook koffie is."
+      "nl": "Er is water, hoewel er ook koffie is.",
+      "it": "C'è acqua, anche se c'è anche caffè.",
+      "es": "Hay agua, aunque también hay café."
     },
     "alt": {},
-    "chunks": ["mai", "alo,", "'ikua", "'initekhone", "bun", "alo."],
+    "chunks": [
+      "mai",
+      "alo,",
+      "'ikua",
+      "'initekhone",
+      "bun",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -100,15 +173,27 @@
     "am": "ገዛ ኣሎ፣ ከምኡውን ባኒ ኣሎ።",
     "tr": "geza alo, kem'uwin bani alo.",
     "level": "TI",
-    "uses": ["lex_ti_geza", "lex_ti_knj_and2", "lex_ti_bani"],
+    "uses": [
+      "lex_ti_geza",
+      "lex_ti_knj_and2",
+      "lex_ti_bani"
+    ],
     "t": {
       "de": "Es gibt ein Haus, und auch Brot.",
       "en": "There is a house, and also bread.",
       "sv": "Det finns ett hus, och även bröd.",
-      "nl": "Er is een huis, en ook brood."
+      "nl": "Er is een huis, en ook brood.",
+      "it": "C'è una casa, e anche pane.",
+      "es": "Hay una casa, y también pan."
     },
     "alt": {},
-    "chunks": ["geza", "alo,", "kem'uwin", "bani", "alo."],
+    "chunks": [
+      "geza",
+      "alo,",
+      "kem'uwin",
+      "bani",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -116,15 +201,27 @@
     "am": "ስጋ ኣሎ፣ ግን ማይ ኣሎ።",
     "tr": "siga alo, gini mai alo.",
     "level": "TI",
-    "uses": ["lex_ti_siga", "lex_ti_knj_but2", "lex_ti_mai"],
+    "uses": [
+      "lex_ti_siga",
+      "lex_ti_knj_but2",
+      "lex_ti_mai"
+    ],
     "t": {
       "de": "Es gibt Fleisch, aber auch Wasser.",
       "en": "There is meat, but also water.",
       "sv": "Det finns kött, men även vatten.",
-      "nl": "Er is vlees, maar ook water."
+      "nl": "Er is vlees, maar ook water.",
+      "it": "C'è carne, ma anche acqua.",
+      "es": "Hay carne, pero también agua."
     },
     "alt": {},
-    "chunks": ["siga", "alo,", "gini", "mai", "alo."],
+    "chunks": [
+      "siga",
+      "alo,",
+      "gini",
+      "mai",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -132,15 +229,27 @@
     "am": "ኣቦ ኣሎ ወይ ኣደ ኣሎ።",
     "tr": "abo alo wey ade alo.",
     "level": "TI",
-    "uses": ["lex_ti_abo", "lex_ti_knj_or2", "lex_ti_ade"],
+    "uses": [
+      "lex_ti_abo",
+      "lex_ti_knj_or2",
+      "lex_ti_ade"
+    ],
     "t": {
       "de": "Es gibt einen Vater oder eine Mutter.",
       "en": "There is a father or a mother.",
       "sv": "Det finns en far eller en mor.",
-      "nl": "Er is een vader of een moeder."
+      "nl": "Er is een vader of een moeder.",
+      "it": "C'è un padre o una madre.",
+      "es": "Hay un padre o una madre."
     },
     "alt": {},
-    "chunks": ["abo", "alo", "wey", "ade", "alo."],
+    "chunks": [
+      "abo",
+      "alo",
+      "wey",
+      "ade",
+      "alo."
+    ],
     "verified": false
   },
   {
@@ -148,15 +257,27 @@
     "am": "ሓው ኣሎ፣ ስለዚ ሓፍቲ ኣሎ።",
     "tr": "haw alo, silezi hafti alo.",
     "level": "TI",
-    "uses": ["lex_ti_haw", "lex_ti_knj_becaus", "lex_ti_hafti"],
+    "uses": [
+      "lex_ti_haw",
+      "lex_ti_knj_becaus",
+      "lex_ti_hafti"
+    ],
     "t": {
       "de": "Es gibt einen Bruder, deshalb eine Schwester.",
       "en": "There is a brother, therefore a sister.",
       "sv": "Det finns en bror, därför en syster.",
-      "nl": "Er is een broer, daarom een zus."
+      "nl": "Er is een broer, daarom een zus.",
+      "it": "C'è un fratello, quindi una sorella.",
+      "es": "Hay un hermano, por lo tanto una hermana."
     },
     "alt": {},
-    "chunks": ["haw", "alo,", "silezi", "hafti", "alo."],
+    "chunks": [
+      "haw",
+      "alo,",
+      "silezi",
+      "hafti",
+      "alo."
+    ],
     "verified": false
   }
 ]

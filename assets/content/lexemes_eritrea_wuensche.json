@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_wns_wish2","am":"ትምኒት","tr":"timinit","pos":"noun","topic":"wishes","level":"TI","t":{"de":"der Wunsch","en":"wish","sv":"önskan","nl":"wens"},"emoji":"","verified":false},
-  {"id":"lex_ti_wns_hope2","am":"ተስፋ ገበረ","tr":"tesfa gebere","pos":"verb","topic":"wishes","level":"TI","t":{"de":"hoffen","en":"to hope","sv":"att hoppas","nl":"hopen"},"emoji":"","verified":false},
-  {"id":"lex_ti_wns_iwsh","am":"ምተመነኹ","tr":"mitemenekhu","pos":"phrase","topic":"wishes","level":"TI","t":{"de":"ich wünschte","en":"I wish","sv":"jag önskar","nl":"ik wou dat"},"emoji":"","verified":false},
-  {"id":"lex_ti_wns_grtful","am":"ምስጉን","tr":"misigun","pos":"adjective","topic":"wishes","level":"TI","t":{"de":"dankbar","en":"grateful","sv":"tacksam","nl":"dankbaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_wns_proud2","am":"ሓበን ተሰሚዑዎ","tr":"haben tesemi'uwo","pos":"adjective","topic":"wishes","level":"TI","t":{"de":"stolz","en":"proud","sv":"stolt","nl":"trots"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_wns_wish2",
+    "am": "ትምኒት",
+    "tr": "timinit",
+    "pos": "noun",
+    "topic": "wishes",
+    "level": "TI",
+    "t": {
+      "de": "der Wunsch",
+      "en": "wish",
+      "sv": "önskan",
+      "nl": "wens",
+      "it": "il desiderio",
+      "es": "el deseo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wns_hope2",
+    "am": "ተስፋ ገበረ",
+    "tr": "tesfa gebere",
+    "pos": "verb",
+    "topic": "wishes",
+    "level": "TI",
+    "t": {
+      "de": "hoffen",
+      "en": "to hope",
+      "sv": "att hoppas",
+      "nl": "hopen",
+      "it": "sperare",
+      "es": "esperar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wns_iwsh",
+    "am": "ምተመነኹ",
+    "tr": "mitemenekhu",
+    "pos": "phrase",
+    "topic": "wishes",
+    "level": "TI",
+    "t": {
+      "de": "ich wünschte",
+      "en": "I wish",
+      "sv": "jag önskar",
+      "nl": "ik wou dat",
+      "it": "vorrei",
+      "es": "ojalá"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wns_grtful",
+    "am": "ምስጉን",
+    "tr": "misigun",
+    "pos": "adjective",
+    "topic": "wishes",
+    "level": "TI",
+    "t": {
+      "de": "dankbar",
+      "en": "grateful",
+      "sv": "tacksam",
+      "nl": "dankbaar",
+      "it": "grato/a",
+      "es": "agradecido/a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wns_proud2",
+    "am": "ሓበን ተሰሚዑዎ",
+    "tr": "haben tesemi'uwo",
+    "pos": "adjective",
+    "topic": "wishes",
+    "level": "TI",
+    "t": {
+      "de": "stolz",
+      "en": "proud",
+      "sv": "stolt",
+      "nl": "trots",
+      "it": "orgoglioso/a",
+      "es": "orgulloso/a"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

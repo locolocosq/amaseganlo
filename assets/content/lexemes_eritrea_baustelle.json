@@ -1,8 +1,110 @@
 [
-  {"id":"lex_ti_bau_hlmt","am":"ናይ ውሕስነት ቆቢዕ","tr":"nay wihisinet qobi'i","pos":"noun","topic":"construction","level":"TI","t":{"de":"der Bauhelm","en":"hard hat","sv":"skyddshjälm","nl":"veiligheidshelm"},"emoji":"⛑️","verified":false},
-  {"id":"lex_ti_bau_crn","am":"ክሬን","tr":"kren","pos":"noun","topic":"construction","level":"TI","t":{"de":"der Kran","en":"crane (machine)","sv":"kran (byggkran)","nl":"kraan (bouw)"},"emoji":"🏗️","verified":false},
-  {"id":"lex_ti_bau_brk","am":"ማቶኒ","tr":"matoni","pos":"noun","topic":"construction","level":"TI","t":{"de":"der Ziegelstein","en":"brick","sv":"tegelsten","nl":"baksteen"},"emoji":"🧱","verified":false},
-  {"id":"lex_ti_bau_scfld","am":"ናሕሲ ስራሕ","tr":"nahsi sirah","pos":"noun","topic":"construction","level":"TI","t":{"de":"das Baugerüst","en":"scaffolding","sv":"byggnadsställning","nl":"steiger"},"emoji":"","verified":false},
-  {"id":"lex_ti_bau_bld","am":"ሓነጸ","tr":"hanetse","pos":"verb","topic":"construction","level":"TI","t":{"de":"bauen, errichten","en":"to build, construct","sv":"att bygga","nl":"bouwen"},"emoji":"","verified":false},
-  {"id":"lex_ti_bau_site","am":"ቦታ ህንጻ","tr":"bota hinitsa","pos":"noun","topic":"construction","level":"TI","t":{"de":"die Baustelle","en":"construction site","sv":"byggarbetsplats","nl":"bouwplaats"},"emoji":"🚧","verified":false}
+  {
+    "id": "lex_ti_bau_hlmt",
+    "am": "ናይ ውሕስነት ቆቢዕ",
+    "tr": "nay wihisinet qobi'i",
+    "pos": "noun",
+    "topic": "construction",
+    "level": "TI",
+    "t": {
+      "de": "der Bauhelm",
+      "en": "hard hat",
+      "sv": "skyddshjälm",
+      "nl": "veiligheidshelm",
+      "it": "il casco da cantiere",
+      "es": "el casco de obra"
+    },
+    "emoji": "⛑️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bau_crn",
+    "am": "ክሬን",
+    "tr": "kren",
+    "pos": "noun",
+    "topic": "construction",
+    "level": "TI",
+    "t": {
+      "de": "der Kran",
+      "en": "crane (machine)",
+      "sv": "kran (byggkran)",
+      "nl": "kraan (bouw)",
+      "it": "la gru",
+      "es": "la grúa"
+    },
+    "emoji": "🏗️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bau_brk",
+    "am": "ማቶኒ",
+    "tr": "matoni",
+    "pos": "noun",
+    "topic": "construction",
+    "level": "TI",
+    "t": {
+      "de": "der Ziegelstein",
+      "en": "brick",
+      "sv": "tegelsten",
+      "nl": "baksteen",
+      "it": "il mattone",
+      "es": "el ladrillo"
+    },
+    "emoji": "🧱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bau_scfld",
+    "am": "ናሕሲ ስራሕ",
+    "tr": "nahsi sirah",
+    "pos": "noun",
+    "topic": "construction",
+    "level": "TI",
+    "t": {
+      "de": "das Baugerüst",
+      "en": "scaffolding",
+      "sv": "byggnadsställning",
+      "nl": "steiger",
+      "it": "l'impalcatura",
+      "es": "el andamio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bau_bld",
+    "am": "ሓነጸ",
+    "tr": "hanetse",
+    "pos": "verb",
+    "topic": "construction",
+    "level": "TI",
+    "t": {
+      "de": "bauen, errichten",
+      "en": "to build, construct",
+      "sv": "att bygga",
+      "nl": "bouwen",
+      "it": "costruire, edificare",
+      "es": "construir, edificar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bau_site",
+    "am": "ቦታ ህንጻ",
+    "tr": "bota hinitsa",
+    "pos": "noun",
+    "topic": "construction",
+    "level": "TI",
+    "t": {
+      "de": "die Baustelle",
+      "en": "construction site",
+      "sv": "byggarbetsplats",
+      "nl": "bouwplaats",
+      "it": "il cantiere",
+      "es": "la obra"
+    },
+    "emoji": "🚧",
+    "verified": false
+  }
 ]

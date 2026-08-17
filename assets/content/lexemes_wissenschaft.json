@@ -10,7 +10,9 @@
       "de": "die Wissenschaft",
       "en": "science",
       "sv": "vetenskap",
-      "nl": "wetenschap"
+      "nl": "wetenschap",
+      "it": "la scienza",
+      "es": "la ciencia"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Experiment",
       "en": "experiment",
       "sv": "experiment",
-      "nl": "experiment"
+      "nl": "experiment",
+      "it": "l'esperimento",
+      "es": "el experimento"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Forschung",
       "en": "research",
       "sv": "forskning",
-      "nl": "onderzoek"
+      "nl": "onderzoek",
+      "it": "la ricerca",
+      "es": "la investigación"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Mathematik",
       "en": "mathematics",
       "sv": "matematik",
-      "nl": "wiskunde"
+      "nl": "wiskunde",
+      "it": "la matematica",
+      "es": "las matemáticas"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Physik",
       "en": "physics",
       "sv": "fysik",
-      "nl": "natuurkunde"
+      "nl": "natuurkunde",
+      "it": "la fisica",
+      "es": "la física"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Chemie",
       "en": "chemistry",
       "sv": "kemi",
-      "nl": "chemie"
+      "nl": "chemie",
+      "it": "la chimica",
+      "es": "la química"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Biologie",
       "en": "biology",
       "sv": "biologi",
-      "nl": "biologie"
+      "nl": "biologie",
+      "it": "la biologia",
+      "es": "la biología"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Geographie",
       "en": "geography",
       "sv": "geografi",
-      "nl": "aardrijkskunde"
+      "nl": "aardrijkskunde",
+      "it": "la geografia",
+      "es": "la geografía"
     },
     "hint": {},
     "alt": {},

@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_zst2_busy2","am":"ስራሕ ዝበዝሖ","tr":"sirah zibezho","pos":"adjective","topic":"states","level":"TI","t":{"de":"beschäftigt","en":"busy","sv":"upptagen","nl":"druk (bezig)"},"emoji":"","verified":false},
-  {"id":"lex_ti_zst2_free2","am":"ናጻ ግዜ ዘለዎ","tr":"natsa gizie zelewo","pos":"adjective","topic":"states","level":"TI","t":{"de":"frei, verfügbar","en":"free, available","sv":"ledig","nl":"vrij, beschikbaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_zst2_ready2","am":"ድሉው","tr":"dilew","pos":"adjective","topic":"states","level":"TI","t":{"de":"bereit","en":"ready","sv":"redo","nl":"klaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_zst2_bored","am":"ስልችት ኢሉዎ","tr":"silichiti 'iluwo","pos":"adjective","topic":"states","level":"TI","t":{"de":"gelangweilt","en":"bored","sv":"uttråkad","nl":"verveeld"},"emoji":"","verified":false},
-  {"id":"lex_ti_zst2_alone2","am":"በይኑ","tr":"beyinu","pos":"adjective","topic":"states","level":"TI","t":{"de":"allein","en":"alone","sv":"ensam","nl":"alleen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_zst2_busy2",
+    "am": "ስራሕ ዝበዝሖ",
+    "tr": "sirah zibezho",
+    "pos": "adjective",
+    "topic": "states",
+    "level": "TI",
+    "t": {
+      "de": "beschäftigt",
+      "en": "busy",
+      "sv": "upptagen",
+      "nl": "druk (bezig)",
+      "it": "occupato",
+      "es": "ocupado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zst2_free2",
+    "am": "ናጻ ግዜ ዘለዎ",
+    "tr": "natsa gizie zelewo",
+    "pos": "adjective",
+    "topic": "states",
+    "level": "TI",
+    "t": {
+      "de": "frei, verfügbar",
+      "en": "free, available",
+      "sv": "ledig",
+      "nl": "vrij, beschikbaar",
+      "it": "libero, disponibile",
+      "es": "libre, disponible"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zst2_ready2",
+    "am": "ድሉው",
+    "tr": "dilew",
+    "pos": "adjective",
+    "topic": "states",
+    "level": "TI",
+    "t": {
+      "de": "bereit",
+      "en": "ready",
+      "sv": "redo",
+      "nl": "klaar",
+      "it": "pronto",
+      "es": "listo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zst2_bored",
+    "am": "ስልችት ኢሉዎ",
+    "tr": "silichiti 'iluwo",
+    "pos": "adjective",
+    "topic": "states",
+    "level": "TI",
+    "t": {
+      "de": "gelangweilt",
+      "en": "bored",
+      "sv": "uttråkad",
+      "nl": "verveeld",
+      "it": "annoiato",
+      "es": "aburrido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zst2_alone2",
+    "am": "በይኑ",
+    "tr": "beyinu",
+    "pos": "adjective",
+    "topic": "states",
+    "level": "TI",
+    "t": {
+      "de": "allein",
+      "en": "alone",
+      "sv": "ensam",
+      "nl": "alleen",
+      "it": "da solo",
+      "es": "solo"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

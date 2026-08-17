@@ -10,7 +10,9 @@
       "de": "bauen",
       "en": "to build",
       "sv": "bygga",
-      "nl": "bouwen"
+      "nl": "bouwen",
+      "it": "costruire",
+      "es": "construir"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "tragen",
       "en": "to carry",
       "sv": "bära",
-      "nl": "dragen"
+      "nl": "dragen",
+      "it": "portare",
+      "es": "llevar"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "ziehen",
       "en": "to pull",
       "sv": "dra",
-      "nl": "trekken"
+      "nl": "trekken",
+      "it": "tirare",
+      "es": "tirar"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "fallen",
       "en": "to fall",
       "sv": "falla",
-      "nl": "vallen"
+      "nl": "vallen",
+      "it": "cadere",
+      "es": "caer"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "springen",
       "en": "to jump",
       "sv": "hoppa",
-      "nl": "springen"
+      "nl": "springen",
+      "it": "saltare",
+      "es": "saltar"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "fliegen",
       "en": "to fly",
       "sv": "flyga",
-      "nl": "vliegen"
+      "nl": "vliegen",
+      "it": "volare",
+      "es": "volar"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "atmen",
       "en": "to breathe",
       "sv": "andas",
-      "nl": "ademen"
+      "nl": "ademen",
+      "it": "respirare",
+      "es": "respirar"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "leben",
       "en": "to live",
       "sv": "leva",
-      "nl": "leven"
+      "nl": "leven",
+      "it": "vivere",
+      "es": "vivir"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "heiraten",
       "en": "to marry",
       "sv": "gifta sig",
-      "nl": "trouwen"
+      "nl": "trouwen",
+      "it": "sposarsi",
+      "es": "casarse"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "geboren werden",
       "en": "to be born",
       "sv": "födas",
-      "nl": "geboren worden"
+      "nl": "geboren worden",
+      "it": "nascere",
+      "es": "nacer"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "sterben",
       "en": "to die",
       "sv": "dö",
-      "nl": "sterven"
+      "nl": "sterven",
+      "it": "morire",
+      "es": "morir"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "reparieren",
       "en": "to repair",
       "sv": "reparera",
-      "nl": "repareren"
+      "nl": "repareren",
+      "it": "riparare",
+      "es": "reparar"
     },
     "hint": {},
     "alt": {},

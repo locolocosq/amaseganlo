@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_msngw","am":"ማሲንቆ","tr":"masinqo","pos":"noun","topic":"music","level":"TI","t":{"de":"die Masinko (Streichinstrument)","en":"masinko (fiddle)","sv":"masinko (stråkinstrument)","nl":"masinko (strijkinstrument)"},"emoji":"🎻","verified":false},
-  {"id":"lex_ti_kbro","am":"ከበሮ","tr":"kebero","pos":"noun","topic":"music","level":"TI","t":{"de":"die Trommel","en":"drum","sv":"trumma","nl":"trommel"},"emoji":"🥁","verified":false},
-  {"id":"lex_ti_wshnt","am":"ዋሽንት","tr":"washint","pos":"noun","topic":"music","level":"TI","t":{"de":"die Flöte","en":"flute","sv":"flöjt","nl":"fluit"},"emoji":"","verified":false},
-  {"id":"lex_ti_gitar","am":"ጊታር","tr":"gitar","pos":"noun","topic":"music","level":"TI","t":{"de":"die Gitarre","en":"guitar","sv":"gitarr","nl":"gitaar"},"emoji":"🎸","verified":false},
-  {"id":"lex_ti_pyano","am":"ፒያኖ","tr":"piyano","pos":"noun","topic":"music","level":"TI","t":{"de":"das Klavier","en":"piano","sv":"piano","nl":"piano"},"emoji":"🎹","verified":false},
-  {"id":"lex_ti_zmr2","am":"ደራፊ","tr":"derafi","pos":"noun","topic":"music","level":"TI","t":{"de":"der Sänger","en":"singer","sv":"sångare","nl":"zanger"},"emoji":"🎤","verified":false},
-  {"id":"lex_ti_dance","am":"ስዕስዒት","tr":"si'isi'it","pos":"noun","topic":"music","level":"TI","t":{"de":"der Tanz","en":"dance","sv":"dans","nl":"dans"},"emoji":"💃","verified":false}
+  {
+    "id": "lex_ti_msngw",
+    "am": "ማሲንቆ",
+    "tr": "masinqo",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "die Masinko (Streichinstrument)",
+      "en": "masinko (fiddle)",
+      "sv": "masinko (stråkinstrument)",
+      "nl": "masinko (strijkinstrument)",
+      "it": "il masinko (strumento a corda)",
+      "es": "el masinko (instrumento de cuerda)"
+    },
+    "emoji": "🎻",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbro",
+    "am": "ከበሮ",
+    "tr": "kebero",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "die Trommel",
+      "en": "drum",
+      "sv": "trumma",
+      "nl": "trommel",
+      "it": "il tamburo",
+      "es": "el tambor"
+    },
+    "emoji": "🥁",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wshnt",
+    "am": "ዋሽንት",
+    "tr": "washint",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "die Flöte",
+      "en": "flute",
+      "sv": "flöjt",
+      "nl": "fluit",
+      "it": "il flauto",
+      "es": "la flauta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gitar",
+    "am": "ጊታር",
+    "tr": "gitar",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "die Gitarre",
+      "en": "guitar",
+      "sv": "gitarr",
+      "nl": "gitaar",
+      "it": "la chitarra",
+      "es": "la guitarra"
+    },
+    "emoji": "🎸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pyano",
+    "am": "ፒያኖ",
+    "tr": "piyano",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "das Klavier",
+      "en": "piano",
+      "sv": "piano",
+      "nl": "piano",
+      "it": "il pianoforte",
+      "es": "el piano"
+    },
+    "emoji": "🎹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zmr2",
+    "am": "ደራፊ",
+    "tr": "derafi",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "der Sänger",
+      "en": "singer",
+      "sv": "sångare",
+      "nl": "zanger",
+      "it": "il cantante",
+      "es": "el cantante"
+    },
+    "emoji": "🎤",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dance",
+    "am": "ስዕስዒት",
+    "tr": "si'isi'it",
+    "pos": "noun",
+    "topic": "music",
+    "level": "TI",
+    "t": {
+      "de": "der Tanz",
+      "en": "dance",
+      "sv": "dans",
+      "nl": "dans",
+      "it": "la danza",
+      "es": "el baile"
+    },
+    "emoji": "💃",
+    "verified": false
+  }
 ]

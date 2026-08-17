@@ -1,10 +1,146 @@
 [
-  {"id":"lex_ti_pst_lter","am":"ደብዳበ","tr":"debdabe","pos":"noun","topic":"post_office","level":"TI","t":{"de":"der Brief","en":"letter","sv":"brev","nl":"brief"},"emoji":"✉️","verified":false},
-  {"id":"lex_ti_pst_pkg","am":"ፓኮ","tr":"pako","pos":"noun","topic":"post_office","level":"TI","t":{"de":"das Paket","en":"package, parcel","sv":"paket","nl":"pakket"},"emoji":"📦","verified":false},
-  {"id":"lex_ti_pst_stmp","am":"ቴምብር","tr":"tembir","pos":"noun","topic":"post_office","level":"TI","t":{"de":"die Briefmarke","en":"stamp","sv":"frimärke","nl":"postzegel"},"emoji":"","verified":false},
-  {"id":"lex_ti_pst_pbox","am":"ናይ ደብዳበ ሳንዱቕ","tr":"nay debdabe sanduq","pos":"noun","topic":"post_office","level":"TI","t":{"de":"der Briefkasten","en":"mailbox","sv":"brevlåda","nl":"brievenbus"},"emoji":"📮","verified":false},
-  {"id":"lex_ti_pst_adrs","am":"ኣድራሻ","tr":"adirasha","pos":"noun","topic":"post_office","level":"TI","t":{"de":"die Adresse","en":"address","sv":"adress","nl":"adres"},"emoji":"","verified":false},
-  {"id":"lex_ti_pst_snd","am":"ለኣኸ","tr":"le'ake","pos":"verb","topic":"post_office","level":"TI","t":{"de":"senden, schicken","en":"to send","sv":"att skicka","nl":"sturen, verzenden"},"emoji":"","verified":false},
-  {"id":"lex_ti_pst_sgn","am":"ክታም","tr":"kitam","pos":"noun","topic":"post_office","level":"TI","t":{"de":"die Unterschrift","en":"signature","sv":"underskrift","nl":"handtekening"},"emoji":"","verified":false},
-  {"id":"lex_ti_pst_dcmnt","am":"ሰነድ","tr":"sened","pos":"noun","topic":"post_office","level":"TI","t":{"de":"das Dokument","en":"document","sv":"dokument","nl":"document"},"emoji":"📄","verified":false}
+  {
+    "id": "lex_ti_pst_lter",
+    "am": "ደብዳበ",
+    "tr": "debdabe",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "der Brief",
+      "en": "letter",
+      "sv": "brev",
+      "nl": "brief",
+      "it": "la lettera",
+      "es": "la carta"
+    },
+    "emoji": "✉️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_pkg",
+    "am": "ፓኮ",
+    "tr": "pako",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "das Paket",
+      "en": "package, parcel",
+      "sv": "paket",
+      "nl": "pakket",
+      "it": "il pacco",
+      "es": "el paquete"
+    },
+    "emoji": "📦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_stmp",
+    "am": "ቴምብር",
+    "tr": "tembir",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "die Briefmarke",
+      "en": "stamp",
+      "sv": "frimärke",
+      "nl": "postzegel",
+      "it": "il francobollo",
+      "es": "el sello"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_pbox",
+    "am": "ናይ ደብዳበ ሳንዱቕ",
+    "tr": "nay debdabe sanduq",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "der Briefkasten",
+      "en": "mailbox",
+      "sv": "brevlåda",
+      "nl": "brievenbus",
+      "it": "la cassetta postale",
+      "es": "el buzón"
+    },
+    "emoji": "📮",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_adrs",
+    "am": "ኣድራሻ",
+    "tr": "adirasha",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "die Adresse",
+      "en": "address",
+      "sv": "adress",
+      "nl": "adres",
+      "it": "l'indirizzo",
+      "es": "la dirección"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_snd",
+    "am": "ለኣኸ",
+    "tr": "le'ake",
+    "pos": "verb",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "senden, schicken",
+      "en": "to send",
+      "sv": "att skicka",
+      "nl": "sturen, verzenden",
+      "it": "inviare, mandare",
+      "es": "enviar, mandar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_sgn",
+    "am": "ክታም",
+    "tr": "kitam",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "die Unterschrift",
+      "en": "signature",
+      "sv": "underskrift",
+      "nl": "handtekening",
+      "it": "la firma",
+      "es": "la firma"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pst_dcmnt",
+    "am": "ሰነድ",
+    "tr": "sened",
+    "pos": "noun",
+    "topic": "post_office",
+    "level": "TI",
+    "t": {
+      "de": "das Dokument",
+      "en": "document",
+      "sv": "dokument",
+      "nl": "document",
+      "it": "il documento",
+      "es": "el documento"
+    },
+    "emoji": "📄",
+    "verified": false
+  }
 ]

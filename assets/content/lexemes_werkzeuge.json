@@ -10,7 +10,9 @@
       "de": "der Hammer",
       "en": "hammer",
       "sv": "hammare",
-      "nl": "hamer"
+      "nl": "hamer",
+      "it": "il martello",
+      "es": "el martillo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Nagel",
       "en": "nail",
       "sv": "spik",
-      "nl": "spijker"
+      "nl": "spijker",
+      "it": "il chiodo",
+      "es": "el clavo"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Schraube",
       "en": "screw",
       "sv": "skruv",
-      "nl": "schroef"
+      "nl": "schroef",
+      "it": "la vite",
+      "es": "el tornillo"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Säge",
       "en": "saw",
       "sv": "såg",
-      "nl": "zaag"
+      "nl": "zaag",
+      "it": "la sega",
+      "es": "la sierra"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Bohrer",
       "en": "drill",
       "sv": "borr",
-      "nl": "boor"
+      "nl": "boor",
+      "it": "il trapano",
+      "es": "el taladro"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Schraubenschlüssel",
       "en": "wrench",
       "sv": "skiftnyckel",
-      "nl": "moersleutel"
+      "nl": "moersleutel",
+      "it": "la chiave inglese",
+      "es": "la llave inglesa"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Leiter",
       "en": "ladder",
       "sv": "stege",
-      "nl": "ladder"
+      "nl": "ladder",
+      "it": "la scala",
+      "es": "la escalera"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Seil",
       "en": "rope",
       "sv": "rep",
-      "nl": "touw"
+      "nl": "touw",
+      "it": "la corda",
+      "es": "la cuerda"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "das Klebeband",
       "en": "tape",
       "sv": "tejp",
-      "nl": "plakband"
+      "nl": "plakband",
+      "it": "il nastro adesivo",
+      "es": "la cinta adhesiva"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "der Leim, Klebstoff",
       "en": "glue",
       "sv": "lim",
-      "nl": "lijm"
+      "nl": "lijm",
+      "it": "la colla",
+      "es": "el pegamento"
     },
     "hint": {},
     "alt": {},

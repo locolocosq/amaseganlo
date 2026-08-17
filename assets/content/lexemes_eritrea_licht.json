@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_lct_bright","am":"ብሩህ","tr":"biruh","pos":"adjective","topic":"light_dark","level":"TI","t":{"de":"hell","en":"bright","sv":"ljus (klar)","nl":"licht (helder)"},"emoji":"","verified":false},
-  {"id":"lex_ti_lct_dark2","am":"ጸልማት","tr":"tselimat","pos":"adjective","topic":"light_dark","level":"TI","t":{"de":"dunkel","en":"dark","sv":"mörk","nl":"donker"},"emoji":"","verified":false},
-  {"id":"lex_ti_lct_shdw","am":"ጽላል","tr":"tsilal","pos":"noun","topic":"light_dark","level":"TI","t":{"de":"der Schatten","en":"shadow","sv":"skugga","nl":"schaduw"},"emoji":"","verified":false},
-  {"id":"lex_ti_lct_shine","am":"ብርሃነ","tr":"birhane","pos":"verb","topic":"light_dark","level":"TI","t":{"de":"scheinen, leuchten","en":"to shine","sv":"att lysa","nl":"schijnen"},"emoji":"✨","verified":false}
+  {
+    "id": "lex_ti_lct_bright",
+    "am": "ብሩህ",
+    "tr": "biruh",
+    "pos": "adjective",
+    "topic": "light_dark",
+    "level": "TI",
+    "t": {
+      "de": "hell",
+      "en": "bright",
+      "sv": "ljus (klar)",
+      "nl": "licht (helder)",
+      "it": "chiaro, luminoso",
+      "es": "claro, luminoso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lct_dark2",
+    "am": "ጸልማት",
+    "tr": "tselimat",
+    "pos": "adjective",
+    "topic": "light_dark",
+    "level": "TI",
+    "t": {
+      "de": "dunkel",
+      "en": "dark",
+      "sv": "mörk",
+      "nl": "donker",
+      "it": "scuro, buio",
+      "es": "oscuro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lct_shdw",
+    "am": "ጽላል",
+    "tr": "tsilal",
+    "pos": "noun",
+    "topic": "light_dark",
+    "level": "TI",
+    "t": {
+      "de": "der Schatten",
+      "en": "shadow",
+      "sv": "skugga",
+      "nl": "schaduw",
+      "it": "l'ombra",
+      "es": "la sombra"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lct_shine",
+    "am": "ብርሃነ",
+    "tr": "birhane",
+    "pos": "verb",
+    "topic": "light_dark",
+    "level": "TI",
+    "t": {
+      "de": "scheinen, leuchten",
+      "en": "to shine",
+      "sv": "att lysa",
+      "nl": "schijnen",
+      "it": "splendere, brillare",
+      "es": "brillar, resplandecer"
+    },
+    "emoji": "✨",
+    "verified": false
+  }
 ]

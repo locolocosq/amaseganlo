@@ -10,7 +10,9 @@
       "de": "glücklich, froh",
       "en": "happy",
       "sv": "glad",
-      "nl": "gelukkig"
+      "nl": "gelukkig",
+      "it": "felice, contento",
+      "es": "feliz, contento"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "Ich bin traurig",
       "en": "I am sad",
       "sv": "Jag är ledsen",
-      "nl": "Ik ben verdrietig"
+      "nl": "Ik ben verdrietig",
+      "it": "Sono triste",
+      "es": "Estoy triste"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "Ich bin wütend",
       "en": "I am angry",
       "sv": "Jag är arg",
-      "nl": "Ik ben boos"
+      "nl": "Ik ben boos",
+      "it": "Sono arrabbiato",
+      "es": "Estoy enfadado"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "Ich habe Angst",
       "en": "I am afraid",
       "sv": "Jag är rädd",
-      "nl": "Ik ben bang"
+      "nl": "Ik ben bang",
+      "it": "Ho paura",
+      "es": "Tengo miedo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Liebe",
       "en": "love",
       "sv": "kärlek",
-      "nl": "liefde"
+      "nl": "liefde",
+      "it": "l'amore",
+      "es": "el amor"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Freude, das Glück",
       "en": "joy, happiness",
       "sv": "glädje",
-      "nl": "vreugde"
+      "nl": "vreugde",
+      "it": "la gioia, la felicità",
+      "es": "la alegría, la felicidad"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Traurigkeit",
       "en": "sadness",
       "sv": "sorg",
-      "nl": "verdriet"
+      "nl": "verdriet",
+      "it": "la tristezza",
+      "es": "la tristeza"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Meinung",
       "en": "opinion",
       "sv": "åsikt",
-      "nl": "mening"
+      "nl": "mening",
+      "it": "l'opinione",
+      "es": "la opinión"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "Ich denke, dass... (es scheint mir)",
       "en": "I think that... (it seems to me)",
       "sv": "Jag tycker att... (det verkar för mig)",
-      "nl": "Ik denk dat... (het lijkt mij)"
+      "nl": "Ik denk dat... (het lijkt mij)",
+      "it": "Penso che... (mi sembra)",
+      "es": "Creo que... (me parece)"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Gefühl",
       "en": "feeling",
       "sv": "känsla",
-      "nl": "gevoel"
+      "nl": "gevoel",
+      "it": "il sentimento",
+      "es": "el sentimiento"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "die Hoffnung",
       "en": "hope",
       "sv": "hopp",
-      "nl": "hoop"
+      "nl": "hoop",
+      "it": "la speranza",
+      "es": "la esperanza"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Angst",
       "en": "fear",
       "sv": "rädsla",
-      "nl": "angst"
+      "nl": "angst",
+      "it": "la paura",
+      "es": "el miedo"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "der Stolz",
       "en": "pride",
       "sv": "stolthet",
-      "nl": "trots"
+      "nl": "trots",
+      "it": "l'orgoglio",
+      "es": "el orgullo"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "schwierig, schwer",
       "en": "difficult, heavy",
       "sv": "svår, tung",
-      "nl": "moeilijk, zwaar"
+      "nl": "moeilijk, zwaar",
+      "it": "difficile, pesante",
+      "es": "difícil, pesado"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "einfach, leicht",
       "en": "easy, simple",
       "sv": "lätt, enkel",
-      "nl": "makkelijk, eenvoudig"
+      "nl": "makkelijk, eenvoudig",
+      "it": "facile, semplice",
+      "es": "fácil, sencillo"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "interessant",
       "en": "interesting",
       "sv": "intressant",
-      "nl": "interessant"
+      "nl": "interessant",
+      "it": "interessante",
+      "es": "interesante"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "langweilig",
       "en": "boring",
       "sv": "tråkig",
-      "nl": "saai"
+      "nl": "saai",
+      "it": "noioso",
+      "es": "aburrido"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "wichtig",
       "en": "important",
       "sv": "viktig",
-      "nl": "belangrijk"
+      "nl": "belangrijk",
+      "it": "importante",
+      "es": "importante"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "vielleicht",
       "en": "maybe",
       "sv": "kanske",
-      "nl": "misschien"
+      "nl": "misschien",
+      "it": "forse",
+      "es": "quizás"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "natürlich, sicherlich",
       "en": "of course, certainly",
       "sv": "självklart",
-      "nl": "natuurlijk"
+      "nl": "natuurlijk",
+      "it": "certo, naturalmente",
+      "es": "claro, por supuesto"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "richtig, korrekt",
       "en": "correct, right",
       "sv": "rätt, korrekt",
-      "nl": "juist, correct"
+      "nl": "juist, correct",
+      "it": "giusto, corretto",
+      "es": "correcto, cierto"
     },
     "hint": {},
     "alt": {},
@@ -388,7 +430,9 @@
       "de": "falsch, der Fehler",
       "en": "wrong, mistake",
       "sv": "fel",
-      "nl": "fout"
+      "nl": "fout",
+      "it": "sbagliato, l'errore",
+      "es": "incorrecto, el error"
     },
     "hint": {},
     "alt": {},

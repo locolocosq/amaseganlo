@@ -10,7 +10,9 @@
       "de": "der Planet",
       "en": "planet",
       "sv": "planet",
-      "nl": "planeet"
+      "nl": "planeet",
+      "it": "il pianeta",
+      "es": "el planeta"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Komet",
       "en": "comet",
       "sv": "komet",
-      "nl": "komeet"
+      "nl": "komeet",
+      "it": "la cometa",
+      "es": "el cometa"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Finsternis (Sonne/Mond)",
       "en": "eclipse",
       "sv": "förmörkelse",
-      "nl": "eclips"
+      "nl": "eclips",
+      "it": "l'eclissi (sole/luna)",
+      "es": "el eclipse (sol/luna)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Galaxie",
       "en": "galaxy",
       "sv": "galax",
-      "nl": "melkweg"
+      "nl": "melkweg",
+      "it": "la galassia",
+      "es": "la galaxia"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Universum",
       "en": "universe",
       "sv": "universum",
-      "nl": "universum"
+      "nl": "universum",
+      "it": "l'universo",
+      "es": "el universo"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Schwerkraft",
       "en": "gravity",
       "sv": "gravitation",
-      "nl": "zwaartekracht"
+      "nl": "zwaartekracht",
+      "it": "la gravità",
+      "es": "la gravedad"
     },
     "hint": {},
     "alt": {},

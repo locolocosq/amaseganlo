@@ -4,14 +4,21 @@
     "am": "ሰላም ዓለይኩም።",
     "tr": "selam alaykum.",
     "level": "B2",
-    "uses": ["lex_selam_alaykum"],
+    "uses": [
+      "lex_selam_alaykum"
+    ],
     "t": {
       "de": "Friede sei mit dir.",
       "en": "Peace be upon you.",
       "sv": "Fred vare med dig.",
-      "nl": "Vrede zij met u."
+      "nl": "Vrede zij met u.",
+      "it": "La pace sia con te.",
+      "es": "La paz sea contigo."
     },
-    "chunks": ["selam", "alaykum"],
+    "chunks": [
+      "selam",
+      "alaykum"
+    ],
     "verified": false
   },
   {
@@ -19,14 +26,22 @@
     "am": "ወዓለይኩም ሰላም።",
     "tr": "wa alaykum selam.",
     "level": "B2",
-    "uses": ["lex_wealaykum"],
+    "uses": [
+      "lex_wealaykum"
+    ],
     "t": {
       "de": "Und mit dir sei Friede.",
       "en": "And upon you be peace.",
       "sv": "Och över dig vare fred.",
-      "nl": "En met u zij vrede."
+      "nl": "En met u zij vrede.",
+      "it": "E su di te sia la pace.",
+      "es": "Y contigo sea la paz."
     },
-    "chunks": ["wa", "alaykum", "selam"],
+    "chunks": [
+      "wa",
+      "alaykum",
+      "selam"
+    ],
     "verified": false
   },
   {
@@ -34,14 +49,24 @@
     "am": "ኢማሙ በጣም ሃይማኖተኛ ነው።",
     "tr": "imamu betam haymanotegna newu.",
     "level": "B2",
-    "uses": ["lex_imam", "lex_adj_haymanotegna"],
+    "uses": [
+      "lex_imam",
+      "lex_adj_haymanotegna"
+    ],
     "t": {
       "de": "Der Imam ist sehr religiös.",
       "en": "The imam is very religious.",
       "sv": "Imamen är mycket religiös.",
-      "nl": "De imam is erg religieus."
+      "nl": "De imam is erg religieus.",
+      "it": "L'imam è molto religioso.",
+      "es": "El imán es muy religioso."
     },
-    "chunks": ["imamu", "betam", "haymanotegna", "newu"],
+    "chunks": [
+      "imamu",
+      "betam",
+      "haymanotegna",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +74,23 @@
     "am": "መስጊድ እስላማዊ ነው።",
     "tr": "mesgid isilamawi newu.",
     "level": "B2",
-    "uses": ["lex_mesgid", "lex_adj_islamawi"],
+    "uses": [
+      "lex_mesgid",
+      "lex_adj_islamawi"
+    ],
     "t": {
       "de": "Die Moschee ist islamisch.",
       "en": "The mosque is Islamic.",
       "sv": "Moskén är islamisk.",
-      "nl": "De moskee is islamitisch."
+      "nl": "De moskee is islamitisch.",
+      "it": "La moschea è islamica.",
+      "es": "La mezquita es islámica."
     },
-    "chunks": ["mesgid", "isilamawi", "newu"],
+    "chunks": [
+      "mesgid",
+      "isilamawi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +98,23 @@
     "am": "ኹጥባ በአርብ ቀን ነው።",
     "tr": "khutba be'arb k'en newu.",
     "level": "B2",
-    "uses": ["lex_khutba"],
+    "uses": [
+      "lex_khutba"
+    ],
     "t": {
       "de": "Die Freitagspredigt ist am Freitag.",
       "en": "The Friday sermon is on Friday.",
       "sv": "Fredagspredikan är på fredagen.",
-      "nl": "De vrijdagpreek is op vrijdag."
+      "nl": "De vrijdagpreek is op vrijdag.",
+      "it": "La predica del venerdì è di venerdì.",
+      "es": "El sermón del viernes es el viernes."
     },
-    "chunks": ["khutba", "be'arb", "k'en", "newu"],
+    "chunks": [
+      "khutba",
+      "be'arb",
+      "k'en",
+      "newu"
+    ],
     "verified": false
   }
 ]

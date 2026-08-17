@@ -1,14 +1,218 @@
 [
-  {"id":"lex_ti_med_hakim","am":"ሆስፒታል","tr":"hospital","pos":"noun","topic":"medicine","level":"TI","t":{"de":"das Krankenhaus","en":"hospital","sv":"sjukhus","nl":"ziekenhuis"},"emoji":"🏥","verified":false},
-  {"id":"lex_ti_med_nrsi","am":"ነርስ","tr":"nersi","pos":"noun","topic":"medicine","level":"TI","t":{"de":"die Krankenschwester/-pfleger","en":"nurse","sv":"sjuksköterska","nl":"verpleegkundige"},"emoji":"👩‍⚕️","verified":false},
-  {"id":"lex_ti_med_medhanit","am":"መድሃኒት","tr":"medhanit","pos":"noun","topic":"medicine","level":"TI","t":{"de":"das Medikament","en":"medicine, drug","sv":"medicin","nl":"medicijn"},"emoji":"💊","verified":false},
-  {"id":"lex_ti_med_shirit","am":"ስርየት","tr":"siriet","pos":"noun","topic":"medicine","level":"TI","t":{"de":"das Rezept","en":"prescription","sv":"recept","nl":"recept (medisch)"},"emoji":"","verified":false},
-  {"id":"lex_ti_med_hmam","am":"ሕማም","tr":"himam","pos":"noun","topic":"medicine","level":"TI","t":{"de":"die Krankheit","en":"illness, disease","sv":"sjukdom","nl":"ziekte"},"emoji":"🤒","verified":false},
-  {"id":"lex_ti_med_tqusat","am":"ተመርመረ","tr":"temermere","pos":"verb","topic":"medicine","level":"TI","t":{"de":"untersucht werden","en":"to be examined","sv":"att bli undersökt","nl":"onderzocht worden"},"emoji":"","verified":false},
-  {"id":"lex_ti_med_srng","am":"መርፍእ","tr":"merfi'i","pos":"noun","topic":"medicine","level":"TI","t":{"de":"die Spritze, Nadel","en":"injection, needle","sv":"spruta","nl":"injectie, naald"},"emoji":"💉","verified":false},
-  {"id":"lex_ti_med_bndg","am":"ማሰር","tr":"maser","pos":"noun","topic":"medicine","level":"TI","t":{"de":"der Verband","en":"bandage","sv":"förband","nl":"verband"},"emoji":"🩹","verified":false},
-  {"id":"lex_ti_med_astr","am":"ኣምቡላንስ","tr":"ambulans","pos":"noun","topic":"medicine","level":"TI","t":{"de":"der Krankenwagen","en":"ambulance","sv":"ambulans","nl":"ambulance"},"emoji":"🚑","verified":false},
-  {"id":"lex_ti_med_srtn","am":"ስርሓት","tr":"sirihat","pos":"noun","topic":"medicine","level":"TI","t":{"de":"die Operation","en":"surgery, operation","sv":"operation","nl":"operatie"},"emoji":"","verified":false},
-  {"id":"lex_ti_med_ndqa","am":"ናይ ደም ግፍትን ምንካይን","tr":"nay dem gifitin minikayin","pos":"noun","topic":"medicine","level":"TI","t":{"de":"der Blutdruck","en":"blood pressure","sv":"blodtryck","nl":"bloeddruk"},"emoji":"","verified":false},
-  {"id":"lex_ti_med_thlq","am":"ተሓከመ","tr":"tehakeme","pos":"verb","topic":"medicine","level":"TI","t":{"de":"behandelt werden","en":"to be treated","sv":"att behandlas","nl":"behandeld worden"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_med_hakim",
+    "am": "ሆስፒታል",
+    "tr": "hospital",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "das Krankenhaus",
+      "en": "hospital",
+      "sv": "sjukhus",
+      "nl": "ziekenhuis",
+      "it": "l'ospedale",
+      "es": "el hospital"
+    },
+    "emoji": "🏥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_nrsi",
+    "am": "ነርስ",
+    "tr": "nersi",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "die Krankenschwester/-pfleger",
+      "en": "nurse",
+      "sv": "sjuksköterska",
+      "nl": "verpleegkundige",
+      "it": "l'infermiere/l'infermiera",
+      "es": "el enfermero/la enfermera"
+    },
+    "emoji": "👩‍⚕️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_medhanit",
+    "am": "መድሃኒት",
+    "tr": "medhanit",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "das Medikament",
+      "en": "medicine, drug",
+      "sv": "medicin",
+      "nl": "medicijn",
+      "it": "il medicinale, il farmaco",
+      "es": "el medicamento, la medicina"
+    },
+    "emoji": "💊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_shirit",
+    "am": "ስርየት",
+    "tr": "siriet",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "das Rezept",
+      "en": "prescription",
+      "sv": "recept",
+      "nl": "recept (medisch)",
+      "it": "la ricetta medica",
+      "es": "la receta médica"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_hmam",
+    "am": "ሕማም",
+    "tr": "himam",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "die Krankheit",
+      "en": "illness, disease",
+      "sv": "sjukdom",
+      "nl": "ziekte",
+      "it": "la malattia",
+      "es": "la enfermedad"
+    },
+    "emoji": "🤒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_tqusat",
+    "am": "ተመርመረ",
+    "tr": "temermere",
+    "pos": "verb",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "untersucht werden",
+      "en": "to be examined",
+      "sv": "att bli undersökt",
+      "nl": "onderzocht worden",
+      "it": "essere visitato/a",
+      "es": "ser examinado/a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_srng",
+    "am": "መርፍእ",
+    "tr": "merfi'i",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "die Spritze, Nadel",
+      "en": "injection, needle",
+      "sv": "spruta",
+      "nl": "injectie, naald",
+      "it": "l'iniezione, l'ago",
+      "es": "la inyección, la aguja"
+    },
+    "emoji": "💉",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_bndg",
+    "am": "ማሰር",
+    "tr": "maser",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "der Verband",
+      "en": "bandage",
+      "sv": "förband",
+      "nl": "verband",
+      "it": "la benda",
+      "es": "la venda"
+    },
+    "emoji": "🩹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_astr",
+    "am": "ኣምቡላንስ",
+    "tr": "ambulans",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "der Krankenwagen",
+      "en": "ambulance",
+      "sv": "ambulans",
+      "nl": "ambulance",
+      "it": "l'ambulanza",
+      "es": "la ambulancia"
+    },
+    "emoji": "🚑",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_srtn",
+    "am": "ስርሓት",
+    "tr": "sirihat",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "die Operation",
+      "en": "surgery, operation",
+      "sv": "operation",
+      "nl": "operatie",
+      "it": "l'intervento chirurgico, l'operazione",
+      "es": "la cirugía, la operación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_ndqa",
+    "am": "ናይ ደም ግፍትን ምንካይን",
+    "tr": "nay dem gifitin minikayin",
+    "pos": "noun",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "der Blutdruck",
+      "en": "blood pressure",
+      "sv": "blodtryck",
+      "nl": "bloeddruk",
+      "it": "la pressione sanguigna",
+      "es": "la presión arterial"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_med_thlq",
+    "am": "ተሓከመ",
+    "tr": "tehakeme",
+    "pos": "verb",
+    "topic": "medicine",
+    "level": "TI",
+    "t": {
+      "de": "behandelt werden",
+      "en": "to be treated",
+      "sv": "att behandlas",
+      "nl": "behandeld worden",
+      "it": "essere curato/a",
+      "es": "ser tratado/a"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_hy2_lotn","am":"ቅብኢ ቆርበት","tr":"qib'i qorbet","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"die Hautcreme, Lotion","en":"lotion, cream","sv":"kräm, lotion","nl":"lotion, crème"},"emoji":"🧴","verified":false},
-  {"id":"lex_ti_hy2_prfm","am":"ሽታ","tr":"shita","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"das Parfüm","en":"perfume","sv":"parfym","nl":"parfum"},"emoji":"","verified":false},
-  {"id":"lex_ti_hy2_rsrn","am":"መላጸ","tr":"melatse","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"der Rasierer","en":"razor","sv":"rakhyvel","nl":"scheermes"},"emoji":"🪒","verified":false},
-  {"id":"lex_ti_hy2_nlcl","am":"መቁረጺ ጽፍሪ","tr":"mequretsi tsifri","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"der Nagelknipser","en":"nail clipper","sv":"nagelklippare","nl":"nagelknipper"},"emoji":"","verified":false},
-  {"id":"lex_ti_hy2_tpst","am":"መሕጸቢ ስኒ","tr":"mehitsebi sinni","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"die Zahnpasta","en":"toothpaste","sv":"tandkräm","nl":"tandpasta"},"emoji":"","verified":false},
-  {"id":"lex_ti_hy2_tsue","am":"ቲሹ","tr":"tishu","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"das Taschentuch","en":"tissue","sv":"näsduk","nl":"zakdoekje"},"emoji":"🧻","verified":false},
-  {"id":"lex_ti_hy2_mrrr","am":"ኣንጸባራቒ","tr":"antsebaraqi","pos":"noun","topic":"hygiene_more","level":"TI","t":{"de":"der Spiegel (Handspiegel)","en":"hand mirror","sv":"handspegel","nl":"handspiegel"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_hy2_lotn",
+    "am": "ቅብኢ ቆርበት",
+    "tr": "qib'i qorbet",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "die Hautcreme, Lotion",
+      "en": "lotion, cream",
+      "sv": "kräm, lotion",
+      "nl": "lotion, crème",
+      "it": "la lozione, la crema",
+      "es": "la loción, la crema"
+    },
+    "emoji": "🧴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hy2_prfm",
+    "am": "ሽታ",
+    "tr": "shita",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "das Parfüm",
+      "en": "perfume",
+      "sv": "parfym",
+      "nl": "parfum",
+      "it": "il profumo",
+      "es": "el perfume"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hy2_rsrn",
+    "am": "መላጸ",
+    "tr": "melatse",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "der Rasierer",
+      "en": "razor",
+      "sv": "rakhyvel",
+      "nl": "scheermes",
+      "it": "il rasoio",
+      "es": "la maquinilla de afeitar"
+    },
+    "emoji": "🪒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hy2_nlcl",
+    "am": "መቁረጺ ጽፍሪ",
+    "tr": "mequretsi tsifri",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "der Nagelknipser",
+      "en": "nail clipper",
+      "sv": "nagelklippare",
+      "nl": "nagelknipper",
+      "it": "il tagliaunghie",
+      "es": "el cortaúñas"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hy2_tpst",
+    "am": "መሕጸቢ ስኒ",
+    "tr": "mehitsebi sinni",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "die Zahnpasta",
+      "en": "toothpaste",
+      "sv": "tandkräm",
+      "nl": "tandpasta",
+      "it": "il dentifricio",
+      "es": "la pasta de dientes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hy2_tsue",
+    "am": "ቲሹ",
+    "tr": "tishu",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "das Taschentuch",
+      "en": "tissue",
+      "sv": "näsduk",
+      "nl": "zakdoekje",
+      "it": "il fazzoletto di carta",
+      "es": "el pañuelo de papel"
+    },
+    "emoji": "🧻",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hy2_mrrr",
+    "am": "ኣንጸባራቒ",
+    "tr": "antsebaraqi",
+    "pos": "noun",
+    "topic": "hygiene_more",
+    "level": "TI",
+    "t": {
+      "de": "der Spiegel (Handspiegel)",
+      "en": "hand mirror",
+      "sv": "handspegel",
+      "nl": "handspiegel",
+      "it": "lo specchietto a mano",
+      "es": "el espejo de mano"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

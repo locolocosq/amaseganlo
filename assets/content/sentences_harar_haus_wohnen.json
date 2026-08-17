@@ -1,6 +1,107 @@
 [
-  {"id":"sen_hhw_kirayi_kiray","am":"ተከራዩ የቤት ኪራይ ከፈለ።","tr":"tekerayu yebet kiray kefele.","level":"B2","uses":["lex_hhw_kirayi","lex_hhw_kiray2"],"t":{"de":"Der Mieter bezahlte die Hausmiete.","en":"The tenant paid the house rent.","sv":"Hyresgästen betalade husyran.","nl":"De huurder betaalde de huishuur."},"chunks":["tekerayu","yebet","kiray","kefele"],"verified":false},
-  {"id":"sen_hhw_apartama_kifil","am":"አፓርታማው ማብሰያ ክፍል እና የመኝታ ክፍል አለው።","tr":"apartamaw mabiseya kifil ina yemegnita kifil alew.","level":"B2","uses":["lex_hhw_ye_gibi_bet","lex_hhw_mokelalya","lex_hhw_metenaya_kifil"],"t":{"de":"Die Wohnung hat eine Küche und ein Schlafzimmer.","en":"The apartment has a kitchen and a bedroom.","sv":"Lägenheten har ett kök och ett sovrum.","nl":"Het appartement heeft een keuken en een slaapkamer."},"chunks":["apartamaw","mabiseya","kifil","ina","yemegnita","kifil","alew"],"verified":false},
-  {"id":"sen_hhw_kulf_mekefet","am":"ቁልፉን ተጠቀምኩ እና በር ከፈትኩ።","tr":"k'ulifun tet'ek'emiku ina ber kefetiku.","level":"B2","uses":["lex_hhw_kulf","lex_hhw_v_mekefet"],"t":{"de":"Ich benutzte den Schlüssel und öffnete die Tür.","en":"I used the key and opened the door.","sv":"Jag använde nyckeln och öppnade dörren.","nl":"Ik gebruikte de sleutel en opende de deur."},"chunks":["k'ulifun","tet'ek'emiku","ina","ber","kefetiku"],"verified":false},
-  {"id":"sen_hhw_yeanb_kir","am":"የአትክልት ስፍራው በአጥር ተከበበ።","tr":"yeatikilt sifiraw beat'ir tekebebe.","level":"B2","uses":["lex_hhw_yeanb_bota","lex_hhw_kir2"],"t":{"de":"Der Garten war von einem Zaun umgeben.","en":"The garden was surrounded by a fence.","sv":"Trädgården var omgärdad av ett staket.","nl":"De tuin was omheind door een schutting."},"chunks":["yeatikilt","sifiraw","beat'ir","tekebebe"],"verified":false}
+  {
+    "id": "sen_hhw_kirayi_kiray",
+    "am": "ተከራዩ የቤት ኪራይ ከፈለ።",
+    "tr": "tekerayu yebet kiray kefele.",
+    "level": "B2",
+    "uses": [
+      "lex_hhw_kirayi",
+      "lex_hhw_kiray2"
+    ],
+    "t": {
+      "de": "Der Mieter bezahlte die Hausmiete.",
+      "en": "The tenant paid the house rent.",
+      "sv": "Hyresgästen betalade husyran.",
+      "nl": "De huurder betaalde de huishuur.",
+      "it": "L'inquilino ha pagato l'affitto di casa.",
+      "es": "El inquilino pagó el alquiler de la casa."
+    },
+    "chunks": [
+      "tekerayu",
+      "yebet",
+      "kiray",
+      "kefele"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hhw_apartama_kifil",
+    "am": "አፓርታማው ማብሰያ ክፍል እና የመኝታ ክፍል አለው።",
+    "tr": "apartamaw mabiseya kifil ina yemegnita kifil alew.",
+    "level": "B2",
+    "uses": [
+      "lex_hhw_ye_gibi_bet",
+      "lex_hhw_mokelalya",
+      "lex_hhw_metenaya_kifil"
+    ],
+    "t": {
+      "de": "Die Wohnung hat eine Küche und ein Schlafzimmer.",
+      "en": "The apartment has a kitchen and a bedroom.",
+      "sv": "Lägenheten har ett kök och ett sovrum.",
+      "nl": "Het appartement heeft een keuken en een slaapkamer.",
+      "it": "L'appartamento ha una cucina e una camera da letto.",
+      "es": "El apartamento tiene una cocina y un dormitorio."
+    },
+    "chunks": [
+      "apartamaw",
+      "mabiseya",
+      "kifil",
+      "ina",
+      "yemegnita",
+      "kifil",
+      "alew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hhw_kulf_mekefet",
+    "am": "ቁልፉን ተጠቀምኩ እና በር ከፈትኩ።",
+    "tr": "k'ulifun tet'ek'emiku ina ber kefetiku.",
+    "level": "B2",
+    "uses": [
+      "lex_hhw_kulf",
+      "lex_hhw_v_mekefet"
+    ],
+    "t": {
+      "de": "Ich benutzte den Schlüssel und öffnete die Tür.",
+      "en": "I used the key and opened the door.",
+      "sv": "Jag använde nyckeln och öppnade dörren.",
+      "nl": "Ik gebruikte de sleutel en opende de deur.",
+      "it": "Ho usato la chiave e ho aperto la porta.",
+      "es": "Usé la llave y abrí la puerta."
+    },
+    "chunks": [
+      "k'ulifun",
+      "tet'ek'emiku",
+      "ina",
+      "ber",
+      "kefetiku"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hhw_yeanb_kir",
+    "am": "የአትክልት ስፍራው በአጥር ተከበበ።",
+    "tr": "yeatikilt sifiraw beat'ir tekebebe.",
+    "level": "B2",
+    "uses": [
+      "lex_hhw_yeanb_bota",
+      "lex_hhw_kir2"
+    ],
+    "t": {
+      "de": "Der Garten war von einem Zaun umgeben.",
+      "en": "The garden was surrounded by a fence.",
+      "sv": "Trädgården var omgärdad av ett staket.",
+      "nl": "De tuin was omheind door een schutting.",
+      "it": "Il giardino era circondato da una recinzione.",
+      "es": "El jardín estaba rodeado por una valla."
+    },
+    "chunks": [
+      "yeatikilt",
+      "sifiraw",
+      "beat'ir",
+      "tekebebe"
+    ],
+    "verified": false
+  }
 ]

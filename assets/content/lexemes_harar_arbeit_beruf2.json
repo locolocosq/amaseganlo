@@ -1,22 +1,402 @@
 [
-  {"id":"lex_hab2_meser_bet","am":"ድርጅት","tr":"dirijit","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die Organisation, das Unternehmen","en":"organization, company","sv":"organisation, företag","nl":"organisatie, bedrijf"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_meri_biro","am":"ኩባንያ","tr":"kubaniya","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die Firma","en":"company, firm","sv":"firma","nl":"firma"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_serategna2","am":"ሠራተኛ","tr":"seratenya","pos":"noun","topic":"work_2","level":"B2","t":{"de":"der Angestellte, Arbeiter","en":"employee, worker","sv":"anställd, arbetare","nl":"werknemer, arbeider"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_azaji","am":"አሠሪ","tr":"aseri","pos":"noun","topic":"work_2","level":"B2","t":{"de":"der Arbeitgeber","en":"employer","sv":"arbetsgivare","nl":"werkgever"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_dimoz","am":"ደመወዝ","tr":"demewez","pos":"noun","topic":"work_2","level":"B2","t":{"de":"das Gehalt","en":"salary","sv":"lön","nl":"salaris"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_sira_nfk","am":"የስራ ልምድ","tr":"yesira limid","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die Berufserfahrung","en":"work experience","sv":"arbetslivserfarenhet","nl":"werkervaring"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_v_meketer","am":"መቀጠር","tr":"mek'eter","pos":"verb","topic":"work_2","level":"B2","t":{"de":"anstellen, einstellen","en":"to hire, to employ","sv":"anställa","nl":"aannemen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_v_mesenabt","am":"ማሰናበት","tr":"masenabet","pos":"verb","topic":"work_2","level":"B2","t":{"de":"entlassen, kündigen","en":"to dismiss, to fire","sv":"avskeda","nl":"ontslaan"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_ashagari","am":"ኃላፊ","tr":"halafi","pos":"noun","topic":"work_2","level":"B2","t":{"de":"der Vorgesetzte, Leiter","en":"supervisor, manager","sv":"chef, handledare","nl":"leidinggevende"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_meritmeri","am":"ስብሰባ","tr":"sibiseba","pos":"noun","topic":"work_2","level":"B2","t":{"de":"das Treffen, Meeting","en":"meeting","sv":"möte","nl":"vergadering"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_v_meakiabach","am":"ማቅረብ ስራ","tr":"mak'ireb sira","pos":"verb","topic":"work_2","level":"B2","t":{"de":"sich bewerben (Arbeit)","en":"to apply for a job","sv":"söka jobb","nl":"solliciteren"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_kirekir","am":"ቅጥር","tr":"kit'ir","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die Anstellung","en":"employment, hiring","sv":"anställning","nl":"aanstelling"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_ye_sira_ken","am":"የስራ ቀን","tr":"yesira k'en","pos":"noun","topic":"work_2","level":"B2","t":{"de":"der Arbeitstag","en":"workday","sv":"arbetsdag","nl":"werkdag"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_irefit","am":"እረፍት","tr":"irefit","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die Pause, der Urlaub","en":"break, vacation","sv":"paus, semester","nl":"pauze, vakantie"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_v_maregaget2","am":"ማሳደግ","tr":"masadeg","pos":"verb","topic":"work_2","level":"B2","t":{"de":"befördern, aufsteigen lassen","en":"to promote","sv":"befordra","nl":"promoveren"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_edget","am":"እድገት","tr":"idiget","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die Beförderung, der Aufstieg","en":"promotion, advancement","sv":"befordran","nl":"promotie"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hab2_takisi_sira","am":"ፈታኝ ስራ","tr":"fetagn sira","pos":"noun","topic":"work_2","level":"B2","t":{"de":"die anspruchsvolle Arbeit","en":"challenging work","sv":"utmanande arbete","nl":"uitdagend werk"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_v_mekwater","am":"መቆጣጠር ስራ","tr":"mek'ot'at'er sira","pos":"verb","topic":"work_2","level":"B2","t":{"de":"leiten, verwalten (Arbeit)","en":"to manage (work)","sv":"leda, hantera (arbete)","nl":"beheren (werk)"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_qed","am":"ቀጠሮ ስራ","tr":"k'et'ero sira","pos":"noun","topic":"work_2","level":"B2","t":{"de":"das Vorstellungsgespräch","en":"job interview","sv":"anställningsintervju","nl":"sollicitatiegesprek"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hab2_sira_fetsame","am":"ስራ ማቆም","tr":"sira mak'om","pos":"noun","topic":"work_2","level":"B2","t":{"de":"der Streik","en":"strike (labor)","sv":"strejk","nl":"staking"},"hint":{},"alt":{},"emoji":"","verified":false}
+  {
+    "id": "lex_hab2_meser_bet",
+    "am": "ድርጅት",
+    "tr": "dirijit",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die Organisation, das Unternehmen",
+      "en": "organization, company",
+      "sv": "organisation, företag",
+      "nl": "organisatie, bedrijf",
+      "it": "l'organizzazione, l'azienda",
+      "es": "la organización, la empresa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_meri_biro",
+    "am": "ኩባንያ",
+    "tr": "kubaniya",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die Firma",
+      "en": "company, firm",
+      "sv": "firma",
+      "nl": "firma",
+      "it": "l'azienda",
+      "es": "la empresa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_serategna2",
+    "am": "ሠራተኛ",
+    "tr": "seratenya",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "der Angestellte, Arbeiter",
+      "en": "employee, worker",
+      "sv": "anställd, arbetare",
+      "nl": "werknemer, arbeider",
+      "it": "il dipendente, il lavoratore",
+      "es": "el empleado, el trabajador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_azaji",
+    "am": "አሠሪ",
+    "tr": "aseri",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "der Arbeitgeber",
+      "en": "employer",
+      "sv": "arbetsgivare",
+      "nl": "werkgever",
+      "it": "il datore di lavoro",
+      "es": "el empleador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_dimoz",
+    "am": "ደመወዝ",
+    "tr": "demewez",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "das Gehalt",
+      "en": "salary",
+      "sv": "lön",
+      "nl": "salaris",
+      "it": "lo stipendio",
+      "es": "el salario"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_sira_nfk",
+    "am": "የስራ ልምድ",
+    "tr": "yesira limid",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die Berufserfahrung",
+      "en": "work experience",
+      "sv": "arbetslivserfarenhet",
+      "nl": "werkervaring",
+      "it": "la esperienza lavorativa",
+      "es": "la experiencia laboral"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_v_meketer",
+    "am": "መቀጠር",
+    "tr": "mek'eter",
+    "pos": "verb",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "anstellen, einstellen",
+      "en": "to hire, to employ",
+      "sv": "anställa",
+      "nl": "aannemen",
+      "it": "assumere",
+      "es": "contratar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_v_mesenabt",
+    "am": "ማሰናበት",
+    "tr": "masenabet",
+    "pos": "verb",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "entlassen, kündigen",
+      "en": "to dismiss, to fire",
+      "sv": "avskeda",
+      "nl": "ontslaan",
+      "it": "licenziare",
+      "es": "despedir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_ashagari",
+    "am": "ኃላፊ",
+    "tr": "halafi",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "der Vorgesetzte, Leiter",
+      "en": "supervisor, manager",
+      "sv": "chef, handledare",
+      "nl": "leidinggevende",
+      "it": "il supervisore, il capo",
+      "es": "el supervisor, el jefe"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_meritmeri",
+    "am": "ስብሰባ",
+    "tr": "sibiseba",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "das Treffen, Meeting",
+      "en": "meeting",
+      "sv": "möte",
+      "nl": "vergadering",
+      "it": "la riunione",
+      "es": "la reunión"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_v_meakiabach",
+    "am": "ማቅረብ ስራ",
+    "tr": "mak'ireb sira",
+    "pos": "verb",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "sich bewerben (Arbeit)",
+      "en": "to apply for a job",
+      "sv": "söka jobb",
+      "nl": "solliciteren",
+      "it": "candidarsi (per un lavoro)",
+      "es": "postularse (a un trabajo)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_kirekir",
+    "am": "ቅጥር",
+    "tr": "kit'ir",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die Anstellung",
+      "en": "employment, hiring",
+      "sv": "anställning",
+      "nl": "aanstelling",
+      "it": "l'assunzione",
+      "es": "la contratación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_ye_sira_ken",
+    "am": "የስራ ቀን",
+    "tr": "yesira k'en",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "der Arbeitstag",
+      "en": "workday",
+      "sv": "arbetsdag",
+      "nl": "werkdag",
+      "it": "la giornata lavorativa",
+      "es": "la jornada laboral"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_irefit",
+    "am": "እረፍት",
+    "tr": "irefit",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die Pause, der Urlaub",
+      "en": "break, vacation",
+      "sv": "paus, semester",
+      "nl": "pauze, vakantie",
+      "it": "la pausa, le ferie",
+      "es": "el descanso, las vacaciones"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_v_maregaget2",
+    "am": "ማሳደግ",
+    "tr": "masadeg",
+    "pos": "verb",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "befördern, aufsteigen lassen",
+      "en": "to promote",
+      "sv": "befordra",
+      "nl": "promoveren",
+      "it": "promuovere",
+      "es": "ascender"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_edget",
+    "am": "እድገት",
+    "tr": "idiget",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die Beförderung, der Aufstieg",
+      "en": "promotion, advancement",
+      "sv": "befordran",
+      "nl": "promotie",
+      "it": "la promozione, l'avanzamento",
+      "es": "el ascenso, la promoción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hab2_takisi_sira",
+    "am": "ፈታኝ ስራ",
+    "tr": "fetagn sira",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "die anspruchsvolle Arbeit",
+      "en": "challenging work",
+      "sv": "utmanande arbete",
+      "nl": "uitdagend werk",
+      "it": "il lavoro impegnativo",
+      "es": "el trabajo exigente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_v_mekwater",
+    "am": "መቆጣጠር ስራ",
+    "tr": "mek'ot'at'er sira",
+    "pos": "verb",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "leiten, verwalten (Arbeit)",
+      "en": "to manage (work)",
+      "sv": "leda, hantera (arbete)",
+      "nl": "beheren (werk)",
+      "it": "gestire, dirigere (il lavoro)",
+      "es": "gestionar, dirigir (el trabajo)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_qed",
+    "am": "ቀጠሮ ስራ",
+    "tr": "k'et'ero sira",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "das Vorstellungsgespräch",
+      "en": "job interview",
+      "sv": "anställningsintervju",
+      "nl": "sollicitatiegesprek",
+      "it": "il colloquio di lavoro",
+      "es": "la entrevista de trabajo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hab2_sira_fetsame",
+    "am": "ስራ ማቆም",
+    "tr": "sira mak'om",
+    "pos": "noun",
+    "topic": "work_2",
+    "level": "B2",
+    "t": {
+      "de": "der Streik",
+      "en": "strike (labor)",
+      "sv": "strejk",
+      "nl": "staking",
+      "it": "lo sciopero",
+      "es": "la huelga"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
 ]

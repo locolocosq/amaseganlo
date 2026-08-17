@@ -10,7 +10,9 @@
       "de": "erste(r/s)",
       "en": "first",
       "sv": "första",
-      "nl": "eerste"
+      "nl": "eerste",
+      "it": "primo/a",
+      "es": "primero/a"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "zweite(r/s)",
       "en": "second",
       "sv": "andra",
-      "nl": "tweede"
+      "nl": "tweede",
+      "it": "secondo/a",
+      "es": "segundo/a"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "dritte(r/s)",
       "en": "third",
       "sv": "tredje",
-      "nl": "derde"
+      "nl": "derde",
+      "it": "terzo/a",
+      "es": "tercero/a"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "vierte(r/s)",
       "en": "fourth",
       "sv": "fjärde",
-      "nl": "vierde"
+      "nl": "vierde",
+      "it": "quarto/a",
+      "es": "cuarto/a"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "fünfte(r/s)",
       "en": "fifth",
       "sv": "femte",
-      "nl": "vijfde"
+      "nl": "vijfde",
+      "it": "quinto/a",
+      "es": "quinto/a"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "200",
       "en": "200",
       "sv": "200",
-      "nl": "200"
+      "nl": "200",
+      "it": "200",
+      "es": "200"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "300",
       "en": "300",
       "sv": "300",
-      "nl": "300"
+      "nl": "300",
+      "it": "300",
+      "es": "300"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "500",
       "en": "500",
       "sv": "500",
-      "nl": "500"
+      "nl": "500",
+      "it": "500",
+      "es": "500"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "die Million",
       "en": "million",
       "sv": "miljon",
-      "nl": "miljoen"
+      "nl": "miljoen",
+      "it": "il milione",
+      "es": "el millón"
     },
     "hint": {},
     "alt": {},

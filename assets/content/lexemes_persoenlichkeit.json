@@ -10,7 +10,9 @@
       "de": "intelligent, klug",
       "en": "intelligent, clever",
       "sv": "intelligent",
-      "nl": "intelligent"
+      "nl": "intelligent",
+      "it": "intelligente, furbo",
+      "es": "inteligente, listo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "faul",
       "en": "lazy",
       "sv": "lat",
-      "nl": "lui"
+      "nl": "lui",
+      "it": "pigro",
+      "es": "perezoso"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "fleißig",
       "en": "hardworking",
       "sv": "flitig",
-      "nl": "hardwerkend"
+      "nl": "hardwerkend",
+      "it": "diligente, laborioso",
+      "es": "trabajador"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "ehrlich, treu",
       "en": "honest, loyal",
       "sv": "ärlig, trogen",
-      "nl": "eerlijk, trouw"
+      "nl": "eerlijk, trouw",
+      "it": "onesto, leale",
+      "es": "honesto, leal"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "großherzig, gütig",
       "en": "generous, kind",
       "sv": "generös",
-      "nl": "gul"
+      "nl": "gul",
+      "it": "generoso, gentile",
+      "es": "generoso, amable"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "lustig, witzig",
       "en": "funny",
       "sv": "rolig, kul",
-      "nl": "grappig"
+      "nl": "grappig",
+      "it": "divertente, buffo",
+      "es": "divertido, gracioso"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "ernst",
       "en": "serious",
       "sv": "allvarlig",
-      "nl": "serieus"
+      "nl": "serieus",
+      "it": "serio",
+      "es": "serio"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "schüchtern",
       "en": "shy",
       "sv": "blyg",
-      "nl": "schuchter"
+      "nl": "schuchter",
+      "it": "timido",
+      "es": "tímido"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "mutig",
       "en": "brave",
       "sv": "modig",
-      "nl": "moedig"
+      "nl": "moedig",
+      "it": "coraggioso",
+      "es": "valiente"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "geduldig",
       "en": "patient",
       "sv": "tålmodig",
-      "nl": "geduldig"
+      "nl": "geduldig",
+      "it": "paziente",
+      "es": "paciente"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "stur, hartnäckig",
       "en": "stubborn",
       "sv": "envis",
-      "nl": "koppig"
+      "nl": "koppig",
+      "it": "testardo, ostinato",
+      "es": "terco, testarudo"
     },
     "hint": {},
     "alt": {},

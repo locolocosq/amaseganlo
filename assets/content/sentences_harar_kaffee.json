@@ -1,7 +1,135 @@
 [
-  {"id":"sen_hk_buna_bunabet","am":"ቡና በቡና ቤት ይጠጣል።","tr":"buna bebuna bet yit'et'al.","level":"B2","uses":["lex_hk_buna","lex_hk_bunabet"],"t":{"de":"Kaffee wird im Kaffeehaus getrunken.","en":"Coffee is drunk at the coffee house.","sv":"Kaffe dricks på kaffehuset.","nl":"Koffie wordt gedronken in het koffiehuis."},"chunks":["buna","bebuna","bet","yit'et'al"],"verified":false},
-  {"id":"sen_hk_jebena_sini","am":"ቡና በጀበና ተፈልቶ በስኒ ይቀርባል።","tr":"buna bejebena tefelito besini yik'irebal.","level":"B2","uses":["lex_hk_jebena","lex_hk_sini"],"t":{"de":"Kaffee wird in der Jebena gekocht und in der Sini serviert.","en":"Coffee is brewed in the jebena and served in the sini cup.","sv":"Kaffe bryggs i jebenan och serveras i sinikoppen.","nl":"Koffie wordt gezet in de jebena en geserveerd in het sini-kopje."},"chunks":["buna","bejebena","tefelito","besini","yik'irebal"],"verified":false},
-  {"id":"sen_hk_izen_megabez","am":"እንግዳውን ወደ ቡና ስርዓት መጋበዝ ጥሩ ነው።","tr":"inigidawin wede buna sirat megabez t'iru newu.","level":"B2","uses":["lex_hk_izen","lex_hk_v_megabez"],"t":{"de":"Den Gast zur Kaffeezeremonie einzuladen ist gut.","en":"Inviting the guest to the coffee ceremony is good.","sv":"Att bjuda in gästen till kaffeceremonin är bra.","nl":"De gast uitnodigen voor de koffieceremonie is goed."},"chunks":["inigidawin","wede","buna","sirat","megabez","t'iru","newu"],"verified":false},
-  {"id":"sen_hk_kelal_kef","am":"ይህ ቡና ቀላል ነው፤ ያ ግን ጠንካራ ነው።","tr":"yih buna k'elal newu; ya gin tenkara newu.","level":"B2","uses":["lex_hk_kelal","lex_hk_kef"],"t":{"de":"Dieser Kaffee ist leicht, jener aber ist stark.","en":"This coffee is light, but that one is strong.","sv":"Det här kaffet är lätt, men det där är starkt.","nl":"Deze koffie is licht, maar die is sterk."},"chunks":["yih","buna","k'elal","newu","ya","gin","tenkara","newu"],"verified":false},
-  {"id":"sen_hk_etan_bereka","am":"እጣን ለቡና ስርዓት አስፈላጊ ነው።","tr":"it'an lebuna sirat asfelagi newu.","level":"B2","uses":["lex_hk_etan"],"t":{"de":"Weihrauch ist wichtig für die Kaffeezeremonie.","en":"Incense is important for the coffee ceremony.","sv":"Rökelse är viktig för kaffeceremonin.","nl":"Wierook is belangrijk voor de koffieceremonie."},"chunks":["it'an","lebuna","sirat","asfelagi","newu"],"verified":false}
+  {
+    "id": "sen_hk_buna_bunabet",
+    "am": "ቡና በቡና ቤት ይጠጣል።",
+    "tr": "buna bebuna bet yit'et'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hk_buna",
+      "lex_hk_bunabet"
+    ],
+    "t": {
+      "de": "Kaffee wird im Kaffeehaus getrunken.",
+      "en": "Coffee is drunk at the coffee house.",
+      "sv": "Kaffe dricks på kaffehuset.",
+      "nl": "Koffie wordt gedronken in het koffiehuis.",
+      "it": "Il caffè si beve nella casa del caffè.",
+      "es": "El café se bebe en la casa del café."
+    },
+    "chunks": [
+      "buna",
+      "bebuna",
+      "bet",
+      "yit'et'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk_jebena_sini",
+    "am": "ቡና በጀበና ተፈልቶ በስኒ ይቀርባል።",
+    "tr": "buna bejebena tefelito besini yik'irebal.",
+    "level": "B2",
+    "uses": [
+      "lex_hk_jebena",
+      "lex_hk_sini"
+    ],
+    "t": {
+      "de": "Kaffee wird in der Jebena gekocht und in der Sini serviert.",
+      "en": "Coffee is brewed in the jebena and served in the sini cup.",
+      "sv": "Kaffe bryggs i jebenan och serveras i sinikoppen.",
+      "nl": "Koffie wordt gezet in de jebena en geserveerd in het sini-kopje.",
+      "it": "Il caffè viene preparato nella jebena e servito nella sini.",
+      "es": "El café se prepara en la jebena y se sirve en la sini."
+    },
+    "chunks": [
+      "buna",
+      "bejebena",
+      "tefelito",
+      "besini",
+      "yik'irebal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk_izen_megabez",
+    "am": "እንግዳውን ወደ ቡና ስርዓት መጋበዝ ጥሩ ነው።",
+    "tr": "inigidawin wede buna sirat megabez t'iru newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hk_izen",
+      "lex_hk_v_megabez"
+    ],
+    "t": {
+      "de": "Den Gast zur Kaffeezeremonie einzuladen ist gut.",
+      "en": "Inviting the guest to the coffee ceremony is good.",
+      "sv": "Att bjuda in gästen till kaffeceremonin är bra.",
+      "nl": "De gast uitnodigen voor de koffieceremonie is goed.",
+      "it": "Invitare l'ospite alla cerimonia del caffè è bello.",
+      "es": "Invitar al invitado a la ceremonia del café es bueno."
+    },
+    "chunks": [
+      "inigidawin",
+      "wede",
+      "buna",
+      "sirat",
+      "megabez",
+      "t'iru",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk_kelal_kef",
+    "am": "ይህ ቡና ቀላል ነው፤ ያ ግን ጠንካራ ነው።",
+    "tr": "yih buna k'elal newu; ya gin tenkara newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hk_kelal",
+      "lex_hk_kef"
+    ],
+    "t": {
+      "de": "Dieser Kaffee ist leicht, jener aber ist stark.",
+      "en": "This coffee is light, but that one is strong.",
+      "sv": "Det här kaffet är lätt, men det där är starkt.",
+      "nl": "Deze koffie is licht, maar die is sterk.",
+      "it": "Questo caffè è leggero, ma quello è forte.",
+      "es": "Este café es suave, pero aquel es fuerte."
+    },
+    "chunks": [
+      "yih",
+      "buna",
+      "k'elal",
+      "newu",
+      "ya",
+      "gin",
+      "tenkara",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk_etan_bereka",
+    "am": "እጣን ለቡና ስርዓት አስፈላጊ ነው።",
+    "tr": "it'an lebuna sirat asfelagi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hk_etan"
+    ],
+    "t": {
+      "de": "Weihrauch ist wichtig für die Kaffeezeremonie.",
+      "en": "Incense is important for the coffee ceremony.",
+      "sv": "Rökelse är viktig för kaffeceremonin.",
+      "nl": "Wierook is belangrijk voor de koffieceremonie.",
+      "it": "L'incenso è importante per la cerimonia del caffè.",
+      "es": "El incienso es importante para la ceremonia del café."
+    },
+    "chunks": [
+      "it'an",
+      "lebuna",
+      "sirat",
+      "asfelagi",
+      "newu"
+    ],
+    "verified": false
+  }
 ]

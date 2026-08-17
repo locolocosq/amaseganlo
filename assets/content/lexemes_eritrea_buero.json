@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_bro_pnkl","am":"ብርዒ","tr":"biri'i","pos":"noun","topic":"office","level":"TI","t":{"de":"der Stift, Kugelschreiber","en":"pen","sv":"penna","nl":"pen"},"emoji":"🖊️","verified":false},
-  {"id":"lex_ti_bro_msmr2","am":"ርሳስ","tr":"risas","pos":"noun","topic":"office","level":"TI","t":{"de":"der Bleistift","en":"pencil","sv":"blyertspenna","nl":"potlood"},"emoji":"✏️","verified":false},
-  {"id":"lex_ti_bro_wrqt","am":"ወረቐት","tr":"wereqet","pos":"noun","topic":"office","level":"TI","t":{"de":"das Papier","en":"paper","sv":"papper","nl":"papier"},"emoji":"📄","verified":false},
-  {"id":"lex_ti_bro_mzgb2","am":"ካታሎግ","tr":"katalog","pos":"noun","topic":"office","level":"TI","t":{"de":"der Ordner, Aktenordner","en":"binder, folder","sv":"pärm","nl":"map"},"emoji":"📁","verified":false},
-  {"id":"lex_ti_bro_agr","am":"ኣጀንዳ","tr":"ajenda","pos":"noun","topic":"office","level":"TI","t":{"de":"die Tagesordnung, Agenda","en":"agenda","sv":"agenda","nl":"agenda"},"emoji":"","verified":false},
-  {"id":"lex_ti_bro_pgmnt","am":"ርክብ ንግዲ","tr":"rikib nigdi","pos":"noun","topic":"office","level":"TI","t":{"de":"das Meeting, Geschäftstreffen","en":"business meeting","sv":"affärsmöte","nl":"zakelijke vergadering"},"emoji":"","verified":false},
-  {"id":"lex_ti_bro_prjkt","am":"ፕሮጀክት","tr":"projekt","pos":"noun","topic":"office","level":"TI","t":{"de":"das Projekt","en":"project","sv":"projekt","nl":"project"},"emoji":"","verified":false},
-  {"id":"lex_ti_bro_cstmr","am":"ዓሚል","tr":"'amil","pos":"noun","topic":"office","level":"TI","t":{"de":"der Kunde","en":"customer","sv":"kund","nl":"klant"},"emoji":"","verified":false},
-  {"id":"lex_ti_bro_dydln","am":"መወዳእታ ግዜ","tr":"mewedaita gizie","pos":"noun","topic":"office","level":"TI","t":{"de":"die Frist, Deadline","en":"deadline","sv":"deadline","nl":"deadline"},"emoji":"⏰","verified":false},
-  {"id":"lex_ti_bro_chef","am":"ሓላፊ","tr":"halafi","pos":"noun","topic":"office","level":"TI","t":{"de":"der Chef, Vorgesetzte","en":"boss, supervisor","sv":"chef","nl":"baas"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_bro_pnkl",
+    "am": "ብርዒ",
+    "tr": "biri'i",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Stift, Kugelschreiber",
+      "en": "pen",
+      "sv": "penna",
+      "nl": "pen",
+      "it": "la penna",
+      "es": "el bolígrafo"
+    },
+    "emoji": "🖊️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_msmr2",
+    "am": "ርሳስ",
+    "tr": "risas",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Bleistift",
+      "en": "pencil",
+      "sv": "blyertspenna",
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
+    },
+    "emoji": "✏️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_wrqt",
+    "am": "ወረቐት",
+    "tr": "wereqet",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "das Papier",
+      "en": "paper",
+      "sv": "papper",
+      "nl": "papier",
+      "it": "la carta",
+      "es": "el papel"
+    },
+    "emoji": "📄",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_mzgb2",
+    "am": "ካታሎግ",
+    "tr": "katalog",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Ordner, Aktenordner",
+      "en": "binder, folder",
+      "sv": "pärm",
+      "nl": "map",
+      "it": "il raccoglitore, la cartella",
+      "es": "la carpeta"
+    },
+    "emoji": "📁",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_agr",
+    "am": "ኣጀንዳ",
+    "tr": "ajenda",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "die Tagesordnung, Agenda",
+      "en": "agenda",
+      "sv": "agenda",
+      "nl": "agenda",
+      "it": "l'agenda",
+      "es": "la agenda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_pgmnt",
+    "am": "ርክብ ንግዲ",
+    "tr": "rikib nigdi",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "das Meeting, Geschäftstreffen",
+      "en": "business meeting",
+      "sv": "affärsmöte",
+      "nl": "zakelijke vergadering",
+      "it": "la riunione di lavoro",
+      "es": "la reunión de negocios"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_prjkt",
+    "am": "ፕሮጀክት",
+    "tr": "projekt",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "das Projekt",
+      "en": "project",
+      "sv": "projekt",
+      "nl": "project",
+      "it": "il progetto",
+      "es": "el proyecto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_cstmr",
+    "am": "ዓሚል",
+    "tr": "'amil",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Kunde",
+      "en": "customer",
+      "sv": "kund",
+      "nl": "klant",
+      "it": "il cliente",
+      "es": "el cliente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_dydln",
+    "am": "መወዳእታ ግዜ",
+    "tr": "mewedaita gizie",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "die Frist, Deadline",
+      "en": "deadline",
+      "sv": "deadline",
+      "nl": "deadline",
+      "it": "la scadenza",
+      "es": "el plazo, la fecha límite"
+    },
+    "emoji": "⏰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bro_chef",
+    "am": "ሓላፊ",
+    "tr": "halafi",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Chef, Vorgesetzte",
+      "en": "boss, supervisor",
+      "sv": "chef",
+      "nl": "baas",
+      "it": "il capo, il superiore",
+      "es": "el jefe, el supervisor"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

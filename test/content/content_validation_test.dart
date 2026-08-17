@@ -8,7 +8,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 
-const _locales = ['de', 'en', 'sv', 'nl'];
+const _locales = ['de', 'en', 'sv', 'nl', 'it', 'es'];
 const _contentDir = 'assets/content';
 
 Map<String, dynamic> _readJsonObject(String path) => jsonDecode(File('$_contentDir/$path').readAsStringSync()) as Map<String, dynamic>;
@@ -83,7 +83,7 @@ void main() {
     expect(sectionIds.toSet().length, sectionIds.length, reason: 'Duplicate section ids found');
   });
 
-  test('every lexeme has a non-empty translation for all 4 languages', () {
+  test('every lexeme has a non-empty translation for all 6 languages', () {
     final problems = <String>[];
     lexemesById.forEach((id, map) {
       final t = map['t'] as Map<String, dynamic>? ?? {};
@@ -97,7 +97,7 @@ void main() {
     expect(problems, isEmpty, reason: problems.join('; '));
   });
 
-  test('every sentence has a non-empty translation for all 4 languages', () {
+  test('every sentence has a non-empty translation for all 6 languages', () {
     final problems = <String>[];
     sentencesById.forEach((id, map) {
       final t = map['t'] as Map<String, dynamic>? ?? {};

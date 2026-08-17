@@ -1,15 +1,236 @@
 [
-  {"id":"lex_ti_hawey","am":"ኣኮ","tr":"ako","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der Onkel (väterlicherseits)","en":"uncle (paternal)","sv":"farbror","nl":"oom (vaderskant)"},"emoji":"","verified":false},
-  {"id":"lex_ti_haltey","am":"ሓትኖ","tr":"hatino","pos":"noun","topic":"family_more","level":"TI","t":{"de":"die Tante","en":"aunt","sv":"faster/moster","nl":"tante"},"emoji":"","verified":false},
-  {"id":"lex_ti_wediHi","am":"ወዲ ሓው","tr":"wedi haw","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der Neffe","en":"nephew","sv":"brorson","nl":"neef (zoon van broer)"},"emoji":"","verified":false},
-  {"id":"lex_ti_gwadu","am":"ጓል ሓው","tr":"gwal haw","pos":"noun","topic":"family_more","level":"TI","t":{"de":"die Nichte","en":"niece","sv":"brorsdotter","nl":"nicht (dochter van broer)"},"emoji":"","verified":false},
-  {"id":"lex_ti_abay","am":"ዓባይ","tr":"'abay","pos":"noun","topic":"family_more","level":"TI","t":{"de":"die Großmutter","en":"grandmother","sv":"farmor/mormor","nl":"grootmoeder"},"emoji":"","verified":false},
-  {"id":"lex_ti_abui","am":"ዓቢ","tr":"'abbay","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der Großvater","en":"grandfather","sv":"farfar/morfar","nl":"grootvader"},"emoji":"","verified":false},
-  {"id":"lex_ti_wedy","am":"ወዲ","tr":"wedi","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der Sohn, der Junge","en":"son, boy","sv":"son, pojke","nl":"zoon, jongen"},"emoji":"","verified":false},
-  {"id":"lex_ti_gwal","am":"ጓል","tr":"gwal","pos":"noun","topic":"family_more","level":"TI","t":{"de":"die Tochter, das Mädchen","en":"daughter, girl","sv":"dotter, flicka","nl":"dochter, meisje"},"emoji":"","verified":false},
-  {"id":"lex_ti_habsha","am":"ኣማት","tr":"amat","pos":"noun","topic":"family_more","level":"TI","t":{"de":"die Schwiegermutter","en":"mother-in-law","sv":"svärmor","nl":"schoonmoeder"},"emoji":"","verified":false},
-  {"id":"lex_ti_hama","am":"ሓማት","tr":"hamat","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der Schwiegervater","en":"father-in-law","sv":"svärfar","nl":"schoonvader"},"emoji":"","verified":false},
-  {"id":"lex_ti_qerabet","am":"ቀረባ ዘመድ","tr":"qereba zemed","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der/die nahe Verwandte","en":"close relative","sv":"nära släkting","nl":"naast familielid"},"emoji":"","verified":false},
-  {"id":"lex_ti_teuledi","am":"ኣቦሓጎ","tr":"aboheggo","pos":"noun","topic":"family_more","level":"TI","t":{"de":"der Urgroßvater","en":"great-grandfather","sv":"gammelfarfar","nl":"overgrootvader"},"emoji":"","verified":false},
-  {"id":"lex_ti_mengsty","am":"ውላድ","tr":"wilad","pos":"noun","topic":"family_more","level":"TI","t":{"de":"das Kind (eigenes), der Nachwuchs","en":"one's own child, offspring","sv":"barn (eget), avkomma","nl":"eigen kind, nakomeling"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_hawey",
+    "am": "ኣኮ",
+    "tr": "ako",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der Onkel (väterlicherseits)",
+      "en": "uncle (paternal)",
+      "sv": "farbror",
+      "nl": "oom (vaderskant)",
+      "it": "lo zio (paterno)",
+      "es": "el tío (paterno)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_haltey",
+    "am": "ሓትኖ",
+    "tr": "hatino",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "die Tante",
+      "en": "aunt",
+      "sv": "faster/moster",
+      "nl": "tante",
+      "it": "la zia",
+      "es": "la tía"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wediHi",
+    "am": "ወዲ ሓው",
+    "tr": "wedi haw",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der Neffe",
+      "en": "nephew",
+      "sv": "brorson",
+      "nl": "neef (zoon van broer)",
+      "it": "il nipote (figlio del fratello)",
+      "es": "el sobrino"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwadu",
+    "am": "ጓል ሓው",
+    "tr": "gwal haw",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "die Nichte",
+      "en": "niece",
+      "sv": "brorsdotter",
+      "nl": "nicht (dochter van broer)",
+      "it": "la nipote (figlia del fratello)",
+      "es": "la sobrina"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_abay",
+    "am": "ዓባይ",
+    "tr": "'abay",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "die Großmutter",
+      "en": "grandmother",
+      "sv": "farmor/mormor",
+      "nl": "grootmoeder",
+      "it": "la nonna",
+      "es": "la abuela"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_abui",
+    "am": "ዓቢ",
+    "tr": "'abbay",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der Großvater",
+      "en": "grandfather",
+      "sv": "farfar/morfar",
+      "nl": "grootvader",
+      "it": "il nonno",
+      "es": "el abuelo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wedy",
+    "am": "ወዲ",
+    "tr": "wedi",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der Sohn, der Junge",
+      "en": "son, boy",
+      "sv": "son, pojke",
+      "nl": "zoon, jongen",
+      "it": "il figlio, il ragazzo",
+      "es": "el hijo, el chico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwal",
+    "am": "ጓል",
+    "tr": "gwal",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "die Tochter, das Mädchen",
+      "en": "daughter, girl",
+      "sv": "dotter, flicka",
+      "nl": "dochter, meisje",
+      "it": "la figlia, la ragazza",
+      "es": "la hija, la chica"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_habsha",
+    "am": "ኣማት",
+    "tr": "amat",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "die Schwiegermutter",
+      "en": "mother-in-law",
+      "sv": "svärmor",
+      "nl": "schoonmoeder",
+      "it": "la suocera",
+      "es": "la suegra"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hama",
+    "am": "ሓማት",
+    "tr": "hamat",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der Schwiegervater",
+      "en": "father-in-law",
+      "sv": "svärfar",
+      "nl": "schoonvader",
+      "it": "il suocero",
+      "es": "el suegro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qerabet",
+    "am": "ቀረባ ዘመድ",
+    "tr": "qereba zemed",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der/die nahe Verwandte",
+      "en": "close relative",
+      "sv": "nära släkting",
+      "nl": "naast familielid",
+      "it": "il parente stretto",
+      "es": "el pariente cercano"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_teuledi",
+    "am": "ኣቦሓጎ",
+    "tr": "aboheggo",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "der Urgroßvater",
+      "en": "great-grandfather",
+      "sv": "gammelfarfar",
+      "nl": "overgrootvader",
+      "it": "il bisnonno",
+      "es": "el bisabuelo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mengsty",
+    "am": "ውላድ",
+    "tr": "wilad",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "TI",
+    "t": {
+      "de": "das Kind (eigenes), der Nachwuchs",
+      "en": "one's own child, offspring",
+      "sv": "barn (eget), avkomma",
+      "nl": "eigen kind, nakomeling",
+      "it": "il proprio figlio, la prole",
+      "es": "el propio hijo, la descendencia"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

@@ -10,7 +10,9 @@
       "de": "Es tut mir leid",
       "en": "I'm sorry",
       "sv": "Jag är ledsen",
-      "nl": "Het spijt me"
+      "nl": "Het spijt me",
+      "it": "Mi dispiace",
+      "es": "Lo siento"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "Kein Problem",
       "en": "No problem",
       "sv": "Inga problem",
-      "nl": "Geen probleem"
+      "nl": "Geen probleem",
+      "it": "Nessun problema",
+      "es": "No hay problema"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "Viel Glück",
       "en": "Good luck",
       "sv": "Lycka till",
-      "nl": "Veel geluk"
+      "nl": "Veel geluk",
+      "it": "Buona fortuna",
+      "es": "Buena suerte"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "Gute Reise",
       "en": "Have a good trip",
       "sv": "Trevlig resa",
-      "nl": "Goede reis"
+      "nl": "Goede reis",
+      "it": "Buon viaggio",
+      "es": "Buen viaje"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "Zum Wohl, Prost",
       "en": "Cheers",
       "sv": "Skål",
-      "nl": "Proost"
+      "nl": "Proost",
+      "it": "Salute, cin cin",
+      "es": "Salud"
     },
     "hint": {},
     "alt": {},

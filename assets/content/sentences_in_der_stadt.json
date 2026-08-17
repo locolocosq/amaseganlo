@@ -12,7 +12,9 @@
       "de": "Wo ist der Laden?",
       "en": "Where is the shop?",
       "sv": "Var är affären?",
-      "nl": "Waar is de winkel?"
+      "nl": "Waar is de winkel?",
+      "it": "Dov'è il negozio?",
+      "es": "¿Dónde está la tienda?"
     },
     "alt": {},
     "chunks": [
@@ -35,7 +37,9 @@
       "de": "Die Stadt ist groß.",
       "en": "The city is big.",
       "sv": "Staden är stor.",
-      "nl": "De stad is groot."
+      "nl": "De stad is groot.",
+      "it": "La città è grande.",
+      "es": "La ciudad es grande."
     },
     "alt": {},
     "chunks": [

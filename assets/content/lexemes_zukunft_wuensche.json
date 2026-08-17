@@ -10,7 +10,9 @@
       "de": "ich möchte, ich will",
       "en": "I want",
       "sv": "jag vill",
-      "nl": "ik wil"
+      "nl": "ik wil",
+      "it": "vorrei, voglio",
+      "es": "quiero, quisiera"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Plan",
       "en": "plan",
       "sv": "plan",
-      "nl": "plan"
+      "nl": "plan",
+      "it": "il piano",
+      "es": "el plan"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Traum",
       "en": "dream",
       "sv": "dröm",
-      "nl": "droom"
+      "nl": "droom",
+      "it": "il sogno",
+      "es": "el sueño"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Wunsch",
       "en": "wish",
       "sv": "önskan",
-      "nl": "wens"
+      "nl": "wens",
+      "it": "il desiderio",
+      "es": "el deseo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Ziel",
       "en": "goal",
       "sv": "mål",
-      "nl": "doel"
+      "nl": "doel",
+      "it": "l'obiettivo",
+      "es": "la meta"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "eines Tages",
       "en": "one day",
       "sv": "en dag",
-      "nl": "ooit"
+      "nl": "ooit",
+      "it": "un giorno",
+      "es": "algún día"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Zukunft, in Zukunft",
       "en": "the future, ahead",
       "sv": "framtiden, framöver",
-      "nl": "de toekomst, voortaan"
+      "nl": "de toekomst, voortaan",
+      "it": "il futuro, in futuro",
+      "es": "el futuro, en adelante"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Erfolg",
       "en": "success",
       "sv": "framgång",
-      "nl": "succes"
+      "nl": "succes",
+      "it": "il successo",
+      "es": "el éxito"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "versuchen",
       "en": "to try",
       "sv": "försöka",
-      "nl": "proberen"
+      "nl": "proberen",
+      "it": "provare",
+      "es": "intentar"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "entscheiden",
       "en": "to decide",
       "sv": "besluta",
-      "nl": "beslissen"
+      "nl": "beslissen",
+      "it": "decidere",
+      "es": "decidir"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "ändern",
       "en": "to change",
       "sv": "ändra",
-      "nl": "veranderen"
+      "nl": "veranderen",
+      "it": "cambiare",
+      "es": "cambiar"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "hoffen",
       "en": "to hope",
       "sv": "hoppas",
-      "nl": "hopen"
+      "nl": "hopen",
+      "it": "sperare",
+      "es": "esperar"
     },
     "hint": {},
     "alt": {},

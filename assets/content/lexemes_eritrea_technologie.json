@@ -1,16 +1,254 @@
 [
-  {"id":"lex_ti_telefon","am":"ተሌፎን","tr":"telefon","pos":"noun","topic":"technology","level":"TI","t":{"de":"das Telefon","en":"telephone","sv":"telefon","nl":"telefoon"},"emoji":"📱","verified":false},
-  {"id":"lex_ti_kompiuter","am":"ኮምፒተር","tr":"kompiter","pos":"noun","topic":"technology","level":"TI","t":{"de":"der Computer","en":"computer","sv":"dator","nl":"computer"},"emoji":"💻","verified":false},
-  {"id":"lex_ti_intrnet","am":"ኢንተርነት","tr":"internet","pos":"noun","topic":"technology","level":"TI","t":{"de":"das Internet","en":"internet","sv":"internet","nl":"internet"},"emoji":"🌐","verified":false},
-  {"id":"lex_ti_msgbi","am":"መልእኽቲ","tr":"mel'ikti","pos":"noun","topic":"technology","level":"TI","t":{"de":"die Nachricht","en":"message","sv":"meddelande","nl":"bericht"},"emoji":"✉️","verified":false},
-  {"id":"lex_ti_slti","am":"ስእሊ (ካሜራ)","tr":"si'ili kamera","pos":"noun","topic":"technology","level":"TI","t":{"de":"das Foto","en":"photo","sv":"foto","nl":"foto"},"emoji":"📷","verified":false},
-  {"id":"lex_ti_video","am":"ቪድዮ","tr":"vidiyo","pos":"noun","topic":"technology","level":"TI","t":{"de":"das Video","en":"video","sv":"video","nl":"video"},"emoji":"🎥","verified":false},
-  {"id":"lex_ti_radiyo","am":"ራድዮ","tr":"radyo","pos":"noun","topic":"technology","level":"TI","t":{"de":"das Radio","en":"radio","sv":"radio","nl":"radio"},"emoji":"📻","verified":false},
-  {"id":"lex_ti_tlvzn","am":"ተለቪዥን","tr":"televizhin","pos":"noun","topic":"technology","level":"TI","t":{"de":"der Fernseher","en":"television","sv":"tv","nl":"televisie"},"emoji":"📺","verified":false},
-  {"id":"lex_ti_bateri","am":"ባትሪ","tr":"batri","pos":"noun","topic":"technology","level":"TI","t":{"de":"die Batterie","en":"battery","sv":"batteri","nl":"batterij"},"emoji":"🔋","verified":false},
-  {"id":"lex_ti_koretsi","am":"ኤለትሪክ","tr":"eletrik","pos":"noun","topic":"technology","level":"TI","t":{"de":"der Strom, die Elektrizität","en":"electricity","sv":"elektricitet","nl":"elektriciteit"},"emoji":"⚡","verified":false},
-  {"id":"lex_ti_mekina2","am":"ማሽን","tr":"mashin","pos":"noun","topic":"technology","level":"TI","t":{"de":"die Maschine","en":"machine","sv":"maskin","nl":"machine"},"emoji":"⚙️","verified":false},
-  {"id":"lex_ti_softi","am":"ሶፍትዌር","tr":"softiwer","pos":"noun","topic":"technology","level":"TI","t":{"de":"die Software","en":"software","sv":"mjukvara","nl":"software"},"emoji":"","verified":false},
-  {"id":"lex_ti_hbrti","am":"ገጻት ማሕበራዊ","tr":"getsat mahiberawi","pos":"noun","topic":"technology","level":"TI","t":{"de":"soziale Medien","en":"social media","sv":"sociala medier","nl":"sociale media"},"emoji":"","verified":false},
-  {"id":"lex_ti_wifi","am":"ገመድ ኣልቦ","tr":"gemed albo","pos":"noun","topic":"technology","level":"TI","t":{"de":"das WLAN, kabellos","en":"wifi, wireless","sv":"wifi, trådlöst","nl":"wifi, draadloos"},"emoji":"📶","verified":false}
+  {
+    "id": "lex_ti_telefon",
+    "am": "ተሌፎን",
+    "tr": "telefon",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "das Telefon",
+      "en": "telephone",
+      "sv": "telefon",
+      "nl": "telefoon",
+      "it": "il telefono",
+      "es": "el teléfono"
+    },
+    "emoji": "📱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kompiuter",
+    "am": "ኮምፒተር",
+    "tr": "kompiter",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "der Computer",
+      "en": "computer",
+      "sv": "dator",
+      "nl": "computer",
+      "it": "il computer",
+      "es": "el ordenador"
+    },
+    "emoji": "💻",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_intrnet",
+    "am": "ኢንተርነት",
+    "tr": "internet",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "das Internet",
+      "en": "internet",
+      "sv": "internet",
+      "nl": "internet",
+      "it": "internet",
+      "es": "internet"
+    },
+    "emoji": "🌐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msgbi",
+    "am": "መልእኽቲ",
+    "tr": "mel'ikti",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "die Nachricht",
+      "en": "message",
+      "sv": "meddelande",
+      "nl": "bericht",
+      "it": "il messaggio",
+      "es": "el mensaje"
+    },
+    "emoji": "✉️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_slti",
+    "am": "ስእሊ (ካሜራ)",
+    "tr": "si'ili kamera",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "das Foto",
+      "en": "photo",
+      "sv": "foto",
+      "nl": "foto",
+      "it": "la foto",
+      "es": "la foto"
+    },
+    "emoji": "📷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_video",
+    "am": "ቪድዮ",
+    "tr": "vidiyo",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "das Video",
+      "en": "video",
+      "sv": "video",
+      "nl": "video",
+      "it": "il video",
+      "es": "el video"
+    },
+    "emoji": "🎥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_radiyo",
+    "am": "ራድዮ",
+    "tr": "radyo",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "das Radio",
+      "en": "radio",
+      "sv": "radio",
+      "nl": "radio",
+      "it": "la radio",
+      "es": "la radio"
+    },
+    "emoji": "📻",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tlvzn",
+    "am": "ተለቪዥን",
+    "tr": "televizhin",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "der Fernseher",
+      "en": "television",
+      "sv": "tv",
+      "nl": "televisie",
+      "it": "la televisione",
+      "es": "la televisión"
+    },
+    "emoji": "📺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bateri",
+    "am": "ባትሪ",
+    "tr": "batri",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "die Batterie",
+      "en": "battery",
+      "sv": "batteri",
+      "nl": "batterij",
+      "it": "la batteria",
+      "es": "la batería"
+    },
+    "emoji": "🔋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_koretsi",
+    "am": "ኤለትሪክ",
+    "tr": "eletrik",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "der Strom, die Elektrizität",
+      "en": "electricity",
+      "sv": "elektricitet",
+      "nl": "elektriciteit",
+      "it": "la corrente, l'elettricità",
+      "es": "la corriente, la electricidad"
+    },
+    "emoji": "⚡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mekina2",
+    "am": "ማሽን",
+    "tr": "mashin",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "die Maschine",
+      "en": "machine",
+      "sv": "maskin",
+      "nl": "machine",
+      "it": "la macchina (dispositivo)",
+      "es": "la máquina"
+    },
+    "emoji": "⚙️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_softi",
+    "am": "ሶፍትዌር",
+    "tr": "softiwer",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "die Software",
+      "en": "software",
+      "sv": "mjukvara",
+      "nl": "software",
+      "it": "il software",
+      "es": "el software"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hbrti",
+    "am": "ገጻት ማሕበራዊ",
+    "tr": "getsat mahiberawi",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "soziale Medien",
+      "en": "social media",
+      "sv": "sociala medier",
+      "nl": "sociale media",
+      "it": "i social media",
+      "es": "las redes sociales"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wifi",
+    "am": "ገመድ ኣልቦ",
+    "tr": "gemed albo",
+    "pos": "noun",
+    "topic": "technology",
+    "level": "TI",
+    "t": {
+      "de": "das WLAN, kabellos",
+      "en": "wifi, wireless",
+      "sv": "wifi, trådlöst",
+      "nl": "wifi, draadloos",
+      "it": "il wifi, senza fili",
+      "es": "el wifi, inalámbrico"
+    },
+    "emoji": "📶",
+    "verified": false
+  }
 ]

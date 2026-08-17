@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_hbrsh","am":"ሓበሻ","tr":"habesha","pos":"noun","topic":"history","level":"TI","t":{"de":"Habesha (kulturelle Selbstbezeichnung)","en":"Habesha (cultural self-designation)","sv":"Habesha (kulturell självbeteckning)","nl":"Habesha (culturele zelfaanduiding)"},"emoji":"","verified":false},
-  {"id":"lex_ti_kolnl","am":"ግዝኣት","tr":"gizi'at","pos":"noun","topic":"history","level":"TI","t":{"de":"die Kolonie","en":"colony","sv":"koloni","nl":"kolonie"},"emoji":"","verified":false},
-  {"id":"lex_ti_shhab","am":"ሰውራ","tr":"sewra","pos":"noun","topic":"history","level":"TI","t":{"de":"die Revolution, der Kampf","en":"revolution, struggle","sv":"revolution, kamp","nl":"revolutie, strijd"},"emoji":"","verified":false},
-  {"id":"lex_ti_shhid","am":"ስዉእ","tr":"siwu'e","pos":"noun","topic":"history","level":"TI","t":{"de":"der Märtyrer, Gefallene","en":"martyr, fallen hero","sv":"martyr","nl":"martelaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_zbn","am":"ዘበን","tr":"zeben","pos":"noun","topic":"history","level":"TI","t":{"de":"die Ära, Epoche","en":"era, epoch","sv":"era, epok","nl":"tijdperk"},"emoji":"","verified":false},
-  {"id":"lex_ti_tzkr","am":"ዝኽሪ","tr":"zikhri","pos":"noun","topic":"history","level":"TI","t":{"de":"die Erinnerung, das Andenken","en":"memory, remembrance","sv":"minne","nl":"herinnering"},"emoji":"","verified":false},
-  {"id":"lex_ti_qdmti","am":"ጥንታዊ","tr":"t'intawi","pos":"adjective","topic":"history","level":"TI","t":{"de":"antik, uralt","en":"ancient","sv":"antik, uråldrig","nl":"antiek, oeroud"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_hbrsh",
+    "am": "ሓበሻ",
+    "tr": "habesha",
+    "pos": "noun",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "Habesha (kulturelle Selbstbezeichnung)",
+      "en": "Habesha (cultural self-designation)",
+      "sv": "Habesha (kulturell självbeteckning)",
+      "nl": "Habesha (culturele zelfaanduiding)",
+      "it": "Habesha (denominazione culturale)",
+      "es": "Habesha (denominación cultural)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kolnl",
+    "am": "ግዝኣት",
+    "tr": "gizi'at",
+    "pos": "noun",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "die Kolonie",
+      "en": "colony",
+      "sv": "koloni",
+      "nl": "kolonie",
+      "it": "la colonia",
+      "es": "la colonia"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shhab",
+    "am": "ሰውራ",
+    "tr": "sewra",
+    "pos": "noun",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "die Revolution, der Kampf",
+      "en": "revolution, struggle",
+      "sv": "revolution, kamp",
+      "nl": "revolutie, strijd",
+      "it": "la rivoluzione, la lotta",
+      "es": "la revolución, la lucha"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shhid",
+    "am": "ስዉእ",
+    "tr": "siwu'e",
+    "pos": "noun",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "der Märtyrer, Gefallene",
+      "en": "martyr, fallen hero",
+      "sv": "martyr",
+      "nl": "martelaar",
+      "it": "il martire, il caduto",
+      "es": "el mártir, el caído"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbn",
+    "am": "ዘበን",
+    "tr": "zeben",
+    "pos": "noun",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "die Ära, Epoche",
+      "en": "era, epoch",
+      "sv": "era, epok",
+      "nl": "tijdperk",
+      "it": "l'era, l'epoca",
+      "es": "la era, la época"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tzkr",
+    "am": "ዝኽሪ",
+    "tr": "zikhri",
+    "pos": "noun",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "die Erinnerung, das Andenken",
+      "en": "memory, remembrance",
+      "sv": "minne",
+      "nl": "herinnering",
+      "it": "il ricordo, la memoria",
+      "es": "el recuerdo, la memoria"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qdmti",
+    "am": "ጥንታዊ",
+    "tr": "t'intawi",
+    "pos": "adjective",
+    "topic": "history",
+    "level": "TI",
+    "t": {
+      "de": "antik, uralt",
+      "en": "ancient",
+      "sv": "antik, uråldrig",
+      "nl": "antiek, oeroud",
+      "it": "antico",
+      "es": "antiguo"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

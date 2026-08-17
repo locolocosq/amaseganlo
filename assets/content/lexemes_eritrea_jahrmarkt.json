@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_jhm_crsl","am":"ናይ ህጻናት ዙረት","tr":"nay hitsanat zuret","pos":"noun","topic":"funfair","level":"TI","t":{"de":"das Karussell","en":"carousel","sv":"karusell","nl":"draaimolen"},"emoji":"🎠","verified":false},
-  {"id":"lex_ti_jhm_wheel","am":"ዓባይ ዙረት","tr":"'abay zuret","pos":"noun","topic":"funfair","level":"TI","t":{"de":"das Riesenrad","en":"ferris wheel","sv":"pariserhjul","nl":"reuzenrad"},"emoji":"🎡","verified":false},
-  {"id":"lex_ti_jhm_ltry","am":"ዕጫ","tr":"'icha","pos":"noun","topic":"funfair","level":"TI","t":{"de":"das Los (Lotterie)","en":"raffle ticket","sv":"lott","nl":"lot (kermis)"},"emoji":"🎟️","verified":false},
-  {"id":"lex_ti_jhm_cndy","am":"ከረሜላ","tr":"keremela","pos":"noun","topic":"funfair","level":"TI","t":{"de":"das Bonbon","en":"candy","sv":"godis","nl":"snoep"},"emoji":"🍬","verified":false}
+  {
+    "id": "lex_ti_jhm_crsl",
+    "am": "ናይ ህጻናት ዙረት",
+    "tr": "nay hitsanat zuret",
+    "pos": "noun",
+    "topic": "funfair",
+    "level": "TI",
+    "t": {
+      "de": "das Karussell",
+      "en": "carousel",
+      "sv": "karusell",
+      "nl": "draaimolen",
+      "it": "la giostra",
+      "es": "el carrusel"
+    },
+    "emoji": "🎠",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jhm_wheel",
+    "am": "ዓባይ ዙረት",
+    "tr": "'abay zuret",
+    "pos": "noun",
+    "topic": "funfair",
+    "level": "TI",
+    "t": {
+      "de": "das Riesenrad",
+      "en": "ferris wheel",
+      "sv": "pariserhjul",
+      "nl": "reuzenrad",
+      "it": "la ruota panoramica",
+      "es": "la noria"
+    },
+    "emoji": "🎡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jhm_ltry",
+    "am": "ዕጫ",
+    "tr": "'icha",
+    "pos": "noun",
+    "topic": "funfair",
+    "level": "TI",
+    "t": {
+      "de": "das Los (Lotterie)",
+      "en": "raffle ticket",
+      "sv": "lott",
+      "nl": "lot (kermis)",
+      "it": "il biglietto della lotteria",
+      "es": "el boleto de la rifa"
+    },
+    "emoji": "🎟️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jhm_cndy",
+    "am": "ከረሜላ",
+    "tr": "keremela",
+    "pos": "noun",
+    "topic": "funfair",
+    "level": "TI",
+    "t": {
+      "de": "das Bonbon",
+      "en": "candy",
+      "sv": "godis",
+      "nl": "snoep",
+      "it": "la caramella",
+      "es": "el caramelo"
+    },
+    "emoji": "🍬",
+    "verified": false
+  }
 ]

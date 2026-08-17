@@ -1,35 +1,596 @@
 [
-  {"id":"lex_ti_qeyih","am":"ቀይሕ","tr":"qeyih","pos":"adjective","topic":"colors","level":"TI","t":{"de":"rot","en":"red","sv":"röd","nl":"rood"},"emoji":"🔴","verified":false},
-  {"id":"lex_ti_kokhay","am":"ሰማያዊ","tr":"semayawi","pos":"adjective","topic":"colors","level":"TI","t":{"de":"blau","en":"blue","sv":"blå","nl":"blauw"},"emoji":"🔵","verified":false},
-  {"id":"lex_ti_qetsli","am":"ቀጠልያ","tr":"qet'elya","pos":"adjective","topic":"colors","level":"TI","t":{"de":"grün","en":"green","sv":"grön","nl":"groen"},"emoji":"🟢","verified":false},
-  {"id":"lex_ti_tsaada","am":"ጻዕዳ","tr":"tsa'eda","pos":"adjective","topic":"colors","level":"TI","t":{"de":"weiß","en":"white","sv":"vit","nl":"wit"},"emoji":"⚪","verified":false},
-  {"id":"lex_ti_kekhi","am":"ጸሊም","tr":"tselim","pos":"adjective","topic":"colors","level":"TI","t":{"de":"schwarz","en":"black","sv":"svart","nl":"zwart"},"emoji":"⚫","verified":false},
-  {"id":"lex_ti_bicawi","am":"ብጫ","tr":"bicha","pos":"adjective","topic":"colors","level":"TI","t":{"de":"gelb","en":"yellow","sv":"gul","nl":"geel"},"emoji":"🟡","verified":false},
-  {"id":"lex_ti_bruni","am":"ብሩን","tr":"bruni","pos":"adjective","topic":"colors","level":"TI","t":{"de":"braun","en":"brown","sv":"brun","nl":"bruin"},"emoji":"🟤","verified":false},
-  {"id":"lex_ti_wardi","am":"ወርዲ","tr":"wardi","pos":"adjective","topic":"colors","level":"TI","t":{"de":"rosa","en":"pink","sv":"rosa","nl":"roze"},"emoji":"🌸","verified":false},
-  {"id":"lex_ti_bordo","am":"ወይናይ","tr":"weynay","pos":"adjective","topic":"colors","level":"TI","t":{"de":"violett","en":"purple","sv":"lila","nl":"paars"},"emoji":"🟣","verified":false},
-  {"id":"lex_ti_bircuqawi","am":"ብርቱቃናዊ","tr":"birtuqanawi","pos":"adjective","topic":"colors","level":"TI","t":{"de":"orange","en":"orange","sv":"orange","nl":"oranje"},"emoji":"🟠","verified":false},
-  {"id":"lex_ti_ni'us","am":"ንእሽቶ","tr":"ni'ushto","pos":"adjective","topic":"colors","level":"TI","t":{"de":"klein","en":"small","sv":"liten","nl":"klein"},"emoji":"","verified":false},
-  {"id":"lex_ti_ab","am":"ዓቢ","tr":"'abi","pos":"adjective","topic":"colors","level":"TI","t":{"de":"groß","en":"big","sv":"stor","nl":"groot"},"emoji":"","verified":false},
-  {"id":"lex_ti_neway","am":"ሓድሽ","tr":"hadish","pos":"adjective","topic":"colors","level":"TI","t":{"de":"neu","en":"new","sv":"ny","nl":"nieuw"},"emoji":"","verified":false},
-  {"id":"lex_ti_teri","am":"ኣረጊት","tr":"aregit","pos":"adjective","topic":"colors","level":"TI","t":{"de":"alt","en":"old","sv":"gammal","nl":"oud"},"emoji":"","verified":false},
-  {"id":"lex_ti_deagi","am":"ጽቡቕ","tr":"tsibuq","pos":"adjective","topic":"colors","level":"TI","t":{"de":"gut, schön","en":"good, nice","sv":"bra, fin","nl":"goed, mooi"},"emoji":"","verified":false},
-  {"id":"lex_ti_kitsu","am":"ሕማቕ","tr":"himaq","pos":"adjective","topic":"colors","level":"TI","t":{"de":"schlecht","en":"bad","sv":"dålig","nl":"slecht"},"emoji":"","verified":false},
-  {"id":"lex_ti_neuh","am":"ነዊሕ","tr":"newih","pos":"adjective","topic":"colors","level":"TI","t":{"de":"lang, groß (Person)","en":"long, tall","sv":"lång","nl":"lang"},"emoji":"","verified":false},
-  {"id":"lex_ti_kutsri","am":"ሓጺር","tr":"hatsir","pos":"adjective","topic":"colors","level":"TI","t":{"de":"kurz","en":"short","sv":"kort","nl":"kort"},"emoji":"","verified":false},
-  {"id":"lex_ti_kebdi","am":"ከቢድ","tr":"kebid","pos":"adjective","topic":"colors","level":"TI","t":{"de":"schwer","en":"heavy","sv":"tung","nl":"zwaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_qelil","am":"ቀሊል","tr":"qelil","pos":"adjective","topic":"colors","level":"TI","t":{"de":"leicht","en":"light, easy","sv":"lätt","nl":"licht"},"emoji":"","verified":false},
-  {"id":"lex_ti_muk","am":"ሙቐት ዘለዎ","tr":"muqet zelewo","pos":"adjective","topic":"colors","level":"TI","t":{"de":"warm","en":"warm","sv":"varm","nl":"warm"},"emoji":"","verified":false},
-  {"id":"lex_ti_kezin","am":"ዝሑል","tr":"zihul","pos":"adjective","topic":"colors","level":"TI","t":{"de":"kalt","en":"cold","sv":"kall","nl":"koud"},"emoji":"","verified":false},
-  {"id":"lex_ti_haruf","am":"ልዙብ","tr":"lizub","pos":"adjective","topic":"colors","level":"TI","t":{"de":"weich, sanft","en":"soft, gentle","sv":"mjuk","nl":"zacht"},"emoji":"","verified":false},
-  {"id":"lex_ti_tsinu","am":"ተሪር","tr":"terir","pos":"adjective","topic":"colors","level":"TI","t":{"de":"hart","en":"hard","sv":"hård","nl":"hard"},"emoji":"","verified":false},
-  {"id":"lex_ti_shitu","am":"ቅልጡፍ","tr":"qiltuf","pos":"adjective","topic":"colors","level":"TI","t":{"de":"schnell","en":"fast","sv":"snabb","nl":"snel"},"emoji":"","verified":false},
-  {"id":"lex_ti_zenab","am":"ደንጓዪ","tr":"dengway","pos":"adjective","topic":"colors","level":"TI","t":{"de":"langsam","en":"slow","sv":"långsam","nl":"langzaam"},"emoji":"","verified":false},
-  {"id":"lex_ti_kebir","am":"ኣገዳሲ","tr":"agedasi","pos":"adjective","topic":"colors","level":"TI","t":{"de":"wichtig","en":"important","sv":"viktig","nl":"belangrijk"},"emoji":"","verified":false},
-  {"id":"lex_ti_kwan","am":"ቀጥታዊ","tr":"qet'tawi","pos":"adjective","topic":"colors","level":"TI","t":{"de":"gerade, direkt","en":"straight, direct","sv":"rak, direkt","nl":"recht, direct"},"emoji":"","verified":false},
-  {"id":"lex_ti_kwadi","am":"ዝተጠውየ","tr":"ztetewiye","pos":"adjective","topic":"colors","level":"TI","t":{"de":"krumm, gebogen","en":"crooked, bent","sv":"krokig","nl":"krom"},"emoji":"","verified":false},
-  {"id":"lex_ti_kbub","am":"ክቡር","tr":"kibur","pos":"adjective","topic":"colors","level":"TI","t":{"de":"teuer, wertvoll","en":"expensive, precious","sv":"dyr, värdefull","nl":"duur, waardevol"},"emoji":"","verified":false},
-  {"id":"lex_ti_rikhis","am":"ሕሱር","tr":"hisur","pos":"adjective","topic":"colors","level":"TI","t":{"de":"billig","en":"cheap","sv":"billig","nl":"goedkoop"},"emoji":"","verified":false},
-  {"id":"lex_ti_sfihi","am":"ጽፉፍ","tr":"tsifuf","pos":"adjective","topic":"colors","level":"TI","t":{"de":"sauber, ordentlich","en":"clean, tidy","sv":"ren, prydlig","nl":"schoon, netjes"},"emoji":"","verified":false},
-  {"id":"lex_ti_koshi","am":"ርኹስ","tr":"rikhus","pos":"adjective","topic":"colors","level":"TI","t":{"de":"schmutzig","en":"dirty","sv":"smutsig","nl":"vies"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_qeyih",
+    "am": "ቀይሕ",
+    "tr": "qeyih",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "rot",
+      "en": "red",
+      "sv": "röd",
+      "nl": "rood",
+      "it": "rosso",
+      "es": "rojo"
+    },
+    "emoji": "🔴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kokhay",
+    "am": "ሰማያዊ",
+    "tr": "semayawi",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "blau",
+      "en": "blue",
+      "sv": "blå",
+      "nl": "blauw",
+      "it": "blu",
+      "es": "azul"
+    },
+    "emoji": "🔵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qetsli",
+    "am": "ቀጠልያ",
+    "tr": "qet'elya",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "grün",
+      "en": "green",
+      "sv": "grön",
+      "nl": "groen",
+      "it": "verde",
+      "es": "verde"
+    },
+    "emoji": "🟢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsaada",
+    "am": "ጻዕዳ",
+    "tr": "tsa'eda",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "weiß",
+      "en": "white",
+      "sv": "vit",
+      "nl": "wit",
+      "it": "bianco",
+      "es": "blanco"
+    },
+    "emoji": "⚪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kekhi",
+    "am": "ጸሊም",
+    "tr": "tselim",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "schwarz",
+      "en": "black",
+      "sv": "svart",
+      "nl": "zwart",
+      "it": "nero",
+      "es": "negro"
+    },
+    "emoji": "⚫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bicawi",
+    "am": "ብጫ",
+    "tr": "bicha",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "gelb",
+      "en": "yellow",
+      "sv": "gul",
+      "nl": "geel",
+      "it": "giallo",
+      "es": "amarillo"
+    },
+    "emoji": "🟡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bruni",
+    "am": "ብሩን",
+    "tr": "bruni",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "braun",
+      "en": "brown",
+      "sv": "brun",
+      "nl": "bruin",
+      "it": "marrone",
+      "es": "marrón"
+    },
+    "emoji": "🟤",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wardi",
+    "am": "ወርዲ",
+    "tr": "wardi",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "rosa",
+      "en": "pink",
+      "sv": "rosa",
+      "nl": "roze",
+      "it": "rosa",
+      "es": "rosa"
+    },
+    "emoji": "🌸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bordo",
+    "am": "ወይናይ",
+    "tr": "weynay",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "violett",
+      "en": "purple",
+      "sv": "lila",
+      "nl": "paars",
+      "it": "viola",
+      "es": "morado"
+    },
+    "emoji": "🟣",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bircuqawi",
+    "am": "ብርቱቃናዊ",
+    "tr": "birtuqanawi",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "orange",
+      "en": "orange",
+      "sv": "orange",
+      "nl": "oranje",
+      "it": "arancione",
+      "es": "naranja"
+    },
+    "emoji": "🟠",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ni'us",
+    "am": "ንእሽቶ",
+    "tr": "ni'ushto",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "klein",
+      "en": "small",
+      "sv": "liten",
+      "nl": "klein",
+      "it": "piccolo",
+      "es": "pequeño"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ab",
+    "am": "ዓቢ",
+    "tr": "'abi",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "groß",
+      "en": "big",
+      "sv": "stor",
+      "nl": "groot",
+      "it": "grande",
+      "es": "grande"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_neway",
+    "am": "ሓድሽ",
+    "tr": "hadish",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "neu",
+      "en": "new",
+      "sv": "ny",
+      "nl": "nieuw",
+      "it": "nuovo",
+      "es": "nuevo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_teri",
+    "am": "ኣረጊት",
+    "tr": "aregit",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "alt",
+      "en": "old",
+      "sv": "gammal",
+      "nl": "oud",
+      "it": "vecchio",
+      "es": "viejo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_deagi",
+    "am": "ጽቡቕ",
+    "tr": "tsibuq",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "gut, schön",
+      "en": "good, nice",
+      "sv": "bra, fin",
+      "nl": "goed, mooi",
+      "it": "buono, bello",
+      "es": "bueno, bonito"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kitsu",
+    "am": "ሕማቕ",
+    "tr": "himaq",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "schlecht",
+      "en": "bad",
+      "sv": "dålig",
+      "nl": "slecht",
+      "it": "cattivo",
+      "es": "malo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_neuh",
+    "am": "ነዊሕ",
+    "tr": "newih",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "lang, groß (Person)",
+      "en": "long, tall",
+      "sv": "lång",
+      "nl": "lang",
+      "it": "lungo, alto (persona)",
+      "es": "largo, alto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kutsri",
+    "am": "ሓጺር",
+    "tr": "hatsir",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "kurz",
+      "en": "short",
+      "sv": "kort",
+      "nl": "kort",
+      "it": "corto",
+      "es": "corto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kebdi",
+    "am": "ከቢድ",
+    "tr": "kebid",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "schwer",
+      "en": "heavy",
+      "sv": "tung",
+      "nl": "zwaar",
+      "it": "pesante",
+      "es": "pesado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qelil",
+    "am": "ቀሊል",
+    "tr": "qelil",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "leicht",
+      "en": "light, easy",
+      "sv": "lätt",
+      "nl": "licht",
+      "it": "leggero, facile",
+      "es": "ligero, fácil"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_muk",
+    "am": "ሙቐት ዘለዎ",
+    "tr": "muqet zelewo",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "warm",
+      "en": "warm",
+      "sv": "varm",
+      "nl": "warm",
+      "it": "caldo",
+      "es": "cálido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kezin",
+    "am": "ዝሑል",
+    "tr": "zihul",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "kalt",
+      "en": "cold",
+      "sv": "kall",
+      "nl": "koud",
+      "it": "freddo",
+      "es": "frío"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_haruf",
+    "am": "ልዙብ",
+    "tr": "lizub",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "weich, sanft",
+      "en": "soft, gentle",
+      "sv": "mjuk",
+      "nl": "zacht",
+      "it": "morbido, delicato",
+      "es": "suave, dulce"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsinu",
+    "am": "ተሪር",
+    "tr": "terir",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "hart",
+      "en": "hard",
+      "sv": "hård",
+      "nl": "hard",
+      "it": "duro",
+      "es": "duro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shitu",
+    "am": "ቅልጡፍ",
+    "tr": "qiltuf",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "schnell",
+      "en": "fast",
+      "sv": "snabb",
+      "nl": "snel",
+      "it": "veloce",
+      "es": "rápido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zenab",
+    "am": "ደንጓዪ",
+    "tr": "dengway",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "langsam",
+      "en": "slow",
+      "sv": "långsam",
+      "nl": "langzaam",
+      "it": "lento",
+      "es": "lento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kebir",
+    "am": "ኣገዳሲ",
+    "tr": "agedasi",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "wichtig",
+      "en": "important",
+      "sv": "viktig",
+      "nl": "belangrijk",
+      "it": "importante",
+      "es": "importante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kwan",
+    "am": "ቀጥታዊ",
+    "tr": "qet'tawi",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "gerade, direkt",
+      "en": "straight, direct",
+      "sv": "rak, direkt",
+      "nl": "recht, direct",
+      "it": "dritto, diretto",
+      "es": "recto, directo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kwadi",
+    "am": "ዝተጠውየ",
+    "tr": "ztetewiye",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "krumm, gebogen",
+      "en": "crooked, bent",
+      "sv": "krokig",
+      "nl": "krom",
+      "it": "storto, curvo",
+      "es": "torcido, curvado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbub",
+    "am": "ክቡር",
+    "tr": "kibur",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "teuer, wertvoll",
+      "en": "expensive, precious",
+      "sv": "dyr, värdefull",
+      "nl": "duur, waardevol",
+      "it": "caro, prezioso",
+      "es": "caro, valioso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rikhis",
+    "am": "ሕሱር",
+    "tr": "hisur",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "billig",
+      "en": "cheap",
+      "sv": "billig",
+      "nl": "goedkoop",
+      "it": "economico",
+      "es": "barato"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sfihi",
+    "am": "ጽፉፍ",
+    "tr": "tsifuf",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "sauber, ordentlich",
+      "en": "clean, tidy",
+      "sv": "ren, prydlig",
+      "nl": "schoon, netjes",
+      "it": "pulito, ordinato",
+      "es": "limpio, ordenado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_koshi",
+    "am": "ርኹስ",
+    "tr": "rikhus",
+    "pos": "adjective",
+    "topic": "colors",
+    "level": "TI",
+    "t": {
+      "de": "schmutzig",
+      "en": "dirty",
+      "sv": "smutsig",
+      "nl": "vies",
+      "it": "sporco",
+      "es": "sucio"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

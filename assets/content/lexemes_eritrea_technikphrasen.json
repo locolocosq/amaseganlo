@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_tkp_broken2","am":"ኣይሰርሕን ኣሎ","tr":"ayiserihin alo","pos":"phrase","topic":"tech_phrases","level":"TI","t":{"de":"es funktioniert nicht","en":"it doesn't work","sv":"det fungerar inte","nl":"het werkt niet"},"emoji":"","verified":false},
-  {"id":"lex_ti_tkp_lowbatt","am":"ባትሪ ወዲኡ","tr":"batri wedi'u","pos":"phrase","topic":"tech_phrases","level":"TI","t":{"de":"der Akku ist leer","en":"the battery is dead","sv":"batteriet är slut","nl":"de batterij is leeg"},"emoji":"🔋","verified":false},
-  {"id":"lex_ti_tkp_nosgnl","am":"ምልክት የለን","tr":"milikit yelen","pos":"phrase","topic":"tech_phrases","level":"TI","t":{"de":"kein Signal","en":"no signal","sv":"ingen signal","nl":"geen signaal"},"emoji":"","verified":false},
-  {"id":"lex_ti_tkp_restrt","am":"ዳግማይ ጀመረ","tr":"dagimay jemere","pos":"verb","topic":"tech_phrases","level":"TI","t":{"de":"neu starten","en":"to restart","sv":"att starta om","nl":"herstarten"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_tkp_broken2",
+    "am": "ኣይሰርሕን ኣሎ",
+    "tr": "ayiserihin alo",
+    "pos": "phrase",
+    "topic": "tech_phrases",
+    "level": "TI",
+    "t": {
+      "de": "es funktioniert nicht",
+      "en": "it doesn't work",
+      "sv": "det fungerar inte",
+      "nl": "het werkt niet",
+      "it": "non funziona",
+      "es": "no funciona"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tkp_lowbatt",
+    "am": "ባትሪ ወዲኡ",
+    "tr": "batri wedi'u",
+    "pos": "phrase",
+    "topic": "tech_phrases",
+    "level": "TI",
+    "t": {
+      "de": "der Akku ist leer",
+      "en": "the battery is dead",
+      "sv": "batteriet är slut",
+      "nl": "de batterij is leeg",
+      "it": "la batteria è scarica",
+      "es": "la batería está descargada"
+    },
+    "emoji": "🔋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tkp_nosgnl",
+    "am": "ምልክት የለን",
+    "tr": "milikit yelen",
+    "pos": "phrase",
+    "topic": "tech_phrases",
+    "level": "TI",
+    "t": {
+      "de": "kein Signal",
+      "en": "no signal",
+      "sv": "ingen signal",
+      "nl": "geen signaal",
+      "it": "nessun segnale",
+      "es": "sin señal"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tkp_restrt",
+    "am": "ዳግማይ ጀመረ",
+    "tr": "dagimay jemere",
+    "pos": "verb",
+    "topic": "tech_phrases",
+    "level": "TI",
+    "t": {
+      "de": "neu starten",
+      "en": "to restart",
+      "sv": "att starta om",
+      "nl": "herstarten",
+      "it": "riavviare",
+      "es": "reiniciar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

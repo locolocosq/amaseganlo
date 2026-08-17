@@ -10,7 +10,9 @@
       "de": "gehen",
       "en": "to go",
       "sv": "gå",
-      "nl": "gaan"
+      "nl": "gaan",
+      "it": "andare",
+      "es": "ir"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "kommen",
       "en": "to come",
       "sv": "komma",
-      "nl": "komen"
+      "nl": "komen",
+      "it": "venire",
+      "es": "venir"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "sehen",
       "en": "to see",
       "sv": "se",
-      "nl": "zien"
+      "nl": "zien",
+      "it": "vedere",
+      "es": "ver"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "machen, tun",
       "en": "to do, to make",
       "sv": "göra",
-      "nl": "doen, maken"
+      "nl": "doen, maken",
+      "it": "fare",
+      "es": "hacer"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "geben",
       "en": "to give",
       "sv": "ge",
-      "nl": "geven"
+      "nl": "geven",
+      "it": "dare",
+      "es": "dar"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "nehmen",
       "en": "to take",
       "sv": "ta",
-      "nl": "nemen"
+      "nl": "nemen",
+      "it": "prendere",
+      "es": "tomar"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "wollen",
       "en": "to want",
       "sv": "vilja",
-      "nl": "willen"
+      "nl": "willen",
+      "it": "volere",
+      "es": "querer"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "können",
       "en": "to be able to, can",
       "sv": "kunna",
-      "nl": "kunnen"
+      "nl": "kunnen",
+      "it": "potere",
+      "es": "poder"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "wissen",
       "en": "to know",
       "sv": "veta",
-      "nl": "weten"
+      "nl": "weten",
+      "it": "sapere",
+      "es": "saber"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "sprechen, reden",
       "en": "to speak",
       "sv": "tala",
-      "nl": "spreken"
+      "nl": "spreken",
+      "it": "parlare",
+      "es": "hablar"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "lieben, mögen",
       "en": "to love, to like",
       "sv": "älska, tycka om",
-      "nl": "liefhebben, leuk vinden"
+      "nl": "liefhebben, leuk vinden",
+      "it": "amare, piacere",
+      "es": "amar, gustar"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "arbeiten",
       "en": "to work",
       "sv": "arbeta",
-      "nl": "werken"
+      "nl": "werken",
+      "it": "lavorare",
+      "es": "trabajar"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "lernen",
       "en": "to learn",
       "sv": "lära sig",
-      "nl": "leren"
+      "nl": "leren",
+      "it": "imparare",
+      "es": "aprender"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "schlafen",
       "en": "to sleep",
       "sv": "sova",
-      "nl": "slapen"
+      "nl": "slapen",
+      "it": "dormire",
+      "es": "dormir"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "spielen",
       "en": "to play",
       "sv": "leka, spela",
-      "nl": "spelen"
+      "nl": "spelen",
+      "it": "giocare",
+      "es": "jugar"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "laufen, rennen",
       "en": "to run",
       "sv": "springa",
-      "nl": "rennen"
+      "nl": "rennen",
+      "it": "correre",
+      "es": "correr"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "sitzen",
       "en": "to sit",
       "sv": "sitta",
-      "nl": "zitten"
+      "nl": "zitten",
+      "it": "sedersi, stare seduto",
+      "es": "sentarse, estar sentado"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "stehen",
       "en": "to stand",
       "sv": "stå",
-      "nl": "staan"
+      "nl": "staan",
+      "it": "stare in piedi",
+      "es": "estar de pie"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "öffnen",
       "en": "to open",
       "sv": "öppna",
-      "nl": "openen"
+      "nl": "openen",
+      "it": "aprire",
+      "es": "abrir"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "schließen",
       "en": "to close",
       "sv": "stänga",
-      "nl": "sluiten"
+      "nl": "sluiten",
+      "it": "chiudere",
+      "es": "cerrar"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "helfen",
       "en": "to help",
       "sv": "hjälpa",
-      "nl": "helpen"
+      "nl": "helpen",
+      "it": "aiutare",
+      "es": "ayudar"
     },
     "hint": {},
     "alt": {},
@@ -388,7 +430,9 @@
       "de": "fragen",
       "en": "to ask",
       "sv": "fråga",
-      "nl": "vragen"
+      "nl": "vragen",
+      "it": "chiedere",
+      "es": "preguntar"
     },
     "hint": {},
     "alt": {},
@@ -406,7 +450,9 @@
       "de": "antworten",
       "en": "to answer",
       "sv": "svara",
-      "nl": "antwoorden"
+      "nl": "antwoorden",
+      "it": "rispondere",
+      "es": "responder"
     },
     "hint": {},
     "alt": {},
@@ -424,7 +470,9 @@
       "de": "denken",
       "en": "to think",
       "sv": "tänka",
-      "nl": "denken"
+      "nl": "denken",
+      "it": "pensare",
+      "es": "pensar"
     },
     "hint": {},
     "alt": {},
@@ -442,7 +490,9 @@
       "de": "verstehen",
       "en": "to understand",
       "sv": "förstå",
-      "nl": "begrijpen"
+      "nl": "begrijpen",
+      "it": "capire",
+      "es": "entender"
     },
     "hint": {},
     "alt": {},
@@ -460,7 +510,9 @@
       "de": "hören",
       "en": "to hear",
       "sv": "höra",
-      "nl": "horen"
+      "nl": "horen",
+      "it": "sentire, udire",
+      "es": "oír"
     },
     "hint": {},
     "alt": {},
@@ -478,7 +530,9 @@
       "de": "kochen",
       "en": "to cook",
       "sv": "laga mat",
-      "nl": "koken"
+      "nl": "koken",
+      "it": "cucinare",
+      "es": "cocinar"
     },
     "hint": {},
     "alt": {},
@@ -496,7 +550,9 @@
       "de": "waschen",
       "en": "to wash",
       "sv": "tvätta",
-      "nl": "wassen"
+      "nl": "wassen",
+      "it": "lavare",
+      "es": "lavar"
     },
     "hint": {},
     "alt": {},
@@ -514,7 +570,9 @@
       "de": "warten",
       "en": "to wait",
       "sv": "vänta",
-      "nl": "wachten"
+      "nl": "wachten",
+      "it": "aspettare",
+      "es": "esperar"
     },
     "hint": {},
     "alt": {},
@@ -532,7 +590,9 @@
       "de": "suchen",
       "en": "to search",
       "sv": "söka",
-      "nl": "zoeken"
+      "nl": "zoeken",
+      "it": "cercare",
+      "es": "buscar"
     },
     "hint": {},
     "alt": {},
@@ -550,7 +610,9 @@
       "de": "bringen",
       "en": "to bring",
       "sv": "ta med",
-      "nl": "brengen"
+      "nl": "brengen",
+      "it": "portare",
+      "es": "traer"
     },
     "hint": {},
     "alt": {},
@@ -568,7 +630,9 @@
       "de": "lachen",
       "en": "to laugh",
       "sv": "skratta",
-      "nl": "lachen"
+      "nl": "lachen",
+      "it": "ridere",
+      "es": "reír"
     },
     "hint": {},
     "alt": {},

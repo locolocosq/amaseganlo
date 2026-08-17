@@ -10,7 +10,9 @@
       "de": "die Kuh",
       "en": "cow",
       "sv": "ko",
-      "nl": "koe"
+      "nl": "koe",
+      "it": "la mucca",
+      "es": "la vaca"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Ziege",
       "en": "goat",
       "sv": "get",
-      "nl": "geit"
+      "nl": "geit",
+      "it": "la capra",
+      "es": "la cabra"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Schaf",
       "en": "sheep",
       "sv": "får",
-      "nl": "schaap"
+      "nl": "schaap",
+      "it": "la pecora",
+      "es": "la oveja"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Esel",
       "en": "donkey",
       "sv": "åsna",
-      "nl": "ezel"
+      "nl": "ezel",
+      "it": "l'asino",
+      "es": "el burro"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Kamel",
       "en": "camel",
       "sv": "kamel",
-      "nl": "kameel"
+      "nl": "kameel",
+      "it": "il cammello",
+      "es": "el camello"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Maus",
       "en": "mouse",
       "sv": "mus",
-      "nl": "muis"
+      "nl": "muis",
+      "it": "il topo",
+      "es": "el ratón"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Fuchs",
       "en": "fox",
       "sv": "räv",
-      "nl": "vos"
+      "nl": "vos",
+      "it": "la volpe",
+      "es": "el zorro"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Wolf",
       "en": "wolf",
       "sv": "varg",
-      "nl": "wolf"
+      "nl": "wolf",
+      "it": "il lupo",
+      "es": "el lobo"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Hirsch",
       "en": "deer",
       "sv": "hjort",
-      "nl": "hert"
+      "nl": "hert",
+      "it": "il cervo",
+      "es": "el ciervo"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Schildkröte",
       "en": "turtle",
       "sv": "sköldpadda",
-      "nl": "schildpad"
+      "nl": "schildpad",
+      "it": "la tartaruga",
+      "es": "la tortuga"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Frosch",
       "en": "frog",
       "sv": "groda",
-      "nl": "kikker"
+      "nl": "kikker",
+      "it": "la rana",
+      "es": "la rana"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "das Krokodil",
       "en": "crocodile",
       "sv": "krokodil",
-      "nl": "krokodil"
+      "nl": "krokodil",
+      "it": "il coccodrillo",
+      "es": "el cocodrilo"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "die Hyäne",
       "en": "hyena",
       "sv": "hyena",
-      "nl": "hyena"
+      "nl": "hyena",
+      "it": "la iena",
+      "es": "la hiena"
     },
     "hint": {},
     "alt": {},

@@ -6,7 +6,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "1", "en": "1", "sv": "1", "nl": "1" },
+    "t": {
+      "de": "1",
+      "en": "1",
+      "sv": "1",
+      "nl": "1",
+      "it": "1",
+      "es": "1"
+    },
     "emoji": "",
     "verified": false
   },
@@ -17,7 +24,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "2", "en": "2", "sv": "2", "nl": "2" },
+    "t": {
+      "de": "2",
+      "en": "2",
+      "sv": "2",
+      "nl": "2",
+      "it": "2",
+      "es": "2"
+    },
     "emoji": "",
     "verified": false
   },
@@ -28,7 +42,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "3", "en": "3", "sv": "3", "nl": "3" },
+    "t": {
+      "de": "3",
+      "en": "3",
+      "sv": "3",
+      "nl": "3",
+      "it": "3",
+      "es": "3"
+    },
     "emoji": "",
     "verified": false
   },
@@ -39,7 +60,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "4", "en": "4", "sv": "4", "nl": "4" },
+    "t": {
+      "de": "4",
+      "en": "4",
+      "sv": "4",
+      "nl": "4",
+      "it": "4",
+      "es": "4"
+    },
     "emoji": "",
     "verified": false
   },
@@ -50,7 +78,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "5", "en": "5", "sv": "5", "nl": "5" },
+    "t": {
+      "de": "5",
+      "en": "5",
+      "sv": "5",
+      "nl": "5",
+      "it": "5",
+      "es": "5"
+    },
     "emoji": "",
     "verified": false
   },
@@ -61,7 +96,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "6", "en": "6", "sv": "6", "nl": "6" },
+    "t": {
+      "de": "6",
+      "en": "6",
+      "sv": "6",
+      "nl": "6",
+      "it": "6",
+      "es": "6"
+    },
     "emoji": "",
     "verified": false
   },
@@ -72,7 +114,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "7", "en": "7", "sv": "7", "nl": "7" },
+    "t": {
+      "de": "7",
+      "en": "7",
+      "sv": "7",
+      "nl": "7",
+      "it": "7",
+      "es": "7"
+    },
     "emoji": "",
     "verified": false
   },
@@ -83,7 +132,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "8", "en": "8", "sv": "8", "nl": "8" },
+    "t": {
+      "de": "8",
+      "en": "8",
+      "sv": "8",
+      "nl": "8",
+      "it": "8",
+      "es": "8"
+    },
     "emoji": "",
     "verified": false
   },
@@ -94,7 +150,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "9", "en": "9", "sv": "9", "nl": "9" },
+    "t": {
+      "de": "9",
+      "en": "9",
+      "sv": "9",
+      "nl": "9",
+      "it": "9",
+      "es": "9"
+    },
     "emoji": "",
     "verified": false
   },
@@ -105,7 +168,14 @@
     "pos": "number",
     "topic": "numbers",
     "level": "TI",
-    "t": { "de": "10", "en": "10", "sv": "10", "nl": "10" },
+    "t": {
+      "de": "10",
+      "en": "10",
+      "sv": "10",
+      "nl": "10",
+      "it": "10",
+      "es": "10"
+    },
     "emoji": "",
     "verified": false
   }

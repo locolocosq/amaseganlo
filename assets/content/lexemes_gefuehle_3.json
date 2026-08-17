@@ -10,7 +10,9 @@
       "de": "begeistert, aufgeregt",
       "en": "excited",
       "sv": "exalterad",
-      "nl": "opgewonden"
+      "nl": "opgewonden",
+      "it": "entusiasta, agitato",
+      "es": "entusiasmado, emocionado"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "sich langweilen",
       "en": "to be bored",
       "sv": "ha tråkigt",
-      "nl": "zich vervelen"
+      "nl": "zich vervelen",
+      "it": "annoiarsi",
+      "es": "aburrirse"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "erleichtert sein",
       "en": "to be relieved",
       "sv": "känna lättnad",
-      "nl": "opgelucht zijn"
+      "nl": "opgelucht zijn",
+      "it": "sentirsi sollevato/a",
+      "es": "sentirse aliviado/a"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "dankbar",
       "en": "grateful",
       "sv": "tacksam",
-      "nl": "dankbaar"
+      "nl": "dankbaar",
+      "it": "grato",
+      "es": "agradecido"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "motiviert",
       "en": "motivated",
       "sv": "motiverad",
-      "nl": "gemotiveerd"
+      "nl": "gemotiveerd",
+      "it": "motivato",
+      "es": "motivado"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "selbstbewusst",
       "en": "confident",
       "sv": "självsäker",
-      "nl": "zelfverzekerd"
+      "nl": "zelfverzekerd",
+      "it": "sicuro di sé",
+      "es": "seguro de sí mismo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "beschämt, peinlich",
       "en": "ashamed, embarrassing",
       "sv": "skamsen",
-      "nl": "beschaamd"
+      "nl": "beschaamd",
+      "it": "vergognoso, imbarazzante",
+      "es": "avergonzado, embarazoso"
     },
     "hint": {},
     "alt": {},

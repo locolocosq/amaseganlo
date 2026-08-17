@@ -1,6 +1,102 @@
 [
-  {"id":"sen_hkp_sabon_shamp","am":"በሳሙና እና ሻምፖ ታጠብኩ።","tr":"besamuna ina shampo tat'ebku.","level":"B2","uses":["lex_hkp_sabon","lex_hkp_shamp","lex_hkp_v_metaseb"],"t":{"de":"Ich wusch mich mit Seife und Shampoo.","en":"I washed myself with soap and shampoo.","sv":"Jag tvättade mig med tvål och schampo.","nl":"Ik wastte me met zeep en shampoo."},"chunks":["besamuna","ina","shampo","tat'ebku"],"verified":false},
-  {"id":"sen_hkp_tsegurat_masiat","am":"ፀጉር ማበጠሪያ ይፈልጋል።","tr":"ts'egur mabet'eriya yifeligal.","level":"B2","uses":["lex_hkp_tsegurat","lex_hkp_masiat"],"t":{"de":"Haar braucht einen Kamm.","en":"Hair needs a comb.","sv":"Hår behöver en kam.","nl":"Haar heeft een kam nodig."},"chunks":["ts'egur","mabet'eriya","yifeligal"],"verified":false},
-  {"id":"sen_hkp_akal9_kern","am":"ፎጣ እና ቅባት እጠቀማለሁ።","tr":"fot'a ina kibat it'ek'emalehu.","level":"B2","uses":["lex_hkp_akal9","lex_hkp_kern"],"t":{"de":"Ich benutze ein Handtuch und Lotion.","en":"I use a towel and lotion.","sv":"Jag använder en handduk och lotion.","nl":"Ik gebruik een handdoek en lotion."},"chunks":["fot'a","ina","kibat","it'ek'emalehu"],"verified":false},
-  {"id":"sen_hkp_metatab_lidet","am":"ሰውን መንከባከብ ንክብካቤ ነው።","tr":"sewin menikebakeb nikibikabe newu.","level":"B2","uses":["lex_hkp_v_metatab","lex_hkp_lidet_it"],"t":{"de":"Sich um jemanden zu kümmern ist Fürsorge.","en":"Taking care of someone is care.","sv":"Att ta hand om någon är omvårdnad.","nl":"Voor iemand zorgen is zorg."},"chunks":["sewin","menikebakeb","nikibikabe","newu"],"verified":false}
+  {
+    "id": "sen_hkp_sabon_shamp",
+    "am": "በሳሙና እና ሻምፖ ታጠብኩ።",
+    "tr": "besamuna ina shampo tat'ebku.",
+    "level": "B2",
+    "uses": [
+      "lex_hkp_sabon",
+      "lex_hkp_shamp",
+      "lex_hkp_v_metaseb"
+    ],
+    "t": {
+      "de": "Ich wusch mich mit Seife und Shampoo.",
+      "en": "I washed myself with soap and shampoo.",
+      "sv": "Jag tvättade mig med tvål och schampo.",
+      "nl": "Ik wastte me met zeep en shampoo.",
+      "it": "Mi sono lavato con sapone e shampoo.",
+      "es": "Me lavé con jabón y champú."
+    },
+    "chunks": [
+      "besamuna",
+      "ina",
+      "shampo",
+      "tat'ebku"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hkp_tsegurat_masiat",
+    "am": "ፀጉር ማበጠሪያ ይፈልጋል።",
+    "tr": "ts'egur mabet'eriya yifeligal.",
+    "level": "B2",
+    "uses": [
+      "lex_hkp_tsegurat",
+      "lex_hkp_masiat"
+    ],
+    "t": {
+      "de": "Haar braucht einen Kamm.",
+      "en": "Hair needs a comb.",
+      "sv": "Hår behöver en kam.",
+      "nl": "Haar heeft een kam nodig.",
+      "it": "I capelli hanno bisogno di un pettine.",
+      "es": "El pelo necesita un peine."
+    },
+    "chunks": [
+      "ts'egur",
+      "mabet'eriya",
+      "yifeligal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hkp_akal9_kern",
+    "am": "ፎጣ እና ቅባት እጠቀማለሁ።",
+    "tr": "fot'a ina kibat it'ek'emalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hkp_akal9",
+      "lex_hkp_kern"
+    ],
+    "t": {
+      "de": "Ich benutze ein Handtuch und Lotion.",
+      "en": "I use a towel and lotion.",
+      "sv": "Jag använder en handduk och lotion.",
+      "nl": "Ik gebruik een handdoek en lotion.",
+      "it": "Uso un asciugamano e una lozione.",
+      "es": "Uso una toalla y una loción."
+    },
+    "chunks": [
+      "fot'a",
+      "ina",
+      "kibat",
+      "it'ek'emalehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hkp_metatab_lidet",
+    "am": "ሰውን መንከባከብ ንክብካቤ ነው።",
+    "tr": "sewin menikebakeb nikibikabe newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hkp_v_metatab",
+      "lex_hkp_lidet_it"
+    ],
+    "t": {
+      "de": "Sich um jemanden zu kümmern ist Fürsorge.",
+      "en": "Taking care of someone is care.",
+      "sv": "Att ta hand om någon är omvårdnad.",
+      "nl": "Voor iemand zorgen is zorg.",
+      "it": "Prendersi cura di qualcuno è premura.",
+      "es": "Cuidar de alguien es atención."
+    },
+    "chunks": [
+      "sewin",
+      "menikebakeb",
+      "nikibikabe",
+      "newu"
+    ],
+    "verified": false
+  }
 ]

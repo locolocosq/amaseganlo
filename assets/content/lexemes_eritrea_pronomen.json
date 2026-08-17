@@ -1,16 +1,254 @@
 [
-  {"id":"lex_ti_zeyey","am":"ናተይ","tr":"natey","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"mein, meine","en":"my, mine","sv":"min, mitt","nl":"mijn"},"emoji":"","verified":false},
-  {"id":"lex_ti_zekha","am":"ናትካ","tr":"natka","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"dein (zu einem Mann)","en":"your (to a man)","sv":"din (till en man)","nl":"jouw (tegen een man)"},"emoji":"","verified":false},
-  {"id":"lex_ti_zekhi","am":"ናትኪ","tr":"natki","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"dein (zu einer Frau)","en":"your (to a woman)","sv":"din (till en kvinna)","nl":"jouw (tegen een vrouw)"},"emoji":"","verified":false},
-  {"id":"lex_ti_zesu","am":"ናቱ","tr":"natu","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"sein","en":"his","sv":"hans","nl":"zijn"},"emoji":"","verified":false},
-  {"id":"lex_ti_zesa","am":"ናታ","tr":"nata","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"ihr (Possessiv)","en":"her, hers","sv":"hennes","nl":"haar"},"emoji":"","verified":false},
-  {"id":"lex_ti_zena","am":"ናትና","tr":"natna","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"unser","en":"our, ours","sv":"vår","nl":"onze"},"emoji":"","verified":false},
-  {"id":"lex_ti_zeatom","am":"ናትኩም","tr":"natkum","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"euer","en":"your (plural)","sv":"er","nl":"jullie"},"emoji":"","verified":false},
-  {"id":"lex_ti_zehm","am":"ናቶም","tr":"natom","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"ihr (Plural, Possessiv)","en":"their, theirs","sv":"deras","nl":"hun"},"emoji":"","verified":false},
-  {"id":"lex_ti_ntkm","am":"ንስኹም","tr":"nsikum","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"ihr (Plural, Subjekt)","en":"you (plural)","sv":"ni","nl":"jullie"},"emoji":"","verified":false},
-  {"id":"lex_ti_ntmm","am":"ንሶም","tr":"nisom","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"sie (Plural)","en":"they","sv":"de","nl":"zij (mv.)"},"emoji":"","verified":false},
-  {"id":"lex_ti_zbdu","am":"ባዕለይ","tr":"ba'eley","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"ich selbst","en":"myself","sv":"jag själv","nl":"ikzelf"},"emoji":"","verified":false},
-  {"id":"lex_ti_hzu","am":"እዚ","tr":"izi","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"dieser, diese, dieses","en":"this","sv":"denna, detta","nl":"dit, deze"},"emoji":"","verified":false},
-  {"id":"lex_ti_hzy","am":"እቲ","tr":"iti","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"der, die, das (bestimmt)","en":"that, the","sv":"den, det","nl":"dat, die"},"emoji":"","verified":false},
-  {"id":"lex_ti_hzo","am":"እዚኦም","tr":"izi'om","pos":"pronoun","topic":"pronouns_more","level":"TI","t":{"de":"diese (Plural)","en":"these","sv":"dessa","nl":"deze (mv.)"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_zeyey",
+    "am": "ናተይ",
+    "tr": "natey",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "mein, meine",
+      "en": "my, mine",
+      "sv": "min, mitt",
+      "nl": "mijn",
+      "it": "mio, mia",
+      "es": "mi, mío/a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zekha",
+    "am": "ናትካ",
+    "tr": "natka",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "dein (zu einem Mann)",
+      "en": "your (to a man)",
+      "sv": "din (till en man)",
+      "nl": "jouw (tegen een man)",
+      "it": "tuo (a un uomo)",
+      "es": "tu (a un hombre)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zekhi",
+    "am": "ናትኪ",
+    "tr": "natki",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "dein (zu einer Frau)",
+      "en": "your (to a woman)",
+      "sv": "din (till en kvinna)",
+      "nl": "jouw (tegen een vrouw)",
+      "it": "tuo (a una donna)",
+      "es": "tu (a una mujer)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zesu",
+    "am": "ናቱ",
+    "tr": "natu",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "sein",
+      "en": "his",
+      "sv": "hans",
+      "nl": "zijn",
+      "it": "suo (di lui)",
+      "es": "su (de él)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zesa",
+    "am": "ናታ",
+    "tr": "nata",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "ihr (Possessiv)",
+      "en": "her, hers",
+      "sv": "hennes",
+      "nl": "haar",
+      "it": "suo (di lei)",
+      "es": "su (de ella)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zena",
+    "am": "ናትና",
+    "tr": "natna",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "unser",
+      "en": "our, ours",
+      "sv": "vår",
+      "nl": "onze",
+      "it": "nostro",
+      "es": "nuestro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zeatom",
+    "am": "ናትኩም",
+    "tr": "natkum",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "euer",
+      "en": "your (plural)",
+      "sv": "er",
+      "nl": "jullie",
+      "it": "vostro",
+      "es": "vuestro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zehm",
+    "am": "ናቶም",
+    "tr": "natom",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "ihr (Plural, Possessiv)",
+      "en": "their, theirs",
+      "sv": "deras",
+      "nl": "hun",
+      "it": "loro",
+      "es": "su (de ellos)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntkm",
+    "am": "ንስኹም",
+    "tr": "nsikum",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "ihr (Plural, Subjekt)",
+      "en": "you (plural)",
+      "sv": "ni",
+      "nl": "jullie",
+      "it": "voi",
+      "es": "vosotros"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntmm",
+    "am": "ንሶም",
+    "tr": "nisom",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "sie (Plural)",
+      "en": "they",
+      "sv": "de",
+      "nl": "zij (mv.)",
+      "it": "loro",
+      "es": "ellos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbdu",
+    "am": "ባዕለይ",
+    "tr": "ba'eley",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "ich selbst",
+      "en": "myself",
+      "sv": "jag själv",
+      "nl": "ikzelf",
+      "it": "io stesso",
+      "es": "yo mismo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzu",
+    "am": "እዚ",
+    "tr": "izi",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "dieser, diese, dieses",
+      "en": "this",
+      "sv": "denna, detta",
+      "nl": "dit, deze",
+      "it": "questo, questa",
+      "es": "este, esta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzy",
+    "am": "እቲ",
+    "tr": "iti",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "der, die, das (bestimmt)",
+      "en": "that, the",
+      "sv": "den, det",
+      "nl": "dat, die",
+      "it": "quello, quella",
+      "es": "ese, esa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzo",
+    "am": "እዚኦም",
+    "tr": "izi'om",
+    "pos": "pronoun",
+    "topic": "pronouns_more",
+    "level": "TI",
+    "t": {
+      "de": "diese (Plural)",
+      "en": "these",
+      "sv": "dessa",
+      "nl": "deze (mv.)",
+      "it": "questi, queste",
+      "es": "estos, estas"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

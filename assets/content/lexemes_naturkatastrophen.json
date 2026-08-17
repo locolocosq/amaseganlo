@@ -10,7 +10,9 @@
       "de": "das Erdbeben",
       "en": "earthquake",
       "sv": "jordbävning",
-      "nl": "aardbeving"
+      "nl": "aardbeving",
+      "it": "il terremoto",
+      "es": "el terremoto"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Flut, Überschwemmung",
       "en": "flood",
       "sv": "översvämning",
-      "nl": "overstroming"
+      "nl": "overstroming",
+      "it": "l'alluvione, l'inondazione",
+      "es": "la inundación"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Dürre",
       "en": "drought",
       "sv": "torka",
-      "nl": "droogte"
+      "nl": "droogte",
+      "it": "la siccità",
+      "es": "la sequía"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Wirbelsturm, Orkan",
       "en": "hurricane",
       "sv": "orkan",
-      "nl": "orkaan"
+      "nl": "orkaan",
+      "it": "l'uragano",
+      "es": "el huracán"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Vulkan",
       "en": "volcano",
       "sv": "vulkan",
-      "nl": "vulkaan"
+      "nl": "vulkaan",
+      "it": "il vulcano",
+      "es": "el volcán"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Erdrutsch",
       "en": "landslide",
       "sv": "jordskred",
-      "nl": "aardverschuiving"
+      "nl": "aardverschuiving",
+      "it": "la frana",
+      "es": "el deslizamiento de tierra"
     },
     "hint": {},
     "alt": {},

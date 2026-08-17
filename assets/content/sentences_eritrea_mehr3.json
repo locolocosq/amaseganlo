@@ -11,7 +11,9 @@
       "de": "Es gibt öffnen.",
       "en": "There is to open.",
       "sv": "Det finns att öppna.",
-      "nl": "Er is openen."
+      "nl": "Er is openen.",
+      "it": "C'è aprire.",
+      "es": "Hay abrir."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Es gibt über.",
       "en": "There is on, above.",
       "sv": "Det finns på, ovanpå.",
-      "nl": "Er is op, boven."
+      "nl": "Er is op, boven.",
+      "it": "C'è sopra.",
+      "es": "Hay encima."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Es gibt das Krankenhaus.",
       "en": "There is hospital.",
       "sv": "Det finns sjukhus.",
-      "nl": "Er is ziekenhuis."
+      "nl": "Er is ziekenhuis.",
+      "it": "C'è l'ospedale.",
+      "es": "Hay un hospital."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "Es gibt das Ladegerät.",
       "en": "There is charger.",
       "sv": "Det finns laddare.",
-      "nl": "Er is oplader."
+      "nl": "Er is oplader.",
+      "it": "C'è il caricabatterie.",
+      "es": "Hay un cargador."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "Es gibt die Luftverschmutzung.",
       "en": "There is air pollution.",
       "sv": "Det finns luftförorening.",
-      "nl": "Er is luchtvervuiling."
+      "nl": "Er is luchtvervuiling.",
+      "it": "C'è l'inquinamento atmosferico.",
+      "es": "Hay contaminación del aire."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Es gibt das Lesen.",
       "en": "There is reading.",
       "sv": "Det finns läsning.",
-      "nl": "Er is lezen."
+      "nl": "Er is lezen.",
+      "it": "C'è la lettura.",
+      "es": "Hay lectura."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "Es gibt Eritrea.",
       "en": "There is Eritrea.",
       "sv": "Det finns Eritrea.",
-      "nl": "Er is Eritrea."
+      "nl": "Er is Eritrea.",
+      "it": "C'è l'Eritrea.",
+      "es": "Hay Eritrea."
     },
     "alt": {},
     "chunks": [
@@ -158,7 +172,9 @@
       "de": "Es gibt das Tennis.",
       "en": "There is tennis.",
       "sv": "Det finns tennis.",
-      "nl": "Er is tennis."
+      "nl": "Er is tennis.",
+      "it": "C'è il tennis.",
+      "es": "Hay tenis."
     },
     "alt": {},
     "chunks": [
@@ -179,7 +195,9 @@
       "de": "Es gibt der Pilot.",
       "en": "There is pilot.",
       "sv": "Det finns pilot.",
-      "nl": "Er is piloot."
+      "nl": "Er is piloot.",
+      "it": "C'è il pilota.",
+      "es": "Hay un piloto."
     },
     "alt": {},
     "chunks": [
@@ -200,7 +218,9 @@
       "de": "Es gibt der Regenbogen.",
       "en": "There is rainbow.",
       "sv": "Det finns regnbåge.",
-      "nl": "Er is regenboog."
+      "nl": "Er is regenboog.",
+      "it": "C'è l'arcobaleno.",
+      "es": "Hay un arcoíris."
     },
     "alt": {},
     "chunks": [
@@ -221,7 +241,9 @@
       "de": "Es gibt der Pyjama.",
       "en": "There is pajamas.",
       "sv": "Det finns pyjamas.",
-      "nl": "Er is pyjama."
+      "nl": "Er is pyjama.",
+      "it": "C'è il pigiama.",
+      "es": "Hay un pijama."
     },
     "alt": {},
     "chunks": [
@@ -242,7 +264,9 @@
       "de": "Es gibt die Verfassung.",
       "en": "There is constitution.",
       "sv": "Det finns författning.",
-      "nl": "Er is grondwet."
+      "nl": "Er is grondwet.",
+      "it": "C'è la costituzione.",
+      "es": "Hay una constitución."
     },
     "alt": {},
     "chunks": [
@@ -263,7 +287,9 @@
       "de": "Es gibt der Fisch.",
       "en": "There is fish.",
       "sv": "Det finns fisk.",
-      "nl": "Er is vis."
+      "nl": "Er is vis.",
+      "it": "C'è il pesce.",
+      "es": "Hay un pez."
     },
     "alt": {},
     "chunks": [
@@ -284,7 +310,9 @@
       "de": "Es gibt die Puppe.",
       "en": "There is doll.",
       "sv": "Det finns docka.",
-      "nl": "Er is pop."
+      "nl": "Er is pop.",
+      "it": "C'è la bambola.",
+      "es": "Hay una muñeca."
     },
     "alt": {},
     "chunks": [
@@ -305,7 +333,9 @@
       "de": "Es gibt der Stift.",
       "en": "There is pen.",
       "sv": "Det finns penna.",
-      "nl": "Er is pen."
+      "nl": "Er is pen.",
+      "it": "C'è la penna.",
+      "es": "Hay un bolígrafo."
     },
     "alt": {},
     "chunks": [
@@ -326,7 +356,9 @@
       "de": "Es gibt das Sofa.",
       "en": "There is sofa.",
       "sv": "Det finns soffa.",
-      "nl": "Er is bank (meubel)."
+      "nl": "Er is bank (meubel).",
+      "it": "C'è il divano.",
+      "es": "Hay un sofá."
     },
     "alt": {},
     "chunks": [
@@ -347,7 +379,9 @@
       "de": "Es gibt die Kuh.",
       "en": "There is cow.",
       "sv": "Det finns ko.",
-      "nl": "Er is koe."
+      "nl": "Er is koe.",
+      "it": "C'è la mucca.",
+      "es": "Hay una vaca."
     },
     "alt": {},
     "chunks": [
@@ -368,7 +402,9 @@
       "de": "Es gibt der Brief.",
       "en": "There is letter.",
       "sv": "Det finns brev.",
-      "nl": "Er is brief."
+      "nl": "Er is brief.",
+      "it": "C'è la lettera.",
+      "es": "Hay una carta."
     },
     "alt": {},
     "chunks": [
@@ -389,7 +425,9 @@
       "de": "Es gibt nichts für ungut.",
       "en": "There is no offense, sorry.",
       "sv": "Det finns ingen skada skedd, förlåt.",
-      "nl": "Er is geen probleem, sorry."
+      "nl": "Er is geen probleem, sorry.",
+      "it": "Non c'è alcuna offesa, scusa.",
+      "es": "No hay ofensa, perdón."
     },
     "alt": {},
     "chunks": [
@@ -410,7 +448,9 @@
       "de": "Es gibt die Ampel.",
       "en": "There is traffic light.",
       "sv": "Det finns trafikljus.",
-      "nl": "Er is verkeerslicht."
+      "nl": "Er is verkeerslicht.",
+      "it": "C'è il semaforo.",
+      "es": "Hay un semáforo."
     },
     "alt": {},
     "chunks": [
@@ -431,7 +471,9 @@
       "de": "Es gibt beobachten.",
       "en": "There is to observe, to watch.",
       "sv": "Det finns att observera, betrakta.",
-      "nl": "Er is observeren, kijken naar."
+      "nl": "Er is observeren, kijken naar.",
+      "it": "C'è osservare.",
+      "es": "Hay observar."
     },
     "alt": {},
     "chunks": [

@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_vg2_same2","am":"ማዕረ ማዕረ","tr":"ma'ere ma'ere","pos":"adjective","topic":"comparison_more","level":"TI","t":{"de":"gleich, identisch","en":"same, identical","sv":"samma, identisk","nl":"hetzelfde, identiek"},"emoji":"","verified":false},
-  {"id":"lex_ti_vg2_diff2","am":"ፍልይ ዝበለ","tr":"filiyi zibele","pos":"adjective","topic":"comparison_more","level":"TI","t":{"de":"unterschiedlich, verschieden","en":"different","sv":"olika","nl":"verschillend"},"emoji":"","verified":false},
-  {"id":"lex_ti_vg2_best2","am":"ዝበለጸ","tr":"ziboletse","pos":"adjective","topic":"comparison_more","level":"TI","t":{"de":"das Beste","en":"best","sv":"bäst","nl":"beste"},"emoji":"","verified":false},
-  {"id":"lex_ti_vg2_worst2","am":"ዝኸፍአ","tr":"zikhefi'e","pos":"adjective","topic":"comparison_more","level":"TI","t":{"de":"das Schlechteste","en":"worst","sv":"sämst","nl":"slechtste"},"emoji":"","verified":false},
-  {"id":"lex_ti_vg2_more2","am":"ዝያዳ","tr":"ziyada","pos":"adverb","topic":"comparison_more","level":"TI","t":{"de":"mehr","en":"more","sv":"mer","nl":"meer"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_vg2_same2",
+    "am": "ማዕረ ማዕረ",
+    "tr": "ma'ere ma'ere",
+    "pos": "adjective",
+    "topic": "comparison_more",
+    "level": "TI",
+    "t": {
+      "de": "gleich, identisch",
+      "en": "same, identical",
+      "sv": "samma, identisk",
+      "nl": "hetzelfde, identiek",
+      "it": "uguale, identico",
+      "es": "igual, idéntico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vg2_diff2",
+    "am": "ፍልይ ዝበለ",
+    "tr": "filiyi zibele",
+    "pos": "adjective",
+    "topic": "comparison_more",
+    "level": "TI",
+    "t": {
+      "de": "unterschiedlich, verschieden",
+      "en": "different",
+      "sv": "olika",
+      "nl": "verschillend",
+      "it": "diverso",
+      "es": "diferente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vg2_best2",
+    "am": "ዝበለጸ",
+    "tr": "ziboletse",
+    "pos": "adjective",
+    "topic": "comparison_more",
+    "level": "TI",
+    "t": {
+      "de": "das Beste",
+      "en": "best",
+      "sv": "bäst",
+      "nl": "beste",
+      "it": "il migliore",
+      "es": "el mejor"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vg2_worst2",
+    "am": "ዝኸፍአ",
+    "tr": "zikhefi'e",
+    "pos": "adjective",
+    "topic": "comparison_more",
+    "level": "TI",
+    "t": {
+      "de": "das Schlechteste",
+      "en": "worst",
+      "sv": "sämst",
+      "nl": "slechtste",
+      "it": "il peggiore",
+      "es": "el peor"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vg2_more2",
+    "am": "ዝያዳ",
+    "tr": "ziyada",
+    "pos": "adverb",
+    "topic": "comparison_more",
+    "level": "TI",
+    "t": {
+      "de": "mehr",
+      "en": "more",
+      "sv": "mer",
+      "nl": "meer",
+      "it": "più",
+      "es": "más"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

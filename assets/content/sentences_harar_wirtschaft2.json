@@ -4,14 +4,22 @@
     "am": "ኢኮኖሚው ያድጋል።",
     "tr": "ikonomiw yadigal.",
     "level": "B2",
-    "uses": ["lex_ikonomi", "lex_v_madeg"],
+    "uses": [
+      "lex_ikonomi",
+      "lex_v_madeg"
+    ],
     "t": {
       "de": "Die Wirtschaft wächst.",
       "en": "The economy grows.",
       "sv": "Ekonomin växer.",
-      "nl": "De economie groeit."
+      "nl": "De economie groeit.",
+      "it": "L'economia cresce.",
+      "es": "La economía crece."
     },
-    "chunks": ["ikonomiw", "yadigal"],
+    "chunks": [
+      "ikonomiw",
+      "yadigal"
+    ],
     "verified": false
   },
   {
@@ -19,14 +27,23 @@
     "am": "ነጋዴው እቃውን ይሸጣል።",
     "tr": "negadew ik'awin yishet'al.",
     "level": "B2",
-    "uses": ["lex_nigid", "lex_v_meishach"],
+    "uses": [
+      "lex_nigid",
+      "lex_v_meishach"
+    ],
     "t": {
       "de": "Der Händler verkauft die Ware.",
       "en": "The trader sells the goods.",
       "sv": "Handlaren säljer varan.",
-      "nl": "De handelaar verkoopt de goederen."
+      "nl": "De handelaar verkoopt de goederen.",
+      "it": "Il commerciante vende la merce.",
+      "es": "El comerciante vende la mercancía."
     },
-    "chunks": ["negadew", "ik'awin", "yishet'al"],
+    "chunks": [
+      "negadew",
+      "ik'awin",
+      "yishet'al"
+    ],
     "verified": false
   },
   {
@@ -34,14 +51,24 @@
     "am": "ይህ ኪራይ ርካሽ ነው።",
     "tr": "yih kiray rikash newu.",
     "level": "B2",
-    "uses": ["lex_kiray", "lex_adj_rikash"],
+    "uses": [
+      "lex_kiray",
+      "lex_adj_rikash"
+    ],
     "t": {
       "de": "Diese Miete ist günstig.",
       "en": "This rent is cheap.",
       "sv": "Denna hyra är billig.",
-      "nl": "Deze huur is goedkoop."
+      "nl": "Deze huur is goedkoop.",
+      "it": "Questo affitto è conveniente.",
+      "es": "Este alquiler es barato."
     },
-    "chunks": ["yih", "kiray", "rikash", "newu"],
+    "chunks": [
+      "yih",
+      "kiray",
+      "rikash",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +76,22 @@
     "am": "ውድድር ከባድ ነው።",
     "tr": "widider kebad newu.",
     "level": "B2",
-    "uses": ["lex_mewuadederiya"],
+    "uses": [
+      "lex_mewuadederiya"
+    ],
     "t": {
       "de": "Wettbewerb ist hart.",
       "en": "Competition is tough.",
       "sv": "Konkurrensen är tuff.",
-      "nl": "Concurrentie is zwaar."
+      "nl": "Concurrentie is zwaar.",
+      "it": "La concorrenza è dura.",
+      "es": "La competencia es dura."
     },
-    "chunks": ["widider", "kebad", "newu"],
+    "chunks": [
+      "widider",
+      "kebad",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +99,24 @@
     "am": "ንግድ ለኢኮኖሚ አስፈላጊ ነው።",
     "tr": "nigid leikonomi asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_nigid", "lex_ikonomi"],
+    "uses": [
+      "lex_nigid",
+      "lex_ikonomi"
+    ],
     "t": {
       "de": "Handel ist wichtig für die Wirtschaft.",
       "en": "Trade is important for the economy.",
       "sv": "Handel är viktig för ekonomin.",
-      "nl": "Handel is belangrijk voor de economie."
+      "nl": "Handel is belangrijk voor de economie.",
+      "it": "Il commercio è importante per l'economia.",
+      "es": "El comercio es importante para la economía."
     },
-    "chunks": ["nigid", "leikonomi", "asfelagi", "newu"],
+    "chunks": [
+      "nigid",
+      "leikonomi",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   }
 ]

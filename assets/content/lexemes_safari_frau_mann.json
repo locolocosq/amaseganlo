@@ -10,7 +10,9 @@
       "de": "ist (er/es - männlich oder allgemein)",
       "en": "is (he/it - masculine or generic)",
       "sv": "är (han/det - maskulinum eller generiskt)",
-      "nl": "is (hij/het - mannelijk of algemeen)"
+      "nl": "is (hij/het - mannelijk of algemeen)",
+      "it": "è (lui/esso - maschile o generico)",
+      "es": "es (él/ello - masculino o genérico)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "ist (sie - weiblich)",
       "en": "is (she - feminine)",
       "sv": "är (hon - feminimum)",
-      "nl": "is (zij - vrouwelijk)"
+      "nl": "is (zij - vrouwelijk)",
+      "it": "è (lei - femminile)",
+      "es": "es (ella - femenino)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "bist (du - männlich)",
       "en": "are (you - masculine)",
       "sv": "är (du - maskulinum)",
-      "nl": "ben (jij - mannelijk)"
+      "nl": "ben (jij - mannelijk)",
+      "it": "sei (tu - maschile)",
+      "es": "eres (tú - masculino)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "bist (du - weiblich)",
       "en": "are (you - feminine)",
       "sv": "är (du - femininum)",
-      "nl": "ben (jij - vrouwelijk)"
+      "nl": "ben (jij - vrouwelijk)",
+      "it": "sei (tu - femminile)",
+      "es": "eres (tú - femenino)"
     },
     "hint": {},
     "alt": {},

@@ -1,6 +1,106 @@
 [
-  {"id":"sen_hs2_teseraki_gol","am":"ተጫዋቹ ጎል አገባ እና አሸነፈ።","tr":"techawachu gol ageba ina ashenefe.","level":"B2","uses":["lex_hs2_teseraki","lex_hs2_gol","lex_hs2_v_meiret2"],"t":{"de":"Der Spieler schoss ein Tor und gewann.","en":"The player scored a goal and won.","sv":"Spelaren gjorde mål och vann.","nl":"De speler scoorde een doelpunt en won."},"chunks":["techawachu","gol","ageba","ina","ashenefe"],"verified":false},
-  {"id":"sen_hs2_ashenafi_maranton","am":"አትሌቱ በማራቶን ሮጠ።","tr":"atiletu bemaraton rot'e.","level":"B2","uses":["lex_hs2_ashenafi2","lex_hs2_maranton","lex_hs2_v_meruzat"],"t":{"de":"Der Athlet lief den Marathon.","en":"The athlete ran the marathon.","sv":"Idrottaren sprang marathon.","nl":"De atleet rende de marathon."},"chunks":["atiletu","bemaraton","rot'e"],"verified":false},
-  {"id":"sen_hs2_astekelay_sitadiyem","am":"አሰልጣኙ ተጫዋቾችን በስታዲየም አሠለጠነ።","tr":"aseliltagnu techawachochin besitadiyem aselet'ene.","level":"B2","uses":["lex_hs2_astekelay","lex_hs2_teseraki","lex_hs2_akal11","lex_hs2_v_metsenat"],"t":{"de":"Der Trainer trainierte die Spieler im Stadion.","en":"The coach trained the players at the stadium.","sv":"Tränaren tränade spelarna på stadion.","nl":"De coach trainde de spelers in het stadion."},"chunks":["aseliltagnu","techawachochin","besitadiyem","aselet'ene"],"verified":false},
-  {"id":"sen_hs2_tinat_birtat","am":"ጡንቻዬ በብርታት ጠነከረ።","tr":"t'unichaye bebiritat t'enekere.","level":"B2","uses":["lex_hs2_tinat","lex_hs2_birtat","lex_hs2_v_metsenet"],"t":{"de":"Mein Muskel wurde durch Fitness stark.","en":"My muscle became strong through fitness.","sv":"Min muskel blev stark genom fitness.","nl":"Mijn spier werd sterk door fitheid."},"chunks":["t'unichaye","bebiritat","t'enekere"],"verified":false}
+  {
+    "id": "sen_hs2_teseraki_gol",
+    "am": "ተጫዋቹ ጎል አገባ እና አሸነፈ።",
+    "tr": "techawachu gol ageba ina ashenefe.",
+    "level": "B2",
+    "uses": [
+      "lex_hs2_teseraki",
+      "lex_hs2_gol",
+      "lex_hs2_v_meiret2"
+    ],
+    "t": {
+      "de": "Der Spieler schoss ein Tor und gewann.",
+      "en": "The player scored a goal and won.",
+      "sv": "Spelaren gjorde mål och vann.",
+      "nl": "De speler scoorde een doelpunt en won.",
+      "it": "Il giocatore ha segnato un gol e ha vinto.",
+      "es": "El jugador marcó un gol y ganó."
+    },
+    "chunks": [
+      "techawachu",
+      "gol",
+      "ageba",
+      "ina",
+      "ashenefe"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hs2_ashenafi_maranton",
+    "am": "አትሌቱ በማራቶን ሮጠ።",
+    "tr": "atiletu bemaraton rot'e.",
+    "level": "B2",
+    "uses": [
+      "lex_hs2_ashenafi2",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meruzat"
+    ],
+    "t": {
+      "de": "Der Athlet lief den Marathon.",
+      "en": "The athlete ran the marathon.",
+      "sv": "Idrottaren sprang marathon.",
+      "nl": "De atleet rende de marathon.",
+      "it": "L'atleta ha corso la maratona.",
+      "es": "El atleta corrió la maratón."
+    },
+    "chunks": [
+      "atiletu",
+      "bemaraton",
+      "rot'e"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hs2_astekelay_sitadiyem",
+    "am": "አሰልጣኙ ተጫዋቾችን በስታዲየም አሠለጠነ።",
+    "tr": "aseliltagnu techawachochin besitadiyem aselet'ene.",
+    "level": "B2",
+    "uses": [
+      "lex_hs2_astekelay",
+      "lex_hs2_teseraki",
+      "lex_hs2_akal11",
+      "lex_hs2_v_metsenat"
+    ],
+    "t": {
+      "de": "Der Trainer trainierte die Spieler im Stadion.",
+      "en": "The coach trained the players at the stadium.",
+      "sv": "Tränaren tränade spelarna på stadion.",
+      "nl": "De coach trainde de spelers in het stadion.",
+      "it": "L'allenatore ha allenato i giocatori allo stadio.",
+      "es": "El entrenador entrenó a los jugadores en el estadio."
+    },
+    "chunks": [
+      "aseliltagnu",
+      "techawachochin",
+      "besitadiyem",
+      "aselet'ene"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hs2_tinat_birtat",
+    "am": "ጡንቻዬ በብርታት ጠነከረ።",
+    "tr": "t'unichaye bebiritat t'enekere.",
+    "level": "B2",
+    "uses": [
+      "lex_hs2_tinat",
+      "lex_hs2_birtat",
+      "lex_hs2_v_metsenet"
+    ],
+    "t": {
+      "de": "Mein Muskel wurde durch Fitness stark.",
+      "en": "My muscle became strong through fitness.",
+      "sv": "Min muskel blev stark genom fitness.",
+      "nl": "Mijn spier werd sterk door fitheid.",
+      "it": "Il mio muscolo è diventato forte grazie al fitness.",
+      "es": "Mi músculo se volvió fuerte gracias al fitness."
+    },
+    "chunks": [
+      "t'unichaye",
+      "bebiritat",
+      "t'enekere"
+    ],
+    "verified": false
+  }
 ]

@@ -1,5 +1,56 @@
 [
-  {"id":"lex_ti_flx_btchr","am":"ስጋ ሸያጣይ","tr":"siga sheyatay","pos":"noun","topic":"butchery","level":"TI","t":{"de":"der Metzger","en":"butcher","sv":"slaktare","nl":"slager"},"emoji":"","verified":false},
-  {"id":"lex_ti_flx_ssge","am":"ስጋ ጥቅልል","tr":"siga tiqilil","pos":"noun","topic":"butchery","level":"TI","t":{"de":"die Wurst","en":"sausage","sv":"korv","nl":"worst"},"emoji":"","verified":false},
-  {"id":"lex_ti_flx_slghtr","am":"ሓረደ","tr":"harede","pos":"verb","topic":"butchery","level":"TI","t":{"de":"schlachten","en":"to slaughter","sv":"att slakta","nl":"slachten"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_flx_btchr",
+    "am": "ስጋ ሸያጣይ",
+    "tr": "siga sheyatay",
+    "pos": "noun",
+    "topic": "butchery",
+    "level": "TI",
+    "t": {
+      "de": "der Metzger",
+      "en": "butcher",
+      "sv": "slaktare",
+      "nl": "slager",
+      "it": "il macellaio",
+      "es": "el carnicero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flx_ssge",
+    "am": "ስጋ ጥቅልል",
+    "tr": "siga tiqilil",
+    "pos": "noun",
+    "topic": "butchery",
+    "level": "TI",
+    "t": {
+      "de": "die Wurst",
+      "en": "sausage",
+      "sv": "korv",
+      "nl": "worst",
+      "it": "la salsiccia",
+      "es": "la salchicha"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flx_slghtr",
+    "am": "ሓረደ",
+    "tr": "harede",
+    "pos": "verb",
+    "topic": "butchery",
+    "level": "TI",
+    "t": {
+      "de": "schlachten",
+      "en": "to slaughter",
+      "sv": "att slakta",
+      "nl": "slachten",
+      "it": "macellare",
+      "es": "sacrificar (un animal)"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

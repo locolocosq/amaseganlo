@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_umz_bxi","am":"ካርቶን","tr":"karton","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Umzugskarton","en":"moving box","sv":"flyttlåda","nl":"verhuisdoos"},"emoji":"📦","verified":false},
-  {"id":"lex_ti_umz_trck","am":"መኪና ጽዕነት","tr":"mekina tsi'inet","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Umzugswagen, LKW","en":"moving truck","sv":"flyttbil","nl":"verhuiswagen"},"emoji":"🚚","verified":false},
-  {"id":"lex_ti_umz_rnt","am":"ተኻረየ","tr":"tekareye","pos":"verb","topic":"moving","level":"TI","t":{"de":"mieten","en":"to rent","sv":"att hyra","nl":"huren"},"emoji":"","verified":false},
-  {"id":"lex_ti_umz_own","am":"ወነነ","tr":"wenene","pos":"verb","topic":"moving","level":"TI","t":{"de":"besitzen","en":"to own","sv":"att äga","nl":"bezitten"},"emoji":"","verified":false},
-  {"id":"lex_ti_umz_lease","am":"ውዕል ክራይ","tr":"wi'ili kiray","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Mietvertrag","en":"lease","sv":"hyresavtal","nl":"huurcontract"},"emoji":"","verified":false},
-  {"id":"lex_ti_umz_owner","am":"ወናኒ ገዛ","tr":"wenani geza","pos":"noun","topic":"moving","level":"TI","t":{"de":"der Vermieter","en":"landlord","sv":"hyresvärd","nl":"verhuurder"},"emoji":"","verified":false},
-  {"id":"lex_ti_umz_movd","am":"ግዙፍ ገዛ ተቐየረ","tr":"gizuf geza teqeyere","pos":"verb","topic":"moving","level":"TI","t":{"de":"umziehen","en":"to move (house)","sv":"att flytta","nl":"verhuizen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_umz_bxi",
+    "am": "ካርቶን",
+    "tr": "karton",
+    "pos": "noun",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "der Umzugskarton",
+      "en": "moving box",
+      "sv": "flyttlåda",
+      "nl": "verhuisdoos",
+      "it": "lo scatolone per il trasloco",
+      "es": "la caja de mudanza"
+    },
+    "emoji": "📦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umz_trck",
+    "am": "መኪና ጽዕነት",
+    "tr": "mekina tsi'inet",
+    "pos": "noun",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "der Umzugswagen, LKW",
+      "en": "moving truck",
+      "sv": "flyttbil",
+      "nl": "verhuiswagen",
+      "it": "il camion per il trasloco",
+      "es": "el camión de mudanza"
+    },
+    "emoji": "🚚",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umz_rnt",
+    "am": "ተኻረየ",
+    "tr": "tekareye",
+    "pos": "verb",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "mieten",
+      "en": "to rent",
+      "sv": "att hyra",
+      "nl": "huren",
+      "it": "affittare",
+      "es": "alquilar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umz_own",
+    "am": "ወነነ",
+    "tr": "wenene",
+    "pos": "verb",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "besitzen",
+      "en": "to own",
+      "sv": "att äga",
+      "nl": "bezitten",
+      "it": "possedere",
+      "es": "poseer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umz_lease",
+    "am": "ውዕል ክራይ",
+    "tr": "wi'ili kiray",
+    "pos": "noun",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "der Mietvertrag",
+      "en": "lease",
+      "sv": "hyresavtal",
+      "nl": "huurcontract",
+      "it": "il contratto d'affitto",
+      "es": "el contrato de alquiler"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umz_owner",
+    "am": "ወናኒ ገዛ",
+    "tr": "wenani geza",
+    "pos": "noun",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "der Vermieter",
+      "en": "landlord",
+      "sv": "hyresvärd",
+      "nl": "verhuurder",
+      "it": "il padrone di casa",
+      "es": "el propietario, arrendador"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umz_movd",
+    "am": "ግዙፍ ገዛ ተቐየረ",
+    "tr": "gizuf geza teqeyere",
+    "pos": "verb",
+    "topic": "moving",
+    "level": "TI",
+    "t": {
+      "de": "umziehen",
+      "en": "to move (house)",
+      "sv": "att flytta",
+      "nl": "verhuizen",
+      "it": "traslocare",
+      "es": "mudarse"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

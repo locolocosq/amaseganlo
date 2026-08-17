@@ -10,7 +10,9 @@
       "de": "das Telefon, Handy",
       "en": "telephone, phone",
       "sv": "telefon",
-      "nl": "telefoon"
+      "nl": "telefoon",
+      "it": "il telefono, il cellulare",
+      "es": "el teléfono, el móvil"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Internet",
       "en": "internet",
       "sv": "internet",
-      "nl": "internet"
+      "nl": "internet",
+      "it": "internet",
+      "es": "internet"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die E-Mail",
       "en": "email",
       "sv": "e-post",
-      "nl": "e-mail"
+      "nl": "e-mail",
+      "it": "l'email",
+      "es": "el correo electrónico"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Nachricht",
       "en": "message",
       "sv": "meddelande",
-      "nl": "bericht"
+      "nl": "bericht",
+      "it": "il messaggio",
+      "es": "el mensaje"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Batterie",
       "en": "battery",
       "sv": "batteri",
-      "nl": "batterij"
+      "nl": "batterij",
+      "it": "la batteria",
+      "es": "la batería"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "anrufen",
       "en": "to call",
       "sv": "ringa",
-      "nl": "bellen"
+      "nl": "bellen",
+      "it": "chiamare",
+      "es": "llamar"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "das Foto",
       "en": "photo",
       "sv": "foto",
-      "nl": "foto"
+      "nl": "foto",
+      "it": "la foto",
+      "es": "la foto"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "Europa",
       "en": "Europe",
       "sv": "Europa",
-      "nl": "Europa"
+      "nl": "Europa",
+      "it": "Europa",
+      "es": "Europa"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "Asien",
       "en": "Asia",
       "sv": "Asien",
-      "nl": "Azië"
+      "nl": "Azië",
+      "it": "Asia",
+      "es": "Asia"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "Afrika",
       "en": "Africa",
       "sv": "Afrika",
-      "nl": "Afrika"
+      "nl": "Afrika",
+      "it": "Africa",
+      "es": "África"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "Australien",
       "en": "Australia",
       "sv": "Australien",
-      "nl": "Australië"
+      "nl": "Australië",
+      "it": "Australia",
+      "es": "Australia"
     },
     "hint": {},
     "alt": {},

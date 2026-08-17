@@ -10,7 +10,9 @@
       "de": "viel",
       "en": "much, many",
       "sv": "mycket, många",
-      "nl": "veel"
+      "nl": "veel",
+      "it": "molto, molti",
+      "es": "mucho, muchos"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "wenig, ein paar",
       "en": "little, few",
       "sv": "lite, några",
-      "nl": "weinig, een paar"
+      "nl": "weinig, een paar",
+      "it": "poco, alcuni",
+      "es": "poco, algunos"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "mehr, zusätzlich",
       "en": "more, additional",
       "sv": "mer, ytterligare",
-      "nl": "meer, extra"
+      "nl": "meer, extra",
+      "it": "di più, aggiuntivo",
+      "es": "más, adicional"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "alle",
       "en": "all",
       "sv": "alla",
-      "nl": "alle"
+      "nl": "alle",
+      "it": "tutti",
+      "es": "todos"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "nichts",
       "en": "nothing",
       "sv": "ingenting",
-      "nl": "niets"
+      "nl": "niets",
+      "it": "niente",
+      "es": "nada"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "etwas",
       "en": "something",
       "sv": "något",
-      "nl": "iets"
+      "nl": "iets",
+      "it": "qualcosa",
+      "es": "algo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "genug",
       "en": "enough",
       "sv": "nog",
-      "nl": "genoeg"
+      "nl": "genoeg",
+      "it": "abbastanza",
+      "es": "suficiente"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Nachmittag",
       "en": "afternoon",
       "sv": "eftermiddag",
-      "nl": "namiddag"
+      "nl": "namiddag",
+      "it": "il pomeriggio",
+      "es": "la tarde"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Mittag",
       "en": "noon",
       "sv": "middag",
-      "nl": "middag"
+      "nl": "middag",
+      "it": "il mezzogiorno",
+      "es": "el mediodía"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Mitternacht",
       "en": "midnight",
       "sv": "midnatt",
-      "nl": "middernacht"
+      "nl": "middernacht",
+      "it": "la mezzanotte",
+      "es": "la medianoche"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "das Wochenende",
       "en": "weekend",
       "sv": "helg",
-      "nl": "weekend"
+      "nl": "weekend",
+      "it": "il fine settimana",
+      "es": "el fin de semana"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Jahreszeit",
       "en": "season",
       "sv": "årstid",
-      "nl": "seizoen"
+      "nl": "seizoen",
+      "it": "la stagione",
+      "es": "la estación"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "die Regenzeit",
       "en": "rainy season",
       "sv": "regnperiod",
-      "nl": "regenseizoen"
+      "nl": "regenseizoen",
+      "it": "la stagione delle piogge",
+      "es": "la temporada de lluvias"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "die Trockenzeit, der Sommer",
       "en": "dry season, summer",
       "sv": "torrperiod, sommar",
-      "nl": "droge seizoen, zomer"
+      "nl": "droge seizoen, zomer",
+      "it": "la stagione secca, l'estate",
+      "es": "la estación seca, el verano"
     },
     "hint": {},
     "alt": {},

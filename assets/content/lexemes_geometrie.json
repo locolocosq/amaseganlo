@@ -10,7 +10,9 @@
       "de": "das Dreieck",
       "en": "triangle",
       "sv": "triangel",
-      "nl": "driehoek"
+      "nl": "driehoek",
+      "it": "il triangolo",
+      "es": "el triángulo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Quadrat",
       "en": "square",
       "sv": "kvadrat",
-      "nl": "vierkant"
+      "nl": "vierkant",
+      "it": "il quadrato",
+      "es": "el cuadrado"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Kreis",
       "en": "circle",
       "sv": "cirkel",
-      "nl": "cirkel"
+      "nl": "cirkel",
+      "it": "il cerchio",
+      "es": "el círculo"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Rechteck",
       "en": "rectangle",
       "sv": "rektangel",
-      "nl": "rechthoek"
+      "nl": "rechthoek",
+      "it": "il rettangolo",
+      "es": "el rectángulo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Linie",
       "en": "line",
       "sv": "linje",
-      "nl": "lijn"
+      "nl": "lijn",
+      "it": "la linea",
+      "es": "la línea"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Punkt",
       "en": "point",
       "sv": "punkt",
-      "nl": "punt"
+      "nl": "punt",
+      "it": "il punto",
+      "es": "el punto"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Winkel",
       "en": "angle",
       "sv": "vinkel",
-      "nl": "hoek"
+      "nl": "hoek",
+      "it": "l'angolo",
+      "es": "el ángulo"
     },
     "hint": {},
     "alt": {},

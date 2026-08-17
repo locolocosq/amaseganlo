@@ -10,7 +10,9 @@
       "de": "die Pfanne",
       "en": "pan",
       "sv": "stekpanna",
-      "nl": "pan"
+      "nl": "pan",
+      "it": "la padella",
+      "es": "la sartén"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Schneidebrett",
       "en": "cutting board",
       "sv": "skärbräda",
-      "nl": "snijplank"
+      "nl": "snijplank",
+      "it": "il tagliere",
+      "es": "la tabla de cortar"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Schöpflöffel",
       "en": "ladle",
       "sv": "slev",
-      "nl": "soeplepel"
+      "nl": "soeplepel",
+      "it": "il mestolo",
+      "es": "el cucharón"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Reibe",
       "en": "grater",
       "sv": "rivjärn",
-      "nl": "rasp"
+      "nl": "rasp",
+      "it": "la grattugia",
+      "es": "el rallador"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Sieb",
       "en": "sieve",
       "sv": "sil",
-      "nl": "zeef"
+      "nl": "zeef",
+      "it": "il colino",
+      "es": "el colador"
     },
     "hint": {},
     "alt": {},

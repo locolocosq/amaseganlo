@@ -10,7 +10,9 @@
       "de": "selten",
       "en": "rarely",
       "sv": "sällan",
-      "nl": "zelden"
+      "nl": "zelden",
+      "it": "raramente",
+      "es": "raramente"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "normalerweise, gewöhnlich",
       "en": "usually",
       "sv": "vanligtvis",
-      "nl": "meestal"
+      "nl": "meestal",
+      "it": "normalmente, di solito",
+      "es": "normalmente, usualmente"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "sofort",
       "en": "immediately",
       "sv": "omedelbart",
-      "nl": "onmiddellijk"
+      "nl": "onmiddellijk",
+      "it": "subito",
+      "es": "inmediatamente"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "später",
       "en": "later",
       "sv": "senare",
-      "nl": "later"
+      "nl": "later",
+      "it": "più tardi",
+      "es": "más tarde"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "bereits, schon",
       "en": "already",
       "sv": "redan",
-      "nl": "al"
+      "nl": "al",
+      "it": "già",
+      "es": "ya"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "noch, immer noch",
       "en": "still",
       "sv": "fortfarande",
-      "nl": "nog steeds"
+      "nl": "nog steeds",
+      "it": "ancora",
+      "es": "todavía"
     },
     "hint": {},
     "alt": {},

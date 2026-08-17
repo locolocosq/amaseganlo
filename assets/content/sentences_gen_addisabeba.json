@@ -11,7 +11,9 @@
       "de": "der Name ist vorhanden.",
       "en": "There is name.",
       "sv": "Det finns namnet.",
-      "nl": "Er is de naam."
+      "nl": "Er is de naam.",
+      "it": "C'è un nome.",
+      "es": "Hay un nombre."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "die Mutter ist vorhanden.",
       "en": "There is mother.",
       "sv": "Det finns mamma.",
-      "nl": "Er is moeder."
+      "nl": "Er is moeder.",
+      "it": "C'è una madre.",
+      "es": "Hay una madre."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Ich habe den Vater.",
       "en": "I have father.",
       "sv": "Jag har pappa.",
-      "nl": "Ik heb vader."
+      "nl": "Ik heb vader.",
+      "it": "Ho un padre.",
+      "es": "Tengo un padre."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "Ich mag das Kind.",
       "en": "I like child.",
       "sv": "Jag gillar barn.",
-      "nl": "Ik hou van kind."
+      "nl": "Ik hou van kind.",
+      "it": "Mi piace il bambino.",
+      "es": "Me gusta el niño."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "1 ist vorhanden.",
       "en": "There is 1.",
       "sv": "Det finns 1.",
-      "nl": "Er is 1."
+      "nl": "Er is 1.",
+      "it": "C'è un 1.",
+      "es": "Hay un 1."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Ich habe 4.",
       "en": "I have 4.",
       "sv": "Jag har 4.",
-      "nl": "Ik heb 4."
+      "nl": "Ik heb 4.",
+      "it": "Ho un 4.",
+      "es": "Tengo un 4."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "der Kaffee ist vorhanden.",
       "en": "There is coffee.",
       "sv": "Det finns kaffe.",
-      "nl": "Er is koffie."
+      "nl": "Er is koffie.",
+      "it": "C'è caffè.",
+      "es": "Hay café."
     },
     "alt": {},
     "chunks": [
@@ -158,7 +172,9 @@
       "de": "Ich habe die Milch.",
       "en": "I have milk.",
       "sv": "Jag har mjölk.",
-      "nl": "Ik heb melk."
+      "nl": "Ik heb melk.",
+      "it": "Ho il latte.",
+      "es": "Tengo leche."
     },
     "alt": {},
     "chunks": [
@@ -179,7 +195,9 @@
       "de": "Ich mag das Fleisch.",
       "en": "I like meat.",
       "sv": "Jag gillar kött.",
-      "nl": "Ik hou van vlees."
+      "nl": "Ik hou van vlees.",
+      "it": "Mi piace la carne.",
+      "es": "Me gusta la carne."
     },
     "alt": {},
     "chunks": [
@@ -200,7 +218,9 @@
       "de": "Ich möchte trinken.",
       "en": "I want to drink.",
       "sv": "Jag vill dricka.",
-      "nl": "Ik wil drinken."
+      "nl": "Ik wil drinken.",
+      "it": "Voglio bere.",
+      "es": "Quiero beber."
     },
     "alt": {},
     "chunks": [

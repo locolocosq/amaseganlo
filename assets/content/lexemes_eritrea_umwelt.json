@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_umw_awirai","am":"ኣየር ብከላ","tr":"ayer bikela","pos":"noun","topic":"environment","level":"TI","t":{"de":"die Luftverschmutzung","en":"air pollution","sv":"luftförorening","nl":"luchtvervuiling"},"emoji":"","verified":false},
-  {"id":"lex_ti_umw_qyrnt","am":"ጽሬት ከባቢ","tr":"tsiret kebabi","pos":"noun","topic":"environment","level":"TI","t":{"de":"der Umweltschutz","en":"environmental protection","sv":"miljöskydd","nl":"milieubescherming"},"emoji":"","verified":false},
-  {"id":"lex_ti_umw_dqla","am":"ጫካ","tr":"chaka","pos":"noun","topic":"environment","level":"TI","t":{"de":"der Wald, Dschungel","en":"forest, jungle","sv":"skog, djungel","nl":"bos, jungle"},"emoji":"🌳","verified":false},
-  {"id":"lex_ti_umw_bzhr","am":"ዳግማይ ምጥቃም","tr":"dagimay mitiqam","pos":"noun","topic":"environment","level":"TI","t":{"de":"das Recycling","en":"recycling","sv":"återvinning","nl":"recycling"},"emoji":"♻️","verified":false},
-  {"id":"lex_ti_umw_ktkb","am":"ጎሓፍ","tr":"gohaf","pos":"noun","topic":"environment","level":"TI","t":{"de":"der Müll, Abfall","en":"garbage, waste","sv":"skräp","nl":"afval"},"emoji":"🗑️","verified":false},
-  {"id":"lex_ti_umw_ndgo","am":"ተፈጥሮ","tr":"tefetiro","pos":"noun","topic":"environment","level":"TI","t":{"de":"die Natur","en":"nature","sv":"natur","nl":"natuur"},"emoji":"🌿","verified":false},
-  {"id":"lex_ti_umw_hywe","am":"ህይወት ዘለዎ ኣከባቢ","tr":"hiyiwet zelewo akebabi","pos":"noun","topic":"environment","level":"TI","t":{"de":"das Ökosystem","en":"ecosystem","sv":"ekosystem","nl":"ecosysteem"},"emoji":"","verified":false},
-  {"id":"lex_ti_umw_hywc","am":"ኣየር ምዝባዕ","tr":"ayer mizba'i","pos":"noun","topic":"environment","level":"TI","t":{"de":"der Klimawandel","en":"climate change","sv":"klimatförändring","nl":"klimaatverandering"},"emoji":"","verified":false},
-  {"id":"lex_ti_umw_msms","am":"ጸዓት","tr":"tse'at","pos":"noun","topic":"environment","level":"TI","t":{"de":"die Energie","en":"energy","sv":"energi","nl":"energie"},"emoji":"⚡","verified":false},
-  {"id":"lex_ti_umw_hywd","am":"ጸሓያዊ ጸዓት","tr":"tsehayawi tse'at","pos":"noun","topic":"environment","level":"TI","t":{"de":"die Solarenergie","en":"solar energy","sv":"solenergi","nl":"zonne-energie"},"emoji":"☀️","verified":false}
+  {
+    "id": "lex_ti_umw_awirai",
+    "am": "ኣየር ብከላ",
+    "tr": "ayer bikela",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "die Luftverschmutzung",
+      "en": "air pollution",
+      "sv": "luftförorening",
+      "nl": "luchtvervuiling",
+      "it": "l'inquinamento dell'aria",
+      "es": "la contaminación del aire"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_qyrnt",
+    "am": "ጽሬት ከባቢ",
+    "tr": "tsiret kebabi",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "der Umweltschutz",
+      "en": "environmental protection",
+      "sv": "miljöskydd",
+      "nl": "milieubescherming",
+      "it": "la protezione dell'ambiente",
+      "es": "la protección del medio ambiente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_dqla",
+    "am": "ጫካ",
+    "tr": "chaka",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "der Wald, Dschungel",
+      "en": "forest, jungle",
+      "sv": "skog, djungel",
+      "nl": "bos, jungle",
+      "it": "la foresta, la giungla",
+      "es": "el bosque, la selva"
+    },
+    "emoji": "🌳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_bzhr",
+    "am": "ዳግማይ ምጥቃም",
+    "tr": "dagimay mitiqam",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "das Recycling",
+      "en": "recycling",
+      "sv": "återvinning",
+      "nl": "recycling",
+      "it": "il riciclaggio",
+      "es": "el reciclaje"
+    },
+    "emoji": "♻️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_ktkb",
+    "am": "ጎሓፍ",
+    "tr": "gohaf",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "der Müll, Abfall",
+      "en": "garbage, waste",
+      "sv": "skräp",
+      "nl": "afval",
+      "it": "la spazzatura, i rifiuti",
+      "es": "la basura"
+    },
+    "emoji": "🗑️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_ndgo",
+    "am": "ተፈጥሮ",
+    "tr": "tefetiro",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "die Natur",
+      "en": "nature",
+      "sv": "natur",
+      "nl": "natuur",
+      "it": "la natura",
+      "es": "la naturaleza"
+    },
+    "emoji": "🌿",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_hywe",
+    "am": "ህይወት ዘለዎ ኣከባቢ",
+    "tr": "hiyiwet zelewo akebabi",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "das Ökosystem",
+      "en": "ecosystem",
+      "sv": "ekosystem",
+      "nl": "ecosysteem",
+      "it": "l'ecosistema",
+      "es": "el ecosistema"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_hywc",
+    "am": "ኣየር ምዝባዕ",
+    "tr": "ayer mizba'i",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "der Klimawandel",
+      "en": "climate change",
+      "sv": "klimatförändring",
+      "nl": "klimaatverandering",
+      "it": "il cambiamento climatico",
+      "es": "el cambio climático"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_msms",
+    "am": "ጸዓት",
+    "tr": "tse'at",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "die Energie",
+      "en": "energy",
+      "sv": "energi",
+      "nl": "energie",
+      "it": "l'energia",
+      "es": "la energía"
+    },
+    "emoji": "⚡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_umw_hywd",
+    "am": "ጸሓያዊ ጸዓት",
+    "tr": "tsehayawi tse'at",
+    "pos": "noun",
+    "topic": "environment",
+    "level": "TI",
+    "t": {
+      "de": "die Solarenergie",
+      "en": "solar energy",
+      "sv": "solenergi",
+      "nl": "zonne-energie",
+      "it": "energia solare",
+      "es": "energía solar"
+    },
+    "emoji": "☀️",
+    "verified": false
+  }
 ]

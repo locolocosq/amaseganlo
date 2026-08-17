@@ -11,7 +11,9 @@
       "de": "200 ist vorhanden.",
       "en": "There is 200.",
       "sv": "Det finns 200.",
-      "nl": "Er is 200."
+      "nl": "Er is 200.",
+      "it": "C'è 200.",
+      "es": "Hay 200."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "Ich habe 300.",
       "en": "I have 300.",
       "sv": "Jag har 300.",
-      "nl": "Ik heb 300."
+      "nl": "Ik heb 300.",
+      "it": "Ho 300.",
+      "es": "Tengo 300."
     },
     "alt": {},
     "chunks": [
@@ -55,7 +59,9 @@
       "de": "Ich mag 500.",
       "en": "I like 500.",
       "sv": "Jag gillar 500.",
-      "nl": "Ik hou van 500."
+      "nl": "Ik hou van 500.",
+      "it": "Mi piace 500.",
+      "es": "Me gusta 500."
     },
     "alt": {},
     "chunks": [
@@ -77,7 +83,9 @@
       "de": "die Million ist vorhanden.",
       "en": "There is million.",
       "sv": "Det finns miljon.",
-      "nl": "Er is miljoen."
+      "nl": "Er is miljoen.",
+      "it": "C'è un milione.",
+      "es": "Hay un millón."
     },
     "alt": {},
     "chunks": [
@@ -98,7 +106,9 @@
       "de": "Ich habe die Butter.",
       "en": "I have butter.",
       "sv": "Jag har smör.",
-      "nl": "Ik heb boter."
+      "nl": "Ik heb boter.",
+      "it": "Ho il burro.",
+      "es": "Tengo la mantequilla."
     },
     "alt": {},
     "chunks": [
@@ -119,7 +129,9 @@
       "de": "400 ist vorhanden.",
       "en": "There is 400.",
       "sv": "Det finns 400.",
-      "nl": "Er is 400."
+      "nl": "Er is 400.",
+      "it": "C'è 400.",
+      "es": "Hay 400."
     },
     "alt": {},
     "chunks": [
@@ -141,7 +153,9 @@
       "de": "Ich habe 600.",
       "en": "I have 600.",
       "sv": "Jag har 600.",
-      "nl": "Ik heb 600."
+      "nl": "Ik heb 600.",
+      "it": "Ho 600.",
+      "es": "Tengo 600."
     },
     "alt": {},
     "chunks": [
@@ -163,7 +177,9 @@
       "de": "Ich mag 700.",
       "en": "I like 700.",
       "sv": "Jag gillar 700.",
-      "nl": "Ik hou van 700."
+      "nl": "Ik hou van 700.",
+      "it": "Mi piace 700.",
+      "es": "Me gusta 700."
     },
     "alt": {},
     "chunks": [
@@ -185,7 +201,9 @@
       "de": "800 ist vorhanden.",
       "en": "There is 800.",
       "sv": "Det finns 800.",
-      "nl": "Er is 800."
+      "nl": "Er is 800.",
+      "it": "C'è 800.",
+      "es": "Hay 800."
     },
     "alt": {},
     "chunks": [
@@ -207,7 +225,9 @@
       "de": "Ich habe 900.",
       "en": "I have 900.",
       "sv": "Jag har 900.",
-      "nl": "Ik heb 900."
+      "nl": "Ik heb 900.",
+      "it": "Ho 900.",
+      "es": "Tengo 900."
     },
     "alt": {},
     "chunks": [

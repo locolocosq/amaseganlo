@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_rng_vcm","am":"መስሓቢ ዶኻ","tr":"mesihabi dokha","pos":"noun","topic":"cleaning","level":"TI","t":{"de":"der Staubsauger","en":"vacuum cleaner","sv":"dammsugare","nl":"stofzuiger"},"emoji":"","verified":false},
-  {"id":"lex_ti_rng_mop","am":"ናይ ምድሪ መጽረዪ","tr":"nay midri metsereyi","pos":"noun","topic":"cleaning","level":"TI","t":{"de":"der Wischmopp","en":"mop","sv":"mopp","nl":"dweil"},"emoji":"","verified":false},
-  {"id":"lex_ti_rng_dtrg","am":"ሳሙና ምሕጻብ","tr":"samuna mihitsab","pos":"noun","topic":"cleaning","level":"TI","t":{"de":"das Reinigungsmittel","en":"detergent, cleaning agent","sv":"rengöringsmedel","nl":"schoonmaakmiddel"},"emoji":"","verified":false},
-  {"id":"lex_ti_rng_bin","am":"ሳንዱቕ ጎሓፍ","tr":"sanduq gohaf","pos":"noun","topic":"cleaning","level":"TI","t":{"de":"der Mülleimer","en":"trash bin","sv":"soptunna","nl":"vuilnisbak"},"emoji":"🗑️","verified":false},
-  {"id":"lex_ti_rng_dust","am":"ሓሸሽ","tr":"hashesh","pos":"noun","topic":"cleaning","level":"TI","t":{"de":"der Staub","en":"dust","sv":"damm","nl":"stof (vuil)"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_rng_vcm",
+    "am": "መስሓቢ ዶኻ",
+    "tr": "mesihabi dokha",
+    "pos": "noun",
+    "topic": "cleaning",
+    "level": "TI",
+    "t": {
+      "de": "der Staubsauger",
+      "en": "vacuum cleaner",
+      "sv": "dammsugare",
+      "nl": "stofzuiger",
+      "it": "l'aspirapolvere",
+      "es": "la aspiradora"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rng_mop",
+    "am": "ናይ ምድሪ መጽረዪ",
+    "tr": "nay midri metsereyi",
+    "pos": "noun",
+    "topic": "cleaning",
+    "level": "TI",
+    "t": {
+      "de": "der Wischmopp",
+      "en": "mop",
+      "sv": "mopp",
+      "nl": "dweil",
+      "it": "lo scopone, il mocio",
+      "es": "la fregona"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rng_dtrg",
+    "am": "ሳሙና ምሕጻብ",
+    "tr": "samuna mihitsab",
+    "pos": "noun",
+    "topic": "cleaning",
+    "level": "TI",
+    "t": {
+      "de": "das Reinigungsmittel",
+      "en": "detergent, cleaning agent",
+      "sv": "rengöringsmedel",
+      "nl": "schoonmaakmiddel",
+      "it": "il detersivo",
+      "es": "el detergente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rng_bin",
+    "am": "ሳንዱቕ ጎሓፍ",
+    "tr": "sanduq gohaf",
+    "pos": "noun",
+    "topic": "cleaning",
+    "level": "TI",
+    "t": {
+      "de": "der Mülleimer",
+      "en": "trash bin",
+      "sv": "soptunna",
+      "nl": "vuilnisbak",
+      "it": "il bidone della spazzatura",
+      "es": "el cubo de la basura"
+    },
+    "emoji": "🗑️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rng_dust",
+    "am": "ሓሸሽ",
+    "tr": "hashesh",
+    "pos": "noun",
+    "topic": "cleaning",
+    "level": "TI",
+    "t": {
+      "de": "der Staub",
+      "en": "dust",
+      "sv": "damm",
+      "nl": "stof (vuil)",
+      "it": "la polvere",
+      "es": "el polvo"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

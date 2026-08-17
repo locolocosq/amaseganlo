@@ -1,22 +1,402 @@
 [
-  {"id":"lex_hu3_dirikat","am":"ድርቅ","tr":"dirik'","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"die Dürre","en":"drought","sv":"torka","nl":"droogte"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_wana_wihel","am":"ጎርፍ","tr":"gorif","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"die Flut, Überschwemmung","en":"flood","sv":"översvämning","nl":"overstroming"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_zenab","am":"ዝናብ","tr":"zinab","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"der Regen","en":"rain","sv":"regn","nl":"regen"},"hint":{},"alt":{},"emoji":"🌧️","verified":true},
-  {"id":"lex_hu3_v_zenb_metat","am":"ዝናብ መጣል","tr":"zinab met'al","pos":"verb","topic":"environment_3","level":"B2","t":{"de":"regnen","en":"to rain","sv":"regna","nl":"regenen"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hu3_wond_ayer","am":"ንፍስ","tr":"nifas","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"der Wind","en":"wind","sv":"vind","nl":"wind"},"hint":{},"alt":{},"emoji":"💨","verified":true},
-  {"id":"lex_hu3_bereha2","am":"ድርቅ ስፍራ","tr":"dirik' sifira","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"das Trockengebiet","en":"arid area","sv":"torrt område","nl":"droog gebied"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hu3_hod","am":"ሙቀት","tr":"muk'et","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"die Hitze","en":"heat","sv":"värme","nl":"hitte"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_bird","am":"ብርድ","tr":"birid","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"die Kälte","en":"cold","sv":"kyla","nl":"kou"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_v_metekakel6","am":"መጎዳት","tr":"megodat","pos":"verb","topic":"environment_3","level":"B2","t":{"de":"beschädigen, schaden","en":"to damage, to harm","sv":"skada","nl":"beschadigen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_gudat","am":"ጉዳት","tr":"gudat","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"der Schaden","en":"damage, harm","sv":"skada","nl":"schade"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_akababi3","am":"የከርሰ ምድር ውሃ","tr":"yekerise midir wiha","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"das Grundwasser","en":"groundwater","sv":"grundvatten","nl":"grondwater"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hu3_zele","am":"ጥላ","tr":"t'ila","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"der Schatten","en":"shade, shadow","sv":"skugga","nl":"schaduw"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_bahil2","am":"ደመና","tr":"demena","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"die Wolke","en":"cloud","sv":"moln","nl":"wolk"},"hint":{},"alt":{},"emoji":"☁️","verified":true},
-  {"id":"lex_hu3_meshet","am":"ንፋስ ማዕበል","tr":"nifas ma'ibel","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"der Sturm","en":"storm","sv":"storm","nl":"storm"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hu3_v_masdeneget","am":"ማድን","tr":"madin","pos":"verb","topic":"environment_3","level":"B2","t":{"de":"retten (Umwelt)","en":"to save (environment)","sv":"rädda (miljö)","nl":"redden (milieu)"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hu3_zaf_tekel","am":"ችግኝ","tr":"chigign","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"der Setzling","en":"sapling, seedling","sv":"planta","nl":"zaailing"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_v_matekel","am":"ችግኝ መትከል","tr":"chigign metikel","pos":"verb","topic":"environment_3","level":"B2","t":{"de":"aufforsten (Setzlinge pflanzen)","en":"to plant saplings (reforest)","sv":"plantera skog","nl":"herbebossen"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hu3_akababi4","am":"አየር","tr":"ayer","pos":"noun","topic":"environment_3","level":"B2","t":{"de":"die Luft","en":"air","sv":"luft","nl":"lucht"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_adj_netsa","am":"ንፁህ","tr":"nits'uh","pos":"adjective","topic":"environment_3","level":"B2","t":{"de":"sauber, rein","en":"clean, pure","sv":"ren","nl":"schoon, zuiver"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hu3_adj_bekil","am":"የቆሸሸ","tr":"yek'oshoshe","pos":"adjective","topic":"environment_3","level":"B2","t":{"de":"schmutzig","en":"dirty","sv":"smutsig","nl":"vuil"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hu3_dirikat",
+    "am": "ድርቅ",
+    "tr": "dirik'",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "die Dürre",
+      "en": "drought",
+      "sv": "torka",
+      "nl": "droogte",
+      "it": "la siccità",
+      "es": "la sequía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_wana_wihel",
+    "am": "ጎርፍ",
+    "tr": "gorif",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "die Flut, Überschwemmung",
+      "en": "flood",
+      "sv": "översvämning",
+      "nl": "overstroming",
+      "it": "l'alluvione",
+      "es": "la inundación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_zenab",
+    "am": "ዝናብ",
+    "tr": "zinab",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "der Regen",
+      "en": "rain",
+      "sv": "regn",
+      "nl": "regen",
+      "it": "la pioggia",
+      "es": "la lluvia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌧️",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_v_zenb_metat",
+    "am": "ዝናብ መጣል",
+    "tr": "zinab met'al",
+    "pos": "verb",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "regnen",
+      "en": "to rain",
+      "sv": "regna",
+      "nl": "regenen",
+      "it": "piovere",
+      "es": "llover"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hu3_wond_ayer",
+    "am": "ንፍስ",
+    "tr": "nifas",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "der Wind",
+      "en": "wind",
+      "sv": "vind",
+      "nl": "wind",
+      "it": "il vento",
+      "es": "el viento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💨",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_bereha2",
+    "am": "ድርቅ ስፍራ",
+    "tr": "dirik' sifira",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "das Trockengebiet",
+      "en": "arid area",
+      "sv": "torrt område",
+      "nl": "droog gebied",
+      "it": "la zona arida",
+      "es": "la zona árida"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hu3_hod",
+    "am": "ሙቀት",
+    "tr": "muk'et",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "die Hitze",
+      "en": "heat",
+      "sv": "värme",
+      "nl": "hitte",
+      "it": "il caldo",
+      "es": "el calor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_bird",
+    "am": "ብርድ",
+    "tr": "birid",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "die Kälte",
+      "en": "cold",
+      "sv": "kyla",
+      "nl": "kou",
+      "it": "il freddo",
+      "es": "el frío"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_v_metekakel6",
+    "am": "መጎዳት",
+    "tr": "megodat",
+    "pos": "verb",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "beschädigen, schaden",
+      "en": "to damage, to harm",
+      "sv": "skada",
+      "nl": "beschadigen",
+      "it": "danneggiare",
+      "es": "dañar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_gudat",
+    "am": "ጉዳት",
+    "tr": "gudat",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "der Schaden",
+      "en": "damage, harm",
+      "sv": "skada",
+      "nl": "schade",
+      "it": "il danno",
+      "es": "el daño"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_akababi3",
+    "am": "የከርሰ ምድር ውሃ",
+    "tr": "yekerise midir wiha",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "das Grundwasser",
+      "en": "groundwater",
+      "sv": "grundvatten",
+      "nl": "grondwater",
+      "it": "la falda acquifera",
+      "es": "el agua subterránea"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hu3_zele",
+    "am": "ጥላ",
+    "tr": "t'ila",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "der Schatten",
+      "en": "shade, shadow",
+      "sv": "skugga",
+      "nl": "schaduw",
+      "it": "l'ombra",
+      "es": "la sombra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_bahil2",
+    "am": "ደመና",
+    "tr": "demena",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "die Wolke",
+      "en": "cloud",
+      "sv": "moln",
+      "nl": "wolk",
+      "it": "la nuvola",
+      "es": "la nube"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☁️",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_meshet",
+    "am": "ንፋስ ማዕበል",
+    "tr": "nifas ma'ibel",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "der Sturm",
+      "en": "storm",
+      "sv": "storm",
+      "nl": "storm",
+      "it": "la tempesta",
+      "es": "la tormenta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hu3_v_masdeneget",
+    "am": "ማድን",
+    "tr": "madin",
+    "pos": "verb",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "retten (Umwelt)",
+      "en": "to save (environment)",
+      "sv": "rädda (miljö)",
+      "nl": "redden (milieu)",
+      "it": "salvare (ambiente)",
+      "es": "salvar (medio ambiente)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hu3_zaf_tekel",
+    "am": "ችግኝ",
+    "tr": "chigign",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "der Setzling",
+      "en": "sapling, seedling",
+      "sv": "planta",
+      "nl": "zaailing",
+      "it": "la piantina",
+      "es": "el plantón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_v_matekel",
+    "am": "ችግኝ መትከል",
+    "tr": "chigign metikel",
+    "pos": "verb",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "aufforsten (Setzlinge pflanzen)",
+      "en": "to plant saplings (reforest)",
+      "sv": "plantera skog",
+      "nl": "herbebossen",
+      "it": "rimboschire (piantare alberi)",
+      "es": "reforestar (plantar árboles)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hu3_akababi4",
+    "am": "አየር",
+    "tr": "ayer",
+    "pos": "noun",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "die Luft",
+      "en": "air",
+      "sv": "luft",
+      "nl": "lucht",
+      "it": "l'aria",
+      "es": "el aire"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_adj_netsa",
+    "am": "ንፁህ",
+    "tr": "nits'uh",
+    "pos": "adjective",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "sauber, rein",
+      "en": "clean, pure",
+      "sv": "ren",
+      "nl": "schoon, zuiver",
+      "it": "pulito, puro",
+      "es": "limpio, puro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hu3_adj_bekil",
+    "am": "የቆሸሸ",
+    "tr": "yek'oshoshe",
+    "pos": "adjective",
+    "topic": "environment_3",
+    "level": "B2",
+    "t": {
+      "de": "schmutzig",
+      "en": "dirty",
+      "sv": "smutsig",
+      "nl": "vuil",
+      "it": "sporco",
+      "es": "sucio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

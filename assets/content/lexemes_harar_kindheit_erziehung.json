@@ -1,15 +1,262 @@
 [
-  {"id":"lex_hke_lijinet","am":"ልጅነት","tr":"lijinet","pos":"noun","topic":"childhood","level":"B2","t":{"de":"die Kindheit","en":"childhood","sv":"barndom","nl":"kindertijd"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_v_maridat","am":"ማሳደግ","tr":"masadeg","pos":"verb","topic":"childhood","level":"B2","t":{"de":"aufziehen (Kind)","en":"to raise (a child)","sv":"uppfostra","nl":"opvoeden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_tegisats","am":"ተግሳጽ","tr":"tegisats'","pos":"noun","topic":"childhood","level":"B2","t":{"de":"die Disziplin, Ermahnung","en":"discipline, reprimand","sv":"disciplin","nl":"discipline"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_yehitsanat_makoya","am":"የሕፃናት ማቆያ","tr":"yehits'anat mak'oya","pos":"noun","topic":"childhood","level":"B2","t":{"de":"der Kindergarten","en":"kindergarten, childcare","sv":"förskola","nl":"kinderopvang"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_hitsan2","am":"ሕፃን","tr":"hits'an","pos":"noun","topic":"childhood","level":"B2","t":{"de":"das Kleinkind, der Säugling","en":"infant, small child","sv":"spädbarn","nl":"kleuter"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_mikir2","am":"ምክር","tr":"mikir","pos":"noun","topic":"childhood","level":"B2","t":{"de":"der Rat","en":"advice, counsel","sv":"råd","nl":"advies"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_sine_migibar","am":"ስነ ምግባር","tr":"sine migibar","pos":"noun","topic":"childhood","level":"B2","t":{"de":"das Benehmen, die Erziehung","en":"manners, upbringing","sv":"uppförande, uppfostran","nl":"manieren, opvoeding"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_adj_tihut","am":"ትሁት","tr":"tihut","pos":"adjective","topic":"childhood","level":"B2","t":{"de":"gehorsam, bescheiden","en":"obedient, humble","sv":"lydig, ödmjuk","nl":"gehoorzaam, bescheiden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_adj_tinish2","am":"ትንሽ","tr":"tinish","pos":"adjective","topic":"childhood","level":"B2","t":{"de":"klein, jung","en":"small, young","sv":"liten, ung","nl":"klein, jong"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_lidet2","am":"ልደት","tr":"lidet","pos":"noun","topic":"childhood","level":"B2","t":{"de":"die Geburt, der Geburtstag","en":"birth, birthday","sv":"födelse, födelsedag","nl":"geboorte, verjaardag"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_mechaweca","am":"መጫወቻ","tr":"mechaweca","pos":"noun","topic":"childhood","level":"B2","t":{"de":"das Spielzeug","en":"toy","sv":"leksak","nl":"speelgoed"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_inat2","am":"እናት","tr":"inat","pos":"noun","topic":"childhood","level":"B2","t":{"de":"die Mutter","en":"mother","sv":"mamma","nl":"moeder"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hke_abat2","am":"አባት","tr":"abat","pos":"noun","topic":"childhood","level":"B2","t":{"de":"der Vater","en":"father","sv":"pappa","nl":"vader"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hke_lijinet",
+    "am": "ልጅነት",
+    "tr": "lijinet",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "die Kindheit",
+      "en": "childhood",
+      "sv": "barndom",
+      "nl": "kindertijd",
+      "it": "l'infanzia",
+      "es": "la infancia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_v_maridat",
+    "am": "ማሳደግ",
+    "tr": "masadeg",
+    "pos": "verb",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "aufziehen (Kind)",
+      "en": "to raise (a child)",
+      "sv": "uppfostra",
+      "nl": "opvoeden",
+      "it": "crescere, allevare (un bambino)",
+      "es": "criar (a un niño)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_tegisats",
+    "am": "ተግሳጽ",
+    "tr": "tegisats'",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "die Disziplin, Ermahnung",
+      "en": "discipline, reprimand",
+      "sv": "disciplin",
+      "nl": "discipline",
+      "it": "la disciplina, il rimprovero",
+      "es": "la disciplina, la reprimenda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_yehitsanat_makoya",
+    "am": "የሕፃናት ማቆያ",
+    "tr": "yehits'anat mak'oya",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "der Kindergarten",
+      "en": "kindergarten, childcare",
+      "sv": "förskola",
+      "nl": "kinderopvang",
+      "it": "l'asilo, la scuola materna",
+      "es": "la guardería"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_hitsan2",
+    "am": "ሕፃን",
+    "tr": "hits'an",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "das Kleinkind, der Säugling",
+      "en": "infant, small child",
+      "sv": "spädbarn",
+      "nl": "kleuter",
+      "it": "il/la bambino/a piccolo/a, il neonato",
+      "es": "el/la niño/a pequeño/a, el bebé"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_mikir2",
+    "am": "ምክር",
+    "tr": "mikir",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "der Rat",
+      "en": "advice, counsel",
+      "sv": "råd",
+      "nl": "advies",
+      "it": "il consiglio",
+      "es": "el consejo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_sine_migibar",
+    "am": "ስነ ምግባር",
+    "tr": "sine migibar",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "das Benehmen, die Erziehung",
+      "en": "manners, upbringing",
+      "sv": "uppförande, uppfostran",
+      "nl": "manieren, opvoeding",
+      "it": "il comportamento, l'educazione",
+      "es": "los modales, la educación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_adj_tihut",
+    "am": "ትሁት",
+    "tr": "tihut",
+    "pos": "adjective",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "gehorsam, bescheiden",
+      "en": "obedient, humble",
+      "sv": "lydig, ödmjuk",
+      "nl": "gehoorzaam, bescheiden",
+      "it": "ubbidiente, umile",
+      "es": "obediente, humilde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_adj_tinish2",
+    "am": "ትንሽ",
+    "tr": "tinish",
+    "pos": "adjective",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "klein, jung",
+      "en": "small, young",
+      "sv": "liten, ung",
+      "nl": "klein, jong",
+      "it": "piccolo, giovane",
+      "es": "pequeño, joven"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_lidet2",
+    "am": "ልደት",
+    "tr": "lidet",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "die Geburt, der Geburtstag",
+      "en": "birth, birthday",
+      "sv": "födelse, födelsedag",
+      "nl": "geboorte, verjaardag",
+      "it": "la nascita, il compleanno",
+      "es": "el nacimiento, el cumpleaños"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_mechaweca",
+    "am": "መጫወቻ",
+    "tr": "mechaweca",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "das Spielzeug",
+      "en": "toy",
+      "sv": "leksak",
+      "nl": "speelgoed",
+      "it": "il giocattolo",
+      "es": "el juguete"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_inat2",
+    "am": "እናት",
+    "tr": "inat",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "die Mutter",
+      "en": "mother",
+      "sv": "mamma",
+      "nl": "moeder",
+      "it": "la mamma",
+      "es": "la mamá"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hke_abat2",
+    "am": "አባት",
+    "tr": "abat",
+    "pos": "noun",
+    "topic": "childhood",
+    "level": "B2",
+    "t": {
+      "de": "der Vater",
+      "en": "father",
+      "sv": "pappa",
+      "nl": "vader",
+      "it": "il papà",
+      "es": "el papá"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

@@ -4,7 +4,7 @@ import '../core/storage_service.dart';
 import '../models/settings.dart';
 
 /// Supported UI languages, in the order they should appear in pickers.
-const List<String> supportedLocaleCodes = ['de', 'en', 'sv', 'nl'];
+const List<String> supportedLocaleCodes = ['de', 'en', 'sv', 'nl', 'it', 'es'];
 
 class SettingsProvider extends ChangeNotifier {
   final StorageService _storage;

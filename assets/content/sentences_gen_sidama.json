@@ -11,7 +11,9 @@
       "de": "der Plan ist vorhanden.",
       "en": "There is plan.",
       "sv": "Det finns plan.",
-      "nl": "Er is plan."
+      "nl": "Er is plan.",
+      "it": "C'è un piano.",
+      "es": "Hay un plan."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Ich habe den Wunsch.",
       "en": "I have wish.",
       "sv": "Jag har önskan.",
-      "nl": "Ik heb wens."
+      "nl": "Ik heb wens.",
+      "it": "Ho un desiderio.",
+      "es": "Tengo un deseo."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Ich mag das Ziel.",
       "en": "I like goal.",
       "sv": "Jag gillar mål.",
-      "nl": "Ik hou van doel."
+      "nl": "Ik hou van doel.",
+      "it": "Mi piace l'obiettivo.",
+      "es": "Me gusta la meta."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "die Kaffeezeremonie ist vorhanden.",
       "en": "There is coffee ceremony.",
       "sv": "Det finns kaffeceremoni.",
-      "nl": "Er is koffieceremonie."
+      "nl": "Er is koffieceremonie.",
+      "it": "C'è la cerimonia del caffè.",
+      "es": "Hay una ceremonia del café."
     },
     "alt": {},
     "chunks": [
@@ -96,7 +104,9 @@
       "de": "Ich habe den Feiertag, das Fest.",
       "en": "I have holiday, festival.",
       "sv": "Jag har helgdag, högtid.",
-      "nl": "Ik heb feestdag."
+      "nl": "Ik heb feestdag.",
+      "it": "Ho il giorno festivo, la festa.",
+      "es": "Tengo el día festivo, la fiesta."
     },
     "alt": {},
     "chunks": [
@@ -117,7 +127,9 @@
       "de": "Willkommen (zu einem Mann).",
       "en": "Welcome (to a man).",
       "sv": "Välkommen (till en man).",
-      "nl": "Welkom (tegen een man)."
+      "nl": "Welkom (tegen een man).",
+      "it": "Benvenuto (a un uomo).",
+      "es": "Bienvenido (a un hombre)."
     },
     "alt": {},
     "chunks": [
@@ -139,7 +151,9 @@
       "de": "Ich mag die Kultur.",
       "en": "I like culture.",
       "sv": "Jag gillar kultur.",
-      "nl": "Ik hou van cultuur."
+      "nl": "Ik hou van cultuur.",
+      "it": "Mi piace la cultura.",
+      "es": "Me gusta la cultura."
     },
     "alt": {},
     "chunks": [
@@ -160,7 +174,9 @@
       "de": "die Geschichte ist vorhanden.",
       "en": "There is story, history.",
       "sv": "Det finns historia, berättelse.",
-      "nl": "Er is verhaal, geschiedenis."
+      "nl": "Er is verhaal, geschiedenis.",
+      "it": "C'è una storia.",
+      "es": "Hay una historia."
     },
     "alt": {},
     "chunks": [
@@ -181,7 +197,9 @@
       "de": "Ich habe das Ende.",
       "en": "I have end.",
       "sv": "Jag har slut.",
-      "nl": "Ik heb einde."
+      "nl": "Ik heb einde.",
+      "it": "Ho la fine.",
+      "es": "Tengo el final."
     },
     "alt": {},
     "chunks": [
@@ -202,7 +220,9 @@
       "de": "Ich mag den Anfang.",
       "en": "I like beginning.",
       "sv": "Jag gillar början.",
-      "nl": "Ik hou van begin."
+      "nl": "Ik hou van begin.",
+      "it": "Mi piace l'inizio.",
+      "es": "Me gusta el principio."
     },
     "alt": {},
     "chunks": [
@@ -223,7 +243,9 @@
       "de": "der Held ist vorhanden.",
       "en": "There is hero.",
       "sv": "Det finns hjälte.",
-      "nl": "Er is held."
+      "nl": "Er is held.",
+      "it": "C'è un eroe.",
+      "es": "Hay un héroe."
     },
     "alt": {},
     "chunks": [
@@ -244,7 +266,9 @@
       "de": "Meskerem (1. Monat) ist vorhanden.",
       "en": "There is Meskerem (1st month).",
       "sv": "Det finns Meskerem (1:a månaden).",
-      "nl": "Er is Meskerem (1e maand)."
+      "nl": "Er is Meskerem (1e maand).",
+      "it": "C'è Meskerem (1° mese).",
+      "es": "Hay Meskerem (1er mes)."
     },
     "alt": {},
     "chunks": [
@@ -265,7 +289,9 @@
       "de": "Ich habe Tikimt (2. Monat).",
       "en": "I have Tikimt (2nd month).",
       "sv": "Jag har Tikimt (2:a månaden).",
-      "nl": "Ik heb Tikimt (2e maand)."
+      "nl": "Ik heb Tikimt (2e maand).",
+      "it": "Ho Tikimt (2° mese).",
+      "es": "Tengo Tikimt (2do mes)."
     },
     "alt": {},
     "chunks": [
@@ -286,7 +312,9 @@
       "de": "Ich mag Hidar (3. Monat).",
       "en": "I like Hidar (3rd month).",
       "sv": "Jag gillar Hidar (3:e månaden).",
-      "nl": "Ik hou van Hidar (3e maand)."
+      "nl": "Ik hou van Hidar (3e maand).",
+      "it": "Mi piace Hidar (3° mese).",
+      "es": "Me gusta Hidar (3er mes)."
     },
     "alt": {},
     "chunks": [
@@ -307,7 +335,9 @@
       "de": "Tahsas (4. Monat) ist vorhanden.",
       "en": "There is Tahsas (4th month).",
       "sv": "Det finns Tahsas (4:e månaden).",
-      "nl": "Er is Tahsas (4e maand)."
+      "nl": "Er is Tahsas (4e maand).",
+      "it": "C'è Tahsas (4° mese).",
+      "es": "Hay Tahsas (4to mes)."
     },
     "alt": {},
     "chunks": [
@@ -328,7 +358,9 @@
       "de": "Ich habe Tir (5. Monat).",
       "en": "I have Tir (5th month).",
       "sv": "Jag har Tir (5:e månaden).",
-      "nl": "Ik heb Tir (5e maand)."
+      "nl": "Ik heb Tir (5e maand).",
+      "it": "Ho Tir (5° mese).",
+      "es": "Tengo Tir (5to mes)."
     },
     "alt": {},
     "chunks": [
@@ -349,7 +381,9 @@
       "de": "Kein Problem.",
       "en": "No problem.",
       "sv": "Inga problem.",
-      "nl": "Geen probleem."
+      "nl": "Geen probleem.",
+      "it": "Nessun problema.",
+      "es": "No hay problema."
     },
     "alt": {},
     "chunks": [
@@ -370,7 +404,9 @@
       "de": "Viel Glück.",
       "en": "Good luck.",
       "sv": "Lycka till.",
-      "nl": "Veel geluk."
+      "nl": "Veel geluk.",
+      "it": "Buona fortuna.",
+      "es": "Buena suerte."
     },
     "alt": {},
     "chunks": [
@@ -391,7 +427,9 @@
       "de": "Gute Reise.",
       "en": "Have a good trip.",
       "sv": "Trevlig resa.",
-      "nl": "Goede reis."
+      "nl": "Goede reis.",
+      "it": "Buon viaggio.",
+      "es": "Buen viaje."
     },
     "alt": {},
     "chunks": [
@@ -412,7 +450,9 @@
       "de": "die Krar (Leier) ist vorhanden.",
       "en": "There is krar (lyre).",
       "sv": "Det finns krar (lyra).",
-      "nl": "Er is krar (lier)."
+      "nl": "Er is krar (lier).",
+      "it": "C'è il krar (la lira).",
+      "es": "Hay un krar (lira)."
     },
     "alt": {},
     "chunks": [
@@ -433,7 +473,9 @@
       "de": "Ich habe die Masinko (Fiedel).",
       "en": "I have masinko (fiddle).",
       "sv": "Jag har masinko (fiol).",
-      "nl": "Ik heb masinko (vedel)."
+      "nl": "Ik heb masinko (vedel).",
+      "it": "Ho il masinko (violino).",
+      "es": "Tengo el masinko (violín)."
     },
     "alt": {},
     "chunks": [
@@ -454,7 +496,9 @@
       "de": "Ich mag die Kebero (Trommel).",
       "en": "I like kebero (drum).",
       "sv": "Jag gillar kebero (trumma).",
-      "nl": "Ik hou van kebero (drum)."
+      "nl": "Ik hou van kebero (drum).",
+      "it": "Mi piace il kebero (tamburo).",
+      "es": "Me gusta el kebero (tambor)."
     },
     "alt": {},
     "chunks": [
@@ -475,7 +519,9 @@
       "de": "die Washint (Flöte) ist vorhanden.",
       "en": "There is washint (flute).",
       "sv": "Det finns washint (flöjt).",
-      "nl": "Er is washint (fluit)."
+      "nl": "Er is washint (fluit).",
+      "it": "C'è il washint (flauto).",
+      "es": "Hay un washint (flauta)."
     },
     "alt": {},
     "chunks": [
@@ -496,7 +542,9 @@
       "de": "die Idee, der Gedanke ist vorhanden.",
       "en": "There is idea, thought.",
       "sv": "Det finns idé, tanke.",
-      "nl": "Er is idee, gedachte."
+      "nl": "Er is idee, gedachte.",
+      "it": "C'è un'idea, un pensiero.",
+      "es": "Hay una idea, un pensamiento."
     },
     "alt": {},
     "chunks": [
@@ -517,7 +565,9 @@
       "de": "Ich habe das Problem.",
       "en": "I have problem.",
       "sv": "Jag har problem.",
-      "nl": "Ik heb probleem."
+      "nl": "Ik heb probleem.",
+      "it": "Ho un problema.",
+      "es": "Tengo un problema."
     },
     "alt": {},
     "chunks": [
@@ -538,7 +588,9 @@
       "de": "Ich mag die Lösung.",
       "en": "I like solution.",
       "sv": "Jag gillar lösning.",
-      "nl": "Ik hou van oplossing."
+      "nl": "Ik hou van oplossing.",
+      "it": "Mi piace la soluzione.",
+      "es": "Me gusta la solución."
     },
     "alt": {},
     "chunks": [
@@ -559,7 +611,9 @@
       "de": "der Grund ist vorhanden.",
       "en": "There is reason.",
       "sv": "Det finns anledning.",
-      "nl": "Er is reden."
+      "nl": "Er is reden.",
+      "it": "C'è un motivo.",
+      "es": "Hay un motivo."
     },
     "alt": {},
     "chunks": [
@@ -580,7 +634,9 @@
       "de": "Ich habe das Beispiel.",
       "en": "I have example.",
       "sv": "Jag har exempel.",
-      "nl": "Ik heb voorbeeld."
+      "nl": "Ik heb voorbeeld.",
+      "it": "Ho un esempio.",
+      "es": "Tengo un ejemplo."
     },
     "alt": {},
     "chunks": [
@@ -601,7 +657,9 @@
       "de": "Gondar (Stadt) ist vorhanden.",
       "en": "There is Gondar (city).",
       "sv": "Det finns Gondar (stad).",
-      "nl": "Er is Gondar (stad)."
+      "nl": "Er is Gondar (stad).",
+      "it": "C'è Gondar (città).",
+      "es": "Hay Gondar (ciudad)."
     },
     "alt": {},
     "chunks": [
@@ -622,7 +680,9 @@
       "de": "Ich habe Axum (Stadt).",
       "en": "I have Axum (city).",
       "sv": "Jag har Axum (stad).",
-      "nl": "Ik heb Axum (stad)."
+      "nl": "Ik heb Axum (stad).",
+      "it": "Ho Axum (città).",
+      "es": "Tengo Axum (ciudad)."
     },
     "alt": {},
     "chunks": [
@@ -643,7 +703,9 @@
       "de": "Ich mag Lalibela (Stadt).",
       "en": "I like Lalibela (city).",
       "sv": "Jag gillar Lalibela (stad).",
-      "nl": "Ik hou van Lalibela (stad)."
+      "nl": "Ik hou van Lalibela (stad).",
+      "it": "Mi piace Lalibela (città).",
+      "es": "Me gusta Lalibela (ciudad)."
     },
     "alt": {},
     "chunks": [
@@ -664,7 +726,9 @@
       "de": "Bahir Dar (Stadt) ist vorhanden.",
       "en": "There is Bahir Dar (city).",
       "sv": "Det finns Bahir Dar (stad).",
-      "nl": "Er is Bahir Dar (stad)."
+      "nl": "Er is Bahir Dar (stad).",
+      "it": "C'è Bahir Dar (città).",
+      "es": "Hay Bahir Dar (ciudad)."
     },
     "alt": {},
     "chunks": [
@@ -686,7 +750,9 @@
       "de": "Ich habe Mekelle (Stadt).",
       "en": "I have Mekelle (city).",
       "sv": "Jag har Mekelle (stad).",
-      "nl": "Ik heb Mekelle (stad)."
+      "nl": "Ik heb Mekelle (stad).",
+      "it": "Ho Mekelle (città).",
+      "es": "Tengo Mekelle (ciudad)."
     },
     "alt": {},
     "chunks": [
@@ -707,7 +773,9 @@
       "de": "das Gebet ist vorhanden.",
       "en": "There is prayer.",
       "sv": "Det finns bön.",
-      "nl": "Er is gebed."
+      "nl": "Er is gebed.",
+      "it": "C'è una preghiera.",
+      "es": "Hay una oración."
     },
     "alt": {},
     "chunks": [
@@ -728,7 +796,9 @@
       "de": "Ich habe den Feiertag, das Fest.",
       "en": "I have holiday, festival.",
       "sv": "Jag har högtid, fest.",
-      "nl": "Ik heb feestdag."
+      "nl": "Ik heb feestdag.",
+      "it": "Ho il giorno festivo, la festa.",
+      "es": "Tengo el día festivo, la fiesta."
     },
     "alt": {},
     "chunks": [
@@ -749,7 +819,9 @@
       "de": "Ich mag das Fasten.",
       "en": "I like fasting.",
       "sv": "Jag gillar fasta.",
-      "nl": "Ik hou van vasten."
+      "nl": "Ik hou van vasten.",
+      "it": "Mi piace il digiuno.",
+      "es": "Me gusta el ayuno."
     },
     "alt": {},
     "chunks": [
@@ -770,7 +842,9 @@
       "de": "die Pilgerfahrt ist vorhanden.",
       "en": "There is pilgrimage.",
       "sv": "Det finns pilgrimsfärd.",
-      "nl": "Er is pelgrimstocht."
+      "nl": "Er is pelgrimstocht.",
+      "it": "C'è un pellegrinaggio.",
+      "es": "Hay una peregrinación."
     },
     "alt": {},
     "chunks": [
@@ -794,7 +868,9 @@
       "de": "Ich habe den Segen.",
       "en": "I have blessing.",
       "sv": "Jag har välsignelse.",
-      "nl": "Ik heb zegen."
+      "nl": "Ik heb zegen.",
+      "it": "Ho la benedizione.",
+      "es": "Tengo la bendición."
     },
     "alt": {},
     "chunks": [
@@ -815,7 +891,9 @@
       "de": "die Gelegenheit ist vorhanden.",
       "en": "There is opportunity.",
       "sv": "Det finns tillfälle.",
-      "nl": "Er is gelegenheid."
+      "nl": "Er is gelegenheid.",
+      "it": "C'è un'occasione.",
+      "es": "Hay una oportunidad."
     },
     "alt": {},
     "chunks": [
@@ -836,7 +914,9 @@
       "de": "Ich habe die Erfahrung.",
       "en": "I have experience.",
       "sv": "Jag har erfarenhet.",
-      "nl": "Ik heb ervaring."
+      "nl": "Ik heb ervaring.",
+      "it": "Ho esperienza.",
+      "es": "Tengo experiencia."
     },
     "alt": {},
     "chunks": [
@@ -857,7 +937,9 @@
       "de": "Ich mag die Erinnerung (Andenken).",
       "en": "I like memory (keepsake).",
       "sv": "Jag gillar minne.",
-      "nl": "Ik hou van herinnering."
+      "nl": "Ik hou van herinnering.",
+      "it": "Mi piace il ricordo.",
+      "es": "Me gusta el recuerdo."
     },
     "alt": {},
     "chunks": [
@@ -878,7 +960,9 @@
       "de": "das Geheimnis ist vorhanden.",
       "en": "There is secret.",
       "sv": "Det finns hemlighet.",
-      "nl": "Er is geheim."
+      "nl": "Er is geheim.",
+      "it": "C'è un segreto.",
+      "es": "Hay un secreto."
     },
     "alt": {},
     "chunks": [
@@ -899,7 +983,9 @@
       "de": "Ich habe das Versprechen.",
       "en": "I have promise.",
       "sv": "Jag har löfte.",
-      "nl": "Ik heb belofte."
+      "nl": "Ik heb belofte.",
+      "it": "Ho la promessa.",
+      "es": "Tengo la promesa."
     },
     "alt": {},
     "chunks": [
@@ -920,7 +1006,9 @@
       "de": "das Gemälde, das Bild ist vorhanden.",
       "en": "There is painting.",
       "sv": "Det finns målning.",
-      "nl": "Er is schilderij."
+      "nl": "Er is schilderij.",
+      "it": "C'è un dipinto.",
+      "es": "Hay un cuadro."
     },
     "alt": {},
     "chunks": [
@@ -941,7 +1029,9 @@
       "de": "Ich habe die Zeichnung.",
       "en": "I have drawing.",
       "sv": "Jag har teckning.",
-      "nl": "Ik heb tekening."
+      "nl": "Ik heb tekening.",
+      "it": "Ho un disegno.",
+      "es": "Tengo un dibujo."
     },
     "alt": {},
     "chunks": [
@@ -962,7 +1052,9 @@
       "de": "Ich mag die Skulptur.",
       "en": "I like sculpture.",
       "sv": "Jag gillar skulptur.",
-      "nl": "Ik hou van sculptuur."
+      "nl": "Ik hou van sculptuur.",
+      "it": "Mi piace la scultura.",
+      "es": "Me gusta la escultura."
     },
     "alt": {},
     "chunks": [
@@ -983,7 +1075,9 @@
       "de": "das Theater ist vorhanden.",
       "en": "There is theater.",
       "sv": "Det finns teater.",
-      "nl": "Er is theater."
+      "nl": "Er is theater.",
+      "it": "C'è il teatro.",
+      "es": "Hay teatro."
     },
     "alt": {},
     "chunks": [
@@ -1004,7 +1098,9 @@
       "de": "Ich habe das Gedicht.",
       "en": "I have poem.",
       "sv": "Jag har dikt.",
-      "nl": "Ik heb gedicht."
+      "nl": "Ik heb gedicht.",
+      "it": "Ho una poesia.",
+      "es": "Tengo un poema."
     },
     "alt": {},
     "chunks": [
@@ -1025,7 +1121,9 @@
       "de": "die Wissenschaft ist vorhanden.",
       "en": "There is science.",
       "sv": "Det finns vetenskap.",
-      "nl": "Er is wetenschap."
+      "nl": "Er is wetenschap.",
+      "it": "C'è la scienza.",
+      "es": "Hay ciencia."
     },
     "alt": {},
     "chunks": [
@@ -1046,7 +1144,9 @@
       "de": "Ich habe das Experiment.",
       "en": "I have experiment.",
       "sv": "Jag har experiment.",
-      "nl": "Ik heb experiment."
+      "nl": "Ik heb experiment.",
+      "it": "Ho un esperimento.",
+      "es": "Tengo un experimento."
     },
     "alt": {},
     "chunks": [
@@ -1067,7 +1167,9 @@
       "de": "Ich mag die Forschung.",
       "en": "I like research.",
       "sv": "Jag gillar forskning.",
-      "nl": "Ik hou van onderzoek."
+      "nl": "Ik hou van onderzoek.",
+      "it": "Mi piace la ricerca.",
+      "es": "Me gusta la investigación."
     },
     "alt": {},
     "chunks": [
@@ -1088,7 +1190,9 @@
       "de": "die Mathematik ist vorhanden.",
       "en": "There is mathematics.",
       "sv": "Det finns matematik.",
-      "nl": "Er is wiskunde."
+      "nl": "Er is wiskunde.",
+      "it": "C'è la matematica.",
+      "es": "Hay matemáticas."
     },
     "alt": {},
     "chunks": [
@@ -1109,7 +1213,9 @@
       "de": "Ich habe die Physik.",
       "en": "I have physics.",
       "sv": "Jag har fysik.",
-      "nl": "Ik heb natuurkunde."
+      "nl": "Ik heb natuurkunde.",
+      "it": "Ho fisica.",
+      "es": "Tengo física."
     },
     "alt": {},
     "chunks": [
@@ -1130,7 +1236,9 @@
       "de": "Er ist schwer (Gewicht).",
       "en": "He is heavy.",
       "sv": "Han är tung.",
-      "nl": "Hij is zwaar."
+      "nl": "Hij is zwaar.",
+      "it": "Lui è pesante.",
+      "es": "Él es pesado."
     },
     "alt": {},
     "chunks": [
@@ -1152,7 +1260,9 @@
       "de": "Sie ist leicht (Gewicht).",
       "en": "She is light (weight).",
       "sv": "Hon är lätt.",
-      "nl": "Zij is licht."
+      "nl": "Zij is licht.",
+      "it": "Lei è leggera.",
+      "es": "Ella es ligera."
     },
     "alt": {},
     "chunks": [
@@ -1174,7 +1284,9 @@
       "de": "Es ist sehr tief.",
       "en": "It is very deep.",
       "sv": "Han är verkligen djup.",
-      "nl": "Het is heel diep."
+      "nl": "Het is heel diep.",
+      "it": "È molto profondo.",
+      "es": "Es muy profundo."
     },
     "alt": {},
     "chunks": [
@@ -1196,7 +1308,9 @@
       "de": "Er ist flach, seicht.",
       "en": "He is shallow.",
       "sv": "Han är grund.",
-      "nl": "Hij is ondiep."
+      "nl": "Hij is ondiep.",
+      "it": "È poco profondo.",
+      "es": "Es poco profundo."
     },
     "alt": {},
     "chunks": [
@@ -1219,7 +1333,9 @@
       "de": "Sie ist breit, weit.",
       "en": "She is wide.",
       "sv": "Hon är bred.",
-      "nl": "Zij is breed."
+      "nl": "Zij is breed.",
+      "it": "Lei è larga.",
+      "es": "Ella es ancha."
     },
     "alt": {},
     "chunks": [
@@ -1241,7 +1357,9 @@
       "de": "das Erdbeben ist vorhanden.",
       "en": "There is earthquake.",
       "sv": "Det finns jordbävning.",
-      "nl": "Er is aardbeving."
+      "nl": "Er is aardbeving.",
+      "it": "C'è un terremoto.",
+      "es": "Hay un terremoto."
     },
     "alt": {},
     "chunks": [
@@ -1263,7 +1381,9 @@
       "de": "Ich habe die Flut, Überschwemmung.",
       "en": "I have flood.",
       "sv": "Jag har översvämning.",
-      "nl": "Ik heb overstroming."
+      "nl": "Ik heb overstroming.",
+      "it": "Ho un'alluvione.",
+      "es": "Tengo una inundación."
     },
     "alt": {},
     "chunks": [
@@ -1284,7 +1404,9 @@
       "de": "Ich mag die Dürre.",
       "en": "I like drought.",
       "sv": "Jag gillar torka.",
-      "nl": "Ik hou van droogte."
+      "nl": "Ik hou van droogte.",
+      "it": "Mi piace la siccità.",
+      "es": "Me gusta la sequía."
     },
     "alt": {},
     "chunks": [
@@ -1305,7 +1427,9 @@
       "de": "der Wirbelsturm, Orkan ist vorhanden.",
       "en": "There is hurricane.",
       "sv": "Det finns orkan.",
-      "nl": "Er is orkaan."
+      "nl": "Er is orkaan.",
+      "it": "C'è un uragano.",
+      "es": "Hay un huracán."
     },
     "alt": {},
     "chunks": [
@@ -1328,7 +1452,9 @@
       "de": "Ich habe den Vulkan.",
       "en": "I have volcano.",
       "sv": "Jag har vulkan.",
-      "nl": "Ik heb vulkaan."
+      "nl": "Ik heb vulkaan.",
+      "it": "Ho un vulcano.",
+      "es": "Tengo un volcán."
     },
     "alt": {},
     "chunks": [
@@ -1350,7 +1476,9 @@
       "de": "Er ist begeistert, aufgeregt.",
       "en": "He is excited.",
       "sv": "Han är exalterad.",
-      "nl": "Hij is opgewonden."
+      "nl": "Hij is opgewonden.",
+      "it": "È entusiasta, agitato.",
+      "es": "Está entusiasmado, emocionado."
     },
     "alt": {},
     "chunks": [
@@ -1373,7 +1501,9 @@
       "de": "Ich möchte sich langweilen.",
       "en": "I want to be bored.",
       "sv": "Jag vill ha tråkigt.",
-      "nl": "Ik wil zich vervelen."
+      "nl": "Ik wil zich vervelen.",
+      "it": "Voglio annoiarmi.",
+      "es": "Quiero aburrirme."
     },
     "alt": {},
     "chunks": [
@@ -1394,7 +1524,9 @@
       "de": "Erleichtert sein mag ich.",
       "en": "I like to be relieved.",
       "sv": "Jag gillar att känna lättnad.",
-      "nl": "Ik hou van opgelucht zijn."
+      "nl": "Ik hou van opgelucht zijn.",
+      "it": "Mi piace sentirmi sollevato/a.",
+      "es": "Me gusta sentirme aliviado/a."
     },
     "alt": {},
     "chunks": [
@@ -1416,7 +1548,9 @@
       "de": "Sie ist dankbar.",
       "en": "She is grateful.",
       "sv": "Hon är tacksam.",
-      "nl": "Zij is dankbaar."
+      "nl": "Zij is dankbaar.",
+      "it": "Lei è grata.",
+      "es": "Ella está agradecida."
     },
     "alt": {},
     "chunks": [
@@ -1438,7 +1572,9 @@
       "de": "Es ist sehr motiviert.",
       "en": "It is very motivated.",
       "sv": "Han är verkligen motiverad.",
-      "nl": "Het is heel gemotiveerd."
+      "nl": "Het is heel gemotiveerd.",
+      "it": "È molto motivato.",
+      "es": "Está muy motivado."
     },
     "alt": {},
     "chunks": [
@@ -1461,7 +1597,9 @@
       "de": "das Darlehen, der Kredit ist vorhanden.",
       "en": "There is loan.",
       "sv": "Det finns lån.",
-      "nl": "Er is lening."
+      "nl": "Er is lening.",
+      "it": "C'è un prestito.",
+      "es": "Hay un préstamo."
     },
     "alt": {},
     "chunks": [
@@ -1482,7 +1620,9 @@
       "de": "Ich habe die Schulden.",
       "en": "I have debt.",
       "sv": "Jag har skuld.",
-      "nl": "Ik heb schuld."
+      "nl": "Ik heb schuld.",
+      "it": "Ho debiti.",
+      "es": "Tengo deudas."
     },
     "alt": {},
     "chunks": [
@@ -1503,7 +1643,9 @@
       "de": "Ich mag die Steuer.",
       "en": "I like tax.",
       "sv": "Jag gillar skatt.",
-      "nl": "Ik hou van belasting."
+      "nl": "Ik hou van belasting.",
+      "it": "Mi piace la tassa.",
+      "es": "Me gusta el impuesto."
     },
     "alt": {},
     "chunks": [
@@ -1524,7 +1666,9 @@
       "de": "das Budget ist vorhanden.",
       "en": "There is budget.",
       "sv": "Det finns budget.",
-      "nl": "Er is budget."
+      "nl": "Er is budget.",
+      "it": "C'è un budget.",
+      "es": "Hay un presupuesto."
     },
     "alt": {},
     "chunks": [
@@ -1545,7 +1689,9 @@
       "de": "Ich habe die Versicherung.",
       "en": "I have insurance.",
       "sv": "Jag har försäkring.",
-      "nl": "Ik heb verzekering."
+      "nl": "Ik heb verzekering.",
+      "it": "Ho l'assicurazione.",
+      "es": "Tengo el seguro."
     },
     "alt": {},
     "chunks": [
@@ -1566,7 +1712,9 @@
       "de": "das Gericht (Ort) ist vorhanden.",
       "en": "There is court.",
       "sv": "Det finns domstol.",
-      "nl": "Er is rechtbank."
+      "nl": "Er is rechtbank.",
+      "it": "C'è il tribunale.",
+      "es": "Hay un tribunal."
     },
     "alt": {},
     "chunks": [
@@ -1588,7 +1736,9 @@
       "de": "Ich habe den Vertrag.",
       "en": "I have contract.",
       "sv": "Jag har kontrakt.",
-      "nl": "Ik heb contract."
+      "nl": "Ik heb contract.",
+      "it": "Ho il contratto.",
+      "es": "Tengo el contrato."
     },
     "alt": {},
     "chunks": [
@@ -1609,7 +1759,9 @@
       "de": "Ich mag den Zeuge.",
       "en": "I like witness.",
       "sv": "Jag gillar vittne.",
-      "nl": "Ik hou van getuige."
+      "nl": "Ik hou van getuige.",
+      "it": "Mi piace il testimone.",
+      "es": "Me gusta el testigo."
     },
     "alt": {},
     "chunks": [
@@ -1630,7 +1782,9 @@
       "de": "der Beweis ist vorhanden.",
       "en": "There is evidence.",
       "sv": "Det finns bevis.",
-      "nl": "Er is bewijs."
+      "nl": "Er is bewijs.",
+      "it": "C'è una prova.",
+      "es": "Hay una prueba."
     },
     "alt": {},
     "chunks": [
@@ -1651,7 +1805,9 @@
       "de": "Ich habe das Verbrechen.",
       "en": "I have crime.",
       "sv": "Jag har brott.",
-      "nl": "Ik heb misdaad."
+      "nl": "Ik heb misdaad.",
+      "it": "Ho un crimine.",
+      "es": "Tengo un delito."
     },
     "alt": {},
     "chunks": [
@@ -1672,7 +1828,9 @@
       "de": "der Planet ist vorhanden.",
       "en": "There is planet.",
       "sv": "Det finns planet.",
-      "nl": "Er is planeet."
+      "nl": "Er is planeet.",
+      "it": "C'è un pianeta.",
+      "es": "Hay un planeta."
     },
     "alt": {},
     "chunks": [
@@ -1693,7 +1851,9 @@
       "de": "Ich habe den Komet.",
       "en": "I have comet.",
       "sv": "Jag har komet.",
-      "nl": "Ik heb komeet."
+      "nl": "Ik heb komeet.",
+      "it": "Ho una cometa.",
+      "es": "Tengo un cometa."
     },
     "alt": {},
     "chunks": [
@@ -1715,7 +1875,9 @@
       "de": "Ich mag die Finsternis (Sonne/Mond).",
       "en": "I like eclipse.",
       "sv": "Jag gillar förmörkelse.",
-      "nl": "Ik hou van eclips."
+      "nl": "Ik hou van eclips.",
+      "it": "Mi piace l'eclissi.",
+      "es": "Me gusta el eclipse."
     },
     "alt": {},
     "chunks": [
@@ -1736,7 +1898,9 @@
       "de": "die Galaxie ist vorhanden.",
       "en": "There is galaxy.",
       "sv": "Det finns galax.",
-      "nl": "Er is melkweg."
+      "nl": "Er is melkweg.",
+      "it": "C'è una galassia.",
+      "es": "Hay una galaxia."
     },
     "alt": {},
     "chunks": [
@@ -1757,7 +1921,9 @@
       "de": "Ich habe das Universum.",
       "en": "I have universe.",
       "sv": "Jag har universum.",
-      "nl": "Ik heb universum."
+      "nl": "Ik heb universum.",
+      "it": "Ho l'universo.",
+      "es": "Tengo el universo."
     },
     "alt": {},
     "chunks": [
@@ -1779,7 +1945,9 @@
       "de": "Ich möchte flüstern.",
       "en": "I want to whisper.",
       "sv": "Jag vill viska.",
-      "nl": "Ik wil fluisteren."
+      "nl": "Ik wil fluisteren.",
+      "it": "Voglio sussurrare.",
+      "es": "Quiero susurrar."
     },
     "alt": {},
     "chunks": [
@@ -1800,7 +1968,9 @@
       "de": "Streiten, diskutieren mag ich.",
       "en": "I like to argue.",
       "sv": "Jag gillar att gräla, argumentera.",
-      "nl": "Ik hou van ruzien, discussiëren."
+      "nl": "Ik hou van ruzien, discussiëren.",
+      "it": "Mi piace litigare, discutere.",
+      "es": "Me gusta discutir."
     },
     "alt": {},
     "chunks": [
@@ -1821,7 +1991,9 @@
       "de": "Ich möchte zustimmen.",
       "en": "I want to agree.",
       "sv": "Jag vill hålla med.",
-      "nl": "Ik wil akkoord gaan."
+      "nl": "Ik wil akkoord gaan.",
+      "it": "Voglio essere d'accordo.",
+      "es": "Quiero estar de acuerdo."
     },
     "alt": {},
     "chunks": [
@@ -1842,7 +2014,9 @@
       "de": "Widersprechen, nicht zustimmen mag ich.",
       "en": "I like to disagree.",
       "sv": "Jag gillar att inte hålla med.",
-      "nl": "Ik hou van het oneens zijn."
+      "nl": "Ik hou van het oneens zijn.",
+      "it": "Mi piace contraddire, non essere d'accordo.",
+      "es": "Me gusta contradecir, no estar de acuerdo."
     },
     "alt": {},
     "chunks": [
@@ -1863,7 +2037,9 @@
       "de": "Ich möchte sich beschweren.",
       "en": "I want to complain.",
       "sv": "Jag vill klaga.",
-      "nl": "Ik wil klagen."
+      "nl": "Ik wil klagen.",
+      "it": "Voglio lamentarmi.",
+      "es": "Quiero quejarme."
     },
     "alt": {},
     "chunks": [
@@ -1884,7 +2060,9 @@
       "de": "die Entscheidung ist vorhanden.",
       "en": "There is decision.",
       "sv": "Det finns beslut.",
-      "nl": "Er is beslissing."
+      "nl": "Er is beslissing.",
+      "it": "C'è una decisione.",
+      "es": "Hay una decisión."
     },
     "alt": {},
     "chunks": [
@@ -1905,7 +2083,9 @@
       "de": "Ich habe das Projekt.",
       "en": "I have project.",
       "sv": "Jag har projekt.",
-      "nl": "Ik heb project."
+      "nl": "Ik heb project.",
+      "it": "Ho un progetto.",
+      "es": "Tengo un proyecto."
     },
     "alt": {},
     "chunks": [
@@ -1926,7 +2106,9 @@
       "de": "Ich mag das Ziel, die Absicht.",
       "en": "I like goal, aim.",
       "sv": "Jag gillar mål, syfte.",
-      "nl": "Ik hou van doel."
+      "nl": "Ik hou van doel.",
+      "it": "Mi piace l'obiettivo, lo scopo.",
+      "es": "Me gusta la meta, el propósito."
     },
     "alt": {},
     "chunks": [
@@ -1947,7 +2129,9 @@
       "de": "die Gewohnheit ist vorhanden.",
       "en": "There is habit.",
       "sv": "Det finns vana.",
-      "nl": "Er is gewoonte."
+      "nl": "Er is gewoonte.",
+      "it": "C'è un'abitudine.",
+      "es": "Hay una costumbre."
     },
     "alt": {},
     "chunks": [
@@ -1968,7 +2152,9 @@
       "de": "Ich habe die Zeremonie.",
       "en": "I have ceremony.",
       "sv": "Jag har ceremoni.",
-      "nl": "Ik heb ceremonie."
+      "nl": "Ik heb ceremonie.",
+      "it": "Ho la cerimonia.",
+      "es": "Tengo la ceremonia."
     },
     "alt": {},
     "chunks": [
@@ -1989,7 +2175,9 @@
       "de": "das Dreieck ist vorhanden.",
       "en": "There is triangle.",
       "sv": "Det finns triangel.",
-      "nl": "Er is driehoek."
+      "nl": "Er is driehoek.",
+      "it": "C'è un triangolo.",
+      "es": "Hay un triángulo."
     },
     "alt": {},
     "chunks": [
@@ -2011,7 +2199,9 @@
       "de": "Ich habe das Quadrat.",
       "en": "I have square.",
       "sv": "Jag har kvadrat.",
-      "nl": "Ik heb vierkant."
+      "nl": "Ik heb vierkant.",
+      "it": "Ho un quadrato.",
+      "es": "Tengo un cuadrado."
     },
     "alt": {},
     "chunks": [
@@ -2032,7 +2222,9 @@
       "de": "Ich mag den Kreis.",
       "en": "I like circle.",
       "sv": "Jag gillar cirkel.",
-      "nl": "Ik hou van cirkel."
+      "nl": "Ik hou van cirkel.",
+      "it": "Mi piace il cerchio.",
+      "es": "Me gusta el círculo."
     },
     "alt": {},
     "chunks": [
@@ -2054,7 +2246,9 @@
       "de": "das Rechteck ist vorhanden.",
       "en": "There is rectangle.",
       "sv": "Det finns rektangel.",
-      "nl": "Er is rechthoek."
+      "nl": "Er is rechthoek.",
+      "it": "C'è un rettangolo.",
+      "es": "Hay un rectángulo."
     },
     "alt": {},
     "chunks": [
@@ -2076,7 +2270,9 @@
       "de": "Ich habe die Linie.",
       "en": "I have line.",
       "sv": "Jag har linje.",
-      "nl": "Ik heb lijn."
+      "nl": "Ik heb lijn.",
+      "it": "Ho una linea.",
+      "es": "Tengo una línea."
     },
     "alt": {},
     "chunks": [

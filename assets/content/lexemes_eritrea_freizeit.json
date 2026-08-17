@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_tsewata2","am":"ዕረፍቲ","tr":"'irefti","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Pause, Erholung","en":"break, rest","sv":"paus, vila","nl":"pauze, rust"},"emoji":"","verified":false},
-  {"id":"lex_ti_kbti3","am":"በዓል ዕረፍቲ","tr":"be'al 'irefti","pos":"noun","topic":"leisure","level":"TI","t":{"de":"der Urlaub","en":"vacation, holiday","sv":"semester","nl":"vakantie"},"emoji":"🏖️","verified":false},
-  {"id":"lex_ti_frnda","am":"ፊልም","tr":"filim","pos":"noun","topic":"leisure","level":"TI","t":{"de":"der Film","en":"movie, film","sv":"film","nl":"film"},"emoji":"🎬","verified":false},
-  {"id":"lex_ti_tyatr","am":"ትያትር","tr":"tiyatir","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Theater","en":"theater","sv":"teater","nl":"theater"},"emoji":"🎭","verified":false},
-  {"id":"lex_ti_wgni","am":"ጓይላ","tr":"gwayla","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Feier, das Fest (traditionell)","en":"traditional celebration","sv":"traditionellt firande","nl":"traditionele viering"},"emoji":"🎉","verified":false},
-  {"id":"lex_ti_shmgl","am":"ዕድል","tr":"'idil","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Chance, das Glück","en":"chance, luck","sv":"chans, tur","nl":"kans, geluk"},"emoji":"","verified":false},
-  {"id":"lex_ti_wnzr","am":"ካርታ ጸወታ","tr":"karta tsewuta","pos":"noun","topic":"leisure","level":"TI","t":{"de":"die Spielkarten","en":"playing cards","sv":"spelkort","nl":"speelkaarten"},"emoji":"🃏","verified":false},
-  {"id":"lex_ti_shtrnj","am":"ሻጥርንጅ","tr":"shatrinj","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Schach","en":"chess","sv":"schack","nl":"schaken"},"emoji":"♟️","verified":false},
-  {"id":"lex_ti_smcht","am":"ኣዝማች","tr":"azmach","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Lied","en":"song","sv":"sång","nl":"lied"},"emoji":"🎵","verified":false},
-  {"id":"lex_ti_wnzri","am":"ስእሊ ምስኣል","tr":"si'ili misi'al","pos":"noun","topic":"leisure","level":"TI","t":{"de":"das Malen, Zeichnen","en":"painting, drawing","sv":"målning, ritning","nl":"schilderen, tekenen"},"emoji":"🎨","verified":false}
+  {
+    "id": "lex_ti_tsewata2",
+    "am": "ዕረፍቲ",
+    "tr": "'irefti",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "die Pause, Erholung",
+      "en": "break, rest",
+      "sv": "paus, vila",
+      "nl": "pauze, rust",
+      "it": "la pausa, il riposo",
+      "es": "el descanso, la pausa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbti3",
+    "am": "በዓል ዕረፍቲ",
+    "tr": "be'al 'irefti",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "der Urlaub",
+      "en": "vacation, holiday",
+      "sv": "semester",
+      "nl": "vakantie",
+      "it": "la vacanza",
+      "es": "las vacaciones"
+    },
+    "emoji": "🏖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frnda",
+    "am": "ፊልም",
+    "tr": "filim",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "der Film",
+      "en": "movie, film",
+      "sv": "film",
+      "nl": "film",
+      "it": "il film",
+      "es": "la película"
+    },
+    "emoji": "🎬",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tyatr",
+    "am": "ትያትር",
+    "tr": "tiyatir",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "das Theater",
+      "en": "theater",
+      "sv": "teater",
+      "nl": "theater",
+      "it": "il teatro",
+      "es": "el teatro"
+    },
+    "emoji": "🎭",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wgni",
+    "am": "ጓይላ",
+    "tr": "gwayla",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "die Feier, das Fest (traditionell)",
+      "en": "traditional celebration",
+      "sv": "traditionellt firande",
+      "nl": "traditionele viering",
+      "it": "la festa tradizionale",
+      "es": "la celebración tradicional"
+    },
+    "emoji": "🎉",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shmgl",
+    "am": "ዕድል",
+    "tr": "'idil",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "die Chance, das Glück",
+      "en": "chance, luck",
+      "sv": "chans, tur",
+      "nl": "kans, geluk",
+      "it": "l'occasione, la fortuna",
+      "es": "la oportunidad, la suerte"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wnzr",
+    "am": "ካርታ ጸወታ",
+    "tr": "karta tsewuta",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "die Spielkarten",
+      "en": "playing cards",
+      "sv": "spelkort",
+      "nl": "speelkaarten",
+      "it": "le carte da gioco",
+      "es": "las cartas de juego"
+    },
+    "emoji": "🃏",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shtrnj",
+    "am": "ሻጥርንጅ",
+    "tr": "shatrinj",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "das Schach",
+      "en": "chess",
+      "sv": "schack",
+      "nl": "schaken",
+      "it": "gli scacchi",
+      "es": "el ajedrez"
+    },
+    "emoji": "♟️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smcht",
+    "am": "ኣዝማች",
+    "tr": "azmach",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "das Lied",
+      "en": "song",
+      "sv": "sång",
+      "nl": "lied",
+      "it": "la canzone",
+      "es": "la canción"
+    },
+    "emoji": "🎵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wnzri",
+    "am": "ስእሊ ምስኣል",
+    "tr": "si'ili misi'al",
+    "pos": "noun",
+    "topic": "leisure",
+    "level": "TI",
+    "t": {
+      "de": "das Malen, Zeichnen",
+      "en": "painting, drawing",
+      "sv": "målning, ritning",
+      "nl": "schilderen, tekenen",
+      "it": "il disegno, la pittura",
+      "es": "el dibujo, la pintura"
+    },
+    "emoji": "🎨",
+    "verified": false
+  }
 ]

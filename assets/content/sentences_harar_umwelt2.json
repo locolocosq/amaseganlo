@@ -4,14 +4,25 @@
     "am": "ዳግም ጥቅም ላይ ማዋል አስፈላጊ ነው።",
     "tr": "dagim t'ikim lay mawal asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_dagim_tikim"],
+    "uses": [
+      "lex_dagim_tikim"
+    ],
     "t": {
       "de": "Recycling ist wichtig.",
       "en": "Recycling is important.",
       "sv": "Återvinning är viktigt.",
-      "nl": "Recycling is belangrijk."
+      "nl": "Recycling is belangrijk.",
+      "it": "Il riciclaggio è importante.",
+      "es": "El reciclaje es importante."
     },
-    "chunks": ["dagim", "t'ikim", "lay", "mawal", "asfelagi", "newu"],
+    "chunks": [
+      "dagim",
+      "t'ikim",
+      "lay",
+      "mawal",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -19,14 +30,26 @@
     "am": "ብዝሃ ሕይወት ለስነ ምህዳር ጥሩ ነው።",
     "tr": "bizha hiyiwet lesine mihidar t'iru newu.",
     "level": "B2",
-    "uses": ["lex_bizha_hiyiwet", "lex_sine_mihidar"],
+    "uses": [
+      "lex_bizha_hiyiwet",
+      "lex_sine_mihidar"
+    ],
     "t": {
       "de": "Biologische Vielfalt ist gut für das Ökosystem.",
       "en": "Biodiversity is good for the ecosystem.",
       "sv": "Biologisk mångfald är bra för ekosystemet.",
-      "nl": "Biodiversiteit is goed voor het ecosysteem."
+      "nl": "Biodiversiteit is goed voor het ecosysteem.",
+      "it": "La biodiversità è buona per l'ecosistema.",
+      "es": "La biodiversidad es buena para el ecosistema."
     },
-    "chunks": ["bizha", "hiyiwet", "lesine", "mihidar", "t'iru", "newu"],
+    "chunks": [
+      "bizha",
+      "hiyiwet",
+      "lesine",
+      "mihidar",
+      "t'iru",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +57,21 @@
     "am": "እንስሳት ይጠፋሉ።",
     "tr": "inisisat yit'efalu.",
     "level": "B2",
-    "uses": ["lex_v_metifat"],
+    "uses": [
+      "lex_v_metifat"
+    ],
     "t": {
       "de": "Tiere sterben aus.",
       "en": "Animals become extinct.",
       "sv": "Djur dör ut.",
-      "nl": "Dieren sterven uit."
+      "nl": "Dieren sterven uit.",
+      "it": "Gli animali si estinguono.",
+      "es": "Los animales se extinguen."
     },
-    "chunks": ["inisisat", "yit'efalu"],
+    "chunks": [
+      "inisisat",
+      "yit'efalu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +79,23 @@
     "am": "ዘላቂነት ለወደፊት አስፈላጊ ነው።",
     "tr": "zelakinet lewedefit asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_zelakinet"],
+    "uses": [
+      "lex_zelakinet"
+    ],
     "t": {
       "de": "Nachhaltigkeit ist wichtig für die Zukunft.",
       "en": "Sustainability is important for the future.",
       "sv": "Hållbarhet är viktig för framtiden.",
-      "nl": "Duurzaamheid is belangrijk voor de toekomst."
+      "nl": "Duurzaamheid is belangrijk voor de toekomst.",
+      "it": "La sostenibilità è importante per il futuro.",
+      "es": "La sostenibilidad es importante para el futuro."
     },
-    "chunks": ["zelakinet", "lewedefit", "asfelagi", "newu"],
+    "chunks": [
+      "zelakinet",
+      "lewedefit",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +103,25 @@
     "am": "ስነ ምህዳር ብዝሃ ሕይወት ይፈልጋል።",
     "tr": "sine mihidar bizha hiyiwet yifeligal.",
     "level": "B2",
-    "uses": ["lex_sine_mihidar", "lex_bizha_hiyiwet"],
+    "uses": [
+      "lex_sine_mihidar",
+      "lex_bizha_hiyiwet"
+    ],
     "t": {
       "de": "Das Ökosystem braucht biologische Vielfalt.",
       "en": "The ecosystem needs biodiversity.",
       "sv": "Ekosystemet behöver biologisk mångfald.",
-      "nl": "Het ecosysteem heeft biodiversiteit nodig."
+      "nl": "Het ecosysteem heeft biodiversiteit nodig.",
+      "it": "L'ecosistema ha bisogno di biodiversità.",
+      "es": "El ecosistema necesita biodiversidad."
     },
-    "chunks": ["sine", "mihidar", "bizha", "hiyiwet", "yifeligal"],
+    "chunks": [
+      "sine",
+      "mihidar",
+      "bizha",
+      "hiyiwet",
+      "yifeligal"
+    ],
     "verified": false
   }
 ]

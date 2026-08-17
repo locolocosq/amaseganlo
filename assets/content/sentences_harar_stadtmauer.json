@@ -1,6 +1,101 @@
 [
-  {"id":"sen_hs_ken_akababi","am":"አምስት በሮች ለከተማው አሉ።","tr":"amist beroch leketemaw alu.","level":"B2","uses":["lex_hs_ken","lex_hs_amist_ber"],"t":{"de":"Es gibt fünf Tore für die Stadt.","en":"There are five gates for the city.","sv":"Det finns fem portar för staden.","nl":"Er zijn vijf poorten voor de stad."},"chunks":["amist","beroch","leketemaw","alu"],"verified":false},
-  {"id":"sen_hs_aroge_ketema_teqadami","am":"አሮጌ ከተማ ጥንታዊ ነው።","tr":"aroge ketema t'initawi newu.","level":"B2","uses":["lex_hs_akababi_beten","lex_hs_adj_teqadami"],"t":{"de":"Die Altstadt ist antik.","en":"The old town is ancient.","sv":"Den gamla stan är antik.","nl":"De oude stad is oeroud."},"chunks":["aroge","ketema","t'initawi","newu"],"verified":false},
-  {"id":"sen_hs_zebegna_metekakel2","am":"ዘበኛው ከተማውን ይጠብቃል።","tr":"zebegnaw ketemawin yit'ebik'al.","level":"B2","uses":["lex_hs_zebegna","lex_hs_v_metekakel2"],"t":{"de":"Der Wächter beschützt die Stadt.","en":"The guard protects the city.","sv":"Vaktaren skyddar staden.","nl":"De bewaker beschermt de stad."},"chunks":["zebegnaw","ketemawin","yit'ebik'al"],"verified":false},
-  {"id":"sen_hs_gobenyi_measaeb","am":"ጎብኚዎች አሮጌውን ከተማ ይጎበኛሉ።","tr":"gobinyoch arogewin ketema yigobegnalu.","level":"B2","uses":["lex_hs_gobenyi","lex_hs_v_measaeb"],"t":{"de":"Besucher besichtigen die Altstadt.","en":"Visitors visit the old town.","sv":"Besökare besöker gamla stan.","nl":"Bezoekers bezoeken de oude stad."},"chunks":["gobinyoch","arogewin","ketema","yigobegnalu"],"verified":false}
+  {
+    "id": "sen_hs_ken_akababi",
+    "am": "አምስት በሮች ለከተማው አሉ።",
+    "tr": "amist beroch leketemaw alu.",
+    "level": "B2",
+    "uses": [
+      "lex_hs_ken",
+      "lex_hs_amist_ber"
+    ],
+    "t": {
+      "de": "Es gibt fünf Tore für die Stadt.",
+      "en": "There are five gates for the city.",
+      "sv": "Det finns fem portar för staden.",
+      "nl": "Er zijn vijf poorten voor de stad.",
+      "it": "Ci sono cinque porte per la città.",
+      "es": "Hay cinco puertas para la ciudad."
+    },
+    "chunks": [
+      "amist",
+      "beroch",
+      "leketemaw",
+      "alu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hs_aroge_ketema_teqadami",
+    "am": "አሮጌ ከተማ ጥንታዊ ነው።",
+    "tr": "aroge ketema t'initawi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hs_akababi_beten",
+      "lex_hs_adj_teqadami"
+    ],
+    "t": {
+      "de": "Die Altstadt ist antik.",
+      "en": "The old town is ancient.",
+      "sv": "Den gamla stan är antik.",
+      "nl": "De oude stad is oeroud.",
+      "it": "La città vecchia è antica.",
+      "es": "El casco antiguo es antiguo."
+    },
+    "chunks": [
+      "aroge",
+      "ketema",
+      "t'initawi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hs_zebegna_metekakel2",
+    "am": "ዘበኛው ከተማውን ይጠብቃል።",
+    "tr": "zebegnaw ketemawin yit'ebik'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hs_zebegna",
+      "lex_hs_v_metekakel2"
+    ],
+    "t": {
+      "de": "Der Wächter beschützt die Stadt.",
+      "en": "The guard protects the city.",
+      "sv": "Vaktaren skyddar staden.",
+      "nl": "De bewaker beschermt de stad.",
+      "it": "La guardia protegge la città.",
+      "es": "El guardia protege la ciudad."
+    },
+    "chunks": [
+      "zebegnaw",
+      "ketemawin",
+      "yit'ebik'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hs_gobenyi_measaeb",
+    "am": "ጎብኚዎች አሮጌውን ከተማ ይጎበኛሉ።",
+    "tr": "gobinyoch arogewin ketema yigobegnalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hs_gobenyi",
+      "lex_hs_v_measaeb"
+    ],
+    "t": {
+      "de": "Besucher besichtigen die Altstadt.",
+      "en": "Visitors visit the old town.",
+      "sv": "Besökare besöker gamla stan.",
+      "nl": "Bezoekers bezoeken de oude stad.",
+      "it": "I visitatori visitano la città vecchia.",
+      "es": "Los visitantes visitan el casco antiguo."
+    },
+    "chunks": [
+      "gobinyoch",
+      "arogewin",
+      "ketema",
+      "yigobegnalu"
+    ],
+    "verified": false
+  }
 ]

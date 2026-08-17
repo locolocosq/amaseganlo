@@ -1,6 +1,100 @@
 [
-  {"id":"sen_hk2_v_metalefen_melekt","am":"ደወልኩኝ እና መልእክት ላኩ።","tr":"dewelkugn ina mel'ikit laku.","level":"B2","uses":["lex_hk2_v_metalefen","lex_hk2_melekt"],"t":{"de":"Ich rief an und sendete eine Nachricht.","en":"I called and sent a message.","sv":"Jag ringde och skickade ett meddelande.","nl":"Ik belde en stuurde een bericht."},"chunks":["dewelkugn","ina","mel'ikit","laku"],"verified":false},
-  {"id":"sen_hk2_teyaqi_meles","am":"ጥያቄ አለኝ፤ መልስ ትፈልጋለህ?","tr":"t'iyak'e alegn; melis tifeligaleh?","level":"B2","uses":["lex_hk2_teyaqi","lex_hk2_meles"],"t":{"de":"Ich habe eine Frage; brauchst du eine Antwort?","en":"I have a question; do you need an answer?","sv":"Jag har en fråga; behöver du ett svar?","nl":"Ik heb een vraag; heb je een antwoord nodig?"},"chunks":["t'iyak'e","alegn","melis","tifeligaleh"],"verified":false},
-  {"id":"sen_hk2_debidabe_akal4","am":"ደብዳቤው አድራሻ ይፈልጋል።","tr":"debidabew adirasha yifeligal.","level":"B2","uses":["lex_hk2_debidabe","lex_hk2_akal4"],"t":{"de":"Der Brief braucht eine Adresse.","en":"The letter needs an address.","sv":"Brevet behöver en adress.","nl":"De brief heeft een adres nodig."},"chunks":["debidabew","adirasha","yifeligal"],"verified":false},
-  {"id":"sen_hk2_v_mekedaje_kabo","am":"ቃል ገባን፤ ተስማማን።","tr":"k'al geban; tesimaman.","level":"B2","uses":["lex_hk2_kabo","lex_hk2_v_mekedaje"],"t":{"de":"Wir gaben ein Versprechen; wir stimmten zu.","en":"We gave a promise; we agreed.","sv":"Vi gav ett löfte; vi kom överens.","nl":"We gaven een belofte; we waren het eens."},"chunks":["k'al","geban","tesimaman"],"verified":false}
+  {
+    "id": "sen_hk2_v_metalefen_melekt",
+    "am": "ደወልኩኝ እና መልእክት ላኩ።",
+    "tr": "dewelkugn ina mel'ikit laku.",
+    "level": "B2",
+    "uses": [
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt"
+    ],
+    "t": {
+      "de": "Ich rief an und sendete eine Nachricht.",
+      "en": "I called and sent a message.",
+      "sv": "Jag ringde och skickade ett meddelande.",
+      "nl": "Ik belde en stuurde een bericht.",
+      "it": "Ho chiamato e ho mandato un messaggio.",
+      "es": "Llamé y envié un mensaje."
+    },
+    "chunks": [
+      "dewelkugn",
+      "ina",
+      "mel'ikit",
+      "laku"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk2_teyaqi_meles",
+    "am": "ጥያቄ አለኝ፤ መልስ ትፈልጋለህ?",
+    "tr": "t'iyak'e alegn; melis tifeligaleh?",
+    "level": "B2",
+    "uses": [
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles"
+    ],
+    "t": {
+      "de": "Ich habe eine Frage; brauchst du eine Antwort?",
+      "en": "I have a question; do you need an answer?",
+      "sv": "Jag har en fråga; behöver du ett svar?",
+      "nl": "Ik heb een vraag; heb je een antwoord nodig?",
+      "it": "Ho una domanda; hai bisogno di una risposta?",
+      "es": "Tengo una pregunta; ¿necesitas una respuesta?"
+    },
+    "chunks": [
+      "t'iyak'e",
+      "alegn",
+      "melis",
+      "tifeligaleh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk2_debidabe_akal4",
+    "am": "ደብዳቤው አድራሻ ይፈልጋል።",
+    "tr": "debidabew adirasha yifeligal.",
+    "level": "B2",
+    "uses": [
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4"
+    ],
+    "t": {
+      "de": "Der Brief braucht eine Adresse.",
+      "en": "The letter needs an address.",
+      "sv": "Brevet behöver en adress.",
+      "nl": "De brief heeft een adres nodig.",
+      "it": "La lettera ha bisogno di un indirizzo.",
+      "es": "La carta necesita una dirección."
+    },
+    "chunks": [
+      "debidabew",
+      "adirasha",
+      "yifeligal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hk2_v_mekedaje_kabo",
+    "am": "ቃል ገባን፤ ተስማማን።",
+    "tr": "k'al geban; tesimaman.",
+    "level": "B2",
+    "uses": [
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje"
+    ],
+    "t": {
+      "de": "Wir gaben ein Versprechen; wir stimmten zu.",
+      "en": "We gave a promise; we agreed.",
+      "sv": "Vi gav ett löfte; vi kom överens.",
+      "nl": "We gaven een belofte; we waren het eens.",
+      "it": "Abbiamo fatto una promessa; ci siamo trovati d'accordo.",
+      "es": "Hicimos una promesa; llegamos a un acuerdo."
+    },
+    "chunks": [
+      "k'al",
+      "geban",
+      "tesimaman"
+    ],
+    "verified": false
+  }
 ]

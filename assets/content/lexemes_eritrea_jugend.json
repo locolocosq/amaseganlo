@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_jgd_teen","am":"መንእሰይ","tr":"men'isey","pos":"noun","topic":"youth","level":"TI","t":{"de":"der/die Jugendliche","en":"teenager, youth","sv":"tonåring","nl":"tiener"},"emoji":"","verified":false},
-  {"id":"lex_ti_jgd_grw","am":"ዓበየ","tr":"'abeye","pos":"verb","topic":"youth","level":"TI","t":{"de":"aufwachsen, wachsen","en":"to grow up","sv":"att växa upp","nl":"opgroeien"},"emoji":"","verified":false},
-  {"id":"lex_ti_jgd_dream","am":"ሕልሚ (ትምኒት)","tr":"hilmi timinit","pos":"noun","topic":"youth","level":"TI","t":{"de":"der Traum (Zukunftstraum)","en":"dream (aspiration)","sv":"dröm (framtidsdröm)","nl":"droom (toekomst)"},"emoji":"","verified":false},
-  {"id":"lex_ti_jgd_frnd2","am":"ብጻይ መንእሰያት","tr":"bitsay men'iseyat","pos":"noun","topic":"youth","level":"TI","t":{"de":"die Clique","en":"friend group","sv":"kompisgäng","nl":"vriendengroep"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_jgd_teen",
+    "am": "መንእሰይ",
+    "tr": "men'isey",
+    "pos": "noun",
+    "topic": "youth",
+    "level": "TI",
+    "t": {
+      "de": "der/die Jugendliche",
+      "en": "teenager, youth",
+      "sv": "tonåring",
+      "nl": "tiener",
+      "it": "l'adolescente",
+      "es": "el/la adolescente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jgd_grw",
+    "am": "ዓበየ",
+    "tr": "'abeye",
+    "pos": "verb",
+    "topic": "youth",
+    "level": "TI",
+    "t": {
+      "de": "aufwachsen, wachsen",
+      "en": "to grow up",
+      "sv": "att växa upp",
+      "nl": "opgroeien",
+      "it": "crescere",
+      "es": "crecer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jgd_dream",
+    "am": "ሕልሚ (ትምኒት)",
+    "tr": "hilmi timinit",
+    "pos": "noun",
+    "topic": "youth",
+    "level": "TI",
+    "t": {
+      "de": "der Traum (Zukunftstraum)",
+      "en": "dream (aspiration)",
+      "sv": "dröm (framtidsdröm)",
+      "nl": "droom (toekomst)",
+      "it": "il sogno (per il futuro)",
+      "es": "el sueño (aspiración)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jgd_frnd2",
+    "am": "ብጻይ መንእሰያት",
+    "tr": "bitsay men'iseyat",
+    "pos": "noun",
+    "topic": "youth",
+    "level": "TI",
+    "t": {
+      "de": "die Clique",
+      "en": "friend group",
+      "sv": "kompisgäng",
+      "nl": "vriendengroep",
+      "it": "la cricca, il gruppo di amici",
+      "es": "la pandilla, el grupo de amigos"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

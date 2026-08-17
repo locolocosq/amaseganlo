@@ -12,7 +12,9 @@
       "de": "Ich bin Student.",
       "en": "I am a student.",
       "sv": "Jag är student.",
-      "nl": "Ik ben een student."
+      "nl": "Ik ben een student.",
+      "it": "Sono studente.",
+      "es": "Soy estudiante."
     },
     "alt": {},
     "chunks": [
@@ -35,7 +37,9 @@
       "de": "Ich lese ein Buch.",
       "en": "I read a book.",
       "sv": "Jag läser en bok.",
-      "nl": "Ik lees een boek."
+      "nl": "Ik lees een boek.",
+      "it": "Leggo un libro.",
+      "es": "Leo un libro."
     },
     "alt": {},
     "chunks": [

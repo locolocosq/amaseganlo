@@ -4,14 +4,24 @@
     "am": "ሼኹ ታማኝ ሰው ነው።",
     "tr": "sheikhu tamagn sew newu.",
     "level": "B2",
-    "uses": ["lex_sheikh", "lex_adj_tamagn"],
+    "uses": [
+      "lex_sheikh",
+      "lex_adj_tamagn"
+    ],
     "t": {
       "de": "Der Scheich ist ein treuer Mensch.",
       "en": "The sheikh is a faithful person.",
       "sv": "Shejken är en trogen person.",
-      "nl": "De sjeik is een trouwe persoon."
+      "nl": "De sjeik is een trouwe persoon.",
+      "it": "Lo sceicco è una persona fedele.",
+      "es": "El jeque es una persona fiel."
     },
-    "chunks": ["sheikhu", "tamagn", "sew", "newu"],
+    "chunks": [
+      "sheikhu",
+      "tamagn",
+      "sew",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -19,14 +29,26 @@
     "am": "ኡስታዝ በመድረሳ ውስጥ አስተማሪ ነው።",
     "tr": "ustaz be medresa wist astemari newu.",
     "level": "B2",
-    "uses": ["lex_ustaz", "lex_medresa"],
+    "uses": [
+      "lex_ustaz",
+      "lex_medresa"
+    ],
     "t": {
       "de": "Der Ustaz ist Lehrer in der Koranschule.",
       "en": "The ustaz is a teacher at the madrasa.",
       "sv": "Ustaden är lärare i koranskolan.",
-      "nl": "De ustadh is leraar op de koranschool."
+      "nl": "De ustadh is leraar op de koranschool.",
+      "it": "L'ustaz è insegnante nella scuola coranica.",
+      "es": "El ustadh es profesor en la madrasa."
     },
-    "chunks": ["ustaz", "be", "medresa", "wist", "astemari", "newu"],
+    "chunks": [
+      "ustaz",
+      "be",
+      "medresa",
+      "wist",
+      "astemari",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +56,27 @@
     "am": "ይህ ሐላል ነው፤ ያ ግን ሐራም ነው።",
     "tr": "yih halal newu; ya gin haram newu.",
     "level": "B2",
-    "uses": ["lex_adj_halal", "lex_adj_haram"],
+    "uses": [
+      "lex_adj_halal",
+      "lex_adj_haram"
+    ],
     "t": {
       "de": "Das ist halal, aber jenes ist haram.",
       "en": "This is halal, but that is haram.",
       "sv": "Detta är halal, men det där är haram.",
-      "nl": "Dit is halal, maar dat is haram."
+      "nl": "Dit is halal, maar dat is haram.",
+      "it": "Questo è halal, ma quello è haram.",
+      "es": "Esto es halal, pero eso es haram."
     },
-    "chunks": ["yih", "halal", "newu", "ya", "gin", "haram", "newu"],
+    "chunks": [
+      "yih",
+      "halal",
+      "newu",
+      "ya",
+      "gin",
+      "haram",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +84,24 @@
     "am": "ሙስሊሞች በአላህ ያምናሉ።",
     "tr": "muslimoch be'alah yaminalu.",
     "level": "B2",
-    "uses": ["lex_v_amen", "lex_allah", "lex_muslim"],
+    "uses": [
+      "lex_v_amen",
+      "lex_allah",
+      "lex_muslim"
+    ],
     "t": {
       "de": "Muslime glauben an Allah.",
       "en": "Muslims believe in Allah.",
       "sv": "Muslimer tror på Allah.",
-      "nl": "Moslims geloven in Allah."
+      "nl": "Moslims geloven in Allah.",
+      "it": "I musulmani credono in Allah.",
+      "es": "Los musulmanes creen en Alá."
     },
-    "chunks": ["muslimoch", "be'alah", "yaminalu"],
+    "chunks": [
+      "muslimoch",
+      "be'alah",
+      "yaminalu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +109,24 @@
     "am": "ሐጂ ወደ መካ ሄደ።",
     "tr": "haji wede meka hede.",
     "level": "B2",
-    "uses": ["lex_hajji_title", "lex_meka"],
+    "uses": [
+      "lex_hajji_title",
+      "lex_meka"
+    ],
     "t": {
       "de": "Der Hadschi ist nach Mekka gereist.",
       "en": "The Hajji traveled to Mecca.",
       "sv": "Hadjin reste till Mecka.",
-      "nl": "De hadji reisde naar Mekka."
+      "nl": "De hadji reisde naar Mekka.",
+      "it": "Lo hajji è andato alla Mecca.",
+      "es": "El hayyi viajó a La Meca."
     },
-    "chunks": ["haji", "wede", "meka", "hede"],
+    "chunks": [
+      "haji",
+      "wede",
+      "meka",
+      "hede"
+    ],
     "verified": false
   }
 ]

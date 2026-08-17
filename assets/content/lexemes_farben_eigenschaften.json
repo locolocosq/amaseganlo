@@ -10,7 +10,9 @@
       "de": "rot",
       "en": "red",
       "sv": "röd",
-      "nl": "rood"
+      "nl": "rood",
+      "it": "rosso",
+      "es": "rojo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "blau",
       "en": "blue",
       "sv": "blå",
-      "nl": "blauw"
+      "nl": "blauw",
+      "it": "blu",
+      "es": "azul"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "grün",
       "en": "green",
       "sv": "grön",
-      "nl": "groen"
+      "nl": "groen",
+      "it": "verde",
+      "es": "verde"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "gelb",
       "en": "yellow",
       "sv": "gul",
-      "nl": "geel"
+      "nl": "geel",
+      "it": "giallo",
+      "es": "amarillo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "schwarz",
       "en": "black",
       "sv": "svart",
-      "nl": "zwart"
+      "nl": "zwart",
+      "it": "nero",
+      "es": "negro"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "weiß",
       "en": "white",
       "sv": "vit",
-      "nl": "wit"
+      "nl": "wit",
+      "it": "bianco",
+      "es": "blanco"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "braun",
       "en": "brown",
       "sv": "brun",
-      "nl": "bruin"
+      "nl": "bruin",
+      "it": "marrone",
+      "es": "marrón"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "rosa, pink",
       "en": "pink",
       "sv": "rosa",
-      "nl": "roze"
+      "nl": "roze",
+      "it": "rosa",
+      "es": "rosa"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "lila, violett",
       "en": "purple",
       "sv": "lila",
-      "nl": "paars"
+      "nl": "paars",
+      "it": "lilla, viola",
+      "es": "lila, morado"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "grau",
       "en": "gray",
       "sv": "grå",
-      "nl": "grijs"
+      "nl": "grijs",
+      "it": "grigio",
+      "es": "gris"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "groß",
       "en": "big",
       "sv": "stor",
-      "nl": "groot"
+      "nl": "groot",
+      "it": "grande",
+      "es": "grande"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "klein",
       "en": "small",
       "sv": "liten",
-      "nl": "klein"
+      "nl": "klein",
+      "it": "piccolo",
+      "es": "pequeño"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "gut",
       "en": "good",
       "sv": "bra",
-      "nl": "goed"
+      "nl": "goed",
+      "it": "buono",
+      "es": "bueno"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "schlecht",
       "en": "bad",
       "sv": "dålig",
-      "nl": "slecht"
+      "nl": "slecht",
+      "it": "cattivo",
+      "es": "malo"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "neu",
       "en": "new",
       "sv": "ny",
-      "nl": "nieuw"
+      "nl": "nieuw",
+      "it": "nuovo",
+      "es": "nuevo"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "alt (Sache)",
       "en": "old (thing)",
       "sv": "gammal (sak)",
-      "nl": "oud (dingen)"
+      "nl": "oud (dingen)",
+      "it": "vecchio (cosa)",
+      "es": "viejo (cosa)"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "heiß, warm",
       "en": "hot, warm",
       "sv": "varm",
-      "nl": "heet, warm"
+      "nl": "heet, warm",
+      "it": "caldo",
+      "es": "caliente"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "kalt",
       "en": "cold",
       "sv": "kall",
-      "nl": "koud"
+      "nl": "koud",
+      "it": "freddo",
+      "es": "frío"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "schön, hübsch",
       "en": "beautiful, pretty",
       "sv": "vacker",
-      "nl": "mooi"
+      "nl": "mooi",
+      "it": "bello, carino",
+      "es": "bonito, guapo"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "lang, groß (Person)",
       "en": "long, tall",
       "sv": "lång",
-      "nl": "lang"
+      "nl": "lang",
+      "it": "lungo, alto (persona)",
+      "es": "largo, alto (persona)"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "kurz",
       "en": "short",
       "sv": "kort",
-      "nl": "kort"
+      "nl": "kort",
+      "it": "corto",
+      "es": "corto"
     },
     "hint": {},
     "alt": {},

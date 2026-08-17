@@ -10,7 +10,9 @@
       "de": "die Liturgie, die Messe",
       "en": "the liturgy, mass",
       "sv": "liturgin, mässan",
-      "nl": "de liturgie, de mis"
+      "nl": "de liturgie, de mis",
+      "it": "la liturgia, la messa",
+      "es": "la liturgia, la misa"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Priester",
       "en": "priest",
       "sv": "präst",
-      "nl": "priester"
+      "nl": "priester",
+      "it": "il prete, il sacerdote",
+      "es": "el sacerdote"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Bischof, der Patriarch",
       "en": "bishop, patriarch",
       "sv": "biskop, patriark",
-      "nl": "bisschop, patriarch"
+      "nl": "bisschop, patriarch",
+      "it": "il vescovo, il patriarca",
+      "es": "el obispo, el patriarca"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Mönch",
       "en": "monk",
       "sv": "munk",
-      "nl": "monnik"
+      "nl": "monnik",
+      "it": "il monaco",
+      "es": "el monje"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Nonne",
       "en": "nun",
       "sv": "nunna",
-      "nl": "non"
+      "nl": "non",
+      "it": "la suora, la monaca",
+      "es": "la monja"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Evangelium",
       "en": "gospel",
       "sv": "evangelium",
-      "nl": "evangelie"
+      "nl": "evangelie",
+      "it": "il vangelo",
+      "es": "el evangelio"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Bibel",
       "en": "the Bible",
       "sv": "Bibeln",
-      "nl": "de Bijbel"
+      "nl": "de Bijbel",
+      "it": "la Bibbia",
+      "es": "la Biblia"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "heilig",
       "en": "holy, saint",
       "sv": "helig",
-      "nl": "heilig"
+      "nl": "heilig",
+      "it": "santo",
+      "es": "santo"
     },
     "hint": {},
     "alt": {},

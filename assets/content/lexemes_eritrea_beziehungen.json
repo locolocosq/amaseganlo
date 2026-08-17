@@ -1,8 +1,110 @@
 [
-  {"id":"lex_ti_frenza","am":"ፍትወት","tr":"fitwet","pos":"noun","topic":"relationships","level":"TI","t":{"de":"die Zuneigung, Verliebtheit","en":"affection, infatuation","sv":"tillgivenhet, förälskelse","nl":"genegenheid, verliefdheid"},"emoji":"💕","verified":false},
-  {"id":"lex_ti_srhbi","am":"ዕርክነት","tr":"'irikinet","pos":"noun","topic":"relationships","level":"TI","t":{"de":"die Freundschaft","en":"friendship","sv":"vänskap","nl":"vriendschap"},"emoji":"","verified":false},
-  {"id":"lex_ti_frid","am":"ፍትሕ","tr":"fitih","pos":"noun","topic":"relationships","level":"TI","t":{"de":"die Scheidung","en":"divorce","sv":"skilsmässa","nl":"scheiding"},"emoji":"","verified":false},
-  {"id":"lex_ti_mekyd","am":"ብጻይ","tr":"bitsay","pos":"noun","topic":"relationships","level":"TI","t":{"de":"der Partner, Kamerad","en":"partner, companion","sv":"partner, kamrat","nl":"partner, kameraad"},"emoji":"","verified":false},
-  {"id":"lex_ti_hgb","am":"ብፍቕሪ ምጥያስ","tr":"bifiqri mit'yas","pos":"phrase","topic":"relationships","level":"TI","t":{"de":"sich verloben","en":"to get engaged","sv":"förlova sig","nl":"zich verloven"},"emoji":"💍","verified":false},
-  {"id":"lex_ti_mrat2","am":"ተመርዓወ","tr":"temer'awe","pos":"verb","topic":"relationships","level":"TI","t":{"de":"heiraten","en":"to marry","sv":"gifta sig","nl":"trouwen"},"emoji":"💒","verified":false}
+  {
+    "id": "lex_ti_frenza",
+    "am": "ፍትወት",
+    "tr": "fitwet",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "TI",
+    "t": {
+      "de": "die Zuneigung, Verliebtheit",
+      "en": "affection, infatuation",
+      "sv": "tillgivenhet, förälskelse",
+      "nl": "genegenheid, verliefdheid",
+      "it": "l'affetto, l'infatuazione",
+      "es": "el cariño, el enamoramiento"
+    },
+    "emoji": "💕",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_srhbi",
+    "am": "ዕርክነት",
+    "tr": "'irikinet",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "TI",
+    "t": {
+      "de": "die Freundschaft",
+      "en": "friendship",
+      "sv": "vänskap",
+      "nl": "vriendschap",
+      "it": "l'amicizia",
+      "es": "la amistad"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frid",
+    "am": "ፍትሕ",
+    "tr": "fitih",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "TI",
+    "t": {
+      "de": "die Scheidung",
+      "en": "divorce",
+      "sv": "skilsmässa",
+      "nl": "scheiding",
+      "it": "il divorzio",
+      "es": "el divorcio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mekyd",
+    "am": "ብጻይ",
+    "tr": "bitsay",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "TI",
+    "t": {
+      "de": "der Partner, Kamerad",
+      "en": "partner, companion",
+      "sv": "partner, kamrat",
+      "nl": "partner, kameraad",
+      "it": "il/la partner, il compagno",
+      "es": "el/la pareja, el compañero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hgb",
+    "am": "ብፍቕሪ ምጥያስ",
+    "tr": "bifiqri mit'yas",
+    "pos": "phrase",
+    "topic": "relationships",
+    "level": "TI",
+    "t": {
+      "de": "sich verloben",
+      "en": "to get engaged",
+      "sv": "förlova sig",
+      "nl": "zich verloven",
+      "it": "fidanzarsi",
+      "es": "comprometerse"
+    },
+    "emoji": "💍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrat2",
+    "am": "ተመርዓወ",
+    "tr": "temer'awe",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "TI",
+    "t": {
+      "de": "heiraten",
+      "en": "to marry",
+      "sv": "gifta sig",
+      "nl": "trouwen",
+      "it": "sposarsi",
+      "es": "casarse"
+    },
+    "emoji": "💒",
+    "verified": false
+  }
 ]

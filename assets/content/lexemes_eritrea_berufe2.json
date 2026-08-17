@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_brf2_pilot","am":"ፓይሎት","tr":"paylot","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Pilot","en":"pilot","sv":"pilot","nl":"piloot"},"emoji":"✈️","verified":false},
-  {"id":"lex_ti_brf2_ingnr","am":"ኢንጂነር","tr":"injiner","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Ingenieur","en":"engineer","sv":"ingenjör","nl":"ingenieur"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_arkte","am":"ስነ-ህንጻ","tr":"sine hinitsa","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Architekt","en":"architect","sv":"arkitekt","nl":"architect"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_farms","am":"ፋርማሲስት","tr":"farmasist","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Apotheker","en":"pharmacist","sv":"apotekare","nl":"apotheker"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_vetrn","am":"ሓኪም እንስሳ","tr":"hakim inisisa","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Tierarzt","en":"veterinarian","sv":"veterinär","nl":"dierenarts"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_eletr","am":"ኤለትሪሻን","tr":"eletrishan","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Elektriker","en":"electrician","sv":"elektriker","nl":"elektricien"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_plmbr","am":"ቧይላ ሰራሒ","tr":"bwayla serahi","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Klempner","en":"plumber","sv":"rörmokare","nl":"loodgieter"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_jrnlst","am":"ጋዜጠኛ","tr":"gazetegna","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Journalist","en":"journalist","sv":"journalist","nl":"journalist"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_trnsl","am":"ተርጓማይ","tr":"terguamay","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Übersetzer","en":"translator","sv":"översättare","nl":"vertaler"},"emoji":"","verified":false},
-  {"id":"lex_ti_brf2_fotog","am":"ስእሊ ተሓዚ","tr":"si'ili tehazi","pos":"noun","topic":"professions_more","level":"TI","t":{"de":"der Fotograf","en":"photographer","sv":"fotograf","nl":"fotograaf"},"emoji":"📷","verified":false}
+  {
+    "id": "lex_ti_brf2_pilot",
+    "am": "ፓይሎት",
+    "tr": "paylot",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Pilot",
+      "en": "pilot",
+      "sv": "pilot",
+      "nl": "piloot",
+      "it": "il pilota",
+      "es": "el piloto"
+    },
+    "emoji": "✈️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_ingnr",
+    "am": "ኢንጂነር",
+    "tr": "injiner",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Ingenieur",
+      "en": "engineer",
+      "sv": "ingenjör",
+      "nl": "ingenieur",
+      "it": "l'ingegnere",
+      "es": "el ingeniero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_arkte",
+    "am": "ስነ-ህንጻ",
+    "tr": "sine hinitsa",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Architekt",
+      "en": "architect",
+      "sv": "arkitekt",
+      "nl": "architect",
+      "it": "l'architetto",
+      "es": "el arquitecto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_farms",
+    "am": "ፋርማሲስት",
+    "tr": "farmasist",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Apotheker",
+      "en": "pharmacist",
+      "sv": "apotekare",
+      "nl": "apotheker",
+      "it": "il farmacista",
+      "es": "el farmacéutico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_vetrn",
+    "am": "ሓኪም እንስሳ",
+    "tr": "hakim inisisa",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Tierarzt",
+      "en": "veterinarian",
+      "sv": "veterinär",
+      "nl": "dierenarts",
+      "it": "il veterinario",
+      "es": "el veterinario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_eletr",
+    "am": "ኤለትሪሻን",
+    "tr": "eletrishan",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Elektriker",
+      "en": "electrician",
+      "sv": "elektriker",
+      "nl": "elektricien",
+      "it": "l'elettricista",
+      "es": "el electricista"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_plmbr",
+    "am": "ቧይላ ሰራሒ",
+    "tr": "bwayla serahi",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Klempner",
+      "en": "plumber",
+      "sv": "rörmokare",
+      "nl": "loodgieter",
+      "it": "l'idraulico",
+      "es": "el fontanero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_jrnlst",
+    "am": "ጋዜጠኛ",
+    "tr": "gazetegna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Journalist",
+      "en": "journalist",
+      "sv": "journalist",
+      "nl": "journalist",
+      "it": "il giornalista",
+      "es": "el periodista"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_trnsl",
+    "am": "ተርጓማይ",
+    "tr": "terguamay",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Übersetzer",
+      "en": "translator",
+      "sv": "översättare",
+      "nl": "vertaler",
+      "it": "il traduttore",
+      "es": "el traductor"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brf2_fotog",
+    "am": "ስእሊ ተሓዚ",
+    "tr": "si'ili tehazi",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "TI",
+    "t": {
+      "de": "der Fotograf",
+      "en": "photographer",
+      "sv": "fotograf",
+      "nl": "fotograaf",
+      "it": "il fotografo",
+      "es": "el fotógrafo"
+    },
+    "emoji": "📷",
+    "verified": false
+  }
 ]

@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_txt_cttn","am":"ጡጥ","tr":"tut'i","pos":"noun","topic":"textiles","level":"TI","t":{"de":"die Baumwolle","en":"cotton","sv":"bomull","nl":"katoen"},"emoji":"","verified":false},
-  {"id":"lex_ti_txt_wool","am":"ጸምሪ","tr":"tsemri","pos":"noun","topic":"textiles","level":"TI","t":{"de":"die Wolle","en":"wool","sv":"ull","nl":"wol"},"emoji":"","verified":false},
-  {"id":"lex_ti_txt_silk","am":"ሓሪር","tr":"harir","pos":"noun","topic":"textiles","level":"TI","t":{"de":"die Seide","en":"silk","sv":"siden","nl":"zijde"},"emoji":"","verified":false},
-  {"id":"lex_ti_txt_lthr","am":"ቆርበት (ናይ ክዳን)","tr":"qorbet nay kidan","pos":"noun","topic":"textiles","level":"TI","t":{"de":"das Leder","en":"leather","sv":"läder","nl":"leer"},"emoji":"","verified":false},
-  {"id":"lex_ti_txt_fbrc","am":"ጨርቂ","tr":"cherqi","pos":"noun","topic":"textiles","level":"TI","t":{"de":"der Stoff","en":"fabric","sv":"tyg","nl":"stof (textiel)"},"emoji":"🧵","verified":false}
+  {
+    "id": "lex_ti_txt_cttn",
+    "am": "ጡጥ",
+    "tr": "tut'i",
+    "pos": "noun",
+    "topic": "textiles",
+    "level": "TI",
+    "t": {
+      "de": "die Baumwolle",
+      "en": "cotton",
+      "sv": "bomull",
+      "nl": "katoen",
+      "it": "il cotone",
+      "es": "el algodón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_txt_wool",
+    "am": "ጸምሪ",
+    "tr": "tsemri",
+    "pos": "noun",
+    "topic": "textiles",
+    "level": "TI",
+    "t": {
+      "de": "die Wolle",
+      "en": "wool",
+      "sv": "ull",
+      "nl": "wol",
+      "it": "la lana",
+      "es": "la lana"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_txt_silk",
+    "am": "ሓሪር",
+    "tr": "harir",
+    "pos": "noun",
+    "topic": "textiles",
+    "level": "TI",
+    "t": {
+      "de": "die Seide",
+      "en": "silk",
+      "sv": "siden",
+      "nl": "zijde",
+      "it": "la seta",
+      "es": "la seda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_txt_lthr",
+    "am": "ቆርበት (ናይ ክዳን)",
+    "tr": "qorbet nay kidan",
+    "pos": "noun",
+    "topic": "textiles",
+    "level": "TI",
+    "t": {
+      "de": "das Leder",
+      "en": "leather",
+      "sv": "läder",
+      "nl": "leer",
+      "it": "il cuoio",
+      "es": "el cuero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_txt_fbrc",
+    "am": "ጨርቂ",
+    "tr": "cherqi",
+    "pos": "noun",
+    "topic": "textiles",
+    "level": "TI",
+    "t": {
+      "de": "der Stoff",
+      "en": "fabric",
+      "sv": "tyg",
+      "nl": "stof (textiel)",
+      "it": "il tessuto",
+      "es": "la tela"
+    },
+    "emoji": "🧵",
+    "verified": false
+  }
 ]

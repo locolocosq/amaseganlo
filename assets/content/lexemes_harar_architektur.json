@@ -1,25 +1,462 @@
 [
-  {"id":"lex_hac_dejaf","am":"ደጃፍ","tr":"dejaf","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Türschwelle","en":"threshold, doorway","sv":"tröskel","nl":"drempel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_mesikot2","am":"መስኮት","tr":"mesikot","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das Fenster","en":"window","sv":"fönster","nl":"raam"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_gidigida","am":"ግድግዳ","tr":"gidigida","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Wand","en":"wall","sv":"vägg","nl":"muur"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_tara","am":"ጣራ","tr":"t'ara","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das Dach","en":"roof","sv":"tak","nl":"dak"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_amid","am":"አምድ","tr":"amid","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Säule","en":"pillar, column","sv":"pelare","nl":"pilaar"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_medeb","am":"መደብ","tr":"medeb","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die eingebaute Lehmbank","en":"built-in clay platform, bench","sv":"inbyggd lerbänk","nl":"ingebouwde kleibank"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hac_berenda","am":"በረንዳ","tr":"berenda","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Veranda","en":"veranda, porch","sv":"veranda","nl":"veranda"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_kornis","am":"ኮርኒስ","tr":"kornis","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das Zierprofil","en":"cornice, decorative molding","sv":"list","nl":"lijstwerk"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hac_inichet_sira","am":"የእንጨት ስራ","tr":"yeinichet sira","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Holzarbeit","en":"woodwork","sv":"träarbete","nl":"houtwerk"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_dereja","am":"ደረጅ","tr":"dereja","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Stufe, Treppe","en":"step, stair","sv":"trappsteg","nl":"trede"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hac_tebab_menged","am":"ጠባብ መንገድ","tr":"t'ebab menged","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die enge Gasse","en":"narrow alley","sv":"trång gränd","nl":"smalle steeg"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_kifef","am":"ክፈፍ","tr":"kifef","pos":"noun","topic":"architecture","level":"B2","t":{"de":"der Rahmen","en":"frame","sv":"ram","nl":"kader"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_mekerkeriya","am":"መቀርቀሪያ","tr":"mek'erik'eriya","pos":"noun","topic":"architecture","level":"B2","t":{"de":"der Türriegel","en":"door bolt, latch","sv":"dörregel","nl":"deurgrendel"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hac_tub","am":"ጡብ","tr":"t'ub","pos":"noun","topic":"architecture","level":"B2","t":{"de":"der Ziegel","en":"brick","sv":"tegel","nl":"baksteen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_dinigay_ginib","am":"ድንጋይ ግንብ","tr":"dinigay ginib","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das Steingebäude","en":"stone building","sv":"stenbyggnad","nl":"stenen gebouw"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_tariya_shifan","am":"ጣሪያ ሽፋን","tr":"t'ariya shifan","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das Dachmaterial","en":"roofing material","sv":"takmaterial","nl":"dakbedekking"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hac_v_masiget","am":"ማስጌጥ","tr":"masiget'","pos":"verb","topic":"architecture","level":"B2","t":{"de":"verzieren, schmücken","en":"to decorate","sv":"pryda","nl":"versieren"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_tinitawi_bet","am":"ጥንታዊ ቤት","tr":"t'initawi bet","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das alte Haus","en":"ancient house","sv":"gammalt hus","nl":"oud huis"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_maizen","am":"ማዕዘን","tr":"ma'izen","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die Ecke","en":"corner","sv":"hörn","nl":"hoek"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_kelem_gidigida","am":"ቀለም ግድግዳ","tr":"kelem gidigida","pos":"noun","topic":"architecture","level":"B2","t":{"de":"die farbige Wand","en":"colorful, painted wall","sv":"färgad vägg","nl":"gekleurde muur"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hac_dej","am":"ደጅ","tr":"dej","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das große Tor","en":"big gate, portal","sv":"stor port","nl":"grote poort"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_meseret2","am":"መሠረት","tr":"meseret","pos":"noun","topic":"architecture","level":"B2","t":{"de":"das Fundament","en":"foundation","sv":"grund","nl":"fundering"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hac_adj_sefi","am":"ሰፊ","tr":"sefi","pos":"adjective","topic":"architecture","level":"B2","t":{"de":"weit, geräumig","en":"spacious, wide","sv":"rymlig","nl":"ruim"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hac_dejaf",
+    "am": "ደጃፍ",
+    "tr": "dejaf",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Türschwelle",
+      "en": "threshold, doorway",
+      "sv": "tröskel",
+      "nl": "drempel",
+      "it": "la soglia",
+      "es": "el umbral"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_mesikot2",
+    "am": "መስኮት",
+    "tr": "mesikot",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das Fenster",
+      "en": "window",
+      "sv": "fönster",
+      "nl": "raam",
+      "it": "la finestra",
+      "es": "la ventana"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_gidigida",
+    "am": "ግድግዳ",
+    "tr": "gidigida",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Wand",
+      "en": "wall",
+      "sv": "vägg",
+      "nl": "muur",
+      "it": "il muro, la parete",
+      "es": "la pared, el muro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_tara",
+    "am": "ጣራ",
+    "tr": "t'ara",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das Dach",
+      "en": "roof",
+      "sv": "tak",
+      "nl": "dak",
+      "it": "il tetto",
+      "es": "el techo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_amid",
+    "am": "አምድ",
+    "tr": "amid",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Säule",
+      "en": "pillar, column",
+      "sv": "pelare",
+      "nl": "pilaar",
+      "it": "la colonna, il pilastro",
+      "es": "la columna, el pilar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_medeb",
+    "am": "መደብ",
+    "tr": "medeb",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die eingebaute Lehmbank",
+      "en": "built-in clay platform, bench",
+      "sv": "inbyggd lerbänk",
+      "nl": "ingebouwde kleibank",
+      "it": "la panca di argilla incorporata",
+      "es": "el banco de arcilla empotrado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hac_berenda",
+    "am": "በረንዳ",
+    "tr": "berenda",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Veranda",
+      "en": "veranda, porch",
+      "sv": "veranda",
+      "nl": "veranda",
+      "it": "la veranda",
+      "es": "el porche, la veranda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_kornis",
+    "am": "ኮርኒስ",
+    "tr": "kornis",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das Zierprofil",
+      "en": "cornice, decorative molding",
+      "sv": "list",
+      "nl": "lijstwerk",
+      "it": "il cornicione, la modanatura",
+      "es": "la cornisa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hac_inichet_sira",
+    "am": "የእንጨት ስራ",
+    "tr": "yeinichet sira",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Holzarbeit",
+      "en": "woodwork",
+      "sv": "träarbete",
+      "nl": "houtwerk",
+      "it": "il lavoro in legno",
+      "es": "la carpintería"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_dereja",
+    "am": "ደረጅ",
+    "tr": "dereja",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Stufe, Treppe",
+      "en": "step, stair",
+      "sv": "trappsteg",
+      "nl": "trede",
+      "it": "il gradino, la scala",
+      "es": "el escalón, la escalera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hac_tebab_menged",
+    "am": "ጠባብ መንገድ",
+    "tr": "t'ebab menged",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die enge Gasse",
+      "en": "narrow alley",
+      "sv": "trång gränd",
+      "nl": "smalle steeg",
+      "it": "il vicolo stretto",
+      "es": "el callejón estrecho"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_kifef",
+    "am": "ክፈፍ",
+    "tr": "kifef",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "der Rahmen",
+      "en": "frame",
+      "sv": "ram",
+      "nl": "kader",
+      "it": "il telaio, la cornice",
+      "es": "el marco"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_mekerkeriya",
+    "am": "መቀርቀሪያ",
+    "tr": "mek'erik'eriya",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "der Türriegel",
+      "en": "door bolt, latch",
+      "sv": "dörregel",
+      "nl": "deurgrendel",
+      "it": "il chiavistello",
+      "es": "el pestillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hac_tub",
+    "am": "ጡብ",
+    "tr": "t'ub",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "der Ziegel",
+      "en": "brick",
+      "sv": "tegel",
+      "nl": "baksteen",
+      "it": "il mattone",
+      "es": "el ladrillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_dinigay_ginib",
+    "am": "ድንጋይ ግንብ",
+    "tr": "dinigay ginib",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das Steingebäude",
+      "en": "stone building",
+      "sv": "stenbyggnad",
+      "nl": "stenen gebouw",
+      "it": "l'edificio in pietra",
+      "es": "el edificio de piedra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_tariya_shifan",
+    "am": "ጣሪያ ሽፋን",
+    "tr": "t'ariya shifan",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das Dachmaterial",
+      "en": "roofing material",
+      "sv": "takmaterial",
+      "nl": "dakbedekking",
+      "it": "il materiale per il tetto",
+      "es": "el material para techos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hac_v_masiget",
+    "am": "ማስጌጥ",
+    "tr": "masiget'",
+    "pos": "verb",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "verzieren, schmücken",
+      "en": "to decorate",
+      "sv": "pryda",
+      "nl": "versieren",
+      "it": "decorare",
+      "es": "decorar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_tinitawi_bet",
+    "am": "ጥንታዊ ቤት",
+    "tr": "t'initawi bet",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das alte Haus",
+      "en": "ancient house",
+      "sv": "gammalt hus",
+      "nl": "oud huis",
+      "it": "la casa antica",
+      "es": "la casa antigua"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_maizen",
+    "am": "ማዕዘን",
+    "tr": "ma'izen",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die Ecke",
+      "en": "corner",
+      "sv": "hörn",
+      "nl": "hoek",
+      "it": "l'angolo",
+      "es": "la esquina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_kelem_gidigida",
+    "am": "ቀለም ግድግዳ",
+    "tr": "kelem gidigida",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "die farbige Wand",
+      "en": "colorful, painted wall",
+      "sv": "färgad vägg",
+      "nl": "gekleurde muur",
+      "it": "il muro colorato, dipinto",
+      "es": "la pared de colores, pintada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hac_dej",
+    "am": "ደጅ",
+    "tr": "dej",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das große Tor",
+      "en": "big gate, portal",
+      "sv": "stor port",
+      "nl": "grote poort",
+      "it": "il grande portone",
+      "es": "el gran portón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_meseret2",
+    "am": "መሠረት",
+    "tr": "meseret",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "das Fundament",
+      "en": "foundation",
+      "sv": "grund",
+      "nl": "fundering",
+      "it": "le fondamenta",
+      "es": "los cimientos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hac_adj_sefi",
+    "am": "ሰፊ",
+    "tr": "sefi",
+    "pos": "adjective",
+    "topic": "architecture",
+    "level": "B2",
+    "t": {
+      "de": "weit, geräumig",
+      "en": "spacious, wide",
+      "sv": "rymlig",
+      "nl": "ruim",
+      "it": "spazioso, ampio",
+      "es": "espacioso, amplio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

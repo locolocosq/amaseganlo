@@ -10,7 +10,9 @@
       "de": "der Teller",
       "en": "plate",
       "sv": "tallrik",
-      "nl": "bord"
+      "nl": "bord",
+      "it": "il piatto",
+      "es": "el plato"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Tasse",
       "en": "cup",
       "sv": "kopp",
-      "nl": "kopje"
+      "nl": "kopje",
+      "it": "la tazza",
+      "es": "la taza"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Löffel",
       "en": "spoon",
       "sv": "sked",
-      "nl": "lepel"
+      "nl": "lepel",
+      "it": "il cucchiaio",
+      "es": "la cuchara"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Gabel",
       "en": "fork",
       "sv": "gaffel",
-      "nl": "vork"
+      "nl": "vork",
+      "it": "la forchetta",
+      "es": "el tenedor"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Messer",
       "en": "knife",
       "sv": "kniv",
-      "nl": "mes"
+      "nl": "mes",
+      "it": "il coltello",
+      "es": "el cuchillo"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Topf",
       "en": "pot",
       "sv": "gryta",
-      "nl": "pan"
+      "nl": "pan",
+      "it": "la pentola",
+      "es": "la olla"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Seife",
       "en": "soap",
       "sv": "tvål",
-      "nl": "zeep"
+      "nl": "zeep",
+      "it": "il sapone",
+      "es": "el jabón"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Handtuch",
       "en": "towel",
       "sv": "handduk",
-      "nl": "handdoek"
+      "nl": "handdoek",
+      "it": "l'asciugamano",
+      "es": "la toalla"
     },
     "hint": {},
     "alt": {},

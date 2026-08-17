@@ -1,14 +1,218 @@
 [
-  {"id":"lex_ti_kwas2","am":"ኩዕሶ እግሪ","tr":"ku'iso igri","pos":"noun","topic":"sports","level":"TI","t":{"de":"der Fußball","en":"football, soccer","sv":"fotboll","nl":"voetbal"},"emoji":"⚽","verified":false},
-  {"id":"lex_ti_kws","am":"ኩዕሶ","tr":"ku'iso","pos":"noun","topic":"sports","level":"TI","t":{"de":"der Ball","en":"ball","sv":"boll","nl":"bal"},"emoji":"🏀","verified":false},
-  {"id":"lex_ti_gugsi","am":"ጉያ","tr":"guya","pos":"noun","topic":"sports","level":"TI","t":{"de":"das Laufen, Rennen","en":"running","sv":"löpning","nl":"hardlopen"},"emoji":"🏃","verified":false},
-  {"id":"lex_ti_wnah","am":"ምሕምባስ","tr":"mihimbas","pos":"noun","topic":"sports","level":"TI","t":{"de":"das Schwimmen","en":"swimming","sv":"simning","nl":"zwemmen"},"emoji":"🏊","verified":false},
-  {"id":"lex_ti_gnzabi","am":"ጸወታ","tr":"tsewuta","pos":"noun","topic":"sports","level":"TI","t":{"de":"das Spiel","en":"game","sv":"spel","nl":"spel"},"emoji":"🎮","verified":false},
-  {"id":"lex_ti_wdaj","am":"ውድድር","tr":"widdir","pos":"noun","topic":"sports","level":"TI","t":{"de":"der Wettbewerb","en":"competition","sv":"tävling","nl":"wedstrijd"},"emoji":"🏆","verified":false},
-  {"id":"lex_ti_haykol","am":"ጋንታ","tr":"ganta","pos":"noun","topic":"sports","level":"TI","t":{"de":"das Team, die Mannschaft","en":"team","sv":"lag","nl":"team"},"emoji":"","verified":false},
-  {"id":"lex_ti_wta","am":"ዓወት","tr":"'awet","pos":"noun","topic":"sports","level":"TI","t":{"de":"der Sieg","en":"victory, win","sv":"seger","nl":"overwinning"},"emoji":"🥇","verified":false},
-  {"id":"lex_ti_hzimni","am":"ስዕረት","tr":"si'iret","pos":"noun","topic":"sports","level":"TI","t":{"de":"die Niederlage","en":"defeat, loss","sv":"förlust","nl":"nederlaag"},"emoji":"","verified":false},
-  {"id":"lex_ti_shama","am":"ብሽክለታ ምንዳድ","tr":"bishikleta minidad","pos":"noun","topic":"sports","level":"TI","t":{"de":"das Radfahren","en":"cycling","sv":"cykling","nl":"fietsen"},"emoji":"🚴","verified":false},
-  {"id":"lex_ti_ridfi2","am":"ምንባር (ጡብ)","tr":"minbar t'ub","pos":"noun","topic":"sports","level":"TI","t":{"de":"das Boxen","en":"boxing","sv":"boxning","nl":"boksen"},"emoji":"🥊","verified":false},
-  {"id":"lex_ti_hzn","am":"ኵዕሶ ኢድ","tr":"ku'iso 'id","pos":"noun","topic":"sports","level":"TI","t":{"de":"der Volleyball","en":"volleyball","sv":"volleyboll","nl":"volleybal"},"emoji":"🏐","verified":false}
+  {
+    "id": "lex_ti_kwas2",
+    "am": "ኩዕሶ እግሪ",
+    "tr": "ku'iso igri",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "der Fußball",
+      "en": "football, soccer",
+      "sv": "fotboll",
+      "nl": "voetbal",
+      "it": "il calcio",
+      "es": "el fútbol"
+    },
+    "emoji": "⚽",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kws",
+    "am": "ኩዕሶ",
+    "tr": "ku'iso",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "der Ball",
+      "en": "ball",
+      "sv": "boll",
+      "nl": "bal",
+      "it": "la palla",
+      "es": "la pelota"
+    },
+    "emoji": "🏀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gugsi",
+    "am": "ጉያ",
+    "tr": "guya",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "das Laufen, Rennen",
+      "en": "running",
+      "sv": "löpning",
+      "nl": "hardlopen",
+      "it": "la corsa",
+      "es": "el correr, la carrera"
+    },
+    "emoji": "🏃",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wnah",
+    "am": "ምሕምባስ",
+    "tr": "mihimbas",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "das Schwimmen",
+      "en": "swimming",
+      "sv": "simning",
+      "nl": "zwemmen",
+      "it": "il nuoto",
+      "es": "la natación"
+    },
+    "emoji": "🏊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gnzabi",
+    "am": "ጸወታ",
+    "tr": "tsewuta",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "das Spiel",
+      "en": "game",
+      "sv": "spel",
+      "nl": "spel",
+      "it": "il gioco",
+      "es": "el juego"
+    },
+    "emoji": "🎮",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wdaj",
+    "am": "ውድድር",
+    "tr": "widdir",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "der Wettbewerb",
+      "en": "competition",
+      "sv": "tävling",
+      "nl": "wedstrijd",
+      "it": "la competizione",
+      "es": "la competición"
+    },
+    "emoji": "🏆",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_haykol",
+    "am": "ጋንታ",
+    "tr": "ganta",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "das Team, die Mannschaft",
+      "en": "team",
+      "sv": "lag",
+      "nl": "team",
+      "it": "la squadra",
+      "es": "el equipo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wta",
+    "am": "ዓወት",
+    "tr": "'awet",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "der Sieg",
+      "en": "victory, win",
+      "sv": "seger",
+      "nl": "overwinning",
+      "it": "la vittoria",
+      "es": "la victoria"
+    },
+    "emoji": "🥇",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzimni",
+    "am": "ስዕረት",
+    "tr": "si'iret",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "die Niederlage",
+      "en": "defeat, loss",
+      "sv": "förlust",
+      "nl": "nederlaag",
+      "it": "la sconfitta",
+      "es": "la derrota"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shama",
+    "am": "ብሽክለታ ምንዳድ",
+    "tr": "bishikleta minidad",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "das Radfahren",
+      "en": "cycling",
+      "sv": "cykling",
+      "nl": "fietsen",
+      "it": "il ciclismo",
+      "es": "el ciclismo"
+    },
+    "emoji": "🚴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ridfi2",
+    "am": "ምንባር (ጡብ)",
+    "tr": "minbar t'ub",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "das Boxen",
+      "en": "boxing",
+      "sv": "boxning",
+      "nl": "boksen",
+      "it": "il pugilato, la boxe",
+      "es": "el boxeo"
+    },
+    "emoji": "🥊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzn",
+    "am": "ኵዕሶ ኢድ",
+    "tr": "ku'iso 'id",
+    "pos": "noun",
+    "topic": "sports",
+    "level": "TI",
+    "t": {
+      "de": "der Volleyball",
+      "en": "volleyball",
+      "sv": "volleyboll",
+      "nl": "volleybal",
+      "it": "la pallavolo",
+      "es": "el vóleibol"
+    },
+    "emoji": "🏐",
+    "verified": false
+  }
 ]

@@ -10,7 +10,9 @@
       "de": "der Stiefel",
       "en": "boots",
       "sv": "stövlar",
-      "nl": "laarzen"
+      "nl": "laarzen",
+      "it": "gli stivali",
+      "es": "las botas"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Schmuck",
       "en": "jewelry",
       "sv": "smycken",
-      "nl": "sieraden"
+      "nl": "sieraden",
+      "it": "i gioielli",
+      "es": "las joyas"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Handschuhe",
       "en": "gloves",
       "sv": "handskar",
-      "nl": "handschoenen"
+      "nl": "handschoenen",
+      "it": "i guanti",
+      "es": "los guantes"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Sonnenbrille",
       "en": "sunglasses",
       "sv": "solglasögon",
-      "nl": "zonnebril"
+      "nl": "zonnebril",
+      "it": "gli occhiali da sole",
+      "es": "las gafas de sol"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Regenschirm",
       "en": "umbrella",
       "sv": "paraply",
-      "nl": "paraplu"
+      "nl": "paraplu",
+      "it": "l'ombrello",
+      "es": "el paraguas"
     },
     "hint": {},
     "alt": {},

@@ -10,7 +10,9 @@
       "de": "die Arbeit, der Beruf",
       "en": "work, job",
       "sv": "arbete, jobb",
-      "nl": "werk, baan"
+      "nl": "werk, baan",
+      "it": "il lavoro, la professione",
+      "es": "el trabajo, la profesión"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Büro",
       "en": "office",
       "sv": "kontor",
-      "nl": "kantoor"
+      "nl": "kantoor",
+      "it": "l'ufficio",
+      "es": "la oficina"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Lehrer, die Lehrerin",
       "en": "teacher",
       "sv": "lärare",
-      "nl": "leraar"
+      "nl": "leraar",
+      "it": "il maestro, la maestra",
+      "es": "el profesor, la profesora"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Schüler, der Student",
       "en": "student",
       "sv": "student",
-      "nl": "student"
+      "nl": "student",
+      "it": "lo studente, la studentessa",
+      "es": "el estudiante, la estudiante"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Buch",
       "en": "book",
       "sv": "bok",
-      "nl": "boek"
+      "nl": "boek",
+      "it": "il libro",
+      "es": "el libro"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "schreiben",
       "en": "to write",
       "sv": "skriva",
-      "nl": "schrijven"
+      "nl": "schrijven",
+      "it": "scrivere",
+      "es": "escribir"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "lesen",
       "en": "to read",
       "sv": "läsa",
-      "nl": "lezen"
+      "nl": "lezen",
+      "it": "leggere",
+      "es": "leer"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Stift, Bleistift",
       "en": "pencil",
       "sv": "penna",
-      "nl": "potlood"
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "das Papier",
       "en": "paper",
       "sv": "papper",
-      "nl": "papier"
+      "nl": "papier",
+      "it": "la carta",
+      "es": "el papel"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Universität",
       "en": "university",
       "sv": "universitet",
-      "nl": "universiteit"
+      "nl": "universiteit",
+      "it": "l'università",
+      "es": "la universidad"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "die Prüfung",
       "en": "exam, test",
       "sv": "prov",
-      "nl": "examen"
+      "nl": "examen",
+      "it": "l'esame",
+      "es": "el examen"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "der Computer",
       "en": "computer",
       "sv": "dator",
-      "nl": "computer"
+      "nl": "computer",
+      "it": "il computer",
+      "es": "la computadora"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "der Chef, die Chefin",
       "en": "boss",
       "sv": "chef",
-      "nl": "baas"
+      "nl": "baas",
+      "it": "il capo, la capa",
+      "es": "el jefe, la jefa"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "das Gehalt",
       "en": "salary",
       "sv": "lön",
-      "nl": "salaris"
+      "nl": "salaris",
+      "it": "lo stipendio",
+      "es": "el salario"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "die Firma, das Unternehmen",
       "en": "company",
       "sv": "företag",
-      "nl": "bedrijf"
+      "nl": "bedrijf",
+      "it": "l'azienda, la ditta",
+      "es": "la empresa"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "die Hausaufgabe",
       "en": "homework",
       "sv": "läxa",
-      "nl": "huiswerk"
+      "nl": "huiswerk",
+      "it": "i compiti",
+      "es": "la tarea"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "die Tafel",
       "en": "board",
       "sv": "tavla",
-      "nl": "schoolbord"
+      "nl": "schoolbord",
+      "it": "la lavagna",
+      "es": "la pizarra"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "die Tasche",
       "en": "bag",
       "sv": "väska",
-      "nl": "tas"
+      "nl": "tas",
+      "it": "la borsa",
+      "es": "la bolsa"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "die Ferien, der Urlaub",
       "en": "vacation, holiday",
       "sv": "semester",
-      "nl": "vakantie"
+      "nl": "vakantie",
+      "it": "le vacanze",
+      "es": "las vacaciones"
     },
     "hint": {},
     "alt": {},

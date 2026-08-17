@@ -4,14 +4,26 @@
     "am": "ፋሲካ እና ገና ትልቅ በዓላት ናቸው።",
     "tr": "fasika ina gena tilik' be'alat nachew.",
     "level": "B2",
-    "uses": ["lex_fasika", "lex_gena"],
+    "uses": [
+      "lex_fasika",
+      "lex_gena"
+    ],
     "t": {
       "de": "Ostern und Weihnachten sind große Feste.",
       "en": "Easter and Christmas are big holidays.",
       "sv": "Påsk och jul är stora högtider.",
-      "nl": "Pasen en Kerstmis zijn grote feesten."
+      "nl": "Pasen en Kerstmis zijn grote feesten.",
+      "it": "Pasqua e Natale sono grandi feste.",
+      "es": "La Pascua y la Navidad son grandes fiestas."
     },
-    "chunks": ["fasika", "ina", "gena", "tilik'", "be'alat", "nachew"],
+    "chunks": [
+      "fasika",
+      "ina",
+      "gena",
+      "tilik'",
+      "be'alat",
+      "nachew"
+    ],
     "verified": false
   },
   {
@@ -19,14 +31,23 @@
     "am": "ጥምቀት ትልቅ በዓል ነው።",
     "tr": "t'imk'et tilik' be'al newu.",
     "level": "B2",
-    "uses": ["lex_timket"],
+    "uses": [
+      "lex_timket"
+    ],
     "t": {
       "de": "Timkat ist ein großes Fest.",
       "en": "Timkat is a big festival.",
       "sv": "Timkat är en stor högtid.",
-      "nl": "Timkat is een groot feest."
+      "nl": "Timkat is een groot feest.",
+      "it": "Timkat è una grande festa.",
+      "es": "Timkat es una gran fiesta."
     },
-    "chunks": ["t'imk'et", "tilik'", "be'al", "newu"],
+    "chunks": [
+      "t'imk'et",
+      "tilik'",
+      "be'al",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +55,23 @@
     "am": "ካህኑ ሰዉን ባረከ።",
     "tr": "kahinu sewun bareke.",
     "level": "B2",
-    "uses": ["lex_kahin", "lex_v_mebarek"],
+    "uses": [
+      "lex_kahin",
+      "lex_v_mebarek"
+    ],
     "t": {
       "de": "Der Priester segnete den Menschen.",
       "en": "The priest blessed the person.",
       "sv": "Prästen välsignade personen.",
-      "nl": "De priester zegende de persoon."
+      "nl": "De priester zegende de persoon.",
+      "it": "Il prete ha benedetto la persona.",
+      "es": "El sacerdote bendijo a la persona."
     },
-    "chunks": ["kahinu", "sewun", "bareke"],
+    "chunks": [
+      "kahinu",
+      "sewun",
+      "bareke"
+    ],
     "verified": false
   },
   {
@@ -49,14 +79,22 @@
     "am": "መናዘዝ ጥሩ ነው።",
     "tr": "menazez t'iru newu.",
     "level": "B2",
-    "uses": ["lex_v_menazez"],
+    "uses": [
+      "lex_v_menazez"
+    ],
     "t": {
       "de": "Beichten ist gut.",
       "en": "Confessing is good.",
       "sv": "Att bikta sig är bra.",
-      "nl": "Biechten is goed."
+      "nl": "Biechten is goed.",
+      "it": "Confessarsi fa bene.",
+      "es": "Confesarse es bueno."
     },
-    "chunks": ["menazez", "t'iru", "newu"],
+    "chunks": [
+      "menazez",
+      "t'iru",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +102,22 @@
     "am": "ኃጢአት መጥፎ ነው።",
     "tr": "hat'i'at met'fo newu.",
     "level": "B2",
-    "uses": ["lex_hatiat"],
+    "uses": [
+      "lex_hatiat"
+    ],
     "t": {
       "de": "Sünde ist schlecht.",
       "en": "Sin is bad.",
       "sv": "Synd är dåligt.",
-      "nl": "Zonde is slecht."
+      "nl": "Zonde is slecht.",
+      "it": "Il peccato è male.",
+      "es": "El pecado es malo."
     },
-    "chunks": ["hat'i'at", "met'fo", "newu"],
+    "chunks": [
+      "hat'i'at",
+      "met'fo",
+      "newu"
+    ],
     "verified": false
   }
 ]

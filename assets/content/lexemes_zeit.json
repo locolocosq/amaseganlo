@@ -10,7 +10,9 @@
       "de": "heute",
       "en": "today",
       "sv": "idag",
-      "nl": "vandaag"
+      "nl": "vandaag",
+      "it": "oggi",
+      "es": "hoy"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "morgen (der nächste Tag)",
       "en": "tomorrow",
       "sv": "imorgon",
-      "nl": "morgen (volgende dag)"
+      "nl": "morgen (volgende dag)",
+      "it": "domani (il giorno dopo)",
+      "es": "mañana (día siguiente)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "gestern",
       "en": "yesterday",
       "sv": "igår",
-      "nl": "gisteren"
+      "nl": "gisteren",
+      "it": "ieri",
+      "es": "ayer"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Tag",
       "en": "day",
       "sv": "dag",
-      "nl": "dag"
+      "nl": "dag",
+      "it": "il giorno",
+      "es": "el día"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Nacht",
       "en": "night",
       "sv": "natt",
-      "nl": "nacht"
+      "nl": "nacht",
+      "it": "la notte",
+      "es": "la noche"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Abend",
       "en": "evening",
       "sv": "kväll",
-      "nl": "avond"
+      "nl": "avond",
+      "it": "la sera",
+      "es": "la tarde"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Morgen",
       "en": "morning",
       "sv": "morgon",
-      "nl": "ochtend"
+      "nl": "ochtend",
+      "it": "il mattino",
+      "es": "la mañana"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Woche",
       "en": "week",
       "sv": "vecka",
-      "nl": "week"
+      "nl": "week",
+      "it": "la settimana",
+      "es": "la semana"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Monat",
       "en": "month",
       "sv": "månad",
-      "nl": "maand"
+      "nl": "maand",
+      "it": "il mese",
+      "es": "el mes"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Jahr",
       "en": "year",
       "sv": "år",
-      "nl": "jaar"
+      "nl": "jaar",
+      "it": "l'anno",
+      "es": "el año"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "die Stunde, die Uhr",
       "en": "hour, clock/watch",
       "sv": "timme, klocka",
-      "nl": "uur, klok"
+      "nl": "uur, klok",
+      "it": "l'ora, l'orologio",
+      "es": "la hora, el reloj"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Minute",
       "en": "minute",
       "sv": "minut",
-      "nl": "minuut"
+      "nl": "minuut",
+      "it": "il minuto",
+      "es": "el minuto"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "Montag",
       "en": "Monday",
       "sv": "måndag",
-      "nl": "maandag"
+      "nl": "maandag",
+      "it": "lunedì",
+      "es": "lunes"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "Dienstag",
       "en": "Tuesday",
       "sv": "tisdag",
-      "nl": "dinsdag"
+      "nl": "dinsdag",
+      "it": "martedì",
+      "es": "martes"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "Mittwoch",
       "en": "Wednesday",
       "sv": "onsdag",
-      "nl": "woensdag"
+      "nl": "woensdag",
+      "it": "mercoledì",
+      "es": "miércoles"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "Donnerstag",
       "en": "Thursday",
       "sv": "torsdag",
-      "nl": "donderdag"
+      "nl": "donderdag",
+      "it": "giovedì",
+      "es": "jueves"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "Freitag",
       "en": "Friday",
       "sv": "fredag",
-      "nl": "vrijdag"
+      "nl": "vrijdag",
+      "it": "venerdì",
+      "es": "viernes"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "Samstag",
       "en": "Saturday",
       "sv": "lördag",
-      "nl": "zaterdag"
+      "nl": "zaterdag",
+      "it": "sabato",
+      "es": "sábado"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "Sonntag",
       "en": "Sunday",
       "sv": "söndag",
-      "nl": "zondag"
+      "nl": "zondag",
+      "it": "domenica",
+      "es": "domingo"
     },
     "hint": {},
     "alt": {},

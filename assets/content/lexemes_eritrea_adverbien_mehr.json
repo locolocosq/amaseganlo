@@ -1,18 +1,290 @@
 [
-  {"id":"lex_ti_sebeb","am":"ወትሩ","tr":"wetru","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"immer","en":"always","sv":"alltid","nl":"altijd"},"emoji":"","verified":false},
-  {"id":"lex_ti_fatanm","am":"ፈጺሙ ኣይ","tr":"fetsimu ay","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"niemals","en":"never","sv":"aldrig","nl":"nooit"},"emoji":"","verified":false},
-  {"id":"lex_ti_neber","am":"ሓደ ሓደ ግዜ","tr":"hade hade gizie","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"manchmal","en":"sometimes","sv":"ibland","nl":"soms"},"emoji":"","verified":false},
-  {"id":"lex_ti_bezhat","am":"ብዙሕ ግዜ","tr":"bezuh gizie","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"oft","en":"often","sv":"ofta","nl":"vaak"},"emoji":"","verified":false},
-  {"id":"lex_ti_hzey","am":"ሕጂ","tr":"hiji","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"jetzt","en":"now","sv":"nu","nl":"nu"},"emoji":"","verified":false},
-  {"id":"lex_ti_dhrey","am":"ደሓር","tr":"dehar","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"später","en":"later","sv":"senare","nl":"later"},"emoji":"","verified":false},
-  {"id":"lex_ti_qdmey","am":"ቅድሚ","tr":"qidmi","pos":"preposition","topic":"adverbs_more","level":"TI","t":{"de":"vor (zeitlich)","en":"before","sv":"före","nl":"voor (tijd)"},"emoji":"","verified":false},
-  {"id":"lex_ti_dhrbti","am":"ድሕሪ","tr":"dihri","pos":"preposition","topic":"adverbs_more","level":"TI","t":{"de":"nach (zeitlich)","en":"after","sv":"efter","nl":"na (tijd)"},"emoji":"","verified":false},
-  {"id":"lex_ti_ntsu","am":"ገና","tr":"gena","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"noch","en":"still, yet","sv":"fortfarande","nl":"nog"},"emoji":"","verified":false},
-  {"id":"lex_ti_nay","am":"ናይ","tr":"nay","pos":"preposition","topic":"adverbs_more","level":"TI","t":{"de":"von, gehörend zu","en":"of, belonging to","sv":"av, tillhörande","nl":"van, behorend tot"},"emoji":"","verified":false},
-  {"id":"lex_ti_kab","am":"ካብ","tr":"kab","pos":"preposition","topic":"adverbs_more","level":"TI","t":{"de":"von, aus","en":"from","sv":"från","nl":"van, uit"},"emoji":"","verified":false},
-  {"id":"lex_ti_nab","am":"ናብ","tr":"nab","pos":"preposition","topic":"adverbs_more","level":"TI","t":{"de":"zu, nach","en":"to, towards","sv":"till","nl":"naar"},"emoji":"","verified":false},
-  {"id":"lex_ti_kmzegen","am":"ከምኡ","tr":"kem'u","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"so, auf diese Weise","en":"like that, thus","sv":"så, på det sättet","nl":"zo, op die manier"},"emoji":"","verified":false},
-  {"id":"lex_ti_bzuhat","am":"ብጣዕሚ","tr":"bit'a'imi","pos":"adverb","topic":"adverbs_more","level":"TI","t":{"de":"sehr","en":"very","sv":"mycket","nl":"heel, erg"},"emoji":"","verified":false},
-  {"id":"lex_ti_msli2","am":"ልክዕ ከም","tr":"lik'i kem","pos":"preposition","topic":"adverbs_more","level":"TI","t":{"de":"genau wie","en":"exactly like","sv":"precis som","nl":"precies zoals"},"emoji":"","verified":false},
-  {"id":"lex_ti_kmnti","am":"ክንደይ","tr":"kindey","pos":"pronoun","topic":"adverbs_more","level":"TI","t":{"de":"wie viel, wie viele","en":"how much, how many","sv":"hur mycket, hur många","nl":"hoeveel"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_sebeb",
+    "am": "ወትሩ",
+    "tr": "wetru",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "immer",
+      "en": "always",
+      "sv": "alltid",
+      "nl": "altijd",
+      "it": "sempre",
+      "es": "siempre"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fatanm",
+    "am": "ፈጺሙ ኣይ",
+    "tr": "fetsimu ay",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "niemals",
+      "en": "never",
+      "sv": "aldrig",
+      "nl": "nooit",
+      "it": "mai",
+      "es": "nunca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_neber",
+    "am": "ሓደ ሓደ ግዜ",
+    "tr": "hade hade gizie",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "manchmal",
+      "en": "sometimes",
+      "sv": "ibland",
+      "nl": "soms",
+      "it": "a volte",
+      "es": "a veces"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bezhat",
+    "am": "ብዙሕ ግዜ",
+    "tr": "bezuh gizie",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "oft",
+      "en": "often",
+      "sv": "ofta",
+      "nl": "vaak",
+      "it": "spesso",
+      "es": "a menudo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzey",
+    "am": "ሕጂ",
+    "tr": "hiji",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "jetzt",
+      "en": "now",
+      "sv": "nu",
+      "nl": "nu",
+      "it": "ora, adesso",
+      "es": "ahora"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dhrey",
+    "am": "ደሓር",
+    "tr": "dehar",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "später",
+      "en": "later",
+      "sv": "senare",
+      "nl": "later",
+      "it": "più tardi",
+      "es": "más tarde"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qdmey",
+    "am": "ቅድሚ",
+    "tr": "qidmi",
+    "pos": "preposition",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "vor (zeitlich)",
+      "en": "before",
+      "sv": "före",
+      "nl": "voor (tijd)",
+      "it": "prima (di tempo)",
+      "es": "antes (de tiempo)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dhrbti",
+    "am": "ድሕሪ",
+    "tr": "dihri",
+    "pos": "preposition",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "nach (zeitlich)",
+      "en": "after",
+      "sv": "efter",
+      "nl": "na (tijd)",
+      "it": "dopo (di tempo)",
+      "es": "después (de tiempo)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntsu",
+    "am": "ገና",
+    "tr": "gena",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "noch",
+      "en": "still, yet",
+      "sv": "fortfarande",
+      "nl": "nog",
+      "it": "ancora",
+      "es": "todavía"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nay",
+    "am": "ናይ",
+    "tr": "nay",
+    "pos": "preposition",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "von, gehörend zu",
+      "en": "of, belonging to",
+      "sv": "av, tillhörande",
+      "nl": "van, behorend tot",
+      "it": "di, appartenente a",
+      "es": "de, perteneciente a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kab",
+    "am": "ካብ",
+    "tr": "kab",
+    "pos": "preposition",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "von, aus",
+      "en": "from",
+      "sv": "från",
+      "nl": "van, uit",
+      "it": "da",
+      "es": "de, desde"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nab",
+    "am": "ናብ",
+    "tr": "nab",
+    "pos": "preposition",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "zu, nach",
+      "en": "to, towards",
+      "sv": "till",
+      "nl": "naar",
+      "it": "verso, a",
+      "es": "hacia, a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kmzegen",
+    "am": "ከምኡ",
+    "tr": "kem'u",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "so, auf diese Weise",
+      "en": "like that, thus",
+      "sv": "så, på det sättet",
+      "nl": "zo, op die manier",
+      "it": "così, in questo modo",
+      "es": "así, de esta manera"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bzuhat",
+    "am": "ብጣዕሚ",
+    "tr": "bit'a'imi",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "sehr",
+      "en": "very",
+      "sv": "mycket",
+      "nl": "heel, erg",
+      "it": "molto",
+      "es": "muy"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msli2",
+    "am": "ልክዕ ከም",
+    "tr": "lik'i kem",
+    "pos": "preposition",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "genau wie",
+      "en": "exactly like",
+      "sv": "precis som",
+      "nl": "precies zoals",
+      "it": "esattamente come",
+      "es": "exactamente como"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kmnti",
+    "am": "ክንደይ",
+    "tr": "kindey",
+    "pos": "pronoun",
+    "topic": "adverbs_more",
+    "level": "TI",
+    "t": {
+      "de": "wie viel, wie viele",
+      "en": "how much, how many",
+      "sv": "hur mycket, hur många",
+      "nl": "hoeveel",
+      "it": "quanto, quanti",
+      "es": "cuánto, cuántos"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

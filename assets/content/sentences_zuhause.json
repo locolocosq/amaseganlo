@@ -11,7 +11,9 @@
       "de": "Das Haus ist groß.",
       "en": "The house is big.",
       "sv": "Huset är stort.",
-      "nl": "Het huis is groot."
+      "nl": "Het huis is groot.",
+      "it": "La casa è grande.",
+      "es": "La casa es grande."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "Die Tür ist offen.",
       "en": "The door is open.",
       "sv": "Dörren är öppen.",
-      "nl": "De deur is open."
+      "nl": "De deur is open.",
+      "it": "La porta è aperta.",
+      "es": "La puerta está abierta."
     },
     "alt": {},
     "chunks": [

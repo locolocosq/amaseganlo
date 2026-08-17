@@ -10,7 +10,9 @@
       "de": "das Holz",
       "en": "wood",
       "sv": "trä",
-      "nl": "hout"
+      "nl": "hout",
+      "it": "il legno",
+      "es": "la madera"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Stein",
       "en": "stone",
       "sv": "sten",
-      "nl": "steen"
+      "nl": "steen",
+      "it": "la pietra",
+      "es": "la piedra"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Eisen, Metall",
       "en": "iron, metal",
       "sv": "järn, metall",
-      "nl": "ijzer, metaal"
+      "nl": "ijzer, metaal",
+      "it": "il ferro, il metallo",
+      "es": "el hierro, el metal"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Plastik",
       "en": "plastic",
       "sv": "plast",
-      "nl": "plastic"
+      "nl": "plastic",
+      "it": "la plastica",
+      "es": "el plástico"
     },
     "hint": {},
     "alt": {},

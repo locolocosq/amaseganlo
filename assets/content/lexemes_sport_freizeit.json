@@ -10,7 +10,9 @@
       "de": "der Fußball",
       "en": "soccer, football",
       "sv": "fotboll",
-      "nl": "voetbal"
+      "nl": "voetbal",
+      "it": "il calcio",
+      "es": "el fútbol"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "schwimmen",
       "en": "to swim",
       "sv": "simma",
-      "nl": "zwemmen"
+      "nl": "zwemmen",
+      "it": "nuotare",
+      "es": "nadar"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Musik",
       "en": "music",
       "sv": "musik",
-      "nl": "muziek"
+      "nl": "muziek",
+      "it": "la musica",
+      "es": "la música"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Film",
       "en": "film, movie",
       "sv": "film",
-      "nl": "film"
+      "nl": "film",
+      "it": "il film",
+      "es": "la película"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Fernsehen",
       "en": "television",
       "sv": "tv",
-      "nl": "televisie"
+      "nl": "televisie",
+      "it": "la televisione",
+      "es": "la televisión"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Radio",
       "en": "radio",
       "sv": "radio",
-      "nl": "radio"
+      "nl": "radio",
+      "it": "la radio",
+      "es": "la radio"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "das Spiel",
       "en": "game",
       "sv": "spel",
-      "nl": "spel"
+      "nl": "spel",
+      "it": "il gioco",
+      "es": "el juego"
     },
     "hint": {},
     "alt": {},

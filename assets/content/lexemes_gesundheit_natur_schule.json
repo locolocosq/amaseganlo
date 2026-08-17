@@ -10,7 +10,9 @@
       "de": "die Impfung",
       "en": "vaccination",
       "sv": "vaccination",
-      "nl": "vaccinatie"
+      "nl": "vaccinatie",
+      "it": "il vaccino",
+      "es": "la vacuna"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Verletzung",
       "en": "injury",
       "sv": "skada",
-      "nl": "verwonding"
+      "nl": "verwonding",
+      "it": "la ferita",
+      "es": "la lesión"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Unfall",
       "en": "accident",
       "sv": "olycka",
-      "nl": "ongeluk"
+      "nl": "ongeluk",
+      "it": "l'incidente",
+      "es": "el accidente"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Regenbogen",
       "en": "rainbow",
       "sv": "regnbåge",
-      "nl": "regenboog"
+      "nl": "regenboog",
+      "it": "l'arcobaleno",
+      "es": "el arcoíris"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Wüste",
       "en": "desert",
       "sv": "öken",
-      "nl": "woestijn"
+      "nl": "woestijn",
+      "it": "il deserto",
+      "es": "el desierto"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Gras",
       "en": "grass",
       "sv": "gräs",
-      "nl": "gras"
+      "nl": "gras",
+      "it": "l'erba",
+      "es": "la hierba"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "das Insekt",
       "en": "insect",
       "sv": "insekt",
-      "nl": "insect"
+      "nl": "insect",
+      "it": "l'insetto",
+      "es": "el insecto"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Schulfach, die Bildung",
       "en": "school subject, education",
       "sv": "skolämne, utbildning",
-      "nl": "schoolvak, onderwijs"
+      "nl": "schoolvak, onderwijs",
+      "it": "la materia scolastica, la formazione",
+      "es": "la asignatura, la educación"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "die Note, das Ergebnis",
       "en": "grade, result",
       "sv": "betyg, resultat",
-      "nl": "cijfer, resultaat"
+      "nl": "cijfer, resultaat",
+      "it": "il voto, il risultato",
+      "es": "la nota, el resultado"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "nett, freundlich",
       "en": "kind, friendly",
       "sv": "snäll, vänlig",
-      "nl": "aardig, vriendelijk"
+      "nl": "aardig, vriendelijk",
+      "it": "gentile, simpatico",
+      "es": "amable, simpático"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "die Vorsicht, vorsichtig",
       "en": "caution, careful",
       "sv": "försiktighet",
-      "nl": "voorzichtigheid"
+      "nl": "voorzichtigheid",
+      "it": "la prudenza, attento",
+      "es": "la precaución, cuidadoso"
     },
     "hint": {},
     "alt": {},

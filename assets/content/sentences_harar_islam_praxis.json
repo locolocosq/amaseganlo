@@ -4,14 +4,24 @@
     "am": "ሙስሊም ሶላት ይሰግዳል።",
     "tr": "muslim solat yisegidal.",
     "level": "B2",
-    "uses": ["lex_muslim", "lex_solat", "lex_v_mesged"],
+    "uses": [
+      "lex_muslim",
+      "lex_solat",
+      "lex_v_mesged"
+    ],
     "t": {
       "de": "Ein Muslim verrichtet das Pflichtgebet.",
       "en": "A Muslim performs the ritual prayer.",
       "sv": "En muslim utför den rituella bönen.",
-      "nl": "Een moslim verricht het rituele gebed."
+      "nl": "Een moslim verricht het rituele gebed.",
+      "it": "Un musulmano compie la preghiera rituale.",
+      "es": "Un musulmán realiza la oración ritual."
     },
-    "chunks": ["muslim", "solat", "yisegidal"],
+    "chunks": [
+      "muslim",
+      "solat",
+      "yisegidal"
+    ],
     "verified": false
   },
   {
@@ -19,14 +29,25 @@
     "am": "በረመዳን ሙስሊሞች ይጾማሉ።",
     "tr": "be remedan muslimoch yitsomalu.",
     "level": "B2",
-    "uses": ["lex_remedan", "lex_v_tsom_isl", "lex_muslim"],
+    "uses": [
+      "lex_remedan",
+      "lex_v_tsom_isl",
+      "lex_muslim"
+    ],
     "t": {
       "de": "Im Ramadan fasten Muslime.",
       "en": "During Ramadan, Muslims fast.",
       "sv": "Under ramadan fastar muslimer.",
-      "nl": "Tijdens de ramadan vasten moslims."
+      "nl": "Tijdens de ramadan vasten moslims.",
+      "it": "Durante il Ramadan i musulmani digiunano.",
+      "es": "Durante el Ramadán los musulmanes ayunan."
     },
-    "chunks": ["be", "remedan", "muslimoch", "yitsomalu"],
+    "chunks": [
+      "be",
+      "remedan",
+      "muslimoch",
+      "yitsomalu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +55,24 @@
     "am": "ኢድ ከረመዳን ይመጣል።",
     "tr": "id ke remedan yimet'al.",
     "level": "B2",
-    "uses": ["lex_id_holiday", "lex_remedan"],
+    "uses": [
+      "lex_id_holiday",
+      "lex_remedan"
+    ],
     "t": {
       "de": "Das Id-Fest kommt aus dem Ramadan.",
       "en": "Eid comes from Ramadan.",
       "sv": "Eid kommer från ramadan.",
-      "nl": "Eid komt uit de ramadan."
+      "nl": "Eid komt uit de ramadan.",
+      "it": "La festa dell'Eid segue il Ramadan.",
+      "es": "La fiesta del Eid sigue al Ramadán."
     },
-    "chunks": ["id", "ke", "remedan", "yimet'al"],
+    "chunks": [
+      "id",
+      "ke",
+      "remedan",
+      "yimet'al"
+    ],
     "verified": false
   },
   {
@@ -49,14 +80,26 @@
     "am": "ሙስሊሞች ለሐጅ ወደ መካ ይሄዳሉ።",
     "tr": "muslimoch lehagg wede meka yihedalu.",
     "level": "B2",
-    "uses": ["lex_muslim", "lex_hagg", "lex_meka"],
+    "uses": [
+      "lex_muslim",
+      "lex_hagg",
+      "lex_meka"
+    ],
     "t": {
       "de": "Muslime reisen für die Pilgerfahrt nach Mekka.",
       "en": "Muslims travel to Mecca for the Hajj.",
       "sv": "Muslimer reser till Mecka för hajj.",
-      "nl": "Moslims reizen naar Mekka voor de hadj."
+      "nl": "Moslims reizen naar Mekka voor de hadj.",
+      "it": "I musulmani si recano alla Mecca per l'Hajj.",
+      "es": "Los musulmanes viajan a La Meca para el Hajj."
     },
-    "chunks": ["muslimoch", "lehagg", "wede", "meka", "yihedalu"],
+    "chunks": [
+      "muslimoch",
+      "lehagg",
+      "wede",
+      "meka",
+      "yihedalu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +107,23 @@
     "am": "ሙስሊም ዘካት ይሰጣል።",
     "tr": "muslim zekat yisetal.",
     "level": "B2",
-    "uses": ["lex_muslim", "lex_zekat"],
+    "uses": [
+      "lex_muslim",
+      "lex_zekat"
+    ],
     "t": {
       "de": "Ein Muslim gibt Zakat.",
       "en": "A Muslim gives zakat.",
       "sv": "En muslim ger zakat.",
-      "nl": "Een moslim geeft zakat."
+      "nl": "Een moslim geeft zakat.",
+      "it": "Un musulmano dà la zakat.",
+      "es": "Un musulmán da la zakat."
     },
-    "chunks": ["muslim", "zekat", "yisetal"],
+    "chunks": [
+      "muslim",
+      "zekat",
+      "yisetal"
+    ],
     "verified": false
   }
 ]

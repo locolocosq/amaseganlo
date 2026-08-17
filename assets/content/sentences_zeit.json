@@ -12,7 +12,9 @@
       "de": "Heute ist Montag.",
       "en": "Today is Monday.",
       "sv": "Idag är det måndag.",
-      "nl": "Vandaag is het maandag."
+      "nl": "Vandaag is het maandag.",
+      "it": "Oggi è lunedì.",
+      "es": "Hoy es lunes."
     },
     "alt": {},
     "chunks": [
@@ -35,7 +37,9 @@
       "de": "Morgen ist Samstag.",
       "en": "Tomorrow is Saturday.",
       "sv": "Imorgon är det lördag.",
-      "nl": "Morgen is het zaterdag."
+      "nl": "Morgen is het zaterdag.",
+      "it": "Domani è sabato.",
+      "es": "Mañana es sábado."
     },
     "alt": {},
     "chunks": [

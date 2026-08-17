@@ -10,7 +10,9 @@
       "de": "Jesus Christus",
       "en": "Jesus Christ",
       "sv": "Jesus Kristus",
-      "nl": "Jezus Christus"
+      "nl": "Jezus Christus",
+      "it": "Gesù Cristo",
+      "es": "Jesucristo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "Maria (Mutter Jesu)",
       "en": "Mary (Jesus's mother)",
       "sv": "Maria (Jesu mor)",
-      "nl": "Maria (moeder van Jezus)"
+      "nl": "Maria (moeder van Jezus)",
+      "it": "Maria (madre di Gesù)",
+      "es": "María (madre de Jesús)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Engel",
       "en": "angel",
       "sv": "ängel",
-      "nl": "engel"
+      "nl": "engel",
+      "it": "l'angelo",
+      "es": "el ángel"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Seele",
       "en": "soul",
       "sv": "själ",
-      "nl": "ziel"
+      "nl": "ziel",
+      "it": "l'anima",
+      "es": "el alma"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Hölle",
       "en": "hell",
       "sv": "helvetet",
-      "nl": "de hel"
+      "nl": "de hel",
+      "it": "l'inferno",
+      "es": "el infierno"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "himmlisch",
       "en": "heavenly",
       "sv": "himmelsk",
-      "nl": "hemels"
+      "nl": "hemels",
+      "it": "celeste, divino",
+      "es": "celestial, divino"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "Halleluja",
       "en": "Hallelujah",
       "sv": "halleluja",
-      "nl": "halleluja"
+      "nl": "halleluja",
+      "it": "Alleluia",
+      "es": "Aleluya"
     },
     "hint": {},
     "alt": {},

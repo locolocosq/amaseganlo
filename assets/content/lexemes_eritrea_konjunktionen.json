@@ -1,8 +1,110 @@
 [
-  {"id":"lex_ti_knj_and2","am":"ከምኡውን","tr":"kem'uwin","pos":"conj","topic":"conjunctions","level":"TI","t":{"de":"und auch","en":"and also","sv":"och även","nl":"en ook"},"emoji":"","verified":false},
-  {"id":"lex_ti_knj_but2","am":"ግን","tr":"gini","pos":"conj","topic":"conjunctions","level":"TI","t":{"de":"aber","en":"but","sv":"men","nl":"maar"},"emoji":"","verified":false},
-  {"id":"lex_ti_knj_or2","am":"ወይ","tr":"wey","pos":"conj","topic":"conjunctions","level":"TI","t":{"de":"oder","en":"or","sv":"eller","nl":"of"},"emoji":"","verified":false},
-  {"id":"lex_ti_knj_becaus","am":"ስለዚ","tr":"silezi","pos":"conj","topic":"conjunctions","level":"TI","t":{"de":"deshalb, deswegen","en":"therefore, so","sv":"därför","nl":"daarom"},"emoji":"","verified":false},
-  {"id":"lex_ti_knj_if2","am":"እንተ","tr":"'inite","pos":"conj","topic":"conjunctions","level":"TI","t":{"de":"wenn, falls","en":"if","sv":"om (villkor)","nl":"als, indien"},"emoji":"","verified":false},
-  {"id":"lex_ti_knj_altho","am":"እኳ እንተኾነ","tr":"'ikua 'initekhone","pos":"conj","topic":"conjunctions","level":"TI","t":{"de":"obwohl","en":"although","sv":"fastän","nl":"hoewel"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_knj_and2",
+    "am": "ከምኡውን",
+    "tr": "kem'uwin",
+    "pos": "conj",
+    "topic": "conjunctions",
+    "level": "TI",
+    "t": {
+      "de": "und auch",
+      "en": "and also",
+      "sv": "och även",
+      "nl": "en ook",
+      "it": "e anche",
+      "es": "y también"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knj_but2",
+    "am": "ግን",
+    "tr": "gini",
+    "pos": "conj",
+    "topic": "conjunctions",
+    "level": "TI",
+    "t": {
+      "de": "aber",
+      "en": "but",
+      "sv": "men",
+      "nl": "maar",
+      "it": "ma",
+      "es": "pero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knj_or2",
+    "am": "ወይ",
+    "tr": "wey",
+    "pos": "conj",
+    "topic": "conjunctions",
+    "level": "TI",
+    "t": {
+      "de": "oder",
+      "en": "or",
+      "sv": "eller",
+      "nl": "of",
+      "it": "o",
+      "es": "o"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knj_becaus",
+    "am": "ስለዚ",
+    "tr": "silezi",
+    "pos": "conj",
+    "topic": "conjunctions",
+    "level": "TI",
+    "t": {
+      "de": "deshalb, deswegen",
+      "en": "therefore, so",
+      "sv": "därför",
+      "nl": "daarom",
+      "it": "quindi, perciò",
+      "es": "por eso, así que"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knj_if2",
+    "am": "እንተ",
+    "tr": "'inite",
+    "pos": "conj",
+    "topic": "conjunctions",
+    "level": "TI",
+    "t": {
+      "de": "wenn, falls",
+      "en": "if",
+      "sv": "om (villkor)",
+      "nl": "als, indien",
+      "it": "se",
+      "es": "si"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knj_altho",
+    "am": "እኳ እንተኾነ",
+    "tr": "'ikua 'initekhone",
+    "pos": "conj",
+    "topic": "conjunctions",
+    "level": "TI",
+    "t": {
+      "de": "obwohl",
+      "en": "although",
+      "sv": "fastän",
+      "nl": "hoewel",
+      "it": "sebbene, anche se",
+      "es": "aunque"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

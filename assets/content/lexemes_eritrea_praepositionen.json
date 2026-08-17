@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_prp_lely","am":"ኣብ ልዕሊ","tr":"'ab li'ili","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"über, auf","en":"on, above","sv":"på, ovanpå","nl":"op, boven"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_taht","am":"ኣብ ትሕቲ","tr":"'ab tihiti","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"unter","en":"under","sv":"under","nl":"onder"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_wsti","am":"ኣብ ውሽጢ","tr":"'ab wishiti","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"innerhalb, in","en":"inside, in","sv":"inuti, i","nl":"binnen, in"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_ntsg","am":"ኣብ ወጻኢ","tr":"'ab wetsa'i","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"außerhalb","en":"outside","sv":"utanför","nl":"buiten"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_qdmt","am":"ኣብ ቅድሚ","tr":"'ab qidmi","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"vor","en":"in front of","sv":"framför","nl":"voor"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_dhrt","am":"ኣብ ድሕሪ","tr":"'ab dihri","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"hinter, nach","en":"behind, after","sv":"bakom, efter","nl":"achter, na"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_mngo","am":"ምስ","tr":"misi","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"mit","en":"with","sv":"med","nl":"met"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_ztbl","am":"ብዘይ","tr":"bizey","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"ohne","en":"without","sv":"utan","nl":"zonder"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_nbti","am":"ንኽሳብ","tr":"nikisab","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"bis","en":"until","sv":"tills","nl":"tot"},"emoji":"","verified":false},
-  {"id":"lex_ti_prp_ksab","am":"ካብ","tr":"kabi","pos":"prep","topic":"prepositions","level":"TI","t":{"de":"von, aus","en":"from","sv":"från","nl":"van, uit"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_prp_lely",
+    "am": "ኣብ ልዕሊ",
+    "tr": "'ab li'ili",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "über, auf",
+      "en": "on, above",
+      "sv": "på, ovanpå",
+      "nl": "op, boven",
+      "it": "su, sopra",
+      "es": "sobre, encima de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_taht",
+    "am": "ኣብ ትሕቲ",
+    "tr": "'ab tihiti",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "unter",
+      "en": "under",
+      "sv": "under",
+      "nl": "onder",
+      "it": "sotto",
+      "es": "debajo de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_wsti",
+    "am": "ኣብ ውሽጢ",
+    "tr": "'ab wishiti",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "innerhalb, in",
+      "en": "inside, in",
+      "sv": "inuti, i",
+      "nl": "binnen, in",
+      "it": "dentro, in",
+      "es": "dentro, en"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_ntsg",
+    "am": "ኣብ ወጻኢ",
+    "tr": "'ab wetsa'i",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "außerhalb",
+      "en": "outside",
+      "sv": "utanför",
+      "nl": "buiten",
+      "it": "fuori",
+      "es": "fuera"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_qdmt",
+    "am": "ኣብ ቅድሚ",
+    "tr": "'ab qidmi",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "vor",
+      "en": "in front of",
+      "sv": "framför",
+      "nl": "voor",
+      "it": "davanti a",
+      "es": "delante de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_dhrt",
+    "am": "ኣብ ድሕሪ",
+    "tr": "'ab dihri",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "hinter, nach",
+      "en": "behind, after",
+      "sv": "bakom, efter",
+      "nl": "achter, na",
+      "it": "dietro, dopo",
+      "es": "detrás, después"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_mngo",
+    "am": "ምስ",
+    "tr": "misi",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "mit",
+      "en": "with",
+      "sv": "med",
+      "nl": "met",
+      "it": "con",
+      "es": "con"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_ztbl",
+    "am": "ብዘይ",
+    "tr": "bizey",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "ohne",
+      "en": "without",
+      "sv": "utan",
+      "nl": "zonder",
+      "it": "senza",
+      "es": "sin"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_nbti",
+    "am": "ንኽሳብ",
+    "tr": "nikisab",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "bis",
+      "en": "until",
+      "sv": "tills",
+      "nl": "tot",
+      "it": "fino a",
+      "es": "hasta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prp_ksab",
+    "am": "ካብ",
+    "tr": "kabi",
+    "pos": "prep",
+    "topic": "prepositions",
+    "level": "TI",
+    "t": {
+      "de": "von, aus",
+      "en": "from",
+      "sv": "från",
+      "nl": "van, uit",
+      "it": "da",
+      "es": "de, desde"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

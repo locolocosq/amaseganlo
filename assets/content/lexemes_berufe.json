@@ -10,7 +10,9 @@
       "de": "der Bauer, die Bäuerin",
       "en": "farmer",
       "sv": "bonde",
-      "nl": "boer"
+      "nl": "boer",
+      "it": "il contadino, la contadina",
+      "es": "el agricultor, la agricultora"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Koch, die Köchin",
       "en": "cook",
       "sv": "kock",
-      "nl": "kok"
+      "nl": "kok",
+      "it": "il cuoco, la cuoca",
+      "es": "el cocinero, la cocinera"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Fahrer",
       "en": "driver",
       "sv": "förare",
-      "nl": "chauffeur"
+      "nl": "chauffeur",
+      "it": "l'autista",
+      "es": "el conductor"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Ingenieur",
       "en": "engineer",
       "sv": "ingenjör",
-      "nl": "ingenieur"
+      "nl": "ingenieur",
+      "it": "l'ingegnere",
+      "es": "el ingeniero"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Künstler",
       "en": "artist",
       "sv": "konstnär",
-      "nl": "kunstenaar"
+      "nl": "kunstenaar",
+      "it": "l'artista",
+      "es": "el artista"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Musiker",
       "en": "musician",
       "sv": "musiker",
-      "nl": "muzikant"
+      "nl": "muzikant",
+      "it": "il musicista",
+      "es": "el músico"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Schriftsteller",
       "en": "writer",
       "sv": "författare",
-      "nl": "schrijver"
+      "nl": "schrijver",
+      "it": "lo scrittore",
+      "es": "el escritor"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Verkäufer",
       "en": "seller",
       "sv": "säljare",
-      "nl": "verkoper"
+      "nl": "verkoper",
+      "it": "il venditore",
+      "es": "el vendedor"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Pilot",
       "en": "pilot",
       "sv": "pilot",
-      "nl": "piloot"
+      "nl": "piloot",
+      "it": "il pilota",
+      "es": "el piloto"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "der Kellner",
       "en": "waiter",
       "sv": "servitör",
-      "nl": "ober"
+      "nl": "ober",
+      "it": "il cameriere",
+      "es": "el camarero"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Anwalt",
       "en": "lawyer",
       "sv": "advokat",
-      "nl": "advocaat"
+      "nl": "advocaat",
+      "it": "l'avvocato",
+      "es": "el abogado"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "der Soldat",
       "en": "soldier",
       "sv": "soldat",
-      "nl": "soldaat"
+      "nl": "soldaat",
+      "it": "il soldato",
+      "es": "el soldado"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "der Präsident",
       "en": "president",
       "sv": "president",
-      "nl": "president"
+      "nl": "president",
+      "it": "il presidente",
+      "es": "el presidente"
     },
     "hint": {},
     "alt": {},

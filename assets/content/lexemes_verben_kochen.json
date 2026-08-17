@@ -10,7 +10,9 @@
       "de": "kochen, sieden lassen",
       "en": "to boil",
       "sv": "koka",
-      "nl": "koken"
+      "nl": "koken",
+      "it": "bollire",
+      "es": "hervir"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "braten, frittieren",
       "en": "to fry",
       "sv": "steka",
-      "nl": "bakken (in de pan)"
+      "nl": "bakken (in de pan)",
+      "it": "friggere",
+      "es": "freír"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "rösten (z.B. Kaffee)",
       "en": "to roast (e.g. coffee)",
       "sv": "rosta (t.ex. kaffe)",
-      "nl": "roosteren (bv. koffie)"
+      "nl": "roosteren (bv. koffie)",
+      "it": "tostare (per es. il caffè)",
+      "es": "tostar (por ejemplo, el café)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "mischen",
       "en": "to mix",
       "sv": "blanda",
-      "nl": "mengen"
+      "nl": "mengen",
+      "it": "mescolare",
+      "es": "mezclar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "rühren, umrühren",
       "en": "to stir",
       "sv": "röra om",
-      "nl": "roeren"
+      "nl": "roeren",
+      "it": "rimestare, mescolare",
+      "es": "remover, revolver"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "schälen",
       "en": "to peel",
       "sv": "skala",
-      "nl": "schillen"
+      "nl": "schillen",
+      "it": "sbucciare",
+      "es": "pelar"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "würzen",
       "en": "to season",
       "sv": "krydda",
-      "nl": "kruiden"
+      "nl": "kruiden",
+      "it": "condire",
+      "es": "sazonar"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "probieren, kosten",
       "en": "to taste",
       "sv": "smaka",
-      "nl": "proeven"
+      "nl": "proeven",
+      "it": "assaggiare",
+      "es": "probar"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "servieren",
       "en": "to serve (food)",
       "sv": "servera",
-      "nl": "serveren"
+      "nl": "serveren",
+      "it": "servire",
+      "es": "servir"
     },
     "hint": {},
     "alt": {},

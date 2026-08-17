@@ -10,7 +10,9 @@
       "de": "der Abschluss, der Grad",
       "en": "degree",
       "sv": "examen, grad",
-      "nl": "diploma, graad"
+      "nl": "diploma, graad",
+      "it": "la laurea, il titolo",
+      "es": "el título, el grado"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Absolvent, die Absolventin",
       "en": "graduate",
       "sv": "utexaminerad",
-      "nl": "afgestudeerde"
+      "nl": "afgestudeerde",
+      "it": "il laureato, la laureata",
+      "es": "el graduado, la graduada"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Stipendium",
       "en": "scholarship",
       "sv": "stipendium",
-      "nl": "studiebeurs"
+      "nl": "studiebeurs",
+      "it": "la borsa di studio",
+      "es": "la beca"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Lehrplan",
       "en": "curriculum",
       "sv": "läroplan",
-      "nl": "curriculum"
+      "nl": "curriculum",
+      "it": "il programma di studi",
+      "es": "el plan de estudios"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "graduieren, den Abschluss machen",
       "en": "to graduate",
       "sv": "ta examen",
-      "nl": "afstuderen"
+      "nl": "afstuderen",
+      "it": "laurearsi, diplomarsi",
+      "es": "graduarse"
     },
     "hint": {},
     "alt": {},

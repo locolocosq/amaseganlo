@@ -1,6 +1,101 @@
 [
-  {"id":"sen_hr2_dagna_firdi","am":"ዳኛው ፍርድ ሰጠ።","tr":"dagnaw firdi sete.","level":"B2","uses":["lex_hr2_dagna","lex_hr2_firdi"],"t":{"de":"Der Richter fällte ein Urteil.","en":"The judge gave a verdict.","sv":"Domaren avkunnade en dom.","nl":"De rechter velde een vonnis."},"chunks":["dagnaw","firdi","sete"],"verified":false},
-  {"id":"sen_hr2_polis_wegetegna","am":"ፖሊስ ወንጀለኛውን አሰረ።","tr":"polis wenijelegnawin asere.","level":"B2","uses":["lex_hr2_polis","lex_hr2_wegetegna","lex_hr2_v_masser"],"t":{"de":"Die Polizei verhaftete den Verbrecher.","en":"The police arrested the criminal.","sv":"Polisen arresterade brottslingen.","nl":"De politie arresteerde de crimineel."},"chunks":["polis","wenijelegnawin","asere"],"verified":false},
-  {"id":"sen_hr2_tebaki_mereja","am":"ጠበቃው ማስረጃ አቀረበ።","tr":"t'ebekaw masireja ak'erebe.","level":"B2","uses":["lex_hr2_tebaki","lex_hr2_mereja2"],"t":{"de":"Der Anwalt legte Beweise vor.","en":"The lawyer presented evidence.","sv":"Advokaten lade fram bevis.","nl":"De advocaat legde bewijs voor."},"chunks":["t'ebekaw","masireja","ak'erebe"],"verified":false},
-  {"id":"sen_hr2_sahid_firdibet","am":"ምስክሩ በፍርድ ቤት መሰከረ።","tr":"misikiru befirid bet mesekere.","level":"B2","uses":["lex_hr2_sahid","lex_hr2_v_meshet","lex_hr2_firdibet"],"t":{"de":"Der Zeuge sagte vor Gericht aus.","en":"The witness testified in court.","sv":"Vittnet vittnade i domstol.","nl":"De getuige getuigde voor de rechtbank."},"chunks":["misikiru","befirid","bet","mesekere"],"verified":false}
+  {
+    "id": "sen_hr2_dagna_firdi",
+    "am": "ዳኛው ፍርድ ሰጠ።",
+    "tr": "dagnaw firdi sete.",
+    "level": "B2",
+    "uses": [
+      "lex_hr2_dagna",
+      "lex_hr2_firdi"
+    ],
+    "t": {
+      "de": "Der Richter fällte ein Urteil.",
+      "en": "The judge gave a verdict.",
+      "sv": "Domaren avkunnade en dom.",
+      "nl": "De rechter velde een vonnis.",
+      "it": "Il giudice ha emesso una sentenza.",
+      "es": "El juez dictó una sentencia."
+    },
+    "chunks": [
+      "dagnaw",
+      "firdi",
+      "sete"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hr2_polis_wegetegna",
+    "am": "ፖሊስ ወንጀለኛውን አሰረ።",
+    "tr": "polis wenijelegnawin asere.",
+    "level": "B2",
+    "uses": [
+      "lex_hr2_polis",
+      "lex_hr2_wegetegna",
+      "lex_hr2_v_masser"
+    ],
+    "t": {
+      "de": "Die Polizei verhaftete den Verbrecher.",
+      "en": "The police arrested the criminal.",
+      "sv": "Polisen arresterade brottslingen.",
+      "nl": "De politie arresteerde de crimineel.",
+      "it": "La polizia ha arrestato il criminale.",
+      "es": "La policía arrestó al criminal."
+    },
+    "chunks": [
+      "polis",
+      "wenijelegnawin",
+      "asere"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hr2_tebaki_mereja",
+    "am": "ጠበቃው ማስረጃ አቀረበ።",
+    "tr": "t'ebekaw masireja ak'erebe.",
+    "level": "B2",
+    "uses": [
+      "lex_hr2_tebaki",
+      "lex_hr2_mereja2"
+    ],
+    "t": {
+      "de": "Der Anwalt legte Beweise vor.",
+      "en": "The lawyer presented evidence.",
+      "sv": "Advokaten lade fram bevis.",
+      "nl": "De advocaat legde bewijs voor.",
+      "it": "L'avvocato ha presentato le prove.",
+      "es": "El abogado presentó pruebas."
+    },
+    "chunks": [
+      "t'ebekaw",
+      "masireja",
+      "ak'erebe"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hr2_sahid_firdibet",
+    "am": "ምስክሩ በፍርድ ቤት መሰከረ።",
+    "tr": "misikiru befirid bet mesekere.",
+    "level": "B2",
+    "uses": [
+      "lex_hr2_sahid",
+      "lex_hr2_v_meshet",
+      "lex_hr2_firdibet"
+    ],
+    "t": {
+      "de": "Der Zeuge sagte vor Gericht aus.",
+      "en": "The witness testified in court.",
+      "sv": "Vittnet vittnade i domstol.",
+      "nl": "De getuige getuigde voor de rechtbank.",
+      "it": "Il testimone ha deposto in tribunale.",
+      "es": "El testigo declaró ante el tribunal."
+    },
+    "chunks": [
+      "misikiru",
+      "befirid",
+      "bet",
+      "mesekere"
+    ],
+    "verified": false
+  }
 ]

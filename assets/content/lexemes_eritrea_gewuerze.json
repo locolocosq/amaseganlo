@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_gwz_pfef","am":"ፉል ፑልጳሊት","tr":"ful pulpalit","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Pfeffer","en":"pepper (spice)","sv":"peppar","nl":"peper (specerij)"},"emoji":"","verified":false},
-  {"id":"lex_ti_gwz_zmt","am":"ቀመም","tr":"qemem","pos":"noun","topic":"spices","level":"TI","t":{"de":"das Gewürz","en":"spice","sv":"krydda","nl":"specerij, kruid"},"emoji":"🌶️","verified":false},
-  {"id":"lex_ti_gwz_grlc","am":"ነጭ ሽጉርቲ","tr":"nech shigurti","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Knoblauch","en":"garlic","sv":"vitlök","nl":"knoflook"},"emoji":"🧄","verified":false},
-  {"id":"lex_ti_gwz_gngr","am":"ዝንጅብል","tr":"zinjibil","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Ingwer","en":"ginger","sv":"ingefära","nl":"gember"},"emoji":"","verified":false},
-  {"id":"lex_ti_gwz_cinn","am":"ቀርፋ","tr":"qerfa","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Zimt","en":"cinnamon","sv":"kanel","nl":"kaneel"},"emoji":"","verified":false},
-  {"id":"lex_ti_gwz_hny","am":"መዓር","tr":"me'ar","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Honig","en":"honey","sv":"honung","nl":"honing"},"emoji":"🍯","verified":false},
-  {"id":"lex_ti_gwz_sgr","am":"ሽኮር","tr":"shikor","pos":"noun","topic":"spices","level":"TI","t":{"de":"der Zucker","en":"sugar","sv":"socker","nl":"suiker"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_gwz_pfef",
+    "am": "ፉል ፑልጳሊት",
+    "tr": "ful pulpalit",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "der Pfeffer",
+      "en": "pepper (spice)",
+      "sv": "peppar",
+      "nl": "peper (specerij)",
+      "it": "il pepe",
+      "es": "la pimienta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwz_zmt",
+    "am": "ቀመም",
+    "tr": "qemem",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "das Gewürz",
+      "en": "spice",
+      "sv": "krydda",
+      "nl": "specerij, kruid",
+      "it": "la spezia",
+      "es": "la especia"
+    },
+    "emoji": "🌶️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwz_grlc",
+    "am": "ነጭ ሽጉርቲ",
+    "tr": "nech shigurti",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "der Knoblauch",
+      "en": "garlic",
+      "sv": "vitlök",
+      "nl": "knoflook",
+      "it": "l'aglio",
+      "es": "el ajo"
+    },
+    "emoji": "🧄",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwz_gngr",
+    "am": "ዝንጅብል",
+    "tr": "zinjibil",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "der Ingwer",
+      "en": "ginger",
+      "sv": "ingefära",
+      "nl": "gember",
+      "it": "lo zenzero",
+      "es": "el jengibre"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwz_cinn",
+    "am": "ቀርፋ",
+    "tr": "qerfa",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "der Zimt",
+      "en": "cinnamon",
+      "sv": "kanel",
+      "nl": "kaneel",
+      "it": "la cannella",
+      "es": "la canela"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwz_hny",
+    "am": "መዓር",
+    "tr": "me'ar",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "der Honig",
+      "en": "honey",
+      "sv": "honung",
+      "nl": "honing",
+      "it": "il miele",
+      "es": "la miel"
+    },
+    "emoji": "🍯",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwz_sgr",
+    "am": "ሽኮር",
+    "tr": "shikor",
+    "pos": "noun",
+    "topic": "spices",
+    "level": "TI",
+    "t": {
+      "de": "der Zucker",
+      "en": "sugar",
+      "sv": "socker",
+      "nl": "suiker",
+      "it": "lo zucchero",
+      "es": "el azúcar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

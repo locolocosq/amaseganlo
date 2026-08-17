@@ -11,7 +11,9 @@
       "de": "Er ist stur, hartnäckig.",
       "en": "He is stubborn.",
       "sv": "Han är envis.",
-      "nl": "Hij is koppig."
+      "nl": "Hij is koppig.",
+      "it": "Lui è testardo.",
+      "es": "Él es terco."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "das Vieh, die Tiere ist vorhanden.",
       "en": "There is livestock.",
       "sv": "Det finns boskap.",
-      "nl": "Er is vee."
+      "nl": "Er is vee.",
+      "it": "C'è del bestiame.",
+      "es": "Hay ganado."
     },
     "alt": {},
     "chunks": [

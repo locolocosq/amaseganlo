@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_rstrnt","am":"ቤት መግቢ","tr":"bet megbi","pos":"noun","topic":"restaurant","level":"TI","t":{"de":"das Restaurant","en":"restaurant","sv":"restaurang","nl":"restaurant"},"emoji":"🍽️","verified":false},
-  {"id":"lex_ti_menu2","am":"ዝርዝር ምግቢ","tr":"zirzir migbi","pos":"noun","topic":"restaurant","level":"TI","t":{"de":"die Speisekarte","en":"menu","sv":"meny","nl":"menukaart"},"emoji":"📋","verified":false},
-  {"id":"lex_ti_ordr","am":"ትእዛዝ","tr":"ti'izaz","pos":"noun","topic":"restaurant","level":"TI","t":{"de":"die Bestellung","en":"order","sv":"beställning","nl":"bestelling"},"emoji":"","verified":false},
-  {"id":"lex_ti_wetr","am":"ኣገልጋሊ","tr":"agelgali","pos":"noun","topic":"restaurant","level":"TI","t":{"de":"der Kellner","en":"waiter","sv":"servitör","nl":"ober"},"emoji":"","verified":false},
-  {"id":"lex_ti_hisab","am":"ሕሳብ","tr":"hisab","pos":"noun","topic":"restaurant","level":"TI","t":{"de":"die Rechnung","en":"bill, check","sv":"nota","nl":"rekening"},"emoji":"🧾","verified":false},
-  {"id":"lex_ti_trynkg","am":"ጠረጴዛ ምሓዝ","tr":"teretseza mihaz","pos":"phrase","topic":"restaurant","level":"TI","t":{"de":"einen Tisch reservieren","en":"to reserve a table","sv":"boka bord","nl":"een tafel reserveren"},"emoji":"","verified":false},
-  {"id":"lex_ti_tqmi","am":"ጥዑም ይኹን","tr":"t'i'um yikhun","pos":"phrase","topic":"restaurant","level":"TI","t":{"de":"guten Appetit","en":"bon appétit","sv":"smaklig måltid","nl":"eet smakelijk"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_rstrnt",
+    "am": "ቤት መግቢ",
+    "tr": "bet megbi",
+    "pos": "noun",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "das Restaurant",
+      "en": "restaurant",
+      "sv": "restaurang",
+      "nl": "restaurant",
+      "it": "il ristorante",
+      "es": "el restaurante"
+    },
+    "emoji": "🍽️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_menu2",
+    "am": "ዝርዝር ምግቢ",
+    "tr": "zirzir migbi",
+    "pos": "noun",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "die Speisekarte",
+      "en": "menu",
+      "sv": "meny",
+      "nl": "menukaart",
+      "it": "il menù",
+      "es": "el menú"
+    },
+    "emoji": "📋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ordr",
+    "am": "ትእዛዝ",
+    "tr": "ti'izaz",
+    "pos": "noun",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "die Bestellung",
+      "en": "order",
+      "sv": "beställning",
+      "nl": "bestelling",
+      "it": "l'ordinazione",
+      "es": "el pedido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wetr",
+    "am": "ኣገልጋሊ",
+    "tr": "agelgali",
+    "pos": "noun",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "der Kellner",
+      "en": "waiter",
+      "sv": "servitör",
+      "nl": "ober",
+      "it": "il cameriere",
+      "es": "el camarero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hisab",
+    "am": "ሕሳብ",
+    "tr": "hisab",
+    "pos": "noun",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "die Rechnung",
+      "en": "bill, check",
+      "sv": "nota",
+      "nl": "rekening",
+      "it": "il conto",
+      "es": "la cuenta"
+    },
+    "emoji": "🧾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_trynkg",
+    "am": "ጠረጴዛ ምሓዝ",
+    "tr": "teretseza mihaz",
+    "pos": "phrase",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "einen Tisch reservieren",
+      "en": "to reserve a table",
+      "sv": "boka bord",
+      "nl": "een tafel reserveren",
+      "it": "prenotare un tavolo",
+      "es": "reservar una mesa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tqmi",
+    "am": "ጥዑም ይኹን",
+    "tr": "t'i'um yikhun",
+    "pos": "phrase",
+    "topic": "restaurant",
+    "level": "TI",
+    "t": {
+      "de": "guten Appetit",
+      "en": "bon appétit",
+      "sv": "smaklig måltid",
+      "nl": "eet smakelijk",
+      "it": "buon appetito",
+      "es": "buen provecho"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

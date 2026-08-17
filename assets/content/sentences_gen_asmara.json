@@ -11,7 +11,9 @@
       "de": "die Freundschaft ist vorhanden.",
       "en": "There is friendship.",
       "sv": "Det finns vänskap.",
-      "nl": "Er is vriendschap."
+      "nl": "Er is vriendschap.",
+      "it": "C'è amicizia.",
+      "es": "Hay amistad."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Ich habe die Scheidung.",
       "en": "I have divorce.",
       "sv": "Jag har skilsmässa.",
-      "nl": "Ik heb scheiding."
+      "nl": "Ik heb scheiding.",
+      "it": "Ho il divorzio.",
+      "es": "Tengo el divorcio."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "der Partner, Kamerad ist vorhanden.",
       "en": "There is partner, companion.",
       "sv": "Det finns partner, kamrat.",
-      "nl": "Er is partner, kameraad."
+      "nl": "Er is partner, kameraad.",
+      "it": "C'è il partner, il compagno.",
+      "es": "Hay pareja, compañero."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "sich verloben.",
       "en": "to get engaged.",
       "sv": "förlova sig.",
-      "nl": "zich verloven."
+      "nl": "zich verloven.",
+      "it": "fidanzarsi.",
+      "es": "comprometerse."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "der Vermieter ist vorhanden.",
       "en": "There is landlord.",
       "sv": "Det finns hyresvärd.",
-      "nl": "Er is verhuurder."
+      "nl": "Er is verhuurder.",
+      "it": "C'è il padrone di casa.",
+      "es": "Hay casero."
     },
     "alt": {},
     "chunks": [
@@ -117,7 +127,9 @@
       "de": "Ich habe den Mieter.",
       "en": "I have tenant.",
       "sv": "Jag har hyresgäst.",
-      "nl": "Ik heb huurder."
+      "nl": "Ik heb huurder.",
+      "it": "Ho l'inquilino.",
+      "es": "Tengo el inquilino."
     },
     "alt": {},
     "chunks": [
@@ -138,7 +150,9 @@
       "de": "das Gebäude ist vorhanden.",
       "en": "There is building.",
       "sv": "Det finns byggnad.",
-      "nl": "Er is gebouw."
+      "nl": "Er is gebouw.",
+      "it": "C'è l'edificio.",
+      "es": "Hay un edificio."
     },
     "alt": {},
     "chunks": [
@@ -159,7 +173,9 @@
       "de": "Ich habe die Wohnung.",
       "en": "I have apartment.",
       "sv": "Jag har lägenhet.",
-      "nl": "Ik heb appartement."
+      "nl": "Ik heb appartement.",
+      "it": "Ho l'appartamento.",
+      "es": "Tengo el apartamento."
     },
     "alt": {},
     "chunks": [
@@ -180,7 +196,9 @@
       "de": "die Krankenschwester/-pfleger ist vorhanden.",
       "en": "There is nurse.",
       "sv": "Det finns sjuksköterska.",
-      "nl": "Er is verpleegkundige."
+      "nl": "Er is verpleegkundige.",
+      "it": "C'è l'infermiere/a.",
+      "es": "Hay enfermero/a."
     },
     "alt": {},
     "chunks": [
@@ -201,7 +219,9 @@
       "de": "Ich habe das Medikament.",
       "en": "I have medicine, drug.",
       "sv": "Jag har medicin.",
-      "nl": "Ik heb medicijn."
+      "nl": "Ik heb medicijn.",
+      "it": "Ho il medicinale.",
+      "es": "Tengo el medicamento."
     },
     "alt": {},
     "chunks": [
@@ -222,7 +242,9 @@
       "de": "das Rezept ist vorhanden.",
       "en": "There is prescription.",
       "sv": "Det finns recept.",
-      "nl": "Er is recept (medisch)."
+      "nl": "Er is recept (medisch).",
+      "it": "C'è la ricetta medica.",
+      "es": "Hay una receta médica."
     },
     "alt": {},
     "chunks": [
@@ -243,7 +265,9 @@
       "de": "Ich habe die Krankheit.",
       "en": "I have illness, disease.",
       "sv": "Jag har sjukdom.",
-      "nl": "Ik heb ziekte."
+      "nl": "Ik heb ziekte.",
+      "it": "Ho la malattia.",
+      "es": "Tengo la enfermedad."
     },
     "alt": {},
     "chunks": [
@@ -264,7 +288,9 @@
       "de": "das Passwort ist vorhanden.",
       "en": "There is password.",
       "sv": "Det finns lösenord.",
-      "nl": "Er is wachtwoord."
+      "nl": "Er is wachtwoord.",
+      "it": "C'è la password.",
+      "es": "Hay una contraseña."
     },
     "alt": {},
     "chunks": [
@@ -286,7 +312,9 @@
       "de": "Ich habe die App, Anwendung.",
       "en": "I have app, application.",
       "sv": "Jag har app.",
-      "nl": "Ik heb app."
+      "nl": "Ik heb app.",
+      "it": "Ho l'app, l'applicazione.",
+      "es": "Tengo la app, la aplicación."
     },
     "alt": {},
     "chunks": [
@@ -307,7 +335,9 @@
       "de": "der Umweltschutz ist vorhanden.",
       "en": "There is environmental protection.",
       "sv": "Det finns miljöskydd.",
-      "nl": "Er is milieubescherming."
+      "nl": "Er is milieubescherming.",
+      "it": "C'è la protezione ambientale.",
+      "es": "Hay protección ambiental."
     },
     "alt": {},
     "chunks": [
@@ -329,7 +359,9 @@
       "de": "Ich habe den Wald, Dschungel.",
       "en": "I have forest, jungle.",
       "sv": "Jag har skog, djungel.",
-      "nl": "Ik heb bos, jungle."
+      "nl": "Ik heb bos, jungle.",
+      "it": "Ho la foresta, la giungla.",
+      "es": "Tengo el bosque, la selva."
     },
     "alt": {},
     "chunks": [
@@ -350,7 +382,9 @@
       "de": "das Recycling ist vorhanden.",
       "en": "There is recycling.",
       "sv": "Det finns återvinning.",
-      "nl": "Er is recycling."
+      "nl": "Er is recycling.",
+      "it": "C'è il riciclaggio.",
+      "es": "Hay reciclaje."
     },
     "alt": {},
     "chunks": [
@@ -372,7 +406,9 @@
       "de": "Ich habe den Müll, Abfall.",
       "en": "I have garbage, waste.",
       "sv": "Jag har skräp.",
-      "nl": "Ik heb afval."
+      "nl": "Ik heb afval.",
+      "it": "Ho la spazzatura, i rifiuti.",
+      "es": "Tengo la basura, los residuos."
     },
     "alt": {},
     "chunks": [
@@ -393,7 +429,9 @@
       "de": "das Malen, Zeichnen ist vorhanden.",
       "en": "There is drawing, painting.",
       "sv": "Det finns målning, ritning.",
-      "nl": "Er is tekenen, schilderen."
+      "nl": "Er is tekenen, schilderen.",
+      "it": "C'è il disegno, la pittura.",
+      "es": "Hay dibujo, pintura."
     },
     "alt": {},
     "chunks": [
@@ -415,7 +453,9 @@
       "de": "Ich habe Musik hören.",
       "en": "I have listening to music.",
       "sv": "Jag har lyssna på musik.",
-      "nl": "Ik heb muziek luisteren."
+      "nl": "Ik heb muziek luisteren.",
+      "it": "Ho l'ascolto della musica.",
+      "es": "Tengo la escucha de música."
     },
     "alt": {},
     "chunks": [
@@ -437,7 +477,9 @@
       "de": "das Gärtnern ist vorhanden.",
       "en": "There is gardening.",
       "sv": "Det finns trädgårdsarbete.",
-      "nl": "Er is tuinieren."
+      "nl": "Er is tuinieren.",
+      "it": "C'è il giardinaggio.",
+      "es": "Hay jardinería."
     },
     "alt": {},
     "chunks": [
@@ -459,7 +501,9 @@
       "de": "Ich habe das Basteln, Handarbeit.",
       "en": "I have handicraft.",
       "sv": "Jag har handarbete.",
-      "nl": "Ik heb handwerk."
+      "nl": "Ik heb handwerk.",
+      "it": "Ho l'artigianato, il fai da te.",
+      "es": "Tengo la artesanía, las manualidades."
     },
     "alt": {},
     "chunks": [
@@ -481,7 +525,9 @@
       "de": "Äthiopien ist vorhanden.",
       "en": "There is Ethiopia.",
       "sv": "Det finns Etiopien.",
-      "nl": "Er is Ethiopië."
+      "nl": "Er is Ethiopië.",
+      "it": "C'è l'Etiopia.",
+      "es": "Hay Etiopía."
     },
     "alt": {},
     "chunks": [
@@ -502,7 +548,9 @@
       "de": "Ich habe Sudan.",
       "en": "I have Sudan.",
       "sv": "Jag har Sudan.",
-      "nl": "Ik heb Soedan."
+      "nl": "Ik heb Soedan.",
+      "it": "Ho il Sudan.",
+      "es": "Tengo Sudán."
     },
     "alt": {},
     "chunks": [
@@ -523,7 +571,9 @@
       "de": "Ägypten ist vorhanden.",
       "en": "There is Egypt.",
       "sv": "Det finns Egypten.",
-      "nl": "Er is Egypte."
+      "nl": "Er is Egypte.",
+      "it": "C'è l'Egitto.",
+      "es": "Hay Egipto."
     },
     "alt": {},
     "chunks": [
@@ -544,7 +594,9 @@
       "de": "Ich habe Somalia.",
       "en": "I have Somalia.",
       "sv": "Jag har Somalia.",
-      "nl": "Ik heb Somalië."
+      "nl": "Ik heb Somalië.",
+      "it": "Ho la Somalia.",
+      "es": "Tengo Somalia."
     },
     "alt": {},
     "chunks": [
@@ -565,7 +617,9 @@
       "de": "der Basketball ist vorhanden.",
       "en": "There is basketball.",
       "sv": "Det finns basket.",
-      "nl": "Er is basketbal."
+      "nl": "Er is basketbal.",
+      "it": "C'è la pallacanestro, il basket.",
+      "es": "Hay baloncesto."
     },
     "alt": {},
     "chunks": [
@@ -587,7 +641,9 @@
       "de": "Ich habe das Golf.",
       "en": "I have golf.",
       "sv": "Jag har golf.",
-      "nl": "Ik heb golf (sport)."
+      "nl": "Ik heb golf (sport).",
+      "it": "Ho il golf.",
+      "es": "Tengo el golf."
     },
     "alt": {},
     "chunks": [
@@ -608,7 +664,9 @@
       "de": "das Turnen, Gymnastik ist vorhanden.",
       "en": "There is gymnastics.",
       "sv": "Det finns gymnastik.",
-      "nl": "Er is gymnastiek."
+      "nl": "Er is gymnastiek.",
+      "it": "C'è la ginnastica.",
+      "es": "Hay gimnasia."
     },
     "alt": {},
     "chunks": [
@@ -629,7 +687,9 @@
       "de": "Ich habe das Karate, Kampfsport.",
       "en": "I have karate, martial arts.",
       "sv": "Jag har karate, kampsport.",
-      "nl": "Ik heb karate, vechtsport."
+      "nl": "Ik heb karate, vechtsport.",
+      "it": "Ho il karate, le arti marziali.",
+      "es": "Tengo el kárate, las artes marciales."
     },
     "alt": {},
     "chunks": [
@@ -650,7 +710,9 @@
       "de": "der Ingenieur ist vorhanden.",
       "en": "There is engineer.",
       "sv": "Det finns ingenjör.",
-      "nl": "Er is ingenieur."
+      "nl": "Er is ingenieur.",
+      "it": "C'è l'ingegnere.",
+      "es": "Hay un ingeniero."
     },
     "alt": {},
     "chunks": [
@@ -671,7 +733,9 @@
       "de": "Ich habe den Architekt.",
       "en": "I have architect.",
       "sv": "Jag har arkitekt.",
-      "nl": "Ik heb architect."
+      "nl": "Ik heb architect.",
+      "it": "Ho l'architetto.",
+      "es": "Tengo el arquitecto."
     },
     "alt": {},
     "chunks": [
@@ -693,7 +757,9 @@
       "de": "der Apotheker ist vorhanden.",
       "en": "There is pharmacist.",
       "sv": "Det finns apotekare.",
-      "nl": "Er is apotheker."
+      "nl": "Er is apotheker.",
+      "it": "C'è il farmacista.",
+      "es": "Hay un farmacéutico."
     },
     "alt": {},
     "chunks": [
@@ -714,7 +780,9 @@
       "de": "Ich habe den Tierarzt.",
       "en": "I have veterinarian.",
       "sv": "Jag har veterinär.",
-      "nl": "Ik heb dierenarts."
+      "nl": "Ik heb dierenarts.",
+      "it": "Ho il veterinario.",
+      "es": "Tengo el veterinario."
     },
     "alt": {},
     "chunks": [
@@ -736,7 +804,9 @@
       "de": "der Blitz ist vorhanden.",
       "en": "There is lightning.",
       "sv": "Det finns blixt.",
-      "nl": "Er is bliksem."
+      "nl": "Er is bliksem.",
+      "it": "C'è il fulmine.",
+      "es": "Hay un rayo."
     },
     "alt": {},
     "chunks": [
@@ -757,7 +827,9 @@
       "de": "Ich habe den Donner.",
       "en": "I have thunder.",
       "sv": "Jag har åska.",
-      "nl": "Ik heb donder."
+      "nl": "Ik heb donder.",
+      "it": "Ho il tuono.",
+      "es": "Tengo el trueno."
     },
     "alt": {},
     "chunks": [
@@ -778,7 +850,9 @@
       "de": "der Schnee ist vorhanden.",
       "en": "There is snow.",
       "sv": "Det finns snö.",
-      "nl": "Er is sneeuw."
+      "nl": "Er is sneeuw.",
+      "it": "C'è la neve.",
+      "es": "Hay nieve."
     },
     "alt": {},
     "chunks": [
@@ -799,7 +873,9 @@
       "de": "Ich habe die Wolke.",
       "en": "I have cloud.",
       "sv": "Jag har moln.",
-      "nl": "Ik heb wolk."
+      "nl": "Ik heb wolk.",
+      "it": "Ho la nuvola.",
+      "es": "Tengo la nube."
     },
     "alt": {},
     "chunks": [
@@ -820,7 +896,9 @@
       "de": "die Unterwäsche ist vorhanden.",
       "en": "There is underwear.",
       "sv": "Det finns underkläder.",
-      "nl": "Er is ondergoed."
+      "nl": "Er is ondergoed.",
+      "it": "C'è la biancheria intima.",
+      "es": "Hay ropa interior."
     },
     "alt": {},
     "chunks": [
@@ -842,7 +920,9 @@
       "de": "Ich habe den Regenmantel.",
       "en": "I have raincoat.",
       "sv": "Jag har regnrock.",
-      "nl": "Ik heb regenjas."
+      "nl": "Ik heb regenjas.",
+      "it": "Ho l'impermeabile.",
+      "es": "Tengo el impermeable."
     },
     "alt": {},
     "chunks": [
@@ -865,7 +945,9 @@
       "de": "der Stiefel ist vorhanden.",
       "en": "There is boot.",
       "sv": "Det finns stövel.",
-      "nl": "Er is laars."
+      "nl": "Er is laars.",
+      "it": "C'è lo stivale.",
+      "es": "Hay una bota."
     },
     "alt": {},
     "chunks": [
@@ -889,7 +971,9 @@
       "de": "Ich habe die Sandale.",
       "en": "I have sandal.",
       "sv": "Jag har sandal.",
-      "nl": "Ik heb sandaal."
+      "nl": "Ik heb sandaal.",
+      "it": "Ho il sandalo.",
+      "es": "Tengo la sandalia."
     },
     "alt": {},
     "chunks": [
@@ -910,7 +994,9 @@
       "de": "die Gerechtigkeit ist vorhanden.",
       "en": "There is justice.",
       "sv": "Det finns rättvisa.",
-      "nl": "Er is gerechtigheid."
+      "nl": "Er is gerechtigheid.",
+      "it": "C'è la giustizia.",
+      "es": "Hay justicia."
     },
     "alt": {},
     "chunks": [
@@ -931,7 +1017,9 @@
       "de": "Ich habe die Strafe.",
       "en": "I have punishment.",
       "sv": "Jag har straff.",
-      "nl": "Ik heb straf."
+      "nl": "Ik heb straf.",
+      "it": "Ho la punizione.",
+      "es": "Tengo el castigo."
     },
     "alt": {},
     "chunks": [
@@ -952,7 +1040,9 @@
       "de": "die Kaution ist vorhanden.",
       "en": "There is bail.",
       "sv": "Det finns borgen.",
-      "nl": "Er is borgtocht."
+      "nl": "Er is borgtocht.",
+      "it": "C'è la cauzione.",
+      "es": "Hay fianza."
     },
     "alt": {},
     "chunks": [
@@ -974,7 +1064,9 @@
       "de": "Ich habe die Anklage.",
       "en": "I have accusation, charge.",
       "sv": "Jag har åtal.",
-      "nl": "Ik heb aanklacht."
+      "nl": "Ik heb aanklacht.",
+      "it": "Ho l'accusa.",
+      "es": "Tengo la acusación."
     },
     "alt": {},
     "chunks": [
@@ -995,7 +1087,9 @@
       "de": "der Hai ist vorhanden.",
       "en": "There is shark.",
       "sv": "Det finns haj.",
-      "nl": "Er is haai."
+      "nl": "Er is haai.",
+      "it": "C'è lo squalo.",
+      "es": "Hay un tiburón."
     },
     "alt": {},
     "chunks": [
@@ -1016,7 +1110,9 @@
       "de": "Ich habe den Delfin.",
       "en": "I have dolphin.",
       "sv": "Jag har delfin.",
-      "nl": "Ik heb dolfijn."
+      "nl": "Ik heb dolfijn.",
+      "it": "Ho il delfino.",
+      "es": "Tengo el delfín."
     },
     "alt": {},
     "chunks": [
@@ -1037,7 +1133,9 @@
       "de": "der Krake ist vorhanden.",
       "en": "There is octopus.",
       "sv": "Det finns bläckfisk.",
-      "nl": "Er is octopus."
+      "nl": "Er is octopus.",
+      "it": "C'è il polpo.",
+      "es": "Hay un pulpo."
     },
     "alt": {},
     "chunks": [
@@ -1059,7 +1157,9 @@
       "de": "Ich habe die Krabbe.",
       "en": "I have crab.",
       "sv": "Jag har krabba.",
-      "nl": "Ik heb krab."
+      "nl": "Ik heb krab.",
+      "it": "Ho il granchio.",
+      "es": "Tengo el cangrejo."
     },
     "alt": {},
     "chunks": [
@@ -1080,7 +1180,9 @@
       "de": "das Spielzeugauto ist vorhanden.",
       "en": "There is toy car.",
       "sv": "Det finns leksaksbil.",
-      "nl": "Er is speelgoedauto."
+      "nl": "Er is speelgoedauto.",
+      "it": "C'è la macchinina.",
+      "es": "Hay un coche de juguete."
     },
     "alt": {},
     "chunks": [
@@ -1103,7 +1205,9 @@
       "de": "Ich habe den Luftballon.",
       "en": "I have balloon.",
       "sv": "Jag har ballong.",
-      "nl": "Ik heb ballon."
+      "nl": "Ik heb ballon.",
+      "it": "Ho il palloncino.",
+      "es": "Tengo el globo."
     },
     "alt": {},
     "chunks": [
@@ -1124,7 +1228,9 @@
       "de": "das Puzzle ist vorhanden.",
       "en": "There is puzzle.",
       "sv": "Det finns pussel.",
-      "nl": "Er is puzzel."
+      "nl": "Er is puzzel.",
+      "it": "C'è il puzzle.",
+      "es": "Hay un rompecabezas."
     },
     "alt": {},
     "chunks": [
@@ -1145,7 +1251,9 @@
       "de": "Ich habe das Murmelspiel.",
       "en": "I have marbles (game).",
       "sv": "Jag har kulor (lek).",
-      "nl": "Ik heb knikkers."
+      "nl": "Ik heb knikkers.",
+      "it": "Ho le biglie.",
+      "es": "Tengo las canicas."
     },
     "alt": {},
     "chunks": [
@@ -1167,7 +1275,9 @@
       "de": "der Bleistift ist vorhanden.",
       "en": "There is pencil.",
       "sv": "Det finns blyertspenna.",
-      "nl": "Er is potlood."
+      "nl": "Er is potlood.",
+      "it": "C'è la matita.",
+      "es": "Hay un lápiz."
     },
     "alt": {},
     "chunks": [
@@ -1188,7 +1298,9 @@
       "de": "Ich habe das Papier.",
       "en": "I have paper.",
       "sv": "Jag har papper.",
-      "nl": "Ik heb papier."
+      "nl": "Ik heb papier.",
+      "it": "Ho la carta.",
+      "es": "Tengo el papel."
     },
     "alt": {},
     "chunks": [
@@ -1209,7 +1321,9 @@
       "de": "der Ordner, Aktenordner ist vorhanden.",
       "en": "There is binder, folder.",
       "sv": "Det finns pärm.",
-      "nl": "Er is map."
+      "nl": "Er is map.",
+      "it": "C'è il raccoglitore, la cartella.",
+      "es": "Hay una carpeta."
     },
     "alt": {},
     "chunks": [
@@ -1230,7 +1344,9 @@
       "de": "Ich habe die Tagesordnung, Agenda.",
       "en": "I have agenda.",
       "sv": "Jag har agenda.",
-      "nl": "Ik heb agenda."
+      "nl": "Ik heb agenda.",
+      "it": "Ho l'agenda.",
+      "es": "Tengo la agenda."
     },
     "alt": {},
     "chunks": [
@@ -1251,7 +1367,9 @@
       "de": "das Regal ist vorhanden.",
       "en": "There is shelf.",
       "sv": "Det finns hylla.",
-      "nl": "Er is plank, boekenkast."
+      "nl": "Er is plank, boekenkast.",
+      "it": "C'è lo scaffale.",
+      "es": "Hay un estante."
     },
     "alt": {},
     "chunks": [
@@ -1272,7 +1390,9 @@
       "de": "Ich habe das Bücherregal.",
       "en": "I have bookshelf.",
       "sv": "Jag har bokhylla.",
-      "nl": "Ik heb boekenkast."
+      "nl": "Ik heb boekenkast.",
+      "it": "Ho la libreria.",
+      "es": "Tengo la estantería para libros."
     },
     "alt": {},
     "chunks": [
@@ -1295,7 +1415,9 @@
       "de": "der Schreibtisch ist vorhanden.",
       "en": "There is desk.",
       "sv": "Det finns skrivbord.",
-      "nl": "Er is bureau."
+      "nl": "Er is bureau.",
+      "it": "C'è la scrivania.",
+      "es": "Hay un escritorio."
     },
     "alt": {},
     "chunks": [
@@ -1318,7 +1440,9 @@
       "de": "Ich habe die Kommode.",
       "en": "I have drawer, dresser.",
       "sv": "Jag har byrå.",
-      "nl": "Ik heb ladekast."
+      "nl": "Ik heb ladekast.",
+      "it": "Ho il cassettone, la cassettiera.",
+      "es": "Tengo la cómoda."
     },
     "alt": {},
     "chunks": [
@@ -1339,7 +1463,9 @@
       "de": "das Schaf ist vorhanden.",
       "en": "There is sheep.",
       "sv": "Det finns får.",
-      "nl": "Er is schaap."
+      "nl": "Er is schaap.",
+      "it": "C'è la pecora.",
+      "es": "Hay una oveja."
     },
     "alt": {},
     "chunks": [
@@ -1360,7 +1486,9 @@
       "de": "Ich habe die Ziege.",
       "en": "I have goat.",
       "sv": "Jag har get.",
-      "nl": "Ik heb geit."
+      "nl": "Ik heb geit.",
+      "it": "Ho la capra.",
+      "es": "Tengo la cabra."
     },
     "alt": {},
     "chunks": [
@@ -1381,7 +1509,9 @@
       "de": "das Huhn ist vorhanden.",
       "en": "There is chicken.",
       "sv": "Det finns höna.",
-      "nl": "Er is kip."
+      "nl": "Er is kip.",
+      "it": "C'è la gallina.",
+      "es": "Hay una gallina."
     },
     "alt": {},
     "chunks": [
@@ -1402,7 +1532,9 @@
       "de": "Ich habe das Pferd.",
       "en": "I have horse.",
       "sv": "Jag har häst.",
-      "nl": "Ik heb paard."
+      "nl": "Ik heb paard.",
+      "it": "Ho il cavallo.",
+      "es": "Tengo el caballo."
     },
     "alt": {},
     "chunks": [
@@ -1423,7 +1555,9 @@
       "de": "das Paket ist vorhanden.",
       "en": "There is package, parcel.",
       "sv": "Det finns paket.",
-      "nl": "Er is pakket."
+      "nl": "Er is pakket.",
+      "it": "C'è il pacco.",
+      "es": "Hay un paquete."
     },
     "alt": {},
     "chunks": [
@@ -1444,7 +1578,9 @@
       "de": "Ich habe die Briefmarke.",
       "en": "I have stamp.",
       "sv": "Jag har frimärke.",
-      "nl": "Ik heb postzegel."
+      "nl": "Ik heb postzegel.",
+      "it": "Ho il francobollo.",
+      "es": "Tengo el sello."
     },
     "alt": {},
     "chunks": [
@@ -1465,7 +1601,9 @@
       "de": "der Briefkasten ist vorhanden.",
       "en": "There is mailbox.",
       "sv": "Det finns brevlåda.",
-      "nl": "Er is brievenbus."
+      "nl": "Er is brievenbus.",
+      "it": "C'è la cassetta della posta.",
+      "es": "Hay un buzón."
     },
     "alt": {},
     "chunks": [
@@ -1488,7 +1626,9 @@
       "de": "Ich habe die Adresse.",
       "en": "I have address.",
       "sv": "Jag har adress.",
-      "nl": "Ik heb adres."
+      "nl": "Ik heb adres.",
+      "it": "Ho l'indirizzo.",
+      "es": "Tengo la dirección."
     },
     "alt": {},
     "chunks": [
@@ -1509,7 +1649,9 @@
       "de": "gute Reise.",
       "en": "have a good trip.",
       "sv": "trevlig resa.",
-      "nl": "goede reis."
+      "nl": "goede reis.",
+      "it": "buon viaggio.",
+      "es": "buen viaje."
     },
     "alt": {},
     "chunks": [
@@ -1530,7 +1672,9 @@
       "de": "alles Gute.",
       "en": "all the best.",
       "sv": "lycka till.",
-      "nl": "het beste."
+      "nl": "het beste.",
+      "it": "tanti auguri.",
+      "es": "todo lo mejor."
     },
     "alt": {},
     "chunks": [
@@ -1551,7 +1695,9 @@
       "de": "bleib gesund.",
       "en": "take care, stay well.",
       "sv": "ta hand om dig.",
-      "nl": "blijf gezond."
+      "nl": "blijf gezond.",
+      "it": "abbi cura di te, stai bene.",
+      "es": "cuídate, que estés bien."
     },
     "alt": {},
     "chunks": [
@@ -1572,7 +1718,9 @@
       "de": "die Kreuzung ist vorhanden.",
       "en": "There is intersection.",
       "sv": "Det finns korsning.",
-      "nl": "Er is kruispunt."
+      "nl": "Er is kruispunt.",
+      "it": "C'è l'incrocio.",
+      "es": "Hay un cruce."
     },
     "alt": {},
     "chunks": [
@@ -1594,7 +1742,9 @@
       "de": "Ich habe den Stau.",
       "en": "I have traffic jam.",
       "sv": "Jag har trafikstockning.",
-      "nl": "Ik heb file."
+      "nl": "Ik heb file.",
+      "it": "Ho l'ingorgo.",
+      "es": "Tengo el atasco."
     },
     "alt": {},
     "chunks": [
@@ -1616,7 +1766,9 @@
       "de": "der Parkplatz ist vorhanden.",
       "en": "There is parking lot.",
       "sv": "Det finns parkering.",
-      "nl": "Er is parkeerplaats."
+      "nl": "Er is parkeerplaats.",
+      "it": "C'è il parcheggio.",
+      "es": "Hay un aparcamiento."
     },
     "alt": {},
     "chunks": [
@@ -1638,7 +1790,9 @@
       "de": "Ich habe den Führerschein.",
       "en": "I have driver's license.",
       "sv": "Jag har körkort.",
-      "nl": "Ik heb rijbewijs."
+      "nl": "Ik heb rijbewijs.",
+      "it": "Ho la patente.",
+      "es": "Tengo el carné de conducir."
     },
     "alt": {},
     "chunks": [
@@ -1660,7 +1814,9 @@
       "de": "Riechen!",
       "en": "Smell!",
       "sv": "Att lukta!",
-      "nl": "Ruiken!"
+      "nl": "Ruiken!",
+      "it": "Annusa!",
+      "es": "¡Huele!"
     },
     "alt": {},
     "chunks": [
@@ -1681,7 +1837,9 @@
       "de": "der Autor, Schriftsteller ist vorhanden.",
       "en": "There is author.",
       "sv": "Det finns författare.",
-      "nl": "Er is auteur."
+      "nl": "Er is auteur.",
+      "it": "C'è l'autore, lo scrittore.",
+      "es": "Hay un autor, escritor."
     },
     "alt": {},
     "chunks": [
@@ -1702,7 +1860,9 @@
       "de": "Ich habe das Kapitel.",
       "en": "I have chapter.",
       "sv": "Jag har kapitel.",
-      "nl": "Ik heb hoofdstuk."
+      "nl": "Ik heb hoofdstuk.",
+      "it": "Ho il capitolo.",
+      "es": "Tengo el capítulo."
     },
     "alt": {},
     "chunks": [
@@ -1723,7 +1883,9 @@
       "de": "das Gedicht ist vorhanden.",
       "en": "There is poem.",
       "sv": "Det finns dikt.",
-      "nl": "Er is gedicht."
+      "nl": "Er is gedicht.",
+      "it": "C'è la poesia.",
+      "es": "Hay un poema."
     },
     "alt": {},
     "chunks": [
@@ -1744,7 +1906,9 @@
       "de": "Ich habe den Roman.",
       "en": "I have novel.",
       "sv": "Jag har roman.",
-      "nl": "Ik heb roman."
+      "nl": "Ik heb roman.",
+      "it": "Ho il romanzo.",
+      "es": "Tengo la novela."
     },
     "alt": {},
     "chunks": [
@@ -1766,7 +1930,9 @@
       "de": "die Versicherungsprämie ist vorhanden.",
       "en": "There is insurance premium.",
       "sv": "Det finns försäkringspremie.",
-      "nl": "Er is verzekeringspremie."
+      "nl": "Er is verzekeringspremie.",
+      "it": "C'è il premio assicurativo.",
+      "es": "Hay una prima de seguro."
     },
     "alt": {},
     "chunks": [
@@ -1789,7 +1955,9 @@
       "de": "Ich habe den Versicherungsanspruch.",
       "en": "I have insurance claim.",
       "sv": "Jag har försäkringsanspråk.",
-      "nl": "Ik heb verzekeringsclaim."
+      "nl": "Ik heb verzekeringsclaim.",
+      "it": "Ho la richiesta di risarcimento.",
+      "es": "Tengo la reclamación del seguro."
     },
     "alt": {},
     "chunks": [
@@ -1811,7 +1979,9 @@
       "de": "die Entschädigung ist vorhanden.",
       "en": "There is compensation.",
       "sv": "Det finns ersättning.",
-      "nl": "Er is vergoeding."
+      "nl": "Er is vergoeding.",
+      "it": "C'è il risarcimento.",
+      "es": "Hay una indemnización."
     },
     "alt": {},
     "chunks": [
@@ -1832,7 +2002,9 @@
       "de": "Ich habe das Risiko.",
       "en": "I have risk.",
       "sv": "Jag har risk.",
-      "nl": "Ik heb risico."
+      "nl": "Ik heb risico.",
+      "it": "Ho il rischio.",
+      "es": "Tengo el riesgo."
     },
     "alt": {},
     "chunks": [
@@ -1854,7 +2026,9 @@
       "de": "der Umzugswagen, LKW ist vorhanden.",
       "en": "There is moving truck.",
       "sv": "Det finns flyttbil.",
-      "nl": "Er is verhuiswagen."
+      "nl": "Er is verhuiswagen.",
+      "it": "C'è il camion dei traslochi.",
+      "es": "Hay un camión de mudanza."
     },
     "alt": {},
     "chunks": [
@@ -1876,7 +2050,9 @@
       "de": "Ich habe den Mietvertrag.",
       "en": "I have lease.",
       "sv": "Jag har hyresavtal.",
-      "nl": "Ik heb huurcontract."
+      "nl": "Ik heb huurcontract.",
+      "it": "Ho il contratto d'affitto.",
+      "es": "Tengo el contrato de alquiler."
     },
     "alt": {},
     "chunks": [
@@ -1898,7 +2074,9 @@
       "de": "die Geburt ist vorhanden.",
       "en": "There is birth.",
       "sv": "Det finns förlossning.",
-      "nl": "Er is geboorte."
+      "nl": "Er is geboorte.",
+      "it": "C'è la nascita.",
+      "es": "Hay un nacimiento."
     },
     "alt": {},
     "chunks": [
@@ -1919,7 +2097,9 @@
       "de": "Ich habe das Baby.",
       "en": "I have baby.",
       "sv": "Jag har bebis.",
-      "nl": "Ik heb baby."
+      "nl": "Ik heb baby.",
+      "it": "Ho il bebè.",
+      "es": "Tengo el bebé."
     },
     "alt": {},
     "chunks": [
@@ -1940,7 +2120,9 @@
       "de": "die Hebamme ist vorhanden.",
       "en": "There is midwife.",
       "sv": "Det finns barnmorska.",
-      "nl": "Er is vroedvrouw."
+      "nl": "Er is vroedvrouw.",
+      "it": "C'è l'ostetrica.",
+      "es": "Hay una partera."
     },
     "alt": {},
     "chunks": [
@@ -1961,7 +2143,9 @@
       "de": "Ich habe die Wiege.",
       "en": "I have cradle.",
       "sv": "Jag har vagga.",
-      "nl": "Ik heb wieg."
+      "nl": "Ik heb wieg.",
+      "it": "Ho la culla.",
+      "es": "Tengo la cuna."
     },
     "alt": {},
     "chunks": [
@@ -1983,7 +2167,9 @@
       "de": "die Töpferei ist vorhanden.",
       "en": "There is pottery.",
       "sv": "Det finns keramik.",
-      "nl": "Er is pottenbakken."
+      "nl": "Er is pottenbakken.",
+      "it": "C'è la ceramica.",
+      "es": "Hay cerámica."
     },
     "alt": {},
     "chunks": [
@@ -2005,7 +2191,9 @@
       "de": "Schnitzen!",
       "en": "Carve!",
       "sv": "Att snida!",
-      "nl": "Houtsnijden!"
+      "nl": "Houtsnijden!",
+      "it": "Intaglia!",
+      "es": "¡Talla!"
     },
     "alt": {},
     "chunks": [
@@ -2026,7 +2214,9 @@
       "de": "Ich habe die Stickerei.",
       "en": "I have embroidery.",
       "sv": "Jag har broderi.",
-      "nl": "Ik heb borduurwerk."
+      "nl": "Ik heb borduurwerk.",
+      "it": "Ho il ricamo.",
+      "es": "Tengo el bordado."
     },
     "alt": {},
     "chunks": [
@@ -2047,7 +2237,9 @@
       "de": "die Silberschmiedekunst ist vorhanden.",
       "en": "There is silversmithing.",
       "sv": "Det finns silversmide.",
-      "nl": "Er is zilversmeden."
+      "nl": "Er is zilversmeden.",
+      "it": "C'è l'arte orafa dell'argento.",
+      "es": "Hay orfebrería en plata."
     },
     "alt": {},
     "chunks": [
@@ -2069,7 +2261,9 @@
       "de": "rechts ist vorhanden.",
       "en": "There is right.",
       "sv": "Det finns höger.",
-      "nl": "Er is rechts."
+      "nl": "Er is rechts.",
+      "it": "C'è la destra.",
+      "es": "Hay a la derecha."
     },
     "alt": {},
     "chunks": [
@@ -2090,7 +2284,9 @@
       "de": "geradeaus.",
       "en": "straight ahead.",
       "sv": "rakt fram.",
-      "nl": "rechtdoor."
+      "nl": "rechtdoor.",
+      "it": "sempre dritto.",
+      "es": "todo recto."
     },
     "alt": {},
     "chunks": [
@@ -2111,7 +2307,9 @@
       "de": "Ich habe halb (Uhrzeit).",
       "en": "I have half (time).",
       "sv": "Jag har halv (klockan).",
-      "nl": "Ik heb half (tijd)."
+      "nl": "Ik heb half (tijd).",
+      "it": "Ho la mezza (orario).",
+      "es": "Tengo la media (hora)."
     },
     "alt": {},
     "chunks": [
@@ -2132,7 +2330,9 @@
       "de": "Viertel (Uhrzeit) ist vorhanden.",
       "en": "There is quarter (time).",
       "sv": "Det finns kvart.",
-      "nl": "Er is kwart (tijd)."
+      "nl": "Er is kwart (tijd).",
+      "it": "C'è il quarto (orario).",
+      "es": "Hay el cuarto (hora)."
     },
     "alt": {},
     "chunks": [
@@ -2153,7 +2353,9 @@
       "de": "der Professor ist vorhanden.",
       "en": "There is professor.",
       "sv": "Det finns professor.",
-      "nl": "Er is professor."
+      "nl": "Er is professor.",
+      "it": "C'è il professore.",
+      "es": "Hay un profesor."
     },
     "alt": {},
     "chunks": [
@@ -2174,7 +2376,9 @@
       "de": "Ich habe den Abschluss, Grad.",
       "en": "I have degree.",
       "sv": "Jag har examen.",
-      "nl": "Ik heb diploma, graad."
+      "nl": "Ik heb diploma, graad.",
+      "it": "Ho la laurea.",
+      "es": "Tengo el título."
     },
     "alt": {},
     "chunks": [
@@ -2195,7 +2399,9 @@
       "de": "die Abschlussarbeit, Studie ist vorhanden.",
       "en": "There is thesis, study.",
       "sv": "Det finns avhandling, studie.",
-      "nl": "Er is scriptie, studie."
+      "nl": "Er is scriptie, studie.",
+      "it": "C'è la tesi, lo studio.",
+      "es": "Hay una tesis, un estudio."
     },
     "alt": {},
     "chunks": [
@@ -2216,7 +2422,9 @@
       "de": "Ich habe das Stipendium.",
       "en": "I have scholarship.",
       "sv": "Jag har stipendium.",
-      "nl": "Ik heb studiebeurs."
+      "nl": "Ik heb studiebeurs.",
+      "it": "Ho la borsa di studio.",
+      "es": "Tengo la beca."
     },
     "alt": {},
     "chunks": [
@@ -2240,7 +2448,9 @@
       "de": "Ein Konto eröffnen!",
       "en": "Open an account!",
       "sv": "Öppna ett konto!",
-      "nl": "Een rekening openen!"
+      "nl": "Een rekening openen!",
+      "it": "Apri un conto!",
+      "es": "¡Abre una cuenta!"
     },
     "alt": {},
     "chunks": [
@@ -2261,7 +2471,9 @@
       "de": "Geld überweisen!",
       "en": "Transfer money!",
       "sv": "Överföra pengar!",
-      "nl": "Geld overmaken!"
+      "nl": "Geld overmaken!",
+      "it": "Trasferisci soldi!",
+      "es": "¡Transfiere dinero!"
     },
     "alt": {},
     "chunks": [
@@ -2282,7 +2494,9 @@
       "de": "Geld abheben!",
       "en": "Withdraw money!",
       "sv": "Ta ut pengar!",
-      "nl": "Geld opnemen!"
+      "nl": "Geld opnemen!",
+      "it": "Preleva soldi!",
+      "es": "¡Retira dinero!"
     },
     "alt": {},
     "chunks": [
@@ -2303,7 +2517,9 @@
       "de": "Geld einzahlen!",
       "en": "Deposit money!",
       "sv": "Sätta in pengar!",
-      "nl": "Geld storten!"
+      "nl": "Geld storten!",
+      "it": "Deposita soldi!",
+      "es": "¡Deposita dinero!"
     },
     "alt": {},
     "chunks": [
@@ -2324,7 +2540,9 @@
       "de": "die Picknickdecke ist vorhanden.",
       "en": "There is picnic blanket.",
       "sv": "Det finns picknickfilt.",
-      "nl": "Er is picknickkleed."
+      "nl": "Er is picknickkleed.",
+      "it": "C'è la coperta da picnic.",
+      "es": "Hay una manta de picnic."
     },
     "alt": {},
     "chunks": [
@@ -2347,7 +2565,9 @@
       "de": "Ich habe das Grillen.",
       "en": "I have grilling, barbecue.",
       "sv": "Jag har grillning.",
-      "nl": "Ik heb barbecue, grillen."
+      "nl": "Ik heb barbecue, grillen.",
+      "it": "Ho la grigliata, il barbecue.",
+      "es": "Tengo la parrillada, la barbacoa."
     },
     "alt": {},
     "chunks": [
@@ -2368,7 +2588,9 @@
       "de": "das Zelt ist vorhanden.",
       "en": "There is tent.",
       "sv": "Det finns tält.",
-      "nl": "Er is tent."
+      "nl": "Er is tent.",
+      "it": "C'è la tenda.",
+      "es": "Hay una tienda de campaña."
     },
     "alt": {},
     "chunks": [
@@ -2389,7 +2611,9 @@
       "de": "Ich habe den Schlafsack.",
       "en": "I have sleeping bag.",
       "sv": "Jag har sovsäck.",
-      "nl": "Ik heb slaapzak."
+      "nl": "Ik heb slaapzak.",
+      "it": "Ho il sacco a pelo.",
+      "es": "Tengo el saco de dormir."
     },
     "alt": {},
     "chunks": [
@@ -2412,7 +2636,9 @@
       "de": "der Gipfel ist vorhanden.",
       "en": "There is peak, summit.",
       "sv": "Det finns topp.",
-      "nl": "Er is top (berg)."
+      "nl": "Er is top (berg).",
+      "it": "C'è la vetta, la cima.",
+      "es": "Hay una cumbre, un pico."
     },
     "alt": {},
     "chunks": [
@@ -2434,7 +2660,9 @@
       "de": "Ich habe den Kompass.",
       "en": "I have compass.",
       "sv": "Jag har kompass.",
-      "nl": "Ik heb kompas."
+      "nl": "Ik heb kompas.",
+      "it": "Ho la bussola.",
+      "es": "Tengo la brújula."
     },
     "alt": {},
     "chunks": [
@@ -2455,7 +2683,9 @@
       "de": "der Rucksack ist vorhanden.",
       "en": "There is backpack.",
       "sv": "Det finns ryggsäck.",
-      "nl": "Er is rugzak."
+      "nl": "Er is rugzak.",
+      "it": "C'è lo zaino.",
+      "es": "Hay una mochila."
     },
     "alt": {},
     "chunks": [
@@ -2477,7 +2707,9 @@
       "de": "die Venus ist vorhanden.",
       "en": "There is Venus.",
       "sv": "Det finns Venus.",
-      "nl": "Er is Venus."
+      "nl": "Er is Venus.",
+      "it": "C'è Venere.",
+      "es": "Hay Venus."
     },
     "alt": {},
     "chunks": [
@@ -2498,7 +2730,9 @@
       "de": "Ich habe den Jupiter.",
       "en": "I have Jupiter.",
       "sv": "Jag har Jupiter.",
-      "nl": "Ik heb Jupiter."
+      "nl": "Ik heb Jupiter.",
+      "it": "Ho Giove.",
+      "es": "Tengo Júpiter."
     },
     "alt": {},
     "chunks": [
@@ -2519,7 +2753,9 @@
       "de": "der Saturn ist vorhanden.",
       "en": "There is Saturn.",
       "sv": "Det finns Saturnus.",
-      "nl": "Er is Saturnus."
+      "nl": "Er is Saturnus.",
+      "it": "C'è Saturno.",
+      "es": "Hay Saturno."
     },
     "alt": {},
     "chunks": [
@@ -2540,7 +2776,9 @@
       "de": "Ich habe die Erde (Planet).",
       "en": "I have Earth (planet).",
       "sv": "Jag har jorden.",
-      "nl": "Ik heb aarde (planeet)."
+      "nl": "Ik heb aarde (planeet).",
+      "it": "Ho la Terra (pianeta).",
+      "es": "Tengo la Tierra (planeta)."
     },
     "alt": {},
     "chunks": [
@@ -2561,7 +2799,9 @@
       "de": "der Baobab ist vorhanden.",
       "en": "There is baobab.",
       "sv": "Det finns baobab.",
-      "nl": "Er is baobab."
+      "nl": "Er is baobab.",
+      "it": "C'è il baobab.",
+      "es": "Hay un baobab."
     },
     "alt": {},
     "chunks": [
@@ -2583,7 +2823,9 @@
       "de": "Ich habe die Akazie.",
       "en": "I have acacia.",
       "sv": "Jag har akacia.",
-      "nl": "Ik heb acacia."
+      "nl": "Ik heb acacia.",
+      "it": "Ho l'acacia.",
+      "es": "Tengo la acacia."
     },
     "alt": {},
     "chunks": [
@@ -2604,7 +2846,9 @@
       "de": "die Wurzel ist vorhanden.",
       "en": "There is root.",
       "sv": "Det finns rot.",
-      "nl": "Er is wortel (plant)."
+      "nl": "Er is wortel (plant).",
+      "it": "C'è la radice.",
+      "es": "Hay una raíz."
     },
     "alt": {},
     "chunks": [
@@ -2625,7 +2869,9 @@
       "de": "Ich habe den Ast.",
       "en": "I have branch.",
       "sv": "Jag har gren.",
-      "nl": "Ik heb tak."
+      "nl": "Ik heb tak.",
+      "it": "Ho il ramo.",
+      "es": "Tengo la rama."
     },
     "alt": {},
     "chunks": [
@@ -2646,7 +2892,9 @@
       "de": "das Gewürz ist vorhanden.",
       "en": "There is spice.",
       "sv": "Det finns krydda.",
-      "nl": "Er is specerij, kruid."
+      "nl": "Er is specerij, kruid.",
+      "it": "C'è la spezia.",
+      "es": "Hay una especia."
     },
     "alt": {},
     "chunks": [
@@ -2667,7 +2915,9 @@
       "de": "Ich habe den Knoblauch.",
       "en": "I have garlic.",
       "sv": "Jag har vitlök.",
-      "nl": "Ik heb knoflook."
+      "nl": "Ik heb knoflook.",
+      "it": "Ho l'aglio.",
+      "es": "Tengo el ajo."
     },
     "alt": {},
     "chunks": [
@@ -2689,7 +2939,9 @@
       "de": "der Ingwer ist vorhanden.",
       "en": "There is ginger.",
       "sv": "Det finns ingefära.",
-      "nl": "Er is gember."
+      "nl": "Er is gember.",
+      "it": "C'è lo zenzero.",
+      "es": "Hay jengibre."
     },
     "alt": {},
     "chunks": [
@@ -2710,7 +2962,9 @@
       "de": "Ich habe den Zimt.",
       "en": "I have cinnamon.",
       "sv": "Jag har kanel.",
-      "nl": "Ik heb kaneel."
+      "nl": "Ik heb kaneel.",
+      "it": "Ho la cannella.",
+      "es": "Tengo la canela."
     },
     "alt": {},
     "chunks": [
@@ -2731,7 +2985,9 @@
       "de": "die Gerste ist vorhanden.",
       "en": "There is barley.",
       "sv": "Det finns korn (spannmål).",
-      "nl": "Er is gerst."
+      "nl": "Er is gerst.",
+      "it": "C'è l'orzo.",
+      "es": "Hay cebada."
     },
     "alt": {},
     "chunks": [
@@ -2752,7 +3008,9 @@
       "de": "Ich habe den Mais.",
       "en": "I have corn, maize.",
       "sv": "Jag har majs.",
-      "nl": "Ik heb maïs."
+      "nl": "Ik heb maïs.",
+      "it": "Ho il mais.",
+      "es": "Tengo el maíz."
     },
     "alt": {},
     "chunks": [
@@ -2773,7 +3031,9 @@
       "de": "das Sorghum, Hirse ist vorhanden.",
       "en": "There is sorghum, millet.",
       "sv": "Det finns sorghum, hirs.",
-      "nl": "Er is sorghum, gierst."
+      "nl": "Er is sorghum, gierst.",
+      "it": "C'è il sorgo, il miglio.",
+      "es": "Hay sorgo, mijo."
     },
     "alt": {},
     "chunks": [
@@ -2794,7 +3054,9 @@
       "de": "Ich habe die Linse (Hülsenfrucht).",
       "en": "I have lentil.",
       "sv": "Jag har lins (böna).",
-      "nl": "Ik heb linze."
+      "nl": "Ik heb linze.",
+      "it": "Ho la lenticchia.",
+      "es": "Tengo la lenteja."
     },
     "alt": {},
     "chunks": [
@@ -2815,7 +3077,9 @@
       "de": "die Botschaft (Gebäude) ist vorhanden.",
       "en": "There is embassy.",
       "sv": "Det finns ambassad.",
-      "nl": "Er is ambassade."
+      "nl": "Er is ambassade.",
+      "it": "C'è l'ambasciata.",
+      "es": "Hay una embajada."
     },
     "alt": {},
     "chunks": [
@@ -2836,7 +3100,9 @@
       "de": "Ich habe das Abkommen.",
       "en": "I have agreement, treaty.",
       "sv": "Jag har avtal.",
-      "nl": "Ik heb verdrag, overeenkomst."
+      "nl": "Ik heb verdrag, overeenkomst.",
+      "it": "Ho l'accordo.",
+      "es": "Tengo el acuerdo."
     },
     "alt": {},
     "chunks": [
@@ -2857,7 +3123,9 @@
       "de": "der Frieden ist vorhanden.",
       "en": "There is peace.",
       "sv": "Det finns fred.",
-      "nl": "Er is vrede."
+      "nl": "Er is vrede.",
+      "it": "C'è la pace.",
+      "es": "Hay paz."
     },
     "alt": {},
     "chunks": [
@@ -2878,7 +3146,9 @@
       "de": "die E-Mail ist vorhanden.",
       "en": "There is email.",
       "sv": "Det finns e-post.",
-      "nl": "Er is e-mail."
+      "nl": "Er is e-mail.",
+      "it": "C'è l'email.",
+      "es": "Hay un correo electrónico."
     },
     "alt": {},
     "chunks": [
@@ -2899,7 +3169,9 @@
       "de": "Ich habe den Link.",
       "en": "I have link.",
       "sv": "Jag har länk.",
-      "nl": "Ik heb link."
+      "nl": "Ik heb link.",
+      "it": "Ho il link.",
+      "es": "Tengo el enlace."
     },
     "alt": {},
     "chunks": [
@@ -2920,7 +3192,9 @@
       "de": "Sich verbinden (online)!",
       "en": "Connect (online)!",
       "sv": "Ansluta (online)!",
-      "nl": "Verbinden (online)!"
+      "nl": "Verbinden (online)!",
+      "it": "Connettiti (online)!",
+      "es": "¡Conéctate (en línea)!"
     },
     "alt": {},
     "chunks": [
@@ -2941,7 +3215,9 @@
       "de": "die Katze ist vorhanden.",
       "en": "There is cat.",
       "sv": "Det finns katt.",
-      "nl": "Er is kat."
+      "nl": "Er is kat.",
+      "it": "C'è il gatto.",
+      "es": "Hay un gato."
     },
     "alt": {},
     "chunks": [
@@ -2962,7 +3238,9 @@
       "de": "Ich habe den Haustiervogel.",
       "en": "I have pet bird.",
       "sv": "Jag har burfågel.",
-      "nl": "Ik heb huisvogel."
+      "nl": "Ik heb huisvogel.",
+      "it": "Ho l'uccellino domestico.",
+      "es": "Tengo el pájaro doméstico."
     },
     "alt": {},
     "chunks": [
@@ -2984,7 +3262,9 @@
       "de": "der Zierfisch ist vorhanden.",
       "en": "There is pet fish.",
       "sv": "Det finns akvariefisk.",
-      "nl": "Er is huisdiervis."
+      "nl": "Er is huisdiervis.",
+      "it": "C'è il pesce d'acquario.",
+      "es": "Hay un pez de acuario."
     },
     "alt": {},
     "chunks": [
@@ -3006,7 +3286,9 @@
       "de": "Ich habe den Käfig.",
       "en": "I have cage.",
       "sv": "Jag har bur.",
-      "nl": "Ik heb kooi."
+      "nl": "Ik heb kooi.",
+      "it": "Ho la gabbia.",
+      "es": "Tengo la jaula."
     },
     "alt": {},
     "chunks": [
@@ -3028,7 +3310,9 @@
       "de": "der Tänzer ist vorhanden.",
       "en": "There is dancer.",
       "sv": "Det finns dansare.",
-      "nl": "Er is danser."
+      "nl": "Er is danser.",
+      "it": "C'è il ballerino.",
+      "es": "Hay un bailarín."
     },
     "alt": {},
     "chunks": [
@@ -3049,7 +3333,9 @@
       "de": "Ich habe den traditionelle Tanz.",
       "en": "I have traditional dance.",
       "sv": "Jag har traditionell dans.",
-      "nl": "Ik heb traditionele dans."
+      "nl": "Ik heb traditionele dans.",
+      "it": "Ho la danza tradizionale.",
+      "es": "Tengo el baile tradicional."
     },
     "alt": {},
     "chunks": [
@@ -3071,7 +3357,9 @@
       "de": "der Rhythmus ist vorhanden.",
       "en": "There is rhythm.",
       "sv": "Det finns rytm.",
-      "nl": "Er is ritme."
+      "nl": "Er is ritme.",
+      "it": "C'è il ritmo.",
+      "es": "Hay ritmo."
     },
     "alt": {},
     "chunks": [
@@ -3092,7 +3380,9 @@
       "de": "Ich habe die Trommel.",
       "en": "I have drum.",
       "sv": "Jag har trumma.",
-      "nl": "Ik heb trommel."
+      "nl": "Ik heb trommel.",
+      "it": "Ho il tamburo.",
+      "es": "Tengo el tambor."
     },
     "alt": {},
     "chunks": [
@@ -3113,7 +3403,9 @@
       "de": "der Astronaut ist vorhanden.",
       "en": "There is astronaut.",
       "sv": "Det finns astronaut.",
-      "nl": "Er is astronaut."
+      "nl": "Er is astronaut.",
+      "it": "C'è l'astronauta.",
+      "es": "Hay un astronauta."
     },
     "alt": {},
     "chunks": [
@@ -3134,7 +3426,9 @@
       "de": "Ich habe das Raumschiff.",
       "en": "I have spaceship.",
       "sv": "Jag har rymdskepp.",
-      "nl": "Ik heb ruimteschip."
+      "nl": "Ik heb ruimteschip.",
+      "it": "Ho la navicella spaziale.",
+      "es": "Tengo la nave espacial."
     },
     "alt": {},
     "chunks": [
@@ -3156,7 +3450,9 @@
       "de": "der Mond ist vorhanden.",
       "en": "There is moon.",
       "sv": "Det finns måne.",
-      "nl": "Er is maan."
+      "nl": "Er is maan.",
+      "it": "C'è la luna.",
+      "es": "Hay una luna."
     },
     "alt": {},
     "chunks": [
@@ -3178,7 +3474,9 @@
       "de": "Ich habe den Satellit.",
       "en": "I have satellite.",
       "sv": "Jag har satellit.",
-      "nl": "Ik heb satelliet."
+      "nl": "Ik heb satelliet.",
+      "it": "Ho il satellite.",
+      "es": "Tengo el satélite."
     },
     "alt": {},
     "chunks": [
@@ -3199,7 +3497,9 @@
       "de": "das Molekül ist vorhanden.",
       "en": "There is molecule.",
       "sv": "Det finns molekyl.",
-      "nl": "Er is molecuul."
+      "nl": "Er is molecuul.",
+      "it": "C'è la molecola.",
+      "es": "Hay una molécula."
     },
     "alt": {},
     "chunks": [
@@ -3220,7 +3520,9 @@
       "de": "Ich habe die Reaktion (chemisch).",
       "en": "I have chemical reaction.",
       "sv": "Jag har kemisk reaktion.",
-      "nl": "Ik heb chemische reactie."
+      "nl": "Ik heb chemische reactie.",
+      "it": "Ho la reazione chimica.",
+      "es": "Tengo la reacción química."
     },
     "alt": {},
     "chunks": [
@@ -3243,7 +3545,9 @@
       "de": "das Gas ist vorhanden.",
       "en": "There is gas.",
       "sv": "Det finns gas.",
-      "nl": "Er is gas."
+      "nl": "Er is gas.",
+      "it": "C'è il gas.",
+      "es": "Hay gas."
     },
     "alt": {},
     "chunks": [
@@ -3264,7 +3568,9 @@
       "de": "Ich habe die Flüssigkeit.",
       "en": "I have liquid.",
       "sv": "Jag har vätska.",
-      "nl": "Ik heb vloeistof."
+      "nl": "Ik heb vloeistof.",
+      "it": "Ho il liquido.",
+      "es": "Tengo el líquido."
     },
     "alt": {},
     "chunks": [
@@ -3285,7 +3591,9 @@
       "de": "der Elefant ist vorhanden.",
       "en": "There is elephant.",
       "sv": "Det finns elefant.",
-      "nl": "Er is olifant."
+      "nl": "Er is olifant.",
+      "it": "C'è l'elefante.",
+      "es": "Hay un elefante."
     },
     "alt": {},
     "chunks": [
@@ -3306,7 +3614,9 @@
       "de": "Ich habe die Giraffe.",
       "en": "I have giraffe.",
       "sv": "Jag har giraff.",
-      "nl": "Ik heb giraffe."
+      "nl": "Ik heb giraffe.",
+      "it": "Ho la giraffa.",
+      "es": "Tengo la jirafa."
     },
     "alt": {},
     "chunks": [
@@ -3328,7 +3638,9 @@
       "de": "das Zebra ist vorhanden.",
       "en": "There is zebra.",
       "sv": "Det finns zebra.",
-      "nl": "Er is zebra."
+      "nl": "Er is zebra.",
+      "it": "C'è la zebra.",
+      "es": "Hay una cebra."
     },
     "alt": {},
     "chunks": [
@@ -3350,7 +3662,9 @@
       "de": "Ich habe den Affe.",
       "en": "I have monkey.",
       "sv": "Jag har apa.",
-      "nl": "Ik heb aap."
+      "nl": "Ik heb aap.",
+      "it": "Ho la scimmia.",
+      "es": "Tengo el mono."
     },
     "alt": {},
     "chunks": [

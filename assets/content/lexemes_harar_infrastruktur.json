@@ -10,7 +10,9 @@
       "de": "die Hauptstraße, die Autobahn",
       "en": "highway, main road",
       "sv": "huvudväg, motorväg",
-      "nl": "hoofdweg, snelweg"
+      "nl": "hoofdweg, snelweg",
+      "it": "l'autostrada, la strada principale",
+      "es": "la autopista, la carretera principal"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Stau",
       "en": "traffic jam",
       "sv": "trafikstockning",
-      "nl": "file"
+      "nl": "file",
+      "it": "l'ingorgo",
+      "es": "el atasco, el embotellamiento"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Bau, die Konstruktion",
       "en": "construction",
       "sv": "byggande",
-      "nl": "bouw"
+      "nl": "bouw",
+      "it": "la costruzione",
+      "es": "la construcción"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Stadtplanung",
       "en": "urban planning",
       "sv": "stadsplanering",
-      "nl": "stadsplanning"
+      "nl": "stadsplanning",
+      "it": "la pianificazione urbana",
+      "es": "la planificación urbana"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Infrastruktur",
       "en": "infrastructure",
       "sv": "infrastruktur",
-      "nl": "infrastructuur"
+      "nl": "infrastructuur",
+      "it": "l'infrastruttura",
+      "es": "la infraestructura"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "bauen, errichten",
       "en": "to build, to construct",
       "sv": "bygga",
-      "nl": "bouwen"
+      "nl": "bouwen",
+      "it": "costruire, edificare",
+      "es": "construir, edificar"
     },
     "hint": {},
     "alt": {},

@@ -12,7 +12,9 @@
       "de": "Ich mag es, Wasser zu trinken.",
       "en": "I like drinking water.",
       "sv": "Jag tycker om att dricka vatten.",
-      "nl": "Ik houd van water drinken."
+      "nl": "Ik houd van water drinken.",
+      "it": "Mi piace bere acqua.",
+      "es": "Me gusta beber agua."
     },
     "alt": {},
     "chunks": [
@@ -36,7 +38,9 @@
       "de": "Ich gehe nach Hause.",
       "en": "I am going home.",
       "sv": "Jag går hem.",
-      "nl": "Ik ga naar huis."
+      "nl": "Ik ga naar huis.",
+      "it": "Vado a casa.",
+      "es": "Voy a casa."
     },
     "alt": {},
     "chunks": [

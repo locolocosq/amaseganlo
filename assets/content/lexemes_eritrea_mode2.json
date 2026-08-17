@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_md2_model","am":"ኣርኣያ ክዳን","tr":"ar'aya kidan","pos":"noun","topic":"fashion_industry","level":"TI","t":{"de":"das Model","en":"fashion model","sv":"fotomodell","nl":"fotomodel"},"emoji":"","verified":false},
-  {"id":"lex_ti_md2_rnwy","am":"መርአዪ ክዳን","tr":"mer'ayi kidan","pos":"noun","topic":"fashion_industry","level":"TI","t":{"de":"der Laufsteg","en":"runway","sv":"catwalk","nl":"catwalk"},"emoji":"","verified":false},
-  {"id":"lex_ti_md2_dsgn","am":"ቀያሲ ክዳን","tr":"qeyasi kidan","pos":"noun","topic":"fashion_industry","level":"TI","t":{"de":"der Modedesigner","en":"fashion designer","sv":"modedesigner","nl":"modeontwerper"},"emoji":"","verified":false},
-  {"id":"lex_ti_md2_trnd","am":"ሓድሽ ኣገባብ","tr":"hadish agebab","pos":"noun","topic":"fashion_industry","level":"TI","t":{"de":"der Trend","en":"trend","sv":"trend","nl":"trend"},"emoji":"","verified":false},
-  {"id":"lex_ti_md2_stle","am":"ኣገባብ ኣለባብሳ","tr":"agebab alebabisa","pos":"noun","topic":"fashion_industry","level":"TI","t":{"de":"der Stil","en":"style","sv":"stil","nl":"stijl"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_md2_model",
+    "am": "ኣርኣያ ክዳን",
+    "tr": "ar'aya kidan",
+    "pos": "noun",
+    "topic": "fashion_industry",
+    "level": "TI",
+    "t": {
+      "de": "das Model",
+      "en": "fashion model",
+      "sv": "fotomodell",
+      "nl": "fotomodel",
+      "it": "la modella",
+      "es": "la modelo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_md2_rnwy",
+    "am": "መርአዪ ክዳን",
+    "tr": "mer'ayi kidan",
+    "pos": "noun",
+    "topic": "fashion_industry",
+    "level": "TI",
+    "t": {
+      "de": "der Laufsteg",
+      "en": "runway",
+      "sv": "catwalk",
+      "nl": "catwalk",
+      "it": "la passerella",
+      "es": "la pasarela"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_md2_dsgn",
+    "am": "ቀያሲ ክዳን",
+    "tr": "qeyasi kidan",
+    "pos": "noun",
+    "topic": "fashion_industry",
+    "level": "TI",
+    "t": {
+      "de": "der Modedesigner",
+      "en": "fashion designer",
+      "sv": "modedesigner",
+      "nl": "modeontwerper",
+      "it": "lo stilista",
+      "es": "el diseñador de moda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_md2_trnd",
+    "am": "ሓድሽ ኣገባብ",
+    "tr": "hadish agebab",
+    "pos": "noun",
+    "topic": "fashion_industry",
+    "level": "TI",
+    "t": {
+      "de": "der Trend",
+      "en": "trend",
+      "sv": "trend",
+      "nl": "trend",
+      "it": "la tendenza",
+      "es": "la tendencia"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_md2_stle",
+    "am": "ኣገባብ ኣለባብሳ",
+    "tr": "agebab alebabisa",
+    "pos": "noun",
+    "topic": "fashion_industry",
+    "level": "TI",
+    "t": {
+      "de": "der Stil",
+      "en": "style",
+      "sv": "stil",
+      "nl": "stijl",
+      "it": "lo stile",
+      "es": "el estilo"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

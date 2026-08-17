@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_mrt_asa2","am":"ዓሳ","tr":"'asa","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"der Fisch","en":"fish","sv":"fisk","nl":"vis"},"emoji":"🐟","verified":false},
-  {"id":"lex_ti_mrt_shrq","am":"ሻርክ","tr":"shariki","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"der Hai","en":"shark","sv":"haj","nl":"haai"},"emoji":"🦈","verified":false},
-  {"id":"lex_ti_mrt_dlfn","am":"ደልፊን","tr":"delfin","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"der Delfin","en":"dolphin","sv":"delfin","nl":"dolfijn"},"emoji":"🐬","verified":false},
-  {"id":"lex_ti_mrt_ankm","am":"ስሙኽ ዓሳ","tr":"simukh 'asa","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"der Krake","en":"octopus","sv":"bläckfisk","nl":"octopus"},"emoji":"🐙","verified":false},
-  {"id":"lex_ti_mrt_srtn","am":"ሸርጣን","tr":"sheritan","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"die Krabbe","en":"crab","sv":"krabba","nl":"krab"},"emoji":"🦀","verified":false},
-  {"id":"lex_ti_mrt_qrdo","am":"ገርወይቲ ዓሳ","tr":"gerweyti 'asa","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"die Garnele","en":"shrimp","sv":"räka","nl":"garnaal"},"emoji":"🦐","verified":false},
-  {"id":"lex_ti_mrt_qsli","am":"ኣንበሪ ማይ","tr":"anberi mai","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"die Robbe","en":"seal","sv":"säl","nl":"zeehond"},"emoji":"🦭","verified":false},
-  {"id":"lex_ti_mrt_qrl","am":"ኮራል","tr":"koral","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"die Koralle","en":"coral","sv":"korall","nl":"koraal"},"emoji":"🪸","verified":false},
-  {"id":"lex_ti_mrt_ambi","am":"ዓባይ ዓሳ","tr":"'abay 'asa","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"der Wal","en":"whale","sv":"val","nl":"walvis"},"emoji":"🐳","verified":false},
-  {"id":"lex_ti_mrt_kslw","am":"ናይ ማይ ልቢ","tr":"nay mai kelbi","pos":"noun","topic":"marine_life","level":"TI","t":{"de":"die Schildkröte (Meer)","en":"turtle (sea)","sv":"sköldpadda (hav)","nl":"schildpad (zee)"},"emoji":"🐢","verified":false}
+  {
+    "id": "lex_ti_mrt_asa2",
+    "am": "ዓሳ",
+    "tr": "'asa",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "der Fisch",
+      "en": "fish",
+      "sv": "fisk",
+      "nl": "vis",
+      "it": "il pesce",
+      "es": "el pez"
+    },
+    "emoji": "🐟",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_shrq",
+    "am": "ሻርክ",
+    "tr": "shariki",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "der Hai",
+      "en": "shark",
+      "sv": "haj",
+      "nl": "haai",
+      "it": "lo squalo",
+      "es": "el tiburón"
+    },
+    "emoji": "🦈",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_dlfn",
+    "am": "ደልፊን",
+    "tr": "delfin",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "der Delfin",
+      "en": "dolphin",
+      "sv": "delfin",
+      "nl": "dolfijn",
+      "it": "il delfino",
+      "es": "el delfín"
+    },
+    "emoji": "🐬",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_ankm",
+    "am": "ስሙኽ ዓሳ",
+    "tr": "simukh 'asa",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "der Krake",
+      "en": "octopus",
+      "sv": "bläckfisk",
+      "nl": "octopus",
+      "it": "il polpo",
+      "es": "el pulpo"
+    },
+    "emoji": "🐙",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_srtn",
+    "am": "ሸርጣን",
+    "tr": "sheritan",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "die Krabbe",
+      "en": "crab",
+      "sv": "krabba",
+      "nl": "krab",
+      "it": "il granchio",
+      "es": "el cangrejo"
+    },
+    "emoji": "🦀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_qrdo",
+    "am": "ገርወይቲ ዓሳ",
+    "tr": "gerweyti 'asa",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "die Garnele",
+      "en": "shrimp",
+      "sv": "räka",
+      "nl": "garnaal",
+      "it": "il gambero",
+      "es": "el camarón"
+    },
+    "emoji": "🦐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_qsli",
+    "am": "ኣንበሪ ማይ",
+    "tr": "anberi mai",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "die Robbe",
+      "en": "seal",
+      "sv": "säl",
+      "nl": "zeehond",
+      "it": "la foca",
+      "es": "la foca"
+    },
+    "emoji": "🦭",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_qrl",
+    "am": "ኮራል",
+    "tr": "koral",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "die Koralle",
+      "en": "coral",
+      "sv": "korall",
+      "nl": "koraal",
+      "it": "il corallo",
+      "es": "el coral"
+    },
+    "emoji": "🪸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_ambi",
+    "am": "ዓባይ ዓሳ",
+    "tr": "'abay 'asa",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "der Wal",
+      "en": "whale",
+      "sv": "val",
+      "nl": "walvis",
+      "it": "la balena",
+      "es": "la ballena"
+    },
+    "emoji": "🐳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrt_kslw",
+    "am": "ናይ ማይ ልቢ",
+    "tr": "nay mai kelbi",
+    "pos": "noun",
+    "topic": "marine_life",
+    "level": "TI",
+    "t": {
+      "de": "die Schildkröte (Meer)",
+      "en": "turtle (sea)",
+      "sv": "sköldpadda (hav)",
+      "nl": "schildpad (zee)",
+      "it": "la tartaruga (marina)",
+      "es": "la tortuga (marina)"
+    },
+    "emoji": "🐢",
+    "verified": false
+  }
 ]

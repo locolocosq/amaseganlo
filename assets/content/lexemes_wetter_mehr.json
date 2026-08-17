@@ -10,7 +10,9 @@
       "de": "der Sturm",
       "en": "storm",
       "sv": "storm",
-      "nl": "storm"
+      "nl": "storm",
+      "it": "la tempesta",
+      "es": "la tormenta"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Blitz",
       "en": "lightning",
       "sv": "blixt",
-      "nl": "bliksem"
+      "nl": "bliksem",
+      "it": "il fulmine",
+      "es": "el relámpago"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Donner",
       "en": "thunder",
       "sv": "åska",
-      "nl": "donder"
+      "nl": "donder",
+      "it": "il tuono",
+      "es": "el trueno"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "feucht",
       "en": "humid",
       "sv": "fuktig",
-      "nl": "vochtig"
+      "nl": "vochtig",
+      "it": "umido",
+      "es": "húmedo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Nebel",
       "en": "fog",
       "sv": "dimma",
-      "nl": "mist"
+      "nl": "mist",
+      "it": "la nebbia",
+      "es": "la niebla"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Hagel, das Eis",
       "en": "hail, ice",
       "sv": "hagel, is",
-      "nl": "hagel, ijs"
+      "nl": "hagel, ijs",
+      "it": "la grandine, il ghiaccio",
+      "es": "el granizo, el hielo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Nieselregen",
       "en": "drizzle",
       "sv": "duggregn",
-      "nl": "motregen"
+      "nl": "motregen",
+      "it": "la pioggerella",
+      "es": "la llovizna"
     },
     "hint": {},
     "alt": {},

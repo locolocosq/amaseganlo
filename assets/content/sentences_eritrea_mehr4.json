@@ -11,7 +11,9 @@
       "de": "Es gibt das Buch.",
       "en": "There is book.",
       "sv": "Det finns bok.",
-      "nl": "Er is boek."
+      "nl": "Er is boek.",
+      "it": "C'è il libro.",
+      "es": "Hay un libro."
     },
     "alt": {},
     "chunks": [
@@ -32,7 +34,9 @@
       "de": "Es gibt die Versicherung.",
       "en": "There is insurance.",
       "sv": "Det finns försäkring.",
-      "nl": "Er is verzekering."
+      "nl": "Er is verzekering.",
+      "it": "C'è l'assicurazione.",
+      "es": "Hay un seguro."
     },
     "alt": {},
     "chunks": [
@@ -53,7 +57,9 @@
       "de": "Es gibt der Umzugskarton.",
       "en": "There is moving box.",
       "sv": "Det finns flyttlåda.",
-      "nl": "Er is verhuisdoos."
+      "nl": "Er is verhuisdoos.",
+      "it": "C'è lo scatolone del trasloco.",
+      "es": "Hay una caja de mudanza."
     },
     "alt": {},
     "chunks": [
@@ -74,7 +80,9 @@
       "de": "Es gibt die Schwangerschaft.",
       "en": "There is pregnancy.",
       "sv": "Det finns graviditet.",
-      "nl": "Er is zwangerschap."
+      "nl": "Er is zwangerschap.",
+      "it": "C'è la gravidanza.",
+      "es": "Hay un embarazo."
     },
     "alt": {},
     "chunks": [
@@ -95,7 +103,9 @@
       "de": "Es gibt das Weben.",
       "en": "There is weaving.",
       "sv": "Det finns vävning.",
-      "nl": "Er is weven."
+      "nl": "Er is weven.",
+      "it": "C'è la tessitura.",
+      "es": "Hay tejido."
     },
     "alt": {},
     "chunks": [
@@ -116,7 +126,9 @@
       "de": "Es gibt links.",
       "en": "There is left.",
       "sv": "Det finns vänster.",
-      "nl": "Er is links."
+      "nl": "Er is links.",
+      "it": "C'è la sinistra.",
+      "es": "Hay una izquierda."
     },
     "alt": {},
     "chunks": [
@@ -137,7 +149,9 @@
       "de": "Es gibt das College.",
       "en": "There is college, university.",
       "sv": "Det finns universitet, högskola.",
-      "nl": "Er is universiteit, hogeschool."
+      "nl": "Er is universiteit, hogeschool.",
+      "it": "C'è il college, l'università.",
+      "es": "Hay una universidad, un campus."
     },
     "alt": {},
     "chunks": [
@@ -158,7 +172,9 @@
       "de": "Es gibt der Geldautomat.",
       "en": "There is ATM.",
       "sv": "Det finns bankomat.",
-      "nl": "Er is geldautomaat."
+      "nl": "Er is geldautomaat.",
+      "it": "C'è il bancomat.",
+      "es": "Hay un cajero automático."
     },
     "alt": {},
     "chunks": [
@@ -179,7 +195,9 @@
       "de": "Es gibt der Picknickkorb.",
       "en": "There is picnic basket.",
       "sv": "Det finns picknickkorg.",
-      "nl": "Er is picknickmand."
+      "nl": "Er is picknickmand.",
+      "it": "C'è il cestino da picnic.",
+      "es": "Hay una cesta de picnic."
     },
     "alt": {},
     "chunks": [
@@ -200,7 +218,9 @@
       "de": "Es gibt der Wanderweg.",
       "en": "There is hiking trail.",
       "sv": "Det finns vandringsled.",
-      "nl": "Er is wandelpad."
+      "nl": "Er is wandelpad.",
+      "it": "C'è il sentiero escursionistico.",
+      "es": "Hay un sendero de senderismo."
     },
     "alt": {},
     "chunks": [
@@ -221,7 +241,9 @@
       "de": "Es gibt der Mars.",
       "en": "There is Mars.",
       "sv": "Det finns Mars.",
-      "nl": "Er is Mars."
+      "nl": "Er is Mars.",
+      "it": "C'è Marte.",
+      "es": "Hay Marte."
     },
     "alt": {},
     "chunks": [
@@ -242,7 +264,9 @@
       "de": "Es gibt die Palme.",
       "en": "There is palm tree, coconut.",
       "sv": "Det finns palm, kokosnöt.",
-      "nl": "Er is palmboom, kokosnoot."
+      "nl": "Er is palmboom, kokosnoot.",
+      "it": "C'è la palma, il cocco.",
+      "es": "Hay una palmera, un coco."
     },
     "alt": {},
     "chunks": [
@@ -263,7 +287,9 @@
       "de": "Es gibt der Pfeffer.",
       "en": "There is pepper (spice).",
       "sv": "Det finns peppar.",
-      "nl": "Er is peper (specerij)."
+      "nl": "Er is peper (specerij).",
+      "it": "C'è il pepe.",
+      "es": "Hay pimienta."
     },
     "alt": {},
     "chunks": [
@@ -284,7 +310,9 @@
       "de": "Es gibt der Reis.",
       "en": "There is rice.",
       "sv": "Det finns ris.",
-      "nl": "Er is rijst."
+      "nl": "Er is rijst.",
+      "it": "C'è il riso.",
+      "es": "Hay arroz."
     },
     "alt": {},
     "chunks": [
@@ -305,7 +333,9 @@
       "de": "Es gibt der Botschafter.",
       "en": "There is ambassador.",
       "sv": "Det finns ambassadör.",
-      "nl": "Er is ambassadeur."
+      "nl": "Er is ambassadeur.",
+      "it": "C'è l'ambasciatore.",
+      "es": "Hay un embajador."
     },
     "alt": {},
     "chunks": [
@@ -326,7 +356,9 @@
       "de": "Es gibt die Webseite.",
       "en": "There is website.",
       "sv": "Det finns webbplats.",
-      "nl": "Er is website."
+      "nl": "Er is website.",
+      "it": "C'è il sito web.",
+      "es": "Hay un sitio web."
     },
     "alt": {},
     "chunks": [
@@ -347,7 +379,9 @@
       "de": "Es gibt der Hund.",
       "en": "There is dog.",
       "sv": "Det finns hund.",
-      "nl": "Er is hond."
+      "nl": "Er is hond.",
+      "it": "C'è il cane.",
+      "es": "Hay un perro."
     },
     "alt": {},
     "chunks": [
@@ -368,7 +402,9 @@
       "de": "Es gibt tanzen.",
       "en": "There is to dance.",
       "sv": "Det finns att dansa.",
-      "nl": "Er is dansen."
+      "nl": "Er is dansen.",
+      "it": "C'è il ballo.",
+      "es": "Hay baile."
     },
     "alt": {},
     "chunks": [

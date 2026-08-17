@@ -1,12 +1,182 @@
 [
-  {"id":"lex_ti_kl2_pjm","am":"ናይ ድቃስ ክዳን","tr":"nay diqas kidan","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"der Pyjama","en":"pajamas","sv":"pyjamas","nl":"pyjama"},"emoji":"","verified":false},
-  {"id":"lex_ti_kl2_ntgr","am":"ውሽጣዊ ክዳን","tr":"wishitawi kidan","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"die Unterwäsche","en":"underwear","sv":"underkläder","nl":"ondergoed"},"emoji":"","verified":false},
-  {"id":"lex_ti_kl2_zenb","am":"ናይ ዝናብ ካፖርት","tr":"nay zinab kaport","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"der Regenmantel","en":"raincoat","sv":"regnrock","nl":"regenjas"},"emoji":"🧥","verified":false},
-  {"id":"lex_ti_kl2_astl","am":"ናይ እግሪ ጫማ","tr":"nay igri chama ‘iluk","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"der Stiefel","en":"boot","sv":"stövel","nl":"laars"},"emoji":"🥾","verified":false},
-  {"id":"lex_ti_kl2_sndl","am":"ሳንዳል","tr":"sandal","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"die Sandale","en":"sandal","sv":"sandal","nl":"sandaal"},"emoji":"👡","verified":false},
-  {"id":"lex_ti_kl2_snz","am":"ስሉስ ክዳን","tr":"silus kidan","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"der Anzug","en":"suit","sv":"kostym","nl":"pak"},"emoji":"🤵","verified":false},
-  {"id":"lex_ti_kl2_kolo","am":"ቆልፎ","tr":"qolfo","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"der Rock","en":"skirt","sv":"kjol","nl":"rok"},"emoji":"","verified":false},
-  {"id":"lex_ti_kl2_pllvr","am":"ናይ ክረምቲ ማልያ","tr":"nay kiremti malya","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"der Pullover","en":"sweater","sv":"tröja","nl":"trui"},"emoji":"🧶","verified":false},
-  {"id":"lex_ti_kl2_wst2","am":"ብዘይ ኢድ ጃኬት","tr":"bizey 'idi jaket","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"die Weste","en":"vest","sv":"väst","nl":"vest"},"emoji":"","verified":false},
-  {"id":"lex_ti_kl2_shrz","am":"ናይ ክሽነት ልብሲ","tr":"nay kishinet libisi","pos":"noun","topic":"clothing_more","level":"TI","t":{"de":"die Schürze","en":"apron","sv":"förkläde","nl":"schort"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_kl2_pjm",
+    "am": "ናይ ድቃስ ክዳን",
+    "tr": "nay diqas kidan",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "der Pyjama",
+      "en": "pajamas",
+      "sv": "pyjamas",
+      "nl": "pyjama",
+      "it": "il pigiama",
+      "es": "el pijama"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_ntgr",
+    "am": "ውሽጣዊ ክዳን",
+    "tr": "wishitawi kidan",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "die Unterwäsche",
+      "en": "underwear",
+      "sv": "underkläder",
+      "nl": "ondergoed",
+      "it": "la biancheria intima",
+      "es": "la ropa interior"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_zenb",
+    "am": "ናይ ዝናብ ካፖርት",
+    "tr": "nay zinab kaport",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "der Regenmantel",
+      "en": "raincoat",
+      "sv": "regnrock",
+      "nl": "regenjas",
+      "it": "l'impermeabile",
+      "es": "el impermeable"
+    },
+    "emoji": "🧥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_astl",
+    "am": "ናይ እግሪ ጫማ",
+    "tr": "nay igri chama ‘iluk",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "der Stiefel",
+      "en": "boot",
+      "sv": "stövel",
+      "nl": "laars",
+      "it": "lo stivale",
+      "es": "la bota"
+    },
+    "emoji": "🥾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_sndl",
+    "am": "ሳንዳል",
+    "tr": "sandal",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "die Sandale",
+      "en": "sandal",
+      "sv": "sandal",
+      "nl": "sandaal",
+      "it": "il sandalo",
+      "es": "la sandalia"
+    },
+    "emoji": "👡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_snz",
+    "am": "ስሉስ ክዳን",
+    "tr": "silus kidan",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "der Anzug",
+      "en": "suit",
+      "sv": "kostym",
+      "nl": "pak",
+      "it": "il completo",
+      "es": "el traje"
+    },
+    "emoji": "🤵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_kolo",
+    "am": "ቆልፎ",
+    "tr": "qolfo",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "der Rock",
+      "en": "skirt",
+      "sv": "kjol",
+      "nl": "rok",
+      "it": "la gonna",
+      "es": "la falda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_pllvr",
+    "am": "ናይ ክረምቲ ማልያ",
+    "tr": "nay kiremti malya",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "der Pullover",
+      "en": "sweater",
+      "sv": "tröja",
+      "nl": "trui",
+      "it": "il maglione",
+      "es": "el jersey"
+    },
+    "emoji": "🧶",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_wst2",
+    "am": "ብዘይ ኢድ ጃኬት",
+    "tr": "bizey 'idi jaket",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "die Weste",
+      "en": "vest",
+      "sv": "väst",
+      "nl": "vest",
+      "it": "il gilet",
+      "es": "el chaleco"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kl2_shrz",
+    "am": "ናይ ክሽነት ልብሲ",
+    "tr": "nay kishinet libisi",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "TI",
+    "t": {
+      "de": "die Schürze",
+      "en": "apron",
+      "sv": "förkläde",
+      "nl": "schort",
+      "it": "il grembiule",
+      "es": "el delantal"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

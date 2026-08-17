@@ -11,7 +11,9 @@
       "de": "Er ist gut / wohl.",
       "en": "He is fine / well.",
       "sv": "Han är bra / väl.",
-      "nl": "Hij is goed / wel."
+      "nl": "Hij is goed / wel.",
+      "it": "Lui sta bene.",
+      "es": "Él está bien."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "Sie ist gut / wohl.",
       "en": "She is fine / well.",
       "sv": "Hon är bra / väl.",
-      "nl": "Zij is goed / wel."
+      "nl": "Zij is goed / wel.",
+      "it": "Lei sta bene.",
+      "es": "Ella está bien."
     },
     "alt": {},
     "chunks": [
@@ -55,7 +59,9 @@
       "de": "Es ist sehr gut / wohl.",
       "en": "It is very fine / well.",
       "sv": "Han är verkligen bra / väl.",
-      "nl": "Het is heel goed / wel."
+      "nl": "Het is heel goed / wel.",
+      "it": "Sta molto bene.",
+      "es": "Está muy bien."
     },
     "alt": {},
     "chunks": [
@@ -77,7 +83,9 @@
       "de": "der Name ist vorhanden.",
       "en": "There is name.",
       "sv": "Det finns namnet.",
-      "nl": "Er is de naam."
+      "nl": "Er is de naam.",
+      "it": "C'è un nome.",
+      "es": "Hay un nombre."
     },
     "alt": {},
     "chunks": [
@@ -98,7 +106,9 @@
       "de": "Ich habe Äthiopien.",
       "en": "I have Ethiopia.",
       "sv": "Jag har Etiopien.",
-      "nl": "Ik heb Ethiopië."
+      "nl": "Ik heb Ethiopië.",
+      "it": "Ho l'Etiopia.",
+      "es": "Tengo Etiopía."
     },
     "alt": {},
     "chunks": [
@@ -119,7 +129,9 @@
       "de": "Ich möchte trinken.",
       "en": "I want to drink.",
       "sv": "Jag vill dricka.",
-      "nl": "Ik wil drinken."
+      "nl": "Ik wil drinken.",
+      "it": "Voglio bere.",
+      "es": "Quiero beber."
     },
     "alt": {},
     "chunks": [
@@ -140,7 +152,9 @@
       "de": "Essen mag ich.",
       "en": "I like to eat.",
       "sv": "Jag gillar att äta.",
-      "nl": "Ik hou van eten."
+      "nl": "Ik hou van eten.",
+      "it": "Mi piace mangiare.",
+      "es": "Me gusta comer."
     },
     "alt": {},
     "chunks": [
@@ -161,7 +175,9 @@
       "de": "Ich möchte essen.",
       "en": "I want to eat.",
       "sv": "Jag vill äta.",
-      "nl": "Ik wil eten."
+      "nl": "Ik wil eten.",
+      "it": "Voglio mangiare.",
+      "es": "Quiero comer."
     },
     "alt": {},
     "chunks": [
@@ -182,7 +198,9 @@
       "de": "der Honig ist vorhanden.",
       "en": "There is honey.",
       "sv": "Det finns honung.",
-      "nl": "Er is honing."
+      "nl": "Er is honing.",
+      "it": "C'è del miele.",
+      "es": "Hay miel."
     },
     "alt": {},
     "chunks": [

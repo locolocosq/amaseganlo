@@ -10,7 +10,9 @@
       "de": "du gehst (männlich)",
       "en": "you go (masc.)",
       "sv": "du går (maskulinum)",
-      "nl": "jij gaat (mannelijk)"
+      "nl": "jij gaat (mannelijk)",
+      "it": "tu vai (maschile)",
+      "es": "tú vas (masculino)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "du gehst (weiblich)",
       "en": "you go (fem.)",
       "sv": "du går (femininum)",
-      "nl": "jij gaat (vrouwelijk)"
+      "nl": "jij gaat (vrouwelijk)",
+      "it": "tu vai (femminile)",
+      "es": "tú vas (femenino)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "er geht",
       "en": "he goes",
       "sv": "han går",
-      "nl": "hij gaat"
+      "nl": "hij gaat",
+      "it": "lui va",
+      "es": "él va"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "sie geht",
       "en": "she goes",
       "sv": "hon går",
-      "nl": "zij gaat"
+      "nl": "zij gaat",
+      "it": "lei va",
+      "es": "ella va"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "er ging",
       "en": "he went",
       "sv": "han gick",
-      "nl": "hij ging"
+      "nl": "hij ging",
+      "it": "lui è andato",
+      "es": "él fue"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "sie ging",
       "en": "she went",
       "sv": "hon gick",
-      "nl": "zij ging"
+      "nl": "zij ging",
+      "it": "lei è andata",
+      "es": "ella fue"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "sein, seine (Possessivpronomen)",
       "en": "his",
       "sv": "hans",
-      "nl": "zijn"
+      "nl": "zijn",
+      "it": "suo, il suo (di lui)",
+      "es": "su, el suyo (de él)"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "ihr, ihre (Possessivpronomen)",
       "en": "her",
       "sv": "hennes",
-      "nl": "haar"
+      "nl": "haar",
+      "it": "suo, il suo (di lei)",
+      "es": "su, el suyo (de ella)"
     },
     "hint": {},
     "alt": {},

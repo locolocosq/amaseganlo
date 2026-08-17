@@ -10,7 +10,9 @@
       "de": "die künstliche Intelligenz",
       "en": "artificial intelligence",
       "sv": "artificiell intelligens",
-      "nl": "kunstmatige intelligentie"
+      "nl": "kunstmatige intelligentie",
+      "it": "l'intelligenza artificiale",
+      "es": "la inteligencia artificial"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Daten",
       "en": "data",
       "sv": "data",
-      "nl": "gegevens"
+      "nl": "gegevens",
+      "it": "i dati",
+      "es": "los datos"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Passwort",
       "en": "password",
       "sv": "lösenord",
-      "nl": "wachtwoord"
+      "nl": "wachtwoord",
+      "it": "la password",
+      "es": "la contraseña"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Website",
       "en": "website",
       "sv": "webbplats",
-      "nl": "website"
+      "nl": "website",
+      "it": "il sito web",
+      "es": "el sitio web"
     },
     "hint": {},
     "alt": {},

@@ -10,7 +10,9 @@
       "de": "der Kühlschrank",
       "en": "refrigerator",
       "sv": "kylskåp",
-      "nl": "koelkast"
+      "nl": "koelkast",
+      "it": "il frigorifero",
+      "es": "el refrigerador"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Ofen, Herd",
       "en": "oven, stove",
       "sv": "ugn, spis",
-      "nl": "oven, fornuis"
+      "nl": "oven, fornuis",
+      "it": "il forno, la cucina",
+      "es": "el horno, la cocina"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Gold",
       "en": "gold",
       "sv": "guld",
-      "nl": "goud"
+      "nl": "goud",
+      "it": "l'oro",
+      "es": "el oro"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Silber",
       "en": "silver",
       "sv": "silver",
-      "nl": "zilver"
+      "nl": "zilver",
+      "it": "l'argento",
+      "es": "la plata"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Bier",
       "en": "beer",
       "sv": "öl",
-      "nl": "bier"
+      "nl": "bier",
+      "it": "la birra",
+      "es": "la cerveza"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Wein",
       "en": "wine",
       "sv": "vin",
-      "nl": "wijn"
+      "nl": "wijn",
+      "it": "il vino",
+      "es": "el vino"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Saft",
       "en": "juice",
       "sv": "juice",
-      "nl": "sap"
+      "nl": "sap",
+      "it": "il succo",
+      "es": "el jugo"
     },
     "hint": {},
     "alt": {},

@@ -1,26 +1,434 @@
 [
-  {"id":"lex_ti_memhr","am":"መምህር","tr":"memhir","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Lehrer","en":"teacher","sv":"lärare","nl":"leraar"},"emoji":"👨‍🏫","verified":false},
-  {"id":"lex_ti_hakim","am":"ሓኪም","tr":"hakim","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Arzt","en":"doctor","sv":"läkare","nl":"arts"},"emoji":"👨‍⚕️","verified":false},
-  {"id":"lex_ti_neurse","am":"ነርስ","tr":"nersi","pos":"noun","topic":"professions","level":"TI","t":{"de":"die Krankenschwester","en":"nurse","sv":"sjuksköterska","nl":"verpleegkundige"},"emoji":"","verified":false},
-  {"id":"lex_ti_gebari","am":"ሓረስታይ","tr":"harestay","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Bauer","en":"farmer","sv":"bonde","nl":"boer"},"emoji":"👨‍🌾","verified":false},
-  {"id":"lex_ti_negadi","am":"ነጋዳይ","tr":"negaday","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Händler","en":"trader, merchant","sv":"handlare","nl":"handelaar"},"emoji":"","verified":false},
-  {"id":"lex_ti_sanay","am":"ሰራሕተኛ","tr":"serahtegna","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Arbeiter","en":"worker","sv":"arbetare","nl":"werknemer"},"emoji":"","verified":false},
-  {"id":"lex_ti_shoferi","am":"ሹፌር","tr":"shufer","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Fahrer","en":"driver","sv":"chaufför","nl":"chauffeur"},"emoji":"🚗","verified":false},
-  {"id":"lex_ti_poliswa","am":"ፖሊስ","tr":"polis","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Polizist","en":"police officer","sv":"polis","nl":"politieagent"},"emoji":"👮","verified":false},
-  {"id":"lex_ti_serawit","am":"ወተሃደር","tr":"wetehader","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Soldat","en":"soldier","sv":"soldat","nl":"soldaat"},"emoji":"🪖","verified":false},
-  {"id":"lex_ti_nedafi","am":"ነዳዲ ኣጥፋኢ","tr":"nedadi atfa'i","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Feuerwehrmann","en":"firefighter","sv":"brandman","nl":"brandweerman"},"emoji":"🧑‍🚒","verified":false},
-  {"id":"lex_ti_bandi","am":"ገበቲ ገንዘብ","tr":"gebeti genzeb","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Bankangestellte","en":"bank employee","sv":"banktjänsteman","nl":"bankmedewerker"},"emoji":"","verified":false},
-  {"id":"lex_ti_nedaki","am":"ጸሓፊ","tr":"tsehafi","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Schriftsteller, Sekretär","en":"writer, secretary","sv":"författare, sekreterare","nl":"schrijver, secretaris"},"emoji":"","verified":false},
-  {"id":"lex_ti_gnbay","am":"ገንባይ","tr":"genbay","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Bauarbeiter","en":"builder","sv":"byggare","nl":"bouwvakker"},"emoji":"👷","verified":false},
-  {"id":"lex_ti_nsahi","am":"ሰዓሊ","tr":"se'ali","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Maler, Künstler","en":"painter, artist","sv":"målare, konstnär","nl":"schilder, kunstenaar"},"emoji":"🎨","verified":false},
-  {"id":"lex_ti_muziqegna","am":"ሙዚቀኛ","tr":"muziqegna","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Musiker","en":"musician","sv":"musiker","nl":"muzikant"},"emoji":"🎵","verified":false},
-  {"id":"lex_ti_tebay","am":"ጠባቢ","tr":"t'ebabi","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Koch","en":"cook, chef","sv":"kock","nl":"kok"},"emoji":"👨‍🍳","verified":false},
-  {"id":"lex_ti_afetsari","am":"ኣፍራሲ","tr":"afrasi","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Frisör","en":"hairdresser","sv":"frisör","nl":"kapper"},"emoji":"💇","verified":false},
-  {"id":"lex_ti_nagadi2","am":"ጠበቓ","tr":"t'ebeqa","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Anwalt","en":"lawyer","sv":"advokat","nl":"advocaat"},"emoji":"⚖️","verified":false},
-  {"id":"lex_ti_kahin","am":"ካህን","tr":"kahin","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Priester","en":"priest","sv":"präst","nl":"priester"},"emoji":"","verified":false},
-  {"id":"lex_ti_imam","am":"ኢማም","tr":"imam","pos":"noun","topic":"professions","level":"TI","t":{"de":"der Imam","en":"imam","sv":"imam","nl":"imam"},"emoji":"","verified":false},
-  {"id":"lex_ti_selfi","am":"ስራሕ","tr":"sirah","pos":"noun","topic":"professions","level":"TI","t":{"de":"die Arbeit, der Job","en":"work, job","sv":"arbete, jobb","nl":"werk, baan"},"emoji":"💼","verified":false},
-  {"id":"lex_ti_kompani","am":"ትካል","tr":"tikal","pos":"noun","topic":"professions","level":"TI","t":{"de":"die Firma","en":"company","sv":"företag","nl":"bedrijf"},"emoji":"🏢","verified":false},
-  {"id":"lex_ti_ofisi","am":"ቤት ጽሕፈት","tr":"bet tsihfet","pos":"noun","topic":"professions","level":"TI","t":{"de":"das Büro","en":"office","sv":"kontor","nl":"kantoor"},"emoji":"","verified":false},
-  {"id":"lex_ti_dmoz","am":"ደሞዝ","tr":"demoz","pos":"noun","topic":"professions","level":"TI","t":{"de":"das Gehalt","en":"salary","sv":"lön","nl":"salaris"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_memhr",
+    "am": "መምህር",
+    "tr": "memhir",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Lehrer",
+      "en": "teacher",
+      "sv": "lärare",
+      "nl": "leraar",
+      "it": "l'insegnante",
+      "es": "el profesor"
+    },
+    "emoji": "👨‍🏫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hakim",
+    "am": "ሓኪም",
+    "tr": "hakim",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Arzt",
+      "en": "doctor",
+      "sv": "läkare",
+      "nl": "arts",
+      "it": "il dottore",
+      "es": "el doctor"
+    },
+    "emoji": "👨‍⚕️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_neurse",
+    "am": "ነርስ",
+    "tr": "nersi",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "die Krankenschwester",
+      "en": "nurse",
+      "sv": "sjuksköterska",
+      "nl": "verpleegkundige",
+      "it": "l'infermiera",
+      "es": "la enfermera"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gebari",
+    "am": "ሓረስታይ",
+    "tr": "harestay",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Bauer",
+      "en": "farmer",
+      "sv": "bonde",
+      "nl": "boer",
+      "it": "il contadino",
+      "es": "el agricultor"
+    },
+    "emoji": "👨‍🌾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_negadi",
+    "am": "ነጋዳይ",
+    "tr": "negaday",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Händler",
+      "en": "trader, merchant",
+      "sv": "handlare",
+      "nl": "handelaar",
+      "it": "il commerciante",
+      "es": "el comerciante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sanay",
+    "am": "ሰራሕተኛ",
+    "tr": "serahtegna",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Arbeiter",
+      "en": "worker",
+      "sv": "arbetare",
+      "nl": "werknemer",
+      "it": "l'operaio",
+      "es": "el trabajador"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shoferi",
+    "am": "ሹፌር",
+    "tr": "shufer",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Fahrer",
+      "en": "driver",
+      "sv": "chaufför",
+      "nl": "chauffeur",
+      "it": "l'autista",
+      "es": "el conductor"
+    },
+    "emoji": "🚗",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_poliswa",
+    "am": "ፖሊስ",
+    "tr": "polis",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Polizist",
+      "en": "police officer",
+      "sv": "polis",
+      "nl": "politieagent",
+      "it": "il poliziotto",
+      "es": "el policía"
+    },
+    "emoji": "👮",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_serawit",
+    "am": "ወተሃደር",
+    "tr": "wetehader",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Soldat",
+      "en": "soldier",
+      "sv": "soldat",
+      "nl": "soldaat",
+      "it": "il soldato",
+      "es": "el soldado"
+    },
+    "emoji": "🪖",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nedafi",
+    "am": "ነዳዲ ኣጥፋኢ",
+    "tr": "nedadi atfa'i",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Feuerwehrmann",
+      "en": "firefighter",
+      "sv": "brandman",
+      "nl": "brandweerman",
+      "it": "il pompiere",
+      "es": "el bombero"
+    },
+    "emoji": "🧑‍🚒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bandi",
+    "am": "ገበቲ ገንዘብ",
+    "tr": "gebeti genzeb",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Bankangestellte",
+      "en": "bank employee",
+      "sv": "banktjänsteman",
+      "nl": "bankmedewerker",
+      "it": "l'impiegato di banca",
+      "es": "el empleado bancario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nedaki",
+    "am": "ጸሓፊ",
+    "tr": "tsehafi",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Schriftsteller, Sekretär",
+      "en": "writer, secretary",
+      "sv": "författare, sekreterare",
+      "nl": "schrijver, secretaris",
+      "it": "lo scrittore, il segretario",
+      "es": "el escritor, el secretario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gnbay",
+    "am": "ገንባይ",
+    "tr": "genbay",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Bauarbeiter",
+      "en": "builder",
+      "sv": "byggare",
+      "nl": "bouwvakker",
+      "it": "il muratore",
+      "es": "el albañil"
+    },
+    "emoji": "👷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nsahi",
+    "am": "ሰዓሊ",
+    "tr": "se'ali",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Maler, Künstler",
+      "en": "painter, artist",
+      "sv": "målare, konstnär",
+      "nl": "schilder, kunstenaar",
+      "it": "il pittore, l'artista",
+      "es": "el pintor, el artista"
+    },
+    "emoji": "🎨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_muziqegna",
+    "am": "ሙዚቀኛ",
+    "tr": "muziqegna",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Musiker",
+      "en": "musician",
+      "sv": "musiker",
+      "nl": "muzikant",
+      "it": "il musicista",
+      "es": "el músico"
+    },
+    "emoji": "🎵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tebay",
+    "am": "ጠባቢ",
+    "tr": "t'ebabi",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Koch",
+      "en": "cook, chef",
+      "sv": "kock",
+      "nl": "kok",
+      "it": "il cuoco",
+      "es": "el cocinero"
+    },
+    "emoji": "👨‍🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_afetsari",
+    "am": "ኣፍራሲ",
+    "tr": "afrasi",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Frisör",
+      "en": "hairdresser",
+      "sv": "frisör",
+      "nl": "kapper",
+      "it": "il parrucchiere",
+      "es": "el peluquero"
+    },
+    "emoji": "💇",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nagadi2",
+    "am": "ጠበቓ",
+    "tr": "t'ebeqa",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Anwalt",
+      "en": "lawyer",
+      "sv": "advokat",
+      "nl": "advocaat",
+      "it": "l'avvocato",
+      "es": "el abogado"
+    },
+    "emoji": "⚖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kahin",
+    "am": "ካህን",
+    "tr": "kahin",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Priester",
+      "en": "priest",
+      "sv": "präst",
+      "nl": "priester",
+      "it": "il prete",
+      "es": "el sacerdote"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_imam",
+    "am": "ኢማም",
+    "tr": "imam",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "der Imam",
+      "en": "imam",
+      "sv": "imam",
+      "nl": "imam",
+      "it": "l'imam",
+      "es": "el imán"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_selfi",
+    "am": "ስራሕ",
+    "tr": "sirah",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "die Arbeit, der Job",
+      "en": "work, job",
+      "sv": "arbete, jobb",
+      "nl": "werk, baan",
+      "it": "il lavoro",
+      "es": "el trabajo"
+    },
+    "emoji": "💼",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kompani",
+    "am": "ትካል",
+    "tr": "tikal",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "die Firma",
+      "en": "company",
+      "sv": "företag",
+      "nl": "bedrijf",
+      "it": "l'azienda",
+      "es": "la empresa"
+    },
+    "emoji": "🏢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ofisi",
+    "am": "ቤት ጽሕፈት",
+    "tr": "bet tsihfet",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "das Büro",
+      "en": "office",
+      "sv": "kontor",
+      "nl": "kantoor",
+      "it": "l'ufficio",
+      "es": "la oficina"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dmoz",
+    "am": "ደሞዝ",
+    "tr": "demoz",
+    "pos": "noun",
+    "topic": "professions",
+    "level": "TI",
+    "t": {
+      "de": "das Gehalt",
+      "en": "salary",
+      "sv": "lön",
+      "nl": "salaris",
+      "it": "lo stipendio",
+      "es": "el salario"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

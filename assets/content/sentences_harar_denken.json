@@ -4,14 +4,24 @@
     "am": "ይህ ሃሳብ አሳማኝ ነው።",
     "tr": "yih hasab asamagn newu.",
     "level": "B2",
-    "uses": ["lex_hasab", "lex_adj_asrachi"],
+    "uses": [
+      "lex_hasab",
+      "lex_adj_asrachi"
+    ],
     "t": {
       "de": "Diese Idee ist überzeugend.",
       "en": "This idea is convincing.",
       "sv": "Den här idén är övertygande.",
-      "nl": "Dit idee is overtuigend."
+      "nl": "Dit idee is overtuigend.",
+      "it": "Questa idea è convincente.",
+      "es": "Esta idea es convincente."
     },
-    "chunks": ["yih", "hasab", "asamagn", "newu"],
+    "chunks": [
+      "yih",
+      "hasab",
+      "asamagn",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -19,14 +29,22 @@
     "am": "ማሰብ ጥሩ ነው።",
     "tr": "maseb t'iru newu.",
     "level": "B2",
-    "uses": ["lex_v_maseb"],
+    "uses": [
+      "lex_v_maseb"
+    ],
     "t": {
       "de": "Denken ist gut.",
       "en": "Thinking is good.",
       "sv": "Att tänka är bra.",
-      "nl": "Denken is goed."
+      "nl": "Denken is goed.",
+      "it": "Pensare è positivo.",
+      "es": "Pensar es bueno."
     },
-    "chunks": ["maseb", "t'iru", "newu"],
+    "chunks": [
+      "maseb",
+      "t'iru",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +52,22 @@
     "am": "ምክንያት አስፈላጊ ነው።",
     "tr": "mikinyat asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_mikinyat"],
+    "uses": [
+      "lex_mikinyat"
+    ],
     "t": {
       "de": "Ein Grund ist wichtig.",
       "en": "A reason is important.",
       "sv": "En anledning är viktig.",
-      "nl": "Een reden is belangrijk."
+      "nl": "Een reden is belangrijk.",
+      "it": "Un motivo è importante.",
+      "es": "Un motivo es importante."
     },
-    "chunks": ["mikinyat", "asfelagi", "newu"],
+    "chunks": [
+      "mikinyat",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +75,22 @@
     "am": "መከራከር ከባድ ነው።",
     "tr": "mekeraker kebad newu.",
     "level": "B2",
-    "uses": ["lex_v_mekerakeri"],
+    "uses": [
+      "lex_v_mekerakeri"
+    ],
     "t": {
       "de": "Streiten ist schwierig.",
       "en": "Arguing is hard.",
       "sv": "Att argumentera är svårt.",
-      "nl": "Argumenteren is moeilijk."
+      "nl": "Argumenteren is moeilijk.",
+      "it": "Litigare è difficile.",
+      "es": "Discutir es difícil."
     },
-    "chunks": ["mekeraker", "kebad", "newu"],
+    "chunks": [
+      "mekeraker",
+      "kebad",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +98,22 @@
     "am": "መተርጎም አስፈላጊ ነው።",
     "tr": "meterigom asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_v_meteret"],
+    "uses": [
+      "lex_v_meteret"
+    ],
     "t": {
       "de": "Übersetzen ist wichtig.",
       "en": "Translating is important.",
       "sv": "Att översätta är viktigt.",
-      "nl": "Vertalen is belangrijk."
+      "nl": "Vertalen is belangrijk.",
+      "it": "Tradurre è importante.",
+      "es": "Traducir es importante."
     },
-    "chunks": ["meterigom", "asfelagi", "newu"],
+    "chunks": [
+      "meterigom",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   }
 ]

@@ -1,6 +1,105 @@
 [
-  {"id":"sen_hm_zafan_mezefen","am":"ዘፋኝ ዘፈን ይዘፍናል።","tr":"zefagn zefen yizefinal.","level":"B2","uses":["lex_hm_zafan","lex_hm_v_mezefen","lex_hm_zefen"],"t":{"de":"Der Sänger singt ein Lied.","en":"The singer sings a song.","sv":"Sångaren sjunger en sång.","nl":"De zanger zingt een lied."},"chunks":["zefagn","zefen","yizefinal"],"verified":false},
-  {"id":"sen_hm_kebero_mekot","am":"ተጫዋቹ ከበሮ ይደለቃል።","tr":"techawachu kebero yidelek'al.","level":"B2","uses":["lex_hm_kebero","lex_hm_v_mekot"],"t":{"de":"Der Spieler trommelt die Trommel.","en":"The player drums the drum.","sv":"Spelaren trummar på trumman.","nl":"De speler trommelt op de trommel."},"chunks":["techawachu","kebero","yidelek'al"],"verified":false},
-  {"id":"sen_hm_muzika_ferdase","am":"ሙዚቃ እና ውዝዋዜ ደስ ያሰኛሉ።","tr":"muzika ina wizwaze desi yasegnalu.","level":"B2","uses":["lex_hm_muzika","lex_hm_ferdase"],"t":{"de":"Musik und Tanz erfreuen.","en":"Music and dance delight.","sv":"Musik och dans gläder.","nl":"Muziek en dans verheugen."},"chunks":["muzika","ina","wizwaze","desi","yasegnalu"],"verified":false},
-  {"id":"sen_hm_kirar_masinko","am":"ክራር እና መሲንቆ ባህላዊ የሙዚቃ መሳሪያዎች ናቸው።","tr":"kirar ina masinik'o bahilawi yemuzika mesariyawoch nachew.","level":"B2","uses":["lex_hm_kirar","lex_hm_masinko"],"t":{"de":"Krar und Masinko sind traditionelle Musikinstrumente.","en":"Krar and masinko are traditional musical instruments.","sv":"Krar och masinko är traditionella musikinstrument.","nl":"Krar en masinko zijn traditionele muziekinstrumenten."},"chunks":["kirar","ina","masinik'o","bahilawi","yemuzika","mesariyawoch","nachew"],"verified":false}
+  {
+    "id": "sen_hm_zafan_mezefen",
+    "am": "ዘፋኝ ዘፈን ይዘፍናል።",
+    "tr": "zefagn zefen yizefinal.",
+    "level": "B2",
+    "uses": [
+      "lex_hm_zafan",
+      "lex_hm_v_mezefen",
+      "lex_hm_zefen"
+    ],
+    "t": {
+      "de": "Der Sänger singt ein Lied.",
+      "en": "The singer sings a song.",
+      "sv": "Sångaren sjunger en sång.",
+      "nl": "De zanger zingt een lied.",
+      "it": "Il cantante canta una canzone.",
+      "es": "El cantante canta una canción."
+    },
+    "chunks": [
+      "zefagn",
+      "zefen",
+      "yizefinal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hm_kebero_mekot",
+    "am": "ተጫዋቹ ከበሮ ይደለቃል።",
+    "tr": "techawachu kebero yidelek'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hm_kebero",
+      "lex_hm_v_mekot"
+    ],
+    "t": {
+      "de": "Der Spieler trommelt die Trommel.",
+      "en": "The player drums the drum.",
+      "sv": "Spelaren trummar på trumman.",
+      "nl": "De speler trommelt op de trommel.",
+      "it": "Il musicista suona il tamburo.",
+      "es": "El músico toca el tambor."
+    },
+    "chunks": [
+      "techawachu",
+      "kebero",
+      "yidelek'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hm_muzika_ferdase",
+    "am": "ሙዚቃ እና ውዝዋዜ ደስ ያሰኛሉ።",
+    "tr": "muzika ina wizwaze desi yasegnalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hm_muzika",
+      "lex_hm_ferdase"
+    ],
+    "t": {
+      "de": "Musik und Tanz erfreuen.",
+      "en": "Music and dance delight.",
+      "sv": "Musik och dans gläder.",
+      "nl": "Muziek en dans verheugen.",
+      "it": "La musica e la danza rallegrano.",
+      "es": "La música y el baile alegran."
+    },
+    "chunks": [
+      "muzika",
+      "ina",
+      "wizwaze",
+      "desi",
+      "yasegnalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hm_kirar_masinko",
+    "am": "ክራር እና መሲንቆ ባህላዊ የሙዚቃ መሳሪያዎች ናቸው።",
+    "tr": "kirar ina masinik'o bahilawi yemuzika mesariyawoch nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hm_kirar",
+      "lex_hm_masinko"
+    ],
+    "t": {
+      "de": "Krar und Masinko sind traditionelle Musikinstrumente.",
+      "en": "Krar and masinko are traditional musical instruments.",
+      "sv": "Krar och masinko är traditionella musikinstrument.",
+      "nl": "Krar en masinko zijn traditionele muziekinstrumenten.",
+      "it": "Krar e masinko sono strumenti musicali tradizionali.",
+      "es": "El krar y el masinko son instrumentos musicales tradicionales."
+    },
+    "chunks": [
+      "kirar",
+      "ina",
+      "masinik'o",
+      "bahilawi",
+      "yemuzika",
+      "mesariyawoch",
+      "nachew"
+    ],
+    "verified": false
+  }
 ]

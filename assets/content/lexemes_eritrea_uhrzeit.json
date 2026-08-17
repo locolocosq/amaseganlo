@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_uhr_half","am":"ፈረቓ","tr":"fereqa","pos":"noun","topic":"clock_time","level":"TI","t":{"de":"halb (Uhrzeit)","en":"half (time)","sv":"halv (klockan)","nl":"half (tijd)"},"emoji":"","verified":false},
-  {"id":"lex_ti_uhr_qrtr","am":"ርብዒ","tr":"ribi'i","pos":"noun","topic":"clock_time","level":"TI","t":{"de":"Viertel (Uhrzeit)","en":"quarter (time)","sv":"kvart","nl":"kwart (tijd)"},"emoji":"","verified":false},
-  {"id":"lex_ti_uhr_shrp","am":"ልክዕ","tr":"liki'i","pos":"adverb","topic":"clock_time","level":"TI","t":{"de":"genau, pünktlich","en":"exactly, sharp","sv":"exakt, prick","nl":"precies, stipt"},"emoji":"","verified":false},
-  {"id":"lex_ti_uhr_soon","am":"ኣብ ቀረባ","tr":"'ab qereba","pos":"adverb","topic":"clock_time","level":"TI","t":{"de":"bald","en":"soon","sv":"snart","nl":"binnenkort"},"emoji":"","verified":false},
-  {"id":"lex_ti_uhr_late","am":"ደንጒዩ","tr":"dengu'yu","pos":"adverb","topic":"clock_time","level":"TI","t":{"de":"spät, verspätet","en":"late","sv":"sen","nl":"laat"},"emoji":"","verified":false},
-  {"id":"lex_ti_uhr_erly","am":"ኣቐዲሙ","tr":"aqedimu","pos":"adverb","topic":"clock_time","level":"TI","t":{"de":"früh, frühzeitig","en":"early","sv":"tidig","nl":"vroeg"},"emoji":"","verified":false},
-  {"id":"lex_ti_uhr_alrm","am":"ሰዓት መበራበሪ","tr":"se'at meberaberi","pos":"noun","topic":"clock_time","level":"TI","t":{"de":"der Wecker","en":"alarm clock","sv":"väckarklocka","nl":"wekker"},"emoji":"⏰","verified":false}
+  {
+    "id": "lex_ti_uhr_half",
+    "am": "ፈረቓ",
+    "tr": "fereqa",
+    "pos": "noun",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "halb (Uhrzeit)",
+      "en": "half (time)",
+      "sv": "halv (klockan)",
+      "nl": "half (tijd)",
+      "it": "mezza (ora)",
+      "es": "media (hora)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uhr_qrtr",
+    "am": "ርብዒ",
+    "tr": "ribi'i",
+    "pos": "noun",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "Viertel (Uhrzeit)",
+      "en": "quarter (time)",
+      "sv": "kvart",
+      "nl": "kwart (tijd)",
+      "it": "un quarto (ora)",
+      "es": "cuarto (hora)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uhr_shrp",
+    "am": "ልክዕ",
+    "tr": "liki'i",
+    "pos": "adverb",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "genau, pünktlich",
+      "en": "exactly, sharp",
+      "sv": "exakt, prick",
+      "nl": "precies, stipt",
+      "it": "esattamente, in punto",
+      "es": "exactamente, en punto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uhr_soon",
+    "am": "ኣብ ቀረባ",
+    "tr": "'ab qereba",
+    "pos": "adverb",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "bald",
+      "en": "soon",
+      "sv": "snart",
+      "nl": "binnenkort",
+      "it": "presto",
+      "es": "pronto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uhr_late",
+    "am": "ደንጒዩ",
+    "tr": "dengu'yu",
+    "pos": "adverb",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "spät, verspätet",
+      "en": "late",
+      "sv": "sen",
+      "nl": "laat",
+      "it": "tardi, in ritardo",
+      "es": "tarde, con retraso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uhr_erly",
+    "am": "ኣቐዲሙ",
+    "tr": "aqedimu",
+    "pos": "adverb",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "früh, frühzeitig",
+      "en": "early",
+      "sv": "tidig",
+      "nl": "vroeg",
+      "it": "presto, in anticipo",
+      "es": "temprano"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uhr_alrm",
+    "am": "ሰዓት መበራበሪ",
+    "tr": "se'at meberaberi",
+    "pos": "noun",
+    "topic": "clock_time",
+    "level": "TI",
+    "t": {
+      "de": "der Wecker",
+      "en": "alarm clock",
+      "sv": "väckarklocka",
+      "nl": "wekker",
+      "it": "la sveglia",
+      "es": "el despertador"
+    },
+    "emoji": "⏰",
+    "verified": false
+  }
 ]

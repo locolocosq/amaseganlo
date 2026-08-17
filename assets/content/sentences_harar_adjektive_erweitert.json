@@ -1,6 +1,110 @@
 [
-  {"id":"sen_hae_birtu_dekama","am":"ይህ ብርቱ ነው፤ ያ ደካማ ነው።","tr":"yih biritu newu; ya dekama newu.","level":"B2","uses":["lex_hae_birtu","lex_hae_dekama"],"t":{"de":"Dieser ist stark, jener ist schwach.","en":"This one is strong; that one is weak.","sv":"Den här är stark; den där är svag.","nl":"Deze is sterk; die is zwak."},"chunks":["yih","biritu","newu","ya","dekama","newu"],"verified":false},
-  {"id":"sen_hae_key_arenguade","am":"ቀይ እና አረንጓዴ ውብ ቀለማት ናቸው።","tr":"k'ey ina arenguade wib kelemat nachew.","level":"B2","uses":["lex_hae_key","lex_hae_arenguade"],"t":{"de":"Rot und Grün sind schöne Farben.","en":"Red and green are beautiful colors.","sv":"Rött och grönt är vackra färger.","nl":"Rood en groen zijn mooie kleuren."},"chunks":["k'ey","ina","arenguade","wib","kelemat","nachew"],"verified":false},
-  {"id":"sen_hae_tafach_merara","am":"ጣፋጭ ወይስ መራራ ትፈልጋለህ?","tr":"t'afach' weyis merara tifeligaleh?","level":"B2","uses":["lex_hae_tafach","lex_hae_merara"],"t":{"de":"Möchtest du Süßes oder Bitteres?","en":"Do you want sweet or bitter?","sv":"Vill du ha sött eller bittert?","nl":"Wil je zoet of bitter?"},"chunks":["t'afach'","weyis","merara","tifeligaleh"],"verified":false},
-  {"id":"sen_hae_addis_rejim","am":"አዲሱ ልብስ ትንሽ ነው፤ አሮጌው ረጅም ነው።","tr":"addisu libis tinish newu; arogew rejim newu.","level":"B2","uses":["lex_hae_addis2","lex_hae_rejim2","lex_hae_aroge2"],"t":{"de":"Das neue Kleidungsstück ist klein, das alte ist lang.","en":"The new piece of clothing is small; the old one is long.","sv":"Det nya klädesplagget är litet; det gamla är långt.","nl":"Het nieuwe kledingstuk is klein; het oude is lang."},"chunks":["addisu","libis","tinish","newu","arogew","rejim","newu"],"verified":false}
+  {
+    "id": "sen_hae_birtu_dekama",
+    "am": "ይህ ብርቱ ነው፤ ያ ደካማ ነው።",
+    "tr": "yih biritu newu; ya dekama newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hae_birtu",
+      "lex_hae_dekama"
+    ],
+    "t": {
+      "de": "Dieser ist stark, jener ist schwach.",
+      "en": "This one is strong; that one is weak.",
+      "sv": "Den här är stark; den där är svag.",
+      "nl": "Deze is sterk; die is zwak.",
+      "it": "Questo è forte, quello è debole.",
+      "es": "Este es fuerte; ese es débil."
+    },
+    "chunks": [
+      "yih",
+      "biritu",
+      "newu",
+      "ya",
+      "dekama",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hae_key_arenguade",
+    "am": "ቀይ እና አረንጓዴ ውብ ቀለማት ናቸው።",
+    "tr": "k'ey ina arenguade wib kelemat nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hae_key",
+      "lex_hae_arenguade"
+    ],
+    "t": {
+      "de": "Rot und Grün sind schöne Farben.",
+      "en": "Red and green are beautiful colors.",
+      "sv": "Rött och grönt är vackra färger.",
+      "nl": "Rood en groen zijn mooie kleuren.",
+      "it": "Il rosso e il verde sono colori belli.",
+      "es": "El rojo y el verde son colores bonitos."
+    },
+    "chunks": [
+      "k'ey",
+      "ina",
+      "arenguade",
+      "wib",
+      "kelemat",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hae_tafach_merara",
+    "am": "ጣፋጭ ወይስ መራራ ትፈልጋለህ?",
+    "tr": "t'afach' weyis merara tifeligaleh?",
+    "level": "B2",
+    "uses": [
+      "lex_hae_tafach",
+      "lex_hae_merara"
+    ],
+    "t": {
+      "de": "Möchtest du Süßes oder Bitteres?",
+      "en": "Do you want sweet or bitter?",
+      "sv": "Vill du ha sött eller bittert?",
+      "nl": "Wil je zoet of bitter?",
+      "it": "Vuoi qualcosa di dolce o di amaro?",
+      "es": "¿Quieres algo dulce o amargo?"
+    },
+    "chunks": [
+      "t'afach'",
+      "weyis",
+      "merara",
+      "tifeligaleh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hae_addis_rejim",
+    "am": "አዲሱ ልብስ ትንሽ ነው፤ አሮጌው ረጅም ነው።",
+    "tr": "addisu libis tinish newu; arogew rejim newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hae_addis2",
+      "lex_hae_rejim2",
+      "lex_hae_aroge2"
+    ],
+    "t": {
+      "de": "Das neue Kleidungsstück ist klein, das alte ist lang.",
+      "en": "The new piece of clothing is small; the old one is long.",
+      "sv": "Det nya klädesplagget är litet; det gamla är långt.",
+      "nl": "Het nieuwe kledingstuk is klein; het oude is lang.",
+      "it": "Il vestito nuovo è piccolo, quello vecchio è lungo.",
+      "es": "La prenda nueva es pequeña; la vieja es larga."
+    },
+    "chunks": [
+      "addisu",
+      "libis",
+      "tinish",
+      "newu",
+      "arogew",
+      "rejim",
+      "newu"
+    ],
+    "verified": false
+  }
 ]

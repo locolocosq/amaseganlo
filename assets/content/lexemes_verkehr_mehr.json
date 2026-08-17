@@ -10,7 +10,9 @@
       "de": "die Ampel",
       "en": "traffic light",
       "sv": "trafikljus",
-      "nl": "verkeerslicht"
+      "nl": "verkeerslicht",
+      "it": "il semaforo",
+      "es": "el semáforo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Fahrkarte, das Ticket",
       "en": "ticket",
       "sv": "biljett",
-      "nl": "ticket"
+      "nl": "ticket",
+      "it": "il biglietto",
+      "es": "el billete"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Bushaltestelle",
       "en": "bus stop",
       "sv": "busshållplats",
-      "nl": "bushalte"
+      "nl": "bushalte",
+      "it": "la fermata dell'autobus",
+      "es": "la parada de autobús"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Führerschein",
       "en": "driver's license",
       "sv": "körkort",
-      "nl": "rijbewijs"
+      "nl": "rijbewijs",
+      "it": "la patente",
+      "es": "el carnet de conducir"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Tankstelle",
       "en": "gas station",
       "sv": "bensinstation",
-      "nl": "tankstation"
+      "nl": "tankstation",
+      "it": "il distributore di benzina",
+      "es": "la gasolinera"
     },
     "hint": {},
     "alt": {},

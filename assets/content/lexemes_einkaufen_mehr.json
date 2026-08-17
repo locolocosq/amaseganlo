@@ -10,7 +10,9 @@
       "de": "der Rabatt",
       "en": "discount",
       "sv": "rabatt",
-      "nl": "korting"
+      "nl": "korting",
+      "it": "lo sconto",
+      "es": "el descuento"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Quittung",
       "en": "receipt",
       "sv": "kvitto",
-      "nl": "bon"
+      "nl": "bon",
+      "it": "la ricevuta",
+      "es": "el recibo"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Bargeld",
       "en": "cash",
       "sv": "kontanter",
-      "nl": "contant geld"
+      "nl": "contant geld",
+      "it": "i contanti",
+      "es": "el efectivo"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Kreditkarte",
       "en": "credit card",
       "sv": "kreditkort",
-      "nl": "creditcard"
+      "nl": "creditcard",
+      "it": "la carta di credito",
+      "es": "la tarjeta de crédito"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Geldbeutel",
       "en": "wallet",
       "sv": "plånbok",
-      "nl": "portemonnee"
+      "nl": "portemonnee",
+      "it": "il portafoglio",
+      "es": "la cartera"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Wechselgeld",
       "en": "change (money)",
       "sv": "växel",
-      "nl": "wisselgeld"
+      "nl": "wisselgeld",
+      "it": "il resto",
+      "es": "el cambio (dinero)"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der/die Kunde/Kundin",
       "en": "customer",
       "sv": "kund",
-      "nl": "klant"
+      "nl": "klant",
+      "it": "il/la cliente",
+      "es": "el/la cliente"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "handeln, verhandeln",
       "en": "to bargain",
       "sv": "pruta",
-      "nl": "afdingen"
+      "nl": "afdingen",
+      "it": "contrattare, trattare",
+      "es": "regatear"
     },
     "hint": {},
     "alt": {},

@@ -1,10 +1,146 @@
 [
-  {"id":"lex_ti_qlm2","am":"ርሳስ","tr":"risas","pos":"noun","topic":"office","level":"TI","t":{"de":"der Bleistift","en":"pencil","sv":"blyertspenna","nl":"potlood"},"emoji":"✏️","verified":false},
-  {"id":"lex_ti_mshhi","am":"መደምሰሲ","tr":"medemsesi","pos":"noun","topic":"office","level":"TI","t":{"de":"der Radiergummi","en":"eraser","sv":"suddgummi","nl":"gum"},"emoji":"","verified":false},
-  {"id":"lex_ti_mqrri","am":"መቑረጺ","tr":"meqiretsi","pos":"noun","topic":"office","level":"TI","t":{"de":"die Schere","en":"scissors","sv":"sax","nl":"schaar"},"emoji":"✂️","verified":false},
-  {"id":"lex_ti_msqi","am":"መጣበቒ","tr":"met'abeqi","pos":"noun","topic":"office","level":"TI","t":{"de":"der Klebstoff","en":"glue","sv":"lim","nl":"lijm"},"emoji":"","verified":false},
-  {"id":"lex_ti_dfti","am":"ደብተር","tr":"debiter","pos":"noun","topic":"office","level":"TI","t":{"de":"das Heft","en":"notebook","sv":"anteckningsbok","nl":"schrift"},"emoji":"📓","verified":false},
-  {"id":"lex_ti_kls2","am":"መዝገበ ቃላት","tr":"mezgebe qalat","pos":"noun","topic":"office","level":"TI","t":{"de":"das Wörterbuch","en":"dictionary","sv":"ordbok","nl":"woordenboek"},"emoji":"📔","verified":false},
-  {"id":"lex_ti_shnt","am":"ቦርሳ ትምህርቲ","tr":"borsa timhirti","pos":"noun","topic":"office","level":"TI","t":{"de":"der Schulranzen","en":"school bag","sv":"skolväska","nl":"schooltas"},"emoji":"🎒","verified":false},
-  {"id":"lex_ti_lstk2","am":"ራላ","tr":"rala","pos":"noun","topic":"office","level":"TI","t":{"de":"das Lineal","en":"ruler","sv":"linjal","nl":"liniaal"},"emoji":"📏","verified":false}
+  {
+    "id": "lex_ti_qlm2",
+    "am": "ርሳስ",
+    "tr": "risas",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Bleistift",
+      "en": "pencil",
+      "sv": "blyertspenna",
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
+    },
+    "emoji": "✏️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mshhi",
+    "am": "መደምሰሲ",
+    "tr": "medemsesi",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Radiergummi",
+      "en": "eraser",
+      "sv": "suddgummi",
+      "nl": "gum",
+      "it": "la gomma",
+      "es": "la goma de borrar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mqrri",
+    "am": "መቑረጺ",
+    "tr": "meqiretsi",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "die Schere",
+      "en": "scissors",
+      "sv": "sax",
+      "nl": "schaar",
+      "it": "le forbici",
+      "es": "las tijeras"
+    },
+    "emoji": "✂️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msqi",
+    "am": "መጣበቒ",
+    "tr": "met'abeqi",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Klebstoff",
+      "en": "glue",
+      "sv": "lim",
+      "nl": "lijm",
+      "it": "la colla",
+      "es": "el pegamento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dfti",
+    "am": "ደብተር",
+    "tr": "debiter",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "das Heft",
+      "en": "notebook",
+      "sv": "anteckningsbok",
+      "nl": "schrift",
+      "it": "il quaderno",
+      "es": "el cuaderno"
+    },
+    "emoji": "📓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kls2",
+    "am": "መዝገበ ቃላት",
+    "tr": "mezgebe qalat",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "das Wörterbuch",
+      "en": "dictionary",
+      "sv": "ordbok",
+      "nl": "woordenboek",
+      "it": "il dizionario",
+      "es": "el diccionario"
+    },
+    "emoji": "📔",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shnt",
+    "am": "ቦርሳ ትምህርቲ",
+    "tr": "borsa timhirti",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "der Schulranzen",
+      "en": "school bag",
+      "sv": "skolväska",
+      "nl": "schooltas",
+      "it": "lo zaino scolastico",
+      "es": "la mochila escolar"
+    },
+    "emoji": "🎒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lstk2",
+    "am": "ራላ",
+    "tr": "rala",
+    "pos": "noun",
+    "topic": "office",
+    "level": "TI",
+    "t": {
+      "de": "das Lineal",
+      "en": "ruler",
+      "sv": "linjal",
+      "nl": "liniaal",
+      "it": "il righello",
+      "es": "la regla"
+    },
+    "emoji": "📏",
+    "verified": false
+  }
 ]

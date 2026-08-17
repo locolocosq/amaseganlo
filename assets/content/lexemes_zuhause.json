@@ -10,7 +10,9 @@
       "de": "das Haus, zu Hause",
       "en": "house, home",
       "sv": "hus, hem",
-      "nl": "huis, thuis"
+      "nl": "huis, thuis",
+      "it": "la casa",
+      "es": "la casa"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Zimmer",
       "en": "room",
       "sv": "rum",
-      "nl": "kamer"
+      "nl": "kamer",
+      "it": "la stanza",
+      "es": "la habitación"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Tür",
       "en": "door",
       "sv": "dörr",
-      "nl": "deur"
+      "nl": "deur",
+      "it": "la porta",
+      "es": "la puerta"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Tisch",
       "en": "table",
       "sv": "bord",
-      "nl": "tafel"
+      "nl": "tafel",
+      "it": "il tavolo",
+      "es": "la mesa"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Stuhl",
       "en": "chair",
       "sv": "stol",
-      "nl": "stoel"
+      "nl": "stoel",
+      "it": "la sedia",
+      "es": "la silla"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Bett",
       "en": "bed",
       "sv": "säng",
-      "nl": "bed"
+      "nl": "bed",
+      "it": "il letto",
+      "es": "la cama"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Küche",
       "en": "kitchen",
       "sv": "kök",
-      "nl": "keuken"
+      "nl": "keuken",
+      "it": "la cucina",
+      "es": "la cocina"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Fenster",
       "en": "window",
       "sv": "fönster",
-      "nl": "raam"
+      "nl": "raam",
+      "it": "la finestra",
+      "es": "la ventana"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Schlüssel",
       "en": "key",
       "sv": "nyckel",
-      "nl": "sleutel"
+      "nl": "sleutel",
+      "it": "la chiave",
+      "es": "la llave"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Lampe, das Licht",
       "en": "lamp, light",
       "sv": "lampa, ljus",
-      "nl": "lamp, licht"
+      "nl": "lamp, licht",
+      "it": "la lampada, la luce",
+      "es": "la lámpara, la luz"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Schrank",
       "en": "cupboard",
       "sv": "skåp",
-      "nl": "kast"
+      "nl": "kast",
+      "it": "l'armadio",
+      "es": "el armario"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "der Spiegel",
       "en": "mirror",
       "sv": "spegel",
-      "nl": "spiegel"
+      "nl": "spiegel",
+      "it": "lo specchio",
+      "es": "el espejo"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "das Dach",
       "en": "roof",
       "sv": "tak",
-      "nl": "dak"
+      "nl": "dak",
+      "it": "il tetto",
+      "es": "el techo"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "der Boden, Fußboden",
       "en": "floor",
       "sv": "golv",
-      "nl": "vloer"
+      "nl": "vloer",
+      "it": "il pavimento",
+      "es": "el suelo"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "der Garten, Hof",
       "en": "garden, yard",
       "sv": "trädgård, gård",
-      "nl": "tuin, erf"
+      "nl": "tuin, erf",
+      "it": "il giardino, il cortile",
+      "es": "el jardín, el patio"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "das Badezimmer",
       "en": "bathroom",
       "sv": "badrum",
-      "nl": "badkamer"
+      "nl": "badkamer",
+      "it": "il bagno",
+      "es": "el baño"
     },
     "hint": {},
     "alt": {},

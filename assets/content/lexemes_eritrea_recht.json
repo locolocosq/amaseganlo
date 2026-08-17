@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_frdbet","am":"ቤት ፍርዲ","tr":"bet firdi","pos":"noun","topic":"law","level":"TI","t":{"de":"das Gericht","en":"court","sv":"domstol","nl":"rechtbank"},"emoji":"⚖️","verified":false},
-  {"id":"lex_ti_frdi2","am":"ፈራዲ","tr":"feradi","pos":"noun","topic":"law","level":"TI","t":{"de":"der Richter","en":"judge","sv":"domare","nl":"rechter"},"emoji":"","verified":false},
-  {"id":"lex_ti_wnzk","am":"ገበን","tr":"geben","pos":"noun","topic":"law","level":"TI","t":{"de":"das Verbrechen","en":"crime","sv":"brott","nl":"misdaad"},"emoji":"","verified":false},
-  {"id":"lex_ti_habsti","am":"ማእሰርቲ","tr":"ma'iserti","pos":"noun","topic":"law","level":"TI","t":{"de":"das Gefängnis","en":"prison","sv":"fängelse","nl":"gevangenis"},"emoji":"","verified":false},
-  {"id":"lex_ti_shhda","am":"ምስክር","tr":"misikir","pos":"noun","topic":"law","level":"TI","t":{"de":"der Zeuge","en":"witness","sv":"vittne","nl":"getuige"},"emoji":"","verified":false},
-  {"id":"lex_ti_wthq","am":"ውዕል","tr":"wi'il","pos":"noun","topic":"law","level":"TI","t":{"de":"der Vertrag","en":"contract","sv":"kontrakt","nl":"contract"},"emoji":"","verified":false},
-  {"id":"lex_ti_mkti","am":"መሰል","tr":"mesel","pos":"noun","topic":"law","level":"TI","t":{"de":"das Recht (Anspruch)","en":"right (entitlement)","sv":"rättighet","nl":"recht (aanspraak)"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_frdbet",
+    "am": "ቤት ፍርዲ",
+    "tr": "bet firdi",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "das Gericht",
+      "en": "court",
+      "sv": "domstol",
+      "nl": "rechtbank",
+      "it": "il tribunale",
+      "es": "el tribunal"
+    },
+    "emoji": "⚖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frdi2",
+    "am": "ፈራዲ",
+    "tr": "feradi",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "der Richter",
+      "en": "judge",
+      "sv": "domare",
+      "nl": "rechter",
+      "it": "il giudice",
+      "es": "el juez"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wnzk",
+    "am": "ገበን",
+    "tr": "geben",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "das Verbrechen",
+      "en": "crime",
+      "sv": "brott",
+      "nl": "misdaad",
+      "it": "il crimine",
+      "es": "el crimen"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_habsti",
+    "am": "ማእሰርቲ",
+    "tr": "ma'iserti",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "das Gefängnis",
+      "en": "prison",
+      "sv": "fängelse",
+      "nl": "gevangenis",
+      "it": "la prigione",
+      "es": "la prisión"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shhda",
+    "am": "ምስክር",
+    "tr": "misikir",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "der Zeuge",
+      "en": "witness",
+      "sv": "vittne",
+      "nl": "getuige",
+      "it": "il testimone",
+      "es": "el testigo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wthq",
+    "am": "ውዕል",
+    "tr": "wi'il",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "der Vertrag",
+      "en": "contract",
+      "sv": "kontrakt",
+      "nl": "contract",
+      "it": "il contratto",
+      "es": "el contrato"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mkti",
+    "am": "መሰል",
+    "tr": "mesel",
+    "pos": "noun",
+    "topic": "law",
+    "level": "TI",
+    "t": {
+      "de": "das Recht (Anspruch)",
+      "en": "right (entitlement)",
+      "sv": "rättighet",
+      "nl": "recht (aanspraak)",
+      "it": "il diritto (pretesa)",
+      "es": "el derecho (reclamación)"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

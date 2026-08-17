@@ -10,7 +10,9 @@
       "de": "Deutschland",
       "en": "Germany",
       "sv": "Tyskland",
-      "nl": "Duitsland"
+      "nl": "Duitsland",
+      "it": "Germania",
+      "es": "Alemania"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "England",
       "en": "England",
       "sv": "England",
-      "nl": "Engeland"
+      "nl": "Engeland",
+      "it": "Inghilterra",
+      "es": "Inglaterra"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "Schweden",
       "en": "Sweden",
       "sv": "Sverige",
-      "nl": "Zweden"
+      "nl": "Zweden",
+      "it": "Svezia",
+      "es": "Suecia"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Niederlande, Holland",
       "en": "the Netherlands, Holland",
       "sv": "Nederländerna, Holland",
-      "nl": "Nederland, Holland"
+      "nl": "Nederland, Holland",
+      "it": "i Paesi Bassi, l'Olanda",
+      "es": "los Países Bajos, Holanda"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "Frankreich",
       "en": "France",
       "sv": "Frankrike",
-      "nl": "Frankrijk"
+      "nl": "Frankrijk",
+      "it": "Francia",
+      "es": "Francia"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "Italien",
       "en": "Italy",
       "sv": "Italien",
-      "nl": "Italië"
+      "nl": "Italië",
+      "it": "Italia",
+      "es": "Italia"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "Amerika",
       "en": "America",
       "sv": "Amerika",
-      "nl": "Amerika"
+      "nl": "Amerika",
+      "it": "America",
+      "es": "América"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "China",
       "en": "China",
       "sv": "Kina",
-      "nl": "China"
+      "nl": "China",
+      "it": "Cina",
+      "es": "China"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "Kenia",
       "en": "Kenya",
       "sv": "Kenya",
-      "nl": "Kenia"
+      "nl": "Kenia",
+      "it": "Kenya",
+      "es": "Kenia"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "Ägypten",
       "en": "Egypt",
       "sv": "Egypten",
-      "nl": "Egypte"
+      "nl": "Egypte",
+      "it": "Egitto",
+      "es": "Egipto"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "Sudan",
       "en": "Sudan",
       "sv": "Sudan",
-      "nl": "Soedan"
+      "nl": "Soedan",
+      "it": "Sudan",
+      "es": "Sudán"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "Spanien",
       "en": "Spain",
       "sv": "Spanien",
-      "nl": "Spanje"
+      "nl": "Spanje",
+      "it": "Spagna",
+      "es": "España"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "Deutsch (Sprache)",
       "en": "German (language)",
       "sv": "tyska (språk)",
-      "nl": "Duits (taal)"
+      "nl": "Duits (taal)",
+      "it": "tedesco (lingua)",
+      "es": "alemán (idioma)"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "Englisch (Sprache)",
       "en": "English (language)",
       "sv": "engelska (språk)",
-      "nl": "Engels (taal)"
+      "nl": "Engels (taal)",
+      "it": "inglese (lingua)",
+      "es": "inglés (idioma)"
     },
     "hint": {},
     "alt": {},

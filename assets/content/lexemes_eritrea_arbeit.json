@@ -1,10 +1,146 @@
 [
-  {"id":"lex_ti_shefu","am":"ሓለቓ","tr":"haleqa","pos":"noun","topic":"work","level":"TI","t":{"de":"der Chef, Vorgesetzte","en":"boss, supervisor","sv":"chef","nl":"baas"},"emoji":"","verified":false},
-  {"id":"lex_ti_hbrto","am":"መሳርሕቲ","tr":"mesarihti","pos":"noun","topic":"work","level":"TI","t":{"de":"der Kollege","en":"colleague","sv":"kollega","nl":"collega"},"emoji":"","verified":false},
-  {"id":"lex_ti_shgl2","am":"ቃለ መጠይቕ","tr":"qale met'eyiq","pos":"noun","topic":"work","level":"TI","t":{"de":"das Vorstellungsgespräch","en":"job interview","sv":"anställningsintervju","nl":"sollicitatiegesprek"},"emoji":"","verified":false},
-  {"id":"lex_ti_kv2","am":"ናይ ስራሕ ተመኩሮ","tr":"nay sirah temekuro","pos":"noun","topic":"work","level":"TI","t":{"de":"die Berufserfahrung","en":"work experience","sv":"arbetslivserfarenhet","nl":"werkervaring"},"emoji":"","verified":false},
-  {"id":"lex_ti_ognz","am":"ኣኼባ","tr":"akheba","pos":"noun","topic":"work","level":"TI","t":{"de":"das Meeting, die Besprechung","en":"meeting","sv":"möte","nl":"vergadering"},"emoji":"","verified":false},
-  {"id":"lex_ti_prjct","am":"ፕሮጀክት","tr":"projekt","pos":"noun","topic":"work","level":"TI","t":{"de":"das Projekt","en":"project","sv":"projekt","nl":"project"},"emoji":"","verified":false},
-  {"id":"lex_ti_dedb","am":"ዕለት መወዳእታ","tr":"'ilet meweda'ita","pos":"noun","topic":"work","level":"TI","t":{"de":"die Frist, der Termin","en":"deadline","sv":"deadline","nl":"deadline"},"emoji":"","verified":false},
-  {"id":"lex_ti_izini","am":"ዕረፍቲ (ስራሕ)","tr":"'irefti sirah","pos":"noun","topic":"work","level":"TI","t":{"de":"der Urlaub (Arbeit)","en":"leave (work)","sv":"ledighet (arbete)","nl":"verlof (werk)"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_shefu",
+    "am": "ሓለቓ",
+    "tr": "haleqa",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "der Chef, Vorgesetzte",
+      "en": "boss, supervisor",
+      "sv": "chef",
+      "nl": "baas",
+      "it": "il capo",
+      "es": "el jefe"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hbrto",
+    "am": "መሳርሕቲ",
+    "tr": "mesarihti",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "der Kollege",
+      "en": "colleague",
+      "sv": "kollega",
+      "nl": "collega",
+      "it": "il collega",
+      "es": "el colega"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shgl2",
+    "am": "ቃለ መጠይቕ",
+    "tr": "qale met'eyiq",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "das Vorstellungsgespräch",
+      "en": "job interview",
+      "sv": "anställningsintervju",
+      "nl": "sollicitatiegesprek",
+      "it": "il colloquio di lavoro",
+      "es": "la entrevista de trabajo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kv2",
+    "am": "ናይ ስራሕ ተመኩሮ",
+    "tr": "nay sirah temekuro",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "die Berufserfahrung",
+      "en": "work experience",
+      "sv": "arbetslivserfarenhet",
+      "nl": "werkervaring",
+      "it": "esperienza lavorativa",
+      "es": "experiencia laboral"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ognz",
+    "am": "ኣኼባ",
+    "tr": "akheba",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "das Meeting, die Besprechung",
+      "en": "meeting",
+      "sv": "möte",
+      "nl": "vergadering",
+      "it": "la riunione",
+      "es": "la reunión"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_prjct",
+    "am": "ፕሮጀክት",
+    "tr": "projekt",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "das Projekt",
+      "en": "project",
+      "sv": "projekt",
+      "nl": "project",
+      "it": "il progetto",
+      "es": "el proyecto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dedb",
+    "am": "ዕለት መወዳእታ",
+    "tr": "'ilet meweda'ita",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "die Frist, der Termin",
+      "en": "deadline",
+      "sv": "deadline",
+      "nl": "deadline",
+      "it": "la scadenza",
+      "es": "la fecha límite"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_izini",
+    "am": "ዕረፍቲ (ስራሕ)",
+    "tr": "'irefti sirah",
+    "pos": "noun",
+    "topic": "work",
+    "level": "TI",
+    "t": {
+      "de": "der Urlaub (Arbeit)",
+      "en": "leave (work)",
+      "sv": "ledighet (arbete)",
+      "nl": "verlof (werk)",
+      "it": "le ferie (lavoro)",
+      "es": "las vacaciones (trabajo)"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

@@ -10,7 +10,9 @@
       "de": "die Straße, der Weg",
       "en": "street, road",
       "sv": "gata, väg",
-      "nl": "straat, weg"
+      "nl": "straat, weg",
+      "it": "la strada, la via",
+      "es": "la calle, el camino"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Krankenhaus",
       "en": "hospital",
       "sv": "sjukhus",
-      "nl": "ziekenhuis"
+      "nl": "ziekenhuis",
+      "it": "l'ospedale",
+      "es": "el hospital"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Schule",
       "en": "school",
       "sv": "skola",
-      "nl": "school"
+      "nl": "school",
+      "it": "la scuola",
+      "es": "la escuela"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Bank",
       "en": "bank",
       "sv": "bank",
-      "nl": "bank"
+      "nl": "bank",
+      "it": "la banca",
+      "es": "el banco"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Kirche",
       "en": "church",
       "sv": "kyrka",
-      "nl": "kerk"
+      "nl": "kerk",
+      "it": "la chiesa",
+      "es": "la iglesia"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Moschee",
       "en": "mosque",
       "sv": "moské",
-      "nl": "moskee"
+      "nl": "moskee",
+      "it": "la moschea",
+      "es": "la mezquita"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Stadt",
       "en": "city",
       "sv": "stad",
-      "nl": "stad"
+      "nl": "stad",
+      "it": "la città",
+      "es": "la ciudad"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Dorf",
       "en": "village",
       "sv": "by",
-      "nl": "dorp"
+      "nl": "dorp",
+      "it": "il villaggio",
+      "es": "el pueblo"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "das Hotel",
       "en": "hotel",
       "sv": "hotell",
-      "nl": "hotel"
+      "nl": "hotel",
+      "it": "l'hotel",
+      "es": "el hotel"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Restaurant",
       "en": "restaurant",
       "sv": "restaurang",
-      "nl": "restaurant"
+      "nl": "restaurant",
+      "it": "il ristorante",
+      "es": "el restaurante"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Flughafen",
       "en": "airport",
       "sv": "flygplats",
-      "nl": "luchthaven"
+      "nl": "luchthaven",
+      "it": "l'aeroporto",
+      "es": "el aeropuerto"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Polizei",
       "en": "police",
       "sv": "polis",
-      "nl": "politie"
+      "nl": "politie",
+      "it": "la polizia",
+      "es": "la policía"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "rechts",
       "en": "right",
       "sv": "höger",
-      "nl": "rechts"
+      "nl": "rechts",
+      "it": "a destra",
+      "es": "a la derecha"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "links",
       "en": "left",
       "sv": "vänster",
-      "nl": "links"
+      "nl": "links",
+      "it": "a sinistra",
+      "es": "a la izquierda"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "geradeaus",
       "en": "straight ahead",
       "sv": "rakt fram",
-      "nl": "rechtdoor"
+      "nl": "rechtdoor",
+      "it": "dritto",
+      "es": "todo recto"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "Wo ist...?",
       "en": "Where is...?",
       "sv": "Var är...?",
-      "nl": "Waar is...?"
+      "nl": "Waar is...?",
+      "it": "Dov'è...?",
+      "es": "¿Dónde está...?"
     },
     "hint": {},
     "alt": {},

@@ -1,6 +1,108 @@
 [
-  {"id":"sen_hzg_nigus_megezat","am":"ንጉሠ ነገሥቱ ኢትዮጵያን ገዛ።","tr":"nigus negestu ityop'yan geza.","level":"B2","uses":["lex_hzg_neguse_negest","lex_hzg_v_megezat"],"t":{"de":"Der Kaiser regierte Äthiopien.","en":"The emperor ruled Ethiopia.","sv":"Kejsaren styrde Etiopien.","nl":"De keizer heerste over Ethiopië."},"chunks":["nigus","negestu","ityop'yan","geza"],"verified":false},
-  {"id":"sen_hzg_netsanet_dil","am":"ነጻነት ትልቅ ድል ነው።","tr":"nets'anet tilik' dil newu.","level":"B2","uses":["lex_hzg_netsanet","lex_hzg_dil"],"t":{"de":"Freiheit ist ein großer Sieg.","en":"Freedom is a great victory.","sv":"Frihet är en stor seger.","nl":"Vrijheid is een grote overwinning."},"chunks":["nets'anet","tilik'","dil","newu"],"verified":false},
-  {"id":"sen_hzg_werk_selam2","am":"ጦርነት መጥፎ ነው፤ ሰላም ግን ጥሩ ነው።","tr":"t'orinet met'fo newu; selam gin t'iru newu.","level":"B2","uses":["lex_hzg_werk","lex_hzg_selam2"],"t":{"de":"Krieg ist schlecht, Frieden aber ist gut.","en":"War is bad, but peace is good.","sv":"Krig är dåligt, men fred är bra.","nl":"Oorlog is slecht, maar vrede is goed."},"chunks":["t'orinet","met'fo","newu","selam","gin","t'iru","newu"],"verified":false},
-  {"id":"sen_hzg_mastawesha_kefeleZemen","am":"ይህ ማስታወሻ ከብዙ ክፈለ ዘመን በፊት ተመሰረተ።","tr":"yih masitawesha kebizu kifele zemen befit temeserete.","level":"B2","uses":["lex_hzg_mastawesha","lex_hzg_kefeleZemen"],"t":{"de":"Dieses Denkmal wurde vor vielen Jahrhunderten errichtet.","en":"This monument was founded many centuries ago.","sv":"Detta monument grundades för många århundraden sedan.","nl":"Dit monument werd vele eeuwen geleden gesticht."},"chunks":["yih","masitawesha","kebizu","kifele","zemen","befit","temeserete"],"verified":false}
+  {
+    "id": "sen_hzg_nigus_megezat",
+    "am": "ንጉሠ ነገሥቱ ኢትዮጵያን ገዛ።",
+    "tr": "nigus negestu ityop'yan geza.",
+    "level": "B2",
+    "uses": [
+      "lex_hzg_neguse_negest",
+      "lex_hzg_v_megezat"
+    ],
+    "t": {
+      "de": "Der Kaiser regierte Äthiopien.",
+      "en": "The emperor ruled Ethiopia.",
+      "sv": "Kejsaren styrde Etiopien.",
+      "nl": "De keizer heerste over Ethiopië.",
+      "it": "L'imperatore governò l'Etiopia.",
+      "es": "El emperador gobernó Etiopía."
+    },
+    "chunks": [
+      "nigus",
+      "negestu",
+      "ityop'yan",
+      "geza"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hzg_netsanet_dil",
+    "am": "ነጻነት ትልቅ ድል ነው።",
+    "tr": "nets'anet tilik' dil newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hzg_netsanet",
+      "lex_hzg_dil"
+    ],
+    "t": {
+      "de": "Freiheit ist ein großer Sieg.",
+      "en": "Freedom is a great victory.",
+      "sv": "Frihet är en stor seger.",
+      "nl": "Vrijheid is een grote overwinning.",
+      "it": "La libertà è una grande vittoria.",
+      "es": "La libertad es una gran victoria."
+    },
+    "chunks": [
+      "nets'anet",
+      "tilik'",
+      "dil",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hzg_werk_selam2",
+    "am": "ጦርነት መጥፎ ነው፤ ሰላም ግን ጥሩ ነው።",
+    "tr": "t'orinet met'fo newu; selam gin t'iru newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hzg_werk",
+      "lex_hzg_selam2"
+    ],
+    "t": {
+      "de": "Krieg ist schlecht, Frieden aber ist gut.",
+      "en": "War is bad, but peace is good.",
+      "sv": "Krig är dåligt, men fred är bra.",
+      "nl": "Oorlog is slecht, maar vrede is goed.",
+      "it": "La guerra è cattiva, ma la pace è buona.",
+      "es": "La guerra es mala, pero la paz es buena."
+    },
+    "chunks": [
+      "t'orinet",
+      "met'fo",
+      "newu",
+      "selam",
+      "gin",
+      "t'iru",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hzg_mastawesha_kefeleZemen",
+    "am": "ይህ ማስታወሻ ከብዙ ክፈለ ዘመን በፊት ተመሰረተ።",
+    "tr": "yih masitawesha kebizu kifele zemen befit temeserete.",
+    "level": "B2",
+    "uses": [
+      "lex_hzg_mastawesha",
+      "lex_hzg_kefeleZemen"
+    ],
+    "t": {
+      "de": "Dieses Denkmal wurde vor vielen Jahrhunderten errichtet.",
+      "en": "This monument was founded many centuries ago.",
+      "sv": "Detta monument grundades för många århundraden sedan.",
+      "nl": "Dit monument werd vele eeuwen geleden gesticht.",
+      "it": "Questo monumento fu costruito molti secoli fa.",
+      "es": "Este monumento fue construido hace muchos siglos."
+    },
+    "chunks": [
+      "yih",
+      "masitawesha",
+      "kebizu",
+      "kifele",
+      "zemen",
+      "befit",
+      "temeserete"
+    ],
+    "verified": false
+  }
 ]

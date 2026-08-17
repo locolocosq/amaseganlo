@@ -1,6 +1,101 @@
 [
-  {"id":"sen_hzm_kilogram_kilo","am":"ኪሎግራም እና ኪሎ እኩል ናቸው።","tr":"kilogiram ina kilo ikul nachew.","level":"B2","uses":["lex_hzm_kilogram","lex_hzm_kilo","lex_hzm_kefil4"],"t":{"de":"Kilogramm und Kilo sind gleich.","en":"Kilogram and kilo are equal.","sv":"Kilogram och kilo är lika.","nl":"Kilogram en kilo zijn gelijk."},"chunks":["kilogiram","ina","kilo","ikul","nachew"],"verified":false},
-  {"id":"sen_hzm_mizan_mewesen","am":"በሚዛን መመዘን እፈልጋለሁ።","tr":"bemizan memezen ifeligalehu.","level":"B2","uses":["lex_hzm_mizan","lex_hzm_v_mewesen"],"t":{"de":"Ich möchte mit einer Waage wiegen.","en":"I want to weigh with a scale.","sv":"Jag vill väga med en våg.","nl":"Ik wil wegen met een weegschaal."},"chunks":["bemizan","memezen","ifeligalehu"],"verified":false},
-  {"id":"sen_hzm_wagat_meshoot","am":"ዋጋውን ተደራደርን።","tr":"wagawin tederaderin.","level":"B2","uses":["lex_hzm_wagat","lex_hzm_v_meshoot"],"t":{"de":"Wir haben über den Preis verhandelt.","en":"We negotiated the price.","sv":"Vi förhandlade om priset.","nl":"We onderhandelden over de prijs."},"chunks":["wagawin","tederaderin"],"verified":false},
-  {"id":"sen_hzm_dizen_asra","am":"ደርዘን ማለት አስራ ሁለት ነው።","tr":"derizen malet asra hulet newu.","level":"B2","uses":["lex_hzm_dizen"],"t":{"de":"Ein Dutzend bedeutet zwölf.","en":"A dozen means twelve.","sv":"Ett dussin betyder tolv.","nl":"Een dozijn betekent twaalf."},"chunks":["derizen","malet","asra","hulet","newu"],"verified":false}
+  {
+    "id": "sen_hzm_kilogram_kilo",
+    "am": "ኪሎግራም እና ኪሎ እኩል ናቸው።",
+    "tr": "kilogiram ina kilo ikul nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hzm_kilogram",
+      "lex_hzm_kilo",
+      "lex_hzm_kefil4"
+    ],
+    "t": {
+      "de": "Kilogramm und Kilo sind gleich.",
+      "en": "Kilogram and kilo are equal.",
+      "sv": "Kilogram och kilo är lika.",
+      "nl": "Kilogram en kilo zijn gelijk.",
+      "it": "Chilogrammo e chilo sono uguali.",
+      "es": "Kilogramo y kilo son iguales."
+    },
+    "chunks": [
+      "kilogiram",
+      "ina",
+      "kilo",
+      "ikul",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hzm_mizan_mewesen",
+    "am": "በሚዛን መመዘን እፈልጋለሁ።",
+    "tr": "bemizan memezen ifeligalehu.",
+    "level": "B2",
+    "uses": [
+      "lex_hzm_mizan",
+      "lex_hzm_v_mewesen"
+    ],
+    "t": {
+      "de": "Ich möchte mit einer Waage wiegen.",
+      "en": "I want to weigh with a scale.",
+      "sv": "Jag vill väga med en våg.",
+      "nl": "Ik wil wegen met een weegschaal.",
+      "it": "Voglio pesare con una bilancia.",
+      "es": "Quiero pesar con una báscula."
+    },
+    "chunks": [
+      "bemizan",
+      "memezen",
+      "ifeligalehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hzm_wagat_meshoot",
+    "am": "ዋጋውን ተደራደርን።",
+    "tr": "wagawin tederaderin.",
+    "level": "B2",
+    "uses": [
+      "lex_hzm_wagat",
+      "lex_hzm_v_meshoot"
+    ],
+    "t": {
+      "de": "Wir haben über den Preis verhandelt.",
+      "en": "We negotiated the price.",
+      "sv": "Vi förhandlade om priset.",
+      "nl": "We onderhandelden over de prijs.",
+      "it": "Abbiamo trattato il prezzo.",
+      "es": "Negociamos el precio."
+    },
+    "chunks": [
+      "wagawin",
+      "tederaderin"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hzm_dizen_asra",
+    "am": "ደርዘን ማለት አስራ ሁለት ነው።",
+    "tr": "derizen malet asra hulet newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hzm_dizen"
+    ],
+    "t": {
+      "de": "Ein Dutzend bedeutet zwölf.",
+      "en": "A dozen means twelve.",
+      "sv": "Ett dussin betyder tolv.",
+      "nl": "Een dozijn betekent twaalf.",
+      "it": "Una dozzina significa dodici.",
+      "es": "Una docena significa doce."
+    },
+    "chunks": [
+      "derizen",
+      "malet",
+      "asra",
+      "hulet",
+      "newu"
+    ],
+    "verified": false
+  }
 ]

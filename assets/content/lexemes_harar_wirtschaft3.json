@@ -10,7 +10,9 @@
       "de": "der Gewinn, der Profit",
       "en": "profit, gain",
       "sv": "vinst",
-      "nl": "winst"
+      "nl": "winst",
+      "it": "il guadagno, il profitto",
+      "es": "la ganancia, el beneficio"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Verlust",
       "en": "loss",
       "sv": "förlust",
-      "nl": "verlies"
+      "nl": "verlies",
+      "it": "la perdita",
+      "es": "la pérdida"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Investition",
       "en": "investment",
       "sv": "investering",
-      "nl": "investering"
+      "nl": "investering",
+      "it": "l'investimento",
+      "es": "la inversión"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Börse",
       "en": "stock market",
       "sv": "börsen",
-      "nl": "de aandelenmarkt"
+      "nl": "de aandelenmarkt",
+      "it": "la borsa (valori)",
+      "es": "la bolsa (de valores)"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Inflation",
       "en": "inflation",
       "sv": "inflation",
-      "nl": "inflatie"
+      "nl": "inflatie",
+      "it": "l'inflazione",
+      "es": "la inflación"
     },
     "hint": {},
     "alt": {},

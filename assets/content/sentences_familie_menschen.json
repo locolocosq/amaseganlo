@@ -12,7 +12,9 @@
       "de": "Ich bin ein Mensch.",
       "en": "I am a person.",
       "sv": "Jag är en människa.",
-      "nl": "Ik ben een mens."
+      "nl": "Ik ben een mens.",
+      "it": "Sono una persona.",
+      "es": "Soy una persona."
     },
     "alt": {},
     "chunks": [
@@ -34,7 +36,9 @@
       "de": "Meine Familie ist groß.",
       "en": "My family is big.",
       "sv": "Min familj är stor.",
-      "nl": "Mijn familie is groot."
+      "nl": "Mijn familie is groot.",
+      "it": "La mia famiglia è grande.",
+      "es": "Mi familia es grande."
     },
     "alt": {},
     "chunks": [

@@ -4,14 +4,26 @@
     "am": "ማርያም የኢየሱስ ክርስቶስ እናት ናት።",
     "tr": "maryam ye iyesus kirstos enat nat.",
     "level": "B2",
-    "uses": ["lex_maryam", "lex_iyesus"],
+    "uses": [
+      "lex_maryam",
+      "lex_iyesus"
+    ],
     "t": {
       "de": "Maria ist die Mutter von Jesus Christus.",
       "en": "Mary is the mother of Jesus Christ.",
       "sv": "Maria är Jesu Kristi mor.",
-      "nl": "Maria is de moeder van Jezus Christus."
+      "nl": "Maria is de moeder van Jezus Christus.",
+      "it": "Maria è la madre di Gesù Cristo.",
+      "es": "María es la madre de Jesucristo."
     },
-    "chunks": ["maryam", "ye", "iyesus", "kirstos", "enat", "nat"],
+    "chunks": [
+      "maryam",
+      "ye",
+      "iyesus",
+      "kirstos",
+      "enat",
+      "nat"
+    ],
     "verified": false
   },
   {
@@ -19,14 +31,23 @@
     "am": "መልአክ ሰማያዊ ነው።",
     "tr": "mel'ak semayawi newu.",
     "level": "B2",
-    "uses": ["lex_melak", "lex_adj_semayawi"],
+    "uses": [
+      "lex_melak",
+      "lex_adj_semayawi"
+    ],
     "t": {
       "de": "Der Engel ist himmlisch.",
       "en": "The angel is heavenly.",
       "sv": "Ängeln är himmelsk.",
-      "nl": "De engel is hemels."
+      "nl": "De engel is hemels.",
+      "it": "L'angelo è celeste.",
+      "es": "El ángel es celestial."
     },
-    "chunks": ["mel'ak", "semayawi", "newu"],
+    "chunks": [
+      "mel'ak",
+      "semayawi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +55,23 @@
     "am": "ነፍስ ሰማያዊ ናት።",
     "tr": "nefis semayawi nat.",
     "level": "B2",
-    "uses": ["lex_nefis", "lex_adj_semayawi"],
+    "uses": [
+      "lex_nefis",
+      "lex_adj_semayawi"
+    ],
     "t": {
       "de": "Die Seele ist himmlisch.",
       "en": "The soul is heavenly.",
       "sv": "Själen är himmelsk.",
-      "nl": "De ziel is hemels."
+      "nl": "De ziel is hemels.",
+      "it": "L'anima è celeste.",
+      "es": "El alma es celestial."
     },
-    "chunks": ["nefis", "semayawi", "nat"],
+    "chunks": [
+      "nefis",
+      "semayawi",
+      "nat"
+    ],
     "verified": false
   },
   {
@@ -49,14 +79,22 @@
     "am": "ገሃነም መጥፎ ነው።",
     "tr": "gehanem met'fo newu.",
     "level": "B2",
-    "uses": ["lex_gehanem"],
+    "uses": [
+      "lex_gehanem"
+    ],
     "t": {
       "de": "Die Hölle ist schlecht.",
       "en": "Hell is bad.",
       "sv": "Helvetet är dåligt.",
-      "nl": "De hel is slecht."
+      "nl": "De hel is slecht.",
+      "it": "L'inferno è brutto.",
+      "es": "El infierno es malo."
     },
-    "chunks": ["gehanem", "met'fo", "newu"],
+    "chunks": [
+      "gehanem",
+      "met'fo",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -64,14 +102,23 @@
     "am": "ካህኑ ሃሌሉያ ዘመረ።",
     "tr": "kahinu haleluya zemere.",
     "level": "B2",
-    "uses": ["lex_haleluya", "lex_kahin"],
+    "uses": [
+      "lex_haleluya",
+      "lex_kahin"
+    ],
     "t": {
       "de": "Der Priester sang Halleluja.",
       "en": "The priest sang Hallelujah.",
       "sv": "Prästen sjöng halleluja.",
-      "nl": "De priester zong halleluja."
+      "nl": "De priester zong halleluja.",
+      "it": "Il prete ha cantato l'alleluia.",
+      "es": "El sacerdote cantó aleluya."
     },
-    "chunks": ["kahinu", "haleluya", "zemere"],
+    "chunks": [
+      "kahinu",
+      "haleluya",
+      "zemere"
+    ],
     "verified": false
   }
 ]

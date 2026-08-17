@@ -10,7 +10,9 @@
       "de": "das Gebet",
       "en": "prayer",
       "sv": "bön",
-      "nl": "gebed"
+      "nl": "gebed",
+      "it": "la preghiera",
+      "es": "la oración"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Feiertag, das Fest",
       "en": "holiday, festival",
       "sv": "högtid, fest",
-      "nl": "feestdag"
+      "nl": "feestdag",
+      "it": "la festa, il giorno festivo",
+      "es": "la fiesta, el día festivo"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Fasten",
       "en": "fasting",
       "sv": "fasta",
-      "nl": "vasten"
+      "nl": "vasten",
+      "it": "il digiuno",
+      "es": "el ayuno"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Pilgerfahrt",
       "en": "pilgrimage",
       "sv": "pilgrimsfärd",
-      "nl": "pelgrimstocht"
+      "nl": "pelgrimstocht",
+      "it": "il pellegrinaggio",
+      "es": "la peregrinación"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Segen",
       "en": "blessing",
       "sv": "välsignelse",
-      "nl": "zegen"
+      "nl": "zegen",
+      "it": "la benedizione",
+      "es": "la bendición"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Kreuz",
       "en": "cross",
       "sv": "kors",
-      "nl": "kruis"
+      "nl": "kruis",
+      "it": "la croce",
+      "es": "la cruz"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Weihrauch",
       "en": "incense",
       "sv": "rökelse",
-      "nl": "wierook"
+      "nl": "wierook",
+      "it": "l'incenso",
+      "es": "el incienso"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Kloster",
       "en": "monastery",
       "sv": "kloster",
-      "nl": "klooster"
+      "nl": "klooster",
+      "it": "il monastero",
+      "es": "el monasterio"
     },
     "hint": {},
     "alt": {},

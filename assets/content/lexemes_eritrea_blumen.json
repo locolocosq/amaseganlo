@@ -1,8 +1,110 @@
 [
-  {"id":"lex_ti_blm_rose","am":"ሮዝ","tr":"rozi","pos":"noun","topic":"flowers","level":"TI","t":{"de":"die Rose","en":"rose","sv":"ros","nl":"roos"},"emoji":"🌹","verified":false},
-  {"id":"lex_ti_blm_dsy","am":"ዓደንጓል","tr":"'adengual","pos":"noun","topic":"flowers","level":"TI","t":{"de":"das Gänseblümchen","en":"daisy","sv":"tusensköna","nl":"madeliefje"},"emoji":"🌼","verified":false},
-  {"id":"lex_ti_blm_sunf","am":"ናይ ጸሓይ ዕንባባ","tr":"nay tsehay 'inbaba","pos":"noun","topic":"flowers","level":"TI","t":{"de":"die Sonnenblume","en":"sunflower","sv":"solros","nl":"zonnebloem"},"emoji":"🌻","verified":false},
-  {"id":"lex_ti_blm_petl","am":"ቅጠል ዕንባባ","tr":"qitel 'inbaba","pos":"noun","topic":"flowers","level":"TI","t":{"de":"das Blütenblatt","en":"petal","sv":"kronblad","nl":"bloemblaadje"},"emoji":"","verified":false},
-  {"id":"lex_ti_blm_bloom","am":"ዓንበበ","tr":"'anbebe","pos":"verb","topic":"flowers","level":"TI","t":{"de":"blühen","en":"to bloom, blossom","sv":"att blomma","nl":"bloeien"},"emoji":"","verified":false},
-  {"id":"lex_ti_blm_bqt","am":"ጨንገር ዕንባባ","tr":"chenger 'inbaba","pos":"noun","topic":"flowers","level":"TI","t":{"de":"der Blumenstrauß","en":"bouquet","sv":"bukett","nl":"boeket"},"emoji":"💐","verified":false}
+  {
+    "id": "lex_ti_blm_rose",
+    "am": "ሮዝ",
+    "tr": "rozi",
+    "pos": "noun",
+    "topic": "flowers",
+    "level": "TI",
+    "t": {
+      "de": "die Rose",
+      "en": "rose",
+      "sv": "ros",
+      "nl": "roos",
+      "it": "la rosa",
+      "es": "la rosa"
+    },
+    "emoji": "🌹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_blm_dsy",
+    "am": "ዓደንጓል",
+    "tr": "'adengual",
+    "pos": "noun",
+    "topic": "flowers",
+    "level": "TI",
+    "t": {
+      "de": "das Gänseblümchen",
+      "en": "daisy",
+      "sv": "tusensköna",
+      "nl": "madeliefje",
+      "it": "la margherita",
+      "es": "la margarita"
+    },
+    "emoji": "🌼",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_blm_sunf",
+    "am": "ናይ ጸሓይ ዕንባባ",
+    "tr": "nay tsehay 'inbaba",
+    "pos": "noun",
+    "topic": "flowers",
+    "level": "TI",
+    "t": {
+      "de": "die Sonnenblume",
+      "en": "sunflower",
+      "sv": "solros",
+      "nl": "zonnebloem",
+      "it": "il girasole",
+      "es": "el girasol"
+    },
+    "emoji": "🌻",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_blm_petl",
+    "am": "ቅጠል ዕንባባ",
+    "tr": "qitel 'inbaba",
+    "pos": "noun",
+    "topic": "flowers",
+    "level": "TI",
+    "t": {
+      "de": "das Blütenblatt",
+      "en": "petal",
+      "sv": "kronblad",
+      "nl": "bloemblaadje",
+      "it": "il petalo",
+      "es": "el pétalo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_blm_bloom",
+    "am": "ዓንበበ",
+    "tr": "'anbebe",
+    "pos": "verb",
+    "topic": "flowers",
+    "level": "TI",
+    "t": {
+      "de": "blühen",
+      "en": "to bloom, blossom",
+      "sv": "att blomma",
+      "nl": "bloeien",
+      "it": "fiorire",
+      "es": "florecer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_blm_bqt",
+    "am": "ጨንገር ዕንባባ",
+    "tr": "chenger 'inbaba",
+    "pos": "noun",
+    "topic": "flowers",
+    "level": "TI",
+    "t": {
+      "de": "der Blumenstrauß",
+      "en": "bouquet",
+      "sv": "bukett",
+      "nl": "boeket",
+      "it": "il mazzo di fiori",
+      "es": "el ramo de flores"
+    },
+    "emoji": "💐",
+    "verified": false
+  }
 ]

@@ -10,7 +10,9 @@
       "de": "die Gelegenheit",
       "en": "opportunity",
       "sv": "tillfälle",
-      "nl": "gelegenheid"
+      "nl": "gelegenheid",
+      "it": "l'occasione",
+      "es": "la oportunidad"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Erfahrung",
       "en": "experience",
       "sv": "erfarenhet",
-      "nl": "ervaring"
+      "nl": "ervaring",
+      "it": "l'esperienza",
+      "es": "la experiencia"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Erinnerung (Andenken)",
       "en": "memory (keepsake)",
       "sv": "minne",
-      "nl": "herinnering"
+      "nl": "herinnering",
+      "it": "il ricordo (souvenir)",
+      "es": "el recuerdo (souvenir)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Geheimnis",
       "en": "secret",
       "sv": "hemlighet",
-      "nl": "geheim"
+      "nl": "geheim",
+      "it": "il segreto",
+      "es": "el secreto"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Versprechen",
       "en": "promise",
       "sv": "löfte",
-      "nl": "belofte"
+      "nl": "belofte",
+      "it": "la promessa",
+      "es": "la promesa"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Überraschung",
       "en": "surprise",
       "sv": "överraskning",
-      "nl": "verrassing"
+      "nl": "verrassing",
+      "it": "la sorpresa",
+      "es": "la sorpresa"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Chance, das Los",
       "en": "chance, luck",
       "sv": "chans, lycka",
-      "nl": "kans, geluk"
+      "nl": "kans, geluk",
+      "it": "l'occasione, la fortuna",
+      "es": "la oportunidad, la suerte"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Abenteuer",
       "en": "adventure",
       "sv": "äventyr",
-      "nl": "avontuur"
+      "nl": "avontuur",
+      "it": "l'avventura",
+      "es": "la aventura"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "das Vertrauen",
       "en": "trust",
       "sv": "förtroende",
-      "nl": "vertrouwen"
+      "nl": "vertrouwen",
+      "it": "la fiducia",
+      "es": "la confianza"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Mühe, der Aufwand",
       "en": "effort",
       "sv": "ansträngning",
-      "nl": "moeite"
+      "nl": "moeite",
+      "it": "lo sforzo",
+      "es": "el esfuerzo"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "das Risiko",
       "en": "risk",
       "sv": "risk",
-      "nl": "risico"
+      "nl": "risico",
+      "it": "il rischio",
+      "es": "el riesgo"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "der Mut",
       "en": "courage",
       "sv": "mod",
-      "nl": "moed"
+      "nl": "moed",
+      "it": "il coraggio",
+      "es": "el valor"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "die Geduld",
       "en": "patience",
       "sv": "tålamod",
-      "nl": "geduld"
+      "nl": "geduld",
+      "it": "la pazienza",
+      "es": "la paciencia"
     },
     "hint": {},
     "alt": {},

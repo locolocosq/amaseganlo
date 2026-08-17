@@ -1,11 +1,164 @@
 [
-  {"id":"lex_ti_mtmt","am":"ሒሳብ","tr":"hisab (timhirti)","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Mathematik","en":"mathematics","sv":"matematik","nl":"wiskunde"},"emoji":"🔢","verified":false},
-  {"id":"lex_ti_syns","am":"ስነ ፍልጠት","tr":"sine filitet","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Wissenschaft","en":"science","sv":"vetenskap","nl":"wetenschap"},"emoji":"🔬","verified":false},
-  {"id":"lex_ti_gogrfy","am":"ጆግራፊ","tr":"jografi","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Geografie","en":"geography","sv":"geografi","nl":"aardrijkskunde"},"emoji":"🗺️","verified":false},
-  {"id":"lex_ti_hstry","am":"ታሪኽ (ትምህርቲ)","tr":"tarikh timhirti","pos":"noun","topic":"subjects","level":"TI","t":{"de":"das Fach Geschichte","en":"history (subject)","sv":"historia (ämne)","nl":"geschiedenis (vak)"},"emoji":"","verified":false},
-  {"id":"lex_ti_byolgy","am":"ስነ ህይወት","tr":"sine hiyiwet","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Biologie","en":"biology","sv":"biologi","nl":"biologie"},"emoji":"","verified":false},
-  {"id":"lex_ti_kmst","am":"ኬሚስትሪ","tr":"kemistri","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Chemie","en":"chemistry","sv":"kemi","nl":"scheikunde"},"emoji":"","verified":false},
-  {"id":"lex_ti_fzks","am":"ፊዚክስ","tr":"fizikis","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Physik","en":"physics","sv":"fysik","nl":"natuurkunde"},"emoji":"","verified":false},
-  {"id":"lex_ti_sport2","am":"ስፖርት (ትምህርቲ)","tr":"sport timhirti","pos":"noun","topic":"subjects","level":"TI","t":{"de":"das Fach Sport","en":"physical education","sv":"idrott (ämne)","nl":"lichamelijke opvoeding"},"emoji":"⚽","verified":false},
-  {"id":"lex_ti_fni","am":"ስነ ጥበብ","tr":"sine t'ibeb","pos":"noun","topic":"subjects","level":"TI","t":{"de":"die Kunst (Fach)","en":"art (subject)","sv":"konst (ämne)","nl":"kunst (vak)"},"emoji":"🎨","verified":false}
+  {
+    "id": "lex_ti_mtmt",
+    "am": "ሒሳብ",
+    "tr": "hisab (timhirti)",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Mathematik",
+      "en": "mathematics",
+      "sv": "matematik",
+      "nl": "wiskunde",
+      "it": "la matematica",
+      "es": "las matemáticas"
+    },
+    "emoji": "🔢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_syns",
+    "am": "ስነ ፍልጠት",
+    "tr": "sine filitet",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Wissenschaft",
+      "en": "science",
+      "sv": "vetenskap",
+      "nl": "wetenschap",
+      "it": "la scienza",
+      "es": "la ciencia"
+    },
+    "emoji": "🔬",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gogrfy",
+    "am": "ጆግራፊ",
+    "tr": "jografi",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Geografie",
+      "en": "geography",
+      "sv": "geografi",
+      "nl": "aardrijkskunde",
+      "it": "la geografia",
+      "es": "la geografía"
+    },
+    "emoji": "🗺️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hstry",
+    "am": "ታሪኽ (ትምህርቲ)",
+    "tr": "tarikh timhirti",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "das Fach Geschichte",
+      "en": "history (subject)",
+      "sv": "historia (ämne)",
+      "nl": "geschiedenis (vak)",
+      "it": "la storia (materia)",
+      "es": "la historia (asignatura)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_byolgy",
+    "am": "ስነ ህይወት",
+    "tr": "sine hiyiwet",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Biologie",
+      "en": "biology",
+      "sv": "biologi",
+      "nl": "biologie",
+      "it": "la biologia",
+      "es": "la biología"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kmst",
+    "am": "ኬሚስትሪ",
+    "tr": "kemistri",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Chemie",
+      "en": "chemistry",
+      "sv": "kemi",
+      "nl": "scheikunde",
+      "it": "la chimica",
+      "es": "la química"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fzks",
+    "am": "ፊዚክስ",
+    "tr": "fizikis",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Physik",
+      "en": "physics",
+      "sv": "fysik",
+      "nl": "natuurkunde",
+      "it": "la fisica",
+      "es": "la física"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sport2",
+    "am": "ስፖርት (ትምህርቲ)",
+    "tr": "sport timhirti",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "das Fach Sport",
+      "en": "physical education",
+      "sv": "idrott (ämne)",
+      "nl": "lichamelijke opvoeding",
+      "it": "educazione fisica",
+      "es": "educación física"
+    },
+    "emoji": "⚽",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fni",
+    "am": "ስነ ጥበብ",
+    "tr": "sine t'ibeb",
+    "pos": "noun",
+    "topic": "subjects",
+    "level": "TI",
+    "t": {
+      "de": "die Kunst (Fach)",
+      "en": "art (subject)",
+      "sv": "konst (ämne)",
+      "nl": "kunst (vak)",
+      "it": "l'arte (materia)",
+      "es": "el arte (asignatura)"
+    },
+    "emoji": "🎨",
+    "verified": false
+  }
 ]

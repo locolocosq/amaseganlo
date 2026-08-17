@@ -11,7 +11,9 @@
       "de": "Mir tut der Kopf weh.",
       "en": "My head hurts.",
       "sv": "Jag har huvudvärk.",
-      "nl": "Mijn hoofd doet pijn."
+      "nl": "Mijn hoofd doet pijn.",
+      "it": "Mi fa male la testa.",
+      "es": "Me duele la cabeza."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "Ich gehe zum Arzt.",
       "en": "I am going to the doctor.",
       "sv": "Jag går till läkaren.",
-      "nl": "Ik ga naar de dokter."
+      "nl": "Ik ga naar de dokter.",
+      "it": "Vado dal medico.",
+      "es": "Voy al médico."
     },
     "alt": {},
     "chunks": [

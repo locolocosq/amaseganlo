@@ -1,22 +1,402 @@
 [
-  {"id":"lex_hv2_awtobis","am":"አውቶብስ","tr":"awitobis","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"der Bus","en":"bus","sv":"buss","nl":"bus"},"hint":{},"alt":{},"emoji":"🚌","verified":true},
-  {"id":"lex_hv2_bajaj","am":"ባጃጅ","tr":"bajaj","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Auto-Rikscha","en":"tuk-tuk, auto-rickshaw","sv":"tuktuk","nl":"tuktuk"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_menged2","am":"አስፓልት","tr":"asipalit","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Asphaltstraße","en":"paved road","sv":"asfalterad väg","nl":"geasfalteerde weg"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_meredaja","am":"መንደርደሪያ","tr":"menderaderiya","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Startbahn, Rampe","en":"ramp, runway","sv":"ramp, landningsbana","nl":"oprit, landingsbaan"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hv2_v_mengodgede","am":"መንዳት","tr":"menidat","pos":"verb","topic":"traffic_2","level":"B2","t":{"de":"fahren (Fahrzeug)","en":"to drive","sv":"köra","nl":"rijden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_menaji","am":"ሹፌር","tr":"shuferi","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"der Fahrer","en":"driver","sv":"förare","nl":"chauffeur"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_menikise","am":"መንገደኛ","tr":"mengedegna","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"der Passagier","en":"passenger","sv":"passagerare","nl":"passagier"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_tiya","am":"ትኬት","tr":"tikiet","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"das Ticket, die Fahrkarte","en":"ticket","sv":"biljett","nl":"ticket"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_merkeb","am":"ጣቢያ","tr":"t'abiya","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Station, Haltestelle","en":"station, stop","sv":"station, hållplats","nl":"station, halte"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_v_mekomat","am":"ማቆም","tr":"mak'om","pos":"verb","topic":"traffic_2","level":"B2","t":{"de":"anhalten, stoppen","en":"to stop","sv":"stoppa","nl":"stoppen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_mebrek","am":"ፍጥነት","tr":"fit'inet","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Geschwindigkeit","en":"speed","sv":"hastighet","nl":"snelheid"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_akidet","am":"አደጋ","tr":"adega","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"der Unfall","en":"accident","sv":"olycka","nl":"ongeval"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_dinbir2","am":"የትራፊክ ምልክት","tr":"yetrafik milikit","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"das Verkehrsschild","en":"traffic sign","sv":"trafikskylt","nl":"verkeersbord"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hv2_menged_mekelakel","am":"የመንገድ ደህንነት","tr":"yemenged dehininet","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Verkehrssicherheit","en":"road safety","sv":"trafiksäkerhet","nl":"verkeersveiligheid"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hv2_v_metsigen","am":"ማቋረጥ","tr":"mak'waret'","pos":"verb","topic":"traffic_2","level":"B2","t":{"de":"überqueren","en":"to cross","sv":"korsa","nl":"oversteken"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_menged_bota","am":"የእግረኛ መንገድ","tr":"yeigregna menged","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"der Gehweg","en":"sidewalk, footpath","sv":"gångväg","nl":"trottoir"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hv2_meskelegna","am":"መስቀለኛ መንገድ","tr":"mesik'elegna menged","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"die Kreuzung","en":"intersection, crossing","sv":"korsning","nl":"kruispunt"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hv2_bnzin","am":"ቤንዚን","tr":"benizin","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"das Benzin","en":"gasoline, petrol","sv":"bensin","nl":"benzine"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_gomaye","am":"ጎማ","tr":"goma","pos":"noun","topic":"traffic_2","level":"B2","t":{"de":"der Reifen","en":"tire","sv":"däck","nl":"band"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hv2_v_mekemamet","am":"መጠገን","tr":"met'egen","pos":"verb","topic":"traffic_2","level":"B2","t":{"de":"reparieren (Fahrzeug)","en":"to repair (vehicle)","sv":"reparera (fordon)","nl":"repareren (voertuig)"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hv2_awtobis",
+    "am": "አውቶብስ",
+    "tr": "awitobis",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "der Bus",
+      "en": "bus",
+      "sv": "buss",
+      "nl": "bus",
+      "it": "l'autobus",
+      "es": "el autobús"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚌",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_bajaj",
+    "am": "ባጃጅ",
+    "tr": "bajaj",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Auto-Rikscha",
+      "en": "tuk-tuk, auto-rickshaw",
+      "sv": "tuktuk",
+      "nl": "tuktuk",
+      "it": "il tuk-tuk",
+      "es": "el tuk-tuk, el mototaxi"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_menged2",
+    "am": "አስፓልት",
+    "tr": "asipalit",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Asphaltstraße",
+      "en": "paved road",
+      "sv": "asfalterad väg",
+      "nl": "geasfalteerde weg",
+      "it": "la strada asfaltata",
+      "es": "la carretera asfaltada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_meredaja",
+    "am": "መንደርደሪያ",
+    "tr": "menderaderiya",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Startbahn, Rampe",
+      "en": "ramp, runway",
+      "sv": "ramp, landningsbana",
+      "nl": "oprit, landingsbaan",
+      "it": "la rampa, la pista",
+      "es": "la rampa, la pista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hv2_v_mengodgede",
+    "am": "መንዳት",
+    "tr": "menidat",
+    "pos": "verb",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "fahren (Fahrzeug)",
+      "en": "to drive",
+      "sv": "köra",
+      "nl": "rijden",
+      "it": "guidare",
+      "es": "conducir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_menaji",
+    "am": "ሹፌር",
+    "tr": "shuferi",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "der Fahrer",
+      "en": "driver",
+      "sv": "förare",
+      "nl": "chauffeur",
+      "it": "l'autista",
+      "es": "el conductor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_menikise",
+    "am": "መንገደኛ",
+    "tr": "mengedegna",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "der Passagier",
+      "en": "passenger",
+      "sv": "passagerare",
+      "nl": "passagier",
+      "it": "il passeggero",
+      "es": "el pasajero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_tiya",
+    "am": "ትኬት",
+    "tr": "tikiet",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "das Ticket, die Fahrkarte",
+      "en": "ticket",
+      "sv": "biljett",
+      "nl": "ticket",
+      "it": "il biglietto",
+      "es": "el billete"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_merkeb",
+    "am": "ጣቢያ",
+    "tr": "t'abiya",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Station, Haltestelle",
+      "en": "station, stop",
+      "sv": "station, hållplats",
+      "nl": "station, halte",
+      "it": "la stazione, la fermata",
+      "es": "la estación, la parada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_v_mekomat",
+    "am": "ማቆም",
+    "tr": "mak'om",
+    "pos": "verb",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "anhalten, stoppen",
+      "en": "to stop",
+      "sv": "stoppa",
+      "nl": "stoppen",
+      "it": "fermarsi, fermare",
+      "es": "parar, detenerse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_mebrek",
+    "am": "ፍጥነት",
+    "tr": "fit'inet",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Geschwindigkeit",
+      "en": "speed",
+      "sv": "hastighet",
+      "nl": "snelheid",
+      "it": "la velocità",
+      "es": "la velocidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_akidet",
+    "am": "አደጋ",
+    "tr": "adega",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "der Unfall",
+      "en": "accident",
+      "sv": "olycka",
+      "nl": "ongeval",
+      "it": "l'incidente",
+      "es": "el accidente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_dinbir2",
+    "am": "የትራፊክ ምልክት",
+    "tr": "yetrafik milikit",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "das Verkehrsschild",
+      "en": "traffic sign",
+      "sv": "trafikskylt",
+      "nl": "verkeersbord",
+      "it": "il segnale stradale",
+      "es": "la señal de tráfico"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hv2_menged_mekelakel",
+    "am": "የመንገድ ደህንነት",
+    "tr": "yemenged dehininet",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Verkehrssicherheit",
+      "en": "road safety",
+      "sv": "trafiksäkerhet",
+      "nl": "verkeersveiligheid",
+      "it": "la sicurezza stradale",
+      "es": "la seguridad vial"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hv2_v_metsigen",
+    "am": "ማቋረጥ",
+    "tr": "mak'waret'",
+    "pos": "verb",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "überqueren",
+      "en": "to cross",
+      "sv": "korsa",
+      "nl": "oversteken",
+      "it": "attraversare",
+      "es": "cruzar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_menged_bota",
+    "am": "የእግረኛ መንገድ",
+    "tr": "yeigregna menged",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "der Gehweg",
+      "en": "sidewalk, footpath",
+      "sv": "gångväg",
+      "nl": "trottoir",
+      "it": "il marciapiede",
+      "es": "la acera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hv2_meskelegna",
+    "am": "መስቀለኛ መንገድ",
+    "tr": "mesik'elegna menged",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "die Kreuzung",
+      "en": "intersection, crossing",
+      "sv": "korsning",
+      "nl": "kruispunt",
+      "it": "l'incrocio",
+      "es": "el cruce"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hv2_bnzin",
+    "am": "ቤንዚን",
+    "tr": "benizin",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "das Benzin",
+      "en": "gasoline, petrol",
+      "sv": "bensin",
+      "nl": "benzine",
+      "it": "la benzina",
+      "es": "la gasolina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_gomaye",
+    "am": "ጎማ",
+    "tr": "goma",
+    "pos": "noun",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "der Reifen",
+      "en": "tire",
+      "sv": "däck",
+      "nl": "band",
+      "it": "il pneumatico, la gomma",
+      "es": "la llanta, el neumático"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hv2_v_mekemamet",
+    "am": "መጠገን",
+    "tr": "met'egen",
+    "pos": "verb",
+    "topic": "traffic_2",
+    "level": "B2",
+    "t": {
+      "de": "reparieren (Fahrzeug)",
+      "en": "to repair (vehicle)",
+      "sv": "reparera (fordon)",
+      "nl": "repareren (voertuig)",
+      "it": "riparare (veicolo)",
+      "es": "reparar (vehículo)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

@@ -10,7 +10,9 @@
       "de": "die Kleidung",
       "en": "clothes",
       "sv": "kläder",
-      "nl": "kleding"
+      "nl": "kleding",
+      "it": "i vestiti",
+      "es": "la ropa"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Hemd",
       "en": "shirt",
       "sv": "skjorta",
-      "nl": "overhemd"
+      "nl": "overhemd",
+      "it": "la camicia",
+      "es": "la camisa"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Hose",
       "en": "trousers, pants",
       "sv": "byxor",
-      "nl": "broek"
+      "nl": "broek",
+      "it": "i pantaloni",
+      "es": "los pantalones"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Schuh",
       "en": "shoe",
       "sv": "sko",
-      "nl": "schoen"
+      "nl": "schoen",
+      "it": "la scarpa",
+      "es": "el zapato"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Mütze, der Hut",
       "en": "hat, cap",
       "sv": "mössa, keps",
-      "nl": "pet, hoed"
+      "nl": "pet, hoed",
+      "it": "il berretto, il cappello",
+      "es": "la gorra, el sombrero"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Kleid",
       "en": "dress",
       "sv": "klänning",
-      "nl": "jurk"
+      "nl": "jurk",
+      "it": "il vestito",
+      "es": "el vestido"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Jacke",
       "en": "jacket",
       "sv": "jacka",
-      "nl": "jas"
+      "nl": "jas",
+      "it": "la giacca",
+      "es": "la chaqueta"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Socke",
       "en": "sock",
       "sv": "strumpa",
-      "nl": "sok"
+      "nl": "sok",
+      "it": "il calzino",
+      "es": "el calcetín"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Gürtel",
       "en": "belt",
       "sv": "skärp",
-      "nl": "riem"
+      "nl": "riem",
+      "it": "la cintura",
+      "es": "el cinturón"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Brille",
       "en": "glasses",
       "sv": "glasögon",
-      "nl": "bril"
+      "nl": "bril",
+      "it": "gli occhiali",
+      "es": "las gafas"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Ring",
       "en": "ring",
       "sv": "ring",
-      "nl": "ring"
+      "nl": "ring",
+      "it": "l'anello",
+      "es": "el anillo"
     },
     "hint": {},
     "alt": {},

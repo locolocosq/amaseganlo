@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_grt_lawn","am":"ሳዕሪ ደምበ","tr":"sa'iri dembe","pos":"noun","topic":"gardens","level":"TI","t":{"de":"der Rasen","en":"lawn","sv":"gräsmatta","nl":"gazon"},"emoji":"🌱","verified":false},
-  {"id":"lex_ti_grt_hedge","am":"ዓጹድ","tr":"'atsud","pos":"noun","topic":"gardens","level":"TI","t":{"de":"die Hecke","en":"hedge","sv":"häck","nl":"heg"},"emoji":"","verified":false},
-  {"id":"lex_ti_grt_soil","am":"ሓመድ","tr":"hamed","pos":"noun","topic":"gardens","level":"TI","t":{"de":"die Erde (Boden)","en":"soil","sv":"jord","nl":"aarde (grond)"},"emoji":"","verified":false},
-  {"id":"lex_ti_grt_water2","am":"ኣማይ ኣትክልቲ","tr":"amai atikilti","pos":"verb","topic":"gardens","level":"TI","t":{"de":"gießen (Pflanzen)","en":"to water (plants)","sv":"vattna (växter)","nl":"water geven (planten)"},"emoji":"","verified":false},
-  {"id":"lex_ti_grt_plant2","am":"ተኸለ","tr":"tekele","pos":"verb","topic":"gardens","level":"TI","t":{"de":"pflanzen","en":"to plant","sv":"att plantera","nl":"planten"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_grt_lawn",
+    "am": "ሳዕሪ ደምበ",
+    "tr": "sa'iri dembe",
+    "pos": "noun",
+    "topic": "gardens",
+    "level": "TI",
+    "t": {
+      "de": "der Rasen",
+      "en": "lawn",
+      "sv": "gräsmatta",
+      "nl": "gazon",
+      "it": "il prato",
+      "es": "el césped"
+    },
+    "emoji": "🌱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_grt_hedge",
+    "am": "ዓጹድ",
+    "tr": "'atsud",
+    "pos": "noun",
+    "topic": "gardens",
+    "level": "TI",
+    "t": {
+      "de": "die Hecke",
+      "en": "hedge",
+      "sv": "häck",
+      "nl": "heg",
+      "it": "la siepe",
+      "es": "el seto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_grt_soil",
+    "am": "ሓመድ",
+    "tr": "hamed",
+    "pos": "noun",
+    "topic": "gardens",
+    "level": "TI",
+    "t": {
+      "de": "die Erde (Boden)",
+      "en": "soil",
+      "sv": "jord",
+      "nl": "aarde (grond)",
+      "it": "la terra (suolo)",
+      "es": "la tierra (suelo)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_grt_water2",
+    "am": "ኣማይ ኣትክልቲ",
+    "tr": "amai atikilti",
+    "pos": "verb",
+    "topic": "gardens",
+    "level": "TI",
+    "t": {
+      "de": "gießen (Pflanzen)",
+      "en": "to water (plants)",
+      "sv": "vattna (växter)",
+      "nl": "water geven (planten)",
+      "it": "annaffiare (le piante)",
+      "es": "regar (las plantas)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_grt_plant2",
+    "am": "ተኸለ",
+    "tr": "tekele",
+    "pos": "verb",
+    "topic": "gardens",
+    "level": "TI",
+    "t": {
+      "de": "pflanzen",
+      "en": "to plant",
+      "sv": "att plantera",
+      "nl": "planten",
+      "it": "piantare",
+      "es": "plantar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

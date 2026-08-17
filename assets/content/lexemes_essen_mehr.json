@@ -10,7 +10,9 @@
       "de": "die Zwiebel",
       "en": "onion",
       "sv": "lök",
-      "nl": "ui"
+      "nl": "ui",
+      "it": "la cipolla",
+      "es": "la cebolla"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Tomate",
       "en": "tomato",
       "sv": "tomat",
-      "nl": "tomaat"
+      "nl": "tomaat",
+      "it": "il pomodoro",
+      "es": "el tomate"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Kartoffel",
       "en": "potato",
       "sv": "potatis",
-      "nl": "aardappel"
+      "nl": "aardappel",
+      "it": "la patata",
+      "es": "la papa"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Knoblauch",
       "en": "garlic",
       "sv": "vitlök",
-      "nl": "knoflook"
+      "nl": "knoflook",
+      "it": "l'aglio",
+      "es": "el ajo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Avocado",
       "en": "avocado",
       "sv": "avokado",
-      "nl": "avocado"
+      "nl": "avocado",
+      "it": "l'avocado",
+      "es": "el aguacate"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Karotte",
       "en": "carrot",
       "sv": "morot",
-      "nl": "wortel"
+      "nl": "wortel",
+      "it": "la carota",
+      "es": "la zanahoria"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Linsen",
       "en": "lentils",
       "sv": "linser",
-      "nl": "linzen"
+      "nl": "linzen",
+      "it": "le lenticchie",
+      "es": "las lentejas"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Kohl (Grünkohl-Gericht)",
       "en": "collard greens",
       "sv": "kål",
-      "nl": "boerenkool"
+      "nl": "boerenkool",
+      "it": "il cavolo (piatto di verza)",
+      "es": "la col rizada (plato)"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "die Limette, die Zitrone",
       "en": "lime, lemon",
       "sv": "lime, citron",
-      "nl": "limoen, citroen"
+      "nl": "limoen, citroen",
+      "it": "il lime, il limone",
+      "es": "la lima, el limón"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Öl",
       "en": "oil",
       "sv": "olja",
-      "nl": "olie"
+      "nl": "olie",
+      "it": "l'olio",
+      "es": "el aceite"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "die Butter",
       "en": "butter",
       "sv": "smör",
-      "nl": "boter"
+      "nl": "boter",
+      "it": "il burro",
+      "es": "la mantequilla"
     },
     "hint": {},
     "alt": {},

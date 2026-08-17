@@ -10,7 +10,9 @@
       "de": "das Gericht (Ort)",
       "en": "court",
       "sv": "domstol",
-      "nl": "rechtbank"
+      "nl": "rechtbank",
+      "it": "il tribunale",
+      "es": "el tribunal"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Vertrag",
       "en": "contract",
       "sv": "kontrakt",
-      "nl": "contract"
+      "nl": "contract",
+      "it": "il contratto",
+      "es": "el contrato"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Zeuge",
       "en": "witness",
       "sv": "vittne",
-      "nl": "getuige"
+      "nl": "getuige",
+      "it": "il testimone",
+      "es": "el testigo"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Beweis",
       "en": "evidence",
       "sv": "bevis",
-      "nl": "bewijs"
+      "nl": "bewijs",
+      "it": "la prova",
+      "es": "la prueba"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Verbrechen",
       "en": "crime",
       "sv": "brott",
-      "nl": "misdaad"
+      "nl": "misdaad",
+      "it": "il crimine",
+      "es": "el crimen"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Gefängnis",
       "en": "prison",
       "sv": "fängelse",
-      "nl": "gevangenis"
+      "nl": "gevangenis",
+      "it": "la prigione",
+      "es": "la cárcel"
     },
     "hint": {},
     "alt": {},

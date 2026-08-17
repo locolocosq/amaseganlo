@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_kimal","am":"ጽንጽያ","tr":"tsintsiya","pos":"noun","topic":"insects","level":"TI","t":{"de":"die Ameise","en":"ant","sv":"myra","nl":"mier"},"emoji":"🐜","verified":false},
-  {"id":"lex_ti_pparfl","am":"ጃርት","tr":"jarti","pos":"noun","topic":"insects","level":"TI","t":{"de":"der Schmetterling","en":"butterfly","sv":"fjäril","nl":"vlinder"},"emoji":"🦋","verified":false},
-  {"id":"lex_ti_bqbq","am":"ኣንበጣ ልሙድ","tr":"anbet'a limud","pos":"noun","topic":"insects","level":"TI","t":{"de":"die Grille","en":"cricket","sv":"syrsa","nl":"krekel"},"emoji":"🦗","verified":false},
-  {"id":"lex_ti_qwrmb","am":"ደናግር","tr":"denagir","pos":"noun","topic":"insects","level":"TI","t":{"de":"die Raupe","en":"caterpillar","sv":"larv","nl":"rups"},"emoji":"🐛","verified":false},
-  {"id":"lex_ti_zabab","am":"ኣንበጣ በረኻ","tr":"anbet'a bereka","pos":"noun","topic":"insects","level":"TI","t":{"de":"die Wüstenheuschrecke","en":"desert locust","sv":"ökengräshoppa","nl":"woestijnsprinkhaan"},"emoji":"","verified":false},
-  {"id":"lex_ti_kbrkb","am":"ኣናህብ","tr":"anahib","pos":"noun","topic":"insects","level":"TI","t":{"de":"die Termite","en":"termite","sv":"termit","nl":"termiet"},"emoji":"","verified":false},
-  {"id":"lex_ti_shhi","am":"ልደ ቁርበት","tr":"lide qurbet","pos":"noun","topic":"insects","level":"TI","t":{"de":"der Skorpion","en":"scorpion","sv":"skorpion","nl":"schorpioen"},"emoji":"🦂","verified":false}
+  {
+    "id": "lex_ti_kimal",
+    "am": "ጽንጽያ",
+    "tr": "tsintsiya",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "die Ameise",
+      "en": "ant",
+      "sv": "myra",
+      "nl": "mier",
+      "it": "la formica",
+      "es": "la hormiga"
+    },
+    "emoji": "🐜",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pparfl",
+    "am": "ጃርት",
+    "tr": "jarti",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "der Schmetterling",
+      "en": "butterfly",
+      "sv": "fjäril",
+      "nl": "vlinder",
+      "it": "la farfalla",
+      "es": "la mariposa"
+    },
+    "emoji": "🦋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bqbq",
+    "am": "ኣንበጣ ልሙድ",
+    "tr": "anbet'a limud",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "die Grille",
+      "en": "cricket",
+      "sv": "syrsa",
+      "nl": "krekel",
+      "it": "il grillo",
+      "es": "el grillo"
+    },
+    "emoji": "🦗",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qwrmb",
+    "am": "ደናግር",
+    "tr": "denagir",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "die Raupe",
+      "en": "caterpillar",
+      "sv": "larv",
+      "nl": "rups",
+      "it": "il bruco",
+      "es": "la oruga"
+    },
+    "emoji": "🐛",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zabab",
+    "am": "ኣንበጣ በረኻ",
+    "tr": "anbet'a bereka",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "die Wüstenheuschrecke",
+      "en": "desert locust",
+      "sv": "ökengräshoppa",
+      "nl": "woestijnsprinkhaan",
+      "it": "la locusta del deserto",
+      "es": "la langosta del desierto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbrkb",
+    "am": "ኣናህብ",
+    "tr": "anahib",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "die Termite",
+      "en": "termite",
+      "sv": "termit",
+      "nl": "termiet",
+      "it": "la termite",
+      "es": "la termita"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shhi",
+    "am": "ልደ ቁርበት",
+    "tr": "lide qurbet",
+    "pos": "noun",
+    "topic": "insects",
+    "level": "TI",
+    "t": {
+      "de": "der Skorpion",
+      "en": "scorpion",
+      "sv": "skorpion",
+      "nl": "schorpioen",
+      "it": "lo scorpione",
+      "es": "el escorpión"
+    },
+    "emoji": "🦂",
+    "verified": false
+  }
 ]

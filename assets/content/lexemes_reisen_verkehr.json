@@ -10,7 +10,9 @@
       "de": "der Bus",
       "en": "bus",
       "sv": "buss",
-      "nl": "bus"
+      "nl": "bus",
+      "it": "l'autobus",
+      "es": "el autobús"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Taxi",
       "en": "taxi",
       "sv": "taxi",
-      "nl": "taxi"
+      "nl": "taxi",
+      "it": "il taxi",
+      "es": "el taxi"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Flugzeug",
       "en": "airplane",
       "sv": "flygplan",
-      "nl": "vliegtuig"
+      "nl": "vliegtuig",
+      "it": "l'aereo",
+      "es": "el avión"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Ticket, die Fahrkarte",
       "en": "ticket",
       "sv": "biljett",
-      "nl": "ticket"
+      "nl": "ticket",
+      "it": "il biglietto",
+      "es": "el billete"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Gepäck, die Tasche",
       "en": "luggage, bag",
       "sv": "bagage",
-      "nl": "bagage"
+      "nl": "bagage",
+      "it": "il bagaglio, la borsa",
+      "es": "el equipaje, la bolsa"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Auto",
       "en": "car",
       "sv": "bil",
-      "nl": "auto"
+      "nl": "auto",
+      "it": "l'auto",
+      "es": "el coche"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Zug",
       "en": "train",
       "sv": "tåg",
-      "nl": "trein"
+      "nl": "trein",
+      "it": "il treno",
+      "es": "el tren"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "fahren",
       "en": "to drive",
       "sv": "köra",
-      "nl": "rijden"
+      "nl": "rijden",
+      "it": "guidare",
+      "es": "conducir"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "reisen",
       "en": "to travel",
       "sv": "resa",
-      "nl": "reizen"
+      "nl": "reizen",
+      "it": "viaggiare",
+      "es": "viajar"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "ankommen",
       "en": "to arrive",
       "sv": "anlända",
-      "nl": "aankomen"
+      "nl": "aankomen",
+      "it": "arrivare",
+      "es": "llegar"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Reisepass",
       "en": "passport",
       "sv": "pass",
-      "nl": "paspoort"
+      "nl": "paspoort",
+      "it": "il passaporto",
+      "es": "el pasaporte"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "das Fahrrad",
       "en": "bicycle",
       "sv": "cykel",
-      "nl": "fiets"
+      "nl": "fiets",
+      "it": "la bicicletta",
+      "es": "la bicicleta"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "das Schiff",
       "en": "ship",
       "sv": "skepp",
-      "nl": "schip"
+      "nl": "schip",
+      "it": "la nave",
+      "es": "el barco"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "die Landkarte",
       "en": "map",
       "sv": "karta",
-      "nl": "kaart"
+      "nl": "kaart",
+      "it": "la mappa",
+      "es": "el mapa"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "der Hafen",
       "en": "port, harbor",
       "sv": "hamn",
-      "nl": "haven"
+      "nl": "haven",
+      "it": "il porto",
+      "es": "el puerto"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "die Grenze",
       "en": "border",
       "sv": "gräns",
-      "nl": "grens"
+      "nl": "grens",
+      "it": "il confine",
+      "es": "la frontera"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "das Visum",
       "en": "visa",
       "sv": "visum",
-      "nl": "visum"
+      "nl": "visum",
+      "it": "il visto",
+      "es": "el visado"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "der Tourist",
       "en": "tourist",
       "sv": "turist",
-      "nl": "toerist"
+      "nl": "toerist",
+      "it": "il turista",
+      "es": "el turista"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "die Brücke",
       "en": "bridge",
       "sv": "bro",
-      "nl": "brug"
+      "nl": "brug",
+      "it": "il ponte",
+      "es": "el puente"
     },
     "hint": {},
     "alt": {},

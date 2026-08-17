@@ -10,7 +10,9 @@
       "de": "jedoch, allerdings",
       "en": "however",
       "sv": "dock, emellertid",
-      "nl": "echter, evenwel"
+      "nl": "echter, evenwel",
+      "it": "tuttavia, però",
+      "es": "sin embargo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "zum Beispiel",
       "en": "for example",
       "sv": "till exempel",
-      "nl": "bijvoorbeeld"
+      "nl": "bijvoorbeeld",
+      "it": "per esempio",
+      "es": "por ejemplo"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "im Allgemeinen, insgesamt",
       "en": "generally, overall",
       "sv": "i allmänhet",
-      "nl": "over het algemeen"
+      "nl": "over het algemeen",
+      "it": "in generale, nel complesso",
+      "es": "en general"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "abschließend, zusammenfassend",
       "en": "in conclusion",
       "sv": "sammanfattningsvis",
-      "nl": "tot slot"
+      "nl": "tot slot",
+      "it": "in conclusione, per riassumere",
+      "es": "en conclusión, en resumen"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "außerdem, zusätzlich dazu",
       "en": "in addition, furthermore",
       "sv": "dessutom",
-      "nl": "bovendien"
+      "nl": "bovendien",
+      "it": "inoltre",
+      "es": "además"
     },
     "hint": {},
     "alt": {},

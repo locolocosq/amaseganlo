@@ -10,7 +10,9 @@
       "de": "die Person, der Mensch",
       "en": "person, human",
       "sv": "person, människa",
-      "nl": "persoon, mens"
+      "nl": "persoon, mens",
+      "it": "la persona",
+      "es": "la persona"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Familie",
       "en": "family",
       "sv": "familj",
-      "nl": "familie"
+      "nl": "familie",
+      "it": "la famiglia",
+      "es": "la familia"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Mutter",
       "en": "mother",
       "sv": "mamma",
-      "nl": "moeder"
+      "nl": "moeder",
+      "it": "la madre",
+      "es": "la madre"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Vater",
       "en": "father",
       "sv": "pappa",
-      "nl": "vader"
+      "nl": "vader",
+      "it": "il padre",
+      "es": "el padre"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Kind",
       "en": "child",
       "sv": "barn",
-      "nl": "kind"
+      "nl": "kind",
+      "it": "il bambino",
+      "es": "el niño"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Bruder",
       "en": "brother",
       "sv": "bror",
-      "nl": "broer"
+      "nl": "broer",
+      "it": "il fratello",
+      "es": "el hermano"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Schwester",
       "en": "sister",
       "sv": "syster",
-      "nl": "zus"
+      "nl": "zus",
+      "it": "la sorella",
+      "es": "la hermana"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Freund, die Freundin",
       "en": "friend",
       "sv": "vän",
-      "nl": "vriend"
+      "nl": "vriend",
+      "it": "l'amico, l'amica",
+      "es": "el amigo, la amiga"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "der Mann, männlich",
       "en": "man, male",
       "sv": "man, manlig",
-      "nl": "man, mannelijk"
+      "nl": "man, mannelijk",
+      "it": "l'uomo, maschile",
+      "es": "el hombre, masculino"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "die Frau, weiblich",
       "en": "woman, female",
       "sv": "kvinna, kvinnlig",
-      "nl": "vrouw, vrouwelijk"
+      "nl": "vrouw, vrouwelijk",
+      "it": "la donna, femminile",
+      "es": "la mujer, femenino"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "das Baby",
       "en": "baby",
       "sv": "bebis",
-      "nl": "baby"
+      "nl": "baby",
+      "it": "il bebè",
+      "es": "el bebé"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Großmutter/der Großvater",
       "en": "grandmother/grandfather",
       "sv": "mormor/morfar",
-      "nl": "grootmoeder/grootvader"
+      "nl": "grootmoeder/grootvader",
+      "it": "la nonna/il nonno",
+      "es": "la abuela/el abuelo"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "der Onkel",
       "en": "uncle",
       "sv": "farbror",
-      "nl": "oom"
+      "nl": "oom",
+      "it": "lo zio",
+      "es": "el tío"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "die Tante",
       "en": "aunt",
       "sv": "faster",
-      "nl": "tante"
+      "nl": "tante",
+      "it": "la zia",
+      "es": "la tía"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "die Leute, die Menschen",
       "en": "people",
       "sv": "människor",
-      "nl": "mensen"
+      "nl": "mensen",
+      "it": "la gente, le persone",
+      "es": "la gente, las personas"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "der Ehemann",
       "en": "husband",
       "sv": "make",
-      "nl": "echtgenoot"
+      "nl": "echtgenoot",
+      "it": "il marito",
+      "es": "el marido"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "die Ehefrau",
       "en": "wife",
       "sv": "maka",
-      "nl": "echtgenote"
+      "nl": "echtgenote",
+      "it": "la moglie",
+      "es": "la esposa"
     },
     "hint": {},
     "alt": {},

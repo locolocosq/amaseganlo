@@ -10,7 +10,9 @@
       "de": "der Basketball",
       "en": "basketball",
       "sv": "basket",
-      "nl": "basketbal"
+      "nl": "basketbal",
+      "it": "il basket",
+      "es": "el baloncesto"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Schwimmen",
       "en": "swimming",
       "sv": "simning",
-      "nl": "zwemmen"
+      "nl": "zwemmen",
+      "it": "il nuoto",
+      "es": "la natación"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Laufen (Sport)",
       "en": "running",
       "sv": "löpning",
-      "nl": "hardlopen"
+      "nl": "hardlopen",
+      "it": "la corsa",
+      "es": "el atletismo, correr"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Team, die Mannschaft",
       "en": "team",
       "sv": "lag",
-      "nl": "team"
+      "nl": "team",
+      "it": "la squadra",
+      "es": "el equipo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Schiedsrichter",
       "en": "referee",
       "sv": "domare",
-      "nl": "scheidsrechter"
+      "nl": "scheidsrechter",
+      "it": "l'arbitro",
+      "es": "el árbitro"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Tor (Sport)",
       "en": "goal",
       "sv": "mål",
-      "nl": "doelpunt"
+      "nl": "doelpunt",
+      "it": "il gol",
+      "es": "el gol"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "das Tennis",
       "en": "tennis",
       "sv": "tennis",
-      "nl": "tennis"
+      "nl": "tennis",
+      "it": "il tennis",
+      "es": "el tenis"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Volleyball",
       "en": "volleyball",
       "sv": "volleyboll",
-      "nl": "volleybal"
+      "nl": "volleybal",
+      "it": "la pallavolo",
+      "es": "el voleibol"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "das Radfahren",
       "en": "cycling",
       "sv": "cykling",
-      "nl": "fietsen"
+      "nl": "fietsen",
+      "it": "il ciclismo",
+      "es": "el ciclismo"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Fitnessstudio",
       "en": "gym, fitness",
       "sv": "gym",
-      "nl": "sportschool"
+      "nl": "sportschool",
+      "it": "la palestra",
+      "es": "el gimnasio"
     },
     "hint": {},
     "alt": {},

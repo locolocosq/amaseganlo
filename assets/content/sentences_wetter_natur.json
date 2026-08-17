@@ -12,7 +12,9 @@
       "de": "Heute ist Sonne.",
       "en": "Today it's sunny.",
       "sv": "Idag är det soligt.",
-      "nl": "Vandaag is het zonnig."
+      "nl": "Vandaag is het zonnig.",
+      "it": "Oggi c'è il sole.",
+      "es": "Hoy hace sol."
     },
     "alt": {},
     "chunks": [
@@ -35,7 +37,9 @@
       "de": "Der Hund ist schön.",
       "en": "The dog is nice.",
       "sv": "Hunden är fin.",
-      "nl": "De hond is mooi."
+      "nl": "De hond is mooi.",
+      "it": "Il cane è bello.",
+      "es": "El perro es bonito."
     },
     "alt": {},
     "chunks": [

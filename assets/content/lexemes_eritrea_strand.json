@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_str_sand","am":"ሑጻ","tr":"hutsa","pos":"noun","topic":"beach","level":"TI","t":{"de":"der Sand","en":"sand","sv":"sand","nl":"zand"},"emoji":"🏖️","verified":false},
-  {"id":"lex_ti_str_wave","am":"ማዕበል","tr":"ma'ibel","pos":"noun","topic":"beach","level":"TI","t":{"de":"die Welle","en":"wave","sv":"våg","nl":"golf (water)"},"emoji":"🌊","verified":false},
-  {"id":"lex_ti_str_swimsuit","am":"ናይ ምሕምባስ ክዳን","tr":"nay mihimbas kidan","pos":"noun","topic":"beach","level":"TI","t":{"de":"der Badeanzug","en":"swimsuit","sv":"baddräkt","nl":"zwempak"},"emoji":"🩱","verified":false},
-  {"id":"lex_ti_str_umbrl","am":"ጽላል ጸሓይ","tr":"tsilal tsehay","pos":"noun","topic":"beach","level":"TI","t":{"de":"der Sonnenschirm","en":"beach umbrella","sv":"parasoll","nl":"strandparasol"},"emoji":"🏖️","verified":false},
-  {"id":"lex_ti_str_sunsc","am":"ቅብኢ ጸሓይ","tr":"qib'i tsehay","pos":"noun","topic":"beach","level":"TI","t":{"de":"die Sonnencreme","en":"sunscreen","sv":"solkräm","nl":"zonnebrand"},"emoji":"🧴","verified":false}
+  {
+    "id": "lex_ti_str_sand",
+    "am": "ሑጻ",
+    "tr": "hutsa",
+    "pos": "noun",
+    "topic": "beach",
+    "level": "TI",
+    "t": {
+      "de": "der Sand",
+      "en": "sand",
+      "sv": "sand",
+      "nl": "zand",
+      "it": "la sabbia",
+      "es": "la arena"
+    },
+    "emoji": "🏖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_str_wave",
+    "am": "ማዕበል",
+    "tr": "ma'ibel",
+    "pos": "noun",
+    "topic": "beach",
+    "level": "TI",
+    "t": {
+      "de": "die Welle",
+      "en": "wave",
+      "sv": "våg",
+      "nl": "golf (water)",
+      "it": "l'onda",
+      "es": "la ola"
+    },
+    "emoji": "🌊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_str_swimsuit",
+    "am": "ናይ ምሕምባስ ክዳን",
+    "tr": "nay mihimbas kidan",
+    "pos": "noun",
+    "topic": "beach",
+    "level": "TI",
+    "t": {
+      "de": "der Badeanzug",
+      "en": "swimsuit",
+      "sv": "baddräkt",
+      "nl": "zwempak",
+      "it": "il costume da bagno",
+      "es": "el traje de baño"
+    },
+    "emoji": "🩱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_str_umbrl",
+    "am": "ጽላል ጸሓይ",
+    "tr": "tsilal tsehay",
+    "pos": "noun",
+    "topic": "beach",
+    "level": "TI",
+    "t": {
+      "de": "der Sonnenschirm",
+      "en": "beach umbrella",
+      "sv": "parasoll",
+      "nl": "strandparasol",
+      "it": "l'ombrellone",
+      "es": "la sombrilla"
+    },
+    "emoji": "🏖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_str_sunsc",
+    "am": "ቅብኢ ጸሓይ",
+    "tr": "qib'i tsehay",
+    "pos": "noun",
+    "topic": "beach",
+    "level": "TI",
+    "t": {
+      "de": "die Sonnencreme",
+      "en": "sunscreen",
+      "sv": "solkräm",
+      "nl": "zonnebrand",
+      "it": "la crema solare",
+      "es": "el protector solar"
+    },
+    "emoji": "🧴",
+    "verified": false
+  }
 ]

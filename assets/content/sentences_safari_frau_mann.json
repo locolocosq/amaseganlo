@@ -13,7 +13,9 @@
       "de": "Er ist nett.",
       "en": "He is kind.",
       "sv": "Han är snäll.",
-      "nl": "Hij is aardig."
+      "nl": "Hij is aardig.",
+      "it": "Lui è gentile.",
+      "es": "Él es simpático."
     },
     "alt": {},
     "chunks": [
@@ -37,7 +39,9 @@
       "de": "Sie ist nett.",
       "en": "She is kind.",
       "sv": "Hon är snäll.",
-      "nl": "Zij is aardig."
+      "nl": "Zij is aardig.",
+      "it": "Lei è gentile.",
+      "es": "Ella es simpática."
     },
     "alt": {},
     "chunks": [
@@ -61,7 +65,9 @@
       "de": "Du (männlich) bist glücklich.",
       "en": "You (masc.) are happy.",
       "sv": "Du (maskulinum) är glad.",
-      "nl": "Jij (mannelijk) bent gelukkig."
+      "nl": "Jij (mannelijk) bent gelukkig.",
+      "it": "Tu (maschile) sei felice.",
+      "es": "Tú (masculino) estás feliz."
     },
     "alt": {},
     "chunks": [
@@ -85,7 +91,9 @@
       "de": "Du (weiblich) bist glücklich.",
       "en": "You (fem.) are happy.",
       "sv": "Du (femininum) är glad.",
-      "nl": "Jij (vrouwelijk) bent gelukkig."
+      "nl": "Jij (vrouwelijk) bent gelukkig.",
+      "it": "Tu (femminile) sei felice.",
+      "es": "Tú (femenino) estás feliz."
     },
     "alt": {},
     "chunks": [
@@ -109,7 +117,9 @@
       "de": "Er ist groß.",
       "en": "He is big/tall.",
       "sv": "Han är stor.",
-      "nl": "Hij is groot."
+      "nl": "Hij is groot.",
+      "it": "Lui è alto/grande.",
+      "es": "Él es alto/grande."
     },
     "alt": {},
     "chunks": [
@@ -133,7 +143,9 @@
       "de": "Sie ist groß.",
       "en": "She is big/tall.",
       "sv": "Hon är stor.",
-      "nl": "Zij is groot."
+      "nl": "Zij is groot.",
+      "it": "Lei è alta/grande.",
+      "es": "Ella es alta/grande."
     },
     "alt": {},
     "chunks": [
@@ -157,7 +169,9 @@
       "de": "Du (männlich) bist klug.",
       "en": "You (masc.) are smart.",
       "sv": "Du (maskulinum) är smart.",
-      "nl": "Jij (mannelijk) bent slim."
+      "nl": "Jij (mannelijk) bent slim.",
+      "it": "Tu (maschile) sei intelligente.",
+      "es": "Tú (masculino) eres inteligente."
     },
     "alt": {},
     "chunks": [
@@ -181,7 +195,9 @@
       "de": "Du (weiblich) bist klug.",
       "en": "You (fem.) are smart.",
       "sv": "Du (femininum) är smart.",
-      "nl": "Jij (vrouwelijk) bent slim."
+      "nl": "Jij (vrouwelijk) bent slim.",
+      "it": "Tu (femminile) sei intelligente.",
+      "es": "Tú (femenino) eres inteligente."
     },
     "alt": {},
     "chunks": [
@@ -205,7 +221,9 @@
       "de": "Er ist klein.",
       "en": "He is small.",
       "sv": "Han är liten.",
-      "nl": "Hij is klein."
+      "nl": "Hij is klein.",
+      "it": "Lui è piccolo.",
+      "es": "Él es pequeño."
     },
     "alt": {},
     "chunks": [
@@ -229,7 +247,9 @@
       "de": "Sie ist klein.",
       "en": "She is small.",
       "sv": "Hon är liten.",
-      "nl": "Zij is klein."
+      "nl": "Zij is klein.",
+      "it": "Lei è piccola.",
+      "es": "Ella es pequeña."
     },
     "alt": {},
     "chunks": [

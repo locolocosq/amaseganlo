@@ -10,7 +10,9 @@
       "de": "die Botschaft (diplomatisch)",
       "en": "embassy",
       "sv": "ambassaden",
-      "nl": "de ambassade"
+      "nl": "de ambassade",
+      "it": "l'ambasciata",
+      "es": "la embajada"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Botschafter, die Botschafterin",
       "en": "ambassador",
       "sv": "ambassadör",
-      "nl": "ambassadeur"
+      "nl": "ambassadeur",
+      "it": "l'ambasciatore, l'ambasciatrice",
+      "es": "el embajador, la embajadora"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Abkommen, der Vertrag",
       "en": "agreement, treaty",
       "sv": "avtal, fördrag",
-      "nl": "overeenkomst, verdrag"
+      "nl": "overeenkomst, verdrag",
+      "it": "l'accordo, il trattato",
+      "es": "el acuerdo, el tratado"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Verhandlung",
       "en": "negotiation",
       "sv": "förhandling",
-      "nl": "onderhandeling"
+      "nl": "onderhandeling",
+      "it": "la trattativa",
+      "es": "la negociación"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Bündnis",
       "en": "alliance",
       "sv": "allians",
-      "nl": "alliantie"
+      "nl": "alliantie",
+      "it": "l'alleanza",
+      "es": "la alianza"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "verhandeln",
       "en": "to negotiate",
       "sv": "förhandla",
-      "nl": "onderhandelen"
+      "nl": "onderhandelen",
+      "it": "negoziare",
+      "es": "negociar"
     },
     "hint": {},
     "alt": {},

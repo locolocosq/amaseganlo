@@ -10,7 +10,9 @@
       "de": "schnell",
       "en": "fast",
       "sv": "snabb",
-      "nl": "snel"
+      "nl": "snel",
+      "it": "veloce",
+      "es": "rápido"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "langsam",
       "en": "slow",
       "sv": "långsam",
-      "nl": "langzaam"
+      "nl": "langzaam",
+      "it": "lento",
+      "es": "lento"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "sauber",
       "en": "clean",
       "sv": "ren",
-      "nl": "schoon"
+      "nl": "schoon",
+      "it": "pulito",
+      "es": "limpio"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "schmutzig",
       "en": "dirty",
       "sv": "smutsig",
-      "nl": "vuil"
+      "nl": "vuil",
+      "it": "sporco",
+      "es": "sucio"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "voll",
       "en": "full",
       "sv": "full",
-      "nl": "vol"
+      "nl": "vol",
+      "it": "pieno",
+      "es": "lleno"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "leer",
       "en": "empty",
       "sv": "tom",
-      "nl": "leeg"
+      "nl": "leeg",
+      "it": "vuoto",
+      "es": "vacío"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "reich",
       "en": "rich",
       "sv": "rik",
-      "nl": "rijk"
+      "nl": "rijk",
+      "it": "ricco",
+      "es": "rico"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "arm",
       "en": "poor",
       "sv": "fattig",
-      "nl": "arm"
+      "nl": "arm",
+      "it": "povero",
+      "es": "pobre"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "stark",
       "en": "strong",
       "sv": "stark",
-      "nl": "sterk"
+      "nl": "sterk",
+      "it": "forte",
+      "es": "fuerte"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "schwach",
       "en": "weak",
       "sv": "svag",
-      "nl": "zwak"
+      "nl": "zwak",
+      "it": "debole",
+      "es": "débil"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "jung, der/die Jugendliche",
       "en": "young, youth",
       "sv": "ung, ungdom",
-      "nl": "jong, jongere"
+      "nl": "jong, jongere",
+      "it": "giovane, il/la giovane",
+      "es": "joven, el/la joven"
     },
     "hint": {},
     "alt": {},

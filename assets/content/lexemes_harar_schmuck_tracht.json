@@ -1,19 +1,342 @@
 [
-  {"id":"lex_hsc_getagget","am":"ጌጣ ጌጥ","tr":"get'a get'","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der Schmuck","en":"jewelry, ornaments","sv":"smycken","nl":"sieraden"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_aniget_get","am":"አንገት ጌጥ","tr":"aniget get'","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"die Halskette","en":"necklace","sv":"halsband","nl":"ketting"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_kelebet","am":"ቀለበት","tr":"k'elebet","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der Ring","en":"ring","sv":"ring","nl":"ring"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_yejoro_get","am":"የጆሮ ጌጥ","tr":"yejoro get'","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der Ohrring","en":"earring","sv":"örhänge","nl":"oorbel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_anibar","am":"አንባር","tr":"anibar","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"das Armband","en":"bracelet","sv":"armband","nl":"armband"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_netela","am":"ነጠላ","tr":"net'ela","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der traditionelle Schal","en":"traditional white shawl","sv":"traditionell sjal","nl":"traditionele sjaal"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_kaba","am":"ካባ","tr":"kaba","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der Umhang, die Robe","en":"ceremonial cape, cloak","sv":"cape","nl":"mantel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_kebeto","am":"ቀበቶ","tr":"k'ebeto","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der Gürtel","en":"belt, sash","sv":"skärp","nl":"riem"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_kofiya","am":"ኮፍያ","tr":"kofiya","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"der Hut","en":"hat, cap","sv":"hatt","nl":"hoed"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_doka","am":"ዶቃ","tr":"dok'a","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"die Perle","en":"bead","sv":"pärla","nl":"kraal"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_bir2","am":"ብር","tr":"bir","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"das Silber","en":"silver","sv":"silver","nl":"zilver"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_werk2","am":"ወርቅ","tr":"werk'","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"das Gold","en":"gold","sv":"guld","nl":"goud"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_adj_bahilawi2","am":"ባህላዊ","tr":"bahilawi","pos":"adjective","topic":"jewelry_attire","level":"B2","t":{"de":"traditionell, kulturell","en":"traditional, cultural","sv":"traditionell","nl":"traditioneel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_v_melibes","am":"መልበስ","tr":"melibes","pos":"verb","topic":"jewelry_attire","level":"B2","t":{"de":"tragen, anziehen","en":"to wear","sv":"bära, ha på sig","nl":"dragen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_libis","am":"ልብስ","tr":"libis","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"die Kleidung","en":"clothes, clothing","sv":"kläder","nl":"kleding"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_nidif","am":"ንድፍ","tr":"nidif","pos":"noun","topic":"jewelry_attire","level":"B2","t":{"de":"das Muster, Design","en":"design, pattern","sv":"design, mönster","nl":"ontwerp, patroon"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hsc_adj_habesha","am":"ሀበሻ","tr":"habesha","pos":"adjective","topic":"jewelry_attire","level":"B2","t":{"de":"äthiopisch, habeschisch","en":"Ethiopian, Habesha style","sv":"etiopisk","nl":"Ethiopisch"},"hint":{},"alt":{},"emoji":"","verified":true}
+  {
+    "id": "lex_hsc_getagget",
+    "am": "ጌጣ ጌጥ",
+    "tr": "get'a get'",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der Schmuck",
+      "en": "jewelry, ornaments",
+      "sv": "smycken",
+      "nl": "sieraden",
+      "it": "i gioielli",
+      "es": "las joyas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_aniget_get",
+    "am": "አንገት ጌጥ",
+    "tr": "aniget get'",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "die Halskette",
+      "en": "necklace",
+      "sv": "halsband",
+      "nl": "ketting",
+      "it": "la collana",
+      "es": "el collar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_kelebet",
+    "am": "ቀለበት",
+    "tr": "k'elebet",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der Ring",
+      "en": "ring",
+      "sv": "ring",
+      "nl": "ring",
+      "it": "l'anello",
+      "es": "el anillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_yejoro_get",
+    "am": "የጆሮ ጌጥ",
+    "tr": "yejoro get'",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der Ohrring",
+      "en": "earring",
+      "sv": "örhänge",
+      "nl": "oorbel",
+      "it": "l'orecchino",
+      "es": "el pendiente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_anibar",
+    "am": "አንባር",
+    "tr": "anibar",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "das Armband",
+      "en": "bracelet",
+      "sv": "armband",
+      "nl": "armband",
+      "it": "il braccialetto",
+      "es": "la pulsera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_netela",
+    "am": "ነጠላ",
+    "tr": "net'ela",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der traditionelle Schal",
+      "en": "traditional white shawl",
+      "sv": "traditionell sjal",
+      "nl": "traditionele sjaal",
+      "it": "lo scialle bianco tradizionale",
+      "es": "el chal blanco tradicional"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_kaba",
+    "am": "ካባ",
+    "tr": "kaba",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der Umhang, die Robe",
+      "en": "ceremonial cape, cloak",
+      "sv": "cape",
+      "nl": "mantel",
+      "it": "il mantello cerimoniale",
+      "es": "la capa ceremonial"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_kebeto",
+    "am": "ቀበቶ",
+    "tr": "k'ebeto",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der Gürtel",
+      "en": "belt, sash",
+      "sv": "skärp",
+      "nl": "riem",
+      "it": "la cintura, la fascia",
+      "es": "el cinturón, la faja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_kofiya",
+    "am": "ኮፍያ",
+    "tr": "kofiya",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "der Hut",
+      "en": "hat, cap",
+      "sv": "hatt",
+      "nl": "hoed",
+      "it": "il cappello",
+      "es": "el sombrero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_doka",
+    "am": "ዶቃ",
+    "tr": "dok'a",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "die Perle",
+      "en": "bead",
+      "sv": "pärla",
+      "nl": "kraal",
+      "it": "la perlina",
+      "es": "la cuenta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_bir2",
+    "am": "ብር",
+    "tr": "bir",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "das Silber",
+      "en": "silver",
+      "sv": "silver",
+      "nl": "zilver",
+      "it": "l'argento",
+      "es": "la plata"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_werk2",
+    "am": "ወርቅ",
+    "tr": "werk'",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "das Gold",
+      "en": "gold",
+      "sv": "guld",
+      "nl": "goud",
+      "it": "l'oro",
+      "es": "el oro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_adj_bahilawi2",
+    "am": "ባህላዊ",
+    "tr": "bahilawi",
+    "pos": "adjective",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "traditionell, kulturell",
+      "en": "traditional, cultural",
+      "sv": "traditionell",
+      "nl": "traditioneel",
+      "it": "tradizionale, culturale",
+      "es": "tradicional, cultural"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_v_melibes",
+    "am": "መልበስ",
+    "tr": "melibes",
+    "pos": "verb",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "tragen, anziehen",
+      "en": "to wear",
+      "sv": "bära, ha på sig",
+      "nl": "dragen",
+      "it": "indossare",
+      "es": "llevar puesto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_libis",
+    "am": "ልብስ",
+    "tr": "libis",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "die Kleidung",
+      "en": "clothes, clothing",
+      "sv": "kläder",
+      "nl": "kleding",
+      "it": "i vestiti, l'abbigliamento",
+      "es": "la ropa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_nidif",
+    "am": "ንድፍ",
+    "tr": "nidif",
+    "pos": "noun",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "das Muster, Design",
+      "en": "design, pattern",
+      "sv": "design, mönster",
+      "nl": "ontwerp, patroon",
+      "it": "il design, il motivo",
+      "es": "el diseño, el patrón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hsc_adj_habesha",
+    "am": "ሀበሻ",
+    "tr": "habesha",
+    "pos": "adjective",
+    "topic": "jewelry_attire",
+    "level": "B2",
+    "t": {
+      "de": "äthiopisch, habeschisch",
+      "en": "Ethiopian, Habesha style",
+      "sv": "etiopisk",
+      "nl": "Ethiopisch",
+      "it": "etiope, in stile habesha",
+      "es": "etíope, al estilo habesha"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
 ]

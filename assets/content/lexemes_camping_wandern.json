@@ -10,7 +10,9 @@
       "de": "das Zelt",
       "en": "tent",
       "sv": "tält",
-      "nl": "tent"
+      "nl": "tent",
+      "it": "la tenda",
+      "es": "la tienda de campaña"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Schlafsack",
       "en": "sleeping bag",
       "sv": "sovsäck",
-      "nl": "slaapzak"
+      "nl": "slaapzak",
+      "it": "il sacco a pelo",
+      "es": "el saco de dormir"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Rucksack",
       "en": "backpack",
       "sv": "ryggsäck",
-      "nl": "rugzak"
+      "nl": "rugzak",
+      "it": "lo zaino",
+      "es": "la mochila"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Lagerfeuer",
       "en": "campfire",
       "sv": "lägereld",
-      "nl": "kampvuur"
+      "nl": "kampvuur",
+      "it": "il falò",
+      "es": "la fogata"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Angeln",
       "en": "fishing",
       "sv": "fiske",
-      "nl": "vissen"
+      "nl": "vissen",
+      "it": "la pesca",
+      "es": "la pesca"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Wandern",
       "en": "hiking",
       "sv": "vandring",
-      "nl": "wandelen"
+      "nl": "wandelen",
+      "it": "l'escursionismo",
+      "es": "el senderismo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Kompass",
       "en": "compass",
       "sv": "kompass",
-      "nl": "kompas"
+      "nl": "kompas",
+      "it": "la bussola",
+      "es": "la brújula"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Taschenlampe",
       "en": "flashlight",
       "sv": "ficklampa",
-      "nl": "zaklamp"
+      "nl": "zaklamp",
+      "it": "la torcia",
+      "es": "la linterna"
     },
     "hint": {},
     "alt": {},

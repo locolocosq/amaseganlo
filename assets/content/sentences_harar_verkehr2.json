@@ -1,6 +1,101 @@
 [
-  {"id":"sen_hv2_shuferu_awtobis","am":"ሹፌሩ አውቶብስ ይነዳል።","tr":"shuferu awitobis yinedal.","level":"B2","uses":["lex_hv2_menaji","lex_hv2_v_mengodgede","lex_hv2_awtobis"],"t":{"de":"Der Fahrer fährt den Bus.","en":"The driver drives the bus.","sv":"Föraren kör bussen.","nl":"De chauffeur rijdt de bus."},"chunks":["shuferu","awitobis","yinedal"],"verified":false},
-  {"id":"sen_hv2_mengedegna_tiya","am":"መንገደኛው ትኬት ገዛ።","tr":"mengedegnaw tikiet geza.","level":"B2","uses":["lex_hv2_menikise","lex_hv2_tiya"],"t":{"de":"Der Passagier kaufte ein Ticket.","en":"The passenger bought a ticket.","sv":"Passageraren köpte en biljett.","nl":"De passagier kocht een ticket."},"chunks":["mengedegnaw","tikiet","geza"],"verified":false},
-  {"id":"sen_hv2_awtobis_merkeb","am":"አውቶብሱ በጣቢያ ቆመ።","tr":"awitobisu bet'abiya k'ome.","level":"B2","uses":["lex_hv2_awtobis","lex_hv2_merkeb","lex_hv2_v_mekomat"],"t":{"de":"Der Bus hielt an der Station.","en":"The bus stopped at the station.","sv":"Bussen stannade vid stationen.","nl":"De bus stopte bij het station."},"chunks":["awitobisu","bet'abiya","k'ome"],"verified":false},
-  {"id":"sen_hv2_mebrek_akidet","am":"ከፍተኛ ፍጥነት አደጋ ያመጣል።","tr":"kefitegna fit'inet adega yamet'al.","level":"B2","uses":["lex_hv2_mebrek","lex_hv2_akidet"],"t":{"de":"Hohe Geschwindigkeit verursacht Unfälle.","en":"High speed causes accidents.","sv":"Hög hastighet orsakar olyckor.","nl":"Hoge snelheid veroorzaakt ongevallen."},"chunks":["kefitegna","fit'inet","adega","yamet'al"],"verified":false}
+  {
+    "id": "sen_hv2_shuferu_awtobis",
+    "am": "ሹፌሩ አውቶብስ ይነዳል።",
+    "tr": "shuferu awitobis yinedal.",
+    "level": "B2",
+    "uses": [
+      "lex_hv2_menaji",
+      "lex_hv2_v_mengodgede",
+      "lex_hv2_awtobis"
+    ],
+    "t": {
+      "de": "Der Fahrer fährt den Bus.",
+      "en": "The driver drives the bus.",
+      "sv": "Föraren kör bussen.",
+      "nl": "De chauffeur rijdt de bus.",
+      "it": "L'autista guida l'autobus.",
+      "es": "El conductor conduce el autobús."
+    },
+    "chunks": [
+      "shuferu",
+      "awitobis",
+      "yinedal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hv2_mengedegna_tiya",
+    "am": "መንገደኛው ትኬት ገዛ።",
+    "tr": "mengedegnaw tikiet geza.",
+    "level": "B2",
+    "uses": [
+      "lex_hv2_menikise",
+      "lex_hv2_tiya"
+    ],
+    "t": {
+      "de": "Der Passagier kaufte ein Ticket.",
+      "en": "The passenger bought a ticket.",
+      "sv": "Passageraren köpte en biljett.",
+      "nl": "De passagier kocht een ticket.",
+      "it": "Il passeggero ha comprato un biglietto.",
+      "es": "El pasajero compró un billete."
+    },
+    "chunks": [
+      "mengedegnaw",
+      "tikiet",
+      "geza"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hv2_awtobis_merkeb",
+    "am": "አውቶብሱ በጣቢያ ቆመ።",
+    "tr": "awitobisu bet'abiya k'ome.",
+    "level": "B2",
+    "uses": [
+      "lex_hv2_awtobis",
+      "lex_hv2_merkeb",
+      "lex_hv2_v_mekomat"
+    ],
+    "t": {
+      "de": "Der Bus hielt an der Station.",
+      "en": "The bus stopped at the station.",
+      "sv": "Bussen stannade vid stationen.",
+      "nl": "De bus stopte bij het station.",
+      "it": "L'autobus si è fermato alla stazione.",
+      "es": "El autobús se detuvo en la estación."
+    },
+    "chunks": [
+      "awitobisu",
+      "bet'abiya",
+      "k'ome"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hv2_mebrek_akidet",
+    "am": "ከፍተኛ ፍጥነት አደጋ ያመጣል።",
+    "tr": "kefitegna fit'inet adega yamet'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hv2_mebrek",
+      "lex_hv2_akidet"
+    ],
+    "t": {
+      "de": "Hohe Geschwindigkeit verursacht Unfälle.",
+      "en": "High speed causes accidents.",
+      "sv": "Hög hastighet orsakar olyckor.",
+      "nl": "Hoge snelheid veroorzaakt ongevallen.",
+      "it": "L'alta velocità causa incidenti.",
+      "es": "La alta velocidad causa accidentes."
+    },
+    "chunks": [
+      "kefitegna",
+      "fit'inet",
+      "adega",
+      "yamet'al"
+    ],
+    "verified": false
+  }
 ]

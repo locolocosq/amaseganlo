@@ -10,7 +10,9 @@
       "de": "das Gemälde, das Bild",
       "en": "painting",
       "sv": "målning",
-      "nl": "schilderij"
+      "nl": "schilderij",
+      "it": "il quadro, il dipinto",
+      "es": "el cuadro, la pintura"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Zeichnung",
       "en": "drawing",
       "sv": "teckning",
-      "nl": "tekening"
+      "nl": "tekening",
+      "it": "il disegno",
+      "es": "el dibujo"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Skulptur",
       "en": "sculpture",
       "sv": "skulptur",
-      "nl": "sculptuur"
+      "nl": "sculptuur",
+      "it": "la scultura",
+      "es": "la escultura"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Theater",
       "en": "theater",
       "sv": "teater",
-      "nl": "theater"
+      "nl": "theater",
+      "it": "il teatro",
+      "es": "el teatro"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Gedicht",
       "en": "poem",
       "sv": "dikt",
-      "nl": "gedicht"
+      "nl": "gedicht",
+      "it": "la poesia",
+      "es": "el poema"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Roman",
       "en": "novel",
       "sv": "roman",
-      "nl": "roman"
+      "nl": "roman",
+      "it": "il romanzo",
+      "es": "la novela"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Rhythmus",
       "en": "rhythm",
       "sv": "rytm",
-      "nl": "ritme"
+      "nl": "ritme",
+      "it": "il ritmo",
+      "es": "el ritmo"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Melodie",
       "en": "melody",
       "sv": "melodi",
-      "nl": "melodie"
+      "nl": "melodie",
+      "it": "la melodia",
+      "es": "la melodía"
     },
     "hint": {},
     "alt": {},

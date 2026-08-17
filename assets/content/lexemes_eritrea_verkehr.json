@@ -1,17 +1,272 @@
 [
-  {"id":"lex_ti_mekina","am":"መኪና","tr":"mekina","pos":"noun","topic":"transport","level":"TI","t":{"de":"das Auto","en":"car","sv":"bil","nl":"auto"},"emoji":"🚗","verified":false},
-  {"id":"lex_ti_awtobus","am":"ኣውቶቡስ","tr":"awtobus","pos":"noun","topic":"transport","level":"TI","t":{"de":"der Bus","en":"bus","sv":"buss","nl":"bus"},"emoji":"🚌","verified":false},
-  {"id":"lex_ti_babur","am":"ባቡር","tr":"babur","pos":"noun","topic":"transport","level":"TI","t":{"de":"der Zug","en":"train","sv":"tåg","nl":"trein"},"emoji":"🚆","verified":false},
-  {"id":"lex_ti_aeroplan","am":"ነፋሪት","tr":"nefarit","pos":"noun","topic":"transport","level":"TI","t":{"de":"das Flugzeug","en":"airplane","sv":"flygplan","nl":"vliegtuig"},"emoji":"✈️","verified":false},
-  {"id":"lex_ti_merkeb","am":"መርከብ","tr":"merkeb","pos":"noun","topic":"transport","level":"TI","t":{"de":"das Schiff","en":"ship","sv":"skepp","nl":"schip"},"emoji":"🚢","verified":false},
-  {"id":"lex_ti_biskil","am":"ብሽክለታ","tr":"bishikleta","pos":"noun","topic":"transport","level":"TI","t":{"de":"das Fahrrad","en":"bicycle","sv":"cykel","nl":"fiets"},"emoji":"🚲","verified":false},
-  {"id":"lex_ti_motor","am":"ቱግቱግ","tr":"tugtug","pos":"noun","topic":"transport","level":"TI","t":{"de":"das Motorrad, Tuk-Tuk","en":"motorbike, tuk-tuk","sv":"motorcykel","nl":"motorfiets"},"emoji":"🛵","verified":false},
-  {"id":"lex_ti_menged","am":"መገዲ","tr":"mengedi","pos":"noun","topic":"transport","level":"TI","t":{"de":"der Weg, die Straße","en":"road, way","sv":"väg","nl":"weg"},"emoji":"🛣️","verified":false},
-  {"id":"lex_ti_gemgma","am":"ድልድል","tr":"dildil","pos":"noun","topic":"transport","level":"TI","t":{"de":"die Brücke","en":"bridge","sv":"bro","nl":"brug"},"emoji":"","verified":false},
-  {"id":"lex_ti_maerabi","am":"ማዕረፎ ነፈርቲ","tr":"ma'erefo neferti","pos":"noun","topic":"transport","level":"TI","t":{"de":"der Flughafen","en":"airport","sv":"flygplats","nl":"luchthaven"},"emoji":"🛫","verified":false},
-  {"id":"lex_ti_tketa","am":"ትኬት","tr":"tiket","pos":"noun","topic":"transport","level":"TI","t":{"de":"das Ticket","en":"ticket","sv":"biljett","nl":"ticket"},"emoji":"🎫","verified":false},
-  {"id":"lex_ti_mahayer","am":"መንበሪ ጣብያ","tr":"menberi tabiya","pos":"noun","topic":"transport","level":"TI","t":{"de":"die Haltestelle, der Bahnhof","en":"station, stop","sv":"station, hållplats","nl":"station, halte"},"emoji":"","verified":false},
-  {"id":"lex_ti_gimzi","am":"ጉዕዞ","tr":"gu'ezo","pos":"noun","topic":"transport","level":"TI","t":{"de":"die Reise","en":"journey, trip","sv":"resa","nl":"reis"},"emoji":"","verified":false},
-  {"id":"lex_ti_kartazafi","am":"ፓስፖርት","tr":"pasport","pos":"noun","topic":"transport","level":"TI","t":{"de":"der Reisepass","en":"passport","sv":"pass","nl":"paspoort"},"emoji":"🛂","verified":false},
-  {"id":"lex_ti_valizi","am":"ሳንጣ","tr":"santa","pos":"noun","topic":"transport","level":"TI","t":{"de":"der Koffer","en":"suitcase","sv":"resväska","nl":"koffer"},"emoji":"🧳","verified":false}
+  {
+    "id": "lex_ti_mekina",
+    "am": "መኪና",
+    "tr": "mekina",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "das Auto",
+      "en": "car",
+      "sv": "bil",
+      "nl": "auto",
+      "it": "l'auto",
+      "es": "el coche"
+    },
+    "emoji": "🚗",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_awtobus",
+    "am": "ኣውቶቡስ",
+    "tr": "awtobus",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "der Bus",
+      "en": "bus",
+      "sv": "buss",
+      "nl": "bus",
+      "it": "l'autobus",
+      "es": "el autobús"
+    },
+    "emoji": "🚌",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_babur",
+    "am": "ባቡር",
+    "tr": "babur",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "der Zug",
+      "en": "train",
+      "sv": "tåg",
+      "nl": "trein",
+      "it": "il treno",
+      "es": "el tren"
+    },
+    "emoji": "🚆",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_aeroplan",
+    "am": "ነፋሪት",
+    "tr": "nefarit",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "das Flugzeug",
+      "en": "airplane",
+      "sv": "flygplan",
+      "nl": "vliegtuig",
+      "it": "l'aereo",
+      "es": "el avión"
+    },
+    "emoji": "✈️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_merkeb",
+    "am": "መርከብ",
+    "tr": "merkeb",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "das Schiff",
+      "en": "ship",
+      "sv": "skepp",
+      "nl": "schip",
+      "it": "la nave",
+      "es": "el barco"
+    },
+    "emoji": "🚢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_biskil",
+    "am": "ብሽክለታ",
+    "tr": "bishikleta",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "das Fahrrad",
+      "en": "bicycle",
+      "sv": "cykel",
+      "nl": "fiets",
+      "it": "la bicicletta",
+      "es": "la bicicleta"
+    },
+    "emoji": "🚲",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_motor",
+    "am": "ቱግቱግ",
+    "tr": "tugtug",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "das Motorrad, Tuk-Tuk",
+      "en": "motorbike, tuk-tuk",
+      "sv": "motorcykel",
+      "nl": "motorfiets",
+      "it": "la moto, il tuk-tuk",
+      "es": "la moto, el tuk-tuk"
+    },
+    "emoji": "🛵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_menged",
+    "am": "መገዲ",
+    "tr": "mengedi",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "der Weg, die Straße",
+      "en": "road, way",
+      "sv": "väg",
+      "nl": "weg",
+      "it": "la strada, la via",
+      "es": "el camino, la calle"
+    },
+    "emoji": "🛣️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gemgma",
+    "am": "ድልድል",
+    "tr": "dildil",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "die Brücke",
+      "en": "bridge",
+      "sv": "bro",
+      "nl": "brug",
+      "it": "il ponte",
+      "es": "el puente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_maerabi",
+    "am": "ማዕረፎ ነፈርቲ",
+    "tr": "ma'erefo neferti",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "der Flughafen",
+      "en": "airport",
+      "sv": "flygplats",
+      "nl": "luchthaven",
+      "it": "l'aeroporto",
+      "es": "el aeropuerto"
+    },
+    "emoji": "🛫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tketa",
+    "am": "ትኬት",
+    "tr": "tiket",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "das Ticket",
+      "en": "ticket",
+      "sv": "biljett",
+      "nl": "ticket",
+      "it": "il biglietto",
+      "es": "el billete"
+    },
+    "emoji": "🎫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mahayer",
+    "am": "መንበሪ ጣብያ",
+    "tr": "menberi tabiya",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "die Haltestelle, der Bahnhof",
+      "en": "station, stop",
+      "sv": "station, hållplats",
+      "nl": "station, halte",
+      "it": "la fermata, la stazione",
+      "es": "la parada, la estación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gimzi",
+    "am": "ጉዕዞ",
+    "tr": "gu'ezo",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "die Reise",
+      "en": "journey, trip",
+      "sv": "resa",
+      "nl": "reis",
+      "it": "il viaggio",
+      "es": "el viaje"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kartazafi",
+    "am": "ፓስፖርት",
+    "tr": "pasport",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "der Reisepass",
+      "en": "passport",
+      "sv": "pass",
+      "nl": "paspoort",
+      "it": "il passaporto",
+      "es": "el pasaporte"
+    },
+    "emoji": "🛂",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_valizi",
+    "am": "ሳንጣ",
+    "tr": "santa",
+    "pos": "noun",
+    "topic": "transport",
+    "level": "TI",
+    "t": {
+      "de": "der Koffer",
+      "en": "suitcase",
+      "sv": "resväska",
+      "nl": "koffer",
+      "it": "la valigia",
+      "es": "la maleta"
+    },
+    "emoji": "🧳",
+    "verified": false
+  }
 ]

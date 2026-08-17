@@ -10,7 +10,9 @@
       "de": "30",
       "en": "30",
       "sv": "30",
-      "nl": "30"
+      "nl": "30",
+      "it": "30",
+      "es": "30"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "40",
       "en": "40",
       "sv": "40",
-      "nl": "40"
+      "nl": "40",
+      "it": "40",
+      "es": "40"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "50",
       "en": "50",
       "sv": "50",
-      "nl": "50"
+      "nl": "50",
+      "it": "50",
+      "es": "50"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "60",
       "en": "60",
       "sv": "60",
-      "nl": "60"
+      "nl": "60",
+      "it": "60",
+      "es": "60"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "70",
       "en": "70",
       "sv": "70",
-      "nl": "70"
+      "nl": "70",
+      "it": "70",
+      "es": "70"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "80",
       "en": "80",
       "sv": "80",
-      "nl": "80"
+      "nl": "80",
+      "it": "80",
+      "es": "80"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "90",
       "en": "90",
       "sv": "90",
-      "nl": "90"
+      "nl": "90",
+      "it": "90",
+      "es": "90"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "100",
       "en": "100",
       "sv": "100",
-      "nl": "100"
+      "nl": "100",
+      "it": "100",
+      "es": "100"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "1000",
       "en": "1000",
       "sv": "1000",
-      "nl": "1000"
+      "nl": "1000",
+      "it": "1000",
+      "es": "1000"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "das Geld",
       "en": "money",
       "sv": "pengar",
-      "nl": "geld"
+      "nl": "geld",
+      "it": "il denaro",
+      "es": "el dinero"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "der Preis",
       "en": "price",
       "sv": "pris",
-      "nl": "prijs"
+      "nl": "prijs",
+      "it": "il prezzo",
+      "es": "el precio"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "teuer",
       "en": "expensive",
       "sv": "dyr",
-      "nl": "duur"
+      "nl": "duur",
+      "it": "caro",
+      "es": "caro"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "billig",
       "en": "cheap",
       "sv": "billig",
-      "nl": "goedkoop"
+      "nl": "goedkoop",
+      "it": "economico",
+      "es": "barato"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "kaufen",
       "en": "to buy",
       "sv": "köpa",
-      "nl": "kopen"
+      "nl": "kopen",
+      "it": "comprare",
+      "es": "comprar"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "verkaufen",
       "en": "to sell",
       "sv": "sälja",
-      "nl": "verkopen"
+      "nl": "verkopen",
+      "it": "vendere",
+      "es": "vender"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "der Markt",
       "en": "market",
       "sv": "marknad",
-      "nl": "markt"
+      "nl": "markt",
+      "it": "il mercato",
+      "es": "el mercado"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "der Laden, das Geschäft",
       "en": "shop, store",
       "sv": "affär",
-      "nl": "winkel"
+      "nl": "winkel",
+      "it": "il negozio",
+      "es": "la tienda"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "Wie viel kostet das?",
       "en": "How much is it?",
       "sv": "Hur mycket kostar det?",
-      "nl": "Hoeveel kost het?"
+      "nl": "Hoeveel kost het?",
+      "it": "Quanto costa?",
+      "es": "¿Cuánto cuesta?"
     },
     "hint": {},
     "alt": {},

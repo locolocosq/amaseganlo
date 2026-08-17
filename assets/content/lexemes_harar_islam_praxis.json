@@ -10,7 +10,9 @@
       "de": "das rituelle Pflichtgebet",
       "en": "the ritual prayer (salat)",
       "sv": "den rituella bönen",
-      "nl": "het rituele gebed"
+      "nl": "het rituele gebed",
+      "it": "la preghiera rituale (salat)",
+      "es": "la oración ritual (salat)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Ramadan",
       "en": "Ramadan",
       "sv": "ramadan",
-      "nl": "ramadan"
+      "nl": "ramadan",
+      "it": "il Ramadan",
+      "es": "el Ramadán"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "fasten",
       "en": "to fast",
       "sv": "fasta",
-      "nl": "vasten"
+      "nl": "vasten",
+      "it": "digiunare",
+      "es": "ayunar"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Id-Fest (islamischer Feiertag)",
       "en": "Eid (Islamic holiday)",
       "sv": "eid (islamisk högtid)",
-      "nl": "eid (islamitisch feest)"
+      "nl": "eid (islamitisch feest)",
+      "it": "l'Eid (festa islamica)",
+      "es": "el Eid (fiesta islámica)"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Pilgerfahrt nach Mekka (Hadsch)",
       "en": "the pilgrimage to Mecca (Hajj)",
       "sv": "pilgrimsfärden till Mecka (hajj)",
-      "nl": "de pelgrimstocht naar Mekka (hadj)"
+      "nl": "de pelgrimstocht naar Mekka (hadj)",
+      "it": "il pellegrinaggio alla Mecca (Hajj)",
+      "es": "la peregrinación a La Meca (Hach)"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "Mekka",
       "en": "Mecca",
       "sv": "Mecka",
-      "nl": "Mekka"
+      "nl": "Mekka",
+      "it": "La Mecca",
+      "es": "La Meca"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "sich niederwerfen, (rituell) beten",
       "en": "to prostrate, to pray (ritually)",
       "sv": "buga sig, be (rituellt)",
-      "nl": "zich neerbuigen, (rituelt) bidden"
+      "nl": "zich neerbuigen, (rituelt) bidden",
+      "it": "prostrarsi, pregare (ritualmente)",
+      "es": "prosternarse, orar (ritualmente)"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Pflichtabgabe, das Almosen (Zakat)",
       "en": "obligatory almsgiving (zakat)",
       "sv": "allmosoplikten (zakat)",
-      "nl": "de verplichte aalmoes (zakat)"
+      "nl": "de verplichte aalmoes (zakat)",
+      "it": "l'elemosina obbligatoria (zakat)",
+      "es": "la limosna obligatoria (zakat)"
     },
     "hint": {},
     "alt": {},

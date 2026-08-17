@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_chw_cpu","am":"ማእከላይ መስርሒ ክፍሊ","tr":"ma'ikelay mesirihi kifli","pos":"noun","topic":"computer_hardware","level":"TI","t":{"de":"der Prozessor","en":"processor, CPU","sv":"processor","nl":"processor"},"emoji":"","verified":false},
-  {"id":"lex_ti_chw_disk","am":"ናይ ዝኽሪ ድስክ","tr":"nay zikhri diski","pos":"noun","topic":"computer_hardware","level":"TI","t":{"de":"die Festplatte","en":"hard drive","sv":"hårddisk","nl":"harde schijf"},"emoji":"💽","verified":false},
-  {"id":"lex_ti_chw_ram","am":"ግዝያዊ ዝኽሪ","tr":"gizyawi zikhri","pos":"noun","topic":"computer_hardware","level":"TI","t":{"de":"der Arbeitsspeicher","en":"RAM, memory","sv":"arbetsminne","nl":"werkgeheugen"},"emoji":"","verified":false},
-  {"id":"lex_ti_chw_cabl","am":"ገመድ ኤለትሪክ","tr":"gemed eletrik","pos":"noun","topic":"computer_hardware","level":"TI","t":{"de":"das Kabel","en":"cable","sv":"kabel","nl":"kabel"},"emoji":"🔌","verified":false},
-  {"id":"lex_ti_chw_lptp","am":"ላፕቶፕ","tr":"laptop","pos":"noun","topic":"computer_hardware","level":"TI","t":{"de":"der Laptop","en":"laptop","sv":"bärbar dator","nl":"laptop"},"emoji":"💻","verified":false}
+  {
+    "id": "lex_ti_chw_cpu",
+    "am": "ማእከላይ መስርሒ ክፍሊ",
+    "tr": "ma'ikelay mesirihi kifli",
+    "pos": "noun",
+    "topic": "computer_hardware",
+    "level": "TI",
+    "t": {
+      "de": "der Prozessor",
+      "en": "processor, CPU",
+      "sv": "processor",
+      "nl": "processor",
+      "it": "il processore",
+      "es": "el procesador"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chw_disk",
+    "am": "ናይ ዝኽሪ ድስክ",
+    "tr": "nay zikhri diski",
+    "pos": "noun",
+    "topic": "computer_hardware",
+    "level": "TI",
+    "t": {
+      "de": "die Festplatte",
+      "en": "hard drive",
+      "sv": "hårddisk",
+      "nl": "harde schijf",
+      "it": "il disco rigido",
+      "es": "el disco duro"
+    },
+    "emoji": "💽",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chw_ram",
+    "am": "ግዝያዊ ዝኽሪ",
+    "tr": "gizyawi zikhri",
+    "pos": "noun",
+    "topic": "computer_hardware",
+    "level": "TI",
+    "t": {
+      "de": "der Arbeitsspeicher",
+      "en": "RAM, memory",
+      "sv": "arbetsminne",
+      "nl": "werkgeheugen",
+      "it": "la memoria RAM",
+      "es": "la memoria RAM"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chw_cabl",
+    "am": "ገመድ ኤለትሪክ",
+    "tr": "gemed eletrik",
+    "pos": "noun",
+    "topic": "computer_hardware",
+    "level": "TI",
+    "t": {
+      "de": "das Kabel",
+      "en": "cable",
+      "sv": "kabel",
+      "nl": "kabel",
+      "it": "il cavo",
+      "es": "el cable"
+    },
+    "emoji": "🔌",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chw_lptp",
+    "am": "ላፕቶፕ",
+    "tr": "laptop",
+    "pos": "noun",
+    "topic": "computer_hardware",
+    "level": "TI",
+    "t": {
+      "de": "der Laptop",
+      "en": "laptop",
+      "sv": "bärbar dator",
+      "nl": "laptop",
+      "it": "il portatile",
+      "es": "el portátil"
+    },
+    "emoji": "💻",
+    "verified": false
+  }
 ]

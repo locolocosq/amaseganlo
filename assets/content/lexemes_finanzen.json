@@ -10,7 +10,9 @@
       "de": "das Konto",
       "en": "account",
       "sv": "konto",
-      "nl": "rekening"
+      "nl": "rekening",
+      "it": "il conto",
+      "es": "la cuenta"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Darlehen, der Kredit",
       "en": "loan",
       "sv": "lån",
-      "nl": "lening"
+      "nl": "lening",
+      "it": "il prestito, il credito",
+      "es": "el préstamo, el crédito"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Schulden",
       "en": "debt",
       "sv": "skuld",
-      "nl": "schuld"
+      "nl": "schuld",
+      "it": "i debiti",
+      "es": "las deudas"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Steuer",
       "en": "tax",
       "sv": "skatt",
-      "nl": "belasting"
+      "nl": "belasting",
+      "it": "la tassa",
+      "es": "el impuesto"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Budget",
       "en": "budget",
       "sv": "budget",
-      "nl": "budget"
+      "nl": "budget",
+      "it": "il budget",
+      "es": "el presupuesto"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Versicherung",
       "en": "insurance",
       "sv": "försäkring",
-      "nl": "verzekering"
+      "nl": "verzekering",
+      "it": "l'assicurazione",
+      "es": "el seguro"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Zinsen",
       "en": "interest (finance)",
       "sv": "ränta",
-      "nl": "rente"
+      "nl": "rente",
+      "it": "gli interessi",
+      "es": "los intereses"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Ersparnisse",
       "en": "savings",
       "sv": "besparingar",
-      "nl": "spaargeld"
+      "nl": "spaargeld",
+      "it": "i risparmi",
+      "es": "los ahorros"
     },
     "hint": {},
     "alt": {},

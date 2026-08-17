@@ -10,7 +10,9 @@
       "de": "ich gehe",
       "en": "I go",
       "sv": "jag går",
-      "nl": "ik ga"
+      "nl": "ik ga",
+      "it": "io vado",
+      "es": "yo voy"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "ich ging",
       "en": "I went",
       "sv": "jag gick",
-      "nl": "ik ging"
+      "nl": "ik ging",
+      "it": "io sono andato/a",
+      "es": "yo fui"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "ich aß",
       "en": "I ate",
       "sv": "jag åt",
-      "nl": "ik at"
+      "nl": "ik at",
+      "it": "io ho mangiato",
+      "es": "yo comí"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "ich trank",
       "en": "I drank",
       "sv": "jag drack",
-      "nl": "ik dronk"
+      "nl": "ik dronk",
+      "it": "io ho bevuto",
+      "es": "yo bebí"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "jetzt",
       "en": "now",
       "sv": "nu",
-      "nl": "nu"
+      "nl": "nu",
+      "it": "ora, adesso",
+      "es": "ahora"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "früher, vorher",
       "en": "before, in the past",
       "sv": "tidigare, förut",
-      "nl": "vroeger"
+      "nl": "vroeger",
+      "it": "prima, in passato",
+      "es": "antes, en el pasado"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "schon, bereits",
       "en": "already",
       "sv": "redan",
-      "nl": "al"
+      "nl": "al",
+      "it": "già",
+      "es": "ya"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "immer",
       "en": "always",
       "sv": "alltid",
-      "nl": "altijd"
+      "nl": "altijd",
+      "it": "sempre",
+      "es": "siempre"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "manchmal",
       "en": "sometimes",
       "sv": "ibland",
-      "nl": "soms"
+      "nl": "soms",
+      "it": "a volte",
+      "es": "a veces"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "nie, niemals",
       "en": "never",
       "sv": "aldrig",
-      "nl": "nooit"
+      "nl": "nooit",
+      "it": "mai",
+      "es": "nunca"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "bald",
       "en": "soon",
       "sv": "snart",
-      "nl": "binnenkort"
+      "nl": "binnenkort",
+      "it": "presto",
+      "es": "pronto"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "spät",
       "en": "late",
       "sv": "sent",
-      "nl": "laat"
+      "nl": "laat",
+      "it": "tardi",
+      "es": "tarde"
     },
     "hint": {},
     "alt": {},

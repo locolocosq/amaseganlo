@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_smt_hwru","am":"ከመይ ቀኒኻ","tr":"kemey qeniikha","pos":"phrase","topic":"small_talk","level":"TI","t":{"de":"wie war dein Tag","en":"how was your day","sv":"hur var din dag","nl":"hoe was je dag"},"emoji":"","verified":false},
-  {"id":"lex_ti_smt_nice2","am":"ደስ ኢሉኒ ርኢኻ","tr":"desi 'iluni ri'ikha","pos":"phrase","topic":"small_talk","level":"TI","t":{"de":"schön dich zu sehen","en":"nice to see you","sv":"kul att se dig","nl":"leuk je te zien"},"emoji":"","verified":false},
-  {"id":"lex_ti_smt_lngtim","am":"ነዊሕ ግዜ ኮይኑ","tr":"newih gizie koynu","pos":"phrase","topic":"small_talk","level":"TI","t":{"de":"lange nicht gesehen","en":"long time no see","sv":"länge sedan sist","nl":"lang niet gezien"},"emoji":"","verified":false},
-  {"id":"lex_ti_smt_whtsnw","am":"እንታይ ሓድሽ ነገር ኣሎ","tr":"initay hadish neger alo","pos":"phrase","topic":"small_talk","level":"TI","t":{"de":"was gibt's Neues","en":"what's new","sv":"vad är nytt","nl":"wat is er nieuw"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_smt_hwru",
+    "am": "ከመይ ቀኒኻ",
+    "tr": "kemey qeniikha",
+    "pos": "phrase",
+    "topic": "small_talk",
+    "level": "TI",
+    "t": {
+      "de": "wie war dein Tag",
+      "en": "how was your day",
+      "sv": "hur var din dag",
+      "nl": "hoe was je dag",
+      "it": "com'è andata la tua giornata",
+      "es": "¿cómo estuvo tu día?"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smt_nice2",
+    "am": "ደስ ኢሉኒ ርኢኻ",
+    "tr": "desi 'iluni ri'ikha",
+    "pos": "phrase",
+    "topic": "small_talk",
+    "level": "TI",
+    "t": {
+      "de": "schön dich zu sehen",
+      "en": "nice to see you",
+      "sv": "kul att se dig",
+      "nl": "leuk je te zien",
+      "it": "che piacere vederti",
+      "es": "qué gusto verte"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smt_lngtim",
+    "am": "ነዊሕ ግዜ ኮይኑ",
+    "tr": "newih gizie koynu",
+    "pos": "phrase",
+    "topic": "small_talk",
+    "level": "TI",
+    "t": {
+      "de": "lange nicht gesehen",
+      "en": "long time no see",
+      "sv": "länge sedan sist",
+      "nl": "lang niet gezien",
+      "it": "quanto tempo!",
+      "es": "cuánto tiempo sin verte"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smt_whtsnw",
+    "am": "እንታይ ሓድሽ ነገር ኣሎ",
+    "tr": "initay hadish neger alo",
+    "pos": "phrase",
+    "topic": "small_talk",
+    "level": "TI",
+    "t": {
+      "de": "was gibt's Neues",
+      "en": "what's new",
+      "sv": "vad är nytt",
+      "nl": "wat is er nieuw",
+      "it": "cosa c'è di nuovo",
+      "es": "qué hay de nuevo"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

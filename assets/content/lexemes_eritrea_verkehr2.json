@@ -1,9 +1,128 @@
 [
-  {"id":"lex_ti_vk2_ampl","am":"ቀያሕ መብራህቲ","tr":"qeyah mebrahti","pos":"noun","topic":"traffic","level":"TI","t":{"de":"die Ampel","en":"traffic light","sv":"trafikljus","nl":"verkeerslicht"},"emoji":"🚦","verified":false},
-  {"id":"lex_ti_vk2_krzg","am":"መስቀላዊ መገዲ","tr":"mesqelawi mengedi","pos":"noun","topic":"traffic","level":"TI","t":{"de":"die Kreuzung","en":"intersection","sv":"korsning","nl":"kruispunt"},"emoji":"","verified":false},
-  {"id":"lex_ti_vk2_stau","am":"መጨናነቕ መገዲ","tr":"mechenaneq mengedi","pos":"noun","topic":"traffic","level":"TI","t":{"de":"der Stau","en":"traffic jam","sv":"trafikstockning","nl":"file"},"emoji":"🚗","verified":false},
-  {"id":"lex_ti_vk2_prkp","am":"ጣቢያ መኪና","tr":"tabiya mekina","pos":"noun","topic":"traffic","level":"TI","t":{"de":"der Parkplatz","en":"parking lot","sv":"parkering","nl":"parkeerplaats"},"emoji":"🅿️","verified":false},
-  {"id":"lex_ti_vk2_lcns","am":"ፍቓድ መንዳቢ","tr":"fiqad mendabi","pos":"noun","topic":"traffic","level":"TI","t":{"de":"der Führerschein","en":"driver's license","sv":"körkort","nl":"rijbewijs"},"emoji":"🪪","verified":false},
-  {"id":"lex_ti_vk2_shld","am":"ጎድኒ መገዲ","tr":"godni mengedi","pos":"noun","topic":"traffic","level":"TI","t":{"de":"der Gehweg, Bürgersteig","en":"sidewalk","sv":"trottoar","nl":"stoep"},"emoji":"","verified":false},
-  {"id":"lex_ti_vk2_spl","am":"ደረጃ ፍጥነት","tr":"dereja fitnet","pos":"noun","topic":"traffic","level":"TI","t":{"de":"die Geschwindigkeitsbegrenzung","en":"speed limit","sv":"hastighetsbegränsning","nl":"maximumsnelheid"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_vk2_ampl",
+    "am": "ቀያሕ መብራህቲ",
+    "tr": "qeyah mebrahti",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "die Ampel",
+      "en": "traffic light",
+      "sv": "trafikljus",
+      "nl": "verkeerslicht",
+      "it": "il semaforo",
+      "es": "el semáforo"
+    },
+    "emoji": "🚦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vk2_krzg",
+    "am": "መስቀላዊ መገዲ",
+    "tr": "mesqelawi mengedi",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "die Kreuzung",
+      "en": "intersection",
+      "sv": "korsning",
+      "nl": "kruispunt",
+      "it": "l'incrocio",
+      "es": "el cruce"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vk2_stau",
+    "am": "መጨናነቕ መገዲ",
+    "tr": "mechenaneq mengedi",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "der Stau",
+      "en": "traffic jam",
+      "sv": "trafikstockning",
+      "nl": "file",
+      "it": "l'ingorgo",
+      "es": "el atasco"
+    },
+    "emoji": "🚗",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vk2_prkp",
+    "am": "ጣቢያ መኪና",
+    "tr": "tabiya mekina",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "der Parkplatz",
+      "en": "parking lot",
+      "sv": "parkering",
+      "nl": "parkeerplaats",
+      "it": "il parcheggio",
+      "es": "el aparcamiento"
+    },
+    "emoji": "🅿️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vk2_lcns",
+    "am": "ፍቓድ መንዳቢ",
+    "tr": "fiqad mendabi",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "der Führerschein",
+      "en": "driver's license",
+      "sv": "körkort",
+      "nl": "rijbewijs",
+      "it": "la patente",
+      "es": "el carné de conducir"
+    },
+    "emoji": "🪪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vk2_shld",
+    "am": "ጎድኒ መገዲ",
+    "tr": "godni mengedi",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "der Gehweg, Bürgersteig",
+      "en": "sidewalk",
+      "sv": "trottoar",
+      "nl": "stoep",
+      "it": "il marciapiede",
+      "es": "la acera"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vk2_spl",
+    "am": "ደረጃ ፍጥነት",
+    "tr": "dereja fitnet",
+    "pos": "noun",
+    "topic": "traffic",
+    "level": "TI",
+    "t": {
+      "de": "die Geschwindigkeitsbegrenzung",
+      "en": "speed limit",
+      "sv": "hastighetsbegränsning",
+      "nl": "maximumsnelheid",
+      "it": "il limite di velocità",
+      "es": "el límite de velocidad"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

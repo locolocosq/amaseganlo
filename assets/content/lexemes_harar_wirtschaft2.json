@@ -10,7 +10,9 @@
       "de": "die Wirtschaft",
       "en": "economy",
       "sv": "ekonomin",
-      "nl": "de economie"
+      "nl": "de economie",
+      "it": "l'economia",
+      "es": "la economía"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Handel, das Geschäft",
       "en": "trade, business",
       "sv": "handel, affär",
-      "nl": "handel, zaken"
+      "nl": "handel, zaken",
+      "it": "il commercio, l'affare",
+      "es": "el comercio, el negocio"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "verkaufen",
       "en": "to sell",
       "sv": "sälja",
-      "nl": "verkopen"
+      "nl": "verkopen",
+      "it": "vendere",
+      "es": "vender"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "wachsen, sich entwickeln",
       "en": "to grow, to develop",
       "sv": "växa, utvecklas",
-      "nl": "groeien, zich ontwikkelen"
+      "nl": "groeien, zich ontwikkelen",
+      "it": "crescere, svilupparsi",
+      "es": "crecer, desarrollarse"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Miete",
       "en": "rent",
       "sv": "hyra",
-      "nl": "huur"
+      "nl": "huur",
+      "it": "l'affitto",
+      "es": "el alquiler"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Wettbewerb",
       "en": "competition",
       "sv": "konkurrens",
-      "nl": "concurrentie"
+      "nl": "concurrentie",
+      "it": "la concorrenza",
+      "es": "la competencia"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "billig, preiswert",
       "en": "cheap, inexpensive",
       "sv": "billig",
-      "nl": "goedkoop"
+      "nl": "goedkoop",
+      "it": "economico",
+      "es": "barato"
     },
     "hint": {},
     "alt": {},

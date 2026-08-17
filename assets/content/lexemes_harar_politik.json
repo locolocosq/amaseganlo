@@ -10,7 +10,9 @@
       "de": "die Regierung, der Staat",
       "en": "government, state",
       "sv": "regeringen, staten",
-      "nl": "de regering, de staat"
+      "nl": "de regering, de staat",
+      "it": "il governo, lo stato",
+      "es": "el gobierno, el estado"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Präsident",
       "en": "president",
       "sv": "president",
-      "nl": "president"
+      "nl": "president",
+      "it": "il presidente",
+      "es": "el presidente"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Premierminister",
       "en": "prime minister",
       "sv": "premiärminister",
-      "nl": "premier"
+      "nl": "premier",
+      "it": "il primo ministro",
+      "es": "el primer ministro"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "das Parlament",
       "en": "parliament",
       "sv": "parlamentet",
-      "nl": "het parlement"
+      "nl": "het parlement",
+      "it": "il parlamento",
+      "es": "el parlamento"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Wahl (Politik)",
       "en": "election",
       "sv": "val (politik)",
-      "nl": "verkiezing"
+      "nl": "verkiezing",
+      "it": "l'elezione (politica)",
+      "es": "la elección (política)"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Verfassung",
       "en": "constitution",
       "sv": "grundlagen",
-      "nl": "grondwet"
+      "nl": "grondwet",
+      "it": "la costituzione",
+      "es": "la constitución"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Bürger, die Bürgerin",
       "en": "citizen",
       "sv": "medborgare",
-      "nl": "burger"
+      "nl": "burger",
+      "it": "il cittadino, la cittadina",
+      "es": "el ciudadano, la ciudadana"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Macht, die Amtsgewalt",
       "en": "power, authority",
       "sv": "makt, myndighet",
-      "nl": "macht, gezag"
+      "nl": "macht, gezag",
+      "it": "il potere, l'autorità",
+      "es": "el poder, la autoridad"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "wählen, auswählen",
       "en": "to elect, to choose",
       "sv": "välja, rösta fram",
-      "nl": "kiezen, verkiezen"
+      "nl": "kiezen, verkiezen",
+      "it": "eleggere, scegliere",
+      "es": "elegir, escoger"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "demokratisch",
       "en": "democratic",
       "sv": "demokratisk",
-      "nl": "democratisch"
+      "nl": "democratisch",
+      "it": "democratico",
+      "es": "democrático"
     },
     "hint": {},
     "alt": {},

@@ -10,7 +10,9 @@
       "de": "die Zeitung",
       "en": "newspaper",
       "sv": "tidningen",
-      "nl": "de krant"
+      "nl": "de krant",
+      "it": "il giornale",
+      "es": "el periódico"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Journalist, die Journalistin",
       "en": "journalist",
       "sv": "journalist",
-      "nl": "journalist"
+      "nl": "journalist",
+      "it": "il/la giornalista",
+      "es": "el/la periodista"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Nachricht (Medien)",
       "en": "news",
       "sv": "nyheter",
-      "nl": "nieuws"
+      "nl": "nieuws",
+      "it": "la notizia (media)",
+      "es": "la noticia (medios)"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "bekannt geben, ankündigen",
       "en": "to announce",
       "sv": "tillkännage",
-      "nl": "aankondigen"
+      "nl": "aankondigen",
+      "it": "annunciare",
+      "es": "anunciar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die öffentliche Meinung",
       "en": "public opinion",
       "sv": "allmänna opinionen",
-      "nl": "publieke opinie"
+      "nl": "publieke opinie",
+      "it": "l'opinione pubblica",
+      "es": "la opinión pública"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "wahr, echt, glaubwürdig",
       "en": "true, real, credible",
       "sv": "sann, äkta, trovärdig",
-      "nl": "waar, echt, geloofwaardig"
+      "nl": "waar, echt, geloofwaardig",
+      "it": "vero, reale, credibile",
+      "es": "verdadero, real, creíble"
     },
     "hint": {},
     "alt": {},

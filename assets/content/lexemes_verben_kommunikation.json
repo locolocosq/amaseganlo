@@ -10,7 +10,9 @@
       "de": "flüstern",
       "en": "to whisper",
       "sv": "viska",
-      "nl": "fluisteren"
+      "nl": "fluisteren",
+      "it": "sussurrare",
+      "es": "susurrar"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "streiten, diskutieren",
       "en": "to argue",
       "sv": "gräla, argumentera",
-      "nl": "ruzien, discussiëren"
+      "nl": "ruzien, discussiëren",
+      "it": "litigare, discutere",
+      "es": "discutir, pelear"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "zustimmen",
       "en": "to agree",
       "sv": "hålla med",
-      "nl": "akkoord gaan"
+      "nl": "akkoord gaan",
+      "it": "essere d'accordo",
+      "es": "estar de acuerdo"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "widersprechen, nicht zustimmen",
       "en": "to disagree",
       "sv": "inte hålla med",
-      "nl": "het oneens zijn"
+      "nl": "het oneens zijn",
+      "it": "non essere d'accordo, contraddire",
+      "es": "no estar de acuerdo, discrepar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "sich beschweren",
       "en": "to complain",
       "sv": "klaga",
-      "nl": "klagen"
+      "nl": "klagen",
+      "it": "lamentarsi",
+      "es": "quejarse"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "sich entschuldigen",
       "en": "to apologize",
       "sv": "be om ursäkt",
-      "nl": "zich verontschuldigen"
+      "nl": "zich verontschuldigen",
+      "it": "scusarsi",
+      "es": "disculparse"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "loben",
       "en": "to compliment, to praise",
       "sv": "berömma",
-      "nl": "complimenteren"
+      "nl": "complimenteren",
+      "it": "elogiare, fare i complimenti",
+      "es": "elogiar, halagar"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "warnen",
       "en": "to warn",
       "sv": "varna",
-      "nl": "waarschuwen"
+      "nl": "waarschuwen",
+      "it": "avvertire",
+      "es": "advertir"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "vorschlagen",
       "en": "to suggest",
       "sv": "föreslå",
-      "nl": "voorstellen"
+      "nl": "voorstellen",
+      "it": "proporre, suggerire",
+      "es": "proponer, sugerir"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "beraten, raten",
       "en": "to advise",
       "sv": "ge råd",
-      "nl": "adviseren"
+      "nl": "adviseren",
+      "it": "consigliare",
+      "es": "aconsejar"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "überzeugen",
       "en": "to persuade, to convince",
       "sv": "övertyga",
-      "nl": "overtuigen"
+      "nl": "overtuigen",
+      "it": "convincere",
+      "es": "convencer"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "ermutigen",
       "en": "to encourage",
       "sv": "uppmuntra",
-      "nl": "aanmoedigen"
+      "nl": "aanmoedigen",
+      "it": "incoraggiare",
+      "es": "animar"
     },
     "hint": {},
     "alt": {},

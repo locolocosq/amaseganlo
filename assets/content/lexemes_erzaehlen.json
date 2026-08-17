@@ -10,7 +10,9 @@
       "de": "die Geschichte",
       "en": "story, history",
       "sv": "historia, berättelse",
-      "nl": "verhaal, geschiedenis"
+      "nl": "verhaal, geschiedenis",
+      "it": "la storia",
+      "es": "la historia"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "es war einmal, einmal",
       "en": "once upon a time",
       "sv": "det var en gång",
-      "nl": "er was eens"
+      "nl": "er was eens",
+      "it": "c'era una volta",
+      "es": "érase una vez"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Ende",
       "en": "end",
       "sv": "slut",
-      "nl": "einde"
+      "nl": "einde",
+      "it": "la fine",
+      "es": "el final"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Anfang",
       "en": "beginning",
       "sv": "början",
-      "nl": "begin"
+      "nl": "begin",
+      "it": "l'inizio",
+      "es": "el principio"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Held",
       "en": "hero",
       "sv": "hjälte",
-      "nl": "held"
+      "nl": "held",
+      "it": "l'eroe",
+      "es": "el héroe"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der König",
       "en": "king",
       "sv": "kung",
-      "nl": "koning"
+      "nl": "koning",
+      "it": "il re",
+      "es": "el rey"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Königin",
       "en": "queen",
       "sv": "drottning",
-      "nl": "koningin"
+      "nl": "koningin",
+      "it": "la regina",
+      "es": "la reina"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "das Märchen, die Fabel",
       "en": "fable, tale",
       "sv": "saga",
-      "nl": "fabel, sprookje"
+      "nl": "fabel, sprookje",
+      "it": "la favola, il racconto",
+      "es": "la fábula, el cuento"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "erzählen",
       "en": "to tell (a story)",
       "sv": "berätta",
-      "nl": "vertellen"
+      "nl": "vertellen",
+      "it": "raccontare",
+      "es": "contar (una historia)"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "zuhören",
       "en": "to listen",
       "sv": "lyssna",
-      "nl": "luisteren"
+      "nl": "luisteren",
+      "it": "ascoltare",
+      "es": "escuchar"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "die Frage",
       "en": "question",
       "sv": "fråga",
-      "nl": "vraag"
+      "nl": "vraag",
+      "it": "la domanda",
+      "es": "la pregunta"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "die Antwort",
       "en": "answer",
       "sv": "svar",
-      "nl": "antwoord"
+      "nl": "antwoord",
+      "it": "la risposta",
+      "es": "la respuesta"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "das Wort",
       "en": "word",
       "sv": "ord",
-      "nl": "woord"
+      "nl": "woord",
+      "it": "la parola",
+      "es": "la palabra"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "die Sprache",
       "en": "language",
       "sv": "språk",
-      "nl": "taal"
+      "nl": "taal",
+      "it": "la lingua",
+      "es": "el idioma"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "weise, klug",
       "en": "wise, clever",
       "sv": "vis, klok",
-      "nl": "wijs, slim"
+      "nl": "wijs, slim",
+      "it": "saggio, intelligente",
+      "es": "sabio, inteligente"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "dumm",
       "en": "foolish",
       "sv": "dum",
-      "nl": "dom"
+      "nl": "dom",
+      "it": "sciocco",
+      "es": "tonto"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "wahr, die Wahrheit",
       "en": "true, truth",
       "sv": "sann, sanning",
-      "nl": "waar, waarheid"
+      "nl": "waar, waarheid",
+      "it": "vero, la verità",
+      "es": "verdadero, la verdad"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "die Lüge",
       "en": "lie",
       "sv": "lögn",
-      "nl": "leugen"
+      "nl": "leugen",
+      "it": "la bugia",
+      "es": "la mentira"
     },
     "hint": {},
     "alt": {},

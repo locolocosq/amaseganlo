@@ -10,7 +10,9 @@
       "de": "das Viertel",
       "en": "quarter",
       "sv": "fjärdedel",
-      "nl": "kwart"
+      "nl": "kwart",
+      "it": "il quarto",
+      "es": "el cuarto"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Drittel",
       "en": "third",
       "sv": "tredjedel",
-      "nl": "derde"
+      "nl": "derde",
+      "it": "il terzo",
+      "es": "el tercio"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Prozent",
       "en": "percent",
       "sv": "procent",
-      "nl": "procent"
+      "nl": "procent",
+      "it": "il percento",
+      "es": "el por ciento"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "doppelt",
       "en": "double",
       "sv": "dubbel",
-      "nl": "dubbel"
+      "nl": "dubbel",
+      "it": "doppio",
+      "es": "doble"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "das Dutzend",
       "en": "dozen",
       "sv": "dussin",
-      "nl": "dozijn"
+      "nl": "dozijn",
+      "it": "la dozzina",
+      "es": "la docena"
     },
     "hint": {},
     "alt": {},

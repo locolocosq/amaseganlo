@@ -1,29 +1,488 @@
 [
-  {"id":"lex_ti_kelbi","am":"ከልቢ","tr":"kelbi","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Hund","en":"dog","sv":"hund","nl":"hond"},"emoji":"🐕","verified":false},
-  {"id":"lex_ti_dmu","am":"ድሙ","tr":"dimu","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Katze","en":"cat","sv":"katt","nl":"kat"},"emoji":"🐈","verified":false},
-  {"id":"lex_ti_faras","am":"ፈረስ","tr":"feres","pos":"noun","topic":"animals","level":"TI","t":{"de":"das Pferd","en":"horse","sv":"häst","nl":"paard"},"emoji":"🐴","verified":false},
-  {"id":"lex_ti_lam","am":"ላም","tr":"lam","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Kuh","en":"cow","sv":"ko","nl":"koe"},"emoji":"🐄","verified":false},
-  {"id":"lex_ti_bereh","am":"ኣባጊዕ","tr":"abagi'e","pos":"noun","topic":"animals","level":"TI","t":{"de":"das Schaf","en":"sheep","sv":"får","nl":"schaap"},"emoji":"🐑","verified":false},
-  {"id":"lex_ti_fyel","am":"ጤል","tr":"t'el","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Ziege","en":"goat","sv":"get","nl":"geit"},"emoji":"🐐","verified":false},
-  {"id":"lex_ti_gemel","am":"ገመል","tr":"gemel","pos":"noun","topic":"animals","level":"TI","t":{"de":"das Kamel","en":"camel","sv":"kamel","nl":"kameel"},"emoji":"🐫","verified":false},
-  {"id":"lex_ti_awdi","am":"ኣድጊ","tr":"adgi","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Esel","en":"donkey","sv":"åsna","nl":"ezel"},"emoji":"🫏","verified":false},
-  {"id":"lex_ti_dorho","am":"ደርሆ","tr":"derho","pos":"noun","topic":"animals","level":"TI","t":{"de":"das Huhn","en":"chicken","sv":"kyckling","nl":"kip"},"emoji":"🐔","verified":false},
-  {"id":"lex_ti_asa2","am":"ዓሳ","tr":"'asa","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Fisch (Tier)","en":"fish (animal)","sv":"fisk","nl":"vis"},"emoji":"🐟","verified":false},
-  {"id":"lex_ti_ayit","am":"ኣንበሳ","tr":"anbesa","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Löwe","en":"lion","sv":"lejon","nl":"leeuw"},"emoji":"🦁","verified":false},
-  {"id":"lex_ti_nebri","am":"ነብሪ","tr":"nebri","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Leopard","en":"leopard","sv":"leopard","nl":"luipaard"},"emoji":"🐆","verified":false},
-  {"id":"lex_ti_zihinba","am":"ሓርማዝ","tr":"harmaz","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Elefant","en":"elephant","sv":"elefant","nl":"olifant"},"emoji":"🐘","verified":false},
-  {"id":"lex_ti_ansisa","am":"ህበይ","tr":"hibey","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Affe","en":"monkey","sv":"apa","nl":"aap"},"emoji":"🐒","verified":false},
-  {"id":"lex_ti_kend","am":"ቀኒዕ","tr":"qeni'e","pos":"noun","topic":"animals","level":"TI","t":{"de":"das Kaninchen","en":"rabbit","sv":"kanin","nl":"konijn"},"emoji":"🐇","verified":false},
-  {"id":"lex_ti_arinba","am":"ኣንበጣ","tr":"anbet'a","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Heuschrecke","en":"locust","sv":"gräshoppa","nl":"sprinkhaan"},"emoji":"🦗","verified":false},
-  {"id":"lex_ti_nihbi","am":"ንህቢ","tr":"nihbi","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Biene","en":"bee","sv":"bi","nl":"bij"},"emoji":"🐝","verified":false},
-  {"id":"lex_ti_zbb","am":"ዝቡብ","tr":"zibub","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Fliege","en":"fly","sv":"fluga","nl":"vlieg"},"emoji":"🪰","verified":false},
-  {"id":"lex_ti_bakhak","am":"በቐቅ","tr":"beqeq","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Frosch","en":"frog","sv":"groda","nl":"kikker"},"emoji":"🐸","verified":false},
-  {"id":"lex_ti_kobkob","am":"ተመን","tr":"temen","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Schlange","en":"snake","sv":"orm","nl":"slang"},"emoji":"🐍","verified":false},
-  {"id":"lex_ti_agame","am":"ኣንጭዋ","tr":"anchwa","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Maus","en":"mouse","sv":"mus","nl":"muis"},"emoji":"🐁","verified":false},
-  {"id":"lex_ti_kudkud","am":"ድሙ በረኻ","tr":"dimu bereka","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Wildkatze","en":"wildcat","sv":"vildkatt","nl":"wilde kat"},"emoji":"","verified":false},
-  {"id":"lex_ti_shelil","am":"ተኹላ","tr":"tekula","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Wolf","en":"wolf","sv":"varg","nl":"wolf"},"emoji":"🐺","verified":false},
-  {"id":"lex_ti_kolkol","am":"ወኻርያ","tr":"wekharya","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Krähe","en":"crow","sv":"kråka","nl":"kraai"},"emoji":"🐦‍⬛","verified":false},
-  {"id":"lex_ti_anfar","am":"ሓረገ","tr":"harege","pos":"noun","topic":"animals","level":"TI","t":{"de":"der Adler","en":"eagle","sv":"örn","nl":"arend"},"emoji":"🦅","verified":false},
-  {"id":"lex_ti_regabi","am":"ርግቢ","tr":"rigbi","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Taube","en":"pigeon, dove","sv":"duva","nl":"duif"},"emoji":"🕊️","verified":false},
-  {"id":"lex_ti_ntsuh","am":"ኣንስርታት","tr":"ansirtat","pos":"noun","topic":"animals","level":"TI","t":{"de":"die Vögel","en":"birds","sv":"fåglar","nl":"vogels"},"emoji":"🐦","verified":false}
+  {
+    "id": "lex_ti_kelbi",
+    "am": "ከልቢ",
+    "tr": "kelbi",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Hund",
+      "en": "dog",
+      "sv": "hund",
+      "nl": "hond",
+      "it": "il cane",
+      "es": "el perro"
+    },
+    "emoji": "🐕",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dmu",
+    "am": "ድሙ",
+    "tr": "dimu",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Katze",
+      "en": "cat",
+      "sv": "katt",
+      "nl": "kat",
+      "it": "il gatto",
+      "es": "el gato"
+    },
+    "emoji": "🐈",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_faras",
+    "am": "ፈረስ",
+    "tr": "feres",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "das Pferd",
+      "en": "horse",
+      "sv": "häst",
+      "nl": "paard",
+      "it": "il cavallo",
+      "es": "el caballo"
+    },
+    "emoji": "🐴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lam",
+    "am": "ላም",
+    "tr": "lam",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Kuh",
+      "en": "cow",
+      "sv": "ko",
+      "nl": "koe",
+      "it": "la mucca",
+      "es": "la vaca"
+    },
+    "emoji": "🐄",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bereh",
+    "am": "ኣባጊዕ",
+    "tr": "abagi'e",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "das Schaf",
+      "en": "sheep",
+      "sv": "får",
+      "nl": "schaap",
+      "it": "la pecora",
+      "es": "la oveja"
+    },
+    "emoji": "🐑",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fyel",
+    "am": "ጤል",
+    "tr": "t'el",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Ziege",
+      "en": "goat",
+      "sv": "get",
+      "nl": "geit",
+      "it": "la capra",
+      "es": "la cabra"
+    },
+    "emoji": "🐐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gemel",
+    "am": "ገመል",
+    "tr": "gemel",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "das Kamel",
+      "en": "camel",
+      "sv": "kamel",
+      "nl": "kameel",
+      "it": "il cammello",
+      "es": "el camello"
+    },
+    "emoji": "🐫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_awdi",
+    "am": "ኣድጊ",
+    "tr": "adgi",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Esel",
+      "en": "donkey",
+      "sv": "åsna",
+      "nl": "ezel",
+      "it": "l'asino",
+      "es": "el burro"
+    },
+    "emoji": "🫏",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dorho",
+    "am": "ደርሆ",
+    "tr": "derho",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "das Huhn",
+      "en": "chicken",
+      "sv": "kyckling",
+      "nl": "kip",
+      "it": "la gallina",
+      "es": "la gallina"
+    },
+    "emoji": "🐔",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_asa2",
+    "am": "ዓሳ",
+    "tr": "'asa",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Fisch (Tier)",
+      "en": "fish (animal)",
+      "sv": "fisk",
+      "nl": "vis",
+      "it": "il pesce (animale)",
+      "es": "el pez (animal)"
+    },
+    "emoji": "🐟",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ayit",
+    "am": "ኣንበሳ",
+    "tr": "anbesa",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Löwe",
+      "en": "lion",
+      "sv": "lejon",
+      "nl": "leeuw",
+      "it": "il leone",
+      "es": "el león"
+    },
+    "emoji": "🦁",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nebri",
+    "am": "ነብሪ",
+    "tr": "nebri",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Leopard",
+      "en": "leopard",
+      "sv": "leopard",
+      "nl": "luipaard",
+      "it": "il leopardo",
+      "es": "el leopardo"
+    },
+    "emoji": "🐆",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zihinba",
+    "am": "ሓርማዝ",
+    "tr": "harmaz",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Elefant",
+      "en": "elephant",
+      "sv": "elefant",
+      "nl": "olifant",
+      "it": "l'elefante",
+      "es": "el elefante"
+    },
+    "emoji": "🐘",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ansisa",
+    "am": "ህበይ",
+    "tr": "hibey",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Affe",
+      "en": "monkey",
+      "sv": "apa",
+      "nl": "aap",
+      "it": "la scimmia",
+      "es": "el mono"
+    },
+    "emoji": "🐒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kend",
+    "am": "ቀኒዕ",
+    "tr": "qeni'e",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "das Kaninchen",
+      "en": "rabbit",
+      "sv": "kanin",
+      "nl": "konijn",
+      "it": "il coniglio",
+      "es": "el conejo"
+    },
+    "emoji": "🐇",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arinba",
+    "am": "ኣንበጣ",
+    "tr": "anbet'a",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Heuschrecke",
+      "en": "locust",
+      "sv": "gräshoppa",
+      "nl": "sprinkhaan",
+      "it": "la locusta",
+      "es": "la langosta"
+    },
+    "emoji": "🦗",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nihbi",
+    "am": "ንህቢ",
+    "tr": "nihbi",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Biene",
+      "en": "bee",
+      "sv": "bi",
+      "nl": "bij",
+      "it": "l'ape",
+      "es": "la abeja"
+    },
+    "emoji": "🐝",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbb",
+    "am": "ዝቡብ",
+    "tr": "zibub",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Fliege",
+      "en": "fly",
+      "sv": "fluga",
+      "nl": "vlieg",
+      "it": "la mosca",
+      "es": "la mosca"
+    },
+    "emoji": "🪰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bakhak",
+    "am": "በቐቅ",
+    "tr": "beqeq",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Frosch",
+      "en": "frog",
+      "sv": "groda",
+      "nl": "kikker",
+      "it": "la rana",
+      "es": "la rana"
+    },
+    "emoji": "🐸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kobkob",
+    "am": "ተመን",
+    "tr": "temen",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Schlange",
+      "en": "snake",
+      "sv": "orm",
+      "nl": "slang",
+      "it": "il serpente",
+      "es": "la serpiente"
+    },
+    "emoji": "🐍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agame",
+    "am": "ኣንጭዋ",
+    "tr": "anchwa",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Maus",
+      "en": "mouse",
+      "sv": "mus",
+      "nl": "muis",
+      "it": "il topo",
+      "es": "el ratón"
+    },
+    "emoji": "🐁",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kudkud",
+    "am": "ድሙ በረኻ",
+    "tr": "dimu bereka",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Wildkatze",
+      "en": "wildcat",
+      "sv": "vildkatt",
+      "nl": "wilde kat",
+      "it": "il gatto selvatico",
+      "es": "el gato salvaje"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shelil",
+    "am": "ተኹላ",
+    "tr": "tekula",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Wolf",
+      "en": "wolf",
+      "sv": "varg",
+      "nl": "wolf",
+      "it": "il lupo",
+      "es": "el lobo"
+    },
+    "emoji": "🐺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kolkol",
+    "am": "ወኻርያ",
+    "tr": "wekharya",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Krähe",
+      "en": "crow",
+      "sv": "kråka",
+      "nl": "kraai",
+      "it": "il corvo",
+      "es": "el cuervo"
+    },
+    "emoji": "🐦‍⬛",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_anfar",
+    "am": "ሓረገ",
+    "tr": "harege",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "der Adler",
+      "en": "eagle",
+      "sv": "örn",
+      "nl": "arend",
+      "it": "l'aquila",
+      "es": "el águila"
+    },
+    "emoji": "🦅",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_regabi",
+    "am": "ርግቢ",
+    "tr": "rigbi",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Taube",
+      "en": "pigeon, dove",
+      "sv": "duva",
+      "nl": "duif",
+      "it": "il piccione, la colomba",
+      "es": "la paloma"
+    },
+    "emoji": "🕊️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntsuh",
+    "am": "ኣንስርታት",
+    "tr": "ansirtat",
+    "pos": "noun",
+    "topic": "animals",
+    "level": "TI",
+    "t": {
+      "de": "die Vögel",
+      "en": "birds",
+      "sv": "fåglar",
+      "nl": "vogels",
+      "it": "gli uccelli",
+      "es": "los pájaros"
+    },
+    "emoji": "🐦",
+    "verified": false
+  }
 ]

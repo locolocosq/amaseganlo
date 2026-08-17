@@ -10,7 +10,9 @@
       "de": "die App, die Anwendung",
       "en": "app, application",
       "sv": "app, applikation",
-      "nl": "app, applicatie"
+      "nl": "app, applicatie",
+      "it": "l'app, l'applicazione",
+      "es": "la app, la aplicación"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Technologie",
       "en": "technology",
       "sv": "teknik",
-      "nl": "technologie"
+      "nl": "technologie",
+      "it": "la tecnologia",
+      "es": "la tecnología"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die sozialen Medien",
       "en": "social media",
       "sv": "sociala medier",
-      "nl": "sociale media"
+      "nl": "sociale media",
+      "it": "i social media",
+      "es": "las redes sociales"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "herunterladen",
       "en": "to download",
       "sv": "ladda ner",
-      "nl": "downloaden"
+      "nl": "downloaden",
+      "it": "scaricare",
+      "es": "descargar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "kontrollieren, steuern",
       "en": "to control",
       "sv": "kontrollera, styra",
-      "nl": "controleren, besturen"
+      "nl": "controleren, besturen",
+      "it": "controllare",
+      "es": "controlar"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "das Netzwerk, das Netz",
       "en": "network",
       "sv": "nätverk",
-      "nl": "netwerk"
+      "nl": "netwerk",
+      "it": "la rete",
+      "es": "la red"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "modern",
       "en": "modern",
       "sv": "modern",
-      "nl": "modern"
+      "nl": "modern",
+      "it": "moderno",
+      "es": "moderno"
     },
     "hint": {},
     "alt": {},

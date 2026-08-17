@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_smk_cart","am":"ዓረብያ ግዢ","tr":"'arebiya gizi","pos":"noun","topic":"supermarket","level":"TI","t":{"de":"der Einkaufswagen","en":"shopping cart","sv":"shoppingvagn","nl":"winkelwagentje"},"emoji":"🛒","verified":false},
-  {"id":"lex_ti_smk_cshr","am":"ኣብ ካሽር ዘሎ","tr":"'ab kashir zelo","pos":"noun","topic":"supermarket","level":"TI","t":{"de":"die Kasse","en":"checkout, cashier","sv":"kassa","nl":"kassa"},"emoji":"","verified":false},
-  {"id":"lex_ti_smk_shlf2","am":"ራፍ ድኳን","tr":"rafi dikwan","pos":"noun","topic":"supermarket","level":"TI","t":{"de":"das Regal (Laden)","en":"shelf (store)","sv":"hylla (butik)","nl":"schap (winkel)"},"emoji":"","verified":false},
-  {"id":"lex_ti_smk_recpt","am":"ቅብሊት ግዢ","tr":"qibilit gizi","pos":"noun","topic":"supermarket","level":"TI","t":{"de":"der Kassenbon","en":"receipt","sv":"kvitto","nl":"kassabon"},"emoji":"🧾","verified":false}
+  {
+    "id": "lex_ti_smk_cart",
+    "am": "ዓረብያ ግዢ",
+    "tr": "'arebiya gizi",
+    "pos": "noun",
+    "topic": "supermarket",
+    "level": "TI",
+    "t": {
+      "de": "der Einkaufswagen",
+      "en": "shopping cart",
+      "sv": "shoppingvagn",
+      "nl": "winkelwagentje",
+      "it": "il carrello della spesa",
+      "es": "el carrito de compras"
+    },
+    "emoji": "🛒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smk_cshr",
+    "am": "ኣብ ካሽር ዘሎ",
+    "tr": "'ab kashir zelo",
+    "pos": "noun",
+    "topic": "supermarket",
+    "level": "TI",
+    "t": {
+      "de": "die Kasse",
+      "en": "checkout, cashier",
+      "sv": "kassa",
+      "nl": "kassa",
+      "it": "la cassa",
+      "es": "la caja"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smk_shlf2",
+    "am": "ራፍ ድኳን",
+    "tr": "rafi dikwan",
+    "pos": "noun",
+    "topic": "supermarket",
+    "level": "TI",
+    "t": {
+      "de": "das Regal (Laden)",
+      "en": "shelf (store)",
+      "sv": "hylla (butik)",
+      "nl": "schap (winkel)",
+      "it": "lo scaffale (negozio)",
+      "es": "el estante (tienda)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_smk_recpt",
+    "am": "ቅብሊት ግዢ",
+    "tr": "qibilit gizi",
+    "pos": "noun",
+    "topic": "supermarket",
+    "level": "TI",
+    "t": {
+      "de": "der Kassenbon",
+      "en": "receipt",
+      "sv": "kvitto",
+      "nl": "kassabon",
+      "it": "lo scontrino",
+      "es": "el recibo, el ticket"
+    },
+    "emoji": "🧾",
+    "verified": false
+  }
 ]

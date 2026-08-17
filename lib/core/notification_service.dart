@@ -138,6 +138,8 @@ const Map<String, (String, String)> _reminderText = {
   'en': ('Time to learn Amharic!', 'A few minutes are enough - keep going with Habesha Speak.'),
   'nl': ('Tijd om Amhaars te leren!', 'Een paar minuten zijn al genoeg - ga verder met Habesha Speak.'),
   'sv': ('Dags att lära dig amhariska!', 'Några minuter räcker - fortsätt med Habesha Speak.'),
+  'it': ('È ora di imparare l\'amarico!', 'Bastano pochi minuti - continua con Habesha Speak.'),
+  'es': ('¡Es hora de aprender amárico!', 'Con unos minutos basta - sigue practicando con Habesha Speak.'),
 };
 
 /// Owns the app's one daily practice-reminder notification. Fully driven

@@ -10,7 +10,9 @@
       "de": "der Kopf",
       "en": "head",
       "sv": "huvud",
-      "nl": "hoofd"
+      "nl": "hoofd",
+      "it": "la testa",
+      "es": "la cabeza"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Auge",
       "en": "eye",
       "sv": "öga",
-      "nl": "oog"
+      "nl": "oog",
+      "it": "l'occhio",
+      "es": "el ojo"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Ohr",
       "en": "ear",
       "sv": "öra",
-      "nl": "oor"
+      "nl": "oor",
+      "it": "l'orecchio",
+      "es": "la oreja"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Nase",
       "en": "nose",
       "sv": "näsa",
-      "nl": "neus"
+      "nl": "neus",
+      "it": "il naso",
+      "es": "la nariz"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Mund",
       "en": "mouth",
       "sv": "mun",
-      "nl": "mond"
+      "nl": "mond",
+      "it": "la bocca",
+      "es": "la boca"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Hand",
       "en": "hand",
       "sv": "hand",
-      "nl": "hand"
+      "nl": "hand",
+      "it": "la mano",
+      "es": "la mano"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Fuß, das Bein",
       "en": "foot, leg",
       "sv": "fot, ben",
-      "nl": "voet, been"
+      "nl": "voet, been",
+      "it": "il piede, la gamba",
+      "es": "el pie, la pierna"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "der Bauch",
       "en": "belly, stomach",
       "sv": "mage",
-      "nl": "buik"
+      "nl": "buik",
+      "it": "la pancia",
+      "es": "la barriga"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "das Herz",
       "en": "heart",
       "sv": "hjärta",
-      "nl": "hart"
+      "nl": "hart",
+      "it": "il cuore",
+      "es": "el corazón"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "der Zahn",
       "en": "tooth",
       "sv": "tand",
-      "nl": "tand"
+      "nl": "tand",
+      "it": "il dente",
+      "es": "el diente"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "das Haar",
       "en": "hair",
       "sv": "hår",
-      "nl": "haar"
+      "nl": "haar",
+      "it": "i capelli",
+      "es": "el pelo"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "der Schmerz",
       "en": "pain",
       "sv": "smärta",
-      "nl": "pijn"
+      "nl": "pijn",
+      "it": "il dolore",
+      "es": "el dolor"
     },
     "hint": {},
     "alt": {},
@@ -226,7 +250,9 @@
       "de": "der Arzt, die Ärztin",
       "en": "doctor",
       "sv": "läkare",
-      "nl": "dokter"
+      "nl": "dokter",
+      "it": "il dottore/la dottoressa",
+      "es": "el doctor/la doctora"
     },
     "hint": {},
     "alt": {},
@@ -244,7 +270,9 @@
       "de": "das Medikament",
       "en": "medicine",
       "sv": "medicin",
-      "nl": "medicijn"
+      "nl": "medicijn",
+      "it": "il medicinale",
+      "es": "el medicamento"
     },
     "hint": {},
     "alt": {},
@@ -262,7 +290,9 @@
       "de": "Ich bin krank",
       "en": "I am sick",
       "sv": "Jag är sjuk",
-      "nl": "Ik ben ziek"
+      "nl": "Ik ben ziek",
+      "it": "Sono malato/a",
+      "es": "Estoy enfermo/a"
     },
     "hint": {},
     "alt": {},
@@ -280,7 +310,9 @@
       "de": "gesund",
       "en": "healthy",
       "sv": "frisk",
-      "nl": "gezond"
+      "nl": "gezond",
+      "it": "sano/a",
+      "es": "sano/a"
     },
     "hint": {},
     "alt": {},
@@ -298,7 +330,9 @@
       "de": "Mir geht es nicht gut",
       "en": "I'm not well",
       "sv": "Jag mår inte bra",
-      "nl": "Het gaat niet goed met mij"
+      "nl": "Het gaat niet goed met mij",
+      "it": "Non mi sento bene",
+      "es": "No me siento bien"
     },
     "hint": {},
     "alt": {},
@@ -316,7 +350,9 @@
       "de": "die Schulter",
       "en": "shoulder",
       "sv": "axel",
-      "nl": "schouder"
+      "nl": "schouder",
+      "it": "la spalla",
+      "es": "el hombro"
     },
     "hint": {},
     "alt": {},
@@ -334,7 +370,9 @@
       "de": "der Rücken",
       "en": "back",
       "sv": "rygg",
-      "nl": "rug"
+      "nl": "rug",
+      "it": "la schiena",
+      "es": "la espalda"
     },
     "hint": {},
     "alt": {},
@@ -352,7 +390,9 @@
       "de": "das Knie",
       "en": "knee",
       "sv": "knä",
-      "nl": "knie"
+      "nl": "knie",
+      "it": "il ginocchio",
+      "es": "la rodilla"
     },
     "hint": {},
     "alt": {},
@@ -370,7 +410,9 @@
       "de": "der Finger",
       "en": "finger",
       "sv": "finger",
-      "nl": "vinger"
+      "nl": "vinger",
+      "it": "il dito",
+      "es": "el dedo"
     },
     "hint": {},
     "alt": {},
@@ -388,7 +430,9 @@
       "de": "der Hals",
       "en": "neck",
       "sv": "hals",
-      "nl": "nek"
+      "nl": "nek",
+      "it": "il collo",
+      "es": "el cuello"
     },
     "hint": {},
     "alt": {},
@@ -406,7 +450,9 @@
       "de": "die Haut",
       "en": "skin",
       "sv": "hud",
-      "nl": "huid"
+      "nl": "huid",
+      "it": "la pelle",
+      "es": "la piel"
     },
     "hint": {},
     "alt": {},
@@ -424,7 +470,9 @@
       "de": "das Fieber",
       "en": "fever",
       "sv": "feber",
-      "nl": "koorts"
+      "nl": "koorts",
+      "it": "la febbre",
+      "es": "la fiebre"
     },
     "hint": {},
     "alt": {},
@@ -442,7 +490,9 @@
       "de": "der Husten",
       "en": "cough",
       "sv": "hosta",
-      "nl": "hoest"
+      "nl": "hoest",
+      "it": "la tosse",
+      "es": "la tos"
     },
     "hint": {},
     "alt": {},
@@ -460,7 +510,9 @@
       "de": "die Apotheke",
       "en": "pharmacy",
       "sv": "apotek",
-      "nl": "apotheek"
+      "nl": "apotheek",
+      "it": "la farmacia",
+      "es": "la farmacia"
     },
     "hint": {},
     "alt": {},
@@ -478,7 +530,9 @@
       "de": "die Krankenschwester, der Pfleger",
       "en": "nurse",
       "sv": "sjuksköterska",
-      "nl": "verpleegkundige"
+      "nl": "verpleegkundige",
+      "it": "l'infermiere/l'infermiera",
+      "es": "el enfermero/la enfermera"
     },
     "hint": {},
     "alt": {},
@@ -496,7 +550,9 @@
       "de": "die Gesundheit",
       "en": "health",
       "sv": "hälsa",
-      "nl": "gezondheid"
+      "nl": "gezondheid",
+      "it": "la salute",
+      "es": "la salud"
     },
     "hint": {},
     "alt": {},
@@ -514,7 +570,9 @@
       "de": "Ich bin müde",
       "en": "I am tired",
       "sv": "Jag är trött",
-      "nl": "Ik ben moe"
+      "nl": "Ik ben moe",
+      "it": "Sono stanco/a",
+      "es": "Estoy cansado/a"
     },
     "hint": {},
     "alt": {},

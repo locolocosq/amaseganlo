@@ -12,7 +12,9 @@
       "de": "Du (männlich) gehst.",
       "en": "You (masc.) go.",
       "sv": "Du (maskulinum) går.",
-      "nl": "Jij (mannelijk) gaat."
+      "nl": "Jij (mannelijk) gaat.",
+      "it": "Tu (maschile) vai.",
+      "es": "Tú (masculino) vas."
     },
     "alt": {},
     "chunks": [
@@ -34,7 +36,9 @@
       "de": "Du (weiblich) gehst.",
       "en": "You (fem.) go.",
       "sv": "Du (femininum) går.",
-      "nl": "Jij (vrouwelijk) gaat."
+      "nl": "Jij (vrouwelijk) gaat.",
+      "it": "Tu (femminile) vai.",
+      "es": "Tú (femenino) vas."
     },
     "alt": {},
     "chunks": [
@@ -56,7 +60,9 @@
       "de": "Er geht.",
       "en": "He goes.",
       "sv": "Han går.",
-      "nl": "Hij gaat."
+      "nl": "Hij gaat.",
+      "it": "Lui va.",
+      "es": "Él va."
     },
     "alt": {},
     "chunks": [
@@ -78,7 +84,9 @@
       "de": "Sie geht.",
       "en": "She goes.",
       "sv": "Hon går.",
-      "nl": "Zij gaat."
+      "nl": "Zij gaat.",
+      "it": "Lei va.",
+      "es": "Ella va."
     },
     "alt": {},
     "chunks": [
@@ -100,7 +108,9 @@
       "de": "Er ging.",
       "en": "He went.",
       "sv": "Han gick.",
-      "nl": "Hij ging."
+      "nl": "Hij ging.",
+      "it": "Lui è andato.",
+      "es": "Él fue."
     },
     "alt": {},
     "chunks": [
@@ -122,7 +132,9 @@
       "de": "Sie ging.",
       "en": "She went.",
       "sv": "Hon gick.",
-      "nl": "Zij ging."
+      "nl": "Zij ging.",
+      "it": "Lei è andata.",
+      "es": "Ella fue."
     },
     "alt": {},
     "chunks": [
@@ -146,7 +158,9 @@
       "de": "Sein Haus ist groß.",
       "en": "His house is big.",
       "sv": "Hans hus är stort.",
-      "nl": "Zijn huis is groot."
+      "nl": "Zijn huis is groot.",
+      "it": "La sua casa (di lui) è grande.",
+      "es": "Su casa (de él) es grande."
     },
     "alt": {},
     "chunks": [
@@ -172,7 +186,9 @@
       "de": "Ihr Haus ist groß.",
       "en": "Her house is big.",
       "sv": "Hennes hus är stort.",
-      "nl": "Haar huis is groot."
+      "nl": "Haar huis is groot.",
+      "it": "La sua casa (di lei) è grande.",
+      "es": "Su casa (de ella) es grande."
     },
     "alt": {},
     "chunks": [

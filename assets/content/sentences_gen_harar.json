@@ -11,7 +11,9 @@
       "de": "die Handwerkskunst ist vorhanden.",
       "en": "There is craftsmanship.",
       "sv": "Det finns hantverksskicklighet.",
-      "nl": "Er is vakmanschap."
+      "nl": "Er is vakmanschap.",
+      "it": "C'è l'artigianato.",
+      "es": "Hay artesanía."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "die Stadtmauer ist vorhanden.",
       "en": "There is city wall.",
       "sv": "Det finns stadsmur.",
-      "nl": "Er is stadsmuur."
+      "nl": "Er is stadsmuur.",
+      "it": "C'è la cinta muraria.",
+      "es": "Hay una muralla de la ciudad."
     },
     "alt": {},
     "chunks": [
@@ -54,7 +58,9 @@
       "de": "der Hyänenmann (Hararer Tradition) ist vorhanden.",
       "en": "There is the hyena man (Harar tradition).",
       "sv": "Det finns hyenamannen (Harar-tradition).",
-      "nl": "Er is de hyenaman (Harar-traditie)."
+      "nl": "Er is de hyenaman (Harar-traditie).",
+      "it": "C'è l'uomo delle iene (tradizione di Harar).",
+      "es": "Hay el hombre de las hienas (tradición de Harar)."
     },
     "alt": {},
     "chunks": [
@@ -76,7 +82,9 @@
       "de": "Ich möchte tanzen.",
       "en": "I want to dance.",
       "sv": "Jag vill dansa.",
-      "nl": "Ik wil dansen."
+      "nl": "Ik wil dansen.",
+      "it": "Voglio ballare.",
+      "es": "Quiero bailar."
     },
     "alt": {},
     "chunks": [
@@ -97,7 +105,9 @@
       "de": "der Gebirgskamm ist vorhanden.",
       "en": "There is mountain ridge.",
       "sv": "Det finns bergskam.",
-      "nl": "Er is bergkam."
+      "nl": "Er is bergkam.",
+      "it": "C'è la cresta montuosa.",
+      "es": "Hay una cresta montañosa."
     },
     "alt": {},
     "chunks": [
@@ -118,7 +128,9 @@
       "de": "die Gerste ist vorhanden.",
       "en": "There is barley.",
       "sv": "Det finns korn.",
-      "nl": "Er is gerst."
+      "nl": "Er is gerst.",
+      "it": "C'è l'orzo.",
+      "es": "Hay cebada."
     },
     "alt": {},
     "chunks": [
@@ -139,7 +151,9 @@
       "de": "die Geschichte, Erzählung ist vorhanden.",
       "en": "There is story, history.",
       "sv": "Det finns historia, berättelse.",
-      "nl": "Er is verhaal, geschiedenis."
+      "nl": "Er is verhaal, geschiedenis.",
+      "it": "C'è la storia, il racconto.",
+      "es": "Hay historia, relato."
     },
     "alt": {},
     "chunks": [
@@ -160,7 +174,9 @@
       "de": "die traditionelle Medizin ist vorhanden.",
       "en": "There is traditional medicine.",
       "sv": "Det finns traditionell medicin.",
-      "nl": "Er is traditionele geneeskunde."
+      "nl": "Er is traditionele geneeskunde.",
+      "it": "C'è la medicina tradizionale.",
+      "es": "Hay medicina tradicional."
     },
     "alt": {},
     "chunks": [
@@ -182,7 +198,9 @@
       "de": "die Periode, Saison ist vorhanden.",
       "en": "There is period, season.",
       "sv": "Det finns period, säsong.",
-      "nl": "Er is periode, seizoen."
+      "nl": "Er is periode, seizoen.",
+      "it": "C'è il periodo, la stagione.",
+      "es": "Hay período, estación."
     },
     "alt": {},
     "chunks": [
@@ -203,7 +221,9 @@
       "de": "der Verwaltungsbezirk ist vorhanden.",
       "en": "There is district.",
       "sv": "Det finns distrikt.",
-      "nl": "Er is district."
+      "nl": "Er is district.",
+      "it": "C'è il distretto.",
+      "es": "Hay distrito."
     },
     "alt": {},
     "chunks": [
@@ -224,7 +244,9 @@
       "de": "das Dach ist vorhanden.",
       "en": "There is roof.",
       "sv": "Det finns tak.",
-      "nl": "Er is dak."
+      "nl": "Er is dak.",
+      "it": "C'è il tetto.",
+      "es": "Hay techo."
     },
     "alt": {},
     "chunks": [
@@ -245,7 +267,9 @@
       "de": "das Telefon ist vorhanden.",
       "en": "There is telephone.",
       "sv": "Det finns telefon.",
-      "nl": "Er is telefoon."
+      "nl": "Er is telefoon.",
+      "it": "C'è il telefono.",
+      "es": "Hay teléfono."
     },
     "alt": {},
     "chunks": [
@@ -266,7 +290,9 @@
       "de": "die Zufriedenheit ist vorhanden.",
       "en": "There is contentment.",
       "sv": "Det finns belåtenhet.",
-      "nl": "Er is tevredenheid."
+      "nl": "Er is tevredenheid.",
+      "it": "C'è la soddisfazione.",
+      "es": "Hay satisfacción."
     },
     "alt": {},
     "chunks": [
@@ -287,7 +313,9 @@
       "de": "Ich möchte lügen.",
       "en": "I want to lie.",
       "sv": "Jag vill ljuga.",
-      "nl": "Ik wil liegen."
+      "nl": "Ik wil liegen.",
+      "it": "Voglio mentire.",
+      "es": "Quiero mentir."
     },
     "alt": {},
     "chunks": [
@@ -308,7 +336,9 @@
       "de": "die Touristenattraktion ist vorhanden.",
       "en": "There is tourist attraction.",
       "sv": "Det finns turistattraktion.",
-      "nl": "Er is toeristische attractie."
+      "nl": "Er is toeristische attractie.",
+      "it": "C'è l'attrazione turistica.",
+      "es": "Hay atracción turística."
     },
     "alt": {},
     "chunks": [
@@ -330,7 +360,9 @@
       "de": "Ich möchte regnen.",
       "en": "I want to rain.",
       "sv": "Jag vill regna.",
-      "nl": "Ik wil regenen."
+      "nl": "Ik wil regenen.",
+      "it": "Voglio piovere.",
+      "es": "Quiero llover."
     },
     "alt": {},
     "chunks": [
@@ -352,7 +384,9 @@
       "de": "die Auto-Rikscha ist vorhanden.",
       "en": "There is tuk-tuk, auto-rickshaw.",
       "sv": "Det finns tuktuk.",
-      "nl": "Er is tuktuk."
+      "nl": "Er is tuktuk.",
+      "it": "C'è il tuk-tuk.",
+      "es": "Hay tuk-tuk."
     },
     "alt": {},
     "chunks": [
@@ -373,7 +407,9 @@
       "de": "die Universität ist vorhanden.",
       "en": "There is university.",
       "sv": "Det finns universitet.",
-      "nl": "Er is universiteit."
+      "nl": "Er is universiteit.",
+      "it": "C'è l'università.",
+      "es": "Hay universidad."
     },
     "alt": {},
     "chunks": [
@@ -396,7 +432,9 @@
       "de": "der Arzt ist vorhanden.",
       "en": "There is doctor.",
       "sv": "Det finns läkare.",
-      "nl": "Er is dokter."
+      "nl": "Er is dokter.",
+      "it": "C'è il dottore.",
+      "es": "Hay doctor."
     },
     "alt": {},
     "chunks": [
@@ -417,7 +455,9 @@
       "de": "der Kläger ist vorhanden.",
       "en": "There is plaintiff.",
       "sv": "Det finns kärande.",
-      "nl": "Er is eiser."
+      "nl": "Er is eiser.",
+      "it": "C'è il querelante.",
+      "es": "Hay demandante."
     },
     "alt": {},
     "chunks": [
@@ -438,7 +478,9 @@
       "de": "der Verlobte, die Verlobte ist vorhanden.",
       "en": "There is fiancé/fiancée.",
       "sv": "Det finns förlovad.",
-      "nl": "Er is verloofde."
+      "nl": "Er is verloofde.",
+      "it": "C'è il fidanzato, la fidanzata.",
+      "es": "Hay novio, novia."
     },
     "alt": {},
     "chunks": [
@@ -459,7 +501,9 @@
       "de": "das Kichererbsenpüree ist vorhanden.",
       "en": "There is chickpea/legume stew.",
       "sv": "Det finns kikärtsgryta.",
-      "nl": "Er is kikkererwtenstoofpot."
+      "nl": "Er is kikkererwtenstoofpot.",
+      "it": "C'è lo shiro (purè di ceci).",
+      "es": "Hay shiro (puré de garbanzos)."
     },
     "alt": {},
     "chunks": [
@@ -480,7 +524,9 @@
       "de": "Ich möchte kämmen.",
       "en": "I want to comb.",
       "sv": "Jag vill kamma.",
-      "nl": "Ik wil kammen."
+      "nl": "Ik wil kammen.",
+      "it": "Voglio pettinare.",
+      "es": "Quiero peinar."
     },
     "alt": {},
     "chunks": [
@@ -501,7 +547,9 @@
       "de": "die Organisation, das Unternehmen ist vorhanden.",
       "en": "There is organization, company.",
       "sv": "Det finns organisation, företag.",
-      "nl": "Er is organisatie, bedrijf."
+      "nl": "Er is organisatie, bedrijf.",
+      "it": "C'è l'organizzazione, l'azienda.",
+      "es": "Hay organización, empresa."
     },
     "alt": {},
     "chunks": [
@@ -522,7 +570,9 @@
       "de": "der Liter ist vorhanden.",
       "en": "There is liter.",
       "sv": "Det finns liter.",
-      "nl": "Er is liter."
+      "nl": "Er is liter.",
+      "it": "C'è il litro.",
+      "es": "Hay litro."
     },
     "alt": {},
     "chunks": [
@@ -543,7 +593,9 @@
       "de": "der Stern ist vorhanden.",
       "en": "There is star.",
       "sv": "Det finns stjärna.",
-      "nl": "Er is ster."
+      "nl": "Er is ster.",
+      "it": "C'è la stella.",
+      "es": "Hay estrella."
     },
     "alt": {},
     "chunks": [
@@ -564,7 +616,9 @@
       "de": "die Katze ist vorhanden.",
       "en": "There is cat.",
       "sv": "Det finns katt.",
-      "nl": "Er is kat."
+      "nl": "Er is kat.",
+      "it": "C'è il gatto.",
+      "es": "Hay gato."
     },
     "alt": {},
     "chunks": [
@@ -585,7 +639,9 @@
       "de": "der Vermieter ist vorhanden.",
       "en": "There is landlord.",
       "sv": "Det finns hyresvärd.",
-      "nl": "Er is verhuurder."
+      "nl": "Er is verhuurder.",
+      "it": "C'è il padrone di casa.",
+      "es": "Hay propietario."
     },
     "alt": {},
     "chunks": [
@@ -606,7 +662,9 @@
       "de": "der Fußball ist vorhanden.",
       "en": "There is football, soccer.",
       "sv": "Det finns fotboll.",
-      "nl": "Er is voetbal."
+      "nl": "Er is voetbal.",
+      "it": "C'è il calcio.",
+      "es": "Hay fútbol."
     },
     "alt": {},
     "chunks": [
@@ -628,7 +686,9 @@
       "de": "Ich möchte forschen, untersuchen.",
       "en": "I want to research, to investigate.",
       "sv": "Jag vill forska, undersöka.",
-      "nl": "Ik wil onderzoeken."
+      "nl": "Ik wil onderzoeken.",
+      "it": "Voglio fare ricerca, indagare.",
+      "es": "Quiero investigar."
     },
     "alt": {},
     "chunks": [
@@ -649,7 +709,9 @@
       "de": "der Olivenbaum (afrikanisch) ist vorhanden.",
       "en": "There is African olive tree.",
       "sv": "Det finns afrikanskt olivträd.",
-      "nl": "Er is Afrikaanse olijfboom."
+      "nl": "Er is Afrikaanse olijfboom.",
+      "it": "C'è l'ulivo africano.",
+      "es": "Hay olivo africano."
     },
     "alt": {},
     "chunks": [
@@ -670,7 +732,9 @@
       "de": "das Dach ist vorhanden.",
       "en": "There is roof.",
       "sv": "Det finns tak.",
-      "nl": "Er is dak."
+      "nl": "Er is dak.",
+      "it": "C'è il tetto.",
+      "es": "Hay techo."
     },
     "alt": {},
     "chunks": [
@@ -691,7 +755,9 @@
       "de": "die Steuer, der Zoll ist vorhanden.",
       "en": "There is tax, customs duty.",
       "sv": "Det finns skatt, tull.",
-      "nl": "Er is belasting, douane."
+      "nl": "Er is belasting, douane.",
+      "it": "C'è la tassa, il dazio.",
+      "es": "Hay impuesto, arancel."
     },
     "alt": {},
     "chunks": [
@@ -712,7 +778,9 @@
       "de": "der Ohrring ist vorhanden.",
       "en": "There is earring.",
       "sv": "Det finns örhänge.",
-      "nl": "Er is oorbel."
+      "nl": "Er is oorbel.",
+      "it": "C'è l'orecchino.",
+      "es": "Hay pendiente."
     },
     "alt": {},
     "chunks": [
@@ -734,7 +802,9 @@
       "de": "der Umschlag, die Post ist vorhanden.",
       "en": "There is envelope, mail.",
       "sv": "Det finns kuvert, post.",
-      "nl": "Er is envelop, post."
+      "nl": "Er is envelop, post.",
+      "it": "C'è la busta, la posta.",
+      "es": "Hay sobre, correo."
     },
     "alt": {},
     "chunks": [
@@ -755,7 +825,9 @@
       "de": "Er ist schnell.",
       "en": "He is fast.",
       "sv": "Han är snabb.",
-      "nl": "Hij is snel."
+      "nl": "Hij is snel.",
+      "it": "Lui è veloce.",
+      "es": "Él es rápido."
     },
     "alt": {},
     "chunks": [
@@ -777,7 +849,9 @@
       "de": "Ich möchte nehmen.",
       "en": "I want to take.",
       "sv": "Jag vill ta.",
-      "nl": "Ik wil nemen."
+      "nl": "Ik wil nemen.",
+      "it": "Voglio prendere.",
+      "es": "Quiero tomar."
     },
     "alt": {},
     "chunks": [
@@ -798,7 +872,9 @@
       "de": "die Unterhaltung, Freizeit ist vorhanden.",
       "en": "There is entertainment, recreation.",
       "sv": "Det finns underhållning.",
-      "nl": "Er is vermaak."
+      "nl": "Er is vermaak.",
+      "it": "C'è l'intrattenimento, lo svago.",
+      "es": "Hay entretenimiento, ocio."
     },
     "alt": {},
     "chunks": [
@@ -819,7 +895,9 @@
       "de": "der Lebensraum ist vorhanden.",
       "en": "There is habitat.",
       "sv": "Det finns habitat.",
-      "nl": "Er is habitat."
+      "nl": "Er is habitat.",
+      "it": "C'è l'habitat.",
+      "es": "Hay hábitat."
     },
     "alt": {},
     "chunks": [
@@ -840,7 +918,9 @@
       "de": "das Denkmal ist vorhanden.",
       "en": "There is monument, memorial.",
       "sv": "Det finns monument.",
-      "nl": "Er is monument."
+      "nl": "Er is monument.",
+      "it": "C'è il monumento.",
+      "es": "Hay monumento."
     },
     "alt": {},
     "chunks": [
@@ -861,7 +941,9 @@
       "de": "die Disziplin, Ermahnung ist vorhanden.",
       "en": "There is discipline, reprimand.",
       "sv": "Det finns disciplin.",
-      "nl": "Er is discipline."
+      "nl": "Er is discipline.",
+      "it": "C'è la disciplina, il rimprovero.",
+      "es": "Hay disciplina, reprimenda."
     },
     "alt": {},
     "chunks": [

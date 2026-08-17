@@ -1329,3 +1329,73 @@ funktionaler Bug, der schon lange im Content-Format schlummerte.
   vormals fehlerhaft geparsten 376 Stufen korrekt als Satzbau/Hören/Anwendung statt Wortübung) und
   `content_validation_test.dart` unverändert grün - der Fix ändert also den generierten Übungstyp für
   127 Einheiten, ohne irgendwo neue Abstürze oder leere Pflichtfelder zu verursachen.
+
+## Etappe 29: Italienisch und Spanisch als 5. und 6. Oberflächensprache
+
+Nutzerauftrag, wörtlich: "bring die sprachen italienisch und spanisch noch rein! denk an alle
+funktionen einstellungen etc.!" - die App unterstützte bisher vier Oberflächensprachen (de/en/sv/nl),
+in denen sowohl die App selbst als auch jedes einzelne gelehrte Amharisch-/Tigrinya-Wort und jeder
+Satz übersetzt vorliegen (`Lexeme.t`/`Sentence.t`, je eine Map von Sprachcode auf Text). "Alle
+Funktionen" bedeutete deshalb nicht nur neue Oberflächentexte, sondern echte Übersetzungen für
+**4020 Lexeme und 1518 Sätze** - der bei Weitem größte Teil der Arbeit.
+
+- **Code-Ebene** (`lib/state/settings_provider.dart`, `lib/core/language_names.dart`,
+  `lib/core/answer_checker.dart`, `lib/core/notification_service.dart`): `supportedLocaleCodes` um
+  `it`/`es` erweitert (einzige zentrale Stelle, von der Einstellungs-Dropdown und Onboarding-Auswahl
+  ableiten - `l10n.yaml` selbst braucht keine Anpassung, da Flutter die unterstützten Locales aus den
+  vorhandenen `app_*.arb`-Dateien ableitet), Sprachnamen ("Italiano"/"Español"), Artikel-Erkennung für
+  die tolerante Tipp-Prüfung bei Übersetzungsaufgaben (`il/lo/la/i/gli/le/un/uno/una/l'` bzw.
+  `el/la/los/las/un/una/unos/unas`) und Erinnerungs-Benachrichtigungstext ergänzt. Für Italienisch
+  wurde `_normalize()` in `answer_checker.dart` außerdem um einen Sonderfall erweitert: anders als
+  alle bisherigen Sprachen hängt der elidierte Artikel `l'` ohne Leerzeichen direkt am Wort
+  (`l'acqua`), die bisherige Logik `"$article "` (Artikel + Leerzeichen) hätte das nie erkannt.
+- **Oberfläche** (`lib/l10n/app_it.arb`, `app_es.arb`, neu): alle 310 Schlüssel aus `app_en.arb`
+  händisch übersetzt, informelles Register (du/tu/tú-Form) passend zum bestehenden Ton. An mehreren
+  Stellen, wo eine wörtliche Übersetzung eine grammatische Genus-Endung erzwungen hätte (z. B.
+  "Willkommen" an eine unbekannte Person gerichtet), wurde bewusst geschlechtsneutral umformuliert
+  (z. B. it "Benvenuti a {region}!" statt "Benvenuto/a", es "Te damos la bienvenida" statt
+  "Bienvenido/a") - dieselbe Konvention, die für die anderen UI-Strings schon gilt. `flutter
+  gen-l10n` gelaufen, `l10n_parity_test.dart` (jetzt 6 Sprachen) bestätigt identische Schlüsselmengen
+  und keine leeren Werte.
+- **Content-Übersetzung (der große Teil):** 10 parallele Hintergrund-Agents, je ein disjunkter
+  Dateibatch (~50-55 von insgesamt 570 `lexemes_*.json`/`sentences_*.json`-Dateien, ~550 Einträge
+  pro Batch), ergänzten `t.it`/`t.es` (und `hint.it`/`hint.es`, wo ein `hint`-Objekt mit Inhalt
+  existiert) in jedem Eintrag, ohne andere Felder anzufassen (`id`/`am`/`tr`/`pos`/`topic`/`level`/
+  `emoji`/`verified`/`uses`/`chunks`/`alt` unverändert). `chunks` (die antippbaren Amharisch-/
+  Tigrinya-Wortstücke für Sätze-bauen-Übungen) ist sprachunabhängig und musste nicht angepasst
+  werden.
+- **Unterbrechung durch Nutzungslimit:** alle 10 Agents liefen gleichzeitig gegen ein
+  Session-Nutzungslimit und stoppten zeitgleich ("resets 7:30pm Europe/Berlin"). Da die aktuelle
+  Uhrzeit zu dem Zeitpunkt bereits nach 19:30 Uhr lag (das Limit war schon zurückgesetzt, bevor alle
+  Fehlermeldungen verarbeitet waren), wurden alle 10 Agents direkt per Fortsetzungsnachricht wieder
+  angestoßen, ohne dass eine längere Wartezeit nötig war - passend zur bereits früher in diesem
+  Gespräch gegebenen Anweisung, bei Limit-Unterbrechungen automatisch fortzusetzen, sobald die Nutzung
+  wieder verfügbar ist.
+- **Ein Agent lief versehentlich in einem isolierten Git-Worktree** (`isolation: "worktree"`
+  fälschlich beim allerersten Agent-Aufruf gesetzt, für die restlichen 9 korrigiert) - da die
+  Dateilisten aller 10 Batches komplett disjunkt sind, gab es kein Merge-Konflikt-Risiko; die 48
+  geänderten Dateien wurden nach Abschluss einfach aus dem Worktree ins Hauptverzeichnis kopiert, der
+  Worktree und sein Branch danach entfernt.
+- **Eigene, vom Agent-Selbstbericht unabhängige Verifikation** (bewusst nicht blind den einzelnen
+  Agent-Zusammenfassungen vertraut, da zwei Agents einen geteilten Scratch-Ordner-Konflikt meldeten -
+  ein `rm -f *.js`-Aufräumbefehl eines Agents löschte kurzzeitig das noch nicht ausgeführte
+  Scratch-Skript eines anderen; beide betroffenen Agents bestätigten aber, dass ihre eigene Arbeit
+  bereits sicher geschrieben war, bevor die Kollision auftrat): ein Node-Skript prüfte anschließend
+  alle 570 Dateien direkt - **570/570 valides JSON, 5538/5538 Einträge (4020 Lexeme + 1518 Sätze) mit
+  nicht-leerem `t.it` und `t.es`, 0 Probleme**. Per `git diff`-Stichprobe zusätzlich bestätigt, dass
+  Formatierungsänderungen (kompakte einzeilige `t`-Objekte wurden bei der Bearbeitung zu
+  mehrzeiligem, eingerücktem JSON) keine inhaltlichen Felder gelöscht oder verändert haben - nur die
+  zwei neuen Sprachschlüssel kamen hinzu.
+- **Kein Zusatzaufwand bei Audio:** Italienisch/Spanisch sind reine Oberflächen-/Übersetzungssprachen
+  für die Lernenden, keine neuen Lehrsprachen - die gesprochenen Aufnahmen bleiben ausschließlich
+  Amharisch/Tigrinya (die tatsächlich gelehrten Sprachen), unabhängig von der gewählten Oberflächen-
+  sprache. Es waren daher keine neuen Audiodateien nötig.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün, inklusive
+  `l10n_parity_test.dart` und `content_validation_test.dart` jeweils mit der auf 6 Sprachen erweiterten
+  Locale-Liste, sowie `full_playthrough_test.dart` unverändert grün (Content-Struktur/Übungsgenerierung
+  von der reinen Übersetzungsergänzung nicht betroffen).
+- **Ehrlich benannte Grenze:** wie schon bei Amharisch/Tigrinya-Inhalten gilt auch hier - die
+  sprachliche Natürlichkeit und Korrektheit der italienischen/spanischen Übersetzungen selbst wurde
+  automatisiert auf Vollständigkeit und Struktur geprüft (kein leerer Wert, kein kaputtes JSON,
+  keine sonst veränderten Felder), aber nicht muttersprachlich abgenommen - das kann von hier aus
+  nicht geleistet werden.

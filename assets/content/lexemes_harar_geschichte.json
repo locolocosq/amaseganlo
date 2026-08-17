@@ -10,7 +10,9 @@
       "de": "die Tradition (überliefert)",
       "en": "tradition (handed down)",
       "sv": "tradition (nedärvd)",
-      "nl": "traditie (overgeleverd)"
+      "nl": "traditie (overgeleverd)",
+      "it": "la tradizione (tramandata)",
+      "es": "la tradición (transmitida)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Erbe (kulturell)",
       "en": "heritage",
       "sv": "kulturarv",
-      "nl": "erfgoed"
+      "nl": "erfgoed",
+      "it": "il patrimonio (culturale)",
+      "es": "el patrimonio (cultural)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Identität",
       "en": "identity",
       "sv": "identitet",
-      "nl": "identiteit"
+      "nl": "identiteit",
+      "it": "l'identità",
+      "es": "la identidad"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Vorfahre",
       "en": "ancestor",
       "sv": "förfader",
-      "nl": "voorouder"
+      "nl": "voorouder",
+      "it": "l'antenato",
+      "es": "el antepasado"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Epoche, das Zeitalter",
       "en": "era, age",
       "sv": "era, tidsålder",
-      "nl": "tijdperk"
+      "nl": "tijdperk",
+      "it": "l'epoca, l'era",
+      "es": "la época, la era"
     },
     "hint": {},
     "alt": {},

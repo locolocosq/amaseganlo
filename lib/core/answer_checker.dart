@@ -24,6 +24,8 @@ class AnswerChecker {
     'en': ['the', 'a', 'an'],
     'sv': ['en', 'ett', 'den', 'det'],
     'nl': ['de', 'het', 'een'],
+    'it': ['il', 'lo', 'la', 'i', 'gli', 'le', 'un', 'uno', 'una', "l'"],
+    'es': ['el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas'],
   };
 
   static List<String> articlesFor(String locale) => _articlesByLocale[locale] ?? const [];
@@ -79,7 +81,10 @@ class AnswerChecker {
     result = result.replaceAll(RegExp(r'[.!?,;:։፡፣፤፥፧፨]+$'), '').trim();
 
     for (final article in articles) {
-      final prefix = '$article ';
+      // Italian/elided articles like "l'" attach directly to the next word
+      // with no space (l'acqua, un'idea) - every other supported locale's
+      // articles are always followed by a space.
+      final prefix = article.endsWith("'") ? article : '$article ';
       if (result.startsWith(prefix)) {
         result = result.substring(prefix.length);
         break;

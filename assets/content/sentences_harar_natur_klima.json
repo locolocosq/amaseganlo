@@ -1,6 +1,109 @@
 [
-  {"id":"sen_hnk_abeba_sar","am":"አበባ በሣር መካከል ነው።","tr":"abeba besar mekakel newu.","level":"B2","uses":["lex_hnk_kitel_abeba","lex_hnk_sar"],"t":{"de":"Die Blume ist mitten im Gras.","en":"The flower is amid the grass.","sv":"Blomman är mitt i gräset.","nl":"De bloem staat midden in het gras."},"chunks":["abeba","besar","mekakel","newu"],"verified":false},
-  {"id":"sen_hnk_fire_bisil_tire","am":"ፍሬው ብስል ነው፤ ሌላው ጥሬ ነው።","tr":"firew bisil newu; lelaw t'ire newu.","level":"B2","uses":["lex_hnk_fire2","lex_hnk_stil_bahil","lex_hnk_adj_ye_batu"],"t":{"de":"Diese Frucht ist reif, die andere ist unreif.","en":"This fruit is ripe; the other is unripe.","sv":"Den här frukten är mogen; den andra är omogen.","nl":"Deze vrucht is rijp; de andere is onrijp."},"chunks":["firew","bisil","newu","lelaw","t'ire","newu"],"verified":false},
-  {"id":"sen_hnk_bahir_zaf_mefotot","am":"የዱር አበባ በባህር አካባቢ ይበቅላል።","tr":"yeduri abeba bebahir akababi yibek'ial.","level":"B2","uses":["lex_hnk_bahir_zaf","lex_hnk_bahir","lex_hnk_v_mefotot"],"t":{"de":"Die Wildblume wächst in der Nähe des Meeres.","en":"The wildflower grows near the sea.","sv":"Vildblomman växer nära havet.","nl":"De wilde bloem groeit dicht bij de zee."},"chunks":["yeduri","abeba","bebahir","akababi","yibek'ial"],"verified":false},
-  {"id":"sen_hnk_werq_zaf_akal","am":"ወርቅ አበባ ቅጠላ ቅጠል ላይ ይታያል።","tr":"werk' abeba kit'ela kit'el layi yitayal.","level":"B2","uses":["lex_hnk_werq_akal","lex_hnk_zaf_akal"],"t":{"de":"Die goldene Meskel-Blume erscheint auf dem Laub.","en":"The golden Meskel flower appears on the foliage.","sv":"Den gyllene Meskel-blomman syns på lövverket.","nl":"De gouden Meskel-bloem verschijnt op het gebladerte."},"chunks":["werk'","abeba","kit'ela","kit'el","layi","yitayal"],"verified":false}
+  {
+    "id": "sen_hnk_abeba_sar",
+    "am": "አበባ በሣር መካከል ነው።",
+    "tr": "abeba besar mekakel newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hnk_kitel_abeba",
+      "lex_hnk_sar"
+    ],
+    "t": {
+      "de": "Die Blume ist mitten im Gras.",
+      "en": "The flower is amid the grass.",
+      "sv": "Blomman är mitt i gräset.",
+      "nl": "De bloem staat midden in het gras.",
+      "it": "Il fiore è in mezzo all'erba.",
+      "es": "La flor está en medio de la hierba."
+    },
+    "chunks": [
+      "abeba",
+      "besar",
+      "mekakel",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hnk_fire_bisil_tire",
+    "am": "ፍሬው ብስል ነው፤ ሌላው ጥሬ ነው።",
+    "tr": "firew bisil newu; lelaw t'ire newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hnk_fire2",
+      "lex_hnk_stil_bahil",
+      "lex_hnk_adj_ye_batu"
+    ],
+    "t": {
+      "de": "Diese Frucht ist reif, die andere ist unreif.",
+      "en": "This fruit is ripe; the other is unripe.",
+      "sv": "Den här frukten är mogen; den andra är omogen.",
+      "nl": "Deze vrucht is rijp; de andere is onrijp.",
+      "it": "Questo frutto è maturo; l'altro è acerbo.",
+      "es": "Esta fruta está madura; la otra está verde."
+    },
+    "chunks": [
+      "firew",
+      "bisil",
+      "newu",
+      "lelaw",
+      "t'ire",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hnk_bahir_zaf_mefotot",
+    "am": "የዱር አበባ በባህር አካባቢ ይበቅላል።",
+    "tr": "yeduri abeba bebahir akababi yibek'ial.",
+    "level": "B2",
+    "uses": [
+      "lex_hnk_bahir_zaf",
+      "lex_hnk_bahir",
+      "lex_hnk_v_mefotot"
+    ],
+    "t": {
+      "de": "Die Wildblume wächst in der Nähe des Meeres.",
+      "en": "The wildflower grows near the sea.",
+      "sv": "Vildblomman växer nära havet.",
+      "nl": "De wilde bloem groeit dicht bij de zee.",
+      "it": "Il fiore selvatico cresce vicino al mare.",
+      "es": "La flor silvestre crece cerca del mar."
+    },
+    "chunks": [
+      "yeduri",
+      "abeba",
+      "bebahir",
+      "akababi",
+      "yibek'ial"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hnk_werq_zaf_akal",
+    "am": "ወርቅ አበባ ቅጠላ ቅጠል ላይ ይታያል።",
+    "tr": "werk' abeba kit'ela kit'el layi yitayal.",
+    "level": "B2",
+    "uses": [
+      "lex_hnk_werq_akal",
+      "lex_hnk_zaf_akal"
+    ],
+    "t": {
+      "de": "Die goldene Meskel-Blume erscheint auf dem Laub.",
+      "en": "The golden Meskel flower appears on the foliage.",
+      "sv": "Den gyllene Meskel-blomman syns på lövverket.",
+      "nl": "De gouden Meskel-bloem verschijnt op het gebladerte.",
+      "it": "Il fiore dorato di Meskel appare tra il fogliame.",
+      "es": "La flor dorada de Meskel aparece sobre el follaje."
+    },
+    "chunks": [
+      "werk'",
+      "abeba",
+      "kit'ela",
+      "kit'el",
+      "layi",
+      "yitayal"
+    ],
+    "verified": false
+  }
 ]

@@ -10,7 +10,9 @@
       "de": "hier",
       "en": "here",
       "sv": "här",
-      "nl": "hier"
+      "nl": "hier",
+      "it": "qui",
+      "es": "aquí"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "dort",
       "en": "there",
       "sv": "där",
-      "nl": "daar"
+      "nl": "daar",
+      "it": "lì",
+      "es": "allí"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "überall",
       "en": "everywhere",
       "sv": "överallt",
-      "nl": "overal"
+      "nl": "overal",
+      "it": "ovunque",
+      "es": "en todas partes"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "draußen",
       "en": "outside",
       "sv": "utomhus",
-      "nl": "buiten"
+      "nl": "buiten",
+      "it": "fuori",
+      "es": "afuera"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "oben",
       "en": "above, up",
       "sv": "ovanför",
-      "nl": "boven"
+      "nl": "boven",
+      "it": "sopra, in alto",
+      "es": "arriba"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "unten",
       "en": "below, down",
       "sv": "nedanför",
-      "nl": "onder"
+      "nl": "onder",
+      "it": "sotto, in basso",
+      "es": "abajo"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "zusammen",
       "en": "together",
       "sv": "tillsammans",
-      "nl": "samen"
+      "nl": "samen",
+      "it": "insieme",
+      "es": "juntos"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "allein, nur",
       "en": "alone, only",
       "sv": "ensam, bara",
-      "nl": "alleen, slechts"
+      "nl": "alleen, slechts",
+      "it": "da solo, soltanto",
+      "es": "solo, únicamente"
     },
     "hint": {},
     "alt": {},

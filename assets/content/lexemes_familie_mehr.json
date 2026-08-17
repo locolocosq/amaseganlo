@@ -10,7 +10,9 @@
       "de": "der Cousin",
       "en": "cousin (male)",
       "sv": "kusin (man)",
-      "nl": "neef (kozijn)"
+      "nl": "neef (kozijn)",
+      "it": "il cugino",
+      "es": "el primo"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "die Cousine",
       "en": "cousin (female)",
       "sv": "kusin (kvinna)",
-      "nl": "nicht (neef)"
+      "nl": "nicht (neef)",
+      "it": "la cugina",
+      "es": "la prima"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "der Neffe",
       "en": "nephew",
       "sv": "nephew",
-      "nl": "nefje"
+      "nl": "nefje",
+      "it": "il nipote",
+      "es": "el sobrino"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "die Nichte",
       "en": "niece",
       "sv": "nichte",
-      "nl": "nichtje"
+      "nl": "nichtje",
+      "it": "la nipote",
+      "es": "la sobrina"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "der Zwilling",
       "en": "twin",
       "sv": "tvilling",
-      "nl": "tweeling"
+      "nl": "tweeling",
+      "it": "il gemello",
+      "es": "el gemelo"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "die Witwe",
       "en": "widow",
       "sv": "änka",
-      "nl": "weduwe"
+      "nl": "weduwe",
+      "it": "la vedova",
+      "es": "la viuda"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "der Witwer",
       "en": "widower",
       "sv": "änkling",
-      "nl": "weduwnaar"
+      "nl": "weduwnaar",
+      "it": "il vedovo",
+      "es": "el viudo"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "die Stiefmutter",
       "en": "stepmother",
       "sv": "styvmor",
-      "nl": "stiefmoeder"
+      "nl": "stiefmoeder",
+      "it": "la matrigna",
+      "es": "la madrastra"
     },
     "hint": {},
     "alt": {},

@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_fto_lens","am":"መነጽር ካሜራ","tr":"menetsir kamera","pos":"noun","topic":"photography","level":"TI","t":{"de":"das Objektiv","en":"camera lens","sv":"objektiv","nl":"cameralens"},"emoji":"","verified":false},
-  {"id":"lex_ti_fto_flsh","am":"ብልጭታ ካሜራ","tr":"bilichita kamera","pos":"noun","topic":"photography","level":"TI","t":{"de":"der Blitz (Kamera)","en":"camera flash","sv":"kamerablixt","nl":"cameraflits"},"emoji":"","verified":false},
-  {"id":"lex_ti_fto_shot","am":"ስእሊ ኣልዓለ","tr":"si'ili al'ale","pos":"verb","topic":"photography","level":"TI","t":{"de":"fotografieren","en":"to take a photo","sv":"att fotografera","nl":"fotograferen"},"emoji":"📸","verified":false},
-  {"id":"lex_ti_fto_zoom","am":"ኣቀራረበ (ካሜራ)","tr":"aqerarebe kamera","pos":"verb","topic":"photography","level":"TI","t":{"de":"zoomen","en":"to zoom","sv":"att zooma","nl":"inzoomen"},"emoji":"","verified":false},
-  {"id":"lex_ti_fto_frme","am":"ፍሬም ስእሊ","tr":"firem si'ili","pos":"noun","topic":"photography","level":"TI","t":{"de":"der Bilderrahmen","en":"picture frame","sv":"bildram","nl":"fotolijst"},"emoji":"🖼️","verified":false}
+  {
+    "id": "lex_ti_fto_lens",
+    "am": "መነጽር ካሜራ",
+    "tr": "menetsir kamera",
+    "pos": "noun",
+    "topic": "photography",
+    "level": "TI",
+    "t": {
+      "de": "das Objektiv",
+      "en": "camera lens",
+      "sv": "objektiv",
+      "nl": "cameralens",
+      "it": "l'obiettivo",
+      "es": "el objetivo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fto_flsh",
+    "am": "ብልጭታ ካሜራ",
+    "tr": "bilichita kamera",
+    "pos": "noun",
+    "topic": "photography",
+    "level": "TI",
+    "t": {
+      "de": "der Blitz (Kamera)",
+      "en": "camera flash",
+      "sv": "kamerablixt",
+      "nl": "cameraflits",
+      "it": "il flash (fotocamera)",
+      "es": "el flash (cámara)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fto_shot",
+    "am": "ስእሊ ኣልዓለ",
+    "tr": "si'ili al'ale",
+    "pos": "verb",
+    "topic": "photography",
+    "level": "TI",
+    "t": {
+      "de": "fotografieren",
+      "en": "to take a photo",
+      "sv": "att fotografera",
+      "nl": "fotograferen",
+      "it": "fotografare",
+      "es": "fotografiar, tomar una foto"
+    },
+    "emoji": "📸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fto_zoom",
+    "am": "ኣቀራረበ (ካሜራ)",
+    "tr": "aqerarebe kamera",
+    "pos": "verb",
+    "topic": "photography",
+    "level": "TI",
+    "t": {
+      "de": "zoomen",
+      "en": "to zoom",
+      "sv": "att zooma",
+      "nl": "inzoomen",
+      "it": "zoomare",
+      "es": "hacer zoom"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fto_frme",
+    "am": "ፍሬም ስእሊ",
+    "tr": "firem si'ili",
+    "pos": "noun",
+    "topic": "photography",
+    "level": "TI",
+    "t": {
+      "de": "der Bilderrahmen",
+      "en": "picture frame",
+      "sv": "bildram",
+      "nl": "fotolijst",
+      "it": "la cornice",
+      "es": "el marco (de foto)"
+    },
+    "emoji": "🖼️",
+    "verified": false
+  }
 ]

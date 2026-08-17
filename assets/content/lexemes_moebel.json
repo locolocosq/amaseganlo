@@ -10,7 +10,9 @@
       "de": "der Teppich",
       "en": "carpet, rug",
       "sv": "matta",
-      "nl": "tapijt"
+      "nl": "tapijt",
+      "it": "il tappeto",
+      "es": "la alfombra"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "das Kissen",
       "en": "pillow, cushion",
       "sv": "kudde",
-      "nl": "kussen"
+      "nl": "kussen",
+      "it": "il cuscino",
+      "es": "el cojín"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Decke (Bettdecke)",
       "en": "blanket",
       "sv": "täcke",
-      "nl": "deken"
+      "nl": "deken",
+      "it": "la coperta",
+      "es": "la manta"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Vorhang",
       "en": "curtain",
       "sv": "gardin",
-      "nl": "gordijn"
+      "nl": "gordijn",
+      "it": "la tenda",
+      "es": "la cortina"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Wand",
       "en": "wall",
       "sv": "vägg",
-      "nl": "muur"
+      "nl": "muur",
+      "it": "il muro, la parete",
+      "es": "la pared"
     },
     "hint": {},
     "alt": {},

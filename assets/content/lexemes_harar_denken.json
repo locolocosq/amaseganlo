@@ -10,7 +10,9 @@
       "de": "die Idee, der Gedanke",
       "en": "idea, thought",
       "sv": "idé, tanke",
-      "nl": "idee, gedachte"
+      "nl": "idee, gedachte",
+      "it": "l'idea, il pensiero",
+      "es": "la idea, el pensamiento"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "denken, nachdenken",
       "en": "to think",
       "sv": "tänka",
-      "nl": "denken"
+      "nl": "denken",
+      "it": "pensare, riflettere",
+      "es": "pensar, reflexionar"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "argumentieren, streiten",
       "en": "to argue",
       "sv": "argumentera",
-      "nl": "argumenteren"
+      "nl": "argumenteren",
+      "it": "discutere, litigare",
+      "es": "discutir, argumentar"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "interpretieren, übersetzen, erklären",
       "en": "to interpret, to translate",
       "sv": "tolka, översätta",
-      "nl": "interpreteren, vertalen"
+      "nl": "interpreteren, vertalen",
+      "it": "interpretare, tradurre, spiegare",
+      "es": "interpretar, traducir, explicar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "überzeugend",
       "en": "convincing",
       "sv": "övertygande",
-      "nl": "overtuigend"
+      "nl": "overtuigend",
+      "it": "convincente",
+      "es": "convincente"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Grund, die Ursache",
       "en": "reason, cause",
       "sv": "anledning, orsak",
-      "nl": "reden, oorzaak"
+      "nl": "reden, oorzaak",
+      "it": "il motivo, la causa",
+      "es": "el motivo, la causa"
     },
     "hint": {},
     "alt": {},

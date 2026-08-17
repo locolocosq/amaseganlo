@@ -10,7 +10,9 @@
       "de": "Friede sei mit dir (islamischer Gruß)",
       "en": "peace be upon you (Islamic greeting)",
       "sv": "fred vare med dig (islamisk hälsning)",
-      "nl": "vrede zij met u (islamitische groet)"
+      "nl": "vrede zij met u (islamitische groet)",
+      "it": "la pace sia con te (saluto islamico)",
+      "es": "que la paz sea contigo (saludo islámico)"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "und mit dir sei Friede (Antwort)",
       "en": "and upon you be peace (reply)",
       "sv": "och över dig vare fred (svar)",
-      "nl": "en met u zij vrede (antwoord)"
+      "nl": "en met u zij vrede (antwoord)",
+      "it": "e con te sia la pace (risposta)",
+      "es": "y contigo sea la paz (respuesta)"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "die Freitagspredigt",
       "en": "the Friday sermon",
       "sv": "fredagspredikan",
-      "nl": "de vrijdagpreek"
+      "nl": "de vrijdagpreek",
+      "it": "la predica del venerdì",
+      "es": "el sermón del viernes"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "predigen",
       "en": "to preach",
       "sv": "predika",
-      "nl": "preken"
+      "nl": "preken",
+      "it": "predicare",
+      "es": "predicar"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "islamisch",
       "en": "Islamic",
       "sv": "islamisk",
-      "nl": "islamitisch"
+      "nl": "islamitisch",
+      "it": "islamico",
+      "es": "islámico"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "religiös, fromm",
       "en": "religious, devout",
       "sv": "religiös, from",
-      "nl": "religieus, vroom"
+      "nl": "religieus, vroom",
+      "it": "religioso, devoto",
+      "es": "religioso, devoto"
     },
     "hint": {},
     "alt": {},

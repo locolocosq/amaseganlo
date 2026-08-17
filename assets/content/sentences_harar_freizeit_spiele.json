@@ -1,6 +1,102 @@
 [
-  {"id":"sen_hfs_gebeta_mechawet","am":"ልጆች ገበጣ ተጫወቱ።","tr":"lijoch gebet'a techawetu.","level":"B2","uses":["lex_hfs_gebeta","lex_hfs_v_mechawet"],"t":{"de":"Die Kinder spielten das traditionelle Brettspiel.","en":"The children played the traditional board game.","sv":"Barnen spelade det traditionella brädspelet.","nl":"De kinderen speelden het traditionele bordspel."},"chunks":["lijoch","gebet'a","techawetu"],"verified":false},
-  {"id":"sen_hfs_beal_gibiza","am":"በዓል ላይ ግብዣ ነበር።","tr":"be'al layi gibiza neber.","level":"B2","uses":["lex_hfs_beal2","lex_hfs_gibiza"],"t":{"de":"Beim Fest gab es ein Festessen.","en":"There was a feast at the festival.","sv":"Det var en fest under högtiden.","nl":"Er was een feestmaal tijdens het festival."},"chunks":["be'al","layi","gibiza","neber"],"verified":false},
-  {"id":"sen_hfs_chez_azinagn","am":"ቼዝ አዝናኝ ጨዋታ ነው።","tr":"chez azinagn chewata newu.","level":"B2","uses":["lex_hfs_chez","lex_hfs_adj_azinagn","lex_hfs_chewata2"],"t":{"de":"Schach ist ein unterhaltsames Spiel.","en":"Chess is an entertaining game.","sv":"Schack är ett underhållande spel.","nl":"Schaak is een vermakelijk spel."},"chunks":["chez","azinagn","chewata","newu"],"verified":false},
-  {"id":"sen_hfs_meda_mechawet","am":"ልጆቹ በሜዳ ላይ ተጫወቱ።","tr":"lijochu bemeda layi techawetu.","level":"B2","uses":["lex_hfs_meda2","lex_hfs_v_mechawet"],"t":{"de":"Die Kinder spielten auf dem Feld.","en":"The children played on the field.","sv":"Barnen lekte på fältet.","nl":"De kinderen speelden op het veld."},"chunks":["lijochu","bemeda","layi","techawetu"],"verified":false}
+  {
+    "id": "sen_hfs_gebeta_mechawet",
+    "am": "ልጆች ገበጣ ተጫወቱ።",
+    "tr": "lijoch gebet'a techawetu.",
+    "level": "B2",
+    "uses": [
+      "lex_hfs_gebeta",
+      "lex_hfs_v_mechawet"
+    ],
+    "t": {
+      "de": "Die Kinder spielten das traditionelle Brettspiel.",
+      "en": "The children played the traditional board game.",
+      "sv": "Barnen spelade det traditionella brädspelet.",
+      "nl": "De kinderen speelden het traditionele bordspel.",
+      "it": "I bambini hanno giocato al gioco da tavolo tradizionale.",
+      "es": "Los niños jugaron al juego de mesa tradicional."
+    },
+    "chunks": [
+      "lijoch",
+      "gebet'a",
+      "techawetu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hfs_beal_gibiza",
+    "am": "በዓል ላይ ግብዣ ነበር።",
+    "tr": "be'al layi gibiza neber.",
+    "level": "B2",
+    "uses": [
+      "lex_hfs_beal2",
+      "lex_hfs_gibiza"
+    ],
+    "t": {
+      "de": "Beim Fest gab es ein Festessen.",
+      "en": "There was a feast at the festival.",
+      "sv": "Det var en fest under högtiden.",
+      "nl": "Er was een feestmaal tijdens het festival.",
+      "it": "Al festival c'era un banchetto.",
+      "es": "En la fiesta hubo un banquete."
+    },
+    "chunks": [
+      "be'al",
+      "layi",
+      "gibiza",
+      "neber"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hfs_chez_azinagn",
+    "am": "ቼዝ አዝናኝ ጨዋታ ነው።",
+    "tr": "chez azinagn chewata newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hfs_chez",
+      "lex_hfs_adj_azinagn",
+      "lex_hfs_chewata2"
+    ],
+    "t": {
+      "de": "Schach ist ein unterhaltsames Spiel.",
+      "en": "Chess is an entertaining game.",
+      "sv": "Schack är ett underhållande spel.",
+      "nl": "Schaak is een vermakelijk spel.",
+      "it": "Gli scacchi sono un gioco divertente.",
+      "es": "El ajedrez es un juego entretenido."
+    },
+    "chunks": [
+      "chez",
+      "azinagn",
+      "chewata",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hfs_meda_mechawet",
+    "am": "ልጆቹ በሜዳ ላይ ተጫወቱ።",
+    "tr": "lijochu bemeda layi techawetu.",
+    "level": "B2",
+    "uses": [
+      "lex_hfs_meda2",
+      "lex_hfs_v_mechawet"
+    ],
+    "t": {
+      "de": "Die Kinder spielten auf dem Feld.",
+      "en": "The children played on the field.",
+      "sv": "Barnen lekte på fältet.",
+      "nl": "De kinderen speelden op het veld.",
+      "it": "I bambini hanno giocato nel campo.",
+      "es": "Los niños jugaron en el campo."
+    },
+    "chunks": [
+      "lijochu",
+      "bemeda",
+      "layi",
+      "techawetu"
+    ],
+    "verified": false
+  }
 ]

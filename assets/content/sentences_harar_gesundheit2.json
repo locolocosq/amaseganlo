@@ -4,14 +4,22 @@
     "am": "ምርመራ አስፈላጊ ነው።",
     "tr": "mirmera asfelagi newu.",
     "level": "B2",
-    "uses": ["lex_mirmera"],
+    "uses": [
+      "lex_mirmera"
+    ],
     "t": {
       "de": "Eine Untersuchung ist wichtig.",
       "en": "An examination is important.",
       "sv": "En undersökning är viktig.",
-      "nl": "Een onderzoek is belangrijk."
+      "nl": "Een onderzoek is belangrijk.",
+      "it": "Un esame è importante.",
+      "es": "Un examen es importante."
     },
-    "chunks": ["mirmera", "asfelagi", "newu"],
+    "chunks": [
+      "mirmera",
+      "asfelagi",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -19,14 +27,22 @@
     "am": "ህክምና ጥሩ ነው።",
     "tr": "hikimina t'iru newu.",
     "level": "B2",
-    "uses": ["lex_hikimina"],
+    "uses": [
+      "lex_hikimina"
+    ],
     "t": {
       "de": "Behandlung ist gut.",
       "en": "Treatment is good.",
       "sv": "Behandling är bra.",
-      "nl": "Behandeling is goed."
+      "nl": "Behandeling is goed.",
+      "it": "Il trattamento è buono.",
+      "es": "El tratamiento es bueno."
     },
-    "chunks": ["hikimina", "t'iru", "newu"],
+    "chunks": [
+      "hikimina",
+      "t'iru",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -34,14 +50,23 @@
     "am": "ቀዶ ጥገና ከባድ ነው።",
     "tr": "k'edo t'igena kebad newu.",
     "level": "B2",
-    "uses": ["lex_kedo_tigena"],
+    "uses": [
+      "lex_kedo_tigena"
+    ],
     "t": {
       "de": "Eine Operation ist schwierig.",
       "en": "Surgery is hard.",
       "sv": "Operation är svårt.",
-      "nl": "Een operatie is zwaar."
+      "nl": "Een operatie is zwaar.",
+      "it": "Un'operazione è difficile.",
+      "es": "Una operación es difícil."
     },
-    "chunks": ["k'edo", "t'igena", "kebad", "newu"],
+    "chunks": [
+      "k'edo",
+      "t'igena",
+      "kebad",
+      "newu"
+    ],
     "verified": false
   },
   {
@@ -49,14 +74,23 @@
     "am": "ዶክተር ምልክት ያከማል።",
     "tr": "dokiter milikit yakemal.",
     "level": "B2",
-    "uses": ["lex_milikit", "lex_v_makem"],
+    "uses": [
+      "lex_milikit",
+      "lex_v_makem"
+    ],
     "t": {
       "de": "Der Arzt behandelt das Symptom.",
       "en": "The doctor treats the symptom.",
       "sv": "Läkaren behandlar symtomet.",
-      "nl": "De arts behandelt het symptoom."
+      "nl": "De arts behandelt het symptoom.",
+      "it": "Il medico tratta il sintomo.",
+      "es": "El médico trata el síntoma."
     },
-    "chunks": ["dokiter", "milikit", "yakemal"],
+    "chunks": [
+      "dokiter",
+      "milikit",
+      "yakemal"
+    ],
     "verified": false
   },
   {
@@ -64,14 +98,24 @@
     "am": "ስር የሰደደ ህመም ከባድ ነው።",
     "tr": "sir yesedede himem kebad newu.",
     "level": "B2",
-    "uses": ["lex_adj_siryesedede"],
+    "uses": [
+      "lex_adj_siryesedede"
+    ],
     "t": {
       "de": "Eine chronische Krankheit ist ernst.",
       "en": "A chronic illness is serious.",
       "sv": "En kronisk sjukdom är allvarlig.",
-      "nl": "Een chronische ziekte is ernstig."
+      "nl": "Een chronische ziekte is ernstig.",
+      "it": "Una malattia cronica è grave.",
+      "es": "Una enfermedad crónica es grave."
     },
-    "chunks": ["sir", "yesedede", "himem", "kebad", "newu"],
+    "chunks": [
+      "sir",
+      "yesedede",
+      "himem",
+      "kebad",
+      "newu"
+    ],
     "verified": false
   }
 ]

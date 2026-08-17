@@ -1,8 +1,110 @@
 [
-  {"id":"lex_ti_chm_elmnt","am":"ንጥረ ነገር","tr":"nitire neger","pos":"noun","topic":"chemistry","level":"TI","t":{"de":"das Element","en":"element (chemistry)","sv":"grundämne","nl":"element (scheikunde)"},"emoji":"","verified":false},
-  {"id":"lex_ti_chm_mlcl","am":"ሞለክዩል","tr":"molekiyul","pos":"noun","topic":"chemistry","level":"TI","t":{"de":"das Molekül","en":"molecule","sv":"molekyl","nl":"molecuul"},"emoji":"","verified":false},
-  {"id":"lex_ti_chm_ractn","am":"ግብረ መልሲ ኬሚካል","tr":"gibire melisi kemikal","pos":"noun","topic":"chemistry","level":"TI","t":{"de":"die Reaktion (chemisch)","en":"chemical reaction","sv":"kemisk reaktion","nl":"chemische reactie"},"emoji":"","verified":false},
-  {"id":"lex_ti_chm_gas","am":"ጋዝ","tr":"gazi","pos":"noun","topic":"chemistry","level":"TI","t":{"de":"das Gas","en":"gas","sv":"gas","nl":"gas"},"emoji":"","verified":false},
-  {"id":"lex_ti_chm_liqd","am":"ፈሳሲ","tr":"fesasi","pos":"noun","topic":"chemistry","level":"TI","t":{"de":"die Flüssigkeit","en":"liquid","sv":"vätska","nl":"vloeistof"},"emoji":"","verified":false},
-  {"id":"lex_ti_chm_solid","am":"ጽኑዕ","tr":"tsinu'i","pos":"adjective","topic":"chemistry","level":"TI","t":{"de":"fest (Zustand)","en":"solid (state)","sv":"fast (form)","nl":"vast (toestand)"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_chm_elmnt",
+    "am": "ንጥረ ነገር",
+    "tr": "nitire neger",
+    "pos": "noun",
+    "topic": "chemistry",
+    "level": "TI",
+    "t": {
+      "de": "das Element",
+      "en": "element (chemistry)",
+      "sv": "grundämne",
+      "nl": "element (scheikunde)",
+      "it": "l'elemento (chimica)",
+      "es": "el elemento (química)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chm_mlcl",
+    "am": "ሞለክዩል",
+    "tr": "molekiyul",
+    "pos": "noun",
+    "topic": "chemistry",
+    "level": "TI",
+    "t": {
+      "de": "das Molekül",
+      "en": "molecule",
+      "sv": "molekyl",
+      "nl": "molecuul",
+      "it": "la molecola",
+      "es": "la molécula"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chm_ractn",
+    "am": "ግብረ መልሲ ኬሚካል",
+    "tr": "gibire melisi kemikal",
+    "pos": "noun",
+    "topic": "chemistry",
+    "level": "TI",
+    "t": {
+      "de": "die Reaktion (chemisch)",
+      "en": "chemical reaction",
+      "sv": "kemisk reaktion",
+      "nl": "chemische reactie",
+      "it": "la reazione chimica",
+      "es": "la reacción química"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chm_gas",
+    "am": "ጋዝ",
+    "tr": "gazi",
+    "pos": "noun",
+    "topic": "chemistry",
+    "level": "TI",
+    "t": {
+      "de": "das Gas",
+      "en": "gas",
+      "sv": "gas",
+      "nl": "gas",
+      "it": "il gas",
+      "es": "el gas"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chm_liqd",
+    "am": "ፈሳሲ",
+    "tr": "fesasi",
+    "pos": "noun",
+    "topic": "chemistry",
+    "level": "TI",
+    "t": {
+      "de": "die Flüssigkeit",
+      "en": "liquid",
+      "sv": "vätska",
+      "nl": "vloeistof",
+      "it": "il liquido",
+      "es": "el líquido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_chm_solid",
+    "am": "ጽኑዕ",
+    "tr": "tsinu'i",
+    "pos": "adjective",
+    "topic": "chemistry",
+    "level": "TI",
+    "t": {
+      "de": "fest (Zustand)",
+      "en": "solid (state)",
+      "sv": "fast (form)",
+      "nl": "vast (toestand)",
+      "it": "solido (stato)",
+      "es": "sólido (estado)"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

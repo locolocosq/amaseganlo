@@ -1,22 +1,402 @@
 [
-  {"id":"lex_hr2_firdibet","am":"ፍርድ ቤት","tr":"firid bet","pos":"noun","topic":"law_2","level":"B2","t":{"de":"das Gericht","en":"court (law)","sv":"domstol","nl":"rechtbank"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_firdi","am":"ፍርድ","tr":"firid","pos":"noun","topic":"law_2","level":"B2","t":{"de":"das Urteil","en":"verdict, judgment","sv":"dom","nl":"vonnis"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_dagna","am":"ዳኛ","tr":"dagna","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Richter","en":"judge","sv":"domare","nl":"rechter"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_tebaki","am":"ጠበቃ","tr":"t'ebeka","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Anwalt","en":"lawyer","sv":"advokat","nl":"advocaat"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_kesetegna","am":"ከሳሽ","tr":"kesash","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Kläger","en":"plaintiff","sv":"kärande","nl":"eiser"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hr2_tekesash","am":"ተከሳሽ","tr":"tekesash","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Angeklagte","en":"defendant","sv":"svarande","nl":"verdachte"},"hint":{},"alt":{},"emoji":"","verified":false},
-  {"id":"lex_hr2_wega2","am":"ወንጀል","tr":"wenijel","pos":"noun","topic":"law_2","level":"B2","t":{"de":"das Verbrechen","en":"crime","sv":"brott","nl":"misdaad"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_wegetegna","am":"ወንጀለኛ","tr":"wenijelegna","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Verbrecher","en":"criminal","sv":"brottsling","nl":"crimineel"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_polis","am":"ፖሊስ","tr":"polis","pos":"noun","topic":"law_2","level":"B2","t":{"de":"die Polizei","en":"police","sv":"polis","nl":"politie"},"hint":{},"alt":{},"emoji":"👮","verified":true},
-  {"id":"lex_hr2_v_masser","am":"ማሰር","tr":"maser","pos":"verb","topic":"law_2","level":"B2","t":{"de":"verhaften, festnehmen","en":"to arrest","sv":"arrestera","nl":"arresteren"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_iser_bet","am":"ወህኒ ቤት","tr":"wehini bet","pos":"noun","topic":"law_2","level":"B2","t":{"de":"das Gefängnis","en":"prison","sv":"fängelse","nl":"gevangenis"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_kilil2","am":"ቅጣት","tr":"k'itat","pos":"noun","topic":"law_2","level":"B2","t":{"de":"die Strafe","en":"punishment","sv":"straff","nl":"straf"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_v_mekesekes","am":"መክሰስ","tr":"mekises","pos":"verb","topic":"law_2","level":"B2","t":{"de":"anklagen, verklagen","en":"to sue, to accuse","sv":"anklaga, stämma","nl":"aanklagen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_mereja2","am":"ማስረጃ","tr":"masireja","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Beweis","en":"evidence","sv":"bevis","nl":"bewijs"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_sahid","am":"ምስክር","tr":"misikir","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Zeuge","en":"witness","sv":"vittne","nl":"getuige"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_v_meshet","am":"መመስከር","tr":"memesiker","pos":"verb","topic":"law_2","level":"B2","t":{"de":"bezeugen, aussagen","en":"to testify","sv":"vittna","nl":"getuigen"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_higuge","am":"ሕግ","tr":"hig","pos":"noun","topic":"law_2","level":"B2","t":{"de":"das Gesetz","en":"law","sv":"lag","nl":"wet"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_adj_higawi","am":"ህጋዊ","tr":"higawi","pos":"adjective","topic":"law_2","level":"B2","t":{"de":"legal, gesetzlich","en":"legal, lawful","sv":"laglig","nl":"legaal, wettelijk"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_adj_ihigawi","am":"ህገ ወጥ","tr":"hige wet'","pos":"adjective","topic":"law_2","level":"B2","t":{"de":"illegal","en":"illegal","sv":"olaglig","nl":"illegaal"},"hint":{},"alt":{},"emoji":"","verified":true},
-  {"id":"lex_hr2_kontrat2","am":"የውል ስምምነት","tr":"yewil siminet","pos":"noun","topic":"law_2","level":"B2","t":{"de":"der Vertrag (rechtlich)","en":"legal contract","sv":"rättsligt kontrakt","nl":"juridisch contract"},"hint":{},"alt":{},"emoji":"","verified":false}
+  {
+    "id": "lex_hr2_firdibet",
+    "am": "ፍርድ ቤት",
+    "tr": "firid bet",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "das Gericht",
+      "en": "court (law)",
+      "sv": "domstol",
+      "nl": "rechtbank",
+      "it": "il tribunale",
+      "es": "el tribunal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_firdi",
+    "am": "ፍርድ",
+    "tr": "firid",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "das Urteil",
+      "en": "verdict, judgment",
+      "sv": "dom",
+      "nl": "vonnis",
+      "it": "la sentenza",
+      "es": "el veredicto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_dagna",
+    "am": "ዳኛ",
+    "tr": "dagna",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Richter",
+      "en": "judge",
+      "sv": "domare",
+      "nl": "rechter",
+      "it": "il giudice",
+      "es": "el juez"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_tebaki",
+    "am": "ጠበቃ",
+    "tr": "t'ebeka",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Anwalt",
+      "en": "lawyer",
+      "sv": "advokat",
+      "nl": "advocaat",
+      "it": "l'avvocato",
+      "es": "el abogado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_kesetegna",
+    "am": "ከሳሽ",
+    "tr": "kesash",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Kläger",
+      "en": "plaintiff",
+      "sv": "kärande",
+      "nl": "eiser",
+      "it": "il querelante",
+      "es": "el demandante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hr2_tekesash",
+    "am": "ተከሳሽ",
+    "tr": "tekesash",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Angeklagte",
+      "en": "defendant",
+      "sv": "svarande",
+      "nl": "verdachte",
+      "it": "l'imputato",
+      "es": "el acusado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hr2_wega2",
+    "am": "ወንጀል",
+    "tr": "wenijel",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "das Verbrechen",
+      "en": "crime",
+      "sv": "brott",
+      "nl": "misdaad",
+      "it": "il crimine",
+      "es": "el crimen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_wegetegna",
+    "am": "ወንጀለኛ",
+    "tr": "wenijelegna",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Verbrecher",
+      "en": "criminal",
+      "sv": "brottsling",
+      "nl": "crimineel",
+      "it": "il criminale",
+      "es": "el criminal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_polis",
+    "am": "ፖሊስ",
+    "tr": "polis",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "die Polizei",
+      "en": "police",
+      "sv": "polis",
+      "nl": "politie",
+      "it": "la polizia",
+      "es": "la policía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👮",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_v_masser",
+    "am": "ማሰር",
+    "tr": "maser",
+    "pos": "verb",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "verhaften, festnehmen",
+      "en": "to arrest",
+      "sv": "arrestera",
+      "nl": "arresteren",
+      "it": "arrestare",
+      "es": "arrestar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_iser_bet",
+    "am": "ወህኒ ቤት",
+    "tr": "wehini bet",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "das Gefängnis",
+      "en": "prison",
+      "sv": "fängelse",
+      "nl": "gevangenis",
+      "it": "la prigione",
+      "es": "la cárcel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_kilil2",
+    "am": "ቅጣት",
+    "tr": "k'itat",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "die Strafe",
+      "en": "punishment",
+      "sv": "straff",
+      "nl": "straf",
+      "it": "la punizione",
+      "es": "el castigo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_v_mekesekes",
+    "am": "መክሰስ",
+    "tr": "mekises",
+    "pos": "verb",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "anklagen, verklagen",
+      "en": "to sue, to accuse",
+      "sv": "anklaga, stämma",
+      "nl": "aanklagen",
+      "it": "accusare, denunciare",
+      "es": "acusar, demandar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_mereja2",
+    "am": "ማስረጃ",
+    "tr": "masireja",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Beweis",
+      "en": "evidence",
+      "sv": "bevis",
+      "nl": "bewijs",
+      "it": "la prova",
+      "es": "la prueba"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_sahid",
+    "am": "ምስክር",
+    "tr": "misikir",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Zeuge",
+      "en": "witness",
+      "sv": "vittne",
+      "nl": "getuige",
+      "it": "il testimone",
+      "es": "el testigo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_v_meshet",
+    "am": "መመስከር",
+    "tr": "memesiker",
+    "pos": "verb",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "bezeugen, aussagen",
+      "en": "to testify",
+      "sv": "vittna",
+      "nl": "getuigen",
+      "it": "testimoniare",
+      "es": "testificar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_higuge",
+    "am": "ሕግ",
+    "tr": "hig",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "das Gesetz",
+      "en": "law",
+      "sv": "lag",
+      "nl": "wet",
+      "it": "la legge",
+      "es": "la ley"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_adj_higawi",
+    "am": "ህጋዊ",
+    "tr": "higawi",
+    "pos": "adjective",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "legal, gesetzlich",
+      "en": "legal, lawful",
+      "sv": "laglig",
+      "nl": "legaal, wettelijk",
+      "it": "legale",
+      "es": "legal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_adj_ihigawi",
+    "am": "ህገ ወጥ",
+    "tr": "hige wet'",
+    "pos": "adjective",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "illegal",
+      "en": "illegal",
+      "sv": "olaglig",
+      "nl": "illegaal",
+      "it": "illegale",
+      "es": "ilegal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hr2_kontrat2",
+    "am": "የውል ስምምነት",
+    "tr": "yewil siminet",
+    "pos": "noun",
+    "topic": "law_2",
+    "level": "B2",
+    "t": {
+      "de": "der Vertrag (rechtlich)",
+      "en": "legal contract",
+      "sv": "rättsligt kontrakt",
+      "nl": "juridisch contract",
+      "it": "il contratto (legale)",
+      "es": "el contrato (legal)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
 ]

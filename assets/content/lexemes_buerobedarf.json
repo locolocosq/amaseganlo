@@ -10,7 +10,9 @@
       "de": "der Bleistift",
       "en": "pencil",
       "sv": "blyertspenna",
-      "nl": "potlood"
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "der Radiergummi",
       "en": "eraser",
       "sv": "suddgummi",
-      "nl": "gum"
+      "nl": "gum",
+      "it": "la gomma",
+      "es": "la goma de borrar"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "das Lineal",
       "en": "ruler",
       "sv": "linjal",
-      "nl": "liniaal"
+      "nl": "liniaal",
+      "it": "il righello",
+      "es": "la regla"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "der Hefter, Tacker",
       "en": "stapler",
       "sv": "häftapparat",
-      "nl": "nietmachine"
+      "nl": "nietmachine",
+      "it": "la spillatrice",
+      "es": "la grapadora"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "die Schere",
       "en": "scissors",
       "sv": "sax",
-      "nl": "schaar"
+      "nl": "schaar",
+      "it": "le forbici",
+      "es": "las tijeras"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "der Umschlag",
       "en": "envelope",
       "sv": "kuvert",
-      "nl": "envelop"
+      "nl": "envelop",
+      "it": "la busta",
+      "es": "el sobre"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "die Briefmarke",
       "en": "stamp",
       "sv": "frimärke",
-      "nl": "postzegel"
+      "nl": "postzegel",
+      "it": "il francobollo",
+      "es": "el sello"
     },
     "hint": {},
     "alt": {},

@@ -10,7 +10,9 @@
       "de": "in, innerhalb",
       "en": "in, inside",
       "sv": "i, inuti",
-      "nl": "in, binnen"
+      "nl": "in, binnen",
+      "it": "in, dentro",
+      "es": "en, dentro de"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "auf, über",
       "en": "on, above",
       "sv": "på, ovanpå",
-      "nl": "op, boven"
+      "nl": "op, boven",
+      "it": "su, sopra",
+      "es": "sobre, encima de"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "unter",
       "en": "under",
       "sv": "under",
-      "nl": "onder"
+      "nl": "onder",
+      "it": "sotto",
+      "es": "debajo de"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "neben",
       "en": "beside, next to",
       "sv": "bredvid",
-      "nl": "naast"
+      "nl": "naast",
+      "it": "accanto a",
+      "es": "al lado de, junto a"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "vor",
       "en": "in front of, before",
       "sv": "framför",
-      "nl": "voor"
+      "nl": "voor",
+      "it": "davanti a",
+      "es": "delante de, antes de"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "hinter",
       "en": "behind",
       "sv": "bakom",
-      "nl": "achter"
+      "nl": "achter",
+      "it": "dietro",
+      "es": "detrás de"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "zwischen",
       "en": "between",
       "sv": "mellan",
-      "nl": "tussen"
+      "nl": "tussen",
+      "it": "tra, fra",
+      "es": "entre"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "Norden",
       "en": "north",
       "sv": "norr",
-      "nl": "noorden"
+      "nl": "noorden",
+      "it": "nord",
+      "es": "norte"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "Süden",
       "en": "south",
       "sv": "söder",
-      "nl": "zuiden"
+      "nl": "zuiden",
+      "it": "sud",
+      "es": "sur"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "Osten",
       "en": "east",
       "sv": "öster",
-      "nl": "oosten"
+      "nl": "oosten",
+      "it": "est",
+      "es": "este"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "Westen",
       "en": "west",
       "sv": "väster",
-      "nl": "westen"
+      "nl": "westen",
+      "it": "ovest",
+      "es": "oeste"
     },
     "hint": {},
     "alt": {},

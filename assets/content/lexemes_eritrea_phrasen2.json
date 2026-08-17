@@ -1,10 +1,146 @@
 [
-  {"id":"lex_ti_ph2_bxi","am":"ኣይትሓዘለይ","tr":"ayitihazeley","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"nichts für ungut, entschuldige","en":"no offense, sorry","sv":"ingen skada skedd, förlåt","nl":"geen probleem, sorry"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_hwn","am":"ጽቡቕ ጉዕዞ","tr":"tsibuq gu'ezo","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"gute Reise","en":"have a good trip","sv":"trevlig resa","nl":"goede reis"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_gzm","am":"ጽቡቕ ትምኒት","tr":"tsibuq timinit","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"alles Gute","en":"all the best","sv":"lycka till","nl":"het beste"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_kfu","am":"ኣይትሸበር","tr":"ayitisheber","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"keine Sorge, keine Angst","en":"don't worry","sv":"oroa dig inte","nl":"geen zorgen"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_slm2","am":"ብድሓን ኩን","tr":"bidihan kun","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"bleib gesund","en":"take care, stay well","sv":"ta hand om dig","nl":"blijf gezond"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_hjkl","am":"እንታይ ኣሎ","tr":"initay alo","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"was gibt's","en":"what's up","sv":"vad händer","nl":"wat is er"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_wehd","am":"ቀስ ኢልካ","tr":"qesi 'ilika","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"langsam, vorsichtig","en":"slowly, take it easy","sv":"lugnt, försiktigt","nl":"langzaam, voorzichtig"},"emoji":"","verified":false},
-  {"id":"lex_ti_ph2_shkr2","am":"ብልቢ የቐንየለይ","tr":"bilibi yeqenyeley","pos":"phrase","topic":"phrases_more","level":"TI","t":{"de":"herzlichen Dank","en":"heartfelt thanks","sv":"hjärtligt tack","nl":"hartelijk dank"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_ph2_bxi",
+    "am": "ኣይትሓዘለይ",
+    "tr": "ayitihazeley",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "nichts für ungut, entschuldige",
+      "en": "no offense, sorry",
+      "sv": "ingen skada skedd, förlåt",
+      "nl": "geen probleem, sorry",
+      "it": "senza offesa, scusa",
+      "es": "sin ofender, perdón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_hwn",
+    "am": "ጽቡቕ ጉዕዞ",
+    "tr": "tsibuq gu'ezo",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "gute Reise",
+      "en": "have a good trip",
+      "sv": "trevlig resa",
+      "nl": "goede reis",
+      "it": "buon viaggio",
+      "es": "buen viaje"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_gzm",
+    "am": "ጽቡቕ ትምኒት",
+    "tr": "tsibuq timinit",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "alles Gute",
+      "en": "all the best",
+      "sv": "lycka till",
+      "nl": "het beste",
+      "it": "tanti auguri",
+      "es": "todo lo mejor"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_kfu",
+    "am": "ኣይትሸበር",
+    "tr": "ayitisheber",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "keine Sorge, keine Angst",
+      "en": "don't worry",
+      "sv": "oroa dig inte",
+      "nl": "geen zorgen",
+      "it": "non preoccuparti",
+      "es": "no te preocupes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_slm2",
+    "am": "ብድሓን ኩን",
+    "tr": "bidihan kun",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "bleib gesund",
+      "en": "take care, stay well",
+      "sv": "ta hand om dig",
+      "nl": "blijf gezond",
+      "it": "stai bene",
+      "es": "cuídate"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_hjkl",
+    "am": "እንታይ ኣሎ",
+    "tr": "initay alo",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "was gibt's",
+      "en": "what's up",
+      "sv": "vad händer",
+      "nl": "wat is er",
+      "it": "che c'è di nuovo",
+      "es": "qué hay de nuevo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_wehd",
+    "am": "ቀስ ኢልካ",
+    "tr": "qesi 'ilika",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "langsam, vorsichtig",
+      "en": "slowly, take it easy",
+      "sv": "lugnt, försiktigt",
+      "nl": "langzaam, voorzichtig",
+      "it": "piano, con calma",
+      "es": "despacio, con cuidado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ph2_shkr2",
+    "am": "ብልቢ የቐንየለይ",
+    "tr": "bilibi yeqenyeley",
+    "pos": "phrase",
+    "topic": "phrases_more",
+    "level": "TI",
+    "t": {
+      "de": "herzlichen Dank",
+      "en": "heartfelt thanks",
+      "sv": "hjärtligt tack",
+      "nl": "hartelijk dank",
+      "it": "grazie di cuore",
+      "es": "muchas gracias de corazón"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

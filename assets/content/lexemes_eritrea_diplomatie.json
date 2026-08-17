@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_dpl_ambs","am":"ኣምባሳደር","tr":"ambasader","pos":"noun","topic":"diplomacy","level":"TI","t":{"de":"der Botschafter","en":"ambassador","sv":"ambassadör","nl":"ambassadeur"},"emoji":"","verified":false},
-  {"id":"lex_ti_dpl_embsy","am":"ኤምባሲ","tr":"embasi","pos":"noun","topic":"diplomacy","level":"TI","t":{"de":"die Botschaft (Gebäude)","en":"embassy","sv":"ambassad","nl":"ambassade"},"emoji":"","verified":false},
-  {"id":"lex_ti_dpl_trty","am":"ስምምዕ","tr":"simmi'i","pos":"noun","topic":"diplomacy","level":"TI","t":{"de":"das Abkommen","en":"agreement, treaty","sv":"avtal","nl":"verdrag, overeenkomst"},"emoji":"","verified":false},
-  {"id":"lex_ti_dpl_peace","am":"ሰላም","tr":"selam3","pos":"noun","topic":"diplomacy","level":"TI","t":{"de":"der Frieden","en":"peace","sv":"fred","nl":"vrede"},"emoji":"☮️","verified":false},
-  {"id":"lex_ti_dpl_nego","am":"ዘተየ","tr":"zeteye","pos":"verb","topic":"diplomacy","level":"TI","t":{"de":"verhandeln","en":"to negotiate","sv":"att förhandla","nl":"onderhandelen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_dpl_ambs",
+    "am": "ኣምባሳደር",
+    "tr": "ambasader",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "TI",
+    "t": {
+      "de": "der Botschafter",
+      "en": "ambassador",
+      "sv": "ambassadör",
+      "nl": "ambassadeur",
+      "it": "l'ambasciatore",
+      "es": "el embajador"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dpl_embsy",
+    "am": "ኤምባሲ",
+    "tr": "embasi",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "TI",
+    "t": {
+      "de": "die Botschaft (Gebäude)",
+      "en": "embassy",
+      "sv": "ambassad",
+      "nl": "ambassade",
+      "it": "l'ambasciata (edificio)",
+      "es": "la embajada (edificio)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dpl_trty",
+    "am": "ስምምዕ",
+    "tr": "simmi'i",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "TI",
+    "t": {
+      "de": "das Abkommen",
+      "en": "agreement, treaty",
+      "sv": "avtal",
+      "nl": "verdrag, overeenkomst",
+      "it": "l'accordo, il trattato",
+      "es": "el acuerdo, el tratado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dpl_peace",
+    "am": "ሰላም",
+    "tr": "selam3",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "TI",
+    "t": {
+      "de": "der Frieden",
+      "en": "peace",
+      "sv": "fred",
+      "nl": "vrede",
+      "it": "la pace",
+      "es": "la paz"
+    },
+    "emoji": "☮️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dpl_nego",
+    "am": "ዘተየ",
+    "tr": "zeteye",
+    "pos": "verb",
+    "topic": "diplomacy",
+    "level": "TI",
+    "t": {
+      "de": "verhandeln",
+      "en": "to negotiate",
+      "sv": "att förhandla",
+      "nl": "onderhandelen",
+      "it": "negoziare",
+      "es": "negociar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

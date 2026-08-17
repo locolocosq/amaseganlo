@@ -11,7 +11,9 @@
       "de": "die Clique ist vorhanden.",
       "en": "There is friend group.",
       "sv": "Det finns kompisgäng.",
-      "nl": "Er is vriendengroep."
+      "nl": "Er is vriendengroep.",
+      "it": "C'è il gruppo di amici.",
+      "es": "Hay un grupo de amigos."
     },
     "alt": {},
     "chunks": [
@@ -33,7 +35,9 @@
       "de": "Er ist gefährlich.",
       "en": "He is dangerous.",
       "sv": "Han är farlig.",
-      "nl": "Hij is gevaarlijk."
+      "nl": "Hij is gevaarlijk.",
+      "it": "Lui è pericoloso.",
+      "es": "Él es peligroso."
     },
     "alt": {},
     "chunks": [
@@ -55,7 +59,9 @@
       "de": "die Gefahr ist vorhanden.",
       "en": "There is danger, hazard.",
       "sv": "Det finns fara.",
-      "nl": "Er is gevaar."
+      "nl": "Er is gevaar.",
+      "it": "C'è pericolo.",
+      "es": "Hay peligro."
     },
     "alt": {},
     "chunks": [
@@ -77,7 +83,9 @@
       "de": "Ich habe den Unfall.",
       "en": "I have accident.",
       "sv": "Jag har olycka.",
-      "nl": "Ik heb ongeluk."
+      "nl": "Ik heb ongeluk.",
+      "it": "Ho l'incidente.",
+      "es": "Tengo el accidente."
     },
     "alt": {},
     "chunks": [

@@ -1,7 +1,92 @@
 [
-  {"id":"lex_ti_vrp_wrap","am":"መጠቅለሊ","tr":"met'eqileli","pos":"noun","topic":"packaging","level":"TI","t":{"de":"die Verpackung","en":"packaging","sv":"förpackning","nl":"verpakking"},"emoji":"📦","verified":false},
-  {"id":"lex_ti_vrp_foil","am":"ፎርፎር","tr":"forfor","pos":"noun","topic":"packaging","level":"TI","t":{"de":"die Folie","en":"foil, film","sv":"folie","nl":"folie"},"emoji":"","verified":false},
-  {"id":"lex_ti_vrp_lbl","am":"ምልክት ዋጋ","tr":"milikit waga","pos":"noun","topic":"packaging","level":"TI","t":{"de":"das Etikett","en":"label","sv":"etikett","nl":"etiket"},"emoji":"🏷️","verified":false},
-  {"id":"lex_ti_vrp_bag2","am":"ናይ ፕላስቲክ ከረጺት","tr":"nay pilastik keretsit","pos":"noun","topic":"packaging","level":"TI","t":{"de":"die Plastiktüte","en":"plastic bag","sv":"plastpåse","nl":"plastic zak"},"emoji":"🛍️","verified":false},
-  {"id":"lex_ti_vrp_seal","am":"ዓተመ","tr":"'ateme","pos":"verb","topic":"packaging","level":"TI","t":{"de":"versiegeln","en":"to seal","sv":"att försegla","nl":"verzegelen"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_vrp_wrap",
+    "am": "መጠቅለሊ",
+    "tr": "met'eqileli",
+    "pos": "noun",
+    "topic": "packaging",
+    "level": "TI",
+    "t": {
+      "de": "die Verpackung",
+      "en": "packaging",
+      "sv": "förpackning",
+      "nl": "verpakking",
+      "it": "l'imballaggio",
+      "es": "el embalaje"
+    },
+    "emoji": "📦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrp_foil",
+    "am": "ፎርፎር",
+    "tr": "forfor",
+    "pos": "noun",
+    "topic": "packaging",
+    "level": "TI",
+    "t": {
+      "de": "die Folie",
+      "en": "foil, film",
+      "sv": "folie",
+      "nl": "folie",
+      "it": "la pellicola",
+      "es": "el papel de aluminio, el film"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrp_lbl",
+    "am": "ምልክት ዋጋ",
+    "tr": "milikit waga",
+    "pos": "noun",
+    "topic": "packaging",
+    "level": "TI",
+    "t": {
+      "de": "das Etikett",
+      "en": "label",
+      "sv": "etikett",
+      "nl": "etiket",
+      "it": "l'etichetta",
+      "es": "la etiqueta"
+    },
+    "emoji": "🏷️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrp_bag2",
+    "am": "ናይ ፕላስቲክ ከረጺት",
+    "tr": "nay pilastik keretsit",
+    "pos": "noun",
+    "topic": "packaging",
+    "level": "TI",
+    "t": {
+      "de": "die Plastiktüte",
+      "en": "plastic bag",
+      "sv": "plastpåse",
+      "nl": "plastic zak",
+      "it": "il sacchetto di plastica",
+      "es": "la bolsa de plástico"
+    },
+    "emoji": "🛍️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrp_seal",
+    "am": "ዓተመ",
+    "tr": "'ateme",
+    "pos": "verb",
+    "topic": "packaging",
+    "level": "TI",
+    "t": {
+      "de": "versiegeln",
+      "en": "to seal",
+      "sv": "att försegla",
+      "nl": "verzegelen",
+      "it": "sigillare",
+      "es": "sellar"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

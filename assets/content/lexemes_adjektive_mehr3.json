@@ -10,7 +10,9 @@
       "de": "schwer (Gewicht)",
       "en": "heavy",
       "sv": "tung",
-      "nl": "zwaar"
+      "nl": "zwaar",
+      "it": "pesante",
+      "es": "pesado"
     },
     "hint": {},
     "alt": {},
@@ -28,7 +30,9 @@
       "de": "leicht (Gewicht)",
       "en": "light (weight)",
       "sv": "lätt",
-      "nl": "licht"
+      "nl": "licht",
+      "it": "leggero",
+      "es": "ligero"
     },
     "hint": {},
     "alt": {},
@@ -46,7 +50,9 @@
       "de": "tief",
       "en": "deep",
       "sv": "djup",
-      "nl": "diep"
+      "nl": "diep",
+      "it": "profondo",
+      "es": "profundo"
     },
     "hint": {},
     "alt": {},
@@ -64,7 +70,9 @@
       "de": "flach, seicht",
       "en": "shallow",
       "sv": "grund",
-      "nl": "ondiep"
+      "nl": "ondiep",
+      "it": "basso, poco profondo",
+      "es": "poco profundo"
     },
     "hint": {},
     "alt": {},
@@ -82,7 +90,9 @@
       "de": "breit, weit",
       "en": "wide",
       "sv": "bred",
-      "nl": "breed"
+      "nl": "breed",
+      "it": "largo, ampio",
+      "es": "ancho"
     },
     "hint": {},
     "alt": {},
@@ -100,7 +110,9 @@
       "de": "eng, schmal",
       "en": "narrow",
       "sv": "trång, smal",
-      "nl": "nauw, smal"
+      "nl": "nauw, smal",
+      "it": "stretto",
+      "es": "estrecho"
     },
     "hint": {},
     "alt": {},
@@ -118,7 +130,9 @@
       "de": "dick",
       "en": "thick",
       "sv": "tjock",
-      "nl": "dik"
+      "nl": "dik",
+      "it": "spesso",
+      "es": "grueso"
     },
     "hint": {},
     "alt": {},
@@ -136,7 +150,9 @@
       "de": "dünn",
       "en": "thin",
       "sv": "tunn",
-      "nl": "dun"
+      "nl": "dun",
+      "it": "sottile",
+      "es": "delgado"
     },
     "hint": {},
     "alt": {},
@@ -154,7 +170,9 @@
       "de": "rund",
       "en": "round",
       "sv": "rund",
-      "nl": "rond"
+      "nl": "rond",
+      "it": "rotondo",
+      "es": "redondo"
     },
     "hint": {},
     "alt": {},
@@ -172,7 +190,9 @@
       "de": "gerade (Form)",
       "en": "straight",
       "sv": "rak",
-      "nl": "recht"
+      "nl": "recht",
+      "it": "dritto (forma)",
+      "es": "recto (forma)"
     },
     "hint": {},
     "alt": {},
@@ -190,7 +210,9 @@
       "de": "glatt",
       "en": "smooth",
       "sv": "jämn, glatt",
-      "nl": "glad"
+      "nl": "glad",
+      "it": "liscio",
+      "es": "liso"
     },
     "hint": {},
     "alt": {},
@@ -208,7 +230,9 @@
       "de": "rau, uneben",
       "en": "rough",
       "sv": "ojämn, rå",
-      "nl": "ruw"
+      "nl": "ruw",
+      "it": "ruvido, irregolare",
+      "es": "áspero, irregular"
     },
     "hint": {},
     "alt": {},

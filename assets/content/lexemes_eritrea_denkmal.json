@@ -1,5 +1,56 @@
 [
-  {"id":"lex_ti_dkm_stat","am":"ምስሊ ሓወልቲ","tr":"misili hawelti","pos":"noun","topic":"monuments","level":"TI","t":{"de":"die Statue","en":"statue","sv":"staty","nl":"standbeeld"},"emoji":"","verified":false},
-  {"id":"lex_ti_dkm_mnmt","am":"ሓወልቲ","tr":"hawelti","pos":"noun","topic":"monuments","level":"TI","t":{"de":"das Denkmal","en":"monument","sv":"monument","nl":"monument"},"emoji":"","verified":false},
-  {"id":"lex_ti_dkm_lndmk","am":"ምልክት ከተማ","tr":"milikit ketema","pos":"noun","topic":"monuments","level":"TI","t":{"de":"das Wahrzeichen","en":"landmark","sv":"landmärke","nl":"herkenningspunt"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_dkm_stat",
+    "am": "ምስሊ ሓወልቲ",
+    "tr": "misili hawelti",
+    "pos": "noun",
+    "topic": "monuments",
+    "level": "TI",
+    "t": {
+      "de": "die Statue",
+      "en": "statue",
+      "sv": "staty",
+      "nl": "standbeeld",
+      "it": "la statua",
+      "es": "la estatua"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dkm_mnmt",
+    "am": "ሓወልቲ",
+    "tr": "hawelti",
+    "pos": "noun",
+    "topic": "monuments",
+    "level": "TI",
+    "t": {
+      "de": "das Denkmal",
+      "en": "monument",
+      "sv": "monument",
+      "nl": "monument",
+      "it": "il monumento",
+      "es": "el monumento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dkm_lndmk",
+    "am": "ምልክት ከተማ",
+    "tr": "milikit ketema",
+    "pos": "noun",
+    "topic": "monuments",
+    "level": "TI",
+    "t": {
+      "de": "das Wahrzeichen",
+      "en": "landmark",
+      "sv": "landmärke",
+      "nl": "herkenningspunt",
+      "it": "il punto di riferimento (città)",
+      "es": "el punto de referencia (ciudad)"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]

@@ -1,6 +1,74 @@
 [
-  {"id":"lex_ti_klg_pen2","am":"ብርዒ ጽሕፈት","tr":"biri'i tsihfet","pos":"noun","topic":"calligraphy","level":"TI","t":{"de":"die Schreibfeder","en":"writing pen","sv":"skrivpenna","nl":"schrijfpen"},"emoji":"🖋️","verified":false},
-  {"id":"lex_ti_klg_ink","am":"ቀለም ጽሕፈት","tr":"qelem tsihfet","pos":"noun","topic":"calligraphy","level":"TI","t":{"de":"die Tinte","en":"ink","sv":"bläck","nl":"inkt"},"emoji":"","verified":false},
-  {"id":"lex_ti_klg_script","am":"ኣጸሓሕፋ","tr":"atsehahifa","pos":"noun","topic":"calligraphy","level":"TI","t":{"de":"die Schrift, Schriftart","en":"handwriting, script","sv":"handstil, skrift","nl":"handschrift"},"emoji":"","verified":false},
-  {"id":"lex_ti_klg_letr","am":"ፊደል","tr":"fidel","pos":"noun","topic":"calligraphy","level":"TI","t":{"de":"der Buchstabe","en":"letter (alphabet)","sv":"bokstav","nl":"letter"},"emoji":"","verified":false}
+  {
+    "id": "lex_ti_klg_pen2",
+    "am": "ብርዒ ጽሕፈት",
+    "tr": "biri'i tsihfet",
+    "pos": "noun",
+    "topic": "calligraphy",
+    "level": "TI",
+    "t": {
+      "de": "die Schreibfeder",
+      "en": "writing pen",
+      "sv": "skrivpenna",
+      "nl": "schrijfpen",
+      "it": "la penna (per scrivere)",
+      "es": "la pluma (para escribir)"
+    },
+    "emoji": "🖋️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_klg_ink",
+    "am": "ቀለም ጽሕፈት",
+    "tr": "qelem tsihfet",
+    "pos": "noun",
+    "topic": "calligraphy",
+    "level": "TI",
+    "t": {
+      "de": "die Tinte",
+      "en": "ink",
+      "sv": "bläck",
+      "nl": "inkt",
+      "it": "l'inchiostro",
+      "es": "la tinta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_klg_script",
+    "am": "ኣጸሓሕፋ",
+    "tr": "atsehahifa",
+    "pos": "noun",
+    "topic": "calligraphy",
+    "level": "TI",
+    "t": {
+      "de": "die Schrift, Schriftart",
+      "en": "handwriting, script",
+      "sv": "handstil, skrift",
+      "nl": "handschrift",
+      "it": "la scrittura, il tipo di carattere",
+      "es": "la escritura, el tipo de letra"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_klg_letr",
+    "am": "ፊደል",
+    "tr": "fidel",
+    "pos": "noun",
+    "topic": "calligraphy",
+    "level": "TI",
+    "t": {
+      "de": "der Buchstabe",
+      "en": "letter (alphabet)",
+      "sv": "bokstav",
+      "nl": "letter",
+      "it": "la lettera",
+      "es": "la letra"
+    },
+    "emoji": "",
+    "verified": false
+  }
 ]
