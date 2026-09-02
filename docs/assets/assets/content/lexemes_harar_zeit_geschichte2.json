@@ -1,0 +1,422 @@
+[
+  {
+    "id": "lex_hzg_zemen2",
+    "am": "ወቅት",
+    "tr": "wek'it",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Periode, Saison",
+      "en": "period, season",
+      "sv": "period, säsong",
+      "nl": "periode, seizoen",
+      "it": "il periodo, la stagione",
+      "es": "el período, la estación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_kidmawi",
+    "am": "ቀዳማዊ",
+    "tr": "k'edamawi",
+    "pos": "adjective",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "der Erste (Titel)",
+      "en": "the First (title)",
+      "sv": "den förste (titel)",
+      "nl": "de eerste (titel)",
+      "it": "il primo (titolo)",
+      "es": "el primero (título)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_neguse_negest",
+    "am": "ንጉሠ ነገሥት",
+    "tr": "nigus negest",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "der Kaiser",
+      "en": "emperor",
+      "sv": "kejsare",
+      "nl": "keizer",
+      "it": "l'imperatore",
+      "es": "el emperador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_nigist",
+    "am": "ንግስት",
+    "tr": "nigist",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Königin",
+      "en": "queen",
+      "sv": "drottning",
+      "nl": "koningin",
+      "it": "la regina",
+      "es": "la reina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_v_megezat",
+    "am": "መግዛት",
+    "tr": "megizat",
+    "pos": "verb",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "herrschen, regieren",
+      "en": "to rule, to reign",
+      "sv": "härska, regera",
+      "nl": "heersen, regeren",
+      "it": "governare, regnare",
+      "es": "gobernar, reinar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_mekera_hager",
+    "am": "ቅኝ ግዛት",
+    "tr": "k'ign gizat",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Kolonie",
+      "en": "colony",
+      "sv": "koloni",
+      "nl": "kolonie",
+      "it": "la colonia",
+      "es": "la colonia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_netsanet",
+    "am": "ነጻነት",
+    "tr": "nets'anet",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Freiheit, Unabhängigkeit",
+      "en": "freedom, independence",
+      "sv": "frihet, oberoende",
+      "nl": "vrijheid, onafhankelijkheid",
+      "it": "la libertà, l'indipendenza",
+      "es": "la libertad, la independencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_tigil",
+    "am": "ትግል",
+    "tr": "tigil",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "der Kampf",
+      "en": "struggle",
+      "sv": "kamp",
+      "nl": "strijd",
+      "it": "la lotta",
+      "es": "la lucha"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_werera",
+    "am": "ወረራ",
+    "tr": "werera",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Invasion",
+      "en": "invasion",
+      "sv": "invasion",
+      "nl": "invasie",
+      "it": "l'invasione",
+      "es": "la invasión"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_dil",
+    "am": "ድል",
+    "tr": "dil",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "der Sieg",
+      "en": "victory",
+      "sv": "seger",
+      "nl": "overwinning",
+      "it": "la vittoria",
+      "es": "la victoria"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_werk",
+    "am": "ጦርነት",
+    "tr": "t'orinet",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "der Krieg",
+      "en": "war",
+      "sv": "krig",
+      "nl": "oorlog",
+      "it": "la guerra",
+      "es": "la guerra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_selam2",
+    "am": "ሰላም",
+    "tr": "selam",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "der Frieden",
+      "en": "peace",
+      "sv": "fred",
+      "nl": "vrede",
+      "it": "la pace",
+      "es": "la paz"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_zemen_tarik",
+    "am": "የዘመን ቅደም ተከተል",
+    "tr": "yezemen k'edem teketel",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Chronologie, Zeitleiste",
+      "en": "chronology, timeline",
+      "sv": "kronologi, tidslinje",
+      "nl": "chronologie, tijdlijn",
+      "it": "la cronologia, la linea temporale",
+      "es": "la cronología, la línea de tiempo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hzg_bealiwi",
+    "am": "ባህላዊ ሥርዓት",
+    "tr": "bahilawi sirat",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "das kulturelle Ritual",
+      "en": "cultural ritual",
+      "sv": "kulturell ritual",
+      "nl": "cultureel ritueel",
+      "it": "il rituale culturale",
+      "es": "el ritual cultural"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hzg_v_mastawesat",
+    "am": "ማስታወስ",
+    "tr": "masitawes",
+    "pos": "verb",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "sich erinnern",
+      "en": "to remember",
+      "sv": "minnas",
+      "nl": "herinneren",
+      "it": "ricordare",
+      "es": "recordar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_mastawesha",
+    "am": "ማስታወሻ",
+    "tr": "masitawesha",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "das Denkmal, die Erinnerung",
+      "en": "monument, memorial",
+      "sv": "monument, minnesmärke",
+      "nl": "monument, gedenkteken",
+      "it": "il monumento, il memoriale",
+      "es": "el monumento, el memorial"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_amet_mebacha",
+    "am": "ዓመተ ምህረት",
+    "tr": "amete mihiret",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "das Jahr (äthiopischer Kalender)",
+      "en": "year (Ethiopian calendar era)",
+      "sv": "år (etiopisk kalenderera)",
+      "nl": "jaar (Ethiopische kalenderera)",
+      "it": "l'anno (calendario etiope)",
+      "es": "el año (calendario etíope)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_kefeleZemen",
+    "am": "ክፈለ ዘመን",
+    "tr": "kifele zemen",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "das Jahrhundert",
+      "en": "century",
+      "sv": "århundrade",
+      "nl": "eeuw",
+      "it": "il secolo",
+      "es": "el siglo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_v_mememerat",
+    "am": "መመስረት",
+    "tr": "memesiret",
+    "pos": "verb",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "gründen, etablieren",
+      "en": "to found, to establish",
+      "sv": "grunda",
+      "nl": "stichten",
+      "it": "fondare, istituire",
+      "es": "fundar, establecer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_mesarach",
+    "am": "መሠረት",
+    "tr": "meseret",
+    "pos": "noun",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "die Grundlage, Basis",
+      "en": "foundation, basis",
+      "sv": "grund, bas",
+      "nl": "basis, grondslag",
+      "it": "il fondamento, la base",
+      "es": "el fundamento, la base"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzg_adj_kedamo",
+    "am": "የቀድሞ",
+    "tr": "yek'edimo",
+    "pos": "adjective",
+    "topic": "time_history",
+    "level": "B2",
+    "t": {
+      "de": "ehemalig, früher",
+      "en": "former, previous",
+      "sv": "tidigare, forna",
+      "nl": "voormalig, vroeger",
+      "it": "ex, precedente",
+      "es": "antiguo, anterior"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_sp3_tenis",
+    "am": "ተኒስ",
+    "tr": "tenis",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Tennis",
+      "en": "tennis",
+      "sv": "tennis",
+      "nl": "tennis",
+      "it": "il tennis",
+      "es": "el tenis"
+    },
+    "emoji": "🎾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_bskt",
+    "am": "ኩዕሶ ጣውላ",
+    "tr": "ku'iso t'awila",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "der Basketball",
+      "en": "basketball",
+      "sv": "basket",
+      "nl": "basketbal",
+      "it": "la pallacanestro, il basket",
+      "es": "el baloncesto"
+    },
+    "emoji": "🏀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_golf",
+    "am": "ጎልፍ",
+    "tr": "golf",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Golf",
+      "en": "golf",
+      "sv": "golf",
+      "nl": "golf (sport)",
+      "it": "il golf",
+      "es": "el golf"
+    },
+    "emoji": "⛳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_grmn",
+    "am": "ጅምናስቲክ",
+    "tr": "jimnastik",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Turnen, Gymnastik",
+      "en": "gymnastics",
+      "sv": "gymnastik",
+      "nl": "gymnastiek",
+      "it": "la ginnastica",
+      "es": "la gimnasia"
+    },
+    "emoji": "🤸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_krte",
+    "am": "ካራተ",
+    "tr": "karate",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Karate, Kampfsport",
+      "en": "karate, martial arts",
+      "sv": "karate, kampsport",
+      "nl": "karate, vechtsport",
+      "it": "il karate, le arti marziali",
+      "es": "el kárate, las artes marciales"
+    },
+    "emoji": "🥋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_asa",
+    "am": "ዓሳ ምግፋፍ",
+    "tr": "'asa migifaf",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Angeln",
+      "en": "fishing",
+      "sv": "fiske",
+      "nl": "vissen",
+      "it": "la pesca",
+      "es": "la pesca"
+    },
+    "emoji": "🎣",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_frss",
+    "am": "ናይ ፈረስ ምጋልቢ",
+    "tr": "nay feres migalbi",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Reiten",
+      "en": "horseback riding",
+      "sv": "ridning",
+      "nl": "paardrijden",
+      "it": "l'equitazione",
+      "es": "la equitación"
+    },
+    "emoji": "🏇",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_thft",
+    "am": "ኣትሌቲክስ",
+    "tr": "atletiks",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "die Leichtathletik",
+      "en": "athletics, track and field",
+      "sv": "friidrott",
+      "nl": "atletiek",
+      "it": "l'atletica leggera",
+      "es": "el atletismo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_dgum",
+    "am": "ቀላይ ምንሳፍ",
+    "tr": "qelay minisaf",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Segeln",
+      "en": "sailing",
+      "sv": "segling",
+      "nl": "zeilen",
+      "it": "la vela",
+      "es": "la navegación a vela"
+    },
+    "emoji": "⛵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sp3_ymnst",
+    "am": "ናይ ኣፍልቢ ውድድር",
+    "tr": "nay afilbi widdir",
+    "pos": "noun",
+    "topic": "sports_more2",
+    "level": "TI",
+    "t": {
+      "de": "das Ringen",
+      "en": "wrestling",
+      "sv": "brottning",
+      "nl": "worstelen",
+      "it": "la lotta",
+      "es": "la lucha"
+    },
+    "emoji": "🤼",
+    "verified": false
+  }
+]

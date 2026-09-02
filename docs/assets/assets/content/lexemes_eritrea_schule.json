@@ -1,0 +1,326 @@
+[
+  {
+    "id": "lex_ti_metsihaf",
+    "am": "መጽሓፍ",
+    "tr": "metsihaf",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "das Buch",
+      "en": "book",
+      "sv": "bok",
+      "nl": "boek",
+      "it": "il libro",
+      "es": "el libro"
+    },
+    "emoji": "📖",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ebiy",
+    "am": "ብርዒ",
+    "tr": "birI'i",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "der Stift",
+      "en": "pen",
+      "sv": "penna",
+      "nl": "pen",
+      "it": "la penna",
+      "es": "el bolígrafo"
+    },
+    "emoji": "✏️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wereqet",
+    "am": "ወረቐት",
+    "tr": "wereqet",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "das Papier, das Blatt",
+      "en": "paper",
+      "sv": "papper",
+      "nl": "papier",
+      "it": "la carta, il foglio",
+      "es": "el papel, la hoja"
+    },
+    "emoji": "📄",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsihfet",
+    "am": "ጽሕፈት",
+    "tr": "tsihfet",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "das Schreiben, der Text",
+      "en": "writing, text",
+      "sv": "skrift",
+      "nl": "geschrift",
+      "it": "la scrittura, il testo",
+      "es": "la escritura, el texto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_timhirti",
+    "am": "ትምህርቲ",
+    "tr": "timhirti",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "der Unterricht, die Bildung",
+      "en": "lesson, education",
+      "sv": "lektion, utbildning",
+      "nl": "les, onderwijs",
+      "it": "la lezione, l'istruzione",
+      "es": "la lección, la educación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsanaf",
+    "am": "ተምሃራይ",
+    "tr": "temharay",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "der Schüler",
+      "en": "student, pupil",
+      "sv": "elev",
+      "nl": "leerling",
+      "it": "lo studente, l'alunno",
+      "es": "el estudiante, el alumno"
+    },
+    "emoji": "🎒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_krebi",
+    "am": "ሕቶ",
+    "tr": "hito",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Frage",
+      "en": "question",
+      "sv": "fråga",
+      "nl": "vraag",
+      "it": "la domanda",
+      "es": "la pregunta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mlsi",
+    "am": "መልሲ",
+    "tr": "melsi",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Antwort",
+      "en": "answer",
+      "sv": "svar",
+      "nl": "antwoord",
+      "it": "la risposta",
+      "es": "la respuesta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fntn",
+    "am": "ፈተነ",
+    "tr": "fetene",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Prüfung, der Test",
+      "en": "exam, test",
+      "sv": "prov",
+      "nl": "examen",
+      "it": "l'esame, il test",
+      "es": "el examen, la prueba"
+    },
+    "emoji": "📝",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsibqi2",
+    "am": "ቋንቋ",
+    "tr": "quanqua",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Sprache",
+      "en": "language",
+      "sv": "språk",
+      "nl": "taal",
+      "it": "la lingua",
+      "es": "el idioma"
+    },
+    "emoji": "🗣️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mzgb",
+    "am": "ቤት መጽሓፍቲ",
+    "tr": "bet metsihafti",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Bibliothek",
+      "en": "library",
+      "sv": "bibliotek",
+      "nl": "bibliotheek",
+      "it": "la biblioteca",
+      "es": "la biblioteca"
+    },
+    "emoji": "📚",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_krsi",
+    "am": "ኮርስ",
+    "tr": "kors",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "der Kurs",
+      "en": "course",
+      "sv": "kurs",
+      "nl": "cursus",
+      "it": "il corso",
+      "es": "el curso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mahtot",
+    "am": "ማህደረ ትምህርቲ",
+    "tr": "mahdere timhirti",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Universität",
+      "en": "university",
+      "sv": "universitet",
+      "nl": "universiteit",
+      "it": "l'università",
+      "es": "la universidad"
+    },
+    "emoji": "🎓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snbti",
+    "am": "ስእሊ",
+    "tr": "si'ili",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "das Bild",
+      "en": "picture, drawing",
+      "sv": "bild",
+      "nl": "afbeelding",
+      "it": "l'immagine, il disegno",
+      "es": "la imagen, el dibujo"
+    },
+    "emoji": "🖼️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hasab",
+    "am": "ሓሳብ",
+    "tr": "hasab",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Idee, der Gedanke",
+      "en": "idea, thought",
+      "sv": "idé, tanke",
+      "nl": "idee, gedachte",
+      "it": "l'idea, il pensiero",
+      "es": "la idea, el pensamiento"
+    },
+    "emoji": "💡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kem2",
+    "am": "ቁጽሪ",
+    "tr": "qutsri",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "die Zahl, die Nummer",
+      "en": "number",
+      "sv": "nummer",
+      "nl": "getal, nummer",
+      "it": "il numero",
+      "es": "el número"
+    },
+    "emoji": "🔢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fdli",
+    "am": "ፊደል",
+    "tr": "fidel",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "der Buchstabe, die Schrift",
+      "en": "letter, alphabet",
+      "sv": "bokstav, alfabet",
+      "nl": "letter, alfabet",
+      "it": "la lettera, l'alfabeto",
+      "es": "la letra, el alfabeto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qal",
+    "am": "ቃል",
+    "tr": "qal",
+    "pos": "noun",
+    "topic": "school",
+    "level": "TI",
+    "t": {
+      "de": "das Wort",
+      "en": "word",
+      "sv": "ord",
+      "nl": "woord",
+      "it": "la parola",
+      "es": "la palabra"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

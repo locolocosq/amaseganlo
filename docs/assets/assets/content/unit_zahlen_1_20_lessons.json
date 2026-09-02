@@ -1,0 +1,175 @@
+[
+  {
+    "id": "unit_zahlen_1_20_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_zahl_1",
+      "lex_zahl_2",
+      "lex_zahl_3",
+      "lex_zahl_4",
+      "lex_zahl_5",
+      "lex_zahl_6",
+      "lex_zahl_7",
+      "lex_zahl_8",
+      "lex_zahl_9",
+      "lex_zahl_10",
+      "lex_zahl_11",
+      "lex_zahl_12",
+      "lex_zahl_13",
+      "lex_zahl_14",
+      "lex_zahl_15",
+      "lex_zahl_16",
+      "lex_zahl_17",
+      "lex_zahl_18",
+      "lex_zahl_19",
+      "lex_zahl_20"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zahlen_1_20_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_zahl_1",
+      "lex_zahl_2",
+      "lex_zahl_3",
+      "lex_zahl_4",
+      "lex_zahl_5",
+      "lex_zahl_6",
+      "lex_zahl_7",
+      "lex_zahl_8",
+      "lex_zahl_9",
+      "lex_zahl_10",
+      "lex_zahl_11",
+      "lex_zahl_12",
+      "lex_zahl_13",
+      "lex_zahl_14",
+      "lex_zahl_15",
+      "lex_zahl_16",
+      "lex_zahl_17",
+      "lex_zahl_18",
+      "lex_zahl_19",
+      "lex_zahl_20"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zahlen_1_20_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_zahl_1",
+      "lex_zahl_2",
+      "lex_zahl_3",
+      "lex_zahl_4",
+      "lex_zahl_5",
+      "lex_zahl_6",
+      "lex_zahl_7",
+      "lex_zahl_8",
+      "lex_zahl_9",
+      "lex_zahl_10",
+      "lex_zahl_11",
+      "lex_zahl_12",
+      "lex_zahl_13",
+      "lex_zahl_14",
+      "lex_zahl_15",
+      "lex_zahl_16",
+      "lex_zahl_17",
+      "lex_zahl_18",
+      "lex_zahl_19",
+      "lex_zahl_20"
+    ],
+    "sentenceIds": [
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch",
+      "sen_gen_zahl_1",
+      "sen_gen_zahl_4"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zahlen_1_20_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_zahl_1",
+      "lex_zahl_2",
+      "lex_zahl_3",
+      "lex_zahl_4",
+      "lex_zahl_5",
+      "lex_zahl_6",
+      "lex_zahl_7",
+      "lex_zahl_8",
+      "lex_zahl_9",
+      "lex_zahl_10",
+      "lex_zahl_11",
+      "lex_zahl_12",
+      "lex_zahl_13",
+      "lex_zahl_14",
+      "lex_zahl_15",
+      "lex_zahl_16",
+      "lex_zahl_17",
+      "lex_zahl_18",
+      "lex_zahl_19",
+      "lex_zahl_20"
+    ],
+    "sentenceIds": [
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch",
+      "sen_gen_zahl_1",
+      "sen_gen_zahl_4"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zahlen_1_20_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_zahl_1",
+      "lex_zahl_2",
+      "lex_zahl_3",
+      "lex_zahl_4",
+      "lex_zahl_5",
+      "lex_zahl_6",
+      "lex_zahl_7",
+      "lex_zahl_8",
+      "lex_zahl_9",
+      "lex_zahl_10",
+      "lex_zahl_11",
+      "lex_zahl_12",
+      "lex_zahl_13",
+      "lex_zahl_14",
+      "lex_zahl_15",
+      "lex_zahl_16",
+      "lex_zahl_17",
+      "lex_zahl_18",
+      "lex_zahl_19",
+      "lex_zahl_20"
+    ],
+    "sentenceIds": [
+      "sen_amist_lijoch",
+      "sen_hulet_wendimoch",
+      "sen_sost_ihitoch",
+      "sen_gen_zahl_1",
+      "sen_gen_zahl_4"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

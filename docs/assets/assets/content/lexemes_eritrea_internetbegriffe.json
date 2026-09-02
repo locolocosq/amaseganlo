@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_ibg_wbst",
+    "am": "ገጽ መርበብ",
+    "tr": "gets meribeb",
+    "pos": "noun",
+    "topic": "internet_terms",
+    "level": "TI",
+    "t": {
+      "de": "die Webseite",
+      "en": "website",
+      "sv": "webbplats",
+      "nl": "website",
+      "it": "il sito web",
+      "es": "el sitio web"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ibg_email",
+    "am": "ኢመይል",
+    "tr": "imeyl",
+    "pos": "noun",
+    "topic": "internet_terms",
+    "level": "TI",
+    "t": {
+      "de": "die E-Mail",
+      "en": "email",
+      "sv": "e-post",
+      "nl": "e-mail",
+      "it": "l'email",
+      "es": "el correo electrónico"
+    },
+    "emoji": "📧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ibg_srch",
+    "am": "ድለየ",
+    "tr": "dileye",
+    "pos": "verb",
+    "topic": "internet_terms",
+    "level": "TI",
+    "t": {
+      "de": "suchen (online)",
+      "en": "to search (online)",
+      "sv": "att söka (online)",
+      "nl": "zoeken (online)",
+      "it": "cercare (online)",
+      "es": "buscar (en línea)"
+    },
+    "emoji": "🔍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ibg_link",
+    "am": "መላገጺ",
+    "tr": "melagetsi",
+    "pos": "noun",
+    "topic": "internet_terms",
+    "level": "TI",
+    "t": {
+      "de": "der Link",
+      "en": "link",
+      "sv": "länk",
+      "nl": "link",
+      "it": "il link",
+      "es": "el enlace"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ibg_conn",
+    "am": "ተራኸበ (ኢንተርነት)",
+    "tr": "terakebe internet",
+    "pos": "verb",
+    "topic": "internet_terms",
+    "level": "TI",
+    "t": {
+      "de": "sich verbinden (online)",
+      "en": "to connect (online)",
+      "sv": "ansluta (online)",
+      "nl": "verbinden (online)",
+      "it": "connettersi (online)",
+      "es": "conectarse (en línea)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ibg_video2",
+    "am": "ጻውዒት ቪድዮ",
+    "tr": "tsawi'it vidiyo",
+    "pos": "noun",
+    "topic": "internet_terms",
+    "level": "TI",
+    "t": {
+      "de": "der Videoanruf",
+      "en": "video call",
+      "sv": "videosamtal",
+      "nl": "videogesprek",
+      "it": "la videochiamata",
+      "es": "la videollamada"
+    },
+    "emoji": "📹",
+    "verified": false
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hkp_sabon",
+    "am": "ሳሙና",
+    "tr": "samuna",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "die Seife",
+      "en": "soap",
+      "sv": "tvål",
+      "nl": "zeep",
+      "it": "il sapone",
+      "es": "el jabón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧼",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_metaseb",
+    "am": "መታጠብ",
+    "tr": "metat'eb",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "sich waschen",
+      "en": "to wash oneself",
+      "sv": "tvätta sig",
+      "nl": "zich wassen",
+      "it": "lavarsi",
+      "es": "lavarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_shamp",
+    "am": "ሻምፖ",
+    "tr": "shampo",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "das Shampoo",
+      "en": "shampoo",
+      "sv": "schampo",
+      "nl": "shampoo",
+      "it": "lo shampoo",
+      "es": "el champú"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_masiat",
+    "am": "ማበጠሪያ",
+    "tr": "mabet'eriya",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "der Kamm",
+      "en": "comb",
+      "sv": "kam",
+      "nl": "kam",
+      "it": "il pettine",
+      "es": "el peine"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_meshefef",
+    "am": "መጣፍ",
+    "tr": "met'af",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "kämmen",
+      "en": "to comb",
+      "sv": "kamma",
+      "nl": "kammen",
+      "it": "pettinare",
+      "es": "peinar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hkp_fircha",
+    "am": "ብሩሽ",
+    "tr": "biriush",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "die Bürste",
+      "en": "brush",
+      "sv": "borste",
+      "nl": "borstel",
+      "it": "la spazzola",
+      "es": "el cepillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_sinbet",
+    "am": "የጥርስ ብሩሽ",
+    "tr": "yet'iris biriush",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "die Zahnbürste",
+      "en": "toothbrush",
+      "sv": "tandborste",
+      "nl": "tandenborstel",
+      "it": "lo spazzolino da denti",
+      "es": "el cepillo de dientes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_metaseb2",
+    "am": "መታጠን",
+    "tr": "metat'en",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "sich rasieren",
+      "en": "to shave",
+      "sv": "raka sig",
+      "nl": "scheren",
+      "it": "radersi",
+      "es": "afeitarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hkp_mokase",
+    "am": "ምላጭ",
+    "tr": "milach",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "das Rasiermesser",
+      "en": "razor",
+      "sv": "rakhyvel",
+      "nl": "scheermes",
+      "it": "il rasoio",
+      "es": "la navaja de afeitar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_kolonya",
+    "am": "ኮሎኝ",
+    "tr": "kolony",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "das Parfüm",
+      "en": "perfume, cologne",
+      "sv": "parfym",
+      "nl": "parfum",
+      "it": "il profumo",
+      "es": "el perfume"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_akal9",
+    "am": "ፎጣ",
+    "tr": "fot'a",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "das Handtuch",
+      "en": "towel",
+      "sv": "handduk",
+      "nl": "handdoek",
+      "it": "l'asciugamano",
+      "es": "la toalla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_metatab",
+    "am": "መንከባከብ",
+    "tr": "menikebakeb",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "pflegen, sich kümmern um",
+      "en": "to take care of",
+      "sv": "ta hand om",
+      "nl": "verzorgen",
+      "it": "prendersi cura di",
+      "es": "cuidar de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_lidet_it",
+    "am": "ንክብካቤ",
+    "tr": "nikibikabe",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "die Pflege, Fürsorge",
+      "en": "care",
+      "sv": "omvårdnad",
+      "nl": "zorg",
+      "it": "la cura",
+      "es": "el cuidado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_kern",
+    "am": "ቅባት",
+    "tr": "kibat",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "die Creme, Lotion",
+      "en": "cream, lotion",
+      "sv": "kräm, lotion",
+      "nl": "crème, lotion",
+      "it": "la crema, la lozione",
+      "es": "la crema, la loción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_metsehen",
+    "am": "ማስዋብ",
+    "tr": "masiwab",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "schmücken, verschönern",
+      "en": "to adorn, to beautify",
+      "sv": "pryda, försköna",
+      "nl": "opsieren",
+      "it": "abbellire, adornare",
+      "es": "adornar, embellecer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hkp_konjo",
+    "am": "ውቢት",
+    "tr": "wibit",
+    "pos": "adjective",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "schön (weiblich)",
+      "en": "beautiful (feminine)",
+      "sv": "vacker (feminint)",
+      "nl": "mooi (vrouwelijk)",
+      "it": "bella",
+      "es": "bella"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hkp_tsegurat",
+    "am": "ፀጉር",
+    "tr": "ts'egur",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "das Haar",
+      "en": "hair",
+      "sv": "hår",
+      "nl": "haar",
+      "it": "i capelli",
+      "es": "el pelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_mekech",
+    "am": "መከርከም",
+    "tr": "mekerikem",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "schneiden (Haare)",
+      "en": "to cut, to trim (hair)",
+      "sv": "klippa (hår)",
+      "nl": "knippen (haar)",
+      "it": "tagliare (i capelli)",
+      "es": "cortar (el pelo)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hkp_ijj_tirinif",
+    "am": "ጥፍር",
+    "tr": "t'ifir",
+    "pos": "noun",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "der Fingernagel",
+      "en": "fingernail",
+      "sv": "nagel",
+      "nl": "nagel",
+      "it": "l'unghia",
+      "es": "la uña"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hkp_v_metebek_nitsihina",
+    "am": "መጠበቅ ንፅህና",
+    "tr": "met'ebek' nits'ihina",
+    "pos": "verb",
+    "topic": "body_care",
+    "level": "B2",
+    "t": {
+      "de": "Hygiene wahren",
+      "en": "to maintain hygiene",
+      "sv": "upprätthålla hygien",
+      "nl": "hygiëne handhaven",
+      "it": "mantenere l'igiene",
+      "es": "mantener la higiene"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

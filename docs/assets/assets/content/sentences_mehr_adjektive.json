@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sen_wushaw_fetan",
+    "am": "ውሻው ፈጣን ነው።",
+    "tr": "wushaw fetan new.",
+    "level": "A2",
+    "uses": [
+      "lex_hund",
+      "lex_schnell"
+    ],
+    "t": {
+      "de": "Der Hund ist schnell.",
+      "en": "The dog is fast.",
+      "sv": "Hunden är snabb.",
+      "nl": "De hond is snel.",
+      "it": "Il cane è veloce.",
+      "es": "El perro es rápido."
+    },
+    "alt": {},
+    "chunks": [
+      "wushaw",
+      "fetan",
+      "new"
+    ],
+    "verified": false
+  }
+]

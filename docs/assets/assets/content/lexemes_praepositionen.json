@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lex_in_innerhalb",
+    "am": "ውስጥ",
+    "tr": "wist",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "in, innerhalb",
+      "en": "in, inside",
+      "sv": "i, inuti",
+      "nl": "in, binnen",
+      "it": "in, dentro",
+      "es": "en, dentro de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_auf_ueber",
+    "am": "ላይ",
+    "tr": "lay",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "auf, über",
+      "en": "on, above",
+      "sv": "på, ovanpå",
+      "nl": "op, boven",
+      "it": "su, sopra",
+      "es": "sobre, encima de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_unter",
+    "am": "ስር",
+    "tr": "sir",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "unter",
+      "en": "under",
+      "sv": "under",
+      "nl": "onder",
+      "it": "sotto",
+      "es": "debajo de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_neben",
+    "am": "አጠገብ",
+    "tr": "at'egeb",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "neben",
+      "en": "beside, next to",
+      "sv": "bredvid",
+      "nl": "naast",
+      "it": "accanto a",
+      "es": "al lado de, junto a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vor",
+    "am": "ፊት",
+    "tr": "fit",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "vor",
+      "en": "in front of, before",
+      "sv": "framför",
+      "nl": "voor",
+      "it": "davanti a",
+      "es": "delante de, antes de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hinter",
+    "am": "ኋላ",
+    "tr": "hwala",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "hinter",
+      "en": "behind",
+      "sv": "bakom",
+      "nl": "achter",
+      "it": "dietro",
+      "es": "detrás de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zwischen",
+    "am": "መካከል",
+    "tr": "mekakel",
+    "pos": "preposition",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "zwischen",
+      "en": "between",
+      "sv": "mellan",
+      "nl": "tussen",
+      "it": "tra, fra",
+      "es": "entre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_norden",
+    "am": "ሰሜን",
+    "tr": "semien",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Norden",
+      "en": "north",
+      "sv": "norr",
+      "nl": "noorden",
+      "it": "nord",
+      "es": "norte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_sueden",
+    "am": "ደቡብ",
+    "tr": "debub",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Süden",
+      "en": "south",
+      "sv": "söder",
+      "nl": "zuiden",
+      "it": "sud",
+      "es": "sur"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_osten",
+    "am": "ምስራቅ",
+    "tr": "misrak'",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Osten",
+      "en": "east",
+      "sv": "öster",
+      "nl": "oosten",
+      "it": "est",
+      "es": "este"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_westen",
+    "am": "ምዕራብ",
+    "tr": "mi'irab",
+    "pos": "noun",
+    "topic": "prepositions",
+    "level": "A1.2",
+    "t": {
+      "de": "Westen",
+      "en": "west",
+      "sv": "väster",
+      "nl": "westen",
+      "it": "ovest",
+      "es": "oeste"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_wey",
+    "am": "ወይ!",
+    "tr": "wey!",
+    "pos": "interjection",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "Oh! (Überraschung)",
+      "en": "oh! (surprise)",
+      "sv": "åh! (förvåning)",
+      "nl": "oh! (verrassing)",
+      "it": "Oh! (sorpresa)",
+      "es": "¡Oh! (sorpresa)"
+    },
+    "emoji": "😮",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ande",
+    "am": "ኣንደይ!",
+    "tr": "andey!",
+    "pos": "interjection",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "Autsch!",
+      "en": "ouch!",
+      "sv": "aj!",
+      "nl": "au!",
+      "it": "Ahi!",
+      "es": "¡Ay!"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hasa",
+    "am": "ሕራይ ደኣ",
+    "tr": "hiray de'a",
+    "pos": "interjection",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "na gut, in Ordnung",
+      "en": "alright then, fine",
+      "sv": "nåväl, okej",
+      "nl": "goed dan, oké",
+      "it": "va bene, d'accordo",
+      "es": "bueno, de acuerdo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ysbh",
+    "am": "ዋእ!",
+    "tr": "wa'e!",
+    "pos": "interjection",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "Wow! Was?!",
+      "en": "wow! what?!",
+      "sv": "wow! va?!",
+      "nl": "wauw! wat?!",
+      "it": "Wow! Cosa?!",
+      "es": "¡Vaya! ¿Qué?!"
+    },
+    "emoji": "😲",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hush",
+    "am": "ስቕ በል",
+    "tr": "siq bel",
+    "pos": "phrase",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "sei still! (zu einem Mann)",
+      "en": "be quiet! (to a man)",
+      "sv": "var tyst! (till en man)",
+      "nl": "stil! (tegen een man)",
+      "it": "sta' zitto! (a un uomo)",
+      "es": "¡cállate! (a un hombre)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nzr2",
+    "am": "ጽናሕ",
+    "tr": "tsinah",
+    "pos": "phrase",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "warte! (zu einem Mann)",
+      "en": "wait! (to a man)",
+      "sv": "vänta! (till en man)",
+      "nl": "wacht! (tegen een man)",
+      "it": "aspetta! (a un uomo)",
+      "es": "¡espera! (a un hombre)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nkm2",
+    "am": "ተጠንቀቕ",
+    "tr": "tet'enqeq",
+    "pos": "phrase",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "pass auf! Vorsicht!",
+      "en": "watch out! careful!",
+      "sv": "se upp! försiktigt!",
+      "nl": "pas op! voorzichtig!",
+      "it": "attento! stai attento!",
+      "es": "¡cuidado! ¡ten cuidado!"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hgz",
+    "am": "ቀልጢፍካ!",
+    "tr": "qelt'ifka!",
+    "pos": "phrase",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "beeil dich! (zu einem Mann)",
+      "en": "hurry up! (to a man)",
+      "sv": "skynda dig! (till en man)",
+      "nl": "schiet op! (tegen een man)",
+      "it": "sbrigati! (a un uomo)",
+      "es": "¡date prisa! (a un hombre)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hlkm",
+    "am": "ደሓን'ዩ",
+    "tr": "dehan'yu",
+    "pos": "phrase",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "es ist okay, kein Problem",
+      "en": "it's okay, no worries",
+      "sv": "det är okej",
+      "nl": "het is oké",
+      "it": "va tutto bene, nessun problema",
+      "es": "está bien, no te preocupes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brvo",
+    "am": "ጽቡቕ ኢኻ ገይርካ",
+    "tr": "tsibuq ikha geyirka",
+    "pos": "phrase",
+    "topic": "exclamations",
+    "level": "TI",
+    "t": {
+      "de": "gut gemacht! (zu einem Mann)",
+      "en": "well done! (to a man)",
+      "sv": "bra jobbat! (till en man)",
+      "nl": "goed gedaan! (tegen een man)",
+      "it": "ben fatto! (a un uomo)",
+      "es": "¡bien hecho! (a un hombre)"
+    },
+    "emoji": "👏",
+    "verified": false
+  }
+]

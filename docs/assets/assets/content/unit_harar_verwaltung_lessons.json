@@ -1,0 +1,218 @@
+[
+  {
+    "id": "unit_harar_verwaltung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hv_astedader",
+      "lex_hv_kelemayor",
+      "lex_hv_wereda",
+      "lex_hv_kebele",
+      "lex_hv_kaboch",
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket",
+      "lex_hv_wetader",
+      "lex_hv_muget",
+      "lex_hv_v_masazgeb",
+      "lex_hv_dokumment",
+      "lex_hv_mastawekiya",
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_kanuna",
+      "lex_hv_v_mekebakeb",
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel",
+      "lex_hv_fetsum_serategna",
+      "lex_hv_akal3",
+      "lex_hv_v_masayet2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_verwaltung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hv_astedader",
+      "lex_hv_kelemayor",
+      "lex_hv_wereda",
+      "lex_hv_kebele",
+      "lex_hv_kaboch",
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket",
+      "lex_hv_wetader",
+      "lex_hv_muget",
+      "lex_hv_v_masazgeb",
+      "lex_hv_dokumment",
+      "lex_hv_mastawekiya",
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_kanuna",
+      "lex_hv_v_mekebakeb",
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel",
+      "lex_hv_fetsum_serategna",
+      "lex_hv_akal3",
+      "lex_hv_v_masayet2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_verwaltung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hv_astedader",
+      "lex_hv_kelemayor",
+      "lex_hv_wereda",
+      "lex_hv_kebele",
+      "lex_hv_kaboch",
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket",
+      "lex_hv_wetader",
+      "lex_hv_muget",
+      "lex_hv_v_masazgeb",
+      "lex_hv_dokumment",
+      "lex_hv_mastawekiya",
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_kanuna",
+      "lex_hv_v_mekebakeb",
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel",
+      "lex_hv_fetsum_serategna",
+      "lex_hv_akal3",
+      "lex_hv_v_masayet2"
+    ],
+    "sentenceIds": [
+      "sen_hv_kelemayor_astedader",
+      "sen_hv_masresha_masmesket",
+      "sen_hv_firma_meferem",
+      "sen_hv_kelal_tor_mekfel",
+      "sen_gen_hv_wereda"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_verwaltung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hv_astedader",
+      "lex_hv_kelemayor",
+      "lex_hv_wereda",
+      "lex_hv_kebele",
+      "lex_hv_kaboch",
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket",
+      "lex_hv_wetader",
+      "lex_hv_muget",
+      "lex_hv_v_masazgeb",
+      "lex_hv_dokumment",
+      "lex_hv_mastawekiya",
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_kanuna",
+      "lex_hv_v_mekebakeb",
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel",
+      "lex_hv_fetsum_serategna",
+      "lex_hv_akal3",
+      "lex_hv_v_masayet2"
+    ],
+    "sentenceIds": [
+      "sen_hv_kelemayor_astedader",
+      "sen_hv_masresha_masmesket",
+      "sen_hv_firma_meferem",
+      "sen_hv_kelal_tor_mekfel",
+      "sen_gen_hv_wereda"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_verwaltung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hv_astedader",
+      "lex_hv_kelemayor",
+      "lex_hv_wereda",
+      "lex_hv_kebele",
+      "lex_hv_kaboch",
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket",
+      "lex_hv_wetader",
+      "lex_hv_muget",
+      "lex_hv_v_masazgeb",
+      "lex_hv_dokumment",
+      "lex_hv_mastawekiya",
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_kanuna",
+      "lex_hv_v_mekebakeb",
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel",
+      "lex_hv_fetsum_serategna",
+      "lex_hv_akal3",
+      "lex_hv_v_masayet2"
+    ],
+    "sentenceIds": [
+      "sen_hv_kelemayor_astedader",
+      "sen_hv_masresha_masmesket",
+      "sen_hv_firma_meferem",
+      "sen_hv_kelal_tor_mekfel",
+      "sen_gen_hv_wereda"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_verwaltung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hv_astedader",
+      "lex_hv_kelemayor",
+      "lex_hv_wereda",
+      "lex_hv_kebele",
+      "lex_hv_kaboch",
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket",
+      "lex_hv_wetader",
+      "lex_hv_muget",
+      "lex_hv_v_masazgeb",
+      "lex_hv_dokumment",
+      "lex_hv_mastawekiya",
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_kanuna",
+      "lex_hv_v_mekebakeb",
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel",
+      "lex_hv_fetsum_serategna",
+      "lex_hv_akal3",
+      "lex_hv_v_masayet2"
+    ],
+    "sentenceIds": [
+      "sen_hv_kelemayor_astedader",
+      "sen_hv_masresha_masmesket",
+      "sen_hv_firma_meferem",
+      "sen_hv_kelal_tor_mekfel",
+      "sen_gen_hv_wereda"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

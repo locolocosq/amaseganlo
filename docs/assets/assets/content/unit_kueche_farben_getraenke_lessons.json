@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_kueche_farben_getraenke_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_kuehlschrank",
+      "lex_ofen",
+      "lex_gold",
+      "lex_silber",
+      "lex_bier",
+      "lex_wein",
+      "lex_saft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kueche_farben_getraenke_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_kuehlschrank",
+      "lex_ofen",
+      "lex_gold",
+      "lex_silber",
+      "lex_bier",
+      "lex_wein",
+      "lex_saft"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kueche_farben_getraenke_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_kuehlschrank",
+      "lex_ofen",
+      "lex_gold",
+      "lex_silber",
+      "lex_bier",
+      "lex_wein",
+      "lex_saft"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kueche_farben_getraenke_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_kuehlschrank",
+      "lex_ofen",
+      "lex_gold",
+      "lex_silber",
+      "lex_bier",
+      "lex_wein",
+      "lex_saft"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kueche_farben_getraenke_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_kuehlschrank",
+      "lex_ofen",
+      "lex_gold",
+      "lex_silber",
+      "lex_bier",
+      "lex_wein",
+      "lex_saft"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kueche_farben_getraenke_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_kuehlschrank",
+      "lex_ofen",
+      "lex_gold",
+      "lex_silber",
+      "lex_bier",
+      "lex_wein",
+      "lex_saft"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuehlschrank",
+      "sen_gen_ofen",
+      "sen_gen_gold",
+      "sen_gen_silber",
+      "sen_gen_bier"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

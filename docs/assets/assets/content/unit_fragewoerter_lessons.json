@@ -1,0 +1,135 @@
+[
+  {
+    "id": "unit_fragewoerter_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_fragewoerter_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man",
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man",
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_fragewoerter_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_was",
+      "lex_wer",
+      "lex_wo_word",
+      "lex_wann",
+      "lex_warum",
+      "lex_wie",
+      "lex_welche",
+      "lex_und",
+      "lex_oder",
+      "lex_aber",
+      "lex_weil",
+      "lex_dass"
+    ],
+    "sentenceIds": [
+      "sen_min_new",
+      "sen_simka_min",
+      "sen_issu_man",
+      "sen_fix_trinken_verb",
+      "sen_fix_essen_verb"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

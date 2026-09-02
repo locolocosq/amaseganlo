@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_digiri",
+    "am": "ዲግሪ",
+    "tr": "digiri",
+    "pos": "noun",
+    "topic": "education_system",
+    "level": "B2",
+    "t": {
+      "de": "der Abschluss, der Grad",
+      "en": "degree",
+      "sv": "examen, grad",
+      "nl": "diploma, graad",
+      "it": "la laurea, il titolo",
+      "es": "el título, el grado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_temeraki",
+    "am": "ተመራቂ",
+    "tr": "temeraki",
+    "pos": "noun",
+    "topic": "education_system",
+    "level": "B2",
+    "t": {
+      "de": "der Absolvent, die Absolventin",
+      "en": "graduate",
+      "sv": "utexaminerad",
+      "nl": "afgestudeerde",
+      "it": "il laureato, la laureata",
+      "es": "el graduado, la graduada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_skolarship",
+    "am": "ስኮላርሺፕ",
+    "tr": "skolarship",
+    "pos": "noun",
+    "topic": "education_system",
+    "level": "B2",
+    "t": {
+      "de": "das Stipendium",
+      "en": "scholarship",
+      "sv": "stipendium",
+      "nl": "studiebeurs",
+      "it": "la borsa di studio",
+      "es": "la beca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sirate_timihirt",
+    "am": "ሥርዓተ ትምህርት",
+    "tr": "sirate timihirt",
+    "pos": "noun",
+    "topic": "education_system",
+    "level": "B2",
+    "t": {
+      "de": "der Lehrplan",
+      "en": "curriculum",
+      "sv": "läroplan",
+      "nl": "curriculum",
+      "it": "il programma di studi",
+      "es": "el plan de estudios"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_memerek",
+    "am": "መመረቅ",
+    "tr": "memerek",
+    "pos": "verb",
+    "topic": "education_system",
+    "level": "B2",
+    "t": {
+      "de": "graduieren, den Abschluss machen",
+      "en": "to graduate",
+      "sv": "ta examen",
+      "nl": "afstuderen",
+      "it": "laurearsi, diplomarsi",
+      "es": "graduarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

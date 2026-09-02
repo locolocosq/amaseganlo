@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_honom",
+    "am": "ሆኖም",
+    "tr": "honom",
+    "pos": "conjunction",
+    "topic": "discourse_connectors_2",
+    "level": "B2",
+    "t": {
+      "de": "jedoch, allerdings",
+      "en": "however",
+      "sv": "dock, emellertid",
+      "nl": "echter, evenwel",
+      "it": "tuttavia, però",
+      "es": "sin embargo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_lemisale",
+    "am": "ለምሳሌ",
+    "tr": "lemisale",
+    "pos": "conjunction",
+    "topic": "discourse_connectors_2",
+    "level": "B2",
+    "t": {
+      "de": "zum Beispiel",
+      "en": "for example",
+      "sv": "till exempel",
+      "nl": "bijvoorbeeld",
+      "it": "per esempio",
+      "es": "por ejemplo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_beatekalay",
+    "am": "በአጠቃላይ",
+    "tr": "be'atek'alay",
+    "pos": "conjunction",
+    "topic": "discourse_connectors_2",
+    "level": "B2",
+    "t": {
+      "de": "im Allgemeinen, insgesamt",
+      "en": "generally, overall",
+      "sv": "i allmänhet",
+      "nl": "over het algemeen",
+      "it": "in generale, nel complesso",
+      "es": "en general"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bematekaleya",
+    "am": "በማጠቃለያ",
+    "tr": "bemat'ek'aleya",
+    "pos": "conjunction",
+    "topic": "discourse_connectors_2",
+    "level": "B2",
+    "t": {
+      "de": "abschließend, zusammenfassend",
+      "en": "in conclusion",
+      "sv": "sammanfattningsvis",
+      "nl": "tot slot",
+      "it": "in conclusione, per riassumere",
+      "es": "en conclusión, en resumen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kezih_betechemari",
+    "am": "ከዚህ በተጨማሪ",
+    "tr": "kezih betechemari",
+    "pos": "conjunction",
+    "topic": "discourse_connectors_2",
+    "level": "B2",
+    "t": {
+      "de": "außerdem, zusätzlich dazu",
+      "en": "in addition, furthermore",
+      "sv": "dessutom",
+      "nl": "bovendien",
+      "it": "inoltre",
+      "es": "además"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

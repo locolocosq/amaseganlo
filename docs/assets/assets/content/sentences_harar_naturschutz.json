@@ -1,0 +1,105 @@
+[
+  {
+    "id": "sen_hns_tebeka_yeduri",
+    "am": "የተጠበቀ ቦታ የዱር እንስሳትን ይጠብቃል።",
+    "tr": "yetet'ebek'e bota yeduri inisisatin yit'ebik'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hns_tebeka_bota",
+      "lex_hns_yeduri_inisisat",
+      "lex_hns_v_metebaki"
+    ],
+    "t": {
+      "de": "Das Schutzgebiet schützt Wildtiere.",
+      "en": "The protected area protects wild animals.",
+      "sv": "Det skyddade området skyddar vilda djur.",
+      "nl": "Het beschermde gebied beschermt wilde dieren.",
+      "it": "L'area protetta protegge gli animali selvatici.",
+      "es": "El área protegida protege a los animales salvajes."
+    },
+    "chunks": [
+      "yetet'ebek'e",
+      "bota",
+      "yeduri",
+      "inisisatin",
+      "yit'ebik'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hns_park_akababi",
+    "am": "ፓርኩ አካባቢን ይጠብቃል።",
+    "tr": "parku akababin yit'ebik'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hns_park2",
+      "lex_hns_akababi5"
+    ],
+    "t": {
+      "de": "Der Park schützt die Umwelt.",
+      "en": "The park protects the environment.",
+      "sv": "Parken skyddar miljön.",
+      "nl": "Het park beschermt het milieu.",
+      "it": "Il parco protegge l'ambiente.",
+      "es": "El parque protege el medio ambiente."
+    },
+    "chunks": [
+      "parku",
+      "akababin",
+      "yit'ebik'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hns_birik_madineg",
+    "am": "ይህ እንስሳ ብርቅ ነው፤ ማዳን አለብን።",
+    "tr": "yih inisisa birik' newu; madan alebin.",
+    "level": "B2",
+    "uses": [
+      "lex_hns_adj_birik",
+      "lex_hns_v_madineg"
+    ],
+    "t": {
+      "de": "Dieses Tier ist selten; wir müssen es retten.",
+      "en": "This animal is rare; we must save it.",
+      "sv": "Detta djur är sällsynt; vi måste rädda det.",
+      "nl": "Dit dier is zeldzaam; we moeten het redden.",
+      "it": "Questo animale è raro; dobbiamo salvarlo.",
+      "es": "Este animal es raro; tenemos que salvarlo."
+    },
+    "chunks": [
+      "yih",
+      "inisisa",
+      "birik'",
+      "newu",
+      "madan",
+      "alebin"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hns_akababawi_tibeka",
+    "am": "አካባቢያዊ ጥበቃ አስፈላጊ ነው።",
+    "tr": "akababawi t'ibek'a asfelagi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hns_adj_akababawi",
+      "lex_hns_tibeka"
+    ],
+    "t": {
+      "de": "Umweltschutz ist wichtig.",
+      "en": "Environmental conservation is important.",
+      "sv": "Miljöskydd är viktigt.",
+      "nl": "Milieubescherming is belangrijk.",
+      "it": "La conservazione ambientale è importante.",
+      "es": "La conservación ambiental es importante."
+    },
+    "chunks": [
+      "akababawi",
+      "t'ibek'a",
+      "asfelagi",
+      "newu"
+    ],
+    "verified": false
+  }
+]

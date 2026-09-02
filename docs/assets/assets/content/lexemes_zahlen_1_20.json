@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_zahl_1",
+    "am": "አንድ",
+    "tr": "and",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "1",
+      "en": "1",
+      "sv": "1",
+      "nl": "1",
+      "it": "1",
+      "es": "1"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_2",
+    "am": "ሁለት",
+    "tr": "hulet",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "2",
+      "en": "2",
+      "sv": "2",
+      "nl": "2",
+      "it": "2",
+      "es": "2"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_3",
+    "am": "ሶስት",
+    "tr": "sost",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "3",
+      "en": "3",
+      "sv": "3",
+      "nl": "3",
+      "it": "3",
+      "es": "3"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_4",
+    "am": "አራት",
+    "tr": "arat",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "4",
+      "en": "4",
+      "sv": "4",
+      "nl": "4",
+      "it": "4",
+      "es": "4"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_5",
+    "am": "አምስት",
+    "tr": "amist",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "5",
+      "en": "5",
+      "sv": "5",
+      "nl": "5",
+      "it": "5",
+      "es": "5"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_6",
+    "am": "ስድስት",
+    "tr": "sidist",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "6",
+      "en": "6",
+      "sv": "6",
+      "nl": "6",
+      "it": "6",
+      "es": "6"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_7",
+    "am": "ሰባት",
+    "tr": "sebat",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "7",
+      "en": "7",
+      "sv": "7",
+      "nl": "7",
+      "it": "7",
+      "es": "7"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_8",
+    "am": "ስምንት",
+    "tr": "siminit",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "8",
+      "en": "8",
+      "sv": "8",
+      "nl": "8",
+      "it": "8",
+      "es": "8"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_9",
+    "am": "ዘጠኝ",
+    "tr": "zet'egn",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "9",
+      "en": "9",
+      "sv": "9",
+      "nl": "9",
+      "it": "9",
+      "es": "9"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_10",
+    "am": "አስር",
+    "tr": "asir",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "10",
+      "en": "10",
+      "sv": "10",
+      "nl": "10",
+      "it": "10",
+      "es": "10"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_11",
+    "am": "አስራ አንድ",
+    "tr": "asra and",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "11",
+      "en": "11",
+      "sv": "11",
+      "nl": "11",
+      "it": "11",
+      "es": "11"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_12",
+    "am": "አስራ ሁለት",
+    "tr": "asra hulet",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "12",
+      "en": "12",
+      "sv": "12",
+      "nl": "12",
+      "it": "12",
+      "es": "12"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_13",
+    "am": "አስራ ሶስት",
+    "tr": "asra sost",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "13",
+      "en": "13",
+      "sv": "13",
+      "nl": "13",
+      "it": "13",
+      "es": "13"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_14",
+    "am": "አስራ አራት",
+    "tr": "asra arat",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "14",
+      "en": "14",
+      "sv": "14",
+      "nl": "14",
+      "it": "14",
+      "es": "14"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_15",
+    "am": "አስራ አምስት",
+    "tr": "asra amist",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "15",
+      "en": "15",
+      "sv": "15",
+      "nl": "15",
+      "it": "15",
+      "es": "15"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_16",
+    "am": "አስራ ስድስት",
+    "tr": "asra sidist",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "16",
+      "en": "16",
+      "sv": "16",
+      "nl": "16",
+      "it": "16",
+      "es": "16"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_17",
+    "am": "አስራ ሰባት",
+    "tr": "asra sebat",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "17",
+      "en": "17",
+      "sv": "17",
+      "nl": "17",
+      "it": "17",
+      "es": "17"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_18",
+    "am": "አስራ ስምንት",
+    "tr": "asra siminit",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "18",
+      "en": "18",
+      "sv": "18",
+      "nl": "18",
+      "it": "18",
+      "es": "18"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_19",
+    "am": "አስራ ዘጠኝ",
+    "tr": "asra zet'egn",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "19",
+      "en": "19",
+      "sv": "19",
+      "nl": "19",
+      "it": "19",
+      "es": "19"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_20",
+    "am": "ሃያ",
+    "tr": "haya",
+    "pos": "number",
+    "topic": "numbers",
+    "level": "A1.1",
+    "t": {
+      "de": "20",
+      "en": "20",
+      "sv": "20",
+      "nl": "20",
+      "it": "20",
+      "es": "20"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

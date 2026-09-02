@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_brw_brew",
+    "am": "ኣፍረየ ስዋ",
+    "tr": "afireye siwa",
+    "pos": "verb",
+    "topic": "brewing",
+    "level": "TI",
+    "t": {
+      "de": "brauen",
+      "en": "to brew",
+      "sv": "att brygga",
+      "nl": "brouwen",
+      "it": "produrre birra, fare la birra",
+      "es": "elaborar cerveza"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brw_ferm",
+    "am": "ተሓምበሰ",
+    "tr": "tehambese",
+    "pos": "verb",
+    "topic": "brewing",
+    "level": "TI",
+    "t": {
+      "de": "gären",
+      "en": "to ferment",
+      "sv": "att jäsa",
+      "nl": "gisten",
+      "it": "fermentare",
+      "es": "fermentar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brw_bril",
+    "am": "በርሚል",
+    "tr": "berimil",
+    "pos": "noun",
+    "topic": "brewing",
+    "level": "TI",
+    "t": {
+      "de": "das Fass",
+      "en": "barrel",
+      "sv": "tunna",
+      "nl": "vat",
+      "it": "il barile",
+      "es": "el barril"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brw_hops",
+    "am": "ሆፕስ",
+    "tr": "hopisi",
+    "pos": "noun",
+    "topic": "brewing",
+    "level": "TI",
+    "t": {
+      "de": "der Hopfen",
+      "en": "hops",
+      "sv": "humle",
+      "nl": "hop (bier)",
+      "it": "il luppolo",
+      "es": "el lúpulo"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

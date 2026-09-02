@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_tut_mir_leid",
+    "am": "አዝናለሁ",
+    "tr": "aznalehu",
+    "pos": "phrase",
+    "topic": "polite_phrases",
+    "level": "B1",
+    "t": {
+      "de": "Es tut mir leid",
+      "en": "I'm sorry",
+      "sv": "Jag är ledsen",
+      "nl": "Het spijt me",
+      "it": "Mi dispiace",
+      "es": "Lo siento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kein_problem",
+    "am": "ችግር የለም",
+    "tr": "chiggir yelem",
+    "pos": "phrase",
+    "topic": "polite_phrases",
+    "level": "B1",
+    "t": {
+      "de": "Kein Problem",
+      "en": "No problem",
+      "sv": "Inga problem",
+      "nl": "Geen probleem",
+      "it": "Nessun problema",
+      "es": "No hay problema"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_viel_glueck",
+    "am": "መልካም እድል",
+    "tr": "melkam idil",
+    "pos": "phrase",
+    "topic": "polite_phrases",
+    "level": "B1",
+    "t": {
+      "de": "Viel Glück",
+      "en": "Good luck",
+      "sv": "Lycka till",
+      "nl": "Veel geluk",
+      "it": "Buona fortuna",
+      "es": "Buena suerte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gute_reise",
+    "am": "መልካም ጉዞ",
+    "tr": "melkam guzo",
+    "pos": "phrase",
+    "topic": "polite_phrases",
+    "level": "B1",
+    "t": {
+      "de": "Gute Reise",
+      "en": "Have a good trip",
+      "sv": "Trevlig resa",
+      "nl": "Goede reis",
+      "it": "Buon viaggio",
+      "es": "Buen viaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zum_wohl",
+    "am": "ለጤናዎ",
+    "tr": "lete'nawo",
+    "pos": "phrase",
+    "topic": "polite_phrases",
+    "level": "B1",
+    "t": {
+      "de": "Zum Wohl, Prost",
+      "en": "Cheers",
+      "sv": "Skål",
+      "nl": "Proost",
+      "it": "Salute, cin cin",
+      "es": "Salud"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

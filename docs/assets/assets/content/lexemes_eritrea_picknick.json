@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_pkn_bskt",
+    "am": "ቅርጫት",
+    "tr": "qirichat",
+    "pos": "noun",
+    "topic": "picnic",
+    "level": "TI",
+    "t": {
+      "de": "der Picknickkorb",
+      "en": "picnic basket",
+      "sv": "picknickkorg",
+      "nl": "picknickmand",
+      "it": "il cestino da picnic",
+      "es": "la cesta de picnic"
+    },
+    "emoji": "🧺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pkn_blnkt",
+    "am": "ናይ ሳዕሪ ልብሲ",
+    "tr": "nay sa'iri libisi",
+    "pos": "noun",
+    "topic": "picnic",
+    "level": "TI",
+    "t": {
+      "de": "die Picknickdecke",
+      "en": "picnic blanket",
+      "sv": "picknickfilt",
+      "nl": "picknickkleed",
+      "it": "la coperta da picnic",
+      "es": "la manta de picnic"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pkn_grll",
+    "am": "ምጥባስ",
+    "tr": "mit'ibas",
+    "pos": "noun",
+    "topic": "picnic",
+    "level": "TI",
+    "t": {
+      "de": "das Grillen",
+      "en": "grilling, barbecue",
+      "sv": "grillning",
+      "nl": "barbecue, grillen",
+      "it": "la grigliata",
+      "es": "la parrillada"
+    },
+    "emoji": "🍖",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pkn_camp",
+    "am": "ድንኳን",
+    "tr": "dinkuan",
+    "pos": "noun",
+    "topic": "picnic",
+    "level": "TI",
+    "t": {
+      "de": "das Zelt",
+      "en": "tent",
+      "sv": "tält",
+      "nl": "tent",
+      "it": "la tenda",
+      "es": "la tienda de campaña"
+    },
+    "emoji": "⛺",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pkn_sleep",
+    "am": "ናይ ደቃስ ቦርሳ",
+    "tr": "nay deqas borsa",
+    "pos": "noun",
+    "topic": "picnic",
+    "level": "TI",
+    "t": {
+      "de": "der Schlafsack",
+      "en": "sleeping bag",
+      "sv": "sovsäck",
+      "nl": "slaapzak",
+      "it": "il sacco a pelo",
+      "es": "el saco de dormir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_pkn_fire",
+    "am": "ሓዊ ጣቢያ",
+    "tr": "hawi tabiya",
+    "pos": "noun",
+    "topic": "picnic",
+    "level": "TI",
+    "t": {
+      "de": "das Lagerfeuer",
+      "en": "campfire",
+      "sv": "lägereld",
+      "nl": "kampvuur",
+      "it": "il falò",
+      "es": "la fogata"
+    },
+    "emoji": "🔥",
+    "verified": false
+  }
+]

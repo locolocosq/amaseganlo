@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lex_hnk_bahir",
+    "am": "ባህር",
+    "tr": "bahir",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "das Meer",
+      "en": "sea",
+      "sv": "hav",
+      "nl": "zee",
+      "it": "il mare",
+      "es": "el mar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌊",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_amora_zaf",
+    "am": "ወይራ",
+    "tr": "weyira",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "der Olivenbaum (afrikanisch)",
+      "en": "African olive tree",
+      "sv": "afrikanskt olivträd",
+      "nl": "Afrikaanse olijfboom",
+      "it": "l'ulivo africano",
+      "es": "el olivo africano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hnk_kitel_abeba",
+    "am": "አበባ",
+    "tr": "abeba",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "die Blume",
+      "en": "flower",
+      "sv": "blomma",
+      "nl": "bloem",
+      "it": "il fiore",
+      "es": "la flor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌸",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_sar",
+    "am": "ሣር",
+    "tr": "sar",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "das Gras",
+      "en": "grass",
+      "sv": "gräs",
+      "nl": "gras",
+      "it": "l'erba",
+      "es": "la hierba"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_zaf_akal",
+    "am": "ቅጠላ ቅጠል",
+    "tr": "kit'ela kit'el",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "das Blattwerk, Laub",
+      "en": "foliage",
+      "sv": "lövverk",
+      "nl": "gebladerte",
+      "it": "il fogliame",
+      "es": "el follaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hnk_v_mefotot",
+    "am": "ማብቀል",
+    "tr": "mabik'el",
+    "pos": "verb",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "keimen, wachsen (Pflanze)",
+      "en": "to sprout, to grow (plant)",
+      "sv": "gro, växa (växt)",
+      "nl": "kiemen, groeien (plant)",
+      "it": "germogliare, crescere (pianta)",
+      "es": "germinar, crecer (planta)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_fire2",
+    "am": "ፍሬ",
+    "tr": "fire",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "die Frucht",
+      "en": "fruit",
+      "sv": "frukt",
+      "nl": "vrucht",
+      "it": "il frutto",
+      "es": "la fruta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍎",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_stil_bahil",
+    "am": "ብስል",
+    "tr": "bisil",
+    "pos": "adjective",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "reif",
+      "en": "ripe",
+      "sv": "mogen",
+      "nl": "rijp",
+      "it": "maturo",
+      "es": "maduro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_adj_ye_batu",
+    "am": "ጥሬ",
+    "tr": "t'ire",
+    "pos": "adjective",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "unreif, roh",
+      "en": "unripe, raw",
+      "sv": "omogen, rå",
+      "nl": "onrijp, rauw",
+      "it": "acerbo, crudo",
+      "es": "verde, crudo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hnk_bahir_zaf",
+    "am": "የዱር አበባ",
+    "tr": "yeduri abeba",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "die Wildblume",
+      "en": "wildflower",
+      "sv": "vildblomma",
+      "nl": "wilde bloem",
+      "it": "il fiore selvatico",
+      "es": "la flor silvestre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hnk_v_mekelakel4",
+    "am": "መንከር",
+    "tr": "menikir",
+    "pos": "verb",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "blühen",
+      "en": "to bloom, to blossom",
+      "sv": "blomma",
+      "nl": "bloeien",
+      "it": "fiorire",
+      "es": "florecer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hnk_werq_akal",
+    "am": "ወርቅ አበባ",
+    "tr": "werk' abeba",
+    "pos": "noun",
+    "topic": "nature_climate",
+    "level": "B2",
+    "t": {
+      "de": "die Goldblume (Meskel-Blume)",
+      "en": "golden Meskel flower",
+      "sv": "guldblomma (Meskel)",
+      "nl": "gouden Meskel-bloem",
+      "it": "il fiore d'oro (Meskel)",
+      "es": "la flor dorada (Meskel)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

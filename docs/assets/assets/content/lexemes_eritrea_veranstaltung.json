@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_vrn_cncrt",
+    "am": "ኮንሰርት",
+    "tr": "konserit",
+    "pos": "noun",
+    "topic": "events",
+    "level": "TI",
+    "t": {
+      "de": "das Konzert",
+      "en": "concert",
+      "sv": "konsert",
+      "nl": "concert",
+      "it": "il concerto",
+      "es": "el concierto"
+    },
+    "emoji": "🎤",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrn_tckt2",
+    "am": "ትኬት ምእታው",
+    "tr": "tiket mi'itaw",
+    "pos": "noun",
+    "topic": "events",
+    "level": "TI",
+    "t": {
+      "de": "die Eintrittskarte",
+      "en": "entry ticket",
+      "sv": "inträdesbiljett",
+      "nl": "toegangskaartje",
+      "it": "il biglietto d'ingresso",
+      "es": "la entrada"
+    },
+    "emoji": "🎫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrn_stg",
+    "am": "መድረኽ",
+    "tr": "medrekh",
+    "pos": "noun",
+    "topic": "events",
+    "level": "TI",
+    "t": {
+      "de": "die Bühne",
+      "en": "stage",
+      "sv": "scen",
+      "nl": "podium",
+      "it": "il palco",
+      "es": "el escenario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrn_aud",
+    "am": "ተዓዘብቲ",
+    "tr": "te'azebti",
+    "pos": "noun",
+    "topic": "events",
+    "level": "TI",
+    "t": {
+      "de": "das Publikum",
+      "en": "audience",
+      "sv": "publik",
+      "nl": "publiek",
+      "it": "il pubblico",
+      "es": "el público"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrn_perf",
+    "am": "ትርኢት",
+    "tr": "tir'it",
+    "pos": "noun",
+    "topic": "events",
+    "level": "TI",
+    "t": {
+      "de": "die Aufführung",
+      "en": "performance",
+      "sv": "föreställning",
+      "nl": "voorstelling",
+      "it": "lo spettacolo",
+      "es": "la actuación"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

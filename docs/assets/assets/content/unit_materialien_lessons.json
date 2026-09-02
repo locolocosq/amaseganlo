@@ -1,0 +1,116 @@
+[
+  {
+    "id": "unit_materialien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_holz",
+      "lex_stein",
+      "lex_eisen",
+      "lex_plastik"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_materialien_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_holz",
+      "lex_stein",
+      "lex_eisen",
+      "lex_plastik"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_materialien_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_holz",
+      "lex_stein",
+      "lex_eisen",
+      "lex_plastik"
+    ],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_materialien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_holz",
+      "lex_stein",
+      "lex_eisen",
+      "lex_plastik"
+    ],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_materialien_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_holz",
+      "lex_stein",
+      "lex_eisen",
+      "lex_plastik"
+    ],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_materialien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_holz",
+      "lex_stein",
+      "lex_eisen",
+      "lex_plastik"
+    ],
+    "sentenceIds": [
+      "sen_gen_holz",
+      "sen_gen_stein",
+      "sen_gen_eisen",
+      "sen_gen_plastik",
+      "sen_gen_v_reparieren"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

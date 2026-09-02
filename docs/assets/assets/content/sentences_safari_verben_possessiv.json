@@ -1,0 +1,202 @@
+[
+  {
+    "id": "sen_safari_ante_tihedaleh",
+    "am": "አንተ ትሄዳለህ።",
+    "tr": "ante tihedaleh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_v_tihedaleh"
+    ],
+    "t": {
+      "de": "Du (männlich) gehst.",
+      "en": "You (masc.) go.",
+      "sv": "Du (maskulinum) går.",
+      "nl": "Jij (mannelijk) gaat.",
+      "it": "Tu (maschile) vai.",
+      "es": "Tú (masculino) vas."
+    },
+    "alt": {},
+    "chunks": [
+      "ante",
+      "tihedaleh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_tihejalesh",
+    "am": "አንቺ ትሄጃለሽ።",
+    "tr": "anchi tihejalesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_v_tihejalesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) gehst.",
+      "en": "You (fem.) go.",
+      "sv": "Du (femininum) går.",
+      "nl": "Jij (vrouwelijk) gaat.",
+      "it": "Tu (femminile) vai.",
+      "es": "Tú (femenino) vas."
+    },
+    "alt": {},
+    "chunks": [
+      "anchi",
+      "tihejalesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_issu_yihedal",
+    "am": "እሱ ይሄዳል።",
+    "tr": "issu yihedal.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_v_yihedal"
+    ],
+    "t": {
+      "de": "Er geht.",
+      "en": "He goes.",
+      "sv": "Han går.",
+      "nl": "Hij gaat.",
+      "it": "Lui va.",
+      "es": "Él va."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "yihedal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_tihedalech",
+    "am": "እሷ ትሄዳለች።",
+    "tr": "iswa tihedalech.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_v_tihedalech"
+    ],
+    "t": {
+      "de": "Sie geht.",
+      "en": "She goes.",
+      "sv": "Hon går.",
+      "nl": "Zij gaat.",
+      "it": "Lei va.",
+      "es": "Ella va."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "tihedalech"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_issu_hede",
+    "am": "እሱ ሄደ።",
+    "tr": "issu hede.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_v_hede"
+    ],
+    "t": {
+      "de": "Er ging.",
+      "en": "He went.",
+      "sv": "Han gick.",
+      "nl": "Hij ging.",
+      "it": "Lui è andato.",
+      "es": "Él fue."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "hede"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_hedech",
+    "am": "እሷ ሄደች።",
+    "tr": "iswa hedech.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_v_hedech"
+    ],
+    "t": {
+      "de": "Sie ging.",
+      "en": "She went.",
+      "sv": "Hon gick.",
+      "nl": "Zij ging.",
+      "it": "Lei è andata.",
+      "es": "Ella fue."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "hedech"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeissu_bet",
+    "am": "የእሱ ቤት ትልቅ ነው።",
+    "tr": "yeissu bet tilik' new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeissu",
+      "lex_haus",
+      "lex_gross",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Sein Haus ist groß.",
+      "en": "His house is big.",
+      "sv": "Hans hus är stort.",
+      "nl": "Zijn huis is groot.",
+      "it": "La sua casa (di lui) è grande.",
+      "es": "Su casa (de él) es grande."
+    },
+    "alt": {},
+    "chunks": [
+      "yeissu",
+      "bet",
+      "tilik'",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_yeiswa_bet",
+    "am": "የእሷ ቤት ትልቅ ነው።",
+    "tr": "yeiswa bet tilik' new.",
+    "level": "B2",
+    "uses": [
+      "lex_poss_yeiswa",
+      "lex_haus",
+      "lex_gross",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Ihr Haus ist groß.",
+      "en": "Her house is big.",
+      "sv": "Hennes hus är stort.",
+      "nl": "Haar huis is groot.",
+      "it": "La sua casa (di lei) è grande.",
+      "es": "Su casa (de ella) es grande."
+    },
+    "alt": {},
+    "chunks": [
+      "yeiswa",
+      "bet",
+      "tilik'",
+      "new"
+    ],
+    "verified": false
+  }
+]

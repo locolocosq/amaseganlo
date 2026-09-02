@@ -1,0 +1,110 @@
+[
+  {
+    "id": "unit_richtungen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_richtungen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_richtungen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_richtungen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_richtungen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_richtungen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_nah",
+      "lex_fern",
+      "lex_ecke"
+    ],
+    "sentenceIds": [
+      "sen_gen_nah",
+      "sen_gen_fern",
+      "sen_gen_ecke",
+      "sen_gen_tankstelle_2",
+      "sen_gen_fuehrerschein_2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

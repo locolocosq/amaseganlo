@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_eritrea_architektur_denkmal_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_akt_facde",
+      "lex_ti_akt_plan2",
+      "lex_ti_akt_style2",
+      "lex_ti_akt_pillr",
+      "lex_ti_dkm_stat",
+      "lex_ti_dkm_mnmt",
+      "lex_ti_dkm_lndmk"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_architektur_denkmal_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_akt_facde",
+      "lex_ti_akt_plan2",
+      "lex_ti_akt_style2",
+      "lex_ti_akt_pillr",
+      "lex_ti_dkm_stat",
+      "lex_ti_dkm_mnmt",
+      "lex_ti_dkm_lndmk"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_architektur_denkmal_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_akt_facde",
+      "lex_ti_akt_plan2",
+      "lex_ti_akt_style2",
+      "lex_ti_akt_pillr",
+      "lex_ti_dkm_stat",
+      "lex_ti_dkm_mnmt",
+      "lex_ti_dkm_lndmk"
+    ],
+    "sentenceIds": [
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_architektur_denkmal_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_akt_facde",
+      "lex_ti_akt_plan2",
+      "lex_ti_akt_style2",
+      "lex_ti_akt_pillr",
+      "lex_ti_dkm_stat",
+      "lex_ti_dkm_mnmt",
+      "lex_ti_dkm_lndmk"
+    ],
+    "sentenceIds": [
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_architektur_denkmal_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_akt_facde",
+      "lex_ti_akt_plan2",
+      "lex_ti_akt_style2",
+      "lex_ti_akt_pillr",
+      "lex_ti_dkm_stat",
+      "lex_ti_dkm_mnmt",
+      "lex_ti_dkm_lndmk"
+    ],
+    "sentenceIds": [
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_architektur_denkmal_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_akt_facde",
+      "lex_ti_akt_plan2",
+      "lex_ti_akt_style2",
+      "lex_ti_akt_pillr",
+      "lex_ti_dkm_stat",
+      "lex_ti_dkm_mnmt",
+      "lex_ti_dkm_lndmk"
+    ],
+    "sentenceIds": [
+      "sen_ti_architektur_denkmal_1",
+      "sen_gen_akt_plan2",
+      "sen_gen_akt_style2",
+      "sen_gen_akt_pillr",
+      "sen_gen_dkm_stat"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

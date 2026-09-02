@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "lex_ti_bilu",
+    "am": "ብላዕ",
+    "tr": "bila'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "essen",
+      "en": "to eat",
+      "sv": "äta",
+      "nl": "eten",
+      "it": "mangiare",
+      "es": "comer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sitay",
+    "am": "ስተይ",
+    "tr": "sitey",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "trinken",
+      "en": "to drink",
+      "sv": "dricka",
+      "nl": "drinken",
+      "it": "bere",
+      "es": "beber"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dqs",
+    "am": "ደቅስ",
+    "tr": "deqis",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "schlafen",
+      "en": "to sleep",
+      "sv": "sova",
+      "nl": "slapen",
+      "it": "dormire",
+      "es": "dormir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tesi",
+    "am": "ተንስእ",
+    "tr": "tensi'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "aufstehen",
+      "en": "to get up, stand up",
+      "sv": "stiga upp",
+      "nl": "opstaan",
+      "it": "alzarsi",
+      "es": "levantarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hid",
+    "am": "ኪድ",
+    "tr": "kidi",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "gehen",
+      "en": "to go",
+      "sv": "gå",
+      "nl": "gaan",
+      "it": "andare",
+      "es": "ir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_na",
+    "am": "ንዓ",
+    "tr": "na'a",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "kommen",
+      "en": "to come",
+      "sv": "komma",
+      "nl": "komen",
+      "it": "venire",
+      "es": "venir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rikbi",
+    "am": "ጎዪ",
+    "tr": "goyi",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "laufen, rennen",
+      "en": "to run",
+      "sv": "springa",
+      "nl": "rennen",
+      "it": "correre",
+      "es": "correr"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsni",
+    "am": "ተቐመጥ",
+    "tr": "teqemet",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "sitzen, sich setzen",
+      "en": "to sit",
+      "sv": "sitta",
+      "nl": "zitten",
+      "it": "sedersi",
+      "es": "sentarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qom",
+    "am": "ደው በል",
+    "tr": "dew bel",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "stehen, anhalten",
+      "en": "to stand, stop",
+      "sv": "stå, stanna",
+      "nl": "staan, stoppen",
+      "it": "stare in piedi, fermarsi",
+      "es": "estar de pie, parar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rey",
+    "am": "ርአ",
+    "tr": "ri'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "sehen",
+      "en": "to see",
+      "sv": "se",
+      "nl": "zien",
+      "it": "vedere",
+      "es": "ver"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sma",
+    "am": "ስማዕ",
+    "tr": "sima'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "hören",
+      "en": "to hear",
+      "sv": "höra",
+      "nl": "horen",
+      "it": "sentire, ascoltare",
+      "es": "oír, escuchar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dgim",
+    "am": "ተዛረብ",
+    "tr": "tezareb",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "sprechen",
+      "en": "to speak",
+      "sv": "tala",
+      "nl": "spreken",
+      "it": "parlare",
+      "es": "hablar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_anbib",
+    "am": "ኣንብብ",
+    "tr": "anbib",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "lesen",
+      "en": "to read",
+      "sv": "läsa",
+      "nl": "lezen",
+      "it": "leggere",
+      "es": "leer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsehaf",
+    "am": "ጽሓፍ",
+    "tr": "tsihaf",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "schreiben",
+      "en": "to write",
+      "sv": "skriva",
+      "nl": "schrijven",
+      "it": "scrivere",
+      "es": "escribir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zekri",
+    "am": "ዘክር",
+    "tr": "zekiri",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "sich erinnern",
+      "en": "to remember",
+      "sv": "minnas",
+      "nl": "herinneren",
+      "it": "ricordare",
+      "es": "recordar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gber",
+    "am": "ግበር",
+    "tr": "gibr",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "machen, tun",
+      "en": "to do, make",
+      "sv": "göra",
+      "nl": "doen, maken",
+      "it": "fare",
+      "es": "hacer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_fitu",
+    "am": "ፍጠር",
+    "tr": "fit'r",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "schaffen, erschaffen",
+      "en": "to create",
+      "sv": "skapa",
+      "nl": "creëren",
+      "it": "creare",
+      "es": "crear"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_habi",
+    "am": "ሃብ",
+    "tr": "habi",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "geben",
+      "en": "to give",
+      "sv": "ge",
+      "nl": "geven",
+      "it": "dare",
+      "es": "dar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wesd",
+    "am": "ውሰድ",
+    "tr": "wised",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "nehmen",
+      "en": "to take",
+      "sv": "ta",
+      "nl": "nemen",
+      "it": "prendere",
+      "es": "tomar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zebin",
+    "am": "ዓድግ",
+    "tr": "'adig",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "kaufen",
+      "en": "to buy",
+      "sv": "köpa",
+      "nl": "kopen",
+      "it": "comprare",
+      "es": "comprar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shet",
+    "am": "ሽጥ",
+    "tr": "shit",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "verkaufen",
+      "en": "to sell",
+      "sv": "sälja",
+      "nl": "verkopen",
+      "it": "vendere",
+      "es": "vender"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_feluy",
+    "am": "ፍለጥ",
+    "tr": "filet'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "wissen",
+      "en": "to know",
+      "sv": "veta",
+      "nl": "weten",
+      "it": "sapere",
+      "es": "saber"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frdi",
+    "am": "ፍቶ",
+    "tr": "fito",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "wollen, lieben",
+      "en": "to want, love",
+      "sv": "vilja, älska",
+      "nl": "willen, houden van",
+      "it": "volere, amare",
+      "es": "querer, amar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsli",
+    "am": "ጸልእ",
+    "tr": "tseli'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "hassen",
+      "en": "to hate",
+      "sv": "hata",
+      "nl": "haten",
+      "it": "odiare",
+      "es": "odiar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frih",
+    "am": "ፍራህ",
+    "tr": "firah",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "Angst haben, fürchten",
+      "en": "to fear, be afraid",
+      "sv": "frukta, vara rädd",
+      "nl": "vrezen, bang zijn",
+      "it": "avere paura, temere",
+      "es": "tener miedo, temer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hazun",
+    "am": "ሓዘን",
+    "tr": "hazen",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "trauern",
+      "en": "to mourn, be sad",
+      "sv": "sörja",
+      "nl": "treuren",
+      "it": "essere in lutto, essere triste",
+      "es": "estar de luto, estar triste"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tehagesi",
+    "am": "ተሓጎስ",
+    "tr": "tehagos",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "sich freuen",
+      "en": "to be happy",
+      "sv": "vara glad",
+      "nl": "blij zijn",
+      "it": "essere felice, rallegrarsi",
+      "es": "alegrarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_srhi",
+    "am": "ስራሕ",
+    "tr": "sirah (fi'l)",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "arbeiten",
+      "en": "to work",
+      "sv": "arbeta",
+      "nl": "werken",
+      "it": "lavorare",
+      "es": "trabajar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_temehri",
+    "am": "ተማሃር",
+    "tr": "temahar",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "lernen",
+      "en": "to learn",
+      "sv": "lära sig",
+      "nl": "leren",
+      "it": "imparare",
+      "es": "aprender"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_awri",
+    "am": "ኣምህር",
+    "tr": "amhir",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "lehren",
+      "en": "to teach",
+      "sv": "undervisa",
+      "nl": "onderwijzen",
+      "it": "insegnare",
+      "es": "enseñar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tselayi",
+    "am": "ጻወት",
+    "tr": "tsawet",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "spielen",
+      "en": "to play",
+      "sv": "leka, spela",
+      "nl": "spelen",
+      "it": "giocare",
+      "es": "jugar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zemri",
+    "am": "ደርፍ",
+    "tr": "derfi",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "singen",
+      "en": "to sing",
+      "sv": "sjunga",
+      "nl": "zingen",
+      "it": "cantare",
+      "es": "cantar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rqdi",
+    "am": "ስዓድ",
+    "tr": "si'ad",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "tanzen",
+      "en": "to dance",
+      "sv": "dansa",
+      "nl": "dansen",
+      "it": "ballare",
+      "es": "bailar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsli2",
+    "am": "ጸሊ",
+    "tr": "tseli",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "beten",
+      "en": "to pray",
+      "sv": "be",
+      "nl": "bidden",
+      "it": "pregare",
+      "es": "rezar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_amni",
+    "am": "ኣመን",
+    "tr": "amen",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "glauben",
+      "en": "to believe",
+      "sv": "tro",
+      "nl": "geloven",
+      "it": "credere",
+      "es": "creer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hjz",
+    "am": "ሕጸብ",
+    "tr": "hitseb",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "waschen",
+      "en": "to wash",
+      "sv": "tvätta",
+      "nl": "wassen",
+      "it": "lavare",
+      "es": "lavar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nsHi",
+    "am": "ንጻህ",
+    "tr": "nitsah",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "putzen, säubern",
+      "en": "to clean",
+      "sv": "städa",
+      "nl": "schoonmaken",
+      "it": "pulire",
+      "es": "limpiar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bsli",
+    "am": "ብሱል ግበር",
+    "tr": "bisul gber",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "kochen",
+      "en": "to cook",
+      "sv": "laga mat",
+      "nl": "koken",
+      "it": "cucinare",
+      "es": "cocinar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kfti",
+    "am": "ክፈት",
+    "tr": "kifet",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "öffnen",
+      "en": "to open",
+      "sv": "öppna",
+      "nl": "openen",
+      "it": "aprire",
+      "es": "abrir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsegwi",
+    "am": "ዕጸው",
+    "tr": "'itsew",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "schließen",
+      "en": "to close",
+      "sv": "stänga",
+      "nl": "sluiten",
+      "it": "chiudere",
+      "es": "cerrar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzi",
+    "am": "ሓዝ",
+    "tr": "haz",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "halten",
+      "en": "to hold",
+      "sv": "hålla",
+      "nl": "vasthouden",
+      "it": "tenere",
+      "es": "sostener"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hddgi",
+    "am": "ደግፍ",
+    "tr": "degif",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "helfen, unterstützen",
+      "en": "to help, support",
+      "sv": "hjälpa",
+      "nl": "helpen",
+      "it": "aiutare, sostenere",
+      "es": "ayudar, apoyar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lki",
+    "am": "ልኣኽ",
+    "tr": "li'ak",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "schicken",
+      "en": "to send",
+      "sv": "skicka",
+      "nl": "sturen",
+      "it": "mandare",
+      "es": "enviar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rekbi",
+    "am": "ትረኽ",
+    "tr": "tirekh",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "finden",
+      "en": "to find",
+      "sv": "hitta",
+      "nl": "vinden",
+      "it": "trovare",
+      "es": "encontrar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzri",
+    "am": "ደሊ",
+    "tr": "deli",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "suchen",
+      "en": "to search, look for",
+      "sv": "leta, söka",
+      "nl": "zoeken",
+      "it": "cercare",
+      "es": "buscar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ftni",
+    "am": "ጸንሕ",
+    "tr": "tsenih",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "warten",
+      "en": "to wait",
+      "sv": "vänta",
+      "nl": "wachten",
+      "it": "aspettare",
+      "es": "esperar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msli",
+    "am": "ተመለስ",
+    "tr": "temeles",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "zurückkehren",
+      "en": "to return, come back",
+      "sv": "återvända",
+      "nl": "terugkeren",
+      "it": "tornare",
+      "es": "volver"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dhi",
+    "am": "ጀምር",
+    "tr": "jemir",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "anfangen, beginnen",
+      "en": "to start, begin",
+      "sv": "börja",
+      "nl": "beginnen",
+      "it": "iniziare, cominciare",
+      "es": "empezar, comenzar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wdai",
+    "am": "ወድእ",
+    "tr": "wedi'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "beenden, fertigstellen",
+      "en": "to finish, end",
+      "sv": "avsluta",
+      "nl": "beëindigen",
+      "it": "finire, terminare",
+      "es": "terminar, acabar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gzi",
+    "am": "ገዝእ",
+    "tr": "gezi'e",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "regieren, besitzen",
+      "en": "to rule, own",
+      "sv": "styra, äga",
+      "nl": "regeren, bezitten",
+      "it": "governare, possedere",
+      "es": "gobernar, poseer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kfli",
+    "am": "ክፈል",
+    "tr": "kifel",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "bezahlen",
+      "en": "to pay",
+      "sv": "betala",
+      "nl": "betalen",
+      "it": "pagare",
+      "es": "pagar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hdgi",
+    "am": "ሓድግ",
+    "tr": "hadig",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "lassen, verlassen",
+      "en": "to let, leave",
+      "sv": "lämna",
+      "nl": "laten, verlaten",
+      "it": "lasciare",
+      "es": "dejar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flti",
+    "am": "ውለድ",
+    "tr": "wiled",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "gebären",
+      "en": "to give birth",
+      "sv": "föda",
+      "nl": "baren",
+      "it": "partorire",
+      "es": "dar a luz"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mwti",
+    "am": "ሙት",
+    "tr": "mut",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "sterben",
+      "en": "to die",
+      "sv": "dö",
+      "nl": "sterven",
+      "it": "morire",
+      "es": "morir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hywi",
+    "am": "ንበር",
+    "tr": "nibr",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "leben, wohnen",
+      "en": "to live, reside",
+      "sv": "leva, bo",
+      "nl": "leven, wonen",
+      "it": "vivere, abitare",
+      "es": "vivir, residir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frqi",
+    "am": "ፍረድ",
+    "tr": "fired",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "urteilen, entscheiden",
+      "en": "to judge, decide",
+      "sv": "döma, besluta",
+      "nl": "oordelen, beslissen",
+      "it": "giudicare, decidere",
+      "es": "juzgar, decidir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wrri",
+    "am": "ውረድ",
+    "tr": "wired",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "heruntergehen, aussteigen",
+      "en": "to go down, get off",
+      "sv": "gå ner",
+      "nl": "naar beneden gaan",
+      "it": "scendere",
+      "es": "bajar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_edgi",
+    "am": "ዓረግ",
+    "tr": "'areg",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "TI",
+    "t": {
+      "de": "hinaufsteigen, einsteigen",
+      "en": "to go up, get on",
+      "sv": "gå upp, kliva på",
+      "nl": "naar boven gaan, instappen",
+      "it": "salire",
+      "es": "subir"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

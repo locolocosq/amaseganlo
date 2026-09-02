@@ -1,0 +1,326 @@
+[
+  {
+    "id": "lex_ti_dehankunu",
+    "am": "ደሓን ኩኑ",
+    "tr": "dehan kunu",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Auf Wiedersehen (zu mehreren)",
+      "en": "goodbye (to several)",
+      "sv": "hej då (till flera)",
+      "nl": "tot ziens (tegen meerderen)",
+      "it": "Arrivederci (a più persone)",
+      "es": "Adiós (a varias personas)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kesela",
+    "am": "ደሓን ሓደር",
+    "tr": "dehan hader",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Gute Nacht",
+      "en": "good night",
+      "sv": "god natt",
+      "nl": "goedenacht",
+      "it": "Buonanotte",
+      "es": "Buenas noches"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dhnbot",
+    "am": "ደሓን ንበር",
+    "tr": "dehan niber",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Bleib gesund (Abschied)",
+      "en": "stay well (farewell)",
+      "sv": "må bra (avsked)",
+      "nl": "blijf gezond (afscheid)",
+      "it": "Stammi bene (congedo)",
+      "es": "Cuídate (despedida)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bruk_mb",
+    "am": "እንቋዕ ደሓን መጻእካ",
+    "tr": "inqua'e dehan metsa'eka",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Willkommen (zu einem Mann)",
+      "en": "welcome (to a man)",
+      "sv": "välkommen (till en man)",
+      "nl": "welkom (tegen een man)",
+      "it": "Benvenuto (a un uomo)",
+      "es": "Bienvenido (a un hombre)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kemzi",
+    "am": "ከመይ ኣለኻ",
+    "tr": "kemey aleka",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Wie geht es dir? (zu einem Mann)",
+      "en": "how are you? (to a man)",
+      "sv": "hur mår du? (till en man)",
+      "nl": "hoe gaat het? (tegen een man)",
+      "it": "Come stai? (a un uomo)",
+      "es": "¿Cómo estás? (a un hombre)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kmzk",
+    "am": "ከመይ ኣለኺ",
+    "tr": "kemey aleki",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Wie geht es dir? (zu einer Frau)",
+      "en": "how are you? (to a woman)",
+      "sv": "hur mår du? (till en kvinna)",
+      "nl": "hoe gaat het? (tegen een vrouw)",
+      "it": "Come stai? (a una donna)",
+      "es": "¿Cómo estás? (a una mujer)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hsbka",
+    "am": "ስመይ ... እዩ",
+    "tr": "simey ... iyu",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Mein Name ist ...",
+      "en": "my name is ...",
+      "sv": "jag heter ...",
+      "nl": "mijn naam is ...",
+      "it": "Mi chiamo ...",
+      "es": "Me llamo ..."
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bjkash",
+    "am": "በጃኺ",
+    "tr": "bejaki",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Bitte (zu einer Frau)",
+      "en": "please (to a woman)",
+      "sv": "snälla (till en kvinna)",
+      "nl": "alsjeblieft (tegen een vrouw)",
+      "it": "Per favore (a una donna)",
+      "es": "Por favor (a una mujer)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_yiqnkm",
+    "am": "የቐንየለይ ብጣዕሚ",
+    "tr": "yiqeneyeley bit'a'imi",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Vielen Dank",
+      "en": "thank you very much",
+      "sv": "tack så mycket",
+      "nl": "heel erg bedankt",
+      "it": "Grazie mille",
+      "es": "Muchas gracias"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gebia",
+    "am": "ጸገም የለን",
+    "tr": "tsegem yelen",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Kein Problem",
+      "en": "no problem",
+      "sv": "inga problem",
+      "nl": "geen probleem",
+      "it": "Nessun problema",
+      "es": "No hay problema"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hraum",
+    "am": "ሕራይ",
+    "tr": "hiray",
+    "pos": "particle",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "okay, einverstanden",
+      "en": "okay, agreed",
+      "sv": "okej",
+      "nl": "oké, akkoord",
+      "it": "okay, d'accordo",
+      "es": "vale, de acuerdo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_alkonm",
+    "am": "ኣይፋልን",
+    "tr": "ayfalin",
+    "pos": "particle",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "nein (Alt.)",
+      "en": "no (alt.)",
+      "sv": "nej (alt.)",
+      "nl": "nee (alt.)",
+      "it": "no (alt.)",
+      "es": "no (alt.)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kemzo",
+    "am": "ጽቡቕ ቀትሪ",
+    "tr": "tsibuq qetri",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Guten Tag",
+      "en": "good day",
+      "sv": "god dag",
+      "nl": "goedendag",
+      "it": "Buona giornata",
+      "es": "Buen día"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsbtsb",
+    "am": "ጽቡቕ ንግሆ",
+    "tr": "tsibuq nigho",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Guten Morgen",
+      "en": "good morning",
+      "sv": "god morgon",
+      "nl": "goedemorgen",
+      "it": "Buongiorno",
+      "es": "Buenos días"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsbms",
+    "am": "ጽቡቕ ምሸት",
+    "tr": "tsibuq mishet",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Guten Abend",
+      "en": "good evening",
+      "sv": "god kväll",
+      "nl": "goedenavond",
+      "it": "Buonasera",
+      "es": "Buenas tardes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzkm",
+    "am": "ይቕሬታ ግበረለይ",
+    "tr": "yiqreta gibereley",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Verzeih mir",
+      "en": "forgive me",
+      "sv": "förlåt mig",
+      "nl": "vergeef me",
+      "it": "Perdonami",
+      "es": "Perdóname"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsbqal",
+    "am": "ደስ ይብለኒ",
+    "tr": "des yibileni",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Es freut mich",
+      "en": "it pleases me, nice to meet you",
+      "sv": "trevligt att träffas",
+      "nl": "aangenaam",
+      "it": "Piacere (di conoscerti)",
+      "es": "Mucho gusto, encantado/a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_igzabh",
+    "am": "እግዚኣብሔር ይመስገን",
+    "tr": "igzi'abiher yimesgen",
+    "pos": "phrase",
+    "topic": "phrases",
+    "level": "TI",
+    "t": {
+      "de": "Gott sei Dank",
+      "en": "thank God",
+      "sv": "tack gode Gud",
+      "nl": "godzijdank",
+      "it": "Grazie a Dio",
+      "es": "Gracias a Dios"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

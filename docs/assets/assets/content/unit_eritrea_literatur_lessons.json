@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_eritrea_literatur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_lit_ktab",
+      "lex_ti_lit_awtr",
+      "lex_ti_lit_chptr",
+      "lex_ti_lit_pom",
+      "lex_ti_lit_novl",
+      "lex_ti_lit_stry",
+      "lex_ti_lit_pge",
+      "lex_ti_lit_ttl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_literatur_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_lit_ktab",
+      "lex_ti_lit_awtr",
+      "lex_ti_lit_chptr",
+      "lex_ti_lit_pom",
+      "lex_ti_lit_novl",
+      "lex_ti_lit_stry",
+      "lex_ti_lit_pge",
+      "lex_ti_lit_ttl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_literatur_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_lit_ktab",
+      "lex_ti_lit_awtr",
+      "lex_ti_lit_chptr",
+      "lex_ti_lit_pom",
+      "lex_ti_lit_novl",
+      "lex_ti_lit_stry",
+      "lex_ti_lit_pge",
+      "lex_ti_lit_ttl"
+    ],
+    "sentenceIds": [
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_literatur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_lit_ktab",
+      "lex_ti_lit_awtr",
+      "lex_ti_lit_chptr",
+      "lex_ti_lit_pom",
+      "lex_ti_lit_novl",
+      "lex_ti_lit_stry",
+      "lex_ti_lit_pge",
+      "lex_ti_lit_ttl"
+    ],
+    "sentenceIds": [
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_literatur_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_lit_ktab",
+      "lex_ti_lit_awtr",
+      "lex_ti_lit_chptr",
+      "lex_ti_lit_pom",
+      "lex_ti_lit_novl",
+      "lex_ti_lit_stry",
+      "lex_ti_lit_pge",
+      "lex_ti_lit_ttl"
+    ],
+    "sentenceIds": [
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_literatur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_lit_ktab",
+      "lex_ti_lit_awtr",
+      "lex_ti_lit_chptr",
+      "lex_ti_lit_pom",
+      "lex_ti_lit_novl",
+      "lex_ti_lit_stry",
+      "lex_ti_lit_pge",
+      "lex_ti_lit_ttl"
+    ],
+    "sentenceIds": [
+      "sen_ti_literatur_1",
+      "sen_gen_lit_awtr",
+      "sen_gen_lit_chptr",
+      "sen_gen_lit_pom",
+      "sen_gen_lit_novl"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "unit_eritrea_gletscher_schmetterlinge_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_glt_ice",
+      "lex_ti_glt_glcr",
+      "lex_ti_glt_frst",
+      "lex_ti_glt_pole",
+      "lex_ti_schm_btfl",
+      "lex_ti_schm_bee",
+      "lex_ti_schm_ant",
+      "lex_ti_schm_spdr",
+      "lex_ti_schm_cttp"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gletscher_schmetterlinge_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_glt_ice",
+      "lex_ti_glt_glcr",
+      "lex_ti_glt_frst",
+      "lex_ti_glt_pole",
+      "lex_ti_schm_btfl",
+      "lex_ti_schm_bee",
+      "lex_ti_schm_ant",
+      "lex_ti_schm_spdr",
+      "lex_ti_schm_cttp"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gletscher_schmetterlinge_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_glt_ice",
+      "lex_ti_glt_glcr",
+      "lex_ti_glt_frst",
+      "lex_ti_glt_pole",
+      "lex_ti_schm_btfl",
+      "lex_ti_schm_bee",
+      "lex_ti_schm_ant",
+      "lex_ti_schm_spdr",
+      "lex_ti_schm_cttp"
+    ],
+    "sentenceIds": [
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gletscher_schmetterlinge_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_glt_ice",
+      "lex_ti_glt_glcr",
+      "lex_ti_glt_frst",
+      "lex_ti_glt_pole",
+      "lex_ti_schm_btfl",
+      "lex_ti_schm_bee",
+      "lex_ti_schm_ant",
+      "lex_ti_schm_spdr",
+      "lex_ti_schm_cttp"
+    ],
+    "sentenceIds": [
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gletscher_schmetterlinge_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_glt_ice",
+      "lex_ti_glt_glcr",
+      "lex_ti_glt_frst",
+      "lex_ti_glt_pole",
+      "lex_ti_schm_btfl",
+      "lex_ti_schm_bee",
+      "lex_ti_schm_ant",
+      "lex_ti_schm_spdr",
+      "lex_ti_schm_cttp"
+    ],
+    "sentenceIds": [
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gletscher_schmetterlinge_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_glt_ice",
+      "lex_ti_glt_glcr",
+      "lex_ti_glt_frst",
+      "lex_ti_glt_pole",
+      "lex_ti_schm_btfl",
+      "lex_ti_schm_bee",
+      "lex_ti_schm_ant",
+      "lex_ti_schm_spdr",
+      "lex_ti_schm_cttp"
+    ],
+    "sentenceIds": [
+      "sen_ti_gletscher_schmetterlinge_1",
+      "sen_gen_glt_glcr",
+      "sen_gen_glt_frst",
+      "sen_gen_glt_pole",
+      "sen_gen_schm_btfl"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

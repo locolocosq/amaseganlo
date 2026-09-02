@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_sch_alrm3",
+    "am": "ኣላርም ድሕነት",
+    "tr": "alarm dihinet",
+    "pos": "noun",
+    "topic": "security",
+    "level": "TI",
+    "t": {
+      "de": "die Alarmanlage",
+      "en": "security alarm",
+      "sv": "larmsystem",
+      "nl": "alarmsysteem",
+      "it": "l'impianto d'allarme",
+      "es": "la alarma de seguridad"
+    },
+    "emoji": "🚨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sch_cam",
+    "am": "ካሜራ ምክትታል",
+    "tr": "kamera mikitatal",
+    "pos": "noun",
+    "topic": "security",
+    "level": "TI",
+    "t": {
+      "de": "die Überwachungskamera",
+      "en": "security camera",
+      "sv": "övervakningskamera",
+      "nl": "beveiligingscamera",
+      "it": "la telecamera di sorveglianza",
+      "es": "la cámara de seguridad"
+    },
+    "emoji": "📹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sch_lock2",
+    "am": "ምሽጋር",
+    "tr": "mishigar",
+    "pos": "noun",
+    "topic": "security",
+    "level": "TI",
+    "t": {
+      "de": "das Schloss (Sicherung)",
+      "en": "lock",
+      "sv": "lås",
+      "nl": "slot",
+      "it": "il lucchetto, la serratura",
+      "es": "el candado, la cerradura"
+    },
+    "emoji": "🔒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sch_grd",
+    "am": "ሓላዊ ድሕነት",
+    "tr": "halawi dihinet",
+    "pos": "noun",
+    "topic": "security",
+    "level": "TI",
+    "t": {
+      "de": "der Wachmann",
+      "en": "security guard",
+      "sv": "vakt",
+      "nl": "beveiliger",
+      "it": "la guardia di sicurezza",
+      "es": "el guardia de seguridad"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sch_safe2",
+    "am": "ውሑስ",
+    "tr": "wihus",
+    "pos": "adjective",
+    "topic": "security",
+    "level": "TI",
+    "t": {
+      "de": "sicher, geschützt",
+      "en": "safe, secure",
+      "sv": "säker, trygg",
+      "nl": "veilig",
+      "it": "sicuro, protetto",
+      "es": "seguro, protegido"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

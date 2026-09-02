@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_snd_ndl",
+    "am": "መርፍእ ስፌት",
+    "tr": "merfi'i sifet",
+    "pos": "noun",
+    "topic": "tailoring",
+    "level": "TI",
+    "t": {
+      "de": "die Nähnadel",
+      "en": "sewing needle",
+      "sv": "synål",
+      "nl": "naainaald",
+      "it": "l'ago da cucito",
+      "es": "la aguja de coser"
+    },
+    "emoji": "🪡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snd_thrd",
+    "am": "ክርዳን",
+    "tr": "kirdan",
+    "pos": "noun",
+    "topic": "tailoring",
+    "level": "TI",
+    "t": {
+      "de": "der Faden",
+      "en": "thread",
+      "sv": "tråd",
+      "nl": "draad",
+      "it": "il filo",
+      "es": "el hilo"
+    },
+    "emoji": "🧵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snd_mchn2",
+    "am": "ናይ ስፌት ማሽን",
+    "tr": "nay sifet mashin",
+    "pos": "noun",
+    "topic": "tailoring",
+    "level": "TI",
+    "t": {
+      "de": "die Nähmaschine",
+      "en": "sewing machine",
+      "sv": "symaskin",
+      "nl": "naaimachine",
+      "it": "la macchina da cucire",
+      "es": "la máquina de coser"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snd_sew2",
+    "am": "ሰፈየ",
+    "tr": "sefeye",
+    "pos": "verb",
+    "topic": "tailoring",
+    "level": "TI",
+    "t": {
+      "de": "nähen",
+      "en": "to sew",
+      "sv": "att sy",
+      "nl": "naaien",
+      "it": "cucire",
+      "es": "coser"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snd_tlr2",
+    "am": "ሰፋዪ",
+    "tr": "sefayi",
+    "pos": "noun",
+    "topic": "tailoring",
+    "level": "TI",
+    "t": {
+      "de": "der Schneider",
+      "en": "tailor",
+      "sv": "skräddare",
+      "nl": "kleermaker",
+      "it": "il sarto",
+      "es": "el sastre"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

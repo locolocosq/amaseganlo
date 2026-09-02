@@ -1,0 +1,164 @@
+[
+  {
+    "id": "unit_eritrea_raumfahrt_archaeologie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_rfr_rckt",
+      "lex_ti_rfr_atrn",
+      "lex_ti_rfr_shp2",
+      "lex_ti_rfr_moon",
+      "lex_ti_rfr_sat",
+      "lex_ti_rfr_launch",
+      "lex_ti_arc_dig",
+      "lex_ti_arc_artf",
+      "lex_ti_arc_ruin",
+      "lex_ti_arc_mus",
+      "lex_ti_arc_anc",
+      "lex_ti_arc_civ"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_raumfahrt_archaeologie_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_rfr_rckt",
+      "lex_ti_rfr_atrn",
+      "lex_ti_rfr_shp2",
+      "lex_ti_rfr_moon",
+      "lex_ti_rfr_sat",
+      "lex_ti_rfr_launch",
+      "lex_ti_arc_dig",
+      "lex_ti_arc_artf",
+      "lex_ti_arc_ruin",
+      "lex_ti_arc_mus",
+      "lex_ti_arc_anc",
+      "lex_ti_arc_civ"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_raumfahrt_archaeologie_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_rfr_rckt",
+      "lex_ti_rfr_atrn",
+      "lex_ti_rfr_shp2",
+      "lex_ti_rfr_moon",
+      "lex_ti_rfr_sat",
+      "lex_ti_rfr_launch",
+      "lex_ti_arc_dig",
+      "lex_ti_arc_artf",
+      "lex_ti_arc_ruin",
+      "lex_ti_arc_mus",
+      "lex_ti_arc_anc",
+      "lex_ti_arc_civ"
+    ],
+    "sentenceIds": [
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_raumfahrt_archaeologie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_rfr_rckt",
+      "lex_ti_rfr_atrn",
+      "lex_ti_rfr_shp2",
+      "lex_ti_rfr_moon",
+      "lex_ti_rfr_sat",
+      "lex_ti_rfr_launch",
+      "lex_ti_arc_dig",
+      "lex_ti_arc_artf",
+      "lex_ti_arc_ruin",
+      "lex_ti_arc_mus",
+      "lex_ti_arc_anc",
+      "lex_ti_arc_civ"
+    ],
+    "sentenceIds": [
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_raumfahrt_archaeologie_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_rfr_rckt",
+      "lex_ti_rfr_atrn",
+      "lex_ti_rfr_shp2",
+      "lex_ti_rfr_moon",
+      "lex_ti_rfr_sat",
+      "lex_ti_rfr_launch",
+      "lex_ti_arc_dig",
+      "lex_ti_arc_artf",
+      "lex_ti_arc_ruin",
+      "lex_ti_arc_mus",
+      "lex_ti_arc_anc",
+      "lex_ti_arc_civ"
+    ],
+    "sentenceIds": [
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_raumfahrt_archaeologie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_rfr_rckt",
+      "lex_ti_rfr_atrn",
+      "lex_ti_rfr_shp2",
+      "lex_ti_rfr_moon",
+      "lex_ti_rfr_sat",
+      "lex_ti_rfr_launch",
+      "lex_ti_arc_dig",
+      "lex_ti_arc_artf",
+      "lex_ti_arc_ruin",
+      "lex_ti_arc_mus",
+      "lex_ti_arc_anc",
+      "lex_ti_arc_civ"
+    ],
+    "sentenceIds": [
+      "sen_ti_raumfahrt_archaeologie_1",
+      "sen_gen_rfr_atrn",
+      "sen_gen_rfr_shp2",
+      "sen_gen_rfr_moon",
+      "sen_gen_rfr_sat"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

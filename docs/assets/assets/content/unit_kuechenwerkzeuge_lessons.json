@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_kuechenwerkzeuge_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kuechenwerkzeuge_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_pfanne",
+      "lex_schneidebrett",
+      "lex_schoepfloeffel",
+      "lex_reibe",
+      "lex_sieb"
+    ],
+    "sentenceIds": [
+      "sen_gen_pfanne",
+      "sen_gen_schneidebrett",
+      "sen_gen_schoepfloeffel",
+      "sen_gen_reibe",
+      "sen_gen_sieb"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

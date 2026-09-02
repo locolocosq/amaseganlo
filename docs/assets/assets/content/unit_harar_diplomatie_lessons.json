@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_diplomatie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_embasi",
+      "lex_ambasader",
+      "lex_siminet",
+      "lex_diridir",
+      "lex_timiret",
+      "lex_v_mederader"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_diplomatie_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_embasi",
+      "lex_ambasader",
+      "lex_siminet",
+      "lex_diridir",
+      "lex_timiret",
+      "lex_v_mederader"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_diplomatie_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_embasi",
+      "lex_ambasader",
+      "lex_siminet",
+      "lex_diridir",
+      "lex_timiret",
+      "lex_v_mederader"
+    ],
+    "sentenceIds": [
+      "sen_ambasader_embasi",
+      "sen_siminet_asfelagi",
+      "sen_diridir_kebad",
+      "sen_timiret_hail",
+      "sen_ambasader_mederader"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_diplomatie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_embasi",
+      "lex_ambasader",
+      "lex_siminet",
+      "lex_diridir",
+      "lex_timiret",
+      "lex_v_mederader"
+    ],
+    "sentenceIds": [
+      "sen_ambasader_embasi",
+      "sen_siminet_asfelagi",
+      "sen_diridir_kebad",
+      "sen_timiret_hail",
+      "sen_ambasader_mederader"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_diplomatie_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_embasi",
+      "lex_ambasader",
+      "lex_siminet",
+      "lex_diridir",
+      "lex_timiret",
+      "lex_v_mederader"
+    ],
+    "sentenceIds": [
+      "sen_ambasader_embasi",
+      "sen_siminet_asfelagi",
+      "sen_diridir_kebad",
+      "sen_timiret_hail",
+      "sen_ambasader_mederader"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_diplomatie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_embasi",
+      "lex_ambasader",
+      "lex_siminet",
+      "lex_diridir",
+      "lex_timiret",
+      "lex_v_mederader"
+    ],
+    "sentenceIds": [
+      "sen_ambasader_embasi",
+      "sen_siminet_asfelagi",
+      "sen_diridir_kebad",
+      "sen_timiret_hail",
+      "sen_ambasader_mederader"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

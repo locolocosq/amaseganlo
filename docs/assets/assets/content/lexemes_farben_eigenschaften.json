@@ -1,0 +1,422 @@
+[
+  {
+    "id": "lex_rot",
+    "am": "ቀይ",
+    "tr": "keyy",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "rot",
+      "en": "red",
+      "sv": "röd",
+      "nl": "rood",
+      "it": "rosso",
+      "es": "rojo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔴",
+    "verified": true
+  },
+  {
+    "id": "lex_blau",
+    "am": "ሰማያዊ",
+    "tr": "semayawi",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "blau",
+      "en": "blue",
+      "sv": "blå",
+      "nl": "blauw",
+      "it": "blu",
+      "es": "azul"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔵",
+    "verified": true
+  },
+  {
+    "id": "lex_gruen",
+    "am": "አረንጓዴ",
+    "tr": "arenguadie",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "grün",
+      "en": "green",
+      "sv": "grön",
+      "nl": "groen",
+      "it": "verde",
+      "es": "verde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🟢",
+    "verified": true
+  },
+  {
+    "id": "lex_gelb",
+    "am": "ቢጫ",
+    "tr": "bicha",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "gelb",
+      "en": "yellow",
+      "sv": "gul",
+      "nl": "geel",
+      "it": "giallo",
+      "es": "amarillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🟡",
+    "verified": true
+  },
+  {
+    "id": "lex_schwarz",
+    "am": "ጥቁር",
+    "tr": "t'ikur",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "schwarz",
+      "en": "black",
+      "sv": "svart",
+      "nl": "zwart",
+      "it": "nero",
+      "es": "negro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⚫",
+    "verified": true
+  },
+  {
+    "id": "lex_weiss",
+    "am": "ነጭ",
+    "tr": "nech",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "weiß",
+      "en": "white",
+      "sv": "vit",
+      "nl": "wit",
+      "it": "bianco",
+      "es": "blanco"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⚪",
+    "verified": true
+  },
+  {
+    "id": "lex_braun",
+    "am": "ቡኒ",
+    "tr": "buni",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "braun",
+      "en": "brown",
+      "sv": "brun",
+      "nl": "bruin",
+      "it": "marrone",
+      "es": "marrón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🟤",
+    "verified": false
+  },
+  {
+    "id": "lex_rosa",
+    "am": "ሮዝ",
+    "tr": "roz",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "rosa, pink",
+      "en": "pink",
+      "sv": "rosa",
+      "nl": "roze",
+      "it": "rosa",
+      "es": "rosa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🩷",
+    "verified": false
+  },
+  {
+    "id": "lex_lila",
+    "am": "ሐምራዊ",
+    "tr": "hamrawi",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "lila, violett",
+      "en": "purple",
+      "sv": "lila",
+      "nl": "paars",
+      "it": "lilla, viola",
+      "es": "lila, morado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🟣",
+    "verified": false
+  },
+  {
+    "id": "lex_grau",
+    "am": "ግራጫ",
+    "tr": "gracha",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "grau",
+      "en": "gray",
+      "sv": "grå",
+      "nl": "grijs",
+      "it": "grigio",
+      "es": "gris"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gross",
+    "am": "ትልቅ",
+    "tr": "tilik",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "groß",
+      "en": "big",
+      "sv": "stor",
+      "nl": "groot",
+      "it": "grande",
+      "es": "grande"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_klein",
+    "am": "ትንሽ",
+    "tr": "tinish",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "klein",
+      "en": "small",
+      "sv": "liten",
+      "nl": "klein",
+      "it": "piccolo",
+      "es": "pequeño"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gut",
+    "am": "ጥሩ",
+    "tr": "t'iru",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "gut",
+      "en": "good",
+      "sv": "bra",
+      "nl": "goed",
+      "it": "buono",
+      "es": "bueno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schlecht",
+    "am": "መጥፎ",
+    "tr": "met'ifo",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "schlecht",
+      "en": "bad",
+      "sv": "dålig",
+      "nl": "slecht",
+      "it": "cattivo",
+      "es": "malo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_neu",
+    "am": "አዲስ",
+    "tr": "addis",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "neu",
+      "en": "new",
+      "sv": "ny",
+      "nl": "nieuw",
+      "it": "nuovo",
+      "es": "nuevo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_alt",
+    "am": "አሮጌ",
+    "tr": "aroge",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "alt (Sache)",
+      "en": "old (thing)",
+      "sv": "gammal (sak)",
+      "nl": "oud (dingen)",
+      "it": "vecchio (cosa)",
+      "es": "viejo (cosa)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_heiss",
+    "am": "ሙቅ",
+    "tr": "muk",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "heiß, warm",
+      "en": "hot, warm",
+      "sv": "varm",
+      "nl": "heet, warm",
+      "it": "caldo",
+      "es": "caliente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kalt",
+    "am": "ቀዝቃዛ",
+    "tr": "kezkaza",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "kalt",
+      "en": "cold",
+      "sv": "kall",
+      "nl": "koud",
+      "it": "freddo",
+      "es": "frío"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schoen",
+    "am": "ቆንጆ",
+    "tr": "konjo",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "schön, hübsch",
+      "en": "beautiful, pretty",
+      "sv": "vacker",
+      "nl": "mooi",
+      "it": "bello, carino",
+      "es": "bonito, guapo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✨",
+    "verified": true
+  },
+  {
+    "id": "lex_lang",
+    "am": "ረጅም",
+    "tr": "rejim",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "lang, groß (Person)",
+      "en": "long, tall",
+      "sv": "lång",
+      "nl": "lang",
+      "it": "lungo, alto (persona)",
+      "es": "largo, alto (persona)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kurz",
+    "am": "አጭር",
+    "tr": "achir",
+    "pos": "adjective",
+    "topic": "colors_properties",
+    "level": "A1.2",
+    "t": {
+      "de": "kurz",
+      "en": "short",
+      "sv": "kort",
+      "nl": "kort",
+      "it": "corto",
+      "es": "corto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

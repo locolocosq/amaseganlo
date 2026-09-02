@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_gesellschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ikulinet",
+      "lex_medilewo",
+      "lex_anasa",
+      "lex_sidetegna",
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_gesellschaft_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ikulinet",
+      "lex_medilewo",
+      "lex_anasa",
+      "lex_sidetegna",
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_gesellschaft_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ikulinet",
+      "lex_medilewo",
+      "lex_anasa",
+      "lex_sidetegna",
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
+    "sentenceIds": [
+      "sen_ikulinet_fitihawi",
+      "sen_medilewo_ifitihawi",
+      "sen_anasa_kutir",
+      "sen_sidetegna_addis_hager",
+      "sen_fitihawi_ifitihawi"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_gesellschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ikulinet",
+      "lex_medilewo",
+      "lex_anasa",
+      "lex_sidetegna",
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
+    "sentenceIds": [
+      "sen_ikulinet_fitihawi",
+      "sen_medilewo_ifitihawi",
+      "sen_anasa_kutir",
+      "sen_sidetegna_addis_hager",
+      "sen_fitihawi_ifitihawi"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_gesellschaft_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ikulinet",
+      "lex_medilewo",
+      "lex_anasa",
+      "lex_sidetegna",
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
+    "sentenceIds": [
+      "sen_ikulinet_fitihawi",
+      "sen_medilewo_ifitihawi",
+      "sen_anasa_kutir",
+      "sen_sidetegna_addis_hager",
+      "sen_fitihawi_ifitihawi"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_gesellschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ikulinet",
+      "lex_medilewo",
+      "lex_anasa",
+      "lex_sidetegna",
+      "lex_adj_fitihawi",
+      "lex_adj_ifitihawi"
+    ],
+    "sentenceIds": [
+      "sen_ikulinet_fitihawi",
+      "sen_medilewo_ifitihawi",
+      "sen_anasa_kutir",
+      "sen_sidetegna_addis_hager",
+      "sen_fitihawi_ifitihawi"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

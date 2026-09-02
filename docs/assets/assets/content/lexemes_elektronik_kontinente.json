@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lex_telefon",
+    "am": "ስልክ",
+    "tr": "silk",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "das Telefon, Handy",
+      "en": "telephone, phone",
+      "sv": "telefon",
+      "nl": "telefoon",
+      "it": "il telefono, il cellulare",
+      "es": "el teléfono, el móvil"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📱",
+    "verified": true
+  },
+  {
+    "id": "lex_internet",
+    "am": "ኢንተርኔት",
+    "tr": "internet",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "das Internet",
+      "en": "internet",
+      "sv": "internet",
+      "nl": "internet",
+      "it": "internet",
+      "es": "internet"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌐",
+    "verified": true
+  },
+  {
+    "id": "lex_email",
+    "am": "ኢሜል",
+    "tr": "imayl",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "die E-Mail",
+      "en": "email",
+      "sv": "e-post",
+      "nl": "e-mail",
+      "it": "l'email",
+      "es": "el correo electrónico"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📧",
+    "verified": false
+  },
+  {
+    "id": "lex_nachricht",
+    "am": "መልእክት",
+    "tr": "melikt",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "die Nachricht",
+      "en": "message",
+      "sv": "meddelande",
+      "nl": "bericht",
+      "it": "il messaggio",
+      "es": "el mensaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_batterie",
+    "am": "ባትሪ",
+    "tr": "batri",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "die Batterie",
+      "en": "battery",
+      "sv": "batteri",
+      "nl": "batterij",
+      "it": "la batteria",
+      "es": "la batería"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔋",
+    "verified": false
+  },
+  {
+    "id": "lex_v_anrufen",
+    "am": "መደወል",
+    "tr": "medewel",
+    "pos": "verb",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "anrufen",
+      "en": "to call",
+      "sv": "ringa",
+      "nl": "bellen",
+      "it": "chiamare",
+      "es": "llamar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_foto",
+    "am": "ፎቶ",
+    "tr": "foto",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "das Foto",
+      "en": "photo",
+      "sv": "foto",
+      "nl": "foto",
+      "it": "la foto",
+      "es": "la foto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📷",
+    "verified": true
+  },
+  {
+    "id": "lex_europa",
+    "am": "ኤውሮፓ",
+    "tr": "ewrop'a",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "Europa",
+      "en": "Europe",
+      "sv": "Europa",
+      "nl": "Europa",
+      "it": "Europa",
+      "es": "Europa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌍",
+    "verified": true
+  },
+  {
+    "id": "lex_asien",
+    "am": "ኤዥያ",
+    "tr": "ezhya",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "Asien",
+      "en": "Asia",
+      "sv": "Asien",
+      "nl": "Azië",
+      "it": "Asia",
+      "es": "Asia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌏",
+    "verified": false
+  },
+  {
+    "id": "lex_afrika",
+    "am": "አፍሪካ",
+    "tr": "afrika",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "Afrika",
+      "en": "Africa",
+      "sv": "Afrika",
+      "nl": "Afrika",
+      "it": "Africa",
+      "es": "África"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌍",
+    "verified": true
+  },
+  {
+    "id": "lex_australien",
+    "am": "አውስትራልያ",
+    "tr": "awstralya",
+    "pos": "noun",
+    "topic": "electronics_world",
+    "level": "A2",
+    "t": {
+      "de": "Australien",
+      "en": "Australia",
+      "sv": "Australien",
+      "nl": "Australië",
+      "it": "Australia",
+      "es": "Australia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌏",
+    "verified": false
+  }
+]

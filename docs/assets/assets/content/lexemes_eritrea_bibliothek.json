@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_bib_brrw",
+    "am": "ተለቓሒ መጽሓፍ",
+    "tr": "teleqahi metsihaf",
+    "pos": "verb",
+    "topic": "library",
+    "level": "TI",
+    "t": {
+      "de": "ausleihen (Buch)",
+      "en": "to borrow (book)",
+      "sv": "låna (bok)",
+      "nl": "lenen (boek)",
+      "it": "prendere in prestito (libro)",
+      "es": "pedir prestado (libro)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bib_rtrn",
+    "am": "መለሰ መጽሓፍ",
+    "tr": "melese metsihaf",
+    "pos": "verb",
+    "topic": "library",
+    "level": "TI",
+    "t": {
+      "de": "zurückgeben (Buch)",
+      "en": "to return (book)",
+      "sv": "lämna tillbaka (bok)",
+      "nl": "terugbrengen (boek)",
+      "it": "restituire (libro)",
+      "es": "devolver (libro)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bib_catlg",
+    "am": "ካታሎግ መጻሕፍቲ",
+    "tr": "katalog metsahifti",
+    "pos": "noun",
+    "topic": "library",
+    "level": "TI",
+    "t": {
+      "de": "der Katalog (Bibliothek)",
+      "en": "catalog (library)",
+      "sv": "katalog (bibliotek)",
+      "nl": "catalogus (bibliotheek)",
+      "it": "il catalogo (biblioteca)",
+      "es": "el catálogo (biblioteca)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bib_quiet",
+    "am": "ስቕታ",
+    "tr": "siqita",
+    "pos": "noun",
+    "topic": "library",
+    "level": "TI",
+    "t": {
+      "de": "die Stille",
+      "en": "silence",
+      "sv": "tystnad",
+      "nl": "stilte",
+      "it": "il silenzio",
+      "es": "el silencio"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

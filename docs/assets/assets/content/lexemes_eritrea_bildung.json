@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_klasi",
+    "am": "ክፍሊ (ደረጃ)",
+    "tr": "kifli dereja",
+    "pos": "noun",
+    "topic": "education_levels",
+    "level": "TI",
+    "t": {
+      "de": "die Klasse (Schulstufe)",
+      "en": "grade, class level",
+      "sv": "klass (skolnivå)",
+      "nl": "klas (schoolniveau)",
+      "it": "la classe (livello scolastico)",
+      "es": "el grado, el curso (nivel escolar)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_drgi",
+    "am": "ደረጃ (ውጽኢት)",
+    "tr": "dereja wits'i'it",
+    "pos": "noun",
+    "topic": "education_levels",
+    "level": "TI",
+    "t": {
+      "de": "die Note, das Ergebnis",
+      "en": "grade, result",
+      "sv": "betyg, resultat",
+      "nl": "cijfer, resultaat",
+      "it": "il voto, il risultato",
+      "es": "la nota, el resultado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dpluma",
+    "am": "ዲፕሎማ",
+    "tr": "diploma",
+    "pos": "noun",
+    "topic": "education_levels",
+    "level": "TI",
+    "t": {
+      "de": "das Diplom",
+      "en": "diploma",
+      "sv": "diplom",
+      "nl": "diploma",
+      "it": "il diploma",
+      "es": "el diploma"
+    },
+    "emoji": "🎓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dgree",
+    "am": "ዲግሪ",
+    "tr": "digri",
+    "pos": "noun",
+    "topic": "education_levels",
+    "level": "TI",
+    "t": {
+      "de": "der akademische Grad",
+      "en": "academic degree",
+      "sv": "akademisk examen",
+      "nl": "academische graad",
+      "it": "la laurea, il titolo accademico",
+      "es": "el título académico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msml",
+    "am": "ማስተርስ",
+    "tr": "masters",
+    "pos": "noun",
+    "topic": "education_levels",
+    "level": "TI",
+    "t": {
+      "de": "der Master (Abschluss)",
+      "en": "master's degree",
+      "sv": "masterexamen",
+      "nl": "master (diploma)",
+      "it": "il master",
+      "es": "el máster"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shhda2",
+    "am": "ምስክር ወረቐት",
+    "tr": "misikir wereqet",
+    "pos": "noun",
+    "topic": "education_levels",
+    "level": "TI",
+    "t": {
+      "de": "das Zertifikat, Zeugnis",
+      "en": "certificate",
+      "sv": "certifikat, betyg",
+      "nl": "certificaat, getuigschrift",
+      "it": "il certificato, l'attestato",
+      "es": "el certificado"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

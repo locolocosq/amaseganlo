@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hbz_wedaj",
+    "am": "ወዳጅ",
+    "tr": "wedaj",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "der Freund, Vertraute",
+      "en": "close friend",
+      "sv": "nära vän",
+      "nl": "goede vriend",
+      "it": "l'amico intimo",
+      "es": "el amigo íntimo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_fiker_gabicha",
+    "am": "ጋብቻ",
+    "tr": "gabicha",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "die Ehe, Heirat",
+      "en": "marriage",
+      "sv": "äktenskap",
+      "nl": "huwelijk",
+      "it": "il matrimonio",
+      "es": "el matrimonio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_v_megaba",
+    "am": "ማግባት",
+    "tr": "magibat",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "heiraten",
+      "en": "to marry",
+      "sv": "gifta sig",
+      "nl": "trouwen",
+      "it": "sposarsi",
+      "es": "casarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_arsi",
+    "am": "አጭ",
+    "tr": "achi",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "der Verlobte, die Verlobte",
+      "en": "fiancé/fiancée",
+      "sv": "förlovad",
+      "nl": "verloofde",
+      "it": "il fidanzato, la fidanzata",
+      "es": "el novio, la novia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbz_sidist",
+    "am": "ተጫጭ",
+    "tr": "techachi",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "die Verlobung",
+      "en": "engagement",
+      "sv": "förlovning",
+      "nl": "verloving",
+      "it": "il fidanzamento",
+      "es": "el compromiso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbz_firaq",
+    "am": "ፍቺ",
+    "tr": "fichi",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "die Scheidung",
+      "en": "divorce",
+      "sv": "skilsmässa",
+      "nl": "echtscheiding",
+      "it": "il divorzio",
+      "es": "el divorcio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_lemedi",
+    "am": "ጓደኝነት",
+    "tr": "guadegninet",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "die Freundschaft",
+      "en": "friendship",
+      "sv": "vänskap",
+      "nl": "vriendschap",
+      "it": "l'amicizia",
+      "es": "la amistad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_v_meamen",
+    "am": "ማመን",
+    "tr": "mamen",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "vertrauen",
+      "en": "to trust",
+      "sv": "lita på",
+      "nl": "vertrouwen",
+      "it": "fidarsi",
+      "es": "confiar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_iman",
+    "am": "መተማመን",
+    "tr": "metemamen",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "das Vertrauen",
+      "en": "trust",
+      "sv": "förtroende",
+      "nl": "vertrouwen (zn.)",
+      "it": "la fiducia",
+      "es": "la confianza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_gubaenya",
+    "am": "ጎረቤት",
+    "tr": "gorebet",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "der Nachbar",
+      "en": "neighbor",
+      "sv": "granne",
+      "nl": "buur",
+      "it": "il vicino",
+      "es": "el vecino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_zemed",
+    "am": "ዘመድ",
+    "tr": "zemed",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "der Verwandte",
+      "en": "relative",
+      "sv": "släkting",
+      "nl": "familielid",
+      "it": "il parente",
+      "es": "el pariente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_yeqirb_zemed",
+    "am": "የቅርብ ዘመድ",
+    "tr": "yekirib zemed",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "der nahe Verwandte",
+      "en": "close relative",
+      "sv": "nära släkting",
+      "nl": "naast familielid",
+      "it": "il parente stretto",
+      "es": "el pariente cercano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbz_v_metekakel8",
+    "am": "መተባበር",
+    "tr": "metebaber",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "zusammenarbeiten",
+      "en": "to cooperate",
+      "sv": "samarbeta",
+      "nl": "samenwerken",
+      "it": "collaborare",
+      "es": "colaborar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_hasabinet",
+    "am": "አለመግባባት",
+    "tr": "alemegibabat",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "das Missverständnis",
+      "en": "misunderstanding",
+      "sv": "missförstånd",
+      "nl": "misverstand",
+      "it": "il malinteso",
+      "es": "el malentendido"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbz_v_meridat2",
+    "am": "ማስታረቅ",
+    "tr": "masitarek'",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "versöhnen, vermitteln",
+      "en": "to reconcile, to mediate",
+      "sv": "förlika, medla",
+      "nl": "verzoenen, bemiddelen",
+      "it": "riconciliare, mediare",
+      "es": "reconciliar, mediar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbz_shimagle2",
+    "am": "ሽማግሌ",
+    "tr": "shimagile",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "der Ältestenvermittler",
+      "en": "elder mediator",
+      "sv": "äldre medlare",
+      "nl": "oudere bemiddelaar",
+      "it": "il mediatore anziano",
+      "es": "el mediador anciano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_akal8",
+    "am": "ማህበረሰብ",
+    "tr": "mahiberesab",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "die Gemeinschaft",
+      "en": "community",
+      "sv": "gemenskap",
+      "nl": "gemeenschap",
+      "it": "la comunità",
+      "es": "la comunidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_v_mekebir",
+    "am": "መከባበር",
+    "tr": "mekebaber",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "sich gegenseitig respektieren",
+      "en": "to respect each other",
+      "sv": "respektera varandra",
+      "nl": "elkaar respecteren",
+      "it": "rispettarsi a vicenda",
+      "es": "respetarse mutuamente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_kal_mel",
+    "am": "ቀጠሮ",
+    "tr": "k'et'ero",
+    "pos": "noun",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "die Verabredung, der Termin",
+      "en": "appointment, date",
+      "sv": "avtalad tid, träff",
+      "nl": "afspraak",
+      "it": "l'appuntamento",
+      "es": "la cita"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbz_v_mekeret",
+    "am": "መቀጣጠር",
+    "tr": "mek'et'at'er",
+    "pos": "verb",
+    "topic": "relationships",
+    "level": "B2",
+    "t": {
+      "de": "sich verabreden",
+      "en": "to arrange to meet",
+      "sv": "stämma träff",
+      "nl": "afspreken",
+      "it": "darsi appuntamento",
+      "es": "quedar (con alguien)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

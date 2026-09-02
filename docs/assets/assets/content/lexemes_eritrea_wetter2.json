@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_wt2_qsti",
+    "am": "ቀስተ ደመና",
+    "tr": "qeste demena",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "der Regenbogen",
+      "en": "rainbow",
+      "sv": "regnbåge",
+      "nl": "regenboog",
+      "it": "l'arcobaleno",
+      "es": "el arcoíris"
+    },
+    "emoji": "🌈",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_mbrq",
+    "am": "መብረቕ",
+    "tr": "mebreq",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "der Blitz",
+      "en": "lightning",
+      "sv": "blixt",
+      "nl": "bliksem",
+      "it": "il fulmine",
+      "es": "el relámpago"
+    },
+    "emoji": "⚡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_nqts",
+    "am": "ነጎዳ",
+    "tr": "negoda",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "der Donner",
+      "en": "thunder",
+      "sv": "åska",
+      "nl": "donder",
+      "it": "il tuono",
+      "es": "el trueno"
+    },
+    "emoji": "⛈️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_bred",
+    "am": "በረድ",
+    "tr": "bered",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "der Schnee",
+      "en": "snow",
+      "sv": "snö",
+      "nl": "sneeuw",
+      "it": "la neve",
+      "es": "la nieve"
+    },
+    "emoji": "❄️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_dmna",
+    "am": "ደመና",
+    "tr": "demena",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "die Wolke",
+      "en": "cloud",
+      "sv": "moln",
+      "nl": "wolk",
+      "it": "la nuvola",
+      "es": "la nube"
+    },
+    "emoji": "☁️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_tshy",
+    "am": "ጸሓያዊ መዓልቲ",
+    "tr": "tsehayawi me'alti",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "der Sonnenschein",
+      "en": "sunshine",
+      "sv": "solsken",
+      "nl": "zonneschijn",
+      "it": "il sole, la giornata di sole",
+      "es": "el sol, el día soleado"
+    },
+    "emoji": "☀️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_ershb",
+    "am": "ርስሓት ኣየር",
+    "tr": "risihat ayer",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "die Luftfeuchtigkeit",
+      "en": "humidity",
+      "sv": "luftfuktighet",
+      "nl": "luchtvochtigheid",
+      "it": "l'umidità",
+      "es": "la humedad"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wt2_kilma",
+    "am": "ኣየር ጠባይ",
+    "tr": "ayer t'ebay",
+    "pos": "noun",
+    "topic": "weather_more",
+    "level": "TI",
+    "t": {
+      "de": "das Klima",
+      "en": "climate",
+      "sv": "klimat",
+      "nl": "klimaat",
+      "it": "il clima",
+      "es": "el clima"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

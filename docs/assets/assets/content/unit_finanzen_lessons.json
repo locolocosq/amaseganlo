@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_finanzen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_finanzen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_finanzen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [
+      "sen_gen_darlehen",
+      "sen_gen_schulden",
+      "sen_gen_steuer",
+      "sen_gen_budget",
+      "sen_gen_versicherung"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_finanzen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [
+      "sen_gen_darlehen",
+      "sen_gen_schulden",
+      "sen_gen_steuer",
+      "sen_gen_budget",
+      "sen_gen_versicherung"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_finanzen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [
+      "sen_gen_darlehen",
+      "sen_gen_schulden",
+      "sen_gen_steuer",
+      "sen_gen_budget",
+      "sen_gen_versicherung"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_finanzen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_konto",
+      "lex_darlehen",
+      "lex_schulden",
+      "lex_steuer",
+      "lex_budget",
+      "lex_versicherung",
+      "lex_zinsen",
+      "lex_ersparnisse"
+    ],
+    "sentenceIds": [
+      "sen_gen_darlehen",
+      "sen_gen_schulden",
+      "sen_gen_steuer",
+      "sen_gen_budget",
+      "sen_gen_versicherung"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

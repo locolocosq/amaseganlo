@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_hoefliche_phrasen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_hoefliche_phrasen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [
+      "sen_fix_pagume",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_fix_nehase"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [
+      "sen_fix_pagume",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_fix_nehase"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [
+      "sen_fix_pagume",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_fix_nehase"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_hoefliche_phrasen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_tut_mir_leid",
+      "lex_kein_problem",
+      "lex_viel_glueck",
+      "lex_gute_reise",
+      "lex_zum_wohl"
+    ],
+    "sentenceIds": [
+      "sen_fix_pagume",
+      "sen_gen_kein_problem",
+      "sen_gen_viel_glueck",
+      "sen_gen_gute_reise",
+      "sen_fix_nehase"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

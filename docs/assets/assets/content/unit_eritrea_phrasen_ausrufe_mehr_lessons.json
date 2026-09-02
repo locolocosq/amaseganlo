@@ -1,0 +1,182 @@
+[
+  {
+    "id": "unit_eritrea_phrasen_ausrufe_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_ph2_bxi",
+      "lex_ti_ph2_hwn",
+      "lex_ti_ph2_gzm",
+      "lex_ti_ph2_kfu",
+      "lex_ti_ph2_slm2",
+      "lex_ti_ph2_hjkl",
+      "lex_ti_ph2_wehd",
+      "lex_ti_ph2_shkr2",
+      "lex_ti_au2_wow",
+      "lex_ti_au2_ohno",
+      "lex_ti_au2_brvo",
+      "lex_ti_au2_stop",
+      "lex_ti_au2_hlp",
+      "lex_ti_au2_wtch",
+      "lex_ti_au2_gdjb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_phrasen_ausrufe_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_ph2_bxi",
+      "lex_ti_ph2_hwn",
+      "lex_ti_ph2_gzm",
+      "lex_ti_ph2_kfu",
+      "lex_ti_ph2_slm2",
+      "lex_ti_ph2_hjkl",
+      "lex_ti_ph2_wehd",
+      "lex_ti_ph2_shkr2",
+      "lex_ti_au2_wow",
+      "lex_ti_au2_ohno",
+      "lex_ti_au2_brvo",
+      "lex_ti_au2_stop",
+      "lex_ti_au2_hlp",
+      "lex_ti_au2_wtch",
+      "lex_ti_au2_gdjb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_phrasen_ausrufe_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_ph2_bxi",
+      "lex_ti_ph2_hwn",
+      "lex_ti_ph2_gzm",
+      "lex_ti_ph2_kfu",
+      "lex_ti_ph2_slm2",
+      "lex_ti_ph2_hjkl",
+      "lex_ti_ph2_wehd",
+      "lex_ti_ph2_shkr2",
+      "lex_ti_au2_wow",
+      "lex_ti_au2_ohno",
+      "lex_ti_au2_brvo",
+      "lex_ti_au2_stop",
+      "lex_ti_au2_hlp",
+      "lex_ti_au2_wtch",
+      "lex_ti_au2_gdjb"
+    ],
+    "sentenceIds": [
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_fix_hy2_mrrr",
+      "sen_gen_ph2_slm2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_phrasen_ausrufe_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_ph2_bxi",
+      "lex_ti_ph2_hwn",
+      "lex_ti_ph2_gzm",
+      "lex_ti_ph2_kfu",
+      "lex_ti_ph2_slm2",
+      "lex_ti_ph2_hjkl",
+      "lex_ti_ph2_wehd",
+      "lex_ti_ph2_shkr2",
+      "lex_ti_au2_wow",
+      "lex_ti_au2_ohno",
+      "lex_ti_au2_brvo",
+      "lex_ti_au2_stop",
+      "lex_ti_au2_hlp",
+      "lex_ti_au2_wtch",
+      "lex_ti_au2_gdjb"
+    ],
+    "sentenceIds": [
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_fix_hy2_mrrr",
+      "sen_gen_ph2_slm2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_phrasen_ausrufe_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_ph2_bxi",
+      "lex_ti_ph2_hwn",
+      "lex_ti_ph2_gzm",
+      "lex_ti_ph2_kfu",
+      "lex_ti_ph2_slm2",
+      "lex_ti_ph2_hjkl",
+      "lex_ti_ph2_wehd",
+      "lex_ti_ph2_shkr2",
+      "lex_ti_au2_wow",
+      "lex_ti_au2_ohno",
+      "lex_ti_au2_brvo",
+      "lex_ti_au2_stop",
+      "lex_ti_au2_hlp",
+      "lex_ti_au2_wtch",
+      "lex_ti_au2_gdjb"
+    ],
+    "sentenceIds": [
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_fix_hy2_mrrr",
+      "sen_gen_ph2_slm2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_phrasen_ausrufe_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_ph2_bxi",
+      "lex_ti_ph2_hwn",
+      "lex_ti_ph2_gzm",
+      "lex_ti_ph2_kfu",
+      "lex_ti_ph2_slm2",
+      "lex_ti_ph2_hjkl",
+      "lex_ti_ph2_wehd",
+      "lex_ti_ph2_shkr2",
+      "lex_ti_au2_wow",
+      "lex_ti_au2_ohno",
+      "lex_ti_au2_brvo",
+      "lex_ti_au2_stop",
+      "lex_ti_au2_hlp",
+      "lex_ti_au2_wtch",
+      "lex_ti_au2_gdjb"
+    ],
+    "sentenceIds": [
+      "sen_ti_phrasen_ausrufe_mehr_1",
+      "sen_gen_ph2_hwn",
+      "sen_gen_ph2_gzm",
+      "sen_fix_hy2_mrrr",
+      "sen_gen_ph2_slm2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

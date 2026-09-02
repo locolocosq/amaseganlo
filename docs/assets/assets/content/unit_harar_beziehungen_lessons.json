@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_beziehungen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hbz_wedaj",
+      "lex_hbz_fiker_gabicha",
+      "lex_hbz_v_megaba",
+      "lex_hbz_arsi",
+      "lex_hbz_sidist",
+      "lex_hbz_firaq",
+      "lex_hbz_lemedi",
+      "lex_hbz_v_meamen",
+      "lex_hbz_iman",
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_yeqirb_zemed",
+      "lex_hbz_v_metekakel8",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2",
+      "lex_hbz_shimagle2",
+      "lex_hbz_akal8",
+      "lex_hbz_v_mekebir",
+      "lex_hbz_kal_mel",
+      "lex_hbz_v_mekeret"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_beziehungen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hbz_wedaj",
+      "lex_hbz_fiker_gabicha",
+      "lex_hbz_v_megaba",
+      "lex_hbz_arsi",
+      "lex_hbz_sidist",
+      "lex_hbz_firaq",
+      "lex_hbz_lemedi",
+      "lex_hbz_v_meamen",
+      "lex_hbz_iman",
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_yeqirb_zemed",
+      "lex_hbz_v_metekakel8",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2",
+      "lex_hbz_shimagle2",
+      "lex_hbz_akal8",
+      "lex_hbz_v_mekebir",
+      "lex_hbz_kal_mel",
+      "lex_hbz_v_mekeret"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_beziehungen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hbz_wedaj",
+      "lex_hbz_fiker_gabicha",
+      "lex_hbz_v_megaba",
+      "lex_hbz_arsi",
+      "lex_hbz_sidist",
+      "lex_hbz_firaq",
+      "lex_hbz_lemedi",
+      "lex_hbz_v_meamen",
+      "lex_hbz_iman",
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_yeqirb_zemed",
+      "lex_hbz_v_metekakel8",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2",
+      "lex_hbz_shimagle2",
+      "lex_hbz_akal8",
+      "lex_hbz_v_mekebir",
+      "lex_hbz_kal_mel",
+      "lex_hbz_v_mekeret"
+    ],
+    "sentenceIds": [
+      "sen_hbz_wedaj_meamen",
+      "sen_hbz_megaba_gabicha",
+      "sen_hbz_gorebet_zemed",
+      "sen_hbz_shimagle_hasabinet",
+      "sen_gen_hbz_arsi"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_beziehungen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hbz_wedaj",
+      "lex_hbz_fiker_gabicha",
+      "lex_hbz_v_megaba",
+      "lex_hbz_arsi",
+      "lex_hbz_sidist",
+      "lex_hbz_firaq",
+      "lex_hbz_lemedi",
+      "lex_hbz_v_meamen",
+      "lex_hbz_iman",
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_yeqirb_zemed",
+      "lex_hbz_v_metekakel8",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2",
+      "lex_hbz_shimagle2",
+      "lex_hbz_akal8",
+      "lex_hbz_v_mekebir",
+      "lex_hbz_kal_mel",
+      "lex_hbz_v_mekeret"
+    ],
+    "sentenceIds": [
+      "sen_hbz_wedaj_meamen",
+      "sen_hbz_megaba_gabicha",
+      "sen_hbz_gorebet_zemed",
+      "sen_hbz_shimagle_hasabinet",
+      "sen_gen_hbz_arsi"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_beziehungen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hbz_wedaj",
+      "lex_hbz_fiker_gabicha",
+      "lex_hbz_v_megaba",
+      "lex_hbz_arsi",
+      "lex_hbz_sidist",
+      "lex_hbz_firaq",
+      "lex_hbz_lemedi",
+      "lex_hbz_v_meamen",
+      "lex_hbz_iman",
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_yeqirb_zemed",
+      "lex_hbz_v_metekakel8",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2",
+      "lex_hbz_shimagle2",
+      "lex_hbz_akal8",
+      "lex_hbz_v_mekebir",
+      "lex_hbz_kal_mel",
+      "lex_hbz_v_mekeret"
+    ],
+    "sentenceIds": [
+      "sen_hbz_wedaj_meamen",
+      "sen_hbz_megaba_gabicha",
+      "sen_hbz_gorebet_zemed",
+      "sen_hbz_shimagle_hasabinet",
+      "sen_gen_hbz_arsi"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_beziehungen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hbz_wedaj",
+      "lex_hbz_fiker_gabicha",
+      "lex_hbz_v_megaba",
+      "lex_hbz_arsi",
+      "lex_hbz_sidist",
+      "lex_hbz_firaq",
+      "lex_hbz_lemedi",
+      "lex_hbz_v_meamen",
+      "lex_hbz_iman",
+      "lex_hbz_gubaenya",
+      "lex_hbz_zemed",
+      "lex_hbz_yeqirb_zemed",
+      "lex_hbz_v_metekakel8",
+      "lex_hbz_hasabinet",
+      "lex_hbz_v_meridat2",
+      "lex_hbz_shimagle2",
+      "lex_hbz_akal8",
+      "lex_hbz_v_mekebir",
+      "lex_hbz_kal_mel",
+      "lex_hbz_v_mekeret"
+    ],
+    "sentenceIds": [
+      "sen_hbz_wedaj_meamen",
+      "sen_hbz_megaba_gabicha",
+      "sen_hbz_gorebet_zemed",
+      "sen_hbz_shimagle_hasabinet",
+      "sen_gen_hbz_arsi"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "unit_persoenlichkeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_intelligent",
+      "lex_faul",
+      "lex_fleissig",
+      "lex_ehrlich",
+      "lex_grossherzig",
+      "lex_lustig",
+      "lex_ernst",
+      "lex_schuechtern",
+      "lex_mutig",
+      "lex_geduldig",
+      "lex_stur"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_persoenlichkeit_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_intelligent",
+      "lex_faul",
+      "lex_fleissig",
+      "lex_ehrlich",
+      "lex_grossherzig",
+      "lex_lustig",
+      "lex_ernst",
+      "lex_schuechtern",
+      "lex_mutig",
+      "lex_geduldig",
+      "lex_stur"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_persoenlichkeit_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_intelligent",
+      "lex_faul",
+      "lex_fleissig",
+      "lex_ehrlich",
+      "lex_grossherzig",
+      "lex_lustig",
+      "lex_ernst",
+      "lex_schuechtern",
+      "lex_mutig",
+      "lex_geduldig",
+      "lex_stur"
+    ],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_persoenlichkeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_intelligent",
+      "lex_faul",
+      "lex_fleissig",
+      "lex_ehrlich",
+      "lex_grossherzig",
+      "lex_lustig",
+      "lex_ernst",
+      "lex_schuechtern",
+      "lex_mutig",
+      "lex_geduldig",
+      "lex_stur"
+    ],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_persoenlichkeit_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_intelligent",
+      "lex_faul",
+      "lex_fleissig",
+      "lex_ehrlich",
+      "lex_grossherzig",
+      "lex_lustig",
+      "lex_ernst",
+      "lex_schuechtern",
+      "lex_mutig",
+      "lex_geduldig",
+      "lex_stur"
+    ],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_persoenlichkeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_intelligent",
+      "lex_faul",
+      "lex_fleissig",
+      "lex_ehrlich",
+      "lex_grossherzig",
+      "lex_lustig",
+      "lex_ernst",
+      "lex_schuechtern",
+      "lex_mutig",
+      "lex_geduldig",
+      "lex_stur"
+    ],
+    "sentenceIds": [
+      "sen_gen_intelligent",
+      "sen_gen_faul",
+      "sen_gen_fleissig",
+      "sen_gen_ehrlich",
+      "sen_gen_grossherzig"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "id": "sen_safari_bw_deg_tinish",
+    "am": "እሱ ደግ ነው፣ ግን እሷ ትንሽ ናት።",
+    "tr": "issu deg new, gin iswa tinish nat.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_nett",
+      "lex_copula_new",
+      "lex_aber",
+      "lex_iswa",
+      "lex_klein",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Er ist nett, aber sie ist klein.",
+      "en": "He is kind, but she is small.",
+      "sv": "Han är snäll, men hon är liten.",
+      "nl": "Hij is aardig, maar zij is klein.",
+      "it": "Lui è gentile, ma lei è piccola.",
+      "es": "Él es amable, pero ella es pequeña."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "deg,",
+      "gin",
+      "iswa",
+      "tinish",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_bilih_dekama",
+    "am": "አንተ ብልህ ነህ፣ ግን አንቺ ደካማ ነሽ።",
+    "tr": "ante bilih neh, gin anchi dekama nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_weise",
+      "lex_copula_neh",
+      "lex_aber",
+      "lex_anchi",
+      "lex_schwach",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (m.) bist klug, aber du (f.) bist schwach.",
+      "en": "You (masc.) are smart, but you (fem.) are weak.",
+      "sv": "Du (mask.) är smart, men du (fem.) är svag.",
+      "nl": "Jij (m.) bent slim, maar jij (v.) bent zwak.",
+      "it": "Tu (m.) sei intelligente, ma tu (f.) sei debole.",
+      "es": "Tú (m.) eres inteligente, pero tú (f.) eres débil."
+    },
+    "alt": {},
+    "chunks": [
+      "ante",
+      "bilih,",
+      "gin",
+      "anchi",
+      "dekama",
+      "nesh."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_tilik_konjo",
+    "am": "እሱ ትልቅ ነው እና እሷ ቆንጆ ናት።",
+    "tr": "issu tilik' new ina iswa konjo nat.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_gross",
+      "lex_copula_new",
+      "lex_und",
+      "lex_iswa",
+      "lex_schoen",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Er ist groß, und sie ist schön.",
+      "en": "He is tall, and she is beautiful.",
+      "sv": "Han är lång, och hon är vacker.",
+      "nl": "Hij is groot, en zij is mooi.",
+      "it": "Lui è alto, e lei è bella.",
+      "es": "Él es alto, y ella es guapa."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "tilik'",
+      "new",
+      "ina",
+      "iswa",
+      "konjo",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_fetan_bilih",
+    "am": "አንተ ፈጣን ነህ እና አንቺ ብልህ ነሽ።",
+    "tr": "ante fetan neh ina anchi bilih nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_schnell",
+      "lex_copula_neh",
+      "lex_und",
+      "lex_anchi",
+      "lex_weise",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (m.) bist schnell, und du (f.) bist klug.",
+      "en": "You (masc.) are fast, and you (fem.) are smart.",
+      "sv": "Du (mask.) är snabb, och du (fem.) är smart.",
+      "nl": "Jij (m.) bent snel, en jij (v.) bent slim.",
+      "it": "Tu (m.) sei veloce, e tu (f.) sei intelligente.",
+      "es": "Tú (m.) eres rápido, y tú (f.) eres inteligente."
+    },
+    "alt": {},
+    "chunks": [
+      "ante",
+      "fetan",
+      "neh",
+      "ina",
+      "anchi",
+      "bilih",
+      "nesh."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_tenama_dekama",
+    "am": "እሱ ጤናማ ነው ወይም ደካማ ነው።",
+    "tr": "issu t'enama new weyim dekama new.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_gesund",
+      "lex_copula_new",
+      "lex_oder",
+      "lex_schwach"
+    ],
+    "t": {
+      "de": "Er ist entweder gesund oder schwach.",
+      "en": "He is either healthy or weak.",
+      "sv": "Han är antingen frisk eller svag.",
+      "nl": "Hij is óf gezond óf zwak.",
+      "it": "Lui è sano oppure debole.",
+      "es": "Él está sano o débil."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "t'enama",
+      "new",
+      "weyim",
+      "dekama",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_habtam_dha",
+    "am": "እሷ ሀብታም ናት ወይም ድሃ ናት።",
+    "tr": "iswa habtam nat weyim dha nat.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_reich",
+      "lex_copula_nat",
+      "lex_oder",
+      "lex_arm"
+    ],
+    "t": {
+      "de": "Sie ist entweder reich oder arm.",
+      "en": "She is either rich or poor.",
+      "sv": "Hon är antingen rik eller fattig.",
+      "nl": "Zij is óf rijk óf arm.",
+      "it": "Lei è ricca oppure povera.",
+      "es": "Ella es rica o pobre."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "habtam",
+      "nat",
+      "weyim",
+      "dha",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_habtam_destegna",
+    "am": "እሱ ሀብታም ነው፣ ስለዚህ እሷ ደስተኛ ናት።",
+    "tr": "issu habtam new, silezih iswa destegna nat.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_reich",
+      "lex_copula_new",
+      "lex_deshalb",
+      "lex_iswa",
+      "lex_gluecklich",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Er ist reich, deshalb ist sie glücklich.",
+      "en": "He is rich, therefore she is happy.",
+      "sv": "Han är rik, därför är hon glad.",
+      "nl": "Hij is rijk, daarom is zij gelukkig.",
+      "it": "Lui è ricco, quindi lei è felice.",
+      "es": "Él es rico, por eso ella está feliz."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "habtam,",
+      "silezih",
+      "iswa",
+      "destegna",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_tenkara_tenama",
+    "am": "አንተ ጠንካራ ነህ፣ ስለዚህ አንቺ ጤናማ ነሽ።",
+    "tr": "ante t'enkara neh, silezih anchi t'enama nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_stark",
+      "lex_copula_neh",
+      "lex_deshalb",
+      "lex_anchi",
+      "lex_gesund",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (m.) bist stark, deshalb bist du (f.) gesund.",
+      "en": "You (masc.) are strong, therefore you (fem.) are healthy.",
+      "sv": "Du (mask.) är stark, därför är du (fem.) frisk.",
+      "nl": "Jij (m.) bent sterk, daarom ben jij (v.) gezond.",
+      "it": "Tu (m.) sei forte, quindi tu (f.) sei sana.",
+      "es": "Tú (m.) eres fuerte, por eso tú (f.) estás sana."
+    },
+    "alt": {},
+    "chunks": [
+      "ante",
+      "t'enkara,",
+      "silezih",
+      "anchi",
+      "t'enama",
+      "nesh."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_dekama_tenkara",
+    "am": "እሱ ደካማ ነው፣ እያለ እሷ ጠንካራ ናት።",
+    "tr": "issu dekama new, iyale iswa t'enkara nat.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_schwach",
+      "lex_copula_new",
+      "lex_waehrend",
+      "lex_iswa",
+      "lex_stark",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Er ist schwach, während sie stark ist.",
+      "en": "He is weak, while she is strong.",
+      "sv": "Han är svag, medan hon är stark.",
+      "nl": "Hij is zwak, terwijl zij sterk is.",
+      "it": "Lui è debole, mentre lei è forte.",
+      "es": "Él es débil, mientras que ella es fuerte."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "dekama,",
+      "iyale",
+      "iswa",
+      "t'enkara",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_bw_aroge_tenkara",
+    "am": "እሱ አሮጌ ነው፣ ምንም እንኳን እሷ ጠንካራ ናት።",
+    "tr": "issu aroge new, minim inikwan iswa t'enkara nat.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_alt",
+      "lex_copula_new",
+      "lex_obwohl",
+      "lex_iswa",
+      "lex_stark",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Er ist alt, obwohl sie stark ist.",
+      "en": "He is old, although she is strong.",
+      "sv": "Han är gammal, även om hon är stark.",
+      "nl": "Hij is oud, hoewel zij sterk is.",
+      "it": "Lui è vecchio, anche se lei è forte.",
+      "es": "Él es viejo, aunque ella es fuerte."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "aroge,",
+      "minim",
+      "inikwan",
+      "iswa",
+      "t'enkara",
+      "nat."
+    ],
+    "verified": false
+  }
+]

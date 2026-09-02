@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_harar_islam_gemeinschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_sheikh",
+      "lex_ustaz",
+      "lex_medresa",
+      "lex_adj_halal",
+      "lex_adj_haram",
+      "lex_v_amen",
+      "lex_hajji_title"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_islam_gemeinschaft_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_sheikh",
+      "lex_ustaz",
+      "lex_medresa",
+      "lex_adj_halal",
+      "lex_adj_haram",
+      "lex_v_amen",
+      "lex_hajji_title"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_gemeinschaft_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_sheikh",
+      "lex_ustaz",
+      "lex_medresa",
+      "lex_adj_halal",
+      "lex_adj_haram",
+      "lex_v_amen",
+      "lex_hajji_title"
+    ],
+    "sentenceIds": [
+      "sen_sheikh_tamagn",
+      "sen_ustaz_medresa",
+      "sen_halal_haram",
+      "sen_muslim_amen_allah",
+      "sen_hajji_meka"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_gemeinschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_sheikh",
+      "lex_ustaz",
+      "lex_medresa",
+      "lex_adj_halal",
+      "lex_adj_haram",
+      "lex_v_amen",
+      "lex_hajji_title"
+    ],
+    "sentenceIds": [
+      "sen_sheikh_tamagn",
+      "sen_ustaz_medresa",
+      "sen_halal_haram",
+      "sen_muslim_amen_allah",
+      "sen_hajji_meka"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_gemeinschaft_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_sheikh",
+      "lex_ustaz",
+      "lex_medresa",
+      "lex_adj_halal",
+      "lex_adj_haram",
+      "lex_v_amen",
+      "lex_hajji_title"
+    ],
+    "sentenceIds": [
+      "sen_sheikh_tamagn",
+      "sen_ustaz_medresa",
+      "sen_halal_haram",
+      "sen_muslim_amen_allah",
+      "sen_hajji_meka"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_gemeinschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_sheikh",
+      "lex_ustaz",
+      "lex_medresa",
+      "lex_adj_halal",
+      "lex_adj_haram",
+      "lex_v_amen",
+      "lex_hajji_title"
+    ],
+    "sentenceIds": [
+      "sen_sheikh_tamagn",
+      "sen_ustaz_medresa",
+      "sen_halal_haram",
+      "sen_muslim_amen_allah",
+      "sen_hajji_meka"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

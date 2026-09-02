@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_agri",
+    "am": "ሕርሻ",
+    "tr": "hirsha",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "die Landwirtschaft",
+      "en": "agriculture, farming",
+      "sv": "jordbruk",
+      "nl": "landbouw",
+      "it": "l'agricoltura",
+      "es": "la agricultura"
+    },
+    "emoji": "🌾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agdi",
+    "am": "ግራት",
+    "tr": "girat",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "das Feld",
+      "en": "field",
+      "sv": "åker, fält",
+      "nl": "veld, akker",
+      "it": "il campo",
+      "es": "el campo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zerie",
+    "am": "ዘርኢ",
+    "tr": "zeri'i",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "der Samen",
+      "en": "seed",
+      "sv": "frö",
+      "nl": "zaad",
+      "it": "il seme",
+      "es": "la semilla"
+    },
+    "emoji": "🌱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_asrha",
+    "am": "ምሕራስ",
+    "tr": "mihiras",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "das Pflügen",
+      "en": "plowing",
+      "sv": "plöjning",
+      "nl": "ploegen",
+      "it": "l'aratura",
+      "es": "el arado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_asisi",
+    "am": "ምእካብ",
+    "tr": "mi'ikab",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "die Ernte",
+      "en": "harvest",
+      "sv": "skörd",
+      "nl": "oogst",
+      "it": "il raccolto",
+      "es": "la cosecha"
+    },
+    "emoji": "🌾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bahri3",
+    "am": "ጽገራይ",
+    "tr": "tsigeray",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "der Gärtner",
+      "en": "gardener",
+      "sv": "trädgårdsmästare",
+      "nl": "tuinman",
+      "it": "il giardiniere",
+      "es": "el jardinero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hntsi",
+    "am": "እኽሊ",
+    "tr": "ikhli",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "das Getreide",
+      "en": "grain, crop",
+      "sv": "säd, gröda",
+      "nl": "graan, gewas",
+      "it": "il cereale, il raccolto",
+      "es": "el grano, el cultivo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bagi",
+    "am": "ዕፉን",
+    "tr": "'ifun",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "die Erbse",
+      "en": "peas",
+      "sv": "ärtor",
+      "nl": "erwten",
+      "it": "il pisello",
+      "es": "el guisante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bqola",
+    "am": "ባልደንጓ",
+    "tr": "baldenwa",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "die Aubergine",
+      "en": "eggplant",
+      "sv": "aubergine",
+      "nl": "aubergine",
+      "it": "la melanzana",
+      "es": "la berenjena"
+    },
+    "emoji": "🍆",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qesel",
+    "am": "በለስ",
+    "tr": "beles",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "die Kaktusfeige",
+      "en": "cactus fruit",
+      "sv": "kaktusfrukt",
+      "nl": "cactusvrucht",
+      "it": "il fico d'India",
+      "es": "el higo chumbo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wenz2",
+    "am": "ገረብ ፍረ",
+    "tr": "gereb fire",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "der Obstbaum",
+      "en": "fruit tree",
+      "sv": "fruktträd",
+      "nl": "fruitboom",
+      "it": "l'albero da frutto",
+      "es": "el árbol frutal"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_maiy",
+    "am": "ማይ ምስትያት",
+    "tr": "mai mistiyat",
+    "pos": "noun",
+    "topic": "agriculture",
+    "level": "TI",
+    "t": {
+      "de": "die Bewässerung",
+      "en": "irrigation",
+      "sv": "bevattning",
+      "nl": "irrigatie",
+      "it": "l'irrigazione",
+      "es": "el riego"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

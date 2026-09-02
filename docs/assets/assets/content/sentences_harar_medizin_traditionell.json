@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sen_hmt_hakim_medhanit",
+    "am": "ባህላዊ ሐኪም መድሃኒት ይሰጣል።",
+    "tr": "bahilawi hakim medhanit yisetal.",
+    "level": "B2",
+    "uses": [
+      "lex_hmt_hakim",
+      "lex_hmt_medhanit"
+    ],
+    "t": {
+      "de": "Der traditionelle Heiler gibt Medizin.",
+      "en": "The traditional healer gives medicine.",
+      "sv": "Den traditionella helaren ger medicin.",
+      "nl": "De traditionele genezer geeft medicijn.",
+      "it": "Il guaritore tradizionale dà medicine.",
+      "es": "El curandero tradicional da medicina."
+    },
+    "chunks": [
+      "bahilawi",
+      "hakim",
+      "medhanit",
+      "yisetal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hmt_shirit_sifar",
+    "am": "ቅጠል እና ስር ለመድሃኒት ይጠቅማሉ።",
+    "tr": "k'it'el ina sir lemedhanit yit'ek'imalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hmt_shirit",
+      "lex_hmt_sifar"
+    ],
+    "t": {
+      "de": "Blatt und Wurzel sind nützlich für Medizin.",
+      "en": "Leaf and root are useful for medicine.",
+      "sv": "Blad och rot är användbara för medicin.",
+      "nl": "Blad en wortel zijn nuttig voor medicijn.",
+      "it": "La foglia e la radice sono utili per la medicina.",
+      "es": "La hoja y la raíz son útiles para la medicina."
+    },
+    "chunks": [
+      "k'it'el",
+      "ina",
+      "sir",
+      "lemedhanit",
+      "yit'ek'imalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hmt_fasait_hiwot",
+    "am": "ማር ለጤንነት ጥሩ ነው።",
+    "tr": "mar let'eninet t'iru newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hmt_fasait",
+      "lex_hmt_hiwot"
+    ],
+    "t": {
+      "de": "Honig ist gut für die Gesundheit.",
+      "en": "Honey is good for health.",
+      "sv": "Honung är bra för hälsan.",
+      "nl": "Honing is goed voor de gezondheid.",
+      "it": "Il miele fa bene alla salute.",
+      "es": "La miel es buena para la salud."
+    },
+    "chunks": [
+      "mar",
+      "let'eninet",
+      "t'iru",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hmt_v_makem2_kusil",
+    "am": "ባህላዊ ሐኪም ቁስል ያድናል።",
+    "tr": "bahilawi hakim k'usil yadinal.",
+    "level": "B2",
+    "uses": [
+      "lex_hmt_hakim",
+      "lex_hmt_v_makem2",
+      "lex_hmt_kusil"
+    ],
+    "t": {
+      "de": "Der Heiler heilt die Wunde.",
+      "en": "The healer heals the wound.",
+      "sv": "Helaren botar såret.",
+      "nl": "De genezer geneest de wond.",
+      "it": "Il guaritore guarisce la ferita.",
+      "es": "El curandero cura la herida."
+    },
+    "chunks": [
+      "bahilawi",
+      "hakim",
+      "k'usil",
+      "yadinal"
+    ],
+    "verified": false
+  }
+]

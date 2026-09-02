@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lex_obwohl",
+    "am": "ምንም እንኳን",
+    "tr": "minim inikwan",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "obwohl",
+      "en": "although",
+      "sv": "även om",
+      "nl": "hoewel",
+      "it": "sebbene, benché",
+      "es": "aunque"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wenn_falls",
+    "am": "ከ...ቢ",
+    "tr": "ke...bi",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "wenn, falls",
+      "en": "if",
+      "sv": "om",
+      "nl": "als",
+      "it": "se",
+      "es": "si"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wann_konj",
+    "am": "ስንት ጊዜ",
+    "tr": "sinit gize",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "wann (als)",
+      "en": "when",
+      "sv": "när",
+      "nl": "wanneer",
+      "it": "quando",
+      "es": "cuando"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_waehrend",
+    "am": "እያለ",
+    "tr": "iyale",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "während",
+      "en": "while",
+      "sv": "medan",
+      "nl": "terwijl",
+      "it": "mentre",
+      "es": "mientras"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_seit_konj",
+    "am": "ከ...ጀምሮ",
+    "tr": "ke...jemro",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "seit, seitdem",
+      "en": "since",
+      "sv": "sedan",
+      "nl": "sinds",
+      "it": "da quando",
+      "es": "desde que"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_deshalb",
+    "am": "ስለዚህ",
+    "tr": "silezih",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "deshalb, deswegen",
+      "en": "therefore",
+      "sv": "därför",
+      "nl": "daarom",
+      "it": "perciò, quindi",
+      "es": "por eso, por lo tanto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ausser_wenn",
+    "am": "ካልሆነ በስተቀር",
+    "tr": "kalhone besitek'er",
+    "pos": "conjunction",
+    "topic": "conjunctions",
+    "level": "A2",
+    "t": {
+      "de": "außer wenn, es sei denn",
+      "en": "unless",
+      "sv": "om inte",
+      "nl": "tenzij",
+      "it": "a meno che",
+      "es": "a menos que"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

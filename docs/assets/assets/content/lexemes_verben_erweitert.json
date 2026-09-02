@@ -1,0 +1,662 @@
+[
+  {
+    "id": "lex_v_beginnen",
+    "am": "መጀመር",
+    "tr": "mejemer",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "beginnen",
+      "en": "to begin",
+      "sv": "börja",
+      "nl": "beginnen",
+      "it": "iniziare",
+      "es": "empezar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_aufhoeren",
+    "am": "ማቆም",
+    "tr": "mak'om",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "aufhören, anhalten",
+      "en": "to stop",
+      "sv": "sluta, stanna",
+      "nl": "stoppen",
+      "it": "smettere, fermarsi",
+      "es": "parar, dejar de"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_gewinnen",
+    "am": "ማሸነፍ",
+    "tr": "mashenef",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "gewinnen",
+      "en": "to win",
+      "sv": "vinna",
+      "nl": "winnen",
+      "it": "vincere",
+      "es": "ganar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_verlieren",
+    "am": "ማጣት",
+    "tr": "mat'at",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "verlieren",
+      "en": "to lose",
+      "sv": "förlora",
+      "nl": "verliezen",
+      "it": "perdere",
+      "es": "perder"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_bezahlen",
+    "am": "መክፈል",
+    "tr": "mekfel",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "bezahlen",
+      "en": "to pay",
+      "sv": "betala",
+      "nl": "betalen",
+      "it": "pagare",
+      "es": "pagar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_sparen",
+    "am": "ማጠራቀም",
+    "tr": "mat'erakem",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "sparen",
+      "en": "to save (money)",
+      "sv": "spara",
+      "nl": "sparen",
+      "it": "risparmiare",
+      "es": "ahorrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_teilen",
+    "am": "ማካፈል",
+    "tr": "makafel",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "teilen",
+      "en": "to share",
+      "sv": "dela",
+      "nl": "delen",
+      "it": "condividere",
+      "es": "compartir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_sammeln",
+    "am": "መሰብሰብ",
+    "tr": "mesebsebe",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "sammeln",
+      "en": "to collect",
+      "sv": "samla",
+      "nl": "verzamelen",
+      "it": "raccogliere",
+      "es": "recoger"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_waehlen",
+    "am": "መምረጥ",
+    "tr": "memret'",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "wählen",
+      "en": "to choose",
+      "sv": "välja",
+      "nl": "kiezen",
+      "it": "scegliere",
+      "es": "elegir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_vergessen",
+    "am": "መርሳት",
+    "tr": "mersat",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "vergessen",
+      "en": "to forget",
+      "sv": "glömma",
+      "nl": "vergeten",
+      "it": "dimenticare",
+      "es": "olvidar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_erinnern",
+    "am": "ማስታወስ",
+    "tr": "mastawes",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "sich erinnern",
+      "en": "to remember",
+      "sv": "komma ihåg",
+      "nl": "onthouden",
+      "it": "ricordarsi",
+      "es": "acordarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_erklaeren",
+    "am": "ማብራራት",
+    "tr": "mabrarat",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "erklären",
+      "en": "to explain",
+      "sv": "förklara",
+      "nl": "uitleggen",
+      "it": "spiegare",
+      "es": "explicar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_uebersetzen",
+    "am": "መተርጎም",
+    "tr": "metergom",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "übersetzen",
+      "en": "to translate",
+      "sv": "översätta",
+      "nl": "vertalen",
+      "it": "tradurre",
+      "es": "traducir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_wiederholen",
+    "am": "መድገም",
+    "tr": "medgem",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "wiederholen",
+      "en": "to repeat",
+      "sv": "upprepa",
+      "nl": "herhalen",
+      "it": "ripetere",
+      "es": "repetir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_ueben",
+    "am": "መለማመድ",
+    "tr": "melemamed",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "üben",
+      "en": "to practice",
+      "sv": "öva",
+      "nl": "oefenen",
+      "it": "esercitarsi",
+      "es": "practicar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_unterrichten",
+    "am": "ማስተማር",
+    "tr": "mastemar",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "unterrichten",
+      "en": "to teach",
+      "sv": "undervisa",
+      "nl": "onderwijzen",
+      "it": "insegnare",
+      "es": "enseñar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_putzen",
+    "am": "ማጽዳት",
+    "tr": "mats'idat",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "putzen, reinigen",
+      "en": "to clean",
+      "sv": "göra rent",
+      "nl": "schoonmaken",
+      "it": "pulire",
+      "es": "limpiar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_zeigen",
+    "am": "ማሳየት",
+    "tr": "masayet",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "zeigen",
+      "en": "to show",
+      "sv": "visa",
+      "nl": "laten zien",
+      "it": "mostrare",
+      "es": "mostrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_treffen",
+    "am": "መገናኘት",
+    "tr": "megenagnet",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "treffen",
+      "en": "to meet",
+      "sv": "träffa",
+      "nl": "ontmoeten",
+      "it": "incontrare",
+      "es": "quedar con alguien"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_besuchen",
+    "am": "መጎብኘት",
+    "tr": "megobignet",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "besuchen",
+      "en": "to visit",
+      "sv": "besöka",
+      "nl": "bezoeken",
+      "it": "visitare",
+      "es": "visitar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_einladen",
+    "am": "መጋበዝ",
+    "tr": "megabez",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "einladen",
+      "en": "to invite",
+      "sv": "bjuda in",
+      "nl": "uitnodigen",
+      "it": "invitare",
+      "es": "invitar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_danken",
+    "am": "ማመስገን",
+    "tr": "mamesgen",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "danken",
+      "en": "to thank",
+      "sv": "tacka",
+      "nl": "bedanken",
+      "it": "ringraziare",
+      "es": "agradecer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_laecheln",
+    "am": "ፈገግ ማለት",
+    "tr": "fegeg malet",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "lächeln",
+      "en": "to smile",
+      "sv": "le",
+      "nl": "glimlachen",
+      "it": "sorridere",
+      "es": "sonreír"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_schreien",
+    "am": "መጮህ",
+    "tr": "mechoh",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "schreien",
+      "en": "to scream",
+      "sv": "skrika",
+      "nl": "schreeuwen",
+      "it": "urlare",
+      "es": "gritar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_beruehren",
+    "am": "መነካካት",
+    "tr": "menekakat",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "berühren",
+      "en": "to touch",
+      "sv": "röra",
+      "nl": "aanraken",
+      "it": "toccare",
+      "es": "tocar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_riechen",
+    "am": "ማሽተት",
+    "tr": "mashtet",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "riechen",
+      "en": "to smell",
+      "sv": "lukta",
+      "nl": "ruiken",
+      "it": "annusare, sentire odore",
+      "es": "oler"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_backen",
+    "am": "መጋገር",
+    "tr": "megager",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "backen",
+      "en": "to bake",
+      "sv": "baka",
+      "nl": "bakken",
+      "it": "cuocere al forno",
+      "es": "hornear"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_schneiden",
+    "am": "መቁረጥ",
+    "tr": "mek'uret'",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "schneiden",
+      "en": "to cut",
+      "sv": "skära",
+      "nl": "snijden",
+      "it": "tagliare",
+      "es": "cortar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_druecken",
+    "am": "መጫን",
+    "tr": "mechan",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "drücken",
+      "en": "to press",
+      "sv": "trycka",
+      "nl": "duwen",
+      "it": "premere",
+      "es": "pulsar, presionar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_drehen",
+    "am": "ማዞር",
+    "tr": "mazor",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "drehen",
+      "en": "to turn",
+      "sv": "vrida",
+      "nl": "draaien",
+      "it": "girare",
+      "es": "girar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_fangen",
+    "am": "መያዝ",
+    "tr": "meyaz",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "fangen, halten",
+      "en": "to catch, to hold",
+      "sv": "fånga, hålla",
+      "nl": "vangen, houden",
+      "it": "prendere, afferrare",
+      "es": "atrapar, agarrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_verlassen",
+    "am": "መልቀቅ",
+    "tr": "melk'ek'",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "verlassen",
+      "en": "to leave",
+      "sv": "lämna",
+      "nl": "verlaten",
+      "it": "lasciare",
+      "es": "dejar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_bleiben",
+    "am": "መቆየት",
+    "tr": "mek'oyet",
+    "pos": "verb",
+    "topic": "verbs_extended",
+    "level": "A2",
+    "t": {
+      "de": "bleiben",
+      "en": "to stay",
+      "sv": "stanna",
+      "nl": "blijven",
+      "it": "rimanere",
+      "es": "quedarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

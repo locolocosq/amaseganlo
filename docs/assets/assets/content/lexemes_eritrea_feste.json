@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_meskel",
+    "am": "መስቀል",
+    "tr": "meskel",
+    "pos": "noun",
+    "topic": "holidays",
+    "level": "TI",
+    "t": {
+      "de": "Meskel (Kreuzfest)",
+      "en": "Meskel (Finding of the Cross festival)",
+      "sv": "Meskel (korsfest)",
+      "nl": "Meskel (kruisfeest)",
+      "it": "Meskel (festa della Croce)",
+      "es": "Meskel (fiesta de la Cruz)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_timqet",
+    "am": "ጥምቀት",
+    "tr": "t'imqet",
+    "pos": "noun",
+    "topic": "holidays",
+    "level": "TI",
+    "t": {
+      "de": "Timkat (Taufe/Epiphanias)",
+      "en": "Timkat (Epiphany)",
+      "sv": "Timkat (trettondagen)",
+      "nl": "Timkat (Driekoningen)",
+      "it": "Timkat (Epifania)",
+      "es": "Timkat (Epifanía)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_addshamet",
+    "am": "ርእሰ ዓመት",
+    "tr": "ri'ise 'amet",
+    "pos": "noun",
+    "topic": "holidays",
+    "level": "TI",
+    "t": {
+      "de": "Neujahr",
+      "en": "New Year",
+      "sv": "nyår",
+      "nl": "nieuwjaar",
+      "it": "Capodanno",
+      "es": "Año Nuevo"
+    },
+    "emoji": "🎊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_eid",
+    "am": "ዒድ",
+    "tr": "'id",
+    "pos": "noun",
+    "topic": "holidays",
+    "level": "TI",
+    "t": {
+      "de": "Eid (islamisches Fest)",
+      "en": "Eid (Islamic holiday)",
+      "sv": "Eid (islamisk högtid)",
+      "nl": "Eid (islamitisch feest)",
+      "it": "Eid (festa islamica)",
+      "es": "Eid (fiesta islámica)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_natsnetbal",
+    "am": "በዓል ናጽነት",
+    "tr": "be'al natsinet",
+    "pos": "noun",
+    "topic": "holidays",
+    "level": "TI",
+    "t": {
+      "de": "Unabhängigkeitstag",
+      "en": "Independence Day",
+      "sv": "självständighetsdag",
+      "nl": "onafhankelijkheidsdag",
+      "it": "Festa dell'Indipendenza",
+      "es": "Día de la Independencia"
+    },
+    "emoji": "🎉",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shhbal",
+    "am": "በዓል ሰውራ",
+    "tr": "be'al sewra",
+    "pos": "noun",
+    "topic": "holidays",
+    "level": "TI",
+    "t": {
+      "de": "Revolutionstag",
+      "en": "Revolution Day",
+      "sv": "revolutionsdag",
+      "nl": "revolutiedag",
+      "it": "Festa della Rivoluzione",
+      "es": "Día de la Revolución"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

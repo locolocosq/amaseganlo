@@ -1,0 +1,202 @@
+[
+  {
+    "id": "lex_gondar",
+    "am": "ጎንደር",
+    "tr": "gonder",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Gondar (Stadt)",
+      "en": "Gondar (city)",
+      "sv": "Gondar (stad)",
+      "nl": "Gondar (stad)",
+      "it": "Gondar (città)",
+      "es": "Gondar (ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_axum",
+    "am": "አክሱም",
+    "tr": "aksum",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Axum (Stadt)",
+      "en": "Axum (city)",
+      "sv": "Axum (stad)",
+      "nl": "Axum (stad)",
+      "it": "Axum (città)",
+      "es": "Axum (ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_lalibela",
+    "am": "ላሊበላ",
+    "tr": "lalibela",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Lalibela (Stadt)",
+      "en": "Lalibela (city)",
+      "sv": "Lalibela (stad)",
+      "nl": "Lalibela (stad)",
+      "it": "Lalibela (città)",
+      "es": "Lalibela (ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bahirdar",
+    "am": "ባህር ዳር",
+    "tr": "bahir dar",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Bahir Dar (Stadt)",
+      "en": "Bahir Dar (city)",
+      "sv": "Bahir Dar (stad)",
+      "nl": "Bahir Dar (stad)",
+      "it": "Bahir Dar (città)",
+      "es": "Bahir Dar (ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mekelle",
+    "am": "መቀሌ",
+    "tr": "mekele",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Mekelle (Stadt)",
+      "en": "Mekelle (city)",
+      "sv": "Mekelle (stad)",
+      "nl": "Mekelle (stad)",
+      "it": "Mekelle (città)",
+      "es": "Mekelle (ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hawassa",
+    "am": "ሀዋሳ",
+    "tr": "hawassa",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Hawassa (Stadt)",
+      "en": "Hawassa (city)",
+      "sv": "Hawassa (stad)",
+      "nl": "Hawassa (stad)",
+      "it": "Hawassa (città)",
+      "es": "Hawassa (ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tibs",
+    "am": "ጥብስ",
+    "tr": "t'ibs",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Tibs (gebratenes Fleisch)",
+      "en": "tibs (fried meat)",
+      "sv": "tibs (stekt kött)",
+      "nl": "tibs (gebakken vlees)",
+      "it": "tibs (carne fritta)",
+      "es": "tibs (carne frita)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍖",
+    "verified": true
+  },
+  {
+    "id": "lex_kitfo",
+    "am": "ክትፎ",
+    "tr": "kitfo",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Kitfo (Hackfleisch-Gericht)",
+      "en": "kitfo (minced meat dish)",
+      "sv": "kitfo (köttfärsrätt)",
+      "nl": "kitfo (gehaktgerecht)",
+      "it": "kitfo (piatto di carne macinata)",
+      "es": "kitfo (plato de carne picada)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍽️",
+    "verified": true
+  },
+  {
+    "id": "lex_wat",
+    "am": "ወጥ",
+    "tr": "wat",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Wat (Eintopf/Soße)",
+      "en": "wat (stew)",
+      "sv": "wat (gryta)",
+      "nl": "wat (stoofpot)",
+      "it": "wat (stufato)",
+      "es": "wat (guiso)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍲",
+    "verified": true
+  },
+  {
+    "id": "lex_firfir",
+    "am": "ፍርፍር",
+    "tr": "firfir",
+    "pos": "noun",
+    "topic": "ethiopia_extra",
+    "level": "B1",
+    "t": {
+      "de": "Firfir (Injera-Gericht)",
+      "en": "firfir (injera dish)",
+      "sv": "firfir (injera-rätt)",
+      "nl": "firfir (injeragerecht)",
+      "it": "firfir (piatto a base di injera)",
+      "es": "firfir (plato a base de injera)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

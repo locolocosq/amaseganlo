@@ -1,0 +1,382 @@
+[
+  {
+    "id": "lex_heute",
+    "am": "ዛሬ",
+    "tr": "zare",
+    "pos": "adverb",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "heute",
+      "en": "today",
+      "sv": "idag",
+      "nl": "vandaag",
+      "it": "oggi",
+      "es": "hoy"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_morgen_tag",
+    "am": "ነገ",
+    "tr": "nege",
+    "pos": "adverb",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "morgen (der nächste Tag)",
+      "en": "tomorrow",
+      "sv": "imorgon",
+      "nl": "morgen (volgende dag)",
+      "it": "domani (il giorno dopo)",
+      "es": "mañana (día siguiente)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gestern",
+    "am": "ትላንት",
+    "tr": "tilant",
+    "pos": "adverb",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "gestern",
+      "en": "yesterday",
+      "sv": "igår",
+      "nl": "gisteren",
+      "it": "ieri",
+      "es": "ayer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tag",
+    "am": "ቀን",
+    "tr": "ken",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "der Tag",
+      "en": "day",
+      "sv": "dag",
+      "nl": "dag",
+      "it": "il giorno",
+      "es": "el día"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☀️",
+    "verified": true
+  },
+  {
+    "id": "lex_nacht",
+    "am": "ሌሊት",
+    "tr": "lelit",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Nacht",
+      "en": "night",
+      "sv": "natt",
+      "nl": "nacht",
+      "it": "la notte",
+      "es": "la noche"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌙",
+    "verified": true
+  },
+  {
+    "id": "lex_abend",
+    "am": "ማታ",
+    "tr": "mata",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "der Abend",
+      "en": "evening",
+      "sv": "kväll",
+      "nl": "avond",
+      "it": "la sera",
+      "es": "la tarde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌆",
+    "verified": false
+  },
+  {
+    "id": "lex_morgen_zeit",
+    "am": "ጠዋት",
+    "tr": "t'ewat",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "der Morgen",
+      "en": "morning",
+      "sv": "morgon",
+      "nl": "ochtend",
+      "it": "il mattino",
+      "es": "la mañana"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌅",
+    "verified": true
+  },
+  {
+    "id": "lex_woche",
+    "am": "ሳምንት",
+    "tr": "samint",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Woche",
+      "en": "week",
+      "sv": "vecka",
+      "nl": "week",
+      "it": "la settimana",
+      "es": "la semana"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_monat",
+    "am": "ወር",
+    "tr": "wer",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "der Monat",
+      "en": "month",
+      "sv": "månad",
+      "nl": "maand",
+      "it": "il mese",
+      "es": "el mes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_jahr",
+    "am": "አመት",
+    "tr": "amet",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "das Jahr",
+      "en": "year",
+      "sv": "år",
+      "nl": "jaar",
+      "it": "l'anno",
+      "es": "el año"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_stunde",
+    "am": "ሰዓት",
+    "tr": "se'at",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Stunde, die Uhr",
+      "en": "hour, clock/watch",
+      "sv": "timme, klocka",
+      "nl": "uur, klok",
+      "it": "l'ora, l'orologio",
+      "es": "la hora, el reloj"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕐",
+    "verified": true
+  },
+  {
+    "id": "lex_minute",
+    "am": "ደቂቃ",
+    "tr": "dekika",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "die Minute",
+      "en": "minute",
+      "sv": "minut",
+      "nl": "minuut",
+      "it": "il minuto",
+      "es": "el minuto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_montag",
+    "am": "ሰኞ",
+    "tr": "segno",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Montag",
+      "en": "Monday",
+      "sv": "måndag",
+      "nl": "maandag",
+      "it": "lunedì",
+      "es": "lunes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_dienstag",
+    "am": "ማክሰኞ",
+    "tr": "maksegno",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Dienstag",
+      "en": "Tuesday",
+      "sv": "tisdag",
+      "nl": "dinsdag",
+      "it": "martedì",
+      "es": "martes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mittwoch",
+    "am": "ረቡዕ",
+    "tr": "rebu'",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Mittwoch",
+      "en": "Wednesday",
+      "sv": "onsdag",
+      "nl": "woensdag",
+      "it": "mercoledì",
+      "es": "miércoles"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_donnerstag",
+    "am": "ሐሙስ",
+    "tr": "hamus",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Donnerstag",
+      "en": "Thursday",
+      "sv": "torsdag",
+      "nl": "donderdag",
+      "it": "giovedì",
+      "es": "jueves"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_freitag",
+    "am": "አርብ",
+    "tr": "arb",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Freitag",
+      "en": "Friday",
+      "sv": "fredag",
+      "nl": "vrijdag",
+      "it": "venerdì",
+      "es": "viernes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_samstag",
+    "am": "ቅዳሜ",
+    "tr": "kidame",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Samstag",
+      "en": "Saturday",
+      "sv": "lördag",
+      "nl": "zaterdag",
+      "it": "sabato",
+      "es": "sábado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_sonntag",
+    "am": "እሁድ",
+    "tr": "ihud",
+    "pos": "noun",
+    "topic": "time",
+    "level": "A1.2",
+    "t": {
+      "de": "Sonntag",
+      "en": "Sunday",
+      "sv": "söndag",
+      "nl": "zondag",
+      "it": "domenica",
+      "es": "domingo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

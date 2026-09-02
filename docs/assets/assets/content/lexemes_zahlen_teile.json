@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_viertel",
+    "am": "ሩብ",
+    "tr": "rub",
+    "pos": "noun",
+    "topic": "fractions",
+    "level": "A2",
+    "t": {
+      "de": "das Viertel",
+      "en": "quarter",
+      "sv": "fjärdedel",
+      "nl": "kwart",
+      "it": "il quarto",
+      "es": "el cuarto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_drittel",
+    "am": "ሲሶ",
+    "tr": "siso",
+    "pos": "noun",
+    "topic": "fractions",
+    "level": "A2",
+    "t": {
+      "de": "das Drittel",
+      "en": "third",
+      "sv": "tredjedel",
+      "nl": "derde",
+      "it": "il terzo",
+      "es": "el tercio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_prozent",
+    "am": "በመቶ",
+    "tr": "bemeto",
+    "pos": "noun",
+    "topic": "fractions",
+    "level": "A2",
+    "t": {
+      "de": "das Prozent",
+      "en": "percent",
+      "sv": "procent",
+      "nl": "procent",
+      "it": "il percento",
+      "es": "el por ciento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_doppelt",
+    "am": "ሁለት እጥፍ",
+    "tr": "hulet it'if",
+    "pos": "adjective",
+    "topic": "fractions",
+    "level": "A2",
+    "t": {
+      "de": "doppelt",
+      "en": "double",
+      "sv": "dubbel",
+      "nl": "dubbel",
+      "it": "doppio",
+      "es": "doble"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_dutzend",
+    "am": "ደርዘን",
+    "tr": "derzen",
+    "pos": "noun",
+    "topic": "fractions",
+    "level": "A2",
+    "t": {
+      "de": "das Dutzend",
+      "en": "dozen",
+      "sv": "dussin",
+      "nl": "dozijn",
+      "it": "la dozzina",
+      "es": "la docena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

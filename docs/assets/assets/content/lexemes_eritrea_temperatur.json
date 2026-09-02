@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_tmp_hot2",
+    "am": "ውዑይ",
+    "tr": "wi'uy",
+    "pos": "adjective",
+    "topic": "temperature",
+    "level": "TI",
+    "t": {
+      "de": "heiß",
+      "en": "hot",
+      "sv": "het, varm",
+      "nl": "heet",
+      "it": "caldo",
+      "es": "caliente"
+    },
+    "emoji": "🔥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tmp_cool2",
+    "am": "ዝሑል ንፋስ",
+    "tr": "zihul nifas",
+    "pos": "adjective",
+    "topic": "temperature",
+    "level": "TI",
+    "t": {
+      "de": "kühl",
+      "en": "cool",
+      "sv": "sval",
+      "nl": "koel",
+      "it": "fresco",
+      "es": "fresco"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tmp_boil",
+    "am": "ኣውጠጠ",
+    "tr": "awit'et'e",
+    "pos": "verb",
+    "topic": "temperature",
+    "level": "TI",
+    "t": {
+      "de": "kochen (Wasser)",
+      "en": "to boil",
+      "sv": "att koka",
+      "nl": "koken (water)",
+      "it": "bollire (l'acqua)",
+      "es": "hervir (el agua)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tmp_freez",
+    "am": "ተረግአ",
+    "tr": "tereg'e",
+    "pos": "verb",
+    "topic": "temperature",
+    "level": "TI",
+    "t": {
+      "de": "gefrieren",
+      "en": "to freeze",
+      "sv": "att frysa",
+      "nl": "bevriezen",
+      "it": "congelare, gelare",
+      "es": "congelarse, helarse"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

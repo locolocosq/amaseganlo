@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_rabatt",
+    "am": "ቅናሽ",
+    "tr": "k'inash",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "der Rabatt",
+      "en": "discount",
+      "sv": "rabatt",
+      "nl": "korting",
+      "it": "lo sconto",
+      "es": "el descuento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_quittung",
+    "am": "ደረሰኝ",
+    "tr": "deresegn",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "die Quittung",
+      "en": "receipt",
+      "sv": "kvitto",
+      "nl": "bon",
+      "it": "la ricevuta",
+      "es": "el recibo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_bargeld",
+    "am": "ጥሬ ገንዘብ",
+    "tr": "t'ire genzeb",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "das Bargeld",
+      "en": "cash",
+      "sv": "kontanter",
+      "nl": "contant geld",
+      "it": "i contanti",
+      "es": "el efectivo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kreditkarte",
+    "am": "ክሬዲት ካርድ",
+    "tr": "kredit kard",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "die Kreditkarte",
+      "en": "credit card",
+      "sv": "kreditkort",
+      "nl": "creditcard",
+      "it": "la carta di credito",
+      "es": "la tarjeta de crédito"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💳",
+    "verified": false
+  },
+  {
+    "id": "lex_geldbeutel",
+    "am": "ቦርሳ ገንዘብ",
+    "tr": "borsa genzeb",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "der Geldbeutel",
+      "en": "wallet",
+      "sv": "plånbok",
+      "nl": "portemonnee",
+      "it": "il portafoglio",
+      "es": "la cartera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wechselgeld",
+    "am": "ተመላሽ ገንዘብ",
+    "tr": "temelash genzeb",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "das Wechselgeld",
+      "en": "change (money)",
+      "sv": "växel",
+      "nl": "wisselgeld",
+      "it": "il resto",
+      "es": "el cambio (dinero)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kunde",
+    "am": "ደንበኛ",
+    "tr": "denbegna",
+    "pos": "noun",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Kunde/Kundin",
+      "en": "customer",
+      "sv": "kund",
+      "nl": "klant",
+      "it": "il/la cliente",
+      "es": "el/la cliente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_handeln",
+    "am": "መደራደር",
+    "tr": "mederader",
+    "pos": "verb",
+    "topic": "shopping_more",
+    "level": "A2",
+    "t": {
+      "de": "handeln, verhandeln",
+      "en": "to bargain",
+      "sv": "pruta",
+      "nl": "afdingen",
+      "it": "contrattare, trattare",
+      "es": "regatear"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

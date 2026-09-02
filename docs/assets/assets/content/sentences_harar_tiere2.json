@@ -1,0 +1,103 @@
+[
+  {
+    "id": "sen_ht2_feres_wisha",
+    "am": "ፈረስ እና ውሻ ወዳጆች ናቸው።",
+    "tr": "feres ina wisha wedajoch nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_ht2_ferres",
+      "lex_ht2_ferenj_dog"
+    ],
+    "t": {
+      "de": "Pferd und Hund sind Freunde.",
+      "en": "Horse and dog are friends.",
+      "sv": "Häst och hund är vänner.",
+      "nl": "Paard en hond zijn vrienden.",
+      "it": "Il cavallo e il cane sono amici.",
+      "es": "El caballo y el perro son amigos."
+    },
+    "chunks": [
+      "feres",
+      "ina",
+      "wisha",
+      "wedajoch",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ht2_ambesa_neber",
+    "am": "አንበሳ እና ነብር አደገኛ እንስሶች ናቸው።",
+    "tr": "anibesa ina nebir adegegna inisisoch nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_ht2_ambesa",
+      "lex_ht2_neber"
+    ],
+    "t": {
+      "de": "Löwe und Leopard sind gefährliche Tiere.",
+      "en": "Lion and leopard are dangerous animals.",
+      "sv": "Lejon och leopard är farliga djur.",
+      "nl": "Leeuw en luipaard zijn gevaarlijke dieren.",
+      "it": "Il leone e il leopardo sono animali pericolosi.",
+      "es": "El león y el leopardo son animales peligrosos."
+    },
+    "chunks": [
+      "anibesa",
+      "ina",
+      "nebir",
+      "adegegna",
+      "inisisoch",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ht2_nib_kinif",
+    "am": "ንብ በክንፍ ይበርራል።",
+    "tr": "nib bekinif yiberral.",
+    "level": "B2",
+    "uses": [
+      "lex_ht2_nib2",
+      "lex_ht2_kinif",
+      "lex_ht2_v_meber"
+    ],
+    "t": {
+      "de": "Die Biene fliegt mit Flügeln.",
+      "en": "The bee flies with wings.",
+      "sv": "Biet flyger med vingar.",
+      "nl": "De bij vliegt met vleugels.",
+      "it": "L'ape vola con le ali.",
+      "es": "La abeja vuela con alas."
+    },
+    "chunks": [
+      "nib",
+      "bekinif",
+      "yiberral"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ht2_asama_mewetsa",
+    "am": "አሳ ይዋኛል።",
+    "tr": "asa yiwagnal.",
+    "level": "B2",
+    "uses": [
+      "lex_ht2_asama",
+      "lex_ht2_v_mewetsa"
+    ],
+    "t": {
+      "de": "Der Fisch schwimmt.",
+      "en": "The fish swims.",
+      "sv": "Fisken simmar.",
+      "nl": "De vis zwemt.",
+      "it": "Il pesce nuota.",
+      "es": "El pez nada."
+    },
+    "chunks": [
+      "asa",
+      "yiwagnal"
+    ],
+    "verified": false
+  }
+]

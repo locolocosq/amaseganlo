@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_harar_technologie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_metegiberiya",
+      "lex_teknoloji",
+      "lex_tsehifet_media",
+      "lex_v_mewered",
+      "lex_v_mekotater",
+      "lex_mereja",
+      "lex_adj_zemenawi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_technologie_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_metegiberiya",
+      "lex_teknoloji",
+      "lex_tsehifet_media",
+      "lex_v_mewered",
+      "lex_v_mekotater",
+      "lex_mereja",
+      "lex_adj_zemenawi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_metegiberiya",
+      "lex_teknoloji",
+      "lex_tsehifet_media",
+      "lex_v_mewered",
+      "lex_v_mekotater",
+      "lex_mereja",
+      "lex_adj_zemenawi"
+    ],
+    "sentenceIds": [
+      "sen_temari_metegiberiya_mewered",
+      "sen_teknoloji_zemenawi",
+      "sen_tsehifet_media_zemenawi",
+      "sen_mengist_mereja_mekotater",
+      "sen_metegiberiya_teknoloji"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_metegiberiya",
+      "lex_teknoloji",
+      "lex_tsehifet_media",
+      "lex_v_mewered",
+      "lex_v_mekotater",
+      "lex_mereja",
+      "lex_adj_zemenawi"
+    ],
+    "sentenceIds": [
+      "sen_temari_metegiberiya_mewered",
+      "sen_teknoloji_zemenawi",
+      "sen_tsehifet_media_zemenawi",
+      "sen_mengist_mereja_mekotater",
+      "sen_metegiberiya_teknoloji"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_metegiberiya",
+      "lex_teknoloji",
+      "lex_tsehifet_media",
+      "lex_v_mewered",
+      "lex_v_mekotater",
+      "lex_mereja",
+      "lex_adj_zemenawi"
+    ],
+    "sentenceIds": [
+      "sen_temari_metegiberiya_mewered",
+      "sen_teknoloji_zemenawi",
+      "sen_tsehifet_media_zemenawi",
+      "sen_mengist_mereja_mekotater",
+      "sen_metegiberiya_teknoloji"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_technologie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_metegiberiya",
+      "lex_teknoloji",
+      "lex_tsehifet_media",
+      "lex_v_mewered",
+      "lex_v_mekotater",
+      "lex_mereja",
+      "lex_adj_zemenawi"
+    ],
+    "sentenceIds": [
+      "sen_temari_metegiberiya_mewered",
+      "sen_teknoloji_zemenawi",
+      "sen_tsehifet_media_zemenawi",
+      "sen_mengist_mereja_mekotater",
+      "sen_metegiberiya_teknoloji"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

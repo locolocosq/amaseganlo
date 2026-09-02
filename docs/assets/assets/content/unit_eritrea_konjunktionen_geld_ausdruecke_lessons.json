@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_konjunktionen_geld_ausdruecke_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho",
+      "lex_ti_gld_broke",
+      "lex_ti_gld_rich2",
+      "lex_ti_gld_poor2",
+      "lex_ti_gld_afford"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_konjunktionen_geld_ausdruecke_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho",
+      "lex_ti_gld_broke",
+      "lex_ti_gld_rich2",
+      "lex_ti_gld_poor2",
+      "lex_ti_gld_afford"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konjunktionen_geld_ausdruecke_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho",
+      "lex_ti_gld_broke",
+      "lex_ti_gld_rich2",
+      "lex_ti_gld_poor2",
+      "lex_ti_gld_afford"
+    ],
+    "sentenceIds": [
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konjunktionen_geld_ausdruecke_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho",
+      "lex_ti_gld_broke",
+      "lex_ti_gld_rich2",
+      "lex_ti_gld_poor2",
+      "lex_ti_gld_afford"
+    ],
+    "sentenceIds": [
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konjunktionen_geld_ausdruecke_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho",
+      "lex_ti_gld_broke",
+      "lex_ti_gld_rich2",
+      "lex_ti_gld_poor2",
+      "lex_ti_gld_afford"
+    ],
+    "sentenceIds": [
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konjunktionen_geld_ausdruecke_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho",
+      "lex_ti_gld_broke",
+      "lex_ti_gld_rich2",
+      "lex_ti_gld_poor2",
+      "lex_ti_gld_afford"
+    ],
+    "sentenceIds": [
+      "sen_ti_konjunktionen_geld_ausdruecke_1",
+      "sen_gen_gld_broke",
+      "sen_gen_gld_rich2",
+      "sen_gen_gld_poor2",
+      "sen_gen_gld_afford"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

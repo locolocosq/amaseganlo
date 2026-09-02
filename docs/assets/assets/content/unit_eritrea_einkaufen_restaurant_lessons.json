@@ -1,0 +1,206 @@
+[
+  {
+    "id": "unit_eritrea_einkaufen_restaurant_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_genzeb",
+      "lex_ti_wagi",
+      "lex_ti_nakfa",
+      "lex_ti_kredit",
+      "lex_ti_kreyi",
+      "lex_ti_hzumi",
+      "lex_ti_beal",
+      "lex_ti_kruy",
+      "lex_ti_zeben",
+      "lex_ti_kesi",
+      "lex_ti_kili2",
+      "lex_ti_kilo",
+      "lex_ti_rstrnt",
+      "lex_ti_menu2",
+      "lex_ti_ordr",
+      "lex_ti_wetr",
+      "lex_ti_hisab",
+      "lex_ti_trynkg",
+      "lex_ti_tqmi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_einkaufen_restaurant_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_genzeb",
+      "lex_ti_wagi",
+      "lex_ti_nakfa",
+      "lex_ti_kredit",
+      "lex_ti_kreyi",
+      "lex_ti_hzumi",
+      "lex_ti_beal",
+      "lex_ti_kruy",
+      "lex_ti_zeben",
+      "lex_ti_kesi",
+      "lex_ti_kili2",
+      "lex_ti_kilo",
+      "lex_ti_rstrnt",
+      "lex_ti_menu2",
+      "lex_ti_ordr",
+      "lex_ti_wetr",
+      "lex_ti_hisab",
+      "lex_ti_trynkg",
+      "lex_ti_tqmi"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_einkaufen_restaurant_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_genzeb",
+      "lex_ti_wagi",
+      "lex_ti_nakfa",
+      "lex_ti_kredit",
+      "lex_ti_kreyi",
+      "lex_ti_hzumi",
+      "lex_ti_beal",
+      "lex_ti_kruy",
+      "lex_ti_zeben",
+      "lex_ti_kesi",
+      "lex_ti_kili2",
+      "lex_ti_kilo",
+      "lex_ti_rstrnt",
+      "lex_ti_menu2",
+      "lex_ti_ordr",
+      "lex_ti_wetr",
+      "lex_ti_hisab",
+      "lex_ti_trynkg",
+      "lex_ti_tqmi"
+    ],
+    "sentenceIds": [
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_einkaufen_restaurant_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_genzeb",
+      "lex_ti_wagi",
+      "lex_ti_nakfa",
+      "lex_ti_kredit",
+      "lex_ti_kreyi",
+      "lex_ti_hzumi",
+      "lex_ti_beal",
+      "lex_ti_kruy",
+      "lex_ti_zeben",
+      "lex_ti_kesi",
+      "lex_ti_kili2",
+      "lex_ti_kilo",
+      "lex_ti_rstrnt",
+      "lex_ti_menu2",
+      "lex_ti_ordr",
+      "lex_ti_wetr",
+      "lex_ti_hisab",
+      "lex_ti_trynkg",
+      "lex_ti_tqmi"
+    ],
+    "sentenceIds": [
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_einkaufen_restaurant_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_genzeb",
+      "lex_ti_wagi",
+      "lex_ti_nakfa",
+      "lex_ti_kredit",
+      "lex_ti_kreyi",
+      "lex_ti_hzumi",
+      "lex_ti_beal",
+      "lex_ti_kruy",
+      "lex_ti_zeben",
+      "lex_ti_kesi",
+      "lex_ti_kili2",
+      "lex_ti_kilo",
+      "lex_ti_rstrnt",
+      "lex_ti_menu2",
+      "lex_ti_ordr",
+      "lex_ti_wetr",
+      "lex_ti_hisab",
+      "lex_ti_trynkg",
+      "lex_ti_tqmi"
+    ],
+    "sentenceIds": [
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_einkaufen_restaurant_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_genzeb",
+      "lex_ti_wagi",
+      "lex_ti_nakfa",
+      "lex_ti_kredit",
+      "lex_ti_kreyi",
+      "lex_ti_hzumi",
+      "lex_ti_beal",
+      "lex_ti_kruy",
+      "lex_ti_zeben",
+      "lex_ti_kesi",
+      "lex_ti_kili2",
+      "lex_ti_kilo",
+      "lex_ti_rstrnt",
+      "lex_ti_menu2",
+      "lex_ti_ordr",
+      "lex_ti_wetr",
+      "lex_ti_hisab",
+      "lex_ti_trynkg",
+      "lex_ti_tqmi"
+    ],
+    "sentenceIds": [
+      "sen_ti_einkaufen_restaurant_1",
+      "sen_gen_wagi",
+      "sen_gen_nakfa",
+      "sen_gen_kredit",
+      "sen_gen_kreyi"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

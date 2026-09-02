@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_teppich",
+    "am": "ምንጣፍ",
+    "tr": "mint'af",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "A1.2",
+    "t": {
+      "de": "der Teppich",
+      "en": "carpet, rug",
+      "sv": "matta",
+      "nl": "tapijt",
+      "it": "il tappeto",
+      "es": "la alfombra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🟫",
+    "verified": false
+  },
+  {
+    "id": "lex_kissen",
+    "am": "ትራስ",
+    "tr": "tiras",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "A1.2",
+    "t": {
+      "de": "das Kissen",
+      "en": "pillow, cushion",
+      "sv": "kudde",
+      "nl": "kussen",
+      "it": "il cuscino",
+      "es": "el cojín"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_decke",
+    "am": "ብርድ ልብስ",
+    "tr": "birid libs",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "A1.2",
+    "t": {
+      "de": "die Decke (Bettdecke)",
+      "en": "blanket",
+      "sv": "täcke",
+      "nl": "deken",
+      "it": "la coperta",
+      "es": "la manta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vorhang",
+    "am": "መጋረጃ",
+    "tr": "megareja",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "A1.2",
+    "t": {
+      "de": "der Vorhang",
+      "en": "curtain",
+      "sv": "gardin",
+      "nl": "gordijn",
+      "it": "la tenda",
+      "es": "la cortina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wand",
+    "am": "ግድግዳ",
+    "tr": "gidigida",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "A1.2",
+    "t": {
+      "de": "die Wand",
+      "en": "wall",
+      "sv": "vägg",
+      "nl": "muur",
+      "it": "il muro, la parete",
+      "es": "la pared"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_zoo_encl",
+    "am": "ግቢ እንስሳ",
+    "tr": "gibi inisisa",
+    "pos": "noun",
+    "topic": "zoo",
+    "level": "TI",
+    "t": {
+      "de": "das Gehege",
+      "en": "enclosure",
+      "sv": "inhägnad",
+      "nl": "dierenverblijf",
+      "it": "il recinto",
+      "es": "el recinto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zoo_keepr",
+    "am": "ተኸናኻኒ እንስሳ",
+    "tr": "tekenakhani inisisa",
+    "pos": "noun",
+    "topic": "zoo",
+    "level": "TI",
+    "t": {
+      "de": "der Tierpfleger",
+      "en": "zookeeper",
+      "sv": "djurskötare",
+      "nl": "dierenverzorger",
+      "it": "il guardiano dello zoo",
+      "es": "el cuidador del zoológico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zoo_visit",
+    "am": "በጻሒ ናይ እንስሳ ግቢ",
+    "tr": "betsahi nay inisisa gibi",
+    "pos": "noun",
+    "topic": "zoo",
+    "level": "TI",
+    "t": {
+      "de": "der Zoobesucher",
+      "en": "zoo visitor",
+      "sv": "zoobesökare",
+      "nl": "dierentuinbezoeker",
+      "it": "il visitatore dello zoo",
+      "es": "el visitante del zoológico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zoo_wld2",
+    "am": "ኣራዊት",
+    "tr": "arawit",
+    "pos": "noun",
+    "topic": "zoo",
+    "level": "TI",
+    "t": {
+      "de": "das Wildtier",
+      "en": "wild animal",
+      "sv": "vilt djur",
+      "nl": "wild dier",
+      "it": "l'animale selvatico",
+      "es": "el animal salvaje"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

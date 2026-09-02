@@ -1,0 +1,176 @@
+[
+  {
+    "id": "unit_eritrea_verkehr_flughafen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_vk2_ampl",
+      "lex_ti_vk2_krzg",
+      "lex_ti_vk2_stau",
+      "lex_ti_vk2_prkp",
+      "lex_ti_vk2_lcns",
+      "lex_ti_vk2_shld",
+      "lex_ti_vk2_spl",
+      "lex_ti_fh_gate",
+      "lex_ti_fh_bord",
+      "lex_ti_fh_dely",
+      "lex_ti_fh_lggg",
+      "lex_ti_fh_secck",
+      "lex_ti_fh_lnd",
+      "lex_ti_fh_tkoff"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_verkehr_flughafen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_vk2_ampl",
+      "lex_ti_vk2_krzg",
+      "lex_ti_vk2_stau",
+      "lex_ti_vk2_prkp",
+      "lex_ti_vk2_lcns",
+      "lex_ti_vk2_shld",
+      "lex_ti_vk2_spl",
+      "lex_ti_fh_gate",
+      "lex_ti_fh_bord",
+      "lex_ti_fh_dely",
+      "lex_ti_fh_lggg",
+      "lex_ti_fh_secck",
+      "lex_ti_fh_lnd",
+      "lex_ti_fh_tkoff"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_verkehr_flughafen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_vk2_ampl",
+      "lex_ti_vk2_krzg",
+      "lex_ti_vk2_stau",
+      "lex_ti_vk2_prkp",
+      "lex_ti_vk2_lcns",
+      "lex_ti_vk2_shld",
+      "lex_ti_vk2_spl",
+      "lex_ti_fh_gate",
+      "lex_ti_fh_bord",
+      "lex_ti_fh_dely",
+      "lex_ti_fh_lggg",
+      "lex_ti_fh_secck",
+      "lex_ti_fh_lnd",
+      "lex_ti_fh_tkoff"
+    ],
+    "sentenceIds": [
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_verkehr_flughafen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_vk2_ampl",
+      "lex_ti_vk2_krzg",
+      "lex_ti_vk2_stau",
+      "lex_ti_vk2_prkp",
+      "lex_ti_vk2_lcns",
+      "lex_ti_vk2_shld",
+      "lex_ti_vk2_spl",
+      "lex_ti_fh_gate",
+      "lex_ti_fh_bord",
+      "lex_ti_fh_dely",
+      "lex_ti_fh_lggg",
+      "lex_ti_fh_secck",
+      "lex_ti_fh_lnd",
+      "lex_ti_fh_tkoff"
+    ],
+    "sentenceIds": [
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_verkehr_flughafen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_vk2_ampl",
+      "lex_ti_vk2_krzg",
+      "lex_ti_vk2_stau",
+      "lex_ti_vk2_prkp",
+      "lex_ti_vk2_lcns",
+      "lex_ti_vk2_shld",
+      "lex_ti_vk2_spl",
+      "lex_ti_fh_gate",
+      "lex_ti_fh_bord",
+      "lex_ti_fh_dely",
+      "lex_ti_fh_lggg",
+      "lex_ti_fh_secck",
+      "lex_ti_fh_lnd",
+      "lex_ti_fh_tkoff"
+    ],
+    "sentenceIds": [
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_verkehr_flughafen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_vk2_ampl",
+      "lex_ti_vk2_krzg",
+      "lex_ti_vk2_stau",
+      "lex_ti_vk2_prkp",
+      "lex_ti_vk2_lcns",
+      "lex_ti_vk2_shld",
+      "lex_ti_vk2_spl",
+      "lex_ti_fh_gate",
+      "lex_ti_fh_bord",
+      "lex_ti_fh_dely",
+      "lex_ti_fh_lggg",
+      "lex_ti_fh_secck",
+      "lex_ti_fh_lnd",
+      "lex_ti_fh_tkoff"
+    ],
+    "sentenceIds": [
+      "sen_ti_verkehr_flughafen_1",
+      "sen_gen_vk2_krzg",
+      "sen_gen_vk2_stau",
+      "sen_gen_vk2_prkp",
+      "sen_gen_vk2_lcns"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

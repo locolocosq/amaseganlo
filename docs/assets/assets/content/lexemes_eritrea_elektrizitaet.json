@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_elk_plug",
+    "am": "ፕላግ",
+    "tr": "pilagi",
+    "pos": "noun",
+    "topic": "electricity",
+    "level": "TI",
+    "t": {
+      "de": "der Stecker",
+      "en": "plug",
+      "sv": "kontakt (el)",
+      "nl": "stekker",
+      "it": "la spina",
+      "es": "el enchufe"
+    },
+    "emoji": "🔌",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_elk_swtch",
+    "am": "መቀየሪ ብርሃን",
+    "tr": "meqeyeri birhan",
+    "pos": "noun",
+    "topic": "electricity",
+    "level": "TI",
+    "t": {
+      "de": "der Lichtschalter",
+      "en": "light switch",
+      "sv": "strömbrytare",
+      "nl": "lichtschakelaar",
+      "it": "l'interruttore della luce",
+      "es": "el interruptor de la luz"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_elk_fuse",
+    "am": "ፊውዝ",
+    "tr": "fiyuz",
+    "pos": "noun",
+    "topic": "electricity",
+    "level": "TI",
+    "t": {
+      "de": "die Sicherung",
+      "en": "fuse",
+      "sv": "säkring",
+      "nl": "zekering",
+      "it": "il fusibile",
+      "es": "el fusible"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_elk_outg",
+    "am": "ምቁራጽ ኤለትሪክ",
+    "tr": "miquratsi eletrik",
+    "pos": "noun",
+    "topic": "electricity",
+    "level": "TI",
+    "t": {
+      "de": "der Stromausfall",
+      "en": "power outage",
+      "sv": "strömavbrott",
+      "nl": "stroomstoring",
+      "it": "il blackout, l'interruzione di corrente",
+      "es": "el apagón, el corte de luz"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_elk_gnrtr",
+    "am": "ጀነረተር",
+    "tr": "jenereter",
+    "pos": "noun",
+    "topic": "electricity",
+    "level": "TI",
+    "t": {
+      "de": "der Generator",
+      "en": "generator",
+      "sv": "generator",
+      "nl": "generator",
+      "it": "il generatore",
+      "es": "el generador"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

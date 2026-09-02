@@ -1,0 +1,56 @@
+[
+  {
+    "id": "lex_ti_bkr_bkr2",
+    "am": "ባኒ ሰራሒ",
+    "tr": "bani serahi",
+    "pos": "noun",
+    "topic": "bakery",
+    "level": "TI",
+    "t": {
+      "de": "der Bäcker",
+      "en": "baker",
+      "sv": "bagare",
+      "nl": "bakker",
+      "it": "il panettiere",
+      "es": "el panadero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bkr_roll",
+    "am": "ንኡስ ባኒ",
+    "tr": "ni'us bani",
+    "pos": "noun",
+    "topic": "bakery",
+    "level": "TI",
+    "t": {
+      "de": "das Brötchen",
+      "en": "bread roll",
+      "sv": "fralla",
+      "nl": "broodje",
+      "it": "il panino",
+      "es": "el panecillo"
+    },
+    "emoji": "🥐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bkr_oven2",
+    "am": "ምድጓ ባኒ",
+    "tr": "midgwa bani2",
+    "pos": "noun",
+    "topic": "bakery",
+    "level": "TI",
+    "t": {
+      "de": "der Backofen (Bäckerei)",
+      "en": "bakery oven",
+      "sv": "bageriugn",
+      "nl": "bakkersoven",
+      "it": "il forno (panetteria)",
+      "es": "el horno (panadería)"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "id": "sen_ti_koerperteile_mehr_1",
+    "am": "ሳንቡእ ኣሎ።",
+    "tr": "sanbu'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_riah"
+    ],
+    "t": {
+      "de": "Es gibt die Lunge.",
+      "en": "There is lung.",
+      "sv": "Det finns lunga.",
+      "nl": "Er is long.",
+      "it": "C'è il polmone.",
+      "es": "Hay pulmón."
+    },
+    "alt": {},
+    "chunks": [
+      "sanbu'e",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_finanzen_arbeit_1",
+    "am": "ሕሳብ ባንክ ኣሎ።",
+    "tr": "hisab bank alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bank2"
+    ],
+    "t": {
+      "de": "Es gibt das Bankkonto.",
+      "en": "There is bank account.",
+      "sv": "Det finns bankkonto.",
+      "nl": "Er is bankrekening.",
+      "it": "C'è il conto bancario.",
+      "es": "Hay cuenta bancaria."
+    },
+    "alt": {},
+    "chunks": [
+      "hisab bank",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_fahrzeuge_buero_1",
+    "am": "ሞተር ኣሎ።",
+    "tr": "moter alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mekngo"
+    ],
+    "t": {
+      "de": "Es gibt der Motor.",
+      "en": "There is engine.",
+      "sv": "Det finns motor.",
+      "nl": "Er is motor.",
+      "it": "C'è il motore.",
+      "es": "Hay motor."
+    },
+    "alt": {},
+    "chunks": [
+      "moter",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_musik_feste_1",
+    "am": "ማሲንቆ ኣሎ።",
+    "tr": "masinqo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_msngw"
+    ],
+    "t": {
+      "de": "Es gibt die Masinko.",
+      "en": "There is masinko (fiddle).",
+      "sv": "Det finns masinko (stråkinstrument).",
+      "nl": "Er is masinko (strijkinstrument).",
+      "it": "C'è il masinko (violino tradizionale).",
+      "es": "Hay masinko (violín tradicional)."
+    },
+    "alt": {},
+    "chunks": [
+      "masinqo",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_charakter_vergleich_1",
+    "am": "ተባዕ ኣሎ።",
+    "tr": "teba'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bhrur"
+    ],
+    "t": {
+      "de": "Es gibt mutig.",
+      "en": "There is brave, courageous.",
+      "sv": "Det finns modig.",
+      "nl": "Er is moedig.",
+      "it": "C'è coraggioso.",
+      "es": "Hay valiente."
+    },
+    "alt": {},
+    "chunks": [
+      "teba'e",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_wetter_geologie_1",
+    "am": "ሙቐት ኣሎ።",
+    "tr": "muqet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_muqti"
+    ],
+    "t": {
+      "de": "Es gibt die Hitze.",
+      "en": "There is heat.",
+      "sv": "Det finns värme.",
+      "nl": "Er is hitte.",
+      "it": "C'è il caldo.",
+      "es": "Hay calor."
+    },
+    "alt": {},
+    "chunks": [
+      "muqet",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_recht_notfall_1",
+    "am": "ቤት ፍርዲ ኣሎ።",
+    "tr": "bet firdi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frdbet"
+    ],
+    "t": {
+      "de": "Es gibt das Gericht.",
+      "en": "There is court.",
+      "sv": "Det finns domstol.",
+      "nl": "Er is rechtbank.",
+      "it": "C'è il tribunale.",
+      "es": "Hay tribunal."
+    },
+    "alt": {},
+    "chunks": [
+      "bet firdi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kommunikation_dialog_1",
+    "am": "ዘተ ኣሎ።",
+    "tr": "zete alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wgni2"
+    ],
+    "t": {
+      "de": "Es gibt das Gespräch.",
+      "en": "There is conversation.",
+      "sv": "Det finns samtal.",
+      "nl": "Er is gesprek.",
+      "it": "C'è la conversazione.",
+      "es": "Hay conversación."
+    },
+    "alt": {},
+    "chunks": [
+      "zete",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_insekten_voegel_1",
+    "am": "ጽንጽያ ኣሎ።",
+    "tr": "tsintsiya alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kimal"
+    ],
+    "t": {
+      "de": "Es gibt die Ameise.",
+      "en": "There is ant.",
+      "sv": "Det finns myra.",
+      "nl": "Er is mier.",
+      "it": "C'è la formica.",
+      "es": "Hay hormiga."
+    },
+    "alt": {},
+    "chunks": [
+      "tsintsiya",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_geschichte_bildung_1",
+    "am": "ሓበሻ ኣሎ።",
+    "tr": "habesha alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hbrsh"
+    ],
+    "t": {
+      "de": "Es gibt Habesha.",
+      "en": "There is Habesha (cultural self-designation).",
+      "sv": "Det finns Habesha (kulturell självbeteckning).",
+      "nl": "Er is Habesha (culturele zelfaanduiding).",
+      "it": "C'è Habesha (autodenominazione culturale).",
+      "es": "Hay Habesha (autodenominación cultural)."
+    },
+    "alt": {},
+    "chunks": [
+      "habesha",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gesundheit_kinder_1",
+    "am": "ስፔሻሊስት ሓኪም ኣሎ።",
+    "tr": "speshalist hakim alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hkm4"
+    ],
+    "t": {
+      "de": "Es gibt der Facharzt.",
+      "en": "There is specialist doctor.",
+      "sv": "Det finns specialistläkare.",
+      "nl": "Er is specialist.",
+      "it": "C'è il medico specialista.",
+      "es": "Hay médico especialista."
+    },
+    "alt": {},
+    "chunks": [
+      "speshalist hakim",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_sport_reise_1",
+    "am": "ፈራዲ ጸወታ ኣሎ።",
+    "tr": "feradi tsewuta alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dnkya"
+    ],
+    "t": {
+      "de": "Es gibt der Schiedsrichter.",
+      "en": "There is referee.",
+      "sv": "Det finns domare (sport).",
+      "nl": "Er is scheidsrechter.",
+      "it": "C'è l'arbitro.",
+      "es": "Hay árbitro."
+    },
+    "alt": {},
+    "chunks": [
+      "feradi tsewuta",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_mathematik_mehr_1",
+    "am": "ሓሙሽተ ኩርናዕ ኣሎ።",
+    "tr": "hamushte kurna'e alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hmsi"
+    ],
+    "t": {
+      "de": "Es gibt das Fünfeck.",
+      "en": "There is pentagon.",
+      "sv": "Det finns femhörning.",
+      "nl": "Er is vijfhoek.",
+      "it": "C'è il pentagono.",
+      "es": "Hay pentágono."
+    },
+    "alt": {},
+    "chunks": [
+      "hamushte kurna'e",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_mode_pflanzen_1",
+    "am": "ፋሽን ኣሎ።",
+    "tr": "fashin alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_fshni"
+    ],
+    "t": {
+      "de": "Es gibt die Mode.",
+      "en": "There is fashion.",
+      "sv": "Det finns mode.",
+      "nl": "Er is mode.",
+      "it": "C'è la moda.",
+      "es": "Hay moda."
+    },
+    "alt": {},
+    "chunks": [
+      "fashin",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kochen_wissenschaft_1",
+    "am": "ቀቅል ኣሎ።",
+    "tr": "qeqil alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hkw"
+    ],
+    "t": {
+      "de": "Es gibt kochen.",
+      "en": "There is to boil.",
+      "sv": "Det finns koka.",
+      "nl": "Er is koken (in water).",
+      "it": "C'è bollire.",
+      "es": "Hay hervir."
+    },
+    "alt": {},
+    "chunks": [
+      "qeqil",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_beziehungen_emotionen_1",
+    "am": "ፍትወት ኣሎ።",
+    "tr": "fitwet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frenza"
+    ],
+    "t": {
+      "de": "Es gibt die Zuneigung.",
+      "en": "There is affection, infatuation.",
+      "sv": "Det finns tillgivenhet, förälskelse.",
+      "nl": "Er is genegenheid, verliefdheid.",
+      "it": "C'è l'affetto, l'infatuazione.",
+      "es": "Hay cariño, enamoramiento."
+    },
+    "alt": {},
+    "chunks": [
+      "fitwet",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_wohnen_1",
+    "am": "ክራይ ኣሎ።",
+    "tr": "kiray alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kray"
+    ],
+    "t": {
+      "de": "Es gibt die Miete.",
+      "en": "There is rent.",
+      "sv": "Det finns hyra.",
+      "nl": "Er is huur.",
+      "it": "C'è l'affitto.",
+      "es": "Hay alquiler."
+    },
+    "alt": {},
+    "chunks": [
+      "kiray",
+      "alo"
+    ],
+    "verified": false
+  }
+]

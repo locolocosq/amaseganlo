@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_hfk_never2",
+    "am": "ፈጺሙ",
+    "tr": "fetsimu",
+    "pos": "adverb",
+    "topic": "frequency",
+    "level": "TI",
+    "t": {
+      "de": "niemals",
+      "en": "never",
+      "sv": "aldrig",
+      "nl": "nooit",
+      "it": "mai",
+      "es": "nunca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hfk_rarely",
+    "am": "ብሳሕቲ",
+    "tr": "bisahiti",
+    "pos": "adverb",
+    "topic": "frequency",
+    "level": "TI",
+    "t": {
+      "de": "selten",
+      "en": "rarely",
+      "sv": "sällan",
+      "nl": "zelden",
+      "it": "raramente",
+      "es": "raramente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hfk_often2",
+    "am": "ብተደጋጋሚ",
+    "tr": "bitedegagami",
+    "pos": "adverb",
+    "topic": "frequency",
+    "level": "TI",
+    "t": {
+      "de": "oft, häufig",
+      "en": "often, frequently",
+      "sv": "ofta",
+      "nl": "vaak",
+      "it": "spesso, frequentemente",
+      "es": "a menudo, frecuentemente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hfk_always3",
+    "am": "ኩሉ ግዜ",
+    "tr": "kulu gizie",
+    "pos": "adverb",
+    "topic": "frequency",
+    "level": "TI",
+    "t": {
+      "de": "immer",
+      "en": "always",
+      "sv": "alltid",
+      "nl": "altijd",
+      "it": "sempre",
+      "es": "siempre"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

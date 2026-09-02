@@ -1,0 +1,176 @@
+[
+  {
+    "id": "unit_eritrea_richtungen_uhrzeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_rcx_lft",
+      "lex_ti_rcx_rgt",
+      "lex_ti_rcx_strt",
+      "lex_ti_rcx_up",
+      "lex_ti_rcx_dwn",
+      "lex_ti_rcx_here",
+      "lex_ti_rcx_thre",
+      "lex_ti_uhr_half",
+      "lex_ti_uhr_qrtr",
+      "lex_ti_uhr_shrp",
+      "lex_ti_uhr_soon",
+      "lex_ti_uhr_late",
+      "lex_ti_uhr_erly",
+      "lex_ti_uhr_alrm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_richtungen_uhrzeit_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_rcx_lft",
+      "lex_ti_rcx_rgt",
+      "lex_ti_rcx_strt",
+      "lex_ti_rcx_up",
+      "lex_ti_rcx_dwn",
+      "lex_ti_rcx_here",
+      "lex_ti_rcx_thre",
+      "lex_ti_uhr_half",
+      "lex_ti_uhr_qrtr",
+      "lex_ti_uhr_shrp",
+      "lex_ti_uhr_soon",
+      "lex_ti_uhr_late",
+      "lex_ti_uhr_erly",
+      "lex_ti_uhr_alrm"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_richtungen_uhrzeit_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_rcx_lft",
+      "lex_ti_rcx_rgt",
+      "lex_ti_rcx_strt",
+      "lex_ti_rcx_up",
+      "lex_ti_rcx_dwn",
+      "lex_ti_rcx_here",
+      "lex_ti_rcx_thre",
+      "lex_ti_uhr_half",
+      "lex_ti_uhr_qrtr",
+      "lex_ti_uhr_shrp",
+      "lex_ti_uhr_soon",
+      "lex_ti_uhr_late",
+      "lex_ti_uhr_erly",
+      "lex_ti_uhr_alrm"
+    ],
+    "sentenceIds": [
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_richtungen_uhrzeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_rcx_lft",
+      "lex_ti_rcx_rgt",
+      "lex_ti_rcx_strt",
+      "lex_ti_rcx_up",
+      "lex_ti_rcx_dwn",
+      "lex_ti_rcx_here",
+      "lex_ti_rcx_thre",
+      "lex_ti_uhr_half",
+      "lex_ti_uhr_qrtr",
+      "lex_ti_uhr_shrp",
+      "lex_ti_uhr_soon",
+      "lex_ti_uhr_late",
+      "lex_ti_uhr_erly",
+      "lex_ti_uhr_alrm"
+    ],
+    "sentenceIds": [
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_richtungen_uhrzeit_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_rcx_lft",
+      "lex_ti_rcx_rgt",
+      "lex_ti_rcx_strt",
+      "lex_ti_rcx_up",
+      "lex_ti_rcx_dwn",
+      "lex_ti_rcx_here",
+      "lex_ti_rcx_thre",
+      "lex_ti_uhr_half",
+      "lex_ti_uhr_qrtr",
+      "lex_ti_uhr_shrp",
+      "lex_ti_uhr_soon",
+      "lex_ti_uhr_late",
+      "lex_ti_uhr_erly",
+      "lex_ti_uhr_alrm"
+    ],
+    "sentenceIds": [
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_richtungen_uhrzeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_rcx_lft",
+      "lex_ti_rcx_rgt",
+      "lex_ti_rcx_strt",
+      "lex_ti_rcx_up",
+      "lex_ti_rcx_dwn",
+      "lex_ti_rcx_here",
+      "lex_ti_rcx_thre",
+      "lex_ti_uhr_half",
+      "lex_ti_uhr_qrtr",
+      "lex_ti_uhr_shrp",
+      "lex_ti_uhr_soon",
+      "lex_ti_uhr_late",
+      "lex_ti_uhr_erly",
+      "lex_ti_uhr_alrm"
+    ],
+    "sentenceIds": [
+      "sen_ti_richtungen_uhrzeit_1",
+      "sen_gen_rcx_rgt",
+      "sen_gen_rcx_strt",
+      "sen_gen_uhr_half",
+      "sen_gen_uhr_qrtr"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

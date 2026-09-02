@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_schm_btfl",
+    "am": "ጽንብላሊዕ",
+    "tr": "tsinibilali'i",
+    "pos": "noun",
+    "topic": "butterflies",
+    "level": "TI",
+    "t": {
+      "de": "der Schmetterling",
+      "en": "butterfly",
+      "sv": "fjäril",
+      "nl": "vlinder",
+      "it": "la farfalla",
+      "es": "la mariposa"
+    },
+    "emoji": "🦋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_schm_bee",
+    "am": "ንህቢ",
+    "tr": "nihbi",
+    "pos": "noun",
+    "topic": "butterflies",
+    "level": "TI",
+    "t": {
+      "de": "die Biene",
+      "en": "bee",
+      "sv": "bi",
+      "nl": "bij",
+      "it": "l'ape",
+      "es": "la abeja"
+    },
+    "emoji": "🐝",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_schm_ant",
+    "am": "ጻጸ",
+    "tr": "tsatse",
+    "pos": "noun",
+    "topic": "butterflies",
+    "level": "TI",
+    "t": {
+      "de": "die Ameise",
+      "en": "ant",
+      "sv": "myra",
+      "nl": "mier",
+      "it": "la formica",
+      "es": "la hormiga"
+    },
+    "emoji": "🐜",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_schm_spdr",
+    "am": "ሳሬት",
+    "tr": "sareti",
+    "pos": "noun",
+    "topic": "butterflies",
+    "level": "TI",
+    "t": {
+      "de": "die Spinne",
+      "en": "spider",
+      "sv": "spindel",
+      "nl": "spin",
+      "it": "il ragno",
+      "es": "la araña"
+    },
+    "emoji": "🕷️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_schm_cttp",
+    "am": "ደቦል",
+    "tr": "debol",
+    "pos": "noun",
+    "topic": "butterflies",
+    "level": "TI",
+    "t": {
+      "de": "die Raupe",
+      "en": "caterpillar",
+      "sv": "larv",
+      "nl": "rups",
+      "it": "il bruco",
+      "es": "la oruga"
+    },
+    "emoji": "🐛",
+    "verified": false
+  }
+]

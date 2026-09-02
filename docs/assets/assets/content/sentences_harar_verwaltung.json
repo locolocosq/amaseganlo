@@ -1,0 +1,99 @@
+[
+  {
+    "id": "sen_hv_kelemayor_astedader",
+    "am": "ከንቲባው አስተዳደሩን ይመራል።",
+    "tr": "kentibaw astedaderun yimeral.",
+    "level": "B2",
+    "uses": [
+      "lex_hv_kelemayor",
+      "lex_hv_astedader"
+    ],
+    "t": {
+      "de": "Der Bürgermeister leitet die Verwaltung.",
+      "en": "The mayor leads the administration.",
+      "sv": "Borgmästaren leder förvaltningen.",
+      "nl": "De burgemeester leidt de administratie.",
+      "it": "Il sindaco guida l'amministrazione.",
+      "es": "El alcalde dirige la administración."
+    },
+    "chunks": [
+      "kentibaw",
+      "astedaderun",
+      "yimeral"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hv_masresha_masmesket",
+    "am": "ዜጋው ማመልከቻ አስመዘገበ።",
+    "tr": "zegaw mamelikecha asimezegebe.",
+    "level": "B2",
+    "uses": [
+      "lex_hv_masresha",
+      "lex_hv_v_masmesket"
+    ],
+    "t": {
+      "de": "Der Bürger reichte einen Antrag ein.",
+      "en": "The citizen submitted an application.",
+      "sv": "Medborgaren lämnade in en ansökan.",
+      "nl": "De burger diende een aanvraag in.",
+      "it": "Il cittadino ha presentato una domanda.",
+      "es": "El ciudadano presentó una solicitud."
+    },
+    "chunks": [
+      "zegaw",
+      "mamelikecha",
+      "asimezegebe"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hv_firma_meferem",
+    "am": "ዜጋው ሰነዱን ፈረመ።",
+    "tr": "zegaw senedun ferreme.",
+    "level": "B2",
+    "uses": [
+      "lex_hv_firma",
+      "lex_hv_v_meferem",
+      "lex_hv_dokumment"
+    ],
+    "t": {
+      "de": "Der Bürger unterschrieb das Dokument.",
+      "en": "The citizen signed the document.",
+      "sv": "Medborgaren undertecknade dokumentet.",
+      "nl": "De burger ondertekende het document.",
+      "it": "Il cittadino ha firmato il documento.",
+      "es": "El ciudadano firmó el documento."
+    },
+    "chunks": [
+      "zegaw",
+      "senedun",
+      "ferreme"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hv_kelal_tor_mekfel",
+    "am": "ዜጎች ግብር ይከፍላሉ።",
+    "tr": "zegoch gibir yikefilalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hv_kelal_tor",
+      "lex_hv_v_mekfel"
+    ],
+    "t": {
+      "de": "Bürger zahlen Steuern.",
+      "en": "Citizens pay taxes.",
+      "sv": "Medborgare betalar skatt.",
+      "nl": "Burgers betalen belasting.",
+      "it": "I cittadini pagano le tasse.",
+      "es": "Los ciudadanos pagan impuestos."
+    },
+    "chunks": [
+      "zegoch",
+      "gibir",
+      "yikefilalu"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "unit_zuhause_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_haus",
+      "lex_zimmer",
+      "lex_tuer",
+      "lex_tisch",
+      "lex_stuhl",
+      "lex_bett",
+      "lex_kueche",
+      "lex_fenster",
+      "lex_schluessel",
+      "lex_lampe",
+      "lex_schrank",
+      "lex_spiegel",
+      "lex_dach",
+      "lex_boden",
+      "lex_garten",
+      "lex_badezimmer"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zuhause_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_haus",
+      "lex_zimmer",
+      "lex_tuer",
+      "lex_tisch",
+      "lex_stuhl",
+      "lex_bett",
+      "lex_kueche",
+      "lex_fenster",
+      "lex_schluessel",
+      "lex_lampe",
+      "lex_schrank",
+      "lex_spiegel",
+      "lex_dach",
+      "lex_boden",
+      "lex_garten",
+      "lex_badezimmer"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zuhause_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_haus",
+      "lex_zimmer",
+      "lex_tuer",
+      "lex_tisch",
+      "lex_stuhl",
+      "lex_bett",
+      "lex_kueche",
+      "lex_fenster",
+      "lex_schluessel",
+      "lex_lampe",
+      "lex_schrank",
+      "lex_spiegel",
+      "lex_dach",
+      "lex_boden",
+      "lex_garten",
+      "lex_badezimmer"
+    ],
+    "sentenceIds": [
+      "sen_biet_tilik",
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zuhause_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_haus",
+      "lex_zimmer",
+      "lex_tuer",
+      "lex_tisch",
+      "lex_stuhl",
+      "lex_bett",
+      "lex_kueche",
+      "lex_fenster",
+      "lex_schluessel",
+      "lex_lampe",
+      "lex_schrank",
+      "lex_spiegel",
+      "lex_dach",
+      "lex_boden",
+      "lex_garten",
+      "lex_badezimmer"
+    ],
+    "sentenceIds": [
+      "sen_biet_tilik",
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zuhause_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_haus",
+      "lex_zimmer",
+      "lex_tuer",
+      "lex_tisch",
+      "lex_stuhl",
+      "lex_bett",
+      "lex_kueche",
+      "lex_fenster",
+      "lex_schluessel",
+      "lex_lampe",
+      "lex_schrank",
+      "lex_spiegel",
+      "lex_dach",
+      "lex_boden",
+      "lex_garten",
+      "lex_badezimmer"
+    ],
+    "sentenceIds": [
+      "sen_biet_tilik",
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zuhause_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_haus",
+      "lex_zimmer",
+      "lex_tuer",
+      "lex_tisch",
+      "lex_stuhl",
+      "lex_bett",
+      "lex_kueche",
+      "lex_fenster",
+      "lex_schluessel",
+      "lex_lampe",
+      "lex_schrank",
+      "lex_spiegel",
+      "lex_dach",
+      "lex_boden",
+      "lex_garten",
+      "lex_badezimmer"
+    ],
+    "sentenceIds": [
+      "sen_biet_tilik",
+      "sen_ber_kefeto",
+      "sen_gen_zimmer",
+      "sen_gen_tisch",
+      "sen_gen_stuhl"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

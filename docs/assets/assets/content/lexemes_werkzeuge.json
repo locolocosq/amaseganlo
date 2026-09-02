@@ -1,0 +1,202 @@
+[
+  {
+    "id": "lex_hammer",
+    "am": "መጠቅ",
+    "tr": "met'ek'",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "der Hammer",
+      "en": "hammer",
+      "sv": "hammare",
+      "nl": "hamer",
+      "it": "il martello",
+      "es": "el martillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔨",
+    "verified": false
+  },
+  {
+    "id": "lex_nagel",
+    "am": "ችንካር",
+    "tr": "chinikar",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "der Nagel",
+      "en": "nail",
+      "sv": "spik",
+      "nl": "spijker",
+      "it": "il chiodo",
+      "es": "el clavo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schraube",
+    "am": "ብሎን",
+    "tr": "bilon",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "die Schraube",
+      "en": "screw",
+      "sv": "skruv",
+      "nl": "schroef",
+      "it": "la vite",
+      "es": "el tornillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_saege",
+    "am": "መጋዝ",
+    "tr": "megaz",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "die Säge",
+      "en": "saw",
+      "sv": "såg",
+      "nl": "zaag",
+      "it": "la sega",
+      "es": "la sierra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪚",
+    "verified": false
+  },
+  {
+    "id": "lex_bohrer",
+    "am": "መብሳት",
+    "tr": "mebisat",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "der Bohrer",
+      "en": "drill",
+      "sv": "borr",
+      "nl": "boor",
+      "it": "il trapano",
+      "es": "el taladro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schraubenschluessel",
+    "am": "ቁልፍ (መፍቻ)",
+    "tr": "k'ulf (mefich'a)",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "der Schraubenschlüssel",
+      "en": "wrench",
+      "sv": "skiftnyckel",
+      "nl": "moersleutel",
+      "it": "la chiave inglese",
+      "es": "la llave inglesa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_leiter",
+    "am": "መሰላል",
+    "tr": "meselal",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "die Leiter",
+      "en": "ladder",
+      "sv": "stege",
+      "nl": "ladder",
+      "it": "la scala",
+      "es": "la escalera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪜",
+    "verified": true
+  },
+  {
+    "id": "lex_seil",
+    "am": "ገመድ",
+    "tr": "gemed",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "das Seil",
+      "en": "rope",
+      "sv": "rep",
+      "nl": "touw",
+      "it": "la corda",
+      "es": "la cuerda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_klebeband",
+    "am": "ማጣበቂያ",
+    "tr": "mat'abek'iya",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "das Klebeband",
+      "en": "tape",
+      "sv": "tejp",
+      "nl": "plakband",
+      "it": "il nastro adesivo",
+      "es": "la cinta adhesiva"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_leim",
+    "am": "ሙጫ",
+    "tr": "mucha",
+    "pos": "noun",
+    "topic": "tools",
+    "level": "A2",
+    "t": {
+      "de": "der Leim, Klebstoff",
+      "en": "glue",
+      "sv": "lim",
+      "nl": "lijm",
+      "it": "la colla",
+      "es": "el pegamento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

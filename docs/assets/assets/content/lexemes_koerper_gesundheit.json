@@ -1,0 +1,582 @@
+[
+  {
+    "id": "lex_kopf",
+    "am": "ራስ",
+    "tr": "ras",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Kopf",
+      "en": "head",
+      "sv": "huvud",
+      "nl": "hoofd",
+      "it": "la testa",
+      "es": "la cabeza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🗣️",
+    "verified": true
+  },
+  {
+    "id": "lex_auge",
+    "am": "ዓይን",
+    "tr": "ayn",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Auge",
+      "en": "eye",
+      "sv": "öga",
+      "nl": "oog",
+      "it": "l'occhio",
+      "es": "el ojo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👁️",
+    "verified": true
+  },
+  {
+    "id": "lex_ohr",
+    "am": "ጆሮ",
+    "tr": "joro",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Ohr",
+      "en": "ear",
+      "sv": "öra",
+      "nl": "oor",
+      "it": "l'orecchio",
+      "es": "la oreja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👂",
+    "verified": true
+  },
+  {
+    "id": "lex_nase",
+    "am": "አፍንጫ",
+    "tr": "afincha",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Nase",
+      "en": "nose",
+      "sv": "näsa",
+      "nl": "neus",
+      "it": "il naso",
+      "es": "la nariz"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👃",
+    "verified": true
+  },
+  {
+    "id": "lex_mund",
+    "am": "አፍ",
+    "tr": "af",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Mund",
+      "en": "mouth",
+      "sv": "mun",
+      "nl": "mond",
+      "it": "la bocca",
+      "es": "la boca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👄",
+    "verified": true
+  },
+  {
+    "id": "lex_hand",
+    "am": "እጅ",
+    "tr": "ij",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Hand",
+      "en": "hand",
+      "sv": "hand",
+      "nl": "hand",
+      "it": "la mano",
+      "es": "la mano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✋",
+    "verified": true
+  },
+  {
+    "id": "lex_fuss",
+    "am": "እግር",
+    "tr": "igir",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Fuß, das Bein",
+      "en": "foot, leg",
+      "sv": "fot, ben",
+      "nl": "voet, been",
+      "it": "il piede, la gamba",
+      "es": "el pie, la pierna"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🦵",
+    "verified": true
+  },
+  {
+    "id": "lex_bauch",
+    "am": "ሆድ",
+    "tr": "hod",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Bauch",
+      "en": "belly, stomach",
+      "sv": "mage",
+      "nl": "buik",
+      "it": "la pancia",
+      "es": "la barriga"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_herz",
+    "am": "ልብ",
+    "tr": "lib",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Herz",
+      "en": "heart",
+      "sv": "hjärta",
+      "nl": "hart",
+      "it": "il cuore",
+      "es": "el corazón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "❤️",
+    "verified": true
+  },
+  {
+    "id": "lex_zahn",
+    "am": "ጥርስ",
+    "tr": "t'iris",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Zahn",
+      "en": "tooth",
+      "sv": "tand",
+      "nl": "tand",
+      "it": "il dente",
+      "es": "el diente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🦷",
+    "verified": false
+  },
+  {
+    "id": "lex_haar",
+    "am": "ፀጉር",
+    "tr": "ts'egur",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Haar",
+      "en": "hair",
+      "sv": "hår",
+      "nl": "haar",
+      "it": "i capelli",
+      "es": "el pelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schmerz",
+    "am": "ህመም",
+    "tr": "himem",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Schmerz",
+      "en": "pain",
+      "sv": "smärta",
+      "nl": "pijn",
+      "it": "il dolore",
+      "es": "el dolor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_arzt",
+    "am": "ሐኪም",
+    "tr": "hakim",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Arzt, die Ärztin",
+      "en": "doctor",
+      "sv": "läkare",
+      "nl": "dokter",
+      "it": "il dottore/la dottoressa",
+      "es": "el doctor/la doctora"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👨‍⚕️",
+    "verified": true
+  },
+  {
+    "id": "lex_medikament",
+    "am": "መድሃኒት",
+    "tr": "medhanit",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Medikament",
+      "en": "medicine",
+      "sv": "medicin",
+      "nl": "medicijn",
+      "it": "il medicinale",
+      "es": "el medicamento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💊",
+    "verified": true
+  },
+  {
+    "id": "lex_krank_phrase",
+    "am": "ታምሜያለሁ",
+    "tr": "tammeyalehu",
+    "pos": "phrase",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "Ich bin krank",
+      "en": "I am sick",
+      "sv": "Jag är sjuk",
+      "nl": "Ik ben ziek",
+      "it": "Sono malato/a",
+      "es": "Estoy enfermo/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gesund",
+    "am": "ጤናማ",
+    "tr": "t'enama",
+    "pos": "adjective",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "gesund",
+      "en": "healthy",
+      "sv": "frisk",
+      "nl": "gezond",
+      "it": "sano/a",
+      "es": "sano/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_geht_nicht_gut",
+    "am": "ደህና አይደለሁም",
+    "tr": "dehna aydelehum",
+    "pos": "phrase",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "Mir geht es nicht gut",
+      "en": "I'm not well",
+      "sv": "Jag mår inte bra",
+      "nl": "Het gaat niet goed met mij",
+      "it": "Non mi sento bene",
+      "es": "No me siento bien"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schulter",
+    "am": "ትከሻ",
+    "tr": "tikesha",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Schulter",
+      "en": "shoulder",
+      "sv": "axel",
+      "nl": "schouder",
+      "it": "la spalla",
+      "es": "el hombro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ruecken",
+    "am": "ጀርባ",
+    "tr": "jerba",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Rücken",
+      "en": "back",
+      "sv": "rygg",
+      "nl": "rug",
+      "it": "la schiena",
+      "es": "la espalda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_knie",
+    "am": "ጉልበት",
+    "tr": "gulbet",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Knie",
+      "en": "knee",
+      "sv": "knä",
+      "nl": "knie",
+      "it": "il ginocchio",
+      "es": "la rodilla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_finger",
+    "am": "ጣት",
+    "tr": "t'at",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Finger",
+      "en": "finger",
+      "sv": "finger",
+      "nl": "vinger",
+      "it": "il dito",
+      "es": "el dedo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hals",
+    "am": "አንገት",
+    "tr": "anget",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Hals",
+      "en": "neck",
+      "sv": "hals",
+      "nl": "nek",
+      "it": "il collo",
+      "es": "el cuello"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_haut",
+    "am": "ቆዳ",
+    "tr": "k'oda",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Haut",
+      "en": "skin",
+      "sv": "hud",
+      "nl": "huid",
+      "it": "la pelle",
+      "es": "la piel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_fieber",
+    "am": "ትኩሳት",
+    "tr": "tikusat",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "das Fieber",
+      "en": "fever",
+      "sv": "feber",
+      "nl": "koorts",
+      "it": "la febbre",
+      "es": "la fiebre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_husten",
+    "am": "ሳል",
+    "tr": "sal",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "der Husten",
+      "en": "cough",
+      "sv": "hosta",
+      "nl": "hoest",
+      "it": "la tosse",
+      "es": "la tos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_apotheke",
+    "am": "ፋርማሲ",
+    "tr": "farmasi",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Apotheke",
+      "en": "pharmacy",
+      "sv": "apotek",
+      "nl": "apotheek",
+      "it": "la farmacia",
+      "es": "la farmacia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💊",
+    "verified": true
+  },
+  {
+    "id": "lex_krankenschwester",
+    "am": "ነርስ",
+    "tr": "ners",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Krankenschwester, der Pfleger",
+      "en": "nurse",
+      "sv": "sjuksköterska",
+      "nl": "verpleegkundige",
+      "it": "l'infermiere/l'infermiera",
+      "es": "el enfermero/la enfermera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gesundheit_noun",
+    "am": "ጤና",
+    "tr": "t'ena",
+    "pos": "noun",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "die Gesundheit",
+      "en": "health",
+      "sv": "hälsa",
+      "nl": "gezondheid",
+      "it": "la salute",
+      "es": "la salud"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_muede",
+    "am": "ደክሞኛል",
+    "tr": "dekmogniall",
+    "pos": "phrase",
+    "topic": "body_health",
+    "level": "A2",
+    "t": {
+      "de": "Ich bin müde",
+      "en": "I am tired",
+      "sv": "Jag är trött",
+      "nl": "Ik ben moe",
+      "it": "Sono stanco/a",
+      "es": "Estoy cansado/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

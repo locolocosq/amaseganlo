@@ -1,0 +1,342 @@
+[
+  {
+    "id": "lex_person",
+    "am": "ሰው",
+    "tr": "sew",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Person, der Mensch",
+      "en": "person, human",
+      "sv": "person, människa",
+      "nl": "persoon, mens",
+      "it": "la persona",
+      "es": "la persona"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧍",
+    "verified": true
+  },
+  {
+    "id": "lex_familie",
+    "am": "ቤተሰብ",
+    "tr": "beteseb",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Familie",
+      "en": "family",
+      "sv": "familj",
+      "nl": "familie",
+      "it": "la famiglia",
+      "es": "la familia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👨‍👩‍👧",
+    "verified": true
+  },
+  {
+    "id": "lex_mutter",
+    "am": "እናት",
+    "tr": "innat",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Mutter",
+      "en": "mother",
+      "sv": "mamma",
+      "nl": "moeder",
+      "it": "la madre",
+      "es": "la madre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👩",
+    "verified": true
+  },
+  {
+    "id": "lex_vater",
+    "am": "አባት",
+    "tr": "abbat",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "der Vater",
+      "en": "father",
+      "sv": "pappa",
+      "nl": "vader",
+      "it": "il padre",
+      "es": "el padre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👨",
+    "verified": true
+  },
+  {
+    "id": "lex_kind",
+    "am": "ልጅ",
+    "tr": "lij",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "das Kind",
+      "en": "child",
+      "sv": "barn",
+      "nl": "kind",
+      "it": "il bambino",
+      "es": "el niño"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧒",
+    "verified": true
+  },
+  {
+    "id": "lex_bruder",
+    "am": "ወንድም",
+    "tr": "wendim",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "der Bruder",
+      "en": "brother",
+      "sv": "bror",
+      "nl": "broer",
+      "it": "il fratello",
+      "es": "el hermano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👦",
+    "verified": true
+  },
+  {
+    "id": "lex_schwester",
+    "am": "እህት",
+    "tr": "ihit",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Schwester",
+      "en": "sister",
+      "sv": "syster",
+      "nl": "zus",
+      "it": "la sorella",
+      "es": "la hermana"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👧",
+    "verified": true
+  },
+  {
+    "id": "lex_freund",
+    "am": "ጓደኛ",
+    "tr": "guadegna",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "der Freund, die Freundin",
+      "en": "friend",
+      "sv": "vän",
+      "nl": "vriend",
+      "it": "l'amico, l'amica",
+      "es": "el amigo, la amiga"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧑‍🤝‍🧑",
+    "verified": true
+  },
+  {
+    "id": "lex_mann",
+    "am": "ወንድ",
+    "tr": "wend",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "der Mann, männlich",
+      "en": "man, male",
+      "sv": "man, manlig",
+      "nl": "man, mannelijk",
+      "it": "l'uomo, maschile",
+      "es": "el hombre, masculino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👨",
+    "verified": false
+  },
+  {
+    "id": "lex_frau",
+    "am": "ሴት",
+    "tr": "set",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Frau, weiblich",
+      "en": "woman, female",
+      "sv": "kvinna, kvinnlig",
+      "nl": "vrouw, vrouwelijk",
+      "it": "la donna, femminile",
+      "es": "la mujer, femenino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👩",
+    "verified": false
+  },
+  {
+    "id": "lex_baby",
+    "am": "ሕፃን",
+    "tr": "hitsan",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "das Baby",
+      "en": "baby",
+      "sv": "bebis",
+      "nl": "baby",
+      "it": "il bebè",
+      "es": "el bebé"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👶",
+    "verified": false
+  },
+  {
+    "id": "lex_grosseltern",
+    "am": "አያት",
+    "tr": "ayat",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Großmutter/der Großvater",
+      "en": "grandmother/grandfather",
+      "sv": "mormor/morfar",
+      "nl": "grootmoeder/grootvader",
+      "it": "la nonna/il nonno",
+      "es": "la abuela/el abuelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👴",
+    "verified": false
+  },
+  {
+    "id": "lex_onkel",
+    "am": "አጎት",
+    "tr": "agot",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "der Onkel",
+      "en": "uncle",
+      "sv": "farbror",
+      "nl": "oom",
+      "it": "lo zio",
+      "es": "el tío"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👨",
+    "verified": false
+  },
+  {
+    "id": "lex_tante",
+    "am": "አክስት",
+    "tr": "akist",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Tante",
+      "en": "aunt",
+      "sv": "faster",
+      "nl": "tante",
+      "it": "la zia",
+      "es": "la tía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👩",
+    "verified": false
+  },
+  {
+    "id": "lex_leute",
+    "am": "ሰዎች",
+    "tr": "sewoch",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Leute, die Menschen",
+      "en": "people",
+      "sv": "människor",
+      "nl": "mensen",
+      "it": "la gente, le persone",
+      "es": "la gente, las personas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👥",
+    "verified": false
+  },
+  {
+    "id": "lex_ehemann",
+    "am": "ባል",
+    "tr": "bal",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "der Ehemann",
+      "en": "husband",
+      "sv": "make",
+      "nl": "echtgenoot",
+      "it": "il marito",
+      "es": "el marido"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🤵",
+    "verified": false
+  },
+  {
+    "id": "lex_ehefrau",
+    "am": "ሚስት",
+    "tr": "mist",
+    "pos": "noun",
+    "topic": "family",
+    "level": "A1.1",
+    "t": {
+      "de": "die Ehefrau",
+      "en": "wife",
+      "sv": "maka",
+      "nl": "echtgenote",
+      "it": "la moglie",
+      "es": "la esposa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👰",
+    "verified": false
+  }
+]

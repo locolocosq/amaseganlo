@@ -1,0 +1,200 @@
+[
+  {
+    "id": "sen_ti_ane_dehan",
+    "am": "ኣነ ደሓን እየ።",
+    "tr": "ane dehan iye.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ane",
+      "lex_ti_dehan"
+    ],
+    "t": {
+      "de": "Mir geht es gut.",
+      "en": "I am fine.",
+      "sv": "Jag mår bra.",
+      "nl": "Het gaat goed met mij.",
+      "it": "Sto bene.",
+      "es": "Estoy bien."
+    },
+    "alt": {},
+    "chunks": [
+      "ane",
+      "dehan",
+      "iye"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_nsu_dehan",
+    "am": "ንሱ ደሓን እዩ።",
+    "tr": "nsu dehan iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_nsu",
+      "lex_ti_dehan"
+    ],
+    "t": {
+      "de": "Es geht ihm gut.",
+      "en": "He is fine.",
+      "sv": "Det går bra för honom.",
+      "nl": "Het gaat goed met hem.",
+      "it": "Lui sta bene.",
+      "es": "Él está bien."
+    },
+    "alt": {},
+    "chunks": [
+      "nsu",
+      "dehan",
+      "iyu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_haw_ade",
+    "am": "ሓወይ ምስ ኣደይ ኣሎ።",
+    "tr": "hawey ms adey alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_haw",
+      "lex_ti_ade"
+    ],
+    "t": {
+      "de": "Mein Bruder ist bei meiner Mutter.",
+      "en": "My brother is with my mother.",
+      "sv": "Min bror är hos min mamma.",
+      "nl": "Mijn broer is bij mijn moeder.",
+      "it": "Mio fratello è con mia madre.",
+      "es": "Mi hermano está con mi madre."
+    },
+    "alt": {},
+    "chunks": [
+      "hawey",
+      "ms",
+      "adey",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_hafti_abo",
+    "am": "ሓፍተይ ምስ ኣቦይ ኣላ።",
+    "tr": "haftey ms aboy ala.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hafti",
+      "lex_ti_abo"
+    ],
+    "t": {
+      "de": "Meine Schwester ist bei meinem Vater.",
+      "en": "My sister is with my father.",
+      "sv": "Min syster är hos min pappa.",
+      "nl": "Mijn zus is bij mijn vader.",
+      "it": "Mia sorella è con mio padre.",
+      "es": "Mi hermana está con mi padre."
+    },
+    "alt": {},
+    "chunks": [
+      "haftey",
+      "ms",
+      "aboy",
+      "ala"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kelte_kolu",
+    "am": "ክልተ ቆልዑ ኣለዉ።",
+    "tr": "kelte kol'u alewu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_2",
+      "lex_ti_kolu"
+    ],
+    "t": {
+      "de": "Es gibt zwei Kinder.",
+      "en": "There are two children.",
+      "sv": "Det finns två barn.",
+      "nl": "Er zijn twee kinderen.",
+      "it": "Ci sono due bambini.",
+      "es": "Hay dos niños."
+    },
+    "alt": {},
+    "chunks": [
+      "kelte",
+      "kol'u",
+      "alewu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_seleste_ahwat",
+    "am": "ሰለስተ ኣሕዋት ኣለዉ።",
+    "tr": "seleste ahwat alewu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zahl_3",
+      "lex_ti_haw"
+    ],
+    "t": {
+      "de": "Es gibt drei Brüder.",
+      "en": "There are three brothers.",
+      "sv": "Det finns tre bröder.",
+      "nl": "Er zijn drie broers.",
+      "it": "Ci sono tre fratelli.",
+      "es": "Hay tres hermanos."
+    },
+    "alt": {},
+    "chunks": [
+      "seleste",
+      "ahwat",
+      "alewu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_mai_alo",
+    "am": "ማይ ኣሎ።",
+    "tr": "mai alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mai"
+    ],
+    "t": {
+      "de": "Es gibt Wasser.",
+      "en": "There is water.",
+      "sv": "Det finns vatten.",
+      "nl": "Er is water.",
+      "it": "C'è acqua.",
+      "es": "Hay agua."
+    },
+    "alt": {},
+    "chunks": [
+      "mai",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_bun_alo",
+    "am": "ቡን ኣሎ።",
+    "tr": "bun alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bun"
+    ],
+    "t": {
+      "de": "Es gibt Kaffee.",
+      "en": "There is coffee.",
+      "sv": "Det finns kaffe.",
+      "nl": "Er is koffie.",
+      "it": "C'è caffè.",
+      "es": "Hay café."
+    },
+    "alt": {},
+    "chunks": [
+      "bun",
+      "alo"
+    ],
+    "verified": false
+  }
+]

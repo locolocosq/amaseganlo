@@ -1,0 +1,485 @@
+[
+  {
+    "id": "sen_ti_verben_adjektive_1",
+    "am": "ከፈተ ኣሎ።",
+    "tr": "kefete alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vb3_kefete"
+    ],
+    "t": {
+      "de": "Es gibt öffnen.",
+      "en": "There is to open.",
+      "sv": "Det finns att öppna.",
+      "nl": "Er is openen.",
+      "it": "C'è aprire.",
+      "es": "Hay abrir."
+    },
+    "alt": {},
+    "chunks": [
+      "kefete",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_praepositionen_1",
+    "am": "ኣብ ልዕሊ ኣሎ።",
+    "tr": "'ab li'ili alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_prp_lely"
+    ],
+    "t": {
+      "de": "Es gibt über.",
+      "en": "There is on, above.",
+      "sv": "Det finns på, ovanpå.",
+      "nl": "Er is op, boven.",
+      "it": "C'è sopra.",
+      "es": "Hay encima."
+    },
+    "alt": {},
+    "chunks": [
+      "'ab li'ili",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_medizin_1",
+    "am": "ሆስፒታል ኣሎ።",
+    "tr": "hospital alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_med_hakim"
+    ],
+    "t": {
+      "de": "Es gibt das Krankenhaus.",
+      "en": "There is hospital.",
+      "sv": "Det finns sjukhus.",
+      "nl": "Er is ziekenhuis.",
+      "it": "C'è l'ospedale.",
+      "es": "Hay un hospital."
+    },
+    "alt": {},
+    "chunks": [
+      "hospital",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_technologie_mehr_1",
+    "am": "መባትር ኣሎ።",
+    "tr": "mebatir alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tec2_mbtta"
+    ],
+    "t": {
+      "de": "Es gibt das Ladegerät.",
+      "en": "There is charger.",
+      "sv": "Det finns laddare.",
+      "nl": "Er is oplader.",
+      "it": "C'è il caricabatterie.",
+      "es": "Hay un cargador."
+    },
+    "alt": {},
+    "chunks": [
+      "mebatir",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_umwelt_medien_1",
+    "am": "ኣየር ብከላ ኣሎ።",
+    "tr": "ayer bikela alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_umw_awirai"
+    ],
+    "t": {
+      "de": "Es gibt die Luftverschmutzung.",
+      "en": "There is air pollution.",
+      "sv": "Det finns luftförorening.",
+      "nl": "Er is luchtvervuiling.",
+      "it": "C'è l'inquinamento atmosferico.",
+      "es": "Hay contaminación del aire."
+    },
+    "alt": {},
+    "chunks": [
+      "ayer bikela",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_hobbys_1",
+    "am": "ንባብ ኣሎ።",
+    "tr": "nibab alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hby_ntbb"
+    ],
+    "t": {
+      "de": "Es gibt das Lesen.",
+      "en": "There is reading.",
+      "sv": "Det finns läsning.",
+      "nl": "Er is lezen.",
+      "it": "C'è la lettura.",
+      "es": "Hay lectura."
+    },
+    "alt": {},
+    "chunks": [
+      "nibab",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_laender_mehr_1",
+    "am": "ኤርትራ ኣሎ።",
+    "tr": "ertra alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ld2_ertra"
+    ],
+    "t": {
+      "de": "Es gibt Eritrea.",
+      "en": "There is Eritrea.",
+      "sv": "Det finns Eritrea.",
+      "nl": "Er is Eritrea.",
+      "it": "C'è l'Eritrea.",
+      "es": "Hay Eritrea."
+    },
+    "alt": {},
+    "chunks": [
+      "ertra",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_sport_mehr2_1",
+    "am": "ተኒስ ኣሎ።",
+    "tr": "tenis alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sp3_tenis"
+    ],
+    "t": {
+      "de": "Es gibt das Tennis.",
+      "en": "There is tennis.",
+      "sv": "Det finns tennis.",
+      "nl": "Er is tennis.",
+      "it": "C'è il tennis.",
+      "es": "Hay tenis."
+    },
+    "alt": {},
+    "chunks": [
+      "tenis",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_berufe_mehr_1",
+    "am": "ፓይሎት ኣሎ።",
+    "tr": "paylot alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brf2_pilot"
+    ],
+    "t": {
+      "de": "Es gibt der Pilot.",
+      "en": "There is pilot.",
+      "sv": "Det finns pilot.",
+      "nl": "Er is piloot.",
+      "it": "C'è il pilota.",
+      "es": "Hay un piloto."
+    },
+    "alt": {},
+    "chunks": [
+      "paylot",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_wetter_mehr_1",
+    "am": "ቀስተ ደመና ኣሎ።",
+    "tr": "qeste demena alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wt2_qsti"
+    ],
+    "t": {
+      "de": "Es gibt der Regenbogen.",
+      "en": "There is rainbow.",
+      "sv": "Det finns regnbåge.",
+      "nl": "Er is regenboog.",
+      "it": "C'è l'arcobaleno.",
+      "es": "Hay un arcoíris."
+    },
+    "alt": {},
+    "chunks": [
+      "qeste demena",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kleidung_mehr_1",
+    "am": "ናይ ድቃስ ክዳን ኣሎ።",
+    "tr": "nay diqas kidan alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kl2_pjm"
+    ],
+    "t": {
+      "de": "Es gibt der Pyjama.",
+      "en": "There is pajamas.",
+      "sv": "Det finns pyjamas.",
+      "nl": "Er is pyjama.",
+      "it": "C'è il pigiama.",
+      "es": "Hay un pijama."
+    },
+    "alt": {},
+    "chunks": [
+      "nay diqas kidan",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_recht_mehr_1",
+    "am": "ቅዋም ኣሎ።",
+    "tr": "qiwam alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_r2_kstt"
+    ],
+    "t": {
+      "de": "Es gibt die Verfassung.",
+      "en": "There is constitution.",
+      "sv": "Det finns författning.",
+      "nl": "Er is grondwet.",
+      "it": "C'è la costituzione.",
+      "es": "Hay una constitución."
+    },
+    "alt": {},
+    "chunks": [
+      "qiwam",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_meerestiere_1",
+    "am": "ዓሳ ኣሎ።",
+    "tr": "'asa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mrt_asa2"
+    ],
+    "t": {
+      "de": "Es gibt der Fisch.",
+      "en": "There is fish.",
+      "sv": "Det finns fisk.",
+      "nl": "Er is vis.",
+      "it": "C'è il pesce.",
+      "es": "Hay un pez."
+    },
+    "alt": {},
+    "chunks": [
+      "'asa",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_spielzeug_1",
+    "am": "ባምቡላ ኣሎ።",
+    "tr": "bambula alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_spz_bmbla"
+    ],
+    "t": {
+      "de": "Es gibt die Puppe.",
+      "en": "There is doll.",
+      "sv": "Det finns docka.",
+      "nl": "Er is pop.",
+      "it": "C'è la bambola.",
+      "es": "Hay una muñeca."
+    },
+    "alt": {},
+    "chunks": [
+      "bambula",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_buero_waehrung_1",
+    "am": "ብርዒ ኣሎ።",
+    "tr": "biri'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bro_pnkl"
+    ],
+    "t": {
+      "de": "Es gibt der Stift.",
+      "en": "There is pen.",
+      "sv": "Det finns penna.",
+      "nl": "Er is pen.",
+      "it": "C'è la penna.",
+      "es": "Hay un bolígrafo."
+    },
+    "alt": {},
+    "chunks": [
+      "biri'i",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_moebel_kueche_1",
+    "am": "ሶፋ ኣሎ።",
+    "tr": "sofa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mbl_sofa"
+    ],
+    "t": {
+      "de": "Es gibt das Sofa.",
+      "en": "There is sofa.",
+      "sv": "Det finns soffa.",
+      "nl": "Er is bank (meubel).",
+      "it": "C'è il divano.",
+      "es": "Hay un sofá."
+    },
+    "alt": {},
+    "chunks": [
+      "sofa",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_bauernhof_landschaft_1",
+    "am": "ላም ኣሎ።",
+    "tr": "lam alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bh_lam"
+    ],
+    "t": {
+      "de": "Es gibt die Kuh.",
+      "en": "There is cow.",
+      "sv": "Det finns ko.",
+      "nl": "Er is koe.",
+      "it": "C'è la mucca.",
+      "es": "Hay una vaca."
+    },
+    "alt": {},
+    "chunks": [
+      "lam",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_post_hygiene_1",
+    "am": "ደብዳበ ኣሎ።",
+    "tr": "debdabe alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_pst_lter"
+    ],
+    "t": {
+      "de": "Es gibt der Brief.",
+      "en": "There is letter.",
+      "sv": "Det finns brev.",
+      "nl": "Er is brief.",
+      "it": "C'è la lettera.",
+      "es": "Hay una carta."
+    },
+    "alt": {},
+    "chunks": [
+      "debdabe",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_phrasen_ausrufe_mehr_1",
+    "am": "ኣይትሓዘለይ ኣሎ።",
+    "tr": "ayitihazeley alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ph2_bxi"
+    ],
+    "t": {
+      "de": "Es gibt nichts für ungut.",
+      "en": "There is no offense, sorry.",
+      "sv": "Det finns ingen skada skedd, förlåt.",
+      "nl": "Er is geen probleem, sorry.",
+      "it": "Non c'è alcuna offesa, scusa.",
+      "es": "No hay ofensa, perdón."
+    },
+    "alt": {},
+    "chunks": [
+      "ayitihazeley",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_verkehr_flughafen_1",
+    "am": "ቀያሕ መብራህቲ ኣሎ።",
+    "tr": "qeyah mebrahti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vk2_ampl"
+    ],
+    "t": {
+      "de": "Es gibt die Ampel.",
+      "en": "There is traffic light.",
+      "sv": "Det finns trafikljus.",
+      "nl": "Er is verkeerslicht.",
+      "it": "C'è il semaforo.",
+      "es": "Hay un semáforo."
+    },
+    "alt": {},
+    "chunks": [
+      "qeyah mebrahti",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_sinne_farben_1",
+    "am": "ተመልከተ ኣሎ።",
+    "tr": "temelkete alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sn2_kbdi"
+    ],
+    "t": {
+      "de": "Es gibt beobachten.",
+      "en": "There is to observe, to watch.",
+      "sv": "Det finns att observera, betrakta.",
+      "nl": "Er is observeren, kijken naar.",
+      "it": "C'è osservare.",
+      "es": "Hay observar."
+    },
+    "alt": {},
+    "chunks": [
+      "temelkete",
+      "alo"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "unit_laender_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_deutschland",
+      "lex_england",
+      "lex_schweden",
+      "lex_niederlande",
+      "lex_frankreich",
+      "lex_italien",
+      "lex_amerika",
+      "lex_china",
+      "lex_kenia",
+      "lex_aegypten",
+      "lex_sudan",
+      "lex_spanien",
+      "lex_deutsch_sprache",
+      "lex_englisch_sprache"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_laender_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_deutschland",
+      "lex_england",
+      "lex_schweden",
+      "lex_niederlande",
+      "lex_frankreich",
+      "lex_italien",
+      "lex_amerika",
+      "lex_china",
+      "lex_kenia",
+      "lex_aegypten",
+      "lex_sudan",
+      "lex_spanien",
+      "lex_deutsch_sprache",
+      "lex_englisch_sprache"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_laender_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_deutschland",
+      "lex_england",
+      "lex_schweden",
+      "lex_niederlande",
+      "lex_frankreich",
+      "lex_italien",
+      "lex_amerika",
+      "lex_china",
+      "lex_kenia",
+      "lex_aegypten",
+      "lex_sudan",
+      "lex_spanien",
+      "lex_deutsch_sprache",
+      "lex_englisch_sprache"
+    ],
+    "sentenceIds": [
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_laender_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_deutschland",
+      "lex_england",
+      "lex_schweden",
+      "lex_niederlande",
+      "lex_frankreich",
+      "lex_italien",
+      "lex_amerika",
+      "lex_china",
+      "lex_kenia",
+      "lex_aegypten",
+      "lex_sudan",
+      "lex_spanien",
+      "lex_deutsch_sprache",
+      "lex_englisch_sprache"
+    ],
+    "sentenceIds": [
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_laender_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_deutschland",
+      "lex_england",
+      "lex_schweden",
+      "lex_niederlande",
+      "lex_frankreich",
+      "lex_italien",
+      "lex_amerika",
+      "lex_china",
+      "lex_kenia",
+      "lex_aegypten",
+      "lex_sudan",
+      "lex_spanien",
+      "lex_deutsch_sprache",
+      "lex_englisch_sprache"
+    ],
+    "sentenceIds": [
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_laender_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_deutschland",
+      "lex_england",
+      "lex_schweden",
+      "lex_niederlande",
+      "lex_frankreich",
+      "lex_italien",
+      "lex_amerika",
+      "lex_china",
+      "lex_kenia",
+      "lex_aegypten",
+      "lex_sudan",
+      "lex_spanien",
+      "lex_deutsch_sprache",
+      "lex_englisch_sprache"
+    ],
+    "sentenceIds": [
+      "sen_ine_jerman",
+      "sen_gen_england",
+      "sen_gen_schweden",
+      "sen_gen_niederlande",
+      "sen_gen_frankreich"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

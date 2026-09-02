@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sen_shinkurt_keyy",
+    "am": "ሽንኩርቱ ቀይ ነው።",
+    "tr": "shinkurtu keyy new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zwiebel",
+      "lex_rot"
+    ],
+    "t": {
+      "de": "Die Zwiebel ist rot.",
+      "en": "The onion is red.",
+      "sv": "Löken är röd.",
+      "nl": "De ui is rood.",
+      "it": "La cipolla è rossa.",
+      "es": "La cebolla es roja."
+    },
+    "alt": {},
+    "chunks": [
+      "shinkurtu",
+      "keyy",
+      "new"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_v_tihedaleh",
+    "am": "ትሄዳለህ",
+    "tr": "tihedaleh",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "du gehst (männlich)",
+      "en": "you go (masc.)",
+      "sv": "du går (maskulinum)",
+      "nl": "jij gaat (mannelijk)",
+      "it": "tu vai (maschile)",
+      "es": "tú vas (masculino)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_tihejalesh",
+    "am": "ትሄጃለሽ",
+    "tr": "tihejalesh",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "du gehst (weiblich)",
+      "en": "you go (fem.)",
+      "sv": "du går (femininum)",
+      "nl": "jij gaat (vrouwelijk)",
+      "it": "tu vai (femminile)",
+      "es": "tú vas (femenino)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_yihedal",
+    "am": "ይሄዳል",
+    "tr": "yihedal",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "er geht",
+      "en": "he goes",
+      "sv": "han går",
+      "nl": "hij gaat",
+      "it": "lui va",
+      "es": "él va"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_tihedalech",
+    "am": "ትሄዳለች",
+    "tr": "tihedalech",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "sie geht",
+      "en": "she goes",
+      "sv": "hon går",
+      "nl": "zij gaat",
+      "it": "lei va",
+      "es": "ella va"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_hede",
+    "am": "ሄደ",
+    "tr": "hede",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "er ging",
+      "en": "he went",
+      "sv": "han gick",
+      "nl": "hij ging",
+      "it": "lui è andato",
+      "es": "él fue"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_hedech",
+    "am": "ሄደች",
+    "tr": "hedech",
+    "pos": "verb",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "sie ging",
+      "en": "she went",
+      "sv": "hon gick",
+      "nl": "zij ging",
+      "it": "lei è andata",
+      "es": "ella fue"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_poss_yeissu",
+    "am": "የእሱ",
+    "tr": "yeissu",
+    "pos": "particle",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "sein, seine (Possessivpronomen)",
+      "en": "his",
+      "sv": "hans",
+      "nl": "zijn",
+      "it": "suo, il suo (di lui)",
+      "es": "su, el suyo (de él)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_poss_yeiswa",
+    "am": "የእሷ",
+    "tr": "yeiswa",
+    "pos": "particle",
+    "topic": "gender_grammar_2",
+    "level": "B2",
+    "t": {
+      "de": "ihr, ihre (Possessivpronomen)",
+      "en": "her",
+      "sv": "hennes",
+      "nl": "haar",
+      "it": "suo, il suo (di lei)",
+      "es": "su, el suyo (de ella)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

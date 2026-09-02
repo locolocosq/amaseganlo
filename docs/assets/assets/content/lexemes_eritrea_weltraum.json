@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_alem2",
+    "am": "ጠፈር",
+    "tr": "t'efer",
+    "pos": "noun",
+    "topic": "space",
+    "level": "TI",
+    "t": {
+      "de": "der Weltraum",
+      "en": "space",
+      "sv": "rymden",
+      "nl": "ruimte",
+      "it": "lo spazio",
+      "es": "el espacio"
+    },
+    "emoji": "🌌",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_planet",
+    "am": "ፕላኔት",
+    "tr": "planet",
+    "pos": "noun",
+    "topic": "space",
+    "level": "TI",
+    "t": {
+      "de": "der Planet",
+      "en": "planet",
+      "sv": "planet",
+      "nl": "planeet",
+      "it": "il pianeta",
+      "es": "el planeta"
+    },
+    "emoji": "🪐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_meret2",
+    "am": "ምድሪ (ፕላኔት)",
+    "tr": "midri planet",
+    "pos": "noun",
+    "topic": "space",
+    "level": "TI",
+    "t": {
+      "de": "die Erde (Planet)",
+      "en": "Earth (planet)",
+      "sv": "jorden (planet)",
+      "nl": "aarde (planeet)",
+      "it": "la Terra (pianeta)",
+      "es": "la Tierra (planeta)"
+    },
+    "emoji": "🌍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzbti",
+    "am": "ጋላክሲ",
+    "tr": "galaksi",
+    "pos": "noun",
+    "topic": "space",
+    "level": "TI",
+    "t": {
+      "de": "die Galaxie",
+      "en": "galaxy",
+      "sv": "galax",
+      "nl": "melkweg",
+      "it": "la galassia",
+      "es": "la galaxia"
+    },
+    "emoji": "🌌",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_astro",
+    "am": "ጠፈርተኛ",
+    "tr": "t'efertegna",
+    "pos": "noun",
+    "topic": "space",
+    "level": "TI",
+    "t": {
+      "de": "der Astronaut",
+      "en": "astronaut",
+      "sv": "astronaut",
+      "nl": "astronaut",
+      "it": "l'astronauta",
+      "es": "el astronauta"
+    },
+    "emoji": "🧑‍🚀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kwkbti",
+    "am": "ኣስተር",
+    "tr": "aster",
+    "pos": "noun",
+    "topic": "space",
+    "level": "TI",
+    "t": {
+      "de": "das Sternbild",
+      "en": "constellation",
+      "sv": "stjärnbild",
+      "nl": "sterrenbeeld",
+      "it": "la costellazione",
+      "es": "la constelación"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

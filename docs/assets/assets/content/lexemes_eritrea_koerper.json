@@ -1,0 +1,452 @@
+[
+  {
+    "id": "lex_ti_reisi",
+    "am": "ርእሲ",
+    "tr": "re'isi",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Kopf",
+      "en": "head",
+      "sv": "huvud",
+      "nl": "hoofd",
+      "it": "la testa",
+      "es": "la cabeza"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_geets",
+    "am": "ገጽ",
+    "tr": "gets",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Gesicht",
+      "en": "face",
+      "sv": "ansikte",
+      "nl": "gezicht",
+      "it": "il viso",
+      "es": "la cara"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ayni",
+    "am": "ዓይኒ",
+    "tr": "'ayni",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Auge",
+      "en": "eye",
+      "sv": "öga",
+      "nl": "oog",
+      "it": "l'occhio",
+      "es": "el ojo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_afu",
+    "am": "ኣፍ",
+    "tr": "afu",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Mund",
+      "en": "mouth",
+      "sv": "mun",
+      "nl": "mond",
+      "it": "la bocca",
+      "es": "la boca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_afinca",
+    "am": "ኣፍንጫ",
+    "tr": "afincha",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Nase",
+      "en": "nose",
+      "sv": "näsa",
+      "nl": "neus",
+      "it": "il naso",
+      "es": "la nariz"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ezni",
+    "am": "እዝኒ",
+    "tr": "ezni",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Ohr",
+      "en": "ear",
+      "sv": "öra",
+      "nl": "oor",
+      "it": "l'orecchio",
+      "es": "la oreja"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsegri",
+    "am": "ጸጕሪ",
+    "tr": "tsegri",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Haar",
+      "en": "hair",
+      "sv": "hår",
+      "nl": "haar",
+      "it": "i capelli",
+      "es": "el pelo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kideda",
+    "am": "ከናፍር",
+    "tr": "kenafir",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Lippen",
+      "en": "lips",
+      "sv": "läppar",
+      "nl": "lippen",
+      "it": "le labbra",
+      "es": "los labios"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sinni",
+    "am": "ስኒ",
+    "tr": "sinni",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Zahn",
+      "en": "tooth",
+      "sv": "tand",
+      "nl": "tand",
+      "it": "il dente",
+      "es": "el diente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kuli",
+    "am": "ልሳን",
+    "tr": "lisan",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Zunge",
+      "en": "tongue",
+      "sv": "tunga",
+      "nl": "tong",
+      "it": "la lingua",
+      "es": "la lengua"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kitfi",
+    "am": "ክሳድ",
+    "tr": "kisad",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Hals",
+      "en": "neck",
+      "sv": "hals",
+      "nl": "nek",
+      "it": "il collo",
+      "es": "el cuello"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_manki",
+    "am": "መንኩብ",
+    "tr": "menkub",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Schulter",
+      "en": "shoulder",
+      "sv": "axel",
+      "nl": "schouder",
+      "it": "la spalla",
+      "es": "el hombro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ida",
+    "am": "ኢድ",
+    "tr": "'ida",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Hand",
+      "en": "hand",
+      "sv": "hand",
+      "nl": "hand",
+      "it": "la mano",
+      "es": "la mano"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ats'inbaha",
+    "am": "ኣጻብዕ",
+    "tr": "atsab'e",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Finger",
+      "en": "fingers",
+      "sv": "fingrar",
+      "nl": "vingers",
+      "it": "le dita",
+      "es": "los dedos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_igri",
+    "am": "እግሪ",
+    "tr": "igri",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Fuß, das Bein",
+      "en": "foot, leg",
+      "sv": "fot, ben",
+      "nl": "voet, been",
+      "it": "il piede, la gamba",
+      "es": "el pie, la pierna"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_boro",
+    "am": "ብርኪ",
+    "tr": "birki",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Knie",
+      "en": "knee",
+      "sv": "knä",
+      "nl": "knie",
+      "it": "il ginocchio",
+      "es": "la rodilla"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hadhad",
+    "am": "ሓቖ",
+    "tr": "haqo",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Bauch",
+      "en": "belly, stomach",
+      "sv": "mage",
+      "nl": "buik",
+      "it": "la pancia",
+      "es": "la barriga"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hangol",
+    "am": "ሕቖ",
+    "tr": "hiqo",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Rücken",
+      "en": "back",
+      "sv": "rygg",
+      "nl": "rug",
+      "it": "la schiena",
+      "es": "la espalda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_libbi",
+    "am": "ልቢ",
+    "tr": "libbi",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Herz",
+      "en": "heart",
+      "sv": "hjärta",
+      "nl": "hart",
+      "it": "il cuore",
+      "es": "el corazón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_edmi",
+    "am": "ኣዕጽምቲ",
+    "tr": "a'etsimti",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Knochen",
+      "en": "bones",
+      "sv": "ben (kropp)",
+      "nl": "botten",
+      "it": "le ossa",
+      "es": "los huesos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kebdi2",
+    "am": "ከብዲ",
+    "tr": "kebdi",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Leber",
+      "en": "liver",
+      "sv": "lever",
+      "nl": "lever",
+      "it": "il fegato",
+      "es": "el hígado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dem",
+    "am": "ደም",
+    "tr": "dem",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "das Blut",
+      "en": "blood",
+      "sv": "blod",
+      "nl": "bloed",
+      "it": "il sangue",
+      "es": "la sangre"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_geldi",
+    "am": "ቆርበት",
+    "tr": "qorbet",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Haut",
+      "en": "skin",
+      "sv": "hud",
+      "nl": "huid",
+      "it": "la pelle",
+      "es": "la piel"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsurri",
+    "am": "ጭዋዳ",
+    "tr": "chwada",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "der Muskel",
+      "en": "muscle",
+      "sv": "muskel",
+      "nl": "spier",
+      "it": "il muscolo",
+      "es": "el músculo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_habs",
+    "am": "ኣፍልቢ",
+    "tr": "aflibi",
+    "pos": "noun",
+    "topic": "body",
+    "level": "TI",
+    "t": {
+      "de": "die Brust",
+      "en": "chest",
+      "sv": "bröst",
+      "nl": "borst",
+      "it": "il petto",
+      "es": "el pecho"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

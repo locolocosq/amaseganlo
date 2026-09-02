@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_berufe_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_berufe_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_fix2_stur"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_fix2_stur"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_fix2_stur"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_berufe_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_richter",
+      "lex_priester",
+      "lex_schneider",
+      "lex_zimmermann",
+      "lex_sekretaer",
+      "lex_journalist",
+      "lex_fotograf"
+    ],
+    "sentenceIds": [
+      "sen_gen_richter",
+      "sen_gen_priester",
+      "sen_gen_schneider",
+      "sen_gen_zimmermann",
+      "sen_fix2_stur"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

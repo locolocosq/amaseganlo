@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lex_nah",
+    "am": "የቀረበ",
+    "tr": "yekerebe",
+    "pos": "adjective",
+    "topic": "directions",
+    "level": "A2",
+    "t": {
+      "de": "nah",
+      "en": "near",
+      "sv": "nära",
+      "nl": "dichtbij",
+      "it": "vicino",
+      "es": "cerca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_fern",
+    "am": "የራቀ",
+    "tr": "yerak'e",
+    "pos": "adjective",
+    "topic": "directions",
+    "level": "A2",
+    "t": {
+      "de": "fern, weit",
+      "en": "far",
+      "sv": "långt bort",
+      "nl": "ver",
+      "it": "lontano",
+      "es": "lejos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ecke",
+    "am": "ኩርንችት",
+    "tr": "kurunchit",
+    "pos": "noun",
+    "topic": "directions",
+    "level": "A2",
+    "t": {
+      "de": "die Ecke",
+      "en": "corner",
+      "sv": "hörn",
+      "nl": "hoek",
+      "it": "l'angolo",
+      "es": "la esquina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

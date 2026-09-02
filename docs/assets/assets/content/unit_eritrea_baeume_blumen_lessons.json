@@ -1,0 +1,170 @@
+[
+  {
+    "id": "unit_eritrea_baeume_blumen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_bau2_palm",
+      "lex_ti_bau2_baob",
+      "lex_ti_bau2_akaz",
+      "lex_ti_bau2_root",
+      "lex_ti_bau2_brnch",
+      "lex_ti_bau2_leaf",
+      "lex_ti_bau2_trnk",
+      "lex_ti_blm_rose",
+      "lex_ti_blm_dsy",
+      "lex_ti_blm_sunf",
+      "lex_ti_blm_petl",
+      "lex_ti_blm_bloom",
+      "lex_ti_blm_bqt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_baeume_blumen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_bau2_palm",
+      "lex_ti_bau2_baob",
+      "lex_ti_bau2_akaz",
+      "lex_ti_bau2_root",
+      "lex_ti_bau2_brnch",
+      "lex_ti_bau2_leaf",
+      "lex_ti_bau2_trnk",
+      "lex_ti_blm_rose",
+      "lex_ti_blm_dsy",
+      "lex_ti_blm_sunf",
+      "lex_ti_blm_petl",
+      "lex_ti_blm_bloom",
+      "lex_ti_blm_bqt"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_baeume_blumen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_bau2_palm",
+      "lex_ti_bau2_baob",
+      "lex_ti_bau2_akaz",
+      "lex_ti_bau2_root",
+      "lex_ti_bau2_brnch",
+      "lex_ti_bau2_leaf",
+      "lex_ti_bau2_trnk",
+      "lex_ti_blm_rose",
+      "lex_ti_blm_dsy",
+      "lex_ti_blm_sunf",
+      "lex_ti_blm_petl",
+      "lex_ti_blm_bloom",
+      "lex_ti_blm_bqt"
+    ],
+    "sentenceIds": [
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_baeume_blumen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_bau2_palm",
+      "lex_ti_bau2_baob",
+      "lex_ti_bau2_akaz",
+      "lex_ti_bau2_root",
+      "lex_ti_bau2_brnch",
+      "lex_ti_bau2_leaf",
+      "lex_ti_bau2_trnk",
+      "lex_ti_blm_rose",
+      "lex_ti_blm_dsy",
+      "lex_ti_blm_sunf",
+      "lex_ti_blm_petl",
+      "lex_ti_blm_bloom",
+      "lex_ti_blm_bqt"
+    ],
+    "sentenceIds": [
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_baeume_blumen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_bau2_palm",
+      "lex_ti_bau2_baob",
+      "lex_ti_bau2_akaz",
+      "lex_ti_bau2_root",
+      "lex_ti_bau2_brnch",
+      "lex_ti_bau2_leaf",
+      "lex_ti_bau2_trnk",
+      "lex_ti_blm_rose",
+      "lex_ti_blm_dsy",
+      "lex_ti_blm_sunf",
+      "lex_ti_blm_petl",
+      "lex_ti_blm_bloom",
+      "lex_ti_blm_bqt"
+    ],
+    "sentenceIds": [
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_baeume_blumen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_bau2_palm",
+      "lex_ti_bau2_baob",
+      "lex_ti_bau2_akaz",
+      "lex_ti_bau2_root",
+      "lex_ti_bau2_brnch",
+      "lex_ti_bau2_leaf",
+      "lex_ti_bau2_trnk",
+      "lex_ti_blm_rose",
+      "lex_ti_blm_dsy",
+      "lex_ti_blm_sunf",
+      "lex_ti_blm_petl",
+      "lex_ti_blm_bloom",
+      "lex_ti_blm_bqt"
+    ],
+    "sentenceIds": [
+      "sen_ti_baeume_blumen_1",
+      "sen_gen_bau2_baob",
+      "sen_gen_bau2_akaz",
+      "sen_gen_bau2_root",
+      "sen_gen_bau2_brnch"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

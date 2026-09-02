@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "sen_gen_zimmer",
+    "am": "ክፍል አለ።",
+    "tr": "kifil ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zimmer"
+    ],
+    "t": {
+      "de": "das Zimmer ist vorhanden.",
+      "en": "There is room.",
+      "sv": "Det finns rum.",
+      "nl": "Er is kamer.",
+      "it": "C'è la stanza.",
+      "es": "Hay una habitación."
+    },
+    "alt": {},
+    "chunks": [
+      "kifil",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tisch",
+    "am": "ጠረጴዛ አለኝ።",
+    "tr": "t'eret'eza alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tisch"
+    ],
+    "t": {
+      "de": "Ich habe den Tisch.",
+      "en": "I have table.",
+      "sv": "Jag har bord.",
+      "nl": "Ik heb tafel.",
+      "it": "Ho il tavolo.",
+      "es": "Tengo la mesa."
+    },
+    "alt": {},
+    "chunks": [
+      "t'eret'eza",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stuhl",
+    "am": "ወንበር እወዳለሁ።",
+    "tr": "wenber iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_stuhl"
+    ],
+    "t": {
+      "de": "Ich mag den Stuhl.",
+      "en": "I like chair.",
+      "sv": "Jag gillar stol.",
+      "nl": "Ik hou van stoel.",
+      "it": "Mi piace la sedia.",
+      "es": "Me gusta la silla."
+    },
+    "alt": {},
+    "chunks": [
+      "wenber",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tag",
+    "am": "ቀን አለ።",
+    "tr": "ken ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tag"
+    ],
+    "t": {
+      "de": "der Tag ist vorhanden.",
+      "en": "There is day.",
+      "sv": "Det finns dag.",
+      "nl": "Er is dag.",
+      "it": "C'è il giorno.",
+      "es": "Hay un día."
+    },
+    "alt": {},
+    "chunks": [
+      "ken",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nacht",
+    "am": "ሌሊት አለኝ።",
+    "tr": "lelit alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_nacht"
+    ],
+    "t": {
+      "de": "Ich habe die Nacht.",
+      "en": "I have night.",
+      "sv": "Jag har natt.",
+      "nl": "Ik heb nacht.",
+      "it": "Ho la notte.",
+      "es": "Tengo la noche."
+    },
+    "alt": {},
+    "chunks": [
+      "lelit",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_abend",
+    "am": "ማታ እወዳለሁ።",
+    "tr": "mata iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_abend"
+    ],
+    "t": {
+      "de": "Ich mag den Abend.",
+      "en": "I like evening.",
+      "sv": "Jag gillar kväll.",
+      "nl": "Ik hou van avond.",
+      "it": "Mi piace la sera.",
+      "es": "Me gusta la tarde."
+    },
+    "alt": {},
+    "chunks": [
+      "mata",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rot",
+    "am": "እሱ ቀይ ነው።",
+    "tr": "issu keyy new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_rot"
+    ],
+    "t": {
+      "de": "Er ist rot.",
+      "en": "He is red.",
+      "sv": "Han är röd.",
+      "nl": "Hij is rood.",
+      "it": "Lui è rosso.",
+      "es": "Él es rojo."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "keyy",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_blau",
+    "am": "እሷ ሰማያዊ ናት።",
+    "tr": "iswa semayawi nat.",
+    "level": "A1.2",
+    "uses": [
+      "lex_blau"
+    ],
+    "t": {
+      "de": "Sie ist blau.",
+      "en": "She is blue.",
+      "sv": "Hon är blå.",
+      "nl": "Zij is blauw.",
+      "it": "Lei è blu.",
+      "es": "Ella es azul."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "semayawi",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gruen",
+    "am": "በጣም አረንጓዴ ነው።",
+    "tr": "bet'am arenguadie new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_gruen"
+    ],
+    "t": {
+      "de": "Es ist sehr grün.",
+      "en": "It is very green.",
+      "sv": "Han är verkligen grön.",
+      "nl": "Het is heel groen.",
+      "it": "È molto verde.",
+      "es": "Es muy verde."
+    },
+    "alt": {},
+    "chunks": [
+      "bet'am",
+      "arenguadie",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_30",
+    "am": "ሰላሳ አለ።",
+    "tr": "selasa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_30"
+    ],
+    "t": {
+      "de": "30 ist vorhanden.",
+      "en": "There is 30.",
+      "sv": "Det finns 30.",
+      "nl": "Er is 30.",
+      "it": "C'è 30.",
+      "es": "Hay 30."
+    },
+    "alt": {},
+    "chunks": [
+      "selasa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_40",
+    "am": "አርባ አለኝ።",
+    "tr": "arba alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_40"
+    ],
+    "t": {
+      "de": "Ich habe 40.",
+      "en": "I have 40.",
+      "sv": "Jag har 40.",
+      "nl": "Ik heb 40.",
+      "it": "Ho 40.",
+      "es": "Tengo 40."
+    },
+    "alt": {},
+    "chunks": [
+      "arba",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_50",
+    "am": "ሃምሳ እወዳለሁ።",
+    "tr": "hamsa iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_50"
+    ],
+    "t": {
+      "de": "Ich mag 50.",
+      "en": "I like 50.",
+      "sv": "Jag gillar 50.",
+      "nl": "Ik hou van 50.",
+      "it": "Mi piace 50.",
+      "es": "Me gusta 50."
+    },
+    "alt": {},
+    "chunks": [
+      "hamsa",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_60",
+    "am": "ስድሳ አለ።",
+    "tr": "sidsa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_60"
+    ],
+    "t": {
+      "de": "60 ist vorhanden.",
+      "en": "There is 60.",
+      "sv": "Det finns 60.",
+      "nl": "Er is 60.",
+      "it": "C'è 60.",
+      "es": "Hay 60."
+    },
+    "alt": {},
+    "chunks": [
+      "sidsa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_strasse",
+    "am": "መንገድ አለ።",
+    "tr": "mengad ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_strasse"
+    ],
+    "t": {
+      "de": "die Straße, der Weg ist vorhanden.",
+      "en": "There is street, road.",
+      "sv": "Det finns gata, väg.",
+      "nl": "Er is straat, weg.",
+      "it": "C'è la strada.",
+      "es": "Hay una calle."
+    },
+    "alt": {},
+    "chunks": [
+      "mengad",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_krankenhaus",
+    "am": "ሆስፒታል አለኝ።",
+    "tr": "hospital alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_krankenhaus"
+    ],
+    "t": {
+      "de": "Ich habe das Krankenhaus.",
+      "en": "I have hospital.",
+      "sv": "Jag har sjukhus.",
+      "nl": "Ik heb ziekenhuis.",
+      "it": "Ho l'ospedale.",
+      "es": "Tengo el hospital."
+    },
+    "alt": {},
+    "chunks": [
+      "hospital",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schule",
+    "am": "ትምህርት ቤት እወዳለሁ።",
+    "tr": "timhirt biet iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schule"
+    ],
+    "t": {
+      "de": "Ich mag die Schule.",
+      "en": "I like school.",
+      "sv": "Jag gillar skola.",
+      "nl": "Ik hou van school.",
+      "it": "Mi piace la scuola.",
+      "es": "Me gusta la escuela."
+    },
+    "alt": {},
+    "chunks": [
+      "timhirt",
+      "biet",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kleidung",
+    "am": "ልብስ አለ።",
+    "tr": "libs ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kleidung"
+    ],
+    "t": {
+      "de": "die Kleidung ist vorhanden.",
+      "en": "There is clothes.",
+      "sv": "Det finns kläder.",
+      "nl": "Er is kleding.",
+      "it": "Ci sono i vestiti.",
+      "es": "Hay ropa."
+    },
+    "alt": {},
+    "chunks": [
+      "libs",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hose",
+    "am": "ሱሪ አለኝ።",
+    "tr": "suri alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hose"
+    ],
+    "t": {
+      "de": "Ich habe die Hose.",
+      "en": "I have trousers, pants.",
+      "sv": "Jag har byxor.",
+      "nl": "Ik heb broek.",
+      "it": "Ho i pantaloni.",
+      "es": "Tengo los pantalones."
+    },
+    "alt": {},
+    "chunks": [
+      "suri",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schuh",
+    "am": "ጫማ እወዳለሁ።",
+    "tr": "chama iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schuh"
+    ],
+    "t": {
+      "de": "Ich mag den Schuh.",
+      "en": "I like shoe.",
+      "sv": "Jag gillar sko.",
+      "nl": "Ik hou van schoen.",
+      "it": "Mi piace la scarpa.",
+      "es": "Me gusta el zapato."
+    },
+    "alt": {},
+    "chunks": [
+      "chama",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hut",
+    "am": "ካፕ አለ።",
+    "tr": "kap ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hut"
+    ],
+    "t": {
+      "de": "die Mütze, der Hut ist vorhanden.",
+      "en": "There is hat, cap.",
+      "sv": "Det finns mössa, keps.",
+      "nl": "Er is pet, hoed.",
+      "it": "C'è il cappello.",
+      "es": "Hay un sombrero."
+    },
+    "alt": {},
+    "chunks": [
+      "kap",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_norden",
+    "am": "ሰሜን አለ።",
+    "tr": "semien ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_norden"
+    ],
+    "t": {
+      "de": "Norden ist vorhanden.",
+      "en": "There is north.",
+      "sv": "Det finns norr.",
+      "nl": "Er is noorden.",
+      "it": "C'è il nord.",
+      "es": "Hay norte."
+    },
+    "alt": {},
+    "chunks": [
+      "semien",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sueden",
+    "am": "ደቡብ አለኝ።",
+    "tr": "debub alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sueden"
+    ],
+    "t": {
+      "de": "Ich habe Süden.",
+      "en": "I have south.",
+      "sv": "Jag har söder.",
+      "nl": "Ik heb zuiden.",
+      "it": "Ho il sud.",
+      "es": "Tengo el sur."
+    },
+    "alt": {},
+    "chunks": [
+      "debub",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_osten",
+    "am": "ምስራቅ እወዳለሁ።",
+    "tr": "misrak' iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_osten"
+    ],
+    "t": {
+      "de": "Ich mag Osten.",
+      "en": "I like east.",
+      "sv": "Jag gillar öster.",
+      "nl": "Ik hou van oosten.",
+      "it": "Mi piace l'est.",
+      "es": "Me gusta el este."
+    },
+    "alt": {},
+    "chunks": [
+      "misrak'",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_westen",
+    "am": "ምዕራብ አለ።",
+    "tr": "mi'irab ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_westen"
+    ],
+    "t": {
+      "de": "Westen ist vorhanden.",
+      "en": "There is west.",
+      "sv": "Det finns väster.",
+      "nl": "Er is westen.",
+      "it": "C'è l'ovest.",
+      "es": "Hay oeste."
+    },
+    "alt": {},
+    "chunks": [
+      "mi'irab",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tasse",
+    "am": "ኩባያ አለ።",
+    "tr": "kubaya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tasse"
+    ],
+    "t": {
+      "de": "die Tasse ist vorhanden.",
+      "en": "There is cup.",
+      "sv": "Det finns kopp.",
+      "nl": "Er is kopje.",
+      "it": "C'è la tazza.",
+      "es": "Hay una taza."
+    },
+    "alt": {},
+    "chunks": [
+      "kubaya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_loeffel",
+    "am": "ማንኪያ አለኝ።",
+    "tr": "mankiya alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_loeffel"
+    ],
+    "t": {
+      "de": "Ich habe den Löffel.",
+      "en": "I have spoon.",
+      "sv": "Jag har sked.",
+      "nl": "Ik heb lepel.",
+      "it": "Ho il cucchiaio.",
+      "es": "Tengo la cuchara."
+    },
+    "alt": {},
+    "chunks": [
+      "mankiya",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gabel",
+    "am": "ፎርክ እወዳለሁ።",
+    "tr": "fork iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_gabel"
+    ],
+    "t": {
+      "de": "Ich mag die Gabel.",
+      "en": "I like fork.",
+      "sv": "Jag gillar gaffel.",
+      "nl": "Ik hou van vork.",
+      "it": "Mi piace la forchetta.",
+      "es": "Me gusta el tenedor."
+    },
+    "alt": {},
+    "chunks": [
+      "fork",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_messer",
+    "am": "ቢላዋ አለ።",
+    "tr": "bilawa ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_messer"
+    ],
+    "t": {
+      "de": "das Messer ist vorhanden.",
+      "en": "There is knife.",
+      "sv": "Det finns kniv.",
+      "nl": "Er is mes.",
+      "it": "C'è il coltello.",
+      "es": "Hay un cuchillo."
+    },
+    "alt": {},
+    "chunks": [
+      "bilawa",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tomate",
+    "am": "ቲማቲም አለ።",
+    "tr": "timatim ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_tomate"
+    ],
+    "t": {
+      "de": "die Tomate ist vorhanden.",
+      "en": "There is tomato.",
+      "sv": "Det finns tomat.",
+      "nl": "Er is tomaat.",
+      "it": "C'è il pomodoro.",
+      "es": "Hay un tomate."
+    },
+    "alt": {},
+    "chunks": [
+      "timatim",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kartoffel",
+    "am": "ድንች አለኝ።",
+    "tr": "dinich alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kartoffel"
+    ],
+    "t": {
+      "de": "Ich habe die Kartoffel.",
+      "en": "I have potato.",
+      "sv": "Jag har potatis.",
+      "nl": "Ik heb aardappel.",
+      "it": "Ho la patata.",
+      "es": "Tengo la patata."
+    },
+    "alt": {},
+    "chunks": [
+      "dinich",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_knoblauch",
+    "am": "ነጭ ሽንኩርት እወዳለሁ።",
+    "tr": "nech shinkurt iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_knoblauch"
+    ],
+    "t": {
+      "de": "Ich mag den Knoblauch.",
+      "en": "I like garlic.",
+      "sv": "Jag gillar vitlök.",
+      "nl": "Ik hou van knoflook.",
+      "it": "Mi piace l'aglio.",
+      "es": "Me gusta el ajo."
+    },
+    "alt": {},
+    "chunks": [
+      "nech",
+      "shinkurt",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_karotte",
+    "am": "ካሮት አለ።",
+    "tr": "karot ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_karotte"
+    ],
+    "t": {
+      "de": "die Karotte ist vorhanden.",
+      "en": "There is carrot.",
+      "sv": "Det finns morot.",
+      "nl": "Er is wortel.",
+      "it": "C'è la carota.",
+      "es": "Hay una zanahoria."
+    },
+    "alt": {},
+    "chunks": [
+      "karot",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_teppich",
+    "am": "ምንጣፍ አለ።",
+    "tr": "mint'af ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_teppich"
+    ],
+    "t": {
+      "de": "der Teppich ist vorhanden.",
+      "en": "There is carpet, rug.",
+      "sv": "Det finns matta.",
+      "nl": "Er is tapijt.",
+      "it": "C'è il tappeto.",
+      "es": "Hay una alfombra."
+    },
+    "alt": {},
+    "chunks": [
+      "mint'af",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kissen",
+    "am": "ትራስ አለኝ።",
+    "tr": "tiras alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kissen"
+    ],
+    "t": {
+      "de": "Ich habe das Kissen.",
+      "en": "I have pillow, cushion.",
+      "sv": "Jag har kudde.",
+      "nl": "Ik heb kussen.",
+      "it": "Ho il cuscino.",
+      "es": "Tengo la almohada."
+    },
+    "alt": {},
+    "chunks": [
+      "tiras",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_decke",
+    "am": "ብርድ ልብስ እወዳለሁ።",
+    "tr": "birid libs iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_decke"
+    ],
+    "t": {
+      "de": "Ich mag die Decke (Bettdecke).",
+      "en": "I like blanket.",
+      "sv": "Jag gillar täcke.",
+      "nl": "Ik hou van deken.",
+      "it": "Mi piace la coperta.",
+      "es": "Me gusta la manta."
+    },
+    "alt": {},
+    "chunks": [
+      "birid",
+      "libs",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vorhang",
+    "am": "መጋረጃ አለ።",
+    "tr": "megareja ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_vorhang"
+    ],
+    "t": {
+      "de": "der Vorhang ist vorhanden.",
+      "en": "There is curtain.",
+      "sv": "Det finns gardin.",
+      "nl": "Er is gordijn.",
+      "it": "C'è la tenda.",
+      "es": "Hay una cortina."
+    },
+    "alt": {},
+    "chunks": [
+      "megareja",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wand",
+    "am": "ግድግዳ አለኝ።",
+    "tr": "gidigida alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_wand"
+    ],
+    "t": {
+      "de": "Ich habe die Wand.",
+      "en": "I have wall.",
+      "sv": "Jag har vägg.",
+      "nl": "Ik heb muur.",
+      "it": "Ho la parete.",
+      "es": "Tengo la pared."
+    },
+    "alt": {},
+    "chunks": [
+      "gidigida",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_21",
+    "am": "ሃያ አንድ አለ።",
+    "tr": "haya and ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_21"
+    ],
+    "t": {
+      "de": "21 ist vorhanden.",
+      "en": "There is 21.",
+      "sv": "Det finns 21.",
+      "nl": "Er is 21.",
+      "it": "C'è 21.",
+      "es": "Hay 21."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "and",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_22",
+    "am": "ሃያ ሁለት አለኝ።",
+    "tr": "haya hulet alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_22"
+    ],
+    "t": {
+      "de": "Ich habe 22.",
+      "en": "I have 22.",
+      "sv": "Jag har 22.",
+      "nl": "Ik heb 22.",
+      "it": "Ho 22.",
+      "es": "Tengo 22."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "hulet",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_23",
+    "am": "ሃያ ሶስት እወዳለሁ።",
+    "tr": "haya sost iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_23"
+    ],
+    "t": {
+      "de": "Ich mag 23.",
+      "en": "I like 23.",
+      "sv": "Jag gillar 23.",
+      "nl": "Ik hou van 23.",
+      "it": "Mi piace 23.",
+      "es": "Me gusta 23."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "sost",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_24",
+    "am": "ሃያ አራት አለ።",
+    "tr": "haya arat ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_24"
+    ],
+    "t": {
+      "de": "24 ist vorhanden.",
+      "en": "There is 24.",
+      "sv": "Det finns 24.",
+      "nl": "Er is 24.",
+      "it": "C'è 24.",
+      "es": "Hay 24."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "arat",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zahl_25",
+    "am": "ሃያ አምስት አለኝ።",
+    "tr": "haya amist alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_zahl_25"
+    ],
+    "t": {
+      "de": "Ich habe 25.",
+      "en": "I have 25.",
+      "sv": "Jag har 25.",
+      "nl": "Ik heb 25.",
+      "it": "Ho 25.",
+      "es": "Tengo 25."
+    },
+    "alt": {},
+    "chunks": [
+      "haya",
+      "amist",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_viel",
+    "am": "እሱ ብዙ ነው።",
+    "tr": "issu bizu new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_viel"
+    ],
+    "t": {
+      "de": "Er ist viel.",
+      "en": "He is much, many.",
+      "sv": "Han är mycket, många.",
+      "nl": "Hij is veel.",
+      "it": "Lui è molto.",
+      "es": "Él es mucho."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "bizu",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wenig",
+    "am": "እሷ ጥቂት ናት።",
+    "tr": "iswa t'ik'it nat.",
+    "level": "A1.2",
+    "uses": [
+      "lex_wenig"
+    ],
+    "t": {
+      "de": "Sie ist wenig, ein paar.",
+      "en": "She is little, few.",
+      "sv": "Hon är lite, några.",
+      "nl": "Zij is weinig, een paar.",
+      "it": "Lei è poco, alcuni.",
+      "es": "Ella es poco, unos pocos."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "t'ik'it",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mehr",
+    "am": "በጣም ተጨማሪ ነው።",
+    "tr": "bet'am techemari new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_mehr"
+    ],
+    "t": {
+      "de": "Es ist sehr mehr, zusätzlich.",
+      "en": "It is very more, additional.",
+      "sv": "Han är verkligen mer, ytterligare.",
+      "nl": "Het is heel meer, extra.",
+      "it": "È molto di più, in aggiunta.",
+      "es": "Es mucho más, adicional."
+    },
+    "alt": {},
+    "chunks": [
+      "bet'am",
+      "techemari",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_genug",
+    "am": "እሱ በቂ ነው።",
+    "tr": "issu beki' new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_genug"
+    ],
+    "t": {
+      "de": "Er ist genug.",
+      "en": "He is enough.",
+      "sv": "Han är nog.",
+      "nl": "Hij is genoeg.",
+      "it": "Lui è abbastanza.",
+      "es": "Él es suficiente."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "beki'",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mittag",
+    "am": "ቀትር አለ።",
+    "tr": "ket'ir ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_mittag"
+    ],
+    "t": {
+      "de": "der Mittag ist vorhanden.",
+      "en": "There is noon.",
+      "sv": "Det finns middag.",
+      "nl": "Er is middag.",
+      "it": "C'è il mezzogiorno.",
+      "es": "Hay un mediodía."
+    },
+    "alt": {},
+    "chunks": [
+      "ket'ir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kuehlschrank",
+    "am": "ማቀዝቀዣ አለ።",
+    "tr": "mak'ezk'eza ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kuehlschrank"
+    ],
+    "t": {
+      "de": "der Kühlschrank ist vorhanden.",
+      "en": "There is refrigerator.",
+      "sv": "Det finns kylskåp.",
+      "nl": "Er is koelkast.",
+      "it": "C'è il frigorifero.",
+      "es": "Hay un refrigerador."
+    },
+    "alt": {},
+    "chunks": [
+      "mak'ezk'eza",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ofen",
+    "am": "ምድጃ አለኝ።",
+    "tr": "midija alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_ofen"
+    ],
+    "t": {
+      "de": "Ich habe den Ofen, Herd.",
+      "en": "I have oven, stove.",
+      "sv": "Jag har ugn, spis.",
+      "nl": "Ik heb oven, fornuis.",
+      "it": "Ho il forno.",
+      "es": "Tengo el horno."
+    },
+    "alt": {},
+    "chunks": [
+      "midija",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gold",
+    "am": "ወርቅ እወዳለሁ።",
+    "tr": "werk' iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_gold"
+    ],
+    "t": {
+      "de": "Ich mag das Gold.",
+      "en": "I like gold.",
+      "sv": "Jag gillar guld.",
+      "nl": "Ik hou van goud.",
+      "it": "Mi piace l'oro.",
+      "es": "Me gusta el oro."
+    },
+    "alt": {},
+    "chunks": [
+      "werk'",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_silber",
+    "am": "ብር አለ።",
+    "tr": "bir ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_silber"
+    ],
+    "t": {
+      "de": "das Silber ist vorhanden.",
+      "en": "There is silver.",
+      "sv": "Det finns silver.",
+      "nl": "Er is zilver.",
+      "it": "C'è l'argento.",
+      "es": "Hay plata."
+    },
+    "alt": {},
+    "chunks": [
+      "bir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bier",
+    "am": "ቢራ አለኝ።",
+    "tr": "bira alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_bier"
+    ],
+    "t": {
+      "de": "Ich habe das Bier.",
+      "en": "I have beer.",
+      "sv": "Jag har öl.",
+      "nl": "Ik heb bier.",
+      "it": "Ho la birra.",
+      "es": "Tengo la cerveza."
+    },
+    "alt": {},
+    "chunks": [
+      "bira",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sturm",
+    "am": "ኃይለኛ ንፋስ አለ።",
+    "tr": "hailegna nifas ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sturm"
+    ],
+    "t": {
+      "de": "der Sturm ist vorhanden.",
+      "en": "There is storm.",
+      "sv": "Det finns storm.",
+      "nl": "Er is storm.",
+      "it": "C'è la tempesta.",
+      "es": "Hay una tormenta."
+    },
+    "alt": {},
+    "chunks": [
+      "hailegna",
+      "nifas",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_blitz",
+    "am": "መብረቅ አለኝ።",
+    "tr": "mebrek' alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_blitz"
+    ],
+    "t": {
+      "de": "Ich habe den Blitz.",
+      "en": "I have lightning.",
+      "sv": "Jag har blixt.",
+      "nl": "Ik heb bliksem.",
+      "it": "Ho il fulmine.",
+      "es": "Tengo el rayo."
+    },
+    "alt": {},
+    "chunks": [
+      "mebrek'",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_donner",
+    "am": "ነጎድጓድ እወዳለሁ።",
+    "tr": "negodgwad iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_donner"
+    ],
+    "t": {
+      "de": "Ich mag den Donner.",
+      "en": "I like thunder.",
+      "sv": "Jag gillar åska.",
+      "nl": "Ik hou van donder.",
+      "it": "Mi piace il tuono.",
+      "es": "Me gusta el trueno."
+    },
+    "alt": {},
+    "chunks": [
+      "negodgwad",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_feucht",
+    "am": "እሱ እርጥበት ያለው ነው።",
+    "tr": "issu irt'ibet yalew new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_feucht"
+    ],
+    "t": {
+      "de": "Er ist feucht.",
+      "en": "He is humid.",
+      "sv": "Han är fuktig.",
+      "nl": "Hij is vochtig.",
+      "it": "Lui è umido.",
+      "es": "Él es húmedo."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "irt'ibet",
+      "yalew",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_nebel",
+    "am": "ጭጋግ አለ።",
+    "tr": "chigag ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_nebel"
+    ],
+    "t": {
+      "de": "der Nebel ist vorhanden.",
+      "en": "There is fog.",
+      "sv": "Det finns dimma.",
+      "nl": "Er is mist.",
+      "it": "C'è la nebbia.",
+      "es": "Hay niebla."
+    },
+    "alt": {},
+    "chunks": [
+      "chigag",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kuh",
+    "am": "ላም አለ።",
+    "tr": "lam ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kuh"
+    ],
+    "t": {
+      "de": "die Kuh ist vorhanden.",
+      "en": "There is cow.",
+      "sv": "Det finns ko.",
+      "nl": "Er is koe.",
+      "it": "C'è la mucca.",
+      "es": "Hay una vaca."
+    },
+    "alt": {},
+    "chunks": [
+      "lam",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ziege",
+    "am": "ፍየል አለኝ።",
+    "tr": "fiyel alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_ziege"
+    ],
+    "t": {
+      "de": "Ich habe die Ziege.",
+      "en": "I have goat.",
+      "sv": "Jag har get.",
+      "nl": "Ik heb geit.",
+      "it": "Ho la capra.",
+      "es": "Tengo la cabra."
+    },
+    "alt": {},
+    "chunks": [
+      "fiyel",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schaf",
+    "am": "በግ እወዳለሁ።",
+    "tr": "beg iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schaf"
+    ],
+    "t": {
+      "de": "Ich mag das Schaf.",
+      "en": "I like sheep.",
+      "sv": "Jag gillar får.",
+      "nl": "Ik hou van schaap.",
+      "it": "Mi piace la pecora.",
+      "es": "Me gusta la oveja."
+    },
+    "alt": {},
+    "chunks": [
+      "beg",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_esel",
+    "am": "አህያ አለ።",
+    "tr": "ahiya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_esel"
+    ],
+    "t": {
+      "de": "der Esel ist vorhanden.",
+      "en": "There is donkey.",
+      "sv": "Det finns åsna.",
+      "nl": "Er is ezel.",
+      "it": "C'è l'asino.",
+      "es": "Hay un burro."
+    },
+    "alt": {},
+    "chunks": [
+      "ahiya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kamel",
+    "am": "ግመል አለኝ።",
+    "tr": "gimel alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kamel"
+    ],
+    "t": {
+      "de": "Ich habe das Kamel.",
+      "en": "I have camel.",
+      "sv": "Jag har kamel.",
+      "nl": "Ik heb kameel.",
+      "it": "Ho il cammello.",
+      "es": "Tengo el camello."
+    },
+    "alt": {},
+    "chunks": [
+      "gimel",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_decke_bett",
+    "am": "ብርድ ልብስ አለ።",
+    "tr": "birid libs ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_decke_bett"
+    ],
+    "t": {
+      "de": "die Bettdecke ist vorhanden.",
+      "en": "There is blanket.",
+      "sv": "Det finns täcke.",
+      "nl": "Er is deken.",
+      "it": "C'è la coperta.",
+      "es": "Hay una manta."
+    },
+    "alt": {},
+    "chunks": [
+      "birid",
+      "libs",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_besen",
+    "am": "ጥራሪ አለኝ።",
+    "tr": "t'irari alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_besen"
+    ],
+    "t": {
+      "de": "Ich habe den Besen.",
+      "en": "I have broom.",
+      "sv": "Jag har kvast.",
+      "nl": "Ik heb bezem.",
+      "it": "Ho la scopa.",
+      "es": "Tengo la escoba."
+    },
+    "alt": {},
+    "chunks": [
+      "t'irari",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_eimer",
+    "am": "ባልዲ እወዳለሁ።",
+    "tr": "baldi iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_eimer"
+    ],
+    "t": {
+      "de": "Ich mag den Eimer.",
+      "en": "I like bucket.",
+      "sv": "Jag gillar hink.",
+      "nl": "Ik hou van emmer.",
+      "it": "Mi piace il secchio.",
+      "es": "Me gusta el cubo."
+    },
+    "alt": {},
+    "chunks": [
+      "baldi",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kerze",
+    "am": "ሻማ አለ።",
+    "tr": "shama ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_kerze"
+    ],
+    "t": {
+      "de": "die Kerze ist vorhanden.",
+      "en": "There is candle.",
+      "sv": "Det finns ljus.",
+      "nl": "Er is kaars.",
+      "it": "C'è la candela.",
+      "es": "Hay una vela."
+    },
+    "alt": {},
+    "chunks": [
+      "shama",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hyaene",
+    "am": "ጅብ አለኝ።",
+    "tr": "jib alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hyaene"
+    ],
+    "t": {
+      "de": "Ich habe die Hyäne.",
+      "en": "I have hyena.",
+      "sv": "Jag har hyena.",
+      "nl": "Ik heb hyena.",
+      "it": "Ho la iena.",
+      "es": "Tengo la hiena."
+    },
+    "alt": {},
+    "chunks": [
+      "jib",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stiefel",
+    "am": "ቦት ጫማ አለ።",
+    "tr": "bot chama ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_stiefel"
+    ],
+    "t": {
+      "de": "der Stiefel ist vorhanden.",
+      "en": "There is boots.",
+      "sv": "Det finns stövlar.",
+      "nl": "Er is laarzen.",
+      "it": "Ci sono gli stivali.",
+      "es": "Hay botas."
+    },
+    "alt": {},
+    "chunks": [
+      "bot",
+      "chama",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schmuck",
+    "am": "ጌጣጌጥ አለኝ።",
+    "tr": "geTagéT' alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schmuck"
+    ],
+    "t": {
+      "de": "Ich habe den Schmuck.",
+      "en": "I have jewelry.",
+      "sv": "Jag har smycken.",
+      "nl": "Ik heb sieraden.",
+      "it": "Ho i gioielli.",
+      "es": "Tengo las joyas."
+    },
+    "alt": {},
+    "chunks": [
+      "geTagéT'",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_handschuhe",
+    "am": "ጓንት እወዳለሁ።",
+    "tr": "gwanit iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_handschuhe"
+    ],
+    "t": {
+      "de": "Ich mag die Handschuhe.",
+      "en": "I like gloves.",
+      "sv": "Jag gillar handskar.",
+      "nl": "Ik hou van handschoenen.",
+      "it": "Mi piacciono i guanti.",
+      "es": "Me gustan los guantes."
+    },
+    "alt": {},
+    "chunks": [
+      "gwanit",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sonnenbrille",
+    "am": "የፀሐይ መነጽር አለ።",
+    "tr": "yetsehai menetsir ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sonnenbrille"
+    ],
+    "t": {
+      "de": "die Sonnenbrille ist vorhanden.",
+      "en": "There is sunglasses.",
+      "sv": "Det finns solglasögon.",
+      "nl": "Er is zonnebril.",
+      "it": "Ci sono gli occhiali da sole.",
+      "es": "Hay gafas de sol."
+    },
+    "alt": {},
+    "chunks": [
+      "yetsehai",
+      "menetsir",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_regenschirm",
+    "am": "ጃንጥላ አለኝ።",
+    "tr": "jant'ila alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_regenschirm"
+    ],
+    "t": {
+      "de": "Ich habe den Regenschirm.",
+      "en": "I have umbrella.",
+      "sv": "Jag har paraply.",
+      "nl": "Ik heb paraplu.",
+      "it": "Ho l'ombrello.",
+      "es": "Tengo el paraguas."
+    },
+    "alt": {},
+    "chunks": [
+      "jant'ila",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_pfanne",
+    "am": "ምጥ አለ።",
+    "tr": "mit' ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_pfanne"
+    ],
+    "t": {
+      "de": "die Pfanne ist vorhanden.",
+      "en": "There is pan.",
+      "sv": "Det finns stekpanna.",
+      "nl": "Er is pan.",
+      "it": "C'è la padella.",
+      "es": "Hay una sartén."
+    },
+    "alt": {},
+    "chunks": [
+      "mit'",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schneidebrett",
+    "am": "የመቁረጫ ሰሌዳ አለኝ።",
+    "tr": "yemek'urecha seleda alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schneidebrett"
+    ],
+    "t": {
+      "de": "Ich habe das Schneidebrett.",
+      "en": "I have cutting board.",
+      "sv": "Jag har skärbräda.",
+      "nl": "Ik heb snijplank.",
+      "it": "Ho il tagliere.",
+      "es": "Tengo la tabla de cortar."
+    },
+    "alt": {},
+    "chunks": [
+      "yemek'urecha",
+      "seleda",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schoepfloeffel",
+    "am": "ማንኪያ ትልቅ እወዳለሁ።",
+    "tr": "mankiya tilik' iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schoepfloeffel"
+    ],
+    "t": {
+      "de": "Ich mag den Schöpflöffel.",
+      "en": "I like ladle.",
+      "sv": "Jag gillar slev.",
+      "nl": "Ik hou van soeplepel.",
+      "it": "Mi piace il mestolo.",
+      "es": "Me gusta el cucharón."
+    },
+    "alt": {},
+    "chunks": [
+      "mankiya",
+      "tilik'",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_reibe",
+    "am": "መፋቂያ አለ።",
+    "tr": "mefak'iya ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_reibe"
+    ],
+    "t": {
+      "de": "die Reibe ist vorhanden.",
+      "en": "There is grater.",
+      "sv": "Det finns rivjärn.",
+      "nl": "Er is rasp.",
+      "it": "C'è la grattugia.",
+      "es": "Hay un rallador."
+    },
+    "alt": {},
+    "chunks": [
+      "mefak'iya",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sieb",
+    "am": "ማጣሪያ አለኝ።",
+    "tr": "mat'ariya alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_sieb"
+    ],
+    "t": {
+      "de": "Ich habe das Sieb.",
+      "en": "I have sieve.",
+      "sv": "Jag har sil.",
+      "nl": "Ik heb zeef.",
+      "it": "Ho il colino.",
+      "es": "Tengo el colador."
+    },
+    "alt": {},
+    "chunks": [
+      "mat'ariya",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bleistift",
+    "am": "እርሳስ አለ።",
+    "tr": "irsas ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_bleistift"
+    ],
+    "t": {
+      "de": "der Bleistift ist vorhanden.",
+      "en": "There is pencil.",
+      "sv": "Det finns blyertspenna.",
+      "nl": "Er is potlood.",
+      "it": "C'è la matita.",
+      "es": "Hay un lápiz."
+    },
+    "alt": {},
+    "chunks": [
+      "irsas",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_radiergummi",
+    "am": "ማጥፊያ አለኝ።",
+    "tr": "mat'ifiya alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_radiergummi"
+    ],
+    "t": {
+      "de": "Ich habe den Radiergummi.",
+      "en": "I have eraser.",
+      "sv": "Jag har suddgummi.",
+      "nl": "Ik heb gum.",
+      "it": "Ho la gomma.",
+      "es": "Tengo la goma de borrar."
+    },
+    "alt": {},
+    "chunks": [
+      "mat'ifiya",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lineal",
+    "am": "መስመሪያ እወዳለሁ።",
+    "tr": "mesimeriya iwedallehu.",
+    "level": "A1.2",
+    "uses": [
+      "lex_lineal"
+    ],
+    "t": {
+      "de": "Ich mag das Lineal.",
+      "en": "I like ruler.",
+      "sv": "Jag gillar linjal.",
+      "nl": "Ik hou van liniaal.",
+      "it": "Mi piace il righello.",
+      "es": "Me gusta la regla."
+    },
+    "alt": {},
+    "chunks": [
+      "mesimeriya",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hefter",
+    "am": "ስቴፕለር አለ።",
+    "tr": "steplar ale.",
+    "level": "A1.2",
+    "uses": [
+      "lex_hefter"
+    ],
+    "t": {
+      "de": "der Hefter, Tacker ist vorhanden.",
+      "en": "There is stapler.",
+      "sv": "Det finns häftapparat.",
+      "nl": "Er is nietmachine.",
+      "it": "C'è la cucitrice.",
+      "es": "Hay una grapadora."
+    },
+    "alt": {},
+    "chunks": [
+      "steplar",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schere",
+    "am": "መቀስ አለኝ።",
+    "tr": "mek'es alegn.",
+    "level": "A1.2",
+    "uses": [
+      "lex_schere"
+    ],
+    "t": {
+      "de": "Ich habe die Schere.",
+      "en": "I have scissors.",
+      "sv": "Jag har sax.",
+      "nl": "Ik heb schaar.",
+      "it": "Ho le forbici.",
+      "es": "Tengo las tijeras."
+    },
+    "alt": {},
+    "chunks": [
+      "mek'es",
+      "alegn."
+    ],
+    "verified": false
+  }
+]

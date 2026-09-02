@@ -1,0 +1,224 @@
+[
+  {
+    "id": "unit_gefuehle_meinung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gluecklich",
+      "lex_traurig_phrase",
+      "lex_wuetend_phrase",
+      "lex_angst_phrase",
+      "lex_liebe_noun",
+      "lex_freude",
+      "lex_traurigkeit",
+      "lex_meinung",
+      "lex_es_scheint_mir",
+      "lex_gefuehl",
+      "lex_hoffnung",
+      "lex_angst_noun",
+      "lex_stolz",
+      "lex_schwierig",
+      "lex_einfach",
+      "lex_interessant",
+      "lex_langweilig",
+      "lex_wichtig",
+      "lex_vielleicht",
+      "lex_natuerlich",
+      "lex_richtig",
+      "lex_falsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gefuehle_meinung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gluecklich",
+      "lex_traurig_phrase",
+      "lex_wuetend_phrase",
+      "lex_angst_phrase",
+      "lex_liebe_noun",
+      "lex_freude",
+      "lex_traurigkeit",
+      "lex_meinung",
+      "lex_es_scheint_mir",
+      "lex_gefuehl",
+      "lex_hoffnung",
+      "lex_angst_noun",
+      "lex_stolz",
+      "lex_schwierig",
+      "lex_einfach",
+      "lex_interessant",
+      "lex_langweilig",
+      "lex_wichtig",
+      "lex_vielleicht",
+      "lex_natuerlich",
+      "lex_richtig",
+      "lex_falsch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_meinung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gluecklich",
+      "lex_traurig_phrase",
+      "lex_wuetend_phrase",
+      "lex_angst_phrase",
+      "lex_liebe_noun",
+      "lex_freude",
+      "lex_traurigkeit",
+      "lex_meinung",
+      "lex_es_scheint_mir",
+      "lex_gefuehl",
+      "lex_hoffnung",
+      "lex_angst_noun",
+      "lex_stolz",
+      "lex_schwierig",
+      "lex_einfach",
+      "lex_interessant",
+      "lex_langweilig",
+      "lex_wichtig",
+      "lex_vielleicht",
+      "lex_natuerlich",
+      "lex_richtig",
+      "lex_falsch"
+    ],
+    "sentenceIds": [
+      "sen_destegna_negn",
+      "sen_fikir_kilki_new",
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_meinung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gluecklich",
+      "lex_traurig_phrase",
+      "lex_wuetend_phrase",
+      "lex_angst_phrase",
+      "lex_liebe_noun",
+      "lex_freude",
+      "lex_traurigkeit",
+      "lex_meinung",
+      "lex_es_scheint_mir",
+      "lex_gefuehl",
+      "lex_hoffnung",
+      "lex_angst_noun",
+      "lex_stolz",
+      "lex_schwierig",
+      "lex_einfach",
+      "lex_interessant",
+      "lex_langweilig",
+      "lex_wichtig",
+      "lex_vielleicht",
+      "lex_natuerlich",
+      "lex_richtig",
+      "lex_falsch"
+    ],
+    "sentenceIds": [
+      "sen_destegna_negn",
+      "sen_fikir_kilki_new",
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_meinung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gluecklich",
+      "lex_traurig_phrase",
+      "lex_wuetend_phrase",
+      "lex_angst_phrase",
+      "lex_liebe_noun",
+      "lex_freude",
+      "lex_traurigkeit",
+      "lex_meinung",
+      "lex_es_scheint_mir",
+      "lex_gefuehl",
+      "lex_hoffnung",
+      "lex_angst_noun",
+      "lex_stolz",
+      "lex_schwierig",
+      "lex_einfach",
+      "lex_interessant",
+      "lex_langweilig",
+      "lex_wichtig",
+      "lex_vielleicht",
+      "lex_natuerlich",
+      "lex_richtig",
+      "lex_falsch"
+    ],
+    "sentenceIds": [
+      "sen_destegna_negn",
+      "sen_fikir_kilki_new",
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gefuehle_meinung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gluecklich",
+      "lex_traurig_phrase",
+      "lex_wuetend_phrase",
+      "lex_angst_phrase",
+      "lex_liebe_noun",
+      "lex_freude",
+      "lex_traurigkeit",
+      "lex_meinung",
+      "lex_es_scheint_mir",
+      "lex_gefuehl",
+      "lex_hoffnung",
+      "lex_angst_noun",
+      "lex_stolz",
+      "lex_schwierig",
+      "lex_einfach",
+      "lex_interessant",
+      "lex_langweilig",
+      "lex_wichtig",
+      "lex_vielleicht",
+      "lex_natuerlich",
+      "lex_richtig",
+      "lex_falsch"
+    ],
+    "sentenceIds": [
+      "sen_destegna_negn",
+      "sen_fikir_kilki_new",
+      "sen_fix_freude",
+      "sen_fix_traurigkeit",
+      "sen_fix_meinung"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lex_ti_muqti",
+    "am": "ሙቐት",
+    "tr": "muqet",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "die Hitze",
+      "en": "heat",
+      "sv": "värme",
+      "nl": "hitte",
+      "it": "il caldo",
+      "es": "el calor"
+    },
+    "emoji": "🔥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_brdti",
+    "am": "ብርዲ",
+    "tr": "birdi",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "die Kälte",
+      "en": "coldness",
+      "sv": "kyla",
+      "nl": "kou",
+      "it": "il freddo",
+      "es": "el frío"
+    },
+    "emoji": "🥶",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntsti",
+    "am": "ንፋስ ብርቱዕ",
+    "tr": "nifas biritu'e",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "der Sturm",
+      "en": "storm",
+      "sv": "storm",
+      "nl": "storm",
+      "it": "la tempesta",
+      "es": "la tormenta"
+    },
+    "emoji": "🌪️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_swus",
+    "am": "ግመ",
+    "tr": "gime",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "der Nebel",
+      "en": "fog",
+      "sv": "dimma",
+      "nl": "mist",
+      "it": "la nebbia",
+      "es": "la niebla"
+    },
+    "emoji": "🌫️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hlmi2",
+    "am": "ንፍሒ ማይ",
+    "tr": "nifhi mai",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "die Überschwemmung",
+      "en": "flood",
+      "sv": "översvämning",
+      "nl": "overstroming",
+      "it": "l'alluvione",
+      "es": "la inundación"
+    },
+    "emoji": "🌊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hgai",
+    "am": "ድርቂ",
+    "tr": "dirqi",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "die Dürre",
+      "en": "drought",
+      "sv": "torka",
+      "nl": "droogte",
+      "it": "la siccità",
+      "es": "la sequía"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbti3",
+    "am": "ምድቃቕ ምድሪ",
+    "tr": "midqaq midri",
+    "pos": "noun",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "das Erdbeben",
+      "en": "earthquake",
+      "sv": "jordbävning",
+      "nl": "aardbeving",
+      "it": "il terremoto",
+      "es": "el terremoto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gzwi",
+    "am": "ንፋስ ይንፍስ",
+    "tr": "nifas yinfis",
+    "pos": "phrase",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "es weht Wind",
+      "en": "it's windy",
+      "sv": "det blåser",
+      "nl": "het waait",
+      "it": "c'è vento, tira vento",
+      "es": "hace viento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zenab4",
+    "am": "ዝናብ ይዘንብ",
+    "tr": "zinab yizenib",
+    "pos": "phrase",
+    "topic": "weather",
+    "level": "TI",
+    "t": {
+      "de": "es regnet",
+      "en": "it's raining",
+      "sv": "det regnar",
+      "nl": "het regent",
+      "it": "piove",
+      "es": "llueve"
+    },
+    "emoji": "🌧️",
+    "verified": false
+  }
+]

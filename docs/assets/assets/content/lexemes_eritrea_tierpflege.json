@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_tpf_leash",
+    "am": "ገመድ ከልቢ",
+    "tr": "gemed kelbi",
+    "pos": "noun",
+    "topic": "pet_care",
+    "level": "TI",
+    "t": {
+      "de": "die Hundeleine",
+      "en": "leash",
+      "sv": "koppel",
+      "nl": "riem (hond)",
+      "it": "il guinzaglio",
+      "es": "la correa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tpf_vet2",
+    "am": "ክሊኒክ እንስሳ",
+    "tr": "klinik inisisa",
+    "pos": "noun",
+    "topic": "pet_care",
+    "level": "TI",
+    "t": {
+      "de": "die Tierklinik",
+      "en": "veterinary clinic",
+      "sv": "djurklinik",
+      "nl": "dierenkliniek",
+      "it": "la clinica veterinaria",
+      "es": "la clínica veterinaria"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tpf_vccn",
+    "am": "ክታበት እንስሳ",
+    "tr": "kitabet inisisa",
+    "pos": "noun",
+    "topic": "pet_care",
+    "level": "TI",
+    "t": {
+      "de": "die Tierimpfung",
+      "en": "pet vaccination",
+      "sv": "vaccinering (djur)",
+      "nl": "dierenvaccinatie",
+      "it": "la vaccinazione degli animali",
+      "es": "la vacunación de mascotas"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tpf_grm",
+    "am": "ምጽራይ እንስሳ",
+    "tr": "mitsiray inisisa",
+    "pos": "noun",
+    "topic": "pet_care",
+    "level": "TI",
+    "t": {
+      "de": "das Fellpflegen",
+      "en": "grooming (pet)",
+      "sv": "pälsvård",
+      "nl": "vachtverzorging",
+      "it": "la toelettatura",
+      "es": "el aseo (de mascotas)"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

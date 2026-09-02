@@ -1,0 +1,362 @@
+[
+  {
+    "id": "lex_geschichte",
+    "am": "ታሪክ",
+    "tr": "tarik",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "die Geschichte",
+      "en": "story, history",
+      "sv": "historia, berättelse",
+      "nl": "verhaal, geschiedenis",
+      "it": "la storia",
+      "es": "la historia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📜",
+    "verified": true
+  },
+  {
+    "id": "lex_es_war_einmal",
+    "am": "አንድ ጊዜ",
+    "tr": "and gize",
+    "pos": "phrase",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "es war einmal, einmal",
+      "en": "once upon a time",
+      "sv": "det var en gång",
+      "nl": "er was eens",
+      "it": "c'era una volta",
+      "es": "érase una vez"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ende",
+    "am": "መጨረሻ",
+    "tr": "mecheresha",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "das Ende",
+      "en": "end",
+      "sv": "slut",
+      "nl": "einde",
+      "it": "la fine",
+      "es": "el final"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_anfang",
+    "am": "መጀመሪያ",
+    "tr": "mejemeria",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "der Anfang",
+      "en": "beginning",
+      "sv": "början",
+      "nl": "begin",
+      "it": "l'inizio",
+      "es": "el principio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_held",
+    "am": "ጀግና",
+    "tr": "jegna",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "der Held",
+      "en": "hero",
+      "sv": "hjälte",
+      "nl": "held",
+      "it": "l'eroe",
+      "es": "el héroe"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🦸",
+    "verified": true
+  },
+  {
+    "id": "lex_koenig",
+    "am": "ንጉስ",
+    "tr": "nigus",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "der König",
+      "en": "king",
+      "sv": "kung",
+      "nl": "koning",
+      "it": "il re",
+      "es": "el rey"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👑",
+    "verified": true
+  },
+  {
+    "id": "lex_koenigin",
+    "am": "ንግስት",
+    "tr": "nigist",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "die Königin",
+      "en": "queen",
+      "sv": "drottning",
+      "nl": "koningin",
+      "it": "la regina",
+      "es": "la reina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👑",
+    "verified": true
+  },
+  {
+    "id": "lex_maerchen",
+    "am": "ተረት",
+    "tr": "teret",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "das Märchen, die Fabel",
+      "en": "fable, tale",
+      "sv": "saga",
+      "nl": "fabel, sprookje",
+      "it": "la favola, il racconto",
+      "es": "la fábula, el cuento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_erzaehlen",
+    "am": "መተረት",
+    "tr": "meteret",
+    "pos": "verb",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "erzählen",
+      "en": "to tell (a story)",
+      "sv": "berätta",
+      "nl": "vertellen",
+      "it": "raccontare",
+      "es": "contar (una historia)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_zuhoeren",
+    "am": "ማዳመጥ",
+    "tr": "madamet'",
+    "pos": "verb",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "zuhören",
+      "en": "to listen",
+      "sv": "lyssna",
+      "nl": "luisteren",
+      "it": "ascoltare",
+      "es": "escuchar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_frage_noun",
+    "am": "ጥያቄ",
+    "tr": "t'iyak'e",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "die Frage",
+      "en": "question",
+      "sv": "fråga",
+      "nl": "vraag",
+      "it": "la domanda",
+      "es": "la pregunta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_antwort_noun",
+    "am": "መልስ",
+    "tr": "mels",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "die Antwort",
+      "en": "answer",
+      "sv": "svar",
+      "nl": "antwoord",
+      "it": "la risposta",
+      "es": "la respuesta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wort",
+    "am": "ቃል",
+    "tr": "k'al",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "das Wort",
+      "en": "word",
+      "sv": "ord",
+      "nl": "woord",
+      "it": "la parola",
+      "es": "la palabra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_sprache",
+    "am": "ቋንቋ",
+    "tr": "k'wank'wa",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "die Sprache",
+      "en": "language",
+      "sv": "språk",
+      "nl": "taal",
+      "it": "la lingua",
+      "es": "el idioma"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_weise",
+    "am": "ብልህ",
+    "tr": "bilih",
+    "pos": "adjective",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "weise, klug",
+      "en": "wise, clever",
+      "sv": "vis, klok",
+      "nl": "wijs, slim",
+      "it": "saggio, intelligente",
+      "es": "sabio, inteligente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_dumm",
+    "am": "ሞኝ",
+    "tr": "mogn",
+    "pos": "adjective",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "dumm",
+      "en": "foolish",
+      "sv": "dum",
+      "nl": "dom",
+      "it": "sciocco",
+      "es": "tonto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wahr",
+    "am": "እውነት",
+    "tr": "iwinet",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "wahr, die Wahrheit",
+      "en": "true, truth",
+      "sv": "sann, sanning",
+      "nl": "waar, waarheid",
+      "it": "vero, la verità",
+      "es": "verdadero, la verdad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_luege",
+    "am": "ውሸት",
+    "tr": "wishet",
+    "pos": "noun",
+    "topic": "storytelling",
+    "level": "B1",
+    "t": {
+      "de": "die Lüge",
+      "en": "lie",
+      "sv": "lögn",
+      "nl": "leugen",
+      "it": "la bugia",
+      "es": "la mentira"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

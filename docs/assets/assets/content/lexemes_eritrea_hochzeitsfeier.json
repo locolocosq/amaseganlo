@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_hzf_dress",
+    "am": "ክዳን መርዓት",
+    "tr": "kidan mer'at",
+    "pos": "noun",
+    "topic": "wedding",
+    "level": "TI",
+    "t": {
+      "de": "das Brautkleid",
+      "en": "wedding dress",
+      "sv": "bröllopsklänning",
+      "nl": "trouwjurk",
+      "it": "l'abito da sposa",
+      "es": "el vestido de novia"
+    },
+    "emoji": "👰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzf_ring",
+    "am": "ቀለቤት",
+    "tr": "qelebet",
+    "pos": "noun",
+    "topic": "wedding",
+    "level": "TI",
+    "t": {
+      "de": "der Ring",
+      "en": "ring",
+      "sv": "ring",
+      "nl": "ring",
+      "it": "l'anello",
+      "es": "el anillo"
+    },
+    "emoji": "💍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzf_grm",
+    "am": "መርዓዊ",
+    "tr": "mer'awi",
+    "pos": "noun",
+    "topic": "wedding",
+    "level": "TI",
+    "t": {
+      "de": "der Bräutigam",
+      "en": "groom",
+      "sv": "brudgum",
+      "nl": "bruidegom",
+      "it": "lo sposo",
+      "es": "el novio"
+    },
+    "emoji": "🤵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzf_brd",
+    "am": "መርዓት",
+    "tr": "mer'at",
+    "pos": "noun",
+    "topic": "wedding",
+    "level": "TI",
+    "t": {
+      "de": "die Braut",
+      "en": "bride",
+      "sv": "brud",
+      "nl": "bruid",
+      "it": "la sposa",
+      "es": "la novia"
+    },
+    "emoji": "👰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzf_wtns",
+    "am": "ምስክር መርዓ",
+    "tr": "misikir mer'a",
+    "pos": "noun",
+    "topic": "wedding",
+    "level": "TI",
+    "t": {
+      "de": "der Trauzeuge",
+      "en": "witness (wedding)",
+      "sv": "vittne (bröllop)",
+      "nl": "getuige (huwelijk)",
+      "it": "il testimone (matrimonio)",
+      "es": "el testigo (boda)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzf_feast",
+    "am": "ድግስ",
+    "tr": "digisi",
+    "pos": "noun",
+    "topic": "wedding",
+    "level": "TI",
+    "t": {
+      "de": "das Festmahl",
+      "en": "feast",
+      "sv": "festmåltid",
+      "nl": "feestmaal",
+      "it": "il banchetto",
+      "es": "el banquete"
+    },
+    "emoji": "🍽️",
+    "verified": false
+  }
+]

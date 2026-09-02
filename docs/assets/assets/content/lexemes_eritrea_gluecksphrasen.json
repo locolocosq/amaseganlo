@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_glp_congr",
+    "am": "እንቋዕ ሓጎሰካ",
+    "tr": "iniqua'i hagoseka",
+    "pos": "phrase",
+    "topic": "congratulations",
+    "level": "TI",
+    "t": {
+      "de": "herzlichen Glückwunsch",
+      "en": "congratulations",
+      "sv": "grattis",
+      "nl": "gefeliciteerd",
+      "it": "congratulazioni",
+      "es": "felicidades"
+    },
+    "emoji": "🎉",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_glp_hbday",
+    "am": "እንቋዕ ንልደትካ ኣብጽሓካ",
+    "tr": "iniqua'i nilidetka abitsihaka",
+    "pos": "phrase",
+    "topic": "congratulations",
+    "level": "TI",
+    "t": {
+      "de": "alles Gute zum Geburtstag",
+      "en": "happy birthday",
+      "sv": "grattis på födelsedagen",
+      "nl": "gelukkige verjaardag",
+      "it": "buon compleanno",
+      "es": "feliz cumpleaños"
+    },
+    "emoji": "🎂",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_glp_gdluck",
+    "am": "ዕድል የሓግዘካ",
+    "tr": "'idil yehagizeka",
+    "pos": "phrase",
+    "topic": "congratulations",
+    "level": "TI",
+    "t": {
+      "de": "viel Glück",
+      "en": "good luck",
+      "sv": "lycka till",
+      "nl": "veel geluk",
+      "it": "buona fortuna",
+      "es": "buena suerte"
+    },
+    "emoji": "🍀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_glp_wellsdo",
+    "am": "ጽቡቕ ገይርካ",
+    "tr": "tsibuq geyirka",
+    "pos": "phrase",
+    "topic": "congratulations",
+    "level": "TI",
+    "t": {
+      "de": "gut gemacht",
+      "en": "well done",
+      "sv": "bra gjort",
+      "nl": "goed gedaan",
+      "it": "ben fatto",
+      "es": "bien hecho"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

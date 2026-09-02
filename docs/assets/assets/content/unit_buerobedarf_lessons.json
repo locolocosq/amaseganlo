@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_buerobedarf_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_buerobedarf_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_buerobedarf_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_bleistift",
+      "lex_radiergummi",
+      "lex_lineal",
+      "lex_hefter",
+      "lex_schere",
+      "lex_umschlag",
+      "lex_briefmarke"
+    ],
+    "sentenceIds": [
+      "sen_gen_bleistift",
+      "sen_gen_radiergummi",
+      "sen_gen_lineal",
+      "sen_gen_hefter",
+      "sen_gen_schere"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

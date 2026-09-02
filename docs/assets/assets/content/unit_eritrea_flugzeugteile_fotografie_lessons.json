@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_flugzeugteile_fotografie_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_flz_wing",
+      "lex_ti_flz_engn",
+      "lex_ti_flz_ckpt",
+      "lex_ti_flz_seat",
+      "lex_ti_flz_crew",
+      "lex_ti_fto_lens",
+      "lex_ti_fto_flsh",
+      "lex_ti_fto_shot",
+      "lex_ti_fto_zoom",
+      "lex_ti_fto_frme"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_flugzeugteile_fotografie_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_flz_wing",
+      "lex_ti_flz_engn",
+      "lex_ti_flz_ckpt",
+      "lex_ti_flz_seat",
+      "lex_ti_flz_crew",
+      "lex_ti_fto_lens",
+      "lex_ti_fto_flsh",
+      "lex_ti_fto_shot",
+      "lex_ti_fto_zoom",
+      "lex_ti_fto_frme"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_flugzeugteile_fotografie_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_flz_wing",
+      "lex_ti_flz_engn",
+      "lex_ti_flz_ckpt",
+      "lex_ti_flz_seat",
+      "lex_ti_flz_crew",
+      "lex_ti_fto_lens",
+      "lex_ti_fto_flsh",
+      "lex_ti_fto_shot",
+      "lex_ti_fto_zoom",
+      "lex_ti_fto_frme"
+    ],
+    "sentenceIds": [
+      "sen_ti_flugzeugteile_fotografie_1",
+      "sen_gen_flz_engn",
+      "sen_gen_flz_ckpt",
+      "sen_gen_flz_seat",
+      "sen_gen_flz_crew"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_flugzeugteile_fotografie_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_flz_wing",
+      "lex_ti_flz_engn",
+      "lex_ti_flz_ckpt",
+      "lex_ti_flz_seat",
+      "lex_ti_flz_crew",
+      "lex_ti_fto_lens",
+      "lex_ti_fto_flsh",
+      "lex_ti_fto_shot",
+      "lex_ti_fto_zoom",
+      "lex_ti_fto_frme"
+    ],
+    "sentenceIds": [
+      "sen_ti_flugzeugteile_fotografie_1",
+      "sen_gen_flz_engn",
+      "sen_gen_flz_ckpt",
+      "sen_gen_flz_seat",
+      "sen_gen_flz_crew"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_flugzeugteile_fotografie_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_flz_wing",
+      "lex_ti_flz_engn",
+      "lex_ti_flz_ckpt",
+      "lex_ti_flz_seat",
+      "lex_ti_flz_crew",
+      "lex_ti_fto_lens",
+      "lex_ti_fto_flsh",
+      "lex_ti_fto_shot",
+      "lex_ti_fto_zoom",
+      "lex_ti_fto_frme"
+    ],
+    "sentenceIds": [
+      "sen_ti_flugzeugteile_fotografie_1",
+      "sen_gen_flz_engn",
+      "sen_gen_flz_ckpt",
+      "sen_gen_flz_seat",
+      "sen_gen_flz_crew"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_flugzeugteile_fotografie_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_flz_wing",
+      "lex_ti_flz_engn",
+      "lex_ti_flz_ckpt",
+      "lex_ti_flz_seat",
+      "lex_ti_flz_crew",
+      "lex_ti_fto_lens",
+      "lex_ti_fto_flsh",
+      "lex_ti_fto_shot",
+      "lex_ti_fto_zoom",
+      "lex_ti_fto_frme"
+    ],
+    "sentenceIds": [
+      "sen_ti_flugzeugteile_fotografie_1",
+      "sen_gen_flz_engn",
+      "sen_gen_flz_ckpt",
+      "sen_gen_flz_seat",
+      "sen_gen_flz_crew"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

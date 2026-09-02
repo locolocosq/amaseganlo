@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_wissenschaft",
+    "am": "ሳይንስ",
+    "tr": "sayins",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Wissenschaft",
+      "en": "science",
+      "sv": "vetenskap",
+      "nl": "wetenschap",
+      "it": "la scienza",
+      "es": "la ciencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_experiment",
+    "am": "ሙከራ",
+    "tr": "mukera",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "das Experiment",
+      "en": "experiment",
+      "sv": "experiment",
+      "nl": "experiment",
+      "it": "l'esperimento",
+      "es": "el experimento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_forschung",
+    "am": "ጥናት",
+    "tr": "t'inat",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Forschung",
+      "en": "research",
+      "sv": "forskning",
+      "nl": "onderzoek",
+      "it": "la ricerca",
+      "es": "la investigación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mathematik",
+    "am": "ሂሳብ",
+    "tr": "hisab",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Mathematik",
+      "en": "mathematics",
+      "sv": "matematik",
+      "nl": "wiskunde",
+      "it": "la matematica",
+      "es": "las matemáticas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_physik",
+    "am": "ፊዚክስ",
+    "tr": "fizikis",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Physik",
+      "en": "physics",
+      "sv": "fysik",
+      "nl": "natuurkunde",
+      "it": "la fisica",
+      "es": "la física"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_chemie",
+    "am": "ኬሚስትሪ",
+    "tr": "kemistiri",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Chemie",
+      "en": "chemistry",
+      "sv": "kemi",
+      "nl": "chemie",
+      "it": "la chimica",
+      "es": "la química"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_biologie",
+    "am": "ባዮሎጂ",
+    "tr": "baayoloji",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Biologie",
+      "en": "biology",
+      "sv": "biologi",
+      "nl": "biologie",
+      "it": "la biologia",
+      "es": "la biología"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geographie",
+    "am": "ጂኦግራፊ",
+    "tr": "ge'ografi",
+    "pos": "noun",
+    "topic": "science",
+    "level": "B1",
+    "t": {
+      "de": "die Geographie",
+      "en": "geography",
+      "sv": "geografi",
+      "nl": "aardrijkskunde",
+      "it": "la geografia",
+      "es": "la geografía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

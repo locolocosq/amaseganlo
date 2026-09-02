@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_bank2",
+    "am": "ሕሳብ ባንክ",
+    "tr": "hisab bank",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "das Bankkonto",
+      "en": "bank account",
+      "sv": "bankkonto",
+      "nl": "bankrekening",
+      "it": "il conto bancario",
+      "es": "la cuenta bancaria"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lezhi",
+    "am": "ልቓሕ",
+    "tr": "liqah",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "der Kredit, das Darlehen",
+      "en": "loan, credit",
+      "sv": "lån, kredit",
+      "nl": "lening, krediet",
+      "it": "il prestito, il credito",
+      "es": "el préstamo, el crédito"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wraq2",
+    "am": "ወለድ",
+    "tr": "weled",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "der Zins",
+      "en": "interest (finance)",
+      "sv": "ränta",
+      "nl": "rente",
+      "it": "l'interesse (finanza)",
+      "es": "el interés (finanzas)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qmz",
+    "am": "ዕቋር",
+    "tr": "'iquar",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "die Ersparnisse",
+      "en": "savings",
+      "sv": "besparingar",
+      "nl": "spaargeld",
+      "it": "i risparmi",
+      "es": "los ahorros"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzbti2",
+    "am": "ወጻኢታት",
+    "tr": "wetsa'itat",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "die Ausgaben",
+      "en": "expenses",
+      "sv": "utgifter",
+      "nl": "uitgaven",
+      "it": "le spese",
+      "es": "los gastos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gne2",
+    "am": "እቶት",
+    "tr": "itot",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "das Einkommen",
+      "en": "income",
+      "sv": "inkomst",
+      "nl": "inkomen",
+      "it": "il reddito",
+      "es": "los ingresos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ashd",
+    "am": "እተፈላለየ ባጤራ",
+    "tr": "itefelaleye bat'era",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "der Wechselkurs",
+      "en": "exchange rate",
+      "sv": "växelkurs",
+      "nl": "wisselkoers",
+      "it": "il tasso di cambio",
+      "es": "el tipo de cambio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gebri3",
+    "am": "ግብሪ",
+    "tr": "gibri",
+    "pos": "noun",
+    "topic": "finance",
+    "level": "TI",
+    "t": {
+      "de": "die Steuer",
+      "en": "tax",
+      "sv": "skatt",
+      "nl": "belasting",
+      "it": "la tassa",
+      "es": "el impuesto"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

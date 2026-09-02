@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_gesundheit_mehr2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_gesundheit_mehr2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_gesundheit_mehr2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_medizin",
+      "lex_spritze",
+      "lex_verband",
+      "lex_wunde",
+      "lex_allergie",
+      "lex_kopfschmerz"
+    ],
+    "sentenceIds": [
+      "sen_gen_medizin",
+      "sen_gen_spritze",
+      "sen_gen_verband",
+      "sen_gen_wunde",
+      "sen_gen_allergie"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "unit_arbeit_schule_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_beruf",
+      "lex_buero",
+      "lex_lehrer",
+      "lex_schueler",
+      "lex_buch",
+      "lex_v_schreiben",
+      "lex_v_lesen",
+      "lex_stift",
+      "lex_papier",
+      "lex_universitaet",
+      "lex_pruefung",
+      "lex_computer",
+      "lex_chef",
+      "lex_gehalt",
+      "lex_firma",
+      "lex_hausaufgabe",
+      "lex_tafel",
+      "lex_tasche",
+      "lex_ferien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_arbeit_schule_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_beruf",
+      "lex_buero",
+      "lex_lehrer",
+      "lex_schueler",
+      "lex_buch",
+      "lex_v_schreiben",
+      "lex_v_lesen",
+      "lex_stift",
+      "lex_papier",
+      "lex_universitaet",
+      "lex_pruefung",
+      "lex_computer",
+      "lex_chef",
+      "lex_gehalt",
+      "lex_firma",
+      "lex_hausaufgabe",
+      "lex_tafel",
+      "lex_tasche",
+      "lex_ferien"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_arbeit_schule_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_beruf",
+      "lex_buero",
+      "lex_lehrer",
+      "lex_schueler",
+      "lex_buch",
+      "lex_v_schreiben",
+      "lex_v_lesen",
+      "lex_stift",
+      "lex_papier",
+      "lex_universitaet",
+      "lex_pruefung",
+      "lex_computer",
+      "lex_chef",
+      "lex_gehalt",
+      "lex_firma",
+      "lex_hausaufgabe",
+      "lex_tafel",
+      "lex_tasche",
+      "lex_ferien"
+    ],
+    "sentenceIds": [
+      "sen_temari_negn",
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_arbeit_schule_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_beruf",
+      "lex_buero",
+      "lex_lehrer",
+      "lex_schueler",
+      "lex_buch",
+      "lex_v_schreiben",
+      "lex_v_lesen",
+      "lex_stift",
+      "lex_papier",
+      "lex_universitaet",
+      "lex_pruefung",
+      "lex_computer",
+      "lex_chef",
+      "lex_gehalt",
+      "lex_firma",
+      "lex_hausaufgabe",
+      "lex_tafel",
+      "lex_tasche",
+      "lex_ferien"
+    ],
+    "sentenceIds": [
+      "sen_temari_negn",
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_arbeit_schule_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_beruf",
+      "lex_buero",
+      "lex_lehrer",
+      "lex_schueler",
+      "lex_buch",
+      "lex_v_schreiben",
+      "lex_v_lesen",
+      "lex_stift",
+      "lex_papier",
+      "lex_universitaet",
+      "lex_pruefung",
+      "lex_computer",
+      "lex_chef",
+      "lex_gehalt",
+      "lex_firma",
+      "lex_hausaufgabe",
+      "lex_tafel",
+      "lex_tasche",
+      "lex_ferien"
+    ],
+    "sentenceIds": [
+      "sen_temari_negn",
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_arbeit_schule_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_beruf",
+      "lex_buero",
+      "lex_lehrer",
+      "lex_schueler",
+      "lex_buch",
+      "lex_v_schreiben",
+      "lex_v_lesen",
+      "lex_stift",
+      "lex_papier",
+      "lex_universitaet",
+      "lex_pruefung",
+      "lex_computer",
+      "lex_chef",
+      "lex_gehalt",
+      "lex_firma",
+      "lex_hausaufgabe",
+      "lex_tafel",
+      "lex_tasche",
+      "lex_ferien"
+    ],
+    "sentenceIds": [
+      "sen_temari_negn",
+      "sen_metsihaf_manbeb",
+      "sen_gen_beruf",
+      "sen_gen_buero",
+      "sen_gen_lehrer"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

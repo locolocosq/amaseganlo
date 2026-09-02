@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sen_zare_tsehay",
+    "am": "ዛሬ ፀሐይ አለ።",
+    "tr": "zare ts'ehay ale.",
+    "level": "A2",
+    "uses": [
+      "lex_heute",
+      "lex_sonne"
+    ],
+    "t": {
+      "de": "Heute ist Sonne.",
+      "en": "Today it's sunny.",
+      "sv": "Idag är det soligt.",
+      "nl": "Vandaag is het zonnig.",
+      "it": "Oggi c'è il sole.",
+      "es": "Hoy hace sol."
+    },
+    "alt": {},
+    "chunks": [
+      "zare",
+      "ts'ehay",
+      "ale"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_wushaw_konjo",
+    "am": "ውሻው ቆንጆ ነው።",
+    "tr": "wushaw konjo new.",
+    "level": "A2",
+    "uses": [
+      "lex_hund",
+      "lex_schoen"
+    ],
+    "t": {
+      "de": "Der Hund ist schön.",
+      "en": "The dog is nice.",
+      "sv": "Hunden är fin.",
+      "nl": "De hond is mooi.",
+      "it": "Il cane è bello.",
+      "es": "El perro es bonito."
+    },
+    "alt": {},
+    "chunks": [
+      "wushaw",
+      "konjo",
+      "new"
+    ],
+    "verified": false
+  }
+]

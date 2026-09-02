@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_swg_preg",
+    "am": "ጥንሲ",
+    "tr": "tinsi",
+    "pos": "noun",
+    "topic": "pregnancy",
+    "level": "TI",
+    "t": {
+      "de": "die Schwangerschaft",
+      "en": "pregnancy",
+      "sv": "graviditet",
+      "nl": "zwangerschap",
+      "it": "la gravidanza",
+      "es": "el embarazo"
+    },
+    "emoji": "🤰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_swg_brth",
+    "am": "ወሊድ",
+    "tr": "welid",
+    "pos": "noun",
+    "topic": "pregnancy",
+    "level": "TI",
+    "t": {
+      "de": "die Geburt",
+      "en": "birth",
+      "sv": "förlossning",
+      "nl": "geboorte",
+      "it": "la nascita",
+      "es": "el nacimiento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_swg_baby",
+    "am": "ህጻን",
+    "tr": "hitsan2",
+    "pos": "noun",
+    "topic": "pregnancy",
+    "level": "TI",
+    "t": {
+      "de": "das Baby",
+      "en": "baby",
+      "sv": "bebis",
+      "nl": "baby",
+      "it": "il bebè",
+      "es": "el bebé"
+    },
+    "emoji": "👶",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_swg_midw",
+    "am": "መሕረሲት",
+    "tr": "mehiresit",
+    "pos": "noun",
+    "topic": "pregnancy",
+    "level": "TI",
+    "t": {
+      "de": "die Hebamme",
+      "en": "midwife",
+      "sv": "barnmorska",
+      "nl": "vroedvrouw",
+      "it": "l'ostetrica",
+      "es": "la partera"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_swg_cradl",
+    "am": "ዓራት ህጻን",
+    "tr": "'arat hitsan",
+    "pos": "noun",
+    "topic": "pregnancy",
+    "level": "TI",
+    "t": {
+      "de": "die Wiege",
+      "en": "cradle",
+      "sv": "vagga",
+      "nl": "wieg",
+      "it": "la culla",
+      "es": "la cuna"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

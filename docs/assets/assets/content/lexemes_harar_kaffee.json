@@ -1,0 +1,562 @@
+[
+  {
+    "id": "lex_hk_buna",
+    "am": "ቡና",
+    "tr": "buna",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "der Kaffee",
+      "en": "coffee",
+      "sv": "kaffe",
+      "nl": "koffie",
+      "it": "il caffè",
+      "es": "el café"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☕",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_bunabet",
+    "am": "ቡና ቤት",
+    "tr": "buna bet",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "das Kaffeehaus",
+      "en": "coffee house",
+      "sv": "kaffehus",
+      "nl": "koffiehuis",
+      "it": "la casa del caffè",
+      "es": "la casa del café"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_jebena",
+    "am": "ጀበና",
+    "tr": "jebena",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "die Kaffeekanne (traditionell)",
+      "en": "traditional coffee pot",
+      "sv": "traditionell kaffekanna",
+      "nl": "traditionele koffiepot",
+      "it": "la caffettiera tradizionale",
+      "es": "la cafetera tradicional"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_sini",
+    "am": "ስኒ",
+    "tr": "sini",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "die kleine Kaffeetasse",
+      "en": "small coffee cup",
+      "sv": "liten kaffekopp",
+      "nl": "klein koffiekopje",
+      "it": "la tazzina da caffè",
+      "es": "la tacita de café"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_v_metibsat",
+    "am": "መጥበስ",
+    "tr": "metibisat",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "rösten",
+      "en": "to roast",
+      "sv": "rosta",
+      "nl": "roosteren",
+      "it": "tostare",
+      "es": "tostar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_v_mewat",
+    "am": "መውቀጥ",
+    "tr": "mewik'et'",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "mahlen, zerstoßen",
+      "en": "to grind, to pound",
+      "sv": "mala, stöta",
+      "nl": "malen, stampen",
+      "it": "macinare, pestare",
+      "es": "moler, machacar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_etan",
+    "am": "እጣን",
+    "tr": "it'an",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "der Weihrauch",
+      "en": "incense",
+      "sv": "rökelse",
+      "nl": "wierook",
+      "it": "l'incenso",
+      "es": "el incienso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_v_madenek",
+    "am": "ማደንቀ",
+    "tr": "madenike",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "bewundern",
+      "en": "to admire",
+      "sv": "beundra",
+      "nl": "bewonderen",
+      "it": "ammirare",
+      "es": "admirar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_gebena_silit",
+    "am": "ገበናው ሲል",
+    "tr": "gebenaw sil",
+    "pos": "phrase",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "während die Kanne kocht",
+      "en": "while the pot boils",
+      "sv": "medan kannan kokar",
+      "nl": "terwijl de kan kookt",
+      "it": "mentre la caffettiera bolle",
+      "es": "mientras la cafetera hierve"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_bunaseshi",
+    "am": "ቡና አፍልቶ ጠጣ",
+    "tr": "buna afilito t'et'a",
+    "pos": "phrase",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "er hat Kaffee gekocht und getrunken",
+      "en": "he brewed and drank coffee",
+      "sv": "han bryggde och drack kaffe",
+      "nl": "hij zette en dronk koffie",
+      "it": "ha preparato e bevuto il caffè",
+      "es": "preparó y bebió café"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_kelal",
+    "am": "ቀላል",
+    "tr": "kelal",
+    "pos": "adjective",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "leicht, einfach",
+      "en": "light, simple",
+      "sv": "lätt, enkel",
+      "nl": "licht, eenvoudig",
+      "it": "leggero, semplice",
+      "es": "ligero, sencillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_kef",
+    "am": "ጠንካራ",
+    "tr": "tenkara",
+    "pos": "adjective",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "stark, kräftig",
+      "en": "strong",
+      "sv": "stark",
+      "nl": "sterk",
+      "it": "forte, robusto",
+      "es": "fuerte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_metet",
+    "am": "ማጠጣት",
+    "tr": "matet'at",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "das Serviervorgang (Getränk)",
+      "en": "the act of serving a drink",
+      "sv": "servering av dryck",
+      "nl": "het serveren van een drankje",
+      "it": "il servire una bevanda",
+      "es": "el acto de servir una bebida"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_hulet_sini",
+    "am": "ሁለተኛ ስኒ",
+    "tr": "huletegna sini",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "die zweite Tasse (Zeremonie)",
+      "en": "the second cup (ceremony)",
+      "sv": "andra koppen (ceremoni)",
+      "nl": "tweede kopje (ceremonie)",
+      "it": "la seconda tazza (cerimonia)",
+      "es": "la segunda taza (ceremonia)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_shishign",
+    "am": "ሦስተኛ ስኒ",
+    "tr": "sositegna sini",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "die dritte Tasse (Segenstasse)",
+      "en": "the third cup (blessing round)",
+      "sv": "tredje koppen (välsignelse)",
+      "nl": "derde kopje (zegening)",
+      "it": "la terza tazza (della benedizione)",
+      "es": "la tercera taza (de la bendición)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_koshosho",
+    "am": "ቆሎ",
+    "tr": "k'olo",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "geröstete Getreidekörner (Snack)",
+      "en": "roasted grain snack",
+      "sv": "rostade sädeskorn (snacks)",
+      "nl": "gebrande graankorrels (snack)",
+      "it": "cereali tostati (snack)",
+      "es": "granos tostados (aperitivo)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_zome",
+    "am": "ዝግ ስብሰባ",
+    "tr": "zigi sibiseba",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "das gesellige Beisammensein",
+      "en": "a social gathering",
+      "sv": "socialt umgänge",
+      "nl": "sociale bijeenkomst",
+      "it": "il ritrovo sociale",
+      "es": "la reunión social"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_v_megabez",
+    "am": "መጋበዝ",
+    "tr": "megabez",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "einladen (Gäste)",
+      "en": "to invite (guests)",
+      "sv": "bjuda in (gäster)",
+      "nl": "uitnodigen (gasten)",
+      "it": "invitare (ospiti)",
+      "es": "invitar (a los invitados)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_izen",
+    "am": "እንግዳ",
+    "tr": "inigida",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "der Gast",
+      "en": "guest",
+      "sv": "gäst",
+      "nl": "gast",
+      "it": "l'ospite",
+      "es": "el/la invitado/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_mendereb",
+    "am": "ንደርባ",
+    "tr": "nedereba",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "die Sitzmatte (aus Gras)",
+      "en": "woven grass mat",
+      "sv": "vävd gräsmatta",
+      "nl": "gevlochten grasmat",
+      "it": "la stuoia d'erba intrecciata",
+      "es": "la estera de hierba tejida"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_shurba",
+    "am": "ሽንብራ",
+    "tr": "shinibira",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "Kichererbse",
+      "en": "chickpea",
+      "sv": "kikärta",
+      "nl": "kikkererwt",
+      "it": "il cece",
+      "es": "el garbanzo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_v_mekenajat",
+    "am": "መከናወን",
+    "tr": "mekenawen",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "stattfinden, ablaufen",
+      "en": "to take place, to proceed",
+      "sv": "äga rum, förlöpa",
+      "nl": "plaatsvinden, verlopen",
+      "it": "svolgersi, avvenire",
+      "es": "tener lugar, transcurrir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_semay",
+    "am": "ወዝ",
+    "tr": "wez",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "der Duft, das Aroma",
+      "en": "aroma, fragrance",
+      "sv": "doft, arom",
+      "nl": "geur, aroma",
+      "it": "il profumo, l'aroma",
+      "es": "el aroma, la fragancia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_metaya",
+    "am": "ጥዑም",
+    "tr": "t'i'um",
+    "pos": "adjective",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "köstlich, aromatisch",
+      "en": "delicious, aromatic",
+      "sv": "utsökt, aromatisk",
+      "nl": "lekker, aromatisch",
+      "it": "delizioso, aromatico",
+      "es": "delicioso, aromático"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_v_mafesat",
+    "am": "ማፍሰስ",
+    "tr": "mafiset",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "gießen, einschenken",
+      "en": "to pour",
+      "sv": "hälla",
+      "nl": "gieten",
+      "it": "versare",
+      "es": "verter"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_v_meamesegen",
+    "am": "ማመስገን",
+    "tr": "mamesegen",
+    "pos": "verb",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "danken, loben",
+      "en": "to thank, to praise",
+      "sv": "tacka, prisa",
+      "nl": "bedanken, prijzen",
+      "it": "ringraziare, lodare",
+      "es": "agradecer, alabar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hk_bereka",
+    "am": "በረካ",
+    "tr": "bereka",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "der Segen (der Zeremonie)",
+      "en": "blessing (of the ceremony)",
+      "sv": "välsignelse (av ceremonin)",
+      "nl": "zegen (van de ceremonie)",
+      "it": "la benedizione (della cerimonia)",
+      "es": "la bendición (de la ceremonia)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hk_tekebay",
+    "am": "ተከባቢነት",
+    "tr": "tekebabinet",
+    "pos": "noun",
+    "topic": "coffee",
+    "level": "B2",
+    "t": {
+      "de": "der gegenseitige Respekt",
+      "en": "mutual respect",
+      "sv": "ömsesidig respekt",
+      "nl": "wederzijds respect",
+      "it": "il rispetto reciproco",
+      "es": "el respeto mutuo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

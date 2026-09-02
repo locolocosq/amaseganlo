@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lex_entscheidung",
+    "am": "ውሳኔ",
+    "tr": "wisane",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "die Entscheidung",
+      "en": "decision",
+      "sv": "beslut",
+      "nl": "beslissing",
+      "it": "la decisione",
+      "es": "la decisión"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_projekt",
+    "am": "ፕሮጀክት",
+    "tr": "projekt",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "das Projekt",
+      "en": "project",
+      "sv": "projekt",
+      "nl": "project",
+      "it": "il progetto",
+      "es": "el proyecto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_lebensziel",
+    "am": "ዓላማ",
+    "tr": "alama",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "das Ziel, die Absicht",
+      "en": "goal, aim",
+      "sv": "mål, syfte",
+      "nl": "doel",
+      "it": "l'obiettivo, l'intenzione",
+      "es": "la meta, el propósito"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gewohnheit",
+    "am": "ልማድ",
+    "tr": "limad",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "die Gewohnheit",
+      "en": "habit",
+      "sv": "vana",
+      "nl": "gewoonte",
+      "it": "l'abitudine",
+      "es": "el hábito"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zeremonie",
+    "am": "ስርዓት",
+    "tr": "sirat",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "die Zeremonie",
+      "en": "ceremony",
+      "sv": "ceremoni",
+      "nl": "ceremonie",
+      "it": "la cerimonia",
+      "es": "la ceremonia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_feier",
+    "am": "ድግስ",
+    "tr": "digis",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "die Feier",
+      "en": "celebration",
+      "sv": "fest",
+      "nl": "feest",
+      "it": "la festa",
+      "es": "la celebración"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_beerdigung",
+    "am": "ቀብር",
+    "tr": "k'ebir",
+    "pos": "noun",
+    "topic": "nouns_3",
+    "level": "B1",
+    "t": {
+      "de": "die Beerdigung",
+      "en": "funeral",
+      "sv": "begravning",
+      "nl": "begrafenis",
+      "it": "il funerale",
+      "es": "el funeral"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_eritrea_seniorenpflege_jugend_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_snp_eldr",
+      "lex_ti_snp_care",
+      "lex_ti_snp_cane",
+      "lex_ti_snp_hlp2",
+      "lex_ti_jgd_teen",
+      "lex_ti_jgd_grw",
+      "lex_ti_jgd_dream",
+      "lex_ti_jgd_frnd2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_seniorenpflege_jugend_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_snp_eldr",
+      "lex_ti_snp_care",
+      "lex_ti_snp_cane",
+      "lex_ti_snp_hlp2",
+      "lex_ti_jgd_teen",
+      "lex_ti_jgd_grw",
+      "lex_ti_jgd_dream",
+      "lex_ti_jgd_frnd2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_seniorenpflege_jugend_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_snp_eldr",
+      "lex_ti_snp_care",
+      "lex_ti_snp_cane",
+      "lex_ti_snp_hlp2",
+      "lex_ti_jgd_teen",
+      "lex_ti_jgd_grw",
+      "lex_ti_jgd_dream",
+      "lex_ti_jgd_frnd2"
+    ],
+    "sentenceIds": [
+      "sen_ti_seniorenpflege_jugend_1",
+      "sen_gen_snp_care",
+      "sen_gen_snp_cane",
+      "sen_fix_jgd_dream",
+      "sen_fix2_jgd_frnd2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_seniorenpflege_jugend_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_snp_eldr",
+      "lex_ti_snp_care",
+      "lex_ti_snp_cane",
+      "lex_ti_snp_hlp2",
+      "lex_ti_jgd_teen",
+      "lex_ti_jgd_grw",
+      "lex_ti_jgd_dream",
+      "lex_ti_jgd_frnd2"
+    ],
+    "sentenceIds": [
+      "sen_ti_seniorenpflege_jugend_1",
+      "sen_gen_snp_care",
+      "sen_gen_snp_cane",
+      "sen_fix_jgd_dream",
+      "sen_fix2_jgd_frnd2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_seniorenpflege_jugend_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_snp_eldr",
+      "lex_ti_snp_care",
+      "lex_ti_snp_cane",
+      "lex_ti_snp_hlp2",
+      "lex_ti_jgd_teen",
+      "lex_ti_jgd_grw",
+      "lex_ti_jgd_dream",
+      "lex_ti_jgd_frnd2"
+    ],
+    "sentenceIds": [
+      "sen_ti_seniorenpflege_jugend_1",
+      "sen_gen_snp_care",
+      "sen_gen_snp_cane",
+      "sen_fix_jgd_dream",
+      "sen_fix2_jgd_frnd2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_seniorenpflege_jugend_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_snp_eldr",
+      "lex_ti_snp_care",
+      "lex_ti_snp_cane",
+      "lex_ti_snp_hlp2",
+      "lex_ti_jgd_teen",
+      "lex_ti_jgd_grw",
+      "lex_ti_jgd_dream",
+      "lex_ti_jgd_frnd2"
+    ],
+    "sentenceIds": [
+      "sen_ti_seniorenpflege_jugend_1",
+      "sen_gen_snp_care",
+      "sen_gen_snp_cane",
+      "sen_fix_jgd_dream",
+      "sen_fix2_jgd_frnd2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_arbeit_beruf2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hab2_meser_bet",
+      "lex_hab2_meri_biro",
+      "lex_hab2_serategna2",
+      "lex_hab2_azaji",
+      "lex_hab2_dimoz",
+      "lex_hab2_sira_nfk",
+      "lex_hab2_v_meketer",
+      "lex_hab2_v_mesenabt",
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri",
+      "lex_hab2_v_meakiabach",
+      "lex_hab2_kirekir",
+      "lex_hab2_ye_sira_ken",
+      "lex_hab2_irefit",
+      "lex_hab2_v_maregaget2",
+      "lex_hab2_edget",
+      "lex_hab2_takisi_sira",
+      "lex_hab2_v_mekwater",
+      "lex_hab2_qed",
+      "lex_hab2_sira_fetsame"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_arbeit_beruf2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hab2_meser_bet",
+      "lex_hab2_meri_biro",
+      "lex_hab2_serategna2",
+      "lex_hab2_azaji",
+      "lex_hab2_dimoz",
+      "lex_hab2_sira_nfk",
+      "lex_hab2_v_meketer",
+      "lex_hab2_v_mesenabt",
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri",
+      "lex_hab2_v_meakiabach",
+      "lex_hab2_kirekir",
+      "lex_hab2_ye_sira_ken",
+      "lex_hab2_irefit",
+      "lex_hab2_v_maregaget2",
+      "lex_hab2_edget",
+      "lex_hab2_takisi_sira",
+      "lex_hab2_v_mekwater",
+      "lex_hab2_qed",
+      "lex_hab2_sira_fetsame"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_arbeit_beruf2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hab2_meser_bet",
+      "lex_hab2_meri_biro",
+      "lex_hab2_serategna2",
+      "lex_hab2_azaji",
+      "lex_hab2_dimoz",
+      "lex_hab2_sira_nfk",
+      "lex_hab2_v_meketer",
+      "lex_hab2_v_mesenabt",
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri",
+      "lex_hab2_v_meakiabach",
+      "lex_hab2_kirekir",
+      "lex_hab2_ye_sira_ken",
+      "lex_hab2_irefit",
+      "lex_hab2_v_maregaget2",
+      "lex_hab2_edget",
+      "lex_hab2_takisi_sira",
+      "lex_hab2_v_mekwater",
+      "lex_hab2_qed",
+      "lex_hab2_sira_fetsame"
+    ],
+    "sentenceIds": [
+      "sen_hab2_azaji_serategna",
+      "sen_hab2_serategna_dimoz",
+      "sen_hab2_ashagari_meritmeri",
+      "sen_hab2_serategna_edget",
+      "sen_gen_hab2_meser_bet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_arbeit_beruf2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hab2_meser_bet",
+      "lex_hab2_meri_biro",
+      "lex_hab2_serategna2",
+      "lex_hab2_azaji",
+      "lex_hab2_dimoz",
+      "lex_hab2_sira_nfk",
+      "lex_hab2_v_meketer",
+      "lex_hab2_v_mesenabt",
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri",
+      "lex_hab2_v_meakiabach",
+      "lex_hab2_kirekir",
+      "lex_hab2_ye_sira_ken",
+      "lex_hab2_irefit",
+      "lex_hab2_v_maregaget2",
+      "lex_hab2_edget",
+      "lex_hab2_takisi_sira",
+      "lex_hab2_v_mekwater",
+      "lex_hab2_qed",
+      "lex_hab2_sira_fetsame"
+    ],
+    "sentenceIds": [
+      "sen_hab2_azaji_serategna",
+      "sen_hab2_serategna_dimoz",
+      "sen_hab2_ashagari_meritmeri",
+      "sen_hab2_serategna_edget",
+      "sen_gen_hab2_meser_bet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_arbeit_beruf2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hab2_meser_bet",
+      "lex_hab2_meri_biro",
+      "lex_hab2_serategna2",
+      "lex_hab2_azaji",
+      "lex_hab2_dimoz",
+      "lex_hab2_sira_nfk",
+      "lex_hab2_v_meketer",
+      "lex_hab2_v_mesenabt",
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri",
+      "lex_hab2_v_meakiabach",
+      "lex_hab2_kirekir",
+      "lex_hab2_ye_sira_ken",
+      "lex_hab2_irefit",
+      "lex_hab2_v_maregaget2",
+      "lex_hab2_edget",
+      "lex_hab2_takisi_sira",
+      "lex_hab2_v_mekwater",
+      "lex_hab2_qed",
+      "lex_hab2_sira_fetsame"
+    ],
+    "sentenceIds": [
+      "sen_hab2_azaji_serategna",
+      "sen_hab2_serategna_dimoz",
+      "sen_hab2_ashagari_meritmeri",
+      "sen_hab2_serategna_edget",
+      "sen_gen_hab2_meser_bet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_arbeit_beruf2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hab2_meser_bet",
+      "lex_hab2_meri_biro",
+      "lex_hab2_serategna2",
+      "lex_hab2_azaji",
+      "lex_hab2_dimoz",
+      "lex_hab2_sira_nfk",
+      "lex_hab2_v_meketer",
+      "lex_hab2_v_mesenabt",
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri",
+      "lex_hab2_v_meakiabach",
+      "lex_hab2_kirekir",
+      "lex_hab2_ye_sira_ken",
+      "lex_hab2_irefit",
+      "lex_hab2_v_maregaget2",
+      "lex_hab2_edget",
+      "lex_hab2_takisi_sira",
+      "lex_hab2_v_mekwater",
+      "lex_hab2_qed",
+      "lex_hab2_sira_fetsame"
+    ],
+    "sentenceIds": [
+      "sen_hab2_azaji_serategna",
+      "sen_hab2_serategna_dimoz",
+      "sen_hab2_ashagari_meritmeri",
+      "sen_hab2_serategna_edget",
+      "sen_gen_hab2_meser_bet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

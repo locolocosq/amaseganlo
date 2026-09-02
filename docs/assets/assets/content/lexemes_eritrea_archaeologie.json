@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_arc_dig",
+    "am": "ምዑቓር",
+    "tr": "mi'uqar",
+    "pos": "noun",
+    "topic": "archaeology",
+    "level": "TI",
+    "t": {
+      "de": "die Ausgrabung",
+      "en": "excavation, dig",
+      "sv": "utgrävning",
+      "nl": "opgraving",
+      "it": "lo scavo (archeologico)",
+      "es": "la excavación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arc_artf",
+    "am": "ጥንታዊ ኣቕሓ",
+    "tr": "tintawi aqiha",
+    "pos": "noun",
+    "topic": "archaeology",
+    "level": "TI",
+    "t": {
+      "de": "das Artefakt",
+      "en": "artifact",
+      "sv": "artefakt",
+      "nl": "artefact",
+      "it": "il manufatto",
+      "es": "el artefacto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arc_ruin",
+    "am": "ፍርስራስ",
+    "tr": "firisras",
+    "pos": "noun",
+    "topic": "archaeology",
+    "level": "TI",
+    "t": {
+      "de": "die Ruine",
+      "en": "ruin",
+      "sv": "ruin",
+      "nl": "ruïne",
+      "it": "la rovina",
+      "es": "la ruina"
+    },
+    "emoji": "🏛️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arc_mus",
+    "am": "ቤት መዘክር",
+    "tr": "bet mezekir",
+    "pos": "noun",
+    "topic": "archaeology",
+    "level": "TI",
+    "t": {
+      "de": "das Museum",
+      "en": "museum",
+      "sv": "museum",
+      "nl": "museum",
+      "it": "il museo",
+      "es": "el museo"
+    },
+    "emoji": "🏛️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arc_anc",
+    "am": "ጥንታዊ",
+    "tr": "tintawi",
+    "pos": "adjective",
+    "topic": "archaeology",
+    "level": "TI",
+    "t": {
+      "de": "antik, uralt",
+      "en": "ancient",
+      "sv": "antik, uråldrig",
+      "nl": "antiek, oeroud",
+      "it": "antico",
+      "es": "antiguo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arc_civ",
+    "am": "ስልጣነ",
+    "tr": "siltane",
+    "pos": "noun",
+    "topic": "archaeology",
+    "level": "TI",
+    "t": {
+      "de": "die Zivilisation",
+      "en": "civilization",
+      "sv": "civilisation",
+      "nl": "beschaving",
+      "it": "la civiltà",
+      "es": "la civilización"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

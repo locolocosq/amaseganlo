@@ -1,0 +1,164 @@
+[
+  {
+    "id": "unit_zukunft_wuensche_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ich_moechte",
+      "lex_plan",
+      "lex_traum",
+      "lex_wunsch",
+      "lex_ziel",
+      "lex_eines_tages",
+      "lex_zukunft",
+      "lex_erfolg",
+      "lex_v_versuchen",
+      "lex_v_entscheiden",
+      "lex_v_aendern",
+      "lex_v_hoffen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zukunft_wuensche_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ich_moechte",
+      "lex_plan",
+      "lex_traum",
+      "lex_wunsch",
+      "lex_ziel",
+      "lex_eines_tages",
+      "lex_zukunft",
+      "lex_erfolg",
+      "lex_v_versuchen",
+      "lex_v_entscheiden",
+      "lex_v_aendern",
+      "lex_v_hoffen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zukunft_wuensche_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ich_moechte",
+      "lex_plan",
+      "lex_traum",
+      "lex_wunsch",
+      "lex_ziel",
+      "lex_eines_tages",
+      "lex_zukunft",
+      "lex_erfolg",
+      "lex_v_versuchen",
+      "lex_v_entscheiden",
+      "lex_v_aendern",
+      "lex_v_hoffen"
+    ],
+    "sentenceIds": [
+      "sen_hilm_alegn",
+      "sen_fix_zukunft",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zukunft_wuensche_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ich_moechte",
+      "lex_plan",
+      "lex_traum",
+      "lex_wunsch",
+      "lex_ziel",
+      "lex_eines_tages",
+      "lex_zukunft",
+      "lex_erfolg",
+      "lex_v_versuchen",
+      "lex_v_entscheiden",
+      "lex_v_aendern",
+      "lex_v_hoffen"
+    ],
+    "sentenceIds": [
+      "sen_hilm_alegn",
+      "sen_fix_zukunft",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zukunft_wuensche_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ich_moechte",
+      "lex_plan",
+      "lex_traum",
+      "lex_wunsch",
+      "lex_ziel",
+      "lex_eines_tages",
+      "lex_zukunft",
+      "lex_erfolg",
+      "lex_v_versuchen",
+      "lex_v_entscheiden",
+      "lex_v_aendern",
+      "lex_v_hoffen"
+    ],
+    "sentenceIds": [
+      "sen_hilm_alegn",
+      "sen_fix_zukunft",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zukunft_wuensche_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ich_moechte",
+      "lex_plan",
+      "lex_traum",
+      "lex_wunsch",
+      "lex_ziel",
+      "lex_eines_tages",
+      "lex_zukunft",
+      "lex_erfolg",
+      "lex_v_versuchen",
+      "lex_v_entscheiden",
+      "lex_v_aendern",
+      "lex_v_hoffen"
+    ],
+    "sentenceIds": [
+      "sen_hilm_alegn",
+      "sen_fix_zukunft",
+      "sen_gen_plan",
+      "sen_gen_wunsch",
+      "sen_gen_ziel"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

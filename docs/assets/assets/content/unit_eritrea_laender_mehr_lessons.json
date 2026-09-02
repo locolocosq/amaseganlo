@@ -1,0 +1,164 @@
+[
+  {
+    "id": "unit_eritrea_laender_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_ld2_ertra",
+      "lex_ti_ld2_ityop",
+      "lex_ti_ld2_sudan",
+      "lex_ti_ld2_gbtsi",
+      "lex_ti_ld2_somal",
+      "lex_ti_ld2_djbti",
+      "lex_ti_ld2_spain",
+      "lex_ti_ld2_rusia",
+      "lex_ti_ld2_japan",
+      "lex_ti_ld2_sthaf",
+      "lex_ti_ld2_turki",
+      "lex_ti_ld2_kanad"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_laender_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_ld2_ertra",
+      "lex_ti_ld2_ityop",
+      "lex_ti_ld2_sudan",
+      "lex_ti_ld2_gbtsi",
+      "lex_ti_ld2_somal",
+      "lex_ti_ld2_djbti",
+      "lex_ti_ld2_spain",
+      "lex_ti_ld2_rusia",
+      "lex_ti_ld2_japan",
+      "lex_ti_ld2_sthaf",
+      "lex_ti_ld2_turki",
+      "lex_ti_ld2_kanad"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_ld2_ertra",
+      "lex_ti_ld2_ityop",
+      "lex_ti_ld2_sudan",
+      "lex_ti_ld2_gbtsi",
+      "lex_ti_ld2_somal",
+      "lex_ti_ld2_djbti",
+      "lex_ti_ld2_spain",
+      "lex_ti_ld2_rusia",
+      "lex_ti_ld2_japan",
+      "lex_ti_ld2_sthaf",
+      "lex_ti_ld2_turki",
+      "lex_ti_ld2_kanad"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_ld2_ertra",
+      "lex_ti_ld2_ityop",
+      "lex_ti_ld2_sudan",
+      "lex_ti_ld2_gbtsi",
+      "lex_ti_ld2_somal",
+      "lex_ti_ld2_djbti",
+      "lex_ti_ld2_spain",
+      "lex_ti_ld2_rusia",
+      "lex_ti_ld2_japan",
+      "lex_ti_ld2_sthaf",
+      "lex_ti_ld2_turki",
+      "lex_ti_ld2_kanad"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_ld2_ertra",
+      "lex_ti_ld2_ityop",
+      "lex_ti_ld2_sudan",
+      "lex_ti_ld2_gbtsi",
+      "lex_ti_ld2_somal",
+      "lex_ti_ld2_djbti",
+      "lex_ti_ld2_spain",
+      "lex_ti_ld2_rusia",
+      "lex_ti_ld2_japan",
+      "lex_ti_ld2_sthaf",
+      "lex_ti_ld2_turki",
+      "lex_ti_ld2_kanad"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_ld2_ertra",
+      "lex_ti_ld2_ityop",
+      "lex_ti_ld2_sudan",
+      "lex_ti_ld2_gbtsi",
+      "lex_ti_ld2_somal",
+      "lex_ti_ld2_djbti",
+      "lex_ti_ld2_spain",
+      "lex_ti_ld2_rusia",
+      "lex_ti_ld2_japan",
+      "lex_ti_ld2_sthaf",
+      "lex_ti_ld2_turki",
+      "lex_ti_ld2_kanad"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_mehr_1",
+      "sen_gen_ld2_ityop",
+      "sen_gen_ld2_sudan",
+      "sen_gen_ld2_gbtsi",
+      "sen_gen_ld2_somal"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

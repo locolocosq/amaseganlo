@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_umwelt3_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel",
+      "lex_hu3_zenab",
+      "lex_hu3_v_zenb_metat",
+      "lex_hu3_wond_ayer",
+      "lex_hu3_bereha2",
+      "lex_hu3_hod",
+      "lex_hu3_bird",
+      "lex_hu3_v_metekakel6",
+      "lex_hu3_gudat",
+      "lex_hu3_akababi3",
+      "lex_hu3_zele",
+      "lex_hu3_bahil2",
+      "lex_hu3_meshet",
+      "lex_hu3_v_masdeneget",
+      "lex_hu3_zaf_tekel",
+      "lex_hu3_v_matekel",
+      "lex_hu3_akababi4",
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_umwelt3_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel",
+      "lex_hu3_zenab",
+      "lex_hu3_v_zenb_metat",
+      "lex_hu3_wond_ayer",
+      "lex_hu3_bereha2",
+      "lex_hu3_hod",
+      "lex_hu3_bird",
+      "lex_hu3_v_metekakel6",
+      "lex_hu3_gudat",
+      "lex_hu3_akababi3",
+      "lex_hu3_zele",
+      "lex_hu3_bahil2",
+      "lex_hu3_meshet",
+      "lex_hu3_v_masdeneget",
+      "lex_hu3_zaf_tekel",
+      "lex_hu3_v_matekel",
+      "lex_hu3_akababi4",
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt3_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel",
+      "lex_hu3_zenab",
+      "lex_hu3_v_zenb_metat",
+      "lex_hu3_wond_ayer",
+      "lex_hu3_bereha2",
+      "lex_hu3_hod",
+      "lex_hu3_bird",
+      "lex_hu3_v_metekakel6",
+      "lex_hu3_gudat",
+      "lex_hu3_akababi3",
+      "lex_hu3_zele",
+      "lex_hu3_bahil2",
+      "lex_hu3_meshet",
+      "lex_hu3_v_masdeneget",
+      "lex_hu3_zaf_tekel",
+      "lex_hu3_v_matekel",
+      "lex_hu3_akababi4",
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil"
+    ],
+    "sentenceIds": [
+      "sen_hu3_dirikat_wana_wihel",
+      "sen_hu3_zenab_wond_ayer",
+      "sen_hu3_hod_bird",
+      "sen_hu3_adj_netsa_bekil",
+      "sen_gen_hu3_v_zenb_metat"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt3_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel",
+      "lex_hu3_zenab",
+      "lex_hu3_v_zenb_metat",
+      "lex_hu3_wond_ayer",
+      "lex_hu3_bereha2",
+      "lex_hu3_hod",
+      "lex_hu3_bird",
+      "lex_hu3_v_metekakel6",
+      "lex_hu3_gudat",
+      "lex_hu3_akababi3",
+      "lex_hu3_zele",
+      "lex_hu3_bahil2",
+      "lex_hu3_meshet",
+      "lex_hu3_v_masdeneget",
+      "lex_hu3_zaf_tekel",
+      "lex_hu3_v_matekel",
+      "lex_hu3_akababi4",
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil"
+    ],
+    "sentenceIds": [
+      "sen_hu3_dirikat_wana_wihel",
+      "sen_hu3_zenab_wond_ayer",
+      "sen_hu3_hod_bird",
+      "sen_hu3_adj_netsa_bekil",
+      "sen_gen_hu3_v_zenb_metat"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt3_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel",
+      "lex_hu3_zenab",
+      "lex_hu3_v_zenb_metat",
+      "lex_hu3_wond_ayer",
+      "lex_hu3_bereha2",
+      "lex_hu3_hod",
+      "lex_hu3_bird",
+      "lex_hu3_v_metekakel6",
+      "lex_hu3_gudat",
+      "lex_hu3_akababi3",
+      "lex_hu3_zele",
+      "lex_hu3_bahil2",
+      "lex_hu3_meshet",
+      "lex_hu3_v_masdeneget",
+      "lex_hu3_zaf_tekel",
+      "lex_hu3_v_matekel",
+      "lex_hu3_akababi4",
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil"
+    ],
+    "sentenceIds": [
+      "sen_hu3_dirikat_wana_wihel",
+      "sen_hu3_zenab_wond_ayer",
+      "sen_hu3_hod_bird",
+      "sen_hu3_adj_netsa_bekil",
+      "sen_gen_hu3_v_zenb_metat"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt3_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel",
+      "lex_hu3_zenab",
+      "lex_hu3_v_zenb_metat",
+      "lex_hu3_wond_ayer",
+      "lex_hu3_bereha2",
+      "lex_hu3_hod",
+      "lex_hu3_bird",
+      "lex_hu3_v_metekakel6",
+      "lex_hu3_gudat",
+      "lex_hu3_akababi3",
+      "lex_hu3_zele",
+      "lex_hu3_bahil2",
+      "lex_hu3_meshet",
+      "lex_hu3_v_masdeneget",
+      "lex_hu3_zaf_tekel",
+      "lex_hu3_v_matekel",
+      "lex_hu3_akababi4",
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil"
+    ],
+    "sentenceIds": [
+      "sen_hu3_dirikat_wana_wihel",
+      "sen_hu3_zenab_wond_ayer",
+      "sen_hu3_hod_bird",
+      "sen_hu3_adj_netsa_bekil",
+      "sen_gen_hu3_v_zenb_metat"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

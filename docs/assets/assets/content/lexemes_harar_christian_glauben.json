@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lex_iyesus",
+    "am": "ኢየሱስ ክርስቶስ",
+    "tr": "iyesus kirstos",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "Jesus Christus",
+      "en": "Jesus Christ",
+      "sv": "Jesus Kristus",
+      "nl": "Jezus Christus",
+      "it": "Gesù Cristo",
+      "es": "Jesucristo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_maryam",
+    "am": "ማርያም",
+    "tr": "maryam",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "Maria (Mutter Jesu)",
+      "en": "Mary (Jesus's mother)",
+      "sv": "Maria (Jesu mor)",
+      "nl": "Maria (moeder van Jezus)",
+      "it": "Maria (madre di Gesù)",
+      "es": "María (madre de Jesús)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_melak",
+    "am": "መልአክ",
+    "tr": "mel'ak",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "der Engel",
+      "en": "angel",
+      "sv": "ängel",
+      "nl": "engel",
+      "it": "l'angelo",
+      "es": "el ángel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_nefis",
+    "am": "ነፍስ",
+    "tr": "nefis",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "die Seele",
+      "en": "soul",
+      "sv": "själ",
+      "nl": "ziel",
+      "it": "l'anima",
+      "es": "el alma"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gehanem",
+    "am": "ገሃነም",
+    "tr": "gehanem",
+    "pos": "noun",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "die Hölle",
+      "en": "hell",
+      "sv": "helvetet",
+      "nl": "de hel",
+      "it": "l'inferno",
+      "es": "el infierno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_semayawi",
+    "am": "ሰማያዊ",
+    "tr": "semayawi",
+    "pos": "adjective",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "himmlisch",
+      "en": "heavenly",
+      "sv": "himmelsk",
+      "nl": "hemels",
+      "it": "celeste, divino",
+      "es": "celestial, divino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_haleluya",
+    "am": "ሃሌሉያ",
+    "tr": "haleluya",
+    "pos": "interjection",
+    "topic": "christian_faith",
+    "level": "B2",
+    "t": {
+      "de": "Halleluja",
+      "en": "Hallelujah",
+      "sv": "halleluja",
+      "nl": "halleluja",
+      "it": "Alleluia",
+      "es": "Aleluya"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

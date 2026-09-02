@@ -1,0 +1,302 @@
+[
+  {
+    "id": "lex_idee",
+    "am": "ሀሳብ",
+    "tr": "hasab",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Idee, der Gedanke",
+      "en": "idea, thought",
+      "sv": "idé, tanke",
+      "nl": "idee, gedachte",
+      "it": "l'idea, il pensiero",
+      "es": "la idea, el pensamiento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_problem",
+    "am": "ችግር",
+    "tr": "chiggir",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "das Problem",
+      "en": "problem",
+      "sv": "problem",
+      "nl": "probleem",
+      "it": "il problema",
+      "es": "el problema"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_loesung",
+    "am": "መፍትሄ",
+    "tr": "mefithe",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Lösung",
+      "en": "solution",
+      "sv": "lösning",
+      "nl": "oplossing",
+      "it": "la soluzione",
+      "es": "la solución"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_grund",
+    "am": "ምክንያት",
+    "tr": "mikinyat",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "der Grund",
+      "en": "reason",
+      "sv": "anledning",
+      "nl": "reden",
+      "it": "il motivo",
+      "es": "la razón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_beispiel",
+    "am": "ምሳሌ",
+    "tr": "misale",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "das Beispiel",
+      "en": "example",
+      "sv": "exempel",
+      "nl": "voorbeeld",
+      "it": "l'esempio",
+      "es": "el ejemplo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ganz",
+    "am": "ጠቅላላ",
+    "tr": "tek'lala",
+    "pos": "adjective",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "ganz, gesamt",
+      "en": "whole, total",
+      "sv": "hel, total",
+      "nl": "geheel, totaal",
+      "it": "intero, totale",
+      "es": "entero, total"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_haelfte",
+    "am": "ግማሽ",
+    "tr": "gimash",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Hälfte",
+      "en": "half",
+      "sv": "hälft",
+      "nl": "helft",
+      "it": "la metà",
+      "es": "la mitad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_nummer",
+    "am": "ቁጥር",
+    "tr": "k'ut'ir",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Nummer, die Zahl",
+      "en": "number",
+      "sv": "nummer",
+      "nl": "nummer",
+      "it": "il numero",
+      "es": "el número"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_liste",
+    "am": "ዝርዝር",
+    "tr": "zirzir",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Liste",
+      "en": "list",
+      "sv": "lista",
+      "nl": "lijst",
+      "it": "la lista",
+      "es": "la lista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_regel",
+    "am": "ደንብ",
+    "tr": "deneb",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Regel",
+      "en": "rule",
+      "sv": "regel",
+      "nl": "regel",
+      "it": "la regola",
+      "es": "la regla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gesetz",
+    "am": "ህግ",
+    "tr": "higg",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "das Gesetz",
+      "en": "law",
+      "sv": "lag",
+      "nl": "wet",
+      "it": "la legge",
+      "es": "la ley"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_freiheit",
+    "am": "ነፃነት",
+    "tr": "nets'anet",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Freiheit",
+      "en": "freedom",
+      "sv": "frihet",
+      "nl": "vrijheid",
+      "it": "la libertà",
+      "es": "la libertad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_krieg",
+    "am": "ጦርነት",
+    "tr": "t'orinet",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "der Krieg",
+      "en": "war",
+      "sv": "krig",
+      "nl": "oorlog",
+      "it": "la guerra",
+      "es": "la guerra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_sieg",
+    "am": "ድል",
+    "tr": "dil",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "der Sieg",
+      "en": "victory",
+      "sv": "seger",
+      "nl": "overwinning",
+      "it": "la vittoria",
+      "es": "la victoria"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_veraenderung",
+    "am": "ለውጥ",
+    "tr": "lewt'",
+    "pos": "noun",
+    "topic": "abstract_concepts",
+    "level": "B1",
+    "t": {
+      "de": "die Veränderung",
+      "en": "change",
+      "sv": "förändring",
+      "nl": "verandering",
+      "it": "il cambiamento",
+      "es": "el cambio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

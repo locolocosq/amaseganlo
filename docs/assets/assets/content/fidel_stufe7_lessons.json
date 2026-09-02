@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f7_numerals",
+    "kind": "numeralsPunctuation",
+    "groupIds": ["numerals"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f7_punctuation",
+    "kind": "numeralsPunctuation",
+    "groupIds": ["punctuation"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f7_labialized",
+    "kind": "numeralsPunctuation",
+    "groupIds": ["labialized"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  },
+  {
+    "id": "f7_other",
+    "kind": "numeralsPunctuation",
+    "groupIds": ["other"],
+    "exerciseTypes": ["fidelCharToSound", "fidelSoundToChar"]
+  }
+]

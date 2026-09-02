@@ -1,0 +1,108 @@
+[
+  {
+    "id": "sen_hw2_dey_chereka_semay",
+    "am": "ፀሐይ እና ጨረቃ በሰማይ ናቸው።",
+    "tr": "ts'ehay ina cherek'a besemay nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hw2_dey_ayer",
+      "lex_hw2_chereka",
+      "lex_hw2_semay2"
+    ],
+    "t": {
+      "de": "Die Sonne und der Mond sind am Himmel.",
+      "en": "The sun and the moon are in the sky.",
+      "sv": "Solen och månen är på himlen.",
+      "nl": "De zon en de maan zijn in de lucht.",
+      "it": "Il sole e la luna sono nel cielo.",
+      "es": "El sol y la luna están en el cielo."
+    },
+    "chunks": [
+      "ts'ehay",
+      "ina",
+      "cherek'a",
+      "besemay",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hw2_mebirek_ndid",
+    "am": "መብረቅ እና ነጎድጓድ አብረው ይመጣሉ።",
+    "tr": "mebirek' ina negodigwad abrew yimet'alu.",
+    "level": "B2",
+    "uses": [
+      "lex_hw2_mebirek",
+      "lex_hw2_ndid"
+    ],
+    "t": {
+      "de": "Blitz und Donner kommen zusammen.",
+      "en": "Lightning and thunder come together.",
+      "sv": "Blixt och åska kommer tillsammans.",
+      "nl": "Bliksem en donder komen samen.",
+      "it": "Il fulmine e il tuono arrivano insieme.",
+      "es": "El relámpago y el trueno llegan juntos."
+    },
+    "chunks": [
+      "mebirek'",
+      "ina",
+      "negodigwad",
+      "abrew",
+      "yimet'alu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hw2_desta_demenama",
+    "am": "ዛሬ ፀሐያማ ነው፤ ትናንት ደመናማ ነበር።",
+    "tr": "zare ts'ehayama newu; tinanit demenama neber.",
+    "level": "B2",
+    "uses": [
+      "lex_hw2_desta_ayer",
+      "lex_hw2_demenama"
+    ],
+    "t": {
+      "de": "Heute ist sonnig, gestern war es bewölkt.",
+      "en": "Today is sunny; yesterday was cloudy.",
+      "sv": "Idag är soligt; igår var det molnigt.",
+      "nl": "Vandaag is het zonnig; gisteren was het bewolkt.",
+      "it": "Oggi è soleggiato; ieri era nuvoloso.",
+      "es": "Hoy está soleado; ayer estaba nublado."
+    },
+    "chunks": [
+      "zare",
+      "ts'ehayama",
+      "newu",
+      "tinanit",
+      "demenama",
+      "neber"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hw2_metsehaf_kesef",
+    "am": "የአየር ትንበያ ቀዝቃዛ አየር ይላል።",
+    "tr": "ye'ayer tinibeya k'ezik'aza ayer yilal.",
+    "level": "B2",
+    "uses": [
+      "lex_hw2_metsehaf_ayer",
+      "lex_hw2_kesef"
+    ],
+    "t": {
+      "de": "Die Wettervorhersage sagt kalte Luft.",
+      "en": "The weather forecast says cold air.",
+      "sv": "Väderprognosen säger kall luft.",
+      "nl": "De weersvoorspelling zegt koude lucht.",
+      "it": "Le previsioni del tempo dicono aria fredda.",
+      "es": "El pronóstico del tiempo dice aire frío."
+    },
+    "chunks": [
+      "ye'ayer",
+      "tinibeya",
+      "k'ezik'aza",
+      "ayer",
+      "yilal"
+    ],
+    "verified": false
+  }
+]

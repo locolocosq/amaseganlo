@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lex_ti_whr_nakfa",
+    "am": "ናቕፋ",
+    "tr": "nakfa",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "Nakfa (eritreische Währung)",
+      "en": "Nakfa (Eritrean currency)",
+      "sv": "nakfa (eritreansk valuta)",
+      "nl": "nakfa (Eritrese munt)",
+      "it": "Nakfa (valuta eritrea)",
+      "es": "Nakfa (moneda eritrea)"
+    },
+    "emoji": "💵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_birr",
+    "am": "ብር",
+    "tr": "biri",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "Birr (äthiopische Währung)",
+      "en": "Birr (Ethiopian currency)",
+      "sv": "birr (etiopisk valuta)",
+      "nl": "birr (Ethiopische munt)",
+      "it": "Birr (valuta etiope)",
+      "es": "Birr (moneda etíope)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_metl",
+    "am": "ሳንቲም",
+    "tr": "santim",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "die Münze",
+      "en": "coin",
+      "sv": "mynt",
+      "nl": "munt",
+      "it": "la moneta",
+      "es": "la moneda"
+    },
+    "emoji": "🪙",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_bnkn",
+    "am": "ናይ ገንዘብ ወረቐት",
+    "tr": "nay genzeb wereqet",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "der Geldschein",
+      "en": "banknote",
+      "sv": "sedel",
+      "nl": "bankbiljet",
+      "it": "la banconota",
+      "es": "el billete"
+    },
+    "emoji": "💴",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_cash",
+    "am": "ጥረ ገንዘብ",
+    "tr": "t'ire genzeb",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "das Bargeld",
+      "en": "cash",
+      "sv": "kontanter",
+      "nl": "contant geld",
+      "it": "i contanti",
+      "es": "el efectivo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_kkrd",
+    "am": "ናይ ክፍሊት ካርዲ",
+    "tr": "nay kifilit kardi",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "die Kreditkarte",
+      "en": "credit card",
+      "sv": "kreditkort",
+      "nl": "creditcard",
+      "it": "la carta di credito",
+      "es": "la tarjeta de crédito"
+    },
+    "emoji": "💳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_qmzy",
+    "am": "ዓቀበ",
+    "tr": "'aqebe",
+    "pos": "verb",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "sparen",
+      "en": "to save (money)",
+      "sv": "att spara (pengar)",
+      "nl": "sparen (geld)",
+      "it": "risparmiare",
+      "es": "ahorrar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_wtsi",
+    "am": "ኣውጽአ (ገንዘብ)",
+    "tr": "awts'e genzeb",
+    "pos": "verb",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "ausgeben (Geld)",
+      "en": "to spend (money)",
+      "sv": "att spendera (pengar)",
+      "nl": "uitgeven (geld)",
+      "it": "spendere (soldi)",
+      "es": "gastar (dinero)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_whr_wga",
+    "am": "ዋጋ",
+    "tr": "waga",
+    "pos": "noun",
+    "topic": "currency",
+    "level": "TI",
+    "t": {
+      "de": "der Preis",
+      "en": "price",
+      "sv": "pris",
+      "nl": "prijs",
+      "it": "il prezzo",
+      "es": "el precio"
+    },
+    "emoji": "🏷️",
+    "verified": false
+  }
+]

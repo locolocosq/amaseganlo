@@ -1,0 +1,552 @@
+[
+  {
+    "id": "sen_safari_ante_zigitegna",
+    "am": "አንተ ዝግተኛ ነህ።",
+    "tr": "ante zigitegna neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_langsam",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist langsam.",
+      "en": "You (masc.) are slow.",
+      "sv": "Du (maskulinum) är långsam.",
+      "nl": "Jij (mannelijk) bent langzaam.",
+      "it": "Tu (maschile) sei lento.",
+      "es": "Tú (masculino) eres lento."
+    },
+    "chunks": [
+      "ante",
+      "zigitegna",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_zigitegna",
+    "am": "አንቺ ዝግተኛ ነሽ።",
+    "tr": "anchi zigitegna nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_langsam",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist langsam.",
+      "en": "You (fem.) are slow.",
+      "sv": "Du (femininum) är långsam.",
+      "nl": "Jij (vrouwelijk) bent langzaam.",
+      "it": "Tu (femminile) sei lenta.",
+      "es": "Tú (femenino) eres lenta."
+    },
+    "chunks": [
+      "anchi",
+      "zigitegna",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_nitsuh",
+    "am": "አንተ ንጹህ ነህ።",
+    "tr": "ante nitsuh neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_sauber",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist sauber.",
+      "en": "You (masc.) are clean.",
+      "sv": "Du (maskulinum) är ren.",
+      "nl": "Jij (mannelijk) bent schoon.",
+      "it": "Tu (maschile) sei pulito.",
+      "es": "Tú (masculino) estás limpio."
+    },
+    "chunks": [
+      "ante",
+      "nitsuh",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_nitsuh",
+    "am": "አንቺ ንጹህ ነሽ።",
+    "tr": "anchi nitsuh nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_sauber",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist sauber.",
+      "en": "You (fem.) are clean.",
+      "sv": "Du (femininum) är ren.",
+      "nl": "Jij (vrouwelijk) bent schoon.",
+      "it": "Tu (femminile) sei pulita.",
+      "es": "Tú (femenino) estás limpia."
+    },
+    "chunks": [
+      "anchi",
+      "nitsuh",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_habtam",
+    "am": "አንተ ሀብታም ነህ።",
+    "tr": "ante habtam neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_reich",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist reich.",
+      "en": "You (masc.) are rich.",
+      "sv": "Du (maskulinum) är rik.",
+      "nl": "Jij (mannelijk) bent rijk.",
+      "it": "Tu (maschile) sei ricco.",
+      "es": "Tú (masculino) eres rico."
+    },
+    "chunks": [
+      "ante",
+      "habtam",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_habtam",
+    "am": "አንቺ ሀብታም ነሽ።",
+    "tr": "anchi habtam nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_reich",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist reich.",
+      "en": "You (fem.) are rich.",
+      "sv": "Du (femininum) är rik.",
+      "nl": "Jij (vrouwelijk) bent rijk.",
+      "it": "Tu (femminile) sei ricca.",
+      "es": "Tú (femenino) eres rica."
+    },
+    "chunks": [
+      "anchi",
+      "habtam",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_dha",
+    "am": "አንተ ድሃ ነህ።",
+    "tr": "ante dha neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_arm",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist arm.",
+      "en": "You (masc.) are poor.",
+      "sv": "Du (maskulinum) är fattig.",
+      "nl": "Jij (mannelijk) bent arm.",
+      "it": "Tu (maschile) sei povero.",
+      "es": "Tú (masculino) eres pobre."
+    },
+    "chunks": [
+      "ante",
+      "dha",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_dha",
+    "am": "አንቺ ድሃ ነሽ።",
+    "tr": "anchi dha nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_arm",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist arm.",
+      "en": "You (fem.) are poor.",
+      "sv": "Du (femininum) är fattig.",
+      "nl": "Jij (vrouwelijk) bent arm.",
+      "it": "Tu (femminile) sei povera.",
+      "es": "Tú (femenino) eres pobre."
+    },
+    "chunks": [
+      "anchi",
+      "dha",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_dekama",
+    "am": "አንተ ደካማ ነህ።",
+    "tr": "ante dekama neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_schwach",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist schwach.",
+      "en": "You (masc.) are weak.",
+      "sv": "Du (maskulinum) är svag.",
+      "nl": "Jij (mannelijk) bent zwak.",
+      "it": "Tu (maschile) sei debole.",
+      "es": "Tú (masculino) eres débil."
+    },
+    "chunks": [
+      "ante",
+      "dekama",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_dekama",
+    "am": "አንቺ ደካማ ነሽ።",
+    "tr": "anchi dekama nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_schwach",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist schwach.",
+      "en": "You (fem.) are weak.",
+      "sv": "Du (femininum) är svag.",
+      "nl": "Jij (vrouwelijk) bent zwak.",
+      "it": "Tu (femminile) sei debole.",
+      "es": "Tú (femenino) eres débil."
+    },
+    "chunks": [
+      "anchi",
+      "dekama",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_wetat",
+    "am": "አንተ ወጣት ነህ።",
+    "tr": "ante wet'at neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_jung",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist jung.",
+      "en": "You (masc.) are young.",
+      "sv": "Du (maskulinum) är ung.",
+      "nl": "Jij (mannelijk) bent jong.",
+      "it": "Tu (maschile) sei giovane.",
+      "es": "Tú (masculino) eres joven."
+    },
+    "chunks": [
+      "ante",
+      "wet'at",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_wetat",
+    "am": "አንቺ ወጣት ነሽ።",
+    "tr": "anchi wet'at nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_jung",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist jung.",
+      "en": "You (fem.) are young.",
+      "sv": "Du (femininum) är ung.",
+      "nl": "Jij (vrouwelijk) bent jong.",
+      "it": "Tu (femminile) sei giovane.",
+      "es": "Tú (femenino) eres joven."
+    },
+    "chunks": [
+      "anchi",
+      "wet'at",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_tenama",
+    "am": "አንተ ጤናማ ነህ።",
+    "tr": "ante t'enama neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_gesund",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist gesund.",
+      "en": "You (masc.) are healthy.",
+      "sv": "Du (maskulinum) är frisk.",
+      "nl": "Jij (mannelijk) bent gezond.",
+      "it": "Tu (maschile) sei sano.",
+      "es": "Tú (masculino) estás sano."
+    },
+    "chunks": [
+      "ante",
+      "t'enama",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_tenama",
+    "am": "አንቺ ጤናማ ነሽ።",
+    "tr": "anchi t'enama nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_gesund",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist gesund.",
+      "en": "You (fem.) are healthy.",
+      "sv": "Du (femininum) är frisk.",
+      "nl": "Jij (vrouwelijk) bent gezond.",
+      "it": "Tu (femminile) sei sana.",
+      "es": "Tú (femenino) estás sana."
+    },
+    "chunks": [
+      "anchi",
+      "t'enama",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_konjo",
+    "am": "አንተ ቆንጆ ነህ።",
+    "tr": "ante konjo neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_schoen",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist gutaussehend.",
+      "en": "You (masc.) are handsome.",
+      "sv": "Du (maskulinum) är snygg.",
+      "nl": "Jij (mannelijk) bent knap.",
+      "it": "Tu (maschile) sei bello.",
+      "es": "Tú (masculino) eres guapo."
+    },
+    "chunks": [
+      "ante",
+      "konjo",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_konjo",
+    "am": "አንቺ ቆንጆ ነሽ።",
+    "tr": "anchi konjo nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_schoen",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist schön.",
+      "en": "You (fem.) are beautiful.",
+      "sv": "Du (femininum) är vacker.",
+      "nl": "Jij (vrouwelijk) bent mooi.",
+      "it": "Tu (femminile) sei bella.",
+      "es": "Tú (femenino) eres guapa."
+    },
+    "chunks": [
+      "anchi",
+      "konjo",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_ante_aroge",
+    "am": "አንተ አሮጌ ነህ።",
+    "tr": "ante aroge neh.",
+    "level": "B2",
+    "uses": [
+      "lex_ante",
+      "lex_alt",
+      "lex_copula_neh"
+    ],
+    "t": {
+      "de": "Du (männlich) bist alt.",
+      "en": "You (masc.) are old.",
+      "sv": "Du (maskulinum) är gammal.",
+      "nl": "Jij (mannelijk) bent oud.",
+      "it": "Tu (maschile) sei vecchio.",
+      "es": "Tú (masculino) eres viejo."
+    },
+    "chunks": [
+      "ante",
+      "aroge",
+      "neh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_anchi_aroge",
+    "am": "አንቺ አሮጌ ነሽ።",
+    "tr": "anchi aroge nesh.",
+    "level": "B2",
+    "uses": [
+      "lex_anchi",
+      "lex_alt",
+      "lex_copula_nesh"
+    ],
+    "t": {
+      "de": "Du (weiblich) bist alt.",
+      "en": "You (fem.) are old.",
+      "sv": "Du (femininum) är gammal.",
+      "nl": "Jij (vrouwelijk) bent oud.",
+      "it": "Tu (femminile) sei vecchia.",
+      "es": "Tú (femenino) eres vieja."
+    },
+    "chunks": [
+      "anchi",
+      "aroge",
+      "nesh"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_issu_rejim",
+    "am": "እሱ ረጅም ነው።",
+    "tr": "issu rejim new.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_lang",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Er ist groß (lang).",
+      "en": "He is tall.",
+      "sv": "Han är lång.",
+      "nl": "Hij is lang.",
+      "it": "Lui è alto.",
+      "es": "Él es alto."
+    },
+    "chunks": [
+      "issu",
+      "rejim",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_rejim",
+    "am": "እሷ ረጅም ናት።",
+    "tr": "iswa rejim nat.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_lang",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Sie ist groß (lang).",
+      "en": "She is tall.",
+      "sv": "Hon är lång.",
+      "nl": "Zij is lang.",
+      "it": "Lei è alta.",
+      "es": "Ella es alta."
+    },
+    "chunks": [
+      "iswa",
+      "rejim",
+      "nat"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_issu_achir",
+    "am": "እሱ አጭር ነው።",
+    "tr": "issu achir new.",
+    "level": "B2",
+    "uses": [
+      "lex_issu",
+      "lex_kurz",
+      "lex_copula_new"
+    ],
+    "t": {
+      "de": "Er ist kurz (klein).",
+      "en": "He is short.",
+      "sv": "Han är kort.",
+      "nl": "Hij is kort.",
+      "it": "Lui è basso.",
+      "es": "Él es bajo."
+    },
+    "chunks": [
+      "issu",
+      "achir",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_safari_iswa_achir",
+    "am": "እሷ አጭር ናት።",
+    "tr": "iswa achir nat.",
+    "level": "B2",
+    "uses": [
+      "lex_iswa",
+      "lex_kurz",
+      "lex_copula_nat"
+    ],
+    "t": {
+      "de": "Sie ist kurz (klein).",
+      "en": "She is short.",
+      "sv": "Hon är kort.",
+      "nl": "Zij is kort.",
+      "it": "Lei è bassa.",
+      "es": "Ella es baja."
+    },
+    "chunks": [
+      "iswa",
+      "achir",
+      "nat"
+    ],
+    "verified": false
+  }
+]

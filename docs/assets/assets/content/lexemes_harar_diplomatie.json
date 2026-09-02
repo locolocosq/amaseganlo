@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_embasi",
+    "am": "ኤምባሲ",
+    "tr": "embasi",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "B2",
+    "t": {
+      "de": "die Botschaft (diplomatisch)",
+      "en": "embassy",
+      "sv": "ambassaden",
+      "nl": "de ambassade",
+      "it": "l'ambasciata",
+      "es": "la embajada"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ambasader",
+    "am": "አምባሳደር",
+    "tr": "ambasader",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "B2",
+    "t": {
+      "de": "der Botschafter, die Botschafterin",
+      "en": "ambassador",
+      "sv": "ambassadör",
+      "nl": "ambassadeur",
+      "it": "l'ambasciatore, l'ambasciatrice",
+      "es": "el embajador, la embajadora"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_siminet",
+    "am": "ስምምነት",
+    "tr": "siminet",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "B2",
+    "t": {
+      "de": "das Abkommen, der Vertrag",
+      "en": "agreement, treaty",
+      "sv": "avtal, fördrag",
+      "nl": "overeenkomst, verdrag",
+      "it": "l'accordo, il trattato",
+      "es": "el acuerdo, el tratado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_diridir",
+    "am": "ድርድር",
+    "tr": "diridir",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "B2",
+    "t": {
+      "de": "die Verhandlung",
+      "en": "negotiation",
+      "sv": "förhandling",
+      "nl": "onderhandeling",
+      "it": "la trattativa",
+      "es": "la negociación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_timiret",
+    "am": "ጥምረት",
+    "tr": "t'imiret",
+    "pos": "noun",
+    "topic": "diplomacy",
+    "level": "B2",
+    "t": {
+      "de": "das Bündnis",
+      "en": "alliance",
+      "sv": "allians",
+      "nl": "alliantie",
+      "it": "l'alleanza",
+      "es": "la alianza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mederader",
+    "am": "መደራደር",
+    "tr": "mederader",
+    "pos": "verb",
+    "topic": "diplomacy",
+    "level": "B2",
+    "t": {
+      "de": "verhandeln",
+      "en": "to negotiate",
+      "sv": "förhandla",
+      "nl": "onderhandelen",
+      "it": "negoziare",
+      "es": "negociar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

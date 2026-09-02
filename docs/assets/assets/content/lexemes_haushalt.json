@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_teller",
+    "am": "ሳህን",
+    "tr": "sahin",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "der Teller",
+      "en": "plate",
+      "sv": "tallrik",
+      "nl": "bord",
+      "it": "il piatto",
+      "es": "el plato"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍽️",
+    "verified": false
+  },
+  {
+    "id": "lex_tasse",
+    "am": "ኩባያ",
+    "tr": "kubaya",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "die Tasse",
+      "en": "cup",
+      "sv": "kopp",
+      "nl": "kopje",
+      "it": "la tazza",
+      "es": "la taza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☕",
+    "verified": false
+  },
+  {
+    "id": "lex_loeffel",
+    "am": "ማንኪያ",
+    "tr": "mankiya",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "der Löffel",
+      "en": "spoon",
+      "sv": "sked",
+      "nl": "lepel",
+      "it": "il cucchiaio",
+      "es": "la cuchara"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥄",
+    "verified": false
+  },
+  {
+    "id": "lex_gabel",
+    "am": "ፎርክ",
+    "tr": "fork",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "die Gabel",
+      "en": "fork",
+      "sv": "gaffel",
+      "nl": "vork",
+      "it": "la forchetta",
+      "es": "el tenedor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍴",
+    "verified": false
+  },
+  {
+    "id": "lex_messer",
+    "am": "ቢላዋ",
+    "tr": "bilawa",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "das Messer",
+      "en": "knife",
+      "sv": "kniv",
+      "nl": "mes",
+      "it": "il coltello",
+      "es": "el cuchillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔪",
+    "verified": false
+  },
+  {
+    "id": "lex_topf",
+    "am": "ድስት",
+    "tr": "dist",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "der Topf",
+      "en": "pot",
+      "sv": "gryta",
+      "nl": "pan",
+      "it": "la pentola",
+      "es": "la olla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍲",
+    "verified": false
+  },
+  {
+    "id": "lex_seife",
+    "am": "ሳሙና",
+    "tr": "samuna",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "die Seife",
+      "en": "soap",
+      "sv": "tvål",
+      "nl": "zeep",
+      "it": "il sapone",
+      "es": "el jabón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧼",
+    "verified": true
+  },
+  {
+    "id": "lex_handtuch",
+    "am": "ፎጣ",
+    "tr": "fot'a",
+    "pos": "noun",
+    "topic": "household",
+    "level": "A1.2",
+    "t": {
+      "de": "das Handtuch",
+      "en": "towel",
+      "sv": "handduk",
+      "nl": "handdoek",
+      "it": "l'asciugamano",
+      "es": "la toalla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

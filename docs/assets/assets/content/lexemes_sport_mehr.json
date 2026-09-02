@@ -1,0 +1,202 @@
+[
+  {
+    "id": "lex_basketball",
+    "am": "ባስኬትቦል",
+    "tr": "basketbol",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "der Basketball",
+      "en": "basketball",
+      "sv": "basket",
+      "nl": "basketbal",
+      "it": "il basket",
+      "es": "el baloncesto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏀",
+    "verified": true
+  },
+  {
+    "id": "lex_schwimmen",
+    "am": "ውኃ ዋና",
+    "tr": "wiha wana",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Schwimmen",
+      "en": "swimming",
+      "sv": "simning",
+      "nl": "zwemmen",
+      "it": "il nuoto",
+      "es": "la natación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏊",
+    "verified": false
+  },
+  {
+    "id": "lex_laufen_sport",
+    "am": "ሩጫ",
+    "tr": "rucha",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Laufen (Sport)",
+      "en": "running",
+      "sv": "löpning",
+      "nl": "hardlopen",
+      "it": "la corsa",
+      "es": "el atletismo, correr"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏃",
+    "verified": true
+  },
+  {
+    "id": "lex_team",
+    "am": "ቡድን",
+    "tr": "budin",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Team, die Mannschaft",
+      "en": "team",
+      "sv": "lag",
+      "nl": "team",
+      "it": "la squadra",
+      "es": "el equipo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schiedsrichter",
+    "am": "ዳኛ (ስፖርት)",
+    "tr": "dagna (sport)",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "der Schiedsrichter",
+      "en": "referee",
+      "sv": "domare",
+      "nl": "scheidsrechter",
+      "it": "l'arbitro",
+      "es": "el árbitro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tor_sport",
+    "am": "ጎል",
+    "tr": "gol",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Tor (Sport)",
+      "en": "goal",
+      "sv": "mål",
+      "nl": "doelpunt",
+      "it": "il gol",
+      "es": "el gol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tennis",
+    "am": "ቴኒስ",
+    "tr": "tenis",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Tennis",
+      "en": "tennis",
+      "sv": "tennis",
+      "nl": "tennis",
+      "it": "il tennis",
+      "es": "el tenis"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎾",
+    "verified": true
+  },
+  {
+    "id": "lex_volleyball",
+    "am": "ቮሊቦል",
+    "tr": "volibol",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "der Volleyball",
+      "en": "volleyball",
+      "sv": "volleyboll",
+      "nl": "volleybal",
+      "it": "la pallavolo",
+      "es": "el voleibol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏐",
+    "verified": true
+  },
+  {
+    "id": "lex_radfahren",
+    "am": "ብስክሌት መንዳት",
+    "tr": "bisiklet mendat",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Radfahren",
+      "en": "cycling",
+      "sv": "cykling",
+      "nl": "fietsen",
+      "it": "il ciclismo",
+      "es": "el ciclismo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚴",
+    "verified": false
+  },
+  {
+    "id": "lex_fitness",
+    "am": "የሰውነት ማጎልመሻ",
+    "tr": "yesewinet magolmesha",
+    "pos": "noun",
+    "topic": "sports_more",
+    "level": "A2",
+    "t": {
+      "de": "das Fitnessstudio",
+      "en": "gym, fitness",
+      "sv": "gym",
+      "nl": "sportschool",
+      "it": "la palestra",
+      "es": "el gimnasio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏋️",
+    "verified": false
+  }
+]

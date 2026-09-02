@@ -1,0 +1,502 @@
+[
+  {
+    "id": "lex_ht_jib",
+    "am": "ጅብ",
+    "tr": "jib",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "die Hyäne",
+      "en": "hyena",
+      "sv": "hyena",
+      "nl": "hyena",
+      "it": "la iena",
+      "es": "la hiena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_yejib_sew",
+    "am": "የጅብ ሰው",
+    "tr": "yejib sew",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Hyänenmann (Hararer Tradition)",
+      "en": "the hyena man (Harar tradition)",
+      "sv": "hyenamannen (Harar-tradition)",
+      "nl": "de hyenaman (Harar-traditie)",
+      "it": "l'uomo iena (tradizione di Harar)",
+      "es": "el hombre hiena (tradición de Harar)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ht_v_masebeb",
+    "am": "ማብላት",
+    "tr": "mabilat",
+    "pos": "verb",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "füttern",
+      "en": "to feed",
+      "sv": "mata",
+      "nl": "voeren",
+      "it": "dare da mangiare",
+      "es": "alimentar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_sisit",
+    "am": "ስጋ",
+    "tr": "siga",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "das Fleisch",
+      "en": "meat",
+      "sv": "kött",
+      "nl": "vlees",
+      "it": "la carne",
+      "es": "la carne"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_adj_fikir",
+    "am": "አደገኛ",
+    "tr": "adegegna",
+    "pos": "adjective",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "gefährlich",
+      "en": "dangerous",
+      "sv": "farlig",
+      "nl": "gevaarlijk",
+      "it": "pericoloso",
+      "es": "peligroso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_zinjero",
+    "am": "ዝንጀሮ",
+    "tr": "zinijero",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Affe",
+      "en": "monkey",
+      "sv": "apa",
+      "nl": "aap",
+      "it": "la scimmia",
+      "es": "el mono"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐒",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_kokeb",
+    "am": "ቀበሮ",
+    "tr": "k'ebero",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Fuchs, Schakal",
+      "en": "fox, jackal",
+      "sv": "räv, schakal",
+      "nl": "vos, jakhals",
+      "it": "la volpe, lo sciacallo",
+      "es": "el zorro, el chacal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_arwe",
+    "am": "አውሬ",
+    "tr": "awre",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "das Wildtier",
+      "en": "wild animal, beast",
+      "sv": "vilddjur",
+      "nl": "wild dier",
+      "it": "la bestia selvatica",
+      "es": "la fiera, el animal salvaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_v_meshekek",
+    "am": "መጮህ",
+    "tr": "mech'oh",
+    "pos": "verb",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "heulen, schreien (Tier)",
+      "en": "to howl, to cry (animal)",
+      "sv": "yla, skrika (djur)",
+      "nl": "huilen, schreeuwen (dier)",
+      "it": "ululare, gridare (animale)",
+      "es": "aullar, gritar (animal)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ht_adenet",
+    "am": "ጫካ",
+    "tr": "chaka",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Wald, das Dickicht",
+      "en": "forest, thicket",
+      "sv": "skog, snår",
+      "nl": "bos, struikgewas",
+      "it": "il bosco, la boscaglia",
+      "es": "el bosque, la maleza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_lalibe",
+    "am": "ጭራ",
+    "tr": "chira",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Schwanz",
+      "en": "tail",
+      "sv": "svans",
+      "nl": "staart",
+      "it": "la coda",
+      "es": "la cola"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_tirbi",
+    "am": "ጥርስ",
+    "tr": "t'iris",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Zahn",
+      "en": "tooth",
+      "sv": "tand",
+      "nl": "tand",
+      "it": "il dente",
+      "es": "el diente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_v_mekenanek",
+    "am": "ማደፈጥ",
+    "tr": "madefet'",
+    "pos": "verb",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "lauern",
+      "en": "to lurk, to lie in wait",
+      "sv": "lura",
+      "nl": "loeren",
+      "it": "stare in agguato",
+      "es": "acechar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ht_v_meyaz",
+    "am": "መያዝ",
+    "tr": "meyaz",
+    "pos": "verb",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "fangen, ergreifen",
+      "en": "to catch, to seize",
+      "sv": "fånga",
+      "nl": "vangen",
+      "it": "catturare, afferrare",
+      "es": "atrapar, agarrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_metsihaf_arwe",
+    "am": "የዱር እንስሳ",
+    "tr": "yeduri inisisa",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "das Wildtier",
+      "en": "wild animal",
+      "sv": "vilt djur",
+      "nl": "wild dier",
+      "it": "l'animale selvatico",
+      "es": "el animal salvaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_tibe",
+    "am": "ጦጣ",
+    "tr": "t'ot'a",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Pavian",
+      "en": "baboon",
+      "sv": "babian",
+      "nl": "baviaan",
+      "it": "il babbuino",
+      "es": "el babuino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ht_wof",
+    "am": "ወፍ",
+    "tr": "wef",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Vogel",
+      "en": "bird",
+      "sv": "fågel",
+      "nl": "vogel",
+      "it": "l'uccello",
+      "es": "el pájaro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐦",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_arb",
+    "am": "እርግብ",
+    "tr": "irigib",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "die Taube",
+      "en": "pigeon, dove",
+      "sv": "duva",
+      "nl": "duif",
+      "it": "il piccione, la colomba",
+      "es": "la paloma"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_v_mefiret",
+    "am": "መፍራት",
+    "tr": "mefirat",
+    "pos": "verb",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "sich fürchten",
+      "en": "to be afraid",
+      "sv": "vara rädd",
+      "nl": "bang zijn",
+      "it": "avere paura",
+      "es": "tener miedo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_shimagle",
+    "am": "ልማድ",
+    "tr": "limad",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "die Gewohnheit, der Brauch",
+      "en": "habit, custom",
+      "sv": "vana, sedvänja",
+      "nl": "gewoonte",
+      "it": "l'abitudine, l'usanza",
+      "es": "el hábito, la costumbre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_lelit",
+    "am": "ማታ",
+    "tr": "mata",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "der Abend",
+      "en": "evening",
+      "sv": "kväll",
+      "nl": "avond",
+      "it": "la sera",
+      "es": "la tarde/noche"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_adj_fitawi",
+    "am": "የዱር",
+    "tr": "yeduri",
+    "pos": "adjective",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "wild",
+      "en": "wild",
+      "sv": "vild",
+      "nl": "wild",
+      "it": "selvatico",
+      "es": "salvaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_v_metekakel4",
+    "am": "መጠራት",
+    "tr": "met'erat",
+    "pos": "verb",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "gerufen werden, herbeikommen",
+      "en": "to be called, to approach",
+      "sv": "kallas, komma fram",
+      "nl": "geroepen worden, naderen",
+      "it": "essere chiamato, avvicinarsi",
+      "es": "ser llamado, acercarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ht_kebet",
+    "am": "ገደል",
+    "tr": "gedel",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "die Schlucht, der Abhang",
+      "en": "gorge, cliff",
+      "sv": "klyfta, stup",
+      "nl": "kloof, ravijn",
+      "it": "il burrone, il dirupo",
+      "es": "el barranco, el precipicio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht_bereha",
+    "am": "በረሃ",
+    "tr": "bereha",
+    "pos": "noun",
+    "topic": "wildlife",
+    "level": "B2",
+    "t": {
+      "de": "die Wüste, das Ödland",
+      "en": "desert, wilderness",
+      "sv": "öken",
+      "nl": "woestijn",
+      "it": "il deserto, le terre desolate",
+      "es": "el desierto, las tierras baldías"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

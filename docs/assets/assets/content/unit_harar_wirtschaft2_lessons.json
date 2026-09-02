@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_harar_wirtschaft2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ikonomi",
+      "lex_nigid",
+      "lex_v_meishach",
+      "lex_v_madeg",
+      "lex_kiray",
+      "lex_mewuadederiya",
+      "lex_adj_rikash"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_wirtschaft2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ikonomi",
+      "lex_nigid",
+      "lex_v_meishach",
+      "lex_v_madeg",
+      "lex_kiray",
+      "lex_mewuadederiya",
+      "lex_adj_rikash"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ikonomi",
+      "lex_nigid",
+      "lex_v_meishach",
+      "lex_v_madeg",
+      "lex_kiray",
+      "lex_mewuadederiya",
+      "lex_adj_rikash"
+    ],
+    "sentenceIds": [
+      "sen_ikonomi_madeg",
+      "sen_negade_meishach",
+      "sen_kiray_rikash",
+      "sen_wididir_kebad",
+      "sen_nigid_ikonomi"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ikonomi",
+      "lex_nigid",
+      "lex_v_meishach",
+      "lex_v_madeg",
+      "lex_kiray",
+      "lex_mewuadederiya",
+      "lex_adj_rikash"
+    ],
+    "sentenceIds": [
+      "sen_ikonomi_madeg",
+      "sen_negade_meishach",
+      "sen_kiray_rikash",
+      "sen_wididir_kebad",
+      "sen_nigid_ikonomi"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ikonomi",
+      "lex_nigid",
+      "lex_v_meishach",
+      "lex_v_madeg",
+      "lex_kiray",
+      "lex_mewuadederiya",
+      "lex_adj_rikash"
+    ],
+    "sentenceIds": [
+      "sen_ikonomi_madeg",
+      "sen_negade_meishach",
+      "sen_kiray_rikash",
+      "sen_wididir_kebad",
+      "sen_nigid_ikonomi"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ikonomi",
+      "lex_nigid",
+      "lex_v_meishach",
+      "lex_v_madeg",
+      "lex_kiray",
+      "lex_mewuadederiya",
+      "lex_adj_rikash"
+    ],
+    "sentenceIds": [
+      "sen_ikonomi_madeg",
+      "sen_negade_meishach",
+      "sen_kiray_rikash",
+      "sen_wididir_kebad",
+      "sen_nigid_ikonomi"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

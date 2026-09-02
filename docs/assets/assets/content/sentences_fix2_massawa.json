@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sen_fix2_jgd_frnd2",
+    "am": "ብጻይ መንእሰያት ኣሎ።",
+    "tr": "bitsay men'iseyat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_jgd_frnd2"
+    ],
+    "t": {
+      "de": "die Clique ist vorhanden.",
+      "en": "There is friend group.",
+      "sv": "Det finns kompisgäng.",
+      "nl": "Er is vriendengroep.",
+      "it": "C'è il gruppo di amici.",
+      "es": "Hay un grupo de amigos."
+    },
+    "alt": {},
+    "chunks": [
+      "bitsay",
+      "men'iseyat",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_gfh_dngr",
+    "am": "ንሱ ሓደገኛ እዩ።",
+    "tr": "nisu hadegegna 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gfh_dngr"
+    ],
+    "t": {
+      "de": "Er ist gefährlich.",
+      "en": "He is dangerous.",
+      "sv": "Han är farlig.",
+      "nl": "Hij is gevaarlijk.",
+      "it": "Lui è pericoloso.",
+      "es": "Él es peligroso."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "hadegegna",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_gfh_hazrd",
+    "am": "ሓደጋ (ተኽእሎ 2) ኣሎ።",
+    "tr": "hadega tekhi'ilo2 alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gfh_hazrd"
+    ],
+    "t": {
+      "de": "die Gefahr ist vorhanden.",
+      "en": "There is danger, hazard.",
+      "sv": "Det finns fara.",
+      "nl": "Er is gevaar.",
+      "it": "C'è pericolo.",
+      "es": "Hay peligro."
+    },
+    "alt": {},
+    "chunks": [
+      "hadega",
+      "tekhi'ilo2",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix2_gfh_accdnt",
+    "am": "ሓደጋ (ገጢሙ) ኣሎኒ።",
+    "tr": "hadega gets'imu alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gfh_accdnt"
+    ],
+    "t": {
+      "de": "Ich habe den Unfall.",
+      "en": "I have accident.",
+      "sv": "Jag har olycka.",
+      "nl": "Ik heb ongeluk.",
+      "it": "Ho l'incidente.",
+      "es": "Tengo el accidente."
+    },
+    "alt": {},
+    "chunks": [
+      "hadega",
+      "gets'imu",
+      "alini."
+    ],
+    "verified": false
+  }
+]

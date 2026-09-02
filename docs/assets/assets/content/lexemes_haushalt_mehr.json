@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_wanduhr",
+    "am": "ሰዓት (ግድግዳ)",
+    "tr": "se'at (gidgida)",
+    "pos": "noun",
+    "topic": "household_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Wanduhr",
+      "en": "wall clock",
+      "sv": "väggklocka",
+      "nl": "wandklok",
+      "it": "l'orologio da parete",
+      "es": "el reloj de pared"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕐",
+    "verified": false
+  },
+  {
+    "id": "lex_decke_bett",
+    "am": "ብርድ ልብስ",
+    "tr": "birid libs",
+    "pos": "noun",
+    "topic": "household_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Bettdecke",
+      "en": "blanket",
+      "sv": "täcke",
+      "nl": "deken",
+      "it": "la coperta",
+      "es": "la manta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_besen",
+    "am": "ጥራሪ",
+    "tr": "t'irari",
+    "pos": "noun",
+    "topic": "household_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Besen",
+      "en": "broom",
+      "sv": "kvast",
+      "nl": "bezem",
+      "it": "la scopa",
+      "es": "la escoba"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_eimer",
+    "am": "ባልዲ",
+    "tr": "baldi",
+    "pos": "noun",
+    "topic": "household_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Eimer",
+      "en": "bucket",
+      "sv": "hink",
+      "nl": "emmer",
+      "it": "il secchio",
+      "es": "el cubo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪣",
+    "verified": true
+  },
+  {
+    "id": "lex_kerze",
+    "am": "ሻማ",
+    "tr": "shama",
+    "pos": "noun",
+    "topic": "household_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Kerze",
+      "en": "candle",
+      "sv": "ljus",
+      "nl": "kaars",
+      "it": "la candela",
+      "es": "la vela"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕯️",
+    "verified": true
+  }
+]

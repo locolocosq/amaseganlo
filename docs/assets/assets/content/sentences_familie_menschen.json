@@ -1,0 +1,51 @@
+[
+  {
+    "id": "sen_ine_sew_negn",
+    "am": "እኔ ሰው ነኝ።",
+    "tr": "ine sew negn.",
+    "level": "A1.1",
+    "uses": [
+      "lex_ine",
+      "lex_person"
+    ],
+    "t": {
+      "de": "Ich bin ein Mensch.",
+      "en": "I am a person.",
+      "sv": "Jag är en människa.",
+      "nl": "Ik ben een mens.",
+      "it": "Sono una persona.",
+      "es": "Soy una persona."
+    },
+    "alt": {},
+    "chunks": [
+      "ine",
+      "sew",
+      "negn"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_beteseb_tilik",
+    "am": "ቤተሰቤ ትልቅ ነው።",
+    "tr": "betesebe tilik new.",
+    "level": "A1.1",
+    "uses": [
+      "lex_familie"
+    ],
+    "t": {
+      "de": "Meine Familie ist groß.",
+      "en": "My family is big.",
+      "sv": "Min familj är stor.",
+      "nl": "Mijn familie is groot.",
+      "it": "La mia famiglia è grande.",
+      "es": "Mi familia es grande."
+    },
+    "alt": {},
+    "chunks": [
+      "betesebe",
+      "tilik",
+      "new"
+    ],
+    "verified": false
+  }
+]

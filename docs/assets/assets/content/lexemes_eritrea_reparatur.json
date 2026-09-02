@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_rpr_fix",
+    "am": "ዓረየ",
+    "tr": "'areye",
+    "pos": "verb",
+    "topic": "repair",
+    "level": "TI",
+    "t": {
+      "de": "reparieren",
+      "en": "to repair, fix",
+      "sv": "att reparera",
+      "nl": "repareren",
+      "it": "riparare",
+      "es": "reparar"
+    },
+    "emoji": "🔧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rpr_brkn",
+    "am": "ተሰይሩ",
+    "tr": "teseyiru",
+    "pos": "adjective",
+    "topic": "repair",
+    "level": "TI",
+    "t": {
+      "de": "kaputt, defekt",
+      "en": "broken",
+      "sv": "trasig",
+      "nl": "kapot",
+      "it": "rotto, guasto",
+      "es": "roto, averiado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rpr_work",
+    "am": "ይሰርሕ",
+    "tr": "yiserihi",
+    "pos": "phrase",
+    "topic": "repair",
+    "level": "TI",
+    "t": {
+      "de": "es funktioniert",
+      "en": "it works",
+      "sv": "det fungerar",
+      "nl": "het werkt",
+      "it": "funziona",
+      "es": "funciona"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rpr_srvc",
+    "am": "ኣገልግሎት ዓረርያ",
+    "tr": "agelgilot 'areriya",
+    "pos": "noun",
+    "topic": "repair",
+    "level": "TI",
+    "t": {
+      "de": "der Reparaturdienst",
+      "en": "repair service",
+      "sv": "reparationstjänst",
+      "nl": "reparatiedienst",
+      "it": "il servizio di riparazione",
+      "es": "el servicio de reparación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rpr_wrnty",
+    "am": "ውሕስነት ሕድገት",
+    "tr": "wihisinet hidiget",
+    "pos": "noun",
+    "topic": "repair",
+    "level": "TI",
+    "t": {
+      "de": "die Garantie",
+      "en": "warranty",
+      "sv": "garanti",
+      "nl": "garantie",
+      "it": "la garanzia",
+      "es": "la garantía"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

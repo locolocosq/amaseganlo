@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_eritrea_erinnerung_zukunftsplaene_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_ern_remmbr",
+      "lex_ti_ern_forgt",
+      "lex_ti_ern_mem2",
+      "lex_ti_ern_nostal",
+      "lex_ti_zkp_plan3",
+      "lex_ti_zkp_goal",
+      "lex_ti_zkp_intnd",
+      "lex_ti_zkp_future"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_erinnerung_zukunftsplaene_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_ern_remmbr",
+      "lex_ti_ern_forgt",
+      "lex_ti_ern_mem2",
+      "lex_ti_ern_nostal",
+      "lex_ti_zkp_plan3",
+      "lex_ti_zkp_goal",
+      "lex_ti_zkp_intnd",
+      "lex_ti_zkp_future"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erinnerung_zukunftsplaene_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_ern_remmbr",
+      "lex_ti_ern_forgt",
+      "lex_ti_ern_mem2",
+      "lex_ti_ern_nostal",
+      "lex_ti_zkp_plan3",
+      "lex_ti_zkp_goal",
+      "lex_ti_zkp_intnd",
+      "lex_ti_zkp_future"
+    ],
+    "sentenceIds": [
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_fix_zkp_goal",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erinnerung_zukunftsplaene_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_ern_remmbr",
+      "lex_ti_ern_forgt",
+      "lex_ti_ern_mem2",
+      "lex_ti_ern_nostal",
+      "lex_ti_zkp_plan3",
+      "lex_ti_zkp_goal",
+      "lex_ti_zkp_intnd",
+      "lex_ti_zkp_future"
+    ],
+    "sentenceIds": [
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_fix_zkp_goal",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erinnerung_zukunftsplaene_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_ern_remmbr",
+      "lex_ti_ern_forgt",
+      "lex_ti_ern_mem2",
+      "lex_ti_ern_nostal",
+      "lex_ti_zkp_plan3",
+      "lex_ti_zkp_goal",
+      "lex_ti_zkp_intnd",
+      "lex_ti_zkp_future"
+    ],
+    "sentenceIds": [
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_fix_zkp_goal",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erinnerung_zukunftsplaene_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_ern_remmbr",
+      "lex_ti_ern_forgt",
+      "lex_ti_ern_mem2",
+      "lex_ti_ern_nostal",
+      "lex_ti_zkp_plan3",
+      "lex_ti_zkp_goal",
+      "lex_ti_zkp_intnd",
+      "lex_ti_zkp_future"
+    ],
+    "sentenceIds": [
+      "sen_ti_erinnerung_zukunftsplaene_1",
+      "sen_fix_zkp_goal",
+      "sen_gen_ern_mem2",
+      "sen_gen_ern_nostal",
+      "sen_gen_zkp_plan3"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

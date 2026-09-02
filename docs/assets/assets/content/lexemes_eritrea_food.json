@@ -1,0 +1,190 @@
+[
+  {
+    "id": "lex_ti_mai",
+    "am": "ማይ",
+    "tr": "mai",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "das Wasser",
+      "en": "water",
+      "sv": "vatten",
+      "nl": "water",
+      "it": "l'acqua",
+      "es": "el agua"
+    },
+    "emoji": "💧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bun",
+    "am": "ቡን",
+    "tr": "bun",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "der Kaffee",
+      "en": "coffee",
+      "sv": "kaffe",
+      "nl": "koffie",
+      "it": "il caffè",
+      "es": "el café"
+    },
+    "hint": {
+      "de": "Eritrea teilt die Kaffeekultur mit Äthiopien - das Wort ist eng mit dem amharischen „bunna“ verwandt.",
+      "en": "Eritrea shares its coffee culture with Ethiopia - closely related to the Amharic word \"bunna\".",
+      "sv": "Eritrea delar sin kaffekultur med Etiopien - nära besläktat med det amhariska ordet \"bunna\".",
+      "nl": "Eritrea deelt zijn koffiecultuur met Ethiopië - nauw verwant aan het Amhaarse woord \"bunna\".",
+      "it": "L'Eritrea condivide la cultura del caffè con l'Etiopia - la parola è strettamente legata al termine amarico «bunna».",
+      "es": "Eritrea comparte su cultura del café con Etiopía - está estrechamente relacionada con la palabra amárica «bunna»."
+    },
+    "emoji": "☕",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bani",
+    "am": "ባኒ",
+    "tr": "bani",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "das Brot",
+      "en": "bread",
+      "sv": "bröd",
+      "nl": "brood",
+      "it": "il pane",
+      "es": "el pan"
+    },
+    "emoji": "🍞",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsibhi",
+    "am": "ጽብሒ",
+    "tr": "tsibhi",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "der Eintopf, die Sauce",
+      "en": "stew, sauce",
+      "sv": "gryta, sås",
+      "nl": "stoofpot, saus",
+      "it": "lo stufato, la salsa",
+      "es": "el guiso, la salsa"
+    },
+    "emoji": "🍲",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tseba",
+    "am": "ጸባ",
+    "tr": "tseba",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "die Milch",
+      "en": "milk",
+      "sv": "mjölk",
+      "nl": "melk",
+      "it": "il latte",
+      "es": "la leche"
+    },
+    "emoji": "🥛",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_berbere",
+    "am": "በርበረ",
+    "tr": "berbere",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "die Gewürzmischung",
+      "en": "spice blend",
+      "sv": "kryddblandning",
+      "nl": "kruidenmix",
+      "it": "il mix di spezie",
+      "es": "la mezcla de especias"
+    },
+    "emoji": "🌶️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_siga",
+    "am": "ስጋ",
+    "tr": "siga",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "das Fleisch",
+      "en": "meat",
+      "sv": "kött",
+      "nl": "vlees",
+      "it": "la carne",
+      "es": "la carne"
+    },
+    "emoji": "🍖",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shai",
+    "am": "ሻሂ",
+    "tr": "shai",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "der Tee",
+      "en": "tea",
+      "sv": "te",
+      "nl": "thee",
+      "it": "il tè",
+      "es": "el té"
+    },
+    "emoji": "🍵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mgbi",
+    "am": "ምግቢ",
+    "tr": "mgbi",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "das Essen",
+      "en": "food",
+      "sv": "mat",
+      "nl": "eten",
+      "it": "il cibo",
+      "es": "la comida"
+    },
+    "emoji": "🍽️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_asa",
+    "am": "ኣሳ",
+    "tr": "asa",
+    "pos": "noun",
+    "topic": "food",
+    "level": "TI",
+    "t": {
+      "de": "der Fisch",
+      "en": "fish",
+      "sv": "fisk",
+      "nl": "vis",
+      "it": "il pesce",
+      "es": "el pescado"
+    },
+    "emoji": "🐟",
+    "verified": false
+  }
+]

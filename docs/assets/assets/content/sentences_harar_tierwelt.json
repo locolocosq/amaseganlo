@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sen_ht_jib_masebeb",
+    "am": "ሰዉ ጅቡን ያበላል።",
+    "tr": "sew jibun yabilal.",
+    "level": "B2",
+    "uses": [
+      "lex_ht_jib",
+      "lex_ht_v_masebeb"
+    ],
+    "t": {
+      "de": "Der Mann füttert die Hyäne.",
+      "en": "The man feeds the hyena.",
+      "sv": "Mannen matar hyenan.",
+      "nl": "De man voedert de hyena.",
+      "it": "L'uomo dà da mangiare alla iena.",
+      "es": "El hombre alimenta a la hiena."
+    },
+    "chunks": [
+      "sew",
+      "jibun",
+      "yabilal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ht_jib_fikir",
+    "am": "ጅብ አደገኛ አውሬ ነው።",
+    "tr": "jib adegegna awre newu.",
+    "level": "B2",
+    "uses": [
+      "lex_ht_jib",
+      "lex_ht_adj_fikir",
+      "lex_ht_arwe"
+    ],
+    "t": {
+      "de": "Die Hyäne ist ein gefährliches Wildtier.",
+      "en": "The hyena is a dangerous wild animal.",
+      "sv": "Hyenan är ett farligt vilddjur.",
+      "nl": "De hyena is een gevaarlijk wild dier.",
+      "it": "La iena è un animale selvatico pericoloso.",
+      "es": "La hiena es un animal salvaje peligroso."
+    },
+    "chunks": [
+      "jib",
+      "adegegna",
+      "awre",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ht_zinjero_chaka",
+    "am": "ዝንጀሮ በጫካ ውስጥ ይኖራል።",
+    "tr": "zinijero bechaka wist yinoral.",
+    "level": "B2",
+    "uses": [
+      "lex_ht_zinjero",
+      "lex_ht_adenet"
+    ],
+    "t": {
+      "de": "Der Affe lebt im Wald.",
+      "en": "The monkey lives in the forest.",
+      "sv": "Apan lever i skogen.",
+      "nl": "De aap leeft in het bos.",
+      "it": "La scimmia vive nella foresta.",
+      "es": "El mono vive en el bosque."
+    },
+    "chunks": [
+      "zinijero",
+      "bechaka",
+      "wist",
+      "yinoral"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ht_wof_mefiret",
+    "am": "ወፍ ጅብን ትፈራለች።",
+    "tr": "wef jibin tiferalech.",
+    "level": "B2",
+    "uses": [
+      "lex_ht_wof",
+      "lex_ht_v_mefiret",
+      "lex_ht_jib"
+    ],
+    "t": {
+      "de": "Der Vogel fürchtet die Hyäne.",
+      "en": "The bird fears the hyena.",
+      "sv": "Fågeln fruktar hyenan.",
+      "nl": "De vogel is bang voor de hyena.",
+      "it": "L'uccello ha paura della iena.",
+      "es": "El pájaro le tiene miedo a la hiena."
+    },
+    "chunks": [
+      "wef",
+      "jibin",
+      "tiferalech"
+    ],
+    "verified": false
+  }
+]

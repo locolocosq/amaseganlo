@@ -1,0 +1,14 @@
+[
+  {
+    "id": "f2_l1",
+    "kind": "vowelExplainer",
+    "groupIds": ["ha", "la"],
+    "exerciseTypes": []
+  },
+  {
+    "id": "f2_l2",
+    "kind": "review",
+    "groupIds": ["ha", "la"],
+    "exerciseTypes": ["fidelOrderRecognition", "fidelSoundToChar"]
+  }
+]

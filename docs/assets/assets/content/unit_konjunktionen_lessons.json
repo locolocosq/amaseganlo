@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_konjunktionen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_obwohl",
+      "lex_wenn_falls",
+      "lex_wann_konj",
+      "lex_waehrend",
+      "lex_seit_konj",
+      "lex_deshalb",
+      "lex_ausser_wenn"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_konjunktionen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_obwohl",
+      "lex_wenn_falls",
+      "lex_wann_konj",
+      "lex_waehrend",
+      "lex_seit_konj",
+      "lex_deshalb",
+      "lex_ausser_wenn"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_konjunktionen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_obwohl",
+      "lex_wenn_falls",
+      "lex_wann_konj",
+      "lex_waehrend",
+      "lex_seit_konj",
+      "lex_deshalb",
+      "lex_ausser_wenn"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_konjunktionen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_obwohl",
+      "lex_wenn_falls",
+      "lex_wann_konj",
+      "lex_waehrend",
+      "lex_seit_konj",
+      "lex_deshalb",
+      "lex_ausser_wenn"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_konjunktionen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_obwohl",
+      "lex_wenn_falls",
+      "lex_wann_konj",
+      "lex_waehrend",
+      "lex_seit_konj",
+      "lex_deshalb",
+      "lex_ausser_wenn"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_konjunktionen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_obwohl",
+      "lex_wenn_falls",
+      "lex_wann_konj",
+      "lex_waehrend",
+      "lex_seit_konj",
+      "lex_deshalb",
+      "lex_ausser_wenn"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz_2",
+      "sen_gen_allergie_3",
+      "sen_gen_wunde_3",
+      "sen_gen_verband_3",
+      "sen_gen_spritze_3"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

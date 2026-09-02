@@ -1,0 +1,108 @@
+[
+  {
+    "id": "sen_dehna_negn",
+    "am": "ደህና ነኝ።",
+    "tr": "dehna negn.",
+    "level": "A1.1",
+    "uses": [
+      "lex_dehna"
+    ],
+    "t": {
+      "de": "Mir geht es gut.",
+      "en": "I am fine.",
+      "sv": "Jag mår bra.",
+      "nl": "Het gaat goed met mij.",
+      "it": "Sto bene.",
+      "es": "Estoy bien."
+    },
+    "alt": {
+      "de": [
+        "Es geht mir gut.",
+        "Ich bin wohl."
+      ],
+      "en": [
+        "I'm fine.",
+        "I'm well."
+      ]
+    },
+    "chunks": [
+      "dehna",
+      "negn"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_awo_ameseginalehu",
+    "am": "አዎ፣ አመሰግናለሁ።",
+    "tr": "awo, ameseginalehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_awo",
+      "lex_ameseginalehu"
+    ],
+    "t": {
+      "de": "Ja, danke.",
+      "en": "Yes, thank you.",
+      "sv": "Ja, tack.",
+      "nl": "Ja, dank je.",
+      "it": "Sì, grazie.",
+      "es": "Sí, gracias."
+    },
+    "alt": {},
+    "chunks": [
+      "awo,",
+      "ameseginalehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ine_ityopiawi",
+    "am": "እኔ ኢትዮጵያ ውስጥ ነኝ።",
+    "tr": "ine ityopia wist negn.",
+    "level": "A1.1",
+    "uses": [
+      "lex_ine",
+      "lex_ityopia"
+    ],
+    "t": {
+      "de": "Ich bin in Äthiopien.",
+      "en": "I am in Ethiopia.",
+      "sv": "Jag är i Etiopien.",
+      "nl": "Ik ben in Ethiopië.",
+      "it": "Sono in Etiopia.",
+      "es": "Estoy en Etiopía."
+    },
+    "chunks": [
+      "ine",
+      "ityopia",
+      "wist",
+      "negn"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_issu_dehna",
+    "am": "እሱ ደህና ነው።",
+    "tr": "issu dehna new.",
+    "level": "A1.1",
+    "uses": [
+      "lex_issu",
+      "lex_dehna"
+    ],
+    "t": {
+      "de": "Ihm geht es gut.",
+      "en": "He is fine.",
+      "sv": "Han mår bra.",
+      "nl": "Het gaat goed met hem.",
+      "it": "Lui sta bene.",
+      "es": "Él está bien."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "dehna",
+      "new"
+    ],
+    "verified": false
+  }
+]

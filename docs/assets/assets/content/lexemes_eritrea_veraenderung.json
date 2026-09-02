@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_vrd_change2",
+    "am": "ቀየረ",
+    "tr": "qeyere",
+    "pos": "verb",
+    "topic": "change",
+    "level": "TI",
+    "t": {
+      "de": "ändern, verändern",
+      "en": "to change",
+      "sv": "att ändra",
+      "nl": "veranderen",
+      "it": "cambiare",
+      "es": "cambiar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrd_grow2",
+    "am": "ወሰኸ",
+    "tr": "weseke",
+    "pos": "verb",
+    "topic": "change",
+    "level": "TI",
+    "t": {
+      "de": "zunehmen, wachsen",
+      "en": "to increase, grow",
+      "sv": "att öka, växa",
+      "nl": "toenemen, groeien",
+      "it": "aumentare, crescere",
+      "es": "aumentar, crecer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrd_decrs",
+    "am": "ነከየ",
+    "tr": "nekeye",
+    "pos": "verb",
+    "topic": "change",
+    "level": "TI",
+    "t": {
+      "de": "abnehmen, verringern",
+      "en": "to decrease",
+      "sv": "att minska",
+      "nl": "afnemen, verminderen",
+      "it": "diminuire",
+      "es": "disminuir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrd_stop2",
+    "am": "ደው ኣበለ",
+    "tr": "dewi abele",
+    "pos": "verb",
+    "topic": "change",
+    "level": "TI",
+    "t": {
+      "de": "anhalten, stoppen",
+      "en": "to stop",
+      "sv": "att stanna, stoppa",
+      "nl": "stoppen",
+      "it": "fermarsi, fermare",
+      "es": "detenerse, parar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vrd_cntnu",
+    "am": "ቀጸለ",
+    "tr": "qetsele",
+    "pos": "verb",
+    "topic": "change",
+    "level": "TI",
+    "t": {
+      "de": "fortsetzen, weitermachen",
+      "en": "to continue",
+      "sv": "att fortsätta",
+      "nl": "doorgaan",
+      "it": "continuare",
+      "es": "continuar"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

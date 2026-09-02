@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_gsn_wtr",
+    "am": "ኣገልጋሊ",
+    "tr": "agelgali",
+    "pos": "noun",
+    "topic": "gastronomy",
+    "level": "TI",
+    "t": {
+      "de": "der Kellner",
+      "en": "waiter",
+      "sv": "servitör",
+      "nl": "ober",
+      "it": "il cameriere",
+      "es": "el camarero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gsn_chef",
+    "am": "ሸፍ",
+    "tr": "shef",
+    "pos": "noun",
+    "topic": "gastronomy",
+    "level": "TI",
+    "t": {
+      "de": "der Küchenchef",
+      "en": "head chef",
+      "sv": "kökschef",
+      "nl": "chef-kok",
+      "it": "lo chef",
+      "es": "el chef"
+    },
+    "emoji": "👨‍🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gsn_menu",
+    "am": "ዝርዝር ምግቢ",
+    "tr": "ziritzir migbi",
+    "pos": "noun",
+    "topic": "gastronomy",
+    "level": "TI",
+    "t": {
+      "de": "die Speisekarte",
+      "en": "menu",
+      "sv": "meny",
+      "nl": "menukaart",
+      "it": "il menù",
+      "es": "el menú"
+    },
+    "emoji": "📋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gsn_rsrv",
+    "am": "ቦታ ሓዘ",
+    "tr": "bota haze",
+    "pos": "verb",
+    "topic": "gastronomy",
+    "level": "TI",
+    "t": {
+      "de": "reservieren",
+      "en": "to reserve",
+      "sv": "att reservera",
+      "nl": "reserveren",
+      "it": "prenotare",
+      "es": "reservar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gsn_bill",
+    "am": "ቢል",
+    "tr": "bili",
+    "pos": "noun",
+    "topic": "gastronomy",
+    "level": "TI",
+    "t": {
+      "de": "die Rechnung",
+      "en": "bill, check",
+      "sv": "nota",
+      "nl": "rekening",
+      "it": "il conto",
+      "es": "la cuenta"
+    },
+    "emoji": "🧾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gsn_tip",
+    "am": "ጉርሻ",
+    "tr": "gurisha",
+    "pos": "noun",
+    "topic": "gastronomy",
+    "level": "TI",
+    "t": {
+      "de": "das Trinkgeld",
+      "en": "tip",
+      "sv": "dricks",
+      "nl": "fooi",
+      "it": "la mancia",
+      "es": "la propina"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hzm_kilogram",
+    "am": "ኪሎግራም",
+    "tr": "kilogiram",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "das Kilogramm",
+      "en": "kilogram",
+      "sv": "kilogram",
+      "nl": "kilogram",
+      "it": "il chilogrammo",
+      "es": "el kilogramo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_kilo",
+    "am": "ኪሎ",
+    "tr": "kilo",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "das Kilo",
+      "en": "kilo",
+      "sv": "kilo",
+      "nl": "kilo",
+      "it": "il chilo",
+      "es": "el kilo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_litr",
+    "am": "ሊትር",
+    "tr": "litir",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "der Liter",
+      "en": "liter",
+      "sv": "liter",
+      "nl": "liter",
+      "it": "il litro",
+      "es": "el litro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_metr",
+    "am": "ሜትር",
+    "tr": "metir",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "der Meter",
+      "en": "meter",
+      "sv": "meter",
+      "nl": "meter",
+      "it": "il metro",
+      "es": "el metro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_kutir2",
+    "am": "ብዛት",
+    "tr": "bizat",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "die Menge, Anzahl",
+      "en": "quantity, amount",
+      "sv": "mängd, antal",
+      "nl": "hoeveelheid, aantal",
+      "it": "la quantità",
+      "es": "la cantidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_kefil4",
+    "am": "እኩል",
+    "tr": "ikul",
+    "pos": "adjective",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "gleich, halb",
+      "en": "equal, half",
+      "sv": "lika, hälften",
+      "nl": "gelijk, half",
+      "it": "uguale, metà",
+      "es": "igual, mitad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_kub",
+    "am": "ኪዩብ",
+    "tr": "kiyub",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "der Kubikmeter",
+      "en": "cubic meter",
+      "sv": "kubikmeter",
+      "nl": "kubieke meter",
+      "it": "il metro cubo",
+      "es": "el metro cúbico"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hzm_wagat",
+    "am": "ዋጋ",
+    "tr": "waga",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "der Preis",
+      "en": "price",
+      "sv": "pris",
+      "nl": "prijs",
+      "it": "il prezzo",
+      "es": "el precio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_v_mewesen",
+    "am": "መመዘን",
+    "tr": "memezen",
+    "pos": "verb",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "wiegen, abmessen",
+      "en": "to weigh, to measure",
+      "sv": "väga, mäta",
+      "nl": "wegen, meten",
+      "it": "pesare, misurare",
+      "es": "pesar, medir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_mizan",
+    "am": "ሚዛን",
+    "tr": "mizan",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "die Waage",
+      "en": "scale, balance",
+      "sv": "våg",
+      "nl": "weegschaal",
+      "it": "la bilancia",
+      "es": "la balanza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_biliyon",
+    "am": "ሺህ",
+    "tr": "shih",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "das Tausend",
+      "en": "thousand",
+      "sv": "tusen",
+      "nl": "duizend",
+      "it": "mille",
+      "es": "mil"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_meto",
+    "am": "ሚሊዮን",
+    "tr": "milion",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "die Million",
+      "en": "million",
+      "sv": "miljon",
+      "nl": "miljoen",
+      "it": "il milione",
+      "es": "el millón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_v_mekefel2",
+    "am": "ማካፈል",
+    "tr": "makafel",
+    "pos": "verb",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "teilen, aufteilen",
+      "en": "to divide, to distribute",
+      "sv": "dela, fördela",
+      "nl": "verdelen",
+      "it": "dividere, distribuire",
+      "es": "dividir, distribuir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_v_mejemer",
+    "am": "ማካፈል መደመር",
+    "tr": "medemer",
+    "pos": "verb",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "addieren, hinzufügen",
+      "en": "to add",
+      "sv": "addera, lägga till",
+      "nl": "optellen, toevoegen",
+      "it": "addizionare, aggiungere",
+      "es": "sumar, añadir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hzm_v_meknos",
+    "am": "መቀነስ",
+    "tr": "mek'enes",
+    "pos": "verb",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "subtrahieren, abziehen",
+      "en": "to subtract",
+      "sv": "subtrahera",
+      "nl": "aftrekken",
+      "it": "sottrarre",
+      "es": "restar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_isir",
+    "am": "ፐርሰንት",
+    "tr": "perisenit",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "das Prozent",
+      "en": "percent",
+      "sv": "procent",
+      "nl": "procent",
+      "it": "il percento",
+      "es": "el porciento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_zed",
+    "am": "ግማሽ",
+    "tr": "gimash",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "die Hälfte",
+      "en": "half",
+      "sv": "hälft",
+      "nl": "helft",
+      "it": "la metà",
+      "es": "la mitad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_ruk",
+    "am": "ሩብ",
+    "tr": "rub",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "das Viertel",
+      "en": "quarter",
+      "sv": "fjärdedel",
+      "nl": "kwart",
+      "it": "il quarto",
+      "es": "el cuarto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_dizen",
+    "am": "ደርዘን",
+    "tr": "derizen",
+    "pos": "noun",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "das Dutzend",
+      "en": "dozen",
+      "sv": "dussin",
+      "nl": "dozijn",
+      "it": "la dozzina",
+      "es": "la docena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hzm_v_meshoot",
+    "am": "መደራደር ዋጋ",
+    "tr": "mederader waga",
+    "pos": "verb",
+    "topic": "quantities_trade",
+    "level": "B2",
+    "t": {
+      "de": "über den Preis verhandeln",
+      "en": "to negotiate a price, to haggle",
+      "sv": "pruta",
+      "nl": "onderhandelen over prijs",
+      "it": "contrattare il prezzo",
+      "es": "negociar el precio, regatear"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

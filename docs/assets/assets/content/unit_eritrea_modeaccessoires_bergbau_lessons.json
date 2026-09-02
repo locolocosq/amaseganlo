@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_modeaccessoires_bergbau_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_mda_sngl",
+      "lex_ti_mda_wllt",
+      "lex_ti_mda_umbrl2",
+      "lex_ti_mda_brclt",
+      "lex_ti_mda_erng",
+      "lex_ti_brg_mine",
+      "lex_ti_brg_minr",
+      "lex_ti_brg_dig2",
+      "lex_ti_brg_extr",
+      "lex_ti_brg_tunl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_modeaccessoires_bergbau_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_mda_sngl",
+      "lex_ti_mda_wllt",
+      "lex_ti_mda_umbrl2",
+      "lex_ti_mda_brclt",
+      "lex_ti_mda_erng",
+      "lex_ti_brg_mine",
+      "lex_ti_brg_minr",
+      "lex_ti_brg_dig2",
+      "lex_ti_brg_extr",
+      "lex_ti_brg_tunl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_modeaccessoires_bergbau_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_mda_sngl",
+      "lex_ti_mda_wllt",
+      "lex_ti_mda_umbrl2",
+      "lex_ti_mda_brclt",
+      "lex_ti_mda_erng",
+      "lex_ti_brg_mine",
+      "lex_ti_brg_minr",
+      "lex_ti_brg_dig2",
+      "lex_ti_brg_extr",
+      "lex_ti_brg_tunl"
+    ],
+    "sentenceIds": [
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_modeaccessoires_bergbau_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_mda_sngl",
+      "lex_ti_mda_wllt",
+      "lex_ti_mda_umbrl2",
+      "lex_ti_mda_brclt",
+      "lex_ti_mda_erng",
+      "lex_ti_brg_mine",
+      "lex_ti_brg_minr",
+      "lex_ti_brg_dig2",
+      "lex_ti_brg_extr",
+      "lex_ti_brg_tunl"
+    ],
+    "sentenceIds": [
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_modeaccessoires_bergbau_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_mda_sngl",
+      "lex_ti_mda_wllt",
+      "lex_ti_mda_umbrl2",
+      "lex_ti_mda_brclt",
+      "lex_ti_mda_erng",
+      "lex_ti_brg_mine",
+      "lex_ti_brg_minr",
+      "lex_ti_brg_dig2",
+      "lex_ti_brg_extr",
+      "lex_ti_brg_tunl"
+    ],
+    "sentenceIds": [
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_modeaccessoires_bergbau_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_mda_sngl",
+      "lex_ti_mda_wllt",
+      "lex_ti_mda_umbrl2",
+      "lex_ti_mda_brclt",
+      "lex_ti_mda_erng",
+      "lex_ti_brg_mine",
+      "lex_ti_brg_minr",
+      "lex_ti_brg_dig2",
+      "lex_ti_brg_extr",
+      "lex_ti_brg_tunl"
+    ],
+    "sentenceIds": [
+      "sen_ti_modeaccessoires_bergbau_1",
+      "sen_gen_mda_wllt",
+      "sen_gen_mda_umbrl2",
+      "sen_gen_mda_brclt",
+      "sen_gen_mda_erng"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

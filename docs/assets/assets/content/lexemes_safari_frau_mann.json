@@ -1,0 +1,82 @@
+[
+  {
+    "id": "lex_copula_new",
+    "am": "ነው",
+    "tr": "new",
+    "pos": "particle",
+    "topic": "gender_grammar",
+    "level": "B2",
+    "t": {
+      "de": "ist (er/es - männlich oder allgemein)",
+      "en": "is (he/it - masculine or generic)",
+      "sv": "är (han/det - maskulinum eller generiskt)",
+      "nl": "is (hij/het - mannelijk of algemeen)",
+      "it": "è (lui/esso - maschile o generico)",
+      "es": "es (él/ello - masculino o genérico)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_copula_nat",
+    "am": "ናት",
+    "tr": "nat",
+    "pos": "particle",
+    "topic": "gender_grammar",
+    "level": "B2",
+    "t": {
+      "de": "ist (sie - weiblich)",
+      "en": "is (she - feminine)",
+      "sv": "är (hon - feminimum)",
+      "nl": "is (zij - vrouwelijk)",
+      "it": "è (lei - femminile)",
+      "es": "es (ella - femenino)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_copula_neh",
+    "am": "ነህ",
+    "tr": "neh",
+    "pos": "particle",
+    "topic": "gender_grammar",
+    "level": "B2",
+    "t": {
+      "de": "bist (du - männlich)",
+      "en": "are (you - masculine)",
+      "sv": "är (du - maskulinum)",
+      "nl": "ben (jij - mannelijk)",
+      "it": "sei (tu - maschile)",
+      "es": "eres (tú - masculino)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_copula_nesh",
+    "am": "ነሽ",
+    "tr": "nesh",
+    "pos": "particle",
+    "topic": "gender_grammar",
+    "level": "B2",
+    "t": {
+      "de": "bist (du - weiblich)",
+      "en": "are (you - feminine)",
+      "sv": "är (du - femininum)",
+      "nl": "ben (jij - vrouwelijk)",
+      "it": "sei (tu - femminile)",
+      "es": "eres (tú - femenino)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

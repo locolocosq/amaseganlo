@@ -1,0 +1,362 @@
+[
+  {
+    "id": "lex_zahl_30",
+    "am": "ሰላሳ",
+    "tr": "selasa",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "30",
+      "en": "30",
+      "sv": "30",
+      "nl": "30",
+      "it": "30",
+      "es": "30"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_40",
+    "am": "አርባ",
+    "tr": "arba",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "40",
+      "en": "40",
+      "sv": "40",
+      "nl": "40",
+      "it": "40",
+      "es": "40"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_50",
+    "am": "ሃምሳ",
+    "tr": "hamsa",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "50",
+      "en": "50",
+      "sv": "50",
+      "nl": "50",
+      "it": "50",
+      "es": "50"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_60",
+    "am": "ስድሳ",
+    "tr": "sidsa",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "60",
+      "en": "60",
+      "sv": "60",
+      "nl": "60",
+      "it": "60",
+      "es": "60"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_70",
+    "am": "ሰባ",
+    "tr": "seba",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "70",
+      "en": "70",
+      "sv": "70",
+      "nl": "70",
+      "it": "70",
+      "es": "70"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_80",
+    "am": "ሰማንያ",
+    "tr": "semania",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "80",
+      "en": "80",
+      "sv": "80",
+      "nl": "80",
+      "it": "80",
+      "es": "80"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_90",
+    "am": "ዘጠና",
+    "tr": "zetena",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "90",
+      "en": "90",
+      "sv": "90",
+      "nl": "90",
+      "it": "90",
+      "es": "90"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_100",
+    "am": "መቶ",
+    "tr": "meto",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "100",
+      "en": "100",
+      "sv": "100",
+      "nl": "100",
+      "it": "100",
+      "es": "100"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_1000",
+    "am": "ሺ",
+    "tr": "shi",
+    "pos": "number",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "1000",
+      "en": "1000",
+      "sv": "1000",
+      "nl": "1000",
+      "it": "1000",
+      "es": "1000"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geld",
+    "am": "ገንዘብ",
+    "tr": "genzeb",
+    "pos": "noun",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "das Geld",
+      "en": "money",
+      "sv": "pengar",
+      "nl": "geld",
+      "it": "il denaro",
+      "es": "el dinero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💰",
+    "verified": true
+  },
+  {
+    "id": "lex_preis",
+    "am": "ዋጋ",
+    "tr": "waga",
+    "pos": "noun",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "der Preis",
+      "en": "price",
+      "sv": "pris",
+      "nl": "prijs",
+      "it": "il prezzo",
+      "es": "el precio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_teuer",
+    "am": "ውድ",
+    "tr": "wid",
+    "pos": "adjective",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "teuer",
+      "en": "expensive",
+      "sv": "dyr",
+      "nl": "duur",
+      "it": "caro",
+      "es": "caro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_billig",
+    "am": "ርካሽ",
+    "tr": "rikash",
+    "pos": "adjective",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "billig",
+      "en": "cheap",
+      "sv": "billig",
+      "nl": "goedkoop",
+      "it": "economico",
+      "es": "barato"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kaufen",
+    "am": "መግዛት",
+    "tr": "megzat",
+    "pos": "verb",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "kaufen",
+      "en": "to buy",
+      "sv": "köpa",
+      "nl": "kopen",
+      "it": "comprare",
+      "es": "comprar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_verkaufen",
+    "am": "መሸጥ",
+    "tr": "meshet'",
+    "pos": "verb",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "verkaufen",
+      "en": "to sell",
+      "sv": "sälja",
+      "nl": "verkopen",
+      "it": "vendere",
+      "es": "vender"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_markt",
+    "am": "ገበያ",
+    "tr": "gebeya",
+    "pos": "noun",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "der Markt",
+      "en": "market",
+      "sv": "marknad",
+      "nl": "markt",
+      "it": "il mercato",
+      "es": "el mercado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🛒",
+    "verified": true
+  },
+  {
+    "id": "lex_laden",
+    "am": "ሱቅ",
+    "tr": "suk",
+    "pos": "noun",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "der Laden, das Geschäft",
+      "en": "shop, store",
+      "sv": "affär",
+      "nl": "winkel",
+      "it": "il negozio",
+      "es": "la tienda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏪",
+    "verified": true
+  },
+  {
+    "id": "lex_wieviel_kostet",
+    "am": "ስንት ነው?",
+    "tr": "sint new?",
+    "pos": "phrase",
+    "topic": "numbers_shopping",
+    "level": "A1.2",
+    "t": {
+      "de": "Wie viel kostet das?",
+      "en": "How much is it?",
+      "sv": "Hur mycket kostar det?",
+      "nl": "Hoeveel kost het?",
+      "it": "Quanto costa?",
+      "es": "¿Cuánto cuesta?"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

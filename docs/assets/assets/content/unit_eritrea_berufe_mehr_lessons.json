@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_berufe_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_brf2_pilot",
+      "lex_ti_brf2_ingnr",
+      "lex_ti_brf2_arkte",
+      "lex_ti_brf2_farms",
+      "lex_ti_brf2_vetrn",
+      "lex_ti_brf2_eletr",
+      "lex_ti_brf2_plmbr",
+      "lex_ti_brf2_jrnlst",
+      "lex_ti_brf2_trnsl",
+      "lex_ti_brf2_fotog"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_berufe_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_brf2_pilot",
+      "lex_ti_brf2_ingnr",
+      "lex_ti_brf2_arkte",
+      "lex_ti_brf2_farms",
+      "lex_ti_brf2_vetrn",
+      "lex_ti_brf2_eletr",
+      "lex_ti_brf2_plmbr",
+      "lex_ti_brf2_jrnlst",
+      "lex_ti_brf2_trnsl",
+      "lex_ti_brf2_fotog"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_berufe_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_brf2_pilot",
+      "lex_ti_brf2_ingnr",
+      "lex_ti_brf2_arkte",
+      "lex_ti_brf2_farms",
+      "lex_ti_brf2_vetrn",
+      "lex_ti_brf2_eletr",
+      "lex_ti_brf2_plmbr",
+      "lex_ti_brf2_jrnlst",
+      "lex_ti_brf2_trnsl",
+      "lex_ti_brf2_fotog"
+    ],
+    "sentenceIds": [
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_berufe_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_brf2_pilot",
+      "lex_ti_brf2_ingnr",
+      "lex_ti_brf2_arkte",
+      "lex_ti_brf2_farms",
+      "lex_ti_brf2_vetrn",
+      "lex_ti_brf2_eletr",
+      "lex_ti_brf2_plmbr",
+      "lex_ti_brf2_jrnlst",
+      "lex_ti_brf2_trnsl",
+      "lex_ti_brf2_fotog"
+    ],
+    "sentenceIds": [
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_berufe_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_brf2_pilot",
+      "lex_ti_brf2_ingnr",
+      "lex_ti_brf2_arkte",
+      "lex_ti_brf2_farms",
+      "lex_ti_brf2_vetrn",
+      "lex_ti_brf2_eletr",
+      "lex_ti_brf2_plmbr",
+      "lex_ti_brf2_jrnlst",
+      "lex_ti_brf2_trnsl",
+      "lex_ti_brf2_fotog"
+    ],
+    "sentenceIds": [
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_berufe_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_brf2_pilot",
+      "lex_ti_brf2_ingnr",
+      "lex_ti_brf2_arkte",
+      "lex_ti_brf2_farms",
+      "lex_ti_brf2_vetrn",
+      "lex_ti_brf2_eletr",
+      "lex_ti_brf2_plmbr",
+      "lex_ti_brf2_jrnlst",
+      "lex_ti_brf2_trnsl",
+      "lex_ti_brf2_fotog"
+    ],
+    "sentenceIds": [
+      "sen_ti_berufe_mehr_1",
+      "sen_gen_brf2_ingnr",
+      "sen_gen_brf2_arkte",
+      "sen_gen_brf2_farms",
+      "sen_gen_brf2_vetrn"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

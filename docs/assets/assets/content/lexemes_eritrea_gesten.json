@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_gst2_wave",
+    "am": "ኢዱ ወዘወዘ",
+    "tr": "'idu wezeweze",
+    "pos": "verb",
+    "topic": "gestures",
+    "level": "TI",
+    "t": {
+      "de": "winken",
+      "en": "to wave",
+      "sv": "att vinka",
+      "nl": "zwaaien",
+      "it": "salutare con la mano",
+      "es": "saludar con la mano"
+    },
+    "emoji": "👋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gst2_nod",
+    "am": "ርእሱ ነቕነቐ",
+    "tr": "ri'isu neqineqe",
+    "pos": "verb",
+    "topic": "gestures",
+    "level": "TI",
+    "t": {
+      "de": "nicken",
+      "en": "to nod",
+      "sv": "att nicka",
+      "nl": "knikken",
+      "it": "annuire",
+      "es": "asentir con la cabeza"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gst2_shake",
+    "am": "ኢድ ተጣበቐ",
+    "tr": "'idi tet'abeqe",
+    "pos": "verb",
+    "topic": "gestures",
+    "level": "TI",
+    "t": {
+      "de": "die Hand schütteln",
+      "en": "to shake hands",
+      "sv": "att skaka hand",
+      "nl": "handen schudden",
+      "it": "stringere la mano",
+      "es": "estrechar la mano"
+    },
+    "emoji": "🤝",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gst2_pnt",
+    "am": "ኣመልከተ (ብኢድ)",
+    "tr": "amelkete bi'idi",
+    "pos": "verb",
+    "topic": "gestures",
+    "level": "TI",
+    "t": {
+      "de": "zeigen (mit dem Finger)",
+      "en": "to point",
+      "sv": "att peka",
+      "nl": "wijzen",
+      "it": "indicare (con il dito)",
+      "es": "señalar (con el dedo)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gst2_hug",
+    "am": "ሓቖፈ",
+    "tr": "haqofe",
+    "pos": "verb",
+    "topic": "gestures",
+    "level": "TI",
+    "t": {
+      "de": "umarmen",
+      "en": "to hug",
+      "sv": "att krama",
+      "nl": "omhelzen",
+      "it": "abbracciare",
+      "es": "abrazar"
+    },
+    "emoji": "🤗",
+    "verified": false
+  }
+]

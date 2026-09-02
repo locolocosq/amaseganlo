@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_harar_geschichte_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_tewifit",
+      "lex_kirs",
+      "lex_maninet",
+      "lex_kidime_ayat",
+      "lex_zemen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_geschichte_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_tewifit",
+      "lex_kirs",
+      "lex_maninet",
+      "lex_kidime_ayat",
+      "lex_zemen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_geschichte_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_tewifit",
+      "lex_kirs",
+      "lex_maninet",
+      "lex_kidime_ayat",
+      "lex_zemen"
+    ],
+    "sentenceIds": [
+      "sen_tewifit_kirs",
+      "sen_maninet_asfelagi",
+      "sen_kidime_ayat_maninet",
+      "sen_zemen_addis",
+      "sen_kirs_maninet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_geschichte_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_tewifit",
+      "lex_kirs",
+      "lex_maninet",
+      "lex_kidime_ayat",
+      "lex_zemen"
+    ],
+    "sentenceIds": [
+      "sen_tewifit_kirs",
+      "sen_maninet_asfelagi",
+      "sen_kidime_ayat_maninet",
+      "sen_zemen_addis",
+      "sen_kirs_maninet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_geschichte_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_tewifit",
+      "lex_kirs",
+      "lex_maninet",
+      "lex_kidime_ayat",
+      "lex_zemen"
+    ],
+    "sentenceIds": [
+      "sen_tewifit_kirs",
+      "sen_maninet_asfelagi",
+      "sen_kidime_ayat_maninet",
+      "sen_zemen_addis",
+      "sen_kirs_maninet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_geschichte_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_tewifit",
+      "lex_kirs",
+      "lex_maninet",
+      "lex_kidime_ayat",
+      "lex_zemen"
+    ],
+    "sentenceIds": [
+      "sen_tewifit_kirs",
+      "sen_maninet_asfelagi",
+      "sen_kidime_ayat_maninet",
+      "sen_zemen_addis",
+      "sen_kirs_maninet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

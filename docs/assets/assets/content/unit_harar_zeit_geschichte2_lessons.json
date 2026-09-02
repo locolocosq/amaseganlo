@@ -1,0 +1,218 @@
+[
+  {
+    "id": "unit_harar_zeit_geschichte2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hzg_zemen2",
+      "lex_hzg_kidmawi",
+      "lex_hzg_neguse_negest",
+      "lex_hzg_nigist",
+      "lex_hzg_v_megezat",
+      "lex_hzg_mekera_hager",
+      "lex_hzg_netsanet",
+      "lex_hzg_tigil",
+      "lex_hzg_werera",
+      "lex_hzg_dil",
+      "lex_hzg_werk",
+      "lex_hzg_selam2",
+      "lex_hzg_zemen_tarik",
+      "lex_hzg_bealiwi",
+      "lex_hzg_v_mastawesat",
+      "lex_hzg_mastawesha",
+      "lex_hzg_amet_mebacha",
+      "lex_hzg_kefeleZemen",
+      "lex_hzg_v_mememerat",
+      "lex_hzg_mesarach",
+      "lex_hzg_adj_kedamo"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_zeit_geschichte2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hzg_zemen2",
+      "lex_hzg_kidmawi",
+      "lex_hzg_neguse_negest",
+      "lex_hzg_nigist",
+      "lex_hzg_v_megezat",
+      "lex_hzg_mekera_hager",
+      "lex_hzg_netsanet",
+      "lex_hzg_tigil",
+      "lex_hzg_werera",
+      "lex_hzg_dil",
+      "lex_hzg_werk",
+      "lex_hzg_selam2",
+      "lex_hzg_zemen_tarik",
+      "lex_hzg_bealiwi",
+      "lex_hzg_v_mastawesat",
+      "lex_hzg_mastawesha",
+      "lex_hzg_amet_mebacha",
+      "lex_hzg_kefeleZemen",
+      "lex_hzg_v_mememerat",
+      "lex_hzg_mesarach",
+      "lex_hzg_adj_kedamo"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_zeit_geschichte2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hzg_zemen2",
+      "lex_hzg_kidmawi",
+      "lex_hzg_neguse_negest",
+      "lex_hzg_nigist",
+      "lex_hzg_v_megezat",
+      "lex_hzg_mekera_hager",
+      "lex_hzg_netsanet",
+      "lex_hzg_tigil",
+      "lex_hzg_werera",
+      "lex_hzg_dil",
+      "lex_hzg_werk",
+      "lex_hzg_selam2",
+      "lex_hzg_zemen_tarik",
+      "lex_hzg_bealiwi",
+      "lex_hzg_v_mastawesat",
+      "lex_hzg_mastawesha",
+      "lex_hzg_amet_mebacha",
+      "lex_hzg_kefeleZemen",
+      "lex_hzg_v_mememerat",
+      "lex_hzg_mesarach",
+      "lex_hzg_adj_kedamo"
+    ],
+    "sentenceIds": [
+      "sen_hzg_nigus_megezat",
+      "sen_hzg_netsanet_dil",
+      "sen_hzg_werk_selam2",
+      "sen_hzg_mastawesha_kefeleZemen",
+      "sen_gen_hzg_zemen2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_zeit_geschichte2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hzg_zemen2",
+      "lex_hzg_kidmawi",
+      "lex_hzg_neguse_negest",
+      "lex_hzg_nigist",
+      "lex_hzg_v_megezat",
+      "lex_hzg_mekera_hager",
+      "lex_hzg_netsanet",
+      "lex_hzg_tigil",
+      "lex_hzg_werera",
+      "lex_hzg_dil",
+      "lex_hzg_werk",
+      "lex_hzg_selam2",
+      "lex_hzg_zemen_tarik",
+      "lex_hzg_bealiwi",
+      "lex_hzg_v_mastawesat",
+      "lex_hzg_mastawesha",
+      "lex_hzg_amet_mebacha",
+      "lex_hzg_kefeleZemen",
+      "lex_hzg_v_mememerat",
+      "lex_hzg_mesarach",
+      "lex_hzg_adj_kedamo"
+    ],
+    "sentenceIds": [
+      "sen_hzg_nigus_megezat",
+      "sen_hzg_netsanet_dil",
+      "sen_hzg_werk_selam2",
+      "sen_hzg_mastawesha_kefeleZemen",
+      "sen_gen_hzg_zemen2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_zeit_geschichte2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hzg_zemen2",
+      "lex_hzg_kidmawi",
+      "lex_hzg_neguse_negest",
+      "lex_hzg_nigist",
+      "lex_hzg_v_megezat",
+      "lex_hzg_mekera_hager",
+      "lex_hzg_netsanet",
+      "lex_hzg_tigil",
+      "lex_hzg_werera",
+      "lex_hzg_dil",
+      "lex_hzg_werk",
+      "lex_hzg_selam2",
+      "lex_hzg_zemen_tarik",
+      "lex_hzg_bealiwi",
+      "lex_hzg_v_mastawesat",
+      "lex_hzg_mastawesha",
+      "lex_hzg_amet_mebacha",
+      "lex_hzg_kefeleZemen",
+      "lex_hzg_v_mememerat",
+      "lex_hzg_mesarach",
+      "lex_hzg_adj_kedamo"
+    ],
+    "sentenceIds": [
+      "sen_hzg_nigus_megezat",
+      "sen_hzg_netsanet_dil",
+      "sen_hzg_werk_selam2",
+      "sen_hzg_mastawesha_kefeleZemen",
+      "sen_gen_hzg_zemen2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_zeit_geschichte2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hzg_zemen2",
+      "lex_hzg_kidmawi",
+      "lex_hzg_neguse_negest",
+      "lex_hzg_nigist",
+      "lex_hzg_v_megezat",
+      "lex_hzg_mekera_hager",
+      "lex_hzg_netsanet",
+      "lex_hzg_tigil",
+      "lex_hzg_werera",
+      "lex_hzg_dil",
+      "lex_hzg_werk",
+      "lex_hzg_selam2",
+      "lex_hzg_zemen_tarik",
+      "lex_hzg_bealiwi",
+      "lex_hzg_v_mastawesat",
+      "lex_hzg_mastawesha",
+      "lex_hzg_amet_mebacha",
+      "lex_hzg_kefeleZemen",
+      "lex_hzg_v_mememerat",
+      "lex_hzg_mesarach",
+      "lex_hzg_adj_kedamo"
+    ],
+    "sentenceIds": [
+      "sen_hzg_nigus_megezat",
+      "sen_hzg_netsanet_dil",
+      "sen_hzg_werk_selam2",
+      "sen_hzg_mastawesha_kefeleZemen",
+      "sen_gen_hzg_zemen2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

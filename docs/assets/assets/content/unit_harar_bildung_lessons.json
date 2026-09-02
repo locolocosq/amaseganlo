@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_harar_bildung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_digiri",
+      "lex_temeraki",
+      "lex_skolarship",
+      "lex_sirate_timihirt",
+      "lex_v_memerek"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_bildung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_digiri",
+      "lex_temeraki",
+      "lex_skolarship",
+      "lex_sirate_timihirt",
+      "lex_v_memerek"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_digiri",
+      "lex_temeraki",
+      "lex_skolarship",
+      "lex_sirate_timihirt",
+      "lex_v_memerek"
+    ],
+    "sentenceIds": [
+      "sen_temeraki_digiri",
+      "sen_skolarship_temariwoch",
+      "sen_sirate_timihirt_tiru",
+      "sen_temari_memerek",
+      "sen_digiri_sirate_timihirt"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_digiri",
+      "lex_temeraki",
+      "lex_skolarship",
+      "lex_sirate_timihirt",
+      "lex_v_memerek"
+    ],
+    "sentenceIds": [
+      "sen_temeraki_digiri",
+      "sen_skolarship_temariwoch",
+      "sen_sirate_timihirt_tiru",
+      "sen_temari_memerek",
+      "sen_digiri_sirate_timihirt"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_digiri",
+      "lex_temeraki",
+      "lex_skolarship",
+      "lex_sirate_timihirt",
+      "lex_v_memerek"
+    ],
+    "sentenceIds": [
+      "sen_temeraki_digiri",
+      "sen_skolarship_temariwoch",
+      "sen_sirate_timihirt_tiru",
+      "sen_temari_memerek",
+      "sen_digiri_sirate_timihirt"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_digiri",
+      "lex_temeraki",
+      "lex_skolarship",
+      "lex_sirate_timihirt",
+      "lex_v_memerek"
+    ],
+    "sentenceIds": [
+      "sen_temeraki_digiri",
+      "sen_skolarship_temariwoch",
+      "sen_sirate_timihirt_tiru",
+      "sen_temari_memerek",
+      "sen_digiri_sirate_timihirt"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

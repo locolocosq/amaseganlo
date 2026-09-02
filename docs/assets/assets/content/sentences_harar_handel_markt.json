@@ -1,0 +1,109 @@
+[
+  {
+    "id": "sen_hha_negade_iqa",
+    "am": "ነጋዴው ለገዢው ዕቃ ሸጠ።",
+    "tr": "negadew legezayw ik'a shet'e.",
+    "level": "B2",
+    "uses": [
+      "lex_hha_neigade",
+      "lex_hha_gezay",
+      "lex_hha_iqa"
+    ],
+    "t": {
+      "de": "Der Händler verkaufte dem Käufer Waren.",
+      "en": "The merchant sold goods to the buyer.",
+      "sv": "Handlaren sålde varor till köparen.",
+      "nl": "De handelaar verkocht goederen aan de koper.",
+      "it": "Il commerciante ha venduto merci all'acquirente.",
+      "es": "El comerciante vendió mercancías al comprador."
+    },
+    "chunks": [
+      "negadew",
+      "legezayw",
+      "ik'a",
+      "shet'e"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hha_gebeya_suk",
+    "am": "ገበያው ውድ ነው፤ ሱቁ ርካሽ ነው።",
+    "tr": "gebeyaw wud newu; suk'u rikash newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hha_gebeya2",
+      "lex_hha_adj_wud",
+      "lex_hha_suk",
+      "lex_hha_adj_rikash"
+    ],
+    "t": {
+      "de": "Der Markt ist teuer, der Laden ist billig.",
+      "en": "The market is expensive; the shop is cheap.",
+      "sv": "Marknaden är dyr; butiken är billig.",
+      "nl": "De markt is duur; de winkel is goedkoop.",
+      "it": "Il mercato è caro, il negozio è economico.",
+      "es": "El mercado es caro; la tienda es barata."
+    },
+    "chunks": [
+      "gebeyaw",
+      "wud",
+      "newu",
+      "suk'u",
+      "rikash",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hha_shach_diridir",
+    "am": "ሻጩ እና ገዢው ተደራደሩ።",
+    "tr": "shach'u ina gezayw tederaderu.",
+    "level": "B2",
+    "uses": [
+      "lex_hha_shach",
+      "lex_hha_gezay",
+      "lex_hha_diridir"
+    ],
+    "t": {
+      "de": "Der Verkäufer und der Käufer verhandelten.",
+      "en": "The seller and the buyer negotiated.",
+      "sv": "Säljaren och köparen förhandlade.",
+      "nl": "De verkoper en de koper onderhandelden.",
+      "it": "Il venditore e l'acquirente hanno trattato sul prezzo.",
+      "es": "El vendedor y el comprador negociaron."
+    },
+    "chunks": [
+      "shach'u",
+      "ina",
+      "gezayw",
+      "tederaderu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hha_deresegn_genezeb",
+    "am": "ደረሰኙን ወሰድኩ እና ገንዘቤን ከፈልኩ።",
+    "tr": "deresegnun wesedku ina genezeben kefelku.",
+    "level": "B2",
+    "uses": [
+      "lex_hha_deresegn",
+      "lex_hha_genezeb"
+    ],
+    "t": {
+      "de": "Ich nahm die Quittung und bezahlte mein Geld.",
+      "en": "I took the receipt and paid my money.",
+      "sv": "Jag tog kvittot och betalade mina pengar.",
+      "nl": "Ik pakte de bon en betaalde mijn geld.",
+      "it": "Ho preso la ricevuta e ho pagato i miei soldi.",
+      "es": "Tomé el recibo y pagué mi dinero."
+    },
+    "chunks": [
+      "deresegnun",
+      "wesedku",
+      "ina",
+      "genezeben",
+      "kefelku"
+    ],
+    "verified": false
+  }
+]

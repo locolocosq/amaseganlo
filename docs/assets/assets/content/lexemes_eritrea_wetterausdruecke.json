@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_wta_niceday",
+    "am": "ጽቡቕ ኩነታት ኣየር",
+    "tr": "tsibuq kunetat ayer",
+    "pos": "phrase",
+    "topic": "weather_expressions",
+    "level": "TI",
+    "t": {
+      "de": "schönes Wetter",
+      "en": "nice weather",
+      "sv": "fint väder",
+      "nl": "mooi weer",
+      "it": "bel tempo",
+      "es": "buen tiempo"
+    },
+    "emoji": "☀️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wta_badday",
+    "am": "ሕማቕ ኩነታት ኣየር",
+    "tr": "himaq kunetat ayer",
+    "pos": "phrase",
+    "topic": "weather_expressions",
+    "level": "TI",
+    "t": {
+      "de": "schlechtes Wetter",
+      "en": "bad weather",
+      "sv": "dåligt väder",
+      "nl": "slecht weer",
+      "it": "brutto tempo",
+      "es": "mal tiempo"
+    },
+    "emoji": "🌧️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wta_hmdty",
+    "am": "ርሱን ኩነታት ኣየር",
+    "tr": "risun kunetat ayer",
+    "pos": "phrase",
+    "topic": "weather_expressions",
+    "level": "TI",
+    "t": {
+      "de": "schwüles Wetter",
+      "en": "humid weather",
+      "sv": "fuktigt väder",
+      "nl": "drukkend weer",
+      "it": "tempo afoso, umido",
+      "es": "tiempo húmedo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wta_forecast",
+    "am": "ትንበያ ኩነታት ኣየር",
+    "tr": "tinibeya kunetat ayer",
+    "pos": "noun",
+    "topic": "weather_expressions",
+    "level": "TI",
+    "t": {
+      "de": "die Wettervorhersage",
+      "en": "weather forecast",
+      "sv": "väderprognos",
+      "nl": "weerbericht",
+      "it": "le previsioni del tempo",
+      "es": "el pronóstico del tiempo"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

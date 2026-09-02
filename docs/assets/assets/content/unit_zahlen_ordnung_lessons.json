@@ -1,0 +1,146 @@
+[
+  {
+    "id": "unit_zahlen_ordnung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_erste",
+      "lex_zweite",
+      "lex_dritte",
+      "lex_vierte",
+      "lex_fuenfte",
+      "lex_zahl_200",
+      "lex_zahl_300",
+      "lex_zahl_500",
+      "lex_million"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zahlen_ordnung_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_erste",
+      "lex_zweite",
+      "lex_dritte",
+      "lex_vierte",
+      "lex_fuenfte",
+      "lex_zahl_200",
+      "lex_zahl_300",
+      "lex_zahl_500",
+      "lex_million"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zahlen_ordnung_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_erste",
+      "lex_zweite",
+      "lex_dritte",
+      "lex_vierte",
+      "lex_fuenfte",
+      "lex_zahl_200",
+      "lex_zahl_300",
+      "lex_zahl_500",
+      "lex_million"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zahlen_ordnung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_erste",
+      "lex_zweite",
+      "lex_dritte",
+      "lex_vierte",
+      "lex_fuenfte",
+      "lex_zahl_200",
+      "lex_zahl_300",
+      "lex_zahl_500",
+      "lex_million"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zahlen_ordnung_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_erste",
+      "lex_zweite",
+      "lex_dritte",
+      "lex_vierte",
+      "lex_fuenfte",
+      "lex_zahl_200",
+      "lex_zahl_300",
+      "lex_zahl_500",
+      "lex_million"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zahlen_ordnung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_erste",
+      "lex_zweite",
+      "lex_dritte",
+      "lex_vierte",
+      "lex_fuenfte",
+      "lex_zahl_200",
+      "lex_zahl_300",
+      "lex_zahl_500",
+      "lex_million"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_200",
+      "sen_fix2_zahl_300",
+      "sen_fix2_zahl_500",
+      "sen_fix2_million",
+      "sen_fix2_butter"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

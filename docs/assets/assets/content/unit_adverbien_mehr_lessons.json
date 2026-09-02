@@ -1,0 +1,115 @@
+[
+  {
+    "id": "unit_adverbien_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_adverbien_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya",
+      "sen_fix_essen_verb_2",
+      "sen_fix_honig",
+      "sen_gen_trinken_verb"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya",
+      "sen_fix_essen_verb_2",
+      "sen_fix_honig",
+      "sen_gen_trinken_verb"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_adverbien_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hier",
+      "lex_dort",
+      "lex_ueberall",
+      "lex_draussen",
+      "lex_oben",
+      "lex_unten",
+      "lex_zusammen",
+      "lex_allein"
+    ],
+    "sentenceIds": [
+      "sen_ine_izih",
+      "sen_issu_iziya",
+      "sen_fix_essen_verb_2",
+      "sen_fix_honig",
+      "sen_gen_trinken_verb"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

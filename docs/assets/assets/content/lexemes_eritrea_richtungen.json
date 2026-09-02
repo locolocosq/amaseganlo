@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_ti_rcx_lft",
+    "am": "ጸጋም",
+    "tr": "tsegam",
+    "pos": "noun",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "links",
+      "en": "left",
+      "sv": "vänster",
+      "nl": "links",
+      "it": "sinistra",
+      "es": "izquierda"
+    },
+    "emoji": "⬅️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rcx_rgt",
+    "am": "የማን",
+    "tr": "yemani",
+    "pos": "noun",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "rechts",
+      "en": "right",
+      "sv": "höger",
+      "nl": "rechts",
+      "it": "destra",
+      "es": "derecha"
+    },
+    "emoji": "➡️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rcx_strt",
+    "am": "ትኽ ኢልካ",
+    "tr": "tikhi 'ilika",
+    "pos": "phrase",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "geradeaus",
+      "en": "straight ahead",
+      "sv": "rakt fram",
+      "nl": "rechtdoor",
+      "it": "dritto, sempre dritto",
+      "es": "todo recto, derecho"
+    },
+    "emoji": "⬆️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rcx_up",
+    "am": "ንላዕሊ",
+    "tr": "nila'eli",
+    "pos": "adverb",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "nach oben, hinauf",
+      "en": "up, upward",
+      "sv": "upp",
+      "nl": "omhoog",
+      "it": "su, verso l'alto",
+      "es": "arriba, hacia arriba"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rcx_dwn",
+    "am": "ንታሕቲ",
+    "tr": "nitahiti",
+    "pos": "adverb",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "nach unten, hinab",
+      "en": "down, downward",
+      "sv": "ner",
+      "nl": "omlaag",
+      "it": "giù, verso il basso",
+      "es": "abajo, hacia abajo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rcx_here",
+    "am": "ኣብዚ",
+    "tr": "'abizi",
+    "pos": "adverb",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "hier",
+      "en": "here",
+      "sv": "här",
+      "nl": "hier",
+      "it": "qui",
+      "es": "aquí"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rcx_thre",
+    "am": "ኣብዚያ",
+    "tr": "'abiziya",
+    "pos": "adverb",
+    "topic": "directions",
+    "level": "TI",
+    "t": {
+      "de": "dort",
+      "en": "there",
+      "sv": "där",
+      "nl": "daar",
+      "it": "lì",
+      "es": "allí"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "unit_farben_eigenschaften_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_rot",
+      "lex_blau",
+      "lex_gruen",
+      "lex_gelb",
+      "lex_schwarz",
+      "lex_weiss",
+      "lex_braun",
+      "lex_rosa",
+      "lex_lila",
+      "lex_grau",
+      "lex_gross",
+      "lex_klein",
+      "lex_gut",
+      "lex_schlecht",
+      "lex_neu",
+      "lex_alt",
+      "lex_heiss",
+      "lex_kalt",
+      "lex_schoen",
+      "lex_lang",
+      "lex_kurz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_farben_eigenschaften_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_rot",
+      "lex_blau",
+      "lex_gruen",
+      "lex_gelb",
+      "lex_schwarz",
+      "lex_weiss",
+      "lex_braun",
+      "lex_rosa",
+      "lex_lila",
+      "lex_grau",
+      "lex_gross",
+      "lex_klein",
+      "lex_gut",
+      "lex_schlecht",
+      "lex_neu",
+      "lex_alt",
+      "lex_heiss",
+      "lex_kalt",
+      "lex_schoen",
+      "lex_lang",
+      "lex_kurz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_farben_eigenschaften_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_rot",
+      "lex_blau",
+      "lex_gruen",
+      "lex_gelb",
+      "lex_schwarz",
+      "lex_weiss",
+      "lex_braun",
+      "lex_rosa",
+      "lex_lila",
+      "lex_grau",
+      "lex_gross",
+      "lex_klein",
+      "lex_gut",
+      "lex_schlecht",
+      "lex_neu",
+      "lex_alt",
+      "lex_heiss",
+      "lex_kalt",
+      "lex_schoen",
+      "lex_lang",
+      "lex_kurz"
+    ],
+    "sentenceIds": [
+      "sen_bietu_konjo",
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_farben_eigenschaften_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_rot",
+      "lex_blau",
+      "lex_gruen",
+      "lex_gelb",
+      "lex_schwarz",
+      "lex_weiss",
+      "lex_braun",
+      "lex_rosa",
+      "lex_lila",
+      "lex_grau",
+      "lex_gross",
+      "lex_klein",
+      "lex_gut",
+      "lex_schlecht",
+      "lex_neu",
+      "lex_alt",
+      "lex_heiss",
+      "lex_kalt",
+      "lex_schoen",
+      "lex_lang",
+      "lex_kurz"
+    ],
+    "sentenceIds": [
+      "sen_bietu_konjo",
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_farben_eigenschaften_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_rot",
+      "lex_blau",
+      "lex_gruen",
+      "lex_gelb",
+      "lex_schwarz",
+      "lex_weiss",
+      "lex_braun",
+      "lex_rosa",
+      "lex_lila",
+      "lex_grau",
+      "lex_gross",
+      "lex_klein",
+      "lex_gut",
+      "lex_schlecht",
+      "lex_neu",
+      "lex_alt",
+      "lex_heiss",
+      "lex_kalt",
+      "lex_schoen",
+      "lex_lang",
+      "lex_kurz"
+    ],
+    "sentenceIds": [
+      "sen_bietu_konjo",
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_farben_eigenschaften_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_rot",
+      "lex_blau",
+      "lex_gruen",
+      "lex_gelb",
+      "lex_schwarz",
+      "lex_weiss",
+      "lex_braun",
+      "lex_rosa",
+      "lex_lila",
+      "lex_grau",
+      "lex_gross",
+      "lex_klein",
+      "lex_gut",
+      "lex_schlecht",
+      "lex_neu",
+      "lex_alt",
+      "lex_heiss",
+      "lex_kalt",
+      "lex_schoen",
+      "lex_lang",
+      "lex_kurz"
+    ],
+    "sentenceIds": [
+      "sen_bietu_konjo",
+      "sen_wuha_kezkaza",
+      "sen_gen_rot",
+      "sen_gen_blau",
+      "sen_gen_gruen"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

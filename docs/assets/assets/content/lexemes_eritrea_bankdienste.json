@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_bnk_atm",
+    "am": "መኪና ገንዘብ",
+    "tr": "mekina genzeb",
+    "pos": "noun",
+    "topic": "banking",
+    "level": "TI",
+    "t": {
+      "de": "der Geldautomat",
+      "en": "ATM",
+      "sv": "bankomat",
+      "nl": "geldautomaat",
+      "it": "il bancomat",
+      "es": "el cajero automático"
+    },
+    "emoji": "🏧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bnk_open",
+    "am": "ሕሳብ ከፈተ",
+    "tr": "hisab kefete",
+    "pos": "verb",
+    "topic": "banking",
+    "level": "TI",
+    "t": {
+      "de": "ein Konto eröffnen",
+      "en": "to open an account",
+      "sv": "öppna ett konto",
+      "nl": "een rekening openen",
+      "it": "aprire un conto",
+      "es": "abrir una cuenta"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bnk_trns",
+    "am": "ኣመሓላለፈ ገንዘብ",
+    "tr": "amehalalefe genzeb",
+    "pos": "verb",
+    "topic": "banking",
+    "level": "TI",
+    "t": {
+      "de": "Geld überweisen",
+      "en": "to transfer money",
+      "sv": "överföra pengar",
+      "nl": "geld overmaken",
+      "it": "trasferire denaro",
+      "es": "transferir dinero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bnk_wthdrw",
+    "am": "ገንዘብ ኣውጽአ",
+    "tr": "genzeb awts'e",
+    "pos": "verb",
+    "topic": "banking",
+    "level": "TI",
+    "t": {
+      "de": "Geld abheben",
+      "en": "to withdraw money",
+      "sv": "ta ut pengar",
+      "nl": "geld opnemen",
+      "it": "prelevare denaro",
+      "es": "retirar dinero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bnk_dpst",
+    "am": "ገንዘብ ኣእተወ",
+    "tr": "genzeb a'itewe",
+    "pos": "verb",
+    "topic": "banking",
+    "level": "TI",
+    "t": {
+      "de": "Geld einzahlen",
+      "en": "to deposit money",
+      "sv": "sätta in pengar",
+      "nl": "geld storten",
+      "it": "depositare denaro",
+      "es": "depositar dinero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bnk_blnc",
+    "am": "ዝተረፈ ገንዘብ",
+    "tr": "zitrefe genzeb",
+    "pos": "noun",
+    "topic": "banking",
+    "level": "TI",
+    "t": {
+      "de": "der Kontostand",
+      "en": "account balance",
+      "sv": "kontosaldo",
+      "nl": "saldo",
+      "it": "il saldo del conto",
+      "es": "el saldo de la cuenta"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

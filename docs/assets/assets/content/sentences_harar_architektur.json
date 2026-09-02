@@ -1,0 +1,106 @@
+[
+  {
+    "id": "sen_hac_dejaf_mesikot",
+    "am": "ደጃፉ እና መስኮቱ ያማሩ ናቸው።",
+    "tr": "dejafu ina mesikotu yamaru nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hac_dejaf",
+      "lex_hac_mesikot2"
+    ],
+    "t": {
+      "de": "Die Türschwelle und das Fenster sind schön.",
+      "en": "The threshold and the window are beautiful.",
+      "sv": "Tröskeln och fönstret är vackra.",
+      "nl": "De drempel en het raam zijn mooi.",
+      "it": "La soglia e la finestra sono belle.",
+      "es": "El umbral y la ventana son hermosos."
+    },
+    "chunks": [
+      "dejafu",
+      "ina",
+      "mesikotu",
+      "yamaru",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hac_gidigida_inichet",
+    "am": "ግድግዳው በእንጨት ስራ ተሸፈነ።",
+    "tr": "gidigidaw beinichet sira teshefene.",
+    "level": "B2",
+    "uses": [
+      "lex_hac_gidigida",
+      "lex_hac_inichet_sira"
+    ],
+    "t": {
+      "de": "Die Wand wurde mit Holzarbeit verkleidet.",
+      "en": "The wall was covered with woodwork.",
+      "sv": "Väggen täcktes med träarbete.",
+      "nl": "De muur werd bedekt met houtwerk.",
+      "it": "La parete è stata rivestita con lavori in legno.",
+      "es": "La pared fue recubierta con carpintería de madera."
+    },
+    "chunks": [
+      "gidigidaw",
+      "beinichet",
+      "sira",
+      "teshefene"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hac_medeb_berenda",
+    "am": "ቤቱ መደብ እና በረንዳ አለው።",
+    "tr": "betu medeb ina berenda alew.",
+    "level": "B2",
+    "uses": [
+      "lex_hac_medeb",
+      "lex_hac_berenda"
+    ],
+    "t": {
+      "de": "Das Haus hat eine Lehmbank und eine Veranda.",
+      "en": "The house has a clay platform and a veranda.",
+      "sv": "Huset har en lerbänk och en veranda.",
+      "nl": "Het huis heeft een kleibank en een veranda.",
+      "it": "La casa ha una piattaforma di argilla e una veranda.",
+      "es": "La casa tiene una plataforma de barro y una veranda."
+    },
+    "chunks": [
+      "betu",
+      "medeb",
+      "ina",
+      "berenda",
+      "alew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hac_tub_dereja",
+    "am": "ጡቡ ብርቱ ነው፤ ደረጁ ረጅም ነው።",
+    "tr": "t'ubu biritu newu; dereju rejim newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hac_tub",
+      "lex_hac_dereja"
+    ],
+    "t": {
+      "de": "Der Ziegel ist stark, die Stufe ist lang.",
+      "en": "The brick is strong; the step is long.",
+      "sv": "Tegelstenen är stark; trappsteget är långt.",
+      "nl": "De baksteen is sterk; de trede is lang.",
+      "it": "Il mattone è resistente; il gradino è lungo.",
+      "es": "El ladrillo es resistente; el escalón es largo."
+    },
+    "chunks": [
+      "t'ubu",
+      "biritu",
+      "newu",
+      "dereju",
+      "rejim",
+      "newu"
+    ],
+    "verified": false
+  }
+]

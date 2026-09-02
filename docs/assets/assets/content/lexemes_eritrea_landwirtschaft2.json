@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_lw2_irrgt",
+    "am": "ምስትምቓር ማይ",
+    "tr": "misitimiqar mai",
+    "pos": "noun",
+    "topic": "agriculture_more",
+    "level": "TI",
+    "t": {
+      "de": "die Bewässerung",
+      "en": "irrigation",
+      "sv": "bevattning",
+      "nl": "irrigatie",
+      "it": "l'irrigazione",
+      "es": "el riego"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lw2_trctr",
+    "am": "ትራክተር",
+    "tr": "trakter",
+    "pos": "noun",
+    "topic": "agriculture_more",
+    "level": "TI",
+    "t": {
+      "de": "der Traktor",
+      "en": "tractor",
+      "sv": "traktor",
+      "nl": "tractor",
+      "it": "il trattore",
+      "es": "el tractor"
+    },
+    "emoji": "🚜",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lw2_fert",
+    "am": "ድኹዒ",
+    "tr": "dikhu'i",
+    "pos": "noun",
+    "topic": "agriculture_more",
+    "level": "TI",
+    "t": {
+      "de": "der Dünger",
+      "en": "fertilizer",
+      "sv": "gödsel",
+      "nl": "mest",
+      "it": "il fertilizzante",
+      "es": "el fertilizante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lw2_hrvst2",
+    "am": "ዓጺዱ",
+    "tr": "'atsidu",
+    "pos": "verb",
+    "topic": "agriculture_more",
+    "level": "TI",
+    "t": {
+      "de": "ernten",
+      "en": "to harvest",
+      "sv": "att skörda",
+      "nl": "oogsten",
+      "it": "raccogliere",
+      "es": "cosechar"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

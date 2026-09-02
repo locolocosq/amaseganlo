@@ -1,0 +1,344 @@
+[
+  {
+    "id": "lex_ti_germaniya",
+    "am": "ጀርመን",
+    "tr": "jermen",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Deutschland",
+      "en": "Germany",
+      "sv": "Tyskland",
+      "nl": "Duitsland",
+      "it": "Germania",
+      "es": "Alemania"
+    },
+    "emoji": "🇩🇪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_swden",
+    "am": "ስዊድን",
+    "tr": "swidin",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Schweden",
+      "en": "Sweden",
+      "sv": "Sverige",
+      "nl": "Zweden",
+      "it": "Svezia",
+      "es": "Suecia"
+    },
+    "emoji": "🇸🇪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hollandi",
+    "am": "ሆላንድ",
+    "tr": "holand",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Niederlande",
+      "en": "Netherlands",
+      "sv": "Nederländerna",
+      "nl": "Nederland",
+      "it": "Paesi Bassi",
+      "es": "Países Bajos"
+    },
+    "emoji": "🇳🇱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ingliz",
+    "am": "እንግሊዝ",
+    "tr": "inglizi",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "England",
+      "en": "England",
+      "sv": "England",
+      "nl": "Engeland",
+      "it": "Inghilterra",
+      "es": "Inglaterra"
+    },
+    "emoji": "🇬🇧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_faransa",
+    "am": "ፈረንሳ",
+    "tr": "ferensa",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Frankreich",
+      "en": "France",
+      "sv": "Frankrike",
+      "nl": "Frankrijk",
+      "it": "Francia",
+      "es": "Francia"
+    },
+    "emoji": "🇫🇷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_italya",
+    "am": "ጣልያን",
+    "tr": "talyan",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Italien",
+      "en": "Italy",
+      "sv": "Italien",
+      "nl": "Italië",
+      "it": "Italia",
+      "es": "Italia"
+    },
+    "emoji": "🇮🇹",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_amerika",
+    "am": "ኣመሪካ",
+    "tr": "amerika",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Amerika, USA",
+      "en": "America, USA",
+      "sv": "Amerika, USA",
+      "nl": "Amerika, VS",
+      "it": "America, USA",
+      "es": "América, EE. UU."
+    },
+    "emoji": "🇺🇸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_china",
+    "am": "ቻይና",
+    "tr": "chayna",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "China",
+      "en": "China",
+      "sv": "Kina",
+      "nl": "China",
+      "it": "Cina",
+      "es": "China"
+    },
+    "emoji": "🇨🇳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_india",
+    "am": "ህንዲ",
+    "tr": "hindi",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Indien",
+      "en": "India",
+      "sv": "Indien",
+      "nl": "India",
+      "it": "India",
+      "es": "India"
+    },
+    "emoji": "🇮🇳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_saudi",
+    "am": "ስዑዲ ዓረብ",
+    "tr": "si'udi 'areb",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Saudi-Arabien",
+      "en": "Saudi Arabia",
+      "sv": "Saudiarabien",
+      "nl": "Saoedi-Arabië",
+      "it": "Arabia Saudita",
+      "es": "Arabia Saudita"
+    },
+    "emoji": "🇸🇦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kenya",
+    "am": "ኬንያ",
+    "tr": "kenya",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Kenia",
+      "en": "Kenya",
+      "sv": "Kenya",
+      "nl": "Kenia",
+      "it": "Kenya",
+      "es": "Kenia"
+    },
+    "emoji": "🇰🇪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_afrika",
+    "am": "ኣፍሪቃ",
+    "tr": "afrika",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Afrika",
+      "en": "Africa",
+      "sv": "Afrika",
+      "nl": "Afrika",
+      "it": "Africa",
+      "es": "África"
+    },
+    "emoji": "🌍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_europa",
+    "am": "ኤውሮጳ",
+    "tr": "ewropa",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Europa",
+      "en": "Europe",
+      "sv": "Europa",
+      "nl": "Europa",
+      "it": "Europa",
+      "es": "Europa"
+    },
+    "emoji": "🌍",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_asia",
+    "am": "ኤስያ",
+    "tr": "esia",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "Asien",
+      "en": "Asia",
+      "sv": "Asien",
+      "nl": "Azië",
+      "it": "Asia",
+      "es": "Asia"
+    },
+    "emoji": "🌏",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wgnst",
+    "am": "ዜጋ",
+    "tr": "zega",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "der Bürger, Staatsbürger",
+      "en": "citizen",
+      "sv": "medborgare",
+      "nl": "burger",
+      "it": "il cittadino",
+      "es": "el ciudadano"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzabi",
+    "am": "ቋንቋ ዓረብ",
+    "tr": "quanqua 'areb",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "die arabische Sprache",
+      "en": "Arabic language",
+      "sv": "arabiska (språk)",
+      "nl": "Arabische taal",
+      "it": "la lingua araba",
+      "es": "el idioma árabe"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ngliz2",
+    "am": "ቋንቋ እንግሊዝ",
+    "tr": "quanqua inglizi",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "die englische Sprache",
+      "en": "English language",
+      "sv": "engelska (språk)",
+      "nl": "Engelse taal",
+      "it": "la lingua inglese",
+      "es": "el idioma inglés"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tigrn",
+    "am": "ትግርኛ",
+    "tr": "tigrigna",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "die Tigrinya-Sprache",
+      "en": "Tigrinya language",
+      "sv": "tigrinja (språk)",
+      "nl": "Tigrinya-taal",
+      "it": "la lingua tigrina",
+      "es": "el idioma tigriña"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_amrgn",
+    "am": "ኣምሓርኛ",
+    "tr": "amharigna",
+    "pos": "noun",
+    "topic": "countries",
+    "level": "TI",
+    "t": {
+      "de": "die amharische Sprache",
+      "en": "Amharic language",
+      "sv": "amhariska (språk)",
+      "nl": "Amhaarse taal",
+      "it": "la lingua amarica",
+      "es": "el idioma amárico"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

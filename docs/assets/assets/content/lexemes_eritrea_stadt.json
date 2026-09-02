@@ -1,0 +1,470 @@
+[
+  {
+    "id": "lex_ti_ketema",
+    "am": "ከተማ",
+    "tr": "ketema",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "die Stadt",
+      "en": "city, town",
+      "sv": "stad",
+      "nl": "stad",
+      "it": "la città",
+      "es": "la ciudad"
+    },
+    "emoji": "🏙️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agar",
+    "am": "ዓዲ",
+    "tr": "'adi",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "das Dorf, die Heimat",
+      "en": "village, homeland",
+      "sv": "by, hemland",
+      "nl": "dorp, thuisland",
+      "it": "il villaggio, la patria",
+      "es": "el pueblo, la patria"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ketema2",
+    "am": "ዕዳጋ",
+    "tr": "'idaga",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "der Markt",
+      "en": "market",
+      "sv": "marknad",
+      "nl": "markt",
+      "it": "il mercato",
+      "es": "el mercado"
+    },
+    "emoji": "🏪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dukan",
+    "am": "ድኳን",
+    "tr": "dikwan",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "der Laden",
+      "en": "shop, store",
+      "sv": "affär",
+      "nl": "winkel",
+      "it": "il negozio",
+      "es": "la tienda"
+    },
+    "emoji": "🏬",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bota2",
+    "am": "ቤት ትምህርቲ",
+    "tr": "bet timhirti",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "die Schule",
+      "en": "school",
+      "sv": "skola",
+      "nl": "school",
+      "it": "la scuola",
+      "es": "la escuela"
+    },
+    "emoji": "🏫",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_teklay",
+    "am": "ቤት ማሕተም",
+    "tr": "bet mahitem",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "das Krankenhaus",
+      "en": "hospital",
+      "sv": "sjukhus",
+      "nl": "ziekenhuis",
+      "it": "l'ospedale",
+      "es": "el hospital"
+    },
+    "emoji": "🏥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_eklesia",
+    "am": "ቤተ ክርስትያን",
+    "tr": "bete kiristiyan",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "die Kirche",
+      "en": "church",
+      "sv": "kyrka",
+      "nl": "kerk",
+      "it": "la chiesa",
+      "es": "la iglesia"
+    },
+    "emoji": "⛪",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mesgid",
+    "am": "መስጊድ",
+    "tr": "mesgid",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "die Moschee",
+      "en": "mosque",
+      "sv": "moské",
+      "nl": "moskee",
+      "it": "la moschea",
+      "es": "la mezquita"
+    },
+    "emoji": "🕌",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bota3",
+    "am": "ፓርክ",
+    "tr": "park",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "der Park",
+      "en": "park",
+      "sv": "park",
+      "nl": "park",
+      "it": "il parco",
+      "es": "el parque"
+    },
+    "emoji": "🏞️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hotel",
+    "am": "ሆቴል",
+    "tr": "hotel",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "das Hotel",
+      "en": "hotel",
+      "sv": "hotell",
+      "nl": "hotel",
+      "it": "l'hotel",
+      "es": "el hotel"
+    },
+    "emoji": "🏨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_baynkabota",
+    "am": "ባንክ",
+    "tr": "bank",
+    "pos": "noun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "die Bank",
+      "en": "bank",
+      "sv": "bank",
+      "nl": "bank",
+      "it": "la banca",
+      "es": "el banco"
+    },
+    "emoji": "🏦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gebri",
+    "am": "ናብ የማን",
+    "tr": "nab yeman",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "nach rechts",
+      "en": "to the right",
+      "sv": "till höger",
+      "nl": "naar rechts",
+      "it": "a destra",
+      "es": "a la derecha"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsegam",
+    "am": "ናብ ጸጋም",
+    "tr": "nab tsegam",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "nach links",
+      "en": "to the left",
+      "sv": "till vänster",
+      "nl": "naar links",
+      "it": "a sinistra",
+      "es": "a la izquierda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qeddemi",
+    "am": "ንቕድሚት",
+    "tr": "niqidmit",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "geradeaus, vorwärts",
+      "en": "straight ahead, forward",
+      "sv": "rakt fram",
+      "nl": "rechtdoor",
+      "it": "sempre dritto, avanti",
+      "es": "todo recto, hacia adelante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kesab",
+    "am": "ንድሕሪት",
+    "tr": "nidihirit",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "zurück",
+      "en": "backwards, back",
+      "sv": "bakåt",
+      "nl": "terug",
+      "it": "indietro",
+      "es": "hacia atrás"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lieli",
+    "am": "ኣብ ልዕሊ",
+    "tr": "ab li'eli",
+    "pos": "preposition",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "oben auf, über",
+      "en": "on top of, above",
+      "sv": "ovanpå, över",
+      "nl": "bovenop, boven",
+      "it": "sopra",
+      "es": "encima de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_taHti",
+    "am": "ኣብ ትሕቲ",
+    "tr": "ab tihti",
+    "pos": "preposition",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "unter",
+      "en": "under, below",
+      "sv": "under",
+      "nl": "onder",
+      "it": "sotto",
+      "es": "debajo de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbet",
+    "am": "ኣብ ውሽጢ",
+    "tr": "ab wishti",
+    "pos": "preposition",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "in, innerhalb",
+      "en": "in, inside",
+      "sv": "i, inuti",
+      "nl": "in, binnen",
+      "it": "dentro",
+      "es": "dentro de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_neway2",
+    "am": "ኣብ ጥቓ",
+    "tr": "ab tiqa",
+    "pos": "preposition",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "in der Nähe von",
+      "en": "near, close to",
+      "sv": "nära",
+      "nl": "bij, dicht bij",
+      "it": "vicino a",
+      "es": "cerca de"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_manew",
+    "am": "ኣበይ",
+    "tr": "abey",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "wo",
+      "en": "where",
+      "sv": "var",
+      "nl": "waar",
+      "it": "dove",
+      "es": "dónde"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_naab",
+    "am": "ናበይ",
+    "tr": "nabey",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "wohin",
+      "en": "where to",
+      "sv": "vart",
+      "nl": "waarheen",
+      "it": "dove (moto a luogo)",
+      "es": "adónde"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mtsi",
+    "am": "መዓስ",
+    "tr": "me'as",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "wann",
+      "en": "when",
+      "sv": "när",
+      "nl": "wanneer",
+      "it": "quando",
+      "es": "cuándo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kemey",
+    "am": "ከመይ",
+    "tr": "kemey",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "wie",
+      "en": "how",
+      "sv": "hur",
+      "nl": "hoe",
+      "it": "come",
+      "es": "cómo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntay",
+    "am": "እንታይ",
+    "tr": "intay",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "was",
+      "en": "what",
+      "sv": "vad",
+      "nl": "wat",
+      "it": "cosa",
+      "es": "qué"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_menu",
+    "am": "መን",
+    "tr": "men",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "wer",
+      "en": "who",
+      "sv": "vem",
+      "nl": "wie",
+      "it": "chi",
+      "es": "quién"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lmnti",
+    "am": "ስለምንታይ",
+    "tr": "silemintay",
+    "pos": "pronoun",
+    "topic": "city",
+    "level": "TI",
+    "t": {
+      "de": "warum",
+      "en": "why",
+      "sv": "varför",
+      "nl": "waarom",
+      "it": "perché",
+      "es": "por qué"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

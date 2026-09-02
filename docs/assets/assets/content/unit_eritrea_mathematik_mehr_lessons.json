@@ -1,0 +1,206 @@
+[
+  {
+    "id": "unit_eritrea_mathematik_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_hmsi",
+      "lex_ti_sdsi",
+      "lex_ti_kzln",
+      "lex_ti_kzr2",
+      "lex_ti_hntu",
+      "lex_ti_hjmi",
+      "lex_ti_dmts3",
+      "lex_ti_kfli3",
+      "lex_ti_kflig",
+      "lex_ti_msuai",
+      "lex_ti_ubti",
+      "lex_ti_tzus",
+      "lex_ti_zbti4",
+      "lex_ti_ntsu4",
+      "lex_ti_mlyni",
+      "lex_ti_blyni",
+      "lex_ti_sygni",
+      "lex_ti_orbt",
+      "lex_ti_krzr"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_mathematik_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_hmsi",
+      "lex_ti_sdsi",
+      "lex_ti_kzln",
+      "lex_ti_kzr2",
+      "lex_ti_hntu",
+      "lex_ti_hjmi",
+      "lex_ti_dmts3",
+      "lex_ti_kfli3",
+      "lex_ti_kflig",
+      "lex_ti_msuai",
+      "lex_ti_ubti",
+      "lex_ti_tzus",
+      "lex_ti_zbti4",
+      "lex_ti_ntsu4",
+      "lex_ti_mlyni",
+      "lex_ti_blyni",
+      "lex_ti_sygni",
+      "lex_ti_orbt",
+      "lex_ti_krzr"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mathematik_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_hmsi",
+      "lex_ti_sdsi",
+      "lex_ti_kzln",
+      "lex_ti_kzr2",
+      "lex_ti_hntu",
+      "lex_ti_hjmi",
+      "lex_ti_dmts3",
+      "lex_ti_kfli3",
+      "lex_ti_kflig",
+      "lex_ti_msuai",
+      "lex_ti_ubti",
+      "lex_ti_tzus",
+      "lex_ti_zbti4",
+      "lex_ti_ntsu4",
+      "lex_ti_mlyni",
+      "lex_ti_blyni",
+      "lex_ti_sygni",
+      "lex_ti_orbt",
+      "lex_ti_krzr"
+    ],
+    "sentenceIds": [
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mathematik_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_hmsi",
+      "lex_ti_sdsi",
+      "lex_ti_kzln",
+      "lex_ti_kzr2",
+      "lex_ti_hntu",
+      "lex_ti_hjmi",
+      "lex_ti_dmts3",
+      "lex_ti_kfli3",
+      "lex_ti_kflig",
+      "lex_ti_msuai",
+      "lex_ti_ubti",
+      "lex_ti_tzus",
+      "lex_ti_zbti4",
+      "lex_ti_ntsu4",
+      "lex_ti_mlyni",
+      "lex_ti_blyni",
+      "lex_ti_sygni",
+      "lex_ti_orbt",
+      "lex_ti_krzr"
+    ],
+    "sentenceIds": [
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mathematik_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_hmsi",
+      "lex_ti_sdsi",
+      "lex_ti_kzln",
+      "lex_ti_kzr2",
+      "lex_ti_hntu",
+      "lex_ti_hjmi",
+      "lex_ti_dmts3",
+      "lex_ti_kfli3",
+      "lex_ti_kflig",
+      "lex_ti_msuai",
+      "lex_ti_ubti",
+      "lex_ti_tzus",
+      "lex_ti_zbti4",
+      "lex_ti_ntsu4",
+      "lex_ti_mlyni",
+      "lex_ti_blyni",
+      "lex_ti_sygni",
+      "lex_ti_orbt",
+      "lex_ti_krzr"
+    ],
+    "sentenceIds": [
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_mathematik_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_hmsi",
+      "lex_ti_sdsi",
+      "lex_ti_kzln",
+      "lex_ti_kzr2",
+      "lex_ti_hntu",
+      "lex_ti_hjmi",
+      "lex_ti_dmts3",
+      "lex_ti_kfli3",
+      "lex_ti_kflig",
+      "lex_ti_msuai",
+      "lex_ti_ubti",
+      "lex_ti_tzus",
+      "lex_ti_zbti4",
+      "lex_ti_ntsu4",
+      "lex_ti_mlyni",
+      "lex_ti_blyni",
+      "lex_ti_sygni",
+      "lex_ti_orbt",
+      "lex_ti_krzr"
+    ],
+    "sentenceIds": [
+      "sen_ti_mathematik_mehr_1",
+      "sen_gen_sdsi",
+      "sen_gen_kzln",
+      "sen_gen_kzr2",
+      "sen_gen_hntu"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_vb3_kefete",
+    "am": "ከፈተ",
+    "tr": "kefete",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "öffnen",
+      "en": "to open",
+      "sv": "att öppna",
+      "nl": "openen",
+      "it": "aprire",
+      "es": "abrir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_zegede",
+    "am": "ዓጸወ",
+    "tr": "atsewe",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "schließen",
+      "en": "to close",
+      "sv": "att stänga",
+      "nl": "sluiten",
+      "it": "chiudere",
+      "es": "cerrar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_wesede",
+    "am": "ወሰደ",
+    "tr": "wesede",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "nehmen, mitnehmen",
+      "en": "to take",
+      "sv": "att ta",
+      "nl": "nemen",
+      "it": "prendere, portare via",
+      "es": "tomar, llevarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_hzq",
+    "am": "ሓዘ",
+    "tr": "haze",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "halten",
+      "en": "to hold",
+      "sv": "att hålla",
+      "nl": "vasthouden",
+      "it": "tenere",
+      "es": "sostener"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_hade",
+    "am": "ኣረከበ",
+    "tr": "arekebe",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "übergeben",
+      "en": "to hand over",
+      "sv": "att överlämna",
+      "nl": "overhandigen",
+      "it": "consegnare",
+      "es": "entregar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_selete",
+    "am": "ሰለጠ",
+    "tr": "selete",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "gelingen, Erfolg haben",
+      "en": "to succeed",
+      "sv": "att lyckas",
+      "nl": "slagen",
+      "it": "riuscire, avere successo",
+      "es": "tener éxito, lograr"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_fsheme",
+    "am": "ፈሸለ",
+    "tr": "feshele",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "scheitern",
+      "en": "to fail",
+      "sv": "att misslyckas",
+      "nl": "mislukken",
+      "it": "fallire",
+      "es": "fracasar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_teamene",
+    "am": "ተኣመነ",
+    "tr": "te'amene",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "vertrauen",
+      "en": "to trust",
+      "sv": "att lita på",
+      "nl": "vertrouwen",
+      "it": "fidarsi",
+      "es": "confiar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_gorede",
+    "am": "ጎረደ",
+    "tr": "gorede",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "schneiden (mit Messer)",
+      "en": "to cut",
+      "sv": "att skära",
+      "nl": "snijden",
+      "it": "tagliare (con il coltello)",
+      "es": "cortar (con cuchillo)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_delede",
+    "am": "ደለየ",
+    "tr": "deleye",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "wollen, suchen",
+      "en": "to want, to search",
+      "sv": "att vilja, att söka",
+      "nl": "willen, zoeken",
+      "it": "volere, cercare",
+      "es": "querer, buscar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_redae",
+    "am": "ረድአ",
+    "tr": "red'e",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "helfen",
+      "en": "to help",
+      "sv": "att hjälpa",
+      "nl": "helpen",
+      "it": "aiutare",
+      "es": "ayudar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vb3_temharkabe",
+    "am": "ተመሃረ",
+    "tr": "temehare",
+    "pos": "verb",
+    "topic": "verbs_more3",
+    "level": "TI",
+    "t": {
+      "de": "lernen",
+      "en": "to learn",
+      "sv": "att lära sig",
+      "nl": "leren",
+      "it": "imparare",
+      "es": "aprender"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

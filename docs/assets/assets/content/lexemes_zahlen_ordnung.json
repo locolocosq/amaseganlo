@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_erste",
+    "am": "አንደኛ",
+    "tr": "andegna",
+    "pos": "adjective",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "erste(r/s)",
+      "en": "first",
+      "sv": "första",
+      "nl": "eerste",
+      "it": "primo/a",
+      "es": "primero/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zweite",
+    "am": "ሁለተኛ",
+    "tr": "huletegna",
+    "pos": "adjective",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "zweite(r/s)",
+      "en": "second",
+      "sv": "andra",
+      "nl": "tweede",
+      "it": "secondo/a",
+      "es": "segundo/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_dritte",
+    "am": "ሶስተኛ",
+    "tr": "sostegna",
+    "pos": "adjective",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "dritte(r/s)",
+      "en": "third",
+      "sv": "tredje",
+      "nl": "derde",
+      "it": "terzo/a",
+      "es": "tercero/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vierte",
+    "am": "አራተኛ",
+    "tr": "arategna",
+    "pos": "adjective",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "vierte(r/s)",
+      "en": "fourth",
+      "sv": "fjärde",
+      "nl": "vierde",
+      "it": "quarto/a",
+      "es": "cuarto/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_fuenfte",
+    "am": "አምስተኛ",
+    "tr": "amistegna",
+    "pos": "adjective",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "fünfte(r/s)",
+      "en": "fifth",
+      "sv": "femte",
+      "nl": "vijfde",
+      "it": "quinto/a",
+      "es": "quinto/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zahl_200",
+    "am": "ሁለት መቶ",
+    "tr": "hulet meto",
+    "pos": "number",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "200",
+      "en": "200",
+      "sv": "200",
+      "nl": "200",
+      "it": "200",
+      "es": "200"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_300",
+    "am": "ሶስት መቶ",
+    "tr": "sost meto",
+    "pos": "number",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "300",
+      "en": "300",
+      "sv": "300",
+      "nl": "300",
+      "it": "300",
+      "es": "300"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_500",
+    "am": "አምስት መቶ",
+    "tr": "amist meto",
+    "pos": "number",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "500",
+      "en": "500",
+      "sv": "500",
+      "nl": "500",
+      "it": "500",
+      "es": "500"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_million",
+    "am": "ሚሊዮን",
+    "tr": "milyon",
+    "pos": "number",
+    "topic": "numbers_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Million",
+      "en": "million",
+      "sv": "miljon",
+      "nl": "miljoen",
+      "it": "il milione",
+      "es": "el millón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

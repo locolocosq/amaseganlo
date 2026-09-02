@@ -1,0 +1,422 @@
+[
+  {
+    "id": "lex_hha_gebeya2",
+    "am": "ገበያ",
+    "tr": "gebeya",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Markt",
+      "en": "market",
+      "sv": "marknad",
+      "nl": "markt",
+      "it": "il mercato",
+      "es": "el mercado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_neigade",
+    "am": "ነጋዴ",
+    "tr": "negade",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Händler",
+      "en": "merchant, trader",
+      "sv": "handlare",
+      "nl": "handelaar",
+      "it": "il commerciante",
+      "es": "el comerciante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_gezay",
+    "am": "ገዢ",
+    "tr": "gezi",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Käufer",
+      "en": "buyer",
+      "sv": "köpare",
+      "nl": "koper",
+      "it": "l'acquirente",
+      "es": "el comprador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_shach",
+    "am": "ሻጭ",
+    "tr": "shach'",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Verkäufer",
+      "en": "seller",
+      "sv": "säljare",
+      "nl": "verkoper",
+      "it": "il venditore",
+      "es": "el vendedor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_iqa",
+    "am": "ዕቃ",
+    "tr": "ik'a",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "die Ware",
+      "en": "goods, merchandise",
+      "sv": "varor",
+      "nl": "goederen",
+      "it": "la merce",
+      "es": "la mercancía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_gebir",
+    "am": "ግብር",
+    "tr": "gibir",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "die Steuer, der Zoll",
+      "en": "tax, customs duty",
+      "sv": "skatt, tull",
+      "nl": "belasting, douane",
+      "it": "la tassa, il dazio",
+      "es": "el impuesto, el arancel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_v_mesheet",
+    "am": "መሸጥ",
+    "tr": "mesheT'",
+    "pos": "verb",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "verkaufen",
+      "en": "to sell",
+      "sv": "sälja",
+      "nl": "verkopen",
+      "it": "vendere",
+      "es": "vender"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_v_megeza",
+    "am": "መግዛት",
+    "tr": "megizat",
+    "pos": "verb",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "kaufen",
+      "en": "to buy",
+      "sv": "köpa",
+      "nl": "kopen",
+      "it": "comprare",
+      "es": "comprar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_shiyach",
+    "am": "ሽያጭ",
+    "tr": "shiyach'",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Verkauf",
+      "en": "sale",
+      "sv": "försäljning",
+      "nl": "verkoop",
+      "it": "la vendita",
+      "es": "la venta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_idaw",
+    "am": "ዕዳ",
+    "tr": "ida",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "die Schuld",
+      "en": "debt",
+      "sv": "skuld",
+      "nl": "schuld",
+      "it": "il debito",
+      "es": "la deuda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_genezeb",
+    "am": "ገንዘብ",
+    "tr": "genezeb",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "das Geld",
+      "en": "money",
+      "sv": "pengar",
+      "nl": "geld",
+      "it": "il denaro",
+      "es": "el dinero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_diridir",
+    "am": "ድርድር",
+    "tr": "diridir",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "das Verhandeln, Feilschen",
+      "en": "bargaining, negotiation",
+      "sv": "förhandling",
+      "nl": "onderhandeling",
+      "it": "la trattativa",
+      "es": "el regateo, la negociación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_deresegn",
+    "am": "ደረሰኝ",
+    "tr": "deresegn",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "die Quittung",
+      "en": "receipt",
+      "sv": "kvitto",
+      "nl": "bon",
+      "it": "la ricevuta",
+      "es": "el recibo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_adj_wud",
+    "am": "ውድ",
+    "tr": "wud",
+    "pos": "adjective",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "teuer",
+      "en": "expensive",
+      "sv": "dyr",
+      "nl": "duur",
+      "it": "caro",
+      "es": "caro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_adj_rikash",
+    "am": "ርካሽ",
+    "tr": "rikash",
+    "pos": "adjective",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "billig, günstig",
+      "en": "cheap",
+      "sv": "billig",
+      "nl": "goedkoop",
+      "it": "economico",
+      "es": "barato"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_jimila",
+    "am": "ጅምላ",
+    "tr": "jimila",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Großhandel",
+      "en": "wholesale",
+      "sv": "grossist",
+      "nl": "groothandel",
+      "it": "l'ingrosso",
+      "es": "el mayoreo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hha_chirichro",
+    "am": "ችርቻሮ",
+    "tr": "chirichiro",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Einzelhandel",
+      "en": "retail",
+      "sv": "detaljhandel",
+      "nl": "detailhandel",
+      "it": "il dettaglio",
+      "es": "el menudeo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hha_mazgeb",
+    "am": "ማዝገብ",
+    "tr": "mazigeb",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "das Register, die Aufzeichnung",
+      "en": "register, record",
+      "sv": "register",
+      "nl": "register",
+      "it": "il registro, la registrazione",
+      "es": "el registro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hha_fikad",
+    "am": "ፍቃድ",
+    "tr": "fik'ad",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "die Genehmigung, Lizenz",
+      "en": "permit, license",
+      "sv": "tillstånd",
+      "nl": "vergunning",
+      "it": "l'autorizzazione, la licenza",
+      "es": "el permiso, la licencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_suk",
+    "am": "ሱቅ",
+    "tr": "suk'",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Laden, das Geschäft",
+      "en": "shop, store",
+      "sv": "butik",
+      "nl": "winkel",
+      "it": "il negozio",
+      "es": "la tienda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hha_sukegna",
+    "am": "ሱቀኛ",
+    "tr": "suk'egna",
+    "pos": "noun",
+    "topic": "trade_market",
+    "level": "B2",
+    "t": {
+      "de": "der Ladenbesitzer",
+      "en": "shopkeeper",
+      "sv": "butiksägare",
+      "nl": "winkelier",
+      "it": "il negoziante",
+      "es": "el tendero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

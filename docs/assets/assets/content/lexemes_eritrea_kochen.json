@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_hkw",
+    "am": "ቀቅል",
+    "tr": "qeqil",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "kochen (in Wasser)",
+      "en": "to boil",
+      "sv": "koka",
+      "nl": "koken (in water)",
+      "it": "bollire",
+      "es": "hervir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ktfi",
+    "am": "ጥበስ",
+    "tr": "t'ibes",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "braten",
+      "en": "to fry",
+      "sv": "steka",
+      "nl": "bakken (in pan)",
+      "it": "friggere",
+      "es": "freír"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kwyi",
+    "am": "ጥበስ (ምድጓ)",
+    "tr": "t'ibes midgwa",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "backen",
+      "en": "to bake",
+      "sv": "baka",
+      "nl": "bakken (oven)",
+      "it": "cuocere al forno",
+      "es": "hornear"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kzri2",
+    "am": "ቁረጽ",
+    "tr": "quirets",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "schneiden",
+      "en": "to cut",
+      "sv": "skära",
+      "nl": "snijden",
+      "it": "tagliare",
+      "es": "cortar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hlti",
+    "am": "ሓውስ",
+    "tr": "hawis",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "mischen, rühren",
+      "en": "to mix, stir",
+      "sv": "blanda, röra",
+      "nl": "mengen, roeren",
+      "it": "mescolare, girare",
+      "es": "mezclar, remover"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zrgi",
+    "am": "ኣፍስስ",
+    "tr": "afsis",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "gießen, eingießen",
+      "en": "to pour",
+      "sv": "hälla",
+      "nl": "gieten",
+      "it": "versare",
+      "es": "verter"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qrbi",
+    "am": "ቅመም ወስኽ",
+    "tr": "qimem wesikh",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "würzen",
+      "en": "to season",
+      "sv": "krydda",
+      "nl": "kruiden",
+      "it": "condire",
+      "es": "sazonar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hlwi2",
+    "am": "ኣቕልጥጥ",
+    "tr": "aqilit'it'",
+    "pos": "verb",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "schmelzen",
+      "en": "to melt",
+      "sv": "smälta",
+      "nl": "smelten",
+      "it": "sciogliere",
+      "es": "derretir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qmem",
+    "am": "ቅመም",
+    "tr": "qimem",
+    "pos": "noun",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "das Gewürz",
+      "en": "spice, seasoning",
+      "sv": "krydda",
+      "nl": "kruid",
+      "it": "la spezia",
+      "es": "la especia"
+    },
+    "emoji": "🧂",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mgb2",
+    "am": "ዝርዝር ምግቢ (ጥብሳ)",
+    "tr": "zirzir migbi t'ibsa",
+    "pos": "noun",
+    "topic": "cooking",
+    "level": "TI",
+    "t": {
+      "de": "das Rezept",
+      "en": "recipe",
+      "sv": "recept",
+      "nl": "recept",
+      "it": "la ricetta",
+      "es": "la receta"
+    },
+    "emoji": "📝",
+    "verified": false
+  }
+]

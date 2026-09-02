@@ -1,0 +1,470 @@
+[
+  {
+    "id": "lex_ti_setti",
+    "am": "ሰዓት (ግዜ)",
+    "tr": "se'at",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Stunde, die Uhrzeit",
+      "en": "hour, time",
+      "sv": "timme, tid",
+      "nl": "uur, tijd",
+      "it": "l'ora",
+      "es": "la hora"
+    },
+    "emoji": "🕐",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_deqiqa",
+    "am": "ደቒቕ",
+    "tr": "deqiq",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Minute",
+      "en": "minute",
+      "sv": "minut",
+      "nl": "minuut",
+      "it": "il minuto",
+      "es": "el minuto"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sekond",
+    "am": "ካልኢት",
+    "tr": "kal'it",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Sekunde",
+      "en": "second",
+      "sv": "sekund",
+      "nl": "seconde",
+      "it": "il secondo",
+      "es": "el segundo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mieti",
+    "am": "መዓልቲ",
+    "tr": "me'alti",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Tag",
+      "en": "day",
+      "sv": "dag",
+      "nl": "dag",
+      "it": "il giorno",
+      "es": "el día"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lelit",
+    "am": "ለይቲ",
+    "tr": "leyti",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Nacht",
+      "en": "night",
+      "sv": "natt",
+      "nl": "nacht",
+      "it": "la notte",
+      "es": "la noche"
+    },
+    "emoji": "🌙",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seub",
+    "am": "ሰሙን",
+    "tr": "semun",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Woche",
+      "en": "week",
+      "sv": "vecka",
+      "nl": "week",
+      "it": "la settimana",
+      "es": "la semana"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wer",
+    "am": "ወርሒ (ግዜ)",
+    "tr": "werhi",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Monat",
+      "en": "month",
+      "sv": "månad",
+      "nl": "maand",
+      "it": "il mese",
+      "es": "el mes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_amet",
+    "am": "ዓመት",
+    "tr": "'amet",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "das Jahr",
+      "en": "year",
+      "sv": "år",
+      "nl": "jaar",
+      "it": "l'anno",
+      "es": "el año"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sini",
+    "am": "ሰኑይ",
+    "tr": "senuy",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Montag",
+      "en": "Monday",
+      "sv": "måndag",
+      "nl": "maandag",
+      "it": "lunedì",
+      "es": "lunes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_selus",
+    "am": "ሠሉስ",
+    "tr": "selus",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Dienstag",
+      "en": "Tuesday",
+      "sv": "tisdag",
+      "nl": "dinsdag",
+      "it": "martedì",
+      "es": "martes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rabu",
+    "am": "ረቡዕ",
+    "tr": "rebu'e",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Mittwoch",
+      "en": "Wednesday",
+      "sv": "onsdag",
+      "nl": "woensdag",
+      "it": "mercoledì",
+      "es": "miércoles"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hamus",
+    "am": "ኣርባዕተ (ዕለት)",
+    "tr": "hamus",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Donnerstag",
+      "en": "Thursday",
+      "sv": "torsdag",
+      "nl": "donderdag",
+      "it": "giovedì",
+      "es": "jueves"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_arbi",
+    "am": "ዓርቢ",
+    "tr": "'arbi",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Freitag",
+      "en": "Friday",
+      "sv": "fredag",
+      "nl": "vrijdag",
+      "it": "venerdì",
+      "es": "viernes"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kudam",
+    "am": "ቀዳም",
+    "tr": "qedam",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Samstag",
+      "en": "Saturday",
+      "sv": "lördag",
+      "nl": "zaterdag",
+      "it": "sabato",
+      "es": "sábado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_senbet",
+    "am": "ሰንበት",
+    "tr": "senbet",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "Sonntag",
+      "en": "Sunday",
+      "sv": "söndag",
+      "nl": "zondag",
+      "it": "domenica",
+      "es": "domingo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsebah",
+    "am": "ንግሆ",
+    "tr": "nigho",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Morgen",
+      "en": "morning",
+      "sv": "morgon",
+      "nl": "ochtend",
+      "it": "il mattino",
+      "es": "la mañana"
+    },
+    "emoji": "🌅",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kelede",
+    "am": "ቀትሪ",
+    "tr": "qetri",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Mittag",
+      "en": "noon",
+      "sv": "middag (tid)",
+      "nl": "middag",
+      "it": "il mezzogiorno",
+      "es": "el mediodía"
+    },
+    "emoji": "☀️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dehri",
+    "am": "ድሕሪ ቐትሪ",
+    "tr": "dihri qetri",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Nachmittag",
+      "en": "afternoon",
+      "sv": "eftermiddag",
+      "nl": "namiddag",
+      "it": "il pomeriggio",
+      "es": "la tarde"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_meariti",
+    "am": "ምሸት",
+    "tr": "mishet",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Abend",
+      "en": "evening",
+      "sv": "kväll",
+      "nl": "avond",
+      "it": "la sera",
+      "es": "la noche"
+    },
+    "emoji": "🌆",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zeban2",
+    "am": "ሎሚ",
+    "tr": "lomi",
+    "pos": "adverb",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "heute",
+      "en": "today",
+      "sv": "idag",
+      "nl": "vandaag",
+      "it": "oggi",
+      "es": "hoy"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsebahi",
+    "am": "ጽባሕ",
+    "tr": "tsibah",
+    "pos": "adverb",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "morgen (Tag)",
+      "en": "tomorrow",
+      "sv": "imorgon",
+      "nl": "morgen",
+      "it": "domani",
+      "es": "mañana"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_timali",
+    "am": "ትማሊ",
+    "tr": "timali",
+    "pos": "adverb",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "gestern",
+      "en": "yesterday",
+      "sv": "igår",
+      "nl": "gisteren",
+      "it": "ieri",
+      "es": "ayer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kiremti",
+    "am": "ክረምቲ",
+    "tr": "kiremti",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Regenzeit",
+      "en": "rainy season",
+      "sv": "regnperiod",
+      "nl": "regenseizoen",
+      "it": "la stagione delle piogge",
+      "es": "la temporada de lluvias"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hagay",
+    "am": "ሓጋይ",
+    "tr": "hagay",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "die Trockenzeit",
+      "en": "dry season",
+      "sv": "torrperiod",
+      "nl": "droog seizoen",
+      "it": "la stagione secca",
+      "es": "la temporada seca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tseday",
+    "am": "ጸደይ",
+    "tr": "tseday",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Frühling",
+      "en": "spring",
+      "sv": "vår",
+      "nl": "lente",
+      "it": "la primavera",
+      "es": "la primavera"
+    },
+    "emoji": "🌷",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kayti",
+    "am": "ብርድ ግዜ",
+    "tr": "birdi gizie",
+    "pos": "noun",
+    "topic": "time",
+    "level": "TI",
+    "t": {
+      "de": "der Winter",
+      "en": "winter",
+      "sv": "vinter",
+      "nl": "winter",
+      "it": "l'inverno",
+      "es": "el invierno"
+    },
+    "emoji": "❄️",
+    "verified": false
+  }
+]

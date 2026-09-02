@@ -1,0 +1,188 @@
+[
+  {
+    "id": "unit_eritrea_gesundheit_kinder_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_hkm4",
+      "lex_ti_alrji",
+      "lex_ti_sksh",
+      "lex_ti_klya",
+      "lex_ti_snbulet",
+      "lex_ti_wgi2",
+      "lex_ti_neurst",
+      "lex_ti_shghi",
+      "lex_ti_wlada",
+      "lex_ti_qhna",
+      "lex_ti_arat2",
+      "lex_ti_gwatra",
+      "lex_ti_shukhia",
+      "lex_ti_tsawta",
+      "lex_ti_kchna",
+      "lex_ti_hzti4"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gesundheit_kinder_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_hkm4",
+      "lex_ti_alrji",
+      "lex_ti_sksh",
+      "lex_ti_klya",
+      "lex_ti_snbulet",
+      "lex_ti_wgi2",
+      "lex_ti_neurst",
+      "lex_ti_shghi",
+      "lex_ti_wlada",
+      "lex_ti_qhna",
+      "lex_ti_arat2",
+      "lex_ti_gwatra",
+      "lex_ti_shukhia",
+      "lex_ti_tsawta",
+      "lex_ti_kchna",
+      "lex_ti_hzti4"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesundheit_kinder_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_hkm4",
+      "lex_ti_alrji",
+      "lex_ti_sksh",
+      "lex_ti_klya",
+      "lex_ti_snbulet",
+      "lex_ti_wgi2",
+      "lex_ti_neurst",
+      "lex_ti_shghi",
+      "lex_ti_wlada",
+      "lex_ti_qhna",
+      "lex_ti_arat2",
+      "lex_ti_gwatra",
+      "lex_ti_shukhia",
+      "lex_ti_tsawta",
+      "lex_ti_kchna",
+      "lex_ti_hzti4"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesundheit_kinder_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_hkm4",
+      "lex_ti_alrji",
+      "lex_ti_sksh",
+      "lex_ti_klya",
+      "lex_ti_snbulet",
+      "lex_ti_wgi2",
+      "lex_ti_neurst",
+      "lex_ti_shghi",
+      "lex_ti_wlada",
+      "lex_ti_qhna",
+      "lex_ti_arat2",
+      "lex_ti_gwatra",
+      "lex_ti_shukhia",
+      "lex_ti_tsawta",
+      "lex_ti_kchna",
+      "lex_ti_hzti4"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesundheit_kinder_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_hkm4",
+      "lex_ti_alrji",
+      "lex_ti_sksh",
+      "lex_ti_klya",
+      "lex_ti_snbulet",
+      "lex_ti_wgi2",
+      "lex_ti_neurst",
+      "lex_ti_shghi",
+      "lex_ti_wlada",
+      "lex_ti_qhna",
+      "lex_ti_arat2",
+      "lex_ti_gwatra",
+      "lex_ti_shukhia",
+      "lex_ti_tsawta",
+      "lex_ti_kchna",
+      "lex_ti_hzti4"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesundheit_kinder_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_hkm4",
+      "lex_ti_alrji",
+      "lex_ti_sksh",
+      "lex_ti_klya",
+      "lex_ti_snbulet",
+      "lex_ti_wgi2",
+      "lex_ti_neurst",
+      "lex_ti_shghi",
+      "lex_ti_wlada",
+      "lex_ti_qhna",
+      "lex_ti_arat2",
+      "lex_ti_gwatra",
+      "lex_ti_shukhia",
+      "lex_ti_tsawta",
+      "lex_ti_kchna",
+      "lex_ti_hzti4"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesundheit_kinder_1",
+      "sen_gen_alrji",
+      "sen_gen_sksh",
+      "sen_gen_klya",
+      "sen_gen_snbulet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

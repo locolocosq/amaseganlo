@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_eritrea_schwangerschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_swg_preg",
+      "lex_ti_swg_brth",
+      "lex_ti_swg_baby",
+      "lex_ti_swg_midw",
+      "lex_ti_swg_cradl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_schwangerschaft_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_swg_preg",
+      "lex_ti_swg_brth",
+      "lex_ti_swg_baby",
+      "lex_ti_swg_midw",
+      "lex_ti_swg_cradl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_schwangerschaft_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_swg_preg",
+      "lex_ti_swg_brth",
+      "lex_ti_swg_baby",
+      "lex_ti_swg_midw",
+      "lex_ti_swg_cradl"
+    ],
+    "sentenceIds": [
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_schwangerschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_swg_preg",
+      "lex_ti_swg_brth",
+      "lex_ti_swg_baby",
+      "lex_ti_swg_midw",
+      "lex_ti_swg_cradl"
+    ],
+    "sentenceIds": [
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_schwangerschaft_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_swg_preg",
+      "lex_ti_swg_brth",
+      "lex_ti_swg_baby",
+      "lex_ti_swg_midw",
+      "lex_ti_swg_cradl"
+    ],
+    "sentenceIds": [
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_schwangerschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_swg_preg",
+      "lex_ti_swg_brth",
+      "lex_ti_swg_baby",
+      "lex_ti_swg_midw",
+      "lex_ti_swg_cradl"
+    ],
+    "sentenceIds": [
+      "sen_ti_schwangerschaft_1",
+      "sen_gen_swg_brth",
+      "sen_gen_swg_baby",
+      "sen_gen_swg_midw",
+      "sen_gen_swg_cradl"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

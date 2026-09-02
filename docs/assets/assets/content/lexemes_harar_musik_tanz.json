@@ -1,0 +1,502 @@
+[
+  {
+    "id": "lex_hm_zefen",
+    "am": "ዘፈን",
+    "tr": "zefen",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "das Lied",
+      "en": "song",
+      "sv": "sång",
+      "nl": "lied",
+      "it": "la canzone",
+      "es": "la canción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎵",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_ferdase",
+    "am": "ውዝዋዜ",
+    "tr": "wizwaze",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "der Tanz",
+      "en": "dance",
+      "sv": "dans",
+      "nl": "dans",
+      "it": "la danza",
+      "es": "el baile"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💃",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_v_mezefen",
+    "am": "መዘፈን",
+    "tr": "mezefen",
+    "pos": "verb",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "singen",
+      "en": "to sing",
+      "sv": "sjunga",
+      "nl": "zingen",
+      "it": "cantare",
+      "es": "cantar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_v_meweziwaz",
+    "am": "መውዘዋዘ",
+    "tr": "mewizewaz",
+    "pos": "verb",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "tanzen",
+      "en": "to dance",
+      "sv": "dansa",
+      "nl": "dansen",
+      "it": "ballare",
+      "es": "bailar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_kirar",
+    "am": "ክራር",
+    "tr": "kirar",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die Leier (Instrument)",
+      "en": "lyre (instrument)",
+      "sv": "lyra (instrument)",
+      "nl": "lier (instrument)",
+      "it": "la lira (strumento)",
+      "es": "la lira (instrumento)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_masinko",
+    "am": "መሲንቆ",
+    "tr": "masinik'o",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die einsaitige Fiedel",
+      "en": "one-string fiddle",
+      "sv": "ensträngad fiol",
+      "nl": "eensnarige vedel",
+      "it": "il violino a una corda",
+      "es": "el violín de una cuerda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_kebero",
+    "am": "ከበሮ",
+    "tr": "kebero",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die Trommel",
+      "en": "drum",
+      "sv": "trumma",
+      "nl": "trommel",
+      "it": "il tamburo",
+      "es": "el tambor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥁",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_v_mekot",
+    "am": "መደለቅ",
+    "tr": "medelek'",
+    "pos": "verb",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "trommeln",
+      "en": "to drum",
+      "sv": "trumma",
+      "nl": "trommelen",
+      "it": "suonare il tamburo",
+      "es": "tocar el tambor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_dursiye",
+    "am": "ደርዳሪ",
+    "tr": "deridari",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "der Sänger, Vorsänger",
+      "en": "singer, lead vocalist",
+      "sv": "sångare",
+      "nl": "zanger",
+      "it": "il cantante solista",
+      "es": "el cantante solista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_zafan",
+    "am": "ዘፋኝ",
+    "tr": "zefagn",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "der Sänger, die Sängerin",
+      "en": "singer",
+      "sv": "sångare/sångerska",
+      "nl": "zanger/zangeres",
+      "it": "il/la cantante",
+      "es": "el/la cantante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_muzika",
+    "am": "ሙዚቃ",
+    "tr": "muzika",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die Musik",
+      "en": "music",
+      "sv": "musik",
+      "nl": "muziek",
+      "it": "la musica",
+      "es": "la música"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎶",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_kal_zeb",
+    "am": "ግጥም",
+    "tr": "gitim",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "das Gedicht, der Liedtext",
+      "en": "poem, lyrics",
+      "sv": "dikt, sångtext",
+      "nl": "gedicht, songtekst",
+      "it": "la poesia, il testo della canzone",
+      "es": "el poema, la letra de la canción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_wazema",
+    "am": "ወዘማ",
+    "tr": "wezema",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "der Refrain (Chorpart)",
+      "en": "chorus refrain",
+      "sv": "refräng",
+      "nl": "refrein",
+      "it": "il ritornello",
+      "es": "el estribillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_teregnaw",
+    "am": "ተውኔት",
+    "tr": "tewinet",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "das Theaterstück",
+      "en": "stage play",
+      "sv": "teaterpjäs",
+      "nl": "toneelstuk",
+      "it": "l'opera teatrale",
+      "es": "la obra de teatro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_azimach",
+    "am": "ትዕይንት",
+    "tr": "ti'ayinit",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die Aufführung, die Szene",
+      "en": "performance, scene",
+      "sv": "föreställning, scen",
+      "nl": "optreden, scène",
+      "it": "l'esibizione, la scena",
+      "es": "la actuación, la escena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_v_measer",
+    "am": "ማሳየት",
+    "tr": "masayet",
+    "pos": "verb",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "zeigen, aufführen",
+      "en": "to show, to perform",
+      "sv": "visa, framföra",
+      "nl": "tonen, opvoeren",
+      "it": "mostrare, esibirsi",
+      "es": "mostrar, actuar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_akal",
+    "am": "እልልታ",
+    "tr": "ililita",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "der Jubelruf (Frauen)",
+      "en": "celebratory ululation",
+      "sv": "jubelrop",
+      "nl": "jubelkreet",
+      "it": "il grido di gioia (donne)",
+      "es": "el grito de júbilo (mujeres)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_v_maleliet",
+    "am": "ማልል ማለት",
+    "tr": "malil malet",
+    "pos": "verb",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "jubeln, jauchzen",
+      "en": "to ululate, to cheer",
+      "sv": "jubla",
+      "nl": "juichen",
+      "it": "esultare, gridare di gioia",
+      "es": "exultar, gritar de alegría"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_eskesta",
+    "am": "እስክስታ",
+    "tr": "isikista",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "der Schultertanz",
+      "en": "shoulder-dance (Eskista)",
+      "sv": "axeldans (eskista)",
+      "nl": "schouderdans (eskista)",
+      "it": "la danza delle spalle (eskista)",
+      "es": "la danza de hombros (eskista)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_lemd",
+    "am": "ልምድ",
+    "tr": "limid",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die Erfahrung, Übung",
+      "en": "experience, practice",
+      "sv": "erfarenhet, övning",
+      "nl": "ervaring, oefening",
+      "it": "l'esperienza, la pratica",
+      "es": "la experiencia, la práctica"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_temeleket",
+    "am": "ትዝታ",
+    "tr": "tizita",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die Nostalgie (Musikstil)",
+      "en": "nostalgia (music style)",
+      "sv": "nostalgi (musikstil)",
+      "nl": "nostalgie (muziekstijl)",
+      "it": "la nostalgia (stile musicale)",
+      "es": "la nostalgia (estilo musical)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_v_meamesegen2",
+    "am": "ማስደሰት",
+    "tr": "masidesset",
+    "pos": "verb",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "erfreuen",
+      "en": "to delight, to please",
+      "sv": "glädja",
+      "nl": "verheugen",
+      "it": "rallegrare, deliziare",
+      "es": "alegrar, deleitar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hm_dabo",
+    "am": "ደቦ",
+    "tr": "debo",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die gemeinschaftliche Arbeitsfeier",
+      "en": "communal work celebration",
+      "sv": "gemensam arbetsfest",
+      "nl": "gemeenschappelijk werkfeest",
+      "it": "la festa comunitaria del lavoro",
+      "es": "la fiesta comunitaria de trabajo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_zela_bahil",
+    "am": "የባህል ዝግጅት",
+    "tr": "yebahil zigijit",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "die kulturelle Veranstaltung",
+      "en": "cultural event",
+      "sv": "kulturell tillställning",
+      "nl": "culturele gebeurtenis",
+      "it": "l'evento culturale",
+      "es": "el evento cultural"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hm_habesha_kemis",
+    "am": "ሀበሻ ቀሚስ",
+    "tr": "habesha k'emis",
+    "pos": "noun",
+    "topic": "music_dance",
+    "level": "B2",
+    "t": {
+      "de": "das traditionelle Kleid",
+      "en": "traditional dress",
+      "sv": "traditionell klänning",
+      "nl": "traditionele jurk",
+      "it": "l'abito tradizionale",
+      "es": "el vestido tradicional"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

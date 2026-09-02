@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_genzeb",
+    "am": "ገንዘብ",
+    "tr": "genzeb",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "das Geld",
+      "en": "money",
+      "sv": "pengar",
+      "nl": "geld",
+      "it": "il denaro",
+      "es": "el dinero"
+    },
+    "emoji": "💰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wagi",
+    "am": "ዋጋ",
+    "tr": "waga",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "der Preis",
+      "en": "price",
+      "sv": "pris",
+      "nl": "prijs",
+      "it": "il prezzo",
+      "es": "el precio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nakfa",
+    "am": "ናቕፋ",
+    "tr": "nakfa",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "Nakfa (eritreische Währung)",
+      "en": "nakfa (Eritrean currency)",
+      "sv": "nakfa (eritreansk valuta)",
+      "nl": "nakfa (Eritrese munt)",
+      "it": "nakfa (valuta eritrea)",
+      "es": "nakfa (moneda eritrea)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kredit",
+    "am": "ካርድ",
+    "tr": "kard",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "die Karte (Kredit-)",
+      "en": "card (credit)",
+      "sv": "kort",
+      "nl": "kaart",
+      "it": "la carta (di credito)",
+      "es": "la tarjeta (de crédito)"
+    },
+    "emoji": "💳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kreyi",
+    "am": "ቅብሊት",
+    "tr": "qibilit",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "die Quittung",
+      "en": "receipt",
+      "sv": "kvitto",
+      "nl": "bon",
+      "it": "la ricevuta",
+      "es": "el recibo"
+    },
+    "emoji": "🧾",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzumi",
+    "am": "ቅናሽ",
+    "tr": "qinash",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "der Rabatt",
+      "en": "discount",
+      "sv": "rabatt",
+      "nl": "korting",
+      "it": "lo sconto",
+      "es": "el descuento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_beal",
+    "am": "ወነንቲ ድኳን",
+    "tr": "wenenti dikwan",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "der Ladenbesitzer",
+      "en": "shopkeeper",
+      "sv": "butiksägare",
+      "nl": "winkelier",
+      "it": "il negoziante",
+      "es": "el tendero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kruy",
+    "am": "ዓሚል",
+    "tr": "'amil",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "der Kunde",
+      "en": "customer",
+      "sv": "kund",
+      "nl": "klant",
+      "it": "il cliente",
+      "es": "el cliente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zeben",
+    "am": "ምዕዳግ",
+    "tr": "mi'idag",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "das Einkaufen",
+      "en": "shopping",
+      "sv": "shopping",
+      "nl": "winkelen",
+      "it": "lo shopping, gli acquisti",
+      "es": "las compras"
+    },
+    "emoji": "🛍️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kesi",
+    "am": "ኩኸነ",
+    "tr": "kukhene",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "die Kasse",
+      "en": "cash register, checkout",
+      "sv": "kassa",
+      "nl": "kassa",
+      "it": "la cassa",
+      "es": "la caja"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kili2",
+    "am": "ክብደት",
+    "tr": "kibdet",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "das Gewicht",
+      "en": "weight",
+      "sv": "vikt",
+      "nl": "gewicht",
+      "it": "il peso",
+      "es": "el peso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kilo",
+    "am": "ኪሎ",
+    "tr": "kilo",
+    "pos": "noun",
+    "topic": "shopping",
+    "level": "TI",
+    "t": {
+      "de": "das Kilo",
+      "en": "kilo",
+      "sv": "kilo",
+      "nl": "kilo",
+      "it": "il chilo",
+      "es": "el kilo"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

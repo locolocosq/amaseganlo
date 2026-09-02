@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_gwh_daily",
+    "am": "መዓልታዊ",
+    "tr": "me'altawi",
+    "pos": "adjective",
+    "topic": "habits_routine",
+    "level": "TI",
+    "t": {
+      "de": "täglich",
+      "en": "daily",
+      "sv": "daglig",
+      "nl": "dagelijks",
+      "it": "giornaliero, quotidiano",
+      "es": "diario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwh_rtn",
+    "am": "ልማድ ናብራ",
+    "tr": "limad nabra",
+    "pos": "noun",
+    "topic": "habits_routine",
+    "level": "TI",
+    "t": {
+      "de": "die Routine",
+      "en": "routine",
+      "sv": "rutin",
+      "nl": "routine",
+      "it": "la routine",
+      "es": "la rutina"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwh_always2",
+    "am": "ወትሩ ይገብር",
+    "tr": "wetru yigebir",
+    "pos": "phrase",
+    "topic": "habits_routine",
+    "level": "TI",
+    "t": {
+      "de": "macht immer",
+      "en": "always does",
+      "sv": "gör alltid",
+      "nl": "doet altijd",
+      "it": "fa sempre",
+      "es": "siempre hace"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwh_habit",
+    "am": "ልማድ",
+    "tr": "limad",
+    "pos": "noun",
+    "topic": "habits_routine",
+    "level": "TI",
+    "t": {
+      "de": "die Gewohnheit",
+      "en": "habit",
+      "sv": "vana",
+      "nl": "gewoonte",
+      "it": "l'abitudine",
+      "es": "el hábito"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

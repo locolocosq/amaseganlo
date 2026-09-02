@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lex_v_bauen",
+    "am": "መገንባት",
+    "tr": "megenbat",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "bauen",
+      "en": "to build",
+      "sv": "bygga",
+      "nl": "bouwen",
+      "it": "costruire",
+      "es": "construir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_tragen",
+    "am": "መሸከም",
+    "tr": "meshekem",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "tragen",
+      "en": "to carry",
+      "sv": "bära",
+      "nl": "dragen",
+      "it": "portare",
+      "es": "llevar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_ziehen",
+    "am": "መጎተት",
+    "tr": "megotet",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "ziehen",
+      "en": "to pull",
+      "sv": "dra",
+      "nl": "trekken",
+      "it": "tirare",
+      "es": "tirar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_fallen",
+    "am": "መውደቅ",
+    "tr": "mewdek'",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "fallen",
+      "en": "to fall",
+      "sv": "falla",
+      "nl": "vallen",
+      "it": "cadere",
+      "es": "caer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_springen",
+    "am": "መዝለል",
+    "tr": "mezlel",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "springen",
+      "en": "to jump",
+      "sv": "hoppa",
+      "nl": "springen",
+      "it": "saltare",
+      "es": "saltar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_fliegen",
+    "am": "መብረር",
+    "tr": "mebrer",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "fliegen",
+      "en": "to fly",
+      "sv": "flyga",
+      "nl": "vliegen",
+      "it": "volare",
+      "es": "volar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_atmen",
+    "am": "መተንፈስ",
+    "tr": "metenfes",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "atmen",
+      "en": "to breathe",
+      "sv": "andas",
+      "nl": "ademen",
+      "it": "respirare",
+      "es": "respirar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_leben",
+    "am": "መኖር",
+    "tr": "menor",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "leben",
+      "en": "to live",
+      "sv": "leva",
+      "nl": "leven",
+      "it": "vivere",
+      "es": "vivir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_heiraten",
+    "am": "ማግባት",
+    "tr": "magbat",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "heiraten",
+      "en": "to marry",
+      "sv": "gifta sig",
+      "nl": "trouwen",
+      "it": "sposarsi",
+      "es": "casarse"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_geborenwerden",
+    "am": "መወለድ",
+    "tr": "meweled",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "geboren werden",
+      "en": "to be born",
+      "sv": "födas",
+      "nl": "geboren worden",
+      "it": "nascere",
+      "es": "nacer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_sterben",
+    "am": "መሞት",
+    "tr": "memot",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "sterben",
+      "en": "to die",
+      "sv": "dö",
+      "nl": "sterven",
+      "it": "morire",
+      "es": "morir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_reparieren",
+    "am": "መጠገን",
+    "tr": "met'egen",
+    "pos": "verb",
+    "topic": "verbs_more",
+    "level": "A2",
+    "t": {
+      "de": "reparieren",
+      "en": "to repair",
+      "sv": "reparera",
+      "nl": "repareren",
+      "it": "riparare",
+      "es": "reparar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

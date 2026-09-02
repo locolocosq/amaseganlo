@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sen_awra_godana_trafik",
+    "am": "በአውራ ጎዳናው ትራፊክ መጨናነቅ አለ።",
+    "tr": "be'awra godanaw trafik mechinanek' ale.",
+    "level": "B2",
+    "uses": [
+      "lex_awra_godana",
+      "lex_trafik_mechinanek"
+    ],
+    "t": {
+      "de": "Auf der Hauptstraße gibt es einen Stau.",
+      "en": "There is a traffic jam on the highway.",
+      "sv": "Det är trafikstockning på huvudvägen.",
+      "nl": "Er is een file op de hoofdweg.",
+      "it": "C'è un ingorgo sulla strada principale.",
+      "es": "Hay un atasco en la carretera principal."
+    },
+    "chunks": [
+      "be'awra",
+      "godanaw",
+      "trafik",
+      "mechinanek'",
+      "ale"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ginibata_megenibat",
+    "am": "ሰራተኞች ግንባታውን ይገነባሉ።",
+    "tr": "seratenoch ginibatawin yigenebalu.",
+    "level": "B2",
+    "uses": [
+      "lex_ginibata",
+      "lex_v_megenibat"
+    ],
+    "t": {
+      "de": "Die Arbeiter errichten das Bauwerk.",
+      "en": "The workers build the construction.",
+      "sv": "Arbetarna bygger konstruktionen.",
+      "nl": "De arbeiders bouwen de bouw.",
+      "it": "Gli operai costruiscono l'edificio.",
+      "es": "Los trabajadores construyen la obra."
+    },
+    "chunks": [
+      "seratenoch",
+      "ginibatawin",
+      "yigenebalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_yeketema_plan_asfelagi",
+    "am": "የከተማ ፕላን ለከተማ አስፈላጊ ነው።",
+    "tr": "yeketema plan leketema asfelagi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_yeketema_plan"
+    ],
+    "t": {
+      "de": "Stadtplanung ist wichtig für die Stadt.",
+      "en": "Urban planning is important for the city.",
+      "sv": "Stadsplanering är viktig för staden.",
+      "nl": "Stadsplanning is belangrijk voor de stad.",
+      "it": "La pianificazione urbana è importante per la città.",
+      "es": "La planificación urbana es importante para la ciudad."
+    },
+    "chunks": [
+      "yeketema",
+      "plan",
+      "leketema",
+      "asfelagi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_meserete_limat_tiru",
+    "am": "መሠረተ ልማት ለሀገር ጥሩ ነው።",
+    "tr": "meserete limat lehager t'iru newu.",
+    "level": "B2",
+    "uses": [
+      "lex_meserete_limat"
+    ],
+    "t": {
+      "de": "Infrastruktur ist gut für das Land.",
+      "en": "Infrastructure is good for the country.",
+      "sv": "Infrastruktur är bra för landet.",
+      "nl": "Infrastructuur is goed voor het land.",
+      "it": "L'infrastruttura fa bene al paese.",
+      "es": "La infraestructura es buena para el país."
+    },
+    "chunks": [
+      "meserete",
+      "limat",
+      "lehager",
+      "t'iru",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_mengist_megenibat_awra_godana",
+    "am": "መንግስት አውራ ጎዳና ገነባ።",
+    "tr": "mengist awra godana geneba.",
+    "level": "B2",
+    "uses": [
+      "lex_v_megenibat",
+      "lex_awra_godana",
+      "lex_mengist"
+    ],
+    "t": {
+      "de": "Die Regierung baute eine Hauptstraße.",
+      "en": "The government built a highway.",
+      "sv": "Regeringen byggde en huvudväg.",
+      "nl": "De regering bouwde een hoofdweg.",
+      "it": "Il governo ha costruito una strada principale.",
+      "es": "El gobierno construyó una carretera principal."
+    },
+    "chunks": [
+      "mengist",
+      "awra",
+      "godana",
+      "geneba"
+    ],
+    "verified": false
+  }
+]

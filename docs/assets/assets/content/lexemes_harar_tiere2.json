@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_ht2_ferres",
+    "am": "ፈረስ",
+    "tr": "feres",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "das Pferd",
+      "en": "horse",
+      "sv": "häst",
+      "nl": "paard",
+      "it": "il cavallo",
+      "es": "el caballo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐴",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_ferenj_dog",
+    "am": "ውሻ",
+    "tr": "wisha",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "der Hund",
+      "en": "dog",
+      "sv": "hund",
+      "nl": "hond",
+      "it": "il cane",
+      "es": "el perro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐕",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_dimet",
+    "am": "ድመት",
+    "tr": "dimet",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "die Katze",
+      "en": "cat",
+      "sv": "katt",
+      "nl": "kat",
+      "it": "il gatto",
+      "es": "el gato"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐈",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_doro2",
+    "am": "ዶሮ",
+    "tr": "doro",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "das Hähnchen, Huhn",
+      "en": "chicken",
+      "sv": "kyckling, höna",
+      "nl": "kip",
+      "it": "il pollo",
+      "es": "el pollo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐔",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_ayit",
+    "am": "አይጥ",
+    "tr": "ayit",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "die Maus",
+      "en": "mouse, rat",
+      "sv": "mus, råtta",
+      "nl": "muis",
+      "it": "il topo",
+      "es": "el ratón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐁",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_nib2",
+    "am": "ንብ",
+    "tr": "nib",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "die Biene",
+      "en": "bee",
+      "sv": "bi",
+      "nl": "bij",
+      "it": "l'ape",
+      "es": "la abeja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐝",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_fasama",
+    "am": "ዝንብ",
+    "tr": "zinib",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "die Fliege",
+      "en": "fly (insect)",
+      "sv": "fluga",
+      "nl": "vlieg",
+      "it": "la mosca",
+      "es": "la mosca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪰",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_ilfe",
+    "am": "እልፍ",
+    "tr": "ilf",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "die Ameise",
+      "en": "ant",
+      "sv": "myra",
+      "nl": "mier",
+      "it": "la formica",
+      "es": "la hormiga"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐜",
+    "verified": false
+  },
+  {
+    "id": "lex_ht2_ambesa",
+    "am": "አንበሳ",
+    "tr": "anibesa",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "der Löwe",
+      "en": "lion",
+      "sv": "lejon",
+      "nl": "leeuw",
+      "it": "il leone",
+      "es": "el león"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🦁",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_zihon",
+    "am": "ዝሆን",
+    "tr": "zihon",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "der Elefant",
+      "en": "elephant",
+      "sv": "elefant",
+      "nl": "olifant",
+      "it": "l'elefante",
+      "es": "el elefante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐘",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_neber",
+    "am": "ነብር",
+    "tr": "nebir",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "der Leopard, Tiger",
+      "en": "leopard, tiger",
+      "sv": "leopard, tiger",
+      "nl": "luipaard, tijger",
+      "it": "il leopardo, la tigre",
+      "es": "el leopardo, el tigre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_arwe_bahir",
+    "am": "አዞ",
+    "tr": "azo",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "das Krokodil",
+      "en": "crocodile",
+      "sv": "krokodil",
+      "nl": "krokodil",
+      "it": "il coccodrillo",
+      "es": "el cocodrilo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐊",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_iske",
+    "am": "እባብ",
+    "tr": "ibab",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "die Schlange",
+      "en": "snake",
+      "sv": "orm",
+      "nl": "slang",
+      "it": "il serpente",
+      "es": "la serpiente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐍",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_asama",
+    "am": "አሳ",
+    "tr": "asa",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "der Fisch",
+      "en": "fish",
+      "sv": "fisk",
+      "nl": "vis",
+      "it": "il pesce",
+      "es": "el pez"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐟",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_akal10",
+    "am": "ግመል",
+    "tr": "gimel",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "das Kamel",
+      "en": "camel",
+      "sv": "kamel",
+      "nl": "kameel",
+      "it": "il cammello",
+      "es": "el camello"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐫",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_gilgel",
+    "am": "ግልገል",
+    "tr": "giligel",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "das Junge (Tier)",
+      "en": "animal cub, offspring",
+      "sv": "djurunge",
+      "nl": "dierenjong",
+      "it": "il cucciolo",
+      "es": "la cría"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_dagusa",
+    "am": "ቀንድ",
+    "tr": "k'enid",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "das Horn (Tier)",
+      "en": "horn (animal)",
+      "sv": "horn (djur)",
+      "nl": "hoorn (dier)",
+      "it": "il corno",
+      "es": "el cuerno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_kinif",
+    "am": "ክንፍ",
+    "tr": "kinif",
+    "pos": "noun",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "der Flügel",
+      "en": "wing",
+      "sv": "vinge",
+      "nl": "vleugel",
+      "it": "l'ala",
+      "es": "el ala"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_v_meber",
+    "am": "መብረር",
+    "tr": "mebirer",
+    "pos": "verb",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "fliegen",
+      "en": "to fly",
+      "sv": "flyga",
+      "nl": "vliegen",
+      "it": "volare",
+      "es": "volar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ht2_v_mewetsa",
+    "am": "መዋኘት",
+    "tr": "mewagniet",
+    "pos": "verb",
+    "topic": "animals_2",
+    "level": "B2",
+    "t": {
+      "de": "schwimmen (Tier)",
+      "en": "to swim (animal)",
+      "sv": "simma (djur)",
+      "nl": "zwemmen (dier)",
+      "it": "nuotare",
+      "es": "nadar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

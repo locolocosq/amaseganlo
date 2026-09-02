@@ -1,0 +1,25 @@
+[
+  {
+    "id": "sen_geberie_sira",
+    "am": "ገበሬው ይሰራል።",
+    "tr": "geberiew yiserall.",
+    "level": "A2",
+    "uses": [
+      "lex_bauer"
+    ],
+    "t": {
+      "de": "Der Bauer arbeitet.",
+      "en": "The farmer works.",
+      "sv": "Bonden arbetar.",
+      "nl": "De boer werkt.",
+      "it": "Il contadino lavora.",
+      "es": "El agricultor trabaja."
+    },
+    "alt": {},
+    "chunks": [
+      "geberiew",
+      "yiserall"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_kray",
+    "am": "ክራይ",
+    "tr": "kiray",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "die Miete",
+      "en": "rent",
+      "sv": "hyra",
+      "nl": "huur",
+      "it": "l'affitto",
+      "es": "el alquiler"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bealgz",
+    "am": "ወነንቲ ገዛ",
+    "tr": "wenenti geza",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "der Vermieter",
+      "en": "landlord",
+      "sv": "hyresvärd",
+      "nl": "verhuurder",
+      "it": "il padrone di casa",
+      "es": "el propietario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kraygz",
+    "am": "ተኻራዪ",
+    "tr": "tekharayi",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "der Mieter",
+      "en": "tenant",
+      "sv": "hyresgäst",
+      "nl": "huurder",
+      "it": "l'inquilino",
+      "es": "el inquilino"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hntsa",
+    "am": "ህንጻ",
+    "tr": "hintsa",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "das Gebäude",
+      "en": "building",
+      "sv": "byggnad",
+      "nl": "gebouw",
+      "it": "l'edificio",
+      "es": "el edificio"
+    },
+    "emoji": "🏢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_apartment",
+    "am": "ኣፓርታማ",
+    "tr": "apartama",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "die Wohnung",
+      "en": "apartment",
+      "sv": "lägenhet",
+      "nl": "appartement",
+      "it": "l'appartamento",
+      "es": "el apartamento"
+    },
+    "emoji": "🏢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wela",
+    "am": "ደወል ማዕጾ",
+    "tr": "dewel ma'etso",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "die Türklingel",
+      "en": "doorbell",
+      "sv": "dörrklocka",
+      "nl": "deurbel",
+      "it": "il campanello",
+      "es": "el timbre"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gozo",
+    "am": "ቀጽሪ",
+    "tr": "qetsri",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "der Hof, Zaun",
+      "en": "yard, fence",
+      "sv": "gård, staket",
+      "nl": "erf, hek",
+      "it": "il cortile, il recinto",
+      "es": "el patio, la valla"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzti2",
+    "am": "ኣንቀርቀሮ",
+    "tr": "anqerqero",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "TI",
+    "t": {
+      "de": "der Balkon",
+      "en": "balcony",
+      "sv": "balkong",
+      "nl": "balkon",
+      "it": "il balcone",
+      "es": "el balcón"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

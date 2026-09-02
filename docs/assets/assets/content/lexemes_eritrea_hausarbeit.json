@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_hzbi2",
+    "am": "ጽሬት ግበር",
+    "tr": "tsiret gber",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "aufräumen",
+      "en": "to tidy up",
+      "sv": "städa upp",
+      "nl": "opruimen",
+      "it": "mettere in ordine, riordinare",
+      "es": "ordenar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agsi",
+    "am": "ኣጋግሕ",
+    "tr": "agagih",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "bügeln",
+      "en": "to iron",
+      "sv": "stryka",
+      "nl": "strijken",
+      "it": "stirare",
+      "es": "planchar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hyci",
+    "am": "ሓጽብ (ኣቕሓ)",
+    "tr": "hatsib aqiha",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "Geschirr spülen",
+      "en": "to wash dishes",
+      "sv": "diska",
+      "nl": "afwassen",
+      "it": "lavare i piatti",
+      "es": "lavar los platos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qwmi2",
+    "am": "ኣንጽፍ ዓራት",
+    "tr": "antsif 'arat",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "das Bett machen",
+      "en": "to make the bed",
+      "sv": "bädda sängen",
+      "nl": "het bed opmaken",
+      "it": "fare il letto",
+      "es": "hacer la cama"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gnbi",
+    "am": "ሽርቢ ውሰድ",
+    "tr": "shirbi wised",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "den Müll rausbringen",
+      "en": "to take out the trash",
+      "sv": "tömma soporna",
+      "nl": "het vuilnis buitenzetten",
+      "it": "portare fuori la spazzatura",
+      "es": "sacar la basura"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zbti2",
+    "am": "ጽረግ",
+    "tr": "tsireg",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "fegen, kehren",
+      "en": "to sweep",
+      "sv": "sopa",
+      "nl": "vegen",
+      "it": "spazzare",
+      "es": "barrer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hbti2",
+    "am": "ኣጠቢ",
+    "tr": "at'ebi",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "Wäsche waschen",
+      "en": "to do laundry",
+      "sv": "tvätta kläder",
+      "nl": "wassen (kleding)",
+      "it": "fare il bucato",
+      "es": "lavar la ropa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sqli2",
+    "am": "ኣጽርይ",
+    "tr": "atsiriy",
+    "pos": "verb",
+    "topic": "chores",
+    "level": "TI",
+    "t": {
+      "de": "gießen (Pflanzen)",
+      "en": "to water (plants)",
+      "sv": "vattna",
+      "nl": "water geven (planten)",
+      "it": "annaffiare (le piante)",
+      "es": "regar (las plantas)"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

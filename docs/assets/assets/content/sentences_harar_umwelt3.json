@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sen_hu3_dirikat_wana_wihel",
+    "am": "ድርቅ መጥፎ ነው፤ ጎርፍ ደግሞ አደገኛ ነው።",
+    "tr": "dirik' met'fo newu; gorif degimo adegegna newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hu3_dirikat",
+      "lex_hu3_wana_wihel"
+    ],
+    "t": {
+      "de": "Dürre ist schlecht, Flut aber ist gefährlich.",
+      "en": "Drought is bad, but flood is dangerous.",
+      "sv": "Torka är dåligt, men översvämning är farligt.",
+      "nl": "Droogte is slecht, maar overstroming is gevaarlijk.",
+      "it": "La siccità è brutta, ma l'alluvione è pericolosa.",
+      "es": "La sequía es mala, pero la inundación es peligrosa."
+    },
+    "chunks": [
+      "dirik'",
+      "met'fo",
+      "newu",
+      "gorif",
+      "degimo",
+      "adegegna",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hu3_zenab_wond_ayer",
+    "am": "ዝናብ እና ንፍስ አየሩን ይቀይራሉ።",
+    "tr": "zinab ina nifas ayerun yik'eyiralu.",
+    "level": "B2",
+    "uses": [
+      "lex_hu3_zenab",
+      "lex_hu3_wond_ayer"
+    ],
+    "t": {
+      "de": "Regen und Wind verändern das Wetter.",
+      "en": "Rain and wind change the weather.",
+      "sv": "Regn och vind förändrar vädret.",
+      "nl": "Regen en wind veranderen het weer.",
+      "it": "La pioggia e il vento cambiano il tempo.",
+      "es": "La lluvia y el viento cambian el clima."
+    },
+    "chunks": [
+      "zinab",
+      "ina",
+      "nifas",
+      "ayerun",
+      "yik'eyiralu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hu3_hod_bird",
+    "am": "ሙቀት ጥሩ ነው፤ ብርድ ግን መጥፎ ነው።",
+    "tr": "muk'et t'iru newu; birid gin met'fo newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hu3_hod",
+      "lex_hu3_bird"
+    ],
+    "t": {
+      "de": "Hitze ist gut, Kälte aber ist schlecht.",
+      "en": "Heat is good, but cold is bad.",
+      "sv": "Värme är bra, men kyla är dåligt.",
+      "nl": "Hitte is goed, maar kou is slecht.",
+      "it": "Il caldo è buono, ma il freddo è brutto.",
+      "es": "El calor es bueno, pero el frío es malo."
+    },
+    "chunks": [
+      "muk'et",
+      "t'iru",
+      "newu",
+      "birid",
+      "gin",
+      "met'fo",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hu3_adj_netsa_bekil",
+    "am": "ንፁህ አየር ጥሩ ነው፤ የቆሸሸ አየር መጥፎ ነው።",
+    "tr": "nits'uh ayer t'iru newu; yek'oshoshe ayer met'fo newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hu3_adj_netsa",
+      "lex_hu3_adj_bekil",
+      "lex_hu3_akababi4"
+    ],
+    "t": {
+      "de": "Saubere Luft ist gut, schmutzige Luft ist schlecht.",
+      "en": "Clean air is good, dirty air is bad.",
+      "sv": "Ren luft är bra, smutsig luft är dålig.",
+      "nl": "Schone lucht is goed, vuile lucht is slecht.",
+      "it": "L'aria pulita è buona, l'aria sporca è cattiva.",
+      "es": "El aire limpio es bueno, el aire sucio es malo."
+    },
+    "chunks": [
+      "nits'uh",
+      "ayer",
+      "t'iru",
+      "newu",
+      "yek'oshoshe",
+      "ayer",
+      "met'fo",
+      "newu"
+    ],
+    "verified": false
+  }
+]

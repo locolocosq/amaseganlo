@@ -1,0 +1,170 @@
+[
+  {
+    "id": "unit_eritrea_umzug_nachbarschaft_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_umz_bxi",
+      "lex_ti_umz_trck",
+      "lex_ti_umz_rnt",
+      "lex_ti_umz_own",
+      "lex_ti_umz_lease",
+      "lex_ti_umz_owner",
+      "lex_ti_umz_movd",
+      "lex_ti_nbr_neig",
+      "lex_ti_nbr_comm",
+      "lex_ti_nbr_dist",
+      "lex_ti_nbr_sqr",
+      "lex_ti_nbr_park",
+      "lex_ti_nbr_meet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_umzug_nachbarschaft_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_umz_bxi",
+      "lex_ti_umz_trck",
+      "lex_ti_umz_rnt",
+      "lex_ti_umz_own",
+      "lex_ti_umz_lease",
+      "lex_ti_umz_owner",
+      "lex_ti_umz_movd",
+      "lex_ti_nbr_neig",
+      "lex_ti_nbr_comm",
+      "lex_ti_nbr_dist",
+      "lex_ti_nbr_sqr",
+      "lex_ti_nbr_park",
+      "lex_ti_nbr_meet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umzug_nachbarschaft_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_umz_bxi",
+      "lex_ti_umz_trck",
+      "lex_ti_umz_rnt",
+      "lex_ti_umz_own",
+      "lex_ti_umz_lease",
+      "lex_ti_umz_owner",
+      "lex_ti_umz_movd",
+      "lex_ti_nbr_neig",
+      "lex_ti_nbr_comm",
+      "lex_ti_nbr_dist",
+      "lex_ti_nbr_sqr",
+      "lex_ti_nbr_park",
+      "lex_ti_nbr_meet"
+    ],
+    "sentenceIds": [
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
+      "sen_gen_umz_lease"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umzug_nachbarschaft_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_umz_bxi",
+      "lex_ti_umz_trck",
+      "lex_ti_umz_rnt",
+      "lex_ti_umz_own",
+      "lex_ti_umz_lease",
+      "lex_ti_umz_owner",
+      "lex_ti_umz_movd",
+      "lex_ti_nbr_neig",
+      "lex_ti_nbr_comm",
+      "lex_ti_nbr_dist",
+      "lex_ti_nbr_sqr",
+      "lex_ti_nbr_park",
+      "lex_ti_nbr_meet"
+    ],
+    "sentenceIds": [
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
+      "sen_gen_umz_lease"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umzug_nachbarschaft_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_umz_bxi",
+      "lex_ti_umz_trck",
+      "lex_ti_umz_rnt",
+      "lex_ti_umz_own",
+      "lex_ti_umz_lease",
+      "lex_ti_umz_owner",
+      "lex_ti_umz_movd",
+      "lex_ti_nbr_neig",
+      "lex_ti_nbr_comm",
+      "lex_ti_nbr_dist",
+      "lex_ti_nbr_sqr",
+      "lex_ti_nbr_park",
+      "lex_ti_nbr_meet"
+    ],
+    "sentenceIds": [
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
+      "sen_gen_umz_lease"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umzug_nachbarschaft_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_umz_bxi",
+      "lex_ti_umz_trck",
+      "lex_ti_umz_rnt",
+      "lex_ti_umz_own",
+      "lex_ti_umz_lease",
+      "lex_ti_umz_owner",
+      "lex_ti_umz_movd",
+      "lex_ti_nbr_neig",
+      "lex_ti_nbr_comm",
+      "lex_ti_nbr_dist",
+      "lex_ti_nbr_sqr",
+      "lex_ti_nbr_park",
+      "lex_ti_nbr_meet"
+    ],
+    "sentenceIds": [
+      "sen_ti_umzug_nachbarschaft_1",
+      "sen_gen_umz_trck",
+      "sen_fix_umz_owner",
+      "sen_fix_nbr_neig",
+      "sen_gen_umz_lease"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

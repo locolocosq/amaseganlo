@@ -1,0 +1,170 @@
+[
+  {
+    "id": "unit_berufe_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_berufe_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_berufe_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_berufe_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_berufe_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_berufe_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_bauer",
+      "lex_koch",
+      "lex_fahrer",
+      "lex_ingenieur",
+      "lex_kuenstler",
+      "lex_musiker",
+      "lex_schriftsteller",
+      "lex_verkaeufer",
+      "lex_pilot",
+      "lex_kellner",
+      "lex_anwalt",
+      "lex_soldat",
+      "lex_praesident"
+    ],
+    "sentenceIds": [
+      "sen_geberie_sira",
+      "sen_gen_koch",
+      "sen_gen_fahrer",
+      "sen_gen_ingenieur",
+      "sen_gen_kuenstler"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

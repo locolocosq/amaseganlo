@@ -1,0 +1,262 @@
+[
+  {
+    "id": "lex_gelegenheit",
+    "am": "አጋጣሚ",
+    "tr": "agatami",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Gelegenheit",
+      "en": "opportunity",
+      "sv": "tillfälle",
+      "nl": "gelegenheid",
+      "it": "l'occasione",
+      "es": "la oportunidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_erfahrung",
+    "am": "ልምድ",
+    "tr": "limid",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Erfahrung",
+      "en": "experience",
+      "sv": "erfarenhet",
+      "nl": "ervaring",
+      "it": "l'esperienza",
+      "es": "la experiencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_erinnerung_n",
+    "am": "መታሰቢያ",
+    "tr": "metasebiya",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Erinnerung (Andenken)",
+      "en": "memory (keepsake)",
+      "sv": "minne",
+      "nl": "herinnering",
+      "it": "il ricordo (souvenir)",
+      "es": "el recuerdo (souvenir)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_geheimnis",
+    "am": "ምስጢር",
+    "tr": "misit'ir",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "das Geheimnis",
+      "en": "secret",
+      "sv": "hemlighet",
+      "nl": "geheim",
+      "it": "il segreto",
+      "es": "el secreto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_versprechen_n",
+    "am": "ቃል",
+    "tr": "k'al",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "das Versprechen",
+      "en": "promise",
+      "sv": "löfte",
+      "nl": "belofte",
+      "it": "la promessa",
+      "es": "la promesa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ueberraschung",
+    "am": "መደነቅ",
+    "tr": "medenek'",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Überraschung",
+      "en": "surprise",
+      "sv": "överraskning",
+      "nl": "verrassing",
+      "it": "la sorpresa",
+      "es": "la sorpresa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_chance",
+    "am": "ዕድል",
+    "tr": "i'dil",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Chance, das Los",
+      "en": "chance, luck",
+      "sv": "chans, lycka",
+      "nl": "kans, geluk",
+      "it": "l'occasione, la fortuna",
+      "es": "la oportunidad, la suerte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_abenteuer",
+    "am": "ጀብድ",
+    "tr": "jebid",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "das Abenteuer",
+      "en": "adventure",
+      "sv": "äventyr",
+      "nl": "avontuur",
+      "it": "l'avventura",
+      "es": "la aventura"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vertrauen",
+    "am": "እምነት",
+    "tr": "imnet",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "das Vertrauen",
+      "en": "trust",
+      "sv": "förtroende",
+      "nl": "vertrouwen",
+      "it": "la fiducia",
+      "es": "la confianza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_muehe_aufwand",
+    "am": "ጥረት",
+    "tr": "t'iret",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Mühe, der Aufwand",
+      "en": "effort",
+      "sv": "ansträngning",
+      "nl": "moeite",
+      "it": "lo sforzo",
+      "es": "el esfuerzo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_risiko",
+    "am": "አደጋ (ስጋት)",
+    "tr": "adega (sigat)",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "das Risiko",
+      "en": "risk",
+      "sv": "risk",
+      "nl": "risico",
+      "it": "il rischio",
+      "es": "el riesgo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_mut",
+    "am": "ጀግንነት",
+    "tr": "jeginnet",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "der Mut",
+      "en": "courage",
+      "sv": "mod",
+      "nl": "moed",
+      "it": "il coraggio",
+      "es": "el valor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geduld_n",
+    "am": "ትዕግስት",
+    "tr": "ti'igist",
+    "pos": "noun",
+    "topic": "nouns_more",
+    "level": "B1",
+    "t": {
+      "de": "die Geduld",
+      "en": "patience",
+      "sv": "tålamod",
+      "nl": "geduld",
+      "it": "la pazienza",
+      "es": "la paciencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

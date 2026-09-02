@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_knf_argu",
+    "am": "ተኻራኸረ",
+    "tr": "tekharakhere",
+    "pos": "verb",
+    "topic": "conflict",
+    "level": "TI",
+    "t": {
+      "de": "streiten",
+      "en": "to argue",
+      "sv": "att gräla",
+      "nl": "ruzie maken",
+      "it": "litigare",
+      "es": "discutir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knf_fght",
+    "am": "ባእሲ",
+    "tr": "ba'isi",
+    "pos": "noun",
+    "topic": "conflict",
+    "level": "TI",
+    "t": {
+      "de": "der Streit",
+      "en": "fight, quarrel",
+      "sv": "gräl",
+      "nl": "ruzie",
+      "it": "il litigio",
+      "es": "la pelea"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knf_sorry2",
+    "am": "ይቕረ በለ",
+    "tr": "yiqire bele",
+    "pos": "verb",
+    "topic": "conflict",
+    "level": "TI",
+    "t": {
+      "de": "sich entschuldigen",
+      "en": "to apologize",
+      "sv": "att be om ursäkt",
+      "nl": "verontschuldigen",
+      "it": "scusarsi",
+      "es": "disculparse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knf_frgv",
+    "am": "ይቕረ ኢሉ ሓደገ",
+    "tr": "yiqire 'ilu hadege",
+    "pos": "verb",
+    "topic": "conflict",
+    "level": "TI",
+    "t": {
+      "de": "vergeben, verzeihen",
+      "en": "to forgive",
+      "sv": "att förlåta",
+      "nl": "vergeven",
+      "it": "perdonare",
+      "es": "perdonar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_knf_reconcl",
+    "am": "ተዓረቐ",
+    "tr": "te'areqe",
+    "pos": "verb",
+    "topic": "conflict",
+    "level": "TI",
+    "t": {
+      "de": "sich versöhnen",
+      "en": "to reconcile",
+      "sv": "att försonas",
+      "nl": "verzoenen",
+      "it": "riconciliarsi",
+      "es": "reconciliarse"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

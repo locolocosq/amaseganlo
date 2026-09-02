@@ -1,0 +1,170 @@
+[
+  {
+    "id": "unit_substantive_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gelegenheit",
+      "lex_erfahrung",
+      "lex_erinnerung_n",
+      "lex_geheimnis",
+      "lex_versprechen_n",
+      "lex_ueberraschung",
+      "lex_chance",
+      "lex_abenteuer",
+      "lex_vertrauen",
+      "lex_muehe_aufwand",
+      "lex_risiko",
+      "lex_mut",
+      "lex_geduld_n"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_substantive_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gelegenheit",
+      "lex_erfahrung",
+      "lex_erinnerung_n",
+      "lex_geheimnis",
+      "lex_versprechen_n",
+      "lex_ueberraschung",
+      "lex_chance",
+      "lex_abenteuer",
+      "lex_vertrauen",
+      "lex_muehe_aufwand",
+      "lex_risiko",
+      "lex_mut",
+      "lex_geduld_n"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_substantive_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gelegenheit",
+      "lex_erfahrung",
+      "lex_erinnerung_n",
+      "lex_geheimnis",
+      "lex_versprechen_n",
+      "lex_ueberraschung",
+      "lex_chance",
+      "lex_abenteuer",
+      "lex_vertrauen",
+      "lex_muehe_aufwand",
+      "lex_risiko",
+      "lex_mut",
+      "lex_geduld_n"
+    ],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_substantive_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gelegenheit",
+      "lex_erfahrung",
+      "lex_erinnerung_n",
+      "lex_geheimnis",
+      "lex_versprechen_n",
+      "lex_ueberraschung",
+      "lex_chance",
+      "lex_abenteuer",
+      "lex_vertrauen",
+      "lex_muehe_aufwand",
+      "lex_risiko",
+      "lex_mut",
+      "lex_geduld_n"
+    ],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_substantive_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gelegenheit",
+      "lex_erfahrung",
+      "lex_erinnerung_n",
+      "lex_geheimnis",
+      "lex_versprechen_n",
+      "lex_ueberraschung",
+      "lex_chance",
+      "lex_abenteuer",
+      "lex_vertrauen",
+      "lex_muehe_aufwand",
+      "lex_risiko",
+      "lex_mut",
+      "lex_geduld_n"
+    ],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_substantive_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gelegenheit",
+      "lex_erfahrung",
+      "lex_erinnerung_n",
+      "lex_geheimnis",
+      "lex_versprechen_n",
+      "lex_ueberraschung",
+      "lex_chance",
+      "lex_abenteuer",
+      "lex_vertrauen",
+      "lex_muehe_aufwand",
+      "lex_risiko",
+      "lex_mut",
+      "lex_geduld_n"
+    ],
+    "sentenceIds": [
+      "sen_gen_gelegenheit",
+      "sen_gen_erfahrung",
+      "sen_gen_erinnerung_n",
+      "sen_gen_geheimnis",
+      "sen_gen_versprechen_n"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

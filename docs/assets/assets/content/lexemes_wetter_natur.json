@@ -1,0 +1,562 @@
+[
+  {
+    "id": "lex_sonne",
+    "am": "ፀሐይ",
+    "tr": "ts'ehay",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Sonne",
+      "en": "sun",
+      "sv": "sol",
+      "nl": "zon",
+      "it": "il sole",
+      "es": "el sol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☀️",
+    "verified": true
+  },
+  {
+    "id": "lex_regen",
+    "am": "ዝናብ",
+    "tr": "zinab",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Regen",
+      "en": "rain",
+      "sv": "regn",
+      "nl": "regen",
+      "it": "la pioggia",
+      "es": "la lluvia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌧️",
+    "verified": true
+  },
+  {
+    "id": "lex_wind",
+    "am": "ነፋስ",
+    "tr": "nefas",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Wind",
+      "en": "wind",
+      "sv": "vind",
+      "nl": "wind",
+      "it": "il vento",
+      "es": "el viento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💨",
+    "verified": true
+  },
+  {
+    "id": "lex_berg",
+    "am": "ተራራ",
+    "tr": "terara",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Berg",
+      "en": "mountain",
+      "sv": "berg",
+      "nl": "berg",
+      "it": "la montagna",
+      "es": "la montaña"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⛰️",
+    "verified": true
+  },
+  {
+    "id": "lex_fluss",
+    "am": "ወንዝ",
+    "tr": "wenz",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Fluss",
+      "en": "river",
+      "sv": "flod",
+      "nl": "rivier",
+      "it": "il fiume",
+      "es": "el río"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏞️",
+    "verified": true
+  },
+  {
+    "id": "lex_baum",
+    "am": "ዛፍ",
+    "tr": "zaf",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Baum",
+      "en": "tree",
+      "sv": "träd",
+      "nl": "boom",
+      "it": "l'albero",
+      "es": "el árbol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌳",
+    "verified": true
+  },
+  {
+    "id": "lex_tier",
+    "am": "እንስሳ",
+    "tr": "insisa",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "das Tier",
+      "en": "animal",
+      "sv": "djur",
+      "nl": "dier",
+      "it": "l'animale",
+      "es": "el animal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐾",
+    "verified": true
+  },
+  {
+    "id": "lex_hund",
+    "am": "ውሻ",
+    "tr": "wusha",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Hund",
+      "en": "dog",
+      "sv": "hund",
+      "nl": "hond",
+      "it": "il cane",
+      "es": "el perro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐕",
+    "verified": true
+  },
+  {
+    "id": "lex_katze",
+    "am": "ድመት",
+    "tr": "dimet",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Katze",
+      "en": "cat",
+      "sv": "katt",
+      "nl": "kat",
+      "it": "il gatto",
+      "es": "el gato"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐈",
+    "verified": true
+  },
+  {
+    "id": "lex_vogel",
+    "am": "ወፍ",
+    "tr": "wef",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Vogel",
+      "en": "bird",
+      "sv": "fågel",
+      "nl": "vogel",
+      "it": "l'uccello",
+      "es": "el pájaro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐦",
+    "verified": true
+  },
+  {
+    "id": "lex_himmel",
+    "am": "ሰማይ",
+    "tr": "semay",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Himmel",
+      "en": "sky",
+      "sv": "himmel",
+      "nl": "lucht",
+      "it": "il cielo",
+      "es": "el cielo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌤️",
+    "verified": true
+  },
+  {
+    "id": "lex_wolke",
+    "am": "ደመና",
+    "tr": "demena",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Wolke",
+      "en": "cloud",
+      "sv": "moln",
+      "nl": "wolk",
+      "it": "la nuvola",
+      "es": "la nube"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☁️",
+    "verified": true
+  },
+  {
+    "id": "lex_schnee",
+    "am": "በረዶ",
+    "tr": "beredo",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Schnee, das Eis",
+      "en": "snow, ice",
+      "sv": "snö, is",
+      "nl": "sneeuw, ijs",
+      "it": "la neve, il ghiaccio",
+      "es": "la nieve, el hielo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "❄️",
+    "verified": false
+  },
+  {
+    "id": "lex_blume",
+    "am": "አበባ",
+    "tr": "abeba",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Blume",
+      "en": "flower",
+      "sv": "blomma",
+      "nl": "bloem",
+      "it": "il fiore",
+      "es": "la flor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌸",
+    "verified": true
+  },
+  {
+    "id": "lex_wetter",
+    "am": "የአየር ሁኔታ",
+    "tr": "ye'ayer huneta",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "das Wetter",
+      "en": "weather",
+      "sv": "väder",
+      "nl": "weer",
+      "it": "il tempo (meteo)",
+      "es": "el tiempo (clima)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wald",
+    "am": "ጫካ",
+    "tr": "chaka",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Wald",
+      "en": "forest",
+      "sv": "skog",
+      "nl": "bos",
+      "it": "il bosco",
+      "es": "el bosque"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌲",
+    "verified": false
+  },
+  {
+    "id": "lex_see",
+    "am": "ሐይቅ",
+    "tr": "hayk",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der See",
+      "en": "lake",
+      "sv": "sjö",
+      "nl": "meer",
+      "it": "il lago",
+      "es": "el lago"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏞️",
+    "verified": false
+  },
+  {
+    "id": "lex_meer",
+    "am": "ውቅያኖስ",
+    "tr": "wik'yanos",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "das Meer, der Ozean",
+      "en": "sea, ocean",
+      "sv": "hav, ocean",
+      "nl": "zee, oceaan",
+      "it": "il mare, l'oceano",
+      "es": "el mar, el océano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌊",
+    "verified": false
+  },
+  {
+    "id": "lex_stern",
+    "am": "ኮከብ",
+    "tr": "kokeb",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Stern",
+      "en": "star",
+      "sv": "stjärna",
+      "nl": "ster",
+      "it": "la stella",
+      "es": "la estrella"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⭐",
+    "verified": false
+  },
+  {
+    "id": "lex_mond",
+    "am": "ጨረቃ",
+    "tr": "cherek'a",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Mond",
+      "en": "moon",
+      "sv": "måne",
+      "nl": "maan",
+      "it": "la luna",
+      "es": "la luna"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌙",
+    "verified": false
+  },
+  {
+    "id": "lex_feuer",
+    "am": "እሳት",
+    "tr": "isat",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "das Feuer",
+      "en": "fire",
+      "sv": "eld",
+      "nl": "vuur",
+      "it": "il fuoco",
+      "es": "el fuego"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔥",
+    "verified": false
+  },
+  {
+    "id": "lex_erde",
+    "am": "መሬት",
+    "tr": "meret",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Erde, der Boden",
+      "en": "earth, ground",
+      "sv": "jord, mark",
+      "nl": "aarde, grond",
+      "it": "la terra, il suolo",
+      "es": "la tierra, el suelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌍",
+    "verified": false
+  },
+  {
+    "id": "lex_luft",
+    "am": "አየር",
+    "tr": "ayer",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Luft",
+      "en": "air",
+      "sv": "luft",
+      "nl": "lucht",
+      "it": "l'aria",
+      "es": "el aire"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌬️",
+    "verified": true
+  },
+  {
+    "id": "lex_loewe",
+    "am": "አንበሳ",
+    "tr": "anbesa",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Löwe",
+      "en": "lion",
+      "sv": "lejon",
+      "nl": "leeuw",
+      "it": "il leone",
+      "es": "el león"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🦁",
+    "verified": true
+  },
+  {
+    "id": "lex_elefant",
+    "am": "ዝሆን",
+    "tr": "zihon",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Elefant",
+      "en": "elephant",
+      "sv": "elefant",
+      "nl": "olifant",
+      "it": "l'elefante",
+      "es": "el elefante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐘",
+    "verified": true
+  },
+  {
+    "id": "lex_affe",
+    "am": "ጦጣ",
+    "tr": "t'ot'a",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Affe",
+      "en": "monkey",
+      "sv": "apa",
+      "nl": "aap",
+      "it": "la scimmia",
+      "es": "el mono"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐒",
+    "verified": false
+  },
+  {
+    "id": "lex_schlange",
+    "am": "እባብ",
+    "tr": "ibab",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "die Schlange",
+      "en": "snake",
+      "sv": "orm",
+      "nl": "slang",
+      "it": "il serpente",
+      "es": "la serpiente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐍",
+    "verified": false
+  },
+  {
+    "id": "lex_fisch",
+    "am": "አሳ",
+    "tr": "asa",
+    "pos": "noun",
+    "topic": "weather_nature",
+    "level": "A2",
+    "t": {
+      "de": "der Fisch",
+      "en": "fish",
+      "sv": "fisk",
+      "nl": "vis",
+      "it": "il pesce",
+      "es": "el pez"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🐟",
+    "verified": true
+  }
+]

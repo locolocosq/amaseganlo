@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_substantive_3_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_substantive_3_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_substantive_3_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_entscheidung",
+      "lex_projekt",
+      "lex_lebensziel",
+      "lex_gewohnheit",
+      "lex_zeremonie",
+      "lex_feier",
+      "lex_beerdigung"
+    ],
+    "sentenceIds": [
+      "sen_gen_entscheidung",
+      "sen_gen_projekt",
+      "sen_gen_lebensziel",
+      "sen_gen_gewohnheit",
+      "sen_gen_zeremonie"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

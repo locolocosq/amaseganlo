@@ -1,0 +1,382 @@
+[
+  {
+    "id": "lex_bus",
+    "am": "አውቶቢስ",
+    "tr": "awtobis",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "der Bus",
+      "en": "bus",
+      "sv": "buss",
+      "nl": "bus",
+      "it": "l'autobus",
+      "es": "el autobús"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚌",
+    "verified": true
+  },
+  {
+    "id": "lex_taxi",
+    "am": "ታክሲ",
+    "tr": "taksi",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Taxi",
+      "en": "taxi",
+      "sv": "taxi",
+      "nl": "taxi",
+      "it": "il taxi",
+      "es": "el taxi"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚕",
+    "verified": true
+  },
+  {
+    "id": "lex_flugzeug",
+    "am": "አውሮፕላን",
+    "tr": "awroplan",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Flugzeug",
+      "en": "airplane",
+      "sv": "flygplan",
+      "nl": "vliegtuig",
+      "it": "l'aereo",
+      "es": "el avión"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✈️",
+    "verified": true
+  },
+  {
+    "id": "lex_ticket",
+    "am": "ትኬት",
+    "tr": "tiket",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Ticket, die Fahrkarte",
+      "en": "ticket",
+      "sv": "biljett",
+      "nl": "ticket",
+      "it": "il biglietto",
+      "es": "el billete"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎫",
+    "verified": true
+  },
+  {
+    "id": "lex_gepaeck",
+    "am": "ሻንጣ",
+    "tr": "shanta",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Gepäck, die Tasche",
+      "en": "luggage, bag",
+      "sv": "bagage",
+      "nl": "bagage",
+      "it": "il bagaglio, la borsa",
+      "es": "el equipaje, la bolsa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧳",
+    "verified": true
+  },
+  {
+    "id": "lex_auto",
+    "am": "መኪና",
+    "tr": "mekina",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Auto",
+      "en": "car",
+      "sv": "bil",
+      "nl": "auto",
+      "it": "l'auto",
+      "es": "el coche"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚗",
+    "verified": true
+  },
+  {
+    "id": "lex_zug",
+    "am": "ባቡር",
+    "tr": "babur",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "der Zug",
+      "en": "train",
+      "sv": "tåg",
+      "nl": "trein",
+      "it": "il treno",
+      "es": "el tren"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚆",
+    "verified": true
+  },
+  {
+    "id": "lex_v_fahren",
+    "am": "መንዳት",
+    "tr": "mendat",
+    "pos": "verb",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "fahren",
+      "en": "to drive",
+      "sv": "köra",
+      "nl": "rijden",
+      "it": "guidare",
+      "es": "conducir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_reisen",
+    "am": "መጓዝ",
+    "tr": "megwaz",
+    "pos": "verb",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "reisen",
+      "en": "to travel",
+      "sv": "resa",
+      "nl": "reizen",
+      "it": "viaggiare",
+      "es": "viajar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_ankommen",
+    "am": "መድረስ",
+    "tr": "medres",
+    "pos": "verb",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "ankommen",
+      "en": "to arrive",
+      "sv": "anlända",
+      "nl": "aankomen",
+      "it": "arrivare",
+      "es": "llegar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_pass",
+    "am": "ፓስፖርት",
+    "tr": "pasport",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "der Reisepass",
+      "en": "passport",
+      "sv": "pass",
+      "nl": "paspoort",
+      "it": "il passaporto",
+      "es": "el pasaporte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📘",
+    "verified": true
+  },
+  {
+    "id": "lex_fahrrad",
+    "am": "ብስክሌት",
+    "tr": "bisiklet",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Fahrrad",
+      "en": "bicycle",
+      "sv": "cykel",
+      "nl": "fiets",
+      "it": "la bicicletta",
+      "es": "la bicicleta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚲",
+    "verified": true
+  },
+  {
+    "id": "lex_schiff",
+    "am": "መርከብ",
+    "tr": "merkeb",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Schiff",
+      "en": "ship",
+      "sv": "skepp",
+      "nl": "schip",
+      "it": "la nave",
+      "es": "el barco"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚢",
+    "verified": false
+  },
+  {
+    "id": "lex_karte",
+    "am": "ካርታ",
+    "tr": "karta",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "die Landkarte",
+      "en": "map",
+      "sv": "karta",
+      "nl": "kaart",
+      "it": "la mappa",
+      "es": "el mapa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🗺️",
+    "verified": true
+  },
+  {
+    "id": "lex_hafen",
+    "am": "ወደብ",
+    "tr": "wedeb",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "der Hafen",
+      "en": "port, harbor",
+      "sv": "hamn",
+      "nl": "haven",
+      "it": "il porto",
+      "es": "el puerto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_grenze",
+    "am": "ድንበር",
+    "tr": "dinber",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "die Grenze",
+      "en": "border",
+      "sv": "gräns",
+      "nl": "grens",
+      "it": "il confine",
+      "es": "la frontera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_visum",
+    "am": "ቪዛ",
+    "tr": "visa",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "das Visum",
+      "en": "visa",
+      "sv": "visum",
+      "nl": "visum",
+      "it": "il visto",
+      "es": "el visado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_tourist",
+    "am": "ቱሪስት",
+    "tr": "turist",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "der Tourist",
+      "en": "tourist",
+      "sv": "turist",
+      "nl": "toerist",
+      "it": "il turista",
+      "es": "el turista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bruecke",
+    "am": "ድልድይ",
+    "tr": "dildiy",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "A2",
+    "t": {
+      "de": "die Brücke",
+      "en": "bridge",
+      "sv": "bro",
+      "nl": "brug",
+      "it": "il ponte",
+      "es": "el puente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

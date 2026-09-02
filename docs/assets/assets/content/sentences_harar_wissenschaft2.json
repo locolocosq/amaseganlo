@@ -1,0 +1,103 @@
+[
+  {
+    "id": "sen_hwi_mokari_mokara",
+    "am": "ተመራማሪው በላብራቶሪ ምርምር አደረገ።",
+    "tr": "temeramariw belabiratori mirimir aderege.",
+    "level": "B2",
+    "uses": [
+      "lex_hwi_mokari",
+      "lex_hwi_mokara_bet",
+      "lex_hwi_mokara"
+    ],
+    "t": {
+      "de": "Der Forscher machte Forschung im Labor.",
+      "en": "The researcher did research in the laboratory.",
+      "sv": "Forskaren gjorde forskning i laboratoriet.",
+      "nl": "De onderzoeker deed onderzoek in het laboratorium.",
+      "it": "Il ricercatore ha fatto ricerca nel laboratorio.",
+      "es": "El investigador hizo investigación en el laboratorio."
+    },
+    "chunks": [
+      "temeramariw",
+      "belabiratori",
+      "mirimir",
+      "aderege"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hwi_mokerya_gilits",
+    "am": "ሙከራው አዲስ ግኝት አመጣ።",
+    "tr": "mukeraw addis gignit amet'a.",
+    "level": "B2",
+    "uses": [
+      "lex_hwi_mokerya",
+      "lex_hwi_gilits"
+    ],
+    "t": {
+      "de": "Das Experiment brachte eine neue Entdeckung.",
+      "en": "The experiment brought a new discovery.",
+      "sv": "Experimentet ledde till en ny upptäckt.",
+      "nl": "Het experiment bracht een nieuwe ontdekking.",
+      "it": "L'esperimento ha portato una nuova scoperta.",
+      "es": "El experimento trajo un nuevo descubrimiento."
+    },
+    "chunks": [
+      "mukeraw",
+      "addis",
+      "gignit",
+      "amet'a"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hwi_fisiks_kemistri",
+    "am": "ፊዚክስ እና ኬሚስትሪ አስቸጋሪ ናቸው።",
+    "tr": "fizikis ina kemisitiri asichegari nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hwi_fisiks",
+      "lex_hwi_kemistri"
+    ],
+    "t": {
+      "de": "Physik und Chemie sind schwierig.",
+      "en": "Physics and chemistry are difficult.",
+      "sv": "Fysik och kemi är svåra.",
+      "nl": "Natuurkunde en scheikunde zijn moeilijk.",
+      "it": "Fisica e chimica sono difficili.",
+      "es": "La física y la química son difíciles."
+    },
+    "chunks": [
+      "fizikis",
+      "ina",
+      "kemisitiri",
+      "asichegari",
+      "nachew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hwi_sinseb_fetera",
+    "am": "ሳይንስ ፍጥረት ያመጣል።",
+    "tr": "sayins fit'iret yamet'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hwi_sinseb",
+      "lex_hwi_fetera"
+    ],
+    "t": {
+      "de": "Wissenschaft bringt Erfindung.",
+      "en": "Science brings invention.",
+      "sv": "Vetenskap ger uppfinning.",
+      "nl": "Wetenschap brengt uitvinding.",
+      "it": "La scienza porta invenzione.",
+      "es": "La ciencia trae invención."
+    },
+    "chunks": [
+      "sayins",
+      "fit'iret",
+      "yamet'al"
+    ],
+    "verified": false
+  }
+]

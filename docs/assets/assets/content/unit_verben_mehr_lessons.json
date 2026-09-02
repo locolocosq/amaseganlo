@@ -1,0 +1,164 @@
+[
+  {
+    "id": "unit_verben_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_v_bauen",
+      "lex_v_tragen",
+      "lex_v_ziehen",
+      "lex_v_fallen",
+      "lex_v_springen",
+      "lex_v_fliegen",
+      "lex_v_atmen",
+      "lex_v_leben",
+      "lex_v_heiraten",
+      "lex_v_geborenwerden",
+      "lex_v_sterben",
+      "lex_v_reparieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_verben_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_v_bauen",
+      "lex_v_tragen",
+      "lex_v_ziehen",
+      "lex_v_fallen",
+      "lex_v_springen",
+      "lex_v_fliegen",
+      "lex_v_atmen",
+      "lex_v_leben",
+      "lex_v_heiraten",
+      "lex_v_geborenwerden",
+      "lex_v_sterben",
+      "lex_v_reparieren"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_verben_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_v_bauen",
+      "lex_v_tragen",
+      "lex_v_ziehen",
+      "lex_v_fallen",
+      "lex_v_springen",
+      "lex_v_fliegen",
+      "lex_v_atmen",
+      "lex_v_leben",
+      "lex_v_heiraten",
+      "lex_v_geborenwerden",
+      "lex_v_sterben",
+      "lex_v_reparieren"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_bauen",
+      "sen_gen_v_tragen",
+      "sen_gen_v_ziehen",
+      "sen_gen_v_fallen",
+      "sen_gen_v_springen"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_verben_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_v_bauen",
+      "lex_v_tragen",
+      "lex_v_ziehen",
+      "lex_v_fallen",
+      "lex_v_springen",
+      "lex_v_fliegen",
+      "lex_v_atmen",
+      "lex_v_leben",
+      "lex_v_heiraten",
+      "lex_v_geborenwerden",
+      "lex_v_sterben",
+      "lex_v_reparieren"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_bauen",
+      "sen_gen_v_tragen",
+      "sen_gen_v_ziehen",
+      "sen_gen_v_fallen",
+      "sen_gen_v_springen"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_verben_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_v_bauen",
+      "lex_v_tragen",
+      "lex_v_ziehen",
+      "lex_v_fallen",
+      "lex_v_springen",
+      "lex_v_fliegen",
+      "lex_v_atmen",
+      "lex_v_leben",
+      "lex_v_heiraten",
+      "lex_v_geborenwerden",
+      "lex_v_sterben",
+      "lex_v_reparieren"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_bauen",
+      "sen_gen_v_tragen",
+      "sen_gen_v_ziehen",
+      "sen_gen_v_fallen",
+      "sen_gen_v_springen"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_verben_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_v_bauen",
+      "lex_v_tragen",
+      "lex_v_ziehen",
+      "lex_v_fallen",
+      "lex_v_springen",
+      "lex_v_fliegen",
+      "lex_v_atmen",
+      "lex_v_leben",
+      "lex_v_heiraten",
+      "lex_v_geborenwerden",
+      "lex_v_sterben",
+      "lex_v_reparieren"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_bauen",
+      "sen_gen_v_tragen",
+      "sen_gen_v_ziehen",
+      "sen_gen_v_fallen",
+      "sen_gen_v_springen"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

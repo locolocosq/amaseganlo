@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lex_ti_akt_facde",
+    "am": "ግንባር ህንጻ",
+    "tr": "ginibar hinitsa",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "TI",
+    "t": {
+      "de": "die Fassade",
+      "en": "facade",
+      "sv": "fasad",
+      "nl": "gevel",
+      "it": "la facciata",
+      "es": "la fachada"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_akt_plan2",
+    "am": "ውጥን ህንጻ",
+    "tr": "wit'in hinitsa",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "TI",
+    "t": {
+      "de": "der Grundriss",
+      "en": "floor plan",
+      "sv": "planritning",
+      "nl": "plattegrond",
+      "it": "la pianta (di un edificio)",
+      "es": "el plano (de planta)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_akt_style2",
+    "am": "ስነ ህንጻ ኣገባብ",
+    "tr": "sine hinitsa agebab",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "TI",
+    "t": {
+      "de": "der Baustil",
+      "en": "architectural style",
+      "sv": "byggnadsstil",
+      "nl": "bouwstijl",
+      "it": "lo stile architettonico",
+      "es": "el estilo arquitectónico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_akt_pillr",
+    "am": "ዓንዲ",
+    "tr": "'andi",
+    "pos": "noun",
+    "topic": "architecture",
+    "level": "TI",
+    "t": {
+      "de": "die Säule",
+      "en": "pillar, column",
+      "sv": "pelare",
+      "nl": "pilaar, zuil",
+      "it": "la colonna, il pilastro",
+      "es": "la columna, el pilar"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

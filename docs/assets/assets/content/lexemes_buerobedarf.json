@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lex_bleistift",
+    "am": "እርሳስ",
+    "tr": "irsas",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "der Bleistift",
+      "en": "pencil",
+      "sv": "blyertspenna",
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✏️",
+    "verified": true
+  },
+  {
+    "id": "lex_radiergummi",
+    "am": "ማጥፊያ",
+    "tr": "mat'ifiya",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "der Radiergummi",
+      "en": "eraser",
+      "sv": "suddgummi",
+      "nl": "gum",
+      "it": "la gomma",
+      "es": "la goma de borrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_lineal",
+    "am": "መስመሪያ",
+    "tr": "mesimeriya",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "das Lineal",
+      "en": "ruler",
+      "sv": "linjal",
+      "nl": "liniaal",
+      "it": "il righello",
+      "es": "la regla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📏",
+    "verified": false
+  },
+  {
+    "id": "lex_hefter",
+    "am": "ስቴፕለር",
+    "tr": "steplar",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "der Hefter, Tacker",
+      "en": "stapler",
+      "sv": "häftapparat",
+      "nl": "nietmachine",
+      "it": "la spillatrice",
+      "es": "la grapadora"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📎",
+    "verified": false
+  },
+  {
+    "id": "lex_schere",
+    "am": "መቀስ",
+    "tr": "mek'es",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "die Schere",
+      "en": "scissors",
+      "sv": "sax",
+      "nl": "schaar",
+      "it": "le forbici",
+      "es": "las tijeras"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✂️",
+    "verified": true
+  },
+  {
+    "id": "lex_umschlag",
+    "am": "ፖስታ",
+    "tr": "posta",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "der Umschlag",
+      "en": "envelope",
+      "sv": "kuvert",
+      "nl": "envelop",
+      "it": "la busta",
+      "es": "el sobre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✉️",
+    "verified": true
+  },
+  {
+    "id": "lex_briefmarke",
+    "am": "ቴምብር",
+    "tr": "tembir",
+    "pos": "noun",
+    "topic": "office_supplies",
+    "level": "A1.2",
+    "t": {
+      "de": "die Briefmarke",
+      "en": "stamp",
+      "sv": "frimärke",
+      "nl": "postzegel",
+      "it": "il francobollo",
+      "es": "el sello"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📮",
+    "verified": true
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "id": "unit_eritrea_kultur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_amlaki",
+      "lex_ti_tsli3",
+      "lex_ti_bal2",
+      "lex_ti_fasika",
+      "lex_ti_lidet",
+      "lex_ti_ramadan",
+      "lex_ti_neway3",
+      "lex_ti_lmd",
+      "lex_ti_meznagn",
+      "lex_ti_lgo",
+      "lex_ti_zeraf",
+      "lex_ti_krar",
+      "lex_ti_wata",
+      "lex_ti_tarik"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_kultur_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_amlaki",
+      "lex_ti_tsli3",
+      "lex_ti_bal2",
+      "lex_ti_fasika",
+      "lex_ti_lidet",
+      "lex_ti_ramadan",
+      "lex_ti_neway3",
+      "lex_ti_lmd",
+      "lex_ti_meznagn",
+      "lex_ti_lgo",
+      "lex_ti_zeraf",
+      "lex_ti_krar",
+      "lex_ti_wata",
+      "lex_ti_tarik"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kultur_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_amlaki",
+      "lex_ti_tsli3",
+      "lex_ti_bal2",
+      "lex_ti_fasika",
+      "lex_ti_lidet",
+      "lex_ti_ramadan",
+      "lex_ti_neway3",
+      "lex_ti_lmd",
+      "lex_ti_meznagn",
+      "lex_ti_lgo",
+      "lex_ti_zeraf",
+      "lex_ti_krar",
+      "lex_ti_wata",
+      "lex_ti_tarik"
+    ],
+    "sentenceIds": [
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kultur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_amlaki",
+      "lex_ti_tsli3",
+      "lex_ti_bal2",
+      "lex_ti_fasika",
+      "lex_ti_lidet",
+      "lex_ti_ramadan",
+      "lex_ti_neway3",
+      "lex_ti_lmd",
+      "lex_ti_meznagn",
+      "lex_ti_lgo",
+      "lex_ti_zeraf",
+      "lex_ti_krar",
+      "lex_ti_wata",
+      "lex_ti_tarik"
+    ],
+    "sentenceIds": [
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kultur_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_amlaki",
+      "lex_ti_tsli3",
+      "lex_ti_bal2",
+      "lex_ti_fasika",
+      "lex_ti_lidet",
+      "lex_ti_ramadan",
+      "lex_ti_neway3",
+      "lex_ti_lmd",
+      "lex_ti_meznagn",
+      "lex_ti_lgo",
+      "lex_ti_zeraf",
+      "lex_ti_krar",
+      "lex_ti_wata",
+      "lex_ti_tarik"
+    ],
+    "sentenceIds": [
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kultur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_amlaki",
+      "lex_ti_tsli3",
+      "lex_ti_bal2",
+      "lex_ti_fasika",
+      "lex_ti_lidet",
+      "lex_ti_ramadan",
+      "lex_ti_neway3",
+      "lex_ti_lmd",
+      "lex_ti_meznagn",
+      "lex_ti_lgo",
+      "lex_ti_zeraf",
+      "lex_ti_krar",
+      "lex_ti_wata",
+      "lex_ti_tarik"
+    ],
+    "sentenceIds": [
+      "sen_ti_kultur_1",
+      "sen_gen_tsli3",
+      "sen_gen_bal2",
+      "sen_gen_fasika",
+      "sen_gen_lidet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

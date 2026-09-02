@@ -1,0 +1,116 @@
+[
+  {
+    "id": "unit_musikinstrumente_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_musikinstrumente_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [
+      "sen_gen_krar",
+      "sen_gen_masinko",
+      "sen_gen_kebero",
+      "sen_gen_washint",
+      "sen_fix_pagume_2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [
+      "sen_gen_krar",
+      "sen_gen_masinko",
+      "sen_gen_kebero",
+      "sen_gen_washint",
+      "sen_fix_pagume_2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [
+      "sen_gen_krar",
+      "sen_gen_masinko",
+      "sen_gen_kebero",
+      "sen_gen_washint",
+      "sen_fix_pagume_2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_musikinstrumente_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_krar",
+      "lex_masinko",
+      "lex_kebero",
+      "lex_washint"
+    ],
+    "sentenceIds": [
+      "sen_gen_krar",
+      "sen_gen_masinko",
+      "sen_gen_kebero",
+      "sen_gen_washint",
+      "sen_fix_pagume_2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

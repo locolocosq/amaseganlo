@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_dagim_tikim",
+    "am": "ዳግም ጥቅም ላይ ማዋል",
+    "tr": "dagim t'ikim lay mawal",
+    "pos": "noun",
+    "topic": "environment_2",
+    "level": "B2",
+    "t": {
+      "de": "das Recycling",
+      "en": "recycling",
+      "sv": "återvinning",
+      "nl": "recycling",
+      "it": "il riciclaggio",
+      "es": "el reciclaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_bizha_hiyiwet",
+    "am": "ብዝሃ ሕይወት",
+    "tr": "bizha hiyiwet",
+    "pos": "noun",
+    "topic": "environment_2",
+    "level": "B2",
+    "t": {
+      "de": "die biologische Vielfalt",
+      "en": "biodiversity",
+      "sv": "biologisk mångfald",
+      "nl": "biodiversiteit",
+      "it": "la biodiversità",
+      "es": "la biodiversidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_metifat",
+    "am": "መጥፋት",
+    "tr": "met'ifat",
+    "pos": "verb",
+    "topic": "environment_2",
+    "level": "B2",
+    "t": {
+      "de": "aussterben, verschwinden",
+      "en": "to become extinct, to disappear",
+      "sv": "dö ut, försvinna",
+      "nl": "uitsterven, verdwijnen",
+      "it": "estinguersi, scomparire",
+      "es": "extinguirse, desaparecer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_sine_mihidar",
+    "am": "ስነ ምህዳር",
+    "tr": "sine mihidar",
+    "pos": "noun",
+    "topic": "environment_2",
+    "level": "B2",
+    "t": {
+      "de": "das Ökosystem",
+      "en": "ecosystem",
+      "sv": "ekosystem",
+      "nl": "ecosysteem",
+      "it": "l'ecosistema",
+      "es": "el ecosistema"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zelakinet",
+    "am": "ዘላቂነት",
+    "tr": "zelakinet",
+    "pos": "noun",
+    "topic": "environment_2",
+    "level": "B2",
+    "t": {
+      "de": "die Nachhaltigkeit",
+      "en": "sustainability",
+      "sv": "hållbarhet",
+      "nl": "duurzaamheid",
+      "it": "la sostenibilità",
+      "es": "la sostenibilidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

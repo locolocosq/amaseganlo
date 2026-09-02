@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_adj_ridi",
+    "am": "ሰፊሕ",
+    "tr": "sefih",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "breit, weit",
+      "en": "wide, broad",
+      "sv": "bred",
+      "nl": "breed",
+      "it": "largo, ampio",
+      "es": "ancho, amplio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_ttyq",
+    "am": "ጸቢብ",
+    "tr": "tsebib",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "eng, schmal",
+      "en": "narrow",
+      "sv": "smal",
+      "nl": "smal",
+      "it": "stretto",
+      "es": "estrecho"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_kefu",
+    "am": "ከቢድ",
+    "tr": "kebid",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "schwer",
+      "en": "heavy",
+      "sv": "tung",
+      "nl": "zwaar",
+      "it": "pesante",
+      "es": "pesado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_qelil",
+    "am": "ቀሊል",
+    "tr": "qelil",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "leicht",
+      "en": "light (weight)",
+      "sv": "lätt",
+      "nl": "licht",
+      "it": "leggero",
+      "es": "ligero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_hade2",
+    "am": "ሓድሽ",
+    "tr": "hadish",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "neu",
+      "en": "new",
+      "sv": "ny",
+      "nl": "nieuw",
+      "it": "nuovo",
+      "es": "nuevo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_zabir",
+    "am": "ኣረጊት",
+    "tr": "aregit",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "alt, gebraucht (Gegenstand)",
+      "en": "old (thing)",
+      "sv": "gammal (sak)",
+      "nl": "oud (ding)",
+      "it": "vecchio, usato (oggetto)",
+      "es": "viejo, usado (objeto)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_neat",
+    "am": "ጽሩይ",
+    "tr": "tsiruy",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "sauber, rein",
+      "en": "clean, pure",
+      "sv": "ren",
+      "nl": "schoon",
+      "it": "pulito",
+      "es": "limpio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_koynu",
+    "am": "ርኹስ",
+    "tr": "rikus",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "schmutzig",
+      "en": "dirty",
+      "sv": "smutsig",
+      "nl": "vuil",
+      "it": "sporco",
+      "es": "sucio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_ftin",
+    "am": "ፍጡን",
+    "tr": "fitun",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "schnell",
+      "en": "fast",
+      "sv": "snabb",
+      "nl": "snel",
+      "it": "veloce",
+      "es": "rápido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_zwyt",
+    "am": "ደንጓይ",
+    "tr": "dengway",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "langsam",
+      "en": "slow",
+      "sv": "långsam",
+      "nl": "langzaam",
+      "it": "lento",
+      "es": "lento"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_qrbtu",
+    "am": "ቀረባ",
+    "tr": "qereba",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "nah",
+      "en": "near",
+      "sv": "nära",
+      "nl": "dichtbij",
+      "it": "vicino",
+      "es": "cerca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_adj_rhyk",
+    "am": "ርሑቕ",
+    "tr": "rihuq",
+    "pos": "adj",
+    "topic": "adjectives",
+    "level": "TI",
+    "t": {
+      "de": "weit entfernt",
+      "en": "far",
+      "sv": "långt bort",
+      "nl": "ver",
+      "it": "lontano",
+      "es": "lejos"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

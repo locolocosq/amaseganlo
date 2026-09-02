@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_eritrea_steuern_immobilien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_stx_incm",
+      "lex_ti_stx_vat",
+      "lex_ti_stx_offc",
+      "lex_ti_stx_decl",
+      "lex_ti_imb_prop",
+      "lex_ti_imb_agnt2",
+      "lex_ti_imb_sell2",
+      "lex_ti_imb_plot"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_steuern_immobilien_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_stx_incm",
+      "lex_ti_stx_vat",
+      "lex_ti_stx_offc",
+      "lex_ti_stx_decl",
+      "lex_ti_imb_prop",
+      "lex_ti_imb_agnt2",
+      "lex_ti_imb_sell2",
+      "lex_ti_imb_plot"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_steuern_immobilien_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_stx_incm",
+      "lex_ti_stx_vat",
+      "lex_ti_stx_offc",
+      "lex_ti_stx_decl",
+      "lex_ti_imb_prop",
+      "lex_ti_imb_agnt2",
+      "lex_ti_imb_sell2",
+      "lex_ti_imb_plot"
+    ],
+    "sentenceIds": [
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_steuern_immobilien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_stx_incm",
+      "lex_ti_stx_vat",
+      "lex_ti_stx_offc",
+      "lex_ti_stx_decl",
+      "lex_ti_imb_prop",
+      "lex_ti_imb_agnt2",
+      "lex_ti_imb_sell2",
+      "lex_ti_imb_plot"
+    ],
+    "sentenceIds": [
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_steuern_immobilien_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_stx_incm",
+      "lex_ti_stx_vat",
+      "lex_ti_stx_offc",
+      "lex_ti_stx_decl",
+      "lex_ti_imb_prop",
+      "lex_ti_imb_agnt2",
+      "lex_ti_imb_sell2",
+      "lex_ti_imb_plot"
+    ],
+    "sentenceIds": [
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_steuern_immobilien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_stx_incm",
+      "lex_ti_stx_vat",
+      "lex_ti_stx_offc",
+      "lex_ti_stx_decl",
+      "lex_ti_imb_prop",
+      "lex_ti_imb_agnt2",
+      "lex_ti_imb_sell2",
+      "lex_ti_imb_plot"
+    ],
+    "sentenceIds": [
+      "sen_ti_steuern_immobilien_1",
+      "sen_gen_stx_vat",
+      "sen_gen_stx_offc",
+      "sen_gen_stx_decl",
+      "sen_gen_imb_prop"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

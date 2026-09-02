@@ -1,0 +1,146 @@
+[
+  {
+    "id": "unit_eritrea_konflikt_zustimmung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_knf_argu",
+      "lex_ti_knf_fght",
+      "lex_ti_knf_sorry2",
+      "lex_ti_knf_frgv",
+      "lex_ti_knf_reconcl",
+      "lex_ti_zst_ofcrs",
+      "lex_ti_zst_exact2",
+      "lex_ti_zst_nway",
+      "lex_ti_zst_prhps"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_konflikt_zustimmung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_knf_argu",
+      "lex_ti_knf_fght",
+      "lex_ti_knf_sorry2",
+      "lex_ti_knf_frgv",
+      "lex_ti_knf_reconcl",
+      "lex_ti_zst_ofcrs",
+      "lex_ti_zst_exact2",
+      "lex_ti_zst_nway",
+      "lex_ti_zst_prhps"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konflikt_zustimmung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_knf_argu",
+      "lex_ti_knf_fght",
+      "lex_ti_knf_sorry2",
+      "lex_ti_knf_frgv",
+      "lex_ti_knf_reconcl",
+      "lex_ti_zst_ofcrs",
+      "lex_ti_zst_exact2",
+      "lex_ti_zst_nway",
+      "lex_ti_zst_prhps"
+    ],
+    "sentenceIds": [
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_fix_mng_opnn_2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konflikt_zustimmung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_knf_argu",
+      "lex_ti_knf_fght",
+      "lex_ti_knf_sorry2",
+      "lex_ti_knf_frgv",
+      "lex_ti_knf_reconcl",
+      "lex_ti_zst_ofcrs",
+      "lex_ti_zst_exact2",
+      "lex_ti_zst_nway",
+      "lex_ti_zst_prhps"
+    ],
+    "sentenceIds": [
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_fix_mng_opnn_2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konflikt_zustimmung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_knf_argu",
+      "lex_ti_knf_fght",
+      "lex_ti_knf_sorry2",
+      "lex_ti_knf_frgv",
+      "lex_ti_knf_reconcl",
+      "lex_ti_zst_ofcrs",
+      "lex_ti_zst_exact2",
+      "lex_ti_zst_nway",
+      "lex_ti_zst_prhps"
+    ],
+    "sentenceIds": [
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_fix_mng_opnn_2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_konflikt_zustimmung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_knf_argu",
+      "lex_ti_knf_fght",
+      "lex_ti_knf_sorry2",
+      "lex_ti_knf_frgv",
+      "lex_ti_knf_reconcl",
+      "lex_ti_zst_ofcrs",
+      "lex_ti_zst_exact2",
+      "lex_ti_zst_nway",
+      "lex_ti_zst_prhps"
+    ],
+    "sentenceIds": [
+      "sen_ti_konflikt_zustimmung_1",
+      "sen_gen_knf_fght",
+      "sen_gen_knf_sorry2",
+      "sen_gen_knf_frgv",
+      "sen_fix_mng_opnn_2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_eritrea_wanderung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_wnd_trl",
+      "lex_ti_wnd_pk",
+      "lex_ti_wnd_cmps",
+      "lex_ti_wnd_bkpck",
+      "lex_ti_wnd_climb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_wanderung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_wnd_trl",
+      "lex_ti_wnd_pk",
+      "lex_ti_wnd_cmps",
+      "lex_ti_wnd_bkpck",
+      "lex_ti_wnd_climb"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wanderung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_wnd_trl",
+      "lex_ti_wnd_pk",
+      "lex_ti_wnd_cmps",
+      "lex_ti_wnd_bkpck",
+      "lex_ti_wnd_climb"
+    ],
+    "sentenceIds": [
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_fix_str_sunsc"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wanderung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_wnd_trl",
+      "lex_ti_wnd_pk",
+      "lex_ti_wnd_cmps",
+      "lex_ti_wnd_bkpck",
+      "lex_ti_wnd_climb"
+    ],
+    "sentenceIds": [
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_fix_str_sunsc"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wanderung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_wnd_trl",
+      "lex_ti_wnd_pk",
+      "lex_ti_wnd_cmps",
+      "lex_ti_wnd_bkpck",
+      "lex_ti_wnd_climb"
+    ],
+    "sentenceIds": [
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_fix_str_sunsc"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wanderung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_wnd_trl",
+      "lex_ti_wnd_pk",
+      "lex_ti_wnd_cmps",
+      "lex_ti_wnd_bkpck",
+      "lex_ti_wnd_climb"
+    ],
+    "sentenceIds": [
+      "sen_ti_wanderung_1",
+      "sen_gen_wnd_pk",
+      "sen_gen_wnd_cmps",
+      "sen_gen_wnd_bkpck",
+      "sen_fix_str_sunsc"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

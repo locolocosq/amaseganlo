@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_haushalt_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_wanduhr",
+      "lex_decke_bett",
+      "lex_besen",
+      "lex_eimer",
+      "lex_kerze"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_haushalt_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_wanduhr",
+      "lex_decke_bett",
+      "lex_besen",
+      "lex_eimer",
+      "lex_kerze"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_haushalt_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_wanduhr",
+      "lex_decke_bett",
+      "lex_besen",
+      "lex_eimer",
+      "lex_kerze"
+    ],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_haushalt_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_wanduhr",
+      "lex_decke_bett",
+      "lex_besen",
+      "lex_eimer",
+      "lex_kerze"
+    ],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_haushalt_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_wanduhr",
+      "lex_decke_bett",
+      "lex_besen",
+      "lex_eimer",
+      "lex_kerze"
+    ],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_haushalt_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_wanduhr",
+      "lex_decke_bett",
+      "lex_besen",
+      "lex_eimer",
+      "lex_kerze"
+    ],
+    "sentenceIds": [
+      "sen_gen_decke_bett",
+      "sen_gen_besen",
+      "sen_gen_eimer",
+      "sen_gen_kerze",
+      "sen_gen_hyaene"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

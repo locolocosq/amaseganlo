@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sen_wuha_itetalehu",
+    "am": "ውሃ እጠጣለሁ።",
+    "tr": "wuha it'et'alehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_wasser",
+      "lex_trinken_verb"
+    ],
+    "t": {
+      "de": "Ich trinke Wasser.",
+      "en": "I drink water.",
+      "sv": "Jag dricker vatten.",
+      "nl": "Ik drink water.",
+      "it": "Bevo acqua.",
+      "es": "Bebo agua."
+    },
+    "alt": {},
+    "chunks": [
+      "wuha",
+      "it'et'alehu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_dabo_ibelalehu",
+    "am": "ዳቦ እበላለሁ።",
+    "tr": "dabo ibelalehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_brot",
+      "lex_essen_verb"
+    ],
+    "t": {
+      "de": "Ich esse Brot.",
+      "en": "I eat bread.",
+      "sv": "Jag äter bröd.",
+      "nl": "Ik eet brood.",
+      "it": "Mangio pane.",
+      "es": "Como pan."
+    },
+    "alt": {},
+    "chunks": [
+      "dabo",
+      "ibelalehu"
+    ],
+    "verified": false
+  }
+]

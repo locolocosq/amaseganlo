@@ -1,0 +1,362 @@
+[
+  {
+    "id": "lex_ti_hatsi",
+    "am": "ክዳን",
+    "tr": "kidan",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Kleidung",
+      "en": "clothing",
+      "sv": "kläder",
+      "nl": "kleding",
+      "it": "l'abbigliamento",
+      "es": "la ropa"
+    },
+    "emoji": "👕",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kemis",
+    "am": "ቀሚሽ",
+    "tr": "qemish",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "das Kleid",
+      "en": "dress",
+      "sv": "klänning",
+      "nl": "jurk",
+      "it": "il vestito",
+      "es": "el vestido"
+    },
+    "emoji": "👗",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shurbi",
+    "am": "ካልሲ",
+    "tr": "kalsi",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Socke",
+      "en": "sock",
+      "sv": "strumpa",
+      "nl": "sok",
+      "it": "il calzino",
+      "es": "el calcetín"
+    },
+    "emoji": "🧦",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kondom",
+    "am": "ስረ",
+    "tr": "sire",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Hose",
+      "en": "trousers",
+      "sv": "byxor",
+      "nl": "broek",
+      "it": "i pantaloni",
+      "es": "los pantalones"
+    },
+    "emoji": "👖",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shemis",
+    "am": "ካምቻ",
+    "tr": "kamcha",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "das Hemd",
+      "en": "shirt",
+      "sv": "skjorta",
+      "nl": "overhemd",
+      "it": "la camicia",
+      "es": "la camisa"
+    },
+    "emoji": "👔",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kap",
+    "am": "ኮፍያ",
+    "tr": "kofya",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Mütze",
+      "en": "cap, hat",
+      "sv": "mössa",
+      "nl": "muts",
+      "it": "il berretto",
+      "es": "la gorra"
+    },
+    "emoji": "🧢",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shukhi",
+    "am": "ሸሚዝ",
+    "tr": "shemiz",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Bluse",
+      "en": "blouse",
+      "sv": "blus",
+      "nl": "blouse",
+      "it": "la camicetta",
+      "es": "la blusa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kondoy",
+    "am": "ጫማ",
+    "tr": "chama",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "der Schuh",
+      "en": "shoe",
+      "sv": "sko",
+      "nl": "schoen",
+      "it": "la scarpa",
+      "es": "el zapato"
+    },
+    "emoji": "👞",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qumtah",
+    "am": "ቁምጣ",
+    "tr": "qumit'a",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die kurze Hose",
+      "en": "shorts",
+      "sv": "shorts",
+      "nl": "korte broek",
+      "it": "i pantaloncini",
+      "es": "los pantalones cortos"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kabat",
+    "am": "ጃኬት",
+    "tr": "jaket",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Jacke",
+      "en": "jacket",
+      "sv": "jacka",
+      "nl": "jas",
+      "it": "la giacca",
+      "es": "la chaqueta"
+    },
+    "emoji": "🧥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_netela",
+    "am": "ነጠላ",
+    "tr": "net'ela",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "der traditionelle Schal",
+      "en": "traditional shawl",
+      "sv": "traditionell sjal",
+      "nl": "traditionele sjaal",
+      "it": "lo scialle tradizionale",
+      "es": "el chal tradicional"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zeban",
+    "am": "ቀምቤላ",
+    "tr": "qembela",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "der Gürtel",
+      "en": "belt",
+      "sv": "bälte",
+      "nl": "riem",
+      "it": "la cintura",
+      "es": "el cinturón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qenat",
+    "am": "ቅናት",
+    "tr": "qinat",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "der Gürtel (Alt.)",
+      "en": "belt (alt.)",
+      "sv": "skärp",
+      "nl": "ceintuur",
+      "it": "la cintura (alt.)",
+      "es": "el cinturón (alt.)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_menetsir",
+    "am": "መነጽር",
+    "tr": "menetsir",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Brille",
+      "en": "glasses",
+      "sv": "glasögon",
+      "nl": "bril",
+      "it": "gli occhiali",
+      "es": "las gafas"
+    },
+    "emoji": "👓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seat",
+    "am": "ሰዓት",
+    "tr": "se'at",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Uhr",
+      "en": "watch, clock",
+      "sv": "klocka",
+      "nl": "horloge, klok",
+      "it": "l'orologio",
+      "es": "el reloj"
+    },
+    "emoji": "⌚",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kurabat",
+    "am": "ክራባት",
+    "tr": "kirabat",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Krawatte",
+      "en": "tie",
+      "sv": "slips",
+      "nl": "stropdas",
+      "it": "la cravatta",
+      "es": "la corbata"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsibqi",
+    "am": "ጓንቲ",
+    "tr": "gwanti",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "der Handschuh",
+      "en": "glove",
+      "sv": "handske",
+      "nl": "handschoen",
+      "it": "il guanto",
+      "es": "el guante"
+    },
+    "emoji": "🧤",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shal",
+    "am": "ሻርባ",
+    "tr": "sharba",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "der Schal",
+      "en": "scarf",
+      "sv": "halsduk",
+      "nl": "sjaal",
+      "it": "la sciarpa",
+      "es": "la bufanda"
+    },
+    "emoji": "🧣",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bereka",
+    "am": "ቦርሳ",
+    "tr": "borsa",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "die Tasche",
+      "en": "bag",
+      "sv": "väska",
+      "nl": "tas",
+      "it": "la borsa",
+      "es": "el bolso"
+    },
+    "emoji": "👜",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qonjo",
+    "am": "ኩታ",
+    "tr": "kuta",
+    "pos": "noun",
+    "topic": "clothing",
+    "level": "TI",
+    "t": {
+      "de": "das Tuch, der Umhang",
+      "en": "cloth, wrap",
+      "sv": "tyg, sjal",
+      "nl": "doek, omslag",
+      "it": "il panno, lo scialle",
+      "es": "la tela, el chal"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

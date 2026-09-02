@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_frj",
+    "am": "ፍርጅ",
+    "tr": "firji",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "der Kühlschrank",
+      "en": "refrigerator",
+      "sv": "kylskåp",
+      "nl": "koelkast",
+      "it": "il frigorifero",
+      "es": "el refrigerador"
+    },
+    "emoji": "🧊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mstm",
+    "am": "ምድጓ ናይ ምግቢ",
+    "tr": "midgwa nay migbi",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "der Herd",
+      "en": "stove",
+      "sv": "spis",
+      "nl": "fornuis",
+      "it": "il fornello",
+      "es": "la cocina, la estufa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frni",
+    "am": "ምድጓ (ባኒ)",
+    "tr": "midgwa bani",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "der Backofen",
+      "en": "oven",
+      "sv": "ugn",
+      "nl": "oven",
+      "it": "il forno",
+      "es": "el horno"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msngt",
+    "am": "መሕጸቢት ክዳን",
+    "tr": "mehitsebit kidan",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "die Waschmaschine",
+      "en": "washing machine",
+      "sv": "tvättmaskin",
+      "nl": "wasmachine",
+      "it": "la lavatrice",
+      "es": "la lavadora"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vntlt",
+    "am": "ፋን",
+    "tr": "fan",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "der Ventilator",
+      "en": "fan",
+      "sv": "fläkt",
+      "nl": "ventilator",
+      "it": "il ventilatore",
+      "es": "el ventilador"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msngd",
+    "am": "መጋገሪ",
+    "tr": "megageri",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "die Pfanne",
+      "en": "pan",
+      "sv": "stekpanna",
+      "nl": "pan",
+      "it": "la padella",
+      "es": "la sartén"
+    },
+    "emoji": "🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wnber",
+    "am": "ድስቲ",
+    "tr": "disti",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "der Topf",
+      "en": "pot",
+      "sv": "gryta",
+      "nl": "pot",
+      "it": "la pentola",
+      "es": "la olla"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_msdda",
+    "am": "ኩባያ",
+    "tr": "kubaya",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "die Tasse",
+      "en": "cup",
+      "sv": "kopp",
+      "nl": "kopje",
+      "it": "la tazza",
+      "es": "la taza"
+    },
+    "emoji": "☕",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jbna2",
+    "am": "ጀበና",
+    "tr": "jebena",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "die Kaffeekanne (traditionell)",
+      "en": "traditional coffee pot",
+      "sv": "traditionell kaffekanna",
+      "nl": "traditionele koffiepot",
+      "it": "la caffettiera tradizionale",
+      "es": "la cafetera tradicional"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ktla",
+    "am": "ኣቕሓ ክሽነ",
+    "tr": "aqiha kishine",
+    "pos": "noun",
+    "topic": "appliances",
+    "level": "TI",
+    "t": {
+      "de": "das Küchengeschirr",
+      "en": "kitchenware",
+      "sv": "köksredskap",
+      "nl": "keukengerei",
+      "it": "gli utensili da cucina",
+      "es": "los utensilios de cocina"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

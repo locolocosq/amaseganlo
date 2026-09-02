@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_bzhi",
+    "am": "ብርሃን",
+    "tr": "birhan",
+    "pos": "noun",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "das Licht",
+      "en": "light",
+      "sv": "ljus",
+      "nl": "licht",
+      "it": "la luce",
+      "es": "la luz"
+    },
+    "emoji": "💡",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsli5",
+    "am": "ጸልማት",
+    "tr": "tselmat",
+    "pos": "noun",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "die Dunkelheit",
+      "en": "darkness",
+      "sv": "mörker",
+      "nl": "duisternis",
+      "it": "l'oscurità",
+      "es": "la oscuridad"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dmts2",
+    "am": "ድምጺ",
+    "tr": "dimtsi",
+    "pos": "noun",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "der Ton, das Geräusch",
+      "en": "sound, noise",
+      "sv": "ljud",
+      "nl": "geluid",
+      "it": "il suono, il rumore",
+      "es": "el sonido, el ruido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_htsu",
+    "am": "ህድኣት",
+    "tr": "hid'at",
+    "pos": "noun",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "die Ruhe, Stille",
+      "en": "quiet, silence",
+      "sv": "tystnad, lugn",
+      "nl": "stilte, rust",
+      "it": "la quiete, il silenzio",
+      "es": "la calma, el silencio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hmzn",
+    "am": "ዓው ዝበለ",
+    "tr": "'aw zibele",
+    "pos": "adjective",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "laut",
+      "en": "loud",
+      "sv": "hög (ljud)",
+      "nl": "luid",
+      "it": "forte, rumoroso",
+      "es": "fuerte, ruidoso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_zqti",
+    "am": "ህዱእ ዝበለ ድምጺ",
+    "tr": "hidu'e zibele dimtsi",
+    "pos": "adjective",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "leise",
+      "en": "quiet, soft (sound)",
+      "sv": "tyst, mjuk (ljud)",
+      "nl": "zacht (geluid)",
+      "it": "silenzioso, sommesso",
+      "es": "silencioso, suave"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ntsu2",
+    "am": "ብሩህ",
+    "tr": "biruh",
+    "pos": "adjective",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "hell",
+      "en": "bright",
+      "sv": "ljus, klar",
+      "nl": "helder",
+      "it": "luminoso",
+      "es": "brillante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tslm2",
+    "am": "ጸልማት (ቅጽል)",
+    "tr": "tselmat qitsl",
+    "pos": "adjective",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "dunkel",
+      "en": "dark",
+      "sv": "mörk",
+      "nl": "donker",
+      "it": "buio, scuro",
+      "es": "oscuro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nkhi",
+    "am": "ንኪ",
+    "tr": "nikhi",
+    "pos": "verb",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "berühren, anfassen",
+      "en": "to touch",
+      "sv": "röra, vidröra",
+      "nl": "aanraken",
+      "it": "toccare",
+      "es": "tocar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shmi",
+    "am": "ሽትት",
+    "tr": "shitit",
+    "pos": "verb",
+    "topic": "senses",
+    "level": "TI",
+    "t": {
+      "de": "riechen",
+      "en": "to smell",
+      "sv": "lukta",
+      "nl": "ruiken",
+      "it": "annusare, odorare",
+      "es": "oler"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

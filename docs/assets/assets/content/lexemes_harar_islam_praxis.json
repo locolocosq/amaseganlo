@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_solat",
+    "am": "ሶላት",
+    "tr": "solat",
+    "pos": "noun",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "das rituelle Pflichtgebet",
+      "en": "the ritual prayer (salat)",
+      "sv": "den rituella bönen",
+      "nl": "het rituele gebed",
+      "it": "la preghiera rituale (salat)",
+      "es": "la oración ritual (salat)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_remedan",
+    "am": "ረመዳን",
+    "tr": "remedan",
+    "pos": "noun",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "der Ramadan",
+      "en": "Ramadan",
+      "sv": "ramadan",
+      "nl": "ramadan",
+      "it": "il Ramadan",
+      "es": "el Ramadán"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_tsom_isl",
+    "am": "መጾም",
+    "tr": "metsom",
+    "pos": "verb",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "fasten",
+      "en": "to fast",
+      "sv": "fasta",
+      "nl": "vasten",
+      "it": "digiunare",
+      "es": "ayunar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_id_holiday",
+    "am": "ኢድ",
+    "tr": "id",
+    "pos": "noun",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "das Id-Fest (islamischer Feiertag)",
+      "en": "Eid (Islamic holiday)",
+      "sv": "eid (islamisk högtid)",
+      "nl": "eid (islamitisch feest)",
+      "it": "l'Eid (festa islamica)",
+      "es": "el Eid (fiesta islámica)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hagg",
+    "am": "ሐጅ",
+    "tr": "hagg",
+    "pos": "noun",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "die Pilgerfahrt nach Mekka (Hadsch)",
+      "en": "the pilgrimage to Mecca (Hajj)",
+      "sv": "pilgrimsfärden till Mecka (hajj)",
+      "nl": "de pelgrimstocht naar Mekka (hadj)",
+      "it": "il pellegrinaggio alla Mecca (Hajj)",
+      "es": "la peregrinación a La Meca (Hach)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_meka",
+    "am": "መካ",
+    "tr": "meka",
+    "pos": "noun",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "Mekka",
+      "en": "Mecca",
+      "sv": "Mecka",
+      "nl": "Mekka",
+      "it": "La Mecca",
+      "es": "La Meca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mesged",
+    "am": "መስገድ",
+    "tr": "mesiged",
+    "pos": "verb",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "sich niederwerfen, (rituell) beten",
+      "en": "to prostrate, to pray (ritually)",
+      "sv": "buga sig, be (rituellt)",
+      "nl": "zich neerbuigen, (rituelt) bidden",
+      "it": "prostrarsi, pregare (ritualmente)",
+      "es": "prosternarse, orar (ritualmente)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zekat",
+    "am": "ዘካት",
+    "tr": "zekat",
+    "pos": "noun",
+    "topic": "islam_practice",
+    "level": "B2",
+    "t": {
+      "de": "die Pflichtabgabe, das Almosen (Zakat)",
+      "en": "obligatory almsgiving (zakat)",
+      "sv": "allmosoplikten (zakat)",
+      "nl": "de verplichte aalmoes (zakat)",
+      "it": "l'elemosina obbligatoria (zakat)",
+      "es": "la limosna obligatoria (zakat)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

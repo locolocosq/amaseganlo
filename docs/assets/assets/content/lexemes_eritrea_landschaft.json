@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_lsc_dsrt",
+    "am": "በረኻ",
+    "tr": "bereka",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "die Wüste",
+      "en": "desert",
+      "sv": "öken",
+      "nl": "woestijn",
+      "it": "il deserto",
+      "es": "el desierto"
+    },
+    "emoji": "🏜️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_islnd",
+    "am": "ደሴት",
+    "tr": "deset",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "die Insel",
+      "en": "island",
+      "sv": "ö",
+      "nl": "eiland",
+      "it": "l'isola",
+      "es": "la isla"
+    },
+    "emoji": "🏝️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_cave",
+    "am": "በዓቲ",
+    "tr": "be'ati",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "die Höhle",
+      "en": "cave",
+      "sv": "grotta",
+      "nl": "grot",
+      "it": "la grotta",
+      "es": "la cueva"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_vlkn",
+    "am": "እሳተ ጎመራ",
+    "tr": "isate gomera",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "der Vulkan",
+      "en": "volcano",
+      "sv": "vulkan",
+      "nl": "vulkaan",
+      "it": "il vulcano",
+      "es": "el volcán"
+    },
+    "emoji": "🌋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_vlly",
+    "am": "ለሰ",
+    "tr": "lese",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "das Tal",
+      "en": "valley",
+      "sv": "dal",
+      "nl": "vallei",
+      "it": "la valle",
+      "es": "el valle"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_wtrfl",
+    "am": "ፏት ማይ",
+    "tr": "fuat mai",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "der Wasserfall",
+      "en": "waterfall",
+      "sv": "vattenfall",
+      "nl": "waterval",
+      "it": "la cascata",
+      "es": "la cascada"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_shore",
+    "am": "ገምገም ባሕሪ",
+    "tr": "gemigem bahri",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "die Küste, das Ufer",
+      "en": "coast, shore",
+      "sv": "kust, strand",
+      "nl": "kust, oever",
+      "it": "la costa, la riva",
+      "es": "la costa, la orilla"
+    },
+    "emoji": "🏖️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_lsc_pnnsl",
+    "am": "ፍርቂ ደሴት",
+    "tr": "firqi deset",
+    "pos": "noun",
+    "topic": "landscape",
+    "level": "TI",
+    "t": {
+      "de": "die Halbinsel",
+      "en": "peninsula",
+      "sv": "halvö",
+      "nl": "schiereiland",
+      "it": "la penisola",
+      "es": "la península"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

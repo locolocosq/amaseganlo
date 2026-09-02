@@ -1,0 +1,176 @@
+[
+  {
+    "id": "unit_eritrea_gewuerze_backen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_gwz_pfef",
+      "lex_ti_gwz_zmt",
+      "lex_ti_gwz_grlc",
+      "lex_ti_gwz_gngr",
+      "lex_ti_gwz_cinn",
+      "lex_ti_gwz_hny",
+      "lex_ti_gwz_sgr",
+      "lex_ti_bck_flr",
+      "lex_ti_bck_dgh",
+      "lex_ti_bck_yst",
+      "lex_ti_bck_mix",
+      "lex_ti_bck_knd",
+      "lex_ti_bck_bke",
+      "lex_ti_bck_cake"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gewuerze_backen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_gwz_pfef",
+      "lex_ti_gwz_zmt",
+      "lex_ti_gwz_grlc",
+      "lex_ti_gwz_gngr",
+      "lex_ti_gwz_cinn",
+      "lex_ti_gwz_hny",
+      "lex_ti_gwz_sgr",
+      "lex_ti_bck_flr",
+      "lex_ti_bck_dgh",
+      "lex_ti_bck_yst",
+      "lex_ti_bck_mix",
+      "lex_ti_bck_knd",
+      "lex_ti_bck_bke",
+      "lex_ti_bck_cake"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewuerze_backen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_gwz_pfef",
+      "lex_ti_gwz_zmt",
+      "lex_ti_gwz_grlc",
+      "lex_ti_gwz_gngr",
+      "lex_ti_gwz_cinn",
+      "lex_ti_gwz_hny",
+      "lex_ti_gwz_sgr",
+      "lex_ti_bck_flr",
+      "lex_ti_bck_dgh",
+      "lex_ti_bck_yst",
+      "lex_ti_bck_mix",
+      "lex_ti_bck_knd",
+      "lex_ti_bck_bke",
+      "lex_ti_bck_cake"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewuerze_backen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_gwz_pfef",
+      "lex_ti_gwz_zmt",
+      "lex_ti_gwz_grlc",
+      "lex_ti_gwz_gngr",
+      "lex_ti_gwz_cinn",
+      "lex_ti_gwz_hny",
+      "lex_ti_gwz_sgr",
+      "lex_ti_bck_flr",
+      "lex_ti_bck_dgh",
+      "lex_ti_bck_yst",
+      "lex_ti_bck_mix",
+      "lex_ti_bck_knd",
+      "lex_ti_bck_bke",
+      "lex_ti_bck_cake"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewuerze_backen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_gwz_pfef",
+      "lex_ti_gwz_zmt",
+      "lex_ti_gwz_grlc",
+      "lex_ti_gwz_gngr",
+      "lex_ti_gwz_cinn",
+      "lex_ti_gwz_hny",
+      "lex_ti_gwz_sgr",
+      "lex_ti_bck_flr",
+      "lex_ti_bck_dgh",
+      "lex_ti_bck_yst",
+      "lex_ti_bck_mix",
+      "lex_ti_bck_knd",
+      "lex_ti_bck_bke",
+      "lex_ti_bck_cake"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gewuerze_backen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_gwz_pfef",
+      "lex_ti_gwz_zmt",
+      "lex_ti_gwz_grlc",
+      "lex_ti_gwz_gngr",
+      "lex_ti_gwz_cinn",
+      "lex_ti_gwz_hny",
+      "lex_ti_gwz_sgr",
+      "lex_ti_bck_flr",
+      "lex_ti_bck_dgh",
+      "lex_ti_bck_yst",
+      "lex_ti_bck_mix",
+      "lex_ti_bck_knd",
+      "lex_ti_bck_bke",
+      "lex_ti_bck_cake"
+    ],
+    "sentenceIds": [
+      "sen_ti_gewuerze_backen_1",
+      "sen_gen_gwz_zmt",
+      "sen_gen_gwz_grlc",
+      "sen_gen_gwz_gngr",
+      "sen_gen_gwz_cinn"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

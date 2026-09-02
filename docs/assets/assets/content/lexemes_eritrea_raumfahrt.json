@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_rfr_rckt",
+    "am": "ሮኬት",
+    "tr": "roket",
+    "pos": "noun",
+    "topic": "space_travel",
+    "level": "TI",
+    "t": {
+      "de": "die Rakete",
+      "en": "rocket",
+      "sv": "raket",
+      "nl": "raket",
+      "it": "il razzo",
+      "es": "el cohete"
+    },
+    "emoji": "🚀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rfr_atrn",
+    "am": "ጠፈርተኛ",
+    "tr": "teferitegna",
+    "pos": "noun",
+    "topic": "space_travel",
+    "level": "TI",
+    "t": {
+      "de": "der Astronaut",
+      "en": "astronaut",
+      "sv": "astronaut",
+      "nl": "astronaut",
+      "it": "l'astronauta",
+      "es": "el astronauta"
+    },
+    "emoji": "👨‍🚀",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rfr_shp2",
+    "am": "መርከብ ጠፈር",
+    "tr": "merkeb tefer",
+    "pos": "noun",
+    "topic": "space_travel",
+    "level": "TI",
+    "t": {
+      "de": "das Raumschiff",
+      "en": "spaceship",
+      "sv": "rymdskepp",
+      "nl": "ruimteschip",
+      "it": "l'astronave",
+      "es": "la nave espacial"
+    },
+    "emoji": "🛸",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rfr_moon",
+    "am": "ወርሒ (ጠፈር)",
+    "tr": "werhi tefer",
+    "pos": "noun",
+    "topic": "space_travel",
+    "level": "TI",
+    "t": {
+      "de": "der Mond",
+      "en": "moon",
+      "sv": "måne",
+      "nl": "maan",
+      "it": "la luna",
+      "es": "la luna"
+    },
+    "emoji": "🌙",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rfr_sat",
+    "am": "ሳተላይት",
+    "tr": "satelayt",
+    "pos": "noun",
+    "topic": "space_travel",
+    "level": "TI",
+    "t": {
+      "de": "der Satellit",
+      "en": "satellite",
+      "sv": "satellit",
+      "nl": "satelliet",
+      "it": "il satellite",
+      "es": "el satélite"
+    },
+    "emoji": "🛰️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_rfr_launch",
+    "am": "ተወንጨፈ",
+    "tr": "tewenchefe",
+    "pos": "verb",
+    "topic": "space_travel",
+    "level": "TI",
+    "t": {
+      "de": "starten (Rakete)",
+      "en": "to launch (rocket)",
+      "sv": "att skjuta upp (raket)",
+      "nl": "lanceren (raket)",
+      "it": "lanciare (un razzo)",
+      "es": "lanzar (un cohete)"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

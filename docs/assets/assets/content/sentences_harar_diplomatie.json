@@ -1,0 +1,121 @@
+[
+  {
+    "id": "sen_ambasader_embasi",
+    "am": "አምባሳደሩ በኤምባሲ ይሰራል።",
+    "tr": "ambasaderu be embasi yiseral.",
+    "level": "B2",
+    "uses": [
+      "lex_ambasader",
+      "lex_embasi"
+    ],
+    "t": {
+      "de": "Der Botschafter arbeitet in der Botschaft.",
+      "en": "The ambassador works at the embassy.",
+      "sv": "Ambassadören arbetar på ambassaden.",
+      "nl": "De ambassadeur werkt op de ambassade.",
+      "it": "L'ambasciatore lavora all'ambasciata.",
+      "es": "El embajador trabaja en la embajada."
+    },
+    "chunks": [
+      "ambasaderu",
+      "be",
+      "embasi",
+      "yiseral"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_siminet_asfelagi",
+    "am": "ይህ ስምምነት አስፈላጊ ነው።",
+    "tr": "yih siminet asfelagi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_siminet"
+    ],
+    "t": {
+      "de": "Dieses Abkommen ist wichtig.",
+      "en": "This agreement is important.",
+      "sv": "Detta avtal är viktigt.",
+      "nl": "Deze overeenkomst is belangrijk.",
+      "it": "Questo accordo è importante.",
+      "es": "Este acuerdo es importante."
+    },
+    "chunks": [
+      "yih",
+      "siminet",
+      "asfelagi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_diridir_kebad",
+    "am": "ድርድር ከባድ ነው።",
+    "tr": "diridir kebad newu.",
+    "level": "B2",
+    "uses": [
+      "lex_diridir"
+    ],
+    "t": {
+      "de": "Verhandlung ist schwierig.",
+      "en": "Negotiation is hard.",
+      "sv": "Förhandling är svår.",
+      "nl": "Onderhandeling is moeilijk.",
+      "it": "La trattativa è difficile.",
+      "es": "La negociación es difícil."
+    },
+    "chunks": [
+      "diridir",
+      "kebad",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_timiret_hail",
+    "am": "ጥምረት ኃይል ይሰጣል።",
+    "tr": "t'imiret hail yisetal.",
+    "level": "B2",
+    "uses": [
+      "lex_timiret"
+    ],
+    "t": {
+      "de": "Ein Bündnis gibt Kraft.",
+      "en": "An alliance gives strength.",
+      "sv": "En allians ger styrka.",
+      "nl": "Een alliantie geeft kracht.",
+      "it": "Un'alleanza dà forza.",
+      "es": "Una alianza da fuerza."
+    },
+    "chunks": [
+      "t'imiret",
+      "hail",
+      "yisetal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ambasader_mederader",
+    "am": "አምባሳደሩ ይደራደራል።",
+    "tr": "ambasaderu yiderader al.",
+    "level": "B2",
+    "uses": [
+      "lex_ambasader",
+      "lex_v_mederader"
+    ],
+    "t": {
+      "de": "Der Botschafter verhandelt.",
+      "en": "The ambassador negotiates.",
+      "sv": "Ambassadören förhandlar.",
+      "nl": "De ambassadeur onderhandelt.",
+      "it": "L'ambasciatore negozia.",
+      "es": "El embajador negocia."
+    },
+    "chunks": [
+      "ambasaderu",
+      "yiderader",
+      "al"
+    ],
+    "verified": false
+  }
+]

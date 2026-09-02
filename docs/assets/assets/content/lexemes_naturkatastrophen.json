@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_erdbeben",
+    "am": "የመሬት መንቀጥቀጥ",
+    "tr": "yemeret menk'et'ik'et'",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "das Erdbeben",
+      "en": "earthquake",
+      "sv": "jordbävning",
+      "nl": "aardbeving",
+      "it": "il terremoto",
+      "es": "el terremoto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_flut",
+    "am": "ጎርፍ",
+    "tr": "gorif",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "die Flut, Überschwemmung",
+      "en": "flood",
+      "sv": "översvämning",
+      "nl": "overstroming",
+      "it": "l'alluvione, l'inondazione",
+      "es": "la inundación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_duerre",
+    "am": "ድርቅ",
+    "tr": "dirik'",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "die Dürre",
+      "en": "drought",
+      "sv": "torka",
+      "nl": "droogte",
+      "it": "la siccità",
+      "es": "la sequía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wirbelsturm",
+    "am": "ትልቅ ዐውሎ ንፋስ",
+    "tr": "tilik' awlo nifas",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "der Wirbelsturm, Orkan",
+      "en": "hurricane",
+      "sv": "orkan",
+      "nl": "orkaan",
+      "it": "l'uragano",
+      "es": "el huracán"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_vulkan",
+    "am": "እሳተ ገሞራ",
+    "tr": "isate gemora",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "der Vulkan",
+      "en": "volcano",
+      "sv": "vulkan",
+      "nl": "vulkaan",
+      "it": "il vulcano",
+      "es": "el volcán"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌋",
+    "verified": true
+  },
+  {
+    "id": "lex_erdrutsch",
+    "am": "የመሬት መንሸራተት",
+    "tr": "yemeret mesheratet",
+    "pos": "noun",
+    "topic": "disasters",
+    "level": "B1",
+    "t": {
+      "de": "der Erdrutsch",
+      "en": "landslide",
+      "sv": "jordskred",
+      "nl": "aardverschuiving",
+      "it": "la frana",
+      "es": "el deslizamiento de tierra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

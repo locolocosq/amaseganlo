@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_planet",
+    "am": "ፕላኔት",
+    "tr": "planet",
+    "pos": "noun",
+    "topic": "astronomy",
+    "level": "B1",
+    "t": {
+      "de": "der Planet",
+      "en": "planet",
+      "sv": "planet",
+      "nl": "planeet",
+      "it": "il pianeta",
+      "es": "el planeta"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🪐",
+    "verified": true
+  },
+  {
+    "id": "lex_komet",
+    "am": "ኮከብ ጭራ",
+    "tr": "kokeb chira",
+    "pos": "noun",
+    "topic": "astronomy",
+    "level": "B1",
+    "t": {
+      "de": "der Komet",
+      "en": "comet",
+      "sv": "komet",
+      "nl": "komeet",
+      "it": "la cometa",
+      "es": "el cometa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_finsternis",
+    "am": "ግርዶሽ",
+    "tr": "giridosh",
+    "pos": "noun",
+    "topic": "astronomy",
+    "level": "B1",
+    "t": {
+      "de": "die Finsternis (Sonne/Mond)",
+      "en": "eclipse",
+      "sv": "förmörkelse",
+      "nl": "eclips",
+      "it": "l'eclissi (sole/luna)",
+      "es": "el eclipse (sol/luna)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_galaxie",
+    "am": "ጋላክሲ",
+    "tr": "galaksi",
+    "pos": "noun",
+    "topic": "astronomy",
+    "level": "B1",
+    "t": {
+      "de": "die Galaxie",
+      "en": "galaxy",
+      "sv": "galax",
+      "nl": "melkweg",
+      "it": "la galassia",
+      "es": "la galaxia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌌",
+    "verified": true
+  },
+  {
+    "id": "lex_universum",
+    "am": "ጽንፈ ዓለም",
+    "tr": "tsinfe alem",
+    "pos": "noun",
+    "topic": "astronomy",
+    "level": "B1",
+    "t": {
+      "de": "das Universum",
+      "en": "universe",
+      "sv": "universum",
+      "nl": "universum",
+      "it": "l'universo",
+      "es": "el universo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schwerkraft",
+    "am": "የስበት ኃይል",
+    "tr": "yesibet hail",
+    "pos": "noun",
+    "topic": "astronomy",
+    "level": "B1",
+    "t": {
+      "de": "die Schwerkraft",
+      "en": "gravity",
+      "sv": "gravitation",
+      "nl": "zwaartekracht",
+      "it": "la gravità",
+      "es": "la gravedad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

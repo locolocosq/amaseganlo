@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lex_ti_edn2",
+    "am": "ጥጡፍ",
+    "tr": "t'it'uf",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "die Baumwolle",
+      "en": "cotton",
+      "sv": "bomull",
+      "nl": "katoen",
+      "it": "il cotone",
+      "es": "el algodón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_suf2",
+    "am": "ሱፍ",
+    "tr": "suf",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "die Wolle",
+      "en": "wool",
+      "sv": "ull",
+      "nl": "wol",
+      "it": "la lana",
+      "es": "la lana"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_geldi2",
+    "am": "ቆርበት (ንብረት)",
+    "tr": "qorbet nibret",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "das Leder",
+      "en": "leather",
+      "sv": "läder",
+      "nl": "leer",
+      "it": "il cuoio",
+      "es": "el cuero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bret2",
+    "am": "ብርጭቆ (ንብረት)",
+    "tr": "birchiqo nibret",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "das Glas (Material)",
+      "en": "glass (material)",
+      "sv": "glas (material)",
+      "nl": "glas (materiaal)",
+      "it": "il vetro (materiale)",
+      "es": "el vidrio (material)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_plastik",
+    "am": "ላስቲክ",
+    "tr": "lastik",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "der Kunststoff, Plastik",
+      "en": "plastic",
+      "sv": "plast",
+      "nl": "plastic",
+      "it": "la plastica",
+      "es": "el plástico"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wraq",
+    "am": "ወረቐት (ንብረት)",
+    "tr": "wereqet nibret",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "das Papier (Material)",
+      "en": "paper (material)",
+      "sv": "papper (material)",
+      "nl": "papier (materiaal)",
+      "it": "la carta (materiale)",
+      "es": "el papel (material)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbti2",
+    "am": "ኣእማን (ንብረት)",
+    "tr": "a'eman nibret",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "der Stein (Material)",
+      "en": "stone (material)",
+      "sv": "sten (material)",
+      "nl": "steen (materiaal)",
+      "it": "la pietra (materiale)",
+      "es": "la piedra (material)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seramik",
+    "am": "ስራሕ ሓመድ",
+    "tr": "sirah hamed",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "die Keramik, Töpferware",
+      "en": "ceramics, pottery",
+      "sv": "keramik",
+      "nl": "keramiek",
+      "it": "la ceramica",
+      "es": "la cerámica"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gomma",
+    "am": "ላስቲክ ጎማ",
+    "tr": "lastik goma",
+    "pos": "noun",
+    "topic": "materials",
+    "level": "TI",
+    "t": {
+      "de": "der Gummi",
+      "en": "rubber",
+      "sv": "gummi",
+      "nl": "rubber",
+      "it": "la gomma",
+      "es": "la goma"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

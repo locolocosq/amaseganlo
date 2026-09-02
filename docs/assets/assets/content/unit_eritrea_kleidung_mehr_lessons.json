@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_kleidung_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_kl2_pjm",
+      "lex_ti_kl2_ntgr",
+      "lex_ti_kl2_zenb",
+      "lex_ti_kl2_astl",
+      "lex_ti_kl2_sndl",
+      "lex_ti_kl2_snz",
+      "lex_ti_kl2_kolo",
+      "lex_ti_kl2_pllvr",
+      "lex_ti_kl2_wst2",
+      "lex_ti_kl2_shrz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_kleidung_mehr_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_kl2_pjm",
+      "lex_ti_kl2_ntgr",
+      "lex_ti_kl2_zenb",
+      "lex_ti_kl2_astl",
+      "lex_ti_kl2_sndl",
+      "lex_ti_kl2_snz",
+      "lex_ti_kl2_kolo",
+      "lex_ti_kl2_pllvr",
+      "lex_ti_kl2_wst2",
+      "lex_ti_kl2_shrz"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kleidung_mehr_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_kl2_pjm",
+      "lex_ti_kl2_ntgr",
+      "lex_ti_kl2_zenb",
+      "lex_ti_kl2_astl",
+      "lex_ti_kl2_sndl",
+      "lex_ti_kl2_snz",
+      "lex_ti_kl2_kolo",
+      "lex_ti_kl2_pllvr",
+      "lex_ti_kl2_wst2",
+      "lex_ti_kl2_shrz"
+    ],
+    "sentenceIds": [
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kleidung_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_kl2_pjm",
+      "lex_ti_kl2_ntgr",
+      "lex_ti_kl2_zenb",
+      "lex_ti_kl2_astl",
+      "lex_ti_kl2_sndl",
+      "lex_ti_kl2_snz",
+      "lex_ti_kl2_kolo",
+      "lex_ti_kl2_pllvr",
+      "lex_ti_kl2_wst2",
+      "lex_ti_kl2_shrz"
+    ],
+    "sentenceIds": [
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kleidung_mehr_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_kl2_pjm",
+      "lex_ti_kl2_ntgr",
+      "lex_ti_kl2_zenb",
+      "lex_ti_kl2_astl",
+      "lex_ti_kl2_sndl",
+      "lex_ti_kl2_snz",
+      "lex_ti_kl2_kolo",
+      "lex_ti_kl2_pllvr",
+      "lex_ti_kl2_wst2",
+      "lex_ti_kl2_shrz"
+    ],
+    "sentenceIds": [
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_kleidung_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_kl2_pjm",
+      "lex_ti_kl2_ntgr",
+      "lex_ti_kl2_zenb",
+      "lex_ti_kl2_astl",
+      "lex_ti_kl2_sndl",
+      "lex_ti_kl2_snz",
+      "lex_ti_kl2_kolo",
+      "lex_ti_kl2_pllvr",
+      "lex_ti_kl2_wst2",
+      "lex_ti_kl2_shrz"
+    ],
+    "sentenceIds": [
+      "sen_ti_kleidung_mehr_1",
+      "sen_gen_kl2_ntgr",
+      "sen_gen_kl2_zenb",
+      "sen_gen_kl2_astl",
+      "sen_gen_kl2_sndl"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

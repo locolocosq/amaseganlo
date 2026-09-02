@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_mbl_sofa",
+    "am": "ሶፋ",
+    "tr": "sofa",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "das Sofa",
+      "en": "sofa",
+      "sv": "soffa",
+      "nl": "bank (meubel)",
+      "it": "il divano",
+      "es": "el sofá"
+    },
+    "emoji": "🛋️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_rgal",
+    "am": "ራፍ",
+    "tr": "rafi",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "das Regal",
+      "en": "shelf",
+      "sv": "hylla",
+      "nl": "plank, boekenkast",
+      "it": "lo scaffale, la mensola",
+      "es": "el estante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_shelf",
+    "am": "ናይ መጻሕፍቲ ደርቢ",
+    "tr": "nay metsahifti derbi",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "das Bücherregal",
+      "en": "bookshelf",
+      "sv": "bokhylla",
+      "nl": "boekenkast",
+      "it": "la libreria",
+      "es": "la estantería (para libros)"
+    },
+    "emoji": "📚",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_ntt",
+    "am": "ናይ ስራሕ ጠረጴዛ",
+    "tr": "nay sirah teretseza",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "der Schreibtisch",
+      "en": "desk",
+      "sv": "skrivbord",
+      "nl": "bureau",
+      "it": "la scrivania",
+      "es": "el escritorio"
+    },
+    "emoji": "🗄️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_drwr",
+    "am": "ካቢነት",
+    "tr": "kabinet",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "die Kommode",
+      "en": "drawer, dresser",
+      "sv": "byrå",
+      "nl": "ladekast",
+      "it": "il cassettone, la cassettiera",
+      "es": "la cómoda"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_hngr",
+    "am": "መስቀሊ ክዳን",
+    "tr": "mesqeli kidan",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "der Kleiderbügel",
+      "en": "hanger",
+      "sv": "galge",
+      "nl": "kledinghanger",
+      "it": "la gruccia, l'appendiabiti",
+      "es": "la percha"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_stol2",
+    "am": "ንኡስ መንበር",
+    "tr": "ni'us menber",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "der Hocker",
+      "en": "stool",
+      "sv": "pall",
+      "nl": "kruk",
+      "it": "lo sgabello",
+      "es": "el taburete"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mbl_wgrt",
+    "am": "ናይ ቡን ጠረጴዛ",
+    "tr": "nay bun teretseza",
+    "pos": "noun",
+    "topic": "furniture",
+    "level": "TI",
+    "t": {
+      "de": "der Couchtisch",
+      "en": "coffee table",
+      "sv": "soffbord",
+      "nl": "salontafel",
+      "it": "il tavolino da salotto",
+      "es": "la mesa de centro"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

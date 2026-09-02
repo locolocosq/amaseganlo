@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_bildung2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hb2_yuniversiti",
+      "lex_hb2_maste_timihirt",
+      "lex_hb2_astemari",
+      "lex_hb2_kifil3",
+      "lex_hb2_metsihaf_timihirt",
+      "lex_hb2_fetena",
+      "lex_hb2_v_mefetin",
+      "lex_hb2_wetat_marka",
+      "lex_hb2_timihirt_sinat",
+      "lex_hb2_matematiks",
+      "lex_hb2_tarik2",
+      "lex_hb2_v_meligilgel",
+      "lex_hb2_temari2",
+      "lex_hb2_iqid",
+      "lex_hb2_v_masesat",
+      "lex_hb2_zewedegna",
+      "lex_hb2_akal6",
+      "lex_hb2_qalem",
+      "lex_hb2_dinbir3",
+      "lex_hb2_v_metsahaf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_bildung2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hb2_yuniversiti",
+      "lex_hb2_maste_timihirt",
+      "lex_hb2_astemari",
+      "lex_hb2_kifil3",
+      "lex_hb2_metsihaf_timihirt",
+      "lex_hb2_fetena",
+      "lex_hb2_v_mefetin",
+      "lex_hb2_wetat_marka",
+      "lex_hb2_timihirt_sinat",
+      "lex_hb2_matematiks",
+      "lex_hb2_tarik2",
+      "lex_hb2_v_meligilgel",
+      "lex_hb2_temari2",
+      "lex_hb2_iqid",
+      "lex_hb2_v_masesat",
+      "lex_hb2_zewedegna",
+      "lex_hb2_akal6",
+      "lex_hb2_qalem",
+      "lex_hb2_dinbir3",
+      "lex_hb2_v_metsahaf"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hb2_yuniversiti",
+      "lex_hb2_maste_timihirt",
+      "lex_hb2_astemari",
+      "lex_hb2_kifil3",
+      "lex_hb2_metsihaf_timihirt",
+      "lex_hb2_fetena",
+      "lex_hb2_v_mefetin",
+      "lex_hb2_wetat_marka",
+      "lex_hb2_timihirt_sinat",
+      "lex_hb2_matematiks",
+      "lex_hb2_tarik2",
+      "lex_hb2_v_meligilgel",
+      "lex_hb2_temari2",
+      "lex_hb2_iqid",
+      "lex_hb2_v_masesat",
+      "lex_hb2_zewedegna",
+      "lex_hb2_akal6",
+      "lex_hb2_qalem",
+      "lex_hb2_dinbir3",
+      "lex_hb2_v_metsahaf"
+    ],
+    "sentenceIds": [
+      "sen_hb2_astemari_temari",
+      "sen_hb2_temari_matematiks",
+      "sen_hb2_fetena_kifil",
+      "sen_hb2_temari_wetat",
+      "sen_gen_hb2_yuniversiti"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hb2_yuniversiti",
+      "lex_hb2_maste_timihirt",
+      "lex_hb2_astemari",
+      "lex_hb2_kifil3",
+      "lex_hb2_metsihaf_timihirt",
+      "lex_hb2_fetena",
+      "lex_hb2_v_mefetin",
+      "lex_hb2_wetat_marka",
+      "lex_hb2_timihirt_sinat",
+      "lex_hb2_matematiks",
+      "lex_hb2_tarik2",
+      "lex_hb2_v_meligilgel",
+      "lex_hb2_temari2",
+      "lex_hb2_iqid",
+      "lex_hb2_v_masesat",
+      "lex_hb2_zewedegna",
+      "lex_hb2_akal6",
+      "lex_hb2_qalem",
+      "lex_hb2_dinbir3",
+      "lex_hb2_v_metsahaf"
+    ],
+    "sentenceIds": [
+      "sen_hb2_astemari_temari",
+      "sen_hb2_temari_matematiks",
+      "sen_hb2_fetena_kifil",
+      "sen_hb2_temari_wetat",
+      "sen_gen_hb2_yuniversiti"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hb2_yuniversiti",
+      "lex_hb2_maste_timihirt",
+      "lex_hb2_astemari",
+      "lex_hb2_kifil3",
+      "lex_hb2_metsihaf_timihirt",
+      "lex_hb2_fetena",
+      "lex_hb2_v_mefetin",
+      "lex_hb2_wetat_marka",
+      "lex_hb2_timihirt_sinat",
+      "lex_hb2_matematiks",
+      "lex_hb2_tarik2",
+      "lex_hb2_v_meligilgel",
+      "lex_hb2_temari2",
+      "lex_hb2_iqid",
+      "lex_hb2_v_masesat",
+      "lex_hb2_zewedegna",
+      "lex_hb2_akal6",
+      "lex_hb2_qalem",
+      "lex_hb2_dinbir3",
+      "lex_hb2_v_metsahaf"
+    ],
+    "sentenceIds": [
+      "sen_hb2_astemari_temari",
+      "sen_hb2_temari_matematiks",
+      "sen_hb2_fetena_kifil",
+      "sen_hb2_temari_wetat",
+      "sen_gen_hb2_yuniversiti"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_bildung2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hb2_yuniversiti",
+      "lex_hb2_maste_timihirt",
+      "lex_hb2_astemari",
+      "lex_hb2_kifil3",
+      "lex_hb2_metsihaf_timihirt",
+      "lex_hb2_fetena",
+      "lex_hb2_v_mefetin",
+      "lex_hb2_wetat_marka",
+      "lex_hb2_timihirt_sinat",
+      "lex_hb2_matematiks",
+      "lex_hb2_tarik2",
+      "lex_hb2_v_meligilgel",
+      "lex_hb2_temari2",
+      "lex_hb2_iqid",
+      "lex_hb2_v_masesat",
+      "lex_hb2_zewedegna",
+      "lex_hb2_akal6",
+      "lex_hb2_qalem",
+      "lex_hb2_dinbir3",
+      "lex_hb2_v_metsahaf"
+    ],
+    "sentenceIds": [
+      "sen_hb2_astemari_temari",
+      "sen_hb2_temari_matematiks",
+      "sen_hb2_fetena_kifil",
+      "sen_hb2_temari_wetat",
+      "sen_gen_hb2_yuniversiti"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

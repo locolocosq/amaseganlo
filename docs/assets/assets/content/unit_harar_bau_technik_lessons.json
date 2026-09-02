@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_bau_technik_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hbt_bilding",
+      "lex_hbt_mesetat",
+      "lex_hbt_getet",
+      "lex_hbt_derek",
+      "lex_hbt_meret2",
+      "lex_hbt_meskot",
+      "lex_hbt_iceber",
+      "lex_hbt_injinar",
+      "lex_hbt_kalkulator",
+      "lex_hbt_v_mekayed",
+      "lex_hbt_simment",
+      "lex_hbt_shibela",
+      "lex_hbt_birana",
+      "lex_hbt_v_masaser",
+      "lex_hbt_kifil2",
+      "lex_hbt_meret_kefel",
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_takula",
+      "lex_hbt_gize_kirs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_bau_technik_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hbt_bilding",
+      "lex_hbt_mesetat",
+      "lex_hbt_getet",
+      "lex_hbt_derek",
+      "lex_hbt_meret2",
+      "lex_hbt_meskot",
+      "lex_hbt_iceber",
+      "lex_hbt_injinar",
+      "lex_hbt_kalkulator",
+      "lex_hbt_v_mekayed",
+      "lex_hbt_simment",
+      "lex_hbt_shibela",
+      "lex_hbt_birana",
+      "lex_hbt_v_masaser",
+      "lex_hbt_kifil2",
+      "lex_hbt_meret_kefel",
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_takula",
+      "lex_hbt_gize_kirs"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_bau_technik_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hbt_bilding",
+      "lex_hbt_mesetat",
+      "lex_hbt_getet",
+      "lex_hbt_derek",
+      "lex_hbt_meret2",
+      "lex_hbt_meskot",
+      "lex_hbt_iceber",
+      "lex_hbt_injinar",
+      "lex_hbt_kalkulator",
+      "lex_hbt_v_mekayed",
+      "lex_hbt_simment",
+      "lex_hbt_shibela",
+      "lex_hbt_birana",
+      "lex_hbt_v_masaser",
+      "lex_hbt_kifil2",
+      "lex_hbt_meret_kefel",
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_takula",
+      "lex_hbt_gize_kirs"
+    ],
+    "sentenceIds": [
+      "sen_hbt_injinar_bilding",
+      "sen_hbt_mesetat_getet",
+      "sen_hbt_simment_shibela",
+      "sen_hbt_masikakel",
+      "sen_gen_hbt_derek"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_bau_technik_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hbt_bilding",
+      "lex_hbt_mesetat",
+      "lex_hbt_getet",
+      "lex_hbt_derek",
+      "lex_hbt_meret2",
+      "lex_hbt_meskot",
+      "lex_hbt_iceber",
+      "lex_hbt_injinar",
+      "lex_hbt_kalkulator",
+      "lex_hbt_v_mekayed",
+      "lex_hbt_simment",
+      "lex_hbt_shibela",
+      "lex_hbt_birana",
+      "lex_hbt_v_masaser",
+      "lex_hbt_kifil2",
+      "lex_hbt_meret_kefel",
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_takula",
+      "lex_hbt_gize_kirs"
+    ],
+    "sentenceIds": [
+      "sen_hbt_injinar_bilding",
+      "sen_hbt_mesetat_getet",
+      "sen_hbt_simment_shibela",
+      "sen_hbt_masikakel",
+      "sen_gen_hbt_derek"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_bau_technik_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hbt_bilding",
+      "lex_hbt_mesetat",
+      "lex_hbt_getet",
+      "lex_hbt_derek",
+      "lex_hbt_meret2",
+      "lex_hbt_meskot",
+      "lex_hbt_iceber",
+      "lex_hbt_injinar",
+      "lex_hbt_kalkulator",
+      "lex_hbt_v_mekayed",
+      "lex_hbt_simment",
+      "lex_hbt_shibela",
+      "lex_hbt_birana",
+      "lex_hbt_v_masaser",
+      "lex_hbt_kifil2",
+      "lex_hbt_meret_kefel",
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_takula",
+      "lex_hbt_gize_kirs"
+    ],
+    "sentenceIds": [
+      "sen_hbt_injinar_bilding",
+      "sen_hbt_mesetat_getet",
+      "sen_hbt_simment_shibela",
+      "sen_hbt_masikakel",
+      "sen_gen_hbt_derek"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_bau_technik_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hbt_bilding",
+      "lex_hbt_mesetat",
+      "lex_hbt_getet",
+      "lex_hbt_derek",
+      "lex_hbt_meret2",
+      "lex_hbt_meskot",
+      "lex_hbt_iceber",
+      "lex_hbt_injinar",
+      "lex_hbt_kalkulator",
+      "lex_hbt_v_mekayed",
+      "lex_hbt_simment",
+      "lex_hbt_shibela",
+      "lex_hbt_birana",
+      "lex_hbt_v_masaser",
+      "lex_hbt_kifil2",
+      "lex_hbt_meret_kefel",
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_takula",
+      "lex_hbt_gize_kirs"
+    ],
+    "sentenceIds": [
+      "sen_hbt_injinar_bilding",
+      "sen_hbt_mesetat_getet",
+      "sen_hbt_simment_shibela",
+      "sen_hbt_masikakel",
+      "sen_gen_hbt_derek"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

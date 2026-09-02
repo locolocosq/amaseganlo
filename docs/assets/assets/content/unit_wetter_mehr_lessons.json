@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_wetter_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_wetter_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_wetter_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_sturm",
+      "lex_blitz",
+      "lex_donner",
+      "lex_feucht",
+      "lex_nebel",
+      "lex_hagel",
+      "lex_nieselregen"
+    ],
+    "sentenceIds": [
+      "sen_gen_sturm",
+      "sen_gen_blitz",
+      "sen_gen_donner",
+      "sen_gen_feucht",
+      "sen_gen_nebel"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

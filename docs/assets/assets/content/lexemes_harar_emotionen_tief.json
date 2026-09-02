@@ -1,0 +1,422 @@
+[
+  {
+    "id": "lex_he_dilta",
+    "am": "ድልታ",
+    "tr": "dilita",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Zufriedenheit",
+      "en": "contentment",
+      "sv": "belåtenhet",
+      "nl": "tevredenheid",
+      "it": "la soddisfazione",
+      "es": "la satisfacción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_he_tikaki",
+    "am": "ቁጭት",
+    "tr": "k'uchit",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "das Bedauern, der Groll",
+      "en": "regret, resentment",
+      "sv": "ånger, förbittring",
+      "nl": "spijt, wrok",
+      "it": "il rimpianto, il rancore",
+      "es": "el arrepentimiento, el rencor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_he_tesfa",
+    "am": "ተስፋ",
+    "tr": "tesifa",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Hoffnung",
+      "en": "hope",
+      "sv": "hopp",
+      "nl": "hoop",
+      "it": "la speranza",
+      "es": "la esperanza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_v_tesfa_kirt",
+    "am": "ተስፋ መቁረጥ",
+    "tr": "tesifa mek'uret'",
+    "pos": "verb",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Hoffnung aufgeben",
+      "en": "to lose hope, despair",
+      "sv": "tappa hoppet",
+      "nl": "de hoop verliezen",
+      "it": "perdere la speranza",
+      "es": "perder la esperanza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_firenat",
+    "am": "ፍርሃት",
+    "tr": "firihat",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Angst",
+      "en": "fear",
+      "sv": "rädsla",
+      "nl": "angst",
+      "it": "la paura",
+      "es": "el miedo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_dinik",
+    "am": "ድንጋጤ",
+    "tr": "dinigat'e",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "der Schock",
+      "en": "shock",
+      "sv": "chock",
+      "nl": "schok",
+      "it": "lo shock",
+      "es": "el shock"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_kualat",
+    "am": "ቅናት",
+    "tr": "kinat",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "der Neid, die Eifersucht",
+      "en": "jealousy, envy",
+      "sv": "avundsjuka",
+      "nl": "jaloezie",
+      "it": "la gelosia, l'invidia",
+      "es": "los celos, la envidia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_wediket2",
+    "am": "ትህትና",
+    "tr": "tihitina",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Demut",
+      "en": "humility",
+      "sv": "ödmjukhet",
+      "nl": "nederigheid",
+      "it": "l'umiltà",
+      "es": "la humildad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_kibir",
+    "am": "ክብር",
+    "tr": "kibir",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Ehre, der Respekt",
+      "en": "honor, respect",
+      "sv": "ära, respekt",
+      "nl": "eer, respect",
+      "it": "l'onore, il rispetto",
+      "es": "el honor, el respeto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_hiyaw_ferha",
+    "am": "ደስታ",
+    "tr": "desita",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Freude",
+      "en": "joy",
+      "sv": "glädje",
+      "nl": "vreugde",
+      "it": "la gioia",
+      "es": "la alegría"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_hazin",
+    "am": "ሀዘን",
+    "tr": "hazen",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Trauer",
+      "en": "grief, sorrow",
+      "sv": "sorg",
+      "nl": "verdriet",
+      "it": "il dolore, il lutto",
+      "es": "el duelo, la pena"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_v_maziin",
+    "am": "ማዘን",
+    "tr": "mazen",
+    "pos": "verb",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "trauern, bedauern",
+      "en": "to grieve, to regret",
+      "sv": "sörja, ångra",
+      "nl": "rouwen, betreuren",
+      "it": "addolorarsi, rimpiangere",
+      "es": "afligirse, lamentar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_tigat",
+    "am": "ትዕግስት",
+    "tr": "ti'igist",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Geduld",
+      "en": "patience",
+      "sv": "tålamod",
+      "nl": "geduld",
+      "it": "la pazienza",
+      "es": "la paciencia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_kult",
+    "am": "ቁጣ",
+    "tr": "k'uta",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Wut, der Zorn",
+      "en": "anger, rage",
+      "sv": "ilska, vrede",
+      "nl": "woede",
+      "it": "la rabbia, la collera",
+      "es": "la ira, la rabia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_v_masiznek",
+    "am": "ማስደንገጥ",
+    "tr": "masidenget'",
+    "pos": "verb",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "erschrecken (jemanden)",
+      "en": "to startle, to frighten",
+      "sv": "skrämma",
+      "nl": "schrikken",
+      "it": "spaventare",
+      "es": "asustar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_he_selchi",
+    "am": "ስሜት",
+    "tr": "simiet",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "das Gefühl",
+      "en": "feeling, emotion",
+      "sv": "känsla",
+      "nl": "gevoel",
+      "it": "il sentimento, l'emozione",
+      "es": "el sentimiento, la emoción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_widedet",
+    "am": "ውዴታ",
+    "tr": "widedeta",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Zuneigung",
+      "en": "affection",
+      "sv": "tillgivenhet",
+      "nl": "genegenheid",
+      "it": "l'affetto",
+      "es": "el cariño"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_he_fikir2",
+    "am": "ፍቅር",
+    "tr": "fikir",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "die Liebe",
+      "en": "love",
+      "sv": "kärlek",
+      "nl": "liefde",
+      "it": "l'amore",
+      "es": "el amor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "❤️",
+    "verified": true
+  },
+  {
+    "id": "lex_he_tilat",
+    "am": "ጥላቻ",
+    "tr": "t'ilacha",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "der Hass",
+      "en": "hatred",
+      "sv": "hat",
+      "nl": "haat",
+      "it": "l'odio",
+      "es": "el odio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_hiwot_dinbit",
+    "am": "ውጥረት",
+    "tr": "wit'iret",
+    "pos": "noun",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "der Stress, die Spannung",
+      "en": "stress, tension",
+      "sv": "stress, spänning",
+      "nl": "stress, spanning",
+      "it": "lo stress, la tensione",
+      "es": "el estrés, la tensión"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_he_v_mefeker",
+    "am": "መፍቀር",
+    "tr": "mefiker",
+    "pos": "verb",
+    "topic": "deep_emotions",
+    "level": "B2",
+    "t": {
+      "de": "lieben",
+      "en": "to love",
+      "sv": "älska",
+      "nl": "liefhebben",
+      "it": "amare",
+      "es": "amar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

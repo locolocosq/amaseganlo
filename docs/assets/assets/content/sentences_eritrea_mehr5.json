@@ -1,0 +1,393 @@
+[
+  {
+    "id": "sen_ti_raumfahrt_archaeologie_1",
+    "am": "ሮኬት ኣሎ።",
+    "tr": "roket alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rfr_rckt"
+    ],
+    "t": {
+      "de": "Es gibt die Rakete.",
+      "en": "There is rocket.",
+      "sv": "Det finns raket.",
+      "nl": "Er is raket.",
+      "it": "C'è razzo.",
+      "es": "Hay cohete."
+    },
+    "alt": {},
+    "chunks": [
+      "roket",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_chemie_computerhardware_1",
+    "am": "ንጥረ ነገር ኣሎ።",
+    "tr": "nitire neger alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_chm_elmnt"
+    ],
+    "t": {
+      "de": "Es gibt das Element.",
+      "en": "There is element (chemistry).",
+      "sv": "Det finns grundämne.",
+      "nl": "Er is element (scheikunde).",
+      "it": "C'è elemento.",
+      "es": "Hay elemento."
+    },
+    "alt": {},
+    "chunks": [
+      "nitire neger",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_wildtiere_1",
+    "am": "ኣንበሳ ኣሎ።",
+    "tr": "anbesa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wld_lion"
+    ],
+    "t": {
+      "de": "Es gibt der Löwe.",
+      "en": "There is lion.",
+      "sv": "Det finns lejon.",
+      "nl": "Er is leeuw.",
+      "it": "C'è leone.",
+      "es": "Hay león."
+    },
+    "alt": {},
+    "chunks": [
+      "anbesa",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_elektrizitaet_fabrik_1",
+    "am": "ፕላግ ኣሎ።",
+    "tr": "pilagi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_elk_plug"
+    ],
+    "t": {
+      "de": "Es gibt der Stecker.",
+      "en": "There is plug.",
+      "sv": "Det finns kontakt (el).",
+      "nl": "Er is stekker.",
+      "it": "C'è spina.",
+      "es": "Hay enchufe."
+    },
+    "alt": {},
+    "chunks": [
+      "pilagi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_feuerwehr_notdienste_1",
+    "am": "ሓዊ ኣሎ።",
+    "tr": "hawi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_few_fire2"
+    ],
+    "t": {
+      "de": "Es gibt das Feuer.",
+      "en": "There is fire.",
+      "sv": "Det finns eld.",
+      "nl": "Er is vuur.",
+      "it": "C'è fuoco.",
+      "es": "Hay fuego."
+    },
+    "alt": {},
+    "chunks": [
+      "hawi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_flugzeugteile_fotografie_1",
+    "am": "ክንፊ ኣሎ።",
+    "tr": "kinfi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flz_wing"
+    ],
+    "t": {
+      "de": "Es gibt der Flügel.",
+      "en": "There is wing (airplane).",
+      "sv": "Det finns vinge (flygplan).",
+      "nl": "Er is vleugel (vliegtuig).",
+      "it": "C'è ala (aereo).",
+      "es": "Hay ala (avión)."
+    },
+    "alt": {},
+    "chunks": [
+      "kinfi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_friseursalon_schneiderei_1",
+    "am": "መቑረጺ ኣሎ።",
+    "tr": "mequretsi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frs_scsr"
+    ],
+    "t": {
+      "de": "Es gibt die Schere.",
+      "en": "There is scissors.",
+      "sv": "Det finns sax.",
+      "nl": "Er is schaar.",
+      "it": "Ci sono forbici.",
+      "es": "Hay tijeras."
+    },
+    "alt": {},
+    "chunks": [
+      "mequretsi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gaerten_gartengeraete_1",
+    "am": "ሳዕሪ ደምበ ኣሎ።",
+    "tr": "sa'iri dembe alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grt_lawn"
+    ],
+    "t": {
+      "de": "Es gibt der Rasen.",
+      "en": "There is lawn.",
+      "sv": "Det finns gräsmatta.",
+      "nl": "Er is gazon.",
+      "it": "C'è prato.",
+      "es": "Hay césped."
+    },
+    "alt": {},
+    "chunks": [
+      "sa'iri dembe",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_hochzeitsfeier_1",
+    "am": "ክዳን መርዓት ኣሎ።",
+    "tr": "kidan mer'at alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzf_dress"
+    ],
+    "t": {
+      "de": "Es gibt das Brautkleid.",
+      "en": "There is wedding dress.",
+      "sv": "Det finns bröllopsklänning.",
+      "nl": "Er is trouwjurk.",
+      "it": "C'è abito da sposa.",
+      "es": "Hay vestido de novia."
+    },
+    "alt": {},
+    "chunks": [
+      "kidan mer'at",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_brettspiele_jahrmarkt_1",
+    "am": "ዳይስ ኣሎ።",
+    "tr": "days alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brs_dice"
+    ],
+    "t": {
+      "de": "Es gibt der Würfel.",
+      "en": "There is dice.",
+      "sv": "Det finns tärning.",
+      "nl": "Er is dobbelsteen.",
+      "it": "C'è dado.",
+      "es": "Hay dado."
+    },
+    "alt": {},
+    "chunks": [
+      "days",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_seefahrt_gewaesser_1",
+    "am": "ሽራዕ ኣሎ።",
+    "tr": "shira'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_seef_sail"
+    ],
+    "t": {
+      "de": "Es gibt das Segel.",
+      "en": "There is sail.",
+      "sv": "Det finns segel.",
+      "nl": "Er is zeil.",
+      "it": "C'è vela.",
+      "es": "Hay vela."
+    },
+    "alt": {},
+    "chunks": [
+      "shira'i",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_sicherheit_verpackung_1",
+    "am": "ኣላርም ድሕነት ኣሎ።",
+    "tr": "alarm dihinet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sch_alrm3"
+    ],
+    "t": {
+      "de": "Es gibt die Alarmanlage.",
+      "en": "There is security alarm.",
+      "sv": "Det finns larmsystem.",
+      "nl": "Er is alarmsysteem.",
+      "it": "C'è allarme di sicurezza.",
+      "es": "Hay alarma de seguridad."
+    },
+    "alt": {},
+    "chunks": [
+      "alarm dihinet",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_veranstaltung_zirkus_1",
+    "am": "ኮንሰርት ኣሎ።",
+    "tr": "konserit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrn_cncrt"
+    ],
+    "t": {
+      "de": "Es gibt das Konzert.",
+      "en": "There is concert.",
+      "sv": "Det finns konsert.",
+      "nl": "Er is concert.",
+      "it": "C'è concerto.",
+      "es": "Hay concierto."
+    },
+    "alt": {},
+    "chunks": [
+      "konserit",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_textilien_mode2_1",
+    "am": "ጡጥ ኣሎ።",
+    "tr": "tut'i alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_txt_cttn"
+    ],
+    "t": {
+      "de": "Es gibt die Baumwolle.",
+      "en": "There is cotton.",
+      "sv": "Det finns bomull.",
+      "nl": "Er is katoen.",
+      "it": "C'è cotone.",
+      "es": "Hay algodón."
+    },
+    "alt": {},
+    "chunks": [
+      "tut'i",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_reinigung_kunstwerke_1",
+    "am": "መስሓቢ ዶኻ ኣሎ።",
+    "tr": "mesihabi dokha alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rng_vcm"
+    ],
+    "t": {
+      "de": "Es gibt der Staubsauger.",
+      "en": "There is vacuum cleaner.",
+      "sv": "Det finns dammsugare.",
+      "nl": "Er is stofzuiger.",
+      "it": "C'è aspirapolvere.",
+      "es": "Hay aspiradora."
+    },
+    "alt": {},
+    "chunks": [
+      "mesihabi dokha",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_modeaccessoires_bergbau_1",
+    "am": "መነጽር ጸሓይ ኣሎ።",
+    "tr": "menetsir tsehay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mda_sngl"
+    ],
+    "t": {
+      "de": "Es gibt die Sonnenbrille.",
+      "en": "There is sunglasses.",
+      "sv": "Det finns solglasögon.",
+      "nl": "Er is zonnebril.",
+      "it": "Ci sono occhiali da sole.",
+      "es": "Hay gafas de sol."
+    },
+    "alt": {},
+    "chunks": [
+      "menetsir tsehay",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_kalligraphie_gastronomie_1",
+    "am": "ብርዒ ጽሕፈት ኣሎ።",
+    "tr": "biri'i tsihfet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_klg_pen2"
+    ],
+    "t": {
+      "de": "Es gibt die Schreibfeder.",
+      "en": "There is writing pen.",
+      "sv": "Det finns skrivpenna.",
+      "nl": "Er is schrijfpen.",
+      "it": "C'è penna da scrittura.",
+      "es": "Hay pluma de escribir."
+    },
+    "alt": {},
+    "chunks": [
+      "biri'i tsihfet",
+      "alo"
+    ],
+    "verified": false
+  }
+]

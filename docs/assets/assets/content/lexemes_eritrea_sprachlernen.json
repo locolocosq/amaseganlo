@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_ti_spl_gram",
+    "am": "ሰዋስው",
+    "tr": "sewasiw",
+    "pos": "noun",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "die Grammatik",
+      "en": "grammar",
+      "sv": "grammatik",
+      "nl": "grammatica",
+      "it": "la grammatica",
+      "es": "la gramática"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spl_vocab",
+    "am": "ቃላት",
+    "tr": "qalat",
+    "pos": "noun",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "der Wortschatz",
+      "en": "vocabulary",
+      "sv": "ordförråd",
+      "nl": "woordenschat",
+      "it": "il vocabolario",
+      "es": "el vocabulario"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spl_prct",
+    "am": "ልምምድ (ትምህርቲ)",
+    "tr": "limimid timhirti",
+    "pos": "noun",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "die Übung",
+      "en": "exercise, practice",
+      "sv": "övning",
+      "nl": "oefening",
+      "it": "l'esercizio",
+      "es": "el ejercicio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spl_exam",
+    "am": "ፈተና",
+    "tr": "fetena",
+    "pos": "noun",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "die Prüfung",
+      "en": "exam",
+      "sv": "prov, tenta",
+      "nl": "examen",
+      "it": "l'esame",
+      "es": "el examen"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spl_trns",
+    "am": "ተርጎመ",
+    "tr": "tergome",
+    "pos": "verb",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "übersetzen",
+      "en": "to translate",
+      "sv": "att översätta",
+      "nl": "vertalen",
+      "it": "tradurre",
+      "es": "traducir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spl_prnc",
+    "am": "ኣደማምጻ",
+    "tr": "ademamitsa",
+    "pos": "noun",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "die Aussprache",
+      "en": "pronunciation",
+      "sv": "uttal",
+      "nl": "uitspraak",
+      "it": "la pronuncia",
+      "es": "la pronunciación"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spl_fluent",
+    "am": "ልሙድ (ቋንቋ)",
+    "tr": "limud quanqua",
+    "pos": "adjective",
+    "topic": "language_learning",
+    "level": "TI",
+    "t": {
+      "de": "fließend (Sprache)",
+      "en": "fluent",
+      "sv": "flytande (språk)",
+      "nl": "vloeiend (taal)",
+      "it": "fluente (lingua)",
+      "es": "fluido (idioma)"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

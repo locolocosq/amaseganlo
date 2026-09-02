@@ -1,0 +1,4706 @@
+{
+  "schemaVersion": 1,
+  "lexemeFiles": [
+    "lexemes_a1_1_greetings.json",
+    "lexemes_a1_1_me_you.json",
+    "lexemes_familie_menschen.json",
+    "lexemes_zahlen_1_20.json",
+    "lexemes_essen_trinken.json",
+    "lexemes_zuhause.json",
+    "lexemes_zeit.json",
+    "lexemes_farben_eigenschaften.json",
+    "lexemes_zahlen_einkaufen.json",
+    "lexemes_in_der_stadt.json",
+    "lexemes_verben_alltag.json",
+    "lexemes_gegenwart_vergangenheit.json",
+    "lexemes_koerper_gesundheit.json",
+    "lexemes_arbeit_schule.json",
+    "lexemes_reisen_verkehr.json",
+    "lexemes_wetter_natur.json",
+    "lexemes_gefuehle_meinung.json",
+    "lexemes_zukunft_wuensche.json",
+    "lexemes_hoeflichkeit_kultur.json",
+    "lexemes_erzaehlen.json",
+    "lexemes_kleidung.json",
+    "lexemes_berufe.json",
+    "lexemes_tiere_mehr.json",
+    "lexemes_fragewoerter.json",
+    "lexemes_praepositionen.json",
+    "lexemes_haushalt.json",
+    "lexemes_sport_freizeit.json",
+    "lexemes_mehr_adjektive.json",
+    "lexemes_laender.json",
+    "lexemes_essen_mehr.json",
+    "lexemes_kalender_aethiopien.json",
+    "lexemes_zahlen_ordnung.json",
+    "lexemes_verben_mehr.json",
+    "lexemes_adverbien_mehr.json",
+    "lexemes_moebel.json",
+    "lexemes_hoefliche_phrasen.json",
+    "lexemes_materialien.json",
+    "lexemes_musikinstrumente.json",
+    "lexemes_zahlen_21_99.json",
+    "lexemes_zahlen_mehr2.json",
+    "lexemes_verben_erweitert.json",
+    "lexemes_abstrakte_begriffe.json",
+    "lexemes_elektronik_kontinente.json",
+    "lexemes_mengen_zeit_jahreszeiten.json",
+    "lexemes_gesundheit_natur_schule.json",
+    "lexemes_kueche_farben_getraenke.json",
+    "lexemes_aethiopien_extra.json",
+    "lexemes_gefuehle_mehr.json",
+    "lexemes_persoenlichkeit.json",
+    "lexemes_wetter_mehr.json",
+    "lexemes_berufe_mehr.json",
+    "lexemes_einkaufen_mehr.json",
+    "lexemes_verkehr_mehr.json",
+    "lexemes_richtungen.json",
+    "lexemes_sport_mehr.json",
+    "lexemes_natur_mehr.json",
+    "lexemes_haushalt_mehr.json",
+    "lexemes_landwirtschaft.json",
+    "lexemes_religion_kultur.json",
+    "lexemes_gesundheit_mehr2.json",
+    "lexemes_zeit_adverbien.json",
+    "lexemes_konjunktionen.json",
+    "lexemes_verben_bewegung.json",
+    "lexemes_substantive_mehr.json",
+    "lexemes_kleidung_mehr.json",
+    "lexemes_kuechenwerkzeuge.json",
+    "lexemes_camping_wandern.json",
+    "lexemes_kunst_musik_mehr.json",
+    "lexemes_wissenschaft.json",
+    "lexemes_werkzeuge.json",
+    "lexemes_buerobedarf.json",
+    "lexemes_adjektive_mehr3.json",
+    "lexemes_naturkatastrophen.json",
+    "lexemes_zahlen_teile.json",
+    "lexemes_gefuehle_3.json",
+    "lexemes_haushaltsgeraete.json",
+    "lexemes_koerperteile_mehr.json",
+    "lexemes_familie_mehr.json",
+    "lexemes_finanzen.json",
+    "lexemes_recht_justiz.json",
+    "lexemes_astronomie.json",
+    "lexemes_verben_kommunikation.json",
+    "lexemes_verben_kochen.json",
+    "lexemes_substantive_3.json",
+    "lexemes_geometrie.json",
+    "lexemes_harar_islam_grundlagen.json",
+    "lexemes_harar_islam_praxis.json",
+    "lexemes_harar_islam_gemeinschaft.json",
+    "lexemes_harar_islam_alltag.json",
+    "lexemes_harar_christian_grundlagen.json",
+    "lexemes_harar_christian_feste.json",
+    "lexemes_harar_christian_glauben.json",
+    "lexemes_harar_politik.json",
+    "lexemes_harar_umwelt.json",
+    "lexemes_harar_technologie.json",
+    "lexemes_harar_wirtschaft2.json",
+    "lexemes_harar_medien.json",
+    "lexemes_harar_denken.json",
+    "lexemes_safari_frau_mann.json",
+    "lexemes_harar_diplomatie.json",
+    "lexemes_harar_gesellschaft.json",
+    "lexemes_harar_gesundheit2.json",
+    "lexemes_harar_bildung.json",
+    "lexemes_harar_diskurs2.json",
+    "lexemes_harar_geschichte.json",
+    "lexemes_harar_infrastruktur.json",
+    "lexemes_harar_wirtschaft3.json",
+    "lexemes_harar_umwelt2.json",
+    "lexemes_harar_technologie2.json",
+    "lexemes_safari_verben_possessiv.json",
+    "lexemes_harar_kaffee.json",
+    "lexemes_harar_handwerk.json",
+    "lexemes_harar_stadtmauer.json",
+    "lexemes_harar_tierwelt.json",
+    "lexemes_harar_musik_tanz.json",
+    "lexemes_harar_geographie.json",
+    "lexemes_harar_landwirtschaft2.json",
+    "lexemes_harar_sprache_literatur.json",
+    "lexemes_harar_medizin_traditionell.json",
+    "lexemes_harar_zeit_geschichte2.json",
+    "lexemes_harar_verwaltung.json",
+    "lexemes_harar_bau_technik.json",
+    "lexemes_harar_kommunikation2.json",
+    "lexemes_harar_emotionen_tief.json",
+    "lexemes_harar_ethik_moral.json",
+    "lexemes_harar_tourismus.json",
+    "lexemes_harar_umwelt3.json",
+    "lexemes_harar_verkehr2.json",
+    "lexemes_harar_bildung2.json",
+    "lexemes_harar_gesundheit3.json",
+    "lexemes_harar_recht2.json",
+    "lexemes_harar_beziehungen.json",
+    "lexemes_harar_essen_trinken2.json",
+    "lexemes_harar_koerper_pflege.json",
+    "lexemes_harar_arbeit_beruf2.json",
+    "lexemes_harar_zahlen_masse.json",
+    "lexemes_harar_wetter2.json",
+    "lexemes_harar_tiere2.json",
+    "lexemes_harar_haus_wohnen.json",
+    "lexemes_harar_sport2.json",
+    "lexemes_harar_wissenschaft2.json",
+    "lexemes_harar_natur_klima.json",
+    "lexemes_harar_architektur.json",
+    "lexemes_harar_handel_markt.json",
+    "lexemes_harar_schmuck_tracht.json",
+    "lexemes_harar_post_bank.json",
+    "lexemes_harar_adjektive_erweitert.json",
+    "lexemes_harar_verben_alltag2.json",
+    "lexemes_harar_freizeit_spiele.json",
+    "lexemes_harar_naturschutz.json",
+    "lexemes_harar_kunst_malerei.json",
+    "lexemes_harar_kindheit_erziehung.json",
+    "lexemes_eritrea_greetings.json",
+    "lexemes_eritrea_family.json",
+    "lexemes_eritrea_numbers.json",
+    "lexemes_eritrea_food.json",
+    "lexemes_eritrea_adverbien_mehr.json",
+    "lexemes_eritrea_allgemein.json",
+    "lexemes_eritrea_ausrufe.json",
+    "lexemes_eritrea_berufe.json",
+    "lexemes_eritrea_einkaufen.json",
+    "lexemes_eritrea_essen_mehr.json",
+    "lexemes_eritrea_faecher.json",
+    "lexemes_eritrea_familie_mehr.json",
+    "lexemes_eritrea_farben.json",
+    "lexemes_eritrea_formen.json",
+    "lexemes_eritrea_freizeit.json",
+    "lexemes_eritrea_gefuehle.json",
+    "lexemes_eritrea_geographie.json",
+    "lexemes_eritrea_gerichte.json",
+    "lexemes_eritrea_geschmack.json",
+    "lexemes_eritrea_gesundheit.json",
+    "lexemes_eritrea_getraenke.json",
+    "lexemes_eritrea_haus.json",
+    "lexemes_eritrea_hausarbeit.json",
+    "lexemes_eritrea_haushaltsgeraete.json",
+    "lexemes_eritrea_hygiene.json",
+    "lexemes_eritrea_kleidung.json",
+    "lexemes_eritrea_koerper.json",
+    "lexemes_eritrea_kultur.json",
+    "lexemes_eritrea_laender.json",
+    "lexemes_eritrea_landwirtschaft.json",
+    "lexemes_eritrea_masse.json",
+    "lexemes_eritrea_materialien.json",
+    "lexemes_eritrea_modalverben.json",
+    "lexemes_eritrea_natur.json",
+    "lexemes_eritrea_numbers_mehr.json",
+    "lexemes_eritrea_ordnungszahlen.json",
+    "lexemes_eritrea_phrasen.json",
+    "lexemes_eritrea_pronomen.json",
+    "lexemes_eritrea_regierung.json",
+    "lexemes_eritrea_restaurant.json",
+    "lexemes_eritrea_schmuck.json",
+    "lexemes_eritrea_schule.json",
+    "lexemes_eritrea_sinne.json",
+    "lexemes_eritrea_sport.json",
+    "lexemes_eritrea_stadt.json",
+    "lexemes_eritrea_technologie.json",
+    "lexemes_eritrea_tiere.json",
+    "lexemes_eritrea_tiere_mehr.json",
+    "lexemes_eritrea_tracht.json",
+    "lexemes_eritrea_verben.json",
+    "lexemes_eritrea_verben2.json",
+    "lexemes_eritrea_verkehr.json",
+    "lexemes_eritrea_weltraum.json",
+    "lexemes_eritrea_werkzeuge.json",
+    "lexemes_eritrea_zeit.json",
+    "lexemes_eritrea_arbeit.json",
+    "lexemes_eritrea_astronomie2.json",
+    "lexemes_eritrea_beziehungen.json",
+    "lexemes_eritrea_bildung.json",
+    "lexemes_eritrea_buerobedarf.json",
+    "lexemes_eritrea_charakter.json",
+    "lexemes_eritrea_dialog.json",
+    "lexemes_eritrea_emotionen2.json",
+    "lexemes_eritrea_fahrzeugteile.json",
+    "lexemes_eritrea_feste.json",
+    "lexemes_eritrea_finanzen.json",
+    "lexemes_eritrea_geologie.json",
+    "lexemes_eritrea_geometrie.json",
+    "lexemes_eritrea_geschichte.json",
+    "lexemes_eritrea_gesundheit2.json",
+    "lexemes_eritrea_insekten.json",
+    "lexemes_eritrea_kinder.json",
+    "lexemes_eritrea_kochen.json",
+    "lexemes_eritrea_koerperteile2.json",
+    "lexemes_eritrea_kommunikation.json",
+    "lexemes_eritrea_mathematik.json",
+    "lexemes_eritrea_mode.json",
+    "lexemes_eritrea_musik.json",
+    "lexemes_eritrea_notfall.json",
+    "lexemes_eritrea_pflanzen.json",
+    "lexemes_eritrea_recht.json",
+    "lexemes_eritrea_reise.json",
+    "lexemes_eritrea_sport2.json",
+    "lexemes_eritrea_vergleich.json",
+    "lexemes_eritrea_voegel.json",
+    "lexemes_eritrea_wetter.json",
+    "lexemes_eritrea_wissenschaft.json",
+    "lexemes_eritrea_wohnen.json",
+    "lexemes_eritrea_adjektive.json",
+    "lexemes_eritrea_ausrufe2.json",
+    "lexemes_eritrea_bauernhoftiere.json",
+    "lexemes_eritrea_berufe2.json",
+    "lexemes_eritrea_buero.json",
+    "lexemes_eritrea_farbnuancen.json",
+    "lexemes_eritrea_flughafen.json",
+    "lexemes_eritrea_hobbys.json",
+    "lexemes_eritrea_hygiene2.json",
+    "lexemes_eritrea_kleidung2.json",
+    "lexemes_eritrea_kuechengeschirr.json",
+    "lexemes_eritrea_laender2.json",
+    "lexemes_eritrea_landschaft.json",
+    "lexemes_eritrea_medien.json",
+    "lexemes_eritrea_medizin.json",
+    "lexemes_eritrea_meerestiere.json",
+    "lexemes_eritrea_moebel.json",
+    "lexemes_eritrea_phrasen2.json",
+    "lexemes_eritrea_post.json",
+    "lexemes_eritrea_praepositionen.json",
+    "lexemes_eritrea_recht2.json",
+    "lexemes_eritrea_sinne2.json",
+    "lexemes_eritrea_spielzeug.json",
+    "lexemes_eritrea_sport3.json",
+    "lexemes_eritrea_technologie2.json",
+    "lexemes_eritrea_umwelt.json",
+    "lexemes_eritrea_verben3.json",
+    "lexemes_eritrea_verkehr2.json",
+    "lexemes_eritrea_waehrung.json",
+    "lexemes_eritrea_wetter2.json",
+    "lexemes_eritrea_backen.json",
+    "lexemes_eritrea_baeume.json",
+    "lexemes_eritrea_bankdienste.json",
+    "lexemes_eritrea_baustelle.json",
+    "lexemes_eritrea_blumen.json",
+    "lexemes_eritrea_diplomatie.json",
+    "lexemes_eritrea_gastfreundschaft.json",
+    "lexemes_eritrea_getreide.json",
+    "lexemes_eritrea_gewuerze.json",
+    "lexemes_eritrea_handwerk.json",
+    "lexemes_eritrea_haustiere.json",
+    "lexemes_eritrea_internetbegriffe.json",
+    "lexemes_eritrea_literatur.json",
+    "lexemes_eritrea_mineralien.json",
+    "lexemes_eritrea_nachbarschaft.json",
+    "lexemes_eritrea_picknick.json",
+    "lexemes_eritrea_planeten.json",
+    "lexemes_eritrea_reparatur.json",
+    "lexemes_eritrea_richtungen.json",
+    "lexemes_eritrea_schwangerschaft.json",
+    "lexemes_eritrea_spielplatz.json",
+    "lexemes_eritrea_sprachlernen.json",
+    "lexemes_eritrea_strand.json",
+    "lexemes_eritrea_tanzen.json",
+    "lexemes_eritrea_uhrzeit.json",
+    "lexemes_eritrea_umzug.json",
+    "lexemes_eritrea_universitaet.json",
+    "lexemes_eritrea_versicherung.json",
+    "lexemes_eritrea_wanderung.json",
+    "lexemes_eritrea_archaeologie.json",
+    "lexemes_eritrea_bergbau.json",
+    "lexemes_eritrea_brettspiele.json",
+    "lexemes_eritrea_chemie.json",
+    "lexemes_eritrea_computerhardware.json",
+    "lexemes_eritrea_elektrizitaet.json",
+    "lexemes_eritrea_fabrik.json",
+    "lexemes_eritrea_feuerwehr.json",
+    "lexemes_eritrea_flugzeugteile.json",
+    "lexemes_eritrea_fotografie.json",
+    "lexemes_eritrea_friseursalon.json",
+    "lexemes_eritrea_gaerten.json",
+    "lexemes_eritrea_gartengeraete.json",
+    "lexemes_eritrea_gastronomie.json",
+    "lexemes_eritrea_gewaesser.json",
+    "lexemes_eritrea_hochzeitsfeier.json",
+    "lexemes_eritrea_jahrmarkt.json",
+    "lexemes_eritrea_kalligraphie.json",
+    "lexemes_eritrea_kunstwerke.json",
+    "lexemes_eritrea_mode2.json",
+    "lexemes_eritrea_modeaccessoires.json",
+    "lexemes_eritrea_notdienste.json",
+    "lexemes_eritrea_raumfahrt.json",
+    "lexemes_eritrea_reinigung.json",
+    "lexemes_eritrea_schneiderei.json",
+    "lexemes_eritrea_seefahrt.json",
+    "lexemes_eritrea_sicherheit.json",
+    "lexemes_eritrea_textilien.json",
+    "lexemes_eritrea_veranstaltung.json",
+    "lexemes_eritrea_verpackung.json",
+    "lexemes_eritrea_wildtiere.json",
+    "lexemes_eritrea_zirkus.json",
+    "lexemes_eritrea_abschluss.json",
+    "lexemes_eritrea_architektur.json",
+    "lexemes_eritrea_baeckerei.json",
+    "lexemes_eritrea_bewegung.json",
+    "lexemes_eritrea_bibliothek.json",
+    "lexemes_eritrea_brauerei.json",
+    "lexemes_eritrea_briefmarken.json",
+    "lexemes_eritrea_denkmal.json",
+    "lexemes_eritrea_energie2.json",
+    "lexemes_eritrea_erinnerung.json",
+    "lexemes_eritrea_erstehilfe.json",
+    "lexemes_eritrea_fleischerei.json",
+    "lexemes_eritrea_flohmarkt.json",
+    "lexemes_eritrea_form_textur.json",
+    "lexemes_eritrea_gefahren.json",
+    "lexemes_eritrea_geld_ausdruecke.json",
+    "lexemes_eritrea_geraeusche.json",
+    "lexemes_eritrea_gesten.json",
+    "lexemes_eritrea_gewohnheiten.json",
+    "lexemes_eritrea_gletscher.json",
+    "lexemes_eritrea_gluecksphrasen.json",
+    "lexemes_eritrea_haeufigkeit.json",
+    "lexemes_eritrea_hoeflichkeit.json",
+    "lexemes_eritrea_immobilien.json",
+    "lexemes_eritrea_jugend.json",
+    "lexemes_eritrea_kaffeezeremonie.json",
+    "lexemes_eritrea_koerperfunktionen.json",
+    "lexemes_eritrea_koerperhaltung.json",
+    "lexemes_eritrea_konflikt.json",
+    "lexemes_eritrea_konjunktionen.json",
+    "lexemes_eritrea_landwirtschaft2.json",
+    "lexemes_eritrea_licht.json",
+    "lexemes_eritrea_meinungen.json",
+    "lexemes_eritrea_menge.json",
+    "lexemes_eritrea_mobilfunk.json",
+    "lexemes_eritrea_notfallphrasen.json",
+    "lexemes_eritrea_optik.json",
+    "lexemes_eritrea_position.json",
+    "lexemes_eritrea_schmetterlinge.json",
+    "lexemes_eritrea_seniorenpflege.json",
+    "lexemes_eritrea_smalltalk.json",
+    "lexemes_eritrea_steuern.json",
+    "lexemes_eritrea_supermarkt.json",
+    "lexemes_eritrea_tankstelle.json",
+    "lexemes_eritrea_technikphrasen.json",
+    "lexemes_eritrea_temperatur.json",
+    "lexemes_eritrea_tierpflege.json",
+    "lexemes_eritrea_traeume.json",
+    "lexemes_eritrea_verabschiedung.json",
+    "lexemes_eritrea_veraenderung.json",
+    "lexemes_eritrea_vergleiche2.json",
+    "lexemes_eritrea_wetterausdruecke.json",
+    "lexemes_eritrea_wuensche.json",
+    "lexemes_eritrea_zahnarzt.json",
+    "lexemes_eritrea_zoo.json",
+    "lexemes_eritrea_zukunftsplaene.json",
+    "lexemes_eritrea_zustaende.json",
+    "lexemes_eritrea_zustimmung.json"
+  ],
+  "sentenceFiles": [
+    "sentences_a1_1.json",
+    "sentences_familie_menschen.json",
+    "sentences_zahlen_1_20.json",
+    "sentences_essen_trinken.json",
+    "sentences_zuhause.json",
+    "sentences_zeit.json",
+    "sentences_farben_eigenschaften.json",
+    "sentences_zahlen_einkaufen.json",
+    "sentences_in_der_stadt.json",
+    "sentences_verben_alltag.json",
+    "sentences_gegenwart_vergangenheit.json",
+    "sentences_koerper_gesundheit.json",
+    "sentences_arbeit_schule.json",
+    "sentences_reisen_verkehr.json",
+    "sentences_wetter_natur.json",
+    "sentences_gefuehle_meinung.json",
+    "sentences_zukunft_wuensche.json",
+    "sentences_hoeflichkeit_kultur.json",
+    "sentences_erzaehlen.json",
+    "sentences_kleidung.json",
+    "sentences_berufe.json",
+    "sentences_tiere_mehr.json",
+    "sentences_fragewoerter.json",
+    "sentences_praepositionen.json",
+    "sentences_haushalt.json",
+    "sentences_sport_freizeit.json",
+    "sentences_mehr_adjektive.json",
+    "sentences_laender.json",
+    "sentences_essen_mehr.json",
+    "sentences_kalender_aethiopien.json",
+    "sentences_zahlen_ordnung.json",
+    "sentences_verben_mehr.json",
+    "sentences_adverbien_mehr.json",
+    "sentences_moebel.json",
+    "sentences_hoefliche_phrasen.json",
+    "sentences_materialien.json",
+    "sentences_musikinstrumente.json",
+    "sentences_zahlen_21_99.json",
+    "sentences_zahlen_mehr2.json",
+    "sentences_verben_erweitert.json",
+    "sentences_abstrakte_begriffe.json",
+    "sentences_elektronik_kontinente.json",
+    "sentences_mengen_zeit_jahreszeiten.json",
+    "sentences_gesundheit_natur_schule.json",
+    "sentences_kueche_farben_getraenke.json",
+    "sentences_aethiopien_extra.json",
+    "sentences_gefuehle_mehr.json",
+    "sentences_persoenlichkeit.json",
+    "sentences_wetter_mehr.json",
+    "sentences_berufe_mehr.json",
+    "sentences_einkaufen_mehr.json",
+    "sentences_verkehr_mehr.json",
+    "sentences_richtungen.json",
+    "sentences_sport_mehr.json",
+    "sentences_natur_mehr.json",
+    "sentences_haushalt_mehr.json",
+    "sentences_landwirtschaft.json",
+    "sentences_religion_kultur.json",
+    "sentences_gesundheit_mehr2.json",
+    "sentences_zeit_adverbien.json",
+    "sentences_konjunktionen.json",
+    "sentences_verben_bewegung.json",
+    "sentences_substantive_mehr.json",
+    "sentences_kleidung_mehr.json",
+    "sentences_kuechenwerkzeuge.json",
+    "sentences_camping_wandern.json",
+    "sentences_kunst_musik_mehr.json",
+    "sentences_wissenschaft.json",
+    "sentences_werkzeuge.json",
+    "sentences_buerobedarf.json",
+    "sentences_adjektive_mehr3.json",
+    "sentences_naturkatastrophen.json",
+    "sentences_zahlen_teile.json",
+    "sentences_gefuehle_3.json",
+    "sentences_haushaltsgeraete.json",
+    "sentences_koerperteile_mehr.json",
+    "sentences_familie_mehr.json",
+    "sentences_finanzen.json",
+    "sentences_recht_justiz.json",
+    "sentences_astronomie.json",
+    "sentences_verben_kommunikation.json",
+    "sentences_verben_kochen.json",
+    "sentences_substantive_3.json",
+    "sentences_geometrie.json",
+    "sentences_harar_islam_grundlagen.json",
+    "sentences_harar_islam_praxis.json",
+    "sentences_harar_islam_gemeinschaft.json",
+    "sentences_harar_islam_alltag.json",
+    "sentences_harar_christian_grundlagen.json",
+    "sentences_harar_christian_feste.json",
+    "sentences_harar_christian_glauben.json",
+    "sentences_harar_politik.json",
+    "sentences_harar_umwelt.json",
+    "sentences_harar_technologie.json",
+    "sentences_harar_wirtschaft2.json",
+    "sentences_harar_medien.json",
+    "sentences_harar_denken.json",
+    "sentences_safari_frau_mann.json",
+    "sentences_harar_diplomatie.json",
+    "sentences_harar_gesellschaft.json",
+    "sentences_harar_gesundheit2.json",
+    "sentences_harar_bildung.json",
+    "sentences_harar_diskurs2.json",
+    "sentences_harar_geschichte.json",
+    "sentences_harar_infrastruktur.json",
+    "sentences_harar_wirtschaft3.json",
+    "sentences_harar_umwelt2.json",
+    "sentences_harar_technologie2.json",
+    "sentences_safari_verben_possessiv.json",
+    "sentences_harar_kaffee.json",
+    "sentences_harar_handwerk.json",
+    "sentences_harar_stadtmauer.json",
+    "sentences_harar_tierwelt.json",
+    "sentences_harar_musik_tanz.json",
+    "sentences_harar_geographie.json",
+    "sentences_harar_landwirtschaft2.json",
+    "sentences_harar_sprache_literatur.json",
+    "sentences_harar_medizin_traditionell.json",
+    "sentences_harar_zeit_geschichte2.json",
+    "sentences_harar_verwaltung.json",
+    "sentences_harar_bau_technik.json",
+    "sentences_harar_kommunikation2.json",
+    "sentences_harar_emotionen_tief.json",
+    "sentences_harar_ethik_moral.json",
+    "sentences_harar_tourismus.json",
+    "sentences_harar_umwelt3.json",
+    "sentences_harar_verkehr2.json",
+    "sentences_harar_bildung2.json",
+    "sentences_harar_gesundheit3.json",
+    "sentences_harar_recht2.json",
+    "sentences_harar_beziehungen.json",
+    "sentences_harar_essen_trinken2.json",
+    "sentences_harar_koerper_pflege.json",
+    "sentences_harar_arbeit_beruf2.json",
+    "sentences_harar_zahlen_masse.json",
+    "sentences_harar_wetter2.json",
+    "sentences_harar_tiere2.json",
+    "sentences_harar_haus_wohnen.json",
+    "sentences_harar_sport2.json",
+    "sentences_harar_wissenschaft2.json",
+    "sentences_harar_natur_klima.json",
+    "sentences_harar_architektur.json",
+    "sentences_harar_handel_markt.json",
+    "sentences_harar_schmuck_tracht.json",
+    "sentences_harar_post_bank.json",
+    "sentences_harar_adjektive_erweitert.json",
+    "sentences_harar_verben_alltag2.json",
+    "sentences_harar_freizeit_spiele.json",
+    "sentences_harar_naturschutz.json",
+    "sentences_harar_kunst_malerei.json",
+    "sentences_harar_kindheit_erziehung.json",
+    "sentences_safari_frau_mann2.json",
+    "sentences_safari_verben_possessiv2.json",
+    "sentences_safari_frau_mann3.json",
+    "sentences_safari_verben_possessiv3.json",
+    "sentences_eritrea.json",
+    "sentences_eritrea_mehr.json",
+    "sentences_eritrea_mehr2.json",
+    "sentences_eritrea_mehr3.json",
+    "sentences_eritrea_mehr4.json",
+    "sentences_eritrea_mehr5.json",
+    "sentences_eritrea_mehr6.json",
+    "sentences_safari_bindewoerter.json",
+    "sentences_eritrea_dahlak.json",
+    "sentences_gen_addisabeba.json",
+    "sentences_gen_tigray.json",
+    "sentences_gen_oromia.json",
+    "sentences_gen_sidama.json",
+    "sentences_gen_harar.json",
+    "sentences_gen_keren.json",
+    "sentences_gen_asmara.json",
+    "sentences_gen_massawa.json",
+    "sentences_fix_addisabeba.json",
+    "sentences_fix_oromia.json",
+    "sentences_fix_sidama.json",
+    "sentences_fix_keren.json",
+    "sentences_fix_asmara.json",
+    "sentences_fix_massawa.json",
+    "sentences_fix2_tigray.json",
+    "sentences_fix2_oromia.json",
+    "sentences_fix2_massawa.json"
+  ],
+  "sections": [
+    {
+      "id": "sec_a1_1",
+      "level": "A1.1",
+      "region": "addis_abeba",
+      "title": {
+        "de": "Station 1: Addis Abeba — die Hauptstadt-Ankunft",
+        "en": "Stop 1: Addis Ababa — arriving in the capital",
+        "sv": "Stopp 1: Addis Abeba — ankomst till huvudstaden",
+        "nl": "Stop 1: Addis Abeba — aankomst in de hoofdstad"
+      },
+      "units": [
+        "unit_erste_begegnung",
+        "unit_ich_und_du",
+        "unit_familie_menschen",
+        "unit_zahlen_1_20",
+        "unit_essen_trinken",
+        "unit_fragewoerter",
+        "unit_adverbien_mehr"
+      ]
+    },
+    {
+      "id": "sec_a1_2",
+      "level": "A1.2",
+      "region": "tigray",
+      "title": {
+        "de": "Station 2: Tigray — zu den Felsenkirchen",
+        "en": "Stop 2: Tigray — to the rock-hewn churches",
+        "sv": "Stopp 2: Tigray — till klippkyrkorna",
+        "nl": "Stop 2: Tigray — naar de rotskerken"
+      },
+      "units": [
+        "unit_zuhause",
+        "unit_zeit",
+        "unit_farben_eigenschaften",
+        "unit_zahlen_einkaufen",
+        "unit_in_der_stadt",
+        "unit_kleidung",
+        "unit_praepositionen",
+        "unit_haushalt",
+        "unit_essen_mehr",
+        "unit_zahlen_ordnung",
+        "unit_moebel",
+        "unit_zahlen_21_99",
+        "unit_zahlen_mehr2",
+        "unit_mengen_zeit_jahreszeiten",
+        "unit_kueche_farben_getraenke",
+        "unit_wetter_mehr",
+        "unit_tiere_mehr",
+        "unit_haushalt_mehr",
+        "unit_kleidung_mehr",
+        "unit_kuechenwerkzeuge",
+        "unit_buerobedarf"
+      ]
+    },
+    {
+      "id": "sec_a2",
+      "level": "A2",
+      "region": "oromia",
+      "title": {
+        "de": "Station 3: Oromia — durchs grüne Hochland",
+        "en": "Stop 3: Oromia — through the green highlands",
+        "sv": "Stopp 3: Oromia — genom det gröna höglandet",
+        "nl": "Stop 3: Oromia — door het groene hoogland"
+      },
+      "units": [
+        "unit_verben_alltag",
+        "unit_gegenwart_vergangenheit",
+        "unit_koerper_gesundheit",
+        "unit_arbeit_schule",
+        "unit_reisen_verkehr",
+        "unit_wetter_natur",
+        "unit_berufe",
+        "unit_tiere_mehr",
+        "unit_sport_freizeit",
+        "unit_mehr_adjektive",
+        "unit_laender",
+        "unit_verben_mehr",
+        "unit_materialien",
+        "unit_verben_erweitert",
+        "unit_elektronik_kontinente",
+        "unit_gesundheit_natur_schule",
+        "unit_gefuehle_mehr",
+        "unit_persoenlichkeit",
+        "unit_berufe_mehr",
+        "unit_einkaufen_mehr",
+        "unit_verkehr_mehr",
+        "unit_richtungen",
+        "unit_sport_mehr",
+        "unit_natur_mehr",
+        "unit_landwirtschaft",
+        "unit_gesundheit_mehr2",
+        "unit_zeit_adverbien",
+        "unit_konjunktionen",
+        "unit_verben_bewegung",
+        "unit_camping_wandern",
+        "unit_werkzeuge",
+        "unit_zahlen_teile",
+        "unit_haushaltsgeraete",
+        "unit_koerperteile_mehr",
+        "unit_familie_mehr",
+        "unit_verben_kochen"
+      ]
+    },
+    {
+      "id": "sec_b1",
+      "level": "B1",
+      "region": "sidama",
+      "title": {
+        "de": "Station 4: Der Süden — Sidama & Gurage",
+        "en": "Stop 4: The South — Sidama & Gurage",
+        "sv": "Stopp 4: Söderut — Sidama & Gurage",
+        "nl": "Stop 4: Het zuiden — Sidama & Gurage"
+      },
+      "units": [
+        "unit_gefuehle_meinung",
+        "unit_zukunft_wuensche",
+        "unit_hoeflichkeit_kultur",
+        "unit_erzaehlen",
+        "unit_kalender_aethiopien",
+        "unit_hoefliche_phrasen",
+        "unit_musikinstrumente",
+        "unit_abstrakte_begriffe",
+        "unit_aethiopien_extra",
+        "unit_religion_kultur",
+        "unit_substantive_mehr",
+        "unit_kunst_musik_mehr",
+        "unit_wissenschaft",
+        "unit_adjektive_mehr3",
+        "unit_naturkatastrophen",
+        "unit_gefuehle_3",
+        "unit_finanzen",
+        "unit_recht_justiz",
+        "unit_astronomie",
+        "unit_verben_kommunikation",
+        "unit_substantive_3",
+        "unit_geometrie"
+      ]
+    },
+    {
+      "id": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Station 5: Harar — die Stadt der Minarette",
+        "en": "Stop 5: Harar — the city of minarets",
+        "sv": "Stopp 5: Harar — minareternas stad",
+        "nl": "Stop 5: Harar — de stad van de minaretten"
+      },
+      "units": [
+        "unit_harar_islam_grundlagen",
+        "unit_harar_islam_praxis",
+        "unit_harar_islam_gemeinschaft",
+        "unit_harar_islam_alltag",
+        "unit_harar_christian_grundlagen",
+        "unit_harar_christian_feste",
+        "unit_harar_christian_glauben",
+        "unit_harar_politik",
+        "unit_harar_umwelt",
+        "unit_harar_technologie",
+        "unit_harar_wirtschaft2",
+        "unit_harar_medien",
+        "unit_harar_denken",
+        "unit_harar_diplomatie",
+        "unit_harar_gesellschaft",
+        "unit_harar_gesundheit2",
+        "unit_harar_bildung",
+        "unit_harar_diskurs2",
+        "unit_harar_geschichte",
+        "unit_harar_infrastruktur",
+        "unit_harar_wirtschaft3",
+        "unit_harar_umwelt2",
+        "unit_harar_technologie2",
+        "unit_harar_kaffee",
+        "unit_harar_handwerk",
+        "unit_harar_stadtmauer",
+        "unit_harar_tierwelt",
+        "unit_harar_musik_tanz",
+        "unit_harar_geographie",
+        "unit_harar_landwirtschaft2",
+        "unit_harar_sprache_literatur",
+        "unit_harar_medizin_traditionell",
+        "unit_harar_zeit_geschichte2",
+        "unit_harar_verwaltung",
+        "unit_harar_bau_technik",
+        "unit_harar_kommunikation2",
+        "unit_harar_emotionen_tief",
+        "unit_harar_ethik_moral",
+        "unit_harar_tourismus",
+        "unit_harar_umwelt3",
+        "unit_harar_verkehr2",
+        "unit_harar_bildung2",
+        "unit_harar_gesundheit3",
+        "unit_harar_recht2",
+        "unit_harar_beziehungen",
+        "unit_harar_essen_trinken2",
+        "unit_harar_koerper_pflege",
+        "unit_harar_arbeit_beruf2",
+        "unit_harar_zahlen_masse",
+        "unit_harar_wetter2",
+        "unit_harar_tiere2",
+        "unit_harar_haus_wohnen",
+        "unit_harar_sport2",
+        "unit_harar_wissenschaft2",
+        "unit_harar_natur_klima",
+        "unit_harar_architektur",
+        "unit_harar_handel_markt",
+        "unit_harar_schmuck_tracht",
+        "unit_harar_post_bank",
+        "unit_harar_adjektive_erweitert",
+        "unit_harar_verben_alltag2",
+        "unit_harar_freizeit_spiele",
+        "unit_harar_naturschutz",
+        "unit_harar_kunst_malerei",
+        "unit_harar_kindheit_erziehung"
+      ],
+      "region": "harar"
+    },
+    {
+      "id": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Station 6: Safari — sie und er",
+        "en": "Stop 6: Safari — she and he",
+        "sv": "Stopp 6: Safari — hon och han",
+        "nl": "Stop 6: Safari — zij en hij"
+      },
+      "units": [
+        "unit_safari_frau_mann",
+        "unit_safari_verben_possessiv",
+        "unit_safari_bindewoerter"
+      ],
+      "region": "safari"
+    },
+    {
+      "id": "sec_eritrea_keren",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 1: Keren — das Westland",
+        "en": "Stop 1: Keren — the western lands",
+        "sv": "Stopp 1: Keren — västlandet",
+        "nl": "Stop 1: Keren — het westerland"
+      },
+      "units": [
+        "unit_eritrea_greetings",
+        "unit_eritrea_family",
+        "unit_eritrea_numbers",
+        "unit_eritrea_food",
+        "unit_eritrea_zahlen_mehr",
+        "unit_eritrea_farben_formen",
+        "unit_eritrea_koerper_gesundheit",
+        "unit_eritrea_kleidung_schmuck",
+        "unit_eritrea_haus_mehr",
+        "unit_eritrea_natur_geographie",
+        "unit_eritrea_tiere_mehr",
+        "unit_eritrea_zeit_mehr",
+        "unit_eritrea_berufe_staat",
+        "unit_eritrea_verkehr_stadt",
+        "unit_eritrea_verben",
+        "unit_eritrea_verben_mehr",
+        "unit_eritrea_gefuehle_sinne",
+        "unit_eritrea_schule_faecher",
+        "unit_eritrea_technologie_masse",
+        "unit_eritrea_sport_freizeit",
+        "unit_eritrea_kultur",
+        "unit_eritrea_einkaufen_restaurant",
+        "unit_eritrea_essen_gerichte",
+        "unit_eritrea_familie_pronomen",
+        "unit_eritrea_laender",
+        "unit_eritrea_landwirtschaft_werkzeuge",
+        "unit_eritrea_materialien_allgemein",
+        "unit_eritrea_phrasen_ausrufe",
+        "unit_eritrea_adverbien_mehr",
+        "unit_eritrea_koerperteile_mehr",
+        "unit_eritrea_finanzen_arbeit",
+        "unit_eritrea_fahrzeuge_buero",
+        "unit_eritrea_musik_feste",
+        "unit_eritrea_charakter_vergleich",
+        "unit_eritrea_wetter_geologie",
+        "unit_eritrea_recht_notfall",
+        "unit_eritrea_kommunikation_dialog",
+        "unit_eritrea_insekten_voegel",
+        "unit_eritrea_geschichte_bildung",
+        "unit_eritrea_gesundheit_kinder",
+        "unit_eritrea_sport_reise",
+        "unit_eritrea_mathematik_mehr",
+        "unit_eritrea_mode_pflanzen",
+        "unit_eritrea_kochen_wissenschaft"
+      ],
+      "region": "keren"
+    },
+    {
+      "id": "sec_eritrea_asmara",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 2: Asmara — die Hauptstadt",
+        "en": "Stop 2: Asmara — the capital",
+        "sv": "Stopp 2: Asmara — huvudstaden",
+        "nl": "Stop 2: Asmara — de hoofdstad"
+      },
+      "units": [
+        "unit_eritrea_beziehungen_emotionen",
+        "unit_eritrea_wohnen",
+        "unit_eritrea_verben_adjektive",
+        "unit_eritrea_praepositionen",
+        "unit_eritrea_medizin",
+        "unit_eritrea_technologie_mehr",
+        "unit_eritrea_umwelt_medien",
+        "unit_eritrea_hobbys",
+        "unit_eritrea_laender_mehr",
+        "unit_eritrea_sport_mehr2",
+        "unit_eritrea_berufe_mehr",
+        "unit_eritrea_wetter_mehr",
+        "unit_eritrea_kleidung_mehr",
+        "unit_eritrea_recht_mehr",
+        "unit_eritrea_meerestiere",
+        "unit_eritrea_spielzeug",
+        "unit_eritrea_buero_waehrung",
+        "unit_eritrea_moebel_kueche",
+        "unit_eritrea_bauernhof_landschaft",
+        "unit_eritrea_post_hygiene",
+        "unit_eritrea_phrasen_ausrufe_mehr",
+        "unit_eritrea_verkehr_flughafen",
+        "unit_eritrea_sinne_farben",
+        "unit_eritrea_literatur",
+        "unit_eritrea_versicherung_reparatur",
+        "unit_eritrea_umzug_nachbarschaft",
+        "unit_eritrea_schwangerschaft",
+        "unit_eritrea_handwerk_baustelle",
+        "unit_eritrea_richtungen_uhrzeit",
+        "unit_eritrea_universitaet_sprachlernen",
+        "unit_eritrea_bankdienste",
+        "unit_eritrea_picknick_strand",
+        "unit_eritrea_wanderung",
+        "unit_eritrea_planeten_mineralien",
+        "unit_eritrea_baeume_blumen",
+        "unit_eritrea_gewuerze_backen",
+        "unit_eritrea_getreide",
+        "unit_eritrea_diplomatie",
+        "unit_eritrea_internetbegriffe",
+        "unit_eritrea_haustiere_spielplatz",
+        "unit_eritrea_tanzen_gastfreundschaft",
+        "unit_eritrea_raumfahrt_archaeologie",
+        "unit_eritrea_chemie_computerhardware",
+        "unit_eritrea_wildtiere"
+      ],
+      "region": "asmara"
+    },
+    {
+      "id": "sec_eritrea_massawa",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 3: Massawa — die Rotes-Meer-Küste",
+        "en": "Stop 3: Massawa — the Red Sea coast",
+        "sv": "Stopp 3: Massawa — Röda havets kust",
+        "nl": "Stop 3: Massawa — de Rode Zeekust"
+      },
+      "units": [
+        "unit_eritrea_elektrizitaet_fabrik",
+        "unit_eritrea_feuerwehr_notdienste",
+        "unit_eritrea_flugzeugteile_fotografie",
+        "unit_eritrea_friseursalon_schneiderei",
+        "unit_eritrea_gaerten_gartengeraete",
+        "unit_eritrea_hochzeitsfeier",
+        "unit_eritrea_brettspiele_jahrmarkt",
+        "unit_eritrea_seefahrt_gewaesser",
+        "unit_eritrea_sicherheit_verpackung",
+        "unit_eritrea_veranstaltung_zirkus",
+        "unit_eritrea_textilien_mode2",
+        "unit_eritrea_reinigung_kunstwerke",
+        "unit_eritrea_modeaccessoires_bergbau",
+        "unit_eritrea_kalligraphie_gastronomie",
+        "unit_eritrea_zoo_wildpflege",
+        "unit_eritrea_gletscher_schmetterlinge",
+        "unit_eritrea_flohmarkt_supermarkt",
+        "unit_eritrea_optik_zahnarzt",
+        "unit_eritrea_brauerei_kaffeezeremonie",
+        "unit_eritrea_erstehilfe_notdienste2",
+        "unit_eritrea_mobilfunk_technikphrasen",
+        "unit_eritrea_steuern_immobilien",
+        "unit_eritrea_architektur_denkmal",
+        "unit_eritrea_seniorenpflege_jugend",
+        "unit_eritrea_energie2_landwirtschaft2",
+        "unit_eritrea_fleischerei_baeckerei",
+        "unit_eritrea_tankstelle_bibliothek",
+        "unit_eritrea_gesten_koerperhaltung",
+        "unit_eritrea_briefmarken_traeume",
+        "unit_eritrea_gewohnheiten_meinungen",
+        "unit_eritrea_konflikt_zustimmung",
+        "unit_eritrea_erinnerung_zukunftsplaene",
+        "unit_eritrea_hoeflichkeit_zustaende",
+        "unit_eritrea_bewegung_koerperfunktionen",
+        "unit_eritrea_geraeusche_licht",
+        "unit_eritrea_temperatur_form_textur",
+        "unit_eritrea_menge_gefahren",
+        "unit_eritrea_veraenderung_vergleiche2",
+        "unit_eritrea_position_haeufigkeit",
+        "unit_eritrea_konjunktionen_geld_ausdruecke",
+        "unit_eritrea_wetterausdruecke_verabschiedung",
+        "unit_eritrea_smalltalk_notfallphrasen",
+        "unit_eritrea_gluecksphrasen_wuensche"
+      ],
+      "region": "massawa"
+    },
+    {
+      "id": "sec_eritrea_dahlak",
+      "level": "TI",
+      "language": "ti",
+      "title": {
+        "de": "Station 4: Dahlak — Sätze bauen",
+        "en": "Stop 4: Dahlak — building sentences",
+        "sv": "Stopp 4: Dahlak — att bygga meningar",
+        "nl": "Stop 4: Dahlak — zinnen bouwen"
+      },
+      "units": [
+        "unit_eritrea_dahlak_bindewoerter"
+      ],
+      "region": "dahlak"
+    }
+  ],
+  "units": [
+    {
+      "id": "unit_erste_begegnung",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Erste Begegnung",
+        "en": "First encounter",
+        "sv": "Första mötet",
+        "nl": "Eerste ontmoeting"
+      },
+      "topic": "greetings",
+      "lessonFile": "unit_erste_begegnung_lessons.json"
+    },
+    {
+      "id": "unit_ich_und_du",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Ich und du",
+        "en": "Me and you",
+        "sv": "Jag och du",
+        "nl": "Ik en jij"
+      },
+      "topic": "pronouns",
+      "lessonFile": "unit_ich_und_du_lessons.json"
+    },
+    {
+      "id": "unit_familie_menschen",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Familie & Menschen",
+        "en": "Family & people",
+        "sv": "Familj & människor",
+        "nl": "Familie & mensen"
+      },
+      "topic": "family",
+      "lessonFile": "unit_familie_menschen_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_1_20",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Zahlen 1-20",
+        "en": "Numbers 1-20",
+        "sv": "Siffror 1-20",
+        "nl": "Cijfers 1-20"
+      },
+      "topic": "numbers",
+      "lessonFile": "unit_zahlen_1_20_lessons.json"
+    },
+    {
+      "id": "unit_essen_trinken",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Essen & Trinken",
+        "en": "Food & drink",
+        "sv": "Mat & dryck",
+        "nl": "Eten & drinken"
+      },
+      "topic": "food_drink",
+      "lessonFile": "unit_essen_trinken_lessons.json"
+    },
+    {
+      "id": "unit_zuhause",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zuhause",
+        "en": "Home",
+        "sv": "Hemma",
+        "nl": "Thuis"
+      },
+      "topic": "home",
+      "lessonFile": "unit_zuhause_lessons.json"
+    },
+    {
+      "id": "unit_zeit",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zeit",
+        "en": "Time",
+        "sv": "Tid",
+        "nl": "Tijd"
+      },
+      "topic": "time",
+      "lessonFile": "unit_zeit_lessons.json"
+    },
+    {
+      "id": "unit_farben_eigenschaften",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Farben & Eigenschaften",
+        "en": "Colors & properties",
+        "sv": "Färger & egenskaper",
+        "nl": "Kleuren & eigenschappen"
+      },
+      "topic": "colors_properties",
+      "lessonFile": "unit_farben_eigenschaften_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_einkaufen",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zahlen 20-1000 & Einkaufen",
+        "en": "Numbers 20-1000 & shopping",
+        "sv": "Siffror 20-1000 & att shoppa",
+        "nl": "Cijfers 20-1000 & winkelen"
+      },
+      "topic": "numbers_shopping",
+      "lessonFile": "unit_zahlen_einkaufen_lessons.json"
+    },
+    {
+      "id": "unit_in_der_stadt",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "In der Stadt",
+        "en": "In the city",
+        "sv": "I staden",
+        "nl": "In de stad"
+      },
+      "topic": "city",
+      "lessonFile": "unit_in_der_stadt_lessons.json"
+    },
+    {
+      "id": "unit_verben_alltag",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Verben im Alltag",
+        "en": "Everyday verbs",
+        "sv": "Vardagliga verb",
+        "nl": "Alledaagse werkwoorden"
+      },
+      "topic": "verbs",
+      "lessonFile": "unit_verben_alltag_lessons.json"
+    },
+    {
+      "id": "unit_gegenwart_vergangenheit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gegenwart & Vergangenheit",
+        "en": "Present & past",
+        "sv": "Nutid & dåtid",
+        "nl": "Heden & verleden"
+      },
+      "topic": "grammar_time",
+      "lessonFile": "unit_gegenwart_vergangenheit_lessons.json"
+    },
+    {
+      "id": "unit_koerper_gesundheit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Körper & Gesundheit",
+        "en": "Body & health",
+        "sv": "Kropp & hälsa",
+        "nl": "Lichaam & gezondheid"
+      },
+      "topic": "body_health",
+      "lessonFile": "unit_koerper_gesundheit_lessons.json"
+    },
+    {
+      "id": "unit_arbeit_schule",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Arbeit & Schule",
+        "en": "Work & school",
+        "sv": "Arbete & skola",
+        "nl": "Werk & school"
+      },
+      "topic": "work_school",
+      "lessonFile": "unit_arbeit_schule_lessons.json"
+    },
+    {
+      "id": "unit_reisen_verkehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Reisen & Verkehr",
+        "en": "Travel & transport",
+        "sv": "Resor & trafik",
+        "nl": "Reizen & verkeer"
+      },
+      "topic": "travel",
+      "lessonFile": "unit_reisen_verkehr_lessons.json"
+    },
+    {
+      "id": "unit_wetter_natur",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Wetter & Natur",
+        "en": "Weather & nature",
+        "sv": "Väder & natur",
+        "nl": "Weer & natuur"
+      },
+      "topic": "weather_nature",
+      "lessonFile": "unit_wetter_natur_lessons.json"
+    },
+    {
+      "id": "unit_gefuehle_meinung",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Gefühle & Meinung",
+        "en": "Feelings & opinion",
+        "sv": "Känslor & åsikt",
+        "nl": "Gevoelens & mening"
+      },
+      "topic": "feelings",
+      "lessonFile": "unit_gefuehle_meinung_lessons.json"
+    },
+    {
+      "id": "unit_zukunft_wuensche",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Zukunft & Wünsche",
+        "en": "Future & wishes",
+        "sv": "Framtid & önskningar",
+        "nl": "Toekomst & wensen"
+      },
+      "topic": "future_wishes",
+      "lessonFile": "unit_zukunft_wuensche_lessons.json"
+    },
+    {
+      "id": "unit_hoeflichkeit_kultur",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Höflichkeit & Kultur",
+        "en": "Politeness & culture",
+        "sv": "Artighet & kultur",
+        "nl": "Beleefdheid & cultuur"
+      },
+      "topic": "culture",
+      "lessonFile": "unit_hoeflichkeit_kultur_lessons.json"
+    },
+    {
+      "id": "unit_erzaehlen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Erzählen",
+        "en": "Storytelling",
+        "sv": "Att berätta",
+        "nl": "Vertellen"
+      },
+      "topic": "storytelling",
+      "lessonFile": "unit_erzaehlen_lessons.json"
+    },
+    {
+      "id": "unit_kleidung",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Kleidung",
+        "en": "Clothing",
+        "sv": "Kläder",
+        "nl": "Kleding"
+      },
+      "topic": "clothing",
+      "lessonFile": "unit_kleidung_lessons.json"
+    },
+    {
+      "id": "unit_berufe",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Berufe",
+        "en": "Professions",
+        "sv": "Yrken",
+        "nl": "Beroepen"
+      },
+      "topic": "professions",
+      "lessonFile": "unit_berufe_lessons.json"
+    },
+    {
+      "id": "unit_tiere_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Tiere (mehr)",
+        "en": "Animals (more)",
+        "sv": "Djur (mer)",
+        "nl": "Dieren (meer)"
+      },
+      "topic": "animals_more",
+      "lessonFile": "unit_tiere_mehr_lessons.json"
+    },
+    {
+      "id": "unit_fragewoerter",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Fragewörter & Konjunktionen",
+        "en": "Question words & conjunctions",
+        "sv": "Frågeord & konjunktioner",
+        "nl": "Vraagwoorden & voegwoorden"
+      },
+      "topic": "question_words",
+      "lessonFile": "unit_fragewoerter_lessons.json"
+    },
+    {
+      "id": "unit_praepositionen",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Präpositionen & Richtungen",
+        "en": "Prepositions & directions",
+        "sv": "Prepositioner & riktningar",
+        "nl": "Voorzetsels & richtingen"
+      },
+      "topic": "prepositions",
+      "lessonFile": "unit_praepositionen_lessons.json"
+    },
+    {
+      "id": "unit_haushalt",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Haushaltsgegenstände",
+        "en": "Household items",
+        "sv": "Hushållsartiklar",
+        "nl": "Huishoudelijke spullen"
+      },
+      "topic": "household",
+      "lessonFile": "unit_haushalt_lessons.json"
+    },
+    {
+      "id": "unit_sport_freizeit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Sport & Freizeit",
+        "en": "Sports & leisure",
+        "sv": "Sport & fritid",
+        "nl": "Sport & vrije tijd"
+      },
+      "topic": "sports_leisure",
+      "lessonFile": "unit_sport_freizeit_lessons.json"
+    },
+    {
+      "id": "unit_mehr_adjektive",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Mehr Adjektive",
+        "en": "More adjectives",
+        "sv": "Fler adjektiv",
+        "nl": "Meer bijvoeglijke naamwoorden"
+      },
+      "topic": "more_adjectives",
+      "lessonFile": "unit_mehr_adjektive_lessons.json"
+    },
+    {
+      "id": "unit_laender",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Länder & Sprachen",
+        "en": "Countries & languages",
+        "sv": "Länder & språk",
+        "nl": "Landen & talen"
+      },
+      "topic": "countries",
+      "lessonFile": "unit_laender_lessons.json"
+    },
+    {
+      "id": "unit_essen_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Mehr Essen",
+        "en": "More food",
+        "sv": "Mer mat",
+        "nl": "Meer voedsel"
+      },
+      "topic": "food_more",
+      "lessonFile": "unit_essen_mehr_lessons.json"
+    },
+    {
+      "id": "unit_kalender_aethiopien",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Der äthiopische Kalender",
+        "en": "The Ethiopian calendar",
+        "sv": "Den etiopiska kalendern",
+        "nl": "De Ethiopische kalender"
+      },
+      "topic": "ethiopian_calendar",
+      "lessonFile": "unit_kalender_aethiopien_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_ordnung",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Ordnungszahlen & mehr Zahlen",
+        "en": "Ordinal & more numbers",
+        "sv": "Ordningstal & fler siffror",
+        "nl": "Rangtelwoorden & meer cijfers"
+      },
+      "topic": "numbers_more",
+      "lessonFile": "unit_zahlen_ordnung_lessons.json"
+    },
+    {
+      "id": "unit_verben_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Mehr Verben",
+        "en": "More verbs",
+        "sv": "Fler verb",
+        "nl": "Meer werkwoorden"
+      },
+      "topic": "verbs_more",
+      "lessonFile": "unit_verben_mehr_lessons.json"
+    },
+    {
+      "id": "unit_adverbien_mehr",
+      "sectionId": "sec_a1_1",
+      "level": "A1.1",
+      "title": {
+        "de": "Mehr Adverbien",
+        "en": "More adverbs",
+        "sv": "Fler adverb",
+        "nl": "Meer bijwoorden"
+      },
+      "topic": "adverbs_more",
+      "lessonFile": "unit_adverbien_mehr_lessons.json"
+    },
+    {
+      "id": "unit_moebel",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Möbel",
+        "en": "Furniture",
+        "sv": "Möbler",
+        "nl": "Meubels"
+      },
+      "topic": "furniture",
+      "lessonFile": "unit_moebel_lessons.json"
+    },
+    {
+      "id": "unit_hoefliche_phrasen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Höfliche Redewendungen",
+        "en": "Polite phrases",
+        "sv": "Artiga fraser",
+        "nl": "Beleefde uitdrukkingen"
+      },
+      "topic": "polite_phrases",
+      "lessonFile": "unit_hoefliche_phrasen_lessons.json"
+    },
+    {
+      "id": "unit_materialien",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Materialien",
+        "en": "Materials",
+        "sv": "Material",
+        "nl": "Materialen"
+      },
+      "topic": "materials",
+      "lessonFile": "unit_materialien_lessons.json"
+    },
+    {
+      "id": "unit_musikinstrumente",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Traditionelle Musikinstrumente",
+        "en": "Traditional musical instruments",
+        "sv": "Traditionella musikinstrument",
+        "nl": "Traditionele muziekinstrumenten"
+      },
+      "topic": "instruments",
+      "lessonFile": "unit_musikinstrumente_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_21_99",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Zahlen 21-99",
+        "en": "Numbers 21-99",
+        "sv": "Siffror 21-99",
+        "nl": "Cijfers 21-99"
+      },
+      "topic": "numbers_21_99",
+      "lessonFile": "unit_zahlen_21_99_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_mehr2",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Mehr Ordnungs- und Hunderterzahlen",
+        "en": "More ordinals and hundreds",
+        "sv": "Fler ordningstal och hundratal",
+        "nl": "Meer rangtelwoorden en honderdtallen"
+      },
+      "topic": "numbers_more2",
+      "lessonFile": "unit_zahlen_mehr2_lessons.json"
+    },
+    {
+      "id": "unit_verben_erweitert",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Noch mehr Verben",
+        "en": "Even more verbs",
+        "sv": "Ännu fler verb",
+        "nl": "Nog meer werkwoorden"
+      },
+      "topic": "verbs_extended",
+      "lessonFile": "unit_verben_erweitert_lessons.json"
+    },
+    {
+      "id": "unit_abstrakte_begriffe",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Abstrakte Begriffe",
+        "en": "Abstract concepts",
+        "sv": "Abstrakta begrepp",
+        "nl": "Abstracte begrippen"
+      },
+      "topic": "abstract_concepts",
+      "lessonFile": "unit_abstrakte_begriffe_lessons.json"
+    },
+    {
+      "id": "unit_elektronik_kontinente",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Elektronik & Kontinente",
+        "en": "Electronics & continents",
+        "sv": "Elektronik & kontinenter",
+        "nl": "Elektronica & continenten"
+      },
+      "topic": "electronics_world",
+      "lessonFile": "unit_elektronik_kontinente_lessons.json"
+    },
+    {
+      "id": "unit_mengen_zeit_jahreszeiten",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Mengen, Zeit & Jahreszeiten",
+        "en": "Quantities, time & seasons",
+        "sv": "Mängder, tid & årstider",
+        "nl": "Hoeveelheden, tijd & seizoenen"
+      },
+      "topic": "quantities_time",
+      "lessonFile": "unit_mengen_zeit_jahreszeiten_lessons.json"
+    },
+    {
+      "id": "unit_gesundheit_natur_schule",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gesundheit, Natur & Schule (mehr)",
+        "en": "Health, nature & school (more)",
+        "sv": "Hälsa, natur & skola (mer)",
+        "nl": "Gezondheid, natuur & school (meer)"
+      },
+      "topic": "misc_a2",
+      "lessonFile": "unit_gesundheit_natur_schule_lessons.json"
+    },
+    {
+      "id": "unit_kueche_farben_getraenke",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Küche, Farben & Getränke (mehr)",
+        "en": "Kitchen, colors & drinks (more)",
+        "sv": "Kök, färger & drycker (mer)",
+        "nl": "Keuken, kleuren & dranken (meer)"
+      },
+      "topic": "kitchen_colors_drinks",
+      "lessonFile": "unit_kueche_farben_getraenke_lessons.json"
+    },
+    {
+      "id": "unit_aethiopien_extra",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Äthiopische Städte & Gerichte",
+        "en": "Ethiopian cities & dishes",
+        "sv": "Etiopiska städer & rätter",
+        "nl": "Ethiopische steden & gerechten"
+      },
+      "topic": "ethiopia_extra",
+      "lessonFile": "unit_aethiopien_extra_lessons.json"
+    },
+    {
+      "id": "unit_gefuehle_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gefühle (mehr)",
+        "en": "Feelings (more)",
+        "sv": "Känslor (mer)",
+        "nl": "Gevoelens (meer)"
+      },
+      "topic": "emotions",
+      "lessonFile": "unit_gefuehle_mehr_lessons.json"
+    },
+    {
+      "id": "unit_persoenlichkeit",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Persönlichkeit",
+        "en": "Personality",
+        "sv": "Personlighet",
+        "nl": "Persoonlijkheid"
+      },
+      "topic": "personality",
+      "lessonFile": "unit_persoenlichkeit_lessons.json"
+    },
+    {
+      "id": "unit_wetter_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Wetter (mehr)",
+        "en": "Weather (more)",
+        "sv": "Väder (mer)",
+        "nl": "Weer (meer)"
+      },
+      "topic": "weather_more",
+      "lessonFile": "unit_wetter_mehr_lessons.json"
+    },
+    {
+      "id": "unit_berufe_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Berufe (mehr)",
+        "en": "Professions (more)",
+        "sv": "Yrken (mer)",
+        "nl": "Beroepen (meer)"
+      },
+      "topic": "professions_more",
+      "lessonFile": "unit_berufe_mehr_lessons.json"
+    },
+    {
+      "id": "unit_einkaufen_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Einkaufen (mehr)",
+        "en": "Shopping (more)",
+        "sv": "Shopping (mer)",
+        "nl": "Winkelen (meer)"
+      },
+      "topic": "shopping_more",
+      "lessonFile": "unit_einkaufen_mehr_lessons.json"
+    },
+    {
+      "id": "unit_verkehr_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Verkehr (mehr)",
+        "en": "Traffic (more)",
+        "sv": "Trafik (mer)",
+        "nl": "Verkeer (meer)"
+      },
+      "topic": "traffic_more",
+      "lessonFile": "unit_verkehr_mehr_lessons.json"
+    },
+    {
+      "id": "unit_richtungen",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Richtungen",
+        "en": "Directions",
+        "sv": "Riktningar",
+        "nl": "Richtingen"
+      },
+      "topic": "directions",
+      "lessonFile": "unit_richtungen_lessons.json"
+    },
+    {
+      "id": "unit_sport_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Sport (mehr)",
+        "en": "Sports (more)",
+        "sv": "Sport (mer)",
+        "nl": "Sport (meer)"
+      },
+      "topic": "sports_more",
+      "lessonFile": "unit_sport_mehr_lessons.json"
+    },
+    {
+      "id": "unit_natur_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Natur (mehr)",
+        "en": "Nature (more)",
+        "sv": "Natur (mer)",
+        "nl": "Natuur (meer)"
+      },
+      "topic": "nature_more",
+      "lessonFile": "unit_natur_mehr_lessons.json"
+    },
+    {
+      "id": "unit_haushalt_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Haushalt (mehr)",
+        "en": "Household (more)",
+        "sv": "Hushåll (mer)",
+        "nl": "Huishouden (meer)"
+      },
+      "topic": "household_more",
+      "lessonFile": "unit_haushalt_mehr_lessons.json"
+    },
+    {
+      "id": "unit_landwirtschaft",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Landwirtschaft",
+        "en": "Agriculture",
+        "sv": "Jordbruk",
+        "nl": "Landbouw"
+      },
+      "topic": "agriculture",
+      "lessonFile": "unit_landwirtschaft_lessons.json"
+    },
+    {
+      "id": "unit_religion_kultur",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Religion & Kultur",
+        "en": "Religion & culture",
+        "sv": "Religion & kultur",
+        "nl": "Religie & cultuur"
+      },
+      "topic": "religion_culture",
+      "lessonFile": "unit_religion_kultur_lessons.json"
+    },
+    {
+      "id": "unit_gesundheit_mehr2",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Gesundheit (mehr)",
+        "en": "Health (more)",
+        "sv": "Hälsa (mer)",
+        "nl": "Gezondheid (meer)"
+      },
+      "topic": "health_more2",
+      "lessonFile": "unit_gesundheit_mehr2_lessons.json"
+    },
+    {
+      "id": "unit_zeit_adverbien",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Häufigkeit & Zeit-Adverbien",
+        "en": "Frequency & time adverbs",
+        "sv": "Frekvens- & tidsadverb",
+        "nl": "Frequentie- & tijdsbijwoorden"
+      },
+      "topic": "time_adverbs",
+      "lessonFile": "unit_zeit_adverbien_lessons.json"
+    },
+    {
+      "id": "unit_konjunktionen",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Konjunktionen",
+        "en": "Conjunctions",
+        "sv": "Konjunktioner",
+        "nl": "Voegwoorden"
+      },
+      "topic": "conjunctions",
+      "lessonFile": "unit_konjunktionen_lessons.json"
+    },
+    {
+      "id": "unit_verben_bewegung",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Bewegungsverben",
+        "en": "Motion verbs",
+        "sv": "Rörelseverb",
+        "nl": "Bewegingswerkwoorden"
+      },
+      "topic": "verbs_motion",
+      "lessonFile": "unit_verben_bewegung_lessons.json"
+    },
+    {
+      "id": "unit_substantive_mehr",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Substantive (mehr)",
+        "en": "Nouns (more)",
+        "sv": "Substantiv (mer)",
+        "nl": "Zelfstandige naamwoorden (meer)"
+      },
+      "topic": "nouns_more",
+      "lessonFile": "unit_substantive_mehr_lessons.json"
+    },
+    {
+      "id": "unit_kleidung_mehr",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Kleidung (mehr)",
+        "en": "Clothing (more)",
+        "sv": "Kläder (mer)",
+        "nl": "Kleding (meer)"
+      },
+      "topic": "clothing_more",
+      "lessonFile": "unit_kleidung_mehr_lessons.json"
+    },
+    {
+      "id": "unit_kuechenwerkzeuge",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Küchenwerkzeuge",
+        "en": "Kitchen tools",
+        "sv": "Köksredskap",
+        "nl": "Keukengereedschap"
+      },
+      "topic": "kitchen_tools",
+      "lessonFile": "unit_kuechenwerkzeuge_lessons.json"
+    },
+    {
+      "id": "unit_camping_wandern",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Camping & Wandern",
+        "en": "Camping & hiking",
+        "sv": "Camping & vandring",
+        "nl": "Kamperen & wandelen"
+      },
+      "topic": "camping",
+      "lessonFile": "unit_camping_wandern_lessons.json"
+    },
+    {
+      "id": "unit_kunst_musik_mehr",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Kunst & Musik (mehr)",
+        "en": "Art & music (more)",
+        "sv": "Konst & musik (mer)",
+        "nl": "Kunst & muziek (meer)"
+      },
+      "topic": "art_music_more",
+      "lessonFile": "unit_kunst_musik_mehr_lessons.json"
+    },
+    {
+      "id": "unit_wissenschaft",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Wissenschaft & Bildung",
+        "en": "Science & education",
+        "sv": "Vetenskap & utbildning",
+        "nl": "Wetenschap & onderwijs"
+      },
+      "topic": "science",
+      "lessonFile": "unit_wissenschaft_lessons.json"
+    },
+    {
+      "id": "unit_werkzeuge",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Werkzeuge",
+        "en": "Tools",
+        "sv": "Verktyg",
+        "nl": "Gereedschap"
+      },
+      "topic": "tools",
+      "lessonFile": "unit_werkzeuge_lessons.json"
+    },
+    {
+      "id": "unit_buerobedarf",
+      "sectionId": "sec_a1_2",
+      "level": "A1.2",
+      "title": {
+        "de": "Bürobedarf",
+        "en": "Office supplies",
+        "sv": "Kontorsmaterial",
+        "nl": "Kantoorbenodigdheden"
+      },
+      "topic": "office_supplies",
+      "lessonFile": "unit_buerobedarf_lessons.json"
+    },
+    {
+      "id": "unit_adjektive_mehr3",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Mehr Adjektive (3)",
+        "en": "More adjectives (3)",
+        "sv": "Fler adjektiv (3)",
+        "nl": "Meer bijvoeglijke naamwoorden (3)"
+      },
+      "topic": "adjectives_more3",
+      "lessonFile": "unit_adjektive_mehr3_lessons.json"
+    },
+    {
+      "id": "unit_naturkatastrophen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Naturkatastrophen",
+        "en": "Natural disasters",
+        "sv": "Naturkatastrofer",
+        "nl": "Natuurrampen"
+      },
+      "topic": "disasters",
+      "lessonFile": "unit_naturkatastrophen_lessons.json"
+    },
+    {
+      "id": "unit_zahlen_teile",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Brüche & Mengen",
+        "en": "Fractions & quantities",
+        "sv": "Bråk & mängder",
+        "nl": "Breuken & hoeveelheden"
+      },
+      "topic": "fractions",
+      "lessonFile": "unit_zahlen_teile_lessons.json"
+    },
+    {
+      "id": "unit_gefuehle_3",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Gefühle (3)",
+        "en": "Feelings (3)",
+        "sv": "Känslor (3)",
+        "nl": "Gevoelens (3)"
+      },
+      "topic": "emotions_3",
+      "lessonFile": "unit_gefuehle_3_lessons.json"
+    },
+    {
+      "id": "unit_haushaltsgeraete",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Haushaltsgeräte",
+        "en": "Household appliances",
+        "sv": "Hushållsapparater",
+        "nl": "Huishoudapparaten"
+      },
+      "topic": "appliances",
+      "lessonFile": "unit_haushaltsgeraete_lessons.json"
+    },
+    {
+      "id": "unit_koerperteile_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Körperteile (mehr)",
+        "en": "Body parts (more)",
+        "sv": "Kroppsdelar (mer)",
+        "nl": "Lichaamsdelen (meer)"
+      },
+      "topic": "body_more",
+      "lessonFile": "unit_koerperteile_mehr_lessons.json"
+    },
+    {
+      "id": "unit_familie_mehr",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Familie (mehr)",
+        "en": "Family (more)",
+        "sv": "Familj (mer)",
+        "nl": "Familie (meer)"
+      },
+      "topic": "family_more",
+      "lessonFile": "unit_familie_mehr_lessons.json"
+    },
+    {
+      "id": "unit_finanzen",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Finanzen",
+        "en": "Finance",
+        "sv": "Ekonomi",
+        "nl": "Financiën"
+      },
+      "topic": "finance",
+      "lessonFile": "unit_finanzen_lessons.json"
+    },
+    {
+      "id": "unit_recht_justiz",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Recht & Justiz",
+        "en": "Law & justice",
+        "sv": "Rätt & juridik",
+        "nl": "Recht & justitie"
+      },
+      "topic": "law",
+      "lessonFile": "unit_recht_justiz_lessons.json"
+    },
+    {
+      "id": "unit_astronomie",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Astronomie",
+        "en": "Astronomy",
+        "sv": "Astronomi",
+        "nl": "Astronomie"
+      },
+      "topic": "astronomy",
+      "lessonFile": "unit_astronomie_lessons.json"
+    },
+    {
+      "id": "unit_verben_kommunikation",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Kommunikationsverben",
+        "en": "Communication verbs",
+        "sv": "Kommunikationsverb",
+        "nl": "Communicatiewerkwoorden"
+      },
+      "topic": "verbs_communication",
+      "lessonFile": "unit_verben_kommunikation_lessons.json"
+    },
+    {
+      "id": "unit_verben_kochen",
+      "sectionId": "sec_a2",
+      "level": "A2",
+      "title": {
+        "de": "Kochverben",
+        "en": "Cooking verbs",
+        "sv": "Matlagningsverb",
+        "nl": "Kookwerkwoorden"
+      },
+      "topic": "verbs_cooking",
+      "lessonFile": "unit_verben_kochen_lessons.json"
+    },
+    {
+      "id": "unit_substantive_3",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Substantive (3)",
+        "en": "Nouns (3)",
+        "sv": "Substantiv (3)",
+        "nl": "Zelfstandige naamwoorden (3)"
+      },
+      "topic": "nouns_3",
+      "lessonFile": "unit_substantive_3_lessons.json"
+    },
+    {
+      "id": "unit_geometrie",
+      "sectionId": "sec_b1",
+      "level": "B1",
+      "title": {
+        "de": "Geometrische Formen",
+        "en": "Geometric shapes",
+        "sv": "Geometriska former",
+        "nl": "Geometrische vormen"
+      },
+      "topic": "geometry",
+      "lessonFile": "unit_geometrie_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_grundlagen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Grundbegriffe",
+        "en": "Islam: basic terms",
+        "sv": "Islam: grundbegrepp",
+        "nl": "Islam: basisbegrippen"
+      },
+      "topic": "islam_basics",
+      "lessonFile": "unit_harar_islam_grundlagen_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_praxis",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Gebet & Praxis",
+        "en": "Islam: prayer & practice",
+        "sv": "Islam: bön & praktik",
+        "nl": "Islam: gebed & praktijk"
+      },
+      "topic": "islam_practice",
+      "lessonFile": "unit_harar_islam_praxis_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_gemeinschaft",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Gemeinschaft",
+        "en": "Islam: community",
+        "sv": "Islam: gemenskap",
+        "nl": "Islam: gemeenschap"
+      },
+      "topic": "islam_community",
+      "lessonFile": "unit_harar_islam_gemeinschaft_lessons.json"
+    },
+    {
+      "id": "unit_harar_islam_alltag",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Islam: Alltag & Gruß",
+        "en": "Islam: daily life & greetings",
+        "sv": "Islam: vardag & hälsning",
+        "nl": "Islam: dagelijks leven & groet"
+      },
+      "topic": "islam_daily",
+      "lessonFile": "unit_harar_islam_alltag_lessons.json"
+    },
+    {
+      "id": "unit_harar_christian_grundlagen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Christentum: Grundbegriffe",
+        "en": "Christianity: basic terms",
+        "sv": "Kristendom: grundbegrepp",
+        "nl": "Christendom: basisbegrippen"
+      },
+      "topic": "christian_basics",
+      "lessonFile": "unit_harar_christian_grundlagen_lessons.json"
+    },
+    {
+      "id": "unit_harar_christian_feste",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Christentum: Feste & Riten",
+        "en": "Christianity: feasts & rites",
+        "sv": "Kristendom: högtider & riter",
+        "nl": "Christendom: feesten & riten"
+      },
+      "topic": "christian_feasts",
+      "lessonFile": "unit_harar_christian_feste_lessons.json"
+    },
+    {
+      "id": "unit_harar_christian_glauben",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Christentum: Glaube",
+        "en": "Christianity: faith",
+        "sv": "Kristendom: tro",
+        "nl": "Christendom: geloof"
+      },
+      "topic": "christian_faith",
+      "lessonFile": "unit_harar_christian_glauben_lessons.json"
+    },
+    {
+      "id": "unit_harar_politik",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Politik & Staat",
+        "en": "Politics & government",
+        "sv": "Politik & stat",
+        "nl": "Politiek & staat"
+      },
+      "topic": "politics",
+      "lessonFile": "unit_harar_politik_lessons.json"
+    },
+    {
+      "id": "unit_harar_umwelt",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Umwelt & Klima",
+        "en": "Environment & climate",
+        "sv": "Miljö & klimat",
+        "nl": "Milieu & klimaat"
+      },
+      "topic": "environment",
+      "lessonFile": "unit_harar_umwelt_lessons.json"
+    },
+    {
+      "id": "unit_harar_technologie",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Technologie & Digitales",
+        "en": "Technology & digital life",
+        "sv": "Teknik & det digitala",
+        "nl": "Technologie & digitaal leven"
+      },
+      "topic": "technology",
+      "lessonFile": "unit_harar_technologie_lessons.json"
+    },
+    {
+      "id": "unit_harar_wirtschaft2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wirtschaft & Handel",
+        "en": "Economy & trade",
+        "sv": "Ekonomi & handel",
+        "nl": "Economie & handel"
+      },
+      "topic": "economy_2",
+      "lessonFile": "unit_harar_wirtschaft2_lessons.json"
+    },
+    {
+      "id": "unit_harar_medien",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Medien & Öffentlichkeit",
+        "en": "Media & the public",
+        "sv": "Medier & allmänheten",
+        "nl": "Media & publiek"
+      },
+      "topic": "media",
+      "lessonFile": "unit_harar_medien_lessons.json"
+    },
+    {
+      "id": "unit_harar_denken",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Denken & Meinung",
+        "en": "Thought & opinion",
+        "sv": "Tanke & åsikt",
+        "nl": "Denken & mening"
+      },
+      "topic": "abstract_thought",
+      "lessonFile": "unit_harar_denken_lessons.json"
+    },
+    {
+      "id": "unit_safari_frau_mann",
+      "sectionId": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Sie und er: die Unterschiede",
+        "en": "She and he: the differences",
+        "sv": "Hon och han: skillnaderna",
+        "nl": "Zij en hij: de verschillen"
+      },
+      "topic": "gender_grammar",
+      "lessonFile": "unit_safari_frau_mann_lessons.json"
+    },
+    {
+      "id": "unit_harar_diplomatie",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Diplomatie",
+        "en": "Diplomacy",
+        "sv": "Diplomati",
+        "nl": "Diplomatie"
+      },
+      "topic": "diplomacy",
+      "lessonFile": "unit_harar_diplomatie_lessons.json"
+    },
+    {
+      "id": "unit_harar_gesellschaft",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Gesellschaft & Menschenrechte",
+        "en": "Society & human rights",
+        "sv": "Samhälle & mänskliga rättigheter",
+        "nl": "Maatschappij & mensenrechten"
+      },
+      "topic": "society_rights",
+      "lessonFile": "unit_harar_gesellschaft_lessons.json"
+    },
+    {
+      "id": "unit_harar_gesundheit2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Gesundheit (vertieft)",
+        "en": "Health (advanced)",
+        "sv": "Hälsa (fördjupat)",
+        "nl": "Gezondheid (verdiept)"
+      },
+      "topic": "health_advanced",
+      "lessonFile": "unit_harar_gesundheit2_lessons.json"
+    },
+    {
+      "id": "unit_harar_bildung",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Bildungssystem",
+        "en": "Education system",
+        "sv": "Utbildningssystem",
+        "nl": "Onderwijssysteem"
+      },
+      "topic": "education_system",
+      "lessonFile": "unit_harar_bildung_lessons.json"
+    },
+    {
+      "id": "unit_harar_diskurs2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Diskursverbindungen (2)",
+        "en": "Discourse connectors (2)",
+        "sv": "Diskursmarkörer (2)",
+        "nl": "Discoursemarkers (2)"
+      },
+      "topic": "discourse_connectors_2",
+      "lessonFile": "unit_harar_diskurs2_lessons.json"
+    },
+    {
+      "id": "unit_harar_geschichte",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Geschichte & Erbe",
+        "en": "History & heritage",
+        "sv": "Historia & arv",
+        "nl": "Geschiedenis & erfgoed"
+      },
+      "topic": "history_heritage",
+      "lessonFile": "unit_harar_geschichte_lessons.json"
+    },
+    {
+      "id": "unit_harar_infrastruktur",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Infrastruktur & Stadt",
+        "en": "Infrastructure & the city",
+        "sv": "Infrastruktur & staden",
+        "nl": "Infrastructuur & de stad"
+      },
+      "topic": "infrastructure",
+      "lessonFile": "unit_harar_infrastruktur_lessons.json"
+    },
+    {
+      "id": "unit_harar_wirtschaft3",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wirtschaft (vertieft)",
+        "en": "Economy (advanced)",
+        "sv": "Ekonomi (fördjupat)",
+        "nl": "Economie (verdiept)"
+      },
+      "topic": "economy_advanced",
+      "lessonFile": "unit_harar_wirtschaft3_lessons.json"
+    },
+    {
+      "id": "unit_harar_umwelt2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Umwelt (vertieft)",
+        "en": "Environment (advanced)",
+        "sv": "Miljö (fördjupat)",
+        "nl": "Milieu (verdiept)"
+      },
+      "topic": "environment_2",
+      "lessonFile": "unit_harar_umwelt2_lessons.json"
+    },
+    {
+      "id": "unit_harar_technologie2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Technologie (vertieft)",
+        "en": "Technology (advanced)",
+        "sv": "Teknik (fördjupat)",
+        "nl": "Technologie (verdiept)"
+      },
+      "topic": "technology_2",
+      "lessonFile": "unit_harar_technologie2_lessons.json"
+    },
+    {
+      "id": "unit_harar_kaffee",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kaffeezeremonie",
+        "en": "Coffee ceremony",
+        "sv": "Kaffeceremoni",
+        "nl": "Koffieceremonie"
+      },
+      "topic": "coffee",
+      "lessonFile": "unit_harar_kaffee_lessons.json"
+    },
+    {
+      "id": "unit_harar_handwerk",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Handwerk",
+        "en": "Crafts",
+        "sv": "Hantverk",
+        "nl": "Ambacht"
+      },
+      "topic": "crafts",
+      "lessonFile": "unit_harar_handwerk_lessons.json"
+    },
+    {
+      "id": "unit_harar_stadtmauer",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Die Altstadt und ihre Mauer",
+        "en": "The old town and its wall",
+        "sv": "Gamla stan och dess mur",
+        "nl": "De oude stad en haar muur"
+      },
+      "topic": "old_town",
+      "lessonFile": "unit_harar_stadtmauer_lessons.json"
+    },
+    {
+      "id": "unit_harar_tierwelt",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tierwelt: Hyänen und mehr",
+        "en": "Wildlife: hyenas and more",
+        "sv": "Djurliv: hyenor och mer",
+        "nl": "Dierenwereld: hyena's en meer"
+      },
+      "topic": "wildlife",
+      "lessonFile": "unit_harar_tierwelt_lessons.json"
+    },
+    {
+      "id": "unit_harar_musik_tanz",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Musik und Tanz",
+        "en": "Music and dance",
+        "sv": "Musik och dans",
+        "nl": "Muziek en dans"
+      },
+      "topic": "music_dance",
+      "lessonFile": "unit_harar_musik_tanz_lessons.json"
+    },
+    {
+      "id": "unit_harar_geographie",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Geographie der Region",
+        "en": "Geography of the region",
+        "sv": "Regionens geografi",
+        "nl": "Geografie van de regio"
+      },
+      "topic": "geography",
+      "lessonFile": "unit_harar_geographie_lessons.json"
+    },
+    {
+      "id": "unit_harar_landwirtschaft2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Landwirtschaft (vertieft)",
+        "en": "Agriculture (advanced)",
+        "sv": "Jordbruk (fördjupat)",
+        "nl": "Landbouw (verdiept)"
+      },
+      "topic": "agriculture_2",
+      "lessonFile": "unit_harar_landwirtschaft2_lessons.json"
+    },
+    {
+      "id": "unit_harar_sprache_literatur",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Sprache und Literatur",
+        "en": "Language and literature",
+        "sv": "Språk och litteratur",
+        "nl": "Taal en literatuur"
+      },
+      "topic": "language_literature",
+      "lessonFile": "unit_harar_sprache_literatur_lessons.json"
+    },
+    {
+      "id": "unit_harar_medizin_traditionell",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Traditionelle Medizin",
+        "en": "Traditional medicine",
+        "sv": "Traditionell medicin",
+        "nl": "Traditionele geneeskunde"
+      },
+      "topic": "traditional_medicine",
+      "lessonFile": "unit_harar_medizin_traditionell_lessons.json"
+    },
+    {
+      "id": "unit_harar_zeit_geschichte2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Zeit und Geschichte (vertieft)",
+        "en": "Time and history (advanced)",
+        "sv": "Tid och historia (fördjupat)",
+        "nl": "Tijd en geschiedenis (verdiept)"
+      },
+      "topic": "time_history",
+      "lessonFile": "unit_harar_zeit_geschichte2_lessons.json"
+    },
+    {
+      "id": "unit_harar_verwaltung",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Verwaltung",
+        "en": "Administration",
+        "sv": "Förvaltning",
+        "nl": "Bestuur"
+      },
+      "topic": "administration",
+      "lessonFile": "unit_harar_verwaltung_lessons.json"
+    },
+    {
+      "id": "unit_harar_bau_technik",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Bau und Technik",
+        "en": "Construction and engineering",
+        "sv": "Bygg och teknik",
+        "nl": "Bouw en techniek"
+      },
+      "topic": "construction_engineering",
+      "lessonFile": "unit_harar_bau_technik_lessons.json"
+    },
+    {
+      "id": "unit_harar_kommunikation2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kommunikation (vertieft)",
+        "en": "Communication (advanced)",
+        "sv": "Kommunikation (fördjupat)",
+        "nl": "Communicatie (verdiept)"
+      },
+      "topic": "communication_2",
+      "lessonFile": "unit_harar_kommunikation2_lessons.json"
+    },
+    {
+      "id": "unit_harar_emotionen_tief",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tiefe Emotionen",
+        "en": "Deep emotions",
+        "sv": "Djupa känslor",
+        "nl": "Diepe emoties"
+      },
+      "topic": "deep_emotions",
+      "lessonFile": "unit_harar_emotionen_tief_lessons.json"
+    },
+    {
+      "id": "unit_harar_ethik_moral",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Ethik und Moral",
+        "en": "Ethics and morals",
+        "sv": "Etik och moral",
+        "nl": "Ethiek en moraal"
+      },
+      "topic": "ethics_morals",
+      "lessonFile": "unit_harar_ethik_moral_lessons.json"
+    },
+    {
+      "id": "unit_harar_tourismus",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tourismus",
+        "en": "Tourism",
+        "sv": "Turism",
+        "nl": "Toerisme"
+      },
+      "topic": "tourism",
+      "lessonFile": "unit_harar_tourismus_lessons.json"
+    },
+    {
+      "id": "unit_harar_umwelt3",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Umwelt (weiter vertieft)",
+        "en": "Environment (further advanced)",
+        "sv": "Miljö (ytterligare fördjupat)",
+        "nl": "Milieu (verder verdiept)"
+      },
+      "topic": "environment_3",
+      "lessonFile": "unit_harar_umwelt3_lessons.json"
+    },
+    {
+      "id": "unit_harar_verkehr2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Verkehr (vertieft)",
+        "en": "Traffic (advanced)",
+        "sv": "Trafik (fördjupat)",
+        "nl": "Verkeer (verdiept)"
+      },
+      "topic": "traffic_2",
+      "lessonFile": "unit_harar_verkehr2_lessons.json"
+    },
+    {
+      "id": "unit_harar_bildung2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Bildung (vertieft)",
+        "en": "Education (advanced)",
+        "sv": "Utbildning (fördjupat)",
+        "nl": "Onderwijs (verdiept)"
+      },
+      "topic": "education_2",
+      "lessonFile": "unit_harar_bildung2_lessons.json"
+    },
+    {
+      "id": "unit_harar_gesundheit3",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Gesundheit (weiter vertieft)",
+        "en": "Health (further advanced)",
+        "sv": "Hälsa (ytterligare fördjupat)",
+        "nl": "Gezondheid (verder verdiept)"
+      },
+      "topic": "health_3",
+      "lessonFile": "unit_harar_gesundheit3_lessons.json"
+    },
+    {
+      "id": "unit_harar_recht2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Recht (vertieft)",
+        "en": "Law (advanced)",
+        "sv": "Juridik (fördjupat)",
+        "nl": "Recht (verdiept)"
+      },
+      "topic": "law_2",
+      "lessonFile": "unit_harar_recht2_lessons.json"
+    },
+    {
+      "id": "unit_harar_beziehungen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Beziehungen",
+        "en": "Relationships",
+        "sv": "Relationer",
+        "nl": "Relaties"
+      },
+      "topic": "relationships",
+      "lessonFile": "unit_harar_beziehungen_lessons.json"
+    },
+    {
+      "id": "unit_harar_essen_trinken2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Essen und Trinken (vertieft)",
+        "en": "Food and drink (advanced)",
+        "sv": "Mat och dryck (fördjupat)",
+        "nl": "Eten en drinken (verdiept)"
+      },
+      "topic": "food_drink_2",
+      "lessonFile": "unit_harar_essen_trinken2_lessons.json"
+    },
+    {
+      "id": "unit_harar_koerper_pflege",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Körperpflege",
+        "en": "Body care",
+        "sv": "Kroppsvård",
+        "nl": "Lichaamsverzorging"
+      },
+      "topic": "body_care",
+      "lessonFile": "unit_harar_koerper_pflege_lessons.json"
+    },
+    {
+      "id": "unit_harar_arbeit_beruf2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Arbeit und Beruf (vertieft)",
+        "en": "Work and career (advanced)",
+        "sv": "Arbete och karriär (fördjupat)",
+        "nl": "Werk en beroep (verdiept)"
+      },
+      "topic": "work_2",
+      "lessonFile": "unit_harar_arbeit_beruf2_lessons.json"
+    },
+    {
+      "id": "unit_harar_zahlen_masse",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Zahlen, Maße und Handel",
+        "en": "Numbers, measures and trade",
+        "sv": "Tal, mått och handel",
+        "nl": "Getallen, maten en handel"
+      },
+      "topic": "quantities_trade",
+      "lessonFile": "unit_harar_zahlen_masse_lessons.json"
+    },
+    {
+      "id": "unit_harar_wetter2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wetter (vertieft)",
+        "en": "Weather (advanced)",
+        "sv": "Väder (fördjupat)",
+        "nl": "Weer (verdiept)"
+      },
+      "topic": "weather_2",
+      "lessonFile": "unit_harar_wetter2_lessons.json"
+    },
+    {
+      "id": "unit_harar_tiere2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Tiere (vertieft)",
+        "en": "Animals (advanced)",
+        "sv": "Djur (fördjupat)",
+        "nl": "Dieren (verdiept)"
+      },
+      "topic": "animals_2",
+      "lessonFile": "unit_harar_tiere2_lessons.json"
+    },
+    {
+      "id": "unit_harar_haus_wohnen",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Haus und Wohnen",
+        "en": "House and housing",
+        "sv": "Hus och boende",
+        "nl": "Huis en wonen"
+      },
+      "topic": "housing",
+      "lessonFile": "unit_harar_haus_wohnen_lessons.json"
+    },
+    {
+      "id": "unit_harar_sport2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Sport (vertieft)",
+        "en": "Sports (advanced)",
+        "sv": "Sport (fördjupat)",
+        "nl": "Sport (verdiept)"
+      },
+      "topic": "sports_2",
+      "lessonFile": "unit_harar_sport2_lessons.json"
+    },
+    {
+      "id": "unit_harar_wissenschaft2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Wissenschaft (vertieft)",
+        "en": "Science (advanced)",
+        "sv": "Vetenskap (fördjupat)",
+        "nl": "Wetenschap (verdiept)"
+      },
+      "topic": "science_2",
+      "lessonFile": "unit_harar_wissenschaft2_lessons.json"
+    },
+    {
+      "id": "unit_harar_natur_klima",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Natur und Klima",
+        "en": "Nature and climate",
+        "sv": "Natur och klimat",
+        "nl": "Natuur en klimaat"
+      },
+      "topic": "nature_climate",
+      "lessonFile": "unit_harar_natur_klima_lessons.json"
+    },
+    {
+      "id": "unit_harar_architektur",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Architektur der Altstadt",
+        "en": "Architecture of the old town",
+        "sv": "Gamla stadens arkitektur",
+        "nl": "Architectuur van de oude stad"
+      },
+      "topic": "architecture",
+      "lessonFile": "unit_harar_architektur_lessons.json"
+    },
+    {
+      "id": "unit_harar_handel_markt",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Handel und Markt",
+        "en": "Trade and market",
+        "sv": "Handel och marknad",
+        "nl": "Handel en markt"
+      },
+      "topic": "trade_market",
+      "lessonFile": "unit_harar_handel_markt_lessons.json"
+    },
+    {
+      "id": "unit_harar_schmuck_tracht",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Schmuck und Tracht",
+        "en": "Jewelry and traditional attire",
+        "sv": "Smycken och dräkt",
+        "nl": "Sieraden en klederdracht"
+      },
+      "topic": "jewelry_attire",
+      "lessonFile": "unit_harar_schmuck_tracht_lessons.json"
+    },
+    {
+      "id": "unit_harar_post_bank",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Post und Bank",
+        "en": "Post and bank",
+        "sv": "Post och bank",
+        "nl": "Post en bank"
+      },
+      "topic": "post_bank",
+      "lessonFile": "unit_harar_post_bank_lessons.json"
+    },
+    {
+      "id": "unit_harar_adjektive_erweitert",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Erweiterte Adjektive",
+        "en": "Extended adjectives",
+        "sv": "Utökade adjektiv",
+        "nl": "Uitgebreide bijvoeglijke naamwoorden"
+      },
+      "topic": "adjectives_2",
+      "lessonFile": "unit_harar_adjektive_erweitert_lessons.json"
+    },
+    {
+      "id": "unit_harar_verben_alltag2",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Alltagsverben (vertieft)",
+        "en": "Daily verbs (advanced)",
+        "sv": "Vardagsverb (fördjupat)",
+        "nl": "Dagelijkse werkwoorden (verdiept)"
+      },
+      "topic": "daily_verbs_2",
+      "lessonFile": "unit_harar_verben_alltag2_lessons.json"
+    },
+    {
+      "id": "unit_harar_freizeit_spiele",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Freizeit und Spiele",
+        "en": "Leisure and games",
+        "sv": "Fritid och spel",
+        "nl": "Vrije tijd en spellen"
+      },
+      "topic": "leisure_games",
+      "lessonFile": "unit_harar_freizeit_spiele_lessons.json"
+    },
+    {
+      "id": "unit_harar_naturschutz",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Naturschutz",
+        "en": "Conservation",
+        "sv": "Naturskydd",
+        "nl": "Natuurbehoud"
+      },
+      "topic": "conservation",
+      "lessonFile": "unit_harar_naturschutz_lessons.json"
+    },
+    {
+      "id": "unit_harar_kunst_malerei",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kunst und Malerei",
+        "en": "Art and painting",
+        "sv": "Konst och måleri",
+        "nl": "Kunst en schilderkunst"
+      },
+      "topic": "visual_arts",
+      "lessonFile": "unit_harar_kunst_malerei_lessons.json"
+    },
+    {
+      "id": "unit_harar_kindheit_erziehung",
+      "sectionId": "sec_harar",
+      "level": "B2",
+      "title": {
+        "de": "Kindheit und Erziehung",
+        "en": "Childhood and upbringing",
+        "sv": "Barndom och uppfostran",
+        "nl": "Kindertijd en opvoeding"
+      },
+      "topic": "childhood",
+      "lessonFile": "unit_harar_kindheit_erziehung_lessons.json"
+    },
+    {
+      "id": "unit_safari_verben_possessiv",
+      "sectionId": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Sie und er: Verben & Besitz",
+        "en": "She and he: verbs & possession",
+        "sv": "Hon och han: verb & ägande",
+        "nl": "Zij en hij: werkwoorden & bezit"
+      },
+      "topic": "gender_grammar_2",
+      "lessonFile": "unit_safari_verben_possessiv_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_greetings",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Begrüßung & Pronomen",
+        "en": "Greetings & pronouns",
+        "sv": "Hälsningar & pronomen",
+        "nl": "Begroetingen & voornaamwoorden"
+      },
+      "topic": "greetings",
+      "lessonFile": "unit_eritrea_greetings_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_family",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Familie",
+        "en": "Family",
+        "sv": "Familj",
+        "nl": "Familie"
+      },
+      "topic": "family",
+      "lessonFile": "unit_eritrea_family_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_numbers",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Zahlen 1-10",
+        "en": "Numbers 1-10",
+        "sv": "Siffror 1-10",
+        "nl": "Getallen 1-10"
+      },
+      "topic": "numbers",
+      "lessonFile": "unit_eritrea_numbers_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_food",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Essen & Trinken",
+        "en": "Food & drink",
+        "sv": "Mat & dryck",
+        "nl": "Eten & drinken"
+      },
+      "topic": "food",
+      "lessonFile": "unit_eritrea_food_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_zahlen_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Zahlen 11-1000",
+        "en": "Numbers 11-1000",
+        "sv": "Siffror 11-1000",
+        "nl": "Getallen 11-1000"
+      },
+      "topic": "numbers_more",
+      "lessonFile": "unit_eritrea_zahlen_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_farben_formen",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Farben & Formen",
+        "en": "Colors & Shapes",
+        "sv": "Färger & Former",
+        "nl": "Kleuren & Vormen"
+      },
+      "topic": "colors_shapes",
+      "lessonFile": "unit_eritrea_farben_formen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_koerper_gesundheit",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Körper & Gesundheit",
+        "en": "Body & Health",
+        "sv": "Kropp & Hälsa",
+        "nl": "Lichaam & Gezondheid"
+      },
+      "topic": "body_health",
+      "lessonFile": "unit_eritrea_koerper_gesundheit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kleidung_schmuck",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Kleidung & Schmuck",
+        "en": "Clothing & Jewelry",
+        "sv": "Kläder & Smycken",
+        "nl": "Kleding & Sieraden"
+      },
+      "topic": "clothing_jewelry",
+      "lessonFile": "unit_eritrea_kleidung_schmuck_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_haus_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Haus & Haushalt",
+        "en": "House & Household",
+        "sv": "Hus & Hushåll",
+        "nl": "Huis & Huishouden"
+      },
+      "topic": "house_more",
+      "lessonFile": "unit_eritrea_haus_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_natur_geographie",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Natur & Geografie",
+        "en": "Nature & Geography",
+        "sv": "Natur & Geografi",
+        "nl": "Natuur & Geografie"
+      },
+      "topic": "nature_geography",
+      "lessonFile": "unit_eritrea_natur_geographie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_tiere_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Tiere (mehr)",
+        "en": "Animals (more)",
+        "sv": "Djur (mer)",
+        "nl": "Dieren (meer)"
+      },
+      "topic": "animals_more",
+      "lessonFile": "unit_eritrea_tiere_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_zeit_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Zeit & Datum (mehr)",
+        "en": "Time & Date (more)",
+        "sv": "Tid & Datum (mer)",
+        "nl": "Tijd & Datum (meer)"
+      },
+      "topic": "time_more",
+      "lessonFile": "unit_eritrea_zeit_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_berufe_staat",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Berufe & Staat",
+        "en": "Professions & State",
+        "sv": "Yrken & Stat",
+        "nl": "Beroepen & Staat"
+      },
+      "topic": "professions_state",
+      "lessonFile": "unit_eritrea_berufe_staat_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verkehr_stadt",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Verkehr & Stadt",
+        "en": "Transport & City",
+        "sv": "Transport & Stad",
+        "nl": "Verkeer & Stad"
+      },
+      "topic": "transport_city",
+      "lessonFile": "unit_eritrea_verkehr_stadt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verben",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Verben (Grundlagen)",
+        "en": "Verbs (basics)",
+        "sv": "Verb (grunder)",
+        "nl": "Werkwoorden (basis)"
+      },
+      "topic": "verbs",
+      "lessonFile": "unit_eritrea_verben_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verben_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Verben (mehr)",
+        "en": "Verbs (more)",
+        "sv": "Verb (mer)",
+        "nl": "Werkwoorden (meer)"
+      },
+      "topic": "verbs_more",
+      "lessonFile": "unit_eritrea_verben_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gefuehle_sinne",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Gefühle & Sinne",
+        "en": "Emotions & Senses",
+        "sv": "Känslor & Sinnen",
+        "nl": "Emoties & Zintuigen"
+      },
+      "topic": "emotions_senses",
+      "lessonFile": "unit_eritrea_gefuehle_sinne_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_schule_faecher",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Schule & Fächer",
+        "en": "School & Subjects",
+        "sv": "Skola & Ämnen",
+        "nl": "School & Vakken"
+      },
+      "topic": "school_subjects",
+      "lessonFile": "unit_eritrea_schule_faecher_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_technologie_masse",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Technologie & Maße",
+        "en": "Technology & Measurements",
+        "sv": "Teknik & Mått",
+        "nl": "Technologie & Maten"
+      },
+      "topic": "technology_measurements",
+      "lessonFile": "unit_eritrea_technologie_masse_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sport_freizeit",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Sport & Freizeit",
+        "en": "Sports & Leisure",
+        "sv": "Sport & Fritid",
+        "nl": "Sport & Vrije tijd"
+      },
+      "topic": "sports_leisure",
+      "lessonFile": "unit_eritrea_sport_freizeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kultur",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Kultur & Religion",
+        "en": "Culture & Religion",
+        "sv": "Kultur & Religion",
+        "nl": "Cultuur & Religie"
+      },
+      "topic": "culture",
+      "lessonFile": "unit_eritrea_kultur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_einkaufen_restaurant",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Einkaufen & Restaurant",
+        "en": "Shopping & Restaurant",
+        "sv": "Shopping & Restaurang",
+        "nl": "Winkelen & Restaurant"
+      },
+      "topic": "shopping_restaurant",
+      "lessonFile": "unit_eritrea_einkaufen_restaurant_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_essen_gerichte",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Essen & Gerichte (mehr)",
+        "en": "Food & Dishes (more)",
+        "sv": "Mat & Rätter (mer)",
+        "nl": "Eten & Gerechten (meer)"
+      },
+      "topic": "food_more",
+      "lessonFile": "unit_eritrea_essen_gerichte_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_familie_pronomen",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Familie & Pronomen (mehr)",
+        "en": "Family & Pronouns (more)",
+        "sv": "Familj & Pronomen (mer)",
+        "nl": "Familie & Voornaamwoorden (meer)"
+      },
+      "topic": "family_pronouns",
+      "lessonFile": "unit_eritrea_familie_pronomen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_laender",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Länder & Sprachen",
+        "en": "Countries & Languages",
+        "sv": "Länder & Språk",
+        "nl": "Landen & Talen"
+      },
+      "topic": "countries_languages",
+      "lessonFile": "unit_eritrea_laender_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_landwirtschaft_werkzeuge",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Landwirtschaft & Werkzeuge",
+        "en": "Agriculture & Tools",
+        "sv": "Jordbruk & Verktyg",
+        "nl": "Landbouw & Gereedschap"
+      },
+      "topic": "agriculture_tools",
+      "lessonFile": "unit_eritrea_landwirtschaft_werkzeuge_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_materialien_allgemein",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Materialien & Allgemeines",
+        "en": "Materials & General",
+        "sv": "Material & Allmänt",
+        "nl": "Materialen & Algemeen"
+      },
+      "topic": "materials_general",
+      "lessonFile": "unit_eritrea_materialien_allgemein_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_phrasen_ausrufe",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Redewendungen & Ausrufe",
+        "en": "Phrases & Exclamations",
+        "sv": "Fraser & Utrop",
+        "nl": "Zinnen & Uitroepen"
+      },
+      "topic": "phrases_exclamations",
+      "lessonFile": "unit_eritrea_phrasen_ausrufe_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_adverbien_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Adverbien & Präpositionen (mehr)",
+        "en": "Adverbs & Prepositions (more)",
+        "sv": "Adverb & Prepositioner (mer)",
+        "nl": "Bijwoorden & Voorzetsels (meer)"
+      },
+      "topic": "adverbs_more",
+      "lessonFile": "unit_eritrea_adverbien_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_koerperteile_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Körperteile (mehr)",
+        "en": "Body Parts (more)",
+        "sv": "Kroppsdelar (mer)",
+        "nl": "Lichaamsdelen (meer)"
+      },
+      "topic": "body_parts_more",
+      "lessonFile": "unit_eritrea_koerperteile_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_finanzen_arbeit",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Finanzen & Arbeit",
+        "en": "Finance & Work",
+        "sv": "Ekonomi & Arbete",
+        "nl": "Financiën & Werk"
+      },
+      "topic": "finance_work",
+      "lessonFile": "unit_eritrea_finanzen_arbeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_fahrzeuge_buero",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Fahrzeugteile & Bürobedarf",
+        "en": "Vehicle Parts & Office Supplies",
+        "sv": "Fordonsdelar & Kontorsmaterial",
+        "nl": "Voertuigonderdelen & Kantoorbenodigdheden"
+      },
+      "topic": "vehicles_office",
+      "lessonFile": "unit_eritrea_fahrzeuge_buero_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_musik_feste",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Musik & Feste",
+        "en": "Music & Festivals",
+        "sv": "Musik & Högtider",
+        "nl": "Muziek & Feesten"
+      },
+      "topic": "music_festivals",
+      "lessonFile": "unit_eritrea_musik_feste_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_charakter_vergleich",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Charakter & Vergleiche",
+        "en": "Character & Comparisons",
+        "sv": "Karaktär & Jämförelser",
+        "nl": "Karakter & Vergelijkingen"
+      },
+      "topic": "character_comparison",
+      "lessonFile": "unit_eritrea_charakter_vergleich_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wetter_geologie",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Wetter & Geologie",
+        "en": "Weather & Geology",
+        "sv": "Väder & Geologi",
+        "nl": "Weer & Geologie"
+      },
+      "topic": "weather_geology",
+      "lessonFile": "unit_eritrea_wetter_geologie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_recht_notfall",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Recht & Notfälle",
+        "en": "Law & Emergencies",
+        "sv": "Rätt & Nödsituationer",
+        "nl": "Recht & Noodgevallen"
+      },
+      "topic": "law_emergency",
+      "lessonFile": "unit_eritrea_recht_notfall_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kommunikation_dialog",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Kommunikation & Dialog",
+        "en": "Communication & Dialogue",
+        "sv": "Kommunikation & Dialog",
+        "nl": "Communicatie & Dialoog"
+      },
+      "topic": "communication_dialogue",
+      "lessonFile": "unit_eritrea_kommunikation_dialog_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_insekten_voegel",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Insekten & Vögel",
+        "en": "Insects & Birds",
+        "sv": "Insekter & Fåglar",
+        "nl": "Insecten & Vogels"
+      },
+      "topic": "insects_birds",
+      "lessonFile": "unit_eritrea_insekten_voegel_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_geschichte_bildung",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Geschichte & Bildung",
+        "en": "History & Education",
+        "sv": "Historia & Utbildning",
+        "nl": "Geschiedenis & Onderwijs"
+      },
+      "topic": "history_education",
+      "lessonFile": "unit_eritrea_geschichte_bildung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gesundheit_kinder",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Gesundheit & Kinder (mehr)",
+        "en": "Health & Children (more)",
+        "sv": "Hälsa & Barn (mer)",
+        "nl": "Gezondheid & Kinderen (meer)"
+      },
+      "topic": "health_children",
+      "lessonFile": "unit_eritrea_gesundheit_kinder_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sport_reise",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Sport & Reisen (mehr)",
+        "en": "Sports & Travel (more)",
+        "sv": "Sport & Resor (mer)",
+        "nl": "Sport & Reizen (meer)"
+      },
+      "topic": "sports_travel",
+      "lessonFile": "unit_eritrea_sport_reise_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_mathematik_mehr",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Mathematik & Astronomie (mehr)",
+        "en": "Math & Astronomy (more)",
+        "sv": "Matematik & Astronomi (mer)",
+        "nl": "Wiskunde & Astronomie (meer)"
+      },
+      "topic": "math_astronomy",
+      "lessonFile": "unit_eritrea_mathematik_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_mode_pflanzen",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Mode & Pflanzen",
+        "en": "Fashion & Plants",
+        "sv": "Mode & Växter",
+        "nl": "Mode & Planten"
+      },
+      "topic": "fashion_plants",
+      "lessonFile": "unit_eritrea_mode_pflanzen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kochen_wissenschaft",
+      "sectionId": "sec_eritrea_keren",
+      "level": "TI",
+      "title": {
+        "de": "Kochen & Wissenschaft",
+        "en": "Cooking & Science",
+        "sv": "Matlagning & Vetenskap",
+        "nl": "Koken & Wetenschap"
+      },
+      "topic": "cooking_science",
+      "lessonFile": "unit_eritrea_kochen_wissenschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_beziehungen_emotionen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Beziehungen & Gefühle (mehr)",
+        "en": "Relationships & Emotions (more)",
+        "sv": "Relationer & Känslor (mer)",
+        "nl": "Relaties & Emoties (meer)"
+      },
+      "topic": "relationships_emotions",
+      "lessonFile": "unit_eritrea_beziehungen_emotionen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wohnen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Wohnen",
+        "en": "Housing",
+        "sv": "Boende",
+        "nl": "Wonen"
+      },
+      "topic": "housing",
+      "lessonFile": "unit_eritrea_wohnen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verben_adjektive",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Verben & Adjektive (mehr)",
+        "en": "Verbs & Adjectives (more)",
+        "sv": "Verb & Adjektiv (mer)",
+        "nl": "Werkwoorden & Bijvoeglijke naamwoorden (meer)"
+      },
+      "topic": "verbs_adjectives",
+      "lessonFile": "unit_eritrea_verben_adjektive_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_praepositionen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Präpositionen",
+        "en": "Prepositions",
+        "sv": "Prepositioner",
+        "nl": "Voorzetsels"
+      },
+      "topic": "prepositions",
+      "lessonFile": "unit_eritrea_praepositionen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_medizin",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Medizin & Krankenhaus",
+        "en": "Medicine & Hospital",
+        "sv": "Medicin & Sjukhus",
+        "nl": "Medicijnen & Ziekenhuis"
+      },
+      "topic": "medicine",
+      "lessonFile": "unit_eritrea_medizin_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_technologie_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Technologie (mehr)",
+        "en": "Technology (more)",
+        "sv": "Teknik (mer)",
+        "nl": "Technologie (meer)"
+      },
+      "topic": "technology_more",
+      "lessonFile": "unit_eritrea_technologie_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_umwelt_medien",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Umwelt & Medien",
+        "en": "Environment & Media",
+        "sv": "Miljö & Media",
+        "nl": "Milieu & Media"
+      },
+      "topic": "environment_media",
+      "lessonFile": "unit_eritrea_umwelt_medien_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_hobbys",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Hobbys",
+        "en": "Hobbies",
+        "sv": "Hobbyer",
+        "nl": "Hobby's"
+      },
+      "topic": "hobbies",
+      "lessonFile": "unit_eritrea_hobbys_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_laender_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Länder (mehr)",
+        "en": "Countries (more)",
+        "sv": "Länder (mer)",
+        "nl": "Landen (meer)"
+      },
+      "topic": "countries_more",
+      "lessonFile": "unit_eritrea_laender_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sport_mehr2",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Sport (mehr)",
+        "en": "Sports (more)",
+        "sv": "Sport (mer)",
+        "nl": "Sport (meer)"
+      },
+      "topic": "sports_more2",
+      "lessonFile": "unit_eritrea_sport_mehr2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_berufe_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Berufe (mehr)",
+        "en": "Professions (more)",
+        "sv": "Yrken (mer)",
+        "nl": "Beroepen (meer)"
+      },
+      "topic": "professions_more",
+      "lessonFile": "unit_eritrea_berufe_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wetter_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Wetter (mehr)",
+        "en": "Weather (more)",
+        "sv": "Väder (mer)",
+        "nl": "Weer (meer)"
+      },
+      "topic": "weather_more",
+      "lessonFile": "unit_eritrea_wetter_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kleidung_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Kleidung (mehr)",
+        "en": "Clothing (more)",
+        "sv": "Kläder (mer)",
+        "nl": "Kleding (meer)"
+      },
+      "topic": "clothing_more",
+      "lessonFile": "unit_eritrea_kleidung_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_recht_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Recht (mehr)",
+        "en": "Law (more)",
+        "sv": "Rätt (mer)",
+        "nl": "Recht (meer)"
+      },
+      "topic": "law_more",
+      "lessonFile": "unit_eritrea_recht_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_meerestiere",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Meerestiere",
+        "en": "Marine Life",
+        "sv": "Havsdjur",
+        "nl": "Zeedieren"
+      },
+      "topic": "marine_life",
+      "lessonFile": "unit_eritrea_meerestiere_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_spielzeug",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Spielzeug",
+        "en": "Toys",
+        "sv": "Leksaker",
+        "nl": "Speelgoed"
+      },
+      "topic": "toys",
+      "lessonFile": "unit_eritrea_spielzeug_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_buero_waehrung",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Büro & Währung",
+        "en": "Office & Currency",
+        "sv": "Kontor & Valuta",
+        "nl": "Kantoor & Valuta"
+      },
+      "topic": "office_currency",
+      "lessonFile": "unit_eritrea_buero_waehrung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_moebel_kueche",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Möbel & Küchengeschirr",
+        "en": "Furniture & Kitchenware",
+        "sv": "Möbler & Köksredskap",
+        "nl": "Meubels & Keukengerei"
+      },
+      "topic": "furniture_kitchenware",
+      "lessonFile": "unit_eritrea_moebel_kueche_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_bauernhof_landschaft",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Bauernhof & Landschaft",
+        "en": "Farm & Landscape",
+        "sv": "Bondgård & Landskap",
+        "nl": "Boerderij & Landschap"
+      },
+      "topic": "farm_landscape",
+      "lessonFile": "unit_eritrea_bauernhof_landschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_post_hygiene",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Post & Hygiene (mehr)",
+        "en": "Post Office & Hygiene (more)",
+        "sv": "Post & Hygien (mer)",
+        "nl": "Post & Hygiëne (meer)"
+      },
+      "topic": "post_hygiene",
+      "lessonFile": "unit_eritrea_post_hygiene_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_phrasen_ausrufe_mehr",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Redewendungen & Ausrufe (mehr)",
+        "en": "Phrases & Exclamations (more)",
+        "sv": "Fraser & Utrop (mer)",
+        "nl": "Uitdrukkingen & Uitroepen (meer)"
+      },
+      "topic": "phrases_exclamations",
+      "lessonFile": "unit_eritrea_phrasen_ausrufe_mehr_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_verkehr_flughafen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Verkehr & Flughafen",
+        "en": "Traffic & Airport",
+        "sv": "Trafik & Flygplats",
+        "nl": "Verkeer & Luchthaven"
+      },
+      "topic": "traffic_airport",
+      "lessonFile": "unit_eritrea_verkehr_flughafen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sinne_farben",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Sinne & Farbnuancen",
+        "en": "Senses & Color Shades",
+        "sv": "Sinnen & Färgnyanser",
+        "nl": "Zintuigen & Kleurtinten"
+      },
+      "topic": "senses_colors",
+      "lessonFile": "unit_eritrea_sinne_farben_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_literatur",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Literatur",
+        "en": "Literature",
+        "sv": "Litteratur",
+        "nl": "Literatuur"
+      },
+      "topic": "literature",
+      "lessonFile": "unit_eritrea_literatur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_versicherung_reparatur",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Versicherung & Reparatur",
+        "en": "Insurance & Repair",
+        "sv": "Försäkring & Reparation",
+        "nl": "Verzekering & Reparatie"
+      },
+      "topic": "insurance_repair",
+      "lessonFile": "unit_eritrea_versicherung_reparatur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_umzug_nachbarschaft",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Umzug & Nachbarschaft",
+        "en": "Moving & Neighborhood",
+        "sv": "Flytt & Grannskap",
+        "nl": "Verhuizen & Buurt"
+      },
+      "topic": "moving_neighborhood",
+      "lessonFile": "unit_eritrea_umzug_nachbarschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_schwangerschaft",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Schwangerschaft & Baby",
+        "en": "Pregnancy & Baby",
+        "sv": "Graviditet & Bebis",
+        "nl": "Zwangerschap & Baby"
+      },
+      "topic": "pregnancy",
+      "lessonFile": "unit_eritrea_schwangerschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_handwerk_baustelle",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Handwerk & Baustelle",
+        "en": "Crafts & Construction",
+        "sv": "Hantverk & Byggarbetsplats",
+        "nl": "Ambacht & Bouwplaats"
+      },
+      "topic": "crafts_construction",
+      "lessonFile": "unit_eritrea_handwerk_baustelle_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_richtungen_uhrzeit",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Richtungen & Uhrzeit",
+        "en": "Directions & Clock Time",
+        "sv": "Riktningar & Klockan",
+        "nl": "Richtingen & Kloktijd"
+      },
+      "topic": "directions_clock",
+      "lessonFile": "unit_eritrea_richtungen_uhrzeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_universitaet_sprachlernen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Universität & Sprachenlernen",
+        "en": "University & Language Learning",
+        "sv": "Universitet & Språkinlärning",
+        "nl": "Universiteit & Taal leren"
+      },
+      "topic": "university_language",
+      "lessonFile": "unit_eritrea_universitaet_sprachlernen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_bankdienste",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Bankdienste",
+        "en": "Banking Services",
+        "sv": "Banktjänster",
+        "nl": "Bankdiensten"
+      },
+      "topic": "banking",
+      "lessonFile": "unit_eritrea_bankdienste_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_picknick_strand",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Picknick & Strand",
+        "en": "Picnic & Beach",
+        "sv": "Picknick & Strand",
+        "nl": "Picknick & Strand"
+      },
+      "topic": "picnic_beach",
+      "lessonFile": "unit_eritrea_picknick_strand_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wanderung",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Wandern",
+        "en": "Hiking",
+        "sv": "Vandring",
+        "nl": "Wandelen"
+      },
+      "topic": "hiking",
+      "lessonFile": "unit_eritrea_wanderung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_planeten_mineralien",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Planeten & Mineralien",
+        "en": "Planets & Minerals",
+        "sv": "Planeter & Mineraler",
+        "nl": "Planeten & Mineralen"
+      },
+      "topic": "planets_minerals",
+      "lessonFile": "unit_eritrea_planeten_mineralien_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_baeume_blumen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Bäume & Blumen",
+        "en": "Trees & Flowers",
+        "sv": "Träd & Blommor",
+        "nl": "Bomen & Bloemen"
+      },
+      "topic": "trees_flowers",
+      "lessonFile": "unit_eritrea_baeume_blumen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gewuerze_backen",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Gewürze & Backen",
+        "en": "Spices & Baking",
+        "sv": "Kryddor & Bakning",
+        "nl": "Kruiden & Bakken"
+      },
+      "topic": "spices_baking",
+      "lessonFile": "unit_eritrea_gewuerze_backen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_getreide",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Getreide",
+        "en": "Grains",
+        "sv": "Spannmål",
+        "nl": "Granen"
+      },
+      "topic": "grains",
+      "lessonFile": "unit_eritrea_getreide_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_diplomatie",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Diplomatie",
+        "en": "Diplomacy",
+        "sv": "Diplomati",
+        "nl": "Diplomatie"
+      },
+      "topic": "diplomacy",
+      "lessonFile": "unit_eritrea_diplomatie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_internetbegriffe",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Internetbegriffe",
+        "en": "Internet Terms",
+        "sv": "Internetbegrepp",
+        "nl": "Internetbegrippen"
+      },
+      "topic": "internet_terms",
+      "lessonFile": "unit_eritrea_internetbegriffe_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_haustiere_spielplatz",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Haustiere & Spielplatz",
+        "en": "Pets & Playground",
+        "sv": "Husdjur & Lekplats",
+        "nl": "Huisdieren & Speelplaats"
+      },
+      "topic": "pets_playground",
+      "lessonFile": "unit_eritrea_haustiere_spielplatz_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_tanzen_gastfreundschaft",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Tanzen & Gastfreundschaft",
+        "en": "Dance & Hospitality",
+        "sv": "Dans & Gästfrihet",
+        "nl": "Dansen & Gastvrijheid"
+      },
+      "topic": "dance_hospitality",
+      "lessonFile": "unit_eritrea_tanzen_gastfreundschaft_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_raumfahrt_archaeologie",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Raumfahrt & Archäologie",
+        "en": "Space Travel & Archaeology",
+        "sv": "Rymdfärd & Arkeologi",
+        "nl": "Ruimtevaart & Archeologie"
+      },
+      "topic": "space_archaeology",
+      "lessonFile": "unit_eritrea_raumfahrt_archaeologie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_chemie_computerhardware",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Chemie & Computerhardware",
+        "en": "Chemistry & Computer Hardware",
+        "sv": "Kemi & Datorhårdvara",
+        "nl": "Scheikunde & Computerhardware"
+      },
+      "topic": "chemistry_hardware",
+      "lessonFile": "unit_eritrea_chemie_computerhardware_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wildtiere",
+      "sectionId": "sec_eritrea_asmara",
+      "level": "TI",
+      "title": {
+        "de": "Wildtiere Afrikas",
+        "en": "African Wildlife",
+        "sv": "Afrikas vilda djur",
+        "nl": "Afrikaanse wilde dieren"
+      },
+      "topic": "wild_animals",
+      "lessonFile": "unit_eritrea_wildtiere_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_elektrizitaet_fabrik",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Elektrizität & Fabrik",
+        "en": "Electricity & Factory",
+        "sv": "Elektricitet & Fabrik",
+        "nl": "Elektriciteit & Fabriek"
+      },
+      "topic": "electricity_factory",
+      "lessonFile": "unit_eritrea_elektrizitaet_fabrik_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_feuerwehr_notdienste",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Feuerwehr & Notdienste",
+        "en": "Firefighting & Emergency Services",
+        "sv": "Brandkår & Räddningstjänster",
+        "nl": "Brandweer & Hulpdiensten"
+      },
+      "topic": "firefighting_emergency",
+      "lessonFile": "unit_eritrea_feuerwehr_notdienste_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_flugzeugteile_fotografie",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Flugzeugteile & Fotografie",
+        "en": "Airplane Parts & Photography",
+        "sv": "Flygplansdelar & Fotografi",
+        "nl": "Vliegtuigonderdelen & Fotografie"
+      },
+      "topic": "airplane_photography",
+      "lessonFile": "unit_eritrea_flugzeugteile_fotografie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_friseursalon_schneiderei",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Friseursalon & Schneiderei",
+        "en": "Hair Salon & Tailoring",
+        "sv": "Frisörsalong & Skrädderi",
+        "nl": "Kapsalon & Kleermakerij"
+      },
+      "topic": "salon_tailoring",
+      "lessonFile": "unit_eritrea_friseursalon_schneiderei_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gaerten_gartengeraete",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Gärten & Gartengeräte",
+        "en": "Gardens & Garden Tools",
+        "sv": "Trädgårdar & Trädgårdsredskap",
+        "nl": "Tuinen & Tuingereedschap"
+      },
+      "topic": "gardens_tools",
+      "lessonFile": "unit_eritrea_gaerten_gartengeraete_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_hochzeitsfeier",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Hochzeitsfeier",
+        "en": "Wedding Celebration",
+        "sv": "Bröllopsfest",
+        "nl": "Bruiloftsfeest"
+      },
+      "topic": "wedding",
+      "lessonFile": "unit_eritrea_hochzeitsfeier_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_brettspiele_jahrmarkt",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Brettspiele & Jahrmarkt",
+        "en": "Board Games & Funfair",
+        "sv": "Brädspel & Nöjesfält",
+        "nl": "Bordspellen & Kermis"
+      },
+      "topic": "games_funfair",
+      "lessonFile": "unit_eritrea_brettspiele_jahrmarkt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_seefahrt_gewaesser",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Seefahrt & Gewässer",
+        "en": "Seafaring & Bodies of Water",
+        "sv": "Sjöfart & Vattendrag",
+        "nl": "Scheepvaart & Wateren"
+      },
+      "topic": "seafaring_water",
+      "lessonFile": "unit_eritrea_seefahrt_gewaesser_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_sicherheit_verpackung",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Sicherheit & Verpackung",
+        "en": "Security & Packaging",
+        "sv": "Säkerhet & Förpackning",
+        "nl": "Veiligheid & Verpakking"
+      },
+      "topic": "security_packaging",
+      "lessonFile": "unit_eritrea_sicherheit_verpackung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_veranstaltung_zirkus",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Veranstaltung & Zirkus",
+        "en": "Events & Circus",
+        "sv": "Evenemang & Cirkus",
+        "nl": "Evenementen & Circus"
+      },
+      "topic": "events_circus",
+      "lessonFile": "unit_eritrea_veranstaltung_zirkus_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_textilien_mode2",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Textilien & Modebranche",
+        "en": "Textiles & Fashion Industry",
+        "sv": "Textilier & Modebransch",
+        "nl": "Textiel & Modebranche"
+      },
+      "topic": "textiles_fashion",
+      "lessonFile": "unit_eritrea_textilien_mode2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_reinigung_kunstwerke",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Reinigung & Kunstwerke",
+        "en": "Cleaning & Artworks",
+        "sv": "Städning & Konstverk",
+        "nl": "Schoonmaken & Kunstwerken"
+      },
+      "topic": "cleaning_art",
+      "lessonFile": "unit_eritrea_reinigung_kunstwerke_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_modeaccessoires_bergbau",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Mode-Accessoires & Bergbau",
+        "en": "Fashion Accessories & Mining",
+        "sv": "Modeaccessoarer & Gruvdrift",
+        "nl": "Mode-accessoires & Mijnbouw"
+      },
+      "topic": "accessories_mining",
+      "lessonFile": "unit_eritrea_modeaccessoires_bergbau_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_kalligraphie_gastronomie",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Kalligraphie & Gastronomie",
+        "en": "Calligraphy & Gastronomy",
+        "sv": "Kalligrafi & Gastronomi",
+        "nl": "Kalligrafie & Gastronomie"
+      },
+      "topic": "calligraphy_gastronomy",
+      "lessonFile": "unit_eritrea_kalligraphie_gastronomie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_zoo_wildpflege",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Zoo & Tierpflege",
+        "en": "Zoo & Pet Care",
+        "sv": "Zoo & Djurvård",
+        "nl": "Dierentuin & Dierenverzorging"
+      },
+      "topic": "zoo_pet_care",
+      "lessonFile": "unit_eritrea_zoo_wildpflege_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gletscher_schmetterlinge",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Gletscher & Insekten",
+        "en": "Glaciers & Insects",
+        "sv": "Glaciärer & Insekter",
+        "nl": "Gletsjers & Insecten"
+      },
+      "topic": "glaciers_insects",
+      "lessonFile": "unit_eritrea_gletscher_schmetterlinge_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_flohmarkt_supermarkt",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Flohmarkt & Supermarkt",
+        "en": "Flea Market & Supermarket",
+        "sv": "Loppmarknad & Snabbköp",
+        "nl": "Vlooienmarkt & Supermarkt"
+      },
+      "topic": "flea_market_supermarket",
+      "lessonFile": "unit_eritrea_flohmarkt_supermarkt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_optik_zahnarzt",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Optiker & Zahnarzt",
+        "en": "Optician & Dentist",
+        "sv": "Optiker & Tandläkare",
+        "nl": "Opticien & Tandarts"
+      },
+      "topic": "optician_dentist",
+      "lessonFile": "unit_eritrea_optik_zahnarzt_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_brauerei_kaffeezeremonie",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Brauerei & Kaffeezeremonie",
+        "en": "Brewing & Coffee Ceremony",
+        "sv": "Bryggeri & Kaffeceremoni",
+        "nl": "Brouwerij & Koffieceremonie"
+      },
+      "topic": "brewing_coffee",
+      "lessonFile": "unit_eritrea_brauerei_kaffeezeremonie_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_erstehilfe_notdienste2",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Erste Hilfe",
+        "en": "First Aid",
+        "sv": "Första hjälpen",
+        "nl": "EHBO"
+      },
+      "topic": "first_aid",
+      "lessonFile": "unit_eritrea_erstehilfe_notdienste2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_mobilfunk_technikphrasen",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Mobilfunk & Technikprobleme",
+        "en": "Mobile Phones & Tech Issues",
+        "sv": "Mobiltelefoner & Tekniska problem",
+        "nl": "Mobiele telefoons & Techproblemen"
+      },
+      "topic": "mobile_tech_issues",
+      "lessonFile": "unit_eritrea_mobilfunk_technikphrasen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_steuern_immobilien",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Steuern & Immobilien",
+        "en": "Taxes & Real Estate",
+        "sv": "Skatter & Fastigheter",
+        "nl": "Belastingen & Vastgoed"
+      },
+      "topic": "taxes_real_estate",
+      "lessonFile": "unit_eritrea_steuern_immobilien_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_architektur_denkmal",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Architektur & Denkmäler",
+        "en": "Architecture & Monuments",
+        "sv": "Arkitektur & Monument",
+        "nl": "Architectuur & Monumenten"
+      },
+      "topic": "architecture_monuments",
+      "lessonFile": "unit_eritrea_architektur_denkmal_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_seniorenpflege_jugend",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Seniorenpflege & Jugend",
+        "en": "Elderly Care & Youth",
+        "sv": "Äldreomsorg & Ungdom",
+        "nl": "Ouderenzorg & Jeugd"
+      },
+      "topic": "elderly_youth",
+      "lessonFile": "unit_eritrea_seniorenpflege_jugend_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_energie2_landwirtschaft2",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Erneuerbare Energie & Landwirtschaft (mehr)",
+        "en": "Renewable Energy & Agriculture (more)",
+        "sv": "Förnybar energi & Jordbruk (mer)",
+        "nl": "Duurzame energie & Landbouw (meer)"
+      },
+      "topic": "renewable_agriculture",
+      "lessonFile": "unit_eritrea_energie2_landwirtschaft2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_fleischerei_baeckerei",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Metzgerei & Bäckerei",
+        "en": "Butchery & Bakery",
+        "sv": "Slakteri & Bageri",
+        "nl": "Slagerij & Bakkerij"
+      },
+      "topic": "butchery_bakery",
+      "lessonFile": "unit_eritrea_fleischerei_baeckerei_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_tankstelle_bibliothek",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Tankstelle & Bibliothek",
+        "en": "Gas Station & Library",
+        "sv": "Bensinstation & Bibliotek",
+        "nl": "Tankstation & Bibliotheek"
+      },
+      "topic": "gas_station_library",
+      "lessonFile": "unit_eritrea_tankstelle_bibliothek_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gesten_koerperhaltung",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Gestik & Körperhaltung",
+        "en": "Gestures & Body Posture",
+        "sv": "Gester & Kroppshållning",
+        "nl": "Gebaren & Lichaamshouding"
+      },
+      "topic": "gestures_posture",
+      "lessonFile": "unit_eritrea_gesten_koerperhaltung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_briefmarken_traeume",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Sammeln & Träume",
+        "en": "Collecting & Dreams",
+        "sv": "Samlande & Drömmar",
+        "nl": "Verzamelen & Dromen"
+      },
+      "topic": "collecting_dreams",
+      "lessonFile": "unit_eritrea_briefmarken_traeume_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gewohnheiten_meinungen",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Gewohnheiten & Meinungen",
+        "en": "Habits & Opinions",
+        "sv": "Vanor & Åsikter",
+        "nl": "Gewoontes & Meningen"
+      },
+      "topic": "habits_opinions",
+      "lessonFile": "unit_eritrea_gewohnheiten_meinungen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_konflikt_zustimmung",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Konflikt & Zustimmung",
+        "en": "Conflict & Agreement",
+        "sv": "Konflikt & Samtycke",
+        "nl": "Conflict & Instemming"
+      },
+      "topic": "conflict_agreement",
+      "lessonFile": "unit_eritrea_konflikt_zustimmung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_erinnerung_zukunftsplaene",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Erinnerung & Zukunftspläne",
+        "en": "Memory & Future Plans",
+        "sv": "Minne & Framtidsplaner",
+        "nl": "Herinnering & Toekomstplannen"
+      },
+      "topic": "memory_future",
+      "lessonFile": "unit_eritrea_erinnerung_zukunftsplaene_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_hoeflichkeit_zustaende",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Höflichkeit & Zustände",
+        "en": "Politeness & States",
+        "sv": "Artighet & Tillstånd",
+        "nl": "Beleefdheid & Toestanden"
+      },
+      "topic": "politeness_states",
+      "lessonFile": "unit_eritrea_hoeflichkeit_zustaende_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_bewegung_koerperfunktionen",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Bewegung & Körperfunktionen",
+        "en": "Movement & Body Functions",
+        "sv": "Rörelse & Kroppsfunktioner",
+        "nl": "Beweging & Lichaamsfuncties"
+      },
+      "topic": "movement_body_functions",
+      "lessonFile": "unit_eritrea_bewegung_koerperfunktionen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_geraeusche_licht",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Geräusche & Licht",
+        "en": "Sounds & Light",
+        "sv": "Ljud & Ljus",
+        "nl": "Geluiden & Licht"
+      },
+      "topic": "sounds_light",
+      "lessonFile": "unit_eritrea_geraeusche_licht_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_temperatur_form_textur",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Temperatur & Textur",
+        "en": "Temperature & Texture",
+        "sv": "Temperatur & Textur",
+        "nl": "Temperatuur & Textuur"
+      },
+      "topic": "temperature_texture",
+      "lessonFile": "unit_eritrea_temperatur_form_textur_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_menge_gefahren",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Menge & Gefahren",
+        "en": "Quantity & Danger",
+        "sv": "Mängd & Fara",
+        "nl": "Hoeveelheid & Gevaar"
+      },
+      "topic": "quantity_danger",
+      "lessonFile": "unit_eritrea_menge_gefahren_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_veraenderung_vergleiche2",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Veränderung & Vergleiche (mehr)",
+        "en": "Change & Comparisons (more)",
+        "sv": "Förändring & Jämförelser (mer)",
+        "nl": "Verandering & Vergelijkingen (meer)"
+      },
+      "topic": "change_comparison",
+      "lessonFile": "unit_eritrea_veraenderung_vergleiche2_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_position_haeufigkeit",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Position & Häufigkeit",
+        "en": "Position & Frequency",
+        "sv": "Position & Frekvens",
+        "nl": "Positie & Frequentie"
+      },
+      "topic": "position_frequency",
+      "lessonFile": "unit_eritrea_position_haeufigkeit_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_konjunktionen_geld_ausdruecke",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Konjunktionen & Geldausdrücke",
+        "en": "Conjunctions & Money Expressions",
+        "sv": "Konjunktioner & Penninguttryck",
+        "nl": "Voegwoorden & Geld-uitdrukkingen"
+      },
+      "topic": "conjunctions_money",
+      "lessonFile": "unit_eritrea_konjunktionen_geld_ausdruecke_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_wetterausdruecke_verabschiedung",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Wetterausdrücke & Verabschiedung",
+        "en": "Weather Expressions & Farewells",
+        "sv": "Väderuttryck & Avsked",
+        "nl": "Weer-uitdrukkingen & Afscheid"
+      },
+      "topic": "weather_farewell",
+      "lessonFile": "unit_eritrea_wetterausdruecke_verabschiedung_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_smalltalk_notfallphrasen",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Small Talk & Notfallphrasen",
+        "en": "Small Talk & Emergency Phrases",
+        "sv": "Småprat & Nödfraser",
+        "nl": "Small talk & Noodzinnen"
+      },
+      "topic": "smalltalk_emergency",
+      "lessonFile": "unit_eritrea_smalltalk_notfallphrasen_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_gluecksphrasen_wuensche",
+      "sectionId": "sec_eritrea_massawa",
+      "level": "TI",
+      "title": {
+        "de": "Glückwünsche & Wünsche",
+        "en": "Congratulations & Wishes",
+        "sv": "Gratulationer & Önskningar",
+        "nl": "Felicitaties & Wensen"
+      },
+      "topic": "congratulations_wishes",
+      "lessonFile": "unit_eritrea_gluecksphrasen_wuensche_lessons.json"
+    },
+    {
+      "id": "unit_safari_bindewoerter",
+      "sectionId": "sec_safari",
+      "level": "B2",
+      "title": {
+        "de": "Sie und er: Sätze mit Bindewörtern",
+        "en": "She and he: sentences with conjunctions",
+        "sv": "Hon och han: meningar med bindeord",
+        "nl": "Zij en hij: zinnen met voegwoorden"
+      },
+      "topic": "conjunctions_review",
+      "lessonFile": "unit_safari_bindewoerter_lessons.json"
+    },
+    {
+      "id": "unit_eritrea_dahlak_bindewoerter",
+      "sectionId": "sec_eritrea_dahlak",
+      "level": "TI",
+      "title": {
+        "de": "Zusammen: Sätze mit Bindewörtern",
+        "en": "Together: sentences with conjunctions",
+        "sv": "Tillsammans: meningar med bindeord",
+        "nl": "Samen: zinnen met voegwoorden"
+      },
+      "topic": "conjunctions_review",
+      "lessonFile": "unit_eritrea_dahlak_bindewoerter_lessons.json"
+    }
+  ]
+}

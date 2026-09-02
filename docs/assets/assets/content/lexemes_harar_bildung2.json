@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hb2_yuniversiti",
+    "am": "ከፍተኛ ትምህርት ቤት",
+    "tr": "kefitegna timihirt bet",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "die Universität",
+      "en": "university",
+      "sv": "universitet",
+      "nl": "universiteit",
+      "it": "l'università",
+      "es": "la universidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_maste_timihirt",
+    "am": "ትምህርት ቤት",
+    "tr": "timihirt bet",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "die Schule",
+      "en": "school",
+      "sv": "skola",
+      "nl": "school",
+      "it": "la scuola",
+      "es": "la escuela"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏫",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_astemari",
+    "am": "አስተማሪ",
+    "tr": "astemari",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "der Lehrer",
+      "en": "teacher",
+      "sv": "lärare",
+      "nl": "leraar",
+      "it": "l'insegnante",
+      "es": "el profesor"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_kifil3",
+    "am": "ክፍል",
+    "tr": "kifil",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "die Klasse, das Klassenzimmer",
+      "en": "class, classroom",
+      "sv": "klass, klassrum",
+      "nl": "klas, klaslokaal",
+      "it": "la classe, l'aula",
+      "es": "la clase, el aula"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_metsihaf_timihirt",
+    "am": "የመማሪያ መጽሐፍ",
+    "tr": "yememariya metsihaf",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "das Lehrbuch",
+      "en": "textbook",
+      "sv": "läroboken",
+      "nl": "leerboek",
+      "it": "il libro di testo",
+      "es": "el libro de texto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_fetena",
+    "am": "ፈተና",
+    "tr": "fetena",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "die Prüfung",
+      "en": "exam, test",
+      "sv": "prov",
+      "nl": "examen",
+      "it": "l'esame",
+      "es": "el examen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_v_mefetin",
+    "am": "መፈተን",
+    "tr": "mefeten",
+    "pos": "verb",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "prüfen, testen",
+      "en": "to test, to examine",
+      "sv": "testa, examinera",
+      "nl": "testen, examineren",
+      "it": "esaminare, testare",
+      "es": "examinar, probar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_wetat_marka",
+    "am": "ውጤት",
+    "tr": "wit'et",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "das Ergebnis, die Note",
+      "en": "result, grade",
+      "sv": "resultat, betyg",
+      "nl": "resultaat, cijfer",
+      "it": "il risultato, il voto",
+      "es": "el resultado, la nota"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_timihirt_sinat",
+    "am": "ትምህርት ክፍል",
+    "tr": "timihirt kifil",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "das Fach (Schulfach)",
+      "en": "school subject",
+      "sv": "skolämne",
+      "nl": "schoolvak",
+      "it": "la materia scolastica",
+      "es": "la asignatura escolar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hb2_matematiks",
+    "am": "ሂሳብ",
+    "tr": "hisab",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "die Mathematik",
+      "en": "mathematics",
+      "sv": "matematik",
+      "nl": "wiskunde",
+      "it": "la matematica",
+      "es": "las matemáticas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_tarik2",
+    "am": "ታሪክ ትምህርት",
+    "tr": "tarik timihirt",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "das Geschichtsfach",
+      "en": "history (subject)",
+      "sv": "historia (ämne)",
+      "nl": "geschiedenis (vak)",
+      "it": "la storia (materia)",
+      "es": "la historia (asignatura)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hb2_v_meligilgel",
+    "am": "ማጥናት",
+    "tr": "mat'inat",
+    "pos": "verb",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "lernen, studieren",
+      "en": "to study",
+      "sv": "studera",
+      "nl": "studeren",
+      "it": "studiare",
+      "es": "estudiar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_temari2",
+    "am": "ተማሪ",
+    "tr": "temari",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "der Schüler, Student",
+      "en": "student, pupil",
+      "sv": "student, elev",
+      "nl": "student, leerling",
+      "it": "lo studente, l'alunno",
+      "es": "el estudiante, el alumno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_iqid",
+    "am": "እቅድ ትምህርት",
+    "tr": "ik'id timihirt",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "der Lehrplan",
+      "en": "curriculum, syllabus",
+      "sv": "läroplan",
+      "nl": "leerplan",
+      "it": "il programma di studi",
+      "es": "el plan de estudios"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hb2_v_masesat",
+    "am": "ማስተማር",
+    "tr": "masitemar",
+    "pos": "verb",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "unterrichten",
+      "en": "to teach",
+      "sv": "undervisa",
+      "nl": "onderwijzen",
+      "it": "insegnare",
+      "es": "enseñar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_zewedegna",
+    "am": "ተመራቂ ትምህርት",
+    "tr": "temeraki timihirt",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "das Abschlusszeugnis",
+      "en": "graduation certificate",
+      "sv": "examensbevis",
+      "nl": "diploma",
+      "it": "il diploma di laurea",
+      "es": "el certificado de graduación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hb2_akal6",
+    "am": "ቤተ ሙከራ",
+    "tr": "bete mukera",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "das Labor",
+      "en": "laboratory",
+      "sv": "laboratorium",
+      "nl": "laboratorium",
+      "it": "il laboratorio",
+      "es": "el laboratorio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_qalem",
+    "am": "እርሳስ",
+    "tr": "irisas",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "der Bleistift",
+      "en": "pencil",
+      "sv": "blyertspenna",
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_dinbir3",
+    "am": "ጥቁር ሰሌዳ",
+    "tr": "t'ik'ur seleda",
+    "pos": "noun",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "die Tafel",
+      "en": "blackboard",
+      "sv": "svarta tavlan",
+      "nl": "schoolbord",
+      "it": "la lavagna",
+      "es": "la pizarra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hb2_v_metsahaf",
+    "am": "ማጥናት ማብቃት",
+    "tr": "mat'inat mabik'at",
+    "pos": "verb",
+    "topic": "education_2",
+    "level": "B2",
+    "t": {
+      "de": "absolvieren, abschließen (Studium)",
+      "en": "to graduate, to complete studies",
+      "sv": "ta examen",
+      "nl": "afstuderen",
+      "it": "laurearsi, completare gli studi",
+      "es": "graduarse, terminar los estudios"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

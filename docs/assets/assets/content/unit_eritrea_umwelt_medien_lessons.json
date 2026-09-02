@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_eritrea_umwelt_medien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_umw_awirai",
+      "lex_ti_umw_qyrnt",
+      "lex_ti_umw_dqla",
+      "lex_ti_umw_bzhr",
+      "lex_ti_umw_ktkb",
+      "lex_ti_umw_ndgo",
+      "lex_ti_umw_hywe",
+      "lex_ti_umw_hywc",
+      "lex_ti_umw_msms",
+      "lex_ti_umw_hywd",
+      "lex_ti_mdn_ftm",
+      "lex_ti_mdn_tlvz",
+      "lex_ti_mdn_rdyo",
+      "lex_ti_mdn_gzta",
+      "lex_ti_mdn_mzgb",
+      "lex_ti_mdn_zena",
+      "lex_ti_mdn_zfen",
+      "lex_ti_mdn_tmsl",
+      "lex_ti_mdn_mzngo",
+      "lex_ti_mdn_pblc"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_umwelt_medien_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_umw_awirai",
+      "lex_ti_umw_qyrnt",
+      "lex_ti_umw_dqla",
+      "lex_ti_umw_bzhr",
+      "lex_ti_umw_ktkb",
+      "lex_ti_umw_ndgo",
+      "lex_ti_umw_hywe",
+      "lex_ti_umw_hywc",
+      "lex_ti_umw_msms",
+      "lex_ti_umw_hywd",
+      "lex_ti_mdn_ftm",
+      "lex_ti_mdn_tlvz",
+      "lex_ti_mdn_rdyo",
+      "lex_ti_mdn_gzta",
+      "lex_ti_mdn_mzgb",
+      "lex_ti_mdn_zena",
+      "lex_ti_mdn_zfen",
+      "lex_ti_mdn_tmsl",
+      "lex_ti_mdn_mzngo",
+      "lex_ti_mdn_pblc"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umwelt_medien_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_umw_awirai",
+      "lex_ti_umw_qyrnt",
+      "lex_ti_umw_dqla",
+      "lex_ti_umw_bzhr",
+      "lex_ti_umw_ktkb",
+      "lex_ti_umw_ndgo",
+      "lex_ti_umw_hywe",
+      "lex_ti_umw_hywc",
+      "lex_ti_umw_msms",
+      "lex_ti_umw_hywd",
+      "lex_ti_mdn_ftm",
+      "lex_ti_mdn_tlvz",
+      "lex_ti_mdn_rdyo",
+      "lex_ti_mdn_gzta",
+      "lex_ti_mdn_mzgb",
+      "lex_ti_mdn_zena",
+      "lex_ti_mdn_zfen",
+      "lex_ti_mdn_tmsl",
+      "lex_ti_mdn_mzngo",
+      "lex_ti_mdn_pblc"
+    ],
+    "sentenceIds": [
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umwelt_medien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_umw_awirai",
+      "lex_ti_umw_qyrnt",
+      "lex_ti_umw_dqla",
+      "lex_ti_umw_bzhr",
+      "lex_ti_umw_ktkb",
+      "lex_ti_umw_ndgo",
+      "lex_ti_umw_hywe",
+      "lex_ti_umw_hywc",
+      "lex_ti_umw_msms",
+      "lex_ti_umw_hywd",
+      "lex_ti_mdn_ftm",
+      "lex_ti_mdn_tlvz",
+      "lex_ti_mdn_rdyo",
+      "lex_ti_mdn_gzta",
+      "lex_ti_mdn_mzgb",
+      "lex_ti_mdn_zena",
+      "lex_ti_mdn_zfen",
+      "lex_ti_mdn_tmsl",
+      "lex_ti_mdn_mzngo",
+      "lex_ti_mdn_pblc"
+    ],
+    "sentenceIds": [
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umwelt_medien_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_umw_awirai",
+      "lex_ti_umw_qyrnt",
+      "lex_ti_umw_dqla",
+      "lex_ti_umw_bzhr",
+      "lex_ti_umw_ktkb",
+      "lex_ti_umw_ndgo",
+      "lex_ti_umw_hywe",
+      "lex_ti_umw_hywc",
+      "lex_ti_umw_msms",
+      "lex_ti_umw_hywd",
+      "lex_ti_mdn_ftm",
+      "lex_ti_mdn_tlvz",
+      "lex_ti_mdn_rdyo",
+      "lex_ti_mdn_gzta",
+      "lex_ti_mdn_mzgb",
+      "lex_ti_mdn_zena",
+      "lex_ti_mdn_zfen",
+      "lex_ti_mdn_tmsl",
+      "lex_ti_mdn_mzngo",
+      "lex_ti_mdn_pblc"
+    ],
+    "sentenceIds": [
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_umwelt_medien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_umw_awirai",
+      "lex_ti_umw_qyrnt",
+      "lex_ti_umw_dqla",
+      "lex_ti_umw_bzhr",
+      "lex_ti_umw_ktkb",
+      "lex_ti_umw_ndgo",
+      "lex_ti_umw_hywe",
+      "lex_ti_umw_hywc",
+      "lex_ti_umw_msms",
+      "lex_ti_umw_hywd",
+      "lex_ti_mdn_ftm",
+      "lex_ti_mdn_tlvz",
+      "lex_ti_mdn_rdyo",
+      "lex_ti_mdn_gzta",
+      "lex_ti_mdn_mzgb",
+      "lex_ti_mdn_zena",
+      "lex_ti_mdn_zfen",
+      "lex_ti_mdn_tmsl",
+      "lex_ti_mdn_mzngo",
+      "lex_ti_mdn_pblc"
+    ],
+    "sentenceIds": [
+      "sen_ti_umwelt_medien_1",
+      "sen_gen_umw_qyrnt",
+      "sen_gen_umw_dqla",
+      "sen_gen_umw_bzhr",
+      "sen_gen_umw_ktkb"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

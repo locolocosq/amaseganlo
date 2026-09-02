@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_moebel_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_teppich",
+      "lex_kissen",
+      "lex_decke",
+      "lex_vorhang",
+      "lex_wand"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_moebel_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_teppich",
+      "lex_kissen",
+      "lex_decke",
+      "lex_vorhang",
+      "lex_wand"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_moebel_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_teppich",
+      "lex_kissen",
+      "lex_decke",
+      "lex_vorhang",
+      "lex_wand"
+    ],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_moebel_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_teppich",
+      "lex_kissen",
+      "lex_decke",
+      "lex_vorhang",
+      "lex_wand"
+    ],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_moebel_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_teppich",
+      "lex_kissen",
+      "lex_decke",
+      "lex_vorhang",
+      "lex_wand"
+    ],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_moebel_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_teppich",
+      "lex_kissen",
+      "lex_decke",
+      "lex_vorhang",
+      "lex_wand"
+    ],
+    "sentenceIds": [
+      "sen_gen_teppich",
+      "sen_gen_kissen",
+      "sen_gen_decke",
+      "sen_gen_vorhang",
+      "sen_gen_wand"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

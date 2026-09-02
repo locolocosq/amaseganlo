@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_htu_turist",
+    "am": "ቱሪስት",
+    "tr": "turist",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "der Tourist",
+      "en": "tourist",
+      "sv": "turist",
+      "nl": "toerist",
+      "it": "il turista",
+      "es": "el turista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_metaya2",
+    "am": "የቱሪዝም ስፍራ",
+    "tr": "yeturizim sifira",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "die Touristenattraktion",
+      "en": "tourist attraction",
+      "sv": "turistattraktion",
+      "nl": "toeristische attractie",
+      "it": "l'attrazione turistica",
+      "es": "la atracción turística"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_htu_meriya",
+    "am": "ካርታ",
+    "tr": "karita",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "die Karte, der Plan",
+      "en": "map",
+      "sv": "karta",
+      "nl": "kaart",
+      "it": "la mappa, la piantina",
+      "es": "el mapa, el plano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🗺️",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_meriya_ort",
+    "am": "አስጎብኚ",
+    "tr": "asigobinyi",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "der Reiseführer (Person)",
+      "en": "tour guide (person)",
+      "sv": "reseguide (person)",
+      "nl": "reisgids (persoon)",
+      "it": "la guida turistica (persona)",
+      "es": "el/la guía turístico/a (persona)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_v_masiyet",
+    "am": "ማስጎብኘት",
+    "tr": "masigobinyet",
+    "pos": "verb",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "führen (touristisch)",
+      "en": "to guide (tourists)",
+      "sv": "guida (turister)",
+      "nl": "rondleiden",
+      "it": "guidare (turisti)",
+      "es": "guiar (a los turistas)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_htu_hotel",
+    "am": "ሆቴል",
+    "tr": "hotel",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "das Hotel",
+      "en": "hotel",
+      "sv": "hotell",
+      "nl": "hotel",
+      "it": "l'hotel",
+      "es": "el hotel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏨",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_zenzir",
+    "am": "ማረፍ",
+    "tr": "maref",
+    "pos": "verb",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "sich ausruhen, übernachten",
+      "en": "to rest, to stay overnight",
+      "sv": "vila, övernatta",
+      "nl": "rusten, overnachten",
+      "it": "riposarsi, pernottare",
+      "es": "descansar, pernoctar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_fasika_gize",
+    "am": "የበዓል ጊዜ",
+    "tr": "yebe'al gize",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "die Ferienzeit, Urlaubszeit",
+      "en": "holiday season, vacation time",
+      "sv": "semestertid",
+      "nl": "vakantietijd",
+      "it": "la stagione delle vacanze",
+      "es": "la temporada de vacaciones"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_htu_madiya",
+    "am": "አጃቢ",
+    "tr": "ajabi",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "der Begleiter",
+      "en": "companion, escort",
+      "sv": "följeslagare",
+      "nl": "begeleider",
+      "it": "il compagno, l'accompagnatore",
+      "es": "el compañero, el acompañante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_htu_fotograf",
+    "am": "ፎቶግራፍ",
+    "tr": "fotogiraf",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "das Foto",
+      "en": "photograph",
+      "sv": "foto",
+      "nl": "foto",
+      "it": "la foto",
+      "es": "la foto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📷",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_v_mefotograf",
+    "am": "መፎቶ ማንሳት",
+    "tr": "mefoto manisat",
+    "pos": "verb",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "fotografieren",
+      "en": "to take a photo",
+      "sv": "fotografera",
+      "nl": "fotograferen",
+      "it": "fare una foto",
+      "es": "hacer una foto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_zikir",
+    "am": "መታሰቢያ",
+    "tr": "metasebiya",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "das Souvenir, die Erinnerung",
+      "en": "souvenir, keepsake",
+      "sv": "souvenir, minne",
+      "nl": "souvenir",
+      "it": "il souvenir, il ricordo",
+      "es": "el recuerdo, el souvenir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_visa",
+    "am": "ቪዛ",
+    "tr": "visa",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "das Visum",
+      "en": "visa",
+      "sv": "visum",
+      "nl": "visum",
+      "it": "il visto",
+      "es": "el visado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_pasport",
+    "am": "ፓስፖርት",
+    "tr": "pasiporiti",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "der Reisepass",
+      "en": "passport",
+      "sv": "pass",
+      "nl": "paspoort",
+      "it": "il passaporto",
+      "es": "el pasaporte"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_dinbir",
+    "am": "ድንበር",
+    "tr": "dinibir",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "die Grenze (Land)",
+      "en": "border (country)",
+      "sv": "gräns (land)",
+      "nl": "grens (land)",
+      "it": "il confine (paese)",
+      "es": "la frontera (país)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_gunzo",
+    "am": "ጉዞ",
+    "tr": "guzo",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "die Reise",
+      "en": "trip, journey",
+      "sv": "resa",
+      "nl": "reis",
+      "it": "il viaggio",
+      "es": "el viaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_v_meshecher",
+    "am": "መጓዝ",
+    "tr": "megwaz",
+    "pos": "verb",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "reisen",
+      "en": "to travel",
+      "sv": "resa",
+      "nl": "reizen",
+      "it": "viaggiare",
+      "es": "viajar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_akal5",
+    "am": "ካምፕ",
+    "tr": "kamip",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "das Zeltlager",
+      "en": "campsite",
+      "sv": "campingplats",
+      "nl": "kampeerplaats",
+      "it": "il campeggio",
+      "es": "el camping"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_bejaje",
+    "am": "በጀት",
+    "tr": "bejeti",
+    "pos": "noun",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "das Budget",
+      "en": "budget",
+      "sv": "budget",
+      "nl": "budget",
+      "it": "il budget",
+      "es": "el presupuesto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_htu_v_meakemem",
+    "am": "ማቀድ",
+    "tr": "mak'ed",
+    "pos": "verb",
+    "topic": "tourism",
+    "level": "B2",
+    "t": {
+      "de": "planen",
+      "en": "to plan",
+      "sv": "planera",
+      "nl": "plannen",
+      "it": "pianificare",
+      "es": "planificar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

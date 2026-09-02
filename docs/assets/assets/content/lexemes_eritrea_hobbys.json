@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_hby_ntbb",
+    "am": "ንባብ",
+    "tr": "nibab",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "das Lesen",
+      "en": "reading",
+      "sv": "läsning",
+      "nl": "lezen",
+      "it": "la lettura",
+      "es": "la lectura"
+    },
+    "emoji": "📖",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_ssla",
+    "am": "ስእሊ ምስኣል",
+    "tr": "si'ili mis'al",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "das Malen, Zeichnen",
+      "en": "drawing, painting",
+      "sv": "målning, ritning",
+      "nl": "tekenen, schilderen",
+      "it": "il disegno, la pittura",
+      "es": "el dibujo, la pintura"
+    },
+    "emoji": "🎨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_zfen2",
+    "am": "ምስማዕ ደርፊ",
+    "tr": "misima'i derfi",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "Musik hören",
+      "en": "listening to music",
+      "sv": "lyssna på musik",
+      "nl": "muziek luisteren",
+      "it": "ascoltare musica",
+      "es": "escuchar música"
+    },
+    "emoji": "🎧",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_cnq",
+    "am": "ምስራሕ ኣትክልቲ",
+    "tr": "misirah atikilti",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "das Gärtnern",
+      "en": "gardening",
+      "sv": "trädgårdsarbete",
+      "nl": "tuinieren",
+      "it": "il giardinaggio",
+      "es": "la jardinería"
+    },
+    "emoji": "🌱",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_msyq",
+    "am": "ምስራሕ ኢድ",
+    "tr": "misirah 'idi",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "das Basteln, Handarbeit",
+      "en": "handicraft",
+      "sv": "handarbete",
+      "nl": "handwerk",
+      "it": "l'artigianato, il fai da te",
+      "es": "la artesanía, las manualidades"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_gzti",
+    "am": "ጉዕዞ",
+    "tr": "gu'ezo",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "das Reisen",
+      "en": "traveling",
+      "sv": "resande",
+      "nl": "reizen",
+      "it": "il viaggiare",
+      "es": "viajar"
+    },
+    "emoji": "✈️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_msht",
+    "am": "ምጽዋት ጸወታ",
+    "tr": "mitswat tsewata",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "Spiele spielen",
+      "en": "playing games",
+      "sv": "spela spel",
+      "nl": "spelletjes spelen",
+      "it": "giocare ai videogiochi",
+      "es": "jugar videojuegos"
+    },
+    "emoji": "🎮",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_msbh",
+    "am": "ምስራሕ ስፖርት",
+    "tr": "misirah siport",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "Sport treiben",
+      "en": "doing sports",
+      "sv": "idrotta",
+      "nl": "sporten",
+      "it": "fare sport",
+      "es": "hacer deporte"
+    },
+    "emoji": "⚽",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_mbsl",
+    "am": "ምግቢ ምስራሕ",
+    "tr": "migibi misirah",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "das Kochen (als Hobby)",
+      "en": "cooking (as a hobby)",
+      "sv": "laga mat (som hobby)",
+      "nl": "koken (als hobby)",
+      "it": "cucinare (come hobby)",
+      "es": "cocinar (como hobby)"
+    },
+    "emoji": "🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hby_gzti2",
+    "am": "ምድላይ ስእሊ",
+    "tr": "midilay si'ili",
+    "pos": "noun",
+    "topic": "hobbies",
+    "level": "TI",
+    "t": {
+      "de": "die Fotografie",
+      "en": "photography",
+      "sv": "fotografering",
+      "nl": "fotografie",
+      "it": "la fotografia",
+      "es": "la fotografía"
+    },
+    "emoji": "📷",
+    "verified": false
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "lex_strasse",
+    "am": "መንገድ",
+    "tr": "mengad",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Straße, der Weg",
+      "en": "street, road",
+      "sv": "gata, väg",
+      "nl": "straat, weg",
+      "it": "la strada, la via",
+      "es": "la calle, el camino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🛣️",
+    "verified": true
+  },
+  {
+    "id": "lex_krankenhaus",
+    "am": "ሆስፒታል",
+    "tr": "hospital",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "das Krankenhaus",
+      "en": "hospital",
+      "sv": "sjukhus",
+      "nl": "ziekenhuis",
+      "it": "l'ospedale",
+      "es": "el hospital"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏥",
+    "verified": true
+  },
+  {
+    "id": "lex_schule",
+    "am": "ትምህርት ቤት",
+    "tr": "timhirt biet",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Schule",
+      "en": "school",
+      "sv": "skola",
+      "nl": "school",
+      "it": "la scuola",
+      "es": "la escuela"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏫",
+    "verified": true
+  },
+  {
+    "id": "lex_bank",
+    "am": "ባንክ",
+    "tr": "bank",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Bank",
+      "en": "bank",
+      "sv": "bank",
+      "nl": "bank",
+      "it": "la banca",
+      "es": "el banco"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏦",
+    "verified": true
+  },
+  {
+    "id": "lex_kirche",
+    "am": "ቤተ ክርስቲያን",
+    "tr": "bete kristiyan",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Kirche",
+      "en": "church",
+      "sv": "kyrka",
+      "nl": "kerk",
+      "it": "la chiesa",
+      "es": "la iglesia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⛪",
+    "verified": true
+  },
+  {
+    "id": "lex_moschee",
+    "am": "መስጊድ",
+    "tr": "mesgid",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Moschee",
+      "en": "mosque",
+      "sv": "moské",
+      "nl": "moskee",
+      "it": "la moschea",
+      "es": "la mezquita"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕌",
+    "verified": true
+  },
+  {
+    "id": "lex_stadt",
+    "am": "ከተማ",
+    "tr": "ketema",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Stadt",
+      "en": "city",
+      "sv": "stad",
+      "nl": "stad",
+      "it": "la città",
+      "es": "la ciudad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏙️",
+    "verified": true
+  },
+  {
+    "id": "lex_dorf",
+    "am": "መንደር",
+    "tr": "mender",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "das Dorf",
+      "en": "village",
+      "sv": "by",
+      "nl": "dorp",
+      "it": "il villaggio",
+      "es": "el pueblo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏡",
+    "verified": false
+  },
+  {
+    "id": "lex_hotel",
+    "am": "ሆቴል",
+    "tr": "hotel",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "das Hotel",
+      "en": "hotel",
+      "sv": "hotell",
+      "nl": "hotel",
+      "it": "l'hotel",
+      "es": "el hotel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏨",
+    "verified": true
+  },
+  {
+    "id": "lex_restaurant",
+    "am": "ምግብ ቤት",
+    "tr": "migib biet",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "das Restaurant",
+      "en": "restaurant",
+      "sv": "restaurang",
+      "nl": "restaurant",
+      "it": "il ristorante",
+      "es": "el restaurante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍽️",
+    "verified": false
+  },
+  {
+    "id": "lex_flughafen",
+    "am": "አየር ማረፊያ",
+    "tr": "ayer marefiya",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "der Flughafen",
+      "en": "airport",
+      "sv": "flygplats",
+      "nl": "luchthaven",
+      "it": "l'aeroporto",
+      "es": "el aeropuerto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✈️",
+    "verified": false
+  },
+  {
+    "id": "lex_polizei",
+    "am": "ፖሊስ",
+    "tr": "polis",
+    "pos": "noun",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "die Polizei",
+      "en": "police",
+      "sv": "polis",
+      "nl": "politie",
+      "it": "la polizia",
+      "es": "la policía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👮",
+    "verified": true
+  },
+  {
+    "id": "lex_rechts",
+    "am": "ቀኝ",
+    "tr": "kegn",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "rechts",
+      "en": "right",
+      "sv": "höger",
+      "nl": "rechts",
+      "it": "a destra",
+      "es": "a la derecha"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_links",
+    "am": "ግራ",
+    "tr": "gira",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "links",
+      "en": "left",
+      "sv": "vänster",
+      "nl": "links",
+      "it": "a sinistra",
+      "es": "a la izquierda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_geradeaus",
+    "am": "ቀጥታ",
+    "tr": "k'et'ita",
+    "pos": "adverb",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "geradeaus",
+      "en": "straight ahead",
+      "sv": "rakt fram",
+      "nl": "rechtdoor",
+      "it": "dritto",
+      "es": "todo recto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wo_ist",
+    "am": "የት ነው?",
+    "tr": "yet new?",
+    "pos": "phrase",
+    "topic": "city",
+    "level": "A1.2",
+    "t": {
+      "de": "Wo ist...?",
+      "en": "Where is...?",
+      "sv": "Var är...?",
+      "nl": "Waar is...?",
+      "it": "Dov'è...?",
+      "es": "¿Dónde está...?"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

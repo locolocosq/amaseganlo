@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_selten",
+    "am": "አልፎ አልፎ",
+    "tr": "alfo alfo",
+    "pos": "adverb",
+    "topic": "time_adverbs",
+    "level": "A2",
+    "t": {
+      "de": "selten",
+      "en": "rarely",
+      "sv": "sällan",
+      "nl": "zelden",
+      "it": "raramente",
+      "es": "raramente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_normalerweise",
+    "am": "እንደ ልማድ",
+    "tr": "inde limad",
+    "pos": "adverb",
+    "topic": "time_adverbs",
+    "level": "A2",
+    "t": {
+      "de": "normalerweise, gewöhnlich",
+      "en": "usually",
+      "sv": "vanligtvis",
+      "nl": "meestal",
+      "it": "normalmente, di solito",
+      "es": "normalmente, usualmente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sofort",
+    "am": "አሁኑኑ",
+    "tr": "ahununu",
+    "pos": "adverb",
+    "topic": "time_adverbs",
+    "level": "A2",
+    "t": {
+      "de": "sofort",
+      "en": "immediately",
+      "sv": "omedelbart",
+      "nl": "onmiddellijk",
+      "it": "subito",
+      "es": "inmediatamente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_spaeter",
+    "am": "በኋላ",
+    "tr": "behwala",
+    "pos": "adverb",
+    "topic": "time_adverbs",
+    "level": "A2",
+    "t": {
+      "de": "später",
+      "en": "later",
+      "sv": "senare",
+      "nl": "later",
+      "it": "più tardi",
+      "es": "más tarde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bereits",
+    "am": "አስቀድሞ",
+    "tr": "asik'edmo",
+    "pos": "adverb",
+    "topic": "time_adverbs",
+    "level": "A2",
+    "t": {
+      "de": "bereits, schon",
+      "en": "already",
+      "sv": "redan",
+      "nl": "al",
+      "it": "già",
+      "es": "ya"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_noch",
+    "am": "አሁንም",
+    "tr": "ahunim",
+    "pos": "adverb",
+    "topic": "time_adverbs",
+    "level": "A2",
+    "t": {
+      "de": "noch, immer noch",
+      "en": "still",
+      "sv": "fortfarande",
+      "nl": "nog steeds",
+      "it": "ancora",
+      "es": "todavía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

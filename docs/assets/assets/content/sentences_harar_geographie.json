@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sen_hg_terara_kilkil",
+    "am": "ተራራ ከኮረብታ ይበልጣል።",
+    "tr": "terara kekorebita yibelit'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hg_terara",
+      "lex_hg_kilkil"
+    ],
+    "t": {
+      "de": "Der Berg ist größer als der Hügel.",
+      "en": "The mountain is bigger than the hill.",
+      "sv": "Berget är större än kullen.",
+      "nl": "De berg is groter dan de heuvel.",
+      "it": "La montagna è più grande della collina.",
+      "es": "La montaña es más grande que la colina."
+    },
+    "chunks": [
+      "terara",
+      "kekorebita",
+      "yibelit'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hg_widib_haik",
+    "am": "ወንዝ ወደ ሐይቅ ይፈሳል።",
+    "tr": "wenz wede hayik' yifesal.",
+    "level": "B2",
+    "uses": [
+      "lex_hg_widib",
+      "lex_hg_haik"
+    ],
+    "t": {
+      "de": "Der Fluss fließt zum See.",
+      "en": "The river flows to the lake.",
+      "sv": "Floden rinner till sjön.",
+      "nl": "De rivier stroomt naar het meer.",
+      "it": "Il fiume scorre verso il lago.",
+      "es": "El río fluye hacia el lago."
+    },
+    "chunks": [
+      "wenz",
+      "wede",
+      "hayik'",
+      "yifesal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hg_dagat_kola",
+    "am": "ደጋ ቀዝቃዛ ነው፤ ቆላ ግን ሞቃት ነው።",
+    "tr": "dega k'ezik'aza newu; k'ola gin mok'at newu.",
+    "level": "B2",
+    "uses": [
+      "lex_hg_dagat",
+      "lex_hg_kola"
+    ],
+    "t": {
+      "de": "Das Hochland ist kalt, das Tiefland aber warm.",
+      "en": "The highland is cold, but the lowland is warm.",
+      "sv": "Höglandet är kallt, men lågllandet är varmt.",
+      "nl": "Het hoogland is koud, maar het laagland is warm.",
+      "it": "L'altopiano è freddo, ma le pianure sono calde.",
+      "es": "Las tierras altas son frías, pero las tierras bajas son cálidas."
+    },
+    "chunks": [
+      "dega",
+      "k'ezik'aza",
+      "newu",
+      "k'ola",
+      "gin",
+      "mok'at",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hg_kiremt_kella",
+    "am": "ክረምት ደረቅ ወቅት ካልፈ ይመጣል።",
+    "tr": "kiremt derek' wek'it kalefe yimet'al.",
+    "level": "B2",
+    "uses": [
+      "lex_hg_kiremt"
+    ],
+    "t": {
+      "de": "Die Regenzeit kommt nach der Trockenzeit.",
+      "en": "The rainy season comes after the dry season.",
+      "sv": "Regnperioden kommer efter torrperioden.",
+      "nl": "Het regenseizoen komt na de droge tijd.",
+      "it": "La stagione delle piogge arriva dopo la stagione secca.",
+      "es": "La temporada de lluvias llega después de la temporada seca."
+    },
+    "chunks": [
+      "kiremt",
+      "derek'",
+      "wek'it",
+      "kalefe",
+      "yimet'al"
+    ],
+    "verified": false
+  }
+]

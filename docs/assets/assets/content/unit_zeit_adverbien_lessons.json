@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_zeit_adverbien_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_selten",
+      "lex_normalerweise",
+      "lex_sofort",
+      "lex_spaeter",
+      "lex_bereits",
+      "lex_noch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zeit_adverbien_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_selten",
+      "lex_normalerweise",
+      "lex_sofort",
+      "lex_spaeter",
+      "lex_bereits",
+      "lex_noch"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zeit_adverbien_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_selten",
+      "lex_normalerweise",
+      "lex_sofort",
+      "lex_spaeter",
+      "lex_bereits",
+      "lex_noch"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zeit_adverbien_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_selten",
+      "lex_normalerweise",
+      "lex_sofort",
+      "lex_spaeter",
+      "lex_bereits",
+      "lex_noch"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zeit_adverbien_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_selten",
+      "lex_normalerweise",
+      "lex_sofort",
+      "lex_spaeter",
+      "lex_bereits",
+      "lex_noch"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zeit_adverbien_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_selten",
+      "lex_normalerweise",
+      "lex_sofort",
+      "lex_spaeter",
+      "lex_bereits",
+      "lex_noch"
+    ],
+    "sentenceIds": [
+      "sen_gen_kopfschmerz",
+      "sen_gen_allergie_2",
+      "sen_gen_wunde_2",
+      "sen_gen_verband_2",
+      "sen_gen_spritze_2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

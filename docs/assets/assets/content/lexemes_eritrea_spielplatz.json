@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_spp_slide",
+    "am": "መንሸርተቲ",
+    "tr": "menisherteti",
+    "pos": "noun",
+    "topic": "playground",
+    "level": "TI",
+    "t": {
+      "de": "die Rutsche",
+      "en": "slide",
+      "sv": "rutschkana",
+      "nl": "glijbaan",
+      "it": "lo scivolo",
+      "es": "el tobogán"
+    },
+    "emoji": "🛝",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spp_sndbx",
+    "am": "ሑጻ ጸወታ",
+    "tr": "hutsa tsewata",
+    "pos": "noun",
+    "topic": "playground",
+    "level": "TI",
+    "t": {
+      "de": "der Sandkasten",
+      "en": "sandbox",
+      "sv": "sandlåda",
+      "nl": "zandbak",
+      "it": "la sabbionaia",
+      "es": "el arenero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spp_ssaw",
+    "am": "ናይ ክልተ ምንሳፍ",
+    "tr": "nay kilte minisaf",
+    "pos": "noun",
+    "topic": "playground",
+    "level": "TI",
+    "t": {
+      "de": "die Wippe",
+      "en": "seesaw",
+      "sv": "gungbräda",
+      "nl": "wip",
+      "it": "l'altalena a bilico",
+      "es": "el sube y baja"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spp_run2",
+    "am": "ጎደሎ ጸወታ",
+    "tr": "godelo tsewata",
+    "pos": "noun",
+    "topic": "playground",
+    "level": "TI",
+    "t": {
+      "de": "das Klettergerüst",
+      "en": "climbing frame",
+      "sv": "klätterställning",
+      "nl": "klimrek",
+      "it": "la struttura per arrampicarsi",
+      "es": "la estructura para trepar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_spp_play",
+    "am": "ተጻወተ",
+    "tr": "tetsawete",
+    "pos": "verb",
+    "topic": "playground",
+    "level": "TI",
+    "t": {
+      "de": "spielen",
+      "en": "to play",
+      "sv": "att leka",
+      "nl": "spelen",
+      "it": "giocare",
+      "es": "jugar"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

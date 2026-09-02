@@ -1,0 +1,164 @@
+[
+  {
+    "id": "unit_verben_kommunikation_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_v_fluestern",
+      "lex_v_streiten",
+      "lex_v_zustimmen",
+      "lex_v_widersprechen",
+      "lex_v_beschweren",
+      "lex_v_entschuldigen",
+      "lex_v_loben",
+      "lex_v_warnen",
+      "lex_v_vorschlagen",
+      "lex_v_beraten",
+      "lex_v_ueberzeugen",
+      "lex_v_ermutigen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_verben_kommunikation_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_v_fluestern",
+      "lex_v_streiten",
+      "lex_v_zustimmen",
+      "lex_v_widersprechen",
+      "lex_v_beschweren",
+      "lex_v_entschuldigen",
+      "lex_v_loben",
+      "lex_v_warnen",
+      "lex_v_vorschlagen",
+      "lex_v_beraten",
+      "lex_v_ueberzeugen",
+      "lex_v_ermutigen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_verben_kommunikation_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_v_fluestern",
+      "lex_v_streiten",
+      "lex_v_zustimmen",
+      "lex_v_widersprechen",
+      "lex_v_beschweren",
+      "lex_v_entschuldigen",
+      "lex_v_loben",
+      "lex_v_warnen",
+      "lex_v_vorschlagen",
+      "lex_v_beraten",
+      "lex_v_ueberzeugen",
+      "lex_v_ermutigen"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_verben_kommunikation_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_v_fluestern",
+      "lex_v_streiten",
+      "lex_v_zustimmen",
+      "lex_v_widersprechen",
+      "lex_v_beschweren",
+      "lex_v_entschuldigen",
+      "lex_v_loben",
+      "lex_v_warnen",
+      "lex_v_vorschlagen",
+      "lex_v_beraten",
+      "lex_v_ueberzeugen",
+      "lex_v_ermutigen"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_verben_kommunikation_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_v_fluestern",
+      "lex_v_streiten",
+      "lex_v_zustimmen",
+      "lex_v_widersprechen",
+      "lex_v_beschweren",
+      "lex_v_entschuldigen",
+      "lex_v_loben",
+      "lex_v_warnen",
+      "lex_v_vorschlagen",
+      "lex_v_beraten",
+      "lex_v_ueberzeugen",
+      "lex_v_ermutigen"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_verben_kommunikation_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_v_fluestern",
+      "lex_v_streiten",
+      "lex_v_zustimmen",
+      "lex_v_widersprechen",
+      "lex_v_beschweren",
+      "lex_v_entschuldigen",
+      "lex_v_loben",
+      "lex_v_warnen",
+      "lex_v_vorschlagen",
+      "lex_v_beraten",
+      "lex_v_ueberzeugen",
+      "lex_v_ermutigen"
+    ],
+    "sentenceIds": [
+      "sen_gen_v_fluestern",
+      "sen_gen_v_streiten",
+      "sen_gen_v_zustimmen",
+      "sen_gen_v_widersprechen",
+      "sen_gen_v_beschweren"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

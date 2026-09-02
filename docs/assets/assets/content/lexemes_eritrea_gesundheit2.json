@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lex_ti_hkm4",
+    "am": "ስፔሻሊስት ሓኪም",
+    "tr": "speshalist hakim",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "der Facharzt",
+      "en": "specialist doctor",
+      "sv": "specialistläkare",
+      "nl": "specialist",
+      "it": "il medico specialista",
+      "es": "el médico especialista"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_alrji",
+    "am": "ኣለርጂ",
+    "tr": "alerji",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die Allergie",
+      "en": "allergy",
+      "sv": "allergi",
+      "nl": "allergie",
+      "it": "l'allergia",
+      "es": "la alergia"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sksh",
+    "am": "ተላጋቢ ሕማም",
+    "tr": "telagabi himam",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die ansteckende Krankheit",
+      "en": "contagious disease",
+      "sv": "smittsam sjukdom",
+      "nl": "besmettelijke ziekte",
+      "it": "la malattia contagiosa",
+      "es": "la enfermedad contagiosa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_klya",
+    "am": "ክታበት",
+    "tr": "kitabet",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die Impfung",
+      "en": "vaccination",
+      "sv": "vaccination",
+      "nl": "vaccinatie",
+      "it": "il vaccino",
+      "es": "la vacuna"
+    },
+    "emoji": "💉",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snbulet",
+    "am": "ስንብራት",
+    "tr": "sinibrat",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die Narbe",
+      "en": "scar",
+      "sv": "ärr",
+      "nl": "litteken",
+      "it": "la cicatrice",
+      "es": "la cicatriz"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wgi2",
+    "am": "ስብራት",
+    "tr": "sibrat",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "der Knochenbruch",
+      "en": "fracture",
+      "sv": "fraktur",
+      "nl": "botbreuk",
+      "it": "la frattura",
+      "es": "la fractura"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_neurst",
+    "am": "ነርስ ገዛ",
+    "tr": "nersi geza",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die häusliche Pflege",
+      "en": "home care",
+      "sv": "hemvård",
+      "nl": "thuiszorg",
+      "it": "l'assistenza domiciliare",
+      "es": "la atención domiciliaria"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shghi",
+    "am": "ሽጉርቲ ኣፍልቢ",
+    "tr": "shigurti aflibi",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die Brustschmerzen",
+      "en": "chest pain",
+      "sv": "bröstsmärta",
+      "nl": "pijn op de borst",
+      "it": "il dolore al petto",
+      "es": "el dolor de pecho"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wlada",
+    "am": "ጥንሲ",
+    "tr": "t'inisi",
+    "pos": "noun",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "die Schwangerschaft",
+      "en": "pregnancy",
+      "sv": "graviditet",
+      "nl": "zwangerschap",
+      "it": "la gravidanza",
+      "es": "el embarazo"
+    },
+    "emoji": "🤰",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qhna",
+    "am": "ስኻር",
+    "tr": "sikhar",
+    "pos": "adjective",
+    "topic": "health_more",
+    "level": "TI",
+    "t": {
+      "de": "betrunken",
+      "en": "drunk",
+      "sv": "full, berusad",
+      "nl": "dronken",
+      "it": "ubriaco",
+      "es": "borracho"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

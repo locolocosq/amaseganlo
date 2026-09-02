@@ -1,0 +1,206 @@
+[
+  {
+    "id": "unit_zeit_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_heute",
+      "lex_morgen_tag",
+      "lex_gestern",
+      "lex_tag",
+      "lex_nacht",
+      "lex_abend",
+      "lex_morgen_zeit",
+      "lex_woche",
+      "lex_monat",
+      "lex_jahr",
+      "lex_stunde",
+      "lex_minute",
+      "lex_montag",
+      "lex_dienstag",
+      "lex_mittwoch",
+      "lex_donnerstag",
+      "lex_freitag",
+      "lex_samstag",
+      "lex_sonntag"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zeit_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_heute",
+      "lex_morgen_tag",
+      "lex_gestern",
+      "lex_tag",
+      "lex_nacht",
+      "lex_abend",
+      "lex_morgen_zeit",
+      "lex_woche",
+      "lex_monat",
+      "lex_jahr",
+      "lex_stunde",
+      "lex_minute",
+      "lex_montag",
+      "lex_dienstag",
+      "lex_mittwoch",
+      "lex_donnerstag",
+      "lex_freitag",
+      "lex_samstag",
+      "lex_sonntag"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zeit_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_heute",
+      "lex_morgen_tag",
+      "lex_gestern",
+      "lex_tag",
+      "lex_nacht",
+      "lex_abend",
+      "lex_morgen_zeit",
+      "lex_woche",
+      "lex_monat",
+      "lex_jahr",
+      "lex_stunde",
+      "lex_minute",
+      "lex_montag",
+      "lex_dienstag",
+      "lex_mittwoch",
+      "lex_donnerstag",
+      "lex_freitag",
+      "lex_samstag",
+      "lex_sonntag"
+    ],
+    "sentenceIds": [
+      "sen_zare_segno",
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zeit_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_heute",
+      "lex_morgen_tag",
+      "lex_gestern",
+      "lex_tag",
+      "lex_nacht",
+      "lex_abend",
+      "lex_morgen_zeit",
+      "lex_woche",
+      "lex_monat",
+      "lex_jahr",
+      "lex_stunde",
+      "lex_minute",
+      "lex_montag",
+      "lex_dienstag",
+      "lex_mittwoch",
+      "lex_donnerstag",
+      "lex_freitag",
+      "lex_samstag",
+      "lex_sonntag"
+    ],
+    "sentenceIds": [
+      "sen_zare_segno",
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zeit_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_heute",
+      "lex_morgen_tag",
+      "lex_gestern",
+      "lex_tag",
+      "lex_nacht",
+      "lex_abend",
+      "lex_morgen_zeit",
+      "lex_woche",
+      "lex_monat",
+      "lex_jahr",
+      "lex_stunde",
+      "lex_minute",
+      "lex_montag",
+      "lex_dienstag",
+      "lex_mittwoch",
+      "lex_donnerstag",
+      "lex_freitag",
+      "lex_samstag",
+      "lex_sonntag"
+    ],
+    "sentenceIds": [
+      "sen_zare_segno",
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zeit_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_heute",
+      "lex_morgen_tag",
+      "lex_gestern",
+      "lex_tag",
+      "lex_nacht",
+      "lex_abend",
+      "lex_morgen_zeit",
+      "lex_woche",
+      "lex_monat",
+      "lex_jahr",
+      "lex_stunde",
+      "lex_minute",
+      "lex_montag",
+      "lex_dienstag",
+      "lex_mittwoch",
+      "lex_donnerstag",
+      "lex_freitag",
+      "lex_samstag",
+      "lex_sonntag"
+    ],
+    "sentenceIds": [
+      "sen_zare_segno",
+      "sen_nege_kidame",
+      "sen_gen_tag",
+      "sen_gen_nacht",
+      "sen_gen_abend"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

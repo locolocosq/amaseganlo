@@ -1,0 +1,71 @@
+[
+  {
+    "id": "sen_fix_v_bringen",
+    "am": "ማምጣት እፈልጋለሁ።",
+    "tr": "mamt'at ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_bringen"
+    ],
+    "t": {
+      "de": "Ich möchte bringen.",
+      "en": "I want to bring.",
+      "sv": "Jag vill ta med.",
+      "nl": "Ik wil brengen.",
+      "it": "Voglio portare.",
+      "es": "Quiero traer."
+    },
+    "alt": {},
+    "chunks": [
+      "mamt'at",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_v_suchen",
+    "am": "መፍለግ እወዳለሁ።",
+    "tr": "meflege iwedallehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_suchen"
+    ],
+    "t": {
+      "de": "Suchen mag ich.",
+      "en": "I like to search.",
+      "sv": "Jag gillar att söka.",
+      "nl": "Ik hou van zoeken.",
+      "it": "Mi piace cercare.",
+      "es": "Me gusta buscar."
+    },
+    "alt": {},
+    "chunks": [
+      "meflege",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_v_warten",
+    "am": "መጠበቅ እፈልጋለሁ።",
+    "tr": "met'ebek' ifeligalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_v_warten"
+    ],
+    "t": {
+      "de": "Ich möchte warten.",
+      "en": "I want to wait.",
+      "sv": "Jag vill vänta.",
+      "nl": "Ik wil wachten.",
+      "it": "Voglio aspettare.",
+      "es": "Quiero esperar."
+    },
+    "alt": {},
+    "chunks": [
+      "met'ebek'",
+      "ifeligalehu."
+    ],
+    "verified": false
+  }
+]

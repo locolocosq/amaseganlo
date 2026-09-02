@@ -1,0 +1,194 @@
+[
+  {
+    "id": "unit_harar_post_bank_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hpb_posta_bet",
+      "lex_hpb_posta",
+      "lex_hpb_tembir",
+      "lex_hpb_bank",
+      "lex_hpb_yebank_hisab",
+      "lex_hpb_kard",
+      "lex_hpb_v_masqemat",
+      "lex_hpb_v_mawitat",
+      "lex_hpb_weled",
+      "lex_hpb_chek",
+      "lex_hpb_telegiram",
+      "lex_hpb_adirasha2",
+      "lex_hpb_v_melak",
+      "lex_hpb_paket",
+      "lex_hpb_bidir",
+      "lex_hpb_v_mabeder",
+      "lex_hpb_keri"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_post_bank_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hpb_posta_bet",
+      "lex_hpb_posta",
+      "lex_hpb_tembir",
+      "lex_hpb_bank",
+      "lex_hpb_yebank_hisab",
+      "lex_hpb_kard",
+      "lex_hpb_v_masqemat",
+      "lex_hpb_v_mawitat",
+      "lex_hpb_weled",
+      "lex_hpb_chek",
+      "lex_hpb_telegiram",
+      "lex_hpb_adirasha2",
+      "lex_hpb_v_melak",
+      "lex_hpb_paket",
+      "lex_hpb_bidir",
+      "lex_hpb_v_mabeder",
+      "lex_hpb_keri"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_post_bank_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hpb_posta_bet",
+      "lex_hpb_posta",
+      "lex_hpb_tembir",
+      "lex_hpb_bank",
+      "lex_hpb_yebank_hisab",
+      "lex_hpb_kard",
+      "lex_hpb_v_masqemat",
+      "lex_hpb_v_mawitat",
+      "lex_hpb_weled",
+      "lex_hpb_chek",
+      "lex_hpb_telegiram",
+      "lex_hpb_adirasha2",
+      "lex_hpb_v_melak",
+      "lex_hpb_paket",
+      "lex_hpb_bidir",
+      "lex_hpb_v_mabeder",
+      "lex_hpb_keri"
+    ],
+    "sentenceIds": [
+      "sen_hpb_posta_tembir",
+      "sen_hpb_hisab_masqemat",
+      "sen_hpb_bidir_weled",
+      "sen_hpb_paket_melak",
+      "sen_gen_hpb_posta"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_post_bank_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hpb_posta_bet",
+      "lex_hpb_posta",
+      "lex_hpb_tembir",
+      "lex_hpb_bank",
+      "lex_hpb_yebank_hisab",
+      "lex_hpb_kard",
+      "lex_hpb_v_masqemat",
+      "lex_hpb_v_mawitat",
+      "lex_hpb_weled",
+      "lex_hpb_chek",
+      "lex_hpb_telegiram",
+      "lex_hpb_adirasha2",
+      "lex_hpb_v_melak",
+      "lex_hpb_paket",
+      "lex_hpb_bidir",
+      "lex_hpb_v_mabeder",
+      "lex_hpb_keri"
+    ],
+    "sentenceIds": [
+      "sen_hpb_posta_tembir",
+      "sen_hpb_hisab_masqemat",
+      "sen_hpb_bidir_weled",
+      "sen_hpb_paket_melak",
+      "sen_gen_hpb_posta"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_post_bank_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hpb_posta_bet",
+      "lex_hpb_posta",
+      "lex_hpb_tembir",
+      "lex_hpb_bank",
+      "lex_hpb_yebank_hisab",
+      "lex_hpb_kard",
+      "lex_hpb_v_masqemat",
+      "lex_hpb_v_mawitat",
+      "lex_hpb_weled",
+      "lex_hpb_chek",
+      "lex_hpb_telegiram",
+      "lex_hpb_adirasha2",
+      "lex_hpb_v_melak",
+      "lex_hpb_paket",
+      "lex_hpb_bidir",
+      "lex_hpb_v_mabeder",
+      "lex_hpb_keri"
+    ],
+    "sentenceIds": [
+      "sen_hpb_posta_tembir",
+      "sen_hpb_hisab_masqemat",
+      "sen_hpb_bidir_weled",
+      "sen_hpb_paket_melak",
+      "sen_gen_hpb_posta"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_post_bank_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hpb_posta_bet",
+      "lex_hpb_posta",
+      "lex_hpb_tembir",
+      "lex_hpb_bank",
+      "lex_hpb_yebank_hisab",
+      "lex_hpb_kard",
+      "lex_hpb_v_masqemat",
+      "lex_hpb_v_mawitat",
+      "lex_hpb_weled",
+      "lex_hpb_chek",
+      "lex_hpb_telegiram",
+      "lex_hpb_adirasha2",
+      "lex_hpb_v_melak",
+      "lex_hpb_paket",
+      "lex_hpb_bidir",
+      "lex_hpb_v_mabeder",
+      "lex_hpb_keri"
+    ],
+    "sentenceIds": [
+      "sen_hpb_posta_tembir",
+      "sen_hpb_hisab_masqemat",
+      "sen_hpb_bidir_weled",
+      "sen_hpb_paket_melak",
+      "sen_gen_hpb_posta"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

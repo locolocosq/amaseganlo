@@ -1,0 +1,146 @@
+[
+  {
+    "id": "unit_eritrea_veranstaltung_zirkus_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_vrn_cncrt",
+      "lex_ti_vrn_tckt2",
+      "lex_ti_vrn_stg",
+      "lex_ti_vrn_aud",
+      "lex_ti_vrn_perf",
+      "lex_ti_zrk_clwn",
+      "lex_ti_zrk_acrb",
+      "lex_ti_zrk_tent2",
+      "lex_ti_zrk_tmr"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_veranstaltung_zirkus_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_vrn_cncrt",
+      "lex_ti_vrn_tckt2",
+      "lex_ti_vrn_stg",
+      "lex_ti_vrn_aud",
+      "lex_ti_vrn_perf",
+      "lex_ti_zrk_clwn",
+      "lex_ti_zrk_acrb",
+      "lex_ti_zrk_tent2",
+      "lex_ti_zrk_tmr"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veranstaltung_zirkus_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_vrn_cncrt",
+      "lex_ti_vrn_tckt2",
+      "lex_ti_vrn_stg",
+      "lex_ti_vrn_aud",
+      "lex_ti_vrn_perf",
+      "lex_ti_zrk_clwn",
+      "lex_ti_zrk_acrb",
+      "lex_ti_zrk_tent2",
+      "lex_ti_zrk_tmr"
+    ],
+    "sentenceIds": [
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veranstaltung_zirkus_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_vrn_cncrt",
+      "lex_ti_vrn_tckt2",
+      "lex_ti_vrn_stg",
+      "lex_ti_vrn_aud",
+      "lex_ti_vrn_perf",
+      "lex_ti_zrk_clwn",
+      "lex_ti_zrk_acrb",
+      "lex_ti_zrk_tent2",
+      "lex_ti_zrk_tmr"
+    ],
+    "sentenceIds": [
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veranstaltung_zirkus_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_vrn_cncrt",
+      "lex_ti_vrn_tckt2",
+      "lex_ti_vrn_stg",
+      "lex_ti_vrn_aud",
+      "lex_ti_vrn_perf",
+      "lex_ti_zrk_clwn",
+      "lex_ti_zrk_acrb",
+      "lex_ti_zrk_tent2",
+      "lex_ti_zrk_tmr"
+    ],
+    "sentenceIds": [
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veranstaltung_zirkus_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_vrn_cncrt",
+      "lex_ti_vrn_tckt2",
+      "lex_ti_vrn_stg",
+      "lex_ti_vrn_aud",
+      "lex_ti_vrn_perf",
+      "lex_ti_zrk_clwn",
+      "lex_ti_zrk_acrb",
+      "lex_ti_zrk_tent2",
+      "lex_ti_zrk_tmr"
+    ],
+    "sentenceIds": [
+      "sen_ti_veranstaltung_zirkus_1",
+      "sen_gen_vrn_tckt2",
+      "sen_gen_vrn_stg",
+      "sen_gen_vrn_aud",
+      "sen_gen_vrn_perf"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

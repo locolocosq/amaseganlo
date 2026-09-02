@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_pfanne",
+    "am": "ምጥ",
+    "tr": "mit'",
+    "pos": "noun",
+    "topic": "kitchen_tools",
+    "level": "A1.2",
+    "t": {
+      "de": "die Pfanne",
+      "en": "pan",
+      "sv": "stekpanna",
+      "nl": "pan",
+      "it": "la padella",
+      "es": "la sartén"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍳",
+    "verified": false
+  },
+  {
+    "id": "lex_schneidebrett",
+    "am": "የመቁረጫ ሰሌዳ",
+    "tr": "yemek'urecha seleda",
+    "pos": "noun",
+    "topic": "kitchen_tools",
+    "level": "A1.2",
+    "t": {
+      "de": "das Schneidebrett",
+      "en": "cutting board",
+      "sv": "skärbräda",
+      "nl": "snijplank",
+      "it": "il tagliere",
+      "es": "la tabla de cortar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schoepfloeffel",
+    "am": "ማንኪያ ትልቅ",
+    "tr": "mankiya tilik'",
+    "pos": "noun",
+    "topic": "kitchen_tools",
+    "level": "A1.2",
+    "t": {
+      "de": "der Schöpflöffel",
+      "en": "ladle",
+      "sv": "slev",
+      "nl": "soeplepel",
+      "it": "il mestolo",
+      "es": "el cucharón"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_reibe",
+    "am": "መፋቂያ",
+    "tr": "mefak'iya",
+    "pos": "noun",
+    "topic": "kitchen_tools",
+    "level": "A1.2",
+    "t": {
+      "de": "die Reibe",
+      "en": "grater",
+      "sv": "rivjärn",
+      "nl": "rasp",
+      "it": "la grattugia",
+      "es": "el rallador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sieb",
+    "am": "ማጣሪያ",
+    "tr": "mat'ariya",
+    "pos": "noun",
+    "topic": "kitchen_tools",
+    "level": "A1.2",
+    "t": {
+      "de": "das Sieb",
+      "en": "sieve",
+      "sv": "sil",
+      "nl": "zeef",
+      "it": "il colino",
+      "es": "el colador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

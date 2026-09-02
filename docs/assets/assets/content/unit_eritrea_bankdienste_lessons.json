@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_eritrea_bankdienste_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_bnk_atm",
+      "lex_ti_bnk_open",
+      "lex_ti_bnk_trns",
+      "lex_ti_bnk_wthdrw",
+      "lex_ti_bnk_dpst",
+      "lex_ti_bnk_blnc"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_bankdienste_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_bnk_atm",
+      "lex_ti_bnk_open",
+      "lex_ti_bnk_trns",
+      "lex_ti_bnk_wthdrw",
+      "lex_ti_bnk_dpst",
+      "lex_ti_bnk_blnc"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bankdienste_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_bnk_atm",
+      "lex_ti_bnk_open",
+      "lex_ti_bnk_trns",
+      "lex_ti_bnk_wthdrw",
+      "lex_ti_bnk_dpst",
+      "lex_ti_bnk_blnc"
+    ],
+    "sentenceIds": [
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bankdienste_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_bnk_atm",
+      "lex_ti_bnk_open",
+      "lex_ti_bnk_trns",
+      "lex_ti_bnk_wthdrw",
+      "lex_ti_bnk_dpst",
+      "lex_ti_bnk_blnc"
+    ],
+    "sentenceIds": [
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bankdienste_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_bnk_atm",
+      "lex_ti_bnk_open",
+      "lex_ti_bnk_trns",
+      "lex_ti_bnk_wthdrw",
+      "lex_ti_bnk_dpst",
+      "lex_ti_bnk_blnc"
+    ],
+    "sentenceIds": [
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_bankdienste_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_bnk_atm",
+      "lex_ti_bnk_open",
+      "lex_ti_bnk_trns",
+      "lex_ti_bnk_wthdrw",
+      "lex_ti_bnk_dpst",
+      "lex_ti_bnk_blnc"
+    ],
+    "sentenceIds": [
+      "sen_ti_bankdienste_1",
+      "sen_gen_bnk_open",
+      "sen_gen_bnk_trns",
+      "sen_gen_bnk_wthdrw",
+      "sen_gen_bnk_dpst"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_ti_bck_flr",
+    "am": "ሓርጭ",
+    "tr": "harich",
+    "pos": "noun",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "das Mehl",
+      "en": "flour",
+      "sv": "mjöl",
+      "nl": "meel",
+      "it": "la farina",
+      "es": "la harina"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bck_dgh",
+    "am": "ሕምጻ",
+    "tr": "himitsa",
+    "pos": "noun",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "der Teig",
+      "en": "dough",
+      "sv": "deg",
+      "nl": "deeg",
+      "it": "l'impasto",
+      "es": "la masa"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bck_yst",
+    "am": "ማይ ቂጣ",
+    "tr": "mai qicha",
+    "pos": "noun",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "die Hefe",
+      "en": "yeast",
+      "sv": "jäst",
+      "nl": "gist",
+      "it": "il lievito",
+      "es": "la levadura"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bck_mix",
+    "am": "ሓወሰ",
+    "tr": "hawese",
+    "pos": "verb",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "mischen, rühren",
+      "en": "to mix, stir",
+      "sv": "att blanda, röra",
+      "nl": "mengen, roeren",
+      "it": "mescolare",
+      "es": "mezclar, remover"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bck_knd",
+    "am": "ሓምጸ",
+    "tr": "hamitse",
+    "pos": "verb",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "kneten",
+      "en": "to knead",
+      "sv": "att knåda",
+      "nl": "kneden",
+      "it": "impastare",
+      "es": "amasar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bck_bke",
+    "am": "ጠበሰ",
+    "tr": "t'ebese",
+    "pos": "verb",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "backen",
+      "en": "to bake",
+      "sv": "att baka",
+      "nl": "bakken",
+      "it": "cuocere al forno",
+      "es": "hornear"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bck_cake",
+    "am": "ኬክ",
+    "tr": "kek",
+    "pos": "noun",
+    "topic": "baking",
+    "level": "TI",
+    "t": {
+      "de": "der Kuchen",
+      "en": "cake",
+      "sv": "tårta, kaka",
+      "nl": "taart",
+      "it": "la torta",
+      "es": "el pastel"
+    },
+    "emoji": "🎂",
+    "verified": false
+  }
+]

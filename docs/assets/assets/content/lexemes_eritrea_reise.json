@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_viza",
+    "am": "ቪዛ",
+    "tr": "viza",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "TI",
+    "t": {
+      "de": "das Visum",
+      "en": "visa",
+      "sv": "visum",
+      "nl": "visum",
+      "it": "il visto",
+      "es": "el visado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gemgm2",
+    "am": "ደረት",
+    "tr": "deret",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "TI",
+    "t": {
+      "de": "die Grenze (Übergang)",
+      "en": "border crossing",
+      "sv": "gränsövergång",
+      "nl": "grensovergang",
+      "it": "il valico di frontiera",
+      "es": "el cruce fronterizo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kstm",
+    "am": "ጉምሩክ",
+    "tr": "gumiruk",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "TI",
+    "t": {
+      "de": "der Zoll",
+      "en": "customs",
+      "sv": "tull",
+      "nl": "douane",
+      "it": "la dogana",
+      "es": "la aduana"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_twri",
+    "am": "በጻሒ",
+    "tr": "betsahi",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "TI",
+    "t": {
+      "de": "der Tourist, Besucher",
+      "en": "tourist, visitor",
+      "sv": "turist, besökare",
+      "nl": "toerist, bezoeker",
+      "it": "il/la turista, il/la visitatore/trice",
+      "es": "el/la turista, el/la visitante"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mrgudi",
+    "am": "መራሒ ጉዕዞ",
+    "tr": "merahi gu'ezo",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "TI",
+    "t": {
+      "de": "der Reiseführer (Person)",
+      "en": "tour guide",
+      "sv": "reseguide",
+      "nl": "reisgids (persoon)",
+      "it": "la guida turistica",
+      "es": "el/la guía turístico/a"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_khrta",
+    "am": "ካርታ",
+    "tr": "karta",
+    "pos": "noun",
+    "topic": "travel",
+    "level": "TI",
+    "t": {
+      "de": "die Landkarte",
+      "en": "map",
+      "sv": "karta",
+      "nl": "kaart (landkaart)",
+      "it": "la cartina, la mappa",
+      "es": "el mapa"
+    },
+    "emoji": "🗺️",
+    "verified": false
+  }
+]

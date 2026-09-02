@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_seef_sail",
+    "am": "ሽራዕ",
+    "tr": "shira'i",
+    "pos": "noun",
+    "topic": "seafaring",
+    "level": "TI",
+    "t": {
+      "de": "das Segel",
+      "en": "sail",
+      "sv": "segel",
+      "nl": "zeil",
+      "it": "la vela",
+      "es": "la vela"
+    },
+    "emoji": "⛵",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seef_anch",
+    "am": "መልሕቅ",
+    "tr": "melihiq",
+    "pos": "noun",
+    "topic": "seafaring",
+    "level": "TI",
+    "t": {
+      "de": "der Anker",
+      "en": "anchor",
+      "sv": "ankare",
+      "nl": "anker",
+      "it": "l'ancora",
+      "es": "el ancla"
+    },
+    "emoji": "⚓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seef_hrbr",
+    "am": "ወደብ",
+    "tr": "wedeb",
+    "pos": "noun",
+    "topic": "seafaring",
+    "level": "TI",
+    "t": {
+      "de": "der Hafen",
+      "en": "harbor, port",
+      "sv": "hamn",
+      "nl": "haven",
+      "it": "il porto",
+      "es": "el puerto"
+    },
+    "emoji": "⚓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seef_saylr",
+    "am": "መርከበኛ",
+    "tr": "merkebegna",
+    "pos": "noun",
+    "topic": "seafaring",
+    "level": "TI",
+    "t": {
+      "de": "der Seemann",
+      "en": "sailor",
+      "sv": "sjöman",
+      "nl": "zeeman",
+      "it": "il marinaio",
+      "es": "el marinero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_seef_capt",
+    "am": "ካፕቴን",
+    "tr": "kapiten",
+    "pos": "noun",
+    "topic": "seafaring",
+    "level": "TI",
+    "t": {
+      "de": "der Kapitän",
+      "en": "captain (ship)",
+      "sv": "kapten (fartyg)",
+      "nl": "kapitein (schip)",
+      "it": "il capitano (nave)",
+      "es": "el capitán (barco)"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

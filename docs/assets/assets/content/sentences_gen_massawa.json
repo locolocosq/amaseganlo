@@ -1,0 +1,3368 @@
+[
+  {
+    "id": "sen_gen_elk_swtch",
+    "am": "መቀየሪ ብርሃን ኣሎ።",
+    "tr": "meqeyeri birhan alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_elk_swtch"
+    ],
+    "t": {
+      "de": "der Lichtschalter ist vorhanden.",
+      "en": "There is light switch.",
+      "sv": "Det finns strömbrytare.",
+      "nl": "Er is lichtschakelaar.",
+      "it": "C'è l'interruttore della luce.",
+      "es": "Hay un interruptor de luz."
+    },
+    "alt": {},
+    "chunks": [
+      "meqeyeri",
+      "birhan",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_elk_fuse",
+    "am": "ፊውዝ ኣሎኒ።",
+    "tr": "fiyuz alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_elk_fuse"
+    ],
+    "t": {
+      "de": "Ich habe die Sicherung.",
+      "en": "I have fuse.",
+      "sv": "Jag har säkring.",
+      "nl": "Ik heb zekering.",
+      "it": "Ho il fusibile.",
+      "es": "Tengo el fusible."
+    },
+    "alt": {},
+    "chunks": [
+      "fiyuz",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_elk_outg",
+    "am": "ምቁራጽ ኤለትሪክ ኣሎ።",
+    "tr": "miquratsi eletrik alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_elk_outg"
+    ],
+    "t": {
+      "de": "der Stromausfall ist vorhanden.",
+      "en": "There is power outage.",
+      "sv": "Det finns strömavbrott.",
+      "nl": "Er is stroomstoring.",
+      "it": "C'è un blackout.",
+      "es": "Hay un apagón."
+    },
+    "alt": {},
+    "chunks": [
+      "miquratsi",
+      "eletrik",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_elk_gnrtr",
+    "am": "ጀነረተር ኣሎኒ።",
+    "tr": "jenereter alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_elk_gnrtr"
+    ],
+    "t": {
+      "de": "Ich habe den Generator.",
+      "en": "I have generator.",
+      "sv": "Jag har generator.",
+      "nl": "Ik heb generator.",
+      "it": "Ho il generatore.",
+      "es": "Tengo el generador."
+    },
+    "alt": {},
+    "chunks": [
+      "jenereter",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_few_smk",
+    "am": "ትኪ ኣሎ።",
+    "tr": "tiki alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_few_smk"
+    ],
+    "t": {
+      "de": "der Rauch ist vorhanden.",
+      "en": "There is smoke.",
+      "sv": "Det finns rök.",
+      "nl": "Er is rook.",
+      "it": "C'è il fumo.",
+      "es": "Hay humo."
+    },
+    "alt": {},
+    "chunks": [
+      "tiki",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_few_extg",
+    "am": "ኣጥፍአ (ሓዊ)።",
+    "tr": "atifi'e hawi.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_few_extg"
+    ],
+    "t": {
+      "de": "Löschen (Feuer)!",
+      "en": "Extinguish (fire)!",
+      "sv": "Att släcka (eld)!",
+      "nl": "Blussen (vuur)!",
+      "it": "Spegni (il fuoco)!",
+      "es": "¡Apaga (el fuego)!"
+    },
+    "alt": {},
+    "chunks": [
+      "atifi'e",
+      "hawi."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_few_hose",
+    "am": "ናይ ማይ ቱቦ ኣሎኒ።",
+    "tr": "nay mai tubo alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_few_hose"
+    ],
+    "t": {
+      "de": "Ich habe den Feuerwehrschlauch.",
+      "en": "I have fire hose.",
+      "sv": "Jag har brandslang.",
+      "nl": "Ik heb brandslang.",
+      "it": "Ho la manichetta antincendio.",
+      "es": "Tengo la manguera de bomberos."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "mai",
+      "tubo",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_few_alrm2",
+    "am": "ናይ ሓዊ ኣላርም ኣሎ።",
+    "tr": "nay hawi alarm alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_few_alrm2"
+    ],
+    "t": {
+      "de": "der Feueralarm ist vorhanden.",
+      "en": "There is fire alarm.",
+      "sv": "Det finns brandlarm.",
+      "nl": "Er is brandalarm.",
+      "it": "C'è l'allarme antincendio.",
+      "es": "Hay una alarma de incendios."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "hawi",
+      "alarm",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flz_engn",
+    "am": "ሞተር ነፋሪት ኣሎ።",
+    "tr": "moter nefarit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flz_engn"
+    ],
+    "t": {
+      "de": "das Triebwerk ist vorhanden.",
+      "en": "There is engine (airplane).",
+      "sv": "Det finns flygmotor.",
+      "nl": "Er is vliegtuigmotor.",
+      "it": "C'è il motore (aereo).",
+      "es": "Hay un motor (avión)."
+    },
+    "alt": {},
+    "chunks": [
+      "moter",
+      "nefarit",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flz_ckpt",
+    "am": "ክፍሊ ፓይሎት ኣሎኒ።",
+    "tr": "kifli paylot alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flz_ckpt"
+    ],
+    "t": {
+      "de": "Ich habe das Cockpit.",
+      "en": "I have cockpit.",
+      "sv": "Jag har cockpit.",
+      "nl": "Ik heb cockpit.",
+      "it": "Ho la cabina di pilotaggio.",
+      "es": "Tengo la cabina del piloto."
+    },
+    "alt": {},
+    "chunks": [
+      "kifli",
+      "paylot",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flz_seat",
+    "am": "መንበር ነፋሪት ኣሎ።",
+    "tr": "menber nefarit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flz_seat"
+    ],
+    "t": {
+      "de": "der Flugzeugsitz ist vorhanden.",
+      "en": "There is airplane seat.",
+      "sv": "Det finns flygplansstol.",
+      "nl": "Er is vliegtuigstoel.",
+      "it": "C'è il sedile dell'aereo.",
+      "es": "Hay un asiento de avión."
+    },
+    "alt": {},
+    "chunks": [
+      "menber",
+      "nefarit",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flz_crew",
+    "am": "ሰራሕተኛታት ነፋሪት ኣሎኒ።",
+    "tr": "serahtegnatat nefarit alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flz_crew"
+    ],
+    "t": {
+      "de": "Ich habe die Flugzeugbesatzung.",
+      "en": "I have flight crew.",
+      "sv": "Jag har flygbesättning.",
+      "nl": "Ik heb vliegtuigbemanning.",
+      "it": "Ho l'equipaggio di volo.",
+      "es": "Tengo la tripulación de vuelo."
+    },
+    "alt": {},
+    "chunks": [
+      "serahtegnatat",
+      "nefarit",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frs_dryr",
+    "am": "ናይ ጸጕሪ ማድረቒ ኣሎ።",
+    "tr": "nay tsegri madreqi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frs_dryr"
+    ],
+    "t": {
+      "de": "der Föhn ist vorhanden.",
+      "en": "There is hair dryer.",
+      "sv": "Det finns hårtork.",
+      "nl": "Er is föhn.",
+      "it": "C'è il phon.",
+      "es": "Hay un secador de pelo."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "tsegri",
+      "madreqi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frs_cut2",
+    "am": "ቁርጸት ጸጕሪ ኣሎኒ።",
+    "tr": "qurtset tsegri alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frs_cut2"
+    ],
+    "t": {
+      "de": "Ich habe den Haarschnitt.",
+      "en": "I have haircut.",
+      "sv": "Jag har hårklippning.",
+      "nl": "Ik heb kapsel, knipbeurt.",
+      "it": "Ho il taglio di capelli.",
+      "es": "Tengo el corte de pelo."
+    },
+    "alt": {},
+    "chunks": [
+      "qurtset",
+      "tsegri",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frs_braid",
+    "am": "ስንጭሮ ጸጕሪ ኣሎ።",
+    "tr": "sinichiro tsegri alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frs_braid"
+    ],
+    "t": {
+      "de": "der Zopf ist vorhanden.",
+      "en": "There is braid.",
+      "sv": "Det finns fläta.",
+      "nl": "Er is vlecht.",
+      "it": "C'è la treccia.",
+      "es": "Hay una trenza."
+    },
+    "alt": {},
+    "chunks": [
+      "sinichiro",
+      "tsegri",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_frs_beard",
+    "am": "ጭሕሚ ኣሎኒ።",
+    "tr": "chihmi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_frs_beard"
+    ],
+    "t": {
+      "de": "Ich habe den Bart.",
+      "en": "I have beard.",
+      "sv": "Jag har skägg.",
+      "nl": "Ik heb baard.",
+      "it": "Ho la barba.",
+      "es": "Tengo la barba."
+    },
+    "alt": {},
+    "chunks": [
+      "chihmi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grt_hedge",
+    "am": "ዓጹድ ኣሎ።",
+    "tr": "'atsud alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grt_hedge"
+    ],
+    "t": {
+      "de": "die Hecke ist vorhanden.",
+      "en": "There is hedge.",
+      "sv": "Det finns häck.",
+      "nl": "Er is heg.",
+      "it": "C'è la siepe.",
+      "es": "Hay un seto."
+    },
+    "alt": {},
+    "chunks": [
+      "'atsud",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grt_soil",
+    "am": "ሓመድ ኣሎኒ።",
+    "tr": "hamed alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grt_soil"
+    ],
+    "t": {
+      "de": "Ich habe die Erde (Boden).",
+      "en": "I have soil.",
+      "sv": "Jag har jord.",
+      "nl": "Ik heb aarde (grond).",
+      "it": "Ho la terra.",
+      "es": "Tengo la tierra."
+    },
+    "alt": {},
+    "chunks": [
+      "hamed",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grt_water2",
+    "am": "ኣማይ ኣትክልቲ።",
+    "tr": "amai atikilti.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grt_water2"
+    ],
+    "t": {
+      "de": "Gießen (Pflanzen)!",
+      "en": "Water (plants)!",
+      "sv": "Vattna (växter)!",
+      "nl": "Water geven (planten)!",
+      "it": "Annaffia (le piante)!",
+      "es": "¡Riega (las plantas)!"
+    },
+    "alt": {},
+    "chunks": [
+      "amai",
+      "atikilti."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzf_ring",
+    "am": "ቀለቤት ኣሎ።",
+    "tr": "qelebet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzf_ring"
+    ],
+    "t": {
+      "de": "der Ring ist vorhanden.",
+      "en": "There is ring.",
+      "sv": "Det finns ring.",
+      "nl": "Er is ring.",
+      "it": "C'è l'anello.",
+      "es": "Hay un anillo."
+    },
+    "alt": {},
+    "chunks": [
+      "qelebet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzf_grm",
+    "am": "መርዓዊ ኣሎኒ።",
+    "tr": "mer'awi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzf_grm"
+    ],
+    "t": {
+      "de": "Ich habe den Bräutigam.",
+      "en": "I have groom.",
+      "sv": "Jag har brudgum.",
+      "nl": "Ik heb bruidegom.",
+      "it": "Ho lo sposo.",
+      "es": "Tengo el novio."
+    },
+    "alt": {},
+    "chunks": [
+      "mer'awi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzf_brd",
+    "am": "መርዓት ኣሎ።",
+    "tr": "mer'at alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzf_brd"
+    ],
+    "t": {
+      "de": "die Braut ist vorhanden.",
+      "en": "There is bride.",
+      "sv": "Det finns brud.",
+      "nl": "Er is bruid.",
+      "it": "C'è la sposa.",
+      "es": "Hay una novia."
+    },
+    "alt": {},
+    "chunks": [
+      "mer'at",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hzf_wtns",
+    "am": "ምስክር መርዓ ኣሎኒ።",
+    "tr": "misikir mer'a alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hzf_wtns"
+    ],
+    "t": {
+      "de": "Ich habe den Trauzeuge.",
+      "en": "I have witness (wedding).",
+      "sv": "Jag har vittne (bröllop).",
+      "nl": "Ik heb getuige (huwelijk).",
+      "it": "Ho il testimone (matrimonio).",
+      "es": "Tengo al testigo (boda)."
+    },
+    "alt": {},
+    "chunks": [
+      "misikir",
+      "mer'a",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brs_domin",
+    "am": "ዶሚኖ ኣሎ።",
+    "tr": "domino alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brs_domin"
+    ],
+    "t": {
+      "de": "das Domino ist vorhanden.",
+      "en": "There is dominoes.",
+      "sv": "Det finns domino.",
+      "nl": "Er is domino.",
+      "it": "C'è il domino.",
+      "es": "Hay dominó."
+    },
+    "alt": {},
+    "chunks": [
+      "domino",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brs_chkrs",
+    "am": "ዳማ ኣሎኒ።",
+    "tr": "dama alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brs_chkrs"
+    ],
+    "t": {
+      "de": "Ich habe das Damespiel.",
+      "en": "I have checkers.",
+      "sv": "Jag har dam (spel).",
+      "nl": "Ik heb dammen.",
+      "it": "Ho la dama.",
+      "es": "Tengo las damas."
+    },
+    "alt": {},
+    "chunks": [
+      "dama",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brs_turn",
+    "am": "ተራ ኣሎ።",
+    "tr": "tera alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brs_turn"
+    ],
+    "t": {
+      "de": "die Spielrunde, der Zug ist vorhanden.",
+      "en": "There is turn (game).",
+      "sv": "Det finns tur (spel).",
+      "nl": "Er is beurt (spel).",
+      "it": "C'è il turno (gioco).",
+      "es": "Hay un turno (juego)."
+    },
+    "alt": {},
+    "chunks": [
+      "tera",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_seef_anch",
+    "am": "መልሕቅ ኣሎ።",
+    "tr": "melihiq alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_seef_anch"
+    ],
+    "t": {
+      "de": "der Anker ist vorhanden.",
+      "en": "There is anchor.",
+      "sv": "Det finns ankare.",
+      "nl": "Er is anker.",
+      "it": "C'è l'ancora.",
+      "es": "Hay un ancla."
+    },
+    "alt": {},
+    "chunks": [
+      "melihiq",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_seef_hrbr",
+    "am": "ወደብ ኣሎኒ።",
+    "tr": "wedeb alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_seef_hrbr"
+    ],
+    "t": {
+      "de": "Ich habe den Hafen.",
+      "en": "I have harbor, port.",
+      "sv": "Jag har hamn.",
+      "nl": "Ik heb haven.",
+      "it": "Ho il porto.",
+      "es": "Tengo el puerto."
+    },
+    "alt": {},
+    "chunks": [
+      "wedeb",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_seef_saylr",
+    "am": "መርከበኛ ኣሎ።",
+    "tr": "merkebegna alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_seef_saylr"
+    ],
+    "t": {
+      "de": "der Seemann ist vorhanden.",
+      "en": "There is sailor.",
+      "sv": "Det finns sjöman.",
+      "nl": "Er is zeeman.",
+      "it": "C'è il marinaio.",
+      "es": "Hay un marinero."
+    },
+    "alt": {},
+    "chunks": [
+      "merkebegna",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_seef_capt",
+    "am": "ካፕቴን ኣሎኒ።",
+    "tr": "kapiten alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_seef_capt"
+    ],
+    "t": {
+      "de": "Ich habe den Kapitän.",
+      "en": "I have captain (ship).",
+      "sv": "Jag har kapten (fartyg).",
+      "nl": "Ik heb kapitein (schip).",
+      "it": "Ho il capitano.",
+      "es": "Tengo al capitán."
+    },
+    "alt": {},
+    "chunks": [
+      "kapiten",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sch_cam",
+    "am": "ካሜራ ምክትታል ኣሎ።",
+    "tr": "kamera mikitatal alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sch_cam"
+    ],
+    "t": {
+      "de": "die Überwachungskamera ist vorhanden.",
+      "en": "There is security camera.",
+      "sv": "Det finns övervakningskamera.",
+      "nl": "Er is beveiligingscamera.",
+      "it": "C'è la telecamera di sorveglianza.",
+      "es": "Hay una cámara de seguridad."
+    },
+    "alt": {},
+    "chunks": [
+      "kamera",
+      "mikitatal",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sch_lock2",
+    "am": "ምሽጋር ኣሎኒ።",
+    "tr": "mishigar alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sch_lock2"
+    ],
+    "t": {
+      "de": "Ich habe das Schloss (Sicherung).",
+      "en": "I have lock.",
+      "sv": "Jag har lås.",
+      "nl": "Ik heb slot.",
+      "it": "Ho la serratura.",
+      "es": "Tengo el candado."
+    },
+    "alt": {},
+    "chunks": [
+      "mishigar",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sch_grd",
+    "am": "ሓላዊ ድሕነት ኣሎ።",
+    "tr": "halawi dihinet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sch_grd"
+    ],
+    "t": {
+      "de": "der Wachmann ist vorhanden.",
+      "en": "There is security guard.",
+      "sv": "Det finns vakt.",
+      "nl": "Er is beveiliger.",
+      "it": "C'è la guardia di sicurezza.",
+      "es": "Hay un guardia de seguridad."
+    },
+    "alt": {},
+    "chunks": [
+      "halawi",
+      "dihinet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_sch_safe2",
+    "am": "ንሱ ውሑስ እዩ።",
+    "tr": "nisu wihus 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_sch_safe2"
+    ],
+    "t": {
+      "de": "Er ist sicher, geschützt.",
+      "en": "He is safe, secure.",
+      "sv": "Han är säker, trygg.",
+      "nl": "Hij is veilig.",
+      "it": "È sicuro, protetto.",
+      "es": "Está seguro, protegido."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "wihus",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vrn_tckt2",
+    "am": "ትኬት ምእታው ኣሎ።",
+    "tr": "tiket mi'itaw alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrn_tckt2"
+    ],
+    "t": {
+      "de": "die Eintrittskarte ist vorhanden.",
+      "en": "There is entry ticket.",
+      "sv": "Det finns inträdesbiljett.",
+      "nl": "Er is toegangskaartje.",
+      "it": "C'è il biglietto d'ingresso.",
+      "es": "Hay una entrada."
+    },
+    "alt": {},
+    "chunks": [
+      "tiket",
+      "mi'itaw",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vrn_stg",
+    "am": "መድረኽ ኣሎኒ።",
+    "tr": "medrekh alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrn_stg"
+    ],
+    "t": {
+      "de": "Ich habe die Bühne.",
+      "en": "I have stage.",
+      "sv": "Jag har scen.",
+      "nl": "Ik heb podium.",
+      "it": "Ho il palco.",
+      "es": "Tengo el escenario."
+    },
+    "alt": {},
+    "chunks": [
+      "medrekh",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vrn_aud",
+    "am": "ተዓዘብቲ ኣሎ።",
+    "tr": "te'azebti alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrn_aud"
+    ],
+    "t": {
+      "de": "das Publikum ist vorhanden.",
+      "en": "There is audience.",
+      "sv": "Det finns publik.",
+      "nl": "Er is publiek.",
+      "it": "C'è il pubblico.",
+      "es": "Hay público."
+    },
+    "alt": {},
+    "chunks": [
+      "te'azebti",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vrn_perf",
+    "am": "ትርኢት ኣሎኒ።",
+    "tr": "tir'it alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrn_perf"
+    ],
+    "t": {
+      "de": "Ich habe die Aufführung.",
+      "en": "I have performance.",
+      "sv": "Jag har föreställning.",
+      "nl": "Ik heb voorstelling.",
+      "it": "Ho lo spettacolo.",
+      "es": "Tengo la actuación."
+    },
+    "alt": {},
+    "chunks": [
+      "tir'it",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_txt_wool",
+    "am": "ጸምሪ ኣሎ።",
+    "tr": "tsemri alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_txt_wool"
+    ],
+    "t": {
+      "de": "die Wolle ist vorhanden.",
+      "en": "There is wool.",
+      "sv": "Det finns ull.",
+      "nl": "Er is wol.",
+      "it": "C'è la lana.",
+      "es": "Hay lana."
+    },
+    "alt": {},
+    "chunks": [
+      "tsemri",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_txt_silk",
+    "am": "ሓሪር ኣሎኒ።",
+    "tr": "harir alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_txt_silk"
+    ],
+    "t": {
+      "de": "Ich habe die Seide.",
+      "en": "I have silk.",
+      "sv": "Jag har siden.",
+      "nl": "Ik heb zijde.",
+      "it": "Ho la seta.",
+      "es": "Tengo la seda."
+    },
+    "alt": {},
+    "chunks": [
+      "harir",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_txt_lthr",
+    "am": "ቆርበት (ናይ ክዳን) ኣሎ።",
+    "tr": "qorbet nay kidan alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_txt_lthr"
+    ],
+    "t": {
+      "de": "das Leder ist vorhanden.",
+      "en": "There is leather.",
+      "sv": "Det finns läder.",
+      "nl": "Er is leer.",
+      "it": "C'è il cuoio.",
+      "es": "Hay cuero."
+    },
+    "alt": {},
+    "chunks": [
+      "qorbet",
+      "nay",
+      "kidan",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_txt_fbrc",
+    "am": "ጨርቂ ኣሎኒ።",
+    "tr": "cherqi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_txt_fbrc"
+    ],
+    "t": {
+      "de": "Ich habe den Stoff.",
+      "en": "I have fabric.",
+      "sv": "Jag har tyg.",
+      "nl": "Ik heb stof (textiel).",
+      "it": "Ho il tessuto.",
+      "es": "Tengo la tela."
+    },
+    "alt": {},
+    "chunks": [
+      "cherqi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rng_mop",
+    "am": "ናይ ምድሪ መጽረዪ ኣሎ።",
+    "tr": "nay midri metsereyi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rng_mop"
+    ],
+    "t": {
+      "de": "der Wischmopp ist vorhanden.",
+      "en": "There is mop.",
+      "sv": "Det finns mopp.",
+      "nl": "Er is dweil.",
+      "it": "C'è lo straccio per il pavimento.",
+      "es": "Hay una fregona."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "midri",
+      "metsereyi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rng_dtrg",
+    "am": "ሳሙና ምሕጻብ ኣሎኒ።",
+    "tr": "samuna mihitsab alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rng_dtrg"
+    ],
+    "t": {
+      "de": "Ich habe das Reinigungsmittel.",
+      "en": "I have detergent, cleaning agent.",
+      "sv": "Jag har rengöringsmedel.",
+      "nl": "Ik heb schoonmaakmiddel.",
+      "it": "Ho il detersivo.",
+      "es": "Tengo el detergente."
+    },
+    "alt": {},
+    "chunks": [
+      "samuna",
+      "mihitsab",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rng_bin",
+    "am": "ሳንዱቕ ጎሓፍ ኣሎ።",
+    "tr": "sanduq gohaf alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rng_bin"
+    ],
+    "t": {
+      "de": "der Mülleimer ist vorhanden.",
+      "en": "There is trash bin.",
+      "sv": "Det finns soptunna.",
+      "nl": "Er is vuilnisbak.",
+      "it": "C'è il bidone della spazzatura.",
+      "es": "Hay un cubo de basura."
+    },
+    "alt": {},
+    "chunks": [
+      "sanduq",
+      "gohaf",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_rng_dust",
+    "am": "ሓሸሽ ኣሎኒ።",
+    "tr": "hashesh alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_rng_dust"
+    ],
+    "t": {
+      "de": "Ich habe den Staub.",
+      "en": "I have dust.",
+      "sv": "Jag har damm.",
+      "nl": "Ik heb stof (vuil).",
+      "it": "Ho la polvere.",
+      "es": "Tengo el polvo."
+    },
+    "alt": {},
+    "chunks": [
+      "hashesh",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mda_wllt",
+    "am": "ናይ ገንዘብ ቦርሳ ኣሎ።",
+    "tr": "nay genzeb borsa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mda_wllt"
+    ],
+    "t": {
+      "de": "das Portemonnaie ist vorhanden.",
+      "en": "There is wallet.",
+      "sv": "Det finns plånbok.",
+      "nl": "Er is portemonnee.",
+      "it": "C'è il portafoglio.",
+      "es": "Hay una cartera."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "genzeb",
+      "borsa",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mda_umbrl2",
+    "am": "ጽላል ማይ ኣሎኒ።",
+    "tr": "tsilal mai alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mda_umbrl2"
+    ],
+    "t": {
+      "de": "Ich habe den Regenschirm.",
+      "en": "I have umbrella.",
+      "sv": "Jag har paraply.",
+      "nl": "Ik heb paraplu.",
+      "it": "Ho l'ombrello.",
+      "es": "Tengo el paraguas."
+    },
+    "alt": {},
+    "chunks": [
+      "tsilal",
+      "mai",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mda_brclt",
+    "am": "ኣቢሶ ኣሎ።",
+    "tr": "abiso alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mda_brclt"
+    ],
+    "t": {
+      "de": "das Armband ist vorhanden.",
+      "en": "There is bracelet.",
+      "sv": "Det finns armband.",
+      "nl": "Er is armband.",
+      "it": "C'è il braccialetto.",
+      "es": "Hay una pulsera."
+    },
+    "alt": {},
+    "chunks": [
+      "abiso",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mda_erng",
+    "am": "ቀለቤት እዝኒ ኣሎኒ።",
+    "tr": "qelebet ezni alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mda_erng"
+    ],
+    "t": {
+      "de": "Ich habe den Ohrring.",
+      "en": "I have earring.",
+      "sv": "Jag har örhänge.",
+      "nl": "Ik heb oorbel.",
+      "it": "Ho l'orecchino.",
+      "es": "Tengo el pendiente."
+    },
+    "alt": {},
+    "chunks": [
+      "qelebet",
+      "ezni",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_klg_ink",
+    "am": "ቀለም ጽሕፈት ኣሎ።",
+    "tr": "qelem tsihfet alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_klg_ink"
+    ],
+    "t": {
+      "de": "die Tinte ist vorhanden.",
+      "en": "There is ink.",
+      "sv": "Det finns bläck.",
+      "nl": "Er is inkt.",
+      "it": "C'è l'inchiostro.",
+      "es": "Hay tinta."
+    },
+    "alt": {},
+    "chunks": [
+      "qelem",
+      "tsihfet",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_klg_script",
+    "am": "ኣጸሓሕፋ ኣሎኒ።",
+    "tr": "atsehahifa alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_klg_script"
+    ],
+    "t": {
+      "de": "Ich habe die Schrift, Schriftart.",
+      "en": "I have handwriting, script.",
+      "sv": "Jag har handstil, skrift.",
+      "nl": "Ik heb handschrift.",
+      "it": "Ho la calligrafia.",
+      "es": "Tengo la caligrafía."
+    },
+    "alt": {},
+    "chunks": [
+      "atsehahifa",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_klg_letr",
+    "am": "ፊደል ኣሎ።",
+    "tr": "fidel alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_klg_letr"
+    ],
+    "t": {
+      "de": "der Buchstabe ist vorhanden.",
+      "en": "There is letter (alphabet).",
+      "sv": "Det finns bokstav.",
+      "nl": "Er is letter.",
+      "it": "C'è la lettera.",
+      "es": "Hay una letra."
+    },
+    "alt": {},
+    "chunks": [
+      "fidel",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gsn_wtr",
+    "am": "ኣገልጋሊ ኣሎኒ።",
+    "tr": "agelgali alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gsn_wtr"
+    ],
+    "t": {
+      "de": "Ich habe den Kellner.",
+      "en": "I have waiter.",
+      "sv": "Jag har servitör.",
+      "nl": "Ik heb ober.",
+      "it": "Ho il cameriere.",
+      "es": "Tengo al camarero."
+    },
+    "alt": {},
+    "chunks": [
+      "agelgali",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zoo_keepr",
+    "am": "ተኸናኻኒ እንስሳ ኣሎ።",
+    "tr": "tekenakhani inisisa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zoo_keepr"
+    ],
+    "t": {
+      "de": "der Tierpfleger ist vorhanden.",
+      "en": "There is zookeeper.",
+      "sv": "Det finns djurskötare.",
+      "nl": "Er is dierenverzorger.",
+      "it": "C'è il custode dello zoo.",
+      "es": "Hay un cuidador de zoológico."
+    },
+    "alt": {},
+    "chunks": [
+      "tekenakhani",
+      "inisisa",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zoo_visit",
+    "am": "በጻሒ ናይ እንስሳ ግቢ ኣሎኒ።",
+    "tr": "betsahi nay inisisa gibi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zoo_visit"
+    ],
+    "t": {
+      "de": "Ich habe den Zoobesucher.",
+      "en": "I have zoo visitor.",
+      "sv": "Jag har zoobesökare.",
+      "nl": "Ik heb dierentuinbezoeker.",
+      "it": "Ho il visitatore dello zoo.",
+      "es": "Tengo al visitante del zoológico."
+    },
+    "alt": {},
+    "chunks": [
+      "betsahi",
+      "nay",
+      "inisisa",
+      "gibi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zoo_wld2",
+    "am": "ኣራዊት ኣሎ።",
+    "tr": "arawit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zoo_wld2"
+    ],
+    "t": {
+      "de": "das Wildtier ist vorhanden.",
+      "en": "There is wild animal.",
+      "sv": "Det finns vilt djur.",
+      "nl": "Er is wild dier.",
+      "it": "C'è l'animale selvatico.",
+      "es": "Hay un animal salvaje."
+    },
+    "alt": {},
+    "chunks": [
+      "arawit",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tpf_leash",
+    "am": "ገመድ ከልቢ ኣሎኒ።",
+    "tr": "gemed kelbi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tpf_leash"
+    ],
+    "t": {
+      "de": "Ich habe die Hundeleine.",
+      "en": "I have leash.",
+      "sv": "Jag har koppel.",
+      "nl": "Ik heb riem (hond).",
+      "it": "Ho il guinzaglio.",
+      "es": "Tengo la correa."
+    },
+    "alt": {},
+    "chunks": [
+      "gemed",
+      "kelbi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_glt_glcr",
+    "am": "ናይ በረድ ጎቦ ኣሎ።",
+    "tr": "nay bered gobo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glt_glcr"
+    ],
+    "t": {
+      "de": "der Gletscher ist vorhanden.",
+      "en": "There is glacier.",
+      "sv": "Det finns glaciär.",
+      "nl": "Er is gletsjer.",
+      "it": "C'è il ghiacciaio.",
+      "es": "Hay un glaciar."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "bered",
+      "gobo",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_glt_frst",
+    "am": "ውርጪ ኣሎኒ።",
+    "tr": "wirichi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glt_frst"
+    ],
+    "t": {
+      "de": "Ich habe den Frost, Raureif.",
+      "en": "I have frost.",
+      "sv": "Jag har frost.",
+      "nl": "Ik heb vorst (weer).",
+      "it": "Ho il gelo.",
+      "es": "Tengo la escarcha."
+    },
+    "alt": {},
+    "chunks": [
+      "wirichi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_glt_pole",
+    "am": "ጫፍ ምድሪ ኣሎ።",
+    "tr": "chaf midri alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glt_pole"
+    ],
+    "t": {
+      "de": "der Pol (geografisch) ist vorhanden.",
+      "en": "There is pole (geographic).",
+      "sv": "Det finns pol (geografisk).",
+      "nl": "Er is pool (geografisch).",
+      "it": "C'è il polo (geografico).",
+      "es": "Hay un polo (geográfico)."
+    },
+    "alt": {},
+    "chunks": [
+      "chaf",
+      "midri",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_schm_btfl",
+    "am": "ጽንብላሊዕ ኣሎኒ።",
+    "tr": "tsinibilali'i alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_schm_btfl"
+    ],
+    "t": {
+      "de": "Ich habe den Schmetterling.",
+      "en": "I have butterfly.",
+      "sv": "Jag har fjäril.",
+      "nl": "Ik heb vlinder.",
+      "it": "Ho la farfalla.",
+      "es": "Tengo la mariposa."
+    },
+    "alt": {},
+    "chunks": [
+      "tsinibilali'i",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flm_brgn",
+    "am": "ዋጋ ምዝርራብ ኣሎ።",
+    "tr": "waga miziribab alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flm_brgn"
+    ],
+    "t": {
+      "de": "das Feilschen ist vorhanden.",
+      "en": "There is haggling, bargaining.",
+      "sv": "Det finns pruta.",
+      "nl": "Er is afdingen.",
+      "it": "C'è la contrattazione.",
+      "es": "Hay regateo."
+    },
+    "alt": {},
+    "chunks": [
+      "waga",
+      "miziribab",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flm_deal",
+    "am": "ሕሱር ዋጋ ኣሎኒ።",
+    "tr": "hisur waga alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flm_deal"
+    ],
+    "t": {
+      "de": "Ich habe das Schnäppchen.",
+      "en": "I have bargain, good deal.",
+      "sv": "Jag har fynd (bra pris).",
+      "nl": "Ik heb koopje.",
+      "it": "Ho l'affare.",
+      "es": "Tengo la ganga."
+    },
+    "alt": {},
+    "chunks": [
+      "hisur",
+      "waga",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flm_stall",
+    "am": "ንኡስ ድኳን ኣሎ።",
+    "tr": "ni'us dikwan alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flm_stall"
+    ],
+    "t": {
+      "de": "der Marktstand ist vorhanden.",
+      "en": "There is market stall.",
+      "sv": "Det finns marknadsstånd.",
+      "nl": "Er is marktkraam.",
+      "it": "C'è la bancarella.",
+      "es": "Hay un puesto de mercado."
+    },
+    "alt": {},
+    "chunks": [
+      "ni'us",
+      "dikwan",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_opt_lens2",
+    "am": "ናይ ዓይኒ መነጽር ኣሎ።",
+    "tr": "nay 'ayni menetsir alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_opt_lens2"
+    ],
+    "t": {
+      "de": "die Kontaktlinse ist vorhanden.",
+      "en": "There is contact lens.",
+      "sv": "Det finns kontaktlins.",
+      "nl": "Er is contactlens.",
+      "it": "C'è la lente a contatto.",
+      "es": "Hay una lentilla."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "'ayni",
+      "menetsir",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_opt_blur",
+    "am": "ንሱ ደፊኡ ዝርአ እዩ።",
+    "tr": "nisu defi'u ziri'e 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_opt_blur"
+    ],
+    "t": {
+      "de": "Er ist verschwommen (Sicht).",
+      "en": "He is blurry (vision).",
+      "sv": "Han är suddig (syn).",
+      "nl": "Hij is wazig (zicht).",
+      "it": "È sfocato.",
+      "es": "Está borroso."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "defi'u",
+      "ziri'e",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zhn_cvty",
+    "am": "በሰበሰ ስኒ ኣሎኒ።",
+    "tr": "besebese sinni alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zhn_cvty"
+    ],
+    "t": {
+      "de": "Ich habe das Loch (Karies).",
+      "en": "I have cavity.",
+      "sv": "Jag har karies.",
+      "nl": "Ik heb gaatje (tand).",
+      "it": "Ho la carie.",
+      "es": "Tengo una caries."
+    },
+    "alt": {},
+    "chunks": [
+      "besebese",
+      "sinni",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brw_bril",
+    "am": "በርሚል ኣሎ።",
+    "tr": "berimil alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brw_bril"
+    ],
+    "t": {
+      "de": "das Fass ist vorhanden.",
+      "en": "There is barrel.",
+      "sv": "Det finns tunna.",
+      "nl": "Er is vat.",
+      "it": "C'è il barile.",
+      "es": "Hay un barril."
+    },
+    "alt": {},
+    "chunks": [
+      "berimil",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brw_hops",
+    "am": "ሆፕስ ኣሎኒ።",
+    "tr": "hopisi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brw_hops"
+    ],
+    "t": {
+      "de": "Ich habe den Hopfen.",
+      "en": "I have hops.",
+      "sv": "Jag har humle.",
+      "nl": "Ik heb hop (bier).",
+      "it": "Ho il luppolo.",
+      "es": "Tengo el lúpulo."
+    },
+    "alt": {},
+    "chunks": [
+      "hopisi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_kfz_bean",
+    "am": "ፍረ ቡን ኣሎ።",
+    "tr": "fire bun alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_kfz_bean"
+    ],
+    "t": {
+      "de": "die Kaffeebohne ist vorhanden.",
+      "en": "There is coffee bean.",
+      "sv": "Det finns kaffeböna.",
+      "nl": "Er is koffieboon.",
+      "it": "C'è il chicco di caffè.",
+      "es": "Hay un grano de café."
+    },
+    "alt": {},
+    "chunks": [
+      "fire",
+      "bun",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_erh_kit",
+    "am": "ናይ ህጹጽ ረድኤት ሳንዱቕ ኣሎ።",
+    "tr": "nay hitsuts red'et sanduq alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_erh_kit"
+    ],
+    "t": {
+      "de": "das Erste-Hilfe-Set ist vorhanden.",
+      "en": "There is first aid kit.",
+      "sv": "Det finns första hjälpen-låda.",
+      "nl": "Er is EHBO-kit.",
+      "it": "C'è il kit di pronto soccorso.",
+      "es": "Hay un botiquín de primeros auxilios."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "hitsuts",
+      "red'et",
+      "sanduq",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_erh_wound",
+    "am": "ቁስሊ ኣሎኒ።",
+    "tr": "qusli alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_erh_wound"
+    ],
+    "t": {
+      "de": "Ich habe die Wunde.",
+      "en": "I have wound.",
+      "sv": "Jag har sår.",
+      "nl": "Ik heb wond.",
+      "it": "Ho la ferita.",
+      "es": "Tengo la herida."
+    },
+    "alt": {},
+    "chunks": [
+      "qusli",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_erh_burn",
+    "am": "ቃጸሎ ኣሎ።",
+    "tr": "qatselo alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_erh_burn"
+    ],
+    "t": {
+      "de": "die Verbrennung ist vorhanden.",
+      "en": "There is burn (injury).",
+      "sv": "Det finns brännskada.",
+      "nl": "Er is brandwond.",
+      "it": "C'è l'ustione.",
+      "es": "Hay una quemadura."
+    },
+    "alt": {},
+    "chunks": [
+      "qatselo",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mbf_sgnl",
+    "am": "ምልክት ተለፎን ኣሎ።",
+    "tr": "milikit telefon alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mbf_sgnl"
+    ],
+    "t": {
+      "de": "das Signal (Handy) ist vorhanden.",
+      "en": "There is signal (phone).",
+      "sv": "Det finns signal (telefon).",
+      "nl": "Er is signaal (telefoon).",
+      "it": "C'è il segnale (cellulare).",
+      "es": "Hay señal (móvil)."
+    },
+    "alt": {},
+    "chunks": [
+      "milikit",
+      "telefon",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mbf_txt",
+    "am": "ጽሓፈ መልእኽቲ።",
+    "tr": "tsihafe mel'ikiti.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mbf_txt"
+    ],
+    "t": {
+      "de": "Eine SMS schreiben!",
+      "en": "Text!",
+      "sv": "Att sms:a!",
+      "nl": "Sms'en!",
+      "it": "Scrivi un SMS!",
+      "es": "¡Escribe un mensaje!"
+    },
+    "alt": {},
+    "chunks": [
+      "tsihafe",
+      "mel'ikiti."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mbf_ntwk",
+    "am": "መርበብ ተለፎን ኣሎኒ።",
+    "tr": "meribeb telefon alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mbf_ntwk"
+    ],
+    "t": {
+      "de": "Ich habe das Mobilfunknetz.",
+      "en": "I have mobile network.",
+      "sv": "Jag har mobilnät.",
+      "nl": "Ik heb mobiel netwerk.",
+      "it": "Ho la rete mobile.",
+      "es": "Tengo la red móvil."
+    },
+    "alt": {},
+    "chunks": [
+      "meribeb",
+      "telefon",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stx_vat",
+    "am": "ግብሪ ሽያጥ ኣሎ።",
+    "tr": "gibri shiyat alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_stx_vat"
+    ],
+    "t": {
+      "de": "die Mehrwertsteuer ist vorhanden.",
+      "en": "There is value-added tax.",
+      "sv": "Det finns moms.",
+      "nl": "Er is btw.",
+      "it": "C'è l'IVA.",
+      "es": "Hay IVA."
+    },
+    "alt": {},
+    "chunks": [
+      "gibri",
+      "shiyat",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stx_offc",
+    "am": "ቤት ጽሕፈት ግብሪ ኣሎኒ።",
+    "tr": "bet tsihfet gibri alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_stx_offc"
+    ],
+    "t": {
+      "de": "Ich habe das Finanzamt.",
+      "en": "I have tax office.",
+      "sv": "Jag har skattekontor.",
+      "nl": "Ik heb belastingdienst.",
+      "it": "Ho l'agenzia delle entrate.",
+      "es": "Tengo la oficina de impuestos."
+    },
+    "alt": {},
+    "chunks": [
+      "bet",
+      "tsihfet",
+      "gibri",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_stx_decl",
+    "am": "ኣፍለጠ ግብሪ።",
+    "tr": "afilete gibri.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_stx_decl"
+    ],
+    "t": {
+      "de": "Steuern erklären!",
+      "en": "Declare taxes!",
+      "sv": "Deklarera skatt!",
+      "nl": "Belasting aangeven!",
+      "it": "Dichiara le tasse!",
+      "es": "¡Declara los impuestos!"
+    },
+    "alt": {},
+    "chunks": [
+      "afilete",
+      "gibri."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_imb_prop",
+    "am": "ንብረት ኣሎ።",
+    "tr": "nibiret alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_imb_prop"
+    ],
+    "t": {
+      "de": "das Eigentum, Grundstück ist vorhanden.",
+      "en": "There is property.",
+      "sv": "Det finns egendom.",
+      "nl": "Er is eigendom.",
+      "it": "C'è la proprietà.",
+      "es": "Hay una propiedad."
+    },
+    "alt": {},
+    "chunks": [
+      "nibiret",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_akt_plan2",
+    "am": "ውጥን ህንጻ ኣሎ።",
+    "tr": "wit'in hinitsa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_akt_plan2"
+    ],
+    "t": {
+      "de": "der Grundriss ist vorhanden.",
+      "en": "There is floor plan.",
+      "sv": "Det finns planritning.",
+      "nl": "Er is plattegrond.",
+      "it": "C'è la piantina.",
+      "es": "Hay un plano."
+    },
+    "alt": {},
+    "chunks": [
+      "wit'in",
+      "hinitsa",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_akt_style2",
+    "am": "ስነ ህንጻ ኣገባብ ኣሎኒ።",
+    "tr": "sine hinitsa agebab alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_akt_style2"
+    ],
+    "t": {
+      "de": "Ich habe den Baustil.",
+      "en": "I have architectural style.",
+      "sv": "Jag har byggnadsstil.",
+      "nl": "Ik heb bouwstijl.",
+      "it": "Ho lo stile architettonico.",
+      "es": "Tengo el estilo arquitectónico."
+    },
+    "alt": {},
+    "chunks": [
+      "sine",
+      "hinitsa",
+      "agebab",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_akt_pillr",
+    "am": "ዓንዲ ኣሎ።",
+    "tr": "'andi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_akt_pillr"
+    ],
+    "t": {
+      "de": "die Säule ist vorhanden.",
+      "en": "There is pillar, column.",
+      "sv": "Det finns pelare.",
+      "nl": "Er is pilaar, zuil.",
+      "it": "C'è la colonna.",
+      "es": "Hay una columna."
+    },
+    "alt": {},
+    "chunks": [
+      "'andi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_dkm_stat",
+    "am": "ምስሊ ሓወልቲ ኣሎኒ።",
+    "tr": "misili hawelti alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_dkm_stat"
+    ],
+    "t": {
+      "de": "Ich habe die Statue.",
+      "en": "I have statue.",
+      "sv": "Jag har staty.",
+      "nl": "Ik heb standbeeld.",
+      "it": "Ho la statua.",
+      "es": "Tengo la estatua."
+    },
+    "alt": {},
+    "chunks": [
+      "misili",
+      "hawelti",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_snp_care",
+    "am": "ክንክን ኣሎ።",
+    "tr": "kinikin alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_snp_care"
+    ],
+    "t": {
+      "de": "die Pflege ist vorhanden.",
+      "en": "There is care.",
+      "sv": "Det finns vård, omsorg.",
+      "nl": "Er is zorg.",
+      "it": "C'è l'assistenza.",
+      "es": "Hay cuidado."
+    },
+    "alt": {},
+    "chunks": [
+      "kinikin",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_snp_cane",
+    "am": "በትሪ ኣሎኒ።",
+    "tr": "betri alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_snp_cane"
+    ],
+    "t": {
+      "de": "Ich habe den Gehstock.",
+      "en": "I have walking cane.",
+      "sv": "Jag har käpp.",
+      "nl": "Ik heb wandelstok.",
+      "it": "Ho il bastone da passeggio.",
+      "es": "Tengo el bastón."
+    },
+    "alt": {},
+    "chunks": [
+      "betri",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_en2_hydro",
+    "am": "ሓይሊ ማይ ኣሎ።",
+    "tr": "hayili mai alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_en2_hydro"
+    ],
+    "t": {
+      "de": "die Wasserkraft ist vorhanden.",
+      "en": "There is hydropower.",
+      "sv": "Det finns vattenkraft.",
+      "nl": "Er is waterkracht.",
+      "it": "C'è l'energia idroelettrica.",
+      "es": "Hay energía hidroeléctrica."
+    },
+    "alt": {},
+    "chunks": [
+      "hayili",
+      "mai",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_en2_panel",
+    "am": "ናይ ጸሓይ ሰሌዳ ኣሎኒ።",
+    "tr": "nay tsehay seleda alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_en2_panel"
+    ],
+    "t": {
+      "de": "Ich habe das Solarpanel.",
+      "en": "I have solar panel.",
+      "sv": "Jag har solpanel.",
+      "nl": "Ik heb zonnepaneel.",
+      "it": "Ho il pannello solare.",
+      "es": "Tengo el panel solar."
+    },
+    "alt": {},
+    "chunks": [
+      "nay",
+      "tsehay",
+      "seleda",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_en2_sstn",
+    "am": "ንሱ ዘላቕነት ዘለዎ እዩ።",
+    "tr": "nisu zelaqinet zelewo 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_en2_sstn"
+    ],
+    "t": {
+      "de": "Er ist nachhaltig.",
+      "en": "He is sustainable.",
+      "sv": "Han är hållbar.",
+      "nl": "Hij is duurzaam.",
+      "it": "È sostenibile.",
+      "es": "Es sostenible."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "zelaqinet",
+      "zelewo",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_lw2_irrgt",
+    "am": "ምስትምቓር ማይ ኣሎ።",
+    "tr": "misitimiqar mai alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_lw2_irrgt"
+    ],
+    "t": {
+      "de": "die Bewässerung ist vorhanden.",
+      "en": "There is irrigation.",
+      "sv": "Det finns bevattning.",
+      "nl": "Er is irrigatie.",
+      "it": "C'è l'irrigazione.",
+      "es": "Hay riego."
+    },
+    "alt": {},
+    "chunks": [
+      "misitimiqar",
+      "mai",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_flx_ssge",
+    "am": "ስጋ ጥቅልል ኣሎ።",
+    "tr": "siga tiqilil alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flx_ssge"
+    ],
+    "t": {
+      "de": "die Wurst ist vorhanden.",
+      "en": "There is sausage.",
+      "sv": "Det finns korv.",
+      "nl": "Er is worst.",
+      "it": "C'è la salsiccia.",
+      "es": "Hay salchicha."
+    },
+    "alt": {},
+    "chunks": [
+      "siga",
+      "tiqilil",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bkr_bkr2",
+    "am": "ባኒ ሰራሒ ኣሎኒ።",
+    "tr": "bani serahi alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bkr_bkr2"
+    ],
+    "t": {
+      "de": "Ich habe den Bäcker.",
+      "en": "I have baker.",
+      "sv": "Jag har bagare.",
+      "nl": "Ik heb bakker.",
+      "it": "Ho il fornaio.",
+      "es": "Tengo al panadero."
+    },
+    "alt": {},
+    "chunks": [
+      "bani",
+      "serahi",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bkr_roll",
+    "am": "ንኡስ ባኒ ኣሎ።",
+    "tr": "ni'us bani alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bkr_roll"
+    ],
+    "t": {
+      "de": "das Brötchen ist vorhanden.",
+      "en": "There is bread roll.",
+      "sv": "Det finns fralla.",
+      "nl": "Er is broodje.",
+      "it": "C'è il panino.",
+      "es": "Hay un panecillo."
+    },
+    "alt": {},
+    "chunks": [
+      "ni'us",
+      "bani",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tst_fill",
+    "am": "መልአ ነዳዲ።",
+    "tr": "mel'e nedadi.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tst_fill"
+    ],
+    "t": {
+      "de": "Tanken!",
+      "en": "Refuel!",
+      "sv": "Att tanka!",
+      "nl": "Tanken!",
+      "it": "Fai il pieno!",
+      "es": "¡Reposta!"
+    },
+    "alt": {},
+    "chunks": [
+      "mel'e",
+      "nedadi."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tst_pump",
+    "am": "መስፈሪ ነዳዲ ኣሎ።",
+    "tr": "mesiferi nedadi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tst_pump"
+    ],
+    "t": {
+      "de": "die Zapfsäule ist vorhanden.",
+      "en": "There is fuel pump.",
+      "sv": "Det finns bensinpump.",
+      "nl": "Er is benzinepomp.",
+      "it": "C'è la colonnina del carburante.",
+      "es": "Hay un surtidor de gasolina."
+    },
+    "alt": {},
+    "chunks": [
+      "mesiferi",
+      "nedadi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tst_diesl",
+    "am": "ናፍጣ ኣሎኒ።",
+    "tr": "nafit'a alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tst_diesl"
+    ],
+    "t": {
+      "de": "Ich habe den Diesel.",
+      "en": "I have diesel.",
+      "sv": "Jag har diesel.",
+      "nl": "Ik heb diesel.",
+      "it": "Ho il diesel.",
+      "es": "Tengo el diésel."
+    },
+    "alt": {},
+    "chunks": [
+      "nafit'a",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_bib_brrw",
+    "am": "ተለቓሒ መጽሓፍ።",
+    "tr": "teleqahi metsihaf.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bib_brrw"
+    ],
+    "t": {
+      "de": "Ausleihen (Buch)!",
+      "en": "Borrow (book)!",
+      "sv": "Låna (bok)!",
+      "nl": "Lenen (boek)!",
+      "it": "Prendi in prestito (un libro)!",
+      "es": "¡Toma prestado (un libro)!"
+    },
+    "alt": {},
+    "chunks": [
+      "teleqahi",
+      "metsihaf."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gst2_nod",
+    "am": "ርእሱ ነቕነቐ።",
+    "tr": "ri'isu neqineqe.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gst2_nod"
+    ],
+    "t": {
+      "de": "Nicken!",
+      "en": "Nod!",
+      "sv": "Att nicka!",
+      "nl": "Knikken!",
+      "it": "Annuisci!",
+      "es": "¡Asiente!"
+    },
+    "alt": {},
+    "chunks": [
+      "ri'isu",
+      "neqineqe."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gst2_shake",
+    "am": "ኢድ ተጣበቐ።",
+    "tr": "'idi tet'abeqe.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gst2_shake"
+    ],
+    "t": {
+      "de": "Die Hand schütteln!",
+      "en": "Shake hands!",
+      "sv": "Att skaka hand!",
+      "nl": "Handen schudden!",
+      "it": "Stringi la mano!",
+      "es": "¡Estrecha la mano!"
+    },
+    "alt": {},
+    "chunks": [
+      "'idi",
+      "tet'abeqe."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gst2_pnt",
+    "am": "ኣመልከተ (ብኢድ)።",
+    "tr": "amelkete bi'idi.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gst2_pnt"
+    ],
+    "t": {
+      "de": "Zeigen (mit dem Finger)!",
+      "en": "Point!",
+      "sv": "Att peka!",
+      "nl": "Wijzen!",
+      "it": "Indica (con il dito)!",
+      "es": "¡Señala (con el dedo)!"
+    },
+    "alt": {},
+    "chunks": [
+      "amelkete",
+      "bi'idi."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brm_coin2",
+    "am": "ኣከቓቓቢ ሳንቲም ኣሎ።",
+    "tr": "akeqaqabi santim alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brm_coin2"
+    ],
+    "t": {
+      "de": "der Münzsammler ist vorhanden.",
+      "en": "There is coin collector.",
+      "sv": "Det finns myntsamlare.",
+      "nl": "Er is muntenverzamelaar.",
+      "it": "C'è il collezionista di monete.",
+      "es": "Hay un coleccionista de monedas."
+    },
+    "alt": {},
+    "chunks": [
+      "akeqaqabi",
+      "santim",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_brm_rare",
+    "am": "ንሱ ብዙሕ ዘይርከብ እዩ።",
+    "tr": "nisu bizuh zeyirikeb 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brm_rare"
+    ],
+    "t": {
+      "de": "Er ist selten, rar.",
+      "en": "He is rare.",
+      "sv": "Han är sällsynt.",
+      "nl": "Hij is zeldzaam.",
+      "it": "È raro.",
+      "es": "Es raro."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "bizuh",
+      "zeyirikeb",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gwh_rtn",
+    "am": "ልማድ ናብራ ኣሎ።",
+    "tr": "limad nabra alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwh_rtn"
+    ],
+    "t": {
+      "de": "die Routine ist vorhanden.",
+      "en": "There is routine.",
+      "sv": "Det finns rutin.",
+      "nl": "Er is routine.",
+      "it": "C'è la routine.",
+      "es": "Hay una rutina."
+    },
+    "alt": {},
+    "chunks": [
+      "limad",
+      "nabra",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gwh_always2",
+    "am": "ወትሩ ይገብር።",
+    "tr": "wetru yigebir.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwh_always2"
+    ],
+    "t": {
+      "de": "macht immer.",
+      "en": "always does.",
+      "sv": "gör alltid.",
+      "nl": "doet altijd.",
+      "it": "fa sempre.",
+      "es": "siempre hace."
+    },
+    "alt": {},
+    "chunks": [
+      "wetru",
+      "yigebir."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gwh_habit",
+    "am": "ልማድ ኣሎኒ።",
+    "tr": "limad alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwh_habit"
+    ],
+    "t": {
+      "de": "Ich habe die Gewohnheit.",
+      "en": "I have habit.",
+      "sv": "Jag har vana.",
+      "nl": "Ik heb gewoonte.",
+      "it": "Ho l'abitudine.",
+      "es": "Tengo el hábito."
+    },
+    "alt": {},
+    "chunks": [
+      "limad",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_knf_fght",
+    "am": "ባእሲ ኣሎ።",
+    "tr": "ba'isi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_knf_fght"
+    ],
+    "t": {
+      "de": "der Streit ist vorhanden.",
+      "en": "There is fight, quarrel.",
+      "sv": "Det finns gräl.",
+      "nl": "Er is ruzie.",
+      "it": "C'è il litigio.",
+      "es": "Hay una pelea."
+    },
+    "alt": {},
+    "chunks": [
+      "ba'isi",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_knf_sorry2",
+    "am": "ይቕረ በለ።",
+    "tr": "yiqire bele.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_knf_sorry2"
+    ],
+    "t": {
+      "de": "Sich entschuldigen!",
+      "en": "Apologize!",
+      "sv": "Att be om ursäkt!",
+      "nl": "Verontschuldigen!",
+      "it": "Scusati!",
+      "es": "¡Discúlpate!"
+    },
+    "alt": {},
+    "chunks": [
+      "yiqire",
+      "bele."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_knf_frgv",
+    "am": "ይቕረ ኢሉ ሓደገ።",
+    "tr": "yiqire 'ilu hadege.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_knf_frgv"
+    ],
+    "t": {
+      "de": "Vergeben, verzeihen!",
+      "en": "Forgive!",
+      "sv": "Att förlåta!",
+      "nl": "Vergeven!",
+      "it": "Perdona!",
+      "es": "¡Perdona!"
+    },
+    "alt": {},
+    "chunks": [
+      "yiqire",
+      "'ilu",
+      "hadege."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ern_mem2",
+    "am": "ዝኽሪ ኣሎ።",
+    "tr": "zikhri alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ern_mem2"
+    ],
+    "t": {
+      "de": "die Erinnerung ist vorhanden.",
+      "en": "There is memory (recollection).",
+      "sv": "Det finns minne.",
+      "nl": "Er is herinnering.",
+      "it": "C'è il ricordo.",
+      "es": "Hay un recuerdo."
+    },
+    "alt": {},
+    "chunks": [
+      "zikhri",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ern_nostal",
+    "am": "ናፍቖት ኣሎኒ።",
+    "tr": "nafiqot alini.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ern_nostal"
+    ],
+    "t": {
+      "de": "Ich habe die Sehnsucht, Nostalgie.",
+      "en": "I have nostalgia, longing.",
+      "sv": "Jag har längtan, nostalgi.",
+      "nl": "Ik heb heimwee, nostalgie.",
+      "it": "Ho la nostalgia.",
+      "es": "Tengo nostalgia."
+    },
+    "alt": {},
+    "chunks": [
+      "nafiqot",
+      "alini."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zkp_plan3",
+    "am": "ውጥን ኣሎ።",
+    "tr": "wit'in alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zkp_plan3"
+    ],
+    "t": {
+      "de": "der Plan ist vorhanden.",
+      "en": "There is plan.",
+      "sv": "Det finns plan.",
+      "nl": "Er is plan.",
+      "it": "C'è il piano.",
+      "es": "Hay un plan."
+    },
+    "alt": {},
+    "chunks": [
+      "wit'in",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hfl_resp",
+    "am": "ኣኽብሮት ኣሎ።",
+    "tr": "akibirot alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hfl_resp"
+    ],
+    "t": {
+      "de": "der Respekt ist vorhanden.",
+      "en": "There is respect.",
+      "sv": "Det finns respekt.",
+      "nl": "Er is respect.",
+      "it": "C'è il rispetto.",
+      "es": "Hay respeto."
+    },
+    "alt": {},
+    "chunks": [
+      "akibirot",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_hfl_rude",
+    "am": "ንሱ ግሉል እዩ።",
+    "tr": "nisu gilul 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hfl_rude"
+    ],
+    "t": {
+      "de": "Er ist unhöflich, unverschämt.",
+      "en": "He is rude.",
+      "sv": "Han är oartig.",
+      "nl": "Hij is onbeleefd.",
+      "it": "È maleducato.",
+      "es": "Es maleducado."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "gilul",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_zst2_busy2",
+    "am": "ንሳ ስራሕ ዝበዝሖ እያ።",
+    "tr": "nisa sirah zibezho 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zst2_busy2"
+    ],
+    "t": {
+      "de": "Sie ist beschäftigt.",
+      "en": "She is busy.",
+      "sv": "Hon är upptagen.",
+      "nl": "Zij is druk (bezig).",
+      "it": "È occupata.",
+      "es": "Está ocupada."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "sirah",
+      "zibezho",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grs_quiet2",
+    "am": "ንሱ ህዱእ ድምጺ እዩ።",
+    "tr": "nisu hidu'i dimitsi 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grs_quiet2"
+    ],
+    "t": {
+      "de": "Er ist leise.",
+      "en": "He is quiet, soft (sound).",
+      "sv": "Han är tyst, lågljudd.",
+      "nl": "Hij is zacht (geluid).",
+      "it": "È silenzioso.",
+      "es": "Es silencioso."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "hidu'i",
+      "dimitsi",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grs_noise",
+    "am": "ዓውታ ኣሎ።",
+    "tr": "'awita alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grs_noise"
+    ],
+    "t": {
+      "de": "der Lärm ist vorhanden.",
+      "en": "There is noise.",
+      "sv": "Det finns buller.",
+      "nl": "Er is lawaai.",
+      "it": "C'è il rumore.",
+      "es": "Hay ruido."
+    },
+    "alt": {},
+    "chunks": [
+      "'awita",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_grs_whspr",
+    "am": "ሕሽኽ በለ።",
+    "tr": "hishik bele.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grs_whspr"
+    ],
+    "t": {
+      "de": "Flüstern!",
+      "en": "Whisper!",
+      "sv": "Att viska!",
+      "nl": "Fluisteren!",
+      "it": "Sussurra!",
+      "es": "¡Susurra!"
+    },
+    "alt": {},
+    "chunks": [
+      "hishik",
+      "bele."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_tmp_cool2",
+    "am": "ንሱ ዝሑል ንፋስ እዩ።",
+    "tr": "nisu zihul nifas 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tmp_cool2"
+    ],
+    "t": {
+      "de": "Er ist kühl.",
+      "en": "He is cool.",
+      "sv": "Han är sval.",
+      "nl": "Hij is koel.",
+      "it": "È fresco.",
+      "es": "Es fresco."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "zihul",
+      "nifas",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_fmt_smooth",
+    "am": "ንሳ ልሱን እያ።",
+    "tr": "nisa lisun 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_fmt_smooth"
+    ],
+    "t": {
+      "de": "Sie ist glatt.",
+      "en": "She is smooth.",
+      "sv": "Hon är slät, len.",
+      "nl": "Zij is glad (textuur).",
+      "it": "È liscia.",
+      "es": "Es lisa."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "lisun",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_mng2_enough",
+    "am": "ንሳ እኹል እያ።",
+    "tr": "nisa 'ikhul 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mng2_enough"
+    ],
+    "t": {
+      "de": "Sie ist genug.",
+      "en": "She is enough.",
+      "sv": "Hon är tillräckligt.",
+      "nl": "Zij is genoeg.",
+      "it": "È sufficiente.",
+      "es": "Es suficiente."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "'ikhul",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vrd_stop2",
+    "am": "ደው ኣበለ።",
+    "tr": "dewi abele.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrd_stop2"
+    ],
+    "t": {
+      "de": "Anhalten, stoppen!",
+      "en": "Stop!",
+      "sv": "Att stanna, stoppa!",
+      "nl": "Stoppen!",
+      "it": "Fermati!",
+      "es": "¡Para!"
+    },
+    "alt": {},
+    "chunks": [
+      "dewi",
+      "abele."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vg2_worst2",
+    "am": "ንሱ ዝኸፍአ እዩ።",
+    "tr": "nisu zikhefi'e 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vg2_worst2"
+    ],
+    "t": {
+      "de": "Er ist das Schlechteste.",
+      "en": "He is worst.",
+      "sv": "Han är sämst.",
+      "nl": "Hij is slechtste.",
+      "it": "È il peggiore.",
+      "es": "Es el peor."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "zikhefi'e",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vg2_best2",
+    "am": "ንሳ ዝበለጸ እያ።",
+    "tr": "nisa ziboletse 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vg2_best2"
+    ],
+    "t": {
+      "de": "Sie ist das Beste.",
+      "en": "She is best.",
+      "sv": "Hon är bäst.",
+      "nl": "Zij is beste.",
+      "it": "È la migliore.",
+      "es": "Es la mejor."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "ziboletse",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vg2_diff2",
+    "am": "ንሱ ፍልይ ዝበለ እዩ።",
+    "tr": "nisu filiyi zibele 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vg2_diff2"
+    ],
+    "t": {
+      "de": "Er ist unterschiedlich, verschieden.",
+      "en": "He is different.",
+      "sv": "Han är olika.",
+      "nl": "Hij is verschillend.",
+      "it": "È diverso.",
+      "es": "Es diferente."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "filiyi",
+      "zibele",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vg2_same2",
+    "am": "ንሳ ማዕረ ማዕረ እያ።",
+    "tr": "nisa ma'ere ma'ere 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vg2_same2"
+    ],
+    "t": {
+      "de": "Sie ist gleich, identisch.",
+      "en": "She is same, identical.",
+      "sv": "Hon är samma, identisk.",
+      "nl": "Zij is hetzelfde, identiek.",
+      "it": "È uguale, identica.",
+      "es": "Es igual, idéntica."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "ma'ere",
+      "ma'ere",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gld_broke",
+    "am": "ገንዘብ የብሉን።",
+    "tr": "genzeb yebilun.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gld_broke"
+    ],
+    "t": {
+      "de": "pleite sein.",
+      "en": "to be broke.",
+      "sv": "vara pank.",
+      "nl": "blut zijn.",
+      "it": "essere al verde.",
+      "es": "estar sin blanca."
+    },
+    "alt": {},
+    "chunks": [
+      "genzeb",
+      "yebilun."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gld_rich2",
+    "am": "ንሱ ሃብታም እዩ።",
+    "tr": "nisu habitam 'iyu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gld_rich2"
+    ],
+    "t": {
+      "de": "Er ist reich.",
+      "en": "He is rich.",
+      "sv": "Han är rik.",
+      "nl": "Hij is rijk.",
+      "it": "È ricco.",
+      "es": "Es rico."
+    },
+    "alt": {},
+    "chunks": [
+      "nisu",
+      "habitam",
+      "'iyu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gld_poor2",
+    "am": "ንሳ ድኻ እያ።",
+    "tr": "nisa dikha 'iya.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gld_poor2"
+    ],
+    "t": {
+      "de": "Sie ist arm.",
+      "en": "She is poor.",
+      "sv": "Hon är fattig.",
+      "nl": "Zij is arm.",
+      "it": "È povera.",
+      "es": "Es pobre."
+    },
+    "alt": {},
+    "chunks": [
+      "nisa",
+      "dikha",
+      "'iya."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_gld_afford",
+    "am": "ክኸፍል ይኽእል።",
+    "tr": "kikhefil yikhi'ili.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gld_afford"
+    ],
+    "t": {
+      "de": "sich leisten können.",
+      "en": "to afford.",
+      "sv": "att ha råd med.",
+      "nl": "zich kunnen veroorloven.",
+      "it": "potersi permettere.",
+      "es": "poder permitirse."
+    },
+    "alt": {},
+    "chunks": [
+      "kikhefil",
+      "yikhi'ili."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wta_badday",
+    "am": "ሕማቕ ኩነታት ኣየር።",
+    "tr": "himaq kunetat ayer.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wta_badday"
+    ],
+    "t": {
+      "de": "schlechtes Wetter.",
+      "en": "bad weather.",
+      "sv": "dåligt väder.",
+      "nl": "slecht weer.",
+      "it": "brutto tempo.",
+      "es": "mal tiempo."
+    },
+    "alt": {},
+    "chunks": [
+      "himaq",
+      "kunetat",
+      "ayer."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wta_hmdty",
+    "am": "ርሱን ኩነታት ኣየር።",
+    "tr": "risun kunetat ayer.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wta_hmdty"
+    ],
+    "t": {
+      "de": "schwüles Wetter.",
+      "en": "humid weather.",
+      "sv": "fuktigt väder.",
+      "nl": "drukkend weer.",
+      "it": "tempo afoso.",
+      "es": "tiempo húmedo."
+    },
+    "alt": {},
+    "chunks": [
+      "risun",
+      "kunetat",
+      "ayer."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wta_forecast",
+    "am": "ትንበያ ኩነታት ኣየር ኣሎ።",
+    "tr": "tinibeya kunetat ayer alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wta_forecast"
+    ],
+    "t": {
+      "de": "die Wettervorhersage ist vorhanden.",
+      "en": "There is weather forecast.",
+      "sv": "Det finns väderprognos.",
+      "nl": "Er is weerbericht.",
+      "it": "C'è la previsione del tempo.",
+      "es": "Hay un pronóstico del tiempo."
+    },
+    "alt": {},
+    "chunks": [
+      "tinibeya",
+      "kunetat",
+      "ayer",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_vrb_seeya",
+    "am": "ክሳብ ንርኣኣይ።",
+    "tr": "kisab niri'a'ay.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrb_seeya"
+    ],
+    "t": {
+      "de": "bis bald, wir sehen uns.",
+      "en": "see you soon.",
+      "sv": "vi ses.",
+      "nl": "tot ziens.",
+      "it": "a presto, ci vediamo.",
+      "es": "hasta pronto, nos vemos."
+    },
+    "alt": {},
+    "chunks": [
+      "kisab",
+      "niri'a'ay."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_smt_nice2",
+    "am": "ደስ ኢሉኒ ርኢኻ።",
+    "tr": "desi 'iluni ri'ikha.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_smt_nice2"
+    ],
+    "t": {
+      "de": "schön dich zu sehen.",
+      "en": "nice to see you.",
+      "sv": "kul att se dig.",
+      "nl": "leuk je te zien.",
+      "it": "che bello vederti.",
+      "es": "qué bueno verte."
+    },
+    "alt": {},
+    "chunks": [
+      "desi",
+      "'iluni",
+      "ri'ikha."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_smt_lngtim",
+    "am": "ነዊሕ ግዜ ኮይኑ።",
+    "tr": "newih gizie koynu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_smt_lngtim"
+    ],
+    "t": {
+      "de": "lange nicht gesehen.",
+      "en": "long time no see.",
+      "sv": "länge sedan sist.",
+      "nl": "lang niet gezien.",
+      "it": "quanto tempo!",
+      "es": "cuánto tiempo sin verte."
+    },
+    "alt": {},
+    "chunks": [
+      "newih",
+      "gizie",
+      "koynu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_smt_whtsnw",
+    "am": "እንታይ ሓድሽ ነገር ኣሎ።",
+    "tr": "initay hadish neger alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_smt_whtsnw"
+    ],
+    "t": {
+      "de": "was gibt's Neues.",
+      "en": "what's new.",
+      "sv": "vad är nytt.",
+      "nl": "wat is er nieuw.",
+      "it": "cosa c'è di nuovo.",
+      "es": "qué hay de nuevo."
+    },
+    "alt": {},
+    "chunks": [
+      "initay",
+      "hadish",
+      "neger",
+      "alo."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_ntp_callplc",
+    "am": "ንፖሊስ ደውሉ።",
+    "tr": "nipolis dewilu.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ntp_callplc"
+    ],
+    "t": {
+      "de": "rufen Sie die Polizei.",
+      "en": "call the police.",
+      "sv": "ring polisen.",
+      "nl": "bel de politie.",
+      "it": "chiama la polizia.",
+      "es": "llama a la policía."
+    },
+    "alt": {},
+    "chunks": [
+      "nipolis",
+      "dewilu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_glp_hbday",
+    "am": "እንቋዕ ንልደትካ ኣብጽሓካ።",
+    "tr": "iniqua'i nilidetka abitsihaka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glp_hbday"
+    ],
+    "t": {
+      "de": "alles Gute zum Geburtstag.",
+      "en": "happy birthday.",
+      "sv": "grattis på födelsedagen.",
+      "nl": "gelukkige verjaardag.",
+      "it": "buon compleanno.",
+      "es": "feliz cumpleaños."
+    },
+    "alt": {},
+    "chunks": [
+      "iniqua'i",
+      "nilidetka",
+      "abitsihaka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_glp_gdluck",
+    "am": "ዕድል የሓግዘካ።",
+    "tr": "'idil yehagizeka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glp_gdluck"
+    ],
+    "t": {
+      "de": "viel Glück.",
+      "en": "good luck.",
+      "sv": "lycka till.",
+      "nl": "veel geluk.",
+      "it": "buona fortuna.",
+      "es": "buena suerte."
+    },
+    "alt": {},
+    "chunks": [
+      "'idil",
+      "yehagizeka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_glp_wellsdo",
+    "am": "ጽቡቕ ገይርካ።",
+    "tr": "tsibuq geyirka.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glp_wellsdo"
+    ],
+    "t": {
+      "de": "gut gemacht.",
+      "en": "well done.",
+      "sv": "bra gjort.",
+      "nl": "goed gedaan.",
+      "it": "ben fatto.",
+      "es": "bien hecho."
+    },
+    "alt": {},
+    "chunks": [
+      "tsibuq",
+      "geyirka."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_gen_wns_wish2",
+    "am": "ትምኒት ኣሎ።",
+    "tr": "timinit alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wns_wish2"
+    ],
+    "t": {
+      "de": "der Wunsch ist vorhanden.",
+      "en": "There is wish.",
+      "sv": "Det finns önskan.",
+      "nl": "Er is wens.",
+      "it": "C'è il desiderio.",
+      "es": "Hay un deseo."
+    },
+    "alt": {},
+    "chunks": [
+      "timinit",
+      "alo."
+    ],
+    "verified": false
+  }
+]

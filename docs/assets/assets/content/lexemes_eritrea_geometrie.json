@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_hmsi",
+    "am": "ሓሙሽተ ኩርናዕ",
+    "tr": "hamushte kurna'e",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "TI",
+    "t": {
+      "de": "das Fünfeck",
+      "en": "pentagon",
+      "sv": "femhörning",
+      "nl": "vijfhoek",
+      "it": "il pentagono",
+      "es": "el pentágono"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sdsi",
+    "am": "ገጽ ሽድሽተ",
+    "tr": "gets shidishte",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "TI",
+    "t": {
+      "de": "der Würfel",
+      "en": "cube",
+      "sv": "kub",
+      "nl": "kubus",
+      "it": "il cubo",
+      "es": "el cubo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kzln",
+    "am": "ፐርሰንት",
+    "tr": "persent",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "TI",
+    "t": {
+      "de": "das Prozent",
+      "en": "percent",
+      "sv": "procent",
+      "nl": "procent",
+      "it": "il percento",
+      "es": "el porcentaje"
+    },
+    "emoji": "%",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kzr2",
+    "am": "ቅርጺ",
+    "tr": "qirtsi",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "TI",
+    "t": {
+      "de": "die Form",
+      "en": "shape, form",
+      "sv": "form",
+      "nl": "vorm",
+      "it": "la forma",
+      "es": "la forma"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hntu",
+    "am": "ስፍሓት ገጽ",
+    "tr": "sifhat gets",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "TI",
+    "t": {
+      "de": "die Fläche",
+      "en": "area, surface",
+      "sv": "yta",
+      "nl": "oppervlakte",
+      "it": "l'area, la superficie",
+      "es": "el área, la superficie"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hjmi",
+    "am": "ዓቐን",
+    "tr": "'aqen",
+    "pos": "noun",
+    "topic": "geometry",
+    "level": "TI",
+    "t": {
+      "de": "das Volumen",
+      "en": "volume",
+      "sv": "volym",
+      "nl": "volume",
+      "it": "il volume",
+      "es": "el volumen"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

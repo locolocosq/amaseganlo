@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_mng_agree",
+    "am": "ተሰማምዐ",
+    "tr": "tesemam'e",
+    "pos": "verb",
+    "topic": "opinions",
+    "level": "TI",
+    "t": {
+      "de": "zustimmen",
+      "en": "to agree",
+      "sv": "att hålla med",
+      "nl": "instemmen",
+      "it": "essere d'accordo",
+      "es": "estar de acuerdo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mng_disagr",
+    "am": "ኣይተሰማምዐን",
+    "tr": "ayitesemam'en",
+    "pos": "verb",
+    "topic": "opinions",
+    "level": "TI",
+    "t": {
+      "de": "nicht zustimmen",
+      "en": "to disagree",
+      "sv": "att inte hålla med",
+      "nl": "het oneens zijn",
+      "it": "non essere d'accordo",
+      "es": "no estar de acuerdo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mng_think2",
+    "am": "ሓሰበ",
+    "tr": "hasebe",
+    "pos": "verb",
+    "topic": "opinions",
+    "level": "TI",
+    "t": {
+      "de": "denken, meinen",
+      "en": "to think",
+      "sv": "att tänka",
+      "nl": "denken",
+      "it": "pensare, credere",
+      "es": "pensar, creer"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mng_opnn",
+    "am": "ርእይቶ",
+    "tr": "ri'iyto",
+    "pos": "noun",
+    "topic": "opinions",
+    "level": "TI",
+    "t": {
+      "de": "die Meinung",
+      "en": "opinion",
+      "sv": "åsikt",
+      "nl": "mening",
+      "it": "l'opinione",
+      "es": "la opinión"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_mng_maybe2",
+    "am": "ምናልባት",
+    "tr": "minalibat",
+    "pos": "adverb",
+    "topic": "opinions",
+    "level": "TI",
+    "t": {
+      "de": "vielleicht",
+      "en": "maybe, perhaps",
+      "sv": "kanske",
+      "nl": "misschien",
+      "it": "forse",
+      "es": "quizás"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

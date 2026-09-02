@@ -1,0 +1,206 @@
+[
+  {
+    "id": "unit_eritrea_laender_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_germaniya",
+      "lex_ti_swden",
+      "lex_ti_hollandi",
+      "lex_ti_ingliz",
+      "lex_ti_faransa",
+      "lex_ti_italya",
+      "lex_ti_amerika",
+      "lex_ti_china",
+      "lex_ti_india",
+      "lex_ti_saudi",
+      "lex_ti_kenya",
+      "lex_ti_afrika",
+      "lex_ti_europa",
+      "lex_ti_asia",
+      "lex_ti_wgnst",
+      "lex_ti_hzabi",
+      "lex_ti_ngliz2",
+      "lex_ti_tigrn",
+      "lex_ti_amrgn"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_laender_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_germaniya",
+      "lex_ti_swden",
+      "lex_ti_hollandi",
+      "lex_ti_ingliz",
+      "lex_ti_faransa",
+      "lex_ti_italya",
+      "lex_ti_amerika",
+      "lex_ti_china",
+      "lex_ti_india",
+      "lex_ti_saudi",
+      "lex_ti_kenya",
+      "lex_ti_afrika",
+      "lex_ti_europa",
+      "lex_ti_asia",
+      "lex_ti_wgnst",
+      "lex_ti_hzabi",
+      "lex_ti_ngliz2",
+      "lex_ti_tigrn",
+      "lex_ti_amrgn"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_germaniya",
+      "lex_ti_swden",
+      "lex_ti_hollandi",
+      "lex_ti_ingliz",
+      "lex_ti_faransa",
+      "lex_ti_italya",
+      "lex_ti_amerika",
+      "lex_ti_china",
+      "lex_ti_india",
+      "lex_ti_saudi",
+      "lex_ti_kenya",
+      "lex_ti_afrika",
+      "lex_ti_europa",
+      "lex_ti_asia",
+      "lex_ti_wgnst",
+      "lex_ti_hzabi",
+      "lex_ti_ngliz2",
+      "lex_ti_tigrn",
+      "lex_ti_amrgn"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_germaniya",
+      "lex_ti_swden",
+      "lex_ti_hollandi",
+      "lex_ti_ingliz",
+      "lex_ti_faransa",
+      "lex_ti_italya",
+      "lex_ti_amerika",
+      "lex_ti_china",
+      "lex_ti_india",
+      "lex_ti_saudi",
+      "lex_ti_kenya",
+      "lex_ti_afrika",
+      "lex_ti_europa",
+      "lex_ti_asia",
+      "lex_ti_wgnst",
+      "lex_ti_hzabi",
+      "lex_ti_ngliz2",
+      "lex_ti_tigrn",
+      "lex_ti_amrgn"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_germaniya",
+      "lex_ti_swden",
+      "lex_ti_hollandi",
+      "lex_ti_ingliz",
+      "lex_ti_faransa",
+      "lex_ti_italya",
+      "lex_ti_amerika",
+      "lex_ti_china",
+      "lex_ti_india",
+      "lex_ti_saudi",
+      "lex_ti_kenya",
+      "lex_ti_afrika",
+      "lex_ti_europa",
+      "lex_ti_asia",
+      "lex_ti_wgnst",
+      "lex_ti_hzabi",
+      "lex_ti_ngliz2",
+      "lex_ti_tigrn",
+      "lex_ti_amrgn"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_laender_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_germaniya",
+      "lex_ti_swden",
+      "lex_ti_hollandi",
+      "lex_ti_ingliz",
+      "lex_ti_faransa",
+      "lex_ti_italya",
+      "lex_ti_amerika",
+      "lex_ti_china",
+      "lex_ti_india",
+      "lex_ti_saudi",
+      "lex_ti_kenya",
+      "lex_ti_afrika",
+      "lex_ti_europa",
+      "lex_ti_asia",
+      "lex_ti_wgnst",
+      "lex_ti_hzabi",
+      "lex_ti_ngliz2",
+      "lex_ti_tigrn",
+      "lex_ti_amrgn"
+    ],
+    "sentenceIds": [
+      "sen_ti_laender_1",
+      "sen_gen_swden",
+      "sen_gen_hollandi",
+      "sen_gen_ingliz",
+      "sen_gen_faransa"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

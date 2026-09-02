@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_zahlen_teile_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zahlen_teile_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zahlen_teile_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_viertel",
+      "lex_drittel",
+      "lex_prozent",
+      "lex_doppelt",
+      "lex_dutzend"
+    ],
+    "sentenceIds": [
+      "sen_gen_viertel",
+      "sen_gen_drittel",
+      "sen_gen_prozent",
+      "sen_gen_doppelt",
+      "sen_gen_dutzend"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

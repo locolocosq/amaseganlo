@@ -1,0 +1,278 @@
+[
+  {
+    "id": "lex_ti_selam",
+    "am": "ሰላም",
+    "tr": "selam",
+    "pos": "interjection",
+    "topic": "greetings",
+    "level": "TI",
+    "t": {
+      "de": "Hallo",
+      "en": "Hello",
+      "sv": "Hej",
+      "nl": "Hallo",
+      "it": "Ciao",
+      "es": "Hola"
+    },
+    "hint": {
+      "de": "Tigrinya und Amharisch teilen sich dieses Wort für Hallo/Frieden.",
+      "en": "Tigrinya and Amharic share this word for hello/peace.",
+      "sv": "Tigrinja och amhariska delar det här ordet för hej/fred.",
+      "nl": "Tigrinya en Amhaars delen dit woord voor hallo/vrede.",
+      "it": "Tigrino e amarico condividono questa parola per ciao/pace.",
+      "es": "El tigriña y el amárico comparten esta palabra para hola/paz."
+    },
+    "emoji": "👋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dehan",
+    "am": "ደሓን",
+    "tr": "dehan",
+    "pos": "adjective",
+    "topic": "greetings",
+    "level": "TI",
+    "t": {
+      "de": "gut / wohl",
+      "en": "fine / well",
+      "sv": "bra / väl",
+      "nl": "goed / wel",
+      "it": "bene",
+      "es": "bien"
+    },
+    "emoji": "🙂",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_yiqeneyeley",
+    "am": "የቐንየለይ",
+    "tr": "yiqeneyeley",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "TI",
+    "t": {
+      "de": "Danke",
+      "en": "Thank you",
+      "sv": "Tack",
+      "nl": "Dank je",
+      "it": "Grazie",
+      "es": "Gracias"
+    },
+    "emoji": "🙏",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_awo",
+    "am": "እወ",
+    "tr": "awo",
+    "pos": "particle",
+    "topic": "greetings",
+    "level": "TI",
+    "t": {
+      "de": "Ja",
+      "en": "Yes",
+      "sv": "Ja",
+      "nl": "Ja",
+      "it": "Sì",
+      "es": "Sí"
+    },
+    "emoji": "✅",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bejaka",
+    "am": "በጃኻ",
+    "tr": "bejaka",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "TI",
+    "t": {
+      "de": "Bitte",
+      "en": "Please",
+      "sv": "Snälla",
+      "nl": "Alsjeblieft",
+      "it": "Per favore",
+      "es": "Por favor"
+    },
+    "hint": {
+      "de": "Diese Form wird zu einem Mann gesagt.",
+      "en": "This form is used speaking to a man.",
+      "sv": "Den här formen används till en man.",
+      "nl": "Deze vorm wordt gebruikt tegen een man.",
+      "it": "Questa forma si usa parlando con un uomo.",
+      "es": "Esta forma se usa al hablar con un hombre."
+    },
+    "emoji": "🙏",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_yikreta",
+    "am": "ይቕሬታ",
+    "tr": "yikreta",
+    "pos": "phrase",
+    "topic": "greetings",
+    "level": "TI",
+    "t": {
+      "de": "Entschuldigung",
+      "en": "Sorry / excuse me",
+      "sv": "Ursäkta",
+      "nl": "Sorry / pardon",
+      "it": "Scusa",
+      "es": "Perdón, disculpa"
+    },
+    "emoji": "😔",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ane",
+    "am": "ኣነ",
+    "tr": "ane",
+    "pos": "pronoun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "ich",
+      "en": "I",
+      "sv": "jag",
+      "nl": "ik",
+      "it": "io",
+      "es": "yo"
+    },
+    "emoji": "🙋",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nsika",
+    "am": "ንስኻ",
+    "tr": "nsika",
+    "pos": "pronoun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "du (zu einem Mann)",
+      "en": "you (to a man)",
+      "sv": "du (till en man)",
+      "nl": "jij (tegen een man)",
+      "it": "tu (a un uomo)",
+      "es": "tú (a un hombre)"
+    },
+    "hint": {
+      "de": "Tigrinya unterscheidet die Anrede nach Geschlecht - siehe „nsiki“.",
+      "en": "Tigrinya distinguishes \"you\" by gender - see \"nsiki\".",
+      "sv": "Tigrinja skiljer på tilltal efter kön - se \"nsiki\".",
+      "nl": "Tigrinya maakt onderscheid in aanspreekvorm naar geslacht - zie \"nsiki\".",
+      "it": "Il tigrino distingue il \"tu\" in base al genere - vedi \"nsiki\".",
+      "es": "El tigriña distingue el \"tú\" según el género - ver \"nsiki\"."
+    },
+    "emoji": "👤",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nsiki",
+    "am": "ንስኺ",
+    "tr": "nsiki",
+    "pos": "pronoun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "du (zu einer Frau)",
+      "en": "you (to a woman)",
+      "sv": "du (till en kvinna)",
+      "nl": "jij (tegen een vrouw)",
+      "it": "tu (a una donna)",
+      "es": "tú (a una mujer)"
+    },
+    "emoji": "👤",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nsu",
+    "am": "ንሱ",
+    "tr": "nsu",
+    "pos": "pronoun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "er",
+      "en": "he",
+      "sv": "han",
+      "nl": "hij",
+      "it": "lui",
+      "es": "él"
+    },
+    "emoji": "👨",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nsa",
+    "am": "ንሳ",
+    "tr": "nsa",
+    "pos": "pronoun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "sie",
+      "en": "she",
+      "sv": "hon",
+      "nl": "zij",
+      "it": "lei",
+      "es": "ella"
+    },
+    "emoji": "👩",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_nihna",
+    "am": "ንሕና",
+    "tr": "nihna",
+    "pos": "pronoun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "wir",
+      "en": "we",
+      "sv": "vi",
+      "nl": "wij",
+      "it": "noi",
+      "es": "nosotros"
+    },
+    "emoji": "👥",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sim",
+    "am": "ስም",
+    "tr": "sim",
+    "pos": "noun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "der Name",
+      "en": "name",
+      "sv": "namnet",
+      "nl": "de naam",
+      "it": "il nome",
+      "es": "el nombre"
+    },
+    "emoji": "📛",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_eritriya",
+    "am": "ኤርትራ",
+    "tr": "eritriya",
+    "pos": "noun",
+    "topic": "pronouns",
+    "level": "TI",
+    "t": {
+      "de": "Eritrea",
+      "en": "Eritrea",
+      "sv": "Eritrea",
+      "nl": "Eritrea",
+      "it": "Eritrea",
+      "es": "Eritrea"
+    },
+    "emoji": "🇪🇷",
+    "verified": false
+  }
+]

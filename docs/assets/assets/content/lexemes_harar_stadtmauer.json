@@ -1,0 +1,522 @@
+[
+  {
+    "id": "lex_hs_kitir_kacha",
+    "am": "ጅግራ",
+    "tr": "jigira",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Stadtmauer",
+      "en": "city wall",
+      "sv": "stadsmur",
+      "nl": "stadsmuur",
+      "it": "le mura della città",
+      "es": "la muralla de la ciudad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_ken",
+    "am": "በር",
+    "tr": "ber",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "das Tor",
+      "en": "gate",
+      "sv": "port",
+      "nl": "poort",
+      "it": "la porta (cittadina)",
+      "es": "la puerta (de la ciudad)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_amist_ber",
+    "am": "አምስት በሮች",
+    "tr": "amist beroch",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die fünf Tore",
+      "en": "the five gates",
+      "sv": "de fem portarna",
+      "nl": "de vijf poorten",
+      "it": "le cinque porte",
+      "es": "las cinco puertas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_akababi_keteta",
+    "am": "የከተማ ግንብ",
+    "tr": "yeketema ginib",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Stadtbefestigung",
+      "en": "city fortification",
+      "sv": "stadsfästning",
+      "nl": "stadsvesting",
+      "it": "le fortificazioni della città",
+      "es": "las fortificaciones de la ciudad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_bete_menber",
+    "am": "ቤተ መንግስት",
+    "tr": "bete mengist",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Palast",
+      "en": "palace",
+      "sv": "palats",
+      "nl": "paleis",
+      "it": "il palazzo",
+      "es": "el palacio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_akababi_beten",
+    "am": "አሮጌ ከተማ",
+    "tr": "aroge ketema",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Altstadt",
+      "en": "old town",
+      "sv": "gamla stan",
+      "nl": "oude stad",
+      "it": "il centro storico",
+      "es": "el casco antiguo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_menged_tikur",
+    "am": "ጠባብ መንገድ",
+    "tr": "t'ebab menged",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die enge Gasse",
+      "en": "narrow alley",
+      "sv": "trång gränd",
+      "nl": "nauw steegje",
+      "it": "il vicolo stretto",
+      "es": "el callejón estrecho"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_adj_teqadami",
+    "am": "ጥንታዊ",
+    "tr": "t'initawi",
+    "pos": "adjective",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "antik, uralt",
+      "en": "ancient",
+      "sv": "antik, uråldrig",
+      "nl": "antiek, oeroud",
+      "it": "antico, antichissimo",
+      "es": "antiguo, antiquísimo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_v_metekakel",
+    "am": "መተከል",
+    "tr": "metekel",
+    "pos": "verb",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "errichten, gründen",
+      "en": "to establish, to found",
+      "sv": "grunda, etablera",
+      "nl": "stichten, vestigen",
+      "it": "costruire, fondare",
+      "es": "erigir, fundar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_menor",
+    "am": "ግንብ",
+    "tr": "ginib",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Festungsmauer",
+      "en": "fortress wall",
+      "sv": "fästningsmur",
+      "nl": "vestingmuur",
+      "it": "il muro della fortezza",
+      "es": "el muro de la fortaleza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_gojo_bet",
+    "am": "ጎጆ ቤት",
+    "tr": "gojo bet",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "das traditionelle Rundhaus (Harar)",
+      "en": "traditional round house (Harar)",
+      "sv": "traditionellt runt hus (Harar)",
+      "nl": "traditioneel rond huis (Harar)",
+      "it": "la tradizionale casa rotonda (Harar)",
+      "es": "la casa redonda tradicional (Harar)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_gebeya_akababi",
+    "am": "ጎራ",
+    "tr": "gora",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "das Stadtviertel",
+      "en": "neighborhood, quarter",
+      "sv": "stadsdel",
+      "nl": "buurt, wijk",
+      "it": "il quartiere",
+      "es": "el barrio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_v_metekakel2",
+    "am": "መጠበቅ",
+    "tr": "met'ebek'",
+    "pos": "verb",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "schützen, bewachen",
+      "en": "to guard, to protect",
+      "sv": "vakta, skydda",
+      "nl": "bewaken, beschermen",
+      "it": "proteggere, sorvegliare",
+      "es": "proteger, vigilar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_zebegna",
+    "am": "ዘበኛ",
+    "tr": "zebegna",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Wächter",
+      "en": "guard, watchman",
+      "sv": "vaktare",
+      "nl": "bewaker",
+      "it": "la guardia",
+      "es": "el guardia"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_metekakel3",
+    "am": "የቅርስ ስፍራ",
+    "tr": "yekirs sifira",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Kulturerbestätte",
+      "en": "heritage site",
+      "sv": "kulturarvsplats",
+      "nl": "erfgoedlocatie",
+      "it": "il sito del patrimonio culturale",
+      "es": "el sitio del patrimonio cultural"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_unesco",
+    "am": "የዓለም ቅርስ",
+    "tr": "yealem kirs",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "das Weltkulturerbe",
+      "en": "world heritage",
+      "sv": "världsarv",
+      "nl": "wereldergoed",
+      "it": "il patrimonio mondiale",
+      "es": "el patrimonio mundial"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_v_measaeb",
+    "am": "መጎብኘት",
+    "tr": "megobinet",
+    "pos": "verb",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "besuchen, besichtigen",
+      "en": "to visit",
+      "sv": "besöka",
+      "nl": "bezoeken",
+      "it": "visitare",
+      "es": "visitar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_gobenyi",
+    "am": "ጎብኚ",
+    "tr": "gobinyi",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Besucher, Tourist",
+      "en": "visitor, tourist",
+      "sv": "besökare, turist",
+      "nl": "bezoeker, toerist",
+      "it": "il visitatore, turista",
+      "es": "el visitante, turista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_kitatoch",
+    "am": "ቤቶች",
+    "tr": "betoch",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Häuser",
+      "en": "houses",
+      "sv": "hus",
+      "nl": "huizen",
+      "it": "le case",
+      "es": "las casas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_menber_aser",
+    "am": "የቀድሞ ገዥ",
+    "tr": "yek'edimo gezhi",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der frühere Herrscher",
+      "en": "the former ruler",
+      "sv": "den forna härskaren",
+      "nl": "de vroegere heerser",
+      "it": "l'ex sovrano",
+      "es": "el antiguo gobernante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_sultan",
+    "am": "ሱልጣን",
+    "tr": "sultan",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Sultan",
+      "en": "sultan",
+      "sv": "sultan",
+      "nl": "sultan",
+      "it": "il sultano",
+      "es": "el sultán"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_amir",
+    "am": "አሚር",
+    "tr": "amir",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Emir",
+      "en": "emir",
+      "sv": "emir",
+      "nl": "emir",
+      "it": "l'emiro",
+      "es": "el emir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_zemen_sultan",
+    "am": "የሱልጣኖች ዘመን",
+    "tr": "yesultanoch zemen",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "die Ära der Sultane",
+      "en": "the era of the sultans",
+      "sv": "sultanernas era",
+      "nl": "het tijdperk van de sultans",
+      "it": "l'era dei sultani",
+      "es": "la era de los sultanes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hs_v_measazegn",
+    "am": "ማስፋፋት",
+    "tr": "masifafat",
+    "pos": "verb",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "erweitern, ausbreiten",
+      "en": "to expand",
+      "sv": "utvidga",
+      "nl": "uitbreiden",
+      "it": "espandere, ampliare",
+      "es": "expandir, ampliar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_semay_tor",
+    "am": "ማማ",
+    "tr": "mama",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Turm",
+      "en": "tower",
+      "sv": "torn",
+      "nl": "toren",
+      "it": "la torre",
+      "es": "la torre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hs_kir",
+    "am": "ግንብ ቅጥር",
+    "tr": "ginib kit'ir",
+    "pos": "noun",
+    "topic": "old_town",
+    "level": "B2",
+    "t": {
+      "de": "der Zaun, die Umfriedung",
+      "en": "fence, enclosure",
+      "sv": "staket, inhägnad",
+      "nl": "omheining",
+      "it": "il recinto, la cinta muraria",
+      "es": "la cerca, el cercado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_vsc_pols",
+    "am": "ውሕስነት",
+    "tr": "wihisinet",
+    "pos": "noun",
+    "topic": "insurance",
+    "level": "TI",
+    "t": {
+      "de": "die Versicherung",
+      "en": "insurance",
+      "sv": "försäkring",
+      "nl": "verzekering",
+      "it": "l'assicurazione",
+      "es": "el seguro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vsc_prem",
+    "am": "ወርሓዊ ክፍሊት ውሕስነት",
+    "tr": "werhawi kifilit wihisinet",
+    "pos": "noun",
+    "topic": "insurance",
+    "level": "TI",
+    "t": {
+      "de": "die Versicherungsprämie",
+      "en": "insurance premium",
+      "sv": "försäkringspremie",
+      "nl": "verzekeringspremie",
+      "it": "il premio assicurativo",
+      "es": "la prima del seguro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vsc_clm",
+    "am": "ጠለብ ካሕሳ",
+    "tr": "t'elebi kahisa",
+    "pos": "noun",
+    "topic": "insurance",
+    "level": "TI",
+    "t": {
+      "de": "der Versicherungsanspruch",
+      "en": "insurance claim",
+      "sv": "försäkringsanspråk",
+      "nl": "verzekeringsclaim",
+      "it": "la richiesta di risarcimento",
+      "es": "la reclamación al seguro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vsc_kahisa",
+    "am": "ካሕሳ",
+    "tr": "kahisa",
+    "pos": "noun",
+    "topic": "insurance",
+    "level": "TI",
+    "t": {
+      "de": "die Entschädigung",
+      "en": "compensation",
+      "sv": "ersättning",
+      "nl": "vergoeding",
+      "it": "il risarcimento",
+      "es": "la indemnización"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vsc_rsk",
+    "am": "ሓደጋ (ተኽእሎ)",
+    "tr": "hadega tekhi'ilo",
+    "pos": "noun",
+    "topic": "insurance",
+    "level": "TI",
+    "t": {
+      "de": "das Risiko",
+      "en": "risk",
+      "sv": "risk",
+      "nl": "risico",
+      "it": "il rischio",
+      "es": "el riesgo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_vsc_hlthi",
+    "am": "ውሕስነት ጥዕና",
+    "tr": "wihisinet t'i'ina",
+    "pos": "noun",
+    "topic": "insurance",
+    "level": "TI",
+    "t": {
+      "de": "die Krankenversicherung",
+      "en": "health insurance",
+      "sv": "sjukförsäkring",
+      "nl": "ziektekostenverzekering",
+      "it": "l'assicurazione sanitaria",
+      "es": "el seguro médico"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

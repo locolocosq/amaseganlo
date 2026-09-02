@@ -1,0 +1,669 @@
+[
+  {
+    "id": "sen_ti_zoo_wildpflege_1",
+    "am": "ግቢ እንስሳ ኣሎ።",
+    "tr": "gibi inisisa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_zoo_encl"
+    ],
+    "t": {
+      "de": "Es gibt das Gehege.",
+      "en": "There is enclosure.",
+      "sv": "Det finns inhägnad.",
+      "nl": "Er is dierenverblijf.",
+      "it": "C'è il recinto.",
+      "es": "Hay un recinto."
+    },
+    "alt": {},
+    "chunks": [
+      "gibi inisisa",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gletscher_schmetterlinge_1",
+    "am": "በረድ (ኣካል) ኣሎ።",
+    "tr": "bered akal alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glt_ice"
+    ],
+    "t": {
+      "de": "Es gibt das Eis.",
+      "en": "There is ice.",
+      "sv": "Det finns is.",
+      "nl": "Er is ijs.",
+      "it": "C'è il ghiaccio.",
+      "es": "Hay hielo."
+    },
+    "alt": {},
+    "chunks": [
+      "bered akal",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_flohmarkt_supermarkt_1",
+    "am": "ዝተጠቕመሉ ኣሎ።",
+    "tr": "zitet'eqimelu alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flm_used"
+    ],
+    "t": {
+      "de": "Es gibt gebraucht.",
+      "en": "There is used, second-hand.",
+      "sv": "Det finns begagnad.",
+      "nl": "Er is tweedehands.",
+      "it": "C'è usato.",
+      "es": "Hay usado, de segunda mano."
+    },
+    "alt": {},
+    "chunks": [
+      "zitet'eqimelu",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_optik_zahnarzt_1",
+    "am": "ምርመራ ዓይኒ ኣሎ።",
+    "tr": "mirmera 'ayni alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_opt_test"
+    ],
+    "t": {
+      "de": "Es gibt der Sehtest.",
+      "en": "There is eye test.",
+      "sv": "Det finns synundersökning.",
+      "nl": "Er is oogtest.",
+      "it": "C'è il test della vista.",
+      "es": "Hay examen de la vista."
+    },
+    "alt": {},
+    "chunks": [
+      "mirmera 'ayni",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_brauerei_kaffeezeremonie_1",
+    "am": "ኣፍረየ ስዋ ኣሎ።",
+    "tr": "afireye siwa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brw_brew"
+    ],
+    "t": {
+      "de": "Es gibt brauen.",
+      "en": "There is to brew.",
+      "sv": "Det finns att brygga.",
+      "nl": "Er is brouwen.",
+      "it": "C'è fare la birra.",
+      "es": "Hay hacer cerveza."
+    },
+    "alt": {},
+    "chunks": [
+      "afireye siwa",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_erstehilfe_notdienste2_1",
+    "am": "ላስቲክ ቁስሊ ኣሎ።",
+    "tr": "lastik qusli alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_erh_plstr"
+    ],
+    "t": {
+      "de": "Es gibt das Pflaster.",
+      "en": "There is adhesive bandage.",
+      "sv": "Det finns plåster.",
+      "nl": "Er is pleister.",
+      "it": "C'è il cerotto.",
+      "es": "Hay una tirita."
+    },
+    "alt": {},
+    "chunks": [
+      "lastik qusli",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_mobilfunk_technikphrasen_1",
+    "am": "ሲም ካርድ ኣሎ።",
+    "tr": "sim kardi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mbf_sim"
+    ],
+    "t": {
+      "de": "Es gibt die SIM-Karte.",
+      "en": "There is SIM card.",
+      "sv": "Det finns sim-kort.",
+      "nl": "Er is simkaart.",
+      "it": "C'è la scheda SIM.",
+      "es": "Hay tarjeta SIM."
+    },
+    "alt": {},
+    "chunks": [
+      "sim kardi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_steuern_immobilien_1",
+    "am": "ግብሪ እቶት ኣሎ።",
+    "tr": "gibri itot alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_stx_incm"
+    ],
+    "t": {
+      "de": "Es gibt die Einkommensteuer.",
+      "en": "There is income tax.",
+      "sv": "Det finns inkomstskatt.",
+      "nl": "Er is inkomstenbelasting.",
+      "it": "C'è l'imposta sul reddito.",
+      "es": "Hay impuesto sobre la renta."
+    },
+    "alt": {},
+    "chunks": [
+      "gibri itot",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_architektur_denkmal_1",
+    "am": "ግንባር ህንጻ ኣሎ።",
+    "tr": "ginibar hinitsa alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_akt_facde"
+    ],
+    "t": {
+      "de": "Es gibt die Fassade.",
+      "en": "There is facade.",
+      "sv": "Det finns fasad.",
+      "nl": "Er is gevel.",
+      "it": "C'è la facciata.",
+      "es": "Hay fachada."
+    },
+    "alt": {},
+    "chunks": [
+      "ginibar hinitsa",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_seniorenpflege_jugend_1",
+    "am": "ዓባይ ሰብ ኣሎ።",
+    "tr": "'abay sew alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_snp_eldr"
+    ],
+    "t": {
+      "de": "Es gibt eine ältere Person.",
+      "en": "There is elderly person.",
+      "sv": "Det finns äldre person.",
+      "nl": "Er is oudere.",
+      "it": "C'è una persona anziana.",
+      "es": "Hay una persona mayor."
+    },
+    "alt": {},
+    "chunks": [
+      "'abay sew",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_energie2_landwirtschaft2_1",
+    "am": "ሓይሊ ንፋስ ኣሎ።",
+    "tr": "hayili nifas alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_en2_wind"
+    ],
+    "t": {
+      "de": "Es gibt die Windkraft.",
+      "en": "There is wind power.",
+      "sv": "Det finns vindkraft.",
+      "nl": "Er is windenergie.",
+      "it": "C'è l'energia eolica.",
+      "es": "Hay energía eólica."
+    },
+    "alt": {},
+    "chunks": [
+      "hayili nifas",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_fleischerei_baeckerei_1",
+    "am": "ስጋ ሸያጣይ ኣሎ።",
+    "tr": "siga sheyatay alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_flx_btchr"
+    ],
+    "t": {
+      "de": "Es gibt der Metzger.",
+      "en": "There is butcher.",
+      "sv": "Det finns slaktare.",
+      "nl": "Er is slager.",
+      "it": "C'è il macellaio.",
+      "es": "Hay carnicero."
+    },
+    "alt": {},
+    "chunks": [
+      "siga sheyatay",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_tankstelle_bibliothek_1",
+    "am": "ቤንዚን ኣሎ።",
+    "tr": "benzin alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tst_ptrl"
+    ],
+    "t": {
+      "de": "Es gibt das Benzin.",
+      "en": "There is gasoline.",
+      "sv": "Det finns bensin.",
+      "nl": "Er is benzine.",
+      "it": "C'è la benzina.",
+      "es": "Hay gasolina."
+    },
+    "alt": {},
+    "chunks": [
+      "benzin",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gesten_koerperhaltung_1",
+    "am": "ኢዱ ወዘወዘ ኣሎ።",
+    "tr": "'idu wezeweze alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gst2_wave"
+    ],
+    "t": {
+      "de": "Es gibt winken.",
+      "en": "There is to wave.",
+      "sv": "Det finns att vinka.",
+      "nl": "Er is zwaaien.",
+      "it": "C'è salutare con la mano.",
+      "es": "Hay saludar con la mano."
+    },
+    "alt": {},
+    "chunks": [
+      "'idu wezeweze",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_briefmarken_traeume_1",
+    "am": "ኣከቓቕባ ኣሎ።",
+    "tr": "akeqaqiba alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_brm_hobby"
+    ],
+    "t": {
+      "de": "Es gibt das Sammeln.",
+      "en": "There is collecting.",
+      "sv": "Det finns samlande.",
+      "nl": "Er is verzamelen.",
+      "it": "C'è il collezionismo.",
+      "es": "Hay coleccionar."
+    },
+    "alt": {},
+    "chunks": [
+      "akeqaqiba",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gewohnheiten_meinungen_1",
+    "am": "መዓልታዊ ኣሎ።",
+    "tr": "me'altawi alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_gwh_daily"
+    ],
+    "t": {
+      "de": "Es gibt täglich.",
+      "en": "There is daily.",
+      "sv": "Det finns daglig.",
+      "nl": "Er is dagelijks.",
+      "it": "C'è quotidiano.",
+      "es": "Hay diario."
+    },
+    "alt": {},
+    "chunks": [
+      "me'altawi",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_konflikt_zustimmung_1",
+    "am": "ተኻራኸረ ኣሎ።",
+    "tr": "tekharakhere alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_knf_argu"
+    ],
+    "t": {
+      "de": "Es gibt streiten.",
+      "en": "There is to argue.",
+      "sv": "Det finns att gräla.",
+      "nl": "Er is ruzie maken.",
+      "it": "C'è litigare.",
+      "es": "Hay discutir."
+    },
+    "alt": {},
+    "chunks": [
+      "tekharakhere",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_erinnerung_zukunftsplaene_1",
+    "am": "ዘከረ ኣሎ።",
+    "tr": "zekere alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_ern_remmbr"
+    ],
+    "t": {
+      "de": "Es gibt sich erinnern.",
+      "en": "There is to remember.",
+      "sv": "Det finns att minnas.",
+      "nl": "Er is herinneren.",
+      "it": "C'è ricordare.",
+      "es": "Hay recordar."
+    },
+    "alt": {},
+    "chunks": [
+      "zekere",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_hoeflichkeit_zustaende_1",
+    "am": "ስነ ምግባር ኣሎ።",
+    "tr": "sine migibar alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_hfl_plte"
+    ],
+    "t": {
+      "de": "Es gibt die Höflichkeit.",
+      "en": "There is politeness.",
+      "sv": "Det finns artighet.",
+      "nl": "Er is beleefdheid.",
+      "it": "C'è la cortesia.",
+      "es": "Hay cortesía."
+    },
+    "alt": {},
+    "chunks": [
+      "sine migibar",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_bewegung_koerperfunktionen_1",
+    "am": "ነጠረ ኣሎ።",
+    "tr": "netere alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_bwg_jump"
+    ],
+    "t": {
+      "de": "Es gibt springen.",
+      "en": "There is to jump.",
+      "sv": "Det finns att hoppa.",
+      "nl": "Er is springen.",
+      "it": "C'è saltare.",
+      "es": "Hay saltar."
+    },
+    "alt": {},
+    "chunks": [
+      "netere",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_geraeusche_licht_1",
+    "am": "ዓው ዝበለ ኣሎ።",
+    "tr": "'awi zibele alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_grs_loud"
+    ],
+    "t": {
+      "de": "Es gibt laut.",
+      "en": "There is loud.",
+      "sv": "Det finns högljudd.",
+      "nl": "Er is luid.",
+      "it": "C'è forte, rumoroso.",
+      "es": "Hay fuerte, ruidoso."
+    },
+    "alt": {},
+    "chunks": [
+      "'awi zibele",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_temperatur_form_textur_1",
+    "am": "ውዑይ ኣሎ።",
+    "tr": "wi'uy alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_tmp_hot2"
+    ],
+    "t": {
+      "de": "Es gibt heiß.",
+      "en": "There is hot.",
+      "sv": "Det finns het, varm.",
+      "nl": "Er is heet.",
+      "it": "C'è caldo.",
+      "es": "Hay calor."
+    },
+    "alt": {},
+    "chunks": [
+      "wi'uy",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_menge_gefahren_1",
+    "am": "መሊኡ ኣሎ።",
+    "tr": "meli'u alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_mng2_full2"
+    ],
+    "t": {
+      "de": "Es gibt voll.",
+      "en": "There is full.",
+      "sv": "Det finns full.",
+      "nl": "Er is vol.",
+      "it": "C'è pieno.",
+      "es": "Hay lleno."
+    },
+    "alt": {},
+    "chunks": [
+      "meli'u",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_veraenderung_vergleiche2_1",
+    "am": "ቀየረ ኣሎ።",
+    "tr": "qeyere alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_vrd_change2"
+    ],
+    "t": {
+      "de": "Es gibt ändern.",
+      "en": "There is to change.",
+      "sv": "Det finns att ändra.",
+      "nl": "Er is veranderen.",
+      "it": "C'è cambiare.",
+      "es": "Hay cambiar."
+    },
+    "alt": {},
+    "chunks": [
+      "qeyere",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_position_haeufigkeit_1",
+    "am": "ኣብ ማእከል ኣሎ።",
+    "tr": "'ab ma'ikel alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_pos_betwn"
+    ],
+    "t": {
+      "de": "Es gibt zwischen.",
+      "en": "There is between, in the middle.",
+      "sv": "Det finns mellan, i mitten.",
+      "nl": "Er is tussen, in het midden.",
+      "it": "C'è tra, in mezzo.",
+      "es": "Hay entre, en medio."
+    },
+    "alt": {},
+    "chunks": [
+      "'ab ma'ikel",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_konjunktionen_geld_ausdruecke_1",
+    "am": "ከምኡውን ኣሎ።",
+    "tr": "kem'uwin alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_knj_and2"
+    ],
+    "t": {
+      "de": "Es gibt und auch.",
+      "en": "There is and also.",
+      "sv": "Det finns och även.",
+      "nl": "Er is en ook.",
+      "it": "C'è e anche.",
+      "es": "Hay y también."
+    },
+    "alt": {},
+    "chunks": [
+      "kem'uwin",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_wetterausdruecke_verabschiedung_1",
+    "am": "ጽቡቕ ኩነታት ኣየር ኣሎ።",
+    "tr": "tsibuq kunetat ayer alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_wta_niceday"
+    ],
+    "t": {
+      "de": "Es gibt schönes Wetter.",
+      "en": "There is nice weather.",
+      "sv": "Det finns fint väder.",
+      "nl": "Er is mooi weer.",
+      "it": "C'è bel tempo.",
+      "es": "Hay buen tiempo."
+    },
+    "alt": {},
+    "chunks": [
+      "tsibuq kunetat ayer",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_smalltalk_notfallphrasen_1",
+    "am": "ከመይ ቀኒኻ ኣሎ።",
+    "tr": "kemey qeniikha alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_smt_hwru"
+    ],
+    "t": {
+      "de": "Es gibt wie war dein Tag.",
+      "en": "There is how was your day.",
+      "sv": "Det finns hur var din dag.",
+      "nl": "Er is hoe was je dag.",
+      "it": "C'è come è andata la tua giornata.",
+      "es": "Hay cómo fue tu día."
+    },
+    "alt": {},
+    "chunks": [
+      "kemey qeniikha",
+      "alo"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_ti_gluecksphrasen_wuensche_1",
+    "am": "እንቋዕ ሓጎሰካ ኣሎ።",
+    "tr": "iniqua'i hagoseka alo.",
+    "level": "TI",
+    "uses": [
+      "lex_ti_glp_congr"
+    ],
+    "t": {
+      "de": "Es gibt herzlichen Glückwunsch.",
+      "en": "There is congratulations.",
+      "sv": "Det finns grattis.",
+      "nl": "Er is gefeliciteerd.",
+      "it": "C'è congratulazioni.",
+      "es": "Hay felicidades."
+    },
+    "alt": {},
+    "chunks": [
+      "iniqua'i hagoseka",
+      "alo"
+    ],
+    "verified": false
+  }
+]

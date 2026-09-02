@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_flm_used",
+    "am": "ዝተጠቕመሉ",
+    "tr": "zitet'eqimelu",
+    "pos": "adjective",
+    "topic": "flea_market",
+    "level": "TI",
+    "t": {
+      "de": "gebraucht",
+      "en": "used, second-hand",
+      "sv": "begagnad",
+      "nl": "tweedehands",
+      "it": "usato",
+      "es": "usado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flm_brgn",
+    "am": "ዋጋ ምዝርራብ",
+    "tr": "waga miziribab",
+    "pos": "noun",
+    "topic": "flea_market",
+    "level": "TI",
+    "t": {
+      "de": "das Feilschen",
+      "en": "haggling, bargaining",
+      "sv": "pruta",
+      "nl": "afdingen",
+      "it": "la contrattazione",
+      "es": "el regateo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flm_deal",
+    "am": "ሕሱር ዋጋ",
+    "tr": "hisur waga",
+    "pos": "noun",
+    "topic": "flea_market",
+    "level": "TI",
+    "t": {
+      "de": "das Schnäppchen",
+      "en": "bargain, good deal",
+      "sv": "fynd (bra pris)",
+      "nl": "koopje",
+      "it": "l'affare, il buon prezzo",
+      "es": "la ganga, el buen precio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flm_stall",
+    "am": "ንኡስ ድኳን",
+    "tr": "ni'us dikwan",
+    "pos": "noun",
+    "topic": "flea_market",
+    "level": "TI",
+    "t": {
+      "de": "der Marktstand",
+      "en": "market stall",
+      "sv": "marknadsstånd",
+      "nl": "marktkraam",
+      "it": "la bancarella",
+      "es": "el puesto del mercado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flm_sell",
+    "am": "ሸጠ",
+    "tr": "shet'e",
+    "pos": "verb",
+    "topic": "flea_market",
+    "level": "TI",
+    "t": {
+      "de": "verkaufen",
+      "en": "to sell",
+      "sv": "att sälja",
+      "nl": "verkopen",
+      "it": "vendere",
+      "es": "vender"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

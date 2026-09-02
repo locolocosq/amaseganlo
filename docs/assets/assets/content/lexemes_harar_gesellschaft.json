@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_ikulinet",
+    "am": "እኩልነት",
+    "tr": "ikulinet",
+    "pos": "noun",
+    "topic": "society_rights",
+    "level": "B2",
+    "t": {
+      "de": "die Gleichheit",
+      "en": "equality",
+      "sv": "jämlikhet",
+      "nl": "gelijkheid",
+      "it": "l'uguaglianza",
+      "es": "la igualdad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_medilewo",
+    "am": "መድልዎ",
+    "tr": "medilewo",
+    "pos": "noun",
+    "topic": "society_rights",
+    "level": "B2",
+    "t": {
+      "de": "die Diskriminierung",
+      "en": "discrimination",
+      "sv": "diskriminering",
+      "nl": "discriminatie",
+      "it": "la discriminazione",
+      "es": "la discriminación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_anasa",
+    "am": "አናሳ",
+    "tr": "anasa",
+    "pos": "noun",
+    "topic": "society_rights",
+    "level": "B2",
+    "t": {
+      "de": "die Minderheit",
+      "en": "minority",
+      "sv": "minoritet",
+      "nl": "minderheid",
+      "it": "la minoranza",
+      "es": "la minoría"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sidetegna",
+    "am": "ስደተኛ",
+    "tr": "sidetegna",
+    "pos": "noun",
+    "topic": "society_rights",
+    "level": "B2",
+    "t": {
+      "de": "der Flüchtling, der Migrant",
+      "en": "refugee, migrant",
+      "sv": "flykting, migrant",
+      "nl": "vluchteling, migrant",
+      "it": "il rifugiato, il migrante",
+      "es": "el refugiado, el migrante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_fitihawi",
+    "am": "ፍትሃዊ",
+    "tr": "fitihawi",
+    "pos": "adjective",
+    "topic": "society_rights",
+    "level": "B2",
+    "t": {
+      "de": "gerecht, fair",
+      "en": "just, fair",
+      "sv": "rättvis",
+      "nl": "rechtvaardig",
+      "it": "giusto, equo",
+      "es": "justo, equitativo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_ifitihawi",
+    "am": "ኢፍትሃዊ",
+    "tr": "ifitihawi",
+    "pos": "adjective",
+    "topic": "society_rights",
+    "level": "B2",
+    "t": {
+      "de": "ungerecht, unfair",
+      "en": "unjust, unfair",
+      "sv": "orättvis",
+      "nl": "onrechtvaardig",
+      "it": "ingiusto, iniquo",
+      "es": "injusto, inequitativo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

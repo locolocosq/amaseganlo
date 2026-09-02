@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_awra_godana",
+    "am": "አውራ ጎዳና",
+    "tr": "awra godana",
+    "pos": "noun",
+    "topic": "infrastructure",
+    "level": "B2",
+    "t": {
+      "de": "die Hauptstraße, die Autobahn",
+      "en": "highway, main road",
+      "sv": "huvudväg, motorväg",
+      "nl": "hoofdweg, snelweg",
+      "it": "l'autostrada, la strada principale",
+      "es": "la autopista, la carretera principal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_trafik_mechinanek",
+    "am": "ትራፊክ መጨናነቅ",
+    "tr": "trafik mechinanek'",
+    "pos": "noun",
+    "topic": "infrastructure",
+    "level": "B2",
+    "t": {
+      "de": "der Stau",
+      "en": "traffic jam",
+      "sv": "trafikstockning",
+      "nl": "file",
+      "it": "l'ingorgo",
+      "es": "el atasco, el embotellamiento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ginibata",
+    "am": "ግንባታ",
+    "tr": "ginibata",
+    "pos": "noun",
+    "topic": "infrastructure",
+    "level": "B2",
+    "t": {
+      "de": "der Bau, die Konstruktion",
+      "en": "construction",
+      "sv": "byggande",
+      "nl": "bouw",
+      "it": "la costruzione",
+      "es": "la construcción"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_yeketema_plan",
+    "am": "የከተማ ፕላን",
+    "tr": "yeketema plan",
+    "pos": "noun",
+    "topic": "infrastructure",
+    "level": "B2",
+    "t": {
+      "de": "die Stadtplanung",
+      "en": "urban planning",
+      "sv": "stadsplanering",
+      "nl": "stadsplanning",
+      "it": "la pianificazione urbana",
+      "es": "la planificación urbana"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_meserete_limat",
+    "am": "መሠረተ ልማት",
+    "tr": "meserete limat",
+    "pos": "noun",
+    "topic": "infrastructure",
+    "level": "B2",
+    "t": {
+      "de": "die Infrastruktur",
+      "en": "infrastructure",
+      "sv": "infrastruktur",
+      "nl": "infrastructuur",
+      "it": "l'infrastruttura",
+      "es": "la infraestructura"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_megenibat",
+    "am": "መገንባት",
+    "tr": "megenibat",
+    "pos": "verb",
+    "topic": "infrastructure",
+    "level": "B2",
+    "t": {
+      "de": "bauen, errichten",
+      "en": "to build, to construct",
+      "sv": "bygga",
+      "nl": "bouwen",
+      "it": "costruire, edificare",
+      "es": "construir, edificar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

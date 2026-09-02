@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hbt_bilding",
+    "am": "ህንፃ",
+    "tr": "hinits'a",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "das Gebäude",
+      "en": "building",
+      "sv": "byggnad",
+      "nl": "gebouw",
+      "it": "l'edificio",
+      "es": "el edificio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_mesetat",
+    "am": "መሰረት",
+    "tr": "meseret",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "das Fundament",
+      "en": "foundation (building)",
+      "sv": "grund (byggnad)",
+      "nl": "fundament",
+      "it": "le fondamenta",
+      "es": "los cimientos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_getet",
+    "am": "ግድግዳ",
+    "tr": "gidigida",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "die Wand",
+      "en": "wall (interior)",
+      "sv": "vägg",
+      "nl": "muur",
+      "it": "la parete",
+      "es": "la pared"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_derek",
+    "am": "ጣራ",
+    "tr": "t'ara",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "das Dach",
+      "en": "roof",
+      "sv": "tak",
+      "nl": "dak",
+      "it": "il tetto",
+      "es": "el techo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_meret2",
+    "am": "ወለል",
+    "tr": "welel",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "der Fußboden",
+      "en": "floor",
+      "sv": "golv",
+      "nl": "vloer",
+      "it": "il pavimento",
+      "es": "el suelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_meskot",
+    "am": "መስኮት",
+    "tr": "mesikot",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "das Fenster",
+      "en": "window",
+      "sv": "fönster",
+      "nl": "raam",
+      "it": "la finestra",
+      "es": "la ventana"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_iceber",
+    "am": "በርጩማ",
+    "tr": "berichuma",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "der Stuhl (Handwerk-Kontext)",
+      "en": "stool, chair",
+      "sv": "pall, stol",
+      "nl": "kruk, stoel",
+      "it": "lo sgabello, la sedia",
+      "es": "el taburete, la silla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_injinar",
+    "am": "መሃንዲስ",
+    "tr": "mehandis",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "der Ingenieur",
+      "en": "engineer",
+      "sv": "ingenjör",
+      "nl": "ingenieur",
+      "it": "l'ingegnere",
+      "es": "el ingeniero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_kalkulator",
+    "am": "ስሌት",
+    "tr": "silet",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "die Berechnung",
+      "en": "calculation",
+      "sv": "beräkning",
+      "nl": "berekening",
+      "it": "il calcolo",
+      "es": "el cálculo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_v_mekayed",
+    "am": "መቁጠር",
+    "tr": "mek'ut'er",
+    "pos": "verb",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "zählen, berechnen",
+      "en": "to count, to calculate",
+      "sv": "räkna, beräkna",
+      "nl": "tellen, berekenen",
+      "it": "contare, calcolare",
+      "es": "contar, calcular"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_simment",
+    "am": "ሲሚንቶ",
+    "tr": "simiento",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "der Zement",
+      "en": "cement",
+      "sv": "cement",
+      "nl": "cement",
+      "it": "il cemento",
+      "es": "el cemento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_shibela",
+    "am": "ብሎክ",
+    "tr": "biloki",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "der Ziegelstein, Block",
+      "en": "brick, block",
+      "sv": "tegelsten, block",
+      "nl": "baksteen, blok",
+      "it": "il mattone, il blocco",
+      "es": "el ladrillo, el bloque"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_birana",
+    "am": "ብረት",
+    "tr": "biret",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "das Eisen, Metall",
+      "en": "iron, metal",
+      "sv": "järn, metall",
+      "nl": "ijzer, metaal",
+      "it": "il ferro, il metallo",
+      "es": "el hierro, el metal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_v_masaser",
+    "am": "ማሳረፍ",
+    "tr": "masaref",
+    "pos": "verb",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "fertigstellen (Bau)",
+      "en": "to complete (construction)",
+      "sv": "slutföra (bygge)",
+      "nl": "afronden (bouw)",
+      "it": "completare (una costruzione)",
+      "es": "completar (una construcción)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbt_kifil2",
+    "am": "ደረጅ",
+    "tr": "dereja",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "das Stockwerk",
+      "en": "floor, story (building)",
+      "sv": "våning",
+      "nl": "verdieping",
+      "it": "il piano",
+      "es": "el piso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_meret_kefel",
+    "am": "ደረጅ ላይ",
+    "tr": "dereja lay",
+    "pos": "phrase",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "im Stockwerk (oben)",
+      "en": "upstairs, on the floor (level)",
+      "sv": "på övervåningen",
+      "nl": "boven, op de verdieping",
+      "it": "al piano di sopra",
+      "es": "arriba, en el piso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbt_makina",
+    "am": "ማሽን",
+    "tr": "mashin",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "die Maschine",
+      "en": "machine",
+      "sv": "maskin",
+      "nl": "machine",
+      "it": "la macchina",
+      "es": "la máquina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_v_masikakel",
+    "am": "ማስተካከል",
+    "tr": "masitekakel",
+    "pos": "verb",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "reparieren, korrigieren",
+      "en": "to repair, to fix",
+      "sv": "reparera, fixa",
+      "nl": "repareren, herstellen",
+      "it": "riparare, aggiustare",
+      "es": "reparar, arreglar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hbt_takula",
+    "am": "ደረጅ ወሰን",
+    "tr": "dereja wesen",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "die Skizze, der Plan",
+      "en": "sketch, blueprint",
+      "sv": "skiss, ritning",
+      "nl": "schets, blauwdruk",
+      "it": "lo schizzo, il progetto",
+      "es": "el boceto, el plano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hbt_gize_kirs",
+    "am": "ኮንትራት",
+    "tr": "konitirat",
+    "pos": "noun",
+    "topic": "construction_engineering",
+    "level": "B2",
+    "t": {
+      "de": "der Vertrag (Bau)",
+      "en": "contract (construction)",
+      "sv": "kontrakt (bygg)",
+      "nl": "contract (bouw)",
+      "it": "il contratto (edilizio)",
+      "es": "el contrato (de construcción)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

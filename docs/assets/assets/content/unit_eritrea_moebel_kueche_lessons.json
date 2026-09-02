@@ -1,0 +1,194 @@
+[
+  {
+    "id": "unit_eritrea_moebel_kueche_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_mbl_sofa",
+      "lex_ti_mbl_rgal",
+      "lex_ti_mbl_shelf",
+      "lex_ti_mbl_ntt",
+      "lex_ti_mbl_drwr",
+      "lex_ti_mbl_hngr",
+      "lex_ti_mbl_stol2",
+      "lex_ti_mbl_wgrt",
+      "lex_ti_kg_tsahfi",
+      "lex_ti_kg_mankiya",
+      "lex_ti_kg_shoka",
+      "lex_ti_kg_fork",
+      "lex_ti_kg_bkri",
+      "lex_ti_kg_mesfey",
+      "lex_ti_kg_mekfti",
+      "lex_ti_kg_ttbl",
+      "lex_ti_kg_serveti"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_moebel_kueche_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_mbl_sofa",
+      "lex_ti_mbl_rgal",
+      "lex_ti_mbl_shelf",
+      "lex_ti_mbl_ntt",
+      "lex_ti_mbl_drwr",
+      "lex_ti_mbl_hngr",
+      "lex_ti_mbl_stol2",
+      "lex_ti_mbl_wgrt",
+      "lex_ti_kg_tsahfi",
+      "lex_ti_kg_mankiya",
+      "lex_ti_kg_shoka",
+      "lex_ti_kg_fork",
+      "lex_ti_kg_bkri",
+      "lex_ti_kg_mesfey",
+      "lex_ti_kg_mekfti",
+      "lex_ti_kg_ttbl",
+      "lex_ti_kg_serveti"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_moebel_kueche_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_mbl_sofa",
+      "lex_ti_mbl_rgal",
+      "lex_ti_mbl_shelf",
+      "lex_ti_mbl_ntt",
+      "lex_ti_mbl_drwr",
+      "lex_ti_mbl_hngr",
+      "lex_ti_mbl_stol2",
+      "lex_ti_mbl_wgrt",
+      "lex_ti_kg_tsahfi",
+      "lex_ti_kg_mankiya",
+      "lex_ti_kg_shoka",
+      "lex_ti_kg_fork",
+      "lex_ti_kg_bkri",
+      "lex_ti_kg_mesfey",
+      "lex_ti_kg_mekfti",
+      "lex_ti_kg_ttbl",
+      "lex_ti_kg_serveti"
+    ],
+    "sentenceIds": [
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_moebel_kueche_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_mbl_sofa",
+      "lex_ti_mbl_rgal",
+      "lex_ti_mbl_shelf",
+      "lex_ti_mbl_ntt",
+      "lex_ti_mbl_drwr",
+      "lex_ti_mbl_hngr",
+      "lex_ti_mbl_stol2",
+      "lex_ti_mbl_wgrt",
+      "lex_ti_kg_tsahfi",
+      "lex_ti_kg_mankiya",
+      "lex_ti_kg_shoka",
+      "lex_ti_kg_fork",
+      "lex_ti_kg_bkri",
+      "lex_ti_kg_mesfey",
+      "lex_ti_kg_mekfti",
+      "lex_ti_kg_ttbl",
+      "lex_ti_kg_serveti"
+    ],
+    "sentenceIds": [
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_moebel_kueche_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_mbl_sofa",
+      "lex_ti_mbl_rgal",
+      "lex_ti_mbl_shelf",
+      "lex_ti_mbl_ntt",
+      "lex_ti_mbl_drwr",
+      "lex_ti_mbl_hngr",
+      "lex_ti_mbl_stol2",
+      "lex_ti_mbl_wgrt",
+      "lex_ti_kg_tsahfi",
+      "lex_ti_kg_mankiya",
+      "lex_ti_kg_shoka",
+      "lex_ti_kg_fork",
+      "lex_ti_kg_bkri",
+      "lex_ti_kg_mesfey",
+      "lex_ti_kg_mekfti",
+      "lex_ti_kg_ttbl",
+      "lex_ti_kg_serveti"
+    ],
+    "sentenceIds": [
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_moebel_kueche_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_mbl_sofa",
+      "lex_ti_mbl_rgal",
+      "lex_ti_mbl_shelf",
+      "lex_ti_mbl_ntt",
+      "lex_ti_mbl_drwr",
+      "lex_ti_mbl_hngr",
+      "lex_ti_mbl_stol2",
+      "lex_ti_mbl_wgrt",
+      "lex_ti_kg_tsahfi",
+      "lex_ti_kg_mankiya",
+      "lex_ti_kg_shoka",
+      "lex_ti_kg_fork",
+      "lex_ti_kg_bkri",
+      "lex_ti_kg_mesfey",
+      "lex_ti_kg_mekfti",
+      "lex_ti_kg_ttbl",
+      "lex_ti_kg_serveti"
+    ],
+    "sentenceIds": [
+      "sen_ti_moebel_kueche_1",
+      "sen_gen_mbl_rgal",
+      "sen_gen_mbl_shelf",
+      "sen_gen_mbl_ntt",
+      "sen_gen_mbl_drwr"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

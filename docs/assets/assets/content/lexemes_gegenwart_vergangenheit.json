@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lex_ich_gehe",
+    "am": "እሄዳለሁ",
+    "tr": "ihedalehu",
+    "pos": "phrase",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "ich gehe",
+      "en": "I go",
+      "sv": "jag går",
+      "nl": "ik ga",
+      "it": "io vado",
+      "es": "yo voy"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ich_ging",
+    "am": "ሄድኩ",
+    "tr": "hedku",
+    "pos": "phrase",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "ich ging",
+      "en": "I went",
+      "sv": "jag gick",
+      "nl": "ik ging",
+      "it": "io sono andato/a",
+      "es": "yo fui"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ich_ass",
+    "am": "በላሁ",
+    "tr": "belahu",
+    "pos": "phrase",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "ich aß",
+      "en": "I ate",
+      "sv": "jag åt",
+      "nl": "ik at",
+      "it": "io ho mangiato",
+      "es": "yo comí"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ich_trank",
+    "am": "ጠጣሁ",
+    "tr": "t'et'ahu",
+    "pos": "phrase",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "ich trank",
+      "en": "I drank",
+      "sv": "jag drack",
+      "nl": "ik dronk",
+      "it": "io ho bevuto",
+      "es": "yo bebí"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_jetzt",
+    "am": "አሁን",
+    "tr": "ahun",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "jetzt",
+      "en": "now",
+      "sv": "nu",
+      "nl": "nu",
+      "it": "ora, adesso",
+      "es": "ahora"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_frueher",
+    "am": "ከዚህ በፊት",
+    "tr": "kezih befit",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "früher, vorher",
+      "en": "before, in the past",
+      "sv": "tidigare, förut",
+      "nl": "vroeger",
+      "it": "prima, in passato",
+      "es": "antes, en el pasado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_schon",
+    "am": "ቀድሞ",
+    "tr": "kedmo",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "schon, bereits",
+      "en": "already",
+      "sv": "redan",
+      "nl": "al",
+      "it": "già",
+      "es": "ya"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_immer",
+    "am": "ሁልጊዜ",
+    "tr": "hulgize",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "immer",
+      "en": "always",
+      "sv": "alltid",
+      "nl": "altijd",
+      "it": "sempre",
+      "es": "siempre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_manchmal",
+    "am": "አልፎ አልፎ",
+    "tr": "alfo alfo",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "manchmal",
+      "en": "sometimes",
+      "sv": "ibland",
+      "nl": "soms",
+      "it": "a volte",
+      "es": "a veces"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nie",
+    "am": "በፍጹም",
+    "tr": "befitsum",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "nie, niemals",
+      "en": "never",
+      "sv": "aldrig",
+      "nl": "nooit",
+      "it": "mai",
+      "es": "nunca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_bald",
+    "am": "በቅርቡ",
+    "tr": "bekiribu",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "bald",
+      "en": "soon",
+      "sv": "snart",
+      "nl": "binnenkort",
+      "it": "presto",
+      "es": "pronto"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_spaet",
+    "am": "ዘግይቶ",
+    "tr": "zegiyto",
+    "pos": "adverb",
+    "topic": "grammar_time",
+    "level": "A2",
+    "t": {
+      "de": "spät",
+      "en": "late",
+      "sv": "sent",
+      "nl": "laat",
+      "it": "tardi",
+      "es": "tarde"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

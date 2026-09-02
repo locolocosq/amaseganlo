@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_harar_christian_grundlagen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_kidase",
+      "lex_kahin",
+      "lex_papase",
+      "lex_menekuse",
+      "lex_menekusit",
+      "lex_wongel",
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_christian_grundlagen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_kidase",
+      "lex_kahin",
+      "lex_papase",
+      "lex_menekuse",
+      "lex_menekusit",
+      "lex_wongel",
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_grundlagen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_kidase",
+      "lex_kahin",
+      "lex_papase",
+      "lex_menekuse",
+      "lex_menekusit",
+      "lex_wongel",
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
+    "sentenceIds": [
+      "sen_kahin_kidase",
+      "sen_papase_kahin",
+      "sen_menekuse_menekusit",
+      "sen_wongel_metsihaf",
+      "sen_metsihaf_kidus_adj"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_grundlagen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_kidase",
+      "lex_kahin",
+      "lex_papase",
+      "lex_menekuse",
+      "lex_menekusit",
+      "lex_wongel",
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
+    "sentenceIds": [
+      "sen_kahin_kidase",
+      "sen_papase_kahin",
+      "sen_menekuse_menekusit",
+      "sen_wongel_metsihaf",
+      "sen_metsihaf_kidus_adj"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_grundlagen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_kidase",
+      "lex_kahin",
+      "lex_papase",
+      "lex_menekuse",
+      "lex_menekusit",
+      "lex_wongel",
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
+    "sentenceIds": [
+      "sen_kahin_kidase",
+      "sen_papase_kahin",
+      "sen_menekuse_menekusit",
+      "sen_wongel_metsihaf",
+      "sen_metsihaf_kidus_adj"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_christian_grundlagen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_kidase",
+      "lex_kahin",
+      "lex_papase",
+      "lex_menekuse",
+      "lex_menekusit",
+      "lex_wongel",
+      "lex_metsihaf_kidus",
+      "lex_adj_kidus"
+    ],
+    "sentenceIds": [
+      "sen_kahin_kidase",
+      "sen_papase_kahin",
+      "sen_menekuse_menekusit",
+      "sen_wongel_metsihaf",
+      "sen_metsihaf_kidus_adj"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

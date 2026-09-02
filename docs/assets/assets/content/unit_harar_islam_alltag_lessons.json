@@ -1,0 +1,128 @@
+[
+  {
+    "id": "unit_harar_islam_alltag_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_selam_alaykum",
+      "lex_wealaykum",
+      "lex_khutba",
+      "lex_v_mesibek",
+      "lex_adj_islamawi",
+      "lex_adj_haymanotegna"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_islam_alltag_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_selam_alaykum",
+      "lex_wealaykum",
+      "lex_khutba",
+      "lex_v_mesibek",
+      "lex_adj_islamawi",
+      "lex_adj_haymanotegna"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_alltag_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_selam_alaykum",
+      "lex_wealaykum",
+      "lex_khutba",
+      "lex_v_mesibek",
+      "lex_adj_islamawi",
+      "lex_adj_haymanotegna"
+    ],
+    "sentenceIds": [
+      "sen_selam_alaykum",
+      "sen_wealaykum_reply",
+      "sen_imam_haymanotegna",
+      "sen_mesgid_islamawi",
+      "sen_khutba_arb"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_alltag_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_selam_alaykum",
+      "lex_wealaykum",
+      "lex_khutba",
+      "lex_v_mesibek",
+      "lex_adj_islamawi",
+      "lex_adj_haymanotegna"
+    ],
+    "sentenceIds": [
+      "sen_selam_alaykum",
+      "sen_wealaykum_reply",
+      "sen_imam_haymanotegna",
+      "sen_mesgid_islamawi",
+      "sen_khutba_arb"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_alltag_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_selam_alaykum",
+      "lex_wealaykum",
+      "lex_khutba",
+      "lex_v_mesibek",
+      "lex_adj_islamawi",
+      "lex_adj_haymanotegna"
+    ],
+    "sentenceIds": [
+      "sen_selam_alaykum",
+      "sen_wealaykum_reply",
+      "sen_imam_haymanotegna",
+      "sen_mesgid_islamawi",
+      "sen_khutba_arb"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_islam_alltag_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_selam_alaykum",
+      "lex_wealaykum",
+      "lex_khutba",
+      "lex_v_mesibek",
+      "lex_adj_islamawi",
+      "lex_adj_haymanotegna"
+    ],
+    "sentenceIds": [
+      "sen_selam_alaykum",
+      "sen_wealaykum_reply",
+      "sen_imam_haymanotegna",
+      "sen_mesgid_islamawi",
+      "sen_khutba_arb"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

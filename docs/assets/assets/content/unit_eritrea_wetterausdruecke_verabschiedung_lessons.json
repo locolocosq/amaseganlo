@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_eritrea_wetterausdruecke_verabschiedung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_wta_niceday",
+      "lex_ti_wta_badday",
+      "lex_ti_wta_hmdty",
+      "lex_ti_wta_forecast",
+      "lex_ti_vrb_seeya",
+      "lex_ti_vrb_gdnght",
+      "lex_ti_vrb_takecre",
+      "lex_ti_vrb_gosafe"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_wetterausdruecke_verabschiedung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_wta_niceday",
+      "lex_ti_wta_badday",
+      "lex_ti_wta_hmdty",
+      "lex_ti_wta_forecast",
+      "lex_ti_vrb_seeya",
+      "lex_ti_vrb_gdnght",
+      "lex_ti_vrb_takecre",
+      "lex_ti_vrb_gosafe"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetterausdruecke_verabschiedung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_wta_niceday",
+      "lex_ti_wta_badday",
+      "lex_ti_wta_hmdty",
+      "lex_ti_wta_forecast",
+      "lex_ti_vrb_seeya",
+      "lex_ti_vrb_gdnght",
+      "lex_ti_vrb_takecre",
+      "lex_ti_vrb_gosafe"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetterausdruecke_verabschiedung_1",
+      "sen_gen_wta_badday",
+      "sen_gen_wta_hmdty",
+      "sen_gen_wta_forecast",
+      "sen_gen_vrb_seeya"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetterausdruecke_verabschiedung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_wta_niceday",
+      "lex_ti_wta_badday",
+      "lex_ti_wta_hmdty",
+      "lex_ti_wta_forecast",
+      "lex_ti_vrb_seeya",
+      "lex_ti_vrb_gdnght",
+      "lex_ti_vrb_takecre",
+      "lex_ti_vrb_gosafe"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetterausdruecke_verabschiedung_1",
+      "sen_gen_wta_badday",
+      "sen_gen_wta_hmdty",
+      "sen_gen_wta_forecast",
+      "sen_gen_vrb_seeya"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetterausdruecke_verabschiedung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_wta_niceday",
+      "lex_ti_wta_badday",
+      "lex_ti_wta_hmdty",
+      "lex_ti_wta_forecast",
+      "lex_ti_vrb_seeya",
+      "lex_ti_vrb_gdnght",
+      "lex_ti_vrb_takecre",
+      "lex_ti_vrb_gosafe"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetterausdruecke_verabschiedung_1",
+      "sen_gen_wta_badday",
+      "sen_gen_wta_hmdty",
+      "sen_gen_wta_forecast",
+      "sen_gen_vrb_seeya"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_wetterausdruecke_verabschiedung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_wta_niceday",
+      "lex_ti_wta_badday",
+      "lex_ti_wta_hmdty",
+      "lex_ti_wta_forecast",
+      "lex_ti_vrb_seeya",
+      "lex_ti_vrb_gdnght",
+      "lex_ti_vrb_takecre",
+      "lex_ti_vrb_gosafe"
+    ],
+    "sentenceIds": [
+      "sen_ti_wetterausdruecke_verabschiedung_1",
+      "sen_gen_wta_badday",
+      "sen_gen_wta_hmdty",
+      "sen_gen_wta_forecast",
+      "sen_gen_vrb_seeya"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

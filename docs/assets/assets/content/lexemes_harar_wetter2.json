@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hw2_dey_ayer",
+    "am": "ፀሐይ",
+    "tr": "ts'ehay",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "die Sonne",
+      "en": "sun",
+      "sv": "sol",
+      "nl": "zon",
+      "it": "il sole",
+      "es": "el sol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☀️",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_kokeb2",
+    "am": "ኮከብ",
+    "tr": "kokeb",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Stern",
+      "en": "star",
+      "sv": "stjärna",
+      "nl": "ster",
+      "it": "la stella",
+      "es": "la estrella"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⭐",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_chereka",
+    "am": "ጨረቃ",
+    "tr": "cherek'a",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Mond",
+      "en": "moon",
+      "sv": "måne",
+      "nl": "maan",
+      "it": "la luna",
+      "es": "la luna"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌙",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_semay2",
+    "am": "ሰማይ",
+    "tr": "semay",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Himmel",
+      "en": "sky",
+      "sv": "himmel",
+      "nl": "lucht (hemel)",
+      "it": "il cielo",
+      "es": "el cielo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_menfas",
+    "am": "አውሎ ንፋስ",
+    "tr": "awilo nifas",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Wirbelsturm",
+      "en": "cyclone, whirlwind",
+      "sv": "cyklon",
+      "nl": "wervelstorm",
+      "it": "il ciclone, il turbine",
+      "es": "el ciclón, el torbellino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hw2_mebirek",
+    "am": "መብረቅ",
+    "tr": "mebirek'",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Blitz",
+      "en": "lightning",
+      "sv": "blixt",
+      "nl": "bliksem",
+      "it": "il fulmine",
+      "es": "el rayo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_ndid",
+    "am": "ነጎድጓድ",
+    "tr": "negodigwad",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Donner",
+      "en": "thunder",
+      "sv": "åska",
+      "nl": "donder",
+      "it": "il tuono",
+      "es": "el trueno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_erd",
+    "am": "በረዶ",
+    "tr": "beredo",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Hagel, Schnee",
+      "en": "hail, snow",
+      "sv": "hagel, snö",
+      "nl": "hagel, sneeuw",
+      "it": "la grandine, la neve",
+      "es": "el granizo, la nieve"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_tiql",
+    "am": "ጭጋግ",
+    "tr": "chigag",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "der Nebel",
+      "en": "fog, mist",
+      "sv": "dimma",
+      "nl": "mist",
+      "it": "la nebbia",
+      "es": "la niebla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_v_metekakel9",
+    "am": "ማብረቅ",
+    "tr": "mabirek'",
+    "pos": "verb",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "blitzen",
+      "en": "to flash (lightning)",
+      "sv": "blixtra",
+      "nl": "bliksemen",
+      "it": "lampeggiare",
+      "es": "relampaguear"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hw2_kesef",
+    "am": "ቀዝቃዛ",
+    "tr": "k'ezik'aza",
+    "pos": "adjective",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "kalt",
+      "en": "cold (adjective)",
+      "sv": "kall",
+      "nl": "koud",
+      "it": "freddo",
+      "es": "frío"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_muk",
+    "am": "ሞቃት",
+    "tr": "mok'at",
+    "pos": "adjective",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "warm",
+      "en": "warm",
+      "sv": "varm",
+      "nl": "warm",
+      "it": "caldo",
+      "es": "cálido"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_desta_ayer",
+    "am": "ፀሐያማ",
+    "tr": "ts'ehayama",
+    "pos": "adjective",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "sonnig",
+      "en": "sunny",
+      "sv": "soligt",
+      "nl": "zonnig",
+      "it": "soleggiato",
+      "es": "soleado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_demenama",
+    "am": "ደመናማ",
+    "tr": "demenama",
+    "pos": "adjective",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "bewölkt",
+      "en": "cloudy",
+      "sv": "molnigt",
+      "nl": "bewolkt",
+      "it": "nuvoloso",
+      "es": "nublado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_temp",
+    "am": "የአየር ሙቀት መጠን",
+    "tr": "ye'ayer muk'et met'in",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "die Temperatur",
+      "en": "temperature",
+      "sv": "temperatur",
+      "nl": "temperatuur",
+      "it": "la temperatura",
+      "es": "la temperatura"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_ayer_ntsihina",
+    "am": "የአየር ሁኔታ",
+    "tr": "ye'ayer huneta",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "das Wetter (allgemein)",
+      "en": "weather (general)",
+      "sv": "väder (allmänt)",
+      "nl": "weer (algemeen)",
+      "it": "il tempo (in generale)",
+      "es": "el clima (en general)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_metsehaf_ayer",
+    "am": "የአየር ትንበያ",
+    "tr": "ye'ayer tinibeya",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "die Wettervorhersage",
+      "en": "weather forecast",
+      "sv": "väderprognos",
+      "nl": "weersvoorspelling",
+      "it": "le previsioni del tempo",
+      "es": "el pronóstico del tiempo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hw2_v_mekeyer",
+    "am": "መቀየር የአየር ሁኔታ",
+    "tr": "mek'eyer ye'ayer huneta",
+    "pos": "verb",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "sich ändern (Wetter)",
+      "en": "to change (weather)",
+      "sv": "ändras (väder)",
+      "nl": "veranderen (weer)",
+      "it": "cambiare (il tempo)",
+      "es": "cambiar (el clima)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hw2_metekakel10",
+    "am": "ንፋሻ",
+    "tr": "nifasha",
+    "pos": "adjective",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "windig",
+      "en": "windy",
+      "sv": "blåsigt",
+      "nl": "winderig",
+      "it": "ventoso",
+      "es": "ventoso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hw2_hoya",
+    "am": "እርጥበት",
+    "tr": "iritibet",
+    "pos": "noun",
+    "topic": "weather_2",
+    "level": "B2",
+    "t": {
+      "de": "die Feuchtigkeit",
+      "en": "humidity, moisture",
+      "sv": "fukt, luftfuktighet",
+      "nl": "vochtigheid",
+      "it": "l'umidità",
+      "es": "la humedad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

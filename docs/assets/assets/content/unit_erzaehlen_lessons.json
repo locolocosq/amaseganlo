@@ -1,0 +1,200 @@
+[
+  {
+    "id": "unit_erzaehlen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_geschichte",
+      "lex_es_war_einmal",
+      "lex_ende",
+      "lex_anfang",
+      "lex_held",
+      "lex_koenig",
+      "lex_koenigin",
+      "lex_maerchen",
+      "lex_v_erzaehlen",
+      "lex_v_zuhoeren",
+      "lex_frage_noun",
+      "lex_antwort_noun",
+      "lex_wort",
+      "lex_sprache",
+      "lex_weise",
+      "lex_dumm",
+      "lex_wahr",
+      "lex_luege"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_erzaehlen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_geschichte",
+      "lex_es_war_einmal",
+      "lex_ende",
+      "lex_anfang",
+      "lex_held",
+      "lex_koenig",
+      "lex_koenigin",
+      "lex_maerchen",
+      "lex_v_erzaehlen",
+      "lex_v_zuhoeren",
+      "lex_frage_noun",
+      "lex_antwort_noun",
+      "lex_wort",
+      "lex_sprache",
+      "lex_weise",
+      "lex_dumm",
+      "lex_wahr",
+      "lex_luege"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_erzaehlen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_geschichte",
+      "lex_es_war_einmal",
+      "lex_ende",
+      "lex_anfang",
+      "lex_held",
+      "lex_koenig",
+      "lex_koenigin",
+      "lex_maerchen",
+      "lex_v_erzaehlen",
+      "lex_v_zuhoeren",
+      "lex_frage_noun",
+      "lex_antwort_noun",
+      "lex_wort",
+      "lex_sprache",
+      "lex_weise",
+      "lex_dumm",
+      "lex_wahr",
+      "lex_luege"
+    ],
+    "sentenceIds": [
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_erzaehlen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_geschichte",
+      "lex_es_war_einmal",
+      "lex_ende",
+      "lex_anfang",
+      "lex_held",
+      "lex_koenig",
+      "lex_koenigin",
+      "lex_maerchen",
+      "lex_v_erzaehlen",
+      "lex_v_zuhoeren",
+      "lex_frage_noun",
+      "lex_antwort_noun",
+      "lex_wort",
+      "lex_sprache",
+      "lex_weise",
+      "lex_dumm",
+      "lex_wahr",
+      "lex_luege"
+    ],
+    "sentenceIds": [
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_erzaehlen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_geschichte",
+      "lex_es_war_einmal",
+      "lex_ende",
+      "lex_anfang",
+      "lex_held",
+      "lex_koenig",
+      "lex_koenigin",
+      "lex_maerchen",
+      "lex_v_erzaehlen",
+      "lex_v_zuhoeren",
+      "lex_frage_noun",
+      "lex_antwort_noun",
+      "lex_wort",
+      "lex_sprache",
+      "lex_weise",
+      "lex_dumm",
+      "lex_wahr",
+      "lex_luege"
+    ],
+    "sentenceIds": [
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_erzaehlen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_geschichte",
+      "lex_es_war_einmal",
+      "lex_ende",
+      "lex_anfang",
+      "lex_held",
+      "lex_koenig",
+      "lex_koenigin",
+      "lex_maerchen",
+      "lex_v_erzaehlen",
+      "lex_v_zuhoeren",
+      "lex_frage_noun",
+      "lex_antwort_noun",
+      "lex_wort",
+      "lex_sprache",
+      "lex_weise",
+      "lex_dumm",
+      "lex_wahr",
+      "lex_luege"
+    ],
+    "sentenceIds": [
+      "sen_and_gize_nigus",
+      "sen_gen_geschichte",
+      "sen_gen_ende",
+      "sen_gen_anfang",
+      "sen_gen_held"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

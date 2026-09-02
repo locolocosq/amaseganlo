@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_hier",
+    "am": "እዚህ",
+    "tr": "izih",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "hier",
+      "en": "here",
+      "sv": "här",
+      "nl": "hier",
+      "it": "qui",
+      "es": "aquí"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_dort",
+    "am": "እዚያ",
+    "tr": "iziya",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "dort",
+      "en": "there",
+      "sv": "där",
+      "nl": "daar",
+      "it": "lì",
+      "es": "allí"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ueberall",
+    "am": "በሁሉም ቦታ",
+    "tr": "behulem bota",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "überall",
+      "en": "everywhere",
+      "sv": "överallt",
+      "nl": "overal",
+      "it": "ovunque",
+      "es": "en todas partes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_draussen",
+    "am": "ውጭ",
+    "tr": "wich",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "draußen",
+      "en": "outside",
+      "sv": "utomhus",
+      "nl": "buiten",
+      "it": "fuori",
+      "es": "afuera"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_oben",
+    "am": "በላይ",
+    "tr": "belay",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "oben",
+      "en": "above, up",
+      "sv": "ovanför",
+      "nl": "boven",
+      "it": "sopra, in alto",
+      "es": "arriba"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_unten",
+    "am": "በታች",
+    "tr": "betach",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "unten",
+      "en": "below, down",
+      "sv": "nedanför",
+      "nl": "onder",
+      "it": "sotto, in basso",
+      "es": "abajo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zusammen",
+    "am": "በጋራ",
+    "tr": "begara",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "zusammen",
+      "en": "together",
+      "sv": "tillsammans",
+      "nl": "samen",
+      "it": "insieme",
+      "es": "juntos"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_allein",
+    "am": "ብቻ",
+    "tr": "bicha",
+    "pos": "adverb",
+    "topic": "adverbs_more",
+    "level": "A1.1",
+    "t": {
+      "de": "allein, nur",
+      "en": "alone, only",
+      "sv": "ensam, bara",
+      "nl": "alleen, slechts",
+      "it": "da solo, soltanto",
+      "es": "solo, únicamente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

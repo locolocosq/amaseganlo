@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "stages": [
+    {
+      "id": "stufe1",
+      "number": 1,
+      "title": {
+        "de": "Die 33 Hauptbuchstaben",
+        "en": "The 33 main letters",
+        "sv": "De 33 huvudbokstäverna",
+        "nl": "De 33 hoofdletters"
+      },
+      "description": {
+        "de": "Die Grundformen aller 33 Konsonanten - noch ohne Vokale.",
+        "en": "The base forms of all 33 consonants - no vowels yet.",
+        "sv": "Grundformerna för alla 33 konsonanter - ännu inga vokaler.",
+        "nl": "De basisvormen van alle 33 medeklinkers - nog geen klinkers."
+      },
+      "lessonFile": "fidel_stufe1_lessons.json"
+    },
+    {
+      "id": "stufe2",
+      "number": 2,
+      "title": {
+        "de": "Das Vokalsystem verstehen",
+        "en": "Understanding the vowel system",
+        "sv": "Att förstå vokalsystemet",
+        "nl": "Het klinkersysteem begrijpen"
+      },
+      "description": {
+        "de": "Wie jedes Zeichen sich durch sieben Vokale verändert.",
+        "en": "How every sign changes through seven vowels.",
+        "sv": "Hur varje tecken förändras genom sju vokaler.",
+        "nl": "Hoe elk teken verandert door zeven klinkers."
+      },
+      "lessonFile": "fidel_stufe2_lessons.json"
+    },
+    {
+      "id": "stufe3",
+      "number": 3,
+      "title": {
+        "de": "Die Ha-Hu-Reihen",
+        "en": "The Ha-Hu rows",
+        "sv": "Ha-Hu-raderna",
+        "nl": "De Ha-Hu-rijen"
+      },
+      "description": {
+        "de": "Alle 33 Reihen in allen 7 Ordnungen - im Ha-Hu-Takt.",
+        "en": "All 33 rows in all 7 orders - to the Ha-Hu rhythm.",
+        "sv": "Alla 33 rader i alla 7 ordningar - i Ha-Hu-takten.",
+        "nl": "Alle 33 rijen in alle 7 ordes - op het Ha-Hu-ritme."
+      },
+      "lessonFile": "fidel_stufe3_lessons.json"
+    },
+    {
+      "id": "stufe4",
+      "number": 4,
+      "title": {
+        "de": "Silben verbinden",
+        "en": "Joining syllables",
+        "sv": "Sammanfoga stavelser",
+        "nl": "Lettergrepen verbinden"
+      },
+      "description": {
+        "de": "Zeichen zu Silben zusammenziehen - reines Entziffern.",
+        "en": "Pulling signs together into syllables - pure decoding.",
+        "sv": "Dra ihop tecken till stavelser - ren avkodning.",
+        "nl": "Tekens samentrekken tot lettergrepen - puur ontcijferen."
+      },
+      "lessonFile": "fidel_stufe4_lessons.json"
+    },
+    {
+      "id": "stufe5",
+      "number": 5,
+      "title": {
+        "de": "Echte Wörter lesen",
+        "en": "Reading real words",
+        "sv": "Läsa riktiga ord",
+        "nl": "Echte woorden lezen"
+      },
+      "description": {
+        "de": "Wörter, die du aus Lernweg A schon kennst - jetzt in echter Schrift.",
+        "en": "Words you already know from path A - now in real script.",
+        "sv": "Ord du redan känner från spår A - nu i verklig skrift.",
+        "nl": "Woorden die je al kent uit leerpad A - nu in echt schrift."
+      },
+      "lessonFile": "fidel_stufe5_lessons.json"
+    },
+    {
+      "id": "stufe6",
+      "number": 6,
+      "title": {
+        "de": "Sätze lesen",
+        "en": "Reading sentences",
+        "sv": "Läsa meningar",
+        "nl": "Zinnen lezen"
+      },
+      "description": {
+        "de": "Kurze Sätze in echter Fidel-Schrift, mit Satzzeichen.",
+        "en": "Short sentences in real Fidel script, with punctuation.",
+        "sv": "Korta meningar i verklig Fidel-skrift, med skiljetecken.",
+        "nl": "Korte zinnen in echt Fidel-schrift, met leestekens."
+      },
+      "lessonFile": "fidel_stufe6_lessons.json"
+    },
+    {
+      "id": "stufe7",
+      "number": 7,
+      "title": {
+        "de": "Zahlen und Satzzeichen",
+        "en": "Numbers and punctuation",
+        "sv": "Siffror och skiljetecken",
+        "nl": "Cijfers en leestekens"
+      },
+      "description": {
+        "de": "Ethiopische Ziffern, Satzzeichen und ein paar labialisierte Sonderformen.",
+        "en": "Ethiopic numerals, punctuation, and a few labialized special forms.",
+        "sv": "Etiopiska siffror, skiljetecken och några labialiserade specialformer.",
+        "nl": "Ethiopische cijfers, leestekens en enkele labiale bijzondere vormen."
+      },
+      "lessonFile": "fidel_stufe7_lessons.json"
+    },
+    {
+      "id": "stufe8",
+      "number": 8,
+      "isBonus": true,
+      "title": {
+        "de": "Schreiben (Bonus)",
+        "en": "Writing (bonus)",
+        "sv": "Skriva (bonus)",
+        "nl": "Schrijven (bonus)"
+      },
+      "description": {
+        "de": "Zeichen mit dem Finger oder der Maus nachzeichnen.",
+        "en": "Trace signs with your finger or mouse.",
+        "sv": "Rita av tecken med fingret eller musen.",
+        "nl": "Tekens natekenen met je vinger of muis."
+      },
+      "lessonFile": "fidel_stufe8_lessons.json"
+    }
+  ]
+}

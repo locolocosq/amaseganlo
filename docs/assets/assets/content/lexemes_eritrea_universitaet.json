@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_ti_uni_camp",
+    "am": "ኮለጅ",
+    "tr": "kolej",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "das College, die Universität",
+      "en": "college, university",
+      "sv": "universitet, högskola",
+      "nl": "universiteit, hogeschool",
+      "it": "il college, l'università",
+      "es": "la universidad, el colegio universitario"
+    },
+    "emoji": "🎓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uni_prof",
+    "am": "ፕሮፌሶር",
+    "tr": "profesor",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "der Professor",
+      "en": "professor",
+      "sv": "professor",
+      "nl": "professor",
+      "it": "il professore",
+      "es": "el profesor"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uni_dgr",
+    "am": "ዲግሪ",
+    "tr": "digiri",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "der Abschluss, Grad",
+      "en": "degree",
+      "sv": "examen",
+      "nl": "diploma, graad",
+      "it": "la laurea, il titolo",
+      "es": "el título, el grado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uni_thss",
+    "am": "ጥናት",
+    "tr": "tinat",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "die Abschlussarbeit, Studie",
+      "en": "thesis, study",
+      "sv": "avhandling, studie",
+      "nl": "scriptie, studie",
+      "it": "la tesi, lo studio",
+      "es": "la tesis, el estudio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uni_schlr",
+    "am": "ናይ ትምህርቲ ደገፍ ገንዘብ",
+    "tr": "nay timhirti degef genzeb",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "das Stipendium",
+      "en": "scholarship",
+      "sv": "stipendium",
+      "nl": "studiebeurs",
+      "it": "la borsa di studio",
+      "es": "la beca"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uni_lctr",
+    "am": "መደረ",
+    "tr": "medere",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "die Vorlesung",
+      "en": "lecture",
+      "sv": "föreläsning",
+      "nl": "lezing, college",
+      "it": "la lezione",
+      "es": "la clase magistral"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_uni_lib",
+    "am": "ቤት መጻሕፍቲ",
+    "tr": "bet metsahifti",
+    "pos": "noun",
+    "topic": "university",
+    "level": "TI",
+    "t": {
+      "de": "die Bibliothek",
+      "en": "library",
+      "sv": "bibliotek",
+      "nl": "bibliotheek",
+      "it": "la biblioteca",
+      "es": "la biblioteca"
+    },
+    "emoji": "📚",
+    "verified": false
+  }
+]

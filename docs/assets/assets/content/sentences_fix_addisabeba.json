@@ -1,0 +1,212 @@
+[
+  {
+    "id": "sen_fix_dehna",
+    "am": "እሱ ደህና ነው።",
+    "tr": "issu dehna new.",
+    "level": "A1.1",
+    "uses": [
+      "lex_dehna"
+    ],
+    "t": {
+      "de": "Er ist gut / wohl.",
+      "en": "He is fine / well.",
+      "sv": "Han är bra / väl.",
+      "nl": "Hij is goed / wel.",
+      "it": "Lui sta bene.",
+      "es": "Él está bien."
+    },
+    "alt": {},
+    "chunks": [
+      "issu",
+      "dehna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_dehna_2",
+    "am": "እሷ ደህና ናት።",
+    "tr": "iswa dehna nat.",
+    "level": "A1.1",
+    "uses": [
+      "lex_dehna"
+    ],
+    "t": {
+      "de": "Sie ist gut / wohl.",
+      "en": "She is fine / well.",
+      "sv": "Hon är bra / väl.",
+      "nl": "Zij is goed / wel.",
+      "it": "Lei sta bene.",
+      "es": "Ella está bien."
+    },
+    "alt": {},
+    "chunks": [
+      "iswa",
+      "dehna",
+      "nat."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_dehna_3",
+    "am": "በጣም ደህና ነው።",
+    "tr": "bet'am dehna new.",
+    "level": "A1.1",
+    "uses": [
+      "lex_dehna"
+    ],
+    "t": {
+      "de": "Es ist sehr gut / wohl.",
+      "en": "It is very fine / well.",
+      "sv": "Han är verkligen bra / väl.",
+      "nl": "Het is heel goed / wel.",
+      "it": "Sta molto bene.",
+      "es": "Está muy bien."
+    },
+    "alt": {},
+    "chunks": [
+      "bet'am",
+      "dehna",
+      "new."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_sim",
+    "am": "ስም አለ።",
+    "tr": "sim ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_sim"
+    ],
+    "t": {
+      "de": "der Name ist vorhanden.",
+      "en": "There is name.",
+      "sv": "Det finns namnet.",
+      "nl": "Er is de naam.",
+      "it": "C'è un nome.",
+      "es": "Hay un nombre."
+    },
+    "alt": {},
+    "chunks": [
+      "sim",
+      "ale."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_ityopia",
+    "am": "ኢትዮጵያ አለኝ።",
+    "tr": "ityopia alegn.",
+    "level": "A1.1",
+    "uses": [
+      "lex_ityopia"
+    ],
+    "t": {
+      "de": "Ich habe Äthiopien.",
+      "en": "I have Ethiopia.",
+      "sv": "Jag har Etiopien.",
+      "nl": "Ik heb Ethiopië.",
+      "it": "Ho l'Etiopia.",
+      "es": "Tengo Etiopía."
+    },
+    "alt": {},
+    "chunks": [
+      "ityopia",
+      "alegn."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_trinken_verb",
+    "am": "መጠጣት እፈልጋለሁ።",
+    "tr": "met'et'at ifeligalehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_trinken_verb"
+    ],
+    "t": {
+      "de": "Ich möchte trinken.",
+      "en": "I want to drink.",
+      "sv": "Jag vill dricka.",
+      "nl": "Ik wil drinken.",
+      "it": "Voglio bere.",
+      "es": "Quiero beber."
+    },
+    "alt": {},
+    "chunks": [
+      "met'et'at",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_essen_verb",
+    "am": "መብላት እወዳለሁ።",
+    "tr": "mebilat iwedallehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_essen_verb"
+    ],
+    "t": {
+      "de": "Essen mag ich.",
+      "en": "I like to eat.",
+      "sv": "Jag gillar att äta.",
+      "nl": "Ik hou van eten.",
+      "it": "Mi piace mangiare.",
+      "es": "Me gusta comer."
+    },
+    "alt": {},
+    "chunks": [
+      "mebilat",
+      "iwedallehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_essen_verb_2",
+    "am": "መብላት እፈልጋለሁ።",
+    "tr": "mebilat ifeligalehu.",
+    "level": "A1.1",
+    "uses": [
+      "lex_essen_verb"
+    ],
+    "t": {
+      "de": "Ich möchte essen.",
+      "en": "I want to eat.",
+      "sv": "Jag vill äta.",
+      "nl": "Ik wil eten.",
+      "it": "Voglio mangiare.",
+      "es": "Quiero comer."
+    },
+    "alt": {},
+    "chunks": [
+      "mebilat",
+      "ifeligalehu."
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fix_honig",
+    "am": "ማር አለ።",
+    "tr": "mar ale.",
+    "level": "A1.1",
+    "uses": [
+      "lex_honig"
+    ],
+    "t": {
+      "de": "der Honig ist vorhanden.",
+      "en": "There is honey.",
+      "sv": "Det finns honung.",
+      "nl": "Er is honing.",
+      "it": "C'è del miele.",
+      "es": "Hay miel."
+    },
+    "alt": {},
+    "chunks": [
+      "mar",
+      "ale."
+    ],
+    "verified": false
+  }
+]

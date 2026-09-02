@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lex_kuehlschrank",
+    "am": "ማቀዝቀዣ",
+    "tr": "mak'ezk'eza",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Kühlschrank",
+      "en": "refrigerator",
+      "sv": "kylskåp",
+      "nl": "koelkast",
+      "it": "il frigorifero",
+      "es": "el refrigerador"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧊",
+    "verified": false
+  },
+  {
+    "id": "lex_ofen",
+    "am": "ምድጃ",
+    "tr": "midija",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Ofen, Herd",
+      "en": "oven, stove",
+      "sv": "ugn, spis",
+      "nl": "oven, fornuis",
+      "it": "il forno, la cucina",
+      "es": "el horno, la cocina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gold",
+    "am": "ወርቅ",
+    "tr": "werk'",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "das Gold",
+      "en": "gold",
+      "sv": "guld",
+      "nl": "goud",
+      "it": "l'oro",
+      "es": "el oro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥇",
+    "verified": true
+  },
+  {
+    "id": "lex_silber",
+    "am": "ብር",
+    "tr": "bir",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "das Silber",
+      "en": "silver",
+      "sv": "silver",
+      "nl": "zilver",
+      "it": "l'argento",
+      "es": "la plata"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_bier",
+    "am": "ቢራ",
+    "tr": "bira",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "das Bier",
+      "en": "beer",
+      "sv": "öl",
+      "nl": "bier",
+      "it": "la birra",
+      "es": "la cerveza"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍺",
+    "verified": true
+  },
+  {
+    "id": "lex_wein",
+    "am": "ወይን",
+    "tr": "wain",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Wein",
+      "en": "wine",
+      "sv": "vin",
+      "nl": "wijn",
+      "it": "il vino",
+      "es": "el vino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍷",
+    "verified": false
+  },
+  {
+    "id": "lex_saft",
+    "am": "ጭማቂ",
+    "tr": "chimak'i",
+    "pos": "noun",
+    "topic": "kitchen_colors_drinks",
+    "level": "A1.2",
+    "t": {
+      "de": "der Saft",
+      "en": "juice",
+      "sv": "juice",
+      "nl": "sap",
+      "it": "il succo",
+      "es": "el jugo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧃",
+    "verified": false
+  }
+]

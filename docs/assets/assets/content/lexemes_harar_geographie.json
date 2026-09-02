@@ -1,0 +1,482 @@
+[
+  {
+    "id": "lex_hg_terara",
+    "am": "ተራራ",
+    "tr": "terara",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Berg",
+      "en": "mountain",
+      "sv": "berg",
+      "nl": "berg",
+      "it": "la montagna",
+      "es": "la montaña"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "⛰️",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_kilkil",
+    "am": "ኮረብታ",
+    "tr": "korebita",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Hügel",
+      "en": "hill",
+      "sv": "kulle",
+      "nl": "heuvel",
+      "it": "la collina",
+      "es": "la colina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_widib",
+    "am": "ወንዝ",
+    "tr": "wenz",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Fluss",
+      "en": "river",
+      "sv": "flod",
+      "nl": "rivier",
+      "it": "il fiume",
+      "es": "el río"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_dagat",
+    "am": "ደጋ",
+    "tr": "dega",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "das Hochland",
+      "en": "highland",
+      "sv": "högland",
+      "nl": "hoogland",
+      "it": "l'altopiano",
+      "es": "el altiplano"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_kola",
+    "am": "ቆላ",
+    "tr": "k'ola",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "das Tiefland",
+      "en": "lowland",
+      "sv": "lågland",
+      "nl": "laagland",
+      "it": "il bassopiano",
+      "es": "la tierra baja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_shengo",
+    "am": "ሸንተረር",
+    "tr": "shenterer",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Gebirgskamm",
+      "en": "mountain ridge",
+      "sv": "bergskam",
+      "nl": "bergkam",
+      "it": "il crinale",
+      "es": "la cresta montañosa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg_metekakel5",
+    "am": "ስምጥ ሸለቆ",
+    "tr": "simit' shelek'o",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "das Grabenbruchtal",
+      "en": "rift valley",
+      "sv": "riftdal",
+      "nl": "riftvallei",
+      "it": "la valle del rift",
+      "es": "el valle del rift"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_adebabay",
+    "am": "አደባባይ",
+    "tr": "adebabay",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Platz (öffentlich)",
+      "en": "public square",
+      "sv": "torg",
+      "nl": "plein",
+      "it": "la piazza pubblica",
+      "es": "la plaza pública"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_hare",
+    "am": "እርከን",
+    "tr": "irikin",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Terrasse (Landschaft)",
+      "en": "terrace (landscape)",
+      "sv": "terrass (landskap)",
+      "nl": "terras (landschap)",
+      "it": "il terrazzamento (paesaggio)",
+      "es": "la terraza (paisaje)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg_akababi2",
+    "am": "ወሰን",
+    "tr": "wesen",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Grenze",
+      "en": "border, boundary",
+      "sv": "gräns",
+      "nl": "grens",
+      "it": "il confine",
+      "es": "la frontera, el límite"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_ye_bahir_zaf",
+    "am": "ቁመት",
+    "tr": "k'umet",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Höhe (Meereshöhe)",
+      "en": "altitude, elevation",
+      "sv": "höjd (över havet)",
+      "nl": "hoogte",
+      "it": "l'altitudine",
+      "es": "la altitud, la elevación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_lugash",
+    "am": "ጉድጓድ",
+    "tr": "gudigwad",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Grube, das Loch",
+      "en": "pit, hole",
+      "sv": "grop, hål",
+      "nl": "kuil, gat",
+      "it": "la fossa, il buco",
+      "es": "el pozo, el agujero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_hulet_kef",
+    "am": "ገደላገደል",
+    "tr": "gedelagedel",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "das zerklüftete Gelände",
+      "en": "rugged terrain",
+      "sv": "kuperad terräng",
+      "nl": "ruig terrein",
+      "it": "il terreno accidentato",
+      "es": "el terreno accidentado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hg_v_mekeses",
+    "am": "መከፋፍል",
+    "tr": "mekefafil",
+    "pos": "verb",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "trennen, aufteilen",
+      "en": "to divide, to separate",
+      "sv": "dela, separera",
+      "nl": "verdelen, scheiden",
+      "it": "dividere, separare",
+      "es": "dividir, separar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_kella",
+    "am": "ደረቅ ወቅት",
+    "tr": "derek' wek'it",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Trockenzeit",
+      "en": "dry season",
+      "sv": "torrperiod",
+      "nl": "droge tijd",
+      "it": "la stagione secca",
+      "es": "la estación seca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_kiremt",
+    "am": "ክረምት",
+    "tr": "kiremt",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Regenzeit",
+      "en": "rainy season",
+      "sv": "regnperiod",
+      "nl": "regentijd",
+      "it": "la stagione delle piogge",
+      "es": "la estación de lluvias"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_zaf_bahir",
+    "am": "ደን",
+    "tr": "den",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Wald",
+      "en": "forest",
+      "sv": "skog",
+      "nl": "woud",
+      "it": "la foresta",
+      "es": "el bosque"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_meda",
+    "am": "ሜዳ",
+    "tr": "meda",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Ebene, das Feld",
+      "en": "plain, field",
+      "sv": "slätt, fält",
+      "nl": "vlakte, veld",
+      "it": "la pianura, il campo",
+      "es": "la llanura, el campo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_zenzelima",
+    "am": "አፈር",
+    "tr": "afer",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Erde, der Boden",
+      "en": "soil, earth",
+      "sv": "jord, mark",
+      "nl": "grond, aarde",
+      "it": "la terra, il suolo",
+      "es": "la tierra, el suelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_dinigay",
+    "am": "ድንጋይ",
+    "tr": "dinigay",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der Stein",
+      "en": "stone",
+      "sv": "sten",
+      "nl": "steen",
+      "it": "la pietra",
+      "es": "la piedra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_shet_hager",
+    "am": "ገጠር",
+    "tr": "gett'er",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "das Land, die ländliche Gegend",
+      "en": "countryside, rural area",
+      "sv": "landsbygd",
+      "nl": "platteland",
+      "it": "la campagna, la zona rurale",
+      "es": "el campo, la zona rural"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_v_mayaz",
+    "am": "ማልማት",
+    "tr": "malimat",
+    "pos": "verb",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "kultivieren, entwickeln",
+      "en": "to cultivate, to develop",
+      "sv": "odla, utveckla",
+      "nl": "cultiveren, ontwikkelen",
+      "it": "coltivare, sviluppare",
+      "es": "cultivar, desarrollar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_haik",
+    "am": "ሐይቅ",
+    "tr": "hayik'",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "der See",
+      "en": "lake",
+      "sv": "sjö",
+      "nl": "meer",
+      "it": "il lago",
+      "es": "el lago"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hg_zurif",
+    "am": "ዙሪያ",
+    "tr": "zuriya",
+    "pos": "noun",
+    "topic": "geography",
+    "level": "B2",
+    "t": {
+      "de": "die Umgebung, der Umkreis",
+      "en": "surroundings, vicinity",
+      "sv": "omgivning",
+      "nl": "omgeving",
+      "it": "i dintorni",
+      "es": "los alrededores"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

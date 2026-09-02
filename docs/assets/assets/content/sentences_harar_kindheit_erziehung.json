@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sen_hke_inat_abat",
+    "am": "እናት እና አባት ልጃቸውን አሳደጉ።",
+    "tr": "inat ina abat lijachewun asadegu.",
+    "level": "B2",
+    "uses": [
+      "lex_hke_inat2",
+      "lex_hke_abat2",
+      "lex_hke_v_maridat"
+    ],
+    "t": {
+      "de": "Mutter und Vater zogen ihr Kind auf.",
+      "en": "Mother and father raised their child.",
+      "sv": "Mamma och pappa uppfostrade sitt barn.",
+      "nl": "Moeder en vader voedden hun kind op.",
+      "it": "La madre e il padre hanno cresciuto il loro figlio.",
+      "es": "La madre y el padre criaron a su hijo."
+    },
+    "chunks": [
+      "inat",
+      "ina",
+      "abat",
+      "lijachewun",
+      "asadegu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hke_lijinet_des",
+    "am": "ልጅነት ደስ ይላል።",
+    "tr": "lijinet des yilal.",
+    "level": "B2",
+    "uses": [
+      "lex_hke_lijinet"
+    ],
+    "t": {
+      "de": "Kindheit ist angenehm.",
+      "en": "Childhood is pleasant.",
+      "sv": "Barndomen är trevlig.",
+      "nl": "Kindertijd is aangenaam.",
+      "it": "L'infanzia è piacevole.",
+      "es": "La infancia es agradable."
+    },
+    "chunks": [
+      "lijinet",
+      "des",
+      "yilal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hke_hitsan_mechaweca",
+    "am": "ሕፃኑ መጫወቻ ፈለገ።",
+    "tr": "hits'anu mechaweca felege.",
+    "level": "B2",
+    "uses": [
+      "lex_hke_hitsan2",
+      "lex_hke_mechaweca"
+    ],
+    "t": {
+      "de": "Das Kleinkind wollte ein Spielzeug.",
+      "en": "The infant wanted a toy.",
+      "sv": "Spädbarnet ville ha en leksak.",
+      "nl": "De kleuter wilde een speelgoed.",
+      "it": "Il bambino piccolo voleva un giocattolo.",
+      "es": "El niño pequeño quería un juguete."
+    },
+    "chunks": [
+      "hits'anu",
+      "mechaweca",
+      "felege"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hke_tihut_mikir",
+    "am": "ትሁት ልጅ ምክር ይሰማል።",
+    "tr": "tihut lij mikir yisemal.",
+    "level": "B2",
+    "uses": [
+      "lex_hke_adj_tihut",
+      "lex_hke_mikir2"
+    ],
+    "t": {
+      "de": "Ein gehorsames Kind hört auf Rat.",
+      "en": "An obedient child listens to advice.",
+      "sv": "Ett lydigt barn lyssnar på råd.",
+      "nl": "Een gehoorzaam kind luistert naar advies.",
+      "it": "Un bambino obbediente ascolta i consigli.",
+      "es": "Un niño obediente escucha los consejos."
+    },
+    "chunks": [
+      "tihut",
+      "lij",
+      "mikir",
+      "yisemal"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_riah",
+    "am": "ሳንቡእ",
+    "tr": "sanbu'e",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Lunge",
+      "en": "lung",
+      "sv": "lunga",
+      "nl": "long",
+      "it": "il polmone",
+      "es": "el pulmón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kwlyt",
+    "am": "ኩሊት",
+    "tr": "kulit",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Niere",
+      "en": "kidney",
+      "sv": "njure",
+      "nl": "nier",
+      "it": "il rene",
+      "es": "el riñón"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hymt",
+    "am": "ማህጸን",
+    "tr": "mahitsen",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Gebärmutter",
+      "en": "womb",
+      "sv": "livmoder",
+      "nl": "baarmoeder",
+      "it": "l'utero",
+      "es": "el útero"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kbdi3",
+    "am": "ኣንጀት",
+    "tr": "anjet",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "der Darm",
+      "en": "intestine",
+      "sv": "tarm",
+      "nl": "darm",
+      "it": "l'intestino",
+      "es": "el intestino"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dmg",
+    "am": "ሓንጎል",
+    "tr": "hangol",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "das Gehirn",
+      "en": "brain",
+      "sv": "hjärna",
+      "nl": "hersenen",
+      "it": "il cervello",
+      "es": "el cerebro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_awzf",
+    "am": "ወደብ ኣፍንጫ",
+    "tr": "wedeb afincha",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "das Nasenloch",
+      "en": "nostril",
+      "sv": "näsborre",
+      "nl": "neusgat",
+      "it": "la narice",
+      "es": "la fosa nasal"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsgri3",
+    "am": "ጭሕሚ",
+    "tr": "chihmi",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "der Bart",
+      "en": "beard",
+      "sv": "skägg",
+      "nl": "baard",
+      "it": "la barba",
+      "es": "la barba"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qrni",
+    "am": "ቀርኒ ርእሲ",
+    "tr": "qerni re'isi",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Schläfe",
+      "en": "temple (head)",
+      "sv": "tinning",
+      "nl": "slaap (hoofd)",
+      "it": "la tempia",
+      "es": "la sien"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agmi",
+    "am": "ኣገዲ",
+    "tr": "agedi",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "das Kinn",
+      "en": "chin",
+      "sv": "haka",
+      "nl": "kin",
+      "it": "il mento",
+      "es": "la barbilla"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_qrbti2",
+    "am": "ቆርበት ገጽ",
+    "tr": "qorbet gets",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Wange",
+      "en": "cheek",
+      "sv": "kind",
+      "nl": "wang",
+      "it": "la guancia",
+      "es": "la mejilla"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hbrti2",
+    "am": "ቅንድብ",
+    "tr": "qinidib",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Augenbraue",
+      "en": "eyebrow",
+      "sv": "ögonbryn",
+      "nl": "wenkbrauw",
+      "it": "il sopracciglio",
+      "es": "la ceja"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agln",
+    "am": "ኣጽፋር",
+    "tr": "atsfar",
+    "pos": "noun",
+    "topic": "body_organs",
+    "level": "TI",
+    "t": {
+      "de": "die Fingernägel",
+      "en": "fingernails",
+      "sv": "naglar",
+      "nl": "nagels",
+      "it": "le unghie",
+      "es": "las uñas"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

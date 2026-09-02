@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_mirmera",
+    "am": "ምርመራ",
+    "tr": "mirmera",
+    "pos": "noun",
+    "topic": "health_advanced",
+    "level": "B2",
+    "t": {
+      "de": "die Diagnose, die Untersuchung",
+      "en": "diagnosis, examination",
+      "sv": "diagnos, undersökning",
+      "nl": "diagnose, onderzoek",
+      "it": "la diagnosi, la visita",
+      "es": "el diagnóstico, el examen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hikimina",
+    "am": "ህክምና",
+    "tr": "hikimina",
+    "pos": "noun",
+    "topic": "health_advanced",
+    "level": "B2",
+    "t": {
+      "de": "die Behandlung, die Medizin",
+      "en": "treatment, medicine",
+      "sv": "behandling, medicin",
+      "nl": "behandeling, geneeskunde",
+      "it": "la cura, la medicina",
+      "es": "el tratamiento, la medicina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kedo_tigena",
+    "am": "ቀዶ ጥገና",
+    "tr": "k'edo t'igena",
+    "pos": "noun",
+    "topic": "health_advanced",
+    "level": "B2",
+    "t": {
+      "de": "die Operation",
+      "en": "surgery",
+      "sv": "operation",
+      "nl": "operatie",
+      "it": "l'operazione",
+      "es": "la cirugía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_milikit",
+    "am": "ምልክት",
+    "tr": "milikit",
+    "pos": "noun",
+    "topic": "health_advanced",
+    "level": "B2",
+    "t": {
+      "de": "das Symptom, das Zeichen",
+      "en": "symptom, sign",
+      "sv": "symtom, tecken",
+      "nl": "symptoom, teken",
+      "it": "il sintomo, il segno",
+      "es": "el síntoma, la señal"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_siryesedede",
+    "am": "ስር የሰደደ",
+    "tr": "sir yesedede",
+    "pos": "adjective",
+    "topic": "health_advanced",
+    "level": "B2",
+    "t": {
+      "de": "chronisch",
+      "en": "chronic",
+      "sv": "kronisk",
+      "nl": "chronisch",
+      "it": "cronico",
+      "es": "crónico"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_makem",
+    "am": "ማከም",
+    "tr": "makem",
+    "pos": "verb",
+    "topic": "health_advanced",
+    "level": "B2",
+    "t": {
+      "de": "behandeln (medizinisch)",
+      "en": "to treat (medically)",
+      "sv": "behandla (medicinskt)",
+      "nl": "behandelen (medisch)",
+      "it": "curare (dal punto di vista medico)",
+      "es": "tratar (médicamente)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

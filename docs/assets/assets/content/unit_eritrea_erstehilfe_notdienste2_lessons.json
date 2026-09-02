@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_eritrea_erstehilfe_notdienste2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_erh_plstr",
+      "lex_ti_erh_kit",
+      "lex_ti_erh_wound",
+      "lex_ti_erh_burn",
+      "lex_ti_erh_faint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_erstehilfe_notdienste2_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_erh_plstr",
+      "lex_ti_erh_kit",
+      "lex_ti_erh_wound",
+      "lex_ti_erh_burn",
+      "lex_ti_erh_faint"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erstehilfe_notdienste2_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_erh_plstr",
+      "lex_ti_erh_kit",
+      "lex_ti_erh_wound",
+      "lex_ti_erh_burn",
+      "lex_ti_erh_faint"
+    ],
+    "sentenceIds": [
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_fix_kfz_round"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erstehilfe_notdienste2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_erh_plstr",
+      "lex_ti_erh_kit",
+      "lex_ti_erh_wound",
+      "lex_ti_erh_burn",
+      "lex_ti_erh_faint"
+    ],
+    "sentenceIds": [
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_fix_kfz_round"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erstehilfe_notdienste2_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_erh_plstr",
+      "lex_ti_erh_kit",
+      "lex_ti_erh_wound",
+      "lex_ti_erh_burn",
+      "lex_ti_erh_faint"
+    ],
+    "sentenceIds": [
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_fix_kfz_round"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_erstehilfe_notdienste2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_erh_plstr",
+      "lex_ti_erh_kit",
+      "lex_ti_erh_wound",
+      "lex_ti_erh_burn",
+      "lex_ti_erh_faint"
+    ],
+    "sentenceIds": [
+      "sen_ti_erstehilfe_notdienste2_1",
+      "sen_gen_erh_kit",
+      "sen_gen_erh_wound",
+      "sen_gen_erh_burn",
+      "sen_fix_kfz_round"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "unit_reisen_verkehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_reisen_verkehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_reisen_verkehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_bus",
+      "lex_taxi",
+      "lex_flugzeug",
+      "lex_ticket",
+      "lex_gepaeck",
+      "lex_auto",
+      "lex_zug",
+      "lex_v_fahren",
+      "lex_v_reisen",
+      "lex_v_ankommen",
+      "lex_pass",
+      "lex_fahrrad",
+      "lex_schiff",
+      "lex_karte",
+      "lex_hafen",
+      "lex_grenze",
+      "lex_visum",
+      "lex_tourist",
+      "lex_bruecke"
+    ],
+    "sentenceIds": [
+      "sen_awroplan_megwaz",
+      "sen_gen_bus",
+      "sen_gen_taxi",
+      "sen_gen_ticket",
+      "sen_gen_gepaeck"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

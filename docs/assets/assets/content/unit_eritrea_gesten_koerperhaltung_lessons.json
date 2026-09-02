@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_gesten_koerperhaltung_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_gst2_wave",
+      "lex_ti_gst2_nod",
+      "lex_ti_gst2_shake",
+      "lex_ti_gst2_pnt",
+      "lex_ti_gst2_hug",
+      "lex_ti_khl_stand",
+      "lex_ti_khl_sit2",
+      "lex_ti_khl_lie",
+      "lex_ti_khl_kneel",
+      "lex_ti_khl_bend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_gesten_koerperhaltung_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_gst2_wave",
+      "lex_ti_gst2_nod",
+      "lex_ti_gst2_shake",
+      "lex_ti_gst2_pnt",
+      "lex_ti_gst2_hug",
+      "lex_ti_khl_stand",
+      "lex_ti_khl_sit2",
+      "lex_ti_khl_lie",
+      "lex_ti_khl_kneel",
+      "lex_ti_khl_bend"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesten_koerperhaltung_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_gst2_wave",
+      "lex_ti_gst2_nod",
+      "lex_ti_gst2_shake",
+      "lex_ti_gst2_pnt",
+      "lex_ti_gst2_hug",
+      "lex_ti_khl_stand",
+      "lex_ti_khl_sit2",
+      "lex_ti_khl_lie",
+      "lex_ti_khl_kneel",
+      "lex_ti_khl_bend"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_fix_bib_quiet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesten_koerperhaltung_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_gst2_wave",
+      "lex_ti_gst2_nod",
+      "lex_ti_gst2_shake",
+      "lex_ti_gst2_pnt",
+      "lex_ti_gst2_hug",
+      "lex_ti_khl_stand",
+      "lex_ti_khl_sit2",
+      "lex_ti_khl_lie",
+      "lex_ti_khl_kneel",
+      "lex_ti_khl_bend"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_fix_bib_quiet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesten_koerperhaltung_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_gst2_wave",
+      "lex_ti_gst2_nod",
+      "lex_ti_gst2_shake",
+      "lex_ti_gst2_pnt",
+      "lex_ti_gst2_hug",
+      "lex_ti_khl_stand",
+      "lex_ti_khl_sit2",
+      "lex_ti_khl_lie",
+      "lex_ti_khl_kneel",
+      "lex_ti_khl_bend"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_fix_bib_quiet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_gesten_koerperhaltung_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_gst2_wave",
+      "lex_ti_gst2_nod",
+      "lex_ti_gst2_shake",
+      "lex_ti_gst2_pnt",
+      "lex_ti_gst2_hug",
+      "lex_ti_khl_stand",
+      "lex_ti_khl_sit2",
+      "lex_ti_khl_lie",
+      "lex_ti_khl_kneel",
+      "lex_ti_khl_bend"
+    ],
+    "sentenceIds": [
+      "sen_ti_gesten_koerperhaltung_1",
+      "sen_gen_gst2_nod",
+      "sen_gen_gst2_shake",
+      "sen_gen_gst2_pnt",
+      "sen_fix_bib_quiet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "id": "lex_beruf",
+    "am": "ስራ",
+    "tr": "sira",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Arbeit, der Beruf",
+      "en": "work, job",
+      "sv": "arbete, jobb",
+      "nl": "werk, baan",
+      "it": "il lavoro, la professione",
+      "es": "el trabajo, la profesión"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💼",
+    "verified": true
+  },
+  {
+    "id": "lex_buero",
+    "am": "ቢሮ",
+    "tr": "biro",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "das Büro",
+      "en": "office",
+      "sv": "kontor",
+      "nl": "kantoor",
+      "it": "l'ufficio",
+      "es": "la oficina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🏢",
+    "verified": true
+  },
+  {
+    "id": "lex_lehrer",
+    "am": "አስተማሪ",
+    "tr": "astemari",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "der Lehrer, die Lehrerin",
+      "en": "teacher",
+      "sv": "lärare",
+      "nl": "leraar",
+      "it": "il maestro, la maestra",
+      "es": "el profesor, la profesora"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "👩‍🏫",
+    "verified": true
+  },
+  {
+    "id": "lex_schueler",
+    "am": "ተማሪ",
+    "tr": "temari",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "der Schüler, der Student",
+      "en": "student",
+      "sv": "student",
+      "nl": "student",
+      "it": "lo studente, la studentessa",
+      "es": "el estudiante, la estudiante"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎓",
+    "verified": true
+  },
+  {
+    "id": "lex_buch",
+    "am": "መጽሐፍ",
+    "tr": "mets'ihaf",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "das Buch",
+      "en": "book",
+      "sv": "bok",
+      "nl": "boek",
+      "it": "il libro",
+      "es": "el libro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📖",
+    "verified": true
+  },
+  {
+    "id": "lex_v_schreiben",
+    "am": "መፃፍ",
+    "tr": "mets'af",
+    "pos": "verb",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "schreiben",
+      "en": "to write",
+      "sv": "skriva",
+      "nl": "schrijven",
+      "it": "scrivere",
+      "es": "escribir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_lesen",
+    "am": "ማንበብ",
+    "tr": "manbeb",
+    "pos": "verb",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "lesen",
+      "en": "to read",
+      "sv": "läsa",
+      "nl": "lezen",
+      "it": "leggere",
+      "es": "leer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_stift",
+    "am": "እርሳስ",
+    "tr": "irsas",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "der Stift, Bleistift",
+      "en": "pencil",
+      "sv": "penna",
+      "nl": "potlood",
+      "it": "la matita",
+      "es": "el lápiz"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✏️",
+    "verified": false
+  },
+  {
+    "id": "lex_papier",
+    "am": "ወረቀት",
+    "tr": "wereket",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "das Papier",
+      "en": "paper",
+      "sv": "papper",
+      "nl": "papier",
+      "it": "la carta",
+      "es": "el papel"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "📄",
+    "verified": true
+  },
+  {
+    "id": "lex_universitaet",
+    "am": "ዩኒቨርሲቲ",
+    "tr": "yuniversiti",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Universität",
+      "en": "university",
+      "sv": "universitet",
+      "nl": "universiteit",
+      "it": "l'università",
+      "es": "la universidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎓",
+    "verified": true
+  },
+  {
+    "id": "lex_pruefung",
+    "am": "ፈተና",
+    "tr": "fetena",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Prüfung",
+      "en": "exam, test",
+      "sv": "prov",
+      "nl": "examen",
+      "it": "l'esame",
+      "es": "el examen"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_computer",
+    "am": "ኮምፒተር",
+    "tr": "computer",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "der Computer",
+      "en": "computer",
+      "sv": "dator",
+      "nl": "computer",
+      "it": "il computer",
+      "es": "la computadora"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💻",
+    "verified": true
+  },
+  {
+    "id": "lex_chef",
+    "am": "አለቃ",
+    "tr": "aleka",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "der Chef, die Chefin",
+      "en": "boss",
+      "sv": "chef",
+      "nl": "baas",
+      "it": "il capo, la capa",
+      "es": "el jefe, la jefa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_gehalt",
+    "am": "ደመወዝ",
+    "tr": "demewez",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "das Gehalt",
+      "en": "salary",
+      "sv": "lön",
+      "nl": "salaris",
+      "it": "lo stipendio",
+      "es": "el salario"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_firma",
+    "am": "ድርጅት",
+    "tr": "dirijit",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Firma, das Unternehmen",
+      "en": "company",
+      "sv": "företag",
+      "nl": "bedrijf",
+      "it": "l'azienda, la ditta",
+      "es": "la empresa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hausaufgabe",
+    "am": "የቤት ስራ",
+    "tr": "yebiet sira",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Hausaufgabe",
+      "en": "homework",
+      "sv": "läxa",
+      "nl": "huiswerk",
+      "it": "i compiti",
+      "es": "la tarea"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tafel",
+    "am": "ሰሌዳ",
+    "tr": "seleda",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Tafel",
+      "en": "board",
+      "sv": "tavla",
+      "nl": "schoolbord",
+      "it": "la lavagna",
+      "es": "la pizarra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_tasche",
+    "am": "ቦርሳ",
+    "tr": "borsa",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Tasche",
+      "en": "bag",
+      "sv": "väska",
+      "nl": "tas",
+      "it": "la borsa",
+      "es": "la bolsa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🎒",
+    "verified": true
+  },
+  {
+    "id": "lex_ferien",
+    "am": "እረፍት",
+    "tr": "ireft",
+    "pos": "noun",
+    "topic": "work_school",
+    "level": "A2",
+    "t": {
+      "de": "die Ferien, der Urlaub",
+      "en": "vacation, holiday",
+      "sv": "semester",
+      "nl": "vakantie",
+      "it": "le vacanze",
+      "es": "las vacaciones"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

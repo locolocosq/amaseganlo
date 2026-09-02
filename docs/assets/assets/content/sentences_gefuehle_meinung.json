@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sen_destegna_negn",
+    "am": "እኔ ደስተኛ ነኝ።",
+    "tr": "ine destegna negn.",
+    "level": "B1",
+    "uses": [
+      "lex_ine",
+      "lex_gluecklich"
+    ],
+    "t": {
+      "de": "Ich bin glücklich.",
+      "en": "I am happy.",
+      "sv": "Jag är glad.",
+      "nl": "Ik ben gelukkig.",
+      "it": "Sono felice.",
+      "es": "Estoy feliz."
+    },
+    "alt": {},
+    "chunks": [
+      "ine",
+      "destegna",
+      "negn"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_fikir_kilki_new",
+    "am": "ፍቅር ቁልፍ ነው።",
+    "tr": "fikir kulf new.",
+    "level": "B1",
+    "uses": [
+      "lex_liebe_noun",
+      "lex_schluessel"
+    ],
+    "t": {
+      "de": "Liebe ist ein Schlüssel.",
+      "en": "Love is a key.",
+      "sv": "Kärlek är en nyckel.",
+      "nl": "Liefde is een sleutel.",
+      "it": "L'amore è una chiave.",
+      "es": "El amor es una llave."
+    },
+    "alt": {},
+    "chunks": [
+      "fikir",
+      "kulf",
+      "new"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "sen_hab2_azaji_serategna",
+    "am": "አሠሪው ሠራተኛውን ቀጠረ።",
+    "tr": "aseriw seratenyawin k'et'ere.",
+    "level": "B2",
+    "uses": [
+      "lex_hab2_azaji",
+      "lex_hab2_serategna2",
+      "lex_hab2_v_meketer"
+    ],
+    "t": {
+      "de": "Der Arbeitgeber stellte den Angestellten ein.",
+      "en": "The employer hired the employee.",
+      "sv": "Arbetsgivaren anställde den anställde.",
+      "nl": "De werkgever nam de werknemer aan.",
+      "it": "Il datore di lavoro ha assunto il dipendente.",
+      "es": "El empleador contrató al empleado."
+    },
+    "chunks": [
+      "aseriw",
+      "seratenyawin",
+      "k'et'ere"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hab2_serategna_dimoz",
+    "am": "ሠራተኛው ደመወዝ ተከፈለው።",
+    "tr": "seratenyaw demewez tekefelew.",
+    "level": "B2",
+    "uses": [
+      "lex_hab2_serategna2",
+      "lex_hab2_dimoz"
+    ],
+    "t": {
+      "de": "Der Angestellte wurde mit einem Gehalt bezahlt.",
+      "en": "The employee was paid a salary.",
+      "sv": "Den anställde fick lön.",
+      "nl": "De werknemer werd een salaris betaald.",
+      "it": "Il dipendente è stato pagato con uno stipendio.",
+      "es": "Al empleado se le pagó un salario."
+    },
+    "chunks": [
+      "seratenyaw",
+      "demewez",
+      "tekefelew"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hab2_ashagari_meritmeri",
+    "am": "ኃላፊው ስብሰባ ጠራ።",
+    "tr": "halafiw sibiseba t'era.",
+    "level": "B2",
+    "uses": [
+      "lex_hab2_ashagari",
+      "lex_hab2_meritmeri"
+    ],
+    "t": {
+      "de": "Der Vorgesetzte rief ein Meeting.",
+      "en": "The supervisor called a meeting.",
+      "sv": "Chefen kallade till ett möte.",
+      "nl": "De leidinggevende riep een vergadering bijeen.",
+      "it": "Il capo ha convocato una riunione.",
+      "es": "El supervisor convocó una reunión."
+    },
+    "chunks": [
+      "halafiw",
+      "sibiseba",
+      "t'era"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hab2_serategna_edget",
+    "am": "ሠራተኛው እድገት አገኘ።",
+    "tr": "seratenyaw idiget agegne.",
+    "level": "B2",
+    "uses": [
+      "lex_hab2_serategna2",
+      "lex_hab2_edget"
+    ],
+    "t": {
+      "de": "Der Angestellte bekam eine Beförderung.",
+      "en": "The employee got a promotion.",
+      "sv": "Den anställde fick en befordran.",
+      "nl": "De werknemer kreeg een promotie.",
+      "it": "Il dipendente ha ottenuto una promozione.",
+      "es": "El empleado consiguió un ascenso."
+    },
+    "chunks": [
+      "seratenyaw",
+      "idiget",
+      "agegne"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_stiefel",
+    "am": "ቦት ጫማ",
+    "tr": "bot chama",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Stiefel",
+      "en": "boots",
+      "sv": "stövlar",
+      "nl": "laarzen",
+      "it": "gli stivali",
+      "es": "las botas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🥾",
+    "verified": false
+  },
+  {
+    "id": "lex_schmuck",
+    "am": "ጌጣጌጥ",
+    "tr": "geTagéT'",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Schmuck",
+      "en": "jewelry",
+      "sv": "smycken",
+      "nl": "sieraden",
+      "it": "i gioielli",
+      "es": "las joyas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "💍",
+    "verified": false
+  },
+  {
+    "id": "lex_handschuhe",
+    "am": "ጓንት",
+    "tr": "gwanit",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Handschuhe",
+      "en": "gloves",
+      "sv": "handskar",
+      "nl": "handschoenen",
+      "it": "i guanti",
+      "es": "los guantes"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🧤",
+    "verified": true
+  },
+  {
+    "id": "lex_sonnenbrille",
+    "am": "የፀሐይ መነጽር",
+    "tr": "yetsehai menetsir",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "die Sonnenbrille",
+      "en": "sunglasses",
+      "sv": "solglasögon",
+      "nl": "zonnebril",
+      "it": "gli occhiali da sole",
+      "es": "las gafas de sol"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🕶️",
+    "verified": false
+  },
+  {
+    "id": "lex_regenschirm",
+    "am": "ጃንጥላ",
+    "tr": "jant'ila",
+    "pos": "noun",
+    "topic": "clothing_more",
+    "level": "A1.2",
+    "t": {
+      "de": "der Regenschirm",
+      "en": "umbrella",
+      "sv": "paraply",
+      "nl": "paraplu",
+      "it": "l'ombrello",
+      "es": "el paraguas"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "☂️",
+    "verified": true
+  }
+]

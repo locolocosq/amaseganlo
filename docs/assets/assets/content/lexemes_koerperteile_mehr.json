@@ -1,0 +1,222 @@
+[
+  {
+    "id": "lex_augenbraue",
+    "am": "ቅንድብ",
+    "tr": "kinidib",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Augenbraue",
+      "en": "eyebrow",
+      "sv": "ögonbryn",
+      "nl": "wenkbrauw",
+      "it": "il sopracciglio",
+      "es": "la ceja"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_wimper",
+    "am": "የዐይን ጸጉር",
+    "tr": "yeayin tsegur",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Wimper",
+      "en": "eyelash",
+      "sv": "ögonfrans",
+      "nl": "wimper",
+      "it": "il ciglio",
+      "es": "la pestaña"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kinn",
+    "am": "አገጭ",
+    "tr": "agech",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "das Kinn",
+      "en": "chin",
+      "sv": "haka",
+      "nl": "kin",
+      "it": "il mento",
+      "es": "la barbilla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_wange",
+    "am": "ጉንጭ",
+    "tr": "gunich",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Wange",
+      "en": "cheek",
+      "sv": "kind",
+      "nl": "wang",
+      "it": "la guancia",
+      "es": "la mejilla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_ellbogen",
+    "am": "ክርን",
+    "tr": "kirin",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "der Ellbogen",
+      "en": "elbow",
+      "sv": "armbåge",
+      "nl": "elleboog",
+      "it": "il gomito",
+      "es": "el codo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_knoechel",
+    "am": "ቁርጭምጭሚት",
+    "tr": "k'urichimichimit",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "der Knöchel",
+      "en": "ankle",
+      "sv": "vrist",
+      "nl": "enkel",
+      "it": "la caviglia",
+      "es": "el tobillo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_handgelenk",
+    "am": "የእጅ አንጓ",
+    "tr": "yeij angwa",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "das Handgelenk",
+      "en": "wrist",
+      "sv": "handled",
+      "nl": "pols",
+      "it": "il polso",
+      "es": "la muñeca"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_taille",
+    "am": "ወገብ",
+    "tr": "weegeb",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Taille",
+      "en": "waist",
+      "sv": "midja",
+      "nl": "taille",
+      "it": "la vita",
+      "es": "la cintura"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_stirn",
+    "am": "ግንባር",
+    "tr": "ginbar",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Stirn",
+      "en": "forehead",
+      "sv": "panna",
+      "nl": "voorhoofd",
+      "it": "la fronte",
+      "es": "la frente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zunge",
+    "am": "ምላስ",
+    "tr": "milas",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "die Zunge",
+      "en": "tongue",
+      "sv": "tunga",
+      "nl": "tong",
+      "it": "la lingua",
+      "es": "la lengua"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_fingernagel",
+    "am": "ጥፍር",
+    "tr": "t'ifir",
+    "pos": "noun",
+    "topic": "body_more",
+    "level": "A2",
+    "t": {
+      "de": "der Fingernagel",
+      "en": "fingernail",
+      "sv": "nagel",
+      "nl": "vingernagel",
+      "it": "l'unghia",
+      "es": "la uña"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

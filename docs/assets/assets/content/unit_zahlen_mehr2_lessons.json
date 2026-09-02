@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_zahlen_mehr2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_sechste",
+      "lex_siebte",
+      "lex_achte",
+      "lex_neunte",
+      "lex_zehnte",
+      "lex_zahl_400",
+      "lex_zahl_600",
+      "lex_zahl_700",
+      "lex_zahl_800",
+      "lex_zahl_900"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_zahlen_mehr2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_sechste",
+      "lex_siebte",
+      "lex_achte",
+      "lex_neunte",
+      "lex_zehnte",
+      "lex_zahl_400",
+      "lex_zahl_600",
+      "lex_zahl_700",
+      "lex_zahl_800",
+      "lex_zahl_900"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_zahlen_mehr2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_sechste",
+      "lex_siebte",
+      "lex_achte",
+      "lex_neunte",
+      "lex_zehnte",
+      "lex_zahl_400",
+      "lex_zahl_600",
+      "lex_zahl_700",
+      "lex_zahl_800",
+      "lex_zahl_900"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_zahlen_mehr2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_sechste",
+      "lex_siebte",
+      "lex_achte",
+      "lex_neunte",
+      "lex_zehnte",
+      "lex_zahl_400",
+      "lex_zahl_600",
+      "lex_zahl_700",
+      "lex_zahl_800",
+      "lex_zahl_900"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_zahlen_mehr2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_sechste",
+      "lex_siebte",
+      "lex_achte",
+      "lex_neunte",
+      "lex_zehnte",
+      "lex_zahl_400",
+      "lex_zahl_600",
+      "lex_zahl_700",
+      "lex_zahl_800",
+      "lex_zahl_900"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_zahlen_mehr2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_sechste",
+      "lex_siebte",
+      "lex_achte",
+      "lex_neunte",
+      "lex_zehnte",
+      "lex_zahl_400",
+      "lex_zahl_600",
+      "lex_zahl_700",
+      "lex_zahl_800",
+      "lex_zahl_900"
+    ],
+    "sentenceIds": [
+      "sen_fix2_zahl_400",
+      "sen_fix2_zahl_600",
+      "sen_fix2_zahl_700",
+      "sen_fix2_zahl_800",
+      "sen_fix2_zahl_900"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

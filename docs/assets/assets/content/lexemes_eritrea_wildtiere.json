@@ -1,0 +1,146 @@
+[
+  {
+    "id": "lex_ti_wld_lion",
+    "am": "ኣንበሳ",
+    "tr": "anbesa",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "der Löwe",
+      "en": "lion",
+      "sv": "lejon",
+      "nl": "leeuw",
+      "it": "il leone",
+      "es": "el león"
+    },
+    "emoji": "🦁",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_elph",
+    "am": "ሓርማዝ",
+    "tr": "harimaz",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "der Elefant",
+      "en": "elephant",
+      "sv": "elefant",
+      "nl": "olifant",
+      "it": "l'elefante",
+      "es": "el elefante"
+    },
+    "emoji": "🐘",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_grff",
+    "am": "ቀርኒ ኣንበሳ",
+    "tr": "qerni gerafi",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "die Giraffe",
+      "en": "giraffe",
+      "sv": "giraff",
+      "nl": "giraffe",
+      "it": "la giraffa",
+      "es": "la jirafa"
+    },
+    "emoji": "🦒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_zebr",
+    "am": "ኣድጊ በረኻ",
+    "tr": "adigi bereka",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "das Zebra",
+      "en": "zebra",
+      "sv": "zebra",
+      "nl": "zebra",
+      "it": "la zebra",
+      "es": "la cebra"
+    },
+    "emoji": "🦓",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_mnky",
+    "am": "ህበይ",
+    "tr": "hibey",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "der Affe",
+      "en": "monkey",
+      "sv": "apa",
+      "nl": "aap",
+      "it": "la scimmia",
+      "es": "el mono"
+    },
+    "emoji": "🐒",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_croc",
+    "am": "ሓርገጽገጽ",
+    "tr": "hargetsgets",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "das Krokodil",
+      "en": "crocodile",
+      "sv": "krokodil",
+      "nl": "krokodil",
+      "it": "il coccodrillo",
+      "es": "el cocodrilo"
+    },
+    "emoji": "🐊",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_rhno",
+    "am": "ቀርኒ ዘለዎ ኣራዊት",
+    "tr": "qerni zelewo arawit",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "das Nashorn",
+      "en": "rhinoceros",
+      "sv": "noshörning",
+      "nl": "neushoorn",
+      "it": "il rinoceronte",
+      "es": "el rinoceronte"
+    },
+    "emoji": "🦏",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wld_hyna",
+    "am": "ዝብኢ",
+    "tr": "zibi'i",
+    "pos": "noun",
+    "topic": "wild_animals",
+    "level": "TI",
+    "t": {
+      "de": "die Hyäne",
+      "en": "hyena",
+      "sv": "hyena",
+      "nl": "hyena",
+      "it": "la iena",
+      "es": "la hiena"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

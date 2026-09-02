@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_arat2",
+    "am": "ዓራት ህጻን",
+    "tr": "'arat hitsan",
+    "pos": "noun",
+    "topic": "childcare",
+    "level": "TI",
+    "t": {
+      "de": "das Kinderbett",
+      "en": "crib",
+      "sv": "barnsäng",
+      "nl": "wieg",
+      "it": "il lettino",
+      "es": "la cuna"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gwatra",
+    "am": "ጋት ህጻን",
+    "tr": "gat hitsan",
+    "pos": "noun",
+    "topic": "childcare",
+    "level": "TI",
+    "t": {
+      "de": "der Kinderwagen",
+      "en": "stroller",
+      "sv": "barnvagn",
+      "nl": "kinderwagen",
+      "it": "il passeggino",
+      "es": "el cochecito"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_shukhia",
+    "am": "ጫፍ ጡብ",
+    "tr": "chaf t'ub",
+    "pos": "noun",
+    "topic": "childcare",
+    "level": "TI",
+    "t": {
+      "de": "der Schnuller",
+      "en": "pacifier",
+      "sv": "napp",
+      "nl": "speen",
+      "it": "il ciuccio",
+      "es": "el chupete"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tsawta",
+    "am": "ባምቡላ",
+    "tr": "bambula",
+    "pos": "noun",
+    "topic": "childcare",
+    "level": "TI",
+    "t": {
+      "de": "die Puppe",
+      "en": "doll",
+      "sv": "docka",
+      "nl": "pop",
+      "it": "la bambola",
+      "es": "la muñeca"
+    },
+    "emoji": "🪆",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kchna",
+    "am": "ኪንደርጋርተን",
+    "tr": "kindergarten",
+    "pos": "noun",
+    "topic": "childcare",
+    "level": "TI",
+    "t": {
+      "de": "der Kindergarten",
+      "en": "kindergarten",
+      "sv": "förskola",
+      "nl": "kleuterschool",
+      "it": "l'asilo",
+      "es": "el jardín de infancia"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hzti4",
+    "am": "ኣላዪት ህጻን",
+    "tr": "alayit hitsan",
+    "pos": "noun",
+    "topic": "childcare",
+    "level": "TI",
+    "t": {
+      "de": "das Kindermädchen, die Babysitterin",
+      "en": "nanny, babysitter",
+      "sv": "barnvakt",
+      "nl": "oppas",
+      "it": "la babysitter, la tata",
+      "es": "la niñera"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

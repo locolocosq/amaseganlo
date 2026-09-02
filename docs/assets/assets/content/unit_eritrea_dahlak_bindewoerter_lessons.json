@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_eritrea_dahlak_bindewoerter_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_dahlak_bindewoerter_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_dahlak_bindewoerter_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho"
+    ],
+    "sentenceIds": [
+      "sen_ti_dahlak_mai_bun",
+      "sen_ti_dahlak_geza_siga",
+      "sen_ti_dahlak_bani_shai",
+      "sen_ti_dahlak_abo_ade",
+      "sen_ti_dahlak_haw_hafti",
+      "sen_ti_dahlak_mai_bun2",
+      "sen_ti_dahlak_geza_bani",
+      "sen_ti_dahlak_siga_mai",
+      "sen_ti_dahlak_abo_ade2",
+      "sen_ti_dahlak_haw_hafti2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_dahlak_bindewoerter_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho"
+    ],
+    "sentenceIds": [
+      "sen_ti_dahlak_mai_bun",
+      "sen_ti_dahlak_geza_siga",
+      "sen_ti_dahlak_bani_shai",
+      "sen_ti_dahlak_abo_ade",
+      "sen_ti_dahlak_haw_hafti",
+      "sen_ti_dahlak_mai_bun2",
+      "sen_ti_dahlak_geza_bani",
+      "sen_ti_dahlak_siga_mai",
+      "sen_ti_dahlak_abo_ade2",
+      "sen_ti_dahlak_haw_hafti2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_dahlak_bindewoerter_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho"
+    ],
+    "sentenceIds": [
+      "sen_ti_dahlak_mai_bun",
+      "sen_ti_dahlak_geza_siga",
+      "sen_ti_dahlak_bani_shai",
+      "sen_ti_dahlak_abo_ade",
+      "sen_ti_dahlak_haw_hafti",
+      "sen_ti_dahlak_mai_bun2",
+      "sen_ti_dahlak_geza_bani",
+      "sen_ti_dahlak_siga_mai",
+      "sen_ti_dahlak_abo_ade2",
+      "sen_ti_dahlak_haw_hafti2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_dahlak_bindewoerter_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_knj_and2",
+      "lex_ti_knj_but2",
+      "lex_ti_knj_or2",
+      "lex_ti_knj_becaus",
+      "lex_ti_knj_if2",
+      "lex_ti_knj_altho"
+    ],
+    "sentenceIds": [
+      "sen_ti_dahlak_mai_bun",
+      "sen_ti_dahlak_geza_siga",
+      "sen_ti_dahlak_bani_shai",
+      "sen_ti_dahlak_abo_ade",
+      "sen_ti_dahlak_haw_hafti",
+      "sen_ti_dahlak_mai_bun2",
+      "sen_ti_dahlak_geza_bani",
+      "sen_ti_dahlak_siga_mai",
+      "sen_ti_dahlak_abo_ade2",
+      "sen_ti_dahlak_haw_hafti2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

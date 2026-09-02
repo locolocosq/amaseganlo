@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_veraenderung_vergleiche2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_vrd_change2",
+      "lex_ti_vrd_grow2",
+      "lex_ti_vrd_decrs",
+      "lex_ti_vrd_stop2",
+      "lex_ti_vrd_cntnu",
+      "lex_ti_vg2_same2",
+      "lex_ti_vg2_diff2",
+      "lex_ti_vg2_best2",
+      "lex_ti_vg2_worst2",
+      "lex_ti_vg2_more2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_veraenderung_vergleiche2_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_vrd_change2",
+      "lex_ti_vrd_grow2",
+      "lex_ti_vrd_decrs",
+      "lex_ti_vrd_stop2",
+      "lex_ti_vrd_cntnu",
+      "lex_ti_vg2_same2",
+      "lex_ti_vg2_diff2",
+      "lex_ti_vg2_best2",
+      "lex_ti_vg2_worst2",
+      "lex_ti_vg2_more2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veraenderung_vergleiche2_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_vrd_change2",
+      "lex_ti_vrd_grow2",
+      "lex_ti_vrd_decrs",
+      "lex_ti_vrd_stop2",
+      "lex_ti_vrd_cntnu",
+      "lex_ti_vg2_same2",
+      "lex_ti_vg2_diff2",
+      "lex_ti_vg2_best2",
+      "lex_ti_vg2_worst2",
+      "lex_ti_vg2_more2"
+    ],
+    "sentenceIds": [
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
+      "sen_gen_vrd_stop2",
+      "sen_fix_vg2_best2"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veraenderung_vergleiche2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_vrd_change2",
+      "lex_ti_vrd_grow2",
+      "lex_ti_vrd_decrs",
+      "lex_ti_vrd_stop2",
+      "lex_ti_vrd_cntnu",
+      "lex_ti_vg2_same2",
+      "lex_ti_vg2_diff2",
+      "lex_ti_vg2_best2",
+      "lex_ti_vg2_worst2",
+      "lex_ti_vg2_more2"
+    ],
+    "sentenceIds": [
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
+      "sen_gen_vrd_stop2",
+      "sen_fix_vg2_best2"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veraenderung_vergleiche2_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_vrd_change2",
+      "lex_ti_vrd_grow2",
+      "lex_ti_vrd_decrs",
+      "lex_ti_vrd_stop2",
+      "lex_ti_vrd_cntnu",
+      "lex_ti_vg2_same2",
+      "lex_ti_vg2_diff2",
+      "lex_ti_vg2_best2",
+      "lex_ti_vg2_worst2",
+      "lex_ti_vg2_more2"
+    ],
+    "sentenceIds": [
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
+      "sen_gen_vrd_stop2",
+      "sen_fix_vg2_best2"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_veraenderung_vergleiche2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_vrd_change2",
+      "lex_ti_vrd_grow2",
+      "lex_ti_vrd_decrs",
+      "lex_ti_vrd_stop2",
+      "lex_ti_vrd_cntnu",
+      "lex_ti_vg2_same2",
+      "lex_ti_vg2_diff2",
+      "lex_ti_vg2_best2",
+      "lex_ti_vg2_worst2",
+      "lex_ti_vg2_more2"
+    ],
+    "sentenceIds": [
+      "sen_ti_veraenderung_vergleiche2_1",
+      "sen_fix_vg2_same2",
+      "sen_fix_vg2_diff2",
+      "sen_gen_vrd_stop2",
+      "sen_fix_vg2_best2"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

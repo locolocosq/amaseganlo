@@ -1,0 +1,170 @@
+[
+  {
+    "id": "unit_tiere_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_kuh",
+      "lex_ziege",
+      "lex_schaf",
+      "lex_esel",
+      "lex_kamel",
+      "lex_maus",
+      "lex_fuchs",
+      "lex_wolf",
+      "lex_hirsch",
+      "lex_schildkroete",
+      "lex_frosch",
+      "lex_krokodil",
+      "lex_hyaene"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_tiere_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_kuh",
+      "lex_ziege",
+      "lex_schaf",
+      "lex_esel",
+      "lex_kamel",
+      "lex_maus",
+      "lex_fuchs",
+      "lex_wolf",
+      "lex_hirsch",
+      "lex_schildkroete",
+      "lex_frosch",
+      "lex_krokodil",
+      "lex_hyaene"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_kuh",
+      "lex_ziege",
+      "lex_schaf",
+      "lex_esel",
+      "lex_kamel",
+      "lex_maus",
+      "lex_fuchs",
+      "lex_wolf",
+      "lex_hirsch",
+      "lex_schildkroete",
+      "lex_frosch",
+      "lex_krokodil",
+      "lex_hyaene"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_kuh",
+      "lex_ziege",
+      "lex_schaf",
+      "lex_esel",
+      "lex_kamel",
+      "lex_maus",
+      "lex_fuchs",
+      "lex_wolf",
+      "lex_hirsch",
+      "lex_schildkroete",
+      "lex_frosch",
+      "lex_krokodil",
+      "lex_hyaene"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_kuh",
+      "lex_ziege",
+      "lex_schaf",
+      "lex_esel",
+      "lex_kamel",
+      "lex_maus",
+      "lex_fuchs",
+      "lex_wolf",
+      "lex_hirsch",
+      "lex_schildkroete",
+      "lex_frosch",
+      "lex_krokodil",
+      "lex_hyaene"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_tiere_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_kuh",
+      "lex_ziege",
+      "lex_schaf",
+      "lex_esel",
+      "lex_kamel",
+      "lex_maus",
+      "lex_fuchs",
+      "lex_wolf",
+      "lex_hirsch",
+      "lex_schildkroete",
+      "lex_frosch",
+      "lex_krokodil",
+      "lex_hyaene"
+    ],
+    "sentenceIds": [
+      "sen_gen_kuh",
+      "sen_gen_ziege",
+      "sen_gen_schaf",
+      "sen_gen_esel",
+      "sen_gen_kamel"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

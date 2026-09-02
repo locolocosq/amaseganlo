@@ -1,0 +1,402 @@
+[
+  {
+    "id": "lex_hhw_kiray2",
+    "am": "የቤት ኪራይ",
+    "tr": "yebet kiray",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "die Hausmiete",
+      "en": "house rent",
+      "sv": "husyra",
+      "nl": "huishuur",
+      "it": "l'affitto della casa",
+      "es": "el alquiler de la casa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_kirayi",
+    "am": "ተከራይ",
+    "tr": "tekeray",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "der Mieter",
+      "en": "tenant",
+      "sv": "hyresgäst",
+      "nl": "huurder",
+      "it": "l'inquilino",
+      "es": "el inquilino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_azaji2",
+    "am": "አከራይ",
+    "tr": "akeray",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "der Vermieter",
+      "en": "landlord",
+      "sv": "hyresvärd",
+      "nl": "verhuurder",
+      "it": "il padrone di casa",
+      "es": "el casero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_bet_bota",
+    "am": "ግቢ ቤት",
+    "tr": "gibi bet",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "das Haus mit Hof",
+      "en": "compound house",
+      "sv": "gårdshus",
+      "nl": "erfhuis",
+      "it": "la casa con cortile",
+      "es": "la casa con patio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hhw_ye_gibi_bet",
+    "am": "አፓርታማ",
+    "tr": "apartama",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "die Wohnung",
+      "en": "apartment",
+      "sv": "lägenhet",
+      "nl": "appartement",
+      "it": "l'appartamento",
+      "es": "el apartamento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_v_menor",
+    "am": "መኖር",
+    "tr": "menor",
+    "pos": "verb",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "wohnen, leben",
+      "en": "to live, to reside",
+      "sv": "bo, leva",
+      "nl": "wonen, leven",
+      "it": "vivere, abitare",
+      "es": "vivir, residir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_menoriya",
+    "am": "መኖሪያ",
+    "tr": "menoriya",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "die Wohnstätte",
+      "en": "residence, dwelling",
+      "sv": "bostad",
+      "nl": "woonplaats",
+      "it": "la residenza, l'abitazione",
+      "es": "la residencia, la vivienda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_mokelalya",
+    "am": "ማብሰያ ክፍል",
+    "tr": "mabiseya kifil",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "die Küche",
+      "en": "kitchen",
+      "sv": "kök",
+      "nl": "keuken",
+      "it": "la cucina",
+      "es": "la cocina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🍳",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_metateb_bet",
+    "am": "የመታጠቢያ ቤት",
+    "tr": "yemetat'ebiya bet",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "das Badezimmer",
+      "en": "bathroom",
+      "sv": "badrum",
+      "nl": "badkamer",
+      "it": "il bagno",
+      "es": "el baño"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🚿",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_metenaya_kifil",
+    "am": "የመኝታ ክፍል",
+    "tr": "yemegnita kifil",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "das Schlafzimmer",
+      "en": "bedroom",
+      "sv": "sovrum",
+      "nl": "slaapkamer",
+      "it": "la camera da letto",
+      "es": "el dormitorio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🛏️",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_teqebay_kifil",
+    "am": "የመስተንግዶ ክፍል",
+    "tr": "yemesitenigido kifil",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "das Wohnzimmer",
+      "en": "living room",
+      "sv": "vardagsrum",
+      "nl": "woonkamer",
+      "it": "il soggiorno",
+      "es": "la sala de estar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_yeanb_bota",
+    "am": "የአትክልት ስፍራ",
+    "tr": "yeatikilt sifira",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "der Garten",
+      "en": "garden",
+      "sv": "trädgård",
+      "nl": "tuin",
+      "it": "il giardino",
+      "es": "el jardín"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🌳",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_v_mesenker",
+    "am": "ማስዋብ ቤት",
+    "tr": "masiwab bet",
+    "pos": "verb",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "einrichten (Wohnung)",
+      "en": "to furnish, to decorate (a home)",
+      "sv": "inreda",
+      "nl": "inrichten",
+      "it": "arredare (una casa)",
+      "es": "amueblar (una casa)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_hhw_bota_makina",
+    "am": "ጋራዥ",
+    "tr": "garazh",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "die Garage",
+      "en": "garage",
+      "sv": "garage",
+      "nl": "garage",
+      "it": "il garage",
+      "es": "el garaje"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_kir2",
+    "am": "አጥር",
+    "tr": "at'ir",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "der Zaun",
+      "en": "fence",
+      "sv": "staket",
+      "nl": "schutting",
+      "it": "la recinzione",
+      "es": "la valla"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_v_mekefet",
+    "am": "መከፈት",
+    "tr": "mekefet",
+    "pos": "verb",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "öffnen (Tür)",
+      "en": "to open (door)",
+      "sv": "öppna (dörr)",
+      "nl": "openen (deur)",
+      "it": "aprire (la porta)",
+      "es": "abrir (la puerta)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_v_mezegat",
+    "am": "መዝጋት",
+    "tr": "mezigat",
+    "pos": "verb",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "schließen (Tür)",
+      "en": "to close (door)",
+      "sv": "stänga (dörr)",
+      "nl": "sluiten (deur)",
+      "it": "chiudere (la porta)",
+      "es": "cerrar (la puerta)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_kulf",
+    "am": "ቁልፍ",
+    "tr": "k'ulif",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "der Schlüssel",
+      "en": "key",
+      "sv": "nyckel",
+      "nl": "sleutel",
+      "it": "la chiave",
+      "es": "la llave"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🔑",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_mestewat",
+    "am": "ኤሌክትሪክ",
+    "tr": "eliekitirik",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "der Strom, Elektrizität",
+      "en": "electricity",
+      "sv": "elektricitet",
+      "nl": "elektriciteit",
+      "it": "l'elettricità, la corrente",
+      "es": "la electricidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_hhw_wiha2",
+    "am": "የቧንቧ ውሃ",
+    "tr": "yebonibo wiha",
+    "pos": "noun",
+    "topic": "housing",
+    "level": "B2",
+    "t": {
+      "de": "das Leitungswasser",
+      "en": "tap water, plumbing",
+      "sv": "kranvatten, VVS",
+      "nl": "kraanwater, sanitair",
+      "it": "l'acqua del rubinetto, l'impianto idraulico",
+      "es": "el agua del grifo, la fontanería"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

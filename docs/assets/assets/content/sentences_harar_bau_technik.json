@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sen_hbt_injinar_bilding",
+    "am": "መሃንዲሱ ህንፃውን ይነድፋል።",
+    "tr": "mehandisu hinits'awin yinedifal.",
+    "level": "B2",
+    "uses": [
+      "lex_hbt_injinar",
+      "lex_hbt_bilding"
+    ],
+    "t": {
+      "de": "Der Ingenieur entwirft das Gebäude.",
+      "en": "The engineer designs the building.",
+      "sv": "Ingenjören designar byggnaden.",
+      "nl": "De ingenieur ontwerpt het gebouw.",
+      "it": "L'ingegnere progetta l'edificio.",
+      "es": "El ingeniero diseña el edificio."
+    },
+    "chunks": [
+      "mehandisu",
+      "hinits'awin",
+      "yinedifal"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hbt_mesetat_getet",
+    "am": "መሰረት እና ግድግዳ ያስፈልጋሉ።",
+    "tr": "meseret ina gidigida yasfeligalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hbt_mesetat",
+      "lex_hbt_getet"
+    ],
+    "t": {
+      "de": "Fundament und Wand werden benötigt.",
+      "en": "Foundation and wall are needed.",
+      "sv": "Grund och vägg behövs.",
+      "nl": "Fundament en muur zijn nodig.",
+      "it": "Servono fondamenta e muro.",
+      "es": "Se necesitan cimientos y pared."
+    },
+    "chunks": [
+      "meseret",
+      "ina",
+      "gidigida",
+      "yasfeligalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hbt_simment_shibela",
+    "am": "ሲሚንቶ እና ብሎክ ለግንባታ ያስፈልጋሉ።",
+    "tr": "simiento ina biloki leginibata yasfeligalu.",
+    "level": "B2",
+    "uses": [
+      "lex_hbt_simment",
+      "lex_hbt_shibela"
+    ],
+    "t": {
+      "de": "Zement und Ziegel werden für den Bau benötigt.",
+      "en": "Cement and bricks are needed for construction.",
+      "sv": "Cement och tegel behövs för bygget.",
+      "nl": "Cement en bakstenen zijn nodig voor de bouw.",
+      "it": "Cemento e mattoni sono necessari per la costruzione.",
+      "es": "Se necesitan cemento y ladrillos para la construcción."
+    },
+    "chunks": [
+      "simiento",
+      "ina",
+      "biloki",
+      "leginibata",
+      "yasfeligalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hbt_masikakel",
+    "am": "መሃንዲሱ ማሽኑን አስተካከለ።",
+    "tr": "mehandisu mashinun asitekakele.",
+    "level": "B2",
+    "uses": [
+      "lex_hbt_makina",
+      "lex_hbt_v_masikakel",
+      "lex_hbt_injinar"
+    ],
+    "t": {
+      "de": "Der Ingenieur hat die Maschine repariert.",
+      "en": "The engineer repaired the machine.",
+      "sv": "Ingenjören reparerade maskinen.",
+      "nl": "De ingenieur repareerde de machine.",
+      "it": "L'ingegnere ha riparato la macchina.",
+      "es": "El ingeniero reparó la máquina."
+    },
+    "chunks": [
+      "mehandisu",
+      "mashinun",
+      "asitekakele"
+    ],
+    "verified": false
+  }
+]

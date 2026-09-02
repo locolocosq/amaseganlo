@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_elektrizitaet_fabrik_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_elk_plug",
+      "lex_ti_elk_swtch",
+      "lex_ti_elk_fuse",
+      "lex_ti_elk_outg",
+      "lex_ti_elk_gnrtr",
+      "lex_ti_fbr_fctry",
+      "lex_ti_fbr_mchn",
+      "lex_ti_fbr_prod",
+      "lex_ti_fbr_wrkr",
+      "lex_ti_fbr_asmbl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_elektrizitaet_fabrik_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_elk_plug",
+      "lex_ti_elk_swtch",
+      "lex_ti_elk_fuse",
+      "lex_ti_elk_outg",
+      "lex_ti_elk_gnrtr",
+      "lex_ti_fbr_fctry",
+      "lex_ti_fbr_mchn",
+      "lex_ti_fbr_prod",
+      "lex_ti_fbr_wrkr",
+      "lex_ti_fbr_asmbl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_elektrizitaet_fabrik_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_elk_plug",
+      "lex_ti_elk_swtch",
+      "lex_ti_elk_fuse",
+      "lex_ti_elk_outg",
+      "lex_ti_elk_gnrtr",
+      "lex_ti_fbr_fctry",
+      "lex_ti_fbr_mchn",
+      "lex_ti_fbr_prod",
+      "lex_ti_fbr_wrkr",
+      "lex_ti_fbr_asmbl"
+    ],
+    "sentenceIds": [
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_elektrizitaet_fabrik_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_elk_plug",
+      "lex_ti_elk_swtch",
+      "lex_ti_elk_fuse",
+      "lex_ti_elk_outg",
+      "lex_ti_elk_gnrtr",
+      "lex_ti_fbr_fctry",
+      "lex_ti_fbr_mchn",
+      "lex_ti_fbr_prod",
+      "lex_ti_fbr_wrkr",
+      "lex_ti_fbr_asmbl"
+    ],
+    "sentenceIds": [
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_elektrizitaet_fabrik_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_elk_plug",
+      "lex_ti_elk_swtch",
+      "lex_ti_elk_fuse",
+      "lex_ti_elk_outg",
+      "lex_ti_elk_gnrtr",
+      "lex_ti_fbr_fctry",
+      "lex_ti_fbr_mchn",
+      "lex_ti_fbr_prod",
+      "lex_ti_fbr_wrkr",
+      "lex_ti_fbr_asmbl"
+    ],
+    "sentenceIds": [
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_elektrizitaet_fabrik_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_elk_plug",
+      "lex_ti_elk_swtch",
+      "lex_ti_elk_fuse",
+      "lex_ti_elk_outg",
+      "lex_ti_elk_gnrtr",
+      "lex_ti_fbr_fctry",
+      "lex_ti_fbr_mchn",
+      "lex_ti_fbr_prod",
+      "lex_ti_fbr_wrkr",
+      "lex_ti_fbr_asmbl"
+    ],
+    "sentenceIds": [
+      "sen_ti_elektrizitaet_fabrik_1",
+      "sen_gen_elk_swtch",
+      "sen_gen_elk_fuse",
+      "sen_gen_elk_outg",
+      "sen_gen_elk_gnrtr"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

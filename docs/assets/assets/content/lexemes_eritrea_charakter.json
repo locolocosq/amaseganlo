@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_bhrur",
+    "am": "ተባዕ",
+    "tr": "teba'e",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "mutig, tapfer",
+      "en": "brave, courageous",
+      "sv": "modig",
+      "nl": "moedig",
+      "it": "coraggioso",
+      "es": "valiente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_frhan",
+    "am": "ፈራሕ",
+    "tr": "ferah",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "feige, ängstlich",
+      "en": "cowardly",
+      "sv": "feg",
+      "nl": "laf",
+      "it": "codardo",
+      "es": "cobarde"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_srhtnk",
+    "am": "ትግሃት ዘለዎ",
+    "tr": "tighat zelewo",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "fleißig",
+      "en": "diligent, hardworking",
+      "sv": "flitig",
+      "nl": "vlijtig",
+      "it": "diligente, laborioso",
+      "es": "diligente, trabajador"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kslti",
+    "am": "ህኩይ",
+    "tr": "hikuy",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "faul",
+      "en": "lazy",
+      "sv": "lat",
+      "nl": "lui",
+      "it": "pigro",
+      "es": "perezoso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_amnti",
+    "am": "እሙን",
+    "tr": "imun",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "treu, vertrauenswürdig",
+      "en": "loyal, trustworthy",
+      "sv": "trogen, pålitlig",
+      "nl": "trouw, betrouwbaar",
+      "it": "leale, affidabile",
+      "es": "leal, digno de confianza"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kzabi",
+    "am": "ሓሳዊ",
+    "tr": "hasawi",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "unehrlich, lügnerisch",
+      "en": "dishonest, lying",
+      "sv": "oärlig, lögnaktig",
+      "nl": "oneerlijk, leugenachtig",
+      "it": "disonesto, bugiardo",
+      "es": "deshonesto, mentiroso"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hkim2",
+    "am": "ጥበበኛ",
+    "tr": "t'ibebegna",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "weise",
+      "en": "wise",
+      "sv": "vis",
+      "nl": "wijs",
+      "it": "saggio",
+      "es": "sabio"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bhal",
+    "am": "ተባዕታይ",
+    "tr": "teba'etay",
+    "pos": "noun",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "männlich",
+      "en": "masculine",
+      "sv": "manlig",
+      "nl": "mannelijk",
+      "it": "maschile",
+      "es": "masculino"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_anst",
+    "am": "ኣንስታይ",
+    "tr": "anistay",
+    "pos": "noun",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "weiblich",
+      "en": "feminine",
+      "sv": "kvinnlig",
+      "nl": "vrouwelijk",
+      "it": "femminile",
+      "es": "femenino"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_grum",
+    "am": "ትዕቢተኛ",
+    "tr": "ti'ibitegna",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "arrogant, eingebildet",
+      "en": "arrogant, conceited",
+      "sv": "arrogant, inbilsk",
+      "nl": "arrogant, verwaand",
+      "it": "arrogante, presuntuoso",
+      "es": "arrogante, presumido"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_snkl",
+    "am": "ተጻዋርነት ዘለዎ",
+    "tr": "tetsawarnet zelewo",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "tolerant, geduldig",
+      "en": "tolerant, patient",
+      "sv": "tolerant, tålmodig",
+      "nl": "tolerant, geduldig",
+      "it": "tollerante, paziente",
+      "es": "tolerante, paciente"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hbrat",
+    "am": "ተሓባባሪ",
+    "tr": "tehababari",
+    "pos": "adjective",
+    "topic": "character",
+    "level": "TI",
+    "t": {
+      "de": "kooperativ, hilfsbereit",
+      "en": "cooperative, helpful",
+      "sv": "samarbetsvillig, hjälpsam",
+      "nl": "coöperatief, behulpzaam",
+      "it": "collaborativo, disponibile",
+      "es": "cooperativo, servicial"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

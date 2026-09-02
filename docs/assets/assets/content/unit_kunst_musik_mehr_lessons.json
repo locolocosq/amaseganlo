@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_kunst_musik_mehr_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_kunst_musik_mehr_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [
+      "sen_gen_gemaelde",
+      "sen_gen_zeichnung",
+      "sen_gen_skulptur",
+      "sen_gen_theater",
+      "sen_gen_gedicht"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [
+      "sen_gen_gemaelde",
+      "sen_gen_zeichnung",
+      "sen_gen_skulptur",
+      "sen_gen_theater",
+      "sen_gen_gedicht"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [
+      "sen_gen_gemaelde",
+      "sen_gen_zeichnung",
+      "sen_gen_skulptur",
+      "sen_gen_theater",
+      "sen_gen_gedicht"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_kunst_musik_mehr_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_gemaelde",
+      "lex_zeichnung",
+      "lex_skulptur",
+      "lex_theater",
+      "lex_gedicht",
+      "lex_roman",
+      "lex_rhythmus",
+      "lex_melodie"
+    ],
+    "sentenceIds": [
+      "sen_gen_gemaelde",
+      "sen_gen_zeichnung",
+      "sen_gen_skulptur",
+      "sen_gen_theater",
+      "sen_gen_gedicht"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

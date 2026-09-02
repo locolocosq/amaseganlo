@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_flz_wing",
+    "am": "ክንፊ",
+    "tr": "kinfi",
+    "pos": "noun",
+    "topic": "airplane_parts",
+    "level": "TI",
+    "t": {
+      "de": "der Flügel (Flugzeug)",
+      "en": "wing (airplane)",
+      "sv": "vinge (flygplan)",
+      "nl": "vleugel (vliegtuig)",
+      "it": "l'ala (aereo)",
+      "es": "el ala (avión)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flz_engn",
+    "am": "ሞተር ነፋሪት",
+    "tr": "moter nefarit",
+    "pos": "noun",
+    "topic": "airplane_parts",
+    "level": "TI",
+    "t": {
+      "de": "das Triebwerk",
+      "en": "engine (airplane)",
+      "sv": "flygmotor",
+      "nl": "vliegtuigmotor",
+      "it": "il motore (aereo)",
+      "es": "el motor (avión)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flz_ckpt",
+    "am": "ክፍሊ ፓይሎት",
+    "tr": "kifli paylot",
+    "pos": "noun",
+    "topic": "airplane_parts",
+    "level": "TI",
+    "t": {
+      "de": "das Cockpit",
+      "en": "cockpit",
+      "sv": "cockpit",
+      "nl": "cockpit",
+      "it": "la cabina di pilotaggio",
+      "es": "la cabina de mando"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flz_seat",
+    "am": "መንበር ነፋሪት",
+    "tr": "menber nefarit",
+    "pos": "noun",
+    "topic": "airplane_parts",
+    "level": "TI",
+    "t": {
+      "de": "der Flugzeugsitz",
+      "en": "airplane seat",
+      "sv": "flygplansstol",
+      "nl": "vliegtuigstoel",
+      "it": "il sedile dell'aereo",
+      "es": "el asiento del avión"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_flz_crew",
+    "am": "ሰራሕተኛታት ነፋሪት",
+    "tr": "serahtegnatat nefarit",
+    "pos": "noun",
+    "topic": "airplane_parts",
+    "level": "TI",
+    "t": {
+      "de": "die Flugzeugbesatzung",
+      "en": "flight crew",
+      "sv": "flygbesättning",
+      "nl": "vliegtuigbemanning",
+      "it": "il personale di volo",
+      "es": "la tripulación de vuelo"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

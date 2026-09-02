@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_gemaelde",
+    "am": "ስዕል",
+    "tr": "si'il",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "das Gemälde, das Bild",
+      "en": "painting",
+      "sv": "målning",
+      "nl": "schilderij",
+      "it": "il quadro, il dipinto",
+      "es": "el cuadro, la pintura"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "🖼️",
+    "verified": true
+  },
+  {
+    "id": "lex_zeichnung",
+    "am": "ንድፍ",
+    "tr": "nidif",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "die Zeichnung",
+      "en": "drawing",
+      "sv": "teckning",
+      "nl": "tekening",
+      "it": "il disegno",
+      "es": "el dibujo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_skulptur",
+    "am": "ቅርፃቅርፅ",
+    "tr": "k'irtsak'irts'",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "die Skulptur",
+      "en": "sculpture",
+      "sv": "skulptur",
+      "nl": "sculptuur",
+      "it": "la scultura",
+      "es": "la escultura"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_theater",
+    "am": "ቲያትር",
+    "tr": "tiyatir",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "das Theater",
+      "en": "theater",
+      "sv": "teater",
+      "nl": "theater",
+      "it": "il teatro",
+      "es": "el teatro"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_gedicht",
+    "am": "ቅኔ",
+    "tr": "k'ine",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "das Gedicht",
+      "en": "poem",
+      "sv": "dikt",
+      "nl": "gedicht",
+      "it": "la poesia",
+      "es": "el poema"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_roman",
+    "am": "ልብ ወለድ",
+    "tr": "lib weled",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "der Roman",
+      "en": "novel",
+      "sv": "roman",
+      "nl": "roman",
+      "it": "il romanzo",
+      "es": "la novela"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_rhythmus",
+    "am": "ምት",
+    "tr": "mit",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "der Rhythmus",
+      "en": "rhythm",
+      "sv": "rytm",
+      "nl": "ritme",
+      "it": "il ritmo",
+      "es": "el ritmo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_melodie",
+    "am": "ዜማ",
+    "tr": "zema",
+    "pos": "noun",
+    "topic": "art_music_more",
+    "level": "B1",
+    "t": {
+      "de": "die Melodie",
+      "en": "melody",
+      "sv": "melodi",
+      "nl": "melodie",
+      "it": "la melodia",
+      "es": "la melodía"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

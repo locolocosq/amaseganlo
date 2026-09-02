@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lex_ti_bwg_jump",
+    "am": "ነጠረ",
+    "tr": "netere",
+    "pos": "verb",
+    "topic": "movement",
+    "level": "TI",
+    "t": {
+      "de": "springen",
+      "en": "to jump",
+      "sv": "att hoppa",
+      "nl": "springen",
+      "it": "saltare",
+      "es": "saltar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bwg_crawl",
+    "am": "ዓንደረ",
+    "tr": "'andere",
+    "pos": "verb",
+    "topic": "movement",
+    "level": "TI",
+    "t": {
+      "de": "kriechen",
+      "en": "to crawl",
+      "sv": "att krypa",
+      "nl": "kruipen",
+      "it": "strisciare",
+      "es": "arrastrarse"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bwg_push",
+    "am": "ደፍአ",
+    "tr": "defi'e",
+    "pos": "verb",
+    "topic": "movement",
+    "level": "TI",
+    "t": {
+      "de": "schieben, drücken",
+      "en": "to push",
+      "sv": "att skjuta, trycka",
+      "nl": "duwen",
+      "it": "spingere",
+      "es": "empujar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bwg_pull",
+    "am": "ጐተተ",
+    "tr": "gotete",
+    "pos": "verb",
+    "topic": "movement",
+    "level": "TI",
+    "t": {
+      "de": "ziehen",
+      "en": "to pull",
+      "sv": "att dra",
+      "nl": "trekken",
+      "it": "tirare",
+      "es": "tirar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bwg_throw",
+    "am": "ደርበየ",
+    "tr": "deribeye",
+    "pos": "verb",
+    "topic": "movement",
+    "level": "TI",
+    "t": {
+      "de": "werfen",
+      "en": "to throw",
+      "sv": "att kasta",
+      "nl": "gooien",
+      "it": "lanciare",
+      "es": "lanzar"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_bwg_catch",
+    "am": "ሓዘ (ኳዕሶ)",
+    "tr": "haze ku'iso",
+    "pos": "verb",
+    "topic": "movement",
+    "level": "TI",
+    "t": {
+      "de": "fangen",
+      "en": "to catch",
+      "sv": "att fånga",
+      "nl": "vangen",
+      "it": "afferrare, prendere",
+      "es": "atrapar, coger"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

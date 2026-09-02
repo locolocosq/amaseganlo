@@ -1,0 +1,127 @@
+[
+  {
+    "id": "sen_temari_metegiberiya_mewered",
+    "am": "ተማሪው መተግበሪያውን አወረደ።",
+    "tr": "temariw metegiberiyawin awerede.",
+    "level": "B2",
+    "uses": [
+      "lex_metegiberiya",
+      "lex_v_mewered"
+    ],
+    "t": {
+      "de": "Der Student lud die App herunter.",
+      "en": "The student downloaded the app.",
+      "sv": "Studenten laddade ner appen.",
+      "nl": "De student downloadde de app.",
+      "it": "Lo studente ha scaricato l'app.",
+      "es": "El estudiante descargó la aplicación."
+    },
+    "chunks": [
+      "temariw",
+      "metegiberiyawin",
+      "awerede"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_teknoloji_zemenawi",
+    "am": "ይህ ቴክኖሎጂ ዘመናዊ ነው።",
+    "tr": "yih teknoloji zemenawi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_teknoloji",
+      "lex_adj_zemenawi"
+    ],
+    "t": {
+      "de": "Diese Technologie ist modern.",
+      "en": "This technology is modern.",
+      "sv": "Denna teknik är modern.",
+      "nl": "Deze technologie is modern.",
+      "it": "Questa tecnologia è moderna.",
+      "es": "Esta tecnología es moderna."
+    },
+    "chunks": [
+      "yih",
+      "teknoloji",
+      "zemenawi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_tsehifet_media_zemenawi",
+    "am": "ማህበራዊ ሚዲያ ዘመናዊ ነው።",
+    "tr": "mahiberawi midiya zemenawi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_tsehifet_media",
+      "lex_adj_zemenawi"
+    ],
+    "t": {
+      "de": "Soziale Medien sind modern.",
+      "en": "Social media is modern.",
+      "sv": "Sociala medier är moderna.",
+      "nl": "Sociale media zijn modern.",
+      "it": "I social media sono moderni.",
+      "es": "Las redes sociales son modernas."
+    },
+    "chunks": [
+      "mahiberawi",
+      "midiya",
+      "zemenawi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_mengist_mereja_mekotater",
+    "am": "መንግስት መረቡን ይቆጣጠራል።",
+    "tr": "mengist merebun yik'ot'at'eral.",
+    "level": "B2",
+    "uses": [
+      "lex_mereja",
+      "lex_v_mekotater",
+      "lex_mengist"
+    ],
+    "t": {
+      "de": "Die Regierung kontrolliert das Netzwerk.",
+      "en": "The government controls the network.",
+      "sv": "Regeringen kontrollerar nätverket.",
+      "nl": "De regering controleert het netwerk.",
+      "it": "Il governo controlla la rete.",
+      "es": "El gobierno controla la red."
+    },
+    "chunks": [
+      "mengist",
+      "merebun",
+      "yik'ot'at'eral"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_metegiberiya_teknoloji",
+    "am": "ይህ መተግበሪያ አዲስ ቴክኖሎጂ ይጠቀማል።",
+    "tr": "yih metegiberiya addis teknoloji yit'ek'emal.",
+    "level": "B2",
+    "uses": [
+      "lex_metegiberiya",
+      "lex_teknoloji"
+    ],
+    "t": {
+      "de": "Diese App nutzt neue Technologie.",
+      "en": "This app uses new technology.",
+      "sv": "Den här appen använder ny teknik.",
+      "nl": "Deze app gebruikt nieuwe technologie.",
+      "it": "Questa app usa nuova tecnologia.",
+      "es": "Esta aplicación usa nueva tecnología."
+    },
+    "chunks": [
+      "yih",
+      "metegiberiya",
+      "addis",
+      "teknoloji",
+      "yit'ek'emal"
+    ],
+    "verified": false
+  }
+]

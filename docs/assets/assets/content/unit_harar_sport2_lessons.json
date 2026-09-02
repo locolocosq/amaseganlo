@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_sport2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hs2_igirikuadere",
+      "lex_hs2_teseraki",
+      "lex_hs2_ashenafi2",
+      "lex_hs2_v_meruzat",
+      "lex_hs2_widider2",
+      "lex_hs2_medal",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meiret2",
+      "lex_hs2_v_mekilfat",
+      "lex_hs2_akal11",
+      "lex_hs2_astekelay",
+      "lex_hs2_gudguadi",
+      "lex_hs2_v_metelalek",
+      "lex_hs2_gol",
+      "lex_hs2_kilbet",
+      "lex_hs2_v_metsenat",
+      "lex_hs2_libs_sport",
+      "lex_hs2_birtat",
+      "lex_hs2_tinat",
+      "lex_hs2_v_metsenet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_sport2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hs2_igirikuadere",
+      "lex_hs2_teseraki",
+      "lex_hs2_ashenafi2",
+      "lex_hs2_v_meruzat",
+      "lex_hs2_widider2",
+      "lex_hs2_medal",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meiret2",
+      "lex_hs2_v_mekilfat",
+      "lex_hs2_akal11",
+      "lex_hs2_astekelay",
+      "lex_hs2_gudguadi",
+      "lex_hs2_v_metelalek",
+      "lex_hs2_gol",
+      "lex_hs2_kilbet",
+      "lex_hs2_v_metsenat",
+      "lex_hs2_libs_sport",
+      "lex_hs2_birtat",
+      "lex_hs2_tinat",
+      "lex_hs2_v_metsenet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_sport2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hs2_igirikuadere",
+      "lex_hs2_teseraki",
+      "lex_hs2_ashenafi2",
+      "lex_hs2_v_meruzat",
+      "lex_hs2_widider2",
+      "lex_hs2_medal",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meiret2",
+      "lex_hs2_v_mekilfat",
+      "lex_hs2_akal11",
+      "lex_hs2_astekelay",
+      "lex_hs2_gudguadi",
+      "lex_hs2_v_metelalek",
+      "lex_hs2_gol",
+      "lex_hs2_kilbet",
+      "lex_hs2_v_metsenat",
+      "lex_hs2_libs_sport",
+      "lex_hs2_birtat",
+      "lex_hs2_tinat",
+      "lex_hs2_v_metsenet"
+    ],
+    "sentenceIds": [
+      "sen_hs2_teseraki_gol",
+      "sen_hs2_ashenafi_maranton",
+      "sen_hs2_astekelay_sitadiyem",
+      "sen_hs2_tinat_birtat",
+      "sen_gen_hs2_igirikuadere"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_sport2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hs2_igirikuadere",
+      "lex_hs2_teseraki",
+      "lex_hs2_ashenafi2",
+      "lex_hs2_v_meruzat",
+      "lex_hs2_widider2",
+      "lex_hs2_medal",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meiret2",
+      "lex_hs2_v_mekilfat",
+      "lex_hs2_akal11",
+      "lex_hs2_astekelay",
+      "lex_hs2_gudguadi",
+      "lex_hs2_v_metelalek",
+      "lex_hs2_gol",
+      "lex_hs2_kilbet",
+      "lex_hs2_v_metsenat",
+      "lex_hs2_libs_sport",
+      "lex_hs2_birtat",
+      "lex_hs2_tinat",
+      "lex_hs2_v_metsenet"
+    ],
+    "sentenceIds": [
+      "sen_hs2_teseraki_gol",
+      "sen_hs2_ashenafi_maranton",
+      "sen_hs2_astekelay_sitadiyem",
+      "sen_hs2_tinat_birtat",
+      "sen_gen_hs2_igirikuadere"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_sport2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hs2_igirikuadere",
+      "lex_hs2_teseraki",
+      "lex_hs2_ashenafi2",
+      "lex_hs2_v_meruzat",
+      "lex_hs2_widider2",
+      "lex_hs2_medal",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meiret2",
+      "lex_hs2_v_mekilfat",
+      "lex_hs2_akal11",
+      "lex_hs2_astekelay",
+      "lex_hs2_gudguadi",
+      "lex_hs2_v_metelalek",
+      "lex_hs2_gol",
+      "lex_hs2_kilbet",
+      "lex_hs2_v_metsenat",
+      "lex_hs2_libs_sport",
+      "lex_hs2_birtat",
+      "lex_hs2_tinat",
+      "lex_hs2_v_metsenet"
+    ],
+    "sentenceIds": [
+      "sen_hs2_teseraki_gol",
+      "sen_hs2_ashenafi_maranton",
+      "sen_hs2_astekelay_sitadiyem",
+      "sen_hs2_tinat_birtat",
+      "sen_gen_hs2_igirikuadere"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_sport2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hs2_igirikuadere",
+      "lex_hs2_teseraki",
+      "lex_hs2_ashenafi2",
+      "lex_hs2_v_meruzat",
+      "lex_hs2_widider2",
+      "lex_hs2_medal",
+      "lex_hs2_maranton",
+      "lex_hs2_v_meiret2",
+      "lex_hs2_v_mekilfat",
+      "lex_hs2_akal11",
+      "lex_hs2_astekelay",
+      "lex_hs2_gudguadi",
+      "lex_hs2_v_metelalek",
+      "lex_hs2_gol",
+      "lex_hs2_kilbet",
+      "lex_hs2_v_metsenat",
+      "lex_hs2_libs_sport",
+      "lex_hs2_birtat",
+      "lex_hs2_tinat",
+      "lex_hs2_v_metsenet"
+    ],
+    "sentenceIds": [
+      "sen_hs2_teseraki_gol",
+      "sen_hs2_ashenafi_maranton",
+      "sen_hs2_astekelay_sitadiyem",
+      "sen_hs2_tinat_birtat",
+      "sen_gen_hs2_igirikuadere"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

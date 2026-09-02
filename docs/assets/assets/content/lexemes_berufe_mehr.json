@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lex_richter",
+    "am": "ዳኛ",
+    "tr": "dagna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Richter",
+      "en": "judge",
+      "sv": "domare",
+      "nl": "rechter",
+      "it": "il giudice",
+      "es": "el juez"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_priester",
+    "am": "ቄስ",
+    "tr": "k'es",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Priester",
+      "en": "priest",
+      "sv": "präst",
+      "nl": "priester",
+      "it": "il prete, il sacerdote",
+      "es": "el sacerdote"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_schneider",
+    "am": "ልብስ ስፌት",
+    "tr": "libs sifet",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Schneider",
+      "en": "tailor",
+      "sv": "skräddare",
+      "nl": "kleermaker",
+      "it": "il sarto",
+      "es": "el sastre"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zimmermann",
+    "am": "ጣውላ ሰራተኛ",
+    "tr": "t'awila serategna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der Zimmermann, Schreiner",
+      "en": "carpenter",
+      "sv": "snickare",
+      "nl": "timmerman",
+      "it": "il falegname",
+      "es": "el carpintero"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_sekretaer",
+    "am": "ፀሐፊ",
+    "tr": "tsehafi",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Sekretär(in)",
+      "en": "secretary",
+      "sv": "sekreterare",
+      "nl": "secretaresse",
+      "it": "il segretario, la segretaria",
+      "es": "el secretario, la secretaria"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_journalist",
+    "am": "ጋዜጠኛ",
+    "tr": "gazetegna",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Journalist(in)",
+      "en": "journalist",
+      "sv": "journalist",
+      "nl": "journalist",
+      "it": "il/la giornalista",
+      "es": "el/la periodista"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_fotograf",
+    "am": "ፎቶ አንሺ",
+    "tr": "foto anshi",
+    "pos": "noun",
+    "topic": "professions_more",
+    "level": "A2",
+    "t": {
+      "de": "der/die Fotograf(in)",
+      "en": "photographer",
+      "sv": "fotograf",
+      "nl": "fotograaf",
+      "it": "il fotografo, la fotografa",
+      "es": "el fotógrafo, la fotógrafa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

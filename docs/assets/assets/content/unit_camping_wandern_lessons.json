@@ -1,0 +1,140 @@
+[
+  {
+    "id": "unit_camping_wandern_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_zelt",
+      "lex_schlafsack",
+      "lex_rucksack",
+      "lex_lagerfeuer",
+      "lex_angeln",
+      "lex_wandern",
+      "lex_kompass",
+      "lex_taschenlampe"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_camping_wandern_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_zelt",
+      "lex_schlafsack",
+      "lex_rucksack",
+      "lex_lagerfeuer",
+      "lex_angeln",
+      "lex_wandern",
+      "lex_kompass",
+      "lex_taschenlampe"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_camping_wandern_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_zelt",
+      "lex_schlafsack",
+      "lex_rucksack",
+      "lex_lagerfeuer",
+      "lex_angeln",
+      "lex_wandern",
+      "lex_kompass",
+      "lex_taschenlampe"
+    ],
+    "sentenceIds": [
+      "sen_gen_zelt",
+      "sen_gen_schlafsack",
+      "sen_gen_lagerfeuer",
+      "sen_gen_angeln",
+      "sen_gen_wandern"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_camping_wandern_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_zelt",
+      "lex_schlafsack",
+      "lex_rucksack",
+      "lex_lagerfeuer",
+      "lex_angeln",
+      "lex_wandern",
+      "lex_kompass",
+      "lex_taschenlampe"
+    ],
+    "sentenceIds": [
+      "sen_gen_zelt",
+      "sen_gen_schlafsack",
+      "sen_gen_lagerfeuer",
+      "sen_gen_angeln",
+      "sen_gen_wandern"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_camping_wandern_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_zelt",
+      "lex_schlafsack",
+      "lex_rucksack",
+      "lex_lagerfeuer",
+      "lex_angeln",
+      "lex_wandern",
+      "lex_kompass",
+      "lex_taschenlampe"
+    ],
+    "sentenceIds": [
+      "sen_gen_zelt",
+      "sen_gen_schlafsack",
+      "sen_gen_lagerfeuer",
+      "sen_gen_angeln",
+      "sen_gen_wandern"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_camping_wandern_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_zelt",
+      "lex_schlafsack",
+      "lex_rucksack",
+      "lex_lagerfeuer",
+      "lex_angeln",
+      "lex_wandern",
+      "lex_kompass",
+      "lex_taschenlampe"
+    ],
+    "sentenceIds": [
+      "sen_gen_zelt",
+      "sen_gen_schlafsack",
+      "sen_gen_lagerfeuer",
+      "sen_gen_angeln",
+      "sen_gen_wandern"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

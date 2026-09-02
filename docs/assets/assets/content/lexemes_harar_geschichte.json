@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lex_tewifit",
+    "am": "ትውፊት",
+    "tr": "tewifit",
+    "pos": "noun",
+    "topic": "history_heritage",
+    "level": "B2",
+    "t": {
+      "de": "die Tradition (überliefert)",
+      "en": "tradition (handed down)",
+      "sv": "tradition (nedärvd)",
+      "nl": "traditie (overgeleverd)",
+      "it": "la tradizione (tramandata)",
+      "es": "la tradición (transmitida)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kirs",
+    "am": "ቅርስ",
+    "tr": "kirs",
+    "pos": "noun",
+    "topic": "history_heritage",
+    "level": "B2",
+    "t": {
+      "de": "das Erbe (kulturell)",
+      "en": "heritage",
+      "sv": "kulturarv",
+      "nl": "erfgoed",
+      "it": "il patrimonio (culturale)",
+      "es": "el patrimonio (cultural)"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_maninet",
+    "am": "ማንነት",
+    "tr": "maninet",
+    "pos": "noun",
+    "topic": "history_heritage",
+    "level": "B2",
+    "t": {
+      "de": "die Identität",
+      "en": "identity",
+      "sv": "identitet",
+      "nl": "identiteit",
+      "it": "l'identità",
+      "es": "la identidad"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kidime_ayat",
+    "am": "ቅድመ አያት",
+    "tr": "kidime ayat",
+    "pos": "noun",
+    "topic": "history_heritage",
+    "level": "B2",
+    "t": {
+      "de": "der Vorfahre",
+      "en": "ancestor",
+      "sv": "förfader",
+      "nl": "voorouder",
+      "it": "l'antenato",
+      "es": "el antepasado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zemen",
+    "am": "ዘመን",
+    "tr": "zemen",
+    "pos": "noun",
+    "topic": "history_heritage",
+    "level": "B2",
+    "t": {
+      "de": "die Epoche, das Zeitalter",
+      "en": "era, age",
+      "sv": "era, tidsålder",
+      "nl": "tijdperk",
+      "it": "l'epoca, l'era",
+      "es": "la época, la era"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

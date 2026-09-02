@@ -1,0 +1,218 @@
+[
+  {
+    "id": "lex_ti_meter",
+    "am": "ሜትሮ",
+    "tr": "metro",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "der Meter",
+      "en": "meter",
+      "sv": "meter",
+      "nl": "meter",
+      "it": "il metro",
+      "es": "el metro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_kilometer",
+    "am": "ኪሎ ሜትሮ",
+    "tr": "kilo metro",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "der Kilometer",
+      "en": "kilometer",
+      "sv": "kilometer",
+      "nl": "kilometer",
+      "it": "il chilometro",
+      "es": "el kilómetro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_litri",
+    "am": "ሊትሮ",
+    "tr": "litro",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "der Liter",
+      "en": "liter",
+      "sv": "liter",
+      "nl": "liter",
+      "it": "il litro",
+      "es": "el litro"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gram",
+    "am": "ግራም",
+    "tr": "giram",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "das Gramm",
+      "en": "gram",
+      "sv": "gram",
+      "nl": "gram",
+      "it": "il grammo",
+      "es": "el gramo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_degree",
+    "am": "ደረጃ ሙቐት",
+    "tr": "dereja muqet",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "der Grad (Temperatur)",
+      "en": "degree (temperature)",
+      "sv": "grad (temperatur)",
+      "nl": "graad (temperatuur)",
+      "it": "il grado (temperatura)",
+      "es": "el grado (temperatura)"
+    },
+    "emoji": "🌡️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_tselul",
+    "am": "ውርዲ",
+    "tr": "wirdi",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "die Höhe",
+      "en": "height",
+      "sv": "höjd",
+      "nl": "hoogte",
+      "it": "l'altezza",
+      "es": "la altura"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_second2",
+    "am": "ግምጋም",
+    "tr": "gimgam",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "das Maß, die Messung",
+      "en": "measurement",
+      "sv": "mått",
+      "nl": "maat, meting",
+      "it": "la misura",
+      "es": "la medida"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_ekulu",
+    "am": "ማዕረ",
+    "tr": "ma'ere",
+    "pos": "adjective",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "gleich, gerecht",
+      "en": "equal, fair",
+      "sv": "lika, rättvis",
+      "nl": "gelijk, eerlijk",
+      "it": "uguale, giusto",
+      "es": "igual, justo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_wisikh",
+    "am": "ስፍሓት",
+    "tr": "sifhat",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "die Breite",
+      "en": "width",
+      "sv": "bredd",
+      "nl": "breedte",
+      "it": "la larghezza",
+      "es": "el ancho"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gemesh",
+    "am": "ንውሓት",
+    "tr": "niwuhat",
+    "pos": "noun",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "die Länge",
+      "en": "length",
+      "sv": "längd",
+      "nl": "lengte",
+      "it": "la lunghezza",
+      "es": "la longitud"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_dmts",
+    "am": "ደመር",
+    "tr": "demer",
+    "pos": "verb",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "addieren, hinzufügen",
+      "en": "to add",
+      "sv": "addera, lägga till",
+      "nl": "optellen, toevoegen",
+      "it": "addizionare, aggiungere",
+      "es": "sumar, añadir"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_klls",
+    "am": "ኣውጽእ (ቁጽሪ)",
+    "tr": "awts'i qutsri",
+    "pos": "verb",
+    "topic": "measurements",
+    "level": "TI",
+    "t": {
+      "de": "subtrahieren",
+      "en": "to subtract",
+      "sv": "subtrahera",
+      "nl": "aftrekken",
+      "it": "sottrarre",
+      "es": "restar"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

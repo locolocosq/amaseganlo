@@ -1,0 +1,202 @@
+[
+  {
+    "id": "lex_sechste",
+    "am": "ስድስተኛ",
+    "tr": "sidistegna",
+    "pos": "adjective",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "sechste(r/s)",
+      "en": "sixth",
+      "sv": "sjätte",
+      "nl": "zesde",
+      "it": "sesto/a",
+      "es": "sexto/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_siebte",
+    "am": "ሰባተኛ",
+    "tr": "sebategna",
+    "pos": "adjective",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "siebte(r/s)",
+      "en": "seventh",
+      "sv": "sjunde",
+      "nl": "zevende",
+      "it": "settimo/a",
+      "es": "séptimo/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_achte",
+    "am": "ስምንተኛ",
+    "tr": "siminitegna",
+    "pos": "adjective",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "achte(r/s)",
+      "en": "eighth",
+      "sv": "åttonde",
+      "nl": "achtste",
+      "it": "ottavo/a",
+      "es": "octavo/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_neunte",
+    "am": "ዘጠነኛ",
+    "tr": "zetenegna",
+    "pos": "adjective",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "neunte(r/s)",
+      "en": "ninth",
+      "sv": "nionde",
+      "nl": "negende",
+      "it": "nono/a",
+      "es": "noveno/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zehnte",
+    "am": "አስረኛ",
+    "tr": "asregna",
+    "pos": "adjective",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "zehnte(r/s)",
+      "en": "tenth",
+      "sv": "tionde",
+      "nl": "tiende",
+      "it": "decimo/a",
+      "es": "décimo/a"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zahl_400",
+    "am": "አራት መቶ",
+    "tr": "arat meto",
+    "pos": "number",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "400",
+      "en": "400",
+      "sv": "400",
+      "nl": "400",
+      "it": "400",
+      "es": "400"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_600",
+    "am": "ስድስት መቶ",
+    "tr": "sidist meto",
+    "pos": "number",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "600",
+      "en": "600",
+      "sv": "600",
+      "nl": "600",
+      "it": "600",
+      "es": "600"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_700",
+    "am": "ሰባት መቶ",
+    "tr": "sebat meto",
+    "pos": "number",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "700",
+      "en": "700",
+      "sv": "700",
+      "nl": "700",
+      "it": "700",
+      "es": "700"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_800",
+    "am": "ስምንት መቶ",
+    "tr": "siminit meto",
+    "pos": "number",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "800",
+      "en": "800",
+      "sv": "800",
+      "nl": "800",
+      "it": "800",
+      "es": "800"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_zahl_900",
+    "am": "ዘጠኝ መቶ",
+    "tr": "zet'egn meto",
+    "pos": "number",
+    "topic": "numbers_more2",
+    "level": "A1.2",
+    "t": {
+      "de": "900",
+      "en": "900",
+      "sv": "900",
+      "nl": "900",
+      "it": "900",
+      "es": "900"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

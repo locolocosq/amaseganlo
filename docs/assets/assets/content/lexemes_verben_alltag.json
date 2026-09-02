@@ -1,0 +1,642 @@
+[
+  {
+    "id": "lex_v_gehen",
+    "am": "መሄድ",
+    "tr": "mehed",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "gehen",
+      "en": "to go",
+      "sv": "gå",
+      "nl": "gaan",
+      "it": "andare",
+      "es": "ir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_kommen",
+    "am": "መምጣት",
+    "tr": "memt'at",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "kommen",
+      "en": "to come",
+      "sv": "komma",
+      "nl": "komen",
+      "it": "venire",
+      "es": "venir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_sehen",
+    "am": "ማየት",
+    "tr": "mayet",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "sehen",
+      "en": "to see",
+      "sv": "se",
+      "nl": "zien",
+      "it": "vedere",
+      "es": "ver"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_machen",
+    "am": "ማድረግ",
+    "tr": "madirege",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "machen, tun",
+      "en": "to do, to make",
+      "sv": "göra",
+      "nl": "doen, maken",
+      "it": "fare",
+      "es": "hacer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_geben",
+    "am": "መስጠት",
+    "tr": "meset'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "geben",
+      "en": "to give",
+      "sv": "ge",
+      "nl": "geven",
+      "it": "dare",
+      "es": "dar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_nehmen",
+    "am": "መውሰድ",
+    "tr": "mewsed",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "nehmen",
+      "en": "to take",
+      "sv": "ta",
+      "nl": "nemen",
+      "it": "prendere",
+      "es": "tomar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_wollen",
+    "am": "መፈለግ",
+    "tr": "mefeleg",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "wollen",
+      "en": "to want",
+      "sv": "vilja",
+      "nl": "willen",
+      "it": "volere",
+      "es": "querer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_koennen",
+    "am": "መቻል",
+    "tr": "mechal",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "können",
+      "en": "to be able to, can",
+      "sv": "kunna",
+      "nl": "kunnen",
+      "it": "potere",
+      "es": "poder"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_wissen",
+    "am": "ማወቅ",
+    "tr": "mawek'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "wissen",
+      "en": "to know",
+      "sv": "veta",
+      "nl": "weten",
+      "it": "sapere",
+      "es": "saber"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_sprechen",
+    "am": "መናገር",
+    "tr": "menager",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "sprechen, reden",
+      "en": "to speak",
+      "sv": "tala",
+      "nl": "spreken",
+      "it": "parlare",
+      "es": "hablar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_lieben",
+    "am": "መውደድ",
+    "tr": "mewded",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "lieben, mögen",
+      "en": "to love, to like",
+      "sv": "älska, tycka om",
+      "nl": "liefhebben, leuk vinden",
+      "it": "amare, piacere",
+      "es": "amar, gustar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_arbeiten",
+    "am": "መስራት",
+    "tr": "mesrat",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "arbeiten",
+      "en": "to work",
+      "sv": "arbeta",
+      "nl": "werken",
+      "it": "lavorare",
+      "es": "trabajar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_lernen",
+    "am": "መማር",
+    "tr": "memar",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "lernen",
+      "en": "to learn",
+      "sv": "lära sig",
+      "nl": "leren",
+      "it": "imparare",
+      "es": "aprender"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_schlafen",
+    "am": "መተኛት",
+    "tr": "metegnat",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "schlafen",
+      "en": "to sleep",
+      "sv": "sova",
+      "nl": "slapen",
+      "it": "dormire",
+      "es": "dormir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_spielen",
+    "am": "መጫወት",
+    "tr": "mechawet",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "spielen",
+      "en": "to play",
+      "sv": "leka, spela",
+      "nl": "spelen",
+      "it": "giocare",
+      "es": "jugar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_laufen",
+    "am": "መሮጥ",
+    "tr": "meroth'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "laufen, rennen",
+      "en": "to run",
+      "sv": "springa",
+      "nl": "rennen",
+      "it": "correre",
+      "es": "correr"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_sitzen",
+    "am": "መቀመጥ",
+    "tr": "mek'emet'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "sitzen",
+      "en": "to sit",
+      "sv": "sitta",
+      "nl": "zitten",
+      "it": "sedersi, stare seduto",
+      "es": "sentarse, estar sentado"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_stehen",
+    "am": "መቆም",
+    "tr": "mek'om",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "stehen",
+      "en": "to stand",
+      "sv": "stå",
+      "nl": "staan",
+      "it": "stare in piedi",
+      "es": "estar de pie"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_oeffnen",
+    "am": "መክፈት",
+    "tr": "mekfet",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "öffnen",
+      "en": "to open",
+      "sv": "öppna",
+      "nl": "openen",
+      "it": "aprire",
+      "es": "abrir"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_schliessen",
+    "am": "መዝጋት",
+    "tr": "mezgat",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "schließen",
+      "en": "to close",
+      "sv": "stänga",
+      "nl": "sluiten",
+      "it": "chiudere",
+      "es": "cerrar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_helfen",
+    "am": "መርዳት",
+    "tr": "merdat",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "helfen",
+      "en": "to help",
+      "sv": "hjälpa",
+      "nl": "helpen",
+      "it": "aiutare",
+      "es": "ayudar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_fragen",
+    "am": "መጠየቅ",
+    "tr": "met'eyek'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "fragen",
+      "en": "to ask",
+      "sv": "fråga",
+      "nl": "vragen",
+      "it": "chiedere",
+      "es": "preguntar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_antworten",
+    "am": "መመለስ",
+    "tr": "memeles",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "antworten",
+      "en": "to answer",
+      "sv": "svara",
+      "nl": "antwoorden",
+      "it": "rispondere",
+      "es": "responder"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_denken",
+    "am": "ማሰብ",
+    "tr": "maseb",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "denken",
+      "en": "to think",
+      "sv": "tänka",
+      "nl": "denken",
+      "it": "pensare",
+      "es": "pensar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_verstehen",
+    "am": "መረዳት",
+    "tr": "meredat",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "verstehen",
+      "en": "to understand",
+      "sv": "förstå",
+      "nl": "begrijpen",
+      "it": "capire",
+      "es": "entender"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_hoeren",
+    "am": "መስማት",
+    "tr": "mesmat",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "hören",
+      "en": "to hear",
+      "sv": "höra",
+      "nl": "horen",
+      "it": "sentire, udire",
+      "es": "oír"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_kochen",
+    "am": "ማብሰል",
+    "tr": "mabsel",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "kochen",
+      "en": "to cook",
+      "sv": "laga mat",
+      "nl": "koken",
+      "it": "cucinare",
+      "es": "cocinar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_waschen",
+    "am": "ማጠብ",
+    "tr": "mat'eb",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "waschen",
+      "en": "to wash",
+      "sv": "tvätta",
+      "nl": "wassen",
+      "it": "lavare",
+      "es": "lavar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_warten",
+    "am": "መጠበቅ",
+    "tr": "met'ebek'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "warten",
+      "en": "to wait",
+      "sv": "vänta",
+      "nl": "wachten",
+      "it": "aspettare",
+      "es": "esperar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_suchen",
+    "am": "መፍለግ",
+    "tr": "meflege",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "suchen",
+      "en": "to search",
+      "sv": "söka",
+      "nl": "zoeken",
+      "it": "cercare",
+      "es": "buscar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_bringen",
+    "am": "ማምጣት",
+    "tr": "mamt'at",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "bringen",
+      "en": "to bring",
+      "sv": "ta med",
+      "nl": "brengen",
+      "it": "portare",
+      "es": "traer"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_lachen",
+    "am": "መሳቅ",
+    "tr": "mesak'",
+    "pos": "verb",
+    "topic": "verbs",
+    "level": "A2",
+    "t": {
+      "de": "lachen",
+      "en": "to laugh",
+      "sv": "skratta",
+      "nl": "lachen",
+      "it": "ridere",
+      "es": "reír"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

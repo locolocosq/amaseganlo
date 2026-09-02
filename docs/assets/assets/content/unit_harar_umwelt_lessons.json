@@ -1,0 +1,134 @@
+[
+  {
+    "id": "unit_harar_umwelt_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_akababi",
+      "lex_ayer_nibret_lewit",
+      "lex_bikilet",
+      "lex_v_mekelakel",
+      "lex_taddis_mekera",
+      "lex_adj_asfelagi",
+      "lex_kelil"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_umwelt_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_akababi",
+      "lex_ayer_nibret_lewit",
+      "lex_bikilet",
+      "lex_v_mekelakel",
+      "lex_taddis_mekera",
+      "lex_adj_asfelagi",
+      "lex_kelil"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_akababi",
+      "lex_ayer_nibret_lewit",
+      "lex_bikilet",
+      "lex_v_mekelakel",
+      "lex_taddis_mekera",
+      "lex_adj_asfelagi",
+      "lex_kelil"
+    ],
+    "sentenceIds": [
+      "sen_akababi_mekelakel",
+      "sen_ayer_nibret_lewit_chigir",
+      "sen_bikilet_metfo",
+      "sen_taddis_mekera_akababi",
+      "sen_kelil_akababi"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_akababi",
+      "lex_ayer_nibret_lewit",
+      "lex_bikilet",
+      "lex_v_mekelakel",
+      "lex_taddis_mekera",
+      "lex_adj_asfelagi",
+      "lex_kelil"
+    ],
+    "sentenceIds": [
+      "sen_akababi_mekelakel",
+      "sen_ayer_nibret_lewit_chigir",
+      "sen_bikilet_metfo",
+      "sen_taddis_mekera_akababi",
+      "sen_kelil_akababi"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_akababi",
+      "lex_ayer_nibret_lewit",
+      "lex_bikilet",
+      "lex_v_mekelakel",
+      "lex_taddis_mekera",
+      "lex_adj_asfelagi",
+      "lex_kelil"
+    ],
+    "sentenceIds": [
+      "sen_akababi_mekelakel",
+      "sen_ayer_nibret_lewit_chigir",
+      "sen_bikilet_metfo",
+      "sen_taddis_mekera_akababi",
+      "sen_kelil_akababi"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_umwelt_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_akababi",
+      "lex_ayer_nibret_lewit",
+      "lex_bikilet",
+      "lex_v_mekelakel",
+      "lex_taddis_mekera",
+      "lex_adj_asfelagi",
+      "lex_kelil"
+    ],
+    "sentenceIds": [
+      "sen_akababi_mekelakel",
+      "sen_ayer_nibret_lewit_chigir",
+      "sen_bikilet_metfo",
+      "sen_taddis_mekera_akababi",
+      "sen_kelil_akababi"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

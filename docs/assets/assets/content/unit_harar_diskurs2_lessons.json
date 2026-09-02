@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_harar_diskurs2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_honom",
+      "lex_lemisale",
+      "lex_beatekalay",
+      "lex_bematekaleya",
+      "lex_kezih_betechemari"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_diskurs2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_honom",
+      "lex_lemisale",
+      "lex_beatekalay",
+      "lex_bematekaleya",
+      "lex_kezih_betechemari"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_diskurs2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_honom",
+      "lex_lemisale",
+      "lex_beatekalay",
+      "lex_bematekaleya",
+      "lex_kezih_betechemari"
+    ],
+    "sentenceIds": [
+      "sen_honom_metfo",
+      "sen_lemisale_key",
+      "sen_beatekalay_tiru",
+      "sen_bematekaleya_asfelagi",
+      "sen_kezih_betechemari_rikash"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_diskurs2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_honom",
+      "lex_lemisale",
+      "lex_beatekalay",
+      "lex_bematekaleya",
+      "lex_kezih_betechemari"
+    ],
+    "sentenceIds": [
+      "sen_honom_metfo",
+      "sen_lemisale_key",
+      "sen_beatekalay_tiru",
+      "sen_bematekaleya_asfelagi",
+      "sen_kezih_betechemari_rikash"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_diskurs2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_honom",
+      "lex_lemisale",
+      "lex_beatekalay",
+      "lex_bematekaleya",
+      "lex_kezih_betechemari"
+    ],
+    "sentenceIds": [
+      "sen_honom_metfo",
+      "sen_lemisale_key",
+      "sen_beatekalay_tiru",
+      "sen_bematekaleya_asfelagi",
+      "sen_kezih_betechemari_rikash"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_diskurs2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_honom",
+      "lex_lemisale",
+      "lex_beatekalay",
+      "lex_bematekaleya",
+      "lex_kezih_betechemari"
+    ],
+    "sentenceIds": [
+      "sen_honom_metfo",
+      "sen_lemisale_key",
+      "sen_beatekalay_tiru",
+      "sen_bematekaleya_asfelagi",
+      "sen_kezih_betechemari_rikash"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

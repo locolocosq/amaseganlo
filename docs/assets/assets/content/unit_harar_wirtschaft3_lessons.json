@@ -1,0 +1,122 @@
+[
+  {
+    "id": "unit_harar_wirtschaft3_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_tirif",
+      "lex_kisara",
+      "lex_investiment",
+      "lex_yeaksiyon_gebeya",
+      "lex_yewaga_gishibet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_wirtschaft3_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_tirif",
+      "lex_kisara",
+      "lex_investiment",
+      "lex_yeaksiyon_gebeya",
+      "lex_yewaga_gishibet"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft3_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_tirif",
+      "lex_kisara",
+      "lex_investiment",
+      "lex_yeaksiyon_gebeya",
+      "lex_yewaga_gishibet"
+    ],
+    "sentenceIds": [
+      "sen_tirif_kisara",
+      "sen_yeaksiyon_gebeya_ikonomi",
+      "sen_yewaga_gishibet_chigir",
+      "sen_tirif_yeaksiyon_gebeya",
+      "sen_kisara_yewaga_gishibet"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft3_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_tirif",
+      "lex_kisara",
+      "lex_investiment",
+      "lex_yeaksiyon_gebeya",
+      "lex_yewaga_gishibet"
+    ],
+    "sentenceIds": [
+      "sen_tirif_kisara",
+      "sen_yeaksiyon_gebeya_ikonomi",
+      "sen_yewaga_gishibet_chigir",
+      "sen_tirif_yeaksiyon_gebeya",
+      "sen_kisara_yewaga_gishibet"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft3_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_tirif",
+      "lex_kisara",
+      "lex_investiment",
+      "lex_yeaksiyon_gebeya",
+      "lex_yewaga_gishibet"
+    ],
+    "sentenceIds": [
+      "sen_tirif_kisara",
+      "sen_yeaksiyon_gebeya_ikonomi",
+      "sen_yewaga_gishibet_chigir",
+      "sen_tirif_yeaksiyon_gebeya",
+      "sen_kisara_yewaga_gishibet"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_wirtschaft3_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_tirif",
+      "lex_kisara",
+      "lex_investiment",
+      "lex_yeaksiyon_gebeya",
+      "lex_yewaga_gishibet"
+    ],
+    "sentenceIds": [
+      "sen_tirif_kisara",
+      "sen_yeaksiyon_gebeya_ikonomi",
+      "sen_yewaga_gishibet_chigir",
+      "sen_tirif_yeaksiyon_gebeya",
+      "sen_kisara_yewaga_gishibet"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

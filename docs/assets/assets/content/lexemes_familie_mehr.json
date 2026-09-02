@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_cousin",
+    "am": "ወንድም ልጅ (የአክስት/የአጎት)",
+    "tr": "wendim lij (yeakist/yeagot)",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "der Cousin",
+      "en": "cousin (male)",
+      "sv": "kusin (man)",
+      "nl": "neef (kozijn)",
+      "it": "il cugino",
+      "es": "el primo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_cousine",
+    "am": "ሴት ልጅ (የአክስት/የአጎት)",
+    "tr": "set lij (yeakist/yeagot)",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "die Cousine",
+      "en": "cousin (female)",
+      "sv": "kusin (kvinna)",
+      "nl": "nicht (neef)",
+      "it": "la cugina",
+      "es": "la prima"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_neffe",
+    "am": "የወንድም/እህት ልጅ",
+    "tr": "yewendim/ihit lij",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "der Neffe",
+      "en": "nephew",
+      "sv": "nephew",
+      "nl": "nefje",
+      "it": "il nipote",
+      "es": "el sobrino"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_nichte",
+    "am": "የወንድም/እህት ሴት ልጅ",
+    "tr": "yewendim/ihit set lij",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "die Nichte",
+      "en": "niece",
+      "sv": "nichte",
+      "nl": "nichtje",
+      "it": "la nipote",
+      "es": "la sobrina"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_zwilling",
+    "am": "መንታ",
+    "tr": "menta",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "der Zwilling",
+      "en": "twin",
+      "sv": "tvilling",
+      "nl": "tweeling",
+      "it": "il gemello",
+      "es": "el gemelo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_witwe",
+    "am": "መበለት",
+    "tr": "mebelet",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "die Witwe",
+      "en": "widow",
+      "sv": "änka",
+      "nl": "weduwe",
+      "it": "la vedova",
+      "es": "la viuda"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_witwer",
+    "am": "መስተዋት (ባል የሞተለት)",
+    "tr": "mestewat (bal yemotelet)",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "der Witwer",
+      "en": "widower",
+      "sv": "änkling",
+      "nl": "weduwnaar",
+      "it": "il vedovo",
+      "es": "el viudo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_stiefmutter",
+    "am": "የእንጀራ እናት",
+    "tr": "yeinjera enat",
+    "pos": "noun",
+    "topic": "family_more",
+    "level": "A2",
+    "t": {
+      "de": "die Stiefmutter",
+      "en": "stepmother",
+      "sv": "styvmor",
+      "nl": "stiefmoeder",
+      "it": "la matrigna",
+      "es": "la madrastra"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  }
+]

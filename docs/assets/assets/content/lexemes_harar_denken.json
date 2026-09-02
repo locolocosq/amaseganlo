@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lex_hasab",
+    "am": "ሃሳብ",
+    "tr": "hasab",
+    "pos": "noun",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "die Idee, der Gedanke",
+      "en": "idea, thought",
+      "sv": "idé, tanke",
+      "nl": "idee, gedachte",
+      "it": "l'idea, il pensiero",
+      "es": "la idea, el pensamiento"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_maseb",
+    "am": "ማሰብ",
+    "tr": "maseb",
+    "pos": "verb",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "denken, nachdenken",
+      "en": "to think",
+      "sv": "tänka",
+      "nl": "denken",
+      "it": "pensare, riflettere",
+      "es": "pensar, reflexionar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_v_mekerakeri",
+    "am": "መከራከር",
+    "tr": "mekeraker",
+    "pos": "verb",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "argumentieren, streiten",
+      "en": "to argue",
+      "sv": "argumentera",
+      "nl": "argumenteren",
+      "it": "discutere, litigare",
+      "es": "discutir, argumentar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_v_meteret",
+    "am": "መተርጎም",
+    "tr": "meterigom",
+    "pos": "verb",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "interpretieren, übersetzen, erklären",
+      "en": "to interpret, to translate",
+      "sv": "tolka, översätta",
+      "nl": "interpreteren, vertalen",
+      "it": "interpretare, tradurre, spiegare",
+      "es": "interpretar, traducir, explicar"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_adj_asrachi",
+    "am": "አሳማኝ",
+    "tr": "asamagn",
+    "pos": "adjective",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "überzeugend",
+      "en": "convincing",
+      "sv": "övertygande",
+      "nl": "overtuigend",
+      "it": "convincente",
+      "es": "convincente"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_mikinyat",
+    "am": "ምክንያት",
+    "tr": "mikinyat",
+    "pos": "noun",
+    "topic": "abstract_thought",
+    "level": "B2",
+    "t": {
+      "de": "der Grund, die Ursache",
+      "en": "reason, cause",
+      "sv": "anledning, orsak",
+      "nl": "reden, oorzaak",
+      "it": "il motivo, la causa",
+      "es": "el motivo, la causa"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

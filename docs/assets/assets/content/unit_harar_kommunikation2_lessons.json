@@ -1,0 +1,212 @@
+[
+  {
+    "id": "unit_harar_kommunikation2_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_hk2_sitalefit",
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt",
+      "lex_hk2_v_meliket",
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4",
+      "lex_hk2_v_metenagager",
+      "lex_hk2_v_mekerakeb",
+      "lex_hk2_hasab2",
+      "lex_hk2_v_masiawek",
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles",
+      "lex_hk2_v_memeles",
+      "lex_hk2_wediket",
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje",
+      "lex_hk2_akiraro",
+      "lex_hk2_v_mekifel",
+      "lex_hk2_imail",
+      "lex_hk2_v_meketkot"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_harar_kommunikation2_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_hk2_sitalefit",
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt",
+      "lex_hk2_v_meliket",
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4",
+      "lex_hk2_v_metenagager",
+      "lex_hk2_v_mekerakeb",
+      "lex_hk2_hasab2",
+      "lex_hk2_v_masiawek",
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles",
+      "lex_hk2_v_memeles",
+      "lex_hk2_wediket",
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje",
+      "lex_hk2_akiraro",
+      "lex_hk2_v_mekifel",
+      "lex_hk2_imail",
+      "lex_hk2_v_meketkot"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_harar_kommunikation2_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_hk2_sitalefit",
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt",
+      "lex_hk2_v_meliket",
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4",
+      "lex_hk2_v_metenagager",
+      "lex_hk2_v_mekerakeb",
+      "lex_hk2_hasab2",
+      "lex_hk2_v_masiawek",
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles",
+      "lex_hk2_v_memeles",
+      "lex_hk2_wediket",
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje",
+      "lex_hk2_akiraro",
+      "lex_hk2_v_mekifel",
+      "lex_hk2_imail",
+      "lex_hk2_v_meketkot"
+    ],
+    "sentenceIds": [
+      "sen_hk2_v_metalefen_melekt",
+      "sen_hk2_teyaqi_meles",
+      "sen_hk2_debidabe_akal4",
+      "sen_hk2_v_mekedaje_kabo",
+      "sen_gen_hk2_sitalefit"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_harar_kommunikation2_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_hk2_sitalefit",
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt",
+      "lex_hk2_v_meliket",
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4",
+      "lex_hk2_v_metenagager",
+      "lex_hk2_v_mekerakeb",
+      "lex_hk2_hasab2",
+      "lex_hk2_v_masiawek",
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles",
+      "lex_hk2_v_memeles",
+      "lex_hk2_wediket",
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje",
+      "lex_hk2_akiraro",
+      "lex_hk2_v_mekifel",
+      "lex_hk2_imail",
+      "lex_hk2_v_meketkot"
+    ],
+    "sentenceIds": [
+      "sen_hk2_v_metalefen_melekt",
+      "sen_hk2_teyaqi_meles",
+      "sen_hk2_debidabe_akal4",
+      "sen_hk2_v_mekedaje_kabo",
+      "sen_gen_hk2_sitalefit"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_harar_kommunikation2_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_hk2_sitalefit",
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt",
+      "lex_hk2_v_meliket",
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4",
+      "lex_hk2_v_metenagager",
+      "lex_hk2_v_mekerakeb",
+      "lex_hk2_hasab2",
+      "lex_hk2_v_masiawek",
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles",
+      "lex_hk2_v_memeles",
+      "lex_hk2_wediket",
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje",
+      "lex_hk2_akiraro",
+      "lex_hk2_v_mekifel",
+      "lex_hk2_imail",
+      "lex_hk2_v_meketkot"
+    ],
+    "sentenceIds": [
+      "sen_hk2_v_metalefen_melekt",
+      "sen_hk2_teyaqi_meles",
+      "sen_hk2_debidabe_akal4",
+      "sen_hk2_v_mekedaje_kabo",
+      "sen_gen_hk2_sitalefit"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_harar_kommunikation2_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_hk2_sitalefit",
+      "lex_hk2_v_metalefen",
+      "lex_hk2_melekt",
+      "lex_hk2_v_meliket",
+      "lex_hk2_debidabe",
+      "lex_hk2_akal4",
+      "lex_hk2_v_metenagager",
+      "lex_hk2_v_mekerakeb",
+      "lex_hk2_hasab2",
+      "lex_hk2_v_masiawek",
+      "lex_hk2_teyaqi",
+      "lex_hk2_meles",
+      "lex_hk2_v_memeles",
+      "lex_hk2_wediket",
+      "lex_hk2_kabo",
+      "lex_hk2_v_mekedaje",
+      "lex_hk2_akiraro",
+      "lex_hk2_v_mekifel",
+      "lex_hk2_imail",
+      "lex_hk2_v_meketkot"
+    ],
+    "sentenceIds": [
+      "sen_hk2_v_metalefen_melekt",
+      "sen_hk2_teyaqi_meles",
+      "sen_hk2_debidabe_akal4",
+      "sen_hk2_v_mekedaje_kabo",
+      "sen_gen_hk2_sitalefit"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

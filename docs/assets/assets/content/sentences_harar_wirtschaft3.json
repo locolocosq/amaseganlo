@@ -1,0 +1,130 @@
+[
+  {
+    "id": "sen_tirif_kisara",
+    "am": "ትርፍ ጥሩ ነው፤ ኪሳራ መጥፎ ነው።",
+    "tr": "tirif t'iru newu; kisara met'fo newu.",
+    "level": "B2",
+    "uses": [
+      "lex_tirif",
+      "lex_kisara"
+    ],
+    "t": {
+      "de": "Gewinn ist gut; Verlust ist schlecht.",
+      "en": "Profit is good; loss is bad.",
+      "sv": "Vinst är bra; förlust är dåligt.",
+      "nl": "Winst is goed; verlies is slecht.",
+      "it": "Il profitto è buono; la perdita è brutta.",
+      "es": "La ganancia es buena; la pérdida es mala."
+    },
+    "chunks": [
+      "tirif",
+      "t'iru",
+      "newu",
+      "kisara",
+      "met'fo",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_yeaksiyon_gebeya_ikonomi",
+    "am": "የአክሲዮን ገበያ ለኢኮኖሚ አስፈላጊ ነው።",
+    "tr": "ye'aksiyon gebeya leikonomi asfelagi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_yeaksiyon_gebeya",
+      "lex_ikonomi"
+    ],
+    "t": {
+      "de": "Die Börse ist wichtig für die Wirtschaft.",
+      "en": "The stock market is important for the economy.",
+      "sv": "Börsen är viktig för ekonomin.",
+      "nl": "De aandelenmarkt is belangrijk voor de economie.",
+      "it": "La borsa è importante per l'economia.",
+      "es": "La bolsa de valores es importante para la economía."
+    },
+    "chunks": [
+      "ye'aksiyon",
+      "gebeya",
+      "leikonomi",
+      "asfelagi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_yewaga_gishibet_chigir",
+    "am": "የዋጋ ግሽበት ከባድ ችግር ነው።",
+    "tr": "yewaga gishibet kebad chigir newu.",
+    "level": "B2",
+    "uses": [
+      "lex_yewaga_gishibet"
+    ],
+    "t": {
+      "de": "Inflation ist ein ernstes Problem.",
+      "en": "Inflation is a serious problem.",
+      "sv": "Inflation är ett allvarligt problem.",
+      "nl": "Inflatie is een ernstig probleem.",
+      "it": "L'inflazione è un problema serio.",
+      "es": "La inflación es un problema grave."
+    },
+    "chunks": [
+      "yewaga",
+      "gishibet",
+      "kebad",
+      "chigir",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_tirif_yeaksiyon_gebeya",
+    "am": "ትርፍ ከአክሲዮን ገበያ ይመጣል።",
+    "tr": "tirif ke'aksiyon gebeya yimet'al.",
+    "level": "B2",
+    "uses": [
+      "lex_tirif",
+      "lex_yeaksiyon_gebeya"
+    ],
+    "t": {
+      "de": "Gewinn kommt von der Börse.",
+      "en": "Profit comes from the stock market.",
+      "sv": "Vinst kommer från börsen.",
+      "nl": "Winst komt van de aandelenmarkt.",
+      "it": "Il profitto viene dalla borsa.",
+      "es": "La ganancia viene de la bolsa de valores."
+    },
+    "chunks": [
+      "tirif",
+      "ke'aksiyon",
+      "gebeya",
+      "yimet'al"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_kisara_yewaga_gishibet",
+    "am": "ኪሳራ ከዋጋ ግሽበት ይመጣል።",
+    "tr": "kisara kewaga gishibet yimet'al.",
+    "level": "B2",
+    "uses": [
+      "lex_kisara",
+      "lex_yewaga_gishibet"
+    ],
+    "t": {
+      "de": "Verlust kommt von der Inflation.",
+      "en": "Loss comes from inflation.",
+      "sv": "Förlust kommer från inflation.",
+      "nl": "Verlies komt van inflatie.",
+      "it": "La perdita viene dall'inflazione.",
+      "es": "La pérdida viene de la inflación."
+    },
+    "chunks": [
+      "kisara",
+      "kewaga",
+      "gishibet",
+      "yimet'al"
+    ],
+    "verified": false
+  }
+]

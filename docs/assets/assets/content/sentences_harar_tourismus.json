@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sen_htu_turist_asigobinyi",
+    "am": "ቱሪስቱ አስጎብኚ ፈለገ።",
+    "tr": "turistu asigobinyi felege.",
+    "level": "B2",
+    "uses": [
+      "lex_htu_turist",
+      "lex_htu_meriya_ort"
+    ],
+    "t": {
+      "de": "Der Tourist suchte einen Reiseführer.",
+      "en": "The tourist looked for a tour guide.",
+      "sv": "Turisten sökte en reseguide.",
+      "nl": "De toerist zocht een reisgids.",
+      "it": "Il turista cercava una guida turistica.",
+      "es": "El turista buscaba un guía turístico."
+    },
+    "chunks": [
+      "turistu",
+      "asigobinyi",
+      "felege"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_htu_hotel_maref",
+    "am": "ቱሪስቶች በሆቴል ያርፋሉ።",
+    "tr": "turistoch behotel yarifalu.",
+    "level": "B2",
+    "uses": [
+      "lex_htu_hotel",
+      "lex_htu_zenzir"
+    ],
+    "t": {
+      "de": "Touristen übernachten im Hotel.",
+      "en": "Tourists stay at the hotel.",
+      "sv": "Turister övernattar på hotellet.",
+      "nl": "Toeristen overnachten in het hotel.",
+      "it": "I turisti alloggiano in hotel.",
+      "es": "Los turistas se alojan en el hotel."
+    },
+    "chunks": [
+      "turistoch",
+      "behotel",
+      "yarifalu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_htu_pasport_visa",
+    "am": "ቱሪስቱ በድንበር ፓስፖርት አሳየ።",
+    "tr": "turistu bedinibir pasiporiti asaye.",
+    "level": "B2",
+    "uses": [
+      "lex_htu_pasport",
+      "lex_htu_dinbir"
+    ],
+    "t": {
+      "de": "Der Tourist zeigte den Reisepass an der Grenze.",
+      "en": "The tourist showed the passport at the border.",
+      "sv": "Turisten visade passet vid gränsen.",
+      "nl": "De toerist toonde het paspoort aan de grens.",
+      "it": "Il turista ha mostrato il passaporto al confine.",
+      "es": "El turista mostró el pasaporte en la frontera."
+    },
+    "chunks": [
+      "turistu",
+      "bedinibir",
+      "pasiporiti",
+      "asaye"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_htu_fotograf_zikir",
+    "am": "ጉብኚው ፎቶግራፍ አነሳ እና መታሰቢያ ገዛ።",
+    "tr": "gubinyiw fotogiraf anesa ina metasebiya geza.",
+    "level": "B2",
+    "uses": [
+      "lex_htu_fotograf",
+      "lex_htu_zikir"
+    ],
+    "t": {
+      "de": "Der Besucher machte ein Foto und kaufte ein Souvenir.",
+      "en": "The visitor took a photo and bought a souvenir.",
+      "sv": "Besökaren tog ett foto och köpte en souvenir.",
+      "nl": "De bezoeker maakte een foto en kocht een souvenir.",
+      "it": "Il visitatore ha scattato una foto e ha comprato un souvenir.",
+      "es": "El visitante tomó una foto y compró un recuerdo."
+    },
+    "chunks": [
+      "gubinyiw",
+      "fotogiraf",
+      "anesa",
+      "ina",
+      "metasebiya",
+      "geza"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "unit_eritrea_friseursalon_schneiderei_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_frs_scsr",
+      "lex_ti_frs_dryr",
+      "lex_ti_frs_cut2",
+      "lex_ti_frs_braid",
+      "lex_ti_frs_beard",
+      "lex_ti_snd_ndl",
+      "lex_ti_snd_thrd",
+      "lex_ti_snd_mchn2",
+      "lex_ti_snd_sew2",
+      "lex_ti_snd_tlr2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_friseursalon_schneiderei_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_frs_scsr",
+      "lex_ti_frs_dryr",
+      "lex_ti_frs_cut2",
+      "lex_ti_frs_braid",
+      "lex_ti_frs_beard",
+      "lex_ti_snd_ndl",
+      "lex_ti_snd_thrd",
+      "lex_ti_snd_mchn2",
+      "lex_ti_snd_sew2",
+      "lex_ti_snd_tlr2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_friseursalon_schneiderei_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_frs_scsr",
+      "lex_ti_frs_dryr",
+      "lex_ti_frs_cut2",
+      "lex_ti_frs_braid",
+      "lex_ti_frs_beard",
+      "lex_ti_snd_ndl",
+      "lex_ti_snd_thrd",
+      "lex_ti_snd_mchn2",
+      "lex_ti_snd_sew2",
+      "lex_ti_snd_tlr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_friseursalon_schneiderei_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_frs_scsr",
+      "lex_ti_frs_dryr",
+      "lex_ti_frs_cut2",
+      "lex_ti_frs_braid",
+      "lex_ti_frs_beard",
+      "lex_ti_snd_ndl",
+      "lex_ti_snd_thrd",
+      "lex_ti_snd_mchn2",
+      "lex_ti_snd_sew2",
+      "lex_ti_snd_tlr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_friseursalon_schneiderei_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_frs_scsr",
+      "lex_ti_frs_dryr",
+      "lex_ti_frs_cut2",
+      "lex_ti_frs_braid",
+      "lex_ti_frs_beard",
+      "lex_ti_snd_ndl",
+      "lex_ti_snd_thrd",
+      "lex_ti_snd_mchn2",
+      "lex_ti_snd_sew2",
+      "lex_ti_snd_tlr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_friseursalon_schneiderei_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_frs_scsr",
+      "lex_ti_frs_dryr",
+      "lex_ti_frs_cut2",
+      "lex_ti_frs_braid",
+      "lex_ti_frs_beard",
+      "lex_ti_snd_ndl",
+      "lex_ti_snd_thrd",
+      "lex_ti_snd_mchn2",
+      "lex_ti_snd_sew2",
+      "lex_ti_snd_tlr2"
+    ],
+    "sentenceIds": [
+      "sen_ti_friseursalon_schneiderei_1",
+      "sen_gen_frs_dryr",
+      "sen_gen_frs_cut2",
+      "sen_gen_frs_braid",
+      "sen_gen_frs_beard"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

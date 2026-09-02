@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lex_ti_zria",
+    "am": "ዘሪያ",
+    "tr": "zeriya",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "traditionelles Kleid (Frauen)",
+      "en": "traditional dress (women)",
+      "sv": "traditionell klänning (kvinnor)",
+      "nl": "traditionele jurk (vrouwen)",
+      "it": "abito tradizionale (donne)",
+      "es": "vestido tradicional (mujeres)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_jelabya",
+    "am": "ጀለብያ",
+    "tr": "jelebiya",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "traditionelles Gewand (Männer)",
+      "en": "traditional robe (men)",
+      "sv": "traditionell dräkt (män)",
+      "nl": "traditioneel gewaad (mannen)",
+      "it": "abito tradizionale (uomini)",
+      "es": "túnica tradicional (hombres)"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gebi",
+    "am": "ዓቢ ነጠላ",
+    "tr": "'abi net'ela",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "großer traditioneller Umhang",
+      "en": "large traditional wrap",
+      "sv": "stor traditionell sjal",
+      "nl": "grote traditionele omslagdoek",
+      "it": "grande scialle tradizionale",
+      "es": "gran chal tradicional"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_krosh",
+    "am": "ጥልፊ",
+    "tr": "t'ilfi",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "die Stickerei",
+      "en": "embroidery",
+      "sv": "broderi",
+      "nl": "borduurwerk",
+      "it": "il ricamo",
+      "es": "el bordado"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_sndl",
+    "am": "ኮንጎ",
+    "tr": "kongo",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "traditionelle Sandalen",
+      "en": "traditional sandals",
+      "sv": "traditionella sandaler",
+      "nl": "traditionele sandalen",
+      "it": "sandali tradizionali",
+      "es": "sandalias tradicionales"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_hidmo",
+    "am": "ህድሞ",
+    "tr": "hidmo",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "traditionelles Steinhaus",
+      "en": "traditional stone house",
+      "sv": "traditionellt stenhus",
+      "nl": "traditioneel stenen huis",
+      "it": "casa tradizionale in pietra",
+      "es": "casa tradicional de piedra"
+    },
+    "emoji": "🏠",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_agelglo",
+    "am": "ዓግሎ",
+    "tr": "'aglo",
+    "pos": "noun",
+    "topic": "traditional_dress",
+    "level": "TI",
+    "t": {
+      "de": "traditionelle Hütte",
+      "en": "traditional hut",
+      "sv": "traditionell hydda",
+      "nl": "traditionele hut",
+      "it": "capanna tradizionale",
+      "es": "cabaña tradicional"
+    },
+    "emoji": "",
+    "verified": false
+  }
+]

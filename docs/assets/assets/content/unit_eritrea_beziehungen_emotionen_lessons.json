@@ -1,0 +1,170 @@
+[
+  {
+    "id": "unit_eritrea_beziehungen_emotionen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_ti_frenza",
+      "lex_ti_srhbi",
+      "lex_ti_frid",
+      "lex_ti_mekyd",
+      "lex_ti_hgb",
+      "lex_ti_mrat2",
+      "lex_ti_shqti",
+      "lex_ti_hfrti2",
+      "lex_ti_shkr",
+      "lex_ti_khyd",
+      "lex_ti_dnget",
+      "lex_ti_hyln",
+      "lex_ti_snbti2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_eritrea_beziehungen_emotionen_words",
+    "kind": "words",
+    "lexemeIds": [
+      "lex_ti_frenza",
+      "lex_ti_srhbi",
+      "lex_ti_frid",
+      "lex_ti_mekyd",
+      "lex_ti_hgb",
+      "lex_ti_mrat2",
+      "lex_ti_shqti",
+      "lex_ti_hfrti2",
+      "lex_ti_shkr",
+      "lex_ti_khyd",
+      "lex_ti_dnget",
+      "lex_ti_hyln",
+      "lex_ti_snbti2"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_eritrea_beziehungen_emotionen_sentences",
+    "kind": "sentences",
+    "lexemeIds": [
+      "lex_ti_frenza",
+      "lex_ti_srhbi",
+      "lex_ti_frid",
+      "lex_ti_mekyd",
+      "lex_ti_hgb",
+      "lex_ti_mrat2",
+      "lex_ti_shqti",
+      "lex_ti_hfrti2",
+      "lex_ti_shkr",
+      "lex_ti_khyd",
+      "lex_ti_dnget",
+      "lex_ti_hyln",
+      "lex_ti_snbti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_beziehungen_emotionen_1",
+      "sen_gen_srhbi",
+      "sen_gen_frid",
+      "sen_gen_mekyd",
+      "sen_gen_hgb"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_eritrea_beziehungen_emotionen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_ti_frenza",
+      "lex_ti_srhbi",
+      "lex_ti_frid",
+      "lex_ti_mekyd",
+      "lex_ti_hgb",
+      "lex_ti_mrat2",
+      "lex_ti_shqti",
+      "lex_ti_hfrti2",
+      "lex_ti_shkr",
+      "lex_ti_khyd",
+      "lex_ti_dnget",
+      "lex_ti_hyln",
+      "lex_ti_snbti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_beziehungen_emotionen_1",
+      "sen_gen_srhbi",
+      "sen_gen_frid",
+      "sen_gen_mekyd",
+      "sen_gen_hgb"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_eritrea_beziehungen_emotionen_free",
+    "kind": "free",
+    "lexemeIds": [
+      "lex_ti_frenza",
+      "lex_ti_srhbi",
+      "lex_ti_frid",
+      "lex_ti_mekyd",
+      "lex_ti_hgb",
+      "lex_ti_mrat2",
+      "lex_ti_shqti",
+      "lex_ti_hfrti2",
+      "lex_ti_shkr",
+      "lex_ti_khyd",
+      "lex_ti_dnget",
+      "lex_ti_hyln",
+      "lex_ti_snbti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_beziehungen_emotionen_1",
+      "sen_gen_srhbi",
+      "sen_gen_frid",
+      "sen_gen_mekyd",
+      "sen_gen_hgb"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_eritrea_beziehungen_emotionen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_ti_frenza",
+      "lex_ti_srhbi",
+      "lex_ti_frid",
+      "lex_ti_mekyd",
+      "lex_ti_hgb",
+      "lex_ti_mrat2",
+      "lex_ti_shqti",
+      "lex_ti_hfrti2",
+      "lex_ti_shkr",
+      "lex_ti_khyd",
+      "lex_ti_dnget",
+      "lex_ti_hyln",
+      "lex_ti_snbti2"
+    ],
+    "sentenceIds": [
+      "sen_ti_beziehungen_emotionen_1",
+      "sen_gen_srhbi",
+      "sen_gen_frid",
+      "sen_gen_mekyd",
+      "sen_gen_hgb"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

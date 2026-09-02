@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sen_zare_segno",
+    "am": "ዛሬ ሰኞ ነው።",
+    "tr": "zare segno new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_heute",
+      "lex_montag"
+    ],
+    "t": {
+      "de": "Heute ist Montag.",
+      "en": "Today is Monday.",
+      "sv": "Idag är det måndag.",
+      "nl": "Vandaag is het maandag.",
+      "it": "Oggi è lunedì.",
+      "es": "Hoy es lunes."
+    },
+    "alt": {},
+    "chunks": [
+      "zare",
+      "segno",
+      "new"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_nege_kidame",
+    "am": "ነገ ቅዳሜ ነው።",
+    "tr": "nege kidame new.",
+    "level": "A1.2",
+    "uses": [
+      "lex_morgen_tag",
+      "lex_samstag"
+    ],
+    "t": {
+      "de": "Morgen ist Samstag.",
+      "en": "Tomorrow is Saturday.",
+      "sv": "Imorgon är det lördag.",
+      "nl": "Morgen is het zaterdag.",
+      "it": "Domani è sabato.",
+      "es": "Mañana es sábado."
+    },
+    "alt": {},
+    "chunks": [
+      "nege",
+      "kidame",
+      "new"
+    ],
+    "verified": false
+  }
+]

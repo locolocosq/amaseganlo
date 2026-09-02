@@ -1,0 +1,158 @@
+[
+  {
+    "id": "unit_praepositionen_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_in_innerhalb",
+      "lex_auf_ueber",
+      "lex_unter",
+      "lex_neben",
+      "lex_vor",
+      "lex_hinter",
+      "lex_zwischen",
+      "lex_norden",
+      "lex_sueden",
+      "lex_osten",
+      "lex_westen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_praepositionen_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_in_innerhalb",
+      "lex_auf_ueber",
+      "lex_unter",
+      "lex_neben",
+      "lex_vor",
+      "lex_hinter",
+      "lex_zwischen",
+      "lex_norden",
+      "lex_sueden",
+      "lex_osten",
+      "lex_westen"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_praepositionen_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_in_innerhalb",
+      "lex_auf_ueber",
+      "lex_unter",
+      "lex_neben",
+      "lex_vor",
+      "lex_hinter",
+      "lex_zwischen",
+      "lex_norden",
+      "lex_sueden",
+      "lex_osten",
+      "lex_westen"
+    ],
+    "sentenceIds": [
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_praepositionen_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_in_innerhalb",
+      "lex_auf_ueber",
+      "lex_unter",
+      "lex_neben",
+      "lex_vor",
+      "lex_hinter",
+      "lex_zwischen",
+      "lex_norden",
+      "lex_sueden",
+      "lex_osten",
+      "lex_westen"
+    ],
+    "sentenceIds": [
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_praepositionen_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_in_innerhalb",
+      "lex_auf_ueber",
+      "lex_unter",
+      "lex_neben",
+      "lex_vor",
+      "lex_hinter",
+      "lex_zwischen",
+      "lex_norden",
+      "lex_sueden",
+      "lex_osten",
+      "lex_westen"
+    ],
+    "sentenceIds": [
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_praepositionen_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_in_innerhalb",
+      "lex_auf_ueber",
+      "lex_unter",
+      "lex_neben",
+      "lex_vor",
+      "lex_hinter",
+      "lex_zwischen",
+      "lex_norden",
+      "lex_sueden",
+      "lex_osten",
+      "lex_westen"
+    ],
+    "sentenceIds": [
+      "sen_kulfu_lay",
+      "sen_gen_norden",
+      "sen_gen_sueden",
+      "sen_gen_osten",
+      "sen_gen_westen"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

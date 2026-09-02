@@ -1,0 +1,148 @@
+[
+  {
+    "id": "unit_safari_bindewoerter_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_aber",
+      "lex_und",
+      "lex_oder",
+      "lex_deshalb",
+      "lex_waehrend",
+      "lex_obwohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_safari_bindewoerter_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_aber",
+      "lex_und",
+      "lex_oder",
+      "lex_deshalb",
+      "lex_waehrend",
+      "lex_obwohl"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_safari_bindewoerter_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_aber",
+      "lex_und",
+      "lex_oder",
+      "lex_deshalb",
+      "lex_waehrend",
+      "lex_obwohl"
+    ],
+    "sentenceIds": [
+      "sen_safari_bw_deg_tinish",
+      "sen_safari_bw_bilih_dekama",
+      "sen_safari_bw_tilik_konjo",
+      "sen_safari_bw_fetan_bilih",
+      "sen_safari_bw_tenama_dekama",
+      "sen_safari_bw_habtam_dha",
+      "sen_safari_bw_habtam_destegna",
+      "sen_safari_bw_tenkara_tenama",
+      "sen_safari_bw_dekama_tenkara",
+      "sen_safari_bw_aroge_tenkara"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_safari_bindewoerter_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_aber",
+      "lex_und",
+      "lex_oder",
+      "lex_deshalb",
+      "lex_waehrend",
+      "lex_obwohl"
+    ],
+    "sentenceIds": [
+      "sen_safari_bw_deg_tinish",
+      "sen_safari_bw_bilih_dekama",
+      "sen_safari_bw_tilik_konjo",
+      "sen_safari_bw_fetan_bilih",
+      "sen_safari_bw_tenama_dekama",
+      "sen_safari_bw_habtam_dha",
+      "sen_safari_bw_habtam_destegna",
+      "sen_safari_bw_tenkara_tenama",
+      "sen_safari_bw_dekama_tenkara",
+      "sen_safari_bw_aroge_tenkara"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_safari_bindewoerter_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_aber",
+      "lex_und",
+      "lex_oder",
+      "lex_deshalb",
+      "lex_waehrend",
+      "lex_obwohl"
+    ],
+    "sentenceIds": [
+      "sen_safari_bw_deg_tinish",
+      "sen_safari_bw_bilih_dekama",
+      "sen_safari_bw_tilik_konjo",
+      "sen_safari_bw_fetan_bilih",
+      "sen_safari_bw_tenama_dekama",
+      "sen_safari_bw_habtam_dha",
+      "sen_safari_bw_habtam_destegna",
+      "sen_safari_bw_tenkara_tenama",
+      "sen_safari_bw_dekama_tenkara",
+      "sen_safari_bw_aroge_tenkara"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_safari_bindewoerter_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_aber",
+      "lex_und",
+      "lex_oder",
+      "lex_deshalb",
+      "lex_waehrend",
+      "lex_obwohl"
+    ],
+    "sentenceIds": [
+      "sen_safari_bw_deg_tinish",
+      "sen_safari_bw_bilih_dekama",
+      "sen_safari_bw_tilik_konjo",
+      "sen_safari_bw_fetan_bilih",
+      "sen_safari_bw_tenama_dekama",
+      "sen_safari_bw_habtam_dha",
+      "sen_safari_bw_habtam_destegna",
+      "sen_safari_bw_tenkara_tenama",
+      "sen_safari_bw_dekama_tenkara",
+      "sen_safari_bw_aroge_tenkara"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]

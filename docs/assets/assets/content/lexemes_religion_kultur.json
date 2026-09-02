@@ -1,0 +1,162 @@
+[
+  {
+    "id": "lex_gebet",
+    "am": "ጸሎት",
+    "tr": "tselot",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "das Gebet",
+      "en": "prayer",
+      "sv": "bön",
+      "nl": "gebed",
+      "it": "la preghiera",
+      "es": "la oración"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_feiertag_fest",
+    "am": "በዓል",
+    "tr": "be'al",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "der Feiertag, das Fest",
+      "en": "holiday, festival",
+      "sv": "högtid, fest",
+      "nl": "feestdag",
+      "it": "la festa, il giorno festivo",
+      "es": "la fiesta, el día festivo"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_fasten",
+    "am": "ጾም",
+    "tr": "tsom",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "das Fasten",
+      "en": "fasting",
+      "sv": "fasta",
+      "nl": "vasten",
+      "it": "il digiuno",
+      "es": "el ayuno"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_pilgerfahrt",
+    "am": "ጉዞ ወደ ቅዱስ ቦታ",
+    "tr": "guzo wede k'idus bota",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "die Pilgerfahrt",
+      "en": "pilgrimage",
+      "sv": "pilgrimsfärd",
+      "nl": "pelgrimstocht",
+      "it": "il pellegrinaggio",
+      "es": "la peregrinación"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_segen",
+    "am": "በረከት",
+    "tr": "bereket",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "der Segen",
+      "en": "blessing",
+      "sv": "välsignelse",
+      "nl": "zegen",
+      "it": "la benedizione",
+      "es": "la bendición"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  },
+  {
+    "id": "lex_kreuz",
+    "am": "መስቀል",
+    "tr": "meskel",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "das Kreuz",
+      "en": "cross",
+      "sv": "kors",
+      "nl": "kruis",
+      "it": "la croce",
+      "es": "la cruz"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "✝️",
+    "verified": true
+  },
+  {
+    "id": "lex_weihrauch",
+    "am": "ዕጣን",
+    "tr": "i'tan",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "der Weihrauch",
+      "en": "incense",
+      "sv": "rökelse",
+      "nl": "wierook",
+      "it": "l'incenso",
+      "es": "el incienso"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_kloster",
+    "am": "ገዳም",
+    "tr": "gedam",
+    "pos": "noun",
+    "topic": "religion_culture",
+    "level": "B1",
+    "t": {
+      "de": "das Kloster",
+      "en": "monastery",
+      "sv": "kloster",
+      "nl": "klooster",
+      "it": "il monastero",
+      "es": "el monasterio"
+    },
+    "hint": {},
+    "alt": {},
+    "emoji": "",
+    "verified": true
+  }
+]

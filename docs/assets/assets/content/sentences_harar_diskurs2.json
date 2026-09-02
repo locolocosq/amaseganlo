@@ -1,0 +1,127 @@
+[
+  {
+    "id": "sen_honom_metfo",
+    "am": "ትልቅ ነው፤ ሆኖም መጥፎ ነው።",
+    "tr": "tilik' newu; honom met'fo newu.",
+    "level": "B2",
+    "uses": [
+      "lex_honom"
+    ],
+    "t": {
+      "de": "Es ist groß; es ist jedoch schlecht.",
+      "en": "It is big; however, it is bad.",
+      "sv": "Den är stor; den är dock dålig.",
+      "nl": "Het is groot; het is echter slecht.",
+      "it": "È grande; però è brutto.",
+      "es": "Es grande; sin embargo, es malo."
+    },
+    "chunks": [
+      "tilik'",
+      "newu",
+      "honom",
+      "met'fo",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_lemisale_key",
+    "am": "ብዙ ቀለሞች አሉ፤ ለምሳሌ ቀይ።",
+    "tr": "bizu k'elemoch alu; lemisale k'ey.",
+    "level": "B2",
+    "uses": [
+      "lex_lemisale"
+    ],
+    "t": {
+      "de": "Es gibt viele Farben, zum Beispiel Rot.",
+      "en": "There are many colors, for example red.",
+      "sv": "Det finns många färger, till exempel rött.",
+      "nl": "Er zijn veel kleuren, bijvoorbeeld rood.",
+      "it": "Ci sono molti colori, per esempio il rosso.",
+      "es": "Hay muchos colores, por ejemplo el rojo."
+    },
+    "chunks": [
+      "bizu",
+      "k'elemoch",
+      "alu",
+      "lemisale",
+      "k'ey"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_beatekalay_tiru",
+    "am": "በአጠቃላይ ጥሩ ነው።",
+    "tr": "be'atek'alay t'iru newu.",
+    "level": "B2",
+    "uses": [
+      "lex_beatekalay"
+    ],
+    "t": {
+      "de": "Im Allgemeinen ist es gut.",
+      "en": "Generally, it is good.",
+      "sv": "I allmänhet är det bra.",
+      "nl": "Over het algemeen is het goed.",
+      "it": "In generale, è buono.",
+      "es": "En general, es bueno."
+    },
+    "chunks": [
+      "be'atek'alay",
+      "t'iru",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_bematekaleya_asfelagi",
+    "am": "በማጠቃለያ፤ ይህ አስፈላጊ ነው።",
+    "tr": "bemat'ek'aleya; yih asfelagi newu.",
+    "level": "B2",
+    "uses": [
+      "lex_bematekaleya"
+    ],
+    "t": {
+      "de": "Abschließend ist dies wichtig.",
+      "en": "In conclusion, this is important.",
+      "sv": "Sammanfattningsvis är detta viktigt.",
+      "nl": "Tot slot is dit belangrijk.",
+      "it": "In conclusione, questo è importante.",
+      "es": "En conclusión, esto es importante."
+    },
+    "chunks": [
+      "bemat'ek'aleya",
+      "yih",
+      "asfelagi",
+      "newu"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_kezih_betechemari_rikash",
+    "am": "ይህ ጥሩ ነው፤ ከዚህ በተጨማሪ ርካሽ ነው።",
+    "tr": "yih t'iru newu; kezih betechemari rikash newu.",
+    "level": "B2",
+    "uses": [
+      "lex_kezih_betechemari",
+      "lex_adj_rikash"
+    ],
+    "t": {
+      "de": "Das ist gut; außerdem ist es günstig.",
+      "en": "This is good; furthermore, it is cheap.",
+      "sv": "Det är bra; dessutom är det billigt.",
+      "nl": "Dit is goed; bovendien is het goedkoop.",
+      "it": "Questo è buono; inoltre, è economico.",
+      "es": "Esto es bueno; además, es barato."
+    },
+    "chunks": [
+      "yih",
+      "t'iru",
+      "newu",
+      "kezih",
+      "betechemari",
+      "rikash",
+      "newu"
+    ],
+    "verified": false
+  }
+]

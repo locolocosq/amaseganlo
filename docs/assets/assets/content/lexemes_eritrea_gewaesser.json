@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lex_ti_gws_river",
+    "am": "ርባ",
+    "tr": "riba",
+    "pos": "noun",
+    "topic": "bodies_of_water",
+    "level": "TI",
+    "t": {
+      "de": "der Fluss",
+      "en": "river",
+      "sv": "flod, älv",
+      "nl": "rivier",
+      "it": "il fiume",
+      "es": "el río"
+    },
+    "emoji": "🏞️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gws_lake",
+    "am": "ቀላይ",
+    "tr": "qelay",
+    "pos": "noun",
+    "topic": "bodies_of_water",
+    "level": "TI",
+    "t": {
+      "de": "der See",
+      "en": "lake",
+      "sv": "sjö",
+      "nl": "meer (water)",
+      "it": "il lago",
+      "es": "el lago"
+    },
+    "emoji": "🏞️",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gws_pond",
+    "am": "ንኡስ ቀላይ",
+    "tr": "ni'us qelay",
+    "pos": "noun",
+    "topic": "bodies_of_water",
+    "level": "TI",
+    "t": {
+      "de": "der Teich",
+      "en": "pond",
+      "sv": "damm",
+      "nl": "vijver",
+      "it": "lo stagno",
+      "es": "el estanque"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gws_strm",
+    "am": "ንኡስ ርባ",
+    "tr": "ni'us riba",
+    "pos": "noun",
+    "topic": "bodies_of_water",
+    "level": "TI",
+    "t": {
+      "de": "der Bach",
+      "en": "stream, creek",
+      "sv": "bäck",
+      "nl": "beek",
+      "it": "il ruscello",
+      "es": "el arroyo"
+    },
+    "emoji": "",
+    "verified": false
+  },
+  {
+    "id": "lex_ti_gws_ocean",
+    "am": "ውቅያኖስ",
+    "tr": "wiqiyanos",
+    "pos": "noun",
+    "topic": "bodies_of_water",
+    "level": "TI",
+    "t": {
+      "de": "der Ozean",
+      "en": "ocean",
+      "sv": "ocean",
+      "nl": "oceaan",
+      "it": "l'oceano",
+      "es": "el océano"
+    },
+    "emoji": "🌊",
+    "verified": false
+  }
+]

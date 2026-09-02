@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sen_hg3_tikusat_ashenafi",
+    "am": "ትኩሳት እና ራስ ምታት አለብኝ።",
+    "tr": "tikusat ina ras mitat alebign.",
+    "level": "B2",
+    "uses": [
+      "lex_hg3_akal7",
+      "lex_hg3_ashenafi"
+    ],
+    "t": {
+      "de": "Ich habe Fieber und Kopfschmerzen.",
+      "en": "I have a fever and a headache.",
+      "sv": "Jag har feber och huvudvärk.",
+      "nl": "Ik heb koorts en hoofdpijn.",
+      "it": "Ho la febbre e il mal di testa.",
+      "es": "Tengo fiebre y dolor de cabeza."
+    },
+    "chunks": [
+      "tikusat",
+      "ina",
+      "ras",
+      "mitat",
+      "alebign"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hg3_neres_metrek",
+    "am": "ነርስዋ መርፌ ወጋችኝ።",
+    "tr": "nerisiwa merfe wegachign.",
+    "level": "B2",
+    "uses": [
+      "lex_hg3_neres",
+      "lex_hg3_metrek",
+      "lex_hg3_v_meweged"
+    ],
+    "t": {
+      "de": "Die Krankenschwester gab mir eine Spritze.",
+      "en": "The nurse gave me an injection.",
+      "sv": "Sjuksköterskan gav mig en injektion.",
+      "nl": "De verpleegkundige gaf me een injectie.",
+      "it": "L'infermiera mi ha fatto un'iniezione.",
+      "es": "La enfermera me puso una inyección."
+    },
+    "chunks": [
+      "nerisiwa",
+      "merfe",
+      "wegachign"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hg3_amibulans_hospital",
+    "am": "አምቡላንስ ወደ ሆስፒታል ወሰደኝ።",
+    "tr": "ambulanis wede hospital wesedegn.",
+    "level": "B2",
+    "uses": [
+      "lex_hg3_amibulans",
+      "lex_hg3_hospital"
+    ],
+    "t": {
+      "de": "Der Krankenwagen brachte mich ins Krankenhaus.",
+      "en": "The ambulance took me to the hospital.",
+      "sv": "Ambulansen tog mig till sjukhuset.",
+      "nl": "De ambulance bracht me naar het ziekenhuis.",
+      "it": "L'ambulanza mi ha portato in ospedale.",
+      "es": "La ambulancia me llevó al hospital."
+    },
+    "chunks": [
+      "ambulanis",
+      "wede",
+      "hospital",
+      "wesedegn"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sen_hg3_libi_fital",
+    "am": "ልብ እና ሳምባ አስፈላጊ ናቸው።",
+    "tr": "lib ina samiba asfelagi nachew.",
+    "level": "B2",
+    "uses": [
+      "lex_hg3_libi2",
+      "lex_hg3_fital"
+    ],
+    "t": {
+      "de": "Herz und Lunge sind wichtig.",
+      "en": "Heart and lungs are important.",
+      "sv": "Hjärta och lungor är viktiga.",
+      "nl": "Hart en longen zijn belangrijk.",
+      "it": "Il cuore e i polmoni sono importanti.",
+      "es": "El corazón y los pulmones son importantes."
+    },
+    "chunks": [
+      "lib",
+      "ina",
+      "samiba",
+      "asfelagi",
+      "nachew"
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sen_awroplan_megwaz",
+    "am": "በአውሮፕላን እጓዛለሁ።",
+    "tr": "be-awroplan igwazalehu.",
+    "level": "A2",
+    "uses": [
+      "lex_flugzeug",
+      "lex_v_reisen"
+    ],
+    "t": {
+      "de": "Ich reise mit dem Flugzeug.",
+      "en": "I travel by airplane.",
+      "sv": "Jag reser med flygplan.",
+      "nl": "Ik reis met het vliegtuig.",
+      "it": "Viaggio in aereo.",
+      "es": "Viajo en avión."
+    },
+    "alt": {},
+    "chunks": [
+      "be-awroplan",
+      "igwazalehu"
+    ],
+    "verified": false
+  }
+]

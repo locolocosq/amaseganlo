@@ -1,0 +1,188 @@
+[
+  {
+    "id": "unit_hoeflichkeit_kultur_intro",
+    "kind": "intro",
+    "lexemeIds": [
+      "lex_kaffeezeremonie",
+      "lex_feiertag",
+      "lex_gast",
+      "lex_willkommen",
+      "lex_kultur",
+      "lex_tradition",
+      "lex_religion",
+      "lex_geschenk",
+      "lex_hochzeit",
+      "lex_geburtstag",
+      "lex_respekt",
+      "lex_gastgeber",
+      "lex_fest",
+      "lex_enkutatash",
+      "lex_meskel",
+      "lex_timkat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": []
+  },
+  {
+    "id": "unit_hoeflichkeit_kultur_words",
+    "kind": "wordPractice",
+    "lexemeIds": [
+      "lex_kaffeezeremonie",
+      "lex_feiertag",
+      "lex_gast",
+      "lex_willkommen",
+      "lex_kultur",
+      "lex_tradition",
+      "lex_religion",
+      "lex_geschenk",
+      "lex_hochzeit",
+      "lex_geburtstag",
+      "lex_respekt",
+      "lex_gastgeber",
+      "lex_fest",
+      "lex_enkutatash",
+      "lex_meskel",
+      "lex_timkat"
+    ],
+    "sentenceIds": [],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "pairMatching"
+    ]
+  },
+  {
+    "id": "unit_hoeflichkeit_kultur_sentences",
+    "kind": "sentenceBuilding",
+    "lexemeIds": [
+      "lex_kaffeezeremonie",
+      "lex_feiertag",
+      "lex_gast",
+      "lex_willkommen",
+      "lex_kultur",
+      "lex_tradition",
+      "lex_religion",
+      "lex_geschenk",
+      "lex_hochzeit",
+      "lex_geburtstag",
+      "lex_respekt",
+      "lex_gastgeber",
+      "lex_fest",
+      "lex_enkutatash",
+      "lex_meskel",
+      "lex_timkat"
+    ],
+    "sentenceIds": [
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
+    ],
+    "exerciseTypes": [
+      "sentenceBuild",
+      "sentenceGapChoice"
+    ]
+  },
+  {
+    "id": "unit_hoeflichkeit_kultur_listening",
+    "kind": "listening",
+    "lexemeIds": [
+      "lex_kaffeezeremonie",
+      "lex_feiertag",
+      "lex_gast",
+      "lex_willkommen",
+      "lex_kultur",
+      "lex_tradition",
+      "lex_religion",
+      "lex_geschenk",
+      "lex_hochzeit",
+      "lex_geburtstag",
+      "lex_respekt",
+      "lex_gastgeber",
+      "lex_fest",
+      "lex_enkutatash",
+      "lex_meskel",
+      "lex_timkat"
+    ],
+    "sentenceIds": [
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
+    ],
+    "exerciseTypes": [
+      "listenChoice",
+      "listenBuild"
+    ]
+  },
+  {
+    "id": "unit_hoeflichkeit_kultur_free",
+    "kind": "freeApplication",
+    "lexemeIds": [
+      "lex_kaffeezeremonie",
+      "lex_feiertag",
+      "lex_gast",
+      "lex_willkommen",
+      "lex_kultur",
+      "lex_tradition",
+      "lex_religion",
+      "lex_geschenk",
+      "lex_hochzeit",
+      "lex_geburtstag",
+      "lex_respekt",
+      "lex_gastgeber",
+      "lex_fest",
+      "lex_enkutatash",
+      "lex_meskel",
+      "lex_timkat"
+    ],
+    "sentenceIds": [
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
+    ],
+    "exerciseTypes": [
+      "wordTyping",
+      "sentenceTranslate"
+    ]
+  },
+  {
+    "id": "unit_hoeflichkeit_kultur_review",
+    "kind": "review",
+    "lexemeIds": [
+      "lex_kaffeezeremonie",
+      "lex_feiertag",
+      "lex_gast",
+      "lex_willkommen",
+      "lex_kultur",
+      "lex_tradition",
+      "lex_religion",
+      "lex_geschenk",
+      "lex_hochzeit",
+      "lex_geburtstag",
+      "lex_respekt",
+      "lex_gastgeber",
+      "lex_fest",
+      "lex_enkutatash",
+      "lex_meskel",
+      "lex_timkat"
+    ],
+    "sentenceIds": [
+      "sen_ingida_konjo",
+      "sen_gen_kaffeezeremonie",
+      "sen_gen_feiertag",
+      "sen_gen_willkommen",
+      "sen_gen_kultur"
+    ],
+    "exerciseTypes": [
+      "wordChoiceAmToNative",
+      "wordChoiceNativeToAm",
+      "wordTyping",
+      "trueFalse"
+    ]
+  }
+]
