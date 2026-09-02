@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+import 'package:habesha_speak/core/dev_code.dart';
 import 'package:habesha_speak/models/settings.dart';
 import 'test_harness.dart';
 
@@ -13,6 +14,11 @@ import 'test_harness.dart';
 /// Android's own Settings app uses), never advertised anywhere in the UI.
 void main() {
   testWidgets('tapping the version number 7 times reveals a dialog where the hidden dev code unlocks Premium', (tester) async {
+    // A throwaway test code/hash pair, not the real one - see dev_code.dart
+    // for why the real code must never appear in a public test file.
+    debugSetDevCodeHashForTesting('7731648ae04a6f312c1daedd3ee7f01d3fb7e16d727656cf22f1be53a9c5c789');
+    addTearDown(() => debugSetDevCodeHashForTesting(null));
+
     await pumpTestApp(
       tester,
       initialPrefs: {'amaseganlo.settings': jsonEncode(const AppSettings(localeCode: 'de').toJson())},
@@ -38,7 +44,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Code eingeben'), findsOneWidget);
 
-    await tester.enterText(find.byType(TextField), '[entfernt]');
+    await tester.enterText(find.byType(TextField), 'test-only-code');
     await tester.tap(find.text('Einlösen'));
     await tester.pumpAndSettle();
 

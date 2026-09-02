@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'package:habesha_speak/core/dev_code.dart';
 import 'package:habesha_speak/core/purchase_service.dart';
 import 'package:habesha_speak/core/storage_service.dart';
 
@@ -228,6 +229,12 @@ void main() {
   });
 
   test('redeeming the hidden developer code unlocks premium, anything else does not', () async {
+    // A throwaway test code/hash pair, not the real one - dev_code.dart's
+    // testing seam swaps in this hash so the real code never has to appear
+    // in a public test file. See dev_code.dart for why.
+    debugSetDevCodeHashForTesting('7731648ae04a6f312c1daedd3ee7f01d3fb7e16d727656cf22f1be53a9c5c789');
+    addTearDown(() => debugSetDevCodeHashForTesting(null));
+
     final service = PurchaseService(storage: await freshStorage(), client: _FakePurchaseClient());
     await service.init();
 
@@ -236,7 +243,7 @@ void main() {
 
     // Case/whitespace-insensitive by design (Etappe 24) - easy to type
     // correctly on a phone keyboard.
-    expect(service.redeemDevCode(' [entfernt] '), isTrue);
+    expect(service.redeemDevCode(' Test-Only-Code '), isTrue);
     expect(service.isPremium, isTrue);
   });
 }

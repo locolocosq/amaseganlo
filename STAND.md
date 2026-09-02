@@ -44,11 +44,13 @@ Premium-Paywall (In-App-Kauf) und lokaler Push-Erinnerung.
 ## Wichtige technische Fakten, die man kennen sollte
 
 - **Versteckter Premium-Entwicklercode**: In `lib/core/dev_code.dart` liegt nur
-  der SHA-256-Hash. Der Klartext-Code ist `[entfernt]` (siehe
-  `test/widgets/dev_code_unlock_test.dart`). Aufruf: Einstellungen → "Über die App"
-  → 7x auf die Versionsnummer tippen → Dialog → Code eingeben. Das ist auch die
-  Antwort, die für Google Plays "Anmeldedaten"-Formular (App-Zugriff für
-  Prüfer) verwendet wurde.
+  der SHA-256-Hash, nicht der Code selbst (der Klartext wurde bei der
+  GitHub-Veröffentlichung aus diesem Dokument und `ENTSCHEIDUNGEN.md` entfernt und
+  rotiert, siehe dort - steht seither an keiner Stelle mehr in einer versionierten
+  Datei). Aufruf: Einstellungen → "Über die App" → 7x auf die Versionsnummer tippen
+  → Dialog → Code eingeben. Falls dieser Code für Google Plays
+  "Anmeldedaten"-Formular (App-Zugriff für Prüfer) eingetragen wurde: dort auf den
+  neuen Code aktualisieren, sonst funktioniert der Zugang für Prüfer nicht mehr.
 - **`defaultTargetPlatform`/`kIsWeb` statt `dart:io` Platform** wird bewusst
   verwendet, damit die Web-Kompilierung nicht bricht (siehe
   `ENTSCHEIDUNGEN.md` Etappe 10).

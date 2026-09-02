@@ -31350,7 +31350,7 @@ case 2:p=t.N
 o=new A.UB()
 B.f_.kv(o.gaOz())
 n=A.bew()
-n.b=A.b3l("")
+n.b=A.b3l("assets/")
 m=$.Q3()
 l=new A.QA(new A.avr(o),new A.avp(n),m,A.t(p,p),A.t(p,p))
 s=3
@@ -113253,7 +113253,8 @@ s=1
 break
 case 1:return A.D(q,r)}})
 return A.E($async$CP,r)},
-aP4(a){if(A.b9D(B.RA.fl(B.dX.fl(B.c.h0(a).toLowerCase())).a)!=="2bc88e31bc0b0a78e6a9f32744f2ba21e44beeddcfa4478ad5b6d20f0dfd906e")return!1
+aP4(a){var s=A.b9D(B.RA.fl(B.dX.fl(B.c.h0(a).toLowerCase())).a)
+if(s!=="0ddb95ebc893977b06617d9ac9c089a9f8f08ba0cc2f80c56b9b03f1540f2a75")return!1
 this.R7(!0,B.qk)
 return!0},
 aCO(a){var s=new A.a1(B.a3e,new A.auW(a),t.vh)

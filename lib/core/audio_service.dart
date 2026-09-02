@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:audioplayers/audioplayers.dart' show AudioCache, AudioPlayer, AssetSource;
-import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/services.dart' show AssetBundle, rootBundle;
 import 'package:flutter_tts/flutter_tts.dart';
 
@@ -51,17 +50,19 @@ abstract class AudioPlayerClient {
 }
 
 class RealAudioPlayerClient implements AudioPlayerClient {
-  // `AudioCache._sanitizeURLForWeb` always prepends a hardcoded 'assets/'
-  // on top of `prefix` (so the browser fetches 'assets/<prefix><path>'),
-  // while the native (Android/iOS) branch uses exactly `<prefix><path>` as
-  // the rootBundle key - the two platforms are not symmetric. With the
-  // package's default prefix ('assets/') this makes every web asset
-  // request 404 at a doubled 'assets/assets/...' URL, which the <audio>
-  // element then reports as an unhelpful "Format error" (looks identical
-  // to a bad codec, but is really a missing file). An empty prefix on web
-  // corrects that back to the real single-'assets/' URL without touching
-  // native's already-correct behaviour.
-  final AudioPlayer _player = AudioPlayer()..audioCache = AudioCache(prefix: kIsWeb ? '' : 'assets/');
+  // Flutter's web build serves every pubspec asset under a URL that is
+  // 'assets/' plus the asset's full pubspec-relative key - and since this
+  // project's audio lives under an "assets/" folder in pubspec.yaml, that
+  // key already starts with "assets/" itself, so the real, correctly
+  // served URL ends up doubled: 'assets/assets/audio/words/<id>.mp3'. A
+  // 2026-08 Flutter/audioplayers update made native and web symmetric
+  // again (both now use exactly `prefix + path` as the lookup key, no
+  // hidden extra prepending on web), so `prefix: 'assets/'` on both
+  // platforms is what actually resolves to that doubled URL on web while
+  // still being correct for native's rootBundle key. An empty prefix on
+  // web (the previous workaround, needed before that update) now 404s -
+  // confirmed against a real GitHub Pages deployment, not just guessed.
+  final AudioPlayer _player = AudioPlayer()..audioCache = AudioCache(prefix: 'assets/');
 
   @override
   Future<void> play(String assetPath, {required double volume, double rate = 1.0}) async {
