@@ -1491,3 +1491,52 @@ hätte daran nichts geändert.
   akzeptiert jetzt sowohl den neu rotierten Code als auch den Hash des ursprünglichen Codes - beide
   funktionieren nebeneinander, keiner davon steht irgendwo im Klartext im Repository.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün.
+
+## Etappe 29 Nachtrag: Freischalt-Code-Hash von SHA-256 auf PBKDF2 umgestellt
+
+Nutzer-Nachfrage, wie lange ein Brute-Force-Angriff gegen die veröffentlichten Hashes dauern würde -
+ehrliche Antwort: mit einer einzelnen guten Grafikkarte Minuten bis Stunden, weil SHA-256 absichtlich
+schnell ist. Auf Wunsch des Nutzers ("wenn das nicht Auswirkungen hat") auf ein absichtlich langsames
+Verfahren umgestellt.
+
+- **PBKDF2-HMAC-SHA256, von Hand implementiert** (`lib/core/dev_code.dart`) statt eines fertigen
+  bcrypt/Argon2-Pakets - die meisten Dart-Implementierungen davon setzen auf nativen/FFI-Code, der auf
+  Flutter Web nicht kompiliert. Die Handimplementierung nutzt nur `package:crypto`s bereits vorhandene
+  `Hmac`/`sha256`-Bausteine (kein neues Paket nötig) und funktioniert dadurch auf allen Plattformen
+  identisch, inklusive Web. 200.000 Iterationen - derselbe kurze, merkbare Code bleibt exakt gleich zu
+  tippen, aber jeder einzelne Rateversuch wird um Größenordnungen teurer als bei einem einzelnen
+  SHA-256-Aufruf.
+- **Gegen eine unabhängige Referenz verifiziert, nicht nur für richtig gehalten:** eine
+  handgeschriebene Kryptografie-Grundfunktion ist genau die Art Code, die einen unabhängigen Check
+  braucht. `test/core/dev_code_test.dart` (neu) vergleicht die Dart-Implementierung gegen einen mit
+  Node's eingebautem `crypto.pbkdf2Sync` für denselben Klartext/Salt/Iterationszahl berechneten
+  Referenzwert - stimmt exakt überein.
+- **Beide Codes neu gehasht** (fester Salt `"habesha-speak-dev-code-v1"`, nur zur Trennung von anderen
+  Diensten, keine Geheimhaltungsfunktion) und in `_devCodeHashesHex` ersetzt - funktionieren live
+  weiterhin identisch, nur der Hash-Mechanismus dahinter ist jetzt ein anderer.
+- **`debugSetDevCodeHashForTesting`-Testschnittstelle unverändert**, nur der Testwert in
+  `purchase_service_test.dart`/`dev_code_unlock_test.dart` neu berechnet (der alte war ein
+  SHA-256-Hash, passt seit der Umstellung nicht mehr).
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 247/247 grün (245 + 2 neue
+  `dev_code_test.dart`-Tests).
+
+## Etappe 29 Nachtrag: Hörübungen im Hauptlernweg spielen jetzt automatisch ab
+
+Nutzer-Screenshot: eine Hörübung ("Sätze bauen" mit reinem Audio-Prompt statt Text) blieb stumm.
+Ursache gefunden, keine fehlende Aufnahme (alle 5538 Lexeme/Sätze haben zu 100% eine Aufnahme im
+Manifest, per Skript geprüft) - der Lautsprecher-Button existierte, aber nichts hat ihn je automatisch
+ausgelöst. Der Fidel-Lernweg (`fidel_lesson_screen.dart`) spielt seine Audio-Prompt-Übungen längst
+automatisch ab (Etappe 24 Schritt 3); der Hauptlernweg (`lesson_screen.dart`) tat das nie, für keinen
+der `isAudioPrompt`-Übungstypen (`listenBuild`/`listenChoice`/`listenTyping`) - eine Inkonsistenz
+zwischen den beiden Lernwegen, kein Einzelfall.
+
+- **`_buildExercise` in `lesson_screen.dart` bekommt dieselbe Auto-Play-Logik wie `_buildIntro`**
+  (neues `_autoPlayedExerciseSubjectId`-Feld, analog zu `_autoPlayedIntroLexemeId`): sobald eine
+  `isAudioPrompt`-Übung erscheint, spielt sie automatisch, respektiert dieselbe
+  "Neue Wörter automatisch abspielen"-Einstellung wie die Wort-Einführungskarten - keine zweite
+  Einstellung nötig, dieselbe Nutzerpräferenz gilt jetzt für beide Lernwege konsistent.
+- **Live gegen die echte Auslieferung verifiziert**, dass die zugrunde liegende Wiedergabe (nicht nur
+  das Auto-Play-Timing) tatsächlich funktioniert: direkter Fetch-Test gegen einen echten Satz-Audio-
+  Pfad (`sen_ahun_ihedalehu.mp3`) über den echten, verdoppelten Web-Asset-Pfad bestätigt 200 OK -
+  derselbe Mechanismus wie beim Wort-Audio-Fix, nur diesmal für Sätze bestätigt.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 247/247 grün.

@@ -16,7 +16,7 @@ void main() {
   testWidgets('tapping the version number 7 times reveals a dialog where the hidden dev code unlocks Premium', (tester) async {
     // A throwaway test code/hash pair, not the real one - see dev_code.dart
     // for why the real code must never appear in a public test file.
-    debugSetDevCodeHashForTesting('7731648ae04a6f312c1daedd3ee7f01d3fb7e16d727656cf22f1be53a9c5c789');
+    debugSetDevCodeHashForTesting('208bfb17d0ca0bf52b3468587f2362d5d28211ba60f8ed4bba0bd205112a5f76');
     addTearDown(() => debugSetDevCodeHashForTesting(null));
 
     await pumpTestApp(

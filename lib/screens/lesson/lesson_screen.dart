@@ -53,6 +53,12 @@ class _LessonScreenState extends State<LessonScreen> {
   // Tracks which intro card has already been auto-played, so re-rendering
   // the same card (e.g. after an unrelated rebuild) doesn't replay it.
   String? _autoPlayedIntroLexemeId;
+  // Same idea for listen* exercises (Etappe 29 Nachtrag): the speaker
+  // button existed, but nothing ever triggered it automatically here,
+  // unlike the Fidel learning path's equivalent audio-drill exercises
+  // (fidel_lesson_screen.dart), which already auto-play. A learner who
+  // never noticed the small icon saw what looked like a silent exercise.
+  String? _autoPlayedExerciseSubjectId;
 
   @override
   void didChangeDependencies() {
@@ -242,6 +248,17 @@ class _LessonScreenState extends State<LessonScreen> {
   ) {
     final exercise = session.currentExercise;
     if (exercise == null) return const SizedBox.shrink();
+
+    if (exercise.isAudioPrompt && _autoPlayedExerciseSubjectId != exercise.subjectId) {
+      final settings = context.read<SettingsProvider>().settings;
+      final audioAvailable = context.read<AudioService>().isAmharicAvailable;
+      if (settings.autoPlayNewWords && settings.soundEnabled && audioAvailable) {
+        _autoPlayedExerciseSubjectId = exercise.subjectId;
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) lessonProvider.playCurrentAudio();
+        });
+      }
+    }
 
     if (_availableChunks.isEmpty && exercise.isBuildBased && _selectedChunks.isEmpty && !session.answered) {
       _availableChunks = List.of(exercise.chunks);
