@@ -1468,3 +1468,26 @@ Nutzer-Nachfrage, warum der Home-Bildschirm beim ersten Mal so lange lädt (~30-
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün (`full_playthrough_
   test.dart` bestätigt weiterhin exakt 285 Einheiten/1409 Stufen/15.066 Übungen - reine
   Lade-Reihenfolge geändert, keine Content-Logik).
+
+## Etappe 29 Nachtrag: alter Freischalt-Code aus der Git-Historie entfernt und als zweiter Code wiederhergestellt
+
+Der Nutzer wollte den ursprünglichen Code (aus Etappe 24 Schritt 4) weiterhin nutzen können, aber
+korrekt gehasht statt im Klartext. Problem dabei: der vorherige Fix (Etappe 29 Nachtrag "Audio... Code
+rotiert") hatte den Klartext nur aus der *aktuellen* Version von `ENTSCHEIDUNGEN.md`/`STAND.md`
+entfernt - ältere Commits enthielten ihn weiterhin, unverändert öffentlich einsehbar. Ein Hash allein
+hätte daran nichts geändert.
+
+- **Zweiter History-Rewrite, diesmal Inhalt statt nur Autor-Metadaten:** `git-filter-repo` (via `pip
+  install git-filter-repo`, da nicht vorinstalliert) mit `--replace-text` über die komplette
+  Historie laufen lassen, ersetzt jedes Vorkommen des ursprünglichen Klartext-Codes (in allen
+  Groß-/Kleinschreibvarianten) in jedem historischen Commit durch einen Platzhalter. Anschließend
+  per Volltextsuche über die gesamte Historie geprüft - jetzt wirklich leer, in keinem einzigen
+  Commit mehr vorhanden (auch nicht in diesem Dokument selbst - bewusst ohne den Klartext hier
+  aufgeschrieben, sonst hätte dieser Nachtrag denselben Fehler gleich wieder eingeführt).
+  `git-filter-repo` entfernt aus Sicherheitsgründen automatisch den `origin`-Remote (Standard-
+  verhalten, kein Fehler) - danach neu hinzugefügt und mit `git push --force` gepusht, da die
+  vorher schon gepushte Historie überschrieben werden musste.
+- **`dev_code.dart` von einem einzelnen Hash auf ein `Set<String>` umgestellt** (`_devCodeHashesHex`):
+  akzeptiert jetzt sowohl den neu rotierten Code als auch den Hash des ursprünglichen Codes - beide
+  funktionieren nebeneinander, keiner davon steht irgendwo im Klartext im Repository.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün.
