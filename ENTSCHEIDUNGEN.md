@@ -1400,3 +1400,46 @@ Funktionen" bedeutete deshalb nicht nur neue Oberflächentexte, sondern echte Ü
   automatisiert auf Vollständigkeit und Struktur geprüft (kein leerer Wert, kein kaputtes JSON,
   keine sonst veränderten Felder), aber nicht muttersprachlich abgenommen - das kann von hier aus
   nicht geleistet werden.
+
+## Etappe 29 Nachtrag: Audio auf der Web-Version repariert, Freischalt-Code rotiert
+
+Direkt nach der ersten GitHub-Pages-Veröffentlichung gemeldet: "audios gehen nicht". Beim
+Nachschauen zusätzlich ein zweites, unabhängiges Problem gefunden (Klartext-Freischaltcode in
+öffentlichen Dokumentationsdateien) - beides noch am selben Tag behoben.
+
+- **Root Cause des Audio-Bugs:** `RealAudioPlayerClient` (`lib/core/audio_service.dart`) setzte
+  bewusst `AudioCache(prefix: kIsWeb ? '' : 'assets/')` - eine ältere Version von Flutter/
+  audioplayers stellte im Web zusätzlich zum eigenen `prefix` automatisch noch ein hartkodiertes
+  `'assets/'` voran, wodurch ein normaler `'assets/'`-Prefix zu einer fehlerhaften Verdopplung
+  führte; der leere Prefix war der damals richtige Ausgleich dafür. Ein neuerer Flutter/
+  audioplayers-Stand (aktuell installiert: Flutter 3.47.0) hat Web und nativ wieder symmetrisch
+  gemacht - beide nutzen jetzt exakt `prefix + path` als Schlüssel, ohne verstecktes Voranstellen.
+  Damit produzierte der leere Web-Prefix nur noch ein einzelnes `assets/`, während Flutters Web-Build
+  die echten Dateien unter einem verdoppelten `assets/assets/audio/...` ausliefert (weil die
+  Audio-Assets in `pubspec.yaml` selbst schon unter einem `assets/`-Ordner liegen) - jede
+  Wort-Datei schlug mit 404 fehl. Fix: `prefix: 'assets/'` fest für beide Plattformen, kein
+  `kIsWeb`-Sonderfall mehr.
+- **Live gegen die echte GitHub-Pages-Auslieferung verifiziert**, nicht nur lokal vermutet: vor dem
+  Fix per Netzwerk-Log bestätigter 404 auf `.../assets/audio/words/lex_selam.mp3`, nach dem Fix
+  (neuer Build + neuer Deploy) in einem frischen Browser-Tab bestätigter 200/206 auf
+  `.../assets/assets/audio/words/lex_selam.mp3` sowie auf einem zweiten, noch nie zuvor geladenen
+  Wort (`lex_ameseginalehu.mp3`).
+- **Unabhängig gefunden: der Klartext-Freischalt-Code aus Etappe 24 Schritt 4 stand in
+  `ENTSCHEIDUNGEN.md` und `STAND.md`** - unproblematisch, solange das Repository privat war, aber ab
+  der Veröffentlichung ein echtes Leck (jeder Besucher hätte sich damit kostenlos Premium
+  freischalten können). Bemerkt, weil der Nutzer im Chat nach dem Code fragte und ich ihn beim
+  Nachschlagen im Klartext in diesen Dateien fand.
+  - Neuer Code erzeugt, neuer SHA-256-Hash in `dev_code.dart` hinterlegt - der alte Hash (und damit
+    der alte Code) ist damit ungültig.
+  - Beide Klartext-Erwähnungen aus `ENTSCHEIDUNGEN.md`/`STAND.md` entfernt.
+  - **`dev_code.dart` bekommt eine `@visibleForTesting`-Testschnittstelle** (`debugSetDevCodeHash-
+    ForTesting`), damit `purchase_service_test.dart` und `dev_code_unlock_test.dart` (die vorher den
+    echten Code direkt im Testcode stehen hatten - selbst ein latentes Leck, sobald das Repository
+    öffentlich wird) stattdessen einen frei erfundenen Test-Code/Hash nutzen. Der echte Code muss
+    dadurch nie wieder in einer versionierten Datei stehen, auch nicht bei künftigen Rotationen.
+    `meta` als direkte (vorher nur transitive) Abhängigkeit in `pubspec.yaml` ergänzt, dafür
+    verlangt `flutter analyze`.
+  - Der neue Code wurde dem Nutzer ausschließlich im Chat mitgeteilt, an keiner Stelle committet.
+    Hinweis an den Nutzer: falls der alte Code in Google Plays "Anmeldedaten"-Formular (App-Zugriff
+    für Prüfer) eingetragen war, dort auf den neuen Code aktualisieren.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün.
