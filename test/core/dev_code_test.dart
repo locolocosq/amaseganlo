@@ -15,9 +15,9 @@ void main() {
 
   test('PBKDF2-HMAC-SHA256 output matches an independently computed reference value', () {
     // node -e "console.log(require('crypto').pbkdf2Sync('abc',
-    //   Buffer.from('habesha-speak-dev-code-v1','utf8'), 200000, 32,
+    //   Buffer.from('habesha-speak-dev-code-v1','utf8'), 10000, 32,
     //   'sha256').toString('hex'))"
-    const referenceHashForAbc = '4ff133055d3c33db0745322f70ba58bad56bfd460e90a7119acf78d81b2af123';
+    const referenceHashForAbc = '8772d29b28c3d00f92b2008c9ad069e4b5330c0cf2667a53b9c4f95bc94395de';
     debugSetDevCodeHashForTesting(referenceHashForAbc);
 
     expect(isDevCode('abc'), isTrue);

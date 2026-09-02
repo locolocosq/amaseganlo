@@ -17,19 +17,31 @@ import 'package:meta/meta.dart';
 /// SHA-256 is deliberately *fast*, so a single consumer GPU can brute-force
 /// the entire keyspace of an 8-9 character code in minutes to hours once it
 /// can see the published hash (which it now can - the source is public on
-/// GitHub). Switched to PBKDF2-HMAC-SHA256 with a high iteration count,
-/// which is deliberately *slow* per guess (that's the whole point of a
-/// password-hashing KDF vs. a general-purpose hash) - the same short code
-/// stays exactly as easy to type and remember, but brute-forcing it now
-/// costs orders of magnitude more. Implemented by hand against
-/// `package:crypto`'s Hmac/sha256 (already a dependency) rather than adding
-/// a new package, specifically because it needs to work identically on
-/// Flutter Web too - most bcrypt/Argon2 Dart packages lean on native/FFI
-/// code that doesn't compile to web, while this is pure Dart. Verified
-/// against Node's built-in `crypto.pbkdf2Sync` for the exact same
-/// input/salt/iteration count before being trusted (see
-/// `test/core/dev_code_test.dart`), not just assumed correct.
-const int _pbkdf2Iterations = 200000;
+/// GitHub). Switched to PBKDF2-HMAC-SHA256, which is deliberately *slow*
+/// per guess (that's the whole point of a password-hashing KDF vs. a
+/// general-purpose hash) - the same short code stays exactly as easy to
+/// type and remember, but brute-forcing it now costs orders of magnitude
+/// more. Implemented by hand against `package:crypto`'s Hmac/sha256
+/// (already a dependency) rather than adding a new package, specifically
+/// because it needs to work identically on Flutter Web too - most
+/// bcrypt/Argon2 Dart packages lean on native/FFI code that doesn't compile
+/// to web, while this is pure Dart. Verified against Node's built-in
+/// `crypto.pbkdf2Sync` for the exact same input/salt/iteration count before
+/// being trusted (see `test/core/dev_code_test.dart`), not just assumed
+/// correct.
+///
+/// 10,000 iterations, not OWASP's password-storage recommendation of
+/// 600,000+: a first deploy at 200,000 caused a multi-second UI freeze on
+/// redeem (confirmed live, not just estimated - this runs synchronously on
+/// the UI thread), because pure-Dart hashing is far slower than a native
+/// implementation. 10,000 iterations is still a four-orders-of-magnitude
+/// cost increase over the one plain SHA-256 call this replaces - the
+/// "minutes to hours" brute-force estimate against the old hash becomes
+/// "months to years" - while staying fast enough not to feel broken for
+/// the rare, deliberate act of redeeming a code. Proportionate to what this
+/// actually protects (a free feature unlock, not a password or payment
+/// credential), not maximum-possible hardening.
+const int _pbkdf2Iterations = 10000;
 
 /// Doesn't need to be secret (a salt's job is to stop the same precomputed
 /// table from working against many different services at once, not to add
@@ -38,8 +50,8 @@ const int _pbkdf2Iterations = 200000;
 final Uint8List _pbkdf2Salt = Uint8List.fromList(utf8.encode('habesha-speak-dev-code-v1'));
 
 const Set<String> _devCodeHashesHex = {
-  'ef17b399729cd2b5c540c14ebf7375a25eb3e8b824b21c77a6e0799800b1f6a5',
-  '520a43168772b8e3ead5ac9107c6560bd75db0903fb79b6e9a1afda8696f9214',
+  'ae76cab974d9c699e8159bb39a814438137abc9ca38ef3fffb7b4506e448c524',
+  '0e1a8d5c80d11d37f2b8075bc40a9f035dbee46cd78f3745d83169d44e713d4e',
 };
 
 String _normalize(String input) => input.trim().toLowerCase();

@@ -1540,3 +1540,22 @@ zwischen den beiden Lernwegen, kein Einzelfall.
   Pfad (`sen_ahun_ihedalehu.mp3`) über den echten, verdoppelten Web-Asset-Pfad bestätigt 200 OK -
   derselbe Mechanismus wie beim Wort-Audio-Fix, nur diesmal für Sätze bestätigt.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 247/247 grün.
+
+## Etappe 29 Nachtrag: PBKDF2-Iterationen von 200.000 auf 10.000 reduziert
+
+Der erste Deploy der PBKDF2-Umstellung (siehe oben) lief mit 200.000 Iterationen - live auf der
+echten Auslieferung getestet, nicht nur angenommen: das Antippen von "Einlösen" fror die Oberfläche
+für mehrere Sekunden sichtbar ein (die Berechnung läuft synchron auf dem UI-Thread, und eine reine
+Dart-Implementierung ist deutlich langsamer als eine native). Für eine seltene, bewusste Aktion wie
+das Einlösen eines Codes ist das trotzdem ein echter Rückschritt in der Bedienbarkeit.
+
+- **Auf 10.000 Iterationen reduziert.** Das ist immer noch eine ca. 10.000-40.000-fache
+  Verlangsamung gegenüber dem einen SHA-256-Aufruf von vorher (jede PBKDF2-Iteration ist selbst schon
+  ungefähr doppelt so teuer wie ein einzelner SHA-256-Aufruf, wegen HMACs innerer/äußerer Hash-Runde) -
+  aus der geschätzten "Minuten bis Stunden"-Angriffszeit werden dadurch grob "Monate bis Jahre", auch
+  wenn 10.000 weit unter OWASPs Empfehlung für echten Passwort-Schutz (600.000+) liegt. Das ist
+  bewusst proportional zum tatsächlichen Schutzgut (eine kostenlose Freischaltung, kein Passwort, kein
+  Zahlungsmittel), nicht die maximal mögliche Härtung.
+- **Beide Codes und der Test-Referenzwert neu berechnet** für die neue Iterationszahl, erneut gegen
+  Node's `crypto.pbkdf2Sync` verifiziert.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 247/247 grün.
