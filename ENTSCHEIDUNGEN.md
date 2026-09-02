@@ -1443,3 +1443,28 @@ Nachschauen zusätzlich ein zweites, unabhängiges Problem gefunden (Klartext-Fr
     Hinweis an den Nutzer: falls der alte Code in Google Plays "Anmeldedaten"-Formular (App-Zugriff
     für Prüfer) eingetragen war, dort auf den neuen Code aktualisieren.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün.
+
+## Etappe 29 Nachtrag: Langsamer erster Ladevorgang der Web-Version behoben
+
+Nutzer-Nachfrage, warum der Home-Bildschirm beim ersten Mal so lange lädt (~30-40s live gemessen).
+
+- **Root Cause:** `ContentRepository.load()` (`lib/content/content_repository.dart`) hat rund 870
+  Content-Dateien (~389 Vokabel-, ~181 Satz-, 285 Kapitel-, 8 Fidel-Stufen-Dateien) in mehreren
+  `for`-Schleifen streng nacheinander geladen - jede Datei erst `await`et, bevor die nächste
+  überhaupt angefragt wurde. Auf nativen Plattformen fällt das nie auf (`rootBundle.loadString` liest
+  aus dem lokal gebündelten Asset-Archiv, praktisch verzögerungsfrei), aber im Web ist jeder Aufruf
+  ein echter HTTP-Rundlauf zum Server - 870 davon streng sequenziell ergaben genau die beobachteten
+  Sekunden.
+- **Fix:** jede Dateigruppe lädt jetzt mit `Future.wait(...)` gleichzeitig statt nacheinander -
+  Vokabel-, Satz-, Kapitel- und Fidel-Zusatz-Dateien alle parallel, ebenso die Fidel-Stufen-
+  Lektionsdateien innerhalb ihrer Gruppe. Nur echte Abhängigkeiten bleiben sequenziell:
+  `curriculum.json` muss vor den Vokabel-/Satz-/Kapitel-Dateien geladen sein (die Dateilisten stehen
+  erst danach fest), `fidel_curriculum.json` entsprechend vor den Fidel-Stufen-Dateien. Die
+  Fehlerbehandlung pro Datei (eine kaputte Datei überspringt nur sich selbst, Abschnitt 6) bleibt
+  unverändert - jeder gleichzeitige Ladevorgang fängt seinen eigenen Fehler.
+- **Nichts an der Größe geändert**, nur an der Reihenfolge - der Browser bekommt weiterhin exakt
+  dieselben ~870 Anfragen, kann sie über HTTP/2 aber jetzt parallel abarbeiten statt eine nach der
+  anderen abzuwarten.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 245/245 grün (`full_playthrough_
+  test.dart` bestätigt weiterhin exakt 285 Einheiten/1409 Stufen/15.066 Übungen - reine
+  Lade-Reihenfolge geändert, keine Content-Logik).

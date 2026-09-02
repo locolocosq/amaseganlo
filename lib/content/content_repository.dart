@@ -39,6 +39,20 @@ class ContentRepository {
   Curriculum get curriculum => _curriculum;
   List<String> get failedUnitIds => _failedUnitIds.toList();
 
+  /// Loads every content file concurrently within each group (Etappe 29
+  /// Nachtrag) rather than one `await` at a time. On native platforms
+  /// `rootBundle.loadString` reads a locally bundled asset, so awaiting ~870
+  /// files sequentially cost nothing noticeable - but on web each call is a
+  /// real HTTP round-trip to the server, and awaiting them one by one meant
+  /// the whole first load queued up ~870 round-trips back to back (tens of
+  /// seconds on a cold GitHub Pages load, confirmed live). `Future.wait`
+  /// lets the browser fire them all at once and pipeline them over HTTP/2
+  /// instead. Groups that depend on an earlier file (unit/stage lists coming
+  /// from curriculum.json/fidel_curriculum.json) still await that file
+  /// first - only the independent files within a group run concurrently.
+  /// Per-file error isolation (a broken file just adds a warning, Abschnitt
+  /// 6) is unchanged; concurrent futures each catch their own error, so one
+  /// bad file still can't fail the others.
   Future<void> load() async {
     try {
       final raw = await _bundle.loadString('assets/content/curriculum.json');
@@ -48,7 +62,32 @@ class ContentRepository {
       return;
     }
 
-    for (final file in _curriculum.lexemeFiles) {
+    await Future.wait([
+      _loadLexemeFiles(),
+      _loadSentenceFiles(),
+      _loadUnitLessonFiles(),
+      _loadFidelChars(),
+      _loadFidelExtras(),
+    ]);
+
+    List<FidelStage> stages;
+    try {
+      final raw = await _bundle.loadString('assets/content/fidel_curriculum.json');
+      final map = jsonDecode(raw) as Map<String, dynamic>;
+      stages = [
+        for (final s in (map['stages'] as List)) FidelStage.fromJson(s as Map<String, dynamic>),
+      ];
+    } catch (e) {
+      loadWarnings.add('fidel_curriculum.json konnte nicht geladen werden: $e');
+      return;
+    }
+    _fidelStages = stages;
+
+    await Future.wait(stages.map(_loadOneFidelStage));
+  }
+
+  Future<void> _loadLexemeFiles() async {
+    await Future.wait(_curriculum.lexemeFiles.map((file) async {
       try {
         final raw = await _bundle.loadString('assets/content/$file');
         final list = jsonDecode(raw) as List;
@@ -59,9 +98,11 @@ class ContentRepository {
       } catch (e) {
         loadWarnings.add('Vokabel-Datei "$file" konnte nicht geladen werden: $e');
       }
-    }
+    }));
+  }
 
-    for (final file in _curriculum.sentenceFiles) {
+  Future<void> _loadSentenceFiles() async {
+    await Future.wait(_curriculum.sentenceFiles.map((file) async {
       try {
         final raw = await _bundle.loadString('assets/content/$file');
         final list = jsonDecode(raw) as List;
@@ -72,9 +113,11 @@ class ContentRepository {
       } catch (e) {
         loadWarnings.add('Satz-Datei "$file" konnte nicht geladen werden: $e');
       }
-    }
+    }));
+  }
 
-    for (final unit in _curriculum.units) {
+  Future<void> _loadUnitLessonFiles() async {
+    await Future.wait(_curriculum.units.map((unit) async {
       try {
         final raw = await _bundle.loadString('assets/content/${unit.lessonFile}');
         final list = jsonDecode(raw) as List;
@@ -85,8 +128,10 @@ class ContentRepository {
         loadWarnings.add('Kapitel "${unit.id}" konnte nicht geladen werden und wird übersprungen: $e');
         _failedUnitIds.add(unit.id);
       }
-    }
+    }));
+  }
 
+  Future<void> _loadFidelChars() async {
     try {
       final raw = await _bundle.loadString('assets/content/fidel.json');
       final list = jsonDecode(raw) as List;
@@ -94,30 +139,9 @@ class ContentRepository {
     } catch (e) {
       loadWarnings.add('fidel.json konnte nicht geladen werden: $e');
     }
+  }
 
-    try {
-      final raw = await _bundle.loadString('assets/content/fidel_curriculum.json');
-      final map = jsonDecode(raw) as Map<String, dynamic>;
-      _fidelStages = [
-        for (final s in (map['stages'] as List)) FidelStage.fromJson(s as Map<String, dynamic>),
-      ];
-    } catch (e) {
-      loadWarnings.add('fidel_curriculum.json konnte nicht geladen werden: $e');
-      return;
-    }
-
-    for (final stage in _fidelStages) {
-      try {
-        final raw = await _bundle.loadString('assets/content/${stage.lessonFile}');
-        final list = jsonDecode(raw) as List;
-        _fidelLessonsByStage[stage.id] = [
-          for (final item in list) FidelLesson.fromJson(item as Map<String, dynamic>, stageId: stage.id),
-        ];
-      } catch (e) {
-        loadWarnings.add('Fidel-Stufe "${stage.id}" konnte nicht geladen werden und wird übersprungen: $e');
-      }
-    }
-
+  Future<void> _loadFidelExtras() async {
     try {
       final raw = await _bundle.loadString('assets/content/fidel_extras.json');
       final map = jsonDecode(raw) as Map<String, dynamic>;
@@ -128,6 +152,18 @@ class ContentRepository {
       ];
     } catch (e) {
       loadWarnings.add('fidel_extras.json konnte nicht geladen werden: $e');
+    }
+  }
+
+  Future<void> _loadOneFidelStage(FidelStage stage) async {
+    try {
+      final raw = await _bundle.loadString('assets/content/${stage.lessonFile}');
+      final list = jsonDecode(raw) as List;
+      _fidelLessonsByStage[stage.id] = [
+        for (final item in list) FidelLesson.fromJson(item as Map<String, dynamic>, stageId: stage.id),
+      ];
+    } catch (e) {
+      loadWarnings.add('Fidel-Stufe "${stage.id}" konnte nicht geladen werden und wird übersprungen: $e');
     }
   }
 
