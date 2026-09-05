@@ -1593,3 +1593,20 @@ angefordert ("überall überprüfen und korrigieren"), nicht nur das eine Beispi
   gefangen) - beide jetzt Teil der regulären Testsuite, nicht mehr nur der manuell auszuführenden
   `tool/`-Skripte, damit dieser Fehler nie wieder unbemerkt zurückkommen kann.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 249/249 grün (247 + 2 neue).
+
+## Etappe 29 Nachtrag: die 97 fehlenden Aufnahmen nachgeliefert
+
+Nutzer hat beide Colab-Ausgaben abgelegt (`tool/incoming/audio_output.zip` für Amharisch,
+`audio_output_ti.zip` für Tigrinya).
+
+- **Die Tigrinya-Zip enthielt versehentlich alle 97 Dateien statt nur der 66 tigrinischen** - offenbar
+  wurde die komplette Arbeitsliste durch die Tigrinya-Pipeline geschickt statt nur
+  `audio_worklist_ti.csv`. Die 31 amharischen Sätze waren darin also mit der falschen Stimme/dem
+  falschen Modell vertont. Nicht blind übernommen: nur die 66 tatsächlich in
+  `audio_worklist_ti.csv` gelisteten Dateien aus der Tigrinya-Zip verwendet, die 31 amharischen kamen
+  stattdessen korrekt aus der Amharisch-Zip.
+- **Alle 97 Dateien vor dem Einbauen auf MPEG-1 Layer III geprüft** (derselbe Test wie
+  `audio_encoding_test.dart`, vorab per Skript) - alle bestanden, keine Nacharbeit nötig.
+- **Manifest neu gebaut:** 5792 Aufnahmen, 0 fehlend, 0 verwaist - vollständige Deckung.
+- **`tool/incoming/` wie üblich geleert**, nichts davon wird committet.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 249/249 grün.
