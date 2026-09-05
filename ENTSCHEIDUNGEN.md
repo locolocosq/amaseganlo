@@ -1559,3 +1559,37 @@ das Einlösen eines Codes ist das trotzdem ein echter Rückschritt in der Bedien
 - **Beide Codes und der Test-Referenzwert neu berechnet** für die neue Iterationszahl, erneut gegen
   Node's `crypto.pbkdf2Sync` verifiziert.
 - **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 247/247 grün.
+
+## Etappe 29 Nachtrag: 97 Hörübungen ohne echte Aufnahme gefunden und behoben
+
+Nutzer-Screenshot: manche Hörübungen bleiben trotz jetzt funktionierendem Auto-Play stumm. Diesmal
+tatsächlich ein echter Content-Fehler, kein weiterer Web-Pfad-Bug - systematisch überprüft, wie
+angefordert ("überall überprüfen und korrigieren"), nicht nur das eine Beispiel repariert.
+
+- **Root Cause:** `assets/audio/manifest.json` enthielt 97 Einträge, deren referenzierte `.mp3`-Datei
+  nie existiert hat (per `git log` bestätigt: kein einziger dieser 97 Dateinamen kam je in der
+  gesamten Historie vor). Alle 97 gehören zu Sätzen aus den `sentences_fix_*`/`sentences_fix2_*`-
+  Dateien - also genau den Satz-Ersetzungsrunden aus früheren Etappe-28-Durchgängen (Ein-Wort-Satz-
+  Fix, Grammatik-Fix). Der Manifest-Eintrag wurde offenbar beim Content-Umbau mit erzeugt, die
+  eigentliche Aufnahme dafür aber nie in einer Colab-Runde nachgeliefert - 31 amharische, 66
+  tigrinische Sätze betroffen. `AudioService.speakText` fängt einen fehlgeschlagenen Abspielversuch
+  ab und fällt auf TTS zurück (kein Absturz, keine Fehlermeldung) - genau das machte den Fehler bisher
+  unsichtbar für jeden automatisierten Test, nur echtes Zuhören hat ihn aufgedeckt.
+- **`tool/build_audio_manifest_test.dart` neu laufen lassen** (baut das Manifest direkt aus den
+  tatsächlich vorhandenen Dateien, nicht aus dem alten Manifest-Inhalt) - die 97 toten Einträge sind
+  damit weg, das Manifest ist jetzt wieder ehrlich.
+- **Zusätzlich 62 verwaiste Aufnahmen gefunden und gelöscht** (`sen_gen_*`-Dateien, für die keine
+  aktuelle Vokabel/Satz/Fidel-Zeichen mehr existiert - Überbleibsel derselben Ersetzungsrunden, nur in
+  die andere Richtung: die alte Aufnahme blieb liegen, obwohl der Satz längst ersetzt wurde). Kein
+  Nutzer-sichtbarer Effekt, aber unnötiger Balast im Web-Build.
+- **`tool/export_audio_worklist_test.dart`/`export_audio_worklist_ti_test.dart` neu laufen lassen**,
+  um die 97 fehlenden Aufnahmen als frische `tool/audio_worklist.csv` (31 amharische) und
+  `tool/audio_worklist_ti.csv` (66 tigrinische Einträge) bereitzustellen - bereit für eine neue
+  Colab-Runde, derselbe Ablauf wie bei jeder früheren Aufnahme-Runde dieses Projekts. Diese 97 Sätze
+  bleiben stumm, bis eine neue Aufnahme-Runde gemacht wird - das kann ich nicht selbst erzeugen.
+- **Neuer dauerhafter Regressionstest** in `content_validation_test.dart`: "every manifest.words
+  entry points to a file that actually exists" (hätte die 97 sofort gefangen) und "every recorded
+  audio file id still matches a real lexeme/sentence/Fidel entry" (hätte die 62 verwaisten Dateien
+  gefangen) - beide jetzt Teil der regulären Testsuite, nicht mehr nur der manuell auszuführenden
+  `tool/`-Skripte, damit dieser Fehler nie wieder unbemerkt zurückkommen kann.
+- **Verifiziert:** `flutter analyze` (0 Probleme), volle Testsuite 249/249 grün (247 + 2 neue).

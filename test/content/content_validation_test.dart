@@ -260,4 +260,51 @@ void main() {
     expect(lexemesById.length, greaterThanOrEqualTo(1000),
         reason: 'Nur ${lexemesById.length} eindeutige Vokabeln, mindestens 1000 gefordert.');
   });
+
+  // Etappe 29 Nachtrag: found live (user report "manche Hörübungen sind
+  // stumm") that assets/audio/manifest.json can silently drift from reality
+  // - a manifest entry claiming a recording exists for an id whose .mp3 was
+  // never actually delivered/copied in (97 cases, all from sentence
+  // regeneration rounds whose replacement audio was never recorded). The
+  // app's own fallback logic (silence, not a crash, per AudioService's
+  // design) made this invisible in every automated test so far, since none
+  // of them check the manifest against the real filesystem - only a human
+  // actually listening ever noticed. This closes that gap for good.
+  test('every manifest.words entry points to a file that actually exists', () {
+    final manifest = _readAudioManifest();
+    final words = manifest['words'] as Map<String, dynamic>;
+    final problems = <String>[];
+    for (final entry in words.entries) {
+      final file = File('assets/${entry.value}');
+      if (!file.existsSync()) {
+        problems.add('${entry.key} -> ${entry.value} (Datei fehlt)');
+      }
+    }
+    expect(problems, isEmpty, reason: problems.join('; '));
+  });
+
+  test('every recorded audio file id still matches a real lexeme/sentence/Fidel entry', () {
+    final wordsDir = Directory('assets/audio/words');
+    if (!wordsDir.existsSync()) return;
+    final fidel = _readJsonArray('fidel.json');
+    final fidelExtras = _readJsonObject('fidel_extras.json');
+    final validIds = <String>{
+      ...lexemesById.keys,
+      ...sentencesById.keys,
+      for (final c in fidel) 'fidel_${(c as Map<String, dynamic>)['group']}_${c['order']}',
+      for (final category in ['labialized', 'other'])
+        for (final e in (fidelExtras[category] as List<dynamic>? ?? const [])) (e as Map<String, dynamic>)['id'] as String,
+    };
+    final orphaned = wordsDir
+        .listSync()
+        .whereType<File>()
+        .where((f) => f.path.endsWith('.mp3'))
+        .map((f) => f.uri.pathSegments.last)
+        .where((name) => !validIds.contains(name.substring(0, name.length - '.mp3'.length)))
+        .toList();
+    expect(orphaned, isEmpty,
+        reason: 'Verwaiste Audiodateien ohne passenden Inhalt (können gefahrlos gelöscht werden): ${orphaned.join(', ')}');
+  });
 }
+
+Map<String, dynamic> _readAudioManifest() => jsonDecode(File('assets/audio/manifest.json').readAsStringSync()) as Map<String, dynamic>;

@@ -61,3 +61,7 @@ id,kind,amharic
 "sen_fix_vg2_same2",sentence,"ንሱ ማዕረ ማዕረ እዩ።"
 "sen_fix_vg2_diff2",sentence,"ንሳ ፍልይ ዝበለ እያ።"
 "sen_fix_vg2_best2",sentence,"ንሱ ዝበለጸ እዩ።"
+"sen_fix2_jgd_frnd2",sentence,"ብጻይ መንእሰያት ኣሎ።"
+"sen_fix2_gfh_dngr",sentence,"ንሱ ሓደገኛ እዩ።"
+"sen_fix2_gfh_hazrd",sentence,"ሓደጋ (ተኽእሎ 2) ኣሎ።"
+"sen_fix2_gfh_accdnt",sentence,"ሓደጋ (ገጢሙ) ኣሎኒ።"
